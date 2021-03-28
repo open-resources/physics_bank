@@ -1,0 +1,20 @@
+- file: content/home
+
+- part: About this problem bank
+  chapters:
+    - file: content/home1
+      title: About
+
+- part: Chapter 1 - Math
+  chapters:
+    - file: content/home1
+      title: Math
+      sections:
+        - file: content/home1
+
+- part: Chapter 2 - Kinematics
+  chapters:
+    - file: content/home1
+      title: Kinematics
+      sections:
+        - file: content/home1
