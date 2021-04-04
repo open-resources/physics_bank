@@ -13,15 +13,15 @@ assets:
 substitutions:
   params:
     v: 2
-    t: 10
-    ans1: 20
-    ans2: 12
-    ans3: 0.2
-    ans4: -8
-    ans5: -10.4
+    t: 9
+    ans1: 18
+    ans2: 11
+    ans3: 0.2222222222222222
+    ans4: -7
+    ans5: -9.1
     correct_answer: nan
   vars:
-    name: Savannah
+    name: Ahmed
     vehicle: a tricycle
     title: Distance travelled
     units: m/s
