@@ -7,14 +7,16 @@
 
 - part: Chapter 1 - Math
   chapters:
-    - file: content/home1
+    - file: content/home2
       title: Math
       sections:
-        - file: content/home1
+        - file: content/problem_bank/q1/q1_sanitized
 
 - part: Chapter 2 - Kinematics
   chapters:
-    - file: content/home1
+    - file: content/home3
       title: Kinematics
       sections:
-        - file: content/home1
+        - file: content/home5
+
+    
