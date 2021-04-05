@@ -1,6 +1,8 @@
 ---
 title: Distance travelled
 type: mcq
+author: Firas Moosvi
+source: original
 tags:
 - kinematics
 - test
@@ -13,16 +15,16 @@ assets:
 substitutions:
   params:
     v: 2
-    t: 9
-    ans1: 18
-    ans2: 11
-    ans3: 0.2222222222222222
-    ans4: -7
-    ans5: -9.1
+    t: 7
+    ans1: 14
+    ans2: 9
+    ans3: 0.2857142857142857
+    ans4: -5
+    ans5: -6.5
     correct_answer: nan
   vars:
-    name: Ahmed
-    vehicle: a tricycle
+    name: Aliyah
+    vehicle: a unicycle
     title: Distance travelled
     units: m/s
 ---
@@ -35,7 +37,7 @@ How far does {{ vars.name }} travel in {{ params.t }} seconds, assuming they con
 
 <img src="ball.gif" width=300>
 
-## Answer Choices
+## Answer Section
 
 - {{ params.ans1}} {{ vars.units}} 
 - {{ params.ans2}} {{ vars.units}} 
