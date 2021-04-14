@@ -1,9 +1,9 @@
 # Title
----
+----
 Some text
 
 ## Open Physics Problem Bank Project Team Members
-***
+****
 
 | Name | GitHub handle | Preferred Email address |
 | ---- | ------------- | ----------------------- |
@@ -17,7 +17,7 @@ Some text
 | Paula Wong-Chung | KafkaNoNeko | paula.wong-chung@alumni.ubc.ca |
 
 ## Bios
-***
+****
 
 <img align="left" width="150" height="150" style="padding-right: 20px" src="img/firas.jpg"> </img>
 
@@ -36,6 +36,12 @@ I am a PhD candidate in medical physics here at UBCO. My research is in iterativ
 ### **Michael Kudla**
 
 I am a PhD student in MedPhys. I am developing a patient specific technology suite for low cost imaging and surgical tool manufacturing (3D printed) for treatment of gynecological malignancies. I am into rock climbing and ski-touring. <br><br><br><br><br>
+
+<img align="left" width="150" height="150" style="padding-right: 20px" src="img/.png"> </img>
+
+### **Graham Bovett**
+
+Some text <br><br><br><br><br>
 
 <img align="left" width="150" height="150" style="padding-right: 20px" src="img/parsa.png"> </img> 
 
@@ -59,6 +65,4 @@ I am a first year Bachelor of Arts student at UBCO planning to major in Computer
 
 ### **Paula Wong-Chung**
 
-I am a second-year Computer Science major at UBCO.  While I currently do not have any particular area of interest, my focus is on the intersection of Mathematics and Computer Science.  I enjoy trying out new things and challenging myself.   I spend my spare time listening to music, drawing, and looking for new stories to immerse myself in.
-
-This OER project holds a special significance for me.  Students in my home country are still impacted by inequalities in education which I have seen and experienced.  By contributing to this project, I hope that I would be able to help make education more accessible to students of less privileged backgrounds. <br><br><br><br><br>
+I am a second-year Computer Science major at UBCO.  While I currently do not have any particular area of interest, my focus is on the intersection of Mathematics and Computer Science.  I enjoy trying out new things and challenging myself.   I spend my spare time listening to music, drawing, and looking for new stories to immerse myself in. <br><br><br><br><br>
