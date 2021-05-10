@@ -22,18 +22,18 @@ part2:
     allow-blank: true
 substitutions:
   params:
-    v: '5.00'
-    t: '9.00'
+    v: '6.00'
+    t: '6.00'
     ans1: '4.00'
-    ans2: '45.00'
-    ans3: '14.00'
-    ans4: '0.56'
-    ans5: '-4.00'
-    ans6: '-5.20'
+    ans2: '36.00'
+    ans3: '12.00'
+    ans4: '1.00'
+    ans5: '0.00'
+    ans6: '0.00'
     correct_answer: nan
   vars:
-    name: Emilia
-    vehicle: a skateboard
+    name: Mateo
+    vehicle: a bicycle
     units: m/s
     digits_after_decimal: 2
 ---
