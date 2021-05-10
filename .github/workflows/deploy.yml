@@ -25,9 +25,9 @@ jobs:
         pip install linkify-it-py
         pip install myst-parser~=0.13
         
-      - name: execute script
-        run: |
-          python scripts/create_toc.py
+    - name: execute script
+      run: |
+        python scripts/create_toc.py
         
     # Build the book
     - name: Build the book
