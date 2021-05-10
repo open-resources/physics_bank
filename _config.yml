@@ -40,7 +40,7 @@ repository:
 sphinx:
   config:
     html_show_copyright: false
-    html_extra_path: ['files']
+    #html_extra_path: ['files']
     myst_enable_extensions: 
     - amsmath
     - colon_fence
