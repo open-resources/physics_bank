@@ -1,7 +1,7 @@
 - file: content/home
 - part: About this Problem Bank
   chapters:
-    - file: content/home
+    - file: content/about
       title: About
     - file: content/bio
       title: Project Team

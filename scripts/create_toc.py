@@ -27,7 +27,7 @@ def main():
     problems = sorted(glob.glob(str(path), recursive=True))
 
     problems = [p.strip('.md') for p in problems]
-    topics = [p.split('/')[2] for p in problems]
+    topics = set([p.split('/')[2] for p in problems])
 
     # YAML load the template toc
 
@@ -39,7 +39,7 @@ def main():
 
     for topic in topics:
         temp_dict = {'part': topic.split('.')[1],
-                    'chapters': [{'file': p} for p in problems]}
+                    'chapters': [{'file': p} for p in problems if p.split('/')[2] == topic]}
         
         dict_list.append(temp_dict)
 
