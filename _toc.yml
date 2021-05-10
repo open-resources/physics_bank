@@ -1,24 +1,22 @@
 - file: content/home
-
-- part: About this problem bank
+- part: About this Problem Bank
   chapters:
-    - file: content/home1
-      title: About
-
-- part: Chapter 1 - Math
+  - file: content/home1
+    title: About
+  - file: content/bio
+    title: Project Team
+- part: Math
   chapters:
-    - file: content/home2
-      title: Math
-      sections:
-        - file: content/problem_bank/q1/q1_sanitized
-        - file: content/problem_bank/q1/q1
-        - file: content/problem_bank/q2/halflife
-
-- part: Chapter 2 - Kinematics
+  - file: content/public/01.Math/half-life/halflife
+  - file: content/public/02.Kinematics/q1_multiple-choice/q1_multiple-choice
+  - file: content/public/03.Energy/q2_number-input/q2_number-input
+- part: Kinematics
   chapters:
-    - file: content/home3
-      title: Kinematics
-      sections:
-        - file: content/home5
-
-    
+  - file: content/public/01.Math/half-life/halflife
+  - file: content/public/02.Kinematics/q1_multiple-choice/q1_multiple-choice
+  - file: content/public/03.Energy/q2_number-input/q2_number-input
+- part: Energy
+  chapters:
+  - file: content/public/01.Math/half-life/halflife
+  - file: content/public/02.Kinematics/q1_multiple-choice/q1_multiple-choice
+  - file: content/public/03.Energy/q2_number-input/q2_number-input

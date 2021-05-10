@@ -1,6 +1,11 @@
-file: home1
+file: home
 sections:
-- file: home
+- file: bio
 - file: problem_bank/test
   sections:
-  - file: problem_bank/q1/q1
+  - file: problem_bank/q1/q1_sanitized
+    sections:
+    - file: problem_bank/q1/q1
+  - file: problem_bank/q2/halflife
+    sections:
+    - file: problem_bank/q2/halflife_sanitized

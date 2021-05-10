@@ -1,0 +1,26 @@
+- file: content/home
+
+- part: About this problem bank
+  chapters:
+    - file: content/home1
+      title: About
+    - file: content/bio
+      title: Project Team
+
+- part: Math
+  chapters:
+    - file: content/home2
+      title: Math
+      sections:
+        - file: content/problem_bank/q1/q1_sanitized
+        - file: content/problem_bank/q1/q1
+        - file: content/problem_bank/q2/halflife
+
+- part: Chapter 2 - Kinematics
+  chapters:
+    - file: content/home3
+      title: Kinematics
+      sections:
+        - file: content/home5
+
+    

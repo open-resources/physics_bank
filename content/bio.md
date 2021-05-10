@@ -23,7 +23,7 @@ Some text
 
 <br><br>
 
-<img align="left" width="150" height="150" style="padding-right: 20px" src="img/placeholder.png"> </img>
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/placeholder.png"> </img>
 
 #### **Dr. Firas Moosvi**
 
@@ -34,13 +34,13 @@ Dr. Moosvi's bio.<br><br><br><br><br><br><br>
 <br><br>
 
 
-<img align="left" width="150" height="150" style="padding-right: 20px" src="img/stephen.png"> </img>
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/stephen.png"> </img>
 
 #### **Stephen Collins**
 
 I am a PhD candidate in medical physics here at UBCO. My research is in iterative image reconstruction methods for optical CT radiochromic gel dosimetry. Outside of my research I enjoy hockey, golf and snowboarding. <br><br><br><br><br><br>
 
-<img align="left" width="150" height="150" style="padding-right: 20px" src="img/placeholder.png"> </img>
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/placeholder.png"> </img>
 
 #### **Michael Kudla**
 
@@ -50,31 +50,31 @@ I am a PhD student in MedPhys. I am developing a patient specific technology sui
 
 <br><br>
 
-<img align="left" width="150" height="150" style="padding-right: 20px" src="img/placeholder.png"> </img>
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/placeholder.png"> </img>
 
 #### **Graham Bovett**
 
 Graham's bio. <br><br><br><br><br><br><br>
 
-<img align="left" width="150" height="150" style="padding-right: 20px" src="img/abby.png"> </img>
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/abby.png"> </img>
 
 #### **Abby Kiehlbauch**
 
 I am a first year Bachelor of Arts student at UBCO planning to major in Computer Science. As it is my first year I don't have a specific area of interest, however my passions have always been mental health advocacy and social justice - I hope to find a way in which Computer Science can elevate those two fields. I am looking forward to further exploring the field of Computer Science in my next three years at UBCO. While I'm not studying or spending my days on Zoom I am usually reading, sewing, crocheting, or baking! <br><br><br><br><br>
 
-<img align="left" width="150" height="150" style="padding-right: 20px" src="img/parsa.png"> </img> 
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/parsa.png"> </img> 
 
 #### **Parsa Rajabi**
 
 I am a 5th year Computer Science student with a background in Project Management, DevOps, Software Development, and research. I have a strong passion for Computer Science Education, Computational Thinking within K-12 Education and Human-Computer Interaction (HCI). Aside from doing research and teaching, I spend my spare time cooking, traveling, hiking and volunteering in the community / on campus!<br><br><br><br><br>
 
-<img align="left" width="150" height="150" style="padding-right: 20px" src="img/paula.png"> </img>
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/paula.png"> </img>
 
 #### **Paula Wong-Chung**
 
 I am a second-year Computer Science major at UBCO.  While I currently do not have any particular area of interest, my focus is on the intersection of Mathematics and Computer Science.  I enjoy trying out new things and challenging myself.   I spend my spare time listening to music, drawing, and looking for new stories to immerse myself in. <br><br><br><br><br><br>
 
-<img align="left" width="150" height="150" style="padding-right: 20px" src="img/edris.png"> </img>
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/edris.png"> </img>
 
 #### **Edris Wu**
 
