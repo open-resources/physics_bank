@@ -5,12 +5,12 @@
     title: About
   - file: content/bio
     title: Project Team
+- part: Math
+  chapters:
+  - file: content/public/01.Math/half-life/halflife
 - part: Kinematics
   chapters:
   - file: content/public/02.Kinematics/q1_multiple-choice/q1_multiple-choice
 - part: Energy
   chapters:
   - file: content/public/03.Energy/q2_number-input/q2_number-input
-- part: Math
-  chapters:
-  - file: content/public/01.Math/half-life/halflife

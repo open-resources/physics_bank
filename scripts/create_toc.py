@@ -27,7 +27,7 @@ def main():
     problems = sorted(glob.glob(str(path), recursive=True))
 
     problems = [p.strip('.md') for p in problems]
-    topics = set([p.split('/')[2] for p in problems])
+    topics = sorted(set([p.split('/')[2] for p in problems]))
 
     # YAML load the template toc
 
