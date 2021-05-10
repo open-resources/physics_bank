@@ -12,18 +12,14 @@ tags:
 assets: null
 part1:
   type: multiple-choice
-  choices: ans1, ans2, ans3, ans4
-  answer: ans1
   units: m/s
   pl-options:
     allow-blank: true
 part2:
-  pl-options: null
-  allow-blank: true
   type: multiple-choice
-  choices: ans1, ans2, ans3, ans4
-  answer: ans1a
   units: m/s
+  pl-options:
+    allow-blank: true
 substitutions:
   params:
     v: '6.00'
@@ -36,7 +32,7 @@ substitutions:
     ans6: '0.00'
     correct_answer: nan
   vars:
-    name: Ahmed
+    name: Mateo
     vehicle: a bicycle
     units: m/s
     digits_after_decimal: 2
