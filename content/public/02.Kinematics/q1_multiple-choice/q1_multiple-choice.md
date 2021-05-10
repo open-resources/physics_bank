@@ -25,17 +25,17 @@ substitutions:
   params:
     metadata:
       title: Distance travelled (MCQ)
-    v: '2.00'
-    t: '7.00'
+    v: '5.00'
+    t: '10.00'
     ans1: '4.00'
-    ans2: '14.00'
-    ans3: '9.00'
-    ans4: '0.29'
+    ans2: '50.00'
+    ans3: '15.00'
+    ans4: '0.50'
     ans5: '-5.00'
     ans6: '-6.50'
   vars:
-    name: Emilia
-    vehicle: rollerblades
+    name: Savannah
+    vehicle: ice skates
     units: m/s
     digits_after_decimal: 2
 ---
