@@ -4,4 +4,3 @@ numpy
 docopt
 PyYAML
 pathlib
-glob
