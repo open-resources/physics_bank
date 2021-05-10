@@ -26,18 +26,18 @@ part2:
   units: m/s
 substitutions:
   params:
-    v: '5.00'
-    t: '8.00'
+    v: '3.00'
+    t: '5.00'
     ans1: '4.00'
-    ans2: '40.00'
-    ans3: '13.00'
-    ans4: '0.63'
-    ans5: '-3.00'
-    ans6: '-3.90'
+    ans2: '15.00'
+    ans3: '8.00'
+    ans4: '0.60'
+    ans5: '-2.00'
+    ans6: '-2.60'
     correct_answer: nan
   vars:
-    name: Abbas
-    vehicle: a bicycle
+    name: Maya
+    vehicle: a unicycle
     units: m/s
     digits_after_decimal: 2
 ---
