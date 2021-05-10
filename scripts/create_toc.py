@@ -31,7 +31,7 @@ def main():
 
     # YAML load the template toc
 
-    toc = pathlib.Path('toc_template.yml').read_text()
+    toc = pathlib.Path('scripts/toc_template.yml').read_text()
     toc_dicts = yaml.safe_load(toc)
 
     # Populate the TOC
