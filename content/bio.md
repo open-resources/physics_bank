@@ -1,9 +1,8 @@
 # Title
-----
+
 Some text
 
 ## Open Physics Problem Bank Project Team Members
-****
 
 | Name | GitHub handle | Preferred Email address |
 | ---- | ------------- | ----------------------- |
@@ -17,9 +16,8 @@ Some text
 | Edris Wu | edriswu | |
 
 ## Bios
-****
 
-## Principal Investigator
+### Principal Investigator
 
 <br><br>
 
@@ -29,7 +27,7 @@ Some text
 
 Dr. Moosvi's bio.<br><br><br><br><br><br><br>
 
-## Graduate students
+### Graduate students
 
 <br><br>
 
@@ -46,7 +44,7 @@ I am a PhD candidate in medical physics here at UBCO. My research is in iterativ
 
 I am a PhD student in MedPhys. I am developing a patient specific technology suite for low cost imaging and surgical tool manufacturing (3D printed) for treatment of gynecological malignancies. I am into rock climbing and ski-touring. <br><br><br><br><br>
 
-## Undergraduate students
+### Undergraduate students
 
 <br><br>
 
