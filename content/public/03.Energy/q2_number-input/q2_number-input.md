@@ -20,8 +20,8 @@ substitutions:
     ans1: '28.00'
     correct_answer: '28.00'
   vars:
-    name: Savannah
-    vehicle: a unicycle
+    name: Aliyah
+    vehicle: rollerblades
     title: Distance travelled
     units: m/s
     digits_after_decimal: 2
