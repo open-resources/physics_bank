@@ -26,15 +26,15 @@ substitutions:
     metadata:
       title: Distance travelled (MCQ)
     v: '3.00'
-    t: '8.00'
+    t: '6.00'
     ans1: '4.00'
-    ans2: '24.00'
-    ans3: '11.00'
-    ans4: '0.38'
-    ans5: '-5.00'
-    ans6: '-6.50'
+    ans2: '18.00'
+    ans3: '9.00'
+    ans4: '0.50'
+    ans5: '-3.00'
+    ans6: '-3.90'
   vars:
-    name: Ahmed
+    name: Aliyah
     vehicle: a bicycle
     units: m/s
     digits_after_decimal: 2
