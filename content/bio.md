@@ -21,7 +21,7 @@ Some text
 ## Bios
 ****
 
-## Principal Investigator
+### Principal Investigator
 
 <br><br>
 
@@ -31,7 +31,7 @@ Some text
 
 Firas Moosvi is a Lecturer at UBC Okanagan in the Computer Science, Math, Physics, and Statistics department. He teaches courses in Physics, Data Science, and Computer Science at the undergraduate and graduate levels. He has many research interests and they fall under three main umbrellas: medical imaging for applications in cancer, scholarship of teaching and learning (SoTL), and learning analytics. Most recently, he is looking at how the field of learning analytics can provide insight to surface and reduce inequities in STEM programs. Firas has a deep appreciation for data visualization, active learning, and open source projects.<br><br><br><br><br><br><br>
 
-## Graduate students
+### Graduate students
 
 <br><br>
 
@@ -47,7 +47,7 @@ I am a PhD candidate in medical physics here at UBCO. My research is in iterativ
 
 I am a PhD student in MedPhys. I am developing a patient specific technology suite for low cost imaging and surgical tool manufacturing (3D printed) for treatment of gynecological malignancies. I am into rock climbing and ski-touring. <br><br><br><br><br>
 
-## Undergraduate students
+### Undergraduate students
 
 <br><br>
 
