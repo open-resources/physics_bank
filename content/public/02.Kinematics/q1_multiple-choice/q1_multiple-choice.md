@@ -26,13 +26,13 @@ substitutions:
     metadata:
       title: Distance travelled (MCQ)
     v: '4.00'
-    t: '5.00'
+    t: '7.00'
     ans1: '4.00'
-    ans2: '20.00'
-    ans3: '9.00'
-    ans4: '0.80'
-    ans5: '-1.00'
-    ans6: '-1.30'
+    ans2: '28.00'
+    ans3: '11.00'
+    ans4: '0.57'
+    ans5: '-3.00'
+    ans6: '-3.90'
   vars:
     name: Abbas
     vehicle: a tricycle
