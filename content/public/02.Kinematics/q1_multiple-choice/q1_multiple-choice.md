@@ -26,16 +26,16 @@ substitutions:
     metadata:
       title: Distance travelled (MCQ)
     v: '5.00'
-    t: '10.00'
+    t: '9.00'
     ans1: '4.00'
-    ans2: '50.00'
-    ans3: '15.00'
-    ans4: '0.50'
-    ans5: '-5.00'
-    ans6: '-6.50'
+    ans2: '45.00'
+    ans3: '14.00'
+    ans4: '0.56'
+    ans5: '-4.00'
+    ans6: '-5.20'
   vars:
-    name: Ximena
-    vehicle: rollerblades
+    name: Aliyah
+    vehicle: a unicycle
     units: m/s
     digits_after_decimal: 2
 ---
