@@ -15,13 +15,13 @@ substitutions:
   params:
     metadata:
       title: Distance
-    v: '6.00'
-    t: '9.00'
-    ans1: '54.00'
-    correct_answer: '54.00'
+    v: '2.00'
+    t: '8.00'
+    ans1: '16.00'
+    correct_answer: '16.00'
   vars:
-    name: Savannah
-    vehicle: ice skates
+    name: Mateo
+    vehicle: a bicycle
     title: Distance travelled
     units: m/s
     digits_after_decimal: 2
