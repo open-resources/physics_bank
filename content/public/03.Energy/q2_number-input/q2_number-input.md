@@ -20,8 +20,8 @@ substitutions:
     ans1: '12.00'
     correct_answer: '12.00'
   vars:
-    name: Mateo
-    vehicle: a unicycle
+    name: Abbas
+    vehicle: a skateboard
     title: Distance travelled
     units: m/s
     digits_after_decimal: 2
