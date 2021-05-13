@@ -20,8 +20,8 @@ substitutions:
     ans1: '50.00'
     correct_answer: '50.00'
   vars:
-    name: Santiago
-    vehicle: a skateboard
+    name: Ximena
+    vehicle: ice skates
     title: Distance travelled
     units: m/s
     digits_after_decimal: 2
