@@ -15,10 +15,10 @@ substitutions:
   params:
     metadata:
       title: Distance
-    v: '2.00'
-    t: '6.00'
-    ans1: '12.00'
-    correct_answer: '12.00'
+    v: '3.00'
+    t: '9.00'
+    ans1: '27.00'
+    correct_answer: '27.00'
   vars:
     name: Abbas
     vehicle: a skateboard
