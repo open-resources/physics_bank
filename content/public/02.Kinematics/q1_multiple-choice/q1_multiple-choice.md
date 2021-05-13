@@ -26,16 +26,16 @@ substitutions:
     metadata:
       title: Distance travelled (MCQ)
     v: '6.00'
-    t: '7.00'
+    t: '6.00'
     ans1: '4.00'
-    ans2: '42.00'
-    ans3: '13.00'
-    ans4: '0.86'
-    ans5: '-1.00'
-    ans6: '-1.30'
+    ans2: '36.00'
+    ans3: '12.00'
+    ans4: '1.00'
+    ans5: '0.00'
+    ans6: '0.00'
   vars:
     name: Mateo
-    vehicle: a skateboard
+    vehicle: rollerblades
     units: m/s
     digits_after_decimal: 2
 ---
