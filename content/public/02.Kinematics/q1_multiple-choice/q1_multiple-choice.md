@@ -25,17 +25,17 @@ substitutions:
   params:
     metadata:
       title: Distance travelled (MCQ)
-    v: '6.00'
-    t: '9.00'
+    v: '2.00'
+    t: '6.00'
     ans1: '4.00'
-    ans2: '54.00'
-    ans3: '15.00'
-    ans4: '0.67'
-    ans5: '-3.00'
-    ans6: '-3.90'
+    ans2: '12.00'
+    ans3: '8.00'
+    ans4: '0.33'
+    ans5: '-4.00'
+    ans6: '-5.20'
   vars:
-    name: Savannah
-    vehicle: a unicycle
+    name: Maya
+    vehicle: a tricycle
     units: m/s
     digits_after_decimal: 2
 ---
