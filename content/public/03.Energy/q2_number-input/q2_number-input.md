@@ -15,10 +15,10 @@ substitutions:
   params:
     metadata:
       title: Distance
-    v: '2.00'
-    t: '9.00'
-    ans1: '18.00'
-    correct_answer: '18.00'
+    v: '3.00'
+    t: '5.00'
+    ans1: '15.00'
+    correct_answer: '15.00'
   vars:
     name: Ximena
     vehicle: rollerblades
