@@ -16,7 +16,8 @@ part1:
 substitutions:
   correct_answers: 45
   params:
-    metadata: Half-Life Question
+    metadata:
+      title: Half-Life Question
     a: '5.00000'
     b: '6.00000'
     T: '50.00000'
