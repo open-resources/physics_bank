@@ -34,8 +34,8 @@ substitutions:
     ans5: '1.00'
     ans6: '1.30'
   vars:
-    name: Aliyah
-    vehicle: ice skates
+    name: Mateo
+    vehicle: a skateboard
     units: m/s
     digits_after_decimal: 2
 ---
