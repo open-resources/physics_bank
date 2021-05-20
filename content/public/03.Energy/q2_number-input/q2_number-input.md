@@ -1,36 +1,55 @@
 ---
-title: Distance
-topic: Energy
+title: Distance travelled
+topic: kinematics
 author: Firas Moosvi
 source: original
-tags:
-- kinematics
-- test
+template_version: 0.2
 outcomes:
 - LO.kinematics.2305
 - LO.kinematics.2304
+tags:
+- quiz
+- homework
 assets: null
-substitutions:
-  correct_answers: {}
-  params:
-    metadata:
-      title: Distance
-    v: '4.00'
-    t: '6.00'
-    ans1: '24.00'
-    correct_answer: '24.00'
-  vars:
-    name: Savannah
-    vehicle: a bicycle
-    title: Distance travelled
-    units: m/s
-    digits_after_decimal: 2
+part1:
+  type: number-input
+  pl-customizations:
+    weight: 1
+    allow-blank: true
+    label: $d= $
+    suffix: m
+    comparison: sigfig
+    digits: 2
+substitutions: !!python/object/apply:collections.defaultdict
+  args:
+  - &id001 !!python/name:__main__.%3Clambda%3E ''
+  dictitems:
+    params: !!python/object/apply:collections.defaultdict
+      args:
+      - *id001
+      dictitems:
+        vars: !!python/object/apply:collections.defaultdict
+          args:
+          - *id001
+          dictitems:
+            name: Mateo
+            vehicle: rollerblades
+            title: Distance travelled
+            units: m/s
+        v: 7
+        t: 10
+    correct_answers: !!python/object/apply:collections.defaultdict
+      args:
+      - *id001
+      dictitems:
+        part1_ans: 70
 ---
-# {{ params.metadata.title }}
+# {{ params.vars.title }}
 ## Question Text
 
-{{ vars.name }} is traveling on {{ vars.vehicle }} at {{ params.v }} {{ vars.units }}.
-How far does {{ vars.name }} travel in {{ params.t }} seconds, assuming they continue at the same velocity?
-## Answer Section
+{{ params.vars.name }} is traveling on {{ params.vars.vehicle }} at {{ params.v }} {{ params.vars.units }}.
+How far does {{ params.vars.name }} travel in {{ params.t }} seconds, assuming they continue at the same velocity?
 
-Please enter in a numeric value in {{ vars.units }} to {{ vars.digits_after_decimal }} decimal places.
+### Answer Section
+
+Please enter in a numeric value in {{ params.vars.units }}.

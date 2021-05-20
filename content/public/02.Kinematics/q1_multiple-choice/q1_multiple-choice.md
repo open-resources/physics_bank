@@ -2,66 +2,88 @@
 title: Distance travelled
 topic: Kinematics
 author: Firas Moosvi
-template_version: 0.2
 source: original
+template_version: 0.2
+outcomes:
+- LO.kinematics.2305
+- LO.kinematics.2304
 tags:
-- Firas Moosvi
-- test
-- 2305
-- 2304
+- quiz
+- homework
 assets: null
 part1:
   type: multiple-choice
-  units: m/s
-  pl-options:
-    allow-blank: true
-part2:
-  type: multiple-choice
-  units: m/s
-  pl-options:
-    allow-blank: true
-substitutions:
-  correct_answers: {}
-  params:
-    metadata:
-      title: Distance travelled (MCQ)
-    v: '4.00'
-    t: '6.00'
-    ans1: '4.00'
-    ans2: '24.00'
-    ans3: '10.00'
-    ans4: '0.67'
-    ans5: '-2.00'
-    ans6: '-2.60'
-  vars:
-    name: Mateo
-    vehicle: a unicycle
-    units: m/s
-    digits_after_decimal: 2
+  pl-customizations:
+    weight: 1
+substitutions: !!python/object/apply:collections.defaultdict
+  args:
+  - &id001 !!python/name:__main__.%3Clambda%3E ''
+  dictitems:
+    params: !!python/object/apply:collections.defaultdict
+      args:
+      - *id001
+      dictitems:
+        vars: !!python/object/apply:collections.defaultdict
+          args:
+          - *id001
+          dictitems:
+            name: Savannah
+            vehicle: a tricycle
+            units: m/s
+        v: 2
+        t: 10
+        part1: !!python/object/apply:collections.defaultdict
+          args:
+          - *id001
+          dictitems:
+            ans1: !!python/object/apply:collections.defaultdict
+              args:
+              - *id001
+              dictitems:
+                value: 42
+                correct: false
+            ans2: !!python/object/apply:collections.defaultdict
+              args:
+              - *id001
+              dictitems:
+                value: 20
+                correct: true
+            ans3: !!python/object/apply:collections.defaultdict
+              args:
+              - *id001
+              dictitems:
+                value: 12
+                correct: false
+            ans4: !!python/object/apply:collections.defaultdict
+              args:
+              - *id001
+              dictitems:
+                value: 0.2
+                correct: false
+            ans5: !!python/object/apply:collections.defaultdict
+              args:
+              - *id001
+              dictitems:
+                value: -8
+                correct: false
+            ans6: !!python/object/apply:collections.defaultdict
+              args:
+              - *id001
+              dictitems:
+                value: -10.4
+                correct: false
 ---
-# {{ params.metadata.title }}
-## Part A
+# {{ params.vars.title }}
+## Part 1
 
-{{ vars.name }} is traveling on {{ vars.vehicle }} at {{ params.v }} {{ vars.units }}.
-How far does {{ vars.name }} travel in {{ params.t }} seconds, assuming they continue at the same velocity?
-
-### Answer Section
-
-- {{ params.ans1}} {{ vars.units}}
-- {{ params.ans2}} {{ vars.units}}
-- {{ params.ans3}} {{ vars.units}}
-- {{ params.ans4}} {{ vars.units}}
-- {{ params.ans5}} {{ vars.units}}
-- {{ params.ans6}} {{ vars.units}}
-## Part B
-
-More instructions
+{{ params.vars.name }} is traveling on {{ params.vars.vehicle }} at {{ params.v }} {{ params.vars.units }}.
+How far does {{ params.vars.name }} travel in {{ params.t }} seconds, assuming they continue at the same velocity?
 
 ### Answer Section
 
-- {{ params.ans1}} {{ vars.units}}
-- {{ params.ans2}} {{ vars.units}}
-- {{ params.ans3}} {{ vars.units}}
-- {{ params.ans4}} {{ vars.units}}
-- {{ params.ans5}} {{ vars.units}}
-- {{ params.ans6}} {{ vars.units}}
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params.part1.ans6.value }} {{ params.vars.units}}
