@@ -32,17 +32,17 @@ substitutions: !!python/object/apply:collections.defaultdict
           args:
           - *id001
           dictitems:
-            name: Ximena
-            vehicle: a tricycle
+            name: Ahmed
+            vehicle: a bicycle
             title: Distance travelled
             units: m/s
-        v: 6
-        t: 8
+        v: 4
+        t: 5
     correct_answers: !!python/object/apply:collections.defaultdict
       args:
       - *id001
       dictitems:
-        part1_ans: 48
+        part1_ans: 20
 ---
 # {{ params.vars.title }}
 ## Question Text

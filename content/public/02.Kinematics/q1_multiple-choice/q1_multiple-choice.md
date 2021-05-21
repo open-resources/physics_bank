@@ -27,10 +27,10 @@ substitutions: !!python/object/apply:collections.defaultdict
           args:
           - *id001
           dictitems:
-            name: Abbas
-            vehicle: ice skates
+            name: Aliyah
+            vehicle: rollerblades
             units: m/s
-        v: 4
+        v: 6
         t: 10
         part1: !!python/object/apply:collections.defaultdict
           args:
@@ -46,31 +46,31 @@ substitutions: !!python/object/apply:collections.defaultdict
               args:
               - *id001
               dictitems:
-                value: 40
+                value: 60
                 correct: true
             ans3: !!python/object/apply:collections.defaultdict
               args:
               - *id001
               dictitems:
-                value: 14
+                value: 16
                 correct: false
             ans4: !!python/object/apply:collections.defaultdict
               args:
               - *id001
               dictitems:
-                value: 0.4
+                value: 0.6
                 correct: false
             ans5: !!python/object/apply:collections.defaultdict
               args:
               - *id001
               dictitems:
-                value: -6
+                value: -4
                 correct: false
             ans6: !!python/object/apply:collections.defaultdict
               args:
               - *id001
               dictitems:
-                value: -7.800000000000001
+                value: -5.2
                 correct: false
 ---
 # {{ params.vars.title }}
