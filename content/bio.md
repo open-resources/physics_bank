@@ -3,7 +3,6 @@
 Some text
 
 ## Open Physics Problem Bank Project Team Members
-****
 
 | Name | GitHub handle | Preferred Email address |
 | ---- | ------------- | ----------------------- |
@@ -18,7 +17,7 @@ Some text
 | Edris Wu | edriswu | edriswu@gmail.com |
 
 ## Bios
-****
+
 
 ### Principal Investigator
 
