@@ -18,30 +18,30 @@ part1:
 substitutions:
   params:
     vars:
-      name: Aliyah
-      vehicle: rollerblades
+      name: Savannah
+      vehicle: a skateboard
       units: m/s
       title: Distance travelled
-    v: 6
-    t: 6
+    v: 7
+    t: 8
     part1:
       ans1:
         value: 42
         correct: false
       ans2:
-        value: 36
+        value: 56
         correct: true
       ans3:
-        value: 12
+        value: 15
         correct: false
       ans4:
-        value: 1.0
+        value: 0.875
         correct: false
       ans5:
-        value: 0
+        value: -1
         correct: false
       ans6:
-        value: 0.0
+        value: -1.3
         correct: false
 ---
 # {{ params.vars.title }}
