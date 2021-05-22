@@ -30,9 +30,9 @@ substitutions: !!python/object/apply:collections.defaultdict
           _type: sympy
           _value: m*v**2/r
           _variables:
-          - v
           - m
           - r
+          - v
 ---
 # {{ vars.title }}
 ## Question Text
