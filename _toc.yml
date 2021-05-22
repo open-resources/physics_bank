@@ -5,12 +5,9 @@
     title: About
   - file: content/bio
     title: Project Team
-- part: Math
+- part: Kinematics(1D)
   chapters:
-  - file: content/public/01.Math/half-life/halflife
-- part: Kinematics
+  - file: content/public/003.Kinematics(1D)/distance_travelled/distance_travelled
+- part: Kinematics(2D and 3D)
   chapters:
-  - file: content/public/02.Kinematics/q1_multiple-choice/q1_multiple-choice
-- part: Energy
-  chapters:
-  - file: content/public/03.Energy/q2_number-input/q2_number-input
+  - file: content/public/004.Kinematics(2D and 3D)/Uniform Circular Motion/centripetal_force/centripetal_force
