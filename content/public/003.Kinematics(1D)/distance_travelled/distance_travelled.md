@@ -15,63 +15,34 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions: !!python/object/apply:collections.defaultdict
-  args:
-  - &id001 !!python/name:__main__.%3Clambda%3E ''
-  dictitems:
-    params: !!python/object/apply:collections.defaultdict
-      args:
-      - *id001
-      dictitems:
-        vars: !!python/object/apply:collections.defaultdict
-          args:
-          - *id001
-          dictitems:
-            name: Abbas
-            vehicle: a unicycle
-            units: m/s
-        v: 7
-        t: 8
-        part1: !!python/object/apply:collections.defaultdict
-          args:
-          - *id001
-          dictitems:
-            ans1: !!python/object/apply:collections.defaultdict
-              args:
-              - *id001
-              dictitems:
-                value: 42
-                correct: false
-            ans2: !!python/object/apply:collections.defaultdict
-              args:
-              - *id001
-              dictitems:
-                value: 56
-                correct: true
-            ans3: !!python/object/apply:collections.defaultdict
-              args:
-              - *id001
-              dictitems:
-                value: 15
-                correct: false
-            ans4: !!python/object/apply:collections.defaultdict
-              args:
-              - *id001
-              dictitems:
-                value: 0.875
-                correct: false
-            ans5: !!python/object/apply:collections.defaultdict
-              args:
-              - *id001
-              dictitems:
-                value: -1
-                correct: false
-            ans6: !!python/object/apply:collections.defaultdict
-              args:
-              - *id001
-              dictitems:
-                value: -1.3
-                correct: false
+substitutions:
+  params:
+    vars:
+      name: Aliyah
+      vehicle: rollerblades
+      units: m/s
+      title: Distance travelled
+    v: 6
+    t: 6
+    part1:
+      ans1:
+        value: 42
+        correct: false
+      ans2:
+        value: 36
+        correct: true
+      ans3:
+        value: 12
+        correct: false
+      ans4:
+        value: 1.0
+        correct: false
+      ans5:
+        value: 0
+        correct: false
+      ans6:
+        value: 0.0
+        correct: false
 ---
 # {{ params.vars.title }}
 ## Part 1
