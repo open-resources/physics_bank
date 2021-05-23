@@ -19,11 +19,11 @@ substitutions:
   params:
     vars:
       name: Mateo
-      vehicle: rollerblades
+      vehicle: ice skates
       units: m/s
       title: Distance travelled
-    v: 7
-    t: 5
+    v: 5
+    t: 7
     part1:
       ans1:
         value: 42
@@ -35,13 +35,13 @@ substitutions:
         value: 12
         correct: false
       ans4:
-        value: 1.4
+        value: 0.7142857142857143
         correct: false
       ans5:
-        value: 2
+        value: -2
         correct: false
       ans6:
-        value: 2.6
+        value: -2.6
         correct: false
 ---
 # {{ params.vars.title }}
