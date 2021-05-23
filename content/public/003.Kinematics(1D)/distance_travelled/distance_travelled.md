@@ -18,21 +18,21 @@ part1:
 substitutions:
   params:
     vars:
-      name: Lorenzo
+      name: Mateo
       vehicle: a bicycle
       units: m/s
       title: Distance travelled
-    v: 6
-    t: 6
+    v: 5
+    t: 5
     part1:
       ans1:
         value: 42
         correct: false
       ans2:
-        value: 36
+        value: 25
         correct: true
       ans3:
-        value: 12
+        value: 10
         correct: false
       ans4:
         value: 1.0
