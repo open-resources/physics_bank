@@ -18,31 +18,25 @@ part1:
 substitutions:
   params:
     vars:
-      name: Abbas
+      name: Ximena
       vehicle: a unicycle
       units: m/s
       title: Distance travelled
-    v: 5
-    t: 5
+    v: 3
+    t: 7
     part1:
       ans1:
         value: 42
-        correct: false
       ans2:
-        value: 25
-        correct: true
+        value: 21
       ans3:
         value: 10
-        correct: false
       ans4:
-        value: 1.0
-        correct: false
+        value: 0.42857142857142855
       ans5:
-        value: 0
-        correct: false
+        value: -4
       ans6:
-        value: 0.0
-        correct: false
+        value: -5.2
 ---
 # {{ params.vars.title }}
 ## Part 1
