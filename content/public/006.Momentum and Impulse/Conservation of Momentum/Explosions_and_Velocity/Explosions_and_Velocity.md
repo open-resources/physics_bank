@@ -18,12 +18,13 @@ substitutions:
   params:
     vars:
       title: Explosions and Velocity
+      units: m/s
     part1:
-      I_A: 7
+      I_A: 4
       I_B: 6
-      v_A: 21
-      v_B: 26
-      m_pumpkin: 2
+      v_A: 10
+      v_B: 34
+      m_pumpkin: 8
       ans1:
         value: Yes, because of conservation of momentum
         correct: true
@@ -32,19 +33,19 @@ substitutions:
           changed the momentum of the pumpkin.
         correct: false
       ans3:
-        value: "No, because the velocity should be $v = $ 47$\frac{m}{s}$"
+        value: No, because the velocity should be $v = $ 44 m/s
         correct: false
       ans4:
-        value: "No, because the velocity should be $v = $ 23.5$\frac{m}{s}$"
+        value: No, because the velocity should be $v = $ 5.5 m/s
         correct: false
 ---
 # {{ params.vars.title }}
 ## Part 1
 
 I put a bunch of explosives inside of a {{params.part1.m_pumpkin}}kg pumpkin, which explodes in two pieces.
-Piece A has inertia {{params.part1.I_A}}kg and velocity $v_A$ = {{params.part1.v_A}}$\\frac{m}{s}$.
-Piece B has inertia {{params.part1.I_B}}kg, and velocity $v_B$ = {{params.part1.v_B}}$\\frac{m}{s}$.
-Is it true that the pumpkin must initially have had velocity $v$ = {{ (params.part1.I_A*params.part1.v_A +  params.part1.I_B*params.part1.v_B)/params.part1.m_pumpkin }}$\\frac{m}{s}$ ?
+Piece A has inertia {{params.part1.I_A}}kg and velocity $v_A$ = {{params.part1.v_A}} {{ params.vars.units }}.
+Piece B has inertia {{params.part1.I_B}}kg, and velocity $v_B$ = {{params.part1.v_B}} {{ params.vars.units }}.
+Is it true that the pumpkin must initially have had velocity $v$ = {{ (params.part1.I_A*params.part1.v_A +  params.part1.I_B*params.part1.v_B)/params.part1.m_pumpkin }} {{ params.vars.units }} ?
 
 ### Answer Section
 
