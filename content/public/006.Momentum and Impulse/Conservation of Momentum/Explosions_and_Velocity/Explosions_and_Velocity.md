@@ -20,11 +20,11 @@ substitutions:
       title: Explosions and Velocity
       units: m/s
     part1:
-      I_A: 6
-      I_B: 3
-      v_A: 12
-      v_B: 15
-      m_pumpkin: 4
+      I_A: 7
+      I_B: 8
+      v_A: 22
+      v_B: 26
+      m_pumpkin: 3
       ans1:
         value: Yes, because of conservation of momentum
         correct: true
@@ -33,10 +33,10 @@ substitutions:
           changed the momentum of the pumpkin.
         correct: false
       ans3:
-        value: No, because the velocity should be $v = $ 27 m/s
+        value: No, because the velocity should be $v = $ 48 m/s
         correct: false
       ans4:
-        value: No, because the velocity should be $v = $ 6.75 m/s
+        value: No, because the velocity should be $v = $ 16.0 m/s
         correct: false
 ---
 # {{ params.vars.title }}
