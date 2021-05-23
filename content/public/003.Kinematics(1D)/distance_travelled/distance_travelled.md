@@ -19,7 +19,7 @@ substitutions:
   params:
     vars:
       name: Maya
-      vehicle: a skateboard
+      vehicle: rollerblades
       units: m/s
       title: Distance travelled
     v: 4
