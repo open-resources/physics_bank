@@ -2,7 +2,7 @@
 title: Airbags
 topic: Momentum and Impulse
 author: Jake Bobowski
-source: original
+source: 2013 Final Q2
 template_version: 0.3
 outcomes:
 - 6.3.1.2
@@ -21,20 +21,15 @@ substitutions:
       ans1:
         value: Increase the time of impact, increasing the average acceleration of
           the person they are protecting
-        correct: false
       ans2:
         value: Increase the time of impact, decreasing the average acceleration of
           the person they are protecting
-        correct: true
       ans3:
         value: Increase the time of impact, decreasing the impulse on the person
-        correct: false
       ans4:
         value: Increase the time of impact, increasing the impulse on the person
-        correct: false
       ans5:
         value: Explode to give you more oxygen to breathe
-        correct: false
 ---
 # {{ params.vars.title }}
 ## Part 1
