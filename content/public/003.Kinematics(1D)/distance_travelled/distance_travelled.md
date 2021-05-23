@@ -18,24 +18,24 @@ part1:
 substitutions:
   params:
     vars:
-      name: Aliyah
+      name: Santiago
       vehicle: a skateboard
       units: m/s
       title: Distance travelled
-    v: 6
-    t: 8
+    v: 5
+    t: 7
     part1:
       ans1:
         value: 42
         correct: false
       ans2:
-        value: 48
+        value: 35
         correct: true
       ans3:
-        value: 14
+        value: 12
         correct: false
       ans4:
-        value: 0.75
+        value: 0.7142857142857143
         correct: false
       ans5:
         value: -2
