@@ -18,24 +18,24 @@ part1:
 substitutions:
   params:
     vars:
-      name: Santiago
-      vehicle: a skateboard
+      name: Ahmed
+      vehicle: a tricycle
       units: m/s
       title: Distance travelled
-    v: 4
-    t: 7
+    v: 2
+    t: 5
     part1:
       ans1:
         value: 42
         correct: false
       ans2:
-        value: 28
+        value: 10
         correct: true
       ans3:
-        value: 11
+        value: 7
         correct: false
       ans4:
-        value: 0.5714285714285714
+        value: 0.4
         correct: false
       ans5:
         value: -3
