@@ -18,30 +18,30 @@ part1:
 substitutions:
   params:
     vars:
-      name: Abbas
+      name: Emilia
       vehicle: ice skates
       units: m/s
       title: Distance travelled
-    v: 7
-    t: 8
+    v: 2
+    t: 10
     part1:
       ans1:
         value: 42
         correct: false
       ans2:
-        value: 56
+        value: 20
         correct: true
       ans3:
-        value: 15
+        value: 12
         correct: false
       ans4:
-        value: 0.875
+        value: 0.2
         correct: false
       ans5:
-        value: -1
+        value: -8
         correct: false
       ans6:
-        value: -1.3
+        value: -10.4
         correct: false
 ---
 # {{ params.vars.title }}
