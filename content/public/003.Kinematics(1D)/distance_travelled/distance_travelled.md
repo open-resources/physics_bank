@@ -18,21 +18,21 @@ part1:
 substitutions:
   params:
     vars:
-      name: Aliyah
-      vehicle: rollerblades
+      name: Abbas
+      vehicle: a tricycle
       units: m/s
       title: Distance travelled
-    v: 6
-    t: 6
+    v: 7
+    t: 7
     part1:
       ans1:
         value: 42
         correct: false
       ans2:
-        value: 36
+        value: 49
         correct: true
       ans3:
-        value: 12
+        value: 14
         correct: false
       ans4:
         value: 1.0

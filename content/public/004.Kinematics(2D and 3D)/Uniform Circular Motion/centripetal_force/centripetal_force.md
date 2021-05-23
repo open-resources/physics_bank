@@ -22,14 +22,6 @@ substitutions:
   params:
     vars:
       title: Centripetal Motion
-  correct_answers:
-    part1_ans:
-      _type: sympy
-      _value: m*v**2/r
-      _variables:
-      - m
-      - v
-      - r
 ---
 # {{ params.vars.title }}
 ## Question Text
@@ -45,5 +37,3 @@ Note that it may not be necessary to use every variable. Use the following table
 | $r$  | r  |
 
 ### Answer Section
-
-{{ substitutions.part1.label }}
