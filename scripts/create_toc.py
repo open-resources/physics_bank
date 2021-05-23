@@ -20,14 +20,13 @@ def main():
     #     path = pathlib.Path(args['[path]'])
     # else:
     
-    path = pathlib.Path('content/public/') / "**/*.md"
+    path = pathlib.Path('content/public/')
 
-    # Find problems using glob and set topics 
+    # Get all the md files in the bank
+    files = list(path.glob("**/*.md"))
 
-    problems = sorted(glob.glob(str(path), recursive=True))
-
-    problems = [p.strip('.md') for p in problems]
-    topics = sorted(set([p.split('/')[2] for p in problems]))
+    # Extract topics from the file names
+    topics = sorted(set([file.parts[2] for file in files]))
 
     # YAML load the template toc
 
@@ -38,9 +37,13 @@ def main():
     dict_list = []
 
     for topic in topics:
-        temp_dict = {'part': topic.split('.')[1],
-                    'chapters': [{'file': p} for p in problems if p.split('/')[2] == topic]}
         
+        # get all questions for a particular topic
+        topic_questions = [str(f).split('.md')[0] for f in files if f.parts[2]==topic]
+        
+        temp_dict = {'part': topic.split('.')[1],
+                    'chapters': [{'file': p} for p in topic_questions]}
+
         dict_list.append(temp_dict)
 
     # Add the dict_list with problem TOC to the template TOC
