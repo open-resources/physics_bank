@@ -18,24 +18,24 @@ part1:
 substitutions:
   params:
     vars:
-      name: Abbas
-      vehicle: a tricycle
+      name: Savannah
+      vehicle: ice skates
       units: m/s
       title: Distance travelled
-    v: 3
-    t: 6
+    v: 5
+    t: 8
     part1:
       ans1:
         value: 42
         correct: false
       ans2:
-        value: 18
+        value: 40
         correct: true
       ans3:
-        value: 9
+        value: 13
         correct: false
       ans4:
-        value: 0.5
+        value: 0.625
         correct: false
       ans5:
         value: -3
