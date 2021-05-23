@@ -18,8 +18,8 @@ part1:
 substitutions:
   params:
     vars:
-      name: Ximena
-      vehicle: ice skates
+      name: Mateo
+      vehicle: rollerblades
       units: m/s
       title: Distance travelled
     v: 2
