@@ -22,21 +22,21 @@ substitutions:
       vehicle: a tricycle
       units: m/s
       title: Distance travelled
-    v: 2
-    t: 6
+    v: 3
+    t: 9
     part1:
       ans1:
         value: 42
       ans2:
-        value: 12
+        value: 27
       ans3:
-        value: 8
+        value: 12
       ans4:
         value: 0.3333333333333333
       ans5:
-        value: -4
+        value: -6
       ans6:
-        value: -5.2
+        value: -7.800000000000001
 ---
 # {{ params.vars.title }}
 ## Part 1
