@@ -18,30 +18,30 @@ part1:
 substitutions:
   params:
     vars:
-      name: Abbas
+      name: Santiago
       vehicle: a tricycle
       units: m/s
       title: Distance travelled
-    v: 7
-    t: 8
+    v: 4
+    t: 7
     part1:
       ans1:
         value: 42
         correct: false
       ans2:
-        value: 56
+        value: 28
         correct: true
       ans3:
-        value: 15
+        value: 11
         correct: false
       ans4:
-        value: 0.875
+        value: 0.5714285714285714
         correct: false
       ans5:
-        value: -1
+        value: -3
         correct: false
       ans6:
-        value: -1.3
+        value: -3.9000000000000004
         correct: false
 ---
 # {{ params.vars.title }}
