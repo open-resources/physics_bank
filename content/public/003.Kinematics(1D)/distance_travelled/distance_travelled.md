@@ -18,25 +18,25 @@ part1:
 substitutions:
   params:
     vars:
-      name: Mateo
+      name: Savannah
       vehicle: rollerblades
       units: m/s
       title: Distance travelled
-    v: 2
+    v: 3
     t: 6
     part1:
       ans1:
         value: 42
       ans2:
-        value: 12
+        value: 18
       ans3:
-        value: 8
+        value: 9
       ans4:
-        value: 0.3333333333333333
+        value: 0.5
       ans5:
-        value: -4
+        value: -3
       ans6:
-        value: -5.2
+        value: -3.9000000000000004
 ---
 # {{ params.vars.title }}
 ## Part 1
