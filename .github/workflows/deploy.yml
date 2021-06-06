@@ -34,17 +34,18 @@ jobs:
     - name: execute script
       run: |
         python scripts/create_toc.py
+          
+    # Build the book
+    - name: Build the book
+      run: |
+        jupyter-book toc migrate _toc.yml -o _toc.yml
+        jupyter-book build .
         
     - name: Commit updated TOC
       uses: EndBug/add-and-commit@v7
       with:
         message: 'Update TOC via GH Action'
-          
-    # Build the book
-    - name: Build the book
-      run: |
-        jupyter-book build .
-        
+
     # Push to server
     - name: rsync and ssh
       env:
