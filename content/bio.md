@@ -1,6 +1,6 @@
 # Title
 
-Some text
+
 
 ## Open Physics Problem Bank Project Team Members
 
@@ -12,7 +12,9 @@ Some text
 | Graham Bovett | gbovett | gbovett@gmail.com |
 | Abby Kiehlbauch | abbykiehlbauch | abbykiehlbauch@gmail.com|
 | Maya Patel | maya-patel | mayapatel9@gmail.com |
+| Akshat Poddar | | |
 | Parsa Rajabi | Parsa-Rajabi |ParsaRajabiPR@gmail.com |
+| Joseph Wandinger | | joseph.wandinger@alumni.ubc.ca |
 | Paula Wong-Chung | KafkaNoNeko | paula.wong-chung@alumni.ubc.ca |
 | Edris Wu | edriswu | edriswu@gmail.com |
 
@@ -67,6 +69,12 @@ I am a first year Bachelor of Arts student at UBCO planning to major in Computer
 
 I am a third year physics student at UBCO. I am passionate about physics education and hoping to pursue a masters after I graduate. I have always loved teaching and I was excited about this opportunity to make physics education more accessible. When I am not studying, you can find me hiking, skiing or rock climbing. <br><br><br><br><br>
 
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/akshat.png"> </img> 
+
+#### **Akshat Poddar**
+
+I am a 2nd year undergraduate student at UBC. My interests lie in the fields of Computer Science and Mathematics and I spend my time making myself more proficient in these disciplines. When I am not busy learning new technologies and frameworks, I spend most of my time on YouTube. I love to sing, cruise around on my skateboard, and enjoy a good game of the Settlers of Catan.  <br><br><br><br><br>
+
 <img align="left" width="150" height="150" style="padding-right: 20px" src="../images/parsa.png"> </img> 
 
 #### **Parsa Rajabi**
@@ -74,6 +82,12 @@ I am a third year physics student at UBCO. I am passionate about physics educati
 I am a 5th year Computer Science student with a background in Project Management, DevOps, Software Development, and research. I have a strong passion for Computer Science Education, Computational Thinking within K-12 Education and Human-Computer Interaction (HCI). Aside from doing research and teaching, I spend my spare time cooking, traveling, hiking and volunteering in the community / on campus!
 
 [![Linkedin](../images/linkedin_logo.png) LinkedIn](https://www.linkedin.com/in/parsa-rajabi/) <br><br><br><br><br>
+
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/joey.png"> </img>
+
+#### **Joseph Wandinger**
+
+I am a fifth-year B.Sc. student at UBC Okanagan pursuing honours in physics and a minor in mathematics. I have always been passionate about making physics education more accessible to everyone, so I am excited to be a part of this project. In my research and honours thesis, I have investigated mid-range wireless power transfer using inductively-coupled loop-gap resonators. Outside of my academic pursuits, I am a student pilot of fixed-wing aircraft and I am pursuing my private pilot licence. In my spare time, I enjoy waterskiing, snowboarding, and playing music. <br><br><br><br><br><br>
 
 <img align="left" width="150" height="150" style="padding-right: 20px" src="../images/paula.png"> </img>
 
