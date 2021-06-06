@@ -20,20 +20,20 @@ substitutions:
       title: Explosions and Velocity
       units: m/s
     part1:
-      I_A: 8
-      I_B: 2
-      v_A: 29
-      v_B: 34
-      m_pumpkin: 2
+      I_A: 7
+      I_B: 4
+      v_A: 12
+      v_B: 10
+      m_pumpkin: 8
       ans1:
         value: Yes, because of conservation of momentum
       ans2:
         value: No, because we have not accounted for how the explosion might have
           changed the momentum of the pumpkin.
       ans3:
-        value: No, because the velocity should be $v = $ 63 m/s
+        value: No, because the velocity should be $v = $ 22 m/s
       ans4:
-        value: No, because the velocity should be $v = $ 31.5 m/s
+        value: No, because the velocity should be $v = $ 2.75 m/s
 ---
 # {{ params.vars.title }}
 ## Part 1
@@ -49,3 +49,7 @@ Is it true that the pumpkin must initially have had velocity $v$ = {{ (params.pa
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
+
+## Attribution
+
+![Image representing the Creative Commons 4.0 BY-NC-SA license.](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).

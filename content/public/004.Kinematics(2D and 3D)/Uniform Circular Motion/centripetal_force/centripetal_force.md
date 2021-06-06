@@ -37,3 +37,7 @@ Note that it may not be necessary to use every variable. Use the following table
 | $r$  | r  |
 
 ### Answer Section
+
+## Attribution
+
+![Image representing the Creative Commons 4.0 BY-NC-SA license.](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).

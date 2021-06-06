@@ -39,11 +39,11 @@ substitutions:
       title: Spring on an Incline
       units1: m
       units2: J
-    m: 2
-    k: 651
-    theta: 30
+    m: 4
+    k: 653
+    theta: 28
     mu: 0.25
-    d: 6
+    d: 5
     g: 9.8
 ---
 # {{ params.vars.title }}
@@ -65,3 +65,7 @@ Please enter in a numeric value in {{ params.vars.units1 }}.
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units2 }}.
+
+## Attribution
+
+![Image representing the Creative Commons 4.0 BY-NC-SA license.](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).

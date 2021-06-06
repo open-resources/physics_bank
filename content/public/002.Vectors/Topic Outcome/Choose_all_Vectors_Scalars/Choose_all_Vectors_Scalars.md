@@ -19,20 +19,20 @@ substitutions:
   params:
     vars:
       title: Choose all Vectors and Scalars
-    choice: scalars
+    choice: vectors
     part1:
       ans1:
-        value: Speed
+        value: The position in 3 dimensions
       ans2:
-        value: Pressure
+        value: Displacement
       ans3:
-        value: Mass
-      ans4:
         value: Force
-      ans5:
+      ans4:
         value: velocity
+      ans5:
+        value: Mass
       ans6:
-        value: Lift
+        value: Power
 ---
 # {{ params.vars.title }}
 ## Question Text
@@ -51,3 +51,7 @@ Note: You will be awarded full marks only if you select all the correct choices,
 - {{ params.part1.ans4.value}}
 - {{ params.part1.ans5.value}}
 - {{ params.part1.ans6.value}}
+
+## Attribution
+
+![Image representing the Creative Commons 4.0 BY-NC-SA license.](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).

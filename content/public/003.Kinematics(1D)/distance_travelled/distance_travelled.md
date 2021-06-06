@@ -18,25 +18,25 @@ part1:
 substitutions:
   params:
     vars:
-      name: Ximena
-      vehicle: a tricycle
+      name: Lorenzo
+      vehicle: a bicycle
       units: m/s
       title: Distance travelled
-    v: 6
-    t: 10
+    v: 7
+    t: 5
     part1:
       ans1:
         value: 42
       ans2:
-        value: 60
+        value: 35
       ans3:
-        value: 16
+        value: 12
       ans4:
-        value: 0.6
+        value: 1.4
       ans5:
-        value: -4
+        value: 2
       ans6:
-        value: -5.2
+        value: 2.6
 ---
 # {{ params.vars.title }}
 ## Part 1
@@ -52,3 +52,7 @@ How far does {{ params.vars.name }} travel in {{ params.t }} seconds, assuming t
 - {{ params.part1.ans4.value }} {{ params.vars.units}}
 - {{ params.part1.ans5.value }} {{ params.vars.units}}
 - {{ params.part1.ans6.value }} {{ params.vars.units}}
+
+## Attribution
+
+![Image representing the Creative Commons 4.0 BY-NC-SA license.](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).

@@ -20,17 +20,17 @@ substitutions:
     vars:
       units: rad/s
       title: Wheel of Fortune
-    w_i: 0.7853981633974483
-    t: 4
+    w_i: 1.0471975511965976
+    t: 5
     part1:
       ans1:
-        value: 0.02
+        value: 0.05
       ans2:
-        value: 0.15
+        value: 0.22
       ans3:
-        value: 0.31
+        value: 0.44
       ans4:
-        value: 0.79
+        value: 1.05
 ---
 # {{ params.vars.title }}
 ## Part 1
@@ -46,3 +46,7 @@ With which initial velocity should I spin the wheel to win the prize?
 - {{ params.part1.ans2.value }} {{ params.vars.units}}
 - {{ params.part1.ans3.value }} {{ params.vars.units}}
 - {{ params.part1.ans4.value }} {{ params.vars.units}}
+
+## Attribution
+
+![Image representing the Creative Commons 4.0 BY-NC-SA license.](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).

@@ -36,10 +36,10 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-    i: 387
-    m: 27
-    v_1: 20
-    v_2: 15
+    i: 396
+    m: 26
+    v_1: 23
+    v_2: 18
 ---
 # {{ params.vars.title }}
 ## Part 1
@@ -71,3 +71,7 @@ Please enter in a numeric value in {{ params.vars.units1 }}.
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units1 }}.
+
+## Attribution
+
+![Image representing the Creative Commons 4.0 BY-NC-SA license.](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
