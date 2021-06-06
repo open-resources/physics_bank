@@ -1,7 +1,9 @@
-- file: content/home
-- part: About this Problem Bank
+format: jb-book
+root: content/home
+parts:
+- caption: About this Problem Bank
   chapters:
-    - file: content/about
-      title: About
-    - file: content/bio
-      title: Project Team
+  - file: content/about
+    title: About
+  - file: content/bio
+    title: Project Team

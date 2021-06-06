@@ -19,12 +19,12 @@ parts:
   - file: content/public/004.Kinematics(2D and 3D)/Uniform Circular Motion/angular_speed/angular_speed
 - caption: Force
   chapters:
-  - file: content/public/005.Force/velocity_netforce/velocity_netforce
   - file: content/public/005.Force/spring_on_incline/spring_on_incline
+  - file: content/public/005.Force/velocity_netforce/velocity_netforce
 - caption: Momentum and Impulse
   chapters:
-  - file: content/public/006.Momentum and Impulse/Momentum/Rock_Powered_Rocket/Rock_Powered_Rocket
   - file: content/public/006.Momentum and Impulse/Conservation of Momentum/Explosions_and_Velocity/Explosions_and_Velocity
+  - file: content/public/006.Momentum and Impulse/Momentum/Rock_Powered_Rocket/Rock_Powered_Rocket
   - file: content/public/006.Momentum and Impulse/Impulse/airbag_collision/airbag_collision
 - caption: Energy
   chapters:

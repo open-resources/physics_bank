@@ -41,13 +41,13 @@ def main():
         # get all questions for a particular topic
         topic_questions = [str(f).split('.md')[0] for f in files if f.parts[2]==topic]
         
-        temp_dict = {'part': topic.split('.')[1],
+        temp_dict = {'caption': topic.split('.')[1],
                     'chapters': [{'file': p} for p in topic_questions]}
 
         dict_list.append(temp_dict)
 
     # Add the dict_list with problem TOC to the template TOC
-    toc_dicts.extend(dict_list)
+    toc_dicts['parts'].extend(dict_list)
 
     # Save the YAML dump to a file
     new_toc = yaml.dump(toc_dicts,sort_keys=False,default_flow_style=False)

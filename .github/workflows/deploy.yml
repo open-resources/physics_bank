@@ -35,10 +35,8 @@ jobs:
       run: |
         python scripts/create_toc.py
           
-    # Build the book
     - name: Build the book
       run: |
-        jupyter-book toc migrate _toc.yml -o _toc.yml
         jupyter-book build .
         
     - name: Commit updated TOC
