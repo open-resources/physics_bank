@@ -29,6 +29,11 @@ jobs:
       run: |
         python scripts/create_toc.py
         
+    - name: Commit updated TOC
+      uses: EndBug/add-and-commit@v7
+      with:
+        message: 'Update TOC via GH Action'
+          
     # Build the book
     - name: Build the book
       run: |
