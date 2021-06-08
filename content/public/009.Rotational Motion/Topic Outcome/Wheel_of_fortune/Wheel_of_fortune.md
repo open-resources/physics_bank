@@ -20,17 +20,17 @@ substitutions:
     vars:
       units: rad/s
       title: Wheel of Fortune
-    w_i: 0.7853981633974483
+    w_i: 1.5707963267948966
     t: 6
     part1:
       ans1:
-        value: 0.01
+        value: 0.17
       ans2:
-        value: 0.1
+        value: 0.41
       ans3:
-        value: 0.21
+        value: 0.82
       ans4:
-        value: 0.79
+        value: 1.57
 ---
 # {{ params.vars.title }}
 ## Part 1
