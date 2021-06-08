@@ -1,13 +1,15 @@
 ---
-title: Choose all Vectors and Scalars
-topic: Vectors
+title: Isolated Systems
+topic: Conservation of Momentum
 author: Jake Bobowski
-source: 2015 practice midterm 1 Q5
+source: 2016 Final Q4
 template_version: 0.4
 outcomes:
-- 2.1.1.0
+- 7.5.1.2
+- 7.5.1.1
 tags:
 - quiz
+- homework
 assets: null
 part1:
   type: checkbox
@@ -18,39 +20,33 @@ part1:
 substitutions:
   params:
     vars:
-      title: Choose all Vectors and Scalars
-    choice: vectors
+      title: Isolated Systems
     part1:
       ans1:
-        value: Drag
+        value: A system is isolated if its total momentum is constant
       ans2:
-        value: velocity
+        value: A system is isolated if all of the external forces on it are balanced
       ans3:
-        value: Displacement
+        value: A system is isolated if energy isn't entering or leaving the system
       ans4:
-        value: Work
-      ans5:
-        value: Volume
-      ans6:
-        value: Pressure
+        value: A system is isolated if its center of mass is moving with constant
+          velocity
 ---
 # {{ params.vars.title }}
 ## Question Text
 
-Consider the following quantities. Choose all of those which are {{ params.choice }}.
+What do we mean when we say a system is ISOLATED?
 
 ### Answer Section
 
-Select all the choices that apply.
+Select all the choices that are true.
 
 Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params.part1.ans1.value}}
-- {{ params.part1.ans2.value}}
-- {{ params.part1.ans3.value}}
-- {{ params.part1.ans4.value}}
-- {{ params.part1.ans5.value}}
-- {{ params.part1.ans6.value}}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 
