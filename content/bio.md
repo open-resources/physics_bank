@@ -10,11 +10,13 @@
 | Stephen Collins | SteveCollins17 |  stephen.collins@ubc.ca |
 | Michael Kudla | michaelwkudla | michaelwkudla@gmail.com  |
 | Graham Bovett | gbovett | gbovett@gmail.com |
+| Ava Cornell | ahcornell | acornell@student.ubc.ca |
 | Abby Kiehlbauch | abbykiehlbauch | abbykiehlbauch@gmail.com|
 | Maya Patel | maya-patel | mayapatel9@gmail.com |
 | Akshat Poddar | | |
 | Parsa Rajabi | Parsa-Rajabi |ParsaRajabiPR@gmail.com |
-| Joseph Wandinger | | joseph.wandinger@alumni.ubc.ca |
+| Vanshika S| vanshika151 | vsharm05@student.ubc.ca |
+| Joseph Wandinger | Bizwatch-UBC | joseph.wandinger@alumni.ubc.ca |
 | Paula Wong-Chung | KafkaNoNeko | paula.wong-chung@alumni.ubc.ca |
 | Edris Wu | edriswu | edriswu@gmail.com |
 
@@ -57,6 +59,12 @@ I am a PhD student in MedPhys. I am developing a patient specific technology sui
 
 I am a 3rd year Comp Sci student at UBCO. I am looking forward to specializing in AI and machine learning in my future courses and through co-op placements. Outside of school, I enjoy hiking, camping, snowboarding, and sailing. <br><br><br><br><br><br><br>
 
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/ava.png"> </img>
+
+#### **Ava Cornell**
+
+I am a fourth year honours physics student at UBC Okanagan. Throughout my degree, I have thoroughly enjoyed being a physics teaching assistant and tutor, which has caused me to develop an interest in making learning more accessible and less stressful for students. In my free time, I like to hike, camp, and socialize. <br><br><br><br><br><br><br>
+
 <img align="left" width="150" height="150" style="padding-right: 20px" src="../images/abby.png"> </img>
 
 #### **Abby Kiehlbauch**
@@ -82,6 +90,12 @@ I am a 2nd year undergraduate student at UBC. My interests lie in the fields of 
 I am a 5th year Computer Science student with a background in Project Management, DevOps, Software Development, and research. I have a strong passion for Computer Science Education, Computational Thinking within K-12 Education and Human-Computer Interaction (HCI). Aside from doing research and teaching, I spend my spare time cooking, traveling, hiking and volunteering in the community / on campus!
 
 [![Linkedin](../images/linkedin_logo.png) LinkedIn](https://www.linkedin.com/in/parsa-rajabi/) <br><br><br><br><br>
+
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/vanshika.png"> </img>
+
+#### **Vanshika S**
+
+I am a third year combined honours physics and astronomy student at UBC. Having taught science and math to special needs students over the past couple of years, I have developed a profound interest in science education and specifically making learning more accessible. Therefore, I am both excited and honoured to be part of this project! Academically, my interest lies in astrophysics but apart from that you can catch me hiking, food hopping, rewatching the same five tv shows or at the gym.  <br><br><br><br><br><br>
 
 <img align="left" width="150" height="150" style="padding-right: 20px" src="../images/joey.png"> </img>
 
