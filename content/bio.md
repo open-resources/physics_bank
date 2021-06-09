@@ -13,7 +13,7 @@
 | Ava Cornell | ahcornell | acornell@student.ubc.ca |
 | Abby Kiehlbauch | abbykiehlbauch | abbykiehlbauch@gmail.com|
 | Maya Patel | maya-patel | mayapatel9@gmail.com |
-| Akshat Poddar | | |
+| Akshat Poddar | akshatpoddar | akshat31@student.ubc.ca|
 | Parsa Rajabi | Parsa-Rajabi |ParsaRajabiPR@gmail.com |
 | Vanshika S| vanshika151 | vsharm05@student.ubc.ca |
 | Joseph Wandinger | Bizwatch-UBC | joseph.wandinger@alumni.ubc.ca |
