@@ -3,14 +3,20 @@ title: Wheel of Fortune
 topic: Kinematics
 author: Jake Bobowski
 source: 2016 Final Q2
-template_version: 0.3
+template_version: 0.5
+attribution: standard
 outcomes:
 - 9.1.1.1
+difficulty:
+- undefined
+randomization:
+- undefined
+taxonomy:
+- undefined
 tags:
-- quiz
-- homework
+- unknown
 assets:
-- q2_2016Final.png
+- wheel_of_fortune.png
 part1:
   type: multiple-choice
   pl-customizations:

@@ -3,11 +3,18 @@ title: Angular Speed
 topic: Kinematics(2D and 3D)
 author: Jake Bobowski
 source: 2012 Practice Final Q2
-template_version: 0.4
+template_version: 0.5
+attribution: standard
 outcomes:
 - 5.6.2.0
+difficulty:
+- undefined
+randomization:
+- undefined
+taxonomy:
+- undefined
 tags:
-- quiz
+- unknown
 assets: null
 part1:
   type: multiple-choice
@@ -18,16 +25,16 @@ substitutions:
     vars:
       title: Angular Speed
       units: rad/s
-    rev: 5
+    rev: 8
     part1:
       ans1:
-        value: 1.2566370614359172
+        value: 0.7853981633974483
       ans2:
-        value: 15.707963267948966
+        value: 25.132741228718345
       ans3:
-        value: 31.41592653589793
+        value: 50.26548245743669
       ans4:
-        value: 0.7957747154594768
+        value: 1.2732395447351628
 ---
 # {{ params.vars.title }}
 ## Part 1

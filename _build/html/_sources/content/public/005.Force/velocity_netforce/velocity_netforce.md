@@ -3,13 +3,19 @@ title: Velocity and Net Force
 topic: Force
 author: Jake Bobowski
 source: 2013 Final Q1
-template_version: 0.3
+template_version: 0.5
+attribution: standard
 outcomes:
 - 5.1.1.1
 - 5.11.1
+difficulty:
+- undefined
+randomization:
+- undefined
+taxonomy:
+- undefined
 tags:
-- quiz
-- homework
+- unknown
 assets:
 - q1image.png
 part1:

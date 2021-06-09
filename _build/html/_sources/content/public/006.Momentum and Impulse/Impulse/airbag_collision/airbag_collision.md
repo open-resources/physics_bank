@@ -3,11 +3,18 @@ title: Airbags
 topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2013 Final Q2
-template_version: 0.3
+template_version: 0.5
+attribution: standard
 outcomes:
 - 6.3.1.2
+difficulty:
+- undefined
+randomization:
+- undefined
+taxonomy:
+- undefined
 tags:
-- quiz
+- unknown
 assets: null
 part1:
   type: multiple-choice

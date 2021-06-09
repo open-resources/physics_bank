@@ -3,16 +3,22 @@ title: Spring on an Incline
 topic: Energy
 author: Jake Bobowski
 source: 2013 Final Q10
-template_version: 0.3
+template_version: 0.5
+attribution: standard
 outcomes:
 - 5.9.1.0
 - 5.11
 - 7.2.1.0
 - 8.1.1.0
 - 8.3.1.0
+difficulty:
+- undefined
+randomization:
+- undefined
+taxonomy:
+- undefined
 tags:
-- quiz
-- homework
+- unknown
 assets:
 - q10image.png
 part1:
@@ -39,9 +45,9 @@ substitutions:
       title: Spring on an Incline
       units1: m
       units2: J
-    m: 5
-    k: 643
-    theta: 27
+    m: 3
+    k: 633
+    theta: 25
     mu: 0.25
     d: 8
     g: 9.8
@@ -50,7 +56,7 @@ substitutions:
 ## Part 1
 
 A small {{params.m}} kg block is accelerated from rest on a flat surface by a compressed spring (k = {{params.k}} N/m) along a frictionless, horizontal surface.
-The block leaves the spring at the spring’s equilibrium position (x = 0) and travels on an incline (θ = {{params.theta}}◦) with a coefficient of kinetic friction μk = {{params.mu}}.
+The block leaves the spring at the springâs equilibrium position (x = 0) and travels on an incline (Î¸ = {{params.theta}}â¦) with a coefficient of kinetic friction Î¼k = {{params.mu}}.
 The block moves a horizontal distance D = {{params.d}} m before coming to a stop.
 
 (a) What is the initial compression of the spring?

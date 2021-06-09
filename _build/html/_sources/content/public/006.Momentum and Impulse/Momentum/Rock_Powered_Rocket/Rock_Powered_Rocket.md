@@ -3,14 +3,20 @@ title: Rock Powered Rocket
 topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2015 Practice Midterm 1 Q7
-template_version: 0.4
+template_version: 0.5
+attribution: standard
 outcomes:
 - 6.2.1.1
 - 7.2.2.0
 - 7.2.2.1
+difficulty:
+- undefined
+randomization:
+- undefined
+taxonomy:
+- undefined
 tags:
-- super-randomizer
-- quiz
+- unknown
 assets: null
 part1:
   type: number-input
@@ -36,10 +42,10 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-    i: 375
-    m: 25
-    v_1: 5
-    v_2: 12
+    i: 361
+    m: 36
+    v_1: 6
+    v_2: 25
 ---
 # {{ params.vars.title }}
 ## Part 1

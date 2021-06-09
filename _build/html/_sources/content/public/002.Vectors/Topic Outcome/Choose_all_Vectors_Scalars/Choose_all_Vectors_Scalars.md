@@ -3,11 +3,18 @@ title: Choose all Vectors and Scalars
 topic: Vectors
 author: Jake Bobowski
 source: 2015 practice midterm 1 Q5
-template_version: 0.4
+template_version: 0.5
+attribution: standard
 outcomes:
 - 2.1.1.0
+difficulty:
+- undefined
+randomization:
+- undefined
+taxonomy:
+- undefined
 tags:
-- quiz
+- unknown
 assets: null
 part1:
   type: checkbox
@@ -19,20 +26,20 @@ substitutions:
   params:
     vars:
       title: Choose all Vectors and Scalars
-    choice: scalars
+    choice: vectors
     part1:
       ans1:
-        value: Power
+        value: Momentum
       ans2:
-        value: Entropy
+        value: Lift
       ans3:
-        value: Area
+        value: Displacement
       ans4:
-        value: Work
+        value: Power
       ans5:
-        value: Acceleration
+        value: Entropy
       ans6:
-        value: The position in 3 dimensions
+        value: Distance travelled
 ---
 # {{ params.vars.title }}
 ## Question Text
