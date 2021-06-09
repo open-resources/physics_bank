@@ -30,6 +30,8 @@ parts:
   - file: content/public/006.Momentum and Impulse/Impulse/airbag_collision/airbag_collision
 - caption: Energy
   chapters:
+  - file: content/public/007.Energy/Conservation of Energy/Physics of Roller Coasters/Physics
+      of Roller Coasters
   - file: content/public/007.Energy/frictionless_track/frictionless_track
   - file: content/public/007.Energy/Kinetic Energy/KE_energy_momentum/KE_energy_momentum
   - file: content/public/007.Energy/Kinetic Energy/KE_testmass/KE_testmass
