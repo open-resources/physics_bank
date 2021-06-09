@@ -3,16 +3,22 @@ title: Horizontal frictionless track
 topic: Energy
 author: Jake Bobowski
 source: 2013 Final Q12
-template_version: 0.4
+template_version: 0.5
+attribution: standard
 outcomes:
 - 8.2.1.0
 - 8.3.1.0
 - 8.5.1.1
 - 9.1.1.1
 - 9.2.1.1
+difficulty:
+- undefined
+randomization:
+- undefined
+taxonomy:
+- undefined
 tags:
-- quiz
-- homework
+- unknown
 assets:
 - q12image.png
 part1:
@@ -38,10 +44,10 @@ substitutions:
     vars:
       title: Horizontal frictionless track
       units: N
-    m: 0.25
-    v: 5
-    R: 1.5
-    L: 3
+    m: 0.75
+    v: 3
+    R: 1.25
+    L: 5
 ---
 # {{ params.vars.title }}
 ## Part 1

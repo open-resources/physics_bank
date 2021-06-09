@@ -1,12 +1,12 @@
 ---
-title: Wheel of Fortune
+title: Distance travelled
 topic: Kinematics
-author: Jake Bobowski
-source: 2016 Final Q2
+author: Firas Moosvi
+source: original
 template_version: 0.5
 attribution: standard
 outcomes:
-- 9.1.1.1
+- undefined
 difficulty:
 - undefined
 randomization:
@@ -15,8 +15,7 @@ taxonomy:
 - undefined
 tags:
 - unknown
-assets:
-- wheel_of_fortune.png
+assets: null
 part1:
   type: multiple-choice
   pl-customizations:
@@ -24,27 +23,31 @@ part1:
 substitutions:
   params:
     vars:
-      units: rad/s
-      title: Wheel of Fortune
-    w_i: 1.5707963267948966
-    t: 6
+      name: Savannah
+      vehicle: a skateboard
+      units: m/s
+      title: Distance travelled
+    v: 6
+    t: 8
     part1:
       ans1:
-        value: 0.17
+        value: 42
       ans2:
-        value: 0.41
+        value: 48
       ans3:
-        value: 0.82
+        value: 14
       ans4:
-        value: 1.57
+        value: 0.75
+      ans5:
+        value: -2
+      ans6:
+        value: -2.6
 ---
 # {{ params.vars.title }}
 ## Part 1
 
-I want to win a game of Wheel-of-Fortune.
-The grand prize is initially located at a position at the top of the wheel (shown) and I only win if the wheel stops when the prize is at the position to the right ($\\theta$ = 0).\
-I note that when another contestant set the wheel spinning at $w_i = {{params.w_i}} {rad\\over s}$, it takes {{params.t}} seconds to stop.
-With which initial velocity should I spin the wheel to win the prize?
+{{ params.vars.name }} is traveling on {{ params.vars.vehicle }} at {{ params.v }} {{ params.vars.units }}.
+How far does {{ params.vars.name }} travel in {{ params.t }} seconds, assuming they continue at the same velocity?
 
 ### Answer Section
 
@@ -52,6 +55,8 @@ With which initial velocity should I spin the wheel to win the prize?
 - {{ params.part1.ans2.value }} {{ params.vars.units}}
 - {{ params.part1.ans3.value }} {{ params.vars.units}}
 - {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params.part1.ans6.value }} {{ params.vars.units}}
 
 ## Attribution
 

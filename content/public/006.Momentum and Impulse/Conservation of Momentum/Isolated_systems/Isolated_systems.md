@@ -3,13 +3,19 @@ title: Isolated Systems
 topic: Conservation of Momentum
 author: Jake Bobowski
 source: 2016 Final Q4
-template_version: 0.4
+template_version: 0.5
+attribution: standard
 outcomes:
 - 7.5.1.2
 - 7.5.1.1
+difficulty:
+- undefined
+randomization:
+- undefined
+taxonomy:
+- undefined
 tags:
-- quiz
-- homework
+- unknown
 assets: null
 part1:
   type: checkbox
@@ -23,14 +29,14 @@ substitutions:
       title: Isolated Systems
     part1:
       ans1:
-        value: A system is isolated if energy isn't entering or leaving the system
-      ans2:
         value: A system is isolated if all of the external forces on it are balanced
-      ans3:
+      ans2:
         value: A system is isolated if its center of mass is moving with constant
           velocity
-      ans4:
+      ans3:
         value: A system is isolated if its total momentum is constant
+      ans4:
+        value: A system is isolated if energy isn't entering or leaving the system
 ---
 # {{ params.vars.title }}
 ## Question Text

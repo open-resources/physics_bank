@@ -3,12 +3,19 @@ title: Explosions and Velocity
 topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2015 practice midterm 1 Q4
-template_version: 0.3
+template_version: 0.5
+attribution: standard
 outcomes:
 - 6.5.1.6
 - 6.4.4.0
+difficulty:
+- undefined
+randomization:
+- undefined
+taxonomy:
+- undefined
 tags:
-- quiz
+- unknown
 assets: null
 part1:
   type: multiple-choice
@@ -20,20 +27,20 @@ substitutions:
       title: Explosions and Velocity
       units: m/s
     part1:
-      I_A: 6
+      I_A: 3
       I_B: 5
-      v_A: 19
-      v_B: 40
-      m_pumpkin: 4
+      v_A: 28
+      v_B: 32
+      m_pumpkin: 5
       ans1:
         value: Yes, because of conservation of momentum
       ans2:
         value: No, because we have not accounted for how the explosion might have
           changed the momentum of the pumpkin.
       ans3:
-        value: No, because the velocity should be $v = $ 59 m/s
+        value: No, because the velocity should be $v = $ 60 m/s
       ans4:
-        value: No, because the velocity should be $v = $ 14.75 m/s
+        value: No, because the velocity should be $v = $ 12.0 m/s
 ---
 # {{ params.vars.title }}
 ## Part 1

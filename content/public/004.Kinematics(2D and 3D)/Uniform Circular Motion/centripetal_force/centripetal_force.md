@@ -3,13 +3,18 @@ title: Centripetal Motion
 topic: centripetal motion
 author: Michael Kudla
 source: original
-template_version: 0.2
+template_version: 0.5
+attribution: standard
 outcomes:
-- LO.kinematics.2305
-- LO.kinematics.2304
+- undefined
+difficulty:
+- undefined
+randomization:
+- undefined
+taxonomy:
+- undefined
 tags:
-- quiz
-- homework
+- unknown
 assets: null
 part1:
   type: symbolic-input

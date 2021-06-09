@@ -1,12 +1,13 @@
 ---
-title: Airbags
-topic: Momentum and Impulse
+title: Kinetic Energy and Momentum
+topic: Energy
 author: Jake Bobowski
-source: 2013 Final Q2
+source: 2016 Final Q3
 template_version: 0.5
 attribution: standard
 outcomes:
-- 6.3.1.2
+- 7.2.1.1
+- 6.5.1.1
 difficulty:
 - undefined
 randomization:
@@ -23,26 +24,25 @@ part1:
 substitutions:
   params:
     vars:
-      title: Airbags
+      title: Kinetic Energy and Momentum
     part1:
       ans1:
-        value: Increase the time of impact, increasing the average acceleration of
-          the person they are protecting
+        value: If I throw an object straight up (vertically) in the air, its kinetic
+          energy at the highest point will be zero.
       ans2:
-        value: Increase the time of impact, decreasing the average acceleration of
-          the person they are protecting
+        value: If I throw an object diagonally up in the air, its kinetic energy at
+          the highest point will be zero.
       ans3:
-        value: Increase the time of impact, decreasing the impulse on the person
+        value: If I throw an object diagonally up in the air, its momentum at the
+          highest point will be zero.
       ans4:
-        value: Increase the time of impact, increasing the impulse on the person
-      ans5:
-        value: Explode to give you more oxygen to breathe
+        value: If I throw an object into the AIR, the system composed of the object
+          and the earth is a CLOSED system.
 ---
 # {{ params.vars.title }}
 ## Part 1
 
-Modern cars are outfitted with air bags that quickly inflate with air if the car experiences too large an acceleration.
-Air bags work because in the event of an accident they:
+Which of the following is true?
 
 ### Answer Section
 
@@ -50,7 +50,6 @@ Air bags work because in the event of an accident they:
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
 
 ## Attribution
 
