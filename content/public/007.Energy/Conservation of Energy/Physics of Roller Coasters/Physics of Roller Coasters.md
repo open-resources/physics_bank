@@ -1,12 +1,12 @@
 ---
-title: Distance travelled
-topic: Kinematics
-author: Firas Moosvi
-source: original
+title: Physics of Roller-Coasters
+topic: Energy
+author: Jake Bobowski
+source: 2012 Final Q10
 template_version: 0.5
 attribution: standard
 outcomes:
-- undefined
+- 8.5.1.1
 difficulty:
 - undefined
 randomization:
@@ -23,31 +23,27 @@ part1:
 substitutions:
   params:
     vars:
-      name: Ximena
-      vehicle: a bicycle
+      title: Physics of Roller-Coasters
       units: m/s
-      title: Distance travelled
-    v: 5
-    t: 10
+    r: 22.5
     part1:
       ans1:
-        value: 42
+        value: 29.7
       ans2:
-        value: 50
+        value: 33.2
       ans3:
-        value: 15
+        value: 25.7
       ans4:
-        value: 0.5
+        value: 21.0
       ans5:
-        value: -5
+        value: 14.9
       ans6:
-        value: -6.5
+        value: 36.4
 ---
 # {{ params.vars.title }}
 ## Part 1
 
-{{ params.vars.name }} is traveling on {{ params.vars.vehicle }} at {{ params.v }} {{ params.vars.units }}.
-How far does {{ params.vars.name }} travel in {{ params.t }} seconds, assuming they continue at the same velocity?
+A roller-coaster travels over a vertical, circular loop of radius $R = $ {{ params.r }} m. If it travels without friction along the track, what is the minimum speed required at the bottom of the loop such that the roller-coaster remains in contact with the track at the top of the loop?
 
 ### Answer Section
 
