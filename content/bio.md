@@ -15,7 +15,7 @@
 | Maya Patel | maya-patel | mayapatel9@gmail.com |
 | Akshat Poddar | akshatpoddar | akshat31@student.ubc.ca|
 | Parsa Rajabi | Parsa-Rajabi |ParsaRajabiPR@gmail.com |
-| Vanshika S| vanshika151 | vsharm05@student.ubc.ca |
+| Vanshika Sharma| vanshika151 | vsharm05@student.ubc.ca |
 | Joseph Wandinger | Bizwatch-UBC | joseph.wandinger@alumni.ubc.ca |
 | Paula Wong-Chung | KafkaNoNeko | paula.wong-chung@alumni.ubc.ca |
 | Edris Wu | edriswu | edriswu@gmail.com |
@@ -93,7 +93,7 @@ I am a 5th year Computer Science student with a background in Project Management
 
 <img align="left" width="150" height="150" style="padding-right: 20px" src="../images/vanshika.png"> </img>
 
-#### **Vanshika S**
+#### **Vanshika Sharma**
 
 I am a third year combined honours physics and astronomy student at UBC. Having taught science and math to special needs students over the past couple of years, I have developed a profound interest in science education and specifically making learning more accessible. Therefore, I am both excited and honoured to be part of this project! Academically, my interest lies in astrophysics but apart from that you can catch me hiking, food hopping, rewatching the same five tv shows or at the gym.  <br><br><br><br><br><br>
 
