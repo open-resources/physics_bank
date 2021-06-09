@@ -25,24 +25,24 @@ substitutions:
     vars:
       title: Kinetic Energy of Test Mass
       units: J
-    m: 67
-    v: 1.66
+    m: 170
+    v: 1.88
     d_m: 2
-    d_v: 0.05
+    d_v: 0.04
     part1:
-      ke: 0.093
+      ke: 0.302
       ans1:
-        value: 0.006
+        value: 0.01
       ans2:
-        value: 0.009
+        value: 0.016
       ans3:
-        value: 0.003
+        value: 0.004
       ans4:
-        value: 0.031
+        value: 0.012
       ans5:
-        value: 0.094
+        value: 0.053
       ans6:
-        value: 0.003
+        value: 0.004
 ---
 # {{ params.vars.title }}
 ## Part 1
