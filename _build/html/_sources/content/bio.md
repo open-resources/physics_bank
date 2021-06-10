@@ -4,21 +4,22 @@
 
 ## Open Physics Problem Bank Project Team Members
 
-| Name | GitHub handle | Preferred Email address |
-| ---- | ------------- | ----------------------- |
-| Firas Moosvi | firasm | firas.moosvi@ubc.ca |
-| Stephen Collins | SteveCollins17 |  stephen.collins@ubc.ca |
-| Michael Kudla | michaelwkudla | michaelwkudla@gmail.com  |
-| Graham Bovett | gbovett | gbovett@gmail.com |
-| Ava Cornell | ahcornell | acornell@student.ubc.ca |
-| Abby Kiehlbauch | abbykiehlbauch | abbykiehlbauch@gmail.com|
-| Maya Patel | maya-patel | mayapatel9@gmail.com |
-| Akshat Poddar | akshatpoddar | akshat31@student.ubc.ca|
-| Parsa Rajabi | Parsa-Rajabi |ParsaRajabiPR@gmail.com |
-| Vanshika Sharma| vanshika151 | vsharm05@student.ubc.ca |
-| Joseph Wandinger | Bizwatch-UBC | joseph.wandinger@alumni.ubc.ca |
-| Paula Wong-Chung | KafkaNoNeko | paula.wong-chung@alumni.ubc.ca |
-| Edris Wu | edriswu | edriswu@gmail.com |
+| Name             | GitHub handle  |
+|------------------|----------------|
+| Firas Moosvi     | firasm         |
+| Jake Bobowski    | jake-bobowski  |
+| Stephen Collins  | SteveCollins17 |
+| Michael Kudla    | michaelwkudla  |
+| Graham Bovett    | gbovett        |
+| Ava Cornell      | ahcornell      |
+| Abby Kiehlbauch  | abbykiehlbauch |
+| Maya Patel       | maya-patel     |
+| Akshat Poddar    | akshatpoddar   |
+| Parsa Rajabi     | Parsa-Rajabi   |
+| Vanshika Sharma  | vanshika151    |
+| Joseph Wandinger | Bizwatch-UBC   |
+| Paula Wong-Chung | KafkaNoNeko    |
+| Edris Wu         | edriswu        |
 
 ## Bios
 
@@ -32,6 +33,16 @@
 #### **Dr. Firas Moosvi**
 
 Firas Moosvi is a Lecturer at UBC Okanagan in the Computer Science, Math, Physics, and Statistics department. He teaches courses in Physics, Data Science, and Computer Science at the undergraduate and graduate levels. He has many research interests and they fall under three main umbrellas: medical imaging for applications in cancer, scholarship of teaching and learning (SoTL), and learning analytics. Most recently, he is looking at how the field of learning analytics can provide insight to surface and reduce inequities in STEM programs. Firas has a deep appreciation for data visualization, active learning, and open source projects.<br><br><br><br><br><br><br>
+
+<br><br>
+
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/firas.png"> </img>
+
+#### **Dr. Jake Bobowski**
+
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/jake.jpg"> </img>
+
+Bio coming soon...
 
 ### Graduate students
 
