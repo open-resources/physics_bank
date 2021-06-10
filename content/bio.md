@@ -28,7 +28,7 @@
 
 <br><br>
 
-<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/dr.moosvi.png"> </img>
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/firas.png"> </img>
 
 #### **Dr. Firas Moosvi**
 
@@ -36,13 +36,11 @@ Firas Moosvi is a Lecturer at UBC Okanagan in the Computer Science, Math, Physic
 
 <br><br>
 
-<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/firas.png"> </img>
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/jake.png"> </img>
 
 #### **Dr. Jake Bobowski**
 
-<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/jake.jpg"> </img>
-
-Bio coming soon...
+Bio coming soon...<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ### Graduate students
 
