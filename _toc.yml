@@ -21,6 +21,7 @@ parts:
 - caption: Force
   chapters:
   - file: content/public/005.Force/velocity_netforce/velocity_netforce
+  - file: content/public/005.Force/Topic Outcome/spring_on_incline/spring_on_incline
   - file: content/public/005.Force/spring_on_incline/spring_on_incline
 - caption: Momentum and Impulse
   chapters:
@@ -33,7 +34,6 @@ parts:
   - file: content/public/007.Energy/Conservation of Energy/Physics of Roller Coasters/Physics
       of Roller Coasters
   - file: content/public/007.Energy/Topic Outcome/frictionless_track/frictionless_track
-  - file: content/public/007.Energy/frictionless_track/frictionless_track
   - file: content/public/007.Energy/Kinetic Energy/KE_energy_momentum/KE_energy_momentum
   - file: content/public/007.Energy/Kinetic Energy/KE_testmass/KE_testmass
   - file: content/public/007.Energy/Kinetic Energy/q3/q3
