@@ -1,12 +1,16 @@
 ---
-title: Angular Speed
-topic: Kinematics(2D and 3D)
+title: Rotational Inertia
+topic: Rotational Dynamics
 author: Jake Bobowski
-source: 2012 Practice Final Q2
+source: 2013 Final Q6
 template_version: 1.0
 attribution: standard
 outcomes:
-- 5.6.2.0
+- 10.4.1.0
+- 10.3.1.4
+- 10.4.1.1
+- 9.5.2.2
+- 10.2.1.0
 difficulty:
 - undefined
 randomization:
@@ -14,44 +18,36 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- EW
-assets: null
+- MP
+assets:
+- q6image.png
 server:
   imports: |
-    import random
-    import math
-    import pandas as pd
-    import problem_bank_helpers as pbh
     from collections import defaultdict
     nested_dict = lambda: defaultdict(nested_dict)
   generate: |
     # Start problem code
-
     data2 = nested_dict()
 
     # store phrases etc
-    data2["params"]["vars"]["title"] = 'Angular Speed'
-    data2["params"]["vars"]["units"] = "rad/s"
-
-    # Randomize Variables
-    rev = random.randint(2,15)
-
-    # store the variables in the dictionary "params"
-    data2["params"]["rev"] = rev
+    data2["params"]["vars"]["title"] = 'Rotational Inertia'
+    data2["params"]["vars"]["units"] = 'm/s^2'
 
     # define possible answers
-    data2["params"]["part1"]["ans1"]["value"] = pbh.roundp((2*math.pi)/rev, sigfigs = 2)
+    data2["params"]["part1"]["ans1"]["value"] =  'g'
     data2["params"]["part1"]["ans1"]["correct"] = False
 
-    data2["params"]["part1"]["ans2"]["value"] = pbh.roundp(rev*(math.pi), sigfigs = 2)
+    data2["params"]["part1"]["ans2"]["value"] = '3g/4'
     data2["params"]["part1"]["ans2"]["correct"] = False
 
-    data2["params"]["part1"]["ans3"]["value"] = pbh.roundp(rev*(2*math.pi), sigfigs = 2)
-    data2["params"]["part1"]["ans3"]["correct"] = True
+    data2["params"]["part1"]["ans3"]["value"] = '2g'
+    data2["params"]["part1"]["ans3"]["correct"] = False
 
-    data2["params"]["part1"]["ans4"]["value"] = pbh.roundp(rev/(2*math.pi), sigfigs = 2)
-    data2["params"]["part1"]["ans4"]["correct"] = False
+    data2["params"]["part1"]["ans4"]["value"] = '2g/3'
+    data2["params"]["part1"]["ans4"]["correct"] = True
 
+    data2["params"]["part1"]["ans5"]["value"] = 'g/2'
+    data2["params"]["part1"]["ans5"]["correct"] = False
 
     # Update the data object with a new dict
     data.update(data2)
@@ -71,21 +67,23 @@ part1:
 substitutions:
   params:
     vars:
-      title: Angular Speed
-      units: rad/s
-    rev: 13
+      title: Rotational Inertia
+      units: m/s^2
     part1:
       ans1:
-        value: 0.48
+        value: g
         correct: false
       ans2:
-        value: 41.0
+        value: 3g/4
         correct: false
       ans3:
-        value: 82.0
-        correct: true
+        value: 2g
+        correct: false
       ans4:
-        value: 2.1
+        value: 2g/3
+        correct: true
+      ans5:
+        value: g/2
         correct: false
 ---
 # {{ params.vars.title }}

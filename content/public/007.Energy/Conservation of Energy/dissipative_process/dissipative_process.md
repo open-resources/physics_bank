@@ -1,13 +1,13 @@
 ---
-title: Isolated Systems
-topic: Conservation of Momentum
+title: Dissipative Process
+topic: Energy
 author: Jake Bobowski
-source: 2016 Final Q4
+source: 2016 Final q5
 template_version: 1.0
 attribution: standard
 outcomes:
-- 7.5.1.2
-- 7.5.1.1
+- 8.5.1.0
+- 8.1.1.0
 difficulty:
 - undefined
 randomization:
@@ -15,7 +15,7 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- unknown
+- AK
 assets: null
 server:
   imports: |
@@ -30,31 +30,29 @@ server:
 
     # define or load names/items/objects
 
-    # store phrases etc
-    data2["params"]["vars"]["title"] = "Isolated Systems"
+    # store title
+    data2["params"]["vars"]["title"] = "Dissipative Energy"
 
     # define useful variables/lists
 
     # create list of answers and shuffle
-    answers = ["A system is isolated if its center of mass is moving with constant velocity", "A system is isolated if energy isn't entering or leaving the system", "A system is isolated if all of the external forces on it are balanced", "A system is isolated if its total momentum is constant"]
+    answers = ["Dissipative processes are one where the total mechanical energy is not conserved.", "Irreversible processes are dissipative.", "Coherent deformations are dissipative.", "Incoherent deformations are dissipative", "If the total kinetic energy is not constant all the way through the interaction, the process is dissipative."]
     random.shuffle(answers)
 
-    # create ans_choices
+    # Create ans_choices
     total_choices = len(answers)
     ans_choices = ["ans{0}".format(i+1) for i in range(total_choices)]
 
     # define possible answers
-
     for i in range(total_choices):
         choice = ans_choices.pop(0)
         this_answer = answers.pop()
         data2["params"]["part1"][choice]["value"] = this_answer
 
-        if(this_answer == "A system is isolated if energy isn't entering or leaving the system"):
+        if(this_answer == "Coherent deformations are dissipative." or this_answer == "If the total kinetic energy is not constant all the way through the interaction, the process is dissipative."):
             data2["params"]["part1"][choice]["correct"] = False
         else:
             data2["params"]["part1"][choice]["correct"] = True
-
     # Update the data object with a new dict
     data.update(data2)
   prepare: 'pass
@@ -75,21 +73,25 @@ part1:
 substitutions:
   params:
     vars:
-      title: Isolated Systems
+      title: Dissipative Energy
     part1:
       ans1:
-        value: A system is isolated if its center of mass is moving with constant
-          velocity
+        value: Dissipative processes are one where the total mechanical energy is
+          not conserved.
         correct: true
       ans2:
-        value: A system is isolated if all of the external forces on it are balanced
-        correct: true
-      ans3:
-        value: A system is isolated if its total momentum is constant
-        correct: true
-      ans4:
-        value: A system is isolated if energy isn't entering or leaving the system
+        value: If the total kinetic energy is not constant all the way through the
+          interaction, the process is dissipative.
         correct: false
+      ans3:
+        value: Coherent deformations are dissipative.
+        correct: false
+      ans4:
+        value: Incoherent deformations are dissipative
+        correct: true
+      ans5:
+        value: Irreversible processes are dissipative.
+        correct: true
 ---
 # {{ params.vars.title }}
 

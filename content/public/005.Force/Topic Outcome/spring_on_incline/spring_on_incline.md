@@ -3,7 +3,7 @@ title: Spring on an Incline
 topic: Energy
 author: Jake Bobowski
 source: 2013 Final Q10
-template_version: 0.5
+template_version: 1.0
 attribution: standard
 outcomes:
 - 5.9.1.0
@@ -21,6 +21,33 @@ tags:
 - unknown
 assets:
 - q10image.png
+server:
+  imports: |
+    import random
+    import pandas as pd
+    import math
+    from collections import defaultdict
+    nested_dict = lambda: defaultdict(nested_dict)
+  generate: "# Start problem code\n\ndata2 = nested_dict()\n\n# store phrases etc\n\
+    data2[\"params\"][\"vars\"][\"title\"] = \"Spring on an Incline\"\ndata2[\"params\"\
+    ][\"vars\"][\"units1\"] = \"m\"\ndata2[\"params\"][\"vars\"][\"units2\"] = \"\
+    J\"\n\n# define bounds of the variables\nm = random.randint(2,5)\nk = random.randint(630,670)\n\
+    theta = random.randint(25,30)\nmu = 0.250\nd = random.randint(5,9)\ng = 9.8\n\n\
+    # store the variables in the dictionary \"params\"\ndata2[\"params\"][\"m\"] =\
+    \ m\ndata2[\"params\"][\"k\"] = k\ndata2[\"params\"][\"theta\"] = theta\ndata2[\"\
+    params\"][\"mu\"] = mu\ndata2[\"params\"][\"d\"] = d\ndata2[\"params\"][\"g\"\
+    ] = g\n\n## Part 1\n\n# define correct answers\ndata2[\"correct_answers\"][\"\
+    part1_ans\"] = math.sqrt((2*m*g*d/k)*(mu+math.tan(math.radians(theta)))) \n\n\
+    ## Part 2\n\n# define correct answers\ndata2[\"correct_answers\"][\"part2_ans\"\
+    ]= 0.5*k*(math.sqrt((2*m*g*d/k)*(mu+math.tan(math.radians(theta)))))**2\n\n# Update\
+    \ the data object with a new dict\ndata.update(data2)\n"
+  prepare: 'pass
+
+    '
+  parse: 'pass
+
+    '
+  grade: "pass  \n"
 part1:
   type: number-input
   pl-customizations:
@@ -45,34 +72,23 @@ substitutions:
       title: Spring on an Incline
       units1: m
       units2: J
-    m: 4
-    k: 638
-    theta: 25
+    m: 5
+    k: 634
+    theta: 27
     mu: 0.25
-    d: 7
+    d: 5
     g: 9.8
+  correct_answers:
+    part1_ans: 0.7661690004864591
+    part2_ans: 186.08373512613505
 ---
 # {{ params.vars.title }}
-## Part 1
-
-(a) What is the initial compression of the spring?
-
-### Answer Section
-
-Please enter in a numeric value in {{ params.vars.units1 }}.
-## Part 2
-
-(b) What is the maximum kinetic energy of the block?
-
-### Answer Section
-
-Please enter in a numeric value in {{ params.vars.units2 }}.
 A small {{params.m}} kg block is accelerated from rest on a flat surface by a compressed spring (k = {{params.k}} N/m) along a frictionless, horizontal surface.
-The block leaves the spring at the spring's equilibrium position (x = 0) and travels on an incline ($\\theta$ = {{params.theta}}$^{\\circ}$) with a coefficient of kinetic friction $\\mu_k$ = {{params.mu}}.
+The block leaves the spring at the spring's equilibrium position (x = 0) and travels on an incline ($\theta$ = {{params.theta}}$^{\circ}$) with a coefficient of kinetic friction $\mu_k$ = {{params.mu}}.
 The block moves a horizontal distance $D$ = {{params.d}} m before coming to a stop.
 
 <img src="q10image.png" width=300>
 
 ## Attribution
 
-![Image representing the Creative Commons 4.0 BY-NC-SA license.](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
