@@ -3,7 +3,7 @@ title: Choose all Vectors and Scalars
 topic: Vectors
 author: Jake Bobowski
 source: 2015 practice midterm 1 Q5
-template_version: 0.5
+template_version: 1.0
 attribution: standard
 outcomes:
 - 2.1.1.0
@@ -16,6 +16,47 @@ taxonomy:
 tags:
 - unknown
 assets: null
+server:
+  imports: |
+    import random
+    import pandas as pd
+    from collections import defaultdict
+    nested_dict = lambda: defaultdict(nested_dict)
+  generate: "# Start problem code\n\ndata2 = nested_dict()\n\n# store phrases etc\n\
+    data2[\"params\"][\"vars\"][\"title\"] = \"Choose all Vectors and Scalars\"\n\n\
+    # define useful variables/lists\nvectors = [\"The position in 3 dimensions\",\
+    \ \"The position in a 1 dimensional system\", \"Displacement\", \"velocity\",\
+    \ \"Acceleration\", \"The average velocity\", \"The average acceleration\", \"\
+    Momentum\", \"Force\", \"Lift\", \"Drag\", \"Weight\"]\nscalars = [\"Speed\",\
+    \ \"Distance travelled\", \"Length\", \"Area\", \"Volume\", \"Mass\", \"Density\"\
+    , \"Pressure\", \"Temperature\", \"Energy\", \"Entropy\", \"Work\", \"Power\"\
+    ]\n\n# Randomly select 2,3,4 scalars and shuffle the lists\ntotal_choices = 6\n\
+    num_scalars = random.choice([2,3,4])\nnum_vectors = total_choices - num_scalars\n\
+    select = random.choice([\"vectors\",\"scalars\"])\n\ndata2[\"params\"][\"choice\"\
+    ] = select\n\n# Create ans_choices\nans_choices = [\"ans{0}\".format(i+1) for\
+    \ i in range(total_choices)]\n\nrandom.shuffle(scalars)\nrandom.shuffle(vectors)\n\
+    \n# define possible answers\nif select == \"vectors\":\n    for i in range(num_vectors):\n\
+    \        choice = ans_choices.pop(0)\n        data2[\"params\"][\"part1\"][choice][\"\
+    value\"] = vectors.pop()\n        data2[\"params\"][\"part1\"][choice][\"correct\"\
+    ] = True\n\n    for i in range(num_scalars):\n        choice = ans_choices.pop(0)\n\
+    \        data2[\"params\"][\"part1\"][choice][\"value\"] = scalars.pop()\n   \
+    \     data2[\"params\"][\"part1\"][choice][\"correct\"] = False\n\nelif select\
+    \ == \"scalars\":\n    for i in range(num_scalars):\n        choice = ans_choices.pop(0)\n\
+    \        data2[\"params\"][\"part1\"][choice][\"value\"] = scalars.pop()\n   \
+    \     data2[\"params\"][\"part1\"][choice][\"correct\"] = True\n        \n   \
+    \ for i in range(num_vectors):\n        choice = ans_choices.pop(0)\n        data2[\"\
+    params\"][\"part1\"][choice][\"value\"] = vectors.pop()\n        data2[\"params\"\
+    ][\"part1\"][choice][\"correct\"] = False\n\n# Update the data object with a new\
+    \ dict\ndata.update(data2)\n"
+  prepare: 'pass
+
+    '
+  parse: 'pass
+
+    '
+  grade: 'pass
+
+    '
 part1:
   type: checkbox
   pl-customizations:
@@ -26,39 +67,29 @@ substitutions:
   params:
     vars:
       title: Choose all Vectors and Scalars
-    choice: scalars
+    choice: vectors
     part1:
       ans1:
-        value: Temperature
-      ans2:
-        value: Distance travelled
-      ans3:
-        value: Work
-      ans4:
-        value: Momentum
-      ans5:
-        value: Lift
-      ans6:
         value: The average velocity
+        correct: true
+      ans2:
+        value: Momentum
+        correct: true
+      ans3:
+        value: Drag
+        correct: true
+      ans4:
+        value: Force
+        correct: true
+      ans5:
+        value: Mass
+        correct: false
+      ans6:
+        value: Speed
+        correct: false
 ---
 # {{ params.vars.title }}
-## Question Text
-
-Consider the following quantities. Choose all of those which are {{ params.choice }}.
-
-### Answer Section
-
-Select all the choices that apply.
-
-Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
-
-- {{ params.part1.ans1.value}}
-- {{ params.part1.ans2.value}}
-- {{ params.part1.ans3.value}}
-- {{ params.part1.ans4.value}}
-- {{ params.part1.ans5.value}}
-- {{ params.part1.ans6.value}}
 
 ## Attribution
 
-![Image representing the Creative Commons 4.0 BY-NC-SA license.](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
