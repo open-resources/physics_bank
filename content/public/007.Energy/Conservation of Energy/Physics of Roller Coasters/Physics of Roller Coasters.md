@@ -76,25 +76,25 @@ substitutions:
     vars:
       title: Physics of Roller-Coasters
       units: m/s
-    r: 19.8
+    r: 19.5
     part1:
       ans1:
-        value: 27.9
+        value: 27.7
         correct: false
       ans2:
-        value: 31.2
+        value: 30.9
         correct: true
       ans3:
-        value: 24.1
+        value: 24.0
         correct: false
       ans4:
-        value: 19.7
+        value: 19.6
         correct: false
       ans5:
-        value: 13.9
+        value: 13.8
         correct: false
       ans6:
-        value: 34.1
+        value: 33.9
         correct: false
 ---
 # {{ params.vars.title }}

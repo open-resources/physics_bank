@@ -144,17 +144,17 @@ substitutions:
         units: rad/s
       part5:
         units: J
-    m_p: 0.72
-    r_p: 0.41
-    m: 2.87
-    r: 0.33
-    x: 2
+    m_p: 0.73
+    r_p: 0.44
+    m: 2.28
+    r: 0.14
+    x: 3
   correct_answers:
-    part1_ans: 12.57
-    part2_ans: 0.24
-    part3_ans: 3.02
-    part4_ans: 7.62
-    part5_ans: -17.45
+    part1_ans: 18.85
+    part2_ans: 0.22
+    part3_ans: 4.15
+    part4_ans: 17.12
+    part5_ans: -37.01
 ---
 # {{ params.vars.title }}
 A cylindrical dinner plate is spinning out in space. It has mass $m_p = {{params.m_p}} kg$, radius $r = {{ params.r_p }} m$ and it rotates clockwise (as seen from above) {{ params.x }} times every second.

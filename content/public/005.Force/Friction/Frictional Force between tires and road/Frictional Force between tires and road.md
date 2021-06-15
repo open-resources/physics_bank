@@ -61,7 +61,7 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: a bicycle
+      vehicle: rollerblades
       title: Frictional Force between Tires and the Road
   correct_answers:
     part1_ans:

@@ -56,13 +56,13 @@ substitutions:
         value: B
         correct: true
       ans2:
-        value: More information is needed.
-        correct: false
-      ans3:
         value: They reach the end of the track at the same time.
         correct: false
-      ans4:
+      ans3:
         value: A
+        correct: false
+      ans4:
+        value: More information is needed.
         correct: false
 ---
 # {{ params.vars.title }}
