@@ -4,4 +4,4 @@ numpy
 docopt
 PyYAML
 pathlib
-problem-bank-scripts
+problem-bank-scripts>=0.1.1
