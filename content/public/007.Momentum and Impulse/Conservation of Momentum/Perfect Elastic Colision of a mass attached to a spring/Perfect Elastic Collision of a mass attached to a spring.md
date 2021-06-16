@@ -99,23 +99,23 @@ substitutions:
       _type: sympy
       _value: 2*m1*v1*sqrt(m2/k)/(m1 + m2)
       _variables:
-      - m2
-      - v1
       - m1
+      - v1
       - k
+      - m2
     part2_ans:
       _type: sympy
       _value: 2*pi*sqrt(m2/k)
       _variables:
-      - m2
       - k
+      - m2
     part3_ans:
       _type: sympy
       _value: A*sin(t*w)
       _variables:
-      - A
-      - t
       - w
+      - t
+      - A
 ---
 # {{ params.vars.title }}
 A block of mass $m_1$ slides across a frictionless surface with speed $v_1$ and collides perfectly elastically with a block $m_2$ (initially at rest).

@@ -1,6 +1,6 @@
 ---
 title: Dinner Plate
-topic: Momentum and Implulse
+topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2016 Final Q1 P2
 template_version: 1.0
@@ -144,17 +144,17 @@ substitutions:
         units: rad/s
       part5:
         units: J
-    m_p: 1.5
-    r_p: 0.22
-    m: 2.78
-    r: 0.19
-    x: 6
+    m_p: 1.68
+    r_p: 0.18
+    m: 2.25
+    r: 0.09
+    x: 5
   correct_answers:
-    part1_ans: 37.7
-    part2_ans: 0.07
-    part3_ans: 2.64
-    part4_ans: 21.97
-    part5_ans: -48.42
+    part1_ans: 31.42
+    part2_ans: 0.04
+    part3_ans: 1.26
+    part4_ans: 25.66
+    part5_ans: -19.11
 ---
 # {{ params.vars.title }}
 A cylindrical dinner plate is spinning out in space. It has mass $m_p = {{params.m_p}} kg$, radius $r = {{ params.r_p }} m$ and it rotates clockwise (as seen from above) {{ params.x }} times every second.

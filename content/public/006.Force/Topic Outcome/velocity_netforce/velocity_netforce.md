@@ -115,7 +115,7 @@ substitutions:
     part1:
       ans1:
         value: Velocity is negative, net force is to the left
-        correct: false
+        correct: true
       ans2:
         value: Velocity is negative, net force is to the right
         correct: false
@@ -130,7 +130,7 @@ substitutions:
         correct: false
       ans6:
         value: Velocity is positive, net force is zero
-        correct: true
+        correct: false
       ans7:
         value: Velocity is zero, net force is to the left
         correct: false

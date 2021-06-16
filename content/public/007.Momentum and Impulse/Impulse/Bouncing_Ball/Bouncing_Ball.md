@@ -88,23 +88,23 @@ substitutions:
       units_m: kg
       units_h: m
       units: kgm/s
-    m: 0.391
-    h: 1.4
+    m: 0.204
+    h: 1.8
     part1:
       ans1:
-        value: 1.4
+        value: 0.86
         correct: false
       ans2:
-        value: 2.0
+        value: 1.2
         correct: false
       ans3:
-        value: 2.9
+        value: 1.7
         correct: false
       ans4:
-        value: 4.1
+        value: 2.4
         correct: true
       ans5:
-        value: 5.4
+        value: 3.6
         correct: false
 ---
 # {{ params.vars.title }}

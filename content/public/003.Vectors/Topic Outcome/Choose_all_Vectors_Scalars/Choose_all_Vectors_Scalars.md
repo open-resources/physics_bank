@@ -73,19 +73,19 @@ substitutions:
         value: Area
         correct: true
       ans2:
-        value: Length
+        value: Entropy
         correct: true
       ans3:
         value: Pressure
         correct: true
       ans4:
-        value: Displacement
-        correct: false
+        value: Volume
+        correct: true
       ans5:
-        value: The position in a 1 dimensional system
+        value: The average velocity
         correct: false
       ans6:
-        value: Momentum
+        value: Drag
         correct: false
 ---
 # {{ params.vars.title }}

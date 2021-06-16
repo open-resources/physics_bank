@@ -53,16 +53,16 @@ substitutions:
       title: Two Balls Launched on Different Tracks
     part1:
       ans1:
-        value: They reach the end of the track at the same time.
-        correct: false
-      ans2:
-        value: B
-        correct: true
-      ans3:
         value: A
         correct: false
-      ans4:
+      ans2:
         value: More information is needed.
+        correct: false
+      ans3:
+        value: B
+        correct: true
+      ans4:
+        value: They reach the end of the track at the same time.
         correct: false
 ---
 # {{ params.vars.title }}
