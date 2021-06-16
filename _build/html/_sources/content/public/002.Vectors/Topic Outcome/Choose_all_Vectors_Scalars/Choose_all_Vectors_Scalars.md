@@ -73,19 +73,19 @@ substitutions:
         value: Drag
         correct: true
       ans2:
-        value: Force
+        value: The average acceleration
         correct: true
       ans3:
         value: Power
         correct: false
       ans4:
-        value: Work
-        correct: false
-      ans5:
         value: Length
         correct: false
+      ans5:
+        value: Pressure
+        correct: false
       ans6:
-        value: Distance travelled
+        value: Mass
         correct: false
 ---
 # {{ params.vars.title }}
