@@ -7,3 +7,5 @@ parts:
     title: About
   - file: content/bio
     title: Project Team
+  - file: content/index
+    title: Question Index
