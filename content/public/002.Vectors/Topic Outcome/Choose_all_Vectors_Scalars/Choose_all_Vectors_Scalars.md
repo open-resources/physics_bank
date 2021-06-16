@@ -70,26 +70,27 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: The average velocity
-        correct: true
-      ans2:
-        value: Momentum
-        correct: true
-      ans3:
         value: Drag
         correct: true
-      ans4:
+      ans2:
         value: Force
         correct: true
+      ans3:
+        value: Power
+        correct: false
+      ans4:
+        value: Work
+        correct: false
       ans5:
-        value: Mass
+        value: Length
         correct: false
       ans6:
-        value: Speed
+        value: Distance travelled
         correct: false
 ---
 # {{ params.vars.title }}
 
 ## Attribution
 
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

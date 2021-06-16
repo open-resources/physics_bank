@@ -80,8 +80,9 @@ substitutions:
       title: Force Vectors
     part1:
       ans1:
-        value: If two objects push on each other, their velocities will change by
-          the same amount (though opposite directions).
+        value: If you have a complicated system made of many objects (all interacting
+          among themselves) only external forces can add or remove energy from the
+          system.
         correct: false
       ans2:
         value: If you have a complicated system made of many objects (all interacting
@@ -89,21 +90,21 @@ substitutions:
           system to accelerate.
         correct: true
       ans3:
-        value: If you have a complicated system made of many objects (all interacting
-          among themselves) only external forces can add or remove energy from the
-          system.
+        value: If two objects push on each other, their velocities will change by
+          the same amount (though opposite directions).
         correct: false
       ans4:
-        value: If two objects push on each other, their momenta will change by the
-          same amount (though opposite directions).
-        correct: true
-      ans5:
         value: If two objects push on each other, they will accelerate in opposite
           directions.
+        correct: true
+      ans5:
+        value: If two objects push on each other, their momenta will change by the
+          same amount (though opposite directions).
         correct: true
 ---
 # {{ params.vars.title }}
 
 ## Attribution
 
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

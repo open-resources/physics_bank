@@ -3,7 +3,7 @@ title: Wheel of Fortune
 topic: Kinematics
 author: Jake Bobowski
 source: 2016 Final Q2
-template_version: 0.5
+template_version: 1.0
 attribution: standard
 outcomes:
 - 9.1.1.1
@@ -17,6 +17,57 @@ tags:
 - unknown
 assets:
 - wheel_of_fortune.png
+server:
+  imports: |
+    import random
+    import pandas as pd
+    import math
+    import problem_bank_helpers as pbh
+    from collections import defaultdict
+    nested_dict = lambda: defaultdict(nested_dict)
+  generate: |
+    # Start problem code
+
+    data2 = nested_dict()
+
+    # define or load names/items/objects from server files
+
+    # store phrases etc
+    data2["params"]["vars"]["units"] = "rad/s"
+    data2["params"]["vars"]["title"] = "Wheel of Fortune"
+
+    # Randomize Variables
+    w_i = math.pi/random.randint(2, 4)
+    t = random.randint(4, 6)
+
+    # store the variables in the dictionary "params"
+    data2["params"]["w_i"] = w_i
+    data2["params"]["t"] = t
+
+    # define possible answers
+    data2["params"]["part1"]["ans1"]["value"] = pbh.roundp(2*(-w_i/t)*((math.pow(-w_i,2))/2*-(w_i/t)),decimals=2)
+    data2["params"]["part1"]["ans1"]["correct"] = False
+
+    data2["params"]["part1"]["ans2"]["value"] = pbh.roundp(math.sqrt(2*(-w_i/t)*((math.pow(-w_i,2))/2*-(w_i/t))),decimals=2)
+    data2["params"]["part1"]["ans2"]["correct"] = True
+
+    data2["params"]["part1"]["ans3"]["value"] = pbh.roundp(2*(math.sqrt(2*(-w_i/t)*((math.pow(-w_i,2))/2*-(w_i/t)))),decimals=2)
+    data2["params"]["part1"]["ans3"]["correct"] = False
+
+    data2["params"]["part1"]["ans4"]["value"] = pbh.roundp(w_i,decimals=2)
+    data2["params"]["part1"]["ans4"]["correct"] = False
+
+    # Update the data object with a new dict
+    data.update(data2)
+  prepare: 'pass
+
+    '
+  parse: 'pass
+
+    '
+  grade: 'pass
+
+    '
 part1:
   type: multiple-choice
   pl-customizations:
@@ -26,35 +77,25 @@ substitutions:
     vars:
       units: rad/s
       title: Wheel of Fortune
-    w_i: 0.7853981633974483
+    w_i: 1.5707963267948966
     t: 6
     part1:
       ans1:
-        value: 0.01
+        value: 0.17
+        correct: false
       ans2:
-        value: 0.1
+        value: 0.41
+        correct: true
       ans3:
-        value: 0.21
+        value: 0.82
+        correct: false
       ans4:
-        value: 0.79
+        value: 1.57
+        correct: false
 ---
 # {{ params.vars.title }}
-## Part 1
-
-I want to win a game of Wheel-of-Fortune.
-The grand prize is initially located at a position at the top of the wheel (shown) and I only win if the wheel stops when the prize is at the position to the right ($\\theta$ = 0).\
-I note that when another contestant set the wheel spinning at $w_i = {{params.w_i}} {rad\\over s}$, it takes {{params.t}} seconds to stop.
-With which initial velocity should I spin the wheel to win the prize?
-
-<img src="wheel_of_fortune.png" width=300>
-
-### Answer Section
-
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
 
 ## Attribution
 
-![Image representing the Creative Commons 4.0 BY-NC-SA license.](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

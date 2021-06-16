@@ -64,27 +64,27 @@ substitutions:
     vars:
       title: Energy Lost due to Air Friction
       units: J
-    m: 1.61
-    v: 49.1
-    h: 46.3
+    m: 2.38
+    v: 39.4
+    h: 88.9
     part1:
       ans1:
-        value: -1210.0
+        value: 228.0
         correct: false
       ans2:
-        value: 1210.0
+        value: -228.0
         correct: true
       ans3:
-        value: -2670.0
+        value: -3920.0
         correct: false
       ans4:
-        value: 2670.0
+        value: 3920.0
         correct: false
       ans5:
-        value: 692.0
+        value: 2030.0
         correct: false
       ans6:
-        value: 771.0
+        value: 2120.0
         correct: false
 ---
 # {{ params.vars.title }}
@@ -93,4 +93,5 @@ It momentarily comes to rest after attaining a height of {{ params.h }} m.
 
 ## Attribution
 
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

@@ -62,11 +62,11 @@ substitutions:
       title: Explosions and Velocity
       units: m/s
     part1:
-      I_A: 7
+      I_A: 3
       I_B: 3
-      v_A: 20
-      v_B: 18
-      m_pumpkin: 8
+      v_A: 24
+      v_B: 26
+      m_pumpkin: 7
       ans1:
         value: Yes, because of conservation of momentum
         correct: true
@@ -75,10 +75,10 @@ substitutions:
           changed the momentum of the pumpkin.
         correct: false
       ans3:
-        value: No, because the velocity should be $v = $ 38 m/s
+        value: No, because the velocity should be $v = $ 50 m/s
         correct: false
       ans4:
-        value: No, because the velocity should be $v = $ 4.75 m/s
+        value: No, because the velocity should be $v = $ 7.142857142857143 m/s
         correct: false
 ---
 # {{ params.vars.title }}
@@ -88,4 +88,5 @@ Piece B has inertia {{ params.part1.I_B }} kg, and velocity $v_B$ = {{ params.pa
 
 ## Attribution
 
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

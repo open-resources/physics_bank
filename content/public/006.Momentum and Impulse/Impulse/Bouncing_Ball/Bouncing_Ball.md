@@ -88,23 +88,23 @@ substitutions:
       units_m: kg
       units_h: m
       units: kgm/s
-    m: 0.239
-    h: 0.64
+    m: 0.44
+    h: 1.8
     part1:
       ans1:
-        value: 0.6
+        value: 1.8
         correct: false
       ans2:
-        value: 0.85
+        value: 2.6
         correct: false
       ans3:
-        value: 1.2
+        value: 3.7
         correct: false
       ans4:
-        value: 1.7
+        value: 5.2
         correct: true
       ans5:
-        value: 1.5
+        value: 7.8
         correct: false
 ---
 # {{ params.vars.title }}
@@ -112,4 +112,5 @@ A ball of mass {{ params.m }} {{ params.vars.units_m}} is dropped vertically fro
 
 ## Attribution
 
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

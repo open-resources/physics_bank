@@ -98,14 +98,14 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-    i: 353
-    m: 24
-    v_1: 24
-    v_2: 23
+    i: 340
+    m: 22
+    v_1: 11
+    v_2: 21
   correct_answers:
     part1_ans: 0
-    part2_ans: -377.0
-    part3_ans: 38.708333333333336
+    part2_ans: -181.0
+    part3_ans: -143.54545454545453
 ---
 # {{ params.vars.title }}
 I am an astronaut caveman, floating in space.
@@ -118,4 +118,5 @@ Then I throw the second rock out of the back and we are moving with velocity {{ 
 
 ## Attribution
 
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

@@ -53,16 +53,16 @@ substitutions:
       title: Two Balls Launched on Different Tracks
     part1:
       ans1:
-        value: B
-        correct: true
-      ans2:
-        value: More information is needed.
-        correct: false
-      ans3:
         value: They reach the end of the track at the same time.
         correct: false
-      ans4:
+      ans2:
+        value: B
+        correct: true
+      ans3:
         value: A
+        correct: false
+      ans4:
+        value: More information is needed.
         correct: false
 ---
 # {{ params.vars.title }}
@@ -72,4 +72,5 @@ Balls A and B are launched with the same initial velocity along a pair of tracks
 
 ## Attribution
 
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

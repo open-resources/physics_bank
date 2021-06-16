@@ -61,15 +61,15 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: a bicycle
+      vehicle: rollerblades
       title: Frictional Force between Tires and the Road
   correct_answers:
     part1_ans:
       _type: sympy
       _value: v**2/(R*g)
       _variables:
-      - v
       - g
+      - v
       - R
 ---
 # {{ params.vars.title }}
@@ -78,4 +78,5 @@ The frictional force between the tires of the {{ params.vars.vehicle }} and the 
 
 ## Attribution
 
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
