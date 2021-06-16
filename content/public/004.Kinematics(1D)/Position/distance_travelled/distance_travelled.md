@@ -82,30 +82,30 @@ part1:
 substitutions:
   params:
     vars:
-      name: Emilia
-      vehicle: a tricycle
+      name: Ximena
+      vehicle: rollerblades
       units: m/s
       title: Distance travelled
     v: 2
-    t: 9
+    t: 6
     part1:
       ans1:
         value: 42
         correct: false
       ans2:
-        value: 18
+        value: 12
         correct: true
       ans3:
-        value: 11
+        value: 8
         correct: false
       ans4:
-        value: 0.2222222222222222
+        value: 0.3333333333333333
         correct: false
       ans5:
-        value: -7
+        value: -4
         correct: false
       ans6:
-        value: -9.1
+        value: -5.2
         correct: false
 ---
 # {{ params.vars.title }}

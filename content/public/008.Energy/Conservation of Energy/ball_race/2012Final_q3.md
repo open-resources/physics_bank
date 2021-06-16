@@ -53,17 +53,17 @@ substitutions:
       title: Two Balls Launched on Different Tracks
     part1:
       ans1:
-        value: They reach the end of the track at the same time.
-        correct: false
-      ans2:
         value: A
         correct: false
-      ans3:
+      ans2:
         value: More information is needed.
         correct: false
-      ans4:
+      ans3:
         value: B
         correct: true
+      ans4:
+        value: They reach the end of the track at the same time.
+        correct: false
 ---
 # {{ params.vars.title }}
 Balls A and B are launched with the same initial velocity along a pair of tracks as shown in the figure.
