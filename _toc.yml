@@ -17,6 +17,7 @@ parts:
   - file: content/public/003.Vectors/Topic Outcome/Choose_all_Vectors_Scalars/Choose_all_Vectors_Scalars
 - caption: Kinematics(1D)
   chapters:
+  - file: content/public/004.Kinematics(1D)/water_slide/water_slide
   - file: content/public/004.Kinematics(1D)/Position/distance_travelled/distance_travelled
 - caption: Kinematics(2D and 3D)
   chapters:
