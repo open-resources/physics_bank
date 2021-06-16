@@ -1,4 +1,3 @@
-problem_bank_scripts>0.1
 jupyter-book
 matplotlib
 altair
