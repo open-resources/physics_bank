@@ -1,7 +1,9 @@
+problem_bank_scripts>0.1
 jupyter-book
 matplotlib
+altair
+pandas
 numpy
 docopt
 PyYAML
 pathlib
-problem_bank_scripts>0.1
