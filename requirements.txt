@@ -6,3 +6,4 @@ numpy
 docopt
 PyYAML
 pathlib
+problem-bank-scripts
