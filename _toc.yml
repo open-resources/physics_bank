@@ -14,31 +14,10 @@ parts:
   - file: content/public/001.Math/Integrals/Rocket/Rocket
 - caption: Vectors
   chapters:
-  - file: content/public/002.Vectors/Topic Outcome/Choose_all_Vectors_Scalars/Choose_all_Vectors_Scalars
-- caption: Kinematics(1D)
-  chapters:
-  - file: content/public/003.Kinematics(1D)/Position/distance_travelled/distance_travelled
-- caption: Vectors
-  chapters:
   - file: content/public/003.Vectors/Topic Outcome/Choose_all_Vectors_Scalars/Choose_all_Vectors_Scalars
 - caption: Kinematics(1D)
   chapters:
   - file: content/public/004.Kinematics(1D)/Position/distance_travelled/distance_travelled
-- caption: Kinematics(2D and 3D)
-  chapters:
-  - file: content/public/004.Kinematics(2D and 3D)/Uniform Circular Motion/centripetal_force/centripetal_force
-  - file: content/public/004.Kinematics(2D and 3D)/Uniform Circular Motion/angular_speed/angular_speed
-- caption: Force
-  chapters:
-  - file: content/public/005.Force/velocity_netforce/velocity_netforce
-  - file: content/public/005.Force/Topic Outcome/The max acceleration without slipping/The
-      max acceleration without slipping
-  - file: content/public/005.Force/Topic Outcome/spring_on_incline/spring_on_incline
-  - file: content/public/005.Force/Equilibrium/Two blocks connected by a string/Two
-      Blocks Connected by a String
-  - file: content/public/005.Force/Friction/Frictional Force between tires and road/Frictional
-      Force between tires and road
-  - file: content/public/005.Force/Newton's Third Law/Force Vectors/force_vectors
 - caption: Kinematics(2D and 3D)
   chapters:
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/centripetal_force/centripetal_force
@@ -54,29 +33,6 @@ parts:
   - file: content/public/006.Force/Friction/Frictional Force between tires and road/Frictional
       Force between tires and road
   - file: content/public/006.Force/Newton's Third Law/Force Vectors/force_vectors
-- caption: Momentum and Impulse
-  chapters:
-  - file: content/public/006.Momentum and Impulse/Momentum/Dinner_Plate/dinner_plate
-  - file: content/public/006.Momentum and Impulse/Momentum/Rock_Powered_Rocket/Rock_Powered_Rocket
-  - file: content/public/006.Momentum and Impulse/Conservation of Momentum/Explosions_and_Velocity/Explosions_and_Velocity
-  - file: content/public/006.Momentum and Impulse/Conservation of Momentum/Isolated_systems/Isolated_systems
-  - file: content/public/006.Momentum and Impulse/Conservation of Momentum/Perfect
-      Elastic Colision of a mass attached to a spring/Perfect Elastic Collision of
-      a mass attached to a spring
-  - file: content/public/006.Momentum and Impulse/Impulse/Bouncing_Ball/Bouncing_Ball
-  - file: content/public/006.Momentum and Impulse/Impulse/airbag_collision/airbag_collision
-- caption: Energy
-  chapters:
-  - file: content/public/007.Energy/Conservation of Energy/dissipative_process/dissipative_process
-  - file: content/public/007.Energy/Conservation of Energy/Cut The Rope/Cut The Rope
-  - file: content/public/007.Energy/Conservation of Energy/ball_race/2012Final_q3
-  - file: content/public/007.Energy/Conservation of Energy/Physics of Roller Coasters/Physics
-      of Roller Coasters
-  - file: content/public/007.Energy/Conservation of Energy/Energy lost to air friction/energy_lost_air_friction
-  - file: content/public/007.Energy/Topic Outcome/frictionless_track/frictionless_track
-  - file: content/public/007.Energy/Kinetic Energy/KE_energy_momentum/KE_energy_momentum
-  - file: content/public/007.Energy/Kinetic Energy/KE_testmass/KE_testmass
-  - file: content/public/007.Energy/Exploding_Asteroid/Exploding_Asteroid
 - caption: Momentum and Impulse
   chapters:
   - file: content/public/007.Momentum and Impulse/Momentum/Dinner_Plate/dinner_plate
@@ -102,20 +58,10 @@ parts:
   - file: content/public/008.Energy/Exploding_Asteroid/Exploding_Asteroid
 - caption: Rotational Motion
   chapters:
-  - file: content/public/009.Rotational Motion/Topic Outcome/Wheel_of_fortune/Wheel_of_fortune
-- caption: Rotational Dynamics
-  chapters:
-  - file: content/public/010.Rotational Dynamics/thread_on_spool/thread_on_spool
-- caption: Rotational Motion
-  chapters:
   - file: content/public/010.Rotational Motion/Topic Outcome/Wheel_of_fortune/Wheel_of_fortune
 - caption: Rotational Dynamics
   chapters:
   - file: content/public/011.Rotational Dynamics/Topic Outcome/thread_on_spool/thread_on_spool
-- caption: Elasticity
-  chapters:
-  - file: content/public/013.Elasticity/Topic Outcome/Identical Mass-Springs with
-      different Displacement/Identical Mass-Springs with different Displacement
 - caption: Elasticity
   chapters:
   - file: content/public/014.Elasticity/Topic Outcome/Identical Mass-Springs with
