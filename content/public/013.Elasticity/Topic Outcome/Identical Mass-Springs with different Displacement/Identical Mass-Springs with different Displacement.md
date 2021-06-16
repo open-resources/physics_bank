@@ -61,10 +61,10 @@ substitutions:
         value: Spring B
         correct: false
       ans2:
-        value: Not enough information is given.
+        value: Spring A
         correct: false
       ans3:
-        value: Spring A
+        value: Not enough information is given.
         correct: false
       ans4:
         value: It is a tie.

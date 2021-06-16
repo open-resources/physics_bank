@@ -98,14 +98,14 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-    i: 340
-    m: 22
-    v_1: 11
-    v_2: 21
+    i: 332
+    m: 20
+    v_1: 16
+    v_2: 30
   correct_answers:
     part1_ans: 0
-    part2_ans: -181.0
-    part3_ans: -143.54545454545453
+    part2_ans: -281.6
+    part3_ans: -216.4
 ---
 # {{ params.vars.title }}
 I am an astronaut caveman, floating in space.
