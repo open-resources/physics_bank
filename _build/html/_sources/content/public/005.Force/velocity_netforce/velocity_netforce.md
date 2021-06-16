@@ -115,7 +115,7 @@ substitutions:
     part1:
       ans1:
         value: Velocity is negative, net force is to the left
-        correct: true
+        correct: false
       ans2:
         value: Velocity is negative, net force is to the right
         correct: false
@@ -127,7 +127,7 @@ substitutions:
         correct: false
       ans5:
         value: Velocity is positive, net force is to the right
-        correct: false
+        correct: true
       ans6:
         value: Velocity is positive, net force is zero
         correct: false
@@ -148,4 +148,5 @@ The position versus time graph of a mass on a spring is shown in the image.
 
 ## Attribution
 
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
