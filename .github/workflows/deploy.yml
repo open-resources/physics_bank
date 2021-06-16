@@ -31,7 +31,7 @@ jobs:
         pip install -r requirements.txt
         pip install linkify-it-py
         pip install myst-parser~=0.13
-        pip install problem_bank_scripts
+        pip install problem-bank-scripts
         
     - name: execute script
       run: |
