@@ -73,23 +73,24 @@ substitutions:
     vars:
       title: Angular Speed
       units: rad/s
-    rev: 9
+    rev: 14
     part1:
       ans1:
-        value: 0.7
+        value: 0.45
         correct: false
       ans2:
-        value: 28.0
+        value: 44.0
         correct: false
       ans3:
-        value: 57.0
+        value: 88.0
         correct: true
       ans4:
-        value: 1.4
+        value: 2.2
         correct: false
 ---
 # {{ params.vars.title }}
 
 ## Attribution
 
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

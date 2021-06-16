@@ -70,8 +70,8 @@ substitutions:
   params:
     vars:
       title: Exploding Asteroid
-      name: Emilia
-      name2: Santiago
+      name: Ahmed
+      name2: Maya
     part1:
       ans1:
         value: The final speeds they measure for the two asteroid pieces will be the
@@ -81,24 +81,25 @@ substitutions:
         value: They will both agree on how the internal energy of the system has changed.
         correct: true
       ans3:
+        value: The FORCE vector they determine that each piece of the asteroid felt
+          during the explosion will be the same.
+        correct: true
+      ans4:
         value: They will both agree on how the TOTAL kinetic energy of the system
           has changed.
         correct: true
-      ans4:
-        value: The momentum vectors they use to describe each of the two asteroid
-          pieces will be the same.
-        correct: false
       ans5:
-        value: They will both agree on how the kinetic energy of each of the pieces
-          has changed.
+        value: The CHANGE in the momentum vector they determine for each piece of
+          the asteroid before and after the explosion will be the same.
         correct: true
       ans6:
-        value: They will both agree on how much kinetic energy each of the asteroid
-          pieces has.
+        value: The final velocity vectors they use to describe the two asteroid pieces
+          will be the same.
         correct: false
 ---
 # {{ params.vars.title }}
 
 ## Attribution
 
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

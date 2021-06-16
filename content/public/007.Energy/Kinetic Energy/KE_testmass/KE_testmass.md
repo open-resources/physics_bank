@@ -67,28 +67,28 @@ substitutions:
     vars:
       title: Kinetic Energy of Test Mass
       units: J
-    m: 355
-    v: 3.35
-    d_m: 3
-    d_v: 0.05
+    m: 66
+    v: 8.98
+    d_m: 2
+    d_v: 0.08
     part1:
       ans1:
-        value: 1.992 $\pm$ 0.047
+        value: 2.661 $\pm$ 0.104
         correct: false
       ans2:
-        value: 1.992 $\pm$ 0.076
+        value: 2.661 $\pm$ 0.128
         correct: true
       ans3:
-        value: 1.992 $\pm$ 0.017
+        value: 2.661 $\pm$ 0.081
         correct: false
       ans4:
-        value: 1.992 $\pm$ 0.009
+        value: 2.661 $\pm$ 0.03
         correct: false
       ans5:
-        value: 1.992 $\pm$ 0.038
+        value: 2.661 $\pm$ 0.048
         correct: false
       ans6:
-        value: 1.992 $\pm$ 0.017
+        value: 2.661 $\pm$ 0.081
         correct: false
 ---
 # {{ params.vars.title }}
@@ -96,4 +96,5 @@ In a lab, a test mass with $m = $ {{ params.m}} $\pm$ {{ params.d_m}} g is measu
 
 ## Attribution
 
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

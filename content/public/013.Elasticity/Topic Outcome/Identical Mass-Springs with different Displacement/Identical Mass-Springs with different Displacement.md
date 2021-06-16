@@ -58,17 +58,17 @@ substitutions:
     d2: $2d$
     part1:
       ans1:
-        value: It is a tie.
-        correct: true
-      ans2:
-        value: Spring A
-        correct: false
-      ans3:
         value: Spring B
         correct: false
-      ans4:
+      ans2:
         value: Not enough information is given.
         correct: false
+      ans3:
+        value: Spring A
+        correct: false
+      ans4:
+        value: It is a tie.
+        correct: true
 ---
 # {{ params.vars.title }}
 Two identical springs are attached to two identical masses.
@@ -79,4 +79,5 @@ One of the springs is displaced a distance {{ params.d1 }} from its equilibrium 
 
 ## Attribution
 
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

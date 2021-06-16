@@ -63,14 +63,14 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: pickup truck
+      vehicle: bus
       title: A Crate's Maximum Acceleration without Slipping
       units: $m/s^2$
-    mu_s: 0.73
-    mu_k: 0.21
-    theta: 10
+    mu_s: 0.51
+    mu_k: 0.22
+    theta: 26
   correct_answers:
-    part1_ans: 5.34901513873374
+    part1_ans: 0.1963355430385133
 ---
 # {{ params.vars.title }}
 A wood crate sits in the back of a {{ params.vars.vehicle }}.
@@ -79,4 +79,5 @@ The {{ params.vars.vehicle }} starts moving up a {{ params.theta }}$^{\circ}$ sl
 
 ## Attribution
 
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

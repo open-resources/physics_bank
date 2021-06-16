@@ -76,25 +76,25 @@ substitutions:
     vars:
       title: Physics of Roller-Coasters
       units: m/s
-    r: 19.5
+    r: 18.9
     part1:
       ans1:
-        value: 27.7
+        value: 27.2
         correct: false
       ans2:
-        value: 30.9
+        value: 30.4
         correct: true
       ans3:
-        value: 24.0
+        value: 23.6
         correct: false
       ans4:
-        value: 19.6
+        value: 19.3
         correct: false
       ans5:
-        value: 13.8
+        value: 13.6
         correct: false
       ans6:
-        value: 33.9
+        value: 33.4
         correct: false
 ---
 # {{ params.vars.title }}
@@ -102,4 +102,5 @@ A roller-coaster travels over a vertical, circular loop of radius $R = $ {{ para
 
 ## Attribution
 
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

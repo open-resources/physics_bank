@@ -122,22 +122,22 @@ substitutions:
       title: Rocket
       units1: m/s^2
       units2: s
-    v_1: 5
-    t_1: 3
-    t_2: 6
+    v_1: 6
+    t_1: 1
+    t_2: 5
   correct_answers:
     part1_ans:
       _type: sympy
-      _value: -0.333333333333333*t**3 + 2.5*t**2
+      _value: -0.333333333333333*t**3 + 3.0*t**2
       _variables:
       - t
     part2_ans:
       _type: sympy
-      _value: 5 - 2*t
+      _value: 6 - 2*t
       _variables:
       - t
-    part3_ans: -4.0
-    part4_ans: 5
+    part3_ans: 0.0
+    part4_ans: 6
 ---
 # {{ params.vars.title }}
 A rocket has a velocity (pointing away from the launch pad) given by $v(t)$={{ params.i }}$t$-$t^2$
@@ -145,4 +145,5 @@ where $x$ is in meters, and $t$ is in seconds.
 
 ## Attribution
 
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

@@ -78,21 +78,22 @@ substitutions:
       title: Isolated Systems
     part1:
       ans1:
-        value: A system is isolated if its center of mass is moving with constant
-          velocity
+        value: A system is isolated if all of the external forces on it are balanced
         correct: true
       ans2:
         value: A system is isolated if energy isn't entering or leaving the system
         correct: false
       ans3:
-        value: A system is isolated if its total momentum is constant
+        value: A system is isolated if its center of mass is moving with constant
+          velocity
         correct: true
       ans4:
-        value: A system is isolated if all of the external forces on it are balanced
+        value: A system is isolated if its total momentum is constant
         correct: true
 ---
 # {{ params.vars.title }}
 
 ## Attribution
 
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png) Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
