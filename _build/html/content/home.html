@@ -520,20 +520,6 @@ commentsRunWhenDOMLoaded(addUtterances);
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="o">&lt;</span><span class="n">ipython</span><span class="o">-</span><span class="nb">input</span><span class="o">-</span><span class="mi">1</span><span class="o">-</span><span class="mi">4756</span><span class="n">b8a28232</span><span class="o">&gt;</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="kn">import</span> <span class="nn">pathlib</span>
-<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="kn">import</span> <span class="nn">os</span>
-<span class="ne">----&gt; </span><span class="mi">3</span> <span class="kn">import</span> <span class="nn">problem_bank_scripts</span> <span class="k">as</span> <span class="nn">pbs</span>
-<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="kn">import</span> <span class="nn">altair</span> <span class="k">as</span> <span class="nn">alt</span>
-<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;problem_bank_scripts&#39;
-</pre></div>
-</div>
-</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -588,12 +574,12 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-<div id="altair-viz-2bcfbda463b74da2bef5a36ba1595cc6"></div>
+<div id="altair-viz-b9d3870ec78542f09e5298f00dadfdf2"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
     let outputDiv = document.currentScript.previousElementSibling;
-    if (outputDiv.id !== "altair-viz-2bcfbda463b74da2bef5a36ba1595cc6") {
-      outputDiv = document.getElementById("altair-viz-2bcfbda463b74da2bef5a36ba1595cc6");
+    if (outputDiv.id !== "altair-viz-b9d3870ec78542f09e5298f00dadfdf2") {
+      outputDiv = document.getElementById("altair-viz-b9d3870ec78542f09e5298f00dadfdf2");
     }
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
@@ -635,7 +621,7 @@ commentsRunWhenDOMLoaded(addUtterances);
         .catch(showError)
         .then(() => displayChart(vegaEmbed));
     }
-  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-188b39b9633b570980be8a86144214d5"}, "mark": "bar", "encoding": {"x": {"type": "quantitative", "field": "Count"}, "y": {"type": "nominal", "field": "Topic", "sort": "-x", "title": ""}}, "title": "Questions by Topic", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-188b39b9633b570980be8a86144214d5": [{"Topic": "Kinematics", "Count": 2}, {"Topic": "Rotational Dynamics", "Count": 1}, {"Topic": "Energy", "Count": 10}, {"Topic": "Springs", "Count": 1}, {"Topic": "Vectors", "Count": 1}, {"Topic": "centripetal motion", "Count": 1}, {"Topic": "Kinematics(2D and 3D)", "Count": 1}, {"Topic": "Force", "Count": 5}, {"Topic": "Math", "Count": 1}, {"Topic": "Conservation of Momentum", "Count": 1}, {"Topic": "Momentum and Impulse", "Count": 4}, {"Topic": "Simple Harmonic Motion", "Count": 1}, {"Topic": "Momentum and Implulse", "Count": 1}]}}, {"mode": "vega-lite"});
+  })({"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "data": {"name": "data-56f7a6496be68b65cbe41fb06e0ab2d2"}, "mark": "bar", "encoding": {"x": {"type": "quantitative", "field": "Count"}, "y": {"type": "nominal", "field": "Topic", "sort": "-x", "title": ""}}, "title": "Questions by Topic", "$schema": "https://vega.github.io/schema/vega-lite/v4.8.1.json", "datasets": {"data-56f7a6496be68b65cbe41fb06e0ab2d2": [{"Topic": "Force", "Count": 5}, {"Topic": "Energy", "Count": 10}, {"Topic": "Math", "Count": 1}, {"Topic": "Momentum and Implulse", "Count": 1}, {"Topic": "Momentum and Impulse", "Count": 4}, {"Topic": "Conservation of Momentum", "Count": 1}, {"Topic": "Simple Harmonic Motion", "Count": 1}, {"Topic": "Rotational Dynamics", "Count": 1}, {"Topic": "Kinematics", "Count": 2}, {"Topic": "Springs", "Count": 1}, {"Topic": "centripetal motion", "Count": 1}, {"Topic": "Kinematics(2D and 3D)", "Count": 1}, {"Topic": "Vectors", "Count": 1}]}}, {"mode": "vega-lite"});
 </script></div></div>
 </div>
 <div class="cell docutils container">
@@ -655,36 +641,36 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;public/003.Kinematics(1D)/Position/distance_travelled/distance_travelled.md&#39;,
- &#39;public/010.Rotational Dynamics/thread_on_spool/thread_on_spool.md&#39;,
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[&#39;public/005.Force/velocity_netforce/velocity_netforce.md&#39;,
+ &#39;public/005.Force/Topic Outcome/The max acceleration without slipping/The max acceleration without slipping.md&#39;,
+ &#39;public/005.Force/Topic Outcome/spring_on_incline/spring_on_incline.md&#39;,
+ &#39;public/005.Force/Equilibrium/Two blocks connected by a string/Two Blocks Connected by a String.md&#39;,
+ &#39;public/005.Force/Friction/Frictional Force between tires and road/Frictional Force between tires and road.md&#39;,
+ &quot;public/005.Force/Newton&#39;s Third Law/Force Vectors/force_vectors.md&quot;,
+ &#39;public/001.Math/Integrals/Rocket/Rocket.md&#39;,
+ &#39;public/007.Energy/Conservation of Energy/dissipative_process/dissipative_process.md&#39;,
+ &#39;public/007.Energy/Conservation of Energy/Cut The Rope/Cut The Rope.md&#39;,
+ &#39;public/007.Energy/Conservation of Energy/ball_race/2012Final_q3.md&#39;,
+ &#39;public/007.Energy/Conservation of Energy/Physics of Roller Coasters/Physics of Roller Coasters.md&#39;,
+ &#39;public/007.Energy/Conservation of Energy/Energy lost to air friction/energy_lost_air_friction.md&#39;,
+ &#39;public/007.Energy/Topic Outcome/frictionless_track/frictionless_track.md&#39;,
  &#39;public/007.Energy/Kinetic Energy/KE_energy_momentum/KE_energy_momentum.md&#39;,
  &#39;public/007.Energy/Kinetic Energy/KE_testmass/KE_testmass.md&#39;,
- &#39;public/007.Energy/Conservation of Energy/ball_race/2012Final_q3.md&#39;,
- &#39;public/007.Energy/Conservation of Energy/dissipative_process/dissipative_process.md&#39;,
- &#39;public/007.Energy/Conservation of Energy/Energy lost to air friction/energy_lost_air_friction.md&#39;,
- &#39;public/007.Energy/Conservation of Energy/Physics of Roller Coasters/Physics of Roller Coasters.md&#39;,
- &#39;public/007.Energy/Conservation of Energy/Cut The Rope/Cut The Rope.md&#39;,
- &#39;public/007.Energy/Topic Outcome/frictionless_track/frictionless_track.md&#39;,
  &#39;public/007.Energy/Exploding_Asteroid/Exploding_Asteroid.md&#39;,
- &#39;public/013.Elasticity/Topic Outcome/Identical Mass-Springs with different Displacement/Identical Mass-Springs with different Displacement.md&#39;,
- &#39;public/002.Vectors/Topic Outcome/Choose_all_Vectors_Scalars/Choose_all_Vectors_Scalars.md&#39;,
+ &#39;public/006.Momentum and Impulse/Momentum/Dinner_Plate/dinner_plate.md&#39;,
+ &#39;public/006.Momentum and Impulse/Momentum/Rock_Powered_Rocket/Rock_Powered_Rocket.md&#39;,
+ &#39;public/006.Momentum and Impulse/Conservation of Momentum/Explosions_and_Velocity/Explosions_and_Velocity.md&#39;,
+ &#39;public/006.Momentum and Impulse/Conservation of Momentum/Isolated_systems/Isolated_systems.md&#39;,
+ &#39;public/006.Momentum and Impulse/Conservation of Momentum/Perfect Elastic Colision of a mass attached to a spring/Perfect Elastic Collision of a mass attached to a spring.md&#39;,
+ &#39;public/006.Momentum and Impulse/Impulse/Bouncing_Ball/Bouncing_Ball.md&#39;,
+ &#39;public/006.Momentum and Impulse/Impulse/airbag_collision/airbag_collision.md&#39;,
+ &#39;public/010.Rotational Dynamics/thread_on_spool/thread_on_spool.md&#39;,
  &#39;public/009.Rotational Motion/Topic Outcome/Wheel_of_fortune/Wheel_of_fortune.md&#39;,
+ &#39;public/013.Elasticity/Topic Outcome/Identical Mass-Springs with different Displacement/Identical Mass-Springs with different Displacement.md&#39;,
  &#39;public/004.Kinematics(2D and 3D)/Uniform Circular Motion/centripetal_force/centripetal_force.md&#39;,
  &#39;public/004.Kinematics(2D and 3D)/Uniform Circular Motion/angular_speed/angular_speed.md&#39;,
- &#39;public/005.Force/Topic Outcome/spring_on_incline/spring_on_incline.md&#39;,
- &#39;public/005.Force/Topic Outcome/The max acceleration without slipping/The max acceleration without slipping.md&#39;,
- &#39;public/005.Force/Friction/Frictional Force between tires and road/Frictional Force between tires and road.md&#39;,
- &#39;public/005.Force/Equilibrium/Two blocks connected by a string/Two Blocks Connected by a String.md&#39;,
- &quot;public/005.Force/Newton&#39;s Third Law/Force Vectors/force_vectors.md&quot;,
- &#39;public/005.Force/velocity_netforce/velocity_netforce.md&#39;,
- &#39;public/001.Math/Integrals/Rocket/Rocket.md&#39;,
- &#39;public/006.Momentum and Impulse/Conservation of Momentum/Isolated_systems/Isolated_systems.md&#39;,
- &#39;public/006.Momentum and Impulse/Conservation of Momentum/Explosions_and_Velocity/Explosions_and_Velocity.md&#39;,
- &#39;public/006.Momentum and Impulse/Conservation of Momentum/Perfect Elastic Colision of a mass attached to a spring/Perfect Elastic Collision of a mass attached to a spring.md&#39;,
- &#39;public/006.Momentum and Impulse/Momentum/Rock_Powered_Rocket/Rock_Powered_Rocket.md&#39;,
- &#39;public/006.Momentum and Impulse/Momentum/Dinner_Plate/dinner_plate.md&#39;,
- &#39;public/006.Momentum and Impulse/Impulse/Bouncing_Ball/Bouncing_Ball.md&#39;,
- &#39;public/006.Momentum and Impulse/Impulse/airbag_collision/airbag_collision.md&#39;]
+ &#39;public/002.Vectors/Topic Outcome/Choose_all_Vectors_Scalars/Choose_all_Vectors_Scalars.md&#39;,
+ &#39;public/003.Kinematics(1D)/Position/distance_travelled/distance_travelled.md&#39;]
 </pre></div>
 </div>
 </div>
@@ -696,7 +682,12 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>{&#39;title&#39;: &#39;Airbags&#39;, &#39;topic&#39;: &#39;Momentum and Impulse&#39;, &#39;outcomes&#39;: [&#39;6.3.1.2&#39;]}
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="o">&lt;</span><span class="n">ipython</span><span class="o">-</span><span class="nb">input</span><span class="o">-</span><span class="mi">8</span><span class="o">-</span><span class="n">d0aa4386ac53</span><span class="o">&gt;</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">v</span>
+
+<span class="ne">NameError</span>: name &#39;v&#39; is not defined
 </pre></div>
 </div>
 </div>
