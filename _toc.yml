@@ -64,6 +64,7 @@ parts:
   - file: content/public/011.Rotational Dynamics/Topic Outcome/thread_on_spool/thread_on_spool
 - caption: Circuits
   chapters:
+  - file: content/public/014.Circuits/Resistance/OSUPv2p10_02/OSUPv2p10_02
   - file: content/public/014.Circuits/Resistance/OSUPv2p10_06/OSUPv2p10_06
 - caption: Elasticity
   chapters:
