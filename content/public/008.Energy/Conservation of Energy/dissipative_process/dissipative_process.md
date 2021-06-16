@@ -76,18 +76,18 @@ substitutions:
       title: Dissipative Energy
     part1:
       ans1:
+        value: Coherent deformations are dissipative.
+        correct: false
+      ans2:
+        value: Incoherent deformations are dissipative
+        correct: true
+      ans3:
         value: If the total kinetic energy is not constant all the way through the
           interaction, the process is dissipative.
         correct: false
-      ans2:
+      ans4:
         value: Irreversible processes are dissipative.
         correct: true
-      ans3:
-        value: Incoherent deformations are dissipative
-        correct: true
-      ans4:
-        value: Coherent deformations are dissipative.
-        correct: false
       ans5:
         value: Dissipative processes are one where the total mechanical energy is
           not conserved.

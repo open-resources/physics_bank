@@ -78,11 +78,11 @@ substitutions:
       title: Isolated Systems
     part1:
       ans1:
-        value: A system is isolated if its total momentum is constant
-        correct: true
-      ans2:
         value: A system is isolated if its center of mass is moving with constant
           velocity
+        correct: true
+      ans2:
+        value: A system is isolated if its total momentum is constant
         correct: true
       ans3:
         value: A system is isolated if all of the external forces on it are balanced

@@ -67,25 +67,25 @@ substitutions:
   params:
     vars:
       title: Choose all Vectors and Scalars
-    choice: scalars
+    choice: vectors
     part1:
       ans1:
-        value: Speed
+        value: Momentum
         correct: true
       ans2:
-        value: Area
+        value: The position in 3 dimensions
         correct: true
       ans3:
-        value: Momentum
-        correct: false
+        value: Drag
+        correct: true
       ans4:
-        value: Lift
-        correct: false
+        value: Weight
+        correct: true
       ans5:
-        value: Force
+        value: Energy
         correct: false
       ans6:
-        value: Weight
+        value: Power
         correct: false
 ---
 # {{ params.vars.title }}

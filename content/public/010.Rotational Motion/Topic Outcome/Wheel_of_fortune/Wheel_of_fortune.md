@@ -78,16 +78,16 @@ substitutions:
       units: rad/s
       title: Wheel of Fortune
     w_i: 1.5707963267948966
-    t: 6
+    t: 4
     part1:
       ans1:
-        value: 0.17
+        value: 0.38
         correct: false
       ans2:
-        value: 0.41
+        value: 0.62
         correct: true
       ans3:
-        value: 0.82
+        value: 1.23
         correct: false
       ans4:
         value: 1.57
