@@ -99,9 +99,9 @@ substitutions:
       _type: sympy
       _value: 2*m1*v1*sqrt(m2/k)/(m1 + m2)
       _variables:
-      - k
-      - v1
       - m1
+      - v1
+      - k
       - m2
     part2_ans:
       _type: sympy

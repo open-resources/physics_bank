@@ -58,14 +58,14 @@ substitutions:
     d2: $2d$
     part1:
       ans1:
-        value: Not enough information is given.
-        correct: false
-      ans2:
-        value: Spring B
-        correct: false
-      ans3:
         value: It is a tie.
         correct: true
+      ans2:
+        value: Not enough information is given.
+        correct: false
+      ans3:
+        value: Spring B
+        correct: false
       ans4:
         value: Spring A
         correct: false

@@ -72,15 +72,15 @@ substitutions:
       title: Spring on an Incline
       units1: m
       units2: J
-    m: 4
-    k: 661
-    theta: 29
+    m: 2
+    k: 656
+    theta: 27
     mu: 0.25
     d: 6
     g: 9.8
   correct_answers:
-    part1_ans: 0.7565617922828131
-    part2_ans: 189.17348890169126
+    part1_ans: 0.5218406472863125
+    part2_ans: 89.32019286054482
 ---
 # {{ params.vars.title }}
 A small {{params.m}} kg block is accelerated from rest on a flat surface by a compressed spring (k = {{params.k}} N/m) along a frictionless, horizontal surface.

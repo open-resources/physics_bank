@@ -64,27 +64,27 @@ substitutions:
     vars:
       title: Energy Lost due to Air Friction
       units: J
-    m: 1.01
-    v: 43.7
-    h: 91.9
+    m: 1.51
+    v: 47.2
+    h: 43.7
     part1:
       ans1:
-        value: -53.8
+        value: -1030.0
         correct: false
       ans2:
-        value: 53.8
+        value: 1030.0
         correct: true
       ans3:
-        value: -1870.0
+        value: -2330.0
         correct: false
       ans4:
-        value: 1870.0
+        value: 2330.0
         correct: false
       ans5:
-        value: 888.0
+        value: 612.0
         correct: false
       ans6:
-        value: 933.0
+        value: 683.0
         correct: false
 ---
 # {{ params.vars.title }}
