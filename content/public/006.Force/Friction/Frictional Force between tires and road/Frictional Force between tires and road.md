@@ -61,7 +61,7 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: ice skates
+      vehicle: a unicycle
       title: Frictional Force between Tires and the Road
   correct_answers:
     part1_ans:

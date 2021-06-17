@@ -61,13 +61,13 @@ substitutions:
         value: It is a tie.
         correct: true
       ans2:
-        value: Not enough information is given.
+        value: Spring A
         correct: false
       ans3:
-        value: Spring B
+        value: Not enough information is given.
         correct: false
       ans4:
-        value: Spring A
+        value: Spring B
         correct: false
 ---
 # {{ params.vars.title }}

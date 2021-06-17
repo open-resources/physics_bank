@@ -80,12 +80,12 @@ substitutions:
           not conserved.
         correct: true
       ans2:
-        value: Irreversible processes are dissipative.
-        correct: true
-      ans3:
         value: If the total kinetic energy is not constant all the way through the
           interaction, the process is dissipative.
         correct: false
+      ans3:
+        value: Irreversible processes are dissipative.
+        correct: true
       ans4:
         value: Incoherent deformations are dissipative
         correct: true
