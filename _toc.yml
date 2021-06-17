@@ -20,6 +20,9 @@ parts:
   - file: content/public/004.Kinematics(1D)/Position/distance_travelled/distance_travelled
 - caption: Kinematics(2D and 3D)
   chapters:
+  - file: content/public/004.Kinematics(2D and 3D)/Projectile Motion/Q1_test_projectilemotion/Q1_test_projectilemotion
+- caption: Kinematics(2D and 3D)
+  chapters:
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/centripetal_force/centripetal_force
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/angular_speed/angular_speed
 - caption: Force
