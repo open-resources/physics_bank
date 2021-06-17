@@ -1,12 +1,13 @@
 ---
 title: Distance travelled
-topic: Kinematics
+topic: Template
 author: Firas Moosvi
-source: original
+source: 5.45
 template_version: 1.0
-attribution: standard
+attribution: openstax-physics-vol2
 outcomes:
-- undefined
+- 6.1.1.0
+- 6.1.1.1
 difficulty:
 - undefined
 randomization:
@@ -15,11 +16,14 @@ taxonomy:
 - undefined
 tags:
 - unknown
-assets: null
+assets:
+- test1.png
+- test2.png
 server:
   imports: |
     import random
     import pandas as pd
+    import problem_bank_helpers as pbh
     from collections import defaultdict
     nested_dict = lambda: defaultdict(nested_dict)
   generate: |
@@ -32,10 +36,10 @@ server:
     manual_vehicles = pd.read_csv("data/manual_vehicles.csv")["Manual Vehicles"].tolist()
 
     # store phrases etc
+    data2["params"]["vars"]["title"] = 'Kinematics'
     data2["params"]["vars"]["name"] = random.choice(names)
     data2["params"]["vars"]["vehicle"] = random.choice(manual_vehicles)
     data2["params"]["vars"]["units"] = "m/s"
-    data2["params"]["vars"]["title"] = "Distance travelled"
 
     # Randomize Variables
     v = random.randint(2,7)
@@ -46,22 +50,22 @@ server:
     data2["params"]["t"] = t
 
     # define possible answers
-    data2["params"]["part1"]["ans1"]["value"] = 42
+    data2["params"]["part1"]["ans1"]["value"] = pbh.roundp(42)
     data2["params"]["part1"]["ans1"]["correct"] = False
 
-    data2["params"]["part1"]["ans2"]["value"] = v*t
+    data2["params"]["part1"]["ans2"]["value"] = pbh.roundp(v*t)
     data2["params"]["part1"]["ans2"]["correct"] = True
 
-    data2["params"]["part1"]["ans3"]["value"] = v+t
+    data2["params"]["part1"]["ans3"]["value"] = pbh.roundp(v+t)
     data2["params"]["part1"]["ans3"]["correct"] = False
 
-    data2["params"]["part1"]["ans4"]["value"] = v/t
+    data2["params"]["part1"]["ans4"]["value"] = pbh.roundp(v/t)
     data2["params"]["part1"]["ans4"]["correct"] = False
 
-    data2["params"]["part1"]["ans5"]["value"] = v-t
+    data2["params"]["part1"]["ans5"]["value"] = pbh.roundp(v-t)
     data2["params"]["part1"]["ans5"]["correct"] = False
 
-    data2["params"]["part1"]["ans6"]["value"] = 1.3*(v-t)
+    data2["params"]["part1"]["ans6"]["value"] = pbh.roundp(1.3*(v-t))
     data2["params"]["part1"]["ans6"]["correct"] = False
 
     # Update the data object with a new dict
@@ -82,36 +86,38 @@ part1:
 substitutions:
   params:
     vars:
-      name: Ximena
-      vehicle: a skateboard
+      title: Kinematics
+      name: Aliyah
+      vehicle: ice skates
       units: m/s
-      title: Distance travelled
-    v: 7
-    t: 8
+    v: 5
+    t: 5
     part1:
       ans1:
         value: 42
         correct: false
       ans2:
-        value: 56
+        value: 25
         correct: true
       ans3:
-        value: 15
+        value: 10
         correct: false
       ans4:
-        value: 0.875
+        value: 1.0
         correct: false
       ans5:
-        value: -1
+        value: 0
         correct: false
       ans6:
-        value: -1.3
+        value: 0.0
         correct: false
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is traveling on {{ params.vars.vehicle }} at {{ params.v }} {{ params.vars.units }}.
 
+<img src="test1.png">
+
 ## Attribution
 
-Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
+Problem is from the [OpenStax University Physics Volume 2](https://openstax.org/details/books/university-physics-volume-2) textbook, licensed under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
+![Image representing the Creative Commons 4.0 BY license.](https://raw.githubusercontent.com/firasm/bits/master/by.png)

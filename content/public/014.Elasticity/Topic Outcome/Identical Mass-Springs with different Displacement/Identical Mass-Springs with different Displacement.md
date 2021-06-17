@@ -58,16 +58,16 @@ substitutions:
     d2: $2d$
     part1:
       ans1:
-        value: Spring B
+        value: Not enough information is given.
         correct: false
       ans2:
-        value: Spring A
+        value: Spring B
         correct: false
       ans3:
         value: It is a tie.
         correct: true
       ans4:
-        value: Not enough information is given.
+        value: Spring A
         correct: false
 ---
 # {{ params.vars.title }}

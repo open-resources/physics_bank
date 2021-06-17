@@ -70,22 +70,22 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Entropy
+        value: Speed
         correct: true
       ans2:
-        value: Distance travelled
-        correct: true
-      ans3:
         value: Volume
         correct: true
+      ans3:
+        value: Acceleration
+        correct: false
       ans4:
-        value: Pressure
-        correct: true
+        value: Drag
+        correct: false
       ans5:
-        value: Weight
+        value: Displacement
         correct: false
       ans6:
-        value: Force
+        value: velocity
         correct: false
 ---
 # {{ params.vars.title }}

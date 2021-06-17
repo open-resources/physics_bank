@@ -68,9 +68,9 @@ substitutions:
       _type: sympy
       _value: v**2/(R*g)
       _variables:
-      - R
-      - g
       - v
+      - g
+      - R
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }} of mass $m$ is driving around a horizontal circular track of radius $R$ at constant speed $v$.

@@ -122,22 +122,22 @@ substitutions:
       title: Rocket
       units1: m/s^2
       units2: s
-    v_1: 3
+    v_1: 2
     t_1: 0
-    t_2: 6
+    t_2: 4
   correct_answers:
     part1_ans:
       _type: sympy
-      _value: -0.333333333333333*t**3 + 1.5*t**2
+      _value: -0.333333333333333*t**3 + 1.0*t**2
       _variables:
       - t
     part2_ans:
       _type: sympy
-      _value: 3 - 2*t
+      _value: 2 - 2*t
       _variables:
       - t
-    part3_ans: -3.0
-    part4_ans: 3
+    part3_ans: -2.0
+    part4_ans: 2
 ---
 # {{ params.vars.title }}
 A rocket has a velocity (pointing away from the launch pad) given by $v(t)$={{ params.i }}$t$-$t^2$
