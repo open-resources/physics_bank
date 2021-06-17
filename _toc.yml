@@ -12,6 +12,9 @@ parts:
 - caption: Math
   chapters:
   - file: content/public/001.Math/Integrals/Rocket/Rocket
+- caption: Kinematics(1D)
+  chapters:
+  - file: content/public/003.Kinematics(1D)/Motion Diagrams/Running_Dog/Running_Dog
 - caption: Vectors
   chapters:
   - file: content/public/003.Vectors/Topic Outcome/Choose_all_Vectors_Scalars/Choose_all_Vectors_Scalars
