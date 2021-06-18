@@ -70,22 +70,22 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Work
+        value: Energy
         correct: true
       ans2:
-        value: Pressure
+        value: Length
         correct: true
       ans3:
-        value: Area
+        value: Entropy
         correct: true
       ans4:
-        value: Power
+        value: Speed
         correct: true
       ans5:
-        value: Acceleration
+        value: The average velocity
         correct: false
       ans6:
-        value: Force
+        value: Momentum
         correct: false
 ---
 # {{ params.vars.title }}

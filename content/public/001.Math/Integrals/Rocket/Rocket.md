@@ -123,8 +123,8 @@ substitutions:
       units1: m/s^2
       units2: s
     v_1: 4
-    t_1: 1
-    t_2: 5
+    t_1: 3
+    t_2: 6
   correct_answers:
     part1_ans:
       _type: sympy
@@ -136,7 +136,7 @@ substitutions:
       _value: 4 - 2*t
       _variables:
       - t
-    part3_ans: -2.0
+    part3_ans: -5.0
     part4_ans: 4
 ---
 # {{ params.vars.title }}
