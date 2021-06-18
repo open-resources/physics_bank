@@ -74,3 +74,6 @@ parts:
   chapters:
   - file: content/public/014.Elasticity/Topic Outcome/Identical Mass-Springs with
       different Displacement/Identical Mass-Springs with different Displacement
+- caption: Circuits
+  chapters:
+  - file: content/public/021.Circuits/RC Circuits/OSUPv2p10_16/OSUPv2p10_16
