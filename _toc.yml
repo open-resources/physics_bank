@@ -24,6 +24,7 @@ parts:
 - caption: Kinematics(2D and 3D)
   chapters:
   - file: content/public/004.Kinematics(2D and 3D)/Projectile Motion/Q1_test_projectilemotion/Q1_test_projectilemotion
+  - file: content/public/004.Kinematics(2D and 3D)/Projectile Motion/ski_jump/ski_jump
 - caption: Kinematics(2D and 3D)
   chapters:
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/centripetal_force/centripetal_force
