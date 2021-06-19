@@ -124,7 +124,7 @@ substitutions:
       units2: s
     v_1: 2
     t_1: 2
-    t_2: 4
+    t_2: 5
   correct_answers:
     part1_ans:
       _type: sympy
@@ -136,7 +136,7 @@ substitutions:
       _value: 2 - 2*t
       _variables:
       - t
-    part3_ans: -4.0
+    part3_ans: -5.0
     part4_ans: 2
 ---
 # {{ params.vars.title }}

@@ -61,15 +61,15 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: rollerblades
+      vehicle: a unicycle
       title: Frictional Force between Tires and the Road
   correct_answers:
     part1_ans:
       _type: sympy
       _value: v**2/(R*g)
       _variables:
-      - g
       - R
+      - g
       - v
 ---
 # {{ params.vars.title }}
