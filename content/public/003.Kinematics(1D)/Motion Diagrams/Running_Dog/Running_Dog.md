@@ -70,19 +70,19 @@ substitutions:
   params:
     vars:
       title: Running Dog
-    choice: Untrue
+    choice: 'True'
     part1:
       ans1:
-        value: The dog is slowing down at t=7s
+        value: The dog is moving at a constant velocity between t=2s and t=6s
         correct: true
       ans2:
-        value: The dog has a negative acceleration at t=9s
+        value: The dog is moving at the same speed at time t=10s and t=4s
         correct: true
       ans3:
-        value: The dog is speeding up at time t=7s
+        value: The dog has a negative acceleration at t=9s
         correct: false
       ans4:
-        value: The dog has an average velocity of 0 m/s between time t=0s and t=8s
+        value: The dog is not moving between t=6s and t=10s
         correct: false
 ---
 # {{ params.vars.title }}
