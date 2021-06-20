@@ -67,30 +67,29 @@ substitutions:
   params:
     vars:
       title: Choose all Vectors and Scalars
-    choice: vectors
+    choice: scalars
     part1:
       ans1:
-        value: Force
+        value: Temperature
         correct: true
       ans2:
-        value: Weight
+        value: Power
         correct: true
       ans3:
-        value: The position in a 1 dimensional system
+        value: Volume
         correct: true
       ans4:
-        value: Length
+        value: The position in 3 dimensions
         correct: false
       ans5:
-        value: Volume
+        value: The average acceleration
         correct: false
       ans6:
-        value: Mass
+        value: The position in a 1 dimensional system
         correct: false
 ---
 # {{ params.vars.title }}
 
 ## Attribution
 
-Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br> ![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

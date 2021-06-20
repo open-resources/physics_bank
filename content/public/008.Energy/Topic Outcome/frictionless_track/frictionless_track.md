@@ -70,13 +70,13 @@ substitutions:
     vars:
       title: Horizontal frictionless track
       units: N
-    m: 4.75
-    v: 2
-    R: 1.0
-    L: 12
+    m: 1.25
+    v: 6
+    R: 0.5
+    L: 15
   correct_answers:
-    part1_ans: 97.1
-    part2_ans: 0.18
+    part1_ans: 60.5
+    part2_ans: 0.087
 ---
 # {{ params.vars.title }}
 A small block of mass m = {{params.m}} kg is fired with an initial speed v0 = {{params.v}} m/s along a horizontal section of frictionless track, as shown in the top portion of the figure.
@@ -86,5 +86,4 @@ The block then moves along the frictionless semicircular vertical track of radiu
 
 ## Attribution
 
-Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br> ![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

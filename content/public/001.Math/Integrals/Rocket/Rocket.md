@@ -123,7 +123,7 @@ substitutions:
       units1: m/s^2
       units2: s
     v_1: 6
-    t_1: 2
+    t_1: 0
     t_2: 5
   correct_answers:
     part1_ans:
@@ -136,7 +136,7 @@ substitutions:
       _value: 6 - 2*t
       _variables:
       - t
-    part3_ans: -1.0
+    part3_ans: 1.0
     part4_ans: 6
 ---
 # {{ params.vars.title }}
@@ -145,5 +145,4 @@ where $x$ is in meters, and $t$ is in seconds.
 
 ## Attribution
 
-Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br> ![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

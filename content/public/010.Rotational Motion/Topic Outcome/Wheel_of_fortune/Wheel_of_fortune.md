@@ -78,16 +78,16 @@ substitutions:
       units: rad/s
       title: Wheel of Fortune
     w_i: 0.7853981633974483
-    t: 5
+    t: 4
     part1:
       ans1:
         value: 0.02
         correct: false
       ans2:
-        value: 0.12
+        value: 0.15
         correct: true
       ans3:
-        value: 0.25
+        value: 0.31
         correct: false
       ans4:
         value: 0.79
@@ -97,5 +97,4 @@ substitutions:
 
 ## Attribution
 
-Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br> ![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

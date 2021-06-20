@@ -82,31 +82,30 @@ part1:
 substitutions:
   params:
     vars:
-      sport: motorcyclist
+      sport: mountain biker
       title: Ski Jump
       units: m
-    v: 21
-    d: 4.8
+    v: 24
+    d: 4.6
     part1:
       ans1:
         value: 9.81
         correct: false
       ans2:
-        value: 14.69
+        value: 16.43
         correct: false
       ans3:
-        value: 20.55
+        value: 22.51
         correct: false
       ans4:
-        value: 20.77
+        value: 23.24
         correct: true
       ans5:
-        value: 30.83
+        value: 33.76
         correct: false
 ---
 # {{ params.vars.title }}
 
 ## Attribution
 
-Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br> ![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
