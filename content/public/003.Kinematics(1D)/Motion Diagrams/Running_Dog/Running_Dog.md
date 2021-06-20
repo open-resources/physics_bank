@@ -73,16 +73,16 @@ substitutions:
     choice: Untrue
     part1:
       ans1:
-        value: The dog is moving at the same speed at time t=8s and t=10s
+        value: The dog is not moving between t=6s and t=10s
         correct: true
       ans2:
         value: The dog has a negative acceleration at t=9s
         correct: true
       ans3:
-        value: The dog is moving at a constant velocity between t=2s and t=6s
-        correct: false
+        value: The dog has a velocity of 1 m/s between time t=6s and t=10s
+        correct: true
       ans4:
-        value: The dog is speeding up at time t=7s
+        value: The dog is moving at a constant velocity between t=2s and t=6s
         correct: false
 ---
 # {{ params.vars.title }}

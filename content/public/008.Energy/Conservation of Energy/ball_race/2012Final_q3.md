@@ -53,10 +53,10 @@ substitutions:
       title: Two Balls Launched on Different Tracks
     part1:
       ans1:
-        value: They reach the end of the track at the same time.
+        value: A
         correct: false
       ans2:
-        value: A
+        value: They reach the end of the track at the same time.
         correct: false
       ans3:
         value: B

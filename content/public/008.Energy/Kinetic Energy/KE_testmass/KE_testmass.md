@@ -67,28 +67,28 @@ substitutions:
     vars:
       title: Kinetic Energy of Test Mass
       units: J
-    m: 333
-    v: 8.25
-    d_m: 2
-    d_v: 0.04
+    m: 175
+    v: 3.56
+    d_m: 3
+    d_v: 0.09
     part1:
       ans1:
-        value: 11.332 $\pm$ 0.123
+        value: 1.109 $\pm$ 0.047
         correct: false
       ans2:
-        value: 11.332 $\pm$ 0.178
+        value: 1.109 $\pm$ 0.075
         correct: true
       ans3:
-        value: 11.332 $\pm$ 0.068
+        value: 1.109 $\pm$ 0.02
         correct: false
       ans4:
-        value: 11.332 $\pm$ 0.006
+        value: 1.109 $\pm$ 0.018
         correct: false
       ans5:
-        value: 11.332 $\pm$ 0.016
+        value: 1.109 $\pm$ 0.068
         correct: false
       ans6:
-        value: 11.332 $\pm$ 0.068
+        value: 1.109 $\pm$ 0.019
         correct: false
 ---
 # {{ params.vars.title }}

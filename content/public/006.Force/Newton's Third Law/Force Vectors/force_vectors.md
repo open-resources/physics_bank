@@ -80,26 +80,26 @@ substitutions:
       title: Force Vectors
     part1:
       ans1:
-        value: If two objects push on each other, their momenta will change by the
-          same amount (though opposite directions).
-        correct: true
-      ans2:
         value: If you have a complicated system made of many objects (all interacting
           among themselves) only external forces can cause the center of mass of the
           system to accelerate.
         correct: true
+      ans2:
+        value: If two objects push on each other, their velocities will change by
+          the same amount (though opposite directions).
+        correct: false
       ans3:
         value: If you have a complicated system made of many objects (all interacting
           among themselves) only external forces can add or remove energy from the
           system.
         correct: false
       ans4:
-        value: If two objects push on each other, their velocities will change by
-          the same amount (though opposite directions).
-        correct: false
-      ans5:
         value: If two objects push on each other, they will accelerate in opposite
           directions.
+        correct: true
+      ans5:
+        value: If two objects push on each other, their momenta will change by the
+          same amount (though opposite directions).
         correct: true
 ---
 # {{ params.vars.title }}
