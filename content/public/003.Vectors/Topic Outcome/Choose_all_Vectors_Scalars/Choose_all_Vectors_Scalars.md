@@ -70,22 +70,22 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Mass
+        value: Temperature
         correct: true
       ans2:
-        value: Volume
+        value: Distance travelled
         correct: true
       ans3:
-        value: Density
+        value: Pressure
         correct: true
       ans4:
-        value: Work
+        value: Speed
         correct: true
       ans5:
-        value: The position in 3 dimensions
+        value: Force
         correct: false
       ans6:
-        value: Acceleration
+        value: Displacement
         correct: false
 ---
 # {{ params.vars.title }}

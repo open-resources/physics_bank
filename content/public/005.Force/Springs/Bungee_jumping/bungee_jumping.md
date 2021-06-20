@@ -55,20 +55,22 @@ substitutions:
   params:
     vars:
       title: Bungee Jumping
-      name: Aliyah
+      name: Santiago
     part1:
       ans1:
-        value: The tension points up, and Aliyah moves down, so negative work is done.
-        correct: true
-      ans2:
-        value: The tension points down, and Aliyah moves down, so negative work is
-          done.
+        value: The tension points down, and Santiago moves down, so negative work
+          is done.
         correct: false
+      ans2:
+        value: The tension points up, and Santiago moves down, so negative work is
+          done.
+        correct: true
       ans3:
-        value: The tension point up, and Aliyah moves up, so positive work is done.
+        value: The tension point up, and Santiago moves up, so positive work is done.
         correct: false
       ans4:
-        value: The tension points up, and Aliyah moves down, so positive work is done.
+        value: The tension points up, and Santiago moves down, so positive work is
+          done.
         correct: false
 ---
 # {{ params.vars.title }}

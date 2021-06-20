@@ -74,13 +74,13 @@ substitutions:
       units2: J
     m: 2
     k: 639
-    theta: 30
+    theta: 27
     mu: 0.25
-    d: 5
+    d: 8
     g: 9.8
   correct_answers:
-    part1_ans: 0.503758413857617
-    part2_ans: 81.08032638058332
+    part1_ans: 0.6105324659331847
+    part2_ans: 119.09359048072648
 ---
 # {{ params.vars.title }}
 A small {{params.m}} kg block is accelerated from rest on a flat surface by a compressed spring (k = {{params.k}} N/m) along a frictionless, horizontal surface.

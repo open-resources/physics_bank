@@ -64,11 +64,11 @@ substitutions:
         value: Spring A
         correct: false
       ans3:
-        value: It is a tie.
-        correct: true
-      ans4:
         value: Not enough information is given.
         correct: false
+      ans4:
+        value: It is a tie.
+        correct: true
 ---
 # {{ params.vars.title }}
 Two identical springs are attached to two identical masses.
