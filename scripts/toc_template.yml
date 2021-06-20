@@ -9,3 +9,11 @@ parts:
     title: Project Team
   - file: content/index
     title: Question Index
+parts:
+- caption: Documentation
+  chapters:
+  - file: docs/alt-text/alt-text
+  - file: docs/latex
+  - file: docs/rounding
+  - file: docs/reviews
+  - file: docs/tips
