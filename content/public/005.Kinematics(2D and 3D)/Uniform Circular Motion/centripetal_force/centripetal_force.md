@@ -65,8 +65,8 @@ substitutions:
       _value: m*v**2/r
       _variables:
       - v
-      - r
       - m
+      - r
 ---
 # {{ params.vars.title }}
 

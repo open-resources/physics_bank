@@ -61,7 +61,7 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: ice skates
+      vehicle: a unicycle
       title: Frictional Force between Tires and the Road
   correct_answers:
     part1_ans:
@@ -69,8 +69,8 @@ substitutions:
       _value: v**2/(R*g)
       _variables:
       - v
-      - g
       - R
+      - g
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }} of mass $m$ is driving around a horizontal circular track of radius $R$ at constant speed $v$.

@@ -55,20 +55,20 @@ substitutions:
   params:
     vars:
       title: Bungee Jumping
-      name: Abbas
+      name: Ahmed
     part1:
       ans1:
-        value: The tension points up, and Abbas moves down, so negative work is done.
-        correct: true
+        value: The tension points up, and Ahmed moves down, so positive work is done.
+        correct: false
       ans2:
-        value: The tension points up, and Abbas moves down, so positive work is done.
+        value: The tension points down, and Ahmed moves down, so negative work is
+          done.
         correct: false
       ans3:
-        value: The tension point up, and Abbas moves up, so positive work is done.
-        correct: false
+        value: The tension points up, and Ahmed moves down, so negative work is done.
+        correct: true
       ans4:
-        value: The tension points down, and Abbas moves down, so negative work is
-          done.
+        value: The tension point up, and Ahmed moves up, so positive work is done.
         correct: false
 ---
 # {{ params.vars.title }}
