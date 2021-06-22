@@ -99,23 +99,23 @@ substitutions:
       _type: sympy
       _value: 2*m1*v1*sqrt(m2/k)/(m1 + m2)
       _variables:
-      - k
-      - m2
-      - m1
       - v1
+      - m2
+      - k
+      - m1
     part2_ans:
       _type: sympy
       _value: 2*pi*sqrt(m2/k)
       _variables:
-      - k
       - m2
+      - k
     part3_ans:
       _type: sympy
       _value: A*sin(t*w)
       _variables:
-      - w
       - A
       - t
+      - w
 ---
 # {{ params.vars.title }}
 A block of mass $m_1$ slides across a frictionless surface with speed $v_1$ and collides perfectly elastically with a block $m_2$ (initially at rest).
@@ -126,5 +126,4 @@ Assume $m_2 > m_1$.
 
 ## Attribution
 
-Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br> ![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

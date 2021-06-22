@@ -55,20 +55,20 @@ substitutions:
   params:
     vars:
       title: Bungee Jumping
-      name: Aliyah
+      name: Mateo
     part1:
       ans1:
-        value: The tension points up, and Aliyah moves down, so negative work is done.
+        value: The tension points up, and Mateo moves down, so negative work is done.
         correct: true
       ans2:
-        value: The tension points down, and Aliyah moves down, so negative work is
-          done.
+        value: The tension points up, and Mateo moves down, so positive work is done.
         correct: false
       ans3:
-        value: The tension point up, and Aliyah moves up, so positive work is done.
+        value: The tension points down, and Mateo moves down, so negative work is
+          done.
         correct: false
       ans4:
-        value: The tension points up, and Aliyah moves down, so positive work is done.
+        value: The tension point up, and Mateo moves up, so positive work is done.
         correct: false
 ---
 # {{ params.vars.title }}
@@ -76,5 +76,4 @@ substitutions:
 
 ## Attribution
 
-Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br> ![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

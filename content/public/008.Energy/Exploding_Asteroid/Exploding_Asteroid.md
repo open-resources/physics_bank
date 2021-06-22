@@ -70,15 +70,15 @@ substitutions:
   params:
     vars:
       title: Exploding Asteroid
-      name: Maya
-      name2: Aliyah
+      name: Santiago
+      name2: Mateo
     part1:
       ans1:
-        value: The final velocity vectors they use to describe the two asteroid pieces
-          will be the same.
-        correct: false
+        value: The FORCE vector they determine that each piece of the asteroid felt
+          during the explosion will be the same.
+        correct: true
       ans2:
-        value: They will both agree on how the TOTAL kinetic energy of the system
+        value: They will both agree on how the kinetic energy of each of the pieces
           has changed.
         correct: true
       ans3:
@@ -86,21 +86,19 @@ substitutions:
           pieces will be the same.
         correct: false
       ans4:
+        value: They will both agree on how the internal energy of the system has changed.
+        correct: true
+      ans5:
         value: They will both agree on how much kinetic energy each of the asteroid
           pieces has.
         correct: false
-      ans5:
-        value: The total momentum vectors they use to describe the asteroid system
-          (both pieces) will be the same.
-        correct: false
       ans6:
-        value: The FORCE vector they determine that each piece of the asteroid felt
-          during the explosion will be the same.
-        correct: true
+        value: The final velocity vectors they use to describe the two asteroid pieces
+          will be the same.
+        correct: false
 ---
 # {{ params.vars.title }}
 
 ## Attribution
 
-Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br> ![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

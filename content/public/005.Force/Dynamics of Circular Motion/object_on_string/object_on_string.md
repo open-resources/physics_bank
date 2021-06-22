@@ -1,13 +1,15 @@
 ---
-title: Kinetic Energy and Momentum
-topic: Energy
+title: Object Swung in Circular Path
+topic: Force
 author: Jake Bobowski
-source: 2016 Final Q3
+source: 2017 Final Q8
 template_version: 1.0
 attribution: standard
 outcomes:
-- 7.2.1.1
-- 6.5.1.1
+- 6.12.2.0
+- 6.2.1.2
+- 6.12.1.1
+- 6.12.2.0
 difficulty:
 - undefined
 randomization:
@@ -15,12 +17,13 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- unknown
+- MP
 assets: null
 server:
   imports: |
     import random
     import pandas as pd
+    import problem_bank_helpers as pbh
     from collections import defaultdict
     nested_dict = lambda: defaultdict(nested_dict)
   generate: |
@@ -28,27 +31,32 @@ server:
 
     data2 = nested_dict()
 
-    # define or load names/items/objects from server files
-
     # store phrases etc
-    data2["params"]["vars"]["title"] = "Kinetic Energy and Momentum"
+    data2["params"]["vars"]["title"] = "Object Swung in Circular Path"
+    data2["params"]["vars"]["units"] = "N"
 
     # Randomize Variables
+    m = random.randint(1,20)*0.1
+    r = random.randint(1,20)*0.5
+    w = random.randint(1,9)
+    g = 9.8
 
     # store the variables in the dictionary "params"
+    data2["params"]["m"] = m
+    data2["params"]["r"] = r
+    data2["params"]["w"] = w
 
     # define possible answers
-
-    data2["params"]["part1"]["ans1"]["value"] = "If I throw an object straight up (vertically) in the air, its kinetic energy at the highest point will be zero."
+    data2["params"]["part1"]["ans1"]["value"] = pbh.roundp(m*((r*(w**2))-g), decimals=2)
     data2["params"]["part1"]["ans1"]["correct"] = True
 
-    data2["params"]["part1"]["ans2"]["value"] = "If I throw an object diagonally up in the air, its kinetic energy at the highest point will be zero."
+    data2["params"]["part1"]["ans2"]["value"] = pbh.roundp(m*(r*((w**2)-g)), decimals=2)
     data2["params"]["part1"]["ans2"]["correct"] = False
 
-    data2["params"]["part1"]["ans3"]["value"] = "If I throw an object diagonally up in the air, its momentum at the highest point will be zero."
+    data2["params"]["part1"]["ans3"]["value"] = pbh.roundp(m*((r*(w**2))), decimals=2)
     data2["params"]["part1"]["ans3"]["correct"] = False
 
-    data2["params"]["part1"]["ans4"]["value"] = "If I throw an object into the AIR, the system composed of the object and the earth is a CLOSED system."
+    data2["params"]["part1"]["ans4"]["value"] = 2*g
     data2["params"]["part1"]["ans4"]["correct"] = False
 
     # Update the data object with a new dict
@@ -69,26 +77,28 @@ part1:
 substitutions:
   params:
     vars:
-      title: Kinetic Energy and Momentum
+      title: Object Swung in Circular Path
+      units: N
+    m: 1.6
+    r: 7.0
+    w: 5
     part1:
       ans1:
-        value: If I throw an object straight up (vertically) in the air, its kinetic
-          energy at the highest point will be zero.
+        value: 264.32
         correct: true
       ans2:
-        value: If I throw an object diagonally up in the air, its kinetic energy at
-          the highest point will be zero.
+        value: 170.24
         correct: false
       ans3:
-        value: If I throw an object diagonally up in the air, its momentum at the
-          highest point will be zero.
+        value: 280.0
         correct: false
       ans4:
-        value: If I throw an object into the AIR, the system composed of the object
-          and the earth is a CLOSED system.
+        value: 19.6
         correct: false
 ---
 # {{ params.vars.title }}
+A {{params.m}} kg object attached to the end of a string of length {{params.r}} m is swung in a circular path
+and in a vertical plane.
 
 ## Attribution
 

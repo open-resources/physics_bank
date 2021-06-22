@@ -144,17 +144,17 @@ substitutions:
         units: rad/s
       part5:
         units: J
-    m_p: 0.74
-    r_p: 0.34
-    m: 2.23
-    r: 0.4
+    m_p: 1.16
+    r_p: 0.26
+    m: 2.73
+    r: 0.1
     x: 5
   correct_answers:
     part1_ans: 31.42
-    part2_ans: 0.13
-    part3_ans: 4.08
-    part4_ans: 13.23
-    part5_ans: -62.13
+    part2_ans: 0.09
+    part3_ans: 2.83
+    part4_ans: 27.3
+    part5_ans: -43.01
 ---
 # {{ params.vars.title }}
 A cylindrical dinner plate is spinning out in space. It has mass $m_p = {{params.m_p}} kg$, radius $r = {{ params.r_p }} m$ and it rotates clockwise (as seen from above) {{ params.x }} times every second.
@@ -164,5 +164,4 @@ In the end, both the cake and the plate rotate together.
 
 ## Attribution
 
-Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br> ![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

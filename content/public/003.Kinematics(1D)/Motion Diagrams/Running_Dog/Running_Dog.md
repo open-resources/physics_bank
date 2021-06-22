@@ -76,13 +76,13 @@ substitutions:
         value: The dog is not moving between t=6s and t=10s
         correct: true
       ans2:
-        value: The dog has a negative acceleration at t=9s
+        value: The dog is slowing down at t=7s
         correct: true
       ans3:
-        value: The dog has a velocity of 1 m/s between time t=6s and t=10s
-        correct: true
+        value: The dog is speeding up at time t=7s
+        correct: false
       ans4:
-        value: The dog is moving at a constant velocity between t=2s and t=6s
+        value: The dog is moving at the same speed at time t=10s and t=4s
         correct: false
 ---
 # {{ params.vars.title }}
@@ -92,5 +92,4 @@ Consider the following motion diagram for a dog running down a straight path.
 
 ## Attribution
 
-Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br> ![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

@@ -82,30 +82,30 @@ part1:
 substitutions:
   params:
     vars:
-      name: Ximena
-      vehicle: a unicycle
+      name: Abbas
+      vehicle: a skateboard
       units: m/s
       title: Distance travelled
-    v: 4
-    t: 5
+    v: 7
+    t: 6
     part1:
       ans1:
         value: 42
         correct: false
       ans2:
-        value: 20
+        value: 42
         correct: true
       ans3:
-        value: 9
+        value: 13
         correct: false
       ans4:
-        value: 0.8
+        value: 1.1666666666666667
         correct: false
       ans5:
-        value: -1
+        value: 1
         correct: false
       ans6:
-        value: -1.3
+        value: 1.3
         correct: false
 ---
 # {{ params.vars.title }}
@@ -113,5 +113,4 @@ substitutions:
 
 ## Attribution
 
-Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br> ![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

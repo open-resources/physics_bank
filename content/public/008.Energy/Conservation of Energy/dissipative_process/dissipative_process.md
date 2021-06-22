@@ -83,11 +83,11 @@ substitutions:
         value: Incoherent deformations are dissipative
         correct: true
       ans3:
-        value: Coherent deformations are dissipative.
-        correct: false
-      ans4:
         value: Irreversible processes are dissipative.
         correct: true
+      ans4:
+        value: Coherent deformations are dissipative.
+        correct: false
       ans5:
         value: If the total kinetic energy is not constant all the way through the
           interaction, the process is dissipative.
@@ -97,5 +97,4 @@ substitutions:
 
 ## Attribution
 
-Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br> ![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
