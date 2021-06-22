@@ -17,58 +17,6 @@ tags:
 - PW
 assets:
 - q13_2012Final.png
-server:
-  imports: |
-    import sympy as sp
-    import prairielearn as pl
-    from collections import defaultdict
-    nested_dict = lambda: defaultdict(nested_dict)
-  generate: |
-    # Start problem code
-
-    data2 = nested_dict()
-
-    # store phrases etc
-    data2["params"]["vars"]["title"] = 'Perfect Elastic Collision of a Mass Attached to a Spring'
-
-    # Declare math symbols to be used by sympy
-    m1, m2, k, x0, v1, t, A, w = sp.symbols('m1 m2 k x0 v1 t A w')
-
-    ## Part 1
-
-    # Describe the solution equation. A1 is used for the amplitude so that A can be used in Part 3.
-    A1 = sp.sqrt(m2/k)*((2*m1)/(m1+m2))*v1
-
-    # Answer to fill in the blank input stored as JSON.
-    data2['correct_answers']['part1_ans'] = pl.to_json(A1)
-
-    ## Part 2
-
-    # Describe the solution equation
-    T = 2*sp.pi*sp.sqrt(m2/k)
-
-    # Answer to fill in the blank input stored as JSON.
-    data2['correct_answers']['part2_ans'] = pl.to_json(T)
-
-    ## Part 3
-
-    # Describe the solution equation
-    x = A*sp.cos(w*t+(3*sp.pi/2))
-
-    # Answer to fill in the blank input stored as JSON.
-    data2['correct_answers']['part3_ans'] = pl.to_json(x)
-
-    # Update the data object with a new dict
-    data.update(data2)
-  prepare: 'pass
-
-    '
-  parse: 'pass
-
-    '
-  grade: 'pass
-
-    '
 part1:
   type: symbolic-input
   label: $A = $
@@ -94,30 +42,62 @@ substitutions:
   params:
     vars:
       title: Perfect Elastic Collision of a Mass Attached to a Spring
-  correct_answers:
-    part1_ans:
-      _type: sympy
-      _value: 2*m1*v1*sqrt(m2/k)/(m1 + m2)
-      _variables:
-      - v1
-      - m2
-      - k
-      - m1
-    part2_ans:
-      _type: sympy
-      _value: 2*pi*sqrt(m2/k)
-      _variables:
-      - m2
-      - k
-    part3_ans:
-      _type: sympy
-      _value: A*sin(t*w)
-      _variables:
-      - A
-      - t
-      - w
 ---
 # {{ params.vars.title }}
+## Part 1
+
+What is the amplitude of the resulting simple harmonic motion? Answer using the variables $m_1, m_2, k, x_0$ and/or $v_1$.
+
+Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
+
+| $Variable $ | Use   |
+|----------|-------|
+| $m_1$  | m1  |
+| $m_2$  | m2  |
+| $x_0$  | x0 |
+| $k$  | k  |
+| $v_1$  | v1  |
+
+### Answer Section
+
+{{ substitutions.part1.label }}
+## Part 2
+
+What is the period of the resulting simple harmonic motion?
+Answer using the variables $m_1, m_2, k, x_0$ and/or $v_1$.
+
+Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
+
+| $Variable $ | Use   |
+|----------|-------|
+| $m_1$  | m1  |
+| $m_2$  | m2  |
+| $x_0$  | x0 |
+| $k$  | k  |
+| $v_1$  | v1  |
+
+### Answer Section
+
+{{ substitutions.part2.label }}
+## Part 3
+
+What is the position of $m_2$ as a function of time?
+Note that the $+x$ direction is defined as to the right in the diagram.
+Assume $t= 0$ at the time of collision.
+Answer using the variables $t, A$ and/or $\omega$.
+
+Note that it may not be necessary to use every variable and that the correct answer will simplify all trigonometric functions (simplifying your answer is not required).
+Use the following table as a reference for each variable:
+
+| $Variable $ | Use   |
+|----------|-------|
+| $t$ | t |
+| $A$ | A |
+| $\omega$ | w |
+
+### Answer Section
+
+{{ substitutions.part3.label }}
 A block of mass $m_1$ slides across a frictionless surface with speed $v_1$ and collides perfectly elastically with a block $m_2$ (initially at rest).
 Block $m_2$ is attached to a spring with spring constant $k$ and equilibrium length $x_0$.
 Assume $m_2 > m_1$.

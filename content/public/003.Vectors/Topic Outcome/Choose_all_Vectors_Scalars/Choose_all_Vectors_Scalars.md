@@ -16,47 +16,6 @@ taxonomy:
 tags:
 - unknown
 assets: null
-server:
-  imports: |
-    import random
-    import pandas as pd
-    from collections import defaultdict
-    nested_dict = lambda: defaultdict(nested_dict)
-  generate: "# Start problem code\n\ndata2 = nested_dict()\n\n# store phrases etc\n\
-    data2[\"params\"][\"vars\"][\"title\"] = \"Choose all Vectors and Scalars\"\n\n\
-    # define useful variables/lists\nvectors = [\"The position in 3 dimensions\",\
-    \ \"The position in a 1 dimensional system\", \"Displacement\", \"velocity\",\
-    \ \"Acceleration\", \"The average velocity\", \"The average acceleration\", \"\
-    Momentum\", \"Force\", \"Lift\", \"Drag\", \"Weight\"]\nscalars = [\"Speed\",\
-    \ \"Distance travelled\", \"Length\", \"Area\", \"Volume\", \"Mass\", \"Density\"\
-    , \"Pressure\", \"Temperature\", \"Energy\", \"Entropy\", \"Work\", \"Power\"\
-    ]\n\n# Randomly select 2,3,4 scalars and shuffle the lists\ntotal_choices = 6\n\
-    num_scalars = random.choice([2,3,4])\nnum_vectors = total_choices - num_scalars\n\
-    select = random.choice([\"vectors\",\"scalars\"])\n\ndata2[\"params\"][\"choice\"\
-    ] = select\n\n# Create ans_choices\nans_choices = [\"ans{0}\".format(i+1) for\
-    \ i in range(total_choices)]\n\nrandom.shuffle(scalars)\nrandom.shuffle(vectors)\n\
-    \n# define possible answers\nif select == \"vectors\":\n    for i in range(num_vectors):\n\
-    \        choice = ans_choices.pop(0)\n        data2[\"params\"][\"part1\"][choice][\"\
-    value\"] = vectors.pop()\n        data2[\"params\"][\"part1\"][choice][\"correct\"\
-    ] = True\n\n    for i in range(num_scalars):\n        choice = ans_choices.pop(0)\n\
-    \        data2[\"params\"][\"part1\"][choice][\"value\"] = scalars.pop()\n   \
-    \     data2[\"params\"][\"part1\"][choice][\"correct\"] = False\n\nelif select\
-    \ == \"scalars\":\n    for i in range(num_scalars):\n        choice = ans_choices.pop(0)\n\
-    \        data2[\"params\"][\"part1\"][choice][\"value\"] = scalars.pop()\n   \
-    \     data2[\"params\"][\"part1\"][choice][\"correct\"] = True\n        \n   \
-    \ for i in range(num_vectors):\n        choice = ans_choices.pop(0)\n        data2[\"\
-    params\"][\"part1\"][choice][\"value\"] = vectors.pop()\n        data2[\"params\"\
-    ][\"part1\"][choice][\"correct\"] = False\n\n# Update the data object with a new\
-    \ dict\ndata.update(data2)\n"
-  prepare: 'pass
-
-    '
-  parse: 'pass
-
-    '
-  grade: 'pass
-
-    '
 part1:
   type: checkbox
   pl-customizations:
@@ -67,28 +26,38 @@ substitutions:
   params:
     vars:
       title: Choose all Vectors and Scalars
-    choice: vectors
+    choice: scalars
     part1:
       ans1:
-        value: Lift
-        correct: true
+        value: Entropy
       ans2:
-        value: The position in a 1 dimensional system
-        correct: true
+        value: Power
       ans3:
-        value: Displacement
-        correct: true
+        value: Distance travelled
       ans4:
-        value: Work
-        correct: false
+        value: Lift
       ans5:
-        value: Pressure
-        correct: false
+        value: Acceleration
       ans6:
-        value: Temperature
-        correct: false
+        value: The average acceleration
 ---
 # {{ params.vars.title }}
+## Question Text
+
+Consider the following quantities. Choose all of those which are {{ params.choice }}.
+
+### Answer Section
+
+Select all the choices that apply.
+
+Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
+
+- {{ params.part1.ans1.value}}
+- {{ params.part1.ans2.value}}
+- {{ params.part1.ans3.value}}
+- {{ params.part1.ans4.value}}
+- {{ params.part1.ans5.value}}
+- {{ params.part1.ans6.value}}
 
 ## Attribution
 

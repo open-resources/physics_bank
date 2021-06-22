@@ -18,39 +18,6 @@ taxonomy:
 tags:
 - PW
 assets: null
-server:
-  imports: "import random    \nimport pandas as pd\nimport prairielearn as pl\nimport\
-    \ sympy as sp\nfrom collections import defaultdict\nnested_dict = lambda: defaultdict(nested_dict)\n"
-  generate: |
-    # Start problem code
-
-    data2 = nested_dict()
-
-    # define or load names/items/objects from server files
-    manual_vehicles = pd.read_csv("data/manual_vehicles.csv")["Manual Vehicles"].tolist()
-
-    # store phrases etc
-    data2["params"]["vars"]["vehicle"] = random.choice(manual_vehicles)
-    data2["params"]["vars"]["title"] = 'Frictional Force between Tires and the Road'
-
-    # Declare math symbols to be used by sympy
-    v, R, g = sp.symbols('v R g')
-
-    # Describe the solution equation
-    mu = v**2/(g*R)
-
-    # Answer to fill in the blank input stored as JSON.
-    data2['correct_answers']['part1_ans'] = pl.to_json(mu)
-
-    # Update the data object with a new dict
-    data.update(data2)
-  prepare: 'pass
-
-    '
-  parse: 'pass
-
-    '
-  grade: "pass    \n"
 part1:
   type: symbolic-input
   label: $\mu_s = $
@@ -61,18 +28,28 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: ice skates
+      vehicle: rollerblades
       title: Frictional Force between Tires and the Road
-  correct_answers:
-    part1_ans:
-      _type: sympy
-      _value: v**2/(R*g)
-      _variables:
-      - R
-      - g
-      - v
 ---
 # {{ params.vars.title }}
+## Question Text
+
+Write the expression to find the value of the coefficient of friction between the tires and the road in terms of the mass $m$, velocity $v$, radius $R$, and the acceleration of free-fall $g$.
+
+Note that it may not be necessary to use every variable.
+
+Use the following table as a reference for each variable:
+
+| Variable | Use |
+|----------|-----|
+| $m$      | m   |
+| $v$      | v   |
+| $R$      | R   |
+| $g$      | g   |
+
+### Answer Section
+
+{{ substitutions.part1.label }} =
 A {{ params.vars.vehicle }} of mass $m$ is driving around a horizontal circular track of radius $R$ at constant speed $v$.
 The frictional force between the tires of the {{ params.vars.vehicle }} and the road is at its maximum value.
 

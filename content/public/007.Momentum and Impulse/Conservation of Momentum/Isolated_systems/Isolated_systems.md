@@ -17,55 +17,6 @@ taxonomy:
 tags:
 - unknown
 assets: null
-server:
-  imports: |
-    import random
-    import pandas as pd
-    from collections import defaultdict
-    nested_dict = lambda: defaultdict(nested_dict)
-  generate: |
-    # Start problem code
-
-    data2 = nested_dict()
-
-    # define or load names/items/objects
-
-    # store phrases etc
-    data2["params"]["vars"]["title"] = "Isolated Systems"
-
-    # define useful variables/lists
-
-    # create list of answers and shuffle
-    answers = ["A system is isolated if its center of mass is moving with constant velocity", "A system is isolated if energy isn't entering or leaving the system", "A system is isolated if all of the external forces on it are balanced", "A system is isolated if its total momentum is constant"]
-    random.shuffle(answers)
-
-    # create ans_choices
-    total_choices = len(answers)
-    ans_choices = ["ans{0}".format(i+1) for i in range(total_choices)]
-
-    # define possible answers
-
-    for i in range(total_choices):
-        choice = ans_choices.pop(0)
-        this_answer = answers.pop()
-        data2["params"]["part1"][choice]["value"] = this_answer
-
-        if(this_answer == "A system is isolated if energy isn't entering or leaving the system"):
-            data2["params"]["part1"][choice]["correct"] = False
-        else:
-            data2["params"]["part1"][choice]["correct"] = True
-
-    # Update the data object with a new dict
-    data.update(data2)
-  prepare: 'pass
-
-    '
-  parse: 'pass
-
-    '
-  grade: 'pass
-
-    '
 part1:
   type: checkbox
   pl-customizations:
@@ -79,19 +30,29 @@ substitutions:
     part1:
       ans1:
         value: A system is isolated if all of the external forces on it are balanced
-        correct: true
       ans2:
-        value: A system is isolated if energy isn't entering or leaving the system
-        correct: false
-      ans3:
-        value: A system is isolated if its total momentum is constant
-        correct: true
-      ans4:
         value: A system is isolated if its center of mass is moving with constant
           velocity
-        correct: true
+      ans3:
+        value: A system is isolated if energy isn't entering or leaving the system
+      ans4:
+        value: A system is isolated if its total momentum is constant
 ---
 # {{ params.vars.title }}
+## Question Text
+
+What do we mean when we say a system is ISOLATED?
+
+### Answer Section
+
+Select all the choices that is/are true.
+
+Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
+
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

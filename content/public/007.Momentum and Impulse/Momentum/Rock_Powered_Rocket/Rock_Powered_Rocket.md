@@ -18,62 +18,6 @@ taxonomy:
 tags:
 - EW
 assets: null
-server:
-  imports: |
-    import random
-    import pandas as pd
-    import problem_bank_helpers as pbh
-    from collections import defaultdict
-    nested_dict = lambda: defaultdict(nested_dict)
-  generate: |
-    # Start problem code
-
-    data2 = nested_dict()
-
-    # store phrases etc
-    data2["params"]["vars"]["title"] = "Rock Powered Rocket"
-    data2["params"]["vars"]["units1"] = "m/s"
-    data2["params"]["vars"]["units2"] = "kg"
-
-    # define bounds of the variables
-    i = random.randint(300,400)
-    m = random.randint(20,40)
-    v_1 = random.randint(5,30)
-    v_2 = random.randint(5,30)
-
-    # store the variables in the dictionary "params"
-    data2["params"]["i"] = i
-    data2["params"]["m"] = m
-    data2["params"]["v_1"] = v_1
-    data2["params"]["v_2"] = v_2
-
-    ## Part 1
-
-    # define correct answers
-    data2["correct_answers"]["part1_ans"] = 0
-
-    ## Part 2
-
-    # define correct answers
-    data2["correct_answers"]["part2_ans"] = (-((m+i)*v_1))/m
-
-    ## Part 3
-
-    # define correct answers
-    data2["correct_answers"]["part3_ans"] = (((m+i)*v_1)-(i*v_2))/m
-
-
-    # Update the data object with a new dict
-    data.update(data2)
-  prepare: 'pass
-
-    '
-  parse: 'pass
-
-    '
-  grade: 'pass
-
-    '
 part1:
   type: number-input
   label: $P_{total}=$
@@ -98,16 +42,33 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-    i: 394
-    m: 37
-    v_1: 22
+    i: 303
+    m: 22
+    v_1: 11
     v_2: 17
-  correct_answers:
-    part1_ans: 0
-    part2_ans: -256.27027027027026
-    part3_ans: 75.24324324324324
 ---
 # {{ params.vars.title }}
+## Part 1
+
+(a) What is the total momentum of the system?
+
+### Answer Section
+
+Please enter in a numeric value in {{ params.vars.units1 }}{{ params.vars.units2 }}.
+## Part 2
+
+(b) With what velocity is the first rock I threw moving through space?
+
+### Answer Section
+
+Please enter in a numeric value in {{ params.vars.units1 }}.
+## Part 3
+
+(c) With what velocity is the second rock I threw moving through space?
+
+### Answer Section
+
+Please enter in a numeric value in {{ params.vars.units1 }}.
 I am an astronaut caveman, floating in space.
 My rocket is powered by throwing rocks out of a hole in the back of the spaceship.
 The total inertia of me and my rocket is {{ params.i }} kg.

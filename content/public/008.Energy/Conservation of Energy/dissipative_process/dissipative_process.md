@@ -17,53 +17,6 @@ taxonomy:
 tags:
 - AK
 assets: null
-server:
-  imports: |
-    import random
-    import pandas as pd
-    from collections import defaultdict
-    nested_dict = lambda: defaultdict(nested_dict)
-  generate: |
-    # Start problem code
-
-    data2 = nested_dict()
-
-    # define or load names/items/objects
-
-    # store title
-    data2["params"]["vars"]["title"] = "Dissipative Energy"
-
-    # define useful variables/lists
-
-    # create list of answers and shuffle
-    answers = ["Dissipative processes are one where the total mechanical energy is not conserved.", "Irreversible processes are dissipative.", "Coherent deformations are dissipative.", "Incoherent deformations are dissipative", "If the total kinetic energy is not constant all the way through the interaction, the process is dissipative."]
-    random.shuffle(answers)
-
-    # Create ans_choices
-    total_choices = len(answers)
-    ans_choices = ["ans{0}".format(i+1) for i in range(total_choices)]
-
-    # define possible answers
-    for i in range(total_choices):
-        choice = ans_choices.pop(0)
-        this_answer = answers.pop()
-        data2["params"]["part1"][choice]["value"] = this_answer
-
-        if(this_answer == "Coherent deformations are dissipative." or this_answer == "If the total kinetic energy is not constant all the way through the interaction, the process is dissipative."):
-            data2["params"]["part1"][choice]["correct"] = False
-        else:
-            data2["params"]["part1"][choice]["correct"] = True
-    # Update the data object with a new dict
-    data.update(data2)
-  prepare: 'pass
-
-    '
-  parse: 'pass
-
-    '
-  grade: 'pass
-
-    '
 part1:
   type: checkbox
   pl-customizations:
@@ -76,24 +29,34 @@ substitutions:
       title: Dissipative Energy
     part1:
       ans1:
-        value: Dissipative processes are one where the total mechanical energy is
-          not conserved.
-        correct: true
+        value: Irreversible processes are dissipative.
       ans2:
         value: Incoherent deformations are dissipative
-        correct: true
       ans3:
-        value: Irreversible processes are dissipative.
-        correct: true
-      ans4:
-        value: Coherent deformations are dissipative.
-        correct: false
-      ans5:
         value: If the total kinetic energy is not constant all the way through the
           interaction, the process is dissipative.
-        correct: false
+      ans4:
+        value: Dissipative processes are one where the total mechanical energy is
+          not conserved.
+      ans5:
+        value: Coherent deformations are dissipative.
 ---
 # {{ params.vars.title }}
+## Question Text
+
+What do we mean when we say a process is dissipative?
+
+Select all the choices that are true.
+
+Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
+
+### Answer Section
+
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

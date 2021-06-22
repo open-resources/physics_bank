@@ -21,45 +21,6 @@ tags:
 - MP
 assets:
 - q6image.png
-server:
-  imports: |
-    from collections import defaultdict
-    nested_dict = lambda: defaultdict(nested_dict)
-  generate: |
-    # Start problem code
-    data2 = nested_dict()
-
-    # store phrases etc
-    data2["params"]["vars"]["title"] = 'Rotational Inertia'
-    data2["params"]["vars"]["units"] = 'm/s^2'
-
-    # define possible answers
-    data2["params"]["part1"]["ans1"]["value"] =  'g'
-    data2["params"]["part1"]["ans1"]["correct"] = False
-
-    data2["params"]["part1"]["ans2"]["value"] = '3g/4'
-    data2["params"]["part1"]["ans2"]["correct"] = False
-
-    data2["params"]["part1"]["ans3"]["value"] = '2g'
-    data2["params"]["part1"]["ans3"]["correct"] = False
-
-    data2["params"]["part1"]["ans4"]["value"] = '2g/3'
-    data2["params"]["part1"]["ans4"]["correct"] = True
-
-    data2["params"]["part1"]["ans5"]["value"] = 'g/2'
-    data2["params"]["part1"]["ans5"]["correct"] = False
-
-    # Update the data object with a new dict
-    data.update(data2)
-  prepare: 'pass
-
-    '
-  parse: 'pass
-
-    '
-  grade: 'pass
-
-    '
 part1:
   type: multiple-choice
   pl-customizations:
@@ -72,21 +33,31 @@ substitutions:
     part1:
       ans1:
         value: g
-        correct: false
       ans2:
         value: 3g/4
-        correct: false
       ans3:
         value: 2g
-        correct: false
       ans4:
         value: 2g/3
-        correct: true
       ans5:
         value: g/2
-        correct: false
 ---
 # {{ params.vars.title }}
+## Question Text
+
+A length of massless thread is wound around a spool of mass M and radius R.
+The end of the thread is attached to a horizontal bar as shown in the figure.
+If the spool of thread is dropped from rest and falls without slipping, its acceleration will be:
+
+<img src="q6image.png" width=300>
+
+### Answer Section
+
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

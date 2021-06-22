@@ -16,54 +16,6 @@ taxonomy:
 tags:
 - EW
 assets: null
-server:
-  imports: |
-    import random
-    import math
-    import pandas as pd
-    import problem_bank_helpers as pbh
-    from collections import defaultdict
-    nested_dict = lambda: defaultdict(nested_dict)
-  generate: |
-    # Start problem code
-
-    data2 = nested_dict()
-
-    # store phrases etc
-    data2["params"]["vars"]["title"] = 'Angular Speed'
-    data2["params"]["vars"]["units"] = "rad/s"
-
-    # Randomize Variables
-    rev = random.randint(2,15)
-
-    # store the variables in the dictionary "params"
-    data2["params"]["rev"] = rev
-
-    # define possible answers
-    data2["params"]["part1"]["ans1"]["value"] = pbh.roundp((2*math.pi)/rev, sigfigs = 2)
-    data2["params"]["part1"]["ans1"]["correct"] = False
-
-    data2["params"]["part1"]["ans2"]["value"] = pbh.roundp(rev*(math.pi), sigfigs = 2)
-    data2["params"]["part1"]["ans2"]["correct"] = False
-
-    data2["params"]["part1"]["ans3"]["value"] = pbh.roundp(rev*(2*math.pi), sigfigs = 2)
-    data2["params"]["part1"]["ans3"]["correct"] = True
-
-    data2["params"]["part1"]["ans4"]["value"] = pbh.roundp(rev/(2*math.pi), sigfigs = 2)
-    data2["params"]["part1"]["ans4"]["correct"] = False
-
-
-    # Update the data object with a new dict
-    data.update(data2)
-  prepare: 'pass
-
-    '
-  parse: 'pass
-
-    '
-  grade: 'pass
-
-    '
 part1:
   type: multiple-choice
   pl-customizations:
@@ -73,22 +25,28 @@ substitutions:
     vars:
       title: Angular Speed
       units: rad/s
-    rev: 7
+    rev: 14
     part1:
       ans1:
-        value: 0.9
-        correct: false
+        value: 0.45
       ans2:
-        value: 22.0
-        correct: false
-      ans3:
         value: 44.0
-        correct: true
+      ans3:
+        value: 88.0
       ans4:
-        value: 1.1
-        correct: false
+        value: 2.2
 ---
 # {{ params.vars.title }}
+## Part 1
+
+A grindstone spinning at the rate of {{ params.rev }} rev/s has what approximate angular speed?
+
+### Answer Section
+
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
 
 ## Attribution
 

@@ -21,32 +21,6 @@ tags:
 - MP
 assets:
 - q12image.png
-server:
-  imports: |
-    import random
-    import pandas as pd
-    import problem_bank_helpers as pbh
-    from collections import defaultdict
-    nested_dict = lambda: defaultdict(nested_dict)
-  generate: "# Start problem code\ndata2 = nested_dict()\n\n# store phrases etc\n\
-    data2[\"params\"][\"vars\"][\"title\"] = \"Horizontal frictionless track\"\ndata2[\"\
-    params\"][\"vars\"][\"units\"] = \"N\"\n\n# define bounds of the variables\nm\
-    \ = random.randint(1,20)*0.25\nv = random.randint(2,9)\nR = random.randint(1,(8/4))*0.5\
-    \ \nL = random.randint(10,17)\ng = 9.8\n\n# store the variables in the dictionary\
-    \ \"params\"\ndata2[\"params\"][\"m\"] = m\ndata2[\"params\"][\"v\"] = v\ndata2[\"\
-    params\"][\"R\"] = R\ndata2[\"params\"][\"L\"] = L\n\n# define correct answers\n\
-    \ndata2[\"correct_answers\"][\"part1_ans\"] = pbh.roundp((v**2)+(2*g*R)*(m/R),\
-    \ sigfigs = 3)\ndata2[\"correct_answers\"][\"part2_ans\"] = pbh.roundp(((v/2)+(2*g*R))/(g*L),\
-    \ sigfigs = 2)\n\n# Update the data object with a new dict\ndata.update(data2)\n"
-  prepare: 'pass
-
-    '
-  parse: 'pass
-
-    '
-  grade: 'pass
-
-    '
 part1:
   type: number-input
   pl-customizations:
@@ -70,15 +44,27 @@ substitutions:
     vars:
       title: Horizontal frictionless track
       units: N
-    m: 3.5
-    v: 6
-    R: 0.5
-    L: 13
-  correct_answers:
-    part1_ans: 105.0
-    part2_ans: 0.1
+    m: 2.5
+    v: 3
+    R: 1.0
+    L: 10
 ---
 # {{ params.vars.title }}
+## Part 1
+
+(a) Determine the force exerted by the track on the block at point A.
+
+### Answer Section
+
+Please enter in a numeric value in {{ params.vars.units }}.
+## Part 2
+
+(b) The bottom of the track consists of a horizontal section (L = {{params.L}} m) with friction.
+Determine the coefficient of kinetic friction between the block and the bottom portion of the track if the block just makes it to point B before coming to rest.
+
+### Answer Section
+
+Please enter in a numeric value.
 A small block of mass m = {{params.m}} kg is fired with an initial speed v0 = {{params.v}} m/s along a horizontal section of frictionless track, as shown in the top portion of the figure.
 The block then moves along the frictionless semicircular vertical track of radius R = {{params.R}} m.
 
