@@ -99,16 +99,16 @@ substitutions:
       _type: sympy
       _value: 2*m1*v1*sqrt(m2/k)/(m1 + m2)
       _variables:
-      - k
       - v1
       - m2
+      - k
       - m1
     part2_ans:
       _type: sympy
       _value: 2*pi*sqrt(m2/k)
       _variables:
-      - k
       - m2
+      - k
     part3_ans:
       _type: sympy
       _value: A*sin(t*w)

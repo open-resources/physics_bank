@@ -1,12 +1,15 @@
 ---
-title: Angular Speed
-topic: Kinematics(2D and 3D)
+title: Object Swung in Circular Path
+topic: Force
 author: Jake Bobowski
-source: 2012 Practice Final Q2
+source: 2017 Final Q8
 template_version: 1.0
 attribution: standard
 outcomes:
-- 5.6.2.0
+- 6.12.2.0
+- 6.2.1.2
+- 6.12.1.1
+- 6.12.2.0
 difficulty:
 - undefined
 randomization:
@@ -14,12 +17,11 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- EW
+- MP
 assets: null
 server:
   imports: |
     import random
-    import math
     import pandas as pd
     import problem_bank_helpers as pbh
     from collections import defaultdict
@@ -30,28 +32,32 @@ server:
     data2 = nested_dict()
 
     # store phrases etc
-    data2["params"]["vars"]["title"] = 'Angular Speed'
-    data2["params"]["vars"]["units"] = "rad/s"
+    data2["params"]["vars"]["title"] = "Object Swung in Circular Path"
+    data2["params"]["vars"]["units"] = "N"
 
     # Randomize Variables
-    rev = random.randint(2,15)
+    m = random.randint(1,20)*0.1
+    r = random.randint(1,20)*0.5
+    w = random.randint(1,9)
+    g = 9.8
 
     # store the variables in the dictionary "params"
-    data2["params"]["rev"] = rev
+    data2["params"]["m"] = m
+    data2["params"]["r"] = r
+    data2["params"]["w"] = w
 
     # define possible answers
-    data2["params"]["part1"]["ans1"]["value"] = pbh.roundp((2*math.pi)/rev, sigfigs = 2)
-    data2["params"]["part1"]["ans1"]["correct"] = False
+    data2["params"]["part1"]["ans1"]["value"] = pbh.roundp(m*((r*(w**2))-g), decimals=2)
+    data2["params"]["part1"]["ans1"]["correct"] = True
 
-    data2["params"]["part1"]["ans2"]["value"] = pbh.roundp(rev*(math.pi), sigfigs = 2)
+    data2["params"]["part1"]["ans2"]["value"] = pbh.roundp(m*(r*((w**2)-g)), decimals=2)
     data2["params"]["part1"]["ans2"]["correct"] = False
 
-    data2["params"]["part1"]["ans3"]["value"] = pbh.roundp(rev*(2*math.pi), sigfigs = 2)
-    data2["params"]["part1"]["ans3"]["correct"] = True
+    data2["params"]["part1"]["ans3"]["value"] = pbh.roundp(m*((r*(w**2))), decimals=2)
+    data2["params"]["part1"]["ans3"]["correct"] = False
 
-    data2["params"]["part1"]["ans4"]["value"] = pbh.roundp(rev/(2*math.pi), sigfigs = 2)
+    data2["params"]["part1"]["ans4"]["value"] = 2*g
     data2["params"]["part1"]["ans4"]["correct"] = False
-
 
     # Update the data object with a new dict
     data.update(data2)
@@ -71,24 +77,28 @@ part1:
 substitutions:
   params:
     vars:
-      title: Angular Speed
-      units: rad/s
-    rev: 7
+      title: Object Swung in Circular Path
+      units: N
+    m: 1.6
+    r: 7.0
+    w: 5
     part1:
       ans1:
-        value: 0.9
-        correct: false
+        value: 264.32
+        correct: true
       ans2:
-        value: 22.0
+        value: 170.24
         correct: false
       ans3:
-        value: 44.0
-        correct: true
+        value: 280.0
+        correct: false
       ans4:
-        value: 1.1
+        value: 19.6
         correct: false
 ---
 # {{ params.vars.title }}
+A {{params.m}} kg object attached to the end of a string of length {{params.r}} m is swung in a circular path
+and in a vertical plane.
 
 ## Attribution
 

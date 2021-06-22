@@ -64,9 +64,9 @@ substitutions:
       _type: sympy
       _value: m*v**2/r
       _variables:
-      - v
-      - m
       - r
+      - m
+      - v
 ---
 # {{ params.vars.title }}
 

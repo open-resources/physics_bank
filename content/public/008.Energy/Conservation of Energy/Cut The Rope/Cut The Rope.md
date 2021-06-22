@@ -65,11 +65,11 @@ substitutions:
     vars:
       title: Cut The Rope
       units: m
-    l: 0.9
-    theta_0: 35
-    theta_c: 28
+    l: 0.8
+    theta_0: 45
+    theta_c: 23
   correct_answers:
-    part1_ans: 0.09520003210722541
+    part1_ans: 0.24560916271424063
 ---
 # {{ params.vars.title }}
 In the mobile app "Cut the Rope", a mass (of candy) swings on a rope and the game player selects a point to cut the rope so it lands in a cute little monster's mouth.
