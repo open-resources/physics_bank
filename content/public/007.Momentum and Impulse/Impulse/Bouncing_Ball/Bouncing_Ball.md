@@ -29,19 +29,19 @@ substitutions:
       units_m: kg
       units_h: m
       units: kgm/s
-    m: 0.478
-    h: 1.9
+    m: 0.355
+    h: 1.4
     part1:
       ans1:
-        value: 2.1
+        value: 1.3
       ans2:
-        value: 2.9
+        value: 1.9
       ans3:
-        value: 4.1
+        value: 2.6
       ans4:
-        value: 5.8
+        value: 3.7
       ans5:
-        value: 8.9
+        value: 4.9
 ---
 # {{ params.vars.title }}
 ## Part 1

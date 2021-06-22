@@ -25,23 +25,23 @@ substitutions:
     vars:
       title: Kinetic Energy of Test Mass
       units: J
-    m: 289
-    v: 2.65
+    m: 383
+    v: 4.23
     d_m: 2
-    d_v: 0.01
+    d_v: 0.04
     part1:
       ans1:
-        value: 1.015 $\pm$ 0.011
+        value: 3.426 $\pm$ 0.05
       ans2:
-        value: 1.015 $\pm$ 0.015
+        value: 3.426 $\pm$ 0.083
       ans3:
-        value: 1.015 $\pm$ 0.007
+        value: 3.426 $\pm$ 0.018
       ans4:
-        value: 1.015 $\pm$ 0.007
+        value: 3.426 $\pm$ 0.005
       ans5:
-        value: 1.015 $\pm$ 0.014
+        value: 3.426 $\pm$ 0.024
       ans6:
-        value: 1.015 $\pm$ 0.007
+        value: 3.426 $\pm$ 0.018
 ---
 # {{ params.vars.title }}
 ## Part 1
