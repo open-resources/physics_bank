@@ -65,13 +65,17 @@ substitutions:
         units: rad/s
       part5:
         units: J
-    m_p: 1.46
-    r_p: 0.48
-    m: 2.6
-    r: 0.15
-    x: 3
+    m_p: 1.12
+    r_p: 0.22
+    m: 2.55
+    r: 0.31
+    x: 1
 ---
 # {{ params.vars.title }}
+A cylindrical dinner plate is spinning out in space. It has mass $m_p = {{params.m_p}} kg$, radius $r = {{ params.r_p }} m$ and it rotates clockwise (as seen from above) {{ params.x }} times every second.
+A (non-rotating) cylindrical cake is shot at it, in the manner shown, and it sticks to the surface of the plate.
+The cake has a mass $m = {{ params.m }} kg$ and radius $r = {{ params.r }} m$.
+In the end, both the cake and the plate rotate together.
 ## Part 1
 
 Calculate the initial angular velocity of the plate.
@@ -107,10 +111,6 @@ How much energy is dissipated in the collision?
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.part5.units }}.
-A cylindrical dinner plate is spinning out in space. It has mass $m_p = {{params.m_p}} kg$, radius $r = {{ params.r_p }} m$ and it rotates clockwise (as seen from above) {{ params.x }} times every second.
-A (non-rotating) cylindrical cake is shot at it, in the manner shown, and it sticks to the surface of the plate.
-The cake has a mass $m = {{ params.m }} kg$ and radius $r = {{ params.r }} m$.
-In the end, both the cake and the plate rotate together.
 
 ## Attribution
 

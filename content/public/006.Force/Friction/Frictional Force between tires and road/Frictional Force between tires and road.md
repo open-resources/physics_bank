@@ -28,10 +28,12 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: a unicycle
+      vehicle: ice skates
       title: Frictional Force between Tires and the Road
 ---
 # {{ params.vars.title }}
+A {{ params.vars.vehicle }} of mass $m$ is driving around a horizontal circular track of radius $R$ at constant speed $v$.
+The frictional force between the tires of the {{ params.vars.vehicle }} and the road is at its maximum value.
 ## Question Text
 
 Write the expression to find the value of the coefficient of friction between the tires and the road in terms of the mass $m$, velocity $v$, radius $R$, and the acceleration of free-fall $g$.
@@ -50,8 +52,6 @@ Use the following table as a reference for each variable:
 ### Answer Section
 
 Enter answer here...
-A {{ params.vars.vehicle }} of mass $m$ is driving around a horizontal circular track of radius $R$ at constant speed $v$.
-The frictional force between the tires of the {{ params.vars.vehicle }} and the road is at its maximum value.
 
 ## Attribution
 

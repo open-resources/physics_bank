@@ -28,8 +28,8 @@ substitutions:
       title: System Open or Closed
       vehicle: truck
       units: kg
-    i_a: 101
-    i_b: 319
+    i_a: 61
+    i_b: 331
     part1:
       ans1:
         value: Yes, because the two carts are on a track with no friction.
@@ -41,6 +41,11 @@ substitutions:
         value: No, because the momentum is not conserved
 ---
 # {{ params.vars.title }}
+Two {{ params.vars.vehicle }}s collide on a track, {{ params.vars.vehicle }}  A comes up behind {{ params.vars.vehicle }}  B and runs into it.
+{{ params.vars.vehicle }} A has inertia {{ params.i_a }} {{ params.vars.units }}, {{ params.vars.vehicle }} B has inertia {{ params.i_b }} {{ params.vars.units }}.
+The following diagram shows the velocity of each {{ params.vars.vehicle }} as a function of time.
+
+<img src="Q3.png" alt="A velocity versus time graph where {{ params.vars.vehicle }} A has an initial velocity of 8 meters per second and {{ params.vars.vehicle }} B has an initial velocity of 1 meter per second. The two {{ params.vars.vehicle }}s collide at around 4 seconds. The velocity of {{ params.vars.vehicle }} A decreases to 2 meters per second and the velocity of {{ params.vars.vehicle }} B increases to 5 meters per second." width=300>
 ## Question Text
 
 Is the system isolated? Why or why not?
@@ -51,11 +56,6 @@ Is the system isolated? Why or why not?
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
-Two {{ params.vars.vehicle }}s collide on a track, {{ params.vars.vehicle }}  A comes up behind {{ params.vars.vehicle }}  B and runs into it.
-{{ params.vars.vehicle }} A has inertia {{ params.i_a }} {{ params.vars.units }}, {{ params.vars.vehicle }} B has inertia {{ params.i_b }} {{ params.vars.units }}.
-The following diagram shows the velocity of each {{ params.vars.vehicle }} as a function of time.
-
-<img src="Q3.png" alt="A velocity versus time graph where {{ params.vars.vehicle }} A has an initial velocity of 8 meters per second and {{ params.vars.vehicle }} B has an initial velocity of 1 meter per second. The two {{ params.vars.vehicle }}s collide at around 4 seconds. The velocity of {{ params.vars.vehicle }} A decreases to 2 meters per second and the velocity of {{ params.vars.vehicle }} B increases to 5 meters per second." width=300>
 
 ## Attribution
 

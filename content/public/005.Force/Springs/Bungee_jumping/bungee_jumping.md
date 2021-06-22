@@ -23,19 +23,20 @@ substitutions:
   params:
     vars:
       title: Bungee Jumping
-      name: Ahmed
+      name: Aliyah
     part1:
       ans1:
-        value: The tension points down, and Ahmed moves down, so negative work is
-          done.
+        value: The tension point up, and Aliyah moves up, so positive work is done.
       ans2:
-        value: The tension point up, and Ahmed moves up, so positive work is done.
+        value: The tension points up, and Aliyah moves down, so negative work is done.
       ans3:
-        value: The tension points up, and Ahmed moves down, so positive work is done.
+        value: The tension points up, and Aliyah moves down, so positive work is done.
       ans4:
-        value: The tension points up, and Ahmed moves down, so negative work is done.
+        value: The tension points down, and Aliyah moves down, so negative work is
+          done.
 ---
 # {{ params.vars.title }}
+{{ params.vars.name }} decides to go bungee jumping. Starting atop a very high bridge, elastic cords are tied to their feet and {{ params.vars.name }} jumps off the bridge. Once it has fallen a certain distance, the force of the bungee cords slows their descent until {{ params.vars.name }} is at a lowest point.
 ## Part 1
 
 If the system under consideration is: {{ params.vars.name }}, the air, and the earth; discuss the work done by the bungee cord as {{ params.vars.name }} descends.
@@ -46,7 +47,6 @@ If the system under consideration is: {{ params.vars.name }}, the air, and the e
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
-{{ params.vars.name }} decides to go bungee jumping. Starting atop a very high bridge, elastic cords are tied to their feet and {{ params.vars.name }} jumps off the bridge. Once it has fallen a certain distance, the force of the bungee cords slows their descent until {{ params.vars.name }} is at a lowest point.
 
 ## Attribution
 

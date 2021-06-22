@@ -29,15 +29,20 @@ substitutions:
     d2: $2d$
     part1:
       ans1:
-        value: Not enough information is given.
-      ans2:
         value: It is a tie.
-      ans3:
-        value: Spring A
-      ans4:
+      ans2:
         value: Spring B
+      ans3:
+        value: Not enough information is given.
+      ans4:
+        value: Spring A
 ---
 # {{ params.vars.title }}
+Two identical springs are attached to two identical masses.
+Both masses are free to slide along a frictionless horizontal surface.
+One of the springs is displaced a distance {{ params.d1 }} from its equilibrium position, while the other is displaced a distance {{ params.d2 }}.
+
+![Using the same point of reference, Spring A is displaced a distance d from its equilibrium position while Spring B is displaced a distance 2d.](q8_2012Final.png)
 ## Part 1
 
 If both masses are released at the same instant, which of the springs, A or B, returns to its unstretched length first?
@@ -48,11 +53,6 @@ If both masses are released at the same instant, which of the springs, A or B, r
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
-Two identical springs are attached to two identical masses.
-Both masses are free to slide along a frictionless horizontal surface.
-One of the springs is displaced a distance {{ params.d1 }} from its equilibrium position, while the other is displaced a distance {{ params.d2 }}.
-
-![Using the same point of reference, Spring A is displaced a distance d from its equilibrium position while Spring B is displaced a distance 2d.](q8_2012Final.png)
 
 ## Attribution
 

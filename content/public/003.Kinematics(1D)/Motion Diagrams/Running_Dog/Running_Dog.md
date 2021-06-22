@@ -28,18 +28,21 @@ substitutions:
   params:
     vars:
       title: Running Dog
-    choice: Untrue
+    choice: 'True'
     part1:
       ans1:
-        value: The dog has a negative acceleration at t=9s
+        value: The dog is not moving between t=2s and t=6s
       ans2:
-        value: The dog is not moving between t=6s and t=10s
-      ans3:
         value: The dog has a velocity of 1 m/s between time t=6s and t=10s
+      ans3:
+        value: The dog has a negative acceleration at t=9s
       ans4:
-        value: The dog has an average velocity of 0 m/s between time t=0s and t=8s
+        value: The dog is not moving between t=6s and t=10s
 ---
 # {{ params.vars.title }}
+Consider the following motion diagram for a dog running down a straight path.
+
+<img src="Q1.png" alt= "A displacement time graph showing the dog increasing by 2 meters from t equals 0 seconds to t equals 2 seconds. The dog is not moving from t equals 2 seconds to t equals 6 seconds. The dog decreases 2 meters from t equals 6 seconds to t equals 8 seconds. The dog decreases to negative 2 meters from t equals 8 second to t equals 10 seconds. The dog increases 2 meters from t equals 10 seconds to t equals 12 seconds.">
 ## Question Text
 
 Which of the following statements is {{ params.choice }} ?
@@ -54,9 +57,6 @@ Note: You will be awarded full marks only if you select all the correct choices,
 - {{ params.part1.ans2.value}}
 - {{ params.part1.ans3.value}}
 - {{ params.part1.ans4.value}}
-Consider the following motion diagram for a dog running down a straight path.
-
-<img src="Q1.png" alt= "A displacement time graph showing the dog increasing by 2 meters from t equals 0 seconds to t equals 2 seconds. The dog is not moving from t equals 2 seconds to t equals 6 seconds. The dog decreases 2 meters from t equals 6 seconds to t equals 8 seconds. The dog decreases to negative 2 meters from t equals 8 second to t equals 10 seconds. The dog increases 2 meters from t equals 10 seconds to t equals 12 seconds.">
 
 ## Attribution
 

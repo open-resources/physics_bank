@@ -27,15 +27,18 @@ substitutions:
       title: Two Balls Launched on Different Tracks
     part1:
       ans1:
-        value: B
-      ans2:
         value: They reach the end of the track at the same time.
+      ans2:
+        value: A
       ans3:
         value: More information is needed.
       ans4:
-        value: A
+        value: B
 ---
 # {{ params.vars.title }}
+Balls A and B are launched with the same initial velocity along a pair of tracks as shown in the figure.
+
+![Ball A is launched along a horizontal track while Ball B is launched along a u-shaped track.](q3_2012Final.png)
 ## Part 1
 
 Which ball reaches the end of the track first, if friction is neglected?
@@ -46,9 +49,6 @@ Which ball reaches the end of the track first, if friction is neglected?
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
-Balls A and B are launched with the same initial velocity along a pair of tracks as shown in the figure.
-
-![Ball A is launched along a horizontal track while Ball B is launched along a u-shaped track.](q3_2012Final.png)
 
 ## Attribution
 

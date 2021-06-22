@@ -23,27 +23,28 @@ part1:
 substitutions:
   params:
     vars:
-      name: Emilia
-      vehicle: a unicycle
+      name: Ahmed
+      vehicle: rollerblades
       units: m/s
       title: Distance travelled
     v: 4
-    t: 6
+    t: 10
     part1:
       ans1:
         value: 42
       ans2:
-        value: 24
+        value: 40
       ans3:
-        value: 10
+        value: 14
       ans4:
-        value: 0.6666666666666666
+        value: 0.4
       ans5:
-        value: -2
+        value: -6
       ans6:
-        value: -2.6
+        value: -7.800000000000001
 ---
 # {{ params.vars.title }}
+{{ params.vars.name }} is traveling on {{ params.vars.vehicle }} at {{ params.v }} {{ params.vars.units }}.
 ## Part 1
 
 How far does {{ params.vars.name }} travel in {{ params.t }} seconds, assuming they continue at the same velocity?
@@ -56,7 +57,6 @@ How far does {{ params.vars.name }} travel in {{ params.t }} seconds, assuming t
 - {{ params.part1.ans4.value }} {{ params.vars.units}}
 - {{ params.part1.ans5.value }} {{ params.vars.units}}
 - {{ params.part1.ans6.value }} {{ params.vars.units}}
-{{ params.vars.name }} is traveling on {{ params.vars.vehicle }} at {{ params.v }} {{ params.vars.units }}.
 
 ## Attribution
 

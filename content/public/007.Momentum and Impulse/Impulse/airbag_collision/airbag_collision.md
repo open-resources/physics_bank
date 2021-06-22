@@ -39,6 +39,7 @@ substitutions:
         value: Explode to give you more oxygen to breathe
 ---
 # {{ params.vars.title }}
+Modern cars are outfitted with air bags that quickly inflate with air if the car experiences too large an acceleration.
 ## Part 1
 
 Air bags work because in the event of an accident, they (select a statement):
@@ -50,7 +51,6 @@ Air bags work because in the event of an accident, they (select a statement):
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
 - {{ params.part1.ans5.value }}
-Modern cars are outfitted with air bags that quickly inflate with air if the car experiences too large an acceleration.
 
 ## Attribution
 

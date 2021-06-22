@@ -25,22 +25,23 @@ substitutions:
     vars:
       title: Physics of Roller-Coasters
       units: m/s
-    r: 30.0
+    r: 28.0
     part1:
       ans1:
-        value: 34.3
+        value: 33.1
       ans2:
-        value: 38.4
+        value: 37.1
       ans3:
-        value: 29.7
+        value: 28.7
       ans4:
-        value: 24.3
+        value: 23.4
       ans5:
-        value: 17.2
+        value: 16.6
       ans6:
-        value: 42.0
+        value: 40.6
 ---
 # {{ params.vars.title }}
+A roller-coaster travels over a vertical, circular loop of radius $R = $ {{ params.r }} m.
 ## Part 1
 
 If it travels without friction along the track, what is the minimum speed required at the bottom of the loop such that the roller-coaster remains in contact with the track at the top of the loop?
@@ -53,7 +54,6 @@ If it travels without friction along the track, what is the minimum speed requir
 - {{ params.part1.ans4.value }} {{ params.vars.units}}
 - {{ params.part1.ans5.value }} {{ params.vars.units}}
 - {{ params.part1.ans6.value }} {{ params.vars.units}}
-A roller-coaster travels over a vertical, circular loop of radius $R = $ {{ params.r }} m.
 
 ## Attribution
 

@@ -45,14 +45,19 @@ substitutions:
       title: Spring on an Incline
       units1: m
       units2: J
-    m: 2
-    k: 666
-    theta: 28
+    m: 4
+    k: 664
+    theta: 30
     mu: 0.25
-    d: 6
+    d: 9
     g: 9.8
 ---
 # {{ params.vars.title }}
+A small {{params.m}} kg block is accelerated from rest on a flat surface by a compressed spring (k = {{params.k}} N/m) along a frictionless, horizontal surface.
+The block leaves the spring at the spring's equilibrium position (x = 0) and travels on an incline ($\theta$ = {{params.theta}}$^{\circ}$) with a coefficient of kinetic friction $\mu_k$ = {{params.mu}}.
+The block moves a horizontal distance $D$ = {{params.d}} m before coming to a stop.
+
+<img src="q10image.png" width=300>
 ## Part 1
 
 (a) What is the initial compression of the spring?
@@ -67,11 +72,6 @@ Please enter in a numeric value in {{ params.vars.units1 }}.
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units2 }}.
-A small {{params.m}} kg block is accelerated from rest on a flat surface by a compressed spring (k = {{params.k}} N/m) along a frictionless, horizontal surface.
-The block leaves the spring at the spring's equilibrium position (x = 0) and travels on an incline ($\theta$ = {{params.theta}}$^{\circ}$) with a coefficient of kinetic friction $\mu_k$ = {{params.mu}}.
-The block moves a horizontal distance $D$ = {{params.d}} m before coming to a stop.
-
-<img src="q10image.png" width=300>
 
 ## Attribution
 

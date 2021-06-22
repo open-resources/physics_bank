@@ -42,12 +42,19 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-    i: 365
-    m: 32
-    v_1: 19
-    v_2: 29
+    i: 371
+    m: 25
+    v_1: 30
+    v_2: 30
 ---
 # {{ params.vars.title }}
+I am an astronaut caveman, floating in space.
+My rocket is powered by throwing rocks out of a hole in the back of the spaceship.
+The total inertia of me and my rocket is {{ params.i }} kg.
+I also have two {{ params.m }} kg rocks on board.
+We are initially at rest.
+I throw the first rock, and then we are moving with velocity {{ params.v_1 }} {{ params.vars.units1 }}.
+Then I throw the second rock out of the back and we are moving with velocity {{ params.v_2 }} {{ params.vars.units1 }} .
 ## Part 1
 
 (a) What is the total momentum of the system?
@@ -69,13 +76,6 @@ Please enter in a numeric value in {{ params.vars.units1 }}.
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units1 }}.
-I am an astronaut caveman, floating in space.
-My rocket is powered by throwing rocks out of a hole in the back of the spaceship.
-The total inertia of me and my rocket is {{ params.i }} kg.
-I also have two {{ params.m }} kg rocks on board.
-We are initially at rest.
-I throw the first rock, and then we are moving with velocity {{ params.v_1 }} {{ params.vars.units1 }}.
-Then I throw the second rock out of the back and we are moving with velocity {{ params.v_2 }} {{ params.vars.units1 }} .
 
 ## Attribution
 

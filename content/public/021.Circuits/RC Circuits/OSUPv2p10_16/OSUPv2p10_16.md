@@ -46,6 +46,8 @@ substitutions:
           dark.
 ---
 # {{ params.vars.title }}
+A battery, switch, capacitor, and lamp are connected in series.
+The switch is initially open.
 ## Part 1
 
 Describe what happens to the lamp when the switch is closed.
@@ -57,8 +59,6 @@ Describe what happens to the lamp when the switch is closed.
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
 - {{ params.part1.ans5.value }}
-A battery, switch, capacitor, and lamp are connected in series.
-The switch is initially open.
 
 ## Attribution
 

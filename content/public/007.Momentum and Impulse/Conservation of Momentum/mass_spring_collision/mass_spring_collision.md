@@ -44,6 +44,11 @@ substitutions:
       title: Perfect Elastic Collision of a Mass Attached to a Spring
 ---
 # {{ params.vars.title }}
+A block of mass $m_1$ slides across a frictionless surface with speed $v_1$ and collides perfectly elastically with a block $m_2$ (initially at rest).
+Block $m_2$ is attached to a spring with spring constant $k$ and equilibrium length $x_0$.
+Assume $m_2 > m_1$.
+
+![A block of mass m one slides across a frictionless surface with speed v one and collides perfectly elastically with a block m two attached to a spring with spring constant k and equilibrium length x naught.](q13_2012Final.png)
 ## Part 1
 
 What is the amplitude of the resulting simple harmonic motion? Answer using the variables $m_1, m_2, k, x_0$ and/or $v_1$.
@@ -98,11 +103,6 @@ Use the following table as a reference for each variable:
 ### Answer Section
 
 Enter answer here...
-A block of mass $m_1$ slides across a frictionless surface with speed $v_1$ and collides perfectly elastically with a block $m_2$ (initially at rest).
-Block $m_2$ is attached to a spring with spring constant $k$ and equilibrium length $x_0$.
-Assume $m_2 > m_1$.
-
-![A block of mass m one slides across a frictionless surface with speed v one and collides perfectly elastically with a block m two attached to a spring with spring constant k and equilibrium length x naught.](q13_2012Final.png)
 
 ## Attribution
 

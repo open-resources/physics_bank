@@ -35,11 +35,14 @@ substitutions:
       vehicle: truck
       title: A Crate's Maximum Acceleration without Slipping
       units: $m/s^2$
-    mu_s: 0.71
-    mu_k: 0.26
-    theta: 14
+    mu_s: 0.43
+    mu_k: 0.28
+    theta: 13
 ---
 # {{ params.vars.title }}
+A wood crate sits in the back of a {{ params.vars.vehicle }}.
+The coefficients of friction between the crate and the {{ params.vars.vehicle }} are $\mu_s = $ {{ params.mu_s }} and $\mu_k = $ {{ params.mu_k }}.
+The {{ params.vars.vehicle }} starts moving up a {{ params.theta }}$^{\circ}$ slope.
 ## Question Text
 
 What is the maximum acceleration the {{ params.vars.vehicle }} can have without the crate slipping out the back?
@@ -47,9 +50,6 @@ What is the maximum acceleration the {{ params.vars.vehicle }} can have without 
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
-A wood crate sits in the back of a {{ params.vars.vehicle }}.
-The coefficients of friction between the crate and the {{ params.vars.vehicle }} are $\mu_s = $ {{ params.mu_s }} and $\mu_k = $ {{ params.mu_k }}.
-The {{ params.vars.vehicle }} starts moving up a {{ params.theta }}$^{\circ}$ slope.
 
 ## Attribution
 

@@ -28,20 +28,22 @@ substitutions:
     vars:
       title: Object Swung in Circular Path
       units: N
-    m: 0.6000000000000001
-    r: 6.5
+    m: 1.0
+    r: 5.0
     w: 1
     part1:
       ans1:
-        value: -1.98
+        value: -4.8
       ans2:
-        value: -34.32
+        value: -44.0
       ans3:
-        value: 3.9
+        value: 5.0
       ans4:
         value: 19.6
 ---
 # {{ params.vars.title }}
+A {{params.m}} kg object attached to the end of a string of length {{params.r}} m is swung in a circular path
+and in a vertical plane.
 ## Part 1
 
 If a constant angular speed of {{params.w}} rad/s is maintained, what is the magnitude of the tension in the string when the object is at the top of the circular path?
@@ -52,8 +54,6 @@ If a constant angular speed of {{params.w}} rad/s is maintained, what is the mag
 - {{ params.part1.ans2.value }} {{ params.vars.units}}
 - {{ params.part1.ans3.value }} {{ params.vars.units}}
 - {{ params.part1.ans4.value }} {{ params.vars.units}}
-A {{params.m}} kg object attached to the end of a string of length {{params.r}} m is swung in a circular path
-and in a vertical plane.
 
 ## Attribution
 
