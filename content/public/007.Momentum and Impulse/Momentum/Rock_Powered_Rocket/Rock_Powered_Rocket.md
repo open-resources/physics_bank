@@ -42,10 +42,10 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-    i: 393
-    m: 36
-    v_1: 12
-    v_2: 13
+    i: 394
+    m: 29
+    v_1: 23
+    v_2: 19
 ---
 # {{ params.vars.title }}
 ## Part 1
