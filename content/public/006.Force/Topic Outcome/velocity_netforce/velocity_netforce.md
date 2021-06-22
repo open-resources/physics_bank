@@ -18,92 +18,6 @@ tags:
 - MP
 assets:
 - q1image.png
-server:
-  imports: |
-    import random
-    import pandas as pd
-    import math
-    from collections import defaultdict
-    nested_dict = lambda: defaultdict(nested_dict)
-  generate: |
-    # Start problem code
-
-    data2 = nested_dict()
-
-    # store phrases etc
-    data2["params"]["vars"]["title"] = 'Velocity and Net Force'
-
-    # set bounds of variables
-    t = random.randint(0,4)
-    v = math.cos(math.pi*t) #this value only represents the sign of v, not the actual value
-    a = -math.sin(math.pi*t) #this value only represents the sign of a, not the actual value
-
-    # define possible answers
-    data2["params"]["part1"]["ans1"]["value"] = "Velocity is negative, net force is to the left"
-    if v < 0 and a<0:
-      data2["params"]["part1"]["ans1"]["correct"] = True
-    else:
-      data2["params"]["part1"]["ans1"]["correct"] = False
-
-    data2["params"]["part1"]["ans2"]["value"] = "Velocity is negative, net force is to the right"
-    if v < 0 and a > 0:
-      data2["params"]["part1"]["ans2"]["correct"] = True
-    else:
-      data2["params"]["part1"]["ans2"]["correct"] = False
-
-    data2["params"]["part1"]["ans3"]["value"] = "Velocity is negative, net force is zero"
-    if v < 0 and a == 0:
-      data2["params"]["part1"]["ans3"]["correct"] = True
-    else:
-      data2["params"]["part1"]["ans3"]["correct"] = False
-
-    data2["params"]["part1"]["ans4"]["value"] = "Velocity is positive, net force is to the left"
-    if v > 0 and a < 0:
-      data2["params"]["part1"]["ans4"]["correct"] = True
-    else:
-      data2["params"]["part1"]["ans4"]["correct"] = False
-
-    data2["params"]["part1"]["ans5"]["value"] = "Velocity is positive, net force is to the right"
-    if v > 0 and a > 0:
-      data2["params"]["part1"]["ans5"]["correct"] = True
-    else:
-      data2["params"]["part1"]["ans5"]["correct"] = False
-
-    data2["params"]["part1"]["ans6"]["value"] = "Velocity is positive, net force is zero"
-    if v > 0 and a == 0:
-      data2["params"]["part1"]["ans6"]["correct"] = True
-    else:
-      data2["params"]["part1"]["ans6"]["correct"] = False
-
-    data2["params"]["part1"]["ans7"]["value"] = "Velocity is zero, net force is to the left"
-    if v == 0 and a < 0:
-      data2["params"]["part1"]["ans7"]["correct"] = True
-    else:
-      data2["params"]["part1"]["ans7"]["correct"] = False
-
-    data2["params"]["part1"]["ans8"]["value"] = "Velocity is zero, net force is to the right"
-    if v == 0 and a > 0:
-      data2["params"]["part1"]["ans8"]["correct"] = True
-    else:
-      data2["params"]["part1"]["ans8"]["correct"] = False
-
-    data2["params"]["part1"]["ans9"]["value"] = "Velocity is zero, net force is zero"
-    if v == 0 and a == 0:
-      data2["params"]["part1"]["ans9"]["correct"] = True
-    else:
-      data2["params"]["part1"]["ans9"]["correct"] = False
-
-    # Update the data object with a new dict
-    data.update(data2)
-  prepare: 'pass
-
-    '
-  parse: 'pass
-
-    '
-  grade: 'pass
-
-    '
 part1:
   type: multiple-choice
   pl-customizations:
@@ -115,33 +29,40 @@ substitutions:
     part1:
       ans1:
         value: Velocity is negative, net force is to the left
-        correct: true
       ans2:
         value: Velocity is negative, net force is to the right
-        correct: false
       ans3:
         value: Velocity is negative, net force is zero
-        correct: false
       ans4:
         value: Velocity is positive, net force is to the left
-        correct: false
       ans5:
         value: Velocity is positive, net force is to the right
-        correct: false
       ans6:
         value: Velocity is positive, net force is zero
-        correct: false
       ans7:
         value: Velocity is zero, net force is to the left
-        correct: false
       ans8:
         value: Velocity is zero, net force is to the right
-        correct: false
       ans9:
         value: Velocity is zero, net force is zero
-        correct: false
 ---
 # {{ params.vars.title }}
+## Part 1
+
+What can you say about the velocity of the mass and the net force of the mass at t=2s?
+(For a right-handed coordinate system, positive x is to the right)
+
+### Answer Section
+
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
+- {{ params.part1.ans6.value }}
+- {{ params.part1.ans7.value }}
+- {{ params.part1.ans8.value }}
+- {{ params.part1.ans9.value }}
 The position versus time graph of a mass on a spring is shown in the image.
 
 <img src="q1image.png" alt="Position vs. Time of Mass on Spring" width=300>

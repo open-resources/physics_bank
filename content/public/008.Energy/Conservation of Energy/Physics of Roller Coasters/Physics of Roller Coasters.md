@@ -16,57 +16,6 @@ taxonomy:
 tags:
 - PW
 assets: null
-server:
-  imports: "import random as rd\nimport math \nimport problem_bank_helpers as pbh\n\
-    from collections import defaultdict\nnested_dict = lambda: defaultdict(nested_dict)\n"
-  generate: |
-    # Start problem code
-
-    data2 = nested_dict()
-
-    # store phrases etc
-    data2["params"]["vars"]["title"] = 'Physics of Roller-Coasters'
-    data2["params"]["vars"]["units"] = "m/s"
-
-    # Randomize Variables and round
-    r = pbh.roundp(rd.uniform(10.0,30.0), sigfigs = 3)
-
-    # store the variables in the dictionary "params"
-    data2["params"]["r"] = r
-
-    # define g
-    g = 9.81
-
-    # define possible answers
-    data2["params"]["part1"]["ans1"]["value"] = pbh.roundp(math.sqrt(4*g*r), sigfigs = 3)
-    data2["params"]["part1"]["ans1"]["correct"] = False
-
-    data2["params"]["part1"]["ans2"]["value"] = pbh.roundp(math.sqrt(5*g*r), sigfigs = 3)
-    data2["params"]["part1"]["ans2"]["correct"] = True
-
-    data2["params"]["part1"]["ans3"]["value"] = pbh.roundp(math.sqrt(3*g*r), sigfigs = 3)
-    data2["params"]["part1"]["ans3"]["correct"] = False
-
-    data2["params"]["part1"]["ans4"]["value"] = pbh.roundp(math.sqrt(2*g*r), sigfigs = 3)
-    data2["params"]["part1"]["ans4"]["correct"] = False
-
-    data2["params"]["part1"]["ans5"]["value"] = pbh.roundp(math.sqrt(g*r), sigfigs = 3)
-    data2["params"]["part1"]["ans5"]["correct"] = False
-
-    data2["params"]["part1"]["ans6"]["value"] = pbh.roundp(math.sqrt(6*g*r), sigfigs = 3)
-    data2["params"]["part1"]["ans6"]["correct"] = False
-
-    # Update the data object with a new dict
-    data.update(data2)
-  prepare: 'pass
-
-    '
-  parse: 'pass
-
-    '
-  grade: 'pass
-
-    '
 part1:
   type: multiple-choice
   pl-customizations:
@@ -76,28 +25,34 @@ substitutions:
     vars:
       title: Physics of Roller-Coasters
       units: m/s
-    r: 26.1
+    r: 24.2
     part1:
       ans1:
-        value: 32.0
-        correct: false
+        value: 30.8
       ans2:
-        value: 35.8
-        correct: true
+        value: 34.5
       ans3:
-        value: 27.7
-        correct: false
+        value: 26.7
       ans4:
-        value: 22.6
-        correct: false
+        value: 21.8
       ans5:
-        value: 16.0
-        correct: false
+        value: 15.4
       ans6:
-        value: 39.2
-        correct: false
+        value: 37.7
 ---
 # {{ params.vars.title }}
+## Part 1
+
+If it travels without friction along the track, what is the minimum speed required at the bottom of the loop such that the roller-coaster remains in contact with the track at the top of the loop?
+
+### Answer Section
+
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params.part1.ans6.value }} {{ params.vars.units}}
 A roller-coaster travels over a vertical, circular loop of radius $R = $ {{ params.r }} m.
 
 ## Attribution

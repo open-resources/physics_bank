@@ -18,40 +18,6 @@ tags:
 - PW
 assets:
 - q7_2012Final.png
-server:
-  imports: |
-    import random as rd
-    import problem_bank_helpers as pbh
-    from collections import defaultdict
-    nested_dict = lambda: defaultdict(nested_dict)
-  generate: "# Start problem code\n\ndata2 = nested_dict()\n\n# store phrases etc\n\
-    data2[\"params\"][\"vars\"][\"title\"] = 'Two Blocks Connected by a String'\n\
-    data2[\"params\"][\"vars\"][\"units\"] = \"N\"\n\n# Define variables in case the\
-    \ image is randomized in the future.\nm1 = 1\nm2 = 1.2\ng = 9.81\n\n# store the\
-    \ variables in the dictionary \"params\".  \ndata2[\"params\"][\"m1\"] = m1\n\n\
-    # define possible answers\n# round in traditional way using pbh.roundp() and then\
-    \ convert to int\ndata2[\"params\"][\"part1\"][\"ans1\"][\"value\"] = int(pbh.roundp(m1*g,\
-    \ decimals = 0))     \ndata2[\"params\"][\"part1\"][\"ans1\"][\"correct\"] = False\n\
-    \ndata2[\"params\"][\"part1\"][\"ans2\"][\"value\"] = int(pbh.roundp(m2*g, decimals\
-    \ = 0))\ndata2[\"params\"][\"part1\"][\"ans2\"][\"correct\"] = True\n\ndata2[\"\
-    params\"][\"part1\"][\"ans3\"][\"value\"] = int(pbh.roundp(2*m2*g, decimals =\
-    \ 0))\ndata2[\"params\"][\"part1\"][\"ans3\"][\"correct\"] = False\n\ndata2[\"\
-    params\"][\"part1\"][\"ans4\"][\"value\"] = int(pbh.roundp(2*m1*g, decimals =\
-    \ 0))\ndata2[\"params\"][\"part1\"][\"ans4\"][\"correct\"] = False\n\ndata2[\"\
-    params\"][\"part1\"][\"ans5\"][\"value\"] = int(pbh.roundp(m2*g, decimals = 0))\
-    \ + 1\ndata2[\"params\"][\"part1\"][\"ans5\"][\"correct\"] = False\n\ndata2[\"\
-    params\"][\"part1\"][\"ans6\"][\"value\"] = int(pbh.roundp(m2*g, decimals = 0))\
-    \ - 1\ndata2[\"params\"][\"part1\"][\"ans6\"][\"correct\"] = False\n\n# Update\
-    \ the data object with a new dict\ndata.update(data2)\n"
-  prepare: 'pass
-
-    '
-  parse: 'pass
-
-    '
-  grade: 'pass
-
-    '
 part1:
   type: multiple-choice
   pl-customizations:
@@ -65,24 +31,33 @@ substitutions:
     part1:
       ans1:
         value: 10
-        correct: false
       ans2:
         value: 12
-        correct: true
       ans3:
         value: 24
-        correct: false
       ans4:
         value: 20
-        correct: false
       ans5:
         value: 13
-        correct: false
       ans6:
         value: 11
-        correct: false
 ---
 # {{ params.vars.title }}
+## Part 1
+
+Two blocks are arranged as shown and kept at rest by holding the {{ params.m1 }} kg block in place.
+The tension in the string is **closest** to which of the following choices?
+
+![Two blocks connected by a spring. The 1 kg block is held in place while the 1.2 kg block hangs over a pulley.](q7_2012Final.png)
+
+### Answer Section
+
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params.part1.ans6.value }} {{ params.vars.units}}
 
 ## Attribution
 

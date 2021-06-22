@@ -17,32 +17,6 @@ tags:
 - PW
 assets:
 - q3_2012Final.png
-server:
-  imports: |
-    import random
-    import problem_bank_helpers as pbh
-    from collections import defaultdict
-    nested_dict = lambda: defaultdict(nested_dict)
-  generate: "# Start problem code\n\ndata2 = nested_dict()\n\n# store title\ndata2[\"\
-    params\"][\"vars\"][\"title\"] = 'Two Balls Launched on Different Tracks'\n\n\
-    # create list of answers and shuffle\nanswers = [\"A\", \"B\", \"They reach the\
-    \ end of the track at the same time.\", \"More information is needed.\"]\nrandom.shuffle(answers)\n\
-    \n# Create ans_choices.  \ntotal_choices = len(answers)\nans_choices = [\"ans{0}\"\
-    .format(i+1) for i in range(total_choices)]\n\n\n# define possible answers.  \n\
-    for i in range(total_choices):\n    choice = ans_choices.pop(0)\n\n    this_answer\
-    \ = answers.pop()\n    data2[\"params\"][\"part1\"][choice][\"value\"] = this_answer\n\
-    \n    if (this_answer == 'B'):\n        data2[\"params\"][\"part1\"][choice][\"\
-    correct\"] = True\n    else:\n        data2[\"params\"][\"part1\"][choice][\"\
-    correct\"] = False\n\n# Update the data object with a new dict\ndata.update(data2)\n"
-  prepare: 'pass
-
-    '
-  parse: 'pass
-
-    '
-  grade: 'pass
-
-    '
 part1:
   type: multiple-choice
   pl-customizations:
@@ -53,19 +27,25 @@ substitutions:
       title: Two Balls Launched on Different Tracks
     part1:
       ans1:
-        value: A
-        correct: false
-      ans2:
-        value: B
-        correct: true
-      ans3:
         value: They reach the end of the track at the same time.
-        correct: false
-      ans4:
+      ans2:
         value: More information is needed.
-        correct: false
+      ans3:
+        value: A
+      ans4:
+        value: B
 ---
 # {{ params.vars.title }}
+## Part 1
+
+Which ball reaches the end of the track first, if friction is neglected?
+
+### Answer Section
+
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 Balls A and B are launched with the same initial velocity along a pair of tracks as shown in the figure.
 
 ![Ball A is launched along a horizontal track while Ball B is launched along a u-shaped track.](q3_2012Final.png)

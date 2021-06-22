@@ -17,63 +17,6 @@ taxonomy:
 tags:
 - PW
 assets: null
-server:
-  imports: |
-    import random as rd
-    import sympy as sp
-    import numpy as np
-    import problem_bank_helpers as pbh
-    from collections import defaultdict
-    nested_dict = lambda: defaultdict(nested_dict)
-  generate: "# Start problem code\n\ndata2 = nested_dict()\n\n# store phrases etc\n\
-    data2[\"params\"][\"vars\"][\"title\"] = 'Perfectly Inelastic Collision of Raindrops'\n\
-    data2[\"params\"][\"vars\"][\"units\"] = \"m/s\"\n\n# Randomize Variables\nm1\
-    \ = pbh.roundp(rd.uniform(0.10, 1.00), decimals = 2)\nm2 = pbh.roundp(rd.uniform(0.10,\
-    \ 1.00), decimals = 2)\n\nv1_i = pbh.roundp(rd.uniform(-20.0, 20.0), sigfigs =\
-    \ 3)     # separate the terms to do the math \nv1_j = pbh.roundp(rd.uniform(-20,\
-    \ 20.0), sigfigs = 3)\n\nv2_i = pbh.roundp(rd.uniform(-20.0, 20.0), sigfigs =\
-    \ 3)\nv2_j = pbh.roundp(rd.uniform(-20.0, 20.0), sigfigs = 3)\n\n# store the variables\
-    \ in the dictionary \"params\"\ndata2[\"params\"][\"m1\"] = m1\ndata2[\"params\"\
-    ][\"m2\"] = m2\ndata2[\"params\"][\"v1_i\"] = v1_i\ndata2[\"params\"][\"v2_i\"\
-    ] = v2_i\ndata2[\"params\"][\"v1_j_abs\"] = np.abs(v1_j)\ndata2[\"params\"][\"\
-    v2_j_abs\"] = np.abs(v2_j)\ndata2[\"params\"][\"v1_j_sign\"] = pbh.sign_str(v1_j)\n\
-    data2[\"params\"][\"v2_j_sign\"] = pbh.sign_str(v2_j)\n\n# define possible answers\n\
-    \n## ans1\nvf_i = pbh.roundp((m1*v1_i + m2*v2_i)/m1, sigfigs = 2)\nvf_j = pbh.roundp((m1*v1_j\
-    \ + m2*v2_j)/m1, sigfigs = 2)\n\ndata2[\"params\"][\"part1\"][\"ans1\"][\"value\"\
-    ] = str(vf_i) + \"$\\hat{\\imath}$\" + pbh.sign_str(vf_j) + str(np.abs(vf_j))\
-    \ + \"$\\hat{\\jmath}$\"\ndata2[\"params\"][\"part1\"][\"ans1\"][\"correct\"]\
-    \ = False\n\n## ans2\n\nvf_i = pbh.roundp((m1*v1_i + m2*v2_i)/(m1+m2), sigfigs\
-    \ = 2)\nvf_j = pbh.roundp((m1*v1_j + m2*v2_j)/(m1+m2), sigfigs = 2)\n\ndata2[\"\
-    params\"][\"part1\"][\"ans2\"][\"value\"] = str(vf_i) + \"$\\hat{\\imath}$\" +\
-    \ pbh.sign_str(vf_j) + str(np.abs(vf_j)) + \"$\\hat{\\jmath}$\"\ndata2[\"params\"\
-    ][\"part1\"][\"ans2\"][\"correct\"] = True\n\n## ans3\n\nvf_i = pbh.roundp((m1*v1_i\
-    \ + m2*v2_i)/m2, sigfigs = 2)\nvf_j = pbh.roundp((m1*v1_j + m2*v2_j)/m2, sigfigs\
-    \ = 2)\n\ndata2[\"params\"][\"part1\"][\"ans3\"][\"value\"] = str(vf_i) + \"$\\\
-    hat{\\imath}$\" + pbh.sign_str(vf_j) + str(np.abs(vf_j)) + \"$\\hat{\\jmath}$\"\
-    \ndata2[\"params\"][\"part1\"][\"ans3\"][\"correct\"] = False\n\n## ans4\n\nvf_i\
-    \ = pbh.roundp((m1*v1_i + m2*v2_i)/2*(m1+m2), sigfigs = 2)\nvf_j = pbh.roundp((m1*v1_j\
-    \ + m2*v2_j)/2*(m1+m2), sigfigs = 2)\n\ndata2[\"params\"][\"part1\"][\"ans4\"\
-    ][\"value\"] = str(vf_i) + \"$\\hat{\\imath}$\" + pbh.sign_str(vf_j) + str(np.abs(vf_j))\
-    \ + \"$\\hat{\\jmath}$\"\ndata2[\"params\"][\"part1\"][\"ans4\"][\"correct\"]\
-    \ = False\n\n## ans5\n\nvf_i = pbh.roundp((m1*v1_i - m2*v2_i)/0.5*(m1+m2), sigfigs\
-    \ = 2)\nvf_j = pbh.roundp((m1*v1_j - m2*v2_j)/0.5*(m1+m2), sigfigs = 2)\n\ndata2[\"\
-    params\"][\"part1\"][\"ans5\"][\"value\"] = str(vf_i) + \"$\\hat{\\imath}$\" +\
-    \ pbh.sign_str(vf_j) + str(np.abs(vf_j)) + \"$\\hat{\\jmath}$\"\ndata2[\"params\"\
-    ][\"part1\"][\"ans5\"][\"correct\"] = False\n\n## ans6\n\nvf_i = pbh.roundp((m1*v1_i\
-    \ - m2*v2_i)/(m1+m2), sigfigs = 2)\nvf_j = pbh.roundp((m1*v1_j - m2*v2_j)/(m1+m2),\
-    \ sigfigs = 2)\n\ndata2[\"params\"][\"part1\"][\"ans6\"][\"value\"] = str(vf_i)\
-    \ + \"$\\hat{\\imath}$\" + pbh.sign_str(vf_j) + str(np.abs(vf_j)) + \"$\\hat{\\\
-    jmath}$\"\ndata2[\"params\"][\"part1\"][\"ans6\"][\"correct\"] = False\n\n# Update\
-    \ the data object with a new dict\ndata.update(data2)\n"
-  prepare: 'pass
-
-    '
-  parse: 'pass
-
-    '
-  grade: 'pass
-
-    '
 part1:
   type: multiple-choice
   pl-customizations:
@@ -83,10 +26,10 @@ substitutions:
     vars:
       title: Perfectly Inelastic Collision of Raindrops
       units: m/s
-    m1: 0.6
-    m2: 0.46
-    v1_i: 17.7
-    v2_i: 11.5
+    m1: 0.36
+    m2: 0.85
+    v1_i: -17.5
+    v2_i: -2.36
     v1_j_abs: !!python/object/apply:numpy.core.multiarray.scalar
     - &id001 !!python/object/apply:numpy.dtype
       args:
@@ -103,34 +46,40 @@ substitutions:
       - -1
       - 0
     - !!binary |
-      MzMzMzMzL0A=
+      AAAAAACAMEA=
     v2_j_abs: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      rkfhehSuHUA=
+      mpmZmZmZJUA=
     v1_j_sign: ' + '
     v2_j_sign: ' - '
     part1:
       ans1:
-        value: 27.0$\hat{\imath}$ + 9.9$\hat{\jmath}$
-        correct: false
+        value: -23.0$\hat{\imath}$ - 9.0$\hat{\jmath}$
       ans2:
-        value: 15.0$\hat{\imath}$ + 5.6$\hat{\jmath}$
-        correct: true
+        value: -6.9$\hat{\imath}$ - 2.7$\hat{\jmath}$
       ans3:
-        value: 35.0$\hat{\imath}$ + 13.0$\hat{\jmath}$
-        correct: false
+        value: -9.8$\hat{\imath}$ - 3.8$\hat{\jmath}$
       ans4:
-        value: 8.4$\hat{\imath}$ + 3.2$\hat{\jmath}$
-        correct: false
+        value: -5.0$\hat{\imath}$ - 2.0$\hat{\jmath}$
       ans5:
-        value: 11.0$\hat{\imath}$ + 27.0$\hat{\jmath}$
-        correct: false
+        value: -10.0$\hat{\imath}$ + 37.0$\hat{\jmath}$
       ans6:
-        value: 5.0$\hat{\imath}$ + 12.0$\hat{\jmath}$
-        correct: false
+        value: -3.5$\hat{\imath}$ + 12.0$\hat{\jmath}$
 ---
 # {{ params.vars.title }}
+## Part 1
+
+Two raindrops in a cloud collide perfectly inelastically. The first raindrop has a mass of {{ params.m1}} g and is travelling with $\vec{v_1} =$ ({{ params.v1_i}} $\hat{\imath}$ {{params.v1_j_sign}} {{ params.v1_j_abs}} $\hat{\jmath}$) m/s. The second raindrop has a mass of {{ params.m2}} g and is travelling with $\vec{v_2} =$ ({{ params.v2_i}} $\hat{\imath}$ {{params.v2_j_sign}} {{ params.v2_j_abs}} $\hat{\jmath}$) m/s. What is the resulting velocity of the combined raindrop?
+
+### Answer Section
+
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params.part1.ans6.value }} {{ params.vars.units}}
 
 ## Attribution
 

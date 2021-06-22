@@ -18,63 +18,6 @@ taxonomy:
 tags:
 - MP
 assets: null
-server:
-  imports: |
-    import random
-    import pandas as pd
-    import math
-    import problem_bank_helpers as pbh
-    from collections import defaultdict
-    nested_dict = lambda: defaultdict(nested_dict)
-  generate: |
-    # Start problem code
-
-    data2 = nested_dict()
-
-    # define or load names/items/objects
-    jumpers = pd.read_csv("data/jumpers.csv")["Jumpers"].tolist()
-
-    # store phrases etc
-    data2["params"]["vars"]["sport"] = random.choice(jumpers)
-    data2["params"]["vars"]["title"] = 'Ski Jump'
-    data2["params"]["vars"]["units"] = 'm'
-
-    # define bounds of the variables
-    v = random.randint(18,25)
-    d = 3 + random.randint(1,10)*0.2
-    g = 9.81
-
-    # store the variables in the dictionary "params"
-    data2["params"]["v"] = v
-    data2["params"]["d"] = d
-
-    # define possible answers
-    data2["params"]["part1"]["ans1"]["value"] = g
-    data2["params"]["part1"]["ans1"]["correct"] = False
-
-    data2["params"]["part1"]["ans2"]["value"] = pbh.roundp(v*math.sqrt(d/g), decimals=2)
-    data2["params"]["part1"]["ans2"]["correct"] = False
-
-    data2["params"]["part1"]["ans3"]["value"] = pbh.roundp(v*(2*d)/g, decimals=2)
-    data2["params"]["part1"]["ans3"]["correct"] = False
-
-    data2["params"]["part1"]["ans4"]["value"] = pbh.roundp(v*math.sqrt((2*d)/g), decimals=2)
-    data2["params"]["part1"]["ans4"]["correct"] = True
-
-    data2["params"]["part1"]["ans5"]["value"] =  pbh.roundp(v*(3*d)/g, decimals=2)
-    data2["params"]["part1"]["ans5"]["correct"] = False
-
-    # Update the data object with a new dict
-    data.update(data2)
-  prepare: 'pass
-
-    '
-  parse: 'pass
-
-    '
-  grade: 'pass
-
-    '
 part1:
   type: multiple-choice
   pl-customizations:
@@ -82,29 +25,36 @@ part1:
 substitutions:
   params:
     vars:
-      sport: skateboarder
+      sport: motorcyclist
       title: Ski Jump
       units: m
-    v: 22
-    d: 3.2
+    v: 23
+    d: 5.0
     part1:
       ans1:
         value: 9.81
-        correct: false
       ans2:
-        value: 12.57
-        correct: false
+        value: 16.42
       ans3:
-        value: 14.35
-        correct: false
+        value: 23.45
       ans4:
-        value: 17.77
-        correct: true
+        value: 23.22
       ans5:
-        value: 21.53
-        correct: false
+        value: 35.17
 ---
 # {{ params.vars.title }}
+## Part 1
+
+A {{ params.vars.sport }} leaves the end of a horizontal jump at {{ params.v }} m/s and falls {{ params.d }} m before landing.
+Neglecting friction, how far horizontally does the skier travel in the air before landing?
+
+### Answer Section
+
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

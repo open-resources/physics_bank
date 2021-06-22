@@ -21,33 +21,6 @@ tags:
 - unknown
 assets:
 - q10image.png
-server:
-  imports: |
-    import random
-    import pandas as pd
-    import math
-    from collections import defaultdict
-    nested_dict = lambda: defaultdict(nested_dict)
-  generate: "# Start problem code\n\ndata2 = nested_dict()\n\n# store phrases etc\n\
-    data2[\"params\"][\"vars\"][\"title\"] = \"Spring on an Incline\"\ndata2[\"params\"\
-    ][\"vars\"][\"units1\"] = \"m\"\ndata2[\"params\"][\"vars\"][\"units2\"] = \"\
-    J\"\n\n# define bounds of the variables\nm = random.randint(2,5)\nk = random.randint(630,670)\n\
-    theta = random.randint(25,30)\nmu = 0.250\nd = random.randint(5,9)\ng = 9.8\n\n\
-    # store the variables in the dictionary \"params\"\ndata2[\"params\"][\"m\"] =\
-    \ m\ndata2[\"params\"][\"k\"] = k\ndata2[\"params\"][\"theta\"] = theta\ndata2[\"\
-    params\"][\"mu\"] = mu\ndata2[\"params\"][\"d\"] = d\ndata2[\"params\"][\"g\"\
-    ] = g\n\n## Part 1\n\n# define correct answers\ndata2[\"correct_answers\"][\"\
-    part1_ans\"] = math.sqrt((2*m*g*d/k)*(mu+math.tan(math.radians(theta)))) \n\n\
-    ## Part 2\n\n# define correct answers\ndata2[\"correct_answers\"][\"part2_ans\"\
-    ]= 0.5*k*(math.sqrt((2*m*g*d/k)*(mu+math.tan(math.radians(theta)))))**2\n\n# Update\
-    \ the data object with a new dict\ndata.update(data2)\n"
-  prepare: 'pass
-
-    '
-  parse: 'pass
-
-    '
-  grade: "pass  \n"
 part1:
   type: number-input
   pl-customizations:
@@ -73,16 +46,27 @@ substitutions:
       units1: m
       units2: J
     m: 5
-    k: 638
+    k: 635
     theta: 28
     mu: 0.25
-    d: 6
+    d: 8
     g: 9.8
-  correct_answers:
-    part1_ans: 0.8487914567296034
-    part2_ans: 229.82257290847474
 ---
 # {{ params.vars.title }}
+## Part 1
+
+(a) What is the initial compression of the spring?
+
+### Answer Section
+
+Please enter in a numeric value in {{ params.vars.units1 }}.
+## Part 2
+
+(b) What is the maximum kinetic energy of the block?
+
+### Answer Section
+
+Please enter in a numeric value in {{ params.vars.units2 }}.
 A small {{params.m}} kg block is accelerated from rest on a flat surface by a compressed spring (k = {{params.k}} N/m) along a frictionless, horizontal surface.
 The block leaves the spring at the spring's equilibrium position (x = 0) and travels on an incline ($\theta$ = {{params.theta}}$^{\circ}$) with a coefficient of kinetic friction $\mu_k$ = {{params.mu}}.
 The block moves a horizontal distance $D$ = {{params.d}} m before coming to a stop.

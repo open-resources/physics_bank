@@ -20,37 +20,6 @@ taxonomy:
 tags:
 - PW
 assets: null
-server:
-  imports: |
-    import random
-    import pandas as pd
-    import math
-    import problem_bank_helpers as pbh
-    from collections import defaultdict
-    nested_dict = lambda: defaultdict(nested_dict)
-  generate: "# Start problem code\n\ndata2 = nested_dict()\n\n# define or load names/items/objects\n\
-    vehicles = pd.read_csv(\"data/vehicles.csv\")[\"Vehicles\"].tolist()\n\n# store\
-    \ phrases etc\ndata2[\"params\"][\"vars\"][\"vehicle\"] = random.choice(vehicles)\n\
-    data2[\"params\"][\"vars\"][\"title\"] = \"A Crate's Maximum Acceleration without\
-    \ Slipping\"\ndata2[\"params\"][\"vars\"][\"units\"] = \"$m/s^2$\"\n\n# define\
-    \ bounds of the variables\nmu_k = pbh.roundp(random.uniform(0.2, 0.5), decimals\
-    \ = 2)\nmu_s = pbh.roundp(random.uniform(mu_k + 0.1, 1.0), decimals = 2) \ntheta\
-    \ = random.randint(10, 30)\n\n# store the variables in the dictionary \"params\"\
-    \ndata2[\"params\"][\"mu_s\"] = mu_s\ndata2[\"params\"][\"mu_k\"] = mu_k\ndata2[\"\
-    params\"][\"theta\"] = theta\n\n# define g\ng = 9.81\n\n# calculate a_max\ntheta_r\
-    \ = math.radians(theta)                           # convert to radians\na_max\
-    \ = g*(mu_s*math.cos(theta_r) - math.sin(theta_r))\n\n# define correct answers\n\
-    data2[\"correct_answers\"][\"part1_ans\"] = a_max\n\n# Update the data object\
-    \ with a new dict\ndata.update(data2)\n"
-  prepare: 'pass
-
-    '
-  parse: 'pass
-
-    '
-  grade: 'pass
-
-    '
 part1:
   type: number-input
   pl-customizations:
@@ -63,16 +32,21 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: car
+      vehicle: pickup truck
       title: A Crate's Maximum Acceleration without Slipping
       units: $m/s^2$
-    mu_s: 0.61
-    mu_k: 0.35
-    theta: 18
-  correct_answers:
-    part1_ans: 2.6597605843435943
+    mu_s: 0.44
+    mu_k: 0.29
+    theta: 17
 ---
 # {{ params.vars.title }}
+## Question Text
+
+What is the maximum acceleration the {{ params.vars.vehicle }} can have without the crate slipping out the back?
+
+### Answer Section
+
+Please enter in a numeric value in {{ params.vars.units }}.
 A wood crate sits in the back of a {{ params.vars.vehicle }}.
 The coefficients of friction between the crate and the {{ params.vars.vehicle }} are $\mu_s = $ {{ params.mu_s }} and $\mu_k = $ {{ params.mu_k }}.
 The {{ params.vars.vehicle }} starts moving up a {{ params.theta }}$^{\circ}$ slope.
