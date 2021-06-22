@@ -26,10 +26,10 @@ substitutions:
     vars:
       title: Perfectly Inelastic Collision of Raindrops
       units: m/s
-    m1: 0.36
-    m2: 0.85
-    v1_i: -17.5
-    v2_i: -2.36
+    m1: 0.65
+    m2: 0.54
+    v1_i: -9.35
+    v2_i: -6.73
     v1_j_abs: !!python/object/apply:numpy.core.multiarray.scalar
     - &id001 !!python/object/apply:numpy.dtype
       args:
@@ -46,26 +46,26 @@ substitutions:
       - -1
       - 0
     - !!binary |
-      AAAAAACAMEA=
+      NV66SQwC4z8=
     v2_j_abs: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      mpmZmZmZJUA=
+      j8L1KFwPI0A=
     v1_j_sign: ' + '
     v2_j_sign: ' - '
     part1:
       ans1:
-        value: -23.0$\hat{\imath}$ - 9.0$\hat{\jmath}$
+        value: -15.0$\hat{\imath}$ - 7.3$\hat{\jmath}$
       ans2:
-        value: -6.9$\hat{\imath}$ - 2.7$\hat{\jmath}$
+        value: -8.2$\hat{\imath}$ - 4.0$\hat{\jmath}$
       ans3:
-        value: -9.8$\hat{\imath}$ - 3.8$\hat{\jmath}$
+        value: -18.0$\hat{\imath}$ - 8.8$\hat{\jmath}$
       ans4:
-        value: -5.0$\hat{\imath}$ - 2.0$\hat{\jmath}$
+        value: -5.8$\hat{\imath}$ - 2.8$\hat{\jmath}$
       ans5:
-        value: -10.0$\hat{\imath}$ + 37.0$\hat{\jmath}$
+        value: -5.8$\hat{\imath}$ + 13.0$\hat{\jmath}$
       ans6:
-        value: -3.5$\hat{\imath}$ + 12.0$\hat{\jmath}$
+        value: -2.1$\hat{\imath}$ + 4.6$\hat{\jmath}$
 ---
 # {{ params.vars.title }}
 ## Part 1
