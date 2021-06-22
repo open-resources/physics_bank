@@ -25,22 +25,22 @@ part1:
 substitutions:
   params:
     vars:
-      sport: motorcyclist
+      sport: mountain biker
       title: Ski Jump
       units: m
-    v: 19
-    d: 5.0
+    v: 25
+    d: 4.6
     part1:
       ans1:
         value: 9.81
       ans2:
-        value: 13.56
+        value: 17.12
       ans3:
-        value: 19.37
+        value: 23.45
       ans4:
-        value: 19.18
+        value: 24.21
       ans5:
-        value: 29.05
+        value: 35.17
 ---
 # {{ params.vars.title }}
 ## Part 1

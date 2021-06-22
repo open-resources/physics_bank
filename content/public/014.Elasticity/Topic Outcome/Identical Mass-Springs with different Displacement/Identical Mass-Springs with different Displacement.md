@@ -31,9 +31,9 @@ substitutions:
       ans1:
         value: It is a tie.
       ans2:
-        value: Spring B
-      ans3:
         value: Not enough information is given.
+      ans3:
+        value: Spring B
       ans4:
         value: Spring A
 ---
