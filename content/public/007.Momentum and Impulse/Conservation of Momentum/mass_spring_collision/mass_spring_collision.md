@@ -60,7 +60,7 @@ Note that it may not be necessary to use every variable. Use the following table
 
 ### Answer Section
 
-{{ substitutions.part1.label }}
+Enter answer here...
 ## Part 2
 
 What is the period of the resulting simple harmonic motion?
@@ -78,7 +78,7 @@ Note that it may not be necessary to use every variable. Use the following table
 
 ### Answer Section
 
-{{ substitutions.part2.label }}
+Enter answer here...
 ## Part 3
 
 What is the position of $m_2$ as a function of time?
@@ -97,7 +97,7 @@ Use the following table as a reference for each variable:
 
 ### Answer Section
 
-{{ substitutions.part3.label }}
+Enter answer here...
 A block of mass $m_1$ slides across a frictionless surface with speed $v_1$ and collides perfectly elastically with a block $m_2$ (initially at rest).
 Block $m_2$ is attached to a spring with spring constant $k$ and equilibrium length $x_0$.
 Assume $m_2 > m_1$.

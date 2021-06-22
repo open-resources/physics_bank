@@ -29,13 +29,13 @@ substitutions:
     d2: $2d$
     part1:
       ans1:
-        value: It is a tie.
-      ans2:
         value: Spring A
+      ans2:
+        value: It is a tie.
       ans3:
-        value: Not enough information is given.
-      ans4:
         value: Spring B
+      ans4:
+        value: Not enough information is given.
 ---
 # {{ params.vars.title }}
 ## Part 1

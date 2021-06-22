@@ -52,8 +52,8 @@ substitutions:
       title: Rocket
       units1: m/s^2
       units2: s
-    v_1: 5
-    t_1: 2
+    v_1: 3
+    t_1: 3
     t_2: 4
 ---
 # {{ params.vars.title }}
@@ -85,7 +85,7 @@ Please enter in a numeric value in {{ params.vars.units1 }}.
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units2 }}.
-A rocket has a velocity (pointing away from the launch pad) given by $v(t)$={{ params.i }}$t$-$t^2$
+A rocket has a velocity (pointing away from the launch pad) given by $v(t)$={{ params.v_1 }}$t$-$t^2$
 where $x$ is in meters, and $t$ is in seconds.
 
 ## Attribution

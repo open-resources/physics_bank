@@ -28,7 +28,7 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: ice skates
+      vehicle: rollerblades
       title: Frictional Force between Tires and the Road
 ---
 # {{ params.vars.title }}
@@ -49,7 +49,7 @@ Use the following table as a reference for each variable:
 
 ### Answer Section
 
-{{ substitutions.part1.label }} =
+Enter answer here...
 A {{ params.vars.vehicle }} of mass $m$ is driving around a horizontal circular track of radius $R$ at constant speed $v$.
 The frictional force between the tires of the {{ params.vars.vehicle }} and the road is at its maximum value.
 

@@ -29,13 +29,13 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Pressure
+        value: Area
       ans2:
-        value: Energy
+        value: Volume
       ans3:
-        value: Distance travelled
+        value: Mass
       ans4:
-        value: Work
+        value: Temperature
       ans5:
         value: Displacement
       ans6:
