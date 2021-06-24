@@ -32,12 +32,12 @@ substitutions:
         value: Dissipative processes are one where the total mechanical energy is
           not conserved.
       ans2:
-        value: Incoherent deformations are dissipative
+        value: Coherent deformations are dissipative.
       ans3:
         value: If the total kinetic energy is not constant all the way through the
           interaction, the process is dissipative.
       ans4:
-        value: Coherent deformations are dissipative.
+        value: Incoherent deformations are dissipative
       ans5:
         value: Irreversible processes are dissipative.
 ---
