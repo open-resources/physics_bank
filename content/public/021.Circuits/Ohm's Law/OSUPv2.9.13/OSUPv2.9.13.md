@@ -1,14 +1,12 @@
 ---
-title: Direction of Movement of the Elevator
-topic: Force
-author: Jake Bobowski
-source: 2015 Final Q6
+title: Ohmic Devices
+topic: Ohm's Law
+author: Vanshika Sharma
+source: 2.9.13
 template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 6.1.1.4
-- 6.3.1.2
-- 6.8.1.0
+- 21.4.1.1
 difficulty:
 - undefined
 randomization:
@@ -16,37 +14,44 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- PW
-assets: null
+- VS
+- OSUP
+assets:
+- p13graph.png
 part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    fixed-order: true
 substitutions:
   params:
     vars:
-      title: Direction of Movement of the Elevator
-    m_st: 654
-    m_sc: 655
+      title: Ohm's Law
     part1:
       ans1:
-        value: Downward.
+        value: A
       ans2:
-        value: You cannot tell if it is moving upward or downward.
+        value: B
       ans3:
-        value: Upward.
+        value: C
+      ans4:
+        value: D
 ---
 # {{ params.vars.title }}
-A {{ params.m_st }} $N$ student standing on a scale in an elevator notices that the scale reads {{ params.m_sc }} $N$.
 ## Part 1
 
-From this information, the student knows that the elevator must be moving:
+Shown below are the results of an experiment where four devices were connected across a variable voltage source.
+The voltage was increased and the current was measured.
+Which device, if any, is an ohmic device?
+
+<img src="p13graph.png">
 
 ### Answer Section
 
 - {{ params.part1.ans1.value }}
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

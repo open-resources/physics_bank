@@ -42,10 +42,10 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-    i: 322
-    m: 38
-    v_1: 16
-    v_2: 16
+    i: 388
+    m: 29
+    v_1: 8
+    v_2: 19
 ---
 # {{ params.vars.title }}
 I am an astronaut caveman, floating in space.

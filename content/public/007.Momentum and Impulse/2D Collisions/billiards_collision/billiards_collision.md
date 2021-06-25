@@ -1,13 +1,13 @@
 ---
-title: Momentum and Interia
-topic: Momentum
+title: Collision of Billiard Balls
+topic: Momentum and Impulse
 author: Jake Bobowski
-source: 2016 Final Q9
+source: 2017 Final Q7
 template_version: 1.0
 attribution: standard
 outcomes:
-- 7.2.1.0
-- 6.4.1.2
+- 7.4.1.1
+- 7.4.1.2
 difficulty:
 - undefined
 randomization:
@@ -15,7 +15,7 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- AK
+- MP
 assets: null
 part1:
   type: multiple-choice
@@ -24,24 +24,26 @@ part1:
 substitutions:
   params:
     vars:
-      title: Momentum and Inertia
-      vehicle: van
+      title: Collision of Billiard Balls
     part1:
       ans1:
-        value: The bee has more momentum, the bee has more inertia.
+        value: 'red ball: -v, cue ball: 3v'
       ans2:
-        value: The van has more momentum, the bee has more inertia.
+        value: 'red ball: v; cue ball: 2v'
       ans3:
-        value: The van has more momentum, the van has more inertia.
+        value: 'red ball: -3v; cue ball: v'
       ans4:
-        value: The bee has more momentum, the van has more inertia.
+        value: 'red ball: v; cue ball: 3v'
       ans5:
-        value: "It can\u2019t be determined from this information."
+        value: More information is needed.
 ---
 # {{ params.vars.title }}
+In a game of billards, a red billiard ball is traveling in the positive x-direction with speed v and the cue ball is traveling in the negative x-direction with speed 3v.
+The two balls collide head on and the collision is elastic.
+The two balls have the same mass.
 ## Part 1
 
-Which has greater momentum: a flying bumblebee or a stationary {{ params.vars.vehicle }}? Which has greater inertia?
+Which statement concerning the velocities of the balls after the collision is true?
 
 ### Answer Section
 
