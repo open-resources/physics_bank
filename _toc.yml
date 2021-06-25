@@ -54,6 +54,7 @@ parts:
   chapters:
   - file: content/public/006.Momentum and Impulse/Conservation of Momentum/Raindrops_Collision/raindrops_collision
   - file: content/public/006.Momentum and Impulse/Conservation of Momentum/System_Open_or_Closed/System_Open_or_Closed
+  - file: content/public/006.Momentum and Impulse/Momentum/Momentum_and_Inertia/Momentum_and_Inertia
 - caption: Energy
   chapters:
   - file: content/public/007.Energy/spring_oscillations/spring_oscillations
@@ -100,3 +101,4 @@ parts:
 - caption: Circuits
   chapters:
   - file: content/public/021.Circuits/RC Circuits/OSUPv2p10_16/OSUPv2p10_16
+  - file: content/public/021.Circuits/Current/OSUPv2.9.2/OSUPv2.9.2
