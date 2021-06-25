@@ -29,19 +29,19 @@ substitutions:
       units_m: kg
       units_h: m
       units: kgm/s
-    m: 0.387
-    h: 0.93
+    m: 0.449
+    h: 1.0
     part1:
       ans1:
-        value: 1.2
+        value: 1.4
       ans2:
-        value: 1.7
+        value: 2.0
       ans3:
-        value: 2.3
+        value: 2.8
       ans4:
-        value: 3.3
+        value: 4.0
       ans5:
-        value: 3.5
+        value: 4.4
 ---
 # {{ params.vars.title }}
 A ball of mass {{ params.m }} {{ params.vars.units_m}} is dropped vertically from a height of {{ params.h }} {{ params.vars.units_h}} and bounces back to the original height.
