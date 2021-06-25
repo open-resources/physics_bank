@@ -39,12 +39,17 @@ parts:
   chapters:
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/centripetal_force/centripetal_force
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/angular_speed/angular_speed
+  - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Acceleration
+      around a turn/Acceleration around a turn
 - caption: Force
   chapters:
   - file: content/public/006.Force/Topic Outcome/The max acceleration without slipping/The
       max acceleration without slipping
+  - file: content/public/006.Force/Topic Outcome/Elevator Movement Direction/Elevator
+      Movement Direction
   - file: content/public/006.Force/Topic Outcome/velocity_netforce/velocity_netforce
   - file: content/public/006.Force/Topic Outcome/spring_on_incline/spring_on_incline
+  - file: content/public/006.Force/Topic Outcome/Rotating ball/Rotating ball
   - file: content/public/006.Force/Equilibrium/Two blocks connected by a string/Two
       Blocks Connected by a String
   - file: content/public/006.Force/Friction/Frictional Force between tires and road/Frictional
