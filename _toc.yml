@@ -92,6 +92,8 @@ parts:
   chapters:
   - file: content/public/019.Magnetism/Magnetic Force/OSUPv2p12_55/OSUPv2p12_55
   - file: content/public/019.Magnetism/Magnetic Field/OSUPv2p12_18/OSUPv2p12_18
+  - file: content/public/019.Magnetism/Magnetic Field/Semi-circular Current Loop/Semi-circular
+      Current Loop
 - caption: Circuits
   chapters:
   - file: content/public/021.Circuits/RC Circuits/OSUPv2p10_16/OSUPv2p10_16
