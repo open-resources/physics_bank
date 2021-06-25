@@ -54,6 +54,9 @@ parts:
   chapters:
   - file: content/public/006.Momentum and Impulse/Conservation of Momentum/Raindrops_Collision/raindrops_collision
   - file: content/public/006.Momentum and Impulse/Conservation of Momentum/System_Open_or_Closed/System_Open_or_Closed
+- caption: Energy
+  chapters:
+  - file: content/public/007.Energy/spring_oscillations/spring_oscillations
 - caption: Momentum and Impulse
   chapters:
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Isolated_systems/Isolated_systems
