@@ -52,8 +52,8 @@ substitutions:
       title: Rocket
       units1: m/s^2
       units2: s
-    v_1: 3
-    t_1: 2
+    v_1: 4
+    t_1: 3
     t_2: 6
 ---
 # {{ params.vars.title }}
