@@ -65,6 +65,8 @@ parts:
   - file: content/public/007.Energy/spring_oscillations/spring_oscillations
 - caption: Momentum and Impulse
   chapters:
+  - file: content/public/007.Momentum and Impulse/2D Collisions/light_heavy_collision/light_heavy_collision
+  - file: content/public/007.Momentum and Impulse/2D Collisions/billiards_collision/billiards_collision
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Isolated_systems/Isolated_systems
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Explosions_and_Velocity/Explosions_and_Velocity
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/mass_spring_collision/mass_spring_collision
@@ -97,13 +99,8 @@ parts:
   chapters:
   - file: content/public/014.Elasticity/Topic Outcome/Identical Mass-Springs with
       different Displacement/Identical Mass-Springs with different Displacement
-- caption: Magnetism
-  chapters:
-  - file: content/public/019.Magnetism/Magnetic Force/OSUPv2p12_55/OSUPv2p12_55
-  - file: content/public/019.Magnetism/Magnetic Field/OSUPv2p12_18/OSUPv2p12_18
-  - file: content/public/019.Magnetism/Magnetic Field/Semi-circular Current Loop/Semi-circular
-      Current Loop
 - caption: Circuits
   chapters:
   - file: content/public/021.Circuits/RC Circuits/OSUPv2p10_16/OSUPv2p10_16
   - file: content/public/021.Circuits/Current/OSUPv2.9.2/OSUPv2.9.2
+  - file: content/public/021.Circuits/Ohm's Law/OSUPv2.9.13/OSUPv2.9.13
