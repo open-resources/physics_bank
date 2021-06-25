@@ -33,48 +33,48 @@ parts:
   - file: content/public/004.Kinematics(2D and 3D)/Projectile Motion/ski_jump/ski_jump
 - caption: Force
   chapters:
-  - file: content/public/005.Force/Springs/Bungee_jumping/bungee_jumping
   - file: content/public/005.Force/Dynamics of Circular Motion/object_on_string/object_on_string
+  - file: content/public/005.Force/Springs/Bungee_jumping/bungee_jumping
 - caption: Kinematics(2D and 3D)
   chapters:
-  - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/angular_speed/angular_speed
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/centripetal_force/centripetal_force
+  - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/angular_speed/angular_speed
 - caption: Force
   chapters:
-  - file: content/public/006.Force/Equilibrium/Two blocks connected by a string/Two
-      Blocks Connected by a String
-  - file: content/public/006.Force/Newton's Third Law/Force Vectors/force_vectors
-  - file: content/public/006.Force/Friction/Frictional Force between tires and road/Frictional
-      Force between tires and road
   - file: content/public/006.Force/Topic Outcome/The max acceleration without slipping/The
       max acceleration without slipping
-  - file: content/public/006.Force/Topic Outcome/spring_on_incline/spring_on_incline
   - file: content/public/006.Force/Topic Outcome/velocity_netforce/velocity_netforce
+  - file: content/public/006.Force/Topic Outcome/spring_on_incline/spring_on_incline
+  - file: content/public/006.Force/Equilibrium/Two blocks connected by a string/Two
+      Blocks Connected by a String
+  - file: content/public/006.Force/Friction/Frictional Force between tires and road/Frictional
+      Force between tires and road
+  - file: content/public/006.Force/Newton's Third Law/Force Vectors/force_vectors
 - caption: Momentum and Impulse
   chapters:
-  - file: content/public/006.Momentum and Impulse/Conservation of Momentum/System_Open_or_Closed/System_Open_or_Closed
   - file: content/public/006.Momentum and Impulse/Conservation of Momentum/Raindrops_Collision/raindrops_collision
+  - file: content/public/006.Momentum and Impulse/Conservation of Momentum/System_Open_or_Closed/System_Open_or_Closed
 - caption: Momentum and Impulse
   chapters:
-  - file: content/public/007.Momentum and Impulse/Impulse/airbag_collision/airbag_collision
-  - file: content/public/007.Momentum and Impulse/Impulse/Bouncing_Ball/Bouncing_Ball
-  - file: content/public/007.Momentum and Impulse/Momentum/Rock_Powered_Rocket/Rock_Powered_Rocket
-  - file: content/public/007.Momentum and Impulse/Momentum/Dinner_Plate/dinner_plate
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Isolated_systems/Isolated_systems
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Explosions_and_Velocity/Explosions_and_Velocity
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/mass_spring_collision/mass_spring_collision
+  - file: content/public/007.Momentum and Impulse/Impulse/airbag_collision/airbag_collision
+  - file: content/public/007.Momentum and Impulse/Impulse/Bouncing_Ball/Bouncing_Ball
+  - file: content/public/007.Momentum and Impulse/Momentum/Dinner_Plate/dinner_plate
+  - file: content/public/007.Momentum and Impulse/Momentum/Rock_Powered_Rocket/Rock_Powered_Rocket
 - caption: Energy
   chapters:
   - file: content/public/008.Energy/Exploding_Asteroid/Exploding_Asteroid
-  - file: content/public/008.Energy/Conservation of Energy/dissipative_process/dissipative_process
-  - file: content/public/008.Energy/Conservation of Energy/Energy lost to air friction/energy_lost_air_friction
-  - file: content/public/008.Energy/Conservation of Energy/Cut The Rope/Cut The Rope
-  - file: content/public/008.Energy/Conservation of Energy/ball_race/2012Final_q3
-  - file: content/public/008.Energy/Conservation of Energy/Physics of Roller Coasters/Physics
-      of Roller Coasters
   - file: content/public/008.Energy/Kinetic Energy/KE_energy_momentum/KE_energy_momentum
   - file: content/public/008.Energy/Kinetic Energy/KE_testmass/KE_testmass
   - file: content/public/008.Energy/Topic Outcome/frictionless_track/frictionless_track
+  - file: content/public/008.Energy/Conservation of Energy/Cut The Rope/Cut The Rope
+  - file: content/public/008.Energy/Conservation of Energy/Energy lost to air friction/energy_lost_air_friction
+  - file: content/public/008.Energy/Conservation of Energy/ball_race/2012Final_q3
+  - file: content/public/008.Energy/Conservation of Energy/Physics of Roller Coasters/Physics
+      of Roller Coasters
+  - file: content/public/008.Energy/Conservation of Energy/dissipative_process/dissipative_process
 - caption: Work
   chapters:
   - file: content/public/008.Work/Work-Energy Theorem/work_frictionless_surface/work_frictionless_surface
@@ -88,6 +88,10 @@ parts:
   chapters:
   - file: content/public/014.Elasticity/Topic Outcome/Identical Mass-Springs with
       different Displacement/Identical Mass-Springs with different Displacement
+- caption: Magnetism
+  chapters:
+  - file: content/public/019.Magnetism/Magnetic Force/OSUPv2p12_55/OSUPv2p12_55
+  - file: content/public/019.Magnetism/Magnetic Field/OSUPv2p12_18/OSUPv2p12_18
 - caption: Circuits
   chapters:
   - file: content/public/021.Circuits/RC Circuits/OSUPv2p10_16/OSUPv2p10_16
