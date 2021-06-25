@@ -1,12 +1,13 @@
 ---
-title: Two Balls Launched on Different Tracks
-topic: Energy
+title: Momentum and Interia
+topic: Momentum
 author: Jake Bobowski
-source: 2012 Final Q3
+source: 2016 Final Q9
 template_version: 1.0
 attribution: standard
 outcomes:
-- 7.5.1.2
+- 7.2.1.0
+- 6.4.1.2
 difficulty:
 - undefined
 randomization:
@@ -14,9 +15,8 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- PW
-assets:
-- q3_2012Final.png
+- AK
+assets: null
 part1:
   type: multiple-choice
   pl-customizations:
@@ -24,24 +24,24 @@ part1:
 substitutions:
   params:
     vars:
-      title: Two Balls Launched on Different Tracks
+      title: Momentum and Inertia
+      vehicle: pickup truck
     part1:
       ans1:
-        value: A
+        value: The bee has more momentum, the bee has more inertia.
       ans2:
-        value: B
+        value: The pickup truck has more momentum, the bee has more inertia.
       ans3:
-        value: They reach the end of the track at the same time.
+        value: The pickup truck has more momentum, the pickup truck has more inertia.
       ans4:
-        value: More information is needed.
+        value: The bee has more momentum, the pickup truck has more inertia.
+      ans5:
+        value: "It can\u2019t be determined from this information."
 ---
 # {{ params.vars.title }}
-Balls A and B are launched with the same initial velocity along a pair of tracks as shown in the figure.
-
-![Ball A is launched along a horizontal track while Ball B is launched along a u-shaped track.](q3_2012Final.png)
 ## Part 1
 
-Which ball reaches the end of the track first, if friction is neglected?
+Which has greater momentum: a flying bumblebee or a stationary {{ params.vars.vehicle }}? Which has greater inertia?
 
 ### Answer Section
 
@@ -49,6 +49,7 @@ Which ball reaches the end of the track first, if friction is neglected?
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 
