@@ -51,8 +51,8 @@ substitutions:
       title: Simple harmonic spring
       units1: N/m
       units3: m
-    m: 316
-    T: 1.6
+    m: 315
+    T: 1.3
     E: 5.1
 ---
 # {{ params.vars.title }}
