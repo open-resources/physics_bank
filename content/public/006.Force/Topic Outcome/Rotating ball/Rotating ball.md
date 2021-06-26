@@ -4,7 +4,7 @@ topic: Force
 author: Jake Bobowski
 source: 2015 Final Q7
 template_version: 1.0
-attribution: openstax-physics-vol2
+attribution: standard
 outcomes:
 - 6.1.1.5
 - 6.1.1.7
@@ -56,4 +56,4 @@ Which string breaks first?
 
 ## Attribution
 
-Problem is from the [OpenStax University Physics Volume 2](https://openstax.org/details/books/university-physics-volume-2) textbook, licensed under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).<br>![Image representing the Creative Commons 4.0 BY license.](https://raw.githubusercontent.com/firasm/bits/master/by.png)
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br> ![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

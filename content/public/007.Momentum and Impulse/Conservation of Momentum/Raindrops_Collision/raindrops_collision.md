@@ -4,7 +4,7 @@ topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2012 Final Q2
 template_version: 1.0
-attribution: openstax-physics-vol2
+attribution: standard
 outcomes:
 - 7.5.1.3
 - 7.5.1.4
@@ -26,27 +26,27 @@ substitutions:
     vars:
       title: Perfectly Inelastic Collision of Raindrops
       units: m/s
-    m1: 0.53
-    m2: 0.85
-    v1_i: 18.5
-    v2_i: 6.51
-    v1_j_abs: 12.4
-    v2_j_abs: 13.8
+    m1: 0.62
+    m2: 0.2
+    v1_i: -11.9
+    v2_i: -1.51
+    v1_j_abs: 10.6
+    v2_j_abs: 18.8
     v1_j_sign: ' + '
     v2_j_sign: ' - '
     part1:
       ans1:
-        value: 29.0$\hat{\imath}$ - 9.7$\hat{\jmath}$
+        value: -12.0$\hat{\imath}$ + 4.5$\hat{\jmath}$
       ans2:
-        value: 11.0$\hat{\imath}$ - 3.7$\hat{\jmath}$
+        value: -9.4$\hat{\imath}$ + 3.4$\hat{\jmath}$
       ans3:
-        value: 18.0$\hat{\imath}$ - 6.1$\hat{\jmath}$
+        value: -38.0$\hat{\imath}$ + 14.0$\hat{\jmath}$
       ans4:
-        value: 11.0$\hat{\imath}$ - 3.6$\hat{\jmath}$
+        value: -3.1$\hat{\imath}$ + 1.2$\hat{\jmath}$
       ans5:
-        value: 12.0$\hat{\imath}$ + 51.0$\hat{\jmath}$
+        value: -12.0$\hat{\imath}$ + 17.0$\hat{\jmath}$
       ans6:
-        value: 3.1$\hat{\imath}$ + 13.0$\hat{\jmath}$
+        value: -8.6$\hat{\imath}$ + 13.0$\hat{\jmath}$
 ---
 # {{ params.vars.title }}
 ## Part 1
@@ -64,4 +64,4 @@ Two raindrops in a cloud collide perfectly inelastically. The first raindrop has
 
 ## Attribution
 
-Problem is from the [OpenStax University Physics Volume 2](https://openstax.org/details/books/university-physics-volume-2) textbook, licensed under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).<br>![Image representing the Creative Commons 4.0 BY license.](https://raw.githubusercontent.com/firasm/bits/master/by.png)
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br> ![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
