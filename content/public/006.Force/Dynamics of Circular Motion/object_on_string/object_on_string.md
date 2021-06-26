@@ -1,14 +1,15 @@
 ---
-title: Ski Jump
-topic: Kinematics (2D and 3D)
+title: Object Swung in Circular Path
+topic: Force
 author: Jake Bobowski
-source: 2017 Final Q3
+source: 2017 Final Q8
 template_version: 1.0
 attribution: standard
 outcomes:
-- 5.5.1.0
-- 5.5.1.1
-- 5.2.1.1
+- 6.12.2.0
+- 6.2.1.2
+- 6.12.1.1
+- 6.12.2.0
 difficulty:
 - undefined
 randomization:
@@ -25,28 +26,27 @@ part1:
 substitutions:
   params:
     vars:
-      sport: skier
-      title: Ski Jump
-      units: m
-    v: 23
-    d: 3.6
+      title: Object Swung in Circular Path
+      units: N
+    m: 0.8
+    r: 1.5
+    w: 2
     part1:
       ans1:
-        value: 9.81
+        value: -3.04
       ans2:
-        value: 13.93
+        value: -6.96
       ans3:
-        value: 16.88
+        value: 4.8
       ans4:
-        value: 19.7
-      ans5:
-        value: 25.32
+        value: 19.6
 ---
 # {{ params.vars.title }}
+A {{params.m}} kg object attached to the end of a string of length {{params.r}} m is swung in a circular path
+and in a vertical plane.
 ## Part 1
 
-A {{ params.vars.sport }} leaves the end of a horizontal jump at {{ params.v }} m/s and falls {{ params.d }} m before landing.
-Neglecting friction, how far horizontally does the skier travel in the air before landing?
+If a constant angular speed of {{params.w}} rad/s is maintained, what is the magnitude of the tension in the string when the object is at the top of the circular path?
 
 ### Answer Section
 
@@ -54,7 +54,6 @@ Neglecting friction, how far horizontally does the skier travel in the air befor
 - {{ params.part1.ans2.value }} {{ params.vars.units}}
 - {{ params.part1.ans3.value }} {{ params.vars.units}}
 - {{ params.part1.ans4.value }} {{ params.vars.units}}
-- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

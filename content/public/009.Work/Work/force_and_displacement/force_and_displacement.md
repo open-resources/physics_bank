@@ -1,15 +1,13 @@
 ---
-title: Object Swung in Circular Path
-topic: Force
+title: Force and Displacement
+topic: Work
 author: Jake Bobowski
-source: 2017 Final Q8
+source: 2017 Final Q10
 template_version: 1.0
 attribution: standard
 outcomes:
-- 6.12.2.0
-- 6.2.1.2
-- 6.12.1.1
-- 6.12.2.0
+- 9.1.1.1
+- 9.2.1.1
 difficulty:
 - undefined
 randomization:
@@ -26,27 +24,29 @@ part1:
 substitutions:
   params:
     vars:
-      title: Object Swung in Circular Path
-      units: N
-    m: 1.7000000000000002
-    r: 7.0
-    w: 4
+      title: Force and Displacement
+      units: J
+    f1: -15
+    f2: 13
+    r1: 11
+    r2: -7
     part1:
       ans1:
-        value: 173.74
+        value: -256
       ans2:
-        value: 73.78
+        value: 256
       ans3:
-        value: 190.4
+        value: -74
       ans4:
-        value: 19.6
+        value: 74
+      ans5:
+        value: Zero
 ---
 # {{ params.vars.title }}
-A {{params.m}} kg object attached to the end of a string of length {{params.r}} m is swung in a circular path
-and in a vertical plane.
+A constant force of $\vec{F}$  = ( {{params.f1}} $\hat{\imath}$ + {{params.f2}} $\hat{\jmath}$ ) N acts on an object during a displacement of $$\Delta$$ $\vec{r}$ = ({{params.r1}} $\hat{\imath}$  {{params.r2}} $\hat{\jmath}$ ) m.
 ## Part 1
 
-If a constant angular speed of {{params.w}} rad/s is maintained, what is the magnitude of the tension in the string when the object is at the top of the circular path?
+What is the object's change in kinetic energy?
 
 ### Answer Section
 
@@ -54,6 +54,7 @@ If a constant angular speed of {{params.w}} rad/s is maintained, what is the mag
 - {{ params.part1.ans2.value }} {{ params.vars.units}}
 - {{ params.part1.ans3.value }} {{ params.vars.units}}
 - {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

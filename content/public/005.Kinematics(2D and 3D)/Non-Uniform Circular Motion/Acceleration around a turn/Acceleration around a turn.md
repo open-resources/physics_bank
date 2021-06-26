@@ -1,6 +1,6 @@
 ---
 title: Acceleration Around a Turn
-topic: Kinematics (2D and 3D)
+topic: Kinematics(2D and 3D)
 author: Jake Bobowski
 source: 2015 Final Q4
 template_version: 1.0

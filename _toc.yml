@@ -19,28 +19,21 @@ parts:
 - caption: Math
   chapters:
   - file: content/public/001.Math/Integrals/Rocket/Rocket
-- caption: Kinematics(1D)
-  chapters:
-  - file: content/public/003.Kinematics(1D)/Motion Diagrams/Running_Dog/Running_Dog
 - caption: Vectors
   chapters:
   - file: content/public/003.Vectors/Topic Outcome/Choose_all_Vectors_Scalars/Choose_all_Vectors_Scalars
 - caption: Kinematics(1D)
   chapters:
+  - file: content/public/004.Kinematics(1D)/Motion Diagrams/Running_Dog/Running_Dog
   - file: content/public/004.Kinematics(1D)/Position/distance_travelled/distance_travelled
-- caption: Kinematics(2D and 3D)
-  chapters:
-  - file: content/public/004.Kinematics(2D and 3D)/Projectile Motion/ski_jump/ski_jump
-- caption: Force
-  chapters:
-  - file: content/public/005.Force/Dynamics of Circular Motion/object_on_string/object_on_string
-  - file: content/public/005.Force/Springs/Bungee_jumping/bungee_jumping
 - caption: Kinematics(2D and 3D)
   chapters:
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/centripetal_force/centripetal_force
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/angular_speed/angular_speed
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Acceleration
       around a turn/Acceleration around a turn
+  - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Turning_Car/Turning_car
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/ski_jump/ski_jump
 - caption: Force
   chapters:
   - file: content/public/006.Force/Topic Outcome/The max acceleration without slipping/The
@@ -52,27 +45,24 @@ parts:
   - file: content/public/006.Force/Topic Outcome/Rotating ball/Rotating ball
   - file: content/public/006.Force/Equilibrium/Two blocks connected by a string/Two
       Blocks Connected by a String
+  - file: content/public/006.Force/Dynamics of Circular Motion/object_on_string/object_on_string
   - file: content/public/006.Force/Friction/Frictional Force between tires and road/Frictional
       Force between tires and road
+  - file: content/public/006.Force/Springs/Bungee_jumping/bungee_jumping
   - file: content/public/006.Force/Newton's Third Law/Force Vectors/force_vectors
-- caption: Momentum and Impulse
-  chapters:
-  - file: content/public/006.Momentum and Impulse/Conservation of Momentum/Raindrops_Collision/raindrops_collision
-  - file: content/public/006.Momentum and Impulse/Conservation of Momentum/System_Open_or_Closed/System_Open_or_Closed
-  - file: content/public/006.Momentum and Impulse/Momentum/Momentum_and_Inertia/Momentum_and_Inertia
-- caption: Energy
-  chapters:
-  - file: content/public/007.Energy/spring_oscillations/spring_oscillations
 - caption: Momentum and Impulse
   chapters:
   - file: content/public/007.Momentum and Impulse/2D Collisions/light_heavy_collision/light_heavy_collision
   - file: content/public/007.Momentum and Impulse/2D Collisions/billiards_collision/billiards_collision
+  - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Raindrops_Collision/raindrops_collision
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Isolated_systems/Isolated_systems
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Explosions_and_Velocity/Explosions_and_Velocity
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/mass_spring_collision/mass_spring_collision
+  - file: content/public/007.Momentum and Impulse/Conservation of Momentum/System_Open_or_Closed/System_Open_or_Closed
   - file: content/public/007.Momentum and Impulse/Impulse/airbag_collision/airbag_collision
   - file: content/public/007.Momentum and Impulse/Impulse/Bouncing_Ball/Bouncing_Ball
   - file: content/public/007.Momentum and Impulse/Momentum/Dinner_Plate/dinner_plate
+  - file: content/public/007.Momentum and Impulse/Momentum/Momentum_and_Inertia/Momentum_and_Inertia
   - file: content/public/007.Momentum and Impulse/Momentum/Rock_Powered_Rocket/Rock_Powered_Rocket
 - caption: Energy
   chapters:
@@ -80,6 +70,7 @@ parts:
   - file: content/public/008.Energy/Kinetic Energy/KE_energy_momentum/KE_energy_momentum
   - file: content/public/008.Energy/Kinetic Energy/KE_testmass/KE_testmass
   - file: content/public/008.Energy/Topic Outcome/frictionless_track/frictionless_track
+  - file: content/public/008.Energy/Topic Outcome/spring_oscillations/spring_oscillations
   - file: content/public/008.Energy/Conservation of Energy/Cut The Rope/Cut The Rope
   - file: content/public/008.Energy/Conservation of Energy/Energy lost to air friction/energy_lost_air_friction
   - file: content/public/008.Energy/Conservation of Energy/ball_race/2012Final_q3
@@ -88,7 +79,8 @@ parts:
   - file: content/public/008.Energy/Conservation of Energy/dissipative_process/dissipative_process
 - caption: Work
   chapters:
-  - file: content/public/008.Work/Work-Energy Theorem/work_frictionless_surface/work_frictionless_surface
+  - file: content/public/009.Work/Work/force_and_displacement/force_and_displacement
+  - file: content/public/009.Work/Work-Energy Theorem/work_frictionless_surface/work_frictionless_surface
 - caption: Rotational Motion
   chapters:
   - file: content/public/010.Rotational Motion/Topic Outcome/Wheel_of_fortune/Wheel_of_fortune
@@ -103,4 +95,5 @@ parts:
   chapters:
   - file: content/public/021.Circuits/RC Circuits/OSUPv2p10_16/OSUPv2p10_16
   - file: content/public/021.Circuits/Current/OSUPv2.9.2/OSUPv2.9.2
+  - file: content/public/021.Circuits/Electrical Energy/OSUPv2.9.16/OSUPv2.9.16
   - file: content/public/021.Circuits/Ohm's Law/OSUPv2.9.13/OSUPv2.9.13

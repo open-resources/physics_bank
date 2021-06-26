@@ -1,14 +1,14 @@
 ---
-title: Bouncing Ball
-topic: Momentum and Impulse
+title: Ski Jump
+topic: Kinematics(2D and 3D)
 author: Jake Bobowski
-source: 2012 Practice Final Q3
+source: 2017 Final Q3
 template_version: 1.0
 attribution: standard
 outcomes:
-- 7.3.1.3
-- 7.4.1.2
-- 8.5.1.1
+- 5.5.1.0
+- 5.5.1.1
+- 5.2.1.1
 difficulty:
 - undefined
 randomization:
@@ -16,7 +16,7 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- EW
+- MP
 assets: null
 part1:
   type: multiple-choice
@@ -25,29 +25,28 @@ part1:
 substitutions:
   params:
     vars:
-      title: Bouncing Ball
-      units_m: kg
-      units_h: m
-      units: kgm/s
-    m: 0.301
-    h: 2.4
+      sport: mountain biker
+      title: Ski Jump
+      units: m
+    v: 22
+    d: 4.0
     part1:
       ans1:
-        value: 1.5
+        value: 9.81
       ans2:
-        value: 2.1
+        value: 14.05
       ans3:
-        value: 2.9
+        value: 17.94
       ans4:
-        value: 4.1
+        value: 19.87
       ans5:
-        value: 7.1
+        value: 26.91
 ---
 # {{ params.vars.title }}
-A ball of mass {{ params.m }} {{ params.vars.units_m}} is dropped vertically from a height of {{ params.h }} {{ params.vars.units_h}} and bounces back to the original height.
 ## Part 1
 
-What is the magnitude of the impulse that the floor exerts on the ball during the bounce?
+A {{ params.vars.sport }} leaves the end of a horizontal jump at {{ params.v }} m/s and falls {{ params.d }} m before landing.
+Neglecting friction, how far horizontally does the skier travel in the air before landing?
 
 ### Answer Section
 

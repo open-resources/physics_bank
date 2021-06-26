@@ -1,6 +1,6 @@
 ---
 title: Collision of Light and Heavy Object
-topic: Momentum
+topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2017 Final Q1 and Q2
 template_version: 1.0

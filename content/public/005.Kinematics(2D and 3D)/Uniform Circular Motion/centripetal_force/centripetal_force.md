@@ -1,6 +1,6 @@
 ---
 title: Centripetal Motion
-topic: centripetal motion
+topic: Kinematics(2D and 3D)
 author: Michael Kudla
 source: original
 template_version: 1.0

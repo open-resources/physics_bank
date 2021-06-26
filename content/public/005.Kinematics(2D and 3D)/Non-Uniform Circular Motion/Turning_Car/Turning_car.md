@@ -1,12 +1,12 @@
 ---
-title: Choose all Vectors and Scalars
-topic: Vectors
+title: Turning car
+topic: Kinematics (2D)
 author: Jake Bobowski
-source: 2015 practice midterm 1 Q5
+source: Final 2016 Q10
 template_version: 1.0
 attribution: standard
 outcomes:
-- 2.1.1.0
+- 5.7.1.0
 difficulty:
 - undefined
 randomization:
@@ -14,7 +14,7 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- unknown
+- AK
 assets: null
 part1:
   type: checkbox
@@ -25,26 +25,28 @@ part1:
 substitutions:
   params:
     vars:
-      title: Choose all Vectors and Scalars
-    choice: vectors
+      title: Turning Car
+      vehicle: car
     part1:
       ans1:
-        value: Weight
+        value: There is a force pushing everything to the right.
       ans2:
-        value: Displacement
+        value: Your head (and eyes) are not in an inertial reference frame, and so
+          things are moving for no reason.
       ans3:
-        value: Acceleration
+        value: Your car is moving along a circular path, and a centripetal acceleration
+          is required. Without a force to push it towards the middle, objects(your
+          shoulders, the soup cans) will NOT move in a circle along with the rest
+          of the car, and so will move relative to the car's interior.
       ans4:
-        value: Temperature
-      ans5:
-        value: Mass
-      ans6:
-        value: Length
+        value: Turning to the right forces your car to tilt, and all the cans and
+          the shoulders shift down-hill.
 ---
 # {{ params.vars.title }}
+If you are sitting in the passenger seat of a {{ params.vars.vehicle}} that makes a quick left turn, your shoulders seem to lean to the right (and all of the soup cans on the floor roll to the right).
 ## Question Text
 
-Consider the following quantities. Choose all of those which are {{ params.choice }}.
+What causes this apparent rightward motion?
 
 ### Answer Section
 
@@ -56,8 +58,6 @@ Note: You will be awarded full marks only if you select all the correct choices,
 - {{ params.part1.ans2.value}}
 - {{ params.part1.ans3.value}}
 - {{ params.part1.ans4.value}}
-- {{ params.part1.ans5.value}}
-- {{ params.part1.ans6.value}}
 
 ## Attribution
 
