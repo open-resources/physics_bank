@@ -29,15 +29,15 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Temperature
+        value: Length
       ans2:
-        value: Work
+        value: Distance travelled
       ans3:
-        value: velocity
+        value: Area
       ans4:
-        value: Lift
+        value: Pressure
       ans5:
-        value: Drag
+        value: The average velocity
       ans6:
         value: The average acceleration
 ---
