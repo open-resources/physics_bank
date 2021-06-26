@@ -51,7 +51,7 @@ if __name__ == '__main__':
     df = df.rename(columns={'index':'Topic'})
 
     ## Create plot of questions by topic
-    chart = alt.Chart(df).mark_bar().encode(alt.Y('Topic',sort='-x',title=''),alt.X('Count')).properties(title=f'Questions by Topic (N={len(df.index)})')
+    chart = alt.Chart(df).mark_bar().encode(alt.Y('Topic',sort='-x',title=''),alt.X('Count')).properties(title=f'Questions by Topic (N={len(questions)})')
     chart.save('images/topics.png',webdriver='firefox',scale_factor=2)
 
     ## Write Table of links file
