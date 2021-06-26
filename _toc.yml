@@ -78,6 +78,8 @@ parts:
   - file: content/public/008.Energy/Conservation of Energy/Physics of Roller Coasters/Physics
       of Roller Coasters
   - file: content/public/008.Energy/Conservation of Energy/dissipative_process/dissipative_process
+  - file: content/public/008.Energy/Potential Energy/Collision of cart with spring/Collision
+      of cart with spring
 - caption: Work
   chapters:
   - file: content/public/009.Work/Work/force_and_displacement/force_and_displacement
