@@ -6,7 +6,7 @@
 
 Here are the questions in the bank split by Topics.
 
-![](images/topics.png)
+![](../images/topics.png)
 
 ## Usage
 
