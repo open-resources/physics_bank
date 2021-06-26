@@ -1,17 +1,12 @@
 ---
-title: Electron in a Solenoid
-topic: Magnetism
+title: Particle between charged plates
+topic: Electrostatics
 author: Jake Bobowksi
-source: 2.12.55
+source: 2.7.61
 template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 19.2.3.0
-- 19.2.3.1
-- 19.3.2.0
-- 19.3.2.1
-- 19.6.1.0
-- 19.6.1.1
+- 18.11.2.4
 difficulty:
 - undefined
 randomization:
@@ -21,12 +16,11 @@ taxonomy:
 tags:
 - OSUP
 - volume 2
-- chapter 12
-- problem 55
-- magnetic force
-- solenoid
-- centripetal acceleration
-- circular motion
+- chapter 6
+- problem 61
+- electric potential
+- parallel plates
+- charged particle
 - numeric
 - JB
 assets: null
@@ -36,25 +30,26 @@ part1:
     weight: 1
     allow-blank: false
     show-correct-answer: false
-    label: $I= $
-    suffix: $\rm\ A$
+    label: $v= $
+    suffix: $\rm\ m/s$
     comparison: relabs
     rtol: 0.03
     atol: 0
 substitutions:
   params:
-    n: '15'
-    r: '2.70'
-    v: '1.70'
-    p: '6'
+    sig: '20'
+    d: '3.7'
+    particle: A proton
+    particle1: proton
+    p1: positive
+    p2: negative
 ---
 # {{ params.vars.title }}
-A solenoid with ${{ params.n }}$ turns per centimter carries a current $I$.
-An electron moves within the solenoid in a circle of radius ${{ params.r}}\textrm{ cm}$.
-The plane of the circular motion is perpendicular to the axis of the solenoid.The speed of the electron is ${{ params.v }}\times 10^{ {{ params.p }} }\textrm{ m/s}$.
+Two large plates of charge density ${{ params.sig }}\rm\ \mu C/m^2$ face each other at a separation of ${{ params.d }} \textrm{ mm}$.
+{{ params.particle }} is released from rest at the {{ params.p1 }} plate.
 ## Question Text
 
-What is the current $I$ in the solenoid?
+With what speed does the {{ params.particle1 }} strike the {{ params.p2 }} plate?
 
 ### Answer Section
 
