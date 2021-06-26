@@ -81,6 +81,7 @@ parts:
 - caption: Work
   chapters:
   - file: content/public/009.Work/Work/force_and_displacement/force_and_displacement
+  - file: content/public/009.Work/Power/Energy Expenditure/Energy Expenditure
   - file: content/public/009.Work/Work-Energy Theorem/work_frictionless_surface/work_frictionless_surface
 - caption: Rotational Motion
   chapters:
