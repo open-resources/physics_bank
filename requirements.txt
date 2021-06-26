@@ -5,3 +5,4 @@ pandas>1.2
 numpy
 docopt>0.6.1
 PyYAML>5.4
+altair_saver
