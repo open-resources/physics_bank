@@ -33,9 +33,10 @@ jobs:
         pip install myst-parser~=0.13
         pip install problem-bank-scripts
         
-    - name: execute script
+    - name: execute scripts
       run: |
         python scripts/create_toc.py
+        python scripts/visualize_questions.py
           
     - name: Build the book
       run: |
