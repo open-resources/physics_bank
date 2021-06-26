@@ -1,14 +1,12 @@
 ---
-title: Direction of Movement of the Elevator
-topic: Force
-author: Jake Bobowski
-source: 2015 Final Q6
+title: Energy Cosumption Units
+topic: Electrical Energy
+author: Vanshika Sharma
+source: 2.9.16
 template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 6.1.1.4
-- 6.3.1.2
-- 6.8.1.0
+- 21.5.1.1
 difficulty:
 - undefined
 randomization:
@@ -16,7 +14,8 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- PW
+- OSUP
+- VS
 assets: null
 part1:
   type: multiple-choice
@@ -25,28 +24,32 @@ part1:
 substitutions:
   params:
     vars:
-      title: Direction of Movement of the Elevator
-    m_st: 620
-    m_sc: 606
+      title: Energy Cosumption Units
     part1:
       ans1:
-        value: Downward.
+        value: Voltage
       ans2:
-        value: You cannot tell if it is moving upward or downward.
+        value: Energy
       ans3:
-        value: Upward.
+        value: Current
+      ans4:
+        value: Charge
+      ans5:
+        value: Power
 ---
 # {{ params.vars.title }}
-A {{ params.m_st }} $N$ student standing on a scale in an elevator notices that the scale reads {{ params.m_sc }} $N$.
 ## Part 1
 
-From this information, the student knows that the elevator must be moving:
+Your electric bill gives your consumption in units of kilowatt-hour ($\textrm{kW}\cdot\textrm{h}$).
+Does this unit represent the amount of charge, current, voltage, power, or energy you buy?
 
 ### Answer Section
 
 - {{ params.part1.ans1.value }}
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 
