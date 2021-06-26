@@ -36,7 +36,7 @@ Firas Moosvi is a Lecturer at UBC Okanagan in the Computer Science, Math, Physic
 
 #### **Dr. Jake Bobowski**
 
-I am a Professor of Teaching in physics at UBC Okanagan.  In addition to teaching and Physics Education Research, I am interested in applying microwave techniques to study condensed matter systems. <br><br><br><br><br>
+Jake is a Professor of Teaching in physics at UBC Okanagan.  In addition to teaching and Physics Education Research, he is interested in applying microwave techniques to study condensed matter systems. <br><br><br><br><br>
 
 ### Graduate students
 
