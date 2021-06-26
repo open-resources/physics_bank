@@ -31,11 +31,11 @@ substitutions:
       ans1:
         value: It is a tie.
       ans2:
-        value: Not enough information is given.
-      ans3:
-        value: Spring B
-      ans4:
         value: Spring A
+      ans3:
+        value: Not enough information is given.
+      ans4:
+        value: Spring B
 ---
 # {{ params.vars.title }}
 Two identical springs are attached to two identical masses.

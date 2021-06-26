@@ -1,14 +1,14 @@
 ---
-title: Ski Jump
-topic: Kinematics(2D and 3D)
+title: The Energy Expenditure of a Jogger
+topic: Work
 author: Jake Bobowski
-source: 2017 Final Q3
+source: 2015 Final Q5
 template_version: 1.0
 attribution: standard
 outcomes:
-- 5.5.1.0
-- 5.5.1.1
-- 5.2.1.1
+- 9.3.1.0
+- 9.3.1.1
+- 9.1.1.0
 difficulty:
 - undefined
 randomization:
@@ -16,7 +16,7 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- MP
+- PW
 assets: null
 part1:
   type: multiple-choice
@@ -25,28 +25,29 @@ part1:
 substitutions:
   params:
     vars:
-      sport: skateboarder
-      title: Ski Jump
-      units: m
-    v: 25
-    d: 3.6
+      title: The Energy Expenditure of a Jogger
+      units: W
+    F: 16
+    v: 7.1
     part1:
       ans1:
-        value: 9.81
+        value: 11.0
       ans2:
-        value: 15.14
+        value: 110.0
       ans3:
-        value: 18.35
+        value: 810.0
       ans4:
-        value: 21.42
+        value: 230.0
       ans5:
-        value: 27.52
+        value: 340.0
+      ans6:
+        value: 57.0
 ---
 # {{ params.vars.title }}
+Suppose a jogger has to exert a force of {{ params.F }} $N$ against air resistance to maintain a velocity of {{ params.v }} $m/s$.
 ## Part 1
 
-A {{ params.vars.sport }} leaves the end of a horizontal jump at {{ params.v }} m/s and falls {{ params.d }} m before landing.
-Neglecting friction, how far horizontally does the skier travel in the air before landing?
+At what rate is the jogger expending energy?
 
 ### Answer Section
 
@@ -55,6 +56,7 @@ Neglecting friction, how far horizontally does the skier travel in the air befor
 - {{ params.part1.ans3.value }} {{ params.vars.units}}
 - {{ params.part1.ans4.value }} {{ params.vars.units}}
 - {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params.part1.ans6.value }} {{ params.vars.units}}
 
 ## Attribution
 
