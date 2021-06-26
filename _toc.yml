@@ -91,6 +91,14 @@ parts:
   chapters:
   - file: content/public/014.Elasticity/Topic Outcome/Identical Mass-Springs with
       different Displacement/Identical Mass-Springs with different Displacement
+- caption: Electrostatics
+  chapters:
+  - file: content/public/018.Electrostatics/Electric Potential/Particle between charged
+      plates/Particle between charged plates
+- caption: Magnetism
+  chapters:
+  - file: content/public/019.Magnetism/Magnetic Force/Electron in a Solenoid/Electron
+      in a Solenoid
 - caption: Circuits
   chapters:
   - file: content/public/021.Circuits/RC Circuits/OSUPv2p10_16/OSUPv2p10_16
