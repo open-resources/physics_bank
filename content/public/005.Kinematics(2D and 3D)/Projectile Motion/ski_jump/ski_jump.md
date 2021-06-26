@@ -1,6 +1,6 @@
 ---
 title: Ski Jump
-topic: Kinematics (2D and 3D)
+topic: Kinematics(2D and 3D)
 author: Jake Bobowski
 source: 2017 Final Q3
 template_version: 1.0
@@ -25,22 +25,22 @@ part1:
 substitutions:
   params:
     vars:
-      sport: skier
+      sport: skateboarder
       title: Ski Jump
       units: m
-    v: 23
-    d: 3.6
+    v: 25
+    d: 5.0
     part1:
       ans1:
         value: 9.81
       ans2:
-        value: 13.93
+        value: 17.85
       ans3:
-        value: 16.88
+        value: 25.48
       ans4:
-        value: 19.7
+        value: 25.24
       ans5:
-        value: 25.32
+        value: 38.23
 ---
 # {{ params.vars.title }}
 ## Part 1

@@ -1,14 +1,13 @@
 ---
-title: Bouncing Ball
-topic: Momentum and Impulse
+title: Force and Displacement
+topic: Work
 author: Jake Bobowski
-source: 2012 Practice Final Q3
+source: 2017 Final Q10
 template_version: 1.0
 attribution: standard
 outcomes:
-- 7.3.1.3
-- 7.4.1.2
-- 8.5.1.1
+- 9.1.1.1
+- 9.2.1.1
 difficulty:
 - undefined
 randomization:
@@ -16,7 +15,7 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- EW
+- MP
 assets: null
 part1:
   type: multiple-choice
@@ -25,29 +24,29 @@ part1:
 substitutions:
   params:
     vars:
-      title: Bouncing Ball
-      units_m: kg
-      units_h: m
-      units: kgm/s
-    m: 0.321
-    h: 0.6
+      title: Force and Displacement
+      units: J
+    f1: -12
+    f2: 10
+    r1: 18
+    r2: -17
     part1:
       ans1:
-        value: 0.78
+        value: -386
       ans2:
-        value: 1.1
+        value: 386
       ans3:
-        value: 1.6
+        value: -46
       ans4:
-        value: 2.2
+        value: 46
       ans5:
-        value: 1.9
+        value: Zero
 ---
 # {{ params.vars.title }}
-A ball of mass {{ params.m }} {{ params.vars.units_m}} is dropped vertically from a height of {{ params.h }} {{ params.vars.units_h}} and bounces back to the original height.
+A constant force of $\vec{F}$  = ( {{params.f1}} $\hat{\imath}$ + {{params.f2}} $\hat{\jmath}$ ) N acts on an object during a displacement of $$\Delta$$ $\vec{r}$ = ({{params.r1}} $\hat{\imath}$  {{params.r2}} $\hat{\jmath}$ ) m.
 ## Part 1
 
-What is the magnitude of the impulse that the floor exerts on the ball during the bounce?
+What is the object's change in kinetic energy?
 
 ### Answer Section
 

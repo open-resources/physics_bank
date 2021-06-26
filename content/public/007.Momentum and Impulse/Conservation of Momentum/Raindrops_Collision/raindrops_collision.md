@@ -1,6 +1,6 @@
 ---
 title: Perfectly Inelastic Collision of Raindrops
-topic: Momentum
+topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2012 Final Q2
 template_version: 1.0
@@ -26,27 +26,27 @@ substitutions:
     vars:
       title: Perfectly Inelastic Collision of Raindrops
       units: m/s
-    m1: 0.8
-    m2: 0.6
-    v1_i: 5.23
-    v2_i: -11.7
-    v1_j_abs: 18.2
-    v2_j_abs: 17.0
+    m1: 0.82
+    m2: 0.86
+    v1_i: 10.9
+    v2_i: 4.0
+    v1_j_abs: 3.11
+    v2_j_abs: 0.0491
     v1_j_sign: ' + '
     v2_j_sign: ' + '
     part1:
       ans1:
-        value: -3.5$\hat{\imath}$ + 31.0$\hat{\jmath}$
+        value: 15.0$\hat{\imath}$ + 3.2$\hat{\jmath}$
       ans2:
-        value: -2.0$\hat{\imath}$ + 18.0$\hat{\jmath}$
+        value: 7.4$\hat{\imath}$ + 1.5$\hat{\jmath}$
       ans3:
-        value: -4.7$\hat{\imath}$ + 41.0$\hat{\jmath}$
+        value: 14.0$\hat{\imath}$ + 3.0$\hat{\jmath}$
       ans4:
-        value: -2.0$\hat{\imath}$ + 17.0$\hat{\jmath}$
+        value: 10.0$\hat{\imath}$ + 2.2$\hat{\jmath}$
       ans5:
-        value: 31.0$\hat{\imath}$ + 12.0$\hat{\jmath}$
+        value: 18.0$\hat{\imath}$ + 8.4$\hat{\jmath}$
       ans6:
-        value: 8.0$\hat{\imath}$ + 3.1$\hat{\jmath}$
+        value: 3.3$\hat{\imath}$ + 1.5$\hat{\jmath}$
 ---
 # {{ params.vars.title }}
 ## Part 1
