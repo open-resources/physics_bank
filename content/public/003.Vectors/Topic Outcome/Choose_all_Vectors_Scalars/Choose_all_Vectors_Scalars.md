@@ -29,15 +29,15 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: Weight
-      ans2:
-        value: Displacement
-      ans3:
         value: Acceleration
+      ans2:
+        value: The position in a 1 dimensional system
+      ans3:
+        value: Volume
       ans4:
-        value: Temperature
+        value: Speed
       ans5:
-        value: Mass
+        value: Area
       ans6:
         value: Length
 ---

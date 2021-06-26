@@ -23,21 +23,21 @@ part1:
 substitutions:
   params:
     vars:
-      name: Aliyah
+      name: Emilia
       vehicle: rollerblades
       units: m/s
       title: Distance travelled
-    v: 6
-    t: 9
+    v: 4
+    t: 7
     part1:
       ans1:
         value: 42
       ans2:
-        value: 54
+        value: 28
       ans3:
-        value: 15
+        value: 11
       ans4:
-        value: 0.6666666666666666
+        value: 0.5714285714285714
       ans5:
         value: -3
       ans6:
