@@ -31,13 +31,13 @@ substitutions:
       ans1:
         value: Drag
       ans2:
-        value: The average acceleration
+        value: The position in a 1 dimensional system
       ans3:
-        value: The average velocity
+        value: Volume
       ans4:
-        value: Lift
+        value: Temperature
       ans5:
-        value: Work
+        value: Mass
       ans6:
         value: Pressure
 ---

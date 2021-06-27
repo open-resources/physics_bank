@@ -26,12 +26,11 @@ substitutions:
   params:
     vars:
       title: Exploding Asteroid
-      name: Savannah
-      name2: Ximena
+      name: Ahmed
+      name2: Savannah
     part1:
       ans1:
-        value: The final speeds they measure for the two asteroid pieces will be the
-          same.
+        value: They will both agree on how the internal energy of the system has changed.
       ans2:
         value: They will both agree on how the kinetic energy of each of the pieces
           has changed.
@@ -39,10 +38,11 @@ substitutions:
         value: The total momentum vectors they use to describe the asteroid system
           (both pieces) will be the same.
       ans4:
-        value: They will both agree on how the internal energy of the system has changed.
+        value: The final velocity vectors they use to describe the two asteroid pieces
+          will be the same.
       ans5:
-        value: They will both agree on how much kinetic energy each of the asteroid
-          pieces has.
+        value: The final speeds they measure for the two asteroid pieces will be the
+          same.
       ans6:
         value: The momentum vectors they use to describe each of the two asteroid
           pieces will be the same.
