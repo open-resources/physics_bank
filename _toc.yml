@@ -47,6 +47,7 @@ parts:
   - file: content/public/006.Force/Equilibrium/Two blocks connected by a string/Two
       Blocks Connected by a String
   - file: content/public/006.Force/Dynamics of Circular Motion/object_on_string/object_on_string
+  - file: content/public/006.Force/Friction/spring_on_ramp/spring_on_ramp
   - file: content/public/006.Force/Friction/Frictional Force between tires and road/Frictional
       Force between tires and road
   - file: content/public/006.Force/Springs/Bungee_jumping/bungee_jumping
