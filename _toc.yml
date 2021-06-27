@@ -19,6 +19,9 @@ parts:
 - caption: Math
   chapters:
   - file: content/public/001.Math/Integrals/Rocket/Rocket
+- caption: Physics in General
+  chapters:
+  - file: content/public/002.Physics in General/Topic Outcome/test/test
 - caption: Vectors
   chapters:
   - file: content/public/003.Vectors/Topic Outcome/Choose_all_Vectors_Scalars/Choose_all_Vectors_Scalars
