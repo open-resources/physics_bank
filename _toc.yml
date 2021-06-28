@@ -76,6 +76,7 @@ parts:
   - file: content/public/008.Energy/Kinetic Energy/KE_testmass/KE_testmass
   - file: content/public/008.Energy/Topic Outcome/frictionless_track/frictionless_track
   - file: content/public/008.Energy/Topic Outcome/spring_oscillations/spring_oscillations
+  - file: content/public/008.Energy/Topic Outcome/force_vs_position/force_vs_position
   - file: content/public/008.Energy/Conservation of Energy/Cut The Rope/Cut The Rope
   - file: content/public/008.Energy/Conservation of Energy/Energy lost to air friction/energy_lost_air_friction
   - file: content/public/008.Energy/Conservation of Energy/ball_race/2012Final_q3
