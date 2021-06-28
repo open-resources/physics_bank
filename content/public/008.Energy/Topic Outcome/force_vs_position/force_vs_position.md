@@ -1,14 +1,13 @@
 ---
-title: Simple Harmonic Spring
+title: Force vs Position Graph
 topic: Energy
 author: Jake Bobowski
-source: 2013 Final Q11
-template_version: 1.0
+source: 2017 Final Q15
+template_version: 1.1
 attribution: standard
 outcomes:
-- 15.2.2.0
-- 15.2.1.4
-- 7.2.1.0
+- 8.2.1.0
+- 9.2.1.0
 difficulty:
 - undefined
 randomization:
@@ -17,7 +16,8 @@ taxonomy:
 - undefined
 tags:
 - MP
-assets: null
+assets:
+- q15image.png
 part1:
   type: number-input
   pl-customizations:
@@ -32,8 +32,8 @@ part2:
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $k= $
-    suffix: N/m
+    label: $x= $
+    suffix: m
     comparison: sigfig
     digits: 2
 part3:
@@ -41,44 +41,47 @@ part3:
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $A=$
-    suffix: m
+    label: $K= $
+    suffix: J
     comparison: sigfig
     digits: 2
 substitutions:
   params:
     vars:
-      title: Simple harmonic spring
-      units1: N/m
-      units3: m
-    m: 332
-    T: 0.8
-    E: 4.4
+      title: Force vs Position Graph
+      units1: m/s
+      units2: m
+      units3: J
+    m: 2.5
+    v: -3.5
 ---
 # {{ params.vars.title }}
-A {{params.m}} g object is attached to a spring and executes simple harmonic motion with a period of {{params.T}} s.
-If the total energy of the system is {{params.E}} J, find:
+The graph below shows the net force on a particle as a function of its position. The mass of
+the particle is m = {{params.m}} $kg$.
+
+<img src="q15image.png" width=400 alt="Force vs position graph">
 ## Part 1
 
-(a) the maximum speed of the object
+If the particle has a velocity of $v_x =$ {{params.v}} m/s when $x =$ 0 $m$, what is the particle's speed
+when $x =$ 3.0 $m$?
 
 ### Answer Section
 
-Please enter a numeric value in {{ params.vars.units1 }}.
+Please enter in a numeric value in {{ params.vars.units1 }}.
 ## Part 2
 
-(b) the spring constant of the spring
+At what value of x (in meters) is does the particle have the maximum kinetic energy?
 
 ### Answer Section
 
-Please enter a numeric value {{ params.vars.units2 }}.
+Please enter in a numeric value in {{ params.vars.units2 }}.
 ## Part 3
 
-(c) the amplitude of the motion
+What is the particle's maximum kinetic energy?
 
 ### Answer Section
 
-Please enter a numeric value in {{ params.vars.units3 }}.
+Please enter in a numeric value in {{ params.vars.units3 }}.
 
 ## Attribution
 
