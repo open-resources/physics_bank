@@ -95,3 +95,10 @@ Functions can be defined inside the ```generate()``` section of the server code.
 
 
 *Note*: If you feel the function could be generalized and used in other questions, please request for it to be added to the ```pbh``` package.
+
+## Calling a sympy object in your html file
+Sometimes it is nice to have sympy expressions in the question.html file. If you simply call a sympy object in, it will not render properly.
+Say we have some sympy expression 'expr': 
+First, convert it to a string: srt_expr = string(expr)
+For nicer printing, you can also convert double * ' s to ^ with str_expr.replace(' ** ',' ^ ') - (without the spaces)
+And single * ' s with str_expr.replace('* ','') - (again, without the spaces)
