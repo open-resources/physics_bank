@@ -66,9 +66,9 @@ substitutions:
       part5:
         units: J
     m_p: 1.16
-    r_p: 0.41
-    m: 2.25
-    r: 0.14
+    r_p: 0.45
+    m: 2.15
+    r: 0.43
     x: 4
 ---
 # {{ params.vars.title }}
