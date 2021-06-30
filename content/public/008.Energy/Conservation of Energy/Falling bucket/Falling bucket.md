@@ -1,12 +1,15 @@
 ---
-title: Collision of a Cart with a Spring
+title: Falling Bucket
 topic: Energy
 author: Jake Bobowski
-source: 2015 Final Q11
-template_version: 1.0
+source: 2015 Final Q17
+template_version: 1.1
 attribution: standard
 outcomes:
-- 8.3.3.0
+- 8.5.1.1
+- 8.5.1.2
+- 10.5.2.2
+- 10.5.2.3
 difficulty:
 - undefined
 randomization:
@@ -15,30 +18,34 @@ taxonomy:
 - undefined
 tags:
 - PW
-assets: null
+assets:
+- q17_2015Final.png
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $v= $
-    suffix: $m/s$
+    label: $v = $
+    suffix: m/s
     comparison: sigfig
-    digits: 2
+    digits: 3
 substitutions:
   params:
     vars:
-      title: Collision of a Cart with a Spring
+      title: Falling Bucket
       units: m/s
-    m: 24
-    k: 233
-    x: 31
+    m_b: 12.3
+    m_c: 3.51
+    h: 40.1
+    r: 67.6
 ---
 # {{ params.vars.title }}
-A  {{ params.m }}  $kg$  runaway  grocery  cart  runs  into  a  spring  with a spring  constant $k = $  {{ params.k }}  $N/m$  and compresses it by {{ params.x }} $cm$ before momentarily coming to rest.
+A bucket of mass $m_b$ = {{ params.m_b }} $kg$ is knocked off the side of a well.  The bucket falls {{ params.h }} $m$ to the bottom of the well.  Attached to the bucket is a light rope that wraps around a cylinder of radius $r = $ {{ params.r}} $cm$ and mass $m_c$ = {{ params.m_c }} $kg$.
+
+![](q17_2015Final.png)
 ## Question Text
 
-What was the speed of the cart just before it hit the spring?
+How fast is the bucket falling just before it hits the ground?
 
 ### Answer Section
 

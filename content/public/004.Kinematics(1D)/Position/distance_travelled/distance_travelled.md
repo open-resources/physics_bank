@@ -23,21 +23,21 @@ part1:
 substitutions:
   params:
     vars:
-      name: Maya
+      name: Mateo
       vehicle: a tricycle
       units: m/s
       title: Distance travelled
-    v: 7
-    t: 6
+    v: 6
+    t: 5
     part1:
       ans1:
         value: 42
       ans2:
-        value: 42
+        value: 30
       ans3:
-        value: 13
+        value: 11
       ans4:
-        value: 1.1666666666666667
+        value: 1.2
       ans5:
         value: 1
       ans6:
