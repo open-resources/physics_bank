@@ -96,9 +96,19 @@ Functions can be defined inside the ```generate()``` section of the server code.
 
 *Note*: If you feel the function could be generalized and used in other questions, please request for it to be added to the ```pbh``` package.
 
-## Calling a sympy object in your html file
+## Sympy
+### Calling a sympy object in your html file
 Sometimes it is nice to have sympy expressions in the question.html file. If you simply call a sympy object in, it will not render properly.
 Say we have some sympy expression 'expr': 
 First, convert it to a string: srt_expr = string(expr)
 For nicer printing, you can also convert double * ' s to ^ with str_expr.replace(' ** ',' ^ ') - (without the spaces)
 And single * ' s with str_expr.replace('* ','') - (again, without the spaces)
+
+### Sympy object doesn't convert nicely to json for answer.
+Sympy to json conversion in prairielearn doesn't like floats. It also doesn't like fractions in brackets. 
+So, it's best to do something like:
+Y = X/2
+As opposed to:
+Y = 0.5 * X or Y = 1/2 * X
+At this time, there isn't a clear way for using floats in PL via sympy. 
+
