@@ -1,12 +1,12 @@
 ---
-title: Collision of a Cart with a Spring
-topic: Energy
+title: Rotational Displacement of Tires
+topic: Rotational Motion
 author: Jake Bobowski
-source: 2015 Final Q11
-template_version: 1.0
+source: 2015 Final Q9
+template_version: 1.1
 attribution: standard
 outcomes:
-- 8.3.3.0
+- 10.1.1.1
 difficulty:
 - undefined
 randomization:
@@ -21,24 +21,24 @@ part1:
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $v= $
-    suffix: $m/s$
+    label: $\Delta \theta $
+    suffix: rad
     comparison: sigfig
-    digits: 2
+    digits: 3
 substitutions:
   params:
     vars:
-      title: Collision of a Cart with a Spring
-      units: m/s
-    m: 85
-    k: 303
-    x: 80
+      vehicle: semi-truck
+      title: Rotational Displacement of Tires
+      units: rad
+    a: 4.28
+    t: 47.8
 ---
 # {{ params.vars.title }}
-A  {{ params.m }}  $kg$  runaway  grocery  cart  runs  into  a  spring  with a spring  constant $k = $  {{ params.k }}  $N/m$  and compresses it by {{ params.x }} $cm$ before momentarily coming to rest.
+A {{ params.vars.vehicle }} accelerates from rest at $t = 0$ such that its tires undergo a constant rotational acceleration of $\alpha = $ {{ params.a }} $s^{-2}$.
 ## Question Text
 
-What was the speed of the cart just before it hit the spring?
+Compute the rotational displacement of each tire at $t = $ {{ params.t }} $s$.
 
 ### Answer Section
 
