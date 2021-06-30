@@ -31,13 +31,13 @@ substitutions:
       ans1:
         value: Pressure
       ans2:
-        value: Work
+        value: Area
       ans3:
-        value: Temperature
+        value: Power
       ans4:
-        value: The average acceleration
+        value: Volume
       ans5:
-        value: Weight
+        value: Momentum
       ans6:
         value: Displacement
 ---

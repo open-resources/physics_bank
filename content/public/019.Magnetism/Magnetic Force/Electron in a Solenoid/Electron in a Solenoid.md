@@ -45,7 +45,7 @@ substitutions:
   params:
     n: '10'
     r: '1.00'
-    v: '2.80'
+    v: '1.60'
     p: '5'
 ---
 # {{ params.vars.title }}
