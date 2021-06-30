@@ -35,6 +35,7 @@ parts:
       Air Track
 - caption: Kinematics(2D and 3D)
   chapters:
+  - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/apples_in_truck/apples_in_truck
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Acceleration
       around a turn/Acceleration around a turn
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Turning_Car/Turning_car
