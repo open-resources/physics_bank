@@ -102,6 +102,8 @@ parts:
       rod/Inertia of T-shaped rod
   - file: content/public/010.Rotational Motion/Rolling Motion/Rolling_without_slipping/Rolling_without_slipping
   - file: content/public/010.Rotational Motion/Topic Outcome/Wheel_of_fortune/Wheel_of_fortune
+  - file: content/public/010.Rotational Motion/Topic Outcome/Rotational Displacement
+      of Tires/Rotational Displacement of tires
 - caption: Rotational Dynamics
   chapters:
   - file: content/public/011.Rotational Dynamics/Topic Outcome/thread_on_spool/thread_on_spool
