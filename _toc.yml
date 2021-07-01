@@ -21,7 +21,11 @@ parts:
   - file: content/public/001.Math/Integrals/Rocket/Rocket
 - caption: Physics in General
   chapters:
+  - file: content/public/002.Physics in General/Topic Outcome/Skateboarder and observer/Skateboarder
+      and observer
   - file: content/public/002.Physics in General/Topic Outcome/test/test
+  - file: content/public/002.Physics in General/Topic Outcome/Choose correct ans/choose
+      correct ans
   - file: content/public/002.Physics in General/Uncertainty/Terminal Velocity of Coffee
       Filter/Terminal Velocity of Coffee Filter
   - file: content/public/002.Physics in General/Uncertainty/projectile_uncertainty/projectile_uncertainty
