@@ -28,7 +28,7 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: rollerblades
+      vehicle: a unicycle
       title: Frictional Force between Tires and the Road
 ---
 # {{ params.vars.title }}

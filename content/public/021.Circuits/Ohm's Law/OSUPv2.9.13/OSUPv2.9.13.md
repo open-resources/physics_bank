@@ -3,7 +3,7 @@ title: Ohmic Devices
 topic: Ohm's Law
 author: Vanshika Sharma
 source: 2.9.13
-template_version: 1.0
+template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
 - 21.4.1.1
@@ -36,6 +36,8 @@ substitutions:
         value: C
       ans4:
         value: D
+      ans5:
+        value: None of the above
 ---
 # {{ params.vars.title }}
 ## Part 1
@@ -52,6 +54,7 @@ Which device, if any, is an ohmic device?
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 
