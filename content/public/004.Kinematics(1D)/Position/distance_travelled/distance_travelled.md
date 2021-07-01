@@ -24,20 +24,20 @@ substitutions:
   params:
     vars:
       name: Maya
-      vehicle: a bicycle
+      vehicle: a skateboard
       units: m/s
       title: Distance travelled
-    v: 4
-    t: 5
+    v: 7
+    t: 8
     part1:
       ans1:
         value: 42
       ans2:
-        value: 20
+        value: 56
       ans3:
-        value: 9
+        value: 15
       ans4:
-        value: 0.8
+        value: 0.875
       ans5:
         value: -1
       ans6:

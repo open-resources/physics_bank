@@ -29,17 +29,17 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: Lift
+        value: Displacement
       ans2:
-        value: Weight
+        value: The average velocity
       ans3:
-        value: Work
+        value: Distance travelled
       ans4:
-        value: Entropy
+        value: Power
       ans5:
-        value: Speed
+        value: Area
       ans6:
-        value: Temperature
+        value: Volume
 ---
 # {{ params.vars.title }}
 ## Question Text

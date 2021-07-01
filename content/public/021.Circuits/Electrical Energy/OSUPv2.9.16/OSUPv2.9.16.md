@@ -41,7 +41,7 @@ substitutions:
 ## Part 1
 
 Your electric bill gives your consumption in units of kilowatt-hour ($\textrm{kW}\cdot\textrm{h}$).
-Does this unit represent the amount of charge, current, voltage, power, or energy you buy?
+What physical quantity does this unit represent?
 
 ### Answer Section
 
