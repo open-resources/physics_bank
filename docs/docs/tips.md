@@ -112,3 +112,48 @@ As opposed to:
 Y = 0.5 * X or Y = 1/2 * X
 At this time, there isn't a clear way for using floats in PL via sympy. 
 
+### You get the error: "Object of type Mul is not JSON serializable"
+The code here: 
+    '''
+    # Declare math symbols to be used by sympy
+    t, v_o, g = sp.symbols('t, v_o, g')
+    
+    # define bounds of the variables
+    theta = random.randint(2,5)*10
+    l = random.randint(1,9)*100
+    l2 = 0.5*l
+    a1 = g*math.sin(math.radians(theta))
+    
+    # store the variables in the dictionary "params"
+    data2["params"]["theta"] = theta
+    data2["params"]["l"] = l
+    data2["params"]["l2"] = l2
+    
+    # Describe the solution equation
+    x1 = a1*t**2/2
+    x2 = l + v_o*t + a1*t**2/2
+    '''
+    
+Will result in the error. The code below will not:
+
+    '''
+    # Declare math symbols to be used by sympy
+    t, v_o, g = sp.symbols('t, v_o, g')
+    
+    # define bounds of the variables
+    theta = random.randint(2,5)*10
+    l = random.randint(1,9)*100
+    l2 = (1/2)*l
+    a1 = 9.8*math.sin(math.pi*theta/180)
+    
+    # store the variables in the dictionary "params"
+    data2["params"]["theta"] = theta
+    data2["params"]["l"] = l
+    data2["params"]["l2"] = l2
+    
+    # Describe the solution equation   
+    x1 = t**2 / 2 * g * sp.sin(sp.pi*theta/180)
+    x2 = 1 + v_o*t + t**2 / 2 * g * sp.sin(sp.pi*theta/180)
+    '''
+ 
+ Be sure to use sp.sin rather than math.sin for symbolics, and remember that pl.to_json conversion or pl.sympy_to_json doesn't like floats.
