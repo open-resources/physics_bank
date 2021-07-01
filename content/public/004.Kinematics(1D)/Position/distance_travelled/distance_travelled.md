@@ -23,21 +23,21 @@ part1:
 substitutions:
   params:
     vars:
-      name: Maya
-      vehicle: a skateboard
+      name: Emilia
+      vehicle: a bicycle
       units: m/s
       title: Distance travelled
-    v: 7
-    t: 8
+    v: 5
+    t: 6
     part1:
       ans1:
         value: 42
       ans2:
-        value: 56
+        value: 30
       ans3:
-        value: 15
+        value: 11
       ans4:
-        value: 0.875
+        value: 0.8333333333333334
       ans5:
         value: -1
       ans6:

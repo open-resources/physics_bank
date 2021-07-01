@@ -1,8 +1,8 @@
 ---
-title: Determining Capacitance
+title: Charge Stored in a Capacitor
 topic: Circuits
 author: Ava Cornell
-source: 2.8.21
+source: 2.8.19
 template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
@@ -18,7 +18,7 @@ tags:
 - OSUP
 - volume 2
 - chapter 8
-- problem 23
+- problem 19
 - capacitors
 - numeric
 - AC
@@ -29,22 +29,22 @@ part1:
     weight: 1
     allow-blank: false
     show-correct-answer: false
-    label: $C= $
-    suffix: $\rm\ nF$
+    label: $Q= $
+    suffix: $\rm\ C$
     comparison: relabs
     rtol: 0.03
     atol: 0
 substitutions:
   params:
     vars:
-      title: Determining Capacitance
-    q: '3.5'
-    v: '100'
+      title: Charge Stored in a Capacitor
+    c: '105'
+    v: '175'
 ---
 # {{ params.vars.title }}
 ## Question Text
 
-What capacitance is needed to store ${{params.q }}\rm\ \mu\textrm{C}$ of charge at a voltage of ${{params.v }}\textrm{ V}$? Enter your answer in units of $\textrm{nF}$.
+What charge is stored in a ${{params.c }} \rm\ \mu\textrm{F}$ capacitor when ${{params.v }}\textrm{ V}$ is applied to it?
 
 ### Answer Section
 
