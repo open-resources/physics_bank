@@ -3,7 +3,7 @@ title: Determining Capacitance
 topic: Circuits
 author: Ava Cornell
 source: 2.8.21
-template_version: 1.0
+template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
 - 21.7.1.0
@@ -38,8 +38,8 @@ substitutions:
   params:
     vars:
       title: Determining Capacitance
-    q: '4.4'
-    v: '150'
+    q: '4.6'
+    v: '100'
 ---
 # {{ params.vars.title }}
 ## Question Text

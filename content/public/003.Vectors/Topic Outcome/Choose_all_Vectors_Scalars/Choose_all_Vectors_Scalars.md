@@ -29,17 +29,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Length
+        value: Area
       ans2:
-        value: Speed
+        value: Mass
       ans3:
         value: Acceleration
       ans4:
-        value: Weight
+        value: velocity
       ans5:
-        value: Drag
+        value: The position in 3 dimensions
       ans6:
-        value: Lift
+        value: Displacement
 ---
 # {{ params.vars.title }}
 ## Question Text

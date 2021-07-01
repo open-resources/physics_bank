@@ -29,13 +29,13 @@ substitutions:
     d2: $2d$
     part1:
       ans1:
-        value: Not enough information is given.
-      ans2:
         value: It is a tie.
-      ans3:
+      ans2:
         value: Spring A
-      ans4:
+      ans3:
         value: Spring B
+      ans4:
+        value: Not enough information is given.
 ---
 # {{ params.vars.title }}
 Two identical springs are attached to two identical masses.
