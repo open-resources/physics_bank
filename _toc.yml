@@ -22,6 +22,9 @@ parts:
 - caption: Physics in General
   chapters:
   - file: content/public/002.Physics in General/Topic Outcome/test/test
+  - file: content/public/002.Physics in General/Uncertainty/Terminal Velocity of Coffee
+      Filter/Terminal Velocity of Coffee Filter
+  - file: content/public/002.Physics in General/Uncertainty/projectile_uncertainty/projectile_uncertainty
 - caption: Vectors
   chapters:
   - file: content/public/003.Vectors/Topic Outcome/Choose_all_Vectors_Scalars/Choose_all_Vectors_Scalars
