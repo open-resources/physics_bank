@@ -29,17 +29,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Energy
+        value: Area
       ans2:
         value: Speed
       ans3:
-        value: Force
+        value: Entropy
       ans4:
-        value: Momentum
+        value: Power
       ans5:
         value: Acceleration
       ans6:
-        value: The position in 3 dimensions
+        value: The average velocity
 ---
 # {{ params.vars.title }}
 ## Question Text

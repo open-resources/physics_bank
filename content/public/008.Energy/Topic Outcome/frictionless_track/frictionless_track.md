@@ -45,7 +45,7 @@ substitutions:
       title: Horizontal frictionless track
       units: N
     m: 4.25
-    v: 5
+    v: 7
     R: 1.0
     L: 17
 ---
