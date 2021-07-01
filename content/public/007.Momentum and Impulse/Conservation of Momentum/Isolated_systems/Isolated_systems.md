@@ -34,9 +34,9 @@ substitutions:
         value: A system is isolated if its center of mass is moving with constant
           velocity
       ans3:
-        value: A system is isolated if its total momentum is constant
-      ans4:
         value: A system is isolated if energy isn't entering or leaving the system
+      ans4:
+        value: A system is isolated if its total momentum is constant
 ---
 # {{ params.vars.title }}
 ## Question Text
