@@ -139,4 +139,5 @@ parts:
   - file: content/public/021.Circuits/Ohm's Law/OSUPv2.9.13/OSUPv2.9.13
   - file: content/public/021.Circuits/Electrical Energy/OSUPv2.9.16/OSUPv2.9.16
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_23/OSUPv2p8_23
+  - file: content/public/021.Circuits/Capacitors/OSUPv2p8_19/OSUPv2p8_19
   - file: content/public/021.Circuits/Current/OSUPv2.9.2/OSUPv2.9.2
