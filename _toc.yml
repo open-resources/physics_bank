@@ -51,6 +51,8 @@ parts:
   - file: content/public/006.Force/Dynamics of Circular Motion/object_on_string/object_on_string
   - file: content/public/006.Force/Topic Outcome/The max acceleration without slipping/The
       max acceleration without slipping
+  - file: content/public/006.Force/Topic Outcome/Frictionless Air Track/Frictionless
+      Air Track
   - file: content/public/006.Force/Topic Outcome/ropes_and_blocks/ropes_and_blocks
   - file: content/public/006.Force/Topic Outcome/Rotating ball/Rotating ball
   - file: content/public/006.Force/Topic Outcome/velocity_netforce/velocity_netforce
@@ -125,6 +127,7 @@ parts:
 - caption: Circuits
   chapters:
   - file: content/public/021.Circuits/RC Circuits/OSUPv2p10_16/OSUPv2p10_16
+  - file: content/public/021.Circuits/Resistance/OSUPv2p10_02/OSUPv2p10_02
   - file: content/public/021.Circuits/Ohm's Law/OSUPv2.9.13/OSUPv2.9.13
   - file: content/public/021.Circuits/Electrical Energy/OSUPv2.9.16/OSUPv2.9.16
   - file: content/public/021.Circuits/Current/OSUPv2.9.2/OSUPv2.9.2
