@@ -48,6 +48,7 @@ parts:
       Force between tires and road
   - file: content/public/006.Force/Friction/box_in_vehicle/box_in_vehicle
   - file: content/public/006.Force/Friction/spring_on_ramp/spring_on_ramp
+  - file: content/public/006.Force/Friction/box_in_truck_bed_2/box_in_truck_bed_2
   - file: content/public/006.Force/Dynamics of Circular Motion/object_on_string/object_on_string
   - file: content/public/006.Force/Topic Outcome/The max acceleration without slipping/The
       max acceleration without slipping
