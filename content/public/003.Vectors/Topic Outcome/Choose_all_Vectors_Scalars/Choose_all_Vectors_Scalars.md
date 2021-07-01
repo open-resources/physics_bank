@@ -29,15 +29,15 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Area
-      ans2:
         value: Speed
+      ans2:
+        value: Area
       ans3:
-        value: Entropy
+        value: Density
       ans4:
-        value: Power
+        value: Work
       ans5:
-        value: Acceleration
+        value: Momentum
       ans6:
         value: The average velocity
 ---
