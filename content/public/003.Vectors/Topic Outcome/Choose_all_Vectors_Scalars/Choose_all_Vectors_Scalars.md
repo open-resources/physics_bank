@@ -29,17 +29,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Pressure
+        value: Entropy
       ans2:
-        value: Area
-      ans3:
         value: Power
+      ans3:
+        value: Area
       ans4:
         value: Volume
       ans5:
         value: Momentum
       ans6:
-        value: Displacement
+        value: The average velocity
 ---
 # {{ params.vars.title }}
 ## Question Text

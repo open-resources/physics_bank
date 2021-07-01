@@ -1,17 +1,12 @@
 ---
-title: Electron in a Solenoid
-topic: Magnetism
-author: Jake Bobowksi
-source: 2.12.55
+title: Battery Internal Resistance
+topic: Circuits
+author: Joseph Wandinger
+source: 2.10.2
 template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 19.2.3.0
-- 19.2.3.1
-- 19.3.2.0
-- 19.3.2.1
-- 19.6.1.0
-- 19.6.1.1
+- 21.8.2.0
 difficulty:
 - undefined
 randomization:
@@ -19,16 +14,8 @@ randomization:
 taxonomy:
 - undefined
 tags:
+- JW
 - OSUP
-- volume 2
-- chapter 12
-- problem 55
-- magnetic force
-- solenoid
-- centripetal acceleration
-- circular motion
-- numeric
-- JB
 assets: null
 part1:
   type: number-input
@@ -36,27 +23,29 @@ part1:
     weight: 1
     allow-blank: false
     show-correct-answer: false
-    label: $I= $
-    suffix: $\rm\ A$
+    label: $I_\mathrm{f}/I_0= $
     comparison: relabs
     rtol: 0.03
     atol: 0
+    show-placeholder: false
 substitutions:
   params:
-    n: '15'
-    r: '2.70'
-    v: '2.10'
-    p: '5'
+    vars:
+      title: Battery Internal Resistance
+    x: 5
+    N: 5
+    V_string: '10.25'
 ---
 # {{ params.vars.title }}
-A solenoid with ${{ params.n }}$ turns per centimter carries a current $I$.
-An electron moves within the solenoid in a circle of radius ${{ params.r}}\textrm{ cm}$.
-The plane of the circular motion is perpendicular to the axis of the solenoid.The speed of the electron is ${{ params.v }}\times 10^{ {{ params.p }} }\textrm{ m/s}$.
-## Question Text
+A battery with an internal resistance of $r$ and an emf of {{ params.V_string }}$\textrm{ V}$ is connected to a load resistor $R = {{ params.N }}r$ and current $I_0$ flows.
+As the battery ages, the internal resistance increases by a factor of {{ params.x }}.
+## Part 1
 
-What is the current $I$ in the solenoid?
+Find the ratio $I\_\mathrm{f}/I_0$, where $I\_\mathrm{f}$ is the final current after the battery has aged.
 
 ### Answer Section
+
+Please enter a rational number.
 
 ## Attribution
 
