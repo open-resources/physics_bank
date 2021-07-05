@@ -126,6 +126,8 @@ parts:
       different Displacement/Identical Mass-Springs with different Displacement
 - caption: Electrostatics
   chapters:
+  - file: content/public/018.Electrostatics/Electric Field/Accelerating electrons/Accelerating
+      electrons
   - file: content/public/018.Electrostatics/Electric Potential/Particle between charged
       plates/Particle between charged plates
 - caption: Magnetism
