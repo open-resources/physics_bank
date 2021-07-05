@@ -28,7 +28,7 @@ part1:
   pl-customizations:
     weight: 1
     allow-blank: false
-    show-correct-answer: true
+    show-correct-answer: false
     label: $U= $
     suffix: $\rm\ J$
     comparison: relabs
@@ -38,13 +38,13 @@ substitutions:
   params:
     vars:
       title: Electric potential energy of a cube
-    q: '2.60'
-    d: '2.00'
+    q: '4.40'
+    d: '1.40'
 ---
 # {{ params.vars.title }}
 ## Question Text
 
-Find the electrostatic potential enerty of eight equal charges (${{ params.q }}\rm\ mu C$) each fixed at the corners of a cube of side ${{ params.d }}\textrm{ cm}$.
+Find the electrostatic potential enerty of eight equal charges (${{ params.q }}\rm\ \mu C$) each fixed at the corners of a cube of side ${{ params.d }}\textrm{ cm}$.
 
 ### Answer Section
 
