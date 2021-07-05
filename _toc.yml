@@ -129,6 +129,8 @@ parts:
   - file: content/public/018.Electrostatics/Electric Field/Accelerating electrons/Accelerating
       electrons
   - file: content/public/018.Electrostatics/Electric Potential/Electric potential
+      of parallel plates/Electric potential of parallel plates
+  - file: content/public/018.Electrostatics/Electric Potential/Electric potential
       energy of a cube/Electric potential energy of a cube
   - file: content/public/018.Electrostatics/Electric Potential/Particle between charged
       plates/Particle between charged plates
