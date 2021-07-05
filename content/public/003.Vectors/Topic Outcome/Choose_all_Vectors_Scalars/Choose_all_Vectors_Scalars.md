@@ -31,15 +31,15 @@ substitutions:
       ans1:
         value: Lift
       ans2:
-        value: Force
+        value: Weight
       ans3:
-        value: The position in a 1 dimensional system
+        value: Force
       ans4:
-        value: Acceleration
+        value: The position in a 1 dimensional system
       ans5:
-        value: Entropy
+        value: Work
       ans6:
-        value: Speed
+        value: Distance travelled
 ---
 # {{ params.vars.title }}
 ## Question Text
