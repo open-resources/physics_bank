@@ -54,8 +54,8 @@ substitutions:
       units1: "$\frac{m}{s^2}$"
       units2: N
     m_a: 3
-    m_b: 4
-    m_c: 4
+    m_b: 5
+    m_c: 5
     f_a: 38
 ---
 # {{ params.vars.title }}

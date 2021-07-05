@@ -1,17 +1,13 @@
 ---
-title: Electron in a Solenoid
-topic: Magnetism
+title: Electric potential of parallel plates
+topic: Electrostatics
 author: Jake Bobowksi
-source: 2.12.55
+source: 2.7.78
 template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 19.2.3.0
-- 19.2.3.1
-- 19.3.2.0
-- 19.3.2.1
-- 19.6.1.0
-- 19.6.1.1
+- 18.11.2.1
+- 18.11.3.0
 difficulty:
 - undefined
 randomization:
@@ -21,12 +17,11 @@ taxonomy:
 tags:
 - OSUP
 - volume 2
-- chapter 12
-- problem 55
-- magnetic force
-- solenoid
-- centripetal acceleration
-- circular motion
+- chapter 7
+- problem 78
+- electric potential
+- electric field
+- parallel plates
 - numeric
 - JB
 assets: null
@@ -36,25 +31,22 @@ part1:
     weight: 1
     allow-blank: false
     show-correct-answer: false
-    label: $I= $
-    suffix: $\rm\ A$
+    label: $a= $
+    suffix: $\rm\ J$
     comparison: relabs
     rtol: 0.03
     atol: 0
 substitutions:
   params:
-    n: '10'
-    r: '2.40'
-    v: '1.40'
-    p: '6'
+    vars:
+      title: Electric potential of parallel plates
+    E: '5.40'
+    V: '17.0'
 ---
 # {{ params.vars.title }}
-A solenoid with ${{ params.n }}$ turns per centimter carries a current $I$.
-An electron moves within the solenoid in a circle of radius ${{ params.r}}\textrm{ cm}$.
-The plane of the circular motion is perpendicular to the axis of the solenoid.The speed of the electron is ${{ params.v }}\times 10^{ {{ params.p }} }\textrm{ m/s}$.
 ## Question Text
 
-What is the current $I$ in the solenoid?
+How far apart are two conducting plates that have an electric field strength of ${{ params.E }}\times 10^{ {{params.p}} }\rm\ V/m$ between them, if their potential difference is ${{ params.V\rm\ kV }}?
 
 ### Answer Section
 
