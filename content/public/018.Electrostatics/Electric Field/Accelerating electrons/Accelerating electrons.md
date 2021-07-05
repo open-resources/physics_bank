@@ -3,7 +3,7 @@ title: Accelerating electrons
 topic: Electrostatics
 author: Jake Bobowksi
 source: 2.7.70
-template_version: 1.1
+template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
 - 18.1.1.3
@@ -39,21 +39,9 @@ part1:
 substitutions:
   params:
     vars:
-      title: Identical Mass-Springs with Different Displacement
-      units: {}
-    d1: $d$
-    d2: $2d$
-    part1:
-      ans1:
-        value: Not enough information is given.
-      ans2:
-        value: It is a tie.
-      ans3:
-        value: Spring A
-      ans4:
-        value: Spring B
-    E: '3.80'
-    p: '5'
+      title: Accelerating electrons
+    E: '3.40'
+    p: '6'
 ---
 # {{ params.vars.title }}
 A simple and common technique for accelerating electrons is shown in the figure, where there is a uniform electric field between two plates.
