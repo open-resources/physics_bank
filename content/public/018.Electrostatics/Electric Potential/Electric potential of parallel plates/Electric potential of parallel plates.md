@@ -31,8 +31,8 @@ part1:
     weight: 1
     allow-blank: false
     show-correct-answer: false
-    label: $a= $
-    suffix: $\rm\ J$
+    label: $d= $
+    suffix: $\rm\ m$
     comparison: relabs
     rtol: 0.03
     atol: 0
@@ -41,7 +41,7 @@ substitutions:
     vars:
       title: Electric potential of parallel plates
     E: '5.40'
-    V: '17.0'
+    V: '19.0'
 ---
 # {{ params.vars.title }}
 ## Question Text

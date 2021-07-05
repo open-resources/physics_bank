@@ -29,11 +29,11 @@ substitutions:
     d2: $2d$
     part1:
       ans1:
-        value: Spring B
-      ans2:
-        value: Not enough information is given.
-      ans3:
         value: It is a tie.
+      ans2:
+        value: Spring B
+      ans3:
+        value: Not enough information is given.
       ans4:
         value: Spring A
 ---
