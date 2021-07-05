@@ -29,13 +29,13 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: The position in a 1 dimensional system
+        value: velocity
       ans2:
-        value: Weight
-      ans3:
         value: Acceleration
+      ans3:
+        value: Force
       ans4:
-        value: Volume
+        value: Weight
       ans5:
         value: Work
       ans6:
