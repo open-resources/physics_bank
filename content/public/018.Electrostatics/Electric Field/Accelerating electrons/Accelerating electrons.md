@@ -39,21 +39,21 @@ part1:
 substitutions:
   params:
     vars:
-      title: Accelerating electrons
+      title: Identical Mass-Springs with Different Displacement
       units: {}
     d1: $d$
     d2: $2d$
     part1:
       ans1:
-        value: Spring B
-      ans2:
         value: Not enough information is given.
-      ans3:
+      ans2:
         value: It is a tie.
-      ans4:
+      ans3:
         value: Spring A
-    E: '5.20'
-    p: '4'
+      ans4:
+        value: Spring B
+    E: '3.80'
+    p: '5'
 ---
 # {{ params.vars.title }}
 A simple and common technique for accelerating electrons is shown in the figure, where there is a uniform electric field between two plates.

@@ -33,9 +33,9 @@ substitutions:
       ans2:
         value: It is a tie.
       ans3:
-        value: Spring B
-      ans4:
         value: Spring A
+      ans4:
+        value: Spring B
 ---
 # {{ params.vars.title }}
 Two identical springs are attached to two identical masses.

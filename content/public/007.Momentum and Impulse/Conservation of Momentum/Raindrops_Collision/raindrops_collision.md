@@ -26,27 +26,27 @@ substitutions:
     vars:
       title: Perfectly Inelastic Collision of Raindrops
       units: m/s
-    m1: 0.67
-    m2: 0.96
-    v1_i: -12.7
-    v2_i: -5.63
-    v1_j_abs: 7.9
-    v2_j_abs: 5.37
-    v1_j_sign: ' + '
+    m1: 0.28
+    m2: 0.12
+    v1_i: 18.7
+    v2_i: 7.21
+    v1_j_abs: 9.42
+    v2_j_abs: 5.82
+    v1_j_sign: ' - '
     v2_j_sign: ' - '
     part1:
       ans1:
-        value: -21.0$\hat{\imath}$ + 0.21$\hat{\jmath}$
+        value: 22.0$\hat{\imath}$ - 12.0$\hat{\jmath}$
       ans2:
-        value: -8.5$\hat{\imath}$ + 0.085$\hat{\jmath}$
+        value: 15.0$\hat{\imath}$ - 8.3$\hat{\jmath}$
       ans3:
-        value: -14.0$\hat{\imath}$ + 0.14$\hat{\jmath}$
+        value: 51.0$\hat{\imath}$ - 28.0$\hat{\jmath}$
       ans4:
-        value: -11.0$\hat{\imath}$ + 0.11$\hat{\jmath}$
+        value: 1.2$\hat{\imath}$ - 0.67$\hat{\jmath}$
       ans5:
-        value: -10.0$\hat{\imath}$ + 34.0$\hat{\jmath}$
+        value: 3.5$\hat{\imath}$ - 1.6$\hat{\jmath}$
       ans6:
-        value: -1.9$\hat{\imath}$ + 6.4$\hat{\jmath}$
+        value: 11.0$\hat{\imath}$ - 4.8$\hat{\jmath}$
 ---
 # {{ params.vars.title }}
 ## Part 1

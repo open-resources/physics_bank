@@ -45,11 +45,11 @@ substitutions:
       title: Spring on an Incline
       units1: m
       units2: J
-    m: 5
-    k: 650
+    m: 4
+    k: 633
     theta: 25
     mu: 0.25
-    d: 7
+    d: 6
     g: 9.8
 ---
 # {{ params.vars.title }}
