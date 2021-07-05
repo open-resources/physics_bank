@@ -1,12 +1,12 @@
 ---
-title: Battery Internal Resistance
-topic: Circuits
-author: Joseph Wandinger
-source: 2.10.2
+title: Electric potential energy of a cube
+topic: Electrostatics
+author: Jake Bobowksi
+source: 2.7.74
 template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 21.8.2.0
+- 18.11.2.3
 difficulty:
 - undefined
 randomization:
@@ -14,38 +14,39 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- JW
 - OSUP
+- volume 2
+- chapter 7
+- problem 74
+- electric potential energy
+- cube
+- numeric
+- JB
 assets: null
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: false
-    show-correct-answer: false
-    label: $I_\mathrm{f}/I_0= $
+    show-correct-answer: true
+    label: $U= $
+    suffix: $\rm\ J$
     comparison: relabs
     rtol: 0.03
     atol: 0
-    show-placeholder: false
 substitutions:
   params:
     vars:
-      title: Battery Internal Resistance
-    x: 5
-    N: 3
-    V_string: '12.75'
+      title: Electric potential energy of a cube
+    q: '2.60'
+    d: '2.00'
 ---
 # {{ params.vars.title }}
-A battery with an internal resistance of $r$ and an emf of {{ params.V_string }}$\textrm{ V}$ is connected to a load resistor $R = {{ params.N }}r$ and current $I_0$ flows.
-As the battery ages, the internal resistance increases by a factor of {{ params.x }}.
-## Part 1
+## Question Text
 
-Find the ratio $I\_\mathrm{f}/I_0$, where $I\_\mathrm{f}$ is the final current after the battery has aged.
+Find the electrostatic potential enerty of eight equal charges (${{ params.q }}\rm\ mu C$) each fixed at the corners of a cube of side ${{ params.d }}\textrm{ cm}$.
 
 ### Answer Section
-
-Please enter a rational number.
 
 ## Attribution
 

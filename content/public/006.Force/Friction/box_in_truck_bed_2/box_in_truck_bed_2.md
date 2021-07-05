@@ -25,7 +25,7 @@ substitutions:
   params:
     vars:
       title: Box in a Truck Bed 2
-      vehicle: van
+      vehicle: sedan
       direction: negative
     part1:
       ans1:

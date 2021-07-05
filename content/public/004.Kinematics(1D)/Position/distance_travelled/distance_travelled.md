@@ -23,8 +23,8 @@ part1:
 substitutions:
   params:
     vars:
-      name: Emilia
-      vehicle: a bicycle
+      name: Savannah
+      vehicle: a tricycle
       units: m/s
       title: Distance travelled
     v: 6
