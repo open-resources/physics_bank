@@ -46,7 +46,7 @@ substitutions:
 # {{ params.vars.title }}
 The surface charge density on a long straight hollow metallic pipe is Ï.  Assume the pipe has a diameter of $2a$.
 
-<img src="OSUPv2p6_64.png" width=200 alt="Charged conducting pipe">
+<img src="OSUPv2p7_64.png" width=200 alt="Charged conducting pipe">
 ## Part 1
 
 What is the electric potential inside the pipe?
