@@ -1,12 +1,12 @@
 ---
-title: Particle between charged plates
+title: Potential of a conducting pipe
 topic: Electrostatics
 author: Jake Bobowksi
-source: 2.7.61
+source: 2.7.64
 template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 18.11.2.4
+- 19.2.1.0
 difficulty:
 - undefined
 randomization:
@@ -16,40 +16,36 @@ taxonomy:
 tags:
 - OSUP
 - volume 2
-- chapter 6
-- problem 61
+- chapter 7
+- problem 64
 - electric potential
-- parallel plates
-- charged particle
-- numeric
+- conducting pipe
+- symbolic
 - JB
-assets: null
+assets:
+- OSUPv2p7_64.png
 part1:
-  type: number-input
+  type: symbolic-input
   pl-customizations:
+    label: $V_\mathrm{in} = $
+    variables: "a, r, R0, \u03C3, \u03F50"
     weight: 1
     allow-blank: false
-    show-correct-answer: false
-    label: $v= $
-    suffix: $\rm\ m/s$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
-    sig: '34'
-    d: '4.7'
-    particle: An electron
-    particle1: electron
-    p1: negative
-    p2: positive
+    vars:
+      title: Potential of a conducting pipe
 ---
 # {{ params.vars.title }}
-Two large plates of charge density ${{ params.sig }}\rm\ \mu C/m^2$ face each other at a separation of ${{ params.d }} \textrm{ mm}$.
-{{ params.particle }} is released from rest at the {{ params.p1 }} plate.
-## Question Text
+The surface charge density on a long straight hollow metallic pipe is Ï.  Assume the pipe has a diameter of $2a$.
 
-With what speed does the {{ params.particle1 }} strike the {{ params.p2 }} plate?
+<img src="OSUPv2p7_64.png" width=50 alt="Charged conducting pipe">
+## Part 1
+
+What is the electric potential inside the pipe?
+Choose the zero of electric potential to be a distance $R_0>a$ from the axis of the pipe.
+
+You may copy the Greek symbols Ïµ0 and Ï into your symbolic expression.
 
 ### Answer Section
 
