@@ -134,6 +134,8 @@ parts:
       energy of a cube/Electric potential energy of a cube
   - file: content/public/018.Electrostatics/Electric Potential/Particle between charged
       plates/Particle between charged plates
+  - file: content/public/018.Electrostatics/Electric Potential/Potential of a conducting
+      pipe/Potential of a conducting pipe
 - caption: Magnetism
   chapters:
   - file: content/public/019.Magnetism/Magnetic Force/Electron in a Solenoid/Electron
