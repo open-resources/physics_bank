@@ -26,7 +26,7 @@ substitutions:
   params:
     vars:
       title: Acceleration Around a Turn
-      vehicle: semi-truck
+      vehicle: bus
       dir: clockwise
     part1:
       ans1:
