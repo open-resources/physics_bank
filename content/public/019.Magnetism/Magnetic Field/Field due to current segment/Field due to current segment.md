@@ -1,17 +1,12 @@
 ---
-title: Electron in a Solenoid
+title: Field due to current segment
 topic: Magnetism
 author: Jake Bobowksi
-source: 2.12.55
+source: 2.12.16
 template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 19.2.3.0
-- 19.2.3.1
-- 19.3.2.0
-- 19.3.2.1
-- 19.6.1.0
-- 19.6.1.1
+- 18.11.2.3
 difficulty:
 - undefined
 randomization:
@@ -22,39 +17,41 @@ tags:
 - OSUP
 - volume 2
 - chapter 12
-- problem 55
-- magnetic force
-- solenoid
-- centripetal acceleration
-- circular motion
+- problem 16
+- Biot-Savart law
+- current segment
+- magnetic field
 - numeric
 - JB
-assets: null
+assets:
+- OSUPv2p12_16.png
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: false
     show-correct-answer: false
-    label: $I= $
-    suffix: $\rm\ A$
+    label: $B= $
+    suffix: $\rm\ T$
     comparison: relabs
     rtol: 0.03
     atol: 0
 substitutions:
   params:
-    n: '35'
-    r: '1.00'
-    v: '2.30'
-    p: '5'
+    vars:
+      title: Field due to current segment
+    I: '8.5'
+    x: '2.40'
+    y: '1.00'
+    dl: '0.20'
 ---
 # {{ params.vars.title }}
-A solenoid with ${{ params.n }}$ turns per centimter carries a current $I$.
-An electron moves within the solenoid in a circle of radius ${{ params.r}}\textrm{ cm}$.
-The plane of the circular motion is perpendicular to the axis of the solenoid.The speed of the electron is ${{ params.v }}\times 10^{ {{ params.p }} }\textrm{ m/s}$.
+A ${{ params.I }}\rm\ A$ current flows through the wire shown in the figure.
 ## Question Text
 
-What is the current $I$ in the solenoid?
+What is the magnitdue of the magnetic field due to a ${{ params.dl }}\rm\ mm$ segment of wire as measured at point P?
+
+<img src="OSUPv2p12_16.png" width=400 alt="A wire segment carrying a current">
 
 ### Answer Section
 
