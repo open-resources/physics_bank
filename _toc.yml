@@ -149,6 +149,8 @@ parts:
       due to current segment
   - file: content/public/019.Magnetism/Magnetic Field/Cancelling magnetic fields/Cancelling
       magnetic fields
+  - file: content/public/019.Magnetism/Magnetic Force/Suspended parallel wires/Suspended
+      parallel wires
   - file: content/public/019.Magnetism/Magnetic Force/Current through a spring/Current
       through a spring
   - file: content/public/019.Magnetism/Magnetic Force/Electron in a Solenoid/Electron
