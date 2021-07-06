@@ -26,20 +26,20 @@ substitutions:
   params:
     vars:
       title: Choose all Vectors and Scalars
-    choice: vectors
+    choice: scalars
     part1:
       ans1:
-        value: The average acceleration
+        value: Energy
       ans2:
-        value: The position in a 1 dimensional system
+        value: Entropy
       ans3:
-        value: Length
+        value: Area
       ans4:
-        value: Speed
+        value: Mass
       ans5:
-        value: Distance travelled
+        value: Displacement
       ans6:
-        value: Pressure
+        value: Momentum
 ---
 # {{ params.vars.title }}
 ## Question Text
