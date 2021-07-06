@@ -140,6 +140,8 @@ parts:
       pipe/Potential of a conducting pipe
 - caption: Magnetism
   chapters:
+  - file: content/public/019.Magnetism/Magnetic Field/Field due to current segment/Field
+      due to current segment
   - file: content/public/019.Magnetism/Magnetic Force/Current through a spring/Current
       through a spring
   - file: content/public/019.Magnetism/Magnetic Force/Electron in a Solenoid/Electron
