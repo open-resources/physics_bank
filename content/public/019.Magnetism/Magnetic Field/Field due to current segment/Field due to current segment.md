@@ -40,18 +40,19 @@ substitutions:
   params:
     vars:
       title: Field due to current segment
-    I: '8.5'
-    x: '2.40'
-    y: '1.00'
-    dl: '0.20'
+    I: '7.0'
+    x: '1.20'
+    y: '5.20'
+    dl: '0.50'
 ---
 # {{ params.vars.title }}
 A ${{ params.I }}\rm\ A$ current flows through the wire shown in the figure.
+Take $x = {{ params.x }}\rm\cm$ and $y = {{ params.y }}\rm\ cm$.
+
+<img src="OSUPv2p12_16.png" width=400 alt="A wire segment carrying a current">
 ## Question Text
 
 What is the magnitdue of the magnetic field due to a ${{ params.dl }}\rm\ mm$ segment of wire as measured at point P?
-
-<img src="OSUPv2p12_16.png" width=400 alt="A wire segment carrying a current">
 
 ### Answer Section
 

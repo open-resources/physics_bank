@@ -29,17 +29,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Power
+        value: Volume
       ans2:
-        value: Density
+        value: Mass
       ans3:
-        value: Area
-      ans4:
-        value: Energy
-      ans5:
         value: The position in 3 dimensions
-      ans6:
+      ans4:
+        value: Force
+      ans5:
         value: The position in a 1 dimensional system
+      ans6:
+        value: The average acceleration
 ---
 # {{ params.vars.title }}
 ## Question Text
