@@ -1,13 +1,12 @@
 ---
-title: Determining Capacitance
-topic: Circuits
-author: Ava Cornell
-source: 2.8.21
+title: Wire in an external magnetic field
+topic: Magnetism
+author: Jake Bobowksi
+source: 2.12.25
 template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
-- 21.7.1.0
-- 21.7.1.1
+- 19.2.4.1
 difficulty:
 - undefined
 randomization:
@@ -17,11 +16,13 @@ taxonomy:
 tags:
 - OSUP
 - volume 2
-- chapter 8
-- problem 23
-- capacitors
+- chapter 12
+- problem 25
+- Ampere's law
+- line of current
+- magnetic field
 - numeric
-- AC
+- JB
 assets: null
 part1:
   type: number-input
@@ -29,22 +30,24 @@ part1:
     weight: 1
     allow-blank: false
     show-correct-answer: false
-    label: $C= $
-    suffix: $\rm\ nF$
+    label: $B= $
+    suffix: $\rm\ \mu T$
     comparison: relabs
     rtol: 0.03
     atol: 0
 substitutions:
   params:
     vars:
-      title: Determining Capacitance
-    q: '2.2'
-    v: '210'
+      title: Wire in an external magnetic field
+    I: '22.0'
+    Bext: '33.0'
+    d: '19.0'
 ---
 # {{ params.vars.title }}
+A long, straight, horizontal wire carries a left-to-right current of ${{ params.I }}\rm\ A$.The wire is placed in a uniform magnetic field of magnitude ${{ params.Bext }}\rm\ mu T$ that is directed vertically downward.
 ## Question Text
 
-What capacitance is needed to store ${{params.q }}\rm\ \mu\textrm{C}$ of charge at a voltage of ${{params.v }}\textrm{ V}$? Enter your answer in units of $\textrm{nF}$.
+What is the magnitude of the net magnetic field ${{ params.d }}\rm\ cm$ above the wire?
 
 ### Answer Section
 
