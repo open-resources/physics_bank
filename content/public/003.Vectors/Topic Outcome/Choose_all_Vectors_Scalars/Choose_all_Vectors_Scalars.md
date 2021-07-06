@@ -29,15 +29,15 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Entropy
+        value: Density
       ans2:
-        value: Mass
+        value: Distance travelled
       ans3:
-        value: velocity
+        value: Mass
       ans4:
-        value: The position in 3 dimensions
+        value: Momentum
       ans5:
-        value: Acceleration
+        value: velocity
       ans6:
         value: The average velocity
 ---

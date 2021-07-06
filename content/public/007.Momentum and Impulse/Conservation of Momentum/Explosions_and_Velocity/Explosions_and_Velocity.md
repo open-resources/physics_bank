@@ -27,20 +27,20 @@ substitutions:
       title: Explosions and Velocity
       units: m/s
     part1:
-      I_A: 5
-      I_B: 5
-      v_A: 14
-      v_B: 32
-      m_pumpkin: 3
+      I_A: 7
+      I_B: 7
+      v_A: 28
+      v_B: 12
+      m_pumpkin: 8
       ans1:
         value: Yes, because of conservation of momentum
       ans2:
         value: No, because we have not accounted for how the explosion might have
           changed the momentum of the pumpkin.
       ans3:
-        value: No, because the velocity should be $v = $ 46 m/s
+        value: No, because the velocity should be $v = $ 40 m/s
       ans4:
-        value: No, because the velocity should be $v = $ 15.333333333333334 m/s
+        value: No, because the velocity should be $v = $ 5.0 m/s
 ---
 # {{ params.vars.title }}
 I put a bunch of explosives inside of a {{ params.part1.m_pumpkin }} kg pumpkin, which explodes in two pieces.
