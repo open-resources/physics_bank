@@ -172,3 +172,4 @@ parts:
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_6/OSUPv2p8_6
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_19/OSUPv2p8_19
   - file: content/public/021.Circuits/Current/OSUPv2.9.2/OSUPv2.9.2
+  - file: content/public/021.Circuits/Electrical Power/Immersion Heater/immersion_heater
