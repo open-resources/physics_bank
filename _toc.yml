@@ -145,6 +145,8 @@ parts:
   - file: content/public/019.Magnetism/Magnetic Field/Concentric current arcs/Concentric
       current arcs
   - file: content/public/019.Magnetism/Magnetic Field/Long thin wire/Long thin wire
+  - file: content/public/019.Magnetism/Magnetic Field/Semi-circular current loop/Semi-circular
+      Current Loop
   - file: content/public/019.Magnetism/Magnetic Field/Parallel wires in a circuit/Parallel
       wires in a circuit
   - file: content/public/019.Magnetism/Magnetic Field/Field due to current segment/Field
