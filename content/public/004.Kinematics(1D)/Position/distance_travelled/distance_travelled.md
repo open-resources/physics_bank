@@ -23,21 +23,21 @@ part1:
 substitutions:
   params:
     vars:
-      name: Ximena
+      name: Santiago
       vehicle: ice skates
       units: m
       title: Distance travelled
-    v: 4
-    t: 7
+    v: 2
+    t: 5
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 28
+        value: 10
       ans3:
-        value: 11
+        value: 7
       ans4:
-        value: 0.57
+        value: 0.4
       ans5:
         value: -3
       ans6:
