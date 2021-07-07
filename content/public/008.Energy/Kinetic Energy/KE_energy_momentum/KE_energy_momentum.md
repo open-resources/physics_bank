@@ -36,7 +36,7 @@ substitutions:
         value: If I throw an object diagonally up in the air, its momentum at the
           highest point will be zero.
       ans4:
-        value: If I throw an object into the AIR, the system composed of the object
+        value: If I throw an object into the air, the system composed of the object
           and the earth is a CLOSED system.
 ---
 # {{ params.vars.title }}

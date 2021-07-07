@@ -42,7 +42,7 @@ substitutions:
 # {{ params.vars.title }}
 ## Part 1
 
-The work required to accelerate an object in a frictionless surface from a speed of $v$ to a speed of $2v$ is:
+The work required to accelerate an object on a frictionless surface from a speed of $v$ to a speed of $2v$ is:
 
 ### Answer Section
 

@@ -26,32 +26,34 @@ substitutions:
     vars:
       title: Perfectly Inelastic Collision of Raindrops
       units: m/s
-    m1: 0.93
-    m2: 0.61
-    v1_i: 0.527
-    v2_i: -16.5
-    v1_j_abs: 13.6
-    v2_j_abs: 4.5
-    v1_j_sign: ' + '
+    m1: 0.35
+    m2: 0.39
+    v1_i: 13.1
+    v2_i: -4.01
+    v1_j_abs: 3.59
+    v2_j_abs: 19.6
+    v1_j_sign: ' - '
     v2_j_sign: ' - '
     part1:
       ans1:
-        value: -10.0$\hat{\imath}$ + 11.0$\hat{\jmath}$
+        value: 8.6$\hat{\imath}$ - 25.0$\hat{\jmath}$
       ans2:
-        value: -6.2$\hat{\imath}$ + 6.4$\hat{\jmath}$
+        value: 4.1$\hat{\imath}$ - 12.0$\hat{\jmath}$
       ans3:
-        value: -16.0$\hat{\imath}$ + 16.0$\hat{\jmath}$
+        value: 7.7$\hat{\imath}$ - 23.0$\hat{\jmath}$
       ans4:
-        value: -7.4$\hat{\imath}$ + 7.6$\hat{\jmath}$
+        value: 1.1$\hat{\imath}$ - 3.3$\hat{\jmath}$
       ans5:
-        value: 33.0$\hat{\imath}$ + 47.0$\hat{\jmath}$
+        value: 9.1$\hat{\imath}$ + 9.5$\hat{\jmath}$
       ans6:
-        value: 6.9$\hat{\imath}$ + 10.0$\hat{\jmath}$
+        value: 8.3$\hat{\imath}$ + 8.6$\hat{\jmath}$
 ---
 # {{ params.vars.title }}
+Two raindrops in a cloud collide perfectly inelastically. The first raindrop has a mass of {{ params.m1}} g and is travelling with $\vec{v_1} =$ ({{ params.v1_i}} $\hat{\imath}$ {{params.v1_j_sign}} {{ params.v1_j_abs}} $\hat{\jmath}$) m/s.
+The second raindrop has a mass of {{ params.m2}} g and is travelling with $\vec{v_2} =$ ({{ params.v2_i}} $\hat{\imath}$ {{params.v2_j_sign}} {{ params.v2_j_abs}} $\hat{\jmath}$) m/s.
 ## Part 1
 
-Two raindrops in a cloud collide perfectly inelastically. The first raindrop has a mass of {{ params.m1}} g and is travelling with $\vec{v_1} =$ ({{ params.v1_i}} $\hat{\imath}$ {{params.v1_j_sign}} {{ params.v1_j_abs}} $\hat{\jmath}$) m/s. The second raindrop has a mass of {{ params.m2}} g and is travelling with $\vec{v_2} =$ ({{ params.v2_i}} $\hat{\imath}$ {{params.v2_j_sign}} {{ params.v2_j_abs}} $\hat{\jmath}$) m/s. What is the resulting velocity of the combined raindrop?
+What is the resulting velocity of the combined raindrop?
 
 ### Answer Section
 

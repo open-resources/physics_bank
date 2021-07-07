@@ -66,7 +66,6 @@ As a result of the collision, which sphere's change in momentum has the greater 
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
 - {{ params.part1.ans5.value }}
-- {{ params.part1.ans6.value }}
 ## Part 2
 
 As a result of the collision, which sphere undergoes an acceleration of greater magnitude?
@@ -78,7 +77,6 @@ As a result of the collision, which sphere undergoes an acceleration of greater 
 - {{ params.part2.ans3.value }}
 - {{ params.part2.ans4.value }}
 - {{ params.part2.ans5.value }}
-- {{ params.part2.ans6.value }}
 
 ## Attribution
 

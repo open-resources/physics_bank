@@ -26,15 +26,17 @@ substitutions:
   params:
     vars:
       title: Acceleration Around a Turn
-      vehicle: car
+      vehicle: bus
       dir: clockwise
     part1:
       ans1:
         value: Figure A
-      ans3:
-        value: Figure B
       ans2:
+        value: Figure B
+      ans3:
         value: Figure C
+      ans4:
+        value: None of the above
 ---
 # {{ params.vars.title }}
 As you drive *{{ params.vars.dir }}* around a turn (as viewed from above), you see backed-up traffic ahead and so you slow down.
@@ -48,9 +50,7 @@ In which of the figures below does the arrow best represent the acceleration of 
 
 <div id="desc">
 <h5>Long Description of image: Figures of the same vehicle with the acceleration arrow pointing in different directions.</h5>
-Figure A shows the acceleration arrow perpendicular to the vehicle and pointing to the center of the circle. </br>
-Figure B shows the acceleration arrow pointing south west.</br>
-Figure C shows the acceleration arrow pointing north west.
+The acceleration arrow in A is pointing directly towards the centre of the track, in B the acceleration arrow points below the horizontal, and in C the acceleration arrow points above the horizontal.
 <p>Long description ends.</p>
 <div>
 
@@ -59,6 +59,7 @@ Figure C shows the acceleration arrow pointing north west.
 - {{ params.part1.ans1.value }}
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

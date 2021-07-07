@@ -41,7 +41,8 @@ substitutions:
 ## Part 1
 
 Car batteries are rated in ampere-hours ($\textrm{A}\cdot\textrm{h}$).
-What physical-quantity do ampere-hours represent?
+
+What physical quantity do ampere-hours correspond with?
 
 ### Answer Section
 

@@ -45,15 +45,15 @@ substitutions:
       title: Horizontal frictionless track
       units: N
     m: 1.75
-    v: 2
+    v: 8
     R: 1.0
-    L: 17
+    L: 10
 ---
 # {{ params.vars.title }}
 A small block of mass m = {{params.m}} kg is fired with an initial speed v0 = {{params.v}} m/s along a horizontal section of frictionless track, as shown in the top portion of the figure.
 The block then moves along the frictionless semicircular vertical track of radius R = {{params.R}} m.
 
-<img src="q12image.png" alt="Mass on frictionless track">
+![Mass on frictionless track.](q12image.png)
 ## Part 1
 
 (a) Determine the force exerted by the track on the block at point A.

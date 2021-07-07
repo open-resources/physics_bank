@@ -42,19 +42,20 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-    i: 326
-    m: 26
-    v_1: 26
-    v_2: 30
+      name: Lorenzo
+    i: 318
+    m: 30
+    v_1: 28
+    v_2: 20
 ---
 # {{ params.vars.title }}
-I am an astronaut caveman, floating in space.
-My rocket is powered by throwing rocks out of a hole in the back of the spaceship.
-The total inertia of me and my rocket is {{ params.i }} kg.
-I also have two {{ params.m }} kg rocks on board.
-We are initially at rest.
-I throw the first rock, and then we are moving with velocity {{ params.v_1 }} {{ params.vars.units1 }}.
-Then I throw the second rock out of the back and we are moving with velocity {{ params.v_2 }} {{ params.vars.units1 }} .
+{{params.vars.name}} is an astronaut, floating in space.
+Their rocket is powered by throwing rocks out of a hole in the back of the spaceship.
+The total inertia of {{params.vars.name}} and their rocket is {{ params.i }} kg.
+{{params.vars.name}} also has two {{ params.m }} kg rocks on board.
+They are initially at rest.
+{{params.vars.name}} throws the first rock, and then they are moving with velocity {{ params.v_1 }} {{ params.vars.units1 }}.
+Then {{params.vars.name}} throws the second rock out of the back and they are moving with velocity {{ params.v_2 }} {{ params.vars.units1 }} .
 ## Part 1
 
 (a) What is the total momentum of the system?
@@ -64,14 +65,14 @@ Then I throw the second rock out of the back and we are moving with velocity {{ 
 Please enter in a numeric value in {{ params.vars.units1 }}{{ params.vars.units2 }}.
 ## Part 2
 
-(b) With what velocity is the first rock I threw moving through space?
+(b) With what velocity is the first rock {{params.vars.name}} threw moving through space?
 
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units1 }}.
 ## Part 3
 
-(c) With what velocity is the second rock I threw moving through space?
+(c) With what velocity is the second rock {{params.vars.name}} threw moving through space?
 
 ### Answer Section
 

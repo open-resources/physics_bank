@@ -15,7 +15,8 @@ taxonomy:
 - undefined
 tags:
 - PW
-assets: null
+assets:
+- Physics_of_Roller_Coasters.png
 part1:
   type: multiple-choice
   pl-customizations:
@@ -25,23 +26,25 @@ substitutions:
     vars:
       title: Physics of Roller-Coasters
       units: m/s
-    r: 26.5
+    r: 14.9
     part1:
       ans1:
-        value: 32.2
+        value: 24.2
       ans2:
-        value: 36.1
+        value: 27.0
       ans3:
-        value: 27.9
+        value: 20.9
       ans4:
-        value: 22.8
+        value: 17.1
       ans5:
-        value: 16.1
+        value: 12.1
       ans6:
-        value: 39.5
+        value: 29.6
 ---
 # {{ params.vars.title }}
 A roller-coaster travels over a vertical, circular loop of radius $R = $ {{ params.r }} m.
+
+![A rollercoaster consisting of a single vertical loop.](Physics_of_Roller_Coasters.png)
 ## Part 1
 
 If it travels without friction along the track, what is the minimum speed required at the bottom of the loop such that the roller-coaster remains in contact with the track at the top of the loop?

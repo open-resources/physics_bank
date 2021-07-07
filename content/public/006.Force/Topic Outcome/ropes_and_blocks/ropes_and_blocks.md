@@ -53,16 +53,16 @@ substitutions:
       title: Ropes and Blocks
       units1: "$\frac{m}{s^2}$"
       units2: N
-    m_a: 2
-    m_b: 2
-    m_c: 2
-    f_a: 39
+    m_a: 4
+    m_b: 1
+    m_c: 5
+    f_a: 37
 ---
 # {{ params.vars.title }}
 Assume the three blocks portrayed in the figure move on a frictionless surface and a {{params.f_a}} N force
 acts as shown on block C. The masses of the blocks are as follows: $m_a$ = {{params.m_a}} kg, $m_b$ = {{params.m_b}} kg, $m_c$ = {{params.m_c}} kg.
 
-<img src="q13image.png" width=400 alt="Blocks A, B and C, with force F_a pulling on them">
+![Blocks A, B and C, with force F_a pulling on them](q13image.png)
 ## Part 1
 
 a) Determine the acceleration of block C.

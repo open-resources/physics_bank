@@ -52,7 +52,7 @@ substitutions:
       units1: N/m
       units3: m
     m: 318
-    T: 1.7
+    T: 1.5
     E: 4.2
 ---
 # {{ params.vars.title }}

@@ -18,7 +18,7 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- unknown
+- MP
 assets:
 - q10image.png
 part1:
@@ -45,19 +45,19 @@ substitutions:
       title: Spring on an Incline
       units1: m
       units2: J
-    m: 5
-    k: 650
-    theta: 26
+    m: 3
+    k: 663
+    theta: 28
     mu: 0.25
-    d: 9
+    d: 5
     g: 9.8
 ---
 # {{ params.vars.title }}
-A small {{params.m}} kg block is accelerated from rest on a flat surface by a compressed spring (k = {{params.k}} N/m) along a frictionless, horizontal surface.
-The block leaves the spring at the spring's equilibrium position (x = 0) and travels on an incline ($\theta$ = {{params.theta}}$^{\circ}$) with a coefficient of kinetic friction $\mu_k$ = {{params.mu}}.
+A small {{params.m}} kg block is accelerated from rest on a flat surface by a compressed spring ($k$ = {{params.k}} $N/m$) along a frictionless, horizontal surface.
+The block leaves the spring at the spring's equilibrium position ($x$ = 0) and travels on an incline ($\theta$ = {{params.theta}}$^{\circ}$) with a coefficient of kinetic friction $\mu_k$ = {{params.mu}}.
 The block moves a horizontal distance $D$ = {{params.d}} m before coming to a stop.
 
-<img src="q10image.png" width=300>
+![Pictured is a block being pushed towards a ramp by a compressed string.](q10image.png)
 ## Part 1
 
 (a) What is the initial compression of the spring?

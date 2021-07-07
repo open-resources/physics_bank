@@ -29,23 +29,22 @@ substitutions:
   params:
     vars:
       title: Rotational Inertia
-      units: m/s^2
     part1:
       ans1:
-        value: g
+        value: $g$
       ans2:
-        value: 3g/4
+        value: $3g \over 4$
       ans3:
-        value: 2g
+        value: $2g$
       ans4:
-        value: 2g/3
+        value: $2g \over 3$
       ans5:
-        value: g/2
+        value: $g \over 2$
 ---
 # {{ params.vars.title }}
 ## Question Text
 
-A length of massless thread is wound around a spool of mass M and radius R.
+A length of massless thread is wound around a spool of mass $M$ and radius $R$.
 The end of the thread is attached to a horizontal bar as shown in the figure.
 If the spool of thread is dropped from rest and falls without slipping, its acceleration will be:
 
@@ -53,11 +52,11 @@ If the spool of thread is dropped from rest and falls without slipping, its acce
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
-- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

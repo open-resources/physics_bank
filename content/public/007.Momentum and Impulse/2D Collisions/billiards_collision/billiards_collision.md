@@ -27,18 +27,18 @@ substitutions:
       title: Collision of Billiard Balls
     part1:
       ans1:
-        value: 'red ball: -v, cue ball: 3v'
+        value: 'red ball: $-v$, cue ball: $3v$'
       ans2:
-        value: 'red ball: v; cue ball: 2v'
+        value: 'red ball: $v$; cue ball: $2v$'
       ans3:
-        value: 'red ball: -3v; cue ball: v'
+        value: 'red ball: $-3v$; cue ball: $v$'
       ans4:
-        value: 'red ball: v; cue ball: 3v'
+        value: 'red ball: $v$; cue ball: $3v$'
       ans5:
         value: More information is needed.
 ---
 # {{ params.vars.title }}
-In a game of billards, a red billiard ball is traveling in the positive x-direction with speed v and the cue ball is traveling in the negative x-direction with speed 3v.
+In a game of billards, a red billiard ball is traveling in the positive x-direction with speed $v$ and the cue ball is traveling in the negative x-direction with speed $3v$.
 The two balls collide head on and the collision is elastic.
 The two balls have the same mass.
 ## Part 1

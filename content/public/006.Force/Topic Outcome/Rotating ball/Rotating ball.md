@@ -39,7 +39,7 @@ substitutions:
         value: Impossible to tell
 ---
 # {{ params.vars.title }}
-A ball is attached to a vertical rod by two strings of equal strength and length.  The rod begins to rotate with a rotational speed that continuously increases.
+A ball is attached to a vertical rod by two strings of equal strength and length. One end of the top string is attached to the very top of the rod, and one end of the bottom string is attached partway down the rod. The other ends of both strings attach to a single ball. The rod begins to rotate clockwise with a rotational speed that continuously increases.
 ## Part 1
 
 Which string breaks first?

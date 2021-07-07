@@ -49,11 +49,11 @@ substitutions:
 # {{ params.vars.title }}
 The position versus time graph of a mass on a spring is shown in the image.
 
-<img src="q1image.png" alt="Position vs. Time of Mass on Spring" width=300>
+![Position vs. Time of Mass on Spring](q1image.png)
 ## Part 1
 
-What can you say about the velocity of the mass and the net force of the mass at t=2s?
-(For a right-handed coordinate system, positive x is to the right)
+What can you say about the velocity of the mass and the net force of the mass at $t=2s$?
+(For a right-handed coordinate system, positive $x$ is to the right)
 
 ### Answer Section
 

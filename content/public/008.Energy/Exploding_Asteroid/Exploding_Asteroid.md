@@ -26,20 +26,21 @@ substitutions:
   params:
     vars:
       title: Exploding Asteroid
-      name: Savannah
-      name2: Savannah
+      name: Emilia
+      name2: Maya
     part1:
       ans1:
-        value: The momentum vectors they use to describe each of the two asteroid
-          pieces will be the same.
-      ans2:
-        value: They will both agree on how the internal energy of the system has changed.
-      ans3:
         value: They will both agree on how much kinetic energy each of the asteroid
           pieces has.
-      ans4:
-        value: They will both agree on how the TOTAL kinetic energy of the system
+      ans2:
+        value: They will both agree on how the kinetic energy of each of the pieces
           has changed.
+      ans3:
+        value: The total momentum vectors they use to describe the asteroid system
+          (both pieces) will be the same.
+      ans4:
+        value: The momentum vectors they use to describe each of the two asteroid
+          pieces will be the same.
       ans5:
         value: The final velocity vectors they use to describe the two asteroid pieces
           will be the same.

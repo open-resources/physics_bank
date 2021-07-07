@@ -27,21 +27,22 @@ substitutions:
       title: Energy Cosumption Units
     part1:
       ans1:
-        value: Voltage
+        value: charge
       ans2:
-        value: Energy
+        value: voltage
       ans3:
-        value: Current
+        value: current
       ans4:
-        value: Charge
+        value: power
       ans5:
-        value: Power
+        value: energy
 ---
 # {{ params.vars.title }}
 ## Part 1
 
 Your electric bill gives your consumption in units of kilowatt-hour ($\textrm{kW}\cdot\textrm{h}$).
-What physical quantity does this unit represent?
+
+Does this unit represent the amount of {{params.part1.ans1.value}}, {{params.part1.ans2.value}}, {{params.part1.ans3.value}}, {{params.part1.ans4.value}}, or {{params.part1.ans5.value}} you buy?
 
 ### Answer Section
 

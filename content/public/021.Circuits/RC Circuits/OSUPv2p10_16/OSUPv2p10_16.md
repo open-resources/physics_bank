@@ -16,7 +16,8 @@ taxonomy:
 - undefined
 tags:
 - JW
-assets: null
+assets:
+- OSUPv2p10_16.png
 part1:
   type: multiple-choice
   pl-customizations:
@@ -27,30 +28,33 @@ substitutions:
       title: RC Circuit with a Switch
     part1:
       ans1:
-        value: Nothing. Current cannot flow across the capacitor, so the lamp remains
-          dark.
+        value: Nothing. Current cannot flow across the capacitor, so the lightbulb
+          remains dark.
       ans2:
-        value: When the switch is first closed, the current through the lamp is high
-          and the lamp shines brightly. As the capacitor charges, the current decreases
-          to zero, and the brightness of the lamp decreases until it becomes completely
-          dark.
+        value: When the switch is first closed, the current through the lightbulb
+          is high and the lightbulb shines brightly. As the capacitor charges, the
+          current decreases to zero, and the brightness of the lightbulb decreases
+          until it becomes completely dark.
       ans3:
-        value: When the switch is first closed, the current through the lamp is low
-          and the lamp shines dimly. As the capacitor charges, the current increases
-          and the brightness of the lamp increases until it becomes very bright.
+        value: When the switch is first closed, the current through the lightbulb
+          is low and the lightbulb shines dimly. As the capacitor charges, the current
+          increases and the brightness of the lightbulb increases until it becomes
+          very bright.
       ans4:
-        value: Current flows and the lamp turns on.
+        value: Current flows and the lightbulb turns on.
       ans5:
         value: As the capacitor charges and discharges, the current flowing in the
-          circuit fluctuates, causing the lamp to fluctuate between being bright and
-          dark.
+          circuit fluctuates, causing the lightbulb to fluctuate between being bright
+          and dark.
 ---
 # {{ params.vars.title }}
-A battery, switch, capacitor, and lamp are connected in series.
+A battery, switch, capacitor, and lightbulb are connected in series.
 The switch is initially open.
+
+![A circuit with an open switch, a lightbulb, a capacitor, and a battery ](OSUPv2p10_16.png)
 ## Part 1
 
-Describe what happens to the lamp when the switch is closed.
+Describe what happens to the lightbulb when the switch is closed.
 
 ### Answer Section
 
