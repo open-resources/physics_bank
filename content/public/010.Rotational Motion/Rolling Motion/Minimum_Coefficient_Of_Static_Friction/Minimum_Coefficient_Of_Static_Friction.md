@@ -1,13 +1,12 @@
 ---
-title: Momentum and Interia
-topic: Momentum and Impulse
+title: Minimum Coefficient Of Static Friction
+topic: Rotational Motion
 author: Jake Bobowski
-source: 2016 Final Q9
+source: 2012 Practice Final Q8
 template_version: 1.0
 attribution: standard
 outcomes:
-- 7.2.1.0
-- 6.4.1.2
+- 10.3.2.3
 difficulty:
 - undefined
 randomization:
@@ -15,7 +14,7 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- AK
+- EW
 assets: null
 part1:
   type: multiple-choice
@@ -24,24 +23,27 @@ part1:
 substitutions:
   params:
     vars:
-      title: Momentum and Inertia
-      vehicle: truck
+      title: Minimum Coefficient Of Static Friction
+      vehicle: sedan
+    r: 90
+    v: 12
     part1:
       ans1:
-        value: The bee has more momentum, the bee has more inertia.
+        value: 6.1
       ans2:
-        value: The truck has more momentum, the bee has more inertia.
+        value: 0.16
       ans3:
-        value: The truck has more momentum, the truck has more inertia.
+        value: 1.6
       ans4:
-        value: The bee has more momentum, the truck has more inertia.
+        value: 0.014
       ans5:
-        value: "It can\u2019t be determined from this information."
+        value: 0.13
 ---
 # {{ params.vars.title }}
+A {{ params.vars.vehicle }} drives around a flat curve with radius $r$ = {{params.r}} $m$ at a speed of $v$ = {{params.v}} $\frac{m}{s}$.
 ## Part 1
 
-Which has greater momentum: a flying bumblebee or a stationary {{ params.vars.vehicle }}? Which has greater inertia?
+What is the minimum coefficient of static friction required to keep the car from slipping?
 
 ### Answer Section
 

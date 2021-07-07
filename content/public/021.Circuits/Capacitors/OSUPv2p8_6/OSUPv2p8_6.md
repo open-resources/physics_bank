@@ -1,13 +1,17 @@
 ---
-title: Determining Capacitance
+title: Maximizing Charge in a Capacitor Bank
 topic: Circuits
 author: Ava Cornell
-source: 2.8.21
+source: 2.8.6
 template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
 - 21.7.1.0
-- 21.7.1.1
+- 21.7.2.0
+- 21.7.3.0
+- 21.7.4.0
+- 21.7.5.0
+- 21.7.5.1
 difficulty:
 - undefined
 randomization:
@@ -18,35 +22,37 @@ tags:
 - OSUP
 - volume 2
 - chapter 8
-- problem 23
+- problem 6
 - capacitors
-- numeric
+- multiple choice
 - AC
 assets: null
 part1:
-  type: number-input
+  type: multiple-choice
   pl-customizations:
     weight: 1
-    allow-blank: false
-    show-correct-answer: false
-    label: $C= $
-    suffix: $\rm\ nF$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
-      title: Determining Capacitance
-    q: '3.2'
-    v: '290'
+      title: Maximizing Charge in a Capacitor Bank
+    part1:
+      ans1:
+        value: Parallel
+      ans2:
+        value: Series
+      ans3:
+        value: Both parallel and series connections are equally effective
 ---
 # {{ params.vars.title }}
-## Question Text
+## Part 1
 
-What capacitance is needed to store ${{params.q }}\rm\ \mu\textrm{C}$ of charge at a voltage of ${{params.v }}\textrm{ V}$? Enter your answer in units of $\textrm{nF}$.
+If you wish to store a large amount of charge in a capacitor bank, would you connect the capacitors in series or parallel?
 
 ### Answer Section
+
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

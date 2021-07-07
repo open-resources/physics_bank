@@ -1,12 +1,13 @@
 ---
-title: Angular Speed
-topic: Kinematics(2D and 3D)
+title: Tension In Rope
+topic: Force
 author: Jake Bobowski
-source: 2012 Practice Final Q2
-template_version: 1.0
+source: 2012 practice final
+template_version: 1.1
 attribution: standard
 outcomes:
-- 5.6.2.0
+- 6.1.1.0
+- 6.1.1.1
 difficulty:
 - undefined
 randomization:
@@ -15,7 +16,8 @@ taxonomy:
 - undefined
 tags:
 - EW
-assets: null
+assets:
+- Q10.png
 part1:
   type: multiple-choice
   pl-customizations:
@@ -23,30 +25,26 @@ part1:
 substitutions:
   params:
     vars:
-      title: Angular Speed
-      units: rad/s
-    rev: 15
+      title: Tension In Rope
     part1:
       ans1:
-        value: 0.42
+        value: less than the tension in rope 1
       ans2:
-        value: 47.0
+        value: equal to the tension in rope 1
       ans3:
-        value: 94.0
-      ans4:
-        value: 2.4
+        value: greater than the tension in rope 1
 ---
 # {{ params.vars.title }}
+<img src="Q10.png" alt= "Rope 1 depicts a single individual pulling on a rope, exerting 100N force on the rope. Rope 2 depicts two individuals pulling on opposite ends of the rope, each individual exterts 100N force on the rope" >
 ## Part 1
 
-What is the approximate angular speed of a windmill spinning at the rate of {{ params.rev }} rev/s.
+The tension in rope 2 is:
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

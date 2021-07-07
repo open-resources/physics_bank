@@ -34,12 +34,12 @@ substitutions:
       ans2:
         value: Incoherent deformations are dissipative
       ans3:
-        value: Irreversible processes are dissipative.
+        value: Coherent deformations are dissipative.
       ans4:
         value: Dissipative processes are one where the total mechanical energy is
           not conserved.
       ans5:
-        value: Coherent deformations are dissipative.
+        value: Irreversible processes are dissipative.
 ---
 # {{ params.vars.title }}
 ## Question Text
