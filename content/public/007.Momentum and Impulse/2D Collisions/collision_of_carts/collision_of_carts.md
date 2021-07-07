@@ -1,13 +1,12 @@
 ---
-title: Momentum and Interia
-topic: Momentum and Impulse
+title: Collision of Two Carts
+topic: Template
 author: Jake Bobowski
-source: 2016 Final Q9
-template_version: 1.0
+source: 2012 Midterm 2 Q2
+template_version: 1.1
 attribution: standard
 outcomes:
-- 7.2.1.0
-- 6.4.1.2
+- 7.6.1.1
 difficulty:
 - undefined
 randomization:
@@ -15,8 +14,9 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- AK
-assets: null
+- MP
+assets:
+- q2.png
 part1:
   type: multiple-choice
   pl-customizations:
@@ -24,24 +24,25 @@ part1:
 substitutions:
   params:
     vars:
-      title: Momentum and Inertia
-      vehicle: car
+      title: Collision of Two Carts
     part1:
       ans1:
-        value: The bee has more momentum, the bee has more inertia.
+        value: It is less than $p$.
       ans2:
-        value: The car has more momentum, the bee has more inertia.
+        value: It is equal to $p$.
       ans3:
-        value: The car has more momentum, the car has more inertia.
+        value: It is larger than $p$.
       ans4:
-        value: The bee has more momentum, the car has more inertia.
-      ans5:
-        value: "It can\u2019t be determined from this information."
+        value: It is impossible to predict what the momentum of cart B will be after
+          the collision.
 ---
 # {{ params.vars.title }}
+Cart A with momentum of magnitude $p$ collides with cart B and rebounds. Cart B is initially at rest.
+
+<img src="q2.png" alt= "Top: Carts rolling towards eachother. Bottom: carts collide and bounce off eachother" width = 400px>
 ## Part 1
 
-Which has greater momentum: a flying bumblebee or a stationary {{ params.vars.vehicle }}? Which has greater inertia?
+What can you say about the momentum of cart B after the collision?
 
 ### Answer Section
 
@@ -49,7 +50,6 @@ Which has greater momentum: a flying bumblebee or a stationary {{ params.vars.ve
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
 
 ## Attribution
 

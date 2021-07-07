@@ -37,8 +37,8 @@ part1:
     atol: 0
 substitutions:
   params:
-    sig: '12'
-    d: '4.6'
+    sig: '40'
+    d: '3.5'
     particle: A proton
     particle1: proton
     p1: positive
