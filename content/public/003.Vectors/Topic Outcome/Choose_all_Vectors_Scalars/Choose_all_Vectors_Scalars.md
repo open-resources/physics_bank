@@ -29,17 +29,17 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: Displacement
+        value: Weight
       ans2:
-        value: Acceleration
+        value: Force
       ans3:
-        value: Density
+        value: Momentum
       ans4:
-        value: Temperature
+        value: Area
       ans5:
-        value: Volume
-      ans6:
         value: Length
+      ans6:
+        value: Speed
 ---
 # {{ params.vars.title }}
 ## Question Text
