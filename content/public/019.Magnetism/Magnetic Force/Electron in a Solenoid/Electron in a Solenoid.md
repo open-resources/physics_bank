@@ -43,8 +43,8 @@ part1:
     atol: 0
 substitutions:
   params:
-    n: '20'
-    r: '2.80'
+    n: '35'
+    r: '1.50'
     v: '1.40'
     p: '6'
 ---

@@ -1,12 +1,12 @@
 ---
-title: Collision of a Cart with a Spring
-topic: Energy
+title: The Magnitude of a Particle's Vector
+topic: Kinematics (1D)
 author: Jake Bobowski
-source: 2015 Final Q11
-template_version: 1.0
+source: 2012 Final Q1
+template_version: 1.1
 attribution: standard
 outcomes:
-- 8.3.3.0
+- 4.7.3.0
 difficulty:
 - undefined
 randomization:
@@ -21,24 +21,24 @@ part1:
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $v= $
-    suffix: $m/s$
+    label: 'Magnitude = '
+    suffix: $m/s^2$
     comparison: sigfig
-    digits: 2
+    digits: 3
 substitutions:
   params:
     vars:
-      title: Collision of a Cart with a Spring
-      units: m/s
-    m: 87
-    k: 270
-    x: 59
+      title: The Magnitude of a Particle's Vector
+      units: $m/s^2$
+    r_i: -6t^3 + 6t^2 - 6t
+    r_j: 6t^2 - 5t
+    t: 8
+    choice: velocity
 ---
 # {{ params.vars.title }}
-A  {{ params.m }}  $kg$  runaway  grocery  cart  runs  into  a  spring  with a spring  constant $k = $  {{ params.k }}  $N/m$  and compresses it by {{ params.x }} $cm$ before momentarily coming to rest.
 ## Question Text
 
-What was the speed of the cart just before it hit the spring?
+A particle has a trajectory given as $\vec{r} = ({{ params.r_i }}) \hat{\imath} + ({{ params.r_j }}) \hat{\jmath}$ m for $t$ given in seconds. What is the magnitude of the {{ params.choice }} vector for this particle at $t = $ {{ params.t }} s?
 
 ### Answer Section
 
