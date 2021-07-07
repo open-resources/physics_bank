@@ -26,18 +26,18 @@ substitutions:
     vars:
       units: rad/s
       title: Wheel of Fortune
-    w_i: 1.57
-    t: 4
-    w_int: 2
+    w_i: 1.05
+    t: 5
+    w_int: 3
     part1:
       ans1:
-        value: 3.7
+        value: 1.98
       ans2:
-        value: 1.92
+        value: 1.41
       ans3:
-        value: 3.85
+        value: 2.81
       ans4:
-        value: $\pi$/2
+        value: $\pi$/3
 ---
 # {{ params.vars.title }}
 I want to win a game of Wheel-of-Fortune.

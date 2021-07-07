@@ -1,14 +1,14 @@
 ---
-title: The Energy Expenditure of a Jogger
-topic: Work
+title: Force and Momentum
+topic: Force
 author: Jake Bobowski
-source: 2015 Final Q5
-template_version: 1.0
+source: 2015 Final Q8
+template_version: 1.1
 attribution: standard
 outcomes:
-- 9.3.1.0
-- 9.3.1.1
-- 9.1.1.0
+- 6.5.1.1
+- 6.5.1.2
+- 7.2.1.1
 difficulty:
 - undefined
 randomization:
@@ -25,29 +25,30 @@ part1:
 substitutions:
   params:
     vars:
-      title: The Energy Expenditure of a Jogger
-      units: W
-    F: 21
-    v: 6.7
+      title: Force and Momentum
+      units: N
+    p_i: 4t^2 + 5t
+    p_j: 8t^2 + t
+    time: 11.7
     part1:
       ans1:
-        value: 14.0
+        value: 0
       ans2:
-        value: 140.0
+        value: (98.6$\hat\imath$ + 188.0$\hat\jmath$)
       ans3:
-        value: 940.0
+        value: (-98.6$\hat\imath$ - 188.0$\hat\jmath$)
       ans4:
-        value: 280.0
+        value: (98.6$\hat\imath$ - 188.0$\hat\jmath$)
       ans5:
-        value: 420.0
+        value: (-98.6$\hat\imath$ + 188.0$\hat\jmath$)
       ans6:
-        value: 70.0
+        value: (-197.2$\hat\imath$ + 188.0$\hat\jmath$)
 ---
 # {{ params.vars.title }}
-Suppose a jogger has to exert a force of {{ params.F }} $N$ against air resistance to maintain a velocity of {{ params.v }} $m/s$.
+The momentum of an object as a function of time is given by $\vec{p} = ({{ params.p_i }})\hat{\imath} + ({{ params.p_j }})\hat{\jmath}$ where $p$ is in $kg\cdot m/s$ and $t$ is in seconds.
 ## Part 1
 
-At what rate is the jogger expending energy?
+What is the net force on the object at $t=$ {{ params.time }} $s$?
 
 ### Answer Section
 
