@@ -61,6 +61,8 @@ parts:
       max acceleration without slipping
   - file: content/public/006.Force/Topic Outcome/Frictionless Air Track/Frictionless
       Air Track
+  - file: content/public/006.Force/Topic Outcome/Greatest Tension in Rope/Greatest
+      Tension in Rope
   - file: content/public/006.Force/Topic Outcome/ropes_and_blocks/ropes_and_blocks
   - file: content/public/006.Force/Topic Outcome/Rotating ball/Rotating ball
   - file: content/public/006.Force/Topic Outcome/velocity_netforce/velocity_netforce
