@@ -1,8 +1,8 @@
 ---
-title: Electrons In a Wire
-topic: Circuits
+title: Cathode Ray Tube
+topic: Current
 author: Vanshika Sharma
-source: 2.9.23
+source: 2.9.22
 template_version: 1.1
 attribution: standard
 outcomes:
@@ -23,27 +23,29 @@ part1:
   pl-customizations:
     weight: 1
     allow-blank: false
-    show-correct-answer: false
-    label: 'Number of electrons = '
+    label: Number of electrons =
     comparison: relabs
     rtol: 0.03
     atol: 0
 substitutions:
   params:
     vars:
-      title: Electrons In a Wire
-      units: m/s
-    I: 45
-    t: 36
+      title: Cathode Ray Tube
+    I: 21
+    t: 3
 ---
 # {{ params.vars.title }}
+A cathode ray tube (CRT) is a device that produces a focused beam of electrons in a vacuum.
+The electrons strike a phosphor-coated glass screen at the end of the tube, which produces a bright spot of light.
+The position of the bright spot on the screen can be adjusted by deflecting the electrons with electrical fields, magnetic fields, or both.
 ## Question Text
 
-How many electrons flow through a point in a wire in {{params.t}} s if there is a constant current of {{params.I}} $\textrm{A}$.
+Consider a CRT with an electron beam average current of ${{params.I}}\rm\ \mu A$.
+How many electrons strike the screen every {{params.t}} minutes?
 
 ### Answer Section
 
-Please enter a numeric value.
+Please enter in a numeric value.
 
 ## Attribution
 
