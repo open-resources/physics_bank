@@ -73,6 +73,8 @@ parts:
   - file: content/public/006.Force/Newton's Third Law/Force Vectors/force_vectors
   - file: content/public/006.Force/Newton's Third Law/Tension_In_Rope/Tention_In_Rope
   - file: content/public/006.Force/Springs/Bungee_jumping/bungee_jumping
+  - file: content/public/006.Force/Newton's Second Law/Force and Momentum/Force and
+      Momentum
 - caption: Momentum and Impulse
   chapters:
   - file: content/public/007.Momentum and Impulse/Impulse/Bouncing_Ball/Bouncing_Ball
