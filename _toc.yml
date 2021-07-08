@@ -43,6 +43,7 @@ parts:
   - file: content/public/004.Kinematics(1D)/water_slide/water_slide
 - caption: Force
   chapters:
+  - file: content/public/005.Force/Doorstop/Doorstop
   - file: content/public/005.Force/Topic Outcome/Frictionless Air Track/Frictionless
       Air Track
 - caption: Kinematics(2D and 3D)
