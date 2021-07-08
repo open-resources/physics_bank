@@ -1,12 +1,13 @@
 ---
-title: Turning car
-topic: Kinematics (2D)
+title: Doorstop
+topic: Force
 author: Jake Bobowski
-source: Final 2016 Q10
-template_version: 1.0
+source: 2016 Final Q11
+template_version: 1.1
 attribution: standard
 outcomes:
-- 5.7.1.0
+- 6.9.1.3
+- 6.1.1.1
 difficulty:
 - undefined
 randomization:
@@ -25,28 +26,27 @@ part1:
 substitutions:
   params:
     vars:
-      title: Turning Car
-      vehicle: van
+      title: Doorstop
     part1:
       ans1:
-        value: There is a force pushing everything to the right.
+        value: Doing so increases the coefficient of friction.
       ans2:
-        value: Your head (and eyes) are not in an inertial reference frame, and so
-          things are moving for no reason.
+        value: Doing so increases the normal force between the floor and the bottom
+          of the wedge.
       ans3:
-        value: Your van is moving along a circular path, and a centripetal acceleration
-          is required. Without a force to push it towards the middle, objects(your
-          shoulders, the soup cans) will NOT move in a circle along with the rest
-          of the van, and so will move relative to the van's interior.
+        value: In this position, moving the door INTO the wedge (to close it) will
+          increase the static friction force between the wedge and the floor.
       ans4:
-        value: Turning to the right forces your van to tilt, and all the cans and
-          the shoulders shift down-hill.
+        value: Doing so causes the friction to become kinetic friction instead of
+          static friction.
+      ans5:
+        value: Ghosts. It keeps ghosts from pushing the door shut.
 ---
 # {{ params.vars.title }}
-If you are sitting in the passenger seat of a {{ params.vars.vehicle}} that makes a quick left turn, your shoulders seem to lean to the right (and all of the soup cans on the floor roll to the right).
+Often a wedge-shaped doorstop won't hold a door open unless you kick it until it sits tightly under the door.
 ## Question Text
 
-What causes this apparent rightward motion?
+What does forcing the wedge into a tight fit accomplish?
 
 ### Answer Section
 
@@ -58,6 +58,7 @@ Note: You will be awarded full marks only if you select all the correct choices,
 - {{ params.part1.ans2.value}}
 - {{ params.part1.ans3.value}}
 - {{ params.part1.ans4.value}}
+- {{ params.part1.ans5.value}}
 
 ## Attribution
 

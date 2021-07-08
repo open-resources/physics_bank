@@ -44,10 +44,10 @@ substitutions:
     vars:
       title: Horizontal frictionless track
       units: N
-    m: 4.25
-    v: 4
-    R: 0.5
-    L: 16
+    m: 4.75
+    v: 6
+    R: 1.0
+    L: 10
 ---
 # {{ params.vars.title }}
 A small block of mass m = {{params.m}} kg is fired with an initial speed v0 = {{params.v}} m/s along a horizontal section of frictionless track, as shown in the top portion of the figure.
