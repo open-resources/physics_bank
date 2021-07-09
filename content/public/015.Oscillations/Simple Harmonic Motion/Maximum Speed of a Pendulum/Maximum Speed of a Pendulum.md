@@ -1,12 +1,12 @@
 ---
-title: Firing a Ball using a Compressed Spring
-topic: Energy
+title: Maximum Speed of a Pendulum
+topic: Oscillations
 author: Jake Bobowski
-source: 2013 Practice Final Q4
+source: 2013 Practice Final Q3
 template_version: 1.1
 attribution: standard
 outcomes:
-- 8.5.1.1
+- 15.2.1.3
 difficulty:
 - undefined
 randomization:
@@ -23,27 +23,30 @@ part1:
 substitutions:
   params:
     vars:
-      title: Firing a Ball using a Compressed Spring
-    choice: quartered
+      title: Maximum Speed of a Pendulum
+    choice: doubled
     part1:
       ans1:
-        value: The ball will reach one quarter of the previous height.
+        value: multiplied by a factor of $\sqrt{2}$
       ans2:
-        value: The ball will reach four times the height previously reached.
+        value: quartered
       ans3:
-        value: The ball will reach half the height previously reached.
+        value: quadrupled
       ans4:
-        value: The ball will reach the same height as before.
+        value: unchanged
       ans5:
-        value: The ball will reach twice the height as before.
+        value: multiplied by a factor of $\dfrac{1}{\sqrt{2}}$
       ans6:
-        value: The ball will reach thrice the height as before.
+        value: halved
+      ans7:
+        value: doubled
 ---
 # {{ params.vars.title }}
-A compressed spring fires a ball of mass $m$ directly upwards.
+A  simple  pendulum  swings  at  small  angles.
 ## Part 1
 
-If the mass of the  ball  and  the  initial  compression  of  the  spring  are  both  {{ params.choice }}, (neglect  air resistance) then,
+If  the  amplitude  and  length  of the pendulum are both {{ params.choice }}, the maximum speed of the pendulum's bob is:
+(you may assume that the amplitude remains sufficiently small that it still undergoes simple harmonic motion)
 
 ### Answer Section
 
@@ -53,6 +56,7 @@ If the mass of the  ball  and  the  initial  compression  of  the  spring  are  
 - {{ params.part1.ans4.value }}
 - {{ params.part1.ans5.value }}
 - {{ params.part1.ans6.value }}
+- {{ params.part1.ans7.value }}
 
 ## Attribution
 
