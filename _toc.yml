@@ -133,6 +133,7 @@ parts:
 - caption: Rotational Dynamics
   chapters:
   - file: content/public/011.Rotational Dynamics/Topic Outcome/thread_on_spool/thread_on_spool
+  - file: content/public/011.Rotational Dynamics/Rotation about a Fixed Axis/pair_of_buckets/pair_of_buckets
 - caption: Elasticity
   chapters:
   - file: content/public/014.Elasticity/Topic Outcome/Identical Mass-Springs with
