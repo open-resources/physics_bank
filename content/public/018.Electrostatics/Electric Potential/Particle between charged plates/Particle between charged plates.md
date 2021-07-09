@@ -38,7 +38,7 @@ part1:
 substitutions:
   params:
     sig: '12'
-    d: '4.9'
+    d: '3.4'
     particle: An electron
     particle1: electron
     p1: negative
