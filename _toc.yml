@@ -62,6 +62,8 @@ parts:
       Force between tires and road
   - file: content/public/006.Force/Friction/box_in_vehicle/box_in_vehicle
   - file: content/public/006.Force/Friction/spring_on_ramp/spring_on_ramp
+  - file: content/public/006.Force/Friction/Antilock braking systems/Antilock braking
+      systems
   - file: content/public/006.Force/Friction/box_in_truck_bed_2/box_in_truck_bed_2
   - file: content/public/006.Force/Dynamics of Circular Motion/object_on_string/object_on_string
   - file: content/public/006.Force/Topic Outcome/The max acceleration without slipping/The
@@ -141,6 +143,10 @@ parts:
   chapters:
   - file: content/public/014.Elasticity/Topic Outcome/Identical Mass-Springs with
       different Displacement/Identical Mass-Springs with different Displacement
+- caption: Oscillations
+  chapters:
+  - file: content/public/015.Oscillations/Simple Harmonic Motion/Maximum Speed of
+      a Pendulum/Maximum Speed of a Pendulum
 - caption: Electrostatics
   chapters:
   - file: content/public/018.Electrostatics/Electric Field/Accelerating electrons/Accelerating
