@@ -113,6 +113,8 @@ parts:
   - file: content/public/008.Energy/Conservation of Energy/ball_race/2012Final_q3
   - file: content/public/008.Energy/Conservation of Energy/Physics of Roller Coasters/Physics
       of Roller Coasters
+  - file: content/public/008.Energy/Conservation of Energy/Firing a ball using a compressed
+      spring/Firing a ball using a compressed spring
   - file: content/public/008.Energy/Conservation of Energy/Cut The Rope/Cut The Rope
   - file: content/public/008.Energy/Conservation of Energy/Falling bucket/Falling
       bucket
