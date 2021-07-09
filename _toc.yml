@@ -54,6 +54,7 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Turning_Car/Turning_car
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/ski_jump/ski_jump
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/centripetal_force/centripetal_force
+  - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/RollerCoaster/RollerCoaster
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/angular_speed/angular_speed
 - caption: Force
   chapters:
