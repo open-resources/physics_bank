@@ -1,15 +1,12 @@
 ---
-title: Falling Bucket
+title: Equilibrium Length of a Spring
 topic: Energy
 author: Jake Bobowski
-source: 2015 Final Q17
+source: 2012 Final Q9
 template_version: 1.1
 attribution: standard
 outcomes:
-- 8.5.1.1
-- 8.5.1.2
-- 10.5.2.2
-- 10.5.2.3
+- 8.3.3.0
 difficulty:
 - undefined
 randomization:
@@ -18,34 +15,28 @@ taxonomy:
 - undefined
 tags:
 - PW
-assets:
-- q17_2015Final.png
+assets: null
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $v = $
-    suffix: m/s
+    label: $x= $
+    suffix: m
     comparison: sigfig
-    digits: 3
+    digits: 2
 substitutions:
   params:
     vars:
-      title: Falling Bucket
-      units: m/s
-    m_b: 13.4
-    m_c: 5.17
-    h: 58.7
-    r: 47.8
+      title: Equilibrium Length of a Spring
+      units: J
+    Ux: 19x^2 - 3x + 43
 ---
 # {{ params.vars.title }}
-A bucket of mass $m_b$ = {{ params.m_b }} $kg$ is knocked off the side of a well.  The bucket falls {{ params.h }} $m$ to the bottom of the well.  Attached to the bucket is a light rope that wraps around a cylinder of radius $r = $ {{ params.r}} $cm$ and mass $m_c$ = {{ params.m_c }} $kg$.
-
-![](q17_2015Final.png)
+The potential energy of a spring is given by $U(x) = ({{ params.Ux }}) $ ${{ params.vars.units }}$ if $x$ is given in metres.
 ## Question Text
 
-How fast is the bucket falling just before it hits the ground?
+What is the equilibrium length of the spring?
 
 ### Answer Section
 

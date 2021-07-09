@@ -29,17 +29,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Distance travelled
+        value: Entropy
       ans2:
         value: Speed
       ans3:
-        value: Acceleration
+        value: Density
       ans4:
-        value: velocity
+        value: Temperature
       ans5:
-        value: Force
+        value: The position in 3 dimensions
       ans6:
-        value: Momentum
+        value: The average velocity
 ---
 # {{ params.vars.title }}
 ## Question Text
