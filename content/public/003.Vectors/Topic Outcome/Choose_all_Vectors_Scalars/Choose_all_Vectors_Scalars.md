@@ -29,15 +29,15 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Entropy
+        value: Work
       ans2:
-        value: Speed
+        value: Distance travelled
       ans3:
-        value: Density
-      ans4:
         value: Temperature
+      ans4:
+        value: Density
       ans5:
-        value: The position in 3 dimensions
+        value: Lift
       ans6:
         value: The average velocity
 ---
