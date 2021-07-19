@@ -2,6 +2,15 @@
 
 Below is a list of suggestions and recommendataions when authoring questions.
 
+## Legend
+- Shuffling Choices
+- Preventing Randomization
+- Answer choices containing $\pm$ 
+- Dealing with vectors and polynomials
+- Creating and using your own functions
+- Sympy
+- Adding Images to a Question
+
 ## Shuffling choices
 
 Let's imagine an MCQ that has 3 distractors and 1 correct choice (total of 4).
@@ -112,9 +121,9 @@ As opposed to:
 Y = 0.5 * X or Y = 1/2 * X
 At this time, there isn't a clear way for using floats in PL via sympy. 
 
-### You get the error: "Object of type Mul is not JSON serializable"
+### You get the error: "Object of type Null is not JSON serializable"
 The code here: 
-    '''
+    
     # Declare math symbols to be used by sympy
     t, v_o, g = sp.symbols('t, v_o, g')
     
@@ -132,11 +141,11 @@ The code here:
     # Describe the solution equation
     x1 = a1*t**2/2
     x2 = l + v_o*t + a1*t**2/2
-    '''
+    
     
 Will result in the error. The code below will not:
 
-    '''
+    
     # Declare math symbols to be used by sympy
     t, v_o, g = sp.symbols('t, v_o, g')
     
@@ -154,6 +163,22 @@ Will result in the error. The code below will not:
     # Describe the solution equation   
     x1 = t**2 / 2 * g * sp.sin(sp.pi*theta/180)
     x2 = 1 + v_o*t + t**2 / 2 * g * sp.sin(sp.pi*theta/180)
-    '''
+    
  
  Be sure to use sp.sin rather than math.sin for symbolics, and remember that pl.to_json conversion or pl.sympy_to_json doesn't like floats.
+
+## Adding Images to a Question
+
+If you want to add an image to a question: 
+1. Add the image(s) to the same folder where the question file is. A PNG file is preferred.
+2. Add the name of the image to the assets section in the following format: 
+
+    ```
+    assets: 
+    - image1.png
+    - image2.png
+    server: 
+    ```
+    
+See q01_multiple-choice.md for an example.
+    
