@@ -29,17 +29,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Work
-      ans2:
-        value: Distance travelled
-      ans3:
         value: Temperature
+      ans2:
+        value: Energy
+      ans3:
+        value: Force
       ans4:
-        value: Density
+        value: velocity
       ans5:
-        value: Lift
-      ans6:
         value: The average velocity
+      ans6:
+        value: Momentum
 ---
 # {{ params.vars.title }}
 ## Question Text

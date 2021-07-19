@@ -42,11 +42,11 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-      name: Savannah
-    i: 311
-    m: 29
-    v_1: 21
-    v_2: 25
+      name: Emilia
+    i: 351
+    m: 26
+    v_1: 6
+    v_2: 14
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.
