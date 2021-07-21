@@ -1,13 +1,13 @@
 ---
-title: Charge Stored in a Capacitor
-topic: Circuits
-author: Ava Cornell
-source: 2.8.19
+title: Temperature Range of Resistor
+topic: Resistance
+author: Vanshika Sharma
+source: 2.9.44
 template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
-- 21.7.1.0
-- 21.7.1.1
+- 21.3.1.0
+- 21.3.3.0
 difficulty:
 - undefined
 randomization:
@@ -17,34 +17,35 @@ taxonomy:
 tags:
 - OSUP
 - volume 2
-- chapter 8
-- problem 19
-- capacitors
-- numeric
-- AC
+- chapter 9
+- problem 44
+- resistance
+- temperature
+- VS
 assets: null
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: false
-    show-correct-answer: false
-    label: $Q= $
-    suffix: $\rm\ C$
+    label: $$\Delta T = \pm $
+    suffix: $^{\circ}\textrm{C}$
     comparison: relabs
     rtol: 0.03
     atol: 0
 substitutions:
   params:
     vars:
-      title: Charge Stored in a Capacitor
-    c: '105'
-    v: '155'
+      title: Temperature Range of Resistor
+    p: 4
+    metal: Gold
+    T_0: 44
 ---
 # {{ params.vars.title }}
 ## Question Text
 
-What charge is stored in a ${{params.c }} \rm\ \mu\textrm{F}$ capacitor when ${{params.v }}\textrm{ V}$ is applied to it?
+A resistor made of {{params.metal}} wire is used in an application where its resistance cannot change more than {{params.p}} $\rm{%}$ from its value at {{params.T_0}}$^{\circ}\textrm{C}$.
+Over what temperature range can it be used?
 
 ### Answer Section
 

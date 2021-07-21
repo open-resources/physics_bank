@@ -1,13 +1,13 @@
 ---
-title: Charge Stored in a Capacitor
-topic: Circuits
-author: Ava Cornell
-source: 2.8.19
+title: Length of Wire
+topic: Resistance
+author: Vanshika Sharma
+source: 2.9.57
 template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
-- 21.7.1.0
-- 21.7.1.1
+- 21.3.1.1
+- 21.6.1.0
 difficulty:
 - undefined
 randomization:
@@ -17,34 +17,34 @@ taxonomy:
 tags:
 - OSUP
 - volume 2
-- chapter 8
-- problem 19
-- capacitors
-- numeric
-- AC
+- chapter 9
+- problem 57
+- resistance
+- coil
 assets: null
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: false
-    show-correct-answer: false
-    label: $Q= $
-    suffix: $\rm\ C$
+    label: $L= $
+    suffix: $\rm\ m$
     comparison: relabs
     rtol: 0.03
     atol: 0
 substitutions:
   params:
     vars:
-      title: Charge Stored in a Capacitor
-    c: '105'
-    v: '155'
+      title: Length of Wire
+      units: m
+    V: 171
+    P: 393
 ---
 # {{ params.vars.title }}
 ## Question Text
 
-What charge is stored in a ${{params.c }} \rm\ \mu\textrm{F}$ capacitor when ${{params.v }}\textrm{ V}$ is applied to it?
+A heater is being designed that uses a coil of 14-gauge nichrome wire to generate {{params.P}} $\textrm{W}$ using a voltage of {{params.V}} $\textrm{V}$.
+What is the length of the wire that the engineer should produce?
 
 ### Answer Section
 

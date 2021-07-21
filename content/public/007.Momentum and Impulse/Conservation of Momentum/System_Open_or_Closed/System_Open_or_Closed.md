@@ -26,9 +26,9 @@ substitutions:
   params:
     vars:
       title: System Open or Closed
-      vehicle: bus
+      vehicle: van
       units: kg
-    i_a: 65
+    i_a: 108
     i_b: 330
     part1:
       ans1:
