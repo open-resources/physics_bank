@@ -190,6 +190,8 @@ parts:
   chapters:
   - file: content/public/021.Circuits/RC Circuits/OSUPv2p10_16/OSUPv2p10_16
   - file: content/public/021.Circuits/Resistance/OSUPv2p10_02/OSUPv2p10_02
+  - file: content/public/021.Circuits/Resistance/Temperature Range of Resistor/temp_range_of_resistor
+  - file: content/public/021.Circuits/Resistance/Length of Wire/length_of_wire
   - file: content/public/021.Circuits/Ohm's Law/OSUPv2.9.13/OSUPv2.9.13
   - file: content/public/021.Circuits/Electrical Energy/OSUPv2.9.16/OSUPv2.9.16
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_23/OSUPv2p8_23
