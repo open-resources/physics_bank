@@ -1,12 +1,13 @@
 ---
-title: Rotational Displacement of Tires
-topic: Rotational Motion
+title: Block on a Wall
+topic: Force
 author: Jake Bobowski
-source: 2015 Final Q9
+source: 2012 Midterm 2 Q5
 template_version: 1.1
 attribution: standard
 outcomes:
-- 10.1.1.1
+- 6.9.1.0
+- 6.1.1.4
 difficulty:
 - undefined
 randomization:
@@ -14,31 +15,33 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- PW
+- MP
 assets: null
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $\Delta \theta $
-    suffix: rad
+    label: $F= $
+    suffix: N
     comparison: sigfig
-    digits: 3
+    digits: 2
 substitutions:
   params:
     vars:
-      vehicle: semi-truck
-      title: Rotational Displacement of Tires
-      units: rad
-    a: 6.84
-    t: 37.3
+      title: Block on a Wall
+      units: N
+    theta: 65
+    m: 3
+    mu: 0.323
 ---
 # {{ params.vars.title }}
-A {{ params.vars.vehicle }} accelerates from rest at $t = 0$ such that its tires undergo a constant rotational acceleration of $\alpha = $ {{ params.a }} $s^{-2}$.
+A {{params.m}} kg wood block slides down a vertical wall while you push on it at a {{params.theta}} $^\circ$ angle.
+
+<img src="q5.png" width=400 alt="Box pushed against a wall by a force at angle theta">
 ## Question Text
 
-Compute the rotational displacement of each tire at $t = $ {{ params.t }} $s$.
+What magnitude force should you apply to cause the block to slide down at constant speed? The coefficient of kinetic friction is $\mu_k$ = {{params.mu}}.
 
 ### Answer Section
 
