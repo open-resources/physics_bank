@@ -130,6 +130,7 @@ parts:
   - file: content/public/008.Energy/Exploding_Asteroid/Exploding_Asteroid
 - caption: Work
   chapters:
+  - file: content/public/009.Work/Work-Energy Theorem/Toboggan_hill/Toboggan_hill
   - file: content/public/009.Work/Work-Energy Theorem/work_frictionless_surface/work_frictionless_surface
   - file: content/public/009.Work/Power/Energy Expenditure/Energy Expenditure
   - file: content/public/009.Work/Work/force_and_displacement/force_and_displacement
@@ -139,6 +140,7 @@ parts:
       rod/Inertia of T-shaped rod
   - file: content/public/010.Rotational Motion/Rolling Motion/Rolling_without_slipping/Rolling_without_slipping
   - file: content/public/010.Rotational Motion/Rolling Motion/Minimum_Coefficient_Of_Static_Friction/Minimum_Coefficient_Of_Static_Friction
+  - file: content/public/010.Rotational Motion/Topic Outcome/rock_on_string/rock_on_string
   - file: content/public/010.Rotational Motion/Topic Outcome/Wheel_of_fortune/Wheel_of_fortune
   - file: content/public/010.Rotational Motion/Topic Outcome/Rotational Displacement
       of Tires/Rotational Displacement of tires
