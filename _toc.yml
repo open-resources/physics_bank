@@ -79,6 +79,7 @@ parts:
   - file: content/public/006.Force/Topic Outcome/velocity_netforce/velocity_netforce
   - file: content/public/006.Force/Topic Outcome/Elevator Movement Direction/Elevator
       Movement Direction
+  - file: content/public/006.Force/Topic Outcome/Coefficient_Of_Friction/Coefficient_Of_Friction
   - file: content/public/006.Force/Topic Outcome/spring_on_incline/spring_on_incline
   - file: content/public/006.Force/Equilibrium/Two blocks connected by a string/Two
       Blocks Connected by a String
