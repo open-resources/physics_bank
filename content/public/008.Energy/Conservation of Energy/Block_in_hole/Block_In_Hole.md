@@ -1,15 +1,12 @@
 ---
-title: Falling Bucket
+title: Block In Hole
 topic: Energy
 author: Jake Bobowski
-source: 2015 Final Q17
+source: 2012 Practice Final Q11
 template_version: 1.1
 attribution: standard
 outcomes:
 - 8.5.1.1
-- 8.5.1.2
-- 10.5.2.2
-- 10.5.2.3
 difficulty:
 - undefined
 randomization:
@@ -17,35 +14,35 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- PW
+- EW
 assets:
-- q17_2015Final.png
+- Q11.png
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $v = $
-    suffix: m/s
+    label: $h= $
+    suffix: $m$
     comparison: sigfig
     digits: 3
 substitutions:
   params:
     vars:
-      title: Falling Bucket
-      units: m/s
-    m_b: 16.1
-    m_c: 3.45
-    h: 23.6
-    r: 66.1
+      title: Block In Hole
+      units: m
+    a: 25
+    d: 0.8
 ---
 # {{ params.vars.title }}
-A bucket of mass $m_b$ = {{ params.m_b }} $kg$ is knocked off the side of a well.  The bucket falls {{ params.h }} $m$ to the bottom of the well.  Attached to the bucket is a light rope that wraps around a cylinder of radius $r = $ {{ params.r}} $cm$ and mass $m_c$ = {{ params.m_c }} $kg$.
+A small block is placed at height $h$ on a frictionless, {{params.a}}$^\circ$ ramp.
+Upon being released (from rest), the block slides down the ramp and then falls {{params.d}} $m$ to the floor.
+A small hole is located {{params.d}} $m$ from the end of the ramp.
 
-![](q17_2015Final.png)
+<img src="Q11.png" alt= "A block is placed on the top of a ramp sliding downwards. The angle of the ramp is labelled theta. There is a vertical distance at the end of the ramp followed by a horizontal distance to the hole" width=300>
 ## Question Text
 
-How fast is the bucket falling just before it hits the ground?
+From what height $h$ should the block be released in order to land in the hole?
 
 ### Answer Section
 
