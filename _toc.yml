@@ -124,6 +124,7 @@ parts:
   - file: content/public/008.Energy/Conservation of Energy/Firing a ball using a compressed
       spring/Firing a ball using a compressed spring
   - file: content/public/008.Energy/Conservation of Energy/Cut The Rope/Cut The Rope
+  - file: content/public/008.Energy/Conservation of Energy/Block_in_hole/Block_In_Hole
   - file: content/public/008.Energy/Conservation of Energy/Falling bucket/Falling
       bucket
   - file: content/public/008.Energy/Exploding_Asteroid/Exploding_Asteroid
