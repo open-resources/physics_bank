@@ -44,6 +44,8 @@ parts:
   - file: content/public/004.Kinematics(1D)/Position/distance_travelled/distance_travelled
   - file: content/public/004.Kinematics(1D)/Velocity/Choose the correct graph/Choose
       the correct graph
+  - file: content/public/004.Kinematics(1D)/Topic Outcome/Acceleration of Particle/Acceleration
+      of Particle
   - file: content/public/004.Kinematics(1D)/Motion Diagrams/Running_Dog/Running_Dog
   - file: content/public/004.Kinematics(1D)/water_slide/water_slide
 - caption: Force
@@ -58,6 +60,7 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Acceleration
       around a turn/Acceleration around a turn
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Turning_Car/Turning_car
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Slanted Table/slanted_table
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/ski_jump/ski_jump
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/centripetal_force/centripetal_force
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/RollerCoaster/RollerCoaster
