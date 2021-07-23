@@ -1,12 +1,13 @@
 ---
-title: Two Balls Launched on Different Tracks
-topic: Energy
+title: Hand Pushing on Blocks
+topic: Force
 author: Jake Bobowski
-source: 2012 Final Q3
-template_version: 1.0
+source: 2012 Midterm 2 Q1
+template_version: 1.1
 attribution: standard
 outcomes:
-- 7.5.1.2
+- 6.9.1.1
+- 6.2.1.2
 difficulty:
 - undefined
 randomization:
@@ -14,9 +15,9 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- PW
+- MP
 assets:
-- q3_2012Final.png
+- q1.png
 part1:
   type: multiple-choice
   pl-customizations:
@@ -24,31 +25,29 @@ part1:
 substitutions:
   params:
     vars:
-      title: Two Balls Launched on Different Tracks
+      title: Hand Pushing on Blocks
     part1:
       ans1:
-        value: More information is needed.
+        value: smaller than the force of the hand on A.
       ans2:
-        value: B
+        value: equal to the force of the hand on A.
       ans3:
-        value: A
-      ans4:
-        value: They reach the end of the track at the same time.
+        value: larger than the force of the hand on A.
 ---
 # {{ params.vars.title }}
-Balls A and B are launched with the same initial velocity along a pair of tracks as shown in the figure.
+The hand in the figure pushes the back of block A.
+The blocks, with $m_B$ > $m_A$, are connected by a light string and slide on a frictionless surface.
 
-![Ball A is launched along a horizontal track while Ball B is launched along a u-shaped track.](q3_2012Final.png)
+<img src="q1.png" width=300 alt="Hand pushing on block A connected to block B">
 ## Part 1
 
-Which ball reaches the end of the track first, if friction is neglected?
+The force of the string on B is:
 
 ### Answer Section
 
 - {{ params.part1.ans1.value }}
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
 
 ## Attribution
 
