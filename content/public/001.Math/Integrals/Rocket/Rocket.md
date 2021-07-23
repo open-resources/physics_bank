@@ -1,0 +1,93 @@
+---
+title: Rocket
+topic: Math
+author: Jake Bobowski
+source: 2015 Practice Midterm 1 Q6
+template_version: 1.0
+attribution: standard
+outcomes:
+- 1.8.1.2
+- 1.7.2.1
+- 3.7.2.0
+- difficulty: null
+- undefined
+randomization:
+- undefined
+taxonomy:
+- undefined
+tags:
+- EW
+assets: null
+part1:
+  type: symbolic-input
+  label: $x(t)=$
+  pl-customizations:
+    variables: t
+    weight: 1
+    allow-blank: true
+part2:
+  type: symbolic-input
+  label: $a= $
+  pl-customizations:
+    variables: t
+    weight: 1
+    allow-blank: true
+part3:
+  type: number-input
+  pl-customizations:
+    weight: 1
+    allow-blank: true
+    label: $a= $
+    suffix: $m/s^2$
+part4:
+  type: number-input
+  pl-customizations:
+    weight: 1
+    allow-blank: true
+    label: $t= $
+    suffix: s
+substitutions:
+  params:
+    vars:
+      title: Rocket
+      units1: m/s^2
+      units2: s
+    v_1: 4
+    t_1: 1
+    t_2: 4
+---
+# {{ params.vars.title }}
+A rocket has a velocity (pointing away from the launch pad) given by $v(t)$={{ params.v_1 }}$t$-$t^2$
+where $x$ is in meters, and $t$ is in seconds.
+## Part 1
+
+(a) If the rocket started at height $x(0)$ = 0, What is the height as a function of time?
+
+### Answer Section
+
+Please enter the equation.
+## Part 2
+
+(b) What is the acceleration as a function of time?
+
+### Answer Section
+
+Please enter the equation.
+## Part 3
+
+(c) What is the average acceleration between $t = $ {{ params.t_1 }}s and $t = $ {{ params.t_2 }}s?
+
+### Answer Section
+
+Please enter in a numeric value in {{ params.vars.units1 }}.
+## Part 4
+
+(d) At what time does the rocket stop rising upwards and begin falling down?
+
+### Answer Section
+
+Please enter in a numeric value in {{ params.vars.units2 }}.
+
+## Attribution
+
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br> ![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

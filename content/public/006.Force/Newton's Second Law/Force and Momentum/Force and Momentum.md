@@ -1,0 +1,64 @@
+---
+title: Force and Momentum
+topic: Force
+author: Jake Bobowski
+source: 2015 Final Q8
+template_version: 1.1
+attribution: standard
+outcomes:
+- 6.5.1.1
+- 6.5.1.2
+- 7.2.1.1
+difficulty:
+- undefined
+randomization:
+- undefined
+taxonomy:
+- undefined
+tags:
+- PW
+assets: null
+part1:
+  type: multiple-choice
+  pl-customizations:
+    weight: 1
+substitutions:
+  params:
+    vars:
+      title: Force and Momentum
+      units: N
+    p_i: t^3 - t^2 + 5t
+    p_j: -8t^2 - 7t
+    time: 14.1
+    part1:
+      ans1:
+        value: 0
+      ans2:
+        value: (573.0$\hat\imath$ - 233.0$\hat\jmath$)
+      ans3:
+        value: (-573.0$\hat\imath$ + 233.0$\hat\jmath$)
+      ans4:
+        value: (573.0$\hat\imath$ + 233.0$\hat\jmath$)
+      ans5:
+        value: (-573.0$\hat\imath$ - 233.0$\hat\jmath$)
+      ans6:
+        value: (-1146.0$\hat\imath$ - 233.0$\hat\jmath$)
+---
+# {{ params.vars.title }}
+The momentum of an object as a function of time is given by $\vec{p} = ({{ params.p_i }})\hat{\imath} + ({{ params.p_j }})\hat{\jmath}$ where $p$ is in $kg\cdot m/s$ and $t$ is in seconds.
+## Part 1
+
+What is the net force on the object at $t=$ {{ params.time }} $s$?
+
+### Answer Section
+
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params.part1.ans6.value }} {{ params.vars.units}}
+
+## Attribution
+
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br> ![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
