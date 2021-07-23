@@ -74,6 +74,8 @@ parts:
       Tension in Rope
   - file: content/public/006.Force/Topic Outcome/ropes_and_blocks/ropes_and_blocks
   - file: content/public/006.Force/Topic Outcome/Rotating ball/Rotating ball
+  - file: content/public/006.Force/Topic Outcome/Mass inside rotating cone/Mass inside
+      rotating cone
   - file: content/public/006.Force/Topic Outcome/velocity_netforce/velocity_netforce
   - file: content/public/006.Force/Topic Outcome/Elevator Movement Direction/Elevator
       Movement Direction
