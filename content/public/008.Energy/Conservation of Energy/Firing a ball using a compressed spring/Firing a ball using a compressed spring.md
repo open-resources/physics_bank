@@ -24,12 +24,12 @@ substitutions:
   params:
     vars:
       title: Firing a Ball using a Compressed Spring
-    choice: quadrupled
+    choice: quartered
     part1:
       ans1:
-        value: The ball will reach four times the height previously reached.
-      ans2:
         value: The ball will reach one quarter of the previous height.
+      ans2:
+        value: The ball will reach four times the height previously reached.
       ans3:
         value: The ball will reach half the height previously reached.
       ans4:
