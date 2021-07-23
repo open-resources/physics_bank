@@ -66,6 +66,8 @@ parts:
   - file: content/public/006.Force/Dynamics of Circular Motion/object_on_string/object_on_string
   - file: content/public/006.Force/Topic Outcome/The max acceleration without slipping/The
       max acceleration without slipping
+  - file: content/public/006.Force/Topic Outcome/Particle in Conservative Potential/Particle
+      in Conservative Potential
   - file: content/public/006.Force/Topic Outcome/Frictionless Air Track/Frictionless
       Air Track
   - file: content/public/006.Force/Topic Outcome/Greatest Tension in Rope/Greatest
