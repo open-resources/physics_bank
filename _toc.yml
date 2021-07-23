@@ -19,10 +19,14 @@ parts:
 - caption: Math
   chapters:
   - file: content/public/001.Math/Integrals/Rocket/Rocket
+  - file: content/public/001.Math/Graphs/Acceleration from Velocity Graph/acceleration_from_velocity_graph
+  - file: content/public/001.Math/Derivatives/Velocity Derivatives/velocity_derivative
 - caption: Physics in General
   chapters:
   - file: content/public/002.Physics in General/Topic Outcome/Skateboarder and observer/Skateboarder
       and observer
+  - file: content/public/002.Physics in General/Topic Outcome/Internal Energy Released/Internal
+      Energy Released
   - file: content/public/002.Physics in General/Topic Outcome/Choose correct ans/choose
       correct ans
   - file: content/public/002.Physics in General/Uncertainty/Terminal Velocity of Coffee
@@ -38,6 +42,8 @@ parts:
 - caption: Kinematics(1D)
   chapters:
   - file: content/public/004.Kinematics(1D)/Position/distance_travelled/distance_travelled
+  - file: content/public/004.Kinematics(1D)/Velocity/Choose the correct graph/Choose
+      the correct graph
   - file: content/public/004.Kinematics(1D)/Motion Diagrams/Running_Dog/Running_Dog
   - file: content/public/004.Kinematics(1D)/water_slide/water_slide
 - caption: Force
@@ -45,6 +51,9 @@ parts:
   - file: content/public/005.Force/Doorstop/Doorstop
 - caption: Kinematics(2D and 3D)
   chapters:
+  - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/A flying arrow/A
+      flying arrow
+  - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/AIrcraft Carrier/aircraft_carrier
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/apples_in_truck/apples_in_truck
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Acceleration
       around a turn/Acceleration around a turn
@@ -63,6 +72,8 @@ parts:
   - file: content/public/006.Force/Friction/Antilock braking systems/Antilock braking
       systems
   - file: content/public/006.Force/Friction/box_in_truck_bed_2/box_in_truck_bed_2
+  - file: content/public/006.Force/Friction/Block on a Wall/block_on_wall
+  - file: content/public/006.Force/Newton's First Law/Collision_of_two_carts/Collision_of_two_carts
   - file: content/public/006.Force/Dynamics of Circular Motion/object_on_string/object_on_string
   - file: content/public/006.Force/Topic Outcome/The max acceleration without slipping/The
       max acceleration without slipping
@@ -105,6 +116,8 @@ parts:
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Explosions_and_Velocity/Explosions_and_Velocity
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Raindrops_Collision/raindrops_collision
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Isolated_systems/Isolated_systems
+  - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Ball Bouncing
+      off Wall/ball_bouncing_off_wall
   - file: content/public/007.Momentum and Impulse/Momentum/Momentum_and_Inertia/Momentum_and_Inertia
   - file: content/public/007.Momentum and Impulse/Momentum/Rock_Powered_Rocket/Rock_Powered_Rocket
   - file: content/public/007.Momentum and Impulse/Momentum/Dinner_Plate/dinner_plate
@@ -141,10 +154,13 @@ parts:
       rod/Inertia of T-shaped rod
   - file: content/public/010.Rotational Motion/Rolling Motion/Rolling_without_slipping/Rolling_without_slipping
   - file: content/public/010.Rotational Motion/Rolling Motion/Minimum_Coefficient_Of_Static_Friction/Minimum_Coefficient_Of_Static_Friction
+  - file: content/public/010.Rotational Motion/Center of Mass/Centre of Mass of a
+      Baton/Centre of Mass of a Baton
   - file: content/public/010.Rotational Motion/Topic Outcome/rock_on_string/rock_on_string
   - file: content/public/010.Rotational Motion/Topic Outcome/Wheel_of_fortune/Wheel_of_fortune
   - file: content/public/010.Rotational Motion/Topic Outcome/Rotational Displacement
       of Tires/Rotational Displacement of tires
+  - file: content/public/010.Rotational Motion/Topic Outcome/Cars on Hills/cars_on_hills
 - caption: Rotational Dynamics
   chapters:
   - file: content/public/011.Rotational Dynamics/Topic Outcome/thread_on_spool/thread_on_spool
