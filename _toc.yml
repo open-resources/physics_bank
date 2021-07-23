@@ -58,6 +58,7 @@ parts:
   - file: content/public/006.Force/Friction/Frictional Force between tires and road/Frictional
       Force between tires and road
   - file: content/public/006.Force/Friction/box_in_vehicle/box_in_vehicle
+  - file: content/public/006.Force/Friction/hand_pushing_blocks/hand_pushing_blocks
   - file: content/public/006.Force/Friction/spring_on_ramp/spring_on_ramp
   - file: content/public/006.Force/Friction/Antilock braking systems/Antilock braking
       systems
