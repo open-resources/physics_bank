@@ -1,13 +1,16 @@
 ---
-title: Running Dog
-topic: Kinematics(1D)
+title: A Particle in Conservative Potential
+topic: Force
 author: Jake Bobowski
-source: 2015 Practice Midterm Q1
-template_version: 1.0
+source: 2013 Practice Final Q5
+template_version: 1.1
 attribution: standard
 outcomes:
-- 4.2.1.0
-- 4.2.1.1
+- 6.4.1.0
+- 6.1.1.4
+- 6.5.1.2
+- 8.5.2.0
+- 8.5.2.2
 difficulty:
 - undefined
 randomization:
@@ -15,9 +18,8 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- EW
-assets:
-- Q1.png
+- PW
+assets: null
 part1:
   type: checkbox
   pl-customizations:
@@ -27,25 +29,23 @@ part1:
 substitutions:
   params:
     vars:
-      title: Running Dog
-    choice: 'True'
+      title: A Particle in Conservative Potential
     part1:
       ans1:
-        value: The dog is not moving between t=2s and t=6s
+        value: The particle must be at rest.
       ans2:
-        value: The dog is not moving between t=6s and t=10s
+        value: The particle must not be accelerating.
       ans3:
-        value: The dog has a velocity of 1 m/s between time t=6s and t=10s
+        value: The particle has only kinetic energy.
       ans4:
-        value: The dog has a negative acceleration at t=9s
+        value: The particle has only thermal energy.
+      ans5:
+        value: The particle must be massless.
 ---
 # {{ params.vars.title }}
-Consider the following motion diagram for a dog running down a straight path.
-
-![A displacement time graph showing the dog increasing by 2 meters from t equals 0 seconds to t equals 2 seconds. The dog is not moving from t equals 2 seconds to t equals 6 seconds. The dog decreases 2 meters from t equals 6 seconds to t equals 8 seconds. The dog decreases to negative 2 meters from t equals 8 second to t equals 10 seconds. The dog increases 2 meters from t equals 10 seconds to t equals 12 seconds.](Q1.png)
 ## Question Text
 
-Which of the following statements is {{ params.choice }} ?
+If at some position in space, a particle in a conservative potential has no force acting on it:
 
 ### Answer Section
 
@@ -57,6 +57,7 @@ Note: You will be awarded full marks only if you select all the correct choices,
 - {{ params.part1.ans2.value}}
 - {{ params.part1.ans3.value}}
 - {{ params.part1.ans4.value}}
+- {{ params.part1.ans5.value}}
 
 ## Attribution
 
