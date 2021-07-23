@@ -1,15 +1,13 @@
 ---
-title: Falling Bucket
-topic: Energy
+title: Ball on a Slanted Table
+topic: Kinematics (2D and 3D)
 author: Jake Bobowski
-source: 2015 Final Q17
+source: 2014 Midterm 1 Q4
 template_version: 1.1
 attribution: standard
 outcomes:
-- 8.5.1.1
-- 8.5.1.2
-- 10.5.2.2
-- 10.5.2.3
+- 5.5.1.0
+- 5.1.1.0
 difficulty:
 - undefined
 randomization:
@@ -17,35 +15,35 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- PW
+- MP
 assets:
-- q17_2015Final.png
+- Q4.png
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $v = $
+    label: $v_0= $
     suffix: m/s
     comparison: sigfig
-    digits: 3
+    digits: 2
 substitutions:
   params:
     vars:
-      title: Falling Bucket
+      title: Ball on a Slanted Table
       units: m/s
-    m_b: 18.9
-    m_c: 3.41
-    h: 18.5
-    r: 58.9
+    d: 1.2
+    theta: 10
 ---
 # {{ params.vars.title }}
-A bucket of mass $m_b$ = {{ params.m_b }} $kg$ is knocked off the side of a well.  The bucket falls {{ params.h }} $m$ to the bottom of the well.  Attached to the bucket is a light rope that wraps around a cylinder of radius $r = $ {{ params.r}} $cm$ and mass $m_c$ = {{ params.m_c }} $kg$.
+A ball is launched with an initial velocity of $\vec{v}\_0$ from one corner of a smooth, flat board.
+The angle launch is $\theta$ = {{params.theta}}$^o$.
+As shown, the board has a width of {{params.d}} $m$ and is tilted up at a 20.0$^o$ angle.
 
-![](q17_2015Final.png)
+<img src="Q4.png" width=300 alt="A table of width d is slanted at 20 degrees. A ball is launched from the bottom left corner towards the bottom right corner at and angle theta." >
 ## Question Text
 
-How fast is the bucket falling just before it hits the ground?
+Determine the initial speed $v_0$ required to make the ball land at the adjacent corner labelled as "Target".
 
 ### Answer Section
 

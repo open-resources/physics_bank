@@ -27,26 +27,25 @@ substitutions:
     vars:
       title: Exploding Asteroid
       name: Santiago
-      name2: Savannah
+      name2: Ximena
     part1:
       ans1:
-        value: They will both agree on how the TOTAL kinetic energy of the system
-          has changed.
-      ans2:
-        value: The total momentum vectors they use to describe the asteroid system
-          (both pieces) will be the same.
-      ans3:
-        value: The final velocity vectors they use to describe the two asteroid pieces
-          will be the same.
-      ans4:
-        value: They will both agree on how the kinetic energy of each of the pieces
-          has changed.
-      ans5:
         value: The FORCE vector they determine that each piece of the asteroid felt
           during the explosion will be the same.
+      ans2:
+        value: The CHANGE in the momentum vector they determine for each piece of
+          the asteroid before and after the explosion will be the same.
+      ans3:
+        value: The momentum vectors they use to describe each of the two asteroid
+          pieces will be the same.
+      ans4:
+        value: They will both agree on how the internal energy of the system has changed.
+      ans5:
+        value: The total momentum vectors they use to describe the asteroid system
+          (both pieces) will be the same.
       ans6:
-        value: They will both agree on how much kinetic energy each of the asteroid
-          pieces has.
+        value: The final velocity vectors they use to describe the two asteroid pieces
+          will be the same.
 ---
 # {{ params.vars.title }}
 ## Question Text
