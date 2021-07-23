@@ -29,17 +29,17 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: Force
-      ans2:
-        value: Weight
-      ans3:
         value: The average acceleration
+      ans2:
+        value: Momentum
+      ans3:
+        value: velocity
       ans4:
-        value: Entropy
+        value: Acceleration
       ans5:
-        value: Power
+        value: Energy
       ans6:
-        value: Work
+        value: Temperature
 ---
 # {{ params.vars.title }}
 ## Question Text
