@@ -2,6 +2,15 @@
 
 Below is a list of suggestions and recommendataions when authoring questions.
 
+## Legend
+- Shuffling Choices
+- Preventing Randomization
+- Answer choices containing $\pm$ 
+- Dealing with vectors and polynomials
+- Creating and using your own functions
+- Sympy
+- Adding Images to a Question
+
 ## Shuffling choices
 
 Let's imagine an MCQ that has 3 distractors and 1 correct choice (total of 4).
@@ -95,3 +104,81 @@ Functions can be defined inside the ```generate()``` section of the server code.
 
 
 *Note*: If you feel the function could be generalized and used in other questions, please request for it to be added to the ```pbh``` package.
+
+## Sympy
+### Calling a sympy object in your html file
+Sometimes it is nice to have sympy expressions in the question.html file. If you simply call a sympy object in, it will not render properly.
+Say we have some sympy expression 'expr': 
+First, convert it to a string: srt_expr = string(expr)
+For nicer printing, you can also convert double * ' s to ^ with str_expr.replace(' ** ',' ^ ') - (without the spaces)
+And single * ' s with str_expr.replace('* ','') - (again, without the spaces)
+
+### Sympy object doesn't convert nicely to json for answer.
+Sympy to json conversion in prairielearn doesn't like floats. It also doesn't like fractions in brackets. 
+So, it's best to do something like:
+Y = X/2
+As opposed to:
+Y = 0.5 * X or Y = 1/2 * X
+At this time, there isn't a clear way for using floats in PL via sympy. 
+
+### You get the error: "Object of type Null is not JSON serializable"
+The code here: 
+    
+    # Declare math symbols to be used by sympy
+    t, v_o, g = sp.symbols('t, v_o, g')
+    
+    # define bounds of the variables
+    theta = random.randint(2,5)*10
+    l = random.randint(1,9)*100
+    l2 = 0.5*l
+    a1 = g*math.sin(math.radians(theta))
+    
+    # store the variables in the dictionary "params"
+    data2["params"]["theta"] = theta
+    data2["params"]["l"] = l
+    data2["params"]["l2"] = l2
+    
+    # Describe the solution equation
+    x1 = a1*t**2/2
+    x2 = l + v_o*t + a1*t**2/2
+    
+    
+Will result in the error. The code below will not:
+
+    
+    # Declare math symbols to be used by sympy
+    t, v_o, g = sp.symbols('t, v_o, g')
+    
+    # define bounds of the variables
+    theta = random.randint(2,5)*10
+    l = random.randint(1,9)*100
+    l2 = (1/2)*l
+    a1 = 9.8*math.sin(math.pi*theta/180)
+    
+    # store the variables in the dictionary "params"
+    data2["params"]["theta"] = theta
+    data2["params"]["l"] = l
+    data2["params"]["l2"] = l2
+    
+    # Describe the solution equation   
+    x1 = t**2 / 2 * g * sp.sin(sp.pi*theta/180)
+    x2 = 1 + v_o*t + t**2 / 2 * g * sp.sin(sp.pi*theta/180)
+    
+ 
+ Be sure to use sp.sin rather than math.sin for symbolics, and remember that pl.to_json conversion or pl.sympy_to_json doesn't like floats.
+
+## Adding Images to a Question
+
+If you want to add an image to a question: 
+1. Add the image(s) to the same folder where the question file is. A PNG file is preferred.
+2. Add the name of the image to the assets section in the following format: 
+
+    ```
+    assets: 
+    - image1.png
+    - image2.png
+    server: 
+    ```
+    
+See q01_multiple-choice.md for an example.
+    
