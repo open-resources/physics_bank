@@ -66,8 +66,8 @@ substitutions:
       part5:
         units: J
     m_p: 0.75
-    r_p: 0.25
-    m: 2.52
+    r_p: 0.48
+    m: 2.75
     r: 0.41
     x: 3
 ---

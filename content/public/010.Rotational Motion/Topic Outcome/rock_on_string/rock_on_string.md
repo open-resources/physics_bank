@@ -1,12 +1,13 @@
 ---
-title: Angular Speed
-topic: Kinematics(2D and 3D)
+title: Rock on a String
+topic: Rotational Dynamics
 author: Jake Bobowski
-source: 2012 Practice Final Q2
-template_version: 1.0
+source: 2012 Midterm 2 Q3
+template_version: 1.1
 attribution: standard
 outcomes:
-- 5.6.2.0
+- 5.7.1.2
+- 10.1.1.1
 difficulty:
 - undefined
 randomization:
@@ -14,7 +15,7 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- EW
+- MP
 assets: null
 part1:
   type: multiple-choice
@@ -23,23 +24,28 @@ part1:
 substitutions:
   params:
     vars:
-      title: Angular Speed
-      units: rad/s
-    rev: 15
+      title: Rock on a String
+      units: m/s
+    m: 0.25
+    r: 70
+    T: 200
     part1:
       ans1:
-        value: 0.42
+        value: 237.0
       ans2:
-        value: 47.0
+        value: 227.0
       ans3:
-        value: 94.0
+        value: 177.0
       ans4:
-        value: 2.4
+        value: 217.0
+      ans5:
+        value: 257.0
 ---
 # {{ params.vars.title }}
+A child ties a {{params.m}} kg rock to the end of a string and whirls it at a constant speed in a horizontal circle of radius {{params.r}} cm.
 ## Part 1
 
-What is the approximate angular speed of a windmill spinning at the rate of {{ params.rev }} rev/s.
+What, approximately, is the maximum speed at which the rock may be whirled if the string will break when the tension exceeds {{params.T}} N?
 
 ### Answer Section
 
@@ -47,6 +53,7 @@ What is the approximate angular speed of a windmill spinning at the rate of {{ p
 - {{ params.part1.ans2.value }} {{ params.vars.units}}
 - {{ params.part1.ans3.value }} {{ params.vars.units}}
 - {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

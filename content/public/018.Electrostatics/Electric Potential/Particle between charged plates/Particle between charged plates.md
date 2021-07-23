@@ -37,8 +37,8 @@ part1:
     atol: 0
 substitutions:
   params:
-    sig: '36'
-    d: '4.8'
+    sig: '12'
+    d: '3.6'
     particle: An electron
     particle1: electron
     p1: negative
