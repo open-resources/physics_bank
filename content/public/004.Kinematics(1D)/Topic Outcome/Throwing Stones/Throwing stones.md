@@ -1,12 +1,13 @@
 ---
-title: Collision of a Cart with a Spring
-topic: Energy
+title: Throwing Stones
+topic: Kinematics(1D)
 author: Jake Bobowski
-source: 2015 Final Q11
-template_version: 1.0
+source: 2012 Midterm 1 Q4 Section 002
+template_version: 1.1
 attribution: standard
 outcomes:
-- 8.3.3.0
+- 4.1.1.1
+- 4.10.1.0
 difficulty:
 - undefined
 randomization:
@@ -21,24 +22,23 @@ part1:
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $v= $
-    suffix: $m/s$
+    label: $\Delta t= $
+    suffix: $s$
     comparison: sigfig
-    digits: 2
+    digits: 3
 substitutions:
   params:
     vars:
-      title: Collision of a Cart with a Spring
-      units: m/s
-    m: 86
-    k: 214
-    x: 85
+      name: Abbas
+      title: Throwing Stones
+      units: $s$
+    v: 10.5
 ---
 # {{ params.vars.title }}
-A  {{ params.m }}  $kg$  runaway  grocery  cart  runs  into  a  spring  with a spring  constant $k = $  {{ params.k }}  $N/m$  and compresses it by {{ params.x }} $cm$ before momentarily coming to rest.
+{{ params.vars.name }} simultaneously throws two stones from the top edge of a building with a speed {{ params.v }} $m/s$. They throw one straight down and the other straight up.
 ## Question Text
 
-What was the speed of the cart just before it hit the spring?
+The first one hits the street in a time $t_1$. How much later is it before the second stone hits?
 
 ### Answer Section
 

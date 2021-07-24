@@ -44,9 +44,9 @@ part1:
 substitutions:
   params:
     n: '10'
-    r: '1.90'
-    v: '1.20'
-    p: '5'
+    r: '1.40'
+    v: '1.70'
+    p: '6'
 ---
 # {{ params.vars.title }}
 A solenoid with ${{ params.n }}$ turns per centimter carries a current $I$.

@@ -28,21 +28,21 @@ substitutions:
       units: m/s
       name: Savannah
     part1:
-      I_A: 3
-      I_B: 5
-      v_A: 22
-      v_B: 32
-      m_pumpkin: 3
-      v: 75.33333333333333
+      I_A: 4
+      I_B: 8
+      v_A: 26
+      v_B: 27
+      m_pumpkin: 8
+      v: 40.0
       ans1:
         value: Yes, because of conservation of momentum
       ans2:
         value: No, because we have not accounted for how the explosion might have
           changed the momentum of the pumpkin.
       ans3:
-        value: No, because the velocity should be $v = $ 54 m/s
+        value: No, because the velocity should be $v = $ 53 m/s
       ans4:
-        value: No, because the velocity should be $v = $ 18.0 m/s
+        value: No, because the velocity should be $v = $ 6.625 m/s
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} put a bunch of explosives inside of a {{ params.part1.m_pumpkin }} kg pumpkin, which explodes in two pieces.
