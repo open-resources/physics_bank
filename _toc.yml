@@ -46,6 +46,8 @@ parts:
   - file: content/public/004.Kinematics(1D)/Position/distance_travelled/distance_travelled
   - file: content/public/004.Kinematics(1D)/Velocity/Choose the correct graph/Choose
       the correct graph
+  - file: content/public/004.Kinematics(1D)/Displacement/Displacement of a vehicle/Displacement
+      of a Vehicle
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Acceleration of Particle/Acceleration
       of Particle
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Throwing Stones/Throwing
@@ -121,6 +123,7 @@ parts:
   - file: content/public/007.Momentum and Impulse/2D Collisions/billiards_collision/billiards_collision
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/System_Open_or_Closed/System_Open_or_Closed
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/mass_spring_collision/mass_spring_collision
+  - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Blocks_On_Frictionless_Table/Blocks_On_Frictionless_Table
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Explosions_and_Velocity/Explosions_and_Velocity
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Raindrops_Collision/raindrops_collision
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Isolated_systems/Isolated_systems
