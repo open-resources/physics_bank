@@ -1,12 +1,12 @@
 ---
-title: Acceleration from Velocity Graph
-topic: Kinematics (1D)
+title: Particle in a Uniform Magnetic Field
+topic: Magnetism
 author: Jake Bobowski
-source: 2014 Midterm 1 Q1
+source: 2013 Midterm 1 Section 001 Q2
 template_version: 1.1
 attribution: standard
 outcomes:
-- 1.2.1.4
+- 19.2.3.0
 difficulty:
 - undefined
 randomization:
@@ -14,37 +14,32 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- MP
-assets:
-- Q1.png
+- PW
+assets: null
 part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
 substitutions:
   params:
-    t: 1
     vars:
-      title: Acceleration from Velocity Graph
+      title: Particle in a Uniform Magnetic Field
     part1:
       ans1:
-        value: In the $+x$ direction.
+        value: The particle will move in a straight line.
       ans2:
-        value: In the $-x$ direction.
+        value: The particle will travel at constant velocity.
       ans3:
-        value: In the $+y$ direction.
+        value: The particle will spiral inwards.
       ans4:
-        value: In the $-y$ direction.
+        value: The particle will travel at constant speed.
       ans5:
-        value: The acceleration is zero.
+        value: The particle will spiral outwards.
 ---
 # {{ params.vars.title }}
-The figure shows the velocity of a particle as it travels along the x-axis.
-
-<img src="Q1.png" width=300 alt="Graph of velocity versus time, a parabola-like shape that is concave up. The x-axis represents time and the x-axis represents velocity. It slopes downwards from t=0 to t=1, then slopes upward form t=1 to t=4. The y intercept is 4m/s an the x intercepts are t=0.5 and t=2.">
 ## Part 1
 
-What is the direction of the acceleration at $t$ = {{params.t}} s?
+A charged particle moving in a uniform magnetic field experiences a constant magnitude acceleration perpendicular to its velocity vector at all times. This means
 
 ### Answer Section
 
