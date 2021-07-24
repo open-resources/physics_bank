@@ -1,13 +1,12 @@
 ---
-title: Throwing Stones
-topic: Kinematics(1D)
+title: Blocks On Frictionless Table
+topic: Momentum and Impulse
 author: Jake Bobowski
-source: 2012 Midterm 1 Q4 Section 002
+source: 2015 Midterm 1 Q5
 template_version: 1.1
 attribution: standard
 outcomes:
-- 4.1.1.1
-- 4.10.1.0
+- 7.5.1.4
 difficulty:
 - undefined
 randomization:
@@ -15,30 +14,33 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- PW
+- EW
 assets: null
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $\Delta t= $
-    suffix: $s$
+    label: $v_2 = $
+    suffix: $m/s$
     comparison: sigfig
     digits: 3
 substitutions:
   params:
     vars:
-      name: Emilia
-      title: Throwing Stones
-      units: $s$
-    v: 10.8
+      title: Blocks On Frictionless Table
+    v0: 450
+    v1: 5
+    mb: 14
+    mw: 548
+    d: 3
 ---
 # {{ params.vars.title }}
-{{ params.vars.name }} simultaneously throws two stones from the top edge of a building with a speed {{ params.v }} $m/s$. They throw one straight down and the other straight up.
+Two {{params.mw}} $g$ blocks of wood are {{params.d}} $m$ apart on a frictionless table. A {{params.mb}} $g$ bullet is fired at {{params.v0}} $\frac{m}{s}$ toward the blocks. It passes all the way through the first block, then embeds itself in the second block.The speed of the first block immediately afterwards is {{params.v1}} $\frac{m}{s}$.
 ## Question Text
 
-The first one hits the street in a time $t_1$. How much later is it before the second stone hits?
+What is the speed of the second block after the bullet stops in it?
+Give your answer to three significant figures.
 
 ### Answer Section
 

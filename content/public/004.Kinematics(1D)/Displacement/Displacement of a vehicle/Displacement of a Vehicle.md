@@ -1,13 +1,12 @@
 ---
-title: Throwing Stones
+title: Displacement of a Vehicle
 topic: Kinematics(1D)
 author: Jake Bobowski
-source: 2012 Midterm 1 Q4 Section 002
+source: 2012 Midterm 1 Q1 Section 002
 template_version: 1.1
 attribution: standard
 outcomes:
-- 4.1.1.1
-- 4.10.1.0
+- 4.1.1.0
 difficulty:
 - undefined
 randomization:
@@ -22,23 +21,28 @@ part1:
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $\Delta t= $
-    suffix: $s$
+    label: $\Delta r = $
+    suffix: blocks
     comparison: sigfig
-    digits: 3
+    digits: 2
 substitutions:
   params:
     vars:
-      name: Emilia
-      title: Throwing Stones
-      units: $s$
-    v: 10.8
+      vehicle: semi-truck
+      title: Displacement of a Vehicle
+      units: blocks
+    c1: 78
+    c2: 70
+    c3: 71
+    dir1: west
+    dir2: north
+    dir3: south
 ---
 # {{ params.vars.title }}
-{{ params.vars.name }} simultaneously throws two stones from the top edge of a building with a speed {{ params.v }} $m/s$. They throw one straight down and the other straight up.
+A {{ params.vars.vehicle }} moves {{ params.c1}} blocks due {{ params.dir1}}, {{ params.c2 }} blocks due {{ params.dir2}}, and another {{ params.c3 }} blocks due {{ params.dir3}}.
 ## Question Text
 
-The first one hits the street in a time $t_1$. How much later is it before the second stone hits?
+Assume all blocks are of equal size. What is the magnitude of the {{ params.vars.vehicle }}'s displacement, start to finish?
 
 ### Answer Section
 

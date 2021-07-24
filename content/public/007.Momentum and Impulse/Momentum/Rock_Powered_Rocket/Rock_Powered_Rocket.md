@@ -43,9 +43,9 @@ substitutions:
       units1: m/s
       units2: kg
       name: Aliyah
-    i: 361
-    m: 30
-    v_1: 29
+    i: 368
+    m: 33
+    v_1: 24
     v_2: 29
 ---
 # {{ params.vars.title }}
