@@ -23,6 +23,8 @@ parts:
   - file: content/public/001.Math/Derivatives/Velocity Derivatives/velocity_derivative
 - caption: Physics in General
   chapters:
+  - file: content/public/002.Physics in General/Topic Outcome/Drawing water from a
+      well/Drawing water from a well
   - file: content/public/002.Physics in General/Topic Outcome/Skateboarder and observer/Skateboarder
       and observer
   - file: content/public/002.Physics in General/Topic Outcome/Internal Energy Released/Internal
@@ -99,6 +101,7 @@ parts:
       Blocks Connected by a String
   - file: content/public/006.Force/Free Body Diagrams/pulley_on_truck/pulley_on_truck
   - file: content/public/006.Force/Newton's Third Law/Force Vectors/force_vectors
+  - file: content/public/006.Force/Newton's Third Law/Two_Blocks_Stacked/Two_Blocks_Stacked
   - file: content/public/006.Force/Newton's Third Law/Tension_In_Rope/Tention_In_Rope
   - file: content/public/006.Force/Springs/Bungee_jumping/bungee_jumping
   - file: content/public/006.Force/Newton's Second Law/Force and Momentum/Force and
@@ -183,6 +186,8 @@ parts:
       plates/Particle between charged plates
 - caption: Magnetism
   chapters:
+  - file: content/public/019.Magnetism/Magnetic Field/Particle in Uniform Magnetic
+      field/Particle in Uniform Magnetic Field
   - file: content/public/019.Magnetism/Magnetic Field/Semi-circular current loop/Semi-circular
       Current Loop
   - file: content/public/019.Magnetism/Magnetic Force/Electron in a Solenoid/Electron
