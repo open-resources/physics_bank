@@ -48,6 +48,8 @@ parts:
       the correct graph
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Acceleration of Particle/Acceleration
       of Particle
+  - file: content/public/004.Kinematics(1D)/Topic Outcome/Throwing Stones/Throwing
+      stones
   - file: content/public/004.Kinematics(1D)/Motion Diagrams/Running_Dog/Running_Dog
   - file: content/public/004.Kinematics(1D)/water_slide/water_slide
 - caption: Force
