@@ -37,6 +37,7 @@ parts:
 - caption: Vectors
   chapters:
   - file: content/public/003.Vectors/Topic Outcome/Choose_all_Vectors_Scalars/Choose_all_Vectors_Scalars
+  - file: content/public/003.Vectors/Notation/Identify_the_figure/Identify_the_figure
 - caption: Kinematics(1D)
   chapters:
   - file: content/public/004.Kinematics(1D)/Position/distance_travelled/distance_travelled
@@ -171,6 +172,8 @@ parts:
       Force
 - caption: Rotational Motion
   chapters:
+  - file: content/public/010.Rotational Motion/Relating Rotational to Translational
+      Motion/Stewie Swinging a Rock/stewie_swinging_rock
   - file: content/public/010.Rotational Motion/Rotational Energy/Inertia of T-shaped
       rod/Inertia of T-shaped rod
   - file: content/public/010.Rotational Motion/Rolling Motion/Rolling_without_slipping/Rolling_without_slipping
