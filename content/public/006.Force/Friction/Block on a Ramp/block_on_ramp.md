@@ -1,12 +1,13 @@
 ---
-title: Two Balls Launched on Different Tracks
-topic: Energy
+title: Block on a Ramp
+topic: Force
 author: Jake Bobowski
-source: 2012 Final Q3
-template_version: 1.0
+source: 2013 Midterm 2 002 Q2
+template_version: 1.1
 attribution: standard
 outcomes:
-- 7.5.1.2
+- 6.4.1.1
+- 6.1.1.4
 difficulty:
 - undefined
 randomization:
@@ -14,9 +15,9 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- PW
+- MP
 assets:
-- q3_2012Final.png
+- Q2.png
 part1:
   type: multiple-choice
   pl-customizations:
@@ -24,24 +25,30 @@ part1:
 substitutions:
   params:
     vars:
-      title: Two Balls Launched on Different Tracks
+      title: Block on a Ramp
+    m: 1
+    theta: 13
+    mu: 0.5
     part1:
       ans1:
-        value: They reach the end of the track at the same time.
+        value: 2.2 $N$, up the incline
       ans2:
-        value: A
+        value: 9.6 $N$, up the incline
       ans3:
-        value: More information is needed.
+        value: 1.1 $N$, down the incline
       ans4:
-        value: B
+        value: 4.8 $N$, down the incline
+      ans5:
+        value: 2.2 $N$, down the incline
 ---
 # {{ params.vars.title }}
-Balls A and B are launched with the same initial velocity along a pair of tracks as shown in the figure.
+A mass of {{params.m}} $kg$ sits at rest on an incline making an angle of {{params.theta}} $^\circ$ with respect to the horizontal.
 
-![Ball A is launched along a horizontal track while Ball B is launched along a u-shaped track.](q3_2012Final.png)
+<img src="Q2.png" width=300 alt = "a block sits on a ramp that makes angle theta with the horizontal">
 ## Part 1
 
-Which ball reaches the end of the track first, if friction is neglected?
+If $\mu_s$ = {{params.mu}}, what is the friction force on the block?
+Choose the best answer.
 
 ### Answer Section
 
@@ -49,6 +56,7 @@ Which ball reaches the end of the track first, if friction is neglected?
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

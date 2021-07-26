@@ -25,7 +25,7 @@ substitutions:
   params:
     vars:
       title: Box in a Vehicle
-      vehicle: semi-truck
+      vehicle: bus
       direction: positive
     part1:
       ans1:
