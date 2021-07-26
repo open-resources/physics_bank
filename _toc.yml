@@ -71,6 +71,7 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/angular_speed/angular_speed
 - caption: Force
   chapters:
+  - file: content/public/006.Force/Friction/Box on a Slant With a Pulley/box_on_slant_with_pulley
   - file: content/public/006.Force/Friction/Doorstop/Doorstop
   - file: content/public/006.Force/Friction/Frictional Force between tires and road/Frictional
       Force between tires and road
