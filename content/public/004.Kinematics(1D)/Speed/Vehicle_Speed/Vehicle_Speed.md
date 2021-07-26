@@ -1,12 +1,12 @@
 ---
-title: Two Balls Launched on Different Tracks
-topic: Energy
+title: Vehicle Speed
+topic: Kinematics(1D)
 author: Jake Bobowski
-source: 2012 Final Q3
-template_version: 1.0
+source: 2015 midterm Q1
+template_version: 1.1
 attribution: standard
 outcomes:
-- 7.5.1.2
+- 4.5.1.1
 difficulty:
 - undefined
 randomization:
@@ -14,9 +14,8 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- PW
-assets:
-- q3_2012Final.png
+- EW
+assets: null
 part1:
   type: multiple-choice
   pl-customizations:
@@ -24,24 +23,26 @@ part1:
 substitutions:
   params:
     vars:
-      title: Two Balls Launched on Different Tracks
+      title: Vehicle Speed
+      vehicle: semi-truck
     part1:
       ans1:
-        value: A
+        value: constant
       ans2:
-        value: They reach the end of the track at the same time.
+        value: increasing
       ans3:
-        value: More information is needed.
+        value: decreasing
       ans4:
-        value: B
+        value: increasing but then decreasing
+      ans5:
+        value: decreasing but then increasing
 ---
 # {{ params.vars.title }}
-Balls A and B are launched with the same initial velocity along a pair of tracks as shown in the figure.
-
-![Ball A is launched along a horizontal track while Ball B is launched along a u-shaped track.](q3_2012Final.png)
+A person is initially driving a {{params.vars.vehicle}} east down a straight road.
+The magnitude of the instantaneous acceleration is decreasing with time, but the direction of the acceleration is always to the east.
 ## Part 1
 
-Which ball reaches the end of the track first, if friction is neglected?
+The speed of the car is:
 
 ### Answer Section
 
@@ -49,6 +50,7 @@ Which ball reaches the end of the track first, if friction is neglected?
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 
