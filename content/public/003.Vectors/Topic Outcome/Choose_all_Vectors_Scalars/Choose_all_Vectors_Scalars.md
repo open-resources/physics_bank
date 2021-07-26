@@ -29,17 +29,17 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: Weight
+        value: The average acceleration
       ans2:
-        value: The position in 3 dimensions
+        value: Lift
       ans3:
-        value: Energy
+        value: Acceleration
       ans4:
-        value: Work
+        value: Momentum
       ans5:
-        value: Mass
+        value: Energy
       ans6:
-        value: Volume
+        value: Area
 ---
 # {{ params.vars.title }}
 ## Question Text

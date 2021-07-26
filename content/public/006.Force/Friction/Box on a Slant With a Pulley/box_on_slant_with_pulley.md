@@ -1,13 +1,13 @@
 ---
-title: Block on a Wall
+title: Box on a Slant with a Pulley
 topic: Force
 author: Jake Bobowski
-source: 2012 Midterm 2 Q5
+source: 2013 Midterm 2 002 Q4
 template_version: 1.1
 attribution: standard
 outcomes:
-- 6.9.1.0
 - 6.1.1.4
+- 6.3.1.2
 difficulty:
 - undefined
 randomization:
@@ -16,32 +16,35 @@ taxonomy:
 - undefined
 tags:
 - MP
-assets: null
+assets:
+- Q4.png
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $F= $
-    suffix: N
+    label: $m= $
+    suffix: $kg$
     comparison: sigfig
     digits: 2
 substitutions:
   params:
     vars:
-      title: Block on a Wall
-      units: N
-    theta: 59
-    m: 7
-    mu: 0.357
+      title: Box on a Slant with a Pulley
+      units: $kg$
+    theta: 34
+    mu: 0.8
+    m: 10
 ---
 # {{ params.vars.title }}
-A {{params.m}} kg wood block slides down a vertical wall while you push on it at a {{params.theta}} $^\circ$ angle.
+The figure shows a block of mass $m$ resting on a {{params.theta}} $^\circ$ slope.
+The coefficient of static friction between the block and the sloped surface is {{params.mu}}.
+It is connected via a massless string over a massless, frictionless pulley to a hanging block of mass {{params.m}} $kg$.
 
-<img src="q5.png" width=400 alt="Box pushed against a wall by a force at angle theta">
+<img src="Q4.png" width=300 alt = "A box sits on a ramp that is at an angle theta from the horizontal. The box is connected by a rope to another mass that hangs freely from a pulley.">
 ## Question Text
 
-What magnitude force should you apply to cause the block to slide down at constant speed? The coefficient of kinetic friction is $\mu_k$ = {{params.mu}}.
+What is the _minimum_ value of $m$ such that the system remains at rest?
 
 ### Answer Section
 
