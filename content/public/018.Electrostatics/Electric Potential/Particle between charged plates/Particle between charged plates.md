@@ -38,11 +38,11 @@ part1:
 substitutions:
   params:
     sig: '30'
-    d: '3.2'
-    particle: An electron
-    particle1: electron
-    p1: negative
-    p2: positive
+    d: '4.2'
+    particle: A proton
+    particle1: proton
+    p1: positive
+    p2: negative
 ---
 # {{ params.vars.title }}
 Two large plates of charge density ${{ params.sig }}\rm\ \mu C/m^2$ face each other at a separation of ${{ params.d }} \textrm{ mm}$.

@@ -1,13 +1,12 @@
 ---
-title: Isolated Systems
-topic: Momentum and Impulse
+title: Particle Travelling with Constant Velocity
+topic: Force
 author: Jake Bobowski
-source: 2016 Final Q4
-template_version: 1.0
+source: 2013 Midterm 2 Section 001 Q4
+template_version: 1.1
 attribution: standard
 outcomes:
-- 7.5.1.2
-- 7.5.1.1
+- 6.4.1.0
 difficulty:
 - undefined
 randomization:
@@ -15,7 +14,7 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- unknown
+- PW
 assets: null
 part1:
   type: checkbox
@@ -26,33 +25,35 @@ part1:
 substitutions:
   params:
     vars:
-      title: Isolated Systems
+      title: Particle Travelling with Constant Velocity
     part1:
       ans1:
-        value: A system is isolated if its center of mass is moving with constant
-          velocity
+        value: The particle has no mass.
       ans2:
-        value: A system is isolated if all of the external forces on it are balanced
+        value: The net force on the particle is zero.
       ans3:
-        value: A system is isolated if energy isn't entering or leaving the system
+        value: There must be a force acting on the particle.
       ans4:
-        value: A system is isolated if its total momentum is constant
+        value: The particle has no acceleration.
+      ans5:
+        value: The acceleration of the particle is in the same direction as the velocity.
 ---
 # {{ params.vars.title }}
 ## Question Text
 
-What do we mean when we say a system is ISOLATED?
+If a particle travels at constant velocity, which of the following statements must be true?
 
 ### Answer Section
 
-Select all the choices that is/are true.
+Select all the choices that apply.
 
 Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
+- {{ params.part1.ans1.value}}
+- {{ params.part1.ans2.value}}
+- {{ params.part1.ans3.value}}
+- {{ params.part1.ans4.value}}
+- {{ params.part1.ans5.value}}
 
 ## Attribution
 
