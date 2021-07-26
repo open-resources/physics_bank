@@ -107,6 +107,7 @@ parts:
   - file: content/public/006.Force/Newton's Third Law/Two_Blocks_Stacked/Two_Blocks_Stacked
   - file: content/public/006.Force/Newton's Third Law/Tension_In_Rope/Tention_In_Rope
   - file: content/public/006.Force/Springs/Bungee_jumping/bungee_jumping
+  - file: content/public/006.Force/Newton's Second Law/Force_On_An_Object/Force_On_An_Object
   - file: content/public/006.Force/Newton's Second Law/Force and Momentum/Force and
       Momentum
 - caption: Momentum and Impulse
