@@ -1,6 +1,6 @@
 ---
 title: Identical Mass-Springs with Different Displacement
-topic: Springs
+topic: Force
 author: Jake Bobowski
 source: 2012 Final Q8
 template_version: 1.0
