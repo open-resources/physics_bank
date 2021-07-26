@@ -83,6 +83,7 @@ parts:
   - file: content/public/006.Force/Newton's First Law/Particle travelling with constant
       velocity/Particle travelling with constant velocity
   - file: content/public/006.Force/Dynamics of Circular Motion/object_on_string/object_on_string
+  - file: content/public/006.Force/Dynamics of Circular Motion/Frictionless Table/frictionless_table
   - file: content/public/006.Force/Topic Outcome/The max acceleration without slipping/The
       max acceleration without slipping
   - file: content/public/006.Force/Topic Outcome/Particle in Conservative Potential/Particle
