@@ -1,6 +1,6 @@
 ---
 title: Collision of Two Carts
-topic: Inertia
+topic: Force
 author: Jake Bobowski
 source: 2017 Midterm Q2
 template_version: 1.1

@@ -1,6 +1,6 @@
 ---
 title: Energy Cosumption Units
-topic: Electrical Energy
+topic: Circuits
 author: Vanshika Sharma
 source: 2.9.16
 template_version: 1.0
@@ -27,15 +27,15 @@ substitutions:
       title: Energy Cosumption Units
     part1:
       ans1:
-        value: current
-      ans2:
-        value: power
-      ans3:
-        value: energy
-      ans4:
-        value: voltage
-      ans5:
         value: charge
+      ans2:
+        value: voltage
+      ans3:
+        value: current
+      ans4:
+        value: power
+      ans5:
+        value: energy
 ---
 # {{ params.vars.title }}
 ## Part 1

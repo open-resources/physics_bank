@@ -1,6 +1,6 @@
 ---
 title: Immersion Heater
-topic: Electrical Power
+topic: Circuits
 author: Vanshika Sharma
 source: 2.9.18
 template_version: 1.1

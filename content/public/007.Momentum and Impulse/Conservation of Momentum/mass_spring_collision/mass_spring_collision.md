@@ -1,6 +1,6 @@
 ---
 title: Perfect Elastic Collision of a Mass Attached to a Spring
-topic: Simple Harmonic Motion
+topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2012 Final Q13
 template_version: 1.0

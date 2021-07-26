@@ -1,6 +1,6 @@
 ---
 title: Aircraft Carrier
-topic: Kinematics (2D and 3D)
+topic: Kinematics(2D and 3D)
 author: Jake Bobowski
 source: 2014 Midterm 1 Q6
 template_version: 1.1

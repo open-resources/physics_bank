@@ -1,6 +1,6 @@
 ---
 title: Ball on a Slanted Table
-topic: Kinematics (2D and 3D)
+topic: Kinematics(2D and 3D)
 author: Jake Bobowski
 source: 2014 Midterm 1 Q4
 template_version: 1.1
@@ -32,8 +32,8 @@ substitutions:
     vars:
       title: Ball on a Slanted Table
       units: m/s
-    d: 2.1
-    theta: 18
+    d: 3.0
+    theta: 21
 ---
 # {{ params.vars.title }}
 A ball is launched with an initial velocity of $\vec{v}\_0$ from one corner of a smooth, flat board.

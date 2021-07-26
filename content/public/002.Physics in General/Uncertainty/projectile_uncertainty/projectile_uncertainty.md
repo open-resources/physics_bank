@@ -1,6 +1,6 @@
 ---
 title: Projectile Uncertainty
-topic: Uncertainty
+topic: Physics in General
 author: Jake Bobowski
 source: 2017 Final Q19
 template_version: 1.1

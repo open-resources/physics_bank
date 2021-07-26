@@ -1,6 +1,6 @@
 ---
 title: Ohmic Devices
-topic: Ohm's Law
+topic: Circuits
 author: Vanshika Sharma
 source: 2.9.13
 template_version: 1.1

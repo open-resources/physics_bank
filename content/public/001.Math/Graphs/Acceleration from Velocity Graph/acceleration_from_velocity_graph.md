@@ -1,6 +1,6 @@
 ---
 title: Acceleration from Velocity Graph
-topic: Kinematics (1D)
+topic: Kinematics(1D)
 author: Jake Bobowski
 source: 2014 Midterm 1 Q1
 template_version: 1.1
@@ -23,7 +23,7 @@ part1:
     weight: 1
 substitutions:
   params:
-    t: 3
+    t: 2
     vars:
       title: Acceleration from Velocity Graph
     part1:

@@ -1,6 +1,6 @@
 ---
 title: The Magnitude of a Particle's Vector
-topic: Kinematics (1D)
+topic: Kinematics(1D)
 author: Jake Bobowski
 source: 2012 Final Q1
 template_version: 1.1
@@ -30,10 +30,10 @@ substitutions:
     vars:
       title: The Magnitude of a Particle's Vector
       units: $m/s^2$
-    r_i: 4t^2 + 6t
-    r_j: 6t^3 - 9t^2 - t
-    t: 3
-    choice: velocity
+    r_i: 2t^3 - 9t^2 - 5t
+    r_j: -9t^2 + 8t
+    t: 11
+    choice: acceleration
 ---
 # {{ params.vars.title }}
 ## Question Text
