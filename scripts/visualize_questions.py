@@ -23,6 +23,12 @@ if __name__ == '__main__':
             if(file.endswith(".md")):
                 questions.append(os.path.join(root,file))
 
+    o_topics = [[q.split('../content/public/')[1].split('/')[0].split('.')[1],
+                 q.split('../content/public/')[1].split('/')[0].replace('.','-')] for q in questions]
+
+    df_nice = pd.DataFrame(o_topics,columns=['Topic','Nice Topics']
+                          ).drop_duplicates().reset_index(drop=True).sort_values(by='Nice Topics',axis=0)
+
     question_dict = {}
 
     topics = []
@@ -47,12 +53,12 @@ if __name__ == '__main__':
         
         topics.append(header['topic'])
 
-    df = pd.DataFrame(dict(Counter(topics)),index=['Count']).T.reset_index()
-    df = df.rename(columns={'index':'Topic'})
+    df = pd.DataFrame(dict(Counter(topics)),index=['Count']).T.reset_index().rename(columns={'index':'Topic'})
+    df = df.merge(df_nice)
 
     ## Create plot of questions by topic
-    chart = alt.Chart(df).mark_bar().encode(alt.Y('Topic',sort='-x',title=''),alt.X('Count')).properties(title=f'Questions by Topic (N={len(questions)})')
-    chart.save('images/topics.png',webdriver='firefox',scale_factor=2)
+    chart = alt.Chart(df).mark_bar().encode(alt.Y('Nice Topics:O',title=''),alt.X('Count')).properties(title=f'Questions by Topic (N={len(questions)})')
+    chart.save('../images/topics.png',webdriver='firefox',scale_factor=2)
 
     ## Write Table of links file
     table = f"# Question Index \n \n \n | Question | Public HTML | Public MD | Instructor MD | PL |\n| --------- | --------- | --------- | --------- | --------- |\n"
@@ -62,7 +68,6 @@ if __name__ == '__main__':
         html_pub = f"https://firas.moosvi.com/oer/physicsbank/content/"+q.replace('.md','.html')
         gh_pub = f"https://github.com/open-resources/physics_bank/blob/main/content/"+q
         gh_ins = f"https://github.com/open-resources/instructor_physics_bank/blob/main/output/"+q.replace('public','instructor')
-
 
         url_html_pub = f"[Q {i+1}]({urllib.parse.quote(html_pub,safe='/:')})"
         url_gh_pub = f"[Q {i+1}]({urllib.parse.quote(gh_pub,safe='/:')})"
