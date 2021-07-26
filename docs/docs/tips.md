@@ -5,11 +5,14 @@ Below is a list of suggestions and recommendataions when authoring questions.
 ## Legend
 - Shuffling Choices
 - Preventing Randomization
-- Answer choices containing $\pm$ 
+- LaTeX Issues
 - Dealing with vectors and polynomials
 - Creating and using your own functions
 - Sympy
 - Adding Images to a Question
+- Using numpy
+- Randomising Tables
+- Choosing two or more names/animals/objects without repetition
 
 ## Shuffling choices
 
@@ -44,19 +47,35 @@ part1:
     fixed-order: true
 ```
 
-## Answer choices containing $\pm$ 
+## LaTeX Issues
+
+LaTeX code might sometimes not render properly on PL.  Most of the time, using two back slashes instead of one will solve the issue.
+
+Some examples:
+
+| Issue | Fix |
+| -- | -- |
+| ```\frac{}{}``` | Use ```\dfrac{}{}``` or ```\\frac{}{}```|
+| ```\theta``` | ```\\theta``` |
+| ```\vec{}``` | ```\\vec{}``` |
+
+Furthermore, if adding the extra back slash does not work, separating the LaTeX elements into different strings and then applying concatenation might fix the problem.
+
+For instance, ```"$\Delta\vec{p}_A$"``` will not display correctly while ```"$\Delta$" + "$\\vec{p}_A$"``` will.
+
+### Storing and displaying answers with LaTeX elements
 
 Assume that we have answer choices in the following format: 0.5 $\pm$ 0.1 $J$ where 0.5 is stored in ```params.part1.constant``` and 0.1 is stored in ```params.part1.ans1.value```. 
 
-```{{ params.part1.constant }} $\pm$ {{ params.part1.ans1.value }} {{ params.vars.units}} ``` will not work.  The solution is to store the whole expression in ```{{ params.part1.ans1.value }}``` as a string in the following manner: ```str(constant) + " $\pm$ " + str(randomized value)```
-
-
+```{{ params.part1.constant }} $\pm$ {{ params.part1.ans1.value }} {{ params.vars.units}} ``` will not work.  The solution is to store the whole expression in ```{{ params.part1.ans1.value }}``` as a string in the following manner by using concatenation: ```str(constant) + " $\pm$ " + str(randomized value)```
 
 ## Dealing with vectors and polynomials
 
 ### Using pbh.sign_str()
 
 When randomly generating vector components, for example, $0.50 \hat\imath - 16 \hat\jmath$ or $0.50 \hat\imath + 16 \hat\jmath$, we would want to determine the sign of the $\jmath$ vector algorithmically. This can be done using the ```pbh.sign_str()``` function.  It returns the sign of the input number as a string.
+
+Note: The signs are stored as ```' + '``` and ```' - '``` instead of ```'+'``` and ```'-'``` (note the spaces).
 
 The function can be used in the following ways.
 
@@ -181,4 +200,79 @@ If you want to add an image to a question:
     ```
     
 See q01_multiple-choice.md for an example.
-    
+
+## Using numpy
+
+Some rendering issues might occur when using numpy for calculations, especiallly when using a numpy result in a multiple choice question answer section. The result should first be cast to an integer or a string before being used. 
+
+In addition, if a numpy value is used with ```pbh.roundp()```, that value must first be cast to ```float()```.
+
+## Randomising Tables
+
+For questions containing tables of data, the following approach can be used.
+
+Assume that a table of ten measured acceleration values, as well as the mean and standard deviation of the values, needs to be generated.
+
+1. Create a list of values and store them individually in the dictionary.
+
+```
+# generate the table
+a_meas = [pbh.roundp(rd.uniform(1.3,1.8), sigfigs=3) for _ in range(10)]
+
+# store the values in the dictionary
+values = ["a{0}".format(i+1) for i in range(10)]
+for x in a_meas:
+    value = values.pop(0)
+    data2["params"][value] = x
+```
+
+2. Calculate the mean and standard deviation using ```numpy.mean()``` and ```numpy.std()``` and store the values in the dictionary.
+
+```
+# calculate the mean measured acceleration and standard deviation
+mean = pbh.roundp(float(numpy.mean(a_meas)), sigfigs = 3)
+sd = pbh.roundp(float(numpy.std(a_meas)), sigfigs = 3)
+
+# save table values in dictionary
+data2["params"]["mean"] = mean
+data2["params"]["sd"] = sd
+```
+
+3. Displaying the table in Markdown 
+
+```
+| Trial     | Accel. ($m/s^2$) |
+| ----------- | ----------- |
+| 1     |  {{ params.a1 }}     |
+| 2   |   {{ params.a2 }}      |
+| 3     |  {{ params.a3 }}     |
+| 4   |   {{ params.a4 }}      |
+| 5     |  {{ params.a5 }}     |
+| 6   |   {{ params.a6 }}      |
+| 7     |  {{ params.a7 }}     |
+| 8   |   {{ params.a8 }}      |
+| 9     |  {{ params.a9 }}     |
+| 10   |   {{ params.a10 }}      |
+| **Mean** | {{ params.mean }}      |
+| **SD** | {{ params.sd }}      |
+```
+
+## Choosing two or more names/animals/objects without repetition
+
+Suppose a question involves two ($n = 2$) named entities. We would not want to have the same name generated twice.
+
+1. Assume that we have a list called ```entity``` of names/animals/objects (manually defined or loaded using pandas).
+
+2. The first named entity is generated using ```random.choice()```.
+
+```entity1 = random.choice(entity)```
+
+3. To prevent repetition, ```entity1``` needs to be removed from the list.
+
+```entity.remove(entity1)```
+
+4. Finally, the second entity is again generated using ```random.choice()```.
+
+```entity2 = random.choice(entity)```
+
+This process can be repeated for $n > 2$.
