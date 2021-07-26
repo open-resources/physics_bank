@@ -3,7 +3,7 @@ title: Explosions and Velocity
 topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2015 practice midterm 1 Q4
-template_version: 1.0
+template_version: 1.1
 attribution: standard
 outcomes:
 - 6.5.1.6
@@ -15,7 +15,7 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- unknown
+- EW
 assets: null
 part1:
   type: multiple-choice
@@ -25,32 +25,31 @@ substitutions:
   params:
     vars:
       title: Explosions and Velocity
-      units: m/s
-      name: Ximena
+      name: Ahmed
     part1:
-      I_A: 3
-      I_B: 2
-      v_A: 35
-      v_B: 27
+      I_A: 5
+      I_B: 6
+      v_A: 24
+      v_B: 31
       m_pumpkin: 2
-      v: 79.5
+      v: 150.0
       ans1:
         value: Yes, because of conservation of momentum
       ans2:
         value: No, because we have not accounted for how the explosion might have
           changed the momentum of the pumpkin.
       ans3:
-        value: No, because the velocity should be $v = $ 62 m/s
+        value: No, because the velocity should be $v = $ 55 $m/s$
       ans4:
-        value: No, because the velocity should be $v = $ 31.0 m/s
+        value: No, because the velocity should be $v = $ 28.0 $m/s$
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} put a bunch of explosives inside of a {{ params.part1.m_pumpkin }} kg pumpkin, which explodes in two pieces.
-Piece A has inertia {{ params.part1.I_A }} kg and velocity $v_A$ = {{ params.part1.v_A }} {{ params.vars.units }}.
-Piece B has inertia {{ params.part1.I_B }} kg, and velocity $v_B$ = {{ params.part1.v_B }} {{ params.vars.units }}.
+Piece A has inertia {{ params.part1.I_A }} kg and velocity $v_A$ = {{ params.part1.v_A }} $m/s$.
+Piece B has inertia {{ params.part1.I_B }} kg, and velocity $v_B$ = {{ params.part1.v_B }} $m/s$.
 ## Part 1
 
-Is it true that the pumpkin must initially have had velocity $v$ = {{ params.vars.v }} {{ params.vars.units }} ?
+Is it true that the pumpkin must initially have had velocity $v$ = {{ params.part1.v }} $m/s$ ?
 
 ### Answer Section
 
