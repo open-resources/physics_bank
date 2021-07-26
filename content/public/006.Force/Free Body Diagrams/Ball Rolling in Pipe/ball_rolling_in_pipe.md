@@ -1,12 +1,12 @@
 ---
-title: Firing a Ball using a Compressed Spring
-topic: Energy
+title: Ball Rolling in a Pipe
+topic: Force
 author: Jake Bobowski
-source: 2013 Practice Final Q4
+source: 2013 Midterm 2 002 Q3
 template_version: 1.1
 attribution: standard
 outcomes:
-- 8.5.1.1
+- 6.3.1.2
 difficulty:
 - undefined
 randomization:
@@ -14,36 +14,38 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- PW
-assets: null
+- MP
+assets:
+- Q3.png
 part1:
   type: multiple-choice
   pl-customizations:
+    fixed-order: true
     weight: 1
 substitutions:
   params:
     vars:
-      title: Firing a Ball using a Compressed Spring
-    choice: doubled
+      title: Ball Rolling in a Pipe
     part1:
       ans1:
-        value: The ball will reach twice the height as before.
+        value: Option A
       ans2:
-        value: The ball will reach one quarter of the previous height.
+        value: Option B
       ans3:
-        value: The ball will reach four times the height previously reached.
+        value: Option C
       ans4:
-        value: The ball will reach half the height previously reached.
+        value: Option D
       ans5:
-        value: The ball will reach the same height as before.
-      ans6:
-        value: The ball will reach thrice the height as before.
+        value: Option E
 ---
 # {{ params.vars.title }}
-A compressed spring fires a ball of mass $m$ directly upwards.
+A ball rolls counterclockwise around the inside of a horizontal pipe.
+The ball is fastest at the lowest point, slowest at the highest point.
+
+<img src="Q3.png" width=500 alt="A cross-section of a pipe with a ball rotating couterclockwise inside of it. Options A, B, C, D and E are arrows pointing right, left, down, down and to the right, and the zero vector, respectively.">
 ## Part 1
 
-If the mass of the  ball  and  the  initial  compression  of  the  spring  are  both  {{ params.choice }}, (neglect  air resistance) then,
+At the point shown, with the ball moving down (the white arrow shows the ball's instantaneous velocity), what is the direction of the net force on the ball?
 
 ### Answer Section
 
