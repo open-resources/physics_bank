@@ -1,12 +1,12 @@
 ---
-title: Minimum Coefficient Of Static Friction
-topic: Rotational Motion
+title: Living Room on Fire
+topic: Momentum and Impulse
 author: Jake Bobowski
-source: 2012 Practice Final Q8
-template_version: 1.0
+source: 2013 Midterm 2 002 Q1
+template_version: 1.1
 attribution: standard
 outcomes:
-- 10.3.2.3
+- 7.3.1.2
 difficulty:
 - undefined
 randomization:
@@ -14,7 +14,7 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- EW
+- MP
 assets: null
 part1:
   type: multiple-choice
@@ -23,35 +23,30 @@ part1:
 substitutions:
   params:
     vars:
-      title: Minimum Coefficient Of Static Friction
-      vehicle: van
-    r: 84
-    v: 19
+      title: Living Room on Fire
     part1:
       ans1:
-        value: 2.3
+        value: Throw the Superball.
       ans2:
-        value: 0.44
+        value: Throw the ball of clay.
       ans3:
-        value: 4.3
-      ans4:
-        value: 0.023
-      ans5:
-        value: 0.23
+        value: It doesn't matter. Throw either.
 ---
 # {{ params.vars.title }}
-A {{ params.vars.vehicle }} drives around a flat curve with radius $r$ = {{params.r}} $m$ at a speed of $v$ = {{params.v}} $\frac{m}{s}$.
+You awake in the night to find that your living room is on fire.
+Your one chance to save yourself is to throw something that will hit the back of your bedroom door and close it, giving you a few seconds to escape out the window.
 ## Part 1
 
-What is the minimum coefficient of static friction required to keep the car from slipping?
+You happen to have both a sticky ball of clay and a super-bouncy Superball next to your bed, both the same size and same mass.
+You only have time to throw one.
+Which will it be?
+Your life depends on making the right choice!
 
 ### Answer Section
 
 - {{ params.part1.ans1.value }}
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
 
 ## Attribution
 
