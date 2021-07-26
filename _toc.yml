@@ -34,10 +34,6 @@ parts:
   - file: content/public/002.Physics in General/Uncertainty/Terminal Velocity of Coffee
       Filter/Terminal Velocity of Coffee Filter
   - file: content/public/002.Physics in General/Uncertainty/projectile_uncertainty/projectile_uncertainty
-- caption: Kinematics(1D)
-  chapters:
-  - file: content/public/003.Kinematics(1D)/Topic Outcome/Magnitude of a particle
-      vector/Magnitude of a particle vector
 - caption: Vectors
   chapters:
   - file: content/public/003.Vectors/Topic Outcome/Choose_all_Vectors_Scalars/Choose_all_Vectors_Scalars
@@ -52,11 +48,10 @@ parts:
       of Particle
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Throwing Stones/Throwing
       stones
+  - file: content/public/004.Kinematics(1D)/Topic Outcome/Magnitude of a particle
+      vector/Magnitude of a particle vector
   - file: content/public/004.Kinematics(1D)/Motion Diagrams/Running_Dog/Running_Dog
   - file: content/public/004.Kinematics(1D)/water_slide/water_slide
-- caption: Force
-  chapters:
-  - file: content/public/005.Force/Doorstop/Doorstop
 - caption: Kinematics(2D and 3D)
   chapters:
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/A flying arrow/A
@@ -73,6 +68,7 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/angular_speed/angular_speed
 - caption: Force
   chapters:
+  - file: content/public/006.Force/Friction/Doorstop/Doorstop
   - file: content/public/006.Force/Friction/Frictional Force between tires and road/Frictional
       Force between tires and road
   - file: content/public/006.Force/Friction/box_in_vehicle/box_in_vehicle
@@ -110,10 +106,6 @@ parts:
   - file: content/public/006.Force/Springs/Bungee_jumping/bungee_jumping
   - file: content/public/006.Force/Newton's Second Law/Force and Momentum/Force and
       Momentum
-- caption: Energy
-  chapters:
-  - file: content/public/007.Energy/Potential Energy/Equilibrium Length of a Spring/Equilibrium
-      Length of a Spring
 - caption: Momentum and Impulse
   chapters:
   - file: content/public/007.Momentum and Impulse/Impulse/Bouncing_Ball/Bouncing_Ball
@@ -138,6 +130,8 @@ parts:
   - file: content/public/008.Energy/Kinetic Energy/KE_energy_momentum/KE_energy_momentum
   - file: content/public/008.Energy/Potential Energy/Collision of cart with spring/Collision
       of cart with spring
+  - file: content/public/008.Energy/Potential Energy/Equilibrium Length of a Spring/Equilibrium
+      Length of a Spring
   - file: content/public/008.Energy/Topic Outcome/force_vs_position/force_vs_position
   - file: content/public/008.Energy/Topic Outcome/frictionless_track/frictionless_track
   - file: content/public/008.Energy/Topic Outcome/spring_oscillations/spring_oscillations
