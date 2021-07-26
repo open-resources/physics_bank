@@ -81,6 +81,7 @@ parts:
       systems
   - file: content/public/006.Force/Friction/box_in_truck_bed_2/box_in_truck_bed_2
   - file: content/public/006.Force/Friction/Block on a Wall/block_on_wall
+  - file: content/public/006.Force/Friction/Block on a Ramp/block_on_ramp
   - file: content/public/006.Force/Newton's First Law/Collision_of_two_carts/Collision_of_two_carts
   - file: content/public/006.Force/Newton's First Law/Inertial_Reference_Frames/Inertial_Reference_Frames
   - file: content/public/006.Force/Newton's First Law/Particle travelling with constant
@@ -118,6 +119,7 @@ parts:
       Momentum
 - caption: Momentum and Impulse
   chapters:
+  - file: content/public/007.Momentum and Impulse/Impulse/Room on Fire/room_on_fire
   - file: content/public/007.Momentum and Impulse/Impulse/Bouncing_Ball/Bouncing_Ball
   - file: content/public/007.Momentum and Impulse/Impulse/airbag_collision/airbag_collision
   - file: content/public/007.Momentum and Impulse/Collisions/Head-on collision of
