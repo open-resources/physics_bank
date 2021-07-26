@@ -31,15 +31,15 @@ substitutions:
       ans1:
         value: Displacement
       ans2:
-        value: Drag
+        value: Momentum
       ans3:
-        value: Density
+        value: Work
       ans4:
-        value: Temperature
+        value: Distance travelled
       ans5:
-        value: Volume
+        value: Area
       ans6:
-        value: Mass
+        value: Entropy
 ---
 # {{ params.vars.title }}
 ## Question Text

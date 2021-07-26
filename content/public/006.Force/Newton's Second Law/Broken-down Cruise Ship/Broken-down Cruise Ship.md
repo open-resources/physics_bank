@@ -1,12 +1,14 @@
 ---
-title: Minimum Coefficient Of Static Friction
-topic: Rotational Motion
+title: Broken-down Cruise Ship
+topic: Force
 author: Jake Bobowski
-source: 2012 Practice Final Q8
-template_version: 1.0
+source: 2017 Midterm 2 Section 002 Q1
+template_version: 1.1
 attribution: standard
 outcomes:
-- 10.3.2.3
+- 6.4.1.4
+- 6.7.1.0
+- 6.1.1.4
 difficulty:
 - undefined
 randomization:
@@ -14,7 +16,7 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- EW
+- PW
 assets: null
 part1:
   type: multiple-choice
@@ -23,27 +25,25 @@ part1:
 substitutions:
   params:
     vars:
-      title: Minimum Coefficient Of Static Friction
-      vehicle: van
-    r: 82
-    v: 11
+      title: Broken-down Cruise Ship
     part1:
       ans1:
-        value: 6.6
+        value: Has the same magnitude as the weight of the ship.
       ans2:
-        value: 0.15
+        value: Is greater than the weight of the ship.
       ans3:
-        value: 1.5
+        value: Is exactly balanced by the total force that resists the ship's motion.
       ans4:
-        value: 0.014
+        value: Is greater than the total force that resists the ship's motion.
       ans5:
-        value: 0.13
+        value: Is greater than both the total force that resists the ship's motion
+          and the weight of the ship.
 ---
 # {{ params.vars.title }}
-A {{ params.vars.vehicle }} drives around a flat curve with radius $r$ = {{params.r}} $m$ at a speed of $v$ = {{params.v}} $\frac{m}{s}$.
+A broken-down cruise ship is towed through the water by a tug boat at constant velocity.
 ## Part 1
 
-What is the minimum coefficient of static friction required to keep the car from slipping?
+The constant force applied to the ship by the cable that joins the ship to the tug boat:
 
 ### Answer Section
 
