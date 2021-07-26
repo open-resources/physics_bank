@@ -132,6 +132,8 @@ parts:
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Isolated_systems/Isolated_systems
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Ball Bouncing
       off Wall/ball_bouncing_off_wall
+  - file: content/public/007.Momentum and Impulse/Momentum/Rotating buckets/Rotating
+      buckets
   - file: content/public/007.Momentum and Impulse/Momentum/Momentum_and_Inertia/Momentum_and_Inertia
   - file: content/public/007.Momentum and Impulse/Momentum/Rock_Powered_Rocket/Rock_Powered_Rocket
   - file: content/public/007.Momentum and Impulse/Momentum/Dinner_Plate/dinner_plate
