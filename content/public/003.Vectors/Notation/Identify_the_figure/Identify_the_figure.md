@@ -1,12 +1,12 @@
 ---
-title: Velocity to Acceleration
-topic: Math
+title: Identify the figure
+topic: Vectors
 author: Jake Bobowski
-source: 2014 Midterm 1 Q2
+source: 2017 Midterm 1 Q1
 template_version: 1.1
 attribution: standard
 outcomes:
-- 1.7.2.2
+- 3.5.1.0
 difficulty:
 - undefined
 randomization:
@@ -14,37 +14,35 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- MP
-assets: null
+- AK
+assets:
+- q1.png
 part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    fixed-order: true
 substitutions:
   params:
     vars:
-      title: Velocity to Acceleration
-      units: $m/s^2$
-    c: 0.9
-    t: 7
+      title: Identify the figure
     part1:
       ans1:
-        value: 0.0052
+        value: a
       ans2:
-        value: -0.0052
+        value: b
       ans3:
-        value: -0.018
+        value: c
       ans4:
-        value: 0.018
+        value: d
       ans5:
-        value: The acceleration is 0
+        value: e
 ---
 # {{ params.vars.title }}
-The velocity of an object moving along the x-axis is given by $v_x$ = -$ct^{-2}$, where $c$ = {{params.c}} m/s
-and $v_x$ and $t$ are in metres per second and seconds respectively.
 ## Part 1
 
-What is the instantaneous acceleration of the object when $t$ = {{params.t}} s?
+Which figure shows $2 \overrightarrow{A} - \overrightarrow{B}$?
+<img src="q1.png" alt= "The initial figure shows two arrows, one pointing 45 degrees above the horizontal, and one pointing 45 degrees below the horizontal. Arrow A points 80 degrees above the horizontal, Arrow B points 45 degrees above the horizontal, Arrow C is horizontal, Arrow D points 45 degrees below the horizontal, Arrow e points 80 degrees below the horizontal." width = 400px>
 
 ### Answer Section
 
