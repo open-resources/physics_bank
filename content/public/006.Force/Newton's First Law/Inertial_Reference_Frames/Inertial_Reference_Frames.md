@@ -1,13 +1,12 @@
 ---
-title: Dissipative Process
-topic: Energy
+title: Inertial Reference Frames
+topic: Force
 author: Jake Bobowski
-source: 2016 Final q5
-template_version: 1.0
+source: 2015 Midterm 2 Q2
+template_version: 1.1
 attribution: standard
 outcomes:
-- 8.5.1.0
-- 8.1.1.0
+- 6.4.1.3
 difficulty:
 - undefined
 randomization:
@@ -15,7 +14,7 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- AK
+- EW
 assets: null
 part1:
   type: checkbox
@@ -26,29 +25,24 @@ part1:
 substitutions:
   params:
     vars:
-      title: Dissipative Energy
+      title: Inertial Reference Frames
     part1:
       ans1:
-        value: Irreversible processes are dissipative.
+        value: The inside of a car stopped at a traffic light
       ans2:
-        value: Incoherent deformations are dissipative
+        value: The inside of a car driving at a constant speed along a straight highway
       ans3:
-        value: Coherent deformations are dissipative.
+        value: The inside of a car accelerating after the traffic light turns green
       ans4:
-        value: Dissipative processes are one where the total mechanical energy is
-          not conserved.
+        value: The inside of a car that is slowing down as it approaches a red light
       ans5:
-        value: If the total kinetic energy is not constant all the way through the
-          interaction, the process is dissipative.
+        value: The inside of a car taking a corner at a constant speed
 ---
 # {{ params.vars.title }}
-## Question Text
+## Part 1
 
-What do we mean when we say a process is dissipative?
-
-Select all the choices that are true.
-
-Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
+Which of the following are inertial reference frames?
+Choose all that apply.
 
 ### Answer Section
 

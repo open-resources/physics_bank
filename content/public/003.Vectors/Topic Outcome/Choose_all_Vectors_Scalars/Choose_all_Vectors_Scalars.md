@@ -31,13 +31,13 @@ substitutions:
       ans1:
         value: Mass
       ans2:
-        value: Energy
+        value: Pressure
       ans3:
-        value: Distance travelled
+        value: Temperature
       ans4:
-        value: The average velocity
+        value: Acceleration
       ans5:
-        value: The position in a 1 dimensional system
+        value: velocity
       ans6:
         value: The position in 3 dimensions
 ---
