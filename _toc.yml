@@ -80,6 +80,7 @@ parts:
   - file: content/public/006.Force/Friction/box_in_truck_bed_2/box_in_truck_bed_2
   - file: content/public/006.Force/Friction/Block on a Wall/block_on_wall
   - file: content/public/006.Force/Newton's First Law/Collision_of_two_carts/Collision_of_two_carts
+  - file: content/public/006.Force/Newton's First Law/Inertial_Reference_Frames/Inertial_Reference_Frames
   - file: content/public/006.Force/Newton's First Law/Particle travelling with constant
       velocity/Particle travelling with constant velocity
   - file: content/public/006.Force/Dynamics of Circular Motion/object_on_string/object_on_string
