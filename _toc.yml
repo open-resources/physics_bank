@@ -48,6 +48,7 @@ parts:
       of Particle
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Throwing Stones/Throwing
       stones
+  - file: content/public/004.Kinematics(1D)/Topic Outcome/Kicked_Soccer_Ball/Kicked_Soccer_Ball
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Magnitude of a particle
       vector/Magnitude of a particle vector
   - file: content/public/004.Kinematics(1D)/Motion Diagrams/Running_Dog/Running_Dog
@@ -116,6 +117,7 @@ parts:
   - file: content/public/007.Momentum and Impulse/2D Collisions/light_heavy_collision/light_heavy_collision
   - file: content/public/007.Momentum and Impulse/2D Collisions/billiards_collision/billiards_collision
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/System_Open_or_Closed/System_Open_or_Closed
+  - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Collisions_and_Isolated_Systems_Graphs/Collisions_and_Isolated_Systems_Graphs
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/mass_spring_collision/mass_spring_collision
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Blocks_On_Frictionless_Table/Blocks_On_Frictionless_Table
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Explosions_and_Velocity/Explosions_and_Velocity
