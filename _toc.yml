@@ -11,11 +11,12 @@ parts:
     title: Question Index
 - caption: Documentation
   chapters:
+  - file: docs/authoring_questions
+  - file: docs/tips
+  - file: docs/reviews
   - file: docs/alt-text/alt-text
   - file: docs/latex
   - file: docs/rounding
-  - file: docs/reviews
-  - file: docs/tips
 - caption: Math
   chapters:
   - file: content/public/001.Math/Derivatives/Velocity Derivatives/velocity_derivative
