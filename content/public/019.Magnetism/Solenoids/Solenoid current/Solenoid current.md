@@ -1,13 +1,12 @@
 ---
-title: Determining Capacitance
-topic: Circuits
-author: Ava Cornell
-source: 2.8.21
-template_version: 1.1
+title: Solenoid current
+topic: Magnetism
+author: Jake Bobowksi
+source: 2.12.50
+template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 21.7.1.0
-- 21.7.1.1
+- 19.6.1.0
 difficulty:
 - undefined
 randomization:
@@ -17,11 +16,12 @@ taxonomy:
 tags:
 - OSUP
 - volume 2
-- chapter 8
-- problem 23
-- capacitors
+- chapter 12
+- problem 50
+- magnetic field
+- solenoid
 - numeric
-- AC
+- JB
 assets: null
 part1:
   type: number-input
@@ -29,22 +29,24 @@ part1:
     weight: 1
     allow-blank: false
     show-correct-answer: false
-    label: $C= $
-    suffix: $\rm\ nF$
+    label: $I= $
+    suffix: $\rm\ A$
     comparison: relabs
     rtol: 0.03
     atol: 0
 substitutions:
   params:
     vars:
-      title: Determining Capacitance
-    q: '3.7'
-    v: '240'
+      title: Solenoid current
+    n: '14'
+    B: '1.6'
+    p: '-1'
 ---
 # {{ params.vars.title }}
+A solenoid has ${{ params.n }}$ turns per centimeter.
 ## Question Text
 
-What capacitance is needed to store ${{params.q }}\rm\ \mu\textrm{C}$ of charge at a voltage of ${{params.v }}\textrm{ V}$? Enter your answer in units of $\textrm{nF}$.
+What current will produce a magnetic field of ${{ params.B }}\times 10^{ {{params.p }} }\rm\ T$ within the solenoid?
 
 ### Answer Section
 

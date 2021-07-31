@@ -1,13 +1,13 @@
 ---
-title: Determining Capacitance
-topic: Circuits
-author: Ava Cornell
-source: 2.8.21
-template_version: 1.1
+title: Current loop
+topic: Magnetism
+author: Jake Bobowksi
+source: 2.12.35
+template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 21.7.1.0
-- 21.7.1.1
+- 19.2.4.3
+- 19.2.4.7
 difficulty:
 - undefined
 randomization:
@@ -17,11 +17,12 @@ taxonomy:
 tags:
 - OSUP
 - volume 2
-- chapter 8
-- problem 23
-- capacitors
+- chapter 12
+- problem 35
+- magnetic field
+- current loop
 - numeric
-- AC
+- JB
 assets: null
 part1:
   type: number-input
@@ -29,22 +30,24 @@ part1:
     weight: 1
     allow-blank: false
     show-correct-answer: false
-    label: $C= $
-    suffix: $\rm\ nF$
+    label: $r= $
+    suffix: $\rm\ m$
     comparison: relabs
     rtol: 0.03
     atol: 0
 substitutions:
   params:
     vars:
-      title: Determining Capacitance
-    q: '3.7'
-    v: '240'
+      title: Current loop
+    I: '4.60'
+    B: '1.60'
+    p: '-4'
 ---
 # {{ params.vars.title }}
+When the current through a circular loop is ${{ params.I }}\rm\ A$, the magnetic field at its centre is ${{ params.B }}\times 10^{ {{ params.p }} }\rm\ T$.
 ## Question Text
 
-What capacitance is needed to store ${{params.q }}\rm\ \mu\textrm{C}$ of charge at a voltage of ${{params.v }}\textrm{ V}$? Enter your answer in units of $\textrm{nF}$.
+What is the radius of the loop?
 
 ### Answer Section
 

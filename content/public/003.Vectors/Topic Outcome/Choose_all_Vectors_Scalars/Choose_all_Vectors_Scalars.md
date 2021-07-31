@@ -29,15 +29,15 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: The average velocity
+        value: Lift
       ans2:
-        value: velocity
+        value: Acceleration
       ans3:
-        value: Force
+        value: Pressure
       ans4:
-        value: Weight
+        value: Length
       ans5:
-        value: Energy
+        value: Volume
       ans6:
         value: Distance travelled
 ---
