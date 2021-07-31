@@ -1,12 +1,13 @@
 ---
-title: Energy Cosumption Units
+title: Resistors in a Lab
 topic: Circuits
-author: Vanshika Sharma
-source: 2.9.16
+author: Joseph Wandinger
+source: 2.10.6
 template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 21.5.1.1
+- 21.8.2.0
+- 21.8.3.0
 difficulty:
 - undefined
 randomization:
@@ -14,8 +15,8 @@ randomization:
 taxonomy:
 - undefined
 tags:
+- JW
 - OSUP
-- VS
 assets: null
 part1:
   type: multiple-choice
@@ -24,33 +25,28 @@ part1:
 substitutions:
   params:
     vars:
-      title: Energy Cosumption Units
+      title: Resistors in a Lab
+    have: larger
+    want: smaller
     part1:
       ans1:
-        value: power
+        value: Connect multiple resistors in parallel
       ans2:
-        value: current
+        value: Connect multiple resistors in series
       ans3:
-        value: charge
-      ans4:
-        value: voltage
-      ans5:
-        value: energy
+        value: It is not possible to achieve the desired resistance
 ---
 # {{ params.vars.title }}
+Suppose you are doing a physics lab that asks you to put a resistor into a circuit, but all the resistors supplied have a {{ params.have }} resistance than the requested value.
 ## Part 1
 
-Your electric bill gives your consumption in units of kilowatt-hour ($\textrm{kW}\cdot\textrm{h}$).
-
-Does this unit represent the amount of {{params.part1.ans1.value}}, {{params.part1.ans2.value}}, {{params.part1.ans3.value}}, {{params.part1.ans4.value}}, or {{params.part1.ans5.value}} you buy?
+How would you connect the available resistances to attempt to get the {{ params.want }} value asked for?
 
 ### Answer Section
 
 - {{ params.part1.ans1.value }}
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
 
 ## Attribution
 
