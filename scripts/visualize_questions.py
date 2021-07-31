@@ -13,7 +13,7 @@ from collections import Counter
 
 if __name__ == '__main__':
 
-    source_root = 'content/public/'
+    source_root = '../content/public/'
 
     ## Analytics
 
@@ -58,7 +58,7 @@ if __name__ == '__main__':
 
     ## Create plot of questions by topic
     chart = alt.Chart(df).mark_bar().encode(alt.Y('Nice Topics:O',title=''),alt.X('Count')).properties(title=f'Questions by Topic (N={len(questions)})')
-    chart.save('../images/topics.png',webdriver='firefox',scale_factor=2)
+    chart.save('images/topics.png',webdriver='firefox',scale_factor=2)
 
     ## Write Table of links file
     table = f"# Question Index \n \n \n | Question | Public HTML | Public MD | Instructor MD | PL |\n| --------- | --------- | --------- | --------- | --------- |\n"
