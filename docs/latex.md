@@ -9,7 +9,7 @@ In our project you will mostly be using it to typset mathematical formulas. Mark
 
 Here is a table of the main mathematical symbols you will be using.
 
-![LaTeX Math Symbols: Common mathematical symbols in LaTeX.](../images/latex_math.png)
+![LaTeX Math Symbols: Common mathematical symbols in LaTeX.](images/latex_math.png)
 Image credit for the above table is from [Winston Chang](https://github.com/wch/latexsheet/blob/ef6d3f438c0e2e5499ffbe79a4be21960c9b3b07/latexsheet.pdf).
 
 ## Examples
