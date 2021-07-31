@@ -13,7 +13,7 @@ from collections import Counter
 
 if __name__ == '__main__':
 
-    source_root = '../content/public/'
+    source_root = 'content/public/'
 
     ## Analytics
 
@@ -23,8 +23,8 @@ if __name__ == '__main__':
             if(file.endswith(".md")):
                 questions.append(os.path.join(root,file))
 
-    o_topics = [[q.split('../content/public/')[1].split('/')[0].split('.')[1],
-                 q.split('../content/public/')[1].split('/')[0].replace('.','-')] for q in questions]
+    o_topics = [[q.split(source_root)[1].split('/')[0].split('.')[1],
+                 q.split(source_root)[1].split('/')[0].replace('.','-')] for q in questions]
 
     df_nice = pd.DataFrame(o_topics,columns=['Topic','Nice Topics']
                           ).drop_duplicates().reset_index(drop=True).sort_values(by='Nice Topics',axis=0)
