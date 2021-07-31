@@ -1,17 +1,12 @@
 ---
-title: Electron in a Solenoid
-topic: Magnetism
+title: Electric potential energy of a cube
+topic: Electrostatics
 author: Jake Bobowksi
-source: 2.12.55
+source: 2.7.74
 template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 19.2.3.0
-- 19.2.3.1
-- 19.3.2.0
-- 19.3.2.1
-- 19.6.1.0
-- 19.6.1.1
+- 18.11.2.3
 difficulty:
 - undefined
 randomization:
@@ -21,12 +16,10 @@ taxonomy:
 tags:
 - OSUP
 - volume 2
-- chapter 12
-- problem 55
-- magnetic force
-- solenoid
-- centripetal acceleration
-- circular motion
+- chapter 7
+- problem 74
+- electric potential energy
+- cube
 - numeric
 - JB
 assets: null
@@ -36,25 +29,22 @@ part1:
     weight: 1
     allow-blank: false
     show-correct-answer: false
-    label: $I= $
-    suffix: $\rm\ A$
+    label: $U= $
+    suffix: $\rm\ J$
     comparison: relabs
     rtol: 0.03
     atol: 0
 substitutions:
   params:
-    n: '35'
-    r: '2.70'
-    v: '2.20'
-    p: '5'
+    vars:
+      title: Electric potential energy of a cube
+    q: '1.40'
+    d: '3.80'
 ---
 # {{ params.vars.title }}
-A solenoid with ${{ params.n }}$ turns per centimter carries a current $I$.
-An electron moves within the solenoid in a circle of radius ${{ params.r}}\textrm{ cm}$.
-The plane of the circular motion is perpendicular to the axis of the solenoid.The speed of the electron is ${{ params.v }}\times 10^{ {{ params.p }} }\textrm{ m/s}$.
 ## Question Text
 
-What is the current $I$ in the solenoid?
+Find the electrostatic potential enerty of eight equal charges (${{ params.q }}\rm\ \mu C$) each fixed at the corners of a cube of side ${{ params.d }}\textrm{ cm}$.
 
 ### Answer Section
 
