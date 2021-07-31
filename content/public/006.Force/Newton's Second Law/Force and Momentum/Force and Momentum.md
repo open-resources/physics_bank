@@ -27,22 +27,22 @@ substitutions:
     vars:
       title: Force and Momentum
       units: N
-    p_i: 4t^3 - 8t^2 + 5t
-    p_j: -7t^3 - 6t^2 + 6t
-    time: 2.4
+    p_i: -t^2 - 2t
+    p_j: 6t^2 - 9t
+    time: 10.2
     part1:
       ans1:
         value: 0
       ans2:
-        value: (35.7$\hat\imath$ - 144.0$\hat\jmath$)
+        value: (-22.4$\hat\imath$ + 113.0$\hat\jmath$)
       ans3:
-        value: (-35.7$\hat\imath$ + 144.0$\hat\jmath$)
+        value: (22.4$\hat\imath$ - 113.0$\hat\jmath$)
       ans4:
-        value: (35.7$\hat\imath$ + 144.0$\hat\jmath$)
+        value: (-22.4$\hat\imath$ - 113.0$\hat\jmath$)
       ans5:
-        value: (-35.7$\hat\imath$ - 144.0$\hat\jmath$)
+        value: (22.4$\hat\imath$ + 113.0$\hat\jmath$)
       ans6:
-        value: (-71.4$\hat\imath$ - 144.0$\hat\jmath$)
+        value: (44.8$\hat\imath$ + 113.0$\hat\jmath$)
 ---
 # {{ params.vars.title }}
 The momentum of an object as a function of time is given by $\vec{p} = ({{ params.p_i }})\hat{\imath} + ({{ params.p_j }})\hat{\jmath}$ where $p$ is in $kg\cdot m/s$ and $t$ is in seconds.

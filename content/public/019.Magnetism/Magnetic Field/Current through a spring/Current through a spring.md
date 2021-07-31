@@ -1,13 +1,14 @@
 ---
-title: Charge Stored in a Capacitor
-topic: Circuits
-author: Ava Cornell
-source: 2.8.19
-template_version: 1.1
+title: Current through a spring
+topic: Magnetism
+author: Jake Bobowksi
+source: 2.12.9
+template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 21.7.1.0
-- 21.7.1.1
+- 19.2.4.7
+- 19.3.3.0
+- 19.3.3.2
 difficulty:
 - undefined
 randomization:
@@ -17,36 +18,41 @@ taxonomy:
 tags:
 - OSUP
 - volume 2
-- chapter 8
-- problem 19
-- capacitors
-- numeric
-- AC
+- chapter 12
+- problem 9
+- magnetic field
+- current
+- spring
+- drop down
+- JB
 assets: null
 part1:
-  type: number-input
+  type: dropdown
   pl-customizations:
     weight: 1
-    allow-blank: false
-    show-correct-answer: false
-    label: $Q= $
-    suffix: $\rm\ C$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
+    blank: true
 substitutions:
   params:
     vars:
-      title: Charge Stored in a Capacitor
-    c: '160'
-    v: '175'
+      title: Current through a spring
+    part1:
+      ans1:
+        value: The length decreases
+      ans2:
+        value: The length increases
+      ans3:
+        value: The length stays the same
 ---
 # {{ params.vars.title }}
-## Question Text
+## Part 1
 
-What charge is stored in a ${{params.c }} \rm\ \mu\textrm{F}$ capacitor when ${{params.v }}\textrm{ V}$ is applied to it?
+What happens to the length of a suspended spring when a current passes through it?
 
 ### Answer Section
+
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 
