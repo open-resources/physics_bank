@@ -1,13 +1,13 @@
 ---
-title: Force vs Position Graph
-topic: Energy
+title: Position, Velocity and Acceleration
+topic: Math
 author: Jake Bobowski
-source: 2017 Final Q15
+source: 2014 Midterm 1 Q3
 template_version: 1.1
 attribution: standard
 outcomes:
-- 8.2.1.0
-- 9.2.1.0
+- 1.2.1.4
+- 1.2.1.1
 difficulty:
 - undefined
 randomization:
@@ -17,14 +17,14 @@ taxonomy:
 tags:
 - MP
 assets:
-- q15image.png
+- Q3.png
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $v= $
-    suffix: m/s
+    label: $x= $
+    suffix: $m$
     comparison: sigfig
     digits: 2
 part2:
@@ -32,8 +32,8 @@ part2:
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $x= $
-    suffix: m
+    label: $v= $
+    suffix: $m/s$
     comparison: sigfig
     digits: 2
 part3:
@@ -41,43 +41,40 @@ part3:
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $K= $
-    suffix: J
+    label: $a= $
+    suffix: $m/s^2$
     comparison: sigfig
     digits: 2
 substitutions:
   params:
     vars:
-      title: Force vs Position Graph
-      units1: m/s
-      units2: m
-      units3: J
-    m: 1.0
-    v: -2.0
+      title: Position, Velocity and Acceleration
+      units1: $m$
+      units2: $m/s$
+      units3: "$\frac{m}{s^2}$"
+    t: 1
 ---
 # {{ params.vars.title }}
-The graph below shows the net force on a particle as a function of its position. The mass of
-the particle is m = {{params.m}} $kg$.
+The figure shows the velocity-versus-time graph for a particle moving along the x-axis. Its position at $t$ = 0 s is {{params.x_i}} m.
 
-<img src="q15image.png" width=400 alt="Force vs position graph">
+<img src="Q3.png" width=300 alt="Graph of velocity vs time" alt = "Graph of velocity vs time. The graph increases from 0 to 4 m/s in 1 second. It then decreases to -1m/s at 2.5s. It remains at -1m/s until 4s when it increases back to 0m/s at 5s.">
 ## Part 1
 
-If the particle has a velocity of $v_x =$ {{params.v}} m/s when $x =$ 0 $m$, what is the particle's speed
-when $x =$ 3.0 $m$?
+What is the particles velocity at $t$ = {{params.t}} $s$? If the answer is undefined, enter 100.
 
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units1 }}.
 ## Part 2
 
-At what value of x (in meters) is does the particle have the maximum kinetic energy?
+What is the particles position at $t$ = {{params.t}} $s$? If the answer is undefined, enter 100.
 
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units2 }}.
 ## Part 3
 
-What is the particle's maximum kinetic energy?
+What is the particles acceleration at $t$ = {{params.t}} $s$? If the answer is undefined, enter 100.
 
 ### Answer Section
 

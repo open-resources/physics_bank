@@ -26,8 +26,8 @@ substitutions:
   params:
     vars:
       title: Exploding Asteroid
-      name: Maya
-      name2: Lorenzo
+      name: Ahmed
+      name2: Aliyah
     part1:
       ans1:
         value: The total momentum vectors they use to describe the asteroid system
@@ -36,16 +36,16 @@ substitutions:
         value: The CHANGE in the momentum vector they determine for each piece of
           the asteroid before and after the explosion will be the same.
       ans3:
-        value: They will both agree on how the TOTAL kinetic energy of the system
+        value: They will both agree on how the kinetic energy of each of the pieces
           has changed.
       ans4:
-        value: The final speeds they measure for the two asteroid pieces will be the
-          same.
+        value: The FORCE vector they determine that each piece of the asteroid felt
+          during the explosion will be the same.
       ans5:
         value: They will both agree on how the internal energy of the system has changed.
       ans6:
-        value: They will both agree on how the kinetic energy of each of the pieces
-          has changed.
+        value: The momentum vectors they use to describe each of the two asteroid
+          pieces will be the same.
 ---
 # {{ params.vars.title }}
 ## Question Text
