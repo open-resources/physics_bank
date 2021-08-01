@@ -65,6 +65,8 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/angular_speed/angular_speed
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/RollerCoaster/RollerCoaster
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/centripetal_force/centripetal_force
+  - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Swinging
+      mass/Swinging mass
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/ski_jump/ski_jump
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Slanted Table/slanted_table
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/AIrcraft Carrier/aircraft_carrier
@@ -139,6 +141,8 @@ parts:
       buckets
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Raindrops_Collision/raindrops_collision
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Isolated_systems/Isolated_systems
+  - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Puck Collision/Puck
+      Collision
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/System_Open_or_Closed/System_Open_or_Closed
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Ball Bouncing
       off Wall/ball_bouncing_off_wall
