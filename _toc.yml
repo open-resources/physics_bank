@@ -128,6 +128,7 @@ parts:
   - file: content/public/007.Momentum and Impulse/Impulse/Bouncing_Ball/Bouncing_Ball
   - file: content/public/007.Momentum and Impulse/Impulse/Room on Fire/room_on_fire
   - file: content/public/007.Momentum and Impulse/Impulse/airbag_collision/airbag_collision
+  - file: content/public/007.Momentum and Impulse/Topic Outcome/Uranium_fragments/Uranium_fragments
   - file: content/public/007.Momentum and Impulse/2D Collisions/light_heavy_collision/light_heavy_collision
   - file: content/public/007.Momentum and Impulse/2D Collisions/collision_of_carts/collision_of_carts
   - file: content/public/007.Momentum and Impulse/2D Collisions/billiards_collision/billiards_collision
@@ -217,7 +218,11 @@ parts:
       through a spring
   - file: content/public/019.Magnetism/Magnetic Force/Electron in a Solenoid/Electron
       in a Solenoid
+  - file: content/public/019.Magnetism/Magnetic Field/Wire in an external magnetic
+      field/Wire in an external magnetic field
   - file: content/public/019.Magnetism/Magnetic Field/Current loop/Current loop
+  - file: content/public/019.Magnetism/Magnetic Field/Field due to lightning/Field
+      due to lightning
   - file: content/public/019.Magnetism/Magnetic Field/Current through a spring/Current
       through a spring
   - file: content/public/019.Magnetism/Magnetic Field/Particle in Uniform Magnetic
