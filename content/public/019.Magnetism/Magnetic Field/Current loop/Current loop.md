@@ -39,7 +39,7 @@ substitutions:
   params:
     vars:
       title: Current loop
-    I: '5.00'
+    I: '5.20'
     B: '2.20'
     p: '-5'
 ---

@@ -31,12 +31,12 @@ substitutions:
       vehicle: bus
       title: Displacement of a Vehicle
       units: blocks
-    c1: 15
-    c2: 47
-    c3: 31
-    dir1: east
-    dir2: north
-    dir3: south
+    c1: 65
+    c2: 41
+    c3: 34
+    dir1: west
+    dir2: south
+    dir3: north
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }} moves {{ params.c1}} blocks due {{ params.dir1}}, {{ params.c2 }} blocks due {{ params.dir2}}, and another {{ params.c3 }} blocks due {{ params.dir3}}.
