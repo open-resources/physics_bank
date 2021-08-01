@@ -37,6 +37,8 @@ parts:
   - file: content/public/002.Physics in General/Uncertainty/projectile_uncertainty/projectile_uncertainty
 - caption: Vectors
   chapters:
+  - file: content/public/003.Vectors/Topic Outcome/Magnitude and Direction of Vector/Magnitude
+      and Direction of Vector
   - file: content/public/003.Vectors/Topic Outcome/Choose_all_Vectors_Scalars/Choose_all_Vectors_Scalars
   - file: content/public/003.Vectors/Notation/Identify_the_figure/Identify_the_figure
 - caption: Kinematics(1D)
