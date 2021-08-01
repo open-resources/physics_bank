@@ -1,13 +1,14 @@
 ---
-title: Ball Bouncing off a Wall
+title: Flying Squid
 topic: Momentum and Impulse
-author: Jake Bobowski
-source: 2012 Midterm 2 Q6
+author: Jake Bobowksi
+source: 2013 Midterm 2 002 Q6
 template_version: 1.1
 attribution: standard
 outcomes:
-- 7.4.1.2
-- 7.3.1.2
+- 7.5.1.4
+- 4.1.1.1
+- 4.3.1.1
 difficulty:
 - undefined
 randomization:
@@ -17,50 +18,49 @@ taxonomy:
 tags:
 - MP
 assets:
-- q6.png
+- Q6.png
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $J_x= $
-    suffix: $\frac{kg*m}{s}$
+    label: $v= $
+    suffix: $m/s$
     comparison: sigfig
-    digits: 2
+    digits: 3
 part2:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $F_{avg}= $
-    suffix: $N$
+    label: $\Delta y= $
+    suffix: $m$
     comparison: sigfig
-    digits: 2
+    digits: 3
 substitutions:
   params:
     vars:
-      title: Ball Bouncing off a Wall
-      units1: "$\frac{kg*m}{s}$"
-      units2: $N$
-    m: 2
-    v: 3
-    theta: 29
-    t: 0.483
+      title: Flying Squid
+      units1: m/s
+      units2: m
+    m1: 0.06
+    m2: 0.92
+    v: 30
 ---
 # {{ params.vars.title }}
-A {{params.m}} kg steel bass strikes a massive wall at {{params.v}} m/s at an angle of {{params.theta}} with the plane of the wall. It bounces off of the wall with the same speed and angle (see the figure).
+The Japanese flying squid, shown in the photograph below, is able to "jump" off the surface of the sea by taking water into its body cavity and then ejecting the water vertically downward. A squid is able to eject {{params.m1}} $kg$ of water with a speed of {{params.v}} $m/s$. Without any water in its cavity, the mass of the squid is {{params.m2}} $kg$.
 
-<img src="q6.png" width=400 alt="Ball bouncing on then off a wall at angle theta">
+<img src="Q6.png" width=300 alt = "Japanese flying squid">
 ## Part 1
 
-What is the x-component of the impulse that the wall exerts on the ball during the collision?
+If starting from rest at the surface of the sea, what will be the speed of the squid immediately after ejecting the water?
 
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units1 }}.
-## Part 2
+## Part 3
 
-If the ball is in contact with the wall for 0.200 s, what is the average force that the wall exerts on the ball during the collision?
+How high above the surface of the sea will the squid rise?
 
 ### Answer Section
 
