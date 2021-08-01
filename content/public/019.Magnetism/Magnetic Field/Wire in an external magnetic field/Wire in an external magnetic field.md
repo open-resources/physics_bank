@@ -1,13 +1,12 @@
 ---
-title: Current loop
+title: Wire in an external magnetic field
 topic: Magnetism
 author: Jake Bobowksi
-source: 2.12.35
-template_version: 1.0
+source: 2.12.25
+template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
-- 19.2.4.3
-- 19.2.4.7
+- 19.2.4.1
 difficulty:
 - undefined
 randomization:
@@ -18,9 +17,10 @@ tags:
 - OSUP
 - volume 2
 - chapter 12
-- problem 35
+- problem 25
+- Ampere's law
+- line of current
 - magnetic field
-- current loop
 - numeric
 - JB
 assets: null
@@ -30,24 +30,24 @@ part1:
     weight: 1
     allow-blank: false
     show-correct-answer: false
-    label: $r= $
-    suffix: $\rm\ m$
+    label: $B= $
+    suffix: $\rm\ \mu T$
     comparison: relabs
     rtol: 0.03
     atol: 0
 substitutions:
   params:
     vars:
-      title: Current loop
-    I: '5.00'
-    B: '2.20'
-    p: '-5'
+      title: Wire in an external magnetic field
+    I: '22.0'
+    Bext: '33.0'
+    d: '20.0'
 ---
 # {{ params.vars.title }}
-When the current through a circular loop is ${{ params.I }}\rm\ A$, the magnetic field at its centre is ${{ params.B }}\times 10^{ {{ params.p }} }\rm\ T$.
+A long, straight, horizontal wire carries a left-to-right current of ${{ params.I }}\rm\ A$.The wire is placed in a uniform magnetic field of magnitude ${{ params.Bext }}~\mu\mathrm{T}$ that is directed vertically downward.
 ## Question Text
 
-What is the radius of the loop?
+What is the magnitude of the net magnetic field ${{ params.d }}\rm\ cm$ above the wire?
 
 ### Answer Section
 

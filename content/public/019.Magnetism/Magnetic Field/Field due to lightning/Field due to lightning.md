@@ -1,13 +1,12 @@
 ---
-title: Current loop
+title: Field due to lightning
 topic: Magnetism
 author: Jake Bobowksi
-source: 2.12.35
+source: 2.12.22
 template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 19.2.4.3
-- 19.2.4.7
+- 18.11.2.3
 difficulty:
 - undefined
 randomization:
@@ -18,9 +17,10 @@ tags:
 - OSUP
 - volume 2
 - chapter 12
-- problem 35
+- problem 22
+- Ampere's law
+- line of current
 - magnetic field
-- current loop
 - numeric
 - JB
 assets: null
@@ -30,24 +30,23 @@ part1:
     weight: 1
     allow-blank: false
     show-correct-answer: false
-    label: $r= $
-    suffix: $\rm\ m$
+    label: $B= $
+    suffix: $\rm\ T$
     comparison: relabs
     rtol: 0.03
     atol: 0
 substitutions:
   params:
     vars:
-      title: Current loop
-    I: '5.00'
-    B: '2.20'
-    p: '-5'
+      title: Field due to lightning
+    d: '2.0'
+    p: '4'
 ---
 # {{ params.vars.title }}
-When the current through a circular loop is ${{ params.I }}\rm\ A$, the magnetic field at its centre is ${{ params.B }}\times 10^{ {{ params.p }} }\rm\ T$.
+A typical current in a lightning bolt is $10^{{ params.p }}\rm\ A$.
 ## Question Text
 
-What is the radius of the loop?
+Estimate the magnetic field a perpendicular distance of ${{ params.d }}\rm\ m$ from the bolt.
 
 ### Answer Section
 
