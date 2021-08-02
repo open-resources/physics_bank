@@ -27,15 +27,15 @@ substitutions:
       units: rad/s
       title: Wheel of Fortune
     w_i: 1.05
-    t: 5
+    t: 6
     w_int: 3
     part1:
       ans1:
-        value: 1.98
+        value: 1.65
       ans2:
-        value: 1.41
+        value: 1.28
       ans3:
-        value: 2.81
+        value: 2.57
       ans4:
         value: $\pi$/3
 ---
