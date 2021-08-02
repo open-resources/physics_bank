@@ -22,6 +22,7 @@ parts:
   - file: content/public/001.Math/Derivatives/Velocity Derivatives/velocity_derivative
   - file: content/public/001.Math/Integrals/Rocket/Rocket
   - file: content/public/001.Math/Graphs/Acceleration from Velocity Graph/acceleration_from_velocity_graph
+  - file: content/public/001.Math/Graphs/Position Velocity and Acceleration/d_v_a_from_graph
 - caption: Physics in General
   chapters:
   - file: content/public/002.Physics in General/Topic Outcome/Skateboarder and observer/Skateboarder
@@ -191,6 +192,8 @@ parts:
   - file: content/public/010.Rotational Motion/Rotational Energy/Inertia of T-shaped
       rod/Inertia of T-shaped rod
   - file: content/public/010.Rotational Motion/Rolling Motion/Minimum_Coefficient_Of_Static_Friction/Minimum_Coefficient_Of_Static_Friction
+  - file: content/public/010.Rotational Motion/Rolling Motion/Speed of a rolling object/Speed
+      of  a rolling object
   - file: content/public/010.Rotational Motion/Rolling Motion/Rolling_without_slipping/Rolling_without_slipping
   - file: content/public/010.Rotational Motion/Topic Outcome/Cars on Hills/cars_on_hills
   - file: content/public/010.Rotational Motion/Topic Outcome/rock_on_string/rock_on_string
