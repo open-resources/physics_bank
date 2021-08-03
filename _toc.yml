@@ -223,6 +223,8 @@ parts:
       energy of a cube/Electric potential energy of a cube
   - file: content/public/018.Electrostatics/Electric Potential/Particle between charged
       plates/Particle between charged plates
+  - file: content/public/018.Electrostatics/Electric Charge/Neutral conductor/Neutral
+      conductor
 - caption: Magnetism
   chapters:
   - file: content/public/019.Magnetism/Solenoids/Solenoid current/Solenoid current
