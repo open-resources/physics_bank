@@ -223,6 +223,8 @@ parts:
       energy of a cube/Electric potential energy of a cube
   - file: content/public/018.Electrostatics/Electric Potential/Particle between charged
       plates/Particle between charged plates
+  - file: content/public/018.Electrostatics/Electric Field/Colinear point charges/Colinear
+      point charges
   - file: content/public/018.Electrostatics/Electric Charge/Neutral conductor
   - file: content/public/018.Electrostatics/Electric Charge/Suspended neutral conductor/Suspended
       neutral conductor
