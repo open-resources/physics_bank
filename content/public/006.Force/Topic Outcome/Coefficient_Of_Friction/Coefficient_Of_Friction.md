@@ -30,7 +30,7 @@ substitutions:
   params:
     vars:
       title: Coefficient_Of_Friction
-    m: 224
+    m: 154
     t: 1
 ---
 # {{ params.vars.title }}
