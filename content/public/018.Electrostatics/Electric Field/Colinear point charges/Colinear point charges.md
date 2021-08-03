@@ -1,12 +1,12 @@
 ---
-title: Field due to lightning
-topic: Magnetism
+title: Colinear point charges
+topic: Electrostatics
 author: Jake Bobowksi
-source: 2.12.22
+source: 2.5.25
 template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 18.11.2.3
+- 18.6.1.1
 difficulty:
 - undefined
 randomization:
@@ -16,39 +16,40 @@ taxonomy:
 tags:
 - OSUP
 - volume 2
-- chapter 12
-- problem 22
-- Ampere's law
-- line of current
-- magnetic field
-- numeric
+- chapter 5
+- problem 25
+- point charges
+- electric field
+- drop down
 - JB
 assets: null
 part1:
-  type: number-input
+  type: dropdown
   pl-customizations:
     weight: 1
-    allow-blank: false
-    show-correct-answer: false
-    label: $B= $
-    suffix: $\rm\ T$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
+    blank: true
 substitutions:
   params:
     vars:
-      title: Field due to lightning
-    d: '1.6'
-    p: '4'
+      title: Colinear point charges
+    part1:
+      ans1:
+        value: The charges have opposite signs
+      ans2:
+        value: The charges have the same sign.
+      ans3:
+        value: The absolute value of the two charges are the same.
 ---
 # {{ params.vars.title }}
-A typical current in a lightning bolt is $10^{{ params.p }}\rm\ A$.
-## Question Text
+## Part 1
 
-Estimate the magnetic field a perpendicular distance of ${{ params.d }}\rm\ m$ from the bolt.
+If the electric field at a point on the line between two charges is zero, what do you know about the charges?
 
 ### Answer Section
+
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 
