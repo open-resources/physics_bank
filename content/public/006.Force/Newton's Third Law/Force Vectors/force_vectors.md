@@ -32,11 +32,11 @@ substitutions:
           among themselves) only external forces can add or remove energy from the
           system.
       ans2:
-        value: If two objects push on each other, they will accelerate in opposite
-          directions.
-      ans3:
         value: If two objects push on each other, their velocities will change by
           the same amount (though opposite directions).
+      ans3:
+        value: If two objects push on each other, they will accelerate in opposite
+          directions.
       ans4:
         value: If two objects push on each other, their momenta will change by the
           same amount (though opposite directions).

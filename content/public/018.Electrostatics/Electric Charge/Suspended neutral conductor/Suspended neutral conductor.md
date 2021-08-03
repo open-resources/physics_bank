@@ -1,12 +1,12 @@
 ---
-title: Energy Cosumption Units
-topic: Circuits
-author: Vanshika Sharma
-source: 2.9.16
+title: Suspended neutral conductor
+topic: Electrostatics
+author: Jake Bobowksi
+source: 2.5.9
 template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 21.5.1.1
+- 18.2.1.0
 difficulty:
 - undefined
 randomization:
@@ -15,42 +15,48 @@ taxonomy:
 - undefined
 tags:
 - OSUP
-- VS
-assets: null
+- volume 2
+- chapter 5
+- problem 9
+- charged body
+- neutral conductor
+- polarization
+- drop down
+- JB
+assets:
+- OSUPv2p5_09.png
 part1:
-  type: multiple-choice
+  type: dropdown
   pl-customizations:
     weight: 1
+    blank: true
 substitutions:
   params:
     vars:
-      title: Energy Cosumption Units
+      title: Suspended neutral conductor
     part1:
       ans1:
-        value: voltage
+        value: attracted to the rod
       ans2:
-        value: energy
+        value: repelled by the rod
       ans3:
-        value: current
-      ans4:
-        value: power
-      ans5:
-        value: charge
+        value: unaffected by the rod
 ---
 # {{ params.vars.title }}
 ## Part 1
 
-Your electric bill gives your consumption in units of kilowatt-hour ($\textrm{kW}\cdot\textrm{h}$).
+An uncharged conducting sphere is suspended from the ceiling as shown in the figure.
+A negatively charged rod is brought nearby.
 
-Does this unit represent the amount of {{params.part1.ans1.value}}, {{params.part1.ans2.value}}, {{params.part1.ans3.value}}, {{params.part1.ans4.value}}, or {{params.part1.ans5.value}} you buy?
+<img src="OSUPv2p5_09.png" width=350 alt="A neutral conductor suspended from the ceiling with a charged rod nearby.">
+
+The neutral conductor is:
 
 ### Answer Section
 
 - {{ params.part1.ans1.value }}
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
 
 ## Attribution
 
