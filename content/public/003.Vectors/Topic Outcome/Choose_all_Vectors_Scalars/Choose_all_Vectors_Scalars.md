@@ -31,13 +31,13 @@ substitutions:
       ans1:
         value: Distance travelled
       ans2:
-        value: Pressure
+        value: Length
       ans3:
-        value: Temperature
+        value: Entropy
       ans4:
-        value: Mass
+        value: Density
       ans5:
-        value: velocity
+        value: Drag
       ans6:
         value: The position in a 1 dimensional system
 ---

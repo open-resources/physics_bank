@@ -29,9 +29,9 @@ substitutions:
   params:
     vars:
       title: Blocks On Frictionless Table
-    v0: 446
+    v0: 405
     v1: 5
-    mb: 14
+    mb: 11
     mw: 512
     d: 3
 ---
