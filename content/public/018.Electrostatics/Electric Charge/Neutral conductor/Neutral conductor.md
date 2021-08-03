@@ -23,7 +23,8 @@ tags:
 - polarization
 - drop down
 - JB
-assets: null
+assets:
+- OSUPv2p5_09.png
 part1:
   type: dropdown
   pl-customizations:
