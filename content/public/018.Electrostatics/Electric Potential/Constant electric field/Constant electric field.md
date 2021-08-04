@@ -1,12 +1,12 @@
 ---
-title: Solenoid current
-topic: Magnetism
+title: Constant electric field
+topic: Electrostatics
 author: Jake Bobowksi
-source: 2.12.50
+source: 2.7.5
 template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 19.6.1.0
+- 18.11.2.1
 difficulty:
 - undefined
 randomization:
@@ -16,39 +16,43 @@ taxonomy:
 tags:
 - OSUP
 - volume 2
-- chapter 12
-- problem 50
-- magnetic field
-- solenoid
-- numeric
+- chapter 7
+- problem 5
+- constant electric field
+- electric potential
+- drop down
 - JB
 assets: null
 part1:
-  type: number-input
+  type: dropdown
   pl-customizations:
     weight: 1
-    allow-blank: false
-    show-correct-answer: false
-    label: $I= $
-    suffix: $\rm\ A$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
+    blank: true
 substitutions:
   params:
     vars:
-      title: Solenoid current
-    n: '11'
-    B: '2.0'
-    p: '-1'
+      title: Constant electric field
+    part1:
+      ans1:
+        value: increasing
+      ans2:
+        value: decreasing
+      ans3:
+        value: zero
+      ans4:
+        value: non-zero and constant
 ---
 # {{ params.vars.title }}
-A solenoid has ${{ params.n }}$ turns per centimeter.
-## Question Text
+## Part 1
 
-What current will produce a magnetic field of ${{ params.B }}\times 10^{ {{params.p }} }\rm\ T$ within the solenoid?
+The strength of the electric field in a region of space where the electric potential is a constant is:
 
 ### Answer Section
+
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 
