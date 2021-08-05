@@ -1,12 +1,14 @@
 ---
-title: Energy Cosumption Units
-topic: Circuits
-author: Vanshika Sharma
-source: 2.9.16
+title: Flux through a closed surface
+topic: Electrostatics
+author: Jake Bobowksi
+source: 2.6.3
 template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 21.5.1.1
+- 18.8.1.0
+- 18.8.1.1
+- 18.8.1.2
 difficulty:
 - undefined
 randomization:
@@ -15,42 +17,39 @@ taxonomy:
 - undefined
 tags:
 - OSUP
-- VS
+- volume 2
+- chapter 6
+- problem 3
+- electric field
+- flux
+- closed surface
+- drop down
+- JB
 assets: null
 part1:
-  type: multiple-choice
+  type: dropdown
   pl-customizations:
     weight: 1
+    blank: true
 substitutions:
   params:
     vars:
-      title: Energy Cosumption Units
+      title: Flux through a closed surface
     part1:
       ans1:
-        value: power
+        value: 'True'
       ans2:
-        value: voltage
-      ans3:
-        value: energy
-      ans4:
-        value: charge
-      ans5:
-        value: current
+        value: 'False'
 ---
 # {{ params.vars.title }}
 ## Part 1
 
-Your electric bill gives your consumption in units of kilowatt-hour ($\textrm{kW}\cdot\textrm{h}$).
-
-Does this unit represent the amount of {{params.part1.ans1.value}}, {{params.part1.ans2.value}}, {{params.part1.ans3.value}}, {{params.part1.ans4.value}}, or {{params.part1.ans5.value}} you buy?
+The net electric flux crossing a closed surface is always zero.
 
 ### Answer Section
 
 - {{ params.part1.ans1.value }}
 - {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
 
 ## Attribution
 

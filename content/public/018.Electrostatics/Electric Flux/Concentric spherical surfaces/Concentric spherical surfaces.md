@@ -1,12 +1,14 @@
 ---
-title: Energy Cosumption Units
-topic: Circuits
-author: Vanshika Sharma
-source: 2.9.16
+title: Concentric spherical surfaces
+topic: Electrostatics
+author: Jake Bobowksi
+source: 2.6.5
 template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 21.5.1.1
+- 18.8.1.0
+- 18.8.1.1
+- 18.8.1.2
 difficulty:
 - undefined
 randomization:
@@ -15,42 +17,44 @@ taxonomy:
 - undefined
 tags:
 - OSUP
-- VS
+- volume 2
+- chapter 6
+- problem 5
+- electric field
+- flux
+- closed surface
+- drop down
+- JB
 assets: null
 part1:
-  type: multiple-choice
+  type: dropdown
   pl-customizations:
     weight: 1
+    blank: true
 substitutions:
   params:
     vars:
-      title: Energy Cosumption Units
+      title: Concentric spherical surfaces
     part1:
       ans1:
-        value: power
+        value: The larger sphere has greater electric flux passing through it.
       ans2:
-        value: voltage
+        value: The smaller sphere has greater electric flux passing through it.
       ans3:
-        value: energy
-      ans4:
-        value: charge
-      ans5:
-        value: current
+        value: The same electric flux passes through each sphere.
 ---
 # {{ params.vars.title }}
 ## Part 1
 
-Your electric bill gives your consumption in units of kilowatt-hour ($\textrm{kW}\cdot\textrm{h}$).
-
-Does this unit represent the amount of {{params.part1.ans1.value}}, {{params.part1.ans2.value}}, {{params.part1.ans3.value}}, {{params.part1.ans4.value}}, or {{params.part1.ans5.value}} you buy?
+Two concentric spherical surfaces enclose a point charge $q$.
+The radius of the outer sphere is twice that of the inner one.
+Compare the electric fluxes crossing the two surfaces.
 
 ### Answer Section
 
 - {{ params.part1.ans1.value }}
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
 
 ## Attribution
 

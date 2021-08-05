@@ -1,16 +1,13 @@
 ---
-title: Charge and Voltage Across Capacitors
+title: Partially Filled Capacitor
 topic: Circuits
 author: Ava Cornell
-source: 2.8.31
+source: 2.8.55
 template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
 - 21.7.1.0
-- 21.7.1.1
-- 21.7.2.0
-- 21.7.3.0
-- 21.7.4.0
+- 21.7.6.0
 difficulty:
 - undefined
 randomization:
@@ -21,71 +18,53 @@ tags:
 - OSUP
 - volume 2
 - chapter 8
-- problem 31
+- problem 55
 - capacitors
 - multi-part
+- numeric
 - AC
 assets: null
 part1:
   type: number-input
   pl-customizations:
-    label: $Q=$
+    label: $\kappa=$
     allow-blank: false
     comparison: relabs
     rtol: 0.03
     atol: 0
     show-help-text: true
-    suffix: $\rm\ {nC}$
     weight: 1
 part2:
   type: number-input
   pl-customizations:
-    label: $V_1=$
+    label: $V=$
     allow-blank: false
     comparison: relabs
     rtol: 0.03
     atol: 0
     show-help-text: true
-    suffix: $\rm\ V$
-    weight: 1
-part3:
-  type: number-input
-  pl-customizations:
-    label: $V_2=$
-    allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
-    show-help-text: true
-    suffix: $\rm\ V$
+    suffix: $\textrm{V}$
     weight: 1
 substitutions:
   params:
     vars:
-      title: Charge and Voltage Across Capacitors
-    a: '7'
-    b: '5'
-    v: '450'
+      title: Partially Filled Capacitor
+    a: '55.0'
+    b: '20.0'
+    f: '4'
 ---
 # {{ params.vars.title }}
-A ${{params.a }}\textrm{ pF}$ capacitor is connected in series with a ${{params.b }}\textrm{ pF}$ capacitor and a ${{params.v }}\textrm{ V}$ potential difference is applied across the pair.
+A parallel-plate capacitor with only air between its plates is charged by connecting the capacitor to a battery. The capacitor is then disconnected from the battery, without any of the charge leaving the plates.
 ## Part 1
 
-What is the charge on each capacitor? Enter answer in units of nC.
+A voltmeter reads ${{params.a }} \textrm{ V}$ when placed across the capacitor. When a dielectric is inserted between the plates, completely filling the space, the voltmeter ${{params.b }} \textrm{ V}$. What is the dielectric constant of the material?
 
 ### Answer Section
 
 Please enter a numeric value.
 ## Part 2
 
-What is the voltage across the ${{params.a }}\textrm{ pF}$ capacitor?
-
-### Answer Section
-
-Please enter a numeric value.
-## Part 3
-
-What is the voltage across the ${{params.b }}\textrm{ pF}$ capacitor?
+What will the voltmeter read if the dielectric is now pulled away out so it fills only $1/{{params.f }}$ of the space between the plates?
 
 ### Answer Section
 
