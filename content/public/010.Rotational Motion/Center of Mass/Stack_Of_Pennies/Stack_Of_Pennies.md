@@ -1,12 +1,12 @@
 ---
-title: Block In Hole
-topic: Energy
+title: Stack Of Pennies
+topic: Rotational Motion
 author: Jake Bobowski
-source: 2012 Practice Final Q11
+source: 2015 midterm 2 Q5
 template_version: 1.1
 attribution: standard
 outcomes:
-- 8.5.1.1
+- 10.4.1.1
 difficulty:
 - undefined
 randomization:
@@ -16,33 +16,33 @@ taxonomy:
 tags:
 - EW
 assets:
-- Q11.png
+- Q5.png
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $h= $
-    suffix: $m$
+    label: $X_{cm} = $
+    suffix: $d$
     comparison: sigfig
     digits: 3
 substitutions:
   params:
     vars:
-      title: Block In Hole
-      units: m
-    a: 29
-    d: 0.6
+      title: Stack of Pennies
+    s_1: 2
+    s_2: 3
+    s_3: 4
+    s_4: 5
 ---
 # {{ params.vars.title }}
-A small block is placed at height $h$ on a frictionless, {{params.a}}$^\circ$ ramp.
-Upon being released (from rest), the block slides down the ramp and then falls {{params.d}} $m$ to the floor.
-A small hole is located {{params.d}} $m$ from the end of the ramp.
-
-<img src="Q11.png" alt= "A block is placed on the top of a ramp sliding downwards. The angle of the ramp is labelled theta. There is a vertical distance at the end of the ramp followed by a horizontal distance to the hole" width=300>
+There are four stacks of pennies lined up in a row. The first stack has {{params.s_1}} pennies, the
+second stack {{params.s_2}} pennies, the third stack {{params.s_3}} pennies, and the last stack {{params.s_4}} pennies.
+All pennies have mass $m$ and diameter $d$.
 ## Question Text
 
-From what height $h$ should the block be released in order to land in the hole?
+How far to the right of the centre of the first stack is the centre of mass of this collection of pennies? Give your answer in terms of $d$.
+Don't worry about the vertical position of the centre of mass, just give the horizontal position.
 
 ### Answer Section
 

@@ -1,13 +1,12 @@
 ---
-title: Charge and Voltage Across Capacitors
+title: Connecting Capacitors
 topic: Circuits
 author: Ava Cornell
-source: 2.8.31
+source: 2.8.35
 template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
 - 21.7.1.0
-- 21.7.1.1
 - 21.7.2.0
 - 21.7.3.0
 - 21.7.4.0
@@ -21,7 +20,7 @@ tags:
 - OSUP
 - volume 2
 - chapter 8
-- problem 31
+- problem 35
 - capacitors
 - multi-part
 - AC
@@ -29,63 +28,44 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
-    label: $Q=$
+    label: $C_\textrm{S}=$
     allow-blank: false
     comparison: relabs
     rtol: 0.03
     atol: 0
     show-help-text: true
-    suffix: $\rm\ {nC}$
+    suffix: $\rm\ \mu\textrm{F}$
     weight: 1
 part2:
   type: number-input
   pl-customizations:
-    label: $V_1=$
+    label: $C_\textrm{P}=$
     allow-blank: false
     comparison: relabs
     rtol: 0.03
     atol: 0
     show-help-text: true
-    suffix: $\rm\ V$
-    weight: 1
-part3:
-  type: number-input
-  pl-customizations:
-    label: $V_2=$
-    allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
-    show-help-text: true
-    suffix: $\rm\ V$
+    suffix: $\rm\ \mu\textrm{F}$
     weight: 1
 substitutions:
   params:
     vars:
-      title: Charge and Voltage Across Capacitors
-    a: '9'
-    b: '14'
-    v: '310'
+      title: Connecting Capacitors
+    a: '7'
+    b: '10'
 ---
 # {{ params.vars.title }}
-A ${{params.a }}\textrm{ pF}$ capacitor is connected in series with a ${{params.b }}\textrm{ pF}$ capacitor and a ${{params.v }}\textrm{ V}$ potential difference is applied across the pair.
+You have a ${{params.a }} \rm\ \mu\textrm{F}$ capacitor and a ${{params.b }} \rm\ \mu\textrm{F}$ capacitor.
 ## Part 1
 
-What is the charge on each capacitor? Enter answer in units of nC.
+What is the equivalent capacitance acquired by connecting these capacitors in series?
 
 ### Answer Section
 
 Please enter a numeric value.
 ## Part 2
 
-What is the voltage across the ${{params.a }}\textrm{ pF}$ capacitor?
-
-### Answer Section
-
-Please enter a numeric value.
-## Part 3
-
-What is the voltage across the ${{params.b }}\textrm{ pF}$ capacitor?
+What is the equivalent capacitance acquired by connecting these capacitors in parallel?
 
 ### Answer Section
 
