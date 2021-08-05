@@ -31,6 +31,8 @@ parts:
       correct ans
   - file: content/public/002.Physics in General/Topic Outcome/Internal Energy Released/Internal
       Energy Released
+  - file: content/public/002.Physics in General/Topic Outcome/A disk and a paintball/A
+      disk and a paintball
   - file: content/public/002.Physics in General/Topic Outcome/Drawing water from a
       well/Drawing water from a well
   - file: content/public/002.Physics in General/Uncertainty/Terminal Velocity of Coffee
@@ -200,6 +202,7 @@ parts:
   - file: content/public/010.Rotational Motion/Topic Outcome/Wheel_of_fortune/Wheel_of_fortune
   - file: content/public/010.Rotational Motion/Topic Outcome/Rotational Displacement
       of Tires/Rotational Displacement of tires
+  - file: content/public/010.Rotational Motion/Center of Mass/Stack_Of_Pennies/Stack_Of_Pennies
   - file: content/public/010.Rotational Motion/Center of Mass/Centre of Mass of a
       Baton/Centre of Mass of a Baton
   - file: content/public/010.Rotational Motion/Relating Rotational to Translational
@@ -267,6 +270,7 @@ parts:
   - file: content/public/021.Circuits/Current/OSUPv2.9.2/OSUPv2.9.2
   - file: content/public/021.Circuits/Current/Cathode Ray Tube/cathode_ray_tube
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_6/OSUPv2p8_6
+  - file: content/public/021.Circuits/Capacitors/OSUPv2p8_35/OSUPv2p8_35
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_19/OSUPv2p8_19
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_23/OSUPv2p8_23
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_31/OSUPv2p8_31
