@@ -1,12 +1,13 @@
 ---
-title: Energy Cosumption Units
-topic: Circuits
+title: Electron Through a Magnetic Field
+topic: Magnetism
 author: Vanshika Sharma
-source: 2.9.16
-template_version: 1.0
+source: 2.11.5
+template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
-- 21.5.1.1
+- 19.2.1.0
+- 19.2.3.0
 difficulty:
 - undefined
 randomization:
@@ -15,34 +16,34 @@ taxonomy:
 - undefined
 tags:
 - OSUP
+- chapter 11
+- problem 5
+- magnetic field
 - VS
 assets: null
 part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    fixed-order: true
 substitutions:
   params:
     vars:
-      title: Energy Cosumption Units
+      title: Electron Through A Magnetic Field
     part1:
       ans1:
-        value: power
+        value: The magnetic field must must be perpendicular to the velocity.
       ans2:
-        value: current
+        value: The magnetic field must point parallel or anti-parallel to the velocity.
       ans3:
-        value: charge
+        value: The magnetic field must not be very strong
       ans4:
-        value: energy
-      ans5:
-        value: voltage
+        value: None of the above
 ---
 # {{ params.vars.title }}
 ## Part 1
 
-Your electric bill gives your consumption in units of kilowatt-hour ($\textrm{kW}\cdot\textrm{h}$).
-
-Does this unit represent the amount of {{params.part1.ans1.value}}, {{params.part1.ans2.value}}, {{params.part1.ans3.value}}, {{params.part1.ans4.value}}, or {{params.part1.ans5.value}} you buy?
+An electron passes through a magnetic field without being deflected. What do you conclude about the magnetic field?
 
 ### Answer Section
 
@@ -50,7 +51,6 @@ Does this unit represent the amount of {{params.part1.ans1.value}}, {{params.par
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
 
 ## Attribution
 
