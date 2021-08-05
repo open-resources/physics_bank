@@ -229,7 +229,6 @@ parts:
       point charges
   - file: content/public/018.Electrostatics/Electric Field/Vanishing electric field/Vanishing
       electric field
-  - file: content/public/018.Electrostatics/Electric Charge/Neutral conductor
   - file: content/public/018.Electrostatics/Electric Charge/Suspended neutral conductor/Suspended
       neutral conductor
   - file: content/public/018.Electrostatics/Electric Charge/Neutral conductor/Neutral
@@ -263,6 +262,7 @@ parts:
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_6/OSUPv2p8_6
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_19/OSUPv2p8_19
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_23/OSUPv2p8_23
+  - file: content/public/021.Circuits/Capacitors/OSUPv2p8_31/OSUPv2p8_31
   - file: content/public/021.Circuits/Ohm's Law/OSUPv2.9.13/OSUPv2.9.13
   - file: content/public/021.Circuits/Resistance/OSUPv2p10_02/OSUPv2p10_02
   - file: content/public/021.Circuits/Resistance/OSUPv2p10_06/OSUPv2p10_06
