@@ -1,14 +1,12 @@
 ---
-title: The Energy Expenditure of a Jogger
-topic: Work
+title: Uncertainty of Coefficient
+topic: Physics in General
 author: Jake Bobowski
-source: 2015 Final Q5
+source: 2012 Practice Final Q7
 template_version: 1.0
 attribution: standard
 outcomes:
-- 9.3.1.0
-- 9.3.1.1
-- 9.1.1.0
+- 2.4.1.2
 difficulty:
 - undefined
 randomization:
@@ -16,7 +14,7 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- PW
+- EW
 assets: null
 part1:
   type: multiple-choice
@@ -25,29 +23,28 @@ part1:
 substitutions:
   params:
     vars:
-      title: The Energy Expenditure of a Jogger
-      units: W
-    F: 33
-    v: 3.2
+      title: Uncertainty of Coefficient
+      units: $kg/s$
+    m: 132
+    v: 2.4
+    b: 0.35
     part1:
       ans1:
-        value: 11.0
+        value: ' $\pm$ 0.1'
       ans2:
-        value: 110.0
+        value: ' $\pm$ 0.03'
       ans3:
-        value: 340.0
+        value: ' $\pm$ 0.01'
       ans4:
-        value: 210.0
-      ans5:
-        value: 320.0
-      ans6:
-        value: 53.0
+        value: ' $\pm$ 0.34'
 ---
 # {{ params.vars.title }}
-Suppose a jogger has to exert a force of {{ params.F }} $N$ against air resistance to maintain a velocity of {{ params.v }} $m/s$.
+The drag force on an object of interest can be accurately modelled as $\vec{D}$ = -$b\vec{v}$ such that its terminal velocity in free fall is given by $v_T$ = $mg/b$.
+You measure $m$ = {{ params.m }} $\pm$ 2 $g$ and $v_T$ = {{ params.v }} $\pm$ 0.2 $m/s$.
+Based on these measurements you determine the drag coefficient to be $b$ = {{ params.b }} $kg/s$.
 ## Part 1
 
-At what rate is the jogger expending energy?
+What is the uncertainty in your determination of $b$?
 
 ### Answer Section
 
@@ -55,8 +52,6 @@ At what rate is the jogger expending energy?
 - {{ params.part1.ans2.value }} {{ params.vars.units}}
 - {{ params.part1.ans3.value }} {{ params.vars.units}}
 - {{ params.part1.ans4.value }} {{ params.vars.units}}
-- {{ params.part1.ans5.value }} {{ params.vars.units}}
-- {{ params.part1.ans6.value }} {{ params.vars.units}}
 
 ## Attribution
 
