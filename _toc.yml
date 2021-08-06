@@ -267,6 +267,7 @@ parts:
   - file: content/public/021.Circuits/RC Circuits/OSUPv2p10_16/OSUPv2p10_16
   - file: content/public/021.Circuits/Electrical Power/Immersion Heater/immersion_heater
   - file: content/public/021.Circuits/Current/Electrons In a Wire/electrons_in_a_wire
+  - file: content/public/021.Circuits/Current/SIlicon Rod Current/silicon_rod_current
   - file: content/public/021.Circuits/Current/OSUPv2.9.2/OSUPv2.9.2
   - file: content/public/021.Circuits/Current/Cathode Ray Tube/cathode_ray_tube
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_6/OSUPv2p8_6
@@ -277,5 +278,6 @@ parts:
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_48/OSUPv2p8_48
   - file: content/public/021.Circuits/Ohm's Law/OSUPv2.9.13/OSUPv2.9.13
   - file: content/public/021.Circuits/OSUPv2p8_55/OSUPv2p8_55
+  - file: content/public/021.Circuits/Resistance/Ratio Of Diameter/ratio_of_diameter
   - file: content/public/021.Circuits/Resistance/OSUPv2p10_02/OSUPv2p10_02
   - file: content/public/021.Circuits/Resistance/OSUPv2p10_06/OSUPv2p10_06
