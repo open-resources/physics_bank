@@ -1,13 +1,15 @@
 ---
-title: Current Through A Silicon Rod
-topic: Current
-author: Vanshika Sharma
-source: 2.9.42
+title: Adding Capacitances
+topic: Circuits
+author: Ava Cornell
+source: 2.8.37
 template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
-- 21.3.1.1
-- 21.2.1.
+- 21.7.1.0
+- 21.7.2.0
+- 21.7.3.0
+- 21.7.4.0
 difficulty:
 - undefined
 randomization:
@@ -17,37 +19,41 @@ taxonomy:
 tags:
 - OSUP
 - volume 2
-- chapter 9
-- problem 42
-- resistance
-- current
-- VS
-assets: null
+- chapter 8
+- problem 37
+- capacitors
+- numeric
+- AC
+assets:
+- Fig8_37.png
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: false
     show-correct-answer: false
-    label: $I= $
-    suffix: $\rm\ A$
+    label: $C= $
+    suffix: $\rm\ \mu\textrm{F}$
     comparison: relabs
     rtol: 0.03
     atol: 0
 substitutions:
   params:
     vars:
-      title: Current Through A Silicon Rod
-      units: "$\textrm{A}$"
-    d: 1.75
-    l: 13.6
-    V: 45
+      title: Adding Capacitances
+    a: '8'
+    b: '3'
+    c: '3.0'
+    d: '1.5'
+    e: '1.75'
+    f: '14'
 ---
 # {{ params.vars.title }}
 ## Question Text
 
-What current flows through a {{params.d}}-cm-diameter rod of pure silicon that is {{params.l}} $\textrm{cm}$ long, when {{params.V}} $\textrm{kV}$ is applied to it?
-(Such a rod may be used to make nuclear-particle detectors, for example.)
+Find the net capacitance of this combination of series and parallel capacitors shown below. Use the following values: $A = {{params.a }}$, $B = {{params.b }}$, $C = {{params.c }}$, $D = {{params.d }}$, $E = {{params.e }}$, and $F = {{params.f }}$.
+
+<img src="Fig8_37.png">
 
 ### Answer Section
 
