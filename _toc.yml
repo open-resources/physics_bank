@@ -242,12 +242,17 @@ parts:
       conductor
 - caption: Magnetism
   chapters:
+  - file: content/public/019.Magnetism/Magnetic Flux/Flux through a loop/Flux through
+      a loop
+  - file: content/public/019.Magnetism/Solenoids/Magnetic field of a solenoid/Magnetic
+      field of a solenoid
   - file: content/public/019.Magnetism/Solenoids/Solenoid current/Solenoid current
   - file: content/public/019.Magnetism/Magnetic Force/Current through a spring/Current
       through a spring
   - file: content/public/019.Magnetism/Magnetic Force/Force on Electron vs Proton/force_on_electron_versus_proton
   - file: content/public/019.Magnetism/Magnetic Force/Electron in a Solenoid/Electron
       in a Solenoid
+  - file: content/public/019.Magnetism/Magnetic Field/Square toroid/Square toroid
   - file: content/public/019.Magnetism/Magnetic Field/Wire in an external magnetic
       field/Wire in an external magnetic field
   - file: content/public/019.Magnetism/Magnetic Field/Current loop/Current loop
@@ -261,18 +266,23 @@ parts:
       field/Particle in Uniform Magnetic Field
   - file: content/public/019.Magnetism/Magnetic Field/Semi-circular current loop/Semi-circular
       Current Loop
+  - file: content/public/019.Magnetism/Magnetic Field/Circular coil/Circular coil
 - caption: Circuits
   chapters:
   - file: content/public/021.Circuits/Electrical Energy/OSUPv2.9.16/OSUPv2.9.16
   - file: content/public/021.Circuits/RC Circuits/OSUPv2p10_16/OSUPv2p10_16
   - file: content/public/021.Circuits/Electrical Power/Immersion Heater/immersion_heater
+  - file: content/public/021.Circuits/Electrical Power/Maximum Voltage/maximum_voltage
   - file: content/public/021.Circuits/Current/Electrons In a Wire/electrons_in_a_wire
   - file: content/public/021.Circuits/Current/SIlicon Rod Current/silicon_rod_current
   - file: content/public/021.Circuits/Current/OSUPv2.9.2/OSUPv2.9.2
   - file: content/public/021.Circuits/Current/Cathode Ray Tube/cathode_ray_tube
+  - file: content/public/021.Circuits/Current/Charge Model/charge_model
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_6/OSUPv2p8_6
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_35/OSUPv2p8_35
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_19/OSUPv2p8_19
+  - file: content/public/021.Circuits/Capacitors/OSUPv2p8_37/OSUPv2p8_37
+  - file: content/public/021.Circuits/Capacitors/OSUPv2p8_33/OSUPv2p8_33
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_23/OSUPv2p8_23
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_31/OSUPv2p8_31
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_48/OSUPv2p8_48
@@ -281,3 +291,4 @@ parts:
   - file: content/public/021.Circuits/Resistance/Ratio Of Diameter/ratio_of_diameter
   - file: content/public/021.Circuits/Resistance/OSUPv2p10_02/OSUPv2p10_02
   - file: content/public/021.Circuits/Resistance/OSUPv2p10_06/OSUPv2p10_06
+  - file: content/public/021.Circuits/Resistance/Length of Wire/length_of_wire
