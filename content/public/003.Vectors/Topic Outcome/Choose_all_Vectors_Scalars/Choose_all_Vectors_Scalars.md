@@ -29,15 +29,15 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Speed
-      ans2:
         value: Mass
+      ans2:
+        value: Speed
       ans3:
-        value: The position in a 1 dimensional system
+        value: Pressure
       ans4:
-        value: The position in 3 dimensions
+        value: Volume
       ans5:
-        value: Acceleration
+        value: velocity
       ans6:
         value: Displacement
 ---

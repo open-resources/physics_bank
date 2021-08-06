@@ -52,7 +52,7 @@ substitutions:
       units1: $m$
       units2: $m/s$
       units3: "$\frac{m}{s^2}$"
-    t: 3
+    t: 5
 ---
 # {{ params.vars.title }}
 The figure shows the velocity-versus-time graph for a particle moving along the x-axis. Its position at $t$ = 0 s is {{params.x_i}} m.

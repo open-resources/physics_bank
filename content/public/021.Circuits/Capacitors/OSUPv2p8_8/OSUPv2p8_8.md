@@ -1,12 +1,17 @@
 ---
-title: Energy Cosumption Units
+title: Maximizing Energy in a Capacitor Bank
 topic: Circuits
-author: Vanshika Sharma
-source: 2.9.16
+author: Ava Cornell
+source: 2.8.8
 template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 21.5.1.1
+- 21.7.1.0
+- 21.7.2.0
+- 21.7.3.0
+- 21.7.4.0
+- 21.7.5.0
+- 21.7.5.1
 difficulty:
 - undefined
 randomization:
@@ -15,7 +20,12 @@ taxonomy:
 - undefined
 tags:
 - OSUP
-- VS
+- volume 2
+- chapter 8
+- problem 8
+- capacitors
+- multiple choice
+- AC
 assets: null
 part1:
   type: multiple-choice
@@ -24,33 +34,25 @@ part1:
 substitutions:
   params:
     vars:
-      title: Energy Cosumption Units
+      title: Maximizing Energy in a Capacitor Bank
     part1:
       ans1:
-        value: energy
+        value: Parallel
       ans2:
-        value: voltage
+        value: Series
       ans3:
-        value: current
-      ans4:
-        value: power
-      ans5:
-        value: charge
+        value: Both parallel and series connections are equally effective
 ---
 # {{ params.vars.title }}
 ## Part 1
 
-Your electric bill gives your consumption in units of kilowatt-hour ($\textrm{kW}\cdot\textrm{h}$).
-
-Does this unit represent the amount of {{params.part1.ans1.value}}, {{params.part1.ans2.value}}, {{params.part1.ans3.value}}, {{params.part1.ans4.value}}, or {{params.part1.ans5.value}} you buy?
+If you wish to store a large amount of energy in a capacitor bank, would you connect the capacitors in series or parallel?
 
 ### Answer Section
 
 - {{ params.part1.ans1.value }}
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
 
 ## Attribution
 
