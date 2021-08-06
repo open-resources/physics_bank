@@ -38,6 +38,7 @@ parts:
   - file: content/public/002.Physics in General/Uncertainty/Terminal Velocity of Coffee
       Filter/Terminal Velocity of Coffee Filter
   - file: content/public/002.Physics in General/Uncertainty/projectile_uncertainty/projectile_uncertainty
+  - file: content/public/002.Physics in General/Uncertainty/Uncertainty_of_Coefficient/Uncertainty_of_Coefficient
 - caption: Vectors
   chapters:
   - file: content/public/003.Vectors/Topic Outcome/Magnitude and Direction of Vector/Magnitude
