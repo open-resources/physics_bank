@@ -1,12 +1,13 @@
 ---
-title: Energy Cosumption Units
-topic: Circuits
+title: Ratio of Diameter of Wires
+topic: Resistance
 author: Vanshika Sharma
-source: 2.9.16
-template_version: 1.0
+source: 2.9.41
+template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
-- 21.5.1.1
+- 21.3.1.0
+- 21.3.1.1
 difficulty:
 - undefined
 randomization:
@@ -16,6 +17,9 @@ taxonomy:
 tags:
 - OSUP
 - VS
+- resistance
+- wires
+- ratio
 assets: null
 part1:
   type: multiple-choice
@@ -24,25 +28,25 @@ part1:
 substitutions:
   params:
     vars:
-      title: Energy Cosumption Units
+      title: Ratio of Diameter of Wires
     part1:
       ans1:
-        value: power
+        value: "$\\sqrt{ \rho_{Cu} \\over \rho_{Al}}$"
       ans2:
-        value: voltage
+        value: "$\\sqrt{\rm{\rho_{Al}} \\over \rm{\rho_{Cu}}}$"
       ans3:
-        value: energy
+        value: "$\rm{\rho_{Al}} \\over \rm{\rho_{Cu}}$"
       ans4:
-        value: current
+        value: "$\rm{\rho_{Cu}} \\over \rm{\rho_{Al}}$"
       ans5:
-        value: charge
+        value: "$\rm{\rho_{Al}} \\over \rm{\rho_{Cu}}$"
+      ans6:
+        value: "$ \rho $"
 ---
 # {{ params.vars.title }}
 ## Part 1
 
-Your electric bill gives your consumption in units of kilowatt-hour ($\textrm{kW}\cdot\textrm{h}$).
-
-Does this unit represent the amount of {{params.part1.ans1.value}}, {{params.part1.ans2.value}}, {{params.part1.ans3.value}}, {{params.part1.ans4.value}}, or {{params.part1.ans5.value}} you buy?
+Find the ratio of the diameter of aluminum to copper wire, if they have the same resistance per unit length (as they might in household wiring).
 
 ### Answer Section
 
@@ -51,6 +55,7 @@ Does this unit represent the amount of {{params.part1.ans1.value}}, {{params.par
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
 - {{ params.part1.ans5.value }}
+- {{ params.part1.ans6.value }}
 
 ## Attribution
 

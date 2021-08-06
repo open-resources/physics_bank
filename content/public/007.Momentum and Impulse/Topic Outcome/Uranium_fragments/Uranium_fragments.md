@@ -41,9 +41,9 @@ substitutions:
     vars:
       title: Uranium Fragments
       units: amu
-    frag_speed: 2.0
-    dn_speed: 3.49
-    orig_mass: 234
+    frag_speed: 1.9
+    dn_speed: 2.88
+    orig_mass: 233
 ---
 # {{ params.vars.title }}
 A radioactive $^{ {{params.orig_mass}} }U$ uranium nucleus is initially at rest.

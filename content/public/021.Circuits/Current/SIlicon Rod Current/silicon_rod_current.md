@@ -1,12 +1,13 @@
 ---
-title: Battery Internal Resistance
-topic: Circuits
-author: Joseph Wandinger
-source: 2.10.2
-template_version: 1.0
+title: Current Through A Silicon Rod
+topic: Current
+author: Vanshika Sharma
+source: 2.9.42
+template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
-- 21.8.2.0
+- 21.3.1.1
+- 21.2.1.
 difficulty:
 - undefined
 randomization:
@@ -14,8 +15,13 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- JW
 - OSUP
+- volume 2
+- chapter 9
+- problem 42
+- resistance
+- current
+- VS
 assets: null
 part1:
   type: number-input
@@ -23,29 +29,27 @@ part1:
     weight: 1
     allow-blank: false
     show-correct-answer: false
-    label: $I_\mathrm{f}/I_0= $
+    label: $I= $
+    suffix: $\rm\ A$
     comparison: relabs
     rtol: 0.03
     atol: 0
-    show-placeholder: false
 substitutions:
   params:
     vars:
-      title: Battery Internal Resistance
-    x: 2
-    N: 5
-    V_string: '5.75'
+      title: Current Through A Silicon Rod
+      units: "$\textrm{A}$"
+    d: 2.1
+    l: 13.2
+    V: 8
 ---
 # {{ params.vars.title }}
-A battery with an internal resistance of $r$ and an emf of {{ params.V_string }}$\textrm{ V}$ is connected to a load resistor $R = {{ params.N }}r$ and current $I_0$ flows.
-As the battery ages, the internal resistance increases by a factor of {{ params.x }}.
-## Part 1
+## Question Text
 
-Find the ratio $I\_\mathrm{f}/I_0$, where $I\_\mathrm{f}$ is the final current after the battery has aged.
+What current flows through a {{params.d}}-cm-diameter rod of pure silicon that is {{params.l}} $\textrm{cm}$ long, when {{params.V}} $\textrm{kV}$ is applied to it?
+(Such a rod may be used to make nuclear-particle detectors, for example.)
 
 ### Answer Section
-
-Please enter a rational number.
 
 ## Attribution
 
