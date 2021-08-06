@@ -31,17 +31,17 @@ substitutions:
       title: Ratio of Diameter of Wires
     part1:
       ans1:
-        value: "$\\sqrt{ \rho_{Cu} \\over \rho_{Al}}$"
+        value: $\sqrt{\rho_\mathrm{Cu} / \rho_\mathrm{Al}}$
       ans2:
-        value: "$\\sqrt{\rm{\rho_{Al}} \\over \rm{\rho_{Cu}}}$"
+        value: $\sqrt{\rho_\mathrm{Al} / \rho_\mathrm{Cu}}$
       ans3:
-        value: "$\rm{\rho_{Al}} \\over \rm{\rho_{Cu}}$"
+        value: $\rho_\mathrm{Cu} / \rho_\mathrm{Al}$
       ans4:
-        value: "$\rm{\rho_{Cu}} \\over \rm{\rho_{Al}}$"
+        value: $\rho_\mathrm{Al} / \rho_\mathrm{Cu}$
       ans5:
-        value: "$\rm{\rho_{Al}} \\over \rm{\rho_{Cu}}$"
+        value: $\rho_\mathrm{Cu} * \rho_\mathrm{Al}$
       ans6:
-        value: "$ \rho $"
+        value: $(\rho_\mathrm{Cu} / \rho_\mathrm{Al})^2$
 ---
 # {{ params.vars.title }}
 ## Part 1

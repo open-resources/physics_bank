@@ -29,17 +29,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Mass
+        value: Temperature
       ans2:
-        value: Speed
-      ans3:
-        value: Pressure
-      ans4:
         value: Volume
+      ans3:
+        value: Entropy
+      ans4:
+        value: Momentum
       ans5:
-        value: velocity
+        value: The position in 3 dimensions
       ans6:
-        value: Displacement
+        value: The position in a 1 dimensional system
 ---
 # {{ params.vars.title }}
 ## Question Text
