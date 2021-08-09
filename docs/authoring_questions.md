@@ -1,5 +1,5 @@
 
-# Open Problem Bank - Physics ; Instructor Version
+# Authoring Questions in Prairie Learn
 
 Welcome to the Open Problem Bank (OPB) in Physics.
 This repository contains the source code (including solutions) to the questions available publicly [here](https://firas.moosvi.com/oer/physicsbank).
