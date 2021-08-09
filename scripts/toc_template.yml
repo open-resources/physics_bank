@@ -12,6 +12,7 @@ parts:
 - caption: Documentation
   chapters:
   - file: docs/authoring_questions
+  - file: docs/authoring
   - file: docs/tips
   - file: docs/reviews
   - file: docs/alt-text/alt-text
