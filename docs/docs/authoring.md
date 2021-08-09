@@ -2,14 +2,31 @@
 
 This guide specifically applies to .md files which will be converted to the PrairieLearn (PL) format and uploaded to PL.
 
+## Video Resources
+
+### Introduction
+
+- [Video 1 - Next Generation Problem Bank](https://vimeo.com/559780900)
+- [Video 2 - Introduction to Prairie Learn](https://vimeo.com/554493760)
+- [Video 3 - Authoring questions for Prairie Learn in Markdown](https://vimeo.com/554494220)
+
+### Authoring Questions Details
+
+- [Video 1 - Overview of Creating PL problems](https://www.youtube.com/watch?v=hFYwxmLDORw&list=PLfhjdV-pwMOa7HeYtI4Qd9QRMPfv77Wamz)]
+- [Video 2 - Randomizing and solving physics problem in Python](https://www.youtube.com/watch?v=CCnc7bspuZg&list=PLfhjdV-pwMOa7HeYtI4Qd9QRMPfv77Wam&index=2)
+- [Video 3 - Writing a Markdown file for a numerical-entry problem](https://www.youtube.com/watch?v=ZoZYZlmvh_Y&list=PLfhjdV-pwMOa7HeYtI4Qd9QRMPfv77Wam&index=3)
+- [Video 4 - Fully implemented numeric entry problem](https://www.youtube.com/watch?v=ujCbACEbizA&list=PLfhjdV-pwMOa7HeYtI4Qd9QRMPfv77Wam&index=4)
+- [Video 5 - Wrting a symbolic PL problem](https://www.youtube.com/watch?v=P0sK1WS2p98&list=PLfhjdV-pwMOa7HeYtI4Qd9QRMPfv77Wam&index=5)
+- [Video 6 - Making a multi-part problem](https://www.youtube.com/watch?v=ftPXBcMCROc&list=PLfhjdV-pwMOa7HeYtI4Qd9QRMPfv77Wam&index=6)
+
 ## Step by step flow for authoring questions
 
-More details about this are clearly laid out [here](https://firas.moosvi.com/oer/physicsbank/docs/authoring_questions.html).
+More details about this are laid out [here](authoring_questions).
 
-1. Clone the GitHub repository locally.
-2. Go into the `instructor_physics_bank` directory.
-3. Make a new branch for your question with an appropriate name.
-4. Create a new directory in the `source/YourTopic` or `source/YourTopic/YourSubtopic` directory to store your markdown file and any assets.
+1. Clone the GitHub repository locally (`git clone <clone_url>`).
+2. Go into the `instructor_physics_bank` directory using `cd`.
+3. Make a new branch for your question with an appropriate name (`git checkout -b <new_branch_name>`).
+4. Create a new directory in the `source/YourTopic/QuestionTitle` or `source/YourTopic/YourSubtopic/QuestionTitle` directory to store your markdown file and any assets (usually images).
 5. Create your markdown file and copy the format from one of the [templates](https://github.com/open-resources/instructor_physics_bank/tree/main/templates).
 6. Edit the markdown file to author the question.
 7. Make your `add, commit and push` commands to push to the GitHub repository.
