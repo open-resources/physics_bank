@@ -20,7 +20,10 @@ parts:
   - file: docs/rounding
 - caption: Math
   chapters:
+  - file: content/public/001.Math/Significant Figures/significant_figures/significant_figures
   - file: content/public/001.Math/Derivatives/Velocity Derivatives/velocity_derivative
+  - file: content/public/001.Math/Derivatives/Vehicle_Velocity/Vehicle_Velocity
+  - file: content/public/001.Math/Derivatives/Acceleration_Based_On_Graph/Acceleration_Based_On_Graph
   - file: content/public/001.Math/Integrals/Rocket/Rocket
   - file: content/public/001.Math/Graphs/Acceleration from Velocity Graph/acceleration_from_velocity_graph
   - file: content/public/001.Math/Graphs/Position Velocity and Acceleration/d_v_a_from_graph
@@ -50,6 +53,7 @@ parts:
   chapters:
   - file: content/public/004.Kinematics(1D)/Displacement/Displacement of a vehicle/Displacement
       of a Vehicle
+  - file: content/public/004.Kinematics(1D)/Displacement/Position_From_Graph/Position_From_Graph
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Throwing Stones/Throwing
       stones
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Kicked_Soccer_Ball/Kicked_Soccer_Ball
@@ -76,6 +80,7 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Swinging
       mass/Swinging mass
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/ski_jump/ski_jump
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Mass_Attached_To_String/Mass_Attached_To_String
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Slanted Table/slanted_table
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/AIrcraft Carrier/aircraft_carrier
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/A flying arrow/A
@@ -86,8 +91,10 @@ parts:
   - file: content/public/006.Force/Newton's Third Law/Force Vectors/force_vectors
   - file: content/public/006.Force/Newton's Third Law/Two_Blocks_Stacked/Two_Blocks_Stacked
   - file: content/public/006.Force/Newton's Third Law/Tension_In_Rope/Tention_In_Rope
+  - file: content/public/006.Force/Newton's Third Law/Ironclad_Beetle/ironclad_beetle_mcq
   - file: content/public/006.Force/Friction/Antilock braking systems/Antilock braking
       systems
+  - file: content/public/006.Force/Friction/Which_Block_Stops_First/Which_Block_Stops_First
   - file: content/public/006.Force/Friction/Frictional Force between tires and road/Frictional
       Force between tires and road
   - file: content/public/006.Force/Friction/Block on a Wall/block_on_wall
@@ -124,8 +131,10 @@ parts:
   - file: content/public/006.Force/Newton's First Law/Collision_of_two_carts/Collision_of_two_carts
   - file: content/public/006.Force/Dynamics of Circular Motion/Frictionless Table/frictionless_table
   - file: content/public/006.Force/Dynamics of Circular Motion/object_on_string/object_on_string
+  - file: content/public/006.Force/Dynamics of Circular Motion/Object_In_Circular_Motion/Object_In_Circular_Motion
   - file: content/public/006.Force/Free Body Diagrams/pulley_on_truck/pulley_on_truck
   - file: content/public/006.Force/Free Body Diagrams/Ball Rolling in Pipe/ball_rolling_in_pipe
+  - file: content/public/006.Force/Newton's Second Law/Hockey net across ice/hocket_net_across_ice
   - file: content/public/006.Force/Newton's Second Law/Force and Momentum/Force and
       Momentum
   - file: content/public/006.Force/Newton's Second Law/Force_On_An_Object/Force_On_An_Object
@@ -137,6 +146,7 @@ parts:
       carts/Head-on collision of carts
   - file: content/public/007.Momentum and Impulse/Impulse/Bouncing_Ball/Bouncing_Ball
   - file: content/public/007.Momentum and Impulse/Impulse/Room on Fire/room_on_fire
+  - file: content/public/007.Momentum and Impulse/Impulse/Speed_Before_Impact/Speed_Before_Impact
   - file: content/public/007.Momentum and Impulse/Impulse/airbag_collision/airbag_collision
   - file: content/public/007.Momentum and Impulse/Topic Outcome/Uranium_fragments/Uranium_fragments
   - file: content/public/007.Momentum and Impulse/2D Collisions/light_heavy_collision/light_heavy_collision
@@ -170,6 +180,7 @@ parts:
   - file: content/public/008.Energy/Kinetic Energy/KE_energy_momentum/KE_energy_momentum
   - file: content/public/008.Energy/Conservation of Energy/Block_in_hole/Block_In_Hole
   - file: content/public/008.Energy/Conservation of Energy/ball_race/2012Final_q3
+  - file: content/public/008.Energy/Conservation of Energy/Compressed_Spring_To_Launch_Mass/Compressed_Spring_To_Launch_Mass
   - file: content/public/008.Energy/Conservation of Energy/Energy lost to air friction/energy_lost_air_friction
   - file: content/public/008.Energy/Conservation of Energy/Cut The Rope/Cut The Rope
   - file: content/public/008.Energy/Conservation of Energy/dissipative_process/dissipative_process
@@ -218,6 +229,7 @@ parts:
       different Displacement/Identical Mass-Springs with different Displacement
 - caption: Oscillations
   chapters:
+  - file: content/public/015.Oscillations/Simple Harmonic Motion/Maximum_In_Simple_Harmonic_Motion/Maximum_In_Simple_Harmonic_Motion
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Displacement and
       Potential Energy of an Oscillator/Displacement and Potential Energy of an Oscillator
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Maximum Speed of
