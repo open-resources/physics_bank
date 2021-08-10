@@ -1,12 +1,15 @@
 ---
-title: Energy Stored in a Capacitor
-topic: Circuits
-author: Ava Cornell
-source: 2.8.40
+title: Cosmic Ray Electron
+topic: Magnetism
+author: Vanshika Sharma
+source: 2.11.25
 template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
-- 21.7.5.0
+- 19.3.2.0
+- 19.2.1.0
+- 19.2.3.0
+- 19.2.3.1
 difficulty:
 - undefined
 randomization:
@@ -16,34 +19,35 @@ taxonomy:
 tags:
 - OSUP
 - volume 2
-- chapter 8
-- problem 40
-- capacitors
-- numeric
-- AC
+- chapter 11
+- problem 25
+- magnetic force
+- centripetal acceleration
+- circular motion
+- VS
 assets: null
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: false
-    show-correct-answer: false
-    label: $U= $
-    suffix: $\rm\ \mu\textrm{J}$
+    label: $r= $
+    suffix: $\rm\ m$
     comparison: relabs
     rtol: 0.03
     atol: 0
 substitutions:
   params:
     vars:
-      title: Energy Stored in a Capacitor
-    c: '5'
-    v: '6'
+      title: Cosmic Ray Electron
+    v: 7.7
+    B: 2.1
 ---
 # {{ params.vars.title }}
 ## Question Text
 
-How much energy is stored in a ${{params.c }} \rm\ \mu\textrm{F}$ capacitor whose plates are at a potential difference of ${{params.v }}\textrm{ V}$?
+A cosmic-ray electron moves at ${{params.v}} \times 10^6 \textrm{ m/s}$ perpendicular to Earth's magnetic field at an altitude where the field strength is ${{params.B}} \times 10^{-5} \textrm{ T}$.
+What is the radius of the circular path the electron follows?
 
 ### Answer Section
 
