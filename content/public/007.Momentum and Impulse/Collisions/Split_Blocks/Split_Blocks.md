@@ -38,7 +38,7 @@ substitutions:
     m: 11
     m_a: 8
     m_b: 3
-    v_a: 4.8
+    v_a: 4.9
 ---
 # {{ params.vars.title }}
 A {{params.m}} $kg$ block is initially at rest on a sheet of ice.

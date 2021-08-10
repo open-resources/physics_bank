@@ -31,11 +31,11 @@ substitutions:
       ans2:
         value: energy
       ans3:
-        value: voltage
-      ans4:
-        value: current
-      ans5:
         value: charge
+      ans4:
+        value: voltage
+      ans5:
+        value: current
 ---
 # {{ params.vars.title }}
 ## Part 1
