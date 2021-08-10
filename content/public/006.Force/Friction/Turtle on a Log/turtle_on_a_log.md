@@ -1,12 +1,13 @@
 ---
-title: Hockey net across ice
+title: Turtle on a Log
 topic: Force
 author: John Hopkinson
 source: standard
 template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
-- 6.5.1.2
+- 6.9.1.1
+- 6.9.1.4
 difficulty:
 - undefined
 randomization:
@@ -15,7 +16,8 @@ taxonomy:
 - undefined
 tags:
 - unknown
-assets: null
+assets:
+- turtleonlog.png
 part1:
   type: multiple-choice
   pl-customizations:
@@ -23,27 +25,27 @@ part1:
 substitutions:
   params:
     vars:
-      title: Hockey net across ice
-    v: 10
-    f: 2.3157998659304377
+      title: Turtle on a log
     part1:
       ans1:
-        value: at a steadily increasing speed.
+        value: $n = mg$, $f_s = \mu_s mg$
       ans2:
-        value: at 23.0 $\mathrm{m/s}$.
+        value: $n = mg \cos\theta$, $f_s = \mu_s mg \cos\theta$
       ans3:
-        value: at an increasing speed until it reaches 23.0 $\mathrm{m/s}$ then at
-          a constant speed.
+        value: $n = mg \sin\theta$, $f_s = \mu_s mg\sin\theta$
       ans4:
-        value: at a steadily decreasing speed.
+        value: $n = mg\cos\theta$, $f_s = mg\sin\theta$
       ans5:
-        value: at 10 $\mathrm{m/s}$.
+        value: $n = mg\sin\theta$, $f_s = mg\cos\theta$
 ---
 # {{ params.vars.title }}
 ## Part 1
 
-A ringette player pushes a hockey net at 2 $\mathrm{m/s}$ across rough ice with a force of magnitude $F$.
-If she pushes the same net across the same ice starting from 2 $\mathrm{m/s}$ with a constant force of magnitude 1.5 $F$, the net will move:
+A turtle lies on a log in the sun as shown in the figure below.
+The turtle has mass $\rm m$, the log makes an angle $\theta$ with respect to the horizontal and the coefficient of static friction between the turtle and the log is $\mu_s > \tan\theta$.
+The magnitudes of the normal force, $n$ and the frictional force $f_s$ are:
+
+<img src="turtleonlog.png" width="800">
 
 ### Answer Section
 

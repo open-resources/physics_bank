@@ -1,12 +1,17 @@
 ---
-title: Stack Of Pennies
-topic: Rotational Motion
+title: Split Blocks
+topic: Momentum and Impulse
 author: Jake Bobowski
-source: 2015 midterm 2 Q5
+source: 2015 Midterm 2 001 Q6
 template_version: 1.1
 attribution: standard
 outcomes:
-- 10.4.1.1
+- 7.2.1.1
+- 7.4.1.2
+- 7.4.4.0
+- 7.5.1.3
+- 7.5.1.4
+- 7.5.1.9
 difficulty:
 - undefined
 randomization:
@@ -15,34 +20,33 @@ taxonomy:
 - undefined
 tags:
 - EW
-assets:
-- Q5.png
+assets: null
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $X_{cm} = $
-    suffix: $d$
+    label: $\Delta E$
+    suffix: $J$
     comparison: sigfig
-    digits: 3
+    digits: 2
 substitutions:
   params:
     vars:
-      title: Stack of Pennies
-    s_1: 4
-    s_2: 5
-    s_3: 6
-    s_4: 7
+      title: Split Blocks
+      units: $J$
+    m: 11
+    m_a: 8
+    m_b: 3
+    v_a: 4.8
 ---
 # {{ params.vars.title }}
-There are four stacks of pennies lined up in a row. The first stack has {{params.s_1}} pennies, the
-second stack {{params.s_2}} pennies, the third stack {{params.s_3}} pennies, and the last stack {{params.s_4}} pennies.
-All pennies have mass $m$ and diameter $d$.
+A {{params.m}} $kg$ block is initially at rest on a sheet of ice.
+An internal explosion occurs, splitting the object into two pieces of masses $m_A$ = {{params.m_a}} $kg$ and $m_B$ = {{params.m_b}} $kg$.
+After the explosion, block A is measured to have a velocity of $\vec{v}\_A$ = {{params.v_a}} $m/s$
 ## Question Text
 
-How far to the right of the centre of the first stack is the centre of mass of this collection of pennies? Give your answer in terms of $d$.
-Don't worry about the vertical position of the centre of mass, just give the horizontal position.
+Assuming that there's no friction, how much energy did the explosion release?
 
 ### Answer Section
 

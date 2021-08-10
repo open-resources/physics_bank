@@ -29,15 +29,15 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: velocity
-      ans2:
         value: The position in 3 dimensions
+      ans2:
+        value: The position in a 1 dimensional system
       ans3:
-        value: Entropy
+        value: Displacement
       ans4:
-        value: Area
+        value: Acceleration
       ans5:
-        value: Mass
+        value: Distance travelled
       ans6:
         value: Density
 ---
