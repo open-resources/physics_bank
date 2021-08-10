@@ -254,6 +254,7 @@ parts:
   - file: content/public/019.Magnetism/Magnetic Force/Force on Electron vs Proton/force_on_electron_versus_proton
   - file: content/public/019.Magnetism/Magnetic Force/Electron in a Solenoid/Electron
       in a Solenoid
+  - file: content/public/019.Magnetism/Magnetic Force/Cosmic Ray Electron/cosmic_ray_electron
   - file: content/public/019.Magnetism/Magnetic Field/Square toroid/Square toroid
   - file: content/public/019.Magnetism/Magnetic Field/Wire in an external magnetic
       field/Wire in an external magnetic field
