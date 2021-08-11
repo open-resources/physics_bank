@@ -20,6 +20,8 @@
 | Joseph Wandinger | Bizwatch-UBC   |
 | Paula Wong-Chung | KafkaNoNeko    |
 | Edris Wu         | edriswu        |
+| James Ropotar    | JamesShadowfyre|
+
 
 ## Bios
 
@@ -115,6 +117,12 @@ I am a second-year Computer Science major at UBCO.  While I currently do not hav
 #### **Edris Wu**
 
 I am a third year UBC student majoring in Cognitive Systems. My interests are mainly in computer science and psychology. I am interested in understanding the brain's role in cognitive processes and perception, I also enjoy coding and learning about artificial intelligence as well as human computer interaction. In my spare time I enjoy going on walks with my dog, trying new foods, and listening to podcasts.
+<br><br><br>
 
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/james.png"> </img>
+
+#### **James Ropotar**
+
+I am a second year UBC Okanagan student studying Manufacturing Engineering. I have a particular interest in teaching, and exploring new ways to develop methods to teach complex topics. I am extremely curious, always putting myself out to learn new things. My life goal is to be able to help everyone reach their highest potential as learners. I spend my free time writing, mapping, and doing other creative works. 
 <br><br><br>
 
