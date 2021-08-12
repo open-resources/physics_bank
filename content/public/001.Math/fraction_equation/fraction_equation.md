@@ -1,12 +1,12 @@
 ---
-title: Vehicle Velocity
+title: Fraction Equation
 topic: Math
-author: Jake Bobowski
-source: 2014 Final Q3
+author: Simon Bates
+source: Math Diagnostic Q6
 template_version: 1.1
 attribution: standard
 outcomes:
-- 1.7.2.4
+- null
 difficulty:
 - undefined
 randomization:
@@ -14,7 +14,8 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- EW
+- math_diagnostic
+- AK
 assets: null
 part1:
   type: multiple-choice
@@ -23,31 +24,25 @@ part1:
 substitutions:
   params:
     vars:
-      title: Vehicle Velocity
-      vehicle: car
-      units: $m/s$
-    i_1: 4
-    i_2: 1
-    j_1: 7
-    j_2: 1
-    s: 2
+      title: Fraction Equation
+    x1: 2
+    x2: 5
+    x3: 4
+    x4: 3
     part1:
       ans1:
-        value: (15$\hat{\imath}$ + 41/4$\hat{\jmath}$)
+        value: 1
       ans2:
-        value: (15$\hat{\imath}$ + 12$\hat{\jmath}$)
+        value: -1
       ans3:
-        value: (14$\hat{\imath}$ + 23/2$\hat{\jmath}$)
+        value: 2
       ans4:
-        value: (14$\hat{\imath}$ + 41/4$\hat{\jmath}$)
-      ans5:
-        value: (15$\hat{\imath}$ + 23/2$\hat{\jmath}$)
+        value: -2
 ---
 # {{ params.vars.title }}
-A {{ params.vars.vehicle }}'s position as a function of time is given by $\vec{r} = ({{ params.i_1 }}t^2 - {{ paramas.i_2 }}t)\hat{\imath} + ({{ params.j_1 }} t^{-1}+{{ params.j_2 }} t^3)\hat{\jmath}$ where $\vec{r}$ is in meters and $t$ is in seconds.
 ## Part 1
 
-What is the {{ params.vars.vehicle }}'s velocity at $t=$ {{ params.s }} $s$?
+Solve the equation: $\frac{x-{{ params.x1}}}{x+{{ params.x2 }}} = \frac{x+{{ params.x3}}}{x-{{ params.x4 }}}$
 
 ### Answer Section
 
@@ -55,7 +50,6 @@ What is the {{ params.vars.vehicle }}'s velocity at $t=$ {{ params.s }} $s$?
 - {{ params.part1.ans2.value }} {{ params.vars.units}}
 - {{ params.part1.ans3.value }} {{ params.vars.units}}
 - {{ params.part1.ans4.value }} {{ params.vars.units}}
-- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 
