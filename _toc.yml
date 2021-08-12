@@ -27,6 +27,7 @@ parts:
   - file: content/public/001.Math/Integrals/Rocket/Rocket
   - file: content/public/001.Math/Graphs/Acceleration from Velocity Graph/acceleration_from_velocity_graph
   - file: content/public/001.Math/Graphs/Position Velocity and Acceleration/d_v_a_from_graph
+  - file: content/public/001.Math/fraction_equation/fraction_equation
 - caption: Physics in General
   chapters:
   - file: content/public/002.Physics in General/Topic Outcome/Skateboarder and observer/Skateboarder
