@@ -3,7 +3,7 @@
 ## What is LaTeX?
 
 LaTeX is a markup language that allows you to format the appearance of a document using specific syntax.
-In our project you will mostly be using it to typset mathematical formulas. Markdown supports LaTeX, you just need to surround it with $___$.
+In our project you will mostly be using it to typset mathematical formulas. Markdown supports LaTeX, you just need to surround it with `$___$`.
 
 ## Table of Math Symbols
 
@@ -29,6 +29,12 @@ Ex:
 You can add LaTeX anywhere into your markdown code, as long as you surround it with $...$
 
 > The block travels on an incline of 30$^{\circ}$.
+
+For superscripts:
+
+> $3^4$ should be \$3^4\$
+
+> $3^{-4}$ should be \$3^{-4}\$ since more than one character is being used in the superscript
 
 ## Additional Resources
 
