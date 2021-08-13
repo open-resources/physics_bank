@@ -27,18 +27,18 @@ substitutions:
     vars:
       title: Position From Graph
       units: $m$
-    m: 4.6
+    m: 3.8
     part1:
       ans1:
-        value: '12.0'
+        value: '11.0'
       ans2:
-        value: '2.4'
+        value: '3.2'
       ans3:
         value: '7.0'
       ans4:
-        value: '9.3'
+        value: '8.9'
       ans5:
-        value: '-9.3'
+        value: '-8.9'
 ---
 # {{ params.vars.title }}
 <img src="Q1&Q2image.png" alt = "A graph of velocity versus time. At 0 seconds, the velocity is 4 meters per second. At 1 second, the veleocity decreases to 1 meter per second. The velocity increases and at 3 seconds the velocity is 3 meters per second. From 3 to 5 seconds, the velocity is 3 meters per second. The graph has a point labelled A and C. A is labelled at 1 second, with a velocity of 1 meters per second. C is labelled at 4 seconds with a velocity of 3 meters per second." width = 300>
