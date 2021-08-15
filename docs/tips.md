@@ -73,7 +73,7 @@ Assume that we have answer choices in the following format: 0.5 $\pm$ 0.1 $J$ wh
 
 ### Using pbh.sign_str()
 
-When randomly generating vector components, for example, $0.50 \hat\imath - 16 \hat\jmath$ or $0.50 \hat\imath + 16 \hat\jmath$, we would want to determine the sign of the $\jmath$ vector algorithmically. This can be done using the ```pbh.sign_str()``` function.  It returns the sign of the input number as a string.
+When randomly generating vector components, for example, $0.50 \hat\imath - 16 \hat\jmath$ or $0.50 \hat\imath + 16 \hat\jmath$, we would want to determine the sign of the $\hat\jmath$ vector algorithmically. This can be done using the ```pbh.sign_str()``` function.  It returns the sign of the input number as a string.
 
 Note: The signs are stored as ```' + '``` and ```' - '``` instead of ```'+'``` and ```'-'``` (note the spaces).
 
@@ -90,9 +90,9 @@ Assume that we would like to randomise the coefficients of a vector and display 
 
 Steps:
 
-1. Break up the vector into components.  Let us call them $v1_i$ and $v1_j$. 
+1. Break up the vector into components.  Let us call them ```v1_i``` and ```v1_j```. 
 
-2. Create another dictionary element $v1_j_abs$. The absolute value is needed for the $\jmath$ component since we would not want the sign two appear twice if we have a negative coefficient. Assuming that $v1_i$ and $v1_j$ have been initialised, we would have the following code.
+2. Create another dictionary element ```v1_j_abs```. The absolute value is needed for the $\jmath$ component since we would not want the sign two appear twice if we have a negative coefficient. Assuming that ```v1_i``` and ```v1_j``` have been initialised, we would have the following code.
 
 ```
 data2["params"]["v1_i"] = v1_i
@@ -185,6 +185,58 @@ Will result in the error. The code below will not:
     
  
  Be sure to use sp.sin rather than math.sin for symbolics, and remember that pl.to_json conversion or pl.sympy_to_json doesn't like floats.
+
+### You get the error: "argument of type 'int' is not iterable"
+
+Assume we have a symbolic input question where the correct answer is a simple integer without any other variable.  While this could be converted to a numeric input question, we want to keep this question as a symbolic one so as not to give away the answer. Simply setting the answer to the integer will result in an "argument of type 'int' is not iterable" error. Converting the integer to a string before calling ```pl.to_json()``` will resolve the issue.
+
+Here is an example taken from a multipart question.
+
+**Question**.
+
+A very bored bear decided to jump across a stream.
+The bear can jump with an initial velocity $\overrightarrow{V_i} = 2{m\over s}\hat{\imath}+4{m\over s}\hat{\jmath}$, and decides to start from 1 $m$ in the air, halfway up a sturdy tree.
+
+If the origin is at the foot of the bear's jumping tree, write a set of equations describing the $x$ and $y$ coordinates and the $V_x$ and $V_y$ components of the velocity of the bear while it is in the air.
+
+Use the following table as a reference. Note that it may not be necessary to use every variable.
+
+| $Variable$ | Use   |
+|----------|-------|
+| $\Delta t$  | t  |
+| $g$ | g |
+
+</br>
+
+Let us focus on the $V_x$ component of the velocity. Here, the correct answer is simply $V_x = 2$.
+
+Assume that we have the following code.
+
+```
+vi_x = 2                                     # i-component of the initial velocity
+data2["params"]["vi_x"] = vi_x
+```
+
+Then,
+
+```
+# Describe the solution equation
+Vx = vi_x
+
+# Answer to fill in the blank input stored as JSON.
+data2['correct_answers']['part3_ans'] = pl.to_json(Vx)
+```
+
+will **not** work while
+
+```
+# Describe the solution equation
+Vx = str(vi_x)
+
+# Answer to fill in the blank input stored as JSON.
+data2['correct_answers']['part3_ans'] = pl.to_json(Vx)
+```
+will.
 
 ## Adding Images to a Question
 
