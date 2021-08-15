@@ -31,15 +31,15 @@ substitutions:
       ans1:
         value: Drag
       ans2:
-        value: The average velocity
+        value: Lift
       ans3:
-        value: The position in a 1 dimensional system
+        value: Force
       ans4:
-        value: Density
+        value: The position in a 1 dimensional system
       ans5:
-        value: Energy
+        value: Density
       ans6:
-        value: Distance travelled
+        value: Pressure
 ---
 # {{ params.vars.title }}
 ## Question Text

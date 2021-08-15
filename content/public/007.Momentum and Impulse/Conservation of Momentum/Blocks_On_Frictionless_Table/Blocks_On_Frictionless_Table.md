@@ -29,10 +29,10 @@ substitutions:
   params:
     vars:
       title: Blocks On Frictionless Table
-    v0: 413
-    v1: 8
+    v0: 446
+    v1: 5
     mb: 14
-    mw: 497
+    mw: 510
     d: 3
 ---
 # {{ params.vars.title }}
