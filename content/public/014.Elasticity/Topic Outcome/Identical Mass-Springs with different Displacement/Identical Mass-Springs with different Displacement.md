@@ -6,7 +6,7 @@ source: 2012 Final Q8
 template_version: 1.0
 attribution: standard
 outcomes:
-- Force
+- 6.11.2.1
 difficulty:
 - undefined
 randomization:
