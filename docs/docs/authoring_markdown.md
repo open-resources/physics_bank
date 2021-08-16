@@ -30,7 +30,7 @@ This markdown file has several sections but is internally read in as a `yaml fil
 
 - **assets** : Any images or any other files related to the question that you are including in the folder of the question with the markdown file.
 
-- **server** : The python code that is used to generate the randomness in the question. This has all the import statements, the variables that are being used, the function calls to the different libraries being used and the answers as well.
+- **server** : The python code that is used to generate the randomness, symbolics, or plots in the question. This has all the import statements, the variables that are being used, the function calls to the different libraries being used and the answers as well.
 
 ## Question Section in the markdown file
 
@@ -50,7 +50,7 @@ Each part of the question should have an answer section.
 
 ## Rubric Section in the markdown file
 
-This is not required to be filled always.
+This is not required to be filled always, but would be used to give the grader a rubric to use for grading a multipart question.
 
 ## Solution Section in the markdown file
 

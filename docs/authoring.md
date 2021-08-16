@@ -1,6 +1,6 @@
 # Authoring a markdown question
 
-This guide specifically applies to .md files which will be converted to the PrairieLearn (PL) format and uploaded to PL and will be converted to the public version and be uploaded to the public version of the Open Problem Bank.
+This guide specifically applies to .md files which will be converted to the PrairieLearn (PL) format and uploaded to PL. The file will be converted to the public version and be uploaded to the public version of the Open Problem Bank.
 
 ## Video Resources
 
@@ -28,7 +28,7 @@ This is an overview of the steps you need to follow to author each question once
 3. Crate your `markdown file` in the folder and add any `assets` such as images being used for your question.
 4. Copy the markdown `template` according to your question and start editing.
 5. `Add`, `commit` and then `push` to the Github repository.
-6. Create a pull request and add 2 reviewers to approve your work.
+6. Create a pull request and add 1 or 2 reviewers to approve your work.
 7. Add a `syntax check` label on Github and make sure it passes to go and take a look at the question on [PrairieLearn](https://ca.prairielearn.org/pl/course_instance/2320/instructor/course_admin/questions). Fix errors if you notice any.
 8. Keep fixing the questions using feedback from reviewiers and once ready, add the `ready_to_merge` label for a final review before the branch merges into `main`.
 
@@ -41,7 +41,7 @@ Image credit for the above flow is from [GitHub Guides](https://guides.github.co
 
 2. Feel free to start a draft pull request while you're working on the question. When you're ready, you can click "ready for review". 
 
-3. You should request reviews from at least two different students on the team.
+3. You should request reviews from at least one or two different students on the team.
 
 *Avoid committing anything to this repository in the `output` directory; the files in there are automatically generated with scripts in the `scripts` directory, using the `source` files.*
 
@@ -124,7 +124,7 @@ After making the changes, perform the `git add, commit and push` commands once m
 
 - **assets** : Any images or any other files related to the question that you are including in the folder of the question with the markdown file.
 
-- **server** : The python code that is used to generate the randomness in the question. This has all the import statements, the variables that are being used, the function calls to the different libraries being used and the answers as well.
+- **server** : The python code that is used to generate the randomness, symbolics, or plots in the question. This has all the import statements, the variables that are being used, the function calls to the different libraries being used and the answers as well.
 
 ## Question Section in the markdown file
 
@@ -144,7 +144,7 @@ Each part of the question should have an answer section.
 
 ## Rubric Section in the markdown file
 
-This is not required to be filled always.
+This is not required to be filled always, but would be used to give the grader a rubric to use for grading a multipart question.
 
 ## Solution Section in the markdown file
 
