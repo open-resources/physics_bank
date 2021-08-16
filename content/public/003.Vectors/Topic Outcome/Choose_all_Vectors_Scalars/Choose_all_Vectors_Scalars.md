@@ -29,17 +29,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Speed
+        value: Energy
       ans2:
-        value: Work
+        value: Length
       ans3:
-        value: Temperature
-      ans4:
         value: Entropy
+      ans4:
+        value: Lift
       ans5:
-        value: The position in 3 dimensions
+        value: The position in a 1 dimensional system
       ans6:
-        value: Weight
+        value: The average velocity
 ---
 # {{ params.vars.title }}
 ## Question Text

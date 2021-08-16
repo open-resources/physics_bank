@@ -60,13 +60,13 @@ substitutions:
       unit2: $kg/s$
     m: 5
     d_m: 36
-    sd: 0.052
-    v1: 0.84
-    v2: 0.8
-    v3: 0.76
-    v4: 0.82
-    v5: 0.82
-    v6: 0.93
+    sd: 0.053
+    v1: 0.89
+    v2: 0.74
+    v3: 0.89
+    v4: 0.81
+    v5: 0.85
+    v6: 0.8
 ---
 # {{ params.vars.title }}
 In one of the PHYS 111 labs you measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling  through  the  air.   In  equilibrium,  the  drag  force  acting  on  the  coffee  filter  exactly balances the gravitational force on the filter such that:

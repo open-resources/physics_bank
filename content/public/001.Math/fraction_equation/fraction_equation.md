@@ -1,5 +1,5 @@
 ---
-title: Fraction Equation
+title: Rational Equation
 topic: Math
 author: Simon Bates
 source: Math Diagnostic Q6
@@ -24,20 +24,20 @@ part1:
 substitutions:
   params:
     vars:
-      title: Fraction Equation
-    x1: 2
-    x2: 5
-    x3: 4
-    x4: 3
+      title: Rational Equation
+    x1: 3
+    x2: 2
+    x3: 7
+    x4: 7
     part1:
       ans1:
-        value: 1
+        value: 7/19
       ans2:
-        value: -1
+        value: -43/19
       ans3:
-        value: 2
+        value: -7/9
       ans4:
-        value: -2
+        value: 43/19
 ---
 # {{ params.vars.title }}
 ## Part 1

@@ -1,11 +1,13 @@
 ---
-title: Two Balls Launched on Different Tracks
-topic: Energy
+title: What is Conserved?
+topic: Physics in General
 author: Jake Bobowski
-source: 2012 Final Q3
-template_version: 1.0
+source: 2015 Practice Midterm 2 Q2
+template_version: 1.1
 attribution: standard
 outcomes:
+- 7.5.1.1
+- 8.5.1.0
 - 7.5.1.2
 difficulty:
 - undefined
@@ -15,8 +17,7 @@ taxonomy:
 - undefined
 tags:
 - PW
-assets:
-- q3_2012Final.png
+assets: null
 part1:
   type: multiple-choice
   pl-customizations:
@@ -24,24 +25,23 @@ part1:
 substitutions:
   params:
     vars:
-      title: Two Balls Launched on Different Tracks
+      title: What is Conserved ?
     part1:
       ans1:
-        value: More information is needed.
+        value: Momentum only
       ans2:
-        value: B
+        value: Kinetic energy only
       ans3:
-        value: A
+        value: Momentum and mechanical energy
       ans4:
-        value: They reach the end of the track at the same time.
+        value: Momentum and kinetic energy
+      ans5:
+        value: Momentum and potential energy
 ---
 # {{ params.vars.title }}
-Balls A and B are launched with the same initial velocity along a pair of tracks as shown in the figure.
-
-![Ball A is launched along a horizontal track while Ball B is launched along a u-shaped track.](q3_2012Final.png)
 ## Part 1
 
-Which ball reaches the end of the track first, if friction is neglected?
+On a smooth horizontal floor, an object slides into a spring which is attached to another mass that is initially stationary.  When the spring is most compressed, both objects are moving at the same speed.  Ignoring friction, what is conserved during this interaction?
 
 ### Answer Section
 
@@ -49,6 +49,7 @@ Which ball reaches the end of the track first, if friction is neglected?
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 
