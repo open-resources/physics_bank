@@ -30,10 +30,13 @@ parts:
   - file: content/public/001.Math/fraction_equation/fraction_equation
 - caption: Physics in General
   chapters:
+  - file: content/public/002.Physics in General/density, mass and volume/potato_volume
   - file: content/public/002.Physics in General/Topic Outcome/Skateboarder and observer/Skateboarder
       and observer
   - file: content/public/002.Physics in General/Topic Outcome/Choose correct ans/choose
       correct ans
+  - file: content/public/002.Physics in General/Topic Outcome/What is conserved/What
+      is conserved
   - file: content/public/002.Physics in General/Topic Outcome/Internal Energy Released/Internal
       Energy Released
   - file: content/public/002.Physics in General/Topic Outcome/A disk and a paintball/A
@@ -55,6 +58,7 @@ parts:
   chapters:
   - file: content/public/004.Kinematics(1D)/Displacement/Displacement of a vehicle/Displacement
       of a Vehicle
+  - file: content/public/004.Kinematics(1D)/Displacement/Distance_Between_Two_People/Distance_Between_Two_People
   - file: content/public/004.Kinematics(1D)/Displacement/Position_From_Graph/Position_From_Graph
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Throwing Stones/Throwing
       stones
