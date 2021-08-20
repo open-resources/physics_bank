@@ -1,12 +1,12 @@
 ---
-title: Maximum Voltage
-topic: Electrical Power
-author: Vanshika Sharma
-source: 2.9.56
+title: Zero electric field
+topic: Electrostatics
+author: Jake Bobowksi
+source: 2.6.16
 template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
-- 21.6.1.1
+- 18.3.1.2
 difficulty:
 - undefined
 randomization:
@@ -16,36 +16,37 @@ taxonomy:
 tags:
 - OSUP
 - volume 2
-- chapter 9
-- problem 56
-- voltage
-- power
-- VS
+- chapter 6
+- problem 16
+- electric field
+- conductors
+- drop down
+- JB
 assets: null
 part1:
-  type: number-input
+  type: dropdown
   pl-customizations:
     weight: 1
-    allow-blank: false
-    label: $V= $
-    suffix: $\rm\ V$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
+    blank: true
 substitutions:
   params:
     vars:
-      title: Maximum Voltage
-      units: V
-    P: 1.27
-    R: 70
+      title: Zero electric field
+    part1:
+      ans1:
+        value: 'True'
+      ans2:
+        value: 'False'
 ---
 # {{ params.vars.title }}
-## Question Text
+## Part 1
 
-What is the maximum voltage that can be applied to a {{params.R}} $\rm {k \Omega}$ resistor rated at {{params.P}} $\textrm {W}$?
+The electric field inside a metal is always zero.
 
 ### Answer Section
+
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Attribution
 
