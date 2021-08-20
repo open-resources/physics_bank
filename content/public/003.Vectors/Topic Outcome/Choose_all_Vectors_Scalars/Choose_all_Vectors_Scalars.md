@@ -29,17 +29,17 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: Lift
+        value: Weight
       ans2:
-        value: The average velocity
-      ans3:
-        value: Displacement
-      ans4:
         value: Force
+      ans3:
+        value: velocity
+      ans4:
+        value: The position in 3 dimensions
       ans5:
-        value: Energy
+        value: Work
       ans6:
-        value: Temperature
+        value: Speed
 ---
 # {{ params.vars.title }}
 ## Question Text

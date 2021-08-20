@@ -63,7 +63,7 @@ substitutions:
   params:
     vars:
       title: Charge and Voltage Across Capacitors
-    a: '6'
+    a: '13'
     b: '11'
     v: '320'
 ---

@@ -28,7 +28,7 @@ substitutions:
   params:
     vars:
       title: Displacement and Potential Energy of an Oscillator
-    choice: half
+    choice: one-eighth
 ---
 # {{ params.vars.title }}
 ## Question Text

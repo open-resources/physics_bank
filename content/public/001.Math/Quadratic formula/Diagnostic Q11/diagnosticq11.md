@@ -1,12 +1,12 @@
 ---
-title: Significant figures
+title: Diagnostic Q11
 topic: Math
 author: Simon Bates
-source: Math Diagnostic Q2
+source: Math Diagnostic Q11
 template_version: 1.1
 attribution: standard
 outcomes:
-- 1.3.1.0
+- null
 difficulty:
 - undefined
 randomization:
@@ -15,7 +15,7 @@ taxonomy:
 - undefined
 tags:
 - math_diagnostic
-- AK
+- MP
 assets: null
 part1:
   type: multiple-choice
@@ -24,31 +24,33 @@ part1:
 substitutions:
   params:
     vars:
-      title: Significant Figures
-    x: 131.4595
-    sf: 2
+      title: Diagnostic Q11
+    a: 3
+    b: 7
+    c: 3
     part1:
       ans1:
-        value: 130.0
+        value: x = -1.8, x = -0.57
       ans2:
-        value: 130.1
+        value: x = 1.8, x = 0.57
       ans3:
-        value: 131.46
+        value: x = 7, x = 3
       ans4:
-        value: 120.0
+        value: x = 3, x = 7
+      ans5:
+        value: Don't Know
 ---
 # {{ params.vars.title }}
-## Question Text
-
-The number {{ params.x }} written to {{ params.sf }} significant figures is:
+The solutions of the quadratic equation {{params.a}}$x^2$ + {{params.b}}$x$ + {{params.c}} are:
+## Part 1
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
-- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 
