@@ -69,17 +69,17 @@ part5:
 substitutions:
   params:
     vars:
-      name1: Maya
-      name2: Emilia
+      name1: Santiago
+      name2: Mateo
       title: A Skateboarder and an Observer
       unit_v: $m/s$
       unit_t: $s$
       unit_x: $m$
-    v: 1.87
-    v_b: 5.94
-    h: 4.11
-    m_s: 91.9
-    m_b: 1.99
+    v: 1.46
+    v_b: 5.36
+    h: 2.1
+    m_s: 59.7
+    m_b: 2.32
 ---
 # {{ params.vars.title }}
 {{ params.vars.name1 }}  is  on  a  skateboard  and  has  an  initial  velocity  of  ({{ params.v }} $m/s$) $\hat{\imath}$ relative  to  {{ params.vars.name2 }}  who  is at rest with respect to the earth.  Just as they are gliding past {{ params.vars.name2 }},  {{ params.vars.name1 }} throws a ball in the positive $x$-direction from a height of {{ params.h }} m.  According to {{ params.vars.name1 }}, the ball has an initial velocity of ({{ params.v_b }} $m/s$) $\hat{\imath}$.
