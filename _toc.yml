@@ -283,6 +283,7 @@ parts:
       parallel wires
   - file: content/public/019.Magnetism/Magnetic Force/Current through a spring/Current
       through a spring
+  - file: content/public/019.Magnetism/Magnetic Force/Direction of Electron's Velocity/direction_of_electron_velocity
   - file: content/public/019.Magnetism/Magnetic Force/Force on Electron vs Proton/force_on_electron_versus_proton
   - file: content/public/019.Magnetism/Magnetic Force/Wire and loop/Wire and loop
   - file: content/public/019.Magnetism/Magnetic Force/Electron in a Solenoid/Electron
@@ -320,6 +321,7 @@ parts:
   - file: content/public/021.Circuits/Current/Cathode Ray Tube/cathode_ray_tube
   - file: content/public/021.Circuits/Current/Charge Model/charge_model
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_38/OSUPv2p8_38
+  - file: content/public/021.Circuits/Capacitors/OSUPv2p8_43/OSUPv2p8_43
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_29/OSUPv2p8_29
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_6/OSUPv2p8_6
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_7/OSUPv2p8_7
