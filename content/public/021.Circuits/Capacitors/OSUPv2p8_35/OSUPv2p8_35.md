@@ -51,7 +51,7 @@ substitutions:
   params:
     vars:
       title: Connecting Capacitors
-    a: '9'
+    a: '14'
     b: '5'
 ---
 # {{ params.vars.title }}

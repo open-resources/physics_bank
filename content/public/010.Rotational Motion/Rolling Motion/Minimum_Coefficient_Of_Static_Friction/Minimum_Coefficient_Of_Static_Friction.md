@@ -24,16 +24,16 @@ substitutions:
   params:
     vars:
       title: Minimum Coefficient Of Static Friction
-      vehicle: car
-    r: 97
+      vehicle: semi-truck
+    r: 96
     v: 24
     part1:
       ans1:
-        value: 1.7
+        value: 1.6
       ans2:
         value: 0.61
       ans3:
-        value: 5.9
+        value: 6.0
       ans4:
         value: 0.025
       ans5:

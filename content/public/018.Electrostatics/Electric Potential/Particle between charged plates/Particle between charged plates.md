@@ -38,7 +38,7 @@ part1:
 substitutions:
   params:
     sig: '36'
-    d: '4.2'
+    d: '4.8'
     particle: A proton
     particle1: proton
     p1: positive

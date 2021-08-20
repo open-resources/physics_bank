@@ -3,7 +3,7 @@ title: Suspended neutral conductor
 topic: Electrostatics
 author: Jake Bobowksi
 source: 2.5.9
-template_version: 1.0
+template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
 - 18.2.1.0
