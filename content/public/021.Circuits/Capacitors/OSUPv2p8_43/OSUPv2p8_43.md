@@ -1,12 +1,14 @@
 ---
-title: Cylindrical Capacitor
+title: Heart Defibrillator
 topic: Circuits
 author: Ava Cornell
-source: 2.8.29
-template_version: 1.0
+source: 2.8.43
+template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
 - 21.7.1.0
+- 21.7.1.1
+- 21.7.5.1
 difficulty:
 - undefined
 randomization:
@@ -17,33 +19,56 @@ tags:
 - OSUP
 - volume 2
 - chapter 8
-- problem 29
+- problem 43
 - capacitors
+- multi-part
 - numeric
 - AC
 assets: null
 part1:
   type: number-input
   pl-customizations:
-    weight: 1
+    label: $U=$
     allow-blank: false
-    show-correct-answer: false
-    label: $R_2/R_1= $
     comparison: relabs
     rtol: 0.03
     atol: 0
+    show-help-text: true
+    suffix: $\textrm{J}$
+    weight: 1
+part2:
+  type: number-input
+  pl-customizations:
+    label: $Q=$
+    allow-blank: false
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
+    show-help-text: true
+    suffix: $\textrm{C}$
+    weight: 1
 substitutions:
   params:
     vars:
-      title: Cylindrical Capacitor
-    c: '30'
+      title: Heart Defibrillator
+    c: '18.0'
+    v: '5.0'
 ---
 # {{ params.vars.title }}
-## Question Text
+## Part 1
 
-If the capacitance per unit length of a cylindrical capacitor is ${{params.c }}\textrm{ pF/m}$, what is the ratio of the radii of the two cylinders, $R_2/R_1$? In this set-up, $R_2$ is the outer cylinder and $R_1$ is the inner cylinder.
+What is the energy stored in the ${{params.c }} \rm\ \mu\textrm{F}$ capacitor of a heart defibrillator charged to ${{params.v }} \textrm{ kV}$?
 
 ### Answer Section
+
+Please enter a numeric value.
+## Part 2
+
+What is the amount of charge stored?
+
+### Answer Section
+
+Please enter a numeric value.
 
 ## Attribution
 

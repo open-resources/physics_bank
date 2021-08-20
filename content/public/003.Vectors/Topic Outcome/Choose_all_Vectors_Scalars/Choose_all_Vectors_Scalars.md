@@ -31,15 +31,15 @@ substitutions:
       ans1:
         value: The position in 3 dimensions
       ans2:
-        value: Drag
+        value: velocity
       ans3:
-        value: Power
-      ans4:
-        value: Work
-      ans5:
         value: Energy
+      ans4:
+        value: Speed
+      ans5:
+        value: Power
       ans6:
-        value: Density
+        value: Pressure
 ---
 # {{ params.vars.title }}
 ## Question Text
