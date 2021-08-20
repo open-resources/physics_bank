@@ -272,6 +272,8 @@ parts:
   chapters:
   - file: content/public/019.Magnetism/Magnetic Flux/Flux through a loop/Flux through
       a loop
+  - file: content/public/019.Magnetism/Magnetic Flux/Flux due to a coil/Flux due to
+      a coil
   - file: content/public/019.Magnetism/Solenoids/Magnetic field of a solenoid/Magnetic
       field of a solenoid
   - file: content/public/019.Magnetism/Solenoids/Solenoid current/Solenoid current
