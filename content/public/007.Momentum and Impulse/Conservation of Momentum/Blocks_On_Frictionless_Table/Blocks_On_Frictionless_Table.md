@@ -29,11 +29,11 @@ substitutions:
   params:
     vars:
       title: Blocks On Frictionless Table
-    v0: 431
-    v1: 5
+    v0: 418
+    v1: 7
     mb: 11
-    mw: 505
-    d: 3
+    mw: 525
+    d: 1
 ---
 # {{ params.vars.title }}
 Two {{params.mw}} $g$ blocks of wood are {{params.d}} $m$ apart on a frictionless table. A {{params.mb}} $g$ bullet is fired at {{params.v0}} $\frac{m}{s}$ toward the blocks. It passes all the way through the first block, then embeds itself in the second block.The speed of the first block immediately afterwards is {{params.v1}} $\frac{m}{s}$.

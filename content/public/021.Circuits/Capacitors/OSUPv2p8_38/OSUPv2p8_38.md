@@ -1,8 +1,8 @@
 ---
-title: Charge and Voltage Across Capacitors
+title: Charging Capacitors
 topic: Circuits
 author: Ava Cornell
-source: 2.8.31
+source: 2.8.38
 template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
@@ -21,7 +21,7 @@ tags:
 - OSUP
 - volume 2
 - chapter 8
-- problem 31
+- problem 38
 - capacitors
 - multi-part
 - AC
@@ -35,57 +35,75 @@ part1:
     rtol: 0.03
     atol: 0
     show-help-text: true
-    suffix: $\rm\ {nC}$
+    suffix: $\textrm{nC}$
     weight: 1
 part2:
   type: number-input
   pl-customizations:
-    label: $V_1=$
+    label: $Q_1=$
     allow-blank: false
     comparison: relabs
     rtol: 0.03
     atol: 0
     show-help-text: true
-    suffix: $\rm\ V$
+    suffix: $\textrm{nC}$
     weight: 1
 part3:
   type: number-input
   pl-customizations:
-    label: $V_2=$
+    label: $Q_2=$
     allow-blank: false
     comparison: relabs
     rtol: 0.03
     atol: 0
     show-help-text: true
-    suffix: $\rm\ V$
+    suffix: $\textrm{nC}$
+    weight: 1
+part4:
+  type: number-input
+  pl-customizations:
+    label: $V=$
+    allow-blank: false
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
+    show-help-text: true
+    suffix: $\textrm{V}$
     weight: 1
 substitutions:
   params:
     vars:
-      title: Charge and Voltage Across Capacitors
-    a: '5'
-    b: '7'
-    v: '430'
+      title: Charging Capacitors
+    a: '50'
+    b: '25'
+    v: '700'
 ---
 # {{ params.vars.title }}
-A ${{params.a }}\textrm{ pF}$ capacitor is connected in series with a ${{params.b }}\textrm{ pF}$ capacitor and a ${{params.v }}\textrm{ V}$ potential difference is applied across the pair.
+A ${{params.a }} \textrm{ pF}$ capacitor is charged to a potential difference of ${{params.v }} \textrm{ V}$. Its terminals are then connected to those of an uncharged ${{params.b }} \textrm{ pF}$ capacitor.
 ## Part 1
 
-What is the charge on each capacitor? Enter answer in units of nC.
+What is the original charge on the ${{params.a }} \textrm{ pF}$ capacitor? Enter your answer in units of nC.
 
 ### Answer Section
 
 Please enter a numeric value.
 ## Part 2
 
-What is the voltage across the ${{params.a }}\textrm{ pF}$ capacitor?
+What is the charge on the ${{params.a }} \textrm{ pF}$ capacitor after the connection is made? Enter your answer in units of nC.
 
 ### Answer Section
 
 Please enter a numeric value.
 ## Part 3
 
-What is the voltage across the ${{params.b }}\textrm{ pF}$ capacitor?
+What is the charge on the ${{params.b }} \textrm{ pF}$ capacitor after the connection is made? Enter your answer in units of nC.
+
+### Answer Section
+
+Please enter a numeric value.
+## Part 4
+
+What is the potential difference across the plates of each capacitor after the connection?
 
 ### Answer Section
 
