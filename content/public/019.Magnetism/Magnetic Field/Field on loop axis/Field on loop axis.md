@@ -1,12 +1,12 @@
 ---
-title: Field due to lightning
+title: Field on loop axis
 topic: Magnetism
 author: Jake Bobowksi
-source: 2.12.22
+source: 2.12.38
 template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 18.11.2.3
+- 19.2.4.6
 difficulty:
 - undefined
 randomization:
@@ -17,10 +17,10 @@ tags:
 - OSUP
 - volume 2
 - chapter 12
-- problem 22
-- Ampere's law
-- line of current
+- problem 38
 - magnetic field
+- current loop
+- on axis
 - numeric
 - JB
 assets: null
@@ -30,23 +30,22 @@ part1:
     weight: 1
     allow-blank: false
     show-correct-answer: false
-    label: $B= $
-    suffix: $\rm\ T$
+    label: $z= $
+    suffix: $R$
     comparison: relabs
     rtol: 0.03
     atol: 0
 substitutions:
   params:
     vars:
-      title: Field due to lightning
-    d: '1.2'
-    p: '4'
+      title: Field on loop axis
 ---
 # {{ params.vars.title }}
-A typical current in a lightning bolt is $10^{{ params.p }}\rm\ A$.
+A circular loop of radius $R$ carries a current $I$.
 ## Question Text
 
-Estimate the magnetic field a perpendicular distance of ${{ params.d }}\rm\ m$ from the bolt.
+At what distance $z$ along the axis of the loop is the magnetic field one-half its value at the centre of the loop?
+Give your answer as a multiple of $R$.
 
 ### Answer Section
 
