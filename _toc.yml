@@ -275,6 +275,8 @@ parts:
   - file: content/public/019.Magnetism/Solenoids/Magnetic field of a solenoid/Magnetic
       field of a solenoid
   - file: content/public/019.Magnetism/Solenoids/Solenoid current/Solenoid current
+  - file: content/public/019.Magnetism/Magnetic Force/Suspended parallel wires/Suspended
+      parallel wires
   - file: content/public/019.Magnetism/Magnetic Force/Current through a spring/Current
       through a spring
   - file: content/public/019.Magnetism/Magnetic Force/Force on Electron vs Proton/force_on_electron_versus_proton
