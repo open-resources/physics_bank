@@ -1,12 +1,12 @@
 ---
-title: Magnetic field of a solenoid
+title: Suspended parallel wires
 topic: Magnetism
 author: Jake Bobowksi
-source: 2.12.49
+source: 2.12.32
 template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 19.6.1.0
+- 19.3.3.2
 difficulty:
 - undefined
 randomization:
@@ -17,35 +17,41 @@ tags:
 - OSUP
 - volume 2
 - chapter 12
-- problem 49
-- magnetic field
-- solenoid
+- problem 32
+- Force between currents
+- line of current
 - numeric
 - JB
-assets: null
+assets:
+- OSUPv2p12_32.png
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: false
     show-correct-answer: false
-    label: $B= $
-    suffix: $\rm\ T$
+    label: $I= $
+    suffix: $\rm\ A$
     comparison: relabs
     rtol: 0.03
     atol: 0
 substitutions:
   params:
     vars:
-      title: Magnetic field of a solenoid
-    n: '2400'
-    I: '6.80'
+      title: Suspended parallel wires
+    s: '4.0'
+    mu: '21.6'
+    theta: '7.0'
 ---
 # {{ params.vars.title }}
-A solenoid is wound with ${{ params.n }}$ turns per meter.
+Two long, parallel wires are hung by cords of length $s = {{ params.s }}\rm\ cm$, as shown in the figure.
+Each wire has a mass per unit length of ${{ params.mu }}\rm\ g/m$, and they carry the same current in opposite directions.
+
+<img src="OSUPv2p12_32.png" width=400 alt="Parallel currents suspended by cords">
+<p></p>
 ## Question Text
 
-When the current is ${{ params.I }}\rm\ A$, what is the magnetic field within the solenoid?
+What is the current if the cords hang at $\theta = {{ params.theta }}^\circ$ with respect to the vertical?
 
 ### Answer Section
 
