@@ -280,6 +280,7 @@ parts:
   - file: content/public/019.Magnetism/Magnetic Force/Current through a spring/Current
       through a spring
   - file: content/public/019.Magnetism/Magnetic Force/Force on Electron vs Proton/force_on_electron_versus_proton
+  - file: content/public/019.Magnetism/Magnetic Force/Wire and loop/Wire and loop
   - file: content/public/019.Magnetism/Magnetic Force/Electron in a Solenoid/Electron
       in a Solenoid
   - file: content/public/019.Magnetism/Magnetic Force/Cosmic Ray Electron/cosmic_ray_electron
@@ -291,6 +292,8 @@ parts:
       due to lightning
   - file: content/public/019.Magnetism/Magnetic Field/Current through a spring/Current
       through a spring
+  - file: content/public/019.Magnetism/Magnetic Field/Concentric current arcs/Concentric
+      current arcs
   - file: content/public/019.Magnetism/Magnetic Field/Electron Through a Magnetic
       Field/electron_through_a_magnetic_field
   - file: content/public/019.Magnetism/Magnetic Field/Particle in Uniform Magnetic
@@ -298,6 +301,8 @@ parts:
   - file: content/public/019.Magnetism/Magnetic Field/Semi-circular current loop/Semi-circular
       Current Loop
   - file: content/public/019.Magnetism/Magnetic Field/Circular coil/Circular coil
+  - file: content/public/019.Magnetism/Magnetic Field/Field on loop axis/Field on
+      loop axis
 - caption: Circuits
   chapters:
   - file: content/public/021.Circuits/Electrical Energy/OSUPv2.9.16/OSUPv2.9.16
