@@ -3,7 +3,7 @@ title: Vanishing electric field
 topic: Electrostatics
 author: Jake Bobowksi
 source: 2.5.26
-template_version: 1.0
+template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
 - 18.6.1.1

@@ -38,8 +38,8 @@ substitutions:
   params:
     vars:
       title: Solenoid current
-    n: '16'
-    B: '3.0'
+    n: '19'
+    B: '4.2'
     p: '-1'
 ---
 # {{ params.vars.title }}

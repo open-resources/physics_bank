@@ -28,14 +28,14 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: pickup truck
+      vehicle: semi-truck
       title: Displacement of a Vehicle
       units: blocks
-    c1: 34
-    c2: 37
-    c3: 37
-    dir1: north
-    dir2: east
+    c1: 12
+    c2: 27
+    c3: 29
+    dir1: east
+    dir2: north
     dir3: west
 ---
 # {{ params.vars.title }}
