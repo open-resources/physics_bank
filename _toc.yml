@@ -20,6 +20,7 @@ parts:
   - file: docs/rounding
 - caption: Math
   chapters:
+  - file: content/public/001.Math/Quadratic formula/Diagnostic Q11/diagnosticq11
   - file: content/public/001.Math/Significant Figures/significant_figures/significant_figures
   - file: content/public/001.Math/Derivatives/Velocity Derivatives/velocity_derivative
   - file: content/public/001.Math/Derivatives/Vehicle_Velocity/Vehicle_Velocity
