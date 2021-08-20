@@ -31,15 +31,15 @@ substitutions:
       ans1:
         value: Energy
       ans2:
-        value: Length
+        value: Volume
       ans3:
-        value: Mass
+        value: Lift
       ans4:
-        value: Acceleration
+        value: Force
       ans5:
-        value: Drag
-      ans6:
         value: Momentum
+      ans6:
+        value: Acceleration
 ---
 # {{ params.vars.title }}
 ## Question Text
