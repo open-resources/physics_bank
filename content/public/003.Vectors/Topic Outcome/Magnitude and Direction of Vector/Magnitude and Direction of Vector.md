@@ -55,7 +55,8 @@ substitutions:
         value: ($\sqrt{30}$, $\theta = $303.0$^\circ$)
 ---
 # {{ params.vars.title }}
-Given $\vec{A} = {{ params.A_i }} \hat{\imath} {{params.A_j_sign}} {{ params.A_j_abs}} \hat{\jmath}$, $\vec{B} = {{ params.B_i }} \hat{\imath} {{params.B_j_sign}} {{ params.B_j_abs}} \hat{\jmath}$, $\vec{C} = {{ params.C_i }} \hat{\imath} {{params.C_j_sign}} {{ params.C_j_abs}} \hat{\jmath}$ and $d={{ params.d }}$, find the magnitude and direction of $\vec{A}-\vec{B}+d\vec{C}$.
+Given $\vec{A} =$ {{ params.A_i }}$\hat{\imath}$ {{params.A_j_sign}} {{ params.A_j_abs}}$\hat{\jmath}$, $\vec{B} =$ {{ params.B_i }}$\hat{\imath}$ {{params.B_j_sign}} {{ params.B_j_abs}}$\hat{\jmath}$, $\vec{C} =$ {{ params.C_i }}$\hat{\imath}$ {{params.C_j_sign}} {{ params.C_j_abs}}$\hat{\jmath}$ and $d=$ {{ params.d }}, find the magnitude and direction of $\vec{A}-\vec{B}+d\vec{C}$. 
+
 ## Part 1
 
 Expressing this vector in the form $(r,\theta)$ where $\theta$ is measured relative to the positive $x$-axis, the closest to your result is:
