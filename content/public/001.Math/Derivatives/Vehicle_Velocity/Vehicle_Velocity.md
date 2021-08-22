@@ -28,20 +28,20 @@ substitutions:
       units: $m/s$
     i_1: 4
     i_2: 2
-    j_1: 8
+    j_1: 10
     j_2: 3
     s: 1
     part1:
       ans1:
-        value: (6$\hat{\imath}$ + 1$\hat{\jmath}$)
+        value: (6$\hat{\imath}$ - 1$\hat{\jmath}$)
       ans2:
         value: (6$\hat{\imath}$ + 9$\hat{\jmath}$)
       ans3:
-        value: (2$\hat{\imath}$ + 11$\hat{\jmath}$)
+        value: (2$\hat{\imath}$ + 13$\hat{\jmath}$)
       ans4:
-        value: (2$\hat{\imath}$ + 1$\hat{\jmath}$)
+        value: (2$\hat{\imath}$ - 1$\hat{\jmath}$)
       ans5:
-        value: (6$\hat{\imath}$ + 11$\hat{\jmath}$)
+        value: (6$\hat{\imath}$ + 13$\hat{\jmath}$)
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }}'s position as a function of time is given by $\vec{r} = ({{ params.i_1 }}t^2 - {{ paramas.i_2 }}t)\hat{\imath} + ({{ params.j_1 }} t^{-1}+{{ params.j_2 }} t^3)\hat{\jmath}$ where $\vec{r}$ is in meters and $t$ is in seconds.

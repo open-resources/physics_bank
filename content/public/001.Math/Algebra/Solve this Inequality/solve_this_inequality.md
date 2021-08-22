@@ -1,12 +1,12 @@
 ---
-title: Two Balls Launched on Different Tracks
-topic: Energy
-author: Jake Bobowski
-source: 2012 Final Q3
-template_version: 1.0
+title: Solve This Inequality
+topic: Math
+author: Simon Bates
+source: Math Diagnostic Q3
+template_version: 1.1
 attribution: standard
 outcomes:
-- 7.5.1.2
+- null
 difficulty:
 - undefined
 randomization:
@@ -14,9 +14,9 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- PW
-assets:
-- q3_2012Final.png
+- math_diagnostic
+- MP
+assets: null
 part1:
   type: multiple-choice
   pl-customizations:
@@ -24,24 +24,23 @@ part1:
 substitutions:
   params:
     vars:
-      title: Two Balls Launched on Different Tracks
+      title: Solve this Inequality
+      formula: 5x + 5 > 1x + 6
     part1:
       ans1:
-        value: A
+        value: x > 1/4
       ans2:
-        value: They reach the end of the track at the same time.
+        value: x < 1/4
       ans3:
-        value: More information is needed.
+        value: x < 4
       ans4:
-        value: B
+        value: x > 4
+      ans5:
+        value: Don't Know
 ---
 # {{ params.vars.title }}
-Balls A and B are launched with the same initial velocity along a pair of tracks as shown in the figure.
-
-![Ball A is launched along a horizontal track while Ball B is launched along a u-shaped track.](q3_2012Final.png)
+The solution of the inequality {{params.vars.formula}} is:
 ## Part 1
-
-Which ball reaches the end of the track first, if friction is neglected?
 
 ### Answer Section
 
@@ -49,6 +48,7 @@ Which ball reaches the end of the track first, if friction is neglected?
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

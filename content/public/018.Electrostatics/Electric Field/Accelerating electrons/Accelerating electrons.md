@@ -1,12 +1,12 @@
 ---
-title: Particle between charged plates
+title: Accelerating electrons
 topic: Electrostatics
 author: Jake Bobowksi
-source: 2.7.61
+source: 2.7.70
 template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 18.11.2.4
+- 18.1.1.3
 difficulty:
 - undefined
 randomization:
@@ -16,40 +16,41 @@ taxonomy:
 tags:
 - OSUP
 - volume 2
-- chapter 6
-- problem 61
+- chapter 7
+- problem 70
 - electric potential
 - parallel plates
-- charged particle
+- conservation of energy
 - numeric
 - JB
-assets: null
+assets:
+- OSUPv2p7_70.png
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: false
     show-correct-answer: false
-    label: $v= $
-    suffix: $\rm\ m/s$
+    label: $a= $
+    suffix: $\rm\ m/s^2$
     comparison: relabs
     rtol: 0.03
     atol: 0
 substitutions:
   params:
-    sig: '26'
-    d: '3.8'
-    particle: An electron
-    particle1: electron
-    p1: negative
-    p2: positive
+    vars:
+      title: Accelerating electrons
+    E: '3.40'
+    p: '6'
 ---
 # {{ params.vars.title }}
-Two large plates of charge density ${{ params.sig }}\rm\ \mu C/m^2$ face each other at a separation of ${{ params.d }} \textrm{ mm}$.
-{{ params.particle }} is released from rest at the {{ params.p1 }} plate.
+A simple and common technique for accelerating electrons is shown in the figure, where there is a uniform electric field between two plates.
+Electrons are released from rest, usually from a hot filament, near the negative plate, and there is a small hole in the positive plate that allows the electrons to pass through it.
+
+<img src="OSUPv2p7_70.png" width=200 alt="Electron between charged plates">
 ## Question Text
 
-With what speed does the {{ params.particle1 }} strike the {{ params.p2 }} plate?
+Calculate the acceleration of the electron if the field strength  is ${{ params.E }}\times 10^{{ params.p }}\textrm{ N/C}$.
 
 ### Answer Section
 
