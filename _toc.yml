@@ -293,6 +293,8 @@ parts:
   - file: content/public/019.Magnetism/Magnetic Field/Square toroid/Square toroid
   - file: content/public/019.Magnetism/Magnetic Field/Wire in an external magnetic
       field/Wire in an external magnetic field
+  - file: content/public/019.Magnetism/Magnetic Field/Magnetic field of a coaxial
+      cable/Magnetic field of a coaxial cable
   - file: content/public/019.Magnetism/Magnetic Field/Current loop/Current loop
   - file: content/public/019.Magnetism/Magnetic Field/Field due to lightning/Field
       due to lightning
@@ -308,6 +310,8 @@ parts:
       Current Loop
   - file: content/public/019.Magnetism/Magnetic Field/Field due to current segment/Field
       due to current segment
+  - file: content/public/019.Magnetism/Magnetic Field/Cancelling magnetic fields/Cancelling
+      magnetic fields
   - file: content/public/019.Magnetism/Magnetic Field/Circular coil/Circular coil
   - file: content/public/019.Magnetism/Magnetic Field/Field on loop axis/Field on
       loop axis
