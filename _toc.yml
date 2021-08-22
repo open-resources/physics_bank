@@ -28,6 +28,7 @@ parts:
   - file: content/public/001.Math/Integrals/Rocket/Rocket
   - file: content/public/001.Math/Graphs/Acceleration from Velocity Graph/acceleration_from_velocity_graph
   - file: content/public/001.Math/Graphs/Position Velocity and Acceleration/d_v_a_from_graph
+  - file: content/public/001.Math/Algebra/Solve this Inequality/solve_this_inequality
   - file: content/public/001.Math/fraction_equation/fraction_equation
 - caption: Physics in General
   chapters:
@@ -265,6 +266,8 @@ parts:
       point charges
   - file: content/public/018.Electrostatics/Electric Field/Vanishing electric field/Vanishing
       electric field
+  - file: content/public/018.Electrostatics/Electric Field/Accelerating electrons/Accelerating
+      electrons
   - file: content/public/018.Electrostatics/Electric Field/Zero electric field/Zero
       electric field
   - file: content/public/018.Electrostatics/Electric Charge/Suspended neutral conductor/Suspended
