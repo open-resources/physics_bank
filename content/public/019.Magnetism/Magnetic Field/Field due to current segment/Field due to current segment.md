@@ -1,15 +1,12 @@
 ---
-title: Cosmic Ray Electron
+title: Field due to current segment
 topic: Magnetism
-author: Vanshika Sharma
-source: 2.11.25
-template_version: 1.1
+author: Jake Bobowksi
+source: 2.12.16
+template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 19.3.2.0
-- 19.2.1.0
-- 19.2.3.0
-- 19.2.3.1
+- 18.11.2.3
 difficulty:
 - undefined
 randomization:
@@ -19,35 +16,44 @@ taxonomy:
 tags:
 - OSUP
 - volume 2
-- chapter 11
-- problem 25
-- magnetic force
-- centripetal acceleration
-- circular motion
-- VS
-assets: null
+- chapter 12
+- problem 16
+- Biot-Savart law
+- current segment
+- magnetic field
+- numeric
+- JB
+assets:
+- OSUPv2p12_16.png
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: false
-    label: $r= $
-    suffix: $\rm\ m$
+    show-correct-answer: false
+    label: $B= $
+    suffix: $\rm\ T$
     comparison: relabs
     rtol: 0.03
     atol: 0
 substitutions:
   params:
     vars:
-      title: Cosmic Ray Electron
-    v: 3.9
-    B: 1.6
+      title: Field due to current segment
+    I: '4.0'
+    x: '5.80'
+    y: '5.20'
+    dl: '0.50'
 ---
 # {{ params.vars.title }}
+A ${{ params.I }}\rm\ A$ current flows through the wire shown in the figure.
+Take $x = {{ params.x }}\rm\ cm$ and $y = {{ params.y }}\rm\ cm$.
+
+<img src="OSUPv2p12_16.png" width=400 alt="A wire segment carrying a current">
+<p></p>
 ## Question Text
 
-A cosmic-ray electron moves at ${{params.v}} \times 10^6 \textrm{ m/s}$ perpendicular to Earth's magnetic field at an altitude where the field strength is ${{params.B}} \times 10^{-5} \textrm{ T}$.
-What is the radius of the circular path the electron follows?
+What is the magnitude of the magnetic field due to a ${{ params.dl }}\rm\ mm$ segment of wire as measured at point P?
 
 ### Answer Section
 
