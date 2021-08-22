@@ -306,6 +306,8 @@ parts:
       field/Particle in Uniform Magnetic Field
   - file: content/public/019.Magnetism/Magnetic Field/Semi-circular current loop/Semi-circular
       Current Loop
+  - file: content/public/019.Magnetism/Magnetic Field/Field due to current segment/Field
+      due to current segment
   - file: content/public/019.Magnetism/Magnetic Field/Circular coil/Circular coil
   - file: content/public/019.Magnetism/Magnetic Field/Field on loop axis/Field on
       loop axis
