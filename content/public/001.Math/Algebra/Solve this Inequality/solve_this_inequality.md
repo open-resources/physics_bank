@@ -25,16 +25,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 6x + -6 > -7x + 6
+      formula: -8x + -9 > -10x + 4
     part1:
       ans1:
-        value: x > 12/13
+        value: x > 13/2
       ans2:
-        value: x < 12/13
+        value: x < 13/2
       ans3:
-        value: x < 13/12
+        value: x < 2/13
       ans4:
-        value: x > 13/12
+        value: x > 2/13
       ans5:
         value: Don't Know
 ---
