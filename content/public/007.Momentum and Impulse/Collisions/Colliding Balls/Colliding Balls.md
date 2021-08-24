@@ -30,24 +30,24 @@ substitutions:
   params:
     vars:
       title: Colliding Balls
-    m1: 138
-    m2: 191
-    v1_i: 5.11
-    v2_i: -3.25
-    v1_f: -4.6
-    v2_f: 3.76
+    m1: 216
+    m2: 229
+    v1_i: 7.18
+    v2_i: -2.81
+    v1_f: -6.39
+    v2_f: 9.99
     part1:
       ans1:
+        value: This is an inelastic collision because only momentum is conserved.
+      ans2:
+        value: This is an inelastic collision because energy and momentum are conserved.
+      ans3:
+        value: This is not possible because kinetic energy is not conserved.
+      ans4:
+        value: This is not possible as momentum is not conserved.
+      ans5:
         value: This is an elastic collision, as both kinetic energy and momentum are
           conserved.
-      ans2:
-        value: This is an inelastic collision because only momentum is conserved.
-      ans3:
-        value: This is an inelastic collision because energy and momentum are conserved.
-      ans4:
-        value: This is not possible because kinetic energy is not conserved.
-      ans5:
-        value: This is not possible as momentum is not conserved.
 ---
 # {{ params.vars.title }}
 A ball of mass {{ params.m1 }} $g$ with initial velocity {{ params.v1_i }} $\frac{m}{s}\hat{\imath}$ collides with a ball of mass {{ params.m2 }} $g$ with initial velocity {{ params.v2_i }} $\frac{m}{s}\hat{\imath}$. The final velocity of the {{ params.m1 }} $g$ ball is {{ params.v1_f }} $\frac{m}{s}\hat{\imath}$, while the final velocity of the {{ params.m2 }} $g$ ball is {{ params.v2_f }} $\frac{m}{s}\hat{\imath}$.

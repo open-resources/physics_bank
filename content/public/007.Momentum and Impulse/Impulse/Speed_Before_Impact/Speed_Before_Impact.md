@@ -28,10 +28,10 @@ substitutions:
       title: Speed Before Impact
       vehicle: semi-truck
       units: $m/s$
-    m: 612
+    m: 620
     part1:
       ans1:
-        value: 88.0
+        value: 87.0
       ans2:
         value: 44.0
       ans3:

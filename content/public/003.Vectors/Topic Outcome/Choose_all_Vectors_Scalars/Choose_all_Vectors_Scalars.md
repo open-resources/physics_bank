@@ -29,17 +29,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Distance travelled
+        value: Power
       ans2:
         value: Temperature
       ans3:
-        value: The average acceleration
+        value: The position in a 1 dimensional system
       ans4:
-        value: velocity
+        value: Lift
       ans5:
-        value: Momentum
+        value: The position in 3 dimensions
       ans6:
-        value: Weight
+        value: Force
 ---
 # {{ params.vars.title }}
 ## Question Text
