@@ -31,11 +31,11 @@ substitutions:
     choice: Untrue
     part1:
       ans1:
-        value: The dog has a velocity of 1 m/s between time t=6s and t=10s
-      ans2:
         value: The dog is slowing down at t=7s
+      ans2:
+        value: The dog is not moving between t=6s and t=10s
       ans3:
-        value: The dog has an average velocity of 0 m/s between time t=0s and t=8s
+        value: The dog has a negative acceleration at t=9s
       ans4:
         value: The dog is not moving between t=2s and t=6s
 ---

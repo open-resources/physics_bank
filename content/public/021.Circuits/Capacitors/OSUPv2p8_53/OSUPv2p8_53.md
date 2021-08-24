@@ -1,16 +1,13 @@
 ---
-title: Charging Capacitors
+title: Analyzing Potential Difference and Electric Field
 topic: Circuits
 author: Ava Cornell
-source: 2.8.38
+source: 2.8.53
 template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
 - 21.7.1.0
-- 21.7.1.1
-- 21.7.2.0
-- 21.7.3.0
-- 21.7.4.0
+- 21.7.6.0
 difficulty:
 - undefined
 randomization:
@@ -21,7 +18,7 @@ tags:
 - OSUP
 - volume 2
 - chapter 8
-- problem 38
+- problem 53
 - capacitors
 - multi-part
 - AC
@@ -29,40 +26,7 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
-    label: $Q=$
-    allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
-    show-help-text: true
-    suffix: $\textrm{nC}$
-    weight: 1
-part2:
-  type: number-input
-  pl-customizations:
-    label: $Q_1=$
-    allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
-    show-help-text: true
-    suffix: $\textrm{nC}$
-    weight: 1
-part3:
-  type: number-input
-  pl-customizations:
-    label: $Q_2=$
-    allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
-    show-help-text: true
-    suffix: $\textrm{nC}$
-    weight: 1
-part4:
-  type: number-input
-  pl-customizations:
-    label: $V=$
+    label: $V_\textrm{i}=$
     allow-blank: false
     comparison: relabs
     rtol: 0.03
@@ -70,40 +34,76 @@ part4:
     show-help-text: true
     suffix: $\textrm{V}$
     weight: 1
+part2:
+  type: number-input
+  pl-customizations:
+    label: $V_\textrm{f}=$
+    allow-blank: false
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
+    show-help-text: true
+    suffix: $\textrm{V}$
+    weight: 1
+part3:
+  type: number-input
+  pl-customizations:
+    label: $E_\textrm{i}=$
+    allow-blank: false
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
+    show-help-text: true
+    suffix: $\textrm{V/m}$
+    weight: 1
+part4:
+  type: number-input
+  pl-customizations:
+    label: $E_\textrm{f}=$
+    allow-blank: false
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
+    show-help-text: true
+    suffix: $\textrm{V/m}$
+    weight: 1
 substitutions:
   params:
     vars:
-      title: Charging Capacitors
-    a: '55'
-    b: '10'
-    v: '400'
+      title: Analyzing Potential Difference and Electric Field
+    q: '3.0'
+    c: '5.0'
+    d: '2.0'
+    k: '3.0'
 ---
 # {{ params.vars.title }}
-A ${{params.a }} \textrm{ pF}$ capacitor is charged to a potential difference of ${{params.v }} \textrm{ V}$. Its terminals are then connected to those of an uncharged ${{params.b }} \textrm{ pF}$ capacitor.
+A parallel-plate capacitor has charge of magnitude ${{params.q }} \rm\ \mu\textrm{C}$ on each plate and capacitance ${{params.c }} \rm\ \mu\textrm{F}$  when there is air between the plates.
+The plates are separated by ${{params.d }} \textrm{ mm}$.
+With the charge on the plates kept constant, a dielectric with $\kappa = {{params.k }}$ is inserted between the plates, completely filling the volume between the plates.
 ## Part 1
 
-What is the original charge on the ${{params.a }} \textrm{ pF}$ capacitor? Enter your answer in units of nC.
+What is the potential difference between the plates of the capacitor before the dielectric has been inserted?
 
 ### Answer Section
 
 Please enter a numeric value.
 ## Part 2
 
-What is the charge on the ${{params.a }} \textrm{ pF}$ capacitor after the connection is made? Enter your answer in units of nC.
+What is the potential difference between the plates of the capacitor after the dielectric has been inserted?
 
 ### Answer Section
 
 Please enter a numeric value.
 ## Part 3
 
-What is the charge on the ${{params.b }} \textrm{ pF}$ capacitor after the connection is made? Enter your answer in units of nC.
+What is the electrical field at the point midway between the plates before the dielectric is inserted?
 
 ### Answer Section
 
 Please enter a numeric value.
 ## Part 4
 
-What is the potential difference across the plates of each capacitor after the connection?
+What is the electrical field at the point midway between the plates after the dielectric is inserted?
 
 ### Answer Section
 

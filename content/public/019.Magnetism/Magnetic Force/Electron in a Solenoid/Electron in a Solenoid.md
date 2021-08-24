@@ -43,9 +43,9 @@ part1:
     atol: 0
 substitutions:
   params:
-    n: '25'
-    r: '2.90'
-    v: '1.60'
+    n: '30'
+    r: '2.60'
+    v: '1.90'
     p: '6'
 ---
 # {{ params.vars.title }}
