@@ -258,6 +258,8 @@ parts:
       electric field
   - file: content/public/018.Electrostatics/Electric Potential/Particle between charged
       plates/Particle between charged plates
+  - file: content/public/018.Electrostatics/Electric Potential/Concentric spherical
+      shells/Concentric spherical shells
   - file: content/public/018.Electrostatics/Electric Flux/Flux through a closed surface/Flux
       through a closed surface
   - file: content/public/018.Electrostatics/Electric Flux/Concentric spherical surfaces/Concentric
