@@ -33,9 +33,9 @@ substitutions:
       units: $m$
     m1: 0.21
     m2: 0.065
-    m3: 0.15
-    l1: 0.76
-    l2: 0.56
+    m3: 0.081
+    l1: 0.73
+    l2: 1.4
 ---
 # {{ params.vars.title }}
 ## Question Text

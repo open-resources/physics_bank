@@ -1,14 +1,12 @@
 ---
-title: Length of Wire
-topic: Resistance
-author: Vanshika Sharma
-source: 2.9.57
+title: Uniformly-charged sphere
+topic: Electrostatics
+author: Jake Bobowksi
+source: 2.7.15
 template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
-- 21.6.1.0
-- 21.6.1.1
-- 21.3.1.1
+- 18.11.2.4
 difficulty:
 - undefined
 randomization:
@@ -18,38 +16,38 @@ taxonomy:
 tags:
 - OSUP
 - volume 2
-- chapter 9
-- problem 57
-- resistance
-- power
-- coil
-- VS
+- chapter 7
+- problem 15
+- uniformly-charged sphere
+- electric potential
+- drop down
+- JB
 assets: null
 part1:
-  type: number-input
+  type: dropdown
   pl-customizations:
     weight: 1
-    allow-blank: false
-    label: $L= $
-    suffix: $\rm\ m$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
+    blank: true
 substitutions:
   params:
     vars:
-      title: Length of Wire
-      units: m
-    V: 55
-    P: 79
+      title: Uniformly-charged sphere
+    same: the same as
+    part1:
+      ans1:
+        value: The region of space inside the sphere.
+      ans2:
+        value: The region of space outside the sphere.
 ---
 # {{ params.vars.title }}
-## Question Text
+## Part 1
 
-A heater is being designed that uses a coil of 14-gauge nichrome wire to generate {{params.P}} $\textrm{W}$ using a voltage of {{params.V}} $\textrm{V}$.
-What should be the length of the wire that the engineer uses?
+In what region of space is the potential due to a uniformly-charged sphere {{params.same}} that of a point charge?
 
 ### Answer Section
+
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Attribution
 
