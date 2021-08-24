@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Running Dog
-    choice: 'True'
+    choice: Untrue
     part1:
       ans1:
-        value: The dog is moving at a constant velocity between t=2s and t=6s
+        value: The dog is slowing down at t=7s
       ans2:
         value: The dog is not moving between t=6s and t=10s
       ans3:
-        value: The dog has a negative acceleration at t=9s
+        value: The dog has a velocity of 1 m/s between time t=6s and t=10s
       ans4:
-        value: The dog is moving at the same speed at time t=8s and t=10s
+        value: The dog is moving at a constant velocity between t=2s and t=6s
 ---
 # {{ params.vars.title }}
 Consider the following motion diagram for a dog running down a straight path.

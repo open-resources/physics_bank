@@ -27,13 +27,13 @@ substitutions:
       title: Energy Cosumption Units
     part1:
       ans1:
-        value: charge
+        value: power
       ans2:
         value: energy
       ans3:
-        value: power
-      ans4:
         value: voltage
+      ans4:
+        value: charge
       ans5:
         value: current
 ---
