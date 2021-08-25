@@ -1,12 +1,15 @@
 ---
-title: Firing a Ball using a Compressed Spring
-topic: Energy
-author: Jake Bobowski
-source: 2013 Practice Final Q4
+title: Velocity of a Falcon
+topic: Kinematics(2D and 3D)
+author: John Hopkinson
+source: PHYS 112 2020W Midterm 1 Q2
 template_version: 1.1
 attribution: standard
 outcomes:
-- 8.5.1.1
+- 5.8.1.0
+- 5.8.1.2
+- 5.8.1.1
+- 5.8.1.3
 difficulty:
 - undefined
 randomization:
@@ -23,27 +26,30 @@ part1:
 substitutions:
   params:
     vars:
-      title: Firing a Ball using a Compressed Spring
-    choice: doubled
+      title: Velocity of a Falcon
+    dir1: South
+    dir2: East
+    v_f: 102.0
+    v_w: 107.0
     part1:
       ans1:
-        value: The ball will reach twice the height as before.
+        value: 148.0 $km/h$ 46.4$^\circ$ East of South
       ans2:
-        value: The ball will reach one quarter of the previous height.
+        value: 209.0 $km/h$ 46.4$^\circ$ East of South
       ans3:
-        value: The ball will reach four times the height previously reached.
+        value: 107.0 $km/h$ 51.4$^\circ$ East of South
       ans4:
-        value: The ball will reach half the height previously reached.
+        value: 107.0 $km/h$ 51.4$^\circ$ West of South
       ans5:
-        value: The ball will reach the same height as before.
+        value: 209.0 $km/h$ 51.4$^\circ$ East of North
       ans6:
-        value: The ball will reach thrice the height as before.
+        value: 107.0 $km/h$ 46.4$^\circ$ West of South
 ---
 # {{ params.vars.title }}
-A compressed spring fires a ball of mass $m$ directly upwards.
+A peregrine falcon flies at {{ params.v_f }} $km/h$ {{ params.dir1 }} (relative to the air) in a {{ params.v_w }} $km/h$ wind to the {{ params.dir2 }} (relative to the ground).
 ## Part 1
 
-If the mass of the  ball  and  the  initial  compression  of  the  spring  are  both  {{ params.choice }}, (neglect  air resistance) then,
+The velocity of the peregrine falcon as seen by an observer on the ground is:
 
 ### Answer Section
 

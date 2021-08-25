@@ -43,10 +43,10 @@ part1:
     atol: 0
 substitutions:
   params:
-    n: '35'
-    r: '2.90'
-    v: '2.20'
-    p: '4'
+    n: '30'
+    r: '1.40'
+    v: '1.70'
+    p: '5'
 ---
 # {{ params.vars.title }}
 A solenoid with ${{ params.n }}$ turns per centimter carries a current $I$.

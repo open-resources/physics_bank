@@ -59,12 +59,12 @@ substitutions:
       title: Toboggan hill
       units1_2_3: $kJ$
       units_4: $m/s$
-    m: 62
-    l: 108
-    ang_horiz: 16
-    fr: 60
-    fwind: 19
-    theta: 19
+    m: 66
+    l: 109
+    ang_horiz: 25
+    fr: 89
+    fwind: 17
+    theta: 23
     v_i: 3
 ---
 # {{ params.vars.title }}
