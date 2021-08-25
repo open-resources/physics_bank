@@ -76,6 +76,7 @@ parts:
   - file: content/public/004.Kinematics(1D)/Position/distance_travelled/distance_travelled
   - file: content/public/004.Kinematics(1D)/water_slide/water_slide
   - file: content/public/004.Kinematics(1D)/Free Fall/Supply_plane/Supply_plane
+  - file: content/public/004.Kinematics(1D)/Free Fall/Mount Etna/Mount Etna
   - file: content/public/004.Kinematics(1D)/Speed/Vehicle_Speed/Vehicle_Speed
 - caption: Kinematics(2D and 3D)
   chapters:
@@ -87,6 +88,10 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/centripetal_force/centripetal_force
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Swinging
       mass/Swinging mass
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Cat in a Laundry
+      Basket/Cat in a Laundry Basket
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Salmon passing
+      a waterfall/Salmon Passing a Waterfall
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/ski_jump/ski_jump
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Mass_Attached_To_String/Mass_Attached_To_String
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Slanted Table/slanted_table
@@ -94,6 +99,8 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/A flying arrow/A
       flying arrow
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/apples_in_truck/apples_in_truck
+  - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Velocity of a Falcon/Velocity
+      of a Falcon
 - caption: Force
   chapters:
   - file: content/public/006.Force/Newton's Third Law/Force Vectors/force_vectors
