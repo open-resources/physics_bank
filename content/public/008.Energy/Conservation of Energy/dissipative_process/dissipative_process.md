@@ -8,6 +8,7 @@ attribution: standard
 outcomes:
 - 8.5.1.0
 - 8.1.1.0
+- 17.1.1.7
 difficulty:
 - undefined
 randomization:
@@ -37,9 +38,9 @@ substitutions:
         value: If the total kinetic energy is not constant all the way through the
           interaction, the process is dissipative.
       ans4:
-        value: Incoherent deformations are dissipative
-      ans5:
         value: Irreversible processes are dissipative.
+      ans5:
+        value: Incoherent deformations are dissipative
 ---
 # {{ params.vars.title }}
 ## Question Text

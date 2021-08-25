@@ -8,6 +8,7 @@ attribution: standard
 outcomes:
 - 7.4.1.1
 - 7.4.1.2
+- 7.5.1.7
 difficulty:
 - undefined
 randomization:

@@ -7,6 +7,7 @@ template_version: 1.0
 attribution: standard
 outcomes:
 - 6.5.1.2
+- 7.5.1.7
 difficulty:
 - undefined
 randomization:

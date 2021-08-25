@@ -10,6 +10,7 @@ outcomes:
 - 6.1.1.5
 - 6.4.1.1
 - 6.9.1.3
+- 6.11.2.1
 difficulty:
 - undefined
 randomization:
@@ -44,10 +45,10 @@ substitutions:
       title: Spring on Ramp
       units: m
     m: 6
-    theta: 37
-    k: 100
-    us: 0.6
-    uk: 0.38
+    theta: 31
+    k: 350
+    us: 0.5
+    uk: 0.35
 ---
 # {{ params.vars.title }}
 In the figure below m = {{ params.m }} kg, $\theta$ = {{ params.theta }} $^\circ$, and k = {{ params.k }} N/m.
