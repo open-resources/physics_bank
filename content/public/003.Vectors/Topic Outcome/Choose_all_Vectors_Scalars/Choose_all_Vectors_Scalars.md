@@ -29,17 +29,17 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: Displacement
+        value: The average acceleration
       ans2:
         value: The position in a 1 dimensional system
       ans3:
-        value: Force
-      ans4:
-        value: The average velocity
-      ans5:
-        value: Temperature
-      ans6:
         value: Energy
+      ans4:
+        value: Distance travelled
+      ans5:
+        value: Work
+      ans6:
+        value: Volume
 ---
 # {{ params.vars.title }}
 
