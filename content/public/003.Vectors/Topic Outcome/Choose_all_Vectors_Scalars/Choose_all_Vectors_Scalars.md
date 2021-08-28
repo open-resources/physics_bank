@@ -29,17 +29,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Density
+        value: Entropy
       ans2:
-        value: Pressure
+        value: Distance travelled
       ans3:
-        value: Volume
+        value: The average velocity
       ans4:
-        value: Length
+        value: Momentum
       ans5:
-        value: Lift
+        value: The average acceleration
       ans6:
-        value: The position in a 1 dimensional system
+        value: Acceleration
 ---
 # {{ params.vars.title }}
 
