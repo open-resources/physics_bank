@@ -30,29 +30,29 @@ substitutions:
   params:
     vars:
       title: Magnitude and Direction of a Vector
-    A_i: 8
-    A_j_abs: 2
-    A_j_sign: ' + '
-    B_i: 6
-    B_j_abs: 3
+    A_i: 2
+    A_j_abs: 5
+    A_j_sign: ' - '
+    B_i: 8
+    B_j_abs: 6
     B_j_sign: ' + '
-    C_i: 9
-    C_j_abs: 10
+    C_i: 7
+    C_j_abs: 6
     C_j_sign: ' - '
-    d: 2
+    d: -1
     part1:
       ans1:
-        value: ($\sqrt{840}$, $\theta = $314.0$^\circ$)
+        value: ($\sqrt{190}$, $\theta = $201.0$^\circ$)
       ans2:
-        value: ($\sqrt{840}$, $\theta = $157.0$^\circ$)
+        value: ($\sqrt{190}$, $\theta = $100.5$^\circ$)
       ans3:
-        value: ($\sqrt{420.0}$, $\theta = $157.0$^\circ$)
+        value: ($\sqrt{95.0}$, $\theta = $100.5$^\circ$)
       ans4:
-        value: ($\sqrt{29.0}$, $\theta = $314.0$^\circ$)
+        value: ($\sqrt{14.0}$, $\theta = $201.0$^\circ$)
       ans5:
-        value: ($\sqrt{1260.0}$, $\theta = $157.0$^\circ$)
+        value: ($\sqrt{285.0}$, $\theta = $100.5$^\circ$)
       ans6:
-        value: ($\sqrt{1}$, $\theta = $314.0$^\circ$)
+        value: ($\sqrt{18}$, $\theta = $201.0$^\circ$)
 ---
 # {{ params.vars.title }}
 Given $\vec{A} = {{ params.A_i }} \hat{\imath} {{params.A_j_sign}} {{ params.A_j_abs}} \hat{\jmath}$, $\vec{B} = {{ params.B_i }} \hat{\imath} {{params.B_j_sign}} {{ params.B_j_abs}} \hat{\jmath}$, $\vec{C} = {{ params.C_i }} \hat{\imath} {{params.C_j_sign}} {{ params.C_j_abs}} \hat{\jmath}$ and $d={{ params.d }}$, find the magnitude and direction of $\vec{A}-\vec{B}+d\vec{C}$.

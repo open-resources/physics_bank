@@ -25,12 +25,12 @@ substitutions:
     vars:
       title: Uncertainty of Coefficient
       units: $kg/s$
-    m: 71
-    v: 1.9
-    b: 0.65
+    m: 100
+    v: 1.6
+    b: 0.6
     part1:
       ans1:
-        value: ' $\pm$ 0.13'
+        value: ' $\pm$ 0.15'
       ans2:
         value: ' $\pm$ 0.09'
       ans3:
