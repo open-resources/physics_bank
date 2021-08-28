@@ -23,19 +23,19 @@ substitutions:
   params:
     vars:
       title: Bungee Jumping
-      name: Savannah
+      name: Lorenzo
     part1:
       ans1:
-        value: The tension points up, and Savannah moves down, so negative work is
-          done.
+        value: The tension point up, and Lorenzo moves up, so positive work is done.
       ans2:
-        value: The tension point up, and Savannah moves up, so positive work is done.
+        value: The tension points up, and Lorenzo moves down, so positive work is
+          done.
       ans3:
-        value: The tension points up, and Savannah moves down, so positive work is
+        value: The tension points up, and Lorenzo moves down, so negative work is
           done.
       ans4:
-        value: The tension points down, and Savannah moves down, so negative work
-          is done.
+        value: The tension points down, and Lorenzo moves down, so negative work is
+          done.
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} decides to go bungee jumping. Starting atop a very high bridge, elastic cords are tied to their feet and {{ params.vars.name }} jumps off the bridge. Once it has fallen a certain distance, the force of the bungee cords slows their descent until {{ params.vars.name }} is at a lowest point.
