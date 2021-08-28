@@ -54,6 +54,7 @@ The figure shows a current loop consisting of two concentric circular arcs and t
 Determine the magnetic field at point P.
 
 <img src="OSUPv2p12_19.png" width=225 alt="Circular arcs of current">
+
 ## Part 1
 
 You may copy the Greek symbol Î¼0 into your symbolic expression.
@@ -61,6 +62,7 @@ You may copy the Greek symbol Î¼0 into your symbolic expression.
 Magnitude:
 
 ### Answer Section
+
 ## Part 2
 
 Direction:

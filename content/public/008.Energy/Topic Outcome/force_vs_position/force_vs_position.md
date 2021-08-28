@@ -52,14 +52,15 @@ substitutions:
       units1: m/s
       units2: m
       units3: J
-    m: 4.0
-    v: -0.5
+    m: 4.5
+    v: -3.0
 ---
 # {{ params.vars.title }}
 The graph below shows the net force on a particle as a function of its position. The mass of
 the particle is m = {{params.m}} $kg$.
 
 <img src="q15image.png" width=400 alt="Force vs position graph">
+
 ## Part 1
 
 If the particle has a velocity of $v_x =$ {{params.v}} m/s when $x =$ 0 $m$, what is the particle's speed
@@ -68,6 +69,7 @@ when $x =$ 3.0 $m$?
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units1 }}.
+
 ## Part 2
 
 At what value of x (in meters) is does the particle have the maximum kinetic energy?
@@ -75,6 +77,7 @@ At what value of x (in meters) is does the particle have the maximum kinetic ene
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units2 }}.
+
 ## Part 3
 
 What is the particle's maximum kinetic energy?

@@ -51,6 +51,7 @@ System C is a simple pulley system using two blocks.</br>
 System D is a double pulley system using one block on the left side and two blocks on the right.
 <p>Long description ends.</p>
 <div>
+
 ## Part 1
 
 In which of the figures is the tension in the rope the greatest?

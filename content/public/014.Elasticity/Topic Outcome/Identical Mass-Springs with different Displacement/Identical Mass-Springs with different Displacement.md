@@ -43,6 +43,7 @@ Both masses are free to slide along a frictionless horizontal surface.
 One of the springs is displaced a distance {{ params.d1 }} from its equilibrium position, while the other is displaced a distance {{ params.d2 }}.
 
 ![Using the same point of reference, Spring A is displaced a distance d from its equilibrium position while Spring B is displaced a distance 2d.](q8_2012Final.png)
+
 ## Part 1
 
 If both masses are released at the same instant, which of the springs, A or B, returns to its unstretched length first?

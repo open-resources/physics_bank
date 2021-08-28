@@ -104,13 +104,14 @@ part6:
     weight: 1
 substitutions:
   params:
-    R_b: '0.010'
-    R_m: '0.050'
-    R_add: '0.097'
-    V: '13.25'
+    R_b: '0.007'
+    R_m: '0.070'
+    R_add: '0.099'
+    V: '12.75'
 ---
 # {{ params.vars.title }}
 An automobile starter motor has an equivalent resistance of ${{ params.R_m }}\rm\ \Omega$ and is supplied by a ${{ params.V }}\rm\ V$ battery with a ${{ params.R_b }}\rm\ \Omega$ internal resistance.
+
 ## Part 1
 
 What is the current to the motor?
@@ -118,6 +119,7 @@ What is the current to the motor?
 ### Answer Section
 
 Please enter a numeric value.
+
 ## Part 2
 
 What voltage is applied to the motor?
@@ -125,6 +127,7 @@ What voltage is applied to the motor?
 ### Answer Section
 
 Please enter a numeric value.
+
 ## Part 3
 
 What power is supplied to the motor?
@@ -132,6 +135,7 @@ What power is supplied to the motor?
 ### Answer Section
 
 Please enter a numeric value.
+
 ## Part 4
 
 When the battery connections are corroded, its internal resistance increases by ${{ params.R_add }}\rm\ \Omega$.
@@ -142,6 +146,7 @@ What is the new current to the motor?
 ### Answer Section
 
 Please enter a numeric value.
+
 ## Part 5
 
 What is the new voltage applied to the motor?
@@ -149,6 +154,7 @@ What is the new voltage applied to the motor?
 ### Answer Section
 
 Please enter a numeric value.
+
 ## Part 6
 
 What is the new power supplied to the motor?

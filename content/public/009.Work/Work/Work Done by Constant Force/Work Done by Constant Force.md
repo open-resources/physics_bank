@@ -58,8 +58,8 @@ substitutions:
     vars:
       title: Work Done by a Constant Force
       units: $J$
-    F: 5.62
-    r: 4.67
+    F: 40.6
+    r: 2.87
 ---
 # {{ params.vars.title }}
 Calculate the work done by a constant force of magnitude $F = $ {{ params.F }} $N$ applied over a displacement of magnitude $\Delta r = $ {{ params.r }} $m$ for all four of the diagrams.
@@ -74,6 +74,7 @@ Figure c shows the force acting parallel to the displacement and in the same dir
 Figure d shows the force acting parallel to the displacement but in the opposite direction.</br>
 <p>Long description ends.</p>
 <div>
+
 ## Part 1
 
 Calculate the work done for Figure (a).
@@ -81,6 +82,7 @@ Calculate the work done for Figure (a).
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
+
 ## Part 2
 
 Calculate the work done for Figure (b).
@@ -88,6 +90,7 @@ Calculate the work done for Figure (b).
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
+
 ## Part 3
 
 Calculate the work done for Figure (c).
@@ -95,6 +98,7 @@ Calculate the work done for Figure (c).
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
+
 ## Part 4
 
 Calculate the work done for Figure (d).

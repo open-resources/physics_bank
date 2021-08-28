@@ -25,8 +25,8 @@ substitutions:
   params:
     vars:
       title: Cat in a Laundry Basket
-    w: 28
-    h: 62
+    w: 30
+    h: 58
     part1:
       ans1:
         value: $\Delta t_1 >\Delta t_3 >\Delta t_2$ and $v_{x1} > v_{x2}$
@@ -53,6 +53,7 @@ Trajectory 2 has the lowest peak and the second largest range. <br>
 Trajectory 3 has the second highest peak and the largest range. <br>
 <p>Long description ends.</p>
 <div>
+
 ## Part 1
 
 Rank the time in the air ($\Delta t_1, \Delta t_2, \Delta t_3$ respectively) of the cat on each path and the relative sizes of the $x-$components of the velocity vectors for paths 1 ($v\_{x1}$) and 2 ($v\_{x2}$).

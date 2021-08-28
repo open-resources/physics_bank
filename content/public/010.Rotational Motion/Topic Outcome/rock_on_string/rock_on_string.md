@@ -26,23 +26,24 @@ substitutions:
     vars:
       title: Rock on a String
       units: m/s
-    m: 0.25
-    r: 37
-    T: 200
+    m: 0.5
+    r: 90
+    T: 300
     part1:
       ans1:
-        value: 172.0
+        value: 232.0
       ans2:
-        value: 162.0
+        value: 222.0
       ans3:
-        value: 132.0
+        value: 174.0
       ans4:
-        value: 152.0
+        value: 212.0
       ans5:
-        value: 192.0
+        value: 252.0
 ---
 # {{ params.vars.title }}
 A child ties a {{params.m}} kg rock to the end of a string and whirls it at a constant speed in a horizontal circle of radius {{params.r}} cm.
+
 ## Part 1
 
 What, approximately, is the maximum speed at which the rock may be whirled if the string will break when the tension exceeds {{params.T}} N?

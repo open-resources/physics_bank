@@ -37,6 +37,7 @@ substitutions:
         value: Period
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 Which of the following quantities is at a maximum when an object in simple harmonic motion is at its maximum displacement?

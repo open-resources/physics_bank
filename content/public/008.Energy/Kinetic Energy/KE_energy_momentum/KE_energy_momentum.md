@@ -40,6 +40,7 @@ substitutions:
           and the earth is a CLOSED system.
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 Which of the following statements is/are true?

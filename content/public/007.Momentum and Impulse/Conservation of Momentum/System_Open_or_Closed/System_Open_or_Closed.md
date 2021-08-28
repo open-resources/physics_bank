@@ -26,10 +26,10 @@ substitutions:
   params:
     vars:
       title: System Open or Closed
-      vehicle: bus
+      vehicle: pickup truck
       units: kg
-    i_a: 60
-    i_b: 339
+    i_a: 129
+    i_b: 260
     part1:
       ans1:
         value: Yes, because the two carts are on a track with no friction.
@@ -46,6 +46,7 @@ Two {{ params.vars.vehicle }}s collide on a track, {{ params.vars.vehicle }}  A 
 The following diagram shows the velocity of each {{ params.vars.vehicle }} as a function of time.
 
 ![A velocity versus time graph where {{ params.vars.vehicle }} A has an initial velocity of 8 meters per second and {{ params.vars.vehicle }} B has an initial velocity of 1 meter per second. The two {{ params.vars.vehicle }}s collide at around 4 seconds. The velocity of {{ params.vars.vehicle }} A decreases to 2 meters per second and the velocity of {{ params.vars.vehicle }} B increases to 5 meters per second.](Q3.png)
+
 ## Question Text
 
 Is the system isolated? Why or why not?

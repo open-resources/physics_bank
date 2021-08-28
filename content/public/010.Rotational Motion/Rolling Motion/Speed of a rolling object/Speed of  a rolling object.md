@@ -53,7 +53,7 @@ substitutions:
     vars:
       title: Speed of a Rolling Object
       units: $m/s$
-    h: 7.2
+    h: 21.5
 ---
 # {{ params.vars.title }}
 One end of a massless string is attached to a massless axle that passes through the centre of mass of an object (mass $m$) that has a circular cross-section (radius $R$)  and  rolls  without  slipping  up  the  incline.
@@ -66,6 +66,7 @@ The  string  passes  over a massless, frictionless pulley and a block (also of m
 An object with a circular cross-section rolls up a thirty-degree incline (to the horizontal).  This object is attached to a string which passes  over a massless, frictionless pulley and a block of mass m is suspended from the opposite end of the string. The whole setup forms a right-angle triangle with the opposite side on the right.
 <p>Long description ends.</p>
 <div>
+
 ## Part 1
 
 Find the rolling object's speed assuming that it is a solid sphere.
@@ -73,6 +74,7 @@ Find the rolling object's speed assuming that it is a solid sphere.
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
+
 ## Part 2
 
 Find the rolling object's speed assuming that it is a hollow sphere.
@@ -80,6 +82,7 @@ Find the rolling object's speed assuming that it is a hollow sphere.
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
+
 ## Part 3
 
 Find the rolling object's speed assuming that it is a solid cylinder.

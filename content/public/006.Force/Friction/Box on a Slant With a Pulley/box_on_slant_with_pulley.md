@@ -32,8 +32,8 @@ substitutions:
     vars:
       title: Box on a Slant with a Pulley
       units: $kg$
-    theta: 35
-    mu: 0.4
+    theta: 14
+    mu: 0.9
     m: 10
 ---
 # {{ params.vars.title }}
@@ -42,6 +42,7 @@ The coefficient of static friction between the block and the sloped surface is {
 It is connected via a massless string over a massless, frictionless pulley to a hanging block of mass {{params.m}} $kg$.
 
 <img src="Q4.png" width=300 alt = "A box sits on a ramp that is at an angle theta from the horizontal. The box is connected by a rope to another mass that hangs freely from a pulley.">
+
 ## Question Text
 
 What is the _minimum_ value of $m$ such that the system remains at rest?

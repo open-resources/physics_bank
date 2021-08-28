@@ -51,6 +51,7 @@ substitutions:
 ---
 # {{ params.vars.title }}
 An immersion heater is a small appliance used to heat a cup of water for tea by passing current through a resistor.
+
 ## Part 1
 
 If the voltage applied to the appliance is doubled, by how much will the time required to heat the water change?
@@ -62,6 +63,7 @@ If the voltage applied to the appliance is doubled, by how much will the time re
 - {{ params.part1.ans3.value}}
 - {{ params.part1.ans4.value}}
 - {{ params.part1.ans5.value}}
+
 ## Part 2
 
 Is making this change a good idea?

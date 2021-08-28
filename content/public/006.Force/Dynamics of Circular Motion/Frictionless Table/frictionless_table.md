@@ -32,6 +32,7 @@ substitutions:
       title: Rotation on a Frictionless Table
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 Mass $m_1$ on the $horizontal$ frictionless table of the figure is connected by a string through a hole in the table to a hanging mass $m_2$. With what angular speed $\omega$ must $m_1$ rotate in a circle of radius $r$ if $m_2$ is to remain hanging at rest? Find an expression for $\omega$ in terms of $m_1$, $m_2$, $r$, and $g$.

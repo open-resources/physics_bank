@@ -37,8 +37,8 @@ part1:
     atol: 0
 substitutions:
   params:
-    sig: '24'
-    d: '4.1'
+    sig: '26'
+    d: '4.0'
     particle: A proton
     particle1: proton
     p1: positive
@@ -47,6 +47,7 @@ substitutions:
 # {{ params.vars.title }}
 Two large plates of charge density ${{ params.sig }}\rm\ \mu C/m^2$ face each other at a separation of ${{ params.d }} \textrm{ mm}$.
 {{ params.particle }} is released from rest at the {{ params.p1 }} plate.
+
 ## Question Text
 
 With what speed does the {{ params.particle1 }} strike the {{ params.p2 }} plate?

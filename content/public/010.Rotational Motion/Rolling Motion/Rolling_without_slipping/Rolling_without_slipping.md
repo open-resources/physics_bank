@@ -42,6 +42,7 @@ substitutions:
 # {{ params.vars.title }}
 Suppose I have a sphere (made of solid wood), and a hoop made of heavy metal; and both have the SAME MASS, and both have the SAME RADIUS.
 I decide to race the two of them, and let them roll from rest down a flat ramp.
+
 ## Part 1
 
 Which one of them will reach the bottom first?

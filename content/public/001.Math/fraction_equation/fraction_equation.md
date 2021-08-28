@@ -25,21 +25,22 @@ substitutions:
   params:
     vars:
       title: Rational Equation
-    x1: 2
-    x2: 8
-    x3: 2
-    x4: 6
+    x1: 1
+    x2: 1
+    x3: 9
+    x4: 7
     part1:
       ans1:
-        value: -22/9
+        value: 1/9
       ans2:
-        value: 2/9
+        value: -31/9
       ans3:
-        value: '-22'
+        value: -1/7
       ans4:
-        value: -2/9
+        value: 31/9
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 Solve the equation: $\frac{x-{{ params.x1}}}{x+{{ params.x2 }}} = \frac{x+{{ params.x3}}}{x-{{ params.x4 }}}$

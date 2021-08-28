@@ -40,14 +40,15 @@ substitutions:
   params:
     vars:
       title: Accelerating electrons
-    E: '3.60'
-    p: '6'
+    E: '1.00'
+    p: '5'
 ---
 # {{ params.vars.title }}
 A simple and common technique for accelerating electrons is shown in the figure, where there is a uniform electric field between two plates.
 Electrons are released from rest, usually from a hot filament, near the negative plate, and there is a small hole in the positive plate that allows the electrons to pass through it.
 
 <img src="OSUPv2p7_70.png" width=200 alt="Electron between charged plates">
+
 ## Question Text
 
 Calculate the acceleration of the electron if the field strength  is ${{ params.E }}\times 10^{{ params.p }}\textrm{ N/C}$.

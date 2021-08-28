@@ -23,28 +23,29 @@ part1:
 substitutions:
   params:
     vars:
-      name: Aliyah
+      name: Maya
       vehicle: a bicycle
       units: m
       title: Distance travelled
-    v: 4
-    t: 9
+    v: 2
+    t: 5
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 36
+        value: 10
       ans3:
-        value: 13
+        value: 7
       ans4:
-        value: 0.44
+        value: 0.4
       ans5:
-        value: -5
+        value: -3
       ans6:
-        value: -6.5
+        value: -3.9
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is traveling on {{ params.vars.vehicle }} at {{ params.v }} {{ params.vars.units }}.
+
 ## Part 1
 
 How far does {{ params.vars.name }} travel in {{ params.t }} seconds, assuming they continue at the same velocity?

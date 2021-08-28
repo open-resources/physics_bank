@@ -44,14 +44,15 @@ part1:
 substitutions:
   params:
     n: '25'
-    r: '2.40'
-    v: '1.50'
-    p: '5'
+    r: '1.70'
+    v: '2.30'
+    p: '4'
 ---
 # {{ params.vars.title }}
 A solenoid with ${{ params.n }}$ turns per centimter carries a current $I$.
 An electron moves within the solenoid in a circle of radius ${{ params.r}}\textrm{ cm}$.
 The plane of the circular motion is perpendicular to the axis of the solenoid.The speed of the electron is ${{ params.v }}\times 10^{ {{ params.p }} }\textrm{ m/s}$.
+
 ## Question Text
 
 What is the current $I$ in the solenoid?

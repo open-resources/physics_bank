@@ -26,24 +26,25 @@ substitutions:
     vars:
       title: Force and Displacement
       units: J
-    f1: -2
-    f2: 15
-    r1: 2
-    r2: -18
+    f1: -12
+    f2: 2
+    r1: 18
+    r2: -8
     part1:
       ans1:
-        value: -274
+        value: -232
       ans2:
-        value: 274
+        value: 232
       ans3:
-        value: 266
+        value: -200
       ans4:
-        value: -266
+        value: 200
       ans5:
         value: Zero
 ---
 # {{ params.vars.title }}
 A constant force of $\vec{F}$  = ( {{params.f1}} $\hat{\imath}$ + {{params.f2}} $\hat{\jmath}$ ) N acts on an object during a displacement of $$\Delta$$ $\vec{r}$ = ({{params.r1}} $\hat{\imath}$  {{params.r2}} $\hat{\jmath}$ ) m.
+
 ## Part 1
 
 What is the object's change in kinetic energy?

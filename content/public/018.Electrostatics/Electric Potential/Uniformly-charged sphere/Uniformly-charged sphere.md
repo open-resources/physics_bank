@@ -32,7 +32,7 @@ substitutions:
   params:
     vars:
       title: Uniformly-charged sphere
-    same: the same as
+    same: different than
     part1:
       ans1:
         value: The region of space inside the sphere.
@@ -40,6 +40,7 @@ substitutions:
         value: The region of space outside the sphere.
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 In what region of space is the potential due to a uniformly-charged sphere {{params.same}} that of a point charge?

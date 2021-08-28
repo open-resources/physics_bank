@@ -42,6 +42,7 @@ substitutions:
         value: 'False'
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 The net electric flux crossing a closed surface is always zero.

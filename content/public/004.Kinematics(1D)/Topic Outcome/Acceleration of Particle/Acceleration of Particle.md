@@ -60,13 +60,14 @@ substitutions:
       title: Acceleration of a Particle
       unit1: $s$
       unit2: $m/s^2$
-    c1: 3
-    c2: 3
-    c3_abs: 34
-    c3_sign: ' + '
+    c1: 4
+    c2: 10
+    c3_abs: 3
+    c3_sign: ' - '
 ---
 # {{ params.vars.title }}
 The position of a particle is given by the function $x = ({{ params.c1 }}t^3 -{{ params.c2 }}t^2 {{ params.c3_sign }} {{ params.c3_abs }})$ m where $t$ is in seconds.
+
 ## Part 1
 
 At what time or times is $v_x = 0$ $m/s$? Enter $t_1$, the smallest of the values (if there is more than one).
@@ -74,6 +75,7 @@ At what time or times is $v_x = 0$ $m/s$? Enter $t_1$, the smallest of the value
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.unit1 }}.
+
 ## Part 2
 
 At what time or times is $v_x = 0$ $m/s$? Enter $t_2$, the next value. If there is none, enter -1000.
@@ -81,6 +83,7 @@ At what time or times is $v_x = 0$ $m/s$? Enter $t_2$, the next value. If there 
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.unit1 }}.
+
 ## Part 3
 
 What are the particle's accelerations at this/these time(s)? Enter $a_1$, the acceleration corresponding to $t_1$.
@@ -88,6 +91,7 @@ What are the particle's accelerations at this/these time(s)? Enter $a_1$, the ac
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.unit2 }}.
+
 ## Part 4
 
 What are the particle's accelerations at this/these time(s)? Enter $a_2$, the acceleration corresponding to $t_2$. If there is none, enter -1000.

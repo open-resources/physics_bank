@@ -28,22 +28,23 @@ substitutions:
     vars:
       title: Object Swung in Circular Path
       units: N
-    m: 1.94
-    r: 3.14
-    w: 1
+    m: 1.53
+    r: 3.28
+    w: 6
     part1:
       ans1:
-        value: -12.92
+        value: 165.67
       ans2:
-        value: -53.61
+        value: 131.48
       ans3:
-        value: 6.09
+        value: 180.66
       ans4:
         value: 19.6
 ---
 # {{ params.vars.title }}
 A {{params.m}} kg object attached to the end of a string of length {{params.r}} m is swung in a circular path
 and in a vertical plane.
+
 ## Part 1
 
 If a constant angular speed of {{params.w}} rad/s is maintained, what is the magnitude of the tension in the string when the object is at the top of the circular path?

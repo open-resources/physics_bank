@@ -67,6 +67,7 @@ $$v = \sqrt{\frac{gd}{2cos(\theta)sin(\theta)}}$$
 Suppose that, with h = 0, you and your lab partner make 30 measurements of d.
 You then determine that the average and standard deviation of your 30 measurements were $\bar{d}$ = {{params.d}} m
 and $\sigma$= {{params.s}} m, respectively.
+
 ## Part 1
 
 If g = 9.81 $\frac{m}{s^2}$ and $\theta$ = {{params.theta}}, what is the launch speed $v_o$?
@@ -74,6 +75,7 @@ If g = 9.81 $\frac{m}{s^2}$ and $\theta$ = {{params.theta}}, what is the launch
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units1}}.
+
 ## Part 2
 
 What is the uncertainty in your measured value of d?
@@ -81,6 +83,7 @@ What is the uncertainty in your measured value of d?
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units2}}.
+
 ## Part 3
 
 What is the uncertainty in the value of $v_0$ that you determined? For this problem, assume that the launch angle is known to very high accuracy, such that its uncertainty can be neglected.

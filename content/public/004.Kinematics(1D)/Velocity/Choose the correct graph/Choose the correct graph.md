@@ -45,6 +45,7 @@ substitutions:
 The figure shows the graph of the position $x$ as a function of time for an object moving in a straight line (along the $x$-axis).
 
 ![Figure of a position-time graph which starts at a negative y-value and which increases at a decreasing rate.](q3_2012Mid1_002.png)
+
 ## Part 1
 
 Which of the following graphs best describes the velocity along the $x$-axis as a function of time for this object?

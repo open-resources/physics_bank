@@ -34,15 +34,16 @@ substitutions:
     vars:
       title: Falling Bucket
       units: m/s
-    m_b: 18.9
-    m_c: 5.18
-    h: 34.3
-    r: 47.2
+    m_b: 21.3
+    m_c: 3.05
+    h: 13.4
+    r: 56.9
 ---
 # {{ params.vars.title }}
 A bucket of mass $m_b$ = {{ params.m_b }} $kg$ is knocked off the side of a well.  The bucket falls {{ params.h }} $m$ to the bottom of the well.  Attached to the bucket is a light rope that wraps around a cylinder of radius $r = $ {{ params.r}} $cm$ and mass $m_c$ = {{ params.m_c }} $kg$.
 
 ![](q17_2015Final.png)
+
 ## Question Text
 
 How fast is the bucket falling just before it hits the ground?

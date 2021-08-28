@@ -42,15 +42,16 @@ substitutions:
       title: Ball Bouncing off a Wall
       units1: "$\frac{kg*m}{s}$"
       units2: $N$
-    m: 4
-    v: 2
-    theta: 61
-    t: 0.213
+    m: 5
+    v: 10
+    theta: 46
+    t: 0.602
 ---
 # {{ params.vars.title }}
 A {{params.m}} kg steel bass strikes a massive wall at {{params.v}} m/s at an angle of {{params.theta}} with the plane of the wall. It bounces off of the wall with the same speed and angle (see the figure).
 
 <img src="q6.png" width=400 alt="Ball bouncing on then off a wall at angle theta">
+
 ## Part 1
 
 What is the x-component of the impulse that the wall exerts on the ball during the collision?
@@ -58,6 +59,7 @@ What is the x-component of the impulse that the wall exerts on the ball during t
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units1 }}.
+
 ## Part 2
 
 If the ball is in contact with the wall for 0.200 s, what is the average force that the wall exerts on the ball during the collision?

@@ -58,15 +58,15 @@ substitutions:
       title: Terminal Velocity of a Coffee Filter
       unit1: $m/s$
       unit2: $kg/s$
-    m: 1
-    d_m: 49
-    sd: 0.065
-    v1: 0.97
+    m: 4
+    d_m: 54
+    sd: 0.078
+    v1: 0.94
     v2: 0.83
     v3: 0.92
-    v4: 0.8
-    v5: 0.79
-    v6: 0.88
+    v4: 0.78
+    v5: 0.83
+    v6: 0.71
 ---
 # {{ params.vars.title }}
 In one of the PHYS 111 labs you measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling  through  the  air.   In  equilibrium,  the  drag  force  acting  on  the  coffee  filter  exactly balances the gravitational force on the filter such that:
@@ -87,6 +87,7 @@ Suppose that the following six measurements of a coffee filter's terminal veloci
 | 6   |   {{ params.v6 }}      |
 
 The standard deviation of this data set is {{ params.sd }} $m/s$.
+
 ## Part 1
 
 Use the experimental data to determine the uncertainty in the average value of the terminal velocity.  State your answer using the appropriate number of significant figures.
@@ -94,6 +95,7 @@ Use the experimental data to determine the uncertainty in the average value of t
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.unit1 }}.
+
 ## Part 2
 
 Use the experimental data to determine the average value of the terminal velocity.  State your answer using the appropriate number of significant figures.
@@ -101,6 +103,7 @@ Use the experimental data to determine the average value of the terminal velocit
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.unit1 }}.
+
 ## Part 3
 
 If the coffee filter has a mass of $m = $ {{ params.m }} $\pm$ {{ params.d_m }} $g$, determine the value of the uncertainty in the drag coefficient $b$.  State your answer using the appropriate number of significant figures. Assume that $g= 9.81 kg/s$ and has negligible uncertainty.
@@ -108,6 +111,7 @@ If the coffee filter has a mass of $m = $ {{ params.m }} $\pm$ {{ params.d_m }} 
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.unit2 }}.
+
 ## Part 4
 
 If the coffee filter has a mass of $m = $ {{ params.m }} $\pm$ {{ params.d_m }} $g$, determine the value of the drag coefficient $b$.  State your answer using the appropriate number of significant figures. Assume that $g= 9.81 kg/s$ and has negligible uncertainty.

@@ -42,6 +42,7 @@ substitutions:
 A mass, $m$, tied to the end of a string is swung **horizontally** on a frictionless surface, executing uniform circular motion as shown in Fig. 1.
 
 ![Figure 1. Taking one end of the string as the origin of a Cartesian plane, a mass is atatched to the other end and swung anti-clockwise.](Q3.png)
+
 ## Part 1
 
 When the string returns to parallel to the $x$-axis, it is cut in half by a very sharp knife. The subsequent motion of the mass is:

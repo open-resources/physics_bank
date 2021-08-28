@@ -25,7 +25,7 @@ substitutions:
   params:
     vars:
       title: Box in a Truck Bed 2
-      vehicle: van
+      vehicle: truck
       direction: positive
     part1:
       ans1:
@@ -44,6 +44,7 @@ substitutions:
 # {{ params.vars.title }}
 A {{params.vars.vehicle}} is approaching a stop-light as it drives down the road moving in the {{params.vars.direction}} direction.
 There is a box in the back of the {{params.vars.vehicle}} which, according to the driver, stays IN PLACE the whole time until the {{params.vars.vehicle}} has come to a complete stop.
+
 ## Part 1
 
 What type of friction is acting the box?

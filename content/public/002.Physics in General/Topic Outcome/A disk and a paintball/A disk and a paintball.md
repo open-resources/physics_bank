@@ -54,14 +54,15 @@ substitutions:
       title: Distance travelled
       unit1: $J$
       unit2: $m/s$
-    m_d: 0.076
+    m_d: 0.073
     m_b: 0.045
-    v: 7.7
+    v: 11.0
 ---
 # {{ params.vars.title }}
 A {{ params.m_d }} $kg$ disk initially at rest in the Earth reference frame is free to move parallel to a horizontal bar through a hole in the disk's centre. The disk is struck face-on by a {{ params.m_b }} $kg$ paintball traveling at {{ params.v }} $m/s$.
 
 ![Figure of a paintball travelling to the right hitting a disk which has a horizontal bar going through its centre.](2017Mid2S002Q6.png)
+
 ## Part 1
 
 According to an observer in the Earth reference frame, what is the change in the system's kinetic energy after the ball hits the disk? Take the system to be the paintball and the disk and assume that after the collision all of the paint from the paintball sticks to the disk.
@@ -69,6 +70,7 @@ According to an observer in the Earth reference frame, what is the change in the
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.unit1 }}.
+
 ## Part 2
 
 Before the paintball hits the disk, what is the velocity of the system's zero-momentum reference frame relative to the Earth reference frame?
@@ -76,6 +78,7 @@ Before the paintball hits the disk, what is the velocity of the system's zero-mo
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.unit2 }}.
+
 ## Part 3
 
 What would an observer in the zero-momentum reference frame measure for the system's change in kinetic energy?

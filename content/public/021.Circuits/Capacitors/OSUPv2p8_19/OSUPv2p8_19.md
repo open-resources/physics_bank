@@ -38,10 +38,11 @@ substitutions:
   params:
     vars:
       title: Charge Stored in a Capacitor
-    c: '115'
-    v: '195'
+    c: '120'
+    v: '170'
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 What charge is stored in a ${{params.c }} \rm\ \mu\textrm{F}$ capacitor when ${{params.v }}\textrm{ V}$ is applied to it?

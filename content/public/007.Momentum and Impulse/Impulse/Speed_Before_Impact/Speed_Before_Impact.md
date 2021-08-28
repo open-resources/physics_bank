@@ -28,16 +28,16 @@ substitutions:
       title: Speed Before Impact
       vehicle: sedan
       units: $m/s$
-    m: 563
+    m: 536
     part1:
       ans1:
-        value: 96.0
+        value: 101.0
       ans2:
-        value: 48.0
+        value: 50.0
       ans3:
-        value: 24.0
+        value: 25.0
       ans4:
-        value: 12.0
+        value: 13.0
       ans5:
         value: 0
 ---
@@ -46,6 +46,7 @@ The figure below shows the force on a {{ params.vars.vehicle }} during a typical
 The mass of the {{ params.vars.vehicle }} is {{ params.m }} $kg$ and it comes to rest at the end of the collision.
 
 <img src="Q4.png" alt= " A graph of force in the unit of 10 sub 5 newtons, and time in ms. The graph shows a grid of boxes covering the graph and a curve. There are approximately 27 boxes under the curve." width= 400>
+
 ## Part 1
 
 What was the *approximate* speed of the car just before the impact? Choose the best answer.

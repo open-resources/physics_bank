@@ -45,6 +45,7 @@ The figure below shows a mass attached to a string.
 The mass is being swung in a horizontal circle in the clockwise direction when the string is suddenly cut by a pair of scissors.
 
 <img src="Q9.png" alt="The image depicts the circle with the mass attached swinging in a clockwise motion. The string is being cut when mass is a spot that is equivalent to 5 o'clock. Choice A shows that the trajectory of the mass will be diagonally downwards. Choice B shows that the trajectory will be horizontal to the right. Choice C shows that the trajectory will be to the right but will have a curved shaped where the mass will go up slightly before curving back down. Choice D shows that the trajectory will be diagonally upwards. Choice E shows that the trajectory will swing up and curve towards a counter clockwise direction. Choice F shows that the trajectory of the mass will swing vertically upwards. " width=400>
+
 ## Part 1
 
 which of the arrows shows the trajectory that the mass follows after the string is cut?

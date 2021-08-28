@@ -31,14 +31,15 @@ substitutions:
     vars:
       title: Block on a Wall
       units: N
-    theta: 70
-    m: 5
-    mu: 0.372
+    theta: 51
+    m: 6
+    mu: 0.334
 ---
 # {{ params.vars.title }}
 A {{params.m}} kg wood block slides down a vertical wall while you push on it at a {{params.theta}} $^\circ$ angle.
 
 <img src="q5.png" width=400 alt="Box pushed against a wall by a force at angle theta">
+
 ## Question Text
 
 What magnitude force should you apply to cause the block to slide down at constant speed? The coefficient of kinetic friction is $\mu_k$ = {{params.mu}}.

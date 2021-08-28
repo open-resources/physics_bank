@@ -24,23 +24,24 @@ substitutions:
   params:
     vars:
       title: Minimum Coefficient Of Static Friction
-      vehicle: van
-    r: 71
-    v: 25
+      vehicle: sedan
+    r: 87
+    v: 11
     part1:
       ans1:
-        value: 1.1
+        value: 7.1
       ans2:
-        value: 0.9
+        value: 0.14
       ans3:
-        value: 8.8
+        value: 1.4
       ans4:
-        value: 0.036
+        value: 0.013
       ans5:
-        value: 0.35
+        value: 0.13
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }} drives around a flat curve with radius $r$ = {{params.r}} $m$ at a speed of $v$ = {{params.v}} $\frac{m}{s}$.
+
 ## Part 1
 
 What is the minimum coefficient of static friction required to keep the car from slipping?

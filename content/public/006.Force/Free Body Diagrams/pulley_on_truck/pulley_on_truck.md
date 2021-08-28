@@ -44,6 +44,7 @@ substitutions:
 A truck moving at a constant velocity has a mass $m_1$ in its back connected by a massless frictionless pulley to a hanging mass $m_2$ as shown in the image.
 
 <img src="q4image.png" alt = "Truck moving to the right with a mass in the truck bed, connected by a pulley to a hanging mass. Multiple choice options: a) straight down, b) to the left, c) down and to the right, d) to the right, e) down and to the left" style="width:300px">
+
 ## Part 1
 
 What direction is the acceleration of the mass $m_2$? (You may assume that the force of friction between the mass $m_1$ and the back of the truck is negligible).

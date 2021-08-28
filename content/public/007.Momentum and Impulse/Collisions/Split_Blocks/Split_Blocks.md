@@ -35,15 +35,16 @@ substitutions:
     vars:
       title: Split Blocks
       units: $J$
-    m: 7
-    m_a: 3
-    m_b: 4
-    v_a: 5.8
+    m: 6
+    m_a: 4
+    m_b: 2
+    v_a: 5.7
 ---
 # {{ params.vars.title }}
 A {{params.m}} $kg$ block is initially at rest on a sheet of ice.
 An internal explosion occurs, splitting the object into two pieces of masses $m_A$ = {{params.m_a}} $kg$ and $m_B$ = {{params.m_b}} $kg$.
 After the explosion, block A is measured to have a velocity of $\vec{v}\_A$ = {{params.v_a}} $m/s$
+
 ## Question Text
 
 Assuming that there's no friction, how much energy did the explosion release?

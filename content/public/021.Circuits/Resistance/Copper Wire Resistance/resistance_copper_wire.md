@@ -38,10 +38,11 @@ substitutions:
     vars:
       title: Resistance Of A Copper Wire
       units: Ohms
-    d: 9.143
-    l: 9.7
+    d: 7.055
+    l: 15.9
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 The diameter of copper wire is {{params.d}} $\textrm{mm}$.

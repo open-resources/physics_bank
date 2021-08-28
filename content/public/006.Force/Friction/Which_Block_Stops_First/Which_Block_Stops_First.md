@@ -39,6 +39,7 @@ substitutions:
 Two blocks, $M_1$ \< $M_2$, having the same initial speed, move from a frictionless surface onto a surface having a coefficient of kinetic friction $\mu_k$.
 
 <img src="Q7.png" alt="Image depicting two blocks on separate surfaces. M1 is smaller than M2." width=400>
+
 ## Part 1
 
 Which stops in a shorter distance?

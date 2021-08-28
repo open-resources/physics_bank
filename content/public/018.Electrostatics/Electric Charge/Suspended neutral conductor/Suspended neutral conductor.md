@@ -43,6 +43,7 @@ substitutions:
         value: unaffected by the rod
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 An uncharged conducting sphere is suspended from the ceiling as shown in the figure.

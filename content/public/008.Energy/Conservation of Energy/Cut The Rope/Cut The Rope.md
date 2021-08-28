@@ -35,9 +35,9 @@ substitutions:
     vars:
       title: Cut The Rope
       units: m
-    l: 0.6
-    theta_0: 42
-    theta_c: 23
+    l: 0.5
+    theta_0: 44
+    theta_c: 24
 ---
 # {{ params.vars.title }}
 In the mobile app "Cut the Rope", a mass (of candy) swings on a rope and the game player selects a point to cut the rope so it lands in a cute little monster's mouth.
@@ -49,6 +49,7 @@ The surface is at the same height as the mass when the rope is cut.
 The figure below shows the situation described above.
 
 ![A mass is suspended from a fixed pivot point by a massless string of length L. It is displaced to the left at an angle theta naught from equilibrium.  After swinging through its lowest point, the rope is then cut on the right at an angle theta cut. The mass lands on a surface at the same height as the mass when the rope is cut. ](q11_2012Final.png)
+
 ## Question Text
 
 After the string is cut, how far does the candy travel in the horizontal direction?

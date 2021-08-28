@@ -53,16 +53,17 @@ substitutions:
       title: Ropes and Blocks
       units1: "$\frac{m}{s^2}$"
       units2: N
-    m_a: 3
-    m_b: 3
-    m_c: 2
-    f_a: 35
+    m_a: 2
+    m_b: 4
+    m_c: 3
+    f_a: 30
 ---
 # {{ params.vars.title }}
 Assume the three blocks portrayed in the figure move on a frictionless surface and a {{params.f_a}} N force
 acts as shown on block C. The masses of the blocks are as follows: $m_a$ = {{params.m_a}} kg, $m_b$ = {{params.m_b}} kg, $m_c$ = {{params.m_c}} kg.
 
 ![Blocks A, B and C, with force F_a pulling on them](q13image.png)
+
 ## Part 1
 
 a) Determine the acceleration of block C.
@@ -70,6 +71,7 @@ a) Determine the acceleration of block C.
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units1 }}.
+
 ## Part 2
 
 b) Determine the magnitude of the tension in the cord connecting block C and block A.
@@ -77,6 +79,7 @@ b) Determine the magnitude of the tension in the cord connecting block C and blo
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units2 }}.
+
 ## Part 3
 
 c) Determine the force exerted by the block B on the block A.

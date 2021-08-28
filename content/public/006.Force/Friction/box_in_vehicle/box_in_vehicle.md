@@ -25,7 +25,7 @@ substitutions:
   params:
     vars:
       title: Box in a Vehicle
-      vehicle: semi-truck
+      vehicle: sedan
       direction: positive
     part1:
       ans1:
@@ -41,6 +41,7 @@ substitutions:
 A {{params.vars.vehicle}} is at a stop-light, with a box sitting in the back.
 When the light turns green, the driver accelerates too fast in the {{params.vars.direction}} x-direction.
 From the perspective of the driver, the box slides backwards as they accelerate.
+
 ## Part 1
 
 What type of friction is affecting the box and which direction is the friction force pointing from the perspective of a pedestrian watching the {{params.vars.vehicle}} (and box) go past?

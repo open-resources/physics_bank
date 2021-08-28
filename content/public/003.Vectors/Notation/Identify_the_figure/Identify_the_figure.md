@@ -39,6 +39,7 @@ substitutions:
         value: e
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 Which figure shows $2 \overrightarrow{A} - \overrightarrow{B}$?

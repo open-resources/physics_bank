@@ -41,6 +41,7 @@ string breaks when $\theta$ = 0. Stewie observes that the rock reaches a maximum
 | $r$  | r  |
 
 <img src="Q4.png" width = 400px alt="Stewie is seen swinging a rock on a string of length r, which is at an angle theta from horizontal. The rock reaches a height h once the string breaks.">
+
 ## Part 1
 
 Find an expression for $\omega$ in terms of $h$, $r$, and the gravitational acceleration $g$.

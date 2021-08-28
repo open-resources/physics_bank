@@ -24,7 +24,7 @@ substitutions:
   params:
     vars:
       title: Vehicle Speed
-      vehicle: van
+      vehicle: pickup truck
     part1:
       ans1:
         value: constant
@@ -40,6 +40,7 @@ substitutions:
 # {{ params.vars.title }}
 A person is initially driving a {{params.vars.vehicle}} east down a straight road.
 The magnitude of the instantaneous acceleration is decreasing with time, but the direction of the acceleration is always to the east.
+
 ## Part 1
 
 The speed of the car is:

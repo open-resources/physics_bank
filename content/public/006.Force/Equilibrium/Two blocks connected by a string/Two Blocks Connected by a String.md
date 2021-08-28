@@ -43,6 +43,7 @@ substitutions:
         value: 11
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 Two blocks are arranged as shown and kept at rest by holding the {{ params.m1 }} kg block in place.

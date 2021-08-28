@@ -42,6 +42,7 @@ substitutions:
         value: $g \over 2$
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 A length of massless thread is wound around a spool of mass $M$ and radius $R$.

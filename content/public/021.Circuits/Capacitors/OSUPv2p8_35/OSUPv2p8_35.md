@@ -51,11 +51,12 @@ substitutions:
   params:
     vars:
       title: Connecting Capacitors
-    a: '12'
-    b: '5'
+    a: '13'
+    b: '12'
 ---
 # {{ params.vars.title }}
 You have a ${{params.a }} \rm\ \mu\textrm{F}$ capacitor and a ${{params.b }} \rm\ \mu\textrm{F}$ capacitor.
+
 ## Part 1
 
 What is the equivalent capacitance acquired by connecting these capacitors in series?
@@ -63,6 +64,7 @@ What is the equivalent capacitance acquired by connecting these capacitors in se
 ### Answer Section
 
 Please enter a numeric value.
+
 ## Part 2
 
 What is the equivalent capacitance acquired by connecting these capacitors in parallel?

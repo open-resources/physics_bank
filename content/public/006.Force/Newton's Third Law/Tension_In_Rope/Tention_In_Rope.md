@@ -36,6 +36,7 @@ substitutions:
 ---
 # {{ params.vars.title }}
 <img src="Q10.png" alt= "Rope 1 depicts a single individual pulling on a rope, exerting 100N force on the rope. Rope 2 depicts two individuals pulling on opposite ends of the rope, each individual exterts 100N force on the rope" >
+
 ## Part 1
 
 The tension in rope 2 is:

@@ -25,23 +25,24 @@ substitutions:
     vars:
       title: Velocity to Acceleration
       units: $m/s^2$
-    c: 0.3
-    t: 6
+    c: 0.2
+    t: 2
     part1:
       ans1:
-        value: 0.0028
+        value: 0.05
       ans2:
-        value: -0.0028
+        value: -0.05
       ans3:
-        value: -0.0083
+        value: -0.05
       ans4:
-        value: 0.0083
+        value: 0.05
       ans5:
         value: The acceleration is 0
 ---
 # {{ params.vars.title }}
 The velocity of an object moving along the x-axis is given by $v_x$ = -$ct^{-2}$, where $c$ = {{params.c}} m/s
 and $v_x$ and $t$ are in metres per second and seconds respectively.
+
 ## Part 1
 
 What is the instantaneous acceleration of the object when $t$ = {{params.t}} s?

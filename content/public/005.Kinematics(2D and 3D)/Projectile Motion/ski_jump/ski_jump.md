@@ -25,24 +25,25 @@ part1:
 substitutions:
   params:
     vars:
-      sport: mountain biker
+      sport: skier
       title: Ski Jump
       units: m
-    v: 25
-    d: 3.69
+    v: 22
+    d: 3.4699999999999998
     part1:
       ans1:
         value: 9.81
       ans2:
-        value: 15.33
+        value: 13.08
       ans3:
-        value: 18.81
+        value: 15.56
       ans4:
-        value: 21.68
+        value: 18.5
       ans5:
-        value: 28.21
+        value: 23.35
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 A {{ params.vars.sport }} leaves the end of a horizontal jump at {{ params.v }} m/s and falls {{ params.d }} m before landing.

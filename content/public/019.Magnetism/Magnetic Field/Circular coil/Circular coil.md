@@ -38,12 +38,13 @@ substitutions:
   params:
     vars:
       title: Circular coil
-    r: '5.00'
-    I: '0.94'
-    B: '3.80'
+    r: '11.00'
+    I: '0.60'
+    B: '4.80'
     p: '-4'
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 How many turns must be wound on a flat, circular coil of radius ${{ params.r }}\rm\ cm$ in order to produce a magnetic field of magnitude ${{ params.B }}\times 10^{ {{ params.p }} }\rm\ T$ at the centre of the coil when the current through it is ${{ params.I }}\rm\ A$?

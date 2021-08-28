@@ -39,6 +39,7 @@ substitutions:
           radius of the circle
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 Which of the following statements is always true about an object in circular motion?

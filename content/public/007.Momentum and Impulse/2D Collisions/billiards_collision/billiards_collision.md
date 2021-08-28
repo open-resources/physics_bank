@@ -42,6 +42,7 @@ substitutions:
 In a game of billards, a red billiard ball is traveling in the positive x-direction with speed $v$ and the cue ball is traveling in the negative x-direction with speed $3v$.
 The two balls collide head on and the collision is elastic.
 The two balls have the same mass.
+
 ## Part 1
 
 Which statement concerning the velocities of the balls after the collision is true?

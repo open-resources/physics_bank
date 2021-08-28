@@ -37,13 +37,14 @@ substitutions:
     vars:
       title: Cars on Hills
       units: "$\frac{m}{s^2}"
-    v: 23
-    r: 287
-    mu: 5.12
+    v: 22
+    r: 163
+    mu: 8.96
 ---
 # {{ params.vars.title }}
 Two cars are driving at {{params.v}} m/s along the road shown in the gure. Car B is at the bottom of a hill and car C is at the top. Both hills have a {{params.r}} m radius of curvature. Suppose both cars suddenly brake hard and start to skid.
 <img src="q4.png" width=400 alt="Two cars on two hills on equal raduis of curvature">
+
 ## Part 1
 
 What is the tangential (i.e., the acceleration parallel to the road) of car B? Assume $$\mu_k$$ = 0.850.
@@ -51,6 +52,7 @@ What is the tangential (i.e., the acceleration parallel to the road) of car B? A
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units}}.
+
 ## Part 2
 
 What is the tangential (i.e., the acceleration parallel to the road) of car C? Assume $$\mu_k$$ = 0.850.

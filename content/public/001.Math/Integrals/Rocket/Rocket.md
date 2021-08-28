@@ -52,13 +52,14 @@ substitutions:
       title: Rocket
       units1: m/s^2
       units2: s
-    v_1: 3
+    v_1: 2
     t_1: 3
-    t_2: 5
+    t_2: 4
 ---
 # {{ params.vars.title }}
 A rocket has a velocity (pointing away from the launch pad) given by $v(t)$={{ params.v_1 }}$t$-$t^2$
 where $x$ is in meters, and $t$ is in seconds.
+
 ## Part 1
 
 (a) If the rocket started at height $x(0)$ = 0, What is the height as a function of time?
@@ -66,6 +67,7 @@ where $x$ is in meters, and $t$ is in seconds.
 ### Answer Section
 
 Please enter the equation.
+
 ## Part 2
 
 (b) What is the acceleration as a function of time?
@@ -73,6 +75,7 @@ Please enter the equation.
 ### Answer Section
 
 Please enter the equation.
+
 ## Part 3
 
 (c) What is the average acceleration between $t = $ {{ params.t_1 }}s and $t = $ {{ params.t_2 }}s?
@@ -80,6 +83,7 @@ Please enter the equation.
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units1 }}.
+
 ## Part 4
 
 (d) At what time does the rocket stop rising upwards and begin falling down?

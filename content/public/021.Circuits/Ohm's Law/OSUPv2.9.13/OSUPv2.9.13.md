@@ -40,6 +40,7 @@ substitutions:
         value: None of the above
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 Shown below are the results of an experiment where four devices were connected across a variable voltage source.

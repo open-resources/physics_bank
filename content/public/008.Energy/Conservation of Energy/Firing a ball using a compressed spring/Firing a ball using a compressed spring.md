@@ -41,6 +41,7 @@ substitutions:
 ---
 # {{ params.vars.title }}
 A compressed spring fires a ball of mass $m$ directly upwards.
+
 ## Part 1
 
 If the mass of the  ball  and  the  initial  compression  of  the  spring  are  both  {{ params.choice }}, (neglect  air resistance) then,

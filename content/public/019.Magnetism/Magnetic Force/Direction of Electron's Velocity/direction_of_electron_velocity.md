@@ -92,6 +92,7 @@ substitutions:
 ---
 # {{ params.vars.title }}
 What is the direction of the velocity of an electron that experiences the magnetic force shown in each of the three cases, assuming it moves perpendicular to B?
+
 ## Part 1
 
 <img src="Q17.png">
@@ -105,6 +106,7 @@ What is the direction of the velocity of an electron that experiences the magnet
 - {{ params.part1.ans5.value}}
 - {{ params.part1.ans6.value}}
 - {{ params.part1.ans7.value}}
+
 ## Part 2
 
 <img src="Q17_2.png">
@@ -118,6 +120,7 @@ What is the direction of the velocity of an electron that experiences the magnet
 - {{ params.part2.ans5.value}}
 - {{ params.part2.ans6.value}}
 - {{ params.part2.ans7.value}}
+
 ## Part 3
 
 <img src="Q17_3.png">

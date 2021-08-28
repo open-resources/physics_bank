@@ -26,17 +26,17 @@ substitutions:
   params:
     vars:
       title: Force On An Object
-    m: 21
+    m: 37
     part1:
       ans1:
-        value: $F = $ -52.5 $N$
+        value: $F = $ -92.5 $N$
       ans2:
-        value: $F = $ 52.5 $N$
+        value: $F = $ 92.5 $N$
       ans3:
-        value: $F = $ 52.5 $N$ from 2 to 6 $s$, then $F = $ -52.5 $N$ from 6 to 10
+        value: $F = $ 92.5 $N$ from 2 to 6 $s$, then $F = $ -92.5 $N$ from 6 to 10
           $s$
       ans4:
-        value: $F = $ -52.5 $N$ from 2 to 6 $s$, then $F = $ 52.5 $N$ from 6 to 10
+        value: $F = $ -92.5 $N$ from 2 to 6 $s$, then $F = $ 92.5 $N$ from 6 to 10
           $s$
       ans5:
         value: Impossible to tell
@@ -46,6 +46,7 @@ The velocity as a function of time of an object is as shown in the figure below.
 object is {{params.m}} $kg$.
 
 <img src="Q3.png" alt="A graph of velocity and time. The object has a velocity of 10 meters per second at 0 to 2 seconds. The object's velocity decreases to 0 meters per second at 6 seconds. The object's velocity is at negative 10 meters per seconds from 10 to 12 seconds." width=300>
+
 ## Part 1
 
 Which answer below best describes the force on the object between 2 and 10 $s$?

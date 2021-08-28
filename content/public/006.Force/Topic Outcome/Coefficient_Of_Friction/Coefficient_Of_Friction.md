@@ -30,7 +30,7 @@ substitutions:
   params:
     vars:
       title: Coefficient_Of_Friction
-    m: 218
+    m: 164
     t: 3
 ---
 # {{ params.vars.title }}
@@ -42,6 +42,7 @@ A motion detector records the motion and displays the graph shown.
 *Hint: The position verses time graph is not a straight line.*
 
 <img src="Q12.png" alt= "Two images are shown. The first one is a diagram of the experiment in which Jelloium is being pulled by a string to the right while a motion detector records the motion on the right. The second image is a graph of the results of the experiment. The graph is a quadratic parabola. The y-axis is the distance in cm and the x-axis is the time in seconds. The graph depicts 20cm in one second and 80cm in in two seconds" width=400>
+
 ## Question Text
 
 What is the value of $\mu_k$ for jelloium on steel?

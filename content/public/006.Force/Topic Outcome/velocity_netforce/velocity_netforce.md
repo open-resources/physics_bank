@@ -50,6 +50,7 @@ substitutions:
 The position versus time graph of a mass on a spring is shown in the image.
 
 ![Position vs. Time of Mass on Spring](q1image.png)
+
 ## Part 1
 
 What can you say about the velocity of the mass and the net force of the mass at $t=2s$?

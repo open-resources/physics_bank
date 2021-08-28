@@ -63,12 +63,13 @@ substitutions:
   params:
     vars:
       title: Charge and Voltage Across Capacitors
-    a: '12'
-    b: '6'
-    v: '350'
+    a: '9'
+    b: '11'
+    v: '370'
 ---
 # {{ params.vars.title }}
 A ${{params.a }}\textrm{ pF}$ capacitor is connected in series with a ${{params.b }}\textrm{ pF}$ capacitor and a ${{params.v }}\textrm{ V}$ potential difference is applied across the pair.
+
 ## Part 1
 
 What is the charge on each capacitor? Enter answer in units of nC.
@@ -76,6 +77,7 @@ What is the charge on each capacitor? Enter answer in units of nC.
 ### Answer Section
 
 Please enter a numeric value.
+
 ## Part 2
 
 What is the voltage across the ${{params.a }}\textrm{ pF}$ capacitor?
@@ -83,6 +85,7 @@ What is the voltage across the ${{params.a }}\textrm{ pF}$ capacitor?
 ### Answer Section
 
 Please enter a numeric value.
+
 ## Part 3
 
 What is the voltage across the ${{params.b }}\textrm{ pF}$ capacitor?

@@ -48,9 +48,9 @@ substitutions:
   params:
     vars:
       title: Water Slide
-    theta: 20
-    l: 900
-    l2: 450.0
+    theta: 40
+    l: 300
+    l2: 150.0
 ---
 # {{ params.vars.title }}
 What an exciting time to be alive! A water slide has just opened up near my house! It is a ramp, L = {{params.l}} m long at {{params.theta}}$^o$ to the horizontal.
@@ -64,6 +64,7 @@ Use the following table as a reference for each variable:
 | $t$  | t  |
 | $v_o$  | v_o  |
 | $g$  | g  |
+
 ## Part 1
 
 What is the equation describing my position as a function of time?
@@ -71,6 +72,7 @@ What is the equation describing my position as a function of time?
 ### Answer Section
 
 Write the position x(t) in terms of time $t$.
+
 ## Part 2
 
 What is the equation describing the position of the kid as a function of time?
@@ -78,6 +80,7 @@ What is the equation describing the position of the kid as a function of time?
 ### Answer Section
 
 Write the position of the kid x(t) in terms of time t.
+
 ## Part 3
 
 At what time will they collide?
@@ -85,6 +88,7 @@ At what time will they collide?
 ### Answer Section
 
 Please enter in a numeric value in seconds.
+
 ## Part 4
 
 What was the jerk kid's initial velocity?

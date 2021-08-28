@@ -37,6 +37,7 @@ substitutions:
         value: The particle will spiral outwards.
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 A charged particle moving in a uniform magnetic field experiences a constant magnitude acceleration perpendicular to its velocity vector at all times. This means

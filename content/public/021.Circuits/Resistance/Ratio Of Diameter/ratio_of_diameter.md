@@ -44,6 +44,7 @@ substitutions:
         value: $(\rho_\mathrm{Cu} / \rho_\mathrm{Al})^2$
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 Find the ratio of the diameter of aluminum to copper wire, if they have the same resistance per unit length (as they might in household wiring).

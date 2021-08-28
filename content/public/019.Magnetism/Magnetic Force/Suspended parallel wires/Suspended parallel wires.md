@@ -39,9 +39,9 @@ substitutions:
   params:
     vars:
       title: Suspended parallel wires
-    s: '4.2'
-    mu: '35.6'
-    theta: '6.0'
+    s: '3.8'
+    mu: '24.0'
+    theta: '3.0'
 ---
 # {{ params.vars.title }}
 Two long, parallel wires are hung by cords of length $s = {{ params.s }}\rm\ cm$, as shown in the figure.
@@ -49,6 +49,7 @@ Each wire has a mass per unit length of ${{ params.mu }}\rm\ g/m$, and they carr
 
 <img src="OSUPv2p12_32.png" width=400 alt="Parallel currents suspended by cords">
 <p></p>
+
 ## Question Text
 
 What is the current if the cords hang at $\theta = {{ params.theta }}^\circ$ with respect to the vertical?

@@ -37,9 +37,9 @@ substitutions:
     vars:
       title: Two Blocks Stacked
       units: N
-    m: 14
-    f: 0.32
-    t: 47
+    m: 15
+    f: 0.36
+    t: 43
 ---
 # {{ params.vars.title }}
 Blocks A and B each have a mass $m$ = {{params.m}} $kg$.
@@ -48,6 +48,7 @@ The angle shown is $\theta$ = {{params.t}}$^{\circ}$.
 Neglect any friction between $B$ and $C$.
 
 ![Right triangle A is stacked on top of right triangle B to create a rectangular block sitting on top of surface C. The angle between the hypotenuse and adjacent in triangle B is theta. A ninety-degree force P, acting to the left, is applied to the opposite side of triangle B.](Q14.png)
+
 ## Question Text
 
 Determine the largest horizontal force $\vec{P}$ that can be applied so that $A$ will not slip on $B$.

@@ -50,14 +50,15 @@ substitutions:
       title: Roller Coaster
       units: m/s
       units_2: N
-    r: 14.0
-    m: 221
+    r: 15.0
+    m: 231
 ---
 # {{ params.vars.title }}
 A roller-coaster car moves around a vertical circular loop of radius $R$ = {{params.r}} m.
 The total mass of the car (including passengers) is {{params.m}} kg.
 
 <img src="Q16.png" width=300>
+
 ## Part 1
 
 What speed must the car have so that it will just make it over the top without any assistance from the track?
@@ -65,6 +66,7 @@ What speed must the car have so that it will just make it over the top without a
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
+
 ## Part 2
 
 What speed will the car subsequently have at the bottom of the loop?
@@ -72,6 +74,7 @@ What speed will the car subsequently have at the bottom of the loop?
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
+
 ## Part 3
 
 What will be the normal force on a passenger at the bottom of the loop?

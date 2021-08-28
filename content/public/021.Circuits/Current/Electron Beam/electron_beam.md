@@ -33,10 +33,11 @@ substitutions:
     vars:
       title: 'Electron Beam '
       units: ' $ A / m^2 $ '
-    I: 76
-    r: 0.17
+    I: 82
+    r: 0.46
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 An electron beam with a radius of {{params.r}} $\textrm{mm}$ has a measured current of ${{params.I}}\rm\ \mu A$.

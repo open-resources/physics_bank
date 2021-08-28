@@ -37,10 +37,11 @@ substitutions:
     vars:
       title: Maximum Voltage
       units: V
-    P: 0.07
-    R: 88
+    P: 0.75
+    R: 68
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 What is the maximum voltage that can be applied to a {{params.R}} $\rm {k \Omega}$ resistor rated at {{params.P}} $\textrm {W}$?

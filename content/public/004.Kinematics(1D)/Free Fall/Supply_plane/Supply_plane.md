@@ -59,14 +59,15 @@ substitutions:
       units1: m
       units2: $m/s^2 \ \ \hat\jmath$
       units3: $m/s \ \ \hat\jmath$
-    h: 70
-    s: 100
-    vert: 70
+    h: 130
+    s: 140
+    vert: 80
 ---
 # {{ params.vars.title }}
 A supply plane needs to drop a package of food to scientists working on a glacier in Greenland.
 The plane flies {{params.h}}$m$ above the glacier at a speed of {{params.s}}$m/s$.
 The horizontal distance between the plane and the drop site is $R$ at the time the package is released from the plane.
+
 ## Part 1
 
 What value of $R$ is required to ensure that the package arrives on target? Neglect air resistance.
@@ -74,6 +75,7 @@ What value of $R$ is required to ensure that the package arrives on target? Negl
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units1 }}.
+
 ## Part 2
 
 What is the acceleration vector of the package after it has fallen a vertical distance of {{params.vert}}$m$?
@@ -81,6 +83,7 @@ What is the acceleration vector of the package after it has fallen a vertical di
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units2 }}.
+
 ## Part 3
 
 What is the velocity vector $\hat\imath$ ($V_x$) of the package after it has fallen a vertical distance of {{params.vert}}$m$?
@@ -88,6 +91,7 @@ What is the velocity vector $\hat\imath$ ($V_x$) of the package after it has fal
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units3 }}.
+
 ## Part 4
 
 What is the velocity vector $\hat\jmath$ ($V_y$) of the package after it has fallen a vertical distance of {{params.vert}}$m$?

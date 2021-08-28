@@ -25,21 +25,22 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: -4x + -6 > -6x + 9
+      formula: 9x + -7 > 1x + 8
     part1:
       ans1:
-        value: x > 15/2
+        value: x > 15/8
       ans2:
-        value: x < 15/2
+        value: x < 15/8
       ans3:
-        value: x < 2/15
+        value: x < 8/15
       ans4:
-        value: x > 2/15
+        value: x > 8/15
       ans5:
         value: Don't Know
 ---
 # {{ params.vars.title }}
 The solution of the inequality {{params.vars.formula}} is:
+
 ## Part 1
 
 ### Answer Section

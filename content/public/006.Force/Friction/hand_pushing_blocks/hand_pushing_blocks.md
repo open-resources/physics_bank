@@ -39,6 +39,7 @@ The hand in the figure pushes the back of block A.
 The blocks, with $m_B$ > $m_A$, are connected by a light string and slide on a frictionless surface.
 
 <img src="q1.png" width=300 alt="Hand pushing on block A connected to block B">
+
 ## Part 1
 
 The force of the string on B is:

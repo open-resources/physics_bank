@@ -52,12 +52,13 @@ substitutions:
       units1: $m$
       units2: $m/s$
       units3: "$\frac{m}{s^2}$"
-    t: 5
+    t: 3
 ---
 # {{ params.vars.title }}
 The figure shows the velocity-versus-time graph for a particle moving along the x-axis. Its position at $t$ = 0 s is {{params.x_i}} m.
 
 <img src="Q3.png" width=300 alt="Graph of velocity vs time" alt = "Graph of velocity vs time. The graph increases from 0 to 4 m/s in 1 second. It then decreases to -1m/s at 2.5s. It remains at -1m/s until 4s when it increases back to 0m/s at 5s.">
+
 ## Part 1
 
 What is the particles velocity at $t$ = {{params.t}} $s$? If the answer is undefined, enter 100.
@@ -65,6 +66,7 @@ What is the particles velocity at $t$ = {{params.t}} $s$? If the answer is undef
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units1 }}.
+
 ## Part 2
 
 What is the particles position at $t$ = {{params.t}} $s$? If the answer is undefined, enter 100.
@@ -72,6 +74,7 @@ What is the particles position at $t$ = {{params.t}} $s$? If the answer is undef
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units2 }}.
+
 ## Part 3
 
 What is the particles acceleration at $t$ = {{params.t}} $s$? If the answer is undefined, enter 100.

@@ -42,13 +42,14 @@ substitutions:
     vars:
       title: Adding Capacitances
     a: '6'
-    b: '4'
-    c: '5.0'
-    d: '3.5'
-    e: '0.75'
-    f: '10'
+    b: '10'
+    c: '2.5'
+    d: '1.0'
+    e: '2.00'
+    f: '5'
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 Find the net capacitance of this combination of series and parallel capacitors shown below. Use the following values: $A = {{params.a }}$, $B = {{params.b }}$, $C = {{params.c }}$, $D = {{params.d }}$, $E = {{params.e }}$, and $F = {{params.f }}$.

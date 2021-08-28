@@ -51,13 +51,14 @@ substitutions:
       title: Simple harmonic spring
       units1: N/m
       units3: m
-    m: 330
-    T: 0.21
-    E: 4.3
+    m: 329
+    T: 0.81
+    E: 4.7
 ---
 # {{ params.vars.title }}
 A {{params.m}} g object is attached to a spring and executes simple harmonic motion with a period of {{params.T}} s.
 If the total energy of the system is {{params.E}} J, find:
+
 ## Part 1
 
 (a) the maximum speed of the object
@@ -65,6 +66,7 @@ If the total energy of the system is {{params.E}} J, find:
 ### Answer Section
 
 Please enter a numeric value in {{ params.vars.units1 }}.
+
 ## Part 2
 
 (b) the spring constant of the spring
@@ -72,6 +74,7 @@ Please enter a numeric value in {{ params.vars.units1 }}.
 ### Answer Section
 
 Please enter a numeric value {{ params.vars.units2 }}.
+
 ## Part 3
 
 (c) the amplitude of the motion

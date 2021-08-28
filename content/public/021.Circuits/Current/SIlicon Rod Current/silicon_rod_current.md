@@ -39,11 +39,12 @@ substitutions:
     vars:
       title: Current Through A Silicon Rod
       units: "$\textrm{A}$"
-    d: 1.84
-    l: 5.8
-    V: 11
+    d: 1.83
+    l: 19.3
+    V: 70
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 What current flows through a {{params.d}}-cm-diameter rod of pure silicon that is {{params.l}} $\textrm{cm}$ long, when {{params.V}} $\textrm{kV}$ is applied to it?

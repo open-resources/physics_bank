@@ -37,10 +37,11 @@ substitutions:
     vars:
       title: Voltage Supplied To An Indicator Light
       units: V
-    R: 220
-    I: 83
+    R: 241
+    I: 85
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 An indicator light on a DVD player has a resistance of {{params.R}} $ \rm \Omega $ and has {{params.I}} $ \textrm {mA}$ of current passing through it.

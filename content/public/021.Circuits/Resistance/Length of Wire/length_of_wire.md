@@ -40,10 +40,11 @@ substitutions:
     vars:
       title: Length of Wire
       units: m
-    V: 104
-    P: 162
+    V: 129
+    P: 300
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 A heater is being designed that uses a coil of 14-gauge nichrome wire to generate {{params.P}} $\textrm{W}$ using a voltage of {{params.V}} $\textrm{V}$.

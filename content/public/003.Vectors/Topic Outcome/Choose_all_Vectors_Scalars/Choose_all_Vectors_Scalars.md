@@ -26,22 +26,23 @@ substitutions:
   params:
     vars:
       title: Choose all Vectors and Scalars
-    choice: scalars
+    choice: vectors
     part1:
       ans1:
-        value: Mass
+        value: Displacement
       ans2:
-        value: Density
-      ans3:
-        value: Energy
-      ans4:
         value: The position in a 1 dimensional system
+      ans3:
+        value: Force
+      ans4:
+        value: The average velocity
       ans5:
-        value: The position in 3 dimensions
+        value: Temperature
       ans6:
-        value: The average acceleration
+        value: Energy
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 Consider the following quantities. Choose all of those which are {{ params.choice }}.

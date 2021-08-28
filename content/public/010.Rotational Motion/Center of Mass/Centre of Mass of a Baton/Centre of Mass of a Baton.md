@@ -31,13 +31,14 @@ substitutions:
     vars:
       title: Centre of Mass of a Baton
       units: $m$
-    m1: 0.17
-    m2: 0.12
-    m3: 0.099
-    l1: 0.84
-    l2: 0.82
+    m1: 0.24
+    m2: 0.11
+    m3: 0.14
+    l1: 0.58
+    l2: 1.1
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 Determine the position of the centre of mass of the baton shown in the figure below.  The ball at the left end has a mass of $m_1 = $ {{ params.m1 }} $kg$, the ball at the right end has a mass of $m_3 = $ {{ params.m3 }} $kg$, and the bar has a mass of $m_2 = $ {{ params.m2 }} $kg$.  Take the point $l_1 = $ {{ params.l1 }} $m$ to the left of the {{ params.m1 }} $kg$ mass as your origin. The length from the center of the left ball to the center of the right ball is $l_2 = $ {{ params.l2 }} $m$.

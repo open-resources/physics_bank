@@ -38,6 +38,7 @@ substitutions:
         value: Power
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 Car batteries are rated in ampere-hours ($\textrm{A}\cdot\textrm{h}$).

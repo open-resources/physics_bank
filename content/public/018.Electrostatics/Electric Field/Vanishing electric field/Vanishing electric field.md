@@ -39,6 +39,7 @@ substitutions:
         value: 'False'
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 Two arbitrary charges lie along the $x$-axis.

@@ -39,6 +39,7 @@ substitutions:
         value: The inside of a car taking a corner at a constant speed
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 Which of the following are inertial reference frames?

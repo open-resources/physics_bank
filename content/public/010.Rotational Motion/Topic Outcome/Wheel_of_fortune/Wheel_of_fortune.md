@@ -27,21 +27,22 @@ substitutions:
       units: rad/s
       title: Wheel of Fortune
     w_i: 1.57
-    t: 4
+    t: 5
     w_int: 2
     part1:
       ans1:
-        value: 3.7
+        value: 2.96
       ans2:
-        value: 1.92
+        value: 1.72
       ans3:
-        value: 3.85
+        value: 3.44
       ans4:
         value: $\pi$/2
 ---
 # {{ params.vars.title }}
 I want to win a game of Wheel-of-Fortune.
 The grand prize is initially located at a position at the top of the wheel (shown) and I only win if the wheel stops when the prize is at the position to the right ($\theta$ = 0).I note that when another contestant set the wheel spinning at $w_i = {\pi \over {{params.w_int}}} {rad\over s}$, it takes {{params.t}} seconds to stop.
+
 ## Part 1
 
 With which initial velocity should I spin the wheel to win the prize?
