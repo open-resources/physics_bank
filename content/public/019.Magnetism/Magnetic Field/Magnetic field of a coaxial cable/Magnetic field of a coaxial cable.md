@@ -30,7 +30,7 @@ part1:
   type: symbolic-input
   pl-customizations:
     label: $B_1 = $
-    variables: "r, r1, r2, r3, I, \u03BC0"
+    variables: r, r1, r2, r3, I, μ0
     weight: 1
     allow-blank: false
 part2:
@@ -43,7 +43,7 @@ part3:
   type: symbolic-input
   pl-customizations:
     label: $B_2 = $
-    variables: "r, r1, r2, r3, I, \u03BC0"
+    variables: r, r1, r2, r3, I, μ0
     weight: 1
     allow-blank: false
 part4:
@@ -56,7 +56,7 @@ part5:
   type: symbolic-input
   pl-customizations:
     label: $B_3 = $
-    variables: "r, r1, r2, r3, I, \u03BC0"
+    variables: r, r1, r2, r3, I, μ0
     weight: 1
     allow-blank: false
 part6:
@@ -69,7 +69,7 @@ part7:
   type: symbolic-input
   pl-customizations:
     label: $B_4 = $
-    variables: "r, r1, r2, r3, I, \u03BC0"
+    variables: r, r1, r2, r3, I, μ0
     weight: 1
     allow-blank: true
 part8:

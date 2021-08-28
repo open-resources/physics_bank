@@ -25,18 +25,18 @@ substitutions:
   params:
     vars:
       title: Momentum and Inertia
-      vehicle: van
+      vehicle: truck
     part1:
       ans1:
         value: The bee has more momentum, the bee has more inertia.
       ans2:
-        value: The van has more momentum, the bee has more inertia.
+        value: The truck has more momentum, the bee has more inertia.
       ans3:
-        value: The van has more momentum, the van has more inertia.
+        value: The truck has more momentum, the truck has more inertia.
       ans4:
-        value: The bee has more momentum, the van has more inertia.
+        value: The bee has more momentum, the truck has more inertia.
       ans5:
-        value: "It can\u2019t be determined from this information."
+        value: It can’t be determined from this information.
 ---
 # {{ params.vars.title }}
 ## Part 1

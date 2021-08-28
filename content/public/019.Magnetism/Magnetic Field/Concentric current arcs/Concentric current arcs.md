@@ -29,7 +29,7 @@ part1:
   type: symbolic-input
   pl-customizations:
     label: $B = $
-    variables: "a, b, I, \u03BC0"
+    variables: a, b, I, μ0
     weight: 1
     allow-blank: false
 part2:

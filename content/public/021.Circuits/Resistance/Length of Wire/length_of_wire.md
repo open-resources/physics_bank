@@ -40,8 +40,8 @@ substitutions:
     vars:
       title: Length of Wire
       units: m
-    V: 87
-    P: 446
+    V: 104
+    P: 162
 ---
 # {{ params.vars.title }}
 ## Question Text
