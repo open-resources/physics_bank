@@ -23,6 +23,7 @@ parts:
   - file: content/public/001.Math/Quadratic formula/Diagnostic Q11/diagnosticq11
   - file: content/public/001.Math/Math_practice14/Math_practice14
   - file: content/public/001.Math/Logarithmic Functions/math_practice_q16/math_practice_q16
+  - file: content/public/001.Math/Exponential Functions/Math Practice q13/math_practice_q13
   - file: content/public/001.Math/Exponential Functions/Math Practice Q17/math_practice_q17
   - file: content/public/001.Math/Significant Figures/significant_figures/significant_figures
   - file: content/public/001.Math/Derivatives/Velocity Derivatives/velocity_derivative
@@ -34,13 +35,17 @@ parts:
   - file: content/public/001.Math/Graphs/Acceleration from Velocity Graph/acceleration_from_velocity_graph
   - file: content/public/001.Math/Graphs/Position Velocity and Acceleration/d_v_a_from_graph
   - file: content/public/001.Math/math_practiceQ20/math_practiceQ20
+  - file: content/public/001.Math/Algebra/Math_practice_q8/Math_practice_q8
   - file: content/public/001.Math/Algebra/Math_practice_Q10/Math_practice_Q10
+  - file: content/public/001.Math/Algebra/Diagnostic Q5/diagnosticq5
   - file: content/public/001.Math/Algebra/Solve this Inequality/solve_this_inequality
   - file: content/public/001.Math/Algebra/math_practice_q12/math_practice_q12
   - file: content/public/001.Math/fraction_equation/fraction_equation
 - caption: Physics in General
   chapters:
   - file: content/public/002.Physics in General/density, mass and volume/potato_volume
+  - file: content/public/002.Physics in General/Topic Outcome/Ball rolling down an
+      incline/Ball rolling down an incline
   - file: content/public/002.Physics in General/Topic Outcome/Skateboarder and observer/Skateboarder
       and observer
   - file: content/public/002.Physics in General/Topic Outcome/Choose correct ans/choose
@@ -49,6 +54,8 @@ parts:
       is conserved
   - file: content/public/002.Physics in General/Topic Outcome/Internal Energy Released/Internal
       Energy Released
+  - file: content/public/002.Physics in General/Topic Outcome/Ratio of Inertias/Ratio
+      of Inertias
   - file: content/public/002.Physics in General/Topic Outcome/A disk and a paintball/A
       disk and a paintball
   - file: content/public/002.Physics in General/Topic Outcome/Drawing water from a
@@ -102,6 +109,8 @@ parts:
       around a turn/Acceleration around a turn
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Discus_Thrower/Discus_Thrower
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Turning_Car/Turning_car
+  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Ball Launched from
+      Horizontal Cliff/Ball Launched from Horizontal cliff
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/angular_speed/angular_speed
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/RollerCoaster/RollerCoaster
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/centripetal_force/centripetal_force
@@ -292,12 +301,15 @@ parts:
       of a point charge/Electric potential of a point charge
   - file: content/public/018.Electrostatics/Electric Potential/Uniformly-charged sphere/Uniformly-charged
       sphere
+  - file: content/public/018.Electrostatics/Electric Potential/Electric potential
+      of parallel plates/Electric potential of parallel plates
   - file: content/public/018.Electrostatics/Electric Potential/Concentric spherical
       shells/Concentric spherical shells
   - file: content/public/018.Electrostatics/Electric Potential/Electron in a capacitor/Electron
       in a capacitor
   - file: content/public/018.Electrostatics/Electric Flux/Flux through a closed surface/Flux
       through a closed surface
+  - file: content/public/018.Electrostatics/Electric Flux/Zero flux/Zero flux
   - file: content/public/018.Electrostatics/Electric Flux/Concentric spherical surfaces/Concentric
       spherical surfaces
   - file: content/public/018.Electrostatics/Electric Field/Colinear point charges/Colinear
@@ -320,19 +332,24 @@ parts:
       a loop
   - file: content/public/019.Magnetism/Magnetic Flux/Flux due to a coil/Flux due to
       a coil
+  - file: content/public/019.Magnetism/Solenoids/Current Through Loop/current_through_loop
   - file: content/public/019.Magnetism/Solenoids/Magnetic field of a solenoid/Magnetic
       field of a solenoid
   - file: content/public/019.Magnetism/Solenoids/Solenoid current/Solenoid current
   - file: content/public/019.Magnetism/Magnetic Force/Suspended parallel wires/Suspended
       parallel wires
+  - file: content/public/019.Magnetism/Magnetic Force/Possible Forces on a Charge/possible_forces_on_a_charge
   - file: content/public/019.Magnetism/Magnetic Force/Current through a spring/Current
       through a spring
   - file: content/public/019.Magnetism/Magnetic Force/Direction of Electron's Velocity/direction_of_electron_velocity
   - file: content/public/019.Magnetism/Magnetic Force/Force on Electron vs Proton/force_on_electron_versus_proton
+  - file: content/public/019.Magnetism/Magnetic Force/Magnetic Force on Current/magnetic_force_on_current
+  - file: content/public/019.Magnetism/Magnetic Force/Force on Charged Particle/force_on_charged_particle
   - file: content/public/019.Magnetism/Magnetic Force/Wire and loop/Wire and loop
   - file: content/public/019.Magnetism/Magnetic Force/Electron in a Solenoid/Electron
       in a Solenoid
   - file: content/public/019.Magnetism/Magnetic Force/Cosmic Ray Electron/cosmic_ray_electron
+  - file: content/public/019.Magnetism/Magnetic Force/Magnetic Force on Airplane/magnetic_force_on_plane
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_33/OSUPv2p13_33
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_5/OSUPv2p13_5
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_56/OSUPv2p13_56
@@ -356,6 +373,7 @@ parts:
       through a spring
   - file: content/public/019.Magnetism/Magnetic Field/Concentric current arcs/Concentric
       current arcs
+  - file: content/public/019.Magnetism/Magnetic Field/Alpha Particle in Magnetic Field/alpha_particle_in_magnetic_field
   - file: content/public/019.Magnetism/Magnetic Field/Electron Through a Magnetic
       Field/electron_through_a_magnetic_field
   - file: content/public/019.Magnetism/Magnetic Field/Particle in Uniform Magnetic
@@ -367,6 +385,7 @@ parts:
   - file: content/public/019.Magnetism/Magnetic Field/Cancelling magnetic fields/Cancelling
       magnetic fields
   - file: content/public/019.Magnetism/Magnetic Field/Circular coil/Circular coil
+  - file: content/public/019.Magnetism/Magnetic Field/Accelerated Particle/accelerated_particle
   - file: content/public/019.Magnetism/Magnetic Field/Field on loop axis/Field on
       loop axis
 - caption: Circuits
@@ -374,15 +393,18 @@ parts:
   - file: content/public/021.Circuits/Electrical Energy/OSUPv2.9.16/OSUPv2.9.16
   - file: content/public/021.Circuits/RC Circuits/OSUPv2p10_16/OSUPv2p10_16
   - file: content/public/021.Circuits/Electrical Power/Immersion Heater/immersion_heater
+  - file: content/public/021.Circuits/Electrical Power/LED Bulb/LED_bulb
   - file: content/public/021.Circuits/Electrical Power/Maximum Voltage/maximum_voltage
   - file: content/public/021.Circuits/Resistors/OSUPv2p10_22/OSUPv2p10_22
   - file: content/public/021.Circuits/Resistors/OSUPv2p10_27/OSUPv2p10_27
+  - file: content/public/021.Circuits/Resistors/Power and Energy Through Resistor/power_and_energy
   - file: content/public/021.Circuits/Current/Electron Beam/electron_beam
   - file: content/public/021.Circuits/Current/Electrons In a Wire/electrons_in_a_wire
   - file: content/public/021.Circuits/Current/SIlicon Rod Current/silicon_rod_current
   - file: content/public/021.Circuits/Current/OSUPv2.9.2/OSUPv2.9.2
   - file: content/public/021.Circuits/Current/OSUPv2p10_28/OSUPv2p10_28
   - file: content/public/021.Circuits/Current/Cathode Ray Tube/cathode_ray_tube
+  - file: content/public/021.Circuits/Current/Range of Current Through Resistor/range_of_current_through_resistor
   - file: content/public/021.Circuits/Current/Charge Model/charge_model
   - file: content/public/021.Circuits/Batteries/OSUPv2p10_25/OSUPv2p10_25
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_38/OSUPv2p8_38
@@ -407,6 +429,7 @@ parts:
   - file: content/public/021.Circuits/Ohm's Law/Indicator Light/indicator_light
   - file: content/public/021.Circuits/OSUPv2p8_55/OSUPv2p8_55
   - file: content/public/021.Circuits/Kichhoff's Rules/OSUPv2p10_08/OSUPv2p10_08
+  - file: content/public/021.Circuits/Resistance/Temperature Range of Resistor /temp_range_of_resistor
   - file: content/public/021.Circuits/Resistance/Ratio Of Diameter/ratio_of_diameter
   - file: content/public/021.Circuits/Resistance/OSUPv2p10_02/OSUPv2p10_02
   - file: content/public/021.Circuits/Resistance/OSUPv2p10_06/OSUPv2p10_06
