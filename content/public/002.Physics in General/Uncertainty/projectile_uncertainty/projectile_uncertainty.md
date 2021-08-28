@@ -48,7 +48,8 @@ substitutions:
   params:
     vars:
       title: Projectile Uncertainty
-      units: m
+      units1: m/s
+      units2: m
     d: 0.126
     s: 0.053
     theta: 30

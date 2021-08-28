@@ -26,18 +26,18 @@ substitutions:
     vars:
       title: Rational Equation
     x1: 2
-    x2: 2
-    x3: 2
-    x4: 9
+    x2: 6
+    x3: 6
+    x4: 4
     part1:
       ans1:
-        value: -14/15
+        value: -2/3
       ans2:
-        value: -14/15
+        value: -2/3
       ans3:
-        value: '2'
+        value: '6'
       ans4:
-        value: 14/15
+        value: 2/3
 ---
 # {{ params.vars.title }}
 
@@ -47,10 +47,10 @@ Solve the equation: $\frac{x-{{ params.x1}}}{x+{{ params.x2 }}} = \frac{x+{{ par
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

@@ -3,12 +3,12 @@ title: Rocket
 topic: Math
 author: Jake Bobowski
 source: 2015 Practice Midterm 1 Q6
-template_version: 1.0
+template_version: 1.1
 attribution: standard
 outcomes:
 - 1.8.1.2
 - 1.7.2.1
-- 3.7.2.0
+- 4.3.1.0
 - difficulty: null
 - undefined
 randomization:
@@ -39,30 +39,36 @@ part3:
     allow-blank: true
     label: $a= $
     suffix: $m/s^2$
+    comparison: sigfig
+    digits: 1
 part4:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
     label: $t= $
-    suffix: s
+    suffix: $s$
+    comparison: sigfig
+    digits: 1
 substitutions:
   params:
     vars:
       title: Rocket
-      units1: m/s^2
-      units2: s
-    v_1: 3
-    t_1: 2
-    t_2: 5
+      units1: $m/s^2$
+      units2: $s$
+    v_1: 2
+    t_1: 3
+    t_2: 6
 ---
 # {{ params.vars.title }}
 A rocket has a velocity (pointing away from the launch pad) given by $v(t)$={{ params.v_1 }}$t$-$t^2$
 where $x$ is in meters, and $t$ is in seconds.
 
+Please enter in fractions rather than decimals when applicable (e.g. use 1/2 rather than 0.5)
+
 ## Part 1
 
-(a) If the rocket started at height $x(0)$ = 0, What is the height as a function of time?
+(a) If the rocket started at height $x(0)$ = 0, What is the height as a function of time in $m$?
 
 ### Answer Section
 
@@ -70,7 +76,7 @@ Please enter the equation.
 
 ## Part 2
 
-(b) What is the acceleration as a function of time?
+(b) What is the acceleration as a function of time in $m/s^2$?
 
 ### Answer Section
 
@@ -78,7 +84,7 @@ Please enter the equation.
 
 ## Part 3
 
-(c) What is the average acceleration between $t = $ {{ params.t_1 }}s and $t = $ {{ params.t_2 }}s?
+(c) What is the average acceleration between $t =$ {{ params.t_1 }}$s$ and $t =$ {{ params.t_2 }}$s$?
 
 ### Answer Section
 

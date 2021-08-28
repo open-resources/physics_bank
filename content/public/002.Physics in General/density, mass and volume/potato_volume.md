@@ -37,13 +37,13 @@ part3:
 substitutions:
   params:
     vars:
-      name: Abbas
+      name: Ximena
       title: Potato Volume
       mass_units: kg
       volume_units: m^3
-      mass_potato: 226
-      mass_cube: 94
-      cube_side_length: 2.67
+      mass_potato: 247
+      mass_cube: 44
+      cube_side_length: 2.18
 ---
 # {{ params.vars.title }}
 For our first lab, {{params.vars.name}} decides to measure the density of a potato.
@@ -74,9 +74,9 @@ In SI units, what is the volume of the cube of potato after it has been cut?
 
 ### Answer Section
 
-- {{ params.correct_answers.part1_ans}} {{ params.vars.mass_units}}
-- {{ params.correct_answers.part2_ans}} {{ params.vars.mass_units}}
-- {{ params.correct_answers.part3_ans}} {{ params.vars.volume_units}}
+- {{ correct_answers.part1_ans}} {{ params.vars.mass_units}}
+- {{ correct_answers.part2_ans}} {{ params.vars.mass_units}}
+- {{ correct_answers.part3_ans}} {{ params.vars.volume_units}}
 
 ## Attribution
 

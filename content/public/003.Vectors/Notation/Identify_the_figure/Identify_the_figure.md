@@ -47,11 +47,11 @@ Which figure shows $2 \overrightarrow{A} - \overrightarrow{B}$?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
-- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Significant Figures
-    x: 382.5146
+    x: 286.3484
     sf: 2
     part1:
       ans1:
-        value: 380.0
+        value: 290.0
       ans2:
-        value: 380.1
+        value: 290.1
       ans3:
-        value: 382.51
+        value: 286.35
       ans4:
-        value: 370.0
+        value: 280.0
 ---
 # {{ params.vars.title }}
 
@@ -45,11 +45,10 @@ The number {{ params.x }} written to {{ params.sf }} significant figures is:
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
-- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

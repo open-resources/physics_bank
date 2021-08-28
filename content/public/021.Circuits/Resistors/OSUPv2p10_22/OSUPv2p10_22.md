@@ -104,10 +104,12 @@ part6:
     weight: 1
 substitutions:
   params:
-    R_b: '0.006'
-    R_m: '0.085'
-    R_add: '0.095'
-    V: '13.25'
+    vars:
+      title: Starter Motor Resistance
+    R_b: '0.007'
+    R_m: '0.055'
+    R_add: '0.100'
+    V: '12.00'
 ---
 # {{ params.vars.title }}
 An automobile starter motor has an equivalent resistance of ${{ params.R_m }}\rm\ \Omega$ and is supplied by a ${{ params.V }}\rm\ V$ battery with a ${{ params.R_b }}\rm\ \Omega$ internal resistance.

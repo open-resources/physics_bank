@@ -53,9 +53,9 @@ substitutions:
       title: Motion of watermelon
       units1: ${m/s}^2$
       units2: $s$
-    a: 4
-    b: 4
-    c: 3
+    a: 6
+    b: 6
+    c: 4
     part4:
       ans1:
         value: The speed is increasing
@@ -93,7 +93,7 @@ At what time, if ever, is the watermelon at rest? (Enter -1 if the watermelon is
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params.vars.units2 }}.
 
 ## Part 3
 
@@ -101,7 +101,7 @@ What is the acceleration of the watermelon as a function of time?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params.vars.units1 }}.
 
 ## Part 4
 

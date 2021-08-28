@@ -29,7 +29,7 @@ part1:
   type: symbolic-input
   pl-customizations:
     label: $\Delta V = $
-    variables: a, b, k, Q
+    variables: a, b, Q, k
     weight: 1
     allow-blank: false
 substitutions:
@@ -43,6 +43,7 @@ The inner shell of radius $a$ has negligible thickness.
 The outer shell has an inner radius $b$.
 
 <img src="OSUPv2p7_65.png" width=350 alt="Concentric uniformly-charged spherical shells.">
+
 ## Question Text
 
 Find an expression for the potential difference between the shells.

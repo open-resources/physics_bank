@@ -24,7 +24,7 @@ substitutions:
   params:
     vars:
       title: Vehicle Speed
-      vehicle: semi-truck
+      vehicle: sedan
     part1:
       ans1:
         value: constant
@@ -43,7 +43,7 @@ The magnitude of the instantaneous acceleration is decreasing with time, but the
 
 ## Part 1
 
-The speed of the car is:
+The speed of the {{params.vars.vehicle}} is:
 
 ### Answer Section
 

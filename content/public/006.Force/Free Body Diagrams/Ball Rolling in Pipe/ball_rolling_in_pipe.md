@@ -55,7 +55,6 @@ At the point shown, with the ball moving down (the white arrow shows the ball's 
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
 - {{ params.part1.ans5.value }}
-- {{ params.part1.ans6.value }}
 
 ## Attribution
 
