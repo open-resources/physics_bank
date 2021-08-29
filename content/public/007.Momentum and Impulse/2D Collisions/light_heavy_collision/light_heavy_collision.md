@@ -56,6 +56,7 @@ substitutions:
 ---
 # {{ params.vars.title }}
 A lead sphere (heavy) collides with an aluminum sphere (light).
+
 ## Part 1
 
 As a result of the collision, which sphere's change in momentum has the greater magnitude?
@@ -67,6 +68,7 @@ As a result of the collision, which sphere's change in momentum has the greater 
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
 - {{ params.part1.ans5.value }}
+
 ## Part 2
 
 As a result of the collision, which sphere undergoes an acceleration of greater magnitude?

@@ -44,17 +44,18 @@ substitutions:
     vars:
       title: Spring on Ramp
       units: m
-    m: 4
-    theta: 32
-    k: 250
-    us: 0.5
-    uk: 0.36
+    m: 2
+    theta: 26
+    k: 300
+    us: 0.7
+    uk: 0.35
 ---
 # {{ params.vars.title }}
 In the figure below m = {{ params.m }} kg, $\theta$ = {{ params.theta }} $^\circ$, and k = {{ params.k }} N/m.
 In this problem assume that the ramp never moves and that there is friction between the block and the ramp.
 
 <img src="q16image.png" width=400 alt="Block being pulled up a ramp by a spring">
+
 ## Part 1
 
 If the coefficient of static friction between the block and the ramp is $\mu_s$ = {{ params.us }}, what is the maximum amount that the spring can be stretched beyond its equilibrium length before the block begins to slide up the ramp?
@@ -62,6 +63,7 @@ If the coefficient of static friction between the block and the ramp is $\mu_s$ 
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
+
 ## Part 2
 
 Suppose now that the block is sliding up the ramp at a constant velocity.

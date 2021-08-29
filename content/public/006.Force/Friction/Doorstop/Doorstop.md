@@ -44,6 +44,7 @@ substitutions:
 ---
 # {{ params.vars.title }}
 Often a wedge-shaped doorstop won't hold a door open unless you kick it until it sits tightly under the door.
+
 ## Question Text
 
 What does forcing the wedge into a tight fit accomplish?

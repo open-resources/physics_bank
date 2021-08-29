@@ -45,11 +45,11 @@ substitutions:
       title: Spring on an Incline
       units1: m
       units2: J
-    m: 3
-    k: 670
-    theta: 25
+    m: 2
+    k: 659
+    theta: 28
     mu: 0.25
-    d: 5
+    d: 9
     g: 9.8
 ---
 # {{ params.vars.title }}
@@ -58,6 +58,7 @@ The block leaves the spring at the spring's equilibrium position ($x$ = 0) and t
 The block moves a horizontal distance $D$ = {{params.d}} m before coming to a stop.
 
 ![Pictured is a block being pushed towards a ramp by a compressed string.](q10image.png)
+
 ## Part 1
 
 (a) What is the initial compression of the spring?
@@ -65,6 +66,7 @@ The block moves a horizontal distance $D$ = {{params.d}} m before coming to a st
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units1 }}.
+
 ## Part 2
 
 (b) What is the maximum kinetic energy of the block?

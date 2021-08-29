@@ -41,6 +41,7 @@ substitutions:
 ---
 # {{ params.vars.title }}
 A spring is compressed a distance $\Delta$$s$ and is used to launch a mass $m$ vertically to a height $h$ above it's starting position.
+
 ## Part 1
 
 If the initial compression is {{ params.choice }}, how high above it's starting position would the mass rise?

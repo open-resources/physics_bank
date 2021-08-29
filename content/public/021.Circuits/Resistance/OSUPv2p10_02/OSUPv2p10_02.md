@@ -34,11 +34,12 @@ substitutions:
       title: Battery Internal Resistance
     x: 4
     N: 5
-    V_string: '11.00'
+    V_string: '5.25'
 ---
 # {{ params.vars.title }}
 A battery with an internal resistance of $r$ and an emf of {{ params.V_string }}$\textrm{ V}$ is connected to a load resistor $R = {{ params.N }}r$ and current $I_0$ flows.
 As the battery ages, the internal resistance increases by a factor of {{ params.x }}.
+
 ## Part 1
 
 Find the ratio $I\_\mathrm{f}/I_0$, where $I\_\mathrm{f}$ is the final current after the battery has aged.

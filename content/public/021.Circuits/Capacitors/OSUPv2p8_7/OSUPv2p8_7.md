@@ -55,9 +55,10 @@ substitutions:
     vars:
       title: Combining Capacitors
     c: '2.4'
-    n: '3'
+    n: '5'
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 What is the maximum capacitance you can get by connecting ${{params.n }}$ ${{params.c }} \rm\ \mu\textrm{F}$ capacitors?
@@ -65,6 +66,7 @@ What is the maximum capacitance you can get by connecting ${{params.n }}$ ${{par
 ### Answer Section
 
 Please enter a numeric value.
+
 ## Part 2
 
 What is the minimum capacitance you can get using the same capacitors?

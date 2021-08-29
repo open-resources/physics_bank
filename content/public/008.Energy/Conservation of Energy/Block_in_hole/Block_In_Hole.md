@@ -31,8 +31,8 @@ substitutions:
     vars:
       title: Block In Hole
       units: m
-    a: 25
-    d: 0.6
+    a: 26
+    d: 0.8
 ---
 # {{ params.vars.title }}
 A small block is placed at height $h$ on a frictionless, {{params.a}}$^\circ$ ramp.
@@ -40,6 +40,7 @@ Upon being released (from rest), the block slides down the ramp and then falls {
 A small hole is located {{params.d}} $m$ from the end of the ramp.
 
 <img src="Q11.png" alt= "A block is placed on the top of a ramp sliding downwards. The angle of the ramp is labelled theta. There is a vertical distance at the end of the ramp followed by a horizontal distance to the hole" width=300>
+
 ## Question Text
 
 From what height $h$ should the block be released in order to land in the hole?

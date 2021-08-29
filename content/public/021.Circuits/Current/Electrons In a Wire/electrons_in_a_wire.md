@@ -33,10 +33,11 @@ substitutions:
     vars:
       title: Electrons In a Wire
       units: m/s
-    I: 193
-    t: 19
+    I: 90
+    t: 36
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 How many electrons flow through a point in a wire in {{params.t}} s if there is a constant current of {{params.I}} $\textrm{A}$.

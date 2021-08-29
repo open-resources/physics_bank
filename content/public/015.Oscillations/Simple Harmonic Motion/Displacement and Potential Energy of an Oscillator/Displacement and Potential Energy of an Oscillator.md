@@ -28,9 +28,10 @@ substitutions:
   params:
     vars:
       title: Displacement and Potential Energy of an Oscillator
-    choice: one-eighth
+    choice: half
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 A simple harmonic oscillator has a displacement as a function of time given by $x(t) = A\cos(\frac{2\pi t}{T})$. When {{ params.choice }} of the oscillator's energy is potential energy, what is its displacement from equilibrium?
@@ -43,8 +44,6 @@ Note that it may not be necessary to use every variable. Use the following table
 | $T$  | T  |
 
 ### Answer Section
-
-{{ substitutions.part1.label }}
 
 ## Attribution
 

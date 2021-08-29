@@ -38,6 +38,7 @@ Plane A takes off with a velocity of $\vec{v}\_A$ = (190 km/h)$\hat{\imath}$ rel
 | $\hat{j}$  | j_hat  |
 
 <img src="Q5.png" width = 400px alt = "Aircraft carrier with plane A taking off along the x-axis and plane B taking off at a 30 degree angle from the x-axis.">
+
 ## Part 1
 
 What are the x- and y-components of the velocity of plane A as measured by the pilot of plane B?

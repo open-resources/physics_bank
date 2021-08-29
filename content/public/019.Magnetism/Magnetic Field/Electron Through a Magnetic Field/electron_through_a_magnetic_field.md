@@ -41,6 +41,7 @@ substitutions:
         value: None of the above
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 An electron passes through a magnetic field without being deflected. What do you conclude about the magnetic field?

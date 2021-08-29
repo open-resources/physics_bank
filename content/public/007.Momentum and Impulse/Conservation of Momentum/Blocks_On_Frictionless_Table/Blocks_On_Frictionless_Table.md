@@ -29,14 +29,19 @@ substitutions:
   params:
     vars:
       title: Blocks On Frictionless Table
-    v0: 475
+      units: "$\frac{m}{s}$"
+    v0: 426
     v1: 6
     mb: 14
-    mw: 479
+    mw: 456
     d: 3
 ---
 # {{ params.vars.title }}
-Two {{params.mw}} $g$ blocks of wood are {{params.d}} $m$ apart on a frictionless table. A {{params.mb}} $g$ bullet is fired at {{params.v0}} $\frac{m}{s}$ toward the blocks. It passes all the way through the first block, then embeds itself in the second block.The speed of the first block immediately afterwards is {{params.v1}} $\frac{m}{s}$.
+Two {{params.mw}} $g$ blocks of wood are {{params.d}} $m$ apart on a frictionless table.
+A {{params.mb}} $g$ bullet is fired at {{params.v0}} {{ params.vars.units }} toward the blocks.
+It passes all the way through the first block, then embeds itself in the second block.
+The speed of the first block immediately afterwards is {{params.v1}} $\frac{m}{s}$.
+
 ## Question Text
 
 What is the speed of the second block after the bullet stops in it?

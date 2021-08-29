@@ -99,6 +99,7 @@ Evaluate the magnetic flux $\oint\vec{\mathbf{B}}\cdot d\vec{\mathbf{\ell}}$ for
 
 <img src="OSUPv2p12_43.png" width=450 alt="The cross section of a coil with various Amperian loops">
 <p></p>
+
 ## Part 1
 
 Path A:
@@ -110,6 +111,7 @@ Path A:
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
 - {{ params.part1.ans5.value }}
+
 ## Part 2
 
 Path B:
@@ -121,6 +123,7 @@ Path B:
 - {{ params.part2.ans3.value }}
 - {{ params.part2.ans4.value }}
 - {{ params.part2.ans5.value }}
+
 ## Part 3
 
 Path C:
@@ -132,6 +135,7 @@ Path C:
 - {{ params.part3.ans3.value }}
 - {{ params.part3.ans4.value }}
 - {{ params.part3.ans5.value }}
+
 ## Part 4
 
 Path D:

@@ -113,6 +113,7 @@ Evaluate the magnetic flux $\oint\vec{\mathbf{B}}\cdot d\vec{\mathbf{\ell}}$ for
 
 <img src="OSUPv2p12_42.png" width=450 alt="Various Amperian loops threaded by currents">
 <p></p>
+
 ## Part 1
 
 Part (a):
@@ -124,6 +125,7 @@ Part (a):
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
 - {{ params.part1.ans5.value }}
+
 ## Part 2
 
 Part (b):
@@ -135,6 +137,7 @@ Part (b):
 - {{ params.part2.ans3.value }}
 - {{ params.part2.ans4.value }}
 - {{ params.part2.ans5.value }}
+
 ## Part 3
 
 Part (c):
@@ -146,6 +149,7 @@ Part (c):
 - {{ params.part3.ans3.value }}
 - {{ params.part3.ans4.value }}
 - {{ params.part3.ans5.value }}
+
 ## Part 4
 
 Part (d):
@@ -157,6 +161,7 @@ Part (d):
 - {{ params.part4.ans3.value }}
 - {{ params.part4.ans4.value }}
 - {{ params.part4.ans5.value }}
+
 ## Part 5
 
 Part (e):

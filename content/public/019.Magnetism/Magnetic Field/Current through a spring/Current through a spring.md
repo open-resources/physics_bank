@@ -44,6 +44,7 @@ substitutions:
         value: The length stays the same
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 What happens to the length of a suspended spring when a current passes through it?

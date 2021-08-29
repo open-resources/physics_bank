@@ -54,21 +54,21 @@ substitutions:
     vars:
       title: A Frictionless Air Track?
       units: $m/s^2$
-    m1: 483.0
-    m2: 78.67
+    m1: 379.5
+    m2: 63.78
     d_a: 0.02
-    mean: 1.52
-    sd: 0.0902
-    a1: 1.35
-    a2: 1.43
-    a3: 1.48
-    a4: 1.63
-    a5: 1.52
-    a6: 1.59
-    a7: 1.51
-    a8: 1.65
-    a9: 1.44
-    a10: 1.57
+    mean: 1.56
+    sd: 0.163
+    a1: 1.74
+    a2: 1.79
+    a3: 1.37
+    a4: 1.37
+    a5: 1.32
+    a6: 1.54
+    a7: 1.49
+    a8: 1.68
+    a9: 1.53
+    a10: 1.73
     part4:
       ans1:
         value: The track is frictionless because $a_{expected}$ does not agree with
@@ -100,6 +100,7 @@ Because of your excellent work in lab, your professor asks you to test out a new
 | 10   |   {{ params.a10 }}      |
 | **Mean** | {{ params.mean }}      |
 | **SD** | {{ params.sd }}      |
+
 ## Part 1
 
 Calculate $a\_{expected}$.
@@ -107,6 +108,7 @@ Calculate $a\_{expected}$.
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
+
 ## Part 2
 
 Calculate $a\_{measured}$.
@@ -114,6 +116,7 @@ Calculate $a\_{measured}$.
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
+
 ## Part 3
 
 Calculate the standard deviation error of $a\_{measured}$.
@@ -121,6 +124,7 @@ Calculate the standard deviation error of $a\_{measured}$.
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
+
 ## Part 4
 
 Would you conclude that the air track system is frictionless as claimed? Justify your answer!

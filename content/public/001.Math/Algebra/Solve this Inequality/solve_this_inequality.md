@@ -25,21 +25,22 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: -4x + -6 > -6x + 9
+      formula: 6x + 4 > 3x + 9
     part1:
       ans1:
-        value: x > 15/2
+        value: x > 5/3
       ans2:
-        value: x < 15/2
+        value: x < 5/3
       ans3:
-        value: x < 2/15
+        value: x < 3/5
       ans4:
-        value: x > 2/15
+        value: x > 3/5
       ans5:
         value: Don't Know
 ---
 # {{ params.vars.title }}
 The solution of the inequality {{params.vars.formula}} is:
+
 ## Part 1
 
 ### Answer Section

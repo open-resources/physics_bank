@@ -116,6 +116,7 @@ A portion of a long, cylindrical coaxial cable is shown in the figure.
 A current $I$ flows down the centre conductor, and this current is returned in the outer conductor.
 
 <img src="OSUPv2p12_48.png" width=400 alt="Section of a cylindrical coaxial cable">
+
 ## Part 1
 
 Determine the magnitude of the magnetic field in the region $r\\< r_1$.
@@ -123,6 +124,7 @@ Determine the magnitude of the magnetic field in the region $r\\< r_1$.
 In your symbolic expression, you may copy and paste the Greek symbol `Î¼0`. Use `pi` to represent Ï.
 
 ### Answer Section
+
 ## Part 2
 
 What is the direction of the magnetic field calculated in Part 1?
@@ -132,6 +134,7 @@ What is the direction of the magnetic field calculated in Part 1?
 - {{ params.part2.ans1.value }}
 - {{ params.part2.ans2.value }}
 - {{ params.part2.ans3.value }}
+
 ## Part 3
 
 Determine the magnitude of the magnetic field in the region $r_1\\< r\\< r_2$.
@@ -139,6 +142,7 @@ Determine the magnitude of the magnetic field in the region $r_1\\< r\\< r_2$.
 In your symbolic expression, you may copy and paste the Greek symbol `Î¼0`. Use pi to represent `Ï`.
 
 ### Answer Section
+
 ## Part 4
 
 What is the direction of the magnetic field calculated in Part 3?
@@ -148,6 +152,7 @@ What is the direction of the magnetic field calculated in Part 3?
 - {{ params.part4.ans1.value }}
 - {{ params.part4.ans2.value }}
 - {{ params.part4.ans3.value }}
+
 ## Part 5
 
 Determine the magnitude of the magnetic field in the region $r_2\\< r\\< r_3$.
@@ -155,6 +160,7 @@ Determine the magnitude of the magnetic field in the region $r_2\\< r\\< r_3$.
 In your symbolic expression, you may copy and paste the Greek symbol `Î¼0`. Use `pi` to represent `Ï`.
 
 ### Answer Section
+
 ## Part 6
 
 What is the direction of the magnetic field calculated in Part 5?
@@ -164,6 +170,7 @@ What is the direction of the magnetic field calculated in Part 5?
 - {{ params.part6.ans1.value }}
 - {{ params.part6.ans2.value }}
 - {{ params.part6.ans3.value }}
+
 ## Part 7
 
 Determine the magnitude of the magnetic field in the region $r > r_3$.
@@ -171,6 +178,7 @@ Determine the magnitude of the magnetic field in the region $r > r_3$.
 In your symbolic expression, you may copy and paste the Greek symbol `Î¼0`. Use `pi` to represent Ï.
 
 ### Answer Section
+
 ## Part 8
 
 What is the direction of the magnetic field calculated in Part 7?

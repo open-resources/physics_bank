@@ -69,20 +69,21 @@ part5:
 substitutions:
   params:
     vars:
-      name1: Mateo
+      name1: Ximena
       name2: Aliyah
       title: A Skateboarder and an Observer
       unit_v: $m/s$
       unit_t: $s$
       unit_x: $m$
-    v: -1.06
-    v_b: 5.23
-    h: 3.62
-    m_s: 98.9
-    m_b: 2.42
+    v: -1.9
+    v_b: 4.57
+    h: 3.09
+    m_s: 105.0
+    m_b: 1.48
 ---
 # {{ params.vars.title }}
 {{ params.vars.name1 }}  is  on  a  skateboard  and  has  an  initial  velocity  of  ({{ params.v }} $m/s$) $\hat{\imath}$ relative  to  {{ params.vars.name2 }}  who  is at rest with respect to the earth.  Just as they are gliding past {{ params.vars.name2 }},  {{ params.vars.name1 }} throws a ball in the positive $x$-direction from a height of {{ params.h }} m.  According to {{ params.vars.name1 }}, the ball has an initial velocity of ({{ params.v_b }} $m/s$) $\hat{\imath}$.
+
 ## Part 1
 
 What is the initial velocity of the ball according to {{ params.vars.name2 }}?
@@ -90,6 +91,7 @@ What is the initial velocity of the ball according to {{ params.vars.name2 }}?
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.unit_v }}.
+
 ## Part 2
 
 How long is the ball in the air?
@@ -97,6 +99,7 @@ How long is the ball in the air?
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.unit_t }}.
+
 ## Part 3
 
 How far to the right of {{ params.vars.name2 }} does the ball land?
@@ -104,6 +107,7 @@ How far to the right of {{ params.vars.name2 }} does the ball land?
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.unit_x }}.
+
 ## Part 4
 
 If the mass of {{ params.vars.name1 }} plus the skateboard is {{ params.m_s }} $kg$ and the ball has a mass of {{ params.m_b }} $kg$, what is {{ params.vars.name1 }}'s speed, as measured by {{ params.vars.name2 }}, immediately after releasing the ball?
@@ -111,6 +115,7 @@ If the mass of {{ params.vars.name1 }} plus the skateboard is {{ params.m_s }} $
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.unit_v }}.
+
 ## Part 5
 
 How far to the right of {{ params.vars.name1 }} does the ball land?

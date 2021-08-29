@@ -43,6 +43,7 @@ substitutions:
 ---
 # {{ params.vars.title }}
 A  simple  pendulum  swings  at  small  angles.
+
 ## Part 1
 
 If  the  amplitude  and  length  of the pendulum are both {{ params.choice }}, the maximum speed of the pendulum's bob is:

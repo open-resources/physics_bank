@@ -26,8 +26,8 @@ substitutions:
   params:
     vars:
       title: Direction of Movement of the Elevator
-    m_st: 738
-    m_sc: 709
+    m_st: 679
+    m_sc: 704
     part1:
       ans1:
         value: Downward.
@@ -38,6 +38,7 @@ substitutions:
 ---
 # {{ params.vars.title }}
 A {{ params.m_st }} $N$ student standing on a scale in an elevator notices that the scale reads {{ params.m_sc }} $N$.
+
 ## Part 1
 
 From this information, the student knows that the elevator must be moving:

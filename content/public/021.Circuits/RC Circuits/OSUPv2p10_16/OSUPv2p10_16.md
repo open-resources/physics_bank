@@ -52,6 +52,7 @@ A battery, switch, capacitor, and lightbulb are connected in series.
 The switch is initially open.
 
 ![A circuit with an open switch, a lightbulb, a capacitor, and a battery ](OSUPv2p10_16.png)
+
 ## Part 1
 
 Describe what happens to the lightbulb when the switch is closed.

@@ -42,11 +42,11 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-      name: Emilia
-    i: 339
-    m: 36
+      name: Mateo
+    i: 371
+    m: 27
     v_1: 16
-    v_2: 28
+    v_2: 8
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.
@@ -56,6 +56,7 @@ The total inertia of {{params.vars.name}} and their rocket is {{ params.i }} kg.
 They are initially at rest.
 {{params.vars.name}} throws the first rock, and then they are moving with velocity {{ params.v_1 }} {{ params.vars.units1 }}.
 Then {{params.vars.name}} throws the second rock out of the back and they are moving with velocity {{ params.v_2 }} {{ params.vars.units1 }} .
+
 ## Part 1
 
 (a) What is the total momentum of the system?
@@ -63,6 +64,7 @@ Then {{params.vars.name}} throws the second rock out of the back and they are mo
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units1 }}{{ params.vars.units2 }}.
+
 ## Part 2
 
 (b) With what velocity is the first rock {{params.vars.name}} threw moving through space?
@@ -70,6 +72,7 @@ Please enter in a numeric value in {{ params.vars.units1 }}{{ params.vars.units2
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units1 }}.
+
 ## Part 3
 
 (c) With what velocity is the second rock {{params.vars.name}} threw moving through space?

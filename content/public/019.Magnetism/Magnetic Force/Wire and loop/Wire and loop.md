@@ -59,6 +59,7 @@ The inifinite, straight wire shown in the figure carries a current $I_1$.
 The rectangular loop, whose long sides are parallel to the wire, carries a current $I_2$.
 
 <img src="OSUPv2p12_34.png" width=350 alt="An infinite wire with current I1 next to a rectangular loop of wire with current I2.">
+
 ## Part 1
 
 Find an expression for the magnitude of the force on the rectangular loop due to the magnetic field of the wire.
@@ -67,6 +68,7 @@ You may copy and paste the Greek character Î¼0 into you symbolic expression.
 Use `pi` to represent Ï.
 
 ### Answer Section
+
 ## Part 2
 
 What is the direction of the net force on the rectangular loop due to the magnetic field of the wire?

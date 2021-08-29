@@ -32,8 +32,8 @@ substitutions:
     vars:
       title: Ball on a Slanted Table
       units: m/s
-    d: 1.9
-    theta: 33
+    d: 2.9
+    theta: 40
 ---
 # {{ params.vars.title }}
 A ball is launched with an initial velocity of $\vec{v}\_0$ from one corner of a smooth, flat board.
@@ -41,6 +41,7 @@ The angle launch is $\theta$ = {{params.theta}}$^o$.
 As shown, the board has a width of {{params.d}} $m$ and is tilted up at a 20.0$^o$ angle.
 
 <img src="Q4.png" width=300 alt="A table of width d is slanted at 20 degrees. A ball is launched from the bottom left corner towards the bottom right corner at and angle theta." >
+
 ## Question Text
 
 Determine the initial speed $v_0$ required to make the ball land at the adjacent corner labelled as "Target".

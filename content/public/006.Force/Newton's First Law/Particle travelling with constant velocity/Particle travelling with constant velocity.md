@@ -39,6 +39,7 @@ substitutions:
         value: The acceleration of the particle is in the same direction as the velocity.
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 If a particle travels at constant velocity, which of the following statements must be true?

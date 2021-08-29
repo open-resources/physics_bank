@@ -40,10 +40,11 @@ substitutions:
   params:
     vars:
       title: Cosmic Ray Electron
-    v: 8.2
-    B: 3.2
+    v: 3.7
+    B: 4.6
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 A cosmic-ray electron moves at ${{params.v}} \times 10^6 \textrm{ m/s}$ perpendicular to Earth's magnetic field at an altitude where the field strength is ${{params.B}} \times 10^{-5} \textrm{ T}$.

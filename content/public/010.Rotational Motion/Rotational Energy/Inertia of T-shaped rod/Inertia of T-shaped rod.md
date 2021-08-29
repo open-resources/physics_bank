@@ -40,6 +40,7 @@ substitutions:
 ---
 # {{ params.vars.title }}
 Four 'T's are made from two identical rods of equal mass and length.  The Ts are rotated about various rotation axes indicated by the dashed lines in the figures.
+
 ## Part 1
 
 For which of the cases below is the resulting rotational inertia a {{ params.choice }}?

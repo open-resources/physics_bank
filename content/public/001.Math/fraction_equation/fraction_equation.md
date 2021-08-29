@@ -25,31 +25,32 @@ substitutions:
   params:
     vars:
       title: Rational Equation
-    x1: 2
-    x2: 8
+    x1: 4
+    x2: 4
     x3: 2
-    x4: 6
+    x4: 8
     part1:
       ans1:
-        value: -22/9
+        value: -4/3
       ans2:
-        value: 2/9
+        value: '0'
       ans3:
-        value: '-22'
+        value: '12'
       ans4:
-        value: -2/9
+        value: '0'
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 Solve the equation: $\frac{x-{{ params.x1}}}{x+{{ params.x2 }}} = \frac{x+{{ params.x3}}}{x-{{ params.x4 }}}$
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

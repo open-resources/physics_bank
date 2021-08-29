@@ -41,6 +41,7 @@ substitutions:
 ---
 # {{ params.vars.title }}
 A broken-down cruise ship is towed through the water by a tug boat at constant velocity.
+
 ## Part 1
 
 The constant force applied to the ship by the cable that joins the ship to the tug boat:

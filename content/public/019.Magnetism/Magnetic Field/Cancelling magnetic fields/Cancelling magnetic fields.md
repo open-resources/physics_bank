@@ -51,6 +51,7 @@ substitutions:
 Two long wires, one of which has a semicircular bend of radius $R$, are positioned as shown in the figure.
 
 <img src="OSUPv2p12_21.png" width=350 alt="Parallel wires, one with a semicircular bend">
+
 ## Part 1
 
 If both wires carry a current $I$, how far apart must their parallel sections be so that the net magnetic field at P is zero?
@@ -58,6 +59,7 @@ If both wires carry a current $I$, how far apart must their parallel sections be
 In your symbolic expression, use pi to represent Ï.
 
 ### Answer Section
+
 ## Part 2
 
 What is the direction of the current in the straight wire on the right-hand side?

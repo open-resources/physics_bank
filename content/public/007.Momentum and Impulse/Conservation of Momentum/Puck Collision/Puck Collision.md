@@ -26,7 +26,7 @@ substitutions:
   params:
     vars:
       title: Puck Collision
-    E: 20
+    E: 24
     part1:
       ans1:
         value: momentum increases, kinetic energy increases
@@ -48,6 +48,7 @@ Before the collision. The orange puck moves with horizontal velocity v o i (o fo
 After the collision. Both pucks move in opposite directions. The orange puck moves with a velocity v o f (f for final) at an angle theta with respect to the positive x-axis. The blue puck moves with a velocity v b f (b for blue) at an angle phi with respect to the positive x-axis.
 <p>Long description ends.</p>
 </div>
+
 ## Part 1
 
 Which of the statements below best describes how the system's momentum and kinetic energy change after the collision and explosion?

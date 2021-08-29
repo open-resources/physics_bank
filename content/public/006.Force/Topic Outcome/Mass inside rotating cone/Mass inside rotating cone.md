@@ -32,6 +32,7 @@ substitutions:
       title: Mass inside a Rotating Cone
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 ![An inverted cone whose walls make an angle theta with the vertical axis. The vertical height measured from the pointed end is h.](q12_2013practiceFinal.png)

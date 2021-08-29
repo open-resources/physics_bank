@@ -40,6 +40,7 @@ substitutions:
 ---
 # {{ params.vars.title }}
 Modern cars are outfitted with air bags that quickly inflate with air if the car experiences too large an acceleration.
+
 ## Part 1
 
 Air bags work because in the event of an accident, they (select a statement):

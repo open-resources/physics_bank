@@ -29,13 +29,14 @@ part1:
 substitutions:
   params:
     vars:
-      name: Abbas
+      name: Ximena
       title: Throwing Stones
       units: $s$
-    v: 20.7
+    v: 12.9
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} simultaneously throws two stones from the top edge of a building with a speed {{ params.v }} $m/s$. They throw one straight down and the other straight up.
+
 ## Question Text
 
 The first one hits the street in a time $t_1$. How much later is it before the second stone hits?

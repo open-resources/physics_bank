@@ -59,6 +59,7 @@ An apple tree is transported by a truck moving to the right with constant veloci
 One of the apples shakes loose and falls towards the bed of the truck.
 
 <img src="q4image.png" alt = "Multiple choice options: a) curved down and to the right, b) straight down, c) curved down and to the left, d) straight down and to the right, e) straight down and to the left" style="width:500px">
+
 ## Part 1
 
 Of the curves shown above, which best describes the path followed by the apple as seen by a stationary observer on the ground, who observes the truck moving from his left to his right?
@@ -70,6 +71,7 @@ Of the curves shown above, which best describes the path followed by the apple a
 - {{params.part1.ans3.value}}
 - {{params.part1.ans4.value}}
 - {{params.part1.ans5.value}}
+
 ## Part 2
 
 Of the curves shown above, which best describes the path followed by the apple as seen by an observer sitting in the truck?

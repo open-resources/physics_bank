@@ -26,28 +26,30 @@ substitutions:
   params:
     vars:
       title: Exploding Asteroid
-      name: Aliyah
-      name2: Ximena
+      name: Maya
+      name2: Maya
     part1:
       ans1:
-        value: The CHANGE in the momentum vector they determine for each piece of
-          the asteroid before and after the explosion will be the same.
+        value: The total momentum vectors they use to describe the asteroid system
+          (both pieces) will be the same.
       ans2:
-        value: The FORCE vector they determine that each piece of the asteroid felt
-          during the explosion will be the same.
-      ans3:
-        value: They will both agree on how the kinetic energy of each of the pieces
+        value: They will both agree on how the TOTAL kinetic energy of the system
           has changed.
-      ans4:
+      ans3:
         value: The momentum vectors they use to describe each of the two asteroid
           pieces will be the same.
+      ans4:
+        value: They will both agree on how the kinetic energy of each of the pieces
+          has changed.
       ans5:
-        value: They will both agree on how the internal energy of the system has changed.
-      ans6:
         value: The final velocity vectors they use to describe the two asteroid pieces
           will be the same.
+      ans6:
+        value: The final speeds they measure for the two asteroid pieces will be the
+          same.
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 {{ params.vars.name }} and {{ params.vars.name2 }} are both standing in their space ships, each one moving with a constant (but different) velocity. They carefully watch and measure, from their two space ships, an asteroid exploding into two parts. When they compare their final numbers, which of their numbers will agree?

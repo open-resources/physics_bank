@@ -29,6 +29,7 @@ substitutions:
       title: Centripetal Motion
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 Write the centripetal force $F_r$ in terms of the mass $m$, velocity $v$, and radius $r$.

@@ -39,6 +39,7 @@ substitutions:
         value: 'False'
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 The electric field inside a metal is always zero.

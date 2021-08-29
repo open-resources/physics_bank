@@ -43,6 +43,7 @@ substitutions:
         value: non-zero and constant
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 The strength of the electric field in a region of space where the electric potential is a constant is:

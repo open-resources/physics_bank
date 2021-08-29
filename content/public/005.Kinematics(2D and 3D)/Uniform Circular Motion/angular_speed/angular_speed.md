@@ -25,18 +25,19 @@ substitutions:
     vars:
       title: Angular Speed
       units: rad/s
-    rev: 5
+    rev: 3
     part1:
       ans1:
-        value: 1.3
+        value: 2.1
       ans2:
-        value: 16.0
+        value: 9.4
       ans3:
-        value: 31.0
+        value: 19.0
       ans4:
-        value: 0.8
+        value: 0.48
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 What is the approximate angular speed of a windmill spinning at the rate of {{ params.rev }} rev/s.

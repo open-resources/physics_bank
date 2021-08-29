@@ -28,18 +28,19 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: bus
+      vehicle: truck
       title: Displacement of a Vehicle
       units: blocks
-    c1: 77
-    c2: 15
-    c3: 97
+    c1: 67
+    c2: 88
+    c3: 82
     dir1: west
-    dir2: east
-    dir3: north
+    dir2: south
+    dir3: west
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }} moves {{ params.c1}} blocks due {{ params.dir1}}, {{ params.c2 }} blocks due {{ params.dir2}}, and another {{ params.c3 }} blocks due {{ params.dir3}}.
+
 ## Question Text
 
 Assume all blocks are of equal size. What is the magnitude of the {{ params.vars.vehicle }}'s displacement, start to finish?

@@ -29,15 +29,16 @@ substitutions:
       ans1:
         value: energy
       ans2:
-        value: charge
-      ans3:
-        value: current
-      ans4:
         value: power
-      ans5:
+      ans3:
         value: voltage
+      ans4:
+        value: current
+      ans5:
+        value: charge
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 Your electric bill gives your consumption in units of kilowatt-hour ($\textrm{kW}\cdot\textrm{h}$).

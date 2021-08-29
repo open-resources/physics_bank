@@ -55,9 +55,9 @@ substitutions:
   params:
     vars:
       title: Varying Separation Distance of Capacitor Plates
-    a: '25.0'
-    b: '1.50'
-    c: '1.75'
+    a: '15.0'
+    b: '1.25'
+    c: '3.00'
     v: '70'
     part3:
       ans1:
@@ -69,6 +69,7 @@ substitutions:
 ---
 # {{ params.vars.title }}
 A parallel-plate capacitor is made of two square plates with side length ${{params.a }} \textrm{ cm}$ that are ${{params.b }} \textrm{ mm}$ apart. The capacitor is connected to a ${{params.v }} \textrm{ V}$ battery. With the battery still connected, the plates are pulled apart to a separation distance of ${{params.c }} \textrm{ mm}$.
+
 ## Part 1
 
 What is the energy stored in the capacitor before the plates are pulled apart?
@@ -76,6 +77,7 @@ What is the energy stored in the capacitor before the plates are pulled apart?
 ### Answer Section
 
 Please enter a numeric value.
+
 ## Part 2
 
 What is the energy stored in the capacitor after the plates are pulled apart?
@@ -83,6 +85,7 @@ What is the energy stored in the capacitor after the plates are pulled apart?
 ### Answer Section
 
 Please enter a numeric value.
+
 ## Part 3
 
 Which best describes why the energy decreases even though work is done separating the plates?

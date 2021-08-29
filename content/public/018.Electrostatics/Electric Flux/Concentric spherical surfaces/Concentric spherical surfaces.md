@@ -44,6 +44,7 @@ substitutions:
         value: The same electric flux passes through each sphere.
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 Two concentric spherical surfaces enclose a point charge $q$.

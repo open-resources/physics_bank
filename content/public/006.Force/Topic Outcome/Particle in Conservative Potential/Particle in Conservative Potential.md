@@ -43,6 +43,7 @@ substitutions:
         value: The particle must be massless.
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 If at some position in space, a particle in a conservative potential has no force acting on it:

@@ -52,13 +52,14 @@ substitutions:
     vars:
       title: Head-on Collision of Carts
       units: $(m/s)\; \hat{\imath}$
-    c1: 3
-    c2: 3
-    v0: 10.3
+    c1: 6
+    c2: 6
+    v0: 16.2
 ---
 # {{ params.vars.title }}
 A cart of mass ${{ params.c1 }}m$ moving with velocity $\vec{v_0} = ( {{ params.v0 }} m/s)\hat{\imath}$ collides head-on with a cart of mass ${{ params.c2 }}m$ that is initially at rest.
 Ignore friction.
+
 ## Part 1
 
 If the collision is perfectly inelastic, what is the final velocity of each cart?
@@ -66,6 +67,7 @@ If the collision is perfectly inelastic, what is the final velocity of each cart
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
+
 ## Part 2
 
 If the collision is elastic, what is the final velocity of each cart?
@@ -74,6 +76,7 @@ Enter the final velocity of the cart with mass ${{ params.c1 }}m$.
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
+
 ## Part 3
 
 If the collision is elastic, what is the final velocity of each cart?

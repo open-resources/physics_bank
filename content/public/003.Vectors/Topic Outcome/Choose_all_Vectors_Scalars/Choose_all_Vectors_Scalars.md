@@ -29,19 +29,20 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Mass
+        value: Distance travelled
       ans2:
-        value: Density
+        value: Volume
       ans3:
-        value: Energy
+        value: Power
       ans4:
-        value: The position in a 1 dimensional system
+        value: Length
       ans5:
-        value: The position in 3 dimensions
-      ans6:
         value: The average acceleration
+      ans6:
+        value: velocity
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 Consider the following quantities. Choose all of those which are {{ params.choice }}.

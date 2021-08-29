@@ -42,6 +42,7 @@ substitutions:
 ---
 # {{ params.vars.title }}
 A circular loop of radius $R$ carries a current $I$.
+
 ## Question Text
 
 At what distance $z$ along the axis of the loop is the magnetic field one-half its value at the centre of the loop?

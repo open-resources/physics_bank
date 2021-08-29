@@ -39,6 +39,7 @@ substitutions:
 The figure below shows the velocity versus time graphs of two different collisions. The graph on the left shows a collision between cart A and cart S. The graph of the right shows a collision between cart B and cart S.
 
 <img src="Q2.png" alt="Two graphs of velocity versus time depicting a collision between two carts. The difference in velocity between Cart A and S is larger than the velocity difference between Cart B and S, at both the beginning and the end of the graph." >
+
 ## Part 1
 
 If $\frac{m_A}{m_S}$ = 1/2 and $\frac{m_B}{m_S}$ = 3, for which of the collisions is the system of carts an isolated system?

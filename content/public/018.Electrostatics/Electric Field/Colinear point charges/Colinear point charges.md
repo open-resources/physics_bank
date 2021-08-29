@@ -41,6 +41,7 @@ substitutions:
         value: The absolute value of the two charges are the same.
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 If the electric field at a point on the line between two charges is zero, what do you know about the charges?

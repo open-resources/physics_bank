@@ -74,12 +74,13 @@ substitutions:
   params:
     vars:
       title: Charging Capacitors
-    a: '60'
-    b: '20'
+    a: '35'
+    b: '10'
     v: '700'
 ---
 # {{ params.vars.title }}
 A ${{params.a }} \textrm{ pF}$ capacitor is charged to a potential difference of ${{params.v }} \textrm{ V}$. Its terminals are then connected to those of an uncharged ${{params.b }} \textrm{ pF}$ capacitor.
+
 ## Part 1
 
 What is the original charge on the ${{params.a }} \textrm{ pF}$ capacitor? Enter your answer in units of nC.
@@ -87,6 +88,7 @@ What is the original charge on the ${{params.a }} \textrm{ pF}$ capacitor? Enter
 ### Answer Section
 
 Please enter a numeric value.
+
 ## Part 2
 
 What is the charge on the ${{params.a }} \textrm{ pF}$ capacitor after the connection is made? Enter your answer in units of nC.
@@ -94,6 +96,7 @@ What is the charge on the ${{params.a }} \textrm{ pF}$ capacitor after the conne
 ### Answer Section
 
 Please enter a numeric value.
+
 ## Part 3
 
 What is the charge on the ${{params.b }} \textrm{ pF}$ capacitor after the connection is made? Enter your answer in units of nC.
@@ -101,6 +104,7 @@ What is the charge on the ${{params.b }} \textrm{ pF}$ capacitor after the conne
 ### Answer Section
 
 Please enter a numeric value.
+
 ## Part 4
 
 What is the potential difference across the plates of each capacitor after the connection?

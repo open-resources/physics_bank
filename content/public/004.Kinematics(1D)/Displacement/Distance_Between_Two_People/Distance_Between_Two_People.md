@@ -26,32 +26,32 @@ substitutions:
     vars:
       title: Distance Between Two People
       units: $m$
-      name1: Ximena
-      name2: Aliyah
-    s: 1
-    ai_1: 1
-    ai_2: 4
-    ai_3: 3
-    aj_1: 3
+      name1: Maya
+      name2: Santiago
+    s: 2
+    ai_1: 3
+    ai_2: 2
+    ai_3: 1
+    aj_1: 2
     aj_2: 5
     aj_3: 3
     bi_1: 5
     bi_2: 4
     bi_3: 3
-    bj_1: 5
-    bj_2: 3
-    bj_3: 3
+    bj_1: 4
+    bj_2: 1
+    bj_3: 2
     part1:
       ans1:
-        value: 7.2
+        value: 14.0
       ans2:
-        value: 3.6
+        value: 7.1
       ans3:
-        value: 52.0
+        value: 200.0
       ans4:
-        value: 5.8
+        value: 13.0
       ans5:
-        value: 34.0
+        value: 180.0
 ---
 # {{ params.vars.title }}
 The position of {{ params.vars.name1 }} as a function of time is given by:
@@ -63,6 +63,7 @@ $\vec{r}\_A = ({{ params.ai_1 }}+{{ params.ai_2 }}t-{{ params.ai_3 }}t^2)\hat{\i
 $\vec{r}\_B = ({{ params.bi_1 }}+{{ params.bi_2 }}t-{{ params.bi_3 }}t^2)\hat{\imath} + ({{ params.bj_1 }}+{{ params.bj_2 }}t+{{ params.bj_3 }}t^2)\hat{\jmath}$
 
 The positions $\vec{r}\_A$ and $\vec{r}\_B$ are in meters and $t$ is in seconds.
+
 ## Part 1
 
 What is the distance between {{ params.vars.name1 }} and {{ params.vars.name2 }} when $t$ = {{ params.s }}?

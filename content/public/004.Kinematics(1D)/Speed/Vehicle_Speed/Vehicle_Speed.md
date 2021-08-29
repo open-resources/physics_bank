@@ -40,9 +40,10 @@ substitutions:
 # {{ params.vars.title }}
 A person is initially driving a {{params.vars.vehicle}} east down a straight road.
 The magnitude of the instantaneous acceleration is decreasing with time, but the direction of the acceleration is always to the east.
+
 ## Part 1
 
-The speed of the car is:
+The speed of the {{params.vars.vehicle}} is:
 
 ### Answer Section
 

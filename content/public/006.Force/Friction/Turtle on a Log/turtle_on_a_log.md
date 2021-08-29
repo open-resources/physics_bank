@@ -39,6 +39,7 @@ substitutions:
         value: $n = mg\sin\theta$, $f_s = mg\cos\theta$
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 A turtle lies on a log in the sun as shown in the figure below.

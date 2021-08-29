@@ -37,6 +37,7 @@ substitutions:
 ---
 # {{ params.vars.title }}
 The figure below shows the position versus time plots of two carts that collide.
+
 ## Part 1
 
 Which cart has the greater inertia?

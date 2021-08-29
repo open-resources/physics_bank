@@ -38,14 +38,15 @@ substitutions:
   params:
     vars:
       title: Square toroid
-    N: '449'
-    d: '3.4'
-    r: '27'
-    I: '1.8'
+    N: '420'
+    d: '4.2'
+    r: '20'
+    I: '1.4'
 ---
 # {{ params.vars.title }}
 A toroid with a square cross section ${{ params.d }}\textrm{ cm}\times{{ params.d }}\textrm{ cm}$ has an inner radius of ${{ params.r }}\textrm{ cm}$.
 It is wound with ${{ params.N }}$ turns of wire, and it carries a current of ${{ params.I }}\textrm{ A}$.
+
 ## Question Text
 
 What is the strength of the magnetic field at the centre of the square cross section?

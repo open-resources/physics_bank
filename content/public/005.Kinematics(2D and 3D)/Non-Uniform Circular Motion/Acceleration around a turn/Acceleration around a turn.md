@@ -40,6 +40,7 @@ substitutions:
 ---
 # {{ params.vars.title }}
 As you drive *{{ params.vars.dir }}* around a turn (as viewed from above), you see backed-up traffic ahead and so you slow down.
+
 ## Part 1
 
 In which of the figures below does the arrow best represent the acceleration of the {{ params.vars.vehicle }}?

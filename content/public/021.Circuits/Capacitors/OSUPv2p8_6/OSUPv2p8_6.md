@@ -44,6 +44,7 @@ substitutions:
         value: Both parallel and series connections are equally effective
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 If you wish to store a large amount of charge in a capacitor bank, would you connect the capacitors in series or parallel?

@@ -44,13 +44,14 @@ substitutions:
       units1: m/s
       units2: m
     m1: 0.15
-    m2: 0.99
-    v: 25
+    m2: 0.84
+    v: 29
 ---
 # {{ params.vars.title }}
 The Japanese flying squid, shown in the photograph below, is able to "jump" off the surface of the sea by taking water into its body cavity and then ejecting the water vertically downward. A squid is able to eject {{params.m1}} $kg$ of water with a speed of {{params.v}} $m/s$. Without any water in its cavity, the mass of the squid is {{params.m2}} $kg$.
 
 <img src="Q6.png" width=300 alt = "Japanese flying squid">
+
 ## Part 1
 
 If starting from rest at the surface of the sea, what will be the speed of the squid immediately after ejecting the water?
@@ -58,6 +59,7 @@ If starting from rest at the surface of the sea, what will be the speed of the s
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units1 }}.
+
 ## Part 3
 
 How high above the surface of the sea will the squid rise?

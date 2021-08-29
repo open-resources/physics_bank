@@ -33,6 +33,7 @@ substitutions:
         value: 'No'
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 Can all of the currents going into the junction shown below be positive?

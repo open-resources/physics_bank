@@ -30,6 +30,7 @@ substitutions:
       title: Kicked Soccer Ball
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 At time $t$ = 0 $s$, a large soccer ball is kicked straight up into the air with an initial velocity $\vec{v_0}$. Also at $t$ = 0 $s$, a small rocket fires its engines such that it is launched straight up into the air with a constant acceleration $\vec{a}$. The rocket starts from rest. As shown in the figure, at $t$ = 0 $s$ the centres of the soccer ball and rocket have the same position.

@@ -54,6 +54,7 @@ substitutions:
 ---
 # {{ params.vars.title }}
 At a given instant, an electron and a proton are moving with the same velocity in a constant magnetic field.
+
 ## Part 1
 
 Compare the magnetic forces on these particles.
@@ -64,6 +65,7 @@ Compare the magnetic forces on these particles.
 - {{ params.part1.ans2.value}}
 - {{ params.part1.ans3.value}}
 - {{ params.part1.ans4.value}}
+
 ## Part 2
 
 Compare their accelerations.

@@ -71,15 +71,16 @@ substitutions:
   params:
     vars:
       title: Analyzing Potential Difference and Electric Field
-    q: '4.0'
-    c: '5.0'
-    d: '1.0'
+    q: '12.0'
+    c: '4.0'
+    d: '2.0'
     k: '7.0'
 ---
 # {{ params.vars.title }}
 A parallel-plate capacitor has charge of magnitude ${{params.q }} \rm\ \mu\textrm{C}$ on each plate and capacitance ${{params.c }} \rm\ \mu\textrm{F}$  when there is air between the plates.
 The plates are separated by ${{params.d }} \textrm{ mm}$.
 With the charge on the plates kept constant, a dielectric with $\kappa = {{params.k }}$ is inserted between the plates, completely filling the volume between the plates.
+
 ## Part 1
 
 What is the potential difference between the plates of the capacitor before the dielectric has been inserted?
@@ -87,6 +88,7 @@ What is the potential difference between the plates of the capacitor before the 
 ### Answer Section
 
 Please enter a numeric value.
+
 ## Part 2
 
 What is the potential difference between the plates of the capacitor after the dielectric has been inserted?
@@ -94,6 +96,7 @@ What is the potential difference between the plates of the capacitor after the d
 ### Answer Section
 
 Please enter a numeric value.
+
 ## Part 3
 
 What is the electrical field at the point midway between the plates before the dielectric is inserted?
@@ -101,6 +104,7 @@ What is the electrical field at the point midway between the plates before the d
 ### Answer Section
 
 Please enter a numeric value.
+
 ## Part 4
 
 What is the electrical field at the point midway between the plates after the dielectric is inserted?

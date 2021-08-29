@@ -49,6 +49,7 @@ Block $m_2$ is attached to a spring with spring constant $k$ and equilibrium len
 Assume $m_2 > m_1$.
 
 ![A block of mass m one slides across a frictionless surface with speed v one and collides perfectly elastically with a block m two attached to a spring with spring constant k and equilibrium length x naught.](q13_2012Final.png)
+
 ## Part 1
 
 What is the amplitude of the resulting simple harmonic motion? Answer using the variables $m_1, m_2, k, x_0$ and/or $v_1$.
@@ -66,6 +67,7 @@ Note that it may not be necessary to use every variable. Use the following table
 ### Answer Section
 
 Enter answer here...
+
 ## Part 2
 
 What is the period of the resulting simple harmonic motion?
@@ -84,6 +86,7 @@ Note that it may not be necessary to use every variable. Use the following table
 ### Answer Section
 
 Enter answer here...
+
 ## Part 3
 
 What is the position of $m_2$ as a function of time?

@@ -37,7 +37,7 @@ part3:
 substitutions:
   params:
     vars:
-      name: Aliyah
+      name: Santiago
       title: Lowering a bucket - the rope, the bucket, the air, the earth
     part1:
       ans1:
@@ -79,6 +79,7 @@ substitutions:
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} stands on a cliff, and gently lowers a bucket of water to the ground using a rope. The bucket starts out with an initial downwards velocity, but {{ params.vars.name }} is tightening their grip on the rope as it slides through their hands, so that is slows as it descends, and when the bucket touches the ground it has zero velocity. Consider the energy in the situation and how the work is being done if the system consists of the rope, the bycket, the air, and the earth.
+
 ## Part 1
 
 Is the system open or closed?
@@ -88,6 +89,7 @@ Is the system open or closed?
 - {{params.part1.ans1.value}}
 - {{params.part1.ans2.value}}
 - {{params.part1.ans3.value}}
+
 ## Part 2
 
 What types of energy are in the system? Are they increasing or decreasing?
@@ -108,6 +110,7 @@ Note: You will be awarded full marks only if you select all the correct choices,
 - {{params.part2.ans8.value}}
 - {{params.part2.ans9.value}}
 - {{params.part2.ans10.value}}
+
 ## Part 3
 
 Is the work from external forces being done on the system positive or negative?

@@ -38,7 +38,7 @@ substitutions:
   params:
     vars:
       title: Which option is correct?
-    choice1: not possible
+    choice1: possible
     part1:
       ans1:
         value: 'True'
@@ -61,6 +61,7 @@ substitutions:
         value: Static
 ---
 # {{ params.vars.title }}
+
 ## Part 1
 
 It is {{ params.choice1 }} for the acceleration and velocity vectors of an object to be always perpendicular to each other.
@@ -69,6 +70,7 @@ It is {{ params.choice1 }} for the acceleration and velocity vectors of an objec
 
 - {{ params.part1.ans1.value}}
 - {{ params.part1.ans2.value}}
+
 ## Part 2
 
 An object can be accelerated without changing its kinetic energy.
@@ -77,6 +79,7 @@ An object can be accelerated without changing its kinetic energy.
 
 - {{ params.part2.ans1.value}}
 - {{ params.part2.ans2.value}}
+
 ## Part 3
 
 When measured from the zero-momentum reference frame, the system's kinetic energy is also always zero.
@@ -85,6 +88,7 @@ When measured from the zero-momentum reference frame, the system's kinetic energ
 
 - {{ params.part3.ans1.value}}
 - {{ params.part3.ans2.value}}
+
 ## Part 4
 
 When a car accelerates gradually (no squealing tires), is the friction between the tires and the road kinetic or static?

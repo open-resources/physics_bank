@@ -49,13 +49,13 @@ part4:
 substitutions:
   params:
     vars:
-      name: Ximena
+      name: Aliyah
       title: Motion of watermelon
       units1: ${m/s}^2$
       units2: $s$
-    a: 2
-    b: 4
-    c: 8
+    a: 3
+    b: 6
+    c: 6
     part4:
       ans1:
         value: The speed is increasing
@@ -68,6 +68,7 @@ substitutions:
 The position of a watermelon is given by:
 $x(t) = {{ params.a }}t^2 - {{ params.b}}t - {{ params.c }}$
 where $x$ is in meters and $t$ is in seconds.
+
 ## Part 1
 
 What is the velocity of the watermelon as a function of time?
@@ -85,20 +86,23 @@ Note that it may not be necessary to use every variable. Use the following table
 ### Answer Section
 
 {{ substitutions.part1.label }}
+
 ## Part 2
 
 At what time, if ever, is the watermelon at rest? (Enter -1 if the watermelon is never at rest)
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params.vars.units2 }}.
+
 ## Part 3
 
 What is the acceleration of the watermelon as a function of time?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params.vars.units1 }}.
+
 ## Part 4
 
 At $t=0$ is the speed of the watermelon increasing or decreasing?

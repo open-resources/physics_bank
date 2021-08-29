@@ -53,6 +53,7 @@ substitutions:
 What is the magnetic field at point P due to the current $I$ in the loop of wire shown?
 
 <img src="OSUPv2p12_18.png" width=300 alt="Semi-circular loop of current">
+
 ## Part 1
 
 You may copy the Greek symbol Î¼0 into your symbolic expression.
@@ -60,6 +61,7 @@ You may copy the Greek symbol Î¼0 into your symbolic expression.
 Magnitude:
 
 ### Answer Section
+
 ## Part 2
 
 Direction:

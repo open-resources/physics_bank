@@ -37,10 +37,11 @@ substitutions:
   params:
     vars:
       title: Energy Stored in a Capacitor
-    c: '13'
-    v: '7'
+    c: '8'
+    v: '10'
 ---
 # {{ params.vars.title }}
+
 ## Question Text
 
 How much energy is stored in a ${{params.c }} \rm\ \mu\textrm{F}$ capacitor whose plates are at a potential difference of ${{params.v }}\textrm{ V}$?

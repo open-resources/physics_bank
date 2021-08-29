@@ -41,13 +41,14 @@ substitutions:
     vars:
       title: Rotating Buckets
       units: kg
-    m1: 2.54
-    c: 2
+    m1: 2.71
+    c: 6
 ---
 # {{ params.vars.title }}
 A pair of buckets are connected by a *massless* rod. As shown in the figure, the buckets rotate about an axis through the centre of mass of the two-bucket system.
 
 ![Two buckets connected by a rod rotating anti-clockwise.](2015FinalQ18.png)
+
 ## Part 1
 
 If each bucket has a mass $m$ and the rod has length $l$, what is the rotational inertia of the system? Give your answer in terms of $m$ and $l$. Treat the buckets as point masses and recall that $I = \sum\limits_i m_ir_i^2$.
@@ -62,6 +63,7 @@ Note that it may not be necessary to use every variable. Use the following table
 ### Answer Section
 
 {{ substitutions.part1.label }}
+
 ## Part 2
 
 Assume that initially the buckets rotate with angular speed $\omega_0$. Then it rains for a short time. After the rain has stopped, the buckets are observed to be rotating with angular speed $\omega_f = \omega/${{ params.c}}. How much rain (in kg) has been collected by the two buckets? When empty, the buckets each have a mass of {{ params.m1 }} kg.

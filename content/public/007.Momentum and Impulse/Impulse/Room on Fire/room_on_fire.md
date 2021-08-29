@@ -35,6 +35,7 @@ substitutions:
 # {{ params.vars.title }}
 You awake in the night to find that your living room is on fire.
 Your one chance to save yourself is to throw something that will hit the back of your bedroom door and close it, giving you a few seconds to escape out the window.
+
 ## Part 1
 
 You happen to have both a sticky ball of clay and a super-bouncy Superball next to your bed, both the same size and same mass.
