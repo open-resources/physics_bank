@@ -48,7 +48,8 @@ substitutions:
 ## Part 1
 
 Two concentric spherical surfaces enclose a point charge $q$.
-The radius of the outer sphere is twice that of the inner one.
+The radius of the outer shpere is twice that of the inner one.
+
 Compare the electric fluxes crossing the two surfaces.
 
 ### Answer Section

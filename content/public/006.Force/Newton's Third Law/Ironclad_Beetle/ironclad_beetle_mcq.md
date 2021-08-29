@@ -24,8 +24,7 @@ substitutions:
   params:
     vars:
       title: Force on Ironclad Beetle
-      units: N
-    f: 89
+    f: 114
     part1:
       ans1:
         value: the beetle will exert a force of 9.5 x 10$^{-4}$ N on your thumb.
@@ -36,13 +35,15 @@ substitutions:
       ans4:
         value: the beetle will exert a force of 149 N back on your thumb.
       ans5:
-        value: The beetle will exert a force of 89 back on your thumb.
+        value: The beetle will exert a force of 114 back on your thumb.
 ---
 # {{ params.vars.title }}
 
 ## Part 1
 
-The 2 cm long diabolical ironclad beetle is reported to survive forces as high as 149 N, roughly  39000 times its body weight (Nature 586, 543 (2020)). In commenting on this work Elizabeth Pennisi notes that this about four times more than the strongest humans exert when squeezing the beetle between the thumb and forefinger.  If your thumb exerts a force of 37 N on a diabolical ironclad beetle,
+The 2 cm long diabolical ironclad beetle is reported to survive forces as high as 149 N, roughly  39000 times its body weight (Nature 586, 543 (2020)).
+In commenting on this work Elizabeth Pennisi notes that this about four times more than the strongest humans exert when squeezing the beetle between the thumb and forefinger.
+If your thumb exerts a force of 37 N on a diabolical ironclad beetle,
 
 ### Answer Section
 

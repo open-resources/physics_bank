@@ -54,21 +54,21 @@ substitutions:
     vars:
       title: A Frictionless Air Track?
       units: $m/s^2$
-    m1: 312.2
-    m2: 17.48
+    m1: 176.7
+    m2: 51.3
     d_a: 0.01
-    mean: 1.56
-    sd: 0.106
-    a1: 1.72
-    a2: 1.7
-    a3: 1.57
-    a4: 1.55
-    a5: 1.59
-    a6: 1.41
-    a7: 1.37
-    a8: 1.51
-    a9: 1.63
-    a10: 1.56
+    mean: 1.53
+    sd: 0.136
+    a1: 1.6
+    a2: 1.53
+    a3: 1.3
+    a4: 1.33
+    a5: 1.51
+    a6: 1.54
+    a7: 1.76
+    a8: 1.67
+    a9: 1.62
+    a10: 1.46
     part4:
       ans1:
         value: The track is frictionless because $a_{expected}$ does not agree with
@@ -82,7 +82,13 @@ substitutions:
         value: The track is frictionless because $a_{expected}$ agrees with $a_{measured}$.
 ---
 # {{ params.vars.title }}
-Because of your excellent work in lab, your professor asks you to test out a new "frictionless" air track, which can be used to measure the acceleration due to gravity. In your setup, you place a cart with mass $m_1$ = {{ params.m1 }} $g$ on the track and suspend a second mass $m_2$ = {{ params.m2 }} $g$ over a (supposedly) massless, frictionless pulley. Using a photogate that reads the acceleration of the system at the pulley, you measure the acceleration in 10 trials as given in the table below. The uncertainty in each acceleration measurement is $\pm$ {{ params.d_a }} $m/s^2$; the uncertainties in $m_1$ and $m_2$ are negligible. The mean and standard deviation (SD) of the acceleration data are also given in the table. Given these data, would you conclude that the air track system is frictionless as claimed? Justify your answer!
+Because of your excellent work in lab, your professor asks you to test out a new "frictionless" air track, which can be used to measure the acceleration due to gravity.
+In your setup, you place a cart with mass $m_1$ = {{ params.m1 }} $g$ on the track and suspend a second mass $m_2$ = {{ params.m2 }} $g$ over a (supposedly) massless, frictionless pulley.
+Using a photogate that reads the acceleration of the system at the pulley, you measure the acceleration in 10 trials as given in the table below.
+The uncertainty in each acceleration measurement is $\pm$ {{ params.d_a }} $m/s^2$; the uncertainties in $m_1$ and $m_2$ are negligible.
+The mean and standard deviation (SD) of the acceleration data are also given in the table.
+Given these data, would you conclude that the air track system is frictionless as claimed?
+Justify your answer!
 
 ![Mass m one sits on a horizontal surface while mass m two is suspended over a pulley. The masses are connected by a string.](q14_2012Final.png)
 
