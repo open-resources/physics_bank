@@ -43,10 +43,10 @@ substitutions:
       units1: m/s
       units2: kg
       name: Lorenzo
-    i: 346
-    m: 23
-    v_1: 26
-    v_2: 28
+    i: 333
+    m: 32
+    v_1: 5
+    v_2: 20
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.

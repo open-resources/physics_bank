@@ -25,16 +25,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: -4x + -8 > -8x + 5
+      formula: -3x + -10 > -4x + 6
     part1:
       ans1:
-        value: x > 13/4
+        value: x > 16
       ans2:
-        value: x < 13/4
+        value: x < 16
       ans3:
-        value: x < 4/13
+        value: x < 1/16
       ans4:
-        value: x > 4/13
+        value: x > 1/16
       ans5:
         value: Don't Know
 ---

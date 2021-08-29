@@ -53,9 +53,9 @@ part2:
     weight: 1
 substitutions:
   params:
-    R1: '17.0'
-    R2: '93.0'
-    R3: '750'
+    R1: '36.0'
+    R2: '86.0'
+    R3: '775'
 ---
 # {{ params.vars.title }}
 Consider a ${{ params.R1 }}\rm\ \Omega$, a ${{ params.R2 }}\rm\ \Omega$, and a ${{ params.R3 }}\rm\ \Omega$ resistor.
