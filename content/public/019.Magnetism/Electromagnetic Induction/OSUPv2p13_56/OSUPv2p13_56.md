@@ -37,10 +37,10 @@ substitutions:
   params:
     vars:
       title: Square Coil
-    N: '10'
-    l: '35'
-    B: '0.060'
-    E: '20'
+    N: '45'
+    l: '15'
+    B: '0.055'
+    E: '45'
 ---
 # {{ params.vars.title }}
 
