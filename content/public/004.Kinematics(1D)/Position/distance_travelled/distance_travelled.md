@@ -23,8 +23,8 @@ part1:
 substitutions:
   params:
     vars:
-      name: Lorenzo
-      vehicle: a tricycle
+      name: Savannah
+      vehicle: ice skates
       units: m
       title: Distance travelled
     v: 2
