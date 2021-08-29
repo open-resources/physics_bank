@@ -26,9 +26,9 @@ substitutions:
   params:
     vars:
       title: System Open or Closed
-      vehicle: semi-truck
+      vehicle: sedan
       units: kg
-    i_a: 110
+    i_a: 128
     i_b: 341
     part1:
       ans1:
