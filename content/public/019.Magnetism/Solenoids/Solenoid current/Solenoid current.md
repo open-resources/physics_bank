@@ -38,7 +38,7 @@ substitutions:
   params:
     vars:
       title: Solenoid current
-    n: '13'
+    n: '11'
     B: '3.2'
     p: '-2'
 ---
