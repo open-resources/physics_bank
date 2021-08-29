@@ -59,8 +59,8 @@ substitutions:
       units1: m
       units2: $m/s^2 \ \ \hat\jmath$
       units3: $m/s \ \ \hat\jmath$
-    h: 120
-    s: 160
+    h: 50
+    s: 150
     vert: 40
 ---
 # {{ params.vars.title }}

@@ -28,12 +28,12 @@ substitutions:
       title: Speed Before Impact
       vehicle: van
       units: $m/s$
-    m: 574
+    m: 562
     part1:
       ans1:
-        value: 94.0
+        value: 96.0
       ans2:
-        value: 47.0
+        value: 48.0
       ans3:
         value: 24.0
       ans4:

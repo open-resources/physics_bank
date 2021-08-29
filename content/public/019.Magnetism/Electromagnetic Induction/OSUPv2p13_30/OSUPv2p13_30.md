@@ -37,9 +37,9 @@ substitutions:
   params:
     vars:
       title: Coil Encircling Solenoid
-    n: '11'
-    A: '6'
-    I: '0.25'
+    n: '14'
+    A: '9'
+    I: '0.50'
     N: '5'
     t: '0.04'
 ---

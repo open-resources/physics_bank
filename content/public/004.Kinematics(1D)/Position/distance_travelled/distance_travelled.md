@@ -23,21 +23,21 @@ part1:
 substitutions:
   params:
     vars:
-      name: Ahmed
-      vehicle: rollerblades
+      name: Mateo
+      vehicle: a tricycle
       units: m
       title: Distance travelled
-    v: 5
-    t: 9
+    v: 3
+    t: 7
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 45
+        value: 21
       ans3:
-        value: 14
+        value: 10
       ans4:
-        value: 0.56
+        value: 0.43
       ans5:
         value: -4
       ans6:
