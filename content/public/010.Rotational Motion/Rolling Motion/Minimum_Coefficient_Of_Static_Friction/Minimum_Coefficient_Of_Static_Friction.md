@@ -25,17 +25,17 @@ substitutions:
     vars:
       title: Minimum Coefficient Of Static Friction
       vehicle: bus
-    r: 94
+    r: 92
     v: 15
     part1:
       ans1:
-        value: 4.1
+        value: 4.0
       ans2:
-        value: 0.24
+        value: 0.25
       ans3:
         value: 2.4
       ans4:
-        value: 0.016
+        value: 0.017
       ans5:
         value: 0.16
 ---
