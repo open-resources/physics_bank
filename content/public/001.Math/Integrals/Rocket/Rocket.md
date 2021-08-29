@@ -58,7 +58,7 @@ substitutions:
       units2: $s$
     v_1: 6
     t_1: 0
-    t_2: 5
+    t_2: 6
 ---
 # {{ params.vars.title }}
 A rocket has a velocity (pointing away from the launch pad) given by $v(t)$={{ params.v_1 }}$t$-$t^2$

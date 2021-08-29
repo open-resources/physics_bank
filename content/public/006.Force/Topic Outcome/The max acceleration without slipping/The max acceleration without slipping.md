@@ -32,11 +32,11 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: car
+      vehicle: semi-truck
       title: A Crate's Maximum Acceleration without Slipping
       units: $m/s^2$
-    mu_s: 0.96
-    mu_k: 0.48
+    mu_s: 0.63
+    mu_k: 0.46
     theta: 29
 ---
 # {{ params.vars.title }}

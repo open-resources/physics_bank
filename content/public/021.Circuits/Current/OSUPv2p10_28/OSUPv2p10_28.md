@@ -72,10 +72,10 @@ substitutions:
   params:
     P_T: '1830'
     P_S: '1480'
-    P_L: '70.0'
-    I_F: '29.0'
-    V: '140.0'
-    prep: a
+    P_L: '80.0'
+    I_F: '22.0'
+    V: '130.0'
+    prep: an
     part4:
       ans1:
         value: 'Yes'
