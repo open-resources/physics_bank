@@ -30,9 +30,9 @@ substitutions:
     vars:
       title: The Magnitude of a Particle's Vector
       units: $m/s^2$
-    r_i: -4t^3 + 7t^2 + 3t
-    r_j: -9t^2 - 5t
-    t: 15
+    r_i: 7t^2 + 3t
+    r_j: -5t^3 - 7t
+    t: 16
     choice: velocity
 ---
 # {{ params.vars.title }}
