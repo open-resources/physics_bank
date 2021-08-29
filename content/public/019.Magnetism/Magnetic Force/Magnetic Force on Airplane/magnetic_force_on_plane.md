@@ -42,8 +42,8 @@ substitutions:
   params:
     vars:
       title: Magnetic Force on Airplane
-    q: 0.172
-    v: 640
+    q: 0.24
+    v: 537
     part2:
       ans1:
         value: North

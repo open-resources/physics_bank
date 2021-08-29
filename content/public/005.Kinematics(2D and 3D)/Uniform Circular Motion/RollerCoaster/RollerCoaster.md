@@ -50,7 +50,7 @@ substitutions:
       title: Roller Coaster
       units: m/s
       units_2: N
-    r: 19.0
+    r: 18.0
     m: 226
 ---
 # {{ params.vars.title }}
