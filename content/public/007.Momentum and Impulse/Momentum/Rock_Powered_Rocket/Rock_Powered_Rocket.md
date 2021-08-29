@@ -42,11 +42,11 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-      name: Santiago
-    i: 305
-    m: 36
-    v_1: 13
-    v_2: 20
+      name: Lorenzo
+    i: 300
+    m: 29
+    v_1: 19
+    v_2: 18
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.

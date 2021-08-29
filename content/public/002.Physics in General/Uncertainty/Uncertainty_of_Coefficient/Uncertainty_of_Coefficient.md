@@ -25,18 +25,18 @@ substitutions:
     vars:
       title: Uncertainty of Coefficient
       units: $kg/s$
-    m: 86
-    v: 1.9
-    b: 0.62
+    m: 79
+    v: 1.5
+    b: 0.59
     part1:
       ans1:
-        value: ' $\pm$ 0.13'
+        value: ' $\pm$ 0.16'
       ans2:
-        value: ' $\pm$ 0.08'
+        value: ' $\pm$ 0.09'
       ans3:
-        value: ' $\pm$ 0.01'
+        value: ' $\pm$ 0.02'
       ans4:
-        value: ' $\pm$ 0.8'
+        value: ' $\pm$ 0.94'
 ---
 # {{ params.vars.title }}
 The drag force on an object of interest can be accurately modelled as $\vec{D}$ = -$b\vec{v}$ such that its terminal velocity in free fall is given by $v_T$ = $mg/b$.

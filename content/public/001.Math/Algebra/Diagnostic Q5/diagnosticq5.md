@@ -26,17 +26,17 @@ substitutions:
     vars:
       title: Diagnostic Q5
     num1: 8
-    num2: 3
-    num3: 7
+    num2: 9
+    num3: 5
     part1:
       ans1:
-        value: 168
+        value: 360
       ans2:
-        value: 3/8
+        value: 9/8
       ans3:
-        value: 56
+        value: 40
       ans4:
-        value: 21/8
+        value: 45/8
       ans5:
         value: Don't Know
 ---
