@@ -54,8 +54,8 @@ substitutions:
       units1: ${m/s}^2$
       units2: $s$
     a: 4
-    b: 7
-    c: 3
+    b: 6
+    c: 9
     part4:
       ans1:
         value: The speed is increasing

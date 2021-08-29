@@ -61,8 +61,8 @@ substitutions:
       unit1: $s$
       unit2: $m/s^2$
     c1: 2
-    c2: 4
-    c3_abs: 27
+    c2: 10
+    c3_abs: 18
     c3_sign: ' - '
 ---
 # {{ params.vars.title }}
