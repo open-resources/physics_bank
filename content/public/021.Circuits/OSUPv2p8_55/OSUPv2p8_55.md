@@ -50,7 +50,7 @@ substitutions:
     vars:
       title: Partially Filled Capacitor
     a: '60.0'
-    b: '16.0'
+    b: '20.0'
     f: '6'
 ---
 # {{ params.vars.title }}
