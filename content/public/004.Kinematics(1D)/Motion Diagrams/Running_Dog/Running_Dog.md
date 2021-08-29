@@ -33,7 +33,7 @@ substitutions:
       ans1:
         value: The dog is not moving between t=2s and t=6s
       ans2:
-        value: The dog is slowing down at t=7s
+        value: The dog has an average velocity of 0 m/s between time t=0s and t=8s
       ans3:
         value: The dog is not moving between t=6s and t=10s
       ans4:

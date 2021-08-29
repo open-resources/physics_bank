@@ -70,12 +70,12 @@ part4:
     weight: 1
 substitutions:
   params:
-    P_T: '1850'
-    P_S: '1360'
-    P_L: '70.0'
-    I_F: '30.0'
-    V: '140.0'
-    prep: a
+    P_T: '1810'
+    P_S: '1400'
+    P_L: '90.0'
+    I_F: '24.0'
+    V: '150.0'
+    prep: an
     part4:
       ans1:
         value: 'Yes'

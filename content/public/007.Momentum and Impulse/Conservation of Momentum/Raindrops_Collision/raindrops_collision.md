@@ -26,27 +26,27 @@ substitutions:
     vars:
       title: Perfectly Inelastic Collision of Raindrops
       units: m/s
-    m1: 0.23
-    m2: 0.12
-    v1_i: -11.3
-    v2_i: 6.96
-    v1_j_abs: 19.9
-    v2_j_abs: 11.6
+    m1: 0.73
+    m2: 0.13
+    v1_i: -11.6
+    v2_i: -7.67
+    v1_j_abs: 14.5
+    v2_j_abs: 1.19
     v1_j_sign: ' + '
-    v2_j_sign: ' + '
+    v2_j_sign: ' - '
     part1:
       ans1:
-        value: -7.7$\hat{\imath}$ + 26.0$\hat{\jmath}$
+        value: -13.0$\hat{\imath}$ + 14.0$\hat{\jmath}$
       ans2:
-        value: -5.0$\hat{\imath}$ + 17.0$\hat{\jmath}$
+        value: -11.0$\hat{\imath}$ + 12.0$\hat{\jmath}$
       ans3:
-        value: -15.0$\hat{\imath}$ + 50.0$\hat{\jmath}$
+        value: -73.0$\hat{\imath}$ + 80.0$\hat{\jmath}$
       ans4:
-        value: -0.31$\hat{\imath}$ + 1.0$\hat{\jmath}$
+        value: -4.1$\hat{\imath}$ + 4.5$\hat{\jmath}$
       ans5:
-        value: -2.4$\hat{\imath}$ + 2.2$\hat{\jmath}$
+        value: -13.0$\hat{\imath}$ + 18.0$\hat{\jmath}$
       ans6:
-        value: -9.8$\hat{\imath}$ + 9.1$\hat{\jmath}$
+        value: -8.7$\hat{\imath}$ + 12.0$\hat{\jmath}$
 ---
 # {{ params.vars.title }}
 Two raindrops in a cloud collide perfectly inelastically. The first raindrop has a mass of {{ params.m1}} g and is travelling with $\vec{v_1} =$ ({{ params.v1_i}} $\hat{\imath}$ {{params.v1_j_sign}} {{ params.v1_j_abs}} $\hat{\jmath}$) m/s.
