@@ -29,13 +29,13 @@ substitutions:
       ans1:
         value: charge
       ans2:
-        value: power
+        value: energy
       ans3:
         value: voltage
       ans4:
-        value: energy
-      ans5:
         value: current
+      ans5:
+        value: power
 ---
 # {{ params.vars.title }}
 
