@@ -27,14 +27,14 @@ substitutions:
       title: Diagnostic Q11
     a: 1
     b: 3
-    c: 1
+    c: 2
     part1:
       ans1:
-        value: x = -2.6, x = -0.38
+        value: x = -2.0, x = -1.0
       ans2:
-        value: x = 2.6, x = 0.38
+        value: x = 2.0, x = 1.0
       ans3:
-        value: x = 3, x = 1
+        value: x = 3, x = 2
       ans4:
         value: x = 1, x = 3
       ans5:
