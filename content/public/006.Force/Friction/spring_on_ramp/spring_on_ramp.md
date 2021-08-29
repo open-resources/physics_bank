@@ -46,9 +46,9 @@ substitutions:
       units: m
     m: 5
     theta: 38
-    k: 350
-    us: 0.7
-    uk: 0.38
+    k: 300
+    us: 0.5
+    uk: 0.35
 ---
 # {{ params.vars.title }}
 In the figure below m = {{ params.m }} kg, $\theta$ = {{ params.theta }} $^\circ$, and k = {{ params.k }} N/m.

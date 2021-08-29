@@ -31,9 +31,9 @@ substitutions:
     choice: 'True'
     part1:
       ans1:
-        value: The dog is not moving between t=2s and t=6s
+        value: The dog is moving at the same speed at time t=10s and t=4s
       ans2:
-        value: The dog is speeding up at time t=7s
+        value: The dog has an average velocity of 0 m/s between time t=0s and t=8s
       ans3:
         value: The dog is slowing down at t=7s
       ans4:
