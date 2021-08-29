@@ -29,17 +29,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Mass
+        value: Entropy
       ans2:
-        value: Temperature
+        value: Power
       ans3:
-        value: Momentum
+        value: Temperature
       ans4:
-        value: Drag
+        value: Energy
       ans5:
-        value: velocity
+        value: Drag
       ans6:
-        value: The position in 3 dimensions
+        value: Lift
 ---
 # {{ params.vars.title }}
 

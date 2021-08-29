@@ -33,8 +33,8 @@ substitutions:
     vars:
       title: 'Electron Beam '
       units: ' $ A / m^2 $ '
-    I: 157
-    r: 0.34
+    I: 33
+    r: 0.55
 ---
 # {{ params.vars.title }}
 
