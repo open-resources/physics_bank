@@ -25,19 +25,19 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    a: 3
+    a: 4
     b: '2'
-    b_sign: ' + '
+    b_sign: ' - '
     c: 1
     part1:
       ans1:
-        value: 3.0x + 2.0y
+        value: 4.0x - 2.0y
       ans2:
-        value: -2.0x +3.0y
+        value: 2.0x +4.0y
       ans3:
-        value: '  (3.0x  + 2.0y)/1'
+        value: '  (4.0x  - 2.0y)/1'
       ans4:
-        value: 3x + 2y
+        value: 4x - 2y
       ans5:
         value: Do not know
 ---

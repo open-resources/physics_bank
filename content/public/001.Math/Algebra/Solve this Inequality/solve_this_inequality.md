@@ -25,16 +25,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 9x + -10 > 4x + 3
+      formula: 10x + -2 > -5x + 3
     part1:
       ans1:
-        value: x > 13/5
+        value: x > 1/3
       ans2:
-        value: x < 13/5
+        value: x < 1/3
       ans3:
-        value: x < 5/13
+        value: x < 3
       ans4:
-        value: x > 5/13
+        value: x > 3
       ans5:
         value: Don't Know
 ---
