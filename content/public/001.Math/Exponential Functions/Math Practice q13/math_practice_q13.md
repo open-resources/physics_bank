@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 13
-    a: 9
-    b: 2
+    a: 1
+    b: 8
     part1:
       ans1:
-        value: $z^{7}$
-      ans2:
         value: $z^{-7}$
+      ans2:
+        value: $z^{7}$
       ans3:
-        value: 7z
+        value: -7z
       ans4:
-        value: (9/2)z
+        value: (1/8)z
       ans5:
         value: Don't Know
 ---
