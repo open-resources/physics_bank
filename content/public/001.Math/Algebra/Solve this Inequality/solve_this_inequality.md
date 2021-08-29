@@ -25,16 +25,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 2x + 3 > 1x + 7
+      formula: 1x + -8 > -6x + -7
     part1:
       ans1:
-        value: x > 4
+        value: x > 1/7
       ans2:
-        value: x < 4
+        value: x < 1/7
       ans3:
-        value: x < 1/4
+        value: x < 7
       ans4:
-        value: x > 1/4
+        value: x > 7
       ans5:
         value: Don't Know
 ---

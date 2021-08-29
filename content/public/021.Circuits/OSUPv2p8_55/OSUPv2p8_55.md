@@ -50,8 +50,8 @@ substitutions:
     vars:
       title: Partially Filled Capacitor
     a: '45.0'
-    b: '12.0'
-    f: '2'
+    b: '14.0'
+    f: '6'
 ---
 # {{ params.vars.title }}
 A parallel-plate capacitor with only air between its plates is charged by connecting the capacitor to a battery. The capacitor is then disconnected from the battery, without any of the charge leaving the plates.
