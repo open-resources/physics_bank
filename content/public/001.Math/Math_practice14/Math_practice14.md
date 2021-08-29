@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 14
-    num: 6
-    denom: 7
+    num: 8
+    denom: 2
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt[7]{x^{6}}}\end{equation}
+        value: \begin{equation}\frac{1}{\sqrt{x^{8}}}\end{equation}
       ans2:
-        value: \begin{equation}\sqrt[7]{x^{6}}\end{equation}
+        value: \begin{equation}\sqrt{x^{8}}\end{equation}
       ans3:
-        value: \begin{equation}x^{\frac{6}{7}}\end{equation}
+        value: \begin{equation}x^{4}\end{equation}
       ans4:
-        value: \begin{equation}- \frac{1}{\sqrt[7]{x^{6}}}\end{equation}
+        value: \begin{equation}- \frac{1}{\sqrt{x^{8}}}\end{equation}
       ans5:
         value: Do not know
 ---
