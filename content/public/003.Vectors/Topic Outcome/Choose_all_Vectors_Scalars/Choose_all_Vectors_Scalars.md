@@ -29,15 +29,15 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: The position in 3 dimensions
+        value: Acceleration
       ans2:
-        value: The average acceleration
+        value: Lift
       ans3:
-        value: Drag
+        value: The average velocity
       ans4:
-        value: Momentum
+        value: The position in a 1 dimensional system
       ans5:
-        value: Power
+        value: Mass
       ans6:
         value: Area
 ---

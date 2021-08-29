@@ -38,8 +38,8 @@ substitutions:
   params:
     vars:
       title: Determining Capacitance
-    q: '4.0'
-    v: '240'
+    q: '2.1'
+    v: '250'
 ---
 # {{ params.vars.title }}
 
