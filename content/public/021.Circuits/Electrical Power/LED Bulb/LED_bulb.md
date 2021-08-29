@@ -38,8 +38,8 @@ substitutions:
     vars:
       title: LED Bulb
       units: $
-    c: 0.97
-    h: 7
+    c: 0.28
+    h: 6
 ---
 # {{ params.vars.title }}
 
