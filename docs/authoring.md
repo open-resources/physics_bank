@@ -72,7 +72,7 @@ This section will include your question in sentences for the question that you a
 You should keep the following in mind while filling this section in:
 
 - Keep each sentence on a separate line.
-- Use markdown syntax for any variables you use from the Python code section. Eg: {{params.vars.varName}}
+- Use markdown syntax for any variables you use from the Python code section. Eg: `{{ params.vars.varName }}`
 - Use latex syntax for any units or symbols that you might use.
 
 ## Answer Section in the markdown file
