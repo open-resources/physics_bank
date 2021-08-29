@@ -39,7 +39,7 @@ substitutions:
       title: Coil Encircling Solenoid
     n: '17'
     A: '6'
-    I: '0.75'
+    I: '1.00'
     N: '7'
     t: '0.06'
 ---
