@@ -26,16 +26,16 @@ substitutions:
     vars:
       title: Math Practice 17
     a: 9
-    b: 3
+    b: 5
     part1:
       ans1:
-        value: $e^{3} e^{9 y}$
+        value: $e^{5} e^{9 y}$
       ans2:
         value: $e^{9 y} + e^{9}$
       ans3:
         value: $9 e^{9} e^{y}$
       ans4:
-        value: $3 e^{9 y}$
+        value: $5 e^{9 y}$
       ans5:
         value: Don't Know
 ---
