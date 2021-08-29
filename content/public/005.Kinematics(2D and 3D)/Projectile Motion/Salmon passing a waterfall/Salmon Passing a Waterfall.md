@@ -30,9 +30,9 @@ substitutions:
   params:
     vars:
       title: Salmon Passing a Waterfall
-    d: 4.9
-    vx: 1.18
-    vy: 5.19
+    d: 3.33
+    vx: 2.98
+    vy: 5.75
     part1:
       ans1:
         value: Time interval for acceleration, $\Delta t$
@@ -54,17 +54,17 @@ substitutions:
         value: Horizontal component of velocity at bottom of water, $v_{ix}$
     part2:
       ans1:
-        value: $(0.625\; m/s^2, 2.75 \; m/s^2)$
+        value: $(2.57\; m/s^2, 4.96 \; m/s^2)$
       ans2:
-        value: $(2.75\; m/s^2, 0.625\; m/s^2)$
+        value: $(4.96\; m/s^2, 2.57\; m/s^2)$
       ans3:
-        value: $(0 \; m/s^2, 3.25\; m/s^2)$
+        value: $(0 \; m/s^2, 5.46\; m/s^2)$
       ans4:
         value: 9.81 $m/s^2$
       ans5:
-        value: $(1.12\; m/s^2, 1.69\; m/s^2)$
+        value: $(3.07\; m/s^2, 3.77\; m/s^2)$
       ans6:
-        value: 1.69 $m/s^2$
+        value: 3.77 $m/s^2$
 ---
 # {{ params.vars.title }}
 A salmon accelerates from rest in still water at a depth of {{ params.d }} $m$, to reach a velocity with components $v\_{x} = $ {{ params.vx }} $m/s$ and $v\_{y} = $ {{ params.vy }} $m/s$ when it jumps from the water to pass a waterfall.
