@@ -27,9 +27,9 @@ substitutions:
       title: Two Balls Launched on Different Tracks
     part1:
       ans1:
-        value: B
-      ans2:
         value: More information is needed.
+      ans2:
+        value: B
       ans3:
         value: A
       ans4:

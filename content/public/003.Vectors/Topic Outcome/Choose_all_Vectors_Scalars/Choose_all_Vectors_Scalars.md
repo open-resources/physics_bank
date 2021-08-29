@@ -31,13 +31,13 @@ substitutions:
       ans1:
         value: Weight
       ans2:
-        value: The position in a 1 dimensional system
+        value: Momentum
       ans3:
-        value: Acceleration
+        value: The position in 3 dimensions
       ans4:
-        value: Power
+        value: Acceleration
       ans5:
-        value: Area
+        value: Power
       ans6:
         value: Energy
 ---
