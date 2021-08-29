@@ -25,16 +25,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: 317
+    a: 295
     part1:
       ans1:
-        value: $\sin{137}$
+        value: $\sin{115}$
       ans2:
-        value: $\sin{-137}$
+        value: $\sin{-115}$
       ans3:
-        value: $\sin{43}$
+        value: $\sin{65}$
       ans4:
-        value: $\sin{-43}$
+        value: $\sin{-65}$
       ans5:
         value: Don't Know
 ---
