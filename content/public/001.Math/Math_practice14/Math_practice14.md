@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 14
-    num: 9
+    num: 7
     denom: 6
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt[6]{x^{9}}}\end{equation}
+        value: \begin{equation}\frac{1}{\sqrt[6]{x^{7}}}\end{equation}
       ans2:
-        value: \begin{equation}\sqrt[6]{x^{9}}\end{equation}
+        value: \begin{equation}\sqrt[6]{x^{7}}\end{equation}
       ans3:
-        value: \begin{equation}x^{\frac{3}{2}}\end{equation}
+        value: \begin{equation}x^{\frac{7}{6}}\end{equation}
       ans4:
-        value: \begin{equation}- \frac{1}{\sqrt[6]{x^{9}}}\end{equation}
+        value: \begin{equation}- \frac{1}{\sqrt[6]{x^{7}}}\end{equation}
       ans5:
         value: Do not know
 ---

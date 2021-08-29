@@ -35,7 +35,7 @@ substitutions:
     vars:
       title: Cut The Rope
       units: m
-    l: 0.5
+    l: 0.4
     theta_0: 36
     theta_c: 22
 ---

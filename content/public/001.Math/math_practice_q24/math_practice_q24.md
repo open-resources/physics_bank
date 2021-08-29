@@ -1,13 +1,12 @@
 ---
-title: Block on a Ramp
-topic: Force
-author: Jake Bobowski
-source: 2013 Midterm 2 002 Q2
+title: Math Practice 24
+topic: Math
+author: Simon Bates
+source: Math Diagnostic Q24
 template_version: 1.1
 attribution: standard
 outcomes:
-- 6.4.1.1
-- 6.1.1.4
+- null
 difficulty:
 - undefined
 randomization:
@@ -15,9 +14,9 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- MP
-assets:
-- Q2.png
+- math_diagnostic
+- AK
+assets: null
 part1:
   type: multiple-choice
   pl-customizations:
@@ -25,31 +24,28 @@ part1:
 substitutions:
   params:
     vars:
-      title: Block on a Ramp
-    m: 7
-    theta: 22
-    mu: 0.6
+      title: Math Practice 24
+    x1: 1
+    x2: -2
+    x3: 1
+    x4: 1
     part1:
       ans1:
-        value: 26.0 $N$, up the incline
+        value: tends to -2
       ans2:
-        value: 64.0 $N$, up the incline
+        value: tends to 0
       ans3:
-        value: 15.0 $N$, down the incline
+        value: tends to 1
       ans4:
-        value: 38.0 $N$, down the incline
+        value: is undefined
       ans5:
-        value: 26.0 $N$, down the incline
+        value: Do not know
 ---
 # {{ params.vars.title }}
-A mass of {{params.m}} $kg$ sits at rest on an incline making an angle of {{params.theta}} $^\circ$ with respect to the horizontal.
-
-<img src="Q2.png" width=300 alt = "a block sits on a ramp that makes angle theta with the horizontal">
 
 ## Part 1
 
-If $\mu_s$ = {{params.mu}}, what is the friction force on the block?
-Choose the best answer.
+As x tends to infinity the function $1-2x \over {1+x}$
 
 ### Answer Section
 
