@@ -25,16 +25,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: 219
+    a: 334
     part1:
       ans1:
-        value: $\sin{39}$
+        value: $\sin{154}$
       ans2:
-        value: $\sin{-39}$
+        value: $\sin{-154}$
       ans3:
-        value: $\sin{141}$
+        value: $\sin{26}$
       ans4:
-        value: $\sin{-141}$
+        value: $\sin{-26}$
       ans5:
         value: Don't Know
 ---
