@@ -24,7 +24,7 @@ substitutions:
   params:
     vars:
       name: Mateo
-      vehicle: a bicycle
+      vehicle: a skateboard
       units: m
       title: Distance travelled
     v: 5

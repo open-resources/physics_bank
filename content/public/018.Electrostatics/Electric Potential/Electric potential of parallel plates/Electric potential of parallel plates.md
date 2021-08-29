@@ -40,9 +40,9 @@ substitutions:
   params:
     vars:
       title: Electric potential of parallel plates
-    E: '6.00'
+    E: '1.80'
     p: '3'
-    V: '21.0'
+    V: '14.0'
 ---
 # {{ params.vars.title }}
 

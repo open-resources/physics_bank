@@ -59,11 +59,11 @@ substitutions:
       title: Toboggan hill
       units1_2_3: $kJ$
       units_4: $m/s$
-    m: 69
-    l: 109
-    ang_horiz: 16
-    fr: 65
-    fwind: 24
+    m: 85
+    l: 87
+    ang_horiz: 12
+    fr: 80
+    fwind: 21
     theta: 18
     v_i: 1
 ---
