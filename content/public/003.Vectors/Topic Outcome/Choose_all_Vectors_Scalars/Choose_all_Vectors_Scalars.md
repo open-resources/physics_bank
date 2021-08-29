@@ -29,17 +29,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Distance travelled
+        value: Length
       ans2:
-        value: Work
+        value: Distance travelled
       ans3:
-        value: Temperature
+        value: Work
       ans4:
-        value: Density
+        value: Entropy
       ans5:
         value: Acceleration
       ans6:
-        value: velocity
+        value: Force
 ---
 # {{ params.vars.title }}
 

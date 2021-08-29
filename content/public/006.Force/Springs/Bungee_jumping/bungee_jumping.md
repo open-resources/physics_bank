@@ -26,12 +26,12 @@ substitutions:
       name: Ximena
     part1:
       ans1:
-        value: The tension points up, and Ximena moves down, so negative work is done.
-      ans2:
-        value: The tension point up, and Ximena moves up, so positive work is done.
-      ans3:
         value: The tension points down, and Ximena moves down, so negative work is
           done.
+      ans2:
+        value: The tension points up, and Ximena moves down, so negative work is done.
+      ans3:
+        value: The tension point up, and Ximena moves up, so positive work is done.
       ans4:
         value: The tension points up, and Ximena moves down, so positive work is done.
 ---
