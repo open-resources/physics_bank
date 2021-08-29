@@ -37,9 +37,9 @@ substitutions:
     vars:
       title: Cars on Hills
       units: "$\frac{m}{s^2}"
-    v: 28
-    r: 155
-    mu: 7.13
+    v: 12
+    r: 126
+    mu: 7.74
 ---
 # {{ params.vars.title }}
 Two cars are driving at {{params.v}} m/s along the road shown in the gure. Car B is at the bottom of a hill and car C is at the top. Both hills have a {{params.r}} m radius of curvature. Suppose both cars suddenly brake hard and start to skid.
