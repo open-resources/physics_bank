@@ -24,7 +24,7 @@ substitutions:
   params:
     vars:
       title: Vehicle Velocity
-      vehicle: pickup truck
+      vehicle: bus
       units: $m/s$
     i_1: 4
     i_2: 3
