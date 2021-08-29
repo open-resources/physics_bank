@@ -26,15 +26,15 @@ substitutions:
     vars:
       title: Math Practice Q25
     a: 9
-    b: 4
-    c: 9
+    b: 10
+    c: 5
     part1:
       ans1:
-        value: 8/9
+        value: 8/5
       ans2:
         value: Negative Infinity
       ans3:
-        value: 1.0
+        value: 1.8
       ans4:
         value: 9
       ans5:
