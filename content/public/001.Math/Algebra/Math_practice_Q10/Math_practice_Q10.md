@@ -28,16 +28,16 @@ substitutions:
     a: -8
     b: '6'
     b_sign: ' - '
-    c: -5
+    c: -8
     part1:
       ans1:
-        value: ' - 3/6'
+        value: -0.0
       ans2:
-        value: '  3/6'
+        value: 1.0
       ans3:
-        value: 9
+        value: 6
       ans4:
-        value: -7
+        value: -10
       ans5:
         value: This equation cannot be solved
 ---
