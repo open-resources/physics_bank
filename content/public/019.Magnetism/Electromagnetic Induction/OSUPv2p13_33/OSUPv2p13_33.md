@@ -43,10 +43,10 @@ substitutions:
   params:
     vars:
       title: Single-turn Circular Loop
-    r: '30'
-    b: '100'
+    r: '40'
+    b: '150'
     B: '350'
-    t: '0.5'
+    t: '0.2'
     part2:
       ans1:
         value: Clockwise

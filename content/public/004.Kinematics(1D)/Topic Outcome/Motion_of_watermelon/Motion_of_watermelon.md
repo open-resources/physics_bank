@@ -49,13 +49,13 @@ part4:
 substitutions:
   params:
     vars:
-      name: Santiago
+      name: Mateo
       title: Motion of watermelon
       units1: ${m/s}^2$
       units2: $s$
-    a: 5
-    b: 5
-    c: 6
+    a: 3
+    b: 8
+    c: 4
     part4:
       ans1:
         value: The speed is increasing

@@ -70,11 +70,11 @@ part4:
     weight: 1
 substitutions:
   params:
-    P_T: '1740'
-    P_S: '1460'
+    P_T: '1880'
+    P_S: '1380'
     P_L: '60.0'
-    I_F: '25.0'
-    V: '120.0'
+    I_F: '26.0'
+    V: '140.0'
     prep: a
     part4:
       ans1:
