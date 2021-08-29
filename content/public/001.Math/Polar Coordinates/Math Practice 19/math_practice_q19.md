@@ -25,16 +25,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: 260
+    a: 300
     part1:
       ans1:
-        value: $\sin{80}$
+        value: $\sin{120}$
       ans2:
-        value: $\sin{-80}$
+        value: $\sin{-120}$
       ans3:
-        value: $\sin{100}$
+        value: $\sin{60}$
       ans4:
-        value: $\sin{-100}$
+        value: $\sin{-60}$
       ans5:
         value: Don't Know
 ---
