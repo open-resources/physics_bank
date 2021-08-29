@@ -28,10 +28,10 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: car
+      vehicle: truck
       title: Rotational Displacement of Tires
       units: rad
-    a: 6.56
+    a: 6.23
     t: 17.5
 ---
 # {{ params.vars.title }}
