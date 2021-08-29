@@ -38,9 +38,9 @@ substitutions:
   params:
     vars:
       title: Square toroid
-    N: '352'
+    N: '453'
     d: '2.2'
-    r: '21'
+    r: '24'
     I: '3.0'
 ---
 # {{ params.vars.title }}
