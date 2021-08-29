@@ -40,8 +40,8 @@ substitutions:
   params:
     vars:
       title: Electric potential of a point charge
-    r: '3.80'
-    V: '-1.00'
+    r: '5.00'
+    V: '-5.60'
 ---
 # {{ params.vars.title }}
 

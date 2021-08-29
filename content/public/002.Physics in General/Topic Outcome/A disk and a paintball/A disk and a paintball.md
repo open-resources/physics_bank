@@ -54,8 +54,8 @@ substitutions:
       title: Distance travelled
       unit1: $J$
       unit2: $m/s$
-    m_d: 0.067
-    m_b: 0.051
+    m_d: 0.097
+    m_b: 0.056
     v: 16.0
 ---
 # {{ params.vars.title }}

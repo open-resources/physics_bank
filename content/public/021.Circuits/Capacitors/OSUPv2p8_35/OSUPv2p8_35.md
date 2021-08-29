@@ -51,8 +51,8 @@ substitutions:
   params:
     vars:
       title: Connecting Capacitors
-    a: '5'
-    b: '5'
+    a: '9'
+    b: '11'
 ---
 # {{ params.vars.title }}
 You have a ${{params.a }} \rm\ \mu\textrm{F}$ capacitor and a ${{params.b }} \rm\ \mu\textrm{F}$ capacitor.
