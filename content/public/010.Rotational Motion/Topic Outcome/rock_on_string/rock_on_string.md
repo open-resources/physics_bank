@@ -26,16 +26,16 @@ substitutions:
     vars:
       title: Rock on a String
       units: m/s
-    m: 0.5
-    r: 58
-    T: 100
+    m: 0.75
+    r: 22
+    T: 400
     part1:
       ans1:
         value: 108.0
       ans2:
         value: 98.0
       ans3:
-        value: 86.0
+        value: 87.0
       ans4:
         value: 88.0
       ans5:

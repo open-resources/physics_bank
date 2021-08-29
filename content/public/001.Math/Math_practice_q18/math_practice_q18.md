@@ -1,8 +1,8 @@
 ---
-title: Math Practice 14
+title: Math Practice 18
 topic: Math
 author: Simon Bates
-source: Math Diagnostic Q14
+source: Math Diagnostic Q18
 template_version: 1.1
 attribution: standard
 outcomes:
@@ -14,8 +14,8 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- AK
 - math_diagnostic
+- AK
 assets: null
 part1:
   type: multiple-choice
@@ -24,18 +24,18 @@ part1:
 substitutions:
   params:
     vars:
-      title: Math Practice 14
-    num: 9
-    denom: 7
+      title: Math Practice 4
+    k: 1
+    denom: 2
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt[7]{x^{9}}}\end{equation}
+        value: 1/4
       ans2:
-        value: \begin{equation}\sqrt[7]{x^{9}}\end{equation}
+        value: '16'
       ans3:
-        value: \begin{equation}x^{\frac{9}{7}}\end{equation}
+        value: 1/16
       ans4:
-        value: \begin{equation}- \frac{1}{\sqrt[7]{x^{9}}}\end{equation}
+        value: '4'
       ans5:
         value: Do not know
 ---
@@ -43,7 +43,7 @@ substitutions:
 
 ## Part 1
 
-$x^{ -{{params.num}}\over {{params.denom}} }$ is equivalent to
+The fourth term in the series $\sum\_{k=1}^{\infty}$$ $$1\over{2^k}$ is
 
 ### Answer Section
 

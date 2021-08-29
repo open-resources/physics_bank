@@ -1,8 +1,8 @@
 ---
-title: Math Practice 14
+title: Math Practice 28
 topic: Math
 author: Simon Bates
-source: Math Diagnostic Q14
+source: Math Diagnostic Q28
 template_version: 1.1
 attribution: standard
 outcomes:
@@ -16,7 +16,8 @@ taxonomy:
 tags:
 - AK
 - math_diagnostic
-assets: null
+assets:
+- q28.png
 part1:
   type: multiple-choice
   pl-customizations:
@@ -24,26 +25,26 @@ part1:
 substitutions:
   params:
     vars:
-      title: Math Practice 14
-    num: 9
-    denom: 7
+      title: Math Practice 28
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt[7]{x^{9}}}\end{equation}
+        value: sin, cos, tan
       ans2:
-        value: \begin{equation}\sqrt[7]{x^{9}}\end{equation}
-      ans3:
-        value: \begin{equation}x^{\frac{9}{7}}\end{equation}
-      ans4:
-        value: \begin{equation}- \frac{1}{\sqrt[7]{x^{9}}}\end{equation}
-      ans5:
         value: Do not know
+      ans3:
+        value: tan, cos, sin
+      ans4:
+        value: cos, tan, sin
+      ans5:
+        value: cos, sin, tan
 ---
 # {{ params.vars.title }}
 
 ## Part 1
 
-$x^{ -{{params.num}}\over {{params.denom}} }$ is equivalent to
+The curves labelled X, Y, Z represent (in this order) the graphs of
+
+![Graph X starts on the X axis, trends downward, then upward to y equals one. It completes two full cycles, ending on the X axis. Graph Y starts on the X axis, trends downward, then upward to y equals one. It completes one and a half cycles, ending at y equals one. Graph Z consists of two horizontal lines with a slight bend, starting at the origin and at pi on the X axis.](q28.png)
 
 ### Answer Section
 
