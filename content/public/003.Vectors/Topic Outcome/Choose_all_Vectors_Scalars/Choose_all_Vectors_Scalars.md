@@ -29,15 +29,15 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: Weight
+        value: Displacement
       ans2:
-        value: Momentum
+        value: Lift
       ans3:
-        value: The position in 3 dimensions
+        value: Momentum
       ans4:
-        value: Acceleration
+        value: Density
       ans5:
-        value: Power
+        value: Mass
       ans6:
         value: Energy
 ---
