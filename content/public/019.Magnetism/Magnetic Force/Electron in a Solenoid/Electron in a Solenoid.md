@@ -45,9 +45,9 @@ substitutions:
   params:
     vars:
       title: Electron in a Solenoid
-    n: '10'
-    r: '2.60'
-    v: '2.50'
+    n: '15'
+    r: '2.70'
+    v: '2.80'
     p: '6'
 ---
 # {{ params.vars.title }}
