@@ -23,25 +23,25 @@ part1:
 substitutions:
   params:
     vars:
-      name: Ximena
+      name: Mateo
       vehicle: a bicycle
       units: m
       title: Distance travelled
-    v: 7
-    t: 7
+    v: 5
+    t: 8
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 49
+        value: 40
       ans3:
-        value: 14
+        value: 13
       ans4:
-        value: 1.0
+        value: 0.63
       ans5:
-        value: 0
+        value: -3
       ans6:
-        value: 0.0
+        value: -3.9
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is traveling on {{ params.vars.vehicle }} at {{ params.v }} {{ params.vars.units }}.

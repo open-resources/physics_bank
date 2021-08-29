@@ -29,10 +29,10 @@ part1:
 substitutions:
   params:
     vars:
-      name: Abbas
+      name: Maya
       title: Throwing Stones
       units: $s$
-    v: 14.4
+    v: 22.7
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} simultaneously throws two stones from the top edge of a building with a speed {{ params.v }} $m/s$. They throw one straight down and the other straight up.
