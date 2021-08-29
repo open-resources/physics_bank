@@ -25,16 +25,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 6x + -9 > -1x + 10
+      formula: 10x + -1 > -3x + 9
     part1:
       ans1:
-        value: x > 19/7
+        value: x > 10/13
       ans2:
-        value: x < 19/7
+        value: x < 10/13
       ans3:
-        value: x < 7/19
+        value: x < 13/10
       ans4:
-        value: x > 7/19
+        value: x > 13/10
       ans5:
         value: Don't Know
 ---
