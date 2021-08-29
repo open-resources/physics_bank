@@ -26,20 +26,20 @@ substitutions:
   params:
     vars:
       title: Choose all Vectors and Scalars
-    choice: scalars
+    choice: vectors
     part1:
       ans1:
-        value: Power
+        value: The position in a 1 dimensional system
       ans2:
-        value: Mass
+        value: velocity
       ans3:
-        value: Drag
-      ans4:
         value: The average velocity
+      ans4:
+        value: Volume
       ans5:
-        value: Acceleration
+        value: Work
       ans6:
-        value: Momentum
+        value: Power
 ---
 # {{ params.vars.title }}
 
