@@ -24,7 +24,7 @@ substitutions:
   params:
     vars:
       name: Ahmed
-      vehicle: rollerblades
+      vehicle: a skateboard
       units: m
       title: Distance travelled
     v: 3
