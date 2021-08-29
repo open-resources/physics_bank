@@ -25,16 +25,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 5x + -1 > -9x + 4
+      formula: 4x + -10 > -4x + -4
     part1:
       ans1:
-        value: x > 5/14
+        value: x > 3/4
       ans2:
-        value: x < 5/14
+        value: x < 3/4
       ans3:
-        value: x < 14/5
+        value: x < 4/3
       ans4:
-        value: x > 14/5
+        value: x > 4/3
       ans5:
         value: Don't Know
 ---

@@ -53,8 +53,8 @@ substitutions:
       title: Head-on Collision of Carts
       units: $(m/s)\; \hat{\imath}$
     c1: 8
-    c2: 2
-    v0: 19.8
+    c2: 9
+    v0: 8.83
 ---
 # {{ params.vars.title }}
 A cart of mass ${{ params.c1 }}m$ moving with velocity $\vec{v_0} = ( {{ params.v0 }} m/s)\hat{\imath}$ collides head-on with a cart of mass ${{ params.c2 }}m$ that is initially at rest.
