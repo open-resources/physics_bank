@@ -33,13 +33,13 @@ substitutions:
       ans2:
         value: Volume
       ans3:
-        value: Area
+        value: Distance travelled
       ans4:
-        value: Energy
+        value: Speed
       ans5:
-        value: Displacement
+        value: Momentum
       ans6:
-        value: Acceleration
+        value: The average velocity
 ---
 # {{ params.vars.title }}
 

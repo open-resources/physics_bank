@@ -38,9 +38,9 @@ substitutions:
   params:
     vars:
       title: Temperature Range of Resistor
-    p: 2
-    metal: Aluminum
-    T_0: 121
+    p: 6
+    metal: Silver
+    T_0: 87
 ---
 # {{ params.vars.title }}
 
