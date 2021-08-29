@@ -23,8 +23,8 @@ part1:
 substitutions:
   params:
     vars:
-      name: Maya
-      vehicle: ice skates
+      name: Ximena
+      vehicle: a bicycle
       units: m
       title: Distance travelled
     v: 6
