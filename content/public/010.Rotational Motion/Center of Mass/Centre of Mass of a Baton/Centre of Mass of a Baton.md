@@ -31,11 +31,11 @@ substitutions:
     vars:
       title: Centre of Mass of a Baton
       units: $m$
-    m1: 0.24
-    m2: 0.054
+    m1: 0.23
+    m2: 0.13
     m3: 0.13
-    l1: 0.79
-    l2: 1.5
+    l1: 1.1
+    l2: 1.0
 ---
 # {{ params.vars.title }}
 

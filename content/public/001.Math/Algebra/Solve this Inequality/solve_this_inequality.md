@@ -25,16 +25,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 4x + -10 > -4x + -4
+      formula: 8x + -10 > 1x + 5
     part1:
       ans1:
-        value: x > 3/4
+        value: x > 15/7
       ans2:
-        value: x < 3/4
+        value: x < 15/7
       ans3:
-        value: x < 4/3
+        value: x < 7/15
       ans4:
-        value: x > 4/3
+        value: x > 7/15
       ans5:
         value: Don't Know
 ---
