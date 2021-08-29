@@ -26,28 +26,28 @@ substitutions:
     vars:
       title: Distance Between Two People
       units: $m$
-      name1: Savannah
-      name2: Abbas
+      name1: Santiago
+      name2: Aliyah
     s: 2
-    ai_1: 1
-    ai_2: 2
+    ai_1: 2
+    ai_2: 3
     ai_3: 1
-    aj_1: 3
-    aj_2: 2
+    aj_1: 2
+    aj_2: 4
     aj_3: 3
-    bi_1: 3
+    bi_1: 2
     bi_2: 2
     bi_3: 1
-    bj_1: 6
+    bj_1: 5
     bj_2: 2
     bj_3: 2
     part1:
       ans1:
-        value: 23.0
+        value: 19.0
       ans2:
-        value: 12.0
+        value: 9.6
       ans3:
-        value: 530.0
+        value: 360.0
       ans4:
         value: 16.0
       ans5:

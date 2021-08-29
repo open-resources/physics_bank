@@ -31,15 +31,15 @@ substitutions:
       ans1:
         value: Length
       ans2:
-        value: Entropy
+        value: Density
       ans3:
         value: Work
       ans4:
-        value: The position in a 1 dimensional system
+        value: Power
       ans5:
         value: The average acceleration
       ans6:
-        value: Force
+        value: The position in a 1 dimensional system
 ---
 # {{ params.vars.title }}
 
