@@ -30,29 +30,29 @@ substitutions:
   params:
     vars:
       title: Magnitude and Direction of a Vector
-    A_i: 3
-    A_j_abs: 8
+    A_i: 4
+    A_j_abs: 3
     A_j_sign: ' - '
-    B_i: 8
-    B_j_abs: 2
-    B_j_sign: ' - '
-    C_i: 2
-    C_j_abs: 4
+    B_i: -7
+    B_j_abs: 3
+    B_j_sign: ' + '
+    C_i: -5
+    C_j_abs: 6
     C_j_sign: ' + '
-    d: 8
+    d: 2
     part1:
       ans1:
-        value: ($\sqrt{800}$, $\theta = $67.1$^\circ$)
+        value: ($\sqrt{37}$, $\theta = $80.5$^\circ$)
       ans2:
-        value: ($\sqrt{800}$, $\theta = $33.55$^\circ$)
+        value: ($\sqrt{37}$, $\theta = $40.25$^\circ$)
       ans3:
-        value: ($\sqrt{400.0}$, $\theta = $33.55$^\circ$)
+        value: ($\sqrt{18.5}$, $\theta = $40.25$^\circ$)
       ans4:
-        value: ($\sqrt{28.0}$, $\theta = $67.1$^\circ$)
+        value: ($\sqrt{6.1}$, $\theta = $80.5$^\circ$)
       ans5:
-        value: ($\sqrt{1200.0}$, $\theta = $33.55$^\circ$)
+        value: ($\sqrt{55.5}$, $\theta = $40.25$^\circ$)
       ans6:
-        value: ($\sqrt{37}$, $\theta = $67.1$^\circ$)
+        value: ($\sqrt{7}$, $\theta = $80.5$^\circ$)
 ---
 # {{ params.vars.title }}
 Given $\vec{A} = {{ params.A_i }} \hat{\imath} {{params.A_j_sign}} {{ params.A_j_abs}} \hat{\jmath}$, $\vec{B} = {{ params.B_i }} \hat{\imath} {{params.B_j_sign}} {{ params.B_j_abs}} \hat{\jmath}$, $\vec{C} = {{ params.C_i }} \hat{\imath} {{params.C_j_sign}} {{ params.C_j_abs}} \hat{\jmath}$ and $d={{ params.d }}$, find the magnitude and direction of $\vec{A}-\vec{B}+d\vec{C}$.
