@@ -20,10 +20,12 @@ parts:
   - file: docs/rounding
 - caption: Math
   chapters:
+  - file: content/public/001.Math/Order of Magnitude/Largest Number/largest_number
   - file: content/public/001.Math/Quadratic formula/Diagnostic Q11/diagnosticq11
   - file: content/public/001.Math/Math_practice_q18/math_practice_q18
   - file: content/public/001.Math/Math_practice14/Math_practice14
   - file: content/public/001.Math/math_practice_q24/math_practice_q24
+  - file: content/public/001.Math/Topic Outcome/Factor/Factor
   - file: content/public/001.Math/Logarithmic Functions/math_practice_q16/math_practice_q16
   - file: content/public/001.Math/Exponential Functions/Math Practice q13/math_practice_q13
   - file: content/public/001.Math/Exponential Functions/Math Practice Q17/math_practice_q17
@@ -407,6 +409,7 @@ parts:
   - file: content/public/021.Circuits/Current/OSUPv2.9.2/OSUPv2.9.2
   - file: content/public/021.Circuits/Current/OSUPv2p10_28/OSUPv2p10_28
   - file: content/public/021.Circuits/Current/Cathode Ray Tube/cathode_ray_tube
+  - file: content/public/021.Circuits/Current/Proton Accelerator/proton_accelerator
   - file: content/public/021.Circuits/Current/Range of Current Through Resistor/range_of_current_through_resistor
   - file: content/public/021.Circuits/Current/Charge Model/charge_model
   - file: content/public/021.Circuits/Batteries/OSUPv2p10_25/OSUPv2p10_25
@@ -432,8 +435,8 @@ parts:
   - file: content/public/021.Circuits/Ohm's Law/Indicator Light/indicator_light
   - file: content/public/021.Circuits/OSUPv2p8_55/OSUPv2p8_55
   - file: content/public/021.Circuits/Kichhoff's Rules/OSUPv2p10_08/OSUPv2p10_08
-  - file: content/public/021.Circuits/Resistance/Temperature Range of Resistor /temp_range_of_resistor
   - file: content/public/021.Circuits/Resistance/Ratio Of Diameter/ratio_of_diameter
+  - file: content/public/021.Circuits/Resistance/Temperature Range of Resistor/temp_range_of_resistor
   - file: content/public/021.Circuits/Resistance/OSUPv2p10_02/OSUPv2p10_02
   - file: content/public/021.Circuits/Resistance/OSUPv2p10_06/OSUPv2p10_06
   - file: content/public/021.Circuits/Resistance/Length of Wire/length_of_wire
