@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 17
-    a: 6
-    b: 10
+    a: 4
+    b: 7
     part1:
       ans1:
-        value: $e^{10} e^{6 y}$
+        value: $e^{7} e^{4 y}$
       ans2:
-        value: $e^{6 y} + e^{6}$
+        value: $e^{4 y} + e^{4}$
       ans3:
-        value: $6 e^{6} e^{y}$
+        value: $4 e^{4} e^{y}$
       ans4:
-        value: $10 e^{6 y}$
+        value: $7 e^{4 y}$
       ans5:
         value: Don't Know
 ---

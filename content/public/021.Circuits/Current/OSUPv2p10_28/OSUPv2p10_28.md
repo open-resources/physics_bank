@@ -71,9 +71,9 @@ part4:
 substitutions:
   params:
     P_T: '1830'
-    P_S: '1440'
-    P_L: '75.0'
-    I_F: '26.0'
+    P_S: '1390'
+    P_L: '65.0'
+    I_F: '25.0'
     V: '150.0'
     prep: a
     part4:
