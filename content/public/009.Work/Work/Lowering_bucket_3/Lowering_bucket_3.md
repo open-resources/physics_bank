@@ -37,7 +37,7 @@ part3:
 substitutions:
   params:
     vars:
-      name: Emilia
+      name: Savannah
       title: Lowering a bucket - the bucket
     part1:
       ans1:

@@ -31,9 +31,9 @@ substitutions:
       ans2:
         value: More information is needed.
       ans3:
-        value: B
-      ans4:
         value: A
+      ans4:
+        value: B
 ---
 # {{ params.vars.title }}
 Balls A and B are launched with the same initial velocity along a pair of tracks as shown in the figure.
