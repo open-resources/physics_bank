@@ -43,8 +43,8 @@ substitutions:
     vars:
       title: Electron in a capacitor
     d: '2.0'
-    V: '160'
-    s: '7.5'
+    V: '260'
+    s: '9.0'
     p: '5'
     x: '1.4'
 ---

@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 17
-    a: 8
-    b: 9
+    a: 5
+    b: 2
     part1:
       ans1:
-        value: $e^{9} e^{8 y}$
+        value: $e^{2} e^{5 y}$
       ans2:
-        value: $e^{8 y} + e^{8}$
+        value: $e^{5 y} + e^{5}$
       ans3:
-        value: $8 e^{8} e^{y}$
+        value: $5 e^{5} e^{y}$
       ans4:
-        value: $9 e^{8 y}$
+        value: $2 e^{5 y}$
       ans5:
         value: Don't Know
 ---
