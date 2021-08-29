@@ -43,9 +43,9 @@ substitutions:
       title: Drawing Water from a Well
       unit1: $N$
       unit2: $m$
-    M: 4.49
-    m: 5.92
-    R: 0.808
+    M: 3.09
+    m: 3.33
+    R: 0.629
     t: 11.9
 ---
 # {{ params.vars.title }}
