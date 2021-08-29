@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #12'
-    a: 1
-    b: 6
+    a: 5
+    b: 10
     part1:
       ans1:
-        value: (5/6 < x) & (x < 1)
+        value: (9/2 < x) & (x < 5)
       ans2:
-        value: (5/6 > x) & (x > 1)
+        value: (9/2 > x) & (x > 5)
       ans3:
-        value: x > 1/6
+        value: x > 5/10
       ans4:
-        value: (0 < x) & (x < 6)
+        value: (8 < x) & (x < 10)
       ans5:
         value: Do not know
 ---
