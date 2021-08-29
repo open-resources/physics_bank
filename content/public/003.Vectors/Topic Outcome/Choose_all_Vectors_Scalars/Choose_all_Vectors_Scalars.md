@@ -31,15 +31,15 @@ substitutions:
       ans1:
         value: Density
       ans2:
-        value: Pressure
+        value: Work
       ans3:
-        value: Length
+        value: Momentum
       ans4:
-        value: Entropy
+        value: Drag
       ans5:
-        value: Acceleration
+        value: Lift
       ans6:
-        value: The average acceleration
+        value: Displacement
 ---
 # {{ params.vars.title }}
 
