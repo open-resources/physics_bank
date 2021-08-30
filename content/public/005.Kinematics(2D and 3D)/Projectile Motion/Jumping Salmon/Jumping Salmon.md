@@ -1,8 +1,8 @@
 ---
-title: Salmon Passing a Waterfall
+title: Jumping Salmon
 topic: Kinematics(2D and 3D)
 author: John Hopkinson
-source: PHYS 112 2017W1 002 Midterm 1 Q2 and Q3
+source: PHYS 112 2019W Mock Test Q1 and Q2
 template_version: 1.1
 attribution: standard
 outcomes:
@@ -23,55 +23,47 @@ part1:
     partial-credit: true
     partial-credit-method: EDC
 part2:
-  type: multiple-choice
+  type: number-input
   pl-customizations:
     weight: 1
+    allow-blank: true
+    label: $v_{iy}= $
+    suffix: $m/s$
+    comparison: sigfig
+    digits: 3
 substitutions:
   params:
     vars:
-      title: Salmon Passing a Waterfall
-    d: 4.53
-    vx: 1.98
-    vy: 7.14
+      title: Jumping Salmon
+      units: $m/s$
+    h_fall: 3.7
+    dist: 1.06
     part1:
       ans1:
-        value: Time interval for acceleration, $\Delta t$
+        value: Time interval for jump, $\Delta t$
       ans2:
         value: Vertical displacement, $\Delta y$
       ans3:
         value: Horizontal displacement, $\Delta x$
       ans4:
-        value: Vertical acceleration component, $a_y$
-      ans5:
         value: Horizontal acceleration component, $a_x$
-      ans6:
-        value: Vertical component of velocity at top of water, $v_{fy}$
-      ans7:
-        value: Horizontal component of velocity at top of water, $v_{fx}$
-      ans8:
-        value: Vertical component of velocity at bottom of water, $v_{iy}$
-      ans9:
-        value: Horizontal component of velocity at bottom of water, $v_{ix}$
-    part2:
-      ans1:
-        value: $(1.56\; m/s^2, 5.63 \; m/s^2)$
-      ans2:
-        value: $(5.63\; m/s^2, 1.56\; m/s^2)$
-      ans3:
-        value: $(0 \; m/s^2, 6.13\; m/s^2)$
-      ans4:
-        value: 9.81 $m/s^2$
       ans5:
-        value: $(2.06\; m/s^2, 3.59\; m/s^2)$
+        value: Vertical acceleration component, $a_y$
       ans6:
-        value: 3.59 $m/s^2$
+        value: Vertical component of velocity at top of falls, $v_{fy}$
+      ans7:
+        value: Horizontal component of velocity at top of falls, $v_{fx}$
+      ans8:
+        value: Vertical component of velocity at bottom of falls, $v_{iy}$
+      ans9:
+        value: Horizontal component of velocity at bottom of falls, $v_{ix}$
 ---
 # {{ params.vars.title }}
-A salmon accelerates from rest in still water at a depth of {{ params.d }} $m$, to reach a velocity with components $v\_{x} = $ {{ params.vx }} $m/s$ and $v\_{y} = $ {{ params.vy }} $m/s$ when it jumps from the water to pass a waterfall.
+There are reports that salmon can only just jump over a {{ params.h_fall }} $m$ falls.
 
 ## Part 1
 
-Select the known variables for the motion of the salmon until the point of leaving the water.
+If a salmon starts from a horizontal distance {{ params.dist }} $m$ away from the waterfall in still water and just makes it up the falls, select the known variables for the motion of the salmon after leaving the water.
 
 ### Answer Section
 
@@ -91,16 +83,11 @@ Note: You will be awarded full marks only if you select all the correct choices,
 
 ## Part 2
 
-What is the salmon's acceleration when it jumps from the water to pass a waterfall?
+If a salmon starts from a horizontal distance {{ params.dist }} $m$ away from the waterfall in still water, what is the initial $y$-component of the velocity vector of the salmon as it leaves the water if it just makes it up the falls?
 
 ### Answer Section
 
-- {{ params.part2.ans1.value}}
-- {{ params.part2.ans2.value}}
-- {{ params.part2.ans3.value}}
-- {{ params.part2.ans4.value}}
-- {{ params.part2.ans5.value}}
-- {{ params.part2.ans6.value}}
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 
