@@ -30,7 +30,7 @@ substitutions:
       title: Dissipative Energy
     part1:
       ans1:
-        value: Irreversible processes are dissipative.
+        value: Incoherent deformations are dissipative
       ans2:
         value: Dissipative processes are one where the total mechanical energy is
           not conserved.
@@ -40,7 +40,7 @@ substitutions:
       ans4:
         value: Coherent deformations are dissipative.
       ans5:
-        value: Incoherent deformations are dissipative
+        value: Irreversible processes are dissipative.
 ---
 # {{ params.vars.title }}
 

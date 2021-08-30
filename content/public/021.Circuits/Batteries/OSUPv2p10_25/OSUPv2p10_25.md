@@ -52,7 +52,7 @@ part2:
 substitutions:
   params:
     V: '13.5'
-    V_t: '17.0'
+    V_t: '16.5'
     I: '12.00'
 ---
 # {{ params.vars.title }}

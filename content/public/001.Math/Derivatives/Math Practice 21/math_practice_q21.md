@@ -1,13 +1,12 @@
 ---
-title: Momentum and Interia
-topic: Momentum and Impulse
-author: Jake Bobowski
-source: 2016 Final Q9
-template_version: 1.0
+title: Math Practice 21
+topic: Math
+author: Simon Bates
+source: Math Diagnostic Q21
+template_version: 1.1
 attribution: standard
 outcomes:
-- 7.2.1.0
-- 6.4.1.2
+- null
 difficulty:
 - undefined
 randomization:
@@ -15,7 +14,8 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- AK
+- math_diagnostic
+- MP
 assets: null
 part1:
   type: multiple-choice
@@ -24,25 +24,24 @@ part1:
 substitutions:
   params:
     vars:
-      title: Momentum and Inertia
-      vehicle: car
+      title: Math Practice 21
+    formula: $\cos{\left(x^{2} \right)}$
     part1:
       ans1:
-        value: The bee has more momentum, the bee has more inertia.
+        value: ${- 2 x \sin{\left(x^{2} \right)}}$
       ans2:
-        value: The car has more momentum, the bee has more inertia.
+        value: ${- 2 \sin{\left(x^{2} \right)}}$
       ans3:
-        value: The car has more momentum, the car has more inertia.
+        value: ${- \sin{\left(x^{2} \right)}}$
       ans4:
-        value: The bee has more momentum, the car has more inertia.
+        value: ${- 2 x \cos{\left(x^{2} \right)}}$
       ans5:
-        value: It can’t be determined from this information.
+        value: Don't Know
 ---
 # {{ params.vars.title }}
+The derivative of {{params.formula}} is:
 
 ## Part 1
-
-Which has greater momentum: a flying bumblebee or a stationary {{ params.vars.vehicle }}? Which has greater inertia?
 
 ### Answer Section
 
