@@ -24,10 +24,10 @@ substitutions:
   params:
     vars:
       title: Vehicle Velocity
-      vehicle: semi-truck
+      vehicle: bus
       units: $m/s$
-    i_1: 1
-    i_2: 1
+    i_1: 2
+    i_2: 3
     j_1: 7
     j_2: 3
     s: 1
@@ -37,9 +37,9 @@ substitutions:
       ans2:
         value: (1$\hat{\imath}$ + 9$\hat{\jmath}$)
       ans3:
-        value: (0$\hat{\imath}$ + 10$\hat{\jmath}$)
+        value: (-1$\hat{\imath}$ + 10$\hat{\jmath}$)
       ans4:
-        value: (0$\hat{\imath}$ + 2$\hat{\jmath}$)
+        value: (-1$\hat{\imath}$ + 2$\hat{\jmath}$)
       ans5:
         value: (1$\hat{\imath}$ + 10$\hat{\jmath}$)
 ---

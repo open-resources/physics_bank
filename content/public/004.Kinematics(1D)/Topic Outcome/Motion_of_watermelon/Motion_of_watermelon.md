@@ -49,13 +49,13 @@ part4:
 substitutions:
   params:
     vars:
-      name: Ximena
+      name: Abbas
       title: Motion of watermelon
       units1: ${m/s}^2$
       units2: $s$
-    a: 2
-    b: 5
-    c: 6
+    a: 6
+    b: 6
+    c: 5
     part4:
       ans1:
         value: The speed is increasing
@@ -84,8 +84,6 @@ Note that it may not be necessary to use every variable. Use the following table
 | $\theta$ | theta |
 
 ### Answer Section
-
-{{ substitutions.part1.label }}
 
 ## Part 2
 

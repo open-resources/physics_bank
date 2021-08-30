@@ -25,19 +25,19 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    a: 4
-    b: '14'
-    b_sign: ' - '
-    c: -2
+    a: -6
+    b: '18'
+    b_sign: ' + '
+    c: 3
     part1:
       ans1:
-        value: -2.0x + 7.0y
+        value: -2.0x + 6.0y
       ans2:
-        value: -7.0x +2.0y
+        value: -6.0x +2.0y
       ans3:
-        value: ' - (-2.0x  + 7.0y)/2'
+        value: '  (-2.0x  + 6.0y)/3'
       ans4:
-        value: 4x - 14y
+        value: -6x + 18y
       ans5:
         value: Do not know
 ---
@@ -49,11 +49,11 @@ $\frac{ {{ params.a }}x {{ params.b_sign }} {{ params.b }}y }{ {{ params.c }} }$
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
-- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

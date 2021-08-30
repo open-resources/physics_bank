@@ -29,15 +29,15 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Density
+        value: Entropy
       ans2:
-        value: Work
+        value: Power
       ans3:
-        value: Momentum
+        value: Energy
       ans4:
-        value: Drag
+        value: The position in 3 dimensions
       ans5:
-        value: Lift
+        value: The position in a 1 dimensional system
       ans6:
         value: Displacement
 ---
