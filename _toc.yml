@@ -97,6 +97,7 @@ parts:
       Time/Acceleration, Velocity and Time
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Electrons_Accelerating/Electrons_Accelerating
   - file: content/public/004.Kinematics(1D)/Motion Diagrams/Running_Dog/Running_Dog
+  - file: content/public/004.Kinematics(1D)/Velocity/Velocity_From_Graph/Velocity_From_Graph
   - file: content/public/004.Kinematics(1D)/Velocity/Label_Velocity_Vs_Time_Graph/Label_Velocity_Vs_Time_Graph
   - file: content/public/004.Kinematics(1D)/Velocity/Choose the correct graph/Choose
       the correct graph
@@ -126,6 +127,8 @@ parts:
       Basket/Cat in a Laundry Basket
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Salmon passing
       a waterfall/Salmon Passing a Waterfall
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Jumping Salmon/Jumping
+      Salmon
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/ski_jump/ski_jump
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Mass_Attached_To_String/Mass_Attached_To_String
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Slanted Table/slanted_table
@@ -291,6 +294,8 @@ parts:
       Potential Energy of an Oscillator/Displacement and Potential Energy of an Oscillator
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Maximum Speed of
       a Pendulum/Maximum Speed of a Pendulum
+  - file: content/public/015.Oscillations/Simple Harmonic Motion/Bouncing a baby to
+      sleep/Bouncing a baby to sleep
 - caption: Electrostatics
   chapters:
   - file: content/public/018.Electrostatics/Electric Potential/Dielectric breakdown
