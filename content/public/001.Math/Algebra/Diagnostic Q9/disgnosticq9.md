@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 4
-    l0: d
-    l1: p
-    l2: a
-    l3: y
+    num: -2
+    l0: n
+    l1: m
+    l2: r
+    l3: w
     part1:
       ans1:
-        value: a = ${ - 4 y + \frac{p}{d}}$
+        value: r = ${ \frac{m}{n} + 2 w}$
       ans2:
-        value: a = ${\frac{4 d y}{p}}$
+        value: r = ${- \frac{2 n w}{m}}$
       ans3:
-        value: a = ${\frac{p}{4 d y}}$
+        value: r = ${- \frac{m}{2 n w}}$
       ans4:
-        value: a = ${\frac{d - 4 y}{p}}$
+        value: r = ${\frac{n + 2 w}{m}}$
       ans5:
         value: Don't Know
 ---

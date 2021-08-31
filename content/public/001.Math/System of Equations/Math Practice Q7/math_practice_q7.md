@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 2x - 7y = 29
-    formula2: 8x + 1y = 26
+    formula1: 8x - 10y = 18
+    formula2: 3x + 6y = 3
     part1:
       ans1:
-        value: ' x =211/58, y =-90/29'
+        value: ' x =23/13, y =-5/13'
       ans2:
-        value: ' x =-90/29, y =211/58'
+        value: ' x =-5/13, y =23/13'
       ans3:
-        value: ' x =-211/58, y =90/29'
+        value: ' x =-23/13, y =5/13'
       ans4:
-        value: ' x =90/29, y =-211/58'
+        value: ' x =5/13, y =-23/13'
       ans5:
         value: Don't Know
 ---
