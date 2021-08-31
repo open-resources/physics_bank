@@ -38,9 +38,9 @@ substitutions:
   params:
     vars:
       title: Temperature Range of Resistor
-    p: 1
-    metal: Nichrome
-    T_0: 94
+    p: 4
+    metal: Carbon
+    T_0: 133
 ---
 # {{ params.vars.title }}
 

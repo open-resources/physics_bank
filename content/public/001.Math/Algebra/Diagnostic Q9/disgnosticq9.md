@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 5
-    l0: j
-    l1: e
-    l2: l
-    l3: h
+    num: 4
+    l0: a
+    l1: m
+    l2: v
+    l3: i
     part1:
       ans1:
-        value: l = ${ \frac{e}{j} - 5 h}$
+        value: v = ${ - 4 i + \frac{m}{a}}$
       ans2:
-        value: l = ${\frac{5 h j}{e}}$
+        value: v = ${\frac{4 a i}{m}}$
       ans3:
-        value: l = ${\frac{e}{5 h j}}$
+        value: v = ${\frac{m}{4 a i}}$
       ans4:
-        value: l = ${\frac{- 5 h + j}{e}}$
+        value: v = ${\frac{a - 4 i}{m}}$
       ans5:
         value: Don't Know
 ---

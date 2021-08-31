@@ -25,16 +25,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 1x + 2 > -5x + 7
+      formula: 5x + -6 > -9x + -5
     part1:
       ans1:
-        value: x > 5/6
+        value: x > 1/14
       ans2:
-        value: x < 5/6
+        value: x < 1/14
       ans3:
-        value: x < 6/5
+        value: x < 14
       ans4:
-        value: x > 6/5
+        value: x > 14
       ans5:
         value: Don't Know
 ---

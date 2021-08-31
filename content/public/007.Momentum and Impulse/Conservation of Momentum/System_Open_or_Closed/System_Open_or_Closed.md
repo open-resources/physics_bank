@@ -26,9 +26,9 @@ substitutions:
   params:
     vars:
       title: System Open or Closed
-      vehicle: car
+      vehicle: pickup truck
       units: kg
-    i_a: 73
+    i_a: 54
     i_b: 345
     part1:
       ans1:
