@@ -29,17 +29,17 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: Momentum
+        value: Acceleration
       ans2:
-        value: Force
+        value: The position in 3 dimensions
       ans3:
-        value: Pressure
+        value: The position in a 1 dimensional system
       ans4:
-        value: Power
+        value: Displacement
       ans5:
-        value: Work
+        value: Pressure
       ans6:
-        value: Energy
+        value: Area
 ---
 # {{ params.vars.title }}
 

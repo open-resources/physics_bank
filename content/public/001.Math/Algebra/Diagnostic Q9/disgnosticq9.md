@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 3
-    l0: a
-    l1: c
-    l2: j
+    num: 10
+    l0: t
+    l1: o
+    l2: v
     l3: y
     part1:
       ans1:
-        value: j = ${ - 3 y + \frac{c}{a}}$
+        value: v = ${ \frac{o}{t} - 10 y}$
       ans2:
-        value: j = ${\frac{3 a y}{c}}$
+        value: v = ${\frac{10 t y}{o}}$
       ans3:
-        value: j = ${\frac{c}{3 a y}}$
+        value: v = ${\frac{o}{10 t y}}$
       ans4:
-        value: j = ${\frac{a - 3 y}{c}}$
+        value: v = ${\frac{t - 10 y}{o}}$
       ans5:
         value: Don't Know
 ---
