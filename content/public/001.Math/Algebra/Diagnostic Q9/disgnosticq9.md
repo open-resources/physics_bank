@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -3
-    l0: p
+    num: -4
+    l0: f
     l1: c
-    l2: k
-    l3: b
+    l2: r
+    l3: j
     part1:
       ans1:
-        value: k = ${ 3 b + \frac{c}{p}}$
+        value: r = ${ \frac{c}{f} + 4 j}$
       ans2:
-        value: k = ${- \frac{3 b p}{c}}$
+        value: r = ${- \frac{4 f j}{c}}$
       ans3:
-        value: k = ${- \frac{c}{3 b p}}$
+        value: r = ${- \frac{c}{4 f j}}$
       ans4:
-        value: k = ${\frac{3 b + p}{c}}$
+        value: r = ${\frac{f + 4 j}{c}}$
       ans5:
         value: Don't Know
 ---
