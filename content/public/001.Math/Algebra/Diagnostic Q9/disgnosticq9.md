@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -6
-    l0: t
-    l1: b
-    l2: o
-    l3: r
+    num: 3
+    l0: q
+    l1: g
+    l2: x
+    l3: j
     part1:
       ans1:
-        value: o = ${ \frac{b}{t} + 6 r}$
+        value: x = ${ \frac{g}{q} - 3 j}$
       ans2:
-        value: o = ${- \frac{6 r t}{b}}$
+        value: x = ${\frac{3 j q}{g}}$
       ans3:
-        value: o = ${- \frac{b}{6 r t}}$
+        value: x = ${\frac{g}{3 j q}}$
       ans4:
-        value: o = ${\frac{6 r + t}{b}}$
+        value: x = ${\frac{- 3 j + q}{g}}$
       ans5:
         value: Don't Know
 ---
