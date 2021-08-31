@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 10
-    l0: u
-    l1: b
-    l2: j
-    l3: y
+    num: 2
+    l0: c
+    l1: d
+    l2: g
+    l3: j
     part1:
       ans1:
-        value: j = ${ \frac{b}{u} - 10 y}$
+        value: g = ${ - 2 j + \frac{d}{c}}$
       ans2:
-        value: j = ${\frac{10 u y}{b}}$
+        value: g = ${\frac{2 c j}{d}}$
       ans3:
-        value: j = ${\frac{b}{10 u y}}$
+        value: g = ${\frac{d}{2 c j}}$
       ans4:
-        value: j = ${\frac{u - 10 y}{b}}$
+        value: g = ${\frac{c - 2 j}{d}}$
       ans5:
         value: Don't Know
 ---
