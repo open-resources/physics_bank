@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 4
-    l0: f
-    l1: d
-    l2: c
-    l3: e
+    num: 3
+    l0: w
+    l1: b
+    l2: z
+    l3: k
     part1:
       ans1:
-        value: c = ${ \frac{d}{f} - 4 e}$
+        value: z = ${ \frac{b}{w} - 3 k}$
       ans2:
-        value: c = ${\frac{4 e f}{d}}$
+        value: z = ${\frac{3 k w}{b}}$
       ans3:
-        value: c = ${\frac{d}{4 e f}}$
+        value: z = ${\frac{b}{3 k w}}$
       ans4:
-        value: c = ${\frac{- 4 e + f}{d}}$
+        value: z = ${\frac{- 3 k + w}{b}}$
       ans5:
         value: Don't Know
 ---

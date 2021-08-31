@@ -40,9 +40,9 @@ substitutions:
   params:
     vars:
       title: Field due to current segment
-    I: '13.5'
-    x: '3.80'
-    y: '3.60'
+    I: '5.5'
+    x: '5.40'
+    y: '4.60'
     dl: '0.30'
 ---
 # {{ params.vars.title }}

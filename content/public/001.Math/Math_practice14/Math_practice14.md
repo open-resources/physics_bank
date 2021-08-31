@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 14
-    num: 9
-    denom: 4
+    num: 2
+    denom: 8
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt[4]{x^{9}}}\end{equation}
+        value: \begin{equation}\frac{1}{\sqrt[8]{x^{2}}}\end{equation}
       ans2:
-        value: \begin{equation}\sqrt[4]{x^{9}}\end{equation}
+        value: \begin{equation}\sqrt[8]{x^{2}}\end{equation}
       ans3:
-        value: \begin{equation}x^{\frac{9}{4}}\end{equation}
+        value: \begin{equation}\sqrt[4]{x}\end{equation}
       ans4:
-        value: \begin{equation}- \frac{1}{\sqrt[4]{x^{9}}}\end{equation}
+        value: \begin{equation}- \frac{1}{\sqrt[8]{x^{2}}}\end{equation}
       ans5:
         value: Do not know
 ---
