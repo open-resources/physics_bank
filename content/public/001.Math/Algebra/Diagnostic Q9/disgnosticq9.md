@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -6
-    l0: e
-    l1: r
-    l2: n
-    l3: c
+    num: -9
+    l0: y
+    l1: e
+    l2: r
+    l3: i
     part1:
       ans1:
-        value: n = ${ 6 c + \frac{r}{e}}$
+        value: r = ${ \frac{e}{y} + 9 i}$
       ans2:
-        value: n = ${- \frac{6 c e}{r}}$
+        value: r = ${- \frac{9 i y}{e}}$
       ans3:
-        value: n = ${- \frac{r}{6 c e}}$
+        value: r = ${- \frac{e}{9 i y}}$
       ans4:
-        value: n = ${\frac{6 c + e}{r}}$
+        value: r = ${\frac{9 i + y}{e}}$
       ans5:
         value: Don't Know
 ---
