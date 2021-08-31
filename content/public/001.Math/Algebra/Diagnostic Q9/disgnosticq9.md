@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -10
-    l0: v
-    l1: r
-    l2: z
-    l3: h
+    num: -7
+    l0: o
+    l1: b
+    l2: w
+    l3: i
     part1:
       ans1:
-        value: z = ${ 10 h + \frac{r}{v}}$
+        value: w = ${ \frac{b}{o} + 7 i}$
       ans2:
-        value: z = ${- \frac{10 h v}{r}}$
+        value: w = ${- \frac{7 i o}{b}}$
       ans3:
-        value: z = ${- \frac{r}{10 h v}}$
+        value: w = ${- \frac{b}{7 i o}}$
       ans4:
-        value: z = ${\frac{10 h + v}{r}}$
+        value: w = ${\frac{7 i + o}{b}}$
       ans5:
         value: Don't Know
 ---

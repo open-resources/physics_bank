@@ -28,12 +28,12 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: bus
+      vehicle: semi-truck
       title: Displacement of a Vehicle
       units: blocks
-    c1: 7
-    c2: 68
-    c3: 37
+    c1: 25
+    c2: 79
+    c3: 9
     dir1: north
     dir2: south
     dir3: east
