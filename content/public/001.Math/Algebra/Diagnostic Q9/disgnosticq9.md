@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 5
-    l0: w
-    l1: t
-    l2: f
-    l3: c
+    num: -2
+    l0: g
+    l1: s
+    l2: x
+    l3: q
     part1:
       ans1:
-        value: f = ${ - 5 c + \frac{t}{w}}$
+        value: x = ${ 2 q + \frac{s}{g}}$
       ans2:
-        value: f = ${\frac{5 c w}{t}}$
+        value: x = ${- \frac{2 g q}{s}}$
       ans3:
-        value: f = ${\frac{t}{5 c w}}$
+        value: x = ${- \frac{s}{2 g q}}$
       ans4:
-        value: f = ${\frac{- 5 c + w}{t}}$
+        value: x = ${\frac{g + 2 q}{s}}$
       ans5:
         value: Don't Know
 ---

@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 17
-    a: 8
-    b: 4
+    a: 3
+    b: 7
     part1:
       ans1:
-        value: $e^{4} e^{8 y}$
+        value: $e^{7} e^{3 y}$
       ans2:
-        value: $e^{8 y} + e^{8}$
+        value: $e^{3 y} + e^{3}$
       ans3:
-        value: $8 e^{8} e^{y}$
+        value: $3 e^{3} e^{y}$
       ans4:
-        value: $4 e^{8 y}$
+        value: $7 e^{3 y}$
       ans5:
         value: Don't Know
 ---
