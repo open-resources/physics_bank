@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 7
-    l0: l
-    l1: i
-    l2: z
-    l3: x
+    num: 5
+    l0: e
+    l1: k
+    l2: q
+    l3: r
     part1:
       ans1:
-        value: z = ${ \frac{i}{l} - 7 x}$
+        value: q = ${ - 5 r + \frac{k}{e}}$
       ans2:
-        value: z = ${\frac{7 l x}{i}}$
+        value: q = ${\frac{5 e r}{k}}$
       ans3:
-        value: z = ${\frac{i}{7 l x}}$
+        value: q = ${\frac{k}{5 e r}}$
       ans4:
-        value: z = ${\frac{l - 7 x}{i}}$
+        value: q = ${\frac{e - 5 r}{k}}$
       ans5:
         value: Don't Know
 ---

@@ -1,15 +1,12 @@
 ---
-title: Velocity of a Falcon
+title: Shooting a Steel Ball
 topic: Kinematics(2D and 3D)
 author: John Hopkinson
-source: PHYS 112 2020W Midterm 1 Q2
+source: PHYS 112 2018W1 Practice Final Q1
 template_version: 1.1
 attribution: standard
 outcomes:
-- 5.8.1.0
-- 5.8.1.2
-- 5.8.1.1
-- 5.8.1.3
+- 5.5.1.0
 difficulty:
 - undefined
 randomization:
@@ -26,31 +23,29 @@ part1:
 substitutions:
   params:
     vars:
-      title: Velocity of a Falcon
-    dir1: South
-    dir2: West
-    v_f: 95.4
-    v_w: 87.9
+      title: Shooting a Steel Ball
+    v: 2
+    theta: 78
     part1:
       ans1:
-        value: 130.0 $km/h$ 42.7$^\circ$ West of South
+        value: $(2\cos(78^{\circ}), \; -2\sin(78^{\circ}))$
       ans2:
-        value: 183.0 $km/h$ 42.7$^\circ$ West of South
+        value: $(2\cos(78^{\circ}), \;2\sin(78^{\circ}))$
       ans3:
-        value: 88.4 $km/h$ 47.7$^\circ$ West of South
+        value: $(2\sin(78^{\circ}), \; -2\cos(78^{\circ}))$
       ans4:
-        value: 88.4 $km/h$ 47.7$^\circ$ East of North
+        value: $(2\sin(78^{\circ}), \;2\cos(78^{\circ}))$
       ans5:
-        value: 183.0 $km/h$ 47.7$^\circ$ East of South
+        value: $(-2\cos(78^{\circ}), \; -2\sin(78^{\circ}))$
       ans6:
-        value: 88.4 $km/h$ 42.7$^\circ$ West of North
+        value: $(-2\sin(78^{\circ}), \;2\cos(78^{\circ}))$
 ---
 # {{ params.vars.title }}
-A peregrine falcon flies at {{ params.v_f }} $km/h$ {{ params.dir1 }} (relative to the air) in a {{ params.v_w }} $km/h$ wind to the {{ params.dir2 }} (relative to the ground).
+A small steel ball is shot at {{ params.v }} $m/s$ at a {{ params.theta }}$^{\circ}$ angle above the horizontal direction and its motion is well approximated by projectile motion.
 
 ## Part 1
 
-The velocity of the peregrine falcon as seen by an observer on the ground is:
+When the ball returns to its original height, its velocity $\overrightarrow{v} = (v_x, v_y)$ is:
 
 ### Answer Section
 
