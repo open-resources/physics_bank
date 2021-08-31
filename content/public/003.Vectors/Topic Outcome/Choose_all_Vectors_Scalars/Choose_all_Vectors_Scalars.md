@@ -29,17 +29,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Area
+        value: Temperature
       ans2:
-        value: Volume
+        value: Distance travelled
       ans3:
-        value: Energy
+        value: Speed
       ans4:
-        value: Entropy
+        value: The position in a 1 dimensional system
       ans5:
-        value: Displacement
+        value: Weight
       ans6:
-        value: Drag
+        value: The position in 3 dimensions
 ---
 # {{ params.vars.title }}
 

@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 8x - 2y = 39
-    formula2: 8x + 8y = 49
+    formula1: 4x - 9y = 3
+    formula2: 1x + 10y = 38
     part1:
       ans1:
-        value: ' x =41/8, y =1'
+        value: ' x =372/49, y =149/49'
       ans2:
-        value: ' x =1, y =41/8'
+        value: ' x =149/49, y =372/49'
       ans3:
-        value: ' x =-41/8, y =-1'
+        value: ' x =-372/49, y =-149/49'
       ans4:
-        value: ' x =-1, y =-41/8'
+        value: ' x =-149/49, y =-372/49'
       ans5:
         value: Don't Know
 ---

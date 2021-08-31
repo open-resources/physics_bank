@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 10
-    l0: e
-    l1: l
-    l2: w
-    l3: g
+    num: -10
+    l0: v
+    l1: r
+    l2: z
+    l3: h
     part1:
       ans1:
-        value: w = ${ - 10 g + \frac{l}{e}}$
+        value: z = ${ 10 h + \frac{r}{v}}$
       ans2:
-        value: w = ${\frac{10 e g}{l}}$
+        value: z = ${- \frac{10 h v}{r}}$
       ans3:
-        value: w = ${\frac{l}{10 e g}}$
+        value: z = ${- \frac{r}{10 h v}}$
       ans4:
-        value: w = ${\frac{e - 10 g}{l}}$
+        value: z = ${\frac{10 h + v}{r}}$
       ans5:
         value: Don't Know
 ---
