@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -5
-    l0: j
-    l1: f
-    l2: e
-    l3: d
+    num: -6
+    l0: e
+    l1: r
+    l2: n
+    l3: c
     part1:
       ans1:
-        value: e = ${ 5 d + \frac{f}{j}}$
+        value: n = ${ 6 c + \frac{r}{e}}$
       ans2:
-        value: e = ${- \frac{5 d j}{f}}$
+        value: n = ${- \frac{6 c e}{r}}$
       ans3:
-        value: e = ${- \frac{f}{5 d j}}$
+        value: n = ${- \frac{r}{6 c e}}$
       ans4:
-        value: e = ${\frac{5 d + j}{f}}$
+        value: n = ${\frac{6 c + e}{r}}$
       ans5:
         value: Don't Know
 ---
