@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 17
-    a: 2
+    a: 9
     b: 10
     part1:
       ans1:
-        value: $e^{10} e^{2 y}$
+        value: $e^{10} e^{9 y}$
       ans2:
-        value: $e^{2 y} + e^{2}$
+        value: $e^{9 y} + e^{9}$
       ans3:
-        value: $2 e^{2} e^{y}$
+        value: $9 e^{9} e^{y}$
       ans4:
-        value: $10 e^{2 y}$
+        value: $10 e^{9 y}$
       ans5:
         value: Don't Know
 ---

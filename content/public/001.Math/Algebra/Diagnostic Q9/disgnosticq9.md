@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 3
-    l0: h
-    l1: j
-    l2: u
-    l3: m
+    num: 7
+    l0: l
+    l1: i
+    l2: z
+    l3: x
     part1:
       ans1:
-        value: u = ${ - 3 m + \frac{j}{h}}$
+        value: z = ${ \frac{i}{l} - 7 x}$
       ans2:
-        value: u = ${\frac{3 h m}{j}}$
+        value: z = ${\frac{7 l x}{i}}$
       ans3:
-        value: u = ${\frac{j}{3 h m}}$
+        value: z = ${\frac{i}{7 l x}}$
       ans4:
-        value: u = ${\frac{h - 3 m}{j}}$
+        value: z = ${\frac{l - 7 x}{i}}$
       ans5:
         value: Don't Know
 ---
