@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 6
-    l0: d
-    l1: q
-    l2: e
-    l3: o
+    num: 8
+    l0: p
+    l1: r
+    l2: z
+    l3: d
     part1:
       ans1:
-        value: e = ${ - 6 o + \frac{q}{d}}$
+        value: z = ${ - 8 d + \frac{r}{p}}$
       ans2:
-        value: e = ${\frac{6 d o}{q}}$
+        value: z = ${\frac{8 d p}{r}}$
       ans3:
-        value: e = ${\frac{q}{6 d o}}$
+        value: z = ${\frac{r}{8 d p}}$
       ans4:
-        value: e = ${\frac{d - 6 o}{q}}$
+        value: z = ${\frac{- 8 d + p}{r}}$
       ans5:
         value: Don't Know
 ---

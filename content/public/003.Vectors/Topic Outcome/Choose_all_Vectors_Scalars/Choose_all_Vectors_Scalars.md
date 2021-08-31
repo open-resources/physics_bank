@@ -29,17 +29,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Pressure
+        value: Energy
       ans2:
-        value: Mass
+        value: Power
       ans3:
-        value: Work
+        value: Drag
       ans4:
-        value: Acceleration
+        value: Force
       ans5:
-        value: The average acceleration
+        value: Acceleration
       ans6:
-        value: The position in a 1 dimensional system
+        value: Weight
 ---
 # {{ params.vars.title }}
 

@@ -39,8 +39,8 @@ substitutions:
     vars:
       title: Temperature Range of Resistor
     p: 1
-    metal: Platinum
-    T_0: 104
+    metal: Manganin
+    T_0: 63
 ---
 # {{ params.vars.title }}
 
