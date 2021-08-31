@@ -27,11 +27,11 @@ substitutions:
       title: Two Balls Launched on Different Tracks
     part1:
       ans1:
-        value: They reach the end of the track at the same time.
-      ans2:
         value: More information is needed.
-      ans3:
+      ans2:
         value: A
+      ans3:
+        value: They reach the end of the track at the same time.
       ans4:
         value: B
 ---

@@ -26,16 +26,16 @@ substitutions:
     vars:
       title: Math Practice 13
     a: 3
-    b: 4
+    b: 9
     part1:
       ans1:
-        value: $z^{-1}$
+        value: $z^{-6}$
       ans2:
-        value: $z^{1}$
+        value: $z^{6}$
       ans3:
-        value: -1z
+        value: -6z
       ans4:
-        value: (3/4)z
+        value: (1/3)z
       ans5:
         value: Don't Know
 ---
