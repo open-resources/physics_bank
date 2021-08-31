@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 3
-    l0: g
-    l1: k
-    l2: m
-    l3: t
+    num: -5
+    l0: c
+    l1: z
+    l2: j
+    l3: v
     part1:
       ans1:
-        value: m = ${ - 3 t + \frac{k}{g}}$
+        value: j = ${ 5 v + \frac{z}{c}}$
       ans2:
-        value: m = ${\frac{3 g t}{k}}$
+        value: j = ${- \frac{5 c v}{z}}$
       ans3:
-        value: m = ${\frac{k}{3 g t}}$
+        value: j = ${- \frac{z}{5 c v}}$
       ans4:
-        value: m = ${\frac{g - 3 t}{k}}$
+        value: j = ${\frac{c + 5 v}{z}}$
       ans5:
         value: Don't Know
 ---
