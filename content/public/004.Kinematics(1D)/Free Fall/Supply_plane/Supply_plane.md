@@ -59,9 +59,9 @@ substitutions:
       units1: m
       units2: $m/s^2 \ \ \hat\jmath$
       units3: $m/s \ \ \hat\jmath$
-    h: 110
-    s: 180
-    vert: 40
+    h: 50
+    s: 140
+    vert: 50
 ---
 # {{ params.vars.title }}
 A supply plane needs to drop a package of food to scientists working on a glacier in Greenland.

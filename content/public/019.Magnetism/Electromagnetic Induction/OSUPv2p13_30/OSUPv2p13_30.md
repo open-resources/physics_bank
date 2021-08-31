@@ -40,7 +40,7 @@ substitutions:
     n: '15'
     A: '8'
     I: '0.75'
-    N: '7'
+    N: '6'
     t: '0.07'
 ---
 # {{ params.vars.title }}
