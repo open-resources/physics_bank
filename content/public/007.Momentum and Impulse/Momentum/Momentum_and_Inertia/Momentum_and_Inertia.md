@@ -25,16 +25,16 @@ substitutions:
   params:
     vars:
       title: Momentum and Inertia
-      vehicle: car
+      vehicle: bus
     part1:
       ans1:
         value: The bee has more momentum, the bee has more inertia.
       ans2:
-        value: The car has more momentum, the bee has more inertia.
+        value: The bus has more momentum, the bee has more inertia.
       ans3:
-        value: The car has more momentum, the car has more inertia.
+        value: The bus has more momentum, the bus has more inertia.
       ans4:
-        value: The bee has more momentum, the car has more inertia.
+        value: The bee has more momentum, the bus has more inertia.
       ans5:
         value: It can’t be determined from this information.
 ---

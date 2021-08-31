@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 5
-    l0: e
-    l1: k
-    l2: q
-    l3: r
+    num: -7
+    l0: d
+    l1: i
+    l2: c
+    l3: y
     part1:
       ans1:
-        value: q = ${ - 5 r + \frac{k}{e}}$
+        value: c = ${ 7 y + \frac{i}{d}}$
       ans2:
-        value: q = ${\frac{5 e r}{k}}$
+        value: c = ${- \frac{7 d y}{i}}$
       ans3:
-        value: q = ${\frac{k}{5 e r}}$
+        value: c = ${- \frac{i}{7 d y}}$
       ans4:
-        value: q = ${\frac{e - 5 r}{k}}$
+        value: c = ${\frac{d + 7 y}{i}}$
       ans5:
         value: Don't Know
 ---

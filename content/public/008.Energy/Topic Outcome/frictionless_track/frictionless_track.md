@@ -44,9 +44,9 @@ substitutions:
     vars:
       title: Horizontal frictionless track
       units: N
-    m: 1.25
-    v: 8
-    R: 1.0
+    m: 3.75
+    v: 3
+    R: 0.5
     L: 10
 ---
 # {{ params.vars.title }}
