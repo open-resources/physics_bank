@@ -31,15 +31,15 @@ substitutions:
       ans1:
         value: The position in 3 dimensions
       ans2:
-        value: Momentum
+        value: Force
       ans3:
-        value: Volume
+        value: Length
       ans4:
-        value: Distance travelled
+        value: Speed
       ans5:
-        value: Entropy
+        value: Pressure
       ans6:
-        value: Density
+        value: Work
 ---
 # {{ params.vars.title }}
 

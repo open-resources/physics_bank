@@ -30,9 +30,9 @@ substitutions:
   params:
     vars:
       title: Salmon Passing a Waterfall
-    d: 4.32
-    vx: 2.64
-    vy: 5.34
+    d: 4.62
+    vx: 2.74
+    vy: 5.53
     part1:
       ans1:
         value: Time interval for acceleration, $\Delta t$
@@ -54,15 +54,15 @@ substitutions:
         value: Horizontal component of velocity at bottom of water, $v_{ix}$
     part2:
       ans1:
-        value: $(1.63\; m/s^2, 3.3 \; m/s^2)$
+        value: $(1.64\; m/s^2, 3.31 \; m/s^2)$
       ans2:
-        value: $(3.3\; m/s^2, 1.63\; m/s^2)$
+        value: $(3.31\; m/s^2, 1.64\; m/s^2)$
       ans3:
-        value: $(0 \; m/s^2, 3.8\; m/s^2)$
+        value: $(0 \; m/s^2, 3.81\; m/s^2)$
       ans4:
         value: 9.81 $m/s^2$
       ans5:
-        value: $(2.13\; m/s^2, 2.47\; m/s^2)$
+        value: $(2.14\; m/s^2, 2.47\; m/s^2)$
       ans6:
         value: 2.47 $m/s^2$
 ---
