@@ -38,7 +38,7 @@ substitutions:
   params:
     vars:
       title: Temperature Range of Resistor
-    p: 6
+    p: 10
     metal: Aluminum
     T_0: 122
 ---

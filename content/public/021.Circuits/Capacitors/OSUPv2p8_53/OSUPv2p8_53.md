@@ -71,9 +71,9 @@ substitutions:
   params:
     vars:
       title: Analyzing Potential Difference and Electric Field
-    q: '3.0'
+    q: '6.0'
     c: '1.0'
-    d: '3.0'
+    d: '1.0'
     k: '6.0'
 ---
 # {{ params.vars.title }}
