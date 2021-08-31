@@ -33,13 +33,13 @@ substitutions:
       ans2:
         value: Temperature
       ans3:
-        value: Mass
+        value: Weight
       ans4:
-        value: The average acceleration
+        value: Force
       ans5:
-        value: The position in 3 dimensions
+        value: Displacement
       ans6:
-        value: The average velocity
+        value: The average acceleration
 ---
 # {{ params.vars.title }}
 
