@@ -28,16 +28,16 @@ substitutions:
       title: Speed Before Impact
       vehicle: car
       units: $m/s$
-    m: 639
+    m: 662
     part1:
       ans1:
-        value: 85.0
+        value: 82.0
       ans2:
-        value: 42.0
+        value: 41.0
       ans3:
-        value: 21.0
+        value: 20.0
       ans4:
-        value: 11.0
+        value: 10.0
       ans5:
         value: 0
 ---

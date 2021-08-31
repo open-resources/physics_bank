@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 2
-    l0: i
-    l1: e
-    l2: t
-    l3: g
+    num: 3
+    l0: g
+    l1: k
+    l2: m
+    l3: t
     part1:
       ans1:
-        value: t = ${ \frac{e}{i} - 2 g}$
+        value: m = ${ - 3 t + \frac{k}{g}}$
       ans2:
-        value: t = ${\frac{2 g i}{e}}$
+        value: m = ${\frac{3 g t}{k}}$
       ans3:
-        value: t = ${\frac{e}{2 g i}}$
+        value: m = ${\frac{k}{3 g t}}$
       ans4:
-        value: t = ${\frac{- 2 g + i}{e}}$
+        value: m = ${\frac{g - 3 t}{k}}$
       ans5:
         value: Don't Know
 ---
