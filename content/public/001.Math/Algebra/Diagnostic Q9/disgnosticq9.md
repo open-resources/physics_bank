@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 3
-    l0: j
-    l1: u
-    l2: y
-    l3: f
+    num: 6
+    l0: n
+    l1: t
+    l2: b
+    l3: y
     part1:
       ans1:
-        value: y = ${ - 3 f + \frac{u}{j}}$
+        value: b = ${ - 6 y + \frac{t}{n}}$
       ans2:
-        value: y = ${\frac{3 f j}{u}}$
+        value: b = ${\frac{6 n y}{t}}$
       ans3:
-        value: y = ${\frac{u}{3 f j}}$
+        value: b = ${\frac{t}{6 n y}}$
       ans4:
-        value: y = ${\frac{- 3 f + j}{u}}$
+        value: b = ${\frac{n - 6 y}{t}}$
       ans5:
         value: Don't Know
 ---
