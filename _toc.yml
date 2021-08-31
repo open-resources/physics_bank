@@ -36,6 +36,7 @@ parts:
   - file: content/public/001.Math/Derivatives/Acceleration_Based_On_Graph/Acceleration_Based_On_Graph
   - file: content/public/001.Math/Derivatives/Math Practice 21/math_practice_q21
   - file: content/public/001.Math/Polar Coordinates/Math Practice 19/math_practice_q19
+  - file: content/public/001.Math/Integrals/math_practiceQ22/math_practiceQ22
   - file: content/public/001.Math/Integrals/Rocket/Rocket
   - file: content/public/001.Math/Integrals/Math Practice Q25/mathpracticeq25
   - file: content/public/001.Math/Graphs/Acceleration from Velocity Graph/acceleration_from_velocity_graph
