@@ -65,8 +65,8 @@ part3:
     weight: 1
 substitutions:
   params:
-    R_b: '10.25'
-    R_s: '2100'
+    R_b: '11.50'
+    R_s: '2450'
     V_s: '21.0'
     I_max: '1.0'
 ---

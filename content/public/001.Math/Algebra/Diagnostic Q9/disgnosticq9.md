@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 8
-    l0: r
-    l1: p
-    l2: g
-    l3: y
+    num: 4
+    l0: m
+    l1: v
+    l2: k
+    l3: c
     part1:
       ans1:
-        value: g = ${ \frac{p}{r} - 8 y}$
+        value: k = ${ - 4 c + \frac{v}{m}}$
       ans2:
-        value: g = ${\frac{8 r y}{p}}$
+        value: k = ${\frac{4 c m}{v}}$
       ans3:
-        value: g = ${\frac{p}{8 r y}}$
+        value: k = ${\frac{v}{4 c m}}$
       ans4:
-        value: g = ${\frac{r - 8 y}{p}}$
+        value: k = ${\frac{- 4 c + m}{v}}$
       ans5:
         value: Don't Know
 ---
