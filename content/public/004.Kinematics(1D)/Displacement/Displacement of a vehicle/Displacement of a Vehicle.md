@@ -31,10 +31,10 @@ substitutions:
       vehicle: van
       title: Displacement of a Vehicle
       units: blocks
-    c1: 23
-    c2: 29
-    c3: 100
-    dir1: west
+    c1: 58
+    c2: 3
+    c3: 62
+    dir1: east
     dir2: south
     dir3: west
 ---
