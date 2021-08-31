@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 4x - 3y = 28
-    formula2: 4x + 2y = 8
+    formula1: 2x - 8y = 42
+    formula2: 3x + 6y = 42
     part1:
       ans1:
-        value: ' x =4, y =-4'
+        value: ' x =49/3, y =-7/6'
       ans2:
-        value: ' x =-4, y =4'
+        value: ' x =-7/6, y =49/3'
       ans3:
-        value: ' x =-4, y =4'
+        value: ' x =-49/3, y =7/6'
       ans4:
-        value: ' x =4, y =-4'
+        value: ' x =7/6, y =-49/3'
       ans5:
         value: Don't Know
 ---

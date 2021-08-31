@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 8
-    l0: t
-    l1: n
-    l2: p
-    l3: a
+    num: -3
+    l0: f
+    l1: e
+    l2: q
+    l3: k
     part1:
       ans1:
-        value: p = ${ - 8 a + \frac{n}{t}}$
+        value: q = ${ \frac{e}{f} + 3 k}$
       ans2:
-        value: p = ${\frac{8 a t}{n}}$
+        value: q = ${- \frac{3 f k}{e}}$
       ans3:
-        value: p = ${\frac{n}{8 a t}}$
+        value: q = ${- \frac{e}{3 f k}}$
       ans4:
-        value: p = ${\frac{- 8 a + t}{n}}$
+        value: q = ${\frac{f + 3 k}{e}}$
       ans5:
         value: Don't Know
 ---
