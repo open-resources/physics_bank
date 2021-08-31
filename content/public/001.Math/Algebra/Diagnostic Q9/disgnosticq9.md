@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 4
-    l0: n
-    l1: w
-    l2: s
-    l3: e
+    num: -2
+    l0: o
+    l1: i
+    l2: n
+    l3: v
     part1:
       ans1:
-        value: s = ${ - 4 e + \frac{w}{n}}$
+        value: n = ${ \frac{i}{o} + 2 v}$
       ans2:
-        value: s = ${\frac{4 e n}{w}}$
+        value: n = ${- \frac{2 o v}{i}}$
       ans3:
-        value: s = ${\frac{w}{4 e n}}$
+        value: n = ${- \frac{i}{2 o v}}$
       ans4:
-        value: s = ${\frac{- 4 e + n}{w}}$
+        value: n = ${\frac{o + 2 v}{i}}$
       ans5:
         value: Don't Know
 ---
