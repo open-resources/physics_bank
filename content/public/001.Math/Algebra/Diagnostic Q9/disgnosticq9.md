@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -3
-    l0: y
-    l1: h
-    l2: p
-    l3: z
+    num: 3
+    l0: g
+    l1: e
+    l2: s
+    l3: b
     part1:
       ans1:
-        value: p = ${ \frac{h}{y} + 3 z}$
+        value: s = ${ - 3 b + \frac{e}{g}}$
       ans2:
-        value: p = ${- \frac{3 y z}{h}}$
+        value: s = ${\frac{3 b g}{e}}$
       ans3:
-        value: p = ${- \frac{h}{3 y z}}$
+        value: s = ${\frac{e}{3 b g}}$
       ans4:
-        value: p = ${\frac{y + 3 z}{h}}$
+        value: s = ${\frac{- 3 b + g}{e}}$
       ans5:
         value: Don't Know
 ---

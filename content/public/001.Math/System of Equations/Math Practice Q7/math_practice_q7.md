@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 4x - 9y = 40
-    formula2: 10x + 4y = 28
+    formula1: 5x - 2y = 33
+    formula2: 7x + 5y = 23
     part1:
       ans1:
-        value: ' x =206/53, y =-144/53'
+        value: ' x =211/39, y =-116/39'
       ans2:
-        value: ' x =-144/53, y =206/53'
+        value: ' x =-116/39, y =211/39'
       ans3:
-        value: ' x =-206/53, y =144/53'
+        value: ' x =-211/39, y =116/39'
       ans4:
-        value: ' x =144/53, y =-206/53'
+        value: ' x =116/39, y =-211/39'
       ans5:
         value: Don't Know
 ---

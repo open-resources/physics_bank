@@ -40,8 +40,8 @@ substitutions:
   params:
     vars:
       title: Cosmic Ray Electron
-    v: 4.2
-    B: 8.4
+    v: 6.7
+    B: 5.1
 ---
 # {{ params.vars.title }}
 
