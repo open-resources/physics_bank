@@ -43,10 +43,10 @@ substitutions:
     vars:
       title: Electron in a capacitor
     d: '3.0'
-    V: '120'
-    s: '5.0'
-    p: '5'
-    x: '2.6'
+    V: '240'
+    s: '7.0'
+    p: '4'
+    x: '1.0'
 ---
 # {{ params.vars.title }}
 An electron enters a region between two large parallel plates made of aluminum separated by a distance of ${{ params.d }}\rm\ cm$ and kept at a potential difference of ${{ params.V }}\rm\ V$.

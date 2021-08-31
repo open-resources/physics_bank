@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -8
-    l0: m
-    l1: q
-    l2: z
-    l3: i
+    num: 8
+    l0: t
+    l1: n
+    l2: p
+    l3: a
     part1:
       ans1:
-        value: z = ${ 8 i + \frac{q}{m}}$
+        value: p = ${ - 8 a + \frac{n}{t}}$
       ans2:
-        value: z = ${- \frac{8 i m}{q}}$
+        value: p = ${\frac{8 a t}{n}}$
       ans3:
-        value: z = ${- \frac{q}{8 i m}}$
+        value: p = ${\frac{n}{8 a t}}$
       ans4:
-        value: z = ${\frac{8 i + m}{q}}$
+        value: p = ${\frac{- 8 a + t}{n}}$
       ans5:
         value: Don't Know
 ---

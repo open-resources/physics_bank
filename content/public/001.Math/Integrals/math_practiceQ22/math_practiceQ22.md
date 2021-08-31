@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice Q22
-    denom: 6
-    formula: $\sin{\left(\frac{x}{6} \right)}$
+    denom: 10
+    formula: $\cos{\left(\frac{x}{10} \right)}$
     part1:
       ans1:
-        value: ${- 6 \cos{\left(\frac{x}{6} \right)}}$
+        value: ${10 \sin{\left(\frac{x}{10} \right)}}$
       ans2:
-        value: ${6 \cos{\left(\frac{x}{6} \right)}}$
+        value: ${- 10 \sin{\left(\frac{x}{10} \right)}}$
       ans3:
-        value: ${- 12 \cos{\left(\frac{x}{6} \right)}}$
+        value: ${20 \sin{\left(\frac{x}{10} \right)}}$
       ans4:
-        value: ${- 3 \cos{\left(\frac{x}{6} \right)}}$
+        value: ${5 \sin{\left(\frac{x}{10} \right)}}$
 ---
 # {{ params.vars.title }}
 
