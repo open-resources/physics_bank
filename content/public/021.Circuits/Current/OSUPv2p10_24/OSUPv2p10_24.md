@@ -66,9 +66,9 @@ part3:
 substitutions:
   params:
     R_b: '11.00'
-    R_s: '2450'
-    V_s: '20.0'
-    I_max: '0.6'
+    R_s: '2200'
+    V_s: '21.0'
+    I_max: '0.8'
 ---
 # {{ params.vars.title }}
 A person with body resistance between their hands of ${{ params.R_b }}\rm\ k \Omega$ accidentally grasps the terminals of a ${{ params.V_s }}\rm\ kV$ power supply.

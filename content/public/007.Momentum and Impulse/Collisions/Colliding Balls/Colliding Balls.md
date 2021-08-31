@@ -30,21 +30,21 @@ substitutions:
   params:
     vars:
       title: Colliding Balls
-    m1: 242
-    m2: 128
-    v1_i: 7.29
-    v2_i: -8.54
-    v1_f: -6.58
-    v2_f: 17.7
+    m1: 124
+    m2: 118
+    v1_i: 3.85
+    v2_i: -7.73
+    v1_f: -2.39
+    v2_f: 8.37
     part1:
       ans1:
-        value: This is an inelastic collision because only momentum is conserved.
-      ans2:
-        value: This is an inelastic collision because energy and momentum are conserved.
-      ans3:
-        value: This is not possible because kinetic energy is not conserved.
-      ans4:
         value: This is not possible as momentum is not conserved.
+      ans2:
+        value: This is an inelastic collision because only momentum is conserved.
+      ans3:
+        value: This is an inelastic collision because energy and momentum are conserved.
+      ans4:
+        value: This is not possible because kinetic energy is not conserved.
       ans5:
         value: This is an elastic collision, as both kinetic energy and momentum are
           conserved.

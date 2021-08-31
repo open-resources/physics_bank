@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -4
-    l0: j
-    l1: f
-    l2: q
-    l3: v
+    num: 4
+    l0: v
+    l1: c
+    l2: s
+    l3: f
     part1:
       ans1:
-        value: q = ${ \frac{f}{j} + 4 v}$
+        value: s = ${ \frac{c}{v} - 4 f}$
       ans2:
-        value: q = ${- \frac{4 j v}{f}}$
+        value: s = ${\frac{4 f v}{c}}$
       ans3:
-        value: q = ${- \frac{f}{4 j v}}$
+        value: s = ${\frac{c}{4 f v}}$
       ans4:
-        value: q = ${\frac{j + 4 v}{f}}$
+        value: s = ${\frac{- 4 f + v}{c}}$
       ans5:
         value: Don't Know
 ---
