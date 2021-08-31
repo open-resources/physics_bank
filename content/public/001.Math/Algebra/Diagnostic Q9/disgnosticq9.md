@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -9
-    l0: b
-    l1: v
-    l2: f
-    l3: w
+    num: 4
+    l0: w
+    l1: u
+    l2: t
+    l3: p
     part1:
       ans1:
-        value: f = ${ 9 w + \frac{v}{b}}$
+        value: t = ${ - 4 p + \frac{u}{w}}$
       ans2:
-        value: f = ${- \frac{9 b w}{v}}$
+        value: t = ${\frac{4 p w}{u}}$
       ans3:
-        value: f = ${- \frac{v}{9 b w}}$
+        value: t = ${\frac{u}{4 p w}}$
       ans4:
-        value: f = ${\frac{b + 9 w}{v}}$
+        value: t = ${\frac{- 4 p + w}{u}}$
       ans5:
         value: Don't Know
 ---
