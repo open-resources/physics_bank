@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -7
-    l0: v
-    l1: q
-    l2: w
-    l3: n
+    num: -10
+    l0: c
+    l1: z
+    l2: y
+    l3: v
     part1:
       ans1:
-        value: w = ${ 7 n + \frac{q}{v}}$
+        value: y = ${ 10 v + \frac{z}{c}}$
       ans2:
-        value: w = ${- \frac{7 n v}{q}}$
+        value: y = ${- \frac{10 c v}{z}}$
       ans3:
-        value: w = ${- \frac{q}{7 n v}}$
+        value: y = ${- \frac{z}{10 c v}}$
       ans4:
-        value: w = ${\frac{7 n + v}{q}}$
+        value: y = ${\frac{c + 10 v}{z}}$
       ans5:
         value: Don't Know
 ---

@@ -39,8 +39,8 @@ substitutions:
   params:
     vars:
       title: Wire in an external magnetic field
-    I: '15.0'
-    Bext: '32.5'
+    I: '25.0'
+    Bext: '30.0'
     d: '15.0'
 ---
 # {{ params.vars.title }}
