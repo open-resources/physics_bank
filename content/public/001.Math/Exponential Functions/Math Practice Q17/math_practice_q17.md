@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 17
-    a: 4
-    b: 8
+    a: 8
+    b: 10
     part1:
       ans1:
-        value: $e^{8} e^{4 y}$
+        value: $e^{10} e^{8 y}$
       ans2:
-        value: $e^{4 y} + e^{4}$
+        value: $e^{8 y} + e^{8}$
       ans3:
-        value: $4 e^{4} e^{y}$
+        value: $8 e^{8} e^{y}$
       ans4:
-        value: $8 e^{4 y}$
+        value: $10 e^{8 y}$
       ans5:
         value: Don't Know
 ---
