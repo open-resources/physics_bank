@@ -29,17 +29,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Work
+        value: Pressure
       ans2:
         value: Distance travelled
       ans3:
-        value: Drag
+        value: Lift
       ans4:
-        value: The position in a 1 dimensional system
+        value: Acceleration
       ans5:
-        value: velocity
+        value: Drag
       ans6:
-        value: Displacement
+        value: Force
 ---
 # {{ params.vars.title }}
 
