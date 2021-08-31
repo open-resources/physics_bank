@@ -63,7 +63,7 @@ substitutions:
       title: Proton Accelerator
     r: 0.98
     I: 7
-    n: 1.36
+    n: 9.13
     p: 26
 ---
 # {{ params.vars.title }}

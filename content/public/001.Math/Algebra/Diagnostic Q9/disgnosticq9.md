@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -4
-    l0: f
-    l1: c
-    l2: r
-    l3: j
+    num: -7
+    l0: v
+    l1: o
+    l2: z
+    l3: k
     part1:
       ans1:
-        value: r = ${ \frac{c}{f} + 4 j}$
+        value: z = ${ 7 k + \frac{o}{v}}$
       ans2:
-        value: r = ${- \frac{4 f j}{c}}$
+        value: z = ${- \frac{7 k v}{o}}$
       ans3:
-        value: r = ${- \frac{c}{4 f j}}$
+        value: z = ${- \frac{o}{7 k v}}$
       ans4:
-        value: r = ${\frac{f + 4 j}{c}}$
+        value: z = ${\frac{7 k + v}{o}}$
       ans5:
         value: Don't Know
 ---
