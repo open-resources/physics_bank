@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 5
-    l0: f
-    l1: x
-    l2: o
-    l3: n
+    num: 3
+    l0: t
+    l1: o
+    l2: u
+    l3: k
     part1:
       ans1:
-        value: o = ${ - 5 n + \frac{x}{f}}$
+        value: u = ${ - 3 k + \frac{o}{t}}$
       ans2:
-        value: o = ${\frac{5 f n}{x}}$
+        value: u = ${\frac{3 k t}{o}}$
       ans3:
-        value: o = ${\frac{x}{5 f n}}$
+        value: u = ${\frac{o}{3 k t}}$
       ans4:
-        value: o = ${\frac{f - 5 n}{x}}$
+        value: u = ${\frac{- 3 k + t}{o}}$
       ans5:
         value: Don't Know
 ---

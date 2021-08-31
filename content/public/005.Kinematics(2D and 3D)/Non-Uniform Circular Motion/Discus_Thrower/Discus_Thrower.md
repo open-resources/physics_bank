@@ -26,16 +26,16 @@ substitutions:
       title: Discus Thrower
       units: $rad/s$
     r: 2
-    a: 57
+    a: 59
     part1:
       ans1:
-        value: 38.0
+        value: 39.0
       ans2:
-        value: 1433.0
+        value: 1483.0
       ans3:
-        value: 228
+        value: 236
       ans4:
-        value: 13.0
+        value: 14.0
       ans5:
         value: 19.0
 ---

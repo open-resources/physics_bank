@@ -24,21 +24,21 @@ substitutions:
   params:
     vars:
       title: Shooting a Steel Ball
-    v: 1
-    theta: 53
+    v: 2
+    theta: 25
     part1:
       ans1:
-        value: $(1\cos(53^{\circ}), \; -1\sin(53^{\circ}))$
+        value: $(2\cos(25^{\circ}), \; -2\sin(25^{\circ}))$
       ans2:
-        value: $(1\cos(53^{\circ}), \;1\sin(53^{\circ}))$
+        value: $(2\cos(25^{\circ}), \;2\sin(25^{\circ}))$
       ans3:
-        value: $(1\sin(53^{\circ}), \; -1\cos(53^{\circ}))$
+        value: $(2\sin(25^{\circ}), \; -2\cos(25^{\circ}))$
       ans4:
-        value: $(1\sin(53^{\circ}), \;1\cos(53^{\circ}))$
+        value: $(2\sin(25^{\circ}), \;2\cos(25^{\circ}))$
       ans5:
-        value: $(-1\cos(53^{\circ}), \; -1\sin(53^{\circ}))$
+        value: $(-2\cos(25^{\circ}), \; -2\sin(25^{\circ}))$
       ans6:
-        value: $(-1\sin(53^{\circ}), \;1\cos(53^{\circ}))$
+        value: $(-2\sin(25^{\circ}), \;2\cos(25^{\circ}))$
 ---
 # {{ params.vars.title }}
 A small steel ball is shot at {{ params.v }} $m/s$ at a {{ params.theta }}$^{\circ}$ angle above the horizontal direction and its motion is well approximated by projectile motion.
