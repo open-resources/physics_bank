@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 8
-    l0: r
-    l1: x
-    l2: z
-    l3: h
+    num: -7
+    l0: o
+    l1: q
+    l2: f
+    l3: p
     part1:
       ans1:
-        value: z = ${ - 8 h + \frac{x}{r}}$
+        value: f = ${ 7 p + \frac{q}{o}}$
       ans2:
-        value: z = ${\frac{8 h r}{x}}$
+        value: f = ${- \frac{7 o p}{q}}$
       ans3:
-        value: z = ${\frac{x}{8 h r}}$
+        value: f = ${- \frac{q}{7 o p}}$
       ans4:
-        value: z = ${\frac{- 8 h + r}{x}}$
+        value: f = ${\frac{o + 7 p}{q}}$
       ans5:
         value: Don't Know
 ---
