@@ -43,10 +43,10 @@ substitutions:
       units1: m/s
       units2: kg
       name: Ahmed
-    i: 362
-    m: 33
-    v_1: 26
-    v_2: 24
+    i: 339
+    m: 39
+    v_1: 23
+    v_2: 18
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.
