@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -5
-    l0: w
-    l1: a
-    l2: v
-    l3: z
+    num: 9
+    l0: y
+    l1: v
+    l2: s
+    l3: w
     part1:
       ans1:
-        value: v = ${ \frac{a}{w} + 5 z}$
+        value: s = ${ \frac{v}{y} - 9 w}$
       ans2:
-        value: v = ${- \frac{5 w z}{a}}$
+        value: s = ${\frac{9 w y}{v}}$
       ans3:
-        value: v = ${- \frac{a}{5 w z}}$
+        value: s = ${\frac{v}{9 w y}}$
       ans4:
-        value: v = ${\frac{w + 5 z}{a}}$
+        value: s = ${\frac{- 9 w + y}{v}}$
       ans5:
         value: Don't Know
 ---
