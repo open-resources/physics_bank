@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -10
-    l0: c
-    l1: n
-    l2: v
-    l3: b
+    num: 7
+    l0: j
+    l1: l
+    l2: q
+    l3: x
     part1:
       ans1:
-        value: v = ${ 10 b + \frac{n}{c}}$
+        value: q = ${ - 7 x + \frac{l}{j}}$
       ans2:
-        value: v = ${- \frac{10 b c}{n}}$
+        value: q = ${\frac{7 j x}{l}}$
       ans3:
-        value: v = ${- \frac{n}{10 b c}}$
+        value: q = ${\frac{l}{7 j x}}$
       ans4:
-        value: v = ${\frac{10 b + c}{n}}$
+        value: q = ${\frac{j - 7 x}{l}}$
       ans5:
         value: Don't Know
 ---
