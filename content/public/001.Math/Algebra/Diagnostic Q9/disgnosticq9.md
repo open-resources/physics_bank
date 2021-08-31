@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -5
-    l0: h
-    l1: y
-    l2: a
-    l3: p
+    num: 8
+    l0: y
+    l1: a
+    l2: p
+    l3: i
     part1:
       ans1:
-        value: a = ${ 5 p + \frac{y}{h}}$
+        value: p = ${ \frac{a}{y} - 8 i}$
       ans2:
-        value: a = ${- \frac{5 h p}{y}}$
+        value: p = ${\frac{8 i y}{a}}$
       ans3:
-        value: a = ${- \frac{y}{5 h p}}$
+        value: p = ${\frac{a}{8 i y}}$
       ans4:
-        value: a = ${\frac{h + 5 p}{y}}$
+        value: p = ${\frac{- 8 i + y}{a}}$
       ans5:
         value: Don't Know
 ---
