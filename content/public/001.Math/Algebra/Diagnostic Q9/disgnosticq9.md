@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -4
-    l0: d
-    l1: k
-    l2: e
-    l3: a
+    num: 8
+    l0: r
+    l1: p
+    l2: g
+    l3: y
     part1:
       ans1:
-        value: e = ${ 4 a + \frac{k}{d}}$
+        value: g = ${ \frac{p}{r} - 8 y}$
       ans2:
-        value: e = ${- \frac{4 a d}{k}}$
+        value: g = ${\frac{8 r y}{p}}$
       ans3:
-        value: e = ${- \frac{k}{4 a d}}$
+        value: g = ${\frac{p}{8 r y}}$
       ans4:
-        value: e = ${\frac{4 a + d}{k}}$
+        value: g = ${\frac{r - 8 y}{p}}$
       ans5:
         value: Don't Know
 ---

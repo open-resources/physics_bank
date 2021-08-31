@@ -31,10 +31,10 @@ substitutions:
         value: The tension points down, and Lorenzo moves down, so negative work is
           done.
       ans3:
-        value: The tension points up, and Lorenzo moves down, so positive work is
+        value: The tension points up, and Lorenzo moves down, so negative work is
           done.
       ans4:
-        value: The tension points up, and Lorenzo moves down, so negative work is
+        value: The tension points up, and Lorenzo moves down, so positive work is
           done.
 ---
 # {{ params.vars.title }}
