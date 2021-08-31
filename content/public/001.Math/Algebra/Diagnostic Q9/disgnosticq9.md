@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -3
-    l0: f
-    l1: e
-    l2: q
-    l3: k
+    num: 4
+    l0: r
+    l1: v
+    l2: h
+    l3: s
     part1:
       ans1:
-        value: q = ${ \frac{e}{f} + 3 k}$
+        value: h = ${ - 4 s + \frac{v}{r}}$
       ans2:
-        value: q = ${- \frac{3 f k}{e}}$
+        value: h = ${\frac{4 r s}{v}}$
       ans3:
-        value: q = ${- \frac{e}{3 f k}}$
+        value: h = ${\frac{v}{4 r s}}$
       ans4:
-        value: q = ${\frac{f + 3 k}{e}}$
+        value: h = ${\frac{r - 4 s}{v}}$
       ans5:
         value: Don't Know
 ---
