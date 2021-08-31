@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 1x - 2y = 8
-    formula2: 1x + 8y = 17
+    formula1: 9x - 5y = 23
+    formula2: 3x + 9y = 28
     part1:
       ans1:
-        value: ' x =49/5, y =9/10'
+        value: ' x =347/96, y =61/32'
       ans2:
-        value: ' x =9/10, y =49/5'
+        value: ' x =61/32, y =347/96'
       ans3:
-        value: ' x =-49/5, y =-9/10'
+        value: ' x =-347/96, y =-61/32'
       ans4:
-        value: ' x =-9/10, y =-49/5'
+        value: ' x =-61/32, y =-347/96'
       ans5:
         value: Don't Know
 ---

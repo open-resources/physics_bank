@@ -27,23 +27,23 @@ substitutions:
   params:
     vars:
       title: Velocity of a Falcon
-    dir1: North
+    dir1: South
     dir2: East
-    v_f: 77.6
-    v_w: 91.2
+    v_f: 73.6
+    v_w: 73.4
     part1:
       ans1:
-        value: 120.0 $km/h$ 49.6$^\circ$ East of North
+        value: 104.0 $km/h$ 44.9$^\circ$ East of South
       ans2:
-        value: 169.0 $km/h$ 49.6$^\circ$ East of North
+        value: 147.0 $km/h$ 44.9$^\circ$ East of South
       ans3:
-        value: 91.6 $km/h$ 54.6$^\circ$ East of North
+        value: 73.9 $km/h$ 49.9$^\circ$ East of South
       ans4:
-        value: 91.6 $km/h$ 54.6$^\circ$ West of South
+        value: 73.9 $km/h$ 49.9$^\circ$ East of North
       ans5:
-        value: 169.0 $km/h$ 54.6$^\circ$ West of North
+        value: 147.0 $km/h$ 49.9$^\circ$ East of North
       ans6:
-        value: 91.6 $km/h$ 49.6$^\circ$ East of South
+        value: 73.9 $km/h$ 44.9$^\circ$ West of North
 ---
 # {{ params.vars.title }}
 A peregrine falcon flies at {{ params.v_f }} $km/h$ {{ params.dir1 }} (relative to the air) in a {{ params.v_w }} $km/h$ wind to the {{ params.dir2 }} (relative to the ground).

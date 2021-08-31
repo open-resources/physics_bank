@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice Q22
-    denom: 6
-    formula: $\sin{\left(\frac{x}{6} \right)}$
+    denom: 4
+    formula: $\cos{\left(\frac{x}{4} \right)}$
     part1:
       ans1:
-        value: ${- 6 \cos{\left(\frac{x}{6} \right)}}$
+        value: ${4 \sin{\left(\frac{x}{4} \right)}}$
       ans2:
-        value: ${6 \cos{\left(\frac{x}{6} \right)}}$
+        value: ${- 4 \sin{\left(\frac{x}{4} \right)}}$
       ans3:
-        value: ${- 12 \cos{\left(\frac{x}{6} \right)}}$
+        value: ${8 \sin{\left(\frac{x}{4} \right)}}$
       ans4:
-        value: ${- 3 \cos{\left(\frac{x}{6} \right)}}$
+        value: ${2 \sin{\left(\frac{x}{4} \right)}}$
 ---
 # {{ params.vars.title }}
 

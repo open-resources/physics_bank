@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 4
-    l0: w
-    l1: u
-    l2: t
-    l3: p
+    num: 3
+    l0: h
+    l1: j
+    l2: u
+    l3: m
     part1:
       ans1:
-        value: t = ${ - 4 p + \frac{u}{w}}$
+        value: u = ${ - 3 m + \frac{j}{h}}$
       ans2:
-        value: t = ${\frac{4 p w}{u}}$
+        value: u = ${\frac{3 h m}{j}}$
       ans3:
-        value: t = ${\frac{u}{4 p w}}$
+        value: u = ${\frac{j}{3 h m}}$
       ans4:
-        value: t = ${\frac{- 4 p + w}{u}}$
+        value: u = ${\frac{h - 3 m}{j}}$
       ans5:
         value: Don't Know
 ---
