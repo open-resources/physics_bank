@@ -28,8 +28,8 @@ substitutions:
       title: System Open or Closed
       vehicle: truck
       units: kg
-    i_a: 51
-    i_b: 255
+    i_a: 67
+    i_b: 331
     part1:
       ans1:
         value: Yes, because the two carts are on a track with no friction.
