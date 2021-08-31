@@ -55,15 +55,15 @@ part4:
 substitutions:
   params:
     vars:
-      name: Mateo
+      name: Emilia
       title: Toboggan hill
       units1_2_3: $kJ$
       units_4: $m/s$
-    m: 86
-    l: 83
-    ang_horiz: 5
-    fr: 96
-    fwind: 23
+    m: 81
+    l: 109
+    ang_horiz: 30
+    fr: 69
+    fwind: 18
     theta: 19
     v_i: 1
 ---

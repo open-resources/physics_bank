@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -3
-    l0: i
-    l1: v
-    l2: u
-    l3: b
+    num: -5
+    l0: j
+    l1: f
+    l2: e
+    l3: d
     part1:
       ans1:
-        value: u = ${ 3 b + \frac{v}{i}}$
+        value: e = ${ 5 d + \frac{f}{j}}$
       ans2:
-        value: u = ${- \frac{3 b i}{v}}$
+        value: e = ${- \frac{5 d j}{f}}$
       ans3:
-        value: u = ${- \frac{v}{3 b i}}$
+        value: e = ${- \frac{f}{5 d j}}$
       ans4:
-        value: u = ${\frac{3 b + i}{v}}$
+        value: e = ${\frac{5 d + j}{f}}$
       ans5:
         value: Don't Know
 ---
