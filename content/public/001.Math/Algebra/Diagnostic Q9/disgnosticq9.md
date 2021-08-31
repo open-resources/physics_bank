@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -5
-    l0: n
-    l1: t
+    num: -4
+    l0: y
+    l1: x
     l2: c
-    l3: f
+    l3: r
     part1:
       ans1:
-        value: c = ${ 5 f + \frac{t}{n}}$
+        value: c = ${ 4 r + \frac{x}{y}}$
       ans2:
-        value: c = ${- \frac{5 f n}{t}}$
+        value: c = ${- \frac{4 r y}{x}}$
       ans3:
-        value: c = ${- \frac{t}{5 f n}}$
+        value: c = ${- \frac{x}{4 r y}}$
       ans4:
-        value: c = ${\frac{5 f + n}{t}}$
+        value: c = ${\frac{4 r + y}{x}}$
       ans5:
         value: Don't Know
 ---
