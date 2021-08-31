@@ -25,16 +25,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 10x + -4 > 6x + 6
+      formula: -5x + -9 > -9x + -4
     part1:
       ans1:
-        value: x > 5/2
+        value: x > 5/4
       ans2:
-        value: x < 5/2
+        value: x < 5/4
       ans3:
-        value: x < 2/5
+        value: x < 4/5
       ans4:
-        value: x > 2/5
+        value: x > 4/5
       ans5:
         value: Don't Know
 ---

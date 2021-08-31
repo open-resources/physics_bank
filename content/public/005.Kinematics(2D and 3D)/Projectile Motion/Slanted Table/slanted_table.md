@@ -32,8 +32,8 @@ substitutions:
     vars:
       title: Ball on a Slanted Table
       units: m/s
-    d: 1.2
-    theta: 29
+    d: 2.2
+    theta: 21
 ---
 # {{ params.vars.title }}
 A ball is launched with an initial velocity of $\vec{v}\_0$ from one corner of a smooth, flat board.

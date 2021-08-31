@@ -106,9 +106,9 @@ substitutions:
   params:
     vars:
       title: Starter Motor Resistance
-    R_b: '0.009'
-    R_m: '0.075'
-    R_add: '0.098'
+    R_b: '0.006'
+    R_m: '0.050'
+    R_add: '0.100'
     V: '13.75'
 ---
 # {{ params.vars.title }}

@@ -38,8 +38,8 @@ substitutions:
       title: Two Blocks Stacked
       units: N
     m: 15
-    f: 0.38
-    t: 34
+    f: 0.43
+    t: 30
 ---
 # {{ params.vars.title }}
 Blocks A and B each have a mass $m$ = {{params.m}} $kg$.

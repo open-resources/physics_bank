@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 3
-    l0: t
-    l1: o
-    l2: u
-    l3: k
+    num: 8
+    l0: l
+    l1: w
+    l2: s
+    l3: c
     part1:
       ans1:
-        value: u = ${ - 3 k + \frac{o}{t}}$
+        value: s = ${ - 8 c + \frac{w}{l}}$
       ans2:
-        value: u = ${\frac{3 k t}{o}}$
+        value: s = ${\frac{8 c l}{w}}$
       ans3:
-        value: u = ${\frac{o}{3 k t}}$
+        value: s = ${\frac{w}{8 c l}}$
       ans4:
-        value: u = ${\frac{- 3 k + t}{o}}$
+        value: s = ${\frac{- 8 c + l}{w}}$
       ans5:
         value: Don't Know
 ---

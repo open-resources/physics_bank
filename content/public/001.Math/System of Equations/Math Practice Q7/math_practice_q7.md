@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 4x - 4y = 24
-    formula2: 8x + 2y = 45
+    formula1: 8x - 2y = 43
+    formula2: 6x + 9y = 8
     part1:
       ans1:
-        value: ' x =57/10, y =-3/10'
+        value: ' x =403/84, y =-97/42'
       ans2:
-        value: ' x =-3/10, y =57/10'
+        value: ' x =-97/42, y =403/84'
       ans3:
-        value: ' x =-57/10, y =3/10'
+        value: ' x =-403/84, y =97/42'
       ans4:
-        value: ' x =3/10, y =-57/10'
+        value: ' x =97/42, y =-403/84'
       ans5:
         value: Don't Know
 ---
