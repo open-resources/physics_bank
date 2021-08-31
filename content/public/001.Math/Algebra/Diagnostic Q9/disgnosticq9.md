@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -7
-    l0: d
-    l1: i
-    l2: c
-    l3: y
+    num: -4
+    l0: x
+    l1: h
+    l2: i
+    l3: b
     part1:
       ans1:
-        value: c = ${ 7 y + \frac{i}{d}}$
+        value: i = ${ 4 b + \frac{h}{x}}$
       ans2:
-        value: c = ${- \frac{7 d y}{i}}$
+        value: i = ${- \frac{4 b x}{h}}$
       ans3:
-        value: c = ${- \frac{i}{7 d y}}$
+        value: i = ${- \frac{h}{4 b x}}$
       ans4:
-        value: c = ${\frac{d + 7 y}{i}}$
+        value: i = ${\frac{4 b + x}{h}}$
       ans5:
         value: Don't Know
 ---
