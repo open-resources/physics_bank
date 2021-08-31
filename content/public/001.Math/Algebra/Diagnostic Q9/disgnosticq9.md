@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 6
-    l0: c
-    l1: q
-    l2: z
-    l3: a
+    num: -8
+    l0: h
+    l1: i
+    l2: k
+    l3: e
     part1:
       ans1:
-        value: z = ${ - 6 a + \frac{q}{c}}$
+        value: k = ${ 8 e + \frac{i}{h}}$
       ans2:
-        value: z = ${\frac{6 a c}{q}}$
+        value: k = ${- \frac{8 e h}{i}}$
       ans3:
-        value: z = ${\frac{q}{6 a c}}$
+        value: k = ${- \frac{i}{8 e h}}$
       ans4:
-        value: z = ${\frac{- 6 a + c}{q}}$
+        value: k = ${\frac{8 e + h}{i}}$
       ans5:
         value: Don't Know
 ---

@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 17
-    a: 5
-    b: 10
+    a: 6
+    b: 3
     part1:
       ans1:
-        value: $e^{10} e^{5 y}$
+        value: $e^{3} e^{6 y}$
       ans2:
-        value: $e^{5 y} + e^{5}$
+        value: $e^{6 y} + e^{6}$
       ans3:
-        value: $5 e^{5} e^{y}$
+        value: $6 e^{6} e^{y}$
       ans4:
-        value: $10 e^{5 y}$
+        value: $3 e^{6 y}$
       ans5:
         value: Don't Know
 ---
