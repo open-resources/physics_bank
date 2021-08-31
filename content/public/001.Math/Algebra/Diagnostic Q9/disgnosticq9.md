@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 8
+    num: 2
     l0: v
-    l1: c
-    l2: t
+    l1: i
+    l2: e
     l3: w
     part1:
       ans1:
-        value: t = ${ \frac{c}{v} - 8 w}$
+        value: e = ${ \frac{i}{v} - 2 w}$
       ans2:
-        value: t = ${\frac{8 v w}{c}}$
+        value: e = ${\frac{2 v w}{i}}$
       ans3:
-        value: t = ${\frac{c}{8 v w}}$
+        value: e = ${\frac{i}{2 v w}}$
       ans4:
-        value: t = ${\frac{v - 8 w}{c}}$
+        value: e = ${\frac{v - 2 w}{i}}$
       ans5:
         value: Don't Know
 ---

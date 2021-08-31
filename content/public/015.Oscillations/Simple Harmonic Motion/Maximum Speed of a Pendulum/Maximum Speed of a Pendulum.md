@@ -24,10 +24,10 @@ substitutions:
   params:
     vars:
       title: Maximum Speed of a Pendulum
-    choice: doubled
+    choice: quartered
     part1:
       ans1:
-        value: multiplied by a factor of $\sqrt{2}$
+        value: halved
       ans2:
         value: quartered
       ans3:
@@ -37,7 +37,7 @@ substitutions:
       ans5:
         value: multiplied by a factor of $\dfrac{1}{\sqrt{2}}$
       ans6:
-        value: halved
+        value: multiplied by a factor of $\sqrt{2}$
       ans7:
         value: doubled
 ---

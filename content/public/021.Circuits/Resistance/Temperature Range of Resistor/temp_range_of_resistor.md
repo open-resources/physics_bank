@@ -38,9 +38,9 @@ substitutions:
   params:
     vars:
       title: Temperature Range of Resistor
-    p: 4
-    metal: Silicon
-    T_0: 91
+    p: 9
+    metal: Mercury
+    T_0: 88
 ---
 # {{ params.vars.title }}
 
