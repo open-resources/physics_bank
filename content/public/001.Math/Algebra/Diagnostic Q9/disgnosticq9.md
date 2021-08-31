@@ -29,20 +29,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 5
-    l0: d
-    l1: v
+    num: -3
+    l0: w
+    l1: c
     l2: f
-    l3: n
+    l3: p
     part1:
       ans1:
-        value: f = ${ - 5 n + \frac{v}{d}}$
+        value: f = ${ \frac{c}{w} + 3 p}$
       ans2:
-        value: f = ${\frac{5 d n}{v}}$
+        value: f = ${- \frac{3 p w}{c}}$
       ans3:
-        value: f = ${\frac{v}{5 d n}}$
+        value: f = ${- \frac{c}{3 p w}}$
       ans4:
-        value: f = ${\frac{d - 5 n}{v}}$
+        value: f = ${\frac{3 p + w}{c}}$
       ans5:
         value: Don't Know
 ---

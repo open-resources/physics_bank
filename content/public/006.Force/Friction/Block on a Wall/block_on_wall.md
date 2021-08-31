@@ -35,9 +35,9 @@ substitutions:
     vars:
       title: Block on a Wall
       units: N
-    theta: 53
-    m: 1
-    mu: 0.247
+    theta: 67
+    m: 4
+    mu: 0.324
 ---
 # {{ params.vars.title }}
 A {{params.m}} kg wood block slides down a vertical wall while you push on it at a {{params.theta}} $^\circ$ angle.
