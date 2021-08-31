@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 3
-    l0: j
-    l1: f
-    l2: w
-    l3: m
+    num: -3
+    l0: b
+    l1: j
+    l2: q
+    l3: p
     part1:
       ans1:
-        value: w = ${ \frac{f}{j} - 3 m}$
+        value: q = ${ 3 p + \frac{j}{b}}$
       ans2:
-        value: w = ${\frac{3 j m}{f}}$
+        value: q = ${- \frac{3 b p}{j}}$
       ans3:
-        value: w = ${\frac{f}{3 j m}}$
+        value: q = ${- \frac{j}{3 b p}}$
       ans4:
-        value: w = ${\frac{j - 3 m}{f}}$
+        value: q = ${\frac{b + 3 p}{j}}$
       ans5:
         value: Don't Know
 ---

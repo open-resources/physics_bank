@@ -32,7 +32,7 @@ substitutions:
   params:
     vars:
       title: Battery Internal Resistance
-    x: 5
+    x: 3
     N: 3
     V_string: '7.25'
 ---

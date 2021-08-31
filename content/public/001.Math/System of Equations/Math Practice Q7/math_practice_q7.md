@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 3x - 9y = 42
-    formula2: 10x + 10y = 8
+    formula1: 3x - 7y = 33
+    formula2: 2x + 8y = 35
     part1:
       ans1:
-        value: ' x =41/10, y =-33/10'
+        value: ' x =509/38, y =39/38'
       ans2:
-        value: ' x =-33/10, y =41/10'
+        value: ' x =39/38, y =509/38'
       ans3:
-        value: ' x =-41/10, y =33/10'
+        value: ' x =-509/38, y =-39/38'
       ans4:
-        value: ' x =33/10, y =-41/10'
+        value: ' x =-39/38, y =-509/38'
       ans5:
         value: Don't Know
 ---
