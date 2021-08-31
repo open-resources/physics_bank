@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -7
-    l0: s
-    l1: v
-    l2: d
-    l3: f
+    num: -5
+    l0: d
+    l1: y
+    l2: m
+    l3: s
     part1:
       ans1:
-        value: d = ${ 7 f + \frac{v}{s}}$
+        value: m = ${ 5 s + \frac{y}{d}}$
       ans2:
-        value: d = ${- \frac{7 f s}{v}}$
+        value: m = ${- \frac{5 d s}{y}}$
       ans3:
-        value: d = ${- \frac{v}{7 f s}}$
+        value: m = ${- \frac{y}{5 d s}}$
       ans4:
-        value: d = ${\frac{7 f + s}{v}}$
+        value: m = ${\frac{d + 5 s}{y}}$
       ans5:
         value: Don't Know
 ---

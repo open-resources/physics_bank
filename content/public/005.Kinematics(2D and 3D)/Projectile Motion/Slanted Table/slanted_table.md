@@ -32,7 +32,7 @@ substitutions:
     vars:
       title: Ball on a Slanted Table
       units: m/s
-    d: 0.6
+    d: 0.8
     theta: 28
 ---
 # {{ params.vars.title }}
