@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 6
-    l0: v
-    l1: p
-    l2: c
-    l3: z
+    num: -7
+    l0: f
+    l1: d
+    l2: r
+    l3: b
     part1:
       ans1:
-        value: c = ${ \frac{p}{v} - 6 z}$
+        value: r = ${ 7 b + \frac{d}{f}}$
       ans2:
-        value: c = ${\frac{6 v z}{p}}$
+        value: r = ${- \frac{7 b f}{d}}$
       ans3:
-        value: c = ${\frac{p}{6 v z}}$
+        value: r = ${- \frac{d}{7 b f}}$
       ans4:
-        value: c = ${\frac{v - 6 z}{p}}$
+        value: r = ${\frac{7 b + f}{d}}$
       ans5:
         value: Don't Know
 ---

@@ -24,20 +24,20 @@ substitutions:
   params:
     vars:
       name: Emilia
-      vehicle: a unicycle
+      vehicle: a tricycle
       units: m
       title: Distance travelled
-    v: 2
-    t: 7
+    v: 5
+    t: 10
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 14
+        value: 50
       ans3:
-        value: 9
+        value: 15
       ans4:
-        value: 0.29
+        value: 0.5
       ans5:
         value: -5
       ans6:

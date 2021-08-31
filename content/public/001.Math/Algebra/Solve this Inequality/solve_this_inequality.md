@@ -25,16 +25,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 5x + -5 > -2x + 9
+      formula: 2x + 3 > -7x + 9
     part1:
       ans1:
-        value: x > 2
+        value: x > 2/3
       ans2:
-        value: x < 2
+        value: x < 2/3
       ans3:
-        value: x < 1/2
+        value: x < 3/2
       ans4:
-        value: x > 1/2
+        value: x > 3/2
       ans5:
         value: Don't Know
 ---

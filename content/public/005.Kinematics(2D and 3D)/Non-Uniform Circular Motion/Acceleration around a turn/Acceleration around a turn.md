@@ -26,7 +26,7 @@ substitutions:
   params:
     vars:
       title: Acceleration Around a Turn
-      vehicle: bus
+      vehicle: pickup truck
       dir: clockwise
     part1:
       ans1:
