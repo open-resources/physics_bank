@@ -28,8 +28,8 @@ substitutions:
       title: System Open or Closed
       vehicle: sedan
       units: kg
-    i_a: 58
-    i_b: 330
+    i_a: 127
+    i_b: 336
     part1:
       ans1:
         value: Yes, because the two carts are on a track with no friction.

@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Significant Figures
-    x: 291.6356293
+    x: 298.23943894
     sf: 6
     part1:
       ans1:
-        value: 291.636
+        value: 298.239
       ans2:
-        value: 291.73600000000005
+        value: 298.339
       ans3:
-        value: 291.635629
+        value: 298.239439
       ans4:
-        value: 281.636
+        value: 288.239
 ---
 # {{ params.vars.title }}
 
