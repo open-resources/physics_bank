@@ -49,13 +49,13 @@ part4:
 substitutions:
   params:
     vars:
-      name: Aliyah
+      name: Abbas
       title: Motion of watermelon
       units1: ${m/s}^2$
       units2: $s$
-    a: 3
+    a: 2
     b: 6
-    c: 4
+    c: 5
     part4:
       ans1:
         value: The speed is increasing

@@ -31,8 +31,8 @@ substitutions:
       title: Collision of a Cart with a Spring
       units: m/s
     m: 37
-    k: 263
-    x: 40
+    k: 228
+    x: 22
 ---
 # {{ params.vars.title }}
 A  {{ params.m }}  $kg$  runaway  grocery  cart  runs  into  a  spring  with a spring  constant $k = $  {{ params.k }}  $N/m$  and compresses it by {{ params.x }} $cm$ before momentarily coming to rest.
