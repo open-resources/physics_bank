@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -4
-    l0: h
-    l1: q
-    l2: k
-    l3: g
+    num: -10
+    l0: q
+    l1: h
+    l2: c
+    l3: j
     part1:
       ans1:
-        value: k = ${ 4 g + \frac{q}{h}}$
+        value: c = ${ \frac{h}{q} + 10 j}$
       ans2:
-        value: k = ${- \frac{4 g h}{q}}$
+        value: c = ${- \frac{10 j q}{h}}$
       ans3:
-        value: k = ${- \frac{q}{4 g h}}$
+        value: c = ${- \frac{h}{10 j q}}$
       ans4:
-        value: k = ${\frac{4 g + h}{q}}$
+        value: c = ${\frac{10 j + q}{h}}$
       ans5:
         value: Don't Know
 ---
