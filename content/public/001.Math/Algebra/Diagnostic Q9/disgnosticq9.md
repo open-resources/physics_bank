@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -3
-    l0: b
-    l1: j
-    l2: q
-    l3: p
+    num: -7
+    l0: s
+    l1: v
+    l2: d
+    l3: f
     part1:
       ans1:
-        value: q = ${ 3 p + \frac{j}{b}}$
+        value: d = ${ 7 f + \frac{v}{s}}$
       ans2:
-        value: q = ${- \frac{3 b p}{j}}$
+        value: d = ${- \frac{7 f s}{v}}$
       ans3:
-        value: q = ${- \frac{j}{3 b p}}$
+        value: d = ${- \frac{v}{7 f s}}$
       ans4:
-        value: q = ${\frac{b + 3 p}{j}}$
+        value: d = ${\frac{7 f + s}{v}}$
       ans5:
         value: Don't Know
 ---
