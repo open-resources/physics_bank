@@ -73,7 +73,7 @@ substitutions:
     P_T: '1870'
     P_S: '1380'
     P_L: '90.0'
-    I_F: '30.0'
+    I_F: '24.0'
     V: '125.0'
     prep: an
     part4:

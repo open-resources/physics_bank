@@ -67,16 +67,16 @@ part5:
 substitutions:
   params:
     vars:
-      name1: Emilia
-      name2: Abbas
+      name1: Ximena
+      name2: Santiago
       title: A Flying Arrow
       unit1: $kg\cdot m/s$
       unit2: $J$
       unit3: $m/s$
-    m: 0.286
-    v_x: 92.9
-    x1: 9.89
-    x2: 18.1
+    m: 0.212
+    v_x: -109.0
+    x1: 6.47
+    x2: 20.6
 ---
 # {{ params.vars.title }}
 {{ params.vars.name1 }} and {{ params.vars.name2 }} watch an arrow fly past them.  The arrow has mass $m = $ {{ params.m }} $kg$.  {{ params.vars.name1 }} is sitting on a stump and sees the arrow move with velocity $v_x = $ {{ params.v_x }} $m/s$. {{ params.vars.name1 }} also notes that {{ params.vars.name2 }} is riding a horse and measures {{ params.vars.name2 }}'s position to be $x = $ {{ params.x1 }} $m$ + ({{ params.x2 }} $m/s$) $t$ where $t$ is time measured in seconds.

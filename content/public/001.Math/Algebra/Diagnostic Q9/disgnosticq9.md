@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 8
-    l0: r
-    l1: t
-    l2: m
-    l3: b
+    num: -2
+    l0: z
+    l1: l
+    l2: d
+    l3: r
     part1:
       ans1:
-        value: m = ${ - 8 b + \frac{t}{r}}$
+        value: d = ${ \frac{l}{z} + 2 r}$
       ans2:
-        value: m = ${\frac{8 b r}{t}}$
+        value: d = ${- \frac{2 r z}{l}}$
       ans3:
-        value: m = ${\frac{t}{8 b r}}$
+        value: d = ${- \frac{l}{2 r z}}$
       ans4:
-        value: m = ${\frac{- 8 b + r}{t}}$
+        value: d = ${\frac{2 r + z}{l}}$
       ans5:
         value: Don't Know
 ---
