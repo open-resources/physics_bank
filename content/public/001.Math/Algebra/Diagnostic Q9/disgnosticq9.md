@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -8
-    l0: h
-    l1: i
-    l2: k
-    l3: e
+    num: 10
+    l0: u
+    l1: b
+    l2: j
+    l3: y
     part1:
       ans1:
-        value: k = ${ 8 e + \frac{i}{h}}$
+        value: j = ${ \frac{b}{u} - 10 y}$
       ans2:
-        value: k = ${- \frac{8 e h}{i}}$
+        value: j = ${\frac{10 u y}{b}}$
       ans3:
-        value: k = ${- \frac{i}{8 e h}}$
+        value: j = ${\frac{b}{10 u y}}$
       ans4:
-        value: k = ${\frac{8 e + h}{i}}$
+        value: j = ${\frac{u - 10 y}{b}}$
       ans5:
         value: Don't Know
 ---
