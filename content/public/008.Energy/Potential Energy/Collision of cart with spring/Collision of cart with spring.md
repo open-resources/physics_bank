@@ -30,8 +30,8 @@ substitutions:
     vars:
       title: Collision of a Cart with a Spring
       units: m/s
-    m: 98
-    k: 344
+    m: 74
+    k: 215
     x: 70
 ---
 # {{ params.vars.title }}
