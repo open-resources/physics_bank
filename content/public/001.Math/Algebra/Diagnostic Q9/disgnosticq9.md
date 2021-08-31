@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -6
-    l0: p
-    l1: k
-    l2: y
-    l3: e
+    num: -3
+    l0: m
+    l1: q
+    l2: t
+    l3: f
     part1:
       ans1:
-        value: y = ${ 6 e + \frac{k}{p}}$
+        value: t = ${ 3 f + \frac{q}{m}}$
       ans2:
-        value: y = ${- \frac{6 e p}{k}}$
+        value: t = ${- \frac{3 f m}{q}}$
       ans3:
-        value: y = ${- \frac{k}{6 e p}}$
+        value: t = ${- \frac{q}{3 f m}}$
       ans4:
-        value: y = ${\frac{6 e + p}{k}}$
+        value: t = ${\frac{3 f + m}{q}}$
       ans5:
         value: Don't Know
 ---
