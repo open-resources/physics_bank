@@ -28,8 +28,8 @@ substitutions:
       title: System Open or Closed
       vehicle: van
       units: kg
-    i_a: 121
-    i_b: 303
+    i_a: 81
+    i_b: 267
     part1:
       ans1:
         value: Yes, because the two carts are on a track with no friction.

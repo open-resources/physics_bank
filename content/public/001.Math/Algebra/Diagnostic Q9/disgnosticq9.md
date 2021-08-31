@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -2
-    l0: c
-    l1: u
-    l2: i
-    l3: a
+    num: -8
+    l0: n
+    l1: j
+    l2: r
+    l3: b
     part1:
       ans1:
-        value: i = ${ 2 a + \frac{u}{c}}$
+        value: r = ${ 8 b + \frac{j}{n}}$
       ans2:
-        value: i = ${- \frac{2 a c}{u}}$
+        value: r = ${- \frac{8 b n}{j}}$
       ans3:
-        value: i = ${- \frac{u}{2 a c}}$
+        value: r = ${- \frac{j}{8 b n}}$
       ans4:
-        value: i = ${\frac{2 a + c}{u}}$
+        value: r = ${\frac{8 b + n}{j}}$
       ans5:
         value: Don't Know
 ---
