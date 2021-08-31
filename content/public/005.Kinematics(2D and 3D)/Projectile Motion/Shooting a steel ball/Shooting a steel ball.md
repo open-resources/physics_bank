@@ -25,20 +25,20 @@ substitutions:
     vars:
       title: Shooting a Steel Ball
     v: 1
-    theta: 65
+    theta: 36
     part1:
       ans1:
-        value: $(1\cos(65^{\circ}), \; -1\sin(65^{\circ}))$
+        value: $(1\cos(36^{\circ}), \; -1\sin(36^{\circ}))$
       ans2:
-        value: $(1\cos(65^{\circ}), \;1\sin(65^{\circ}))$
+        value: $(1\cos(36^{\circ}), \;1\sin(36^{\circ}))$
       ans3:
-        value: $(1\sin(65^{\circ}), \; -1\cos(65^{\circ}))$
+        value: $(1\sin(36^{\circ}), \; -1\cos(36^{\circ}))$
       ans4:
-        value: $(1\sin(65^{\circ}), \;1\cos(65^{\circ}))$
+        value: $(1\sin(36^{\circ}), \;1\cos(36^{\circ}))$
       ans5:
-        value: $(-1\cos(65^{\circ}), \; -1\sin(65^{\circ}))$
+        value: $(-1\cos(36^{\circ}), \; -1\sin(36^{\circ}))$
       ans6:
-        value: $(-1\sin(65^{\circ}), \;1\cos(65^{\circ}))$
+        value: $(-1\sin(36^{\circ}), \;1\cos(36^{\circ}))$
 ---
 # {{ params.vars.title }}
 A small steel ball is shot at {{ params.v }} $m/s$ at a {{ params.theta }}$^{\circ}$ angle above the horizontal direction and its motion is well approximated by projectile motion.

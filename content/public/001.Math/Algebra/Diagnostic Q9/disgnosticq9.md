@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -4
-    l0: k
-    l1: n
-    l2: q
-    l3: v
+    num: 4
+    l0: w
+    l1: o
+    l2: m
+    l3: l
     part1:
       ans1:
-        value: q = ${ 4 v + \frac{n}{k}}$
+        value: m = ${ - 4 l + \frac{o}{w}}$
       ans2:
-        value: q = ${- \frac{4 k v}{n}}$
+        value: m = ${\frac{4 l w}{o}}$
       ans3:
-        value: q = ${- \frac{n}{4 k v}}$
+        value: m = ${\frac{o}{4 l w}}$
       ans4:
-        value: q = ${\frac{k + 4 v}{n}}$
+        value: m = ${\frac{- 4 l + w}{o}}$
       ans5:
         value: Don't Know
 ---
