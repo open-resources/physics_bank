@@ -23,21 +23,21 @@ part1:
 substitutions:
   params:
     vars:
-      name: Maya
+      name: Savannah
       vehicle: a bicycle
       units: m
       title: Distance travelled
-    v: 3
-    t: 6
+    v: 7
+    t: 10
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 18
+        value: 70
       ans3:
-        value: 9
+        value: 17
       ans4:
-        value: 0.5
+        value: 0.7
       ans5:
         value: -3
       ans6:
