@@ -27,16 +27,16 @@ substitutions:
       title: Diagnostic Q5
     num1: 6
     num2: 5
-    num3: 8
+    num3: 9
     part1:
       ans1:
-        value: 240
+        value: 270
       ans2:
         value: 5/6
       ans3:
-        value: 48
+        value: 54
       ans4:
-        value: 20/3
+        value: 15/2
       ans5:
         value: Don't Know
 ---

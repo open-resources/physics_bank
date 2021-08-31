@@ -40,7 +40,7 @@ substitutions:
       title: Temperature Range of Resistor
     p: 7
     metal: Copper
-    T_0: 68
+    T_0: 110
 ---
 # {{ params.vars.title }}
 

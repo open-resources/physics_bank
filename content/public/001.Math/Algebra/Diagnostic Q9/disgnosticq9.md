@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -2
-    l0: g
-    l1: s
-    l2: x
-    l3: q
+    num: 6
+    l0: e
+    l1: l
+    l2: j
+    l3: d
     part1:
       ans1:
-        value: x = ${ 2 q + \frac{s}{g}}$
+        value: j = ${ - 6 d + \frac{l}{e}}$
       ans2:
-        value: x = ${- \frac{2 g q}{s}}$
+        value: j = ${\frac{6 d e}{l}}$
       ans3:
-        value: x = ${- \frac{s}{2 g q}}$
+        value: j = ${\frac{l}{6 d e}}$
       ans4:
-        value: x = ${\frac{g + 2 q}{s}}$
+        value: j = ${\frac{- 6 d + e}{l}}$
       ans5:
         value: Don't Know
 ---
