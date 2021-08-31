@@ -39,12 +39,12 @@ substitutions:
   params:
     vars:
       title: Particle between charged plates
-    sig: '28'
-    d: '4.3'
-    particle: A proton
-    particle1: proton
-    p1: positive
-    p2: negative
+    sig: '22'
+    d: '4.5'
+    particle: An electron
+    particle1: electron
+    p1: negative
+    p2: positive
 ---
 # {{ params.vars.title }}
 Two large plates of charge density ${{ params.sig }}\rm\ \mu C/m^2$ face each other at a separation of ${{ params.d }} \textrm{ mm}$.

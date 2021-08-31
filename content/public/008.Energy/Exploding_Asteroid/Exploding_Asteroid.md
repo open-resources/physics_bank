@@ -26,18 +26,18 @@ substitutions:
   params:
     vars:
       title: Exploding Asteroid
-      name: Ximena
-      name2: Ximena
+      name: Ahmed
+      name2: Maya
     part1:
       ans1:
-        value: The CHANGE in the momentum vector they determine for each piece of
-          the asteroid before and after the explosion will be the same.
-      ans2:
         value: The momentum vectors they use to describe each of the two asteroid
           pieces will be the same.
+      ans2:
+        value: They will both agree on how the kinetic energy of each of the pieces
+          has changed.
       ans3:
-        value: The final velocity vectors they use to describe the two asteroid pieces
-          will be the same.
+        value: They will both agree on how the TOTAL kinetic energy of the system
+          has changed.
       ans4:
         value: The FORCE vector they determine that each piece of the asteroid felt
           during the explosion will be the same.

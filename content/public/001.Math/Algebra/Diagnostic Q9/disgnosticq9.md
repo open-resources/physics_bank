@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -2
-    l0: w
-    l1: o
-    l2: v
-    l3: c
+    num: -9
+    l0: g
+    l1: u
+    l2: b
+    l3: l
     part1:
       ans1:
-        value: v = ${ 2 c + \frac{o}{w}}$
+        value: b = ${ 9 l + \frac{u}{g}}$
       ans2:
-        value: v = ${- \frac{2 c w}{o}}$
+        value: b = ${- \frac{9 g l}{u}}$
       ans3:
-        value: v = ${- \frac{o}{2 c w}}$
+        value: b = ${- \frac{u}{9 g l}}$
       ans4:
-        value: v = ${\frac{2 c + w}{o}}$
+        value: b = ${\frac{g + 9 l}{u}}$
       ans5:
         value: Don't Know
 ---
