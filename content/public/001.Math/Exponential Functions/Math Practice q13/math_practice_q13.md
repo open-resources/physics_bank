@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 13
-    a: 3
-    b: 8
+    a: 4
+    b: 5
     part1:
       ans1:
-        value: $z^{-5}$
+        value: $z^{-1}$
       ans2:
-        value: $z^{5}$
+        value: $z^{1}$
       ans3:
-        value: -5z
+        value: -1z
       ans4:
-        value: (3/8)z
+        value: (4/5)z
       ans5:
         value: Don't Know
 ---

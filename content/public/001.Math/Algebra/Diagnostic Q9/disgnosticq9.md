@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 4
-    l0: g
-    l1: f
-    l2: z
-    l3: x
+    num: -4
+    l0: k
+    l1: m
+    l2: a
+    l3: g
     part1:
       ans1:
-        value: z = ${ \frac{f}{g} - 4 x}$
+        value: a = ${ 4 g + \frac{m}{k}}$
       ans2:
-        value: z = ${\frac{4 g x}{f}}$
+        value: a = ${- \frac{4 g k}{m}}$
       ans3:
-        value: z = ${\frac{f}{4 g x}}$
+        value: a = ${- \frac{m}{4 g k}}$
       ans4:
-        value: z = ${\frac{g - 4 x}{f}}$
+        value: a = ${\frac{4 g + k}{m}}$
       ans5:
         value: Don't Know
 ---
