@@ -26,16 +26,16 @@ substitutions:
     vars:
       title: Math Practice 13
     a: 1
-    b: 6
+    b: 8
     part1:
       ans1:
-        value: $z^{-5}$
+        value: $z^{-7}$
       ans2:
-        value: $z^{5}$
+        value: $z^{7}$
       ans3:
-        value: -5z
+        value: -7z
       ans4:
-        value: (1/6)z
+        value: (1/8)z
       ans5:
         value: Don't Know
 ---

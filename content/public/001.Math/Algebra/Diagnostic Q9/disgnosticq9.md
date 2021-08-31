@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 2
-    l0: c
-    l1: d
-    l2: g
-    l3: j
+    num: 5
+    l0: m
+    l1: t
+    l2: n
+    l3: g
     part1:
       ans1:
-        value: g = ${ - 2 j + \frac{d}{c}}$
+        value: n = ${ - 5 g + \frac{t}{m}}$
       ans2:
-        value: g = ${\frac{2 c j}{d}}$
+        value: n = ${\frac{5 g m}{t}}$
       ans3:
-        value: g = ${\frac{d}{2 c j}}$
+        value: n = ${\frac{t}{5 g m}}$
       ans4:
-        value: g = ${\frac{c - 2 j}{d}}$
+        value: n = ${\frac{- 5 g + m}{t}}$
       ans5:
         value: Don't Know
 ---
