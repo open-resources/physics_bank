@@ -23,21 +23,21 @@ part1:
 substitutions:
   params:
     vars:
-      name: Santiago
-      vehicle: a tricycle
+      name: Emilia
+      vehicle: rollerblades
       units: m
       title: Distance travelled
-    v: 4
-    t: 8
+    v: 2
+    t: 6
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 32
-      ans3:
         value: 12
+      ans3:
+        value: 8
       ans4:
-        value: 0.5
+        value: 0.33
       ans5:
         value: -4
       ans6:

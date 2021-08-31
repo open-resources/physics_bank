@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 3x - 4y = 31
-    formula2: 10x + 7y = 1
+    formula1: 3x - 8y = 11
+    formula2: 4x + 10y = 40
     part1:
       ans1:
-        value: ' x =221/61, y =-307/61'
+        value: ' x =215/31, y =38/31'
       ans2:
-        value: ' x =-307/61, y =221/61'
+        value: ' x =38/31, y =215/31'
       ans3:
-        value: ' x =-221/61, y =307/61'
+        value: ' x =-215/31, y =-38/31'
       ans4:
-        value: ' x =307/61, y =-221/61'
+        value: ' x =-38/31, y =-215/31'
       ans5:
         value: Don't Know
 ---

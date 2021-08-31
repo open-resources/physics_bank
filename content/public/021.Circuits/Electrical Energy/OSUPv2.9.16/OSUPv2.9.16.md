@@ -29,11 +29,11 @@ substitutions:
       ans1:
         value: energy
       ans2:
-        value: power
-      ans3:
         value: charge
-      ans4:
+      ans3:
         value: voltage
+      ans4:
+        value: power
       ans5:
         value: current
 ---

@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -7
-    l0: o
-    l1: q
-    l2: f
-    l3: p
+    num: -6
+    l0: r
+    l1: v
+    l2: p
+    l3: y
     part1:
       ans1:
-        value: f = ${ 7 p + \frac{q}{o}}$
+        value: p = ${ 6 y + \frac{v}{r}}$
       ans2:
-        value: f = ${- \frac{7 o p}{q}}$
+        value: p = ${- \frac{6 r y}{v}}$
       ans3:
-        value: f = ${- \frac{q}{7 o p}}$
+        value: p = ${- \frac{v}{6 r y}}$
       ans4:
-        value: f = ${\frac{o + 7 p}{q}}$
+        value: p = ${\frac{r + 6 y}{v}}$
       ans5:
         value: Don't Know
 ---
