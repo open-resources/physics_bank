@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -6
-    l0: r
-    l1: v
-    l2: p
-    l3: y
+    num: 7
+    l0: w
+    l1: c
+    l2: b
+    l3: o
     part1:
       ans1:
-        value: p = ${ 6 y + \frac{v}{r}}$
+        value: b = ${ \frac{c}{w} - 7 o}$
       ans2:
-        value: p = ${- \frac{6 r y}{v}}$
+        value: b = ${\frac{7 o w}{c}}$
       ans3:
-        value: p = ${- \frac{v}{6 r y}}$
+        value: b = ${\frac{c}{7 o w}}$
       ans4:
-        value: p = ${\frac{r + 6 y}{v}}$
+        value: b = ${\frac{- 7 o + w}{c}}$
       ans5:
         value: Don't Know
 ---
