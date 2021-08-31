@@ -68,8 +68,8 @@ substitutions:
   params:
     vars:
       title: Power And Energy Through Resistor
-    V: 23
-    R: 23
+    V: 7
+    R: 24
     part4:
       ans1:
         value: It is converted into light energy.
