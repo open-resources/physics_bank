@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 3x - 5y = 22
-    formula2: 3x + 6y = 34
+    formula1: 7x - 2y = 27
+    formula2: 9x + 7y = 4
     part1:
       ans1:
-        value: ' x =302/33, y =12/11'
+        value: ' x =197/67, y =-215/67'
       ans2:
-        value: ' x =12/11, y =302/33'
+        value: ' x =-215/67, y =197/67'
       ans3:
-        value: ' x =-302/33, y =-12/11'
+        value: ' x =-197/67, y =215/67'
       ans4:
-        value: ' x =-12/11, y =-302/33'
+        value: ' x =215/67, y =-197/67'
       ans5:
         value: Don't Know
 ---

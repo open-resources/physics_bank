@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -5
-    l0: c
-    l1: z
-    l2: j
-    l3: v
+    num: -2
+    l0: w
+    l1: o
+    l2: v
+    l3: c
     part1:
       ans1:
-        value: j = ${ 5 v + \frac{z}{c}}$
+        value: v = ${ 2 c + \frac{o}{w}}$
       ans2:
-        value: j = ${- \frac{5 c v}{z}}$
+        value: v = ${- \frac{2 c w}{o}}$
       ans3:
-        value: j = ${- \frac{z}{5 c v}}$
+        value: v = ${- \frac{o}{2 c w}}$
       ans4:
-        value: j = ${\frac{c + 5 v}{z}}$
+        value: v = ${\frac{2 c + w}{o}}$
       ans5:
         value: Don't Know
 ---
