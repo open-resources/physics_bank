@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 4
-    l0: z
-    l1: h
-    l2: r
-    l3: y
+    num: -2
+    l0: c
+    l1: u
+    l2: i
+    l3: a
     part1:
       ans1:
-        value: r = ${ \frac{h}{z} - 4 y}$
+        value: i = ${ 2 a + \frac{u}{c}}$
       ans2:
-        value: r = ${\frac{4 y z}{h}}$
+        value: i = ${- \frac{2 a c}{u}}$
       ans3:
-        value: r = ${\frac{h}{4 y z}}$
+        value: i = ${- \frac{u}{2 a c}}$
       ans4:
-        value: r = ${\frac{- 4 y + z}{h}}$
+        value: i = ${\frac{2 a + c}{u}}$
       ans5:
         value: Don't Know
 ---

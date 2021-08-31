@@ -40,7 +40,7 @@ substitutions:
       title: Temperature Range of Resistor
     p: 7
     metal: Aluminum
-    T_0: 117
+    T_0: 136
 ---
 # {{ params.vars.title }}
 

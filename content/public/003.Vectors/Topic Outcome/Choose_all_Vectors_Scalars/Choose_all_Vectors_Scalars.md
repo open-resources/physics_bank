@@ -29,17 +29,17 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: Force
+        value: Lift
       ans2:
-        value: The position in 3 dimensions
+        value: Momentum
       ans3:
-        value: velocity
+        value: Drag
       ans4:
-        value: Mass
+        value: Length
       ans5:
-        value: Distance travelled
+        value: Power
       ans6:
-        value: Energy
+        value: Volume
 ---
 # {{ params.vars.title }}
 

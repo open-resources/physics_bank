@@ -29,9 +29,9 @@ substitutions:
         value: The tension points down, and Aliyah moves down, so negative work is
           done.
       ans2:
-        value: The tension points up, and Aliyah moves down, so positive work is done.
-      ans3:
         value: The tension points up, and Aliyah moves down, so negative work is done.
+      ans3:
+        value: The tension points up, and Aliyah moves down, so positive work is done.
       ans4:
         value: The tension point up, and Aliyah moves up, so positive work is done.
 ---
