@@ -27,15 +27,15 @@ substitutions:
       title: Energy Cosumption Units
     part1:
       ans1:
-        value: current
-      ans2:
-        value: voltage
-      ans3:
         value: charge
+      ans2:
+        value: energy
+      ans3:
+        value: voltage
       ans4:
         value: power
       ans5:
-        value: energy
+        value: current
 ---
 # {{ params.vars.title }}
 

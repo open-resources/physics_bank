@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -10
-    l0: z
-    l1: h
-    l2: a
-    l3: p
+    num: 3
+    l0: h
+    l1: d
+    l2: p
+    l3: f
     part1:
       ans1:
-        value: a = ${ \frac{h}{z} + 10 p}$
+        value: p = ${ \frac{d}{h} - 3 f}$
       ans2:
-        value: a = ${- \frac{10 p z}{h}}$
+        value: p = ${\frac{3 f h}{d}}$
       ans3:
-        value: a = ${- \frac{h}{10 p z}}$
+        value: p = ${\frac{d}{3 f h}}$
       ans4:
-        value: a = ${\frac{10 p + z}{h}}$
+        value: p = ${\frac{- 3 f + h}{d}}$
       ans5:
         value: Don't Know
 ---
