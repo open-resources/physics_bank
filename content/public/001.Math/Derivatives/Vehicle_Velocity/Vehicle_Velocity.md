@@ -24,24 +24,24 @@ substitutions:
   params:
     vars:
       title: Vehicle Velocity
-      vehicle: semi-truck
+      vehicle: pickup truck
       units: $m/s$
     i_1: 2
     i_2: 3
-    j_1: 7
+    j_1: 8
     j_2: 2
-    s: 2
+    s: 3
     part1:
       ans1:
-        value: (5$\hat{\imath}$ + 89/4$\hat{\jmath}$)
+        value: (9$\hat{\imath}$ + 478/9$\hat{\jmath}$)
       ans2:
-        value: (5$\hat{\imath}$ + 24$\hat{\jmath}$)
+        value: (9$\hat{\imath}$ + 54$\hat{\jmath}$)
       ans3:
-        value: (2$\hat{\imath}$ + 39/2$\hat{\jmath}$)
+        value: (9$\hat{\imath}$ + 170/3$\hat{\jmath}$)
       ans4:
-        value: (2$\hat{\imath}$ + 89/4$\hat{\jmath}$)
+        value: (9$\hat{\imath}$ + 478/9$\hat{\jmath}$)
       ans5:
-        value: (5$\hat{\imath}$ + 39/2$\hat{\jmath}$)
+        value: (9$\hat{\imath}$ + 170/3$\hat{\jmath}$)
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }}'s position as a function of time is given by $\vec{r} = ({{ params.i_1 }}t^2 - {{ paramas.i_2 }}t)\hat{\imath} + ({{ params.j_1 }} t^{-1}+{{ params.j_2 }} t^3)\hat{\jmath}$ where $\vec{r}$ is in meters and $t$ is in seconds.

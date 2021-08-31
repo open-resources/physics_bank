@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 7
-    l0: g
-    l1: s
-    l2: d
-    l3: q
+    num: 4
+    l0: e
+    l1: h
+    l2: m
+    l3: r
     part1:
       ans1:
-        value: d = ${ - 7 q + \frac{s}{g}}$
+        value: m = ${ - 4 r + \frac{h}{e}}$
       ans2:
-        value: d = ${\frac{7 g q}{s}}$
+        value: m = ${\frac{4 e r}{h}}$
       ans3:
-        value: d = ${\frac{s}{7 g q}}$
+        value: m = ${\frac{h}{4 e r}}$
       ans4:
-        value: d = ${\frac{g - 7 q}{s}}$
+        value: m = ${\frac{e - 4 r}{h}}$
       ans5:
         value: Don't Know
 ---
