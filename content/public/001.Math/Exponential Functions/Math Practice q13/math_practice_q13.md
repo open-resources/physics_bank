@@ -25,8 +25,8 @@ substitutions:
   params:
     vars:
       title: Math Practice 13
-    a: 5
-    b: 2
+    a: 6
+    b: 3
     part1:
       ans1:
         value: $z^{3}$
@@ -35,7 +35,7 @@ substitutions:
       ans3:
         value: 3z
       ans4:
-        value: (5/2)z
+        value: (2)z
       ans5:
         value: Don't Know
 ---
