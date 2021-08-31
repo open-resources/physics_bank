@@ -38,7 +38,7 @@ substitutions:
   params:
     vars:
       title: Which option is correct?
-    choice1: possible
+    choice1: not possible
     part1:
       ans1:
         value: 'True'

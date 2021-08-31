@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 8
-    l0: g
-    l1: t
-    l2: j
-    l3: o
+    num: -7
+    l0: r
+    l1: p
+    l2: t
+    l3: f
     part1:
       ans1:
-        value: j = ${ - 8 o + \frac{t}{g}}$
+        value: t = ${ 7 f + \frac{p}{r}}$
       ans2:
-        value: j = ${\frac{8 g o}{t}}$
+        value: t = ${- \frac{7 f r}{p}}$
       ans3:
-        value: j = ${\frac{t}{8 g o}}$
+        value: t = ${- \frac{p}{7 f r}}$
       ans4:
-        value: j = ${\frac{g - 8 o}{t}}$
+        value: t = ${\frac{7 f + r}{p}}$
       ans5:
         value: Don't Know
 ---
