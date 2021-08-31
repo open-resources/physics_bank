@@ -25,14 +25,14 @@ substitutions:
   params:
     vars:
       title: Explosions and Velocity
-      name: Mateo
+      name: Lorenzo
     part1:
-      I_A: 6
-      I_B: 7
-      v_A: 18
-      v_B: 31
+      I_A: 7
+      I_B: 8
+      v_A: 37
+      v_B: 12
       m_pumpkin: 9
-      v: 36.0
+      v: 39.0
       ans1:
         value: Yes, because of conservation of momentum
       ans2:
