@@ -65,10 +65,10 @@ substitutions:
         units: rad/s
       part5:
         units: J
-    m_p: 0.77
-    r_p: 0.28
-    m: 2.6
-    r: 0.1
+    m_p: 0.73
+    r_p: 0.49
+    m: 2.58
+    r: 0.27
     x: 4
 ---
 # {{ params.vars.title }}

@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 4
-    l0: e
+    num: -3
+    l0: y
     l1: h
-    l2: m
-    l3: r
+    l2: p
+    l3: z
     part1:
       ans1:
-        value: m = ${ - 4 r + \frac{h}{e}}$
+        value: p = ${ \frac{h}{y} + 3 z}$
       ans2:
-        value: m = ${\frac{4 e r}{h}}$
+        value: p = ${- \frac{3 y z}{h}}$
       ans3:
-        value: m = ${\frac{h}{4 e r}}$
+        value: p = ${- \frac{h}{3 y z}}$
       ans4:
-        value: m = ${\frac{e - 4 r}{h}}$
+        value: p = ${\frac{y + 3 z}{h}}$
       ans5:
         value: Don't Know
 ---
