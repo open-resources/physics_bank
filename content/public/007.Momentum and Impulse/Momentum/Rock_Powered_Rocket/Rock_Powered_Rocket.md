@@ -43,10 +43,10 @@ substitutions:
       units1: m/s
       units2: kg
       name: Emilia
-    i: 399
-    m: 21
-    v_1: 17
-    v_2: 20
+    i: 330
+    m: 23
+    v_1: 27
+    v_2: 27
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.
