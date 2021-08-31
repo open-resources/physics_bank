@@ -31,7 +31,7 @@ substitutions:
     choice: 'True'
     part1:
       ans1:
-        value: The dog is speeding up at time t=7s
+        value: The dog is moving at a constant velocity between t=2s and t=6s
       ans2:
         value: The dog is slowing down at t=7s
       ans3:
