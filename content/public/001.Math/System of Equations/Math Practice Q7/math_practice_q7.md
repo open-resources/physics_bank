@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 4x - 2y = 22
-    formula2: 4x + 3y = 45
+    formula1: 3x - 1y = 14
+    formula2: 9x + 5y = 1
     part1:
       ans1:
-        value: ' x =39/5, y =23/5'
+        value: ' x =71/24, y =-41/8'
       ans2:
-        value: ' x =23/5, y =39/5'
+        value: ' x =-41/8, y =71/24'
       ans3:
-        value: ' x =-39/5, y =-23/5'
+        value: ' x =-71/24, y =41/8'
       ans4:
-        value: ' x =-23/5, y =-39/5'
+        value: ' x =41/8, y =-71/24'
       ans5:
         value: Don't Know
 ---

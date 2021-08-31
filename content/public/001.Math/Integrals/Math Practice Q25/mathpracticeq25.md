@@ -26,15 +26,15 @@ substitutions:
     vars:
       title: Math Practice Q25
     a: 1
-    b: 7
-    c: 1
+    b: 6
+    c: 7
     part1:
       ans1:
         value: '0'
       ans2:
         value: Negative Infinity
       ans3:
-        value: 1.0
+        value: 0.14285714285714285
       ans4:
         value: 1
       ans5:

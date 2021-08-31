@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 17
-    a: 2
-    b: 6
+    a: 4
+    b: 8
     part1:
       ans1:
-        value: $e^{6} e^{2 y}$
+        value: $e^{8} e^{4 y}$
       ans2:
-        value: $e^{2 y} + e^{2}$
+        value: $e^{4 y} + e^{4}$
       ans3:
-        value: $2 e^{2} e^{y}$
+        value: $4 e^{4} e^{y}$
       ans4:
-        value: $6 e^{2 y}$
+        value: $8 e^{4 y}$
       ans5:
         value: Don't Know
 ---
