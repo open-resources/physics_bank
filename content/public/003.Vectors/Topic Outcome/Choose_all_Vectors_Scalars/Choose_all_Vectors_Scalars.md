@@ -29,17 +29,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Density
-      ans2:
-        value: Entropy
-      ans3:
         value: Work
-      ans4:
+      ans2:
         value: Energy
-      ans5:
+      ans3:
         value: Displacement
-      ans6:
+      ans4:
         value: The position in a 1 dimensional system
+      ans5:
+        value: Momentum
+      ans6:
+        value: velocity
 ---
 # {{ params.vars.title }}
 
