@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -2
-    l0: p
+    num: 4
+    l0: g
     l1: f
-    l2: h
-    l3: v
+    l2: z
+    l3: x
     part1:
       ans1:
-        value: h = ${ \frac{f}{p} + 2 v}$
+        value: z = ${ \frac{f}{g} - 4 x}$
       ans2:
-        value: h = ${- \frac{2 p v}{f}}$
+        value: z = ${\frac{4 g x}{f}}$
       ans3:
-        value: h = ${- \frac{f}{2 p v}}$
+        value: z = ${\frac{f}{4 g x}}$
       ans4:
-        value: h = ${\frac{p + 2 v}{f}}$
+        value: z = ${\frac{g - 4 x}{f}}$
       ans5:
         value: Don't Know
 ---

@@ -53,8 +53,8 @@ part2:
     weight: 1
 substitutions:
   params:
-    R1: '25.0'
-    R2: '73.0'
+    R1: '18.0'
+    R2: '66.0'
     R3: '700'
 ---
 # {{ params.vars.title }}
