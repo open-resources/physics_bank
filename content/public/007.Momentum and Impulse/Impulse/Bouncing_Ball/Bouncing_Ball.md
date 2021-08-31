@@ -29,17 +29,17 @@ substitutions:
       units_m: kg
       units_h: m
       units: kgm/s
-    m: 0.484
-    h: 1.2
+    m: 0.254
+    h: 2.3
     part1:
       ans1:
-        value: 1.7
+        value: 1.2
       ans2:
-        value: 2.3
+        value: 1.7
       ans3:
-        value: 3.3
+        value: 2.4
       ans4:
-        value: 4.7
+        value: 3.4
       ans5:
         value: 5.7
 ---

@@ -37,8 +37,8 @@ substitutions:
     vars:
       title: Maximum Voltage
       units: V
-    P: 1.61
-    R: 31
+    P: 0.97
+    R: 81
 ---
 # {{ params.vars.title }}
 

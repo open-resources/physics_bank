@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 7
-    l0: s
-    l1: z
-    l2: e
-    l3: l
+    num: -5
+    l0: h
+    l1: y
+    l2: a
+    l3: p
     part1:
       ans1:
-        value: e = ${ - 7 l + \frac{z}{s}}$
+        value: a = ${ 5 p + \frac{y}{h}}$
       ans2:
-        value: e = ${\frac{7 l s}{z}}$
+        value: a = ${- \frac{5 h p}{y}}$
       ans3:
-        value: e = ${\frac{z}{7 l s}}$
+        value: a = ${- \frac{y}{5 h p}}$
       ans4:
-        value: e = ${\frac{- 7 l + s}{z}}$
+        value: a = ${\frac{h + 5 p}{y}}$
       ans5:
         value: Don't Know
 ---
