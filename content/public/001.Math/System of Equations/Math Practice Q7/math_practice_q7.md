@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 8x - 10y = 11
-    formula2: 3x + 5y = 29
+    formula1: 4x - 2y = 22
+    formula2: 4x + 3y = 45
     part1:
       ans1:
-        value: ' x =69/14, y =199/70'
+        value: ' x =39/5, y =23/5'
       ans2:
-        value: ' x =199/70, y =69/14'
+        value: ' x =23/5, y =39/5'
       ans3:
-        value: ' x =-69/14, y =-199/70'
+        value: ' x =-39/5, y =-23/5'
       ans4:
-        value: ' x =-199/70, y =-69/14'
+        value: ' x =-23/5, y =-39/5'
       ans5:
         value: Don't Know
 ---

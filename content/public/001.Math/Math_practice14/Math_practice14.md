@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 14
-    num: 4
-    denom: 6
+    num: 2
+    denom: 9
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt[6]{x^{4}}}\end{equation}
+        value: \begin{equation}\frac{1}{\sqrt[9]{x^{2}}}\end{equation}
       ans2:
-        value: \begin{equation}\sqrt[6]{x^{4}}\end{equation}
+        value: \begin{equation}\sqrt[9]{x^{2}}\end{equation}
       ans3:
-        value: \begin{equation}x^{\frac{2}{3}}\end{equation}
+        value: \begin{equation}x^{\frac{2}{9}}\end{equation}
       ans4:
-        value: \begin{equation}- \frac{1}{\sqrt[6]{x^{4}}}\end{equation}
+        value: \begin{equation}- \frac{1}{\sqrt[9]{x^{2}}}\end{equation}
       ans5:
         value: Do not know
 ---

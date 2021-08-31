@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -6
-    l0: d
-    l1: f
-    l2: v
-    l3: w
+    num: 6
+    l0: n
+    l1: m
+    l2: f
+    l3: v
     part1:
       ans1:
-        value: v = ${ 6 w + \frac{f}{d}}$
+        value: f = ${ \frac{m}{n} - 6 v}$
       ans2:
-        value: v = ${- \frac{6 d w}{f}}$
+        value: f = ${\frac{6 n v}{m}}$
       ans3:
-        value: v = ${- \frac{f}{6 d w}}$
+        value: f = ${\frac{m}{6 n v}}$
       ans4:
-        value: v = ${\frac{d + 6 w}{f}}$
+        value: f = ${\frac{n - 6 v}{m}}$
       ans5:
         value: Don't Know
 ---
