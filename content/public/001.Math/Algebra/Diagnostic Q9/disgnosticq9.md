@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 3
-    l0: g
-    l1: e
-    l2: s
-    l3: b
+    num: 4
+    l0: f
+    l1: d
+    l2: c
+    l3: e
     part1:
       ans1:
-        value: s = ${ - 3 b + \frac{e}{g}}$
+        value: c = ${ \frac{d}{f} - 4 e}$
       ans2:
-        value: s = ${\frac{3 b g}{e}}$
+        value: c = ${\frac{4 e f}{d}}$
       ans3:
-        value: s = ${\frac{e}{3 b g}}$
+        value: c = ${\frac{d}{4 e f}}$
       ans4:
-        value: s = ${\frac{- 3 b + g}{e}}$
+        value: c = ${\frac{- 4 e + f}{d}}$
       ans5:
         value: Don't Know
 ---
