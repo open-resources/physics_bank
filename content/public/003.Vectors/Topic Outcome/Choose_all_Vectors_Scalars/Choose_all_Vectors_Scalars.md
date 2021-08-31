@@ -31,15 +31,15 @@ substitutions:
       ans1:
         value: Distance travelled
       ans2:
-        value: Area
+        value: Speed
       ans3:
-        value: Pressure
+        value: velocity
       ans4:
-        value: Weight
+        value: Momentum
       ans5:
-        value: The position in 3 dimensions
+        value: The position in a 1 dimensional system
       ans6:
-        value: The average velocity
+        value: The average acceleration
 ---
 # {{ params.vars.title }}
 

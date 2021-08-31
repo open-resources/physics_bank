@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -8
-    l0: e
-    l1: m
-    l2: g
-    l3: t
+    num: -2
+    l0: q
+    l1: t
+    l2: y
+    l3: s
     part1:
       ans1:
-        value: g = ${ 8 t + \frac{m}{e}}$
+        value: y = ${ 2 s + \frac{t}{q}}$
       ans2:
-        value: g = ${- \frac{8 e t}{m}}$
+        value: y = ${- \frac{2 q s}{t}}$
       ans3:
-        value: g = ${- \frac{m}{8 e t}}$
+        value: y = ${- \frac{t}{2 q s}}$
       ans4:
-        value: g = ${\frac{e + 8 t}{m}}$
+        value: y = ${\frac{q + 2 s}{t}}$
       ans5:
         value: Don't Know
 ---
