@@ -38,7 +38,7 @@ substitutions:
     vars:
       title: Coil in Uniform Magnetic Field
     N: '30'
-    d: '25'
+    d: '20'
     B: '0.50'
     t: '0.7'
 ---
