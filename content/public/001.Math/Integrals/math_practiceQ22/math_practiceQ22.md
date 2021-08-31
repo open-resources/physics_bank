@@ -1,12 +1,12 @@
 ---
-title: Vehicle Speed
-topic: Kinematics(1D)
-author: Jake Bobowski
-source: 2015 midterm Q1
+title: Math Practice 22
+topic: Math
+author: Simon Bates
+source: Math Diagnostic Q22
 template_version: 1.1
 attribution: standard
 outcomes:
-- 4.5.1.1
+- null
 difficulty:
 - undefined
 randomization:
@@ -14,7 +14,8 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- EW
+- math_diagnostic
+- AK
 assets: null
 part1:
   type: multiple-choice
@@ -23,27 +24,24 @@ part1:
 substitutions:
   params:
     vars:
-      title: Vehicle Speed
-      vehicle: car
+      title: Math Practice Q22
+    denom: 7
+    formula: $\sin{\left(\frac{x}{7} \right)}$
     part1:
       ans1:
-        value: constant
+        value: ${- 7 \cos{\left(\frac{x}{7} \right)}}$
       ans2:
-        value: increasing
+        value: ${7 \cos{\left(\frac{x}{7} \right)}}$
       ans3:
-        value: decreasing
+        value: ${- 14 \cos{\left(\frac{x}{7} \right)}}$
       ans4:
-        value: increasing but then decreasing
-      ans5:
-        value: decreasing but then increasing
+        value: ${- \frac{7 \cos{\left(\frac{x}{7} \right)}}{2}}$
 ---
 # {{ params.vars.title }}
-A person is initially driving a {{params.vars.vehicle}} east down a straight road.
-The magnitude of the instantaneous acceleration is decreasing with time, but the direction of the acceleration is always to the east.
 
 ## Part 1
 
-The speed of the {{params.vars.vehicle}} is:
+$\int$ {{params.formula}} $dx$ is equal to a constant plus:
 
 ### Answer Section
 
@@ -51,7 +49,6 @@ The speed of the {{params.vars.vehicle}} is:
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
 
 ## Attribution
 

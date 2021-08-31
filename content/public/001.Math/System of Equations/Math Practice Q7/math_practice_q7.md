@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 2x - 4y = 30
-    formula2: 2x + 8y = 12
+    formula1: 4x - 8y = 29
+    formula2: 4x + 7y = 33
     part1:
       ans1:
-        value: ' x =12, y =-3/2'
+        value: ' x =467/60, y =4/15'
       ans2:
-        value: ' x =-3/2, y =12'
+        value: ' x =4/15, y =467/60'
       ans3:
-        value: ' x =-12, y =3/2'
+        value: ' x =-467/60, y =-4/15'
       ans4:
-        value: ' x =3/2, y =-12'
+        value: ' x =-4/15, y =-467/60'
       ans5:
         value: Don't Know
 ---

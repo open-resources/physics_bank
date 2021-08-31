@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 9
-    l0: s
-    l1: v
-    l2: d
-    l3: h
+    num: 6
+    l0: d
+    l1: q
+    l2: e
+    l3: o
     part1:
       ans1:
-        value: d = ${ - 9 h + \frac{v}{s}}$
+        value: e = ${ - 6 o + \frac{q}{d}}$
       ans2:
-        value: d = ${\frac{9 h s}{v}}$
+        value: e = ${\frac{6 d o}{q}}$
       ans3:
-        value: d = ${\frac{v}{9 h s}}$
+        value: e = ${\frac{q}{6 d o}}$
       ans4:
-        value: d = ${\frac{- 9 h + s}{v}}$
+        value: e = ${\frac{d - 6 o}{q}}$
       ans5:
         value: Don't Know
 ---
