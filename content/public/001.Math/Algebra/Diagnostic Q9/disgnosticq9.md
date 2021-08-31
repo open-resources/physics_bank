@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -2
-    l0: j
-    l1: g
-    l2: f
-    l3: k
+    num: 2
+    l0: i
+    l1: e
+    l2: t
+    l3: g
     part1:
       ans1:
-        value: f = ${ \frac{g}{j} + 2 k}$
+        value: t = ${ \frac{e}{i} - 2 g}$
       ans2:
-        value: f = ${- \frac{2 j k}{g}}$
+        value: t = ${\frac{2 g i}{e}}$
       ans3:
-        value: f = ${- \frac{g}{2 j k}}$
+        value: t = ${\frac{e}{2 g i}}$
       ans4:
-        value: f = ${\frac{j + 2 k}{g}}$
+        value: t = ${\frac{- 2 g + i}{e}}$
       ans5:
         value: Don't Know
 ---
