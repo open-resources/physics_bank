@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -7
-    l0: v
-    l1: o
+    num: -9
+    l0: x
+    l1: j
     l2: z
-    l3: k
+    l3: d
     part1:
       ans1:
-        value: z = ${ 7 k + \frac{o}{v}}$
+        value: z = ${ 9 d + \frac{j}{x}}$
       ans2:
-        value: z = ${- \frac{7 k v}{o}}$
+        value: z = ${- \frac{9 d x}{j}}$
       ans3:
-        value: z = ${- \frac{o}{7 k v}}$
+        value: z = ${- \frac{j}{9 d x}}$
       ans4:
-        value: z = ${\frac{7 k + v}{o}}$
+        value: z = ${\frac{9 d + x}{j}}$
       ans5:
         value: Don't Know
 ---

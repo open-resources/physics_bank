@@ -31,15 +31,15 @@ substitutions:
       ans1:
         value: velocity
       ans2:
-        value: The position in 3 dimensions
+        value: Acceleration
       ans3:
-        value: Work
+        value: The position in 3 dimensions
       ans4:
-        value: Distance travelled
+        value: Force
       ans5:
-        value: Energy
+        value: Work
       ans6:
-        value: Speed
+        value: Power
 ---
 # {{ params.vars.title }}
 
