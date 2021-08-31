@@ -26,20 +26,20 @@ substitutions:
   params:
     vars:
       title: Block on a Ramp
-    m: 6
-    theta: 10
-    mu: 0.6
+    m: 5
+    theta: 19
+    mu: 0.2
     part1:
       ans1:
-        value: 10.0 $N$, up the incline
+        value: 16.0 $N$, up the incline
       ans2:
-        value: 58.0 $N$, up the incline
+        value: 46.0 $N$, up the incline
       ans3:
-        value: 6.1 $N$, down the incline
+        value: 3.2 $N$, down the incline
       ans4:
-        value: 35.0 $N$, down the incline
+        value: 9.3 $N$, down the incline
       ans5:
-        value: 10.0 $N$, down the incline
+        value: 16.0 $N$, down the incline
 ---
 # {{ params.vars.title }}
 A mass of {{params.m}} $kg$ sits at rest on an incline making an angle of {{params.theta}} $^\circ$ with respect to the horizontal.

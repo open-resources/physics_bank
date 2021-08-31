@@ -66,8 +66,8 @@ part3:
 substitutions:
   params:
     R_b: '10.25'
-    R_s: '2050'
-    V_s: '22.0'
+    R_s: '2150'
+    V_s: '21.0'
     I_max: '0.6'
 ---
 # {{ params.vars.title }}
