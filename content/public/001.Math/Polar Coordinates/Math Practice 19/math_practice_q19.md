@@ -25,16 +25,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: 299
+    a: 201
     part1:
       ans1:
-        value: $\sin{119}$
+        value: $\sin{21}$
       ans2:
-        value: $\sin{-119}$
+        value: $\sin{-21}$
       ans3:
-        value: $\sin{61}$
+        value: $\sin{159}$
       ans4:
-        value: $\sin{-61}$
+        value: $\sin{-159}$
       ans5:
         value: Don't Know
 ---
