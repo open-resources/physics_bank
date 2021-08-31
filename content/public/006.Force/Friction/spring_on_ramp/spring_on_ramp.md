@@ -46,8 +46,8 @@ substitutions:
       units: m
     m: 4
     theta: 25
-    k: 200
-    us: 0.7
+    k: 300
+    us: 0.5
     uk: 0.4
 ---
 # {{ params.vars.title }}
