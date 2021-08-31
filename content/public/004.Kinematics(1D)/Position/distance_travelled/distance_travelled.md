@@ -23,21 +23,21 @@ part1:
 substitutions:
   params:
     vars:
-      name: Santiago
-      vehicle: a skateboard
+      name: Abbas
+      vehicle: rollerblades
       units: m
       title: Distance travelled
-    v: 6
-    t: 9
+    v: 5
+    t: 8
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 54
+        value: 40
       ans3:
-        value: 15
+        value: 13
       ans4:
-        value: 0.67
+        value: 0.63
       ans5:
         value: -3
       ans6:
