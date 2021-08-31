@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -4
-    l0: x
-    l1: h
-    l2: i
-    l3: b
+    num: 6
+    l0: v
+    l1: p
+    l2: c
+    l3: z
     part1:
       ans1:
-        value: i = ${ 4 b + \frac{h}{x}}$
+        value: c = ${ \frac{p}{v} - 6 z}$
       ans2:
-        value: i = ${- \frac{4 b x}{h}}$
+        value: c = ${\frac{6 v z}{p}}$
       ans3:
-        value: i = ${- \frac{h}{4 b x}}$
+        value: c = ${\frac{p}{6 v z}}$
       ans4:
-        value: i = ${\frac{4 b + x}{h}}$
+        value: c = ${\frac{v - 6 z}{p}}$
       ans5:
         value: Don't Know
 ---

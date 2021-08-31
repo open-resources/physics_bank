@@ -23,21 +23,21 @@ part1:
 substitutions:
   params:
     vars:
-      name: Abbas
-      vehicle: a bicycle
+      name: Emilia
+      vehicle: a unicycle
       units: m
       title: Distance travelled
-    v: 5
-    t: 10
+    v: 2
+    t: 7
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 50
+        value: 14
       ans3:
-        value: 15
+        value: 9
       ans4:
-        value: 0.5
+        value: 0.29
       ans5:
         value: -5
       ans6:

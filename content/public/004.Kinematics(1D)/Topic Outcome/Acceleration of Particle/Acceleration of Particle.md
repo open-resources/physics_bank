@@ -60,7 +60,7 @@ substitutions:
       title: Acceleration of a Particle
       unit1: $s$
       unit2: $m/s^2$
-    c1: 4
+    c1: 5
     c2: 9
     c3_abs: 21
     c3_sign: ' + '
