@@ -24,7 +24,7 @@ substitutions:
   params:
     vars:
       title: Force on Ironclad Beetle
-    f: 120
+    f: 103
     part1:
       ans1:
         value: the beetle will exert a force of 9.5 x 10$^{-4}$ N on your thumb.
@@ -35,7 +35,7 @@ substitutions:
       ans4:
         value: the beetle will exert a force of 149 N back on your thumb.
       ans5:
-        value: The beetle will exert a force of 120 back on your thumb.
+        value: The beetle will exert a force of 103 back on your thumb.
 ---
 # {{ params.vars.title }}
 

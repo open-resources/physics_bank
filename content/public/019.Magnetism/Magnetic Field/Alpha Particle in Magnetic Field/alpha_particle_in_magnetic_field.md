@@ -63,7 +63,7 @@ substitutions:
   params:
     vars:
       title: Aplha Particle in Magnetic Field
-    r: 12
+    r: 28
     B: 2
 ---
 # {{ params.vars.title }}
