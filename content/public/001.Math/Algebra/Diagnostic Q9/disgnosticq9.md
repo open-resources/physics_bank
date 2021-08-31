@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 6
-    l0: j
-    l1: t
-    l2: c
-    l3: h
+    num: -6
+    l0: p
+    l1: k
+    l2: y
+    l3: e
     part1:
       ans1:
-        value: c = ${ - 6 h + \frac{t}{j}}$
+        value: y = ${ 6 e + \frac{k}{p}}$
       ans2:
-        value: c = ${\frac{6 h j}{t}}$
+        value: y = ${- \frac{6 e p}{k}}$
       ans3:
-        value: c = ${\frac{t}{6 h j}}$
+        value: y = ${- \frac{k}{6 e p}}$
       ans4:
-        value: c = ${\frac{- 6 h + j}{t}}$
+        value: y = ${\frac{6 e + p}{k}}$
       ans5:
         value: Don't Know
 ---

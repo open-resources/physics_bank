@@ -31,15 +31,15 @@ substitutions:
       ans1:
         value: Mass
       ans2:
-        value: Volume
+        value: Speed
       ans3:
-        value: Displacement
+        value: Force
       ans4:
-        value: Drag
+        value: Weight
       ans5:
-        value: The average velocity
+        value: The position in 3 dimensions
       ans6:
-        value: Lift
+        value: The average acceleration
 ---
 # {{ params.vars.title }}
 
