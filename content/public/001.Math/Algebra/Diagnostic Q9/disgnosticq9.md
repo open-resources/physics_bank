@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 3
-    l0: q
-    l1: g
-    l2: x
-    l3: j
+    num: 4
+    l0: z
+    l1: h
+    l2: r
+    l3: y
     part1:
       ans1:
-        value: x = ${ \frac{g}{q} - 3 j}$
+        value: r = ${ \frac{h}{z} - 4 y}$
       ans2:
-        value: x = ${\frac{3 j q}{g}}$
+        value: r = ${\frac{4 y z}{h}}$
       ans3:
-        value: x = ${\frac{g}{3 j q}}$
+        value: r = ${\frac{h}{4 y z}}$
       ans4:
-        value: x = ${\frac{- 3 j + q}{g}}$
+        value: r = ${\frac{- 4 y + z}{h}}$
       ans5:
         value: Don't Know
 ---

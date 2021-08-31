@@ -26,16 +26,16 @@ substitutions:
     vars:
       title: Math Practice Q22
     denom: 4
-    formula: $\sin{\left(\frac{x}{4} \right)}$
+    formula: $\cos{\left(\frac{x}{4} \right)}$
     part1:
       ans1:
-        value: ${- 4 \cos{\left(\frac{x}{4} \right)}}$
+        value: ${4 \sin{\left(\frac{x}{4} \right)}}$
       ans2:
-        value: ${4 \cos{\left(\frac{x}{4} \right)}}$
+        value: ${- 4 \sin{\left(\frac{x}{4} \right)}}$
       ans3:
-        value: ${- 8 \cos{\left(\frac{x}{4} \right)}}$
+        value: ${8 \sin{\left(\frac{x}{4} \right)}}$
       ans4:
-        value: ${- 2 \cos{\left(\frac{x}{4} \right)}}$
+        value: ${2 \sin{\left(\frac{x}{4} \right)}}$
 ---
 # {{ params.vars.title }}
 
