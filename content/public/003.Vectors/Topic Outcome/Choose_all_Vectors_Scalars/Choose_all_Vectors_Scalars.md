@@ -29,17 +29,17 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: The position in 3 dimensions
+        value: Force
       ans2:
-        value: Acceleration
+        value: The position in 3 dimensions
       ans3:
-        value: Displacement
+        value: The average acceleration
       ans4:
-        value: Drag
+        value: Pressure
       ans5:
-        value: Area
+        value: Volume
       ans6:
-        value: Temperature
+        value: Work
 ---
 # {{ params.vars.title }}
 

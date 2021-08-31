@@ -30,29 +30,29 @@ substitutions:
   params:
     vars:
       title: Magnitude and Direction of a Vector
-    A_i: 6
-    A_j_abs: 1
+    A_i: -8
+    A_j_abs: 10
     A_j_sign: ' - '
     B_i: 5
-    B_j_abs: 5
+    B_j_abs: 7
     B_j_sign: ' - '
-    C_i: 10
-    C_j_abs: 6
-    C_j_sign: ' + '
-    d: -7
+    C_i: -10
+    C_j_abs: 8
+    C_j_sign: ' - '
+    d: -9
     part1:
       ans1:
-        value: ($\sqrt{6200}$, $\theta = $209.0$^\circ$)
+        value: ($\sqrt{11000}$, $\theta = $41.9$^\circ$)
       ans2:
-        value: ($\sqrt{6200}$, $\theta = $104.5$^\circ$)
+        value: ($\sqrt{11000}$, $\theta = $20.95$^\circ$)
       ans3:
-        value: ($\sqrt{3100.0}$, $\theta = $104.5$^\circ$)
+        value: ($\sqrt{5500.0}$, $\theta = $20.95$^\circ$)
       ans4:
-        value: ($\sqrt{79.0}$, $\theta = $209.0$^\circ$)
+        value: ($\sqrt{100.0}$, $\theta = $41.9$^\circ$)
       ans5:
-        value: ($\sqrt{9300.0}$, $\theta = $104.5$^\circ$)
+        value: ($\sqrt{16500.0}$, $\theta = $20.95$^\circ$)
       ans6:
-        value: ($\sqrt{107}$, $\theta = $209.0$^\circ$)
+        value: ($\sqrt{146}$, $\theta = $41.9$^\circ$)
 ---
 # {{ params.vars.title }}
 Given $\vec{A} = {{ params.A_i }} \hat{\imath} {{params.A_j_sign}} {{ params.A_j_abs}} \hat{\jmath}$, $\vec{B} = {{ params.B_i }} \hat{\imath} {{params.B_j_sign}} {{ params.B_j_abs}} \hat{\jmath}$, $\vec{C} = {{ params.C_i }} \hat{\imath} {{params.C_j_sign}} {{ params.C_j_abs}} \hat{\jmath}$ and $d={{ params.d }}$, find the magnitude and direction of $\vec{A}-\vec{B}+d\vec{C}$.
