@@ -22,6 +22,7 @@ parts:
   chapters:
   - file: content/public/001.Math/Order of Magnitude/Largest Number/largest_number
   - file: content/public/001.Math/Quadratic formula/Diagnostic Q11/diagnosticq11
+  - file: content/public/001.Math/System of Equations/Math Practice Q7/math_practice_q7
   - file: content/public/001.Math/Math_practice_q18/math_practice_q18
   - file: content/public/001.Math/Math_practice14/Math_practice14
   - file: content/public/001.Math/math_practice_q24/math_practice_q24
@@ -43,6 +44,7 @@ parts:
   - file: content/public/001.Math/math_practiceQ20/math_practiceQ20
   - file: content/public/001.Math/Algebra/Math_practice_q8/Math_practice_q8
   - file: content/public/001.Math/Algebra/Math_practice_Q10/Math_practice_Q10
+  - file: content/public/001.Math/Algebra/Diagnostic Q9/disgnosticq9
   - file: content/public/001.Math/Algebra/Diagnostic Q5/diagnosticq5
   - file: content/public/001.Math/Algebra/Solve this Inequality/solve_this_inequality
   - file: content/public/001.Math/Algebra/math_practice_q12/math_practice_q12
@@ -116,6 +118,7 @@ parts:
       around a turn/Acceleration around a turn
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Discus_Thrower/Discus_Thrower
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Turning_Car/Turning_car
+  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/jump_across_stream/jump_across_stream
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Ball Launched from
       Horizontal Cliff/Ball Launched from Horizontal cliff
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/angular_speed/angular_speed
