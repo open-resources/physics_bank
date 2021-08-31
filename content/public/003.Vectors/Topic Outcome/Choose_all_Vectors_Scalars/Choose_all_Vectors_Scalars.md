@@ -29,17 +29,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Mass
+        value: Distance travelled
       ans2:
-        value: Entropy
+        value: Temperature
       ans3:
-        value: Volume
+        value: Mass
       ans4:
-        value: Speed
+        value: The average acceleration
       ans5:
-        value: The position in a 1 dimensional system
+        value: The position in 3 dimensions
       ans6:
-        value: velocity
+        value: The average velocity
 ---
 # {{ params.vars.title }}
 

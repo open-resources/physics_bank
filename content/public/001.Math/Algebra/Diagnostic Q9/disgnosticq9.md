@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 7
-    l0: w
-    l1: c
-    l2: b
-    l3: o
+    num: 6
+    l0: h
+    l1: z
+    l2: p
+    l3: q
     part1:
       ans1:
-        value: b = ${ \frac{c}{w} - 7 o}$
+        value: p = ${ - 6 q + \frac{z}{h}}$
       ans2:
-        value: b = ${\frac{7 o w}{c}}$
+        value: p = ${\frac{6 h q}{z}}$
       ans3:
-        value: b = ${\frac{c}{7 o w}}$
+        value: p = ${\frac{z}{6 h q}}$
       ans4:
-        value: b = ${\frac{- 7 o + w}{c}}$
+        value: p = ${\frac{h - 6 q}{z}}$
       ans5:
         value: Don't Know
 ---
