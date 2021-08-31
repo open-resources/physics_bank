@@ -37,7 +37,7 @@ part3:
 substitutions:
   params:
     vars:
-      name: Mateo
+      name: Abbas
       title: Lowering a bucket - person, the rope, the bucket, the air, the earth
     part1:
       ans1:

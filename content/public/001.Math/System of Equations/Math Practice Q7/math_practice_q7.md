@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 9x - 5y = 46
-    formula2: 9x + 6y = 11
+    formula1: 10x - 10y = 22
+    formula2: 1x + 2y = 23
     part1:
       ans1:
-        value: ' x =331/99, y =-35/11'
+        value: ' x =137/15, y =104/15'
       ans2:
-        value: ' x =-35/11, y =331/99'
+        value: ' x =104/15, y =137/15'
       ans3:
-        value: ' x =-331/99, y =35/11'
+        value: ' x =-137/15, y =-104/15'
       ans4:
-        value: ' x =35/11, y =-331/99'
+        value: ' x =-104/15, y =-137/15'
       ans5:
         value: Don't Know
 ---

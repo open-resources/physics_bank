@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -5
-    l0: f
-    l1: d
-    l2: t
-    l3: c
+    num: 4
+    l0: n
+    l1: w
+    l2: s
+    l3: e
     part1:
       ans1:
-        value: t = ${ 5 c + \frac{d}{f}}$
+        value: s = ${ - 4 e + \frac{w}{n}}$
       ans2:
-        value: t = ${- \frac{5 c f}{d}}$
+        value: s = ${\frac{4 e n}{w}}$
       ans3:
-        value: t = ${- \frac{d}{5 c f}}$
+        value: s = ${\frac{w}{4 e n}}$
       ans4:
-        value: t = ${\frac{5 c + f}{d}}$
+        value: s = ${\frac{- 4 e + n}{w}}$
       ans5:
         value: Don't Know
 ---
