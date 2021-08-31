@@ -43,9 +43,9 @@ substitutions:
   params:
     vars:
       title: Single-turn Circular Loop
-    r: '40'
-    b: '125'
-    B: '375'
+    r: '20'
+    b: '200'
+    B: '350'
     t: '0.3'
     part2:
       ans1:
