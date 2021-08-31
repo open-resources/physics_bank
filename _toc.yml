@@ -414,6 +414,7 @@ parts:
   - file: content/public/021.Circuits/Current/SIlicon Rod Current/silicon_rod_current
   - file: content/public/021.Circuits/Current/OSUPv2.9.2/OSUPv2.9.2
   - file: content/public/021.Circuits/Current/OSUPv2p10_28/OSUPv2p10_28
+  - file: content/public/021.Circuits/Current/OSUPv2p10_24/OSUPv2p10_24
   - file: content/public/021.Circuits/Current/Cathode Ray Tube/cathode_ray_tube
   - file: content/public/021.Circuits/Current/Proton Accelerator/proton_accelerator
   - file: content/public/021.Circuits/Current/Range of Current Through Resistor/range_of_current_through_resistor
