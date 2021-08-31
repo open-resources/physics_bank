@@ -29,15 +29,15 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Length
+        value: Volume
       ans2:
-        value: Density
+        value: Temperature
       ans3:
-        value: Momentum
+        value: Energy
       ans4:
-        value: velocity
+        value: The average velocity
       ans5:
-        value: Lift
+        value: velocity
       ans6:
         value: Force
 ---
