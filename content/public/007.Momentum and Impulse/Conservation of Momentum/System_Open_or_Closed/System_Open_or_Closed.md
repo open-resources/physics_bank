@@ -26,10 +26,10 @@ substitutions:
   params:
     vars:
       title: System Open or Closed
-      vehicle: van
+      vehicle: semi-truck
       units: kg
-    i_a: 55
-    i_b: 256
+    i_a: 128
+    i_b: 327
     part1:
       ans1:
         value: Yes, because the two carts are on a track with no friction.

@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -9
-    l0: o
-    l1: w
-    l2: u
-    l3: i
+    num: -2
+    l0: x
+    l1: m
+    l2: k
+    l3: c
     part1:
       ans1:
-        value: u = ${ 9 i + \frac{w}{o}}$
+        value: k = ${ 2 c + \frac{m}{x}}$
       ans2:
-        value: u = ${- \frac{9 i o}{w}}$
+        value: k = ${- \frac{2 c x}{m}}$
       ans3:
-        value: u = ${- \frac{w}{9 i o}}$
+        value: k = ${- \frac{m}{2 c x}}$
       ans4:
-        value: u = ${\frac{9 i + o}{w}}$
+        value: k = ${\frac{2 c + x}{m}}$
       ans5:
         value: Don't Know
 ---
