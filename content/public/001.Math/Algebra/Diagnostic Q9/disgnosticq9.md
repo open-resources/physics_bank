@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -7
-    l0: x
-    l1: d
-    l2: p
-    l3: o
+    num: -6
+    l0: d
+    l1: f
+    l2: v
+    l3: w
     part1:
       ans1:
-        value: p = ${ \frac{d}{x} + 7 o}$
+        value: v = ${ 6 w + \frac{f}{d}}$
       ans2:
-        value: p = ${- \frac{7 o x}{d}}$
+        value: v = ${- \frac{6 d w}{f}}$
       ans3:
-        value: p = ${- \frac{d}{7 o x}}$
+        value: v = ${- \frac{f}{6 d w}}$
       ans4:
-        value: p = ${\frac{7 o + x}{d}}$
+        value: v = ${\frac{d + 6 w}{f}}$
       ans5:
         value: Don't Know
 ---
