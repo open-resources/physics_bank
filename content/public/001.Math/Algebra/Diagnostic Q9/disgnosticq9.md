@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 6
-    l0: z
-    l1: p
-    l2: d
-    l3: l
+    num: -10
+    l0: c
+    l1: n
+    l2: v
+    l3: b
     part1:
       ans1:
-        value: d = ${ - 6 l + \frac{p}{z}}$
+        value: v = ${ 10 b + \frac{n}{c}}$
       ans2:
-        value: d = ${\frac{6 l z}{p}}$
+        value: v = ${- \frac{10 b c}{n}}$
       ans3:
-        value: d = ${\frac{p}{6 l z}}$
+        value: v = ${- \frac{n}{10 b c}}$
       ans4:
-        value: d = ${\frac{- 6 l + z}{p}}$
+        value: v = ${\frac{10 b + c}{n}}$
       ans5:
         value: Don't Know
 ---

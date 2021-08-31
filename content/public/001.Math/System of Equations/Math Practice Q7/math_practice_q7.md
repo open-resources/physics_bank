@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 3x - 6y = 14
-    formula2: 4x + 3y = 20
+    formula1: 9x - 7y = 25
+    formula2: 1x + 2y = 16
     part1:
       ans1:
-        value: ' x =54/11, y =4/33'
+        value: ' x =162/25, y =119/25'
       ans2:
-        value: ' x =4/33, y =54/11'
+        value: ' x =119/25, y =162/25'
       ans3:
-        value: ' x =-54/11, y =-4/33'
+        value: ' x =-162/25, y =-119/25'
       ans4:
-        value: ' x =-4/33, y =-54/11'
+        value: ' x =-119/25, y =-162/25'
       ans5:
         value: Don't Know
 ---

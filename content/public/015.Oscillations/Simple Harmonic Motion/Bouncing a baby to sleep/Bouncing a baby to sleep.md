@@ -43,39 +43,39 @@ part3:
 substitutions:
   params:
     vars:
-      person1: sister
-      person2: aunt
+      person1: mother
+      person2: sister
       title: Bouncing a Baby to Sleep
       units: $N/m$
-    m1: 71.2
-    m2: 88.5
-    m_b: 7.28
-    f: 2.28
+    m1: 81.9
+    m2: 71.1
+    m_b: 6.14
+    f: 2.18
     part3:
       ans1:
-        value: Add more air to increase the pressure in the ball. Increased pressure
-          makes the ball 'stiffer'.
+        value: Remove air to decrease the pressure in the ball. Decreased pressure
+          makes the ball 'softer'.
       ans2:
         value: Remove air to decrease the pressure in the ball. Decreased pressure
-          makes the ball 'softer'.
-      ans3:
-        value: Remove air to decrease the pressure in the ball. Decreased pressure
           makes the ball 'stiffer'.
+      ans3:
+        value: Remove air to increase the pressure in the ball. Increased pressure
+          makes the ball 'softer'.
       ans4:
         value: Remove air to increase the pressure in the ball. Increased pressure
-          makes the ball 'softer'.
-      ans5:
-        value: Remove air to increase the pressure in the ball. Increased pressure
           makes the ball 'stiffer'.
+      ans5:
+        value: Add more air to decrease the pressure in the ball. Decreased pressure
+          makes the ball 'softer'.
       ans6:
         value: Add more air to decrease the pressure in the ball. Decreased pressure
-          makes the ball 'softer'.
-      ans7:
-        value: Add more air to decrease the pressure in the ball. Decreased pressure
           makes the ball 'stiffer'.
-      ans8:
+      ans7:
         value: Add more air to increase the pressure in the ball. Increased pressure
           makes the ball 'softer'.
+      ans8:
+        value: Add more air to increase the pressure in the ball. Increased pressure
+          makes the ball 'stiffer'.
 ---
 # {{ params.vars.title }}
 Some  babies  like  to  be  bounced  to  calm  them  down.   A  baby's  {{ params.vars.person1 }} ({{ params.m1 }} $kg$) sits on a "birthing" ball and bounces a {{ params.m_b }} $kg$ baby with them with frequency {{ params.f }} $Hz$, and finds that the baby goes to sleep.  The baby's {{ params.vars.person2 }} ({{ params.m2 }} $kg$) tries the same technique, but finds that the baby won't go to sleep.  They realize that this is because they can't bounce on the ball with the same frequency as the baby's {{ params.vars.person1 }}.
