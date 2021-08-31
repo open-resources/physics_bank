@@ -23,8 +23,8 @@ part1:
 substitutions:
   params:
     vars:
-      name: Emilia
-      vehicle: a skateboard
+      name: Ximena
+      vehicle: rollerblades
       units: m
       title: Distance travelled
     v: 5

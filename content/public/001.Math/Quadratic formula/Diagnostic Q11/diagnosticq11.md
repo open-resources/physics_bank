@@ -26,17 +26,17 @@ substitutions:
     vars:
       title: Diagnostic Q11
     a: 3
-    b: 7
-    c: 2
+    b: 8
+    c: 5
     part1:
       ans1:
-        value: x = -2.0, x = -0.33
+        value: x = -1.7, x = -1.0
       ans2:
-        value: x = 2.0, x = 0.33
+        value: x = 1.7, x = 1.0
       ans3:
-        value: x = 7, x = 2
+        value: x = 8, x = 5
       ans4:
-        value: x = 3, x = 7
+        value: x = 3, x = 8
       ans5:
         value: Don't Know
 ---
