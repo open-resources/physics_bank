@@ -43,10 +43,10 @@ substitutions:
       units1: m/s
       units2: kg
       name: Ximena
-    i: 345
-    m: 40
-    v_1: 16
-    v_2: 20
+    i: 341
+    m: 32
+    v_1: 28
+    v_2: 15
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.
