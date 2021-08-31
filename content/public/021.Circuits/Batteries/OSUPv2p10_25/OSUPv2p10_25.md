@@ -51,7 +51,7 @@ part2:
     weight: 1
 substitutions:
   params:
-    V: '14.0'
+    V: '12.5'
     V_t: '17.0'
     I: '10.75'
 ---

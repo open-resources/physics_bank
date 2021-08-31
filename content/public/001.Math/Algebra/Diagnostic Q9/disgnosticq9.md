@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 9
-    l0: b
-    l1: k
-    l2: p
-    l3: q
+    num: 3
+    l0: o
+    l1: s
+    l2: c
+    l3: r
     part1:
       ans1:
-        value: p = ${ - 9 q + \frac{k}{b}}$
+        value: c = ${ - 3 r + \frac{s}{o}}$
       ans2:
-        value: p = ${\frac{9 b q}{k}}$
+        value: c = ${\frac{3 o r}{s}}$
       ans3:
-        value: p = ${\frac{k}{9 b q}}$
+        value: c = ${\frac{s}{3 o r}}$
       ans4:
-        value: p = ${\frac{b - 9 q}{k}}$
+        value: c = ${\frac{o - 3 r}{s}}$
       ans5:
         value: Don't Know
 ---
