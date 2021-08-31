@@ -26,18 +26,18 @@ substitutions:
     vars:
       title: Rational Equation
     x1: 3
-    x2: 4
-    x3: 6
-    x4: 2
+    x2: 5
+    x3: 5
+    x4: 4
     part1:
       ans1:
-        value: 2/3
+        value: -5/17
       ans2:
-        value: '0'
+        value: -5/17
       ans3:
-        value: '-10'
+        value: '5'
       ans4:
-        value: '0'
+        value: 5/17
 ---
 # {{ params.vars.title }}
 
