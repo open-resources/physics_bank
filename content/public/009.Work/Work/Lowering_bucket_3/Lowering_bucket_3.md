@@ -37,7 +37,7 @@ part3:
 substitutions:
   params:
     vars:
-      name: Santiago
+      name: Maya
       title: Lowering a bucket - the bucket
     part1:
       ans1:

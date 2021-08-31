@@ -75,11 +75,11 @@ substitutions:
       unit_v: $m/s$
       unit_t: $s$
       unit_x: $m$
-    v: -0.384
-    v_b: 4.33
-    h: 4.22
-    m_s: 106.0
-    m_b: 1.75
+    v: 1.64
+    v_b: 4.77
+    h: 3.46
+    m_s: 55.1
+    m_b: 1.68
 ---
 # {{ params.vars.title }}
 {{ params.vars.name1 }}  is  on  a  skateboard  and  has  an  initial  velocity  of  ({{ params.v }} $m/s$) $\hat{\imath}$ relative  to  {{ params.vars.name2 }}  who  is at rest with respect to the earth.  Just as they are gliding past {{ params.vars.name2 }},  {{ params.vars.name1 }} throws a ball in the positive $x$-direction from a height of {{ params.h }} m.  According to {{ params.vars.name1 }}, the ball has an initial velocity of ({{ params.v_b }} $m/s$) $\hat{\imath}$.
