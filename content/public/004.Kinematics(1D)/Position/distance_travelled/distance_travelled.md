@@ -23,21 +23,21 @@ part1:
 substitutions:
   params:
     vars:
-      name: Ximena
-      vehicle: a unicycle
+      name: Emilia
+      vehicle: rollerblades
       units: m
       title: Distance travelled
-    v: 3
-    t: 7
+    v: 6
+    t: 10
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 21
+        value: 60
       ans3:
-        value: 10
+        value: 16
       ans4:
-        value: 0.43
+        value: 0.6
       ans5:
         value: -4
       ans6:

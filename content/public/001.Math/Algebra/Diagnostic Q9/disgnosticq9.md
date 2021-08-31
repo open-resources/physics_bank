@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 3
-    l0: o
-    l1: s
-    l2: c
-    l3: r
+    num: 10
+    l0: e
+    l1: l
+    l2: w
+    l3: g
     part1:
       ans1:
-        value: c = ${ - 3 r + \frac{s}{o}}$
+        value: w = ${ - 10 g + \frac{l}{e}}$
       ans2:
-        value: c = ${\frac{3 o r}{s}}$
+        value: w = ${\frac{10 e g}{l}}$
       ans3:
-        value: c = ${\frac{s}{3 o r}}$
+        value: w = ${\frac{l}{10 e g}}$
       ans4:
-        value: c = ${\frac{o - 3 r}{s}}$
+        value: w = ${\frac{e - 10 g}{l}}$
       ans5:
         value: Don't Know
 ---
