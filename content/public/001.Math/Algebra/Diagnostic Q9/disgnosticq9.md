@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -8
-    l0: z
-    l1: n
-    l2: y
-    l3: p
+    num: -5
+    l0: w
+    l1: a
+    l2: v
+    l3: z
     part1:
       ans1:
-        value: y = ${ \frac{n}{z} + 8 p}$
+        value: v = ${ \frac{a}{w} + 5 z}$
       ans2:
-        value: y = ${- \frac{8 p z}{n}}$
+        value: v = ${- \frac{5 w z}{a}}$
       ans3:
-        value: y = ${- \frac{n}{8 p z}}$
+        value: v = ${- \frac{a}{5 w z}}$
       ans4:
-        value: y = ${\frac{8 p + z}{n}}$
+        value: v = ${\frac{w + 5 z}{a}}$
       ans5:
         value: Don't Know
 ---

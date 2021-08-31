@@ -28,10 +28,10 @@ substitutions:
       ans1:
         value: The tension points up, and Emilia moves down, so negative work is done.
       ans2:
+        value: The tension point up, and Emilia moves up, so positive work is done.
+      ans3:
         value: The tension points down, and Emilia moves down, so negative work is
           done.
-      ans3:
-        value: The tension point up, and Emilia moves up, so positive work is done.
       ans4:
         value: The tension points up, and Emilia moves down, so positive work is done.
 ---

@@ -28,15 +28,15 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: car
+      vehicle: pickup truck
       title: Displacement of a Vehicle
       units: blocks
-    c1: 47
-    c2: 21
-    c3: 66
+    c1: 52
+    c2: 96
+    c3: 96
     dir1: east
     dir2: west
-    dir3: east
+    dir3: north
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }} moves {{ params.c1}} blocks due {{ params.dir1}}, {{ params.c2 }} blocks due {{ params.dir2}}, and another {{ params.c3 }} blocks due {{ params.dir3}}.

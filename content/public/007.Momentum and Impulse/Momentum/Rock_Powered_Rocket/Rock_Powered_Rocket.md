@@ -43,10 +43,10 @@ substitutions:
       units1: m/s
       units2: kg
       name: Savannah
-    i: 326
-    m: 25
-    v_1: 16
-    v_2: 18
+    i: 318
+    m: 30
+    v_1: 26
+    v_2: 13
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.
