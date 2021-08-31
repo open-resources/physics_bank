@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice Q22
-    denom: 8
-    formula: $\sin{\left(\frac{x}{8} \right)}$
+    denom: 10
+    formula: $\sin{\left(\frac{x}{10} \right)}$
     part1:
       ans1:
-        value: ${- 8 \cos{\left(\frac{x}{8} \right)}}$
+        value: ${- 10 \cos{\left(\frac{x}{10} \right)}}$
       ans2:
-        value: ${8 \cos{\left(\frac{x}{8} \right)}}$
+        value: ${10 \cos{\left(\frac{x}{10} \right)}}$
       ans3:
-        value: ${- 16 \cos{\left(\frac{x}{8} \right)}}$
+        value: ${- 20 \cos{\left(\frac{x}{10} \right)}}$
       ans4:
-        value: ${- 4 \cos{\left(\frac{x}{8} \right)}}$
+        value: ${- 5 \cos{\left(\frac{x}{10} \right)}}$
 ---
 # {{ params.vars.title }}
 

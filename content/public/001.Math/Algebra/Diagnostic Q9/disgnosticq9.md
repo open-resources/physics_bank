@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -9
-    l0: w
-    l1: o
-    l2: b
-    l3: n
+    num: -2
+    l0: j
+    l1: g
+    l2: f
+    l3: k
     part1:
       ans1:
-        value: b = ${ 9 n + \frac{o}{w}}$
+        value: f = ${ \frac{g}{j} + 2 k}$
       ans2:
-        value: b = ${- \frac{9 n w}{o}}$
+        value: f = ${- \frac{2 j k}{g}}$
       ans3:
-        value: b = ${- \frac{o}{9 n w}}$
+        value: f = ${- \frac{g}{2 j k}}$
       ans4:
-        value: b = ${\frac{9 n + w}{o}}$
+        value: f = ${\frac{j + 2 k}{g}}$
       ans5:
         value: Don't Know
 ---
