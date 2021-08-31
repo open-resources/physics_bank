@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 4
-    l0: m
-    l1: v
-    l2: k
-    l3: c
+    num: 5
+    l0: f
+    l1: x
+    l2: o
+    l3: n
     part1:
       ans1:
-        value: k = ${ - 4 c + \frac{v}{m}}$
+        value: o = ${ - 5 n + \frac{x}{f}}$
       ans2:
-        value: k = ${\frac{4 c m}{v}}$
+        value: o = ${\frac{5 f n}{x}}$
       ans3:
-        value: k = ${\frac{v}{4 c m}}$
+        value: o = ${\frac{x}{5 f n}}$
       ans4:
-        value: k = ${\frac{- 4 c + m}{v}}$
+        value: o = ${\frac{f - 5 n}{x}}$
       ans5:
         value: Don't Know
 ---

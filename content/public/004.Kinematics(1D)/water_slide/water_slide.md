@@ -48,7 +48,7 @@ substitutions:
   params:
     vars:
       title: Water Slide
-    theta: 20
+    theta: 40
     l: 200
     l2: 100.0
 ---

@@ -37,12 +37,12 @@ part3:
 substitutions:
   params:
     vars:
-      name: Ahmed
+      name: Mateo
       title: Potato Volume
       mass_units: kg
       volume_units: m^3
-      mass_potato: 237
-      mass_cube: 78
+      mass_potato: 208
+      mass_cube: 69
       cube_side_length: 3.34
 ---
 # {{ params.vars.title }}
