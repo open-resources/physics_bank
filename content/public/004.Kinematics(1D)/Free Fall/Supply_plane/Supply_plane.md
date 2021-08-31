@@ -59,7 +59,7 @@ substitutions:
       units1: m
       units2: $m/s^2 \ \ \hat\jmath$
       units3: $m/s \ \ \hat\jmath$
-    h: 60
+    h: 120
     s: 140
     vert: 60
 ---
