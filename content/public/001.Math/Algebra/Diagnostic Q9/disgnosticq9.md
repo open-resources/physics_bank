@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -7
-    l0: r
-    l1: p
-    l2: t
-    l3: f
+    num: -2
+    l0: o
+    l1: v
+    l2: r
+    l3: d
     part1:
       ans1:
-        value: t = ${ 7 f + \frac{p}{r}}$
+        value: r = ${ 2 d + \frac{v}{o}}$
       ans2:
-        value: t = ${- \frac{7 f r}{p}}$
+        value: r = ${- \frac{2 d o}{v}}$
       ans3:
-        value: t = ${- \frac{p}{7 f r}}$
+        value: r = ${- \frac{v}{2 d o}}$
       ans4:
-        value: t = ${\frac{7 f + r}{p}}$
+        value: r = ${\frac{2 d + o}{v}}$
       ans5:
         value: Don't Know
 ---
