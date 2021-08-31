@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 7
+    num: 6
     l0: j
-    l1: l
-    l2: q
-    l3: x
+    l1: t
+    l2: c
+    l3: h
     part1:
       ans1:
-        value: q = ${ - 7 x + \frac{l}{j}}$
+        value: c = ${ - 6 h + \frac{t}{j}}$
       ans2:
-        value: q = ${\frac{7 j x}{l}}$
+        value: c = ${\frac{6 h j}{t}}$
       ans3:
-        value: q = ${\frac{l}{7 j x}}$
+        value: c = ${\frac{t}{6 h j}}$
       ans4:
-        value: q = ${\frac{j - 7 x}{l}}$
+        value: c = ${\frac{- 6 h + j}{t}}$
       ans5:
         value: Don't Know
 ---
