@@ -25,16 +25,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 7x + -6 > -10x + 4
+      formula: 9x + -10 > 1x + 7
     part1:
       ans1:
-        value: x > 10/17
+        value: x > 17/8
       ans2:
-        value: x < 10/17
+        value: x < 17/8
       ans3:
-        value: x < 17/10
+        value: x < 8/17
       ans4:
-        value: x > 17/10
+        value: x > 8/17
       ans5:
         value: Don't Know
 ---

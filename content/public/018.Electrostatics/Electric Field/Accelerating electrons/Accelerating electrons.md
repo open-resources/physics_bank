@@ -40,7 +40,7 @@ substitutions:
   params:
     vars:
       title: Accelerating electrons
-    E: '6.00'
+    E: '3.60'
     p: '4'
 ---
 # {{ params.vars.title }}

@@ -54,21 +54,21 @@ substitutions:
     vars:
       title: A Frictionless Air Track?
       units: $m/s^2$
-    m1: 190.3
-    m2: 13.71
-    d_a: 0.01
-    mean: 1.52
-    sd: 0.127
-    a1: 1.59
-    a2: 1.69
-    a3: 1.44
-    a4: 1.39
-    a5: 1.52
-    a6: 1.69
-    a7: 1.42
-    a8: 1.49
-    a9: 1.65
-    a10: 1.3
+    m1: 353.0
+    m2: 72.67
+    d_a: 0.02
+    mean: 1.57
+    sd: 0.0875
+    a1: 1.47
+    a2: 1.68
+    a3: 1.51
+    a4: 1.52
+    a5: 1.74
+    a6: 1.5
+    a7: 1.65
+    a8: 1.5
+    a9: 1.57
+    a10: 1.51
     part4:
       ans1:
         value: The track is frictionless because $a_{expected}$ does not agree with
