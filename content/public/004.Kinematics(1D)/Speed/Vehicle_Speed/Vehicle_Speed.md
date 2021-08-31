@@ -24,7 +24,7 @@ substitutions:
   params:
     vars:
       title: Vehicle Speed
-      vehicle: van
+      vehicle: bus
     part1:
       ans1:
         value: constant

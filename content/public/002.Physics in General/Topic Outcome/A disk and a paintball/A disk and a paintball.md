@@ -55,8 +55,8 @@ substitutions:
       unit1: $J$
       unit2: $m/s$
     m_d: 0.089
-    m_b: 0.055
-    v: 18.0
+    m_b: 0.051
+    v: 12.0
 ---
 # {{ params.vars.title }}
 A {{ params.m_d }} $kg$ disk initially at rest in the Earth reference frame is free to move parallel to a horizontal bar through a hole in the disk's centre. The disk is struck face-on by a {{ params.m_b }} $kg$ paintball traveling at {{ params.v }} $m/s$.

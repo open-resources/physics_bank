@@ -43,8 +43,8 @@ substitutions:
       title: Flying Squid
       units1: m/s
       units2: m
-    m1: 0.38
-    m2: 0.92
+    m1: 0.04
+    m2: 0.71
     v: 26
 ---
 # {{ params.vars.title }}
