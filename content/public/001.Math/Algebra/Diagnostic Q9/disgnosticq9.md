@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -2
-    l0: x
-    l1: m
-    l2: k
-    l3: c
+    num: 7
+    l0: g
+    l1: s
+    l2: d
+    l3: q
     part1:
       ans1:
-        value: k = ${ 2 c + \frac{m}{x}}$
+        value: d = ${ - 7 q + \frac{s}{g}}$
       ans2:
-        value: k = ${- \frac{2 c x}{m}}$
+        value: d = ${\frac{7 g q}{s}}$
       ans3:
-        value: k = ${- \frac{m}{2 c x}}$
+        value: d = ${\frac{s}{7 g q}}$
       ans4:
-        value: k = ${\frac{2 c + x}{m}}$
+        value: d = ${\frac{g - 7 q}{s}}$
       ans5:
         value: Don't Know
 ---

@@ -39,8 +39,8 @@ substitutions:
   params:
     vars:
       title: Particle between charged plates
-    sig: '20'
-    d: '4.2'
+    sig: '22'
+    d: '3.6'
     particle: A proton
     particle1: proton
     p1: positive

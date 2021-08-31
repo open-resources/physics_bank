@@ -38,9 +38,9 @@ substitutions:
   params:
     vars:
       title: Circular coil
-    r: '11.50'
-    I: '0.94'
-    B: '4.00'
+    r: '11.00'
+    I: '0.66'
+    B: '2.20'
     p: '-4'
 ---
 # {{ params.vars.title }}

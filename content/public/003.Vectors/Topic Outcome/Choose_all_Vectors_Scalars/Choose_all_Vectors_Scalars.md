@@ -29,15 +29,15 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: Lift
+        value: Force
       ans2:
-        value: The average acceleration
+        value: Momentum
       ans3:
-        value: Work
+        value: Displacement
       ans4:
-        value: Power
+        value: velocity
       ans5:
-        value: Length
+        value: Area
       ans6:
         value: Temperature
 ---
