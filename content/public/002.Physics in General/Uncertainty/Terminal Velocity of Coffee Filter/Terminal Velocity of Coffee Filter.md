@@ -58,14 +58,14 @@ substitutions:
       title: Terminal Velocity of a Coffee Filter
       unit1: $m/s$
       unit2: $kg/s$
-    m: 1
-    d_m: 58
-    sd: 0.062
-    v1: 0.8
-    v2: 0.89
-    v3: 0.75
-    v4: 0.75
-    v5: 0.91
+    m: 3
+    d_m: 56
+    sd: 0.091
+    v1: 0.76
+    v2: 0.72
+    v3: 0.72
+    v4: 0.9
+    v5: 0.96
     v6: 0.83
 ---
 # {{ params.vars.title }}

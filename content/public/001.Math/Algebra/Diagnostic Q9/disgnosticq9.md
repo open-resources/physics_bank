@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 6
-    l0: y
-    l1: t
-    l2: b
-    l3: a
+    num: -4
+    l0: k
+    l1: n
+    l2: q
+    l3: v
     part1:
       ans1:
-        value: b = ${ - 6 a + \frac{t}{y}}$
+        value: q = ${ 4 v + \frac{n}{k}}$
       ans2:
-        value: b = ${\frac{6 a y}{t}}$
+        value: q = ${- \frac{4 k v}{n}}$
       ans3:
-        value: b = ${\frac{t}{6 a y}}$
+        value: q = ${- \frac{n}{4 k v}}$
       ans4:
-        value: b = ${\frac{- 6 a + y}{t}}$
+        value: q = ${\frac{k + 4 v}{n}}$
       ans5:
         value: Don't Know
 ---
