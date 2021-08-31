@@ -28,19 +28,19 @@ substitutions:
       sport: skateboarder
       title: Ski Jump
       units: m
-    v: 24
-    d: 3.4699999999999998
+    v: 25
+    d: 3.7
     part1:
       ans1:
         value: 9.81
       ans2:
-        value: 14.27
+        value: 15.35
       ans3:
-        value: 16.98
+        value: 18.86
       ans4:
-        value: 20.19
+        value: 21.71
       ans5:
-        value: 25.47
+        value: 28.29
 ---
 # {{ params.vars.title }}
 
