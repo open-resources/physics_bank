@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -9
-    l0: x
-    l1: j
-    l2: z
-    l3: d
+    num: -3
+    l0: q
+    l1: k
+    l2: a
+    l3: l
     part1:
       ans1:
-        value: z = ${ 9 d + \frac{j}{x}}$
+        value: a = ${ \frac{k}{q} + 3 l}$
       ans2:
-        value: z = ${- \frac{9 d x}{j}}$
+        value: a = ${- \frac{3 l q}{k}}$
       ans3:
-        value: z = ${- \frac{j}{9 d x}}$
+        value: a = ${- \frac{k}{3 l q}}$
       ans4:
-        value: z = ${\frac{9 d + x}{j}}$
+        value: a = ${\frac{3 l + q}{k}}$
       ans5:
         value: Don't Know
 ---

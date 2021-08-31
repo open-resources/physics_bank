@@ -29,7 +29,7 @@ part1:
 substitutions:
   params:
     vars:
-      name: Ahmed
+      name: Savannah
       title: Throwing Stones
       units: $s$
     v: 22.9
