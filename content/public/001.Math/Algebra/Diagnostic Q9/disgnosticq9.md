@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -3
-    l0: q
-    l1: k
+    num: -10
+    l0: z
+    l1: h
     l2: a
-    l3: l
+    l3: p
     part1:
       ans1:
-        value: a = ${ \frac{k}{q} + 3 l}$
+        value: a = ${ \frac{h}{z} + 10 p}$
       ans2:
-        value: a = ${- \frac{3 l q}{k}}$
+        value: a = ${- \frac{10 p z}{h}}$
       ans3:
-        value: a = ${- \frac{k}{3 l q}}$
+        value: a = ${- \frac{h}{10 p z}}$
       ans4:
-        value: a = ${\frac{3 l + q}{k}}$
+        value: a = ${\frac{10 p + z}{h}}$
       ans5:
         value: Don't Know
 ---

@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 1x - 9y = 45
-    formula2: 1x + 9y = 25
+    formula1: 7x - 10y = 14
+    formula2: 2x + 2y = 46
     part1:
       ans1:
-        value: ' x =35, y =-10/9'
+        value: ' x =244/17, y =147/17'
       ans2:
-        value: ' x =-10/9, y =35'
+        value: ' x =147/17, y =244/17'
       ans3:
-        value: ' x =-35, y =10/9'
+        value: ' x =-244/17, y =-147/17'
       ans4:
-        value: ' x =10/9, y =-35'
+        value: ' x =-147/17, y =-244/17'
       ans5:
         value: Don't Know
 ---
