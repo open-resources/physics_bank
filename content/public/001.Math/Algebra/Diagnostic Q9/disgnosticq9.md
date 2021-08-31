@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 9
-    l0: y
-    l1: v
-    l2: s
-    l3: w
+    num: 3
+    l0: a
+    l1: c
+    l2: j
+    l3: y
     part1:
       ans1:
-        value: s = ${ \frac{v}{y} - 9 w}$
+        value: j = ${ - 3 y + \frac{c}{a}}$
       ans2:
-        value: s = ${\frac{9 w y}{v}}$
+        value: j = ${\frac{3 a y}{c}}$
       ans3:
-        value: s = ${\frac{v}{9 w y}}$
+        value: j = ${\frac{c}{3 a y}}$
       ans4:
-        value: s = ${\frac{- 9 w + y}{v}}$
+        value: j = ${\frac{a - 3 y}{c}}$
       ans5:
         value: Don't Know
 ---

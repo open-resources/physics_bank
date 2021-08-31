@@ -33,13 +33,13 @@ substitutions:
       ans2:
         value: Force
       ans3:
-        value: Length
+        value: Pressure
       ans4:
-        value: Density
+        value: Power
       ans5:
-        value: Temperature
+        value: Work
       ans6:
-        value: Entropy
+        value: Energy
 ---
 # {{ params.vars.title }}
 
