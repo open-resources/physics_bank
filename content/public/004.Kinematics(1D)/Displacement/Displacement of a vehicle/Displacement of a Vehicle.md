@@ -28,13 +28,13 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: truck
+      vehicle: car
       title: Displacement of a Vehicle
       units: blocks
-    c1: 83
-    c2: 32
-    c3: 91
-    dir1: south
+    c1: 41
+    c2: 3
+    c3: 30
+    dir1: west
     dir2: north
     dir3: west
 ---

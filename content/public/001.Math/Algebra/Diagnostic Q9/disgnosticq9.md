@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -4
-    l0: y
-    l1: v
-    l2: u
-    l3: t
+    num: -7
+    l0: x
+    l1: d
+    l2: p
+    l3: o
     part1:
       ans1:
-        value: u = ${ 4 t + \frac{v}{y}}$
+        value: p = ${ \frac{d}{x} + 7 o}$
       ans2:
-        value: u = ${- \frac{4 t y}{v}}$
+        value: p = ${- \frac{7 o x}{d}}$
       ans3:
-        value: u = ${- \frac{v}{4 t y}}$
+        value: p = ${- \frac{d}{7 o x}}$
       ans4:
-        value: u = ${\frac{4 t + y}{v}}$
+        value: p = ${\frac{7 o + x}{d}}$
       ans5:
         value: Don't Know
 ---

@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 14
-    num: 3
-    denom: 5
+    num: 7
+    denom: 9
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt[5]{x^{3}}}\end{equation}
+        value: \begin{equation}\frac{1}{\sqrt[9]{x^{7}}}\end{equation}
       ans2:
-        value: \begin{equation}\sqrt[5]{x^{3}}\end{equation}
+        value: \begin{equation}\sqrt[9]{x^{7}}\end{equation}
       ans3:
-        value: \begin{equation}x^{\frac{3}{5}}\end{equation}
+        value: \begin{equation}x^{\frac{7}{9}}\end{equation}
       ans4:
-        value: \begin{equation}- \frac{1}{\sqrt[5]{x^{3}}}\end{equation}
+        value: \begin{equation}- \frac{1}{\sqrt[9]{x^{7}}}\end{equation}
       ans5:
         value: Do not know
 ---
