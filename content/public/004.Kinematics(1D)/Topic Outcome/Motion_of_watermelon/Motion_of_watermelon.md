@@ -49,12 +49,12 @@ part4:
 substitutions:
   params:
     vars:
-      name: Ahmed
+      name: Savannah
       title: Motion of watermelon
       units1: ${m/s}^2$
       units2: $s$
-    a: 6
-    b: 7
+    a: 2
+    b: 5
     c: 3
     part4:
       ans1:
