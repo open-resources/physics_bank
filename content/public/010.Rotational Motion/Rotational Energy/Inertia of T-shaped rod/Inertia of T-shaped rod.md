@@ -27,7 +27,7 @@ substitutions:
   params:
     vars:
       title: Rotational Inertia of T-shaped Rods
-    choice: maximum
+    choice: minimum
     part1:
       ans1:
         value: Figure (a)

@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 6
-    l0: w
-    l1: g
-    l2: m
-    l3: f
+    num: 8
+    l0: g
+    l1: t
+    l2: j
+    l3: o
     part1:
       ans1:
-        value: m = ${ - 6 f + \frac{g}{w}}$
+        value: j = ${ - 8 o + \frac{t}{g}}$
       ans2:
-        value: m = ${\frac{6 f w}{g}}$
+        value: j = ${\frac{8 g o}{t}}$
       ans3:
-        value: m = ${\frac{g}{6 f w}}$
+        value: j = ${\frac{t}{8 g o}}$
       ans4:
-        value: m = ${\frac{- 6 f + w}{g}}$
+        value: j = ${\frac{g - 8 o}{t}}$
       ans5:
         value: Don't Know
 ---

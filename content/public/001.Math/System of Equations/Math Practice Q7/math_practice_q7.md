@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 8x - 6y = 38
-    formula2: 10x + 4y = 37
+    formula1: 4x - 3y = 43
+    formula2: 9x + 1y = 38
     part1:
       ans1:
-        value: ' x =187/46, y =-21/23'
+        value: ' x =157/31, y =-235/31'
       ans2:
-        value: ' x =-21/23, y =187/46'
+        value: ' x =-235/31, y =157/31'
       ans3:
-        value: ' x =-187/46, y =21/23'
+        value: ' x =-157/31, y =235/31'
       ans4:
-        value: ' x =21/23, y =-187/46'
+        value: ' x =235/31, y =-157/31'
       ans5:
         value: Don't Know
 ---
