@@ -25,16 +25,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: 290
+    a: 251
     part1:
       ans1:
-        value: $\sin{110}$
+        value: $\sin{71}$
       ans2:
-        value: $\sin{-110}$
+        value: $\sin{-71}$
       ans3:
-        value: $\sin{70}$
+        value: $\sin{109}$
       ans4:
-        value: $\sin{-70}$
+        value: $\sin{-109}$
       ans5:
         value: Don't Know
 ---

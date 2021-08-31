@@ -34,10 +34,10 @@ substitutions:
     vars:
       title: Falling Bucket
       units: m/s
-    m_b: 10.3
-    m_c: 3.41
-    h: 44.1
-    r: 52.7
+    m_b: 11.1
+    m_c: 2.84
+    h: 40.3
+    r: 64.3
 ---
 # {{ params.vars.title }}
 A bucket of mass $m_b$ = {{ params.m_b }} $kg$ is knocked off the side of a well.  The bucket falls {{ params.h }} $m$ to the bottom of the well.  Attached to the bucket is a light rope that wraps around a cylinder of radius $r = $ {{ params.r}} $cm$ and mass $m_c$ = {{ params.m_c }} $kg$.

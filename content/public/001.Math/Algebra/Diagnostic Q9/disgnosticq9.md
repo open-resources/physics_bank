@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 2
-    l0: v
-    l1: i
-    l2: e
-    l3: w
+    num: 3
+    l0: j
+    l1: u
+    l2: y
+    l3: f
     part1:
       ans1:
-        value: e = ${ \frac{i}{v} - 2 w}$
+        value: y = ${ - 3 f + \frac{u}{j}}$
       ans2:
-        value: e = ${\frac{2 v w}{i}}$
+        value: y = ${\frac{3 f j}{u}}$
       ans3:
-        value: e = ${\frac{i}{2 v w}}$
+        value: y = ${\frac{u}{3 f j}}$
       ans4:
-        value: e = ${\frac{v - 2 w}{i}}$
+        value: y = ${\frac{- 3 f + j}{u}}$
       ans5:
         value: Don't Know
 ---
