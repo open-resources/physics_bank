@@ -30,10 +30,10 @@ substitutions:
   params:
     vars:
       title: Stack of Pennies
-    s_1: 2
-    s_2: 3
-    s_3: 4
-    s_4: 5
+    s_1: 3
+    s_2: 4
+    s_3: 5
+    s_4: 6
 ---
 # {{ params.vars.title }}
 There are four stacks of pennies lined up in a row. The first stack has {{params.s_1}} pennies, the
@@ -47,7 +47,7 @@ Don't worry about the vertical position of the centre of mass, just give the hor
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in terms of $d$ (if your answer is 50$d$, then just enter 50 in the box).
 
 ## Attribution
 
