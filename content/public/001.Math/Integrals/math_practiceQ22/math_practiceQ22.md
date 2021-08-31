@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice Q22
-    denom: 10
-    formula: $\cos{\left(\frac{x}{10} \right)}$
+    denom: 3
+    formula: $\cos{\left(\frac{x}{3} \right)}$
     part1:
       ans1:
-        value: ${10 \sin{\left(\frac{x}{10} \right)}}$
+        value: ${3 \sin{\left(\frac{x}{3} \right)}}$
       ans2:
-        value: ${- 10 \sin{\left(\frac{x}{10} \right)}}$
+        value: ${- 3 \sin{\left(\frac{x}{3} \right)}}$
       ans3:
-        value: ${20 \sin{\left(\frac{x}{10} \right)}}$
+        value: ${6 \sin{\left(\frac{x}{3} \right)}}$
       ans4:
-        value: ${5 \sin{\left(\frac{x}{10} \right)}}$
+        value: ${\frac{3 \sin{\left(\frac{x}{3} \right)}}{2}}$
 ---
 # {{ params.vars.title }}
 

@@ -31,12 +31,12 @@ substitutions:
       vehicle: pickup truck
       title: Displacement of a Vehicle
       units: blocks
-    c1: 83
-    c2: 33
-    c3: 62
+    c1: 81
+    c2: 50
+    c3: 6
     dir1: east
-    dir2: south
-    dir3: east
+    dir2: west
+    dir3: south
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }} moves {{ params.c1}} blocks due {{ params.dir1}}, {{ params.c2 }} blocks due {{ params.dir2}}, and another {{ params.c3 }} blocks due {{ params.dir3}}.

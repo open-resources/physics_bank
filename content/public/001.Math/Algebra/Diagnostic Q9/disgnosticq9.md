@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -2
-    l0: n
-    l1: k
-    l2: h
-    l3: i
+    num: -6
+    l0: d
+    l1: v
+    l2: i
+    l3: n
     part1:
       ans1:
-        value: h = ${ 2 i + \frac{k}{n}}$
+        value: i = ${ 6 n + \frac{v}{d}}$
       ans2:
-        value: h = ${- \frac{2 i n}{k}}$
+        value: i = ${- \frac{6 d n}{v}}$
       ans3:
-        value: h = ${- \frac{k}{2 i n}}$
+        value: i = ${- \frac{v}{6 d n}}$
       ans4:
-        value: h = ${\frac{2 i + n}{k}}$
+        value: i = ${\frac{d + 6 n}{v}}$
       ans5:
         value: Don't Know
 ---
