@@ -32,8 +32,8 @@ substitutions:
     vars:
       title: Box on a Slant with a Pulley
       units: $kg$
-    theta: 24
-    mu: 0.2
+    theta: 30
+    mu: 0.3
     m: 8
 ---
 # {{ params.vars.title }}

@@ -29,17 +29,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Length
+        value: Area
       ans2:
-        value: Density
+        value: Temperature
       ans3:
-        value: Distance travelled
+        value: Entropy
       ans4:
-        value: The position in a 1 dimensional system
+        value: Work
       ans5:
-        value: Acceleration
+        value: Force
       ans6:
-        value: The average acceleration
+        value: Momentum
 ---
 # {{ params.vars.title }}
 
