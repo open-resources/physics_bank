@@ -50,9 +50,9 @@ substitutions:
   params:
     vars:
       title: Range of Current Through Resistor
-    R: 139
+    R: 169
     V: 4.7
-    p: 5
+    p: 1
     Vtotal: 9.4
 ---
 # {{ params.vars.title }}

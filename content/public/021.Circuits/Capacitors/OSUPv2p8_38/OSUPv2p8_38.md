@@ -74,7 +74,7 @@ substitutions:
   params:
     vars:
       title: Charging Capacitors
-    a: '50'
+    a: '45'
     b: '15'
     v: '600'
 ---
