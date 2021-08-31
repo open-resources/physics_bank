@@ -28,16 +28,16 @@ substitutions:
       title: Speed Before Impact
       vehicle: bus
       units: $m/s$
-    m: 604
+    m: 513
     part1:
       ans1:
-        value: 89.0
+        value: 105.0
       ans2:
-        value: 45.0
+        value: 53.0
       ans3:
-        value: 22.0
+        value: 26.0
       ans4:
-        value: 11.0
+        value: 13.0
       ans5:
         value: 0
 ---

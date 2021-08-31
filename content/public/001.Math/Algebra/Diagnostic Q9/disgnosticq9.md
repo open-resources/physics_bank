@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -4
-    l0: t
-    l1: p
-    l2: l
-    l3: d
+    num: 2
+    l0: y
+    l1: o
+    l2: v
+    l3: z
     part1:
       ans1:
-        value: l = ${ 4 d + \frac{p}{t}}$
+        value: v = ${ \frac{o}{y} - 2 z}$
       ans2:
-        value: l = ${- \frac{4 d t}{p}}$
+        value: v = ${\frac{2 y z}{o}}$
       ans3:
-        value: l = ${- \frac{p}{4 d t}}$
+        value: v = ${\frac{o}{2 y z}}$
       ans4:
-        value: l = ${\frac{4 d + t}{p}}$
+        value: v = ${\frac{y - 2 z}{o}}$
       ans5:
         value: Don't Know
 ---
