@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -4
-    l0: k
-    l1: m
-    l2: a
-    l3: g
+    num: 7
+    l0: s
+    l1: z
+    l2: e
+    l3: l
     part1:
       ans1:
-        value: a = ${ 4 g + \frac{m}{k}}$
+        value: e = ${ - 7 l + \frac{z}{s}}$
       ans2:
-        value: a = ${- \frac{4 g k}{m}}$
+        value: e = ${\frac{7 l s}{z}}$
       ans3:
-        value: a = ${- \frac{m}{4 g k}}$
+        value: e = ${\frac{z}{7 l s}}$
       ans4:
-        value: a = ${\frac{4 g + k}{m}}$
+        value: e = ${\frac{- 7 l + s}{z}}$
       ans5:
         value: Don't Know
 ---
