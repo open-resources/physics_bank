@@ -26,16 +26,16 @@ substitutions:
     vars:
       title: Math Practice 13
     a: 7
-    b: 9
+    b: 5
     part1:
       ans1:
-        value: $z^{-2}$
-      ans2:
         value: $z^{2}$
+      ans2:
+        value: $z^{-2}$
       ans3:
-        value: -2z
+        value: 2z
       ans4:
-        value: (7/9)z
+        value: (7/5)z
       ans5:
         value: Don't Know
 ---

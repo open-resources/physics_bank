@@ -26,22 +26,22 @@ substitutions:
     vars:
       title: Work Done By Force
       units: $J$
-    t1: 0
+    t1: 2
     t2: 6
-    f1: 1.8
-    f2: 5.6
-    r1: 3.1
-    r2: 1.5
-    m: 8.5
+    f1: 2.4
+    f2: 5.2
+    r1: 3.0
+    r2: 1.3
+    m: 7.7
     part1:
       ans1:
-        value: -2.8
+        value: 0.44
       ans2:
         value: 14.0
       ans3:
-        value: 120.0
+        value: 110.0
       ans4:
-        value: 1.6
+        value: 1.8
       ans5:
         value: -14.0
 ---
