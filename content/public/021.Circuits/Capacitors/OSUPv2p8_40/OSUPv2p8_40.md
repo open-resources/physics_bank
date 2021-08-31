@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -37,8 +41,8 @@ substitutions:
   params:
     vars:
       title: Energy Stored in a Capacitor
-    c: '9'
-    v: '14'
+    c: '15'
+    v: '9'
 ---
 # {{ params.vars.title }}
 

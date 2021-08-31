@@ -19,6 +19,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - EW
 assets:
@@ -37,8 +41,8 @@ substitutions:
     vars:
       title: Two Blocks Stacked
       units: N
-    m: 14
-    f: 0.38
+    m: 10
+    f: 0.31
     t: 33
 ---
 # {{ params.vars.title }}

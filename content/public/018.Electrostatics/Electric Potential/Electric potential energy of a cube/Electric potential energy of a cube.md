@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -38,7 +42,7 @@ substitutions:
   params:
     vars:
       title: Electric potential energy of a cube
-    q: '6.00'
+    q: '4.00'
     d: '1.00'
 ---
 # {{ params.vars.title }}

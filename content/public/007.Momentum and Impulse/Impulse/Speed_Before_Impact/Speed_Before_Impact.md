@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - EW
 assets:
@@ -28,16 +32,16 @@ substitutions:
       title: Speed Before Impact
       vehicle: pickup truck
       units: $m/s$
-    m: 542
+    m: 654
     part1:
       ans1:
-        value: 100.0
+        value: 83.0
       ans2:
-        value: 50.0
+        value: 41.0
       ans3:
-        value: 25.0
+        value: 21.0
       ans4:
-        value: 12.0
+        value: 10.0
       ans5:
         value: 0
 ---

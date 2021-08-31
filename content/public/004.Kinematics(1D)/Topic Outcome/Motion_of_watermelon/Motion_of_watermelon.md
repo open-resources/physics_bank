@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - AK
 assets: null
@@ -49,13 +53,13 @@ part4:
 substitutions:
   params:
     vars:
-      name: Aliyah
+      name: Savannah
       title: Motion of watermelon
       units1: ${m/s}^2$
       units2: $s$
-    a: 5
-    b: 4
-    c: 7
+    a: 4
+    b: 6
+    c: 3
     part4:
       ans1:
         value: The speed is increasing

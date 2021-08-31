@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -43,10 +47,10 @@ substitutions:
   params:
     vars:
       title: Single-turn Circular Loop
-    r: '40'
+    r: '50'
     b: '175'
-    B: '325'
-    t: '0.3'
+    B: '300'
+    t: '0.4'
     part2:
       ans1:
         value: Clockwise

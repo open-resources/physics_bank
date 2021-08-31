@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -39,12 +43,12 @@ substitutions:
   params:
     vars:
       title: Particle between charged plates
-    sig: '26'
-    d: '3.0'
-    particle: A proton
-    particle1: proton
-    p1: positive
-    p2: negative
+    sig: '24'
+    d: '4.8'
+    particle: An electron
+    particle1: electron
+    p1: negative
+    p2: positive
 ---
 # {{ params.vars.title }}
 Two large plates of charge density ${{ params.sig }}\rm\ \mu C/m^2$ face each other at a separation of ${{ params.d }} \textrm{ mm}$.

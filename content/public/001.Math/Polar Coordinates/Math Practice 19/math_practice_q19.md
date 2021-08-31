@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - math_diagnostic
 - MP
@@ -25,16 +29,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: 359
+    a: 236
     part1:
       ans1:
-        value: $\sin{179}$
+        value: $\sin{56}$
       ans2:
-        value: $\sin{-179}$
+        value: $\sin{-56}$
       ans3:
-        value: $\sin{1}$
+        value: $\sin{124}$
       ans4:
-        value: $\sin{-1}$
+        value: $\sin{-124}$
       ans5:
         value: Don't Know
 ---

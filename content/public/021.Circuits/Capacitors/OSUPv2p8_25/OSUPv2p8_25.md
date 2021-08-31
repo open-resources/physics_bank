@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -37,8 +41,8 @@ substitutions:
   params:
     vars:
       title: Area of Capacitor Plates
-    c: '4.7'
-    d: '4.0'
+    c: '1.3'
+    d: '4.5'
 ---
 # {{ params.vars.title }}
 

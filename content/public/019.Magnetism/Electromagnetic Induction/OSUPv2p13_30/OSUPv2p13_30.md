@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -37,11 +41,11 @@ substitutions:
   params:
     vars:
       title: Coil Encircling Solenoid
-    n: '15'
+    n: '20'
     A: '10'
-    I: '1.00'
+    I: '0.25'
     N: '4'
-    t: '0.04'
+    t: '0.05'
 ---
 # {{ params.vars.title }}
 

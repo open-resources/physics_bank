@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - chapter 11
@@ -42,8 +46,8 @@ substitutions:
   params:
     vars:
       title: Magnetic Force on Airplane
-    q: 0.611
-    v: 674
+    q: 0.532
+    v: 541
     part2:
       ans1:
         value: North

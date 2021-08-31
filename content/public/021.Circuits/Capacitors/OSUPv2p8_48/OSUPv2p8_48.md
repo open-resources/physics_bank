@@ -15,6 +15,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -55,10 +59,10 @@ substitutions:
   params:
     vars:
       title: Varying Separation Distance of Capacitor Plates
-    a: '20.0'
-    b: '1.50'
-    c: '2.25'
-    v: '60'
+    a: '15.0'
+    b: '1.25'
+    c: '1.75'
+    v: '30'
     part3:
       ans1:
         value: It is lost to the surroundings in the laboratory

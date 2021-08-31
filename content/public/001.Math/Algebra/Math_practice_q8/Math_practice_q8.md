@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - math_diagnostic
 - AK
@@ -25,19 +29,19 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    a: -6
-    b: '18'
+    a: 1
+    b: '1'
     b_sign: ' - '
-    c: -3
+    c: 1
     part1:
       ans1:
-        value: 2.0x + 6.0y
+        value: 1.0x - 1.0y
       ans2:
-        value: -6.0x +2.0y
+        value: 1.0x +1.0y
       ans3:
-        value: ' - (2.0x  + 6.0y)/3'
+        value: '  (1.0x  - 1.0y)/1'
       ans4:
-        value: -6x - 18y
+        value: 1x - 1y
       ans5:
         value: Do not know
 ---

@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - PW
 assets: null
@@ -31,7 +35,7 @@ substitutions:
     vars:
       title: Eruption of Mount Etna
       units: $km/h$
-    h: 99.5
+    h: 82.9
 ---
 # {{ params.vars.title }}
 Mount Etna erupted on Dec. 14 sending lava {{ params.h }} $m$ into the air.

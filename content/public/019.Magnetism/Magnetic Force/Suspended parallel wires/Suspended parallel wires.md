@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -39,8 +43,8 @@ substitutions:
   params:
     vars:
       title: Suspended parallel wires
-    s: '3.6'
-    mu: '27.4'
+    s: '3.2'
+    mu: '27.8'
     theta: '4.0'
 ---
 # {{ params.vars.title }}

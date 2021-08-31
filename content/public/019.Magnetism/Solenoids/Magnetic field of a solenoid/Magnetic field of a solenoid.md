@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -38,8 +42,8 @@ substitutions:
   params:
     vars:
       title: Magnetic field of a solenoid
-    n: '1800'
-    I: '9.20'
+    n: '2900'
+    I: '9.60'
 ---
 # {{ params.vars.title }}
 A solenoid is wound with ${{ params.n }}$ turns per meter.

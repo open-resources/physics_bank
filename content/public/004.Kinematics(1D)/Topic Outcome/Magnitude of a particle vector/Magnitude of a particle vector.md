@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - PW
 assets: null
@@ -30,9 +34,9 @@ substitutions:
     vars:
       title: The Magnitude of a Particle's Vector
       units: $m/s^2$
-    r_i: 2t^2 - 5t
-    r_j: -9t^2 + 6t
-    t: 18
+    r_i: 3t^2 - 6t
+    r_j: -8t^3 - t^2
+    t: 11
     choice: velocity
 ---
 # {{ params.vars.title }}

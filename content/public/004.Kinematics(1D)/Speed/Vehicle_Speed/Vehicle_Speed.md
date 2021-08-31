@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - EW
 assets: null
@@ -24,7 +28,7 @@ substitutions:
   params:
     vars:
       title: Vehicle Speed
-      vehicle: bus
+      vehicle: sedan
     part1:
       ans1:
         value: constant

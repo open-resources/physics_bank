@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - MP
 assets: null
@@ -26,20 +30,20 @@ substitutions:
     vars:
       title: Rock on a String
       units: m/s
-    m: 0.75
-    r: 33
-    T: 300
+    m: 1.0
+    r: 86
+    T: 500
     part1:
       ans1:
-        value: 115.0
+        value: 207.0
       ans2:
-        value: 105.0
+        value: 197.0
       ans3:
-        value: 91.0
+        value: 157.0
       ans4:
-        value: 95.0
+        value: 187.0
       ans5:
-        value: 135.0
+        value: 227.0
 ---
 # {{ params.vars.title }}
 A child ties a {{params.m}} kg rock to the end of a string and whirls it at a constant speed in a horizontal circle of radius {{params.r}} cm.

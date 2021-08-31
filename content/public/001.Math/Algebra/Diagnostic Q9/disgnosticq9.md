@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - math_diagnostic
 - MP
@@ -25,20 +29,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -7
-    l0: o
-    l1: b
-    l2: w
-    l3: i
+    num: 5
+    l0: d
+    l1: v
+    l2: f
+    l3: n
     part1:
       ans1:
-        value: w = ${ \frac{b}{o} + 7 i}$
+        value: f = ${ - 5 n + \frac{v}{d}}$
       ans2:
-        value: w = ${- \frac{7 i o}{b}}$
+        value: f = ${\frac{5 d n}{v}}$
       ans3:
-        value: w = ${- \frac{b}{7 i o}}$
+        value: f = ${\frac{v}{5 d n}}$
       ans4:
-        value: w = ${\frac{7 i + o}{b}}$
+        value: f = ${\frac{d - 5 n}{v}}$
       ans5:
         value: Don't Know
 ---

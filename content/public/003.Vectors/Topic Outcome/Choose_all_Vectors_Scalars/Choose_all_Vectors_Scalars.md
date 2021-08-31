@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - unknown
 assets: null
@@ -29,15 +33,15 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Speed
+        value: Work
       ans2:
-        value: Mass
+        value: Length
       ans3:
-        value: Weight
+        value: Temperature
       ans4:
-        value: The average acceleration
+        value: Distance travelled
       ans5:
-        value: The average velocity
+        value: The position in a 1 dimensional system
       ans6:
         value: Acceleration
 ---

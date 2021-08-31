@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - EW
 assets:
@@ -50,8 +54,8 @@ substitutions:
       title: Roller Coaster
       units: m/s
       units_2: N
-    r: 16.0
-    m: 223
+    r: 14.0
+    m: 224
 ---
 # {{ params.vars.title }}
 A roller-coaster car moves around a vertical circular loop of radius $R$ = {{params.r}} m.

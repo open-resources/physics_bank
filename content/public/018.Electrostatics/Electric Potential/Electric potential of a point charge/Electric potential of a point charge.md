@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -40,8 +44,8 @@ substitutions:
   params:
     vars:
       title: Electric potential of a point charge
-    r: '1.40'
-    V: '5.60'
+    r: '2.40'
+    V: '-5.40'
 ---
 # {{ params.vars.title }}
 

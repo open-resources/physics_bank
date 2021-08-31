@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -39,7 +43,7 @@ substitutions:
   params:
     vars:
       title: Field due to lightning
-    d: '1.1'
+    d: '0.9'
     p: '4'
 ---
 # {{ params.vars.title }}

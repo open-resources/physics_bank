@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - math_diagnostic
 - MP
@@ -26,13 +30,13 @@ substitutions:
       title: Largest Number
     part1:
       ans1:
-        value: 7.8E21
+        value: 3.4E49
       ans2:
-        value: 9.0E9
+        value: 3.2E3
       ans3:
-        value: 7112
+        value: 900
       ans4:
-        value: '2.4E-20'
+        value: '9.9E-3'
       ans5:
         value: Don't Know
 ---

@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - VS
@@ -33,7 +37,7 @@ substitutions:
     vars:
       title: Electrons In a Wire
       units: m/s
-    I: 56
+    I: 108
     t: 59
 ---
 # {{ params.vars.title }}

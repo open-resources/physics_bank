@@ -17,6 +17,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - MP
 assets:
@@ -45,11 +49,11 @@ substitutions:
       title: Spring on an Incline
       units1: m
       units2: J
-    m: 3
-    k: 640
-    theta: 28
+    m: 5
+    k: 641
+    theta: 27
     mu: 0.25
-    d: 6
+    d: 9
     g: 9.8
 ---
 # {{ params.vars.title }}

@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - MP
 assets:
@@ -23,7 +27,7 @@ part1:
     weight: 1
 substitutions:
   params:
-    t: 1
+    t: 2
     vars:
       title: Acceleration from Velocity Graph
     part1:

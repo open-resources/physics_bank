@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -36,7 +40,7 @@ substitutions:
   params:
     vars:
       title: Cylindrical Capacitor
-    c: '15'
+    c: '37'
 ---
 # {{ params.vars.title }}
 

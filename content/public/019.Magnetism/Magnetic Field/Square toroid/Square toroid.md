@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -38,10 +42,10 @@ substitutions:
   params:
     vars:
       title: Square toroid
-    N: '389'
-    d: '4.6'
-    r: '29'
-    I: '2.2'
+    N: '584'
+    d: '4.8'
+    r: '23'
+    I: '1.2'
 ---
 # {{ params.vars.title }}
 A toroid with a square cross section ${{ params.d }}\textrm{ cm}\times{{ params.d }}\textrm{ cm}$ has an inner radius of ${{ params.r }}\textrm{ cm}$.

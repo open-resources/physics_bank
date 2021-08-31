@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - math_diagnostic
 - AK
@@ -25,19 +29,19 @@ substitutions:
   params:
     vars:
       title: Rational Equation
-    x1: 4
+    x1: 2
     x2: 1
-    x3: 1
-    x4: 8
+    x3: 5
+    x4: 3
     part1:
       ans1:
-        value: -2/7
+        value: 7/11
       ans2:
-        value: -2/7
+        value: -13/11
       ans3:
-        value: '1'
+        value: -7/5
       ans4:
-        value: 2/7
+        value: 13/11
 ---
 # {{ params.vars.title }}
 

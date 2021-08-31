@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -49,8 +53,8 @@ substitutions:
   params:
     vars:
       title: Partially Filled Capacitor
-    a: '30.0'
-    b: '20.0'
+    a: '55.0'
+    b: '12.0'
     f: '6'
 ---
 # {{ params.vars.title }}

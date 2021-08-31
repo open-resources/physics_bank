@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - AK
 - math_diagnostic
@@ -25,17 +29,17 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #12'
-    a: 2
-    b: 8
+    a: 5
+    b: 7
     part1:
       ans1:
-        value: (7/4 < x) & (x < 2)
+        value: (30/7 < x) & (x < 5)
       ans2:
-        value: (7/4 > x) & (x > 2)
+        value: (30/7 > x) & (x > 5)
       ans3:
-        value: x > 2/8
+        value: x > 5/7
       ans4:
-        value: (4 < x) & (x < 8)
+        value: (28/5 < x) & (x < 7)
       ans5:
         value: Do not know
 ---

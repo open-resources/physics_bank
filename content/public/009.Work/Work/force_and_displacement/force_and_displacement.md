@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - MP
 assets: null
@@ -26,19 +30,19 @@ substitutions:
     vars:
       title: Force and Displacement
       units: J
-    f1: -2
-    f2: 14
-    r1: 5
-    r2: -15
+    f1: -18
+    f2: 12
+    r1: 6
+    r2: -3
     part1:
       ans1:
-        value: -220
+        value: -144
       ans2:
-        value: 220
+        value: 144
       ans3:
-        value: 200
+        value: -72
       ans4:
-        value: -200
+        value: 72
       ans5:
         value: Zero
 ---

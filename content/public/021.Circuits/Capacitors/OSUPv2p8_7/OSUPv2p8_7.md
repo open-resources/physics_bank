@@ -16,6 +16,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -54,8 +58,8 @@ substitutions:
   params:
     vars:
       title: Combining Capacitors
-    c: '1.0'
-    n: '4'
+    c: '2.1'
+    n: '7'
 ---
 # {{ params.vars.title }}
 

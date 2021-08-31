@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -38,8 +42,8 @@ substitutions:
     vars:
       title: LED Bulb
       units: $
-    c: 0.12
-    h: 2
+    c: 0.25
+    h: 14
 ---
 # {{ params.vars.title }}
 

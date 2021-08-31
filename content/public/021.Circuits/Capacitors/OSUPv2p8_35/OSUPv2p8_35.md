@@ -16,6 +16,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -51,8 +55,8 @@ substitutions:
   params:
     vars:
       title: Connecting Capacitors
-    a: '9'
-    b: '7'
+    a: '10'
+    b: '5'
 ---
 # {{ params.vars.title }}
 You have a ${{params.a }} \rm\ \mu\textrm{F}$ capacitor and a ${{params.b }} \rm\ \mu\textrm{F}$ capacitor.

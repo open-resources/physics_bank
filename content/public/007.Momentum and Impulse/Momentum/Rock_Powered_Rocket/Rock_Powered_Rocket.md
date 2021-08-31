@@ -15,6 +15,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - EW
 assets: null
@@ -42,11 +46,11 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-      name: Mateo
-    i: 363
-    m: 34
-    v_1: 17
-    v_2: 23
+      name: Maya
+    i: 391
+    m: 30
+    v_1: 22
+    v_2: 21
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.

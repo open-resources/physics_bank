@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - unknown
 assets: null
@@ -31,12 +35,12 @@ substitutions:
       ans1:
         value: A system is isolated if all of the external forces on it are balanced
       ans2:
-        value: A system is isolated if energy isn't entering or leaving the system
-      ans3:
         value: A system is isolated if its total momentum is constant
-      ans4:
+      ans3:
         value: A system is isolated if its center of mass is moving with constant
           velocity
+      ans4:
+        value: A system is isolated if energy isn't entering or leaving the system
 ---
 # {{ params.vars.title }}
 

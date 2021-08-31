@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -38,9 +42,9 @@ substitutions:
   params:
     vars:
       title: Solenoid current
-    n: '13'
-    B: '2.4'
-    p: '-2'
+    n: '11'
+    B: '4.8'
+    p: '-1'
 ---
 # {{ params.vars.title }}
 A solenoid has ${{ params.n }}$ turns per centimeter.

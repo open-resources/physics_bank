@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -38,8 +42,8 @@ substitutions:
   params:
     vars:
       title: Charging a Capacitor
-    c: '6.0'
-    v: '50'
+    c: '4.1'
+    v: '80'
 ---
 # {{ params.vars.title }}
 

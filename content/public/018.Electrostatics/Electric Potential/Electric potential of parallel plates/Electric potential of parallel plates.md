@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -40,9 +44,9 @@ substitutions:
   params:
     vars:
       title: Electric potential of parallel plates
-    E: '4.00'
+    E: '7.80'
     p: '3'
-    V: '24.0'
+    V: '21.0'
 ---
 # {{ params.vars.title }}
 

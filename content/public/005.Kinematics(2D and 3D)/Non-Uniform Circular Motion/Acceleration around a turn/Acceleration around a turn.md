@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - PW
 assets:
@@ -26,7 +30,7 @@ substitutions:
   params:
     vars:
       title: Acceleration Around a Turn
-      vehicle: pickup truck
+      vehicle: semi-truck
       dir: clockwise
     part1:
       ans1:

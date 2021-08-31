@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - math_diagnostic
 - AK
@@ -25,17 +29,17 @@ substitutions:
   params:
     vars:
       title: Math Practice Q22
-    denom: 10
-    formula: $\sin{\left(\frac{x}{10} \right)}$
+    denom: 2
+    formula: $\sin{\left(\frac{x}{2} \right)}$
     part1:
       ans1:
-        value: ${- 10 \cos{\left(\frac{x}{10} \right)}}$
+        value: ${- 2 \cos{\left(\frac{x}{2} \right)}}$
       ans2:
-        value: ${10 \cos{\left(\frac{x}{10} \right)}}$
+        value: ${2 \cos{\left(\frac{x}{2} \right)}}$
       ans3:
-        value: ${- 20 \cos{\left(\frac{x}{10} \right)}}$
+        value: ${- 4 \cos{\left(\frac{x}{2} \right)}}$
       ans4:
-        value: ${- 5 \cos{\left(\frac{x}{10} \right)}}$
+        value: ${- \cos{\left(\frac{x}{2} \right)}}$
 ---
 # {{ params.vars.title }}
 

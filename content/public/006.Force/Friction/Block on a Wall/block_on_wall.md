@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - MP
 assets: null
@@ -31,9 +35,9 @@ substitutions:
     vars:
       title: Block on a Wall
       units: N
-    theta: 32
-    m: 8
-    mu: 0.27
+    theta: 53
+    m: 1
+    mu: 0.247
 ---
 # {{ params.vars.title }}
 A {{params.m}} kg wood block slides down a vertical wall while you push on it at a {{params.theta}} $^\circ$ angle.

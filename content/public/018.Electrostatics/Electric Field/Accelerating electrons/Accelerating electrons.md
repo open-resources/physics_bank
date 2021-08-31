@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -40,7 +44,7 @@ substitutions:
   params:
     vars:
       title: Accelerating electrons
-    E: '6.00'
+    E: '5.00'
     p: '5'
 ---
 # {{ params.vars.title }}

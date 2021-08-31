@@ -16,6 +16,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -41,11 +45,11 @@ substitutions:
   params:
     vars:
       title: Adding Capacitances
-    a: '3'
-    b: '5'
-    c: '2.0'
-    d: '1.0'
-    e: '1.50'
+    a: '10'
+    b: '6'
+    c: '4.0'
+    d: '1.5'
+    e: '1.75'
     f: '13'
 ---
 # {{ params.vars.title }}

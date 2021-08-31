@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -38,9 +42,9 @@ substitutions:
     vars:
       title: Coil in Uniform Magnetic Field
     N: '70'
-    d: '10'
-    B: '0.75'
-    t: '0.5'
+    d: '5'
+    B: '0.25'
+    t: '0.2'
 ---
 # {{ params.vars.title }}
 

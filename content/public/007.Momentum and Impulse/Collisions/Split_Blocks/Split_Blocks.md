@@ -18,6 +18,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - EW
 assets: null
@@ -35,10 +39,10 @@ substitutions:
     vars:
       title: Split Blocks
       units: $J$
-    m: 8
+    m: 7
     m_a: 4
-    m_b: 4
-    v_a: 5.9
+    m_b: 3
+    v_a: 4.5
 ---
 # {{ params.vars.title }}
 A {{params.m}} $kg$ block is initially at rest on a sheet of ice.

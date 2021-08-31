@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - math_diagnostic
 - MP
@@ -26,15 +30,15 @@ substitutions:
     vars:
       title: Math Practice Q25
     a: 7
-    b: 2
-    c: 1
+    b: 5
+    c: 9
     part1:
       ans1:
-        value: '6'
+        value: 2/3
       ans2:
         value: Negative Infinity
       ans3:
-        value: 7.0
+        value: 0.7777777777777778
       ans4:
         value: 7
       ans5:

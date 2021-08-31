@@ -15,6 +15,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - AK
 assets: null
@@ -41,9 +45,9 @@ substitutions:
     vars:
       title: Uranium Fragments
       units: amu
-    frag_speed: 1.1
-    dn_speed: 2.15
-    orig_mass: 236
+    frag_speed: 2.4
+    dn_speed: 3.43
+    orig_mass: 232
 ---
 # {{ params.vars.title }}
 A radioactive $^{ {{params.orig_mass}} }U$ uranium nucleus is initially at rest.

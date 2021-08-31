@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - PW
 assets: null
@@ -28,13 +32,13 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: semi-truck
+      vehicle: bus
       title: Displacement of a Vehicle
       units: blocks
-    c1: 25
-    c2: 79
-    c3: 9
-    dir1: north
+    c1: 64
+    c2: 96
+    c3: 55
+    dir1: east
     dir2: south
     dir3: east
 ---

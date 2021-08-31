@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -38,8 +42,8 @@ substitutions:
   params:
     vars:
       title: Determining Capacitance
-    q: '4.0'
-    v: '130'
+    q: '2.7'
+    v: '140'
 ---
 # {{ params.vars.title }}
 

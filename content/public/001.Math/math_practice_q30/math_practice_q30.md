@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - math_diagnostic
 - AK
@@ -25,7 +29,7 @@ substitutions:
   params:
     vars:
       title: Math Practice 30
-      name: Emilia
+      name: Santiago
     sp1: 8
     sp2: 4
     part1:

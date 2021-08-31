@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - math_diagnostic
 - MP
@@ -25,17 +29,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 17
-    a: 8
-    b: 6
+    a: 2
+    b: 7
     part1:
       ans1:
-        value: $e^{6} e^{8 y}$
+        value: $e^{7} e^{2 y}$
       ans2:
-        value: $e^{8 y} + e^{8}$
+        value: $e^{2 y} + e^{2}$
       ans3:
-        value: $8 e^{8} e^{y}$
+        value: $2 e^{2} e^{y}$
       ans4:
-        value: $6 e^{8 y}$
+        value: $7 e^{2 y}$
       ans5:
         value: Don't Know
 ---

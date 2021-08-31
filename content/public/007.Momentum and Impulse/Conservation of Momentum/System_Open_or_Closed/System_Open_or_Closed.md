@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - EW
 assets:
@@ -26,9 +30,9 @@ substitutions:
   params:
     vars:
       title: System Open or Closed
-      vehicle: bus
+      vehicle: semi-truck
       units: kg
-    i_a: 84
+    i_a: 117
     i_b: 313
     part1:
       ans1:

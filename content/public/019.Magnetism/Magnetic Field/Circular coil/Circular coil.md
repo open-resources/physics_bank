@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -38,9 +42,9 @@ substitutions:
   params:
     vars:
       title: Circular coil
-    r: '8.50'
-    I: '0.82'
-    B: '2.00'
+    r: '11.00'
+    I: '0.62'
+    B: '1.40'
     p: '-4'
 ---
 # {{ params.vars.title }}

@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - AK
 assets: null
@@ -55,16 +59,16 @@ part4:
 substitutions:
   params:
     vars:
-      name: Mateo
+      name: Emilia
       title: Toboggan hill
       units1_2_3: $kJ$
       units_4: $m/s$
-    m: 66
-    l: 100
-    ang_horiz: 10
-    fr: 90
-    fwind: 19
-    theta: 24
+    m: 97
+    l: 89
+    ang_horiz: 16
+    fr: 76
+    fwind: 20
+    theta: 22
     v_i: 2
 ---
 # {{ params.vars.title }}

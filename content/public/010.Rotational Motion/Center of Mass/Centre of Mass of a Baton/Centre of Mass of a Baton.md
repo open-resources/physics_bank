@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - PW
 assets:
@@ -31,11 +35,11 @@ substitutions:
     vars:
       title: Centre of Mass of a Baton
       units: $m$
-    m1: 0.22
-    m2: 0.096
-    m3: 0.088
-    l1: 1.7
-    l2: 0.93
+    m1: 0.2
+    m2: 0.1
+    m3: 0.055
+    l1: 0.79
+    l2: 1.3
 ---
 # {{ params.vars.title }}
 

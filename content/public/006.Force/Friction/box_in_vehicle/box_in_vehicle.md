@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - MP
 assets: null
@@ -26,7 +30,7 @@ substitutions:
     vars:
       title: Box in a Vehicle
       vehicle: sedan
-      direction: positive
+      direction: negative
     part1:
       ans1:
         value: Kinetic friction, positive x-direction

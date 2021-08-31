@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - EW
 assets:
@@ -31,8 +35,8 @@ substitutions:
     vars:
       title: Block In Hole
       units: m
-    a: 29
-    d: 0.6
+    a: 27
+    d: 0.8
 ---
 # {{ params.vars.title }}
 A small block is placed at height $h$ on a frictionless, {{params.a}}$^\circ$ ramp.

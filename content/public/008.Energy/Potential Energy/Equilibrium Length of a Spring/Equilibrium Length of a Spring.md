@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - PW
 assets: null
@@ -30,7 +34,7 @@ substitutions:
     vars:
       title: Equilibrium Length of a Spring
       units: J
-    Ux: 16x^2 - 12x - 88
+    Ux: 18x^2 - 11x + 56
 ---
 # {{ params.vars.title }}
 The potential energy of a spring is given by $U(x) = ({{ params.Ux }}) $ ${{ params.vars.units }}$ if $x$ is given in metres.

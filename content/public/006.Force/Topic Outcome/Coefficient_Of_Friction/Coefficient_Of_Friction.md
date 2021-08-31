@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - EW
 assets:
@@ -30,7 +34,7 @@ substitutions:
   params:
     vars:
       title: Coefficient_Of_Friction
-    m: 158
+    m: 172
     t: 3
 ---
 # {{ params.vars.title }}

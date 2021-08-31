@@ -16,6 +16,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -40,8 +44,8 @@ substitutions:
   params:
     vars:
       title: Cosmic Ray Electron
-    v: 5.3
-    B: 9.4
+    v: 6.5
+    B: 5.2
 ---
 # {{ params.vars.title }}
 
