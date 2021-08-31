@@ -43,9 +43,9 @@ substitutions:
     vars:
       title: Electron in a capacitor
     d: '2.0'
-    V: '200'
-    s: '2.0'
-    p: '6'
+    V: '120'
+    s: '5.0'
+    p: '5'
     x: '1.4'
 ---
 # {{ params.vars.title }}
