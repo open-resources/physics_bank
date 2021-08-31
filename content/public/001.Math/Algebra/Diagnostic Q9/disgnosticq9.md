@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 4
-    l0: w
-    l1: o
-    l2: m
-    l3: l
+    num: -3
+    l0: i
+    l1: v
+    l2: u
+    l3: b
     part1:
       ans1:
-        value: m = ${ - 4 l + \frac{o}{w}}$
+        value: u = ${ 3 b + \frac{v}{i}}$
       ans2:
-        value: m = ${\frac{4 l w}{o}}$
+        value: u = ${- \frac{3 b i}{v}}$
       ans3:
-        value: m = ${\frac{o}{4 l w}}$
+        value: u = ${- \frac{v}{3 b i}}$
       ans4:
-        value: m = ${\frac{- 4 l + w}{o}}$
+        value: u = ${\frac{3 b + i}{v}}$
       ans5:
         value: Don't Know
 ---

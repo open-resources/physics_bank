@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 3x - 7y = 49
-    formula2: 10x + 10y = 41
+    formula1: 5x - 3y = 29
+    formula2: 4x + 8y = 42
     part1:
       ans1:
-        value: ' x =777/100, y =-367/100'
+        value: ' x =179/26, y =47/26'
       ans2:
-        value: ' x =-367/100, y =777/100'
+        value: ' x =47/26, y =179/26'
       ans3:
-        value: ' x =-777/100, y =367/100'
+        value: ' x =-179/26, y =-47/26'
       ans4:
-        value: ' x =367/100, y =-777/100'
+        value: ' x =-47/26, y =-179/26'
       ans5:
         value: Don't Know
 ---

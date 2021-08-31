@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice Q22
-    denom: 4
-    formula: $\cos{\left(\frac{x}{4} \right)}$
+    denom: 7
+    formula: $\cos{\left(\frac{x}{7} \right)}$
     part1:
       ans1:
-        value: ${4 \sin{\left(\frac{x}{4} \right)}}$
+        value: ${7 \sin{\left(\frac{x}{7} \right)}}$
       ans2:
-        value: ${- 4 \sin{\left(\frac{x}{4} \right)}}$
+        value: ${- 7 \sin{\left(\frac{x}{7} \right)}}$
       ans3:
-        value: ${8 \sin{\left(\frac{x}{4} \right)}}$
+        value: ${14 \sin{\left(\frac{x}{7} \right)}}$
       ans4:
-        value: ${2 \sin{\left(\frac{x}{4} \right)}}$
+        value: ${\frac{7 \sin{\left(\frac{x}{7} \right)}}{2}}$
 ---
 # {{ params.vars.title }}
 
