@@ -46,9 +46,9 @@ substitutions:
     vars:
       title: Electron in a Solenoid
     n: '10'
-    r: '1.10'
-    v: '1.20'
-    p: '5'
+    r: '2.60'
+    v: '1.50'
+    p: '6'
 ---
 # {{ params.vars.title }}
 A solenoid with ${{ params.n }}$ turns per centimter carries a current $I$.

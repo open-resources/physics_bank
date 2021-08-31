@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 8
-    l0: p
-    l1: r
-    l2: z
-    l3: d
+    num: -9
+    l0: b
+    l1: v
+    l2: f
+    l3: w
     part1:
       ans1:
-        value: z = ${ - 8 d + \frac{r}{p}}$
+        value: f = ${ 9 w + \frac{v}{b}}$
       ans2:
-        value: z = ${\frac{8 d p}{r}}$
+        value: f = ${- \frac{9 b w}{v}}$
       ans3:
-        value: z = ${\frac{r}{8 d p}}$
+        value: f = ${- \frac{v}{9 b w}}$
       ans4:
-        value: z = ${\frac{- 8 d + p}{r}}$
+        value: f = ${\frac{b + 9 w}{v}}$
       ans5:
         value: Don't Know
 ---

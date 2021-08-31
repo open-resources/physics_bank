@@ -30,12 +30,12 @@ substitutions:
   params:
     vars:
       title: Colliding Balls
-    m1: 157
-    m2: 179
-    v1_i: 8.87
-    v2_i: -4.21
-    v1_f: -8.14
-    v2_f: 10.7
+    m1: 248
+    m2: 130
+    v1_i: 7.23
+    v2_i: -7.73
+    v1_f: -6.33
+    v2_f: 18.1
     part1:
       ans1:
         value: This is an inelastic collision because only momentum is conserved.
