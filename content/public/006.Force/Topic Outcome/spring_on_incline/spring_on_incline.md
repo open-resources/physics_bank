@@ -45,9 +45,9 @@ substitutions:
       title: Spring on an Incline
       units1: m
       units2: J
-    m: 2
-    k: 669
-    theta: 25
+    m: 4
+    k: 641
+    theta: 30
     mu: 0.25
     d: 6
     g: 9.8

@@ -31,11 +31,11 @@ substitutions:
     choice: Untrue
     part1:
       ans1:
-        value: The dog is moving at the same speed at time t=8s and t=10s
-      ans2:
         value: The dog has a negative acceleration at t=9s
-      ans3:
+      ans2:
         value: The dog is not moving between t=6s and t=10s
+      ans3:
+        value: The dog is moving at the same speed at time t=8s and t=10s
       ans4:
         value: The dog is not moving between t=2s and t=6s
 ---
