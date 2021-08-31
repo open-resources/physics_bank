@@ -26,20 +26,20 @@ substitutions:
     vars:
       title: Rock on a String
       units: m/s
-    m: 1.0
+    m: 0.25
     r: 37
-    T: 500
+    T: 100
     part1:
       ans1:
-        value: 136.0
+        value: 122.0
       ans2:
-        value: 126.0
+        value: 112.0
       ans3:
-        value: 106.0
+        value: 96.0
       ans4:
-        value: 116.0
+        value: 102.0
       ans5:
-        value: 156.0
+        value: 142.0
 ---
 # {{ params.vars.title }}
 A child ties a {{params.m}} kg rock to the end of a string and whirls it at a constant speed in a horizontal circle of radius {{params.r}} cm.
