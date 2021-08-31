@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -9
-    l0: g
-    l1: u
-    l2: b
-    l3: l
+    num: 4
+    l0: d
+    l1: p
+    l2: a
+    l3: y
     part1:
       ans1:
-        value: b = ${ 9 l + \frac{u}{g}}$
+        value: a = ${ - 4 y + \frac{p}{d}}$
       ans2:
-        value: b = ${- \frac{9 g l}{u}}$
+        value: a = ${\frac{4 d y}{p}}$
       ans3:
-        value: b = ${- \frac{u}{9 g l}}$
+        value: a = ${\frac{p}{4 d y}}$
       ans4:
-        value: b = ${\frac{g + 9 l}{u}}$
+        value: a = ${\frac{d - 4 y}{p}}$
       ans5:
         value: Don't Know
 ---

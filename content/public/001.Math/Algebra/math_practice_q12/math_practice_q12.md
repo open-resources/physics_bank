@@ -26,16 +26,16 @@ substitutions:
     vars:
       title: 'Math Practice #12'
     a: 3
-    b: 7
+    b: 10
     part1:
       ans1:
-        value: (18/7 < x) & (x < 3)
+        value: (27/10 < x) & (x < 3)
       ans2:
-        value: (18/7 > x) & (x > 3)
+        value: (27/10 > x) & (x > 3)
       ans3:
-        value: x > 3/7
+        value: x > 3/10
       ans4:
-        value: (14/3 < x) & (x < 7)
+        value: (20/3 < x) & (x < 10)
       ans5:
         value: Do not know
 ---

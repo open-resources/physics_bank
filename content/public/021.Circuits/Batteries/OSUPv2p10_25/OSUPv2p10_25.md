@@ -53,7 +53,7 @@ substitutions:
   params:
     V: '13.0'
     V_t: '17.5'
-    I: '11.00'
+    I: '11.75'
 ---
 # {{ params.vars.title }}
 A ${{ params.V }}\rm\ V$ emf automobile battery has a terminal voltage of ${{ params.V_t }}\rm\ V$ when being charged by a current of ${{ params.I }}\rm\ A$.
