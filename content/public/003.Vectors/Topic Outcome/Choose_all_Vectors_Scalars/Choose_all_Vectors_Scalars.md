@@ -31,15 +31,15 @@ substitutions:
       ans1:
         value: Work
       ans2:
-        value: Energy
+        value: Volume
       ans3:
-        value: Displacement
+        value: Energy
       ans4:
-        value: The position in a 1 dimensional system
+        value: Area
       ans5:
-        value: Momentum
+        value: Force
       ans6:
-        value: velocity
+        value: Displacement
 ---
 # {{ params.vars.title }}
 

@@ -55,7 +55,7 @@ substitutions:
       units2: $s$
     a: 5
     b: 8
-    c: 8
+    c: 4
     part4:
       ans1:
         value: The speed is increasing
