@@ -25,14 +25,14 @@ substitutions:
     vars:
       title: Hockey net across ice
     v: 13
-    f: 4.976021095963612
+    f: 3.784535816232601
     part1:
       ans1:
         value: at a steadily increasing speed.
       ans2:
-        value: at 65.0 $\mathrm{m/s}$.
+        value: at 49.0 $\mathrm{m/s}$.
       ans3:
-        value: at an increasing speed until it reaches 65.0 $\mathrm{m/s}$ then at
+        value: at an increasing speed until it reaches 49.0 $\mathrm{m/s}$ then at
           a constant speed.
       ans4:
         value: at a steadily decreasing speed.
