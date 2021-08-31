@@ -53,7 +53,7 @@ part2:
     weight: 1
 substitutions:
   params:
-    R1: '33.0'
+    R1: '14.0'
     R2: '75.0'
     R3: '650'
 ---

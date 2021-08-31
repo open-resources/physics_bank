@@ -25,16 +25,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 1x + -8 > -8x + -2
+      formula: 3x + -9 > -5x + 7
     part1:
       ans1:
-        value: x > 2/3
+        value: x > 2
       ans2:
-        value: x < 2/3
+        value: x < 2
       ans3:
-        value: x < 3/2
+        value: x < 1/2
       ans4:
-        value: x > 3/2
+        value: x > 1/2
       ans5:
         value: Don't Know
 ---
