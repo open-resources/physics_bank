@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 4x - 6y = 25
-    formula2: 6x + 5y = 7
+    formula1: 1x - 5y = 8
+    formula2: 4x + 8y = 11
     part1:
       ans1:
-        value: ' x =167/56, y =-61/28'
+        value: ' x =17/4, y =-3/4'
       ans2:
-        value: ' x =-61/28, y =167/56'
+        value: ' x =-3/4, y =17/4'
       ans3:
-        value: ' x =-167/56, y =61/28'
+        value: ' x =-17/4, y =3/4'
       ans4:
-        value: ' x =61/28, y =-167/56'
+        value: ' x =3/4, y =-17/4'
       ans5:
         value: Don't Know
 ---

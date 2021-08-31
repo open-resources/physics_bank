@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -8
-    l0: w
-    l1: y
-    l2: p
-    l3: l
+    num: -4
+    l0: t
+    l1: p
+    l2: l
+    l3: d
     part1:
       ans1:
-        value: p = ${ 8 l + \frac{y}{w}}$
+        value: l = ${ 4 d + \frac{p}{t}}$
       ans2:
-        value: p = ${- \frac{8 l w}{y}}$
+        value: l = ${- \frac{4 d t}{p}}$
       ans3:
-        value: p = ${- \frac{y}{8 l w}}$
+        value: l = ${- \frac{p}{4 d t}}$
       ans4:
-        value: p = ${\frac{8 l + w}{y}}$
+        value: l = ${\frac{4 d + t}{p}}$
       ans5:
         value: Don't Know
 ---

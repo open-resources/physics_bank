@@ -37,8 +37,8 @@ substitutions:
     vars:
       title: Cars on Hills
       units: "$\frac{m}{s^2}"
-    v: 25
-    r: 234
+    v: 17
+    r: 191
     mu: 6.15
 ---
 # {{ params.vars.title }}

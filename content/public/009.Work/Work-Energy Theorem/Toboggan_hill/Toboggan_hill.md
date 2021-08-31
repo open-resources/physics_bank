@@ -55,16 +55,16 @@ part4:
 substitutions:
   params:
     vars:
-      name: Santiago
+      name: Lorenzo
       title: Toboggan hill
       units1_2_3: $kJ$
       units_4: $m/s$
-    m: 91
-    l: 93
-    ang_horiz: 17
-    fr: 78
-    fwind: 25
-    theta: 18
+    m: 83
+    l: 75
+    ang_horiz: 12
+    fr: 71
+    fwind: 23
+    theta: 24
     v_i: 3
 ---
 # {{ params.vars.title }}
