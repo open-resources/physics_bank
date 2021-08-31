@@ -23,21 +23,21 @@ part1:
 substitutions:
   params:
     vars:
-      name: Aliyah
-      vehicle: a unicycle
+      name: Lorenzo
+      vehicle: a skateboard
       units: m
       title: Distance travelled
-    v: 7
-    t: 10
+    v: 6
+    t: 9
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 70
+        value: 54
       ans3:
-        value: 17
+        value: 15
       ans4:
-        value: 0.7
+        value: 0.67
       ans5:
         value: -3
       ans6:

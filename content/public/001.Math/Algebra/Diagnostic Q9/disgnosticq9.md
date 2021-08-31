@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -10
-    l0: c
-    l1: z
-    l2: y
-    l3: v
+    num: -5
+    l0: t
+    l1: f
+    l2: l
+    l3: b
     part1:
       ans1:
-        value: y = ${ 10 v + \frac{z}{c}}$
+        value: l = ${ 5 b + \frac{f}{t}}$
       ans2:
-        value: y = ${- \frac{10 c v}{z}}$
+        value: l = ${- \frac{5 b t}{f}}$
       ans3:
-        value: y = ${- \frac{z}{10 c v}}$
+        value: l = ${- \frac{f}{5 b t}}$
       ans4:
-        value: y = ${\frac{c + 10 v}{z}}$
+        value: l = ${\frac{5 b + t}{f}}$
       ans5:
         value: Don't Know
 ---
