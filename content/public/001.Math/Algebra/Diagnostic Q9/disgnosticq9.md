@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 4
-    l0: a
-    l1: m
-    l2: v
-    l3: i
+    num: -8
+    l0: w
+    l1: y
+    l2: p
+    l3: l
     part1:
       ans1:
-        value: v = ${ - 4 i + \frac{m}{a}}$
+        value: p = ${ 8 l + \frac{y}{w}}$
       ans2:
-        value: v = ${\frac{4 a i}{m}}$
+        value: p = ${- \frac{8 l w}{y}}$
       ans3:
-        value: v = ${\frac{m}{4 a i}}$
+        value: p = ${- \frac{y}{8 l w}}$
       ans4:
-        value: v = ${\frac{a - 4 i}{m}}$
+        value: p = ${\frac{8 l + w}{y}}$
       ans5:
         value: Don't Know
 ---

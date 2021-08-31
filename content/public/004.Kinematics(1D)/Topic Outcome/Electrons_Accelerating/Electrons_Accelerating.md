@@ -25,15 +25,15 @@ substitutions:
     vars:
       title: Electrons Accelerating
       units: $m$
-    dist: 20
-    acc: 4
+    dist: 10
+    acc: 2
     part1:
       ans1:
-        value: 20
+        value: 10
       ans2:
-        value: 80.0
+        value: 20.0
       ans3:
-        value: 320.0
+        value: 40.0
       ans4:
         value: 5.0
       ans5:
