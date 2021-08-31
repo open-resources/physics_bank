@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -5
-    l0: f
-    l1: z
-    l2: x
-    l3: a
+    num: -8
+    l0: z
+    l1: n
+    l2: y
+    l3: p
     part1:
       ans1:
-        value: x = ${ 5 a + \frac{z}{f}}$
+        value: y = ${ \frac{n}{z} + 8 p}$
       ans2:
-        value: x = ${- \frac{5 a f}{z}}$
+        value: y = ${- \frac{8 p z}{n}}$
       ans3:
-        value: x = ${- \frac{z}{5 a f}}$
+        value: y = ${- \frac{n}{8 p z}}$
       ans4:
-        value: x = ${\frac{5 a + f}{z}}$
+        value: y = ${\frac{8 p + z}{n}}$
       ans5:
         value: Don't Know
 ---
