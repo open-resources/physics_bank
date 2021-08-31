@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 5
-    l0: y
-    l1: b
-    l2: g
-    l3: r
+    num: -4
+    l0: d
+    l1: k
+    l2: e
+    l3: a
     part1:
       ans1:
-        value: g = ${ \frac{b}{y} - 5 r}$
+        value: e = ${ 4 a + \frac{k}{d}}$
       ans2:
-        value: g = ${\frac{5 r y}{b}}$
+        value: e = ${- \frac{4 a d}{k}}$
       ans3:
-        value: g = ${\frac{b}{5 r y}}$
+        value: e = ${- \frac{k}{4 a d}}$
       ans4:
-        value: g = ${\frac{- 5 r + y}{b}}$
+        value: e = ${\frac{4 a + d}{k}}$
       ans5:
         value: Don't Know
 ---
