@@ -39,8 +39,8 @@ substitutions:
   params:
     vars:
       title: Current loop
-    I: '7.60'
-    B: '3.00'
+    I: '7.40'
+    B: '2.00'
     p: '-4'
 ---
 # {{ params.vars.title }}
