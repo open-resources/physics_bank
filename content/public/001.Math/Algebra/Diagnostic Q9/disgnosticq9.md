@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 3
-    l0: h
-    l1: d
-    l2: p
-    l3: f
+    num: 6
+    l0: y
+    l1: t
+    l2: b
+    l3: a
     part1:
       ans1:
-        value: p = ${ \frac{d}{h} - 3 f}$
+        value: b = ${ - 6 a + \frac{t}{y}}$
       ans2:
-        value: p = ${\frac{3 f h}{d}}$
+        value: b = ${\frac{6 a y}{t}}$
       ans3:
-        value: p = ${\frac{d}{3 f h}}$
+        value: b = ${\frac{t}{6 a y}}$
       ans4:
-        value: p = ${\frac{- 3 f + h}{d}}$
+        value: b = ${\frac{- 6 a + y}{t}}$
       ans5:
         value: Don't Know
 ---
