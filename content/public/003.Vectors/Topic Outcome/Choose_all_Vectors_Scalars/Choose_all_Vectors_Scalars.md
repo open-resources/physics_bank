@@ -29,17 +29,17 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: Displacement
-      ans2:
         value: Lift
+      ans2:
+        value: Weight
       ans3:
-        value: Area
+        value: velocity
       ans4:
         value: Work
       ans5:
-        value: Entropy
+        value: Energy
       ans6:
-        value: Length
+        value: Temperature
 ---
 # {{ params.vars.title }}
 

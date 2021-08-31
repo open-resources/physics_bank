@@ -58,7 +58,8 @@ substitutions:
       title: Supply plane
       units1: m
       units2: $m/s^2 \ \ \hat\jmath$
-      units3: $m/s \ \ \hat\jmath$
+      units3: $m/s \ \ \hat\imath$
+      units4: $m/s \ \ \hat\jmath$
     h: 120
     s: 200
     vert: 50
