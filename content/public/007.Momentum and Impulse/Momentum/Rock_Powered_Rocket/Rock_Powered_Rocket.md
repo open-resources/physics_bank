@@ -43,10 +43,10 @@ substitutions:
       units1: m/s
       units2: kg
       name: Santiago
-    i: 354
-    m: 36
-    v_1: 25
-    v_2: 29
+    i: 300
+    m: 30
+    v_1: 21
+    v_2: 20
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.
