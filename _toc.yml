@@ -101,6 +101,8 @@ parts:
       vector/Magnitude of a particle vector
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Acceleration, Velocity and
       Time/Acceleration, Velocity and Time
+  - file: content/public/004.Kinematics(1D)/Topic Outcome/A Coyote and a Rat/A Coyote
+      and a Rat
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Electrons_Accelerating/Electrons_Accelerating
   - file: content/public/004.Kinematics(1D)/Motion Diagrams/Running_Dog/Running_Dog
   - file: content/public/004.Kinematics(1D)/Velocity/Velocity_From_Graph/Velocity_From_Graph
@@ -132,6 +134,8 @@ parts:
       mass/Swinging mass
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Cat in a Laundry
       Basket/Cat in a Laundry Basket
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Shooting a steel
+      ball/Shooting a steel ball
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Salmon passing
       a waterfall/Salmon Passing a Waterfall
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Jumping Salmon/Jumping
