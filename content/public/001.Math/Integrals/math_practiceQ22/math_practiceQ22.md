@@ -26,16 +26,16 @@ substitutions:
     vars:
       title: Math Practice Q22
     denom: 8
-    formula: $\sin{\left(\frac{x}{8} \right)}$
+    formula: $\cos{\left(\frac{x}{8} \right)}$
     part1:
       ans1:
-        value: ${- 8 \cos{\left(\frac{x}{8} \right)}}$
+        value: ${8 \sin{\left(\frac{x}{8} \right)}}$
       ans2:
-        value: ${8 \cos{\left(\frac{x}{8} \right)}}$
+        value: ${- 8 \sin{\left(\frac{x}{8} \right)}}$
       ans3:
-        value: ${- 16 \cos{\left(\frac{x}{8} \right)}}$
+        value: ${16 \sin{\left(\frac{x}{8} \right)}}$
       ans4:
-        value: ${- 4 \cos{\left(\frac{x}{8} \right)}}$
+        value: ${4 \sin{\left(\frac{x}{8} \right)}}$
 ---
 # {{ params.vars.title }}
 

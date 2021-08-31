@@ -1,8 +1,8 @@
 ---
-title: Solve This Inequality
+title: Math Practice 23
 topic: Math
 author: Simon Bates
-source: Math Diagnostic Q3
+source: Math Diagnostic Q23
 template_version: 1.1
 attribution: standard
 outcomes:
@@ -24,32 +24,34 @@ part1:
 substitutions:
   params:
     vars:
-      title: Solve this Inequality
-      formula: -3x + 7 > -7x + 9
+      title: Math Practice 23
+    a: 9
+    b: 3
+    formula: $x^{9} \cos{\left(3 x \right)}$
     part1:
       ans1:
-        value: x > 1/2
+        value: $- 3 x^{9} \sin{\left(3 x \right)} + 9 x^{8} \cos{\left(3 x \right)}$
       ans2:
-        value: x < 1/2
+        value: $- 3 x^{9} \sin{\left(3 x \right)} $
       ans3:
-        value: x < 2
+        value: $ 9 x^{8} \sin{\left(3 x \right)}$
       ans4:
-        value: x > 2
+        value: $3 x^{9} \cos{\left(3 x \right)} + 9 x^{8} \sin{\left(3 x \right)}$
       ans5:
         value: Don't Know
 ---
 # {{ params.vars.title }}
-The solution of the inequality {{params.vars.formula}} is:
+The derivative of {{params.formula}} is
 
 ## Part 1
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params.part1.ans1.value}}
+- {{ params.part1.ans2.value}}
+- {{ params.part1.ans3.value}}
+- {{ params.part1.ans4.value}}
+- {{ params.part1.ans5.value}}
 
 ## Attribution
 

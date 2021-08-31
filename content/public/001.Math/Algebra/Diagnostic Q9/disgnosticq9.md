@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -9
-    l0: y
-    l1: e
-    l2: r
-    l3: i
+    num: -5
+    l0: n
+    l1: t
+    l2: c
+    l3: f
     part1:
       ans1:
-        value: r = ${ \frac{e}{y} + 9 i}$
+        value: c = ${ 5 f + \frac{t}{n}}$
       ans2:
-        value: r = ${- \frac{9 i y}{e}}$
+        value: c = ${- \frac{5 f n}{t}}$
       ans3:
-        value: r = ${- \frac{e}{9 i y}}$
+        value: c = ${- \frac{t}{5 f n}}$
       ans4:
-        value: r = ${\frac{9 i + y}{e}}$
+        value: c = ${\frac{5 f + n}{t}}$
       ans5:
         value: Don't Know
 ---
