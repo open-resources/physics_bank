@@ -26,7 +26,7 @@ substitutions:
   params:
     vars:
       title: Speed Before Impact
-      vehicle: semi-truck
+      vehicle: sedan
       units: $m/s$
     m: 661
     part1:

@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 6
-    l0: n
-    l1: t
-    l2: b
-    l3: y
+    num: 10
+    l0: p
+    l1: o
+    l2: d
+    l3: i
     part1:
       ans1:
-        value: b = ${ - 6 y + \frac{t}{n}}$
+        value: d = ${ - 10 i + \frac{o}{p}}$
       ans2:
-        value: b = ${\frac{6 n y}{t}}$
+        value: d = ${\frac{10 i p}{o}}$
       ans3:
-        value: b = ${\frac{t}{6 n y}}$
+        value: d = ${\frac{o}{10 i p}}$
       ans4:
-        value: b = ${\frac{n - 6 y}{t}}$
+        value: d = ${\frac{- 10 i + p}{o}}$
       ans5:
         value: Don't Know
 ---

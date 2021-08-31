@@ -58,7 +58,7 @@ substitutions:
     a: '10.0'
     b: '0.75'
     c: '2.50'
-    v: '70'
+    v: '50'
     part3:
       ans1:
         value: It is lost to the surroundings in the laboratory
