@@ -28,7 +28,7 @@ substitutions:
       title: System Open or Closed
       vehicle: bus
       units: kg
-    i_a: 79
+    i_a: 61
     i_b: 327
     part1:
       ans1:
