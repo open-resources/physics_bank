@@ -23,8 +23,8 @@ part1:
 substitutions:
   params:
     vars:
-      name: Ximena
-      vehicle: a bicycle
+      name: Abbas
+      vehicle: a tricycle
       units: m
       title: Distance travelled
     v: 6

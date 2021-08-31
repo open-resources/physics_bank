@@ -27,12 +27,12 @@ substitutions:
     vars:
       title: Position From Graph
       units: $m$
-    m: 2.8
+    m: 2.7
     part1:
       ans1:
-        value: '9.8'
+        value: '9.7'
       ans2:
-        value: '4.2'
+        value: '4.3'
       ans3:
         value: '7.0'
       ans4:

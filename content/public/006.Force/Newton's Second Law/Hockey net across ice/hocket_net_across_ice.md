@@ -24,8 +24,8 @@ substitutions:
   params:
     vars:
       title: Hockey net across ice
-    v: 11
-    f: 4.026803634383964
+    v: 19
+    f: 2.316493833109671
     part1:
       ans1:
         value: at a steadily increasing speed.
@@ -37,7 +37,7 @@ substitutions:
       ans4:
         value: at a steadily decreasing speed.
       ans5:
-        value: at 11 $\mathrm{m/s}$.
+        value: at 19 $\mathrm{m/s}$.
 ---
 # {{ params.vars.title }}
 

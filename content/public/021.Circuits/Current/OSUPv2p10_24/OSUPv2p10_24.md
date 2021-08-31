@@ -1,13 +1,13 @@
 ---
-title: Power and Energy Through Resistor
+title: Electrocution Safety
 topic: Circuits
-author: Vanshika
-source: 2.9.55
+author: Joseph Wandinger
+source: 2.10.24
 template_version: 1.1
 attribution: openstax-physics-vol2
 outcomes:
-- 21.8.1.1
-- 21.8.1.0
+- 21.6.1.1
+- 21.8.2.0
 difficulty:
 - undefined
 randomization:
@@ -16,75 +16,68 @@ taxonomy:
 - undefined
 tags:
 - OSUP
-- Chapter 9
-- Problem 55
-- Vanshika Sharma
-- multi-part
-- resistor
-- power
-- energy
+- volume 2
+- chapter 10
+- problem 24
+- circuits
 - current
-- VS
+- multi-part
+- JW
 assets: null
 part1:
   type: number-input
   pl-customizations:
     label: $I=$
     allow-blank: false
+    show-correct-answer: true
     comparison: relabs
     rtol: 0.03
     atol: 0
     show-help-text: true
-    suffix: $\rm\ {mA}$
+    suffix: $\rm\ A$
+    custom-format: .3g
     weight: 1
 part2:
   type: number-input
   pl-customizations:
     label: $P=$
     allow-blank: false
+    show-correct-answer: true
     comparison: relabs
     rtol: 0.03
     atol: 0
     show-help-text: true
     suffix: $\rm\ W$
+    custom-format: .3g
     weight: 1
 part3:
   type: number-input
   pl-customizations:
-    label: $P=$
+    label: $R=$
     allow-blank: false
+    show-correct-answer: true
     comparison: relabs
     rtol: 0.03
     atol: 0
     show-help-text: true
-    suffix: $\rm\ W$
-    weight: 1
-part4:
-  type: dropdown
-  pl-customizations:
-    blank: true
+    suffix: $\rm\ \Omega$
+    custom-format: .3g
     weight: 1
 substitutions:
   params:
-    vars:
-      title: Power And Energy Through Resistor
-    V: 36
-    R: 18
-    part4:
-      ans1:
-        value: It is converted into light energy.
-      ans2:
-        value: It is converted into heat.
-      ans3:
-        value: It is converted into chemical energy.
+    R_b: '11.00'
+    R_s: '2100'
+    V_s: '21.0'
+    I_max: '0.7'
 ---
 # {{ params.vars.title }}
-A ${{params.V}} \textrm{ V}$ battery is used to supply current to a  ${{params.R}}\rm\ k\Omega$ resistor.
-Assume the voltage drop across any wires used for connections is negligible.
+A person with body resistance between their hands of ${{ params.R_b }}\rm\ k \Omega$ accidentally grasps the terminals of a ${{ params.V_s }}\rm\ kV$ power supply.
+
+(Do NOT do this!)
 
 ## Part 1
 
-What is the current through the resistor?
+If the internal resistance of the power supply is ${{ params.R_s }}\rm\ \Omega$, what is the current through their body?
 
 ### Answer Section
 
@@ -92,7 +85,7 @@ Please enter a numeric value.
 
 ## Part 2
 
-What is the power dissipated by the resistor?
+What is the power dissipated in their body?
 
 ### Answer Section
 
@@ -100,21 +93,11 @@ Please enter a numeric value.
 
 ## Part 3
 
-What is the power input from the battery, assuming all the electrical power is dissipated by the resistor?
+If the power supply is to be made safe by increasing its internal resistance, what should the internal resistance be for the maximum current in this situation to be ${{ params.I_max }}\rm\ mA$ or less?
 
 ### Answer Section
 
 Please enter a numeric value.
-
-## Part 4
-
-What happens to the energy dissipated by the resistor?
-
-### Answer Section
-
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
 
 ## Attribution
 
