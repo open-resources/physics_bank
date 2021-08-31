@@ -31,15 +31,15 @@ substitutions:
       ans1:
         value: Lift
       ans2:
-        value: Displacement
+        value: Weight
       ans3:
-        value: Volume
+        value: velocity
       ans4:
-        value: Power
-      ans5:
-        value: Distance travelled
-      ans6:
         value: Temperature
+      ans5:
+        value: Power
+      ans6:
+        value: Speed
 ---
 # {{ params.vars.title }}
 

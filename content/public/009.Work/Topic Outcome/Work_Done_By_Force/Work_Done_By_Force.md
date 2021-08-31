@@ -26,24 +26,24 @@ substitutions:
     vars:
       title: Work Done By Force
       units: $J$
-    t1: 2
-    t2: 9
-    f1: 2.9
-    f2: 5.1
-    r1: 3.0
-    r2: 1.1
-    m: 8.9
+    t1: 3
+    t2: 6
+    f1: 3.9
+    f2: 4.6
+    r1: 2.9
+    r2: 1.6
+    m: 9.0
     part1:
       ans1:
-        value: 3.1
+        value: 3.9
       ans2:
-        value: 14.0
+        value: 19.0
       ans3:
-        value: 130.0
+        value: 170.0
       ans4:
-        value: 1.6
+        value: 2.1
       ans5:
-        value: -14.0
+        value: -19.0
 ---
 # {{ params.vars.title }}
 Between time $t =$ {{ params.t1 }} $s$ and $t =$ {{params.t2 }} $s$, a force $\vec{F}$ = ( {{ params.f1 }} $\hat\imath$ - {{ params.f2 }} $\hat\jmath$ ) N moves a {{ params.m }} kg object along a trajectory $\Delta\vec{r}$ = ( {{ params.r1 }} $\hat\imath$ - {{ params.r2 }} $\hat\jmath$ ) m.

@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 5
-    l0: u
-    l1: w
-    l2: n
-    l3: m
+    num: 6
+    l0: c
+    l1: q
+    l2: z
+    l3: a
     part1:
       ans1:
-        value: n = ${ - 5 m + \frac{w}{u}}$
+        value: z = ${ - 6 a + \frac{q}{c}}$
       ans2:
-        value: n = ${\frac{5 m u}{w}}$
+        value: z = ${\frac{6 a c}{q}}$
       ans3:
-        value: n = ${\frac{w}{5 m u}}$
+        value: z = ${\frac{q}{6 a c}}$
       ans4:
-        value: n = ${\frac{- 5 m + u}{w}}$
+        value: z = ${\frac{- 6 a + c}{q}}$
       ans5:
         value: Don't Know
 ---
