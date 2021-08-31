@@ -31,15 +31,15 @@ substitutions:
       ans1:
         value: Acceleration
       ans2:
-        value: Momentum
+        value: The average velocity
       ans3:
-        value: The position in 3 dimensions
+        value: velocity
       ans4:
-        value: Drag
-      ans5:
         value: Distance travelled
+      ans5:
+        value: Pressure
       ans6:
-        value: Density
+        value: Entropy
 ---
 # {{ params.vars.title }}
 

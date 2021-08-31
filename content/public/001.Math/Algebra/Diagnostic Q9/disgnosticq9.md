@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -8
-    l0: n
-    l1: j
-    l2: r
-    l3: b
+    num: -5
+    l0: f
+    l1: d
+    l2: t
+    l3: c
     part1:
       ans1:
-        value: r = ${ 8 b + \frac{j}{n}}$
+        value: t = ${ 5 c + \frac{d}{f}}$
       ans2:
-        value: r = ${- \frac{8 b n}{j}}$
+        value: t = ${- \frac{5 c f}{d}}$
       ans3:
-        value: r = ${- \frac{j}{8 b n}}$
+        value: t = ${- \frac{d}{5 c f}}$
       ans4:
-        value: r = ${\frac{8 b + n}{j}}$
+        value: t = ${\frac{5 c + f}{d}}$
       ans5:
         value: Don't Know
 ---

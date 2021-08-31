@@ -42,9 +42,9 @@ substitutions:
   params:
     vars:
       title: Electron in a capacitor
-    d: '4.0'
-    V: '100'
-    s: '5.5'
+    d: '2.0'
+    V: '220'
+    s: '4.5'
     p: '6'
     x: '1.0'
 ---
