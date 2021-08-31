@@ -43,9 +43,9 @@ substitutions:
       units1: "$\frac{kg*m}{s}$"
       units2: $N$
     m: 9
-    v: 11
-    theta: 30
-    t: 0.339
+    v: 9
+    theta: 24
+    t: 0.89
 ---
 # {{ params.vars.title }}
 A {{params.m}} kg steel bass strikes a massive wall at {{params.v}} m/s at an angle of {{params.theta}} with the plane of the wall. It bounces off of the wall with the same speed and angle (see the figure).
