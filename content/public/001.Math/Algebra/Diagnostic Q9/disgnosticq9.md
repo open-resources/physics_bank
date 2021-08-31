@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 5
-    l0: m
-    l1: t
-    l2: n
-    l3: g
+    num: 9
+    l0: d
+    l1: g
+    l2: z
+    l3: s
     part1:
       ans1:
-        value: n = ${ - 5 g + \frac{t}{m}}$
+        value: z = ${ - 9 s + \frac{g}{d}}$
       ans2:
-        value: n = ${\frac{5 g m}{t}}$
+        value: z = ${\frac{9 d s}{g}}$
       ans3:
-        value: n = ${\frac{t}{5 g m}}$
+        value: z = ${\frac{g}{9 d s}}$
       ans4:
-        value: n = ${\frac{- 5 g + m}{t}}$
+        value: z = ${\frac{d - 9 s}{g}}$
       ans5:
         value: Don't Know
 ---

@@ -26,7 +26,7 @@ substitutions:
     vars:
       title: Math Practice Q25
     a: 3
-    b: 2
+    b: 8
     c: 6
     part1:
       ans1:
