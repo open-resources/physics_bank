@@ -65,9 +65,9 @@ part3:
     weight: 1
 substitutions:
   params:
-    R_b: '12.00'
+    R_b: '11.50'
     R_s: '2200'
-    V_s: '20.5'
+    V_s: '18.0'
     I_max: '0.8'
 ---
 # {{ params.vars.title }}

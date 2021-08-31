@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 8
-    l0: l
-    l1: w
-    l2: s
-    l3: c
+    num: -5
+    l0: f
+    l1: z
+    l2: x
+    l3: a
     part1:
       ans1:
-        value: s = ${ - 8 c + \frac{w}{l}}$
+        value: x = ${ 5 a + \frac{z}{f}}$
       ans2:
-        value: s = ${\frac{8 c l}{w}}$
+        value: x = ${- \frac{5 a f}{z}}$
       ans3:
-        value: s = ${\frac{w}{8 c l}}$
+        value: x = ${- \frac{z}{5 a f}}$
       ans4:
-        value: s = ${\frac{- 8 c + l}{w}}$
+        value: x = ${\frac{5 a + f}{z}}$
       ans5:
         value: Don't Know
 ---
