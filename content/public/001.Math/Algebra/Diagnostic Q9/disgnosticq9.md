@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 10
-    l0: p
-    l1: o
-    l2: d
-    l3: i
+    num: -7
+    l0: f
+    l1: b
+    l2: y
+    l3: h
     part1:
       ans1:
-        value: d = ${ - 10 i + \frac{o}{p}}$
+        value: y = ${ \frac{b}{f} + 7 h}$
       ans2:
-        value: d = ${\frac{10 i p}{o}}$
+        value: y = ${- \frac{7 f h}{b}}$
       ans3:
-        value: d = ${\frac{o}{10 i p}}$
+        value: y = ${- \frac{b}{7 f h}}$
       ans4:
-        value: d = ${\frac{- 10 i + p}{o}}$
+        value: y = ${\frac{f + 7 h}{b}}$
       ans5:
         value: Don't Know
 ---

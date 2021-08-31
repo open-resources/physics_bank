@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 7x - 8y = 46
-    formula2: 7x + 3y = 4
+    formula1: 5x - 8y = 19
+    formula2: 6x + 9y = 25
     part1:
       ans1:
-        value: ' x =170/77, y =-42/11'
+        value: ' x =371/93, y =11/93'
       ans2:
-        value: ' x =-42/11, y =170/77'
+        value: ' x =11/93, y =371/93'
       ans3:
-        value: ' x =-170/77, y =42/11'
+        value: ' x =-371/93, y =-11/93'
       ans4:
-        value: ' x =42/11, y =-170/77'
+        value: ' x =-11/93, y =-371/93'
       ans5:
         value: Don't Know
 ---
