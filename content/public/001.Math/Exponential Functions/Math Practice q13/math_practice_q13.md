@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 13
-    a: 9
-    b: 6
+    a: 8
+    b: 9
     part1:
       ans1:
-        value: $z^{3}$
+        value: $z^{-1}$
       ans2:
-        value: $z^{-3}$
+        value: $z^{1}$
       ans3:
-        value: 3z
+        value: -1z
       ans4:
-        value: (3/2)z
+        value: (8/9)z
       ans5:
         value: Don't Know
 ---

@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -2
-    l0: o
-    l1: i
-    l2: n
-    l3: v
+    num: 5
+    l0: w
+    l1: t
+    l2: f
+    l3: c
     part1:
       ans1:
-        value: n = ${ \frac{i}{o} + 2 v}$
+        value: f = ${ - 5 c + \frac{t}{w}}$
       ans2:
-        value: n = ${- \frac{2 o v}{i}}$
+        value: f = ${\frac{5 c w}{t}}$
       ans3:
-        value: n = ${- \frac{i}{2 o v}}$
+        value: f = ${\frac{t}{5 c w}}$
       ans4:
-        value: n = ${\frac{o + 2 v}{i}}$
+        value: f = ${\frac{- 5 c + w}{t}}$
       ans5:
         value: Don't Know
 ---

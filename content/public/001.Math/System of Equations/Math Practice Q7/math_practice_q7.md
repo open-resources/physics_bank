@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 4x - 6y = 14
-    formula2: 1x + 4y = 5
+    formula1: 5x - 3y = 6
+    formula2: 5x + 6y = 2
     part1:
       ans1:
-        value: ' x =43/11, y =3/11'
+        value: ' x =14/15, y =-4/9'
       ans2:
-        value: ' x =3/11, y =43/11'
+        value: ' x =-4/9, y =14/15'
       ans3:
-        value: ' x =-43/11, y =-3/11'
+        value: ' x =-14/15, y =4/9'
       ans4:
-        value: ' x =-3/11, y =-43/11'
+        value: ' x =4/9, y =-14/15'
       ans5:
         value: Don't Know
 ---
