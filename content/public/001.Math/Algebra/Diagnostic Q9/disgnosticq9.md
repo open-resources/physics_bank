@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 6
-    l0: e
-    l1: l
-    l2: j
-    l3: d
+    num: 9
+    l0: z
+    l1: i
+    l2: t
+    l3: n
     part1:
       ans1:
-        value: j = ${ - 6 d + \frac{l}{e}}$
+        value: t = ${ \frac{i}{z} - 9 n}$
       ans2:
-        value: j = ${\frac{6 d e}{l}}$
+        value: t = ${\frac{9 n z}{i}}$
       ans3:
-        value: j = ${\frac{l}{6 d e}}$
+        value: t = ${\frac{i}{9 n z}}$
       ans4:
-        value: j = ${\frac{- 6 d + e}{l}}$
+        value: t = ${\frac{- 9 n + z}{i}}$
       ans5:
         value: Don't Know
 ---

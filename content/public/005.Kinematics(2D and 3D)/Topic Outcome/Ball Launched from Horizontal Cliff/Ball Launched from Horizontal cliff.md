@@ -61,8 +61,8 @@ substitutions:
       unit1: $s$
       unit2: rad
       unit3: $m/s$
-    v0: 2.7
-    h: 55.8
+    v0: 1.8
+    h: 51.5
 ---
 # {{ params.vars.title }}
 A small ball is launched from a horizontal cliff with initial speed {{ params.v0 }} $m/s$. The side of the cliff is sloped. The ball makes contact with the cliff side after falling a vertical distance of {{ params.h }} cm.

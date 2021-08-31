@@ -30,11 +30,11 @@ substitutions:
   params:
     vars:
       title: Colliding Balls
-    m1: 249
-    m2: 203
-    v1_i: 2.97
-    v2_i: -3.54
-    v1_f: -1.55
+    m1: 221
+    m2: 166
+    v1_i: 3.37
+    v2_i: -4.96
+    v1_f: -3.78
     v2_f: 4.55
     part1:
       ans1:

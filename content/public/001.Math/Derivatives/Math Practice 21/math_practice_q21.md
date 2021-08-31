@@ -25,16 +25,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 21
-    formula: $\cos{\left(x^{2} \right)}$
+    formula: $\sin{\left(x^{2} \right)}$
     part1:
       ans1:
-        value: ${- 2 x \sin{\left(x^{2} \right)}}$
+        value: ${2 x \cos{\left(x^{2} \right)}}$
       ans2:
-        value: ${- 2 \sin{\left(x^{2} \right)}}$
+        value: ${2 \cos{\left(x^{2} \right)}}$
       ans3:
-        value: ${- \sin{\left(x^{2} \right)}}$
+        value: ${\cos{\left(x^{2} \right)}}$
       ans4:
-        value: ${- 2 x \cos{\left(x^{2} \right)}}$
+        value: ${2 x \sin{\left(x^{2} \right)}}$
       ans5:
         value: Don't Know
 ---
