@@ -46,10 +46,10 @@ substitutions:
       units1: m
       units2: J
     m: 2
-    k: 659
-    theta: 30
+    k: 662
+    theta: 25
     mu: 0.25
-    d: 6
+    d: 8
     g: 9.8
 ---
 # {{ params.vars.title }}
