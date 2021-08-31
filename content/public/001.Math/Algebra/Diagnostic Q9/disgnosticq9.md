@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -7
-    l0: f
-    l1: b
-    l2: y
-    l3: h
+    num: -4
+    l0: h
+    l1: q
+    l2: k
+    l3: g
     part1:
       ans1:
-        value: y = ${ \frac{b}{f} + 7 h}$
+        value: k = ${ 4 g + \frac{q}{h}}$
       ans2:
-        value: y = ${- \frac{7 f h}{b}}$
+        value: k = ${- \frac{4 g h}{q}}$
       ans3:
-        value: y = ${- \frac{b}{7 f h}}$
+        value: k = ${- \frac{q}{4 g h}}$
       ans4:
-        value: y = ${\frac{f + 7 h}{b}}$
+        value: k = ${\frac{4 g + h}{q}}$
       ans5:
         value: Don't Know
 ---
