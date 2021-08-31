@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 17
-    a: 7
-    b: 6
+    a: 9
+    b: 4
     part1:
       ans1:
-        value: $e^{6} e^{7 y}$
+        value: $e^{4} e^{9 y}$
       ans2:
-        value: $e^{7 y} + e^{7}$
+        value: $e^{9 y} + e^{9}$
       ans3:
-        value: $7 e^{7} e^{y}$
+        value: $9 e^{9} e^{y}$
       ans4:
-        value: $6 e^{7 y}$
+        value: $4 e^{9 y}$
       ans5:
         value: Don't Know
 ---
