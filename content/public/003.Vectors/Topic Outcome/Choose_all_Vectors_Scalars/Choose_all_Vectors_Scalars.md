@@ -29,15 +29,15 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: Momentum
+        value: Force
       ans2:
-        value: The average acceleration
+        value: Momentum
       ans3:
-        value: Entropy
+        value: Work
       ans4:
-        value: Temperature
+        value: Energy
       ans5:
-        value: Density
+        value: Power
       ans6:
         value: Volume
 ---

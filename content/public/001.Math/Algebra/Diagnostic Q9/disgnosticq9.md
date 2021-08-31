@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 3
-    l0: w
-    l1: b
-    l2: z
-    l3: k
+    num: 9
+    l0: b
+    l1: k
+    l2: p
+    l3: q
     part1:
       ans1:
-        value: z = ${ \frac{b}{w} - 3 k}$
+        value: p = ${ - 9 q + \frac{k}{b}}$
       ans2:
-        value: z = ${\frac{3 k w}{b}}$
+        value: p = ${\frac{9 b q}{k}}$
       ans3:
-        value: z = ${\frac{b}{3 k w}}$
+        value: p = ${\frac{k}{9 b q}}$
       ans4:
-        value: z = ${\frac{- 3 k + w}{b}}$
+        value: p = ${\frac{b - 9 q}{k}}$
       ans5:
         value: Don't Know
 ---

@@ -26,8 +26,8 @@ substitutions:
   params:
     vars:
       title: Direction of Movement of the Elevator
-    m_st: 429
-    m_sc: 472
+    m_st: 623
+    m_sc: 634
     part1:
       ans1:
         value: Downward.
