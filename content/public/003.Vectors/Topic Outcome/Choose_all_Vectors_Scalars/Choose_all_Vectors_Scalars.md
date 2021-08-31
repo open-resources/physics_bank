@@ -29,17 +29,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Area
+        value: Pressure
       ans2:
-        value: Length
+        value: Density
       ans3:
-        value: Speed
+        value: Distance travelled
       ans4:
-        value: Lift
+        value: Mass
       ans5:
-        value: Displacement
+        value: Weight
       ans6:
-        value: The position in 3 dimensions
+        value: The position in a 1 dimensional system
 ---
 # {{ params.vars.title }}
 

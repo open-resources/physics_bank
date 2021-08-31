@@ -26,19 +26,19 @@ substitutions:
     vars:
       title: Math Practice 9
     num: 6
-    l0: b
-    l1: i
-    l2: q
-    l3: s
+    l0: w
+    l1: g
+    l2: m
+    l3: f
     part1:
       ans1:
-        value: q = ${ - 6 s + \frac{i}{b}}$
+        value: m = ${ - 6 f + \frac{g}{w}}$
       ans2:
-        value: q = ${\frac{6 b s}{i}}$
+        value: m = ${\frac{6 f w}{g}}$
       ans3:
-        value: q = ${\frac{i}{6 b s}}$
+        value: m = ${\frac{g}{6 f w}}$
       ans4:
-        value: q = ${\frac{b - 6 s}{i}}$
+        value: m = ${\frac{- 6 f + w}{g}}$
       ans5:
         value: Don't Know
 ---
