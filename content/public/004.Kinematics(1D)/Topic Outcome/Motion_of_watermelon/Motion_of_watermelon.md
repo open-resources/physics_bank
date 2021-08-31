@@ -54,7 +54,7 @@ substitutions:
       units1: ${m/s}^2$
       units2: $s$
     a: 3
-    b: 6
+    b: 8
     c: 4
     part4:
       ans1:

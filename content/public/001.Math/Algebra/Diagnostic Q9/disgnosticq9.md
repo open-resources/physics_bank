@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 2
-    l0: y
-    l1: o
-    l2: v
-    l3: z
+    num: -2
+    l0: p
+    l1: f
+    l2: h
+    l3: v
     part1:
       ans1:
-        value: v = ${ \frac{o}{y} - 2 z}$
+        value: h = ${ \frac{f}{p} + 2 v}$
       ans2:
-        value: v = ${\frac{2 y z}{o}}$
+        value: h = ${- \frac{2 p v}{f}}$
       ans3:
-        value: v = ${\frac{o}{2 y z}}$
+        value: h = ${- \frac{f}{2 p v}}$
       ans4:
-        value: v = ${\frac{y - 2 z}{o}}$
+        value: h = ${\frac{p + 2 v}{f}}$
       ans5:
         value: Don't Know
 ---
