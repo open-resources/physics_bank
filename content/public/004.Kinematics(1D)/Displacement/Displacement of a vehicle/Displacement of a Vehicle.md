@@ -31,10 +31,10 @@ substitutions:
       vehicle: car
       title: Displacement of a Vehicle
       units: blocks
-    c1: 40
-    c2: 76
-    c3: 9
-    dir1: west
+    c1: 6
+    c2: 79
+    c3: 57
+    dir1: north
     dir2: east
     dir3: west
 ---

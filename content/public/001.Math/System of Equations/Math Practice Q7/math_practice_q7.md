@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 2x - 4y = 15
-    formula2: 9x + 4y = 5
+    formula1: 9x - 7y = 34
+    formula2: 7x + 2y = 40
     part1:
       ans1:
-        value: ' x =20/11, y =-125/44'
+        value: ' x =348/67, y =122/67'
       ans2:
-        value: ' x =-125/44, y =20/11'
+        value: ' x =122/67, y =348/67'
       ans3:
-        value: ' x =-20/11, y =125/44'
+        value: ' x =-348/67, y =-122/67'
       ans4:
-        value: ' x =125/44, y =-20/11'
+        value: ' x =-122/67, y =-348/67'
       ans5:
         value: Don't Know
 ---
