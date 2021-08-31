@@ -37,10 +37,10 @@ substitutions:
   params:
     vars:
       title: Coil in Uniform Magnetic Field
-    N: '40'
-    d: '10'
-    B: '0.25'
-    t: '0.3'
+    N: '30'
+    d: '5'
+    B: '0.75'
+    t: '0.9'
 ---
 # {{ params.vars.title }}
 

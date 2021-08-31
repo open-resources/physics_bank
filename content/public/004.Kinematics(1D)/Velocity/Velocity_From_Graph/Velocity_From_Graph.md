@@ -32,18 +32,18 @@ substitutions:
     vars:
       title: Velocity From Graph
       units: $m/s$
-    choice: '2.5'
+    choice: '1.5'
     part1:
       ans1:
-        value: '-2'
+        value: '0'
       ans2:
         value: '-0.5'
       ans3:
-        value: '2'
+        value: '-2'
       ans4:
-        value: '-1'
+        value: '2'
       ans5:
-        value: '1'
+        value: '-1'
     part2:
       ans1:
         value: $v_{avg,x \; 0 \rightarrow 3}$ = -0.33 $m/s$ and $v_{avg \; 0 \rightarrow
