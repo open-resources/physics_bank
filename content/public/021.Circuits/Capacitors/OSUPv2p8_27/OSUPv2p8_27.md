@@ -38,8 +38,8 @@ substitutions:
   params:
     vars:
       title: Charging a Capacitor
-    c: '4.5'
-    v: '70'
+    c: '5.5'
+    v: '20'
 ---
 # {{ params.vars.title }}
 
