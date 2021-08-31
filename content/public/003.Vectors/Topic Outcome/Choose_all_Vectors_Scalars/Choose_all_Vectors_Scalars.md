@@ -31,15 +31,15 @@ substitutions:
       ans1:
         value: Area
       ans2:
-        value: Temperature
+        value: Power
       ans3:
-        value: Entropy
+        value: Displacement
       ans4:
-        value: Work
-      ans5:
         value: Force
+      ans5:
+        value: Acceleration
       ans6:
-        value: Momentum
+        value: The average acceleration
 ---
 # {{ params.vars.title }}
 
