@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -2
-    l0: n
-    l1: m
-    l2: r
-    l3: w
+    num: 5
+    l0: j
+    l1: e
+    l2: l
+    l3: h
     part1:
       ans1:
-        value: r = ${ \frac{m}{n} + 2 w}$
+        value: l = ${ \frac{e}{j} - 5 h}$
       ans2:
-        value: r = ${- \frac{2 n w}{m}}$
+        value: l = ${\frac{5 h j}{e}}$
       ans3:
-        value: r = ${- \frac{m}{2 n w}}$
+        value: l = ${\frac{e}{5 h j}}$
       ans4:
-        value: r = ${\frac{n + 2 w}{m}}$
+        value: l = ${\frac{- 5 h + j}{e}}$
       ans5:
         value: Don't Know
 ---
