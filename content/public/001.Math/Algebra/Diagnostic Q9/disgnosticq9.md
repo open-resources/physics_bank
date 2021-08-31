@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -3
-    l0: m
-    l1: q
-    l2: t
-    l3: f
+    num: 8
+    l0: r
+    l1: t
+    l2: m
+    l3: b
     part1:
       ans1:
-        value: t = ${ 3 f + \frac{q}{m}}$
+        value: m = ${ - 8 b + \frac{t}{r}}$
       ans2:
-        value: t = ${- \frac{3 f m}{q}}$
+        value: m = ${\frac{8 b r}{t}}$
       ans3:
-        value: t = ${- \frac{q}{3 f m}}$
+        value: m = ${\frac{t}{8 b r}}$
       ans4:
-        value: t = ${\frac{3 f + m}{q}}$
+        value: m = ${\frac{- 8 b + r}{t}}$
       ans5:
         value: Don't Know
 ---
