@@ -59,13 +59,13 @@ substitutions:
       unit1: $m/s$
       unit2: $kg/s$
     m: 2
-    d_m: 32
-    sd: 0.098
-    v1: 0.72
-    v2: 0.93
-    v3: 0.98
-    v4: 0.75
-    v5: 0.77
+    d_m: 38
+    sd: 0.074
+    v1: 0.75
+    v2: 0.91
+    v3: 0.94
+    v4: 0.91
+    v5: 0.82
     v6: 0.77
 ---
 # {{ params.vars.title }}

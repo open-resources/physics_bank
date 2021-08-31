@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -2
-    l0: k
-    l1: q
-    l2: o
-    l3: y
+    num: -4
+    l0: y
+    l1: v
+    l2: u
+    l3: t
     part1:
       ans1:
-        value: o = ${ 2 y + \frac{q}{k}}$
+        value: u = ${ 4 t + \frac{v}{y}}$
       ans2:
-        value: o = ${- \frac{2 k y}{q}}$
+        value: u = ${- \frac{4 t y}{v}}$
       ans3:
-        value: o = ${- \frac{q}{2 k y}}$
+        value: u = ${- \frac{v}{4 t y}}$
       ans4:
-        value: o = ${\frac{k + 2 y}{q}}$
+        value: u = ${\frac{4 t + y}{v}}$
       ans5:
         value: Don't Know
 ---
