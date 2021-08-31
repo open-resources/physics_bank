@@ -47,7 +47,7 @@ substitutions:
       title: Uniformly Decreasing Magnetic Field
     r: '15'
     B: '3.0'
-    t: '20'
+    t: '30'
     part2:
       ans1:
         value: Clockwise

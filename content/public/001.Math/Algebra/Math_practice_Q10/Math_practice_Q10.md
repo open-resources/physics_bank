@@ -25,19 +25,19 @@ substitutions:
   params:
     vars:
       title: Math Practice Q10
-    a: -6
-    b: '3'
-    b_sign: ' + '
-    c: -10
+    a: 8
+    b: '6'
+    b_sign: ' - '
+    c: 1
     part1:
       ans1:
-        value: ' - 4/3'
+        value: '  7/6'
       ans2:
-        value: '  4/3'
+        value: ' - 7/6'
       ans3:
-        value: -7
+        value: -1
       ans4:
-        value: -19
+        value: 15
       ans5:
         value: This equation cannot be solved
 ---

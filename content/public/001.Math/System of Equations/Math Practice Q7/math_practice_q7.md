@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 6x - 1y = 2
-    formula2: 6x + 2y = 45
+    formula1: 3x - 5y = 42
+    formula2: 6x + 5y = 27
     part1:
       ans1:
-        value: ' x =49/18, y =43/3'
+        value: ' x =23/3, y =-19/5'
       ans2:
-        value: ' x =43/3, y =49/18'
+        value: ' x =-19/5, y =23/3'
       ans3:
-        value: ' x =-49/18, y =-43/3'
+        value: ' x =-23/3, y =19/5'
       ans4:
-        value: ' x =-43/3, y =-49/18'
+        value: ' x =19/5, y =-23/3'
       ans5:
         value: Don't Know
 ---

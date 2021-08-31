@@ -27,17 +27,17 @@ substitutions:
       vehicle: rollerblades
       units: m
       title: Distance travelled
-    v: 2
-    t: 5
+    v: 7
+    t: 10
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 10
+        value: 70
       ans3:
-        value: 7
+        value: 17
       ans4:
-        value: 0.4
+        value: 0.7
       ans5:
         value: -3
       ans6:
