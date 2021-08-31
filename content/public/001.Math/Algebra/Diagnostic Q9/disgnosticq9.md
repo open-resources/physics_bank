@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -2
-    l0: q
-    l1: t
-    l2: y
-    l3: s
+    num: 10
+    l0: s
+    l1: k
+    l2: b
+    l3: j
     part1:
       ans1:
-        value: y = ${ 2 s + \frac{t}{q}}$
+        value: b = ${ - 10 j + \frac{k}{s}}$
       ans2:
-        value: y = ${- \frac{2 q s}{t}}$
+        value: b = ${\frac{10 j s}{k}}$
       ans3:
-        value: y = ${- \frac{t}{2 q s}}$
+        value: b = ${\frac{k}{10 j s}}$
       ans4:
-        value: y = ${\frac{q + 2 s}{t}}$
+        value: b = ${\frac{- 10 j + s}{k}}$
       ans5:
         value: Don't Know
 ---

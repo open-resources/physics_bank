@@ -37,7 +37,7 @@ substitutions:
     vars:
       title: Two Blocks Stacked
       units: N
-    m: 11
+    m: 12
     f: 0.34
     t: 46
 ---

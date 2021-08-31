@@ -23,7 +23,7 @@ part1:
     weight: 1
 substitutions:
   params:
-    t: 0
+    t: 3
     vars:
       title: Acceleration from Velocity Graph
     part1:
