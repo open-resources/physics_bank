@@ -29,17 +29,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Mass
+        value: Volume
       ans2:
-        value: Temperature
+        value: Length
       ans3:
         value: Lift
       ans4:
         value: Force
       ans5:
-        value: The average velocity
+        value: Acceleration
       ans6:
-        value: Drag
+        value: The average acceleration
 ---
 # {{ params.vars.title }}
 

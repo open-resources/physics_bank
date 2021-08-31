@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 9
-    l0: z
-    l1: i
-    l2: t
-    l3: n
+    num: -2
+    l0: n
+    l1: k
+    l2: h
+    l3: i
     part1:
       ans1:
-        value: t = ${ \frac{i}{z} - 9 n}$
+        value: h = ${ 2 i + \frac{k}{n}}$
       ans2:
-        value: t = ${\frac{9 n z}{i}}$
+        value: h = ${- \frac{2 i n}{k}}$
       ans3:
-        value: t = ${\frac{i}{9 n z}}$
+        value: h = ${- \frac{k}{2 i n}}$
       ans4:
-        value: t = ${\frac{- 9 n + z}{i}}$
+        value: h = ${\frac{2 i + n}{k}}$
       ans5:
         value: Don't Know
 ---

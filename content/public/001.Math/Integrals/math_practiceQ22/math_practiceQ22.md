@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice Q22
-    denom: 7
-    formula: $\cos{\left(\frac{x}{7} \right)}$
+    denom: 10
+    formula: $\cos{\left(\frac{x}{10} \right)}$
     part1:
       ans1:
-        value: ${7 \sin{\left(\frac{x}{7} \right)}}$
+        value: ${10 \sin{\left(\frac{x}{10} \right)}}$
       ans2:
-        value: ${- 7 \sin{\left(\frac{x}{7} \right)}}$
+        value: ${- 10 \sin{\left(\frac{x}{10} \right)}}$
       ans3:
-        value: ${14 \sin{\left(\frac{x}{7} \right)}}$
+        value: ${20 \sin{\left(\frac{x}{10} \right)}}$
       ans4:
-        value: ${\frac{7 \sin{\left(\frac{x}{7} \right)}}{2}}$
+        value: ${5 \sin{\left(\frac{x}{10} \right)}}$
 ---
 # {{ params.vars.title }}
 
