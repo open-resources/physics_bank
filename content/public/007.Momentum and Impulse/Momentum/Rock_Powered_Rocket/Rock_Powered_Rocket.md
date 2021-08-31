@@ -43,10 +43,10 @@ substitutions:
       units1: m/s
       units2: kg
       name: Aliyah
-    i: 309
-    m: 40
-    v_1: 14
-    v_2: 25
+    i: 354
+    m: 29
+    v_1: 20
+    v_2: 6
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.

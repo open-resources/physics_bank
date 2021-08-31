@@ -39,7 +39,7 @@ substitutions:
       units: N
     m: 13
     f: 0.37
-    t: 47
+    t: 46
 ---
 # {{ params.vars.title }}
 Blocks A and B each have a mass $m$ = {{params.m}} $kg$.

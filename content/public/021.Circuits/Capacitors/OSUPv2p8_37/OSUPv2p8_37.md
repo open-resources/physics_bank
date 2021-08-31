@@ -42,11 +42,11 @@ substitutions:
     vars:
       title: Adding Capacitances
     a: '2'
-    b: '3'
-    c: '2.5'
-    d: '4.5'
-    e: '1.25'
-    f: '7'
+    b: '9'
+    c: '1.5'
+    d: '5.0'
+    e: '1.00'
+    f: '11'
 ---
 # {{ params.vars.title }}
 
