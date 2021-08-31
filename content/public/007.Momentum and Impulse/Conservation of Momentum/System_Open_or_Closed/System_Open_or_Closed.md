@@ -28,7 +28,7 @@ substitutions:
       title: System Open or Closed
       vehicle: sedan
       units: kg
-    i_a: 72
+    i_a: 131
     i_b: 313
     part1:
       ans1:

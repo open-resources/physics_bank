@@ -40,8 +40,8 @@ substitutions:
   params:
     vars:
       title: Accelerating electrons
-    E: '1.40'
-    p: '5'
+    E: '4.80'
+    p: '4'
 ---
 # {{ params.vars.title }}
 A simple and common technique for accelerating electrons is shown in the figure, where there is a uniform electric field between two plates.

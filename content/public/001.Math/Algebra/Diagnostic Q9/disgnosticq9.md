@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 4
-    l0: r
-    l1: v
-    l2: h
-    l3: s
+    num: 5
+    l0: y
+    l1: b
+    l2: g
+    l3: r
     part1:
       ans1:
-        value: h = ${ - 4 s + \frac{v}{r}}$
+        value: g = ${ \frac{b}{y} - 5 r}$
       ans2:
-        value: h = ${\frac{4 r s}{v}}$
+        value: g = ${\frac{5 r y}{b}}$
       ans3:
-        value: h = ${\frac{v}{4 r s}}$
+        value: g = ${\frac{b}{5 r y}}$
       ans4:
-        value: h = ${\frac{r - 4 s}{v}}$
+        value: g = ${\frac{- 5 r + y}{b}}$
       ans5:
         value: Don't Know
 ---
