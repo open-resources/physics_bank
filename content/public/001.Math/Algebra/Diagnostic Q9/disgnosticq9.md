@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -4
-    l0: y
-    l1: x
-    l2: c
-    l3: r
+    num: -2
+    l0: k
+    l1: q
+    l2: o
+    l3: y
     part1:
       ans1:
-        value: c = ${ 4 r + \frac{x}{y}}$
+        value: o = ${ 2 y + \frac{q}{k}}$
       ans2:
-        value: c = ${- \frac{4 r y}{x}}$
+        value: o = ${- \frac{2 k y}{q}}$
       ans3:
-        value: c = ${- \frac{x}{4 r y}}$
+        value: o = ${- \frac{q}{2 k y}}$
       ans4:
-        value: c = ${\frac{4 r + y}{x}}$
+        value: o = ${\frac{k + 2 y}{q}}$
       ans5:
         value: Don't Know
 ---

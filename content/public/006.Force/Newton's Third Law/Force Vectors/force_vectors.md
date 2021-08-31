@@ -31,8 +31,9 @@ substitutions:
         value: If two objects push on each other, they will accelerate in opposite
           directions.
       ans2:
-        value: If two objects push on each other, their velocities will change by
-          the same amount (though opposite directions).
+        value: If you have a complicated system made of many objects (all interacting
+          among themselves) only external forces can cause the center of mass of the
+          system to accelerate.
       ans3:
         value: If two objects push on each other, their momenta will change by the
           same amount (though opposite directions).
@@ -41,9 +42,8 @@ substitutions:
           among themselves) only external forces can add or remove energy from the
           system.
       ans5:
-        value: If you have a complicated system made of many objects (all interacting
-          among themselves) only external forces can cause the center of mass of the
-          system to accelerate.
+        value: If two objects push on each other, their velocities will change by
+          the same amount (though opposite directions).
 ---
 # {{ params.vars.title }}
 

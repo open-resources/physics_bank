@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 5x - 6y = 25
-    formula2: 7x + 3y = 21
+    formula1: 7x - 10y = 9
+    formula2: 6x + 7y = 26
     part1:
       ans1:
-        value: ' x =67/19, y =-70/57'
+        value: ' x =243/82, y =101/86'
       ans2:
-        value: ' x =-70/57, y =67/19'
+        value: ' x =101/86, y =243/82'
       ans3:
-        value: ' x =-67/19, y =70/57'
+        value: ' x =-243/82, y =-101/86'
       ans4:
-        value: ' x =70/57, y =-67/19'
+        value: ' x =-101/86, y =-243/82'
       ans5:
         value: Don't Know
 ---
