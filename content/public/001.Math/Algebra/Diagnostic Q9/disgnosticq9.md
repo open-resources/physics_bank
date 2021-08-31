@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -5
-    l0: d
-    l1: y
-    l2: m
+    num: 6
+    l0: b
+    l1: i
+    l2: q
     l3: s
     part1:
       ans1:
-        value: m = ${ 5 s + \frac{y}{d}}$
+        value: q = ${ - 6 s + \frac{i}{b}}$
       ans2:
-        value: m = ${- \frac{5 d s}{y}}$
+        value: q = ${\frac{6 b s}{i}}$
       ans3:
-        value: m = ${- \frac{y}{5 d s}}$
+        value: q = ${\frac{i}{6 b s}}$
       ans4:
-        value: m = ${\frac{d + 5 s}{y}}$
+        value: q = ${\frac{b - 6 s}{i}}$
       ans5:
         value: Don't Know
 ---
