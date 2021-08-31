@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 4x - 8y = 25
-    formula2: 9x + 7y = 1
+    formula1: 4x - 6y = 31
+    formula2: 7x + 4y = 9
     part1:
       ans1:
-        value: ' x =183/100, y =-221/100'
+        value: ' x =89/29, y =-181/58'
       ans2:
-        value: ' x =-221/100, y =183/100'
+        value: ' x =-181/58, y =89/29'
       ans3:
-        value: ' x =-183/100, y =221/100'
+        value: ' x =-89/29, y =181/58'
       ans4:
-        value: ' x =221/100, y =-183/100'
+        value: ' x =181/58, y =-89/29'
       ans5:
         value: Don't Know
 ---

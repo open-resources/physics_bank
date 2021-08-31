@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -5
-    l0: t
+    num: -4
+    l0: j
     l1: f
-    l2: l
-    l3: b
+    l2: q
+    l3: v
     part1:
       ans1:
-        value: l = ${ 5 b + \frac{f}{t}}$
+        value: q = ${ \frac{f}{j} + 4 v}$
       ans2:
-        value: l = ${- \frac{5 b t}{f}}$
+        value: q = ${- \frac{4 j v}{f}}$
       ans3:
-        value: l = ${- \frac{f}{5 b t}}$
+        value: q = ${- \frac{f}{4 j v}}$
       ans4:
-        value: l = ${\frac{5 b + t}{f}}$
+        value: q = ${\frac{j + 4 v}{f}}$
       ans5:
         value: Don't Know
 ---

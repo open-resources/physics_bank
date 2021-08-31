@@ -23,21 +23,21 @@ part1:
 substitutions:
   params:
     vars:
-      name: Lorenzo
-      vehicle: a skateboard
+      name: Ahmed
+      vehicle: a bicycle
       units: m
       title: Distance travelled
-    v: 6
-    t: 9
+    v: 7
+    t: 10
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 54
+        value: 70
       ans3:
-        value: 15
+        value: 17
       ans4:
-        value: 0.67
+        value: 0.7
       ans5:
         value: -3
       ans6:

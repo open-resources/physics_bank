@@ -39,9 +39,9 @@ substitutions:
   params:
     vars:
       title: Wire in an external magnetic field
-    I: '25.0'
-    Bext: '55.0'
-    d: '27.0'
+    I: '23.5'
+    Bext: '47.0'
+    d: '19.5'
 ---
 # {{ params.vars.title }}
 A long, straight, horizontal wire carries a left-to-right current of ${{ params.I }}\rm\ A$.The wire is placed in a uniform magnetic field of magnitude ${{ params.Bext }}~\mu\mathrm{T}$ that is directed vertically downward.
