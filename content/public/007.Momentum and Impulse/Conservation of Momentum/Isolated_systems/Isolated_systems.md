@@ -33,10 +33,10 @@ substitutions:
       ans2:
         value: A system is isolated if its total momentum is constant
       ans3:
-        value: A system is isolated if all of the external forces on it are balanced
-      ans4:
         value: A system is isolated if its center of mass is moving with constant
           velocity
+      ans4:
+        value: A system is isolated if all of the external forces on it are balanced
 ---
 # {{ params.vars.title }}
 

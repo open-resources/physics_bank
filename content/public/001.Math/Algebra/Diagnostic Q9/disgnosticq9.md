@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -10
-    l0: q
-    l1: h
-    l2: c
-    l3: j
+    num: 8
+    l0: r
+    l1: x
+    l2: z
+    l3: h
     part1:
       ans1:
-        value: c = ${ \frac{h}{q} + 10 j}$
+        value: z = ${ - 8 h + \frac{x}{r}}$
       ans2:
-        value: c = ${- \frac{10 j q}{h}}$
+        value: z = ${\frac{8 h r}{x}}$
       ans3:
-        value: c = ${- \frac{h}{10 j q}}$
+        value: z = ${\frac{x}{8 h r}}$
       ans4:
-        value: c = ${\frac{10 j + q}{h}}$
+        value: z = ${\frac{- 8 h + r}{x}}$
       ans5:
         value: Don't Know
 ---
