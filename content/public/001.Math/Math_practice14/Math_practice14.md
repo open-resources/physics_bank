@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 14
-    num: 6
-    denom: 4
+    num: 5
+    denom: 6
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt[4]{x^{6}}}\end{equation}
+        value: \begin{equation}\frac{1}{\sqrt[6]{x^{5}}}\end{equation}
       ans2:
-        value: \begin{equation}\sqrt[4]{x^{6}}\end{equation}
+        value: \begin{equation}\sqrt[6]{x^{5}}\end{equation}
       ans3:
-        value: \begin{equation}x^{\frac{3}{2}}\end{equation}
+        value: \begin{equation}x^{\frac{5}{6}}\end{equation}
       ans4:
-        value: \begin{equation}- \frac{1}{\sqrt[4]{x^{6}}}\end{equation}
+        value: \begin{equation}- \frac{1}{\sqrt[6]{x^{5}}}\end{equation}
       ans5:
         value: Do not know
 ---

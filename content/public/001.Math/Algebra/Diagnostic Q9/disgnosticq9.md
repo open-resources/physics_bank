@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -10
-    l0: j
-    l1: s
-    l2: i
-    l3: m
+    num: 8
+    l0: v
+    l1: c
+    l2: t
+    l3: w
     part1:
       ans1:
-        value: i = ${ 10 m + \frac{s}{j}}$
+        value: t = ${ \frac{c}{v} - 8 w}$
       ans2:
-        value: i = ${- \frac{10 j m}{s}}$
+        value: t = ${\frac{8 v w}{c}}$
       ans3:
-        value: i = ${- \frac{s}{10 j m}}$
+        value: t = ${\frac{c}{8 v w}}$
       ans4:
-        value: i = ${\frac{j + 10 m}{s}}$
+        value: t = ${\frac{v - 8 w}{c}}$
       ans5:
         value: Don't Know
 ---
