@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -2
-    l0: o
-    l1: v
-    l2: r
-    l3: d
+    num: 4
+    l0: i
+    l1: b
+    l2: o
+    l3: n
     part1:
       ans1:
-        value: r = ${ 2 d + \frac{v}{o}}$
+        value: o = ${ \frac{b}{i} - 4 n}$
       ans2:
-        value: r = ${- \frac{2 d o}{v}}$
+        value: o = ${\frac{4 i n}{b}}$
       ans3:
-        value: r = ${- \frac{v}{2 d o}}$
+        value: o = ${\frac{b}{4 i n}}$
       ans4:
-        value: r = ${\frac{2 d + o}{v}}$
+        value: o = ${\frac{i - 4 n}{b}}$
       ans5:
         value: Don't Know
 ---

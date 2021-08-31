@@ -39,8 +39,8 @@ substitutions:
   params:
     vars:
       title: Particle between charged plates
-    sig: '26'
-    d: '3.6'
+    sig: '18'
+    d: '4.2'
     particle: An electron
     particle1: electron
     p1: negative
