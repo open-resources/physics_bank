@@ -25,19 +25,19 @@ substitutions:
   params:
     vars:
       title: Rational Equation
-    x1: 6
-    x2: 5
-    x3: 5
-    x4: 5
+    x1: 5
+    x2: 7
+    x3: 2
+    x4: 8
     part1:
       ans1:
-        value: 5/21
+        value: -23/11
       ans2:
-        value: 5/21
+        value: 19/22
       ans3:
-        value: '5'
+        value: '-23'
       ans4:
-        value: -5/21
+        value: -19/22
 ---
 # {{ params.vars.title }}
 

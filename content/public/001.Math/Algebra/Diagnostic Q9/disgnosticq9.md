@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 8
-    l0: y
-    l1: a
-    l2: p
-    l3: i
+    num: -3
+    l0: p
+    l1: c
+    l2: k
+    l3: b
     part1:
       ans1:
-        value: p = ${ \frac{a}{y} - 8 i}$
+        value: k = ${ 3 b + \frac{c}{p}}$
       ans2:
-        value: p = ${\frac{8 i y}{a}}$
+        value: k = ${- \frac{3 b p}{c}}$
       ans3:
-        value: p = ${\frac{a}{8 i y}}$
+        value: k = ${- \frac{c}{3 b p}}$
       ans4:
-        value: p = ${\frac{- 8 i + y}{a}}$
+        value: k = ${\frac{3 b + p}{c}}$
       ans5:
         value: Don't Know
 ---
