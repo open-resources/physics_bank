@@ -28,16 +28,16 @@ substitutions:
       title: Block on a Ramp
     m: 3
     theta: 29
-    mu: 0.9
+    mu: 0.8
     part1:
       ans1:
         value: 14.0 $N$, up the incline
       ans2:
         value: 26.0 $N$, up the incline
       ans3:
-        value: 13.0 $N$, down the incline
+        value: 11.0 $N$, down the incline
       ans4:
-        value: 23.0 $N$, down the incline
+        value: 21.0 $N$, down the incline
       ans5:
         value: 14.0 $N$, down the incline
 ---

@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -3
-    l0: d
-    l1: f
-    l2: g
-    l3: p
+    num: 6
+    l0: z
+    l1: p
+    l2: d
+    l3: l
     part1:
       ans1:
-        value: g = ${ 3 p + \frac{f}{d}}$
+        value: d = ${ - 6 l + \frac{p}{z}}$
       ans2:
-        value: g = ${- \frac{3 d p}{f}}$
+        value: d = ${\frac{6 l z}{p}}$
       ans3:
-        value: g = ${- \frac{f}{3 d p}}$
+        value: d = ${\frac{p}{6 l z}}$
       ans4:
-        value: g = ${\frac{d + 3 p}{f}}$
+        value: d = ${\frac{- 6 l + z}{p}}$
       ans5:
         value: Don't Know
 ---
