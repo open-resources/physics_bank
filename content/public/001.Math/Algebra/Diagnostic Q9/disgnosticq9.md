@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 9
-    l0: d
-    l1: g
+    num: -8
+    l0: m
+    l1: q
     l2: z
-    l3: s
+    l3: i
     part1:
       ans1:
-        value: z = ${ - 9 s + \frac{g}{d}}$
+        value: z = ${ 8 i + \frac{q}{m}}$
       ans2:
-        value: z = ${\frac{9 d s}{g}}$
+        value: z = ${- \frac{8 i m}{q}}$
       ans3:
-        value: z = ${\frac{g}{9 d s}}$
+        value: z = ${- \frac{q}{8 i m}}$
       ans4:
-        value: z = ${\frac{d - 9 s}{g}}$
+        value: z = ${\frac{8 i + m}{q}}$
       ans5:
         value: Don't Know
 ---

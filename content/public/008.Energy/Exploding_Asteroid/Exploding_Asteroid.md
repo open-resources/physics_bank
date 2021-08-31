@@ -26,15 +26,15 @@ substitutions:
   params:
     vars:
       title: Exploding Asteroid
-      name: Santiago
-      name2: Mateo
+      name: Mateo
+      name2: Ahmed
     part1:
       ans1:
-        value: The FORCE vector they determine that each piece of the asteroid felt
-          during the explosion will be the same.
-      ans2:
-        value: They will both agree on how the kinetic energy of each of the pieces
+        value: They will both agree on how the TOTAL kinetic energy of the system
           has changed.
+      ans2:
+        value: The momentum vectors they use to describe each of the two asteroid
+          pieces will be the same.
       ans3:
         value: The total momentum vectors they use to describe the asteroid system
           (both pieces) will be the same.

@@ -26,16 +26,16 @@ substitutions:
     vars:
       title: Math Practice 13
     a: 2
-    b: 4
+    b: 3
     part1:
       ans1:
-        value: $z^{-2}$
+        value: $z^{-1}$
       ans2:
-        value: $z^{2}$
+        value: $z^{1}$
       ans3:
-        value: -2z
+        value: -1z
       ans4:
-        value: (1/2)z
+        value: (2/3)z
       ans5:
         value: Don't Know
 ---
