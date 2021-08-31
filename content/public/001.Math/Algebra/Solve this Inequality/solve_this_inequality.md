@@ -25,16 +25,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 6x + -10 > -2x + 9
+      formula: 5x + -10 > -2x + 8
     part1:
       ans1:
-        value: x > 19/8
+        value: x > 18/7
       ans2:
-        value: x < 19/8
+        value: x < 18/7
       ans3:
-        value: x < 8/19
+        value: x < 7/18
       ans4:
-        value: x > 8/19
+        value: x > 7/18
       ans5:
         value: Don't Know
 ---
