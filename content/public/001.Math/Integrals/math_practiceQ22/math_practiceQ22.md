@@ -25,17 +25,17 @@ substitutions:
   params:
     vars:
       title: Math Practice Q22
-    denom: 3
-    formula: $\cos{\left(\frac{x}{3} \right)}$
+    denom: 8
+    formula: $\sin{\left(\frac{x}{8} \right)}$
     part1:
       ans1:
-        value: ${3 \sin{\left(\frac{x}{3} \right)}}$
+        value: ${- 8 \cos{\left(\frac{x}{8} \right)}}$
       ans2:
-        value: ${- 3 \sin{\left(\frac{x}{3} \right)}}$
+        value: ${8 \cos{\left(\frac{x}{8} \right)}}$
       ans3:
-        value: ${6 \sin{\left(\frac{x}{3} \right)}}$
+        value: ${- 16 \cos{\left(\frac{x}{8} \right)}}$
       ans4:
-        value: ${\frac{3 \sin{\left(\frac{x}{3} \right)}}{2}}$
+        value: ${- 4 \cos{\left(\frac{x}{8} \right)}}$
 ---
 # {{ params.vars.title }}
 

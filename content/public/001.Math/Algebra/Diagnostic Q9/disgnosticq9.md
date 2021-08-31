@@ -25,20 +25,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -6
-    l0: d
-    l1: v
-    l2: i
+    num: -9
+    l0: w
+    l1: o
+    l2: b
     l3: n
     part1:
       ans1:
-        value: i = ${ 6 n + \frac{v}{d}}$
+        value: b = ${ 9 n + \frac{o}{w}}$
       ans2:
-        value: i = ${- \frac{6 d n}{v}}$
+        value: b = ${- \frac{9 n w}{o}}$
       ans3:
-        value: i = ${- \frac{v}{6 d n}}$
+        value: b = ${- \frac{o}{9 n w}}$
       ans4:
-        value: i = ${\frac{d + 6 n}{v}}$
+        value: b = ${\frac{9 n + w}{o}}$
       ans5:
         value: Don't Know
 ---
