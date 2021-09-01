@@ -35,14 +35,14 @@ substitutions:
     vars:
       title: Internal Energy Released
       units: $J$
-    v: -4.14
+    v: -4.45
 ---
 # {{ params.vars.title }}
 A  uranium-238  atom  can  break  up  into  a  thorium-234  atom  and  a  particle  called  an *alpha particle*, $\alpha$-4.  The numbers indicate the masses of the atoms and alpha particle in atomic mass units (1 amu = $1.55\times 10^{-27}$ kg).  So, for example, the uranium atom has a mass of 238 amu.
 
 ## Part 1
 
-When a uranium atom breaks up,  the thorium atom is observed to recoil with a velocity of $ {{ params.v }} \times 10^5$ $m/s$. How much of the uranium atom's internal energy is released in the breakup? Assume that the uranium atom was initially at rest.
+When a uranium atom breaks up,  the thorium atom is observed to recoil with a velocity of {{ params.v }}$\times 10^5$ $m/s$. How much of the uranium atom's internal energy is released in the breakup? Assume that the uranium atom was initially at rest.
 
 ### Answer Section
 

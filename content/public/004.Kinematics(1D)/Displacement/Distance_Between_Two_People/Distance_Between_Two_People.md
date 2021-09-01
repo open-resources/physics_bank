@@ -30,43 +30,43 @@ substitutions:
     vars:
       title: Distance Between Two People
       units: $m$
-      name1: Ximena
-      name2: Santiago
-    s: 3
-    ai_1: 2
-    ai_2: 2
+      name1: Ahmed
+      name2: Emilia
+    s: 2
+    ai_1: 1
+    ai_2: 3
     ai_3: 3
     aj_1: 4
-    aj_2: 3
+    aj_2: 2
     aj_3: 2
-    bi_1: 3
+    bi_1: 5
     bi_2: 3
-    bi_3: 1
+    bi_3: 2
     bj_1: 6
-    bj_2: 3
-    bj_3: 3
+    bj_2: 2
+    bj_3: 2
     part1:
       ans1:
-        value: 52.0
+        value: 20.0
       ans2:
-        value: 26.0
+        value: 9.8
       ans3:
-        value: 2700.0
+        value: 390.0
       ans4:
-        value: 41.0
+        value: 16.0
       ans5:
-        value: 1700.0
+        value: 250.0
 ---
 # {{ params.vars.title }}
 The position of {{ params.vars.name1 }} as a function of time is given by:
 
-$\vec{r}\_A = ({{ params.ai_1 }}+{{ params.ai_2 }}t-{{ params.ai_3 }}t^2)\hat{\imath} + ({{ params.aj_2 }}+{{ params.aj_3 }}t-{{ params.aj_1 }}t^2)\hat{\jmath}$
+$\vec{r_A} =$ ({{ params.ai_1 }}$+${{ params.ai_2 }}$t-${{ params.ai_3 }}$t^2)\hat{\imath} + (${{ params.aj_2 }}$+${{ params.aj_3 }}$t-${{ params.aj_1 }}$t^2)\hat{\jmath}$
 
 {{ params.vars.name2 }}'s position is given by:
 
-$\vec{r}\_B = ({{ params.bi_1 }}+{{ params.bi_2 }}t-{{ params.bi_3 }}t^2)\hat{\imath} + ({{ params.bj_1 }}+{{ params.bj_2 }}t+{{ params.bj_3 }}t^2)\hat{\jmath}$
+$\vec{r_B} =$ ({{ params.bi_1 }}$+${{ params.bi_2 }}$t-${{ params.bi_3 }}$t^2)\hat{\imath} + (${{ params.bj_1 }}$+${{ params.bj_2 }}$t+${{ params.bj_3 }}$t^2)\hat{\jmath}$.
 
-The positions $\vec{r}\_A$ and $\vec{r}\_B$ are in meters and $t$ is in seconds.
+The positions $\vec{r_A}$ and $\vec{r_B}$ are in meters and $t$ is in seconds.
 
 ## Part 1
 

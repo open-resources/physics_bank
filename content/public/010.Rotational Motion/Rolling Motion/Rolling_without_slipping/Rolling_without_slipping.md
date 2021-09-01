@@ -28,6 +28,7 @@ substitutions:
   params:
     vars:
       title: Rolling without slipping
+      name: Santiago
     part1:
       ans1:
         value: The hoop, because it has less rotational intera, less of its total
@@ -44,8 +45,8 @@ substitutions:
         value: There is not enough information to answer this question.
 ---
 # {{ params.vars.title }}
-Suppose I have a sphere (made of solid wood), and a hoop made of heavy metal; and both have the SAME MASS, and both have the SAME RADIUS.
-I decide to race the two of them, and let them roll from rest down a flat ramp.
+Suppose {{ params.vars.name }} has a sphere (made of solid wood), and a hoop made of heavy metal; and both have the SAME MASS, and both have the SAME RADIUS.
+{{ params.vars.name }} decides to race the two of them, and let them roll from rest down a flat ramp.
 
 ## Part 1
 

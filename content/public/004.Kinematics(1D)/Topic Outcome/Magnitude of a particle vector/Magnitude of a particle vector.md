@@ -34,16 +34,16 @@ substitutions:
     vars:
       title: The Magnitude of a Particle's Vector
       units: $m/s^2$
-    r_i: -4t^3 + 4t^2 - 3t
-    r_j: -7t^2 - 3t
-    t: 5
+    r_i: 2t^2 + 9t
+    r_j: 6t^3 + 7t^2 + 8t
+    t: 20
     choice: velocity
 ---
 # {{ params.vars.title }}
 
 ## Question Text
 
-A particle has a trajectory given as $\vec{r} = ({{ params.r_i }}) \hat{\imath} + ({{ params.r_j }}) \hat{\jmath}$ m for $t$ given in seconds. What is the magnitude of the {{ params.choice }} vector for this particle at $t = $ {{ params.t }} s?
+A particle has a trajectory given as $\vec{r} = (${{ params.r_i }}$) \hat{\imath} + (${{ params.r_j }}$) \hat{\jmath}$ $m$ for $t$ given in seconds. What is the magnitude of the {{ params.choice }} vector for this particle at $t = $ {{ params.t }} s?
 
 ### Answer Section
 

@@ -42,14 +42,14 @@ substitutions:
   params:
     vars:
       title: Charging a Capacitor
-    c: '2.6'
+    c: '4.7'
     v: '80'
 ---
 # {{ params.vars.title }}
 
 ## Question Text
 
-A set of parallel plates has a capacitance of ${{params.c }}\rm\ \mu\textrm{F}$. How much charge must be added to the plates to increase the potential difference between them by ${{params.v }}\textrm{ V}$?
+A set of parallel plates has a capacitance of {{params.c }}$\rm\ \mu\textrm{F}$. How much charge must be added to the plates to increase the potential difference between them by {{params.v }}$\textrm{ V}$?
 
 ### Answer Section
 

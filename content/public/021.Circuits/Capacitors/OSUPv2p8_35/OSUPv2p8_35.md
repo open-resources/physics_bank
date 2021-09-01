@@ -55,11 +55,12 @@ substitutions:
   params:
     vars:
       title: Connecting Capacitors
-    a: '11'
-    b: '5'
+      name: Savannah
+    a: '6'
+    b: '4'
 ---
 # {{ params.vars.title }}
-You have a ${{params.a }} \rm\ \mu\textrm{F}$ capacitor and a ${{params.b }} \rm\ \mu\textrm{F}$ capacitor.
+{{ params.vars.name }} has a {{params.a }} $\rm\ \mu\textrm{F}$ capacitor and a {{params.b }} $\rm\ \mu\textrm{F}$ capacitor.
 
 ## Part 1
 

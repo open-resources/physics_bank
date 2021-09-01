@@ -29,17 +29,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 9x - 4y = 36
-    formula2: 9x + 10y = 43
+    formula1: 7x - 2y = 48
+    formula2: 9x + 6y = 24
     part1:
       ans1:
-        value: ' x =38/9, y =1/2'
+        value: ' x =28/5, y =-22/5'
       ans2:
-        value: ' x =1/2, y =38/9'
+        value: ' x =-22/5, y =28/5'
       ans3:
-        value: ' x =-38/9, y =-1/2'
+        value: ' x =-28/5, y =22/5'
       ans4:
-        value: ' x =-1/2, y =-38/9'
+        value: ' x =22/5, y =-28/5'
       ans5:
         value: Don't Know
 ---

@@ -30,8 +30,9 @@ substitutions:
   params:
     vars:
       title: Resistors in a Lab
-    have: smaller
-    want: larger
+      name: Maya
+    have: larger
+    want: smaller
     part1:
       ans1:
         value: Connect multiple resistors in parallel
@@ -41,11 +42,11 @@ substitutions:
         value: It is not possible to achieve the desired resistance
 ---
 # {{ params.vars.title }}
-Suppose you are doing a physics lab that asks you to put a resistor into a circuit, but all the resistors supplied have a {{ params.have }} resistance than the requested value.
+Suppose {{ params.vars.name }} is doing a physics lab that asks them to put a resistor into a circuit, but all the resistors supplied have a {{ params.have }} resistance than the requested value.
 
 ## Part 1
 
-How would you connect the available resistances to attempt to get the {{ params.want }} value asked for?
+How would {{ params.vars.name }} connect the available resistances to attempt to get the {{ params.want }} value asked for?
 
 ### Answer Section
 

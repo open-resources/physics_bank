@@ -32,7 +32,7 @@ substitutions:
   params:
     vars:
       title: Displacement and Potential Energy of an Oscillator
-    choice: a quarter
+    choice: one-eighth
 ---
 # {{ params.vars.title }}
 

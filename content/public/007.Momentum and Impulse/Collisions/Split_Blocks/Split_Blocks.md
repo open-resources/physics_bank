@@ -39,15 +39,15 @@ substitutions:
     vars:
       title: Split Blocks
       units: $J$
-    m: 8
-    m_a: 5
+    m: 9
+    m_a: 6
     m_b: 3
-    v_a: 5.1
+    v_a: 5.8
 ---
 # {{ params.vars.title }}
 A {{params.m}} $kg$ block is initially at rest on a sheet of ice.
 An internal explosion occurs, splitting the object into two pieces of masses $m_A$ = {{params.m_a}} $kg$ and $m_B$ = {{params.m_b}} $kg$.
-After the explosion, block A is measured to have a velocity of $\vec{v}\_A$ = {{params.v_a}} $m/s$
+After the explosion, block A is measured to have a velocity of $\vec{v_A}$ = {{params.v_a}} $m/s$
 
 ## Question Text
 

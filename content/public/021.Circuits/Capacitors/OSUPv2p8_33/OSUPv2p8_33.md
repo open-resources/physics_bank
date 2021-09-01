@@ -45,15 +45,15 @@ substitutions:
   params:
     vars:
       title: Equivalent Capacitance
-    a: '6'
-    b: '3.0'
-    c: '0.9'
+    a: '5'
+    b: '1.5'
+    c: '0.4'
 ---
 # {{ params.vars.title }}
 
 ## Question Text
 
-Find the total capacitance of this combination of series and parallel capacitors shown below. Use the following values: $A = {{params.a }}$, $B = {{params.b }}$, and $C = {{params.c }}$.
+Find the total capacitance of this combination of series and parallel capacitors shown below. Use the following values: $A =$ {{params.a }}, $B =$ {{params.b }}, and $C =$ {{params.c }}.
 
 <img src="Fig8_33.png">
 

@@ -53,13 +53,13 @@ part4:
 substitutions:
   params:
     vars:
-      name: Ximena
+      name: Santiago
       title: Motion of watermelon
       units1: ${m/s}^2$
       units2: $s$
     a: 2
-    b: 6
-    c: 5
+    b: 8
+    c: 9
     part4:
       ans1:
         value: The speed is increasing
@@ -70,7 +70,7 @@ substitutions:
 ---
 # {{ params.vars.title }}
 The position of a watermelon is given by:
-$x(t) = {{ params.a }}t^2 - {{ params.b}}t - {{ params.c }}$
+$x(t) =$ {{ params.a }}$t^2 - ${{ params.b}}$t - ${{ params.c }}
 where $x$ is in meters and $t$ is in seconds.
 
 ## Part 1

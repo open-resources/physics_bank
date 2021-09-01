@@ -35,14 +35,14 @@ substitutions:
   params:
     vars:
       title: Ball on a Slanted Table
-      units: m/s
-    d: 2.8
-    theta: 21
+      units: $m/s$
+    d: 2.4
+    theta: 35
 ---
 # {{ params.vars.title }}
-A ball is launched with an initial velocity of $\vec{v}\_0$ from one corner of a smooth, flat board.
-The angle launch is $\theta$ = {{params.theta}}$^o$.
-As shown, the board has a width of {{params.d}} $m$ and is tilted up at a 20.0$^o$ angle.
+A ball is launched with an initial velocity of $\vec{v_0}$ from one corner of a smooth, flat board.
+The angle launch is $\theta$ = {{params.theta}}$^{\circ}$.
+As shown, the board has a width of {{params.d}} $m$ and is tilted up at a 20.0$^{\circ}$ angle.
 
 <img src="Q4.png" width=300 alt="A table of width d is slanted at 20 degrees. A ball is launched from the bottom left corner towards the bottom right corner at and angle theta." >
 

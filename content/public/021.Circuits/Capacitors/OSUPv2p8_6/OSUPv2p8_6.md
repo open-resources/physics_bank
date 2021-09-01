@@ -39,6 +39,7 @@ substitutions:
   params:
     vars:
       title: Maximizing Charge in a Capacitor Bank
+      name: Emilia
     part1:
       ans1:
         value: Parallel
@@ -51,7 +52,7 @@ substitutions:
 
 ## Part 1
 
-If you wish to store a large amount of charge in a capacitor bank, would you connect the capacitors in series or parallel?
+If {{ params.vars.name }} wishes to store a large amount of charge in a capacitor bank, would they connect the capacitors in series or parallel?
 
 ### Answer Section
 

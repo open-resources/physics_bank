@@ -30,18 +30,18 @@ substitutions:
     vars:
       title: Math Practice Q10
     a: -10
-    b: '7'
-    b_sign: ' - '
-    c: 2
+    b: '6'
+    b_sign: ' + '
+    c: -6
     part1:
       ans1:
-        value: ' - 12/7'
+        value: '  4/6'
       ans2:
-        value: '  12/7'
+        value: ' - 4/6'
       ans3:
-        value: 19
+        value: -2
       ans4:
-        value: -1
+        value: -22
       ans5:
         value: This equation cannot be solved
 ---

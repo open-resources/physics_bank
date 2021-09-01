@@ -43,15 +43,15 @@ substitutions:
   params:
     vars:
       title: Particle between charged plates
-    sig: '20'
-    d: '4.6'
-    particle: A proton
-    particle1: proton
-    p1: positive
-    p2: negative
+    sig: '10'
+    d: '4.4'
+    particle: An electron
+    particle1: electron
+    p1: negative
+    p2: positive
 ---
 # {{ params.vars.title }}
-Two large plates of charge density ${{ params.sig }}\rm\ \mu C/m^2$ face each other at a separation of ${{ params.d }} \textrm{ mm}$.
+Two large plates of charge density {{ params.sig }}$\rm\ \mu C/m^2$ face each other at a separation of {{ params.d }}$ \textrm{ mm}$.
 {{ params.particle }} is released from rest at the {{ params.p1 }} plate.
 
 ## Question Text

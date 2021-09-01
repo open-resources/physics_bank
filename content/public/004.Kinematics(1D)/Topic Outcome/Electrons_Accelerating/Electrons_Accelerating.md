@@ -29,19 +29,19 @@ substitutions:
     vars:
       title: Electrons Accelerating
       units: $m$
-    dist: 12
-    acc: 2
+    dist: 19
+    acc: 3
     part1:
       ans1:
-        value: 12
+        value: 19
       ans2:
-        value: 24.0
+        value: 57.0
       ans3:
-        value: 48.0
+        value: 170.0
       ans4:
-        value: 6.0
+        value: 6.3
       ans5:
-        value: 0.17
+        value: 0.16
 ---
 # {{ params.vars.title }}
 An electron accelerated (with acceleration $a_1$) from rest for a time interval $t_1$ and travels a distance of {{params.dist}} $m$.

@@ -44,6 +44,7 @@ substitutions:
 ---
 # {{ params.vars.title }}
 <img src="Q1&Q2image.png" alt = "A graph of velocity versus time. At 0 seconds, the velocity is 4 meters per second. At 1 second, the veleocity decreases to 1 meter per second. The velocity increases and at 3 seconds the velocity is 3 meters per second. From 3 to 5 seconds, the velocity is 3 meters per second. The graph has a point labelled A and C. A is labelled at 1 second, with a velocity of 1 meters per second. C is labelled at 4 seconds with a velocity of 3 meters per second." width = 300>
+
 ## Part 1
 
 What is the acceleration of the object at point A?

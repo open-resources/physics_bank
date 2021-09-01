@@ -29,20 +29,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 3
-    l0: q
-    l1: a
-    l2: l
-    l3: j
+    num: 10
+    l0: z
+    l1: t
+    l2: n
+    l3: d
     part1:
       ans1:
-        value: l = ${ \frac{a}{q} - 3 j}$
+        value: n = ${ - 10 d + \frac{t}{z}}$
       ans2:
-        value: l = ${\frac{3 j q}{a}}$
+        value: n = ${\frac{10 d z}{t}}$
       ans3:
-        value: l = ${\frac{a}{3 j q}}$
+        value: n = ${\frac{t}{10 d z}}$
       ans4:
-        value: l = ${\frac{- 3 j + q}{a}}$
+        value: n = ${\frac{- 10 d + z}{t}}$
       ans5:
         value: Don't Know
 ---

@@ -41,14 +41,14 @@ substitutions:
   params:
     vars:
       title: Area of Capacitor Plates
-    c: '1.9'
-    d: '2.1'
+    c: '3.7'
+    d: '3.0'
 ---
 # {{ params.vars.title }}
 
 ## Question Text
 
-The plates of an empty parallel-plate capacitor of capacitance ${{params.c }}\textrm{ pF}$ are ${{params.d }}\textrm{ mm}$ apart. What is the area of each plate?
+The plates of an empty parallel-plate capacitor of capacitance {{params.c }}$\textrm{ pF}$ are {{params.d }}$\textrm{ mm}$ apart. What is the area of each plate?
 
 ### Answer Section
 
