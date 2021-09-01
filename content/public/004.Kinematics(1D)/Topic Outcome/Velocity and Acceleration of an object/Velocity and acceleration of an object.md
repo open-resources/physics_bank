@@ -1,12 +1,13 @@
 ---
-title: Shooting a Steel Ball
-topic: Kinematics(2D and 3D)
+title: Velocity and Acceleration of an Object
+topic: Kinematics(1D)
 author: John Hopkinson
-source: PHYS 112 2018W1 Practice Final Q1
-template_version: 1.1
+source: PHYS 112 2019W1 Practice Final Q2
+template_version: 1.2
 attribution: standard
 outcomes:
-- 5.5.1.0
+- 4.6.3.0
+- 4.7.3.0
 difficulty:
 - undefined
 randomization:
@@ -27,29 +28,29 @@ part1:
 substitutions:
   params:
     vars:
-      title: Shooting a Steel Ball
-    v: 4
-    theta: 28
+      title: Velocity and Acceleration of an Object
+    v: $-5t^3 + 7t^2 - 6t$
+    time: 8.07
     part1:
       ans1:
-        value: $(4\cos(28^{\circ}), \; -4\sin(28^{\circ}))$
+        value: $v = $ -2220.0 $m/s$, $a = $ -870.0 $m/s^2$
       ans2:
-        value: $(4\cos(28^{\circ}), \;4\sin(28^{\circ}))$
+        value: $v = $ -2220.0 $m/s$, $a = $ 0 $m/s^2$
       ans3:
-        value: $(4\sin(28^{\circ}), \; -4\cos(28^{\circ}))$
+        value: $v = $ -2220.0 $m/s$, $a = $ 9.81 $m/s^2$
       ans4:
-        value: $(4\sin(28^{\circ}), \;4\cos(28^{\circ}))$
+        value: $v = $ 8.07 $m/s$, $a = $ -435.0 $m/s^2$
       ans5:
-        value: $(-4\cos(28^{\circ}), \; -4\sin(28^{\circ}))$
+        value: $v = $ -2220.0 $m/s$, $a = $ 870.0 $m/s^2$
       ans6:
-        value: $(-4\sin(28^{\circ}), \;4\cos(28^{\circ}))$
+        value: $v = $ -2220.0 $m/s$, $a = $ -1740.0 $m/s^2$
 ---
 # {{ params.vars.title }}
-A small steel ball is shot at {{ params.v }} $m/s$ at a {{ params.theta }}$^{\circ}$ angle above the horizontal direction and its motion is well approximated by projectile motion.
+If the velocity of an object in one-dimensional motion is given by $v(t) = $ {{ params.v }}, where the units of $v$ are in $m/s$ and of $t$ are in seconds,
 
 ## Part 1
 
-When the ball returns to its original height, its velocity $\overrightarrow{v} = (v_x, v_y)$ is:
+The velocity and acceleration of the object at $t = $ {{ params.time }} $s$ are:
 
 ### Answer Section
 

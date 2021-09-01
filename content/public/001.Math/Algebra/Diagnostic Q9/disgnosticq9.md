@@ -29,20 +29,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -3
-    l0: w
-    l1: c
-    l2: f
-    l3: p
+    num: 3
+    l0: q
+    l1: a
+    l2: l
+    l3: j
     part1:
       ans1:
-        value: f = ${ \frac{c}{w} + 3 p}$
+        value: l = ${ \frac{a}{q} - 3 j}$
       ans2:
-        value: f = ${- \frac{3 p w}{c}}$
+        value: l = ${\frac{3 j q}{a}}$
       ans3:
-        value: f = ${- \frac{c}{3 p w}}$
+        value: l = ${\frac{a}{3 j q}}$
       ans4:
-        value: f = ${\frac{3 p + w}{c}}$
+        value: l = ${\frac{- 3 j + q}{a}}$
       ans5:
         value: Don't Know
 ---

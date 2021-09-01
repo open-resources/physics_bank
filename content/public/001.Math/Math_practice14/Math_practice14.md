@@ -30,16 +30,16 @@ substitutions:
     vars:
       title: Math Practice 14
     num: 7
-    denom: 5
+    denom: 8
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt[5]{x^{7}}}\end{equation}
+        value: \begin{equation}\frac{1}{\sqrt[8]{x^{7}}}\end{equation}
       ans2:
-        value: \begin{equation}\sqrt[5]{x^{7}}\end{equation}
+        value: \begin{equation}\sqrt[8]{x^{7}}\end{equation}
       ans3:
-        value: \begin{equation}x^{\frac{7}{5}}\end{equation}
+        value: \begin{equation}x^{\frac{7}{8}}\end{equation}
       ans4:
-        value: \begin{equation}- \frac{1}{\sqrt[5]{x^{7}}}\end{equation}
+        value: \begin{equation}- \frac{1}{\sqrt[8]{x^{7}}}\end{equation}
       ans5:
         value: Do not know
 ---
