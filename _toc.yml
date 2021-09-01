@@ -93,6 +93,8 @@ parts:
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Throwing Stones/Throwing
       stones
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Kicked_Soccer_Ball/Kicked_Soccer_Ball
+  - file: content/public/004.Kinematics(1D)/Topic Outcome/Velocity and Acceleration
+      of an object/Velocity and acceleration of an object
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Motion_of_watermelon/Motion_of_watermelon
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Victoria Falls/Victoria
       Falls
@@ -104,6 +106,7 @@ parts:
       Time/Acceleration, Velocity and Time
   - file: content/public/004.Kinematics(1D)/Topic Outcome/A Coyote and a Rat/A Coyote
       and a Rat
+  - file: content/public/004.Kinematics(1D)/Topic Outcome/Vehicle_Crash/Vehicle_Crash
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Electrons_Accelerating/Electrons_Accelerating
   - file: content/public/004.Kinematics(1D)/Motion Diagrams/Running_Dog/Running_Dog
   - file: content/public/004.Kinematics(1D)/Velocity/Velocity_From_Graph/Velocity_From_Graph
