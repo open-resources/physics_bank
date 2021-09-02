@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - MP
 assets: null
@@ -26,24 +30,24 @@ substitutions:
     vars:
       title: Force and Displacement
       units: J
-    f1: -8
-    f2: 5
-    r1: 12
-    r2: -7
+    f1: -9
+    f2: 4
+    r1: 17
+    r2: -18
     part1:
       ans1:
-        value: -131
+        value: -225
       ans2:
-        value: 131
+        value: 225
       ans3:
-        value: -61
+        value: -81
       ans4:
-        value: 61
+        value: 81
       ans5:
         value: Zero
 ---
 # {{ params.vars.title }}
-A constant force of $\vec{F}$  = ( {{params.f1}} $\hat{\imath}$ + {{params.f2}} $\hat{\jmath}$ ) N acts on an object during a displacement of $$\Delta$$ $\vec{r}$ = ({{params.r1}} $\hat{\imath}$  {{params.r2}} $\hat{\jmath}$ ) m.
+A constant force of $\vec{F}$  = ( {{params.f1}} $\hat{\imath}$ + {{params.f2}} $\hat{\jmath}$ ) N acts on an object during a displacement of $\Delta \vec{r} = (${{params.r1}} $\hat{\imath}$  {{params.r2}} $\hat{\jmath}$ ) m.
 
 ## Part 1
 

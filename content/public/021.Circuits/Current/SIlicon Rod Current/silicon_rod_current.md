@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -39,9 +43,9 @@ substitutions:
     vars:
       title: Current Through A Silicon Rod
       units: "$\textrm{A}$"
-    d: 4.04
-    l: 19.8
-    V: 89
+    d: 4.47
+    l: 49.7
+    V: 56
 ---
 # {{ params.vars.title }}
 

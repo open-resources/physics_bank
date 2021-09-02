@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - AK
 assets:
@@ -43,6 +47,7 @@ substitutions:
 ## Part 1
 
 Which figure shows $2 \overrightarrow{A} - \overrightarrow{B}$?
+
 <img src="q1.png" alt= "The initial figure shows two arrows, one pointing 45 degrees above the horizontal, and one pointing 45 degrees below the horizontal. Arrow A points 80 degrees above the horizontal, Arrow B points 45 degrees above the horizontal, Arrow C is horizontal, Arrow D points 45 degrees below the horizontal, Arrow e points 80 degrees below the horizontal." width = 400px>
 
 ### Answer Section

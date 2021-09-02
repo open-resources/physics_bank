@@ -15,6 +15,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - MP
 assets: null
@@ -47,15 +51,16 @@ part4:
 substitutions:
   params:
     vars:
+      name: Ximena
       title: Water Slide
     theta: 40
-    l: 800
-    l2: 400.0
+    l: 900
+    l2: 450.0
 ---
 # {{ params.vars.title }}
-What an exciting time to be alive! A water slide has just opened up near my house! It is a ramp, L = {{params.l}} m long at {{params.theta}}$^o$ to the horizontal.
-At the same instant I begin sliding down from the top with zero initial velocity (x=0), some jerk kid decides to TRY TO SLIDE UP the slide from the bottom (x=L).
-The kid has an unknown initial velocity $v_o$ , but we collide midway down the ramp ({{params.l2}} m from the bottom).
+What an exciting time to be alive! A water slide has just opened up near {{ params.vars.name }}'s house! It is a ramp, L = {{params.l}} $m$ long at {{params.theta}}$^{\circ}$ to the horizontal.
+At the same instant {{ params.vars.name }} begins sliding down from the top with zero initial velocity $(x=0)$, some jerk kid decides to TRY TO SLIDE UP the slide from the bottom $(x=L)$.
+The kid has an unknown initial velocity $v_o$ , but they collide midway down the ramp ({{params.l2}} $m$ from the bottom).
 
 Use the following table as a reference for each variable:
 
@@ -71,7 +76,7 @@ What is the equation describing my position as a function of time?
 
 ### Answer Section
 
-Write the position x(t) in terms of time $t$.
+Write the position $x(t)$ in terms of time $t$.
 
 ## Part 2
 
@@ -79,7 +84,7 @@ What is the equation describing the position of the kid as a function of time?
 
 ### Answer Section
 
-Write the position of the kid x(t) in terms of time t.
+Write the position of the kid $x(t)$ in terms of time $t$.
 
 ## Part 3
 

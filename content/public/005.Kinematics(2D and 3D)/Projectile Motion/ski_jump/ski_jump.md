@@ -15,6 +15,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - MP
 assets: null
@@ -25,22 +29,22 @@ part1:
 substitutions:
   params:
     vars:
-      sport: skier
+      sport: mountain biker
       title: Ski Jump
       units: m
-    v: 22
-    d: 4.38
+    v: 24
+    d: 3.46
     part1:
       ans1:
         value: 9.81
       ans2:
-        value: 14.7
+        value: 14.25
       ans3:
-        value: 19.65
+        value: 16.93
       ans4:
-        value: 20.79
+        value: 20.16
       ans5:
-        value: 29.47
+        value: 25.39
 ---
 # {{ params.vars.title }}
 

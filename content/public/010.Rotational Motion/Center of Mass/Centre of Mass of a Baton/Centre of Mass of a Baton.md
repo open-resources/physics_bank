@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - PW
 assets:
@@ -31,17 +35,20 @@ substitutions:
     vars:
       title: Centre of Mass of a Baton
       units: $m$
-    m1: 0.25
-    m2: 0.14
-    m3: 0.099
-    l1: 0.75
-    l2: 0.87
+    m1: 0.2
+    m2: 0.13
+    m3: 0.12
+    l1: 1.1
+    l2: 0.69
 ---
 # {{ params.vars.title }}
 
 ## Question Text
 
-Determine the position of the centre of mass of the baton shown in the figure below.  The ball at the left end has a mass of $m_1 = $ {{ params.m1 }} $kg$, the ball at the right end has a mass of $m_3 = $ {{ params.m3 }} $kg$, and the bar has a mass of $m_2 = $ {{ params.m2 }} $kg$.  Take the point $l_1 = $ {{ params.l1 }} $m$ to the left of the {{ params.m1 }} $kg$ mass as your origin. The length from the center of the left ball to the center of the right ball is $l_2 = $ {{ params.l2 }} $m$.
+Determine the position of the centre of mass of the baton shown in the figure below.
+The ball at the left end has a mass of $m_1 = $ {{ params.m1 }} $kg$, the ball at the right end has a mass of $m_3 = $ {{ params.m3 }} $kg$, and the bar has a mass of $m_2 = $ {{ params.m2 }} $kg$.
+Take the point $l_1 = $ {{ params.l1 }} $m$ to the left of the {{ params.m1 }} $kg$ mass as your origin.
+The length from the center of the left ball to the center of the right ball is $l_2 = $ {{ params.l2 }} $m$.
 
 <img longdesc="Centre of Mass of a Baton.md#desc" alt="Figure of the system." src="q5_2015practiceMid2.png">
 

@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - EW
 assets:
@@ -50,7 +54,7 @@ substitutions:
       title: Roller Coaster
       units: m/s
       units_2: N
-    r: 11.0
+    r: 12.0
     m: 210
 ---
 # {{ params.vars.title }}

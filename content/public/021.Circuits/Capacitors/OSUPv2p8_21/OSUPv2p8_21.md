@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -38,14 +42,14 @@ substitutions:
   params:
     vars:
       title: Voltage Applied to a Capacitor
-    c: '2.8'
-    q: '2.5'
+    c: '3.3'
+    q: '3.7'
 ---
 # {{ params.vars.title }}
 
 ## Question Text
 
-Calculate the voltage applied to a ${{params.c }} \rm\ \mu\textrm{F}$ capacitor when it holds ${{params.q }}\rm\ \mu\textrm{C}$ of charge.
+Calculate the voltage applied to a {{params.c }} $ \rm\ \mu\textrm{F}$ capacitor when it holds {{params.q }}$\rm\ \mu\textrm{C}$ of charge.
 
 ### Answer Section
 

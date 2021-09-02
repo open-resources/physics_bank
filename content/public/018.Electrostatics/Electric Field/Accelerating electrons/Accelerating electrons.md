@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -40,8 +44,8 @@ substitutions:
   params:
     vars:
       title: Accelerating electrons
-    E: '4.40'
-    p: '6'
+    E: '5.00'
+    p: '5'
 ---
 # {{ params.vars.title }}
 A simple and common technique for accelerating electrons is shown in the figure, where there is a uniform electric field between two plates.

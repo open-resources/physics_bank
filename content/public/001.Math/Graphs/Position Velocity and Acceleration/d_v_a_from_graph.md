@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - MP
 assets:
@@ -51,12 +55,12 @@ substitutions:
       title: Position, Velocity and Acceleration
       units1: $m$
       units2: $m/s$
-      units3: "$\frac{m}{s^2}$"
-    t: 3
-    x_i: -1
+      units3: $\frac{m}{s^2}$
+    t: 4
+    x_i: -2
 ---
 # {{ params.vars.title }}
-The figure shows the velocity-versus-time graph for a particle moving along the x-axis. Its position at $t$ = 0 s is {{params.x_i}} m.
+The figure shows the velocity-versus-time graph for a particle moving along the x-axis. Its position at $t$ = 0 s is {{params.x_i}} $m$.
 
 <img src="Q3.png" width=300 alt="Graph of velocity vs time" alt = "Graph of velocity vs time. The graph increases from 0 to 4 m/s in 1 second. It then decreases to -1m/s at 2.5s. It remains at -1m/s until 4s when it increases back to 0m/s at 5s.">
 

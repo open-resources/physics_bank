@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - math_diagnostic
 - MP
@@ -25,18 +29,18 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q5
-    num1: 4
+    num1: 10
     num2: 10
-    num3: 4
+    num3: 6
     part1:
       ans1:
-        value: 160
+        value: 600
       ans2:
-        value: 5/2
+        value: '1'
       ans3:
-        value: 16
+        value: 60
       ans4:
-        value: '10'
+        value: '6'
       ans5:
         value: Don't Know
 ---

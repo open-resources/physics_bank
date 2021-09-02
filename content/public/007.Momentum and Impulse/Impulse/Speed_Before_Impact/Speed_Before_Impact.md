@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - EW
 assets:
@@ -26,14 +30,14 @@ substitutions:
   params:
     vars:
       title: Speed Before Impact
-      vehicle: truck
+      vehicle: car
       units: $m/s$
-    m: 525
+    m: 511
     part1:
       ans1:
-        value: 103.0
+        value: 106.0
       ans2:
-        value: 51.0
+        value: 53.0
       ans3:
         value: 26.0
       ans4:

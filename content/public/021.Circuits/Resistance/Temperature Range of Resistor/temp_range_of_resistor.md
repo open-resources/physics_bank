@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -38,9 +42,9 @@ substitutions:
   params:
     vars:
       title: Temperature Range of Resistor
-    p: 2
-    metal: 'Germanium '
-    T_0: 131
+    p: 4
+    metal: Nichrome
+    T_0: 140
 ---
 # {{ params.vars.title }}
 

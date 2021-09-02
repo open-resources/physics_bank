@@ -16,6 +16,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - AK
 assets: null
@@ -37,7 +41,7 @@ part3:
 substitutions:
   params:
     vars:
-      name: Ximena
+      name: Aliyah
       title: Lowering a bucket - person, the rope, the bucket, the air, the earth
     part1:
       ans1:

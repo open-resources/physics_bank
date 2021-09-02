@@ -15,6 +15,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - EW
 assets: null
@@ -29,17 +33,17 @@ substitutions:
       units_m: kg
       units_h: m
       units: kgm/s
-    m: 0.384
-    h: 1.4
+    m: 0.227
+    h: 2.4
     part1:
       ans1:
-        value: 1.4
+        value: 1.1
       ans2:
-        value: 2.0
+        value: 1.6
       ans3:
-        value: 2.8
+        value: 2.2
       ans4:
-        value: 4.0
+        value: 3.1
       ans5:
         value: 5.3
 ---

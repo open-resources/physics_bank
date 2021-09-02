@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -38,14 +42,14 @@ substitutions:
   params:
     vars:
       title: Charge Stored in a Capacitor
-    c: '125'
-    v: '175'
+    c: '150'
+    v: '155'
 ---
 # {{ params.vars.title }}
 
 ## Question Text
 
-What charge is stored in a ${{params.c }} \rm\ \mu\textrm{F}$ capacitor when ${{params.v }}\textrm{ V}$ is applied to it?
+What charge is stored in a {{params.c }} $\rm\ \mu\textrm{F}$ capacitor when {{params.v }}$\textrm{ V}$ is applied to it?
 
 ### Answer Section
 

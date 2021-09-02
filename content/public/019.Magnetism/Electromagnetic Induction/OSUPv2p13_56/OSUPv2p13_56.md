@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -39,8 +43,8 @@ substitutions:
       title: Square Coil
     N: '20'
     l: '15'
-    B: '0.060'
-    E: '40'
+    B: '0.055'
+    E: '35'
 ---
 # {{ params.vars.title }}
 

@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - EW
 assets: null
@@ -30,10 +34,10 @@ substitutions:
     vars:
       title: Blocks On Frictionless Table
       units: "$\frac{m}{s}$"
-    v0: 426
-    v1: 6
-    mb: 14
-    mw: 456
+    v0: 481
+    v1: 7
+    mb: 12
+    mw: 466
     d: 3
 ---
 # {{ params.vars.title }}

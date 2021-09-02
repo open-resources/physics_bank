@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - math_diagnostic
 - AK
@@ -25,19 +29,19 @@ substitutions:
   params:
     vars:
       title: Math Practice Q10
-    a: -6
+    a: -10
     b: '6'
     b_sign: ' + '
-    c: 2
+    c: -6
     part1:
       ans1:
-        value: '  8/6'
+        value: '  4/6'
       ans2:
-        value: ' - 8/6'
+        value: ' - 4/6'
       ans3:
-        value: 2
+        value: -2
       ans4:
-        value: -10
+        value: -22
       ans5:
         value: This equation cannot be solved
 ---

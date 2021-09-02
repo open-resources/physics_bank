@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -39,10 +43,10 @@ substitutions:
   params:
     vars:
       title: Current Through Loop
-    N: 44
-    t: 16
-    s: 10
-    B: 0.424
+    N: 18
+    t: 15
+    s: 5
+    B: 0.965
 ---
 # {{ params.vars.title }}
 

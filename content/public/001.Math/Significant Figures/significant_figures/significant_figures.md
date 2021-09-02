@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - math_diagnostic
 - AK
@@ -25,17 +29,17 @@ substitutions:
   params:
     vars:
       title: Significant Figures
-    x: 328.1692289
-    sf: 5
+    x: 126.52012
+    sf: 3
     part1:
       ans1:
-        value: 328.17
+        value: 127.0
       ans2:
-        value: 328.27000000000004
+        value: 127.1
       ans3:
-        value: 328.16923
+        value: 126.52
       ans4:
-        value: 318.17
+        value: 117.0
 ---
 # {{ params.vars.title }}
 

@@ -15,6 +15,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -55,10 +59,10 @@ substitutions:
   params:
     vars:
       title: Varying Separation Distance of Capacitor Plates
-    a: '15.0'
-    b: '1.25'
-    c: '3.00'
-    v: '70'
+    a: '10.0'
+    b: '0.75'
+    c: '2.25'
+    v: '40'
     part3:
       ans1:
         value: It is lost to the surroundings in the laboratory
@@ -68,7 +72,7 @@ substitutions:
         value: It is transferred into heat energy
 ---
 # {{ params.vars.title }}
-A parallel-plate capacitor is made of two square plates with side length ${{params.a }} \textrm{ cm}$ that are ${{params.b }} \textrm{ mm}$ apart. The capacitor is connected to a ${{params.v }} \textrm{ V}$ battery. With the battery still connected, the plates are pulled apart to a separation distance of ${{params.c }} \textrm{ mm}$.
+A parallel-plate capacitor is made of two square plates with side length {{params.a }} $\textrm{ cm}$ that are {{params.b }} $\textrm{ mm}$ apart. The capacitor is connected to a {{params.v }} $\textrm{ V}$ battery. With the battery still connected, the plates are pulled apart to a separation distance of {{params.c }} $\textrm{ mm}$.
 
 ## Part 1
 

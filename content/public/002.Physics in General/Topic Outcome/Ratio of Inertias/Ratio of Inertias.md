@@ -16,6 +16,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - PW
 assets: null
@@ -27,14 +31,14 @@ substitutions:
   params:
     vars:
       title: Ratio of Inertias
-    choice: five
+    choice: four
     part1:
       ans1:
-        value: $\dfrac{1}{5}$
+        value: $\dfrac{1}{4}$
       ans2:
         value: $\dfrac{1}{6}$
       ans3:
-        value: $\dfrac{1}{4}$
+        value: $\dfrac{1}{5}$
       ans4:
         value: $\dfrac{1}{3}$
       ans5:

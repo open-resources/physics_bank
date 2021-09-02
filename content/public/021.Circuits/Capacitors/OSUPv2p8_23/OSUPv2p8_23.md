@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -38,14 +42,14 @@ substitutions:
   params:
     vars:
       title: Determining Capacitance
-    q: '3.9'
-    v: '180'
+    q: '1.6'
+    v: '110'
 ---
 # {{ params.vars.title }}
 
 ## Question Text
 
-What capacitance is needed to store ${{params.q }}\rm\ \mu\textrm{C}$ of charge at a voltage of ${{params.v }}\textrm{ V}$? Enter your answer in units of $\textrm{nF}$.
+What capacitance is needed to store {{params.q }}$\rm\ \mu\textrm{C}$ of charge at a voltage of {{params.v }}$\textrm{ V}$? Enter your answer in units of $\textrm{nF}$.
 
 ### Answer Section
 

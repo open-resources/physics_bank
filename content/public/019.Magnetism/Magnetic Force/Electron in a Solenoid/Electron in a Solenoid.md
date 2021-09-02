@@ -18,6 +18,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -47,13 +51,13 @@ substitutions:
       title: Electron in a Solenoid
     n: '35'
     r: '1.30'
-    v: '1.60'
+    v: '1.30'
     p: '5'
 ---
 # {{ params.vars.title }}
-A solenoid with ${{ params.n }}$ turns per centimter carries a current $I$.
-An electron moves within the solenoid in a circle of radius ${{ params.r}}\textrm{ cm}$.
-The plane of the circular motion is perpendicular to the axis of the solenoid.The speed of the electron is ${{ params.v }}\times 10^{ {{ params.p }} }\textrm{ m/s}$.
+A solenoid with {{ params.n }} turns per centimter carries a current $I$.
+An electron moves within the solenoid in a circle of radius {{ params.r}}$\textrm{ cm}$.
+The plane of the circular motion is perpendicular to the axis of the solenoid.The speed of the electron is {{ params.v }}$\times 10^{ {{ params.p }} }\textrm{ m/s}$.
 
 ## Question Text
 

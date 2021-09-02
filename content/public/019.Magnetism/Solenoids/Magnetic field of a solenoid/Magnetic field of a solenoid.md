@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -38,15 +42,15 @@ substitutions:
   params:
     vars:
       title: Magnetic field of a solenoid
-    n: '2100'
-    I: '1.20'
+    n: '1200'
+    I: '3.60'
 ---
 # {{ params.vars.title }}
-A solenoid is wound with ${{ params.n }}$ turns per meter.
+A solenoid is wound with {{ params.n }} turns per meter.
 
 ## Question Text
 
-When the current is ${{ params.I }}\rm\ A$, what is the magnetic field within the solenoid?
+When the current is {{ params.I }}$\rm\ A$, what is the magnetic field within the solenoid?
 
 ### Answer Section
 

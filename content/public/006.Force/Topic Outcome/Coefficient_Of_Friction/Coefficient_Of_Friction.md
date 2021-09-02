@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - EW
 assets:
@@ -29,9 +33,9 @@ part1:
 substitutions:
   params:
     vars:
-      title: Coefficient_Of_Friction
-    m: 181
-    t: 2
+      title: Coefficient Of Friction
+    m: 171
+    t: 1
 ---
 # {{ params.vars.title }}
 You have been hired to measure the coefficients of friction for the newly discovered substance jelloium.

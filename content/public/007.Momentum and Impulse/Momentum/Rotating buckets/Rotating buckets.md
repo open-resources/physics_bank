@@ -16,14 +16,18 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - PW
 assets:
 - 2015FinalQ18.png
 part1:
   type: symbolic-input
-  label: $I = $
   pl-customizations:
+    label: $I = $
     variables: m, l
     weight: 1
     allow-blank: false
@@ -41,8 +45,8 @@ substitutions:
     vars:
       title: Rotating Buckets
       units: kg
-    m1: 2.71
-    c: 6
+    m1: 2.38
+    c: 5
 ---
 # {{ params.vars.title }}
 A pair of buckets are connected by a *massless* rod. As shown in the figure, the buckets rotate about an axis through the centre of mass of the two-bucket system.
@@ -61,8 +65,6 @@ Note that it may not be necessary to use every variable. Use the following table
 | $l$  | l  |
 
 ### Answer Section
-
-{{ substitutions.part1.label }}
 
 ## Part 2
 

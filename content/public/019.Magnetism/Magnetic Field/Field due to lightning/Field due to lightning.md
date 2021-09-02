@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -39,7 +43,7 @@ substitutions:
   params:
     vars:
       title: Field due to lightning
-    d: '1.3'
+    d: '1.0'
     p: '4'
 ---
 # {{ params.vars.title }}
@@ -47,7 +51,7 @@ A typical current in a lightning bolt is $10^{{ params.p }}\rm\ A$.
 
 ## Question Text
 
-Estimate the magnetic field a perpendicular distance of ${{ params.d }}\rm\ m$ from the bolt.
+Estimate the magnetic field a perpendicular distance of {{ params.d }}$\rm\ m$ from the bolt.
 
 ### Answer Section
 

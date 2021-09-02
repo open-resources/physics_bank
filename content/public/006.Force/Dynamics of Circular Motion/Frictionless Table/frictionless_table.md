@@ -15,6 +15,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - MP
 assets:
@@ -49,8 +53,6 @@ Note that it may not be necessary to use every variable. Use the following table
 | $r$  | r  |
 
 ### Answer Section
-
-{{ substitutions.part1.label }}
 
 ## Attribution
 

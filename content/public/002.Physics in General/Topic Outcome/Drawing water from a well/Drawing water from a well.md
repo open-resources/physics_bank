@@ -15,6 +15,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - PW
 assets:
@@ -43,19 +47,19 @@ substitutions:
       title: Drawing Water from a Well
       unit1: $N$
       unit2: $m$
-    M: 3.47
-    m: 3.85
-    R: 0.267
-    t: 7.18
+    M: 5.38
+    m: 2.3
+    R: 0.761
+    t: 13.2
 ---
 # {{ params.vars.title }}
-As  shown  in  the figure,  a  solid,  uniform,  frictionless  cylindrical  reel  of  mass $M = $ {{ params.M }} $kg$ and radius $R = $ {{ params.R }} $m$ is used to draw water from a well.  A bucket of  mass $m = $ {{ params.m }} $kg$ is  attached  to  a  massless  cord  that  is  wrapped  around  the cylinder.
+As shown in the figure, a solid, uniform, frictionless cylindrical reel of mass $M = $ {{ params.M }} $kg$ and radius $R = $ {{ params.R }} $m$ is used to draw water from a well. A bucket of mass $m = $ {{ params.m }} $kg$ is  attached to a massless cord that is wrapped around the cylinder.
 
 ![Figure of a bucket attached to a cylindrical reel and a well.](q11_2013practiceFinal.png)
 
 ## Part 1
 
-If  the  bucket  is  released  from  rest  at  the  top  of  the  well,  find  the tension $T$ in the cord and the acceleration $a$ of the bucket (the cord does not slip on the reel).
+If the bucket is released from rest at the top of the well, find the tension $T$ in the cord and the acceleration $a$ of the bucket (the cord does not slip on the reel).
 
 ### Answer Section
 

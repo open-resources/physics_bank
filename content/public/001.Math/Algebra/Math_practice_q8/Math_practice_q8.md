@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - math_diagnostic
 - AK
@@ -25,19 +29,19 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    a: -4
-    b: '4'
-    b_sign: ' + '
-    c: 4
+    a: -2
+    b: '6'
+    b_sign: ' - '
+    c: -1
     part1:
       ans1:
-        value: -1.0x + 1.0y
+        value: 2.0x + 6.0y
       ans2:
-        value: -1.0x +1.0y
+        value: -6.0x +2.0y
       ans3:
-        value: '  (-1.0x  + 1.0y)/4'
+        value: ' - (2.0x  + 6.0y)/1'
       ans4:
-        value: -4x + 4y
+        value: -2x - 6y
       ans5:
         value: Do not know
 ---
@@ -49,11 +53,11 @@ $\frac{ {{ params.a }}x {{ params.b_sign }} {{ params.b }}y }{ {{ params.c }} }$
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
-- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

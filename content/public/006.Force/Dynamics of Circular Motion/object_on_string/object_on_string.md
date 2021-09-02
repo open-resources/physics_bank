@@ -16,6 +16,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - MP
 assets: null
@@ -28,16 +32,16 @@ substitutions:
     vars:
       title: Object Swung in Circular Path
       units: N
-    m: 0.24
-    r: 9.45
+    m: 1.15
+    r: 9.74
     w: 8
     part1:
       ans1:
-        value: 142.8
+        value: 705.59
       ans2:
-        value: 122.93
+        value: 607.09
       ans3:
-        value: 145.15
+        value: 716.86
       ans4:
         value: 19.6
 ---

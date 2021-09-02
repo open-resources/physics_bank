@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - math_diagnostic
 - MP
@@ -26,17 +30,17 @@ substitutions:
     vars:
       title: Diagnostic Q11
     a: 4
-    b: 8
-    c: 3
+    b: 10
+    c: 4
     part1:
       ans1:
-        value: x = -1.5, x = -0.5
+        value: x = -2.0, x = -0.5
       ans2:
-        value: x = 1.5, x = 0.5
+        value: x = 2.0, x = 0.5
       ans3:
-        value: x = 8, x = 3
+        value: x = 10, x = 4
       ans4:
-        value: x = 4, x = 8
+        value: x = 4, x = 10
       ans5:
         value: Don't Know
 ---

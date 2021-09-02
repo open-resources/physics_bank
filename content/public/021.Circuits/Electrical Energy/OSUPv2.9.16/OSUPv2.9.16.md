@@ -24,26 +24,27 @@ part1:
 substitutions:
   params:
     vars:
-      title: Energy Cosumption Units
+      title: Energy Consumption Units
+      name: Santiago
     part1:
       ans1:
-        value: energy
-      ans2:
-        value: power
-      ans3:
-        value: voltage
-      ans4:
         value: current
-      ans5:
+      ans2:
+        value: energy
+      ans3:
         value: charge
+      ans4:
+        value: power
+      ans5:
+        value: voltage
 ---
 # {{ params.vars.title }}
 
 ## Part 1
 
-Your electric bill gives your consumption in units of kilowatt-hour ($\textrm{kW}\cdot\textrm{h}$).
+{{ params.vars.name }}'s electric bill gives their consumption in units of kilowatt-hour ($\textrm{kW}\cdot\textrm{h}$).
 
-Does this unit represent the amount of {{params.part1.ans1.value}}, {{params.part1.ans2.value}}, {{params.part1.ans3.value}}, {{params.part1.ans4.value}}, or {{params.part1.ans5.value}} you buy?
+Does this unit represent the amount of {{params.part1.ans1.value}}, {{params.part1.ans2.value}}, {{params.part1.ans3.value}}, {{params.part1.ans4.value}}, or {{params.part1.ans5.value}} they buy?
 
 ### Answer Section
 

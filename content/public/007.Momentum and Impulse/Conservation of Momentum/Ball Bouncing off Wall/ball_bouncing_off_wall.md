@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - MP
 assets:
@@ -40,12 +44,12 @@ substitutions:
   params:
     vars:
       title: Ball Bouncing off a Wall
-      units1: "$\frac{kg*m}{s}$"
+      units1: $\frac{kg*m}{s}$
       units2: $N$
-    m: 8
-    v: 6
-    theta: 26
-    t: 0.484
+    m: 4
+    v: 12
+    theta: 69
+    t: 0.878
 ---
 # {{ params.vars.title }}
 A {{params.m}} kg steel bass strikes a massive wall at {{params.v}} m/s at an angle of {{params.theta}} with the plane of the wall. It bounces off of the wall with the same speed and angle (see the figure).

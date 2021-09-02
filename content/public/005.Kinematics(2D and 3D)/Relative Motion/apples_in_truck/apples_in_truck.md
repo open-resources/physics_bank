@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - MP
 assets:
@@ -62,7 +66,7 @@ One of the apples shakes loose and falls towards the bed of the truck.
 
 ## Part 1
 
-Of the curves shown above, which best describes the path followed by the apple as seen by a stationary observer on the ground, who observes the truck moving from his left to his right?
+Of the curves shown above, which best describes the path followed by the apple as seen by a stationary observer on the ground, who observes the truck moving from their left to their right?
 
 ### Answer Section
 

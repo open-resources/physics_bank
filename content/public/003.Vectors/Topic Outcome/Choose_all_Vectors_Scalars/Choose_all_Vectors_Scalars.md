@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - unknown
 assets: null
@@ -26,20 +30,20 @@ substitutions:
   params:
     vars:
       title: Choose all Vectors and Scalars
-    choice: scalars
+    choice: vectors
     part1:
       ans1:
-        value: Distance travelled
-      ans2:
-        value: Volume
-      ans3:
-        value: Power
-      ans4:
-        value: Length
-      ans5:
         value: The average acceleration
-      ans6:
+      ans2:
+        value: Acceleration
+      ans3:
         value: velocity
+      ans4:
+        value: Distance travelled
+      ans5:
+        value: Mass
+      ans6:
+        value: Temperature
 ---
 # {{ params.vars.title }}
 

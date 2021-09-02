@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - math_diagnostic
 - MP
@@ -25,16 +29,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: 300
+    a: 213
     part1:
       ans1:
-        value: $\sin{120}$
+        value: $\sin{33}$
       ans2:
-        value: $\sin{-120}$
+        value: $\sin{-33}$
       ans3:
-        value: $\sin{60}$
+        value: $\sin{147}$
       ans4:
-        value: $\sin{-60}$
+        value: $\sin{-147}$
       ans5:
         value: Don't Know
 ---

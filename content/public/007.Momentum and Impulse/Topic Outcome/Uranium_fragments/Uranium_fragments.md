@@ -15,6 +15,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - AK
 assets: null
@@ -41,13 +45,13 @@ substitutions:
     vars:
       title: Uranium Fragments
       units: amu
-    frag_speed: 2.7
-    dn_speed: 3.51
-    orig_mass: 238
+    frag_speed: 1.8
+    dn_speed: 2.32
+    orig_mass: 232
 ---
 # {{ params.vars.title }}
 A radioactive $^{ {{params.orig_mass}} }U$ uranium nucleus is initially at rest.
-It spontaneously disintegrates into a small fragment that is ejected with a measured speed of ${{params.frag_speed}}$ x $10^7 \ m/s$ and a daughter nucleus that recoils with a measured speed of ${{params.dn_speed}}$ x $10^5 \ m/s$.
+It spontaneously disintegrates into a small fragment that is ejected with a measured speed of {{params.frag_speed}}$ \times 10^7 \ m/s$ and a daughter nucleus that recoils with a measured speed of {{params.dn_speed}}$ \times 10^5 \ m/s$.
 The mass of the original uranium nucleus is {{params.orig_mass}} amu (atomic mass units).
 
 ## Part 1

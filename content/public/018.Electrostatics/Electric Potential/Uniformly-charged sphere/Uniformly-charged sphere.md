@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -32,7 +36,7 @@ substitutions:
   params:
     vars:
       title: Uniformly-charged sphere
-    same: the same as
+    same: different than
     part1:
       ans1:
         value: The region of space inside the sphere.

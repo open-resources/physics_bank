@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -70,11 +74,11 @@ part4:
     weight: 1
 substitutions:
   params:
-    P_T: '1870'
-    P_S: '1470'
-    P_L: '65.0'
-    I_F: '28.0'
-    V: '145.0'
+    P_T: '1720'
+    P_S: '1490'
+    P_L: '70.0'
+    I_F: '22.0'
+    V: '140.0'
     prep: a
     part4:
       ans1:

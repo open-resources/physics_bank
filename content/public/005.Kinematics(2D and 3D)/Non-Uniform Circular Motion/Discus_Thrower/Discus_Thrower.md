@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - EW
 assets: null
@@ -25,17 +29,17 @@ substitutions:
     vars:
       title: Discus Thrower
       units: $rad/s$
-    r: 2
-    a: 52
+    r: 4
+    a: 49
     part1:
       ans1:
-        value: 36.0
+        value: 50.0
       ans2:
-        value: 1307.0
+        value: 2463.0
       ans3:
-        value: 208
+        value: 392
       ans4:
-        value: 13.0
+        value: 12.0
       ans5:
         value: 18.0
 ---

@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -38,16 +42,16 @@ substitutions:
   params:
     vars:
       title: Circular coil
-    r: '5.50'
-    I: '0.72'
-    B: '4.40'
+    r: '10.50'
+    I: '0.94'
+    B: '3.40'
     p: '-4'
 ---
 # {{ params.vars.title }}
 
 ## Question Text
 
-How many turns must be wound on a flat, circular coil of radius ${{ params.r }}\rm\ cm$ in order to produce a magnetic field of magnitude ${{ params.B }}\times 10^{ {{ params.p }} }\rm\ T$ at the centre of the coil when the current through it is ${{ params.I }}\rm\ A$?
+How many turns must be wound on a flat, circular coil of radius {{ params.r }}$\rm\ cm$ in order to produce a magnetic field of magnitude {{ params.B }}$\times 10^{ {{ params.p }} }\rm\ T$ at the centre of the coil when the current through it is {{ params.I }}$\rm\ A$?
 
 ### Answer Section
 

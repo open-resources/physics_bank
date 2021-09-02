@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - math_diagnostic
 - MP
@@ -25,16 +29,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 6x + 4 > 3x + 9
+      formula: 8x + -5 > 6x + 10
     part1:
       ans1:
-        value: x > 5/3
+        value: x > 15/2
       ans2:
-        value: x < 5/3
+        value: x < 15/2
       ans3:
-        value: x < 3/5
+        value: x < 2/15
       ans4:
-        value: x > 3/5
+        value: x > 2/15
       ans5:
         value: Don't Know
 ---

@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - PW
 assets:
@@ -58,8 +62,8 @@ substitutions:
     vars:
       title: Work Done by a Constant Force
       units: $J$
-    F: 2.79
-    r: 49.7
+    F: 36.3
+    r: 22.2
 ---
 # {{ params.vars.title }}
 Calculate the work done by a constant force of magnitude $F = $ {{ params.F }} $N$ applied over a displacement of magnitude $\Delta r = $ {{ params.r }} $m$ for all four of the diagrams.

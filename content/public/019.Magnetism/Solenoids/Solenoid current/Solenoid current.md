@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -38,16 +42,16 @@ substitutions:
   params:
     vars:
       title: Solenoid current
-    n: '13'
-    B: '3.2'
+    n: '14'
+    B: '2.0'
     p: '-2'
 ---
 # {{ params.vars.title }}
-A solenoid has ${{ params.n }}$ turns per centimeter.
+A solenoid has {{ params.n }} turns per centimeter.
 
 ## Question Text
 
-What current will produce a magnetic field of ${{ params.B }}\times 10^{ {{params.p }} }\rm\ T$ within the solenoid?
+What current will produce a magnetic field of {{ params.B }}$\times 10^{ {{params.p }} }\rm\ T$ within the solenoid?
 
 ### Answer Section
 

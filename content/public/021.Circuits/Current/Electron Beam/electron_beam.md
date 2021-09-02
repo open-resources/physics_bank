@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - VS
@@ -33,14 +37,14 @@ substitutions:
     vars:
       title: 'Electron Beam '
       units: ' $ A / m^2 $ '
-    I: 196
-    r: 0.72
+    I: 174
+    r: 0.15
 ---
 # {{ params.vars.title }}
 
 ## Question Text
 
-An electron beam with a radius of {{params.r}} $\textrm{mm}$ has a measured current of ${{params.I}}\rm\ \mu A$.
+An electron beam with a radius of {{params.r}} $\textrm{mm}$ has a measured current of {{params.I}}$\rm\ \mu A$.
 What is the magnitude of the current density in the beam?
 
 ### Answer Section

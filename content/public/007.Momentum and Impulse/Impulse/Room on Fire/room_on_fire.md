@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - MP
 assets: null
@@ -23,6 +27,7 @@ part1:
 substitutions:
   params:
     vars:
+      name: Ximena
       title: Living Room on Fire
     part1:
       ans1:
@@ -33,15 +38,15 @@ substitutions:
         value: It doesn't matter. Throw either.
 ---
 # {{ params.vars.title }}
-You awake in the night to find that your living room is on fire.
-Your one chance to save yourself is to throw something that will hit the back of your bedroom door and close it, giving you a few seconds to escape out the window.
+{{ params.vars.name }} awakes in the night to find that their living room is on fire.
+Their one chance to save themself is to throw something that will hit the back of their bedroom door and close it, giving them a few seconds to escape out the window.
 
 ## Part 1
 
-You happen to have both a sticky ball of clay and a super-bouncy Superball next to your bed, both the same size and same mass.
-You only have time to throw one.
+{{ params.vars.name }} happens to have both a sticky ball of clay and a super-bouncy Superball next to their bed, both the same size and same mass.
+They only have time to throw one.
 Which will it be?
-Your life depends on making the right choice!
+Their life depends on making the right choice!
 
 ### Answer Section
 

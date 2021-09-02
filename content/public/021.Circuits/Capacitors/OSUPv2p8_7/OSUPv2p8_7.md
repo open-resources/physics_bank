@@ -16,6 +16,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -54,14 +58,14 @@ substitutions:
   params:
     vars:
       title: Combining Capacitors
-    c: '2.4'
-    n: '5'
+    c: '2.2'
+    n: '4'
 ---
 # {{ params.vars.title }}
 
 ## Part 1
 
-What is the maximum capacitance you can get by connecting ${{params.n }}$ ${{params.c }} \rm\ \mu\textrm{F}$ capacitors?
+What is the maximum capacitance you can get by connecting {{params.n }} {{params.c }} $\rm\ \mu\textrm{F}$ capacitors?
 
 ### Answer Section
 

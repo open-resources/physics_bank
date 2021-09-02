@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - MP
 assets: null
@@ -31,12 +35,12 @@ substitutions:
     vars:
       title: Block on a Wall
       units: N
-    theta: 34
-    m: 6
-    mu: 0.45
+    theta: 41
+    m: 1
+    mu: 0.348
 ---
 # {{ params.vars.title }}
-A {{params.m}} kg wood block slides down a vertical wall while you push on it at a {{params.theta}} $^\circ$ angle.
+A {{params.m}} kg wood block slides down a vertical wall while you push on it at a {{params.theta}}$^\circ$ angle.
 
 <img src="q5.png" width=400 alt="Box pushed against a wall by a force at angle theta">
 

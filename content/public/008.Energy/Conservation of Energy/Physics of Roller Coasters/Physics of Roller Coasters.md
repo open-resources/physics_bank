@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - PW
 assets:
@@ -26,20 +30,20 @@ substitutions:
     vars:
       title: Physics of Roller-Coasters
       units: m/s
-    r: 23.3
+    r: 22.0
     part1:
       ans1:
-        value: 30.2
+        value: 29.4
       ans2:
-        value: 33.8
+        value: 32.8
       ans3:
-        value: 26.2
+        value: 25.4
       ans4:
-        value: 21.4
+        value: 20.8
       ans5:
-        value: 15.1
+        value: 14.7
       ans6:
-        value: 37.0
+        value: 36.0
 ---
 # {{ params.vars.title }}
 A roller-coaster travels over a vertical, circular loop of radius $R = $ {{ params.r }} m.

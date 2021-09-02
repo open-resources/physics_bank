@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - JW
 - OSUP
@@ -33,11 +37,11 @@ substitutions:
     vars:
       title: Battery Internal Resistance
     x: 4
-    N: 5
-    V_string: '5.25'
+    N: 3
+    V_string: '6.50'
 ---
 # {{ params.vars.title }}
-A battery with an internal resistance of $r$ and an emf of {{ params.V_string }}$\textrm{ V}$ is connected to a load resistor $R = {{ params.N }}r$ and current $I_0$ flows.
+A battery with an internal resistance of $r$ and an emf of {{ params.V_string }}$\textrm{ V}$ is connected to a load resistor $R =$ {{ params.N }}$r$ and current $I_0$ flows.
 As the battery ages, the internal resistance increases by a factor of {{ params.x }}.
 
 ## Part 1

@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - unknown
 assets: null
@@ -23,25 +27,25 @@ part1:
 substitutions:
   params:
     vars:
-      name: Savannah
-      vehicle: a unicycle
+      name: Maya
+      vehicle: a tricycle
       units: m
       title: Distance travelled
-    v: 7
-    t: 5
+    v: 3
+    t: 10
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 35
+        value: 30
       ans3:
-        value: 12
+        value: 13
       ans4:
-        value: 1.4
+        value: 0.3
       ans5:
-        value: 2
+        value: -7
       ans6:
-        value: 2.6
+        value: -9.1
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is traveling on {{ params.vars.vehicle }} at {{ params.v }} {{ params.vars.units }}.

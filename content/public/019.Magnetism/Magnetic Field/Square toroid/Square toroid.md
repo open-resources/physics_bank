@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -38,14 +42,14 @@ substitutions:
   params:
     vars:
       title: Square toroid
-    N: '420'
-    d: '4.2'
-    r: '20'
-    I: '1.4'
+    N: '411'
+    d: '2.6'
+    r: '22'
+    I: '1.6'
 ---
 # {{ params.vars.title }}
-A toroid with a square cross section ${{ params.d }}\textrm{ cm}\times{{ params.d }}\textrm{ cm}$ has an inner radius of ${{ params.r }}\textrm{ cm}$.
-It is wound with ${{ params.N }}$ turns of wire, and it carries a current of ${{ params.I }}\textrm{ A}$.
+A toroid with a square cross section {{ params.d }}$\textrm{ cm}\times${{ params.d }}$\textrm{ cm}$ has an inner radius of {{ params.r }}$\textrm{ cm}$.
+It is wound with {{ params.N }} turns of wire, and it carries a current of {{ params.I }}$\textrm{ A}$.
 
 ## Question Text
 

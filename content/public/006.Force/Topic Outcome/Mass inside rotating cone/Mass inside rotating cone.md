@@ -15,6 +15,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - PW
 assets:
@@ -49,8 +53,6 @@ Note that it may not be necessary to use every variable. Use the following table
 | $\theta$ | theta |
 
 ### Answer Section
-
-{{ substitutions.part1.label }}
 
 ## Attribution
 

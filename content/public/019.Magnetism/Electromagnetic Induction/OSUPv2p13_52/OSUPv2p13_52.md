@@ -14,6 +14,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -46,8 +50,8 @@ substitutions:
     vars:
       title: Uniformly Decreasing Magnetic Field
     r: '5'
-    B: '2.5'
-    t: '30'
+    B: '1.5'
+    t: '10'
     part2:
       ans1:
         value: Clockwise

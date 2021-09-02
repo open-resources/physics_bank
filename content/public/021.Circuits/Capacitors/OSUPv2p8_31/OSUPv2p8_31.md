@@ -17,6 +17,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - OSUP
 - volume 2
@@ -63,12 +67,12 @@ substitutions:
   params:
     vars:
       title: Charge and Voltage Across Capacitors
-    a: '13'
-    b: '12'
-    v: '310'
+    a: '10'
+    b: '7'
+    v: '360'
 ---
 # {{ params.vars.title }}
-A ${{params.a }}\textrm{ pF}$ capacitor is connected in series with a ${{params.b }}\textrm{ pF}$ capacitor and a ${{params.v }}\textrm{ V}$ potential difference is applied across the pair.
+A {{params.a }}$\textrm{ pF}$ capacitor is connected in series with a {{params.b }}$\textrm{ pF}$ capacitor and a {{params.v }}$\textrm{ V}$ potential difference is applied across the pair.
 
 ## Part 1
 
@@ -80,7 +84,7 @@ Please enter a numeric value.
 
 ## Part 2
 
-What is the voltage across the ${{params.a }}\textrm{ pF}$ capacitor?
+What is the voltage across the {{params.a }}$\textrm{ pF}$ capacitor?
 
 ### Answer Section
 
@@ -88,7 +92,7 @@ Please enter a numeric value.
 
 ## Part 3
 
-What is the voltage across the ${{params.b }}\textrm{ pF}$ capacitor?
+What is the voltage across the {{params.b }}$\textrm{ pF}$ capacitor?
 
 ### Answer Section
 

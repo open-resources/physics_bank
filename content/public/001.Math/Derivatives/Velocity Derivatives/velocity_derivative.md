@@ -13,6 +13,10 @@ randomization:
 - undefined
 taxonomy:
 - undefined
+span:
+- undefined
+length:
+- undefined
 tags:
 - MP
 assets: null
@@ -25,17 +29,17 @@ substitutions:
     vars:
       title: Velocity to Acceleration
       units: $m/s^2$
-    c: 1.2
-    t: 10
+    c: 0.8
+    t: 7
     part1:
       ans1:
-        value: 0.0024
+        value: 0.0047
       ans2:
-        value: -0.0024
+        value: -0.0047
       ans3:
-        value: -0.012
+        value: -0.016
       ans4:
-        value: 0.012
+        value: 0.016
       ans5:
         value: The acceleration is 0
 ---
