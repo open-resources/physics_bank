@@ -30,19 +30,19 @@ substitutions:
     vars:
       title: Math Practice 9
     num: -3
-    l0: j
-    l1: o
-    l2: d
-    l3: b
+    l0: p
+    l1: g
+    l2: q
+    l3: x
     part1:
       ans1:
-        value: d = ${ 3 b + \frac{o}{j}}$
+        value: q = ${ \frac{g}{p} + 3 x}$
       ans2:
-        value: d = ${- \frac{3 b j}{o}}$
+        value: q = ${- \frac{3 p x}{g}}$
       ans3:
-        value: d = ${- \frac{o}{3 b j}}$
+        value: q = ${- \frac{g}{3 p x}}$
       ans4:
-        value: d = ${\frac{3 b + j}{o}}$
+        value: q = ${\frac{p + 3 x}{g}}$
       ans5:
         value: Don't Know
 ---

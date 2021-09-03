@@ -29,17 +29,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 14
-    num: 4
-    denom: 5
+    num: 3
+    denom: 6
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt[5]{x^{4}}}\end{equation}
+        value: \begin{equation}\frac{1}{\sqrt[6]{x^{3}}}\end{equation}
       ans2:
-        value: \begin{equation}\sqrt[5]{x^{4}}\end{equation}
+        value: \begin{equation}\sqrt[6]{x^{3}}\end{equation}
       ans3:
-        value: \begin{equation}x^{\frac{4}{5}}\end{equation}
+        value: \begin{equation}\sqrt{x}\end{equation}
       ans4:
-        value: \begin{equation}- \frac{1}{\sqrt[5]{x^{4}}}\end{equation}
+        value: \begin{equation}- \frac{1}{\sqrt[6]{x^{3}}}\end{equation}
       ans5:
         value: Do not know
 ---

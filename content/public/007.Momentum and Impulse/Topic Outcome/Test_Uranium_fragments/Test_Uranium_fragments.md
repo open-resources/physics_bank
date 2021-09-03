@@ -1,5 +1,5 @@
 ---
-title: Uranium Fragments
+title: Test Uranium Fragments
 topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2017 Midterm 1 (002) Q6
@@ -43,14 +43,14 @@ part2:
 substitutions:
   params:
     vars:
-      title: Uranium Fragments
+      title: Test Uranium Fragments
       units: amu
-    frag_speed: 2.4
-    dn_speed: 2.49
-    orig_mass: 238
+    frag_speed: 1.9
+    dn_speed: 3.4
+    orig_mass: $^{238}\mathrm{U}$
 ---
 # {{ params.vars.title }}
-A radioactive $^{ {{params.orig_mass}} }U$ uranium nucleus is initially at rest.
+A radioactive {{params.orig_mass}} uranium nucleus is initially at rest.
 It spontaneously disintegrates into a small fragment that is ejected with a measured speed of {{params.frag_speed}}$ \times 10^7 \ m/s$ and a daughter nucleus that recoils with a measured speed of {{params.dn_speed}}$ \times 10^5 \ m/s$.
 The mass of the original uranium nucleus is {{params.orig_mass}} amu (atomic mass units).
 

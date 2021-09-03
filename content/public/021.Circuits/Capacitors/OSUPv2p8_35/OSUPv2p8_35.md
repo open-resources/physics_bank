@@ -55,9 +55,9 @@ substitutions:
   params:
     vars:
       title: Connecting Capacitors
-      name: Aliyah
-    a: '13'
-    b: '11'
+      name: Ahmed
+    a: '6'
+    b: '7'
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} has a {{params.a }} $\rm\ \mu\textrm{F}$ capacitor and a {{params.b }} $\rm\ \mu\textrm{F}$ capacitor.
