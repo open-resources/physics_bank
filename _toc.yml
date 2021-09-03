@@ -20,39 +20,38 @@ parts:
   - file: docs/rounding
 - caption: Math
   chapters:
-  - file: content/public/001.Math/math_practice_q30/math_practice_q30
-  - file: content/public/001.Math/Exponential Functions/Math Practice q13/math_practice_q13
-  - file: content/public/001.Math/Exponential Functions/Math Practice Q17/math_practice_q17
-  - file: content/public/001.Math/Polar Coordinates/Math Practice 19/math_practice_q19
-  - file: content/public/001.Math/Integrals/Math Practice Q25/mathpracticeq25
   - file: content/public/001.Math/Integrals/Rocket/Rocket
-  - file: content/public/001.Math/Integrals/math_practiceQ22/math_practiceQ22
-  - file: content/public/001.Math/Algebra/math_practice_q12/math_practice_q12
-  - file: content/public/001.Math/Algebra/Math_practice_Q10/Math_practice_Q10
-  - file: content/public/001.Math/Algebra/Math_practice_q8/Math_practice_q8
   - file: content/public/001.Math/Algebra/Solve this Inequality/solve_this_inequality
-  - file: content/public/001.Math/Algebra/Diagnostic Q5/diagnosticq5
-  - file: content/public/001.Math/Algebra/Diagnostic Q9/disgnosticq9
-  - file: content/public/001.Math/math_practice_q24/math_practice_q24
+  - file: content/public/001.Math/Diagnostic/math_diagnostic11/math_diagnostic11
+  - file: content/public/001.Math/Diagnostic/math_diagnostic10/math_diagnostic10
+  - file: content/public/001.Math/Diagnostic/math_diagnostic07/math_diagnostic07
+  - file: content/public/001.Math/Diagnostic/math_diagnostic22/math_diagnostic22
+  - file: content/public/001.Math/Diagnostic/math_diagnostic28/math_diagnostic28
+  - file: content/public/001.Math/Diagnostic/math_diagnostic19/math_diagnostic19
+  - file: content/public/001.Math/Diagnostic/math_diagnostic30/math_diagnostic30
+  - file: content/public/001.Math/Diagnostic/math_diagnostic18/math_diagnostic18
+  - file: content/public/001.Math/Diagnostic/math_diagnostic13/math_diagnostic13
+  - file: content/public/001.Math/Diagnostic/math_diagnostic29/math_diagnostic29
+  - file: content/public/001.Math/Diagnostic/math_diagnostic24/math_diagnostic24
+  - file: content/public/001.Math/Diagnostic/math_diagnostic26/math_diagnostic26
+  - file: content/public/001.Math/Diagnostic/math_diagnostic05/math_diagnostic05
+  - file: content/public/001.Math/Diagnostic/math_diagnostic09/math_diagnostic09
+  - file: content/public/001.Math/Diagnostic/math_diagnostic17/math_diagnostic17
+  - file: content/public/001.Math/Diagnostic/math_diagnostic12/math_diagnostic12
+  - file: content/public/001.Math/Diagnostic/math_diagnostic08/math_diagnostic08
+  - file: content/public/001.Math/Diagnostic/math_diagnostic14/math_diagnostic14
+  - file: content/public/001.Math/Diagnostic/math_diagnostic20/math_diagnostic20
+  - file: content/public/001.Math/Diagnostic/math_diagnostic21/math_diagnostic21
+  - file: content/public/001.Math/Diagnostic/math_diagnostic25/math_diagnostic25
+  - file: content/public/001.Math/Diagnostic/math_diagnostic16/math_diagnostic16
   - file: content/public/001.Math/Graphs/Acceleration from Velocity Graph/acceleration_from_velocity_graph
-  - file: content/public/001.Math/Graphs/Math Practice 29/math_practice_q29
   - file: content/public/001.Math/Graphs/Position Velocity and Acceleration/d_v_a_from_graph
-  - file: content/public/001.Math/Graphs/math_practice_q28/math_practice_q28
-  - file: content/public/001.Math/System of Equations/Math Practice Q7/math_practice_q7
-  - file: content/public/001.Math/math_practiceQ20/math_practiceQ20
-  - file: content/public/001.Math/Derivatives/Math Practice 21/math_practice_q21
-  - file: content/public/001.Math/Derivatives/Math Practice 23/math_practice_q23
   - file: content/public/001.Math/Derivatives/Vehicle_Velocity/Vehicle_Velocity
   - file: content/public/001.Math/Derivatives/Velocity Derivatives/velocity_derivative
   - file: content/public/001.Math/Derivatives/Acceleration_Based_On_Graph/Acceleration_Based_On_Graph
   - file: content/public/001.Math/Order of Magnitude/Largest Number/largest_number
-  - file: content/public/001.Math/math_practice_q26/math_practice_q26
-  - file: content/public/001.Math/Math_practice_q18/math_practice_q18
   - file: content/public/001.Math/Significant Figures/significant_figures/significant_figures
-  - file: content/public/001.Math/Quadratic formula/Diagnostic Q11/diagnosticq11
   - file: content/public/001.Math/fraction_equation/fraction_equation
-  - file: content/public/001.Math/Math_practice14/Math_practice14
-  - file: content/public/001.Math/Logarithmic Functions/math_practice_q16/math_practice_q16
   - file: content/public/001.Math/Topic Outcome/Factor/Factor
 - caption: Physics in General
   chapters:
@@ -71,7 +70,6 @@ parts:
       correct ans
   - file: content/public/002.Physics in General/Topic Outcome/What is conserved/What
       is conserved
-  - file: content/public/002.Physics in General/Topic Outcome/pdf-image-test/pdf-image-test
   - file: content/public/002.Physics in General/Topic Outcome/Skateboarder and observer/Skateboarder
       and observer
   - file: content/public/002.Physics in General/Topic Outcome/Internal Energy Released/Internal
@@ -345,8 +343,6 @@ parts:
       of charges
   - file: content/public/018.Electrostatics/Electric Charge/Suspended neutral conductor/Suspended
       neutral conductor
-  - file: content/public/018.Electrostatics/Electric Charge/Neutral conductor/Neutral
-      conductor
   - file: content/public/018.Electrostatics/Electric Flux/Concentric spherical surfaces/Concentric
       spherical surfaces
   - file: content/public/018.Electrostatics/Electric Flux/Zero flux/Zero flux
@@ -364,8 +360,6 @@ parts:
       parallel wires
   - file: content/public/019.Magnetism/Magnetic Force/Magnetic Force on Airplane/magnetic_force_on_plane
   - file: content/public/019.Magnetism/Magnetic Force/Magnetic Force on Current/magnetic_force_on_current
-  - file: content/public/019.Magnetism/Magnetic Force/Current through a spring/Current
-      through a spring
   - file: content/public/019.Magnetism/Magnetic Force/Force on Electron vs Proton/force_on_electron_versus_proton
   - file: content/public/019.Magnetism/Magnetic Force/Possible Forces on a Charge/possible_forces_on_a_charge
   - file: content/public/019.Magnetism/Solenoids/Magnetic field of a solenoid/Magnetic
@@ -422,7 +416,6 @@ parts:
   - file: content/public/021.Circuits/Resistance/Temperature Range of Resistor/temp_range_of_resistor
   - file: content/public/021.Circuits/Resistance/OSUPv2p10_06/OSUPv2p10_06
   - file: content/public/021.Circuits/Resistance/Ratio Of Diameter/ratio_of_diameter
-  - file: content/public/021.Circuits/Resistance/Length of Wire/length_of_wire
   - file: content/public/021.Circuits/OSUPv2p8_55/OSUPv2p8_55
   - file: content/public/021.Circuits/Ohm's Law/OSUPv2.9.13/OSUPv2.9.13
   - file: content/public/021.Circuits/Ohm's Law/Indicator Light/indicator_light
