@@ -29,17 +29,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 6x - 6y = 42
-    formula2: 2x + 5y = 16
+    formula1: 3x - 8y = 19
+    formula2: 1x + 6y = 32
     part1:
       ans1:
-        value: ' x =51/7, y =2/7'
+        value: ' x =185/13, y =77/26'
       ans2:
-        value: ' x =2/7, y =51/7'
+        value: ' x =77/26, y =185/13'
       ans3:
-        value: ' x =-51/7, y =-2/7'
+        value: ' x =-185/13, y =-77/26'
       ans4:
-        value: ' x =-2/7, y =-51/7'
+        value: ' x =-77/26, y =-185/13'
       ans5:
         value: Don't Know
 ---

@@ -29,20 +29,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -3
-    l0: s
-    l1: z
-    l2: n
-    l3: r
+    num: -6
+    l0: g
+    l1: o
+    l2: f
+    l3: b
     part1:
       ans1:
-        value: n = ${ 3 r + \frac{z}{s}}$
+        value: f = ${ 6 b + \frac{o}{g}}$
       ans2:
-        value: n = ${- \frac{3 r s}{z}}$
+        value: f = ${- \frac{6 b g}{o}}$
       ans3:
-        value: n = ${- \frac{z}{3 r s}}$
+        value: f = ${- \frac{o}{6 b g}}$
       ans4:
-        value: n = ${\frac{3 r + s}{z}}$
+        value: f = ${\frac{6 b + g}{o}}$
       ans5:
         value: Don't Know
 ---

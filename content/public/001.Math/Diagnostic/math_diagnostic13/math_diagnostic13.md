@@ -29,17 +29,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 13
-    a: 7
-    b: 1
+    a: 3
+    b: 7
     part1:
       ans1:
-        value: $z^{6}$
+        value: $z^{-4}$
       ans2:
-        value: $z^{-6}$
+        value: $z^{4}$
       ans3:
-        value: 6z
+        value: -4z
       ans4:
-        value: (7)z
+        value: (3/7)z
       ans5:
         value: Don't Know
 ---

@@ -56,8 +56,8 @@ substitutions:
     vars:
       title: Connecting Capacitors
       name: Maya
-    a: '11'
-    b: '8'
+    a: '8'
+    b: '13'
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} has a {{params.a }} $\rm\ \mu\textrm{F}$ capacitor and a {{params.b }} $\rm\ \mu\textrm{F}$ capacitor.
