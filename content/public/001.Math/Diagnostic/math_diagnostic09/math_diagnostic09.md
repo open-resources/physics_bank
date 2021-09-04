@@ -29,20 +29,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -6
-    l0: g
-    l1: o
-    l2: f
+    num: -2
+    l0: u
+    l1: v
+    l2: r
     l3: b
     part1:
       ans1:
-        value: f = ${ 6 b + \frac{o}{g}}$
+        value: r = ${ 2 b + \frac{v}{u}}$
       ans2:
-        value: f = ${- \frac{6 b g}{o}}$
+        value: r = ${- \frac{2 b u}{v}}$
       ans3:
-        value: f = ${- \frac{o}{6 b g}}$
+        value: r = ${- \frac{v}{2 b u}}$
       ans4:
-        value: f = ${\frac{6 b + g}{o}}$
+        value: r = ${\frac{2 b + u}{v}}$
       ans5:
         value: Don't Know
 ---

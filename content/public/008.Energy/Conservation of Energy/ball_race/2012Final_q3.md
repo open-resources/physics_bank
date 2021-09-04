@@ -33,9 +33,9 @@ substitutions:
       ans1:
         value: A
       ans2:
-        value: They reach the end of the track at the same time.
-      ans3:
         value: B
+      ans3:
+        value: They reach the end of the track at the same time.
       ans4:
         value: More information is needed.
 ---

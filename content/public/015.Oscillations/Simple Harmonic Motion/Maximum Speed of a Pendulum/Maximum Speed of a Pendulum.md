@@ -28,10 +28,10 @@ substitutions:
   params:
     vars:
       title: Maximum Speed of a Pendulum
-    choice: quadrupled
+    choice: quartered
     part1:
       ans1:
-        value: doubled
+        value: halved
       ans2:
         value: quartered
       ans3:
@@ -43,7 +43,7 @@ substitutions:
       ans6:
         value: multiplied by a factor of $\sqrt{2}$
       ans7:
-        value: halved
+        value: doubled
 ---
 # {{ params.vars.title }}
 A  simple  pendulum  swings  at  small  angles.
