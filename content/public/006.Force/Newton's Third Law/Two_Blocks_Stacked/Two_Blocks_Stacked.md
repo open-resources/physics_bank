@@ -41,8 +41,8 @@ substitutions:
     vars:
       title: Two Blocks Stacked
       units: N
-    m: 12
-    f: 0.36
+    m: 11
+    f: 0.44
     t: 40
 ---
 # {{ params.vars.title }}

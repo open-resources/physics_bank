@@ -30,19 +30,19 @@ substitutions:
     vars:
       title: Math Practice 9
     num: -3
-    l0: p
-    l1: g
-    l2: q
-    l3: x
+    l0: s
+    l1: z
+    l2: n
+    l3: r
     part1:
       ans1:
-        value: q = ${ \frac{g}{p} + 3 x}$
+        value: n = ${ 3 r + \frac{z}{s}}$
       ans2:
-        value: q = ${- \frac{3 p x}{g}}$
+        value: n = ${- \frac{3 r s}{z}}$
       ans3:
-        value: q = ${- \frac{g}{3 p x}}$
+        value: n = ${- \frac{z}{3 r s}}$
       ans4:
-        value: q = ${\frac{p + 3 x}{g}}$
+        value: n = ${\frac{3 r + s}{z}}$
       ans5:
         value: Don't Know
 ---
