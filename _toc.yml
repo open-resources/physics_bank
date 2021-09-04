@@ -359,14 +359,17 @@ parts:
   - file: content/public/019.Magnetism/Magnetic Force/Force on Charged Particle/force_on_charged_particle
   - file: content/public/019.Magnetism/Magnetic Force/Suspended parallel wires/Suspended
       parallel wires
+  - file: content/public/019.Magnetism/Magnetic Force/Force on DC Power Line/force_on_dc_powerline
   - file: content/public/019.Magnetism/Magnetic Force/Magnetic Force on Airplane/magnetic_force_on_plane
   - file: content/public/019.Magnetism/Magnetic Force/Magnetic Force on Current/magnetic_force_on_current
   - file: content/public/019.Magnetism/Magnetic Force/Force on Electron vs Proton/force_on_electron_versus_proton
   - file: content/public/019.Magnetism/Magnetic Force/Possible Forces on a Charge/possible_forces_on_a_charge
+  - file: content/public/019.Magnetism/Magnetic Force/Direction of Current/direction_of_current
   - file: content/public/019.Magnetism/Solenoids/Magnetic field of a solenoid/Magnetic
       field of a solenoid
   - file: content/public/019.Magnetism/Solenoids/Current Through Loop/current_through_loop
   - file: content/public/019.Magnetism/Solenoids/Solenoid current/Solenoid current
+  - file: content/public/019.Magnetism/The Hall Effect/Copper in a Magnetic Field/cu_in_magnetic_field
   - file: content/public/019.Magnetism/Magnetic Flux/Flux through a loop/Flux through
       a loop
   - file: content/public/019.Magnetism/Magnetic Flux/Flux due to a coil/Flux due to
@@ -386,9 +389,12 @@ parts:
       Current Loop
   - file: content/public/019.Magnetism/Magnetic Field/Cancelling magnetic fields/Cancelling
       magnetic fields
+  - file: content/public/019.Magnetism/Magnetic Field/Cosmic Ray Proton/cosmic_ray_proton
   - file: content/public/019.Magnetism/Magnetic Field/Current loop/Current loop
   - file: content/public/019.Magnetism/Magnetic Field/Wire in an external magnetic
       field/Wire in an external magnetic field
+  - file: content/public/019.Magnetism/Magnetic Field/Field due to parallel currents/Field
+      due to parallel currents
   - file: content/public/019.Magnetism/Magnetic Field/Field on loop axis/Field on
       loop axis
   - file: content/public/019.Magnetism/Magnetic Field/Circular coil/Circular coil
@@ -396,6 +402,7 @@ parts:
       Field/electron_through_a_magnetic_field
   - file: content/public/019.Magnetism/Magnetic Field/Field due to lightning/Field
       due to lightning
+  - file: content/public/019.Magnetism/Magnetic Field/Charge to Mass Ratio/charge_to_mass
   - file: content/public/019.Magnetism/Magnetic Field/Magnetic field of a coaxial
       cable/Magnetic field of a coaxial cable
   - file: content/public/019.Magnetism/Magnetic Field/Concentric current arcs/Concentric
@@ -405,6 +412,8 @@ parts:
   - file: content/public/019.Magnetism/Magnetic Field/Field due to current segment/Field
       due to current segment
   - file: content/public/019.Magnetism/Magnetic Field/Square toroid/Square toroid
+  - file: content/public/019.Magnetism/Magnetic Field/Magnetic field of a hollow cylinder/Magnetic
+      field of a hollow cylinder
   - file: content/public/019.Magnetism/Magnetic Field/Current through a spring/Current
       through a spring
   - file: content/public/019.Magnetism/Magnetic Field/Particle in Uniform Magnetic
