@@ -28,17 +28,17 @@ substitutions:
   params:
     vars:
       title: Math Practice Q22
-    denom: 7
-    formula: $\cos{\left(\frac{x}{7} \right)}$
+    denom: 9
+    formula: $\sin{\left(\frac{x}{9} \right)}$
     part1:
       ans1:
-        value: ${7 \sin{\left(\frac{x}{7} \right)}}$
+        value: ${- 9 \cos{\left(\frac{x}{9} \right)}}$
       ans2:
-        value: ${- 7 \sin{\left(\frac{x}{7} \right)}}$
+        value: ${9 \cos{\left(\frac{x}{9} \right)}}$
       ans3:
-        value: ${14 \sin{\left(\frac{x}{7} \right)}}$
+        value: ${- 18 \cos{\left(\frac{x}{9} \right)}}$
       ans4:
-        value: ${\frac{7 \sin{\left(\frac{x}{7} \right)}}{2}}$
+        value: ${- \frac{9 \cos{\left(\frac{x}{9} \right)}}{2}}$
 ---
 # {{ params.vars.title }}
 

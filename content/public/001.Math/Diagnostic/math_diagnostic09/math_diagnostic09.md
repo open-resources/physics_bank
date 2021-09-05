@@ -29,20 +29,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -2
-    l0: u
-    l1: v
-    l2: r
-    l3: b
+    num: -8
+    l0: w
+    l1: z
+    l2: a
+    l3: x
     part1:
       ans1:
-        value: r = ${ 2 b + \frac{v}{u}}$
+        value: a = ${ 8 x + \frac{z}{w}}$
       ans2:
-        value: r = ${- \frac{2 b u}{v}}$
+        value: a = ${- \frac{8 w x}{z}}$
       ans3:
-        value: r = ${- \frac{v}{2 b u}}$
+        value: a = ${- \frac{z}{8 w x}}$
       ans4:
-        value: r = ${\frac{2 b + u}{v}}$
+        value: a = ${\frac{w + 8 x}{z}}$
       ans5:
         value: Don't Know
 ---

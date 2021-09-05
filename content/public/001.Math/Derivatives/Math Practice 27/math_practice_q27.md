@@ -1,54 +1,50 @@
 ---
-title: Minimum Coefficient Of Static Friction
-topic: Rotational Motion
-author: Jake Bobowski
-source: 2012 Practice Final Q8
-template_version: 1.0
+title: Math Practice 27
+topic: Math
+author: Simon Bates
+source: Math Diagnostic Q27
+template_version: 1.1
 attribution: standard
 outcomes:
-- 10.3.2.3
+- null
 difficulty:
 - undefined
 randomization:
 - undefined
 taxonomy:
 - undefined
-span:
-- undefined
-length:
-- undefined
 tags:
-- EW
-assets: null
+- math_diagnostic
+- MP
+assets:
+- q27.png
 part1:
   type: multiple-choice
   pl-customizations:
+    fixed-order: true
     weight: 1
 substitutions:
   params:
     vars:
-      title: Minimum Coefficient Of Static Friction
-      vehicle: car
-    r: 63
-    v: 24
+      title: Math Practice 27
     part1:
       ans1:
-        value: 1.1
+        value: Answer A
       ans2:
-        value: 0.93
+        value: Answer B
       ans3:
-        value: 9.1
+        value: Answer C
       ans4:
-        value: 0.039
+        value: Answer D
       ans5:
-        value: 0.38
+        value: Don't Know
 ---
 # {{ params.vars.title }}
-A {{ params.vars.vehicle }} drives around a flat curve with radius $r$ = {{params.r}} $m$ at a speed of $v$ = {{params.v}} $\frac{m}{s}$.
+Which of the following sketches depicts a function $f(x)$ with $f^{'}(x) > 0$ and $f^{''}(x) \\< 0$?
 
 ## Part 1
 
-What is the minimum coefficient of static friction required to keep the car from slipping?
+<img src = "q27.png" alt = "Graph A is increasing with increasing slope, graph B is decreasing with decreasing slope, graph C is decreasing with increasing slope, and graph D is increasing with decreasing slope" width = 500px>
 
 ### Answer Section
 

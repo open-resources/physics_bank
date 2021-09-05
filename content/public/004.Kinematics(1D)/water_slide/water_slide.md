@@ -51,9 +51,9 @@ part4:
 substitutions:
   params:
     vars:
-      name: Maya
+      name: Ximena
       title: Water Slide
-    theta: 40
+    theta: 50
     l: 800
     l2: 400.0
 ---
