@@ -3,8 +3,10 @@ title: Rock Powered Rocket
 topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2015 Practice Midterm 1 Q7
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.2.1.1
 - 7.2.2.0
@@ -46,11 +48,11 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-      name: Abbas
-    i: 345
-    m: 26
-    v_1: 21
-    v_2: 10
+      name: Lorenzo
+    i: 375
+    m: 34
+    v_1: 30
+    v_2: 15
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.

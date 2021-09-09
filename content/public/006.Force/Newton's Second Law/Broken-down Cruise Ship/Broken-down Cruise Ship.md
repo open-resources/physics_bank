@@ -3,8 +3,10 @@ title: Broken-down Cruise Ship
 topic: Force
 author: Jake Bobowski
 source: 2017 Midterm 2 Section 002 Q1
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.4.1.4
 - 6.7.1.0
@@ -26,6 +28,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

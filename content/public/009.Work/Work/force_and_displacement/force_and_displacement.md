@@ -3,8 +3,10 @@ title: Force and Displacement
 topic: Work
 author: Jake Bobowski
 source: 2017 Final Q10
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 9.1.1.1
 - 9.2.1.1
@@ -25,24 +27,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Force and Displacement
       units: J
-    f1: -2
-    f2: 8
-    r1: 19
-    r2: -1
+    f1: -3
+    f2: 9
+    r1: 17
+    r2: -5
     part1:
       ans1:
-        value: -46
+        value: -96
       ans2:
-        value: 46
+        value: 96
       ans3:
-        value: -30
+        value: -6
       ans4:
-        value: 30
+        value: 6
       ans5:
         value: Zero
 ---

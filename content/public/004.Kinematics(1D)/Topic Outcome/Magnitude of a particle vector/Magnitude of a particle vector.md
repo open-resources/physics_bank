@@ -3,8 +3,10 @@ title: The Magnitude of a Particle's Vector
 topic: Kinematics(1D)
 author: Jake Bobowski
 source: 2012 Final Q1
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 4.7.3.0
 difficulty:
@@ -24,6 +26,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: 'Magnitude = '
     suffix: $m/s^2$
@@ -34,10 +37,10 @@ substitutions:
     vars:
       title: The Magnitude of a Particle's Vector
       units: $m/s^2$
-    r_i: 7t^2 + 3t
-    r_j: 3t^2 - 8t
-    t: 11
-    choice: velocity
+    r_i: t^2 + 9t
+    r_j: -2t^2 - t
+    t: 18
+    choice: acceleration
 ---
 # {{ params.vars.title }}
 

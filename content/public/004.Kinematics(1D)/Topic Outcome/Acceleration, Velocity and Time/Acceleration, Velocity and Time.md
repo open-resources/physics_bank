@@ -3,8 +3,10 @@ title: Acceleration, Velocity and Time
 topic: Kinematics(1D)
 author: John Hopkinson
 source: PHYS 112 2016 W1 Midterm 1 Q3 and Q4
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 4.1.1.1
 - 4.6.1.4
@@ -27,11 +29,13 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     fixed-order: true
 part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

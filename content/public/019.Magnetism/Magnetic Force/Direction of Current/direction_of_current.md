@@ -3,8 +3,10 @@ title: Direction of Current
 topic: Magnetism
 author: Vanshika Sharma
 source: 2.11.34
-template_version: 1.2
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.3.2.0
 difficulty:
@@ -33,16 +35,19 @@ part1:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: 'true'
 part2:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: 'true'
 part3:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: 'true'
 substitutions:
   params:

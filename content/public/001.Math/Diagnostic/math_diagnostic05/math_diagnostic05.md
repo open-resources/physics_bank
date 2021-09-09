@@ -3,8 +3,10 @@ title: Math Diagnostic 5
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 1.5.1.5
 difficulty:
@@ -25,22 +27,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Diagnostic Q5
-    num1: 4
-    num2: 8
-    num3: 9
+    num1: 5
+    num2: 5
+    num3: 3
     part1:
       ans1:
-        value: 288
+        value: 75
       ans2:
-        value: '2'
+        value: '1'
       ans3:
-        value: 36
+        value: 15
       ans4:
-        value: '18'
+        value: '3'
       ans5:
         value: Don't Know
 ---

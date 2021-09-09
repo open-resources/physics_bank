@@ -3,8 +3,10 @@ title: Field due to current segment
 topic: Magnetism
 author: Jake Bobowksi
 source: 2.12.16
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 18.11.2.3
 difficulty:
@@ -33,6 +35,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $B= $
@@ -44,10 +47,10 @@ substitutions:
   params:
     vars:
       title: Field due to current segment
-    I: '4.0'
-    x: '4.60'
-    y: '3.20'
-    dl: '0.40'
+    I: '15.5'
+    x: '1.00'
+    y: '2.00'
+    dl: '0.20'
 ---
 # {{ params.vars.title }}
 A ${{ params.I }}\rm\ A$ current flows through the wire shown in the figure.

@@ -3,8 +3,10 @@ title: Centripetal Motion
 topic: Kinematics(2D and 3D)
 author: Michael Kudla
 source: original
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - undefined
 difficulty:

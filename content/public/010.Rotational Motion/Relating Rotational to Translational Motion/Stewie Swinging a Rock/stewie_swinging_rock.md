@@ -3,8 +3,10 @@ title: Swinging a Rock in a Circle
 topic: Rotational Motion
 author: Jake Bobowski
 source: 2014 Midterm 1 Q5
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 5.7.1.2
 - 10.2.1.0

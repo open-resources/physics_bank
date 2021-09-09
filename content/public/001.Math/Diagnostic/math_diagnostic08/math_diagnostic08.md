@@ -3,8 +3,10 @@ title: Math Diagnostic 8
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 1.5.1.9
 difficulty:
@@ -25,23 +27,24 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    a: 5
-    b: '35'
+    a: 16
+    b: '12'
     b_sign: ' - '
-    c: -5
+    c: 4
     part1:
       ans1:
-        value: -1.0x + 7.0y
+        value: 4.0x - 3.0y
       ans2:
-        value: -7.0x +1.0y
+        value: 3.0x +4.0y
       ans3:
-        value: ' - (-1.0x  + 7.0y)/5'
+        value: '  (4.0x  - 3.0y)/4'
       ans4:
-        value: 5x - 35y
+        value: 16x - 12y
       ans5:
         value: Do not know
 ---

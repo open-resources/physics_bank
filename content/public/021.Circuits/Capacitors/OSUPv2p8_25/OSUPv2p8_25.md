@@ -3,8 +3,10 @@ title: Area of Capacitor Plates
 topic: Circuits
 author: Ava Cornell
 source: 2.8.25
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.7.1.0
 difficulty:
@@ -30,6 +32,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $A= $
@@ -41,8 +44,8 @@ substitutions:
   params:
     vars:
       title: Area of Capacitor Plates
-    c: '1.2'
-    d: '3.6'
+    c: '4.2'
+    d: '3.5'
 ---
 # {{ params.vars.title }}
 

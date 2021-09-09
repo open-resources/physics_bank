@@ -3,8 +3,10 @@ title: Hockey net across ice
 topic: Force
 author: John Hopkinson
 source: standard
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.5.1.2
 difficulty:
@@ -24,24 +26,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Hockey net across ice
-    v: 8
-    f: 4.051569730577913
+    v: 15
+    f: 2.896631373860507
     part1:
       ans1:
         value: at a steadily increasing speed.
       ans2:
-        value: at 32.0 $\mathrm{m/s}$.
+        value: at 43.0 $\mathrm{m/s}$.
       ans3:
-        value: at an increasing speed until it reaches 32.0 $\mathrm{m/s}$ then at
+        value: at an increasing speed until it reaches 43.0 $\mathrm{m/s}$ then at
           a constant speed.
       ans4:
         value: at a steadily decreasing speed.
       ans5:
-        value: at 8 $\mathrm{m/s}$.
+        value: at 15 $\mathrm{m/s}$.
 ---
 # {{ params.vars.title }}
 

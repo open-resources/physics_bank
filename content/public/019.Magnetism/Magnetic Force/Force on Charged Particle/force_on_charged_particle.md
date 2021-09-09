@@ -3,8 +3,10 @@ title: Magnetic Force on Charged Particle
 topic: Magnetism
 author: Vanshika Sharma
 source: 2.11.15
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.3.2.0
 difficulty:
@@ -35,31 +37,37 @@ part1:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: 'true'
 part2:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: 'true'
 part3:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: 'true'
 part4:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: 'true'
 part5:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: 'true'
 part6:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: 'true'
 substitutions:
   params:

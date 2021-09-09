@@ -3,8 +3,10 @@ title: Kicked Soccer Ball
 topic: Kinematics(1D)
 author: Jake Bobowski
 source: 2015 midterm 1 Q6
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 4.1.1.1
 difficulty:

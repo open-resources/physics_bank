@@ -3,8 +3,10 @@ title: Induced Current and Magnetic Force
 topic: Magnetism
 author: Ava Cornell
 source: 2.13.23
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.8.1.4
 difficulty:
@@ -32,42 +34,52 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 part3:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 part4:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 part5:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 part6:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 part7:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 part8:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 part9:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 part10:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

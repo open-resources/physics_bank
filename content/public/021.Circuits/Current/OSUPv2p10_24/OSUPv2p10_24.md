@@ -3,8 +3,10 @@ title: Electrocution Safety
 topic: Circuits
 author: Joseph Wandinger
 source: 2.10.24
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.6.1.1
 - 21.8.2.0
@@ -69,10 +71,10 @@ part3:
     weight: 1
 substitutions:
   params:
-    R_b: '10.50'
-    R_s: '2400'
-    V_s: '20.5'
-    I_max: '0.6'
+    R_b: '11.25'
+    R_s: '2150'
+    V_s: '19.5'
+    I_max: '0.5'
 ---
 # {{ params.vars.title }}
 A person with body resistance between their hands of ${{ params.R_b }}\rm\ k \Omega$ accidentally grasps the terminals of a ${{ params.V_s }}\rm\ kV$ power supply.

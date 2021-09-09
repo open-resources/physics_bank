@@ -3,8 +3,10 @@ title: Flux due to a coil
 topic: Magnetism
 author: Jake Bobowksi
 source: 2.12.43
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.3.3.2
 difficulty:

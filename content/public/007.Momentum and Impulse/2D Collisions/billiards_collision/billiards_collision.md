@@ -3,8 +3,10 @@ title: Collision of Billiard Balls
 topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2017 Final Q7
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 7.4.1.1
 - 7.4.1.2
@@ -26,6 +28,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

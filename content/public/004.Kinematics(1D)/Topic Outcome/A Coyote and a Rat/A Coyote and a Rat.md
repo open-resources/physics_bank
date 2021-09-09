@@ -3,8 +3,10 @@ title: A Coyote and a Rat
 topic: Kinematics(1D)
 author: John Hopkinson
 source: PHYS 112 2017W1 002 Final Q15
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 4.1.1.1
 - 4.9.1.0
@@ -61,6 +63,7 @@ part5:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $t= $
     suffix: $s$
@@ -70,6 +73,7 @@ part6:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $v= $
     suffix: $m/s$
@@ -79,6 +83,7 @@ part7:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $v= $
     suffix: $m/s$
@@ -88,6 +93,7 @@ part8:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $x= $
     suffix: $m$
@@ -97,6 +103,7 @@ part9:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $v= $
     suffix: $m/s$
@@ -106,17 +113,18 @@ part10:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: A Coyote and a Rat
-    m_c: 15
-    m_r: 3
-    d_b: 31
-    d_c: 31
+    m_c: 9
+    m_r: 5
+    d_b: 34
+    d_c: 35
     v_r: 5
-    a_c: 4
-    mu_k: 2.93
+    a_c: 7
+    mu_k: 2.31
     part10:
       ans1:
         value: Yes, the coyote will be able to stop before hitting the thorny bush.

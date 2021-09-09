@@ -3,8 +3,10 @@ title: Explosions and Velocity
 topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2015 practice midterm 1 Q4
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.5.1.6
 - 6.4.4.0
@@ -25,27 +27,28 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Explosions and Velocity
-      name: Aliyah
+      name: Santiago
     part1:
-      I_A: 5
-      I_B: 8
-      v_A: 23
-      v_B: 11
-      m_pumpkin: 2
-      v: 100.0
+      I_A: 6
+      I_B: 2
+      v_A: 11
+      v_B: 19
+      m_pumpkin: 3
+      v: 35.0
       ans1:
         value: Yes, because of conservation of momentum
       ans2:
         value: No, because we have not accounted for how the explosion might have
           changed the momentum of the pumpkin.
       ans3:
-        value: No, because the velocity should be $v = $ 34 $m/s$
+        value: No, because the velocity should be $v = $ 30 $m/s$
       ans4:
-        value: No, because the velocity should be $v = $ 17.0 $m/s$
+        value: No, because the velocity should be $v = $ 10.0 $m/s$
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} put a bunch of explosives inside of a {{ params.part1.m_pumpkin }} kg pumpkin, which explodes in two pieces.

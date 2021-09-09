@@ -3,8 +3,10 @@ title: Vehicle Crash
 topic: Kinematics(1D)
 author: John Hopkinson
 source: PHYS 116 2016 W1 002 Mock Test Q4
-template_version: 1.2
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 4.1.1.1
 - 4.9.1.0
@@ -25,29 +27,30 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Vehicle Crash
       name: Lorenzo
-      vehicle_1: truck
-      vehicle_2: car
-    dist: 3.0
-    v: 37.2
-    acc: 12.1
-    s_1: 0.3
-    s_2: 1.645
+      vehicle_1: van
+      vehicle_2: semi-truck
+    dist: 4.86
+    v: 39.3
+    acc: 14.4
+    s_1: 0.2
+    s_2: 1.522
     part1:
       ans1:
-        value: Lorenzo doesn't hit the truck in front because Lorenzo stops in time.
+        value: Lorenzo doesn't hit the van in front because Lorenzo stops in time.
       ans2:
-        value: 20.93 $m/s$
+        value: 20.26 $m/s$
       ans3:
-        value: 17.3 $m/s$
+        value: 17.38 $m/s$
       ans4:
-        value: 33.57 $m/s$
+        value: 36.42 $m/s$
       ans5:
-        value: 13.67 $m/s$
+        value: 14.5 $m/s$
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is following {{params.dist}} $m$ behind a {{params.vars.vehicle_1}} when it suddenly brakes with an acceleration of -{{params.acc}} $m/s^2$.

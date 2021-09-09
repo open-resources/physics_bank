@@ -3,8 +3,10 @@ title: Speed Before Impact
 topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2014 Final Q4
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 7.3.1.2
 - 7.3.1.3
@@ -26,22 +28,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Speed Before Impact
       vehicle: bus
       units: $m/s$
-    m: 550
+    m: 540
     part1:
       ans1:
-        value: 98.0
+        value: 100.0
       ans2:
-        value: 49.0
+        value: 50.0
       ans3:
         value: 25.0
       ans4:
-        value: 12.0
+        value: 13.0
       ans5:
         value: 0
 ---

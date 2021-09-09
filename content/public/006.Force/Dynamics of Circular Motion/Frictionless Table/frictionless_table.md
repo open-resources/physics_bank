@@ -3,8 +3,10 @@ title: Rotation on a Frictionless Table
 topic: Rotational Dynamics
 author: Jake Bobowksi
 source: 2013 Midterm 2 002 Q5
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.2.1.2
 - 6.12.2.0

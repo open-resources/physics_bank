@@ -3,8 +3,10 @@ title: Electric potential of parallel plates
 topic: Electrostatics
 author: Jake Bobowksi
 source: 2.7.78
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 18.11.2.1
 - 18.11.3.0
@@ -33,6 +35,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $d= $
@@ -44,9 +47,9 @@ substitutions:
   params:
     vars:
       title: Electric potential of parallel plates
-    E: '6.40'
+    E: '2.80'
     p: '3'
-    V: '13.0'
+    V: '21.0'
 ---
 # {{ params.vars.title }}
 

@@ -3,8 +3,10 @@ title: Work on Sliding Object
 topic: Work
 author: Jake Bobowski
 source: 2017 Final Q6
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 9.2.1.1
 - 9.1.1.1
@@ -26,6 +28,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

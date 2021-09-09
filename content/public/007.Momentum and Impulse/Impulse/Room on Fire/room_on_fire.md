@@ -3,8 +3,10 @@ title: Living Room on Fire
 topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2013 Midterm 2 002 Q1
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 7.3.1.2
 difficulty:
@@ -24,10 +26,11 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
-      name: Maya
+      name: Mateo
       title: Living Room on Fire
     part1:
       ans1:

@@ -3,8 +3,10 @@ title: Adding Capacitances
 topic: Circuits
 author: Ava Cornell
 source: 2.8.37
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.7.1.0
 - 21.7.2.0
@@ -34,6 +36,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $C= $
@@ -45,12 +48,12 @@ substitutions:
   params:
     vars:
       title: Adding Capacitances
-    a: '8'
-    b: '5'
-    c: '1.5'
+    a: '2'
+    b: '1'
+    c: '3.5'
     d: '4.0'
-    e: '0.50'
-    f: '12'
+    e: '1.50'
+    f: '15'
 ---
 # {{ params.vars.title }}
 

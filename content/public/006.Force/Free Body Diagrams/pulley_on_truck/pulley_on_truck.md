@@ -3,8 +3,10 @@ title: Moving Pulley System
 topic: Force
 author: Jake Bobowski
 source: 2013 Final Q4
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.3.1.2
 - 6.3.1.4
@@ -27,6 +29,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     fixed-order: true
 substitutions:
   params:

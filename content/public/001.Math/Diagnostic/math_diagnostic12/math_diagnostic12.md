@@ -3,8 +3,10 @@ title: Math Diagnostic 12
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 1.5.1.5
 difficulty:
@@ -25,21 +27,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: 'Math Practice #12'
-    a: 4
-    b: 2
+    a: 1
+    b: 5
     part1:
       ans1:
-        value: (2 < x) & (x < 4)
+        value: (4/5 < x) & (x < 1)
       ans2:
-        value: (2 > x) & (x > 4)
+        value: (4/5 > x) & (x > 1)
       ans3:
-        value: x > 4/2
+        value: x > 1/5
       ans4:
-        value: (3/2 < x) & (x < 2)
+        value: (0 < x) & (x < 5)
       ans5:
         value: Do not know
 ---

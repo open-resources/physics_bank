@@ -3,8 +3,10 @@ title: Zero Magnetic Flux
 topic: Magnetism
 author: Ava Cornell
 source: 2.13.7
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - undefined
 difficulty:
@@ -29,6 +31,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

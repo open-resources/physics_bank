@@ -3,8 +3,10 @@ title: Accelerating electrons
 topic: Electrostatics
 author: Jake Bobowksi
 source: 2.7.70
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 18.1.1.3
 difficulty:
@@ -33,6 +35,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $a= $
@@ -44,8 +47,8 @@ substitutions:
   params:
     vars:
       title: Accelerating electrons
-    E: '4.80'
-    p: '5'
+    E: '2.00'
+    p: '4'
 ---
 # {{ params.vars.title }}
 A simple and common technique for accelerating electrons is shown in the figure, where there is a uniform electric field between two plates.

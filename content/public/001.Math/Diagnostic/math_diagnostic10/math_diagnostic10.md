@@ -3,8 +3,10 @@ title: Math Diagnostic 10
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 1.5.1.6
 difficulty:
@@ -25,23 +27,24 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Math Practice Q10
-    a: -4
+    a: 11
     b: '6'
-    b_sign: ' - '
-    c: -10
+    b_sign: ' + '
+    c: -2
     part1:
       ans1:
-        value: 1.0
+        value: x =  - 13/6
       ans2:
-        value: -1.0
+        value: x =   13/6
       ans3:
-        value: 0
+        value: x = -19
       ans4:
-        value: -8
+        value: x = 3
       ans5:
         value: This equation cannot be solved
 ---
@@ -49,7 +52,7 @@ substitutions:
 
 ## Part 1
 
-The solution of the equation {{params.a}} {{params.b_sign}} {{params.b}}x = {{params.c}}
+The solution of the equation {{params.a}} {{params.b_sign}} {{params.b}}x = {{params.c}} is:
 
 ### Answer Section
 

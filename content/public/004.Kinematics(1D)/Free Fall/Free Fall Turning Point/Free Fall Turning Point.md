@@ -3,8 +3,10 @@ title: Free Fall Turning Point
 topic: Kinematics(1D)
 author: John Hopkinson
 source: PHYS 112 2018W1 Practice Final Q4
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 4.10.1.1
 difficulty:
@@ -24,6 +26,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

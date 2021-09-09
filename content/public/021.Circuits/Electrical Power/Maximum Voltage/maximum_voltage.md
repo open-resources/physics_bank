@@ -3,8 +3,10 @@ title: Maximum Voltage
 topic: Electrical Power
 author: Vanshika Sharma
 source: 2.9.56
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.6.1.1
 difficulty:
@@ -30,6 +32,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     label: $V= $
     suffix: $\rm\ V$
@@ -41,8 +44,8 @@ substitutions:
     vars:
       title: Maximum Voltage
       units: V
-    P: 1.12
-    R: 40
+    P: 1.95
+    R: 95
 ---
 # {{ params.vars.title }}
 

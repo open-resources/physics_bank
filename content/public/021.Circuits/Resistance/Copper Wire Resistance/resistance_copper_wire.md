@@ -3,8 +3,10 @@ title: Resistance Of A Copper Wire
 topic: Resistance
 author: Vanshika Sharma
 source: 2.9.38
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.3.1.1
 difficulty:
@@ -31,6 +33,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     label: $R= $
     suffix: $\rm \Omega $
@@ -42,8 +45,8 @@ substitutions:
     vars:
       title: Resistance Of A Copper Wire
       units: Ohms
-    d: 5.284
-    l: 12.9
+    d: 6.101
+    l: 8.8
 ---
 # {{ params.vars.title }}
 

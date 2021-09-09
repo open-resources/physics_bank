@@ -3,8 +3,10 @@ title: Starter Motor Resistance
 topic: Circuits
 author: Joseph Wandinger
 source: 2.10.22
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.6.1.1
 - 21.8.2.0
@@ -110,10 +112,10 @@ substitutions:
   params:
     vars:
       title: Starter Motor Resistance
-    R_b: '0.009'
-    R_m: '0.075'
-    R_add: '0.095'
-    V: '13.00'
+    R_b: '0.007'
+    R_m: '0.080'
+    R_add: '0.100'
+    V: '13.75'
 ---
 # {{ params.vars.title }}
 An automobile starter motor has an equivalent resistance of ${{ params.R_m }}\rm\ \Omega$ and is supplied by a ${{ params.V }}\rm\ V$ battery with a ${{ params.R_b }}\rm\ \Omega$ internal resistance.

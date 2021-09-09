@@ -3,8 +3,10 @@ title: Ball Launched from a Horizontal Cliff
 topic: Kinematics(2D and 3D)
 author: Jake Bobowski
 source: 2012 Midterm 1 Q5 Section 002
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 5.1.1.0
 - 5.5.1.0
@@ -28,6 +30,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $t= $
     suffix: $s$
@@ -37,6 +40,7 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $\theta= $
     suffix: rad
@@ -46,6 +50,7 @@ part3:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     suffix: $\hat{\imath} \; (m/s)$
     comparison: sigfig
@@ -54,6 +59,7 @@ part4:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     suffix: $\hat{\jmath} \; (m/s)$
     comparison: sigfig
@@ -65,8 +71,8 @@ substitutions:
       unit1: $s$
       unit2: rad
       unit3: $m/s$
-    v0: 2.08
-    h: 53.5
+    v0: 2.23
+    h: 51.3
 ---
 # {{ params.vars.title }}
 A small ball is launched from a horizontal cliff with initial speed {{ params.v0 }} $m/s$. The side of the cliff is sloped. The ball makes contact with the cliff side after falling a vertical distance of {{ params.h }} cm.

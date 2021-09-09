@@ -3,8 +3,10 @@ title: Block In Hole
 topic: Energy
 author: Jake Bobowski
 source: 2012 Practice Final Q11
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 8.5.1.1
 difficulty:
@@ -25,6 +27,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $h= $
     suffix: $m$
@@ -35,8 +38,8 @@ substitutions:
     vars:
       title: Block In Hole
       units: m
-    a: 25
-    d: 0.6
+    a: 30
+    d: 0.9
 ---
 # {{ params.vars.title }}
 A small block is placed at height $h$ on a frictionless, {{params.a}}$^\circ$ ramp.

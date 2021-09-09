@@ -3,8 +3,10 @@ title: Block on a Wall
 topic: Force
 author: Jake Bobowski
 source: 2012 Midterm 2 Q5
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.9.1.0
 - 6.1.1.4
@@ -25,6 +27,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $F= $
     suffix: N
@@ -35,9 +38,9 @@ substitutions:
     vars:
       title: Block on a Wall
       units: N
-    theta: 21
-    m: 6
-    mu: 0.491
+    theta: 59
+    m: 4
+    mu: 0.354
 ---
 # {{ params.vars.title }}
 A {{params.m}} kg wood block slides down a vertical wall while you push on it at a {{params.theta}}$^\circ$ angle.

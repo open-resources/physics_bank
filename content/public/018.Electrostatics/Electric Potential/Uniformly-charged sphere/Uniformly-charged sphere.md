@@ -3,8 +3,10 @@ title: Uniformly-charged sphere
 topic: Electrostatics
 author: Jake Bobowksi
 source: 2.7.15
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 18.11.2.4
 difficulty:
@@ -31,6 +33,7 @@ part1:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: true
 substitutions:
   params:

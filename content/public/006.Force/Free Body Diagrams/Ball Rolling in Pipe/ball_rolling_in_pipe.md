@@ -3,8 +3,10 @@ title: Ball Rolling in a Pipe
 topic: Force
 author: Jake Bobowski
 source: 2013 Midterm 2 002 Q3
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.3.1.2
 difficulty:

@@ -3,8 +3,10 @@ title: The Energy Expenditure of a Jogger
 topic: Work
 author: Jake Bobowski
 source: 2015 Final Q5
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 9.3.1.0
 - 9.3.1.1
@@ -26,26 +28,27 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: The Energy Expenditure of a Jogger
       units: W
-    F: 23
-    v: 3.5
+    F: 27
+    v: 5.4
     part1:
       ans1:
-        value: 8.1
+        value: 15.0
       ans2:
-        value: 81.0
+        value: 150.0
       ans3:
-        value: 280.0
+        value: 790.0
       ans4:
-        value: 160.0
+        value: 290.0
       ans5:
-        value: 240.0
+        value: 440.0
       ans6:
-        value: 40.0
+        value: 73.0
 ---
 # {{ params.vars.title }}
 Suppose a jogger has to exert a force of {{ params.F }} $N$ against air resistance to maintain a velocity of {{ params.v }} $m/s$.

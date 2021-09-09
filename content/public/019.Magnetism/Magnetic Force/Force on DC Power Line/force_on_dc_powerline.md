@@ -3,8 +3,10 @@ title: Force on a DC Power Line
 topic: Magnetism
 author: Vanshika Sharma
 source: 2.11.37
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.3.3.0
 - 19.3.3.1
@@ -27,6 +29,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     label: $F= $
     suffix: $\rm\ N$
@@ -38,9 +41,9 @@ substitutions:
   params:
     vars:
       title: Force on a DC Power Line
-    I: 991
-    theta: 66
-    L: 82
+    I: 979
+    theta: 59
+    L: 154
 ---
 # {{ params.vars.title }}
 

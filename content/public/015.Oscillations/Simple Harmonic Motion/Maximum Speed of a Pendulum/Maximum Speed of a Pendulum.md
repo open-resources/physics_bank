@@ -3,8 +3,10 @@ title: Maximum Speed of a Pendulum
 topic: Oscillations
 author: Jake Bobowski
 source: 2013 Practice Final Q3
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 15.2.1.3
 difficulty:
@@ -24,14 +26,15 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Maximum Speed of a Pendulum
-    choice: halved
+    choice: doubled
     part1:
       ans1:
-        value: multiplied by a factor of $\dfrac{1}{\sqrt{2}}$
+        value: multiplied by a factor of $\sqrt{2}$
       ans2:
         value: quartered
       ans3:
@@ -39,7 +42,7 @@ substitutions:
       ans4:
         value: unchanged
       ans5:
-        value: multiplied by a factor of $\sqrt{2}$
+        value: multiplied by a factor of $\dfrac{1}{\sqrt{2}}$
       ans6:
         value: halved
       ans7:

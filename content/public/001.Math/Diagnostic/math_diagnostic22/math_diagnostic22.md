@@ -3,8 +3,10 @@ title: Math Diagnostic 22
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
-template_version: 1.2
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes: null
 difficulty:
 - undefined
@@ -24,21 +26,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Math Practice Q22
-    denom: 9
-    formula: $\cos{\left(\frac{x}{9} \right)}$
+    denom: 3
+    formula: $\sin{\left(\frac{x}{3} \right)}$
     part1:
       ans1:
-        value: ${9 \sin{\left(\frac{x}{9} \right)}}$
+        value: ${- 3 \cos{\left(\frac{x}{3} \right)}}$
       ans2:
-        value: ${- 9 \sin{\left(\frac{x}{9} \right)}}$
+        value: ${3 \cos{\left(\frac{x}{3} \right)}}$
       ans3:
-        value: ${18 \sin{\left(\frac{x}{9} \right)}}$
+        value: ${- 6 \cos{\left(\frac{x}{3} \right)}}$
       ans4:
-        value: ${\frac{9 \sin{\left(\frac{x}{9} \right)}}{2}}$
+        value: ${- \frac{3 \cos{\left(\frac{x}{3} \right)}}{2}}$
 ---
 # {{ params.vars.title }}
 

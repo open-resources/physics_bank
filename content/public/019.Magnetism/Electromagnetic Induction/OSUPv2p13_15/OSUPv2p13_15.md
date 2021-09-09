@@ -3,8 +3,10 @@ title: Inducing Current with Bar Magnet
 topic: Magnetism
 author: Ava Cornell
 source: 2.13.15
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.8.7.0
 difficulty:
@@ -32,31 +34,37 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     fixed-order: true
 part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     fixed-order: true
 part3:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     fixed-order: true
 part4:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     fixed-order: true
 part5:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     fixed-order: true
 part6:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     fixed-order: true
 substitutions:
   params:

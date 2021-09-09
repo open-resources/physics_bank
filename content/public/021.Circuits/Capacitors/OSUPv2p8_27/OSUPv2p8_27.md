@@ -3,8 +3,10 @@ title: Charging a Capacitor
 topic: Circuits
 author: Ava Cornell
 source: 2.8.27
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.7.1.0
 - 21.7.1.1
@@ -31,6 +33,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: true
     label: $Q= $
@@ -42,7 +45,7 @@ substitutions:
   params:
     vars:
       title: Charging a Capacitor
-    c: '3.4'
+    c: '3.9'
     v: '20'
 ---
 # {{ params.vars.title }}

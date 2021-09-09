@@ -3,8 +3,10 @@ title: Concentric spherical shells
 topic: Electrostatics
 author: Jake Bobowksi
 source: 2.7.65
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 18.11.2.4
 - 18.11.3.0

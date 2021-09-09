@@ -3,8 +3,10 @@ title: Force Vectors
 topic: Force
 author: Jake Bobowski
 source: Original
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.6.1.1
 difficulty:
@@ -24,6 +26,7 @@ part1:
   type: checkbox
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     partial-credit: true
     partial-credit-method: EDC
 substitutions:
@@ -32,19 +35,19 @@ substitutions:
       title: Force Vectors
     part1:
       ans1:
-        value: If you have a complicated system made of many objects (all interacting
-          among themselves) only external forces can cause the center of mass of the
-          system to accelerate.
-      ans2:
         value: If two objects push on each other, they will accelerate in opposite
           directions.
+      ans2:
+        value: If two objects push on each other, their velocities will change by
+          the same amount (though opposite directions).
       ans3:
         value: If you have a complicated system made of many objects (all interacting
           among themselves) only external forces can add or remove energy from the
           system.
       ans4:
-        value: If two objects push on each other, their velocities will change by
-          the same amount (though opposite directions).
+        value: If you have a complicated system made of many objects (all interacting
+          among themselves) only external forces can cause the center of mass of the
+          system to accelerate.
       ans5:
         value: If two objects push on each other, their momenta will change by the
           same amount (though opposite directions).

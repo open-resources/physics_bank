@@ -3,8 +3,10 @@ title: Rolling Without Slipping
 topic: Rotational Motion
 author: Jake Bobowski
 source: 2016 Final Q12
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 10.3.2.1
 difficulty:
@@ -24,6 +26,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

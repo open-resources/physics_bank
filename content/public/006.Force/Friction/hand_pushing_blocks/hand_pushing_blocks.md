@@ -3,8 +3,10 @@ title: Hand Pushing on Blocks
 topic: Force
 author: Jake Bobowski
 source: 2012 Midterm 2 Q1
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.9.1.1
 - 6.2.1.2
@@ -26,6 +28,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

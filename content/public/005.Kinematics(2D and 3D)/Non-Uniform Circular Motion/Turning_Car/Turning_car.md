@@ -3,8 +3,10 @@ title: Turning car
 topic: Kinematics(2D and 3D)
 author: Jake Bobowski
 source: Final 2016 Q10
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 5.7.1.0
 difficulty:
@@ -24,13 +26,14 @@ part1:
   type: checkbox
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     partial-credit: true
     partial-credit-method: EDC
 substitutions:
   params:
     vars:
       title: Turning Car
-      vehicle: semi-truck
+      vehicle: bus
     part1:
       ans1:
         value: There is a force pushing everything to the right.
@@ -38,14 +41,13 @@ substitutions:
         value: Your head (and eyes) are not in an inertial reference frame, and so
           things are moving for no reason.
       ans3:
-        value: Your semi-truck is moving along a circular path, and a centripetal
-          acceleration is required. Without a force to push it towards the middle,
-          objects(your shoulders, the soup cans) will NOT move in a circle along with
-          the rest of the semi-truck, and so will move relative to the semi-truck's
-          interior.
+        value: Your bus is moving along a circular path, and a centripetal acceleration
+          is required. Without a force to push it towards the middle, objects(your
+          shoulders, the soup cans) will NOT move in a circle along with the rest
+          of the bus, and so will move relative to the bus's interior.
       ans4:
-        value: Turning to the right forces your semi-truck to tilt, and all the cans
-          and the shoulders shift down-hill.
+        value: Turning to the right forces your bus to tilt, and all the cans and
+          the shoulders shift down-hill.
 ---
 # {{ params.vars.title }}
 If you are sitting in the passenger seat of a {{ params.vars.vehicle}} that makes a quick left turn, your shoulders seem to lean to the right (and all of the soup cans on the floor roll to the right).

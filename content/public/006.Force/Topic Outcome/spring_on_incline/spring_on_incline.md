@@ -3,8 +3,10 @@ title: Spring on an Incline
 topic: Energy
 author: Jake Bobowski
 source: 2013 Final Q10
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 5.9.1.0
 - 5.11
@@ -50,10 +52,10 @@ substitutions:
       units1: m
       units2: J
     m: 2
-    k: 655
-    theta: 27
+    k: 630
+    theta: 28
     mu: 0.25
-    d: 8
+    d: 5
     g: 9.8
 ---
 # {{ params.vars.title }}

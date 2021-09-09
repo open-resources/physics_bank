@@ -3,8 +3,10 @@ title: Kinetic Energy and Momentum
 topic: Energy
 author: Jake Bobowski
 source: 2016 Final Q3
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 7.2.1.1
 - 6.5.1.1
@@ -25,6 +27,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

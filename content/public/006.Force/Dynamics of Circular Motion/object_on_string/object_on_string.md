@@ -3,8 +3,10 @@ title: Object Swung in Circular Path
 topic: Force
 author: Jake Bobowski
 source: 2017 Final Q8
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.12.2.0
 - 6.2.1.2
@@ -27,21 +29,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Object Swung in Circular Path
       units: N
-    m: 0.5
-    r: 8.67
-    w: 4
+    m: 0.67
+    r: 8.84
+    w: 2
     part1:
       ans1:
-        value: 64.46
+        value: 17.13
       ans2:
-        value: 26.88
+        value: -34.35
       ans3:
-        value: 69.36
+        value: 23.69
       ans4:
         value: 19.6
 ---

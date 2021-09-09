@@ -3,8 +3,10 @@ title: Equilibrium Length of a Spring
 topic: Energy
 author: Jake Bobowski
 source: 2012 Final Q9
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 8.3.3.0
 difficulty:
@@ -24,6 +26,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $x= $
     suffix: m
@@ -34,7 +37,7 @@ substitutions:
     vars:
       title: Equilibrium Length of a Spring
       units: J
-    Ux: 9x^2 - 15x - 99
+    Ux: 16x^2 - 20x - 62
 ---
 # {{ params.vars.title }}
 The potential energy of a spring is given by $U(x) = (${{ params.Ux }}$) J$ if $x$ is given in metres.

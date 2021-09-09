@@ -3,8 +3,10 @@ title: Magnetic Force on Airplane
 topic: Magnetism
 author: Vanshika Sharma
 source: 2.11.21
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.3.2.0
 - 19.3.1.1
@@ -46,8 +48,8 @@ substitutions:
   params:
     vars:
       title: Magnetic Force on Airplane
-    q: 0.643
-    v: 687
+    q: 0.984
+    v: 563
     part2:
       ans1:
         value: North

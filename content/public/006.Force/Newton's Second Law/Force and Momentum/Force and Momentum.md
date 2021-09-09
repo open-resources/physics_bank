@@ -3,8 +3,10 @@ title: Force and Momentum
 topic: Force
 author: Jake Bobowski
 source: 2015 Final Q8
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.5.1.1
 - 6.5.1.2
@@ -28,27 +30,28 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Force and Momentum
       units: N
-    p_i: 5t^2 + 5t
-    p_j: -5t^2 + 7t
-    time: 19.2
+    p_i: -4t^3 - 9t^2 + 3t
+    p_j: -2t^2 - t
+    time: 3.0
     part1:
       ans1:
         value: 0
       ans2:
-        value: (197.0$\hat\imath$ - 185.0$\hat\jmath$)
+        value: (-159.0$\hat\imath$ - 13.0$\hat\jmath$)
       ans3:
-        value: (-197.0$\hat\imath$ + 185.0$\hat\jmath$)
+        value: (159.0$\hat\imath$ + 13.0$\hat\jmath$)
       ans4:
-        value: (197.0$\hat\imath$ + 185.0$\hat\jmath$)
+        value: (-159.0$\hat\imath$ + 13.0$\hat\jmath$)
       ans5:
-        value: (-197.0$\hat\imath$ - 185.0$\hat\jmath$)
+        value: (159.0$\hat\imath$ - 13.0$\hat\jmath$)
       ans6:
-        value: (-394.0$\hat\imath$ - 185.0$\hat\jmath$)
+        value: (318.0$\hat\imath$ - 13.0$\hat\jmath$)
 ---
 # {{ params.vars.title }}
 The momentum of an object as a function of time is given by $\vec{p} = (${{ params.p_i }}$)\hat{\imath} + (${{ params.p_j }}$)\hat{\jmath}$ where $p$ is in $kg\cdot m/s$ and $t$ is in seconds.

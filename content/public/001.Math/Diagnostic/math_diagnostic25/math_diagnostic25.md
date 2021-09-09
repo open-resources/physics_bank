@@ -3,8 +3,10 @@ title: Math Diagnostic 25
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
-template_version: 1.2
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes: null
 difficulty:
 - undefined
@@ -24,22 +26,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Math Practice Q25
-    a: 4
-    b: 7
-    c: 1
+    a: 2
+    b: 6
+    c: 2
     part1:
       ans1:
-        value: '3'
+        value: 1/2
       ans2:
         value: Negative Infinity
       ans3:
-        value: 4.0
+        value: 1.0
       ans4:
-        value: 4
+        value: 2
       ans5:
         value: Don't Know
 ---

@@ -3,8 +3,10 @@ title: Rotational Displacement of Tires
 topic: Rotational Motion
 author: Jake Bobowski
 source: 2015 Final Q9
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 10.1.1.1
 difficulty:
@@ -24,6 +26,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $\Delta \theta $
     suffix: rad
@@ -35,8 +38,8 @@ substitutions:
       vehicle: bus
       title: Rotational Displacement of Tires
       units: rad
-    a: 9.36
-    t: 47.4
+    a: 7.66
+    t: 11.6
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }} accelerates from rest at $t = 0$ such that its tires undergo a constant rotational acceleration of $\alpha = $ {{ params.a }} $s^{-2}$.

@@ -3,8 +3,10 @@ title: Box in a Truck Bed 2
 topic: Force
 author: Jake Bobowski
 source: 2017 Final Q12
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.9.1.0
 - 6.9.1.3
@@ -25,12 +27,13 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Box in a Truck Bed 2
-      vehicle: sedan
-      direction: negative
+      vehicle: truck
+      direction: positive
     part1:
       ans1:
         value: Kinetic friction, positive work

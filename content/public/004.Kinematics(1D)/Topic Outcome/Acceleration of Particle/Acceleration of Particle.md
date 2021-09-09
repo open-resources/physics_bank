@@ -3,8 +3,10 @@ title: Acceleration of a Particle
 topic: Kinematics(1D)
 author: Jake Bobowski
 source: 2012 Midterm 1 Q6 Section 002
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 4.7.3.0
 - 1.7.2.4
@@ -26,6 +28,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $t_1= $
     suffix: $s$
@@ -35,6 +38,7 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $t_2= $
     suffix: $s$
@@ -44,6 +48,7 @@ part3:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $a= $
     suffix: $m/s^2$
@@ -53,6 +58,7 @@ part4:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $a= $
     suffix: $m/s^2$
@@ -64,9 +70,9 @@ substitutions:
       title: Acceleration of a Particle
       unit1: $s$
       unit2: $m/s^2$
-    c1: 8
-    c2: 3
-    c3_abs: 28
+    c1: 2
+    c2: 2
+    c3_abs: 35
     c3_sign: ' - '
 ---
 # {{ params.vars.title }}

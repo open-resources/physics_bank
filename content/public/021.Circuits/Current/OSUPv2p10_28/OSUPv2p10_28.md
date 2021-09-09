@@ -3,8 +3,10 @@ title: Electrical Appliances Plugged into an Outlet
 topic: Circuits
 author: Joseph Wandinger
 source: 2.10.28
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.1.1.6
 - 21.12.1.0
@@ -74,12 +76,12 @@ part4:
     weight: 1
 substitutions:
   params:
-    P_T: '1730'
-    P_S: '1430'
-    P_L: '70.0'
-    I_F: '21.0'
-    V: '145.0'
-    prep: a
+    P_T: '1880'
+    P_S: '1380'
+    P_L: '80.0'
+    I_F: '27.0'
+    V: '130.0'
+    prep: an
     part4:
       ans1:
         value: 'Yes'

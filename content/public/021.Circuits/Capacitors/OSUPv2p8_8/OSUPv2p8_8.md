@@ -3,8 +3,10 @@ title: Maximizing Energy in a Capacitor Bank
 topic: Circuits
 author: Ava Cornell
 source: 2.8.8
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.7.1.0
 - 21.7.2.0
@@ -35,11 +37,12 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Maximizing Energy in a Capacitor Bank
-      name: Ximena
+      name: Maya
     part1:
       ans1:
         value: Parallel

@@ -3,8 +3,10 @@ title: Current Through Loop
 topic: Magnetism
 author: Vanshika Sharma
 source: 2.11.41
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.3.4.0
 - 19.3.4.1
@@ -32,6 +34,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     label: $I= $
     suffix: $\rm\ A$
@@ -43,10 +46,10 @@ substitutions:
   params:
     vars:
       title: Current Through Loop
-    N: 17
-    t: 16
-    s: 11
-    B: 0.735
+    N: 36
+    t: 18
+    s: 8
+    B: 0.195
 ---
 # {{ params.vars.title }}
 

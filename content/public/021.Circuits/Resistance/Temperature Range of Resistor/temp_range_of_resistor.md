@@ -3,8 +3,10 @@ title: Temperature Range of Resistor
 topic: Circuits
 author: Vanshika Sharma
 source: 2.9.44
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.3.1.0
 - 21.3.3.0
@@ -31,6 +33,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: true
     label: $\Delta T = \pm $
@@ -42,9 +45,9 @@ substitutions:
   params:
     vars:
       title: Temperature Range of Resistor
-    p: 3
-    metal: Manganin
-    T_0: 80
+    p: 8
+    metal: Tungsten
+    T_0: 88
 ---
 # {{ params.vars.title }}
 

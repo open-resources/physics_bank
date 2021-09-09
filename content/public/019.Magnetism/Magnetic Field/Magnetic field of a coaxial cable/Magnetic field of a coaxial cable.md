@@ -3,8 +3,10 @@ title: Magnetic field of a coaxial cable
 topic: Magnetism
 author: Jake Bobowksi
 source: 2.12.48
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.2.4.1
 difficulty:

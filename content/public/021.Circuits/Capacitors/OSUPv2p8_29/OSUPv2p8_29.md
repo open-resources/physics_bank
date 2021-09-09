@@ -3,8 +3,10 @@ title: Cylindrical Capacitor
 topic: Circuits
 author: Ava Cornell
 source: 2.8.29
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.7.1.0
 difficulty:
@@ -30,6 +32,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $R_2/R_1= $
@@ -40,7 +43,7 @@ substitutions:
   params:
     vars:
       title: Cylindrical Capacitor
-    c: '28'
+    c: '20'
 ---
 # {{ params.vars.title }}
 

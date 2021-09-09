@@ -3,8 +3,10 @@ title: Math Diagnostic 7
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 1.11.3.0
 difficulty:
@@ -25,21 +27,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 2x - 2y = 6
-    formula2: 3x + 8y = 10
+    formula1: 6x - 7y = 20
+    formula2: 7x + 10y = 11
     part1:
       ans1:
-        value: ' x =34/11, y =1/11'
+        value: ' x =216/85, y =-55/81'
       ans2:
-        value: ' x =1/11, y =34/11'
+        value: ' x =-55/81, y =216/85'
       ans3:
-        value: ' x =-34/11, y =-1/11'
+        value: ' x =-216/85, y =55/81'
       ans4:
-        value: ' x =-1/11, y =-34/11'
+        value: ' x =55/81, y =-216/85'
       ans5:
         value: Don't Know
 ---

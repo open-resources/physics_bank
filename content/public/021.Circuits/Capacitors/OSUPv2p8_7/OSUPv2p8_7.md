@@ -3,8 +3,10 @@ title: Combining Capacitors
 topic: Circuits
 author: Ava Cornell
 source: 2.8.7
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.7.1.0
 - 21.7.2.0
@@ -58,8 +60,8 @@ substitutions:
   params:
     vars:
       title: Combining Capacitors
-    c: '3.0'
-    n: '6'
+    c: '1.5'
+    n: '3'
 ---
 # {{ params.vars.title }}
 

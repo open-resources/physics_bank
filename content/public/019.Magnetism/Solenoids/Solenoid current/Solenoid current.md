@@ -3,8 +3,10 @@ title: Solenoid current
 topic: Magnetism
 author: Jake Bobowksi
 source: 2.12.50
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.6.1.0
 difficulty:
@@ -31,6 +33,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $I= $
@@ -42,8 +45,8 @@ substitutions:
   params:
     vars:
       title: Solenoid current
-    n: '19'
-    B: '2.2'
+    n: '16'
+    B: '4.4'
     p: '-1'
 ---
 # {{ params.vars.title }}

@@ -3,8 +3,10 @@ title: Force On An Object
 topic: Force
 author: Jake Bobowski
 source: 2015 Midterm 2 Q3
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 1.7.2.1
 - 6.5.1.1
@@ -26,21 +28,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Force On An Object
-    m: 23
+    m: 24
     part1:
       ans1:
-        value: $F = $ -57.5 $N$
+        value: $F = $ -60.0 $N$
       ans2:
-        value: $F = $ 57.5 $N$
+        value: $F = $ 60.0 $N$
       ans3:
-        value: $F = $ 57.5 $N$ from 2 to 6 $s$, then $F = $ -57.5 $N$ from 6 to 10
+        value: $F = $ 60.0 $N$ from 2 to 6 $s$, then $F = $ -60.0 $N$ from 6 to 10
           $s$
       ans4:
-        value: $F = $ -57.5 $N$ from 2 to 6 $s$, then $F = $ 57.5 $N$ from 6 to 10
+        value: $F = $ -60.0 $N$ from 2 to 6 $s$, then $F = $ 60.0 $N$ from 6 to 10
           $s$
       ans5:
         value: Impossible to tell

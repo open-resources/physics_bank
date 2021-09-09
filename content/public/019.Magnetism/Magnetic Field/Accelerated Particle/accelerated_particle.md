@@ -3,8 +3,10 @@ title: Accelerated Particle
 topic: Magnetism
 author: Vanshika Sharma
 source: 2.11.32
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.2.3.0
 - 19.2.3.1

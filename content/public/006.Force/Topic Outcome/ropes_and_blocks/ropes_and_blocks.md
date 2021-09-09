@@ -3,8 +3,10 @@ title: Ropes and Blocks
 topic: Force
 author: Jake Bobowski
 source: 2017 Final Q13
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.1.1.4
 - 6.1.1.5
@@ -28,6 +30,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $a= $
     suffix: $\frac{m}{s^2}$
@@ -37,6 +40,7 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $T= $
     suffix: N
@@ -46,6 +50,7 @@ part3:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $F= $
     suffix: N
@@ -57,10 +62,10 @@ substitutions:
       title: Ropes and Blocks
       units1: $\frac{m}{s^2}$
       units2: N
-    m_a: 3
+    m_a: 4
     m_b: 3
-    m_c: 5
-    f_a: 50
+    m_c: 3
+    f_a: 36
 ---
 # {{ params.vars.title }}
 Assume the three blocks portrayed in the figure move on a frictionless surface and a {{params.f_a}} N force

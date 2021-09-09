@@ -3,8 +3,10 @@ title: Field due to parallel currents
 topic: Magnetism
 author: Jake Bobowski
 source: 2.12.26
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.2.4.1
 - 19.2.4.5
@@ -46,16 +48,17 @@ part2:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: true
     sort: fixed
 substitutions:
   params:
     vars:
       title: Field due to parallel currents
-    I1: '20.0'
-    I2: '25.0'
-    r1: '8.0'
-    r2: '12.0'
+    I1: '17.5'
+    I2: '12.5'
+    r1: '15.0'
+    r2: '5.0'
     part2:
       ans1:
         value: Out of the screen.

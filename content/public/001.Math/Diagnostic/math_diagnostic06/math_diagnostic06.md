@@ -3,8 +3,10 @@ title: Math Diagnostic 6
 topic: Math
 author: Simon Bates
 source: Math Diagnostic Q6
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - null
 difficulty:
@@ -25,23 +27,24 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Rational Equation
-    x1: 4
-    x2: 1
-    x3: 8
-    x4: 3
+    x1: 8
+    x2: 6
+    x3: 7
+    x4: 1
     part1:
       ans1:
-        value: 29/16
+        value: 25/11
       ans2:
-        value: -5/4
+        value: -17/11
       ans3:
-        value: -29/6
+        value: 25/3
       ans4:
-        value: 5/4
+        value: -41/22
 ---
 # {{ params.vars.title }}
 

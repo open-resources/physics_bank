@@ -3,8 +3,10 @@ title: Math Diagnostic 27
 topic: Math
 author: Simon Bates
 source: Math Diagnostic Q27
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - null
 difficulty:

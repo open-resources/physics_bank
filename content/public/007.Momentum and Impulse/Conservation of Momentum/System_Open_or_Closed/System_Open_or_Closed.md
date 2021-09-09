@@ -3,8 +3,10 @@ title: System Open or Closed
 topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2015 Practice Midterm Q3
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 7.5.1.1
 - 7.5.1.4
@@ -26,14 +28,15 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: System Open or Closed
-      vehicle: sedan
+      vehicle: pickup truck
       units: kg
-    i_a: 72
-    i_b: 327
+    i_a: 57
+    i_b: 292
     part1:
       ans1:
         value: Yes, because the two carts are on a track with no friction.

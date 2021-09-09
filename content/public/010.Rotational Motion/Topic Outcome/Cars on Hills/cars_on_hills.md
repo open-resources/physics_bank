@@ -3,8 +3,10 @@ title: Cars on Hills
 topic: Rotational Motion
 author: Jake Bobowski
 source: 2012 Midterm 2 Q4
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.9.1.0
 - 5.7.1.0
@@ -41,9 +43,9 @@ substitutions:
     vars:
       title: Cars on Hills
       units: "$\frac{m}{s^2}"
-    v: 17
-    r: 283
-    mu: 5.74
+    v: 24
+    r: 273
+    mu: 6.39
 ---
 # {{ params.vars.title }}
 Two cars are driving at {{params.v}} $m/s$ along the road shown in the figure.

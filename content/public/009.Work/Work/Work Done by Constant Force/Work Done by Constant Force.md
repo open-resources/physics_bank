@@ -3,8 +3,10 @@ title: Work Done by a Constant Force
 topic: Work
 author: Jake Bobowski
 source: 2013 Practice Final Q6
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 9.1.1.0
 difficulty:
@@ -25,6 +27,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $W= $
     suffix: $J$
@@ -34,6 +37,7 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $W= $
     suffix: $J$
@@ -43,6 +47,7 @@ part3:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $W= $
     suffix: $J$
@@ -52,6 +57,7 @@ part4:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $W= $
     suffix: $J$
@@ -62,8 +68,8 @@ substitutions:
     vars:
       title: Work Done by a Constant Force
       units: $J$
-    F: 9.71
-    r: 28.8
+    F: 25.2
+    r: 36.9
 ---
 # {{ params.vars.title }}
 Calculate the work done by a constant force of magnitude $F = $ {{ params.F }} $N$ applied over a displacement of magnitude $\Delta r = $ {{ params.r }} $m$ for all four of the diagrams.

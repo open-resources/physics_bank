@@ -3,8 +3,10 @@ title: Uniformly Decreasing Magnetic Field
 topic: Magnetism
 author: Ava Cornell
 source: 2.13.52
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.8.6.0
 - 19.8.6.1
@@ -33,6 +35,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     label: $E= $
     suffix: $\rm\ {N/C}$
@@ -44,13 +47,14 @@ part2:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: true
 substitutions:
   params:
     vars:
       title: Uniformly Decreasing Magnetic Field
-    r: '10'
-    B: '2.0'
+    r: '15'
+    B: '2.5'
     t: '20'
     part2:
       ans1:

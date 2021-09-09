@@ -3,8 +3,10 @@ title: Magnetic field of a solenoid
 topic: Magnetism
 author: Jake Bobowksi
 source: 2.12.49
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.6.1.0
 difficulty:
@@ -31,6 +33,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $B= $
@@ -42,8 +45,8 @@ substitutions:
   params:
     vars:
       title: Magnetic field of a solenoid
-    n: '2100'
-    I: '9.60'
+    n: '2700'
+    I: '3.20'
 ---
 # {{ params.vars.title }}
 A solenoid is wound with {{ params.n }} turns per meter.

@@ -3,8 +3,10 @@ title: Electric potential of a point charge
 topic: Electrostatics
 author: Jake Bobowski
 source: 2.7.86
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 18.11.2.2
 difficulty:
@@ -44,8 +46,8 @@ substitutions:
   params:
     vars:
       title: Electric potential of a point charge
-    r: '3.40'
-    V: '5.00'
+    r: '6.00'
+    V: '4.80'
 ---
 # {{ params.vars.title }}
 

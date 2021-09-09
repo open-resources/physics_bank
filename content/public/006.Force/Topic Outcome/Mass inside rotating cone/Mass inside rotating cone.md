@@ -3,8 +3,10 @@ title: Mass inside a Rotating Cone
 topic: Force
 author: Jake Bobowski
 source: 2013 Practice Final Q12
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.1.1.4
 - 6.5.1.3

@@ -3,8 +3,10 @@ title: Cat in a Laundry Basket
 topic: Kinematics(2D and 3D)
 author: John Hopkinson
 source: PHYS 112 2020W Midterm 1 Q3
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 5.5.1.0
 - 1.1.1.0
@@ -26,12 +28,13 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Cat in a Laundry Basket
-    w: 33
-    h: 32
+    w: 31
+    h: 40
     part1:
       ans1:
         value: $\Delta t_1 >\Delta t_3 >\Delta t_2$ and $v_{x1} > v_{x2}$

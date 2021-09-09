@@ -3,8 +3,10 @@ title: Running Dog
 topic: Kinematics(1D)
 author: Jake Bobowski
 source: 2015 Practice Midterm Q1
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 4.2.1.0
 - 4.2.1.1
@@ -26,6 +28,7 @@ part1:
   type: checkbox
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     partial-credit: true
     partial-credit-method: EDC
 substitutions:
@@ -35,13 +38,13 @@ substitutions:
     choice: Untrue
     part1:
       ans1:
-        value: The dog is not moving between t=6s and t=10s
-      ans2:
-        value: The dog has a negative acceleration at t=9s
-      ans3:
         value: The dog is slowing down at t=7s
+      ans2:
+        value: The dog is moving at the same speed at time t=8s and t=10s
+      ans3:
+        value: The dog has a negative acceleration at t=9s
       ans4:
-        value: The dog is speeding up at time t=7s
+        value: The dog is not moving between t=2s and t=6s
 ---
 # {{ params.vars.title }}
 Consider the following motion diagram for a dog running down a straight path.

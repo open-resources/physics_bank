@@ -3,8 +3,10 @@ title: Circular coil
 topic: Magnetism
 author: Jake Bobowksi
 source: 2.12.36
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.2.4.3
 - 19.2.4.7
@@ -32,6 +34,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $N= $
@@ -42,9 +45,9 @@ substitutions:
   params:
     vars:
       title: Circular coil
-    r: '13.00'
-    I: '0.72'
-    B: '1.80'
+    r: '7.50'
+    I: '0.74'
+    B: '2.60'
     p: '-3'
 ---
 # {{ params.vars.title }}

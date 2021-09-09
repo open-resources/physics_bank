@@ -3,8 +3,10 @@ title: Velocity and Net Force
 topic: Force
 author: Jake Bobowski
 source: 2013 Final Q1
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 5.1.1.1
 - 5.11.1
@@ -26,6 +28,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

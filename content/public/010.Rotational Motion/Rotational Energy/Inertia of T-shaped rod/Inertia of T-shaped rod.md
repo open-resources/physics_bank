@@ -3,8 +3,10 @@ title: Rotational Inertia of T-shaped Rods
 topic: Rotational Motion
 author: Jake Bobowski
 source: 2015 Final Q10
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 10.5.2.0
 - 10.5.2.2
@@ -26,12 +28,13 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     fixed-order: true
 substitutions:
   params:
     vars:
       title: Rotational Inertia of T-shaped Rods
-    choice: maximum
+    choice: minimum
     part1:
       ans1:
         value: Figure (a)

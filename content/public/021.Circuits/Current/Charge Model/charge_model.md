@@ -3,8 +3,10 @@ title: Charge Model
 topic: Current
 author: Vanshika Sharma
 source: 2.9.25
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.2.1.0
 difficulty:
@@ -32,6 +34,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     label: $I= $
     suffix: $\rm\ A$
@@ -43,10 +46,10 @@ substitutions:
     vars:
       title: Charge Model
       units: A
-    c1: 16
-    c2: 14
-    c3: 20
-    t: 32
+    c1: 14
+    c2: 21
+    c3: 34
+    t: 36
 ---
 # {{ params.vars.title }}
 The quantity of charge through a conductor is modeled as $ \textrm{Q}=$ {{params.c1}}$\rm{t^4}$ $\rm{mC \over s^4}$ - {{params.c2}}$\rm{t}$ $\rm{mC \over s}$ + {{params.c1}} $\rm{mC}$.

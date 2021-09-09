@@ -3,8 +3,10 @@ title: Induced emf and current
 topic: Magnetism
 author: Ava Cornell
 source: 2.13.5
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.8.2.0
 difficulty:
@@ -31,10 +33,12 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

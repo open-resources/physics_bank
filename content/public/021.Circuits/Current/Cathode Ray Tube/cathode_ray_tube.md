@@ -3,8 +3,10 @@ title: Cathode Ray Tube
 topic: Circuits
 author: Vanshika Sharma
 source: 2.9.22
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.2.1.0
 - 21.2.1.1
@@ -26,6 +28,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     label: Number of electrons =
     comparison: relabs
@@ -35,7 +38,7 @@ substitutions:
   params:
     vars:
       title: Cathode Ray Tube
-    I: 69
+    I: 47
     t: 3
 ---
 # {{ params.vars.title }}

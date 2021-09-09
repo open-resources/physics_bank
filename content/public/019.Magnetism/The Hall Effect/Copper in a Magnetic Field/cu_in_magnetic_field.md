@@ -3,8 +3,10 @@ title: Copper in a Magnetic Field
 topic: Magnetism
 author: Vanshika Sharma
 source: 2.11.48
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.5.1.0
 - 19.5.1.1
@@ -51,10 +53,10 @@ substitutions:
   params:
     vars:
       title: Copper in a Magnetic Field
-    B: 4.3
-    E: 8.5
-    n: 4
-    A: 7.1
+    B: 8.7
+    E: 4.0
+    n: 2
+    A: 5.0
 ---
 # {{ params.vars.title }}
 A strip of copper is placed in a uniform magnetic field of magnitude ${{params.B}}\textrm{ T}$.

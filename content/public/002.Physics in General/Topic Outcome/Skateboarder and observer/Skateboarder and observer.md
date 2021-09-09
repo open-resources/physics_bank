@@ -3,8 +3,10 @@ title: A Skateboarder and an Observer
 topic: Kinematics(2D and 3D)
 author: Jake Bobowski
 source: 2015 Final Q14
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 5.8.1.1
 - 5.8.1.3
@@ -29,6 +31,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $v= $
     suffix: $m/s \;$ ($\hat\imath$)
@@ -38,6 +41,7 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $t= $
     suffix: $s$
@@ -47,6 +51,7 @@ part3:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $x= $
     suffix: m
@@ -56,6 +61,7 @@ part4:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $v= $
     suffix: $m/s$
@@ -65,6 +71,7 @@ part5:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $x= $
     suffix: m
@@ -73,17 +80,17 @@ part5:
 substitutions:
   params:
     vars:
-      name1: Ahmed
-      name2: Aliyah
+      name1: Aliyah
+      name2: Emilia
       title: A Skateboarder and an Observer
       unit_v: $m/s$
       unit_t: $s$
       unit_x: $m$
-    v: 1.52
-    v_b: 5.38
-    h: 4.71
-    m_s: 117.0
-    m_b: 1.12
+    v: 1.08
+    v_b: 4.24
+    h: 1.3
+    m_s: 60.7
+    m_b: 2.51
 ---
 # {{ params.vars.title }}
 {{ params.vars.name1 }}  is  on  a  skateboard  and  has  an  initial  velocity  of  ({{ params.v }} $m/s$) $\hat{\imath}$ relative  to  {{ params.vars.name2 }}  who  is at rest with respect to the earth.  Just as they are gliding past {{ params.vars.name2 }},  {{ params.vars.name1 }} throws a ball in the positive $x$-direction from a height of {{ params.h }} m.  According to {{ params.vars.name1 }}, the ball has an initial velocity of ({{ params.v_b }} $m/s$) $\hat{\imath}$.

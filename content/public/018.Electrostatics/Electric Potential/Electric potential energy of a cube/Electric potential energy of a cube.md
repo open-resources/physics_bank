@@ -3,8 +3,10 @@ title: Electric potential energy of a cube
 topic: Electrostatics
 author: Jake Bobowksi
 source: 2.7.74
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 18.11.2.3
 difficulty:
@@ -31,6 +33,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $U= $
@@ -42,8 +45,8 @@ substitutions:
   params:
     vars:
       title: Electric potential energy of a cube
-    q: '1.20'
-    d: '1.20'
+    q: '2.60'
+    d: '2.80'
 ---
 # {{ params.vars.title }}
 

@@ -3,8 +3,10 @@ title: Voltage Applied to a Capacitor
 topic: Circuits
 author: Ava Cornell
 source: 2.8.21
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.7.1.0
 - 21.7.1.1
@@ -31,6 +33,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: true
     label: $V= $
@@ -42,8 +45,8 @@ substitutions:
   params:
     vars:
       title: Voltage Applied to a Capacitor
-    c: '1.4'
-    q: '3.3'
+    c: '2.6'
+    q: '3.1'
 ---
 # {{ params.vars.title }}
 

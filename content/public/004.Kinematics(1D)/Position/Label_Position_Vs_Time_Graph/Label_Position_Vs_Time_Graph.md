@@ -3,8 +3,10 @@ title: Label Position Vs Time Graph
 topic: Kinematics(1D)
 author: John Hopkinson
 source: PHYS 112 2015W1 Mock Test Q3
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 4.3.1.2
 difficulty:
@@ -25,26 +27,31 @@ part1:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: 'true'
 part2:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: 'true'
 part3:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: 'true'
 part4:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: 'true'
 part5:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: 'true'
 substitutions:
   params:

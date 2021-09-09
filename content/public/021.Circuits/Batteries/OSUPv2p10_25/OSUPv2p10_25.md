@@ -3,8 +3,10 @@ title: Automobile Battery Properties
 topic: Circuits
 author: Joseph Wandinger
 source: 2.10.25
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.6.1.1
 difficulty:
@@ -55,9 +57,9 @@ part2:
     weight: 1
 substitutions:
   params:
-    V: '13.5'
-    V_t: '17.0'
-    I: '11.50'
+    V: '13.0'
+    V_t: '17.5'
+    I: '10.25'
 ---
 # {{ params.vars.title }}
 A ${{ params.V }}\rm\ V$ emf automobile battery has a terminal voltage of ${{ params.V_t }}\rm\ V$ when being charged by a current of ${{ params.I }}\rm\ A$.

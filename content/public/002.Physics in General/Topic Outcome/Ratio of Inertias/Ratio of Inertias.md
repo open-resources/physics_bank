@@ -3,8 +3,10 @@ title: Ratio of Inertias
 topic: Physics in General
 author: Jake Bobowski
 source: 2015 Pratice Midterm 2
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.4.1.2
 - 7.2.1.6
@@ -27,20 +29,21 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Ratio of Inertias
-    choice: six
+    choice: three
     part1:
       ans1:
-        value: $\dfrac{1}{6}$
-      ans2:
-        value: $\dfrac{1}{5}$
-      ans3:
-        value: $\dfrac{1}{4}$
-      ans4:
         value: $\dfrac{1}{3}$
+      ans2:
+        value: $\dfrac{1}{6}$
+      ans3:
+        value: $\dfrac{1}{5}$
+      ans4:
+        value: $\dfrac{1}{4}$
       ans5:
         value: $\dfrac{1}{2}$
       ans6:

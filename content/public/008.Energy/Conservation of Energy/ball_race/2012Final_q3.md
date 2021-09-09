@@ -3,8 +3,10 @@ title: Two Balls Launched on Different Tracks
 topic: Energy
 author: Jake Bobowski
 source: 2012 Final Q3
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 7.5.1.2
 difficulty:
@@ -25,19 +27,20 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Two Balls Launched on Different Tracks
     part1:
       ans1:
-        value: More information is needed.
+        value: A
       ans2:
         value: B
       ans3:
-        value: A
-      ans4:
         value: They reach the end of the track at the same time.
+      ans4:
+        value: More information is needed.
 ---
 # {{ params.vars.title }}
 Balls A and B are launched with the same initial velocity along a pair of tracks as shown in the figure.

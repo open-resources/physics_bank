@@ -3,8 +3,10 @@ title: Coil Encircling Solenoid
 topic: Magnetism
 author: Ava Cornell
 source: 2.13.30
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.8.1.0
 difficulty:
@@ -30,6 +32,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $\varepsilon= $
@@ -41,11 +44,11 @@ substitutions:
   params:
     vars:
       title: Coil Encircling Solenoid
-    n: '10'
-    A: '5'
-    I: '0.75'
-    N: '4'
-    t: '0.04'
+    n: '17'
+    A: '8'
+    I: '0.25'
+    N: '5'
+    t: '0.06'
 ---
 # {{ params.vars.title }}
 

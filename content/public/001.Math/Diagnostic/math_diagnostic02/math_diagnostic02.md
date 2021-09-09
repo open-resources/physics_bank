@@ -3,8 +3,10 @@ title: Math Diagnostic 2
 topic: Math
 author: Simon Bates
 source: Math Diagnostic Q2
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 1.3.1.0
 difficulty:
@@ -25,26 +27,28 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Significant Figures
-    x: 420.4011118
-    sf: 5
+    x: 397.3199
+    sf: 2
     part1:
       ans1:
-        value: 420.4
+        value: 400.0
       ans2:
-        value: 420.5
+        value: 400.1
       ans3:
-        value: 420.40111
+        value: 397.32
       ans4:
-        value: 410.4
+        value: 390.0
 ---
 # {{ params.vars.title }}
 
 ## Question Text
 
+Choose the most fitting response:
 The number {{ params.x }} written to {{ params.sf }} significant figures is:
 
 ### Answer Section

@@ -3,8 +3,10 @@ title: Displacement of a Vehicle
 topic: Kinematics(1D)
 author: Jake Bobowski
 source: 2012 Midterm 1 Q1 Section 002
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 4.1.1.0
 difficulty:
@@ -24,6 +26,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $\Delta r = $
     suffix: blocks
@@ -32,15 +35,15 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: bus
+      vehicle: van
       title: Displacement of a Vehicle
       units: blocks
-    c1: 14
-    c2: 92
-    c3: 10
-    dir1: west
-    dir2: east
-    dir3: south
+    c1: 94
+    c2: 49
+    c3: 49
+    dir1: east
+    dir2: south
+    dir3: west
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }} moves {{ params.c1}} blocks due {{ params.dir1}}, {{ params.c2 }} blocks due {{ params.dir2}}, and another {{ params.c3 }} blocks due {{ params.dir3}}.

@@ -3,8 +3,10 @@ title: Choose all Vectors and Scalars
 topic: Vectors
 author: Jake Bobowski
 source: 2015 practice midterm 1 Q5
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 2.1.1.0
 difficulty:
@@ -24,6 +26,7 @@ part1:
   type: checkbox
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     partial-credit: true
     partial-credit-method: EDC
 substitutions:
@@ -33,17 +36,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Volume
-      ans2:
-        value: Area
-      ans3:
         value: Mass
+      ans2:
+        value: Entropy
+      ans3:
+        value: Speed
       ans4:
-        value: Length
+        value: The average velocity
       ans5:
-        value: Weight
+        value: Lift
       ans6:
-        value: velocity
+        value: The position in a 1 dimensional system
 ---
 # {{ params.vars.title }}
 

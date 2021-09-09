@@ -3,8 +3,10 @@ title: Electron in a capacitor
 topic: Electrostatics
 author: Jake Bobowski
 source: 2.7.77
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 18.11.1.4
 difficulty:
@@ -46,11 +48,11 @@ substitutions:
   params:
     vars:
       title: Electron in a capacitor
-    d: '3.0'
+    d: '2.0'
     V: '260'
-    s: '7.5'
-    p: '6'
-    x: '1.8'
+    s: '4.0'
+    p: '5'
+    x: '1.0'
 ---
 # {{ params.vars.title }}
 An electron enters a region between two large parallel plates made of aluminum separated by a distance of ${{ params.d }}\rm\ cm$ and kept at a potential difference of ${{ params.V }}\rm\ V$.

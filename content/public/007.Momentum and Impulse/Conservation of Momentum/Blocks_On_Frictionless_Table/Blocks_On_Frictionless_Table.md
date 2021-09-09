@@ -3,8 +3,10 @@ title: Blocks On Frictionless Table
 topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2015 Midterm 1 Q5
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 7.5.1.4
 difficulty:
@@ -24,6 +26,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $v_2 = $
     suffix: $m/s$
@@ -34,10 +37,10 @@ substitutions:
     vars:
       title: Blocks On Frictionless Table
       units: "$\frac{m}{s}$"
-    v0: 475
-    v1: 6
-    mb: 13
-    mw: 492
+    v0: 471
+    v1: 7
+    mb: 12
+    mw: 497
     d: 2
 ---
 # {{ params.vars.title }}

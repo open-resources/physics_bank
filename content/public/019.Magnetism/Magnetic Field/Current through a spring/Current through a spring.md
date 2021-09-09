@@ -3,8 +3,10 @@ title: Current through a spring
 topic: Magnetism
 author: Jake Bobowksi
 source: 2.12.9
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.2.4.7
 - 19.3.3.0
@@ -34,6 +36,7 @@ part1:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: true
 substitutions:
   params:

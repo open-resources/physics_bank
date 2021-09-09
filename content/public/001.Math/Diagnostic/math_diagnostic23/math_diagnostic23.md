@@ -3,8 +3,10 @@ title: Math Diagnostic 23
 topic: Math
 author: Simon Bates
 source: Math Diagnostic Q23
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - null
 difficulty:
@@ -21,22 +23,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 7
-    b: 5
-    formula: $x^{7} \sin{\left(5 x \right)}$
+    a: 2
+    b: 6
+    formula: $x^{2} \cos{\left(6 x \right)}$
     part1:
       ans1:
-        value: $5 x^{7} \cos{\left(5 x \right)} + 7 x^{6} \sin{\left(5 x \right)}$
+        value: $- 6 x^{2} \sin{\left(6 x \right)} + 2 x \cos{\left(6 x \right)}$
       ans2:
-        value: $5 x^{7} \cos{\left(5 x \right)} $
+        value: $- 6 x^{2} \sin{\left(6 x \right)} $
       ans3:
-        value: $ 7 x^{6} \cos{\left(5 x \right)}$
+        value: $ 2 x \sin{\left(6 x \right)}$
       ans4:
-        value: $- 5 x^{7} \sin{\left(5 x \right)} + 7 x^{6} \cos{\left(5 x \right)}$
+        value: $6 x^{2} \cos{\left(6 x \right)} + 2 x \sin{\left(6 x \right)}$
       ans5:
         value: Don't Know
 ---

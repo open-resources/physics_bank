@@ -3,8 +3,10 @@ title: Collision of a Cart with a Spring
 topic: Energy
 author: Jake Bobowski
 source: 2015 Final Q11
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 8.3.3.0
 difficulty:
@@ -24,6 +26,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $v= $
     suffix: $m/s$
@@ -34,9 +37,9 @@ substitutions:
     vars:
       title: Collision of a Cart with a Spring
       units: m/s
-    m: 36
-    k: 400
-    x: 52
+    m: 98
+    k: 269
+    x: 97
 ---
 # {{ params.vars.title }}
 A  {{ params.m }}  $kg$  runaway  grocery  cart  runs  into  a  spring  with a spring  constant $k = $  {{ params.k }}  $N/m$  and compresses it by {{ params.x }} $cm$ before momentarily coming to rest.

@@ -3,8 +3,10 @@ title: Position, Velocity and Acceleration
 topic: Math
 author: Jake Bobowski
 source: 2014 Midterm 1 Q3
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 1.2.1.4
 - 1.2.1.1
@@ -26,6 +28,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $x= $
     suffix: $m$
@@ -35,6 +38,7 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $v= $
     suffix: $m/s$
@@ -44,6 +48,7 @@ part3:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $a= $
     suffix: $m/s^2$
@@ -56,8 +61,8 @@ substitutions:
       units1: $m$
       units2: $m/s$
       units3: $\frac{m}{s^2}$
-    t: 1
-    x_i: -2
+    t: 5
+    x_i: -5
 ---
 # {{ params.vars.title }}
 The figure shows the velocity-versus-time graph for a particle moving along the x-axis. Its position at $t$ = 0 s is {{params.x_i}} $m$.

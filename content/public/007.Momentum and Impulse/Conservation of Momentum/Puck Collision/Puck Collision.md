@@ -3,8 +3,10 @@ title: Puck Collision
 topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2017 Midterm 2 Section 002 Q2
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 7.5.1.2
 - 7.4.1.2
@@ -26,11 +28,12 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Puck Collision
-    E: 12
+    E: 16
     part1:
       ans1:
         value: momentum increases, kinetic energy increases

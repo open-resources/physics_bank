@@ -3,8 +3,10 @@ title: Ball Bouncing off a Wall
 topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2012 Midterm 2 Q6
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 7.4.1.2
 - 7.3.1.2
@@ -26,6 +28,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $J_x= $
     suffix: $\frac{kg*m}{s}$
@@ -35,6 +38,7 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $F_{avg}= $
     suffix: $N$
@@ -46,10 +50,10 @@ substitutions:
       title: Ball Bouncing off a Wall
       units1: $\frac{kg*m}{s}$
       units2: $N$
-    m: 10
-    v: 9
-    theta: 35
-    t: 0.879
+    m: 1
+    v: 14
+    theta: 52
+    t: 0.717
 ---
 # {{ params.vars.title }}
 A {{params.m}} kg steel bass strikes a massive wall at {{params.v}} m/s at an angle of {{params.theta}} with the plane of the wall. It bounces off of the wall with the same speed and angle (see the figure).

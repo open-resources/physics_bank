@@ -3,8 +3,10 @@ title: Greatest and Least Resistor Combinations
 topic: Circuits
 author: Joseph Wandinger
 source: 2.10.27
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.8.2.0
 - 21.8.3.0
@@ -57,9 +59,9 @@ part2:
     weight: 1
 substitutions:
   params:
-    R1: '23.0'
-    R2: '77.0'
-    R3: '725'
+    R1: '35.0'
+    R2: '73.0'
+    R3: '650'
 ---
 # {{ params.vars.title }}
 Consider a ${{ params.R1 }}\rm\ \Omega$, a ${{ params.R2 }}\rm\ \Omega$, and a ${{ params.R3 }}\rm\ \Omega$ resistor.

@@ -3,8 +3,10 @@ title: Cosmic Ray Electron
 topic: Magnetism
 author: Vanshika Sharma
 source: 2.11.25
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.3.2.0
 - 19.2.1.0
@@ -34,6 +36,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     label: $r= $
     suffix: $\rm\ m$
@@ -44,8 +47,8 @@ substitutions:
   params:
     vars:
       title: Cosmic Ray Electron
-    v: 3.8
-    B: 2.2
+    v: 2.9
+    B: 2.7
 ---
 # {{ params.vars.title }}
 

@@ -3,8 +3,10 @@ title: Choose the Correct Graph
 topic: Kinematics(1D)
 author: Jake Bobowski
 source: 2012 Midterm 1 Q3 Section 002
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 1.2.1.2
 - 1.7.2.0

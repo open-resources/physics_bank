@@ -3,8 +3,10 @@ title: Currents Into a Junction
 topic: Circuits
 author: Joseph Wandinger
 source: OSUP Volume 2, Chapter 10, Question 8
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.12.1.0
 - 21.12.3.0
@@ -26,6 +28,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

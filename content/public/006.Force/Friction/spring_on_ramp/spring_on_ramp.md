@@ -3,8 +3,10 @@ title: Spring on Ramp
 topic: Force
 author: Jake Bobowski
 source: 2017 Final Q16
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.1.1.4
 - 6.1.1.5
@@ -29,6 +31,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $x= $
     suffix: m
@@ -38,6 +41,7 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $x= $
     suffix: m
@@ -49,10 +53,10 @@ substitutions:
       title: Spring on Ramp
       units: m
     m: 5
-    theta: 32
-    k: 150
-    us: 0.7
-    uk: 0.39
+    theta: 25
+    k: 200
+    us: 0.6
+    uk: 0.4
 ---
 # {{ params.vars.title }}
 In the figure below m = {{ params.m }} kg, $\theta$ = {{ params.theta }} $^\circ$, and k = {{ params.k }} N/m.

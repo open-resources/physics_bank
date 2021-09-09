@@ -3,8 +3,10 @@ title: Rocket
 topic: Math
 author: Jake Bobowski
 source: 2015 Practice Midterm 1 Q6
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 1.8.1.2
 - 1.7.2.1
@@ -40,6 +42,7 @@ part3:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $a= $
     suffix: $m/s^2$
@@ -49,6 +52,7 @@ part4:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $t= $
     suffix: $s$
@@ -60,9 +64,9 @@ substitutions:
       title: Rocket
       units1: $m/s^2$
       units2: $s$
-    v_1: 4
+    v_1: 6
     t_1: 2
-    t_2: 4
+    t_2: 6
 ---
 # {{ params.vars.title }}
 A rocket has a velocity (pointing away from the launch pad) given by $v(t)$={{ params.v_1 }}$t$-$t^2$

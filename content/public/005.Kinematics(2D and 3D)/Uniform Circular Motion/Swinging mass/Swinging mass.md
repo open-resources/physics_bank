@@ -3,8 +3,10 @@ title: Swinging Mass
 topic: Kinematics(2D and 3D)
 author: Jake Bobowski
 source: 2013 Midterm 2 Section 001 Q3
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 5.6.2.0
 difficulty:
@@ -25,6 +27,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

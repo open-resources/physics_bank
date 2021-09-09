@@ -3,8 +3,10 @@ title: Rotational Inertia
 topic: Rotational Dynamics
 author: Jake Bobowski
 source: 2013 Final Q6
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 10.4.1.0
 - 10.3.1.4
@@ -29,6 +31,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

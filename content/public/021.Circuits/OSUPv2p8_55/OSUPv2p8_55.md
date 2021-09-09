@@ -3,8 +3,10 @@ title: Partially Filled Capacitor
 topic: Circuits
 author: Ava Cornell
 source: 2.8.55
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.7.1.0
 - 21.7.6.0
@@ -53,8 +55,8 @@ substitutions:
   params:
     vars:
       title: Partially Filled Capacitor
-    a: '50.0'
-    b: '13.0'
+    a: '45.0'
+    b: '20.0'
     f: '4'
 ---
 # {{ params.vars.title }}

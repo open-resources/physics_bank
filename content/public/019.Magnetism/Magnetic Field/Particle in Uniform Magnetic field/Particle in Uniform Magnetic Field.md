@@ -3,8 +3,10 @@ title: Particle in a Uniform Magnetic Field
 topic: Magnetism
 author: Jake Bobowski
 source: 2013 Midterm 1 Section 001 Q2
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.2.3.0
 difficulty:
@@ -24,6 +26,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

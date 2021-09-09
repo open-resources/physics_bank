@@ -3,8 +3,10 @@ title: Object In Circular Motion
 topic: Force
 author: Jake Bobowski
 source: 2014 Final Q6
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 5.6.1.1
 - 6.12.1.1
@@ -25,6 +27,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

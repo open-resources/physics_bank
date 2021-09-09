@@ -3,8 +3,10 @@ title: Immersion Heater
 topic: Circuits
 author: Vanshika Sharma
 source: 2.9.18
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.6.1.0
 difficulty:
@@ -25,10 +27,12 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

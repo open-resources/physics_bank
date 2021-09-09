@@ -3,8 +3,10 @@ title: Projectile Uncertainty
 topic: Physics in General
 author: Jake Bobowski
 source: 2017 Final Q19
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 2.4.1.1
 - 2.4.1.2
@@ -25,6 +27,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $v_o= $
     suffix: m/s
@@ -34,6 +37,7 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $\Delta d= $
     suffix: m
@@ -43,6 +47,7 @@ part3:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $\Delta v_o= $
     suffix: m/s
@@ -52,7 +57,7 @@ substitutions:
   params:
     vars:
       title: Projectile Uncertainty
-      name: Mateo
+      name: Aliyah
       units1: m/s
       units2: m
     d: 0.126

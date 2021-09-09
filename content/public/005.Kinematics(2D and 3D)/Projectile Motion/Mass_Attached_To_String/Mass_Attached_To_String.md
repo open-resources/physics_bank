@@ -3,8 +3,10 @@ title: Mass Attached To String
 topic: Kinematics(2D and 3D)
 author: Firas Moosvi
 source: 2014 Final Q9
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 5.5.1.3
 difficulty:
@@ -25,6 +27,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     fixed-order: 'True'
 substitutions:
   params:

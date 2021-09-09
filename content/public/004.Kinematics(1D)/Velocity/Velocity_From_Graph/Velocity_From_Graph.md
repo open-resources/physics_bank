@@ -3,8 +3,10 @@ title: Velocity From Graph
 topic: Kinematics(1D)
 author: John Hopkinson
 source: PHYS 112 2016 w1 002 Midterm 1 Q1 and Q2
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 4.6.1.0
 - 4.6.2.0
@@ -27,19 +29,21 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Velocity From Graph
       units: $m/s$
-    choice: '0.5'
+    choice: '1.5'
     part1:
       ans1:
-        value: '1'
+        value: '0'
       ans2:
         value: '-0.5'
       ans3:

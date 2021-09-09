@@ -3,8 +3,10 @@ title: Particle Travelling with Constant Velocity
 topic: Force
 author: Jake Bobowski
 source: 2013 Midterm 2 Section 001 Q4
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.4.1.0
 difficulty:
@@ -24,6 +26,7 @@ part1:
   type: checkbox
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     partial-credit: true
     partial-credit-method: EDC
 substitutions:

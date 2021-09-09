@@ -3,8 +3,10 @@ title: Roller Coaster
 topic: Kinematics(2D and 3D)
 author: Jake Bobowski
 source: Practice Final 2012 Q16
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 5.6.1.0
 difficulty:
@@ -54,8 +56,8 @@ substitutions:
       title: Roller Coaster
       units: m/s
       units_2: N
-    r: 10.0
-    m: 241
+    r: 20.0
+    m: 226
 ---
 # {{ params.vars.title }}
 A roller-coaster car moves around a vertical circular loop of radius $R$ = {{params.r}} m.

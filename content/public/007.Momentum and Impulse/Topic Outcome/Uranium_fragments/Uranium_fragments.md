@@ -3,8 +3,10 @@ title: Uranium Fragments
 topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2017 Midterm 1 (002) Q6
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 7.2.1.1
 - 7.5.1.4
@@ -26,6 +28,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $m= $
     suffix: amu
@@ -35,6 +38,7 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $m= $
     suffix: amu
@@ -45,9 +49,9 @@ substitutions:
     vars:
       title: Uranium Fragments
       units: amu
-    frag_speed: 1.2
-    dn_speed: 2.58
-    orig_mass: 234
+    frag_speed: 2.1
+    dn_speed: 2.89
+    orig_mass: 235
 ---
 # {{ params.vars.title }}
 A radioactive $^{ {{params.orig_mass}} }U$ uranium nucleus is initially at rest.

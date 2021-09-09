@@ -3,8 +3,10 @@ title: Math Diagnostic 29
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
-template_version: 1.2
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes: null
 difficulty:
 - undefined

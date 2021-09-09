@@ -3,8 +3,10 @@ title: Speed of a Rolling Object
 topic: Rotational Motion
 author: Jake Bobowski
 source: 2013 Practice Final Q9
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 10.3.1.0
 - 8.5.1.2
@@ -29,6 +31,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $v= $
     suffix: $m/s$
@@ -38,6 +41,7 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $v= $
     suffix: $m/s$
@@ -47,6 +51,7 @@ part3:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $v= $
     suffix: $m/s$
@@ -57,7 +62,7 @@ substitutions:
     vars:
       title: Speed of a Rolling Object
       units: $m/s$
-    h: 16.5
+    h: 6.57
 ---
 # {{ params.vars.title }}
 One end of a massless string is attached to a massless axle that passes through the centre of mass of an object (mass $m$) that has a circular cross-section (radius $R$)  and  rolls  without  slipping  up  the  incline.

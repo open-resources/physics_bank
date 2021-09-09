@@ -3,8 +3,10 @@ title: Particle between charged plates
 topic: Electrostatics
 author: Jake Bobowksi
 source: 2.7.61
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 18.11.2.4
 difficulty:
@@ -32,6 +34,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $v= $
@@ -43,12 +46,12 @@ substitutions:
   params:
     vars:
       title: Particle between charged plates
-    sig: '38'
-    d: '4.1'
-    particle: A proton
-    particle1: proton
-    p1: positive
-    p2: negative
+    sig: '16'
+    d: '3.3'
+    particle: An electron
+    particle1: electron
+    p1: negative
+    p2: positive
 ---
 # {{ params.vars.title }}
 Two large plates of charge density {{ params.sig }}$\rm\ \mu C/m^2$ face each other at a separation of {{ params.d }}$ \textrm{ mm}$.

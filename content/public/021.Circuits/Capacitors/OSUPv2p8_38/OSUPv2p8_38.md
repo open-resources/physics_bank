@@ -3,8 +3,10 @@ title: Charging Capacitors
 topic: Circuits
 author: Ava Cornell
 source: 2.8.38
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.7.1.0
 - 21.7.1.1
@@ -78,9 +80,9 @@ substitutions:
   params:
     vars:
       title: Charging Capacitors
-    a: '55'
+    a: '35'
     b: '20'
-    v: '600'
+    v: '500'
 ---
 # {{ params.vars.title }}
 A ${{params.a }} \textrm{ pF}$ capacitor is charged to a potential difference of ${{params.v }} \textrm{ V}$. Its terminals are then connected to those of an uncharged ${{params.b }} \textrm{ pF}$ capacitor.

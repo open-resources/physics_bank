@@ -3,8 +3,10 @@ title: Compressed Spring To Launch Mass
 topic: Energy
 author: Jake Bobowski
 source: 2014 Final Q8
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.11.2.1
 - 8.5.1.1
@@ -26,20 +28,21 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Compressed Spring To Launch Mass
-    choice: quartered
+    choice: quadrupled
     part1:
       ans1:
-        value: 1/16$h$
+        value: 16$h$
       ans2:
         value: 9$h$
       ans3:
-        value: 1/4$h$
+        value: 1/16$h$
       ans4:
-        value: 16$h$
+        value: 1/4$h$
       ans5:
         value: 4$h$
 ---

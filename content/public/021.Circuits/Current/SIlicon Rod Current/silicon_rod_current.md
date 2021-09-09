@@ -3,8 +3,10 @@ title: Current Through A Silicon Rod
 topic: Current
 author: Vanshika Sharma
 source: 2.9.42
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.3.1.1
 - 21.2.1.
@@ -31,6 +33,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $I= $
@@ -43,9 +46,9 @@ substitutions:
     vars:
       title: Current Through A Silicon Rod
       units: "$\textrm{A}$"
-    d: 3.63
-    l: 39.8
-    V: 28
+    d: 3.62
+    l: 11.8
+    V: 70
 ---
 # {{ params.vars.title }}
 

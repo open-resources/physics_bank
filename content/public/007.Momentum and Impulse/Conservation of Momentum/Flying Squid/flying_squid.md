@@ -3,8 +3,10 @@ title: Flying Squid
 topic: Momentum and Impulse
 author: Jake Bobowksi
 source: 2013 Midterm 2 002 Q6
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 7.5.1.4
 - 4.1.1.1
@@ -27,6 +29,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $v= $
     suffix: $m/s$
@@ -36,6 +39,7 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $\Delta y= $
     suffix: $m$
@@ -47,9 +51,9 @@ substitutions:
       title: Flying Squid
       units1: m/s
       units2: m
-    m1: 0.19
-    m2: 0.91
-    v: 23
+    m1: 0.38
+    m2: 0.98
+    v: 15
 ---
 # {{ params.vars.title }}
 The Japanese flying squid, shown in the photograph below, is able to "jump" off the surface of the sea by taking water into its body cavity and then ejecting the water vertically downward. A squid is able to eject {{params.m1}} $kg$ of water with a speed of {{params.v}} $m/s$. Without any water in its cavity, the mass of the squid is {{params.m2}} $kg$.

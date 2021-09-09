@@ -3,8 +3,10 @@ title: Power and Energy Through Resistor
 topic: Circuits
 author: Vanshika
 source: 2.9.55
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.8.1.1
 - 21.8.1.0
@@ -72,8 +74,8 @@ substitutions:
   params:
     vars:
       title: Power And Energy Through Resistor
-    V: 2
-    R: 25
+    V: 10
+    R: 14
     part4:
       ans1:
         value: It is converted into light energy.

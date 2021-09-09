@@ -3,8 +3,10 @@ title: Determining Capacitance
 topic: Circuits
 author: Ava Cornell
 source: 2.8.21
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.7.1.0
 - 21.7.1.1
@@ -31,6 +33,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $C= $
@@ -42,8 +45,8 @@ substitutions:
   params:
     vars:
       title: Determining Capacitance
-    q: '1.8'
-    v: '160'
+    q: '3.7'
+    v: '140'
 ---
 # {{ params.vars.title }}
 

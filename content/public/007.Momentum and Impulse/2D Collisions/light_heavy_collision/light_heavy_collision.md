@@ -3,8 +3,10 @@ title: Collision of Light and Heavy Object
 topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2017 Final Q1 and Q2
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.5.1.2
 - 7.5.1.7
@@ -25,10 +27,12 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

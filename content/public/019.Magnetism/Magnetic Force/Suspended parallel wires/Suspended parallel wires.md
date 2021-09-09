@@ -3,8 +3,10 @@ title: Suspended parallel wires
 topic: Magnetism
 author: Jake Bobowksi
 source: 2.12.32
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.3.3.2
 difficulty:
@@ -32,6 +34,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $I= $
@@ -43,9 +46,9 @@ substitutions:
   params:
     vars:
       title: Suspended parallel wires
-    s: '5.8'
-    mu: '39.6'
-    theta: '7.0'
+    s: '4.8'
+    mu: '36.8'
+    theta: '8.0'
 ---
 # {{ params.vars.title }}
 Two long, parallel wires are hung by cords of length $s = {{ params.s }}\rm\ cm$, as shown in the figure.

@@ -3,8 +3,10 @@ title: Square toroid
 topic: Magnetism
 author: Jake Bobowksi
 source: 2.12.57
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.2.4.0
 difficulty:
@@ -31,6 +33,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $B= $
@@ -42,10 +45,10 @@ substitutions:
   params:
     vars:
       title: Square toroid
-    N: '360'
-    d: '4.4'
-    r: '20'
-    I: '1.0'
+    N: '598'
+    d: '3.6'
+    r: '22'
+    I: '1.4'
 ---
 # {{ params.vars.title }}
 A toroid with a square cross section {{ params.d }}$\textrm{ cm}\times${{ params.d }}$\textrm{ cm}$ has an inner radius of {{ params.r }}$\textrm{ cm}$.

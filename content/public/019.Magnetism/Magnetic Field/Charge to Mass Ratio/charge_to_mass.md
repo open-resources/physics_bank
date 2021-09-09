@@ -3,8 +3,10 @@ title: Charge to Mass Ratio
 topic: Magnetism
 author: Vanshika Sharma
 source: 2.11.51
-template_version: 1.2
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.5.1.0
 - 19.3.2.0
@@ -31,6 +33,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     label: $|Q|/m = $
     suffix: $\rm\ {C/kg}$
@@ -42,9 +45,9 @@ substitutions:
   params:
     vars:
       title: Velocity Selector
-    B: 0.88
-    E: 2.1
-    r: 2.28
+    B: 0.735
+    E: 1.6
+    r: 2.19
 ---
 # {{ params.vars.title }}
 

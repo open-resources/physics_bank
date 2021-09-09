@@ -3,8 +3,10 @@ title: A Crate's Maximum Acceleration without Slipping
 topic: Force
 author: Jake Bobowski
 source: 2012 Final Q12
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.1.1.4
 - 6.3.1.2
@@ -28,6 +30,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $a_{max} = $
     suffix: $m/s^2$
@@ -36,12 +39,12 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: semi-truck
+      vehicle: sedan
       title: A Crate's Maximum Acceleration without Slipping
       units: $m/s^2$
-    mu_s: 0.78
-    mu_k: 0.35
-    theta: 11
+    mu_s: 0.86
+    mu_k: 0.28
+    theta: 17
 ---
 # {{ params.vars.title }}
 A wood crate sits in the back of a {{ params.vars.vehicle }}.

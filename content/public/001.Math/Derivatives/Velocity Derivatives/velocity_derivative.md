@@ -3,8 +3,10 @@ title: Velocity to Acceleration
 topic: Math
 author: Jake Bobowski
 source: 2014 Midterm 1 Q2
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 1.7.2.2
 difficulty:
@@ -24,22 +26,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Velocity to Acceleration
       units: $m/s^2$
-    c: 2.8
-    t: 1
+    c: 1.3
+    t: 3
     part1:
       ans1:
-        value: 5.6
+        value: 0.096
       ans2:
-        value: -5.6
+        value: -0.096
       ans3:
-        value: -2.8
+        value: -0.14
       ans4:
-        value: 2.8
+        value: 0.14
       ans5:
         value: The acceleration is 0
 ---

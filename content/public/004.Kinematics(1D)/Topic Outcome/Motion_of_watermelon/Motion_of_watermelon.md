@@ -3,8 +3,10 @@ title: Motion of watermelon
 topic: Kinematics(1D)
 author: Jake Bobowski
 source: 2017 Midterm Q4
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 1.7.2.4
 - 4.5.1.0
@@ -32,6 +34,7 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $t_o= $
     suffix: $s$
@@ -41,6 +44,7 @@ part3:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $a= $
     suffix: $m/s^2$
@@ -50,16 +54,17 @@ part4:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
-      name: Lorenzo
+      name: Abbas
       title: Motion of watermelon
       units1: ${m/s}^2$
       units2: $s$
-    a: 3
-    b: 5
-    c: 6
+    a: 6
+    b: 7
+    c: 8
     part4:
       ans1:
         value: The speed is increasing

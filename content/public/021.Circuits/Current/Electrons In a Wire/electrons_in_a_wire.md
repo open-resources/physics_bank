@@ -3,8 +3,10 @@ title: Electrons In a Wire
 topic: Circuits
 author: Vanshika Sharma
 source: 2.9.23
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.2.1.0
 - 21.2.1.1
@@ -26,6 +28,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: 'Number of electrons = '
@@ -37,8 +40,8 @@ substitutions:
     vars:
       title: Electrons In a Wire
       units: m/s
-    I: 108
-    t: 27
+    I: 84
+    t: 54
 ---
 # {{ params.vars.title }}
 

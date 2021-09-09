@@ -3,8 +3,10 @@ title: Varying Separation Distance of Capacitor Plates
 topic: Circuits
 author: Ava Cornell
 source: 2.8.48
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.7.1.0
 - 21.7.5.0
@@ -54,15 +56,16 @@ part3:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: true
 substitutions:
   params:
     vars:
       title: Varying Separation Distance of Capacitor Plates
-    a: '30.0'
-    b: '1.25'
-    c: '2.00'
-    v: '50'
+    a: '25.0'
+    b: '1.50'
+    c: '3.00'
+    v: '40'
     part3:
       ans1:
         value: It is lost to the surroundings in the laboratory

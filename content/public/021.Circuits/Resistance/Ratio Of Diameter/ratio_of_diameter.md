@@ -3,8 +3,10 @@ title: Ratio of Diameter of Wires
 topic: Resistance
 author: Vanshika Sharma
 source: 2.9.41
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.3.1.0
 - 21.3.1.1
@@ -29,6 +31,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

@@ -3,8 +3,10 @@ title: Displacement and Potential Energy of an Oscillator
 topic: Oscillations
 author: Jake Bobowski
 source: 2013 Practice Final Q2
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 15.2.2.0
 - 15.2.1.1

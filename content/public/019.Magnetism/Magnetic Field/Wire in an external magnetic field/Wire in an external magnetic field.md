@@ -3,8 +3,10 @@ title: Wire in an external magnetic field
 topic: Magnetism
 author: Jake Bobowksi
 source: 2.12.25
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.2.4.1
 difficulty:
@@ -32,6 +34,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $B= $
@@ -43,9 +46,9 @@ substitutions:
   params:
     vars:
       title: Wire in an external magnetic field
-    I: '17.5'
-    Bext: '38.5'
-    d: '22.0'
+    I: '15.0'
+    Bext: '42.0'
+    d: '22.5'
 ---
 # {{ params.vars.title }}
 A long, straight, horizontal wire carries a left-to-right current of {{ params.I }}$\rm\ A$.The wire is placed in a uniform magnetic field of magnitude {{ params.Bext }}$~\mu\mathrm{T}$ that is directed vertically downward.

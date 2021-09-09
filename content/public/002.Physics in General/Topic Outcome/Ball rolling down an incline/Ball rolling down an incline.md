@@ -3,8 +3,10 @@ title: Ball Rolling Down an Incline
 topic: Physics in General
 author: Jake Bobowski
 source: 2012 Midterm 1 Q2 Section 002
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 2.1.1.3
 - 4.1.1.1
@@ -26,6 +28,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

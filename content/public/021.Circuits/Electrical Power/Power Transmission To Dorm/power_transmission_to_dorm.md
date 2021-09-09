@@ -3,8 +3,10 @@ title: Power Transmission To Dorm
 topic: Electrical Power
 author: Jake Bobowski
 source: 2.9.61
-template_version: 1.2
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.6.1.0
 - 21.6.1.1
@@ -53,14 +55,14 @@ substitutions:
   params:
     vars:
       title: Power Transmission To Dorm
-    I_ref: 4
-    V_ref: 116
-    P_bulb: 80
-    P_light: 49
-    P_other: 4
-    V_pp: 116
-    d_pp: 6
-    Al_d: 8.786
+    I_ref: 3
+    V_ref: 135
+    P_bulb: 53
+    P_light: 50
+    P_other: 2
+    V_pp: 135
+    d_pp: 8
+    Al_d: 7.715
 ---
 # {{ params.vars.title }}
 A physics student has a single-occupancy dorm room.

@@ -3,8 +3,10 @@ title: Momentum and Interia
 topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2016 Final Q9
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 7.2.1.0
 - 6.4.1.2
@@ -25,20 +27,21 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Momentum and Inertia
-      vehicle: sedan
+      vehicle: car
     part1:
       ans1:
         value: The bee has more momentum, the bee has more inertia.
       ans2:
-        value: The sedan has more momentum, the bee has more inertia.
+        value: The car has more momentum, the bee has more inertia.
       ans3:
-        value: The sedan has more momentum, the sedan has more inertia.
+        value: The car has more momentum, the car has more inertia.
       ans4:
-        value: The bee has more momentum, the sedan has more inertia.
+        value: The bee has more momentum, the car has more inertia.
       ans5:
         value: It can’t be determined from this information.
 ---

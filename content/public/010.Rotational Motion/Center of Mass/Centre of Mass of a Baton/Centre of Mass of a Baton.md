@@ -3,8 +3,10 @@ title: Centre of Mass of a Baton
 topic: Rotational Motion
 author: Jake Bobowski
 source: 2015 Practice Midterm 2 Q5
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 10.4.1.1
 difficulty:
@@ -25,6 +27,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $x= $
     suffix: $m$
@@ -35,11 +38,11 @@ substitutions:
     vars:
       title: Centre of Mass of a Baton
       units: $m$
-    m1: 0.15
-    m2: 0.095
-    m3: 0.068
-    l1: 1.3
-    l2: 0.57
+    m1: 0.21
+    m2: 0.074
+    m3: 0.12
+    l1: 0.69
+    l2: 0.73
 ---
 # {{ params.vars.title }}
 

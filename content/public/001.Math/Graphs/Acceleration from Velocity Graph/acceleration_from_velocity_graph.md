@@ -3,8 +3,10 @@ title: Acceleration from Velocity Graph
 topic: Kinematics(1D)
 author: Jake Bobowski
 source: 2014 Midterm 1 Q1
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 1.2.1.4
 difficulty:
@@ -25,6 +27,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     t: 1

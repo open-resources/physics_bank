@@ -3,8 +3,10 @@ title: Electron Through a Magnetic Field
 topic: Magnetism
 author: Vanshika Sharma
 source: 2.11.5
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.2.1.0
 - 19.2.3.0
@@ -29,6 +31,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     fixed-order: true
 substitutions:
   params:

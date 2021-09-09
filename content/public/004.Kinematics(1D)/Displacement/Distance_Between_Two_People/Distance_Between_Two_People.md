@@ -3,8 +3,10 @@ title: Distance Between Two People
 topic: Kinematics(1D)
 author: Jake Bobowski
 source: 2014 Final Q10
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 1.2.1.0
 - 4.4.1.0
@@ -25,37 +27,38 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Distance Between Two People
       units: $m$
-      name1: Lorenzo
+      name1: Savannah
       name2: Ahmed
-    s: 1
-    ai_1: 3
+    s: 2
+    ai_1: 2
     ai_2: 4
     ai_3: 1
-    aj_1: 4
+    aj_1: 1
     aj_2: 5
-    aj_3: 1
-    bi_1: 3
-    bi_2: 2
-    bi_3: 3
+    aj_3: 2
+    bi_1: 4
+    bi_2: 4
+    bi_3: 1
     bj_1: 4
-    bj_2: 3
-    bj_3: 3
+    bj_2: 1
+    bj_3: 2
     part1:
       ans1:
-        value: 4.5
+        value: 11.0
       ans2:
-        value: 2.2
+        value: 5.6
       ans3:
-        value: 20.0
+        value: 130.0
       ans4:
-        value: 8.2
+        value: 6.7
       ans5:
-        value: 68.0
+        value: 45.0
 ---
 # {{ params.vars.title }}
 The position of {{ params.vars.name1 }} as a function of time is given by:

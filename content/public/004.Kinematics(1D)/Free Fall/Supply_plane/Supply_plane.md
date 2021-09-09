@@ -3,8 +3,10 @@ title: Supply plane
 topic: Free Fall
 author: Jake Bobowski
 source: 2017 Midterm 1 (002) Q5
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 4.10.1.2
 difficulty:
@@ -24,6 +26,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $R= $
     suffix: $m$
@@ -33,6 +36,7 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $\overrightarrow{a}= $
     suffix: $m/s^2 \ \ \hat\jmath$
@@ -42,6 +46,7 @@ part3:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $V_x= $
     suffix: $m/s \ \ \hat\imath$
@@ -51,6 +56,7 @@ part4:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $V_y= $
     suffix: $m/s \ \ \hat\jmath$
@@ -64,9 +70,9 @@ substitutions:
       units2: $m/s^2 \ \ \hat\jmath$
       units3: $m/s \ \ \hat\imath$
       units4: $m/s \ \ \hat\jmath$
-    h: 70
-    s: 200
-    vert: 70
+    h: 60
+    s: 190
+    vert: 50
 ---
 # {{ params.vars.title }}
 A supply plane needs to drop a package of food to scientists working on a glacier in Greenland.

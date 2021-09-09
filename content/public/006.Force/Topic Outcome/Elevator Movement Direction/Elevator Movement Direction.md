@@ -3,8 +3,10 @@ title: Direction of Movement of the Elevator
 topic: Force
 author: Jake Bobowski
 source: 2015 Final Q6
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.1.1.4
 - 6.3.1.2
@@ -26,12 +28,13 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Direction of Movement of the Elevator
-    m_st: 556
-    m_sc: 535
+    m_st: 414
+    m_sc: 371
     part1:
       ans1:
         value: Downward.

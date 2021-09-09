@@ -3,8 +3,10 @@ title: Range of Current Through Resistor
 topic: Current
 author: Vanshika Sharma
 source: 2.9.51
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.2.1.1
 difficulty:
@@ -54,10 +56,10 @@ substitutions:
   params:
     vars:
       title: Range of Current Through Resistor
-    R: 169
-    V: 3.1
-    p: 3
-    Vtotal: 6.2
+    R: 147
+    V: 1.2
+    p: 9
+    Vtotal: 2.4
 ---
 # {{ params.vars.title }}
 A resistor rated at ${{params.R}}\rm\ k\Omega$ is connected across two D cell batteries (each ${{params.V}} \textrm{ V}$) in series, with a total voltage of ${{params.Vtotal}} \textrm{ V}$.

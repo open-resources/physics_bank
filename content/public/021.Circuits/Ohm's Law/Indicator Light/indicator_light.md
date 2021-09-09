@@ -3,8 +3,10 @@ title: Voltage Supplied To An Indicator Light
 topic: Ohm's Law
 author: Vanshika Sharma
 source: 2.9.36
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.4.1.0
 difficulty:
@@ -30,6 +32,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     label: $V= $
     suffix: $\rm\ V$
@@ -41,8 +44,8 @@ substitutions:
     vars:
       title: Voltage Supplied To An Indicator Light
       units: V
-    R: 241
-    I: 18
+    R: 99
+    I: 63
 ---
 # {{ params.vars.title }}
 

@@ -3,8 +3,10 @@ title: Potato Volume
 topic: Physics in General
 author: John Hopkinson
 source: GPSI 2020 Q1
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 13.2.1.2
 difficulty:
@@ -41,13 +43,13 @@ part3:
 substitutions:
   params:
     vars:
-      name: Mateo
+      name: Lorenzo
       title: Potato Volume
       mass_units: kg
       volume_units: m^3
-      mass_potato: 385
-      mass_cube: 78
-      cube_side_length: 4.36
+      mass_potato: 273
+      mass_cube: 38
+      cube_side_length: 4.78
 ---
 # {{ params.vars.title }}
 For our first lab, {{params.vars.name}} decides to measure the density of a potato.

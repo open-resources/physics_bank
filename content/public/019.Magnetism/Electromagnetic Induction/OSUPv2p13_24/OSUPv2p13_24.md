@@ -3,8 +3,10 @@ title: Coil in Uniform Magnetic Field
 topic: Magnetism
 author: Ava Cornell
 source: 2.13.24
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.8.1.0
 difficulty:
@@ -30,6 +32,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $\varepsilon= $
@@ -42,8 +45,8 @@ substitutions:
     vars:
       title: Coil in Uniform Magnetic Field
     N: '70'
-    d: '20'
-    B: '0.25'
+    d: '10'
+    B: '0.75'
     t: '0.1'
 ---
 # {{ params.vars.title }}

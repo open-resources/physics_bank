@@ -3,8 +3,10 @@ title: A Frictionless Air Track?
 topic: Force
 author: Jake Bobowski
 source: 2012 Final Q14
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.1.1.4
 - 2.4.1.2
@@ -57,23 +59,23 @@ substitutions:
   params:
     vars:
       title: A Frictionless Air Track?
-      name: Ximena
+      name: Ahmed
       units: $m/s^2$
-    m1: 126.3
-    m2: 66.32
-    d_a: 0.02
-    mean: 1.61
-    sd: 0.152
-    a1: 1.73
-    a2: 1.62
-    a3: 1.8
-    a4: 1.4
-    a5: 1.73
-    a6: 1.45
-    a7: 1.34
-    a8: 1.75
-    a9: 1.63
-    a10: 1.66
+    m1: 320.5
+    m2: 42.0
+    d_a: 0.03
+    mean: 1.56
+    sd: 0.143
+    a1: 1.7
+    a2: 1.57
+    a3: 1.33
+    a4: 1.46
+    a5: 1.69
+    a6: 1.67
+    a7: 1.76
+    a8: 1.54
+    a9: 1.57
+    a10: 1.33
     part4:
       ans1:
         value: The track is frictionless because $a_{expected}$ does not agree with

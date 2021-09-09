@@ -3,8 +3,10 @@ title: Position From Graph
 topic: Kinematics(1D)
 author: Jake Bobowski
 source: 2014 Final Q1
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 1.8.2.0
 - 4.4.1.0
@@ -26,23 +28,24 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Position From Graph
       units: $m$
-    m: 2.0
+    m: 2.4
     part1:
       ans1:
-        value: '9.0'
+        value: '9.4'
       ans2:
-        value: '5.0'
+        value: '4.6'
       ans3:
         value: '7.0'
       ans4:
-        value: '8.0'
+        value: '8.2'
       ans5:
-        value: '-8.0'
+        value: '-8.2'
 ---
 # {{ params.vars.title }}
 <img src="Q1&Q2image.png" alt = "A graph of velocity versus time. At 0 seconds, the velocity is 4 meters per second. At 1 second, the velocity decreases to 1 meter per second. The velocity increases and at 3 seconds the velocity is 3 meters per second. From 3 to 5 seconds, the velocity is 3 meters per second. The graph has a point labelled A and C. A is labelled at 1 second, with a velocity of 1 meters per second. C is labelled at 4 seconds with a velocity of 3 meters per second." width = 300>

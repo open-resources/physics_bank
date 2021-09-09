@@ -3,8 +3,10 @@ title: Water Slide
 topic: Kinematics(1D)
 author: Jake Bobowski
 source: 2015 Practice Midterm 1 Q8
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 4.1.1.1
 - 4.5.1.0
@@ -51,7 +53,7 @@ part4:
 substitutions:
   params:
     vars:
-      name: Aliyah
+      name: Maya
       title: Water Slide
     theta: 20
     l: 400

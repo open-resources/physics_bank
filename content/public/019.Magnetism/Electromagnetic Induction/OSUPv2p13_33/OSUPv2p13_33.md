@@ -3,8 +3,10 @@ title: Single-turn Circular Loop
 topic: Magnetism
 author: Ava Cornell
 source: 2.13.33
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.8.6.0
 difficulty:
@@ -31,6 +33,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     label: $\varepsilon= $
     suffix: $\rm\ V$
@@ -42,15 +45,16 @@ part2:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: true
 substitutions:
   params:
     vars:
       title: Single-turn Circular Loop
-    r: '20'
-    b: '125'
+    r: '50'
+    b: '150'
     B: '325'
-    t: '0.1'
+    t: '0.4'
     part2:
       ans1:
         value: Clockwise

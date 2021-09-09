@@ -3,8 +3,10 @@ title: Charged particle near the Earth
 topic: Electrostatics
 author: Jake Bobowski
 source: 2.7.69
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 18.6.1.3
 difficulty:
@@ -49,7 +51,7 @@ substitutions:
   params:
     vars:
       title: Charged particle near the Earth
-    charge: proton
+    charge: electron
     part2:
       ans1:
         value: Away from the surface of the Earth.

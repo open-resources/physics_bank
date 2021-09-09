@@ -3,8 +3,10 @@ title: Electron Beam
 topic: Circuits
 author: Vanshika Sharma
 source: 2.9.29
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.2.2.0
 - 21.2.2.1
@@ -26,6 +28,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     label: $ \textrm {J=} $
     suffix: $ \rm {A/m^2} $
@@ -37,8 +40,8 @@ substitutions:
     vars:
       title: 'Electron Beam '
       units: ' $ A / m^2 $ '
-    I: 86
-    r: 0.59
+    I: 56
+    r: 0.69
 ---
 # {{ params.vars.title }}
 

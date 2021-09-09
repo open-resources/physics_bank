@@ -3,8 +3,10 @@ title: Field due to lightning
 topic: Magnetism
 author: Jake Bobowksi
 source: 2.12.22
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 18.11.2.3
 difficulty:
@@ -32,6 +34,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $B= $
@@ -43,7 +46,7 @@ substitutions:
   params:
     vars:
       title: Field due to lightning
-    d: '1.7'
+    d: '1.8'
     p: '4'
 ---
 # {{ params.vars.title }}

@@ -3,8 +3,10 @@ title: Energy Lost due to Air Friction
 topic: Energy
 author: Jake Bobowski
 source: 2012 Final Q4
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 7.5.1.1
 difficulty:
@@ -24,27 +26,28 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Energy Lost due to Air Friction
       units: J
-    m: 2.77
-    v: 34.0
-    h: 58.9
+    m: 0.619
+    v: 52.4
+    h: 45.8
     part1:
       ans1:
-        value: -0.529
+        value: -572.0
       ans2:
-        value: 0.529
+        value: 572.0
       ans3:
-        value: -3200.0
+        value: -1130.0
       ans4:
-        value: 3200.0
+        value: 1130.0
       ans5:
-        value: 1550.0
+        value: 262.0
       ans6:
-        value: 1650.0
+        value: 294.0
 ---
 # {{ params.vars.title }}
 A body of mass {{ params.m }} kg is thrown upwards with a velocity of {{ params.v }} m/s.

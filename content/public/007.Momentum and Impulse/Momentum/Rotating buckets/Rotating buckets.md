@@ -3,8 +3,10 @@ title: Rotating Buckets
 topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2015 Final Q18
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 7.2.3.1
 - 7.5.3.1
@@ -35,6 +37,7 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $m_{rain}= $
     suffix: kg
@@ -45,7 +48,7 @@ substitutions:
     vars:
       title: Rotating Buckets
       units: kg
-    m1: 2.84
+    m1: 1.69
     c: 6
 ---
 # {{ params.vars.title }}

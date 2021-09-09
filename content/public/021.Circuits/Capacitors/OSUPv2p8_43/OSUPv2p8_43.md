@@ -3,8 +3,10 @@ title: Heart Defibrillator
 topic: Circuits
 author: Ava Cornell
 source: 2.8.43
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.7.1.0
 - 21.7.1.1
@@ -55,8 +57,8 @@ substitutions:
   params:
     vars:
       title: Heart Defibrillator
-    c: '10.0'
-    v: '8.0'
+    c: '17.0'
+    v: '5.0'
 ---
 # {{ params.vars.title }}
 

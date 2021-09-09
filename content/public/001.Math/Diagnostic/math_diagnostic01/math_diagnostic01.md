@@ -3,8 +3,10 @@ title: Math Diagnostic 1
 topic: Math
 author: Simon Bates
 source: Math Diagnostic Q1
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 1.4.1.0
 difficulty:
@@ -24,19 +26,20 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Largest Number
     part1:
       ans1:
-        value: 8.8E80
+        value: 6.6E3
       ans2:
-        value: 8.0E9
+        value: 4.1E3
       ans3:
-        value: 8521
+        value: 50
       ans4:
-        value: '6.6E-29'
+        value: '5.1E-85'
       ans5:
         value: Don't Know
 ---

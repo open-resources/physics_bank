@@ -3,8 +3,10 @@ title: Which option is correct?
 topic: Physics in General
 author: Jake Bobowski
 source: 2015 Final Q1
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 7.4.1.2
 - 6.9.1.1
@@ -26,18 +28,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 part3:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 part4:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

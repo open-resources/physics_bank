@@ -3,8 +3,10 @@ title: Ski Jump
 topic: Kinematics(2D and 3D)
 author: Jake Bobowski
 source: 2017 Final Q3
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 5.5.1.0
 - 5.5.1.1
@@ -26,25 +28,26 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
-      sport: skateboarder
+      sport: motorcyclist
       title: Ski Jump
       units: m
-    v: 20
-    d: 3.65
+    v: 24
+    d: 4.64
     part1:
       ans1:
         value: 9.81
       ans2:
-        value: 12.2
+        value: 16.51
       ans3:
-        value: 14.88
+        value: 22.7
       ans4:
-        value: 17.25
+        value: 23.34
       ans5:
-        value: 22.32
+        value: 34.06
 ---
 # {{ params.vars.title }}
 

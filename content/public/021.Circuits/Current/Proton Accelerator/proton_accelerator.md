@@ -3,8 +3,10 @@ title: Proton Accelerator
 topic: Current
 author: Vanshika Sharma
 source: 2.9.30
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - undefined
 difficulty:
@@ -65,10 +67,10 @@ substitutions:
   params:
     vars:
       title: Proton Accelerator
-    r: 0.6
-    I: 20
-    n: 4.11
-    p: 27
+    r: 0.14
+    I: 28
+    n: 2.52
+    p: 4
 ---
 # {{ params.vars.title }}
 A high-energy proton accelerator produces a proton beam with a radius of {{params.r}} $\textrm{mm}$.

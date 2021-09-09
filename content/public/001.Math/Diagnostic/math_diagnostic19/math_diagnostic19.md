@@ -3,8 +3,10 @@ title: Math Diagnostic 19
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
-template_version: 1.2
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes: null
 difficulty:
 - undefined
@@ -24,20 +26,21 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: 257
+    a: 293
     part1:
       ans1:
-        value: $\sin{77}$
+        value: $\sin{113}$
       ans2:
-        value: $\sin{-77}$
+        value: $\sin{-113}$
       ans3:
-        value: $\sin{103}$
+        value: $\sin{67}$
       ans4:
-        value: $\sin{-103}$
+        value: $\sin{-67}$
       ans5:
         value: Don't Know
 ---

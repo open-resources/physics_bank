@@ -3,8 +3,10 @@ title: Shooting a Steel Ball
 topic: Kinematics(2D and 3D)
 author: John Hopkinson
 source: PHYS 112 2018W1 Practice Final Q1
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 5.5.1.0
 difficulty:
@@ -24,25 +26,26 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Shooting a Steel Ball
     v: 3
-    theta: 51
+    theta: 43
     part1:
       ans1:
-        value: $(3\cos(51^{\circ}), \; -3\sin(51^{\circ}))$
+        value: $(3\cos(43^{\circ}), \; -3\sin(43^{\circ}))$
       ans2:
-        value: $(3\cos(51^{\circ}), \;3\sin(51^{\circ}))$
+        value: $(3\cos(43^{\circ}), \;3\sin(43^{\circ}))$
       ans3:
-        value: $(3\sin(51^{\circ}), \; -3\cos(51^{\circ}))$
+        value: $(3\sin(43^{\circ}), \; -3\cos(43^{\circ}))$
       ans4:
-        value: $(3\sin(51^{\circ}), \;3\cos(51^{\circ}))$
+        value: $(3\sin(43^{\circ}), \;3\cos(43^{\circ}))$
       ans5:
-        value: $(-3\cos(51^{\circ}), \; -3\sin(51^{\circ}))$
+        value: $(-3\cos(43^{\circ}), \; -3\sin(43^{\circ}))$
       ans6:
-        value: $(-3\sin(51^{\circ}), \;3\cos(51^{\circ}))$
+        value: $(-3\sin(43^{\circ}), \;3\cos(43^{\circ}))$
 ---
 # {{ params.vars.title }}
 A small steel ball is shot at {{ params.v }} $m/s$ at a {{ params.theta }}$^{\circ}$ angle above the horizontal direction and its motion is well approximated by projectile motion.

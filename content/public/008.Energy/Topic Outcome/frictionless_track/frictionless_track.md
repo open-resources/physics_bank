@@ -3,8 +3,10 @@ title: Horizontal frictionless track
 topic: Energy
 author: Jake Bobowski
 source: 2013 Final Q12
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 8.2.1.0
 - 8.3.1.0
@@ -29,6 +31,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $F= $
     suffix: N
@@ -38,6 +41,7 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $\mu = $
     suffix: null
@@ -48,10 +52,10 @@ substitutions:
     vars:
       title: Horizontal frictionless track
       units: N
-    m: 3.75
-    v: 6
-    R: 1.0
-    L: 16
+    m: 1.5
+    v: 5
+    R: 0.5
+    L: 10
 ---
 # {{ params.vars.title }}
 A small block of mass m = {{params.m}} kg is fired with an initial speed v0 = {{params.v}} m/s along a horizontal section of frictionless track, as shown in the top portion of the figure.

@@ -3,8 +3,10 @@ title: Electron in a Solenoid
 topic: Magnetism
 author: Jake Bobowksi
 source: 2.12.55
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.2.3.0
 - 19.2.3.1
@@ -38,6 +40,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $I= $
@@ -49,10 +52,10 @@ substitutions:
   params:
     vars:
       title: Electron in a Solenoid
-    n: '35'
-    r: '1.20'
-    v: '1.80'
-    p: '4'
+    n: '20'
+    r: '1.10'
+    v: '2.00'
+    p: '6'
 ---
 # {{ params.vars.title }}
 A solenoid with {{ params.n }} turns per centimter carries a current $I$.

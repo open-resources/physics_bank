@@ -3,8 +3,10 @@ title: Math Diagnostic 4
 topic: Math
 author: Simon Bates
 source: Math Diagnostic Q4
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 1.5.1.8
 difficulty:
@@ -25,6 +27,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

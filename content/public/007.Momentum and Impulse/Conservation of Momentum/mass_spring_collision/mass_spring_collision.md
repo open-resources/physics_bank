@@ -3,8 +3,10 @@ title: Perfect Elastic Collision of a Mass Attached to a Spring
 topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2012 Final Q13
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 7.5.1.3
 difficulty:

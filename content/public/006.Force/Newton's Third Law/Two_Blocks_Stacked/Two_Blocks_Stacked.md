@@ -3,8 +3,10 @@ title: Two Blocks Stacked
 topic: Force
 author: Jake Bobowski
 source: 2012 Practice Final Q14
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.6.1.1
 - 6.1.1.4
@@ -31,6 +33,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $\vec{P} = $
     suffix: $N$
@@ -41,9 +44,9 @@ substitutions:
     vars:
       title: Two Blocks Stacked
       units: N
-    m: 12
-    f: 0.36
-    t: 33
+    m: 11
+    f: 0.33
+    t: 37
 ---
 # {{ params.vars.title }}
 Blocks A and B each have a mass $m$ = {{params.m}} $kg$.

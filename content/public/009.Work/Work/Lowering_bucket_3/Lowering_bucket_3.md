@@ -3,8 +3,10 @@ title: Lowering a bucket - the bucket
 topic: Work
 author: Jake Bobowski
 source: 2016 Final P2 Q5
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 7.5.1.1
 - 9.1.1.1
@@ -27,10 +29,12 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 part2:
   type: checkbox
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     partial-credit: true
     partial-credit-method: EDC
     fixed-order: true
@@ -38,10 +42,11 @@ part3:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
-      name: Aliyah
+      name: Ahmed
       title: Lowering a bucket - the bucket
     part1:
       ans1:

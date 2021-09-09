@@ -3,8 +3,10 @@ title: Force vs Position Graph
 topic: Energy
 author: Jake Bobowski
 source: 2017 Final Q15
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 8.2.1.0
 - 9.2.1.0
@@ -26,6 +28,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $v= $
     suffix: m/s
@@ -35,6 +38,7 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $x= $
     suffix: m
@@ -44,6 +48,7 @@ part3:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $K= $
     suffix: J
@@ -56,8 +61,8 @@ substitutions:
       units1: m/s
       units2: m
       units3: J
-    m: 3.0
-    v: -2.5
+    m: 2.0
+    v: -1.5
 ---
 # {{ params.vars.title }}
 The graph below shows the net force on a particle as a function of its position. The mass of

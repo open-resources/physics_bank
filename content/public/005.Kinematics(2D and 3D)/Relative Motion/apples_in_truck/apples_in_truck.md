@@ -3,8 +3,10 @@ title: Apples on a Truck
 topic: Force
 author: Jake Bobowski
 source: 2017 Final Q4
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 5.8.1.2
 difficulty:
@@ -25,11 +27,13 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     fixed-order: true
 part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     fixed-order: true
 substitutions:
   params:

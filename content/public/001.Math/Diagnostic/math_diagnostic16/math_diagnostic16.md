@@ -3,8 +3,10 @@ title: Math Diagnostic 16
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
-template_version: 1.2
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes: null
 difficulty:
 - undefined
@@ -24,6 +26,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

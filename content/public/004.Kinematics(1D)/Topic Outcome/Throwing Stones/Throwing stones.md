@@ -3,8 +3,10 @@ title: Throwing Stones
 topic: Kinematics(1D)
 author: Jake Bobowski
 source: 2012 Midterm 1 Q4 Section 002
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 4.1.1.1
 - 4.10.1.0
@@ -25,6 +27,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $\Delta t= $
     suffix: $s$
@@ -33,10 +36,10 @@ part1:
 substitutions:
   params:
     vars:
-      name: Aliyah
+      name: Santiago
       title: Throwing Stones
       units: $s$
-    v: 24.3
+    v: 23.1
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} simultaneously throws two stones from the top edge of a building with a speed {{ params.v }} $m/s$. They throw one straight down and the other straight up.

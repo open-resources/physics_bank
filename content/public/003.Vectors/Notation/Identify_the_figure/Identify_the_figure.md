@@ -3,8 +3,10 @@ title: Identify the figure
 topic: Vectors
 author: Jake Bobowski
 source: 2017 Midterm 1 Q1
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 3.5.1.0
 difficulty:
@@ -25,6 +27,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     fixed-order: true
 substitutions:
   params:

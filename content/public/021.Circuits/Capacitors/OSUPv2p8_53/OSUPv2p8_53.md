@@ -3,8 +3,10 @@ title: Analyzing Potential Difference and Electric Field
 topic: Circuits
 author: Ava Cornell
 source: 2.8.53
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.7.1.0
 - 21.7.6.0
@@ -75,10 +77,10 @@ substitutions:
   params:
     vars:
       title: Analyzing Potential Difference and Electric Field
-    q: '4.0'
-    c: '5.0'
-    d: '3.0'
-    k: '6.0'
+    q: '6.0'
+    c: '1.0'
+    d: '5.0'
+    k: '5.0'
 ---
 # {{ params.vars.title }}
 A parallel-plate capacitor has charge of magnitude ${{params.q }} \rm\ \mu\textrm{C}$ on each plate and capacitance ${{params.c }} \rm\ \mu\textrm{F}$  when there is air between the plates.

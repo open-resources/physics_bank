@@ -3,8 +3,10 @@ title: A Particle in Conservative Potential
 topic: Force
 author: Jake Bobowski
 source: 2013 Practice Final Q5
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.4.1.0
 - 6.1.1.4
@@ -28,6 +30,7 @@ part1:
   type: checkbox
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     partial-credit: true
     partial-credit-method: EDC
 substitutions:

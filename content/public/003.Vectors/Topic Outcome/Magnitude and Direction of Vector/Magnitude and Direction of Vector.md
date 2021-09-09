@@ -3,8 +3,10 @@ title: Magnitude and Direction of a Vector
 topic: Vectors
 author: Jake Bobowski
 source: 2013 Midterm 1 Section 001
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 3.5.1.0
 - 3.5.1.6
@@ -30,33 +32,34 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Magnitude and Direction of a Vector
-    A_i: 10
-    A_j_abs: 1
+    A_i: 7
+    A_j_abs: 5
     A_j_sign: ' - '
-    B_i: -8
+    B_i: -5
     B_j_abs: 5
-    B_j_sign: ' + '
-    C_i: 2
-    C_j_abs: 7
-    C_j_sign: ' + '
-    d: -5
+    B_j_sign: ' - '
+    C_i: -9
+    C_j_abs: 5
+    C_j_sign: ' - '
+    d: -9
     part1:
       ans1:
-        value: ($\sqrt{1700}$, $\theta = $281.0$^\circ$)
+        value: ($\sqrt{11000}$, $\theta = $25.8$^\circ$)
       ans2:
-        value: ($\sqrt{1700}$, $\theta = $140.5$^\circ$)
+        value: ($\sqrt{11000}$, $\theta = $12.9$^\circ$)
       ans3:
-        value: ($\sqrt{850.0}$, $\theta = $140.5$^\circ$)
+        value: ($\sqrt{5500.0}$, $\theta = $12.9$^\circ$)
       ans4:
-        value: ($\sqrt{41.0}$, $\theta = $281.0$^\circ$)
+        value: ($\sqrt{100.0}$, $\theta = $25.8$^\circ$)
       ans5:
-        value: ($\sqrt{2550.0}$, $\theta = $140.5$^\circ$)
+        value: ($\sqrt{16500.0}$, $\theta = $12.9$^\circ$)
       ans6:
-        value: ($\sqrt{33}$, $\theta = $281.0$^\circ$)
+        value: ($\sqrt{138}$, $\theta = $25.8$^\circ$)
 ---
 # {{ params.vars.title }}
 Given $\vec{A} =$ {{ params.A_i }}$\hat{\imath}$ {{params.A_j_sign}} {{ params.A_j_abs}}$\hat{\jmath}$, $\vec{B} =$ {{ params.B_i }}$\hat{\imath}$ {{params.B_j_sign}} {{ params.B_j_abs}}$\hat{\jmath}$, $\vec{C} =$ {{ params.C_i }}$\hat{\imath}$ {{params.C_j_sign}} {{ params.C_j_abs}}$\hat{\jmath}$ and $d=$ {{ params.d }}, find the magnitude and direction of $\vec{A}-\vec{B}+d\vec{C}$.

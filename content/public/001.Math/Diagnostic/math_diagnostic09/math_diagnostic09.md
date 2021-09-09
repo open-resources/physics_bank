@@ -3,8 +3,10 @@ title: Math Diagnostic 9
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - null
 difficulty:
@@ -25,29 +27,30 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 8
-    l0: u
-    l1: d
-    l2: m
-    l3: l
+    num: 2
+    l0: y
+    l1: u
+    l2: w
+    l3: j
     part1:
       ans1:
-        value: m = ${ \frac{d}{u} - 8 l}$
+        value: w = ${ - 2 j + \frac{u}{y}}$
       ans2:
-        value: m = ${\frac{8 l u}{d}}$
+        value: w = ${\frac{2 j y}{u}}$
       ans3:
-        value: m = ${\frac{d}{8 l u}}$
+        value: w = ${\frac{u}{2 j y}}$
       ans4:
-        value: m = ${\frac{- 8 l + u}{d}}$
+        value: w = ${\frac{- 2 j + y}{u}}$
       ans5:
         value: Don't Know
 ---
 # {{ params.vars.title }}
-If $ {{params.l0}} = \frac{({{params.l1}})}{({{params.l2}}+{{params.num}}{{params.l3}})} $
+If $ {{params.l0}} = \frac{ {{params.l1}} }{({{params.l2}}+{{params.num}}{{params.l3}})} $
 
 ## Part 1
 

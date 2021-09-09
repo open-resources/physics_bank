@@ -3,8 +3,10 @@ title: Distance travelled
 topic: Kinematics(1D)
 author: Firas Moosvi
 source: original
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - undefined
 difficulty:
@@ -24,24 +26,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
-      name: Lorenzo
-      vehicle: a tricycle
+      name: Ahmed
+      vehicle: ice skates
       units: m
       title: Distance travelled
-    v: 4
-    t: 7
+    v: 5
+    t: 8
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 28
+        value: 40
       ans3:
-        value: 11
+        value: 13
       ans4:
-        value: 0.57
+        value: 0.63
       ans5:
         value: -3
       ans6:

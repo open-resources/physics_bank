@@ -3,8 +3,10 @@ title: Zero flux
 topic: Electrostatics
 author: Jake Bobowksi
 source: 2.6.7
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 18.8.1.0
 - 18.8.1.1
@@ -34,11 +36,13 @@ part1:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: true
 part2:
   type: dropdown
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     blank: true
 substitutions:
   params:

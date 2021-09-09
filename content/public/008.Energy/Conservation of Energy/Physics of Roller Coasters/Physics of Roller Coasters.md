@@ -3,8 +3,10 @@ title: Physics of Roller-Coasters
 topic: Energy
 author: Jake Bobowski
 source: 2012 Final Q10
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 8.5.1.1
 difficulty:
@@ -25,25 +27,26 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Physics of Roller-Coasters
       units: m/s
-    r: 27.8
+    r: 27.4
     part1:
       ans1:
-        value: 33.0
+        value: 32.8
       ans2:
-        value: 36.9
+        value: 36.7
       ans3:
-        value: 28.6
+        value: 28.4
       ans4:
-        value: 23.4
+        value: 23.2
       ans5:
-        value: 16.5
+        value: 16.4
       ans6:
-        value: 40.5
+        value: 40.2
 ---
 # {{ params.vars.title }}
 A roller-coaster travels over a vertical, circular loop of radius $R = $ {{ params.r }} m.

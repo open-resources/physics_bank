@@ -3,8 +3,10 @@ title: Firing a Ball using a Compressed Spring
 topic: Energy
 author: Jake Bobowski
 source: 2013 Practice Final Q4
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 8.5.1.1
 difficulty:
@@ -24,6 +26,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

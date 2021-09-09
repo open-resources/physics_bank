@@ -3,8 +3,10 @@ title: Rotating Ball attached to Two Strings
 topic: Force
 author: Jake Bobowski
 source: 2015 Final Q7
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.1.1.5
 - 6.1.1.7
@@ -26,6 +28,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

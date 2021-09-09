@@ -3,8 +3,10 @@ title: Square Coil
 topic: Magnetism
 author: Ava Cornell
 source: 2.13.56
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.8.6.0
 difficulty:
@@ -30,6 +32,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $\omega= $
@@ -41,10 +44,10 @@ substitutions:
   params:
     vars:
       title: Square Coil
-    N: '15'
-    l: '20'
-    B: '0.065'
-    E: '25'
+    N: '45'
+    l: '35'
+    B: '0.060'
+    E: '10'
 ---
 # {{ params.vars.title }}
 

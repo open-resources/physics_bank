@@ -3,8 +3,10 @@ title: Math Diagnostic 13
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - null
 difficulty:
@@ -25,21 +27,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Math Practice 13
-    a: 8
-    b: 3
+    a: 3
+    b: 9
     part1:
       ans1:
-        value: $z^{5}$
+        value: $z^{-6}$
       ans2:
-        value: $z^{-5}$
+        value: $z^{6}$
       ans3:
-        value: 5z
+        value: -6z
       ans4:
-        value: (8/3)z
+        value: (1/3)z
       ans5:
         value: Don't Know
 ---

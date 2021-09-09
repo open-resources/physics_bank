@@ -3,8 +3,10 @@ title: Frictional Force between Tires and the Road
 topic: Force
 author: Jake Bobowski
 source: 2012 Final Q6
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.9.1.3
 - 6.12.1.1
@@ -32,7 +34,7 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: a unicycle
+      vehicle: ice skates
       title: Frictional Force between Tires and the Road
 ---
 # {{ params.vars.title }}

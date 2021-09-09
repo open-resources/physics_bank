@@ -3,8 +3,10 @@ title: Jumping Salmon
 topic: Kinematics(2D and 3D)
 author: John Hopkinson
 source: PHYS 112 2019W Mock Test Q1 and Q2
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 5.5.1.0
 difficulty:
@@ -24,12 +26,14 @@ part1:
   type: checkbox
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     partial-credit: true
     partial-credit-method: EDC
 part2:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $v_{iy}= $
     suffix: $m/s$
@@ -40,8 +44,8 @@ substitutions:
     vars:
       title: Jumping Salmon
       units: $m/s$
-    h_fall: 3.73
-    dist: 0.957
+    h_fall: 3.65
+    dist: 0.889
     part1:
       ans1:
         value: Time interval for jump, $\Delta t$

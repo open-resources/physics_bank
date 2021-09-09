@@ -3,8 +3,10 @@ title: Force on Ironclad Beetle
 topic: Force
 author: Firas Moosvi
 source: 5.45
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.6.1.2
 difficulty:
@@ -24,11 +26,12 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Force on Ironclad Beetle
-    f: 20
+    f: 57
     part1:
       ans1:
         value: the beetle will exert a force of 9.5 x 10$^{-4}$ N on your thumb.
@@ -39,7 +42,7 @@ substitutions:
       ans4:
         value: the beetle will exert a force of 149 N back on your thumb.
       ans5:
-        value: The beetle will exert a force of 20 back on your thumb.
+        value: The beetle will exert a force of 57 back on your thumb.
 ---
 # {{ params.vars.title }}
 

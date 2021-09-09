@@ -3,8 +3,10 @@ title: Electrons Accelerating
 topic: Kinematics(1D)
 author: John Hopkinson
 source: PHYS 112 2016 W1 002 Mock Test Q1
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 4.1.1.1
 difficulty:
@@ -24,24 +26,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Electrons Accelerating
       units: $m$
-    dist: 18
-    acc: 5
+    dist: 16
+    acc: 4
     part1:
       ans1:
-        value: 18
+        value: 16
       ans2:
-        value: 90.0
+        value: 64.0
       ans3:
-        value: 450.0
+        value: 260.0
       ans4:
-        value: 3.6
+        value: 4.0
       ans5:
-        value: 0.28
+        value: 0.25
 ---
 # {{ params.vars.title }}
 An electron accelerated (with acceleration $a_1$) from rest for a time interval $t_1$ and travels a distance of {{params.dist}} $m$.

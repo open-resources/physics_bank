@@ -3,8 +3,10 @@ title: Box on a Slant with a Pulley
 topic: Force
 author: Jake Bobowski
 source: 2013 Midterm 2 002 Q4
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.1.1.4
 - 6.3.1.2
@@ -26,6 +28,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $m= $
     suffix: $kg$
@@ -36,9 +39,9 @@ substitutions:
     vars:
       title: Box on a Slant with a Pulley
       units: $kg$
-    theta: 30
+    theta: 33
     mu: 0.3
-    m: 4
+    m: 1
 ---
 # {{ params.vars.title }}
 The figure shows a block of mass $m$ resting on a {{params.theta}} $^\circ$ slope.

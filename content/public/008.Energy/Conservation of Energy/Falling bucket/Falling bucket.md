@@ -3,8 +3,10 @@ title: Falling Bucket
 topic: Energy
 author: Jake Bobowski
 source: 2015 Final Q17
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 8.5.1.1
 - 8.5.1.2
@@ -28,6 +30,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $v = $
     suffix: m/s
@@ -38,10 +41,10 @@ substitutions:
     vars:
       title: Falling Bucket
       units: m/s
-    m_b: 15.8
-    m_c: 2.11
-    h: 18.3
-    r: 74.7
+    m_b: 22.6
+    m_c: 2.21
+    h: 41.8
+    r: 80.3
 ---
 # {{ params.vars.title }}
 A bucket of mass $m_b$ = {{ params.m_b }} $kg$ is knocked off the side of a well.  The bucket falls {{ params.h }} $m$ to the bottom of the well.  Attached to the bucket is a light rope that wraps around a cylinder of radius $r = $ {{ params.r}} $cm$ and mass $m_c$ = {{ params.m_c }} $kg$.

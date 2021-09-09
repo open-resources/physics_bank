@@ -3,8 +3,10 @@ title: Coefficient of Friction
 topic: Force
 author: Jake Bobowski
 source: 2012 practice final Q12
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.1.1.6
 - 6.1.1.8
@@ -26,6 +28,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $\mu_k= $
     comparison: sigfig
@@ -34,8 +37,8 @@ substitutions:
   params:
     vars:
       title: Coefficient Of Friction
-    m: 217
-    t: 2
+    m: 153
+    t: 3
 ---
 # {{ params.vars.title }}
 You have been hired to measure the coefficients of friction for the newly discovered substance jelloium.

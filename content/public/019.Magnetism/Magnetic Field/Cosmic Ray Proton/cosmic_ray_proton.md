@@ -3,8 +3,10 @@ title: Cosmic Ray Proton
 topic: Magnetism
 author: Vanshika Sharma
 source: 2.11.22
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 19.2.1.0
 - 19.2.1.1
@@ -28,6 +30,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $B= $
@@ -39,9 +42,9 @@ substitutions:
   params:
     vars:
       title: Cosmic Ray Proton
-    v: 3.21
-    F: 3.75
-    theta: 35
+    v: 1.14
+    F: 2.74
+    theta: 55
 ---
 # {{ params.vars.title }}
 

@@ -3,8 +3,10 @@ title: Terminal Velocity of a Coffee Filter
 topic: Physics in General
 author: Jake Bobowski
 source: 2015 Final Q19
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 2.4.1.2
 difficulty:
@@ -60,18 +62,18 @@ substitutions:
   params:
     vars:
       title: Terminal Velocity of a Coffee Filter
-      name: Emilia
+      name: Abbas
       unit1: $m/s$
       unit2: $kg/s$
-    m: 4
-    d_m: 53
-    sd: 0.072
-    v1: 0.9
-    v2: 0.76
-    v3: 0.89
-    v4: 0.72
-    v5: 0.73
-    v6: 0.79
+    m: 2
+    d_m: 52
+    sd: 0.069
+    v1: 0.72
+    v2: 0.75
+    v3: 0.9
+    v4: 0.73
+    v5: 0.71
+    v6: 0.83
 ---
 # {{ params.vars.title }}
 In one of the PHYS 111 labs {{ params.vars.name }} measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling through the air.

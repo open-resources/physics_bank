@@ -3,8 +3,10 @@ title: Math Diagnostic 3
 topic: Math
 author: Simon Bates
 source: Math Diagnostic Q3
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - null
 difficulty:
@@ -25,20 +27,21 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 5x + -3 > -8x + 6
+      formula: 8x + -8 > 3x + 7
     part1:
       ans1:
-        value: x > 9/13
+        value: x > 3
       ans2:
-        value: x < 9/13
+        value: x < 3
       ans3:
-        value: x < 13/9
+        value: x < 1/3
       ans4:
-        value: x > 13/9
+        value: x > 1/3
       ans5:
         value: Don't Know
 ---

@@ -3,8 +3,10 @@ title: Split Blocks
 topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2015 Midterm 2 001 Q6
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 7.2.1.1
 - 7.4.1.2
@@ -29,6 +31,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $\Delta E$
     suffix: $J$
@@ -39,10 +42,10 @@ substitutions:
     vars:
       title: Split Blocks
       units: $J$
-    m: 7
-    m_a: 3
-    m_b: 4
-    v_a: 4.9
+    m: 8
+    m_a: 5
+    m_b: 3
+    v_a: 4.3
 ---
 # {{ params.vars.title }}
 A {{params.m}} $kg$ block is initially at rest on a sheet of ice.

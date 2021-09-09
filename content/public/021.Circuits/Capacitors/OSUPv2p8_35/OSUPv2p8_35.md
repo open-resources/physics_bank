@@ -3,8 +3,10 @@ title: Connecting Capacitors
 topic: Circuits
 author: Ava Cornell
 source: 2.8.35
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.7.1.0
 - 21.7.2.0
@@ -55,9 +57,9 @@ substitutions:
   params:
     vars:
       title: Connecting Capacitors
-      name: Ximena
-    a: '14'
-    b: '12'
+      name: Mateo
+    a: '6'
+    b: '6'
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} has a {{params.a }} $\rm\ \mu\textrm{F}$ capacitor and a {{params.b }} $\rm\ \mu\textrm{F}$ capacitor.

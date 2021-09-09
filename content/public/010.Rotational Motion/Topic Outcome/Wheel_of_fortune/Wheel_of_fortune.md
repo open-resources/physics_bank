@@ -3,8 +3,10 @@ title: Wheel of Fortune
 topic: Rotational Motion
 author: Jake Bobowski
 source: 2016 Final Q2
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 9.1.1.1
 difficulty:
@@ -25,24 +27,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       units: rad/s
-      name: Mateo
+      name: Ahmed
       title: Wheel of Fortune
-    w_i: 1.05
+    w_i: 1.57
     t: 6
-    w_int: 3
+    w_int: 2
     part1:
       ans1:
-        value: 1.65
+        value: 2.47
       ans2:
-        value: 1.28
+        value: 1.57
       ans3:
-        value: 2.57
+        value: 3.14
       ans4:
-        value: $\pi$/3
+        value: $\pi$/2
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} wants to win a game of Wheel-of-Fortune.

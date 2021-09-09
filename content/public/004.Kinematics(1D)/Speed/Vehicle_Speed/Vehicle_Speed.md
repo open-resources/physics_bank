@@ -3,8 +3,10 @@ title: Vehicle Speed
 topic: Kinematics(1D)
 author: Jake Bobowski
 source: 2015 midterm Q1
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 4.5.1.1
 difficulty:
@@ -24,11 +26,12 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Vehicle Speed
-      vehicle: pickup truck
+      vehicle: bus
     part1:
       ans1:
         value: constant

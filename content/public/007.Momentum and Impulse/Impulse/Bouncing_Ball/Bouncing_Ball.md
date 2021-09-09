@@ -3,8 +3,10 @@ title: Bouncing Ball
 topic: Momentum and Impulse
 author: Jake Bobowski
 source: 2012 Practice Final Q3
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 7.3.1.3
 - 7.4.1.2
@@ -26,6 +28,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
@@ -33,19 +36,19 @@ substitutions:
       units_m: kg
       units_h: m
       units: kgm/s
-    m: 0.317
-    h: 1.5
+    m: 0.37
+    h: 0.82
     part1:
       ans1:
-        value: 1.2
+        value: 1.0
       ans2:
-        value: 1.7
+        value: 1.5
       ans3:
-        value: 2.4
+        value: 2.1
       ans4:
-        value: 3.4
+        value: 3.0
       ans5:
-        value: 4.7
+        value: 3.0
 ---
 # {{ params.vars.title }}
 A ball of mass {{ params.m }} {{ params.vars.units_m}} is dropped vertically from a height of {{ params.h }} {{ params.vars.units_h}} and bounces back to the original height.

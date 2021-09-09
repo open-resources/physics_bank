@@ -3,8 +3,10 @@ title: LED Bulb
 topic: Electrical Power
 author: Vanshika Sharma
 source: 2.9.58
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.5.1.1
 - 21.6.1.0
@@ -32,6 +34,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     label: Cost = $
     comparison: relabs
@@ -42,8 +45,8 @@ substitutions:
     vars:
       title: LED Bulb
       units: $
-    c: 0.5
-    h: 10
+    c: 0.58
+    h: 8
 ---
 # {{ params.vars.title }}
 

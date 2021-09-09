@@ -3,8 +3,10 @@ title: Stack Of Pennies
 topic: Rotational Motion
 author: Jake Bobowski
 source: 2015 midterm 2 Q5
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 10.4.1.1
 difficulty:
@@ -25,6 +27,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: true
     label: $X_{cm} = $
     suffix: $d$
@@ -34,10 +37,10 @@ substitutions:
   params:
     vars:
       title: Stack of Pennies
-    s_1: 4
-    s_2: 5
-    s_3: 6
-    s_4: 7
+    s_1: 3
+    s_2: 4
+    s_3: 5
+    s_4: 6
 ---
 # {{ params.vars.title }}
 There are four stacks of pennies lined up in a row. The first stack has {{params.s_1}} pennies, the

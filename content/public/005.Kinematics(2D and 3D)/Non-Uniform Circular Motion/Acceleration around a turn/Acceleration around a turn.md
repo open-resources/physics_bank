@@ -3,8 +3,10 @@ title: Acceleration Around a Turn
 topic: Kinematics(2D and 3D)
 author: Jake Bobowski
 source: 2015 Final Q4
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 5.7.1.1
 difficulty:
@@ -25,12 +27,13 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     fixed-order: true
 substitutions:
   params:
     vars:
       title: Acceleration Around a Turn
-      vehicle: car
+      vehicle: truck
       dir: clockwise
     part1:
       ans1:

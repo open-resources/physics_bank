@@ -3,8 +3,10 @@ title: Minimum Coefficient Of Static Friction
 topic: Rotational Motion
 author: Jake Bobowski
 source: 2012 Practice Final Q8
-template_version: 1.0
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 10.3.2.3
 difficulty:
@@ -24,24 +26,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Minimum Coefficient Of Static Friction
-      vehicle: sedan
-    r: 94
-    v: 10
+      vehicle: bus
+    r: 93
+    v: 15
     part1:
       ans1:
-        value: 9.2
+        value: 4.1
       ans2:
-        value: 0.11
+        value: 0.25
       ans3:
-        value: 1.1
+        value: 2.4
       ans4:
-        value: 0.011
+        value: 0.016
       ans5:
-        value: 0.11
+        value: 0.16
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }} drives around a flat curve with radius $r$ = {{params.r}} $m$ at a speed of $v$ = {{params.v}} $\frac{m}{s}$.

@@ -3,8 +3,10 @@ title: What is Conserved?
 topic: Physics in General
 author: Jake Bobowski
 source: 2015 Practice Midterm 2 Q2
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 7.5.1.1
 - 8.5.1.0
@@ -26,6 +28,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

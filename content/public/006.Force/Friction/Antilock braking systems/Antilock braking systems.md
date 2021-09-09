@@ -3,8 +3,10 @@ title: Antilock Braking Systems
 topic: Force
 author: Jake Bobowski
 source: 2013 Practice Final Q1
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 10.3.2.0
 - 6.9.1.4
@@ -28,6 +30,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

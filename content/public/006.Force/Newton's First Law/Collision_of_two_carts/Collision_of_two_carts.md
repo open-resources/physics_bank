@@ -3,8 +3,10 @@ title: Collision of Two Carts
 topic: Force
 author: Jake Bobowski
 source: 2017 Midterm Q2
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.4.1.3
 difficulty:
@@ -25,6 +27,7 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:

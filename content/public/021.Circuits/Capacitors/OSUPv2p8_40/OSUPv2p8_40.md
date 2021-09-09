@@ -3,8 +3,10 @@ title: Energy Stored in a Capacitor
 topic: Circuits
 author: Ava Cornell
 source: 2.8.40
-template_version: 1.1
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.7.5.0
 difficulty:
@@ -30,6 +32,7 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $U= $
@@ -41,8 +44,8 @@ substitutions:
   params:
     vars:
       title: Energy Stored in a Capacitor
-    c: '12'
-    v: '15'
+    c: '6'
+    v: '5'
 ---
 # {{ params.vars.title }}
 

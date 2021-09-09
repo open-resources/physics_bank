@@ -3,8 +3,10 @@ title: Resistors in a Lab
 topic: Circuits
 author: Joseph Wandinger
 source: 2.10.6
-template_version: 1.0
+template_version: 1.3
 attribution: openstax-physics-vol2
+partialCredit: true
+singleVariant: false
 outcomes:
 - 21.8.2.0
 - 21.8.3.0
@@ -26,11 +28,12 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Resistors in a Lab
-      name: Ximena
+      name: Mateo
     have: larger
     want: smaller
     part1:

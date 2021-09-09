@@ -3,8 +3,10 @@ title: Block on a Ramp
 topic: Force
 author: Jake Bobowski
 source: 2013 Midterm 2 002 Q2
-template_version: 1.1
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
 - 6.4.1.1
 - 6.1.1.4
@@ -26,24 +28,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Block on a Ramp
-    m: 2
-    theta: 21
-    mu: 0.3
+    m: 5
+    theta: 12
+    mu: 0.1
     part1:
       ans1:
-        value: 7.0 $N$, up the incline
+        value: 10.0 $N$, up the incline
       ans2:
-        value: 18.0 $N$, up the incline
+        value: 48.0 $N$, up the incline
       ans3:
-        value: 2.1 $N$, down the incline
+        value: 1.0 $N$, down the incline
       ans4:
-        value: 5.5 $N$, down the incline
+        value: 4.8 $N$, down the incline
       ans5:
-        value: 7.0 $N$, down the incline
+        value: 10.0 $N$, down the incline
 ---
 # {{ params.vars.title }}
 A mass of {{params.m}} $kg$ sits at rest on an incline making an angle of {{params.theta}} $^\circ$ with respect to the horizontal.
