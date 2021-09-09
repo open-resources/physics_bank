@@ -34,11 +34,11 @@ substitutions:
     vars:
       title: Blocks On Frictionless Table
       units: "$\frac{m}{s}$"
-    v0: 451
-    v1: 8
+    v0: 498
+    v1: 7
     mb: 15
-    mw: 476
-    d: 2
+    mw: 548
+    d: 1
 ---
 # {{ params.vars.title }}
 Two {{params.mw}} $g$ blocks of wood are {{params.d}} $m$ apart on a frictionless table.

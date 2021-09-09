@@ -29,17 +29,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 3x - 9y = 29
-    formula2: 10x + 10y = 17
+    formula1: 3x - 4y = 45
+    formula2: 3x + 6y = 47
     part1:
       ans1:
-        value: ' x =347/94, y =-199/100'
+        value: ' x =229/15, y =1/5'
       ans2:
-        value: ' x =-199/100, y =347/94'
+        value: ' x =1/5, y =229/15'
       ans3:
-        value: ' x =-347/94, y =199/100'
+        value: ' x =-229/15, y =-1/5'
       ans4:
-        value: ' x =199/100, y =-347/94'
+        value: ' x =-1/5, y =-229/15'
       ans5:
         value: Don't Know
 ---

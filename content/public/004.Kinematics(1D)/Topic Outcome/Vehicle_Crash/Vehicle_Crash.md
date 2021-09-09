@@ -30,24 +30,24 @@ substitutions:
     vars:
       title: Vehicle Crash
       name: Aliyah
-      vehicle_1: van
-      vehicle_2: truck
-    dist: 5.78
-    v: 35.2
-    acc: 10.1
-    s_1: 0.1
-    s_2: 1.896
+      vehicle_1: car
+      vehicle_2: bus
+    dist: 3.02
+    v: 37.6
+    acc: 14.2
+    s_1: 0.2
+    s_2: 1.876
     part1:
       ans1:
-        value: Aliyah doesn't hit the van in front because Aliyah stops in time.
+        value: Aliyah doesn't hit the car in front because Aliyah stops in time.
       ans2:
-        value: 17.06 $m/s$
+        value: 13.8 $m/s$
       ans3:
-        value: 16.05 $m/s$
+        value: 10.96 $m/s$
       ans4:
-        value: 34.19 $m/s$
+        value: 34.76 $m/s$
       ans5:
-        value: 15.04 $m/s$
+        value: 8.121 $m/s$
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is following {{params.dist}} $m$ behind a {{params.vars.vehicle_1}} when it suddenly brakes with an acceleration of -{{params.acc}} $m/s^2$.

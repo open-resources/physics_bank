@@ -33,17 +33,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Work
-      ans2:
         value: Area
+      ans2:
+        value: Temperature
       ans3:
-        value: Pressure
+        value: Density
       ans4:
         value: Power
       ans5:
-        value: Displacement
+        value: Momentum
       ans6:
-        value: Weight
+        value: Lift
 ---
 # {{ params.vars.title }}
 

@@ -29,20 +29,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -8
-    l0: w
-    l1: z
-    l2: a
-    l3: x
+    num: -3
+    l0: q
+    l1: h
+    l2: b
+    l3: c
     part1:
       ans1:
-        value: a = ${ 8 x + \frac{z}{w}}$
+        value: b = ${ 3 c + \frac{h}{q}}$
       ans2:
-        value: a = ${- \frac{8 w x}{z}}$
+        value: b = ${- \frac{3 c q}{h}}$
       ans3:
-        value: a = ${- \frac{z}{8 w x}}$
+        value: b = ${- \frac{h}{3 c q}}$
       ans4:
-        value: a = ${\frac{w + 8 x}{z}}$
+        value: b = ${\frac{3 c + q}{h}}$
       ans5:
         value: Don't Know
 ---
