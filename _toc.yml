@@ -37,6 +37,7 @@ parts:
   - file: content/public/001.Math/Diagnostic/math_diagnostic29/math_diagnostic29
   - file: content/public/001.Math/Diagnostic/math_diagnostic24/math_diagnostic24
   - file: content/public/001.Math/Diagnostic/math_diagnostic26/math_diagnostic26
+  - file: content/public/001.Math/Diagnostic/math_diagnostic15/math_diagnostic15
   - file: content/public/001.Math/Diagnostic/math_diagnostic05/math_diagnostic05
   - file: content/public/001.Math/Diagnostic/math_diagnostic09/math_diagnostic09
   - file: content/public/001.Math/Diagnostic/math_diagnostic03/math_diagnostic03
