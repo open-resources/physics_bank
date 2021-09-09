@@ -1,21 +1,17 @@
 ---
-title: Math Diagnostic 7
+title: Math Diagnostic 15
 topic: Math
 author: Simon Bates
-source: Math Diagnostic
+source: Math Diagnostic Q15
 template_version: 1.1
 attribution: standard
 outcomes:
-- 1.11.3.0
+- null
 difficulty:
 - undefined
 randomization:
 - undefined
 taxonomy:
-- undefined
-span:
-- undefined
-length:
 - undefined
 tags:
 - math_diagnostic
@@ -28,23 +24,22 @@ part1:
 substitutions:
   params:
     vars:
-      title: Diagnostic Q7
-    formula1: 7x - 1y = 31
-    formula2: 1x + 9y = 39
+      title: Math Practice 15
+    expr: $2^{3} $=$ 8$
     part1:
       ans1:
-        value: ' x =159/32, y =121/32'
+        value: $log_28 = 3$
       ans2:
-        value: ' x =121/32, y =159/32'
+        value: $log_23 = 8$
       ans3:
-        value: ' x =-159/32, y =-121/32'
+        value: $log_83 = 2$
       ans4:
-        value: ' x =-121/32, y =-159/32'
+        value: $log_38 = 2$
       ans5:
         value: Don't Know
 ---
 # {{ params.vars.title }}
-The solution of the simultaneous equations {{params.formula1}}, {{params.formula2}} is:
+If {{params.expr}} then
 
 ## Part 1
 

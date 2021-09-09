@@ -59,21 +59,21 @@ substitutions:
       title: A Frictionless Air Track?
       name: Savannah
       units: $m/s^2$
-    m1: 449.1
-    m2: 19.17
+    m1: 154.9
+    m2: 10.11
     d_a: 0.01
-    mean: 1.59
-    sd: 0.17
-    a1: 1.74
-    a2: 1.78
-    a3: 1.79
-    a4: 1.56
-    a5: 1.58
-    a6: 1.66
-    a7: 1.32
-    a8: 1.39
-    a9: 1.71
-    a10: 1.35
+    mean: 1.44
+    sd: 0.114
+    a1: 1.37
+    a2: 1.32
+    a3: 1.5
+    a4: 1.38
+    a5: 1.41
+    a6: 1.35
+    a7: 1.63
+    a8: 1.45
+    a9: 1.34
+    a10: 1.66
     part4:
       ans1:
         value: The track is frictionless because $a_{expected}$ does not agree with

@@ -29,7 +29,7 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 10x + 6 > 3x + 9
+      formula: 7x + -4 > -7x + 2
     part1:
       ans1:
         value: x > 3/7

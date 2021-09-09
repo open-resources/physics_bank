@@ -29,20 +29,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 10
-    l0: a
-    l1: i
-    l2: b
-    l3: v
+    num: 7
+    l0: d
+    l1: t
+    l2: h
+    l3: m
     part1:
       ans1:
-        value: b = ${ - 10 v + \frac{i}{a}}$
+        value: h = ${ - 7 m + \frac{t}{d}}$
       ans2:
-        value: b = ${\frac{10 a v}{i}}$
+        value: h = ${\frac{7 d m}{t}}$
       ans3:
-        value: b = ${\frac{i}{10 a v}}$
+        value: h = ${\frac{t}{7 d m}}$
       ans4:
-        value: b = ${\frac{a - 10 v}{i}}$
+        value: h = ${\frac{d - 7 m}{t}}$
       ans5:
         value: Don't Know
 ---
