@@ -22,26 +22,33 @@ parts:
   chapters:
   - file: content/public/001.Math/Integrals/Rocket/Rocket
   - file: content/public/001.Math/Algebra/Solve this Inequality/solve_this_inequality
+  - file: content/public/001.Math/Diagnostic/math_diagnostic04/math_diagnostic04
   - file: content/public/001.Math/Diagnostic/math_diagnostic11/math_diagnostic11
   - file: content/public/001.Math/Diagnostic/math_diagnostic10/math_diagnostic10
   - file: content/public/001.Math/Diagnostic/math_diagnostic07/math_diagnostic07
   - file: content/public/001.Math/Diagnostic/math_diagnostic22/math_diagnostic22
+  - file: content/public/001.Math/Diagnostic/math_diagnostic02/math_diagnostic02
   - file: content/public/001.Math/Diagnostic/math_diagnostic28/math_diagnostic28
   - file: content/public/001.Math/Diagnostic/math_diagnostic19/math_diagnostic19
   - file: content/public/001.Math/Diagnostic/math_diagnostic30/math_diagnostic30
   - file: content/public/001.Math/Diagnostic/math_diagnostic18/math_diagnostic18
+  - file: content/public/001.Math/Diagnostic/math_diagnostic27/math_diagnostic27
   - file: content/public/001.Math/Diagnostic/math_diagnostic13/math_diagnostic13
   - file: content/public/001.Math/Diagnostic/math_diagnostic29/math_diagnostic29
   - file: content/public/001.Math/Diagnostic/math_diagnostic24/math_diagnostic24
   - file: content/public/001.Math/Diagnostic/math_diagnostic26/math_diagnostic26
   - file: content/public/001.Math/Diagnostic/math_diagnostic05/math_diagnostic05
   - file: content/public/001.Math/Diagnostic/math_diagnostic09/math_diagnostic09
+  - file: content/public/001.Math/Diagnostic/math_diagnostic03/math_diagnostic03
   - file: content/public/001.Math/Diagnostic/math_diagnostic17/math_diagnostic17
   - file: content/public/001.Math/Diagnostic/math_diagnostic12/math_diagnostic12
+  - file: content/public/001.Math/Diagnostic/math_diagnostic06/math_diagnostic06
   - file: content/public/001.Math/Diagnostic/math_diagnostic08/math_diagnostic08
   - file: content/public/001.Math/Diagnostic/math_diagnostic14/math_diagnostic14
   - file: content/public/001.Math/Diagnostic/math_diagnostic20/math_diagnostic20
+  - file: content/public/001.Math/Diagnostic/math_diagnostic23/math_diagnostic23
   - file: content/public/001.Math/Diagnostic/math_diagnostic21/math_diagnostic21
+  - file: content/public/001.Math/Diagnostic/math_diagnostic01/math_diagnostic01
   - file: content/public/001.Math/Diagnostic/math_diagnostic25/math_diagnostic25
   - file: content/public/001.Math/Diagnostic/math_diagnostic16/math_diagnostic16
   - file: content/public/001.Math/Graphs/Acceleration from Velocity Graph/acceleration_from_velocity_graph
