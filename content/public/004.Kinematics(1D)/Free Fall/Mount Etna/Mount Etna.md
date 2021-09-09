@@ -27,7 +27,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $v_{iy}= $
     suffix: $km/h$
@@ -38,7 +37,7 @@ substitutions:
     vars:
       title: Eruption of Mount Etna
       units: $km/h$
-    h: 116.0
+    h: 84.9
 ---
 # {{ params.vars.title }}
 Mount Etna erupted on Dec. 14 sending lava {{ params.h }} $m$ into the air.

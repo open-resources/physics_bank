@@ -33,7 +33,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $I= $
@@ -45,9 +44,9 @@ substitutions:
   params:
     vars:
       title: Solenoid current
-    n: '16'
-    B: '4.4'
-    p: '-1'
+    n: '9'
+    B: '2.2'
+    p: '-2'
 ---
 # {{ params.vars.title }}
 A solenoid has {{ params.n }} turns per centimeter.

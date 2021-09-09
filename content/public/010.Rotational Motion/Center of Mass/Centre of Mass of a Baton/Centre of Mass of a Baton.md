@@ -27,7 +27,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $x= $
     suffix: $m$
@@ -38,11 +37,11 @@ substitutions:
     vars:
       title: Centre of Mass of a Baton
       units: $m$
-    m1: 0.21
-    m2: 0.074
-    m3: 0.12
-    l1: 0.69
-    l2: 0.73
+    m1: 0.14
+    m2: 0.057
+    m3: 0.076
+    l1: 1.3
+    l2: 0.88
 ---
 # {{ params.vars.title }}
 

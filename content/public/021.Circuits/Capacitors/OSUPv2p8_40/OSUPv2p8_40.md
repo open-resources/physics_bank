@@ -32,7 +32,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $U= $
@@ -44,8 +43,8 @@ substitutions:
   params:
     vars:
       title: Energy Stored in a Capacitor
-    c: '6'
-    v: '5'
+    c: '10'
+    v: '10'
 ---
 # {{ params.vars.title }}
 

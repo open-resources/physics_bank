@@ -34,7 +34,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     label: Cost = $
     comparison: relabs
@@ -45,8 +44,8 @@ substitutions:
     vars:
       title: LED Bulb
       units: $
-    c: 0.58
-    h: 8
+    c: 0.75
+    h: 19
 ---
 # {{ params.vars.title }}
 

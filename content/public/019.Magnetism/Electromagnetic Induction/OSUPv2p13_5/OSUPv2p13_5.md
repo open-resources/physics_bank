@@ -33,12 +33,10 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:

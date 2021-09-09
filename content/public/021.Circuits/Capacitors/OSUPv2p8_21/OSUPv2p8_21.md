@@ -33,7 +33,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: true
     label: $V= $
@@ -45,8 +44,8 @@ substitutions:
   params:
     vars:
       title: Voltage Applied to a Capacitor
-    c: '2.6'
-    q: '3.1'
+    c: '3.6'
+    q: '2.2'
 ---
 # {{ params.vars.title }}
 

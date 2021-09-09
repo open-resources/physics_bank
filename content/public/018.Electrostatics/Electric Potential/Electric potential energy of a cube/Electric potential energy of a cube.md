@@ -33,7 +33,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $U= $
@@ -45,8 +44,8 @@ substitutions:
   params:
     vars:
       title: Electric potential energy of a cube
-    q: '2.60'
-    d: '2.80'
+    q: '5.00'
+    d: '3.80'
 ---
 # {{ params.vars.title }}
 

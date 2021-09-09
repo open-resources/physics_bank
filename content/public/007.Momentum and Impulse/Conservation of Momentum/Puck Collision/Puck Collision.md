@@ -28,12 +28,11 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Puck Collision
-    E: 16
+    E: 30
     part1:
       ans1:
         value: momentum increases, kinetic energy increases

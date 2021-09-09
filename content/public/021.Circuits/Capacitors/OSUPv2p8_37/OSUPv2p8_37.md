@@ -36,7 +36,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $C= $
@@ -48,12 +47,12 @@ substitutions:
   params:
     vars:
       title: Adding Capacitances
-    a: '2'
-    b: '1'
-    c: '3.5'
-    d: '4.0'
-    e: '1.50'
-    f: '15'
+    a: '4'
+    b: '10'
+    c: '1.0'
+    d: '2.5'
+    e: '1.75'
+    f: '13'
 ---
 # {{ params.vars.title }}
 

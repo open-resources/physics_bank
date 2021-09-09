@@ -26,12 +26,11 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Rolling without slipping
-      name: Savannah
+      name: Aliyah
     part1:
       ans1:
         value: The hoop, because it has less rotational intera, less of its total

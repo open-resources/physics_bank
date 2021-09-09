@@ -32,7 +32,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     label: $V= $
     suffix: $\rm\ V$
@@ -44,8 +43,8 @@ substitutions:
     vars:
       title: Voltage Supplied To An Indicator Light
       units: V
-    R: 99
-    I: 63
+    R: 160
+    I: 79
 ---
 # {{ params.vars.title }}
 

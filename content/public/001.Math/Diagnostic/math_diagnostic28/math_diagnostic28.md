@@ -27,7 +27,6 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
@@ -50,7 +49,7 @@ substitutions:
 
 The curves labelled X, Y, Z represent (in this order) the graphs of
 
-![Graph X starts on the X axis, trends downward, then upward to y equals one. It completes two full cycles, ending on the X axis. Graph Y starts on the X axis, trends downward, then upward to y equals one. It completes one and a half cycles, ending at y equals one. Graph Z consists of two horizontal lines with a slight bend, starting at the origin and at pi on the X axis.](q28.png)
+<img src = "q28.png" alt = "Graph X starts on the X axis, trends downward, then upward to y equals one. It completes two full cycles, ending on the X axis. Graph Y starts on the X axis, trends downward, then upward to y equals one. It completes one and a half cycles, ending at y equals one. Graph Z consists of two horizontal lines with a slight bend, starting at the origin and at pi on the X axis." width = 500px>
 
 ### Answer Section
 

@@ -27,20 +27,19 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Two Balls Launched on Different Tracks
     part1:
       ans1:
-        value: A
-      ans2:
-        value: B
-      ans3:
-        value: They reach the end of the track at the same time.
-      ans4:
         value: More information is needed.
+      ans2:
+        value: They reach the end of the track at the same time.
+      ans3:
+        value: B
+      ans4:
+        value: A
 ---
 # {{ params.vars.title }}
 Balls A and B are launched with the same initial velocity along a pair of tracks as shown in the figure.

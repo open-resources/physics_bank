@@ -26,23 +26,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Velocity to Acceleration
       units: $m/s^2$
-    c: 1.3
-    t: 3
+    c: 0.7
+    t: 4
     part1:
       ans1:
-        value: 0.096
+        value: 0.022
       ans2:
-        value: -0.096
+        value: -0.022
       ans3:
-        value: -0.14
+        value: -0.044
       ans4:
-        value: 0.14
+        value: 0.044
       ans5:
         value: The acceleration is 0
 ---

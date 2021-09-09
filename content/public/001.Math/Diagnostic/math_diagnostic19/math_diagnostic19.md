@@ -26,26 +26,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: 293
+    a: 220
     part1:
       ans1:
-        value: $\sin{113}$
+        value: $\sin{-140}$
       ans2:
-        value: $\sin{-113}$
+        value: $\sin{140}$
       ans3:
-        value: $\sin{67}$
+        value: $\sin{-40}$
       ans4:
-        value: $\sin{-67}$
+        value: $\sin{40}$
       ans5:
         value: Don't Know
 ---
 # {{ params.vars.title }}
-$ \sin{{{params.a}}} $ is the same as
+Assume angles are in degrees. $ \sin{({{params.a}})} $ is the same as:
 
 ## Part 1
 

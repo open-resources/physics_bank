@@ -27,7 +27,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $h= $
     suffix: $m$
@@ -38,8 +37,8 @@ substitutions:
     vars:
       title: Block In Hole
       units: m
-    a: 30
-    d: 0.9
+    a: 26
+    d: 0.8
 ---
 # {{ params.vars.title }}
 A small block is placed at height $h$ on a frictionless, {{params.a}}$^\circ$ ramp.

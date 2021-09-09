@@ -34,7 +34,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $N= $
@@ -45,9 +44,9 @@ substitutions:
   params:
     vars:
       title: Circular coil
-    r: '7.50'
-    I: '0.74'
-    B: '2.60'
+    r: '8.00'
+    I: '0.84'
+    B: '5.20'
     p: '-3'
 ---
 # {{ params.vars.title }}

@@ -33,7 +33,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $B= $
@@ -45,10 +44,10 @@ substitutions:
   params:
     vars:
       title: Square toroid
-    N: '598'
-    d: '3.6'
-    r: '22'
-    I: '1.4'
+    N: '595'
+    d: '4.2'
+    r: '20'
+    I: '1.6'
 ---
 # {{ params.vars.title }}
 A toroid with a square cross section {{ params.d }}$\textrm{ cm}\times${{ params.d }}$\textrm{ cm}$ has an inner radius of {{ params.r }}$\textrm{ cm}$.

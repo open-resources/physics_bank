@@ -26,12 +26,11 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Math Practice 30
-      name: Emilia
+      name: Maya
     sp1: 8
     sp2: 4
     part1:

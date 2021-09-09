@@ -35,7 +35,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $d= $
@@ -47,9 +46,9 @@ substitutions:
   params:
     vars:
       title: Electric potential of parallel plates
-    E: '2.80'
+    E: '4.40'
     p: '3'
-    V: '21.0'
+    V: '6.0'
 ---
 # {{ params.vars.title }}
 

@@ -35,7 +35,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     label: $E= $
     suffix: $\rm\ {N/C}$
@@ -47,15 +46,14 @@ part2:
   type: dropdown
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     blank: true
 substitutions:
   params:
     vars:
       title: Uniformly Decreasing Magnetic Field
     r: '15'
-    B: '2.5'
-    t: '20'
+    B: '0.5'
+    t: '10'
     part2:
       ans1:
         value: Clockwise

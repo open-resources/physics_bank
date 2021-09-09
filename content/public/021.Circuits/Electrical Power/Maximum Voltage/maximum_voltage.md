@@ -32,7 +32,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     label: $V= $
     suffix: $\rm\ V$
@@ -44,8 +43,8 @@ substitutions:
     vars:
       title: Maximum Voltage
       units: V
-    P: 1.95
-    R: 95
+    P: 0.76
+    R: 43
 ---
 # {{ params.vars.title }}
 

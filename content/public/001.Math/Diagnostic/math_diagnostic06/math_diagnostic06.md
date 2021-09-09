@@ -27,24 +27,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Rational Equation
-    x1: 8
-    x2: 6
-    x3: 7
-    x4: 1
+    x1: 6
+    x2: 7
+    x3: 3
+    x4: 2
     part1:
       ans1:
-        value: 25/11
+        value: 2/9
       ans2:
-        value: -17/11
+        value: -1/2
       ans3:
-        value: 25/3
+        value: 1/2
       ans4:
-        value: -41/22
+        value: '-2'
 ---
 # {{ params.vars.title }}
 

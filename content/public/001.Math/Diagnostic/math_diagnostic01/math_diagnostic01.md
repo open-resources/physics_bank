@@ -26,20 +26,19 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Largest Number
     part1:
       ans1:
-        value: 6.6E3
+        value: 3.6E54
       ans2:
-        value: 4.1E3
+        value: 5.0E3
       ans3:
-        value: 50
+        value: 4604
       ans4:
-        value: '5.1E-85'
+        value: '6.2E-68'
       ans5:
         value: Don't Know
 ---

@@ -27,13 +27,12 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     fixed-order: true
 substitutions:
   params:
     vars:
       title: Acceleration Around a Turn
-      vehicle: truck
+      vehicle: van
       dir: clockwise
     part1:
       ans1:

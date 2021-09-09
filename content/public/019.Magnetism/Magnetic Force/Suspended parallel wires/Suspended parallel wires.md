@@ -34,7 +34,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $I= $
@@ -46,9 +45,9 @@ substitutions:
   params:
     vars:
       title: Suspended parallel wires
-    s: '4.8'
-    mu: '36.8'
-    theta: '8.0'
+    s: '5.4'
+    mu: '35.4'
+    theta: '6.0'
 ---
 # {{ params.vars.title }}
 Two long, parallel wires are hung by cords of length $s = {{ params.s }}\rm\ cm$, as shown in the figure.

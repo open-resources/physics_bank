@@ -31,7 +31,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $\Delta K= $
     suffix: $J$
@@ -41,7 +40,6 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $v= $
     suffix: $m/s$
@@ -51,7 +49,6 @@ part3:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $\Delta K= $
     suffix: $J$
@@ -63,9 +60,9 @@ substitutions:
       title: Distance travelled
       unit1: $J$
       unit2: $m/s$
-    m_d: 0.08
-    m_b: 0.053
-    v: 5.5
+    m_d: 0.082
+    m_b: 0.044
+    v: 6.1
 ---
 # {{ params.vars.title }}
 A {{ params.m_d }} $kg$ disk initially at rest in the Earth reference frame is free to move parallel to a horizontal bar through a hole in the disk's centre. The disk is struck face-on by a {{ params.m_b }} $kg$ paintball traveling at {{ params.v }} $m/s$.

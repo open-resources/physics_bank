@@ -27,24 +27,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    a: 16
-    b: '12'
-    b_sign: ' - '
-    c: 4
+    a: 15
+    b: '20'
+    b_sign: ' + '
+    c: 5
     part1:
       ans1:
-        value: 4.0x - 3.0y
+        value: 3.0x + 4.0y
       ans2:
-        value: 3.0x +4.0y
+        value: -4.0x +3.0y
       ans3:
-        value: '  (4.0x  - 3.0y)/4'
+        value: '  (3.0x  + 4.0y)/5'
       ans4:
-        value: 16x - 12y
+        value: 15x + 20y
       ans5:
         value: Do not know
 ---

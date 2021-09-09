@@ -27,23 +27,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Diagnostic Q11
-    a: 1
+    a: 7
     b: 7
-    c: 5
+    c: 1
     part1:
       ans1:
-        value: x = -6.2, x = -0.81
+        value: x = -0.83, x = -0.17
       ans2:
-        value: x = 6.2, x = 0.81
+        value: x = 0.83, x = 0.17
       ans3:
-        value: x = 7, x = 5
+        value: x = 7, x = 1
       ans4:
-        value: x = 1, x = 7
+        value: x = 7, x = 7
       ans5:
         value: Don't Know
 ---

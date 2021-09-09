@@ -36,7 +36,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     label: $r= $
     suffix: $\rm\ m$
@@ -47,8 +46,8 @@ substitutions:
   params:
     vars:
       title: Cosmic Ray Electron
-    v: 2.9
-    B: 2.7
+    v: 2.2
+    B: 3.3
 ---
 # {{ params.vars.title }}
 

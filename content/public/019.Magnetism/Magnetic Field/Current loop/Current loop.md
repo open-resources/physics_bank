@@ -34,7 +34,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $r= $
@@ -46,8 +45,8 @@ substitutions:
   params:
     vars:
       title: Current loop
-    I: '4.20'
-    B: '3.00'
+    I: '7.00'
+    B: '3.40'
     p: '-4'
 ---
 # {{ params.vars.title }}

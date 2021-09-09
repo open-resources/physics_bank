@@ -26,7 +26,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $R= $
     suffix: $m$
@@ -36,7 +35,6 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $\overrightarrow{a}= $
     suffix: $m/s^2 \ \ \hat\jmath$
@@ -46,7 +44,6 @@ part3:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $V_x= $
     suffix: $m/s \ \ \hat\imath$
@@ -56,7 +53,6 @@ part4:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $V_y= $
     suffix: $m/s \ \ \hat\jmath$
@@ -70,8 +66,8 @@ substitutions:
       units2: $m/s^2 \ \ \hat\jmath$
       units3: $m/s \ \ \hat\imath$
       units4: $m/s \ \ \hat\jmath$
-    h: 60
-    s: 190
+    h: 50
+    s: 140
     vert: 50
 ---
 # {{ params.vars.title }}

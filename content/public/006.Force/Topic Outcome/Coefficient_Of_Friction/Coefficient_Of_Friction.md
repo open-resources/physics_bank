@@ -28,7 +28,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $\mu_k= $
     comparison: sigfig
@@ -37,8 +36,8 @@ substitutions:
   params:
     vars:
       title: Coefficient Of Friction
-    m: 153
-    t: 3
+    m: 163
+    t: 2
 ---
 # {{ params.vars.title }}
 You have been hired to measure the coefficients of friction for the newly discovered substance jelloium.

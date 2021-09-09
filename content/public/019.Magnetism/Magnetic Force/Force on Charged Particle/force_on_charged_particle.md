@@ -37,37 +37,31 @@ part1:
   type: dropdown
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     blank: 'true'
 part2:
   type: dropdown
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     blank: 'true'
 part3:
   type: dropdown
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     blank: 'true'
 part4:
   type: dropdown
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     blank: 'true'
 part5:
   type: dropdown
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     blank: 'true'
 part6:
   type: dropdown
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     blank: 'true'
 substitutions:
   params:

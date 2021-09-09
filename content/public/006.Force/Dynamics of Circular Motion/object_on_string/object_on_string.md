@@ -29,22 +29,21 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Object Swung in Circular Path
       units: N
-    m: 0.67
-    r: 8.84
-    w: 2
+    m: 0.32
+    r: 4.49
+    w: 5
     part1:
       ans1:
-        value: 17.13
+        value: 32.78
       ans2:
-        value: -34.35
+        value: 21.84
       ans3:
-        value: 23.69
+        value: 35.92
       ans4:
         value: 19.6
 ---

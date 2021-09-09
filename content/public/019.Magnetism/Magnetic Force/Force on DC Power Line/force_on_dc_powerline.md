@@ -29,7 +29,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     label: $F= $
     suffix: $\rm\ N$
@@ -41,9 +40,9 @@ substitutions:
   params:
     vars:
       title: Force on a DC Power Line
-    I: 979
-    theta: 59
-    L: 154
+    I: 938
+    theta: 46
+    L: 63
 ---
 # {{ params.vars.title }}
 

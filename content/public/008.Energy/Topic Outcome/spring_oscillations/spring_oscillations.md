@@ -28,7 +28,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $v= $
     suffix: m/s
@@ -38,7 +37,6 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $k= $
     suffix: N/m
@@ -48,7 +46,6 @@ part3:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $A=$
     suffix: m
@@ -61,9 +58,9 @@ substitutions:
       units1: m/s
       units2: N/m
       units3: m
-    m: 332
-    T: 1.4
-    E: 4.5
+    m: 320
+    T: 0.78
+    E: 6.0
 ---
 # {{ params.vars.title }}
 A {{params.m}} g object is attached to a spring and executes simple harmonic motion with a period of {{params.T}} s.

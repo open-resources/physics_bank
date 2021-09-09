@@ -33,7 +33,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $B= $
@@ -45,8 +44,8 @@ substitutions:
   params:
     vars:
       title: Magnetic field of a solenoid
-    n: '2700'
-    I: '3.20'
+    n: '2600'
+    I: '1.60'
 ---
 # {{ params.vars.title }}
 A solenoid is wound with {{ params.n }} turns per meter.

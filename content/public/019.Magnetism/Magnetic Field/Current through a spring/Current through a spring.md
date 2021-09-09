@@ -36,7 +36,6 @@ part1:
   type: dropdown
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     blank: true
 substitutions:
   params:

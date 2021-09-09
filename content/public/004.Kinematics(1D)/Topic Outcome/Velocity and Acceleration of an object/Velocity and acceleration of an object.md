@@ -27,26 +27,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Velocity and Acceleration of an Object
-    v: $-6t^3 - 9t^2 + 9t$
-    time: 17.8
+    v: $6t^2 - 4t$
+    time: 13.5
     part1:
       ans1:
-        value: $v = $ -36500.0 $m/s$, $a = $ -6010.0 $m/s^2$
+        value: $v = $ 1040.0 $m/s$, $a = $ 158.0 $m/s^2$
       ans2:
-        value: $v = $ -36500.0 $m/s$, $a = $ 0 $m/s^2$
+        value: $v = $ 1040.0 $m/s$, $a = $ 0 $m/s^2$
       ans3:
-        value: $v = $ -36500.0 $m/s$, $a = $ 9.81 $m/s^2$
+        value: $v = $ 1040.0 $m/s$, $a = $ 9.81 $m/s^2$
       ans4:
-        value: $v = $ 17.8 $m/s$, $a = $ -3010.0 $m/s^2$
+        value: $v = $ 13.5 $m/s$, $a = $ 79.0 $m/s^2$
       ans5:
-        value: $v = $ -36500.0 $m/s$, $a = $ 6010.0 $m/s^2$
+        value: $v = $ 1040.0 $m/s$, $a = $ -158.0 $m/s^2$
       ans6:
-        value: $v = $ -36500.0 $m/s$, $a = $ -12000.0 $m/s^2$
+        value: $v = $ 1040.0 $m/s$, $a = $ 316.0 $m/s^2$
 ---
 # {{ params.vars.title }}
 If the velocity of an object in one-dimensional motion is given by $v(t) = $ {{ params.v }}, where the units of $v$ are in $m/s$ and of $t$ are in seconds,

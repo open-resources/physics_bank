@@ -34,7 +34,6 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $t_o= $
     suffix: $s$
@@ -44,7 +43,6 @@ part3:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $a= $
     suffix: $m/s^2$
@@ -54,17 +52,16 @@ part4:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
-      name: Abbas
+      name: Maya
       title: Motion of watermelon
       units1: ${m/s}^2$
       units2: $s$
-    a: 6
-    b: 7
-    c: 8
+    a: 3
+    b: 8
+    c: 5
     part4:
       ans1:
         value: The speed is increasing

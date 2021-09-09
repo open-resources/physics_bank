@@ -33,7 +33,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: true
     label: $\Delta T = \pm $
@@ -45,9 +44,9 @@ substitutions:
   params:
     vars:
       title: Temperature Range of Resistor
-    p: 8
-    metal: Tungsten
-    T_0: 88
+    p: 5
+    metal: Aluminum
+    T_0: 56
 ---
 # {{ params.vars.title }}
 

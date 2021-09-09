@@ -30,7 +30,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $B= $
@@ -42,8 +41,8 @@ substitutions:
   params:
     vars:
       title: Cosmic Ray Proton
-    v: 1.14
-    F: 2.74
+    v: 1.78
+    F: 1.78
     theta: 55
 ---
 # {{ params.vars.title }}

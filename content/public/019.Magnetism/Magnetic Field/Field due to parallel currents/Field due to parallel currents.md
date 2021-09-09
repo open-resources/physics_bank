@@ -48,15 +48,14 @@ part2:
   type: dropdown
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     blank: true
     sort: fixed
 substitutions:
   params:
     vars:
       title: Field due to parallel currents
-    I1: '17.5'
-    I2: '12.5'
+    I1: '12.5'
+    I2: '7.5'
     r1: '15.0'
     r2: '5.0'
     part2:

@@ -27,24 +27,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Math Practice Q10
-    a: 11
-    b: '6'
-    b_sign: ' + '
-    c: -2
+    a: 7
+    b: '1'
+    b_sign: ' - '
+    c: -10
     part1:
       ans1:
-        value: x =  - 13/6
+        value: x = 17.0
       ans2:
-        value: x =   13/6
+        value: x = -17.0
       ans3:
-        value: x = -19
+        value: x = -16
       ans4:
-        value: x = 3
+        value: x = -2
       ans5:
         value: This equation cannot be solved
 ---

@@ -26,7 +26,6 @@ part1:
   type: checkbox
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     partial-credit: true
     partial-credit-method: EDC
 substitutions:
@@ -36,17 +35,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Mass
+        value: Power
       ans2:
-        value: Entropy
+        value: Density
       ans3:
-        value: Speed
+        value: Length
       ans4:
-        value: The average velocity
+        value: Temperature
       ans5:
-        value: Lift
+        value: Weight
       ans6:
-        value: The position in a 1 dimensional system
+        value: velocity
 ---
 # {{ params.vars.title }}
 

@@ -29,12 +29,10 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 part2:
   type: checkbox
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     partial-credit: true
     partial-credit-method: EDC
     fixed-order: true
@@ -42,11 +40,10 @@ part3:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
-      name: Santiago
+      name: Maya
       title: Lowering a bucket - person, the rope, the bucket, the air, the earth
     part1:
       ans1:

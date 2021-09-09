@@ -28,13 +28,12 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Direction of Movement of the Elevator
-    m_st: 414
-    m_sc: 371
+    m_st: 448
+    m_sc: 468
     part1:
       ans1:
         value: Downward.

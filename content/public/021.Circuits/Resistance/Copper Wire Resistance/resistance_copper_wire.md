@@ -33,7 +33,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     label: $R= $
     suffix: $\rm \Omega $
@@ -45,8 +44,8 @@ substitutions:
     vars:
       title: Resistance Of A Copper Wire
       units: Ohms
-    d: 6.101
-    l: 8.8
+    d: 8.059
+    l: 9.3
 ---
 # {{ params.vars.title }}
 

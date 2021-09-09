@@ -33,7 +33,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $I= $
@@ -46,9 +45,9 @@ substitutions:
     vars:
       title: Current Through A Silicon Rod
       units: "$\textrm{A}$"
-    d: 3.62
-    l: 11.8
-    V: 70
+    d: 4.4
+    l: 47.5
+    V: 88
 ---
 # {{ params.vars.title }}
 

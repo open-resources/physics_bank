@@ -33,7 +33,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $\vec{P} = $
     suffix: $N$
@@ -44,9 +43,9 @@ substitutions:
     vars:
       title: Two Blocks Stacked
       units: N
-    m: 11
-    f: 0.33
-    t: 37
+    m: 12
+    f: 0.27
+    t: 42
 ---
 # {{ params.vars.title }}
 Blocks A and B each have a mass $m$ = {{params.m}} $kg$.

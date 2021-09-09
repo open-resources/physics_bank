@@ -26,29 +26,28 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Vehicle Velocity
-      vehicle: semi-truck
+      vehicle: bus
       units: $m/s$
-    i_1: 2
-    i_2: 3
-    j_1: 7
-    j_2: 3
+    i_1: 1
+    i_2: 1
+    j_1: 8
+    j_2: 1
     s: 3
     part1:
       ans1:
-        value: (9$\hat{\imath}$ + 722/9$\hat{\jmath}$)
+        value: (5$\hat{\imath}$ + 235/9$\hat{\jmath}$)
       ans2:
-        value: (9$\hat{\imath}$ + 81$\hat{\jmath}$)
+        value: (5$\hat{\imath}$ + 27$\hat{\jmath}$)
       ans3:
-        value: (9$\hat{\imath}$ + 250/3$\hat{\jmath}$)
+        value: (6$\hat{\imath}$ + 89/3$\hat{\jmath}$)
       ans4:
-        value: (9$\hat{\imath}$ + 722/9$\hat{\jmath}$)
+        value: (6$\hat{\imath}$ + 235/9$\hat{\jmath}$)
       ans5:
-        value: (9$\hat{\imath}$ + 250/3$\hat{\jmath}$)
+        value: (5$\hat{\imath}$ + 89/3$\hat{\jmath}$)
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }}'s position as a function of time is given by $\vec{r} =$ ({{ params.i_1 }}$t^2 -$ {{ params.i_2 }}$t)\hat{\imath} + ($ {{ params.j_1 }}$t^{-1}+$ {{ params.j_2 }} $t^3)\hat{\jmath}$ where $\vec{r}$ is in meters and $t$ is in seconds.

@@ -28,7 +28,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $k= $
     suffix: $N/m$
@@ -38,7 +37,6 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: Adjustment to $\; k= $
     suffix: $N/m$
@@ -48,18 +46,17 @@ part3:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
-      person1: grandfather
-      person2: brother
+      person1: brother
+      person2: father
       title: Bouncing a Baby to Sleep
       units: $N/m$
-    m1: 53.9
-    m2: 94.2
-    m_b: 6.03
-    f: 2.43
+    m1: 64.5
+    m2: 84.7
+    m_b: 6.58
+    f: 1.5
     part3:
       ans1:
         value: Add more air to increase the pressure in the ball. Increased pressure

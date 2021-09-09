@@ -28,26 +28,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       sport: motorcyclist
       title: Ski Jump
       units: m
-    v: 24
-    d: 4.64
+    v: 23
+    d: 4.77
     part1:
       ans1:
         value: 9.81
       ans2:
-        value: 16.51
+        value: 16.04
       ans3:
-        value: 22.7
+        value: 22.37
       ans4:
-        value: 23.34
+        value: 22.68
       ans5:
-        value: 34.06
+        value: 33.55
 ---
 # {{ params.vars.title }}
 

@@ -27,22 +27,21 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 6x - 7y = 20
-    formula2: 7x + 10y = 11
+    formula1: 4x - 9y = 39
+    formula2: 8x + 8y = 4
     part1:
       ans1:
-        value: ' x =216/85, y =-55/81'
+        value: ' x =87/26, y =-37/13'
       ans2:
-        value: ' x =-55/81, y =216/85'
+        value: ' x =-37/13, y =87/26'
       ans3:
-        value: ' x =-216/85, y =55/81'
+        value: ' x =-87/26, y =37/13'
       ans4:
-        value: ' x =55/81, y =-216/85'
+        value: ' x =37/13, y =-87/26'
       ans5:
         value: Don't Know
 ---

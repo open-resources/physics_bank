@@ -27,12 +27,11 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Box in a Truck Bed 2
-      vehicle: truck
+      vehicle: car
       direction: positive
     part1:
       ans1:

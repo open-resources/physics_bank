@@ -28,7 +28,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $v= $
     suffix: m/s
@@ -38,7 +37,6 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $x= $
     suffix: m
@@ -48,7 +46,6 @@ part3:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $K= $
     suffix: J
@@ -61,8 +58,8 @@ substitutions:
       units1: m/s
       units2: m
       units3: J
-    m: 2.0
-    v: -1.5
+    m: 2.5
+    v: -0.5
 ---
 # {{ params.vars.title }}
 The graph below shows the net force on a particle as a function of its position. The mass of

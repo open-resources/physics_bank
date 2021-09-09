@@ -30,7 +30,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $a= $
     suffix: $\frac{m}{s^2}$
@@ -40,7 +39,6 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $T= $
     suffix: N
@@ -50,7 +48,6 @@ part3:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $F= $
     suffix: N
@@ -62,10 +59,10 @@ substitutions:
       title: Ropes and Blocks
       units1: $\frac{m}{s^2}$
       units2: N
-    m_a: 4
-    m_b: 3
+    m_a: 3
+    m_b: 5
     m_c: 3
-    f_a: 36
+    f_a: 34
 ---
 # {{ params.vars.title }}
 Assume the three blocks portrayed in the figure move on a frictionless surface and a {{params.f_a}} N force

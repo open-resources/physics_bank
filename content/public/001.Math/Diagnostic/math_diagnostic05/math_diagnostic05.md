@@ -27,23 +27,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Diagnostic Q5
-    num1: 5
-    num2: 5
-    num3: 3
+    num1: 8
+    num2: 10
+    num3: 4
     part1:
       ans1:
-        value: 75
+        value: 320
       ans2:
-        value: '1'
+        value: 5/4
       ans3:
-        value: 15
+        value: 32
       ans4:
-        value: '3'
+        value: '5'
       ans5:
         value: Don't Know
 ---

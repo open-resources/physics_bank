@@ -27,25 +27,24 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 2
-    l0: y
-    l1: u
-    l2: w
-    l3: j
+    num: -8
+    l0: t
+    l1: k
+    l2: r
+    l3: b
     part1:
       ans1:
-        value: w = ${ - 2 j + \frac{u}{y}}$
+        value: r = ${ 8 b + \frac{k}{t}}$
       ans2:
-        value: w = ${\frac{2 j y}{u}}$
+        value: r = ${- \frac{8 b t}{k}}$
       ans3:
-        value: w = ${\frac{u}{2 j y}}$
+        value: r = ${- \frac{k}{8 b t}}$
       ans4:
-        value: w = ${\frac{- 2 j + y}{u}}$
+        value: r = ${\frac{8 b + t}{k}}$
       ans5:
         value: Don't Know
 ---

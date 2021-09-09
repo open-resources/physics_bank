@@ -32,7 +32,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $\omega= $
@@ -44,9 +43,9 @@ substitutions:
   params:
     vars:
       title: Square Coil
-    N: '45'
-    l: '35'
-    B: '0.060'
+    N: '40'
+    l: '30'
+    B: '0.050'
     E: '10'
 ---
 # {{ params.vars.title }}

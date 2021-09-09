@@ -27,30 +27,29 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Vehicle Crash
-      name: Lorenzo
-      vehicle_1: van
-      vehicle_2: semi-truck
-    dist: 4.86
-    v: 39.3
-    acc: 14.4
+      name: Aliyah
+      vehicle_1: truck
+      vehicle_2: van
+    dist: 3.33
+    v: 36.4
+    acc: 11.1
     s_1: 0.2
-    s_2: 1.522
+    s_2: 1.669
     part1:
       ans1:
-        value: Lorenzo doesn't hit the van in front because Lorenzo stops in time.
+        value: Aliyah doesn't hit the truck in front because Aliyah stops in time.
       ans2:
-        value: 20.26 $m/s$
+        value: 20.09 $m/s$
       ans3:
-        value: 17.38 $m/s$
+        value: 17.87 $m/s$
       ans4:
-        value: 36.42 $m/s$
+        value: 34.18 $m/s$
       ans5:
-        value: 14.5 $m/s$
+        value: 15.65 $m/s$
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is following {{params.dist}} $m$ behind a {{params.vars.vehicle_1}} when it suddenly brakes with an acceleration of -{{params.acc}} $m/s^2$.

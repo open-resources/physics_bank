@@ -27,25 +27,24 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Force and Displacement
       units: J
-    f1: -3
+    f1: -10
     f2: 9
-    r1: 17
-    r2: -5
+    r1: 11
+    r2: -1
     part1:
       ans1:
-        value: -96
+        value: -119
       ans2:
-        value: 96
+        value: 119
       ans3:
-        value: -6
+        value: -101
       ans4:
-        value: 6
+        value: 101
       ans5:
         value: Zero
 ---

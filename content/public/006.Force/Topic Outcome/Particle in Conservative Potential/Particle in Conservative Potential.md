@@ -30,7 +30,6 @@ part1:
   type: checkbox
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     partial-credit: true
     partial-credit-method: EDC
 substitutions:

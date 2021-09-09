@@ -23,21 +23,20 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $8^{9} $=$ 134217728$
+    expr: $6^{2} $=$ 36$
     part1:
       ans1:
-        value: $log_8134217728 = 9$
+        value: $log_636 = 2$
       ans2:
-        value: $log_89 = 134217728$
+        value: $log_62 = 36$
       ans3:
-        value: $log_1342177289 = 8$
+        value: $log_362 = 6$
       ans4:
-        value: $log_9134217728 = 8$
+        value: $log_236 = 6$
       ans5:
         value: Don't Know
 ---

@@ -28,7 +28,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     label: $ \textrm {J=} $
     suffix: $ \rm {A/m^2} $
@@ -40,8 +39,8 @@ substitutions:
     vars:
       title: 'Electron Beam '
       units: ' $ A / m^2 $ '
-    I: 56
-    r: 0.69
+    I: 155
+    r: 0.44
 ---
 # {{ params.vars.title }}
 

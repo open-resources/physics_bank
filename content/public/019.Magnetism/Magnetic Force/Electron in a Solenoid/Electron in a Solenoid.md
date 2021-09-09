@@ -40,7 +40,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $I= $
@@ -52,9 +51,9 @@ substitutions:
   params:
     vars:
       title: Electron in a Solenoid
-    n: '20'
-    r: '1.10'
-    v: '2.00'
+    n: '15'
+    r: '2.90'
+    v: '2.60'
     p: '6'
 ---
 # {{ params.vars.title }}

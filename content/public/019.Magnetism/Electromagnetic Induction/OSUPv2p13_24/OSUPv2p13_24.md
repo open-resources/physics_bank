@@ -32,7 +32,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $\varepsilon= $
@@ -46,7 +45,7 @@ substitutions:
       title: Coil in Uniform Magnetic Field
     N: '70'
     d: '10'
-    B: '0.75'
+    B: '0.25'
     t: '0.1'
 ---
 # {{ params.vars.title }}

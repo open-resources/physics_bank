@@ -27,7 +27,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $v_o= $
     suffix: m/s
@@ -37,7 +36,6 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $\Delta d= $
     suffix: m
@@ -47,7 +45,6 @@ part3:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $\Delta v_o= $
     suffix: m/s
@@ -57,7 +54,7 @@ substitutions:
   params:
     vars:
       title: Projectile Uncertainty
-      name: Aliyah
+      name: Santiago
       units1: m/s
       units2: m
     d: 0.126

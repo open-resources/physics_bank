@@ -26,7 +26,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $\Delta \theta $
     suffix: rad
@@ -38,8 +37,8 @@ substitutions:
       vehicle: bus
       title: Rotational Displacement of Tires
       units: rad
-    a: 7.66
-    t: 11.6
+    a: 2.36
+    t: 11.2
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }} accelerates from rest at $t = 0$ such that its tires undergo a constant rotational acceleration of $\alpha = $ {{ params.a }} $s^{-2}$.

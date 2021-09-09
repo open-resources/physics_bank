@@ -26,14 +26,12 @@ part1:
   type: checkbox
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     partial-credit: true
     partial-credit-method: EDC
 part2:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $v_{iy}= $
     suffix: $m/s$
@@ -44,8 +42,8 @@ substitutions:
     vars:
       title: Jumping Salmon
       units: $m/s$
-    h_fall: 3.65
-    dist: 0.889
+    h_fall: 3.66
+    dist: 1.1
     part1:
       ans1:
         value: Time interval for jump, $\Delta t$

@@ -26,28 +26,27 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Math Practice Q25
-    a: 2
-    b: 6
-    c: 2
+    a: 9
+    b: 10
+    c: 1
     part1:
       ans1:
-        value: 1/2
+        value: '8'
       ans2:
         value: Negative Infinity
       ans3:
-        value: 1.0
+        value: 9.0
       ans4:
-        value: 2
+        value: 9
       ans5:
         value: Don't Know
 ---
 # {{ params.vars.title }}
-As x tends to zero the function $\frac{{{params.a}}-e^(-{{params.b}}\*x)}{{{params.c}}-x}$ tends to the limit
+As x tends to zero the function $\frac{ {{params.a}}- e ^ {-{{params.b}}x} }{ {{params.c}}-x }$ tends to the limit:
 
 ## Part 1
 

@@ -62,12 +62,10 @@ part5:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 part6:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $x= $
     suffix: $m$
@@ -77,7 +75,6 @@ part7:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $y= $
     suffix: $m$
@@ -94,18 +91,17 @@ part9:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Jump across stream V2
       units: $m$
-    m: 243
-    w_s: 4.4
-    h_s: 1.1
-    v_i: 4
-    v_j: 6
-    h_b: 3.3
+    m: 345
+    w_s: 3.8
+    h_s: 1.6
+    v_i: 2
+    v_j: 2
+    h_b: 4.3
     part5:
       ans1:
         value: Yes, the bear makes it to the other side of the stream.

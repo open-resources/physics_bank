@@ -34,37 +34,31 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     fixed-order: true
 part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     fixed-order: true
 part3:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     fixed-order: true
 part4:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     fixed-order: true
 part5:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     fixed-order: true
 part6:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     fixed-order: true
 substitutions:
   params:

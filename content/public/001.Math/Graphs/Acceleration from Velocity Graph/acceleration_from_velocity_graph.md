@@ -27,10 +27,9 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
-    t: 1
+    t: 3
     vars:
       title: Acceleration from Velocity Graph
     part1:

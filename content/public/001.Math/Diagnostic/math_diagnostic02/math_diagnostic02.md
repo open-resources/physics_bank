@@ -27,22 +27,21 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Significant Figures
-    x: 397.3199
-    sf: 2
+    x: 282.2689883
+    sf: 5
     part1:
       ans1:
-        value: 400.0
+        value: 282.27
       ans2:
-        value: 400.1
+        value: 282.37
       ans3:
-        value: 397.32
+        value: 282.26899
       ans4:
-        value: 390.0
+        value: 272.27
 ---
 # {{ params.vars.title }}
 

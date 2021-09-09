@@ -34,19 +34,16 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     fixed-order: true
 part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     fixed-order: true
 part3:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     fixed-order: true
 substitutions:
   params:

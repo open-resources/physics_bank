@@ -36,7 +36,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $C= $
@@ -48,9 +47,9 @@ substitutions:
   params:
     vars:
       title: Equivalent Capacitance
-    a: '6'
-    b: '4.0'
-    c: '0.1'
+    a: '12'
+    b: '2.0'
+    c: '0.3'
 ---
 # {{ params.vars.title }}
 

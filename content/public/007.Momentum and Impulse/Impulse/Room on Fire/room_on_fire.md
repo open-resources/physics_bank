@@ -26,11 +26,10 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
-      name: Mateo
+      name: Lorenzo
       title: Living Room on Fire
     part1:
       ans1:

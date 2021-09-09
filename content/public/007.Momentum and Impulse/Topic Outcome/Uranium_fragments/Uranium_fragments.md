@@ -28,7 +28,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $m= $
     suffix: amu
@@ -38,7 +37,6 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $m= $
     suffix: amu
@@ -49,9 +47,9 @@ substitutions:
     vars:
       title: Uranium Fragments
       units: amu
-    frag_speed: 2.1
-    dn_speed: 2.89
-    orig_mass: 235
+    frag_speed: 1.6
+    dn_speed: 2.97
+    orig_mass: 234
 ---
 # {{ params.vars.title }}
 A radioactive $^{ {{params.orig_mass}} }U$ uranium nucleus is initially at rest.

@@ -31,7 +31,6 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     fixed-order: true
 substitutions:
   params:

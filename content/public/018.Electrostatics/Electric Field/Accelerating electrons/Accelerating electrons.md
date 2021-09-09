@@ -35,7 +35,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $a= $
@@ -47,7 +46,7 @@ substitutions:
   params:
     vars:
       title: Accelerating electrons
-    E: '2.00'
+    E: '1.40'
     p: '4'
 ---
 # {{ params.vars.title }}

@@ -34,7 +34,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     label: $I= $
     suffix: $\rm\ A$
@@ -46,10 +45,10 @@ substitutions:
   params:
     vars:
       title: Current Through Loop
-    N: 36
-    t: 18
-    s: 8
-    B: 0.195
+    N: 15
+    t: 12
+    s: 20
+    B: 0.897
 ---
 # {{ params.vars.title }}
 

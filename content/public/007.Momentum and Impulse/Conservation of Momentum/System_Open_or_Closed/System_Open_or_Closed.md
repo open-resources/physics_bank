@@ -28,15 +28,14 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: System Open or Closed
       vehicle: pickup truck
       units: kg
-    i_a: 57
-    i_b: 292
+    i_a: 149
+    i_b: 287
     part1:
       ans1:
         value: Yes, because the two carts are on a track with no friction.

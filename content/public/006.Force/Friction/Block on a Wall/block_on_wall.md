@@ -27,7 +27,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $F= $
     suffix: N
@@ -38,9 +37,9 @@ substitutions:
     vars:
       title: Block on a Wall
       units: N
-    theta: 59
-    m: 4
-    mu: 0.354
+    theta: 20
+    m: 5
+    mu: 0.304
 ---
 # {{ params.vars.title }}
 A {{params.m}} kg wood block slides down a vertical wall while you push on it at a {{params.theta}}$^\circ$ angle.

@@ -26,22 +26,21 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Math Practice Q22
-    denom: 3
-    formula: $\sin{\left(\frac{x}{3} \right)}$
+    denom: 2
+    formula: $\sin{\left(\frac{x}{2} \right)}$
     part1:
       ans1:
-        value: ${- 3 \cos{\left(\frac{x}{3} \right)}}$
+        value: ${- 2 \cos{\left(\frac{x}{2} \right)}}$
       ans2:
-        value: ${3 \cos{\left(\frac{x}{3} \right)}}$
+        value: ${2 \cos{\left(\frac{x}{2} \right)}}$
       ans3:
-        value: ${- 6 \cos{\left(\frac{x}{3} \right)}}$
+        value: ${- 4 \cos{\left(\frac{x}{2} \right)}}$
       ans4:
-        value: ${- \frac{3 \cos{\left(\frac{x}{3} \right)}}{2}}$
+        value: ${- \cos{\left(\frac{x}{2} \right)}}$
 ---
 # {{ params.vars.title }}
 

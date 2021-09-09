@@ -33,7 +33,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     label: $\varepsilon= $
     suffix: $\rm\ V$
@@ -45,16 +44,15 @@ part2:
   type: dropdown
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     blank: true
 substitutions:
   params:
     vars:
       title: Single-turn Circular Loop
-    r: '50'
+    r: '30'
     b: '150'
-    B: '325'
-    t: '0.4'
+    B: '300'
+    t: '0.2'
     part2:
       ans1:
         value: Clockwise

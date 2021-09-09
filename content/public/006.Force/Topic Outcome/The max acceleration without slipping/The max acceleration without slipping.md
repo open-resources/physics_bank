@@ -30,7 +30,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $a_{max} = $
     suffix: $m/s^2$
@@ -42,9 +41,9 @@ substitutions:
       vehicle: sedan
       title: A Crate's Maximum Acceleration without Slipping
       units: $m/s^2$
-    mu_s: 0.86
-    mu_k: 0.28
-    theta: 17
+    mu_s: 0.6
+    mu_k: 0.21
+    theta: 18
 ---
 # {{ params.vars.title }}
 A wood crate sits in the back of a {{ params.vars.vehicle }}.

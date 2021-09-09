@@ -37,7 +37,6 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $m_{rain}= $
     suffix: kg
@@ -48,7 +47,7 @@ substitutions:
     vars:
       title: Rotating Buckets
       units: kg
-    m1: 1.69
+    m1: 1.31
     c: 6
 ---
 # {{ params.vars.title }}

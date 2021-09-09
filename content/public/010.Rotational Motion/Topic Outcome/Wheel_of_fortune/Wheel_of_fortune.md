@@ -27,23 +27,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       units: rad/s
-      name: Ahmed
+      name: Maya
       title: Wheel of Fortune
     w_i: 1.57
-    t: 6
+    t: 5
     w_int: 2
     part1:
       ans1:
-        value: 2.47
+        value: 2.96
       ans2:
-        value: 1.57
+        value: 1.72
       ans3:
-        value: 3.14
+        value: 3.44
       ans4:
         value: $\pi$/2
 ---

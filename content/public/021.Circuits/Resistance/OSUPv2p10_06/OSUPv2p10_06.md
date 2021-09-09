@@ -28,12 +28,11 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Resistors in a Lab
-      name: Mateo
+      name: Lorenzo
     have: larger
     want: smaller
     part1:

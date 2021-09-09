@@ -30,7 +30,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $t= $
     suffix: $s$
@@ -40,7 +39,6 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $\theta= $
     suffix: rad
@@ -50,7 +48,6 @@ part3:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     suffix: $\hat{\imath} \; (m/s)$
     comparison: sigfig
@@ -59,7 +56,6 @@ part4:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     suffix: $\hat{\jmath} \; (m/s)$
     comparison: sigfig
@@ -71,8 +67,8 @@ substitutions:
       unit1: $s$
       unit2: rad
       unit3: $m/s$
-    v0: 2.23
-    h: 51.3
+    v0: 1.75
+    h: 69.6
 ---
 # {{ params.vars.title }}
 A small ball is launched from a horizontal cliff with initial speed {{ params.v0 }} $m/s$. The side of the cliff is sloped. The ball makes contact with the cliff side after falling a vertical distance of {{ params.h }} cm.

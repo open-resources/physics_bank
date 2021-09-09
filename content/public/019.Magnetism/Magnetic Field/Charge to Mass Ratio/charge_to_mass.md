@@ -33,7 +33,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     label: $|Q|/m = $
     suffix: $\rm\ {C/kg}$
@@ -45,9 +44,9 @@ substitutions:
   params:
     vars:
       title: Velocity Selector
-    B: 0.735
-    E: 1.6
-    r: 2.19
+    B: 0.288
+    E: 2.7
+    r: 2.03
 ---
 # {{ params.vars.title }}
 

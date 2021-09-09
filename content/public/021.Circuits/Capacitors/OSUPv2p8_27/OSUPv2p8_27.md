@@ -33,7 +33,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: true
     label: $Q= $
@@ -45,8 +44,8 @@ substitutions:
   params:
     vars:
       title: Charging a Capacitor
-    c: '3.9'
-    v: '20'
+    c: '4.4'
+    v: '60'
 ---
 # {{ params.vars.title }}
 

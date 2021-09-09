@@ -35,7 +35,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: false
     show-correct-answer: false
     label: $B= $
@@ -47,10 +46,10 @@ substitutions:
   params:
     vars:
       title: Field due to current segment
-    I: '15.5'
-    x: '1.00'
-    y: '2.00'
-    dl: '0.20'
+    I: '4.5'
+    x: '1.60'
+    y: '2.80'
+    dl: '0.30'
 ---
 # {{ params.vars.title }}
 A ${{ params.I }}\rm\ A$ current flows through the wire shown in the figure.
