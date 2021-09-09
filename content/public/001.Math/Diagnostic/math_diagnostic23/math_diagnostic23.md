@@ -25,18 +25,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 1
-    b: 3
-    formula: $x \cos{\left(3 x \right)}$
+    a: 7
+    b: 5
+    formula: $x^{7} \sin{\left(5 x \right)}$
     part1:
       ans1:
-        value: $- 3 x \sin{\left(3 x \right)} + \cos{\left(3 x \right)}$
+        value: $5 x^{7} \cos{\left(5 x \right)} + 7 x^{6} \sin{\left(5 x \right)}$
       ans2:
-        value: $- 3 x \sin{\left(3 x \right)} $
+        value: $5 x^{7} \cos{\left(5 x \right)} $
       ans3:
-        value: $ \sin{\left(3 x \right)}$
+        value: $ 7 x^{6} \cos{\left(5 x \right)}$
       ans4:
-        value: $3 x \cos{\left(3 x \right)} + \sin{\left(3 x \right)}$
+        value: $- 5 x^{7} \sin{\left(5 x \right)} + 7 x^{6} \cos{\left(5 x \right)}$
       ans5:
         value: Don't Know
 ---

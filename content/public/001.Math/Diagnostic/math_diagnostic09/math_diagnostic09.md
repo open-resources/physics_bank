@@ -29,20 +29,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 7
-    l0: d
-    l1: t
-    l2: h
-    l3: m
+    num: 8
+    l0: u
+    l1: d
+    l2: m
+    l3: l
     part1:
       ans1:
-        value: h = ${ - 7 m + \frac{t}{d}}$
+        value: m = ${ \frac{d}{u} - 8 l}$
       ans2:
-        value: h = ${\frac{7 d m}{t}}$
+        value: m = ${\frac{8 l u}{d}}$
       ans3:
-        value: h = ${\frac{t}{7 d m}}$
+        value: m = ${\frac{d}{8 l u}}$
       ans4:
-        value: h = ${\frac{d - 7 m}{t}}$
+        value: m = ${\frac{- 8 l + u}{d}}$
       ans5:
         value: Don't Know
 ---

@@ -57,22 +57,22 @@ substitutions:
   params:
     vars:
       title: A Frictionless Air Track?
-      name: Savannah
+      name: Ximena
       units: $m/s^2$
-    m1: 154.9
-    m2: 10.11
-    d_a: 0.01
-    mean: 1.44
-    sd: 0.114
-    a1: 1.37
-    a2: 1.32
-    a3: 1.5
-    a4: 1.38
-    a5: 1.41
-    a6: 1.35
-    a7: 1.63
-    a8: 1.45
-    a9: 1.34
+    m1: 126.3
+    m2: 66.32
+    d_a: 0.02
+    mean: 1.61
+    sd: 0.152
+    a1: 1.73
+    a2: 1.62
+    a3: 1.8
+    a4: 1.4
+    a5: 1.73
+    a6: 1.45
+    a7: 1.34
+    a8: 1.75
+    a9: 1.63
     a10: 1.66
     part4:
       ans1:

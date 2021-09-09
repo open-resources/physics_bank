@@ -25,16 +25,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $2^{3} $=$ 8$
+    expr: $8^{1} $=$ 8$
     part1:
       ans1:
-        value: $log_28 = 3$
+        value: $log_88 = 1$
       ans2:
-        value: $log_23 = 8$
+        value: $log_81 = 8$
       ans3:
-        value: $log_83 = 2$
+        value: $log_81 = 8$
       ans4:
-        value: $log_38 = 2$
+        value: $log_18 = 8$
       ans5:
         value: Don't Know
 ---

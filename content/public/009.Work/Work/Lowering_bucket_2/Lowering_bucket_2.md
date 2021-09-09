@@ -41,7 +41,7 @@ part3:
 substitutions:
   params:
     vars:
-      name: Lorenzo
+      name: Maya
       title: Lowering a bucket - the rope, the bucket, the air, the earth
     part1:
       ans1:

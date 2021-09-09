@@ -27,7 +27,7 @@ part1:
 substitutions:
   params:
     vars:
-      name: Santiago
+      name: Maya
       title: Living Room on Fire
     part1:
       ans1:
