@@ -29,20 +29,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -3
-    l0: q
-    l1: h
+    num: 10
+    l0: a
+    l1: i
     l2: b
-    l3: c
+    l3: v
     part1:
       ans1:
-        value: b = ${ 3 c + \frac{h}{q}}$
+        value: b = ${ - 10 v + \frac{i}{a}}$
       ans2:
-        value: b = ${- \frac{3 c q}{h}}$
+        value: b = ${\frac{10 a v}{i}}$
       ans3:
-        value: b = ${- \frac{h}{3 c q}}$
+        value: b = ${\frac{i}{10 a v}}$
       ans4:
-        value: b = ${\frac{3 c + q}{h}}$
+        value: b = ${\frac{a - 10 v}{i}}$
       ans5:
         value: Don't Know
 ---

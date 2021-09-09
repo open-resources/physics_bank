@@ -34,29 +34,29 @@ substitutions:
   params:
     vars:
       title: Magnitude and Direction of a Vector
-    A_i: 6
-    A_j_abs: 2
-    A_j_sign: ' + '
-    B_i: -6
-    B_j_abs: 9
-    B_j_sign: ' + '
-    C_i: 3
-    C_j_abs: 7
-    C_j_sign: ' - '
-    d: -3
+    A_i: 7
+    A_j_abs: 9
+    A_j_sign: ' - '
+    B_i: -7
+    B_j_abs: 1
+    B_j_sign: ' - '
+    C_i: -2
+    C_j_abs: 5
+    C_j_sign: ' + '
+    d: -2
     part1:
       ans1:
-        value: ($\sqrt{210}$, $\theta = $77.9$^\circ$)
+        value: ($\sqrt{650}$, $\theta = $315.0$^\circ$)
       ans2:
-        value: ($\sqrt{210}$, $\theta = $38.95$^\circ$)
+        value: ($\sqrt{650}$, $\theta = $157.5$^\circ$)
       ans3:
-        value: ($\sqrt{105.0}$, $\theta = $38.95$^\circ$)
+        value: ($\sqrt{325.0}$, $\theta = $157.5$^\circ$)
       ans4:
-        value: ($\sqrt{14.0}$, $\theta = $77.9$^\circ$)
+        value: ($\sqrt{25.0}$, $\theta = $315.0$^\circ$)
       ans5:
-        value: ($\sqrt{315.0}$, $\theta = $38.95$^\circ$)
+        value: ($\sqrt{975.0}$, $\theta = $157.5$^\circ$)
       ans6:
-        value: ($\sqrt{17}$, $\theta = $77.9$^\circ$)
+        value: ($\sqrt{0}$, $\theta = $315.0$^\circ$)
 ---
 # {{ params.vars.title }}
 Given $\vec{A} =$ {{ params.A_i }}$\hat{\imath}$ {{params.A_j_sign}} {{ params.A_j_abs}}$\hat{\jmath}$, $\vec{B} =$ {{ params.B_i }}$\hat{\imath}$ {{params.B_j_sign}} {{ params.B_j_abs}}$\hat{\jmath}$, $\vec{C} =$ {{ params.C_i }}$\hat{\imath}$ {{params.C_j_sign}} {{ params.C_j_abs}}$\hat{\jmath}$ and $d=$ {{ params.d }}, find the magnitude and direction of $\vec{A}-\vec{B}+d\vec{C}$.

@@ -30,16 +30,16 @@ substitutions:
     vars:
       title: Math Practice 14
     num: 3
-    denom: 9
+    denom: 6
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt[9]{x^{3}}}\end{equation}
+        value: \begin{equation}\frac{1}{\sqrt[6]{x^{3}}}\end{equation}
       ans2:
-        value: \begin{equation}\sqrt[9]{x^{3}}\end{equation}
+        value: \begin{equation}\sqrt[6]{x^{3}}\end{equation}
       ans3:
-        value: \begin{equation}\sqrt[3]{x}\end{equation}
+        value: \begin{equation}\sqrt{x}\end{equation}
       ans4:
-        value: \begin{equation}- \frac{1}{\sqrt[9]{x^{3}}}\end{equation}
+        value: \begin{equation}- \frac{1}{\sqrt[6]{x^{3}}}\end{equation}
       ans5:
         value: Do not know
 ---

@@ -25,18 +25,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 1
-    b: 3
-    formula: $x \sin{\left(3 x \right)}$
+    a: 2
+    b: 5
+    formula: $x^{2} \sin{\left(5 x \right)}$
     part1:
       ans1:
-        value: $3 x \cos{\left(3 x \right)} + \sin{\left(3 x \right)}$
+        value: $5 x^{2} \cos{\left(5 x \right)} + 2 x \sin{\left(5 x \right)}$
       ans2:
-        value: $3 x \cos{\left(3 x \right)} $
+        value: $5 x^{2} \cos{\left(5 x \right)} $
       ans3:
-        value: $ \cos{\left(3 x \right)}$
+        value: $ 2 x \cos{\left(5 x \right)}$
       ans4:
-        value: $- 3 x \sin{\left(3 x \right)} + \cos{\left(3 x \right)}$
+        value: $- 5 x^{2} \sin{\left(5 x \right)} + 2 x \cos{\left(5 x \right)}$
       ans5:
         value: Don't Know
 ---

@@ -44,10 +44,10 @@ substitutions:
   params:
     vars:
       title: Field due to current segment
-    I: '9.0'
-    x: '1.80'
-    y: '5.60'
-    dl: '0.30'
+    I: '15.5'
+    x: '6.00'
+    y: '2.80'
+    dl: '0.50'
 ---
 # {{ params.vars.title }}
 A ${{ params.I }}\rm\ A$ current flows through the wire shown in the figure.

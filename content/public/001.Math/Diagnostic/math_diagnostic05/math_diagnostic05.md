@@ -30,22 +30,22 @@ substitutions:
     vars:
       title: Diagnostic Q5
     num1: 5
-    num2: 7
-    num3: 8
+    num2: 4
+    num3: 7
     part1:
       ans1:
-        value: 280
+        value: 140
       ans2:
-        value: 7/5
+        value: 4/5
       ans3:
-        value: 40
+        value: 35
       ans4:
-        value: 56/5
+        value: 28/5
       ans5:
         value: Don't Know
 ---
 # {{ params.vars.title }}
-If $\frac{x}{{{params.num1}}} =$ {{params.num2}} then {{params.num3}}x equals:
+If $\frac{x}{ {{params.num1}} } =$ {{params.num2}} then {{params.num3}}x equals:
 
 ## Part 1
 
