@@ -1,78 +1,76 @@
 ---
-title: Single-turn Circular Loop
+title: Force between current-carrying wires
 topic: Magnetism
-author: Ava Cornell
-source: 2.13.33
-template_version: 1.3
+author: Jake Bobowski
+source: 2.12.31
+template_version: 1.1
 attribution: openstax-physics-vol2
-partialCredit: true
-singleVariant: false
 outcomes:
-- 19.8.6.0
+- 19.3.3.2
+- 19.3.3.4
 difficulty:
 - undefined
 randomization:
 - undefined
 taxonomy:
 - undefined
-span:
-- undefined
-length:
-- undefined
 tags:
 - OSUP
 - volume 2
-- chapter 13
-- problem 33
-- electromagnetic induction
-- multi-part
+- chapter 12
+- problem 31
+- magnetic fields
+- parallel currents
+- force
 - numeric
-- AC
+- JB
 assets: null
 part1:
   type: number-input
   pl-customizations:
-    weight: 1
+    label: $F/\ell=$
     allow-blank: false
-    label: $\varepsilon= $
-    suffix: $\rm\ V$
+    show-correct-answer: true
     comparison: relabs
     rtol: 0.03
     atol: 0
     show-help-text: true
+    suffix: $\rm\ N/m$
+    weight: 1
+    custom-format: .3g
 part2:
   type: dropdown
   pl-customizations:
     weight: 1
     blank: true
+    sort: fixed
 substitutions:
   params:
     vars:
-      title: Single-turn Circular Loop
-    r: '50'
-    b: '175'
-    B: '375'
-    t: '0.2'
+      title: Force between current-carrying wires
+    d: '11.0'
+    I1: '1.2'
+    I2: '6.2'
+    txt: the same direction
     part2:
       ans1:
-        value: Clockwise
+        value: Attract
       ans2:
-        value: Counterclockwise
+        value: Repel
 ---
 # {{ params.vars.title }}
-A single-turn circular loop of wire of radius ${{params.r }} \textrm{ mm}$ lies in a plane perpendicular to a spatially uniform magnetic field. During a ${{params.t }} \textrm{ s}$ time interval, the magnitude of the field increases uniformly from ${{params.b }} \textrm{ mT}$ to ${{params.B }} \textrm{ mT}$.
+Two long, straight wires are parallel and ${{ params.d }}\rm\ cm$ apart.
+One carries a current of ${{ params.I1 }}\rm\ A$, the other a current of ${{ params.I2 }}\rm\ A$.
 
 ## Part 1
 
-Determine the emf induced in the loop.
+If the two currents flow in {{ params.txt }}, what is the magnitude of the force per unit length of one wire on the other?
 
 ### Answer Section
 
-Please enter a numeric value.
-
 ## Part 2
 
-If the magnetic field is directed out of the screen, what is the direction of the current induced in the loop?
+Do the wires attract or repel eachother?
 
 ### Answer Section
 

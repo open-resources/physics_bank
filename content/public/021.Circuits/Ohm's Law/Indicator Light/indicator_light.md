@@ -43,8 +43,8 @@ substitutions:
     vars:
       title: Voltage Supplied To An Indicator Light
       units: V
-    R: 160
-    I: 79
+    R: 221
+    I: 15
 ---
 # {{ params.vars.title }}
 

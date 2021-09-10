@@ -35,17 +35,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Power
-      ans2:
         value: Density
+      ans2:
+        value: Mass
       ans3:
-        value: Length
+        value: Energy
       ans4:
-        value: Temperature
+        value: The position in a 1 dimensional system
       ans5:
         value: Weight
       ans6:
-        value: velocity
+        value: Momentum
 ---
 # {{ params.vars.title }}
 

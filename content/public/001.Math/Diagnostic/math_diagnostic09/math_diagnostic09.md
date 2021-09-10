@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -8
-    l0: t
+    num: -3
+    l0: z
     l1: k
-    l2: r
-    l3: b
+    l2: j
+    l3: e
     part1:
       ans1:
-        value: r = ${ 8 b + \frac{k}{t}}$
+        value: j = ${ 3 e + \frac{k}{z}}$
       ans2:
-        value: r = ${- \frac{8 b t}{k}}$
+        value: j = ${- \frac{3 e z}{k}}$
       ans3:
-        value: r = ${- \frac{k}{8 b t}}$
+        value: j = ${- \frac{k}{3 e z}}$
       ans4:
-        value: r = ${\frac{8 b + t}{k}}$
+        value: j = ${\frac{3 e + z}{k}}$
       ans5:
         value: Don't Know
 ---

@@ -29,14 +29,14 @@ substitutions:
   params:
     vars:
       title: Energy Consumption Units
-      name: Ximena
+      name: Santiago
     part1:
       ans1:
-        value: energy
+        value: power
       ans2:
         value: voltage
       ans3:
-        value: power
+        value: energy
       ans4:
         value: current
       ans5:
