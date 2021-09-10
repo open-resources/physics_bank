@@ -358,6 +358,10 @@ parts:
   - file: content/public/018.Electrostatics/Electric Flux/Zero flux/Zero flux
   - file: content/public/018.Electrostatics/Electric Flux/Flux through a closed surface/Flux
       through a closed surface
+  - file: content/public/018.Electrostatics/Electric Flux/Flux through a surface/Flux
+      through a surface
+  - file: content/public/018.Electrostatics/Electric Flux/A cube and a sphere/A cube
+      and a sphere
 - caption: Magnetism
   chapters:
   - file: content/public/019.Magnetism/Magnetic Force/Wire and loop/Wire and loop
