@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: 331
+    a: 297
     part1:
       ans1:
-        value: $\sin{-29}$
+        value: $\sin{-63}$
       ans2:
-        value: $\sin{29}$
+        value: $\sin{63}$
       ans3:
-        value: $\sin{-151}$
+        value: $\sin{-117}$
       ans4:
-        value: $\sin{151}$
+        value: $\sin{117}$
       ans5:
         value: Don't Know
 ---

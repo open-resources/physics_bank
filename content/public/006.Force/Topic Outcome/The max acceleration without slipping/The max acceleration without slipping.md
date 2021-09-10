@@ -38,12 +38,12 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: car
+      vehicle: sedan
       title: A Crate's Maximum Acceleration without Slipping
       units: $m/s^2$
-    mu_s: 0.39
-    mu_k: 0.28
-    theta: 29
+    mu_s: 0.88
+    mu_k: 0.43
+    theta: 25
 ---
 # {{ params.vars.title }}
 A wood crate sits in the back of a {{ params.vars.vehicle }}.

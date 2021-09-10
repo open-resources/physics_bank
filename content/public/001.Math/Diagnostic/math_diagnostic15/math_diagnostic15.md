@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $4^{3} $=$ 64$
+    expr: $2^{8} $=$ 256$
     part1:
       ans1:
-        value: $log_464 = 3$
+        value: $log_2256 = 8$
       ans2:
-        value: $log_43 = 64$
+        value: $log_28 = 256$
       ans3:
-        value: $log_643 = 4$
+        value: $log_2568 = 2$
       ans4:
-        value: $log_364 = 4$
+        value: $log_8256 = 2$
       ans5:
         value: Don't Know
 ---

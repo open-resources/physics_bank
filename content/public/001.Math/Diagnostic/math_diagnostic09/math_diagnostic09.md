@@ -32,19 +32,19 @@ substitutions:
     vars:
       title: Math Practice 9
     num: -9
-    l0: a
-    l1: j
-    l2: t
-    l3: p
+    l0: f
+    l1: b
+    l2: d
+    l3: a
     part1:
       ans1:
-        value: t = ${ 9 p + \frac{j}{a}}$
+        value: d = ${ 9 a + \frac{b}{f}}$
       ans2:
-        value: t = ${- \frac{9 a p}{j}}$
+        value: d = ${- \frac{9 a f}{b}}$
       ans3:
-        value: t = ${- \frac{j}{9 a p}}$
+        value: d = ${- \frac{b}{9 a f}}$
       ans4:
-        value: t = ${\frac{a + 9 p}{j}}$
+        value: d = ${\frac{9 a + f}{b}}$
       ans5:
         value: Don't Know
 ---

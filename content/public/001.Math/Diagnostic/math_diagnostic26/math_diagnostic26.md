@@ -50,7 +50,7 @@ substitutions:
 
 ## Part 1
 
-The gradient of the tangent to the curve $y = x^3 - 2x$ at the point (-1,1) is
+The tangent to the curve $y = x^3 - 2x$ at the point (-1,1) is:
 
 ### Answer Section
 

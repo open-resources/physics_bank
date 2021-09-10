@@ -57,9 +57,9 @@ part2:
     weight: 1
 substitutions:
   params:
-    V: '11.5'
-    V_t: '16.0'
-    I: '10.25'
+    V: '13.0'
+    V_t: '16.5'
+    I: '10.75'
 ---
 # {{ params.vars.title }}
 A ${{ params.V }}\rm\ V$ emf automobile battery has a terminal voltage of ${{ params.V_t }}\rm\ V$ when being charged by a current of ${{ params.I }}\rm\ A$.
