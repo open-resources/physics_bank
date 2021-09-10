@@ -31,18 +31,18 @@ substitutions:
   params:
     vars:
       units: rad/s
-      name: Maya
+      name: Abbas
       title: Wheel of Fortune
     w_i: 1.05
-    t: 4
+    t: 5
     w_int: 3
     part1:
       ans1:
-        value: 2.47
+        value: 1.98
       ans2:
-        value: 1.57
+        value: 1.41
       ans3:
-        value: 3.15
+        value: 2.81
       ans4:
         value: $\pi$/3
 ---

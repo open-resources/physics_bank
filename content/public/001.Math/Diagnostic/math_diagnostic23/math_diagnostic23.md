@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 1
-    b: 6
-    formula: $x \cos{\left(6 x \right)}$
+    a: 2
+    b: 5
+    formula: $x^{2} \cos{\left(5 x \right)}$
     part1:
       ans1:
-        value: $- 6 x \sin{\left(6 x \right)} + \cos{\left(6 x \right)}$
+        value: $- 5 x^{2} \sin{\left(5 x \right)} + 2 x \cos{\left(5 x \right)}$
       ans2:
-        value: $- 6 x \sin{\left(6 x \right)} $
+        value: $- 5 x^{2} \sin{\left(5 x \right)} $
       ans3:
-        value: $ \sin{\left(6 x \right)}$
+        value: $ 2 x \sin{\left(5 x \right)}$
       ans4:
-        value: $6 x \cos{\left(6 x \right)} + \sin{\left(6 x \right)}$
+        value: $5 x^{2} \cos{\left(5 x \right)} + 2 x \sin{\left(5 x \right)}$
       ans5:
         value: Don't Know
 ---

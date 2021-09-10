@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -9
-    l0: f
-    l1: b
-    l2: d
-    l3: a
+    num: -10
+    l0: j
+    l1: i
+    l2: b
+    l3: k
     part1:
       ans1:
-        value: d = ${ 9 a + \frac{b}{f}}$
+        value: b = ${ \frac{i}{j} + 10 k}$
       ans2:
-        value: d = ${- \frac{9 a f}{b}}$
+        value: b = ${- \frac{10 j k}{i}}$
       ans3:
-        value: d = ${- \frac{b}{9 a f}}$
+        value: b = ${- \frac{i}{10 j k}}$
       ans4:
-        value: d = ${\frac{9 a + f}{b}}$
+        value: b = ${\frac{j + 10 k}{i}}$
       ans5:
         value: Don't Know
 ---
