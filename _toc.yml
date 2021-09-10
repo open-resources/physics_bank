@@ -369,6 +369,8 @@ parts:
   - file: content/public/019.Magnetism/Magnetic Force/Suspended parallel wires/Suspended
       parallel wires
   - file: content/public/019.Magnetism/Magnetic Force/Force on DC Power Line/force_on_dc_powerline
+  - file: content/public/019.Magnetism/Magnetic Force/Force between current-carrying
+      wires/Force between current-carrying wires
   - file: content/public/019.Magnetism/Magnetic Force/Magnetic Force on Airplane/magnetic_force_on_plane
   - file: content/public/019.Magnetism/Magnetic Force/Magnetic Force on Current/magnetic_force_on_current
   - file: content/public/019.Magnetism/Magnetic Force/Force on Electron vs Proton/force_on_electron_versus_proton
