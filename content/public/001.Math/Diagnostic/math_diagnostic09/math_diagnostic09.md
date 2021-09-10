@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -3
-    l0: z
-    l1: k
-    l2: j
-    l3: e
+    num: -9
+    l0: a
+    l1: j
+    l2: t
+    l3: p
     part1:
       ans1:
-        value: j = ${ 3 e + \frac{k}{z}}$
+        value: t = ${ 9 p + \frac{j}{a}}$
       ans2:
-        value: j = ${- \frac{3 e z}{k}}$
+        value: t = ${- \frac{9 a p}{j}}$
       ans3:
-        value: j = ${- \frac{k}{3 e z}}$
+        value: t = ${- \frac{j}{9 a p}}$
       ans4:
-        value: j = ${\frac{3 e + z}{k}}$
+        value: t = ${\frac{a + 9 p}{j}}$
       ans5:
         value: Don't Know
 ---

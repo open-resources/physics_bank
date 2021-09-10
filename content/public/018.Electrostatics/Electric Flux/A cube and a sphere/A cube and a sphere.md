@@ -1,60 +1,53 @@
 ---
-title: Maximizing Energy in a Capacitor Bank
-topic: Circuits
-author: Ava Cornell
-source: 2.8.8
-template_version: 1.3
+title: A cube and a sphere
+topic: Electrostatics
+author: Jake Bobowksi
+source: 2.6.6
+template_version: 1.0
 attribution: openstax-physics-vol2
-partialCredit: true
-singleVariant: false
 outcomes:
-- 21.7.1.0
-- 21.7.2.0
-- 21.7.3.0
-- 21.7.4.0
-- 21.7.5.0
-- 21.7.5.1
+- 18.8.1.0
+- 18.8.1.1
+- 18.8.1.2
 difficulty:
 - undefined
 randomization:
 - undefined
 taxonomy:
 - undefined
-span:
-- undefined
-length:
-- undefined
 tags:
 - OSUP
 - volume 2
-- chapter 8
-- problem 8
-- capacitors
-- multiple choice
-- AC
+- chapter 6
+- problem 6
+- electric field
+- flux
+- closed surface
+- drop down
+- JB
 assets: null
 part1:
-  type: multiple-choice
+  type: dropdown
   pl-customizations:
     weight: 1
+    blank: true
 substitutions:
   params:
     vars:
-      title: Maximizing Energy in a Capacitor Bank
-      name: Mateo
+      title: A cube and a sphere
     part1:
       ans1:
-        value: Parallel
+        value: The sphere has greater electric flux passing through it.
       ans2:
-        value: Series
+        value: The cube has greater electric flux passing through it.
       ans3:
-        value: Both parallel and series connections are equally effective
+        value: The same electric flux passes through each surface.
 ---
 # {{ params.vars.title }}
 
 ## Part 1
 
-If {{ params.vars.name }} wishes to store a large amount of energy in a capacitor bank, would they connect the capacitors in series or parallel?
+Compare the electric flux through the surface of a cube of side length $a$ that has a charge $q$ at its centre to the flux through a spherical surface of radius $a$ with a charge $q$ at its centre.
 
 ### Answer Section
 

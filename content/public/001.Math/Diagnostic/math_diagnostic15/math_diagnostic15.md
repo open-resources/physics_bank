@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $8^{3} $=$ 512$
+    expr: $4^{3} $=$ 64$
     part1:
       ans1:
-        value: $log_8512 = 3$
+        value: $log_464 = 3$
       ans2:
-        value: $log_83 = 512$
+        value: $log_43 = 64$
       ans3:
-        value: $log_5123 = 8$
+        value: $log_643 = 4$
       ans4:
-        value: $log_3512 = 8$
+        value: $log_364 = 4$
       ans5:
         value: Don't Know
 ---

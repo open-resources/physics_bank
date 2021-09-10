@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 9
+    a: 3
     b: 9
-    formula: $x^{9} \sin{\left(9 x \right)}$
+    formula: $x^{3} \cos{\left(9 x \right)}$
     part1:
       ans1:
-        value: $9 x^{9} \cos{\left(9 x \right)} + 9 x^{8} \sin{\left(9 x \right)}$
+        value: $- 9 x^{3} \sin{\left(9 x \right)} + 3 x^{2} \cos{\left(9 x \right)}$
       ans2:
-        value: $9 x^{9} \cos{\left(9 x \right)} $
+        value: $- 9 x^{3} \sin{\left(9 x \right)} $
       ans3:
-        value: $ 9 x^{8} \cos{\left(9 x \right)}$
+        value: $ 3 x^{2} \sin{\left(9 x \right)}$
       ans4:
-        value: $- 9 x^{9} \sin{\left(9 x \right)} + 9 x^{8} \cos{\left(9 x \right)}$
+        value: $9 x^{3} \cos{\left(9 x \right)} + 3 x^{2} \sin{\left(9 x \right)}$
       ans5:
         value: Don't Know
 ---

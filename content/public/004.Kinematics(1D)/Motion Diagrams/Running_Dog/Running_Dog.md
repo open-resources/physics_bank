@@ -41,7 +41,7 @@ substitutions:
       ans2:
         value: The dog is moving at the same speed at time t=10s and t=4s
       ans3:
-        value: The dog is not moving between t=6s and t=10s
+        value: The dog is moving at the same speed at time t=8s and t=10s
       ans4:
         value: The dog has a velocity of 1 m/s between time t=6s and t=10s
 ---

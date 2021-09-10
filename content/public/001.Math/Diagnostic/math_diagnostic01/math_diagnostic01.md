@@ -32,20 +32,20 @@ substitutions:
       title: Largest Number
     part1:
       ans1:
-        value: 1.9E43
+        value: 3.7E33
       ans2:
-        value: 6.0E8
+        value: 8.5E3
       ans3:
-        value: 2411
+        value: 4600
       ans4:
-        value: '1.3E-79'
+        value: '7.9E-56'
       ans5:
         value: Don't Know
 ---
 # {{ params.vars.title }}
 The largest of the following numbers is:
 
-*Note that you should read **E** as $ \times 10$ ^), or "times ten to the power of".*
+*Note that you should read **E** as $ \times 10$^, or "times ten to the power of".*
 
 ## Part 1
 
