@@ -31,18 +31,18 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q5
-    num1: 2
-    num2: 8
-    num3: 9
+    num1: 5
+    num2: 3
+    num3: 2
     part1:
       ans1:
-        value: 144
+        value: 30
       ans2:
-        value: '4'
+        value: 3/5
       ans3:
-        value: 18
+        value: 10
       ans4:
-        value: '36'
+        value: 6/5
       ans5:
         value: Don't Know
 ---

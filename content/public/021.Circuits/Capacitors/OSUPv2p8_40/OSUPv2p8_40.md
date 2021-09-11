@@ -43,7 +43,7 @@ substitutions:
   params:
     vars:
       title: Energy Stored in a Capacitor
-    c: '7'
+    c: '8'
     v: '5'
 ---
 # {{ params.vars.title }}

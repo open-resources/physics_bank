@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 8
-    l0: n
-    l1: b
-    l2: v
-    l3: f
+    num: 3
+    l0: z
+    l1: v
+    l2: h
+    l3: a
     part1:
       ans1:
-        value: v = ${ \frac{b}{n} - 8 f}$
+        value: h = ${ - 3 a + \frac{v}{z}}$
       ans2:
-        value: v = ${\frac{8 f n}{b}}$
+        value: h = ${\frac{3 a z}{v}}$
       ans3:
-        value: v = ${\frac{b}{8 f n}}$
+        value: h = ${\frac{v}{3 a z}}$
       ans4:
-        value: v = ${\frac{- 8 f + n}{b}}$
+        value: h = ${\frac{- 3 a + z}{v}}$
       ans5:
         value: Don't Know
 ---
