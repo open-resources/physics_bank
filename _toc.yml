@@ -129,13 +129,17 @@ parts:
       Time/Acceleration, Velocity and Time
   - file: content/public/004.Kinematics(1D)/Topic Outcome/A Coyote and a Rat/A Coyote
       and a Rat
+  - file: content/public/004.Kinematics(1D)/Topic Outcome/Choose the correct statement/Choose
+      the correct statement
 - caption: Kinematics(2D and 3D)
   chapters:
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Turning_Car/Turning_car
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Discus_Thrower/Discus_Thrower
+  - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Angular_Acceleration/Angular_Acceleration
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Acceleration
       around a turn/Acceleration around a turn
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/RollerCoaster/RollerCoaster
+  - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Speed_Skating/Speed_Skating
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/centripetal_force/centripetal_force
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Swinging
       mass/Swinging mass
@@ -143,6 +147,7 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Jumping Salmon/Jumping
       Salmon
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/ski_jump/ski_jump
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Hit_Baseball/Hit_Baseball
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Cat in a Laundry
       Basket/Cat in a Laundry Basket
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Shooting a steel
@@ -150,6 +155,8 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Slanted Table/slanted_table
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Salmon passing
       a waterfall/Salmon Passing a Waterfall
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Projectile Motion
+      graphs/Projectile Motion graphs
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Mass_Attached_To_String/Mass_Attached_To_String
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/A flying arrow/A
       flying arrow
@@ -229,6 +236,7 @@ parts:
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Flying
       Squid/flying_squid
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Raindrops_Collision/raindrops_collision
+  - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Collision_In_Outer_Space/Collision_In_Outer_Space
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Isolated_systems/Isolated_systems
   - file: content/public/007.Momentum and Impulse/2D Collisions/collision_of_carts/collision_of_carts
   - file: content/public/007.Momentum and Impulse/2D Collisions/billiards_collision/billiards_collision
@@ -270,6 +278,8 @@ parts:
   - file: content/public/008.Energy/Exploding_Asteroid/Exploding_Asteroid
   - file: content/public/008.Energy/Kinetic Energy/KE_energy_momentum/KE_energy_momentum
   - file: content/public/008.Energy/Kinetic Energy/KE_testmass/KE_testmass
+  - file: content/public/008.Energy/Kinetic Energy/Kinetic Energy of a Simple Pendulum
+      System/Kinetic Energy of a Simple Pendulum System
   - file: content/public/008.Energy/Topic Outcome/spring_oscillations/spring_oscillations
   - file: content/public/008.Energy/Topic Outcome/frictionless_track/frictionless_track
   - file: content/public/008.Energy/Topic Outcome/force_vs_position/force_vs_position
@@ -377,6 +387,7 @@ parts:
       wires/Force between current-carrying wires
   - file: content/public/019.Magnetism/Magnetic Force/Magnetic Force on Airplane/magnetic_force_on_plane
   - file: content/public/019.Magnetism/Magnetic Force/Magnetic Force on Current/magnetic_force_on_current
+  - file: content/public/019.Magnetism/Magnetic Force/Force on Lightning Bolt/force_on_lightning_bolt
   - file: content/public/019.Magnetism/Magnetic Force/Force on Electron vs Proton/force_on_electron_versus_proton
   - file: content/public/019.Magnetism/Magnetic Force/Possible Forces on a Charge/possible_forces_on_a_charge
   - file: content/public/019.Magnetism/Magnetic Force/Direction of Current/direction_of_current
@@ -393,17 +404,22 @@ parts:
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_56/OSUPv2p13_56
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_23/OSUPv2p13_23
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_13/OSUPv2p13_13
+  - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_42/OSUPv2p13_42
+  - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_36/OSUPv2p13_36
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_15/OSUPv2p13_15
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_5/OSUPv2p13_5
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_30/OSUPv2p13_30
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_52/OSUPv2p13_52
+  - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_54/OSUPv2p13_54
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_33/OSUPv2p13_33
+  - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_44/OSUPv2p13_44
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_38/OSUPv2p13_38
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_7/OSUPv2p13_7
   - file: content/public/019.Magnetism/Magnetic Field/Semi-circular current loop/Semi-circular
       Current Loop
   - file: content/public/019.Magnetism/Magnetic Field/Cancelling magnetic fields/Cancelling
       magnetic fields
+  - file: content/public/019.Magnetism/Magnetic Field/Velocity Selector/velocity_selector
   - file: content/public/019.Magnetism/Magnetic Field/Cosmic Ray Proton/cosmic_ray_proton
   - file: content/public/019.Magnetism/Magnetic Field/Current loop/Current loop
   - file: content/public/019.Magnetism/Magnetic Field/Wire in an external magnetic
@@ -428,6 +444,7 @@ parts:
   - file: content/public/019.Magnetism/Magnetic Field/Field due to current segment/Field
       due to current segment
   - file: content/public/019.Magnetism/Magnetic Field/Square toroid/Square toroid
+  - file: content/public/019.Magnetism/Magnetic Field/Oxygen-16 Ion/oxygen_ion
   - file: content/public/019.Magnetism/Magnetic Field/Magnetic field of a hollow cylinder/Magnetic
       field of a hollow cylinder
   - file: content/public/019.Magnetism/Magnetic Field/Current through a spring/Current
@@ -455,6 +472,7 @@ parts:
   - file: content/public/021.Circuits/Current/Proton Accelerator/proton_accelerator
   - file: content/public/021.Circuits/Current/OSUPv2p10_24/OSUPv2p10_24
   - file: content/public/021.Circuits/Current/Range of Current Through Resistor/range_of_current_through_resistor
+  - file: content/public/021.Circuits/Current/Air Conditioner/air_conditioner
   - file: content/public/021.Circuits/Current/Charge Model/charge_model
   - file: content/public/021.Circuits/Current/OSUPv2.9.2/OSUPv2.9.2
   - file: content/public/021.Circuits/Current/Cathode Ray Tube/cathode_ray_tube
