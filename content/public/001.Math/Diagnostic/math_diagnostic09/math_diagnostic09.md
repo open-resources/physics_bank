@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 3
-    l0: z
-    l1: v
-    l2: h
+    num: 4
+    l0: l
+    l1: c
+    l2: y
     l3: a
     part1:
       ans1:
-        value: h = ${ - 3 a + \frac{v}{z}}$
+        value: y = ${ - 4 a + \frac{c}{l}}$
       ans2:
-        value: h = ${\frac{3 a z}{v}}$
+        value: y = ${\frac{4 a l}{c}}$
       ans3:
-        value: h = ${\frac{v}{3 a z}}$
+        value: y = ${\frac{c}{4 a l}}$
       ans4:
-        value: h = ${\frac{- 3 a + z}{v}}$
+        value: y = ${\frac{- 4 a + l}{c}}$
       ans5:
         value: Don't Know
 ---

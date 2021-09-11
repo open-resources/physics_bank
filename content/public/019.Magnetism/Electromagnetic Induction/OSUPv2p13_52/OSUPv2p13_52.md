@@ -51,7 +51,7 @@ substitutions:
   params:
     vars:
       title: Uniformly Decreasing Magnetic Field
-    r: '5'
+    r: '15'
     B: '3.5'
     t: '20'
     part2:

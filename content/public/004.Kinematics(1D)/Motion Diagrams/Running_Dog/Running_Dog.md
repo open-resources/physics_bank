@@ -37,7 +37,7 @@ substitutions:
     choice: 'True'
     part1:
       ans1:
-        value: The dog is speeding up at time t=7s
+        value: The dog has an average velocity of 0 m/s between time t=0s and t=8s
       ans2:
         value: The dog is moving at the same speed at time t=8s and t=10s
       ans3:

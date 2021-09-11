@@ -80,7 +80,7 @@ substitutions:
     q: '10.0'
     c: '3.0'
     d: '5.0'
-    k: '7.0'
+    k: '5.0'
 ---
 # {{ params.vars.title }}
 A parallel-plate capacitor has charge of magnitude ${{params.q }} \rm\ \mu\textrm{C}$ on each plate and capacitance ${{params.c }} \rm\ \mu\textrm{F}$  when there is air between the plates.
