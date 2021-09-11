@@ -413,6 +413,7 @@ parts:
   - file: content/public/019.Magnetism/Magnetic Field/Field on loop axis/Field on
       loop axis
   - file: content/public/019.Magnetism/Magnetic Field/Circular coil/Circular coil
+  - file: content/public/019.Magnetism/Magnetic Field/Protons in a Cyclotron/protons_in_a_cyclotron
   - file: content/public/019.Magnetism/Magnetic Field/Electron Through a Magnetic
       Field/electron_through_a_magnetic_field
   - file: content/public/019.Magnetism/Magnetic Field/Field due to lightning/Field
