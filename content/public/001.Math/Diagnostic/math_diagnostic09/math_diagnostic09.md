@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -3
-    l0: h
-    l1: d
-    l2: u
-    l3: x
+    num: 8
+    l0: n
+    l1: b
+    l2: v
+    l3: f
     part1:
       ans1:
-        value: u = ${ \frac{d}{h} + 3 x}$
+        value: v = ${ \frac{b}{n} - 8 f}$
       ans2:
-        value: u = ${- \frac{3 h x}{d}}$
+        value: v = ${\frac{8 f n}{b}}$
       ans3:
-        value: u = ${- \frac{d}{3 h x}}$
+        value: v = ${\frac{b}{8 f n}}$
       ans4:
-        value: u = ${\frac{h + 3 x}{d}}$
+        value: v = ${\frac{- 8 f + n}{b}}$
       ans5:
         value: Don't Know
 ---

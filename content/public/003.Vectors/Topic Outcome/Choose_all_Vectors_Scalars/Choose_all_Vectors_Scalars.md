@@ -35,17 +35,17 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: Displacement
+        value: Drag
       ans2:
-        value: Force
+        value: Displacement
       ans3:
-        value: The average acceleration
+        value: Area
       ans4:
         value: Density
       ans5:
-        value: Distance travelled
+        value: Volume
       ans6:
-        value: Work
+        value: Distance travelled
 ---
 # {{ params.vars.title }}
 

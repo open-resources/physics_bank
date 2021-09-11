@@ -32,17 +32,17 @@ substitutions:
     vars:
       title: Diagnostic Q11
     a: 1
-    b: 5
-    c: 6
+    b: 10
+    c: 1
     part1:
       ans1:
-        value: x = -3.0, x = -2.0
+        value: x = -9.9, x = -0.1
       ans2:
-        value: x = 3.0, x = 2.0
+        value: x = 9.9, x = 0.1
       ans3:
-        value: x = 5, x = 6
+        value: x = 10, x = 1
       ans4:
-        value: x = 1, x = 5
+        value: x = 1, x = 10
       ans5:
         value: Don't Know
 ---

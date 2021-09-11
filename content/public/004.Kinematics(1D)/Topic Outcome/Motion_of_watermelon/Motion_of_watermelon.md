@@ -59,8 +59,8 @@ substitutions:
       title: Motion of watermelon
       units1: ${m/s}^2$
       units2: $s$
-    a: 5
-    b: 5
+    a: 3
+    b: 4
     c: 7
     part4:
       ans1:

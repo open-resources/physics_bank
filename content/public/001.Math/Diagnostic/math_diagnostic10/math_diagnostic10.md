@@ -32,18 +32,18 @@ substitutions:
     vars:
       title: Math Practice Q10
     a: -11
-    b: '3'
-    b_sign: ' + '
-    c: -1
+    b: '14'
+    b_sign: ' - '
+    c: 6
     part1:
       ans1:
-        value: x =   10/3
+        value: x =  - 17/14
       ans2:
-        value: x =  - 10/3
+        value: x =   17/14
       ans3:
-        value: x = 7
+        value: x = 31
       ans4:
-        value: x = -15
+        value: x = 9
       ans5:
         value: This equation cannot be solved
 ---

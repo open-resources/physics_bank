@@ -31,7 +31,7 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: -4x + 4 > -7x + 10
+      formula: 4x + -8 > -1x + 2
     part1:
       ans1:
         value: x > 2
