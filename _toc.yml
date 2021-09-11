@@ -311,6 +311,8 @@ parts:
   - file: content/public/010.Rotational Motion/Topic Outcome/Cars on Hills/cars_on_hills
   - file: content/public/010.Rotational Motion/Topic Outcome/Wheel_of_fortune/Wheel_of_fortune
   - file: content/public/010.Rotational Motion/Topic Outcome/rock_on_string/rock_on_string
+  - file: content/public/010.Rotational Motion/Topic Outcome/Spruce and Steel Disk/Spruce
+      and Steel Disk
   - file: content/public/010.Rotational Motion/Topic Outcome/Rotational Displacement
       of Tires/Rotational Displacement of tires
 - caption: Rotational Dynamics
