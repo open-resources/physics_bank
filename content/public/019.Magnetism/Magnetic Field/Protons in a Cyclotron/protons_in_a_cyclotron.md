@@ -1,15 +1,15 @@
 ---
-title: Current Through Loop
+title: Protons in a Cyclotron
 topic: Magnetism
 author: Vanshika Sharma
-source: 2.11.41
-template_version: 1.3
+source: 2.11.53
+template_version: 1.2
 attribution: openstax-physics-vol2
-partialCredit: true
-singleVariant: false
 outcomes:
-- 19.3.4.0
-- 19.3.4.1
+- 19.5.1.0
+- 19.3.2.0
+- 19.2.3.0
+- 19.2.3.1
 difficulty:
 - undefined
 randomization:
@@ -24,10 +24,9 @@ tags:
 - OSUP
 - volume 2
 - chapter 11
-- problem 41
+- problem 51
 - magnetic force
-- solenoid
-- current
+- cyclotron
 - VS
 assets: null
 part1:
@@ -35,29 +34,48 @@ part1:
   pl-customizations:
     weight: 1
     allow-blank: false
-    label: $I= $
-    suffix: $\rm\ A$
+    label: $P= $
+    suffix: $\rm\ {s}$
     comparison: relabs
     rtol: 0.03
     atol: 0
-    custom-format: .3g
+    custom-format: .2g
+part2:
+  type: number-input
+  pl-customizations:
+    weight: 1
+    allow-blank: false
+    label: $r= $
+    suffix: $\rm\ {m}$
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
+    custom-format: .2g
 substitutions:
   params:
     vars:
-      title: Current Through Loop
-    N: 50
-    t: 6
-    s: 20
-    B: 0.71
+      title: Protons in a Cyclotron
+    B: 1.7
 ---
 # {{ params.vars.title }}
+A physicist is designing a cyclotron to accelerate protons to one-tenth the speed of light.
+The magnetic field will have a strength of ${{params.B}}\textrm{ T}$.
 
-## Question Text
+## Part 1
 
-Find the current through a loop needed to create a maximum torque of ${{params.t}} \textrm{ N} \cdot \textrm{m}$.
-The loop has ${{params.N}}$ square turns that are ${{params.s}} \textrm{ cm}$ on a side and is in a uniform ${{params.B}} \textrm{ T}$ magnetic field.
+Determine the rotational period of the circulating protons.
 
 ### Answer Section
+
+Please enter a numeric value.
+
+## Part 2
+
+Determine the the maximum radius of the protons orbit.
+
+### Answer Section
+
+Please enter a numeric value.
 
 ## Attribution
 

@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $3^{2} $=$ 9$
+    expr: $5^{7} $=$ 78125$
     part1:
       ans1:
-        value: $log_39 = 2$
+        value: $log_578125 = 7$
       ans2:
-        value: $log_32 = 9$
+        value: $log_57 = 78125$
       ans3:
-        value: $log_92 = 3$
+        value: $log_781257 = 5$
       ans4:
-        value: $log_29 = 3$
+        value: $log_778125 = 5$
       ans5:
         value: Don't Know
 ---

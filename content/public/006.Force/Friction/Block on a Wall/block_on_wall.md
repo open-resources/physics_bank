@@ -38,8 +38,8 @@ substitutions:
     vars:
       title: Block on a Wall
       units: N
-    theta: 29
-    m: 7
+    theta: 26
+    m: 3
     mu: 0.368
 ---
 # {{ params.vars.title }}

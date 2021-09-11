@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 3
-    l0: j
-    l1: y
-    l2: i
-    l3: z
+    num: -3
+    l0: h
+    l1: d
+    l2: u
+    l3: x
     part1:
       ans1:
-        value: i = ${ - 3 z + \frac{y}{j}}$
+        value: u = ${ \frac{d}{h} + 3 x}$
       ans2:
-        value: i = ${\frac{3 j z}{y}}$
+        value: u = ${- \frac{3 h x}{d}}$
       ans3:
-        value: i = ${\frac{y}{3 j z}}$
+        value: u = ${- \frac{d}{3 h x}}$
       ans4:
-        value: i = ${\frac{j - 3 z}{y}}$
+        value: u = ${\frac{h + 3 x}{d}}$
       ans5:
         value: Don't Know
 ---

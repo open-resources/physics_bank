@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 9
-    b: 6
-    formula: $x^{9} \cos{\left(6 x \right)}$
+    a: 5
+    b: 3
+    formula: $x^{5} \cos{\left(3 x \right)}$
     part1:
       ans1:
-        value: $- 6 x^{9} \sin{\left(6 x \right)} + 9 x^{8} \cos{\left(6 x \right)}$
+        value: $- 3 x^{5} \sin{\left(3 x \right)} + 5 x^{4} \cos{\left(3 x \right)}$
       ans2:
-        value: $- 6 x^{9} \sin{\left(6 x \right)} $
+        value: $- 3 x^{5} \sin{\left(3 x \right)} $
       ans3:
-        value: $ 9 x^{8} \sin{\left(6 x \right)}$
+        value: $ 5 x^{4} \sin{\left(3 x \right)}$
       ans4:
-        value: $6 x^{9} \cos{\left(6 x \right)} + 9 x^{8} \sin{\left(6 x \right)}$
+        value: $3 x^{5} \cos{\left(3 x \right)} + 5 x^{4} \sin{\left(3 x \right)}$
       ans5:
         value: Don't Know
 ---
