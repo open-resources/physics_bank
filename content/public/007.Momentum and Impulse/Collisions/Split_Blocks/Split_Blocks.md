@@ -42,8 +42,8 @@ substitutions:
       title: Split Blocks
       units: $J$
     m: 11
-    m_a: 7
-    m_b: 4
+    m_a: 9
+    m_b: 2
     v_a: 4.7
 ---
 # {{ params.vars.title }}

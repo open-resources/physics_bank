@@ -22,7 +22,8 @@ length:
 - undefined
 tags:
 - MP
-assets: null
+assets:
+- q5.png
 part1:
   type: number-input
   pl-customizations:
@@ -37,14 +38,14 @@ substitutions:
     vars:
       title: Block on a Wall
       units: N
-    theta: 32
-    m: 3
-    mu: 0.217
+    theta: 29
+    m: 7
+    mu: 0.368
 ---
 # {{ params.vars.title }}
 A {{params.m}} kg wood block slides down a vertical wall while you push on it at a {{params.theta}}$^\circ$ angle.
 
-<img src="q5.png" width=400 alt="Box pushed against a wall by a force at angle theta">
+<img src="q5.png" width=200px alt="Box pushed against a wall by a force at angle theta">
 
 ## Question Text
 

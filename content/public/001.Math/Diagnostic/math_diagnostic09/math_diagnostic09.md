@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -10
+    num: 3
     l0: j
-    l1: i
-    l2: b
-    l3: k
+    l1: y
+    l2: i
+    l3: z
     part1:
       ans1:
-        value: b = ${ \frac{i}{j} + 10 k}$
+        value: i = ${ - 3 z + \frac{y}{j}}$
       ans2:
-        value: b = ${- \frac{10 j k}{i}}$
+        value: i = ${\frac{3 j z}{y}}$
       ans3:
-        value: b = ${- \frac{i}{10 j k}}$
+        value: i = ${\frac{y}{3 j z}}$
       ans4:
-        value: b = ${\frac{j + 10 k}{i}}$
+        value: i = ${\frac{j - 3 z}{y}}$
       ans5:
         value: Don't Know
 ---
