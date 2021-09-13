@@ -30,18 +30,18 @@ part1:
 substitutions:
   params:
     vars:
-      title: Rational Equation
-    x1: 1
-    x2: 4
-    x3: 9
-    x4: 6
+      title: Math Diagnostic 06
+    x1: 3
+    x2: 2
+    x3: 8
+    x4: 7
     part1:
       ans1:
-        value: -3/4
+        value: 1/2
       ans2:
-        value: -3/2
+        value: 1/4
       ans3:
-        value: 3/2
+        value: '1.19354838709677'
       ans4:
         value: 5/2
 ---

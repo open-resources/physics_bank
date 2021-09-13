@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 4
-    l0: l
-    l1: c
-    l2: y
-    l3: a
+    num: -8
+    l0: b
+    l1: o
+    l2: t
+    l3: q
     part1:
       ans1:
-        value: y = ${ - 4 a + \frac{c}{l}}$
+        value: t = ${ 8 q + \frac{o}{b}}$
       ans2:
-        value: y = ${\frac{4 a l}{c}}$
+        value: t = ${- \frac{8 b q}{o}}$
       ans3:
-        value: y = ${\frac{c}{4 a l}}$
+        value: t = ${- \frac{o}{8 b q}}$
       ans4:
-        value: y = ${\frac{- 4 a + l}{c}}$
+        value: t = ${\frac{b + 8 q}{o}}$
       ans5:
         value: Don't Know
 ---

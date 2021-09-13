@@ -22,6 +22,7 @@ length:
 tags:
 - math_diagnostic
 - AK
+- PW
 assets: null
 part1:
   type: multiple-choice
@@ -31,27 +32,24 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    a: -10
-    b: '10'
-    b_sign: ' - '
-    c: -5
+    expr: $\dfrac{-10x - 30y}{5}$
     part1:
       ans1:
-        value: 2.0x + 2.0y
+        value: $- 2 x - 6 y$
       ans2:
-        value: -2.0x +2.0y
+        value: $\dfrac{-2x - 6y}{5}$
       ans3:
-        value: ' - (2.0x  + 2.0y)/5'
+        value: $-6x - 2y$
       ans4:
-        value: -10x - 10y
+        value: $-10x - 30y$
       ans5:
-        value: Do not know
+        value: Don't know.
 ---
 # {{ params.vars.title }}
 
 ## Part 1
 
-$\frac{ {{ params.a }}x {{ params.b_sign }} {{ params.b }}y }{ {{ params.c }} }$ is equivalent to:
+{{ params.expr }} is equivalent to:
 
 ### Answer Section
 

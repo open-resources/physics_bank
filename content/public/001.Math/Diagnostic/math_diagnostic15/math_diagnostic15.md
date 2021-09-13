@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $3^{8} $=$ 6561$
+    expr: $8^{3} $=$ 512$
     part1:
       ans1:
-        value: $log_36561 = 8$
+        value: $log_8512 = 3$
       ans2:
-        value: $log_38 = 6561$
+        value: $log_83 = 512$
       ans3:
-        value: $log_65618 = 3$
+        value: $log_5123 = 8$
       ans4:
-        value: $log_86561 = 3$
+        value: $log_3512 = 8$
       ans5:
         value: Don't Know
 ---
