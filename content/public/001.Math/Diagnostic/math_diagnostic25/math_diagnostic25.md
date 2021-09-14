@@ -30,18 +30,18 @@ substitutions:
   params:
     vars:
       title: Math Practice Q25
-    a: 7
-    b: 1
-    c: 10
+    a: 2
+    b: 2
+    c: 5
     part1:
       ans1:
-        value: 3/5
+        value: 1/5
       ans2:
         value: Negative Infinity
       ans3:
-        value: 0.7
+        value: 0.4
       ans4:
-        value: 7
+        value: 2
       ans5:
         value: Don't Know
 ---

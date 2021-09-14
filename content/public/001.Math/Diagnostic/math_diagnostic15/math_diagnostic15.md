@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $2^{6} $=$ 64$
+    expr: $7^{5} $=$ 16807$
     part1:
       ans1:
-        value: $log_264 = 6$
+        value: $log_716807 = 5$
       ans2:
-        value: $log_26 = 64$
+        value: $log_75 = 16807$
       ans3:
-        value: $log_646 = 2$
+        value: $log_168075 = 7$
       ans4:
-        value: $log_664 = 2$
+        value: $log_516807 = 7$
       ans5:
         value: Don't Know
 ---

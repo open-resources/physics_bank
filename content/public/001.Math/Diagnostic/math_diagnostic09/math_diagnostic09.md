@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 3
-    l0: n
-    l1: v
-    l2: g
-    l3: o
+    num: 8
+    l0: i
+    l1: x
+    l2: w
+    l3: f
     part1:
       ans1:
-        value: g = ${ - 3 o + \frac{v}{n}}$
+        value: w = ${ - 8 f + \frac{x}{i}}$
       ans2:
-        value: g = ${\frac{3 n o}{v}}$
+        value: w = ${\frac{8 f i}{x}}$
       ans3:
-        value: g = ${\frac{v}{3 n o}}$
+        value: w = ${\frac{x}{8 f i}}$
       ans4:
-        value: g = ${\frac{n - 3 o}{v}}$
+        value: w = ${\frac{- 8 f + i}{x}}$
       ans5:
         value: Don't Know
 ---
