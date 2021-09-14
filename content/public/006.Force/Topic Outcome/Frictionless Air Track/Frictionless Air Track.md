@@ -59,22 +59,22 @@ substitutions:
   params:
     vars:
       title: A Frictionless Air Track?
-      name: Aliyah
+      name: Maya
       units: $m/s^2$
-    m1: 222.8
-    m2: 10.71
+    m1: 475.8
+    m2: 71.51
     d_a: 0.03
-    mean: 1.56
-    sd: 0.109
-    a1: 1.6
-    a2: 1.49
-    a3: 1.63
-    a4: 1.72
-    a5: 1.63
-    a6: 1.48
-    a7: 1.5
-    a8: 1.58
-    a9: 1.66
+    mean: 1.5
+    sd: 0.139
+    a1: 1.67
+    a2: 1.69
+    a3: 1.62
+    a4: 1.65
+    a5: 1.39
+    a6: 1.33
+    a7: 1.38
+    a8: 1.45
+    a9: 1.52
     a10: 1.32
     part4:
       ans1:

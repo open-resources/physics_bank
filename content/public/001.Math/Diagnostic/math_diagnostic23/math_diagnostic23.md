@@ -28,17 +28,17 @@ substitutions:
     vars:
       title: Math Practice 23
     a: 2
-    b: 5
-    formula: $x^{2} \sin{\left(5 x \right)}$
+    b: 3
+    formula: $x^{2} \sin{\left(3 x \right)}$
     part1:
       ans1:
-        value: $5 x^{2} \cos{\left(5 x \right)} + 2 x \sin{\left(5 x \right)}$
+        value: $3 x^{2} \cos{\left(3 x \right)} + 2 x \sin{\left(3 x \right)}$
       ans2:
-        value: $5 x^{2} \cos{\left(5 x \right)} $
+        value: $3 x^{2} \cos{\left(3 x \right)} $
       ans3:
-        value: $ 2 x \cos{\left(5 x \right)}$
+        value: $ 2 x \cos{\left(3 x \right)}$
       ans4:
-        value: $- 5 x^{2} \sin{\left(5 x \right)} + 2 x \cos{\left(5 x \right)}$
+        value: $- 3 x^{2} \sin{\left(3 x \right)} + 2 x \cos{\left(3 x \right)}$
       ans5:
         value: Don't Know
 ---

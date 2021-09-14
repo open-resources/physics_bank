@@ -36,12 +36,28 @@ substitutions:
   params:
     vars:
       title: Colliding Balls
-    m1: 155
-    m2: 160
-    v1_i: 2.26
-    v2_i: -5.77
-    v1_f: -1.51
-    v2_f: -2.12
+    m1: 245
+    m2: 234
+    v1_i: 7.01
+    v2_i: -3.82
+    v1_f: -6.48
+    v2_f: !!python/object/apply:numpy.core.multiarray.scalar
+    - !!python/object/apply:numpy.dtype
+      args:
+      - f8
+      - false
+      - true
+      state: !!python/tuple
+      - 3
+      - <
+      - null
+      - null
+      - null
+      - -1
+      - -1
+      - 0
+    - !!binary |
+      KVyPwvUoFUA=
     part1:
       ans1:
         value: This is not possible as momentum is not conserved.

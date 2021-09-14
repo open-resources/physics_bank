@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -8
-    l0: b
-    l1: o
-    l2: t
-    l3: q
+    num: 6
+    l0: h
+    l1: g
+    l2: m
+    l3: a
     part1:
       ans1:
-        value: t = ${ 8 q + \frac{o}{b}}$
+        value: m = ${ - 6 a + \frac{g}{h}}$
       ans2:
-        value: t = ${- \frac{8 b q}{o}}$
+        value: m = ${\frac{6 a h}{g}}$
       ans3:
-        value: t = ${- \frac{o}{8 b q}}$
+        value: m = ${\frac{g}{6 a h}}$
       ans4:
-        value: t = ${\frac{b + 8 q}{o}}$
+        value: m = ${\frac{- 6 a + h}{g}}$
       ans5:
         value: Don't Know
 ---

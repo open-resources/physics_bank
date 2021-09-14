@@ -1,12 +1,12 @@
 ---
-title: Angular Acceleration
-topic: Kinematics(2D and 3D)
+title: Cyclist with Airfoil
+topic: Force
 author: John Hopkinson
-source: PHYS 112 2015 W1 Final Q9
+source: PHYS 111 2013W1 MT2 Q2
 template_version: 1.2
 attribution: standard
 outcomes:
-- 5.7.2.1
+- 6.10.1.1
 difficulty:
 - undefined
 randomization:
@@ -18,7 +18,7 @@ span:
 length:
 - undefined
 tags:
-- EW
+- MP
 assets: null
 part1:
   type: multiple-choice
@@ -27,27 +27,29 @@ part1:
 substitutions:
   params:
     vars:
-      title: Angular Acceleration
-    v_1: 5
-    v_2: 19
-    t: 9
+      title: Cyclist with Airfoil
+    v1: 156
+    v2: 41
+    age: 61
     part1:
       ans1:
-        value: 1.6 $rad/s^2$
+        value: 14.5 times.
       ans2:
-        value: 1.6 $m/s^2$
+        value: 3.8 times.
       ans3:
-        value: -1.6 $rad/s^2$
+        value: 0.263 times.
       ans4:
-        value: -1.6 $m/s^2$
+        value: 0.0691 times.
       ans5:
-        value: 10 $rad/s^2$
+        value: It would be equal to their maximum thrust.
 ---
 # {{ params.vars.title }}
+The drag force grows at $\frac{1}{4} Av^2$.
+We saw that a {{params.age}} year old cyclist protected by an airfoil can reach speeds of {{params.v1}} miles per hour, while an unprotected cyclist reaches a top speed of only about {{params.v2}} miles per hour.
+At this speed, if the cyclist dropped out of the airfoil and experienced full air resistance, how many times larger than his maximum thrust would it be?
+(You may assume that the unprotected cyclist travels at a constant speed).
 
 ## Part 1
-
-A 1 $m$ radius solid object that increases in angular velocity from $\omega\_{1z}$ = {{ params.v_1 }} $rad/s$ to $\omega\_{2z}$ = {{ params.v_2 }} $rad/s$ in a {{ params.t }} second interval has a average angular velocity of:
 
 ### Answer Section
 

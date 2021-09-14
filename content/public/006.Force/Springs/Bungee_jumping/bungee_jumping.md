@@ -32,13 +32,13 @@ substitutions:
       name: Santiago
     part1:
       ans1:
+        value: The tension point up, and Santiago moves up, so positive work is done.
+      ans2:
         value: The tension points up, and Santiago moves down, so positive work is
           done.
-      ans2:
+      ans3:
         value: The tension points down, and Santiago moves down, so negative work
           is done.
-      ans3:
-        value: The tension point up, and Santiago moves up, so positive work is done.
       ans4:
         value: The tension points up, and Santiago moves down, so negative work is
           done.

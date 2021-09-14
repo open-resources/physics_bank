@@ -32,10 +32,10 @@ substitutions:
     vars:
       title: Perfectly Inelastic Collision of Raindrops
       units: m/s
-    m1: 0.93
-    m2: 0.82
-    v1_i: -19.7
-    v2_i: -1.76
+    m1: 0.26
+    m2: 0.71
+    v1_i: -9.42
+    v2_i: -19.8
     v1_j_abs: !!python/object/apply:numpy.core.multiarray.scalar
     - &id001 !!python/object/apply:numpy.dtype
       args:
@@ -52,26 +52,26 @@ substitutions:
       - -1
       - 0
     - !!binary |
-      mpmZmZmZKkA=
+      cT0K16NwFkA=
     v2_j_abs: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      zczMzMzMLEA=
+      cT0K16NwHkA=
     v1_j_sign: ' + '
-    v2_j_sign: ' + '
+    v2_j_sign: ' - '
     part1:
       ans1:
-        value: -21.0$\hat{\imath}$ + 26.0$\hat{\jmath}$
+        value: -63.0$\hat{\imath}$ - 15.0$\hat{\jmath}$
       ans2:
-        value: -11.0$\hat{\imath}$ + 14.0$\hat{\jmath}$
+        value: -17.0$\hat{\imath}$ - 4.1$\hat{\jmath}$
       ans3:
-        value: -24.0$\hat{\imath}$ + 29.0$\hat{\jmath}$
+        value: -23.0$\hat{\imath}$ - 5.6$\hat{\jmath}$
       ans4:
-        value: -17.0$\hat{\imath}$ + 21.0$\hat{\jmath}$
+        value: -8.0$\hat{\imath}$ - 1.9$\hat{\jmath}$
       ans5:
-        value: -59.0$\hat{\imath}$ + 2.0$\hat{\jmath}$
+        value: 23.0$\hat{\imath}$ + 13.0$\hat{\jmath}$
       ans6:
-        value: -9.6$\hat{\imath}$ + 0.32$\hat{\jmath}$
+        value: 12.0$\hat{\imath}$ + 7.1$\hat{\jmath}$
 ---
 # {{ params.vars.title }}
 Two raindrops in a cloud collide perfectly inelastically. The first raindrop has a mass of {{ params.m1}} g and is travelling with $\vec{v_1} =$ ({{ params.v1_i}} $\hat{\imath}$ {{params.v1_j_sign}} {{ params.v1_j_abs}} $\hat{\jmath}$) m/s.
