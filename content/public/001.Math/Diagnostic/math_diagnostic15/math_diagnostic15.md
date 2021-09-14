@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $3^{1} $=$ 3$
+    expr: $2^{6} $=$ 64$
     part1:
       ans1:
-        value: $log_33 = 1$
+        value: $log_264 = 6$
       ans2:
-        value: $log_31 = 3$
+        value: $log_26 = 64$
       ans3:
-        value: $log_31 = 3$
+        value: $log_646 = 2$
       ans4:
-        value: $log_13 = 3$
+        value: $log_664 = 2$
       ans5:
         value: Don't Know
 ---

@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 8
-    l0: b
-    l1: n
-    l2: e
-    l3: h
+    num: 3
+    l0: n
+    l1: v
+    l2: g
+    l3: o
     part1:
       ans1:
-        value: e = ${ - 8 h + \frac{n}{b}}$
+        value: g = ${ - 3 o + \frac{v}{n}}$
       ans2:
-        value: e = ${\frac{8 b h}{n}}$
+        value: g = ${\frac{3 n o}{v}}$
       ans3:
-        value: e = ${\frac{n}{8 b h}}$
+        value: g = ${\frac{v}{3 n o}}$
       ans4:
-        value: e = ${\frac{b - 8 h}{n}}$
+        value: g = ${\frac{n - 3 o}{v}}$
       ans5:
         value: Don't Know
 ---
