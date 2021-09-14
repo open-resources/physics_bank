@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{48x + 24y}{8}$
+    expr: $\dfrac{-45x - 72y}{9}$
     part1:
       ans1:
-        value: $6 x + 3 y$
+        value: $- 5 x - 8 y$
       ans2:
-        value: $\dfrac{6x + 3y}{8}$
+        value: $\dfrac{-5x - 8y}{9}$
       ans3:
-        value: $3x + 6y$
+        value: $-8x - 5y$
       ans4:
-        value: $48x + 24y$
+        value: $-45x - 72y$
       ans5:
         value: Don't know.
 ---

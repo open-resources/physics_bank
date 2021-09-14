@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 6
-    l0: h
-    l1: g
-    l2: m
-    l3: a
+    num: 8
+    l0: b
+    l1: n
+    l2: e
+    l3: h
     part1:
       ans1:
-        value: m = ${ - 6 a + \frac{g}{h}}$
+        value: e = ${ - 8 h + \frac{n}{b}}$
       ans2:
-        value: m = ${\frac{6 a h}{g}}$
+        value: e = ${\frac{8 b h}{n}}$
       ans3:
-        value: m = ${\frac{g}{6 a h}}$
+        value: e = ${\frac{n}{8 b h}}$
       ans4:
-        value: m = ${\frac{- 6 a + h}{g}}$
+        value: e = ${\frac{b - 8 h}{n}}$
       ans5:
         value: Don't Know
 ---

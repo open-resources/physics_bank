@@ -60,8 +60,8 @@ part2:
 substitutions:
   params:
     R1: '26.0'
-    R2: '86.0'
-    R3: '825'
+    R2: '79.0'
+    R3: '625'
 ---
 # {{ params.vars.title }}
 Consider a ${{ params.R1 }}\rm\ \Omega$, a ${{ params.R2 }}\rm\ \Omega$, and a ${{ params.R3 }}\rm\ \Omega$ resistor.
