@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -4
-    l0: e
-    l1: u
-    l2: v
-    l3: t
+    num: 5
+    l0: j
+    l1: t
+    l2: p
+    l3: o
     part1:
       ans1:
-        value: v = ${ 4 t + \frac{u}{e}}$
+        value: p = ${ - 5 o + \frac{t}{j}}$
       ans2:
-        value: v = ${- \frac{4 e t}{u}}$
+        value: p = ${\frac{5 j o}{t}}$
       ans3:
-        value: v = ${- \frac{u}{4 e t}}$
+        value: p = ${\frac{t}{5 j o}}$
       ans4:
-        value: v = ${\frac{e + 4 t}{u}}$
+        value: p = ${\frac{j - 5 o}{t}}$
       ans5:
         value: Don't Know
 ---

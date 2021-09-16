@@ -42,7 +42,7 @@ substitutions:
     vars:
       title: Jumping Salmon
       units: $m/s$
-    h_fall: 3.73
+    h_fall: 3.71
     dist: 0.907
     part1:
       ans1:

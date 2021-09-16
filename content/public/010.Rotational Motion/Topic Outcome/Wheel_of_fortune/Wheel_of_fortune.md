@@ -31,7 +31,7 @@ substitutions:
   params:
     vars:
       units: rad/s
-      name: Maya
+      name: Emilia
       title: Wheel of Fortune
     w_i: 1.05
     t: 5
