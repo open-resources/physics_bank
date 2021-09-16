@@ -34,22 +34,22 @@ substitutions:
       name: Savannah
       vehicle_1: van
       vehicle_2: truck
-    dist: 2.44
-    v: 32.8
+    dist: 3.82
+    v: 37.2
     acc: 11.0
     s_1: 0.2
-    s_2: 1.305
+    s_2: 1.5
     part1:
       ans1:
         value: Savannah doesn't hit the van in front because Savannah stops in time.
       ans2:
-        value: 20.64 $m/s$
+        value: 22.9 $m/s$
       ans3:
-        value: 18.45 $m/s$
+        value: 20.7 $m/s$
       ans4:
-        value: 30.6 $m/s$
+        value: 35.0 $m/s$
       ans5:
-        value: 16.24 $m/s$
+        value: 18.5 $m/s$
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is following {{params.dist}} $m$ behind a {{params.vars.vehicle_1}} when it suddenly brakes with an acceleration of -{{params.acc}} $m/s^2$.

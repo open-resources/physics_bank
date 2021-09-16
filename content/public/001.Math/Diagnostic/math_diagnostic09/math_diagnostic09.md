@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 8
+    num: -2
     l0: i
-    l1: x
+    l1: j
     l2: w
-    l3: f
+    l3: l
     part1:
       ans1:
-        value: w = ${ - 8 f + \frac{x}{i}}$
+        value: w = ${ 2 l + \frac{j}{i}}$
       ans2:
-        value: w = ${\frac{8 f i}{x}}$
+        value: w = ${- \frac{2 i l}{j}}$
       ans3:
-        value: w = ${\frac{x}{8 f i}}$
+        value: w = ${- \frac{j}{2 i l}}$
       ans4:
-        value: w = ${\frac{- 8 f + i}{x}}$
+        value: w = ${\frac{i + 2 l}{j}}$
       ans5:
         value: Don't Know
 ---

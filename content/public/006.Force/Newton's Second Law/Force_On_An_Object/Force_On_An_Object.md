@@ -32,18 +32,18 @@ substitutions:
   params:
     vars:
       title: Force On An Object
-    m: 36
+    m: 40
     part1:
       ans1:
-        value: $F = $ -90.0 $N$
+        value: $F = $ -100.0 $N$
       ans2:
-        value: $F = $ 90.0 $N$
+        value: $F = $ 100.0 $N$
       ans3:
-        value: $F = $ 90.0 $N$ from 2 to 6 $s$, then $F = $ -90.0 $N$ from 6 to 10
-          $s$
+        value: $F = $ 100.0 $N$ from 2 to 6 $s$, then $F = $ -100.0 $N$ from 6 to
+          10 $s$
       ans4:
-        value: $F = $ -90.0 $N$ from 2 to 6 $s$, then $F = $ 90.0 $N$ from 6 to 10
-          $s$
+        value: $F = $ -100.0 $N$ from 2 to 6 $s$, then $F = $ 100.0 $N$ from 6 to
+          10 $s$
       ans5:
         value: Impossible to tell
 ---
