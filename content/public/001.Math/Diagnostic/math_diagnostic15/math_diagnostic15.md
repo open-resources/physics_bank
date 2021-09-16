@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $2^{3} $=$ 8$
+    expr: $6^{4} $=$ 1296$
     part1:
       ans1:
-        value: $log_28 = 3$
+        value: $log_61296 = 4$
       ans2:
-        value: $log_23 = 8$
+        value: $log_64 = 1296$
       ans3:
-        value: $log_83 = 2$
+        value: $log_12964 = 6$
       ans4:
-        value: $log_38 = 2$
+        value: $log_41296 = 6$
       ans5:
         value: Don't Know
 ---

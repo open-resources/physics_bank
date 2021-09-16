@@ -32,19 +32,19 @@ substitutions:
     vars:
       title: Math Practice 9
     num: -4
-    l0: m
-    l1: g
-    l2: q
-    l3: e
+    l0: e
+    l1: u
+    l2: v
+    l3: t
     part1:
       ans1:
-        value: q = ${ 4 e + \frac{g}{m}}$
+        value: v = ${ 4 t + \frac{u}{e}}$
       ans2:
-        value: q = ${- \frac{4 e m}{g}}$
+        value: v = ${- \frac{4 e t}{u}}$
       ans3:
-        value: q = ${- \frac{g}{4 e m}}$
+        value: v = ${- \frac{u}{4 e t}}$
       ans4:
-        value: q = ${\frac{4 e + m}{g}}$
+        value: v = ${\frac{e + 4 t}{u}}$
       ans5:
         value: Don't Know
 ---
