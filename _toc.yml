@@ -169,6 +169,7 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/jump_across_stream/jump_across_stream
 - caption: Force
   chapters:
+  - file: content/public/006.Force/Drag/Cyclist/cyclist
   - file: content/public/006.Force/Newton's Second Law/Broken-down Cruise Ship/Broken-down
       Cruise Ship
   - file: content/public/006.Force/Newton's Second Law/Force_On_An_Object/Force_On_An_Object
@@ -339,6 +340,8 @@ parts:
       Earth/Charged particle near the Earth
   - file: content/public/018.Electrostatics/Electric Field/Colinear point charges/Colinear
       point charges
+  - file: content/public/018.Electrostatics/Electric Field/Earth's charge/Earth's
+      charge
   - file: content/public/018.Electrostatics/Electric Field/Zero electric field/Zero
       electric field
   - file: content/public/018.Electrostatics/Electric Field/Vanishing electric field/Vanishing
@@ -353,6 +356,8 @@ parts:
       in a capacitor
   - file: content/public/018.Electrostatics/Electric Potential/Constant electric field/Constant
       electric field
+  - file: content/public/018.Electrostatics/Electric Potential/Electric potential
+      of a proton/Electric potential of a proton
   - file: content/public/018.Electrostatics/Electric Potential/Electric potential
       of a point charge/Electric potential of a point charge
   - file: content/public/018.Electrostatics/Electric Potential/Concentric spherical
@@ -403,20 +408,28 @@ parts:
   - file: content/public/019.Magnetism/Magnetic Flux/Flux due to a coil/Flux due to
       a coil
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_24/OSUPv2p13_24
+  - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_46/OSUPv2p13_46
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_56/OSUPv2p13_56
+  - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_3/OSUPv2p13_3
+  - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_18/OSUPv2p13_18
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_23/OSUPv2p13_23
+  - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_12/OSUPv2p13_12
+  - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_40/OSUPv2p13_40
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_13/OSUPv2p13_13
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_42/OSUPv2p13_42
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_36/OSUPv2p13_36
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_15/OSUPv2p13_15
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_5/OSUPv2p13_5
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_30/OSUPv2p13_30
+  - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_31/OSUPv2p13_31
+  - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_28/OSUPv2p13_28
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_52/OSUPv2p13_52
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_54/OSUPv2p13_54
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_33/OSUPv2p13_33
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_44/OSUPv2p13_44
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_38/OSUPv2p13_38
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_7/OSUPv2p13_7
+  - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_37/OSUPv2p13_37
   - file: content/public/019.Magnetism/Magnetic Field/Semi-circular current loop/Semi-circular
       Current Loop
   - file: content/public/019.Magnetism/Magnetic Field/Cancelling magnetic fields/Cancelling
@@ -490,12 +503,14 @@ parts:
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_19/OSUPv2p8_19
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_53/OSUPv2p8_53
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_31/OSUPv2p8_31
+  - file: content/public/021.Circuits/Capacitors/OSUPv2p8_60/OSUPv2p8_60
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_8/OSUPv2p8_8
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_37/OSUPv2p8_37
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_25/OSUPv2p8_25
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_48/OSUPv2p8_48
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_27/OSUPv2p8_27
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_6/OSUPv2p8_6
+  - file: content/public/021.Circuits/Capacitors/OSUPv2p8_39/OSUPv2p8_39
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_7/OSUPv2p8_7
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_43/OSUPv2p8_43
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_23/OSUPv2p8_23
