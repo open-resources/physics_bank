@@ -34,7 +34,7 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: a unicycle
+      vehicle: a bicycle
       title: Frictional Force between Tires and the Road
 ---
 # {{ params.vars.title }}
@@ -58,8 +58,6 @@ Use the following table as a reference for each variable:
 | $g$      | g   |
 
 ### Answer Section
-
-{{ substitutions.part1.label }}
 
 ## Attribution
 

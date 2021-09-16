@@ -45,7 +45,7 @@ substitutions:
 # {{ params.vars.title }}
 Cart A with momentum of magnitude $p$ collides with cart B and rebounds. Cart B is initially at rest.
 
-<img src="q2.png" alt= "Top: Carts rolling towards eachother. Bottom: carts collide and bounce off eachother" width = 400px>
+<img src="q2.png" alt= "Top - Carts rolling towards eachother. Bottom - carts collide and bounce off eachother" width = 400px>
 
 ## Part 1
 

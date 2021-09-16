@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 6
-    l0: z
-    l1: e
-    l2: k
-    l3: j
+    num: 8
+    l0: m
+    l1: n
+    l2: u
+    l3: c
     part1:
       ans1:
-        value: k = ${ \frac{e}{z} - 6 j}$
+        value: u = ${ - 8 c + \frac{n}{m}}$
       ans2:
-        value: k = ${\frac{6 j z}{e}}$
+        value: u = ${\frac{8 c m}{n}}$
       ans3:
-        value: k = ${\frac{e}{6 j z}}$
+        value: u = ${\frac{n}{8 c m}}$
       ans4:
-        value: k = ${\frac{- 6 j + z}{e}}$
+        value: u = ${\frac{- 8 c + m}{n}}$
       ans5:
         value: Don't Know
 ---

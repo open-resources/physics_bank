@@ -43,13 +43,13 @@ part3:
 substitutions:
   params:
     vars:
-      name: Mateo
+      name: Savannah
       title: Potato Volume
       mass_units: kg
       volume_units: m^3
-      mass_potato: 320
-      mass_cube: 27
-      cube_side_length: 4.84
+      mass_potato: 238
+      mass_cube: 73
+      cube_side_length: 1.27
 ---
 # {{ params.vars.title }}
 For our first lab, {{params.vars.name}} decides to measure the density of a potato.
@@ -60,7 +60,7 @@ For a uniform density potato, the mass and volume are proportional. (Useful conv
 
 ## Part 1
 
-In SI units, what is the potato's mass?
+In SI units, what is the uncut potato's mass?
 
 ### Answer Section
 
@@ -68,7 +68,7 @@ Please enter in a numeric value in {{ params.vars.mass_units }}.
 
 ## Part 2
 
-In SI units, what is the cube of the potato's mass?
+In SI units, what is the mass of the potato cube?
 
 ### Answer Section
 
@@ -76,13 +76,11 @@ Please enter in a numeric value in {{ params.vars.mass_units }}.
 
 ## Part 3
 
-In SI units, what is the volume of the cube of potato after it has been cut?
+In SI units, what is the volume of the potato cube after it has been cut?
 
 ### Answer Section
 
-- {{ correct_answers.part1_ans}} {{ params.vars.mass_units}}
-- {{ correct_answers.part2_ans}} {{ params.vars.mass_units}}
-- {{ correct_answers.part3_ans}} {{ params.vars.volume_units}}
+Please enter in a numeric value in {{ params.vars.volume_units }}.
 
 ## Attribution
 

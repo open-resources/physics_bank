@@ -61,20 +61,20 @@ substitutions:
       title: A Frictionless Air Track?
       name: Santiago
       units: $m/s^2$
-    m1: 349.0
-    m2: 66.62
-    d_a: 0.02
-    mean: 1.47
-    sd: 0.125
-    a1: 1.58
-    a2: 1.3
-    a3: 1.47
-    a4: 1.65
-    a5: 1.65
-    a6: 1.32
-    a7: 1.41
-    a8: 1.46
-    a9: 1.32
+    m1: 267.7
+    m2: 61.73
+    d_a: 0.01
+    mean: 1.57
+    sd: 0.168
+    a1: 1.45
+    a2: 1.69
+    a3: 1.46
+    a4: 1.32
+    a5: 1.51
+    a6: 1.79
+    a7: 1.79
+    a8: 1.4
+    a9: 1.79
     a10: 1.52
     part4:
       ans1:

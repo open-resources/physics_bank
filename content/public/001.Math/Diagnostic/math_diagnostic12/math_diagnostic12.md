@@ -32,16 +32,16 @@ substitutions:
     vars:
       title: 'Math Practice #12'
     a: 2
-    b: 4
+    b: 3
     part1:
       ans1:
-        value: (3/2 < x) & (x < 2)
+        value: (4/3 < x) & (x < 2)
       ans2:
-        value: (3/2 > x) & (x > 2)
+        value: (4/3 > x) & (x > 2)
       ans3:
-        value: x > 2/4
+        value: x > 2/3
       ans4:
-        value: (6 < x) & (x < 8)
+        value: (9/2 < x) & (x < 6)
       ans5:
         value: Do not know
 ---

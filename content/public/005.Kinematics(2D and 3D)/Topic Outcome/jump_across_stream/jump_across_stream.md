@@ -96,12 +96,12 @@ substitutions:
     vars:
       title: Jump across stream V2
       units: $m$
-    m: 322
-    w_s: 3.1
-    h_s: 1.2
+    m: 498
+    w_s: 4.7
+    h_s: 1.0
     v_i: 3
-    v_j: 3
-    h_b: 3.6
+    v_j: 4
+    h_b: 3.9
     part5:
       ans1:
         value: Yes, the bear makes it to the other side of the stream.
@@ -131,8 +131,6 @@ Use the following table as a reference. Note that it may not be necessary to use
 
 ### Answer Section
 
-{{ substitutions.part1.label }}
-
 ## Part 2
 
 If the origin is at the foot of the bear's jumping tree, write an equation describing the $y$ coordinate of the bear while it is in the air.
@@ -145,8 +143,6 @@ Use the following table as a reference. Note that it may not be necessary to use
 | $g$ | g |
 
 ### Answer Section
-
-{{ substitutions.part2.label }}
 
 ## Part 3
 
@@ -161,8 +157,6 @@ Use the following table as a reference. Note that it may not be necessary to use
 
 ### Answer Section
 
-{{ substitutions.part3.label }}
-
 ## Part 4
 
 If the origin is at the foot of the bear's jumping tree, write an equation describing the $V_y$ component of the velocity of the bear while it is in the air.
@@ -175,8 +169,6 @@ Use the following table as a reference. Note that it may not be necessary to use
 | $g$ | g |
 
 ### Answer Section
-
-{{ substitutions.part4.label }}
 
 ## Part 5
 

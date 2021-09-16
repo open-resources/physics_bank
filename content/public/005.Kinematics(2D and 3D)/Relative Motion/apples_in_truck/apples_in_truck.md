@@ -64,7 +64,7 @@ substitutions:
 An apple tree is transported by a truck moving to the right with constant velocity.
 One of the apples shakes loose and falls towards the bed of the truck.
 
-<img src="q4image.png" alt = "Multiple choice options: a) curved down and to the right, b) straight down, c) curved down and to the left, d) straight down and to the right, e) straight down and to the left" style="width:500px">
+<img src="q4image.png" alt = "Multiple choice options are a) curved down and to the right, b) straight down, c) curved down and to the left, d) straight down and to the right, e) straight down and to the left" style="width:500px">
 
 ## Part 1
 
