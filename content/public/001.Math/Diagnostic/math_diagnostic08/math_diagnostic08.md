@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-21x + 56y}{7}$
+    expr: $\dfrac{18x - 6y}{-3}$
     part1:
       ans1:
-        value: $- 3 x + 8 y$
+        value: $- 6 x + 2 y$
       ans2:
-        value: $\dfrac{-3x + 8y}{7}$
+        value: $\dfrac{-6x + 2y}{-3}$
       ans3:
-        value: $8x - 3y$
+        value: $2x - 6y$
       ans4:
-        value: $-21x + 56y$
+        value: $18x + 6y$
       ans5:
         value: Don't know.
 ---

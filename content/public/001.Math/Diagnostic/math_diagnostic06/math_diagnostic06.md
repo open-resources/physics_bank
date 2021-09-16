@@ -31,19 +31,19 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic 06
-    x1: 6
-    x2: 9
-    x3: 8
-    x4: 1
+    x1: 1
+    x2: 3
+    x3: 9
+    x4: 6
     part1:
       ans1:
-        value: 13/8
+        value: -9/19
       ans2:
-        value: -11/4
+        value: -21/19
       ans3:
-        value: '-3.24242424242424'
+        value: '1.15384615384615'
       ans4:
-        value: -23/12
+        value: 51/19
 ---
 # {{ params.vars.title }}
 

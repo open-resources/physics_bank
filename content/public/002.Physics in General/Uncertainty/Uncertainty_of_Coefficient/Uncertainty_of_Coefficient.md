@@ -30,14 +30,14 @@ substitutions:
   params:
     vars:
       title: Uncertainty of Coefficient
-      name: Abbas
+      name: Aliyah
       units: $kg/s$
-    m: 132
-    v: 1.6
-    b: 0.38
+    m: 95
+    v: 1.9
+    b: 0.42
     part1:
       ans1:
-        value: ' $\pm$ 0.14'
+        value: ' $\pm$ 0.13'
       ans2:
         value: ' $\pm$ 0.05'
       ans3:

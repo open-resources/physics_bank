@@ -44,9 +44,9 @@ substitutions:
   params:
     vars:
       title: Solenoid current
-    n: '16'
-    B: '1.4'
-    p: '-2'
+    n: '8'
+    B: '5.0'
+    p: '-1'
 ---
 # {{ params.vars.title }}
 A solenoid has {{ params.n }} turns per centimeter.

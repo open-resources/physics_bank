@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $8^{3} $=$ 512$
+    expr: $9^{3} $=$ 729$
     part1:
       ans1:
-        value: $log_8512 = 3$
+        value: $log_9729 = 3$
       ans2:
-        value: $log_83 = 512$
+        value: $log_93 = 729$
       ans3:
-        value: $log_5123 = 8$
+        value: $log_7293 = 9$
       ans4:
-        value: $log_3512 = 8$
+        value: $log_3729 = 9$
       ans5:
         value: Don't Know
 ---
