@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -2
-    l0: i
-    l1: j
-    l2: w
-    l3: l
+    num: 6
+    l0: z
+    l1: e
+    l2: k
+    l3: j
     part1:
       ans1:
-        value: w = ${ 2 l + \frac{j}{i}}$
+        value: k = ${ \frac{e}{z} - 6 j}$
       ans2:
-        value: w = ${- \frac{2 i l}{j}}$
+        value: k = ${\frac{6 j z}{e}}$
       ans3:
-        value: w = ${- \frac{j}{2 i l}}$
+        value: k = ${\frac{e}{6 j z}}$
       ans4:
-        value: w = ${\frac{i + 2 l}{j}}$
+        value: k = ${\frac{- 6 j + z}{e}}$
       ans5:
         value: Don't Know
 ---
