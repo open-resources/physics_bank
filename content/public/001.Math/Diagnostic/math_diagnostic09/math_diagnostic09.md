@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 8
+    num: -4
     l0: m
-    l1: n
-    l2: u
-    l3: c
+    l1: g
+    l2: q
+    l3: e
     part1:
       ans1:
-        value: u = ${ - 8 c + \frac{n}{m}}$
+        value: q = ${ 4 e + \frac{g}{m}}$
       ans2:
-        value: u = ${\frac{8 c m}{n}}$
+        value: q = ${- \frac{4 e m}{g}}$
       ans3:
-        value: u = ${\frac{n}{8 c m}}$
+        value: q = ${- \frac{g}{4 e m}}$
       ans4:
-        value: u = ${\frac{- 8 c + m}{n}}$
+        value: q = ${\frac{4 e + m}{g}}$
       ans5:
         value: Don't Know
 ---
