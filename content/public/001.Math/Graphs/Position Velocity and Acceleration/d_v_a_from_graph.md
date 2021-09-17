@@ -29,7 +29,7 @@ part1:
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $x= $
+    label: $v= $
     suffix: $m$
     comparison: sigfig
     digits: 2
@@ -38,7 +38,7 @@ part2:
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $v= $
+    label: $x= $
     suffix: $m/s$
     comparison: sigfig
     digits: 2
@@ -59,12 +59,12 @@ substitutions:
       units2: $m/s$
       units3: $\frac{m}{s^2}$
     t: 3
-    x_i: -6
+    x_i: -10
 ---
 # {{ params.vars.title }}
 The figure shows the velocity-versus-time graph for a particle moving along the x-axis. Its position at $t$ = 0 s is {{params.x_i}} $m$.
 
-<img src="Q3.png" width=300 alt="Graph of velocity vs time" alt = "Graph of velocity vs time. The graph increases from 0 to 4 m/s in 1 second. It then decreases to -1m/s at 2.5s. It remains at -1m/s until 4s when it increases back to 0m/s at 5s.">
+<img src="Q3.png" width=300 alt = "Graph of velocity vs time. The graph increases from 0 to 4 m/s in 1 second. It then decreases to -1m/s at 2.5s. It remains at -1m/s until 4s when it increases back to 0m/s at 5s.">
 
 ## Part 1
 

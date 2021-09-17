@@ -53,7 +53,7 @@ substitutions:
   params:
     vars:
       title: Velocity, Acceleration and Angle of Particle with Curvilinear motion
-    t: 11
+    t: 15
 ---
 # {{ params.vars.title }}
 A particle moves in space with curvilinear motion.

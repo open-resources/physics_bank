@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -5
-    l0: m
-    l1: h
-    l2: y
-    l3: j
+    num: 7
+    l0: s
+    l1: m
+    l2: a
+    l3: e
     part1:
       ans1:
-        value: y = ${ \frac{h}{m} + 5 j}$
+        value: a = ${ - 7 e + \frac{m}{s}}$
       ans2:
-        value: y = ${- \frac{5 j m}{h}}$
+        value: a = ${\frac{7 e s}{m}}$
       ans3:
-        value: y = ${- \frac{h}{5 j m}}$
+        value: a = ${\frac{m}{7 e s}}$
       ans4:
-        value: y = ${\frac{5 j + m}{h}}$
+        value: a = ${\frac{- 7 e + s}{m}}$
       ans5:
         value: Don't Know
 ---

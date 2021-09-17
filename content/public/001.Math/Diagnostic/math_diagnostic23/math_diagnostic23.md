@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 2
-    b: 2
-    formula: $x^{2} \cos{\left(2 x \right)}$
+    a: 4
+    b: 8
+    formula: $x^{4} \cos{\left(8 x \right)}$
     part1:
       ans1:
-        value: $- 2 x^{2} \sin{\left(2 x \right)} + 2 x \cos{\left(2 x \right)}$
+        value: $- 8 x^{4} \sin{\left(8 x \right)} + 4 x^{3} \cos{\left(8 x \right)}$
       ans2:
-        value: $- 2 x^{2} \sin{\left(2 x \right)} $
+        value: $- 8 x^{4} \sin{\left(8 x \right)} $
       ans3:
-        value: $ 2 x \sin{\left(2 x \right)}$
+        value: $ 4 x^{3} \sin{\left(8 x \right)}$
       ans4:
-        value: $2 x^{2} \cos{\left(2 x \right)} + 2 x \sin{\left(2 x \right)}$
+        value: $8 x^{4} \cos{\left(8 x \right)} + 4 x^{3} \sin{\left(8 x \right)}$
       ans5:
         value: Don't Know
 ---

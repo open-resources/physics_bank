@@ -45,9 +45,9 @@ substitutions:
     vars:
       title: Collision of Collars
     W1: 1
-    W2: 9
-    v1: 25
-    v2: 4
+    W2: 8
+    v1: 21
+    v2: 3
     e: 0.78
 ---
 # {{ params.vars.title }}
