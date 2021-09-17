@@ -35,15 +35,15 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Length
+        value: Energy
       ans2:
-        value: Density
+        value: Mass
       ans3:
-        value: Displacement
+        value: Area
       ans4:
-        value: Weight
+        value: Momentum
       ans5:
-        value: The position in a 1 dimensional system
+        value: Displacement
       ans6:
         value: Acceleration
 ---

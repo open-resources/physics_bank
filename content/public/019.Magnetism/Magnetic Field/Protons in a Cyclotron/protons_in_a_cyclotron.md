@@ -55,7 +55,7 @@ substitutions:
   params:
     vars:
       title: Protons in a Cyclotron
-    B: 1.8
+    B: 2.0
 ---
 # {{ params.vars.title }}
 A physicist is designing a cyclotron to accelerate protons to one-tenth the speed of light.

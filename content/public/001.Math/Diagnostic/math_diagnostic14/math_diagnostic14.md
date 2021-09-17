@@ -32,16 +32,16 @@ substitutions:
     vars:
       title: Math Practice 14
     num: 5
-    denom: 9
+    denom: 3
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt[9]{x^{5}}}\end{equation}
+        value: \begin{equation}\frac{1}{\sqrt[3]{x^{5}}}\end{equation}
       ans2:
-        value: \begin{equation}\sqrt[9]{x^{5}}\end{equation}
+        value: \begin{equation}\sqrt[3]{x^{5}}\end{equation}
       ans3:
-        value: \begin{equation}x^{\frac{5}{9}}\end{equation}
+        value: \begin{equation}x^{\frac{5}{3}}\end{equation}
       ans4:
-        value: \begin{equation}- \frac{1}{\sqrt[9]{x^{5}}}\end{equation}
+        value: \begin{equation}- \frac{1}{\sqrt[3]{x^{5}}}\end{equation}
       ans5:
         value: Do not know
 ---

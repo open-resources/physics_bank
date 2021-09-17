@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 7x + -5 > 1x + 2
+      formula: 5x + -1 > -4x + 4
     part1:
       ans1:
-        value: x > 7/6
+        value: x > 5/9
       ans2:
-        value: x < 7/6
+        value: x < 5/9
       ans3:
-        value: x < 6/7
+        value: x < 9/5
       ans4:
-        value: x > 6/7
+        value: x > 9/5
       ans5:
         value: Don't Know
 ---

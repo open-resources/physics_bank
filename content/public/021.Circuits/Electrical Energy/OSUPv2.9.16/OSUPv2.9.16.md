@@ -32,13 +32,13 @@ substitutions:
       name: Savannah
     part1:
       ans1:
-        value: energy
-      ans2:
-        value: charge
-      ans3:
         value: voltage
-      ans4:
+      ans2:
+        value: energy
+      ans3:
         value: power
+      ans4:
+        value: charge
       ans5:
         value: current
 ---

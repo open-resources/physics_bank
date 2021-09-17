@@ -53,9 +53,9 @@ part4:
 substitutions:
   params:
     vars:
-      name: Maya
+      name: Ahmed
       title: Water Slide
-    theta: 20
+    theta: 50
     l: 900
     l2: 450.0
 ---
@@ -74,7 +74,7 @@ Use the following table as a reference for each variable:
 
 ## Part 1
 
-What is the equation describing my position as a function of time?
+What is the equation describing {{ params.vars.name }}'s position as a function of time?
 
 ### Answer Section
 

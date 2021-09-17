@@ -34,16 +34,16 @@ substitutions:
     x1: 2
     x2: 8
     x3: 9
-    x4: 7
+    x4: 1
     part1:
       ans1:
-        value: -19/13
+        value: 1/2
       ans2:
-        value: -29/13
+        value: -7/2
       ans3:
-        value: '0.414634146341463'
+        value: '-1.34782608695652'
       ans4:
-        value: 47/26
+        value: -7/20
 ---
 # {{ params.vars.title }}
 

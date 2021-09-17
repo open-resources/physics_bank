@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 7
-    l0: s
-    l1: m
-    l2: a
-    l3: e
+    num: -2
+    l0: n
+    l1: c
+    l2: s
+    l3: q
     part1:
       ans1:
-        value: a = ${ - 7 e + \frac{m}{s}}$
+        value: s = ${ \frac{c}{n} + 2 q}$
       ans2:
-        value: a = ${\frac{7 e s}{m}}$
+        value: s = ${- \frac{2 n q}{c}}$
       ans3:
-        value: a = ${\frac{m}{7 e s}}$
+        value: s = ${- \frac{c}{2 n q}}$
       ans4:
-        value: a = ${\frac{- 7 e + s}{m}}$
+        value: s = ${\frac{n + 2 q}{c}}$
       ans5:
         value: Don't Know
 ---

@@ -55,13 +55,13 @@ part4:
 substitutions:
   params:
     vars:
-      name: Savannah
+      name: Maya
       title: Motion of watermelon
       units1: ${m/s}^2$
       units2: $s$
-    a: 3
+    a: 4
     b: 7
-    c: 9
+    c: 7
     part4:
       ans1:
         value: The speed is increasing
@@ -71,9 +71,7 @@ substitutions:
         value: There is not enough information to tell
 ---
 # {{ params.vars.title }}
-The position of a watermelon is given by:
-$x(t) =$ {{ params.a }}$t^2 - ${{ params.b}}$t - ${{ params.c }}
-where $x$ is in meters and $t$ is in seconds.
+The position of a watermelon is given by $x(t) =$ {{ params.a }}$t^2 - ${{ params.b}}$t - ${{ params.c }} where $x$ is in meters and $t$ is in seconds.
 
 ## Part 1
 
@@ -81,13 +79,11 @@ What is the velocity of the watermelon as a function of time?
 
 _Hint: Assume that the units are $m \over s$. There is no need to include them in your equation._
 
-Note that it may not be necessary to use every variable. Use the following table as a reference for using each variable:
+Use the following table as a reference.
 
 | $Variable$ | Use   |
 |----------|-------|
 | $t$  | t  |
-| $g$      | g     |
-| $\theta$ | theta |
 
 ### Answer Section
 
@@ -109,7 +105,7 @@ Please enter in a numeric value in {{ params.vars.units1 }}.
 
 ## Part 4
 
-At $t=0$ is the speed of the watermelon increasing or decreasing?
+Is the speed of the watermelon increasing or decreasing at $t=0$ $s$?
 
 ### Answer Section
 
