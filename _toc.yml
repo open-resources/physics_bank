@@ -167,8 +167,12 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Velocity of a Falcon/Velocity
       of a Falcon
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/jump_across_stream/jump_across_stream
+  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Distance_Between_Two_People/Distance_Between_Two_People
+  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Magnitude of a particle
+      vector/Magnitude of a particle vector
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Ball Launched from
       Horizontal Cliff/Ball Launched from Horizontal cliff
+  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Supply_plane/Supply_plane
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Angular_Acceleration/Angular_Acceleration
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Acceleration
       around a turn/Acceleration around a turn
@@ -246,6 +250,8 @@ parts:
   chapters:
   - file: content/public/007.Momentum and Impulse/Topic Outcome/Test_Uranium_fragments/Test_Uranium_fragments
   - file: content/public/007.Momentum and Impulse/Topic Outcome/Uranium_fragments/Uranium_fragments
+  - file: content/public/007.Momentum and Impulse/Topic Outcome/A Coyote and a Rat/A
+      Coyote and a Rat
   - file: content/public/007.Momentum and Impulse/Impulse/airbag_collision/airbag_collision
   - file: content/public/007.Momentum and Impulse/Impulse/Speed_Before_Impact/Speed_Before_Impact
   - file: content/public/007.Momentum and Impulse/Impulse/Bouncing_Ball/Bouncing_Ball
