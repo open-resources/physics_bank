@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -8
-    l0: f
-    l1: a
-    l2: w
-    l3: s
+    num: -5
+    l0: m
+    l1: h
+    l2: y
+    l3: j
     part1:
       ans1:
-        value: w = ${ \frac{a}{f} + 8 s}$
+        value: y = ${ \frac{h}{m} + 5 j}$
       ans2:
-        value: w = ${- \frac{8 f s}{a}}$
+        value: y = ${- \frac{5 j m}{h}}$
       ans3:
-        value: w = ${- \frac{a}{8 f s}}$
+        value: y = ${- \frac{h}{5 j m}}$
       ans4:
-        value: w = ${\frac{f + 8 s}{a}}$
+        value: y = ${\frac{5 j + m}{h}}$
       ans5:
         value: Don't Know
 ---

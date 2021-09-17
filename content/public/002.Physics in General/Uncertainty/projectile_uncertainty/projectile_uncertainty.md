@@ -54,7 +54,7 @@ substitutions:
   params:
     vars:
       title: Projectile Uncertainty
-      name: Maya
+      name: Ximena
       units1: m/s
       units2: m
     d: 0.126

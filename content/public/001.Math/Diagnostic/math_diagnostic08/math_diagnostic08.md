@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{63x + 63y}{-9}$
+    expr: $\dfrac{-54x - 18y}{-6}$
     part1:
       ans1:
-        value: $- 7 x - 7 y$
+        value: $9 x + 3 y$
       ans2:
-        value: $\dfrac{-7x - 7y}{-9}$
+        value: $\dfrac{9x + 3y}{-6}$
       ans3:
-        value: $-7x - 7y$
+        value: $3x + 9y$
       ans4:
-        value: $63x - 63y$
+        value: $-54x + 18y$
       ans5:
         value: Don't know.
 ---

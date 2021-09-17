@@ -43,8 +43,8 @@ substitutions:
   params:
     vars:
       title: Area of Capacitor Plates
-    c: '3.6'
-    d: '4.1'
+    c: '4.4'
+    d: '3.3'
 ---
 # {{ params.vars.title }}
 

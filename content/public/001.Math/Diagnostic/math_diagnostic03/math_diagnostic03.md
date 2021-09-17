@@ -31,7 +31,7 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 8x + -5 > 2x + 7
+      formula: -6x + -10 > -7x + -8
     part1:
       ans1:
         value: x > 2

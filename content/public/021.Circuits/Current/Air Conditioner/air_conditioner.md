@@ -46,7 +46,7 @@ substitutions:
     vars:
       title: Air Conditioner
     I: 48
-    n: 31
+    n: 34
 ---
 # {{ params.vars.title }}
 The current supplied to an air conditioner unit is {{params.I}} $\textrm{A}$. The air conditioner is wired using a 10-gauge (diameter 2.588 mm) wire. The charge density is $ {{{params.n}} \times 10^{28}} {electrons \over m^3} $.

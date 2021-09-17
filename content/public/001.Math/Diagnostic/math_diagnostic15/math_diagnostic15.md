@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $9^{6} $=$ 531441$
+    expr: $9^{5} $=$ 59049$
     part1:
       ans1:
-        value: $log_9531441 = 6$
+        value: $log_959049 = 5$
       ans2:
-        value: $log_96 = 531441$
+        value: $log_95 = 59049$
       ans3:
-        value: $log_5314416 = 9$
+        value: $log_590495 = 9$
       ans4:
-        value: $log_6531441 = 9$
+        value: $log_559049 = 9$
       ans5:
         value: Don't Know
 ---

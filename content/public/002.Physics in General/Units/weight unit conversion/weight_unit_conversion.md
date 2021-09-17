@@ -1,13 +1,12 @@
 ---
-title: Displacement and Distance of a particle
-topic: Kinematics(1D)
+title: Weight Unit Conversion
+topic: Physics in General
 author: Peyman Yousefi
-source: APSC 181, Lecture 3, Q1
+source: APSC 181, Lecture 2, Q1
 template_version: 1.1
 attribution: standard
 outcomes:
-- 4.4.1.0
-- 4.3.1.1
+- 2.2.1.3
 difficulty:
 - undefined
 randomization:
@@ -15,7 +14,7 @@ randomization:
 taxonomy:
 - undefined
 tags:
-- AP
+- A.P.
 - APSC 181 - LA
 assets: null
 part1:
@@ -23,46 +22,57 @@ part1:
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $s= $
-    suffix: cm
-    comparison: sigfig
-    digits: 2
+    label: $W= $
+    suffix: $N$
     rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $d= $
-    suffix: cm
-    comparison: sigfig
-    digits: 2
+    label: $m= $
+    suffix: $slug$
+    rtol: 0.02
+part3:
+  type: number-input
+  pl-customizations:
+    weight: 1
+    allow-blank: true
+    label: $m= $
+    suffix: $kg$
     rtol: 0.02
 substitutions:
   params:
     vars:
-      title: Displacement and Distance of a particle
-      units: cm
-    seconds: 14
+      title: Weight units conversion
+    w_lbs: 123
 ---
 # {{ params.vars.title }}
-The position of a particle in centimeters is given by $s(t) = 20 - 9t + t^2$, where $t$ is in seconds.
+A students has a mass of {{params.w_lbs}} $lbs$.
 
 ## Part 1
 
-Determine the net displacement in the first {{params.seconds}} seconds.
+What is their weight in Newtons?
 
 ### Answer Section
 
-Please enter in a numeric value in ${{ params.vars.units }}$.
+Please enter in a numeric value in Newtons.
 
 ## Part 2
 
-Determine the total distance travelled in the first {{params.seconds}} seconds.
+What is their mass in $slug$?
 
 ### Answer Section
 
-Please enter in a numeric value in ${{ params.vars.units }}$.
+Please enter in a numeric value in $slug$.
+
+## Part 3
+
+What is their mass in kilograms?
+
+### Answer Section
+
+Please enter in a numeric value in kilograms.
 
 ## Attribution
 
