@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-24x + 48y}{-6}$
+    expr: $\dfrac{-32x - 16y}{4}$
     part1:
       ans1:
-        value: $4 x - 8 y$
+        value: $- 8 x - 4 y$
       ans2:
-        value: $\dfrac{4x - 8y}{-6}$
+        value: $\dfrac{-8x - 4y}{4}$
       ans3:
-        value: $-8x + 4y$
+        value: $-4x - 8y$
       ans4:
-        value: $-24x - 48y$
+        value: $-32x - 16y$
       ans5:
         value: Don't know.
 ---

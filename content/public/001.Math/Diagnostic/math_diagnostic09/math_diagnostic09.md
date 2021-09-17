@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 5
-    l0: j
-    l1: t
-    l2: p
-    l3: o
+    num: -9
+    l0: i
+    l1: d
+    l2: j
+    l3: c
     part1:
       ans1:
-        value: p = ${ - 5 o + \frac{t}{j}}$
+        value: j = ${ 9 c + \frac{d}{i}}$
       ans2:
-        value: p = ${\frac{5 j o}{t}}$
+        value: j = ${- \frac{9 c i}{d}}$
       ans3:
-        value: p = ${\frac{t}{5 j o}}$
+        value: j = ${- \frac{d}{9 c i}}$
       ans4:
-        value: p = ${\frac{j - 5 o}{t}}$
+        value: j = ${\frac{9 c + i}{d}}$
       ans5:
         value: Don't Know
 ---

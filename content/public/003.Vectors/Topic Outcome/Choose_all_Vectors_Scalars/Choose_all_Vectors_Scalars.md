@@ -37,13 +37,13 @@ substitutions:
       ans1:
         value: Area
       ans2:
-        value: Pressure
+        value: Density
       ans3:
-        value: Drag
+        value: Energy
       ans4:
-        value: Momentum
+        value: Force
       ans5:
-        value: Lift
+        value: Weight
       ans6:
         value: velocity
 ---
