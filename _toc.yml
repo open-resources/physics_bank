@@ -81,6 +81,8 @@ parts:
       disk and a paintball
   - file: content/public/002.Physics in General/Topic Outcome/What is conserved/What
       is conserved
+  - file: content/public/002.Physics in General/Units/Potato Density/Potato Density
+  - file: content/public/002.Physics in General/Units/weight unit conversion/weight_unit_conversion
   - file: content/public/002.Physics in General/Uncertainty/projectile_uncertainty/projectile_uncertainty
   - file: content/public/002.Physics in General/Uncertainty/Uncertainty_of_Coefficient/Uncertainty_of_Coefficient
   - file: content/public/002.Physics in General/Uncertainty/Terminal Velocity of Coffee
@@ -91,6 +93,8 @@ parts:
   - file: content/public/003.Vectors/Topic Outcome/Magnitude and Direction of Vector/Magnitude
       and Direction of Vector
   - file: content/public/003.Vectors/Notation/Identify_the_figure/Identify_the_figure
+  - file: content/public/003.Vectors/Vector Algebra/Vector Operations/L1Q2 Vector
+      Operations
 - caption: Kinematics(1D)
   chapters:
   - file: content/public/004.Kinematics(1D)/Free Fall/Supply_plane/Supply_plane
@@ -99,6 +103,7 @@ parts:
       Fall Turning Point
   - file: content/public/004.Kinematics(1D)/Motion Diagrams/Running_Dog/Running_Dog
   - file: content/public/004.Kinematics(1D)/Speed/Vehicle_Speed/Vehicle_Speed
+  - file: content/public/004.Kinematics(1D)/Displacement/Displacement_and_distance_of_particle/displacement_and_distance_of_particle
   - file: content/public/004.Kinematics(1D)/Displacement/Displacement of a vehicle/Displacement
       of a Vehicle
   - file: content/public/004.Kinematics(1D)/Displacement/Distance_Between_Two_People/Distance_Between_Two_People
@@ -127,16 +132,21 @@ parts:
   - file: content/public/004.Kinematics(1D)/Position/Label_Position_Vs_Time_Graph/Label_Position_Vs_Time_Graph
   - file: content/public/004.Kinematics(1D)/water_slide/water_slide
   - file: content/public/004.Kinematics(1D)/Velocity/Label_Velocity_Vs_Time_Graph/Label_Velocity_Vs_Time_Graph
+  - file: content/public/004.Kinematics(1D)/Velocity/Position, Velocity and Acceleration
+      of particle/position_veloctity_acceleration_of_particle
   - file: content/public/004.Kinematics(1D)/Velocity/Choose the correct graph/Choose
       the correct graph
   - file: content/public/004.Kinematics(1D)/Velocity/Label_The_Graph/Label_The_Graph
   - file: content/public/004.Kinematics(1D)/Velocity/Velocity_From_Graph/Velocity_From_Graph
+  - file: content/public/004.Kinematics(1D)/NotationForDynamics/NotationForDynamics
 - caption: Kinematics(2D and 3D)
   chapters:
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Cat in a Laundry
       Basket/Cat in a Laundry Basket
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Slanted Table/slanted_table
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/ski_jump/ski_jump
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Bird dropping
+      seed/Bird dropping seed
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Mass_Attached_To_String/Mass_Attached_To_String
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Jumping Salmon/Jumping
       Salmon
@@ -147,10 +157,13 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Hit_Baseball/Hit_Baseball
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Shooting a steel
       ball/Shooting a steel ball
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Velocity, Acceleration
+      and Angle of Particle with Curvilinear motion/velocity_acc_angle_of_particle_with_curvilinear_motion
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/A flying arrow/A
       flying arrow
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/apples_in_truck/apples_in_truck
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/AIrcraft Carrier/aircraft_carrier
+  - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Rutland Rd/rutland_rd
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Velocity of a Falcon/Velocity
       of a Falcon
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/jump_across_stream/jump_across_stream
@@ -185,6 +198,8 @@ parts:
   - file: content/public/006.Force/Friction/Which_Block_Stops_First/Which_Block_Stops_First
   - file: content/public/006.Force/Friction/Antilock braking systems/Antilock braking
       systems
+  - file: content/public/006.Force/Topic Outcome/Slider in a Rotating Tube/Slider
+      in a rotating Tube
   - file: content/public/006.Force/Topic Outcome/Greatest Tension in Rope/Greatest
       Tension in Rope
   - file: content/public/006.Force/Topic Outcome/The max acceleration without slipping/The
@@ -192,6 +207,7 @@ parts:
   - file: content/public/006.Force/Topic Outcome/spring_on_incline/spring_on_incline
   - file: content/public/006.Force/Topic Outcome/Mass inside rotating cone/Mass inside
       rotating cone
+  - file: content/public/006.Force/Topic Outcome/Springs On a Disk/Springs On a Disk
   - file: content/public/006.Force/Topic Outcome/Coefficient_Of_Friction/Coefficient_Of_Friction
   - file: content/public/006.Force/Topic Outcome/Rotating ball/Rotating ball
   - file: content/public/006.Force/Topic Outcome/Frictionless Air Track/Frictionless
@@ -208,6 +224,7 @@ parts:
   - file: content/public/006.Force/Newton's Third Law/Two_Blocks_Stacked/Two_Blocks_Stacked
   - file: content/public/006.Force/Free Body Diagrams/Ball Rolling in Pipe/ball_rolling_in_pipe
   - file: content/public/006.Force/Free Body Diagrams/pulley_on_truck/pulley_on_truck
+  - file: content/public/006.Force/Springs/Stiffness of a Spring/Stiffness of a Spring
   - file: content/public/006.Force/Springs/Bungee_jumping/bungee_jumping
   - file: content/public/006.Force/Drag/Cyclist/cyclist
   - file: content/public/006.Force/Dynamics of Circular Motion/Object_In_Circular_Motion/Object_In_Circular_Motion
@@ -218,6 +235,8 @@ parts:
   - file: content/public/006.Force/Newton's Second Law/Force and Momentum/Force and
       Momentum
   - file: content/public/006.Force/Newton's Second Law/Hockey net across ice/hocket_net_across_ice
+  - file: content/public/006.Force/Newton's Second Law/Force on a Highway Exit/Force
+      on a Highway Exit
   - file: content/public/006.Force/Newton's Second Law/Force_On_An_Object/Force_On_An_Object
   - file: content/public/006.Force/Newton's First Law/Collision_of_two_carts/Collision_of_two_carts
   - file: content/public/006.Force/Newton's First Law/Particle travelling with constant
@@ -231,6 +250,8 @@ parts:
   - file: content/public/007.Momentum and Impulse/Impulse/Speed_Before_Impact/Speed_Before_Impact
   - file: content/public/007.Momentum and Impulse/Impulse/Bouncing_Ball/Bouncing_Ball
   - file: content/public/007.Momentum and Impulse/Impulse/Room on Fire/room_on_fire
+  - file: content/public/007.Momentum and Impulse/Collisions/Collision of Collars/Collision
+      of Collars
   - file: content/public/007.Momentum and Impulse/Collisions/Colliding Balls/Colliding
       Balls
   - file: content/public/007.Momentum and Impulse/Collisions/Head-on collision of
@@ -261,6 +282,7 @@ parts:
 - caption: Energy
   chapters:
   - file: content/public/008.Energy/Conservation of Energy/dissipative_process/dissipative_process
+  - file: content/public/008.Energy/Conservation of Energy/Bottle Race/Bottle Race
   - file: content/public/008.Energy/Conservation of Energy/Physics of Roller Coasters/Physics
       of Roller Coasters
   - file: content/public/008.Energy/Conservation of Energy/Falling bucket/Falling
@@ -293,6 +315,7 @@ parts:
   - file: content/public/009.Work/Work/Lowering_bucket_1/lowering_bucket_1
   - file: content/public/009.Work/Work/Lowering_bucket_2/Lowering_bucket_2
   - file: content/public/009.Work/Power/Energy Expenditure/Energy Expenditure
+  - file: content/public/009.Work/Power/Power Climbing Stairs/Power Climbing Stairs
   - file: content/public/009.Work/Topic Outcome/Work_Done_By_Force/Work_Done_By_Force
   - file: content/public/009.Work/Work-Energy Theorem/Toboggan_hill/Toboggan_hill
   - file: content/public/009.Work/Work-Energy Theorem/work_frictionless_surface/work_frictionless_surface
@@ -319,6 +342,9 @@ parts:
 - caption: Rotational Dynamics
   chapters:
   - file: content/public/011.Rotational Dynamics/Topic Outcome/thread_on_spool/thread_on_spool
+- caption: Gravitation
+  chapters:
+  - file: content/public/012.Gravitation/Satellite Equal Attraction/satellite_equal_attraction
 - caption: Elasticity
   chapters:
   - file: content/public/014.Elasticity/Topic Outcome/Identical Mass-Springs with
@@ -336,6 +362,8 @@ parts:
   chapters:
   - file: content/public/018.Electrostatics/Electric Charge/Suspended neutral conductor/Suspended
       neutral conductor
+  - file: content/public/018.Electrostatics/Electric Charge/Attracting and repelling
+      bodies/Attracting and repelling bodies
   - file: content/public/018.Electrostatics/Electric Flux/Flux through a surface/Flux
       through a surface
   - file: content/public/018.Electrostatics/Electric Flux/A cube and a sphere/A cube
@@ -357,6 +385,8 @@ parts:
       electric field
   - file: content/public/018.Electrostatics/Electric Field/Zero electric field/Zero
       electric field
+  - file: content/public/018.Electrostatics/Electric Potential/Parallel-plate potential
+      difference/Parallel-plate potential difference
   - file: content/public/018.Electrostatics/Electric Potential/Uniformly-charged sphere/Uniformly-charged
       sphere
   - file: content/public/018.Electrostatics/Electric Potential/Electric potential
@@ -476,6 +506,7 @@ parts:
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_37/OSUPv2p8_37
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_6/OSUPv2p8_6
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_8/OSUPv2p8_8
+  - file: content/public/021.Circuits/Capacitors/OSUPv2p8_51/OSUPv2p8_51
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_39/OSUPv2p8_39
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_38/OSUPv2p8_38
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_23/OSUPv2p8_23
@@ -493,6 +524,7 @@ parts:
   - file: content/public/021.Circuits/Resistance/Ratio Of Diameter/ratio_of_diameter
   - file: content/public/021.Circuits/Resistance/Temperature Range of Resistor/temp_range_of_resistor
   - file: content/public/021.Circuits/Resistance/OSUPv2p10_06/OSUPv2p10_06
+  - file: content/public/021.Circuits/Resistance/Properties of Wire/properties_of_wire
   - file: content/public/021.Circuits/Kichhoff's Rules/OSUPv2p10_08/OSUPv2p10_08
   - file: content/public/021.Circuits/Current/Proton Accelerator/proton_accelerator
   - file: content/public/021.Circuits/Current/Air Conditioner/air_conditioner
@@ -509,6 +541,7 @@ parts:
   - file: content/public/021.Circuits/Electrical Energy/OSUPv2.9.16/OSUPv2.9.16
   - file: content/public/021.Circuits/Ohm's Law/Indicator Light/indicator_light
   - file: content/public/021.Circuits/Ohm's Law/OSUPv2.9.13/OSUPv2.9.13
+  - file: content/public/021.Circuits/Ohm's Law/OSUPv2p10_30/OSUPv2p10_30
   - file: content/public/021.Circuits/Electrical Power/LED Bulb/LED_bulb
   - file: content/public/021.Circuits/Electrical Power/Maximum Voltage/maximum_voltage
   - file: content/public/021.Circuits/Electrical Power/Power Transmission To Dorm/power_transmission_to_dorm
@@ -516,5 +549,6 @@ parts:
   - file: content/public/021.Circuits/Resistors/OSUPv2p10_22/OSUPv2p10_22
   - file: content/public/021.Circuits/Resistors/OSUPv2p10_27/OSUPv2p10_27
   - file: content/public/021.Circuits/Resistors/Power and Energy Through Resistor/power_and_energy
+  - file: content/public/021.Circuits/Resistors/OSUPv2p10_26/OSUPv2p10_26
   - file: content/public/021.Circuits/RC Circuits/OSUPv2p10_16/OSUPv2p10_16
   - file: content/public/021.Circuits/Batteries/OSUPv2p10_25/OSUPv2p10_25
