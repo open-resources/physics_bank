@@ -58,7 +58,7 @@ substitutions:
       units1: m/s
       units2: m
       units3: J
-    m: 3.5
+    m: 5.0
     v: -4.5
 ---
 # {{ params.vars.title }}

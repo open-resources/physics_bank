@@ -39,9 +39,9 @@ substitutions:
   params:
     vars:
       title: Parallel-plate potential difference
-    d: '10.0'
-    t: '1.2'
-    q: '4.4'
+    d: '20.0'
+    t: '1.8'
+    q: '3.4'
     p: !!python/object/apply:numpy.core.multiarray.scalar
     - !!python/object/apply:numpy.dtype
       args:
@@ -58,7 +58,7 @@ substitutions:
       - -1
       - 0
     - !!binary |
-      AAAAAAAAJsA=
+      AAAAAAAAJMA=
 ---
 # {{ params.vars.title }}
 Two parallel plates ${{ params.d }}\rm\ cm$ on a side are given equal and opposite charges of magnitude ${{ params.q }}\times 10^{ {{ params.p }} }\rm\ C$.

@@ -31,23 +31,23 @@ substitutions:
     vars:
       title: Kinetic Energy of Test Mass
       units: J
-    m: 498
-    v: 2.18
-    d_m: 2
-    d_v: 0.03
+    m: 240
+    v: 2.57
+    d_m: 3
+    d_v: 0.02
     part1:
       ans1:
-        value: 1.183 $\pm$ 0.021
+        value: 0.793 $\pm$ 0.016
       ans2:
-        value: 1.183 $\pm$ 0.037
+        value: 0.793 $\pm$ 0.022
       ans3:
-        value: 1.183 $\pm$ 0.005
+        value: 0.793 $\pm$ 0.01
       ans4:
-        value: 1.183 $\pm$ 0.004
+        value: 0.793 $\pm$ 0.013
       ans5:
-        value: 1.183 $\pm$ 0.032
+        value: 0.793 $\pm$ 0.028
       ans6:
-        value: 1.183 $\pm$ 0.005
+        value: 0.793 $\pm$ 0.01
 ---
 # {{ params.vars.title }}
 In a lab, a test mass with $m = $ {{ params.m}} $\pm$ {{ params.d_m}} g is measured to have a speed of {{ params.v}} $\pm$ {{ params.d_v}} $m/s$.

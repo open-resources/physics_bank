@@ -44,11 +44,11 @@ substitutions:
   params:
     vars:
       title: Force on a Highway Exit
-    vami: 60
-    vcmi: 21
-    W: 7277
-    d: 244
-    r: 140
+    vami: 56
+    vcmi: 27
+    W: 5687
+    d: 287
+    r: 122
 ---
 # {{ params.vars.title }}
 <img src="Force on a Highway Exit.png" width=400>

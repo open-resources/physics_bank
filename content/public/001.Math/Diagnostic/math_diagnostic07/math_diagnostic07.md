@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 4x - 6y = 50
-    formula2: 4x + 4y = 50
+    formula1: 2x - 8y = 5
+    formula2: 9x + 6y = 21
     part1:
       ans1:
-        value: ' x =25/2, y =0'
+        value: ' x =33/14, y =-1/28'
       ans2:
-        value: ' x =0, y =25/2'
+        value: ' x =-1/28, y =33/14'
       ans3:
-        value: ' x =-25/2, y =0'
+        value: ' x =-33/14, y =1/28'
       ans4:
-        value: ' x =0, y =-25/2'
+        value: ' x =1/28, y =-33/14'
       ans5:
         value: Don't Know
 ---

@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -9
-    l0: i
-    l1: d
-    l2: j
-    l3: c
+    num: -8
+    l0: f
+    l1: a
+    l2: w
+    l3: s
     part1:
       ans1:
-        value: j = ${ 9 c + \frac{d}{i}}$
+        value: w = ${ \frac{a}{f} + 8 s}$
       ans2:
-        value: j = ${- \frac{9 c i}{d}}$
+        value: w = ${- \frac{8 f s}{a}}$
       ans3:
-        value: j = ${- \frac{d}{9 c i}}$
+        value: w = ${- \frac{a}{8 f s}}$
       ans4:
-        value: j = ${\frac{9 c + i}{d}}$
+        value: w = ${\frac{f + 8 s}{a}}$
       ans5:
         value: Don't Know
 ---

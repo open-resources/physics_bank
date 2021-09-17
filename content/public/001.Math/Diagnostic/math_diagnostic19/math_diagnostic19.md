@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: 255
+    a: 293
     part1:
       ans1:
-        value: $\sin{-105}$
+        value: $\sin{-67}$
       ans2:
-        value: $\sin{105}$
+        value: $\sin{67}$
       ans3:
-        value: $\sin{-75}$
+        value: $\sin{-113}$
       ans4:
-        value: $\sin{75}$
+        value: $\sin{113}$
       ans5:
         value: Don't Know
 ---

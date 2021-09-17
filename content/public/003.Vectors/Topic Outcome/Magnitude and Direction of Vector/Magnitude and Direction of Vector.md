@@ -36,29 +36,29 @@ substitutions:
   params:
     vars:
       title: Magnitude and Direction of a Vector
-    A_i: -5
-    A_j_abs: 2
-    A_j_sign: ' - '
-    B_i: 3
-    B_j_abs: 3
+    A_i: -4
+    A_j_abs: 6
+    A_j_sign: ' + '
+    B_i: 5
+    B_j_abs: 6
     B_j_sign: ' - '
-    C_i: -1
-    C_j_abs: 7
-    C_j_sign: ' + '
-    d: 6
+    C_i: -4
+    C_j_abs: 4
+    C_j_sign: ' - '
+    d: -1
     part1:
       ans1:
-        value: ($\sqrt{2000}$, $\theta = $108.0$^\circ$)
+        value: ($\sqrt{280}$, $\theta = $107.0$^\circ$)
       ans2:
-        value: ($\sqrt{2000}$, $\theta = $54.0$^\circ$)
+        value: ($\sqrt{280}$, $\theta = $53.5$^\circ$)
       ans3:
-        value: ($\sqrt{1000.0}$, $\theta = $54.0$^\circ$)
+        value: ($\sqrt{140.0}$, $\theta = $53.5$^\circ$)
       ans4:
-        value: ($\sqrt{45.0}$, $\theta = $108.0$^\circ$)
+        value: ($\sqrt{17.0}$, $\theta = $107.0$^\circ$)
       ans5:
-        value: ($\sqrt{3000.0}$, $\theta = $54.0$^\circ$)
+        value: ($\sqrt{420.0}$, $\theta = $53.5$^\circ$)
       ans6:
-        value: ($\sqrt{29}$, $\theta = $108.0$^\circ$)
+        value: ($\sqrt{11}$, $\theta = $107.0$^\circ$)
 ---
 # {{ params.vars.title }}
 Given $\vec{A} =$ {{ params.A_i }}$\hat{\imath}$ {{params.A_j_sign}} {{ params.A_j_abs}}$\hat{\jmath}$, $\vec{B} =$ {{ params.B_i }}$\hat{\imath}$ {{params.B_j_sign}} {{ params.B_j_abs}}$\hat{\jmath}$, $\vec{C} =$ {{ params.C_i }}$\hat{\imath}$ {{params.C_j_sign}} {{ params.C_j_abs}}$\hat{\jmath}$ and $d=$ {{ params.d }}, find the magnitude and direction of $\vec{A}-\vec{B}+d\vec{C}$.
