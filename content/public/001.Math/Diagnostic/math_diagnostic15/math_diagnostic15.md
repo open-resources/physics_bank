@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $3^{2} $=$ 9$
+    expr: $5^{8} $=$ 390625$
     part1:
       ans1:
-        value: $log_39 = 2$
+        value: $log_5390625 = 8$
       ans2:
-        value: $log_32 = 9$
+        value: $log_58 = 390625$
       ans3:
-        value: $log_92 = 3$
+        value: $log_3906258 = 5$
       ans4:
-        value: $log_29 = 3$
+        value: $log_8390625 = 5$
       ans5:
         value: Don't Know
 ---

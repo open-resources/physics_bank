@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $q$ = $\dfrac{(o)}{(z + 6e)} $
+    expr: $r$ = $\dfrac{(n)}{(m + 7h)} $
     part1:
       ans1:
-        value: z = ${ - 6 e + \frac{o}{q}}$
+        value: m = ${ - 7 h + \frac{n}{r}}$
       ans2:
-        value: z = ${\frac{6 e q}{o}}$
+        value: m = ${\frac{7 h r}{n}}$
       ans3:
-        value: z = ${\frac{o}{6 e q}}$
+        value: m = ${\frac{n}{7 h r}}$
       ans4:
-        value: z = ${\frac{- 6 e + q}{o}}$
+        value: m = ${\frac{- 7 h + r}{n}}$
       ans5:
         value: Don't Know
 ---

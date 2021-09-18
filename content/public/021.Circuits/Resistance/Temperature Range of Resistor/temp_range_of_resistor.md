@@ -44,9 +44,9 @@ substitutions:
   params:
     vars:
       title: Temperature Range of Resistor
-    p: 8
-    metal: Iron
-    T_0: 50
+    p: 3
+    metal: Constantan
+    T_0: 101
 ---
 # {{ params.vars.title }}
 

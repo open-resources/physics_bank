@@ -44,8 +44,8 @@ substitutions:
       title: Cars on Hills
       units: "$\frac{m}{s^2}"
     v: 18
-    r: 202
-    mu: 5.43
+    r: 190
+    mu: 6.22
 ---
 # {{ params.vars.title }}
 Two cars are driving at {{params.v}} $m/s$ along the road shown in the figure.

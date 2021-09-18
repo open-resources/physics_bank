@@ -49,9 +49,9 @@ substitutions:
       title: Flying Squid
       units1: m/s
       units2: m
-    m1: 0.08
-    m2: 0.9
-    v: 25
+    m1: 0.23
+    m2: 0.67
+    v: 16
 ---
 # {{ params.vars.title }}
 The Japanese flying squid, shown in the photograph below, is able to "jump" off the surface of the sea by taking water into its body cavity and then ejecting the water vertically downward. A squid is able to eject {{params.m1}} $kg$ of water with a speed of {{params.v}} $m/s$. Without any water in its cavity, the mass of the squid is {{params.m2}} $kg$.
