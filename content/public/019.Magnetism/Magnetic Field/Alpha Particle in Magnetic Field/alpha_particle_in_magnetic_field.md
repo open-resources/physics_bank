@@ -69,8 +69,8 @@ substitutions:
   params:
     vars:
       title: Aplha Particle in Magnetic Field
-    r: 2
-    B: 2
+    r: 14
+    B: 7
 ---
 # {{ params.vars.title }}
 An alpha-particle ($m = 6.64 \times 10^{-27} \textrm{ kg}, q = 3.2 \times 10^{-19} \textrm{ C}$) travels in a circular path of radius ${{params.r}} \textrm{ cm}$ in a uniform magnetic field of magnitude ${{params.B}} \textrm{ T}$.

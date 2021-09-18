@@ -30,17 +30,17 @@ substitutions:
   params:
     vars:
       title: Math Practice Q22
-    denom: 7
-    formula: $\sin{\left(\frac{x}{7} \right)}$
+    denom: 2
+    formula: $\sin{\left(\frac{x}{2} \right)}$
     part1:
       ans1:
-        value: ${- 7 \cos{\left(\frac{x}{7} \right)}}$
+        value: ${- 2 \cos{\left(\frac{x}{2} \right)}}$
       ans2:
-        value: ${7 \cos{\left(\frac{x}{7} \right)}}$
+        value: ${2 \cos{\left(\frac{x}{2} \right)}}$
       ans3:
-        value: ${- 14 \cos{\left(\frac{x}{7} \right)}}$
+        value: ${- 4 \cos{\left(\frac{x}{2} \right)}}$
       ans4:
-        value: ${- \frac{7 \cos{\left(\frac{x}{7} \right)}}{2}}$
+        value: ${- \cos{\left(\frac{x}{2} \right)}}$
 ---
 # {{ params.vars.title }}
 

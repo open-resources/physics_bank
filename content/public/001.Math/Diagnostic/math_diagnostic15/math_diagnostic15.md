@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $4^{8} $=$ 65536$
+    expr: $2^{5} $=$ 32$
     part1:
       ans1:
-        value: $log_465536 = 8$
+        value: $log_232 = 5$
       ans2:
-        value: $log_48 = 65536$
+        value: $log_25 = 32$
       ans3:
-        value: $log_655368 = 4$
+        value: $log_325 = 2$
       ans4:
-        value: $log_865536 = 4$
+        value: $log_532 = 2$
       ans5:
         value: Don't Know
 ---

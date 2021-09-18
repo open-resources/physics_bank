@@ -31,18 +31,18 @@ substitutions:
   params:
     vars:
       units: rad/s
-      name: Emilia
+      name: Aliyah
       title: Wheel of Fortune
     w_i: 0.79
-    t: 4
+    t: 5
     w_int: 4
     part1:
       ans1:
-        value: 1.86
+        value: 1.49
       ans2:
-        value: 1.36
+        value: 1.22
       ans3:
-        value: 2.73
+        value: 2.44
       ans4:
         value: $\pi$/4
 ---

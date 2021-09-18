@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -6
-    l0: s
-    l1: j
-    l2: i
-    l3: c
+    num: 2
+    l0: n
+    l1: f
+    l2: x
+    l3: t
     part1:
       ans1:
-        value: i = ${ 6 c + \frac{j}{s}}$
+        value: x = ${ \frac{f}{n} - 2 t}$
       ans2:
-        value: i = ${- \frac{6 c s}{j}}$
+        value: x = ${\frac{2 n t}{f}}$
       ans3:
-        value: i = ${- \frac{j}{6 c s}}$
+        value: x = ${\frac{f}{2 n t}}$
       ans4:
-        value: i = ${\frac{6 c + s}{j}}$
+        value: x = ${\frac{n - 2 t}{f}}$
       ans5:
         value: Don't Know
 ---
