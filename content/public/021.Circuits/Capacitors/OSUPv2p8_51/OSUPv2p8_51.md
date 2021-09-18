@@ -52,8 +52,8 @@ substitutions:
   params:
     vars:
       title: Filling a Capacitor with Dielectric Material
-    d: '1.25'
-    a: '4.0'
+    d: '1.75'
+    a: '7.0'
     k: '7.0'
 ---
 # {{ params.vars.title }}

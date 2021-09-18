@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{24x - 40y }{ 8 }$
+    expr: $\dfrac{-42x + 12y }{ 6 }$
     part1:
       ans1:
-        value: $3 x - 5 y$
+        value: $- 7 x + 2 y$
       ans2:
-        value: $\dfrac{3x - 5y}{8}$
+        value: $\dfrac{-7x + 2y}{6}$
       ans3:
-        value: $-5x + 3y$
+        value: $2x - 7y$
       ans4:
-        value: $24x - 40y$
+        value: $-42x + 12y$
       ans5:
         value: Don't know.
 ---

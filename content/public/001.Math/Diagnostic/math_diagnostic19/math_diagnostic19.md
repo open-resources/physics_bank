@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin208$
+    a: $ \sin299$
     part1:
       ans1:
-        value: $\sin{-152}$
+        value: $\sin{-61}$
       ans2:
-        value: $\sin{152}$
+        value: $\sin{61}$
       ans3:
-        value: $\sin{-28}$
+        value: $\sin{-119}$
       ans4:
-        value: $\sin{28}$
+        value: $\sin{119}$
       ans5:
         value: Don't Know
 ---

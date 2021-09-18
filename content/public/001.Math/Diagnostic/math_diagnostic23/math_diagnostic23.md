@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 4
+    a: 5
     b: 6
-    formula: $x^{4} \cos{\left(6 x \right)}$
+    formula: $x^{5} \sin{\left(6 x \right)}$
     part1:
       ans1:
-        value: $- 6 x^{4} \sin{\left(6 x \right)} + 4 x^{3} \cos{\left(6 x \right)}$
+        value: $6 x^{5} \cos{\left(6 x \right)} + 5 x^{4} \sin{\left(6 x \right)}$
       ans2:
-        value: $- 6 x^{4} \sin{\left(6 x \right)} $
+        value: $6 x^{5} \cos{\left(6 x \right)} $
       ans3:
-        value: $ 4 x^{3} \sin{\left(6 x \right)}$
+        value: $ 5 x^{4} \cos{\left(6 x \right)}$
       ans4:
-        value: $6 x^{4} \cos{\left(6 x \right)} + 4 x^{3} \sin{\left(6 x \right)}$
+        value: $- 6 x^{5} \sin{\left(6 x \right)} + 5 x^{4} \cos{\left(6 x \right)}$
       ans5:
         value: Don't Know
 ---

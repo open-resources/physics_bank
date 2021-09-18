@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $s$ = $\dfrac{(k)}{(t + 7f)} $
+    expr: $p$ = $\dfrac{(l)}{(g + 4m)} $
     part1:
       ans1:
-        value: t = ${ - 7 f + \frac{k}{s}}$
+        value: g = ${ \frac{l}{p} - 4 m}$
       ans2:
-        value: t = ${\frac{7 f s}{k}}$
+        value: g = ${\frac{4 m p}{l}}$
       ans3:
-        value: t = ${\frac{k}{7 f s}}$
+        value: g = ${\frac{l}{4 m p}}$
       ans4:
-        value: t = ${\frac{- 7 f + s}{k}}$
+        value: g = ${\frac{- 4 m + p}{l}}$
       ans5:
         value: Don't Know
 ---
