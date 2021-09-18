@@ -30,18 +30,18 @@ substitutions:
   params:
     vars:
       title: Firing a Ball using a Compressed Spring
-    choice: halved
+    choice: doubled
     part1:
       ans1:
-        value: The ball will reach half the height previously reached.
+        value: The ball will reach twice the height as before.
       ans2:
         value: The ball will reach one quarter of the previous height.
       ans3:
         value: The ball will reach four times the height previously reached.
       ans4:
-        value: The ball will reach the same height as before.
+        value: The ball will reach half the height previously reached.
       ans5:
-        value: The ball will reach twice the height as before.
+        value: The ball will reach the same height as before.
       ans6:
         value: The ball will reach thrice the height as before.
 ---

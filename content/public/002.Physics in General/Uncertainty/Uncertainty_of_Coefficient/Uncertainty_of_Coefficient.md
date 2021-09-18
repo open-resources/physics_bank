@@ -30,20 +30,20 @@ substitutions:
   params:
     vars:
       title: Uncertainty of Coefficient
-      name: Savannah
+      name: Abbas
       units: $kg/s$
-    m: 103
-    v: 1.8
-    b: 0.46
+    m: 86
+    v: 1.5
+    b: 0.72
     part1:
       ans1:
-        value: ' $\pm$ 0.13'
+        value: ' $\pm$ 0.16'
       ans2:
-        value: ' $\pm$ 0.06'
+        value: ' $\pm$ 0.11'
       ans3:
-        value: ' $\pm$ 0.01'
+        value: ' $\pm$ 0.02'
       ans4:
-        value: ' $\pm$ 0.6'
+        value: ' $\pm$ 1.13'
 ---
 # {{ params.vars.title }}
 The drag force on an object of interest can be accurately modelled as $\vec{D}$ = -$b\vec{v}$ such that its terminal velocity in free fall is given by $v_T$ = $mg/b$.

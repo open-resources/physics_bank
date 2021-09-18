@@ -76,7 +76,7 @@ substitutions:
       title: Magnetic field of a hollow cylinder
     r1: '3.0'
     r2: '5.0'
-    I: '40.0'
+    I: '70.0'
     ra: '2.0'
     rb: '4.0'
     rc: '6.0'

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $i$ = $\dfrac{(f)}{(y - 3j)} $
+    expr: $o$ = $\dfrac{(p)}{(f + 3i)} $
     part1:
       ans1:
-        value: y = ${ \frac{f}{i} + 3 j}$
+        value: f = ${ - 3 i + \frac{p}{o}}$
       ans2:
-        value: y = ${- \frac{3 i j}{f}}$
+        value: f = ${\frac{3 i o}{p}}$
       ans3:
-        value: y = ${- \frac{f}{3 i j}}$
+        value: f = ${\frac{p}{3 i o}}$
       ans4:
-        value: y = ${\frac{i + 3 j}{f}}$
+        value: f = ${\frac{- 3 i + o}{p}}$
       ans5:
         value: Don't Know
 ---

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{72x + 45y }{ 9 }$
+    expr: $\dfrac{36x + 36y }{ -6 }$
     part1:
       ans1:
-        value: $8 x + 5 y$
+        value: $- 6 x - 6 y$
       ans2:
-        value: $\dfrac{8x + 5y}{9}$
+        value: $\dfrac{-6x - 6y}{-6}$
       ans3:
-        value: $5x + 8y$
+        value: $-6x - 6y$
       ans4:
-        value: $72x + 45y$
+        value: $36x - 36y$
       ans5:
         value: Don't know.
 ---

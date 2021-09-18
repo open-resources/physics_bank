@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $7^{1} $=$ 7$
+    expr: $4^{2} $=$ 16$
     part1:
       ans1:
-        value: $log_77 = 1$
+        value: $log_416 = 2$
       ans2:
-        value: $log_71 = 7$
+        value: $log_42 = 16$
       ans3:
-        value: $log_71 = 7$
+        value: $log_162 = 4$
       ans4:
-        value: $log_17 = 7$
+        value: $log_216 = 4$
       ans5:
         value: Don't Know
 ---

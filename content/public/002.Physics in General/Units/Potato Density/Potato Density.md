@@ -70,8 +70,8 @@ substitutions:
       name: Aliyah
       unit1: $kg$
       unit2: $m^3$
-    m_p: 167
-    m_cp: 73
+    m_p: 277
+    m_cp: 117
     l: 4
 ---
 # {{ params.vars.title }}
