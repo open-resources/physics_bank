@@ -29,19 +29,19 @@ part1:
 substitutions:
   params:
     vars:
-      name: Mateo
-      vehicle: a skateboard
+      name: Savannah
+      vehicle: ice skates
       units: m
       title: Distance travelled
-    v: 7
-    t: 7
+    v: 5
+    t: 5
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 49
+        value: 25
       ans3:
-        value: 14
+        value: 10
       ans4:
         value: 1.0
       ans5:

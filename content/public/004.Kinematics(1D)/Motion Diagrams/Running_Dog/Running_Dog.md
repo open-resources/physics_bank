@@ -40,11 +40,9 @@ substitutions:
         value: The dog is moving at a constant velocity between $t=2$ $s$ and $t=6$
           $s$
       ans2:
-        value: The dog has an average velocity of $0$ $m/s$ between time $t=0$ $s$
-          and $t=8$ $s$
+        value: The dog is moving at the same speed at time $t=8$ $s$ and $t=10$ $s$
       ans3:
-        value: The dog has a velocity of $1$ $m/s$ between time $t=6$ $s$ and $t=10$
-          $s$
+        value: The dog is not moving between $t=6$ $s$ and $t=10$ $s$
       ans4:
         value: The dog has a negative acceleration at $t=9$ $s$
 ---

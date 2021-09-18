@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -10
-    l0: k
-    l1: f
-    l2: g
-    l3: j
+    num: -2
+    l0: o
+    l1: q
+    l2: k
+    l3: e
     part1:
       ans1:
-        value: g = ${ \frac{f}{k} + 10 j}$
+        value: k = ${ 2 e + \frac{q}{o}}$
       ans2:
-        value: g = ${- \frac{10 j k}{f}}$
+        value: k = ${- \frac{2 e o}{q}}$
       ans3:
-        value: g = ${- \frac{f}{10 j k}}$
+        value: k = ${- \frac{q}{2 e o}}$
       ans4:
-        value: g = ${\frac{10 j + k}{f}}$
+        value: k = ${\frac{2 e + o}{q}}$
       ans5:
         value: Don't Know
 ---

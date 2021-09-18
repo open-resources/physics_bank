@@ -51,10 +51,10 @@ substitutions:
     vars:
       title: Parcel from Aircraft 3D
       units: ft
-    z0: 1723
-    y0: 945
-    vx0: 217
-    vy0: 39
+    z0: 1312
+    y0: 1120
+    vx0: 259
+    vy0: 28
 ---
 # {{ params.vars.title }}
 ${{params.z0}}ft$ above the ground, a cargo plane flies in a horizontal circle with radius of ${{paramsy.y0}}ft$.

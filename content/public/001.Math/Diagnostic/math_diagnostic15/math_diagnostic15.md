@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $7^{4} $=$ 2401$
+    expr: $2^{3} $=$ 8$
     part1:
       ans1:
-        value: $log_72401 = 4$
+        value: $log_28 = 3$
       ans2:
-        value: $log_74 = 2401$
+        value: $log_23 = 8$
       ans3:
-        value: $log_24014 = 7$
+        value: $log_83 = 2$
       ans4:
-        value: $log_42401 = 7$
+        value: $log_38 = 2$
       ans5:
         value: Don't Know
 ---

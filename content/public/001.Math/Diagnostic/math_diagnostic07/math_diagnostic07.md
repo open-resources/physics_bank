@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 5x - 5y = 15
-    formula2: 3x + 9y = 28
+    formula1: 5x - 5y = 44
+    formula2: 10x + 7y = 44
     part1:
       ans1:
-        value: ' x =55/12, y =19/12'
+        value: ' x =528/85, y =-44/17'
       ans2:
-        value: ' x =19/12, y =55/12'
+        value: ' x =-44/17, y =528/85'
       ans3:
-        value: ' x =-55/12, y =-19/12'
+        value: ' x =-528/85, y =44/17'
       ans4:
-        value: ' x =-19/12, y =-55/12'
+        value: ' x =44/17, y =-528/85'
       ans5:
         value: Don't Know
 ---

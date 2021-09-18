@@ -44,8 +44,8 @@ substitutions:
   params:
     vars:
       title: Potential Difference of Rod
-    B: '1.00'
-    v: '6'
+    B: '1.25'
+    v: '4'
     part2:
       ans1:
         value: Bottom

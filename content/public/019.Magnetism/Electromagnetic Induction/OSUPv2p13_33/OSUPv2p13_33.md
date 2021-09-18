@@ -52,7 +52,7 @@ substitutions:
     r: '40'
     b: '200'
     B: '350'
-    t: '0.1'
+    t: '0.5'
     part2:
       ans1:
         value: Clockwise
