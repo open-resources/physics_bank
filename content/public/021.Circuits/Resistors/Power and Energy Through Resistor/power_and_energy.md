@@ -74,8 +74,8 @@ substitutions:
   params:
     vars:
       title: Power And Energy Through Resistor
-    V: 29
-    R: 20
+    V: 13
+    R: 16
     part4:
       ans1:
         value: It is converted into light energy.
@@ -85,7 +85,7 @@ substitutions:
         value: It is converted into chemical energy.
 ---
 # {{ params.vars.title }}
-A ${{params.V}} \textrm{ V}$ battery is used to supply current to a  ${{params.R}}\rm\ k\Omega$ resistor.
+A {{params.V}} $\textrm{ V}$ battery is used to supply current to a  {{params.R} $\rm\ k\Omega$ resistor.
 Assume the voltage drop across any wires used for connections is negligible.
 
 ## Part 1

@@ -35,11 +35,11 @@ substitutions:
   params:
     vars:
       title: Stiffness of a Spring
-    h: 330
-    F: 175
-    x: 176
-    d: 56
-    m: 7
+    h: 366
+    F: 198
+    x: 185
+    d: 71
+    m: 3
 ---
 # {{ params.vars.title }}
 <img src="Stiffness of a Spring.png" width=400>

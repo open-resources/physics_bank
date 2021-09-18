@@ -43,17 +43,17 @@ substitutions:
   params:
     vars:
       title: Coil Encircling Solenoid
-    n: '17'
+    n: '12'
     A: '8'
-    I: '0.75'
-    N: '7'
-    t: '0.04'
+    I: '1.00'
+    N: '4'
+    t: '0.06'
 ---
 # {{ params.vars.title }}
 
 ## Question Text
 
-A long solenoid with $n$ = ${{params.n }}$ turns per centimeter has a cross-sectional area of ${{params.A }} \rm\ cm^2$ and carries a current of ${{params.I }}\textrm{ A}$. A coil with ${{params.N }}$ turns encircles the solenoid. When the current through the solenoid is turned off, it decreases to zero in ${{params.t }}\textrm{ s}$. What is the average emf induced in the coil?
+A long solenoid with $n$ = {{params.n }} turns per centimeter has a cross-sectional area of {{params.A }} $\rm\ cm^2$ and carries a current of {{params.I }} $\textrm{A}$. A coil with {{params.N }} turns encircles the solenoid. When the current through the solenoid is turned off, it decreases to zero in {{params.t }} $\textrm{ s}$. What is the average emf induced in the coil?
 
 ### Answer Section
 

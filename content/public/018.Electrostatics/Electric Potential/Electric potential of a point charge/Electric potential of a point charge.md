@@ -46,14 +46,14 @@ substitutions:
   params:
     vars:
       title: Electric potential of a point charge
-    r: '5.40'
-    V: '5.40'
+    r: '1.00'
+    V: '5.00'
 ---
 # {{ params.vars.title }}
 
 ## Question Text
 
-What point charge $q$ produces a potential of ${{ params.V }}\rm\ V$ at a distance of ${{ params.r }}\rm\ mm$ from the charge?
+What point charge $q$ produces a potential of {{ params.V }} $\rm\ V$ at a distance of {{ params.r }} $\rm\ mm$ from the charge?
 
 ### Answer Section
 

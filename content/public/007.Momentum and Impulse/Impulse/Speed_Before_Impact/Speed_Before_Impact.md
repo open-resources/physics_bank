@@ -32,14 +32,14 @@ substitutions:
   params:
     vars:
       title: Speed Before Impact
-      vehicle: car
+      vehicle: bus
       units: $m/s$
-    m: 524
+    m: 512
     part1:
       ans1:
-        value: 103.0
+        value: 105.0
       ans2:
-        value: 52.0
+        value: 53.0
       ans3:
         value: 26.0
       ans4:

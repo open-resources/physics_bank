@@ -45,11 +45,11 @@ substitutions:
   params:
     vars:
       title: Field due to lightning
-    d: '1.1'
-    p: '4'
+    d: '2.0'
+    p: $10^4$
 ---
 # {{ params.vars.title }}
-A typical current in a lightning bolt is $10^{{ params.p }}\rm\ A$.
+A typical current in a lightning bolt is {{ params.p }} $\rm\ A$.
 
 ## Question Text
 

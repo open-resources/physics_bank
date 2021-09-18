@@ -52,8 +52,8 @@ substitutions:
     vars:
       title: Uniformly Decreasing Magnetic Field
     r: '15'
-    B: '2.0'
-    t: '10'
+    B: '3.5'
+    t: '20'
     part2:
       ans1:
         value: Clockwise
@@ -61,7 +61,7 @@ substitutions:
         value: Counterclockwise
 ---
 # {{ params.vars.title }}
-The magnetic field at all points within the cylindrical region whose cross-section is indicated in the accompanying figure starts at magnetic field of ${{params.B }} \textrm{ T}$ and decreases uniformly to zero in ${{params.t }} \textrm{ s}$.
+The magnetic field at all points within the cylindrical region whose cross-section is indicated in the accompanying figure starts at magnetic field of {{params.B }} $\textrm{ T}$ and decreases uniformly to zero in {{params.t }}  $\textrm{ s}$.
 
 <img src="Fig13_52.png">
 

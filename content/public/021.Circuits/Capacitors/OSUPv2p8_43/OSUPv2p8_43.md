@@ -57,14 +57,14 @@ substitutions:
   params:
     vars:
       title: Heart Defibrillator
-    c: '14.0'
-    v: '6.0'
+    c: '15.0'
+    v: '9.0'
 ---
 # {{ params.vars.title }}
 
 ## Part 1
 
-What is the energy stored in the ${{params.c }} \rm\ \mu\textrm{F}$ capacitor of a heart defibrillator charged to ${{params.v }} \textrm{ kV}$?
+What is the energy stored in the {{params.c }} $\rm\ \mu\textrm{F}$ capacitor of a heart defibrillator charged to {{params.v }} $\textrm{ kV}$?
 
 ### Answer Section
 

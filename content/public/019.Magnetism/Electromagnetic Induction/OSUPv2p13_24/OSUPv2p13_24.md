@@ -43,16 +43,16 @@ substitutions:
   params:
     vars:
       title: Coil in Uniform Magnetic Field
-    N: '20'
-    d: '25'
-    B: '0.50'
-    t: '1.0'
+    N: '40'
+    d: '20'
+    B: '1.00'
+    t: '0.7'
 ---
 # {{ params.vars.title }}
 
 ## Question Text
 
-A ${{params.N }}$ turn coil has a diameter of ${{params.d }}\textrm{ cm}$. The coil is placed in a spatially uniform magnetic field of magnitude ${{params.B }}\textrm{ T}$ so that the face of the coil and the magnetic field are perpendicular. Find the magnitude of the emf induced in the coil if the magnetic field is reduced to zero uniformly in ${{params.t }}\textrm{ s}$.
+A {{params.N }} turn coil has a diameter of {{params.d }} $\textrm{ cm}$. The coil is placed in a spatially uniform magnetic field of magnitude {{params.B }} $\textrm{ T}$ so that the face of the coil and the magnetic field are perpendicular. Find the magnitude of the emf induced in the coil if the magnetic field is reduced to zero uniformly in {{params.t }} $\textrm{ s}$.
 
 ### Answer Section
 

@@ -31,25 +31,21 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 6
-    l0: n
-    l1: k
-    l2: f
-    l3: p
+    expr: $s$ = $\dfrac{(k)}{(t + 7f)} $
     part1:
       ans1:
-        value: f = ${ \frac{k}{n} - 6 p}$
+        value: t = ${ - 7 f + \frac{k}{s}}$
       ans2:
-        value: f = ${\frac{6 n p}{k}}$
+        value: t = ${\frac{7 f s}{k}}$
       ans3:
-        value: f = ${\frac{k}{6 n p}}$
+        value: t = ${\frac{k}{7 f s}}$
       ans4:
-        value: f = ${\frac{n - 6 p}{k}}$
+        value: t = ${\frac{- 7 f + s}{k}}$
       ans5:
         value: Don't Know
 ---
 # {{ params.vars.title }}
-If $ {{params.l0}} = \frac{ {{params.l1}} }{({{params.l2}}+{{params.num}}{{params.l3}})} $
+If {{params.expr}}
 
 ## Part 1
 

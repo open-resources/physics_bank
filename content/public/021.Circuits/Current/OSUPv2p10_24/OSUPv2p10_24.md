@@ -71,19 +71,21 @@ part3:
     weight: 1
 substitutions:
   params:
-    R_b: '11.50'
-    R_s: '2200'
+    vars:
+      title: Electrocution Safety
+    R_b: '10.00'
+    R_s: '2300'
     V_s: '18.5'
-    I_max: '0.7'
+    I_max: '0.6'
 ---
 # {{ params.vars.title }}
-A person with body resistance between their hands of ${{ params.R_b }}\rm\ k \Omega$ accidentally grasps the terminals of a ${{ params.V_s }}\rm\ kV$ power supply.
+A person with body resistance between their hands of {{ params.R_b }} $\rm\ k \Omega$ accidentally grasps the terminals of a {{ params.V_s }} $\rm\ kV$ power supply.
 
 (Do NOT do this!)
 
 ## Part 1
 
-If the internal resistance of the power supply is ${{ params.R_s }}\rm\ \Omega$, what is the current through their body?
+If the internal resistance of the power supply is {{ params.R_s }} $\rm\ \Omega$, what is the current through their body?
 
 ### Answer Section
 
@@ -99,7 +101,7 @@ Please enter a numeric value.
 
 ## Part 3
 
-If the power supply is to be made safe by increasing its internal resistance, what should the internal resistance be for the maximum current in this situation to be ${{ params.I_max }}\rm\ mA$ or less?
+If the power supply is to be made safe by increasing its internal resistance, what should the internal resistance be for the maximum current in this situation to be {{ params.I_max }} $\rm\ mA$ or less?
 
 ### Answer Section
 

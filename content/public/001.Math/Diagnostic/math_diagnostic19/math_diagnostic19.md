@@ -30,23 +30,25 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: 245
+    a: $ \sin208$
     part1:
       ans1:
-        value: $\sin{-115}$
+        value: $\sin{-152}$
       ans2:
-        value: $\sin{115}$
+        value: $\sin{152}$
       ans3:
-        value: $\sin{-65}$
+        value: $\sin{-28}$
       ans4:
-        value: $\sin{65}$
+        value: $\sin{28}$
       ans5:
         value: Don't Know
 ---
 # {{ params.vars.title }}
-Assume angles are in degrees. $ \sin{({{params.a}})} $ is the same as:
+Assume angles are in degrees.
 
 ## Part 1
+
+{{params.a}} is the same as
 
 ### Answer Section
 

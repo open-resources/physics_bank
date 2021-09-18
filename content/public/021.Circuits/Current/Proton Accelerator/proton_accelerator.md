@@ -67,15 +67,15 @@ substitutions:
   params:
     vars:
       title: Proton Accelerator
-    r: 0.74
-    I: 37
-    n: 7.38
-    p: 16
+    r: 0.7
+    I: 40
+    n: 1.5
+    p: 10
 ---
 # {{ params.vars.title }}
 A high-energy proton accelerator produces a proton beam with a radius of {{params.r}} $\textrm{mm}$.
 The beam current is {{params.I}} $\rm\mu \rm{A}$ and is constant.
-The charge density of the beam is $n = {{params.n}} \times 10^{11}$ protons per cubic meter.
+The charge density of the beam is $n = $ {{params.n}} $ \times 10^{11}$ protons per cubic meter.
 
 ## Part 1
 

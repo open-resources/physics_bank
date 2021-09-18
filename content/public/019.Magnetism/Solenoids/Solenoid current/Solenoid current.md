@@ -44,16 +44,15 @@ substitutions:
   params:
     vars:
       title: Solenoid current
-    n: '8'
-    B: '3.2'
-    p: '-2'
+    n: '16'
+    B: $3.6\times 10^{-2}$
 ---
 # {{ params.vars.title }}
 A solenoid has {{ params.n }} turns per centimeter.
 
 ## Question Text
 
-What current will produce a magnetic field of {{ params.B }}$\times 10^{ {{params.p }} }\rm\ T$ within the solenoid?
+What current will produce a magnetic field of {{ params.B }} $\rm\ T$ within the solenoid?
 
 ### Answer Section
 

@@ -31,17 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 14
-    num: 2
-    denom: 8
+    expr: $x^{ -6\over 9}$
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt[8]{x^{2}}}\end{equation}
+        value: \begin{equation}\frac{1}{\sqrt[9]{x^{6}}}\end{equation}
       ans2:
-        value: \begin{equation}\sqrt[8]{x^{2}}\end{equation}
+        value: \begin{equation}\sqrt[9]{x^{6}}\end{equation}
       ans3:
-        value: \begin{equation}\sqrt[4]{x}\end{equation}
+        value: \begin{equation}x^{\frac{2}{3}}\end{equation}
       ans4:
-        value: \begin{equation}- \frac{1}{\sqrt[8]{x^{2}}}\end{equation}
+        value: \begin{equation}- \frac{1}{\sqrt[9]{x^{6}}}\end{equation}
       ans5:
         value: Do not know
 ---
@@ -49,7 +48,7 @@ substitutions:
 
 ## Part 1
 
-$x^{ -{{params.num}}\over {{params.denom}} }$ is equivalent to
+{{params.expr}} is equivalent to
 
 ### Answer Section
 

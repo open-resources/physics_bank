@@ -31,24 +31,23 @@ substitutions:
   params:
     vars:
       units: rad/s
-      name: Aliyah
+      name: Ximena
       title: Wheel of Fortune
-    w_i: 0.79
-    t: 6
-    w_int: 4
+    w_i: ${\pi \over 2} {rad\over s}$
+    t: 4
     part1:
       ans1:
-        value: 1.24
+        value: 3.7
       ans2:
-        value: 1.11
+        value: 1.92
       ans3:
-        value: 2.23
+        value: 3.85
       ans4:
-        value: $\pi$/4
+        value: $\pi$/2
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} wants to win a game of Wheel-of-Fortune.
-The grand prize is initially located at a position at the top of the wheel (shown) and {{ params.vars.name }} only wins if the wheel stops when the prize is at the position to the right ($\theta$ = 0).{{ params.vars.name }} notes that when another contestant set the wheel spinning at $w_i = {\pi \over {{params.w_int}} } {rad\over s}$, it takes {{params.t}} seconds to stop.
+The grand prize is initially located at a position at the top of the wheel (shown) and {{ params.vars.name }} only wins if the wheel stops when the prize is at the position to the right ($\theta$ = 0).{{ params.vars.name }} notes that when another contestant set the wheel spinning at $w_i = $ {{params.w_i}}, it takes {{params.t}} seconds to stop.
 
 ## Part 1
 

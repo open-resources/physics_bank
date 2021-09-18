@@ -1,5 +1,5 @@
 ---
-title: Jump across stream
+title: Jump Across Stream
 topic: Kinematics(2D and 3D)
 author: Jake Bobowski
 source: Final 2016 Q4 P2
@@ -94,14 +94,14 @@ part9:
 substitutions:
   params:
     vars:
-      title: Jump across stream V2
+      title: Jump Across Stream
       units: $m$
-    m: 221
-    w_s: 2.3
+    m: 105
+    w_s: 4.5
     h_s: 1.9
-    v_i: 4
-    v_j: 4
-    h_b: 3.3
+    v_i: 3
+    v_j: 2
+    h_b: 4.7
     part5:
       ans1:
         value: Yes, the bear makes it to the other side of the stream.
@@ -116,7 +116,7 @@ substitutions:
 # {{ params.vars.title }}
 A very bored {{params.m}} $kg$ bear decided to jump across a stream.
 The stream is {{params.w_s}} $m$ wide and the east bank of the stream is {{params.h_s}} $m$ higher than the west bank (where the bear starts).
-The bear can jump with an initial velocity $\overrightarrow{V_i} = {{params.v_i}}{m\over s}\hat{\imath}+{{params.v_j}} {m\over s}\hat{\jmath}$, and decides to start from {{params.h_b}} $m$ in the air, halfway up a sturdy tree.
+The bear can jump with an initial velocity $\overrightarrow{V_i} = $ {{params.v_i}}${m\over s}\hat{\imath}+$ {{params.v_j}} ${m\over s}\hat{\jmath}$, and decides to start from {{params.h_b}} $m$ in the air, halfway up a sturdy tree.
 
 ## Part 1
 
@@ -212,7 +212,7 @@ Use the following table as a reference.
 
 ## Part 9
 
-This question is much easier to do in the frame of an observer moving with velocity $\vec{u}  ={{params.v_i}}{m\over s}\hat{\imath}+0 {m\over s}\hat{\jmath}$. Describe why?
+This question is much easier to do in the frame of an observer moving with velocity $\vec{u}  = $ {{params.v_i}} ${m\over s}\hat{\imath} + $ 0 ${m\over s}\hat{\jmath}$. Describe why?
 
 ### Answer Section
 

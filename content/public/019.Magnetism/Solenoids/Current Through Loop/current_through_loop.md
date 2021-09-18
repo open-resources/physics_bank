@@ -45,17 +45,17 @@ substitutions:
   params:
     vars:
       title: Current Through Loop
-    N: 95
-    t: 17
-    s: 18
-    B: 0.518
+    N: 60
+    t: 3
+    s: 10
+    B: 0.591
 ---
 # {{ params.vars.title }}
 
 ## Question Text
 
-Find the current through a loop needed to create a maximum torque of ${{params.t}} \textrm{ N} \cdot \textrm{m}$.
-The loop has ${{params.N}}$ square turns that are ${{params.s}} \textrm{ cm}$ on a side and is in a uniform ${{params.B}} \textrm{ T}$ magnetic field.
+Find the current through a loop needed to create a maximum torque of {{params.t}} $\textrm{ N} \cdot \textrm{m}$.
+The loop has {{params.N}} square turns that are {{params.s}} $\textrm{ cm}$ on a side and is in a uniform {{params.B}} $\textrm{ T}$ magnetic field.
 
 ### Answer Section
 

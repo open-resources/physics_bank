@@ -76,11 +76,13 @@ part4:
     weight: 1
 substitutions:
   params:
-    P_T: '1820'
-    P_S: '1480'
-    P_L: '60.0'
-    I_F: '22.0'
-    V: '135.0'
+    vars:
+      title: Electrical Appliances Plugged into an Outlet
+    P_T: '1740'
+    P_S: '1380'
+    P_L: '65.0'
+    I_F: '24.0'
+    V: '145.0'
     prep: a
     part4:
       ans1:
@@ -89,7 +91,7 @@ substitutions:
         value: 'No'
 ---
 # {{ params.vars.title }}
-A ${{ params.P_T }}\rm\ W$ toaster, a ${{ params.P_S }}\rm\ W$ speaker, and {{ params.prep }} ${{ params.P_L }}\rm\ W$ lamp are plugged into the same outlet in a ${{ params.I_F }}\rm\ A$ fuse and ${{ params.V }}\rm\ V$ circuit.
+A {{ params.P_T }} $\rm\ W$ toaster, a {{ params.P_S }} $\rm\ W$ speaker, and {{ params.prep }} {{ params.P_L }} $\rm\ W$ lamp are plugged into the same outlet in a {{ params.I_F }} $\rm\ A$ fuse and {{ params.V }} $\rm\ V$ circuit.
 (The three devices are in parallel when plugged into the same socket.)
 
 ## Part 1
@@ -118,7 +120,7 @@ Please enter a numeric value.
 
 ## Part 4
 
-Will this combination blow the ${{ params.I_F }}\rm\ A$ fuse?
+Will this combination blow the {{ params.I_F }} $\rm\ A$ fuse?
 
 ### Answer Section
 

@@ -30,8 +30,7 @@ substitutions:
   params:
     vars:
       title: Math Practice 20
-    num: 7
-    denom: 6
+    expr: $\sin \Big({7\pi \over{6 }} \Big)$
     part1:
       ans1:
         value: \begin{equation}- \frac{\sqrt{3}}{2}\end{equation}
@@ -48,7 +47,7 @@ substitutions:
 
 ## Part 1
 
-$\sin$(${{ params.num }}\pi \over{ {{params.denom}} }$) is equal to
+{{ params.expr }} is equal to
 
 ### Answer Section
 

@@ -44,8 +44,8 @@ substitutions:
   params:
     vars:
       title: Power Climbing Stairs
-    W: 190
-    t: 4
+    W: 188
+    t: 3
     h: 8
 ---
 # {{ params.vars.title }}

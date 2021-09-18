@@ -48,8 +48,8 @@ substitutions:
   params:
     vars:
       title: Magnetic Force on Airplane
-    q: 0.302
-    v: 675
+    q: 0.059
+    v: 591
     part2:
       ans1:
         value: North
@@ -61,7 +61,7 @@ substitutions:
         value: West
 ---
 # {{ params.vars.title }}
-Aircrafts sometimes acquire small static charges. Suppose a supersonic jet has a ${{params.q}} \rm\ {\mu C}$ charge and flies due west at a speed of ${{params.v}} \textrm{ m/s}$ over Earths south magnetic pole, where the $\mathrm{8 \times 10^{-5}} \textrm{ T}$ magnetic field points straight down into the ground.
+Aircrafts sometimes acquire small static charges. Suppose a supersonic jet has a {{params.q}} $\rm\ {\mu C}$ charge and flies due west at a speed of {{params.v}} $\textrm{ m/s}$ over Earths south magnetic pole, where the $\mathrm{8 \times 10^{-5}} \textrm{ T}$ magnetic field points straight down into the ground.
 
 ## Part 1
 

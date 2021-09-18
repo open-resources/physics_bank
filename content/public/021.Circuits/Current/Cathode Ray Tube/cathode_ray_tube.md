@@ -37,8 +37,8 @@ substitutions:
   params:
     vars:
       title: Cathode Ray Tube
-    I: 34
-    t: 7
+    I: 25
+    t: 6
 ---
 # {{ params.vars.title }}
 A cathode ray tube (CRT) is a device that produces a focused beam of electrons in a vacuum.
@@ -47,7 +47,7 @@ The position of the bright spot on the screen can be adjusted by deflecting the 
 
 ## Question Text
 
-Consider a CRT with an electron beam average current of ${{params.I}}\rm\ \mu A$.
+Consider a CRT with an electron beam average current of {{params.I}} $\rm\ \mu A$.
 How many electrons strike the screen every {{params.t}} minutes?
 
 ### Answer Section

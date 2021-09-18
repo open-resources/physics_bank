@@ -30,26 +30,23 @@ part1:
 substitutions:
   params:
     vars:
-      title: Math Diagnostic 06
-    x1: 1
-    x2: 7
-    x3: 2
-    x4: 4
+      title: Math Diagnostic 6
+    eq: $\dfrac{x-2}{x+2}$ = $ \dfrac{x+1}{x-9}$
     part1:
       ans1:
-        value: -13/7
+        value: -8/7
       ans2:
-        value: -5/7
+        value: -5/14
       ans3:
-        value: '0.0714285714285714'
+        value: 8/3
       ans4:
-        value: 1/14
+        value: 5/14
 ---
 # {{ params.vars.title }}
 
 ## Part 1
 
-Solve the equation: $\frac{x-{{ params.x1}}}{x+{{ params.x2 }}} = \frac{x+{{ params.x3}}}{x-{{ params.x4 }}}$
+Solve the equation: {{ params.eq }}
 
 ### Answer Section
 

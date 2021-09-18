@@ -43,16 +43,16 @@ substitutions:
   params:
     vars:
       title: Square Coil
-    N: '50'
-    l: '20'
+    N: '25'
+    l: '25'
     B: '0.055'
-    E: '40'
+    E: '35'
 ---
 # {{ params.vars.title }}
 
 ## Question Text
 
-A flat, square coil of ${{params.N }}$ turns that has sides of length ${{params.l }}\rm\ {cm}$ is rotating in a magnetic field of strength ${{params.B }}\rm\ {T}$. If the maximum emf produced in the coil is ${{params.E }}\textrm{ mV}$, what is the angular velocity of the coil?
+A flat, square coil of {{params.N }} turns that has sides of length {{params.l }} $\rm\ {cm}$ is rotating in a magnetic field of strength {{params.B }} $\rm\ {T}$. If the maximum emf produced in the coil is {{params.E }} $\textrm{ mV}$, what is the angular velocity of the coil?
 
 ### Answer Section
 

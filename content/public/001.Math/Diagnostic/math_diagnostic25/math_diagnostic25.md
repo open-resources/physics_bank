@@ -30,23 +30,21 @@ substitutions:
   params:
     vars:
       title: Math Practice Q25
-    a: 7
-    b: 10
-    c: 6
+    expr: $\dfrac{ 4-e^{(-6x)}}{5-x}$
     part1:
       ans1:
-        value: '1'
+        value: 3/5
       ans2:
         value: Negative Infinity
       ans3:
-        value: 1.1666666666666667
+        value: 0.8
       ans4:
-        value: 7
+        value: 4
       ans5:
         value: Don't Know
 ---
 # {{ params.vars.title }}
-As x tends to zero the function $\frac{ {{params.a}}- e ^ {-{{params.b}}x} }{ {{params.c}}-x }$ tends to the limit:
+As x tends to zero the function {{params.expr}} tends to the limit:
 
 ## Part 1
 

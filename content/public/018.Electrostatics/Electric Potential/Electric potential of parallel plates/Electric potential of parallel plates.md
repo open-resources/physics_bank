@@ -46,15 +46,14 @@ substitutions:
   params:
     vars:
       title: Electric potential of parallel plates
-    E: '6.60'
-    p: '3'
-    V: '7.0'
+    f_s: $7.00\times 10^{3}$
+    V: '20.0'
 ---
 # {{ params.vars.title }}
 
 ## Question Text
 
-How far apart are two conducting plates that have an electric field strength of ${{ params.E }}\times 10^{ {{params.p}} }\rm\ V/m$ between them, if their potential difference is ${{ params.V }}\rm\ kV$?
+How far apart are two conducting plates that have an electric field strength of {{ params.f_s }} $\rm\ V/m$ between them, if their potential difference is {{ params.V }} $\rm\ kV$?
 
 ### Answer Section
 

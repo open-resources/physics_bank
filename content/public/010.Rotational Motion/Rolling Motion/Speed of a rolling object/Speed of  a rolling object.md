@@ -59,11 +59,13 @@ substitutions:
     vars:
       title: Speed of a Rolling Object
       units: $m/s$
-    h: 16.9
+    h: 6.05
 ---
 # {{ params.vars.title }}
 One end of a massless string is attached to a massless axle that passes through the centre of mass of an object (mass $m$) that has a circular cross-section (radius $R$)  and  rolls  without  slipping  up  the  incline.
-The  string  passes  over a massless, frictionless pulley and a block (also of mass $m$) is suspended from the opposite end of the string as shown in the figure.In this problem you are to find the speed of the rolling object after the hanging mass has fallen by {{ params.h }} $m$ (the system is released from rest).
+The  string  passes  over a massless, frictionless pulley and a block (also of mass $m$) is suspended from the opposite end of the string as shown in the figure.
+
+In this problem you are to find the speed of the rolling object after the hanging mass has fallen by {{ params.h }} $m$ (the system is released from rest).
 
 <img longdesc="Speed of a rolling object.md#desc" alt="Figure of the system described in the question text." src="q9_2013practiceFinal.png">
 
