@@ -168,6 +168,8 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/A flying arrow/A
       flying arrow
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/apples_in_truck/apples_in_truck
+  - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Relative Motion
+      of Two Planes/relative_motion_of_two_planes
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/AIrcraft Carrier/aircraft_carrier
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Rutland Rd/rutland_rd
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Relative Motion
@@ -180,6 +182,9 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Rotating Bar/rotating_bar
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/jump_across_stream/jump_across_stream
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Distance_Between_Two_People/Distance_Between_Two_People
+  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Ball rolling down
+      an incline/Ball rolling down an incline
+  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Rocket/Rocket
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Magnitude of a particle
       vector/Magnitude of a particle vector
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Ball Launched from
@@ -238,6 +243,8 @@ parts:
   - file: content/public/006.Force/Topic Outcome/Pendulum on a downhill cart/pendulum_on_a_downhill_cart
   - file: content/public/006.Force/Topic Outcome/Springs On a Disk/Springs On a Disk
   - file: content/public/006.Force/Topic Outcome/Window Washer/window_washer
+  - file: content/public/006.Force/Topic Outcome/Drawing water from a well/Drawing
+      water from a well
   - file: content/public/006.Force/Topic Outcome/Coefficient_Of_Friction/Coefficient_Of_Friction
   - file: content/public/006.Force/Topic Outcome/Rotating ball/Rotating ball
   - file: content/public/006.Force/Topic Outcome/Frictionless Air Track/Frictionless
@@ -354,6 +361,8 @@ parts:
   - file: content/public/008.Energy/Kinetic Energy/KE_testmass/KE_testmass
   - file: content/public/008.Energy/Kinetic Energy/Kinetic Energy of a Simple Pendulum
       System/Kinetic Energy of a Simple Pendulum System
+  - file: content/public/008.Energy/Topic Outcome/A disk and a paintball/A disk and
+      a paintball
   - file: content/public/008.Energy/Topic Outcome/spring_oscillations/spring_oscillations
   - file: content/public/008.Energy/Topic Outcome/force_vs_position/force_vs_position
   - file: content/public/008.Energy/Topic Outcome/frictionless_track/frictionless_track
@@ -365,6 +374,7 @@ parts:
   - file: content/public/009.Work/Work/Lowering_bucket_3/Lowering_bucket_3
   - file: content/public/009.Work/Work/Lowering_bucket_1/lowering_bucket_1
   - file: content/public/009.Work/Work/Lowering_bucket_2/Lowering_bucket_2
+  - file: content/public/009.Work/Power/Power of a Sprinter/Power of a Sprinter
   - file: content/public/009.Work/Power/Energy Expenditure/Energy Expenditure
   - file: content/public/009.Work/Power/Power Climbing Stairs/Power Climbing Stairs
   - file: content/public/009.Work/Topic Outcome/Work_Done_By_Force/Work_Done_By_Force
