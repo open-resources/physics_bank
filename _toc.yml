@@ -141,6 +141,7 @@ parts:
   - file: content/public/004.Kinematics(1D)/NotationForDynamics/NotationForDynamics
 - caption: Kinematics(2D and 3D)
   chapters:
+  - file: content/public/005.Kinematics(2D and 3D)/Parcel from Aircraft 3D/parcel_from_aircraft_3d
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Cat in a Laundry
       Basket/Cat in a Laundry Basket
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Slanted Table/slanted_table
@@ -160,13 +161,20 @@ parts:
       ball/Shooting a steel ball
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Velocity, Acceleration
       and Angle of Particle with Curvilinear motion/velocity_acc_angle_of_particle_with_curvilinear_motion
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Velocity and
+      Acceleration of Particle in Curvilinear Motion/velocity_and_acceleration_of_particle_in_curvilinear_motion
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/A flying arrow/A
       flying arrow
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/apples_in_truck/apples_in_truck
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/AIrcraft Carrier/aircraft_carrier
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Rutland Rd/rutland_rd
+  - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Relative Motion
+      on a Curve/relative_motion_on_a_curve
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Velocity of a Falcon/Velocity
       of a Falcon
+  - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Relative Motion
+      of Fighter Jetts/relative_motion_of_fighter_jetts
+  - file: content/public/005.Kinematics(2D and 3D)/Cart Raising a Load/cart_raising_a_load
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/jump_across_stream/jump_across_stream
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Distance_Between_Two_People/Distance_Between_Two_People
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Magnitude of a particle
@@ -175,6 +183,7 @@ parts:
       Horizontal Cliff/Ball Launched from Horizontal cliff
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Supply_plane/Supply_plane
   - file: content/public/005.Kinematics(2D and 3D)/Plane Launch Polar Coordinates/plane_launch_polar_coords
+  - file: content/public/005.Kinematics(2D and 3D)/Raising a Package/raising_a_package
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Angular_Acceleration/Angular_Acceleration
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Acceleration
       around a turn/Acceleration around a turn
@@ -192,6 +201,7 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Speed_Skating/Speed_Skating
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Cars around
       a bend/cards_around_bend
+  - file: content/public/005.Kinematics(2D and 3D)/Aircraft Liftoff 3D/aircraft_liftoff_3d
 - caption: Force
   chapters:
   - file: content/public/006.Force/Equilibrium/Two blocks connected by a string/Two
@@ -219,7 +229,9 @@ parts:
   - file: content/public/006.Force/Topic Outcome/spring_on_incline/spring_on_incline
   - file: content/public/006.Force/Topic Outcome/Mass inside rotating cone/Mass inside
       rotating cone
+  - file: content/public/006.Force/Topic Outcome/Pendulum on a downhill cart/pendulum_on_a_downhill_cart
   - file: content/public/006.Force/Topic Outcome/Springs On a Disk/Springs On a Disk
+  - file: content/public/006.Force/Topic Outcome/Window Washer/window_washer
   - file: content/public/006.Force/Topic Outcome/Coefficient_Of_Friction/Coefficient_Of_Friction
   - file: content/public/006.Force/Topic Outcome/Rotating ball/Rotating ball
   - file: content/public/006.Force/Topic Outcome/Frictionless Air Track/Frictionless
@@ -271,7 +283,11 @@ parts:
       Balls
   - file: content/public/007.Momentum and Impulse/Collisions/Head-on collision of
       carts/Head-on collision of carts
+  - file: content/public/007.Momentum and Impulse/Collisions/BulletCart Energy Loss/BulletCart
+      Energy Loss
   - file: content/public/007.Momentum and Impulse/Collisions/Split_Blocks/Split_Blocks
+  - file: content/public/007.Momentum and Impulse/2D Collisions/Snowboarder Impact
+      Landing/Snowboarder Impact Landing
   - file: content/public/007.Momentum and Impulse/2D Collisions/light_heavy_collision/light_heavy_collision
   - file: content/public/007.Momentum and Impulse/2D Collisions/billiards_collision/billiards_collision
   - file: content/public/007.Momentum and Impulse/2D Collisions/collision_of_carts/collision_of_carts
@@ -283,6 +299,8 @@ parts:
       Collision
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Collisions_and_Isolated_Systems_Graphs/Collisions_and_Isolated_Systems_Graphs
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Collision_In_Outer_Space/Collision_In_Outer_Space
+  - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Marble
+      in a Bowl/Marble in a Bowl
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/System_Open_or_Closed/System_Open_or_Closed
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Explosions_and_Velocity/Explosions_and_Velocity
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Raindrops_Collision/raindrops_collision
@@ -310,6 +328,10 @@ parts:
   - file: content/public/008.Energy/Conservation of Energy/Compressed_Spring_To_Launch_Mass/Compressed_Spring_To_Launch_Mass
   - file: content/public/008.Energy/Conservation of Energy/Package on a hill/Package
       on a Hill
+  - file: content/public/008.Energy/Conservation of Energy/Spring Potential Energy
+      Rail 2/Spring Potential Energy Rail 2
+  - file: content/public/008.Energy/Conservation of Energy/Log up a Hill/Log up a
+      Hill
   - file: content/public/008.Energy/Conservation of Energy/Cut The Rope/Cut The Rope
   - file: content/public/008.Energy/Exploding_Asteroid/Exploding_Asteroid
   - file: content/public/008.Energy/Potential Energy/Collision of cart with spring/Collision
