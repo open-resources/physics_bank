@@ -309,6 +309,8 @@ parts:
       in a Bowl/Marble in a Bowl
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/System_Open_or_Closed/System_Open_or_Closed
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Explosions_and_Velocity/Explosions_and_Velocity
+  - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Marble
+      in a Funnel/Marble in a Funnel
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Raindrops_Collision/raindrops_collision
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Flying
       Squid/flying_squid
