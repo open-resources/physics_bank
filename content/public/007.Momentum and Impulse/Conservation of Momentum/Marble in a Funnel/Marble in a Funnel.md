@@ -1,14 +1,12 @@
 ---
-title: Raising a Package
-topic: Kinematics(2D and 3D)
+title: Marble in a Funnel
+topic: Momentum and Impulse
 author: Peyman Yousefi
-source: APSC 181, Lecture 13, Q1
-template_version: 1.3
+source: APSC 181, Lecture 23, Q2
+template_version: 1.2
 attribution: standard
-partialCredit: true
-singleVariant: false
 outcomes:
-- 5.9.1.0
+- 7.5.3.0
 difficulty:
 - undefined
 randomization:
@@ -20,37 +18,40 @@ span:
 length:
 - undefined
 tags:
-- AP
 - APSC 181 - LA
+- JR
 assets:
-- L13Q1.png
+- Marble in a Funnel.png
 part1:
   type: number-input
   pl-customizations:
-    label: $h=$
-    suffix: $mm$
     weight: 1
     allow-blank: true
+    label: $\theta= $
+    suffix: $^{\circ}$
+    comparison: relabs
     rtol: 0.02
 substitutions:
   params:
     vars:
-      title: Raising a Package
-      units: mm
-    v_a: 330
-    t: 5
+      title: Marble in a Funnel
+    r1: 1.13
+    vo: 0.35
+    r2: 0.24
+    ad: 28
 ---
 # {{ params.vars.title }}
+<img src="Marble in a Funnel.png" width=400>
 
-## Question Text
+A marble is launched with a velocity of {{params.vo}}m/s horizontally in a funnel.
+Determine the angle $\theta$ which its velocity makes with the horizontal as the marble passes level O-O in the funnel.
+$R = {{params.r1}}m$, $R2 = {{params.r2}}m$, $\alpha= {{params.ad}}^\circ$
 
-<img src="L13Q1.png" width=60%>
-
-How far does the weight $W$ rise in {{params.t}} seconds if the motor wraps the cable at a constant rate of ${{params.v_a}} mm/s$?
+## Part 1
 
 ### Answer Section
 
-Please enter an integer value in ${{ params.vars.units }}$.
+Please enter in a numeric value in $^\circ$.
 
 ## Attribution
 

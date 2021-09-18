@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $p$ = $\dfrac{(l)}{(g + 4m)} $
+    expr: $q$ = $\dfrac{(o)}{(z + 6e)} $
     part1:
       ans1:
-        value: g = ${ \frac{l}{p} - 4 m}$
+        value: z = ${ - 6 e + \frac{o}{q}}$
       ans2:
-        value: g = ${\frac{4 m p}{l}}$
+        value: z = ${\frac{6 e q}{o}}$
       ans3:
-        value: g = ${\frac{l}{4 m p}}$
+        value: z = ${\frac{o}{6 e q}}$
       ans4:
-        value: g = ${\frac{- 4 m + p}{l}}$
+        value: z = ${\frac{- 6 e + q}{o}}$
       ans5:
         value: Don't Know
 ---
