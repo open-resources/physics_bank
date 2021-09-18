@@ -54,8 +54,8 @@ substitutions:
   params:
     vars:
       title: Field due to parallel currents
-    I1: '20.0'
-    I2: '25.0'
+    I1: '15.0'
+    I2: '20.0'
     r1: '5.0'
     r2: '15.0'
     part2:

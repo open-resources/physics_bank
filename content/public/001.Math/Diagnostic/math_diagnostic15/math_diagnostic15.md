@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $8^{6} $=$ 262144$
+    expr: $7^{4} $=$ 2401$
     part1:
       ans1:
-        value: $log_8262144 = 6$
+        value: $log_72401 = 4$
       ans2:
-        value: $log_86 = 262144$
+        value: $log_74 = 2401$
       ans3:
-        value: $log_2621446 = 8$
+        value: $log_24014 = 7$
       ans4:
-        value: $log_6262144 = 8$
+        value: $log_42401 = 7$
       ans5:
         value: Don't Know
 ---

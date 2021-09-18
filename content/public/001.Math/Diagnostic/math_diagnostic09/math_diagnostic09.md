@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -7
-    l0: p
-    l1: m
-    l2: e
-    l3: c
+    num: -10
+    l0: k
+    l1: f
+    l2: g
+    l3: j
     part1:
       ans1:
-        value: e = ${ 7 c + \frac{m}{p}}$
+        value: g = ${ \frac{f}{k} + 10 j}$
       ans2:
-        value: e = ${- \frac{7 c p}{m}}$
+        value: g = ${- \frac{10 j k}{f}}$
       ans3:
-        value: e = ${- \frac{m}{7 c p}}$
+        value: g = ${- \frac{f}{10 j k}}$
       ans4:
-        value: e = ${\frac{7 c + p}{m}}$
+        value: g = ${\frac{10 j + k}{f}}$
       ans5:
         value: Don't Know
 ---

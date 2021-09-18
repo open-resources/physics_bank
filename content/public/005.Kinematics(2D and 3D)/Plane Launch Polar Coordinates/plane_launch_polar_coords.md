@@ -38,10 +38,10 @@ substitutions:
   params:
     vars:
       title: Plane launch Polar Coordinates
-    d: 429
-    r_dot: 177
-    angle1: 53
-    angle2: 43
+    d: 425
+    r_dot: 189
+    angle1: 49
+    angle2: 30
 ---
 # {{ params.vars.title }}
 <img src="L7Q1.png" width=90%>

@@ -33,21 +33,21 @@ substitutions:
       vehicle: semi-truck
       units: $m/s$
     i_1: 4
-    i_2: 1
-    j_1: 10
+    i_2: 2
+    j_1: 9
     j_2: 2
     s: 1
     part1:
       ans1:
-        value: (7$\hat{\imath}$ - 4$\hat{\jmath}$)
+        value: (6$\hat{\imath}$ - 3$\hat{\jmath}$)
       ans2:
-        value: (7$\hat{\imath}$ + 6$\hat{\jmath}$)
+        value: (6$\hat{\imath}$ + 6$\hat{\jmath}$)
       ans3:
-        value: (3$\hat{\imath}$ + 12$\hat{\jmath}$)
+        value: (2$\hat{\imath}$ + 11$\hat{\jmath}$)
       ans4:
-        value: (3$\hat{\imath}$ - 4$\hat{\jmath}$)
+        value: (2$\hat{\imath}$ - 3$\hat{\jmath}$)
       ans5:
-        value: (7$\hat{\imath}$ + 12$\hat{\jmath}$)
+        value: (6$\hat{\imath}$ + 11$\hat{\jmath}$)
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }}'s position as a function of time is given by $\vec{r} =$ ({{ params.i_1 }}$t^2 -$ {{ params.i_2 }}$t)\hat{\imath} + ($ {{ params.j_1 }}$t^{-1}+$ {{ params.j_2 }} $t^3)\hat{\jmath}$ where $\vec{r}$ is in meters and $t$ is in seconds.

@@ -46,8 +46,8 @@ substitutions:
   params:
     vars:
       title: Position, Velocity and Acceleration of a Particle
-    s0: 31
-    t: 30
+    s0: 18
+    t: 13
 ---
 # {{ params.vars.title }}
 The velocity of a particle which moves along the X axis is given by $v = 4 - 8t + 10t^2$, where $t$ is in seconds

@@ -30,14 +30,14 @@ substitutions:
   params:
     vars:
       title: Uncertainty of Coefficient
-      name: Emilia
+      name: Mateo
       units: $kg/s$
-    m: 113
-    v: 2.3
-    b: 0.77
+    m: 139
+    v: 2.1
+    b: 0.74
     part1:
       ans1:
-        value: ' $\pm$ 0.1'
+        value: ' $\pm$ 0.11'
       ans2:
         value: ' $\pm$ 0.08'
       ans3:

@@ -45,8 +45,8 @@ substitutions:
     vars:
       title: Moving Rod
     r: '3'
-    v: '2'
-    B: '1.25'
+    v: '6'
+    B: '1.50'
     a: '4'
     part2:
       ans1:
