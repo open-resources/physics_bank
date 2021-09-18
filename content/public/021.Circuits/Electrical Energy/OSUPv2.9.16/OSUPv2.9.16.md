@@ -32,7 +32,7 @@ substitutions:
       name: Lorenzo
     part1:
       ans1:
-        value: charge
+        value: energy
       ans2:
         value: current
       ans3:
@@ -40,7 +40,7 @@ substitutions:
       ans4:
         value: voltage
       ans5:
-        value: energy
+        value: charge
 ---
 # {{ params.vars.title }}
 

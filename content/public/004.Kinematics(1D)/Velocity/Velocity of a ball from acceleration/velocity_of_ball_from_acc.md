@@ -31,7 +31,7 @@ substitutions:
     vars:
       title: Velocity of a ball from acceleration
       units: m/s
-    v0: 29
+    v0: 22
     s0: 8
     k: 0.03
     s: 11

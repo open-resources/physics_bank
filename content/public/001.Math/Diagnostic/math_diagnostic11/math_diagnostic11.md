@@ -33,14 +33,14 @@ substitutions:
       title: Diagnostic Q11
     a: 3
     b: 8
-    c: 2
+    c: 4
     part1:
       ans1:
-        value: x = -2.4, x = -0.28
+        value: x = -2.0, x = -0.67
       ans2:
-        value: x = 2.4, x = 0.28
+        value: x = 2.0, x = 0.67
       ans3:
-        value: x = 8, x = 2
+        value: x = 8, x = 4
       ans4:
         value: x = 3, x = 8
       ans5:

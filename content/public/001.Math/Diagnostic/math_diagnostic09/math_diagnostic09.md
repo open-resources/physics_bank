@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $l$ = $\dfrac{(c)}{(r + 4v)} $
+    expr: $i$ = $\dfrac{(f)}{(y - 3j)} $
     part1:
       ans1:
-        value: r = ${ \frac{c}{l} - 4 v}$
+        value: y = ${ \frac{f}{i} + 3 j}$
       ans2:
-        value: r = ${\frac{4 l v}{c}}$
+        value: y = ${- \frac{3 i j}{f}}$
       ans3:
-        value: r = ${\frac{c}{4 l v}}$
+        value: y = ${- \frac{f}{3 i j}}$
       ans4:
-        value: r = ${\frac{l - 4 v}{c}}$
+        value: y = ${\frac{i + 3 j}{f}}$
       ans5:
         value: Don't Know
 ---

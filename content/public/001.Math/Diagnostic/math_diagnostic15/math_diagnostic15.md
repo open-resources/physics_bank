@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $4^{7} $=$ 16384$
+    expr: $7^{1} $=$ 7$
     part1:
       ans1:
-        value: $log_416384 = 7$
+        value: $log_77 = 1$
       ans2:
-        value: $log_47 = 16384$
+        value: $log_71 = 7$
       ans3:
-        value: $log_163847 = 4$
+        value: $log_71 = 7$
       ans4:
-        value: $log_716384 = 4$
+        value: $log_17 = 7$
       ans5:
         value: Don't Know
 ---
