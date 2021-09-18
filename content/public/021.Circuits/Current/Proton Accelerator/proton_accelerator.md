@@ -67,10 +67,10 @@ substitutions:
   params:
     vars:
       title: Proton Accelerator
-    r: 0.83
-    I: 47
-    n: 2.46
-    p: 12
+    r: 0.81
+    I: 38
+    n: 9.93
+    p: 42
 ---
 # {{ params.vars.title }}
 A high-energy proton accelerator produces a proton beam with a radius of {{params.r}} $\textrm{mm}$.

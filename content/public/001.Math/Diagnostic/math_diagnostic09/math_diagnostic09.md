@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -8
-    l0: u
-    l1: q
-    l2: b
-    l3: h
+    num: -6
+    l0: s
+    l1: j
+    l2: i
+    l3: c
     part1:
       ans1:
-        value: b = ${ 8 h + \frac{q}{u}}$
+        value: i = ${ 6 c + \frac{j}{s}}$
       ans2:
-        value: b = ${- \frac{8 h u}{q}}$
+        value: i = ${- \frac{6 c s}{j}}$
       ans3:
-        value: b = ${- \frac{q}{8 h u}}$
+        value: i = ${- \frac{j}{6 c s}}$
       ans4:
-        value: b = ${\frac{8 h + u}{q}}$
+        value: i = ${\frac{6 c + s}{j}}$
       ans5:
         value: Don't Know
 ---

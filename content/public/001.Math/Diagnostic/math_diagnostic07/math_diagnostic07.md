@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 10x - 2y = 6
-    formula2: 8x + 5y = 45
+    formula1: 2x - 1y = 44
+    formula2: 10x + 4y = 35
     part1:
       ans1:
-        value: ' x =20/11, y =67/11'
+        value: ' x =211/18, y =-185/9'
       ans2:
-        value: ' x =67/11, y =20/11'
+        value: ' x =-185/9, y =211/18'
       ans3:
-        value: ' x =-20/11, y =-67/11'
+        value: ' x =-211/18, y =185/9'
       ans4:
-        value: ' x =-67/11, y =-20/11'
+        value: ' x =185/9, y =-211/18'
       ans5:
         value: Don't Know
 ---

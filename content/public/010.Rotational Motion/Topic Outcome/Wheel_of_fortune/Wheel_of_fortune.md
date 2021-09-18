@@ -31,7 +31,7 @@ substitutions:
   params:
     vars:
       units: rad/s
-      name: Lorenzo
+      name: Emilia
       title: Wheel of Fortune
     w_i: 0.79
     t: 4

@@ -1,51 +1,49 @@
 ---
-title: Collision of a Cart with a Spring
-topic: Energy
-author: Jake Bobowski
-source: 2015 Final Q11
-template_version: 1.3
+title: Ball in the wind
+topic: Kinematics(2D and 3D)
+author: Peyman Yousefi
+source: original
+template_version: 1.1
 attribution: standard
-partialCredit: true
-singleVariant: false
 outcomes:
-- 8.3.3.0
+- 5.5.1.0
 difficulty:
 - undefined
 randomization:
 - undefined
 taxonomy:
 - undefined
-span:
-- undefined
-length:
-- undefined
 tags:
-- PW
-assets: null
+- AP
+- APSC 181 - LA
+assets:
+- L5Q4.png
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $v= $
-    suffix: $m/s$
-    comparison: sigfig
-    digits: 2
+    label: $\theta= $
+    suffix: ${\circ}$
+    rtol: 0.02
 substitutions:
   params:
     vars:
-      title: Collision of a Cart with a Spring
-      units: m/s
-    m: 45
-    k: 343
-    x: 21
+      title: Ball in the wind
+      units: ${\circ}$
+    v0: 18
+    wind_speed: 0.5
 ---
 # {{ params.vars.title }}
-A  {{ params.m }}  $kg$  runaway  grocery  cart  runs  into  a  spring  with a spring  constant $k = $  {{ params.k }}  $N/m$  and compresses it by {{ params.x }} $cm$ before momentarily coming to rest.
+A child throws a ball upward with a speed of $v\_{0} = {{params.v0}} m/s$.
+A gust of wind imparts a horizontal acceleration of ${{params.wind_speed}} m/s^2$ to the left.
+
+<img src="L5Q4.png" width=400>
 
 ## Question Text
 
-What was the speed of the cart just before it hit the spring?
+At what angle must the ball be thrown so that it returns to the child's hand?
+Assume that the wind does not affect vertical motion.
 
 ### Answer Section
 
