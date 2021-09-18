@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{15x + 20y }{ 5 }$
+    expr: $\dfrac{24x + 56y }{ -8 }$
     part1:
       ans1:
-        value: $3 x + 4 y$
+        value: $- 3 x - 7 y$
       ans2:
-        value: $\dfrac{3x + 4y}{5}$
+        value: $\dfrac{-3x - 7y}{-8}$
       ans3:
-        value: $4x + 3y$
+        value: $-7x - 3y$
       ans4:
-        value: $15x + 20y$
+        value: $24x - 56y$
       ans5:
         value: Don't know.
 ---

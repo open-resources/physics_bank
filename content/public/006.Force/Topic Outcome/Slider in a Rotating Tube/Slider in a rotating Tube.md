@@ -44,12 +44,12 @@ substitutions:
   params:
     vars:
       title: Slider in a Rotating Tube
-    m: 0.5
-    w: 9
-    wdot: -6
-    r: 0.7
-    rdot: -3.1
-    rddot: 2.2
+    m: 0.11
+    w: 8
+    wdot: -4
+    r: 0.31
+    rdot: -4.5
+    rddot: 3.8
 ---
 # {{ params.vars.title }}
 <img src="Slider in a rotating Tube.png" width=400>

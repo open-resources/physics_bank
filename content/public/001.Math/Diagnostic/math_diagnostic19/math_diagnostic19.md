@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin251$
+    a: $ \sin235$
     part1:
       ans1:
-        value: $\sin{-109}$
+        value: $\sin{-125}$
       ans2:
-        value: $\sin{109}$
+        value: $\sin{125}$
       ans3:
-        value: $\sin{-71}$
+        value: $\sin{-55}$
       ans4:
-        value: $\sin{71}$
+        value: $\sin{55}$
       ans5:
         value: Don't Know
 ---

@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $5^{8} $=$ 390625$
+    expr: $5^{6} $=$ 15625$
     part1:
       ans1:
-        value: $log_5390625 = 8$
+        value: $log_515625 = 6$
       ans2:
-        value: $log_58 = 390625$
+        value: $log_56 = 15625$
       ans3:
-        value: $log_3906258 = 5$
+        value: $log_156256 = 5$
       ans4:
-        value: $log_8390625 = 5$
+        value: $log_615625 = 5$
       ans5:
         value: Don't Know
 ---

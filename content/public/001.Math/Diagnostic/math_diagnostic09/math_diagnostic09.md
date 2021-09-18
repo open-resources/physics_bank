@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $r$ = $\dfrac{(n)}{(m + 7h)} $
+    expr: $y$ = $\dfrac{(x)}{(m - 7n)} $
     part1:
       ans1:
-        value: m = ${ - 7 h + \frac{n}{r}}$
+        value: m = ${ 7 n + \frac{x}{y}}$
       ans2:
-        value: m = ${\frac{7 h r}{n}}$
+        value: m = ${- \frac{7 n y}{x}}$
       ans3:
-        value: m = ${\frac{n}{7 h r}}$
+        value: m = ${- \frac{x}{7 n y}}$
       ans4:
-        value: m = ${\frac{- 7 h + r}{n}}$
+        value: m = ${\frac{7 n + y}{x}}$
       ans5:
         value: Don't Know
 ---

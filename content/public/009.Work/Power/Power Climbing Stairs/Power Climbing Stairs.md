@@ -44,7 +44,7 @@ substitutions:
   params:
     vars:
       title: Power Climbing Stairs
-    W: 179
+    W: 153
     t: 3
     h: 13
 ---
