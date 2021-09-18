@@ -29,7 +29,7 @@ part1:
 substitutions:
   params:
     vars:
-      name: Santiago
+      name: Emilia
       vehicle: a skateboard
       units: m
       title: Distance travelled

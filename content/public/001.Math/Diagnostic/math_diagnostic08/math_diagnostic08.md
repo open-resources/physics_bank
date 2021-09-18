@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-8x + 14y}{2}$
+    expr: $\dfrac{-42x + 56y}{7}$
     part1:
       ans1:
-        value: $- 4 x + 7 y$
+        value: $- 6 x + 8 y$
       ans2:
-        value: $\dfrac{-4x + 7y}{2}$
+        value: $\dfrac{-6x + 8y}{7}$
       ans3:
-        value: $7x - 4y$
+        value: $8x - 6y$
       ans4:
-        value: $-8x + 14y$
+        value: $-42x + 56y$
       ans5:
         value: Don't know.
 ---

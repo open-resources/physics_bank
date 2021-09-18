@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: 2
-    l0: n
-    l1: f
-    l2: x
-    l3: t
+    num: -7
+    l0: p
+    l1: m
+    l2: e
+    l3: c
     part1:
       ans1:
-        value: x = ${ \frac{f}{n} - 2 t}$
+        value: e = ${ 7 c + \frac{m}{p}}$
       ans2:
-        value: x = ${\frac{2 n t}{f}}$
+        value: e = ${- \frac{7 c p}{m}}$
       ans3:
-        value: x = ${\frac{f}{2 n t}}$
+        value: e = ${- \frac{m}{7 c p}}$
       ans4:
-        value: x = ${\frac{n - 2 t}{f}}$
+        value: e = ${\frac{7 c + p}{m}}$
       ans5:
         value: Don't Know
 ---

@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $2^{5} $=$ 32$
+    expr: $8^{6} $=$ 262144$
     part1:
       ans1:
-        value: $log_232 = 5$
+        value: $log_8262144 = 6$
       ans2:
-        value: $log_25 = 32$
+        value: $log_86 = 262144$
       ans3:
-        value: $log_325 = 2$
+        value: $log_2621446 = 8$
       ans4:
-        value: $log_532 = 2$
+        value: $log_6262144 = 8$
       ans5:
         value: Don't Know
 ---

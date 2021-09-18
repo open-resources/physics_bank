@@ -47,9 +47,9 @@ substitutions:
   params:
     vars:
       title: Equivalent Capacitance
-    a: '9'
-    b: '3.0'
-    c: '0.1'
+    a: '8'
+    b: '4.5'
+    c: '0.8'
 ---
 # {{ params.vars.title }}
 
