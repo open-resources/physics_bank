@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -2
-    l0: n
-    l1: c
-    l2: s
-    l3: q
+    num: -7
+    l0: l
+    l1: x
+    l2: y
+    l3: f
     part1:
       ans1:
-        value: s = ${ \frac{c}{n} + 2 q}$
+        value: y = ${ 7 f + \frac{x}{l}}$
       ans2:
-        value: s = ${- \frac{2 n q}{c}}$
+        value: y = ${- \frac{7 f l}{x}}$
       ans3:
-        value: s = ${- \frac{c}{2 n q}}$
+        value: y = ${- \frac{x}{7 f l}}$
       ans4:
-        value: s = ${\frac{n + 2 q}{c}}$
+        value: y = ${\frac{7 f + l}{x}}$
       ans5:
         value: Don't Know
 ---

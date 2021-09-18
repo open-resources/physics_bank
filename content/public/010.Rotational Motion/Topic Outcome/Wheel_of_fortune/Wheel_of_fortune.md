@@ -33,18 +33,18 @@ substitutions:
       units: rad/s
       name: Emilia
       title: Wheel of Fortune
-    w_i: 1.05
+    w_i: 1.57
     t: 4
-    w_int: 3
+    w_int: 2
     part1:
       ans1:
-        value: 2.47
+        value: 3.7
       ans2:
-        value: 1.57
+        value: 1.92
       ans3:
-        value: 3.15
+        value: 3.85
       ans4:
-        value: $\pi$/3
+        value: $\pi$/2
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} wants to win a game of Wheel-of-Fortune.
