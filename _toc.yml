@@ -216,6 +216,7 @@ parts:
   - file: content/public/006.Force/Topic Outcome/Rotating ball/Rotating ball
   - file: content/public/006.Force/Topic Outcome/Frictionless Air Track/Frictionless
       Air Track
+  - file: content/public/006.Force/Topic Outcome/Worker Pulls Cart Uphill/worker_pulls_cart_uphill
   - file: content/public/006.Force/Topic Outcome/ropes_and_blocks/ropes_and_blocks
   - file: content/public/006.Force/Topic Outcome/Particle in Conservative Potential/Particle
       in Conservative Potential
