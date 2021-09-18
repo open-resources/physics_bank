@@ -149,6 +149,8 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Bird dropping
       seed/Bird dropping seed
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Ball in the wind/ball_in_the_wind
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Ball launched
+      to a specific height/ball_launched_to_specific_height
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Mass_Attached_To_String/Mass_Attached_To_String
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Jumping Salmon/Jumping
       Salmon
@@ -175,6 +177,7 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Relative Motion
       of Fighter Jetts/relative_motion_of_fighter_jetts
   - file: content/public/005.Kinematics(2D and 3D)/Cart Raising a Load/cart_raising_a_load
+  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Rotating Bar/rotating_bar
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/jump_across_stream/jump_across_stream
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Distance_Between_Two_People/Distance_Between_Two_People
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Magnitude of a particle
