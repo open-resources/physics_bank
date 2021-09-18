@@ -32,16 +32,16 @@ substitutions:
     vars:
       title: Math Practice 13
     a: 8
-    b: 4
+    b: 2
     part1:
       ans1:
-        value: $z^{4}$
+        value: $z^{6}$
       ans2:
-        value: $z^{-4}$
+        value: $z^{-6}$
       ans3:
-        value: 4z
+        value: 6z
       ans4:
-        value: (2)z
+        value: (4)z
       ans5:
         value: Don't Know
 ---

@@ -1,12 +1,15 @@
 ---
-title: Power Climbing Stairs
-topic: Work
+title: Worker Pulls Cart Uphill
+topic: Force
 author: Peyman Yousefi
-source: APSC 181, Lecture 18, Q4
-template_version: 1.2
+source: APSC 181, Lecture 14, Q2
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
-- 9.3.1.1
+- 6.1.1.4
+- 6.1.1.5
 difficulty:
 - undefined
 randomization:
@@ -18,58 +21,55 @@ span:
 length:
 - undefined
 tags:
+- AP
 - APSC 181 - LA
-- JR
 assets:
-- Power Climbing Stairs.png
+- L14Q2.png
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $P= $
-    suffix: $ft \bullet lb/s$
-    comparison: relabs
+    label: $a_{x}= $
+    suffix: $m/s^2$
     rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $P= $
-    suffix: $W$
-    comparison: relabs
+    label: $a_{x}= $
+    suffix: $m/s^2$
     rtol: 0.02
 substitutions:
   params:
     vars:
-      title: Power Climbing Stairs
-    W: 156
-    t: 5
-    h: 9
+      title: Worker Pulls Cart Uphill
+    m: 51
+    theta_s: 16
+    theta_2: 7
+    T_2: 186
+    T_1: 115
 ---
 # {{ params.vars.title }}
-<img src="Power Climbing Stairs.png" width=400>
+<img src="L14Q2.png" width=80%>
 
-A ${{ params.W }}lb$ jogger jogs up a flight of stairs ${{ params.h }}ft$ high in ${{ params.t }}$ seconds.
-What is their power output?
-Do calculations with given information, then convert to SI units and repeat.
+A worker pulls a $m = {{params.m}}kg$ cart up a ${{params.theta_s}}^{\circ}$ frictionless incline, creating a tension $T$ in the cable.
+The cable rises ${{params.theta_2}}^{\circ}$ to travel over a frictionless pulley.
+Acceleration is positive if up the slope, negative if down.
+Determine the acceleration for the following cases:
 
 ## Part 1
 
-Enter their power output.
+acceleration when $T = {{params.T_1}}N$.
 
 ### Answer Section
-
-Please enter in a numeric value in $ft \bullet lb/s$.
 
 ## Part 2
 
-Enter their power output in SI units.
+acceleration when $T = {{params.T_2}}N$.
 
 ### Answer Section
-
-Please enter in a numeric value in $W$.
 
 ## Attribution
 

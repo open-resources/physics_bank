@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-20x + 24y}{4}$
+    expr: $\dfrac{18x + 81y}{9}$
     part1:
       ans1:
-        value: $- 5 x + 6 y$
+        value: $2 x + 9 y$
       ans2:
-        value: $\dfrac{-5x + 6y}{4}$
+        value: $\dfrac{2x + 9y}{9}$
       ans3:
-        value: $6x - 5y$
+        value: $9x + 2y$
       ans4:
-        value: $-20x + 24y$
+        value: $18x + 81y$
       ans5:
         value: Don't know.
 ---

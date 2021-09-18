@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -7
-    l0: l
-    l1: x
-    l2: y
-    l3: f
+    num: -8
+    l0: u
+    l1: q
+    l2: b
+    l3: h
     part1:
       ans1:
-        value: y = ${ 7 f + \frac{x}{l}}$
+        value: b = ${ 8 h + \frac{q}{u}}$
       ans2:
-        value: y = ${- \frac{7 f l}{x}}$
+        value: b = ${- \frac{8 h u}{q}}$
       ans3:
-        value: y = ${- \frac{x}{7 f l}}$
+        value: b = ${- \frac{q}{8 h u}}$
       ans4:
-        value: y = ${\frac{7 f + l}{x}}$
+        value: b = ${\frac{8 h + u}{q}}$
       ans5:
         value: Don't Know
 ---
