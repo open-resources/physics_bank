@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Cyclist with Airfoil
-    v1: 170
-    v2: 36
-    age: 47
+    v1: 169
+    v2: 54
+    age: 56
     part1:
       ans1:
-        value: 22.3 times.
+        value: 9.79 times.
       ans2:
-        value: 4.72 times.
+        value: 3.13 times.
       ans3:
-        value: 0.212 times.
+        value: 0.32 times.
       ans4:
-        value: 0.0448 times.
+        value: 0.102 times.
       ans5:
         value: It would be equal to their maximum thrust.
 ---

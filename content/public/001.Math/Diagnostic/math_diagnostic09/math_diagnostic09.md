@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    num: -2
-    l0: o
-    l1: q
-    l2: k
-    l3: e
+    num: 6
+    l0: n
+    l1: k
+    l2: f
+    l3: p
     part1:
       ans1:
-        value: k = ${ 2 e + \frac{q}{o}}$
+        value: f = ${ \frac{k}{n} - 6 p}$
       ans2:
-        value: k = ${- \frac{2 e o}{q}}$
+        value: f = ${\frac{6 n p}{k}}$
       ans3:
-        value: k = ${- \frac{q}{2 e o}}$
+        value: f = ${\frac{k}{6 n p}}$
       ans4:
-        value: k = ${\frac{2 e + o}{q}}$
+        value: f = ${\frac{n - 6 p}{k}}$
       ans5:
         value: Don't Know
 ---

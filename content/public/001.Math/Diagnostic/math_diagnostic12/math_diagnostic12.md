@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #12'
-    a: 8
-    b: 7
+    a: 4
+    b: 5
     part1:
       ans1:
-        value: (48/7 < x) & (x < 8)
+        value: (16/5 < x) & (x < 4)
       ans2:
-        value: (48/7 > x) & (x > 8)
+        value: (16/5 > x) & (x > 4)
       ans3:
-        value: x > 8/7
+        value: x > 4/5
       ans4:
-        value: (441/8 < x) & (x < 56)
+        value: (75/4 < x) & (x < 20)
       ans5:
         value: Do not know
 ---

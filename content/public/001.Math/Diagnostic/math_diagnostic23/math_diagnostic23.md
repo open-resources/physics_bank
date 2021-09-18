@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 4
-    b: 1
-    formula: $x^{4} \sin{\left(x \right)}$
+    a: 8
+    b: 3
+    formula: $x^{8} \sin{\left(3 x \right)}$
     part1:
       ans1:
-        value: $x^{4} \cos{\left(x \right)} + 4 x^{3} \sin{\left(x \right)}$
+        value: $3 x^{8} \cos{\left(3 x \right)} + 8 x^{7} \sin{\left(3 x \right)}$
       ans2:
-        value: $x^{4} \cos{\left(x \right)} $
+        value: $3 x^{8} \cos{\left(3 x \right)} $
       ans3:
-        value: $ 4 x^{3} \cos{\left(x \right)}$
+        value: $ 8 x^{7} \cos{\left(3 x \right)}$
       ans4:
-        value: $- x^{4} \sin{\left(x \right)} + 4 x^{3} \cos{\left(x \right)}$
+        value: $- 3 x^{8} \sin{\left(3 x \right)} + 8 x^{7} \cos{\left(3 x \right)}$
       ans5:
         value: Don't Know
 ---
