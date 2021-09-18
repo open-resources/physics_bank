@@ -282,6 +282,8 @@ parts:
   - file: content/public/007.Momentum and Impulse/Impulse/airbag_collision/airbag_collision
   - file: content/public/007.Momentum and Impulse/Impulse/Speed_Before_Impact/Speed_Before_Impact
   - file: content/public/007.Momentum and Impulse/Impulse/Bouncing_Ball/Bouncing_Ball
+  - file: content/public/007.Momentum and Impulse/Impulse/Impulse of a Mallet/Impulse
+      of a Mallet
   - file: content/public/007.Momentum and Impulse/Impulse/Room on Fire/room_on_fire
   - file: content/public/007.Momentum and Impulse/Collisions/Collision of Collars/Collision
       of Collars
@@ -318,6 +320,8 @@ parts:
   - file: content/public/007.Momentum and Impulse/Momentum/Rock_Powered_Rocket/Rock_Powered_Rocket
   - file: content/public/007.Momentum and Impulse/Momentum/Rotating buckets/Rotating
       buckets
+  - file: content/public/007.Momentum and Impulse/Momentum/Rotating Spheres/Rotating
+      Spheres
   - file: content/public/007.Momentum and Impulse/Momentum/Momentum_and_Inertia/Momentum_and_Inertia
   - file: content/public/007.Momentum and Impulse/Momentum/Dinner_Plate/dinner_plate
 - caption: Energy
