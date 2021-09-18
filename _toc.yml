@@ -181,7 +181,10 @@ parts:
       vector/Magnitude of a particle vector
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Ball Launched from
       Horizontal Cliff/Ball Launched from Horizontal cliff
+  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Boom Arm Polar Coordinates/boom_arm_polar_coords
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Supply_plane/Supply_plane
+  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Raising weight with
+      Block on Hill/raising_weight_with_block_on_hill
   - file: content/public/005.Kinematics(2D and 3D)/Plane Launch Polar Coordinates/plane_launch_polar_coords
   - file: content/public/005.Kinematics(2D and 3D)/Raising a Package/raising_a_package
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Angular_Acceleration/Angular_Acceleration
