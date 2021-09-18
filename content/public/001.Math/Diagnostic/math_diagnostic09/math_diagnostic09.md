@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $y$ = $\dfrac{(x)}{(m - 7n)} $
+    expr: $l$ = $\dfrac{(c)}{(r + 4v)} $
     part1:
       ans1:
-        value: m = ${ 7 n + \frac{x}{y}}$
+        value: r = ${ \frac{c}{l} - 4 v}$
       ans2:
-        value: m = ${- \frac{7 n y}{x}}$
+        value: r = ${\frac{4 l v}{c}}$
       ans3:
-        value: m = ${- \frac{x}{7 n y}}$
+        value: r = ${\frac{c}{4 l v}}$
       ans4:
-        value: m = ${\frac{7 n + y}{x}}$
+        value: r = ${\frac{l - 4 v}{c}}$
       ans5:
         value: Don't Know
 ---

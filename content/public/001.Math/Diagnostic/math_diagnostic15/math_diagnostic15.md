@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $5^{6} $=$ 15625$
+    expr: $4^{7} $=$ 16384$
     part1:
       ans1:
-        value: $log_515625 = 6$
+        value: $log_416384 = 7$
       ans2:
-        value: $log_56 = 15625$
+        value: $log_47 = 16384$
       ans3:
-        value: $log_156256 = 5$
+        value: $log_163847 = 4$
       ans4:
-        value: $log_615625 = 5$
+        value: $log_716384 = 4$
       ans5:
         value: Don't Know
 ---

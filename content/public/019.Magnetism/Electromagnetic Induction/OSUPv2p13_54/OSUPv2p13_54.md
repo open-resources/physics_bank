@@ -38,10 +38,10 @@ substitutions:
   params:
     vars:
       title: Electric Field Outside Solenoid
-    R: '2'
-    r: '5'
-    n: '25'
-    DI: '4'
+    R: '4'
+    r: '6'
+    n: '30'
+    DI: '1'
 ---
 # {{ params.vars.title }}
 

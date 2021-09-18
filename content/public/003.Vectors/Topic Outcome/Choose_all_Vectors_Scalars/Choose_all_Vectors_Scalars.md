@@ -35,15 +35,15 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: Drag
+        value: The position in 3 dimensions
       ans2:
-        value: velocity
+        value: Acceleration
       ans3:
-        value: The average velocity
+        value: Force
       ans4:
-        value: Distance travelled
+        value: The average acceleration
       ans5:
-        value: Density
+        value: Power
       ans6:
         value: Temperature
 ---

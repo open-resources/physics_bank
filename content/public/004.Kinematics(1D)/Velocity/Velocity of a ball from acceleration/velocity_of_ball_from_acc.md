@@ -1,26 +1,22 @@
 ---
-title: Collision of a Cart with a Spring
-topic: Energy
-author: Jake Bobowski
-source: 2015 Final Q11
-template_version: 1.3
+title: Velocity of a ball from acceleration
+topic: Kinematics(1D)
+author: Peyman Yousefi
+source: APSC 181, Lecture 3, Q3
+template_version: 1.1
 attribution: standard
-partialCredit: true
-singleVariant: false
 outcomes:
-- 8.3.3.0
+- 6.1.1.0
+- 6.1.1.1
 difficulty:
 - undefined
 randomization:
 - undefined
 taxonomy:
 - undefined
-span:
-- undefined
-length:
-- undefined
 tags:
-- PW
+- AP
+- APSC 181 - LA
 assets: null
 part1:
   type: number-input
@@ -29,27 +25,30 @@ part1:
     allow-blank: true
     label: $v= $
     suffix: $m/s$
-    comparison: sigfig
-    digits: 2
+    rtol: 0.02
 substitutions:
   params:
     vars:
-      title: Collision of a Cart with a Spring
+      title: Velocity of a ball from acceleration
       units: m/s
-    m: 73
-    k: 322
-    x: 100
+    v0: 29
+    s0: 8
+    k: 0.03
+    s: 11
 ---
 # {{ params.vars.title }}
-A  {{ params.m }}  $kg$  runaway  grocery  cart  runs  into  a  spring  with a spring  constant $k = $  {{ params.k }}  $N/m$  and compresses it by {{ params.x }} $cm$ before momentarily coming to rest.
+The acceleration of a ball is given by $a(s) = -5ks^2$,
+where $a$ is in $m/s^2$,
+$k$ is a constant,
+and s is in $m$.
 
 ## Question Text
 
-What was the speed of the cart just before it hit the spring?
+Determine the velocity at $s = {{params.s}}m$ if $k = {{params.k}}m^-1s^-2$ and the initial conditions for $t = 0$ are $s_0 = {{params.s0}}m$ and $v_0 = {{params.v0}}m/s$.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in ${{ params.vars.units }}$.
 
 ## Attribution
 

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{24x + 56y }{ -8 }$
+    expr: $\dfrac{-4x + 8y }{ 2 }$
     part1:
       ans1:
-        value: $- 3 x - 7 y$
+        value: $- 2 x + 4 y$
       ans2:
-        value: $\dfrac{-3x - 7y}{-8}$
+        value: $\dfrac{-2x + 4y}{2}$
       ans3:
-        value: $-7x - 3y$
+        value: $4x - 2y$
       ans4:
-        value: $24x - 56y$
+        value: $-4x + 8y$
       ans5:
         value: Don't know.
 ---
