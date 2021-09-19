@@ -62,17 +62,17 @@ substitutions:
   params:
     vars:
       title: Terminal Velocity of a Coffee Filter
-      name: Ximena
+      name: Maya
       unit1: $m/s$
       unit2: $kg/s$
-    m: 5
-    d_m: 32
-    sd: 0.088
-    v1: 0.73
-    v2: 0.9
-    v3: 0.98
-    v4: 0.79
-    v5: 0.76
+    m: 2
+    d_m: 38
+    sd: 0.095
+    v1: 0.74
+    v2: 0.92
+    v3: 0.79
+    v4: 0.98
+    v5: 0.96
     v6: 0.78
 ---
 # {{ params.vars.title }}

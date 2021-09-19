@@ -31,21 +31,21 @@ substitutions:
   params:
     vars:
       title: Velocity and Acceleration of an Object
-    v: $-8t^3 - 9t^2 + 4t$
-    time: 9.03
+    v: $-4t^2 + 7t$
+    time: 12.4
     part1:
       ans1:
-        value: $v = $ -6590.0 $m/s$, $a = $ -2120.0 $m/s^2$
+        value: $v = $ -528.0 $m/s$, $a = $ -92.2 $m/s^2$
       ans2:
-        value: $v = $ -6590.0 $m/s$, $a = $ 0 $m/s^2$
+        value: $v = $ -528.0 $m/s$, $a = $ 0 $m/s^2$
       ans3:
-        value: $v = $ -6590.0 $m/s$, $a = $ 9.81 $m/s^2$
+        value: $v = $ -528.0 $m/s$, $a = $ 9.81 $m/s^2$
       ans4:
-        value: $v = $ 9.03 $m/s$, $a = $ -1060.0 $m/s^2$
+        value: $v = $ 12.4 $m/s$, $a = $ -46.1 $m/s^2$
       ans5:
-        value: $v = $ -6590.0 $m/s$, $a = $ 2120.0 $m/s^2$
+        value: $v = $ -528.0 $m/s$, $a = $ 92.2 $m/s^2$
       ans6:
-        value: $v = $ -6590.0 $m/s$, $a = $ -4240.0 $m/s^2$
+        value: $v = $ -528.0 $m/s$, $a = $ -184.0 $m/s^2$
 ---
 # {{ params.vars.title }}
 If the velocity of an object in one-dimensional motion is given by $v(t) = $ {{ params.v }}, where the units of $v$ are in $m/s$ and of $t$ are in seconds,

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{36x + 36y }{ -6 }$
+    expr: $\dfrac{42x + 49y }{ 7 }$
     part1:
       ans1:
-        value: $- 6 x - 6 y$
+        value: $6 x + 7 y$
       ans2:
-        value: $\dfrac{-6x - 6y}{-6}$
+        value: $\dfrac{6x + 7y}{7}$
       ans3:
-        value: $-6x - 6y$
+        value: $7x + 6y$
       ans4:
-        value: $36x - 36y$
+        value: $42x + 49y$
       ans5:
         value: Don't know.
 ---

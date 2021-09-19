@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $o$ = $\dfrac{(p)}{(f + 3i)} $
+    expr: $i$ = $\dfrac{(q)}{(k + 4r)} $
     part1:
       ans1:
-        value: f = ${ - 3 i + \frac{p}{o}}$
+        value: k = ${ - 4 r + \frac{q}{i}}$
       ans2:
-        value: f = ${\frac{3 i o}{p}}$
+        value: k = ${\frac{4 i r}{q}}$
       ans3:
-        value: f = ${\frac{p}{3 i o}}$
+        value: k = ${\frac{q}{4 i r}}$
       ans4:
-        value: f = ${\frac{- 3 i + o}{p}}$
+        value: k = ${\frac{i - 4 r}{q}}$
       ans5:
         value: Don't Know
 ---
