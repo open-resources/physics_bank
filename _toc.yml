@@ -346,6 +346,8 @@ parts:
       of Roller Coasters
   - file: content/public/008.Energy/Conservation of Energy/Falling bucket/Falling
       bucket
+  - file: content/public/008.Energy/Conservation of Energy/Slider Restricted by Spring/Slider
+      Restricted by Spring
   - file: content/public/008.Energy/Conservation of Energy/ball_race/2012Final_q3
   - file: content/public/008.Energy/Conservation of Energy/Energy lost to air friction/energy_lost_air_friction
   - file: content/public/008.Energy/Conservation of Energy/Firing a ball using a compressed
@@ -358,6 +360,8 @@ parts:
       Rail 2/Spring Potential Energy Rail 2
   - file: content/public/008.Energy/Conservation of Energy/Spring Potential Energy
       Rail/Spring Potential Energy Rail
+  - file: content/public/008.Energy/Conservation of Energy/Spring Restraining Cart/Spring
+      Restraining Cart
   - file: content/public/008.Energy/Conservation of Energy/Log up a Hill/Log up a
       Hill
   - file: content/public/008.Energy/Conservation of Energy/Cut The Rope/Cut The Rope
@@ -385,6 +389,7 @@ parts:
   - file: content/public/009.Work/Work/Lowering_bucket_2/Lowering_bucket_2
   - file: content/public/009.Work/Power/Power of a Sprinter/Power of a Sprinter
   - file: content/public/009.Work/Power/Energy Expenditure/Energy Expenditure
+  - file: content/public/009.Work/Power/Power of a Biker/Power of a Biker
   - file: content/public/009.Work/Power/Power Climbing Stairs/Power Climbing Stairs
   - file: content/public/009.Work/Topic Outcome/Work_Done_By_Force/Work_Done_By_Force
   - file: content/public/009.Work/Work-Energy Theorem/Toboggan_hill/Toboggan_hill
