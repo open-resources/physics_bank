@@ -187,6 +187,7 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Distance_Between_Two_People/Distance_Between_Two_People
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Ball rolling down
       an incline/Ball rolling down an incline
+  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Plane in a Loop/plane_in_a_loop
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Rocket/Rocket
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Magnitude of a particle
       vector/Magnitude of a particle vector
