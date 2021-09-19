@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $u$ = $\dfrac{(r)}{(j + 8w)} $
+    expr: $l$ = $\dfrac{(o)}{(e + 8k)} $
     part1:
       ans1:
-        value: j = ${ \frac{r}{u} - 8 w}$
+        value: e = ${ - 8 k + \frac{o}{l}}$
       ans2:
-        value: j = ${\frac{8 u w}{r}}$
+        value: e = ${\frac{8 k l}{o}}$
       ans3:
-        value: j = ${\frac{r}{8 u w}}$
+        value: e = ${\frac{o}{8 k l}}$
       ans4:
-        value: j = ${\frac{u - 8 w}{r}}$
+        value: e = ${\frac{- 8 k + l}{o}}$
       ans5:
         value: Don't Know
 ---

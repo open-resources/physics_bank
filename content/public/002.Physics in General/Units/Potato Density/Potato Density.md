@@ -67,12 +67,12 @@ substitutions:
   params:
     vars:
       title: Potato Density
-      name: Emilia
+      name: Santiago
       unit1: $kg$
       unit2: $m^3$
-    m_p: 242
-    m_cp: 111
-    l: 4
+    m_p: 237
+    m_cp: 66
+    l: 2
 ---
 # {{ params.vars.title }}
 For their first lab, {{ params.vars.name }} decides to measure the density of a potato.They notice that it's an unusual shape and floats, so it's hard to calculate its volume.The potato's mass is measured to be {{ params.m_p }} $g$.They then cut the potato into a cube and measure that the sides of the cube have length {{ params.l}} inches, and the potato's mass is {{ params.m_cp }} $g$.For a uniform density potato, the mass and volume are proportional.

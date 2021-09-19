@@ -88,7 +88,7 @@ substitutions:
   params:
     vars:
       title: Circuit with Resistance
-    B: '0.75'
+    B: '0.25'
     v: '5'
     part3:
       ans1:
