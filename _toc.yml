@@ -304,9 +304,13 @@ parts:
   - file: content/public/007.Momentum and Impulse/Collisions/BulletCart Energy Loss/BulletCart
       Energy Loss
   - file: content/public/007.Momentum and Impulse/Collisions/Split_Blocks/Split_Blocks
+  - file: content/public/007.Momentum and Impulse/2D Collisions/Attempted Shot Block/Attempted
+      Shot Block
   - file: content/public/007.Momentum and Impulse/2D Collisions/Snowboarder Impact
       Landing/Snowboarder Impact Landing
   - file: content/public/007.Momentum and Impulse/2D Collisions/light_heavy_collision/light_heavy_collision
+  - file: content/public/007.Momentum and Impulse/2D Collisions/T-bone Collision/T-bone
+      Collision
   - file: content/public/007.Momentum and Impulse/2D Collisions/billiards_collision/billiards_collision
   - file: content/public/007.Momentum and Impulse/2D Collisions/collision_of_carts/collision_of_carts
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/mass_spring_collision/mass_spring_collision
@@ -352,6 +356,8 @@ parts:
       on a Hill
   - file: content/public/008.Energy/Conservation of Energy/Spring Potential Energy
       Rail 2/Spring Potential Energy Rail 2
+  - file: content/public/008.Energy/Conservation of Energy/Spring Potential Energy
+      Rail/Spring Potential Energy Rail
   - file: content/public/008.Energy/Conservation of Energy/Log up a Hill/Log up a
       Hill
   - file: content/public/008.Energy/Conservation of Energy/Cut The Rope/Cut The Rope
