@@ -30,7 +30,7 @@ substitutions:
   params:
     vars:
       title: Vehicle Velocity
-      vehicle: car
+      vehicle: pickup truck
       units: $m/s$
     i_1: 2
     i_2: 2

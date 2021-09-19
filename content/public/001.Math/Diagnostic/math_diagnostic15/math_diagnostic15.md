@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $7^{6} $=$ 117649$
+    expr: $2^{1} $=$ 2$
     part1:
       ans1:
-        value: $log_7117649 = 6$
+        value: $log_22 = 1$
       ans2:
-        value: $log_76 = 117649$
+        value: $log_21 = 2$
       ans3:
-        value: $log_1176496 = 7$
+        value: $log_21 = 2$
       ans4:
-        value: $log_6117649 = 7$
+        value: $log_12 = 2$
       ans5:
         value: Don't Know
 ---

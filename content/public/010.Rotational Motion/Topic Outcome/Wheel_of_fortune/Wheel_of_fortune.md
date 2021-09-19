@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       units: rad/s
-      name: Ximena
+      name: Savannah
       title: Wheel of Fortune
     w_i: ${\pi \over 3} {rad\over s}$
-    t: 6
+    t: 4
     part1:
       ans1:
-        value: 1.65
+        value: 2.47
       ans2:
-        value: 1.28
+        value: 1.57
       ans3:
-        value: 2.57
+        value: 3.15
       ans4:
         value: $\pi$/3
 ---

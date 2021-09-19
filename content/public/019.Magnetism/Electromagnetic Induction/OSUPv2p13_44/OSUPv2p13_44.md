@@ -45,9 +45,9 @@ substitutions:
     vars:
       title: Moving Rod
     r: '2'
-    v: '4'
-    B: '1.25'
-    a: '9'
+    v: '5'
+    B: '1.00'
+    a: '10'
     part2:
       ans1:
         value: Clockwise

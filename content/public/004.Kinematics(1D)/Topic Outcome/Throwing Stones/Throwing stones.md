@@ -35,7 +35,7 @@ part1:
 substitutions:
   params:
     vars:
-      name: Abbas
+      name: Santiago
       title: Throwing Stones
       units: $s$
     v: 27.7

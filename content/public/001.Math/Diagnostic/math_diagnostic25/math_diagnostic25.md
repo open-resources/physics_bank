@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice Q25
-    expr: $\dfrac{ 3-e^{(-6x)}}{8-x}$
+    expr: $\dfrac{ 1-e^{(-6x)}}{2-x}$
     part1:
       ans1:
-        value: 1/4
+        value: '0'
       ans2:
         value: Negative Infinity
       ans3:
-        value: 0.375
+        value: 0.5
       ans4:
-        value: 3
+        value: 1
       ans5:
         value: Don't Know
 ---

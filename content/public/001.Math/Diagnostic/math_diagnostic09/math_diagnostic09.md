@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $l$ = $\dfrac{(o)}{(e + 8k)} $
+    expr: $h$ = $\dfrac{(n)}{(r + 10f)} $
     part1:
       ans1:
-        value: e = ${ - 8 k + \frac{o}{l}}$
+        value: r = ${ - 10 f + \frac{n}{h}}$
       ans2:
-        value: e = ${\frac{8 k l}{o}}$
+        value: r = ${\frac{10 f h}{n}}$
       ans3:
-        value: e = ${\frac{o}{8 k l}}$
+        value: r = ${\frac{n}{10 f h}}$
       ans4:
-        value: e = ${\frac{- 8 k + l}{o}}$
+        value: r = ${\frac{- 10 f + h}{n}}$
       ans5:
         value: Don't Know
 ---
