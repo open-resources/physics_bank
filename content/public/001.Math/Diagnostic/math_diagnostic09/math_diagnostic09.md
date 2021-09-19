@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $h$ = $\dfrac{(n)}{(r + 10f)} $
+    expr: $p$ = $\dfrac{(e)}{(c - 7l)} $
     part1:
       ans1:
-        value: r = ${ - 10 f + \frac{n}{h}}$
+        value: c = ${ \frac{e}{p} + 7 l}$
       ans2:
-        value: r = ${\frac{10 f h}{n}}$
+        value: c = ${- \frac{7 l p}{e}}$
       ans3:
-        value: r = ${\frac{n}{10 f h}}$
+        value: c = ${- \frac{e}{7 l p}}$
       ans4:
-        value: r = ${\frac{- 10 f + h}{n}}$
+        value: c = ${\frac{7 l + p}{e}}$
       ans5:
         value: Don't Know
 ---

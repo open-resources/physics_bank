@@ -1,14 +1,14 @@
 ---
-title: Relative Motion on a Curve
+title: Plane in a Loop
 topic: Kinematics(2D and 3D)
 author: Peyman Yousefi
-source: APSC 181, Lecture 11, Q4
+source: APSC 181, Lecture 11, Q2
 template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
 outcomes:
-- 5.8.1.3
+- 5.7.1.2
 difficulty:
 - undefined
 randomization:
@@ -23,13 +23,13 @@ tags:
 - AP
 - APSC 181 - LA
 assets:
-- L11Q4.png
+- L11Q2.png
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $a_{A/B}= $
+    label: $\ddot{r}= $
     suffix: $m/s^2$
     rtol: 0.02
 part2:
@@ -37,35 +37,33 @@ part2:
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $\theta_{a}= $
-    suffix: $^{\circ}$
+    label: $\ddot{\theta}= $
+    suffix: $rad/s^2$
     rtol: 0.02
 substitutions:
   params:
     vars:
-      title: Relative Motion on a Curve
-    v: 45
-    r: 43
-    d: 10
-    a: 2.0
-    theta: 22
+      title: Plane in a Loop
+    v: 457
+    h: 466
+    d: 831
 ---
 # {{ params.vars.title }}
-<img src="L11Q4.png" width=85%>
+<img src="L11Q2.png" width=85%>
 
-Car A rounds a curve, $r = {{params.r}}m$, at a constant speed of {{params.v}}km/hr.
-When A is as shown, B is $d = {{params.d}} m$ from the intersection, and is accelerating at a rate of ${{params.a}} m/s^2$.
-Assume $\theta = {{params.theta}}^{\circ}$.
+As an airplane reaches the bottom of a loop in the vertical plane, it has a horizontal velocity of $v = {{params.v}}km/hr$ and no horizontal acceleration.
+The radius of curvature for the loop is m, and the altitude of the plane is ${{params.h}}m$.
+For the radar tracking at $O$, $d = {{params.d}}m$ away.
 
 ## Part 1
 
-What is the acceleration of B as seen by the driver in car A?
+Determine the value of $\ddot{r}$.
 
 ### Answer Section
 
 ## Part 2
 
-What is the angle of the acceleration vector?
+Determine the value of $\ddot{\theta}$.
 
 ### Answer Section
 

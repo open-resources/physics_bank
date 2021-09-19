@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 13
-    expr: $\dfrac{z^5 }{z^6} $
+    expr: $\dfrac{z^5 }{z^1} $
     part1:
       ans1:
-        value: $z^{-1}$
+        value: $z^{4}$
       ans2:
-        value: $z^{1}$
+        value: $z^{-4}$
       ans3:
-        value: -1z
+        value: 4z
       ans4:
-        value: (5/6)z
+        value: (5)z
       ans5:
         value: Don't Know
 ---

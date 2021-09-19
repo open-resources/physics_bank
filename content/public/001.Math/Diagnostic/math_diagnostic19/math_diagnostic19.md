@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin215$
+    a: $ \sin323$
     part1:
       ans1:
-        value: $\sin{-145}$
+        value: $\sin{-37}$
       ans2:
-        value: $\sin{145}$
+        value: $\sin{37}$
       ans3:
-        value: $\sin{-35}$
+        value: $\sin{-143}$
       ans4:
-        value: $\sin{35}$
+        value: $\sin{143}$
       ans5:
         value: Don't Know
 ---

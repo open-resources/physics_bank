@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $2^{1} $=$ 2$
+    expr: $6^{9} $=$ 10077696$
     part1:
       ans1:
-        value: $log_22 = 1$
+        value: $log_610077696 = 9$
       ans2:
-        value: $log_21 = 2$
+        value: $log_69 = 10077696$
       ans3:
-        value: $log_21 = 2$
+        value: $log_100776969 = 6$
       ans4:
-        value: $log_12 = 2$
+        value: $log_910077696 = 6$
       ans5:
         value: Don't Know
 ---

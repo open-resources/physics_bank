@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-21x + 28y }{ 7 }$
+    expr: $\dfrac{72x + 45y }{ 9 }$
     part1:
       ans1:
-        value: $- 3 x + 4 y$
+        value: $8 x + 5 y$
       ans2:
-        value: $\dfrac{-3x + 4y}{7}$
+        value: $\dfrac{8x + 5y}{9}$
       ans3:
-        value: $4x - 3y$
+        value: $5x + 8y$
       ans4:
-        value: $-21x + 28y$
+        value: $72x + 45y$
       ans5:
         value: Don't know.
 ---

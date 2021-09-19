@@ -31,18 +31,18 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q11
-    a: 1
-    b: 8
+    a: 8
+    b: 10
     c: 2
     part1:
       ans1:
-        value: x = -7.7, x = -0.26
+        value: x = -1.0, x = -0.25
       ans2:
-        value: x = 7.7, x = 0.26
+        value: x = 1.0, x = 0.25
       ans3:
-        value: x = 8, x = 2
+        value: x = 10, x = 2
       ans4:
-        value: x = 1, x = 8
+        value: x = 8, x = 10
       ans5:
         value: Don't Know
 ---

@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 8x - 2y = 49
-    formula2: 3x + 4y = 36
+    formula1: 4x - 5y = 29
+    formula2: 7x + 3y = 42
     part1:
       ans1:
-        value: ' x =134/19, y =141/38'
+        value: ' x =297/47, y =-35/47'
       ans2:
-        value: ' x =141/38, y =134/19'
+        value: ' x =-35/47, y =297/47'
       ans3:
-        value: ' x =-134/19, y =-141/38'
+        value: ' x =-297/47, y =35/47'
       ans4:
-        value: ' x =-141/38, y =-134/19'
+        value: ' x =35/47, y =-297/47'
       ans5:
         value: Don't Know
 ---

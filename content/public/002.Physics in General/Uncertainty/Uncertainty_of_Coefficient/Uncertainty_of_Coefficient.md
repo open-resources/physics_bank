@@ -32,12 +32,12 @@ substitutions:
       title: Uncertainty of Coefficient
       name: Maya
       units: $kg/s$
-    m: 125
-    v: 1.5
-    b: 0.63
+    m: 95
+    v: 2.0
+    b: 0.78
     part1:
       ans1:
-        value: ' $\pm$ 0.15'
+        value: ' $\pm$ 0.12'
       ans2:
         value: ' $\pm$ 0.09'
       ans3:
