@@ -164,6 +164,8 @@ parts:
       ball/Shooting a steel ball
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Velocity, Acceleration
       and Angle of Particle with Curvilinear motion/velocity_acc_angle_of_particle_with_curvilinear_motion
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Distance and
+      time for crate released by a jet/distance_and_time_for_crate_released_by_jet
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Velocity and
       Acceleration of Particle in Curvilinear Motion/velocity_and_acceleration_of_particle_in_curvilinear_motion
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/A flying arrow/A
