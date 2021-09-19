@@ -60,9 +60,9 @@ substitutions:
       title: Distance travelled
       unit1: $J$
       unit2: $m/s$
-    m_d: 0.07
-    m_b: 0.044
-    v: 17.0
+    m_d: 0.057
+    m_b: 0.047
+    v: 15.0
 ---
 # {{ params.vars.title }}
 A {{ params.m_d }} $kg$ disk initially at rest in the Earth reference frame is free to move parallel to a horizontal bar through a hole in the disk's centre. The disk is struck face-on by a {{ params.m_b }} $kg$ paintball traveling at {{ params.v }} $m/s$.

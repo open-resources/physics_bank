@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $i$ = $\dfrac{(q)}{(k + 4r)} $
+    expr: $u$ = $\dfrac{(r)}{(j + 8w)} $
     part1:
       ans1:
-        value: k = ${ - 4 r + \frac{q}{i}}$
+        value: j = ${ \frac{r}{u} - 8 w}$
       ans2:
-        value: k = ${\frac{4 i r}{q}}$
+        value: j = ${\frac{8 u w}{r}}$
       ans3:
-        value: k = ${\frac{q}{4 i r}}$
+        value: j = ${\frac{r}{8 u w}}$
       ans4:
-        value: k = ${\frac{i - 4 r}{q}}$
+        value: j = ${\frac{u - 8 w}{r}}$
       ans5:
         value: Don't Know
 ---

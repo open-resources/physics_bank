@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin350$
+    a: $ \sin334$
     part1:
       ans1:
-        value: $\sin{-10}$
+        value: $\sin{-26}$
       ans2:
-        value: $\sin{10}$
+        value: $\sin{26}$
       ans3:
-        value: $\sin{-170}$
+        value: $\sin{-154}$
       ans4:
-        value: $\sin{170}$
+        value: $\sin{154}$
       ans5:
         value: Don't Know
 ---

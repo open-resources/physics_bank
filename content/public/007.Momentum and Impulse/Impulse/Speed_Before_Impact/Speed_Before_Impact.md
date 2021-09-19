@@ -34,7 +34,7 @@ substitutions:
       title: Speed Before Impact
       vehicle: pickup truck
       units: $m/s$
-    m: 560
+    m: 563
     part1:
       ans1:
         value: 96.0

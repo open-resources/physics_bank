@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $8^{7} $=$ 2097152$
+    expr: $8^{2} $=$ 64$
     part1:
       ans1:
-        value: $log_82097152 = 7$
+        value: $log_864 = 2$
       ans2:
-        value: $log_87 = 2097152$
+        value: $log_82 = 64$
       ans3:
-        value: $log_20971527 = 8$
+        value: $log_642 = 8$
       ans4:
-        value: $log_72097152 = 8$
+        value: $log_264 = 8$
       ans5:
         value: Don't Know
 ---
