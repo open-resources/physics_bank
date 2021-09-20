@@ -37,7 +37,7 @@ substitutions:
   params:
     vars:
       title: Radio Antenna
-    l: '0.5'
+    l: '1.5'
     v: '75'
     B: '6.5'
 ---

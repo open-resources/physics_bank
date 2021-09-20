@@ -1,12 +1,12 @@
 ---
-title: Collision of Collars
-topic: Momentum and Impulse
+title: Polar Coordinates from Functions
+topic: Kinematics(2D and 3D)
 author: Peyman Yousefi
-source: APSC 181, Lecture 21, Q1
+source: APSC 181, Lecture 9, Q1
 template_version: 1.2
 attribution: standard
 outcomes:
-- 7.4.1.2
+- 5.7.1.2
 difficulty:
 - undefined
 randomization:
@@ -18,56 +18,67 @@ span:
 length:
 - undefined
 tags:
+- AP
 - APSC 181 - LA
-- JR
-assets:
-- Collision of Collars.png
+assets: null
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $v_1'= $
-    suffix: $m/s$
-    comparison: relabs
+    label: $\theta= $
+    suffix: $^{\circ}$
     rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $v_2'= $
-    suffix: $m/s$
-    comparison: relabs
+    label: $\dot{v}= $
+    suffix: $m/s^2$
+    rtol: 0.02
+part3:
+  type: number-input
+  pl-customizations:
+    weight: 1
+    allow-blank: true
+    label: $\rho= $
+    suffix: $m$
     rtol: 0.02
 substitutions:
   params:
     vars:
-      title: Collision of Collars
-    W1: 6
-    W2: 10
-    v1: 30
-    v2: 4
-    e: 0.68
+      title: Polar Coordinates from Functions
+    a1: -9
+    a2: -8
+    b1: 8
+    b2: 10
+    c1: -10
+    c2: 4
+    v: -9i + (8j) + (-10k)
+    a: -8i + (10j) + (4k)
 ---
 # {{ params.vars.title }}
-<img src="Collision of Collars.png" width=400>
-
-Find the final velocities $v_1'$ and $v_2'$ after the collision of the two cylinders which slide on the smooth shaft.
-The coefficient of restitution is $e = {{params.e}}$.
-$v1 = {{params.v1}}ft/s$, $v2 = {{params.v2}}ft/s$, $W1 = {{params.W1}}lb$, $W2 = {{params.W2}}lb$.
+The velocity and acceleration of a particle at a moment in time is given by $v = {{params.v}}m/s$ and
+$a = {{params.a}}m/s^2$.
 
 ## Part 1
 
-### Answer Section
+Determine the angle between $v$ and $a$.
 
-Please enter in a numeric value in $m/s$.
+### Answer Section
 
 ## Part 2
 
+Determine $\dot{v}$.
+
 ### Answer Section
 
-Please enter in a numeric value in $m/s$.
+## Part 3
+
+Determine the radius of curvature $\rho$.
+
+### Answer Section
 
 ## Attribution
 

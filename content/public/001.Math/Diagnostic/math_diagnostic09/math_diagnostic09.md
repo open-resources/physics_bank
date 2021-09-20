@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $p$ = $\dfrac{(e)}{(c - 7l)} $
+    expr: $m$ = $\dfrac{(x)}{(k - 9l)} $
     part1:
       ans1:
-        value: c = ${ \frac{e}{p} + 7 l}$
+        value: k = ${ 9 l + \frac{x}{m}}$
       ans2:
-        value: c = ${- \frac{7 l p}{e}}$
+        value: k = ${- \frac{9 l m}{x}}$
       ans3:
-        value: c = ${- \frac{e}{7 l p}}$
+        value: k = ${- \frac{x}{9 l m}}$
       ans4:
-        value: c = ${\frac{7 l + p}{e}}$
+        value: k = ${\frac{9 l + m}{x}}$
       ans5:
         value: Don't Know
 ---

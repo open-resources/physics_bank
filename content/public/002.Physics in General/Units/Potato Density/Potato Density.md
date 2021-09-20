@@ -27,7 +27,6 @@ part1:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $m_p= $
     suffix: $kg$
@@ -37,7 +36,6 @@ part2:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $m_{cp}= $
     suffix: $kg$
@@ -47,7 +45,6 @@ part3:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $V_{cp}= $
     suffix: $m^3$
@@ -57,7 +54,6 @@ part4:
   type: number-input
   pl-customizations:
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $V_p= $
     suffix: $m^3$
@@ -67,11 +63,11 @@ substitutions:
   params:
     vars:
       title: Potato Density
-      name: Mateo
+      name: Savannah
       unit1: $kg$
       unit2: $m^3$
-    m_p: 204
-    m_cp: 73
+    m_p: 225
+    m_cp: 105
     l: 4
 ---
 # {{ params.vars.title }}

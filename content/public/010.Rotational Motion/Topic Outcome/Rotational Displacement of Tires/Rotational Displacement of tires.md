@@ -34,11 +34,11 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: truck
+      vehicle: semi-truck
       title: Rotational Displacement of Tires
       units: rad
-    a: 6.06
-    t: 21.2
+    a: 8.54
+    t: 4.28
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }} accelerates from rest at $t = 0$ such that its tires undergo a constant rotational acceleration of $\alpha = $ {{ params.a }} $s^{-2}$.

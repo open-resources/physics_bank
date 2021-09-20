@@ -51,7 +51,7 @@ substitutions:
   params:
     vars:
       title: Charged particle near the Earth
-    charge: proton
+    charge: electron
     part2:
       ans1:
         value: Away from the surface of the Earth.

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic 6
-    eq: $\dfrac{x-4}{x+8}$ = $ \dfrac{x+7}{x-1}$
+    eq: $\dfrac{x-2}{x+3}$ = $ \dfrac{x+7}{x-4}$
     part1:
       ans1:
-        value: '1'
+        value: 1/8
       ans2:
-        value: 5/4
+        value: -11/8
       ans3:
-        value: '5'
+        value: -1/3
       ans4:
-        value: -5/4
+        value: 11/8
 ---
 # {{ params.vars.title }}
 

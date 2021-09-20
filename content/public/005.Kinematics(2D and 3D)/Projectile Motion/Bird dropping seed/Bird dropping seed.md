@@ -28,18 +28,16 @@ part1:
   pl-customizations:
     weight: 1
     hide-letter-keys: true
-    hide-answer-panel: true
 part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
     hide-letter-keys: true
-    hide-answer-panel: true
 substitutions:
   params:
     vars:
       title: Seed Dropped by a Bird
-    v: 4
+    v: 3
     part1:
       ans1:
         value: directly overhead.
