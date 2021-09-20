@@ -202,6 +202,8 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Angular_Acceleration/Angular_Acceleration
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Acceleration
       around a turn/Acceleration around a turn
+  - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Polar
+      Coordinates from Function/polar_coords_from_func
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Radius
       of a Rollercoaster/radius_of_a_rollercoaster
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Discus_Thrower/Discus_Thrower
