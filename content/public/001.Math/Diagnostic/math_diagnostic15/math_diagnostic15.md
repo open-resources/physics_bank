@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $5^{9} $=$ 1953125$
+    expr: $6^{2} $=$ 36$
     part1:
       ans1:
-        value: $log_51953125 = 9$
+        value: $log_636 = 2$
       ans2:
-        value: $log_59 = 1953125$
+        value: $log_62 = 36$
       ans3:
-        value: $log_19531259 = 5$
+        value: $log_362 = 6$
       ans4:
-        value: $log_91953125 = 5$
+        value: $log_236 = 6$
       ans5:
         value: Don't Know
 ---

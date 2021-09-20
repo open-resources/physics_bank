@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $m$ = $\dfrac{(x)}{(k - 9l)} $
+    expr: $u$ = $\dfrac{(b)}{(o + 6n)} $
     part1:
       ans1:
-        value: k = ${ 9 l + \frac{x}{m}}$
+        value: o = ${ \frac{b}{u} - 6 n}$
       ans2:
-        value: k = ${- \frac{9 l m}{x}}$
+        value: o = ${\frac{6 n u}{b}}$
       ans3:
-        value: k = ${- \frac{x}{9 l m}}$
+        value: o = ${\frac{b}{6 n u}}$
       ans4:
-        value: k = ${\frac{9 l + m}{x}}$
+        value: o = ${\frac{- 6 n + u}{b}}$
       ans5:
         value: Don't Know
 ---

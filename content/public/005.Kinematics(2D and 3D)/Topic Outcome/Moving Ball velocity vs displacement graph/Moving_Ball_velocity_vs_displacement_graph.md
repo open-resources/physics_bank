@@ -1,51 +1,46 @@
 ---
-title: The Magnitude of a Particle's Vector
-topic: Kinematics(1D)
-author: Jake Bobowski
-source: 2012 Final Q1
-template_version: 1.3
+title: Acceleration for moving ball from Velocity vs Displacement graph
+topic: Kinematics(2D and 3D)
+author: Peyman Yousefi
+source: APSC 181, Lecture 4, Q3
+template_version: 1.1
 attribution: standard
-partialCredit: true
-singleVariant: false
 outcomes:
-- 4.7.3.0
+- 1.7.2.3
 difficulty:
 - undefined
 randomization:
 - undefined
 taxonomy:
 - undefined
-span:
-- undefined
-length:
-- undefined
 tags:
-- PW
-assets: null
+- AP
+- APSC 181 - LA
+assets:
+- L4Q3.png
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: 'Magnitude = '
+    label: $a= $
+    rtol: 0.02
     suffix: $m/s^2$
-    comparison: sigfig
-    digits: 3
 substitutions:
   params:
     vars:
-      title: The Magnitude of a Particle's Vector
+      title: Acceleration for moving ball from Velocity vs Displacement graph
       units: $m/s^2$
-    r_i: -3t
-    r_j: -8t^2 - 8t
-    t: 5
-    choice: acceleration
+    s: 10
 ---
 # {{ params.vars.title }}
+<img src="L4Q3.png" width=90% height=75%>
 
 ## Question Text
 
-A particle has a trajectory given as $\vec{r} = (${{ params.r_i }}$) \hat{\imath} + (${{ params.r_j }}$) \hat{\jmath}$ $m$ for $t$ given in seconds. What is the magnitude of the {{ params.choice }} vector for this particle at $t = $ {{ params.t }} s?
+The graph above shows the movement of a ball, with its displacement, $s$, measured against its velocity, $v$.
+A curve is drawn through the data points as shown.
+Determine the acceleration of the ball when $s = {{params.s}}$.
 
 ### Answer Section
 

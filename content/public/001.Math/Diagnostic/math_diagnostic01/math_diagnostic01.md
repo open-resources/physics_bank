@@ -34,9 +34,9 @@ substitutions:
       ans1:
         value: .inf
       ans2:
-        value: 410000000.0
+        value: 350000000.0
       ans3:
-        value: 4775.503415847774
+        value: 2903.9679487484427
       ans4:
         value: 0.0
       ans5:

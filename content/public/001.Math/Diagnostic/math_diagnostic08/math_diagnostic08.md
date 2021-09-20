@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-27x - 18y }{ 9 }$
+    expr: $\dfrac{-4x + 4y }{ -2 }$
     part1:
       ans1:
-        value: $- 3 x - 2 y$
+        value: $2 x - 2 y$
       ans2:
-        value: $\dfrac{-3x - 2y}{9}$
+        value: $\dfrac{2x - 2y}{-2}$
       ans3:
-        value: $-2x - 3y$
+        value: $-2x + 2y$
       ans4:
-        value: $-27x - 18y$
+        value: $-4x - 4y$
       ans5:
         value: Don't know.
 ---
