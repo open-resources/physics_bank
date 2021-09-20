@@ -52,16 +52,9 @@ parts:
   - file: content/public/001.Math/Diagnostic/math_diagnostic02/math_diagnostic02
   - file: content/public/001.Math/Diagnostic/math_diagnostic07/math_diagnostic07
   - file: content/public/001.Math/Diagnostic/math_diagnostic08/math_diagnostic08
-  - file: content/public/001.Math/Integrals/Rocket/Rocket
-  - file: content/public/001.Math/Topic Outcome/Factor/Factor
-  - file: content/public/001.Math/Algebra/Solve this Inequality/solve_this_inequality
   - file: content/public/001.Math/Derivatives/Vehicle_Velocity/Vehicle_Velocity
   - file: content/public/001.Math/Derivatives/Acceleration_Based_On_Graph/Acceleration_Based_On_Graph
   - file: content/public/001.Math/Derivatives/Velocity Derivatives/velocity_derivative
-  - file: content/public/001.Math/Derivatives/Math Practice 27/math_practice_q27
-  - file: content/public/001.Math/Order of Magnitude/Largest Number/largest_number
-  - file: content/public/001.Math/Significant Figures/significant_figures/significant_figures
-  - file: content/public/001.Math/fraction_equation/fraction_equation
 - caption: Physics in General
   chapters:
   - file: content/public/002.Physics in General/density, mass and volume/potato_volume
@@ -71,14 +64,8 @@ parts:
       Energy Released
   - file: content/public/002.Physics in General/Topic Outcome/Ratio of Inertias/Ratio
       of Inertias
-  - file: content/public/002.Physics in General/Topic Outcome/Ball rolling down an
-      incline/Ball rolling down an incline
-  - file: content/public/002.Physics in General/Topic Outcome/Drawing water from a
-      well/Drawing water from a well
   - file: content/public/002.Physics in General/Topic Outcome/Skateboarder and observer/Skateboarder
       and observer
-  - file: content/public/002.Physics in General/Topic Outcome/A disk and a paintball/A
-      disk and a paintball
   - file: content/public/002.Physics in General/Topic Outcome/What is conserved/What
       is conserved
   - file: content/public/002.Physics in General/Units/Potato Density/Potato Density
@@ -97,7 +84,6 @@ parts:
       Operations
 - caption: Kinematics(1D)
   chapters:
-  - file: content/public/004.Kinematics(1D)/Free Fall/Supply_plane/Supply_plane
   - file: content/public/004.Kinematics(1D)/Free Fall/Mount Etna/Mount Etna
   - file: content/public/004.Kinematics(1D)/Free Fall/Free Fall Turning Point/Free
       Fall Turning Point
@@ -106,7 +92,6 @@ parts:
   - file: content/public/004.Kinematics(1D)/Displacement/Displacement_and_distance_of_particle/displacement_and_distance_of_particle
   - file: content/public/004.Kinematics(1D)/Displacement/Displacement of a vehicle/Displacement
       of a Vehicle
-  - file: content/public/004.Kinematics(1D)/Displacement/Distance_Between_Two_People/Distance_Between_Two_People
   - file: content/public/004.Kinematics(1D)/Displacement/Position_From_Graph/Position_From_Graph
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Kicked_Soccer_Ball/Kicked_Soccer_Ball
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Victoria Falls/Victoria
@@ -115,10 +100,6 @@ parts:
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Throwing Stones/Throwing
       stones
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Vehicle_Crash/Vehicle_Crash
-  - file: content/public/004.Kinematics(1D)/Topic Outcome/Magnitude of a particle
-      vector/Magnitude of a particle vector
-  - file: content/public/004.Kinematics(1D)/Topic Outcome/A Coyote and a Rat/A Coyote
-      and a Rat
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Velocity and Acceleration
       of an object/Velocity and acceleration of an object
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Acceleration, Velocity and
@@ -162,8 +143,6 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Hit_Baseball/Hit_Baseball
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Shooting a steel
       ball/Shooting a steel ball
-  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Velocity, Acceleration
-      and Angle of Particle with Curvilinear motion/velocity_acc_angle_of_particle_with_curvilinear_motion
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Distance and
       time for crate released by a jet/distance_and_time_for_crate_released_by_jet
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Velocity and
@@ -183,6 +162,8 @@ parts:
       of Fighter Jetts/relative_motion_of_fighter_jetts
   - file: content/public/005.Kinematics(2D and 3D)/Cart Raising a Load/cart_raising_a_load
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Rotating Bar/rotating_bar
+  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Moving Ball velocity
+      vs displacement graph/Moving_Ball_velocity_vs_displacement_graph
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/jump_across_stream/jump_across_stream
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Distance_Between_Two_People/Distance_Between_Two_People
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Ball rolling down
