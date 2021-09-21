@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $b$ = $\dfrac{(j)}{(f - 8e)} $
+    expr: $w$ = $\dfrac{(r)}{(u - 9k)} $
     part1:
       ans1:
-        value: f = ${ 8 e + \frac{j}{b}}$
+        value: u = ${ 9 k + \frac{r}{w}}$
       ans2:
-        value: f = ${- \frac{8 b e}{j}}$
+        value: u = ${- \frac{9 k w}{r}}$
       ans3:
-        value: f = ${- \frac{j}{8 b e}}$
+        value: u = ${- \frac{r}{9 k w}}$
       ans4:
-        value: f = ${\frac{b + 8 e}{j}}$
+        value: u = ${\frac{9 k + w}{r}}$
       ans5:
         value: Don't Know
 ---

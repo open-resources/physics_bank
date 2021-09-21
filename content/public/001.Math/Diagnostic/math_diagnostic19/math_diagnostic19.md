@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin209$
+    a: $ \sin239$
     part1:
       ans1:
-        value: $\sin{-151}$
+        value: $\sin{-121}$
       ans2:
-        value: $\sin{151}$
+        value: $\sin{121}$
       ans3:
-        value: $\sin{-29}$
+        value: $\sin{-59}$
       ans4:
-        value: $\sin{29}$
+        value: $\sin{59}$
       ans5:
         value: Don't Know
 ---

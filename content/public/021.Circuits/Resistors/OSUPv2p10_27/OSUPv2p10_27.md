@@ -61,9 +61,9 @@ substitutions:
   params:
     vars:
       title: Greatest and Least Resistor Combinations
-    R1: '33.0'
-    R2: '67.0'
-    R3: '800'
+    R1: '42.0'
+    R2: '65.0'
+    R3: '775'
 ---
 # {{ params.vars.title }}
 Consider a ${{ params.R1 }}\rm\ \Omega$, a ${{ params.R2 }}\rm\ \Omega$, and a ${{ params.R3 }}\rm\ \Omega$ resistor.

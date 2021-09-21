@@ -1,12 +1,12 @@
 ---
-title: Ball in the wind
-topic: Kinematics(2D and 3D)
+title: Maximum Speed of Runner
+topic: Kinematics(1D)
 author: Peyman Yousefi
-source: original
+source: APSC 181, Lecture 5, Q1
 template_version: 1.1
 attribution: standard
 outcomes:
-- 5.5.1.0
+- 4.6.2.0
 difficulty:
 - undefined
 randomization:
@@ -17,33 +17,33 @@ tags:
 - AP
 - APSC 181 - LA
 assets:
-- L5Q4.png
+- L5Q1.png
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $\theta= $
-    suffix: ${\circ}$
+    label: $v_{max}= $
+    suffix: $ft/s$
     rtol: 0.02
 substitutions:
   params:
     vars:
-      title: Ball in the wind
-      units: ${\circ}$
-    v0: 18
-    wind_speed: 3.3
+      title: Maximum Speed of Runner
+      units: $ft/s$
+    yards: 100
+    max_speed_t: 2
+    overall_t: 12
 ---
 # {{ params.vars.title }}
-A child throws a ball upward with a speed of $v\_{0} = {{params.v0}} m/s$.
-A gust of wind imparts a horizontal acceleration of ${{params.wind_speed}} m/s^2$ to the left.
+<img src="L5Q1.png" width=85%>
 
-<img src="L5Q4.png" width=400>
+A runner reaches their maximum speed in {{params.max_speed_t}} $seconds$ from rest with constant acceleration.
+They then maintain that speed and finish the {{params.yards}}-yard dash with an overall time of {{params.overall_t}} $seconds$.
 
 ## Question Text
 
-At what angle must the ball be thrown so that it returns to the child's hand?
-Assume that the wind does not affect vertical motion.
+Determine the maximum speed $v\_{max}$ of the runner.
 
 ### Answer Section
 
