@@ -76,6 +76,8 @@ parts:
       Filter/Terminal Velocity of Coffee Filter
 - caption: Vectors
   chapters:
+  - file: content/public/003.Vectors/Topic Outcome/Barge pulled by tugboats/Barge
+      Pulled by Tugboats
   - file: content/public/003.Vectors/Topic Outcome/Choose_all_Vectors_Scalars/Choose_all_Vectors_Scalars
   - file: content/public/003.Vectors/Topic Outcome/Magnitude and Direction of Vector/Magnitude
       and Direction of Vector
@@ -141,6 +143,8 @@ parts:
       graphs/Projectile Motion graphs
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Salmon passing
       a waterfall/Salmon Passing a Waterfall
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Halloween Gourd
+      Launcher/Halloween Gourd Launcher
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Hit_Baseball/Hit_Baseball
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Shooting a steel
       ball/Shooting a steel ball
@@ -327,6 +331,8 @@ parts:
   chapters:
   - file: content/public/008.Energy/Conservation of Energy/dissipative_process/dissipative_process
   - file: content/public/008.Energy/Conservation of Energy/Bottle Race/Bottle Race
+  - file: content/public/008.Energy/Conservation of Energy/Connected Balls on Hill/Connected
+      Balls on Hill
   - file: content/public/008.Energy/Conservation of Energy/Physics of Roller Coasters/Physics
       of Roller Coasters
   - file: content/public/008.Energy/Conservation of Energy/Falling bucket/Falling
