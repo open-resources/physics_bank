@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $8^{5} $=$ 32768$
+    expr: $3^{6} $=$ 729$
     part1:
       ans1:
-        value: $log_832768 = 5$
+        value: $log_3729 = 6$
       ans2:
-        value: $log_85 = 32768$
+        value: $log_36 = 729$
       ans3:
-        value: $log_327685 = 8$
+        value: $log_7296 = 3$
       ans4:
-        value: $log_532768 = 8$
+        value: $log_6729 = 3$
       ans5:
         value: Don't Know
 ---

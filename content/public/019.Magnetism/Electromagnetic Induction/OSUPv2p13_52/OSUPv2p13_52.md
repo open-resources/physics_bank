@@ -52,7 +52,7 @@ substitutions:
     vars:
       title: Uniformly Decreasing Magnetic Field
     r: '15'
-    B: '2.0'
+    B: '3.0'
     t: '10'
     part2:
       ans1:

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $p$ = $\dfrac{(q)}{(h + 10b)} $
+    expr: $n$ = $\dfrac{(q)}{(m + 4g)} $
     part1:
       ans1:
-        value: h = ${ - 10 b + \frac{q}{p}}$
+        value: m = ${ - 4 g + \frac{q}{n}}$
       ans2:
-        value: h = ${\frac{10 b p}{q}}$
+        value: m = ${\frac{4 g n}{q}}$
       ans3:
-        value: h = ${\frac{q}{10 b p}}$
+        value: m = ${\frac{q}{4 g n}}$
       ans4:
-        value: h = ${\frac{- 10 b + p}{q}}$
+        value: m = ${\frac{- 4 g + n}{q}}$
       ans5:
         value: Don't Know
 ---

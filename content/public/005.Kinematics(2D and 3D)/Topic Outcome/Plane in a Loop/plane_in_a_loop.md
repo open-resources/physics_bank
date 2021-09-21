@@ -44,9 +44,9 @@ substitutions:
   params:
     vars:
       title: Plane in a Loop
-    v: 476
-    h: 556
-    d: 769
+    v: 647
+    h: 550
+    d: 911
 ---
 # {{ params.vars.title }}
 <img src="L11Q2.png" width=85%>
