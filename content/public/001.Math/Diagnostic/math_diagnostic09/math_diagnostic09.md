@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $n$ = $\dfrac{(q)}{(m + 4g)} $
+    expr: $b$ = $\dfrac{(j)}{(f - 8e)} $
     part1:
       ans1:
-        value: m = ${ - 4 g + \frac{q}{n}}$
+        value: f = ${ 8 e + \frac{j}{b}}$
       ans2:
-        value: m = ${\frac{4 g n}{q}}$
+        value: f = ${- \frac{8 b e}{j}}$
       ans3:
-        value: m = ${\frac{q}{4 g n}}$
+        value: f = ${- \frac{j}{8 b e}}$
       ans4:
-        value: m = ${\frac{- 4 g + n}{q}}$
+        value: f = ${\frac{b + 8 e}{j}}$
       ans5:
         value: Don't Know
 ---
