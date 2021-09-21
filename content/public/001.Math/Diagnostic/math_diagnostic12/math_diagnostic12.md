@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #12'
-    expr: $7\over 7- x$ > $ 5$
+    expr: $3\over 3- x$ > $ 7$
     part1:
       ans1:
-        value: (28/5 < x) & (x < 7)
+        value: (18/7 < x) & (x < 3)
       ans2:
-        value: (28/5 > x) & (x > 7)
+        value: (18/7 > x) & (x > 3)
       ans3:
-        value: x > 7/5
+        value: x > 3/7
       ans4:
-        value: (240/7 < x) & (x < 35)
+        value: (56/3 < x) & (x < 21)
       ans5:
         value: Do not know
 ---

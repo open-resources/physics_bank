@@ -9,11 +9,15 @@ outcomes:
 - 6.1.1.0
 - 6.1.1.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
+span:
+- chapter
+length:
+- short
 tags:
 - AP
 - APSC 181 - LA
@@ -31,9 +35,9 @@ substitutions:
     vars:
       title: Velocity of a ball from acceleration
       units: m/s
-    v0: 23
+    v0: 26
     s0: 8
-    k: 0.05
+    k: 0.03
     s: 13
 ---
 # {{ params.vars.title }}

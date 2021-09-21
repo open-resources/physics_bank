@@ -45,7 +45,7 @@ substitutions:
   params:
     vars:
       title: Weight units conversion
-    w_lbs: 166
+    w_lbs: 135
 ---
 # {{ params.vars.title }}
 A students has a mass of {{params.w_lbs}} $lbs$.

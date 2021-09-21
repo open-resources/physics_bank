@@ -12,15 +12,15 @@ outcomes:
 - 1.7.2.0
 - 4.6.2.0
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 0
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - PW
 assets:

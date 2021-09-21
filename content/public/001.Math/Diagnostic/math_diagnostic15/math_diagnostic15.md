@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $6^{2} $=$ 36$
+    expr: $8^{5} $=$ 32768$
     part1:
       ans1:
-        value: $log_636 = 2$
+        value: $log_832768 = 5$
       ans2:
-        value: $log_62 = 36$
+        value: $log_85 = 32768$
       ans3:
-        value: $log_362 = 6$
+        value: $log_327685 = 8$
       ans4:
-        value: $log_236 = 6$
+        value: $log_532768 = 8$
       ans5:
         value: Don't Know
 ---

@@ -9,11 +9,15 @@ outcomes:
 - 4.4.1.0
 - 4.3.1.1
 difficulty:
-- undefined
+- Medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
+span:
+- Section
+length:
+- Short
 tags:
 - AP
 - APSC 181 - LA
@@ -43,7 +47,7 @@ substitutions:
     vars:
       title: Displacement and Distance of a particle
       units: cm
-    seconds: 28
+    seconds: 40
 ---
 # {{ params.vars.title }}
 The position of a particle in centimeters is given by $s(t) = 20 - 9t + t^2$, where $t$ is in seconds.

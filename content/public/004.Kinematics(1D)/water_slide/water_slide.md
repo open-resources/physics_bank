@@ -12,15 +12,15 @@ outcomes:
 - 4.5.1.0
 - 4.6.3.0
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- long
 tags:
 - MP
 assets: null
@@ -53,11 +53,11 @@ part4:
 substitutions:
   params:
     vars:
-      name: Aliyah
+      name: Ximena
       title: Water Slide
     theta: 20
-    l: 600
-    l2: 300.0
+    l: 100
+    l2: 50.0
 ---
 # {{ params.vars.title }}
 What an exciting time to be alive! A water slide has just opened up near {{ params.vars.name }}'s house! It is a ramp, L = {{params.l}} $m$ long at {{params.theta}}$^{\circ}$ to the horizontal.

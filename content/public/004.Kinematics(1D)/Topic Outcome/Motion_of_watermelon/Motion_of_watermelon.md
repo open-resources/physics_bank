@@ -11,15 +11,15 @@ outcomes:
 - 1.7.2.4
 - 4.5.1.0
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- long
 tags:
 - AK
 assets: null
@@ -55,13 +55,13 @@ part4:
 substitutions:
   params:
     vars:
-      name: Emilia
+      name: Ximena
       title: Motion of watermelon
       units1: ${m/s}^2$
       units2: $s$
-    a: 3
-    b: 8
-    c: 6
+    a: 6
+    b: 5
+    c: 3
     part4:
       ans1:
         value: The speed is increasing

@@ -11,15 +11,15 @@ outcomes:
 - 4.1.1.1
 - 4.9.1.0
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- average
 tags:
 - EW
 assets: null
@@ -31,25 +31,25 @@ substitutions:
   params:
     vars:
       title: Vehicle Crash
-      name: Lorenzo
-      vehicle_1: bus
-      vehicle_2: semi-truck
-    dist: 3.88
-    v: 39.7
-    acc: 14.3
-    s_1: 0.3
-    s_2: 1.827
+      name: Santiago
+      vehicle_1: sedan
+      vehicle_2: bus
+    dist: 2.45
+    v: 31.1
+    acc: 12.0
+    s_1: 0.2
+    s_2: 1.333
     part1:
       ans1:
-        value: Lorenzo doesn't hit the bus in front because Lorenzo stops in time.
+        value: Santiago doesn't hit the sedan in front because Santiago stops in time.
       ans2:
-        value: 17.86 $m/s$
+        value: 17.5 $m/s$
       ans3:
-        value: 13.57 $m/s$
+        value: 15.1 $m/s$
       ans4:
-        value: 35.41 $m/s$
+        value: 28.7 $m/s$
       ans5:
-        value: 9.284 $m/s$
+        value: 12.7 $m/s$
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is following {{params.dist}} $m$ behind a {{params.vars.vehicle_1}} when it suddenly brakes with an acceleration of -{{params.acc}} $m/s^2$.

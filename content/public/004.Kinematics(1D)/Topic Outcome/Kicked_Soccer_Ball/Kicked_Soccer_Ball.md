@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 4.1.1.1
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 0
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- avergae
 tags:
 - EW
 assets:

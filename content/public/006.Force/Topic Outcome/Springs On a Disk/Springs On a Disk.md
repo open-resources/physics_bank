@@ -44,11 +44,11 @@ substitutions:
   params:
     vars:
       title: Springs on a Disk
-    w: 189
-    d: 98
-    k: 222
+    w: 187
+    d: 73
+    k: 272
     m: 0.2
-    x: 21
+    x: 12
 ---
 # {{ params.vars.title }}
 <img src="Springs On a Disk.png" width=400>

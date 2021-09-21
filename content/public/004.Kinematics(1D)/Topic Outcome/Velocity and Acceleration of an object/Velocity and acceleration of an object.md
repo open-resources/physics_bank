@@ -11,15 +11,15 @@ outcomes:
 - 4.6.3.0
 - 4.7.3.0
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- average
 tags:
 - PW
 assets: null
@@ -31,21 +31,21 @@ substitutions:
   params:
     vars:
       title: Velocity and Acceleration of an Object
-    v: $8t^2 + 9t$
-    time: 13.8
+    v: $2t^3 - 2t^2 - 5t$
+    time: 17.3
     part1:
       ans1:
-        value: $v = $ 1650.0 $m/s$, $a = $ 230.0 $m/s^2$
+        value: $v = $ 9670.0 $m/s$, $a = $ 1720.0 $m/s^2$
       ans2:
-        value: $v = $ 1650.0 $m/s$, $a = $ 0 $m/s^2$
+        value: $v = $ 9670.0 $m/s$, $a = $ 0 $m/s^2$
       ans3:
-        value: $v = $ 1650.0 $m/s$, $a = $ 9.81 $m/s^2$
+        value: $v = $ 9670.0 $m/s$, $a = $ 9.81 $m/s^2$
       ans4:
-        value: $v = $ 13.8 $m/s$, $a = $ 115.0 $m/s^2$
+        value: $v = $ 17.3 $m/s$, $a = $ 860.0 $m/s^2$
       ans5:
-        value: $v = $ 1650.0 $m/s$, $a = $ -230.0 $m/s^2$
+        value: $v = $ 9670.0 $m/s$, $a = $ -1720.0 $m/s^2$
       ans6:
-        value: $v = $ 1650.0 $m/s$, $a = $ 460.0 $m/s^2$
+        value: $v = $ 9670.0 $m/s$, $a = $ 3440.0 $m/s^2$
 ---
 # {{ params.vars.title }}
 If the velocity of an object in one-dimensional motion is given by $v(t) = $ {{ params.v }}, where the units of $v$ are in $m/s$ and of $t$ are in seconds,

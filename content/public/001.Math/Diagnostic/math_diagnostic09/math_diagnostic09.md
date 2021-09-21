@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $u$ = $\dfrac{(b)}{(o + 6n)} $
+    expr: $p$ = $\dfrac{(q)}{(h + 10b)} $
     part1:
       ans1:
-        value: o = ${ \frac{b}{u} - 6 n}$
+        value: h = ${ - 10 b + \frac{q}{p}}$
       ans2:
-        value: o = ${\frac{6 n u}{b}}$
+        value: h = ${\frac{10 b p}{q}}$
       ans3:
-        value: o = ${\frac{b}{6 n u}}$
+        value: h = ${\frac{q}{10 b p}}$
       ans4:
-        value: o = ${\frac{- 6 n + u}{b}}$
+        value: h = ${\frac{- 10 b + p}{q}}$
       ans5:
         value: Don't Know
 ---

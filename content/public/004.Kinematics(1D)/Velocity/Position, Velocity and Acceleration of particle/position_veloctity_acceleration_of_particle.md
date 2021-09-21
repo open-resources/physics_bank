@@ -10,11 +10,15 @@ outcomes:
 - 4.6.3.0
 - 4.7.3.0
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
+span:
+- chapter
+length:
+- average
 tags:
 - AP
 - APSC 181 - LA
@@ -46,7 +50,7 @@ substitutions:
   params:
     vars:
       title: Position, Velocity and Acceleration of a Particle
-    s0: 48
+    s0: 47
     t: 17
 ---
 # {{ params.vars.title }}

@@ -12,15 +12,15 @@ outcomes:
 - 4.6.1.4
 - 4.7.1.2
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 0
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- avergae
 tags:
 - EW
 assets:

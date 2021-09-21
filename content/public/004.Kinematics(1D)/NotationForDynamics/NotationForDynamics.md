@@ -8,11 +8,15 @@ attribution: standard
 outcomes:
 - 4.6.1.2
 difficulty:
-- undefined
+- Easy
 randomization:
-- undefined
+- 0
 taxonomy:
 - undefined
+span:
+- Section
+length:
+- Short
 tags:
 - APSC 181 - LA
 - Dynamics

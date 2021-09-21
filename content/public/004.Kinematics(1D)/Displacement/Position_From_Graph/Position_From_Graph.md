@@ -11,15 +11,15 @@ outcomes:
 - 1.8.2.0
 - 4.4.1.0
 difficulty:
-- undefined
+- Medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- Chapter
 length:
-- undefined
+- Average
 tags:
 - EW
 assets:
@@ -33,18 +33,18 @@ substitutions:
     vars:
       title: Position From Graph
       units: $m$
-    m: 2.5
+    m: 4.8
     part1:
       ans1:
-        value: '9.5'
+        value: '12.0'
       ans2:
-        value: '4.5'
+        value: '2.2'
       ans3:
         value: '7.0'
       ans4:
-        value: '8.3'
+        value: '9.4'
       ans5:
-        value: '-8.3'
+        value: '-9.4'
 ---
 # {{ params.vars.title }}
 <img src="Q1&Q2image.png" alt = "A graph of velocity versus time. At 0 seconds, the velocity is 4 meters per second. At 1 second, the velocity decreases to 1 meter per second. The velocity increases and at 3 seconds the velocity is 3 meters per second. From 3 to 5 seconds, the velocity is 3 meters per second. The graph has a point labelled A and C. A is labelled at 1 second, with a velocity of 1 meters per second. C is labelled at 4 seconds with a velocity of 3 meters per second." width = 300>

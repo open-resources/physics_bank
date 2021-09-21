@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 4.5.1.1
 difficulty:
-- undefined
+- Easy
 randomization:
-- undefined
+- 1
 taxonomy:
 - undefined
 span:
-- undefined
+- Section
 length:
-- undefined
+- Short
 tags:
 - EW
 assets: null
@@ -30,7 +30,7 @@ substitutions:
   params:
     vars:
       title: Vehicle Speed
-      vehicle: car
+      vehicle: truck
     part1:
       ans1:
         value: constant

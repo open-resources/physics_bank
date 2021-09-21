@@ -12,15 +12,15 @@ outcomes:
 - 1.7.2.4
 - 1.7.2.2
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- long
 tags:
 - PW
 assets: null
@@ -66,9 +66,9 @@ substitutions:
       title: Acceleration of a Particle
       unit1: $s$
       unit2: $m/s^2$
-    c1: 3
-    c2: 5
-    c3_abs: 20
+    c1: 6
+    c2: 9
+    c3_abs: 15
     c3_sign: ' + '
 ---
 # {{ params.vars.title }}

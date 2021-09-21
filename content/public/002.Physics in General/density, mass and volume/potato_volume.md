@@ -10,7 +10,7 @@ singleVariant: false
 outcomes:
 - 13.2.1.2
 difficulty:
-- undefined
+- Easy
 randomization:
 - undefined
 taxonomy:
@@ -21,6 +21,8 @@ length:
 - undefined
 tags:
 - AP
+- Short
+- Chapter
 assets: null
 part1:
   type: number-input
@@ -43,13 +45,13 @@ part3:
 substitutions:
   params:
     vars:
-      name: Emilia
+      name: Ahmed
       title: Potato Volume
       mass_units: kg
       volume_units: m^3
-      mass_potato: 322
-      mass_cube: 56
-      cube_side_length: 2.4320248183532223
+      mass_potato: 299
+      mass_cube: 36
+      cube_side_length: 4.168990822019547
 ---
 # {{ params.vars.title }}
 For our first lab, {{params.vars.name}} decides to measure the density of a potato.

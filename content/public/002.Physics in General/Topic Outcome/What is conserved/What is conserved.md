@@ -12,7 +12,7 @@ outcomes:
 - 8.5.1.0
 - 7.5.1.2
 difficulty:
-- undefined
+- Medium
 randomization:
 - undefined
 taxonomy:
@@ -23,6 +23,8 @@ length:
 - undefined
 tags:
 - PW
+- Short
+- Multi-Chapter
 assets: null
 part1:
   type: multiple-choice

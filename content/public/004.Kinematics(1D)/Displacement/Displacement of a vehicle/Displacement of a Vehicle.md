@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 4.1.1.0
 difficulty:
-- undefined
+- Easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- Section
 length:
-- undefined
+- Short
 tags:
 - PW
 assets: null
@@ -34,15 +34,15 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: sedan
+      vehicle: van
       title: Displacement of a Vehicle
       units: blocks
-    c1: 6
-    c2: 39
-    c3: 75
-    dir1: south
-    dir2: north
-    dir3: south
+    c1: 44
+    c2: 89
+    c3: 95
+    dir1: east
+    dir2: west
+    dir3: north
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }} moves {{ params.c1}} blocks due {{ params.dir1}}, {{ params.c2 }} blocks due {{ params.dir2}}, and another {{ params.c3 }} blocks due {{ params.dir3}}.
