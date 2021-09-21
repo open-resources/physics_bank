@@ -91,6 +91,7 @@ parts:
   - file: content/public/004.Kinematics(1D)/Free Fall/Free Fall Turning Point/Free
       Fall Turning Point
   - file: content/public/004.Kinematics(1D)/Motion Diagrams/Running_Dog/Running_Dog
+  - file: content/public/004.Kinematics(1D)/Speed/Maximum Speed of Runner/max_speed_of_runner
   - file: content/public/004.Kinematics(1D)/Speed/Vehicle_Speed/Vehicle_Speed
   - file: content/public/004.Kinematics(1D)/Displacement/Displacement_and_distance_of_particle/displacement_and_distance_of_particle
   - file: content/public/004.Kinematics(1D)/Displacement/Displacement of a vehicle/Displacement
