@@ -52,6 +52,7 @@ parts:
   - file: content/public/001.Math/Diagnostic/math_diagnostic02/math_diagnostic02
   - file: content/public/001.Math/Diagnostic/math_diagnostic07/math_diagnostic07
   - file: content/public/001.Math/Diagnostic/math_diagnostic08/math_diagnostic08
+  - file: content/public/001.Math/Algebra/Smudge/Smudge
   - file: content/public/001.Math/Derivatives/Vehicle_Velocity/Vehicle_Velocity
   - file: content/public/001.Math/Derivatives/Acceleration_Based_On_Graph/Acceleration_Based_On_Graph
   - file: content/public/001.Math/Derivatives/Velocity Derivatives/velocity_derivative
