@@ -35,10 +35,10 @@ substitutions:
   params:
     vars:
       title: T-bone Collision
-    ma: 1240
-    mb: 1633
-    vak: 67
-    thetad: 30
+    ma: 1462
+    mb: 1746
+    vak: 44
+    thetad: 16
 ---
 # {{ params.vars.title }}
 <img src="T-bone Collision.png" width=400>

@@ -12,15 +12,15 @@ outcomes:
 - 1.7.2.1
 - 4.3.1.0
 - difficulty: null
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- long
 tags:
 - EW
 assets: null
@@ -62,8 +62,8 @@ substitutions:
       title: Rocket
       units1: $m/s^2$
       units2: $s$
-    v_1: 2
-    t_1: 0
+    v_1: 6
+    t_1: 3
     t_2: 6
 ---
 # {{ params.vars.title }}

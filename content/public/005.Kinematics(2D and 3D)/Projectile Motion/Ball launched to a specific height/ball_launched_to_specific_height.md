@@ -8,11 +8,15 @@ attribution: standard
 outcomes:
 - 1.7.2.4
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
+span:
+- chapter
+length:
+- long
 tags:
 - AP
 - APSC 181 - LA
@@ -54,8 +58,8 @@ substitutions:
   params:
     vars:
       title: Projectile of ball launched to a specific height
-    v0: 293
-    distance: 452
+    v0: 274
+    distance: 339
 ---
 # {{ params.vars.title }}
 A ball is launched vertically at point A with an initial speed of $v = {{params.v0}} ft/sec$.

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 14
-    expr: $x^{ -5\over 8}$
+    expr: $x^{ -4\over 6}$
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt[8]{x^{5}}}\end{equation}
+        value: \begin{equation}\frac{1}{\sqrt[6]{x^{4}}}\end{equation}
       ans2:
-        value: \begin{equation}\sqrt[8]{x^{5}}\end{equation}
+        value: \begin{equation}\sqrt[6]{x^{4}}\end{equation}
       ans3:
-        value: \begin{equation}x^{\frac{5}{8}}\end{equation}
+        value: \begin{equation}x^{\frac{2}{3}}\end{equation}
       ans4:
-        value: \begin{equation}- \frac{1}{\sqrt[8]{x^{5}}}\end{equation}
+        value: \begin{equation}- \frac{1}{\sqrt[6]{x^{4}}}\end{equation}
       ans5:
         value: Do not know
 ---

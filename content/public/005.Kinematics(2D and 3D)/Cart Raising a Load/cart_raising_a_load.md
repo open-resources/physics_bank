@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 5.9.1.0
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - APSC 181 - LA
 assets:
@@ -36,9 +36,9 @@ substitutions:
     vars:
       title: Cart raising a load
       units: m/s
-    v_a: 7
-    x: 8
-    h: 4
+    v_a: 5
+    x: 3
+    h: 3
 ---
 # {{ params.vars.title }}
 

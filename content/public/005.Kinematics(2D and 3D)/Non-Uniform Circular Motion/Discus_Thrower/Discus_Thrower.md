@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 5.7.1.2
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - EW
 assets: null
@@ -32,18 +32,18 @@ substitutions:
       title: Discus Thrower
       units: $rad/s$
     r: 4
-    a: 55
+    a: 42
     part1:
       ans1:
-        value: 53.0
+        value: 46.0
       ans2:
-        value: 2765.0
+        value: 2111.0
       ans3:
-        value: 440
+        value: 336
       ans4:
-        value: 13.0
+        value: 11.0
       ans5:
-        value: 19.0
+        value: 16.0
 ---
 # {{ params.vars.title }}
 A discus thrower makes {{ params.r }} complete revolutions from rest while holding the discus at a distance of 1 $m$ from their centre before releasing it.

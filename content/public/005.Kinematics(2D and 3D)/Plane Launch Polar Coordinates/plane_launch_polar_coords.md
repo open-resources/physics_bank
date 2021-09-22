@@ -8,11 +8,15 @@ attribution: standard
 outcomes:
 - 5.7.1.2
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
+span:
+- chapter
+length:
+- long
 tags:
 - AP
 - APSC 181 - LA
@@ -38,10 +42,10 @@ substitutions:
   params:
     vars:
       title: Plane launch Polar Coordinates
-    d: 410
-    r_dot: 240
-    angle1: 55
-    angle2: 41
+    d: 404
+    r_dot: 125
+    angle1: 58
+    angle2: 45
 ---
 # {{ params.vars.title }}
 <img src="L7Q1.png" width=90%>

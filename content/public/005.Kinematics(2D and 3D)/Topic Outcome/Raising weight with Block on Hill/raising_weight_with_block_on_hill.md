@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 5.9.1.0
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- average
 tags:
 - AP
 - APSC 181 - LA
@@ -46,8 +46,8 @@ substitutions:
       title: Raising weight with Block on Hill
       units_v: m/s
       units_a: m/s^2
-    v_b: 2.7
-    a_b: 1.4
+    v_b: 3.7
+    a_b: 1.3
 ---
 # {{ params.vars.title }}
 <img src="L13Q3.png" width=85%>

@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 5.8.1.3
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - MP
 assets:

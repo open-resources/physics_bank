@@ -12,15 +12,15 @@ outcomes:
 - 5.5.1.1
 - 5.2.1.1
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- medium
 tags:
 - MP
 assets: null
@@ -31,22 +31,22 @@ part1:
 substitutions:
   params:
     vars:
-      sport: skier
+      sport: mountain biker
       title: Ski Jump
       units: m
-    v: 24
-    d: 4.08
+    v: 20
+    d: 4.28
     part1:
       ans1:
         value: 9.81
       ans2:
-        value: 15.48
+        value: 13.21
       ans3:
-        value: 19.96
+        value: 17.45
       ans4:
-        value: 21.89
+        value: 18.68
       ans5:
-        value: 29.94
+        value: 26.18
 ---
 # {{ params.vars.title }}
 

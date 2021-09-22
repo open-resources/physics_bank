@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - undefined
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 0
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - unknown
 assets: null

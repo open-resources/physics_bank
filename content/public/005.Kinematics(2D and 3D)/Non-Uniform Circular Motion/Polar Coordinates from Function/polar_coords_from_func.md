@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 5.7.1.2
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- long
 tags:
 - AP
 - APSC 181 - LA
@@ -49,14 +49,14 @@ substitutions:
   params:
     vars:
       title: Polar Coordinates from Functions
-    a1: -4
-    a2: -8
-    b1: 9
-    b2: -8
-    c1: 9
-    c2: 10
-    v: -4i + (9j) + (9k)
-    a: -8i + (-8j) + (10k)
+    a1: -3
+    a2: 2
+    b1: -8
+    b2: -4
+    c1: 6
+    c2: -2
+    v: -3i + (-8j) + (6k)
+    a: 2i + (-4j) + (-2k)
 ---
 # {{ params.vars.title }}
 The velocity and acceleration of a particle at a moment in time is given by $v = {{params.v}}m/s$ and

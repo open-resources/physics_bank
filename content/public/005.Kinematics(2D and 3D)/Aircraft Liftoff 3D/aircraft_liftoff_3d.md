@@ -8,11 +8,15 @@ attribution: standard
 outcomes:
 - 5.7.1.2
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
+span:
+- chapter
+length:
+- average
 tags:
 - AP
 - APSC 181 - LA
@@ -46,10 +50,10 @@ substitutions:
   params:
     vars:
       title: Aircraft Liftoff 3D
-    v: 360
-    z: 301
-    x: 435
-    angle: 0.8552113334772214
+    v: 349
+    z: 353
+    x: 467
+    angle: 0.5585053606381855
 ---
 # {{ params.vars.title }}
 <img src="L10Q1.png" width=85%>

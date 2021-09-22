@@ -9,11 +9,15 @@ outcomes:
 - 5.5.1.2
 - 5.5.1.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
+span:
+- section
+length:
+- average
 tags:
 - AP
 - APSC 181 - LA
@@ -41,9 +45,9 @@ substitutions:
       title: Distance and Time for a crate released by a Jett
       distance_units: $m$
       time_units: $seconds$
-    distance_from_ground: 512
-    speed_of_jett: 692
-    angle: 43
+    distance_from_ground: 797
+    speed_of_jett: 523
+    angle: 67
 ---
 # {{ params.vars.title }}
 The pilot of a jet pulls into a steep {{params.angle}}$^{\circ}$ climb at {{params.speed_of_jett}} $km/h$ and releases a crate at point A, {{params.distance_from_ground}} $m$ above the ground.

@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 5.9.1.0
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - AP
 - APSC 181 - LA
@@ -37,7 +37,7 @@ substitutions:
     vars:
       title: Raising a Package
       units: mm
-    v_a: 290
+    v_a: 331
     t: 5
 ---
 # {{ params.vars.title }}

@@ -11,15 +11,15 @@ outcomes:
 - 1.2.1.0
 - 4.4.1.0
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - EW
 assets: null
@@ -32,32 +32,32 @@ substitutions:
     vars:
       title: Distance Between Two People
       units: $m$
-      name1: Savannah
-      name2: Mateo
-    s: 4
-    ai_1: 3
-    ai_2: 4
+      name1: Ahmed
+      name2: Savannah
+    s: 2
+    ai_1: 2
+    ai_2: 2
     ai_3: 1
     aj_1: 3
-    aj_2: 4
-    aj_3: 3
+    aj_2: 2
+    aj_3: 2
     bi_1: 3
-    bi_2: 1
-    bi_3: 2
-    bj_1: 6
+    bi_2: 3
+    bi_3: 1
+    bj_1: 3
     bj_2: 2
-    bj_3: 3
+    bj_3: 2
     part1:
       ans1:
-        value: 95.0
+        value: 16.0
       ans2:
-        value: 48.0
+        value: 8.1
       ans3:
-        value: 9100.0
+        value: 270.0
       ans4:
-        value: 93.0
+        value: 10.0
       ans5:
-        value: 8600.0
+        value: 110.0
 ---
 # {{ params.vars.title }}
 The position of {{ params.vars.name1 }} as a function of time is given by:

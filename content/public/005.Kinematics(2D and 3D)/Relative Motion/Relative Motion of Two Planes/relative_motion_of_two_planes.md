@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 5.8.1.3
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - AP
 - APSC 181 - LA
@@ -44,9 +44,9 @@ substitutions:
   params:
     vars:
       title: Relative Motion of Two Planes
-    v: 178
-    h: 1285
-    d: 8854
+    v: 281
+    h: 1693
+    d: 8669
     t: 8
 ---
 # {{ params.vars.title }}

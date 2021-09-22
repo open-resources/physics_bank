@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 5.5.1.0
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - PW
 assets: null
@@ -31,20 +31,20 @@ substitutions:
     vars:
       title: Shooting a Steel Ball
     v: 4
-    theta: 29
+    theta: 37
     part1:
       ans1:
-        value: $(4\cos(29^{\circ}), \; -4\sin(29^{\circ}))$
+        value: $(4\cos(37^{\circ}), \; -4\sin(37^{\circ}))$
       ans2:
-        value: $(4\cos(29^{\circ}), \;4\sin(29^{\circ}))$
+        value: $(4\cos(37^{\circ}), \;4\sin(37^{\circ}))$
       ans3:
-        value: $(4\sin(29^{\circ}), \; -4\cos(29^{\circ}))$
+        value: $(4\sin(37^{\circ}), \; -4\cos(37^{\circ}))$
       ans4:
-        value: $(4\sin(29^{\circ}), \;4\cos(29^{\circ}))$
+        value: $(4\sin(37^{\circ}), \;4\cos(37^{\circ}))$
       ans5:
-        value: $(-4\cos(29^{\circ}), \; -4\sin(29^{\circ}))$
+        value: $(-4\cos(37^{\circ}), \; -4\sin(37^{\circ}))$
       ans6:
-        value: $(-4\sin(29^{\circ}), \;4\cos(29^{\circ}))$
+        value: $(-4\sin(37^{\circ}), \;4\cos(37^{\circ}))$
 ---
 # {{ params.vars.title }}
 A small steel ball is shot at {{ params.v }} $m/s$ at a {{ params.theta }}$^{\circ}$ angle above the horizontal direction and its motion is well approximated by projectile motion.

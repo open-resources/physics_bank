@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 5.5.1.0
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - PW
 assets: null
@@ -42,8 +42,8 @@ substitutions:
     vars:
       title: Jumping Salmon
       units: $m/s$
-    h_fall: 3.72
-    dist: 0.837
+    h_fall: 3.75
+    dist: 1.05
     part1:
       ans1:
         value: Time interval for jump, $\Delta t$

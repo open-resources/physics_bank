@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 5.7.1.2
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- average
 tags:
 - AP
 - APSC 181 - LA
@@ -44,10 +44,10 @@ substitutions:
   params:
     vars:
       title: Rotating Bar
-    v: 18
-    h: 142
-    x: 54
-    a: 3
+    v: 26
+    h: 167
+    x: 95
+    a: 2
 ---
 # {{ params.vars.title }}
 <img src="L11Q1.png" width=85%>

@@ -8,11 +8,15 @@ attribution: standard
 outcomes:
 - 1.7.2.3
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
+span:
+- section
+length:
+- short
 tags:
 - AP
 - APSC 181 - LA
@@ -31,7 +35,7 @@ substitutions:
     vars:
       title: Acceleration for moving ball from Velocity vs Displacement graph
       units: $m/s^2$
-    s: 27
+    s: 29
 ---
 # {{ params.vars.title }}
 <img src="L4Q3.png" width=90% height=75%>

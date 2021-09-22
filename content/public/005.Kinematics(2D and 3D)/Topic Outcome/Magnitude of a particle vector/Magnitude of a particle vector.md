@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 4.7.3.0
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - PW
 assets: null
@@ -35,9 +35,9 @@ substitutions:
   params:
     vars:
       title: The Magnitude of a Particle's Vector
-      units: $m/s^2$
-    r_i: -8t
-    r_j: -7t^2 - 6t
+      units: $m/s$
+    r_i: -t^3 + 2t^2 - 8t
+    r_j: -3t^3 - 3t^2 + 8t
     t: 8
     choice: acceleration
 ---

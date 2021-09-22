@@ -11,15 +11,15 @@ outcomes:
 - 5.5.1.0
 - 5.1.1.0
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - MP
 assets:
@@ -38,8 +38,8 @@ substitutions:
     vars:
       title: Ball on a Slanted Table
       units: $m/s$
-    d: 0.8
-    theta: 12
+    d: 1.7
+    theta: 37
 ---
 # {{ params.vars.title }}
 A ball is launched with an initial velocity of $\vec{v_0}$ from one corner of a smooth, flat board.

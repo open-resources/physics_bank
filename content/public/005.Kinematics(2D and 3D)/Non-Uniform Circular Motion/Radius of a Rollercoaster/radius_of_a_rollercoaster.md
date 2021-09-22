@@ -8,11 +8,15 @@ attribution: standard
 outcomes:
 - 5.7.1.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
+span:
+- section
+length:
+- average
 tags:
 - AP
 - APSC 181 - LA
@@ -31,9 +35,9 @@ substitutions:
     vars:
       title: Radius of a Rollercoaster
       units: $m$
-    speed_of_car: 225
+    speed_of_car: 178
     rate_of_decrease: 5
-    a: 5
+    a: 4
 ---
 # {{ params.vars.title }}
 As a rollercoaster passes the bottommost point in a loop, an accelerometer records an acceleration of ${{params.a}}g$.

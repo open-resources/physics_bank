@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 5.8.1.3
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - MP
 assets:
@@ -31,18 +31,18 @@ substitutions:
   params:
     vars:
       title: Rutland Rd
-      vehicle: pickup truck
+      vehicle: car
       units: km/h
-    v: 7
+    v: 2
     part1:
       ans1:
-        value: 9.9 km/h [S 45 $^\circ$ W]
+        value: 2.8 km/h [S 45 $^\circ$ W]
       ans2:
-        value: 9.9 km/h [N 45 $^\circ$ W]
+        value: 2.8 km/h [N 45 $^\circ$ W]
       ans3:
-        value: 9.9 km/h [S 45 $^\circ$ E]
+        value: 2.8 km/h [S 45 $^\circ$ E]
       ans4:
-        value: 7 km/h [N]
+        value: 2 km/h [N]
       ans5:
         value: Impossible to know without knowing how far each car is from the intersection.
 ---

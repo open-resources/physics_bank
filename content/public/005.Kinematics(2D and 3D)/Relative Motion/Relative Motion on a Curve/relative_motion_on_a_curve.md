@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 5.8.1.3
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- average
 tags:
 - AP
 - APSC 181 - LA
@@ -44,11 +44,11 @@ substitutions:
   params:
     vars:
       title: Relative Motion on a Curve
-    v: 44
-    r: 52
-    d: 46
-    a: 1.1
-    theta: 37
+    v: 51
+    r: 39
+    d: 41
+    a: 1.3
+    theta: 24
 ---
 # {{ params.vars.title }}
 <img src="L11Q4.png" width=85%>

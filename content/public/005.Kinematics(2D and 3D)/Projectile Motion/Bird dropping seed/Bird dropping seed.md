@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 5.5.1.0
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- short
 tags:
 - PW
 - tutorial
@@ -37,7 +37,7 @@ substitutions:
   params:
     vars:
       title: Seed Dropped by a Bird
-    v: 3
+    v: 4
     part1:
       ans1:
         value: directly overhead.

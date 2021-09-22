@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 5.4.1.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- long
 tags:
 - AP
 - APSC 181 - LA
@@ -51,10 +51,10 @@ substitutions:
     vars:
       title: Parcel from Aircraft 3D
       units: ft
-    z0: 1210
-    y0: 1279
-    vx0: 146
-    vy0: 43
+    z0: 1682
+    y0: 1230
+    vx0: 132
+    vy0: 53
 ---
 # {{ params.vars.title }}
 ${{params.z0}}ft$ above the ground, a cargo plane flies in a horizontal circle with radius of ${{paramsy.y0}}ft$.

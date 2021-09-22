@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 5.5.1.0
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - EW
 assets: null
@@ -29,19 +29,19 @@ substitutions:
     vars:
       title: Hit Baseball
       units: $m/s$
-    v: 24.6
-    d: 19.3
+    v: 24.5
+    d: 16.0
     part1:
       ans1:
-        value: 23.2 $m/s$ $\hat{x}$
+        value: 23.6 $m/s$ $\hat{x}$
       ans2:
         value: 0 $m/s$
       ans3:
-        value: 23.2 $m/s$
+        value: 23.6 $m/s$
       ans4:
-        value: 8.13 $m/s$
+        value: 6.75 $m/s$
       ans5:
-        value: 23.2 $m/s$ $\hat{x}$ + 8.13 $m/s$ $\hat{y}$
+        value: 23.6 $m/s$ $\hat{x}$ + 6.75 $m/s$ $\hat{y}$
 ---
 # {{ params.vars.title }}
 A baseball is hit at a {{ params.v }} $m/s$, {{ params.d }}$^\circ$ above the horizontal.

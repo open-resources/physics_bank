@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 5.6.2.0
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - EW
 assets: null
@@ -31,16 +31,16 @@ substitutions:
     vars:
       title: Angular Speed
       units: rad/s
-    rev: 7
+    rev: 13
     part1:
       ans1:
-        value: 0.9
+        value: 0.48
       ans2:
-        value: 22.0
+        value: 41.0
       ans3:
-        value: 44.0
+        value: 82.0
       ans4:
-        value: 1.1
+        value: 2.1
 ---
 # {{ params.vars.title }}
 

@@ -11,15 +11,15 @@ outcomes:
 - 5.5.1.0
 - 1.1.1.0
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - PW
 assets:
@@ -32,8 +32,8 @@ substitutions:
   params:
     vars:
       title: Cat in a Laundry Basket
-    w: 25
-    h: 64
+    w: 38
+    h: 66
     part1:
       ans1:
         value: $\Delta t_1 >\Delta t_3 >\Delta t_2$ and $v_{x1} > v_{x2}$

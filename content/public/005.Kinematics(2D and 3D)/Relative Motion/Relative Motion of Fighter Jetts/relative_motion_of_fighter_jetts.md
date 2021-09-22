@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 5.8.1.3
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- long
 tags:
 - AP
 - APSC 181 - LA
@@ -60,12 +60,12 @@ substitutions:
   params:
     vars:
       title: Relative Motion of Fighter Jetts
-    d1: 566
-    d2: 337
-    theta1: 33
-    theta2: 57
-    v_A: 306
-    v_B: 340
+    d1: 451
+    d2: 437
+    theta1: 39
+    theta2: 51
+    v_A: 282
+    v_B: 285
 ---
 # {{ params.vars.title }}
 <img src="L11Q5.png" width=85%>

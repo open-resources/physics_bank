@@ -8,11 +8,15 @@ attribution: standard
 outcomes:
 - 5.5.1.0
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
+span:
+- section
+length:
+- average
 tags:
 - AP
 - APSC 181 - LA
@@ -31,7 +35,7 @@ substitutions:
     vars:
       title: Ball in the wind
       units: ${\circ}$
-    v0: 17
+    v0: 7
     wind_speed: 0.4
 ---
 # {{ params.vars.title }}

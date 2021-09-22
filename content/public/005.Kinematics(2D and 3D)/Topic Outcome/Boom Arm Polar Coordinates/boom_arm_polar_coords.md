@@ -8,11 +8,15 @@ attribution: standard
 outcomes:
 - 5.7.1.2
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
+span:
+- chapter
+length:
+- long
 tags:
 - AP
 - APSC 181 - LA
@@ -55,12 +59,12 @@ substitutions:
     vars:
       title: Boom Arm Polar Coordinates
     d: 7
-    theta: 5
-    dot_theta: 7
+    theta: 7
+    dot_theta: 8
     ddot_theta: 10
-    l: 8
-    dot_l: 7
-    ddot_l: 8
+    l: 6
+    dot_l: 10
+    ddot_l: 7
 ---
 # {{ params.vars.title }}
 <img src="L8Q2.png" width=85%>

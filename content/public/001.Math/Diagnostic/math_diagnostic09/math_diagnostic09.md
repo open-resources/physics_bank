@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $j$ = $\dfrac{(y)}{(o + 4a)} $
+    expr: $e$ = $\dfrac{(q)}{(y + 5o)} $
     part1:
       ans1:
-        value: o = ${ - 4 a + \frac{y}{j}}$
+        value: y = ${ - 5 o + \frac{q}{e}}$
       ans2:
-        value: o = ${\frac{4 a j}{y}}$
+        value: y = ${\frac{5 e o}{q}}$
       ans3:
-        value: o = ${\frac{y}{4 a j}}$
+        value: y = ${\frac{q}{5 e o}}$
       ans4:
-        value: o = ${\frac{- 4 a + j}{y}}$
+        value: y = ${\frac{e - 5 o}{q}}$
       ans5:
         value: Don't Know
 ---

@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 5.7.2.1
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - EW
 assets: null
@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Angular Acceleration
-    v_1: 5
-    v_2: 19
-    t: 10
+    v_1: 9
+    v_2: 20
+    t: 2
     part1:
       ans1:
-        value: 1.4 $rad/s^2$
+        value: 5.5 $rad/s^2$
       ans2:
-        value: 1.4 $m/s^2$
+        value: 5.5 $m/s^2$
       ans3:
-        value: -1.4 $rad/s^2$
+        value: -5.5 $rad/s^2$
       ans4:
-        value: -1.4 $m/s^2$
+        value: -5.5 $m/s^2$
       ans5:
         value: 10 $rad/s^2$
 ---

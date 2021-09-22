@@ -17,15 +17,15 @@ outcomes:
 - 5.8.1.1
 - 4.1.1.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- long
 tags:
 - AK
 - PW
@@ -96,12 +96,12 @@ substitutions:
     vars:
       title: Jump Across Stream
       units: $m$
-    m: 287
-    w_s: 3.0
-    h_s: 1.3
-    v_i: 2
-    v_j: 5
-    h_b: 2.9
+    m: 482
+    w_s: 2.5
+    h_s: 1.2
+    v_i: 6
+    v_j: 4
+    h_b: 2.7
     part5:
       ans1:
         value: Yes, the bear makes it to the other side of the stream.

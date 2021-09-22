@@ -8,11 +8,15 @@ attribution: standard
 outcomes:
 - 5.6.1.0
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
+span:
+- chapter
+length:
+- average
 tags:
 - AP
 - APSC 181 - LA
@@ -31,11 +35,11 @@ substitutions:
     vars:
       title: Cars around a bend
       units: $ft$
-    max_acc_A: 0.4
-    max_acc_B: 0.6
-    ra: 399
-    rb: 446
-    angle: 68
+    max_acc_A: 0.6
+    max_acc_B: 0.7
+    ra: 382
+    rb: 451
+    angle: 54
 ---
 # {{ params.vars.title }}
 Two cars travel at constant speeds around a curve.

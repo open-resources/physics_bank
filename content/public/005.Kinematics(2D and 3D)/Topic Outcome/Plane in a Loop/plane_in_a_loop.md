@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 5.7.1.2
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - AP
 - APSC 181 - LA
@@ -44,9 +44,9 @@ substitutions:
   params:
     vars:
       title: Plane in a Loop
-    v: 639
-    h: 502
-    d: 835
+    v: 617
+    h: 437
+    d: 760
 ---
 # {{ params.vars.title }}
 <img src="L11Q2.png" width=85%>
