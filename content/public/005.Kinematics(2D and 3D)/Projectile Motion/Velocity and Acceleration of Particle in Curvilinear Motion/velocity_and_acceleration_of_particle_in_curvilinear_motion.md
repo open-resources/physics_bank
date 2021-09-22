@@ -38,11 +38,11 @@ substitutions:
   params:
     vars:
       title: Velocity and Acceleration of Particle in Curvilinear motion
-    x_position: 0
+    x_position: 1
     t: 0
     y_position: 0
-    vxcon: 29
-    vxcof: 12
+    vxcon: 27
+    vxcof: 10
 ---
 # {{ params.vars.title }}
 The curvilinear motion of a particle is defined by the x velocity, $v\_{x} = {{params.vxcon}} - {{params.vxcof}}t$ and the y position, $y = 50 - 2t^2$,

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $w$ = $\dfrac{(r)}{(u - 9k)} $
+    expr: $j$ = $\dfrac{(y)}{(o + 4a)} $
     part1:
       ans1:
-        value: u = ${ 9 k + \frac{r}{w}}$
+        value: o = ${ - 4 a + \frac{y}{j}}$
       ans2:
-        value: u = ${- \frac{9 k w}{r}}$
+        value: o = ${\frac{4 a j}{y}}$
       ans3:
-        value: u = ${- \frac{r}{9 k w}}$
+        value: o = ${\frac{y}{4 a j}}$
       ans4:
-        value: u = ${\frac{9 k + w}{r}}$
+        value: o = ${\frac{- 4 a + j}{y}}$
       ans5:
         value: Don't Know
 ---

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{40x + 45y }{ -5 }$
+    expr: $\dfrac{27x - 24y }{ 3 }$
     part1:
       ans1:
-        value: $- 8 x - 9 y$
+        value: $9 x - 8 y$
       ans2:
-        value: $\dfrac{-8x - 9y}{-5}$
+        value: $\dfrac{9x - 8y}{3}$
       ans3:
-        value: $-9x - 8y$
+        value: $-8x + 9y$
       ans4:
-        value: $40x - 45y$
+        value: $27x - 24y$
       ans5:
         value: Don't know.
 ---

@@ -31,26 +31,25 @@ substitutions:
   params:
     vars:
       title: Vehicle Crash
-      name: Ahmed
-      vehicle_1: pickup truck
+      name: Santiago
+      vehicle_1: bus
       vehicle_2: sedan
-    dist: 4.27
-    v: 39.0
-    acc: 12.4
-    s_1: 0.1
-    s_2: 1.689
+    dist: 3.57
+    v: 35.9
+    acc: 15.0
+    s_1: 0.2
+    s_2: 1.978
     part1:
       ans1:
-        value: Ahmed doesn't hit the pickup truck in front because Ahmed stops in
-          time.
+        value: Santiago doesn't hit the bus in front because Santiago stops in time.
       ans2:
-        value: 19.3 $m/s$
+        value: 9.23 $m/s$
       ans3:
-        value: 18.06 $m/s$
+        value: 6.23 $m/s$
       ans4:
-        value: 37.76 $m/s$
+        value: 32.9 $m/s$
       ans5:
-        value: 16.82 $m/s$
+        value: 3.23 $m/s$
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is following {{params.dist}} $m$ behind a {{params.vars.vehicle_1}} when it suddenly brakes with an acceleration of -{{params.acc}} $m/s^2$.

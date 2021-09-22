@@ -55,9 +55,9 @@ substitutions:
     vars:
       name: Santiago
       title: Water Slide
-    theta: 40
-    l: 700
-    l2: 350.0
+    theta: 30
+    l: 200
+    l2: 100.0
 ---
 # {{ params.vars.title }}
 What an exciting time to be alive! A water slide has just opened up near {{ params.vars.name }}'s house! It is a ramp, L = {{params.l}} $m$ long at {{params.theta}}$^{\circ}$ to the horizontal.
