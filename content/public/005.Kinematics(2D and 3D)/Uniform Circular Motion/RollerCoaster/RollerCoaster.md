@@ -56,8 +56,8 @@ substitutions:
       title: Roller Coaster
       units: m/s
       units_2: N
-    r: 14.0
-    m: 221
+    r: 15.0
+    m: 233
 ---
 # {{ params.vars.title }}
 A roller-coaster car moves around a vertical circular loop of radius $R$ = {{params.r}} m.

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $e$ = $\dfrac{(q)}{(y + 5o)} $
+    expr: $m$ = $\dfrac{(w)}{(a - 10i)} $
     part1:
       ans1:
-        value: y = ${ - 5 o + \frac{q}{e}}$
+        value: a = ${ 10 i + \frac{w}{m}}$
       ans2:
-        value: y = ${\frac{5 e o}{q}}$
+        value: a = ${- \frac{10 i m}{w}}$
       ans3:
-        value: y = ${\frac{q}{5 e o}}$
+        value: a = ${- \frac{w}{10 i m}}$
       ans4:
-        value: y = ${\frac{e - 5 o}{q}}$
+        value: a = ${\frac{10 i + m}{w}}$
       ans5:
         value: Don't Know
 ---

@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 10x - 10y = 30
-    formula2: 5x + 5y = 47
+    formula1: 10x - 1y = 14
+    formula2: 4x + 9y = 41
     part1:
       ans1:
-        value: ' x =31/5, y =16/5'
+        value: ' x =167/94, y =177/47'
       ans2:
-        value: ' x =16/5, y =31/5'
+        value: ' x =177/47, y =167/94'
       ans3:
-        value: ' x =-31/5, y =-16/5'
+        value: ' x =-167/94, y =-177/47'
       ans4:
-        value: ' x =-16/5, y =-31/5'
+        value: ' x =-177/47, y =-167/94'
       ans5:
         value: Don't Know
 ---

@@ -31,7 +31,7 @@ substitutions:
   params:
     vars:
       title: Math Practice 13
-    expr: $\dfrac{z^4 }{z^2} $
+    expr: $\dfrac{z^5 }{z^3} $
     part1:
       ans1:
         value: $z^{2}$
@@ -40,7 +40,7 @@ substitutions:
       ans3:
         value: 2z
       ans4:
-        value: (2)z
+        value: (5/3)z
       ans5:
         value: Don't Know
 ---
