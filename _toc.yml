@@ -83,6 +83,7 @@ parts:
   - file: content/public/003.Vectors/Topic Outcome/Magnitude and Direction of Vector/Magnitude
       and Direction of Vector
   - file: content/public/003.Vectors/Coordinate System and Vector Components/Magnitude_And_Components/Magnitude_And_Components
+  - file: content/public/003.Vectors/Coordinate System and Vector Components/Vector_Components/Vector_Components
   - file: content/public/003.Vectors/Notation/Identify_the_figure/Identify_the_figure
   - file: content/public/003.Vectors/Vector Algebra/Vector Operations/L1Q2 Vector
       Operations
