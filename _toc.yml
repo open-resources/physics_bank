@@ -253,6 +253,7 @@ parts:
   - file: content/public/006.Force/Topic Outcome/velocity_netforce/velocity_netforce
   - file: content/public/006.Force/Topic Outcome/Elevator Movement Direction/Elevator
       Movement Direction
+  - file: content/public/006.Force/Topic Outcome/Turning_Car/Turning_car
   - file: content/public/006.Force/Newton's Third Law/Force Vectors/force_vectors
   - file: content/public/006.Force/Newton's Third Law/Tension_In_Rope/Tention_In_Rope
   - file: content/public/006.Force/Newton's Third Law/Ironclad_Beetle/ironclad_beetle_mcq
@@ -279,6 +280,8 @@ parts:
   - file: content/public/006.Force/Newton's First Law/Inertial_Reference_Frames/Inertial_Reference_Frames
 - caption: Momentum and Impulse
   chapters:
+  - file: content/public/007.Momentum and Impulse/Topic Outcome/A flying arrow/A flying
+      arrow
   - file: content/public/007.Momentum and Impulse/Topic Outcome/Test_Uranium_fragments/Test_Uranium_fragments
   - file: content/public/007.Momentum and Impulse/Topic Outcome/Uranium_fragments/Uranium_fragments
   - file: content/public/007.Momentum and Impulse/Topic Outcome/A Coyote and a Rat/A
@@ -397,13 +400,21 @@ parts:
       of  a rolling object
   - file: content/public/010.Rotational Motion/Rolling Motion/Minimum_Coefficient_Of_Static_Friction/Minimum_Coefficient_Of_Static_Friction
   - file: content/public/010.Rotational Motion/Rotational Velocity/Mass_Attached_To_String/Mass_Attached_To_String
+  - file: content/public/010.Rotational Motion/Topic Outcome/Rotating Bar/rotating_bar
+  - file: content/public/010.Rotational Motion/Topic Outcome/Angular_Acceleration/Angular_Acceleration
   - file: content/public/010.Rotational Motion/Topic Outcome/rock_on_string/rock_on_string
+  - file: content/public/010.Rotational Motion/Topic Outcome/angular_speed/angular_speed
   - file: content/public/010.Rotational Motion/Topic Outcome/Wheel_of_fortune/Wheel_of_fortune
+  - file: content/public/010.Rotational Motion/Topic Outcome/Radius of a Rollercoaster/radius_of_a_rollercoaster
   - file: content/public/010.Rotational Motion/Topic Outcome/Spruce and Steel Disk/Spruce
       and Steel Disk
   - file: content/public/010.Rotational Motion/Topic Outcome/Cars on Hills/cars_on_hills
   - file: content/public/010.Rotational Motion/Topic Outcome/Rotational Displacement
       of Tires/Rotational Displacement of tires
+  - file: content/public/010.Rotational Motion/Topic Outcome/Cars on a track/cars_on_a_track
+  - file: content/public/010.Rotational Motion/Topic Outcome/Speed_Skating/Speed_Skating
+  - file: content/public/010.Rotational Motion/Topic Outcome/Cars around a bend/cards_around_bend
+  - file: content/public/010.Rotational Motion/Topic Outcome/Discus_Thrower/Discus_Thrower
   - file: content/public/010.Rotational Motion/Center of Mass/Stack_Of_Pennies/Stack_Of_Pennies
   - file: content/public/010.Rotational Motion/Center of Mass/Centre of Mass of a
       Baton/Centre of Mass of a Baton
