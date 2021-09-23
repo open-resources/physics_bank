@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $m$ = $\dfrac{(w)}{(a - 10i)} $
+    expr: $z$ = $\dfrac{(x)}{(t - 7k)} $
     part1:
       ans1:
-        value: a = ${ 10 i + \frac{w}{m}}$
+        value: t = ${ 7 k + \frac{x}{z}}$
       ans2:
-        value: a = ${- \frac{10 i m}{w}}$
+        value: t = ${- \frac{7 k z}{x}}$
       ans3:
-        value: a = ${- \frac{w}{10 i m}}$
+        value: t = ${- \frac{x}{7 k z}}$
       ans4:
-        value: a = ${\frac{10 i + m}{w}}$
+        value: t = ${\frac{7 k + z}{x}}$
       ans5:
         value: Don't Know
 ---

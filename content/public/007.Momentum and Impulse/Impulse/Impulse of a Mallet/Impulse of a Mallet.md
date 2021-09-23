@@ -35,10 +35,10 @@ substitutions:
   params:
     vars:
       title: Impulse of a Mallet
-    F: 174
-    t1: 0.003
-    t2: 0.009
-    t3: 0.012
+    F: 163
+    t1: 0.001
+    t2: 0.008
+    t3: 0.014
 ---
 # {{ params.vars.title }}
 <img src="Impulse of a Mallet.png" width=400>
