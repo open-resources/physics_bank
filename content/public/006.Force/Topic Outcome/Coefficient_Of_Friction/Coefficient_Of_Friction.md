@@ -11,17 +11,18 @@ outcomes:
 - 6.1.1.6
 - 6.1.1.8
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- average
 tags:
 - EW
+- final_exam
 assets:
 - Q12.png
 part1:
@@ -36,7 +37,7 @@ substitutions:
   params:
     vars:
       title: Coefficient Of Friction
-    m: 173
+    m: 164
     t: 3
 ---
 # {{ params.vars.title }}

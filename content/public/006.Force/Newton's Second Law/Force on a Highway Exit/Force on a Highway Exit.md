@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 6.5.1.3
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- long
 tags:
 - APSC 181 - LA
 - JR
@@ -44,11 +44,11 @@ substitutions:
   params:
     vars:
       title: Force on a Highway Exit
-    vami: 60
-    vcmi: 26
-    W: 4065
-    d: 220
-    r: 168
+    vami: 56
+    vcmi: 34
+    W: 6657
+    d: 169
+    r: 142
 ---
 # {{ params.vars.title }}
 <img src="Force on a Highway Exit.png" width=400>

@@ -14,17 +14,18 @@ outcomes:
 - 8.1.1.0
 - 8.3.1.0
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- long
 tags:
 - MP
+- final_exam
 assets:
 - q10image.png
 part1:
@@ -52,8 +53,8 @@ substitutions:
       units1: m
       units2: J
     m: 5
-    k: 658
-    theta: 29
+    k: 666
+    theta: 28
     mu: 0.25
     d: 5
     g: 9.8

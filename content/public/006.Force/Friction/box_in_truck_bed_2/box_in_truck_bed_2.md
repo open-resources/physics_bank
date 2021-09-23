@@ -11,17 +11,18 @@ outcomes:
 - 6.9.1.0
 - 6.9.1.3
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 1
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- short
 tags:
 - MP
+- final_exam
 assets: null
 part1:
   type: multiple-choice

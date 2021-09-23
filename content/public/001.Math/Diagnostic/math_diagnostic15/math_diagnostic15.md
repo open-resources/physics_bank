@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $7^{2} $=$ 49$
+    expr: $2^{7} $=$ 128$
     part1:
       ans1:
-        value: $log_749 = 2$
+        value: $log_2128 = 7$
       ans2:
-        value: $log_72 = 49$
+        value: $log_27 = 128$
       ans3:
-        value: $log_492 = 7$
+        value: $log_1287 = 2$
       ans4:
-        value: $log_249 = 7$
+        value: $log_7128 = 2$
       ans5:
         value: Don't Know
 ---

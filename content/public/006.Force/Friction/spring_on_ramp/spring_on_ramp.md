@@ -14,15 +14,15 @@ outcomes:
 - 6.9.1.3
 - 6.11.2.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- long
 tags:
 - MP
 assets:
@@ -50,11 +50,11 @@ substitutions:
     vars:
       title: Spring on Ramp
       units: m
-    m: 7
+    m: 9
     theta: 37
-    k: 250
+    k: 100
     us: 0.6
-    uk: 0.36
+    uk: 0.37
 ---
 # {{ params.vars.title }}
 In the figure below m = {{ params.m }} kg, $\theta$ = {{ params.theta }} $^\circ$, and k = {{ params.k }} N/m.

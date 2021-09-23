@@ -13,15 +13,15 @@ outcomes:
 - 6.2.1.2
 - 6.3.1.2
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- long
 tags:
 - MP
 assets:
@@ -59,9 +59,9 @@ substitutions:
       title: Ropes and Blocks
       units1: $\frac{m}{s^2}$
       units2: N
-    m_a: 4
-    m_b: 2
-    m_c: 3
+    m_a: 1
+    m_b: 4
+    m_c: 1
     f_a: 45
 ---
 # {{ params.vars.title }}

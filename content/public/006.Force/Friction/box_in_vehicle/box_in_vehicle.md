@@ -11,15 +11,15 @@ outcomes:
 - 6.9.1.0
 - 6.9.1.3
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - MP
 assets: null
@@ -31,8 +31,8 @@ substitutions:
   params:
     vars:
       title: Box in a Vehicle
-      vehicle: van
-      direction: negative
+      vehicle: car
+      direction: positive
     part1:
       ans1:
         value: Kinetic friction, positive x-direction

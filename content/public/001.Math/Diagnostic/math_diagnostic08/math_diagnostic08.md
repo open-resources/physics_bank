@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{18x + 12y }{ -2 }$
+    expr: $\dfrac{36x - 72y }{ 9 }$
     part1:
       ans1:
-        value: $- 9 x - 6 y$
+        value: $4 x - 8 y$
       ans2:
-        value: $\dfrac{-9x - 6y}{-2}$
+        value: $\dfrac{4x - 8y}{9}$
       ans3:
-        value: $-6x - 9y$
+        value: $-8x + 4y$
       ans4:
-        value: $18x - 12y$
+        value: $36x - 72y$
       ans5:
         value: Don't know.
 ---

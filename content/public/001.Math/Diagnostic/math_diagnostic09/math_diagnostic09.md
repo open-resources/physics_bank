@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $z$ = $\dfrac{(x)}{(t - 7k)} $
+    expr: $g$ = $\dfrac{(d)}{(j + 8m)} $
     part1:
       ans1:
-        value: t = ${ 7 k + \frac{x}{z}}$
+        value: j = ${ \frac{d}{g} - 8 m}$
       ans2:
-        value: t = ${- \frac{7 k z}{x}}$
+        value: j = ${\frac{8 g m}{d}}$
       ans3:
-        value: t = ${- \frac{x}{7 k z}}$
+        value: j = ${\frac{d}{8 g m}}$
       ans4:
-        value: t = ${\frac{7 k + z}{x}}$
+        value: j = ${\frac{g - 8 m}{d}}$
       ans5:
         value: Don't Know
 ---

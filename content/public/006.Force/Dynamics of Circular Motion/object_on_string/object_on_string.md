@@ -13,15 +13,15 @@ outcomes:
 - 6.12.1.1
 - 6.12.2.0
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- average
 tags:
 - MP
 assets: null
@@ -34,16 +34,16 @@ substitutions:
     vars:
       title: Object Swung in Circular Path
       units: N
-    m: 1.75
-    r: 9.45
-    w: 5
+    m: 1.11
+    r: 8.89
+    w: 6
     part1:
       ans1:
-        value: 396.29
+        value: 344.37
       ans2:
-        value: 251.37
+        value: 258.54
       ans3:
-        value: 413.44
+        value: 355.24
       ans4:
         value: 19.6
 ---

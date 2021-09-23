@@ -80,9 +80,9 @@ substitutions:
   params:
     vars:
       title: Charging Capacitors
-    a: '55'
-    b: '25'
-    v: '700'
+    a: '60'
+    b: '10'
+    v: '400'
 ---
 # {{ params.vars.title }}
 A {{params.a }} $\textrm{ pF}$ capacitor is charged to a potential difference of {{params.v }} $\textrm{ V}$. Its terminals are then connected to those of an uncharged {{params.b }} $\textrm{ pF}$ capacitor.

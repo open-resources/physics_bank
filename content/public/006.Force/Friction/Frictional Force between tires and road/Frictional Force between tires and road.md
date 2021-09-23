@@ -12,15 +12,15 @@ outcomes:
 - 6.12.1.1
 - 6.3.1.3
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 1
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- average
 tags:
 - PW
 assets: null

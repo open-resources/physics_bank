@@ -44,9 +44,9 @@ substitutions:
   params:
     vars:
       title: Relative Motion on a Curve
-    v: 44
-    r: 28
-    d: 28
+    v: 50
+    r: 62
+    d: 22
     a: 1.5
     theta: 42
 ---

@@ -37,15 +37,15 @@ substitutions:
       ans1:
         value: The average acceleration
       ans2:
-        value: Momentum
+        value: velocity
       ans3:
-        value: Displacement
+        value: Weight
       ans4:
-        value: The position in a 1 dimensional system
+        value: Volume
       ans5:
-        value: Power
+        value: Entropy
       ans6:
-        value: Length
+        value: Mass
 ---
 # {{ params.vars.title }}
 

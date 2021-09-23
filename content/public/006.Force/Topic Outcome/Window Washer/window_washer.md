@@ -11,15 +11,15 @@ outcomes:
 - 6.1.1.4
 - 6.1.1.5
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - AP
 - APSC 181 - LA
@@ -38,8 +38,8 @@ substitutions:
     vars:
       title: Window Washer
       units: ft/s^2
-    m: 151
-    f: 65
+    m: 182
+    f: 38
 ---
 # {{ params.vars.title }}
 

@@ -14,15 +14,15 @@ outcomes:
 - 6.7.1.0
 - 6.9.1.3
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - PW
 assets: null
@@ -38,12 +38,12 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: truck
+      vehicle: sedan
       title: A Crate's Maximum Acceleration without Slipping
       units: $m/s^2$
-    mu_s: 0.97
-    mu_k: 0.32
-    theta: 25
+    mu_s: 0.73
+    mu_k: 0.37
+    theta: 26
 ---
 # {{ params.vars.title }}
 A wood crate sits in the back of a {{ params.vars.vehicle }}.

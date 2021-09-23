@@ -11,17 +11,18 @@ outcomes:
 - 6.1.1.4
 - 2.4.1.2
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- long
 tags:
 - PW
+- final_exqm
 assets:
 - q14_2012Final.png
 part1:
@@ -61,21 +62,21 @@ substitutions:
       title: A Frictionless Air Track?
       name: Emilia
       units: $m/s^2$
-    m1: 401.5
-    m2: 52.9
-    d_a: 0.03
-    mean: 1.5
-    sd: 0.155
-    a1: 1.52
-    a2: 1.72
-    a3: 1.73
-    a4: 1.54
-    a5: 1.43
-    a6: 1.31
-    a7: 1.64
-    a8: 1.32
-    a9: 1.3
-    a10: 1.44
+    m1: 287.2
+    m2: 50.75
+    d_a: 0.01
+    mean: 1.53
+    sd: 0.134
+    a1: 1.4
+    a2: 1.67
+    a3: 1.6
+    a4: 1.65
+    a5: 1.37
+    a6: 1.42
+    a7: 1.46
+    a8: 1.78
+    a9: 1.4
+    a10: 1.58
     part4:
       ans1:
         value: The track is frictionless because $a_{expected}$ does not agree with

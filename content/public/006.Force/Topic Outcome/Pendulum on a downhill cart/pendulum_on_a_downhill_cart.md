@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 6.1.1.8
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- average
 tags:
 - AP
 - APSC 181 - LA
@@ -38,7 +38,7 @@ substitutions:
       title: Pendulum on a Downhill Cart
       units: ^{\circ}
     a: 3
-    theta: 11
+    theta: 13
 ---
 # {{ params.vars.title }}
 

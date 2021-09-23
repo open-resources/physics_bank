@@ -12,15 +12,15 @@ outcomes:
 - 6.3.1.2
 - 6.8.1.0
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - PW
 assets: null
@@ -32,8 +32,8 @@ substitutions:
   params:
     vars:
       title: Direction of Movement of the Elevator
-    m_st: 628
-    m_sc: 644
+    m_st: 426
+    m_sc: 445
     part1:
       ans1:
         value: Downward.

@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 6.1.1.8
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- long
 tags:
 - APSC 181 - LA
 - JR
@@ -44,12 +44,12 @@ substitutions:
   params:
     vars:
       title: Slider in a Rotating Tube
-    m: 0.25
-    w: 4
-    wdot: -7
-    r: 0.72
-    rdot: -2.1
-    rddot: 3.6
+    m: 0.27
+    w: 2
+    wdot: -9
+    r: 0.62
+    rdot: -0.6
+    rddot: 2.7
 ---
 # {{ params.vars.title }}
 <img src="Slider in a rotating Tube.png" width=400>

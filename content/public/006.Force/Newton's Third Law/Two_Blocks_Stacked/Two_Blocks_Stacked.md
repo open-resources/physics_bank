@@ -16,15 +16,15 @@ outcomes:
 - 6.7.1.0
 - 6.9.1.3
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- average
 tags:
 - EW
 assets:
@@ -44,8 +44,8 @@ substitutions:
       title: Two Blocks Stacked
       units: N
     m: 13
-    f: 0.3
-    t: 49
+    f: 0.42
+    t: 45
 ---
 # {{ params.vars.title }}
 Blocks A and B each have a mass $m$ = {{params.m}} $kg$.

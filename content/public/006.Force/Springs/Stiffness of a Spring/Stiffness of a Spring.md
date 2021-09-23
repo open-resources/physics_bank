@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 6.11.2.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- long
 tags:
 - APSC 181 - LA
 - JR
@@ -35,11 +35,11 @@ substitutions:
   params:
     vars:
       title: Stiffness of a Spring
-    h: 451
-    F: 123
-    x: 207
-    d: 67
-    m: 4
+    h: 358
+    F: 154
+    x: 256
+    d: 75
+    m: 3
 ---
 # {{ params.vars.title }}
 <img src="Stiffness of a Spring.png" width=400>

@@ -38,7 +38,7 @@ substitutions:
     vars:
       title: Box on a Slant with a Pulley
       units: $kg$
-    theta: 12
+    theta: 31
     mu: 0.2
     m: 9
 ---

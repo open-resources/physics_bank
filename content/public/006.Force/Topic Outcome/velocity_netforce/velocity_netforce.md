@@ -11,15 +11,15 @@ outcomes:
 - 5.1.1.1
 - 5.11.1
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- short
 tags:
 - MP
 assets:

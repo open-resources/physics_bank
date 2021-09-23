@@ -11,15 +11,15 @@ outcomes:
 - 6.9.1.1
 - 6.9.1.4
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 0
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - unknown
 assets:

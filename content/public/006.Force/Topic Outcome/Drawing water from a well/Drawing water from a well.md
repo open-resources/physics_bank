@@ -14,17 +14,16 @@ outcomes:
 difficulty:
 - Medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- long
 tags:
 - PW
-- Average
-- Multi-Chapter
+- final_exam
 assets:
 - q11_2013practiceFinal.png
 part1:
@@ -51,10 +50,10 @@ substitutions:
       title: Drawing Water from a Well
       unit1: $N$
       unit2: $m$
-    M: 4.54
-    m: 3.07
-    R: 0.675
-    t: 8.31
+    M: 3.68
+    m: 4.95
+    R: 0.473
+    t: 6.78
 ---
 # {{ params.vars.title }}
 As shown in the figure, a solid, uniform, frictionless cylindrical reel of mass $M = $ {{ params.M }} $kg$ and radius $R = $ {{ params.R }} $m$ is used to draw water from a well. A bucket of mass $m = $ {{ params.m }} $kg$ is  attached to a massless cord that is wrapped around the cylinder.

@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 6.1.1.8
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- long
 tags:
 - APSC 181 - LA
 - JR
@@ -44,11 +44,11 @@ substitutions:
   params:
     vars:
       title: Springs on a Disk
-    w: 154
-    d: 54
-    k: 333
-    m: 0.2
-    x: 26
+    w: 152
+    d: 99
+    k: 231
+    m: 0.5
+    x: 10
 ---
 # {{ params.vars.title }}
 <img src="Springs On a Disk.png" width=400>

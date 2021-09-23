@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 6.10.1.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - MP
 assets: null
@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Cyclist with Airfoil
-    v1: 164
-    v2: 38
-    age: 50
+    v1: 178
+    v2: 48
+    age: 47
     part1:
       ans1:
-        value: 18.6 times.
+        value: 13.8 times.
       ans2:
-        value: 4.32 times.
+        value: 3.71 times.
       ans3:
-        value: 0.232 times.
+        value: 0.27 times.
       ans4:
-        value: 0.0537 times.
+        value: 0.0727 times.
       ans5:
         value: It would be equal to their maximum thrust.
 ---
