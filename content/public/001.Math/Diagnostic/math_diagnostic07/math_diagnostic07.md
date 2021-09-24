@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 3x - 3y = 25
-    formula2: 1x + 5y = 22
+    formula1: 10x - 4y = 6
+    formula2: 8x + 3y = 11
     part1:
       ans1:
-        value: ' x =191/18, y =41/18'
+        value: ' x =1, y =1'
       ans2:
-        value: ' x =41/18, y =191/18'
+        value: ' x =1, y =1'
       ans3:
-        value: ' x =-191/18, y =-41/18'
+        value: ' x =-1, y =-1'
       ans4:
-        value: ' x =-41/18, y =-191/18'
+        value: ' x =-1, y =-1'
       ans5:
         value: Don't Know
 ---

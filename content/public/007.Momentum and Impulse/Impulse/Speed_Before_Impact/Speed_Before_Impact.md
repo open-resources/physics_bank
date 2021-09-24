@@ -34,16 +34,16 @@ substitutions:
       title: Speed Before Impact
       vehicle: truck
       units: $m/s$
-    m: 680
+    m: 615
     part1:
       ans1:
-        value: 79.0
+        value: 88.0
       ans2:
-        value: 40.0
+        value: 44.0
       ans3:
-        value: 20.0
+        value: 22.0
       ans4:
-        value: 10.0
+        value: 11.0
       ans5:
         value: 0
 ---

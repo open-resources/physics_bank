@@ -43,11 +43,11 @@ substitutions:
   params:
     vars:
       title: Log up a Hill
-    W: 838
-    t: 20
-    v: 5
-    P: 2
-    P2: 4
+    W: 740
+    t: 10
+    v: 2
+    P: 5
+    P2: 7
 ---
 # {{ params.vars.title }}
 <img src="Log up a Hill.png" width=400>

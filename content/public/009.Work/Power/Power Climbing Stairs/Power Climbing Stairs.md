@@ -45,8 +45,8 @@ substitutions:
     vars:
       title: Power Climbing Stairs
     W: 199
-    t: 4
-    h: 8
+    t: 7
+    h: 14
 ---
 # {{ params.vars.title }}
 <img src="Power Climbing Stairs.png" width=400>

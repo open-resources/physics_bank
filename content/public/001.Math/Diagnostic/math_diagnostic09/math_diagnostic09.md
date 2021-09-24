@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $g$ = $\dfrac{(d)}{(j + 8m)} $
+    expr: $t$ = $\dfrac{(a)}{(l + 3h)} $
     part1:
       ans1:
-        value: j = ${ \frac{d}{g} - 8 m}$
+        value: l = ${ \frac{a}{t} - 3 h}$
       ans2:
-        value: j = ${\frac{8 g m}{d}}$
+        value: l = ${\frac{3 h t}{a}}$
       ans3:
-        value: j = ${\frac{d}{8 g m}}$
+        value: l = ${\frac{a}{3 h t}}$
       ans4:
-        value: j = ${\frac{g - 8 m}{d}}$
+        value: l = ${\frac{- 3 h + t}{a}}$
       ans5:
         value: Don't Know
 ---

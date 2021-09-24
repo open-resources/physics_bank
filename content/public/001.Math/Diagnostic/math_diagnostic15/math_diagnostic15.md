@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $2^{7} $=$ 128$
+    expr: $3^{6} $=$ 729$
     part1:
       ans1:
-        value: $log_2128 = 7$
+        value: $log_3729 = 6$
       ans2:
-        value: $log_27 = 128$
+        value: $log_36 = 729$
       ans3:
-        value: $log_1287 = 2$
+        value: $log_7296 = 3$
       ans4:
-        value: $log_7128 = 2$
+        value: $log_6729 = 3$
       ans5:
         value: Don't Know
 ---
