@@ -134,6 +134,8 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Parcel from Aircraft 3D/parcel_from_aircraft_3d
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Cat in a Laundry
       Basket/Cat in a Laundry Basket
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Horizontal Jump/Horizontal
+      Jump
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Slanted Table/slanted_table
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/ski_jump/ski_jump
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Bird dropping
@@ -411,6 +413,7 @@ parts:
   - file: content/public/010.Rotational Motion/Topic Outcome/Acceleration around a
       turn/Acceleration around a turn
   - file: content/public/010.Rotational Motion/Topic Outcome/angular_speed/angular_speed
+  - file: content/public/010.Rotational Motion/Topic Outcome/Boom Arm Polar Coordinates/boom_arm_polar_coords
   - file: content/public/010.Rotational Motion/Topic Outcome/Wheel_of_fortune/Wheel_of_fortune
   - file: content/public/010.Rotational Motion/Topic Outcome/Radius of a Rollercoaster/radius_of_a_rollercoaster
   - file: content/public/010.Rotational Motion/Topic Outcome/Spruce and Steel Disk/Spruce
