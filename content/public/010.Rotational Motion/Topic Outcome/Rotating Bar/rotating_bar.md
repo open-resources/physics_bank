@@ -44,9 +44,9 @@ substitutions:
   params:
     vars:
       title: Rotating Bar
-    v: 30
-    h: 142
-    x: 106
+    v: 19
+    h: 149
+    x: 95
     a: 2
 ---
 # {{ params.vars.title }}

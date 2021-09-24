@@ -61,17 +61,17 @@ part4:
 substitutions:
   params:
     vars:
-      name: Lorenzo
+      name: Mateo
       title: Toboggan hill
       units1_2_3: $kJ$
       units_4: $m/s$
-    m: 80
-    l: 92
-    ang_horiz: 18
-    fr: 65
-    fwind: 19
-    theta: 15
-    v_i: 2
+    m: 71
+    l: 87
+    ang_horiz: 22
+    fr: 87
+    fwind: 20
+    theta: 19
+    v_i: 1
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} ({{params.m}} $kg$) slides on their toboggan down a hill. The hill is {{params.l}} long and at an angle of {{params.ang_horiz}}$^\circ$ to the horizontal. They feel a friction force from the snow of $F\_{fr} =$ {{params.fr}} $N$, and another force from the wind $F\_{wind} =$ {{params.fwind}} $N$ blowing {{params.theta}}$^\circ$ below the horizontal. The system is {{params.vars.name}} and their sled.

@@ -44,6 +44,11 @@ substitutions:
         value: Graphs (iv) and (v)
 ---
 # {{ params.vars.title }}
+
+## Part 1
+
+Which of the below sets of graphs is consistent with projectile motion? Assume that gravity acts in the negative $y$-direction.
+
 <img longdesc="Projectile Motion graphs.md#desc" alt="Figure of six graphs." src="q1_2013Mid1.png" width="100%">
 
 <div id="desc">
@@ -56,10 +61,6 @@ substitutions:
 - Graph (vi) is a velocity-time graph. It is a horizontal line which crosses the vertical axis at a positive value.
 <p>Long description ends.</p>
 <div>
-
-## Part 1
-
-Which of the above sets of graphs is consistent with projectile motion?
 
 ### Answer Section
 

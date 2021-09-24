@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $m$ = $\dfrac{(p)}{(x + 2h)} $
+    expr: $w$ = $\dfrac{(v)}{(e + 10y)} $
     part1:
       ans1:
-        value: x = ${ - 2 h + \frac{p}{m}}$
+        value: e = ${ \frac{v}{w} - 10 y}$
       ans2:
-        value: x = ${\frac{2 h m}{p}}$
+        value: e = ${\frac{10 w y}{v}}$
       ans3:
-        value: x = ${\frac{p}{2 h m}}$
+        value: e = ${\frac{v}{10 w y}}$
       ans4:
-        value: x = ${\frac{- 2 h + m}{p}}$
+        value: e = ${\frac{w - 10 y}{v}}$
       ans5:
         value: Don't Know
 ---

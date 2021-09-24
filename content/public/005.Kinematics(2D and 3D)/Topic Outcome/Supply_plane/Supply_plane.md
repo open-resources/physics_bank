@@ -29,7 +29,8 @@ part1:
     allow-blank: true
     label: $R= $
     suffix: $m$
-    comparison: sigfig
+    comparison: relabs
+    rtol: 0.01
     digits: 3
 part2:
   type: number-input
@@ -38,7 +39,8 @@ part2:
     allow-blank: true
     label: $\overrightarrow{a}= $
     suffix: $m/s^2 \ \ \hat\jmath$
-    comparison: sigfig
+    comparison: relabs
+    rtol: 0.01
     digits: 3
 part3:
   type: number-input
@@ -47,7 +49,8 @@ part3:
     allow-blank: true
     label: $V_x= $
     suffix: $m/s \ \ \hat\imath$
-    comparison: sigfig
+    comparison: relabs
+    rtol: 0.01
     digits: 3
 part4:
   type: number-input
@@ -56,7 +59,8 @@ part4:
     allow-blank: true
     label: $V_y= $
     suffix: $m/s \ \ \hat\jmath$
-    comparison: sigfig
+    comparison: relabs
+    rtol: 0.01
     digits: 3
 substitutions:
   params:
@@ -67,8 +71,8 @@ substitutions:
       units3: $m/s \ \ \hat\imath$
       units4: $m/s \ \ \hat\jmath$
     h: 130
-    s: 160
-    vert: 50
+    s: 120
+    vert: 40
 ---
 # {{ params.vars.title }}
 A supply plane needs to drop a package of food to scientists working on a glacier in Greenland.
