@@ -50,16 +50,16 @@ substitutions:
   params:
     vars:
       title: Aircraft Liftoff 3D
-    v: 378
-    z: 338
-    x: 424
-    angle: 0.3490658503988659
+    v: 336
+    z: 283
+    x: 409
+    angle: 0.66
 ---
 # {{ params.vars.title }}
 <img src="L10Q1.png" width=85%>
 
-A passenger plane takes off at $A$ and climbs at a steady angle, $\theta\_{1} = {{params.angle}}^{\circ}$ in the y-z plane at a speed of ${{params.v}}km/h$. The passenger plane is tracked by a radar dish at $O$.
-Calculate the following values as the passenger plane passes point $B$, $x = {{params.x}}m$ and $z = {{params.z}}m$.
+A passenger plane takes off at $A$ and climbs at a steady angle, $\theta\_{1} = {{params.angle}}^{\circ}$ in the y-z plane at a speed of {{params.v}} $km/h$. The passenger plane is tracked by a radar dish at $O$.
+Calculate the following values as the passenger plane passes point $B$, $x =$ {{params.x}} $m$ and $z =$ {{params.z}} $m$.
 
 ## Part 1
 

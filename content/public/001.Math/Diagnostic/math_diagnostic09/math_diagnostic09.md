@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $t$ = $\dfrac{(a)}{(l + 3h)} $
+    expr: $m$ = $\dfrac{(p)}{(x + 2h)} $
     part1:
       ans1:
-        value: l = ${ \frac{a}{t} - 3 h}$
+        value: x = ${ - 2 h + \frac{p}{m}}$
       ans2:
-        value: l = ${\frac{3 h t}{a}}$
+        value: x = ${\frac{2 h m}{p}}$
       ans3:
-        value: l = ${\frac{a}{3 h t}}$
+        value: x = ${\frac{p}{2 h m}}$
       ans4:
-        value: l = ${\frac{- 3 h + t}{a}}$
+        value: x = ${\frac{- 2 h + m}{p}}$
       ans5:
         value: Don't Know
 ---

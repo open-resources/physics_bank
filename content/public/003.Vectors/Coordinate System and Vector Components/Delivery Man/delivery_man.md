@@ -81,13 +81,13 @@ substitutions:
     vars:
       title: Delivery Man
       units: km
-    dist1: 20
-    dist2: 20
-    dist3: 4
-    dist4: 60
+    dist1: 60
+    dist2: 80
+    dist3: 8
+    dist4: 50
 ---
 # {{ params.vars.title }}
-A delivery person starts at the post office, drives {{params.dist1}} km north, then {{params.dist2}} km west, then {{params.dist3}} km northeast, and finally {{params.dist4}} km north to stop for lunch. Use the analytical method to determine the following.
+A delivery person starts at the post office, drives {{params.dist1}} km north, then {{params.dist2}} km west, then {{params.dist3}} km northeast, and finally {{params.dist4}} km north to stop for lunch.  Assume $+y$ is to the North, and $+x$ is to the East. Use the analytical method to determine the following:
 
 ## Part 1
 
@@ -131,7 +131,7 @@ Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 6
 
-What is their compass heading on the return trip? Assume the +x-axis is to the east.
+What is their compass heading on the return trip? Pay close attention to how the positive direction of the angle is labeled in the input box.
 
 ### Answer Section
 

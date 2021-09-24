@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 7x + -2 > -3x + 2
+      formula: 8x + -10 > -10x + 1
     part1:
       ans1:
-        value: x > 2/5
+        value: x > 11/18
       ans2:
-        value: x < 2/5
+        value: x < 11/18
       ans3:
-        value: x < 5/2
+        value: x < 18/11
       ans4:
-        value: x > 5/2
+        value: x > 18/11
       ans5:
         value: Don't Know
 ---

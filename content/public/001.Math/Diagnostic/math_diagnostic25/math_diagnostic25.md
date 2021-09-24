@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice Q25
-    expr: $\dfrac{ 4-e^{(-10x)}}{6-x}$
+    expr: $\dfrac{ 9-e^{(-4x)}}{9-x}$
     part1:
       ans1:
-        value: 1/2
+        value: 8/9
       ans2:
         value: Negative Infinity
       ans3:
-        value: 0.6666666666666666
+        value: 1.0
       ans4:
-        value: 4
+        value: 9
       ans5:
         value: Don't Know
 ---

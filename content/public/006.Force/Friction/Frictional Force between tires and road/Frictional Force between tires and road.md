@@ -34,7 +34,7 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: ice skates
+      vehicle: a bicycle
       title: Frictional Force between Tires and the Road
 ---
 # {{ params.vars.title }}

@@ -67,13 +67,13 @@ substitutions:
       unit1: $s$
       unit2: rad
       unit3: $m/s$
-    v0: 1.08
-    h: 64.3
+    v0: 2.65
+    h: 79.4
 ---
 # {{ params.vars.title }}
 A small ball is launched from a horizontal cliff with initial speed {{ params.v0 }} $m/s$. The side of the cliff is sloped. The ball makes contact with the cliff side after falling a vertical distance of {{ params.h }} cm.
 
-![Figure of a ball launched from a horizontal cliff with a sloped side. Theta is the angle between the sloped side and the vertical line going through the point where the slope starts.](q5_2012Mid1_002.png)
+<img src="q5_2012Mid1_002.png" alt ="Figure of a ball launched from a horizontal cliff with a sloped side. Theta is the angle between the sloped side and the vertical line going through the point where the slope starts.">
 
 ## Part 1
 

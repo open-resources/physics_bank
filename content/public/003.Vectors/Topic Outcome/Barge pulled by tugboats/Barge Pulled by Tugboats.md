@@ -86,34 +86,35 @@ substitutions:
   params:
     vars:
       title: Barge Pulled by Tugboats
-    F1: 3353
-    F2: 5666
-    theta_1: 43
-    theta_2: 16
+    F1: 4407
+    F2: 3433
+    theta_1: 5
+    theta_2: 6
     part6:
       ans1:
-        value: 5.24$^{\circ}$ to the left of AB.
+        value: 0.185$^{\circ}$ to the left of AB.
       ans2:
-        value: 5.24$^{\circ}$ to the right of AB.
+        value: 0.185$^{\circ}$ to the right of AB.
       ans3:
-        value: 84.8$^{\circ}$ to the left of AB.
+        value: 89.8$^{\circ}$ to the left of AB.
       ans4:
-        value: 84.8$^{\circ}$ to the right of AB.
+        value: 89.8$^{\circ}$ to the right of AB.
       ans5:
-        value: 52.4$^{\circ}$ to the left of AB.
+        value: 1.85$^{\circ}$ to the left of AB.
       ans6:
-        value: 52.4$^{\circ}$ to the right of AB.
+        value: 1.85$^{\circ}$ to the right of AB.
 ---
 # {{ params.vars.title }}
 A barge is pulled by the two tugboats shown in the following figure.
 One tugboat pulls on the barge with a force of magnitude $F_2 = $ {{ params.F2 }} units of force at $\theta_2 = $ {{ params.theta_2 }}$^{\circ}$ above the line AB and the other tugboat pulls on the barge with a force of magnitude $F_1 = $ {{ params.F1 }} units of force at $\theta_1 = $ {{ params.theta_1 }}$^{\circ}$ below the line AB.
 
+Assume $+y$ is straight ahead, and $+x$ is to the right.
+
 <img longdesc="Barge Pulled by Tugboats.md#desc" alt="Figure of a barge pulled by two tugboats." src="osup2.60.png">
 
 <div id="desc">
-<h5>Long Description of image: Figure of a barge pulled by two tugboats.</h5>
+<h5>Figure of a barge pulled by two tugboats.</h5>
 A straight line AB is drawn through the center of the barge. One tugboat pulls the barge to the left with a force of magnitude F one at an angle theta one relative to AB. The other tugboat pulls to the right with a force F two at angle theta two relative to AB.
-<p>Long description ends.</p>
 <div>
 
 ## Part 1

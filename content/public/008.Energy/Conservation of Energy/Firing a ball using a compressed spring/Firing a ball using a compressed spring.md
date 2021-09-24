@@ -30,10 +30,10 @@ substitutions:
   params:
     vars:
       title: Firing a Ball using a Compressed Spring
-    choice: doubled
+    choice: tripled
     part1:
       ans1:
-        value: The ball will reach twice the height as before.
+        value: The ball will reach thrice the height as before.
       ans2:
         value: The ball will reach one quarter of the previous height.
       ans3:
@@ -43,7 +43,7 @@ substitutions:
       ans5:
         value: The ball will reach the same height as before.
       ans6:
-        value: The ball will reach thrice the height as before.
+        value: The ball will reach twice the height as before.
 ---
 # {{ params.vars.title }}
 A compressed spring fires a ball of mass $m$ directly upwards.
