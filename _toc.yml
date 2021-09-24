@@ -163,6 +163,8 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Relative Motion
       of Two Planes/relative_motion_of_two_planes
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/AIrcraft Carrier/aircraft_carrier
+  - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Relative Motion
+      of Fighter Jets/relative_motion_of_fighter_jets
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Rutland Rd/rutland_rd
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Relative Motion
       on a Curve/relative_motion_on_a_curve
@@ -235,6 +237,7 @@ parts:
   - file: content/public/006.Force/Topic Outcome/The max acceleration without slipping/The
       max acceleration without slipping
   - file: content/public/006.Force/Topic Outcome/spring_on_incline/spring_on_incline
+  - file: content/public/006.Force/Topic Outcome/centripetal_force/centripetal_force
   - file: content/public/006.Force/Topic Outcome/Mass inside rotating cone/Mass inside
       rotating cone
   - file: content/public/006.Force/Topic Outcome/Pendulum on a downhill cart/pendulum_on_a_downhill_cart
@@ -244,8 +247,10 @@ parts:
       water from a well
   - file: content/public/006.Force/Topic Outcome/Coefficient_Of_Friction/Coefficient_Of_Friction
   - file: content/public/006.Force/Topic Outcome/Rotating ball/Rotating ball
+  - file: content/public/006.Force/Topic Outcome/Raising a Package/raising_a_package
   - file: content/public/006.Force/Topic Outcome/Frictionless Air Track/Frictionless
       Air Track
+  - file: content/public/006.Force/Topic Outcome/RollerCoaster/RollerCoaster
   - file: content/public/006.Force/Topic Outcome/Worker Pulls Cart Uphill/worker_pulls_cart_uphill
   - file: content/public/006.Force/Topic Outcome/ropes_and_blocks/ropes_and_blocks
   - file: content/public/006.Force/Topic Outcome/Particle in Conservative Potential/Particle
@@ -403,12 +408,16 @@ parts:
   - file: content/public/010.Rotational Motion/Topic Outcome/Rotating Bar/rotating_bar
   - file: content/public/010.Rotational Motion/Topic Outcome/Angular_Acceleration/Angular_Acceleration
   - file: content/public/010.Rotational Motion/Topic Outcome/rock_on_string/rock_on_string
+  - file: content/public/010.Rotational Motion/Topic Outcome/Acceleration around a
+      turn/Acceleration around a turn
   - file: content/public/010.Rotational Motion/Topic Outcome/angular_speed/angular_speed
   - file: content/public/010.Rotational Motion/Topic Outcome/Wheel_of_fortune/Wheel_of_fortune
   - file: content/public/010.Rotational Motion/Topic Outcome/Radius of a Rollercoaster/radius_of_a_rollercoaster
   - file: content/public/010.Rotational Motion/Topic Outcome/Spruce and Steel Disk/Spruce
       and Steel Disk
   - file: content/public/010.Rotational Motion/Topic Outcome/Cars on Hills/cars_on_hills
+  - file: content/public/010.Rotational Motion/Topic Outcome/Swinging mass/Swinging
+      mass
   - file: content/public/010.Rotational Motion/Topic Outcome/Rotational Displacement
       of Tires/Rotational Displacement of tires
   - file: content/public/010.Rotational Motion/Topic Outcome/Cars on a track/cars_on_a_track
