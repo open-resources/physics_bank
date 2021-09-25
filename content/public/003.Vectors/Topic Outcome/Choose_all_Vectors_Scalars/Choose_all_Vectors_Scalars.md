@@ -37,13 +37,13 @@ substitutions:
       ans1:
         value: Entropy
       ans2:
-        value: Pressure
-      ans3:
         value: Mass
+      ans3:
+        value: Lift
       ans4:
-        value: Weight
+        value: The position in 3 dimensions
       ans5:
-        value: The average velocity
+        value: Displacement
       ans6:
         value: velocity
 ---

@@ -37,7 +37,7 @@ substitutions:
     vars:
       title: Block In Hole
       units: m
-    a: 25
+    a: 30
     d: 0.6
 ---
 # {{ params.vars.title }}

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic 6
-    eq: $\dfrac{x-6}{x+7}$ = $ \dfrac{x+6}{x-9}$
+    eq: $\dfrac{x-9}{x+1}$ = $ \dfrac{x+4}{x-8}$
     part1:
       ans1:
-        value: -27/28
+        value: 14/11
       ans2:
-        value: -3/7
+        value: -23/22
       ans3:
-        value: 27/2
+        value: '-14'
       ans4:
-        value: 3/7
+        value: 23/22
 ---
 # {{ params.vars.title }}
 

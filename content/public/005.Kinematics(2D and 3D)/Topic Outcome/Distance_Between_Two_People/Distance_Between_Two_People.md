@@ -32,37 +32,37 @@ substitutions:
     vars:
       title: Distance Between Two People
       units: $m$
-      name1: Savannah
+      name1: Mateo
       name2: Maya
-    s: 3
+    s: 1
     ai_1: 3
     ai_2: 2
-    ai_3: 2
-    aj_1: 2
-    aj_2: 2
-    aj_3: 1
+    ai_3: 3
+    aj_1: 4
+    aj_2: 5
+    aj_3: 3
     bi_1: 2
-    bi_2: 4
-    bi_3: 3
-    bj_1: 5
-    bj_2: 1
-    bj_3: 1
+    bi_2: 2
+    bi_3: 2
+    bj_1: 6
+    bj_2: 2
+    bj_3: 3
     part1:
       ans1:
-        value: 18.0
+        value: 5.0
       ans2:
-        value: 9.2
+        value: 2.5
       ans3:
-        value: 340.0
+        value: 25.0
       ans4:
-        value: 31.0
+        value: 9.8
       ans5:
-        value: 960.0
+        value: 97.0
 ---
 # {{ params.vars.title }}
 The position of {{ params.vars.name1 }} as a function of time is given by:
 
-$\vec{r_A} =$ ({{ params.ai_1 }}$+${{ params.ai_2 }}$t-${{ params.ai_3 }}$t^2)\hat{\imath} + (${{ params.aj_2 }}$+${{ params.aj_3 }}$t-${{ params.aj_1 }}$t^2)\hat{\jmath}$
+$\vec{r_A} =$ ({{ params.ai_1 }}$+${{ params.ai_2 }}$t-${{ params.ai_3 }}$t^2)\hat{\imath} + (${{ params.aj_1 }}$+${{ params.aj_2 }}$t-${{ params.aj_3 }}$t^2)\hat{\jmath}$
 
 {{ params.vars.name2 }}'s position is given by:
 

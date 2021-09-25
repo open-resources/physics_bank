@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $w$ = $\dfrac{(v)}{(e + 10y)} $
+    expr: $l$ = $\dfrac{(i)}{(c + 7y)} $
     part1:
       ans1:
-        value: e = ${ \frac{v}{w} - 10 y}$
+        value: c = ${ \frac{i}{l} - 7 y}$
       ans2:
-        value: e = ${\frac{10 w y}{v}}$
+        value: c = ${\frac{7 l y}{i}}$
       ans3:
-        value: e = ${\frac{v}{10 w y}}$
+        value: c = ${\frac{i}{7 l y}}$
       ans4:
-        value: e = ${\frac{w - 10 y}{v}}$
+        value: c = ${\frac{l - 7 y}{i}}$
       ans5:
         value: Don't Know
 ---
