@@ -82,6 +82,7 @@ parts:
   - file: content/public/003.Vectors/Topic Outcome/Choose_all_Vectors_Scalars/Choose_all_Vectors_Scalars
   - file: content/public/003.Vectors/Topic Outcome/Magnitude and Direction of Vector/Magnitude
       and Direction of Vector
+  - file: content/public/003.Vectors/Topic Outcome/Ballistic Launcher/Ballistic Launcher
   - file: content/public/003.Vectors/Coordinate System and Vector Components/Delivery
       Man/delivery_man
   - file: content/public/003.Vectors/Coordinate System and Vector Components/Magnitude_And_Components/Magnitude_And_Components
