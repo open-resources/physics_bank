@@ -615,6 +615,7 @@ parts:
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_21/OSUPv2p8_21
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_43/OSUPv2p8_43
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_40/OSUPv2p8_40
+  - file: content/public/021.Circuits/Inductors/OSUPv2p14_48/OSUPv2p14_48
   - file: content/public/021.Circuits/Resistance/OSUPv2p10_02/OSUPv2p10_02
   - file: content/public/021.Circuits/Resistance/Copper Wire Resistance/resistance_copper_wire
   - file: content/public/021.Circuits/Resistance/Ratio Of Diameter/ratio_of_diameter
