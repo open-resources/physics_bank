@@ -33,12 +33,10 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $I=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ A$
     custom-format: .3g
@@ -46,12 +44,10 @@ part1:
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $P=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ W$
     custom-format: .3g
@@ -59,12 +55,10 @@ part2:
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $R=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ \Omega$
     custom-format: .3g
@@ -73,10 +67,10 @@ substitutions:
   params:
     vars:
       title: Electrocution Safety
-    R_b: '11.50'
-    R_s: '2300'
-    V_s: '20.0'
-    I_max: '0.7'
+    R_b: '10.75'
+    R_s: '2050'
+    V_s: '21.5'
+    I_max: '0.8'
 ---
 # {{ params.vars.title }}
 A person with body resistance between their hands of {{ params.R_b }} $\rm\ k \Omega$ accidentally grasps the terminals of a {{ params.V_s }} $\rm\ kV$ power supply.

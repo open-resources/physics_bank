@@ -25,11 +25,11 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\gamma= $
     suffix: $ft$
-    rtol: 0.02
 substitutions:
   params:
     vars:
@@ -37,9 +37,9 @@ substitutions:
       units: $ft$
     max_acc_A: 0.6
     max_acc_B: 0.9
-    ra: 384
-    rb: 423
-    angle: 73
+    ra: 383
+    rb: 415
+    angle: 58
 ---
 # {{ params.vars.title }}
 Two cars travel at constant speeds around a curve.

@@ -29,6 +29,7 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $a= $
@@ -38,6 +39,7 @@ part1:
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $T= $
@@ -47,6 +49,7 @@ part2:
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $F= $
@@ -59,9 +62,9 @@ substitutions:
       title: Ropes and Blocks
       units1: $\frac{m}{s^2}$
       units2: N
-    m_a: 1
-    m_b: 2
-    m_c: 5
+    m_a: 2
+    m_b: 5
+    m_c: 4
     f_a: 46
 ---
 # {{ params.vars.title }}

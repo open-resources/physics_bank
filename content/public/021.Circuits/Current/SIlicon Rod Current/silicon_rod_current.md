@@ -32,22 +32,20 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
     label: $I= $
     suffix: $\rm\ A$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Current Through A Silicon Rod
       units: "$\textrm{A}$"
-    d: 3.78
-    l: 20.4
-    V: 62
+    d: 2.69
+    l: 39.3
+    V: 24
 ---
 # {{ params.vars.title }}
 

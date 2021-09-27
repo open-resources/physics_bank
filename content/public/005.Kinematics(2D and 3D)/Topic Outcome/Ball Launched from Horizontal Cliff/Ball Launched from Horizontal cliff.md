@@ -29,6 +29,7 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $t= $
@@ -38,6 +39,7 @@ part1:
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\theta= $
@@ -47,6 +49,7 @@ part2:
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     suffix: $\hat{\imath} \; (m/s)$
@@ -55,6 +58,7 @@ part3:
 part4:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     suffix: $\hat{\jmath} \; (m/s)$
@@ -67,8 +71,8 @@ substitutions:
       unit1: $s$
       unit2: rad
       unit3: $m/s$
-    v0: 1.05
-    h: 53.7
+    v0: 1.45
+    h: 42.0
 ---
 # {{ params.vars.title }}
 A small ball is launched from a horizontal cliff with initial speed {{ params.v0 }} $m/s$. The side of the cliff is sloped. The ball makes contact with the cliff side after falling a vertical distance of {{ params.h }} cm.

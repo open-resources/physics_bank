@@ -33,11 +33,9 @@ part1:
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $R=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm \Omega$
     custom-format: .3g

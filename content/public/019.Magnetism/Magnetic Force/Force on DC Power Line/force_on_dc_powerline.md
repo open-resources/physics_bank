@@ -28,21 +28,19 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     label: $F= $
     suffix: $\rm\ N$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     custom-format: .2g
 substitutions:
   params:
     vars:
       title: Force on a DC Power Line
-    I: 915
-    theta: 44
-    L: 52
+    I: 883
+    theta: 39
+    L: 200
 ---
 # {{ params.vars.title }}
 

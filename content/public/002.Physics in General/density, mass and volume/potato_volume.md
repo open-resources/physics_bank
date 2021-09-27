@@ -27,31 +27,34 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $m= $
     allow-blank: true
     weight: 1
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $m= $
     allow-blank: true
     weight: 1
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $V= $
     allow-blank: true
     weight: 1
 substitutions:
   params:
     vars:
-      name: Aliyah
+      name: Emilia
       title: Potato Volume
       mass_units: kg
       volume_units: m^3
-      mass_potato: 373
-      mass_cube: 75
-      cube_side_length: 1.7510799654846316
+      mass_potato: 259
+      mass_cube: 38
+      cube_side_length: 4.663798002727432
 ---
 # {{ params.vars.title }}
 For our first lab, {{params.vars.name}} decides to measure the density of a potato.

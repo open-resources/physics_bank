@@ -65,6 +65,7 @@ part5:
 part6:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $x= $
@@ -74,6 +75,7 @@ part6:
 part7:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $y= $
@@ -96,12 +98,12 @@ substitutions:
     vars:
       title: Jump Across Stream
       units: $m$
-    m: 312
-    w_s: 3.2
-    h_s: 1.5
+    m: 234
+    w_s: 3.3
+    h_s: 1.8
     v_i: 4
     v_j: 6
-    h_b: 2.9
+    h_b: 3.2
     part5:
       ans1:
         value: Yes, the bear makes it to the other side of the stream.

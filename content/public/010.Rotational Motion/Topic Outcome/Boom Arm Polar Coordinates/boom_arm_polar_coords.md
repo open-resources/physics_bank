@@ -25,11 +25,11 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v= $
     suffix: $\hat{r}$
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
@@ -37,15 +37,14 @@ part2:
     allow-blank: true
     label: $v= $
     suffix: $\hat{\theta}$
-    rtol: 0.02
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $a= $
     suffix: $\hat{r}$
-    rtol: 0.02
 part4:
   type: number-input
   pl-customizations:
@@ -53,18 +52,17 @@ part4:
     allow-blank: true
     label: $a= $
     suffix: $\hat{\theta}$
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Boom Arm Polar Coordinates
-    d: 5
-    theta: 7
-    dot_theta: 6
-    ddot_theta: 5
-    l: 5
-    dot_l: 6
-    ddot_l: 8
+    d: 7
+    theta: 6
+    dot_theta: 10
+    ddot_theta: 6
+    l: 9
+    dot_l: 8
+    ddot_l: 5
 ---
 # {{ params.vars.title }}
 <img src="L8Q2.png" width=85%>

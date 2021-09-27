@@ -33,22 +33,18 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $U_\textrm{i}=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ \mu\textrm{J}$
     weight: 1
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $U_\textrm{f}=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ \mu\textrm{J}$
     weight: 1
@@ -61,10 +57,10 @@ substitutions:
   params:
     vars:
       title: Varying Separation Distance of Capacitor Plates
-    a: '20.0'
+    a: '10.0'
     b: '0.50'
-    c: '2.75'
-    v: '50'
+    c: '1.75'
+    v: '40'
     part3:
       ans1:
         value: It is lost to the surroundings in the laboratory

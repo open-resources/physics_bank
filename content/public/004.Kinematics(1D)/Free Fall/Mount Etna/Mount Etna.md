@@ -26,6 +26,7 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v_{iy}= $
@@ -37,7 +38,7 @@ substitutions:
     vars:
       title: Eruption of Mount Etna
       units: $km/h$
-    h: 89.6
+    h: 83.1
 ---
 # {{ params.vars.title }}
 Mount Etna erupted on Dec. 14 2020 sending lava {{ params.h }} $m$ into the air.

@@ -21,17 +21,17 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $h= $
     suffix: $km$
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: 'Satellite Equal Attraction '
       units: $km$
-    x: 14453
+    x: 15708
 ---
 # {{ params.vars.title }}
 <img src="L2Q2_drawing.png" width=90% style="padding: 5%">

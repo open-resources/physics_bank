@@ -33,20 +33,18 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
     label: $N= $
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Circular coil
-    r: '12.00'
-    I: '0.50'
-    B: $5.40\times 10^{-3}$
+    r: '11.50'
+    I: '0.52'
+    B: $5.20\times 10^{-3}$
 ---
 # {{ params.vars.title }}
 

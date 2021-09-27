@@ -25,6 +25,7 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v_2 = $
@@ -36,11 +37,11 @@ substitutions:
     vars:
       title: Blocks On Frictionless Table
       units: $\frac{m}{s}$
-    v0: 414
+    v0: 404
     v1: 6
     mb: 15
-    mw: 466
-    d: 2
+    mw: 469
+    d: 1
 ---
 # {{ params.vars.title }}
 Two {{params.mw}} $g$ blocks of wood are {{params.d}} $m$ apart on a frictionless table.

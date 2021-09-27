@@ -36,6 +36,7 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $F_{2_x}= $
@@ -45,6 +46,7 @@ part1:
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $F_{2_y}= $
@@ -54,6 +56,7 @@ part2:
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $F_{1_x}= $
@@ -63,6 +66,7 @@ part3:
 part4:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $F_{1_y}= $
@@ -72,6 +76,7 @@ part4:
 part5:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $mag(F_{R})= $
@@ -86,23 +91,23 @@ substitutions:
   params:
     vars:
       title: Barge Pulled by Tugboats
-    F1: 4723
-    F2: 3224
-    theta_1: 11
-    theta_2: 26
+    F1: 3699
+    F2: 3268
+    theta_1: 12
+    theta_2: 16
     part6:
       ans1:
-        value: 3.89$^{\circ}$ to the right of AB.
+        value: 1.12$^{\circ}$ to the right of AB.
       ans2:
-        value: 3.89$^{\circ}$ to the left of AB.
+        value: 1.12$^{\circ}$ to the left of AB.
       ans3:
-        value: 86.1$^{\circ}$ to the right of AB.
+        value: 88.9$^{\circ}$ to the right of AB.
       ans4:
-        value: 86.1$^{\circ}$ to the left of AB.
+        value: 88.9$^{\circ}$ to the left of AB.
       ans5:
-        value: 38.9$^{\circ}$ to the right of AB.
+        value: 11.2$^{\circ}$ to the right of AB.
       ans6:
-        value: 38.9$^{\circ}$ to the left of AB.
+        value: 11.2$^{\circ}$ to the left of AB.
 ---
 # {{ params.vars.title }}
 A barge is pulled by the two tugboats shown in the following figure.

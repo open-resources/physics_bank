@@ -29,44 +29,36 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $V=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\textrm{V}$
     weight: 1
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $V=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\textrm{V}$
     weight: 1
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $Q_1=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\textrm{C}$
     weight: 1
 part4:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $Q_2=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\textrm{C}$
     weight: 1
@@ -74,9 +66,9 @@ substitutions:
   params:
     vars:
       title: Switching Connections
-    a: '5.0'
+    a: '1.0'
     b: '2.0'
-    v: '2.0'
+    v: '5.0'
 ---
 # {{ params.vars.title }}
 A ${{params.a }} \rm\ \mu\textrm{F}$ capacitor and a ${{params.b }} \rm\ \mu\textrm{F}$ capacitor are connected in series across a ${{params.v }} \textrm{ kV}$ potential. The charged capacitors are then disconnected from the source and connected to each other with terminals of like sign together.

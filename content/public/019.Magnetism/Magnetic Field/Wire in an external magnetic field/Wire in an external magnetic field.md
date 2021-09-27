@@ -33,21 +33,19 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
     label: $B= $
     suffix: $\rm\ \mu T$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Wire in an external magnetic field
-    I: '18.0'
-    Bext: '32.5'
-    d: '27.5'
+    I: '20.0'
+    Bext: '27.5'
+    d: '17.0'
 ---
 # {{ params.vars.title }}
 A long, straight, horizontal wire carries a left-to-right current of {{ params.I }}$\rm\ A$.The wire is placed in a uniform magnetic field of magnitude {{ params.Bext }}$~\mu\mathrm{T}$ that is directed vertically downward.

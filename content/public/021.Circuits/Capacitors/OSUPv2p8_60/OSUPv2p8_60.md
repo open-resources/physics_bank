@@ -29,22 +29,18 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $\sigma=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm \mu\mathrm{C/m^2}$
     weight: 1
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $\kappa=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     weight: 1
 substitutions:
@@ -52,7 +48,7 @@ substitutions:
     vars:
       title: Electric Field Between Capacitor Plates
     a: '3.3'
-    b: '2.7'
+    b: '1.1'
 ---
 # {{ params.vars.title }}
 Two parallel plates have equal and opposite charges. When the space between the plates is evacuated, the electrical field is $E = {{params.a }} \times 10^5 \textrm{ V/m}$. When the space is filled with dielectric, the electrical field is $E = {{params.b }} \times 10^5 \textrm{ V/m}$.

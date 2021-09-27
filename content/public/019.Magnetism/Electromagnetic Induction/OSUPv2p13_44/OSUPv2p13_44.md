@@ -27,13 +27,11 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     label: $I= $
     suffix: $\rm\ A$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
 part2:
   type: dropdown
@@ -44,10 +42,10 @@ substitutions:
   params:
     vars:
       title: Moving Rod
-    r: '4'
-    v: '3'
-    B: '1.00'
-    a: '10'
+    r: '2'
+    v: '5'
+    B: '1.75'
+    a: '5'
     part2:
       ans1:
         value: Clockwise

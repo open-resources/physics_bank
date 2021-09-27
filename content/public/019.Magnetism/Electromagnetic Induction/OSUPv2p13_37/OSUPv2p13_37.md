@@ -25,21 +25,19 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
     label: $\varepsilon= $
     suffix: $\rm\ V$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Radio Antenna
-    l: '1.5'
-    v: '75'
-    B: '6.5'
+    l: '0.5'
+    v: '125'
+    B: '6.0'
 ---
 # {{ params.vars.title }}
 

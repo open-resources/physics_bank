@@ -27,18 +27,18 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $v_{A}=$
     weight: 1
     allow-blank: true
-    rtol: 0.02
     suffix: $m/s$
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $a_{A}=$
     weight: 1
     allow-blank: true
-    rtol: 0.02
     suffix: $m/s^2$
 substitutions:
   params:
@@ -46,8 +46,8 @@ substitutions:
       title: Raising weight with Block on Hill
       units_v: m/s
       units_a: m/s^2
-    v_b: 1.3
-    a_b: 2.5
+    v_b: 1.8
+    a_b: 1.1
 ---
 # {{ params.vars.title }}
 <img src="L13Q3.png" width=85%>

@@ -26,22 +26,20 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: true
     label: $\Delta V= $
     suffix: $\rm\ V$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     custom-format: .3g
 substitutions:
   params:
     vars:
       title: Parallel-plate potential difference
     d: '9.0'
-    t: '1.3'
-    q: '3.4'
+    t: '1.0'
+    q: '4.2'
     p: -8
 ---
 # {{ params.vars.title }}

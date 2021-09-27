@@ -26,22 +26,20 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
     label: $I= $
     suffix: $\rm\ A$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Single-Turn Rectangular Coil
-    R: '5'
-    B: '0.50'
-    f: '150'
-    t: '0.009'
+    R: '1'
+    B: '1.00'
+    f: '100'
+    t: '0.010'
 ---
 # {{ params.vars.title }}
 

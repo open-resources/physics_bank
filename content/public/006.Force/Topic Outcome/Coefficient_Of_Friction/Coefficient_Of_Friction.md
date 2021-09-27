@@ -28,6 +28,7 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\mu_k= $
@@ -37,7 +38,7 @@ substitutions:
   params:
     vars:
       title: Coefficient Of Friction
-    m: 203
+    m: 163
     t: 3
 ---
 # {{ params.vars.title }}

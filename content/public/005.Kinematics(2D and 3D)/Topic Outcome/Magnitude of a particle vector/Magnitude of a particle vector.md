@@ -25,6 +25,7 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: 'Magnitude = '
@@ -36,10 +37,10 @@ substitutions:
     vars:
       title: The Magnitude of a Particle's Vector
       units: $m/s$
-    r_i: $9t^2 + 6t$
-    r_j: $3t^3 + 9t^2 + 3t$
-    t: $8$
-    choice: acceleration
+    r_i: $-6t^2 + 3t$
+    r_j: $-4t^2 - 9t$
+    t: $13$
+    choice: velocity
 ---
 # {{ params.vars.title }}
 

@@ -25,22 +25,21 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v= $
     suffix: $m/s$
-    comparison: relabs
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Slider Restricted by Spring
-    m: 40
-    F: 220
-    x1: 0.152
-    d: 1.06
-    h: 0.99
-    k: 84
+    m: 42
+    F: 378
+    x1: 0.239
+    d: 0.94
+    h: 0.74
+    k: 55
 ---
 # {{ params.vars.title }}
 <img src="Slider Restricted by Spring.png" width=100%>

@@ -34,22 +34,20 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
     label: $B= $
     suffix: $\rm\ T$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Field due to current segment
-    I: '4.5'
-    x: '1.20'
-    y: '2.40'
-    dl: '0.20'
+    I: '19.5'
+    x: '2.20'
+    y: '1.00'
+    dl: '0.50'
 ---
 # {{ params.vars.title }}
 A ${{ params.I }}\rm\ A$ current flows through the wire shown in the figure.

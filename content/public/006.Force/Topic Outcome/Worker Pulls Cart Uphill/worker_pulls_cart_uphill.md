@@ -28,28 +28,28 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $a_{x}= $
     suffix: $m/s^2$
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $a_{x}= $
     suffix: $m/s^2$
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Worker Pulls Cart Uphill
-    m: 55
-    theta_s: 21
-    theta_2: 15
-    T_2: 193
-    T_1: 133
+    m: 46
+    theta_s: 17
+    theta_2: 12
+    T_2: 184
+    T_1: 92
 ---
 # {{ params.vars.title }}
 <img src="L14Q2.png" width=80%>

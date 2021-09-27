@@ -25,20 +25,19 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v_B= $
     suffix: $m/s$
-    comparison: relabs
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: T-bone Collision
-    ma: 1519
-    mb: 1624
-    vak: 46
-    thetad: 33
+    ma: 1198
+    mb: 1772
+    vak: 42
+    thetad: 45
 ---
 # {{ params.vars.title }}
 <img src="T-bone Collision.png" width=400>

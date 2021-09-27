@@ -27,27 +27,27 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\ddot{r}= $
     suffix: $mm/s^2$
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\ddot{\theta}= $
     suffix: $rad/s^2$
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Rotating Bar
-    v: 30
-    h: 194
-    x: 113
-    a: 1
+    v: 21
+    h: 192
+    x: 172
+    a: 2
 ---
 # {{ params.vars.title }}
 <img src="L11Q1.png" width=85%>

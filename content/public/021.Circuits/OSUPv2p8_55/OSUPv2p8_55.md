@@ -33,21 +33,17 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $\kappa=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     weight: 1
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $V=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\textrm{V}$
     weight: 1
@@ -56,8 +52,8 @@ substitutions:
     vars:
       title: Partially Filled Capacitor
     a: '60.0'
-    b: '10.0'
-    f: '6'
+    b: '19.0'
+    f: '3'
 ---
 # {{ params.vars.title }}
 A parallel-plate capacitor with only air between its plates is charged by connecting the capacitor to a battery. The capacitor is then disconnected from the battery, without any of the charge leaving the plates.

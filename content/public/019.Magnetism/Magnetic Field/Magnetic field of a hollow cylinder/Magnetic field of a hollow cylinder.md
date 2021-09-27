@@ -34,12 +34,10 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $B_1=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ T$
     weight: 1
@@ -47,12 +45,10 @@ part1:
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $B_2=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ T$
     weight: 1
@@ -60,12 +56,10 @@ part2:
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $B_3=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ T$
     weight: 1

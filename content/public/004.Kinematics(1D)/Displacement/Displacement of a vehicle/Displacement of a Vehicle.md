@@ -25,6 +25,7 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\Delta r = $
@@ -34,13 +35,13 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: pickup truck
+      vehicle: bus
       title: Displacement of a Vehicle
       units: blocks
-    c1: 57
-    c2: 29
-    c3: 53
-    dir1: north
+    c1: 45
+    c2: 43
+    c3: 55
+    dir1: west
     dir2: east
     dir3: south
 ---

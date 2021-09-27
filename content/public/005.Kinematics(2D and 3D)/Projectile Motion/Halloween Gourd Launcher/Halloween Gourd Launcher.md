@@ -29,6 +29,7 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     hide-answer-panel: true
     allow-blank: true
@@ -39,6 +40,7 @@ part1:
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     hide-answer-panel: true
     allow-blank: true
@@ -49,6 +51,7 @@ part2:
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     hide-answer-panel: true
     allow-blank: true
@@ -59,6 +62,7 @@ part3:
 part4:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     hide-answer-panel: true
     allow-blank: true
@@ -69,6 +73,7 @@ part4:
 part5:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     hide-answer-panel: true
     allow-blank: true
@@ -79,11 +84,11 @@ part5:
 substitutions:
   params:
     vars:
-      name: Aliyah
+      name: Lorenzo
       title: Halloween Gourd Launcher
-    m_gourd: 0.916
-    h: 1.82
-    v_f: 5.25
+    m_gourd: 1.37
+    h: 1.73
+    v_f: 4.82
 ---
 # {{ params.vars.title }}
 At a local pumpkin patch, {{ params.vars.name }} is hired to create a Hallowe'en gourd launcher.  {{ params.vars.name }} wants to launch a {{ params.m_gourd }} $kg$ gourd (an "Angry Bird") at a large pumpkin (decorated as a "pig") which sits on top of a $h=$ {{ params.h }} $m$ tall hay bale as shown in the figure.

@@ -31,20 +31,18 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
     label: $A= $
     suffix: $\rm\ m^2$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Area of Capacitor Plates
-    c: '1.9'
-    d: '1.3'
+    c: '1.1'
+    d: '1.7'
 ---
 # {{ params.vars.title }}
 

@@ -32,20 +32,18 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
     label: $B= $
     suffix: $\rm\ T$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Magnetic field of a solenoid
-    n: '1500'
-    I: '7.40'
+    n: '2000'
+    I: '4.60'
 ---
 # {{ params.vars.title }}
 A solenoid is wound with {{ params.n }} turns per meter.

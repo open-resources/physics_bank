@@ -25,41 +25,41 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $t_1= $
     suffix: $seconds$
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $t_2= $
     suffix: $seconds$
-    rtol: 0.02
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v_1= $
     suffix: $ft/s$
-    rtol: 0.02
 part4:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v_2= $
     suffix: $ft/s$
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Projectile of ball launched to a specific height
-    v0: 227
-    distance: 307
+    v0: 254
+    distance: 460
 ---
 # {{ params.vars.title }}
 A ball is launched vertically at point A with an initial speed of $v = {{params.v0}} ft/sec$.

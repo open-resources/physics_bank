@@ -32,44 +32,36 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $V_\textrm{i}=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\textrm{V}$
     weight: 1
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $V_\textrm{f}=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\textrm{V}$
     weight: 1
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $E_\textrm{i}=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\textrm{V/m}$
     weight: 1
 part4:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $E_\textrm{f}=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\textrm{V/m}$
     weight: 1
@@ -77,9 +69,9 @@ substitutions:
   params:
     vars:
       title: Analyzing Potential Difference and Electric Field
-    q: '3.0'
-    c: '1.0'
-    d: '4.0'
+    q: '4.0'
+    c: '2.0'
+    d: '2.0'
     k: '4.0'
 ---
 # {{ params.vars.title }}

@@ -33,22 +33,20 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     label: $I= $
     suffix: $\rm\ A$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     custom-format: .3g
 substitutions:
   params:
     vars:
       title: Current Through Loop
-    N: 85
-    t: 6
-    s: 18
-    B: 0.128
+    N: 45
+    t: 2
+    s: 16
+    B: 0.852
 ---
 # {{ params.vars.title }}
 

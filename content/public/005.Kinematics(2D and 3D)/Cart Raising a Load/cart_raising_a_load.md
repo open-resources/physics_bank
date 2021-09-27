@@ -26,19 +26,19 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $v_{b}=$
     suffix: $m/s$
     weight: 1
     allow-blank: true
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Cart raising a load
       units: m/s
-    v_a: 2
+    v_a: 8
     x: 8
-    h: 6
+    h: 4
 ---
 # {{ params.vars.title }}
 

@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $2^{4} $=$ 16$
+    expr: $3^{8} $=$ 6561$
     part1:
       ans1:
-        value: $log_216 = 4$
+        value: $log_36561 = 8$
       ans2:
-        value: $log_24 = 16$
+        value: $log_38 = 6561$
       ans3:
-        value: $log_164 = 2$
+        value: $log_65618 = 3$
       ans4:
-        value: $log_416 = 2$
+        value: $log_86561 = 3$
       ans5:
         value: Don't Know
 ---

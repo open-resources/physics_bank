@@ -25,27 +25,25 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\theta_1= $
     suffix: $^{\circ}$
-    comparison: relabs
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\theta_2= $
     suffix: $^{\circ}$
-    comparison: relabs
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Attempted Shot Block
-    thetad: 22
-    e: 0.81
+    thetad: 24
+    e: 0.77
 ---
 # {{ params.vars.title }}
 <img src="Attempted Shot Block.png" width=400>

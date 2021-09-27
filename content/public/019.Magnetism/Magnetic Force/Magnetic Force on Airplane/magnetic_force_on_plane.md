@@ -30,12 +30,10 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $F=$
     allow-blank: false
     show-correct-answer: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ N$
     weight: 1
@@ -48,8 +46,8 @@ substitutions:
   params:
     vars:
       title: Magnetic Force on Airplane
-    q: 0.537
-    v: 620
+    q: 0.022
+    v: 629
     part2:
       ans1:
         value: North

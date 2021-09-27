@@ -25,26 +25,26 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v_{A}= $
     suffix: $m/s$
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v_{B}= $
     suffix: $m/s$
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Cars on a track
       units: $m/s$
-    r1: 20
-    r2: 24
+    r1: 15
+    r2: 29
 ---
 # {{ params.vars.title }}
 Two cars travel side by side on an even, unbanked turn in a roadway.

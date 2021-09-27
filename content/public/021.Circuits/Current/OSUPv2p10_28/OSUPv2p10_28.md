@@ -33,12 +33,10 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $P=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ W$
     custom-format: .3g
@@ -46,12 +44,10 @@ part1:
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $P=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ W$
     custom-format: .3g
@@ -59,12 +55,10 @@ part2:
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $P=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ W$
     custom-format: .3g
@@ -78,12 +72,12 @@ substitutions:
   params:
     vars:
       title: Electrical Appliances Plugged into an Outlet
-    P_T: '1710'
-    P_S: '1330'
-    P_L: '90.0'
-    I_F: '22.0'
-    V: '125.0'
-    prep: an
+    P_T: '1720'
+    P_S: '1460'
+    P_L: '75.0'
+    I_F: '28.0'
+    V: '135.0'
+    prep: a
     part4:
       ans1:
         value: 'Yes'

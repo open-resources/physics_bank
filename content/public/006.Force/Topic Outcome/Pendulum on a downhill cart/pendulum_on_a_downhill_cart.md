@@ -27,18 +27,18 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $\beta$
     suffix: $^{\circ}$
     weight: 1
     allow-blank: true
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Pendulum on a Downhill Cart
       units: ^{\circ}
-    a: 5
-    theta: 8
+    a: 7
+    theta: 12
 ---
 # {{ params.vars.title }}
 

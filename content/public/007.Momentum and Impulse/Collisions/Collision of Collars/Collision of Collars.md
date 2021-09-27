@@ -25,30 +25,28 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v_1'= $
     suffix: $m/s$
-    comparison: relabs
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v_2'= $
     suffix: $m/s$
-    comparison: relabs
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Collision of Collars
-    W1: 3
-    W2: 7
-    v1: 20
-    v2: 2
-    e: 0.76
+    W1: 2
+    W2: 9
+    v1: 21
+    v2: 4
+    e: 0.68
 ---
 # {{ params.vars.title }}
 <img src="Collision of Collars.png" width=400>

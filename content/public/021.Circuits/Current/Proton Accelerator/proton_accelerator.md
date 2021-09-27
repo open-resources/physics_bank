@@ -31,35 +31,29 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $J=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ A/m^2$
     weight: 1
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $\rm {v_{d}} = $
     allow-blank: false
     show-correct-answer: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ m/s$
     weight: 1
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $t=$
     allow-blank: false
     show-correct-answer: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ s$
     weight: 1
@@ -67,9 +61,9 @@ substitutions:
   params:
     vars:
       title: Proton Accelerator
-    r: 0.39
-    I: 34
-    n: 3.2
+    r: 0.69
+    I: 9
+    n: 8.51
     p: 12
 ---
 # {{ params.vars.title }}

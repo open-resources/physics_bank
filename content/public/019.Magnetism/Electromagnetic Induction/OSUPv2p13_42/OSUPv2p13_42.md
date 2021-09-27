@@ -27,13 +27,11 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     label: ${\Delta}V= $
     suffix: $\rm\ V$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
 part2:
   type: dropdown
@@ -44,8 +42,8 @@ substitutions:
   params:
     vars:
       title: Potential Difference of Rod
-    B: '0.75'
-    v: '4'
+    B: '1.00'
+    v: '8'
     part2:
       ans1:
         value: Bottom

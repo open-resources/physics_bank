@@ -29,22 +29,18 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $C_\textrm{e}=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\textrm{pF}$
     weight: 1
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $C_\textrm{f}=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\textrm{pF}$
     weight: 1
@@ -52,9 +48,9 @@ substitutions:
   params:
     vars:
       title: Filling a Capacitor with Dielectric Material
-    d: '1.75'
-    a: '4.0'
-    k: '8.0'
+    d: '1.00'
+    a: '9.0'
+    k: '5.0'
 ---
 # {{ params.vars.title }}
 An air-filled capacitor is made from two flat parallel plates ${{params.d }} \textrm{ mm}$ apart. The inside area of each plate is ${{params.a }} \rm\ cm^2$.

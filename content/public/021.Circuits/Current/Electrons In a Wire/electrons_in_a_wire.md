@@ -27,20 +27,18 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
     label: 'Number of electrons = '
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Electrons In a Wire
       units: m/s
-    I: 193
-    t: 3
+    I: 97
+    t: 9
 ---
 # {{ params.vars.title }}
 

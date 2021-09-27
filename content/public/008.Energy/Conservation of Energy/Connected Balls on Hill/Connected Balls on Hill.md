@@ -25,17 +25,16 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v= $
     suffix: $ft/s$
-    comparison: relabs
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Connected Balls on Hill
-    R: 7
+    R: 17
 ---
 # {{ params.vars.title }}
 <img src="Connected Balls on Hill.png" width=400>

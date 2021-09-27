@@ -32,21 +32,19 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: true
     label: $\Delta T = \pm $
     suffix: $^{\circ}\textrm{C}$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Temperature Range of Resistor
-    p: 10
-    metal: Nichrome
-    T_0: 104
+    p: 7
+    metal: Aluminum
+    T_0: 95
 ---
 # {{ params.vars.title }}
 

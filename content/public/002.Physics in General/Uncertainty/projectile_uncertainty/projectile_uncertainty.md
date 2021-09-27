@@ -26,6 +26,7 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v_o= $
@@ -35,6 +36,7 @@ part1:
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\Delta d= $
@@ -44,6 +46,7 @@ part2:
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\Delta v_o= $
@@ -54,7 +57,7 @@ substitutions:
   params:
     vars:
       title: Projectile Uncertainty
-      name: Lorenzo
+      name: Ahmed
       units1: m/s
       units2: m
     d: 0.126

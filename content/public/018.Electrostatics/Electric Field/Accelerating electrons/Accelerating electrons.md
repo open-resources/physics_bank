@@ -34,19 +34,17 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
     label: $a= $
     suffix: $\rm\ m/s^2$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Accelerating electrons
-    f_s: $2.20\times 10^6$
+    f_s: $1.60\times 10^5$
 ---
 # {{ params.vars.title }}
 A simple and common technique for accelerating electrons is shown in the figure, where there is a uniform electric field between two plates.

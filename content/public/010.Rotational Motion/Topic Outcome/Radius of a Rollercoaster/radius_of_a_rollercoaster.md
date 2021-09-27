@@ -25,19 +25,19 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\rho= $
     suffix: $m$
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Radius of a Rollercoaster
       units: $m$
-    speed_of_car: 219
-    rate_of_decrease: 7
-    a: 3
+    speed_of_car: 177
+    rate_of_decrease: 10
+    a: 2
 ---
 # {{ params.vars.title }}
 As a rollercoaster passes the bottommost point in a loop, an accelerometer records an acceleration of ${{params.a}}g$.

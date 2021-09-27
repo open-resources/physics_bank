@@ -27,6 +27,7 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v= $
@@ -36,6 +37,7 @@ part1:
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $x= $
@@ -45,6 +47,7 @@ part2:
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $a= $
@@ -58,8 +61,8 @@ substitutions:
       units1: $m$
       units2: $m/s$
       units3: $\frac{m}{s^2}$
-    t: 3
-    x_i: -1
+    t: 1
+    x_i: -9
 ---
 # {{ params.vars.title }}
 The figure shows the velocity-versus-time graph for a particle moving along the x-axis. Its position at $t$ = 0 s is {{params.x_i}} $m$.

@@ -27,26 +27,26 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\ddot{r}= $
     suffix: $m/s^2$
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\ddot{\theta}= $
     suffix: $rad/s^2$
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Plane in a Loop
-    v: 557
-    h: 539
-    d: 798
+    v: 499
+    h: 448
+    d: 851
 ---
 # {{ params.vars.title }}
 <img src="L11Q2.png" width=85%>

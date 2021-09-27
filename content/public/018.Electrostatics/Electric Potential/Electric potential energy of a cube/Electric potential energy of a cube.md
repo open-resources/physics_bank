@@ -32,20 +32,18 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
     label: $U= $
     suffix: $\rm\ J$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Electric potential energy of a cube
-    q: '2.40'
-    d: '2.20'
+    q: '5.20'
+    d: '3.00'
 ---
 # {{ params.vars.title }}
 

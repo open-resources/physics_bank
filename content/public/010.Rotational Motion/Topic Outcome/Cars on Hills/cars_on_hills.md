@@ -29,12 +29,14 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $a=$
     allow-blank: true
     weight: 1
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $a=$
     allow-blank: true
     weight: 1
@@ -43,9 +45,9 @@ substitutions:
     vars:
       title: Cars on Hills
       units: "$\frac{m}{s^2}"
-    v: 25
-    r: 214
-    mu: 6.77
+    v: 27
+    r: 287
+    mu: 6.94
 ---
 # {{ params.vars.title }}
 Two cars are driving at {{params.v}} $m/s$ along the road shown in the figure.

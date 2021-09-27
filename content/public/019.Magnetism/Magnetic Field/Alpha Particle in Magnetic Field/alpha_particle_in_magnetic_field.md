@@ -32,11 +32,9 @@ tags:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $v=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ m/s$
     custom-format: .3g
@@ -44,11 +42,9 @@ part1:
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $E_K=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ {eV}$
     custom-format: .3g
@@ -56,11 +52,9 @@ part2:
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $V=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ V$
     custom-format: .3g
@@ -69,8 +63,8 @@ substitutions:
   params:
     vars:
       title: Aplha Particle in Magnetic Field
-    r: 23
-    B: 6
+    r: 4
+    B: 9
 ---
 # {{ params.vars.title }}
 An alpha-particle ($m = 6.64 \times 10^{-27} \textrm{ kg}, q = 3.2 \times 10^{-19} \textrm{ C}$) travels in a circular path of radius ${{params.r}} \textrm{ cm}$ in a uniform magnetic field of magnitude ${{params.B}} \textrm{ T}$.

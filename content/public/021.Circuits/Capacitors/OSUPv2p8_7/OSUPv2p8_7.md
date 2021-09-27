@@ -35,24 +35,20 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $C= $
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ \mu\textrm{F}$
     weight: 1
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $C= $
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ \mu\textrm{F}$
     weight: 1
@@ -60,8 +56,8 @@ substitutions:
   params:
     vars:
       title: Combining Capacitors
-    c: '1.7'
-    n: '7'
+    c: '2.6'
+    n: '3'
 ---
 # {{ params.vars.title }}
 

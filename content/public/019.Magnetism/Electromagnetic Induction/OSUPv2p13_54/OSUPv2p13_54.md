@@ -26,22 +26,20 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
     label: $E= $
     suffix: $\rm\ {N/C}$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Electric Field Outside Solenoid
     R: '4'
-    r: '5'
-    n: '25'
-    DI: '2'
+    r: '7'
+    n: '35'
+    DI: '3'
 ---
 # {{ params.vars.title }}
 

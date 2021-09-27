@@ -24,39 +24,39 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\theta= $
     suffix: $^{\circ}$
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\dot{v}= $
     suffix: $m/s^2$
-    rtol: 0.02
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\rho= $
     suffix: $m$
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Polar Coordinates from Functions
-    a1: 7
-    a2: -7
-    b1: -5
-    b2: -7
+    a1: 6
+    a2: -6
+    b1: 6
+    b2: 10
     c1: -3
-    c2: 8
-    v: 7i + (-5j) + (-3k)
-    a: -7i + (-7j) + (8k)
+    c2: -9
+    v: 6i + (6j) + (-3k)
+    a: -6i + (10j) + (-9k)
 ---
 # {{ params.vars.title }}
 The velocity and acceleration of a particle at a moment in time is given by $v = {{params.v}}m/s$ and

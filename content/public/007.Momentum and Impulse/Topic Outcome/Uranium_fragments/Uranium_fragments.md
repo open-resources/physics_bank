@@ -27,6 +27,7 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $m= $
@@ -36,6 +37,7 @@ part1:
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $m= $
@@ -47,8 +49,8 @@ substitutions:
     vars:
       title: Uranium Fragments
       units: amu
-    frag_speed: 1.2
-    dn_speed: 2.97
+    frag_speed: 1.4
+    dn_speed: 3.46
     orig_mass: 234
     isotope: $^{234}\mathrm{U}$
 ---

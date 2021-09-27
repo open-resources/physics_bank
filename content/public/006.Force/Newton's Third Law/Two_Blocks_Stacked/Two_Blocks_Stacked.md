@@ -32,6 +32,7 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\vec{P} = $
@@ -43,8 +44,8 @@ substitutions:
     vars:
       title: Two Blocks Stacked
       units: N
-    m: 14
-    f: 0.29
+    m: 11
+    f: 0.33
     t: 42
 ---
 # {{ params.vars.title }}

@@ -32,12 +32,10 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $q=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ C$
     weight: 1
@@ -46,8 +44,8 @@ substitutions:
   params:
     vars:
       title: Electric potential of a point charge
-    r: '5.80'
-    V: '2.60'
+    r: '4.20'
+    V: '-2.00'
 ---
 # {{ params.vars.title }}
 

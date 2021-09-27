@@ -27,18 +27,18 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $h=$
     suffix: $mm$
     weight: 1
     allow-blank: true
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Raising a Package
       units: mm
-    v_a: 256
-    t: 7
+    v_a: 292
+    t: 8
 ---
 # {{ params.vars.title }}
 

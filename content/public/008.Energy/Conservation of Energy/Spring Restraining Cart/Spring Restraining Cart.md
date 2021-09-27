@@ -25,23 +25,22 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v= $
     suffix: $m/s$
-    comparison: relabs
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Spring Restraining Cart
-    m: 8
-    F: 382
-    x1: 0.49
-    d: 1.39
-    h: 0.52
-    k: 43
-    thetad: 28
+    m: 6
+    F: 362
+    x1: 0.54
+    d: 1.43
+    h: 0.54
+    k: 48
+    thetad: 30
 ---
 # {{ params.vars.title }}
 <img src="Spring Restraining Cart.png" width=400>

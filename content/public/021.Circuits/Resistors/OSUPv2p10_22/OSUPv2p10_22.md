@@ -33,12 +33,10 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $I_i=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ A$
     custom-format: .3g
@@ -46,12 +44,10 @@ part1:
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $V_i=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ V$
     custom-format: .3g
@@ -59,12 +55,10 @@ part2:
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $P_i=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ W$
     custom-format: .3g
@@ -72,12 +66,10 @@ part3:
 part4:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $I_f=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ A$
     custom-format: .3g
@@ -85,12 +77,10 @@ part4:
 part5:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $V_f=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ V$
     custom-format: .3g
@@ -98,12 +88,10 @@ part5:
 part6:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $P_f=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ W$
     custom-format: .3g
@@ -112,10 +100,10 @@ substitutions:
   params:
     vars:
       title: Starter Motor Resistance
-    R_b: '0.005'
-    R_m: '0.065'
-    R_add: '0.100'
-    V: '13.75'
+    R_b: '0.010'
+    R_m: '0.060'
+    R_add: '0.096'
+    V: '13.25'
 ---
 # {{ params.vars.title }}
 An automobile starter motor has an equivalent resistance of {{ params.R_m }} $\rm\ \Omega$ and is supplied by a {{ params.V }} $\rm\ V$ battery with a {{ params.R_b }} $\rm\ \Omega$ internal resistance.

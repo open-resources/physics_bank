@@ -25,30 +25,28 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $x= $
     suffix: m
-    comparison: relabs
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $N= $
     suffix: $N$
-    comparison: relabs
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Springs on a Disk
-    w: 193
-    d: 50
-    k: 293
-    m: 0.4
-    x: 22
+    w: 195
+    d: 60
+    k: 206
+    m: 0.3
+    x: 11
 ---
 # {{ params.vars.title }}
 <img src="Springs On a Disk.png" width=400>

@@ -25,29 +25,27 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $u_k= $
-    comparison: relabs
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $a= $
     suffix: $ft/s^2$
-    comparison: relabs
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Log up a Hill
-    W: 864
-    t: 19
-    v: 9
-    P: 6
-    P2: 8
+    W: 692
+    t: 15
+    v: 7
+    P: 1
+    P2: 3
 ---
 # {{ params.vars.title }}
 <img src="Log up a Hill.png" width=400>

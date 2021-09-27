@@ -35,19 +35,17 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     label: $r= $
     suffix: $\rm\ m$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Cosmic Ray Electron
-    v: 6.1
-    B: 8.6
+    v: 5.0
+    B: 9.1
 ---
 # {{ params.vars.title }}
 

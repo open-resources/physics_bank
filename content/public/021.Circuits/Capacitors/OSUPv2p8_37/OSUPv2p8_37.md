@@ -35,24 +35,22 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
     label: $C= $
     suffix: $\rm\ \mu\textrm{F}$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Adding Capacitances
-    a: '1'
-    b: '9'
-    c: '1.5'
-    d: '2.0'
-    e: '0.25'
-    f: '14'
+    a: '6'
+    b: '8'
+    c: '2.5'
+    d: '1.5'
+    e: '1.25'
+    f: '12'
 ---
 # {{ params.vars.title }}
 

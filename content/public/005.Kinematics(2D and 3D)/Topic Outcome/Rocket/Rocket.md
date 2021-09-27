@@ -41,6 +41,7 @@ part2:
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $a= $
@@ -50,6 +51,7 @@ part3:
 part4:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $t= $
@@ -62,9 +64,9 @@ substitutions:
       title: Rocket
       units1: $m/s^2$
       units2: $s$
-    v_1: 6
-    t_1: 1
-    t_2: 6
+    v_1: 2
+    t_1: 3
+    t_2: 4
 ---
 # {{ params.vars.title }}
 A rocket has a velocity (pointing away from the launch pad) given by $v(t)$={{ params.v_1 }}$t$-$t^2$

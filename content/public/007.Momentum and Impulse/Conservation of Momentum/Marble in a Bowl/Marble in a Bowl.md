@@ -25,19 +25,18 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\theta= $
     suffix: $^{\circ}$
-    comparison: relabs
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Marble in a Bowl
-    ro: 0.61
-    vo: 4
-    h: 0.3
+    ro: 0.59
+    vo: 3
+    h: 0.14
 ---
 # {{ params.vars.title }}
 <img src="Marble in a Bowl.png" width=400>

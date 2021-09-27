@@ -34,20 +34,18 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
     label: $d= $
     suffix: $\rm\ m$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Electric potential of parallel plates
-    f_s: $7.60\times 10^{3}$
-    V: '18.0'
+    f_s: $5.00\times 10^{3}$
+    V: '7.0'
 ---
 # {{ params.vars.title }}
 

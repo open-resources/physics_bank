@@ -29,6 +29,7 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $a_{max} = $
@@ -38,12 +39,12 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: bus
+      vehicle: car
       title: A Crate's Maximum Acceleration without Slipping
       units: $m/s^2$
-    mu_s: 0.66
-    mu_k: 0.36
-    theta: 10
+    mu_s: 0.98
+    mu_k: 0.39
+    theta: 17
 ---
 # {{ params.vars.title }}
 A wood crate sits in the back of a {{ params.vars.vehicle }}.

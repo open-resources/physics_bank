@@ -25,30 +25,28 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v_b= $
     suffix: $ft/s$
-    comparison: relabs
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $F= $
     suffix: $lb$
-    comparison: relabs
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Force on a Highway Exit
-    vami: 57
-    vcmi: 21
-    W: 6686
-    d: 234
-    r: 155
+    vami: 58
+    vcmi: 26
+    W: 4174
+    d: 152
+    r: 113
 ---
 # {{ params.vars.title }}
 <img src="Force on a Highway Exit.png" width=400>

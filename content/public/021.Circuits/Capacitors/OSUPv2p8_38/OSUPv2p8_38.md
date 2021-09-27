@@ -35,44 +35,36 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $Q=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\textrm{nC}$
     weight: 1
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $Q_1=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\textrm{nC}$
     weight: 1
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $Q_2=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\textrm{nC}$
     weight: 1
 part4:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $V=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\textrm{V}$
     weight: 1
@@ -80,9 +72,9 @@ substitutions:
   params:
     vars:
       title: Charging Capacitors
-    a: '50'
-    b: '20'
-    v: '700'
+    a: '30'
+    b: '10'
+    v: '400'
 ---
 # {{ params.vars.title }}
 A {{params.a }} $\textrm{ pF}$ capacitor is charged to a potential difference of {{params.v }} $\textrm{ V}$. Its terminals are then connected to those of an uncharged {{params.b }} $\textrm{ pF}$ capacitor.

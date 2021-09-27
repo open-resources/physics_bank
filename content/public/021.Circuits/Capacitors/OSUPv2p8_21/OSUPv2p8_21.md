@@ -32,20 +32,18 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: true
     label: $V= $
     suffix: $\rm\ V$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Voltage Applied to a Capacitor
-    c: '1.1'
-    q: '1.4'
+    c: '3.5'
+    q: '1.2'
 ---
 # {{ params.vars.title }}
 

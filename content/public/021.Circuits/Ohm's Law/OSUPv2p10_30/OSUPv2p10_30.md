@@ -28,12 +28,10 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $I_1=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ A$
     custom-format: .3g
@@ -41,12 +39,10 @@ part1:
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $P_1=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ W$
     custom-format: .3g
@@ -54,12 +50,10 @@ part2:
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $I_2=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ A$
     custom-format: .3g
@@ -67,12 +61,10 @@ part3:
 part4:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $P_2=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ W$
     custom-format: .3g
@@ -80,12 +72,10 @@ part4:
 part5:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $I_1=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ A$
     custom-format: .3g
@@ -93,12 +83,10 @@ part5:
 part6:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $P_1=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ W$
     custom-format: .3g
@@ -106,12 +94,10 @@ part6:
 part7:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $I_2=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ A$
     custom-format: .3g
@@ -119,21 +105,19 @@ part7:
 part8:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $P_2=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ W$
     custom-format: .3g
     weight: 1
 substitutions:
   params:
-    V: '47.0'
-    R1: '25.0'
-    R2: '90.0'
+    V: '51.0'
+    R1: '22.0'
+    R2: '92.0'
 ---
 # {{ params.vars.title }}
 Consider a ${{ params.V }}\rm\ V$ battery and two resistors: $R_1 = {{ params.R1 }}\rm\ \Omega$ and $R_2 = {{ params.R2 }}\rm\ \Omega$.

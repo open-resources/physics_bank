@@ -25,31 +25,29 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $T = $
     suffix: N
-    comparison: relabs
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $F_{\theta} = $
     suffix: N
-    comparison: relabs
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Slider in a Rotating Tube
-    m: 0.39
-    w: 10
-    wdot: -3
-    r: 0.4
-    rdot: -0.7
-    rddot: 0.9
+    m: 0.28
+    w: 5
+    wdot: -5
+    r: 0.36
+    rdot: -4.6
+    rddot: 3.3
 ---
 # {{ params.vars.title }}
 <img src="Slider in a rotating Tube.png" width=400>

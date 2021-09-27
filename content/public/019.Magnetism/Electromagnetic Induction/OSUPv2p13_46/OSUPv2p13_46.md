@@ -27,24 +27,20 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     label: $\varepsilon= $
     suffix: $\rm\ V$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     label: $I= $
     suffix: $\rm\ A$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
 part3:
   type: dropdown
@@ -54,42 +50,36 @@ part3:
 part4:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     label: $F= $
     suffix: $\rm\ N$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
 part5:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     label: $P= $
     suffix: $\rm\ W$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
 part6:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     label: $P= $
     suffix: $\rm\ W$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
 substitutions:
   params:
     vars:
       title: Circuit with Resistance
-    B: '0.50'
-    v: '10'
+    B: '0.25'
+    v: '5'
     part3:
       ans1:
         value: Clockwise

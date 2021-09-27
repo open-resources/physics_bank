@@ -33,19 +33,17 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     label: Cost = $
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: LED Bulb
       units: $
-    c: 0.4
-    h: 16
+    c: 0.65
+    h: 18
 ---
 # {{ params.vars.title }}
 

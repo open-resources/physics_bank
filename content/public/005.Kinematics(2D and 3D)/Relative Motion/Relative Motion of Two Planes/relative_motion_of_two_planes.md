@@ -27,26 +27,26 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v_{B}= $
     suffix: $ft/s$
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\theta_{v}= $
     suffix: $^{\circ}$
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Relative Motion of Two Planes
-    v: 281
-    h: 1864
-    d: 9283
+    v: 252
+    h: 2005
+    d: 7644
     t: 3
 ---
 # {{ params.vars.title }}

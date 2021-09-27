@@ -25,13 +25,13 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $s= $
     suffix: cm
     comparison: sigfig
     digits: 2
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
@@ -41,13 +41,12 @@ part2:
     suffix: cm
     comparison: sigfig
     digits: 2
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Displacement and Distance of a particle
       units: cm
-    seconds: 32
+    seconds: 17
 ---
 # {{ params.vars.title }}
 The position of a particle in centimeters is given by $s(t) = 20 - 9t + t^2$, where $t$ is in seconds.

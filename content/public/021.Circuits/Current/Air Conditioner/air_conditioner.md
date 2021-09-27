@@ -21,23 +21,19 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $J=$
     allow-blank: false
     show-correct-answer: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ {A/m^2}$
     weight: 1
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $v_{d} =$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ {m/s}$
     weight: 1
@@ -45,8 +41,8 @@ substitutions:
   params:
     vars:
       title: Air Conditioner
-    I: 14
-    n: 4
+    I: 10
+    n: 31
 ---
 # {{ params.vars.title }}
 The current supplied to an air conditioner unit is {{params.I}} $\textrm{A}$. The air conditioner is wired using a 10-gauge (diameter 2.588 mm) wire. The charge density is $ {{{params.n}} \times 10^{28}} {electrons \over m^3} $.

@@ -31,6 +31,7 @@ part1:
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v_{iy}= $
@@ -43,7 +44,7 @@ substitutions:
       title: Jumping Salmon
       units: $m/s$
     h_fall: 3.68
-    dist: 1.02
+    dist: 0.931
     part1:
       ans1:
         value: Time interval for jump, $\Delta t$

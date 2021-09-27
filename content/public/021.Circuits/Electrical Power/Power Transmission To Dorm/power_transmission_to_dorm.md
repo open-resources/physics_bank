@@ -32,22 +32,18 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $\rm{P_{lost}}=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\%$
     weight: 1
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $\rm{P_{lost}}=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\%$
     weight: 1
@@ -55,14 +51,14 @@ substitutions:
   params:
     vars:
       title: Power Transmission To Dorm
-    I_ref: 3
-    V_ref: 117
-    P_bulb: 99
-    P_light: 52
-    P_other: 4
-    V_pp: 117
-    d_pp: 10
-    Al_d: 7.821
+    I_ref: 4
+    V_ref: 124
+    P_bulb: 72
+    P_light: 45
+    P_other: 1
+    V_pp: 124
+    d_pp: 9
+    Al_d: 8.848
 ---
 # {{ params.vars.title }}
 A physics student has a single-occupancy dorm room.

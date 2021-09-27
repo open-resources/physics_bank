@@ -26,6 +26,7 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\theta = \pm $
@@ -37,7 +38,7 @@ substitutions:
     vars:
       title: Kinetic Energy of a Simple Pendulum System
       units: degrees
-    theta: 22.1
+    theta: 55.8
 ---
 # {{ params.vars.title }}
 The figure below shows a simple pendulum. The length of the string is $l$ and the bob has mass $m_1$.

@@ -26,6 +26,7 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\vec{d_x} = $
@@ -34,6 +35,7 @@ part1:
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\vec{d_y} = $
@@ -43,6 +45,7 @@ part2:
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $d = $
@@ -52,6 +55,7 @@ part3:
 part4:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\vec{d_x}$
@@ -61,6 +65,7 @@ part4:
 part5:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\vec{d_y}$
@@ -70,6 +75,7 @@ part5:
 part6:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: ' '
@@ -81,10 +87,10 @@ substitutions:
     vars:
       title: Delivery Man
       units: km
-    dist1: 70
-    dist2: 100
-    dist3: 1
-    dist4: 100
+    dist1: 90
+    dist2: 50
+    dist3: 7
+    dist4: 40
 ---
 # {{ params.vars.title }}
 A delivery person starts at the post office, drives {{params.dist1}} km north, then {{params.dist2}} km west, then {{params.dist3}} km northeast, and finally {{params.dist4}} km north to stop for lunch.  Assume $+y$ is to the North, and $+x$ is to the East. Use the analytical method to determine the following:

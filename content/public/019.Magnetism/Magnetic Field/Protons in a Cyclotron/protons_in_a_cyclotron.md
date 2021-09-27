@@ -32,30 +32,26 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     label: $P= $
     suffix: $\rm\ {s}$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     custom-format: .2g
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     label: $r= $
     suffix: $\rm\ {m}$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     custom-format: .2g
 substitutions:
   params:
     vars:
       title: Protons in a Cyclotron
-    B: 1.7
+    B: 1.0
 ---
 # {{ params.vars.title }}
 A physicist is designing a cyclotron to accelerate protons to one-tenth the speed of light.

@@ -30,6 +30,7 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\Delta E$
@@ -41,10 +42,10 @@ substitutions:
     vars:
       title: Split Blocks
       units: $J$
-    m: 11
-    m_a: 9
+    m: 10
+    m_a: 8
     m_b: 2
-    v_a: 4.7
+    v_a: 5.4
 ---
 # {{ params.vars.title }}
 A {{params.m}} $kg$ block is initially at rest on a sheet of ice.

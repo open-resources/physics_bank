@@ -25,20 +25,19 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\theta= $
     suffix: $^{\circ}$
-    comparison: relabs
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Marble in a Funnel
-    r1: 1.26
-    vo: 0.48
-    r2: 0.15
-    ad: 27
+    r1: 1.13
+    vo: 0.66
+    r2: 0.151
+    ad: 43
 ---
 # {{ params.vars.title }}
 <img src="Marble in a Funnel.png" width=400>

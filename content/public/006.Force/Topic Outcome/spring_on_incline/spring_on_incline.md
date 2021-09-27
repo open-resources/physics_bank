@@ -31,6 +31,7 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $x=$
     allow-blank: true
     weight: 1
@@ -40,6 +41,7 @@ part1:
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $K_{max}=$
     allow-blank: true
     weight: 1
@@ -53,10 +55,10 @@ substitutions:
       units1: m
       units2: J
     m: 5
-    k: 630
-    theta: 27
+    k: 662
+    theta: 29
     mu: 0.25
-    d: 9
+    d: 5
     g: 9.8
 ---
 # {{ params.vars.title }}

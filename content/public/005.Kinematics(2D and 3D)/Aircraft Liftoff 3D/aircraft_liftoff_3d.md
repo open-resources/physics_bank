@@ -25,35 +25,35 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\dot{R}= $
     suffix: $km/h$
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\dot{\theta}= $
     suffix: $rad/s$
-    rtol: 0.02
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\dot{\phi}= $
     suffix: $rad/s$
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Aircraft Liftoff 3D
-    v: 336
-    z: 336
-    x: 463
-    angle: 0.44
+    v: 391
+    z: 275
+    x: 439
+    angle: 0.82
 ---
 # {{ params.vars.title }}
 <img src="L10Q1.png" width=85%>

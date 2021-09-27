@@ -32,20 +32,18 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     label: $R= $
     suffix: $\rm \Omega $
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Resistance Of A Copper Wire
       units: Ohms
-    d: 9.084
-    l: 3.7
+    d: 9.512
+    l: 8.2
 ---
 # {{ params.vars.title }}
 

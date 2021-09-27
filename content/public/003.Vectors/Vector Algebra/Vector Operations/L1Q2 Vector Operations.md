@@ -25,58 +25,52 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $V_1 + V_2$
-    comparison: relabs
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $|\vec{V_1} + \vec{V_2}|$
-    comparison: relabs
-    rtol: 0.02
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $|\vec{V_1} - \vec{V_2}|$
-    comparison: relabs
-    rtol: 0.02
 part4:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\vec{V_1} \times \vec{V_2}$
-    comparison: relabs
-    rtol: 0.02
 part5:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\vec{V_2} \times \vec{V_1}$
-    comparison: relabs
-    rtol: 0.02
 part6:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\vec{V_1} \bullet \vec{V_2}$
-    comparison: relabs
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Vector Operations
-    v1: 2
+    v1: 6
     v2: 10
-    angle: 43
+    angle: 42
 ---
 # {{ params.vars.title }}
 <img src="L1Q2_drawing.png" width=400>

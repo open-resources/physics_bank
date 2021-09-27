@@ -25,30 +25,28 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $N= $
     suffix: $N$
-    comparison: relabs
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v= $
     suffix: $m/s$
-    comparison: relabs
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Snowboarder Impact Landing
-    v: 6
-    t: 0.03
-    ad: 38
-    m: 57
-    thetad: 31
+    v: 9
+    t: 0.06
+    ad: 21
+    m: 69
+    thetad: 20
 ---
 # {{ params.vars.title }}
 <img src="Snowboarder Impact Landing.png" width=400>

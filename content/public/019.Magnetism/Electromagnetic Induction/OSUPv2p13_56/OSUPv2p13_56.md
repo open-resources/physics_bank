@@ -31,22 +31,20 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
     label: $\omega= $
     suffix: $\rm\ {rad/s}$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Square Coil
-    N: '15'
-    l: '20'
-    B: '0.050'
-    E: '20'
+    N: '45'
+    l: '35'
+    B: '0.060'
+    E: '40'
 ---
 # {{ params.vars.title }}
 

@@ -40,6 +40,7 @@ part2:
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     hide-answer-panel: true
     allow-blank: true

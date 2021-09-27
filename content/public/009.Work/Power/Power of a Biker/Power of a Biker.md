@@ -25,20 +25,19 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $P= $
     suffix: $hp$
-    comparison: relabs
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Power of a Biker
       units: $hp$
-    v: 10
-    W: 210
-    grd: 8
+    v: 7
+    W: 189
+    grd: 6
 ---
 # {{ params.vars.title }}
 <img src="Power of a Biker.png" width=400>

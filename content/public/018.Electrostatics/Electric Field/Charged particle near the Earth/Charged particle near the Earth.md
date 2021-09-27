@@ -32,12 +32,10 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $E=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ N/C$
     weight: 1
@@ -51,7 +49,7 @@ substitutions:
   params:
     vars:
       title: Charged particle near the Earth
-    charge: electron
+    charge: proton
     part2:
       ans1:
         value: Away from the surface of the Earth.

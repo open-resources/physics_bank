@@ -28,18 +28,18 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $a=$
     weight: 1
     suffix: $ft/s^2$
-    rtol: 0.02
     allow-blank: true
 substitutions:
   params:
     vars:
       title: Window Washer
       units: ft/s^2
-    m: 171
-    f: 66
+    m: 159
+    f: 32
 ---
 # {{ params.vars.title }}
 

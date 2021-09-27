@@ -28,12 +28,10 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $F/\ell=$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ N/m$
     weight: 1
@@ -48,10 +46,10 @@ substitutions:
   params:
     vars:
       title: Force between current-carrying wires
-    d: '18.0'
-    I1: '4.0'
-    I2: '5.6'
-    txt: opposite directions
+    d: '20.0'
+    I1: '1.2'
+    I2: '6.0'
+    txt: the same direction
     part2:
       ans1:
         value: Attract

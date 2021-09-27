@@ -32,21 +32,19 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     label: $|Q|/m = $
     suffix: $\rm\ {C/kg}$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     custom-format: .2g
 substitutions:
   params:
     vars:
       title: Velocity Selector
-    B: 0.515
-    E: 0.6
-    r: 2.5
+    B: 0.737
+    E: 2.9
+    r: 2.8
 ---
 # {{ params.vars.title }}
 

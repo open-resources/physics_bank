@@ -35,33 +35,27 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $Q=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ {nC}$
     weight: 1
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $V_1=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ V$
     weight: 1
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $V_2=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ V$
     weight: 1
@@ -69,9 +63,9 @@ substitutions:
   params:
     vars:
       title: Charge and Voltage Across Capacitors
-    a: '13'
-    b: '7'
-    v: '470'
+    a: '7'
+    b: '5'
+    v: '390'
 ---
 # {{ params.vars.title }}
 A {{params.a }}$\textrm{ pF}$ capacitor is connected in series with a {{params.b }}$\textrm{ pF}$ capacitor and a {{params.v }}$\textrm{ V}$ potential difference is applied across the pair.

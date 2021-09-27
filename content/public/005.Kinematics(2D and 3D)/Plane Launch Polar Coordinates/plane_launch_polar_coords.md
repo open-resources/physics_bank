@@ -25,27 +25,27 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v= $
     suffix: $ft/s$
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\dot \theta= $
     suffix: $rad/s$
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Plane launch Polar Coordinates
-    d: 435
-    r_dot: 230
-    angle1: 53
-    angle2: 53
+    d: 392
+    r_dot: 157
+    angle1: 52
+    angle2: 45
 ---
 # {{ params.vars.title }}
 <img src="L7Q1.png" width=90%>

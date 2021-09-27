@@ -25,21 +25,20 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $U_f= $
     suffix: $ft \bullet lb$
-    comparison: relabs
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Package on a Hill
     w: 40
-    va: 5
-    vb: 28
-    h: 29
-    d: 26
+    va: 3
+    vb: 17
+    h: 47
+    d: 34
 ---
 # {{ params.vars.title }}
 <img src="Package on a Hill.png" width=400>

@@ -20,11 +20,11 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $W= $
     suffix: $N$
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
@@ -32,20 +32,19 @@ part2:
     allow-blank: true
     label: $m= $
     suffix: $slug$
-    rtol: 0.02
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $m= $
     suffix: $kg$
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Weight units conversion
-    w_lbs: 245
+    w_lbs: 120
 ---
 # {{ params.vars.title }}
 A students has a mass of {{params.w_lbs}} $lbs$.

@@ -63,6 +63,7 @@ part4:
 part5:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $t= $
@@ -72,6 +73,7 @@ part5:
 part6:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v= $
@@ -81,6 +83,7 @@ part6:
 part7:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v= $
@@ -90,6 +93,7 @@ part7:
 part8:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $x= $
@@ -99,6 +103,7 @@ part8:
 part9:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v= $
@@ -113,13 +118,13 @@ substitutions:
   params:
     vars:
       title: A Coyote and a Rat
-    m_c: 10
-    m_r: 3
-    d_b: 47
-    d_c: 29
-    v_r: 8
+    m_c: 12
+    m_r: 6
+    d_b: 38
+    d_c: 35
+    v_r: 6
     a_c: 5
-    mu_k: 2.82
+    mu_k: 2.43
     part10:
       ans1:
         value: Yes, the coyote will be able to stop before hitting the thorny bush.

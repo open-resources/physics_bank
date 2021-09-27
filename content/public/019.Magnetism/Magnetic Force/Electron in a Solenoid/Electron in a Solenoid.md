@@ -39,21 +39,19 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
     label: $I= $
     suffix: $\rm\ A$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Electron in a Solenoid
-    n: '25'
-    r: '1.10'
-    v: "$2.30\\times 10^{5 }\textrm{ m/s}$"
+    n: '20'
+    r: '1.90'
+    v: "$1.20\\times 10^{5 }\textrm{ m/s}$"
 ---
 # {{ params.vars.title }}
 A solenoid with {{ params.n }} turns per centimter carries a current $I$.

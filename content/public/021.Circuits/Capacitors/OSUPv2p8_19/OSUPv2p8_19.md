@@ -32,20 +32,18 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
     label: $Q= $
     suffix: $\rm\ C$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Charge Stored in a Capacitor
-    c: '195'
-    v: '130'
+    c: '165'
+    v: '180'
 ---
 # {{ params.vars.title }}
 

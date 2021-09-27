@@ -31,24 +31,20 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $I_\mathrm{min} =$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ {\mu A}$
     weight: 1
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $I_\mathrm{max} =$
     allow-blank: false
     show-correct-answer: true
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\rm\ {\mu A}$
     weight: 1
@@ -56,10 +52,10 @@ substitutions:
   params:
     vars:
       title: Range of Current Through Resistor
-    R: 96
-    V: 2.6
-    p: 5
-    Vtotal: 5.2
+    R: 276
+    V: 3.1
+    p: 3
+    Vtotal: 6.2
 ---
 # {{ params.vars.title }}
 A resistor rated at {{params.R}} $\rm\ k\Omega$ is connected across two D cell batteries (each {{params.V}} $\textrm{ V}$) in series, with a total voltage of {{params.Vtotal}} $\textrm{ V}$.

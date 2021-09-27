@@ -26,14 +26,15 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $s= $
     suffix: m
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v= $
@@ -41,17 +42,17 @@ part2:
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $a= $
     suffix: $m/s^2$
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Position, Velocity and Acceleration of a Particle
-    s0: 3
-    t: 23
+    s0: 4
+    t: 17
 ---
 # {{ params.vars.title }}
 The velocity of a particle which moves along the X axis is given by $v = 4 - 8t + 10t^2$, where $t$ is in seconds

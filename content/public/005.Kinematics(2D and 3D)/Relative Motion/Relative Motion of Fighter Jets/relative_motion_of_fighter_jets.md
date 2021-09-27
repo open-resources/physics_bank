@@ -27,45 +27,45 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v_{A/B}= $
     suffix: $i$
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v_{A/B}= $
     suffix: $j$
-    rtol: 0.02
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v_{A/B}= $
     suffix: $i$
-    rtol: 0.02
 part4:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v_{A/B}= $
     suffix: $j$
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Relative Motion of Fighter Jets
-    d1: 583
-    d2: 304
-    theta1: 27
-    theta2: 63
-    v_A: 332
-    v_B: 330
+    d1: 421
+    d2: 366
+    theta1: 39
+    theta2: 51
+    v_A: 310
+    v_B: 250
 ---
 # {{ params.vars.title }}
 <img src="L11Q5.png" width=85%>

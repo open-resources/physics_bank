@@ -25,28 +25,26 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $P= $
     suffix: $ft \bullet lb/s$
-    comparison: relabs
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $P= $
     suffix: $W$
-    comparison: relabs
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Power Climbing Stairs
-    W: 152
-    t: 3
-    h: 14
+    W: 174
+    t: 4
+    h: 15
 ---
 # {{ params.vars.title }}
 <img src="Power Climbing Stairs.png" width=400>

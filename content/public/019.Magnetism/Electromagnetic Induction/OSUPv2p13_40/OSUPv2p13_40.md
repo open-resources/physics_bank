@@ -25,22 +25,20 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
     label: $\varepsilon= $
     suffix: $\rm\ V$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Rotating Coil
-    N: '1200'
+    N: '1500'
     a: '30'
-    t: '0.005'
-    B: '6.5'
+    t: '0.015'
+    B: '6.0'
 ---
 # {{ params.vars.title }}
 

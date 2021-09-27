@@ -29,6 +29,7 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v= $
@@ -38,6 +39,7 @@ part1:
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v_f= $
@@ -47,6 +49,7 @@ part2:
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v_f= $
@@ -58,9 +61,9 @@ substitutions:
     vars:
       title: Head-on Collision of Carts
       units: $(m/s)\; \hat{\imath}$
-    c1: 7
-    c2: 8
-    v0: 7.91
+    c1: 5
+    c2: 2
+    v0: 14.3
 ---
 # {{ params.vars.title }}
 A cart of mass ${{ params.c1 }}m$ moving with velocity $\vec{v_0} = ($ {{ params.v0 }} $m/s)\hat{\imath}$ collides head-on with a cart of mass {{ params.c2 }} $m$ that is initially at rest.

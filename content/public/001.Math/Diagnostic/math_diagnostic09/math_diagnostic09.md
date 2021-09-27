@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $o$ = $\dfrac{(u)}{(m - 8b)} $
+    expr: $l$ = $\dfrac{(i)}{(p + 8c)} $
     part1:
       ans1:
-        value: m = ${ 8 b + \frac{u}{o}}$
+        value: p = ${ - 8 c + \frac{i}{l}}$
       ans2:
-        value: m = ${- \frac{8 b o}{u}}$
+        value: p = ${\frac{8 c l}{i}}$
       ans3:
-        value: m = ${- \frac{u}{8 b o}}$
+        value: p = ${\frac{i}{8 c l}}$
       ans4:
-        value: m = ${\frac{8 b + o}{u}}$
+        value: p = ${\frac{- 8 c + l}{i}}$
       ans5:
         value: Don't Know
 ---

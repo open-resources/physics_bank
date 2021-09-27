@@ -25,18 +25,17 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\Delta p= $
     suffix: $N \bullet s$
-    comparison: relabs
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Impulse of a Mallet
-    F: 265
-    t1: 0.003
+    F: 480
+    t1: 0.002
     t2: 0.009
     t3: 0.014
 ---

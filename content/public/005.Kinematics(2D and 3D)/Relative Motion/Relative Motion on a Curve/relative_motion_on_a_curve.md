@@ -27,28 +27,28 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $a_{A/B}= $
     suffix: $m/s^2$
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $\theta_{a}= $
     suffix: $^{\circ}$
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Relative Motion on a Curve
-    v: 37
-    r: 71
-    d: 49
-    a: 2.3
-    theta: 44
+    v: 53
+    r: 58
+    d: 46
+    a: 2.2
+    theta: 28
 ---
 # {{ params.vars.title }}
 <img src="L11Q4.png" width=85%>

@@ -25,36 +25,36 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $x= $
     suffix: $ft$
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $y= $
     suffix: $ft$
-    rtol: 0.02
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $z= $
     suffix: $ft$
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Parcel from Aircraft 3D
       units: ft
-    z0: 1935
-    y0: 820
-    vx0: 155
-    vy0: 21
+    z0: 1921
+    y0: 874
+    vx0: 215
+    vy0: 44
 ---
 # {{ params.vars.title }}
 ${{params.z0}}ft$ above the ground, a cargo plane flies in a horizontal circle with radius of ${{paramsy.y0}}ft$.

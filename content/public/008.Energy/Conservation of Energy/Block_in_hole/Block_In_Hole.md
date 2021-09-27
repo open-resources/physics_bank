@@ -26,6 +26,7 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $h= $
@@ -37,7 +38,7 @@ substitutions:
     vars:
       title: Block In Hole
       units: m
-    a: 25
+    a: 27
     d: 0.6
 ---
 # {{ params.vars.title }}

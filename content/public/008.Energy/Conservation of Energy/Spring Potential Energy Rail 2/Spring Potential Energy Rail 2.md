@@ -25,37 +25,34 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v= $
     suffix: $m/s$
-    comparison: relabs
-    rtol: 0.02
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $v= $
     suffix: $m/s$
-    comparison: relabs
-    rtol: 0.02
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $N= $
     suffix: $N$
-    comparison: relabs
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Spring Potential Energy Rail 2
-    m: 5
-    R: 0.87
-    k: 114
+    m: 3
+    R: 0.45
+    k: 64
 ---
 # {{ params.vars.title }}
 <img src="Spring Potential Energy Rail 2.png" width=400>

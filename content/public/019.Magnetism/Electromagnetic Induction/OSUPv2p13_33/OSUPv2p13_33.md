@@ -32,13 +32,11 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     label: $\varepsilon= $
     suffix: $\rm\ V$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
 part2:
   type: dropdown
@@ -49,10 +47,10 @@ substitutions:
   params:
     vars:
       title: Single-turn Circular Loop
-    r: '20'
-    b: '150'
-    B: '300'
-    t: '0.4'
+    r: '50'
+    b: '125'
+    B: '375'
+    t: '0.5'
     part2:
       ans1:
         value: Clockwise

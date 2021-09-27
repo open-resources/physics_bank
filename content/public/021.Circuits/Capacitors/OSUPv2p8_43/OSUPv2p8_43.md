@@ -34,22 +34,18 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $U=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\textrm{J}$
     weight: 1
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     label: $Q=$
     allow-blank: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-help-text: true
     suffix: $\textrm{C}$
     weight: 1
@@ -57,8 +53,8 @@ substitutions:
   params:
     vars:
       title: Heart Defibrillator
-    c: '15.0'
-    v: '4.0'
+    c: '18.0'
+    v: '5.0'
 ---
 # {{ params.vars.title }}
 

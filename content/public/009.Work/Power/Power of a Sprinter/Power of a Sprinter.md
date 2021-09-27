@@ -24,21 +24,20 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $P= $
     suffix: $W$
-    comparison: relabs
-    rtol: 0.02
 substitutions:
   params:
     vars:
       title: Power of a Sprinter
       units: W
     v: 8
-    t: 1
-    m: 70
-    v2: 5
+    t: 4
+    m: 73
+    v2: 7
 ---
 # {{ params.vars.title }}
 An {{ params.m }}$kg$ sprinter accelerates uniformly from rest to reach their maximum speed of {{ params.v }}$m/s$ in  seconds.

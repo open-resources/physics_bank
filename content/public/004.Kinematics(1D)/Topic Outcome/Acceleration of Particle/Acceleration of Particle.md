@@ -27,6 +27,7 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $t_1= $
@@ -36,6 +37,7 @@ part1:
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $t_2= $
@@ -45,6 +47,7 @@ part2:
 part3:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $a= $
@@ -54,6 +57,7 @@ part3:
 part4:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $a= $
@@ -66,9 +70,9 @@ substitutions:
       title: Acceleration of a Particle
       unit1: $s$
       unit2: $m/s^2$
-    c1: 5
-    c2: 2
-    c3_abs: 50
+    c1: 6
+    c2: 4
+    c3_abs: 49
     c3_sign: ' + '
 ---
 # {{ params.vars.title }}

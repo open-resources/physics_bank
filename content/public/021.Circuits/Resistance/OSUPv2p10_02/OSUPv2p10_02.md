@@ -26,21 +26,19 @@ assets: null
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
     label: $I_\mathrm{f}/I_0= $
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
     show-placeholder: false
 substitutions:
   params:
     vars:
       title: Battery Internal Resistance
-    x: 3
+    x: 5
     N: 5
-    V_string: '14.50'
+    V_string: '6.75'
 ---
 # {{ params.vars.title }}
 A battery with an internal resistance of $r$ and an emf of {{ params.V_string }}$\textrm{ V}$ is connected to a load resistor $R =$ {{ params.N }}$r$ and current $I_0$ flows.

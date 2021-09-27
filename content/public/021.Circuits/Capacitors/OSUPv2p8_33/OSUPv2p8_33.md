@@ -35,21 +35,19 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
     label: $C= $
     suffix: $\rm\ \mu\textrm{F}$
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
 substitutions:
   params:
     vars:
       title: Equivalent Capacitance
-    a: '13'
-    b: '4.5'
-    c: '0.9'
+    a: '9'
+    b: '3.5'
+    c: '1.0'
 ---
 # {{ params.vars.title }}
 

@@ -25,17 +25,17 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $a= $
-    rtol: 0.02
     suffix: $m/s^2$
 substitutions:
   params:
     vars:
       title: Acceleration for moving ball from Velocity vs Displacement graph
       units: $m/s^2$
-    s: 9
+    s: 22
 ---
 # {{ params.vars.title }}
 <img src="L4Q3.png" width=90% height=75%>

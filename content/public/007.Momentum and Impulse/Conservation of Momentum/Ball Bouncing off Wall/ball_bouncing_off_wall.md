@@ -27,6 +27,7 @@ assets:
 part1:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $J_x= $
@@ -36,6 +37,7 @@ part1:
 part2:
   type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
     allow-blank: true
     label: $F_{avg}= $
@@ -48,10 +50,10 @@ substitutions:
       title: Ball Bouncing off a Wall
       units1: $\frac{kg*m}{s}$
       units2: $N$
-    m: 7
-    v: 13
-    theta: 36
-    t: 0.502
+    m: 10
+    v: 12
+    theta: 42
+    t: 0.224
 ---
 # {{ params.vars.title }}
 A {{params.m}} kg steel bass strikes a massive wall at {{params.v}} m/s at an angle of {{params.theta}} with the plane of the wall. It bounces off of the wall with the same speed and angle (see the figure).
