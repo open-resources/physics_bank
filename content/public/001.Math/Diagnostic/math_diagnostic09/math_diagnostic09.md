@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $t$ = $\dfrac{(f)}{(x + 8k)} $
+    expr: $h$ = $\dfrac{(j)}{(s + 9e)} $
     part1:
       ans1:
-        value: x = ${ \frac{f}{t} - 8 k}$
+        value: s = ${ - 9 e + \frac{j}{h}}$
       ans2:
-        value: x = ${\frac{8 k t}{f}}$
+        value: s = ${\frac{9 e h}{j}}$
       ans3:
-        value: x = ${\frac{f}{8 k t}}$
+        value: s = ${\frac{j}{9 e h}}$
       ans4:
-        value: x = ${\frac{- 8 k + t}{f}}$
+        value: s = ${\frac{- 9 e + h}{j}}$
       ans5:
         value: Don't Know
 ---

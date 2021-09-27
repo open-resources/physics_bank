@@ -1,15 +1,14 @@
 ---
-title: Electron Beam
+title: Energy Stored in Different Coils
 topic: Circuits
-author: Vanshika Sharma
-source: 2.9.29
+author: Joseph Wandinger
+source: 2.14.48
 template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
 outcomes:
-- 21.2.2.0
-- 21.2.2.1
+- 21.14.2.3
 difficulty:
 - undefined
 randomization:
@@ -22,34 +21,40 @@ length:
 - undefined
 tags:
 - OSUP
-- VS
-assets: null
+- volume 2
+- chapter 14
+- problem 48
+- circuits
+- inductance
+- solenoids
+- energy
+- numeric
+- JW
 part1:
   type: number-input
   pl-customizations:
-    rtol: 0.05
     weight: 1
     allow-blank: false
-    label: $ \textrm {J=} $
-    suffix: $ \rm {A/m^2} $
+    show-correct-answer: false
+    label: $E_B/E_A =$
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
 substitutions:
   params:
     vars:
-      title: 'Electron Beam '
-      units: ' $ A / m^2 $ '
-    I: 183
-    r: 0.68
+      title: Energy Stored in Different Coils
+    num: '2'
 ---
 # {{ params.vars.title }}
+Solenoid $A$ is tightly wound while solenoid $B$ has windings that are evenly spaced with a gap equal to ${\rm {{ params.num }}} d$, where $d$ is the diameter of the wire.
+The solenoids are otherwise identical.
 
 ## Question Text
 
-An electron beam with a radius of {{params.r}} $\textrm{mm}$ has a measured current of {{params.I}}$\rm\ \mu A$.
-What is the magnitude of the current density in the beam?
+Determine the ratio of the energies stored per unit length of these solenoids when the same current flows through each.
 
 ### Answer Section
-
-Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

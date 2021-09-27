@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 6x + -1 > 4x + 8
+      formula: 3x + 1 > -6x + 9
     part1:
       ans1:
-        value: x > 9/2
+        value: x > 8/9
       ans2:
-        value: x < 9/2
+        value: x < 8/9
       ans3:
-        value: x < 2/9
+        value: x < 9/8
       ans4:
-        value: x > 2/9
+        value: x > 9/8
       ans5:
         value: Don't Know
 ---

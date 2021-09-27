@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 1
-    b: 9
-    formula: $x \sin{\left(9 x \right)}$
+    a: 3
+    b: 1
+    formula: $x^{3} \sin{\left(x \right)}$
     part1:
       ans1:
-        value: $9 x \cos{\left(9 x \right)} + \sin{\left(9 x \right)}$
+        value: $x^{3} \cos{\left(x \right)} + 3 x^{2} \sin{\left(x \right)}$
       ans2:
-        value: $9 x \cos{\left(9 x \right)} $
+        value: $x^{3} \cos{\left(x \right)} $
       ans3:
-        value: $ \cos{\left(9 x \right)}$
+        value: $ 3 x^{2} \cos{\left(x \right)}$
       ans4:
-        value: $- 9 x \sin{\left(9 x \right)} + \cos{\left(9 x \right)}$
+        value: $- x^{3} \sin{\left(x \right)} + 3 x^{2} \cos{\left(x \right)}$
       ans5:
         value: Don't Know
 ---

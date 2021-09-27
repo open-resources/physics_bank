@@ -36,8 +36,8 @@ substitutions:
       units: W
     v: 10
     t: 3
-    m: 58
-    v2: 7
+    m: 79
+    v2: 2
 ---
 # {{ params.vars.title }}
 An {{ params.m }}$kg$ sprinter accelerates uniformly from rest to reach their maximum speed of {{ params.v }}$m/s$ in  seconds.

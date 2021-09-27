@@ -30,7 +30,7 @@ substitutions:
   params:
     vars:
       title: Minimum Coefficient Of Static Friction
-      vehicle: car
+      vehicle: pickup truck
     r: 78
     v: 15
     part1:

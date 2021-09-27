@@ -34,8 +34,8 @@ substitutions:
   params:
     vars:
       title: Marble in a Bowl
-    ro: 0.69
-    vo: 4
+    ro: 0.59
+    vo: 3
     h: 0.12
 ---
 # {{ params.vars.title }}
