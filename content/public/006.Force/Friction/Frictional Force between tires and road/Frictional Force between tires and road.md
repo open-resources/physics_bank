@@ -34,7 +34,7 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: ice skates
+      vehicle: a bicycle
       title: Frictional Force between Tires and the Road
 ---
 # {{ params.vars.title }}
@@ -50,7 +50,7 @@ Note that it may not be necessary to use every variable.
 
 Use the following table as a reference for each variable:
 
-| Variable | Use |
+| For | Use |
 |----------|-----|
 | $m$      | m   |
 | $v$      | v   |

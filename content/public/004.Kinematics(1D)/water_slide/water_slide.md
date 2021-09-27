@@ -53,7 +53,7 @@ part4:
 substitutions:
   params:
     vars:
-      name: Ahmed
+      name: Emilia
       title: Water Slide
     theta: 20
     l: 700
@@ -66,7 +66,7 @@ The kid has an unknown initial velocity $v_o$ , but they collide midway down the
 
 Use the following table as a reference for each variable:
 
-| $Variable$ | Use   |
+| For  | Use   |
 |----------|-------|
 | $t$  | t  |
 | $v_o$  | v_o  |

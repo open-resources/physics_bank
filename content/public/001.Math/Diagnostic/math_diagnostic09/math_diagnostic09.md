@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $l$ = $\dfrac{(i)}{(c + 7y)} $
+    expr: $o$ = $\dfrac{(u)}{(m - 8b)} $
     part1:
       ans1:
-        value: c = ${ \frac{i}{l} - 7 y}$
+        value: m = ${ 8 b + \frac{u}{o}}$
       ans2:
-        value: c = ${\frac{7 l y}{i}}$
+        value: m = ${- \frac{8 b o}{u}}$
       ans3:
-        value: c = ${\frac{i}{7 l y}}$
+        value: m = ${- \frac{u}{8 b o}}$
       ans4:
-        value: c = ${\frac{l - 7 y}{i}}$
+        value: m = ${\frac{8 b + o}{u}}$
       ans5:
         value: Don't Know
 ---

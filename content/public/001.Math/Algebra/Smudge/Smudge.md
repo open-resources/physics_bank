@@ -49,7 +49,7 @@ part3:
 substitutions:
   params:
     vars:
-      name: Ahmed
+      name: Ximena
       title: Smudge
 ---
 # {{ params.vars.title }}
@@ -61,7 +61,7 @@ Express the units of $U$ in terms of $kg$, $m$ and $s$.
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable.
 
-| $Variable$ | Use   |
+| For  | Use   |
 |----------|-------|
 | $kg$  | kg  |
 | $m$  | m  |
@@ -75,7 +75,7 @@ Express the units of $k$ in terms of $kg$, $m$ and $s$.
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable.
 
-| $Variable$ | Use   |
+| For  | Use   |
 |----------|-------|
 | $kg$  | kg  |
 | $m$  | m  |

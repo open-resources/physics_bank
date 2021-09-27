@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $9^{4} $=$ 6561$
+    expr: $2^{4} $=$ 16$
     part1:
       ans1:
-        value: $log_96561 = 4$
+        value: $log_216 = 4$
       ans2:
-        value: $log_94 = 6561$
+        value: $log_24 = 16$
       ans3:
-        value: $log_65614 = 9$
+        value: $log_164 = 2$
       ans4:
-        value: $log_46561 = 9$
+        value: $log_416 = 2$
       ans5:
         value: Don't Know
 ---

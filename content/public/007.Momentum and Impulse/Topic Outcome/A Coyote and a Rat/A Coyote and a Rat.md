@@ -113,13 +113,13 @@ substitutions:
   params:
     vars:
       title: A Coyote and a Rat
-    m_c: 9
+    m_c: 10
     m_r: 3
-    d_b: 31
-    d_c: 36
-    v_r: 5
-    a_c: 8
-    mu_k: 2.04
+    d_b: 47
+    d_c: 29
+    v_r: 8
+    a_c: 5
+    mu_k: 2.82
     part10:
       ans1:
         value: Yes, the coyote will be able to stop before hitting the thorny bush.
@@ -137,7 +137,7 @@ Write the position of the coyote as a function of time. Do not plug in values fo
 
 Use the following table as a reference for each variable. Note that it may not be necessary to use every variable.
 
-| $Variable$ | Use   |
+| For  | Use   |
 |----------|-------|
 | $\Delta t$  | t  |
 | $v_f$  | vf  |
@@ -152,7 +152,7 @@ Write the velocity of the coyote as a function of time. Do not plug in values fo
 
 Use the following table as a reference for each variable. Note that it may not be necessary to use every variable.
 
-| $Variable$ | Use   |
+| For  | Use   |
 |----------|-------|
 | $\Delta t$  | t  |
 | $v_f$  | vf  |
@@ -167,7 +167,7 @@ Write the position of the rat as a function of time. Do not plug in values for v
 
 Use the following table as a reference for each variable. Note that it may not be necessary to use every variable.
 
-| $Variable$ | Use   |
+| For  | Use   |
 |----------|-------|
 | $\Delta t$  | t  |
 | $v_f$  | vf  |
@@ -182,7 +182,7 @@ Write the velocity of the rat as a function of time. Do not plug in values for v
 
 Use the following table as a reference for each variable. Note that it may not be necessary to use every variable.
 
-| $Variable$ | Use   |
+| For  | Use   |
 |----------|-------|
 | $\Delta t$  | t  |
 | $v_f$  | vf  |

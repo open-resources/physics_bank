@@ -55,13 +55,13 @@ part4:
 substitutions:
   params:
     vars:
-      name: Abbas
+      name: Santiago
       title: Motion of watermelon
       units1: ${m/s}^2$
       units2: $s$
-    a: 2
-    b: 6
-    c: 3
+    a: 3
+    b: 8
+    c: 4
     part4:
       ans1:
         value: The speed is increasing
@@ -81,7 +81,7 @@ _Hint: Assume that the units are $m \over s$. There is no need to include them i
 
 Use the following table as a reference.
 
-| $Variable$ | Use   |
+| For  | Use   |
 |----------|-------|
 | $t$  | t  |
 

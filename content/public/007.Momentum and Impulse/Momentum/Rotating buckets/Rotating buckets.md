@@ -47,7 +47,7 @@ substitutions:
     vars:
       title: Rotating Buckets
       units: kg
-    m1: 2.2
+    m1: 1.91
     c: 3
 ---
 # {{ params.vars.title }}
@@ -61,7 +61,7 @@ If each bucket has a mass $m$ and the rod has length $l$, what is the rotational
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| $Variable$ | Use   |
+| For  | Use   |
 |----------|-------|
 | $m$  | m  |
 | $l$  | l  |

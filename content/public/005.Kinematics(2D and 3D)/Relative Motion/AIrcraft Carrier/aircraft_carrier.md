@@ -38,7 +38,7 @@ substitutions:
 # {{ params.vars.title }}
 Plane A takes off with a velocity of $\vec{v_A}$ = (190 $km/h$)$\hat{\imath}$ relative to the aircraft carrier. On a second runway which is directed 30$^{\circ}$ away from the $x$-axis, plane B has a speed of 200 $km/h$ relative to the aircraft carrier.
 
-| $Variable$ | Use   |
+| For  | Use   |
 |----------|-------|
 | $\hat{i}$  | i_hat  |
 | $\hat{j}$  | j_hat  |

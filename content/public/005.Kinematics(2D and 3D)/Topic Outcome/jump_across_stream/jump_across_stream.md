@@ -96,12 +96,12 @@ substitutions:
     vars:
       title: Jump Across Stream
       units: $m$
-    m: 414
-    w_s: 2.4
+    m: 312
+    w_s: 3.2
     h_s: 1.5
-    v_i: 6
-    v_j: 5
-    h_b: 3.4
+    v_i: 4
+    v_j: 6
+    h_b: 2.9
     part5:
       ans1:
         value: Yes, the bear makes it to the other side of the stream.
@@ -124,7 +124,7 @@ If the origin is at the foot of the bear's jumping tree, write an equation descr
 
 Use the following table as a reference. Note that it may not be necessary to use every variable.
 
-| $Variable$ | Use   |
+| For  | Use   |
 |----------|-------|
 | $\Delta t$  | t  |
 | $g$ | g |
@@ -137,7 +137,7 @@ If the origin is at the foot of the bear's jumping tree, write an equation descr
 
 Use the following table as a reference. Note that it may not be necessary to use every variable.
 
-| $Variable$ | Use   |
+| For  | Use   |
 |----------|-------|
 | $\Delta t$  | t  |
 | $g$ | g |
@@ -150,7 +150,7 @@ If the origin is at the foot of the bear's jumping tree, write an equation descr
 
 Use the following table as a reference. Note that it may not be necessary to use every variable.
 
-| $Variable$ | Use   |
+| For  | Use   |
 |----------|-------|
 | $\Delta t$  | t  |
 | $g$ | g |
@@ -163,7 +163,7 @@ If the origin is at the foot of the bear's jumping tree, write an equation descr
 
 Use the following table as a reference. Note that it may not be necessary to use every variable.
 
-| $Variable$ | Use   |
+| For  | Use   |
 |----------|-------|
 | $\Delta t$  | t  |
 | $g$ | g |
@@ -201,7 +201,7 @@ What is the bear's velocity when it reaches its maximum height?
 
 Use the following table as a reference.
 
-| $Variable$ | Use   |
+| For  | Use   |
 |----------|-------|
 | $\hat{\imath}$  | ihat  |
 | $\hat{\jmath}$  | jhat |

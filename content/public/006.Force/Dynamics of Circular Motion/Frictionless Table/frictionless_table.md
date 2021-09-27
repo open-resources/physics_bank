@@ -47,7 +47,7 @@ Mass $m_1$ on the $horizontal$ frictionless table of the figure is connected by 
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| $Variable$ | Use   |
+| For  | Use   |
 |----------|-------|
 | $m_1$  | m_1  |
 | $m_2$  | m_2  |
