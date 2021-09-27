@@ -60,23 +60,23 @@ substitutions:
   params:
     vars:
       title: A Frictionless Air Track?
-      name: Savannah
+      name: Lorenzo
       units: $m/s^2$
-    m1: 220.8
-    m2: 14.26
-    d_a: 0.03
-    mean: 1.52
-    sd: 0.098
-    a1: 1.57
-    a2: 1.59
-    a3: 1.34
-    a4: 1.46
-    a5: 1.44
-    a6: 1.57
-    a7: 1.43
-    a8: 1.54
-    a9: 1.69
-    a10: 1.6
+    m1: 394.0
+    m2: 27.49
+    d_a: 0.02
+    mean: 1.61
+    sd: 0.154
+    a1: 1.39
+    a2: 1.62
+    a3: 1.55
+    a4: 1.79
+    a5: 1.45
+    a6: 1.58
+    a7: 1.78
+    a8: 1.8
+    a9: 1.71
+    a10: 1.38
     part4:
       ans1:
         value: The track is frictionless because $a_{expected}$ does not agree with
@@ -98,7 +98,7 @@ The mean and standard deviation (SD) of the acceleration data are also given in 
 Given these data, would you conclude that the air track system is frictionless as claimed?
 Justify your answer!
 
-![Mass m one sits on a horizontal surface while mass m two is suspended over a pulley. The masses are connected by a string.](q14_2012Final.png)
+<img src="q14_2012Final.png" alt="Mass m one sits on a horizontal surface while mass m two is suspended over a pulley. The masses are connected by a string." width=300>
 
 | Trial     | Accel. ($m/s^2$) |
 | ----------- | ----------- |

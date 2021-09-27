@@ -55,7 +55,7 @@ substitutions:
 Two blocks are arranged as shown and kept at rest by holding the {{ params.m1 }} kg block in place.
 The tension in the string is **closest** to which of the following choices?
 
-![Two blocks connected by a spring. The 1 kg block is held in place while the 1.2 kg block hangs over a pulley.](q7_2012Final.png)
+<img src="q7_2012Final.png" alt="Two blocks connected by a spring. The 1 kg block is held in place while the 1.2 kg block hangs over a pulley." width=500>
 
 ### Answer Section
 

@@ -44,9 +44,9 @@ substitutions:
     vars:
       title: Two Blocks Stacked
       units: N
-    m: 11
-    f: 0.33
-    t: 42
+    m: 12
+    f: 0.43
+    t: 30
 ---
 # {{ params.vars.title }}
 Blocks A and B each have a mass $m$ = {{params.m}} $kg$.
@@ -54,7 +54,7 @@ The coefficient of static friction between $A$ and $B$ is $\mu_s$ = {{params.f}}
 The angle shown is $\theta$ = {{params.t}}$^{\circ}$.
 Neglect any friction between $B$ and $C$.
 
-![Right triangle A is stacked on top of right triangle B to create a rectangular block sitting on top of surface C. The angle between the hypotenuse and adjacent in triangle B is theta. A ninety-degree force P, acting to the left, is applied to the opposite side of triangle B.](Q14.png)
+<img src="Q14.png" alt="Right triangle A is stacked on top of right triangle B to create a rectangular block sitting on top of surface C. The angle between the hypotenuse and adjacent in triangle B is theta. A ninety-degree force P, acting to the left, is applied to the opposite side of triangle B." width=500>
 
 ## Question Text
 

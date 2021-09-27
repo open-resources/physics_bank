@@ -39,12 +39,12 @@ substitutions:
     vars:
       title: Box on a Slant with a Pulley
       units: $kg$
-    theta: 11
-    mu: 0.2
-    m: 1
+    theta: 30
+    mu: 0.7
+    m: 10
 ---
 # {{ params.vars.title }}
-The figure shows a block of mass $m$ resting on a {{params.theta}} $^\circ$ slope.
+The figure shows a block of mass $m$ resting on a {{params.theta}}$^\circ$ slope.
 The coefficient of static friction between the block and the sloped surface is {{params.mu}}.
 It is connected via a massless string over a massless, frictionless pulley to a hanging block of mass {{params.m}} $kg$.
 

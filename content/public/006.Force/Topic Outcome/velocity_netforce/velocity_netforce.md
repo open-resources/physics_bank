@@ -55,7 +55,7 @@ substitutions:
 # {{ params.vars.title }}
 The position versus time graph of a mass on a spring is shown in the image.
 
-![Position vs. Time of Mass on Spring](q1image.png)
+<img src="q1image.png" alt="Position vs. Time of Mass on Spring" width=500>
 
 ## Part 1
 

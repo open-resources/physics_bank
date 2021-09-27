@@ -34,9 +34,9 @@ substitutions:
   params:
     vars:
       title: T-bone Collision
-    ma: 1198
-    mb: 1772
-    vak: 42
+    ma: 1408
+    mb: 1430
+    vak: 66
     thetad: 45
 ---
 # {{ params.vars.title }}

@@ -34,17 +34,17 @@ substitutions:
   params:
     vars:
       title: Stiffness of a Spring
-    h: 474
-    F: 173
-    x: 214
-    d: 35
-    m: 10
+    h: 482
+    F: 171
+    x: 190
+    d: 34
+    m: 4
 ---
 # {{ params.vars.title }}
 <img src="Stiffness of a Spring.png" width=400>
 
 The box A of mass ${{ params.m }}kg$ slides up the shaft $h = {{ params.h }}mm$ tall with negligible friction.
-When the box is released from rest at the bottom of the shaft, it moves up from the constant force $F = {{ params.F }}N$ over the pully B, ${{ params.x }}mm$ away from the shaft.
+When the box is released from rest at the bottom of the shaft, it moves up from the constant force $F = {{ params.F }}N$ over the pulley B, ${{ params.x }}mm$ away from the shaft.
 Find the value of k if the spring only compresses ${{ params.d }}mm$.
 $d = {{ params.d }}mm$.
 

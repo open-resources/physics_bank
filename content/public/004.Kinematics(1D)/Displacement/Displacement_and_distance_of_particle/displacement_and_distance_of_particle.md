@@ -46,7 +46,7 @@ substitutions:
     vars:
       title: Displacement and Distance of a particle
       units: cm
-    seconds: 17
+    seconds: 13
 ---
 # {{ params.vars.title }}
 The position of a particle in centimeters is given by $s(t) = 20 - 9t + t^2$, where $t$ is in seconds.

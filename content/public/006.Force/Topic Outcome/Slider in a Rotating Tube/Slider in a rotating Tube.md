@@ -42,15 +42,15 @@ substitutions:
   params:
     vars:
       title: Slider in a Rotating Tube
-    m: 0.28
-    w: 5
-    wdot: -5
-    r: 0.36
-    rdot: -4.6
-    rddot: 3.3
+    m: 0.21
+    w: 1
+    wdot: -7
+    r: 0.63
+    rdot: -3.3
+    rddot: 0.7
 ---
 # {{ params.vars.title }}
-<img src="Slider in a rotating Tube.png" width=400>
+<img src="Slider in a rotating Tube.png" alt="A vertical hollow tube rotating about its vertical axis at omega rad per second is connected to a horizontal hollow tube in which a slider P moves under control of a string. The distance from the slider to the point of connection is R. The tension in the string acts downwards." width=400>
 
 The hollow tube above rotates about its vertical axis at $\omega=\dot{\theta}={{ params.w }}rad/s$ and $\dot{\omega}=\ddot{\theta}={{ params.wdot }}rad/s^2$. A small ${{ params.m }}kg$ slider P moves inside the horizontal portion under the control of a string which is being pulled out the bottom of the tube. If $r= {{ params.r}}m$, $\dot{r}= {{ params.rdot }}m/s$,and $\ddot{r}={{params.rddot}}m/s$, Determine the tension $T$ in the string and the horizontal force $F\_{\theta}$ exerted on the tube by the slider.
 

@@ -54,11 +54,11 @@ substitutions:
       title: Spring on an Incline
       units1: m
       units2: J
-    m: 5
-    k: 662
-    theta: 29
+    m: 4
+    k: 658
+    theta: 30
     mu: 0.25
-    d: 5
+    d: 9
     g: 9.8
 ---
 # {{ params.vars.title }}
@@ -66,7 +66,7 @@ A small {{params.m}} kg block is accelerated from rest on a flat surface by a co
 The block leaves the spring at the spring's equilibrium position ($x$ = 0) and travels on an incline ($\theta$ = {{params.theta}}$^{\circ}$) with a coefficient of kinetic friction $\mu_k$ = {{params.mu}}.
 The block moves a horizontal distance $D$ = {{params.d}} m before coming to a stop.
 
-![Pictured is a block being pushed towards a ramp by a compressed string.](q10image.png)
+<img src="q10image.png" alt="Pictured is a block being pushed towards a ramp by a compressed string." >
 
 ## Part 1
 

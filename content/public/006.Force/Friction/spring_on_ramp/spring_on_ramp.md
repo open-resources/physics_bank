@@ -52,14 +52,14 @@ substitutions:
     vars:
       title: Spring on Ramp
       units: m
-    m: 5
-    theta: 30
-    k: 300
-    us: 0.6
-    uk: 0.35
+    m: 7
+    theta: 25
+    k: 100
+    us: 0.7
+    uk: 0.37
 ---
 # {{ params.vars.title }}
-In the figure below m = {{ params.m }} kg, $\theta$ = {{ params.theta }} $^\circ$, and k = {{ params.k }} N/m.
+In the figure below m = {{ params.m }} kg, $\theta$ = {{ params.theta }}$^\circ$, and k = {{ params.k }} N/m.
 In this problem assume that the ramp never moves and that there is friction between the block and the ramp.
 
 <img src="q16image.png" width=400 alt="Block being pulled up a ramp by a spring">

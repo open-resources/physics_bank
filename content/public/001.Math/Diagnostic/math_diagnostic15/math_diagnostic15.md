@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $3^{8} $=$ 6561$
+    expr: $6^{2} $=$ 36$
     part1:
       ans1:
-        value: $log_36561 = 8$
+        value: $log_636 = 2$
       ans2:
-        value: $log_38 = 6561$
+        value: $log_62 = 36$
       ans3:
-        value: $log_65618 = 3$
+        value: $log_362 = 6$
       ans4:
-        value: $log_86561 = 3$
+        value: $log_236 = 6$
       ans5:
         value: Don't Know
 ---

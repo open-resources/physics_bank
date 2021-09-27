@@ -64,14 +64,14 @@ substitutions:
       units2: N
     m_a: 2
     m_b: 5
-    m_c: 4
-    f_a: 46
+    m_c: 2
+    f_a: 44
 ---
 # {{ params.vars.title }}
 Assume the three blocks portrayed in the figure move on a frictionless surface and a {{params.f_a}} N force
 acts as shown on block C. The masses of the blocks are as follows: $m_a$ = {{params.m_a}} kg, $m_b$ = {{params.m_b}} kg, $m_c$ = {{params.m_c}} kg.
 
-![Blocks A, B and C, with force F_a pulling on them](q13image.png)
+<img src="q13image.png" alt="Blocks A, B and C, with force F_a pulling on them." >
 
 ## Part 1
 

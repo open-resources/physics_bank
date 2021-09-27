@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $l$ = $\dfrac{(i)}{(p + 8c)} $
+    expr: $t$ = $\dfrac{(f)}{(x + 8k)} $
     part1:
       ans1:
-        value: p = ${ - 8 c + \frac{i}{l}}$
+        value: x = ${ \frac{f}{t} - 8 k}$
       ans2:
-        value: p = ${\frac{8 c l}{i}}$
+        value: x = ${\frac{8 k t}{f}}$
       ans3:
-        value: p = ${\frac{i}{8 c l}}$
+        value: x = ${\frac{f}{8 k t}}$
       ans4:
-        value: p = ${\frac{- 8 c + l}{i}}$
+        value: x = ${\frac{- 8 k + t}{f}}$
       ans5:
         value: Don't Know
 ---

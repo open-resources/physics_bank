@@ -51,7 +51,7 @@ A ball is attached to a vertical rod by two strings of equal strength and length
 
 Which string breaks first?
 
-![Figure showing the ball in two situations: at rest and rotating.](q7_2015Final.png)
+<img src="q7_2015Final.png" alt="Figure showing the ball in two situations: at rest and rotating." >
 
 ### Answer Section
 

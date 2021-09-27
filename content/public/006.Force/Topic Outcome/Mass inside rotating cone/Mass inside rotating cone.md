@@ -41,7 +41,7 @@ substitutions:
 
 ## Question Text
 
-![An inverted cone whose walls make an angle theta with the vertical axis. The vertical height measured from the pointed end is h.](q12_2013practiceFinal.png)
+<img src="q12_2013practiceFinal.png" alt="An inverted cone whose walls make an angle theta with the vertical axis. The vertical height measured from the pointed end is h." >
 
 As shown in the figure, a small block of mass $m$ is placed inside an inverted cone that is rotating around a vertical axis with period $T$. The walls of the cone are frictionless and make an angle $\theta$ with the vertical.  What is the value of $T$ if the block is to remain at a height $h$ above the apex of the cone? Give  your answer for $T$ in terms of $m$, $h$, $g$, and $\theta$.
 
