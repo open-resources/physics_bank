@@ -1,6 +1,6 @@
 ---
 title: Cars on a track
-topic: Kinematics(2D and 3D)
+topic: Rotational Motion
 author: Peyman Yousefi
 source: APSC 181, Lecture 6 Q1
 template_version: 1.1
@@ -43,8 +43,8 @@ substitutions:
     vars:
       title: Cars on a track
       units: $m/s$
-    r1: 11
-    r2: 24
+    r1: 17
+    r2: 26
 ---
 # {{ params.vars.title }}
 Two cars travel side by side on an even, unbanked turn in a roadway.

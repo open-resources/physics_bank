@@ -1,6 +1,6 @@
 ---
 title: Discus Thrower
-topic: Kinematics(2D and 3D)
+topic: Rotational Motion
 author: John Hopkinson
 source: PHYS 112 2018w1 Midterm 2 Q2
 template_version: 1.3
@@ -32,18 +32,18 @@ substitutions:
       title: Discus Thrower
       units: $rad/s$
     r: 2
-    a: 45
+    a: 57
     part1:
       ans1:
-        value: 34.0
+        value: 38.0
       ans2:
-        value: 1131.0
+        value: 1433.0
       ans3:
-        value: 180
+        value: 228
       ans4:
-        value: 12.0
+        value: 13.0
       ans5:
-        value: 17.0
+        value: 19.0
 ---
 # {{ params.vars.title }}
 A discus thrower makes {{ params.r }} complete revolutions from rest while holding the discus at a distance of 1 $m$ from their centre before releasing it.

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $h$ = $\dfrac{(j)}{(s + 9e)} $
+    expr: $l$ = $\dfrac{(p)}{(m + 3b)} $
     part1:
       ans1:
-        value: s = ${ - 9 e + \frac{j}{h}}$
+        value: m = ${ - 3 b + \frac{p}{l}}$
       ans2:
-        value: s = ${\frac{9 e h}{j}}$
+        value: m = ${\frac{3 b l}{p}}$
       ans3:
-        value: s = ${\frac{j}{9 e h}}$
+        value: m = ${\frac{p}{3 b l}}$
       ans4:
-        value: s = ${\frac{- 9 e + h}{j}}$
+        value: m = ${\frac{- 3 b + l}{p}}$
       ans5:
         value: Don't Know
 ---

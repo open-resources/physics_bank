@@ -1,6 +1,6 @@
 ---
 title: Angular Acceleration
-topic: Kinematics(2D and 3D)
+topic: Rotational Motion
 author: John Hopkinson
 source: PHYS 112 2015 W1 Final Q9
 template_version: 1.2
@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Angular Acceleration
-    v_1: 5
+    v_1: 9
     v_2: 18
-    t: 9
+    t: 2
     part1:
       ans1:
-        value: 1.4 $rad/s^2$
+        value: 4.5 $rad/s^2$
       ans2:
-        value: 1.4 $m/s^2$
+        value: 4.5 $m/s^2$
       ans3:
-        value: -1.4 $rad/s^2$
+        value: -4.5 $rad/s^2$
       ans4:
-        value: -1.4 $m/s^2$
+        value: -4.5 $m/s^2$
       ans5:
         value: 10 $rad/s^2$
 ---

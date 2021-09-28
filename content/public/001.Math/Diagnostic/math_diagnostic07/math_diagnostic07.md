@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 5x - 2y = 28
-    formula2: 3x + 6y = 22
+    formula1: 2x - 2y = 8
+    formula2: 4x + 3y = 10
     part1:
       ans1:
-        value: ' x =53/9, y =13/18'
+        value: ' x =22/7, y =-6/7'
       ans2:
-        value: ' x =13/18, y =53/9'
+        value: ' x =-6/7, y =22/7'
       ans3:
-        value: ' x =-53/9, y =-13/18'
+        value: ' x =-22/7, y =6/7'
       ans4:
-        value: ' x =-13/18, y =-53/9'
+        value: ' x =6/7, y =-22/7'
       ans5:
         value: Don't Know
 ---

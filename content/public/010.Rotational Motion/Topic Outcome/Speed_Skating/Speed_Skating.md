@@ -1,6 +1,6 @@
 ---
 title: Speed Skating
-topic: Kinematics(2D and 3D)
+topic: Rotational Motion
 author: John Hopkinson
 source: PHYS 112 2014 W1 001 Midterm 2 Q1
 template_version: 1.2

@@ -1,6 +1,6 @@
 ---
 title: Rotating Bar
-topic: Kinematics(2D and 3D)
+topic: Rotational Motion
 author: Peyman Yousefi
 source: APSC 181, Lecture 11, Q1
 template_version: 1.3
@@ -44,10 +44,10 @@ substitutions:
   params:
     vars:
       title: Rotating Bar
-    v: 18
-    h: 134
-    x: 91
-    a: 2
+    v: 24
+    h: 167
+    x: 125
+    a: 1
 ---
 # {{ params.vars.title }}
 <img src="L11Q1.png" width=85%>

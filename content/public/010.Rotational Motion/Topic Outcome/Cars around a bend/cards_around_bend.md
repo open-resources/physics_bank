@@ -1,6 +1,6 @@
 ---
 title: Cars around a bend
-topic: Kinematics(2D and 3D)
+topic: Rotational Motion
 author: Peyman Yousefi
 source: APSC 181, Lecture 8, Q1
 template_version: 1.1
@@ -35,11 +35,11 @@ substitutions:
     vars:
       title: Cars around a bend
       units: $ft$
-    max_acc_A: 0.4
+    max_acc_A: 0.7
     max_acc_B: 0.8
-    ra: 339
-    rb: 407
-    angle: 57
+    ra: 352
+    rb: 382
+    angle: 75
 ---
 # {{ params.vars.title }}
 Two cars travel at constant speeds around a curve.

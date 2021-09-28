@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 3
-    b: 1
-    formula: $x^{3} \sin{\left(x \right)}$
+    a: 4
+    b: 4
+    formula: $x^{4} \sin{\left(4 x \right)}$
     part1:
       ans1:
-        value: $x^{3} \cos{\left(x \right)} + 3 x^{2} \sin{\left(x \right)}$
+        value: $4 x^{4} \cos{\left(4 x \right)} + 4 x^{3} \sin{\left(4 x \right)}$
       ans2:
-        value: $x^{3} \cos{\left(x \right)} $
+        value: $4 x^{4} \cos{\left(4 x \right)} $
       ans3:
-        value: $ 3 x^{2} \cos{\left(x \right)}$
+        value: $ 4 x^{3} \cos{\left(4 x \right)}$
       ans4:
-        value: $- x^{3} \sin{\left(x \right)} + 3 x^{2} \cos{\left(x \right)}$
+        value: $- 4 x^{4} \sin{\left(4 x \right)} + 4 x^{3} \cos{\left(4 x \right)}$
       ans5:
         value: Don't Know
 ---

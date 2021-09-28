@@ -37,10 +37,10 @@ substitutions:
   params:
     vars:
       title: Stack of Pennies
-    s_1: 3
-    s_2: 4
-    s_3: 5
-    s_4: 6
+    s_1: 4
+    s_2: 5
+    s_3: 6
+    s_4: 7
 ---
 # {{ params.vars.title }}
 There are four stacks of pennies lined up in a row. The first stack has {{params.s_1}} pennies, the

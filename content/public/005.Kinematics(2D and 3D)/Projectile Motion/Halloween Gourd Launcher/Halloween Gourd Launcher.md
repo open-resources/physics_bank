@@ -84,10 +84,10 @@ part5:
 substitutions:
   params:
     vars:
-      name: Lorenzo
+      name: Santiago
       title: Halloween Gourd Launcher
-    m_gourd: 0.638
-    h: 1.81
+    m_gourd: 1.39
+    h: 2.27
     v_f: 5.76
 ---
 # {{ params.vars.title }}

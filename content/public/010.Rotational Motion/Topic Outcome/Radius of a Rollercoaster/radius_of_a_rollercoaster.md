@@ -1,6 +1,6 @@
 ---
 title: Radius of a Rollercoaster
-topic: Kinematics(2D and 3D)
+topic: Rotational Motion
 author: Peyman Yousefi
 source: APSC 181, Lecture 6, Q2
 template_version: 1.1
@@ -35,9 +35,9 @@ substitutions:
     vars:
       title: Radius of a Rollercoaster
       units: $m$
-    speed_of_car: 173
+    speed_of_car: 230
     rate_of_decrease: 7
-    a: 6
+    a: 4
 ---
 # {{ params.vars.title }}
 As a rollercoaster passes the bottommost point in a loop, an accelerometer records an acceleration of ${{params.a}}g$.
