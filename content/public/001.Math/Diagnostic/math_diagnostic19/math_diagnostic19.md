@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin285$
+    a: $ \sin283$
     part1:
       ans1:
-        value: $\sin{-75}$
+        value: $\sin{-77}$
       ans2:
-        value: $\sin{75}$
+        value: $\sin{77}$
       ans3:
-        value: $\sin{-105}$
+        value: $\sin{-103}$
       ans4:
-        value: $\sin{105}$
+        value: $\sin{103}$
       ans5:
         value: Don't Know
 ---

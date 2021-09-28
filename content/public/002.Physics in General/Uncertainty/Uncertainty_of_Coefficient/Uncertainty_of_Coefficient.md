@@ -34,18 +34,18 @@ substitutions:
       title: Uncertainty of Coefficient
       name: Emilia
       units: $kg/s$
-    m: 79
-    v: 2.5
-    b: 0.72
+    m: 92
+    v: 2.0
+    b: 0.54
     part1:
       ans1:
-        value: ' $\pm$ 0.11'
+        value: ' $\pm$ 0.12'
       ans2:
-        value: ' $\pm$ 0.08'
+        value: ' $\pm$ 0.07'
       ans3:
         value: ' $\pm$ 0.01'
       ans4:
-        value: ' $\pm$ 0.76'
+        value: ' $\pm$ 0.66'
 ---
 # {{ params.vars.title }}
 The drag force on an object of interest can be accurately modelled as $\vec{D}$ = -$b\vec{v}$ such that its terminal velocity in free fall is given by $v_T$ = $mg/b$.

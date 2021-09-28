@@ -30,20 +30,20 @@ substitutions:
   params:
     vars:
       name: Lorenzo
-      vehicle: a tricycle
+      vehicle: rollerblades
       units: m
       title: Distance travelled
-    v: 5
-    t: 9
+    v: 6
+    t: 10
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 45
+        value: 60
       ans3:
-        value: 14
+        value: 16
       ans4:
-        value: 0.56
+        value: 0.6
       ans5:
         value: -4
       ans6:

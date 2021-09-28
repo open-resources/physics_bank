@@ -42,10 +42,10 @@ substitutions:
   params:
     vars:
       title: Moving Rod
-    r: '2'
-    v: '2'
+    r: '4'
+    v: '4'
     B: '2.00'
-    a: '7'
+    a: '5'
     part2:
       ans1:
         value: Clockwise

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $l$ = $\dfrac{(p)}{(m + 3b)} $
+    expr: $y$ = $\dfrac{(z)}{(j + 4u)} $
     part1:
       ans1:
-        value: m = ${ - 3 b + \frac{p}{l}}$
+        value: j = ${ - 4 u + \frac{z}{y}}$
       ans2:
-        value: m = ${\frac{3 b l}{p}}$
+        value: j = ${\frac{4 u y}{z}}$
       ans3:
-        value: m = ${\frac{p}{3 b l}}$
+        value: j = ${\frac{z}{4 u y}}$
       ans4:
-        value: m = ${\frac{- 3 b + l}{p}}$
+        value: j = ${\frac{- 4 u + y}{z}}$
       ans5:
         value: Don't Know
 ---

@@ -57,7 +57,7 @@ substitutions:
   params:
     vars:
       title: Projectile Uncertainty
-      name: Abbas
+      name: Emilia
       units1: m/s
       units2: m
     d: 0.126

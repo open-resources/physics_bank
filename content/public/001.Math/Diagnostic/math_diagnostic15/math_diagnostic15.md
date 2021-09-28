@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $4^{6} $=$ 4096$
+    expr: $4^{3} $=$ 64$
     part1:
       ans1:
-        value: $log_44096 = 6$
+        value: $log_464 = 3$
       ans2:
-        value: $log_46 = 4096$
+        value: $log_43 = 64$
       ans3:
-        value: $log_40966 = 4$
+        value: $log_643 = 4$
       ans4:
-        value: $log_64096 = 4$
+        value: $log_364 = 4$
       ans5:
         value: Don't Know
 ---

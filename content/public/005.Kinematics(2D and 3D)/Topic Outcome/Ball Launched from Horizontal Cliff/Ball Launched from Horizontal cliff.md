@@ -71,7 +71,7 @@ substitutions:
       unit1: $s$
       unit2: rad
       unit3: $m/s$
-    v0: 2.42
+    v0: 1.56
     h: 63.3
 ---
 # {{ params.vars.title }}

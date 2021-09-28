@@ -64,8 +64,8 @@ substitutions:
     vars:
       title: Charge and Voltage Across Capacitors
     a: '5'
-    b: '9'
-    v: '360'
+    b: '14'
+    v: '420'
 ---
 # {{ params.vars.title }}
 A {{params.a }}$\textrm{ pF}$ capacitor is connected in series with a {{params.b }}$\textrm{ pF}$ capacitor and a {{params.v }}$\textrm{ V}$ potential difference is applied across the pair.
