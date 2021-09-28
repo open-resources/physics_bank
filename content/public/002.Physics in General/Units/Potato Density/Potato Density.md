@@ -31,8 +31,6 @@ part1:
     allow-blank: true
     label: $m_p= $
     suffix: $kg$
-    comparison: sigfig
-    digits: 3
 part2:
   type: number-input
   pl-customizations:
@@ -41,8 +39,6 @@ part2:
     allow-blank: true
     label: $m_{cp}= $
     suffix: $kg$
-    comparison: sigfig
-    digits: 3
 part3:
   type: number-input
   pl-customizations:
@@ -51,8 +47,6 @@ part3:
     allow-blank: true
     label: $V_{cp}= $
     suffix: $m^3$
-    comparison: sigfig
-    digits: 3
 part4:
   type: number-input
   pl-customizations:
@@ -61,8 +55,6 @@ part4:
     allow-blank: true
     label: $V_p= $
     suffix: $m^3$
-    comparison: sigfig
-    digits: 3
 substitutions:
   params:
     vars:
@@ -70,9 +62,9 @@ substitutions:
       name: Savannah
       unit1: $kg$
       unit2: $m^3$
-    m_p: 297
-    m_cp: 79
-    l: 4
+    m_p: 251
+    m_cp: 88
+    l: 2
 ---
 # {{ params.vars.title }}
 For their first lab, {{ params.vars.name }} decides to measure the density of a potato.They notice that it's an unusual shape and floats, so it's hard to calculate its volume.The potato's mass is measured to be {{ params.m_p }} $g$.They then cut the potato into a cube and measure that the sides of the cube have length {{ params.l}} inches, and the potato's mass is {{ params.m_cp }} $g$.For a uniform density potato, the mass and volume are proportional.

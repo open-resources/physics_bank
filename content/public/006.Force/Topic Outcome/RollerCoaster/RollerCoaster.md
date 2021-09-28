@@ -30,8 +30,6 @@ part1:
     allow-blank: true
     weight: 1
     suffix: $m/s$
-    comparison: sigfig
-    digits: 3
 part2:
   type: number-input
   label: $v_2=$
@@ -39,8 +37,6 @@ part2:
     allow-blank: true
     weight: 1
     suffix: $m/s$
-    comparison: sigfig
-    digits: 3
 part3:
   type: number-input
   label: $N=$
@@ -48,16 +44,14 @@ part3:
     allow-blank: true
     weight: 1
     suffix: $N$
-    comparison: sigfig
-    digits: 3
 substitutions:
   params:
     vars:
       title: Roller Coaster
       units: m/s
       units_2: N
-    r: 12.0
-    m: 249
+    r: 16.0
+    m: 240
 ---
 # {{ params.vars.title }}
 A roller-coaster car moves around a vertical circular loop of radius $R$ = {{params.r}} m.

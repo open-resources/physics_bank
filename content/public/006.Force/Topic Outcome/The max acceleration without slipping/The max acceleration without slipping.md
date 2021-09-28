@@ -34,17 +34,15 @@ part1:
     allow-blank: true
     label: $a_{max} = $
     suffix: $m/s^2$
-    comparison: sigfig
-    digits: 2
 substitutions:
   params:
     vars:
-      vehicle: bus
+      vehicle: truck
       title: A Crate's Maximum Acceleration without Slipping
       units: $m/s^2$
-    mu_s: 0.77
-    mu_k: 0.49
-    theta: 18
+    mu_s: 0.56
+    mu_k: 0.23
+    theta: 17
 ---
 # {{ params.vars.title }}
 A wood crate sits in the back of a {{ params.vars.vehicle }}.

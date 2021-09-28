@@ -31,8 +31,6 @@ part1:
     allow-blank: true
     label: $X_{cm} = $
     suffix: $d$
-    comparison: sigfig
-    digits: 3
 substitutions:
   params:
     vars:

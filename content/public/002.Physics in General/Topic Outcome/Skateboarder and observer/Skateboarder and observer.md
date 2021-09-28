@@ -35,8 +35,6 @@ part1:
     allow-blank: true
     label: $v= $
     suffix: $m/s \;$ ($\hat\imath$)
-    comparison: sigfig
-    digits: 3
 part2:
   type: number-input
   pl-customizations:
@@ -45,8 +43,6 @@ part2:
     allow-blank: true
     label: $t= $
     suffix: $s$
-    comparison: sigfig
-    digits: 3
 part3:
   type: number-input
   pl-customizations:
@@ -55,8 +51,6 @@ part3:
     allow-blank: true
     label: $x= $
     suffix: m
-    comparison: sigfig
-    digits: 3
 part4:
   type: number-input
   pl-customizations:
@@ -65,8 +59,6 @@ part4:
     allow-blank: true
     label: $v= $
     suffix: $m/s$
-    comparison: sigfig
-    digits: 3
 part5:
   type: number-input
   pl-customizations:
@@ -75,22 +67,20 @@ part5:
     allow-blank: true
     label: $x= $
     suffix: m
-    comparison: sigfig
-    digits: 3
 substitutions:
   params:
     vars:
       name1: Savannah
-      name2: Aliyah
+      name2: Santiago
       title: A Skateboarder and an Observer
       unit_v: $m/s$
       unit_t: $s$
       unit_x: $m$
-    v: 0.836
-    v_b: 3.25
-    h: 4.91
-    m_s: 77.2
-    m_b: 1.26
+    v: 0.757
+    v_b: 3.81
+    h: 4.28
+    m_s: 117.0
+    m_b: 1.1
 ---
 # {{ params.vars.title }}
 {{ params.vars.name1 }}  is  on  a  skateboard  and  has  an  initial  velocity  of  ({{ params.v }} $m/s$) $\hat{\imath}$ relative  to  {{ params.vars.name2 }}  who  is at rest with respect to the earth.  Just as they are gliding past {{ params.vars.name2 }},  {{ params.vars.name1 }} throws a ball in the positive $x$-direction from a height of {{ params.h }} m.  According to {{ params.vars.name1 }}, the ball has an initial velocity of ({{ params.v_b }} $m/s$) $\hat{\imath}$.

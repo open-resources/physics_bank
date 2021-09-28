@@ -30,16 +30,14 @@ part1:
     allow-blank: true
     label: $v= $
     suffix: $m/s$
-    comparison: sigfig
-    digits: 2
 substitutions:
   params:
     vars:
       title: Collision of a Cart with a Spring
       units: m/s
-    m: 45
-    k: 388
-    x: 82
+    m: 88
+    k: 213
+    x: 85
 ---
 # {{ params.vars.title }}
 A  {{ params.m }}  $kg$  runaway  grocery  cart  runs  into  a  spring  with a spring  constant $k = $  {{ params.k }}  $N/m$  and compresses it by {{ params.x }} $cm$ before momentarily coming to rest.

@@ -31,8 +31,6 @@ part1:
     allow-blank: true
     label: $v_o= $
     suffix: m/s
-    comparison: sigfig
-    digits: 2
 part2:
   type: number-input
   pl-customizations:
@@ -41,8 +39,6 @@ part2:
     allow-blank: true
     label: $\Delta d= $
     suffix: m
-    comparison: sigfig
-    digits: 2
 part3:
   type: number-input
   pl-customizations:
@@ -51,8 +47,6 @@ part3:
     allow-blank: true
     label: $\Delta v_o= $
     suffix: m/s
-    comparison: sigfig
-    digits: 2
 substitutions:
   params:
     vars:

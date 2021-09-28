@@ -30,16 +30,14 @@ part1:
     allow-blank: true
     label: 'Magnitude = '
     suffix: $m/s^2$
-    comparison: sigfig
-    digits: 3
 substitutions:
   params:
     vars:
       title: The Magnitude of a Particle's Vector
       units: $m/s$
-    r_i: $-6t^3 - 5t^2 - 4t$
-    r_j: $3t^2 + 9t$
-    t: $8$
+    r_i: $-3t^3 - 3t$
+    r_j: $t^2 - 2t$
+    t: $18$
     choice: acceleration
 ---
 # {{ params.vars.title }}

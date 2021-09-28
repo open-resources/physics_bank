@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $y$ = $\dfrac{(z)}{(j + 4u)} $
+    expr: $z$ = $\dfrac{(k)}{(o + 2a)} $
     part1:
       ans1:
-        value: j = ${ - 4 u + \frac{z}{y}}$
+        value: o = ${ - 2 a + \frac{k}{z}}$
       ans2:
-        value: j = ${\frac{4 u y}{z}}$
+        value: o = ${\frac{2 a z}{k}}$
       ans3:
-        value: j = ${\frac{z}{4 u y}}$
+        value: o = ${\frac{k}{2 a z}}$
       ans4:
-        value: j = ${\frac{- 4 u + y}{z}}$
+        value: o = ${\frac{- 2 a + z}{k}}$
       ans5:
         value: Don't Know
 ---

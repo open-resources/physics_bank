@@ -68,8 +68,6 @@ part5:
     allow-blank: true
     label: $t= $
     suffix: $s$
-    comparison: sigfig
-    digits: 2
 part6:
   type: number-input
   pl-customizations:
@@ -78,8 +76,6 @@ part6:
     allow-blank: true
     label: $v= $
     suffix: $m/s$
-    comparison: sigfig
-    digits: 2
 part7:
   type: number-input
   pl-customizations:
@@ -88,8 +84,6 @@ part7:
     allow-blank: true
     label: $v= $
     suffix: $m/s$
-    comparison: sigfig
-    digits: 2
 part8:
   type: number-input
   pl-customizations:
@@ -98,8 +92,6 @@ part8:
     allow-blank: true
     label: $x= $
     suffix: $m$
-    comparison: sigfig
-    digits: 2
 part9:
   type: number-input
   pl-customizations:
@@ -108,8 +100,6 @@ part9:
     allow-blank: true
     label: $v= $
     suffix: $m/s$
-    comparison: sigfig
-    digits: 2
 part10:
   type: multiple-choice
   pl-customizations:
@@ -118,13 +108,13 @@ substitutions:
   params:
     vars:
       title: A Coyote and a Rat
-    m_c: 12
-    m_r: 4
-    d_b: 35
-    d_c: 35
-    v_r: 5
-    a_c: 5
-    mu_k: 2.23
+    m_c: 5
+    m_r: 6
+    d_b: 46
+    d_c: 34
+    v_r: 8
+    a_c: 4
+    mu_k: 2.85
     part10:
       ans1:
         value: Yes, the coyote will be able to stop before hitting the thorny bush.

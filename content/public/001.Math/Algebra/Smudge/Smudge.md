@@ -45,12 +45,10 @@ part3:
     hide-answer-panel: true
     allow-blank: true
     label: $?= $
-    comparison: sigfig
-    digits: 1
 substitutions:
   params:
     vars:
-      name: Mateo
+      name: Maya
       title: Smudge
 ---
 # {{ params.vars.title }}

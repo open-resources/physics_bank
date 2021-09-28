@@ -34,8 +34,6 @@ part1:
     allow-blank: true
     label: $a= $
     suffix: $\frac{m}{s^2}$
-    comparison: sigfig
-    digits: 2
 part2:
   type: number-input
   pl-customizations:
@@ -44,8 +42,6 @@ part2:
     allow-blank: true
     label: $T= $
     suffix: N
-    comparison: sigfig
-    digits: 2
 part3:
   type: number-input
   pl-customizations:
@@ -54,18 +50,16 @@ part3:
     allow-blank: true
     label: $F= $
     suffix: N
-    comparison: sigfig
-    digits: 2
 substitutions:
   params:
     vars:
       title: Ropes and Blocks
       units1: $\frac{m}{s^2}$
       units2: N
-    m_a: 3
-    m_b: 3
-    m_c: 1
-    f_a: 49
+    m_a: 5
+    m_b: 1
+    m_c: 2
+    f_a: 46
 ---
 # {{ params.vars.title }}
 Assume the three blocks portrayed in the figure move on a frictionless surface and a {{params.f_a}} N force

@@ -31,8 +31,6 @@ part1:
     allow-blank: true
     label: $W= $
     suffix: $J$
-    comparison: sigfig
-    digits: 3
 part2:
   type: number-input
   pl-customizations:
@@ -41,8 +39,6 @@ part2:
     allow-blank: true
     label: $W= $
     suffix: $J$
-    comparison: sigfig
-    digits: 3
 part3:
   type: number-input
   pl-customizations:
@@ -51,8 +47,6 @@ part3:
     allow-blank: true
     label: $W= $
     suffix: $J$
-    comparison: sigfig
-    digits: 3
 part4:
   type: number-input
   pl-customizations:
@@ -61,15 +55,13 @@ part4:
     allow-blank: true
     label: $W= $
     suffix: $J$
-    comparison: sigfig
-    digits: 3
 substitutions:
   params:
     vars:
       title: Work Done by a Constant Force
       units: $J$
-    F: 16.0
-    r: 9.86
+    F: 43.6
+    r: 34.3
 ---
 # {{ params.vars.title }}
 Calculate the work done by a constant force of magnitude $F = $ {{ params.F }} $N$ applied over a displacement of magnitude $\Delta r = $ {{ params.r }} $m$ for all four of the diagrams.

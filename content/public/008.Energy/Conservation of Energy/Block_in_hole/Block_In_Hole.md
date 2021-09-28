@@ -31,15 +31,13 @@ part1:
     allow-blank: true
     label: $h= $
     suffix: $m$
-    comparison: sigfig
-    digits: 3
 substitutions:
   params:
     vars:
       title: Block In Hole
       units: m
-    a: 27
-    d: 0.6
+    a: 26
+    d: 0.8
 ---
 # {{ params.vars.title }}
 A small block is placed at height $h$ on a frictionless, {{params.a}}$^\circ$ ramp.

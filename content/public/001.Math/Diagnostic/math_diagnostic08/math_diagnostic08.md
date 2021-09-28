@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{20x - 40y }{ -5 }$
+    expr: $\dfrac{-16x - 20y }{ -4 }$
     part1:
       ans1:
-        value: $- 4 x + 8 y$
+        value: $4 x + 5 y$
       ans2:
-        value: $\dfrac{-4x + 8y}{-5}$
+        value: $\dfrac{4x + 5y}{-4}$
       ans3:
-        value: $8x - 4y$
+        value: $5x + 4y$
       ans4:
-        value: $20x + 40y$
+        value: $-16x + 20y$
       ans5:
         value: Don't know.
 ---

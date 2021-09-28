@@ -34,8 +34,6 @@ part1:
     allow-blank: true
     label: $a_x= $
     suffix: $m/s^2$
-    comparison: sigfig
-    digits: 3
 part2:
   type: number-input
   pl-customizations:
@@ -44,8 +42,6 @@ part2:
     allow-blank: true
     label: $a_y= $
     suffix: $m/s^2$
-    comparison: sigfig
-    digits: 3
 part3:
   type: symbolic-input
   pl-customizations:
@@ -82,8 +78,6 @@ part7:
     allow-blank: true
     label: $t= $
     suffix: $s$
-    comparison: sigfig
-    digits: 3
 part8:
   type: symbolic-input
   pl-customizations:
@@ -106,16 +100,14 @@ part10:
     allow-blank: true
     label: $x= $
     suffix: $m$
-    comparison: sigfig
-    digits: 3
 substitutions:
   params:
     vars:
       title: Ballistic Launcher
-    dist: 39.2
-    vmax: 5.72
-    theta_1: 25.8
-    theta_2: 45.7
+    dist: 31.3
+    vmax: 4.38
+    theta_1: 27.0
+    theta_2: 43.2
 ---
 # {{ params.vars.title }}
 A steel ball is fired from a ballistic launcher at different angles.  The launched ball has been found to travel from the edge of a table to land {{ params.dist }} $cm$ from the far end of the table when starting from the height of the table and launched at an angle of {{ params.theta_1 }}$^{\circ}$ above the horizontal.  When launched at {{ params.theta_2 }}$^{\circ}$, the ball easily clears the table to land on the floor.

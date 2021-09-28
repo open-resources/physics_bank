@@ -41,15 +41,13 @@ part2:
     allow-blank: true
     label: $m_{rain}= $
     suffix: kg
-    comparison: sigfig
-    digits: 2
 substitutions:
   params:
     vars:
       title: Rotating Buckets
       units: kg
-    m1: 2.53
-    c: 4
+    m1: 2.55
+    c: 6
 ---
 # {{ params.vars.title }}
 A pair of buckets are connected by a *massless* rod. As shown in the figure, the buckets rotate about an axis through the centre of mass of the two-bucket system.

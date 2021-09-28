@@ -35,8 +35,6 @@ part1:
     allow-blank: true
     label: $v= $
     suffix: $m/s$
-    comparison: sigfig
-    digits: 3
 part2:
   type: number-input
   pl-customizations:
@@ -45,8 +43,6 @@ part2:
     allow-blank: true
     label: $v= $
     suffix: $m/s$
-    comparison: sigfig
-    digits: 3
 part3:
   type: number-input
   pl-customizations:
@@ -55,14 +51,12 @@ part3:
     allow-blank: true
     label: $v= $
     suffix: $m/s$
-    comparison: sigfig
-    digits: 3
 substitutions:
   params:
     vars:
       title: Speed of a Rolling Object
       units: $m/s$
-    h: 24.8
+    h: 1.3
 ---
 # {{ params.vars.title }}
 One end of a massless string is attached to a massless axle that passes through the centre of mass of an object (mass $m$) that has a circular cross-section (radius $R$)  and  rolls  without  slipping  up  the  incline.

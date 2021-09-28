@@ -34,8 +34,6 @@ part1:
     allow-blank: true
     label: $v= $
     suffix: $(m/s)\; \hat{\imath}$
-    comparison: sigfig
-    digits: 3
 part2:
   type: number-input
   pl-customizations:
@@ -44,8 +42,6 @@ part2:
     allow-blank: true
     label: $v_f= $
     suffix: $(m/s)\; \hat{\imath}$
-    comparison: sigfig
-    digits: 3
 part3:
   type: number-input
   pl-customizations:
@@ -54,16 +50,14 @@ part3:
     allow-blank: true
     label: $v_f= $
     suffix: $(m/s)\; \hat{\imath}$
-    comparison: sigfig
-    digits: 3
 substitutions:
   params:
     vars:
       title: Head-on Collision of Carts
       units: $(m/s)\; \hat{\imath}$
-    c1: 9
-    c2: 3
-    v0: 11.3
+    c1: 4
+    c2: 7
+    v0: 12.7
 ---
 # {{ params.vars.title }}
 A cart of mass ${{ params.c1 }}m$ moving with velocity $\vec{v_0} = ($ {{ params.v0 }} $m/s)\hat{\imath}$ collides head-on with a cart of mass {{ params.c2 }} $m$ that is initially at rest.

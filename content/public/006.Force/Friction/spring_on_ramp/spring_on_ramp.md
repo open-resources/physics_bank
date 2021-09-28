@@ -35,8 +35,6 @@ part1:
     allow-blank: true
     label: $x= $
     suffix: m
-    comparison: sigfig
-    digits: 2
 part2:
   type: number-input
   pl-customizations:
@@ -45,18 +43,16 @@ part2:
     allow-blank: true
     label: $x= $
     suffix: m
-    comparison: sigfig
-    digits: 2
 substitutions:
   params:
     vars:
       title: Spring on Ramp
       units: m
-    m: 6
-    theta: 40
-    k: 300
-    us: 0.5
-    uk: 0.36
+    m: 9
+    theta: 33
+    k: 150
+    us: 0.7
+    uk: 0.4
 ---
 # {{ params.vars.title }}
 In the figure below m = {{ params.m }} kg, $\theta$ = {{ params.theta }}$^\circ$, and k = {{ params.k }} N/m.

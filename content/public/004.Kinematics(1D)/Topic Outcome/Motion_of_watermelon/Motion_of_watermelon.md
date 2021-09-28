@@ -38,8 +38,6 @@ part2:
     allow-blank: true
     label: $t_o= $
     suffix: $s$
-    comparison: sigfig
-    digits: 1
 part3:
   type: number-input
   pl-customizations:
@@ -48,8 +46,6 @@ part3:
     allow-blank: true
     label: $a= $
     suffix: $m/s^2$
-    comparison: sigfig
-    digits: 1
 part4:
   type: multiple-choice
   pl-customizations:
@@ -57,13 +53,13 @@ part4:
 substitutions:
   params:
     vars:
-      name: Maya
+      name: Emilia
       title: Motion of watermelon
       units1: ${m/s}^2$
       units2: $s$
-    a: 4
-    b: 5
-    c: 6
+    a: 2
+    b: 8
+    c: 5
     part4:
       ans1:
         value: The speed is increasing

@@ -31,14 +31,12 @@ part1:
     allow-blank: true
     label: $v_{iy}= $
     suffix: $km/h$
-    comparison: sigfig
-    digits: 3
 substitutions:
   params:
     vars:
       title: Eruption of Mount Etna
       units: $km/h$
-    h: 91.5
+    h: 114.0
 ---
 # {{ params.vars.title }}
 Mount Etna erupted on Dec. 14 2020 sending lava {{ params.h }} $m$ into the air.

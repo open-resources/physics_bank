@@ -32,8 +32,6 @@ part1:
     allow-blank: true
     label: $J_x= $
     suffix: $\frac{kg*m}{s}$
-    comparison: sigfig
-    digits: 2
 part2:
   type: number-input
   pl-customizations:
@@ -42,18 +40,16 @@ part2:
     allow-blank: true
     label: $F_{avg}= $
     suffix: $N$
-    comparison: sigfig
-    digits: 2
 substitutions:
   params:
     vars:
       title: Ball Bouncing off a Wall
       units1: $\frac{kg*m}{s}$
       units2: $N$
-    m: 1
-    v: 10
-    theta: 33
-    t: 0.291
+    m: 7
+    v: 14
+    theta: 34
+    t: 0.425
 ---
 # {{ params.vars.title }}
 A {{params.m}} kg steel bass strikes a massive wall at {{params.v}} m/s at an angle of {{params.theta}} with the plane of the wall. It bounces off of the wall with the same speed and angle (see the figure).

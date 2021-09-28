@@ -41,8 +41,6 @@ part1:
     allow-blank: true
     label: $F_{2_x}= $
     suffix: units of force
-    comparison: sigfig
-    digits: 3
 part2:
   type: number-input
   pl-customizations:
@@ -51,8 +49,6 @@ part2:
     allow-blank: true
     label: $F_{2_y}= $
     suffix: units of force
-    comparison: sigfig
-    digits: 3
 part3:
   type: number-input
   pl-customizations:
@@ -61,8 +57,6 @@ part3:
     allow-blank: true
     label: $F_{1_x}= $
     suffix: units of force
-    comparison: sigfig
-    digits: 3
 part4:
   type: number-input
   pl-customizations:
@@ -71,8 +65,6 @@ part4:
     allow-blank: true
     label: $F_{1_y}= $
     suffix: units of force
-    comparison: sigfig
-    digits: 3
 part5:
   type: number-input
   pl-customizations:
@@ -81,8 +73,6 @@ part5:
     allow-blank: true
     label: $mag(F_{R})= $
     suffix: units of force
-    comparison: sigfig
-    digits: 3
 part6:
   type: multiple-choice
   pl-customizations:
@@ -91,23 +81,23 @@ substitutions:
   params:
     vars:
       title: Barge Pulled by Tugboats
-    F1: 5380
-    F2: 3291
-    theta_1: 21
-    theta_2: 16
+    F1: 3387
+    F2: 5519
+    theta_1: 14
+    theta_2: 14
     part6:
       ans1:
-        value: 7.11$^{\circ}$ to the left of AB.
+        value: 3.42$^{\circ}$ to the right of AB.
       ans2:
-        value: 7.11$^{\circ}$ to the right of AB.
+        value: 3.42$^{\circ}$ to the left of AB.
       ans3:
-        value: 82.9$^{\circ}$ to the left of AB.
+        value: 86.6$^{\circ}$ to the right of AB.
       ans4:
-        value: 82.9$^{\circ}$ to the right of AB.
+        value: 86.6$^{\circ}$ to the left of AB.
       ans5:
-        value: 71.1$^{\circ}$ to the left of AB.
+        value: 34.2$^{\circ}$ to the right of AB.
       ans6:
-        value: 71.1$^{\circ}$ to the right of AB.
+        value: 34.2$^{\circ}$ to the left of AB.
 ---
 # {{ params.vars.title }}
 A barge is pulled by the two tugboats shown in the following figure.

@@ -32,15 +32,13 @@ part1:
     allow-blank: true
     label: $v_0= $
     suffix: m/s
-    comparison: sigfig
-    digits: 2
 substitutions:
   params:
     vars:
       title: Ball on a Slanted Table
       units: $m/s$
-    d: 2.1
-    theta: 11
+    d: 1.3
+    theta: 24
 ---
 # {{ params.vars.title }}
 A ball is launched with an initial velocity of $\vec{v_0}$ from one corner of a smooth, flat board.

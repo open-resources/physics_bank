@@ -48,9 +48,9 @@ substitutions:
     a: '1'
     b: '3'
     c: '4.5'
-    d: '4.0'
-    e: '0.25'
-    f: '9'
+    d: '2.0'
+    e: '2.00'
+    f: '14'
 ---
 # {{ params.vars.title }}
 

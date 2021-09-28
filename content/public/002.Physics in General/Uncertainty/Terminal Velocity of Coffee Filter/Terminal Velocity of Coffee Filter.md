@@ -29,7 +29,6 @@ part1:
     allow-blank: true
     label: $\Delta v_T= $
     suffix: $m/s$
-    comparison: sigfig
     digits: 1
 part2:
   type: number-input
@@ -38,7 +37,6 @@ part2:
     allow-blank: true
     label: $v_T= $
     suffix: $m/s$
-    comparison: sigfig
     digits: 2
 part3:
   type: number-input
@@ -47,7 +45,6 @@ part3:
     allow-blank: true
     label: $ \Delta b = $
     suffix: $kg/s$
-    comparison: sigfig
     digits: 1
 part4:
   type: number-input
@@ -56,24 +53,23 @@ part4:
     allow-blank: true
     label: $ b = $
     suffix: $kg/s$
-    comparison: sigfig
     digits: 2
 substitutions:
   params:
     vars:
       title: Terminal Velocity of a Coffee Filter
-      name: Lorenzo
+      name: Emilia
       unit1: $m/s$
       unit2: $kg/s$
     m: 2
-    d_m: 40
-    sd: 0.079
-    v1: 0.91
-    v2: 0.88
-    v3: 0.83
+    d_m: 60
+    sd: 0.095
+    v1: 0.92
+    v2: 0.97
+    v3: 0.78
     v4: 0.73
-    v5: 0.92
-    v6: 0.98
+    v5: 0.72
+    v6: 0.77
 ---
 # {{ params.vars.title }}
 In one of the PHYS 111 labs {{ params.vars.name }} measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling through the air.

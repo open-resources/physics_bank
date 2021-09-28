@@ -32,7 +32,6 @@ part1:
     allow-blank: true
     label: $a_{expected}= $
     suffix: $m/s^2$
-    comparison: sigfig
     digits: 3
 part2:
   type: number-input
@@ -41,7 +40,6 @@ part2:
     allow-blank: true
     label: $a_{measured}= $
     suffix: $m/s^2$
-    comparison: sigfig
     digits: 3
 part3:
   type: number-input
@@ -50,7 +48,6 @@ part3:
     allow-blank: true
     label: $ \delta a_{measured}= $
     suffix: $m/s^2$
-    comparison: sigfig
     digits: 3
 part4:
   type: multiple-choice
@@ -60,23 +57,23 @@ substitutions:
   params:
     vars:
       title: A Frictionless Air Track?
-      name: Maya
+      name: Aliyah
       units: $m/s^2$
-    m1: 144.2
-    m2: 25.01
-    d_a: 0.02
-    mean: 1.64
-    sd: 0.109
-    a1: 1.74
-    a2: 1.68
-    a3: 1.67
+    m1: 195.0
+    m2: 28.78
+    d_a: 0.03
+    mean: 1.57
+    sd: 0.128
+    a1: 1.58
+    a2: 1.35
+    a3: 1.43
     a4: 1.43
-    a5: 1.71
-    a6: 1.62
-    a7: 1.62
-    a8: 1.78
-    a9: 1.66
-    a10: 1.45
+    a5: 1.5
+    a6: 1.68
+    a7: 1.66
+    a8: 1.56
+    a9: 1.71
+    a10: 1.75
     part4:
       ans1:
         value: The track is frictionless because $a_{expected}$ does not agree with

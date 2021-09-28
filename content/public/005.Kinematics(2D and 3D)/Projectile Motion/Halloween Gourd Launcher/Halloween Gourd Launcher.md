@@ -35,8 +35,6 @@ part1:
     allow-blank: true
     label: $V_{0_x}= $
     suffix: $m/s$
-    comparison: sigfig
-    digits: 3
 part2:
   type: number-input
   pl-customizations:
@@ -46,8 +44,6 @@ part2:
     allow-blank: true
     label: $V_{0_y}= $
     suffix: $m/s$
-    comparison: sigfig
-    digits: 3
 part3:
   type: number-input
   pl-customizations:
@@ -57,8 +53,6 @@ part3:
     allow-blank: true
     label: $\Delta x= $
     suffix: $m$
-    comparison: sigfig
-    digits: 3
 part4:
   type: number-input
   pl-customizations:
@@ -68,8 +62,6 @@ part4:
     allow-blank: true
     label: $V_{0}= $
     suffix: $m/s$
-    comparison: sigfig
-    digits: 3
 part5:
   type: number-input
   pl-customizations:
@@ -79,16 +71,14 @@ part5:
     allow-blank: true
     label: $\theta = $
     suffix: $^{\circ}$
-    comparison: sigfig
-    digits: 3
 substitutions:
   params:
     vars:
-      name: Maya
+      name: Savannah
       title: Halloween Gourd Launcher
-    m_gourd: 0.625
-    h: 2.12
-    v_f: 5.66
+    m_gourd: 0.668
+    h: 1.87
+    v_f: 4.07
 ---
 # {{ params.vars.title }}
 At a local pumpkin patch, {{ params.vars.name }} is hired to create a Hallowe'en gourd launcher.  {{ params.vars.name }} wants to launch a {{ params.m_gourd }} $kg$ gourd (an "Angry Bird") at a large pumpkin (decorated as a "pig") which sits on top of a $h=$ {{ params.h }} $m$ tall hay bale as shown in the figure.

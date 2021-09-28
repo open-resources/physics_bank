@@ -33,8 +33,6 @@ part1:
     allow-blank: true
     label: $p_x= $
     suffix: $kg\cdot m/s$
-    comparison: sigfig
-    digits: 3
 part2:
   type: number-input
   pl-customizations:
@@ -43,8 +41,6 @@ part2:
     allow-blank: true
     label: $K= $
     suffix: $J$
-    comparison: sigfig
-    digits: 3
 part3:
   type: number-input
   pl-customizations:
@@ -53,8 +49,6 @@ part3:
     allow-blank: true
     label: $v_x= $
     suffix: $m/s$
-    comparison: sigfig
-    digits: 3
 part4:
   type: number-input
   pl-customizations:
@@ -63,8 +57,6 @@ part4:
     allow-blank: true
     label: $p_x= $
     suffix: $kg\cdot m/s$
-    comparison: sigfig
-    digits: 3
 part5:
   type: number-input
   pl-customizations:
@@ -73,21 +65,19 @@ part5:
     allow-blank: true
     label: $K= $
     suffix: $J$
-    comparison: sigfig
-    digits: 3
 substitutions:
   params:
     vars:
-      name1: Mateo
-      name2: Ximena
+      name1: Ximena
+      name2: Santiago
       title: A Flying Arrow
       unit1: $kg\cdot m/s$
       unit2: $J$
       unit3: $m/s$
-    m: 0.421
-    v_x: -117.0
-    x1: 15.9
-    x2: 22.1
+    m: 0.47
+    v_x: -72.0
+    x1: 22.8
+    x2: 10.9
 ---
 # {{ params.vars.title }}
 {{ params.vars.name1 }} and {{ params.vars.name2 }} watch an arrow fly past them.  The arrow has mass $m = $ {{ params.m }} $kg$.  {{ params.vars.name1 }} is sitting on a stump and sees the arrow move with velocity $v_x = $ {{ params.v_x }} $m/s$. {{ params.vars.name1 }} also notes that {{ params.vars.name2 }} is riding a horse and measures {{ params.vars.name2 }}'s position to be $x = $ {{ params.x1 }} $m$ + ({{ params.x2 }} $m/s$) $t$ where $t$ is time measured in seconds.

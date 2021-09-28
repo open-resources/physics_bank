@@ -46,8 +46,6 @@ part3:
     allow-blank: true
     label: $a= $
     suffix: $m/s^2$
-    comparison: sigfig
-    digits: 1
 part4:
   type: number-input
   pl-customizations:
@@ -56,8 +54,6 @@ part4:
     allow-blank: true
     label: $t= $
     suffix: $s$
-    comparison: sigfig
-    digits: 1
 substitutions:
   params:
     vars:
@@ -65,8 +61,8 @@ substitutions:
       units1: $m/s^2$
       units2: $s$
     v_1: 3
-    t_1: 2
-    t_2: 4
+    t_1: 3
+    t_2: 5
 ---
 # {{ params.vars.title }}
 A rocket has a velocity (pointing away from the launch pad) given by $v(t)$={{ params.v_1 }}$t$-$t^2$

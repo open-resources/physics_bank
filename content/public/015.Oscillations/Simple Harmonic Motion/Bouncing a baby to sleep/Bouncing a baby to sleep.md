@@ -32,8 +32,6 @@ part1:
     allow-blank: true
     label: $k= $
     suffix: $N/m$
-    comparison: sigfig
-    digits: 3
 part2:
   type: number-input
   pl-customizations:
@@ -42,8 +40,6 @@ part2:
     allow-blank: true
     label: Adjustment to $\; k= $
     suffix: $N/m$
-    comparison: sigfig
-    digits: 3
 part3:
   type: multiple-choice
   pl-customizations:
@@ -51,14 +47,14 @@ part3:
 substitutions:
   params:
     vars:
-      person1: father
-      person2: grandmother
+      person1: aunt
+      person2: mother
       title: Bouncing a Baby to Sleep
       units: $N/m$
-    m1: 77.2
-    m2: 66.2
-    m_b: 4.51
-    f: 2.74
+    m1: 88.5
+    m2: 77.0
+    m_b: 2.36
+    f: 2.19
     part3:
       ans1:
         value: Remove air to decrease the pressure in the ball. Decreased pressure

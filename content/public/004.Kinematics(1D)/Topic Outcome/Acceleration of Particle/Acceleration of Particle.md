@@ -32,8 +32,6 @@ part1:
     allow-blank: true
     label: $t_1= $
     suffix: $s$
-    comparison: sigfig
-    digits: 2
 part2:
   type: number-input
   pl-customizations:
@@ -42,8 +40,6 @@ part2:
     allow-blank: true
     label: $t_2= $
     suffix: $s$
-    comparison: sigfig
-    digits: 2
 part3:
   type: number-input
   pl-customizations:
@@ -52,8 +48,6 @@ part3:
     allow-blank: true
     label: $a= $
     suffix: $m/s^2$
-    comparison: sigfig
-    digits: 2
 part4:
   type: number-input
   pl-customizations:
@@ -62,18 +56,16 @@ part4:
     allow-blank: true
     label: $a= $
     suffix: $m/s^2$
-    comparison: sigfig
-    digits: 2
 substitutions:
   params:
     vars:
       title: Acceleration of a Particle
       unit1: $s$
       unit2: $m/s^2$
-    c1: 3
-    c2: 5
-    c3_abs: 10
-    c3_sign: ' - '
+    c1: 5
+    c2: 4
+    c3_abs: 6
+    c3_sign: ' + '
 ---
 # {{ params.vars.title }}
 The position of a particle is given by the function $x = (${{ params.c1 }}$t^3 -${{ params.c2 }}$t^2$ {{ params.c3_sign }} {{ params.c3_abs }}) $m$ where $t$ is in seconds.

@@ -70,8 +70,6 @@ part6:
     allow-blank: true
     label: $x= $
     suffix: $m$
-    comparison: sigfig
-    digits: 2
 part7:
   type: number-input
   pl-customizations:
@@ -80,8 +78,6 @@ part7:
     allow-blank: true
     label: $y= $
     suffix: $m$
-    comparison: sigfig
-    digits: 2
 part8:
   type: symbolic-input
   pl-customizations:
@@ -98,12 +94,12 @@ substitutions:
     vars:
       title: Jump Across Stream
       units: $m$
-    m: 406
-    w_s: 4.5
-    h_s: 1.3
-    v_i: 3
-    v_j: 3
-    h_b: 3.5
+    m: 247
+    w_s: 3.1
+    h_s: 1.1
+    v_i: 5
+    v_j: 5
+    h_b: 3.9
     part5:
       ans1:
         value: Yes, the bear makes it to the other side of the stream.

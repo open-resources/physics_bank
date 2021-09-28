@@ -32,8 +32,6 @@ part1:
     allow-blank: true
     label: $v= $
     suffix: m/s
-    comparison: sigfig
-    digits: 2
 part2:
   type: number-input
   pl-customizations:
@@ -42,8 +40,6 @@ part2:
     allow-blank: true
     label: $k= $
     suffix: N/m
-    comparison: sigfig
-    digits: 2
 part3:
   type: number-input
   pl-customizations:
@@ -52,8 +48,6 @@ part3:
     allow-blank: true
     label: $A=$
     suffix: m
-    comparison: sigfig
-    digits: 2
 substitutions:
   params:
     vars:
@@ -61,9 +55,9 @@ substitutions:
       units1: m/s
       units2: N/m
       units3: m
-    m: 322
-    T: 0.39
-    E: 7.0
+    m: 315
+    T: 0.81
+    E: 5.9
 ---
 # {{ params.vars.title }}
 A {{params.m}} g object is attached to a spring and executes simple harmonic motion with a period of {{params.T}} s.

@@ -36,8 +36,6 @@ part1:
     allow-blank: true
     weight: 1
     suffix: m
-    comparison: sigfig
-    digits: 2
 part2:
   type: number-input
   pl-customizations:
@@ -46,19 +44,17 @@ part2:
     allow-blank: true
     weight: 1
     suffix: J
-    comparison: sigfig
-    digits: 2
 substitutions:
   params:
     vars:
       title: Spring on an Incline
       units1: m
       units2: J
-    m: 5
-    k: 640
-    theta: 30
+    m: 2
+    k: 636
+    theta: 26
     mu: 0.25
-    d: 5
+    d: 7
     g: 9.8
 ---
 # {{ params.vars.title }}

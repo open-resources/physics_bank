@@ -32,8 +32,6 @@ part1:
     allow-blank: true
     label: $v= $
     suffix: m/s
-    comparison: sigfig
-    digits: 2
 part2:
   type: number-input
   pl-customizations:
@@ -42,8 +40,6 @@ part2:
     allow-blank: true
     label: $x= $
     suffix: m
-    comparison: sigfig
-    digits: 2
 part3:
   type: number-input
   pl-customizations:
@@ -52,8 +48,6 @@ part3:
     allow-blank: true
     label: $K= $
     suffix: J
-    comparison: sigfig
-    digits: 2
 substitutions:
   params:
     vars:
@@ -62,7 +56,7 @@ substitutions:
       units2: m
       units3: J
     m: 2.0
-    v: -4.0
+    v: -0.5
 ---
 # {{ params.vars.title }}
 The graph below shows the net force on a particle as a function of its position. The mass of
