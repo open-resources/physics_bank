@@ -138,13 +138,11 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Horizontal Jump/Horizontal
       Jump
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Slanted Table/slanted_table
-  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/ski_jump/ski_jump
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Bird dropping
       seed/Bird dropping seed
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Ball in the wind/ball_in_the_wind
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Ball launched
       to a specific height/ball_launched_to_specific_height
-  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Mass_Attached_To_String/Mass_Attached_To_String
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Jumping Salmon/Jumping
       Salmon
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Projectile Motion
@@ -160,8 +158,6 @@ parts:
       time for crate released by a jet/distance_and_time_for_crate_released_by_jet
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Velocity and
       Acceleration of Particle in Curvilinear Motion/velocity_and_acceleration_of_particle_in_curvilinear_motion
-  - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/A flying arrow/A
-      flying arrow
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/apples_in_truck/apples_in_truck
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Relative Motion
       of Two Planes/relative_motion_of_two_planes
@@ -173,10 +169,7 @@ parts:
       on a Curve/relative_motion_on_a_curve
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Velocity of a Falcon/Velocity
       of a Falcon
-  - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Relative Motion
-      of Fighter Jetts/relative_motion_of_fighter_jetts
   - file: content/public/005.Kinematics(2D and 3D)/Cart Raising a Load/cart_raising_a_load
-  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Rotating Bar/rotating_bar
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Moving Ball velocity
       vs displacement graph/Moving_Ball_velocity_vs_displacement_graph
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/jump_across_stream/jump_across_stream
@@ -189,31 +182,12 @@ parts:
       vector/Magnitude of a particle vector
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Ball Launched from
       Horizontal Cliff/Ball Launched from Horizontal cliff
-  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Boom Arm Polar Coordinates/boom_arm_polar_coords
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Supply_plane/Supply_plane
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Raising weight with
       Block on Hill/raising_weight_with_block_on_hill
   - file: content/public/005.Kinematics(2D and 3D)/Plane Launch Polar Coordinates/plane_launch_polar_coords
-  - file: content/public/005.Kinematics(2D and 3D)/Raising a Package/raising_a_package
-  - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Angular_Acceleration/Angular_Acceleration
-  - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Acceleration
-      around a turn/Acceleration around a turn
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Polar
       Coordinates from Function/polar_coords_from_func
-  - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Radius
-      of a Rollercoaster/radius_of_a_rollercoaster
-  - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Discus_Thrower/Discus_Thrower
-  - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Turning_Car/Turning_car
-  - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/centripetal_force/centripetal_force
-  - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/RollerCoaster/RollerCoaster
-  - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/angular_speed/angular_speed
-  - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Swinging
-      mass/Swinging mass
-  - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Cars on
-      a track/cars_on_a_track
-  - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Speed_Skating/Speed_Skating
-  - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Cars around
-      a bend/cards_around_bend
   - file: content/public/005.Kinematics(2D and 3D)/Aircraft Liftoff 3D/aircraft_liftoff_3d
 - caption: Force
   chapters:
