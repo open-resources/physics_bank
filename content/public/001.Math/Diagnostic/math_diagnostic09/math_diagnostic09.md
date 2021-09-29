@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $z$ = $\dfrac{(k)}{(o + 2a)} $
+    expr: $j$ = $\dfrac{(u)}{(n - 10o)} $
     part1:
       ans1:
-        value: o = ${ - 2 a + \frac{k}{z}}$
+        value: n = ${ 10 o + \frac{u}{j}}$
       ans2:
-        value: o = ${\frac{2 a z}{k}}$
+        value: n = ${- \frac{10 j o}{u}}$
       ans3:
-        value: o = ${\frac{k}{2 a z}}$
+        value: n = ${- \frac{u}{10 j o}}$
       ans4:
-        value: o = ${\frac{- 2 a + z}{k}}$
+        value: n = ${\frac{j + 10 o}{u}}$
       ans5:
         value: Don't Know
 ---

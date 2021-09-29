@@ -82,7 +82,7 @@ part8:
   type: symbolic-input
   pl-customizations:
     label: $\vec{V} = $
-    variables: ihat, jhat
+    variables: i_hat, j_hat
     weight: 1
     allow-blank: false
 part9:
@@ -94,12 +94,12 @@ substitutions:
     vars:
       title: Jump Across Stream
       units: $m$
-    m: 247
-    w_s: 3.1
-    h_s: 1.1
-    v_i: 5
-    v_j: 5
-    h_b: 3.9
+    m: 161
+    w_s: 2.1
+    h_s: 1.4
+    v_i: 4
+    v_j: 3
+    h_b: 2.7
     part5:
       ans1:
         value: Yes, the bear makes it to the other side of the stream.
@@ -118,7 +118,7 @@ The bear can jump with an initial velocity $\overrightarrow{V_i} = $ {{params.v_
 
 ## Part 1
 
-If the origin is at the foot of the bear's jumping tree, write an equation describing the $x$ coordinate of the bear while it is in the air.
+If the origin is at the bear's foot (up in the tree), write an equation describing the $x$ coordinate of the bear while it is in the air.
 
 Use the following table as a reference. Note that it may not be necessary to use every variable.
 
@@ -131,7 +131,7 @@ Use the following table as a reference. Note that it may not be necessary to use
 
 ## Part 2
 
-If the origin is at the foot of the bear's jumping tree, write an equation describing the $y$ coordinate of the bear while it is in the air.
+If the origin is at the bear's foot (up in the tree), write an equation describing the $y$ coordinate of the bear while it is in the air.
 
 Use the following table as a reference. Note that it may not be necessary to use every variable.
 
@@ -144,7 +144,7 @@ Use the following table as a reference. Note that it may not be necessary to use
 
 ## Part 3
 
-If the origin is at the foot of the bear's jumping tree, write an equation describing the $V_x$ component of the velocity of the bear while it is in the air.
+If the origin is at the bear's foot (up in the tree), write an equation describing the $V_x$ component of the velocity of the bear while it is in the air.
 
 Use the following table as a reference. Note that it may not be necessary to use every variable.
 
@@ -179,7 +179,7 @@ Does the bear make it to the other side of the stream?
 
 ## Part 6
 
-Where is the $x$-coordinate of the bear's highest position above the stream?
+When the bear is at its highest ($y$y or vertical) position above the stream, what is the $x$-coordinate of the bear?
 
 ### Answer Section
 
@@ -201,8 +201,8 @@ Use the following table as a reference.
 
 | For  | Use   |
 |----------|-------|
-| $\hat{\imath}$  | ihat  |
-| $\hat{\jmath}$  | jhat |
+| $\hat{\imath}$  | i_hat  |
+| $\hat{\jmath}$  | j_hat |
 
 ### Answer Section
 

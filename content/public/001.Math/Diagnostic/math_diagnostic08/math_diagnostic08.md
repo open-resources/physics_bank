@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-16x - 20y }{ -4 }$
+    expr: $\dfrac{-27x - 36y }{ 9 }$
     part1:
       ans1:
-        value: $4 x + 5 y$
+        value: $- 3 x - 4 y$
       ans2:
-        value: $\dfrac{4x + 5y}{-4}$
+        value: $\dfrac{-3x - 4y}{9}$
       ans3:
-        value: $5x + 4y$
+        value: $-4x - 3y$
       ans4:
-        value: $-16x + 20y$
+        value: $-27x - 36y$
       ans5:
         value: Don't know.
 ---

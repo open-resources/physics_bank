@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $8^{7} $=$ 2097152$
+    expr: $7^{1} $=$ 7$
     part1:
       ans1:
-        value: $log_82097152 = 7$
+        value: $log_77 = 1$
       ans2:
-        value: $log_87 = 2097152$
+        value: $log_71 = 7$
       ans3:
-        value: $log_20971527 = 8$
+        value: $log_71 = 7$
       ans4:
-        value: $log_72097152 = 8$
+        value: $log_17 = 7$
       ans5:
         value: Don't Know
 ---

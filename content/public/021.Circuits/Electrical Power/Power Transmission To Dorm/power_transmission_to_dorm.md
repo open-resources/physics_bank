@@ -51,14 +51,14 @@ substitutions:
   params:
     vars:
       title: Power Transmission To Dorm
-    I_ref: 5
-    V_ref: 119
-    P_bulb: 68
-    P_light: 42
+    I_ref: 4
+    V_ref: 147
+    P_bulb: 55
+    P_light: 35
     P_other: 1
-    V_pp: 119
-    d_pp: 10
-    Al_d: 7.759
+    V_pp: 147
+    d_pp: 5
+    Al_d: 8.044
 ---
 # {{ params.vars.title }}
 A physics student has a single-occupancy dorm room.

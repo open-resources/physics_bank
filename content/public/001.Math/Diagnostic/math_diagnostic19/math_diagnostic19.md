@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin233$
+    a: $ \sin281$
     part1:
       ans1:
-        value: $\sin{-127}$
+        value: $\sin{-79}$
       ans2:
-        value: $\sin{127}$
+        value: $\sin{79}$
       ans3:
-        value: $\sin{-53}$
+        value: $\sin{-101}$
       ans4:
-        value: $\sin{53}$
+        value: $\sin{101}$
       ans5:
         value: Don't Know
 ---

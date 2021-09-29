@@ -42,17 +42,16 @@ substitutions:
   params:
     vars:
       title: Force on a Highway Exit
-    vami: 56
-    vcmi: 20
-    W: 4349
-    d: 150
-    r: 164
+    vami: 43
+    vcmi: 34
+    W: 4887
+    d: 188
+    r: 116
 ---
 # {{ params.vars.title }}
 <img src="Force on a Highway Exit.png" width=400>
 
 A {{ params.W }}$lb$ truck travels with a speed of ${{ params.vami }}mi/hr$ as it approaches point A. At A, it decelerates uniformly to a speed of ${{ params.vcmi }}mi/hr$ as it passes point C on the horizontal unbanked ramp highway ramp.
-Determine the total horizontal force exerted by the car on the road as it passes point B.
 $R = {{ params.r }}ft$, $d = {{ params.d }}ft$.
 
 ## Part 1

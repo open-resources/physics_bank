@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       units: rad/s
-      name: Santiago
+      name: Lorenzo
       title: Wheel of Fortune
     w_i: ${\pi \over 2} {rad\over s}$
-    t: 6
+    t: 5
     part1:
       ans1:
-        value: 2.47
+        value: 2.96
       ans2:
-        value: 1.57
+        value: 1.72
       ans3:
-        value: 3.14
+        value: 3.44
       ans4:
         value: $\pi$/2
 ---
