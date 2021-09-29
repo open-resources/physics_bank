@@ -268,6 +268,8 @@ parts:
   - file: content/public/007.Momentum and Impulse/Topic Outcome/Uranium_fragments/Uranium_fragments
   - file: content/public/007.Momentum and Impulse/Topic Outcome/A Coyote and a Rat/A
       Coyote and a Rat
+  - file: content/public/007.Momentum and Impulse/Topic Outcome/Force and Momentum/Force
+      and Momentum
   - file: content/public/007.Momentum and Impulse/Impulse/airbag_collision/airbag_collision
   - file: content/public/007.Momentum and Impulse/Impulse/Speed_Before_Impact/Speed_Before_Impact
   - file: content/public/007.Momentum and Impulse/Impulse/Bouncing_Ball/Bouncing_Ball
@@ -373,6 +375,7 @@ parts:
   - file: content/public/009.Work/Power/Power of a Biker/Power of a Biker
   - file: content/public/009.Work/Power/Power Climbing Stairs/Power Climbing Stairs
   - file: content/public/009.Work/Topic Outcome/Work_Done_By_Force/Work_Done_By_Force
+  - file: content/public/009.Work/Topic Outcome/Bungee_jumping/bungee_jumping
   - file: content/public/009.Work/Work-Energy Theorem/Toboggan_hill/Toboggan_hill
   - file: content/public/009.Work/Work-Energy Theorem/work_frictionless_surface/work_frictionless_surface
 - caption: Rotational Motion
