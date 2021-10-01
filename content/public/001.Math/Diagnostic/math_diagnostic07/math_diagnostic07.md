@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 2x - 3y = 13
-    formula2: 4x + 7y = 40
+    formula1: 7x - 10y = 27
+    formula2: 10x + 4y = 35
     part1:
       ans1:
-        value: ' x =211/26, y =14/13'
+        value: ' x =229/64, y =-17/87'
       ans2:
-        value: ' x =14/13, y =211/26'
+        value: ' x =-17/87, y =229/64'
       ans3:
-        value: ' x =-211/26, y =-14/13'
+        value: ' x =-229/64, y =17/87'
       ans4:
-        value: ' x =-14/13, y =-211/26'
+        value: ' x =17/87, y =-229/64'
       ans5:
         value: Don't Know
 ---

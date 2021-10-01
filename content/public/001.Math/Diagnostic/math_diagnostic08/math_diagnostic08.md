@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-27x - 36y }{ 9 }$
+    expr: $\dfrac{21x + 56y }{ 7 }$
     part1:
       ans1:
-        value: $- 3 x - 4 y$
+        value: $3 x + 8 y$
       ans2:
-        value: $\dfrac{-3x - 4y}{9}$
+        value: $\dfrac{3x + 8y}{7}$
       ans3:
-        value: $-4x - 3y$
+        value: $8x + 3y$
       ans4:
-        value: $-27x - 36y$
+        value: $21x + 56y$
       ans5:
         value: Don't know.
 ---

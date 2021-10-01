@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $j$ = $\dfrac{(u)}{(n - 10o)} $
+    expr: $d$ = $\dfrac{(r)}{(a + 8n)} $
     part1:
       ans1:
-        value: n = ${ 10 o + \frac{u}{j}}$
+        value: a = ${ - 8 n + \frac{r}{d}}$
       ans2:
-        value: n = ${- \frac{10 j o}{u}}$
+        value: a = ${\frac{8 d n}{r}}$
       ans3:
-        value: n = ${- \frac{u}{10 j o}}$
+        value: a = ${\frac{r}{8 d n}}$
       ans4:
-        value: n = ${\frac{j + 10 o}{u}}$
+        value: a = ${\frac{d - 8 n}{r}}$
       ans5:
         value: Don't Know
 ---
