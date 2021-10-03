@@ -1,14 +1,14 @@
 ---
-title: Collision of a Cart with a Spring
-topic: Energy
-author: Jake Bobowski
-source: 2015 Final Q11
+title: Frequency of an LC Circuit
+topic: Circuits
+author: Joseph Wandinger
+source: 2.14.63
 template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
 outcomes:
-- 8.3.3.0
+- 21.14.4.0
 difficulty:
 - undefined
 randomization:
@@ -20,35 +20,41 @@ span:
 length:
 - undefined
 tags:
-- PW
-assets: null
+- OSUP
+- volume 2
+- chapter 14
+- problem 63
+- circuits
+- frequency
+- LC circuits
+- numeric
+- JW
 part1:
   type: number-input
   pl-customizations:
-    rtol: 0.05
     weight: 1
-    allow-blank: true
-    label: $v= $
-    suffix: $m/s$
+    allow-blank: false
+    show-correct-answer: false
+    label: $\omega =$
+    suffix: $\rm\ rad/s$
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
 substitutions:
   params:
     vars:
-      title: Collision of a Cart with a Spring
-      units: m/s
-    m: 45
-    k: 222
-    x: 95
+      title: Frequency of an LC Circuit
+    L: '0.35'
+    C: '7.3'
 ---
 # {{ params.vars.title }}
-A  {{ params.m }}  $kg$  runaway  grocery  cart  runs  into  a  spring  with a spring  constant $k = $  {{ params.k }}  $N/m$  and compresses it by {{ params.x }} $cm$ before momentarily coming to rest.
+The self-inductance and capacitance of an $LC$ circuit are $L = {{ params.L }}\rm\ mH$ and $C = {{ params.C }}\rm\ pF$.
 
 ## Question Text
 
-What was the speed of the cart just before it hit the spring?
+What is the angular frequency at which the circuit oscillates?
 
 ### Answer Section
-
-Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

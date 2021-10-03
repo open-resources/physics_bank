@@ -116,7 +116,7 @@ part8:
 substitutions:
   params:
     V: '53.0'
-    R1: '19.0'
+    R1: '17.0'
     R2: '90.0'
 ---
 # {{ params.vars.title }}

@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin220$
+    a: $ \sin337$
     part1:
       ans1:
-        value: $\sin{-140}$
+        value: $\sin{-23}$
       ans2:
-        value: $\sin{140}$
+        value: $\sin{23}$
       ans3:
-        value: $\sin{-40}$
+        value: $\sin{-157}$
       ans4:
-        value: $\sin{40}$
+        value: $\sin{157}$
       ans5:
         value: Don't Know
 ---
