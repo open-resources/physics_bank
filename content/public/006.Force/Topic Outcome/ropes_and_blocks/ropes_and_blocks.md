@@ -56,14 +56,16 @@ substitutions:
       title: Ropes and Blocks
       units1: $\frac{m}{s^2}$
       units2: N
-    m_a: 3
-    m_b: 4
-    m_c: 4
-    f_a: 50
+    m_a: 2
+    m_b: 5
+    m_c: 3
+    f_a: 35
 ---
 # {{ params.vars.title }}
 Assume the three blocks portrayed in the figure move on a frictionless surface and a {{params.f_a}} N force
 acts as shown on block C. The masses of the blocks are as follows: $m_a$ = {{params.m_a}} kg, $m_b$ = {{params.m_b}} kg, $m_c$ = {{params.m_c}} kg.
+
+**Note: The blocks are _NOT_ drawn to scale, pay close attention to $m_a$, $m_b$, and $m_c$!**
 
 <img src="q13image.png" alt="Blocks A, B and C, with force F_a pulling on them." >
 
@@ -85,7 +87,7 @@ Please enter in a numeric value in {{ params.vars.units2 }}.
 
 ## Part 3
 
-Determine the force exerted by the block B on the block A.
+Determine the magnitude of the force exerted by block B on block A.
 
 ### Answer Section
 

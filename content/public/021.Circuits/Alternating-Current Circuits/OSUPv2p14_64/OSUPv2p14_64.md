@@ -1,14 +1,14 @@
 ---
-title: Math Diagnostic 8
-topic: Math
-author: Simon Bates
-source: Math Diagnostic
+title: Frequency and Capacitance of an LC Circuit
+topic: Circuits
+author: Joseph Wandinger
+source: 2.14.64
 template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
 outcomes:
-- 1.5.1.9
+- 21.14.4.0
 difficulty:
 - undefined
 randomization:
@@ -20,44 +20,40 @@ span:
 length:
 - undefined
 tags:
-- math_diagnostic
-- AK
-- PW
-assets: null
+- OSUP
+- volume 2
+- chapter 14
+- problem 64
+- circuits
+- frequency
+- LC circuits
+- numeric
+- JW
 part1:
-  type: multiple-choice
+  type: number-input
   pl-customizations:
     weight: 1
+    allow-blank: false
+    show-correct-answer: false
+    label: $L =$
+    suffix: $\rm\ H$
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
 substitutions:
   params:
     vars:
-      title: 'Math Practice #8'
-    expr: $\dfrac{-63x - 27y }{ 9 }$
-    part1:
-      ans1:
-        value: $- 7 x - 3 y$
-      ans2:
-        value: $\dfrac{-7x - 3y}{9}$
-      ans3:
-        value: $-3x - 7y$
-      ans4:
-        value: $-63x - 27y$
-      ans5:
-        value: Don't know.
+      title: Frequency and Capacitance of an LC Circuit
+    f: '84.0'
+    C: '12.5'
 ---
 # {{ params.vars.title }}
 
-## Part 1
+## Question Text
 
-{{ params.expr }} is equivalent to:
+What is the self-inductance of an $LC$ circuit that oscillates at ${{ params.f }}\rm\ Hz$ when the capacitance is ${{ params.C }}\rm\ \mu F$?
 
 ### Answer Section
-
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
 
 ## Attribution
 

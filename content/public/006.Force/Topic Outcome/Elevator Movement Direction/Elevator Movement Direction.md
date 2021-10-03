@@ -32,22 +32,22 @@ substitutions:
   params:
     vars:
       title: Direction of Movement of the Elevator
-    m_st: 652
-    m_sc: 608
+    m_st: 687
+    m_sc: 733
     part1:
       ans1:
-        value: Downward.
+        value: The elevator is moving Downwards, with gravity.
       ans2:
         value: You cannot tell if it is moving upward or downward.
       ans3:
-        value: Upward.
+        value: The elevator is moving Upwards, against gravity.
 ---
 # {{ params.vars.title }}
 A {{ params.m_st }} $N$ student standing on a scale in an elevator notices that the scale reads {{ params.m_sc }} $N$.
 
 ## Part 1
 
-From this information, the student knows that the elevator must be moving:
+Which of the following statement is true about the motion of the student?
 
 ### Answer Section
 

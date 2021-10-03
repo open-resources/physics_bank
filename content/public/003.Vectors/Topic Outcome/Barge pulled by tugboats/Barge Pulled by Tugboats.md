@@ -81,23 +81,23 @@ substitutions:
   params:
     vars:
       title: Barge Pulled by Tugboats
-    F1: 5162
-    F2: 3857
-    theta_1: 27
-    theta_2: 28
+    F1: 3012
+    F2: 5651
+    theta_1: 3
+    theta_2: 3
     part6:
       ans1:
-        value: 3.81$^{\circ}$ to the left of AB.
+        value: 0.915$^{\circ}$ to the right of AB.
       ans2:
-        value: 3.81$^{\circ}$ to the right of AB.
+        value: 0.915$^{\circ}$ to the left of AB.
       ans3:
-        value: 86.2$^{\circ}$ to the left of AB.
+        value: 89.1$^{\circ}$ to the right of AB.
       ans4:
-        value: 86.2$^{\circ}$ to the right of AB.
+        value: 89.1$^{\circ}$ to the left of AB.
       ans5:
-        value: 38.1$^{\circ}$ to the left of AB.
+        value: 9.15$^{\circ}$ to the right of AB.
       ans6:
-        value: 38.1$^{\circ}$ to the right of AB.
+        value: 9.15$^{\circ}$ to the left of AB.
 ---
 # {{ params.vars.title }}
 A barge is pulled by the two tugboats shown in the following figure.
@@ -110,11 +110,13 @@ Assume $+y$ is straight ahead, and $+x$ is to the right.
 <div id="desc">
 <h5>Figure of a barge pulled by two tugboats.</h5>
 A straight line AB is drawn through the center of the barge. One tugboat pulls the barge to the left with a force of magnitude F one at an angle theta one relative to AB. The other tugboat pulls to the right with a force F two at angle theta two relative to AB.
-<div>
+</div>
 
 ## Part 1
 
-Resolve the pulling forces to their scalar components. What is the $x$-component of the force above the line AB i.e. the right force?
+Resolve the pulling forces to theircomponents.
+What is the $x$-component of the force above the line AB i.e. the right force?
+Remember to consider the sign convention.
 
 ### Answer Section
 
@@ -122,7 +124,9 @@ Please enter in a numeric value in 'units of force'.
 
 ## Part 2
 
-Resolve the pulling forces to their scalar components. What is the $y$-component of the force above the line AB i.e. the right force?
+Resolve the pulling forces to theircomponents.
+What is the $y$-component of the force above the line AB i.e. the right force?
+Remember to consider the sign convention.
 
 ### Answer Section
 
@@ -130,7 +134,9 @@ Please enter in a numeric value in 'units of force'.
 
 ## Part 3
 
-Resolve the pulling forces to their scalar components. What is the $x$-component of the force below the line AB i.e. the left force?
+Resolve the pulling forces to theircomponents.
+What is the $x$-component of the force below the line AB i.e. the left force?
+Remember to consider the sign convention.
 
 ### Answer Section
 
@@ -138,7 +144,9 @@ Please enter in a numeric value in 'units of force'.
 
 ## Part 4
 
-Resolve the pulling forces to their scalar components. What is the $y$-component of the force below the line AB i.e. the left force?
+Resolve the pulling forces to theircomponents.
+What is the $y$-component of the force below the line AB i.e. the left force?
+Remember to consider the sign convention.
 
 ### Answer Section
 

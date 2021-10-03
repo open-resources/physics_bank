@@ -94,11 +94,11 @@ substitutions:
     vars:
       title: Jump Across Stream
       units: $m$
-    m: 266
-    w_s: 4.9
-    h_s: 1.6
-    v_i: 2
-    v_j: 2
+    m: 198
+    w_s: 3.2
+    h_s: 1.1
+    v_i: 5
+    v_j: 4
     h_b: 3.2
     part5:
       ans1:
@@ -179,7 +179,7 @@ Does the bear make it to the other side of the stream?
 
 ## Part 6
 
-When the bear is at its highest ($y$y or vertical) position above the stream, what is the $x$-coordinate of the bear?
+When the bear is at its highest ($y$ or vertical) position above the stream, what is the $x$-coordinate of the bear?
 
 ### Answer Section
 

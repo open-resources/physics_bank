@@ -28,6 +28,8 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    fixed-order: true
+    hide-letter-keys: true
 substitutions:
   params:
     vars:

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $d$ = $\dfrac{(r)}{(a + 8n)} $
+    expr: $x$ = $\dfrac{(w)}{(m - 9b)} $
     part1:
       ans1:
-        value: a = ${ - 8 n + \frac{r}{d}}$
+        value: m = ${ 9 b + \frac{w}{x}}$
       ans2:
-        value: a = ${\frac{8 d n}{r}}$
+        value: m = ${- \frac{9 b x}{w}}$
       ans3:
-        value: a = ${\frac{r}{8 d n}}$
+        value: m = ${- \frac{w}{9 b x}}$
       ans4:
-        value: a = ${\frac{d - 8 n}{r}}$
+        value: m = ${\frac{9 b + x}{w}}$
       ans5:
         value: Don't Know
 ---
