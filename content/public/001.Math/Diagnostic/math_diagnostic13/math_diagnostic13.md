@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 13
-    expr: $\dfrac{z^3 }{z^9} $
+    expr: $\dfrac{z^7 }{z^3} $
     part1:
       ans1:
-        value: $z^{-6}$
+        value: $z^{4}$
       ans2:
-        value: $z^{6}$
+        value: $z^{-4}$
       ans3:
-        value: -6z
+        value: 4z
       ans4:
-        value: (1/3)z
+        value: (7/3)z
       ans5:
         value: Don't Know
 ---

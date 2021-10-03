@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic 6
-    eq: $\dfrac{x-3}{x+2}$ = $ \dfrac{x+9}{x-4}$
+    eq: $\dfrac{x-6}{x+2}$ = $ \dfrac{x+2}{x-2}$
     part1:
       ans1:
-        value: 19/18
+        value: 2/3
       ans2:
-        value: -5/3
+        value: 2/3
       ans3:
-        value: -19/8
+        value: '2'
       ans4:
-        value: 5/3
+        value: -2/3
 ---
 # {{ params.vars.title }}
 

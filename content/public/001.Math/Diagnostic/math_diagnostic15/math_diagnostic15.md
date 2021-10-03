@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $2^{5} $=$ 32$
+    expr: $8^{3} $=$ 512$
     part1:
       ans1:
-        value: $log_232 = 5$
+        value: $log_8512 = 3$
       ans2:
-        value: $log_25 = 32$
+        value: $log_83 = 512$
       ans3:
-        value: $log_325 = 2$
+        value: $log_5123 = 8$
       ans4:
-        value: $log_532 = 2$
+        value: $log_3512 = 8$
       ans5:
         value: Don't Know
 ---

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $z$ = $\dfrac{(m)}{(b - 3p)} $
+    expr: $b$ = $\dfrac{(z)}{(j - 9w)} $
     part1:
       ans1:
-        value: b = ${ \frac{m}{z} + 3 p}$
+        value: j = ${ 9 w + \frac{z}{b}}$
       ans2:
-        value: b = ${- \frac{3 p z}{m}}$
+        value: j = ${- \frac{9 b w}{z}}$
       ans3:
-        value: b = ${- \frac{m}{3 p z}}$
+        value: j = ${- \frac{z}{9 b w}}$
       ans4:
-        value: b = ${\frac{3 p + z}{m}}$
+        value: j = ${\frac{b + 9 w}{z}}$
       ans5:
         value: Don't Know
 ---
