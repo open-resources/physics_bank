@@ -599,11 +599,13 @@ parts:
   - file: content/public/021.Circuits/Alternating-Current Circuits/OSUPv2p14_63/OSUPv2p14_63
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_57/OSUPv2p14_57
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_15/OSUPv2p14_15
+  - file: content/public/021.Circuits/Inductors/OSUPv2p14_35/OSUPv2p14_35
   - file: content/public/021.Circuits/Inductors/Inductor emf/Inductor emf
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_55/OSUPv2p14_55
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_48/OSUPv2p14_48
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_46/OSUPv2p14_46
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_43/OSUPv2p14_43
+  - file: content/public/021.Circuits/Inductors/OSUPv2p14_36/OSUPv2p14_36
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_38/OSUPv2p14_38
   - file: content/public/021.Circuits/Resistance/OSUPv2p10_02/OSUPv2p10_02
   - file: content/public/021.Circuits/Resistance/Copper Wire Resistance/resistance_copper_wire
