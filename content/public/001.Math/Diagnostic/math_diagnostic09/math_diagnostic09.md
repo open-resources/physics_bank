@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $h$ = $\dfrac{(q)}{(n + 9a)} $
+    expr: $c$ = $\dfrac{(b)}{(y - 7f)} $
     part1:
       ans1:
-        value: n = ${ - 9 a + \frac{q}{h}}$
+        value: y = ${ \frac{b}{c} + 7 f}$
       ans2:
-        value: n = ${\frac{9 a h}{q}}$
+        value: y = ${- \frac{7 c f}{b}}$
       ans3:
-        value: n = ${\frac{q}{9 a h}}$
+        value: y = ${- \frac{b}{7 c f}}$
       ans4:
-        value: n = ${\frac{- 9 a + h}{q}}$
+        value: y = ${\frac{c + 7 f}{b}}$
       ans5:
         value: Don't Know
 ---

@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $2^{1} $=$ 2$
+    expr: $2^{5} $=$ 32$
     part1:
       ans1:
-        value: $log_22 = 1$
+        value: $log_232 = 5$
       ans2:
-        value: $log_21 = 2$
+        value: $log_25 = 32$
       ans3:
-        value: $log_21 = 2$
+        value: $log_325 = 2$
       ans4:
-        value: $log_12 = 2$
+        value: $log_532 = 2$
       ans5:
         value: Don't Know
 ---

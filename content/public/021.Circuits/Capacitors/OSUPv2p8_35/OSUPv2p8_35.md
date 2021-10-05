@@ -53,8 +53,8 @@ substitutions:
   params:
     vars:
       title: Connecting Capacitors
-      name: Maya
-    a: '10'
+      name: Savannah
+    a: '7'
     b: '9'
 ---
 # {{ params.vars.title }}
