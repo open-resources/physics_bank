@@ -43,9 +43,9 @@ substitutions:
   params:
     vars:
       title: Suspended parallel wires
-    s: '5.8'
-    mu: '21.8'
-    theta: '7.0'
+    s: '6.8'
+    mu: '27.8'
+    theta: '5.0'
 ---
 # {{ params.vars.title }}
 Two long, parallel wires are hung by cords of length $s = $ {{ params.s }} $\rm\ cm$, as shown in the figure.

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $w$ = $\dfrac{(a)}{(s - 8f)} $
+    expr: $w$ = $\dfrac{(l)}{(s + 8g)} $
     part1:
       ans1:
-        value: s = ${ \frac{a}{w} + 8 f}$
+        value: s = ${ - 8 g + \frac{l}{w}}$
       ans2:
-        value: s = ${- \frac{8 f w}{a}}$
+        value: s = ${\frac{8 g w}{l}}$
       ans3:
-        value: s = ${- \frac{a}{8 f w}}$
+        value: s = ${\frac{l}{8 g w}}$
       ans4:
-        value: s = ${\frac{8 f + w}{a}}$
+        value: s = ${\frac{- 8 g + w}{l}}$
       ans5:
         value: Don't Know
 ---

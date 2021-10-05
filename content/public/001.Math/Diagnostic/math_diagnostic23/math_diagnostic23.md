@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 9
+    a: 8
     b: 5
-    formula: $x^{9} \cos{\left(5 x \right)}$
+    formula: $x^{8} \cos{\left(5 x \right)}$
     part1:
       ans1:
-        value: $- 5 x^{9} \sin{\left(5 x \right)} + 9 x^{8} \cos{\left(5 x \right)}$
+        value: $- 5 x^{8} \sin{\left(5 x \right)} + 8 x^{7} \cos{\left(5 x \right)}$
       ans2:
-        value: $- 5 x^{9} \sin{\left(5 x \right)} $
+        value: $- 5 x^{8} \sin{\left(5 x \right)} $
       ans3:
-        value: $ 9 x^{8} \sin{\left(5 x \right)}$
+        value: $ 8 x^{7} \sin{\left(5 x \right)}$
       ans4:
-        value: $5 x^{9} \cos{\left(5 x \right)} + 9 x^{8} \sin{\left(5 x \right)}$
+        value: $5 x^{8} \cos{\left(5 x \right)} + 8 x^{7} \sin{\left(5 x \right)}$
       ans5:
         value: Don't Know
 ---

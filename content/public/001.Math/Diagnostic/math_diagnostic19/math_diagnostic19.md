@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin267$
+    a: $ \sin357$
     part1:
       ans1:
-        value: $\sin{-93}$
+        value: $\sin{-3}$
       ans2:
-        value: $\sin{93}$
+        value: $\sin{3}$
       ans3:
-        value: $\sin{-87}$
+        value: $\sin{-177}$
       ans4:
-        value: $\sin{87}$
+        value: $\sin{177}$
       ans5:
         value: Don't Know
 ---

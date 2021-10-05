@@ -1,16 +1,15 @@
 ---
-title: Heart Defibrillator
+title: Long Cylindrical Solenoid
 topic: Circuits
-author: Ava Cornell
-source: 2.8.43
+author: Joseph Wandinger
+source: 2.14.43
 template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
 outcomes:
-- 21.7.1.0
-- 21.7.1.1
-- 21.7.5.1
+- 21.14.2.2
+- 21.14.2.3
 difficulty:
 - undefined
 randomization:
@@ -24,55 +23,65 @@ length:
 tags:
 - OSUP
 - volume 2
-- chapter 8
+- chapter 14
 - problem 43
-- capacitors
+- circuits
+- inductance
+- solenoids
 - multi-part
-- numeric
-- AC
-assets: null
+- JW
 part1:
   type: number-input
   pl-customizations:
-    rtol: 0.05
-    label: $U=$
+    label: $L/\ell = $
     allow-blank: false
+    show-correct-answer: true
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
     show-help-text: true
-    suffix: $\textrm{J}$
+    suffix: $\rm\ H/m$
     weight: 1
+    custom-format: .2g
 part2:
   type: number-input
   pl-customizations:
-    rtol: 0.05
-    label: $Q=$
+    label: ${\boldsymbol \varepsilon}/\ell = $
     allow-blank: false
+    show-correct-answer: true
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
     show-help-text: true
-    suffix: $\textrm{C}$
+    suffix: $\rm\ V/m$
     weight: 1
+    custom-format: .2g
 substitutions:
   params:
     vars:
-      title: Heart Defibrillator
-    c: '11.0'
-    v: '9.0'
+      title: Long Cylindrical Solenoid
+    n: '80'
+    r: '1.5'
+    dIdt: '4.5'
 ---
 # {{ params.vars.title }}
+A long, cylindrical solenoid with ${{ params.n }}\rm\ turns/cm$ has a radius of ${{ params.r }}\rm\ cm$.
 
 ## Part 1
 
-What is the energy stored in the {{params.c }} $\rm\ \mu\textrm{F}$ capacitor of a heart defibrillator charged to {{params.v }} $\textrm{ kV}$?
+Neglecting end effects, what is the self-inductance per unit length of the solenoid?
 
 ### Answer Section
 
-Please enter a numeric value.
+Please enter in a numeric value in $\rm\ H/m$.
 
 ## Part 2
 
-What is the amount of charge stored?
+If the current through the solenoid changes at a rate of ${{ params.dIdt }}\rm\ A/s$, what is the emf induced per unit length?
 
 ### Answer Section
 
-Please enter a numeric value.
+Please enter in a numeric value in $\rm\ V/m$.
 
 ## Attribution
 
