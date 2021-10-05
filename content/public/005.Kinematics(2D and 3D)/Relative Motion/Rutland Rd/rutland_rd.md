@@ -31,18 +31,18 @@ substitutions:
   params:
     vars:
       title: Rutland Rd
-      vehicle: semi-truck
+      vehicle: truck
       units: km/h
-    v: 3
+    v: 6
     part1:
       ans1:
-        value: 4.2 km/h [S 45 $^\circ$ W]
+        value: 8.5 km/h [S 45 $^\circ$ W]
       ans2:
-        value: 4.2 km/h [N 45 $^\circ$ W]
+        value: 8.5 km/h [N 45 $^\circ$ W]
       ans3:
-        value: 4.2 km/h [S 45 $^\circ$ E]
+        value: 8.5 km/h [S 45 $^\circ$ E]
       ans4:
-        value: 3 km/h [N]
+        value: 6 km/h [N]
       ans5:
         value: Impossible to know without knowing how far each car is from the intersection.
 ---

@@ -62,17 +62,20 @@ substitutions:
       title: Acceleration of a Particle
       unit1: $s$
       unit2: $m/s^2$
-    c1: 6
+    c1: 2
     c2: 4
-    c3_abs: 34
-    c3_sign: ' + '
+    c3_abs: 24
+    c3_sign: ' - '
 ---
 # {{ params.vars.title }}
 The position of a particle is given by the function $x = (${{ params.c1 }}$t^3 -${{ params.c2 }}$t^2$ {{ params.c3_sign }} {{ params.c3_abs }}) $m$ where $t$ is in seconds.
 
+As you solve the questions below, you will be asked to find several times ($t_1$, $t_2$, $t_3$, etc...) based on certain conditions.
+In all cases, order your $t_1$, $t_2$, $t_3$ values such that $t_1$ is the lowest one, and subsequent values increase in time.
+
 ## Part 1
 
-At what time or times is $v_x = 0$ $m/s$? Enter $t_1$, the smallest of the values (if there is more than one).
+At what time is $v_x = 0$ $m/s$? Enter $t_1$, the smallest of the values (if there is more than one).
 
 ### Answer Section
 
@@ -80,7 +83,8 @@ Please enter in a numeric value in {{ params.vars.unit1 }}.
 
 ## Part 2
 
-At what time or times is $v_x = 0$ $m/s$? Enter $t_2$, the next value. If there is none, enter -1000.
+At what time after $t_1$, is $v_x = 0$ $m/s$ again? Enter $t_2$, the next value.
+*Hint: If there is no such time, enter the special value `-1000` and NOT 0!*
 
 ### Answer Section
 
@@ -88,7 +92,7 @@ Please enter in a numeric value in {{ params.vars.unit1 }}.
 
 ## Part 3
 
-What are the particle's accelerations at this/these time(s)? Enter $a_1$, the acceleration corresponding to $t_1$.
+What is the particle's accelerations at the time $t_1$? Enter $a_1$, the acceleration corresponding to $t_1$.
 
 ### Answer Section
 
@@ -96,7 +100,9 @@ Please enter in a numeric value in {{ params.vars.unit2 }}.
 
 ## Part 4
 
-What are the particle's accelerations at this/these time(s)? Enter $a_2$, the acceleration corresponding to $t_2$. If there is none, enter -1000.
+What is the particle's accelerations at the time $t_2$? Enter $a_2$, the acceleration corresponding to $t_2$.
+
+*Hint: If $t_2$ does not exist, enter the special value `-1000` for the acceleration and NOT 0!*
 
 ### Answer Section
 

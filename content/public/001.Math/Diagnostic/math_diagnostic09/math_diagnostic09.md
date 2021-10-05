@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $y$ = $\dfrac{(r)}{(g - 8a)} $
+    expr: $d$ = $\dfrac{(m)}{(p - 9j)} $
     part1:
       ans1:
-        value: g = ${ 8 a + \frac{r}{y}}$
+        value: p = ${ 9 j + \frac{m}{d}}$
       ans2:
-        value: g = ${- \frac{8 a y}{r}}$
+        value: p = ${- \frac{9 d j}{m}}$
       ans3:
-        value: g = ${- \frac{r}{8 a y}}$
+        value: p = ${- \frac{m}{9 d j}}$
       ans4:
-        value: g = ${\frac{8 a + y}{r}}$
+        value: p = ${\frac{d + 9 j}{m}}$
       ans5:
         value: Don't Know
 ---

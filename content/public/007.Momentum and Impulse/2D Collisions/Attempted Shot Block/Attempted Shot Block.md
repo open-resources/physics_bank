@@ -42,8 +42,8 @@ substitutions:
   params:
     vars:
       title: Attempted Shot Block
-    thetad: 26
-    e: 0.76
+    thetad: 44
+    e: 0.84
 ---
 # {{ params.vars.title }}
 <img src="Attempted Shot Block.png" width=400>

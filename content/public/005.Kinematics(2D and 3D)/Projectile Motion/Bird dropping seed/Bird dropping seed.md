@@ -60,7 +60,9 @@ substitutions:
           the bird maintains its horizontal speed.
 ---
 # {{ params.vars.title }}
-A bird gliding at a constant {{ params.v }} $m/s$ drops an apple seed from its beak.  Draw a diagram of this process, showing the time the seed leaves the bird's beak, the time the seed its the ground, and the paths of the bird and seed during this time.
+A bird gliding at a constant {{ params.v }} $m/s$ drops an apple seed from its beak.
+To help with this problem, we suggest drawing a diagram of this process, showing the time the seed leaves the bird's beak, the time the seed its the ground, and the paths of the bird and seed during this time.
+You do not need to submit the diagram as part of this question.
 
 ## Part 1
 

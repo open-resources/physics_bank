@@ -1,62 +1,61 @@
 ---
-title: Velocity of a Falcon
-topic: Kinematics(2D and 3D)
+title: Firing a Ball
+topic: Energy
 author: John Hopkinson
-source: PHYS 112 2020W Midterm 1 Q2
+source: PHYS 112 2014W Midterm 2 Section 002 Q1
 template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
 outcomes:
-- 5.8.1.0
-- 5.8.1.2
-- 5.8.1.1
-- 5.8.1.3
+- 8.5.1.0
+- 8.5.1.1
 difficulty:
-- easy
+- undefined
 randomization:
-- 2
+- undefined
 taxonomy:
 - undefined
 span:
-- section
+- undefined
 length:
-- short
+- undefined
 tags:
 - PW
-assets: null
+assets:
+- ballsfired.png
 part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    hide-letter-keys: true
 substitutions:
   params:
     vars:
-      title: Velocity of a Falcon
-    dir1: South
-    dir2: West
-    v_f: 88.5
-    v_w: 85.7
+      title: Firing a Ball
+    theta: 60
     part1:
       ans1:
-        value: 123.0 $km/h$ 44.1$^\circ$ West of South
+        value: $\frac{2v_1}{\sqrt{3}}$
       ans2:
-        value: 174.0 $km/h$ 44.1$^\circ$ West of South
+        value: $\sqrt{2}v_1$
       ans3:
-        value: 86.2 $km/h$ 49.1$^\circ$ West of South
+        value: $2v_1$
       ans4:
-        value: 86.2 $km/h$ 49.1$^\circ$ West of North
+        value: $\frac{v_1}{2}$
       ans5:
-        value: 174.0 $km/h$ 49.1$^\circ$ West of North
+        value: $v_1$
       ans6:
-        value: 86.2 $km/h$ 44.1$^\circ$ West of North
+        value: $\frac{4v_1}{3}$
 ---
 # {{ params.vars.title }}
-A peregrine falcon flies at {{ params.v_f }} $km/h$ {{ params.dir1 }} (relative to the air) in a {{ params.v_w }} $km/h$ wind to the {{ params.dir2 }} (relative to the ground).
+A ball fired vertically at speed $v_1$ reaches a maximum height $h_1$.
+
+<img src="ballsfired.png" alt="Figure of a ball fired vertically with speed v one and a second ball of the same mass fired at an angle theta above the horizontal with speed v two." width=400>
 
 ## Part 1
 
-The velocity of the peregrine falcon as seen by an observer on the ground is:
+Neglecting air resistance, for a second ball of the same mass fired at $\theta=$ {{ params.theta }}$^{\circ}$ above the horizontal (as shown in the figure) to reach the same maximal height, it must be fired at a speed:
 
 ### Answer Section
 

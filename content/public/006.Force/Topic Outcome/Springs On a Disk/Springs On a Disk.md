@@ -42,10 +42,10 @@ substitutions:
   params:
     vars:
       title: Springs on a Disk
-    w: 194
-    d: 66
-    k: 375
-    m: 0.3
+    w: 181
+    d: 57
+    k: 240
+    m: 0.4
     x: 19
 ---
 # {{ params.vars.title }}

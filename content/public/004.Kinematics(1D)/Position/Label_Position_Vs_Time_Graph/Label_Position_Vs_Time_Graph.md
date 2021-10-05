@@ -28,26 +28,31 @@ part1:
   pl-customizations:
     weight: 1
     blank: 'true'
+    sort: ascend
 part2:
   type: dropdown
   pl-customizations:
     weight: 1
     blank: 'true'
+    sort: ascend
 part3:
   type: dropdown
   pl-customizations:
     weight: 1
     blank: 'true'
+    sort: ascend
 part4:
   type: dropdown
   pl-customizations:
     weight: 1
     blank: 'true'
+    sort: ascend
 part5:
   type: dropdown
   pl-customizations:
     weight: 1
     blank: 'true'
+    sort: ascend
 substitutions:
   params:
     vars:
