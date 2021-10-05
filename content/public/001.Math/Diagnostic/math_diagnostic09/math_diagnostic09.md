@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $x$ = $\dfrac{(g)}{(s + 2c)} $
+    expr: $y$ = $\dfrac{(r)}{(g - 8a)} $
     part1:
       ans1:
-        value: s = ${ - 2 c + \frac{g}{x}}$
+        value: g = ${ 8 a + \frac{r}{y}}$
       ans2:
-        value: s = ${\frac{2 c x}{g}}$
+        value: g = ${- \frac{8 a y}{r}}$
       ans3:
-        value: s = ${\frac{g}{2 c x}}$
+        value: g = ${- \frac{r}{8 a y}}$
       ans4:
-        value: s = ${\frac{- 2 c + x}{g}}$
+        value: g = ${\frac{8 a + y}{r}}$
       ans5:
         value: Don't Know
 ---

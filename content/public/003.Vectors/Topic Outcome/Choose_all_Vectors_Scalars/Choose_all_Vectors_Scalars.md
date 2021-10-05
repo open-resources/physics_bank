@@ -32,20 +32,20 @@ substitutions:
   params:
     vars:
       title: Choose all Vectors and Scalars
-    choice: vectors
+    choice: scalars
     part1:
       ans1:
-        value: Drag
+        value: Distance travelled
       ans2:
-        value: Acceleration
+        value: Density
       ans3:
-        value: Displacement
+        value: Entropy
       ans4:
-        value: The average velocity
+        value: Power
       ans5:
-        value: Length
+        value: The position in 3 dimensions
       ans6:
-        value: Area
+        value: Acceleration
 ---
 # {{ params.vars.title }}
 

@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin192$
+    a: $ \sin327$
     part1:
       ans1:
-        value: $\sin{-168}$
+        value: $\sin{-33}$
       ans2:
-        value: $\sin{168}$
+        value: $\sin{33}$
       ans3:
-        value: $\sin{-12}$
+        value: $\sin{-147}$
       ans4:
-        value: $\sin{12}$
+        value: $\sin{147}$
       ans5:
         value: Don't Know
 ---

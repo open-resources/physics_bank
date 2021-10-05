@@ -57,7 +57,7 @@ substitutions:
       title: Distance travelled
       unit1: $J$
       unit2: $m/s$
-    m_d: 0.055
+    m_d: 0.092
     m_b: 0.044
     v: 20.0
 ---

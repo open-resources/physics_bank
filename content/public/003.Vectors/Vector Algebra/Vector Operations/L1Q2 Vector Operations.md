@@ -68,9 +68,9 @@ substitutions:
   params:
     vars:
       title: Vector Operations
-    v1: 5
-    v2: 10
-    angle: 48
+    v1: 7
+    v2: 7
+    angle: 44
 ---
 # {{ params.vars.title }}
 <img src="L1Q2_drawing.png" width=400>

@@ -38,9 +38,9 @@ substitutions:
     vars:
       title: Parallel-plate potential difference
     d: '7.0'
-    t: '2.3'
-    q: '6.2'
-    p: -10
+    t: '0.7'
+    q: '3.0'
+    p: -9
 ---
 # {{ params.vars.title }}
 Two parallel plates ${{ params.d }}\rm\ cm$ on a side are given equal and opposite charges of magnitude ${{ params.q }}\times 10^{ {{ params.p }} }\rm\ C$.

@@ -31,17 +31,17 @@ substitutions:
     vars:
       title: Minimum Coefficient Of Static Friction
       vehicle: sedan
-    r: 76
-    v: 16
+    r: 99
+    v: 21
     part1:
       ans1:
-        value: 2.9
+        value: 2.2
       ans2:
-        value: 0.34
+        value: 0.45
       ans3:
-        value: 3.4
+        value: 4.5
       ans4:
-        value: 0.021
+        value: 0.022
       ans5:
         value: 0.21
 ---
