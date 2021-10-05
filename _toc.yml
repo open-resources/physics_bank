@@ -598,6 +598,7 @@ parts:
   - file: content/public/021.Circuits/Alternating-Current Circuits/OSUPv2p14_63/OSUPv2p14_63
   - file: content/public/021.Circuits/Inductors/Inductor emf/Inductor emf
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_48/OSUPv2p14_48
+  - file: content/public/021.Circuits/Inductors/OSUPv2p14_46/OSUPv2p14_46
   - file: content/public/021.Circuits/Resistance/OSUPv2p10_02/OSUPv2p10_02
   - file: content/public/021.Circuits/Resistance/Copper Wire Resistance/resistance_copper_wire
   - file: content/public/021.Circuits/Resistance/Ratio Of Diameter/ratio_of_diameter
@@ -630,4 +631,5 @@ parts:
   - file: content/public/021.Circuits/Resistors/Power and Energy Through Resistor/power_and_energy
   - file: content/public/021.Circuits/Resistors/OSUPv2p10_26/OSUPv2p10_26
   - file: content/public/021.Circuits/RC Circuits/OSUPv2p10_16/OSUPv2p10_16
+  - file: content/public/021.Circuits/RC Circuits/OSUPv2p10_53/OSUPv2p10_53
   - file: content/public/021.Circuits/Batteries/OSUPv2p10_25/OSUPv2p10_25
