@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 5
-    b: 1
-    formula: $x^{5} \cos{\left(x \right)}$
+    a: 4
+    b: 2
+    formula: $x^{4} \cos{\left(2 x \right)}$
     part1:
       ans1:
-        value: $- x^{5} \sin{\left(x \right)} + 5 x^{4} \cos{\left(x \right)}$
+        value: $- 2 x^{4} \sin{\left(2 x \right)} + 4 x^{3} \cos{\left(2 x \right)}$
       ans2:
-        value: $- x^{5} \sin{\left(x \right)} $
+        value: $- 2 x^{4} \sin{\left(2 x \right)} $
       ans3:
-        value: $ 5 x^{4} \sin{\left(x \right)}$
+        value: $ 4 x^{3} \sin{\left(2 x \right)}$
       ans4:
-        value: $x^{5} \cos{\left(x \right)} + 5 x^{4} \sin{\left(x \right)}$
+        value: $2 x^{4} \cos{\left(2 x \right)} + 4 x^{3} \sin{\left(2 x \right)}$
       ans5:
         value: Don't Know
 ---

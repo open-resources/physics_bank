@@ -31,7 +31,7 @@ substitutions:
   params:
     vars:
       title: Math Practice 13
-    expr: $\dfrac{z^8 }{z^2} $
+    expr: $\dfrac{z^9 }{z^3} $
     part1:
       ans1:
         value: $z^{6}$
@@ -40,7 +40,7 @@ substitutions:
       ans3:
         value: 6z
       ans4:
-        value: (4)z
+        value: (3)z
       ans5:
         value: Don't Know
 ---

@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $6^{4} $=$ 1296$
+    expr: $7^{8} $=$ 5764801$
     part1:
       ans1:
-        value: $log_61296 = 4$
+        value: $log_75764801 = 8$
       ans2:
-        value: $log_64 = 1296$
+        value: $log_78 = 5764801$
       ans3:
-        value: $log_12964 = 6$
+        value: $log_57648018 = 7$
       ans4:
-        value: $log_41296 = 6$
+        value: $log_85764801 = 7$
       ans5:
         value: Don't Know
 ---

@@ -36,9 +36,9 @@ substitutions:
       vehicle: sedan
       title: Displacement of a Vehicle
       units: blocks
-    c1: 45
-    c2: 48
-    c3: 43
+    c1: 17
+    c2: 97
+    c3: 78
     dir1: east
     dir2: north
     dir3: west

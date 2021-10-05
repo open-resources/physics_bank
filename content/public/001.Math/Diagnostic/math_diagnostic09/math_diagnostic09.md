@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $w$ = $\dfrac{(j)}{(u + 9f)} $
+    expr: $e$ = $\dfrac{(u)}{(l - 6m)} $
     part1:
       ans1:
-        value: u = ${ - 9 f + \frac{j}{w}}$
+        value: l = ${ 6 m + \frac{u}{e}}$
       ans2:
-        value: u = ${\frac{9 f w}{j}}$
+        value: l = ${- \frac{6 e m}{u}}$
       ans3:
-        value: u = ${\frac{j}{9 f w}}$
+        value: l = ${- \frac{u}{6 e m}}$
       ans4:
-        value: u = ${\frac{- 9 f + w}{j}}$
+        value: l = ${\frac{e + 6 m}{u}}$
       ans5:
         value: Don't Know
 ---

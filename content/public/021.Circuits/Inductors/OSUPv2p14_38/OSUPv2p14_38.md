@@ -1,15 +1,14 @@
 ---
-title: Charge to Mass Ratio
-topic: Magnetism
-author: Vanshika Sharma
-source: 2.11.51
+title: Camera Flash
+topic: Circuits
+author: Joseph Wandinger
+source: 2.14.38
 template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
 outcomes:
-- 19.5.1.0
-- 19.3.2.0
+- 21.14.5.0
 difficulty:
 - undefined
 randomization:
@@ -23,35 +22,39 @@ length:
 tags:
 - OSUP
 - volume 2
-- chapter 11
-- problem 51
-- magnetic force
-- hall effect
-- VS
-assets: null
+- chapter 14
+- problem 38
+- circuits
+- inductance
+- capacitance
+- LC circuits
+- numeric
+- JW
 part1:
   type: number-input
   pl-customizations:
-    rtol: 0.05
     weight: 1
     allow-blank: false
-    label: $|Q|/m = $
-    suffix: $\rm\ {C/kg}$
-    custom-format: .2g
+    show-correct-answer: false
+    label: $t =$
+    suffix: $\rm\ s$
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
 substitutions:
   params:
     vars:
-      title: Velocity Selector
-    B: 0.056
-    E: 1.6
-    r: 2.32
+      title: Camera Flash
+    I: '0.450'
+    L: '2.75'
+    V: '550'
 ---
 # {{ params.vars.title }}
+When a camera uses a flash, a fully-charged capacitor discharges through an inductor.
 
 ## Question Text
 
-A charged particle moves through a velocity selector at constant velocity. In the selector, $ E = {{params.E}} \times 10^{4}\textrm{ N/C}$ and $B = {{params.B}}\textrm{ T}$.
-When the electric field is turned off, the charged particle travels in a circular path of radius ${{params.r}}\textrm{ mm}$. Determine the charge-to-mass ratio of the particle.
+In what time must the ${{ params.I }}\rm\ A$ current through a ${{ params.L }}\rm\ mH$ inductor be switched on or off to induce a ${{ params.V }}\rm\ V$ emf?
 
 ### Answer Section
 

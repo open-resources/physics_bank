@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{45x + 36y }{ 9 }$
+    expr: $\dfrac{63x - 27y }{ 9 }$
     part1:
       ans1:
-        value: $5 x + 4 y$
+        value: $7 x - 3 y$
       ans2:
-        value: $\dfrac{5x + 4y}{9}$
+        value: $\dfrac{7x - 3y}{9}$
       ans3:
-        value: $4x + 5y$
+        value: $-3x + 7y$
       ans4:
-        value: $45x + 36y$
+        value: $63x - 27y$
       ans5:
         value: Don't know.
 ---
