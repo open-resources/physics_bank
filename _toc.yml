@@ -574,6 +574,7 @@ parts:
   chapters:
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_25/OSUPv2p8_25
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_19/OSUPv2p8_19
+  - file: content/public/021.Circuits/Capacitors/OSUPv2p10_49/OSUPv2p10_49
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_48/OSUPv2p8_48
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_29/OSUPv2p8_29
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_53/OSUPv2p8_53
