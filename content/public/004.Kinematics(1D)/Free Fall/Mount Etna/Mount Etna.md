@@ -36,7 +36,7 @@ substitutions:
     vars:
       title: Eruption of Mount Etna
       units: $km/h$
-    h: 108.0
+    h: 93.6
 ---
 # {{ params.vars.title }}
 Mount Etna erupted on Dec. 14 2020 sending lava {{ params.h }} $m$ into the air.

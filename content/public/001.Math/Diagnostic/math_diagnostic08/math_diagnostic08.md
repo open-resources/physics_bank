@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{12x + 8y }{ 4 }$
+    expr: $\dfrac{-54x + 54y }{ 9 }$
     part1:
       ans1:
-        value: $3 x + 2 y$
+        value: $- 6 x + 6 y$
       ans2:
-        value: $\dfrac{3x + 2y}{4}$
+        value: $\dfrac{-6x + 6y}{9}$
       ans3:
-        value: $2x + 3y$
+        value: $6x - 6y$
       ans4:
-        value: $12x + 8y$
+        value: $-54x + 54y$
       ans5:
         value: Don't know.
 ---

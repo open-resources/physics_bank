@@ -1,14 +1,14 @@
 ---
-title: Uniformly-charged sphere
-topic: Electrostatics
-author: Jake Bobowksi
-source: 2.7.15
+title: 'RL Series Circuit: Time'
+topic: Circuits
+author: Joseph Wandinger
+source: 2.14.15
 template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
 outcomes:
-- 18.11.2.4
+- 21.14.3.0
 difficulty:
 - undefined
 randomization:
@@ -22,39 +22,47 @@ length:
 tags:
 - OSUP
 - volume 2
-- chapter 7
+- chapter 14
 - problem 15
-- uniformly-charged sphere
-- electric potential
-- drop down
-- JB
-assets: null
+- circuits
+- inductors
+- multiple choice
+- JW
+assets:
+- fig_OSUPv2p14_15.png
 part1:
-  type: dropdown
+  type: multiple-choice
   pl-customizations:
     weight: 1
-    blank: true
 substitutions:
   params:
     vars:
-      title: Uniformly-charged sphere
-    same: different than
+      title: 'RL Series Circuit: Time'
     part1:
       ans1:
-        value: The region of space inside the sphere.
+        value: Immediately when switch $\rm S$ is first thrown.
       ans2:
-        value: The region of space outside the sphere.
+        value: After an infinitely long period of time.
+      ans3:
+        value: After one time constant.
+      ans4:
+        value: After two time constants.
 ---
 # {{ params.vars.title }}
+Consider the $RL$ circuit shown below.
+
+<img src="fig_OSUPv2p14_15.png" width=250>
 
 ## Part 1
 
-In what region of space is the potential due to a uniformly-charged sphere {{params.same}} that of a point charge?
+At what time is the voltage across the inductor at a maximum?
 
 ### Answer Section
 
 - {{ params.part1.ans1.value }}
 - {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

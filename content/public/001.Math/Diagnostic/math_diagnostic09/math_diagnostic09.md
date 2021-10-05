@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $z$ = $\dfrac{(w)}{(q - 5n)} $
+    expr: $w$ = $\dfrac{(a)}{(s - 8f)} $
     part1:
       ans1:
-        value: q = ${ 5 n + \frac{w}{z}}$
+        value: s = ${ \frac{a}{w} + 8 f}$
       ans2:
-        value: q = ${- \frac{5 n z}{w}}$
+        value: s = ${- \frac{8 f w}{a}}$
       ans3:
-        value: q = ${- \frac{w}{5 n z}}$
+        value: s = ${- \frac{a}{8 f w}}$
       ans4:
-        value: q = ${\frac{5 n + z}{w}}$
+        value: s = ${\frac{8 f + w}{a}}$
       ans5:
         value: Don't Know
 ---
