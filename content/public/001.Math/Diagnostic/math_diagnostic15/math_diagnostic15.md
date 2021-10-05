@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $4^{5} $=$ 1024$
+    expr: $9^{3} $=$ 729$
     part1:
       ans1:
-        value: $log_41024 = 5$
+        value: $log_9729 = 3$
       ans2:
-        value: $log_45 = 1024$
+        value: $log_93 = 729$
       ans3:
-        value: $log_10245 = 4$
+        value: $log_7293 = 9$
       ans4:
-        value: $log_51024 = 4$
+        value: $log_3729 = 9$
       ans5:
         value: Don't Know
 ---

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-30x - 20y }{ 5 }$
+    expr: $\dfrac{-12x + 36y }{ 6 }$
     part1:
       ans1:
-        value: $- 6 x - 4 y$
+        value: $- 2 x + 6 y$
       ans2:
-        value: $\dfrac{-6x - 4y}{5}$
+        value: $\dfrac{-2x + 6y}{6}$
       ans3:
-        value: $-4x - 6y$
+        value: $6x - 2y$
       ans4:
-        value: $-30x - 20y$
+        value: $-12x + 36y$
       ans5:
         value: Don't know.
 ---

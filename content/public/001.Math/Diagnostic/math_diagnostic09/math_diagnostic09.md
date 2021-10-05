@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $h$ = $\dfrac{(d)}{(u + 4j)} $
+    expr: $x$ = $\dfrac{(g)}{(s + 2c)} $
     part1:
       ans1:
-        value: u = ${ \frac{d}{h} - 4 j}$
+        value: s = ${ - 2 c + \frac{g}{x}}$
       ans2:
-        value: u = ${\frac{4 h j}{d}}$
+        value: s = ${\frac{2 c x}{g}}$
       ans3:
-        value: u = ${\frac{d}{4 h j}}$
+        value: s = ${\frac{g}{2 c x}}$
       ans4:
-        value: u = ${\frac{h - 4 j}{d}}$
+        value: s = ${\frac{- 2 c + x}{g}}$
       ans5:
         value: Don't Know
 ---
