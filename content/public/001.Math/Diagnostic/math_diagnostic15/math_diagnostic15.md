@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $2^{1} $=$ 2$
+    expr: $8^{3} $=$ 512$
     part1:
       ans1:
-        value: $log_22 = 1$
+        value: $log_8512 = 3$
       ans2:
-        value: $log_21 = 2$
+        value: $log_83 = 512$
       ans3:
-        value: $log_21 = 2$
+        value: $log_5123 = 8$
       ans4:
-        value: $log_12 = 2$
+        value: $log_3512 = 8$
       ans5:
         value: Don't Know
 ---

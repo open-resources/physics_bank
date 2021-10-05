@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{72x + 40y }{ 8 }$
+    expr: $\dfrac{-18x - 8y }{ 2 }$
     part1:
       ans1:
-        value: $9 x + 5 y$
+        value: $- 9 x - 4 y$
       ans2:
-        value: $\dfrac{9x + 5y}{8}$
+        value: $\dfrac{-9x - 4y}{2}$
       ans3:
-        value: $5x + 9y$
+        value: $-4x - 9y$
       ans4:
-        value: $72x + 40y$
+        value: $-18x - 8y$
       ans5:
         value: Don't know.
 ---

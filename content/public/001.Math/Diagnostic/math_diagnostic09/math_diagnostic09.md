@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $w$ = $\dfrac{(l)}{(s + 8g)} $
+    expr: $z$ = $\dfrac{(b)}{(d + 3a)} $
     part1:
       ans1:
-        value: s = ${ - 8 g + \frac{l}{w}}$
+        value: d = ${ - 3 a + \frac{b}{z}}$
       ans2:
-        value: s = ${\frac{8 g w}{l}}$
+        value: d = ${\frac{3 a z}{b}}$
       ans3:
-        value: s = ${\frac{l}{8 g w}}$
+        value: d = ${\frac{b}{3 a z}}$
       ans4:
-        value: s = ${\frac{- 8 g + w}{l}}$
+        value: d = ${\frac{- 3 a + z}{b}}$
       ans5:
         value: Don't Know
 ---

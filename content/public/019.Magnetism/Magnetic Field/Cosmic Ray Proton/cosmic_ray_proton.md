@@ -39,9 +39,9 @@ substitutions:
   params:
     vars:
       title: Cosmic Ray Proton
-    v: 3.57
-    F: 3.9
-    theta: 49
+    v: 4.4
+    F: 3.78
+    theta: 12
 ---
 # {{ params.vars.title }}
 

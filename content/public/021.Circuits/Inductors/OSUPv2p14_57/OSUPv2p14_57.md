@@ -1,14 +1,15 @@
 ---
-title: Automobile Battery Properties
+title: 'Switched RL Series Circuit: Time Constant'
 topic: Circuits
 author: Joseph Wandinger
-source: 2.10.25
+source: 2.14.57
 template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
 outcomes:
-- 21.6.1.1
+- 21.14.3.0
+- 21.14.3.1
 difficulty:
 - undefined
 randomization:
@@ -22,61 +23,70 @@ length:
 tags:
 - OSUP
 - volume 2
-- chapter 10
-- problem 25
+- chapter 14
+- problem 57
 - circuits
-- resistors
-- battery
+- inductance
+- RL circuits
+- multi-part
 - JW
-assets: null
+assets:
+- fig_OSUPv2p14_57.png
 part1:
   type: number-input
   pl-customizations:
-    rtol: 0.05
-    label: $R=$
+    label: $\tau_L = $
     allow-blank: false
-    show-correct-answer: true
+    show-correct-answer: false
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
     show-help-text: true
-    suffix: $\rm\ \Omega$
-    custom-format: .3g
+    suffix: $\rm\ s$
     weight: 1
+    custom-format: .3g
 part2:
   type: number-input
   pl-customizations:
-    rtol: 0.05
-    label: $P=$
+    label: $R = $
     allow-blank: false
-    show-correct-answer: true
+    show-correct-answer: false
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
     show-help-text: true
-    suffix: $\rm\ W$
-    custom-format: .3g
+    suffix: $\rm\ \Omega$
     weight: 1
+    custom-format: .3g
 substitutions:
   params:
     vars:
-      title: Automobile Battery Properties
-    V: '11.0'
-    V_t: '14.0'
-    I: '11.25'
+      title: 'Switched RL Series Circuit: Time Constant'
+    t: '2.40'
+    L: '260.0'
 ---
 # {{ params.vars.title }}
-A ${{ params.V }}\rm\ V$ emf automobile battery has a terminal voltage of ${{ params.V_t }}\rm\ V$ when being charged by a current of ${{ params.I }}\rm\ A$.
+Consider the $RL$ circuit shown below.
+
+<img src="fig_OSUPv2p14_57.png" width=250>
+
+The current in the circuit reaches half of its maximum value in ${{ params.t }}\rm\ ms$ after switch $\rm S$ is thrown.
 
 ## Part 1
 
-What is the battery's internal resistance?
+Determine the time constant $\tau_L$ of the circuit.
 
 ### Answer Section
 
-Please enter a numeric value.
+Please enter in a numeric value in $\rm\ s$.
 
 ## Part 2
 
-What power is dissipated inside the battery?
+Given $L = {{ params.L }}\rm\ mH$, determine the resistance $R$ of the circuit.
 
 ### Answer Section
 
-Please enter a numeric value.
+Please enter in a numeric value in $\rm\ \Omega$.
 
 ## Attribution
 

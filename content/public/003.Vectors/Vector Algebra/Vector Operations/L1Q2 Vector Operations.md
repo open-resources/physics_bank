@@ -69,7 +69,7 @@ substitutions:
     vars:
       title: Vector Operations
     v1: 3
-    v2: 10
+    v2: 5
     angle: 40
 ---
 # {{ params.vars.title }}
