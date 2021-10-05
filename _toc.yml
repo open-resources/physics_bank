@@ -599,6 +599,7 @@ parts:
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_57/OSUPv2p14_57
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_15/OSUPv2p14_15
   - file: content/public/021.Circuits/Inductors/Inductor emf/Inductor emf
+  - file: content/public/021.Circuits/Inductors/OSUPv2p14_55/OSUPv2p14_55
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_48/OSUPv2p14_48
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_46/OSUPv2p14_46
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_43/OSUPv2p14_43
@@ -629,6 +630,7 @@ parts:
   - file: content/public/021.Circuits/Electrical Power/Maximum Voltage/maximum_voltage
   - file: content/public/021.Circuits/Electrical Power/Power Transmission To Dorm/power_transmission_to_dorm
   - file: content/public/021.Circuits/Electrical Power/Immersion Heater/immersion_heater
+  - file: content/public/021.Circuits/Electrical Power/OSUPv2p10_36/OSUPv2p10_36
   - file: content/public/021.Circuits/Resistors/OSUPv2p10_22/OSUPv2p10_22
   - file: content/public/021.Circuits/Resistors/OSUPv2p10_27/OSUPv2p10_27
   - file: content/public/021.Circuits/Resistors/Power and Energy Through Resistor/power_and_energy
