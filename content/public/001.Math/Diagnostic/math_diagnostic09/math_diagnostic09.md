@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $w$ = $\dfrac{(t)}{(f + 2b)} $
+    expr: $z$ = $\dfrac{(w)}{(q - 5n)} $
     part1:
       ans1:
-        value: f = ${ - 2 b + \frac{t}{w}}$
+        value: q = ${ 5 n + \frac{w}{z}}$
       ans2:
-        value: f = ${\frac{2 b w}{t}}$
+        value: q = ${- \frac{5 n z}{w}}$
       ans3:
-        value: f = ${\frac{t}{2 b w}}$
+        value: q = ${- \frac{w}{5 n z}}$
       ans4:
-        value: f = ${\frac{- 2 b + w}{t}}$
+        value: q = ${\frac{5 n + z}{w}}$
       ans5:
         value: Don't Know
 ---

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{15x + 30y }{ -5 }$
+    expr: $\dfrac{12x + 8y }{ 4 }$
     part1:
       ans1:
-        value: $- 3 x - 6 y$
+        value: $3 x + 2 y$
       ans2:
-        value: $\dfrac{-3x - 6y}{-5}$
+        value: $\dfrac{3x + 2y}{4}$
       ans3:
-        value: $-6x - 3y$
+        value: $2x + 3y$
       ans4:
-        value: $15x - 30y$
+        value: $12x + 8y$
       ans5:
         value: Don't know.
 ---

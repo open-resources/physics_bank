@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice Q25
-    expr: $\dfrac{ 4-e^{(-2x)}}{10-x}$
+    expr: $\dfrac{ 3-e^{(-3x)}}{5-x}$
     part1:
       ans1:
-        value: 3/10
+        value: 2/5
       ans2:
         value: Negative Infinity
       ans3:
-        value: 0.4
+        value: 0.6
       ans4:
-        value: 4
+        value: 3
       ans5:
         value: Don't Know
 ---
