@@ -1,14 +1,15 @@
 ---
-title: Automobile Battery Properties
+title: Automobile Intermittent Wiper System
 topic: Circuits
 author: Joseph Wandinger
-source: 2.10.25
+source: 2.10.49
 template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
 outcomes:
-- 21.6.1.1
+- 21.13.1.0
+- 21.13.2.0
 difficulty:
 - undefined
 randomization:
@@ -23,60 +24,64 @@ tags:
 - OSUP
 - volume 2
 - chapter 10
-- problem 25
+- problem 49
 - circuits
-- resistors
-- battery
+- Capacitors
+- multi-part
 - JW
-assets: null
 part1:
   type: number-input
   pl-customizations:
-    rtol: 0.05
-    label: $R=$
+    label: $R = $
     allow-blank: false
-    show-correct-answer: true
+    show-correct-answer: false
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
     show-help-text: true
     suffix: $\rm\ \Omega$
-    custom-format: .3g
     weight: 1
+    custom-format: .3g
 part2:
   type: number-input
   pl-customizations:
-    rtol: 0.05
-    label: $P=$
+    label: $R = $
     allow-blank: false
-    show-correct-answer: true
+    show-correct-answer: false
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
     show-help-text: true
-    suffix: $\rm\ W$
-    custom-format: .3g
+    suffix: $\rm\ \Omega$
     weight: 1
+    custom-format: .3g
 substitutions:
   params:
     vars:
-      title: Automobile Battery Properties
-    V: '11.0'
-    V_t: '14.0'
-    I: '11.50'
+      title: Automobile Intermittent Wiper System
+    C: '0.700'
+    t1: '2.50'
+    t2: '15.5'
 ---
 # {{ params.vars.title }}
-A ${{ params.V }}\rm\ V$ emf automobile battery has a terminal voltage of ${{ params.V_t }}\rm\ V$ when being charged by a current of ${{ params.I }}\rm\ A$.
+The timing device in an automobile's intermittent wiper system is based on an $RC$ time constant and utilizes a ${{ params.C }}\rm\ \mu F$ capacitor and a variable resistor.
+Over what range must $R$ be made to vary to achieve time constants from ${{ params.t1 }}\rm\ s$ to ${{ params.t2 }}\rm\ s$?
 
 ## Part 1
 
-What is the battery's internal resistance?
+What must be the value of $R$ for the time constant to be ${{ params.t1 }}\rm\ s$?
 
 ### Answer Section
 
-Please enter a numeric value.
+Please enter in a numeric value in $\rm\ \Omega$.
 
 ## Part 2
 
-What power is dissipated inside the battery?
+What must be the value of $R$ for the time constant to be ${{ params.t2 }}\rm\ s$?
 
 ### Answer Section
 
-Please enter a numeric value.
+Please enter in a numeric value in $\rm\ \Omega$.
 
 ## Attribution
 

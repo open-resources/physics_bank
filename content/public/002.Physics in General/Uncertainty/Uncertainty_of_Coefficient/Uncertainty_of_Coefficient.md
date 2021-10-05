@@ -32,14 +32,14 @@ substitutions:
   params:
     vars:
       title: Uncertainty of Coefficient
-      name: Aliyah
+      name: Ximena
       units: $kg/s$
-    m: 147
-    v: 1.9
-    b: 0.41
+    m: 102
+    v: 1.7
+    b: 0.36
     part1:
       ans1:
-        value: ' $\pm$ 0.12'
+        value: ' $\pm$ 0.14'
       ans2:
         value: ' $\pm$ 0.05'
       ans3:

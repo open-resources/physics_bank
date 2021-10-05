@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $b$ = $\dfrac{(z)}{(j - 9w)} $
+    expr: $w$ = $\dfrac{(t)}{(f + 2b)} $
     part1:
       ans1:
-        value: j = ${ 9 w + \frac{z}{b}}$
+        value: f = ${ - 2 b + \frac{t}{w}}$
       ans2:
-        value: j = ${- \frac{9 b w}{z}}$
+        value: f = ${\frac{2 b w}{t}}$
       ans3:
-        value: j = ${- \frac{z}{9 b w}}$
+        value: f = ${\frac{t}{2 b w}}$
       ans4:
-        value: j = ${\frac{b + 9 w}{z}}$
+        value: f = ${\frac{- 2 b + w}{t}}$
       ans5:
         value: Don't Know
 ---
