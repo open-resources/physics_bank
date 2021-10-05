@@ -1,14 +1,14 @@
 ---
-title: Charged particle near the Earth
-topic: Electrostatics
-author: Jake Bobowski
-source: 2.7.69
+title: Potential Difference across Inductors
+topic: Circuits
+author: Joseph Wandinger
+source: 2.14.36
 template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
 outcomes:
-- 18.6.1.3
+- 21.14.3.0
 difficulty:
 - undefined
 randomization:
@@ -22,53 +22,64 @@ length:
 tags:
 - OSUP
 - volume 2
-- chapter 7
-- problem 69
-- charge
-- gravity
-- numeric
-- JB
-assets: null
+- chapter 14
+- problem 36
+- circuits
+- inductors
+- dropdown
+- multi-part
+- JW
+assets:
+- fig_OSUPv2p14_36.png
 part1:
-  type: number-input
+  type: dropdown
   pl-customizations:
-    rtol: 0.05
-    label: $E=$
-    allow-blank: false
-    show-correct-answer: true
-    show-help-text: true
-    suffix: $\rm\ N/C$
     weight: 1
-    custom-format: .3g
+    blank: 'true'
+    sort: fixed
 part2:
   type: dropdown
   pl-customizations:
-    blank: true
     weight: 1
+    blank: 'true'
+    sort: fixed
 substitutions:
   params:
     vars:
-      title: Charged particle near the Earth
-    charge: proton
+      title: Potential Difference across Inductors
+    part1:
+      ans1:
+        value: Right-hand side
+      ans2:
+        value: Left-hand side
     part2:
       ans1:
-        value: Away from the surface of the Earth.
+        value: Right-hand side
       ans2:
-        value: Towards the surface of the Earth.
+        value: Left-hand side
+    change1: increasing
+    change2: also increasing
+    find: lower
 ---
 # {{ params.vars.title }}
+The current shown below in figure (a) is {{ params.change1 }}, while that shown in part (b) is {{ params.change2 }}.
+
+<img src="fig_OSUPv2p14_36.png" width=400>
+
+In each case, determine which end of the inductor is at the {{ params.find }} potential.
 
 ## Part 1
 
-What is the magnitude of the electric field that supports the weight of a free {{ params.charge }} near the surface of the Earth?
+Figure (a):
 
 ### Answer Section
 
-Please enter a numeric value.
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Part 2
 
-What is the direction of the electric field?
+Figure (b):
 
 ### Answer Section
 

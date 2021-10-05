@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $e$ = $\dfrac{(u)}{(l - 6m)} $
+    expr: $h$ = $\dfrac{(d)}{(u + 4j)} $
     part1:
       ans1:
-        value: l = ${ 6 m + \frac{u}{e}}$
+        value: u = ${ \frac{d}{h} - 4 j}$
       ans2:
-        value: l = ${- \frac{6 e m}{u}}$
+        value: u = ${\frac{4 h j}{d}}$
       ans3:
-        value: l = ${- \frac{u}{6 e m}}$
+        value: u = ${\frac{d}{4 h j}}$
       ans4:
-        value: l = ${\frac{e + 6 m}{u}}$
+        value: u = ${\frac{h - 4 j}{d}}$
       ans5:
         value: Don't Know
 ---

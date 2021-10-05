@@ -35,15 +35,15 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Entropy
+        value: Speed
       ans2:
-        value: Mass
+        value: Power
       ans3:
-        value: The position in a 1 dimensional system
+        value: Distance travelled
       ans4:
-        value: Weight
-      ans5:
         value: velocity
+      ans5:
+        value: Weight
       ans6:
         value: Force
 ---

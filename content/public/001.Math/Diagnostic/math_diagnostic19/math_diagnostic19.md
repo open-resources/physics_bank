@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin301$
+    a: $ \sin355$
     part1:
       ans1:
-        value: $\sin{-59}$
+        value: $\sin{-5}$
       ans2:
-        value: $\sin{59}$
+        value: $\sin{5}$
       ans3:
-        value: $\sin{-121}$
+        value: $\sin{-175}$
       ans4:
-        value: $\sin{121}$
+        value: $\sin{175}$
       ans5:
         value: Don't Know
 ---

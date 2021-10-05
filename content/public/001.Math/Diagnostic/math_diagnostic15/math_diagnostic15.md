@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $7^{8} $=$ 5764801$
+    expr: $4^{5} $=$ 1024$
     part1:
       ans1:
-        value: $log_75764801 = 8$
+        value: $log_41024 = 5$
       ans2:
-        value: $log_78 = 5764801$
+        value: $log_45 = 1024$
       ans3:
-        value: $log_57648018 = 7$
+        value: $log_10245 = 4$
       ans4:
-        value: $log_85764801 = 7$
+        value: $log_51024 = 4$
       ans5:
         value: Don't Know
 ---
