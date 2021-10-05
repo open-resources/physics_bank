@@ -34,19 +34,19 @@ substitutions:
       sport: skier
       title: Horizontal Jump
       units: m
-    v: 24
-    d: 3.48
+    v: 20
+    d: 3.56
     part1:
       ans1:
         value: 9.81
       ans2:
-        value: 14.29
+        value: 12.05
       ans3:
-        value: 17.03
+        value: 14.52
       ans4:
-        value: 20.22
+        value: 17.04
       ans5:
-        value: 25.54
+        value: 21.77
 ---
 # {{ params.vars.title }}
 

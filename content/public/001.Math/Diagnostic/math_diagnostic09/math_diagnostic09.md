@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $c$ = $\dfrac{(b)}{(y - 7f)} $
+    expr: $w$ = $\dfrac{(j)}{(u + 9f)} $
     part1:
       ans1:
-        value: y = ${ \frac{b}{c} + 7 f}$
+        value: u = ${ - 9 f + \frac{j}{w}}$
       ans2:
-        value: y = ${- \frac{7 c f}{b}}$
+        value: u = ${\frac{9 f w}{j}}$
       ans3:
-        value: y = ${- \frac{b}{7 c f}}$
+        value: u = ${\frac{j}{9 f w}}$
       ans4:
-        value: y = ${\frac{c + 7 f}{b}}$
+        value: u = ${\frac{- 9 f + w}{j}}$
       ans5:
         value: Don't Know
 ---

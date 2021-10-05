@@ -47,13 +47,13 @@ part3:
 substitutions:
   params:
     vars:
-      person1: grandfather
-      person2: grandmother
+      person1: grandmother
+      person2: sister
       title: Bouncing a Baby to Sleep
       units: $N/m$
-    m1: 53.4
-    m2: 68.1
-    m_b: 8.34
+    m1: 80.8
+    m2: 96.7
+    m_b: 7.09
     f: 1.11
     part3:
       ans1:

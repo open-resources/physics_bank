@@ -1,14 +1,14 @@
 ---
-title: Circuit with Multiple Loops
+title: Frequency and Voltage of an LC Circuit
 topic: Circuits
 author: Joseph Wandinger
-source: 2.10.38
+source: 2.14.66
 template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
 outcomes:
-- 21.12.1.0
+- 21.14.4.0
 difficulty:
 - undefined
 randomization:
@@ -22,31 +22,30 @@ length:
 tags:
 - OSUP
 - volume 2
-- chapter 10
-- problem 38
+- chapter 14
+- problem 66
 - circuits
-- Kirchhoff's rules
+- voltage
+- RL circuits
 - multi-part
 - JW
-assets:
-- fig_OSUPv2p10_38.png
 part1:
   type: number-input
   pl-customizations:
-    label: $V_1 = $
+    label: $f = $
     allow-blank: false
     show-correct-answer: false
     comparison: relabs
     rtol: 0.03
     atol: 0
     show-help-text: true
-    suffix: $\rm\ V$
+    suffix: $\rm\ Hz$
     weight: 1
-    custom-format: .2g
+    custom-format: .3g
 part2:
   type: number-input
   pl-customizations:
-    label: $I_2 = $
+    label: $I_{\rm max} = $
     allow-blank: false
     show-correct-answer: false
     comparison: relabs
@@ -55,56 +54,29 @@ part2:
     show-help-text: true
     suffix: $\rm\ A$
     weight: 1
-    custom-format: .2g
-part3:
-  type: number-input
-  pl-customizations:
-    label: $I_3 = $
-    allow-blank: false
-    show-correct-answer: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
-    show-help-text: true
-    suffix: $\rm\ A$
-    weight: 1
-    custom-format: .2g
+    custom-format: .3g
 substitutions:
   params:
     vars:
-      title: Circuit with Multiple Loops
-    R1: '13.0'
-    R2: '8.0'
-    R3: '5.0'
-    I1: '3.0'
-    V2: '25.0'
+      title: Frequency and Voltage of an LC Circuit
+    L: '20.0'
+    C: '3.0'
+    V: '41.0'
 ---
 # {{ params.vars.title }}
-Consider the circuit shown below.
-
-<img src="fig_OSUPv2p10_38.png" width=350>
-
-It is known that $R_1 = {{ params.R1 }}\rm\ \Omega$, $R_2 = {{ params.R2 }}\rm\ \Omega$, $R_3 = {{ params.R3 }}\rm\ \Omega$, $I_1 = {{ params.I1 }}\rm\ A$, and $V_2 = {{ params.V2 }}\rm\ V$.
+The self-inductance and capacitance of an oscillating $LC$ circuit are $L = {{ params.L }}\rm\ mH$ and $C = {{ params.C }}\rm\ \mu F$, respectively.
 
 ## Part 1
 
-Find $V_1$.
+What is the frequency of the oscillations?
 
 ### Answer Section
 
-Please enter in a numeric value in $\rm\ V$.
+Please enter in a numeric value in $\rm\ Hz$.
 
 ## Part 2
 
-Find $I_2$.
-
-### Answer Section
-
-Please enter in a numeric value in $\rm\ A$.
-
-## Part 3
-
-Find $I_3$.
+If the maximum potential difference between the plates of the capacitor is ${{ params.V }}\rm\ V$, what is the maximum current in the circuit?
 
 ### Answer Section
 

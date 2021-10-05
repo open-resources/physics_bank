@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-6x + 12y }{ -2 }$
+    expr: $\dfrac{45x + 36y }{ 9 }$
     part1:
       ans1:
-        value: $3 x - 6 y$
+        value: $5 x + 4 y$
       ans2:
-        value: $\dfrac{3x - 6y}{-2}$
+        value: $\dfrac{5x + 4y}{9}$
       ans3:
-        value: $-6x + 3y$
+        value: $4x + 5y$
       ans4:
-        value: $-6x - 12y$
+        value: $45x + 36y$
       ans5:
         value: Don't know.
 ---

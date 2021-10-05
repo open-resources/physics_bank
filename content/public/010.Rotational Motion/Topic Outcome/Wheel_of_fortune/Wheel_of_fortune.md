@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       units: rad/s
-      name: Aliyah
+      name: Ahmed
       title: Wheel of Fortune
     w_i: ${\pi \over 4} {rad\over s}$
-    t: 6
+    t: 5
     part1:
       ans1:
-        value: 1.24
+        value: 1.49
       ans2:
-        value: 1.11
+        value: 1.22
       ans3:
-        value: 2.23
+        value: 2.44
       ans4:
         value: $\pi$/4
 ---
