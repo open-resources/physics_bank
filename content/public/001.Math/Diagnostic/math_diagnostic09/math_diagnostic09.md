@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $z$ = $\dfrac{(b)}{(d + 3a)} $
+    expr: $e$ = $\dfrac{(l)}{(r - 6j)} $
     part1:
       ans1:
-        value: d = ${ - 3 a + \frac{b}{z}}$
+        value: r = ${ 6 j + \frac{l}{e}}$
       ans2:
-        value: d = ${\frac{3 a z}{b}}$
+        value: r = ${- \frac{6 e j}{l}}$
       ans3:
-        value: d = ${\frac{b}{3 a z}}$
+        value: r = ${- \frac{l}{6 e j}}$
       ans4:
-        value: d = ${\frac{- 3 a + z}{b}}$
+        value: r = ${\frac{e + 6 j}{l}}$
       ans5:
         value: Don't Know
 ---

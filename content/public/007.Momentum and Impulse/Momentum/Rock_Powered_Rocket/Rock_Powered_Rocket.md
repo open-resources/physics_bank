@@ -48,11 +48,11 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-      name: Ahmed
-    i: 358
-    m: 25
-    v_1: 26
-    v_2: 25
+      name: Ximena
+    i: 350
+    m: 27
+    v_1: 17
+    v_2: 6
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.

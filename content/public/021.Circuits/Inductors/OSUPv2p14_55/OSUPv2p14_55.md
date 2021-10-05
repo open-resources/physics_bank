@@ -1,14 +1,15 @@
 ---
-title: Field due to lightning
-topic: Magnetism
-author: Jake Bobowksi
-source: 2.12.22
+title: Current over Time in a Series RL Circuit
+topic: Circuits
+author: Joseph Wandinger
+source: 2.14.55
 template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
 outcomes:
-- 18.11.2.3
+- 21.14.3.0
+- 21.14.3.1
 difficulty:
 - undefined
 randomization:
@@ -22,36 +23,41 @@ length:
 tags:
 - OSUP
 - volume 2
-- chapter 12
-- problem 22
-- Ampere's law
-- line of current
-- magnetic field
+- chapter 14
+- problem 55
+- circuits
+- inductance
+- RL circuits
 - numeric
-- JB
-assets: null
+- JW
+assets:
+- fig_OSUPv2p14_55.png
 part1:
   type: number-input
   pl-customizations:
-    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
-    label: $B= $
-    suffix: $\rm\ T$
+    label: $t =$
+    suffix: $\tau_L$
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
 substitutions:
   params:
     vars:
-      title: Field due to lightning
-    d: '1.3'
-    p: $10^4$
+      title: Current over Time in a Series RL Circuit
+    fac: '4'
 ---
 # {{ params.vars.title }}
-A typical current in a lightning bolt is {{ params.p }} $\rm\ A$.
+Consider the $RL$ circuit shown below.
+
+<img src="fig_OSUPv2p14_55.png" width=250>
 
 ## Question Text
 
-Estimate the magnetic field a perpendicular distance of {{ params.d }}$\rm\ m$ from the bolt.
+How long after switch $\rm S$ is thrown does it take the current in the circuit to reach $1/{{ params.fac }}$ of its maximum value?
+Express your answer in terms of the time constant $\tau_L$ of the circuit.
 
 ### Answer Section
 

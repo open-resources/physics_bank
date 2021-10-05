@@ -43,10 +43,10 @@ substitutions:
   params:
     vars:
       title: Current Through Loop
-    N: 33
-    t: 8
-    s: 5
-    B: 0.843
+    N: 85
+    t: 14
+    s: 11
+    B: 0.475
 ---
 # {{ params.vars.title }}
 

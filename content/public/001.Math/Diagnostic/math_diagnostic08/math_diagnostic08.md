@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-18x - 8y }{ 2 }$
+    expr: $\dfrac{18x - 54y }{ 6 }$
     part1:
       ans1:
-        value: $- 9 x - 4 y$
+        value: $3 x - 9 y$
       ans2:
-        value: $\dfrac{-9x - 4y}{2}$
+        value: $\dfrac{3x - 9y}{6}$
       ans3:
-        value: $-4x - 9y$
+        value: $-9x + 3y$
       ans4:
-        value: $-18x - 8y$
+        value: $18x - 54y$
       ans5:
         value: Don't know.
 ---

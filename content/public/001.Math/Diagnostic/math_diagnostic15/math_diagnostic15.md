@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $8^{3} $=$ 512$
+    expr: $9^{8} $=$ 43046721$
     part1:
       ans1:
-        value: $log_8512 = 3$
+        value: $log_943046721 = 8$
       ans2:
-        value: $log_83 = 512$
+        value: $log_98 = 43046721$
       ans3:
-        value: $log_5123 = 8$
+        value: $log_430467218 = 9$
       ans4:
-        value: $log_3512 = 8$
+        value: $log_843046721 = 9$
       ans5:
         value: Don't Know
 ---
