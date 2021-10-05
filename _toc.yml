@@ -340,6 +340,8 @@ parts:
   - file: content/public/008.Energy/Conservation of Energy/Compressed_Spring_To_Launch_Mass/Compressed_Spring_To_Launch_Mass
   - file: content/public/008.Energy/Conservation of Energy/Package on a hill/Package
       on a Hill
+  - file: content/public/008.Energy/Conservation of Energy/Firing a ball/Firing a
+      ball
   - file: content/public/008.Energy/Conservation of Energy/Spring Potential Energy
       Rail 2/Spring Potential Energy Rail 2
   - file: content/public/008.Energy/Conservation of Energy/Spring Potential Energy
