@@ -42,13 +42,12 @@ part3:
   pl-customizations:
     rtol: 0.05
     weight: 1
-    hide-answer-panel: true
     allow-blank: true
     label: $?= $
 substitutions:
   params:
     vars:
-      name: Emilia
+      name: Lorenzo
       title: Smudge
 ---
 # {{ params.vars.title }}

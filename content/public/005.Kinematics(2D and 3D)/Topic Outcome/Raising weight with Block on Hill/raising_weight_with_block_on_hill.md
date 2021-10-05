@@ -47,7 +47,7 @@ substitutions:
       units_v: m/s
       units_a: m/s^2
     v_b: 2.4
-    a_b: 2.7
+    a_b: 0.7
 ---
 # {{ params.vars.title }}
 <img src="L13Q3.png" width=85%>

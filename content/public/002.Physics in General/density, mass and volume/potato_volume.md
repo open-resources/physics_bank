@@ -48,17 +48,17 @@ part3:
 substitutions:
   params:
     vars:
-      name: Maya
+      name: Santiago
       title: Potato Volume
       mass_units: kg
       volume_units: m^3
-      mass_potato: 220
-      mass_cube: 27
-      cube_side_length: 1.4049990989457806
+      mass_potato: 248
+      mass_cube: 69
+      cube_side_length: 1.2524665116736076
 ---
 # {{ params.vars.title }}
 For our first lab, {{params.vars.name}} decides to measure the density of a potato.
-They notice that it's an unsual shape and floats, so it's hard to calculate it's volume.
+They notice that it is an unsual shape and floats, so it is hard to calculate its volume.
 The potato's mass is measured to be {{params.vars.mass_potato}} g.
 They then cut the potato into a cube and measure that sides of the cube have length {{params.vars.cube_side_length}} inches and it's mass is {{params.vars.mass_cube}} g.
 For a uniform density potato, the mass and volume are proportional. (Useful conversions: 1 inch = 2.54cm, 1cm = $10^{-2}$m, 1g = $10^{-3}$kg)

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $e$ = $\dfrac{(l)}{(r - 6j)} $
+    expr: $h$ = $\dfrac{(q)}{(n + 9a)} $
     part1:
       ans1:
-        value: r = ${ 6 j + \frac{l}{e}}$
+        value: n = ${ - 9 a + \frac{q}{h}}$
       ans2:
-        value: r = ${- \frac{6 e j}{l}}$
+        value: n = ${\frac{9 a h}{q}}$
       ans3:
-        value: r = ${- \frac{l}{6 e j}}$
+        value: n = ${\frac{q}{9 a h}}$
       ans4:
-        value: r = ${\frac{e + 6 j}{l}}$
+        value: n = ${\frac{- 9 a + h}{q}}$
       ans5:
         value: Don't Know
 ---

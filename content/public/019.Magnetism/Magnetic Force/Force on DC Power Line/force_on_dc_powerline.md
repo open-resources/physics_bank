@@ -38,9 +38,9 @@ substitutions:
   params:
     vars:
       title: Force on a DC Power Line
-    I: 836
-    theta: 29
-    L: 98
+    I: 921
+    theta: 59
+    L: 167
 ---
 # {{ params.vars.title }}
 

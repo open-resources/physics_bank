@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $9^{8} $=$ 43046721$
+    expr: $2^{1} $=$ 2$
     part1:
       ans1:
-        value: $log_943046721 = 8$
+        value: $log_22 = 1$
       ans2:
-        value: $log_98 = 43046721$
+        value: $log_21 = 2$
       ans3:
-        value: $log_430467218 = 9$
+        value: $log_21 = 2$
       ans4:
-        value: $log_843046721 = 9$
+        value: $log_12 = 2$
       ans5:
         value: Don't Know
 ---
