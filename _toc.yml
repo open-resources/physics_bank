@@ -612,6 +612,7 @@ parts:
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_48/OSUPv2p14_48
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_46/OSUPv2p14_46
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_12/OSUPv2p14_12
+  - file: content/public/021.Circuits/Inductors/OSUPv2p14_52/OSUPv2p14_52
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_43/OSUPv2p14_43
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_36/OSUPv2p14_36
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_17/OSUPv2p14_17
