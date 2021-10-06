@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $c$ = $\dfrac{(q)}{(m - 6n)} $
+    expr: $y$ = $\dfrac{(u)}{(i - 2z)} $
     part1:
       ans1:
-        value: m = ${ 6 n + \frac{q}{c}}$
+        value: i = ${ \frac{u}{y} + 2 z}$
       ans2:
-        value: m = ${- \frac{6 c n}{q}}$
+        value: i = ${- \frac{2 y z}{u}}$
       ans3:
-        value: m = ${- \frac{q}{6 c n}}$
+        value: i = ${- \frac{u}{2 y z}}$
       ans4:
-        value: m = ${\frac{c + 6 n}{q}}$
+        value: i = ${\frac{y + 2 z}{u}}$
       ans5:
         value: Don't Know
 ---

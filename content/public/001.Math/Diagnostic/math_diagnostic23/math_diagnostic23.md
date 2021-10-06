@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 1
-    b: 7
-    formula: $x \sin{\left(7 x \right)}$
+    a: 7
+    b: 6
+    formula: $x^{7} \cos{\left(6 x \right)}$
     part1:
       ans1:
-        value: $7 x \cos{\left(7 x \right)} + \sin{\left(7 x \right)}$
+        value: $- 6 x^{7} \sin{\left(6 x \right)} + 7 x^{6} \cos{\left(6 x \right)}$
       ans2:
-        value: $7 x \cos{\left(7 x \right)} $
+        value: $- 6 x^{7} \sin{\left(6 x \right)} $
       ans3:
-        value: $ \cos{\left(7 x \right)}$
+        value: $ 7 x^{6} \sin{\left(6 x \right)}$
       ans4:
-        value: $- 7 x \sin{\left(7 x \right)} + \cos{\left(7 x \right)}$
+        value: $6 x^{7} \cos{\left(6 x \right)} + 7 x^{6} \sin{\left(6 x \right)}$
       ans5:
         value: Don't Know
 ---

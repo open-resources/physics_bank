@@ -1,14 +1,15 @@
 ---
-title: Field due to current segment
-topic: Magnetism
-author: Jake Bobowksi
-source: 2.12.16
+title: Capacitor in a Heart Pacemaker
+topic: Circuits
+author: Joseph Wandinger
+source: 2.10.50
 template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
 outcomes:
-- 18.11.2.3
+- 21.13.1.0
+- 21.13.2.0
 difficulty:
 - undefined
 randomization:
@@ -22,43 +23,38 @@ length:
 tags:
 - OSUP
 - volume 2
-- chapter 12
-- problem 16
-- Biot-Savart law
-- current segment
-- magnetic field
+- chapter 10
+- problem 50
+- circuits
+- RC circuits
 - numeric
-- JB
-assets:
-- OSUPv2p12_16.png
+- JW
 part1:
   type: number-input
   pl-customizations:
-    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
-    label: $B= $
-    suffix: $\rm\ T$
+    label: $R= $
+    suffix: $\rm\ \Omega$
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
 substitutions:
   params:
     vars:
-      title: Field due to current segment
-    I: '8.5'
-    x: '1.60'
-    y: '1.00'
-    dl: '0.20'
+      title: Capacitor in a Heart Pacemaker
+    rate: '79'
+    C: '25.5'
+    charge: '0.629'
 ---
 # {{ params.vars.title }}
-A ${{ params.I }}\rm\ A$ current flows through the wire shown in the figure.
-Take $x = {{ params.x }}\rm\ cm$ and $y = {{ params.y }}\rm\ cm$.
-
-<img src="OSUPv2p12_16.png" width=400 alt="A wire segment carrying a current">
-<p></p>
+A heart pacemaker activates ${{ params.rate }}$ times per minute.
+Each time, a ${{ params.C }}\rm\ nF$ capacitor is charged (by a battery in series with a resistor) to ${{ params.charge }}$ of its full voltage.
 
 ## Question Text
 
-What is the magnitude of the magnetic field due to a ${{ params.dl }}\rm\ mm$ segment of wire as measured at point P?
+What is the value of the resistance?
 
 ### Answer Section
 
