@@ -32,17 +32,17 @@ substitutions:
     vars:
       title: Diagnostic Q5
     expr: $\dfrac{x}{8}$
-    num2: 3
-    num3: 5
+    num2: 5
+    num3: 7
     part1:
       ans1:
-        value: 120
+        value: 280
       ans2:
-        value: 3/8
+        value: 5/8
       ans3:
-        value: 40
+        value: 56
       ans4:
-        value: 15/8
+        value: 35/8
       ans5:
         value: Don't Know
 ---

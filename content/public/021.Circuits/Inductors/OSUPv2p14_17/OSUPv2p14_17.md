@@ -1,14 +1,14 @@
 ---
-title: Dielectric breakdown of air
-topic: Electrostatics
-author: Jake Bobowski
-source: 2.7.79
+title: 'RL Series Circuit: Energy'
+topic: Circuits
+author: Joseph Wandinger
+source: 2.14.17
 template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
 outcomes:
-- 21.7.6.4
+- 21.14.3.0
 difficulty:
 - undefined
 randomization:
@@ -22,42 +22,42 @@ length:
 tags:
 - OSUP
 - volume 2
-- chapter 7
-- problem 79
-- dielectric breakdown
-- air
-- parallel plates
+- chapter 14
+- problem 17
+- circuits
+- RL circuits
 - numeric
-- JB
-assets: null
+- JW
+assets:
+- fig_OSUPv2p14_17.png
 part1:
   type: number-input
   pl-customizations:
-    rtol: 0.05
-    label: $d=$
-    allow-blank: false
-    show-correct-answer: true
-    show-help-text: true
-    suffix: $\rm\ mm$
     weight: 1
-    custom-format: .3g
+    allow-blank: false
+    show-correct-answer: false
+    label: $\frac{\displaystyle E_{\rm\ final}}{\displaystyle E_{\rm\ initial}} =$
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
 substitutions:
   params:
     vars:
-      title: Dielectric breakdown of air
-    V: '5200'
+      title: 'RL Series Circuit: Energy'
+    factor: '3'
+    word: reduced
+    ans: '0.111'
 ---
 # {{ params.vars.title }}
-The electric field strength that causes the breakdown of dry air is $3.00\times 10^6\rm\ V/m$.
+Consider the $RL$ circuit shown below.
+
+<img src="fig_OSUPv2p14_17.png" width=250>
 
 ## Question Text
 
-If the potential difference across a pair of parallel conducting plates is {{ params.V }} $\rm\ V$, at what distance between the plates will breakdown just start to occur?
-Give your answer in units of $\rm mm$.
+If the emf of the battery is {{ params.word }} by a factor of ${{ params.factor }}$, by how much does the steady-state energy stored in the magnetic field of the inductor change?
 
 ### Answer Section
-
-Please enter a numeric value.
 
 ## Attribution
 

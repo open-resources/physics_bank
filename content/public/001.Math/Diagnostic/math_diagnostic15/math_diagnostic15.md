@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $4^{5} $=$ 1024$
+    expr: $3^{8} $=$ 6561$
     part1:
       ans1:
-        value: $log_41024 = 5$
+        value: $log_36561 = 8$
       ans2:
-        value: $log_45 = 1024$
+        value: $log_38 = 6561$
       ans3:
-        value: $log_10245 = 4$
+        value: $log_65618 = 3$
       ans4:
-        value: $log_51024 = 4$
+        value: $log_86561 = 3$
       ans5:
         value: Don't Know
 ---

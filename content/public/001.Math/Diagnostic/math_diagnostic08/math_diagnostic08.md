@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-10x + 35y }{ 5 }$
+    expr: $\dfrac{-36x + 36y }{ 9 }$
     part1:
       ans1:
-        value: $- 2 x + 7 y$
+        value: $- 4 x + 4 y$
       ans2:
-        value: $\dfrac{-2x + 7y}{5}$
+        value: $\dfrac{-4x + 4y}{9}$
       ans3:
-        value: $7x - 2y$
+        value: $4x - 4y$
       ans4:
-        value: $-10x + 35y$
+        value: $-36x + 36y$
       ans5:
         value: Don't know.
 ---

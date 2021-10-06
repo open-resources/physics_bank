@@ -35,10 +35,10 @@ substitutions:
     vars:
       title: Cars around a bend
       units: $ft$
-    max_acc_A: 0.4
-    max_acc_B: 0.6
-    ra: 380
-    rb: 417
+    max_acc_A: 0.3
+    max_acc_B: 0.7
+    ra: 304
+    rb: 331
     angle: 74
 ---
 # {{ params.vars.title }}

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $y$ = $\dfrac{(u)}{(i - 2z)} $
+    expr: $e$ = $\dfrac{(k)}{(z - 2o)} $
     part1:
       ans1:
-        value: i = ${ \frac{u}{y} + 2 z}$
+        value: z = ${ 2 o + \frac{k}{e}}$
       ans2:
-        value: i = ${- \frac{2 y z}{u}}$
+        value: z = ${- \frac{2 e o}{k}}$
       ans3:
-        value: i = ${- \frac{u}{2 y z}}$
+        value: z = ${- \frac{k}{2 e o}}$
       ans4:
-        value: i = ${\frac{y + 2 z}{u}}$
+        value: z = ${\frac{e + 2 o}{k}}$
       ans5:
         value: Don't Know
 ---
