@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin240$
+    a: $ \sin202$
     part1:
       ans1:
-        value: $\sin{-120}$
+        value: $\sin{-158}$
       ans2:
-        value: $\sin{120}$
+        value: $\sin{158}$
       ans3:
-        value: $\sin{-60}$
+        value: $\sin{-22}$
       ans4:
-        value: $\sin{60}$
+        value: $\sin{22}$
       ans5:
         value: Don't Know
 ---

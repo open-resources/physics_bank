@@ -1,16 +1,16 @@
 ---
-title: Circuit with Multiple Voltage Sources
+title: Switched RL Series Circuit
 topic: Circuits
 author: Joseph Wandinger
-source: 2.10.36
+source: 2.14.52
 template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
 outcomes:
-- 21.8.1.1
-- 21.8.2.0
-- 21.12.1.0
+- 21.4.1.1
+- 21.14.3.0
+- 21.14.3.1
 difficulty:
 - undefined
 randomization:
@@ -24,70 +24,71 @@ length:
 tags:
 - OSUP
 - volume 2
-- chapter 10
-- problem 36
+- chapter 14
+- problem 52
 - circuits
-- electrical power
+- inductance
+- RL circuits
 - multi-part
 - JW
 assets:
-- fig_OSUPv2p10_36.png
+- fig_OSUPv2p14_52.png
 part1:
   type: number-input
   pl-customizations:
-    label: $V_{R_1} = $
+    label: $\tau_L = $
     allow-blank: false
     show-correct-answer: false
     comparison: relabs
     rtol: 0.03
     atol: 0
     show-help-text: true
-    suffix: $\rm\ V$
+    suffix: $\rm\ s$
     weight: 1
     custom-format: .3g
 part2:
   type: number-input
   pl-customizations:
-    label: $V_{R_2} = $
+    label: $I_{R, \rm\ i} = $
     allow-blank: false
     show-correct-answer: false
     comparison: relabs
     rtol: 0.03
     atol: 0
     show-help-text: true
-    suffix: $\rm\ V$
+    suffix: $\rm\ A$
     weight: 1
     custom-format: .3g
 part3:
   type: number-input
   pl-customizations:
-    label: $V_{R_3} = $
+    label: $I_{R, \rm\ f} = $
     allow-blank: false
     show-correct-answer: false
     comparison: relabs
     rtol: 0.03
     atol: 0
     show-help-text: true
-    suffix: $\rm\ V$
+    suffix: $\rm\ A$
     weight: 1
     custom-format: .3g
 part4:
   type: number-input
   pl-customizations:
-    label: $V_{R_4} = $
+    label: $I_R(t^{\star} = {{ params.num }} \tau_L) = $
     allow-blank: false
     show-correct-answer: false
     comparison: relabs
     rtol: 0.03
     atol: 0
     show-help-text: true
-    suffix: $\rm\ V$
+    suffix: $\rm\ A$
     weight: 1
     custom-format: .3g
 part5:
   type: number-input
   pl-customizations:
-    label: $V_{R_5} = $
+    label: $V_L(t^{\star} = {{ params.num }} \tau_L) = $
     allow-blank: false
     show-correct-answer: false
     comparison: relabs
@@ -100,84 +101,67 @@ part5:
 part6:
   type: number-input
   pl-customizations:
-    label: $P_{\rm\ in} = $
+    label: $V_R(t^{\star} = {{ params.num }} \tau_L) = $
     allow-blank: false
     show-correct-answer: false
     comparison: relabs
     rtol: 0.03
     atol: 0
     show-help-text: true
-    suffix: $\rm\ W$
-    weight: 1
-    custom-format: .3g
-part7:
-  type: number-input
-  pl-customizations:
-    label: $P_{\rm\ out} = $
-    allow-blank: false
-    show-correct-answer: false
-    comparison: relabs
-    rtol: 0.03
-    atol: 0
-    show-help-text: true
-    suffix: $\rm\ W$
+    suffix: $\rm\ V$
     weight: 1
     custom-format: .3g
 substitutions:
   params:
     vars:
-      title: Circuit with Multiple Voltage Sources
-    R1: '15.0'
-    R2: '22.0'
-    R3: '14.0'
-    R4: '12.0'
-    R5: '13.0'
-    V1: '13.0'
-    V2: '25.0'
+      title: Switched RL Series Circuit
+    num: '3'
+    emf: '13.0'
+    L: '21.0'
+    R: '5.50'
 ---
 # {{ params.vars.title }}
-Consider the circuit shown below.
+Consider the $RL$ circuit shown below.
 
-<img src="fig_OSUPv2p10_36.png" width=250>
+<img src="fig_OSUPv2p14_52.png" width=250>
 
-The battery voltages are $V_1 = {{ params.V1 }}\rm\ V$ and $V_2 = {{ params.V2 }}\rm\ V$.
-The resistances are $R_1 = {{ params.R1 }}\rm\ k \Omega$, $R_2 = {{ params.R2 }}\rm\ k \Omega$, $R_3 = {{ params.R3 }}\rm\ k \Omega$, $R_4 = {{ params.R4 }}\rm\ k \Omega$, and $R_5 = {{ params.R5 }}\rm\ k \Omega$.
+Here, ${\boldsymbol \varepsilon} = {{ params.emf }}\rm\ V$, $L = {{ params.L }}\rm\ mH$, and $R = {{ params.R }}\rm\ \Omega$.
 
 ## Part 1
 
-What is the voltage across $R_1$?
+Determine the time constant of the circuit.
 
 ### Answer Section
 
-Please enter in a numeric value in $\rm\ V$.
+Please enter in a numeric value in $\rm\ s$.
 
 ## Part 2
 
-What is the voltage across $R_2$?
+Immediately after switch $\rm S$ is closed, what is the initial current through the resistor?
 
 ### Answer Section
 
-Please enter in a numeric value in $\rm\ V$.
+Please enter in a numeric value in $\rm\ A$.
 
 ## Part 3
 
-What is the voltage across $R_3$?
+What is the final current through the resistor?
 
 ### Answer Section
 
-Please enter in a numeric value in $\rm\ V$.
+Please enter in a numeric value in $\rm\ A$.
 
 ## Part 4
 
-What is the voltage across $R_4$?
+What is the current through the resistor when $t = t^{\star} = {{ params.num }} \tau_L$?
 
 ### Answer Section
 
-Please enter in a numeric value in $\rm\ V$.
+Please enter in a numeric value in $\rm\ A$.
 
 ## Part 5
 
-What is the voltage across $R_5$?
+What is the voltage across the inductor when $t = t^{\star} = {{ params.num }} \tau_L$?
 
 ### Answer Section
 
@@ -185,19 +169,11 @@ Please enter in a numeric value in $\rm\ V$.
 
 ## Part 6
 
-What is the power supplied to the circuit?
+What is the voltage across the resistor when $t = t^{\star} = {{ params.num }} \tau_L$?
 
 ### Answer Section
 
-Please enter in a numeric value in $\rm\ W$.
-
-## Part 7
-
-What is the power dissipated by the circuit?
-
-### Answer Section
-
-Please enter in a numeric value in $\rm\ W$.
+Please enter in a numeric value in $\rm\ V$.
 
 ## Attribution
 

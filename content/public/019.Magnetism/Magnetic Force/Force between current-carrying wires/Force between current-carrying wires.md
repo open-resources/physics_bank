@@ -46,10 +46,10 @@ substitutions:
   params:
     vars:
       title: Force between current-carrying wires
-    d: '18.0'
-    I1: '2.4'
-    I2: '7.8'
-    txt: opposite directions
+    d: '6.0'
+    I1: '2.0'
+    I2: '7.4'
+    txt: the same direction
     part2:
       ans1:
         value: Attract

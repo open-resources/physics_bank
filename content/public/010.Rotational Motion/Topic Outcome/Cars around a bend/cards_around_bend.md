@@ -37,9 +37,9 @@ substitutions:
       units: $ft$
     max_acc_A: 0.8
     max_acc_B: 1.0
-    ra: 385
-    rb: 440
-    angle: 61
+    ra: 336
+    rb: 383
+    angle: 60
 ---
 # {{ params.vars.title }}
 Two cars travel at constant speeds around a curve.

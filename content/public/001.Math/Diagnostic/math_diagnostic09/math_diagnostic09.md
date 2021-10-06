@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $r$ = $\dfrac{(u)}{(p + 10c)} $
+    expr: $j$ = $\dfrac{(h)}{(k + 4g)} $
     part1:
       ans1:
-        value: p = ${ - 10 c + \frac{u}{r}}$
+        value: k = ${ - 4 g + \frac{h}{j}}$
       ans2:
-        value: p = ${\frac{10 c r}{u}}$
+        value: k = ${\frac{4 g j}{h}}$
       ans3:
-        value: p = ${\frac{u}{10 c r}}$
+        value: k = ${\frac{h}{4 g j}}$
       ans4:
-        value: p = ${\frac{- 10 c + r}{u}}$
+        value: k = ${\frac{- 4 g + j}{h}}$
       ans5:
         value: Don't Know
 ---

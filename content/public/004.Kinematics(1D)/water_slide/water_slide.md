@@ -53,7 +53,7 @@ part4:
 substitutions:
   params:
     vars:
-      name: Ximena
+      name: Santiago
       title: Water Slide
     theta: 40
     l: 100

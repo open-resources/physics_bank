@@ -51,7 +51,7 @@ substitutions:
   params:
     vars:
       title: Position, Velocity and Acceleration of a Particle
-    s0: 34
+    s0: 40
     t: 29
 ---
 # {{ params.vars.title }}

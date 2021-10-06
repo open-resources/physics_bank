@@ -58,8 +58,8 @@ substitutions:
   params:
     vars:
       title: Projectile of ball launched to a specific height
-    v0: 271
-    distance: 352
+    v0: 234
+    distance: 446
 ---
 # {{ params.vars.title }}
 A ball is launched vertically at point A with an initial speed of $v = {{params.v0}} ft/sec$.

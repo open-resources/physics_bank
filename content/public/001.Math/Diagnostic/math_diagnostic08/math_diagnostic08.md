@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{49x + 42y }{ -7 }$
+    expr: $\dfrac{-24x - 24y }{ -3 }$
     part1:
       ans1:
-        value: $- 7 x - 6 y$
+        value: $8 x + 8 y$
       ans2:
-        value: $\dfrac{-7x - 6y}{-7}$
+        value: $\dfrac{8x + 8y}{-3}$
       ans3:
-        value: $-6x - 7y$
+        value: $8x + 8y$
       ans4:
-        value: $49x - 42y$
+        value: $-24x + 24y$
       ans5:
         value: Don't know.
 ---
