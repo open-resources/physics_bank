@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $x$ = $\dfrac{(y)}{(g - 2z)} $
+    expr: $n$ = $\dfrac{(w)}{(o - 9d)} $
     part1:
       ans1:
-        value: g = ${ 2 z + \frac{y}{x}}$
+        value: o = ${ 9 d + \frac{w}{n}}$
       ans2:
-        value: g = ${- \frac{2 x z}{y}}$
+        value: o = ${- \frac{9 d n}{w}}$
       ans3:
-        value: g = ${- \frac{y}{2 x z}}$
+        value: o = ${- \frac{w}{9 d n}}$
       ans4:
-        value: g = ${\frac{x + 2 z}{y}}$
+        value: o = ${\frac{9 d + n}{w}}$
       ans5:
         value: Don't Know
 ---

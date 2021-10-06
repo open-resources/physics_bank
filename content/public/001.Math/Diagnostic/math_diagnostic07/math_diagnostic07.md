@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 5x - 5y = 7
-    formula2: 9x + 6y = 13
+    formula1: 8x - 3y = 31
+    formula2: 2x + 7y = 32
     part1:
       ans1:
-        value: ' x =107/75, y =2/75'
+        value: ' x =313/62, y =97/31'
       ans2:
-        value: ' x =2/75, y =107/75'
+        value: ' x =97/31, y =313/62'
       ans3:
-        value: ' x =-107/75, y =-2/75'
+        value: ' x =-313/62, y =-97/31'
       ans4:
-        value: ' x =-2/75, y =-107/75'
+        value: ' x =-97/31, y =-313/62'
       ans5:
         value: Don't Know
 ---

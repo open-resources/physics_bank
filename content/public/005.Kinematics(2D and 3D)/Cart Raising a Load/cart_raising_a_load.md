@@ -38,7 +38,7 @@ substitutions:
       units: m/s
     v_a: 7
     x: 3
-    h: 2
+    h: 3
 ---
 # {{ params.vars.title }}
 
