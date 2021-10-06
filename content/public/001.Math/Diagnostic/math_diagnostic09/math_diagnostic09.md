@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $d$ = $\dfrac{(m)}{(p - 9j)} $
+    expr: $c$ = $\dfrac{(q)}{(m - 6n)} $
     part1:
       ans1:
-        value: p = ${ 9 j + \frac{m}{d}}$
+        value: m = ${ 6 n + \frac{q}{c}}$
       ans2:
-        value: p = ${- \frac{9 d j}{m}}$
+        value: m = ${- \frac{6 c n}{q}}$
       ans3:
-        value: p = ${- \frac{m}{9 d j}}$
+        value: m = ${- \frac{q}{6 c n}}$
       ans4:
-        value: p = ${\frac{d + 9 j}{m}}$
+        value: m = ${\frac{c + 6 n}{q}}$
       ans5:
         value: Don't Know
 ---

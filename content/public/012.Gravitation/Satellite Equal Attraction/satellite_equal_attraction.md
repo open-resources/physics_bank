@@ -31,7 +31,7 @@ substitutions:
     vars:
       title: 'Satellite Equal Attraction '
       units: $km$
-    x: 14176
+    x: 16684
 ---
 # {{ params.vars.title }}
 <img src="L2Q2_drawing.png" width=90% style="padding: 5%">

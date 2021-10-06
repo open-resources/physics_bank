@@ -74,8 +74,8 @@ substitutions:
     vars:
       title: Circuit Loop within a Loop
     R1: '3.0'
-    R2: '3.0'
-    R3: '7.0'
+    R2: '9.0'
+    R3: '5.0'
     V1: '23.0'
     V2: '12.0'
 ---

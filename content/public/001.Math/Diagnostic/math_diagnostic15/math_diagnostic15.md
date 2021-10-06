@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $2^{4} $=$ 16$
+    expr: $2^{8} $=$ 256$
     part1:
       ans1:
-        value: $log_216 = 4$
+        value: $log_2256 = 8$
       ans2:
-        value: $log_24 = 16$
+        value: $log_28 = 256$
       ans3:
-        value: $log_164 = 2$
+        value: $log_2568 = 2$
       ans4:
-        value: $log_416 = 2$
+        value: $log_8256 = 2$
       ans5:
         value: Don't Know
 ---

@@ -59,7 +59,7 @@ substitutions:
     m_a: 1
     m_b: 1
     m_c: 2
-    f_a: 45
+    f_a: 43
 ---
 # {{ params.vars.title }}
 Assume the three blocks portrayed in the figure move on a frictionless surface and a {{params.f_a}} N force
