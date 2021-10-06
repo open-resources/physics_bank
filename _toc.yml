@@ -614,6 +614,7 @@ parts:
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_12/OSUPv2p14_12
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_43/OSUPv2p14_43
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_36/OSUPv2p14_36
+  - file: content/public/021.Circuits/Inductors/OSUPv2p14_17/OSUPv2p14_17
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_38/OSUPv2p14_38
   - file: content/public/021.Circuits/Resistance/OSUPv2p10_02/OSUPv2p10_02
   - file: content/public/021.Circuits/Resistance/Copper Wire Resistance/resistance_copper_wire
@@ -651,4 +652,5 @@ parts:
   - file: content/public/021.Circuits/Resistors/OSUPv2p10_26/OSUPv2p10_26
   - file: content/public/021.Circuits/RC Circuits/OSUPv2p10_16/OSUPv2p10_16
   - file: content/public/021.Circuits/RC Circuits/OSUPv2p10_53/OSUPv2p10_53
+  - file: content/public/021.Circuits/RC Circuits/OSUPv2p10_50/OSUPv2p10_50
   - file: content/public/021.Circuits/Batteries/OSUPv2p10_25/OSUPv2p10_25
