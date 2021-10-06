@@ -291,6 +291,8 @@ parts:
   - file: content/public/007.Momentum and Impulse/2D Collisions/Snowboarder Impact
       Landing/Snowboarder Impact Landing
   - file: content/public/007.Momentum and Impulse/2D Collisions/light_heavy_collision/light_heavy_collision
+  - file: content/public/007.Momentum and Impulse/2D Collisions/Perfectly Inelastic
+      Collision/Perfectly Inelastic Collision
   - file: content/public/007.Momentum and Impulse/2D Collisions/T-bone Collision/T-bone
       Collision
   - file: content/public/007.Momentum and Impulse/2D Collisions/billiards_collision/billiards_collision
@@ -351,6 +353,8 @@ parts:
   - file: content/public/008.Energy/Conservation of Energy/Log up a Hill/Log up a
       Hill
   - file: content/public/008.Energy/Conservation of Energy/Cut The Rope/Cut The Rope
+  - file: content/public/008.Energy/Conservation of Energy/Two Waterslide Paths/Two
+      Waterslide Paths
   - file: content/public/008.Energy/Exploding_Asteroid/Exploding_Asteroid
   - file: content/public/008.Energy/Potential Energy/Collision of cart with spring/Collision
       of cart with spring
@@ -607,6 +611,7 @@ parts:
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_55/OSUPv2p14_55
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_48/OSUPv2p14_48
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_46/OSUPv2p14_46
+  - file: content/public/021.Circuits/Inductors/OSUPv2p14_12/OSUPv2p14_12
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_43/OSUPv2p14_43
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_36/OSUPv2p14_36
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_38/OSUPv2p14_38
