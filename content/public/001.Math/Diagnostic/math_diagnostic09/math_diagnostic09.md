@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $j$ = $\dfrac{(h)}{(k + 4g)} $
+    expr: $x$ = $\dfrac{(y)}{(g - 2z)} $
     part1:
       ans1:
-        value: k = ${ - 4 g + \frac{h}{j}}$
+        value: g = ${ 2 z + \frac{y}{x}}$
       ans2:
-        value: k = ${\frac{4 g j}{h}}$
+        value: g = ${- \frac{2 x z}{y}}$
       ans3:
-        value: k = ${\frac{h}{4 g j}}$
+        value: g = ${- \frac{y}{2 x z}}$
       ans4:
-        value: k = ${\frac{- 4 g + j}{h}}$
+        value: g = ${\frac{x + 2 z}{y}}$
       ans5:
         value: Don't Know
 ---

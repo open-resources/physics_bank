@@ -34,10 +34,10 @@ part1:
 substitutions:
   params:
     vars:
-      name: Aliyah
+      name: Savannah
       title: Throwing Stones
       units: $s$
-    v: 23.9
+    v: 23.6
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} simultaneously throws two stones from the top edge of a building with a speed {{ params.v }} $m/s$. They throw one straight down and the other straight up.

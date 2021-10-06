@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin202$
+    a: $ \sin205$
     part1:
       ans1:
-        value: $\sin{-158}$
+        value: $\sin{-155}$
       ans2:
-        value: $\sin{158}$
+        value: $\sin{155}$
       ans3:
-        value: $\sin{-22}$
+        value: $\sin{-25}$
       ans4:
-        value: $\sin{22}$
+        value: $\sin{25}$
       ans5:
         value: Don't Know
 ---

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-24x - 24y }{ -3 }$
+    expr: $\dfrac{12x - 32y }{ 4 }$
     part1:
       ans1:
-        value: $8 x + 8 y$
+        value: $3 x - 8 y$
       ans2:
-        value: $\dfrac{8x + 8y}{-3}$
+        value: $\dfrac{3x - 8y}{4}$
       ans3:
-        value: $8x + 8y$
+        value: $-8x + 3y$
       ans4:
-        value: $-24x + 24y$
+        value: $12x - 32y$
       ans5:
         value: Don't know.
 ---
