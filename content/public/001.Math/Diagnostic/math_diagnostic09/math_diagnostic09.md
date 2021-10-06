@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $e$ = $\dfrac{(k)}{(z - 2o)} $
+    expr: $r$ = $\dfrac{(u)}{(p + 10c)} $
     part1:
       ans1:
-        value: z = ${ 2 o + \frac{k}{e}}$
+        value: p = ${ - 10 c + \frac{u}{r}}$
       ans2:
-        value: z = ${- \frac{2 e o}{k}}$
+        value: p = ${\frac{10 c r}{u}}$
       ans3:
-        value: z = ${- \frac{k}{2 e o}}$
+        value: p = ${\frac{u}{10 c r}}$
       ans4:
-        value: z = ${\frac{e + 2 o}{k}}$
+        value: p = ${\frac{- 10 c + r}{u}}$
       ans5:
         value: Don't Know
 ---

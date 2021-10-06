@@ -30,17 +30,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 17
-    a: 6
-    b: 7
+    a: 3
+    b: 6
     part1:
       ans1:
-        value: $e^{7} e^{6 y}$
+        value: $e^{6} e^{3 y}$
       ans2:
-        value: $e^{6 y} + e^{6}$
+        value: $e^{3 y} + e^{3}$
       ans3:
-        value: $6 e^{6} e^{y}$
+        value: $3 e^{3} e^{y}$
       ans4:
-        value: $7 e^{6 y}$
+        value: $6 e^{3 y}$
       ans5:
         value: Don't Know
 ---

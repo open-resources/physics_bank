@@ -34,11 +34,11 @@ substitutions:
   params:
     vars:
       title: Spring Potential Energy Rail
-    m: 4
-    xi: 0.29
-    x: 0.53
-    R: 0.76
-    k: 197
+    m: 9
+    xi: 0.32
+    x: 0.67
+    R: 0.69
+    k: 151
 ---
 # {{ params.vars.title }}
 <img src="Spring Potential Energy Rail.png" width=400>

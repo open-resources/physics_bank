@@ -49,9 +49,9 @@ substitutions:
       units1: m/s
       units2: kg
       name: Maya
-    i: 362
+    i: 370
     m: 21
-    v_1: 10
+    v_1: 30
     v_2: 19
 ---
 # {{ params.vars.title }}

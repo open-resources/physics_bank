@@ -53,9 +53,9 @@ substitutions:
     vars:
       title: Field due to parallel currents
     I1: '15.0'
-    I2: '10.0'
-    r1: '8.0'
-    r2: '12.0'
+    I2: '20.0'
+    r1: '12.0'
+    r2: '8.0'
     part2:
       ans1:
         value: Out of the screen.
