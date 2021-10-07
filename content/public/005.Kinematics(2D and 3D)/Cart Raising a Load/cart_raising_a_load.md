@@ -36,7 +36,7 @@ substitutions:
     vars:
       title: Cart raising a load
       units: m/s
-    v_a: 5
+    v_a: 2
     x: 2
     h: 2
 ---

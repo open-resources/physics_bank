@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $w$ = $\dfrac{(c)}{(l - 4t)} $
+    expr: $n$ = $\dfrac{(e)}{(t - 3b)} $
     part1:
       ans1:
-        value: l = ${ \frac{c}{w} + 4 t}$
+        value: t = ${ 3 b + \frac{e}{n}}$
       ans2:
-        value: l = ${- \frac{4 t w}{c}}$
+        value: t = ${- \frac{3 b n}{e}}$
       ans3:
-        value: l = ${- \frac{c}{4 t w}}$
+        value: t = ${- \frac{e}{3 b n}}$
       ans4:
-        value: l = ${\frac{4 t + w}{c}}$
+        value: t = ${\frac{3 b + n}{e}}$
       ans5:
         value: Don't Know
 ---

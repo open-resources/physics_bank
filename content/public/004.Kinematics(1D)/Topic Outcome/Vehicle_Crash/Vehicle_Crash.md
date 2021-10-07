@@ -31,25 +31,25 @@ substitutions:
   params:
     vars:
       title: Vehicle Crash
-      name: Santiago
+      name: Maya
       vehicle_1: bus
-      vehicle_2: bus
-    dist: 5.73
-    v: 31.4
-    acc: 12.6
-    s_1: 0.1
-    s_2: 1.744
+      vehicle_2: truck
+    dist: 2.6
+    v: 35.3
+    acc: 13.4
+    s_1: 0.2
+    s_2: 1.247
     part1:
       ans1:
-        value: Santiago doesn't hit the bus in front because Santiago stops in time.
+        value: 21.27 $m/s$
       ans2:
-        value: 10.69 $m/s$
+        value: 18.59 $m/s$
       ans3:
-        value: 9.426 $m/s$
+        value: 32.62 $m/s$
       ans4:
-        value: 30.14 $m/s$
+        value: 15.91 $m/s$
       ans5:
-        value: 8.166 $m/s$
+        value: 35.3 $m/s$
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is following {{params.dist}} $m$ behind a {{params.vars.vehicle_1}} when it suddenly brakes with an acceleration of -{{params.acc}} $m/s^2$.
@@ -67,7 +67,6 @@ At what speed is {{params.vars.name}}'s {{params.vars.vehicle_2}} travelling whe
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
 
 ## Attribution
 
