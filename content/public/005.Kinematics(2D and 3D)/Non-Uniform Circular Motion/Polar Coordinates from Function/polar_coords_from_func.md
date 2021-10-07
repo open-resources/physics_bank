@@ -49,14 +49,14 @@ substitutions:
   params:
     vars:
       title: Polar Coordinates from Functions
-    a1: -5
-    a2: -4
-    b1: -1
-    b2: 10
-    c1: -4
-    c2: 1
-    v: -5i + (-1j) + (-4k)
-    a: -4i + (10j) + (1k)
+    a1: -9
+    a2: -3
+    b1: -10
+    b2: -3
+    c1: -2
+    c2: 2
+    v: -9i + (-10j) + (-2k)
+    a: -3i + (-3j) + (2k)
 ---
 # {{ params.vars.title }}
 The velocity and acceleration of a particle at a moment in time is given by $v = {{params.v}}m/s$ and

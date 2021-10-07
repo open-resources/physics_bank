@@ -43,7 +43,7 @@ substitutions:
     vars:
       title: Cars on a track
       units: $m/s$
-    r1: 38
+    r1: 33
     r2: 50
 ---
 # {{ params.vars.title }}

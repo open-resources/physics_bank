@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $b$ = $\dfrac{(n)}{(g - 7c)} $
+    expr: $c$ = $\dfrac{(k)}{(v - 6m)} $
     part1:
       ans1:
-        value: g = ${ 7 c + \frac{n}{b}}$
+        value: v = ${ 6 m + \frac{k}{c}}$
       ans2:
-        value: g = ${- \frac{7 b c}{n}}$
+        value: v = ${- \frac{6 c m}{k}}$
       ans3:
-        value: g = ${- \frac{n}{7 b c}}$
+        value: v = ${- \frac{k}{6 c m}}$
       ans4:
-        value: g = ${\frac{b + 7 c}{n}}$
+        value: v = ${\frac{c + 6 m}{k}}$
       ans5:
         value: Don't Know
 ---

@@ -1,15 +1,14 @@
 ---
-title: Current over Time in a Series RL Circuit
+title: Inductance of a Solenoid
 topic: Circuits
 author: Joseph Wandinger
-source: 2.14.55
+source: 2.14.40
 template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
 outcomes:
-- 21.14.3.0
-- 21.14.3.1
+- 21.14.2.3
 difficulty:
 - undefined
 randomization:
@@ -24,42 +23,43 @@ tags:
 - OSUP
 - volume 2
 - chapter 14
-- problem 55
+- problem 40
 - circuits
 - inductance
-- RL circuits
+- solenoids
 - numeric
 - JW
-assets:
-- fig_OSUPv2p14_55.png
 part1:
   type: number-input
   pl-customizations:
     weight: 1
     allow-blank: false
     show-correct-answer: false
-    label: $t =$
-    suffix: $\tau_L$
+    label: $L =$
+    suffix: $\rm\ H$
     comparison: relabs
     rtol: 0.03
     atol: 0
+    custom-format: .3g
 substitutions:
   params:
     vars:
-      title: Current over Time in a Series RL Circuit
-    fac: '3'
+      title: Inductance of a Solenoid
+    l: '55.0'
+    N: '570'
+    A: '1.30'
 ---
 # {{ params.vars.title }}
-Consider the $RL$ circuit shown below.
-
-<img src="fig_OSUPv2p14_55.png" width=250>
+A ${{ params.l }}\rm\ cm$ long solenoid is wound with ${{ params.N }}\rm\ turns$ of wire.
+The cross-sectional area of the coil is ${{ params.A }}\rm\ cm^2$.
 
 ## Question Text
 
-How long after switch $\rm S$ is thrown does it take the current in the circuit to reach $1/{{ params.fac }}$ of its maximum value?
-Express your answer in terms of the time constant $\tau_L$ of the circuit.
+What is the self-inductance of the solenoid?
 
 ### Answer Section
+
+Please enter a numeric value in $\rm\ H$.
 
 ## Attribution
 

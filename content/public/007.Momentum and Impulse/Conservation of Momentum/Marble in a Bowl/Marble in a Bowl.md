@@ -34,7 +34,7 @@ substitutions:
   params:
     vars:
       title: Marble in a Bowl
-    ro: 0.45
+    ro: 0.55
     vo: 2
     h: 0.12
 ---

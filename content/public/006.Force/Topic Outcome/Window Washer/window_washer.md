@@ -38,8 +38,8 @@ substitutions:
     vars:
       title: Window Washer
       units: ft/s^2
-    m: 171
-    f: 62
+    m: 174
+    f: 40
 ---
 # {{ params.vars.title }}
 
