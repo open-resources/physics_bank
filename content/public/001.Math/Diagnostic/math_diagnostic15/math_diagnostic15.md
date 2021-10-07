@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $6^{3} $=$ 216$
+    expr: $8^{4} $=$ 4096$
     part1:
       ans1:
-        value: $log_6216 = 3$
+        value: $log_84096 = 4$
       ans2:
-        value: $log_63 = 216$
+        value: $log_84 = 4096$
       ans3:
-        value: $log_2163 = 6$
+        value: $log_40964 = 8$
       ans4:
-        value: $log_3216 = 6$
+        value: $log_44096 = 8$
       ans5:
         value: Don't Know
 ---

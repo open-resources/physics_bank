@@ -35,17 +35,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Temperature
+        value: Work
       ans2:
-        value: Volume
+        value: Distance travelled
       ans3:
-        value: The average velocity
+        value: Temperature
       ans4:
-        value: Drag
+        value: Area
       ans5:
-        value: Displacement
+        value: Acceleration
       ans6:
-        value: Momentum
+        value: Force
 ---
 # {{ params.vars.title }}
 

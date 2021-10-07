@@ -43,8 +43,8 @@ substitutions:
     vars:
       title: Temperature Range of Resistor
     p: 2
-    metal: Manganin
-    T_0: 66
+    metal: Constantan
+    T_0: 125
 ---
 # {{ params.vars.title }}
 

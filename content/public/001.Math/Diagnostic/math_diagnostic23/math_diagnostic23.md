@@ -28,17 +28,17 @@ substitutions:
     vars:
       title: Math Practice 23
     a: 1
-    b: 5
-    formula: $x \cos{\left(5 x \right)}$
+    b: 8
+    formula: $x \cos{\left(8 x \right)}$
     part1:
       ans1:
-        value: $- 5 x \sin{\left(5 x \right)} + \cos{\left(5 x \right)}$
+        value: $- 8 x \sin{\left(8 x \right)} + \cos{\left(8 x \right)}$
       ans2:
-        value: $- 5 x \sin{\left(5 x \right)} $
+        value: $- 8 x \sin{\left(8 x \right)} $
       ans3:
-        value: $ \sin{\left(5 x \right)}$
+        value: $ \sin{\left(8 x \right)}$
       ans4:
-        value: $5 x \cos{\left(5 x \right)} + \sin{\left(5 x \right)}$
+        value: $8 x \cos{\left(8 x \right)} + \sin{\left(8 x \right)}$
       ans5:
         value: Don't Know
 ---

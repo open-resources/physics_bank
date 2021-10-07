@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{12x + 18y }{ -2 }$
+    expr: $\dfrac{63x - 21y }{ 7 }$
     part1:
       ans1:
-        value: $- 6 x - 9 y$
+        value: $9 x - 3 y$
       ans2:
-        value: $\dfrac{-6x - 9y}{-2}$
+        value: $\dfrac{9x - 3y}{7}$
       ans3:
-        value: $-9x - 6y$
+        value: $-3x + 9y$
       ans4:
-        value: $12x - 18y$
+        value: $63x - 21y$
       ans5:
         value: Don't know.
 ---

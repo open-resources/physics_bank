@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $g$ = $\dfrac{(l)}{(e + 2x)} $
+    expr: $o$ = $\dfrac{(m)}{(b + 2i)} $
     part1:
       ans1:
-        value: e = ${ - 2 x + \frac{l}{g}}$
+        value: b = ${ - 2 i + \frac{m}{o}}$
       ans2:
-        value: e = ${\frac{2 g x}{l}}$
+        value: b = ${\frac{2 i o}{m}}$
       ans3:
-        value: e = ${\frac{l}{2 g x}}$
+        value: b = ${\frac{m}{2 i o}}$
       ans4:
-        value: e = ${\frac{g - 2 x}{l}}$
+        value: b = ${\frac{- 2 i + o}{m}}$
       ans5:
         value: Don't Know
 ---

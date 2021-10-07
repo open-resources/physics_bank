@@ -32,14 +32,14 @@ substitutions:
   params:
     vars:
       title: Uncertainty of Coefficient
-      name: Savannah
+      name: Mateo
       units: $kg/s$
-    m: 148
-    v: 2.3
-    b: 0.63
+    m: 77
+    v: 1.9
+    b: 0.48
     part1:
       ans1:
-        value: ' $\pm$ 0.1'
+        value: ' $\pm$ 0.13'
       ans2:
         value: ' $\pm$ 0.06'
       ans3:

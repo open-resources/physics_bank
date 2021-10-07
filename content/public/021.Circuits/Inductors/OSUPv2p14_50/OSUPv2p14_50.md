@@ -1,14 +1,15 @@
 ---
-title: Frequency and Voltage of an LC Circuit
+title: Energy in a Series RL Circuit
 topic: Circuits
 author: Joseph Wandinger
-source: 2.14.66
+source: 2.14.50
 template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
 outcomes:
-- 21.14.4.0
+- 21.8.1.1
+- 21.14.3.0
 difficulty:
 - undefined
 randomization:
@@ -23,64 +24,64 @@ tags:
 - OSUP
 - volume 2
 - chapter 14
-- problem 66
+- problem 50
 - circuits
-- voltage
-- RL circuits
+- inductance
+- energy
 - multi-part
 - JW
 part1:
   type: number-input
   pl-customizations:
-    label: $f = $
+    label: $E = $
     allow-blank: false
     show-correct-answer: false
     comparison: relabs
     rtol: 0.03
     atol: 0
     show-help-text: true
-    suffix: $\rm\ Hz$
+    suffix: $\rm\ J$
     weight: 1
     custom-format: .3g
 part2:
   type: number-input
   pl-customizations:
-    label: $I_{\rm max} = $
+    label: $P = $
     allow-blank: false
     show-correct-answer: false
     comparison: relabs
     rtol: 0.03
     atol: 0
     show-help-text: true
-    suffix: $\rm\ A$
+    suffix: $\rm\ W$
     weight: 1
     custom-format: .3g
 substitutions:
   params:
     vars:
-      title: Frequency and Voltage of an LC Circuit
-    L: '20.0'
-    C: '4.0'
-    V: '40.0'
+      title: Energy in a Series RL Circuit
+    L: '3.00'
+    R: '400.0'
+    I: '5.50'
 ---
 # {{ params.vars.title }}
-The self-inductance and capacitance of an oscillating $LC$ circuit are $L = {{ params.L }}\rm\ mH$ and $C = {{ params.C }}\rm\ \mu F$, respectively.
+A coil with a self-inductance of ${{ params.L }}\rm\ H$ and a resistance of ${{ params.R }}\rm\ \Omega$ carries a steady current of ${{ params.I }}\rm\ A$.
 
 ## Part 1
 
-What is the frequency of the oscillations?
+What is the energy stored in the magnetic field of the coil?
 
 ### Answer Section
 
-Please enter in a numeric value in $\rm\ Hz$.
+Please enter in a numeric value in $\rm\ J$.
 
 ## Part 2
 
-If the maximum potential difference between the plates of the capacitor is ${{ params.V }}\rm\ V$, what is the maximum current in the circuit?
+What is the energy per second dissipated in the resistance of the coil?
 
 ### Answer Section
 
-Please enter in a numeric value in $\rm\ A$.
+Please enter in a numeric value in $\rm\ W$.
 
 ## Attribution
 
