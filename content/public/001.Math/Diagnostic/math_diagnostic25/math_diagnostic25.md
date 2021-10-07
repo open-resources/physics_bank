@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice Q25
-    expr: $\dfrac{ 2-e^{(-4x)}}{3-x}$
+    expr: $\dfrac{ 4-e^{(-7x)}}{1-x}$
     part1:
       ans1:
-        value: 1/3
+        value: '3'
       ans2:
         value: Negative Infinity
       ans3:
-        value: 0.6666666666666666
+        value: 4.0
       ans4:
-        value: 2
+        value: 4
       ans5:
         value: Don't Know
 ---

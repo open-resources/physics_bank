@@ -34,10 +34,10 @@ substitutions:
   params:
     vars:
       title: Rotating Spheres
-    m: 2.4
+    m: 1.1
     Mo: 2
     t: 4
-    r: 0.2
+    r: 0.4
 ---
 # {{ params.vars.title }}
 <img src="Rotating Spheres.png" width=400>

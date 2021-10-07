@@ -32,24 +32,24 @@ substitutions:
     vars:
       title: Vehicle Crash
       name: Maya
-      vehicle_1: bus
-      vehicle_2: truck
-    dist: 5.55
-    v: 34.0
-    acc: 12.0
-    s_1: 0.2
-    s_2: 1.809
+      vehicle_1: semi-truck
+      vehicle_2: bus
+    dist: 2.15
+    v: 34.9
+    acc: 13.8
+    s_1: 0.3
+    s_2: 1.112
     part1:
       ans1:
-        value: Maya doesn't hit the bus in front because Maya stops in time.
+        value: Maya doesn't hit the semi-truck in front because Maya stops in time.
       ans2:
-        value: 14.69 $m/s$
+        value: 23.69 $m/s$
       ans3:
-        value: 12.29 $m/s$
+        value: 19.55 $m/s$
       ans4:
-        value: 31.6 $m/s$
+        value: 30.76 $m/s$
       ans5:
-        value: 9.892 $m/s$
+        value: 15.41 $m/s$
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is following {{params.dist}} $m$ behind a {{params.vars.vehicle_1}} when it suddenly brakes with an acceleration of -{{params.acc}} $m/s^2$.

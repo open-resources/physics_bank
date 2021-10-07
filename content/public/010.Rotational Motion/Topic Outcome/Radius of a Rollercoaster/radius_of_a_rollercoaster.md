@@ -35,8 +35,8 @@ substitutions:
     vars:
       title: Radius of a Rollercoaster
       units: $m$
-    speed_of_car: 154
-    rate_of_decrease: 6
+    speed_of_car: 163
+    rate_of_decrease: 10
     a: 2
 ---
 # {{ params.vars.title }}

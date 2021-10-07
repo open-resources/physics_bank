@@ -35,17 +35,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Mass
+        value: Pressure
       ans2:
-        value: Energy
+        value: Entropy
       ans3:
-        value: Weight
+        value: The position in 3 dimensions
       ans4:
-        value: velocity
+        value: Weight
       ans5:
-        value: Force
+        value: Momentum
       ans6:
-        value: The position in a 1 dimensional system
+        value: velocity
 ---
 # {{ params.vars.title }}
 

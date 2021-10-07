@@ -69,14 +69,14 @@ part5:
 substitutions:
   params:
     vars:
-      name: Lorenzo
+      name: Abbas
       title: Halloween Gourd Launcher
-    m_gourd: 1.46
-    h: 1.56
-    v_f: 5.3
+    m_gourd: 1.13
+    h: 2.28
+    v_f: 5.4
 ---
 # {{ params.vars.title }}
-At a local pumpkin patch, {{ params.vars.name }} is hired to create a Hallowe'en gourd launcher.  {{ params.vars.name }} wants to launch a {{ params.m_gourd }} $kg$ gourd (an "Angry Bird") at a large pumpkin (decorated as a "pig") which sits on top of a $h=$ {{ params.h }} $m$ tall hay bale as shown in the figure.
+At a local pumpkin patch, {{ params.vars.name }} is hired to create a Hallowe'en gourd launcher.  {{ params.vars.name }} wants to launch a {{ params.m_gourd }} $kg$ gourd (decorated as an "Angry Bird") at a large pumpkin (decorated as a "pig") which sits on top of a $h=$ {{ params.h }} $m$ tall hay bale as shown in the figure.
 
 Assume that the gourd undergoes projectile motion and that it hits the pumpkin ("pig") with a velocity of $\overrightarrow{v} =$ {{ params.v_f }} $\frac{\text{m}}{\text{s}} \hat{x}$.
 

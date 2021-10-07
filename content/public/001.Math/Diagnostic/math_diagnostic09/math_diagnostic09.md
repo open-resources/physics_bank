@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $n$ = $\dfrac{(w)}{(o - 9d)} $
+    expr: $j$ = $\dfrac{(v)}{(p - 5s)} $
     part1:
       ans1:
-        value: o = ${ 9 d + \frac{w}{n}}$
+        value: p = ${ 5 s + \frac{v}{j}}$
       ans2:
-        value: o = ${- \frac{9 d n}{w}}$
+        value: p = ${- \frac{5 j s}{v}}$
       ans3:
-        value: o = ${- \frac{w}{9 d n}}$
+        value: p = ${- \frac{v}{5 j s}}$
       ans4:
-        value: o = ${\frac{9 d + n}{w}}$
+        value: p = ${\frac{j + 5 s}{v}}$
       ans5:
         value: Don't Know
 ---
