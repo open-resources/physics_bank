@@ -28,17 +28,17 @@ substitutions:
     vars:
       title: Math Practice 23
     a: 6
-    b: 1
-    formula: $x^{6} \sin{\left(x \right)}$
+    b: 9
+    formula: $x^{6} \sin{\left(9 x \right)}$
     part1:
       ans1:
-        value: $x^{6} \cos{\left(x \right)} + 6 x^{5} \sin{\left(x \right)}$
+        value: $9 x^{6} \cos{\left(9 x \right)} + 6 x^{5} \sin{\left(9 x \right)}$
       ans2:
-        value: $x^{6} \cos{\left(x \right)} $
+        value: $9 x^{6} \cos{\left(9 x \right)} $
       ans3:
-        value: $ 6 x^{5} \cos{\left(x \right)}$
+        value: $ 6 x^{5} \cos{\left(9 x \right)}$
       ans4:
-        value: $- x^{6} \sin{\left(x \right)} + 6 x^{5} \cos{\left(x \right)}$
+        value: $- 9 x^{6} \sin{\left(9 x \right)} + 6 x^{5} \cos{\left(9 x \right)}$
       ans5:
         value: Don't Know
 ---

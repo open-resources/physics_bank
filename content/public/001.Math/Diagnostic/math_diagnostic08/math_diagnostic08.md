@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{21x + 21y }{ -3 }$
+    expr: $\dfrac{-6x + 27y }{ -3 }$
     part1:
       ans1:
-        value: $- 7 x - 7 y$
+        value: $2 x - 9 y$
       ans2:
-        value: $\dfrac{-7x - 7y}{-3}$
+        value: $\dfrac{2x - 9y}{-3}$
       ans3:
-        value: $-7x - 7y$
+        value: $-9x + 2y$
       ans4:
-        value: $21x - 21y$
+        value: $-6x - 27y$
       ans5:
         value: Don't know.
 ---

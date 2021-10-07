@@ -36,8 +36,8 @@ substitutions:
       title: Power of a Biker
       units: $hp$
     v: 8
-    W: 224
-    grd: 6
+    W: 183
+    grd: 5
 ---
 # {{ params.vars.title }}
 <img src="Power of a Biker.png" width=400>

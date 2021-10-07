@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $m$ = $\dfrac{(q)}{(c + 9v)} $
+    expr: $k$ = $\dfrac{(s)}{(c - 8j)} $
     part1:
       ans1:
-        value: c = ${ - 9 v + \frac{q}{m}}$
+        value: c = ${ 8 j + \frac{s}{k}}$
       ans2:
-        value: c = ${\frac{9 m v}{q}}$
+        value: c = ${- \frac{8 j k}{s}}$
       ans3:
-        value: c = ${\frac{q}{9 m v}}$
+        value: c = ${- \frac{s}{8 j k}}$
       ans4:
-        value: c = ${\frac{m - 9 v}{q}}$
+        value: c = ${\frac{8 j + k}{s}}$
       ans5:
         value: Don't Know
 ---
