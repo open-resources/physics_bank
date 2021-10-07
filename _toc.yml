@@ -465,6 +465,8 @@ parts:
       electric field
   - file: content/public/018.Electrostatics/Electric Field/Zero electric field/Zero
       electric field
+  - file: content/public/018.Electrostatics/Electric Field/Parallel Plaes/Parallel
+      Plates
   - file: content/public/018.Electrostatics/Electric Potential/Parallel-plate potential
       difference/Parallel-plate potential difference
   - file: content/public/018.Electrostatics/Electric Potential/Uniformly-charged sphere/Uniformly-charged
