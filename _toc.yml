@@ -455,6 +455,8 @@ parts:
       spherical surfaces
   - file: content/public/018.Electrostatics/Electric Field/Earth's charge/Earth's
       charge
+  - file: content/public/018.Electrostatics/Electric Field/Conductor with a Cavity
+      and a Charge/Conductor with a Cavity and a Charge
   - file: content/public/018.Electrostatics/Electric Field/Accelerating electrons/Accelerating
       electrons
   - file: content/public/018.Electrostatics/Electric Field/Charged particle near the
@@ -469,6 +471,8 @@ parts:
       electric field
   - file: content/public/018.Electrostatics/Electric Field/Parallel Plaes/Parallel
       Plates
+  - file: content/public/018.Electrostatics/Electric Field/Conductor Surface Charge/Conductor
+      Surface Charge
   - file: content/public/018.Electrostatics/Electric Potential/Parallel-plate potential
       difference/Parallel-plate potential difference
   - file: content/public/018.Electrostatics/Electric Potential/Uniformly-charged sphere/Uniformly-charged
