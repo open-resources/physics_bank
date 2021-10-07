@@ -469,6 +469,8 @@ parts:
       difference/Parallel-plate potential difference
   - file: content/public/018.Electrostatics/Electric Potential/Uniformly-charged sphere/Uniformly-charged
       sphere
+  - file: content/public/018.Electrostatics/Electric Potential/Forming helium atoms/Forming
+      helium atoms
   - file: content/public/018.Electrostatics/Electric Potential/Electric potential
       of a point charge/Electric potential of a point charge
   - file: content/public/018.Electrostatics/Electric Potential/Particle between charged
@@ -512,6 +514,7 @@ parts:
       a coil
   - file: content/public/019.Magnetism/Magnetic Flux/Flux through a loop/Flux through
       a loop
+  - file: content/public/019.Magnetism/Magnetic Flux/Amperian loops/Amperian loops
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_38/OSUPv2p13_38
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_15/OSUPv2p13_15
   - file: content/public/019.Magnetism/Electromagnetic Induction/OSUPv2p13_28/OSUPv2p13_28
