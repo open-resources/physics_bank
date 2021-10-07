@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin222$
+    a: $ \sin255$
     part1:
       ans1:
-        value: $\sin{-138}$
+        value: $\sin{-105}$
       ans2:
-        value: $\sin{138}$
+        value: $\sin{105}$
       ans3:
-        value: $\sin{-42}$
+        value: $\sin{-75}$
       ans4:
-        value: $\sin{42}$
+        value: $\sin{75}$
       ans5:
         value: Don't Know
 ---

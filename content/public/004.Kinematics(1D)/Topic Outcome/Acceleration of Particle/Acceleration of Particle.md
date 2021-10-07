@@ -62,10 +62,10 @@ substitutions:
       title: Acceleration of a Particle
       unit1: $s$
       unit2: $m/s^2$
-    c1: 9
-    c2: 5
-    c3_abs: 46
-    c3_sign: ' + '
+    c1: 7
+    c2: 6
+    c3_abs: 5
+    c3_sign: ' - '
 ---
 # {{ params.vars.title }}
 The position of a particle is given by the function $x = (${{ params.c1 }}$t^3 -${{ params.c2 }}$t^2$ {{ params.c3_sign }} {{ params.c3_abs }}) $m$ where $t$ is in seconds.

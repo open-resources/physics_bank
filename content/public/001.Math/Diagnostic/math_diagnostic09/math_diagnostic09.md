@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $i$ = $\dfrac{(k)}{(c + 4n)} $
+    expr: $g$ = $\dfrac{(l)}{(e + 2x)} $
     part1:
       ans1:
-        value: c = ${ - 4 n + \frac{k}{i}}$
+        value: e = ${ - 2 x + \frac{l}{g}}$
       ans2:
-        value: c = ${\frac{4 i n}{k}}$
+        value: e = ${\frac{2 g x}{l}}$
       ans3:
-        value: c = ${\frac{k}{4 i n}}$
+        value: e = ${\frac{l}{2 g x}}$
       ans4:
-        value: c = ${\frac{i - 4 n}{k}}$
+        value: e = ${\frac{g - 2 x}{l}}$
       ans5:
         value: Don't Know
 ---
