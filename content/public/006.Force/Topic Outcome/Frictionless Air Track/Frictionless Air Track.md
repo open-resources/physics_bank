@@ -59,20 +59,20 @@ substitutions:
       title: A Frictionless Air Track?
       name: Aliyah
       units: $m/s^2$
-    m1: 295.5
-    m2: 24.18
+    m1: 327.8
+    m2: 13.62
     d_a: 0.02
-    mean: 1.59
-    sd: 0.129
-    a1: 1.51
-    a2: 1.51
-    a3: 1.49
-    a4: 1.37
-    a5: 1.6
-    a6: 1.79
-    a7: 1.56
-    a8: 1.71
-    a9: 1.79
+    mean: 1.57
+    sd: 0.132
+    a1: 1.67
+    a2: 1.68
+    a3: 1.5
+    a4: 1.55
+    a5: 1.52
+    a6: 1.3
+    a7: 1.69
+    a8: 1.77
+    a9: 1.45
     a10: 1.61
     part4:
       ans1:

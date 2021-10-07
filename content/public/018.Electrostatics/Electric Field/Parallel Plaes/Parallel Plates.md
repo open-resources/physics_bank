@@ -1,13 +1,13 @@
 ---
-title: Force between current-carrying wires
-topic: Magnetism
+title: Parallel Plates
+topic: Electrostatics
 author: Jake Bobowski
-source: 2.12.31
-template_version: 1.1
+source: 2.6.67
+template_version: 1.0
 attribution: openstax-physics-vol2
 outcomes:
-- 19.3.3.2
-- 19.3.3.4
+- 18.9.1.2
+- 18.9.1.5
 difficulty:
 - undefined
 randomization:
@@ -17,63 +17,66 @@ taxonomy:
 tags:
 - OSUP
 - volume 2
-- chapter 12
-- problem 31
-- magnetic fields
-- parallel currents
-- force
+- chapter 6
+- problem 67
+- electric field
+- parallel plates
+- Gauss's law
 - numeric
 - JB
 assets: null
 part1:
   type: number-input
   pl-customizations:
-    rtol: 0.05
-    label: $F/\ell=$
+    label: $E=$
     allow-blank: false
     show-correct-answer: true
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
     show-help-text: true
-    suffix: $\rm\ N/m$
+    suffix: $\rm\ N/C$
     weight: 1
     custom-format: .3g
 part2:
   type: dropdown
   pl-customizations:
-    weight: 1
     blank: true
-    sort: fixed
+    weight: 1
 substitutions:
   params:
-    vars:
-      title: Force between current-carrying wires
-    d: '20.0'
-    I1: '2.0'
-    I2: '6.6'
-    txt: the same direction
+    L: '12'
+    q: '1.0'
+    p: '-10'
+    d: '2.4'
     part2:
       ans1:
-        value: Attract
+        value: points towards the negative plate
       ans2:
-        value: Repel
+        value: points towards the positive plate
+      ans3:
+        value: points parallel to the plates
 ---
 # {{ params.vars.title }}
-Two long, straight wires are parallel and ${{ params.d }}\rm\ cm$ apart.
-One carries a current of ${{ params.I1 }}\rm\ A$, the other a current of ${{ params.I2 }}\rm\ A$.
+Two parallel conducting plates ${{params.L}} \textrm{ cm}$ on a side are given equal and opposite charges of magnitude ${{params.q}}\times 10^{ {{params.p}} } \textrm{ C}$.
+
+The plates are ${{params.d}}\rm\ mm$ apart.
 
 ## Part 1
 
-If the two currents flow in {{ params.txt }}, what is the magnitude of the force per unit length of one wire on the other?
+What is the magnitude of the electric field at the centre of the region between the plates?
 
 ### Answer Section
 
 ## Part 2
 
-Do the wires attract or repel eachother?
+What is the direction of the electric field at the centre of the region between the plates?
 
 ### Answer Section
 
 - {{ params.part2.ans1.value }}
 - {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
 
 ## Attribution
 

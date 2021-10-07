@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $c$ = $\dfrac{(k)}{(v - 6m)} $
+    expr: $w$ = $\dfrac{(c)}{(l - 4t)} $
     part1:
       ans1:
-        value: v = ${ 6 m + \frac{k}{c}}$
+        value: l = ${ \frac{c}{w} + 4 t}$
       ans2:
-        value: v = ${- \frac{6 c m}{k}}$
+        value: l = ${- \frac{4 t w}{c}}$
       ans3:
-        value: v = ${- \frac{k}{6 c m}}$
+        value: l = ${- \frac{c}{4 t w}}$
       ans4:
-        value: v = ${\frac{c + 6 m}{k}}$
+        value: l = ${\frac{4 t + w}{c}}$
       ans5:
         value: Don't Know
 ---

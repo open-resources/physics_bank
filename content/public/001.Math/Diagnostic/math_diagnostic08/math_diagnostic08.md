@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-21x - 15y }{ 3 }$
+    expr: $\dfrac{24x - 8y }{ 4 }$
     part1:
       ans1:
-        value: $- 7 x - 5 y$
+        value: $6 x - 2 y$
       ans2:
-        value: $\dfrac{-7x - 5y}{3}$
+        value: $\dfrac{6x - 2y}{4}$
       ans3:
-        value: $-5x - 7y$
+        value: $-2x + 6y$
       ans4:
-        value: $-21x - 15y$
+        value: $24x - 8y$
       ans5:
         value: Don't know.
 ---

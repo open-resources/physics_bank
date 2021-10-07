@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 1x - 1y = 1
-    formula2: 3x + 5y = 38
+    formula1: 3x - 5y = 30
+    formula2: 3x + 3y = 15
     part1:
       ans1:
-        value: ' x =43/8, y =35/8'
+        value: ' x =55/8, y =-15/8'
       ans2:
-        value: ' x =35/8, y =43/8'
+        value: ' x =-15/8, y =55/8'
       ans3:
-        value: ' x =-43/8, y =-35/8'
+        value: ' x =-55/8, y =15/8'
       ans4:
-        value: ' x =-35/8, y =-43/8'
+        value: ' x =15/8, y =-55/8'
       ans5:
         value: Don't Know
 ---

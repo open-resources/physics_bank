@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin223$
+    a: $ \sin240$
     part1:
       ans1:
-        value: $\sin{-137}$
+        value: $\sin{-120}$
       ans2:
-        value: $\sin{137}$
+        value: $\sin{120}$
       ans3:
-        value: $\sin{-43}$
+        value: $\sin{-60}$
       ans4:
-        value: $\sin{43}$
+        value: $\sin{60}$
       ans5:
         value: Don't Know
 ---

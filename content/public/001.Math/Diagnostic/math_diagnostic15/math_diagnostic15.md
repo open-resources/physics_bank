@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $5^{3} $=$ 125$
+    expr: $4^{9} $=$ 262144$
     part1:
       ans1:
-        value: $log_5125 = 3$
+        value: $log_4262144 = 9$
       ans2:
-        value: $log_53 = 125$
+        value: $log_49 = 262144$
       ans3:
-        value: $log_1253 = 5$
+        value: $log_2621449 = 4$
       ans4:
-        value: $log_3125 = 5$
+        value: $log_9262144 = 4$
       ans5:
         value: Don't Know
 ---

@@ -94,12 +94,12 @@ substitutions:
     vars:
       title: Jump Across Stream
       units: $m$
-    m: 474
-    w_s: 3.2
-    h_s: 1.7
-    v_i: 2
+    m: 205
+    w_s: 4.9
+    h_s: 1.3
+    v_i: 4
     v_j: 5
-    h_b: 3.1
+    h_b: 3.7
     part5:
       ans1:
         value: Yes, the bear makes it to the other side of the stream.

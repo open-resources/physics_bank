@@ -28,17 +28,17 @@ substitutions:
     vars:
       title: Math Practice 23
     a: 8
-    b: 4
-    formula: $x^{8} \sin{\left(4 x \right)}$
+    b: 9
+    formula: $x^{8} \cos{\left(9 x \right)}$
     part1:
       ans1:
-        value: $4 x^{8} \cos{\left(4 x \right)} + 8 x^{7} \sin{\left(4 x \right)}$
+        value: $- 9 x^{8} \sin{\left(9 x \right)} + 8 x^{7} \cos{\left(9 x \right)}$
       ans2:
-        value: $4 x^{8} \cos{\left(4 x \right)} $
+        value: $- 9 x^{8} \sin{\left(9 x \right)} $
       ans3:
-        value: $ 8 x^{7} \cos{\left(4 x \right)}$
+        value: $ 8 x^{7} \sin{\left(9 x \right)}$
       ans4:
-        value: $- 4 x^{8} \sin{\left(4 x \right)} + 8 x^{7} \cos{\left(4 x \right)}$
+        value: $9 x^{8} \cos{\left(9 x \right)} + 8 x^{7} \sin{\left(9 x \right)}$
       ans5:
         value: Don't Know
 ---
