@@ -463,6 +463,8 @@ parts:
       point charges
   - file: content/public/018.Electrostatics/Electric Field/Vanishing electric field/Vanishing
       electric field
+  - file: content/public/018.Electrostatics/Electric Field/Conductor with a Cavity/Conductor
+      with a Cavity
   - file: content/public/018.Electrostatics/Electric Field/Zero electric field/Zero
       electric field
   - file: content/public/018.Electrostatics/Electric Field/Parallel Plaes/Parallel
