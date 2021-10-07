@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $q$ = $\dfrac{(i)}{(c + 3g)} $
+    expr: $p$ = $\dfrac{(g)}{(y + 9x)} $
     part1:
       ans1:
-        value: c = ${ - 3 g + \frac{i}{q}}$
+        value: y = ${ \frac{g}{p} - 9 x}$
       ans2:
-        value: c = ${\frac{3 g q}{i}}$
+        value: y = ${\frac{9 p x}{g}}$
       ans3:
-        value: c = ${\frac{i}{3 g q}}$
+        value: y = ${\frac{g}{9 p x}}$
       ans4:
-        value: c = ${\frac{- 3 g + q}{i}}$
+        value: y = ${\frac{p - 9 x}{g}}$
       ans5:
         value: Don't Know
 ---

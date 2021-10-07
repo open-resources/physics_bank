@@ -32,19 +32,19 @@ substitutions:
     vars:
       title: Force and Displacement
       units: J
-    f1: -11
-    f2: 15
-    r1: 2
-    r2: -14
+    f1: -14
+    f2: 1
+    r1: 4
+    r2: -8
     part1:
       ans1:
-        value: -232
+        value: -64
       ans2:
-        value: 232
+        value: 64
       ans3:
-        value: 188
+        value: -48
       ans4:
-        value: -188
+        value: 48
       ans5:
         value: Zero
 ---

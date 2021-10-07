@@ -34,7 +34,7 @@ part1:
     weight: 1
     allow-blank: true
     label: $v= $
-    suffix: $m/s \;$ ($\hat\imath$)
+    suffix: $m/s$ ($\hat{\imath}$)
 part2:
   type: number-input
   pl-customizations:
@@ -50,7 +50,7 @@ part3:
     weight: 1
     allow-blank: true
     label: $x= $
-    suffix: m
+    suffix: $m$ ($\hat{\imath}$)
 part4:
   type: number-input
   pl-customizations:
@@ -58,7 +58,7 @@ part4:
     weight: 1
     allow-blank: true
     label: $v= $
-    suffix: $m/s$
+    suffix: $m/s$ ($\hat{\imath}$)
 part5:
   type: number-input
   pl-customizations:
@@ -66,21 +66,21 @@ part5:
     weight: 1
     allow-blank: true
     label: $x= $
-    suffix: m
+    suffix: m ($\hat{\imath}$)
 substitutions:
   params:
     vars:
-      name1: Abbas
-      name2: Ximena
+      name1: Ximena
+      name2: Emilia
       title: A Skateboarder and an Observer
       unit_v: $m/s$
       unit_t: $s$
       unit_x: $m$
-    v: 1.5
-    v_b: 3.1
-    h: 3.09
-    m_s: 89.5
-    m_b: 2.31
+    v: 0.332
+    v_b: 3.05
+    h: 2.38
+    m_s: 55.7
+    m_b: 1.12
 ---
 # {{ params.vars.title }}
 {{ params.vars.name1 }}  is  on  a  skateboard  and  has  an  initial  velocity  of  ({{ params.v }} $m/s$) $\hat{\imath}$ relative  to  {{ params.vars.name2 }}  who  is at rest with respect to the earth.  Just as they are gliding past {{ params.vars.name2 }},  {{ params.vars.name1 }} throws a ball in the positive $x$-direction from a height of {{ params.h }} m.  According to {{ params.vars.name1 }}, the ball has an initial velocity of ({{ params.v_b }} $m/s$) $\hat{\imath}$.
@@ -103,7 +103,7 @@ Please enter in a numeric value in {{ params.vars.unit_t }}.
 
 ## Part 3
 
-How far to the right of {{ params.vars.name2 }} does the ball land?
+Relative to {{ params.vars.name2 }}, where does the ball land?
 
 ### Answer Section
 
@@ -119,7 +119,7 @@ Please enter in a numeric value in {{ params.vars.unit_v }}.
 
 ## Part 5
 
-How far to the right of {{ params.vars.name1 }} does the ball land?
+Relative to {{ params.vars.name1 }}, where does the ball land?
 
 ### Answer Section
 

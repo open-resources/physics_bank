@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic 6
-    eq: $\dfrac{x-4}{x+9}$ = $ \dfrac{x+1}{x-8}$
+    eq: $\dfrac{x-4}{x+1}$ = $ \dfrac{x+8}{x-9}$
     part1:
       ans1:
-        value: -34/11
+        value: 23/22
       ans2:
-        value: 14/11
+        value: -34/11
       ans3:
-        value: '-17'
+        value: -23/12
       ans4:
-        value: -14/11
+        value: 34/11
 ---
 # {{ params.vars.title }}
 

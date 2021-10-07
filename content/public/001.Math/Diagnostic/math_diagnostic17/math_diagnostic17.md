@@ -31,16 +31,16 @@ substitutions:
     vars:
       title: Math Practice 17
     a: 3
-    b: 7
+    b: 4
     part1:
       ans1:
-        value: $e^{7} e^{3 y}$
+        value: $e^{4} e^{3 y}$
       ans2:
         value: $e^{3 y} + e^{3}$
       ans3:
         value: $3 e^{3} e^{y}$
       ans4:
-        value: $7 e^{3 y}$
+        value: $4 e^{3 y}$
       ans5:
         value: Don't Know
 ---
