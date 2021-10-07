@@ -60,9 +60,9 @@ substitutions:
   params:
     vars:
       title: Energy in a Series RL Circuit
-    L: '3.25'
-    R: '450.0'
-    I: '5.00'
+    L: '2.75'
+    R: '200.0'
+    I: '4.00'
 ---
 # {{ params.vars.title }}
 A coil with a self-inductance of ${{ params.L }}\rm\ H$ and a resistance of ${{ params.R }}\rm\ \Omega$ carries a steady current of ${{ params.I }}\rm\ A$.

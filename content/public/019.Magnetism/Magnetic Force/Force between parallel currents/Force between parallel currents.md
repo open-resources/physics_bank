@@ -1,81 +1,79 @@
 ---
-title: Unknown Voltage Source
-topic: Circuits
-author: Joseph Wandinger
-source: 2.10.23
-template_version: 1.3
+title: Force between parallel currents
+topic: Magnetism
+author: Jake Bobowski
+source: 2.12.30
+template_version: 1.1
 attribution: openstax-physics-vol2
-partialCredit: true
-singleVariant: false
 outcomes:
-- 21.12.1.0
+- 19.3.3.2
+- 19.3.3.4
 difficulty:
 - undefined
 randomization:
 - undefined
 taxonomy:
 - undefined
-span:
-- undefined
-length:
-- undefined
 tags:
 - OSUP
 - volume 2
-- chapter 10
-- problem 23
-- circuits
-- Kirchhoff's rules
-- multi-part
-- JW
+- chapter 12
+- problem 30
+- magnetic fields
+- parallel currents
+- force
+- numeric
+- JB
+assets: null
 part1:
   type: number-input
   pl-customizations:
-    label: $R=$
+    label: $F/\ell=$
     allow-blank: false
-    show-correct-answer: false
+    show-correct-answer: true
     comparison: relabs
     rtol: 0.03
     atol: 0
     show-help-text: true
-    suffix: $\rm\ \Omega$
+    suffix: $\rm\ N/m$
     weight: 1
     custom-format: .3g
 part2:
   type: dropdown
   pl-customizations:
-    blank: true
     weight: 1
+    blank: true
+    sort: fixed
 substitutions:
   params:
     vars:
-      title: Unknown Voltage Source
-    dV: '2.80'
-    dI: '5.90'
+      title: Force between parallel currents
+    d: '40.0'
+    I: '76.0'
+    txt: the same direction
     part2:
       ans1:
-        value: 'No'
+        value: Attract
       ans2:
-        value: 'Yes'
+        value: Repel
 ---
 # {{ params.vars.title }}
+Two long, straight wires are parallel and ${{ params.d }}\rm\ cm$ apart.
 
 ## Part 1
 
-What is the internal resistance of a voltage source if its terminal potential drops by ${{ params.dV }}\rm\ V$ when the current supplied increases by ${{ params.dI }}\rm\ A$?
+If each wire carries a current of ${{ params.I }}\rm\ A$ in {{ params.txt }}, what is the magnetic force per meter exerted on each wire?
 
 ### Answer Section
-
-Please enter a numeric value.
 
 ## Part 2
 
-Can the emf of the voltage source be found with the information supplied?
+Do the wire attract or repel eachother?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
 
 ## Attribution
 

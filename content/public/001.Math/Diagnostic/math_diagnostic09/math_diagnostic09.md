@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $e$ = $\dfrac{(g)}{(b - 8c)} $
+    expr: $b$ = $\dfrac{(n)}{(g - 7c)} $
     part1:
       ans1:
-        value: b = ${ 8 c + \frac{g}{e}}$
+        value: g = ${ 7 c + \frac{n}{b}}$
       ans2:
-        value: b = ${- \frac{8 c e}{g}}$
+        value: g = ${- \frac{7 b c}{n}}$
       ans3:
-        value: b = ${- \frac{g}{8 c e}}$
+        value: g = ${- \frac{n}{7 b c}}$
       ans4:
-        value: b = ${\frac{8 c + e}{g}}$
+        value: g = ${\frac{b + 7 c}{n}}$
       ans5:
         value: Don't Know
 ---
