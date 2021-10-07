@@ -53,7 +53,7 @@ substitutions:
   params:
     vars:
       title: Perfectly Inelastic Collision
-    v1: 1
+    v1: 3
     v2: 2
 ---
 # {{ params.vars.title }}

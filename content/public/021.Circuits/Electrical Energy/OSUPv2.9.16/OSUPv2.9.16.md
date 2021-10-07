@@ -29,16 +29,16 @@ substitutions:
   params:
     vars:
       title: Energy Consumption Units
-      name: Santiago
+      name: Savannah
     part1:
       ans1:
-        value: power
-      ans2:
-        value: energy
-      ans3:
         value: voltage
-      ans4:
+      ans2:
         value: charge
+      ans3:
+        value: power
+      ans4:
+        value: energy
       ans5:
         value: current
 ---

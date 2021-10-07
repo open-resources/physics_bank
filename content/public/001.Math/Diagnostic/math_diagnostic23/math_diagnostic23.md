@@ -28,17 +28,17 @@ substitutions:
     vars:
       title: Math Practice 23
     a: 4
-    b: 3
-    formula: $x^{4} \sin{\left(3 x \right)}$
+    b: 2
+    formula: $x^{4} \sin{\left(2 x \right)}$
     part1:
       ans1:
-        value: $3 x^{4} \cos{\left(3 x \right)} + 4 x^{3} \sin{\left(3 x \right)}$
+        value: $2 x^{4} \cos{\left(2 x \right)} + 4 x^{3} \sin{\left(2 x \right)}$
       ans2:
-        value: $3 x^{4} \cos{\left(3 x \right)} $
+        value: $2 x^{4} \cos{\left(2 x \right)} $
       ans3:
-        value: $ 4 x^{3} \cos{\left(3 x \right)}$
+        value: $ 4 x^{3} \cos{\left(2 x \right)}$
       ans4:
-        value: $- 3 x^{4} \sin{\left(3 x \right)} + 4 x^{3} \cos{\left(3 x \right)}$
+        value: $- 2 x^{4} \sin{\left(2 x \right)} + 4 x^{3} \cos{\left(2 x \right)}$
       ans5:
         value: Don't Know
 ---

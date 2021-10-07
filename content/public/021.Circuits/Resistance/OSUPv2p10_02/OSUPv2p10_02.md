@@ -36,8 +36,8 @@ substitutions:
   params:
     vars:
       title: Battery Internal Resistance
-    x: 4
-    N: 5
+    x: 2
+    N: 2
     V_string: '10.75'
 ---
 # {{ params.vars.title }}

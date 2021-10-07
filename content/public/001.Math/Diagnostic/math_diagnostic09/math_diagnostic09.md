@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $z$ = $\dfrac{(c)}{(f + 4n)} $
+    expr: $w$ = $\dfrac{(x)}{(d + 7f)} $
     part1:
       ans1:
-        value: f = ${ \frac{c}{z} - 4 n}$
+        value: d = ${ - 7 f + \frac{x}{w}}$
       ans2:
-        value: f = ${\frac{4 n z}{c}}$
+        value: d = ${\frac{7 f w}{x}}$
       ans3:
-        value: f = ${\frac{c}{4 n z}}$
+        value: d = ${\frac{x}{7 f w}}$
       ans4:
-        value: f = ${\frac{- 4 n + z}{c}}$
+        value: d = ${\frac{- 7 f + w}{x}}$
       ans5:
         value: Don't Know
 ---
