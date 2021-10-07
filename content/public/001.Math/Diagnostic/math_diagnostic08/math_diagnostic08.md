@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-28x - 42y }{ 7 }$
+    expr: $\dfrac{-42x - 42y }{ -6 }$
     part1:
       ans1:
-        value: $- 4 x - 6 y$
+        value: $7 x + 7 y$
       ans2:
-        value: $\dfrac{-4x - 6y}{7}$
+        value: $\dfrac{7x + 7y}{-6}$
       ans3:
-        value: $-6x - 4y$
+        value: $7x + 7y$
       ans4:
-        value: $-28x - 42y$
+        value: $-42x + 42y$
       ans5:
         value: Don't know.
 ---

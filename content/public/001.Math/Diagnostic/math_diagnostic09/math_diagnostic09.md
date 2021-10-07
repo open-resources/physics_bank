@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $w$ = $\dfrac{(x)}{(d + 7f)} $
+    expr: $c$ = $\dfrac{(f)}{(t - 7p)} $
     part1:
       ans1:
-        value: d = ${ - 7 f + \frac{x}{w}}$
+        value: t = ${ 7 p + \frac{f}{c}}$
       ans2:
-        value: d = ${\frac{7 f w}{x}}$
+        value: t = ${- \frac{7 c p}{f}}$
       ans3:
-        value: d = ${\frac{x}{7 f w}}$
+        value: t = ${- \frac{f}{7 c p}}$
       ans4:
-        value: d = ${\frac{- 7 f + w}{x}}$
+        value: t = ${\frac{c + 7 p}{f}}$
       ans5:
         value: Don't Know
 ---

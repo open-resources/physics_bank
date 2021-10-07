@@ -44,9 +44,9 @@ substitutions:
   params:
     vars:
       title: 'RL Series Circuit: Energy'
-    factor: '4'
+    factor: '3'
     word: reduced
-    ans: '0.062'
+    ans: '0.111'
 ---
 # {{ params.vars.title }}
 Consider the $RL$ circuit shown below.

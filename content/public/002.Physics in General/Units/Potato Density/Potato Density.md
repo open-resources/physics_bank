@@ -62,8 +62,8 @@ substitutions:
       name: Abbas
       unit1: $kg$
       unit2: $m^3$
-    m_p: 185
-    m_cp: 67
+    m_p: 220
+    m_cp: 72
     l: 4
 ---
 # {{ params.vars.title }}

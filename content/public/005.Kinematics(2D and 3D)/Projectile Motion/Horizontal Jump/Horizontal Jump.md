@@ -31,22 +31,22 @@ part1:
 substitutions:
   params:
     vars:
-      sport: mountain biker
+      sport: skateboarder
       title: Horizontal Jump
       units: m
-    v: 22
-    d: 4.4399999999999995
+    v: 21
+    d: 4.3
     part1:
       ans1:
         value: 9.81
       ans2:
-        value: 14.8
+        value: 13.9
       ans3:
-        value: 19.91
+        value: 18.41
       ans4:
-        value: 20.93
+        value: 19.66
       ans5:
-        value: 29.87
+        value: 27.61
 ---
 # {{ params.vars.title }}
 

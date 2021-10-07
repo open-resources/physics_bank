@@ -61,15 +61,15 @@ substitutions:
       name: Emilia
       unit1: $m/s$
       unit2: $kg/s$
-    m: 2
-    d_m: 30
-    sd: 0.052
-    v1: 0.78
-    v2: 0.85
-    v3: 0.85
-    v4: 0.9
-    v5: 0.74
-    v6: 0.84
+    m: 4
+    d_m: 38
+    sd: 0.064
+    v1: 0.91
+    v2: 0.79
+    v3: 0.81
+    v4: 0.86
+    v5: 0.72
+    v6: 0.75
 ---
 # {{ params.vars.title }}
 In one of the PHYS 111 labs {{ params.vars.name }} measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling through the air.
