@@ -34,9 +34,9 @@ substitutions:
   params:
     vars:
       title: Impulse of a Mallet
-    F: 145
-    t1: 0.002
-    t2: 0.009
+    F: 387
+    t1: 0.001
+    t2: 0.008
     t3: 0.012
 ---
 # {{ params.vars.title }}

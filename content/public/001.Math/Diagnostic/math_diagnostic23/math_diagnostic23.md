@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 1
-    b: 8
-    formula: $x \cos{\left(8 x \right)}$
+    a: 8
+    b: 9
+    formula: $x^{8} \sin{\left(9 x \right)}$
     part1:
       ans1:
-        value: $- 8 x \sin{\left(8 x \right)} + \cos{\left(8 x \right)}$
+        value: $9 x^{8} \cos{\left(9 x \right)} + 8 x^{7} \sin{\left(9 x \right)}$
       ans2:
-        value: $- 8 x \sin{\left(8 x \right)} $
+        value: $9 x^{8} \cos{\left(9 x \right)} $
       ans3:
-        value: $ \sin{\left(8 x \right)}$
+        value: $ 8 x^{7} \cos{\left(9 x \right)}$
       ans4:
-        value: $8 x \cos{\left(8 x \right)} + \sin{\left(8 x \right)}$
+        value: $- 9 x^{8} \sin{\left(9 x \right)} + 8 x^{7} \cos{\left(9 x \right)}$
       ans5:
         value: Don't Know
 ---

@@ -45,8 +45,8 @@ substitutions:
       title: Distance and Time for a crate released by a Jett
       distance_units: $m$
       time_units: $seconds$
-    distance_from_ground: 424
-    speed_of_jett: 589
+    distance_from_ground: 690
+    speed_of_jett: 371
     angle: 40
 ---
 # {{ params.vars.title }}

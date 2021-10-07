@@ -34,12 +34,12 @@ substitutions:
   params:
     vars:
       title: Slider Restricted by Spring
-    m: 60
-    F: 385
-    x1: 0.205
-    d: 1.2
-    h: 0.71
-    k: 62
+    m: 50
+    F: 287
+    x1: 0.207
+    d: 1.44
+    h: 1.11
+    k: 60
 ---
 # {{ params.vars.title }}
 <img src="Slider Restricted by Spring.png" width=100%>

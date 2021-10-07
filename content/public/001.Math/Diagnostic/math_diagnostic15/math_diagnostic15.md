@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $8^{4} $=$ 4096$
+    expr: $3^{4} $=$ 81$
     part1:
       ans1:
-        value: $log_84096 = 4$
+        value: $log_381 = 4$
       ans2:
-        value: $log_84 = 4096$
+        value: $log_34 = 81$
       ans3:
-        value: $log_40964 = 8$
+        value: $log_814 = 3$
       ans4:
-        value: $log_44096 = 8$
+        value: $log_481 = 3$
       ans5:
         value: Don't Know
 ---

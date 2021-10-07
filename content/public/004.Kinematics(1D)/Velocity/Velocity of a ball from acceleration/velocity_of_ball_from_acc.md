@@ -35,10 +35,10 @@ substitutions:
     vars:
       title: Velocity of a ball from acceleration
       units: m/s
-    v0: 22
-    s0: 6
-    k: 0.04
-    s: 11
+    v0: 21
+    s0: 7
+    k: 0.01
+    s: 12
 ---
 # {{ params.vars.title }}
 The acceleration of a ball is given by $a(s) = -5ks^2$,

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $o$ = $\dfrac{(m)}{(b + 2i)} $
+    expr: $o$ = $\dfrac{(t)}{(v + 3u)} $
     part1:
       ans1:
-        value: b = ${ - 2 i + \frac{m}{o}}$
+        value: v = ${ - 3 u + \frac{t}{o}}$
       ans2:
-        value: b = ${\frac{2 i o}{m}}$
+        value: v = ${\frac{3 o u}{t}}$
       ans3:
-        value: b = ${\frac{m}{2 i o}}$
+        value: v = ${\frac{t}{3 o u}}$
       ans4:
-        value: b = ${\frac{- 2 i + o}{m}}$
+        value: v = ${\frac{o - 3 u}{t}}$
       ans5:
         value: Don't Know
 ---

@@ -47,7 +47,7 @@ part3:
 substitutions:
   params:
     vars:
-      name: Maya
+      name: Aliyah
       title: Smudge
 ---
 # {{ params.vars.title }}

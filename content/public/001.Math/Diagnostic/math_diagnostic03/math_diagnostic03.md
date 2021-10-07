@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: -1x + -4 > -10x + -2
+      formula: 5x + -8 > 1x + 6
     part1:
       ans1:
-        value: x > 2/9
+        value: x > 7/2
       ans2:
-        value: x < 2/9
+        value: x < 7/2
       ans3:
-        value: x < 9/2
+        value: x < 2/7
       ans4:
-        value: x > 9/2
+        value: x > 2/7
       ans5:
         value: Don't Know
 ---
