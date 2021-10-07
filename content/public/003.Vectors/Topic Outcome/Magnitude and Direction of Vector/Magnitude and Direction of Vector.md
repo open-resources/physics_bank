@@ -36,29 +36,29 @@ substitutions:
   params:
     vars:
       title: Magnitude and Direction of a Vector
-    A_i: -1
-    A_j_abs: 6
+    A_i: 7
+    A_j_abs: 2
     A_j_sign: ' + '
-    B_i: -10
+    B_i: 2
     B_j_abs: 4
     B_j_sign: ' + '
-    C_i: 4
-    C_j_abs: 3
-    C_j_sign: ' - '
-    d: -6
+    C_i: -8
+    C_j_abs: 1
+    C_j_sign: ' + '
+    d: 9
     part1:
       ans1:
-        value: ($\sqrt{630}$, $\theta = $127.0$^\circ$)
+        value: ($\sqrt{4500}$, $\theta = $174.0$^\circ$)
       ans2:
-        value: ($\sqrt{630}$, $\theta = $63.5$^\circ$)
+        value: ($\sqrt{4500}$, $\theta = $87.0$^\circ$)
       ans3:
-        value: ($\sqrt{315.0}$, $\theta = $63.5$^\circ$)
+        value: ($\sqrt{2250.0}$, $\theta = $87.0$^\circ$)
       ans4:
-        value: ($\sqrt{25.0}$, $\theta = $127.0$^\circ$)
+        value: ($\sqrt{67.0}$, $\theta = $174.0$^\circ$)
       ans5:
-        value: ($\sqrt{945.0}$, $\theta = $63.5$^\circ$)
+        value: ($\sqrt{6750.0}$, $\theta = $87.0$^\circ$)
       ans6:
-        value: ($\sqrt{5}$, $\theta = $127.0$^\circ$)
+        value: ($\sqrt{60}$, $\theta = $174.0$^\circ$)
 ---
 # {{ params.vars.title }}
 Given $\vec{A} =$ {{ params.A_i }}$\hat{\imath}$ {{params.A_j_sign}} {{ params.A_j_abs}}$\hat{\jmath}$, $\vec{B} =$ {{ params.B_i }}$\hat{\imath}$ {{params.B_j_sign}} {{ params.B_j_abs}}$\hat{\jmath}$, $\vec{C} =$ {{ params.C_i }}$\hat{\imath}$ {{params.C_j_sign}} {{ params.C_j_abs}}$\hat{\jmath}$ and $d=$ {{ params.d }}, find the magnitude and direction of $\vec{A}-\vec{B}+d\vec{C}$.

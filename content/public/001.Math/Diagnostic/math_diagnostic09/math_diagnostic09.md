@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $o$ = $\dfrac{(t)}{(v + 3u)} $
+    expr: $z$ = $\dfrac{(c)}{(f + 4n)} $
     part1:
       ans1:
-        value: v = ${ - 3 u + \frac{t}{o}}$
+        value: f = ${ \frac{c}{z} - 4 n}$
       ans2:
-        value: v = ${\frac{3 o u}{t}}$
+        value: f = ${\frac{4 n z}{c}}$
       ans3:
-        value: v = ${\frac{t}{3 o u}}$
+        value: f = ${\frac{c}{4 n z}}$
       ans4:
-        value: v = ${\frac{o - 3 u}{t}}$
+        value: f = ${\frac{- 4 n + z}{c}}$
       ans5:
         value: Don't Know
 ---

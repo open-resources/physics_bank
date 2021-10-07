@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $3^{4} $=$ 81$
+    expr: $7^{1} $=$ 7$
     part1:
       ans1:
-        value: $log_381 = 4$
+        value: $log_77 = 1$
       ans2:
-        value: $log_34 = 81$
+        value: $log_71 = 7$
       ans3:
-        value: $log_814 = 3$
+        value: $log_71 = 7$
       ans4:
-        value: $log_481 = 3$
+        value: $log_17 = 7$
       ans5:
         value: Don't Know
 ---
