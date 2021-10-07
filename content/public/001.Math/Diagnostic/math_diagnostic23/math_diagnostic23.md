@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 9
+    a: 2
     b: 4
-    formula: $x^{9} \cos{\left(4 x \right)}$
+    formula: $x^{2} \cos{\left(4 x \right)}$
     part1:
       ans1:
-        value: $- 4 x^{9} \sin{\left(4 x \right)} + 9 x^{8} \cos{\left(4 x \right)}$
+        value: $- 4 x^{2} \sin{\left(4 x \right)} + 2 x \cos{\left(4 x \right)}$
       ans2:
-        value: $- 4 x^{9} \sin{\left(4 x \right)} $
+        value: $- 4 x^{2} \sin{\left(4 x \right)} $
       ans3:
-        value: $ 9 x^{8} \sin{\left(4 x \right)}$
+        value: $ 2 x \sin{\left(4 x \right)}$
       ans4:
-        value: $4 x^{9} \cos{\left(4 x \right)} + 9 x^{8} \sin{\left(4 x \right)}$
+        value: $4 x^{2} \cos{\left(4 x \right)} + 2 x \sin{\left(4 x \right)}$
       ans5:
         value: Don't Know
 ---

@@ -1,17 +1,14 @@
 ---
-title: Connecting Capacitors
+title: Unknown Voltage Source
 topic: Circuits
-author: Ava Cornell
-source: 2.8.35
+author: Joseph Wandinger
+source: 2.10.23
 template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
 outcomes:
-- 21.7.1.0
-- 21.7.2.0
-- 21.7.3.0
-- 21.7.4.0
+- 21.12.1.0
 difficulty:
 - undefined
 randomization:
@@ -25,44 +22,47 @@ length:
 tags:
 - OSUP
 - volume 2
-- chapter 8
-- problem 35
-- capacitors
+- chapter 10
+- problem 23
+- circuits
+- Kirchhoff's rules
 - multi-part
-- AC
-assets: null
+- JW
 part1:
   type: number-input
   pl-customizations:
-    rtol: 0.05
-    label: $C_\textrm{S}=$
+    label: $R=$
     allow-blank: false
+    show-correct-answer: false
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
     show-help-text: true
-    suffix: $\rm\ \mu\textrm{F}$
+    suffix: $\rm\ \Omega$
     weight: 1
+    custom-format: .3g
 part2:
-  type: number-input
+  type: dropdown
   pl-customizations:
-    rtol: 0.05
-    label: $C_\textrm{P}=$
-    allow-blank: false
-    show-help-text: true
-    suffix: $\rm\ \mu\textrm{F}$
+    blank: true
     weight: 1
 substitutions:
   params:
     vars:
-      title: Connecting Capacitors
-      name: Ahmed
-    a: '7'
-    b: '9'
+      title: Unknown Voltage Source
+    dV: '2.60'
+    dI: '5.20'
+    part2:
+      ans1:
+        value: 'No'
+      ans2:
+        value: 'Yes'
 ---
 # {{ params.vars.title }}
-{{ params.vars.name }} has a {{params.a }} $\rm\ \mu\textrm{F}$ capacitor and a {{params.b }} $\rm\ \mu\textrm{F}$ capacitor.
 
 ## Part 1
 
-What is the equivalent capacitance acquired by connecting these capacitors in series?
+What is the internal resistance of a voltage source if its terminal potential drops by ${{ params.dV }}\rm\ V$ when the current supplied increases by ${{ params.dI }}\rm\ A$?
 
 ### Answer Section
 
@@ -70,11 +70,12 @@ Please enter a numeric value.
 
 ## Part 2
 
-What is the equivalent capacitance acquired by connecting these capacitors in parallel?
+Can the emf of the voltage source be found with the information supplied?
 
 ### Answer Section
 
-Please enter a numeric value.
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Attribution
 

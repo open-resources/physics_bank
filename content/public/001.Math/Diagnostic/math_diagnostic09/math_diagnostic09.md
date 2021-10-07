@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $j$ = $\dfrac{(v)}{(p - 5s)} $
+    expr: $i$ = $\dfrac{(k)}{(c + 4n)} $
     part1:
       ans1:
-        value: p = ${ 5 s + \frac{v}{j}}$
+        value: c = ${ - 4 n + \frac{k}{i}}$
       ans2:
-        value: p = ${- \frac{5 j s}{v}}$
+        value: c = ${\frac{4 i n}{k}}$
       ans3:
-        value: p = ${- \frac{v}{5 j s}}$
+        value: c = ${\frac{k}{4 i n}}$
       ans4:
-        value: p = ${\frac{j + 5 s}{v}}$
+        value: c = ${\frac{i - 4 n}{k}}$
       ans5:
         value: Don't Know
 ---
