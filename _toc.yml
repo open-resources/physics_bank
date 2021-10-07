@@ -642,6 +642,7 @@ parts:
   - file: content/public/021.Circuits/OSUPv2p8_55/OSUPv2p8_55
   - file: content/public/021.Circuits/Electrical Energy/OSUPv2.9.16/OSUPv2.9.16
   - file: content/public/021.Circuits/Ohm's Law/Indicator Light/indicator_light
+  - file: content/public/021.Circuits/Ohm's Law/OSUPv2p10_23/OSUPv2p10_23
   - file: content/public/021.Circuits/Ohm's Law/OSUPv2.9.13/OSUPv2.9.13
   - file: content/public/021.Circuits/Ohm's Law/OSUPv2p10_30/OSUPv2p10_30
   - file: content/public/021.Circuits/Electrical Power/LED Bulb/LED_bulb
