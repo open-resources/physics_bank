@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $c$ = $\dfrac{(f)}{(t - 7p)} $
+    expr: $e$ = $\dfrac{(g)}{(b - 8c)} $
     part1:
       ans1:
-        value: t = ${ 7 p + \frac{f}{c}}$
+        value: b = ${ 8 c + \frac{g}{e}}$
       ans2:
-        value: t = ${- \frac{7 c p}{f}}$
+        value: b = ${- \frac{8 c e}{g}}$
       ans3:
-        value: t = ${- \frac{f}{7 c p}}$
+        value: b = ${- \frac{g}{8 c e}}$
       ans4:
-        value: t = ${\frac{c + 7 p}{f}}$
+        value: b = ${\frac{8 c + e}{g}}$
       ans5:
         value: Don't Know
 ---

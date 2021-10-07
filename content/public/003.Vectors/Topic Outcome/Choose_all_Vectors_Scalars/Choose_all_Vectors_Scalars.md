@@ -35,17 +35,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Energy
+        value: Work
       ans2:
-        value: Entropy
+        value: Distance travelled
       ans3:
-        value: Power
+        value: Temperature
       ans4:
-        value: Area
+        value: Mass
       ans5:
-        value: The position in a 1 dimensional system
+        value: Force
       ans6:
-        value: Lift
+        value: Weight
 ---
 # {{ params.vars.title }}
 

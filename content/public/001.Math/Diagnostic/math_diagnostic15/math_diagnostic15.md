@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $6^{3} $=$ 216$
+    expr: $3^{7} $=$ 2187$
     part1:
       ans1:
-        value: $log_6216 = 3$
+        value: $log_32187 = 7$
       ans2:
-        value: $log_63 = 216$
+        value: $log_37 = 2187$
       ans3:
-        value: $log_2163 = 6$
+        value: $log_21877 = 3$
       ans4:
-        value: $log_3216 = 6$
+        value: $log_72187 = 3$
       ans5:
         value: Don't Know
 ---

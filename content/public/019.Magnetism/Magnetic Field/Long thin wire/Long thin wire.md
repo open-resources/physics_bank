@@ -1,55 +1,53 @@
 ---
-title: Electric potential energy of a cube
-topic: Electrostatics
+title: Long thin wire
+topic: Magnetism
 author: Jake Bobowksi
-source: 2.7.74
-template_version: 1.3
+source: 2.12.23
+template_version: 1.0
 attribution: openstax-physics-vol2
-partialCredit: true
-singleVariant: false
 outcomes:
-- 18.11.2.3
+- 19.2.4.1
 difficulty:
 - undefined
 randomization:
 - undefined
 taxonomy:
 - undefined
-span:
-- undefined
-length:
-- undefined
 tags:
 - OSUP
 - volume 2
-- chapter 7
-- problem 74
-- electric potential energy
-- cube
+- chapter 12
+- problem 23
+- Ampere's law
+- line of current
+- magnetic field
 - numeric
 - JB
 assets: null
 part1:
   type: number-input
   pl-customizations:
-    rtol: 0.05
     weight: 1
     allow-blank: false
     show-correct-answer: false
-    label: $U= $
-    suffix: $\rm\ J$
+    label: $I= $
+    suffix: $\rm\ A$
+    comparison: relabs
+    rtol: 0.03
+    atol: 0
 substitutions:
   params:
     vars:
-      title: Electric potential energy of a cube
-    q: '2.00'
-    d: '3.80'
+      title: Long thin wire
+    B: '6.8'
+    d: '66'
 ---
 # {{ params.vars.title }}
+The magnitude of the megnetic field ${{ params.d }}\rm\ cm$ from a long, thin straight wire is ${{ params.B }}\rm\ \mu T$.
 
 ## Question Text
 
-Find the electrostatic potential enerty of eight equal charges ({{ params.q }}$\rm\ \mu C$) each fixed at the corners of a cube of side {{ params.d }}$\textrm{ cm}$.
+What is the current through the long wire?
 
 ### Answer Section
 

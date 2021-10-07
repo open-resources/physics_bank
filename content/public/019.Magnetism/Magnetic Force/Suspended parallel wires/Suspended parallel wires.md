@@ -43,8 +43,8 @@ substitutions:
   params:
     vars:
       title: Suspended parallel wires
-    s: '5.8'
-    mu: '32.6'
+    s: '3.4'
+    mu: '20.2'
     theta: '3.0'
 ---
 # {{ params.vars.title }}

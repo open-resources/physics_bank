@@ -56,7 +56,7 @@ substitutions:
     vars:
       title: Speed of a Rolling Object
       units: $m/s$
-    h: 13.9
+    h: 24.7
 ---
 # {{ params.vars.title }}
 One end of a massless string is attached to a massless axle that passes through the centre of mass of an object (mass $m$) that has a circular cross-section (radius $R$)  and  rolls  without  slipping  up  the  incline.

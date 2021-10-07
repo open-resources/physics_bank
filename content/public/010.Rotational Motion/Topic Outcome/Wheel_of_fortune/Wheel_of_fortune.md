@@ -31,7 +31,7 @@ substitutions:
   params:
     vars:
       units: rad/s
-      name: Mateo
+      name: Ximena
       title: Wheel of Fortune
     w_i: ${\pi \over 3} {rad\over s}$
     t: 5

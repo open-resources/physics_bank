@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 8x - 8y = 6
-    formula2: 9x + 2y = 48
+    formula1: 6x - 6y = 42
+    formula2: 2x + 6y = 49
     part1:
       ans1:
-        value: ' x =9/2, y =15/4'
+        value: ' x =91/8, y =35/8'
       ans2:
-        value: ' x =15/4, y =9/2'
+        value: ' x =35/8, y =91/8'
       ans3:
-        value: ' x =-9/2, y =-15/4'
+        value: ' x =-91/8, y =-35/8'
       ans4:
-        value: ' x =-15/4, y =-9/2'
+        value: ' x =-35/8, y =-91/8'
       ans5:
         value: Don't Know
 ---
