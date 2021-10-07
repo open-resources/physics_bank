@@ -33,14 +33,14 @@ substitutions:
   params:
     vars:
       title: Firing a Ball
-    theta: 30
+    theta: 60
     part1:
       ans1:
-        value: $2v_1$
+        value: $\frac{2v_1}{\sqrt{3}}$
       ans2:
         value: $\sqrt{2}v_1$
       ans3:
-        value: $\frac{2v_1}{\sqrt{3}}$
+        value: $2v_1$
       ans4:
         value: $\frac{v_1}{2}$
       ans5:

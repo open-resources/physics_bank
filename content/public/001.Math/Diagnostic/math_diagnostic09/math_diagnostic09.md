@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $k$ = $\dfrac{(s)}{(c - 8j)} $
+    expr: $q$ = $\dfrac{(i)}{(c + 3g)} $
     part1:
       ans1:
-        value: c = ${ 8 j + \frac{s}{k}}$
+        value: c = ${ - 3 g + \frac{i}{q}}$
       ans2:
-        value: c = ${- \frac{8 j k}{s}}$
+        value: c = ${\frac{3 g q}{i}}$
       ans3:
-        value: c = ${- \frac{s}{8 j k}}$
+        value: c = ${\frac{i}{3 g q}}$
       ans4:
-        value: c = ${\frac{8 j + k}{s}}$
+        value: c = ${\frac{- 3 g + q}{i}}$
       ans5:
         value: Don't Know
 ---

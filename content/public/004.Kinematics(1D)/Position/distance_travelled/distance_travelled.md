@@ -30,20 +30,20 @@ substitutions:
   params:
     vars:
       name: Ximena
-      vehicle: a bicycle
+      vehicle: a tricycle
       units: m
       title: Distance travelled
-    v: 4
-    t: 7
+    v: 7
+    t: 10
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 28
+        value: 70
       ans3:
-        value: 11
+        value: 17
       ans4:
-        value: 0.57
+        value: 0.7
       ans5:
         value: -3
       ans6:

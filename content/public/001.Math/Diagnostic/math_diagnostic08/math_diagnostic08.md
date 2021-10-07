@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-6x + 27y }{ -3 }$
+    expr: $\dfrac{-35x - 56y }{ -7 }$
     part1:
       ans1:
-        value: $2 x - 9 y$
+        value: $5 x + 8 y$
       ans2:
-        value: $\dfrac{2x - 9y}{-3}$
+        value: $\dfrac{5x + 8y}{-7}$
       ans3:
-        value: $-9x + 2y$
+        value: $8x + 5y$
       ans4:
-        value: $-6x - 27y$
+        value: $-35x + 56y$
       ans5:
         value: Don't know.
 ---

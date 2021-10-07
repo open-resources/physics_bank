@@ -50,10 +50,10 @@ substitutions:
   params:
     vars:
       title: Aircraft Liftoff 3D
-    v: 337
-    z: 309
-    x: 412
-    angle: 0.44
+    v: 389
+    z: 317
+    x: 439
+    angle: 0.72
 ---
 # {{ params.vars.title }}
 <img src="L10Q1.png" width=85%>

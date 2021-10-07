@@ -31,7 +31,7 @@ part1:
     weight: 1
     allow-blank: true
     label: $v_{A/B}= $
-    suffix: $i$
+    suffix: $km/h$ ($\hat\imath$)
 part2:
   type: number-input
   pl-customizations:
@@ -39,7 +39,7 @@ part2:
     weight: 1
     allow-blank: true
     label: $v_{A/B}= $
-    suffix: $j$
+    suffix: $km/h$ ($\hat\jmath$)
 part3:
   type: number-input
   pl-customizations:
@@ -47,7 +47,7 @@ part3:
     weight: 1
     allow-blank: true
     label: $v_{A/B}= $
-    suffix: $i$
+    suffix: $km/h$ ($\hat\imath$)
 part4:
   type: number-input
   pl-customizations:
@@ -55,29 +55,29 @@ part4:
     weight: 1
     allow-blank: true
     label: $v_{A/B}= $
-    suffix: $j$
+    suffix: $km/h$ ($\hat\jmath$)
 substitutions:
   params:
     vars:
       title: Relative Motion of Fighter Jets
-    d1: 522
-    d2: 420
-    theta1: 30
-    theta2: 60
-    v_A: 257
-    v_B: 349
+    d1: 417
+    d2: 352
+    theta1: 38
+    theta2: 52
+    v_A: 336
+    v_B: 307
 ---
 # {{ params.vars.title }}
 <img src="L11Q5.png" width=85%>
 
-Plane A enters a trick shown in the path above, at a constant speed of ${{params.v_A}}km/h$.
-Relative to the pilot in plane B, who flies in a straight line at a constant speed of ${{params.v_B}}km/h$.
+Plane A enters a trick shown in the path above, at a constant speed of ${{params.v_A}} km/h$ relative to the pilot in plane B, who flies in a straight line at a constant speed of ${{params.v_B}} km/h$ relative to an observer on the ground.
 Both planes are in a horizontal plane.
-$\theta\_{1} = {{params.theta1}}$, $\theta\_{2} = {{params.theta2}}$, $d\_{1} = {{params.d1}}$, $d\_{2} = {{params.d2}}$
+In the above figure, $\theta\_{1} = {{params.theta1}}$, $\theta\_{2} = {{params.theta2}}$, $d\_{1} = {{params.d1}}$, and $d\_{2} = {{params.d2}}$.
+Note that the line between $\theta\_{1}$ and $\theta\_{2}$ is parallel to the y-axis.
 
 ## Part 1
 
-What is the X-component of the velocity which plane A appears to have at C?
+What is the x-component of the velocity that plane A appears to have at C relative to the observer on the ground?
 
 ### Answer Section
 
@@ -85,7 +85,7 @@ Please enter in a numeric value in $km/h$.
 
 ## Part 1
 
-What is the Y-component of the velocity which plane A appears to have at C?
+What is the y-component of the velocity which plane A appears to have at C relative to the observer on the ground?
 
 ### Answer Section
 
@@ -93,7 +93,7 @@ Please enter in a numeric value in $km/h$.
 
 ## Part 3
 
-What is the X-component of the velocity which plane A appears to have at E?
+What is the x-component of the velocity which plane A appears to have at E relative to the observer on the ground?
 
 ### Answer Section
 
@@ -101,7 +101,7 @@ Please enter in a numeric value in $km/h$.
 
 ## Part 4
 
-What is the Y-component of the velocity which plane A appears to have at E?
+What is the y-component of the velocity which plane A appears to have at E relative to the observer on the ground?
 
 ### Answer Section
 
