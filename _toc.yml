@@ -489,6 +489,8 @@ parts:
       of air/Dielectric breakdown of air
   - file: content/public/018.Electrostatics/Electric Potential/Electron in a capacitor/Electron
       in a capacitor
+  - file: content/public/018.Electrostatics/Electric Potential/Potential of a conducting
+      pipe/Potential of a conducting pipe
   - file: content/public/018.Electrostatics/Electric Potential/Electric potential
       of a proton/Electric potential of a proton
 - caption: Magnetism
