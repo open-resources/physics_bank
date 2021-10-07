@@ -495,6 +495,8 @@ parts:
       of a proton/Electric potential of a proton
 - caption: Magnetism
   chapters:
+  - file: content/public/019.Magnetism/Magnetic Force/Force between parallel currents/Force
+      between parallel currents
   - file: content/public/019.Magnetism/Magnetic Force/Magnetic Force on Airplane/magnetic_force_on_plane
   - file: content/public/019.Magnetism/Magnetic Force/Electron in a Solenoid/Electron
       in a Solenoid
@@ -569,6 +571,7 @@ parts:
       Current Loop
   - file: content/public/019.Magnetism/Magnetic Field/Particle in Uniform Magnetic
       field/Particle in Uniform Magnetic Field
+  - file: content/public/019.Magnetism/Magnetic Field/Long thin wire/Long thin wire
   - file: content/public/019.Magnetism/Magnetic Field/Oxygen-16 Ion/oxygen_ion
   - file: content/public/019.Magnetism/Magnetic Field/Electron Through a Magnetic
       Field/electron_through_a_magnetic_field
