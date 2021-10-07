@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $n$ = $\dfrac{(e)}{(t - 3b)} $
+    expr: $m$ = $\dfrac{(q)}{(c + 9v)} $
     part1:
       ans1:
-        value: t = ${ 3 b + \frac{e}{n}}$
+        value: c = ${ - 9 v + \frac{q}{m}}$
       ans2:
-        value: t = ${- \frac{3 b n}{e}}$
+        value: c = ${\frac{9 m v}{q}}$
       ans3:
-        value: t = ${- \frac{e}{3 b n}}$
+        value: c = ${\frac{q}{9 m v}}$
       ans4:
-        value: t = ${\frac{3 b + n}{e}}$
+        value: c = ${\frac{m - 9 v}{q}}$
       ans5:
         value: Don't Know
 ---

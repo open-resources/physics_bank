@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 3
-    b: 4
-    formula: $x^{3} \cos{\left(4 x \right)}$
+    a: 6
+    b: 1
+    formula: $x^{6} \sin{\left(x \right)}$
     part1:
       ans1:
-        value: $- 4 x^{3} \sin{\left(4 x \right)} + 3 x^{2} \cos{\left(4 x \right)}$
+        value: $x^{6} \cos{\left(x \right)} + 6 x^{5} \sin{\left(x \right)}$
       ans2:
-        value: $- 4 x^{3} \sin{\left(4 x \right)} $
+        value: $x^{6} \cos{\left(x \right)} $
       ans3:
-        value: $ 3 x^{2} \sin{\left(4 x \right)}$
+        value: $ 6 x^{5} \cos{\left(x \right)}$
       ans4:
-        value: $4 x^{3} \cos{\left(4 x \right)} + 3 x^{2} \sin{\left(4 x \right)}$
+        value: $- x^{6} \sin{\left(x \right)} + 6 x^{5} \cos{\left(x \right)}$
       ans5:
         value: Don't Know
 ---

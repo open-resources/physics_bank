@@ -1,12 +1,12 @@
 ---
-title: Parallel-plate potential difference
+title: Conductor with a Cavity
 topic: Electrostatics
 author: Jake Bobowksi
-source: 2.7.63
-template_version: 1.0
+source: 2.6.18
+template_version: 1.3
 attribution: openstax-physics-vol2
 outcomes:
-- 18.11.2.4
+- 18.10.1.0
 difficulty:
 - undefined
 randomization:
@@ -17,40 +17,38 @@ tags:
 - OSUP
 - volume 2
 - chapter 6
-- problem 63
-- potential difference
-- parallel plates
-- numeric
+- problem 18
+- electric field
+- conductors
+- drop down
 - JB
 assets: null
 part1:
-  type: number-input
+  type: dropdown
   pl-customizations:
-    rtol: 0.05
     weight: 1
-    allow-blank: false
-    show-correct-answer: true
-    label: $\Delta V= $
-    suffix: $\rm\ V$
-    custom-format: .3g
+    blank: true
+    sort: fixed
 substitutions:
   params:
     vars:
-      title: Parallel-plate potential difference
-    d: '7.0'
-    t: '2.5'
-    q: '6.6'
-    p: -9
+      title: Conductor with a Cavity
+    part1:
+      ans1:
+        value: 'Yes'
+      ans2:
+        value: 'No'
 ---
 # {{ params.vars.title }}
-Two parallel plates ${{ params.d }}\rm\ cm$ on a side are given equal and opposite charges of magnitude ${{ params.q }}\times 10^{ {{ params.p }} }\rm\ C$.
-The plates are ${{ params.t }}\rm\ mm$ apart.
 
-## Question Text
+## Part 1
 
-What is the potential difference between the plates?
+Will a charge placed outside the conductor experience an electric field due to the presence of $q$ inside the cavity of the conductor?
 
 ### Answer Section
+
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Attribution
 

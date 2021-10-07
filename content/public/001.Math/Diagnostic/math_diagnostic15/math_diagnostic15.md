@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $2^{7} $=$ 128$
+    expr: $2^{9} $=$ 512$
     part1:
       ans1:
-        value: $log_2128 = 7$
+        value: $log_2512 = 9$
       ans2:
-        value: $log_27 = 128$
+        value: $log_29 = 512$
       ans3:
-        value: $log_1287 = 2$
+        value: $log_5129 = 2$
       ans4:
-        value: $log_7128 = 2$
+        value: $log_9512 = 2$
       ans5:
         value: Don't Know
 ---

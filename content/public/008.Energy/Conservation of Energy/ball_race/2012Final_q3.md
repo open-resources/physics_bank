@@ -35,11 +35,11 @@ substitutions:
       ans1:
         value: A
       ans2:
-        value: B
+        value: They reach the end of the track at the same time.
       ans3:
         value: More information is needed.
       ans4:
-        value: They reach the end of the track at the same time.
+        value: B
 ---
 # {{ params.vars.title }}
 Balls A and B are launched with the same initial velocity along a pair of tracks as shown in the figure.

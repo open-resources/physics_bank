@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{12x - 9y }{ 3 }$
+    expr: $\dfrac{21x + 21y }{ -3 }$
     part1:
       ans1:
-        value: $4 x - 3 y$
+        value: $- 7 x - 7 y$
       ans2:
-        value: $\dfrac{4x - 3y}{3}$
+        value: $\dfrac{-7x - 7y}{-3}$
       ans3:
-        value: $-3x + 4y$
+        value: $-7x - 7y$
       ans4:
-        value: $12x - 9y$
+        value: $21x - 21y$
       ans5:
         value: Don't know.
 ---

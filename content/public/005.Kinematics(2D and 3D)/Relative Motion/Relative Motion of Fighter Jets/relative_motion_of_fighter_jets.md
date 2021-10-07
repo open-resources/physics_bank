@@ -60,12 +60,12 @@ substitutions:
   params:
     vars:
       title: Relative Motion of Fighter Jets
-    d1: 459
-    d2: 458
+    d1: 524
+    d2: 471
     theta1: 28
     theta2: 62
-    v_A: 276
-    v_B: 281
+    v_A: 291
+    v_B: 270
 ---
 # {{ params.vars.title }}
 <img src="L11Q5.png" width=85%>
