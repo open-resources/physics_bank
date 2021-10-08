@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 9x - 8y = 48
-    formula2: 7x + 3y = 2
+    formula1: 2x - 4y = 47
+    formula2: 1x + 1y = 22
     part1:
       ans1:
-        value: ' x =160/83, y =-318/83'
+        value: ' x =45/2, y =-1/2'
       ans2:
-        value: ' x =-318/83, y =160/83'
+        value: ' x =-1/2, y =45/2'
       ans3:
-        value: ' x =-160/83, y =318/83'
+        value: ' x =-45/2, y =1/2'
       ans4:
-        value: ' x =318/83, y =-160/83'
+        value: ' x =1/2, y =-45/2'
       ans5:
         value: Don't Know
 ---

@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $4^{1} $=$ 4$
+    expr: $7^{2} $=$ 49$
     part1:
       ans1:
-        value: $log_44 = 1$
+        value: $log_749 = 2$
       ans2:
-        value: $log_41 = 4$
+        value: $log_72 = 49$
       ans3:
-        value: $log_41 = 4$
+        value: $log_492 = 7$
       ans4:
-        value: $log_14 = 4$
+        value: $log_249 = 7$
       ans5:
         value: Don't Know
 ---

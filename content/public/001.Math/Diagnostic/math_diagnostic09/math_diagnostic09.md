@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $p$ = $\dfrac{(g)}{(y + 9x)} $
+    expr: $u$ = $\dfrac{(f)}{(v - 6q)} $
     part1:
       ans1:
-        value: y = ${ \frac{g}{p} - 9 x}$
+        value: v = ${ \frac{f}{u} + 6 q}$
       ans2:
-        value: y = ${\frac{9 p x}{g}}$
+        value: v = ${- \frac{6 q u}{f}}$
       ans3:
-        value: y = ${\frac{g}{9 p x}}$
+        value: v = ${- \frac{f}{6 q u}}$
       ans4:
-        value: y = ${\frac{p - 9 x}{g}}$
+        value: v = ${\frac{6 q + u}{f}}$
       ans5:
         value: Don't Know
 ---

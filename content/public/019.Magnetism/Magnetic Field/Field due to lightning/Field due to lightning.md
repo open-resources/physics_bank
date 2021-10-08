@@ -43,7 +43,7 @@ substitutions:
   params:
     vars:
       title: Field due to lightning
-    d: '2.0'
+    d: '0.6'
     p: $10^4$
 ---
 # {{ params.vars.title }}
