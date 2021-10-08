@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $r$ = $\dfrac{(s)}{(l + 7v)} $
+    expr: $l$ = $\dfrac{(z)}{(h + 8x)} $
     part1:
       ans1:
-        value: l = ${ - 7 v + \frac{s}{r}}$
+        value: h = ${ - 8 x + \frac{z}{l}}$
       ans2:
-        value: l = ${\frac{7 r v}{s}}$
+        value: h = ${\frac{8 l x}{z}}$
       ans3:
-        value: l = ${\frac{s}{7 r v}}$
+        value: h = ${\frac{z}{8 l x}}$
       ans4:
-        value: l = ${\frac{r - 7 v}{s}}$
+        value: h = ${\frac{l - 8 x}{z}}$
       ans5:
         value: Don't Know
 ---

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{6x + 12y }{ 3 }$
+    expr: $\dfrac{63x + 35y }{ 7 }$
     part1:
       ans1:
-        value: $2 x + 4 y$
+        value: $9 x + 5 y$
       ans2:
-        value: $\dfrac{2x + 4y}{3}$
+        value: $\dfrac{9x + 5y}{7}$
       ans3:
-        value: $4x + 2y$
+        value: $5x + 9y$
       ans4:
-        value: $6x + 12y$
+        value: $63x + 35y$
       ans5:
         value: Don't know.
 ---

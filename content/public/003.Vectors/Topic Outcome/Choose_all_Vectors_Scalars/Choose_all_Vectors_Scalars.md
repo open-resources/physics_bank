@@ -35,17 +35,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Distance travelled
+        value: Volume
       ans2:
-        value: Density
+        value: Length
       ans3:
-        value: The position in 3 dimensions
+        value: Pressure
       ans4:
-        value: Displacement
+        value: Momentum
       ans5:
-        value: The average velocity
+        value: Force
       ans6:
-        value: Acceleration
+        value: velocity
 ---
 # {{ params.vars.title }}
 
