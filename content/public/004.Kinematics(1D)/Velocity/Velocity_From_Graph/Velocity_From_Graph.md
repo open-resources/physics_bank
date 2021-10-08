@@ -38,10 +38,10 @@ substitutions:
     vars:
       title: Velocity From Graph
       units: $m/s$
-    choice: '1.5'
+    choice: '0.5'
     part1:
       ans1:
-        value: '0'
+        value: '1'
       ans2:
         value: '-0.5'
       ans3:
@@ -68,13 +68,15 @@ substitutions:
           3}$= -0.5 $m/s$
 ---
 # {{ params.vars.title }}
-Refer to Fig.1
+Refer to the following figure.
 
 <img src="Q1Q2.png" alt="A graph of position vs time. At 0 seconds, the position is at 1m. At 1 second, the position is at 2m. There is a constant increase of 1m per second from 0 seconds to 1 second. At 1 to 2 seconds, there is no change in m and the position remains at 2m. At 3 seconds, the position is at 0m. From 2 to 3 seconds, there is a constant decrease of 2 m per second." width=400>
 
+Figure: Position vs. time graph for the following two questions.
+
 ## Part 1
 
-At $t=$ {{ params.choice }}$s$, what is the x-component of the instantaneous velocity of the object whose position vs. time graph is shown in Fig.1?
+At $t=$ {{ params.choice }}$s$, what is the x-component of the instantaneous velocity of the object whose position vs. time graph is shown in the figure?
 
 ### Answer Section
 
@@ -86,7 +88,7 @@ At $t=$ {{ params.choice }}$s$, what is the x-component of the instantaneous vel
 
 ## Part 2
 
-For the time interval $t=$ 0$s$ to $t=$ 3$s$ for the object whose position vs time graph is shown in Fig.1 the x-component of the average velocity ($v\_{avg,x ; 0 \rightarrow 3}$) and average speed($v\_{avg ; 0 \rightarrow 3}$) are respectively:
+For the object whose position vs time graph is shown in the figure above, the x-component of the average velocity ($v\_{avg,x ; 0 \rightarrow 3}$) and average speed ($v\_{avg ; 0 \rightarrow 3}$) over the time interval t=0s to t=3s are:
 
 ### Answer Section
 

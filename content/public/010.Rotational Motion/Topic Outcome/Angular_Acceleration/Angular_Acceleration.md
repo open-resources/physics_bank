@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Angular Acceleration
-    v_1: 4
-    v_2: 13
-    t: 2
+    v_1: 8
+    v_2: 15
+    t: 9
     part1:
       ans1:
-        value: 4.5 $rad/s^2$
+        value: 0.8 $rad/s^2$
       ans2:
-        value: 4.5 $m/s^2$
+        value: 0.8 $m/s^2$
       ans3:
-        value: -4.5 $rad/s^2$
+        value: -0.8 $rad/s^2$
       ans4:
-        value: -4.5 $m/s^2$
+        value: -0.8 $m/s^2$
       ans5:
         value: 10 $rad/s^2$
 ---

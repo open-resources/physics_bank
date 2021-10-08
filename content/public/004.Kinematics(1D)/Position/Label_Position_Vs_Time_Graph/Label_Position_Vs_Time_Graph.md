@@ -116,6 +116,7 @@ substitutions:
 # {{ params.vars.title }}
 Each of the following 5 statements describe the motion shown in Fig.1 labeled A through E.
 Label each statement with the letter of the corresponding line on the position vs. time graph.
+In your answers consider right to be the positive x-direction and left to be the negative x-direction.
 
 <img src="Q3.png" alt="The figure of a position vs time graph with time on the horizontal axis depicts 5 motions. A starts out postive and shows an increasing curve as time increases. B starts out negative and shows a constant increase as time increases, the line goes from negative to positive. C has a negative parabola-like shape, it starts and ends with a positive position. D shows a constant decrease as time increases, the position starts out positive and ends negative. E shows a line that remains in the same place as time increase. " width=500>
 
@@ -145,7 +146,7 @@ An object travels with a constant velocity from right to left.
 
 ## Part 3
 
-An object remains stationary
+An object remains stationary.
 
 ### Answer Section
 
@@ -169,7 +170,7 @@ An object speeds up.
 
 ## Part 5
 
-An object slows down before changing directions and speeding up
+An object slows down before changing directions and speeding up.
 
 ### Answer Section
 

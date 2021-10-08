@@ -34,22 +34,22 @@ substitutions:
     vars:
       title: Motion of an Airplane
       units: km
-    v1: 24
-    v2: 65
-    a1: 29
-    a2: 70
+    v1: 22
+    v2: 32
+    a1: 11
+    a2: 16
     dir1: south
     part1:
       ans1:
-        value: 65.7 km in a direction 48.8 degrees south of east.
+        value: 52.6 km in a direction 5.0 degrees south of east.
       ans2:
-        value: 65.7 km in a direction 48.8 degrees north of east.
+        value: 52.6 km in a direction 5.0 degrees north of east.
       ans3:
-        value: 4312.9 km in a direction 48.8 degrees south of east.
+        value: 2762.5 km in a direction 5.0 degrees south of east.
       ans4:
-        value: 4312.9 km in a direction 48.8 degrees north  of east.
+        value: 2762.5 km in a direction 5.0 degrees north  of east.
       ans5:
-        value: 65.7 km in a direction 89.2 degrees north of east.
+        value: 52.6 km in a direction 89.9 degrees north of east.
 ---
 # {{ params.vars.title }}
 A small plane flies {{params.v1}} km in a direction {{params.a1}} degrees {{params.dir1}} of east and then flies {{params.v2}} km in a direction {{params.a2}} degrees north of east.

@@ -24,7 +24,8 @@ length:
 tags:
 - EW
 assets:
-- Q3Q4.png
+- agraphs.png
+- vgraph.png
 part1:
   type: multiple-choice
   pl-customizations:
@@ -62,13 +63,17 @@ substitutions:
         value: 2.866 $s$
 ---
 # {{ params.vars.title }}
-Refer to Fig.2
+Refer to the following figure.
 
-<img src="Q3Q4.png" alt="There are 6 graphs depicted in Figure 2. The top graph is velocity vs time of an object where at t=0 the velocity is negative 1, from t=1 to t=1.5 the velocity is negative 2, at t=2 the velocity is 0. After t=2 the velocity continually increases. There are 5 graphs below that are used in Part 1 and depict acceleration vs time. Graph A is the same shape as the top graph. Graph B shows a negative acceleration from t=0 to t=1 and a positive acceleration from t=1.5 onwards. Graph C shows a positive acceleration from t=0 to t=1 and a negative acceleration from t=1.5 onwards. Graph D shows a negative acceleration curve that reaches the lowest at around t=2 and is 0 at t=3. Graph E shows increasing positive acceleration from t=0 to t=1, from t=1.5 and onwards the acceleration decreases." width=700>
+<img src="vgraph.png" alt= "The top graph is velocity vs time of an object where at t=0 the velocity is negative 1, from t=1 to t=1.5 the velocity is negative 2, at t=2 the velocity is 0. After t=2 the velocity continually increases." width = 500>
+
+<img src="agraphs.png" alt="There are 5 graphs depicted below the velocity vs time graph. The 5 graphs depict acceleration vs time and are labelled A through E. Graph A is the same shape as the top graph. Graph B shows a negative acceleration from t=0 to t=1 and a positive acceleration from t=1.5 onwards. Graph C shows a positive acceleration from t=0 to t=1 and a negative acceleration from t=1.5 onwards. Graph D shows a negative acceleration curve that reaches the lowest at around t=2 and is 0 at t=3. Graph E shows increasing positive acceleration from t=0 to t=1, from t=1.5 and onwards the acceleration decreases." width=700>
+
+Figure: (Top) x-component of velocity vs. time for an object. (Bottom) Acceleration vs. time graph.
 
 ## Part 1
 
-Of the listed acceleration vs. time graphs shown in Fig.2, which is consistent with the velocity vs. time graph shown above?
+Of the listed acceleration vs. time graphs shown in the figure, which is consistent with the velocity vs. time graph shown above?
 
 ### Answer Section
 
@@ -80,7 +85,7 @@ Of the listed acceleration vs. time graphs shown in Fig.2, which is consistent w
 
 ## Part 2
 
-If the initial position of the object whose velocity vs. time graph is shown n Fig.2 (Top) is $x_0$ = 0 $m$, at what time does the object return to the position $x$ = 0 $m$ ?
+If the initial position of the object whose velocity vs. time graph is shown in the figure (Top) is $x_0$ = 0 $m$, at what time does the object return to the position $x$ = 0 $m$ ?
 
 ### Answer Section
 

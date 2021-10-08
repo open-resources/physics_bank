@@ -109,8 +109,7 @@ substitutions:
         value: E
 ---
 # {{ params.vars.title }}
-Each of the following 5 statements describe the motion shown in Fig.2 labeled A through E.
-Label each statement with the letter of the corresponding line on the velocity vs. time graph.
+The following is a figure of velocity vs. time. Each of the following 5 statements below describe the motion shown in the figure labeled A through E. Label each statement with the letter of the corresponding line on the velocity vs. time graph.
 
 <img src="Q4.png" alt="The figure depicts a velocity vs time graph, time is on the horizontal axis. There are 5 lines that show different motions. A depicts a line with a constant positive velocity as time increases. B shows a curve with a negative parabola-like shape, the curve starts and ends with a positive velocity. C depicts an increasing curve, it starts out with a negative velocity but increases to a positive velocity, it increases at a slower rate as time increases. D depicts a line with a constant decrease, the line starts out with a positive velocity and decreases to a negative velocity as time increases. E depicts a short decreasing curve, the curve starts out with a positive velocity and decreases to a negative velocity, it decreases at a faster rate as time increases " width=500>
 

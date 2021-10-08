@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $u$ = $\dfrac{(f)}{(v - 6q)} $
+    expr: $r$ = $\dfrac{(s)}{(l + 7v)} $
     part1:
       ans1:
-        value: v = ${ \frac{f}{u} + 6 q}$
+        value: l = ${ - 7 v + \frac{s}{r}}$
       ans2:
-        value: v = ${- \frac{6 q u}{f}}$
+        value: l = ${\frac{7 r v}{s}}$
       ans3:
-        value: v = ${- \frac{f}{6 q u}}$
+        value: l = ${\frac{s}{7 r v}}$
       ans4:
-        value: v = ${\frac{6 q + u}{f}}$
+        value: l = ${\frac{r - 7 v}{s}}$
       ans5:
         value: Don't Know
 ---

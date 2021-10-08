@@ -62,9 +62,9 @@ substitutions:
       title: Acceleration of a Particle
       unit1: $s$
       unit2: $m/s^2$
-    c1: 4
-    c2: 7
-    c3_abs: 46
+    c1: 9
+    c2: 6
+    c3_abs: 3
     c3_sign: ' + '
 ---
 # {{ params.vars.title }}
@@ -92,7 +92,7 @@ Please enter in a numeric value in {{ params.vars.unit1 }}.
 
 ## Part 3
 
-What is the particle's accelerations at the time $t_1$? Enter $a_1$, the acceleration corresponding to $t_1$.
+What is the particle's acceleration at the time $t_1$? Enter $a_x\_,\_1$, the acceleration corresponding to $t_1$.
 
 ### Answer Section
 
@@ -100,7 +100,7 @@ Please enter in a numeric value in {{ params.vars.unit2 }}.
 
 ## Part 4
 
-What is the particle's accelerations at the time $t_2$? Enter $a_2$, the acceleration corresponding to $t_2$.
+What is the particle's acceleration at the time $t_2$? Enter $a_x\_,\_2$, the acceleration corresponding to $t_2$.
 
 *Hint: If $t_2$ does not exist, enter the special value `-1000` for the acceleration and NOT 0!*
 
