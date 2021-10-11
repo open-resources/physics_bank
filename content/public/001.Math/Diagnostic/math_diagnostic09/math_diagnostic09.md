@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $l$ = $\dfrac{(z)}{(h + 8x)} $
+    expr: $j$ = $\dfrac{(d)}{(z + 10m)} $
     part1:
       ans1:
-        value: h = ${ - 8 x + \frac{z}{l}}$
+        value: z = ${ \frac{d}{j} - 10 m}$
       ans2:
-        value: h = ${\frac{8 l x}{z}}$
+        value: z = ${\frac{10 j m}{d}}$
       ans3:
-        value: h = ${\frac{z}{8 l x}}$
+        value: z = ${\frac{d}{10 j m}}$
       ans4:
-        value: h = ${\frac{l - 8 x}{z}}$
+        value: z = ${\frac{j - 10 m}{d}}$
       ans5:
         value: Don't Know
 ---

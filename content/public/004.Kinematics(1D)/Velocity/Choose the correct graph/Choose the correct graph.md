@@ -48,9 +48,9 @@ substitutions:
         value: Figure (e)
 ---
 # {{ params.vars.title }}
-The figure shows the graph of the position $x$ as a function of time $t$ for an object moving in a straight line (along the $x$-axis).
+This figure shows the graph of the position $x$ as a function of time $t$ for an object moving in a straight line (along the $x$-axis):
 
-<img src="q3_2012Mid1_002.png" alt="Figure of a position-time graph which starts at a negative y-value and which increases at a decreasing rate." width=100%>
+<img src="q3_2012Mid1_002.png" alt="Figure of a position-time graph which starts at a negative y-value and which increases at a decreasing rate." width=40%>
 
 ## Part 1
 

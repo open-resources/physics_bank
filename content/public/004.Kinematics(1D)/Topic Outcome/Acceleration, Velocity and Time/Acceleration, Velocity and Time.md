@@ -20,7 +20,7 @@ taxonomy:
 span:
 - section
 length:
-- avergae
+- average
 tags:
 - EW
 assets:
@@ -63,17 +63,19 @@ substitutions:
         value: 2.866 $s$
 ---
 # {{ params.vars.title }}
-Refer to the following figure.
+For this problem, refer to the following figure.
+
+Top: The x-component of a velocity vs. time graph is shown for an object:
 
 <img src="vgraph.png" alt= "The top graph is velocity vs time of an object where at t=0 the velocity is negative 1, from t=1 to t=1.5 the velocity is negative 2, at t=2 the velocity is 0. After t=2 the velocity continually increases." width = 500>
 
-<img src="agraphs.png" alt="There are 5 graphs depicted below the velocity vs time graph. The 5 graphs depict acceleration vs time and are labelled A through E. Graph A is the same shape as the top graph. Graph B shows a negative acceleration from t=0 to t=1 and a positive acceleration from t=1.5 onwards. Graph C shows a positive acceleration from t=0 to t=1 and a negative acceleration from t=1.5 onwards. Graph D shows a negative acceleration curve that reaches the lowest at around t=2 and is 0 at t=3. Graph E shows increasing positive acceleration from t=0 to t=1, from t=1.5 and onwards the acceleration decreases." width=700>
+Bottom: Below are *possible* options of that same object's "acceleration vs. time" graph:
 
-Figure: (Top) x-component of velocity vs. time for an object. (Bottom) Acceleration vs. time graph.
+<img src="agraphs.png" alt="There are 5 graphs depicted below the velocity vs time graph. The 5 graphs depict acceleration vs time and are labelled A through E. Graph A is the same shape as the top graph. Graph B shows a negative acceleration from t=0 to t=1 and a positive acceleration from t=1.5 onwards. Graph C shows a positive acceleration from t=0 to t=1 and a negative acceleration from t=1.5 onwards. Graph D shows a negative acceleration curve that reaches the lowest at around t=2 and is 0 at t=3. Graph E shows increasing positive acceleration from t=0 to t=1, from t=1.5 and onwards the acceleration decreases." width=700>
 
 ## Part 1
 
-Of the listed acceleration vs. time graphs shown in the figure, which is consistent with the velocity vs. time graph shown above?
+Of the listed acceleration vs. time graphs shown in the bottom figure, which is consistent with the velocity vs. time graph shown in the top figure?
 
 ### Answer Section
 
