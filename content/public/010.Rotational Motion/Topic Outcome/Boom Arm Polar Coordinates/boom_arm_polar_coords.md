@@ -57,11 +57,11 @@ substitutions:
     vars:
       title: Boom Arm Polar Coordinates
     d: 4
-    theta: 8
-    dot_theta: 10
+    theta: 7
+    dot_theta: 8
     ddot_theta: 10
-    l: 9
-    dot_l: 7
+    l: 7
+    dot_l: 9
     ddot_l: 9
 ---
 # {{ params.vars.title }}

@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $8^{6} $=$ 262144$
+    expr: $3^{8} $=$ 6561$
     part1:
       ans1:
-        value: $log_8262144 = 6$
+        value: $log_36561 = 8$
       ans2:
-        value: $log_86 = 262144$
+        value: $log_38 = 6561$
       ans3:
-        value: $log_2621446 = 8$
+        value: $log_65618 = 3$
       ans4:
-        value: $log_6262144 = 8$
+        value: $log_86561 = 3$
       ans5:
         value: Don't Know
 ---

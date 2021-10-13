@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $j$ = $\dfrac{(d)}{(z + 10m)} $
+    expr: $g$ = $\dfrac{(c)}{(w + 7b)} $
     part1:
       ans1:
-        value: z = ${ \frac{d}{j} - 10 m}$
+        value: w = ${ - 7 b + \frac{c}{g}}$
       ans2:
-        value: z = ${\frac{10 j m}{d}}$
+        value: w = ${\frac{7 b g}{c}}$
       ans3:
-        value: z = ${\frac{d}{10 j m}}$
+        value: w = ${\frac{c}{7 b g}}$
       ans4:
-        value: z = ${\frac{j - 10 m}{d}}$
+        value: w = ${\frac{- 7 b + g}{c}}$
       ans5:
         value: Don't Know
 ---

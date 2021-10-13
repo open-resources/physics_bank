@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 3x - 7y = 50
-    formula2: 9x + 8y = 8
+    formula1: 6x - 7y = 30
+    formula2: 9x + 1y = 30
     part1:
       ans1:
-        value: ' x =152/29, y =-142/29'
+        value: ' x =80/23, y =-30/23'
       ans2:
-        value: ' x =-142/29, y =152/29'
+        value: ' x =-30/23, y =80/23'
       ans3:
-        value: ' x =-152/29, y =142/29'
+        value: ' x =-80/23, y =30/23'
       ans4:
-        value: ' x =142/29, y =-152/29'
+        value: ' x =30/23, y =-80/23'
       ans5:
         value: Don't Know
 ---

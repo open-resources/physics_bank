@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{30x - 10y }{ 5 }$
+    expr: $\dfrac{-14x - 18y }{ -2 }$
     part1:
       ans1:
-        value: $6 x - 2 y$
+        value: $7 x + 9 y$
       ans2:
-        value: $\dfrac{6x - 2y}{5}$
+        value: $\dfrac{7x + 9y}{-2}$
       ans3:
-        value: $-2x + 6y$
+        value: $9x + 7y$
       ans4:
-        value: $30x - 10y$
+        value: $-14x + 18y$
       ans5:
         value: Don't know.
 ---

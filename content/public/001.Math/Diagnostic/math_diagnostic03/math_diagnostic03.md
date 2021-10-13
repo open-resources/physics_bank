@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 8x + -3 > -9x + 6
+      formula: 3x + -7 > 2x + 10
     part1:
       ans1:
-        value: x > 9/17
+        value: x > 17
       ans2:
-        value: x < 9/17
+        value: x < 17
       ans3:
-        value: x < 17/9
+        value: x < 1/17
       ans4:
-        value: x > 17/9
+        value: x > 1/17
       ans5:
         value: Don't Know
 ---

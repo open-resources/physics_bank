@@ -66,15 +66,15 @@ substitutions:
       units2: $m/s^2 \ \ \hat\jmath$
       units3: $m/s \ \ \hat\imath$
       units4: $m/s \ \ \hat\jmath$
-    h: 80
-    s: 160
-    vert: 80
+    h: 50
+    s: 100
+    vert: 40
 ---
 # {{ params.vars.title }}
 A supply plane needs to drop a package of food to scientists working on a glacier in Greenland.
 The plane flies {{params.h}}$m$ above the glacier at a velocity of {{params.s}} $\hat\imath$ $m/s$.
 The horizontal distance between the plane and the drop site is $R$ at the time the package is released from the plane.
-For this question, assume that $\hat\jmath$ is downward.
+For this question, assume that $-\hat\jmath$ is downward.
 
 ## Part 1
 

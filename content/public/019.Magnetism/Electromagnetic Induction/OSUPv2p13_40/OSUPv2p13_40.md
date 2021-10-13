@@ -35,9 +35,9 @@ substitutions:
   params:
     vars:
       title: Rotating Coil
-    N: '1000'
-    a: '30'
-    t: '0.010'
+    N: '1200'
+    a: '35'
+    t: '0.015'
     B: '7.0'
 ---
 # {{ params.vars.title }}
