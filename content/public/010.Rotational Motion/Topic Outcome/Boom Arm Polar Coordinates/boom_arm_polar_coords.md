@@ -56,13 +56,13 @@ substitutions:
   params:
     vars:
       title: Boom Arm Polar Coordinates
-    d: 4
-    theta: 7
+    d: 5
+    theta: 10
     dot_theta: 8
     ddot_theta: 10
-    l: 7
-    dot_l: 9
-    ddot_l: 9
+    l: 10
+    dot_l: 10
+    ddot_l: 6
 ---
 # {{ params.vars.title }}
 <img src="L8Q2.png" width=85%>

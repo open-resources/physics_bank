@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-14x - 18y }{ -2 }$
+    expr: $\dfrac{18x - 72y }{ -9 }$
     part1:
       ans1:
-        value: $7 x + 9 y$
+        value: $- 2 x + 8 y$
       ans2:
-        value: $\dfrac{7x + 9y}{-2}$
+        value: $\dfrac{-2x + 8y}{-9}$
       ans3:
-        value: $9x + 7y$
+        value: $8x - 2y$
       ans4:
-        value: $-14x + 18y$
+        value: $18x + 72y$
       ans5:
         value: Don't know.
 ---

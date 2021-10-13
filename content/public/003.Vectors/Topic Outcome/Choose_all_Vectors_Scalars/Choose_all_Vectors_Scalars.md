@@ -37,15 +37,15 @@ substitutions:
       ans1:
         value: Power
       ans2:
-        value: Energy
+        value: Density
       ans3:
-        value: Weight
+        value: Distance travelled
       ans4:
-        value: The average velocity
+        value: Weight
       ans5:
-        value: Momentum
+        value: The position in 3 dimensions
       ans6:
-        value: Displacement
+        value: The average velocity
 ---
 # {{ params.vars.title }}
 

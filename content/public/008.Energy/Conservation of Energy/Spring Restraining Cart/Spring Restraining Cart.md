@@ -34,13 +34,13 @@ substitutions:
   params:
     vars:
       title: Spring Restraining Cart
-    m: 10
-    F: 369
-    x1: 0.38
-    d: 1.18
-    h: 0.61
-    k: 73
-    thetad: 24
+    m: 9
+    F: 267
+    x1: 0.8
+    d: 1.05
+    h: 0.77
+    k: 80
+    thetad: 15
 ---
 # {{ params.vars.title }}
 <img src="Spring Restraining Cart.png" width=400>

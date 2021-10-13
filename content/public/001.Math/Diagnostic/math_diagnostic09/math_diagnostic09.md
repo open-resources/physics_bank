@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $g$ = $\dfrac{(c)}{(w + 7b)} $
+    expr: $l$ = $\dfrac{(k)}{(w + 10s)} $
     part1:
       ans1:
-        value: w = ${ - 7 b + \frac{c}{g}}$
+        value: w = ${ \frac{k}{l} - 10 s}$
       ans2:
-        value: w = ${\frac{7 b g}{c}}$
+        value: w = ${\frac{10 l s}{k}}$
       ans3:
-        value: w = ${\frac{c}{7 b g}}$
+        value: w = ${\frac{k}{10 l s}}$
       ans4:
-        value: w = ${\frac{- 7 b + g}{c}}$
+        value: w = ${\frac{l - 10 s}{k}}$
       ans5:
         value: Don't Know
 ---
