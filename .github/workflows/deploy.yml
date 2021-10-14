@@ -6,6 +6,8 @@ on:
   push:
     branches:
     - main
+concurrency:
+  group: deploy_jb
 
 # This job installs dependencies, build the book, and pushes it to `gh-pages`
 jobs:
