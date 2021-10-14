@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $l$ = $\dfrac{(k)}{(w + 10s)} $
+    expr: $j$ = $\dfrac{(o)}{(g - 4u)} $
     part1:
       ans1:
-        value: w = ${ \frac{k}{l} - 10 s}$
+        value: g = ${ 4 u + \frac{o}{j}}$
       ans2:
-        value: w = ${\frac{10 l s}{k}}$
+        value: g = ${- \frac{4 j u}{o}}$
       ans3:
-        value: w = ${\frac{k}{10 l s}}$
+        value: g = ${- \frac{o}{4 j u}}$
       ans4:
-        value: w = ${\frac{l - 10 s}{k}}$
+        value: g = ${\frac{j + 4 u}{o}}$
       ans5:
         value: Don't Know
 ---

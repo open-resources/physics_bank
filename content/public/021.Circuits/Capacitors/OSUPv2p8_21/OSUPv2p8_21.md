@@ -42,8 +42,8 @@ substitutions:
   params:
     vars:
       title: Voltage Applied to a Capacitor
-    c: '3.2'
-    q: '2.7'
+    c: '3.1'
+    q: '1.5'
 ---
 # {{ params.vars.title }}
 

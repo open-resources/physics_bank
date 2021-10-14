@@ -34,8 +34,8 @@ substitutions:
   params:
     vars:
       title: Impulse of a Mallet
-    F: 448
-    t1: 0.003
+    F: 260
+    t1: 0.002
     t2: 0.007
     t3: 0.014
 ---

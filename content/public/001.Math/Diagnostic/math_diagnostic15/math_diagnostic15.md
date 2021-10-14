@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $2^{9} $=$ 512$
+    expr: $7^{1} $=$ 7$
     part1:
       ans1:
-        value: $log_2512 = 9$
+        value: $log_77 = 1$
       ans2:
-        value: $log_29 = 512$
+        value: $log_71 = 7$
       ans3:
-        value: $log_5129 = 2$
+        value: $log_71 = 7$
       ans4:
-        value: $log_9512 = 2$
+        value: $log_17 = 7$
       ans5:
         value: Don't Know
 ---

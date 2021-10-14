@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 10x + -9 > 1x + 2
+      formula: 10x + -6 > 1x + 9
     part1:
       ans1:
-        value: x > 11/9
+        value: x > 5/3
       ans2:
-        value: x < 11/9
+        value: x < 5/3
       ans3:
-        value: x < 9/11
+        value: x < 3/5
       ans4:
-        value: x > 9/11
+        value: x > 3/5
       ans5:
         value: Don't Know
 ---
