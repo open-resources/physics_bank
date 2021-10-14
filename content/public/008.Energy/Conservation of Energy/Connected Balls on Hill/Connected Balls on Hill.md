@@ -34,7 +34,7 @@ substitutions:
   params:
     vars:
       title: Connected Balls on Hill
-    R: 9
+    R: 20
 ---
 # {{ params.vars.title }}
 <img src="Connected Balls on Hill.png" width=400>

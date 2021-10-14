@@ -34,21 +34,21 @@ substitutions:
   params:
     vars:
       title: Slider Restricted by Spring
-    m: 47
-    F: 211
-    x1: 0.246
-    d: 1.15
-    h: 1.12
-    k: 70
+    m: 57
+    F: 321
+    x1: 0.185
+    d: 1.14
+    h: 1.26
+    k: 85
 ---
 # {{ params.vars.title }}
 <img src="Slider Restricted by Spring.png" width=100%>
 
-The ${{params.m}}-kg$ slider at A is mounted on a horizontal rail with negligible friction.
-It is acted upon by a constant force of ${{params.F}}N$ via a cable as shown.
-The slider is released from rest at A, with the spring it is attached to extended by an initial amount ${{params.x1}}m$.
-The spring stiffness is $k = {{params.k}} N/m$.
-Calculate the velocity of the block when it reaches point B, $d = {{params.d}}m$ away. Assume $h = {{params.h}}m$.
+The {{params.m}} $kg$ slider at A is mounted on a horizontal rail with negligible friction.
+It is acted upon by a constant force of {{params.F}} $N$ via a cable as shown.
+The slider is released from rest at A, with the spring it is attached to extended by an initial amount {{params.x1}} $m$.
+The spring stiffness is $k =$ {{params.k}} $N/m$.
+Calculate the velocity of the block when it reaches point B, $d =$ {{params.d}} $m$ away. Assume $h =$ {{params.h}} $m$.
 
 ## Part 1
 

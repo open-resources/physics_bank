@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $j$ = $\dfrac{(o)}{(g - 4u)} $
+    expr: $n$ = $\dfrac{(d)}{(z - 5t)} $
     part1:
       ans1:
-        value: g = ${ 4 u + \frac{o}{j}}$
+        value: z = ${ \frac{d}{n} + 5 t}$
       ans2:
-        value: g = ${- \frac{4 j u}{o}}$
+        value: z = ${- \frac{5 n t}{d}}$
       ans3:
-        value: g = ${- \frac{o}{4 j u}}$
+        value: z = ${- \frac{d}{5 n t}}$
       ans4:
-        value: g = ${\frac{j + 4 u}{o}}$
+        value: z = ${\frac{n + 5 t}{d}}$
       ans5:
         value: Don't Know
 ---

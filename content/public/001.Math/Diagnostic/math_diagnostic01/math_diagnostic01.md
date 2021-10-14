@@ -32,13 +32,13 @@ substitutions:
       title: Largest Number
     part1:
       ans1:
-        value: 9.3E46
+        value: 9.3E22
       ans2:
-        value: 8.0E10
+        value: 8.7E4
       ans3:
-        value: 8124.472631384109
+        value: 6035.408255332421
       ans4:
-        value: '1.1E-48'
+        value: '1.1E-7'
       ans5:
         value: Don't Know
 ---

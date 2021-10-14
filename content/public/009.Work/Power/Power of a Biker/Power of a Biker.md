@@ -36,20 +36,20 @@ substitutions:
       title: Power of a Biker
       units: $hp$
     v: 7
-    W: 196
-    grd: 7
+    W: 176
+    grd: 5
 ---
 # {{ params.vars.title }}
 <img src="Power of a Biker.png" width=400>
 
-A biker and bicycle together weigh ${{ params.W }}lb$.
-What power does the biker output when riding up a ${{ params.grd }}%$ grade at a speed of ${{ params.v }}mi/hr$?
+A biker and bicycle together weigh {{ params.W }} $lb$.
+What power does the biker output when riding up a {{ params.grd }}% grade at a speed of {{ params.v }} $mi/hr$?
 
 ## Part 1
 
 ### Answer Section
 
-Please enter in a numeric value in ${{ params.vars.units }}$.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

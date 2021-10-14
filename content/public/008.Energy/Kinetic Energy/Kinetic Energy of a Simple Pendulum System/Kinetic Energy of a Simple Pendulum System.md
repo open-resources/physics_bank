@@ -36,12 +36,12 @@ substitutions:
     vars:
       title: Kinetic Energy of a Simple Pendulum System
       units: degrees
-    theta: 62.3
+    theta: 39.7
 ---
 # {{ params.vars.title }}
 The figure below shows a simple pendulum. The length of the string is $l$ and the bob has mass $m_1$.
 
-![Figure of a pendulum. The angle between the displaced string of the pendulum and the vertical axis is theta.](2017Mid2S002Q5.png)
+<img src="2017Mid2S002Q5.png" alt="Figure of a pendulum. The angle between the displaced string of the pendulum and the vertical axis is theta." >
 
 ## Question Text
 

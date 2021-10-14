@@ -42,8 +42,8 @@ substitutions:
   params:
     vars:
       title: Electric potential energy of a cube
-    q: '4.20'
-    d: '3.20'
+    q: '5.00'
+    d: '1.60'
 ---
 # {{ params.vars.title }}
 
