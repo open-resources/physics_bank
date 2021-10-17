@@ -194,10 +194,13 @@ parts:
   chapters:
   - file: content/public/006.Force/Free Body Diagrams/Ball Rolling in Pipe/ball_rolling_in_pipe
   - file: content/public/006.Force/Free Body Diagrams/pulley_on_truck/pulley_on_truck
+  - file: content/public/006.Force/Drag/Cyclist with a Deathwish/cyclist
   - file: content/public/006.Force/Drag/Cyclist/cyclist
   - file: content/public/006.Force/Dynamics of Circular Motion/object_on_string/object_on_string
   - file: content/public/006.Force/Dynamics of Circular Motion/Frictionless Table/frictionless_table
   - file: content/public/006.Force/Dynamics of Circular Motion/Object_In_Circular_Motion/Object_In_Circular_Motion
+  - file: content/public/006.Force/Dynamics of Circular Motion/Slider in a Rotating
+      Tube/Slider in a rotating Tube
   - file: content/public/006.Force/Springs/Stiffness of a Spring/Stiffness of a Spring
   - file: content/public/006.Force/Springs/Bungee_jumping/bungee_jumping
   - file: content/public/006.Force/Newton's Third Law/Two_Blocks_Stacked/Two_Blocks_Stacked
@@ -216,6 +219,8 @@ parts:
       Tension in Rope
   - file: content/public/006.Force/Topic Outcome/centripetal_force/centripetal_force
   - file: content/public/006.Force/Topic Outcome/velocity_netforce/velocity_netforce
+  - file: content/public/006.Force/Topic Outcome/Pendulum on an Uphill Cart/Pendulum
+      on an Uphill Cart
   - file: content/public/006.Force/Topic Outcome/ropes_and_blocks/ropes_and_blocks
   - file: content/public/006.Force/Topic Outcome/Turning_Car/Turning_car
   - file: content/public/006.Force/Topic Outcome/Slider in a Rotating Tube/Slider
@@ -345,6 +350,8 @@ parts:
   - file: content/public/008.Energy/Conservation of Energy/Spring Potential Energy
       Rail/Spring Potential Energy Rail
   - file: content/public/008.Energy/Conservation of Energy/Energy lost to air friction/energy_lost_air_friction
+  - file: content/public/008.Energy/Conservation of Energy/Potential Energy and Conservative
+      Force/Potential Energy and Conservative Force
   - file: content/public/008.Energy/Conservation of Energy/Block_in_hole/Block_In_Hole
   - file: content/public/008.Energy/Conservation of Energy/ball_race/2012Final_q3
   - file: content/public/008.Energy/Conservation of Energy/Physics of Roller Coasters/Physics
@@ -421,6 +428,8 @@ parts:
   - file: content/public/010.Rotational Motion/Topic Outcome/Boom Arm Polar Coordinates/boom_arm_polar_coords
   - file: content/public/010.Rotational Motion/Topic Outcome/Radius of a Rollercoaster/radius_of_a_rollercoaster
   - file: content/public/010.Rotational Motion/Topic Outcome/angular_speed/angular_speed
+  - file: content/public/010.Rotational Motion/Topic Outcome/Springs On a Disk/Springs
+      On a Disk
   - file: content/public/010.Rotational Motion/Topic Outcome/Cars on Hills/cars_on_hills
   - file: content/public/010.Rotational Motion/Rolling Motion/Rolling_without_slipping/Rolling_without_slipping
   - file: content/public/010.Rotational Motion/Rolling Motion/Minimum_Coefficient_Of_Static_Friction/Minimum_Coefficient_Of_Static_Friction
@@ -637,6 +646,7 @@ parts:
   - file: content/public/021.Circuits/Resistors/OSUPv2p10_26/OSUPv2p10_26
   - file: content/public/021.Circuits/OSUPv2p8_55/OSUPv2p8_55
   - file: content/public/021.Circuits/Alternating-Current Circuits/OSUPv2p14_64/OSUPv2p14_64
+  - file: content/public/021.Circuits/Alternating-Current Circuits/OSUPv2p14_68/OSUPv2p14_68
   - file: content/public/021.Circuits/Alternating-Current Circuits/OSUPv2p14_63/OSUPv2p14_63
   - file: content/public/021.Circuits/Alternating-Current Circuits/OSUPv2p14_66/OSUPv2p14_66
   - file: content/public/021.Circuits/Resistance/OSUPv2p10_06/OSUPv2p10_06
