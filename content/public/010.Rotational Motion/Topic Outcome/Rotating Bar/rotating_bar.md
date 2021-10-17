@@ -44,10 +44,10 @@ substitutions:
   params:
     vars:
       title: Rotating Bar
-    v: 11
-    h: 175
-    x: 127
-    a: 2
+    v: 25
+    h: 106
+    x: 78
+    a: 3
 ---
 # {{ params.vars.title }}
 <img src="L11Q1.png" width=85%>

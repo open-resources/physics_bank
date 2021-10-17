@@ -42,10 +42,10 @@ substitutions:
   params:
     vars:
       title: Square toroid
-    N: '568'
-    d: '3.2'
-    r: '22'
-    I: '2.6'
+    N: '545'
+    d: '2.0'
+    r: '28'
+    I: '2.4'
 ---
 # {{ params.vars.title }}
 A toroid with a square cross section {{ params.d }}$\textrm{ cm}\times${{ params.d }}$\textrm{ cm}$ has an inner radius of {{ params.r }}$\textrm{ cm}$.

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $p$ = $\dfrac{(q)}{(h + 6n)} $
+    expr: $v$ = $\dfrac{(m)}{(d - 9k)} $
     part1:
       ans1:
-        value: h = ${ - 6 n + \frac{q}{p}}$
+        value: d = ${ 9 k + \frac{m}{v}}$
       ans2:
-        value: h = ${\frac{6 n p}{q}}$
+        value: d = ${- \frac{9 k v}{m}}$
       ans3:
-        value: h = ${\frac{q}{6 n p}}$
+        value: d = ${- \frac{m}{9 k v}}$
       ans4:
-        value: h = ${\frac{- 6 n + p}{q}}$
+        value: d = ${\frac{9 k + v}{m}}$
       ans5:
         value: Don't Know
 ---

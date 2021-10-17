@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-21x + 49y }{ 7 }$
+    expr: $\dfrac{18x + 18y }{ -2 }$
     part1:
       ans1:
-        value: $- 3 x + 7 y$
+        value: $- 9 x - 9 y$
       ans2:
-        value: $\dfrac{-3x + 7y}{7}$
+        value: $\dfrac{-9x - 9y}{-2}$
       ans3:
-        value: $7x - 3y$
+        value: $-9x - 9y$
       ans4:
-        value: $-21x + 49y$
+        value: $18x - 18y$
       ans5:
         value: Don't know.
 ---

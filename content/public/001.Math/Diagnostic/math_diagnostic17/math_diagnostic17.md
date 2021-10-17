@@ -31,16 +31,16 @@ substitutions:
     vars:
       title: Math Practice 17
     a: 8
-    b: 8
+    b: 4
     part1:
       ans1:
-        value: $e^{8} e^{8 y}$
+        value: $e^{4} e^{8 y}$
       ans2:
         value: $e^{8 y} + e^{8}$
       ans3:
         value: $8 e^{8} e^{y}$
       ans4:
-        value: $8 e^{8 y}$
+        value: $4 e^{8 y}$
       ans5:
         value: Don't Know
 ---
