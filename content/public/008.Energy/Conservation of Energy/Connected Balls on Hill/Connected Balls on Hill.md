@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 8.5.1.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- average
 tags:
 - APSC 181 - LA
 - JR
@@ -29,25 +29,24 @@ part1:
     weight: 1
     allow-blank: true
     label: $v= $
-    suffix: $ft/s$
+    suffix: $m/s$
 substitutions:
   params:
     vars:
       title: Connected Balls on Hill
-    R: 20
+    R: 147
 ---
 # {{ params.vars.title }}
 <img src="Connected Balls on Hill.png" width=400>
 
-Two balls of equal mass are connected by a rod.
-If they are released from rest as shown, and slide along the smooth surface, calculate their velocity when A reaches B position and B is at $B^{\prime}$.
-$R = {{params.R}}''$.
+Two balls of equal mass are connected by a massless rod.
+If they are released from rest as shown, and slide along the smooth surface with radius of curvature $R = {{params.R}} cm$, calculate their velocity when the ball at $A$ reaches $B$ and the ball at $B$ reaches $B^{\prime}$.
 
 ## Part 1
 
 ### Answer Section
 
-Please enter in a numeric value in $ft/s$.
+Please enter in a numeric value in $m/s$.
 
 ## Attribution
 

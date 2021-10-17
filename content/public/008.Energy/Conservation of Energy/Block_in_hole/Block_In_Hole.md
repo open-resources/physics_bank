@@ -10,17 +10,18 @@ singleVariant: false
 outcomes:
 - 8.5.1.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- long
 tags:
 - EW
+- final_exam
 assets:
 - Q11.png
 part1:
@@ -36,8 +37,8 @@ substitutions:
     vars:
       title: Block In Hole
       units: m
-    a: 30
-    d: 0.8
+    a: 29
+    d: 0.6
 ---
 # {{ params.vars.title }}
 A small block is placed at height $h$ on a frictionless, {{params.a}}$^\circ$ ramp.

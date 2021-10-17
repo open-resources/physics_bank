@@ -53,10 +53,10 @@ All the blocks in the figure below are identical and you can ignore any friction
 
 <div id="desc">
 <h5>Long Description of image: Figure of four pulley systems.</h5>
-System A is a simple pulley system using one block.</br>
-System B is a double pulley system using one block on each side.</br>
-System C is a simple pulley system using two blocks.</br>
-System D is a double pulley system using one block on the left side and two blocks on the right.
+System A has a box hanging vertically connected to a rope. The rope goes through a pulley and then connects horizontally to a wall. </br>
+System B is a double pulley system. Two blocks hang vertically and are connected to eachother by a rope that passes horizontally through two pulleys. </br>
+System C has a two boxes hanging vertically connected to a rope. The rope goes through a pulley and then connects horizontally to a wall.</br>
+System D is a double pulley system. Two blocks hang vertically and are connected to one block by a rope that passes horizontally through two pulleys.
 <p>Long description ends.</p>
 <div>
 

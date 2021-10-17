@@ -32,17 +32,17 @@ substitutions:
     vars:
       title: Diagnostic Q11
     a: 2
-    b: 4
-    c: 1
+    b: 8
+    c: 2
     part1:
       ans1:
-        value: x = -1.7, x = -0.29
+        value: x = -3.7, x = -0.27
       ans2:
-        value: x = 1.7, x = 0.29
+        value: x = 3.7, x = 0.27
       ans3:
-        value: x = 4, x = 1
+        value: x = 8, x = 2
       ans4:
-        value: x = 2, x = 4
+        value: x = 2, x = 8
       ans5:
         value: Don't Know
 ---

@@ -8,18 +8,19 @@ attribution: standard
 outcomes:
 - 8.5.1.0
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- long
 tags:
 - APSC 181 - LA
 - JR
+- final_exam
 assets:
 - Log up a Hill.png
 part1:
@@ -41,11 +42,11 @@ substitutions:
   params:
     vars:
       title: Log up a Hill
-    W: 812
+    W: 714
     t: 24
-    v: 4
-    P: 6
-    P2: 8
+    v: 5
+    P: 2
+    P2: 4
 ---
 # {{ params.vars.title }}
 <img src="Log up a Hill.png" width=400>

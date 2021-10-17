@@ -12,15 +12,15 @@ outcomes:
 - 8.1.1.0
 - 17.1.1.7
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 0
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - AK
 assets: null
@@ -36,14 +36,14 @@ substitutions:
       title: Dissipative Energy
     part1:
       ans1:
-        value: Incoherent deformations are dissipative
-      ans2:
         value: Irreversible processes are dissipative.
+      ans2:
+        value: If the total kinetic energy is not constant all of the way through
+          the interaction, the process is dissipative.
       ans3:
-        value: If the total kinetic energy is not constant all the way through the
-          interaction, the process is dissipative.
-      ans4:
         value: Coherent deformations are dissipative.
+      ans4:
+        value: Incoherent deformations are dissipative
       ans5:
         value: Dissipative processes are one where the total mechanical energy is
           not conserved.
@@ -52,11 +52,9 @@ substitutions:
 
 ## Question Text
 
-What do we mean when we say a process is dissipative?
+Select all of the choices that are true.
 
-Select all the choices that are true.
-
-Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
+Note: You will be awarded full marks only if you select all the correct choices and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
 ### Answer Section
 

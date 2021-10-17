@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 7.2.1.0
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - PW
 assets: null
@@ -31,30 +31,30 @@ substitutions:
     vars:
       title: Kinetic Energy of Test Mass
       units: J
-    m: 65
-    v: 8.34
-    d_m: 3
-    d_v: 0.05
+    m: 457
+    v: 1.78
+    d_m: 2
+    d_v: 0.09
     part1:
       ans1:
-        value: 2.261 $\pm$ 0.118
+        value: 0.724 $\pm$ 0.04
       ans2:
-        value: 2.261 $\pm$ 0.131
+        value: 0.724 $\pm$ 0.076
       ans3:
-        value: 2.261 $\pm$ 0.104
+        value: 0.724 $\pm$ 0.005
       ans4:
-        value: 2.261 $\pm$ 0.046
+        value: 0.724 $\pm$ 0.007
       ans5:
-        value: 2.261 $\pm$ 0.058
+        value: 0.724 $\pm$ 0.105
       ans6:
-        value: 2.261 $\pm$ 0.104
+        value: 0.724 $\pm$ 0.003
 ---
 # {{ params.vars.title }}
-In a lab, a test mass with $m = $ {{ params.m}} $\pm$ {{ params.d_m}} g is measured to have a speed of {{ params.v}} $\pm$ {{ params.d_v}} $m/s$.
+In a lab, a {{ params.m}} $\pm$ {{ params.d_m}} $g$ test-mass is measured to have a speed of {{ params.v}} $\pm$ {{ params.d_v}} $m/s$.
 
 ## Part 1
 
-What is the kinetic energy of the mass?
+What is the kinetic energy of the test-mass?
 
 ### Answer Section
 

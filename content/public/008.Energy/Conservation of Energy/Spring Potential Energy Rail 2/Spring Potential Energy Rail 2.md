@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 8.5.1.1
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- long
 tags:
 - APSC 181 - LA
 - JR
@@ -50,9 +50,9 @@ substitutions:
   params:
     vars:
       title: Spring Potential Energy Rail 2
-    m: 1
-    R: 0.61
-    k: 104
+    m: 3
+    R: 0.53
+    k: 112
 ---
 # {{ params.vars.title }}
 <img src="Spring Potential Energy Rail 2.png" width=400>

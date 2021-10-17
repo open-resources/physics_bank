@@ -13,15 +13,15 @@ outcomes:
 - 8.3.1.0
 - 9.2.1.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 1
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- average
 tags:
 - AK
 assets: null
@@ -43,7 +43,7 @@ part3:
 substitutions:
   params:
     vars:
-      name: Santiago
+      name: Aliyah
       title: Lowering a bucket - the bucket
     part1:
       ans1:

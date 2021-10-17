@@ -10,15 +10,15 @@ outcomes:
 - 8.2.1.4
 - 8.3.2.4
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - PW
 assets:
@@ -36,7 +36,7 @@ substitutions:
     vars:
       title: Kinetic Energy of a Simple Pendulum System
       units: degrees
-    theta: 39.7
+    theta: 76.7
 ---
 # {{ params.vars.title }}
 The figure below shows a simple pendulum. The length of the string is $l$ and the bob has mass $m_1$.

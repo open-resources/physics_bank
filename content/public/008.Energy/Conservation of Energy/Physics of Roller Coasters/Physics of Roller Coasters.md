@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 8.5.1.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- average
 tags:
 - PW
 assets:
@@ -32,20 +32,20 @@ substitutions:
     vars:
       title: Physics of Roller-Coasters
       units: m/s
-    r: 19.4
+    r: 26.6
     part1:
       ans1:
-        value: 27.6
+        value: 32.3
       ans2:
-        value: 30.8
+        value: 36.1
       ans3:
-        value: 23.9
+        value: 28.0
       ans4:
-        value: 19.5
+        value: 22.8
       ans5:
-        value: 13.8
+        value: 16.2
       ans6:
-        value: 33.8
+        value: 39.6
 ---
 # {{ params.vars.title }}
 A roller-coaster travels over a vertical, circular loop of radius $R = $ {{ params.r }} $m$.

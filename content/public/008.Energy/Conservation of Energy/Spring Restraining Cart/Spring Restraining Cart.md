@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 8.5.1.0
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- long
 tags:
 - APSC 181 - LA
 - JR
@@ -34,13 +34,13 @@ substitutions:
   params:
     vars:
       title: Spring Restraining Cart
-    m: 11
-    F: 294
-    x1: 0.58
-    d: 1.47
-    h: 0.6
-    k: 44
-    thetad: 19
+    m: 10
+    F: 351
+    x1: 0.2
+    d: 1.24
+    h: 0.61
+    k: 56
+    thetad: 18
 ---
 # {{ params.vars.title }}
 <img src="Spring Restraining Cart.png" width=400>

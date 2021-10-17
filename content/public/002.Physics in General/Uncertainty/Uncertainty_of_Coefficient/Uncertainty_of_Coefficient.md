@@ -34,18 +34,18 @@ substitutions:
       title: Uncertainty of Coefficient
       name: Ximena
       units: $kg/s$
-    m: 116
-    v: 1.9
-    b: 0.43
+    m: 88
+    v: 2.2
+    b: 0.59
     part1:
       ans1:
-        value: ' $\pm$ 0.12'
+        value: ' $\pm$ 0.11'
       ans2:
-        value: ' $\pm$ 0.05'
+        value: ' $\pm$ 0.07'
       ans3:
         value: ' $\pm$ 0.01'
       ans4:
-        value: ' $\pm$ 0.53'
+        value: ' $\pm$ 0.67'
 ---
 # {{ params.vars.title }}
 The drag force on an object of interest can be accurately modelled as $\vec{D}$ = -$b\vec{v}$ such that its terminal velocity in free fall is given by $v_T$ = $mg/b$.

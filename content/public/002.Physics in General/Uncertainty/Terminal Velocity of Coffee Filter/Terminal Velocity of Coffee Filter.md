@@ -61,15 +61,15 @@ substitutions:
       name: Mateo
       unit1: $m/s$
       unit2: $kg/s$
-    m: 1
-    d_m: 36
-    sd: 0.074
-    v1: 0.82
-    v2: 0.84
-    v3: 0.93
-    v4: 0.75
-    v5: 0.75
-    v6: 0.93
+    m: 5
+    d_m: 46
+    sd: 0.094
+    v1: 0.96
+    v2: 0.81
+    v3: 0.71
+    v4: 0.98
+    v5: 0.8
+    v6: 0.86
 ---
 # {{ params.vars.title }}
 In one of the PHYS 111 labs {{ params.vars.name }} measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling through the air.

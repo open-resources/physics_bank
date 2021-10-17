@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 9.3.1.1
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - APSC 181 - LA
 - JR
@@ -42,8 +42,8 @@ substitutions:
   params:
     vars:
       title: Power Climbing Stairs
-    W: 168
-    t: 3
+    W: 186
+    t: 7
     h: 14
 ---
 # {{ params.vars.title }}

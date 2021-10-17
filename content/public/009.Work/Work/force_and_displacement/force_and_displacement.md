@@ -11,15 +11,15 @@ outcomes:
 - 9.1.1.1
 - 9.2.1.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - MP
 assets: null
@@ -32,19 +32,19 @@ substitutions:
     vars:
       title: Force and Displacement
       units: J
-    f1: -16
-    f2: 12
-    r1: 10
-    r2: -17
+    f1: -15
+    f2: 15
+    r1: 2
+    r2: -16
     part1:
       ans1:
-        value: -364
+        value: -270
       ans2:
-        value: 364
+        value: 270
       ans3:
-        value: 44
+        value: 210
       ans4:
-        value: -44
+        value: -210
       ans5:
         value: Zero
 ---

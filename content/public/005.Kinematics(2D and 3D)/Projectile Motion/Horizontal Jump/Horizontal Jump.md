@@ -35,18 +35,18 @@ substitutions:
       title: Horizontal Jump
       units: m
     v: 20
-    d: 4.53
+    d: 3.37
     part1:
       ans1:
         value: 9.81
       ans2:
-        value: 13.59
+        value: 11.72
       ans3:
-        value: 18.47
+        value: 13.74
       ans4:
-        value: 19.22
+        value: 16.58
       ans5:
-        value: 27.71
+        value: 20.61
 ---
 # {{ params.vars.title }}
 

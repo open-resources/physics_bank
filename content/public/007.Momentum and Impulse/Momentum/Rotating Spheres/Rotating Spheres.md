@@ -34,9 +34,9 @@ substitutions:
   params:
     vars:
       title: Rotating Spheres
-    m: 1.1
-    Mo: 1
-    t: 3
+    m: 2.1
+    Mo: 2
+    t: 4
     r: 0.4
 ---
 # {{ params.vars.title }}

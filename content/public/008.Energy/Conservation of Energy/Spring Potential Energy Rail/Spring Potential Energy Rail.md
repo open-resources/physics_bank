@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 8.5.1.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- average
 tags:
 - APSC 181 - LA
 - JR
@@ -34,11 +34,11 @@ substitutions:
   params:
     vars:
       title: Spring Potential Energy Rail
-    m: 5
-    xi: 0.37
-    x: 0.53
-    R: 0.67
-    k: 196
+    m: 6
+    xi: 0.24
+    x: 0.61
+    R: 0.79
+    k: 122
 ---
 # {{ params.vars.title }}
 <img src="Spring Potential Energy Rail.png" width=400>

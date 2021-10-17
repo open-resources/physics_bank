@@ -8,7 +8,7 @@ attribution: standard
 outcomes:
 - 6.11.2.1
 difficulty:
-- medium
+- hard
 randomization:
 - 2
 taxonomy:
@@ -34,11 +34,11 @@ substitutions:
   params:
     vars:
       title: Stiffness of a Spring
-    h: 381
-    F: 115
-    x: 170
-    d: 65
-    m: 5
+    h: 344
+    F: 134
+    x: 217
+    d: 67
+    m: 9
 ---
 # {{ params.vars.title }}
 <img src="Stiffness of a Spring.png" width=400>

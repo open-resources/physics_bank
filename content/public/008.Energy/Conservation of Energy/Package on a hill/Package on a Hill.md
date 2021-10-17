@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 8.5.1.0
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- long
 tags:
 - APSC 181 - LA
 - JR
@@ -34,10 +34,10 @@ substitutions:
   params:
     vars:
       title: Package on a Hill
-    w: 47
-    va: 2
+    w: 43
+    va: 1
     vb: 23
-    h: 35
+    h: 24
     d: 25
 ---
 # {{ params.vars.title }}

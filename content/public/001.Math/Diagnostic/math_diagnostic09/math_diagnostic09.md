@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $n$ = $\dfrac{(d)}{(z - 5t)} $
+    expr: $c$ = $\dfrac{(g)}{(b - 7j)} $
     part1:
       ans1:
-        value: z = ${ \frac{d}{n} + 5 t}$
+        value: b = ${ 7 j + \frac{g}{c}}$
       ans2:
-        value: z = ${- \frac{5 n t}{d}}$
+        value: b = ${- \frac{7 c j}{g}}$
       ans3:
-        value: z = ${- \frac{d}{5 n t}}$
+        value: b = ${- \frac{g}{7 c j}}$
       ans4:
-        value: z = ${\frac{n + 5 t}{d}}$
+        value: b = ${\frac{c + 7 j}{g}}$
       ans5:
         value: Don't Know
 ---

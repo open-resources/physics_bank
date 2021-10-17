@@ -38,15 +38,23 @@ part2:
     allow-blank: true
     label: $F= $
     suffix: $lb$
+part3:
+  type: number-input
+  pl-customizations:
+    rtol: 0.05
+    weight: 1
+    allow-blank: true
+    label: $F= $
+    suffix: $lb$
 substitutions:
   params:
     vars:
       title: Force on a Highway Exit
-    vami: 45
-    vcmi: 23
-    W: 5268
-    d: 193
-    r: 151
+    vami: 49
+    vcmi: 25
+    W: 7305
+    d: 217
+    r: 128
 ---
 # {{ params.vars.title }}
 <img src="Force on a Highway Exit.png" width=400>
@@ -69,6 +77,14 @@ What is the force at point B?
 ### Answer Section
 
 Please enter in a numeric value in $lb$.
+
+## Part 3
+
+What is the force at point C? Assume the car does not slip.
+
+### Answer Section
+
+Please enter a numeric value in $lb$.
 
 ## Attribution
 

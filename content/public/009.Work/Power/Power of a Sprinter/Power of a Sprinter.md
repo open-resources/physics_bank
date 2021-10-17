@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 9.3.1.1
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - APSC 181 - LA
 - JR
@@ -34,10 +34,10 @@ substitutions:
     vars:
       title: Power of a Sprinter
       units: W
-    v: 10
+    v: 9
     t: 2
-    m: 76
-    v2: 1
+    m: 81
+    v2: 4
 ---
 # {{ params.vars.title }}
 An {{ params.m }}$kg$ sprinter accelerates uniformly from rest to reach their maximum speed of {{ params.v }}$m/s$ in  seconds.

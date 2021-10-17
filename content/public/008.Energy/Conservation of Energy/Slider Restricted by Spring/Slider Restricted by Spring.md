@@ -8,18 +8,19 @@ attribution: standard
 outcomes:
 - 8.5.1.0
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- long
 tags:
 - APSC 181 - LA
 - JR
+- final_exam
 assets:
 - Slider Restricted by Spring.png
 part1:
@@ -34,12 +35,12 @@ substitutions:
   params:
     vars:
       title: Slider Restricted by Spring
-    m: 57
-    F: 321
-    x1: 0.185
-    d: 1.14
-    h: 1.26
-    k: 85
+    m: 41
+    F: 322
+    x1: 0.141
+    d: 1.45
+    h: 1.22
+    k: 87
 ---
 # {{ params.vars.title }}
 <img src="Slider Restricted by Spring.png" width=100%>

@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 9.3.1.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - APSC 181 - LA
 - JR
@@ -35,8 +35,8 @@ substitutions:
     vars:
       title: Power of a Biker
       units: $hp$
-    v: 7
-    W: 176
+    v: 9
+    W: 195
     grd: 5
 ---
 # {{ params.vars.title }}

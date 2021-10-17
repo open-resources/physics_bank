@@ -11,17 +11,18 @@ outcomes:
 - 8.5.1.0
 - 8.5.1.1
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- long
 tags:
 - PW
+- final_exam
 assets:
 - ballsfired.png
 part1:
@@ -55,7 +56,8 @@ A ball fired vertically at speed $v_1$ reaches a maximum height $h_1$.
 
 ## Part 1
 
-Neglecting air resistance, for a second ball of the same mass fired at $\theta=$ {{ params.theta }}$^{\circ}$ above the horizontal (as shown in the figure) to reach the same maximal height, it must be fired at a speed:
+At what speed must a second ball of the same mass be fired to reach the same maximal height if it is fired at an angle $\theta=$ {{ params.theta }}$^{\circ}$ above the horizontal (as shown in the figure)?
+Assume air resistance is negligible.
 
 ### Answer Section
 
