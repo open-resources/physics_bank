@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $c$ = $\dfrac{(g)}{(b - 7j)} $
+    expr: $p$ = $\dfrac{(q)}{(h + 6n)} $
     part1:
       ans1:
-        value: b = ${ 7 j + \frac{g}{c}}$
+        value: h = ${ - 6 n + \frac{q}{p}}$
       ans2:
-        value: b = ${- \frac{7 c j}{g}}$
+        value: h = ${\frac{6 n p}{q}}$
       ans3:
-        value: b = ${- \frac{g}{7 c j}}$
+        value: h = ${\frac{q}{6 n p}}$
       ans4:
-        value: b = ${\frac{c + 7 j}{g}}$
+        value: h = ${\frac{- 6 n + p}{q}}$
       ans5:
         value: Don't Know
 ---

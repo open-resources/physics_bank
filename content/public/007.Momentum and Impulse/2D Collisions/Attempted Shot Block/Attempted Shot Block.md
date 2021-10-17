@@ -42,7 +42,7 @@ substitutions:
   params:
     vars:
       title: Attempted Shot Block
-    thetad: 26
+    thetad: 44
     e: 0.8
 ---
 # {{ params.vars.title }}

@@ -32,14 +32,14 @@ substitutions:
   params:
     vars:
       title: Uncertainty of Coefficient
-      name: Ximena
+      name: Emilia
       units: $kg/s$
-    m: 88
-    v: 2.2
-    b: 0.59
+    m: 70
+    v: 2.1
+    b: 0.54
     part1:
       ans1:
-        value: ' $\pm$ 0.11'
+        value: ' $\pm$ 0.12'
       ans2:
         value: ' $\pm$ 0.07'
       ans3:

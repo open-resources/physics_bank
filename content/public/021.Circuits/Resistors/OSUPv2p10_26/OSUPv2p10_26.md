@@ -49,9 +49,9 @@ part2:
     weight: 1
 substitutions:
   params:
-    R1: '1.60'
-    R2: '3.00'
-    R3: '5.50'
+    R1: '1.30'
+    R2: '3.25'
+    R3: '7.00'
 ---
 # {{ params.vars.title }}
 Consider a ${{{ params.R1 }}}\times{10^{2}} \rm\ \Omega$, a ${{ params.R2 }}\rm\ k \Omega$, and a ${{ params.R3 }}\rm\ k \Omega$ resistor.

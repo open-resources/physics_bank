@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $9^{3} $=$ 729$
+    expr: $4^{3} $=$ 64$
     part1:
       ans1:
-        value: $log_9729 = 3$
+        value: $log_464 = 3$
       ans2:
-        value: $log_93 = 729$
+        value: $log_43 = 64$
       ans3:
-        value: $log_7293 = 9$
+        value: $log_643 = 4$
       ans4:
-        value: $log_3729 = 9$
+        value: $log_364 = 4$
       ans5:
         value: Don't Know
 ---
