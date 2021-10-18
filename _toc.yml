@@ -195,7 +195,6 @@ parts:
   - file: content/public/006.Force/Free Body Diagrams/Ball Rolling in Pipe/ball_rolling_in_pipe
   - file: content/public/006.Force/Free Body Diagrams/pulley_on_truck/pulley_on_truck
   - file: content/public/006.Force/Drag/Cyclist with a Deathwish/cyclist
-  - file: content/public/006.Force/Drag/Cyclist/cyclist
   - file: content/public/006.Force/Dynamics of Circular Motion/object_on_string/object_on_string
   - file: content/public/006.Force/Dynamics of Circular Motion/Frictionless Table/frictionless_table
   - file: content/public/006.Force/Dynamics of Circular Motion/Object_In_Circular_Motion/Object_In_Circular_Motion
@@ -453,6 +452,7 @@ parts:
       Potential Energy of an Oscillator/Displacement and Potential Energy of an Oscillator
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Bouncing a baby to
       sleep/Bouncing a baby to sleep
+  - file: content/public/015.Oscillations/Simple Harmonic Motion/spring_oscillations/spring_oscillations
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Maximum Speed of
       a Pendulum/Maximum Speed of a Pendulum
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Maximum_In_Simple_Harmonic_Motion/Maximum_In_Simple_Harmonic_Motion
