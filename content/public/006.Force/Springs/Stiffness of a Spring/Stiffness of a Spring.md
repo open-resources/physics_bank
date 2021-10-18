@@ -34,10 +34,10 @@ substitutions:
   params:
     vars:
       title: Stiffness of a Spring
-    h: 425
-    F: 112
-    x: 157
-    d: 70
+    h: 474
+    F: 159
+    x: 131
+    d: 29
     m: 6
 ---
 # {{ params.vars.title }}

@@ -35,17 +35,17 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: The position in 3 dimensions
+        value: Force
       ans2:
         value: The position in a 1 dimensional system
       ans3:
-        value: Mass
+        value: Displacement
       ans4:
-        value: Density
+        value: Entropy
       ans5:
-        value: Volume
-      ans6:
         value: Pressure
+      ans6:
+        value: Energy
 ---
 # {{ params.vars.title }}
 

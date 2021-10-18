@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $v$ = $\dfrac{(m)}{(d - 9k)} $
+    expr: $s$ = $\dfrac{(m)}{(o - 2h)} $
     part1:
       ans1:
-        value: d = ${ 9 k + \frac{m}{v}}$
+        value: o = ${ 2 h + \frac{m}{s}}$
       ans2:
-        value: d = ${- \frac{9 k v}{m}}$
+        value: o = ${- \frac{2 h s}{m}}$
       ans3:
-        value: d = ${- \frac{m}{9 k v}}$
+        value: o = ${- \frac{m}{2 h s}}$
       ans4:
-        value: d = ${\frac{9 k + v}{m}}$
+        value: o = ${\frac{2 h + s}{m}}$
       ans5:
         value: Don't Know
 ---

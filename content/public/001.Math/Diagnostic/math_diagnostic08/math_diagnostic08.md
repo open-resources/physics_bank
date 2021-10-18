@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{18x + 18y }{ -2 }$
+    expr: $\dfrac{18x + 21y }{ -3 }$
     part1:
       ans1:
-        value: $- 9 x - 9 y$
+        value: $- 6 x - 7 y$
       ans2:
-        value: $\dfrac{-9x - 9y}{-2}$
+        value: $\dfrac{-6x - 7y}{-3}$
       ans3:
-        value: $-9x - 9y$
+        value: $-7x - 6y$
       ans4:
-        value: $18x - 18y$
+        value: $18x - 21y$
       ans5:
         value: Don't know.
 ---

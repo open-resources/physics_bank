@@ -34,16 +34,17 @@ substitutions:
     vars:
       title: Power of a Sprinter
       units: W
-    v: 11
-    t: 5
-    m: 77
-    v2: 3
+    v: 10
+    t: 3
+    m: 84
+    v2: 4
 ---
 # {{ params.vars.title }}
-An {{ params.m }}$kg$ sprinter accelerates uniformly from rest to reach their maximum speed of {{ params.v }}$m/s$ in  seconds.
-What is their power output when their speed is {{ params.v2 }}$m/s$?
+A {{ params.m }}$kg$ sprinter accelerates uniformly from rest to reach their maximum speed of {{ params.v }}$m/s$ in {{ params.t }} seconds.
 
 ## Part 1
+
+What is their power output when their speed is {{ params.v2 }}$m/s$?
 
 ### Answer Section
 
