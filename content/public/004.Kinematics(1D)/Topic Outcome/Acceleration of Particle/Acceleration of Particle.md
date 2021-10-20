@@ -46,7 +46,7 @@ part3:
     rtol: 0.05
     weight: 1
     allow-blank: true
-    label: $a= $
+    label: $a_{x,1}= $
     suffix: $m/s^2$
 part4:
   type: number-input
@@ -54,7 +54,7 @@ part4:
     rtol: 0.05
     weight: 1
     allow-blank: true
-    label: $a= $
+    label: $a_{x,1}= $
     suffix: $m/s^2$
 substitutions:
   params:
@@ -62,16 +62,16 @@ substitutions:
       title: Acceleration of a Particle
       unit1: $s$
       unit2: $m/s^2$
-    c1: 2
-    c2: 9
-    c3_abs: 27
-    c3_sign: ' - '
+    c1: 4
+    c2_abs: 4
+    c2_sign: ' - '
+    c3_abs: 19
+    c3_sign: ' + '
 ---
 # {{ params.vars.title }}
-The position of a particle is given by the function $x = (${{ params.c1 }}$t^3 -${{ params.c2 }}$t^2$ {{ params.c3_sign }} {{ params.c3_abs }}) $m$ where $t$ is in seconds.
+The position of a particle in $m$ is given by the function $x = ${{ params.c1 }}$t^3$ {{ params.c2_sign }} {{ params.c2_abs }}$t^2$ {{ params.c3_sign }} {{ params.c3_abs }}, where $t$ is in $s$.
 
 As you solve the questions below, you will be asked to find several times ($t_1$, $t_2$, $t_3$, etc...) based on certain conditions.
-In all cases, order your $t_1$, $t_2$, $t_3$ values such that $t_1$ is the lowest one, and subsequent values increase in time.
 
 ## Part 1
 
@@ -83,8 +83,7 @@ Please enter in a numeric value in {{ params.vars.unit1 }}.
 
 ## Part 2
 
-At what time after $t_1$, is $v_x = 0$ $m/s$ again? Enter $t_2$, the next value.
-*Hint: If there is no such time, enter the special value `-1000` and NOT 0!*
+At what time after $t_1$ is $v_x = 0$ $m/s$ again? Enter $t_2$, the next value.
 
 ### Answer Section
 
@@ -92,7 +91,7 @@ Please enter in a numeric value in {{ params.vars.unit1 }}.
 
 ## Part 3
 
-What is the particle's acceleration at the time $t_1$? Enter $a_x\_,\_1$, the acceleration corresponding to $t_1$.
+What is the particle's acceleration at the time $t_1$? Enter $a\_{x,1}$, the acceleration corresponding to $t_1$.
 
 ### Answer Section
 
@@ -100,9 +99,7 @@ Please enter in a numeric value in {{ params.vars.unit2 }}.
 
 ## Part 4
 
-What is the particle's acceleration at the time $t_2$? Enter $a_x\_,\_2$, the acceleration corresponding to $t_2$.
-
-*Hint: If $t_2$ does not exist, enter the special value `-1000` for the acceleration and NOT 0!*
+What is the particle's acceleration at the time $t_2$? Enter $a\_{x,2}$, the acceleration corresponding to $t_2$.
 
 ### Answer Section
 

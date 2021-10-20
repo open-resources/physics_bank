@@ -46,7 +46,7 @@ part3:
   pl-customizations:
     weight: 1
     allow-blank: true
-    label: $ \delta a_{measured}= $
+    label: $\sigma_{\bar{x}} = $
     suffix: $m/s^2$
     digits: 3
 part4:
@@ -57,23 +57,23 @@ substitutions:
   params:
     vars:
       title: A Frictionless Air Track?
-      name: Emilia
+      name: Mateo
       units: $m/s^2$
-    m1: 247.8
-    m2: 22.05
-    d_a: 0.03
-    mean: 1.56
-    sd: 0.124
-    a1: 1.77
-    a2: 1.58
-    a3: 1.58
-    a4: 1.54
-    a5: 1.48
-    a6: 1.77
-    a7: 1.5
-    a8: 1.55
-    a9: 1.49
-    a10: 1.34
+    m1: 407.9
+    m2: 15.37
+    d_a: 0.02
+    mean: 1.48
+    sd: 0.116
+    a1: 1.44
+    a2: 1.63
+    a3: 1.54
+    a4: 1.33
+    a5: 1.34
+    a6: 1.57
+    a7: 1.63
+    a8: 1.45
+    a9: 1.55
+    a10: 1.31
     part4:
       ans1:
         value: The track is frictionless because $a_{expected}$ does not agree with
@@ -130,7 +130,7 @@ Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 3
 
-Calculate the standard deviation error of $a\_{measured}$.
+Calculate the standard error of $a\_{measured}$.
 
 ### Answer Section
 

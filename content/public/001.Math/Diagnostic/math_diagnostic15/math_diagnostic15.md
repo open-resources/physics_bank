@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $2^{3} $=$ 8$
+    expr: $8^{9} $=$ 134217728$
     part1:
       ans1:
-        value: $log_28 = 3$
+        value: $log_8134217728 = 9$
       ans2:
-        value: $log_23 = 8$
+        value: $log_89 = 134217728$
       ans3:
-        value: $log_83 = 2$
+        value: $log_1342177289 = 8$
       ans4:
-        value: $log_38 = 2$
+        value: $log_9134217728 = 8$
       ans5:
         value: Don't Know
 ---

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $t$ = $\dfrac{(w)}{(x + 8g)} $
+    expr: $a$ = $\dfrac{(m)}{(o + 9v)} $
     part1:
       ans1:
-        value: x = ${ - 8 g + \frac{w}{t}}$
+        value: o = ${ - 9 v + \frac{m}{a}}$
       ans2:
-        value: x = ${\frac{8 g t}{w}}$
+        value: o = ${\frac{9 a v}{m}}$
       ans3:
-        value: x = ${\frac{w}{8 g t}}$
+        value: o = ${\frac{m}{9 a v}}$
       ans4:
-        value: x = ${\frac{- 8 g + t}{w}}$
+        value: o = ${\frac{a - 9 v}{m}}$
       ans5:
         value: Don't Know
 ---

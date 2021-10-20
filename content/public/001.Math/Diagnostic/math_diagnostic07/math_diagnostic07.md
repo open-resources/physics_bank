@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 9x - 5y = 30
-    formula2: 1x + 1y = 30
+    formula1: 5x - 3y = 16
+    formula2: 6x + 4y = 50
     part1:
       ans1:
-        value: ' x =90/7, y =120/7'
+        value: ' x =107/19, y =77/19'
       ans2:
-        value: ' x =120/7, y =90/7'
+        value: ' x =77/19, y =107/19'
       ans3:
-        value: ' x =-90/7, y =-120/7'
+        value: ' x =-107/19, y =-77/19'
       ans4:
-        value: ' x =-120/7, y =-90/7'
+        value: ' x =-77/19, y =-107/19'
       ans5:
         value: Don't Know
 ---
