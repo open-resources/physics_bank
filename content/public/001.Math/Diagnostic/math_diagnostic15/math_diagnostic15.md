@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $9^{6} $=$ 531441$
+    expr: $2^{3} $=$ 8$
     part1:
       ans1:
-        value: $log_9531441 = 6$
+        value: $log_28 = 3$
       ans2:
-        value: $log_96 = 531441$
+        value: $log_23 = 8$
       ans3:
-        value: $log_5314416 = 9$
+        value: $log_83 = 2$
       ans4:
-        value: $log_6531441 = 9$
+        value: $log_38 = 2$
       ans5:
         value: Don't Know
 ---

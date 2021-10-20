@@ -37,15 +37,15 @@ substitutions:
       ans1:
         value: Force
       ans2:
-        value: The position in a 1 dimensional system
+        value: Momentum
       ans3:
-        value: Displacement
+        value: Weight
       ans4:
-        value: Entropy
-      ans5:
-        value: Pressure
-      ans6:
         value: Energy
+      ans5:
+        value: Area
+      ans6:
+        value: Volume
 ---
 # {{ params.vars.title }}
 

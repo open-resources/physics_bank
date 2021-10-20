@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $s$ = $\dfrac{(m)}{(o - 2h)} $
+    expr: $t$ = $\dfrac{(w)}{(x + 8g)} $
     part1:
       ans1:
-        value: o = ${ 2 h + \frac{m}{s}}$
+        value: x = ${ - 8 g + \frac{w}{t}}$
       ans2:
-        value: o = ${- \frac{2 h s}{m}}$
+        value: x = ${\frac{8 g t}{w}}$
       ans3:
-        value: o = ${- \frac{m}{2 h s}}$
+        value: x = ${\frac{w}{8 g t}}$
       ans4:
-        value: o = ${\frac{2 h + s}{m}}$
+        value: x = ${\frac{- 8 g + t}{w}}$
       ans5:
         value: Don't Know
 ---

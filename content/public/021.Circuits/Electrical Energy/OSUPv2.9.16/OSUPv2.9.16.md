@@ -32,15 +32,15 @@ substitutions:
       name: Savannah
     part1:
       ans1:
-        value: charge
+        value: energy
       ans2:
-        value: voltage
+        value: current
       ans3:
         value: power
       ans4:
-        value: energy
+        value: voltage
       ans5:
-        value: current
+        value: charge
 ---
 # {{ params.vars.title }}
 
