@@ -46,7 +46,7 @@ substitutions:
       title: Uranium Fragments
       units: amu
     frag_speed: 2.6
-    dn_speed: 3.88
+    dn_speed: 3.19
     orig_mass: 234
     isotope: $^{234}\mathrm{U}$
 ---

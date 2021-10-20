@@ -58,7 +58,7 @@ substitutions:
   params:
     vars:
       title: Projectile of ball launched to a specific height
-    v0: 311
+    v0: 370
     distance: 328
 ---
 # {{ params.vars.title }}

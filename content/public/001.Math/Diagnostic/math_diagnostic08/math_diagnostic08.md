@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{32x + 8y }{ -4 }$
+    expr: $\dfrac{45x - 18y }{ -9 }$
     part1:
       ans1:
-        value: $- 8 x - 2 y$
+        value: $- 5 x + 2 y$
       ans2:
-        value: $\dfrac{-8x - 2y}{-4}$
+        value: $\dfrac{-5x + 2y}{-9}$
       ans3:
-        value: $-2x - 8y$
+        value: $2x - 5y$
       ans4:
-        value: $32x - 8y$
+        value: $45x + 18y$
       ans5:
         value: Don't know.
 ---

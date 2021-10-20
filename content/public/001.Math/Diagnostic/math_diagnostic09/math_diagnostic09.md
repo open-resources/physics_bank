@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $a$ = $\dfrac{(m)}{(o + 9v)} $
+    expr: $m$ = $\dfrac{(a)}{(h - 5v)} $
     part1:
       ans1:
-        value: o = ${ - 9 v + \frac{m}{a}}$
+        value: h = ${ \frac{a}{m} + 5 v}$
       ans2:
-        value: o = ${\frac{9 a v}{m}}$
+        value: h = ${- \frac{5 m v}{a}}$
       ans3:
-        value: o = ${\frac{m}{9 a v}}$
+        value: h = ${- \frac{a}{5 m v}}$
       ans4:
-        value: o = ${\frac{a - 9 v}{m}}$
+        value: h = ${\frac{m + 5 v}{a}}$
       ans5:
         value: Don't Know
 ---

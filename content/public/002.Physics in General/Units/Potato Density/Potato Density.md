@@ -62,8 +62,8 @@ substitutions:
       name: Mateo
       unit1: $kg$
       unit2: $m^3$
-    m_p: 231
-    m_cp: 62
+    m_p: 288
+    m_cp: 140
     l: 2
 ---
 # {{ params.vars.title }}
