@@ -210,6 +210,8 @@ parts:
       Blocks Connected by a String
   - file: content/public/006.Force/Topic Outcome/frictionless_track/frictionless_track
   - file: content/public/006.Force/Topic Outcome/Window Washer/window_washer
+  - file: content/public/006.Force/Topic Outcome/Pinball Machine Precursor/Pinball
+      Machine Precursor
   - file: content/public/006.Force/Topic Outcome/RollerCoaster/RollerCoaster
   - file: content/public/006.Force/Topic Outcome/Raising a Package/raising_a_package
   - file: content/public/006.Force/Topic Outcome/Particle in Conservative Potential/Particle
