@@ -30,14 +30,14 @@ substitutions:
   params:
     vars:
       title: Math Practice Q25
-    expr: $\dfrac{ 10-e^{(-9x)}}{7-x}$
+    expr: $\dfrac{ 10-e^{(-6x)}}{9-x}$
     part1:
       ans1:
-        value: 9/7
+        value: '1'
       ans2:
         value: Negative Infinity
       ans3:
-        value: 1.4285714285714286
+        value: 1.1111111111111112
       ans4:
         value: 10
       ans5:

@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $8^{5} $=$ 32768$
+    expr: $4^{1} $=$ 4$
     part1:
       ans1:
-        value: $log_832768 = 5$
+        value: $log_44 = 1$
       ans2:
-        value: $log_85 = 32768$
+        value: $log_41 = 4$
       ans3:
-        value: $log_327685 = 8$
+        value: $log_41 = 4$
       ans4:
-        value: $log_532768 = 8$
+        value: $log_14 = 4$
       ans5:
         value: Don't Know
 ---

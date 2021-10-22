@@ -31,18 +31,18 @@ substitutions:
   params:
     vars:
       title: Rutland Rd
-      vehicle: bus
+      vehicle: car
       units: km/h
-    v: 4
+    v: 2
     part1:
       ans1:
-        value: 5.7 km/h [SW]
+        value: 2.8 km/h [SW]
       ans2:
-        value: 5.7 km/h [NW]
+        value: 2.8 km/h [NW]
       ans3:
-        value: 5.7 km/h [SE]
+        value: 2.8 km/h [SE]
       ans4:
-        value: 4 km/h [North]
+        value: 2 km/h [North]
       ans5:
         value: Impossible to know without knowing how far each car is from the intersection.
 ---

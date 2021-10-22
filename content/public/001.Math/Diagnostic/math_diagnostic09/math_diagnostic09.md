@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $m$ = $\dfrac{(a)}{(h - 5v)} $
+    expr: $f$ = $\dfrac{(x)}{(j + 6k)} $
     part1:
       ans1:
-        value: h = ${ \frac{a}{m} + 5 v}$
+        value: j = ${ - 6 k + \frac{x}{f}}$
       ans2:
-        value: h = ${- \frac{5 m v}{a}}$
+        value: j = ${\frac{6 f k}{x}}$
       ans3:
-        value: h = ${- \frac{a}{5 m v}}$
+        value: j = ${\frac{x}{6 f k}}$
       ans4:
-        value: h = ${\frac{m + 5 v}{a}}$
+        value: j = ${\frac{f - 6 k}{x}}$
       ans5:
         value: Don't Know
 ---

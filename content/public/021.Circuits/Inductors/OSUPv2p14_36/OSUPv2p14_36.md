@@ -59,7 +59,7 @@ substitutions:
         value: Left-hand side
     change1: decreasing
     change2: also decreasing
-    find: higher
+    find: lower
 ---
 # {{ params.vars.title }}
 The current shown below in figure (a) is {{ params.change1 }}, while that shown in part (b) is {{ params.change2 }}.

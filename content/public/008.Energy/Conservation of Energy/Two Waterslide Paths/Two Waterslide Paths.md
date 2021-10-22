@@ -35,19 +35,19 @@ substitutions:
       title: Two Waterslide Paths
     part1:
       ans1:
-        value: riders will arrive at the end of the ride with a greater final speed
+        value: riders will arrive at the end of their slide with a greater final speed
           along path (i) than along path (ii).
       ans2:
-        value: riders will arrive at the same speed at the end of the ride regardless
+        value: riders will arrive at the same speed at the end of their slide regardless
           of which track they choose.
       ans3:
-        value: riders will arrive at the end of the ride with a greater final speed
+        value: riders will arrive at the end of their slide with a greater final speed
           along path (ii) than along path (i).
       ans4:
-        value: riders will not reach the end of the ride as they will fly off the
-          sides of the track with no friction.
+        value: riders will not reach the end of their slide as they will fly off the
+          sides of the track regardless of which track they choose.
       ans5:
-        value: riders will not reach the end of the track along path (ii) as they
+        value: riders will not reach the end of their slide along path (ii) as they
           will not be able to get over the hill.
 ---
 # {{ params.vars.title }}

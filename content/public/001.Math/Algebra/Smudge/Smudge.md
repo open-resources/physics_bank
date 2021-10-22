@@ -47,7 +47,7 @@ part3:
 substitutions:
   params:
     vars:
-      name: Ahmed
+      name: Lorenzo
       title: Smudge
 ---
 # {{ params.vars.title }}

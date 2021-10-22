@@ -51,19 +51,17 @@ substitutions:
     vars:
       title: Spring Potential Energy Rail 2
     m: 2
-    R: 0.65
-    k: 96
+    R: 0.34
+    k: 67
 ---
 # {{ params.vars.title }}
 <img src="Spring Potential Energy Rail 2.png" width=400>
 
-With the given information, answer the following quetsions.
-Neglect friction, assume R =  {{params.R}} m, m = {{params.m}}kg, and k = {{params.k}}N/m.
-The spring is unstretched as it passes point B.
+Consider the above figure. A massless spring of stiffness $k = {{params.k}} N/m$ is connected between a fixed point and a collar of mass $m = {{params.m}} kg$. The collar slides without friction on a rail of radius $R = {{params.R}} m$. If the collar is released from rest at $A$ and the spring is unstretched when the collar passes $B$, answer the following questions.
 
 ## Part 1
 
-As the slider is released and slides down the track, what is its velocity at point B?
+What is the velocity of the collar when it is at $B$?
 
 ### Answer Section
 
@@ -71,7 +69,7 @@ Please enter in a numeric value in $m/s$.
 
 ## Part 2
 
-As the slider is released and slides down the track, what is its velocity at point C?
+What is the velocity of the collar when it is at $C$?
 
 ### Answer Section
 
@@ -79,7 +77,7 @@ Please enter in a numeric value in $m/s$.
 
 ## Part 3
 
-What is its normal force at C?
+What is the normal force on the collar when it is at $C$?
 
 ### Answer Section
 
