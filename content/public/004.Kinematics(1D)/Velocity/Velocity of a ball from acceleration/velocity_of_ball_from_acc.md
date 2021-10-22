@@ -36,9 +36,9 @@ substitutions:
       title: Velocity of a ball from acceleration
       units: m/s
     v0: 27
-    s0: 9
+    s0: 7
     k: 0.02
-    s: 12
+    s: 11
 ---
 # {{ params.vars.title }}
 The acceleration of a ball is given by $a(s) = -5ks^2$, where $a$ is acceleration of the ball in $m/s^2$, $k$ is a constant with units of $m^-^1s^-^2$, and $s$ is the position of the ball in $m$.

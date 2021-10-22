@@ -34,9 +34,9 @@ substitutions:
   params:
     vars:
       title: Marble in a Funnel
-    r1: 1.04
-    vo: 0.57
-    r2: 0.228
+    r1: 1.2
+    vo: 0.41
+    r2: 0.181
     ad: 15
 ---
 # {{ params.vars.title }}

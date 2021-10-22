@@ -54,8 +54,8 @@ substitutions:
     vars:
       title: Connecting Capacitors
       name: Emilia
-    a: '7'
-    b: '12'
+    a: '4'
+    b: '4'
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} has a {{params.a }} $\rm\ \mu\textrm{F}$ capacitor and a {{params.b }} $\rm\ \mu\textrm{F}$ capacitor.

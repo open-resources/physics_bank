@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{81x - 72y }{ -9 }$
+    expr: $\dfrac{-21x + 9y }{ 3 }$
     part1:
       ans1:
-        value: $- 9 x + 8 y$
+        value: $- 7 x + 3 y$
       ans2:
-        value: $\dfrac{-9x + 8y}{-9}$
+        value: $\dfrac{-7x + 3y}{3}$
       ans3:
-        value: $8x - 9y$
+        value: $3x - 7y$
       ans4:
-        value: $81x + 72y$
+        value: $-21x + 9y$
       ans5:
         value: Don't know.
 ---

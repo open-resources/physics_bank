@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $f$ = $\dfrac{(x)}{(j + 6k)} $
+    expr: $n$ = $\dfrac{(i)}{(a - 4k)} $
     part1:
       ans1:
-        value: j = ${ - 6 k + \frac{x}{f}}$
+        value: a = ${ \frac{i}{n} + 4 k}$
       ans2:
-        value: j = ${\frac{6 f k}{x}}$
+        value: a = ${- \frac{4 k n}{i}}$
       ans3:
-        value: j = ${\frac{x}{6 f k}}$
+        value: a = ${- \frac{i}{4 k n}}$
       ans4:
-        value: j = ${\frac{f - 6 k}{x}}$
+        value: a = ${\frac{4 k + n}{i}}$
       ans5:
         value: Don't Know
 ---
