@@ -29,41 +29,23 @@ part1:
     weight: 1
     allow-blank: true
     label: $P= $
-    suffix: $ft \bullet lb/s$
-part2:
-  type: number-input
-  pl-customizations:
-    rtol: 0.05
-    weight: 1
-    allow-blank: true
-    label: $P= $
     suffix: $W$
 substitutions:
   params:
     vars:
       title: Power Climbing Stairs
-    W: 189
-    t: 7
-    h: 14
+    W: 144
+    t: 4
+    h: 10
 ---
 # {{ params.vars.title }}
+A ${{ params.W }}lb$ jogger jogs up a flight of stairs ${{ params.h }}ft$ high in ${{ params.t }}$ seconds.
+
 <img src="Power Climbing Stairs.png" width=400>
 
-A ${{ params.W }}lb$ jogger jogs up a flight of stairs ${{ params.h }}ft$ high in ${{ params.t }}$ seconds.
-What is their power output?
-Do calculations with given information, then convert to SI units and repeat.
+## Question Text
 
-## Part 1
-
-Enter their power output.
-
-### Answer Section
-
-Please enter in a numeric value in $ft \bullet lb/s$.
-
-## Part 2
-
-Enter their power output in SI units.
+What is their power output in SI units?
 
 ### Answer Section
 

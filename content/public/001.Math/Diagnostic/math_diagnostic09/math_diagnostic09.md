@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $n$ = $\dfrac{(i)}{(a - 4k)} $
+    expr: $z$ = $\dfrac{(g)}{(t - 2d)} $
     part1:
       ans1:
-        value: a = ${ \frac{i}{n} + 4 k}$
+        value: t = ${ 2 d + \frac{g}{z}}$
       ans2:
-        value: a = ${- \frac{4 k n}{i}}$
+        value: t = ${- \frac{2 d z}{g}}$
       ans3:
-        value: a = ${- \frac{i}{4 k n}}$
+        value: t = ${- \frac{g}{2 d z}}$
       ans4:
-        value: a = ${\frac{4 k + n}{i}}$
+        value: t = ${\frac{2 d + z}{g}}$
       ans5:
         value: Don't Know
 ---

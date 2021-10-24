@@ -57,8 +57,8 @@ substitutions:
   params:
     vars:
       title: Greatest and Least Resistor Combinations
-    R1: '14.0'
-    R2: '56.0'
+    R1: '45.0'
+    R2: '91.0'
     R3: '825'
 ---
 # {{ params.vars.title }}

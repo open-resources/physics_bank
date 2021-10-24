@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $8^{4} $=$ 4096$
+    expr: $7^{8} $=$ 5764801$
     part1:
       ans1:
-        value: $log_84096 = 4$
+        value: $log_75764801 = 8$
       ans2:
-        value: $log_84 = 4096$
+        value: $log_78 = 5764801$
       ans3:
-        value: $log_40964 = 8$
+        value: $log_57648018 = 7$
       ans4:
-        value: $log_44096 = 8$
+        value: $log_85764801 = 7$
       ans5:
         value: Don't Know
 ---

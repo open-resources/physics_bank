@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 8
-    b: 5
-    formula: $x^{8} \sin{\left(5 x \right)}$
+    a: 5
+    b: 1
+    formula: $x^{5} \sin{\left(x \right)}$
     part1:
       ans1:
-        value: $5 x^{8} \cos{\left(5 x \right)} + 8 x^{7} \sin{\left(5 x \right)}$
+        value: $x^{5} \cos{\left(x \right)} + 5 x^{4} \sin{\left(x \right)}$
       ans2:
-        value: $5 x^{8} \cos{\left(5 x \right)} $
+        value: $x^{5} \cos{\left(x \right)} $
       ans3:
-        value: $ 8 x^{7} \cos{\left(5 x \right)}$
+        value: $ 5 x^{4} \cos{\left(x \right)}$
       ans4:
-        value: $- 5 x^{8} \sin{\left(5 x \right)} + 8 x^{7} \cos{\left(5 x \right)}$
+        value: $- x^{5} \sin{\left(x \right)} + 5 x^{4} \cos{\left(x \right)}$
       ans5:
         value: Don't Know
 ---
