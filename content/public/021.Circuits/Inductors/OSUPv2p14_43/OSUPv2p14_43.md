@@ -60,9 +60,9 @@ substitutions:
   params:
     vars:
       title: Long Cylindrical Solenoid
-    n: '150'
-    r: '2.0'
-    dIdt: '8.5'
+    n: '90'
+    r: '2.5'
+    dIdt: '5.0'
 ---
 # {{ params.vars.title }}
 A long, cylindrical solenoid with ${{ params.n }}\rm\ turns/cm$ has a radius of ${{ params.r }}\rm\ cm$.

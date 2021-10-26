@@ -44,8 +44,8 @@ substitutions:
       title: Snowboarder Impact Landing
     v: 10
     t: 0.11
-    ad: 16
-    m: 77
+    ad: 30
+    m: 72
     thetad: 25
 ---
 # {{ params.vars.title }}

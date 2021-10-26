@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: -5x + -9 > -10x + 4
+      formula: 6x + -5 > 3x + 1
     part1:
       ans1:
-        value: x > 13/5
+        value: x > 2
       ans2:
-        value: x < 13/5
+        value: x < 2
       ans3:
-        value: x < 5/13
+        value: x < 1/2
       ans4:
-        value: x > 5/13
+        value: x > 1/2
       ans5:
         value: Don't Know
 ---

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $i$ = $\dfrac{(b)}{(f + 9s)} $
+    expr: $s$ = $\dfrac{(w)}{(b - 5u)} $
     part1:
       ans1:
-        value: f = ${ \frac{b}{i} - 9 s}$
+        value: b = ${ 5 u + \frac{w}{s}}$
       ans2:
-        value: f = ${\frac{9 i s}{b}}$
+        value: b = ${- \frac{5 s u}{w}}$
       ans3:
-        value: f = ${\frac{b}{9 i s}}$
+        value: b = ${- \frac{w}{5 s u}}$
       ans4:
-        value: f = ${\frac{i - 9 s}{b}}$
+        value: b = ${\frac{s + 5 u}{w}}$
       ans5:
         value: Don't Know
 ---

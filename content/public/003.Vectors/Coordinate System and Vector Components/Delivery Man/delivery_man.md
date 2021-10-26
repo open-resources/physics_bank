@@ -76,9 +76,9 @@ substitutions:
     vars:
       title: Delivery Man
       units: km
-    dist1: 30
-    dist2: 90
-    dist3: 2
+    dist1: 10
+    dist2: 40
+    dist3: 4
     dist4: 60
 ---
 # {{ params.vars.title }}
