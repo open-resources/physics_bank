@@ -399,6 +399,7 @@ parts:
   - file: content/public/009.Work/Power/Power of a Sprinter/Power of a Sprinter
   - file: content/public/009.Work/Topic Outcome/Bungee_jumping/bungee_jumping
   - file: content/public/009.Work/Topic Outcome/Work_Done_By_Force/Work_Done_By_Force
+  - file: content/public/009.Work/Topic Outcome/spring_on_incline/spring_on_incline
 - caption: Rotational Motion
   chapters:
   - file: content/public/010.Rotational Motion/Rotational Velocity/Mass_Attached_To_String/Mass_Attached_To_String
