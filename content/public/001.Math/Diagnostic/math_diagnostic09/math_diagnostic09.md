@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $z$ = $\dfrac{(g)}{(t - 2d)} $
+    expr: $i$ = $\dfrac{(b)}{(f + 9s)} $
     part1:
       ans1:
-        value: t = ${ 2 d + \frac{g}{z}}$
+        value: f = ${ \frac{b}{i} - 9 s}$
       ans2:
-        value: t = ${- \frac{2 d z}{g}}$
+        value: f = ${\frac{9 i s}{b}}$
       ans3:
-        value: t = ${- \frac{g}{2 d z}}$
+        value: f = ${\frac{b}{9 i s}}$
       ans4:
-        value: t = ${\frac{2 d + z}{g}}$
+        value: f = ${\frac{i - 9 s}{b}}$
       ans5:
         value: Don't Know
 ---

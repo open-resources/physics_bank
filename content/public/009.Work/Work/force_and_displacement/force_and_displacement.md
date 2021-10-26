@@ -34,17 +34,17 @@ substitutions:
       units: J
     f1: -14
     f2: 10
-    r1: 14
-    r2: -16
+    r1: 15
+    r2: -18
     part1:
       ans1:
-        value: -356
+        value: -390
       ans2:
-        value: 356
+        value: 390
       ans3:
-        value: -36
+        value: -30
       ans4:
-        value: 36
+        value: 30
       ans5:
         value: Zero
 ---

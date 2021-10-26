@@ -115,9 +115,9 @@ part8:
     weight: 1
 substitutions:
   params:
-    V: '52.0'
-    R1: '25.0'
-    R2: '94.0'
+    V: '45.0'
+    R1: '30.0'
+    R2: '98.0'
 ---
 # {{ params.vars.title }}
 Consider a ${{ params.V }}\rm\ V$ battery and two resistors: $R_1 = {{ params.R1 }}\rm\ \Omega$ and $R_2 = {{ params.R2 }}\rm\ \Omega$.

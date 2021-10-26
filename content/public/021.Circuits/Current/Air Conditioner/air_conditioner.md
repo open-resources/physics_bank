@@ -41,7 +41,7 @@ substitutions:
   params:
     vars:
       title: Air Conditioner
-    I: 49
+    I: 29
     n: 41
 ---
 # {{ params.vars.title }}

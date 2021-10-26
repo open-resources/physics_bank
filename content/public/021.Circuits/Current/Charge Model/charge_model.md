@@ -43,10 +43,10 @@ substitutions:
     vars:
       title: Charge Model
       units: A
-    c1: 36
-    c2: 18
-    c3: 32
-    t: 17
+    c1: 5
+    c2: 44
+    c3: 23
+    t: 15
 ---
 # {{ params.vars.title }}
 The quantity of charge through a conductor is modeled as $ \textrm{Q}=$ {{params.c1}}$\rm{t^4}$ $\rm{mC \over s^4}$ - {{params.c2}}$\rm{t}$ $\rm{mC \over s}$ + {{params.c1}} $\rm{mC}$.

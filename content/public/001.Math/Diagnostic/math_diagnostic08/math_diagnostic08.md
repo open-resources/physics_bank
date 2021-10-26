@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{20x + 20y }{ 5 }$
+    expr: $\dfrac{48x - 24y }{ 6 }$
     part1:
       ans1:
-        value: $4 x + 4 y$
+        value: $8 x - 4 y$
       ans2:
-        value: $\dfrac{4x + 4y}{5}$
+        value: $\dfrac{8x - 4y}{6}$
       ans3:
-        value: $4x + 4y$
+        value: $-4x + 8y$
       ans4:
-        value: $20x + 20y$
+        value: $48x - 24y$
       ans5:
         value: Don't know.
 ---

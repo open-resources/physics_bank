@@ -31,7 +31,7 @@ substitutions:
   params:
     vars:
       title: Math Practice 13
-    expr: $\dfrac{z^1 }{z^3} $
+    expr: $\dfrac{z^4 }{z^6} $
     part1:
       ans1:
         value: $z^{-2}$
@@ -40,7 +40,7 @@ substitutions:
       ans3:
         value: -2z
       ans4:
-        value: (1/3)z
+        value: (2/3)z
       ans5:
         value: Don't Know
 ---
