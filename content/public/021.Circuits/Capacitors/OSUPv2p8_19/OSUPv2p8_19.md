@@ -42,8 +42,8 @@ substitutions:
   params:
     vars:
       title: Charge Stored in a Capacitor
-    c: '200'
-    v: '170'
+    c: '115'
+    v: '160'
 ---
 # {{ params.vars.title }}
 

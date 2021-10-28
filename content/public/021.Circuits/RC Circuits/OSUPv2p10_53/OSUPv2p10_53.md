@@ -85,8 +85,8 @@ substitutions:
     vars:
       title: RC Series Circuit
     R: '550.0'
-    C: '1.55'
-    V: '7.50'
+    C: '1.95'
+    V: '6.01'
 ---
 # {{ params.vars.title }}
 A ${{ params.R }}\rm\ \Omega$ resistor, an uncharged ${{ params.C }}\rm\ \mu F$ capacitor, and a ${{ params.V }}\rm\ V$ are connected in series.

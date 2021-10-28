@@ -59,21 +59,21 @@ substitutions:
       title: A Frictionless Air Track?
       name: Abbas
       units: $m/s^2$
-    m1: 264.8
-    m2: 10.21
-    d_a: 0.02
-    mean: 1.59
-    sd: 0.181
-    a1: 1.33
-    a2: 1.65
-    a3: 1.63
-    a4: 1.47
-    a5: 1.76
-    a6: 1.42
-    a7: 1.8
-    a8: 1.8
+    m1: 476.2
+    m2: 51.71
+    d_a: 0.01
+    mean: 1.53
+    sd: 0.136
+    a1: 1.7
+    a2: 1.37
+    a3: 1.68
+    a4: 1.65
+    a5: 1.35
+    a6: 1.47
+    a7: 1.46
+    a8: 1.49
     a9: 1.7
-    a10: 1.3
+    a10: 1.38
     part4:
       ans1:
         value: The track is frictionless because $a_{expected}$ does not agree with

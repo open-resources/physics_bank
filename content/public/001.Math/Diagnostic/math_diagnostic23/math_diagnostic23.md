@@ -28,17 +28,17 @@ substitutions:
     vars:
       title: Math Practice 23
     a: 7
-    b: 9
-    formula: $x^{7} \cos{\left(9 x \right)}$
+    b: 8
+    formula: $x^{7} \sin{\left(8 x \right)}$
     part1:
       ans1:
-        value: $- 9 x^{7} \sin{\left(9 x \right)} + 7 x^{6} \cos{\left(9 x \right)}$
+        value: $8 x^{7} \cos{\left(8 x \right)} + 7 x^{6} \sin{\left(8 x \right)}$
       ans2:
-        value: $- 9 x^{7} \sin{\left(9 x \right)} $
+        value: $8 x^{7} \cos{\left(8 x \right)} $
       ans3:
-        value: $ 7 x^{6} \sin{\left(9 x \right)}$
+        value: $ 7 x^{6} \cos{\left(8 x \right)}$
       ans4:
-        value: $9 x^{7} \cos{\left(9 x \right)} + 7 x^{6} \sin{\left(9 x \right)}$
+        value: $- 8 x^{7} \sin{\left(8 x \right)} + 7 x^{6} \cos{\left(8 x \right)}$
       ans5:
         value: Don't Know
 ---

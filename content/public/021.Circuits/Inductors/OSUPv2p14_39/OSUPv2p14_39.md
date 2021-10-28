@@ -39,8 +39,8 @@ substitutions:
   params:
     vars:
       title: Alternating Current in a Coil
-    I0: '1.0'
-    L: '3.0'
+    I0: '3.0'
+    L: '1.0'
     k: '101'
     mult: '303'
 ---

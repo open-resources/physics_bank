@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $j$ = $\dfrac{(z)}{(w + 7b)} $
+    expr: $y$ = $\dfrac{(f)}{(l + 8h)} $
     part1:
       ans1:
-        value: w = ${ - 7 b + \frac{z}{j}}$
+        value: l = ${ \frac{f}{y} - 8 h}$
       ans2:
-        value: w = ${\frac{7 b j}{z}}$
+        value: l = ${\frac{8 h y}{f}}$
       ans3:
-        value: w = ${\frac{z}{7 b j}}$
+        value: l = ${\frac{f}{8 h y}}$
       ans4:
-        value: w = ${\frac{- 7 b + j}{z}}$
+        value: l = ${\frac{- 8 h + y}{f}}$
       ans5:
         value: Don't Know
 ---
