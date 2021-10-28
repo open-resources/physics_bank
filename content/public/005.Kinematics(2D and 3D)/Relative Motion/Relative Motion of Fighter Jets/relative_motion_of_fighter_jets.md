@@ -60,12 +60,12 @@ substitutions:
   params:
     vars:
       title: Relative Motion of Fighter Jets
-    d1: 538
-    d2: 355
-    theta1: 23
-    theta2: 67
-    v_A: 361
-    v_B: 276
+    d1: 515
+    d2: 484
+    theta1: 27
+    theta2: 63
+    v_A: 391
+    v_B: 273
 ---
 # {{ params.vars.title }}
 <img src="L11Q5.png" width=85%>
@@ -83,7 +83,7 @@ What is the x-component of the velocity that plane A appears to have at C relati
 
 Please enter in a numeric value in $km/h$.
 
-## Part 1
+## Part 2
 
 What is the y-component of the velocity which plane A appears to have at C relative to the observer on the ground?
 

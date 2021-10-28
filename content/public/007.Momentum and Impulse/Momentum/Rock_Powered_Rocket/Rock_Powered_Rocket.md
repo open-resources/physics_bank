@@ -12,15 +12,15 @@ outcomes:
 - 7.2.2.0
 - 7.2.2.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- average
 tags:
 - EW
 assets: null
@@ -48,11 +48,11 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-      name: Ximena
-    i: 376
-    m: 25
-    v_1: 26
-    v_2: 16
+      name: Savannah
+    i: 342
+    m: 33
+    v_1: 24
+    v_2: 18
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.

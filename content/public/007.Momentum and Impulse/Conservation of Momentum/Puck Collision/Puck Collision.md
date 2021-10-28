@@ -11,15 +11,15 @@ outcomes:
 - 7.5.1.2
 - 7.4.1.2
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 0
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- short
 tags:
 - PW
 assets:
@@ -32,7 +32,7 @@ substitutions:
   params:
     vars:
       title: Puck Collision
-    E: 10
+    E: 19
     part1:
       ans1:
         value: momentum increases, kinetic energy increases

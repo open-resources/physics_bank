@@ -19,18 +19,18 @@ outcomes:
 - 6.7.1.0
 - 6.9.1.3
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- long
 tags:
 - PW
-- final exam
+- final_exam
 assets: null
 part1:
   type: symbolic-input
@@ -108,13 +108,13 @@ substitutions:
   params:
     vars:
       title: A Coyote and a Rat
-    m_c: 7
-    m_r: 5
-    d_b: 33
-    d_c: 37
+    m_c: 11
+    m_r: 2
+    d_b: 36
+    d_c: 35
     v_r: 8
-    a_c: 4
-    mu_k: 2.15
+    a_c: 7
+    mu_k: 2.44
     part10:
       ans1:
         value: Yes, the coyote will be able to stop before hitting the thorny bush.

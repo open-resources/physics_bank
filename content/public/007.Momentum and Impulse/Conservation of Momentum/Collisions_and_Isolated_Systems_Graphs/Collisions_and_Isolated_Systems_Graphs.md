@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 7.5.1.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 0
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- short
 tags:
 - EW
 assets:

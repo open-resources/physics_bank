@@ -16,15 +16,15 @@ outcomes:
 - 7.6.1.0
 - 7.6.1.2
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - PW
 assets:

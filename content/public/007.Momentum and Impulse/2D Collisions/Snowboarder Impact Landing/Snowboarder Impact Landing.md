@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 7.6.1.1
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- long
 tags:
 - APSC 181 - LA
 - JR
@@ -43,10 +43,10 @@ substitutions:
     vars:
       title: Snowboarder Impact Landing
     v: 10
-    t: 0.11
-    ad: 30
-    m: 72
-    thetad: 25
+    t: 0.12
+    ad: 11
+    m: 55
+    thetad: 30
 ---
 # {{ params.vars.title }}
 <img src="Snowboarder Impact Landing.png" width=400>

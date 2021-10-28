@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 7.6.1.2
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - APSC 181 - LA
 - JR
@@ -34,10 +34,10 @@ substitutions:
   params:
     vars:
       title: T-bone Collision
-    ma: 1487
-    mb: 1428
-    vak: 53
-    thetad: 30
+    ma: 1323
+    mb: 1359
+    vak: 63
+    thetad: 17
 ---
 # {{ params.vars.title }}
 <img src="T-bone Collision.png" width=400>

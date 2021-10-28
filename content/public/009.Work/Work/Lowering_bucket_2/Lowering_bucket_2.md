@@ -43,7 +43,7 @@ part3:
 substitutions:
   params:
     vars:
-      name: Aliyah
+      name: Savannah
       title: Lowering a bucket - the rope, the bucket, the air, the earth
     part1:
       ans1:
@@ -86,7 +86,8 @@ substitutions:
 # {{ params.vars.title }}
 {{params.vars.name}} stands on a cliff, and gently lowers a bucket of water to the ground using a rope.
 The bucket starts out with an initial downwards velocity, but {{ params.vars.name }} is tightening their grip on the rope as it slides through their hands, so that is slows as it descends, and when the bucket touches the ground it has zero velocity.
-Consider the energy in the situation and how the work is being done if the system consists of the rope, the bucket, the air, and the earth.
+
+Consider the energy in the situation and how the work is being done if the system consists of **the rope, the bucket, the air, and the earth**.
 
 ## Part 1
 

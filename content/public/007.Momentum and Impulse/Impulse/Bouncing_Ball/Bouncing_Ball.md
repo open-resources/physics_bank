@@ -12,15 +12,15 @@ outcomes:
 - 7.4.1.2
 - 8.5.1.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - EW
 assets: null
@@ -35,19 +35,19 @@ substitutions:
       units_m: kg
       units_h: m
       units: kgm/s
-    m: 0.299
-    h: 2.5
+    m: 0.32
+    h: 2.0
     part1:
       ans1:
-        value: 1.5
+        value: 1.4
       ans2:
-        value: 2.1
+        value: 2.0
       ans3:
-        value: 3.0
+        value: 2.8
       ans4:
-        value: 4.2
+        value: 4.0
       ans5:
-        value: 7.3
+        value: 6.3
 ---
 # {{ params.vars.title }}
 A ball of mass {{ params.m }} {{ params.vars.units_m}} is dropped vertically from a height of {{ params.h }} {{ params.vars.units_h}} and bounces back to the original height.

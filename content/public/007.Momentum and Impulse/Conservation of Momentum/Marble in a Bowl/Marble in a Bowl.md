@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 7.5.3.0
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- long
 tags:
 - APSC 181 - LA
 - JR
@@ -34,9 +34,9 @@ substitutions:
   params:
     vars:
       title: Marble in a Bowl
-    ro: 0.63
-    vo: 1
-    h: 0.23
+    ro: 0.48
+    vo: 3
+    h: 0.12
 ---
 # {{ params.vars.title }}
 <img src="Marble in a Bowl.png" width=400>

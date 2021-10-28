@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 7.3.1.4
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - APSC 181 - LA
 - JR
@@ -34,10 +34,10 @@ substitutions:
   params:
     vars:
       title: Impulse of a Mallet
-    F: 395
-    t1: 0.001
-    t2: 0.007
-    t3: 0.014
+    F: 293
+    t1: 0.002
+    t2: 0.008
+    t3: 0.013
 ---
 # {{ params.vars.title }}
 <img src="Impulse of a Mallet.png" width=400>

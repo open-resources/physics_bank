@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $s$ = $\dfrac{(w)}{(b - 5u)} $
+    expr: $j$ = $\dfrac{(z)}{(w + 7b)} $
     part1:
       ans1:
-        value: b = ${ 5 u + \frac{w}{s}}$
+        value: w = ${ - 7 b + \frac{z}{j}}$
       ans2:
-        value: b = ${- \frac{5 s u}{w}}$
+        value: w = ${\frac{7 b j}{z}}$
       ans3:
-        value: b = ${- \frac{w}{5 s u}}$
+        value: w = ${\frac{z}{7 b j}}$
       ans4:
-        value: b = ${\frac{s + 5 u}{w}}$
+        value: w = ${\frac{- 7 b + j}{z}}$
       ans5:
         value: Don't Know
 ---

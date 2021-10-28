@@ -11,15 +11,15 @@ outcomes:
 - 7.5.1.1
 - 7.5.1.4
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - EW
 assets:
@@ -32,10 +32,10 @@ substitutions:
   params:
     vars:
       title: System Open or Closed
-      vehicle: truck
+      vehicle: semi-truck
       units: kg
-    i_a: 149
-    i_b: 284
+    i_a: 132
+    i_b: 283
     part1:
       ans1:
         value: Yes, because the two carts are on a track with no friction.

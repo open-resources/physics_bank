@@ -11,15 +11,15 @@ outcomes:
 - 7.2.1.0
 - 6.4.1.2
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 1
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - AK
 assets: null
@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Momentum and Inertia
-      vehicle: car
+      vehicle: pickup truck
     part1:
       ans1:
         value: The bee has more momentum, the bee has more inertia.
       ans2:
-        value: The car has more momentum, the bee has more inertia.
+        value: The pickup truck has more momentum, the bee has more inertia.
       ans3:
-        value: The car has more momentum, the car has more inertia.
+        value: The pickup truck has more momentum, the pickup truck has more inertia.
       ans4:
-        value: The bee has more momentum, the car has more inertia.
+        value: The bee has more momentum, the pickup truck has more inertia.
       ans5:
         value: It can’t be determined from this information.
 ---

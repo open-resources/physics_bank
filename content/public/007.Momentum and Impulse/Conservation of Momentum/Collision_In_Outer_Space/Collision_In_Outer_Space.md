@@ -9,15 +9,15 @@ outcomes:
 - 7.3.1.2
 - 7.5.1.3
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 0
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - EW
 assets: null

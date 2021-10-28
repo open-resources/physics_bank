@@ -10,17 +10,18 @@ singleVariant: false
 outcomes:
 - 7.5.1.3
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 0
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- long
 tags:
 - PW
+- final_exam
 assets:
 - q13_2012Final.png
 part1:

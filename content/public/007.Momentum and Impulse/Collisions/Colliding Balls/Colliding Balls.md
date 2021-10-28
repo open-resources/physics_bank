@@ -14,15 +14,15 @@ outcomes:
 - 7.4.1.2
 - 7.5.1.3
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 4
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - PW
 assets:
@@ -36,12 +36,12 @@ substitutions:
   params:
     vars:
       title: Colliding Balls
-    m1: 200
-    m2: 196
-    v1_i: 3.7
-    v2_i: -7.42
-    v1_f: -2.71
-    v2_f: 8.1
+    m1: 109
+    m2: 102
+    v1_i: 3.6
+    v2_i: -4.62
+    v1_f: -2.31
+    v2_f: 5.94
     part1:
       ans1:
         value: This is not possible as momentum is not conserved.

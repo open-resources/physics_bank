@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 7.3.1.2
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 1
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - MP
 assets: null
@@ -29,7 +29,7 @@ part1:
 substitutions:
   params:
     vars:
-      name: Santiago
+      name: Abbas
       title: Living Room on Fire
     part1:
       ans1:

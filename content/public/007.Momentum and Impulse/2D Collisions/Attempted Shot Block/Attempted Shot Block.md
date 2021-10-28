@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 7.6.1.2
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- average
 tags:
 - APSC 181 - LA
 - JR
@@ -42,8 +42,8 @@ substitutions:
   params:
     vars:
       title: Attempted Shot Block
-    thetad: 37
-    e: 0.78
+    thetad: 18
+    e: 0.71
 ---
 # {{ params.vars.title }}
 <img src="Attempted Shot Block.png" width=400>

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{40x - 32y }{ 8 }$
+    expr: $\dfrac{-21x + 21y }{ -3 }$
     part1:
       ans1:
-        value: $5 x - 4 y$
+        value: $7 x - 7 y$
       ans2:
-        value: $\dfrac{5x - 4y}{8}$
+        value: $\dfrac{7x - 7y}{-3}$
       ans3:
-        value: $-4x + 5y$
+        value: $-7x + 7y$
       ans4:
-        value: $40x - 32y$
+        value: $-21x - 21y$
       ans5:
         value: Don't know.
 ---

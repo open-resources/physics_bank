@@ -12,15 +12,15 @@ outcomes:
 - 7.5.1.4
 - 7.5.1.9
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - AK
 assets: null
@@ -45,9 +45,9 @@ substitutions:
     vars:
       title: Test Uranium Fragments
       units: amu
-    frag_speed: 1.3
-    dn_speed: 2.27
-    orig_mass: $^{233}\mathrm{U}$
+    frag_speed: 1.6
+    dn_speed: 2.67
+    orig_mass: $^{234}\mathrm{U}$
 ---
 # {{ params.vars.title }}
 A radioactive {{params.orig_mass}} uranium nucleus is initially at rest.

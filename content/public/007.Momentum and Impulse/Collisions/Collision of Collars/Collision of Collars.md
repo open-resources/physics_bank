@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 7.4.1.2
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- average
 tags:
 - APSC 181 - LA
 - JR
@@ -42,11 +42,11 @@ substitutions:
   params:
     vars:
       title: Collision of Collars
-    W1: 5
-    W2: 7
-    v1: 30
-    v2: 3
-    e: 0.66
+    W1: 6
+    W2: 9
+    v1: 26
+    v2: 1
+    e: 0.65
 ---
 # {{ params.vars.title }}
 <img src="Collision of Collars.png" width=400>

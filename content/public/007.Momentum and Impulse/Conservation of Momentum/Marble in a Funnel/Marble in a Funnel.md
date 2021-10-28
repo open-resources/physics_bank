@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 7.5.3.0
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- long
 tags:
 - APSC 181 - LA
 - JR
@@ -34,10 +34,10 @@ substitutions:
   params:
     vars:
       title: Marble in a Funnel
-    r1: 0.92
-    vo: 0.62
-    r2: 0.29
-    ad: 42
+    r1: 1.39
+    vo: 0.33
+    r2: 0.239
+    ad: 27
 ---
 # {{ params.vars.title }}
 <img src="Marble in a Funnel.png" width=400>

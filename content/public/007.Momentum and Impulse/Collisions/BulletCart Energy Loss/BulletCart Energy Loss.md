@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 7.4.1.2
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - APSC 181 - LA
 - JR
@@ -42,9 +42,9 @@ substitutions:
   params:
     vars:
       title: BulletCart Energy Loss
-    m: 39
-    mbg: 65
-    vb: 631
+    m: 44
+    mbg: 96
+    vb: 406
 ---
 # {{ params.vars.title }}
 <img src="BulletCart Energy Loss.png" width=400>

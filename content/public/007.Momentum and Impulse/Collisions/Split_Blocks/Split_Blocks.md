@@ -15,15 +15,15 @@ outcomes:
 - 7.5.1.4
 - 7.5.1.9
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - EW
 assets: null
@@ -40,10 +40,10 @@ substitutions:
     vars:
       title: Split Blocks
       units: $J$
-    m: 6
-    m_a: 4
-    m_b: 2
-    v_a: 5.3
+    m: 12
+    m_a: 7
+    m_b: 5
+    v_a: 4.2
 ---
 # {{ params.vars.title }}
 A {{params.m}} $kg$ block is initially at rest on a sheet of ice.
