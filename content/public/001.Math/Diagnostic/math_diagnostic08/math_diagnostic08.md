@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{54x + 27y }{ -9 }$
+    expr: $\dfrac{18x - 36y }{ 6 }$
     part1:
       ans1:
-        value: $- 6 x - 3 y$
+        value: $3 x - 6 y$
       ans2:
-        value: $\dfrac{-6x - 3y}{-9}$
+        value: $\dfrac{3x - 6y}{6}$
       ans3:
-        value: $-3x - 6y$
+        value: $-6x + 3y$
       ans4:
-        value: $54x - 27y$
+        value: $18x - 36y$
       ans5:
         value: Don't know.
 ---

@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $9^{3} $=$ 729$
+    expr: $8^{1} $=$ 8$
     part1:
       ans1:
-        value: $log_9729 = 3$
+        value: $log_88 = 1$
       ans2:
-        value: $log_93 = 729$
+        value: $log_81 = 8$
       ans3:
-        value: $log_7293 = 9$
+        value: $log_81 = 8$
       ans4:
-        value: $log_3729 = 9$
+        value: $log_18 = 8$
       ans5:
         value: Don't Know
 ---

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $g$ = $\dfrac{(j)}{(r + 3a)} $
+    expr: $h$ = $\dfrac{(g)}{(x + 8e)} $
     part1:
       ans1:
-        value: r = ${ - 3 a + \frac{j}{g}}$
+        value: x = ${ - 8 e + \frac{g}{h}}$
       ans2:
-        value: r = ${\frac{3 a g}{j}}$
+        value: x = ${\frac{8 e h}{g}}$
       ans3:
-        value: r = ${\frac{j}{3 a g}}$
+        value: x = ${\frac{g}{8 e h}}$
       ans4:
-        value: r = ${\frac{- 3 a + g}{j}}$
+        value: x = ${\frac{- 8 e + h}{g}}$
       ans5:
         value: Don't Know
 ---

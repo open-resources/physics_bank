@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Momentum and Inertia
-      vehicle: pickup truck
+      vehicle: sedan
     part1:
       ans1:
         value: The bee has more momentum, the bee has more inertia.
       ans2:
-        value: The pickup truck has more momentum, the bee has more inertia.
+        value: The sedan has more momentum, the bee has more inertia.
       ans3:
-        value: The pickup truck has more momentum, the pickup truck has more inertia.
+        value: The sedan has more momentum, the sedan has more inertia.
       ans4:
-        value: The bee has more momentum, the pickup truck has more inertia.
+        value: The bee has more momentum, the sedan has more inertia.
       ans5:
         value: It can’t be determined from this information.
 ---
