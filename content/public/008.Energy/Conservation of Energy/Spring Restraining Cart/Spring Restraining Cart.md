@@ -35,10 +35,10 @@ substitutions:
     vars:
       title: Spring Restraining Cart
     m: 5
-    F: 362
-    x1: 0.58
-    d: 1.4
-    h: 0.61
+    F: 378
+    x1: 0.4
+    d: 1.09
+    h: 0.99
     k: 61
     thetad: 19
 ---

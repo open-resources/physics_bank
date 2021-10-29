@@ -32,7 +32,7 @@ substitutions:
       title: Maximum Speed of Runner
       units: $ft/s$
     yards: 100
-    max_speed_t: 8
+    max_speed_t: 5
     overall_t: 15
 ---
 # {{ params.vars.title }}

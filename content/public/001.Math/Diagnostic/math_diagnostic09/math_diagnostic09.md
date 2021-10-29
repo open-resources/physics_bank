@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $y$ = $\dfrac{(f)}{(l + 8h)} $
+    expr: $g$ = $\dfrac{(j)}{(r + 3a)} $
     part1:
       ans1:
-        value: l = ${ \frac{f}{y} - 8 h}$
+        value: r = ${ - 3 a + \frac{j}{g}}$
       ans2:
-        value: l = ${\frac{8 h y}{f}}$
+        value: r = ${\frac{3 a g}{j}}$
       ans3:
-        value: l = ${\frac{f}{8 h y}}$
+        value: r = ${\frac{j}{3 a g}}$
       ans4:
-        value: l = ${\frac{- 8 h + y}{f}}$
+        value: r = ${\frac{- 3 a + g}{j}}$
       ans5:
         value: Don't Know
 ---

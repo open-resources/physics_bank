@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 5x - 2y = 50
-    formula2: 8x + 8y = 30
+    formula1: 2x - 9y = 12
+    formula2: 9x + 4y = 50
     part1:
       ans1:
-        value: ' x =115/14, y =-125/28'
+        value: ' x =498/89, y =-8/89'
       ans2:
-        value: ' x =-125/28, y =115/14'
+        value: ' x =-8/89, y =498/89'
       ans3:
-        value: ' x =-115/14, y =125/28'
+        value: ' x =-498/89, y =8/89'
       ans4:
-        value: ' x =125/28, y =-115/14'
+        value: ' x =8/89, y =-498/89'
       ans5:
         value: Don't Know
 ---

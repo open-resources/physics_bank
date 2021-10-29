@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Cyclist with a Deathwish
-    v1: 178
-    v2: 35
-    age: 58
+    v1: 155
+    v2: 45
+    age: 49
     part1:
       ans1:
-        value: 25.9 times.
+        value: 11.9 times.
       ans2:
-        value: 5.09 times.
+        value: 3.44 times.
       ans3:
-        value: 0.197 times.
+        value: 0.29 times.
       ans4:
-        value: 0.0387 times.
+        value: 0.0843 times.
       ans5:
         value: It would be equal to their maximum thrust.
 ---
