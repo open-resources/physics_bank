@@ -37,9 +37,9 @@ substitutions:
   params:
     vars:
       title: Parallel-plate potential difference
-    d: '14.0'
-    t: '1.8'
-    q: '6.4'
+    d: '7.0'
+    t: '1.6'
+    q: '3.2'
     p: -10
 ---
 # {{ params.vars.title }}

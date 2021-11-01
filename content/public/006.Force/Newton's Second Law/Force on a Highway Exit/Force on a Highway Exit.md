@@ -29,7 +29,7 @@ part1:
     weight: 1
     allow-blank: true
     label: $v_b= $
-    suffix: $ft/s$
+    suffix: $m/s$
 part2:
   type: number-input
   pl-customizations:
@@ -37,7 +37,7 @@ part2:
     weight: 1
     allow-blank: true
     label: $F= $
-    suffix: $lb$
+    suffix: $N$
 part3:
   type: number-input
   pl-customizations:
@@ -45,22 +45,22 @@ part3:
     weight: 1
     allow-blank: true
     label: $F= $
-    suffix: $lb$
+    suffix: $N$
 substitutions:
   params:
     vars:
       title: Force on a Highway Exit
-    vami: 49
-    vcmi: 21
-    W: 6662
-    d: 163
-    r: 200
+    va: 42
+    vc: 34
+    W: 4696
+    d: 273
+    r: 152
 ---
 # {{ params.vars.title }}
 <img src="Force on a Highway Exit.png" width=400>
 
-A {{ params.W }}$lb$ truck travels with a speed of ${{ params.vami }}mi/hr$ as it approaches point A. At A, it decelerates uniformly to a speed of ${{ params.vcmi }}mi/hr$ as it passes point C on the horizontal unbanked ramp highway ramp.
-$R = {{ params.r }}ft$, $d = {{ params.d }}ft$.
+A {{ params.W }}$kg$ truck travels with a speed of ${{ params.va }}m/s$ as it approaches point A. At A, it decelerates uniformly to a speed of ${{ params.vc }}m/s$ as it passes point C on the horizontal unbanked ramp highway ramp.
+$R = {{ params.r }}m$, $d = {{ params.d }}m$.
 
 ## Part 1
 
@@ -68,7 +68,7 @@ What is the velocity as the truck passes point B?
 
 ### Answer Section
 
-Please enter in a numeric value in $ft/s$.
+Please enter in a numeric value in $m/s$.
 
 ## Part 2
 
@@ -76,7 +76,7 @@ What is the force at point B?
 
 ### Answer Section
 
-Please enter in a numeric value in $lb$.
+Please enter in a numeric value in $N$.
 
 ## Part 3
 
@@ -84,7 +84,7 @@ What is the force at point C? Assume the car does not slip.
 
 ### Answer Section
 
-Please enter a numeric value in $lb$.
+Please enter a numeric value in $N$.
 
 ## Attribution
 

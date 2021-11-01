@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $f$ = $\dfrac{(a)}{(g - 4m)} $
+    expr: $h$ = $\dfrac{(q)}{(p + 8j)} $
     part1:
       ans1:
-        value: g = ${ \frac{a}{f} + 4 m}$
+        value: p = ${ - 8 j + \frac{q}{h}}$
       ans2:
-        value: g = ${- \frac{4 f m}{a}}$
+        value: p = ${\frac{8 h j}{q}}$
       ans3:
-        value: g = ${- \frac{a}{4 f m}}$
+        value: p = ${\frac{q}{8 h j}}$
       ans4:
-        value: g = ${\frac{f + 4 m}{a}}$
+        value: p = ${\frac{h - 8 j}{q}}$
       ans5:
         value: Don't Know
 ---
