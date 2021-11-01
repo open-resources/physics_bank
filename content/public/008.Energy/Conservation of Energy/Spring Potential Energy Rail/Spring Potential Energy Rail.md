@@ -34,18 +34,18 @@ substitutions:
   params:
     vars:
       title: Spring Potential Energy Rail
-    m: 4
-    xi: 0.49
-    x: 0.54
-    R: 0.69
-    k: 125
+    m: 8
+    xi: 0.38
+    x: 0.68
+    R: 0.62
+    k: 129
 ---
 # {{ params.vars.title }}
 <img src="Spring Potential Energy Rail.png" width=400>
 
-A massless spring connected between a collar and fixed point, as shown in the figure, has an unstretched length of ${{params.xi}} m$ and a stiffness of ${{params.k}} N/m$.
-The ${{params.m}} kg$ collar is released from rest at $A$ and slides down a curve with radius $R = {{params.R}} m$.
-Calculate the velocity of the slider as it reaches $B$, $x = {{params.x}} m$ away from the curve, if there is no friction.
+A spring between a collar and fixed point has an unstretched length of ${{params.xi}}m$ and a stiffness of ${{params.k}}N/m$.
+The ${{params.m}}kg$ collar is released from rest at A and slides down a curve with radius $R = {{params.R}}m$.
+Calculate the velocity of the slider as it reaches B, $x = {{params.x}}m$ away from the curve, if there is no friction.
 
 ## Part 1
 

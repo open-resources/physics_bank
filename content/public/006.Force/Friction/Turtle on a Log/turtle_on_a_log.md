@@ -40,9 +40,9 @@ substitutions:
       ans3:
         value: $n = mg \sin\theta$, $f_s = \mu_s mg\sin\theta$
       ans4:
-        value: $n = mg\cos\theta$, $f_s = \mu_s mg\sin\theta$
+        value: $n = mg\cos\theta$, $f_s = mg\sin\theta$
       ans5:
-        value: $n = mg\sin\theta$, $f_s = \mu_s mg\cos\theta$
+        value: $n = mg\sin\theta$, $f_s = mg\cos\theta$
 ---
 # {{ params.vars.title }}
 A turtle lies on a log in the sun as shown in the figure below.

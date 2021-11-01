@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $h$ = $\dfrac{(g)}{(x + 8e)} $
+    expr: $f$ = $\dfrac{(a)}{(g - 4m)} $
     part1:
       ans1:
-        value: x = ${ - 8 e + \frac{g}{h}}$
+        value: g = ${ \frac{a}{f} + 4 m}$
       ans2:
-        value: x = ${\frac{8 e h}{g}}$
+        value: g = ${- \frac{4 f m}{a}}$
       ans3:
-        value: x = ${\frac{g}{8 e h}}$
+        value: g = ${- \frac{a}{4 f m}}$
       ans4:
-        value: x = ${\frac{- 8 e + h}{g}}$
+        value: g = ${\frac{f + 4 m}{a}}$
       ans5:
         value: Don't Know
 ---

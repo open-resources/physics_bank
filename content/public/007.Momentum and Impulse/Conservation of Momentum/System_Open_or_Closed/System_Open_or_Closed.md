@@ -34,8 +34,8 @@ substitutions:
       title: System Open or Closed
       vehicle: semi-truck
       units: kg
-    i_a: 122
-    i_b: 315
+    i_a: 86
+    i_b: 290
     part1:
       ans1:
         value: Yes, because the two carts are on a track with no friction.

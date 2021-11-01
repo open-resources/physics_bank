@@ -55,8 +55,8 @@ substitutions:
     vars:
       title: Head-on Collision of Carts
       units: $(m/s)\; \hat{\imath}$
-    c1: 5
-    c2: 3
+    c1: 3
+    c2: 5
     v0: 14.9
 ---
 # {{ params.vars.title }}

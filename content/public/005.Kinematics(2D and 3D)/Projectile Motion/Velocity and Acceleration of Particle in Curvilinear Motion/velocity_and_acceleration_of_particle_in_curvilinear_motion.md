@@ -44,8 +44,8 @@ substitutions:
     x_position: 0
     t: 0
     y_position: 0
-    vxcon: 22
-    vxcof: 13
+    vxcon: 29
+    vxcof: 16
 ---
 # {{ params.vars.title }}
 The curvilinear motion of a particle is defined by the x velocity, $v\_{x} = {{params.vxcon}} - {{params.vxcof}}t$ and the y position, $y = 50 - 2t^2$,

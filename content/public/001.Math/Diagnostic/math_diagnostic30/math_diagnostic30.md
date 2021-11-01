@@ -30,7 +30,7 @@ substitutions:
   params:
     vars:
       title: Math Practice 30
-      name: Aliyah
+      name: Emilia
     sp1: 8
     sp2: 4
     part1:
