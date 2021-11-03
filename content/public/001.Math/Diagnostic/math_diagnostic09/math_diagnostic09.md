@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $h$ = $\dfrac{(q)}{(p + 8j)} $
+    expr: $g$ = $\dfrac{(e)}{(b - 8m)} $
     part1:
       ans1:
-        value: p = ${ - 8 j + \frac{q}{h}}$
+        value: b = ${ \frac{e}{g} + 8 m}$
       ans2:
-        value: p = ${\frac{8 h j}{q}}$
+        value: b = ${- \frac{8 g m}{e}}$
       ans3:
-        value: p = ${\frac{q}{8 h j}}$
+        value: b = ${- \frac{e}{8 g m}}$
       ans4:
-        value: p = ${\frac{h - 8 j}{q}}$
+        value: b = ${\frac{g + 8 m}{e}}$
       ans5:
         value: Don't Know
 ---

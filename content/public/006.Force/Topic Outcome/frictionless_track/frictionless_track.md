@@ -48,8 +48,8 @@ substitutions:
     vars:
       title: Horizontal frictionless track
       units: N
-    m: 4.25
-    v: 8
+    m: 4.0
+    v: 7
     R: 1.0
     L: 13
 ---

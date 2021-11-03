@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $9^{6} $=$ 531441$
+    expr: $6^{7} $=$ 279936$
     part1:
       ans1:
-        value: $log_9531441 = 6$
+        value: $log_6279936 = 7$
       ans2:
-        value: $log_96 = 531441$
+        value: $log_67 = 279936$
       ans3:
-        value: $log_5314416 = 9$
+        value: $log_2799367 = 6$
       ans4:
-        value: $log_6531441 = 9$
+        value: $log_7279936 = 6$
       ans5:
         value: Don't Know
 ---

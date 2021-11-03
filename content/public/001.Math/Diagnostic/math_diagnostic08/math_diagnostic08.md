@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-54x + 42y }{ 6 }$
+    expr: $\dfrac{-40x + 10y }{ -5 }$
     part1:
       ans1:
-        value: $- 9 x + 7 y$
+        value: $8 x - 2 y$
       ans2:
-        value: $\dfrac{-9x + 7y}{6}$
+        value: $\dfrac{8x - 2y}{-5}$
       ans3:
-        value: $7x - 9y$
+        value: $-2x + 8y$
       ans4:
-        value: $-54x + 42y$
+        value: $-40x - 10y$
       ans5:
         value: Don't know.
 ---

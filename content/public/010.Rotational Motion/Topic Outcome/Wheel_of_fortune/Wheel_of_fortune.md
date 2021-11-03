@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       units: rad/s
-      name: Emilia
+      name: Mateo
       title: Wheel of Fortune
     w_i: ${\pi \over 4} {rad\over s}$
-    t: 6
+    t: 4
     part1:
       ans1:
-        value: 1.24
+        value: 1.86
       ans2:
-        value: 1.11
+        value: 1.36
       ans3:
-        value: 2.23
+        value: 2.73
       ans4:
         value: $\pi$/4
 ---
