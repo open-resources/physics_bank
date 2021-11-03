@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-40x + 10y }{ -5 }$
+    expr: $\dfrac{-20x + 28y }{ 4 }$
     part1:
       ans1:
-        value: $8 x - 2 y$
+        value: $- 5 x + 7 y$
       ans2:
-        value: $\dfrac{8x - 2y}{-5}$
+        value: $\dfrac{-5x + 7y}{4}$
       ans3:
-        value: $-2x + 8y$
+        value: $7x - 5y$
       ans4:
-        value: $-40x - 10y$
+        value: $-20x + 28y$
       ans5:
         value: Don't know.
 ---

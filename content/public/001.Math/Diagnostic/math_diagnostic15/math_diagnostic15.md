@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $6^{7} $=$ 279936$
+    expr: $6^{3} $=$ 216$
     part1:
       ans1:
-        value: $log_6279936 = 7$
+        value: $log_6216 = 3$
       ans2:
-        value: $log_67 = 279936$
+        value: $log_63 = 216$
       ans3:
-        value: $log_2799367 = 6$
+        value: $log_2163 = 6$
       ans4:
-        value: $log_7279936 = 6$
+        value: $log_3216 = 6$
       ans5:
         value: Don't Know
 ---

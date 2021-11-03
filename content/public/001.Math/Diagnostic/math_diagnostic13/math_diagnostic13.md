@@ -31,7 +31,7 @@ substitutions:
   params:
     vars:
       title: Math Practice 13
-    expr: $\dfrac{z^6 }{z^4} $
+    expr: $\dfrac{z^7 }{z^5} $
     part1:
       ans1:
         value: $z^{2}$
@@ -40,7 +40,7 @@ substitutions:
       ans3:
         value: 2z
       ans4:
-        value: (3/2)z
+        value: (7/5)z
       ans5:
         value: Don't Know
 ---

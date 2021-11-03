@@ -53,11 +53,11 @@ part4:
 substitutions:
   params:
     vars:
-      name: Mateo
+      name: Maya
       title: Motion of watermelon
       units1: ${m/s}^2$
       units2: $s$
-    a: 4
+    a: 5
     b: 7
     c: 9
     part4:

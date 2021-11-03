@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $g$ = $\dfrac{(e)}{(b - 8m)} $
+    expr: $o$ = $\dfrac{(e)}{(c + 9d)} $
     part1:
       ans1:
-        value: b = ${ \frac{e}{g} + 8 m}$
+        value: c = ${ - 9 d + \frac{e}{o}}$
       ans2:
-        value: b = ${- \frac{8 g m}{e}}$
+        value: c = ${\frac{9 d o}{e}}$
       ans3:
-        value: b = ${- \frac{e}{8 g m}}$
+        value: c = ${\frac{e}{9 d o}}$
       ans4:
-        value: b = ${\frac{g + 8 m}{e}}$
+        value: c = ${\frac{- 9 d + o}{e}}$
       ans5:
         value: Don't Know
 ---

@@ -108,13 +108,13 @@ substitutions:
   params:
     vars:
       title: A Coyote and a Rat
-    m_c: 11
-    m_r: 4
-    d_b: 31
-    d_c: 20
-    v_r: 6
-    a_c: 7
-    mu_k: 2.5
+    m_c: 12
+    m_r: 5
+    d_b: 33
+    d_c: 25
+    v_r: 7
+    a_c: 4
+    mu_k: 2.23
     part10:
       ans1:
         value: Yes, the coyote will be able to stop before hitting the thorny bush.
