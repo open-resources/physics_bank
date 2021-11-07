@@ -12,15 +12,15 @@ outcomes:
 - 8.5.1.2
 - 8.5.2.2
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 0
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - PW
 assets: null

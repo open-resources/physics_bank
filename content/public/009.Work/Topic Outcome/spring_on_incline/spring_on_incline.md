@@ -31,7 +31,7 @@ assets:
 part1:
   type: number-input
   pl-customizations:
-    rtol: 0.05
+    rtol: 0.02
     label: $x=$
     allow-blank: true
     weight: 1
@@ -50,11 +50,11 @@ substitutions:
       title: Spring on an Incline
       units1: m
       units2: J
-    m: 5
-    k: 633
-    theta: 29
+    m: 4
+    k: 664
+    theta: 25
     mu: 0.25
-    d: 6
+    d: 8
     g: 9.8
 ---
 # {{ params.vars.title }}

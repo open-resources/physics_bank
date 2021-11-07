@@ -11,15 +11,15 @@ outcomes:
 - 5.7.1.2
 - 10.2.1.0
 difficulty:
-- undefined
+- mediun
 randomization:
-- undefined
+- 0
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - MP
 assets:

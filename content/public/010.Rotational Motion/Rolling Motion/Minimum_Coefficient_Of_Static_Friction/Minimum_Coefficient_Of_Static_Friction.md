@@ -10,17 +10,18 @@ singleVariant: false
 outcomes:
 - 10.3.2.3
 difficulty:
-- undefined
+- average
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- average
 tags:
 - EW
+- final_exam
 assets: null
 part1:
   type: multiple-choice
@@ -30,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Minimum Coefficient Of Static Friction
-      vehicle: sedan
-    r: 71
-    v: 14
+      vehicle: pickup truck
+    r: 100
+    v: 10
     part1:
       ans1:
-        value: 3.6
+        value: 9.8
       ans2:
-        value: 0.28
+        value: 0.1
       ans3:
-        value: 2.8
+        value: 1.0
       ans4:
-        value: 0.02
+        value: 0.01
       ans5:
-        value: 0.2
+        value: 0.1
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }} drives around a flat curve with radius $r$ = {{params.r}} $m$ at a speed of $v$ = {{params.v}} $\frac{m}{s}$.

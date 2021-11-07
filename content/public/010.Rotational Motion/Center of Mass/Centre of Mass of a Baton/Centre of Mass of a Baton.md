@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 10.4.1.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - PW
 assets:
@@ -36,11 +36,11 @@ substitutions:
     vars:
       title: Centre of Mass of a Baton
       units: $m$
-    m1: 0.16
-    m2: 0.14
-    m3: 0.092
+    m1: 0.13
+    m2: 0.1
+    m3: 0.075
     l1: 1.3
-    l2: 1.3
+    l2: 0.75
 ---
 # {{ params.vars.title }}
 

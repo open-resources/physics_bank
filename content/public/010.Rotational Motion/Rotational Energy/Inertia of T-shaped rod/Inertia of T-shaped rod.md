@@ -11,15 +11,15 @@ outcomes:
 - 10.5.2.0
 - 10.5.2.2
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 4
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - PW
 assets:
@@ -33,7 +33,7 @@ substitutions:
   params:
     vars:
       title: Rotational Inertia of T-shaped Rods
-    choice: maximum
+    choice: minimum
     part1:
       ans1:
         value: Figure (a)

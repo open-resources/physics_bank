@@ -14,17 +14,18 @@ outcomes:
 - 10.5.2.1
 - 8.2.1.3
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- long
 tags:
 - PW
+- final_exam
 assets:
 - q9_2013practiceFinal.png
 part1:
@@ -56,7 +57,7 @@ substitutions:
     vars:
       title: Speed of a Rolling Object
       units: $m/s$
-    h: 4.83
+    h: 4.99
 ---
 # {{ params.vars.title }}
 One end of a massless string is attached to a massless axle that passes through the centre of mass of an object (mass $m$) that has a circular cross-section (radius $R$)  and  rolls  without  slipping  up  the  incline.

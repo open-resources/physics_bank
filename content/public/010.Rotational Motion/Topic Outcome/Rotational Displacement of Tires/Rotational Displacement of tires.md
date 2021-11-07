@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 10.1.1.1
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - PW
 assets: null
@@ -33,11 +33,11 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: semi-truck
+      vehicle: bus
       title: Rotational Displacement of Tires
       units: rad
-    a: 5.33
-    t: 14.8
+    a: 7.68
+    t: 43.4
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }} accelerates from rest at $t = 0$ such that its tires undergo a constant rotational acceleration of $\alpha = $ {{ params.a }} $s^{-2}$.

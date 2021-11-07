@@ -79,7 +79,7 @@ substitutions:
     dist1: 70
     dist2: 50
     dist3: 6
-    dist4: 80
+    dist4: 30
 ---
 # {{ params.vars.title }}
 A delivery person starts at the post office, drives {{params.dist1}} km north, then {{params.dist2}} km west, then {{params.dist3}} km northeast, and finally {{params.dist4}} km north to stop for lunch.  Assume $+y$ is to the North, and $+x$ is to the East. Use the analytical method to determine the following:

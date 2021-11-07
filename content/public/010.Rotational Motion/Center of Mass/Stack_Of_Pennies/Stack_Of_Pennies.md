@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 10.4.1.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - EW
 assets:

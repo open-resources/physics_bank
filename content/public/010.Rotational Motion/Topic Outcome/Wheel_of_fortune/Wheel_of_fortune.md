@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 9.1.1.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - AK
 assets:
@@ -31,19 +31,19 @@ substitutions:
   params:
     vars:
       units: rad/s
-      name: Abbas
+      name: Savannah
       title: Wheel of Fortune
-    w_i: ${\pi \over 4} {rad\over s}$
+    w_i: ${\pi \over 2} {rad\over s}$
     t: 6
     part1:
       ans1:
-        value: 1.24
+        value: 2.47
       ans2:
-        value: 1.11
+        value: 1.57
       ans3:
-        value: 2.23
+        value: 3.14
       ans4:
-        value: $\pi$/4
+        value: $\pi$/2
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} wants to win a game of Wheel-of-Fortune.

@@ -8,15 +8,15 @@ attribution: standard
 outcomes:
 - 10.4.1.1
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - PW
 assets:
@@ -46,9 +46,9 @@ substitutions:
     vars:
       title: Rolling Disk of Spruce and Steel
       units: $kg$
-    rho_spruce: 426.0
-    rho_steel: 7860.0
-    w_disk: 29.7
+    rho_spruce: 440.0
+    rho_steel: 7870.0
+    w_disk: 26.1
     part3:
       ans1:
         value: $x$ = 1 $cm$, $y$ = 0 $cm$

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-20x + 28y }{ 4 }$
+    expr: $\dfrac{15x - 15y }{ 3 }$
     part1:
       ans1:
-        value: $- 5 x + 7 y$
+        value: $5 x - 5 y$
       ans2:
-        value: $\dfrac{-5x + 7y}{4}$
+        value: $\dfrac{5x - 5y}{3}$
       ans3:
-        value: $7x - 5y$
+        value: $-5x + 5y$
       ans4:
-        value: $-20x + 28y$
+        value: $15x - 15y$
       ans5:
         value: Don't know.
 ---

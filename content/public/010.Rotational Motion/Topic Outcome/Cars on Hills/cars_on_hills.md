@@ -13,17 +13,18 @@ outcomes:
 - 6.12.2.0
 - 10.3.2.2
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- long
 tags:
 - MP
+- final_exam
 assets:
 - q4.png
 part1:
@@ -45,9 +46,9 @@ substitutions:
     vars:
       title: Cars on Hills
       units: "$\frac{m}{s^2}"
-    v: 18
-    r: 298
-    mu: 7.98
+    v: 26
+    r: 167
+    mu: 7.48
 ---
 # {{ params.vars.title }}
 Two cars are driving at {{params.v}} $m/s$ along the road shown in the figure.

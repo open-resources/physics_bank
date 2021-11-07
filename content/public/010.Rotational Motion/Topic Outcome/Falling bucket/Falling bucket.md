@@ -13,15 +13,15 @@ outcomes:
 - 10.5.2.2
 - 10.5.2.3
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- average
 tags:
 - PW
 assets:
@@ -39,10 +39,10 @@ substitutions:
     vars:
       title: Falling Bucket
       units: m/s
-    m_b: 22.2
-    m_c: 4.97
-    h: 57.7
-    r: 51.2
+    m_b: 15.8
+    m_c: 5.99
+    h: 14.4
+    r: 60.0
 ---
 # {{ params.vars.title }}
 A bucket of mass $m_b$ = {{ params.m_b }} $kg$ is knocked off the side of a well.

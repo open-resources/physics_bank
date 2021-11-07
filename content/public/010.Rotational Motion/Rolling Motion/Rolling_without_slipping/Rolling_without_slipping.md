@@ -10,15 +10,15 @@ singleVariant: false
 outcomes:
 - 10.3.2.1
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 1
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - AK
 assets: null
@@ -30,7 +30,7 @@ substitutions:
   params:
     vars:
       title: Rolling without slipping
-      name: Savannah
+      name: Lorenzo
     part1:
       ans1:
         value: The hoop, because it has less rotational intera, less of its total

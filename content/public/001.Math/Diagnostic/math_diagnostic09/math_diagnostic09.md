@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $o$ = $\dfrac{(e)}{(c + 9d)} $
+    expr: $p$ = $\dfrac{(i)}{(m - 10k)} $
     part1:
       ans1:
-        value: c = ${ - 9 d + \frac{e}{o}}$
+        value: m = ${ \frac{i}{p} + 10 k}$
       ans2:
-        value: c = ${\frac{9 d o}{e}}$
+        value: m = ${- \frac{10 k p}{i}}$
       ans3:
-        value: c = ${\frac{e}{9 d o}}$
+        value: m = ${- \frac{i}{10 k p}}$
       ans4:
-        value: c = ${\frac{- 9 d + o}{e}}$
+        value: m = ${\frac{10 k + p}{i}}$
       ans5:
         value: Don't Know
 ---
