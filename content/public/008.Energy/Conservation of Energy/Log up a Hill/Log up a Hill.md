@@ -42,9 +42,9 @@ substitutions:
   params:
     vars:
       title: Log up a Hill
-    W: 838
-    t: 13
-    v: 10
+    W: 855
+    t: 18
+    v: 4
     P: 5
     P2: 7
 ---

@@ -33,7 +33,7 @@ substitutions:
       name: Lorenzo
     part1:
       ans1:
-        value: The tension points down, and Lorenzo moves down, so negative work is
+        value: The tension points up, and Lorenzo moves down, so negative work is
           done.
       ans2:
         value: The tension point up, and Lorenzo moves up, so positive work is done.
@@ -41,7 +41,7 @@ substitutions:
         value: The tension points up, and Lorenzo moves down, so positive work is
           done.
       ans4:
-        value: The tension points up, and Lorenzo moves down, so negative work is
+        value: The tension points down, and Lorenzo moves down, so negative work is
           done.
 ---
 # {{ params.vars.title }}

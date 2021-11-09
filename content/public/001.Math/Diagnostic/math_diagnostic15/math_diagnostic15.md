@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $7^{6} $=$ 117649$
+    expr: $5^{4} $=$ 625$
     part1:
       ans1:
-        value: $log_7117649 = 6$
+        value: $log_5625 = 4$
       ans2:
-        value: $log_76 = 117649$
+        value: $log_54 = 625$
       ans3:
-        value: $log_1176496 = 7$
+        value: $log_6254 = 5$
       ans4:
-        value: $log_6117649 = 7$
+        value: $log_4625 = 5$
       ans5:
         value: Don't Know
 ---

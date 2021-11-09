@@ -45,13 +45,12 @@ substitutions:
     vars:
       title: Uranium Fragments
       units: amu
-    frag_speed: 2.7
-    dn_speed: 2.79
-    orig_mass: 233
-    isotope: $^{233}\mathrm{U}$
+    frag_speed: 1.1
+    dn_speed: 2.62
+    orig_mass: $^{236}\mathrm{U}$
 ---
 # {{ params.vars.title }}
-A radioactive {{params.isotope}} uranium nucleus is initially at rest.
+A radioactive {{params.orig_mass}} uranium nucleus is initially at rest.
 It spontaneously disintegrates into a small fragment that is ejected with a measured speed of {{params.frag_speed}}$ \times 10^7 \ m/s$ and a daughter nucleus that recoils with a measured speed of {{params.dn_speed}}$ \times 10^5 \ m/s$.
 The mass of the original uranium nucleus is {{params.orig_mass}} amu (atomic mass units).
 

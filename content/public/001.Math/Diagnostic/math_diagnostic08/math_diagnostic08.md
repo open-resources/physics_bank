@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{15x - 15y }{ 3 }$
+    expr: $\dfrac{-8x + 12y }{ -2 }$
     part1:
       ans1:
-        value: $5 x - 5 y$
+        value: $4 x - 6 y$
       ans2:
-        value: $\dfrac{5x - 5y}{3}$
+        value: $\dfrac{4x - 6y}{-2}$
       ans3:
-        value: $-5x + 5y$
+        value: $-6x + 4y$
       ans4:
-        value: $15x - 15y$
+        value: $-8x - 12y$
       ans5:
         value: Don't know.
 ---

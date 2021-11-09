@@ -61,14 +61,14 @@ substitutions:
       name: Aliyah
       unit1: $m/s$
       unit2: $kg/s$
-    m: 5
-    d_m: 58
-    sd: 0.05
-    v1: 0.8
-    v2: 0.83
-    v3: 0.87
-    v4: 0.93
-    v5: 0.89
+    m: 3
+    d_m: 40
+    sd: 0.066
+    v1: 0.83
+    v2: 0.96
+    v3: 0.91
+    v4: 0.77
+    v5: 0.83
     v6: 0.79
 ---
 # {{ params.vars.title }}

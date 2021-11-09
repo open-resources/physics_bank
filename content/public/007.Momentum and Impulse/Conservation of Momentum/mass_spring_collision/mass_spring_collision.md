@@ -55,7 +55,7 @@ A block of mass $m_1$ slides across a frictionless surface with speed $v_1$ and 
 Block $m_2$ is attached to a spring with spring constant $k$ and equilibrium length $x_0$.
 Assume $m_2 > m_1$.
 
-![A block of mass m one slides across a frictionless surface with speed v one and collides perfectly elastically with a block m two attached to a spring with spring constant k and equilibrium length x naught.](q13_2012Final.png)
+<img alt="A block of mass m one slides across a frictionless surface with speed v one and collides perfectly elastically with a block m two attached to a spring with spring constant k and equilibrium length x naught." src="q13_2012Final.png" width=400>
 
 ## Part 1
 

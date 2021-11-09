@@ -42,14 +42,14 @@ substitutions:
   params:
     vars:
       title: BulletCart Energy Loss
-    m: 44
-    mbg: 91
-    vb: 589
+    m: 41
+    mbg: 84
+    vb: 650
 ---
 # {{ params.vars.title }}
 <img src="BulletCart Energy Loss.png" width=400>
 
-A {${params.mbg}}g$ bullet travels at ${{params.vb}} m/s$ and strikes a stationary ${{params.m}}kg$ block, embedding in it.
+A ${{params.mbg}} g$ bullet travels at ${{params.vb}} m/s$ and strikes a stationary ${{params.m}} kg$ block, embedding in it.
 
 ## Part 1
 

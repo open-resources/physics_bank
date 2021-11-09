@@ -23,7 +23,7 @@ length:
 tags:
 - EW
 assets:
-- Q3.png
+- open_closed.png
 part1:
   type: multiple-choice
   pl-customizations:
@@ -32,10 +32,10 @@ substitutions:
   params:
     vars:
       title: System Open or Closed
-      vehicle: semi-truck
+      vehicle: car
       units: kg
-    i_a: 78
-    i_b: 323
+    i_a: 143
+    i_b: 303
     part1:
       ans1:
         value: Yes, because the two carts are on a track with no friction.
@@ -51,7 +51,7 @@ Two {{ params.vars.vehicle }}s collide on a track, {{ params.vars.vehicle }}  A 
 {{ params.vars.vehicle }} A has inertia {{ params.i_a }} {{ params.vars.units }}, {{ params.vars.vehicle }} B has inertia {{ params.i_b }} {{ params.vars.units }}.
 The following diagram shows the velocity of each {{ params.vars.vehicle }} as a function of time.
 
-![A velocity versus time graph where {{ params.vars.vehicle }} A has an initial velocity of 8 meters per second and {{ params.vars.vehicle }} B has an initial velocity of 1 meter per second. The two {{ params.vars.vehicle }}s collide at around 4 seconds. The velocity of {{ params.vars.vehicle }} A decreases to 2 meters per second and the velocity of {{ params.vars.vehicle }} B increases to 5 meters per second.](Q3.png)
+<img alt="A velocity versus time graph where {{ params.vars.vehicle }} A has an initial velocity of 8 meters per second and {{ params.vars.vehicle }} B has an initial velocity of 1 meter per second. The two {{ params.vars.vehicle }}s collide at around 4 seconds. The velocity of {{ params.vars.vehicle }} A decreases to 2 meters per second and the velocity of {{ params.vars.vehicle }} B increases to 5 meters per second." src="open_closed.png" width=400>
 
 ## Question Text
 

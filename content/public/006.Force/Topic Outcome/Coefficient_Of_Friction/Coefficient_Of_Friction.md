@@ -36,7 +36,7 @@ substitutions:
   params:
     vars:
       title: Coefficient Of Friction
-    m: 203
+    m: 220
     t: 3
 ---
 # {{ params.vars.title }}

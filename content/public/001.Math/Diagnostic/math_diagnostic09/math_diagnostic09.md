@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $p$ = $\dfrac{(i)}{(m - 10k)} $
+    expr: $c$ = $\dfrac{(x)}{(h + 3n)} $
     part1:
       ans1:
-        value: m = ${ \frac{i}{p} + 10 k}$
+        value: h = ${ - 3 n + \frac{x}{c}}$
       ans2:
-        value: m = ${- \frac{10 k p}{i}}$
+        value: h = ${\frac{3 c n}{x}}$
       ans3:
-        value: m = ${- \frac{i}{10 k p}}$
+        value: h = ${\frac{x}{3 c n}}$
       ans4:
-        value: m = ${\frac{10 k + p}{i}}$
+        value: h = ${\frac{c - 3 n}{x}}$
       ans5:
         value: Don't Know
 ---
