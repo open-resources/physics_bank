@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $c$ = $\dfrac{(x)}{(h + 3n)} $
+    expr: $g$ = $\dfrac{(b)}{(o - 5c)} $
     part1:
       ans1:
-        value: h = ${ - 3 n + \frac{x}{c}}$
+        value: o = ${ \frac{b}{g} + 5 c}$
       ans2:
-        value: h = ${\frac{3 c n}{x}}$
+        value: o = ${- \frac{5 c g}{b}}$
       ans3:
-        value: h = ${\frac{x}{3 c n}}$
+        value: o = ${- \frac{b}{5 c g}}$
       ans4:
-        value: h = ${\frac{c - 3 n}{x}}$
+        value: o = ${\frac{5 c + g}{b}}$
       ans5:
         value: Don't Know
 ---

@@ -28,18 +28,21 @@ part1:
   type: number-input
   label: $P_{total}=$
   pl-customizations:
+    rtol: 0.05
     allow-blank: true
     weight: 1
 part2:
   type: number-input
   label: $v_{f}=$
   pl-customizations:
+    rtol: 0.05
     allow-blank: true
     weight: 1
 part3:
   type: number-input
   label: $v_{rock f}=$
   pl-customizations:
+    rtol: 0.05
     allow-blank: true
     weight: 1
 substitutions:
@@ -48,11 +51,11 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-      name: Aliyah
-    i: 331
-    m: 36
-    v_1: 21
-    v_2: 29
+      name: Maya
+    i: 342
+    m: 21
+    v_1: 29
+    v_2: 19
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.
