@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{18x - 36y }{ -9 }$
+    expr: $\dfrac{-35x + 10y }{ -5 }$
     part1:
       ans1:
-        value: $- 2 x + 4 y$
+        value: $7 x - 2 y$
       ans2:
-        value: $\dfrac{-2x + 4y}{-9}$
+        value: $\dfrac{7x - 2y}{-5}$
       ans3:
-        value: $4x - 2y$
+        value: $-2x + 7y$
       ans4:
-        value: $18x + 36y$
+        value: $-35x - 10y$
       ans5:
         value: Don't know.
 ---

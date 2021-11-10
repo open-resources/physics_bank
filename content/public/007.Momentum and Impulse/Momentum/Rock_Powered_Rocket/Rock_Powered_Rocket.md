@@ -26,24 +26,27 @@ tags:
 assets: null
 part1:
   type: number-input
-  label: $P_{total}=$
   pl-customizations:
     rtol: 0.05
     allow-blank: true
+    label: $P_{total}=$
+    suffix: $kg m/s$
     weight: 1
 part2:
   type: number-input
-  label: $v_{f}=$
   pl-customizations:
     rtol: 0.05
     allow-blank: true
+    label: $v_{f}=$
+    suffix: $m/s$
     weight: 1
 part3:
   type: number-input
-  label: $v_{rock f}=$
   pl-customizations:
     rtol: 0.05
     allow-blank: true
+    label: $v_{rock f}=$
+    suffix: $m/s$
     weight: 1
 substitutions:
   params:
@@ -51,10 +54,10 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-      name: Maya
-    i: 342
-    m: 21
-    v_1: 29
+      name: Aliyah
+    i: 399
+    m: 22
+    v_1: 10
     v_2: 19
 ---
 # {{ params.vars.title }}

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $g$ = $\dfrac{(b)}{(o - 5c)} $
+    expr: $l$ = $\dfrac{(e)}{(c - 2m)} $
     part1:
       ans1:
-        value: o = ${ \frac{b}{g} + 5 c}$
+        value: c = ${ \frac{e}{l} + 2 m}$
       ans2:
-        value: o = ${- \frac{5 c g}{b}}$
+        value: c = ${- \frac{2 l m}{e}}$
       ans3:
-        value: o = ${- \frac{b}{5 c g}}$
+        value: c = ${- \frac{e}{2 l m}}$
       ans4:
-        value: o = ${\frac{5 c + g}{b}}$
+        value: c = ${\frac{l + 2 m}{e}}$
       ans5:
         value: Don't Know
 ---
