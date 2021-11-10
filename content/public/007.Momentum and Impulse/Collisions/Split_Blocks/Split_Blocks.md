@@ -33,6 +33,14 @@ part1:
     rtol: 0.05
     weight: 1
     allow-blank: true
+    label: $\vec{v_B}= $
+    suffix: $m/s$
+part2:
+  type: number-input
+  pl-customizations:
+    rtol: 0.05
+    weight: 1
+    allow-blank: true
     label: $\Delta E$
     suffix: $J$
 substitutions:
@@ -40,23 +48,31 @@ substitutions:
     vars:
       title: Split Blocks
       units: $J$
-    m: 7
-    m_a: 2
-    m_b: 5
-    v_a: 5.5
+    m: 10
+    m_a: 8
+    m_b: 2
+    v_a: 4.6
 ---
 # {{ params.vars.title }}
 A {{params.m}} $kg$ block is initially at rest on a sheet of ice.
 An internal explosion occurs, splitting the object into two pieces of masses $m_A$ = {{params.m_a}} $kg$ and $m_B$ = {{params.m_b}} $kg$.
-After the explosion, block A is measured to have a velocity of $\vec{v_A}$ = {{params.v_a}} $m/s$
+After the explosion, block A is measured to have a velocity of $\vec{v_A}$ = {{params.v_a}} $m/s$.
 
-## Question Text
+## Part 1
+
+What is the velocity of block $B$?
+
+### Answer Section
+
+Please enter in a numeric value in $m/s$.
+
+## Part 2
 
 Assuming that there's no friction, how much energy did the explosion release?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in $J$.
 
 ## Attribution
 

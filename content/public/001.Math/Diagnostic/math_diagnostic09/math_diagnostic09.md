@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $i$ = $\dfrac{(z)}{(n + 4p)} $
+    expr: $t$ = $\dfrac{(u)}{(y - 5b)} $
     part1:
       ans1:
-        value: n = ${ - 4 p + \frac{z}{i}}$
+        value: y = ${ 5 b + \frac{u}{t}}$
       ans2:
-        value: n = ${\frac{4 i p}{z}}$
+        value: y = ${- \frac{5 b t}{u}}$
       ans3:
-        value: n = ${\frac{z}{4 i p}}$
+        value: y = ${- \frac{u}{5 b t}}$
       ans4:
-        value: n = ${\frac{i - 4 p}{z}}$
+        value: y = ${\frac{5 b + t}{u}}$
       ans5:
         value: Don't Know
 ---

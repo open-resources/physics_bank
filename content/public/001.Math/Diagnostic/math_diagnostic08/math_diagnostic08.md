@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-18x - 14y }{ 2 }$
+    expr: $\dfrac{63x - 36y }{ -9 }$
     part1:
       ans1:
-        value: $- 9 x - 7 y$
+        value: $- 7 x + 4 y$
       ans2:
-        value: $\dfrac{-9x - 7y}{2}$
+        value: $\dfrac{-7x + 4y}{-9}$
       ans3:
-        value: $-7x - 9y$
+        value: $4x - 7y$
       ans4:
-        value: $-18x - 14y$
+        value: $63x + 36y$
       ans5:
         value: Don't know.
 ---

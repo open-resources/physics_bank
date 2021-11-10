@@ -32,7 +32,7 @@ substitutions:
   params:
     vars:
       title: Puck Collision
-    E: 12
+    E: 16
     part1:
       ans1:
         value: momentum increases, kinetic energy increases
@@ -50,8 +50,8 @@ Consider a system of two pucks on a frictionless surface. An orange puck moving 
 
 <div id="desc">
 <h5>Long Description of image: Figure of the system described.</h5>
-Before the collision. The orange puck moves with horizontal velocity v o i (o for orange and i for initial) towards the right. The blue puck is at rest.<br>
-After the collision. Both pucks move in opposite directions. The orange puck moves with a velocity v o f (f for final) at an angle theta with respect to the positive x-axis. The blue puck moves with a velocity v b f (b for blue) at an angle phi with respect to the positive x-axis.
+Before the collision. The orange puck moves with horizontal velocity v<sub>oi</sub> (o for orange and i for initial) towards the right. The blue puck is at rest.<br>
+After the collision. Both pucks move in opposite directions. The orange puck moves with a velocity v<sub>of</sub> (f for final) at an angle theta with respect to the positive x-axis. The blue puck moves with a velocity v<sub>bf</sub> (b for blue) at an angle phi with respect to the positive x-axis.
 <p>Long description ends.</p>
 </div>
 
