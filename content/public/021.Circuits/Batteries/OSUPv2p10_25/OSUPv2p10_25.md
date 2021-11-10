@@ -55,9 +55,9 @@ substitutions:
   params:
     vars:
       title: Automobile Battery Properties
-    V: '13.5'
-    V_t: '17.5'
-    I: '12.00'
+    V: '11.5'
+    V_t: '16.5'
+    I: '11.50'
 ---
 # {{ params.vars.title }}
 A ${{ params.V }}\rm\ V$ emf automobile battery has a terminal voltage of ${{ params.V_t }}\rm\ V$ when being charged by a current of ${{ params.I }}\rm\ A$.

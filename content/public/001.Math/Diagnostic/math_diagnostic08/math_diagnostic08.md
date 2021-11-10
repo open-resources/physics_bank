@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-35x + 10y }{ -5 }$
+    expr: $\dfrac{9x - 15y }{ 3 }$
     part1:
       ans1:
-        value: $7 x - 2 y$
+        value: $3 x - 5 y$
       ans2:
-        value: $\dfrac{7x - 2y}{-5}$
+        value: $\dfrac{3x - 5y}{3}$
       ans3:
-        value: $-2x + 7y$
+        value: $-5x + 3y$
       ans4:
-        value: $-35x - 10y$
+        value: $9x - 15y$
       ans5:
         value: Don't know.
 ---

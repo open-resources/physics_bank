@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $5^{2} $=$ 25$
+    expr: $6^{5} $=$ 7776$
     part1:
       ans1:
-        value: $log_525 = 2$
+        value: $log_67776 = 5$
       ans2:
-        value: $log_52 = 25$
+        value: $log_65 = 7776$
       ans3:
-        value: $log_252 = 5$
+        value: $log_77765 = 6$
       ans4:
-        value: $log_225 = 5$
+        value: $log_57776 = 6$
       ans5:
         value: Don't Know
 ---

@@ -4,7 +4,7 @@ topic: Work
 author: Jake Bobowski
 source: 2017 Final Q6
 template_version: 1.3
-attribution: openstax-physics-vol2
+attribution: standard
 partialCredit: true
 singleVariant: false
 outcomes:
@@ -32,24 +32,28 @@ substitutions:
   params:
     vars:
       title: Work on Sliding Object
+    v_i: ''
+    v_f: 2
     part1:
       ans1:
-        value: equal to the work required to accelerate the object from v = 0 to v
+        value: 4 times the work required to accelerate the object from $v$ = 0 to
+          $v$
       ans2:
-        value: twice the work required to accelerate the object from v = 0 to v
+        value: 2 times the work required to accelerate the object from $v$ = 0 to
+          $v$
       ans3:
-        value: three times the work required to accelerate the object from v = 0 to
-          v
+        value: 3 times the work required to accelerate the object from $v$ = 0 to
+          $v$
       ans4:
-        value: four times the work required to accelerate the object from 2v to 3v
+        value: Equal to the work required to accelerate the object from 3$v$ to 4$v$
       ans5:
-        value: not known without knowledge of the acceleration
+        value: Not known without knowledge of the acceleration
 ---
 # {{ params.vars.title }}
 
 ## Part 1
 
-The work required to accelerate an object on a frictionless surface from a speed of $v$ to a speed of $2v$ is:
+The work required to accelerate an object on a frictionless surface from a speed of {{ params.v_i }}$v$ to a speed of {{ params.v_f }}$v$ is:
 
 ### Answer Section
 
@@ -61,4 +65,4 @@ The work required to accelerate an object on a frictionless surface from a speed
 
 ## Attribution
 
-Problem is from the [OpenStax University Physics Volume 2](https://openstax.org/details/books/university-physics-volume-2) textbook, licensed under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).<br>![Image representing the Creative Commons 4.0 BY license.](https://raw.githubusercontent.com/firasm/bits/master/by.png)
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br> ![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

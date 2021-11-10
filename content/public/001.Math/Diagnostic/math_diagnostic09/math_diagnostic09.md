@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $l$ = $\dfrac{(e)}{(c - 2m)} $
+    expr: $e$ = $\dfrac{(k)}{(v - 10y)} $
     part1:
       ans1:
-        value: c = ${ \frac{e}{l} + 2 m}$
+        value: v = ${ 10 y + \frac{k}{e}}$
       ans2:
-        value: c = ${- \frac{2 l m}{e}}$
+        value: v = ${- \frac{10 e y}{k}}$
       ans3:
-        value: c = ${- \frac{e}{2 l m}}$
+        value: v = ${- \frac{k}{10 e y}}$
       ans4:
-        value: c = ${\frac{l + 2 m}{e}}$
+        value: v = ${\frac{e + 10 y}{k}}$
       ans5:
         value: Don't Know
 ---

@@ -77,15 +77,15 @@ substitutions:
         units: rad/s
       part5:
         units: J
-    m_p: 1.61
-    r_p: 0.13
-    m: 2.23
-    r: 0.44
-    x: 6
+    m_p: 1.7
+    r_p: 0.49
+    m: 2.17
+    r: 0.38
+    x: 3
 ---
 # {{ params.vars.title }}
 A cylindrical dinner plate is spinning out in space. It has mass $m_p =$ {{params.m_p}} $kg$, radius $r =$ {{ params.r_p }} $m$ and it rotates clockwise (as seen from above) {{ params.x }} times every second.
-A (non-rotating) cylindrical cake is shot at it, in the manner shown, and it sticks to the surface of the plate.
+A (non-rotating) cylindrical cake is shot at it and the cake sticks to the surface of the plate.
 The cake has a mass $m =$ {{ params.m }} $kg$ and radius $r =$ {{ params.r }} $m$.
 In the end, both the cake and the plate rotate together.
 
