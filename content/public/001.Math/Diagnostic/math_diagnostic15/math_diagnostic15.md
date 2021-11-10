@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $6^{5} $=$ 7776$
+    expr: $9^{2} $=$ 81$
     part1:
       ans1:
-        value: $log_67776 = 5$
+        value: $log_981 = 2$
       ans2:
-        value: $log_65 = 7776$
+        value: $log_92 = 81$
       ans3:
-        value: $log_77765 = 6$
+        value: $log_812 = 9$
       ans4:
-        value: $log_57776 = 6$
+        value: $log_281 = 9$
       ans5:
         value: Don't Know
 ---

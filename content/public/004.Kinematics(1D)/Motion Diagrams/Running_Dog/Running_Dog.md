@@ -37,13 +37,12 @@ substitutions:
     choice: Untrue
     part1:
       ans1:
+        value: The dog is moving at the same speed at time $t=8$ $s$ and $t=10$ $s$
+      ans2:
+        value: The dog is slowing down at $t=7$ $s$
+      ans3:
         value: The dog has a velocity of $1$ $m/s$ between time $t=6$ $s$ and $t=10$
           $s$
-      ans2:
-        value: The dog is moving at the same speed at time $t=8$ $s$ and $t=10$ $s$
-      ans3:
-        value: The dog has an average velocity of $0$ $m/s$ between time $t=0$ $s$
-          and $t=8$ $s$
       ans4:
         value: The dog is speeding up at time $t=7$ $s$
 ---

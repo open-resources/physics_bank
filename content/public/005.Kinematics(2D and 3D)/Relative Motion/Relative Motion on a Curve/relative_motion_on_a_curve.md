@@ -44,11 +44,11 @@ substitutions:
   params:
     vars:
       title: Relative Motion on a Curve
-    v: 44
-    r: 54
-    d: 12
-    a: 1.7
-    theta: 33
+    v: 50
+    r: 50
+    d: 23
+    a: 1.2
+    theta: 45
 ---
 # {{ params.vars.title }}
 <img src="L11Q4.png" width=85%>

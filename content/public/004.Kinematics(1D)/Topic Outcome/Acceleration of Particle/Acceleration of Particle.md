@@ -62,10 +62,10 @@ substitutions:
       title: Acceleration of a Particle
       unit1: $s$
       unit2: $m/s^2$
-    c1: 9
-    c2_abs: 5
+    c1: 4
+    c2_abs: 6
     c2_sign: ' - '
-    c3_abs: 2
+    c3_abs: 11
     c3_sign: ' - '
 ---
 # {{ params.vars.title }}

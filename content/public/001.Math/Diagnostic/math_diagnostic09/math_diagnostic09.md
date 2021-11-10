@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $e$ = $\dfrac{(k)}{(v - 10y)} $
+    expr: $f$ = $\dfrac{(u)}{(p - 9q)} $
     part1:
       ans1:
-        value: v = ${ 10 y + \frac{k}{e}}$
+        value: p = ${ 9 q + \frac{u}{f}}$
       ans2:
-        value: v = ${- \frac{10 e y}{k}}$
+        value: p = ${- \frac{9 f q}{u}}$
       ans3:
-        value: v = ${- \frac{k}{10 e y}}$
+        value: p = ${- \frac{u}{9 f q}}$
       ans4:
-        value: v = ${\frac{e + 10 y}{k}}$
+        value: p = ${\frac{f + 9 q}{u}}$
       ans5:
         value: Don't Know
 ---
