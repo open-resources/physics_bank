@@ -31,24 +31,24 @@ substitutions:
   params:
     vars:
       title: Momentum and Inertia
-      vehicle: pickup truck
+      vehicle: bus
     part1:
       ans1:
-        value: The bee has greater momentum and greater inertia.
+        value: The bee has greater momentum, and also greater inertia.
       ans2:
-        value: The pickup truck has greater momentum while the bee has greater inertia.
+        value: The bus has greater momentum, while the bee has greater inertia.
       ans3:
-        value: The pickup truck has greater momentum and greater inertia.
+        value: The bus has greater momentum, and also  greater inertia.
       ans4:
-        value: The bee has greater momentum while the pickup truck has greater inertia.
+        value: The bee has greater momentum, while the bus has greater inertia.
       ans5:
-        value: It cannot be determined from this information.
+        value: It can’t be determined from this information.
 ---
 # {{ params.vars.title }}
 
 ## Part 1
 
-Which has greater momentum: A flying bumblebee or a stationary {{ params.vars.vehicle }}? Which has greater inertia?
+Which has greater momentum: A flying bumblebee? Or a stationary {{ params.vars.vehicle }}? Which has greater inertia?
 
 ### Answer Section
 

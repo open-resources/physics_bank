@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 4x - 2y = 11
-    formula2: 1x + 9y = 43
+    formula1: 1x - 4y = 33
+    formula2: 8x + 5y = 37
     part1:
       ans1:
-        value: ' x =185/38, y =161/38'
+        value: ' x =313/37, y =-227/37'
       ans2:
-        value: ' x =161/38, y =185/38'
+        value: ' x =-227/37, y =313/37'
       ans3:
-        value: ' x =-185/38, y =-161/38'
+        value: ' x =-313/37, y =227/37'
       ans4:
-        value: ' x =-161/38, y =-185/38'
+        value: ' x =227/37, y =-313/37'
       ans5:
         value: Don't Know
 ---

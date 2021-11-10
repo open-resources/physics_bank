@@ -49,7 +49,7 @@ substitutions:
 
 ## Part 1
 
-Which of the following statements is/are true?
+Which of the following statements is true?
 
 ### Answer Section
 

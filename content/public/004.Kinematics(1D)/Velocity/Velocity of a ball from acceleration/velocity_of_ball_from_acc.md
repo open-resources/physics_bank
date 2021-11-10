@@ -35,9 +35,9 @@ substitutions:
     vars:
       title: Velocity of a ball from acceleration
       units: m/s
-    v0: 19
-    s0: 7
-    k: 0.02
+    v0: 22
+    s0: 8
+    k: 0.01
     s: 11
 ---
 # {{ params.vars.title }}

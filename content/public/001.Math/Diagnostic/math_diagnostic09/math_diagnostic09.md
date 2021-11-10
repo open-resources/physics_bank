@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $f$ = $\dfrac{(u)}{(p - 9q)} $
+    expr: $i$ = $\dfrac{(z)}{(n + 4p)} $
     part1:
       ans1:
-        value: p = ${ 9 q + \frac{u}{f}}$
+        value: n = ${ - 4 p + \frac{z}{i}}$
       ans2:
-        value: p = ${- \frac{9 f q}{u}}$
+        value: n = ${\frac{4 i p}{z}}$
       ans3:
-        value: p = ${- \frac{u}{9 f q}}$
+        value: n = ${\frac{z}{4 i p}}$
       ans4:
-        value: p = ${\frac{f + 9 q}{u}}$
+        value: n = ${\frac{i - 4 p}{z}}$
       ans5:
         value: Don't Know
 ---

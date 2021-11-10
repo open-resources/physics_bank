@@ -31,7 +31,7 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 6x + 6 > 5x + 8
+      formula: -8x + 6 > -10x + 10
     part1:
       ans1:
         value: x > 2

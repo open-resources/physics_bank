@@ -30,17 +30,17 @@ substitutions:
   params:
     vars:
       title: Math Practice Q22
-    denom: 6
-    formula: $\sin{\left(\frac{x}{6} \right)}$
+    denom: 7
+    formula: $\cos{\left(\frac{x}{7} \right)}$
     part1:
       ans1:
-        value: ${- 6 \cos{\left(\frac{x}{6} \right)}}$
+        value: ${7 \sin{\left(\frac{x}{7} \right)}}$
       ans2:
-        value: ${6 \cos{\left(\frac{x}{6} \right)}}$
+        value: ${- 7 \sin{\left(\frac{x}{7} \right)}}$
       ans3:
-        value: ${- 12 \cos{\left(\frac{x}{6} \right)}}$
+        value: ${14 \sin{\left(\frac{x}{7} \right)}}$
       ans4:
-        value: ${- 3 \cos{\left(\frac{x}{6} \right)}}$
+        value: ${\frac{7 \sin{\left(\frac{x}{7} \right)}}{2}}$
 ---
 # {{ params.vars.title }}
 

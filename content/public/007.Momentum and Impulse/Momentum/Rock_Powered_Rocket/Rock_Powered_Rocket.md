@@ -55,10 +55,10 @@ substitutions:
       units1: m/s
       units2: kg
       name: Mateo
-    i: 325
-    m: 29
-    v_1: 24
-    v_2: 36
+    i: 355
+    m: 32
+    v_1: 13
+    v_2: 22
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.

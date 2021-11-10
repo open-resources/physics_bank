@@ -33,23 +33,25 @@ substitutions:
     part1:
       ans1:
         value: Increase the time of impact, increasing the average acceleration of
-          the person they are protecting
+          the person they are protecting.
       ans2:
         value: Increase the time of impact, decreasing the average acceleration of
-          the person they are protecting
+          the person they are protecting.
       ans3:
-        value: Increase the time of impact, decreasing the impulse on the person
+        value: Increase the time of impact, decreasing the impulse on the person they
+          are protecting.
       ans4:
-        value: Increase the time of impact, increasing the impulse on the person
+        value: Increase the time of impact, increasing the impulse on the person they
+          are protecting.
       ans5:
-        value: Explode to give you more oxygen to breathe
+        value: Explode to give you more oxygen to breathe.
 ---
 # {{ params.vars.title }}
-Modern cars are outfitted with air bags that quickly inflate with air if the car experiences too large an acceleration.
+Modern cars are outfitted with air bags that quickly inflate with air if the car experiences too large of an acceleration.
 
 ## Part 1
 
-Air bags work because in the event of an accident, they (select a statement):
+Air bags work because, in the event of an accident, they (choose the best option):
 
 ### Answer Section
 

@@ -39,10 +39,10 @@ substitutions:
     vars:
       title: Falling Bucket
       units: m/s
-    m_b: 17.0
-    m_c: 5.8
-    h: 46.9
-    r: 63.0
+    m_b: 14.9
+    m_c: 3.8
+    h: 14.6
+    r: 81.5
 ---
 # {{ params.vars.title }}
 A bucket of mass $m_b$ = {{ params.m_b }} $kg$ is knocked off the side of a well.
