@@ -56,7 +56,7 @@ substitutions:
   params:
     vars:
       title: Conductor Surface Charge
-    Q: '-8.0'
+    Q: '-7.4'
     q: '4.3'
 ---
 # {{ params.vars.title }}

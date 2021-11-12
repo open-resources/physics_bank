@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 1
+    a: 3
     b: 1
-    formula: $x \sin{\left(x \right)}$
+    formula: $x^{3} \sin{\left(x \right)}$
     part1:
       ans1:
-        value: $x \cos{\left(x \right)} + \sin{\left(x \right)}$
+        value: $x^{3} \cos{\left(x \right)} + 3 x^{2} \sin{\left(x \right)}$
       ans2:
-        value: $x \cos{\left(x \right)} $
+        value: $x^{3} \cos{\left(x \right)} $
       ans3:
-        value: $ \cos{\left(x \right)}$
+        value: $ 3 x^{2} \cos{\left(x \right)}$
       ans4:
-        value: $- x \sin{\left(x \right)} + \cos{\left(x \right)}$
+        value: $- x^{3} \sin{\left(x \right)} + 3 x^{2} \cos{\left(x \right)}$
       ans5:
         value: Don't Know
 ---

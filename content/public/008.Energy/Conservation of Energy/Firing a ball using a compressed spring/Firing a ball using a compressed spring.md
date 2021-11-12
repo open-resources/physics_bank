@@ -30,27 +30,27 @@ substitutions:
   params:
     vars:
       title: Firing a Ball using a Compressed Spring
-    choice: quartered
+    choice: halved (0.5x)
     part1:
       ans1:
-        value: The ball will reach one quarter of the previous height.
+        value: The ball will reach half (0.5x) of the height previously reached.
       ans2:
-        value: The ball will reach four times the height previously reached.
+        value: The ball will reach one quarter (0.25x) of the height previously reached.
       ans3:
-        value: The ball will reach half the height previously reached.
+        value: The ball will reach four times (4x) the height as before.
       ans4:
-        value: The ball will reach the same height as before.
+        value: The ball will reach the same (1x) height as before.
       ans5:
-        value: The ball will reach twice the height as before.
+        value: The ball will reach twice (2x) the height as before.
       ans6:
-        value: The ball will reach thrice the height as before.
+        value: The ball will reach thrice (3x) the height as before.
 ---
 # {{ params.vars.title }}
 A compressed spring fires a ball of mass $m$ directly upwards.
 
 ## Part 1
 
-If the mass of the  ball  and  the  initial  compression  of  the  spring  are  both  {{ params.choice }}, (neglect  air resistance) then,
+If the mass of the ball and the initial compression of the spring are both {{ params.choice }}, (neglect air resistance) then,
 
 ### Answer Section
 

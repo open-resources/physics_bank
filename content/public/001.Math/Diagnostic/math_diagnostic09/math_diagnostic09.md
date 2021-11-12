@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $t$ = $\dfrac{(b)}{(z + 3i)} $
+    expr: $j$ = $\dfrac{(c)}{(p + 8y)} $
     part1:
       ans1:
-        value: z = ${ \frac{b}{t} - 3 i}$
+        value: p = ${ \frac{c}{j} - 8 y}$
       ans2:
-        value: z = ${\frac{3 i t}{b}}$
+        value: p = ${\frac{8 j y}{c}}$
       ans3:
-        value: z = ${\frac{b}{3 i t}}$
+        value: p = ${\frac{c}{8 j y}}$
       ans4:
-        value: z = ${\frac{- 3 i + t}{b}}$
+        value: p = ${\frac{j - 8 y}{c}}$
       ans5:
         value: Don't Know
 ---
