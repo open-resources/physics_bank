@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $t$ = $\dfrac{(u)}{(y - 5b)} $
+    expr: $z$ = $\dfrac{(k)}{(f - 5o)} $
     part1:
       ans1:
-        value: y = ${ 5 b + \frac{u}{t}}$
+        value: f = ${ \frac{k}{z} + 5 o}$
       ans2:
-        value: y = ${- \frac{5 b t}{u}}$
+        value: f = ${- \frac{5 o z}{k}}$
       ans3:
-        value: y = ${- \frac{u}{5 b t}}$
+        value: f = ${- \frac{k}{5 o z}}$
       ans4:
-        value: y = ${\frac{5 b + t}{u}}$
+        value: f = ${\frac{5 o + z}{k}}$
       ans5:
         value: Don't Know
 ---

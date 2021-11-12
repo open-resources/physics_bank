@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{63x - 36y }{ -9 }$
+    expr: $\dfrac{35x + 21y }{ 7 }$
     part1:
       ans1:
-        value: $- 7 x + 4 y$
+        value: $5 x + 3 y$
       ans2:
-        value: $\dfrac{-7x + 4y}{-9}$
+        value: $\dfrac{5x + 3y}{7}$
       ans3:
-        value: $4x - 7y$
+        value: $3x + 5y$
       ans4:
-        value: $63x + 36y$
+        value: $35x + 21y$
       ans5:
         value: Don't know.
 ---

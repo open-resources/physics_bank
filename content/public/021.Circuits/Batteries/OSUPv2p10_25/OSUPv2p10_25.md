@@ -55,8 +55,8 @@ substitutions:
   params:
     vars:
       title: Automobile Battery Properties
-    V: '12.0'
-    V_t: '15.0'
+    V: '11.5'
+    V_t: '16.5'
     I: '10.25'
 ---
 # {{ params.vars.title }}

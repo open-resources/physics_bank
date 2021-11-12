@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 9x + -10 > -9x + -6
+      formula: 6x + -3 > 3x + -1
     part1:
       ans1:
-        value: x > 2/9
+        value: x > 2/3
       ans2:
-        value: x < 2/9
+        value: x < 2/3
       ans3:
-        value: x < 9/2
+        value: x < 3/2
       ans4:
-        value: x > 9/2
+        value: x > 3/2
       ans5:
         value: Don't Know
 ---
