@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $4^{5} $=$ 1024$
+    expr: $2^{8} $=$ 256$
     part1:
       ans1:
-        value: $log_41024 = 5$
+        value: $log_2256 = 8$
       ans2:
-        value: $log_45 = 1024$
+        value: $log_28 = 256$
       ans3:
-        value: $log_10245 = 4$
+        value: $log_2568 = 2$
       ans4:
-        value: $log_51024 = 4$
+        value: $log_8256 = 2$
       ans5:
         value: Don't Know
 ---

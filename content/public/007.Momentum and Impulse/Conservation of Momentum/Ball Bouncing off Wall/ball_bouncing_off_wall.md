@@ -46,10 +46,10 @@ substitutions:
       title: Ball Bouncing off a Wall
       units1: $\frac{kg*m}{s}$
       units2: $N$
-    m: 10
-    v: 1
-    theta: 53
-    t: 0.145
+    m: 1
+    v: 15
+    theta: 61
+    t: 0.746
 ---
 # {{ params.vars.title }}
 A {{params.m}} kg steel bass strikes a massive wall at {{params.v}} m/s at an angle of {{params.theta}} with the plane of the wall. It bounces off of the wall with the same speed and angle (see the figure).
@@ -66,7 +66,7 @@ Please enter in a numeric value in {{ params.vars.units1 }}.
 
 ## Part 2
 
-If the ball is in contact with the wall for 0.200 s, what is the average force that the wall exerts on the ball during the collision?
+If the ball is in contact with the wall for {{ params.t }} s, what is the average force that the wall exerts on the ball during the collision?
 
 ### Answer Section
 

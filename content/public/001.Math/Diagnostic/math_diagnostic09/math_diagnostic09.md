@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $z$ = $\dfrac{(k)}{(f - 5o)} $
+    expr: $t$ = $\dfrac{(b)}{(z + 3i)} $
     part1:
       ans1:
-        value: f = ${ \frac{k}{z} + 5 o}$
+        value: z = ${ \frac{b}{t} - 3 i}$
       ans2:
-        value: f = ${- \frac{5 o z}{k}}$
+        value: z = ${\frac{3 i t}{b}}$
       ans3:
-        value: f = ${- \frac{k}{5 o z}}$
+        value: z = ${\frac{b}{3 i t}}$
       ans4:
-        value: f = ${\frac{5 o + z}{k}}$
+        value: z = ${\frac{- 3 i + t}{b}}$
       ans5:
         value: Don't Know
 ---

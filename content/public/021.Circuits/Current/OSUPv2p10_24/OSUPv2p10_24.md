@@ -67,9 +67,9 @@ substitutions:
   params:
     vars:
       title: Electrocution Safety
-    R_b: '10.50'
-    R_s: '2400'
-    V_s: '19.0'
+    R_b: '10.25'
+    R_s: '2150'
+    V_s: '20.0'
     I_max: '0.7'
 ---
 # {{ params.vars.title }}

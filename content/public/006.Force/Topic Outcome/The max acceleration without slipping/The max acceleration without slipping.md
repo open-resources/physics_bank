@@ -40,8 +40,8 @@ substitutions:
       vehicle: car
       title: A Crate's Maximum Acceleration without Slipping
       units: $m/s^2$
-    mu_s: 0.57
-    mu_k: 0.4
+    mu_s: 0.86
+    mu_k: 0.5
     theta: 19
 ---
 # {{ params.vars.title }}

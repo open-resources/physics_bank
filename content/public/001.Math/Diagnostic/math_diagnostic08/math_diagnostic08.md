@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{35x + 21y }{ 7 }$
+    expr: $\dfrac{-25x - 15y }{ -5 }$
     part1:
       ans1:
         value: $5 x + 3 y$
       ans2:
-        value: $\dfrac{5x + 3y}{7}$
+        value: $\dfrac{5x + 3y}{-5}$
       ans3:
         value: $3x + 5y$
       ans4:
-        value: $35x + 21y$
+        value: $-25x + 15y$
       ans5:
         value: Don't know.
 ---
