@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $p$ = $\dfrac{(l)}{(f - 4y)} $
+    expr: $a$ = $\dfrac{(m)}{(p - 4c)} $
     part1:
       ans1:
-        value: f = ${ \frac{l}{p} + 4 y}$
+        value: p = ${ 4 c + \frac{m}{a}}$
       ans2:
-        value: f = ${- \frac{4 p y}{l}}$
+        value: p = ${- \frac{4 a c}{m}}$
       ans3:
-        value: f = ${- \frac{l}{4 p y}}$
+        value: p = ${- \frac{m}{4 a c}}$
       ans4:
-        value: f = ${\frac{p + 4 y}{l}}$
+        value: p = ${\frac{a + 4 c}{m}}$
       ans5:
         value: Don't Know
 ---

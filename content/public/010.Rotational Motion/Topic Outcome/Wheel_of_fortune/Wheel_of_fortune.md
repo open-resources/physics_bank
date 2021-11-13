@@ -31,19 +31,19 @@ substitutions:
   params:
     vars:
       units: rad/s
-      name: Ahmed
+      name: Santiago
       title: Wheel of Fortune
-    w_i: ${\pi \over 2} {rad\over s}$
-    t: 6
+    w_i: ${\pi \over 3} {rad\over s}$
+    t: 5
     part1:
       ans1:
-        value: 2.47
+        value: 1.98
       ans2:
-        value: 1.57
+        value: 1.41
       ans3:
-        value: 3.14
+        value: 2.81
       ans4:
-        value: $\pi$/2
+        value: $\pi$/3
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} wants to win a game of Wheel-of-Fortune.

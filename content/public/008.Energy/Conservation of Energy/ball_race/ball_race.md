@@ -27,22 +27,28 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    fixed-order: true
 substitutions:
   params:
     vars:
       title: Ball Race
     part1:
       ans1:
-        value: B
+        value: It depends on the horizontal location of the U-shaped dip.It is not
+          possible to predict this with 100% certainty.
       ans2:
-        value: More information is needed.
+        value: It depends on the height of the dip.
       ans3:
         value: They reach the end of the track at the same time.
       ans4:
-        value: A
+        value: Ball B will reach the end of the track first.
+      ans5:
+        value: Ball A will reach the end of the track first.
 ---
 # {{ params.vars.title }}
-Balls A and B are launched with the same initial velocity along a pair of tracks as shown in the figure.
+Two identical balls, Ball A and Ball B are launched with the same initial velocity $v$ along a pair of tracks.
+The first track with Ball A, is a straight track.
+The second track with Ball B, has a "U"-shaped dip in the middle so the ball goes down and then back up.
 
 <img src="q3_2012Final.png" alt="Ball A is launched along a horizontal track while Ball B is launched along a u-shaped track.">
 
