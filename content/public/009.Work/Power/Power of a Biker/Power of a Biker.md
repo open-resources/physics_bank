@@ -29,21 +29,21 @@ part1:
     weight: 1
     allow-blank: true
     label: $P= $
-    suffix: $hp$
+    suffix: $W$
 substitutions:
   params:
     vars:
       title: Power of a Biker
-      units: $hp$
-    v: 11
-    W: 221
-    grd: 6
+      units: $W$
+    v_kph: 13
+    mass_kg: 85
+    grade_percent: 0.1
 ---
 # {{ params.vars.title }}
 <img src="Power of a Biker.png" width=400>
 
-A biker and bicycle together weigh {{ params.W }} $lb$.
-What power does the biker output when riding up a {{ params.grd }}% grade at a speed of {{ params.v }} $mi/hr$?
+A biker and bicycle together weigh {{ params.mass_kg }} $kg$.
+What power does the biker output when riding up a {{ params.grade }}% grade at a speed of {{ params.v_kph }} $km/hr$?
 
 ## Part 1
 

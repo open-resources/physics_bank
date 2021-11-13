@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $4^{2} $=$ 16$
+    expr: $3^{9} $=$ 19683$
     part1:
       ans1:
-        value: $log_416 = 2$
+        value: $log_319683 = 9$
       ans2:
-        value: $log_42 = 16$
+        value: $log_39 = 19683$
       ans3:
-        value: $log_162 = 4$
+        value: $log_196839 = 3$
       ans4:
-        value: $log_216 = 4$
+        value: $log_919683 = 3$
       ans5:
         value: Don't Know
 ---

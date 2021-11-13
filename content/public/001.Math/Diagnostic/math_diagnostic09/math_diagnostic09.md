@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $j$ = $\dfrac{(c)}{(p + 8y)} $
+    expr: $j$ = $\dfrac{(z)}{(g - 3s)} $
     part1:
       ans1:
-        value: p = ${ \frac{c}{j} - 8 y}$
+        value: g = ${ 3 s + \frac{z}{j}}$
       ans2:
-        value: p = ${\frac{8 j y}{c}}$
+        value: g = ${- \frac{3 j s}{z}}$
       ans3:
-        value: p = ${\frac{c}{8 j y}}$
+        value: g = ${- \frac{z}{3 j s}}$
       ans4:
-        value: p = ${\frac{j - 8 y}{c}}$
+        value: g = ${\frac{j + 3 s}{z}}$
       ans5:
         value: Don't Know
 ---

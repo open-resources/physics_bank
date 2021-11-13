@@ -1,16 +1,18 @@
 ---
-title: Angular Acceleration
-topic: Rotational Motion
-author: John Hopkinson
-source: PHYS 112 2015 W1 Final Q9
-template_version: 1.2
+title: Ball Race
+topic: Energy
+author: Jake Bobowski
+source: 2012 Final Q3
+template_version: 1.3
 attribution: standard
+partialCredit: true
+singleVariant: false
 outcomes:
-- 5.7.2.1
+- 7.5.1.2
 difficulty:
 - easy
 randomization:
-- 2
+- 0
 taxonomy:
 - undefined
 span:
@@ -18,8 +20,9 @@ span:
 length:
 - short
 tags:
-- EW
-assets: null
+- PW
+assets:
+- q32012Final.png
 part1:
   type: multiple-choice
   pl-customizations:
@@ -27,27 +30,25 @@ part1:
 substitutions:
   params:
     vars:
-      title: Angular Acceleration
-    v_1: 2
-    v_2: 16
-    t: 5
+      title: Ball Race
     part1:
       ans1:
-        value: 2.8 $rad/s^2$
+        value: A
       ans2:
-        value: 2.8 $m/s^2$
+        value: B
       ans3:
-        value: -2.8 $rad/s^2$
+        value: More information is needed.
       ans4:
-        value: -2.8 $m/s^2$
-      ans5:
-        value: 10 $rad/s^2$
+        value: They reach the end of the track at the same time.
 ---
 # {{ params.vars.title }}
+Balls A and B are launched with the same initial velocity along a pair of tracks as shown in the figure.
+
+<img src=q3_2012Final.png alt="Ball A is launched along a horizontal track while Ball B is launched along a u-shaped track.">
 
 ## Part 1
 
-A 1 $m$ radius solid object that increases in angular velocity from $\omega\_{1z}$ = {{ params.v_1 }} $rad/s$ to $\omega\_{2z}$ = {{ params.v_2 }} $rad/s$ in a {{ params.t }} second interval has a average angular velocity of:
+Which ball reaches the end of the track first, if friction is neglected?
 
 ### Answer Section
 
@@ -55,7 +56,6 @@ A 1 $m$ radius solid object that increases in angular velocity from $\omega\_{1z
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
 
 ## Attribution
 

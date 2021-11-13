@@ -45,7 +45,7 @@ substitutions:
     r: '2'
     v: '3'
     B: '2.00'
-    a: '10'
+    a: '4'
     part2:
       ans1:
         value: Clockwise

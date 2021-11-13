@@ -37,13 +37,13 @@ substitutions:
       ans1:
         value: Density
       ans2:
-        value: Power
+        value: Speed
       ans3:
-        value: Length
+        value: Energy
       ans4:
         value: Work
       ans5:
-        value: velocity
+        value: The average acceleration
       ans6:
         value: The position in 3 dimensions
 ---
