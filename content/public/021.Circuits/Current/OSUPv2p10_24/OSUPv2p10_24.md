@@ -68,7 +68,7 @@ substitutions:
     vars:
       title: Electrocution Safety
     R_b: '12.00'
-    R_s: '2450'
+    R_s: '2400'
     V_s: '22.0'
     I_max: '0.5'
 ---

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $v$ = $\dfrac{(b)}{(z + 2u)} $
+    expr: $p$ = $\dfrac{(l)}{(f - 4y)} $
     part1:
       ans1:
-        value: z = ${ \frac{b}{v} - 2 u}$
+        value: f = ${ \frac{l}{p} + 4 y}$
       ans2:
-        value: z = ${\frac{2 u v}{b}}$
+        value: f = ${- \frac{4 p y}{l}}$
       ans3:
-        value: z = ${\frac{b}{2 u v}}$
+        value: f = ${- \frac{l}{4 p y}}$
       ans4:
-        value: z = ${\frac{- 2 u + v}{b}}$
+        value: f = ${\frac{p + 4 y}{l}}$
       ans5:
         value: Don't Know
 ---

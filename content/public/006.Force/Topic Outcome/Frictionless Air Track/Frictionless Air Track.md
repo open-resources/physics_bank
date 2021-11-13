@@ -57,23 +57,23 @@ substitutions:
   params:
     vars:
       title: A Frictionless Air Track?
-      name: Ximena
+      name: Santiago
       units: $m/s^2$
-    m1: 346.2
-    m2: 28.77
-    d_a: 0.01
-    mean: 1.57
-    sd: 0.143
-    a1: 1.64
-    a2: 1.73
-    a3: 1.51
-    a4: 1.35
-    a5: 1.62
-    a6: 1.79
-    a7: 1.45
-    a8: 1.53
-    a9: 1.36
-    a10: 1.68
+    m1: 344.1
+    m2: 74.39
+    d_a: 0.02
+    mean: 1.53
+    sd: 0.147
+    a1: 1.4
+    a2: 1.36
+    a3: 1.62
+    a4: 1.77
+    a5: 1.45
+    a6: 1.62
+    a7: 1.73
+    a8: 1.31
+    a9: 1.51
+    a10: 1.53
     part4:
       ans1:
         value: The track is frictionless because $a_{expected}$ does not agree with
