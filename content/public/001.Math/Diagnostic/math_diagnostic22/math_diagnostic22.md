@@ -30,17 +30,17 @@ substitutions:
   params:
     vars:
       title: Math Practice Q22
-    denom: 3
-    formula: $\cos{\left(\frac{x}{3} \right)}$
+    denom: 6
+    formula: $\cos{\left(\frac{x}{6} \right)}$
     part1:
       ans1:
-        value: ${3 \sin{\left(\frac{x}{3} \right)}}$
+        value: ${6 \sin{\left(\frac{x}{6} \right)}}$
       ans2:
-        value: ${- 3 \sin{\left(\frac{x}{3} \right)}}$
+        value: ${- 6 \sin{\left(\frac{x}{6} \right)}}$
       ans3:
-        value: ${6 \sin{\left(\frac{x}{3} \right)}}$
+        value: ${12 \sin{\left(\frac{x}{6} \right)}}$
       ans4:
-        value: ${\frac{3 \sin{\left(\frac{x}{3} \right)}}{2}}$
+        value: ${3 \sin{\left(\frac{x}{6} \right)}}$
 ---
 # {{ params.vars.title }}
 

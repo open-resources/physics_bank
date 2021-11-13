@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #12'
-    expr: $4\over 4- x$ > $ 8$
+    expr: $2\over 2- x$ > $ 4$
     part1:
       ans1:
-        value: (7/2 < x) & (x < 4)
+        value: (3/2 < x) & (x < 2)
       ans2:
-        value: (7/2 > x) & (x > 4)
+        value: (3/2 > x) & (x > 2)
       ans3:
-        value: x > 4/8
+        value: x > 2/4
       ans4:
-        value: (30 < x) & (x < 32)
+        value: (6 < x) & (x < 8)
       ans5:
         value: Do not know
 ---

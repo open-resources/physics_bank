@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $3^{9} $=$ 19683$
+    expr: $8^{5} $=$ 32768$
     part1:
       ans1:
-        value: $log_319683 = 9$
+        value: $log_832768 = 5$
       ans2:
-        value: $log_39 = 19683$
+        value: $log_85 = 32768$
       ans3:
-        value: $log_196839 = 3$
+        value: $log_327685 = 8$
       ans4:
-        value: $log_919683 = 3$
+        value: $log_532768 = 8$
       ans5:
         value: Don't Know
 ---

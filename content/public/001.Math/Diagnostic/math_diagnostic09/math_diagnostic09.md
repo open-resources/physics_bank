@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $j$ = $\dfrac{(z)}{(g - 3s)} $
+    expr: $v$ = $\dfrac{(b)}{(z + 2u)} $
     part1:
       ans1:
-        value: g = ${ 3 s + \frac{z}{j}}$
+        value: z = ${ \frac{b}{v} - 2 u}$
       ans2:
-        value: g = ${- \frac{3 j s}{z}}$
+        value: z = ${\frac{2 u v}{b}}$
       ans3:
-        value: g = ${- \frac{z}{3 j s}}$
+        value: z = ${\frac{b}{2 u v}}$
       ans4:
-        value: g = ${\frac{j + 3 s}{z}}$
+        value: z = ${\frac{- 2 u + v}{b}}$
       ans5:
         value: Don't Know
 ---

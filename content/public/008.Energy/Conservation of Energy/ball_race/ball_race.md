@@ -22,7 +22,7 @@ length:
 tags:
 - PW
 assets:
-- q32012Final.png
+- q3_2012Final.png
 part1:
   type: multiple-choice
   pl-customizations:
@@ -33,18 +33,18 @@ substitutions:
       title: Ball Race
     part1:
       ans1:
-        value: A
+        value: They reach the end of the track at the same time.
       ans2:
         value: B
       ans3:
         value: More information is needed.
       ans4:
-        value: They reach the end of the track at the same time.
+        value: A
 ---
 # {{ params.vars.title }}
 Balls A and B are launched with the same initial velocity along a pair of tracks as shown in the figure.
 
-<img src=q3_2012Final.png alt="Ball A is launched along a horizontal track while Ball B is launched along a u-shaped track.">
+<img src="q3_2012Final.png" alt="Ball A is launched along a horizontal track while Ball B is launched along a u-shaped track.">
 
 ## Part 1
 

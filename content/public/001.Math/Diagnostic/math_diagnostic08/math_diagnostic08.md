@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{63x - 63y }{ 7 }$
+    expr: $\dfrac{-36x - 24y }{ -4 }$
     part1:
       ans1:
-        value: $9 x - 9 y$
+        value: $9 x + 6 y$
       ans2:
-        value: $\dfrac{9x - 9y}{7}$
+        value: $\dfrac{9x + 6y}{-4}$
       ans3:
-        value: $-9x + 9y$
+        value: $6x + 9y$
       ans4:
-        value: $63x - 63y$
+        value: $-36x + 24y$
       ans5:
         value: Don't know.
 ---
