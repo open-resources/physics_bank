@@ -37,10 +37,10 @@ substitutions:
     choice: Untrue
     part1:
       ans1:
-        value: The dog is moving at the same speed at time $t=8$ $s$ and $t=10$ $s$
-      ans2:
         value: The dog has a velocity of $1$ $m/s$ between time $t=6$ $s$ and $t=10$
           $s$
+      ans2:
+        value: The dog is slowing down at $t=7$ $s$
       ans3:
         value: The dog is not moving between $t=6$ $s$ and $t=10$ $s$
       ans4:

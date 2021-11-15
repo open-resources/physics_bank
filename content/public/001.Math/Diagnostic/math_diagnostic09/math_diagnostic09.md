@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $a$ = $\dfrac{(m)}{(p - 4c)} $
+    expr: $b$ = $\dfrac{(f)}{(i - 6e)} $
     part1:
       ans1:
-        value: p = ${ 4 c + \frac{m}{a}}$
+        value: i = ${ 6 e + \frac{f}{b}}$
       ans2:
-        value: p = ${- \frac{4 a c}{m}}$
+        value: i = ${- \frac{6 b e}{f}}$
       ans3:
-        value: p = ${- \frac{m}{4 a c}}$
+        value: i = ${- \frac{f}{6 b e}}$
       ans4:
-        value: p = ${\frac{a + 4 c}{m}}$
+        value: i = ${\frac{b + 6 e}{f}}$
       ans5:
         value: Don't Know
 ---

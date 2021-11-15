@@ -47,7 +47,7 @@ substitutions:
   params:
     vars:
       title: Electric Field Between Capacitor Plates
-    a: '5.6'
+    a: '5.0'
     b: '2.9'
 ---
 # {{ params.vars.title }}

@@ -43,9 +43,9 @@ substitutions:
     vars:
       title: Charge Model
       units: A
-    c1: 32
-    c2: 19
-    c3: 5
+    c1: 18
+    c2: 34
+    c3: 12
     t: 35
 ---
 # {{ params.vars.title }}

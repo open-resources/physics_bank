@@ -43,7 +43,7 @@ substitutions:
           highest point will be zero.
       ans4:
         value: If I throw an object into the air, the system composed of the object
-          and the earth is a CLOSED system.
+          and the earth is a closed system.
 ---
 # {{ params.vars.title }}
 

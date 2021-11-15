@@ -32,7 +32,7 @@ substitutions:
   params:
     vars:
       title: Turning Car
-      vehicle: van
+      vehicle: sedan
     part1:
       ans1:
         value: There is a force pushing everything to the right.
@@ -40,12 +40,12 @@ substitutions:
         value: Your head (and eyes) are not in an inertial reference frame, and so
           things are moving for no reason.
       ans3:
-        value: Your van is moving along a circular path, and a centripetal acceleration
+        value: Your sedan is moving along a circular path, and a centripetal acceleration
           is required. Without a force to push it towards the middle, objects(your
           shoulders, the soup cans) will NOT move in a circle along with the rest
-          of the van, and so will move relative to the van's interior.
+          of the sedan, and so will move relative to the sedan's interior.
       ans4:
-        value: Turning to the right forces your van to tilt, and all the cans and
+        value: Turning to the right forces your sedan to tilt, and all the cans and
           the shoulders shift down-hill.
 ---
 # {{ params.vars.title }}

@@ -32,10 +32,11 @@ substitutions:
   params:
     vars:
       title: System Open or Closed
-      vehicle: bus
+      vehicle_c: Truck
+      vehicle: truck
       units: kg
-    i_a: 140
-    i_b: 331
+    i_a: 58
+    i_b: 321
     part1:
       ans1:
         value: Yes, because the two carts are on a track with no friction.
@@ -47,9 +48,9 @@ substitutions:
         value: No, because the momentum is not conserved
 ---
 # {{ params.vars.title }}
-Two {{ params.vars.vehicle }}s collide on a track, {{ params.vars.vehicle }}  A comes up behind {{ params.vars.vehicle }}  B and runs into it.
-{{ params.vars.vehicle }} A has inertia {{ params.i_a }} {{ params.vars.units }}, {{ params.vars.vehicle }} B has inertia {{ params.i_b }} {{ params.vars.units }}.
-The following diagram shows the velocity of each {{ params.vars.vehicle }} as a function of time.
+Two {{ params.vars.vehicle }}s collide on a track. {{ params.vars.vehicle_c }}  A comes up behind {{ params.vars.vehicle }}  B and runs into it.
+{{ params.vars.vehicle_c }} A has mass of {{ params.i_a }} {{ params.vars.units }}, {{ params.vars.vehicle }} B has mass of {{ params.i_b }} {{ params.vars.units }}.
+The following graph shows the velocity of each {{ params.vars.vehicle }} as a function of time.
 
 <img alt="A velocity versus time graph where {{ params.vars.vehicle }} A has an initial velocity of 8 meters per second and {{ params.vars.vehicle }} B has an initial velocity of 1 meter per second. The two {{ params.vars.vehicle }}s collide at around 4 seconds. The velocity of {{ params.vars.vehicle }} A decreases to 2 meters per second and the velocity of {{ params.vars.vehicle }} B increases to 5 meters per second." src="open_closed.png" width=400>
 
