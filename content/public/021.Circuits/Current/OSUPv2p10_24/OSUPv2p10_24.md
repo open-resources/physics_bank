@@ -67,10 +67,10 @@ substitutions:
   params:
     vars:
       title: Electrocution Safety
-    R_b: '11.25'
-    R_s: '2500'
-    V_s: '20.0'
-    I_max: '0.6'
+    R_b: '10.00'
+    R_s: '2150'
+    V_s: '20.5'
+    I_max: '0.5'
 ---
 # {{ params.vars.title }}
 A person with body resistance between their hands of {{ params.R_b }} $\rm\ k \Omega$ accidentally grasps the terminals of a {{ params.V_s }} $\rm\ kV$ power supply.

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $b$ = $\dfrac{(f)}{(i - 6e)} $
+    expr: $a$ = $\dfrac{(j)}{(e - 5w)} $
     part1:
       ans1:
-        value: i = ${ 6 e + \frac{f}{b}}$
+        value: e = ${ 5 w + \frac{j}{a}}$
       ans2:
-        value: i = ${- \frac{6 b e}{f}}$
+        value: e = ${- \frac{5 a w}{j}}$
       ans3:
-        value: i = ${- \frac{f}{6 b e}}$
+        value: e = ${- \frac{j}{5 a w}}$
       ans4:
-        value: i = ${\frac{b + 6 e}{f}}$
+        value: e = ${\frac{a + 5 w}{j}}$
       ans5:
         value: Don't Know
 ---

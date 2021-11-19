@@ -48,11 +48,11 @@ substitutions:
     vars:
       title: Spring on Ramp
       units: m
-    m: 2
-    theta: 30
-    k: 300
+    m: 8
+    theta: 40
+    k: 250
     us: 0.6
-    uk: 0.39
+    uk: 0.37
 ---
 # {{ params.vars.title }}
 In the figure below m = {{ params.m }} kg, $\theta$ = {{ params.theta }}$^\circ$, and k = {{ params.k }} N/m.

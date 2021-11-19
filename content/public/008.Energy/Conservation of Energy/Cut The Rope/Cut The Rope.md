@@ -34,16 +34,32 @@ part1:
     rtol: 0.05
     weight: 1
     allow-blank: true
+    label: $v_{cut}= $
+    suffix: $m/s$
+part2:
+  type: number-input
+  pl-customizations:
+    rtol: 0.05
+    weight: 1
+    allow-blank: true
+    label: $t$
+    suffix: $s$
+part3:
+  type: number-input
+  pl-customizations:
+    rtol: 0.05
+    weight: 1
+    allow-blank: true
     label: $d= $
-    suffix: m
+    suffix: $m$
 substitutions:
   params:
     vars:
       title: Cut The Rope
       units: m
     l: 0.5
-    theta_0: 44
-    theta_c: 26
+    theta_0: 43
+    theta_c: 21
 ---
 # {{ params.vars.title }}
 In the mobile app "Cut the Rope", a mass (of candy) swings on a rope and the game player selects a point to cut the rope so it lands in a cute little monster's mouth.
@@ -56,13 +72,29 @@ The figure below shows the situation described above.
 
 <img src="q11_2012Final.png" alt="A mass is suspended from a fixed pivot point by a massless string of length L. It is displaced to the left at an angle theta naught from equilibrium.  After swinging through its lowest point, the rope is then cut on the right at an angle theta cut. The mass lands on a surface at the same height as the mass when the rope is cut at a distance d from where the mass was when rope was cut." width=400>
 
-## Question Text
+## Part 1
+
+Calculate the speed of the candy right before the string is cut.
+
+### Answer Section
+
+Please enter in a numeric value in $m/s$.
+
+## Part 2
+
+After the string is cut, how long does the candy travel for?
+
+### Answer Section
+
+Please enter in a numeric value in $s$.
+
+## Part 3
 
 After the string is cut, how far does the candy travel in the horizontal direction?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in $m$.
 
 ## Attribution
 

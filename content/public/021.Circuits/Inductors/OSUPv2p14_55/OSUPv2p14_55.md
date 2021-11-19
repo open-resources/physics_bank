@@ -47,7 +47,7 @@ substitutions:
   params:
     vars:
       title: Current over Time in a Series RL Circuit
-    fac: '3'
+    fac: '8'
 ---
 # {{ params.vars.title }}
 Consider the $RL$ circuit shown below.

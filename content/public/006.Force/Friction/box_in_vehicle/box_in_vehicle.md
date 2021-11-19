@@ -31,7 +31,7 @@ substitutions:
   params:
     vars:
       title: Box in a Vehicle
-      vehicle: pickup truck
+      vehicle: bus
       direction: negative
     part1:
       ans1:
