@@ -32,17 +32,17 @@ substitutions:
     vars:
       title: Diagnostic Q5
     expr: $\dfrac{x}{10}$
-    num2: 2
-    num3: 2
+    num2: 10
+    num3: 6
     part1:
       ans1:
-        value: 40
+        value: 600
       ans2:
-        value: 1/5
+        value: '1'
       ans3:
-        value: 20
+        value: 60
       ans4:
-        value: 2/5
+        value: '6'
       ans5:
         value: Don't Know
 ---

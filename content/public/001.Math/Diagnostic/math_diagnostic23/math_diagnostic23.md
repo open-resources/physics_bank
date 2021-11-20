@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 2
+    a: 3
     b: 6
-    formula: $x^{2} \sin{\left(6 x \right)}$
+    formula: $x^{3} \cos{\left(6 x \right)}$
     part1:
       ans1:
-        value: $6 x^{2} \cos{\left(6 x \right)} + 2 x \sin{\left(6 x \right)}$
+        value: $- 6 x^{3} \sin{\left(6 x \right)} + 3 x^{2} \cos{\left(6 x \right)}$
       ans2:
-        value: $6 x^{2} \cos{\left(6 x \right)} $
+        value: $- 6 x^{3} \sin{\left(6 x \right)} $
       ans3:
-        value: $ 2 x \cos{\left(6 x \right)}$
+        value: $ 3 x^{2} \sin{\left(6 x \right)}$
       ans4:
-        value: $- 6 x^{2} \sin{\left(6 x \right)} + 2 x \cos{\left(6 x \right)}$
+        value: $6 x^{3} \cos{\left(6 x \right)} + 3 x^{2} \sin{\left(6 x \right)}$
       ans5:
         value: Don't Know
 ---

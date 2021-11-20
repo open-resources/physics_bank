@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{27x + 81y }{ -9 }$
+    expr: $\dfrac{10x + 8y }{ 2 }$
     part1:
       ans1:
-        value: $- 3 x - 9 y$
+        value: $5 x + 4 y$
       ans2:
-        value: $\dfrac{-3x - 9y}{-9}$
+        value: $\dfrac{5x + 4y}{2}$
       ans3:
-        value: $-9x - 3y$
+        value: $4x + 5y$
       ans4:
-        value: $27x - 81y$
+        value: $10x + 8y$
       ans5:
         value: Don't know.
 ---

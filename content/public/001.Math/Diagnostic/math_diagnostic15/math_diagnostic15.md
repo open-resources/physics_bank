@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $5^{3} $=$ 125$
+    expr: $2^{3} $=$ 8$
     part1:
       ans1:
-        value: $log_5125 = 3$
+        value: $log_28 = 3$
       ans2:
-        value: $log_53 = 125$
+        value: $log_23 = 8$
       ans3:
-        value: $log_1253 = 5$
+        value: $log_83 = 2$
       ans4:
-        value: $log_3125 = 5$
+        value: $log_38 = 2$
       ans5:
         value: Don't Know
 ---

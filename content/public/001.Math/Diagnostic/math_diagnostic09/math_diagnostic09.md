@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $y$ = $\dfrac{(v)}{(g - 4o)} $
+    expr: $a$ = $\dfrac{(j)}{(y - 2z)} $
     part1:
       ans1:
-        value: g = ${ 4 o + \frac{v}{y}}$
+        value: y = ${ 2 z + \frac{j}{a}}$
       ans2:
-        value: g = ${- \frac{4 o y}{v}}$
+        value: y = ${- \frac{2 a z}{j}}$
       ans3:
-        value: g = ${- \frac{v}{4 o y}}$
+        value: y = ${- \frac{j}{2 a z}}$
       ans4:
-        value: g = ${\frac{4 o + y}{v}}$
+        value: y = ${\frac{a + 2 z}{j}}$
       ans5:
         value: Don't Know
 ---

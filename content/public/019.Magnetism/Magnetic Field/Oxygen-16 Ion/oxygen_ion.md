@@ -45,9 +45,9 @@ substitutions:
   params:
     vars:
       title: Oxygen-16 Ion
-    v: 7.3
-    B: 3.5
-    r: '0.116'
+    v: 9.6
+    B: 1.3
+    r: '0.409'
 ---
 # {{ params.vars.title }}
 An oxygen-16 ion with a mass of $2.66 \times 10^{-26} \textrm{ kg}$ travels at ${{params.v}} \times 10^{6} \textrm{ m/s}$ perpendicular to a ${{params.B}} \textrm{ T}$ magnetic field, which makes it move in a circular arc with a ${{params.r}} \textrm{ m}$ radius.
