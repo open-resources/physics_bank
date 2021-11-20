@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-12x + 6y }{ 3 }$
+    expr: $\dfrac{27x + 81y }{ -9 }$
     part1:
       ans1:
-        value: $- 4 x + 2 y$
+        value: $- 3 x - 9 y$
       ans2:
-        value: $\dfrac{-4x + 2y}{3}$
+        value: $\dfrac{-3x - 9y}{-9}$
       ans3:
-        value: $2x - 4y$
+        value: $-9x - 3y$
       ans4:
-        value: $-12x + 6y$
+        value: $27x - 81y$
       ans5:
         value: Don't know.
 ---

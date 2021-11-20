@@ -43,10 +43,10 @@ substitutions:
     vars:
       title: Snowboarder Impact Landing
     v: 3
-    t: 0.1
-    ad: 42
-    m: 74
-    thetad: 34
+    t: 0.18
+    ad: 34
+    m: 75
+    thetad: 35
 ---
 # {{ params.vars.title }}
 <img src="Snowboarder Impact Landing.png" width=400>

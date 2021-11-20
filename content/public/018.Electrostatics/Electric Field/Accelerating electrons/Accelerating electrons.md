@@ -44,7 +44,7 @@ substitutions:
   params:
     vars:
       title: Accelerating electrons
-    f_s: $4.40\times 10^4$
+    f_s: $1.80\times 10^4$
 ---
 # {{ params.vars.title }}
 A simple and common technique for accelerating electrons is shown in the figure, where there is a uniform electric field between two plates.

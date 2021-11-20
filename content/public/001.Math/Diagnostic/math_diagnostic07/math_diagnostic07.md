@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 9x - 3y = 14
-    formula2: 2x + 3y = 4
+    formula1: 8x - 3y = 35
+    formula2: 8x + 6y = 4
     part1:
       ans1:
-        value: ' x =18/11, y =8/33'
+        value: ' x =37/12, y =-31/9'
       ans2:
-        value: ' x =8/33, y =18/11'
+        value: ' x =-31/9, y =37/12'
       ans3:
-        value: ' x =-18/11, y =-8/33'
+        value: ' x =-37/12, y =31/9'
       ans4:
-        value: ' x =-8/33, y =-18/11'
+        value: ' x =31/9, y =-37/12'
       ans5:
         value: Don't Know
 ---

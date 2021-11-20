@@ -126,12 +126,12 @@ substitutions:
   params:
     vars:
       title: Power and Currents in a Three-Loop Circuit
-    R1: '3.00'
-    R2: '8.00'
-    R3: '6.00'
+    R1: '8.00'
+    R2: '3.00'
+    R3: '2.00'
     R4: '8.00'
     V1: '17.0'
-    V2: '10.00'
+    V2: '11.00'
 ---
 # {{ params.vars.title }}
 Consider the circuit shown below.

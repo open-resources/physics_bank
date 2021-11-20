@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $a$ = $\dfrac{(j)}{(e - 5w)} $
+    expr: $y$ = $\dfrac{(v)}{(g - 4o)} $
     part1:
       ans1:
-        value: e = ${ 5 w + \frac{j}{a}}$
+        value: g = ${ 4 o + \frac{v}{y}}$
       ans2:
-        value: e = ${- \frac{5 a w}{j}}$
+        value: g = ${- \frac{4 o y}{v}}$
       ans3:
-        value: e = ${- \frac{j}{5 a w}}$
+        value: g = ${- \frac{v}{4 o y}}$
       ans4:
-        value: e = ${\frac{a + 5 w}{j}}$
+        value: g = ${\frac{4 o + y}{v}}$
       ans5:
         value: Don't Know
 ---
