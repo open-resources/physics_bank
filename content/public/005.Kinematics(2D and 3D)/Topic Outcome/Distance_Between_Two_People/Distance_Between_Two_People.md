@@ -32,34 +32,34 @@ substitutions:
     vars:
       title: Distance Between Two People
       units: $m$
-      name1: Aliyah
-      name2: Ximena
-    s: 4
-    ai_1: 1
-    ai_2: 2
-    ai_3: 1
+      name1: Abbas
+      name2: Aliyah
+    s: 1
+    ai_1: 3
+    ai_2: 3
+    ai_3: 2
     aj_1: 2
     aj_2: 2
-    aj_3: 2
-    bi_1: 4
-    bi_2: 1
-    bi_3: 3
+    aj_3: 3
+    bi_1: 2
+    bi_2: 3
+    bi_3: 2
     bj_1: 5
-    bj_2: 2
-    bj_3: 2
+    bj_2: 3
+    bj_3: 1
     part1:
       ans1:
-        value: 75.0
+        value: 8.1
       ans2:
-        value: 37.0
+        value: 4.0
       ans3:
-        value: 5600.0
+        value: 65.0
       ans4:
         value: !!python/object/new:sympy.core.numbers.Integer
-        - 34
+        - 7
       ans5:
         value: !!python/object/new:sympy.core.numbers.Integer
-        - 100
+        - 9
 ---
 # {{ params.vars.title }}
 The position of {{ params.vars.name1 }} as a function of time is given by:

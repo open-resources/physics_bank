@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $a$ = $\dfrac{(j)}{(y - 2z)} $
+    expr: $e$ = $\dfrac{(h)}{(b + 3p)} $
     part1:
       ans1:
-        value: y = ${ 2 z + \frac{j}{a}}$
+        value: b = ${ - 3 p + \frac{h}{e}}$
       ans2:
-        value: y = ${- \frac{2 a z}{j}}$
+        value: b = ${\frac{3 e p}{h}}$
       ans3:
-        value: y = ${- \frac{j}{2 a z}}$
+        value: b = ${\frac{h}{3 e p}}$
       ans4:
-        value: y = ${\frac{a + 2 z}{j}}$
+        value: b = ${\frac{e - 3 p}{h}}$
       ans5:
         value: Don't Know
 ---

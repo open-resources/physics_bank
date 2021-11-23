@@ -55,8 +55,8 @@ substitutions:
       units1: m/s
       units2: N/m
       units3: m
-    m: 326
-    T: 0.42
+    m: 316
+    T: 1.3
     E: 6.7
 ---
 # {{ params.vars.title }}

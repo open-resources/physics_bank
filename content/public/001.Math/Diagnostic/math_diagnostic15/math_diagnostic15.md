@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $2^{3} $=$ 8$
+    expr: $8^{4} $=$ 4096$
     part1:
       ans1:
-        value: $log_28 = 3$
+        value: $log_84096 = 4$
       ans2:
-        value: $log_23 = 8$
+        value: $log_84 = 4096$
       ans3:
-        value: $log_83 = 2$
+        value: $log_40964 = 8$
       ans4:
-        value: $log_38 = 2$
+        value: $log_44096 = 8$
       ans5:
         value: Don't Know
 ---

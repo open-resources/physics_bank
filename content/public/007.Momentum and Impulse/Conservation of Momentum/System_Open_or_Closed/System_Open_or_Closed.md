@@ -35,8 +35,8 @@ substitutions:
       vehicle_c: Sedan
       vehicle: sedan
       units: kg
-    i_a: 60
-    i_b: 305
+    i_a: 86
+    i_b: 294
     part1:
       ans1:
         value: Yes, because the two carts are on a track with no friction.

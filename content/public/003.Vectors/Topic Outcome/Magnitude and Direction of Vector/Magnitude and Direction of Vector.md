@@ -39,26 +39,26 @@ substitutions:
     A_i: -2
     A_j_abs: 7
     A_j_sign: ' - '
-    B_i: 6
-    B_j_abs: 10
-    B_j_sign: ' - '
-    C_i: 4
-    C_j_abs: 7
-    C_j_sign: ' - '
-    d: -2
+    B_i: -9
+    B_j_abs: 2
+    B_j_sign: ' + '
+    C_i: 8
+    C_j_abs: 9
+    C_j_sign: ' + '
+    d: -3
     part1:
       ans1:
-        value: ($\sqrt{550}$, $\theta = $133.0$^\circ$)
+        value: ($\sqrt{1600}$, $\theta = $245.0$^\circ$)
       ans2:
-        value: ($\sqrt{550}$, $\theta = $66.5$^\circ$)
+        value: ($\sqrt{1600}$, $\theta = $122.5$^\circ$)
       ans3:
-        value: ($\sqrt{275.0}$, $\theta = $66.5$^\circ$)
+        value: ($\sqrt{800.0}$, $\theta = $122.5$^\circ$)
       ans4:
-        value: ($\sqrt{23.0}$, $\theta = $133.0$^\circ$)
+        value: ($\sqrt{40.0}$, $\theta = $245.0$^\circ$)
       ans5:
-        value: ($\sqrt{825.0}$, $\theta = $66.5$^\circ$)
+        value: ($\sqrt{2400.0}$, $\theta = $122.5$^\circ$)
       ans6:
-        value: ($\sqrt{1}$, $\theta = $133.0$^\circ$)
+        value: ($\sqrt{53}$, $\theta = $245.0$^\circ$)
 ---
 # {{ params.vars.title }}
 Given $\vec{A} =$ {{ params.A_i }}$\hat{\imath}$ {{params.A_j_sign}} {{ params.A_j_abs}}$\hat{\jmath}$, $\vec{B} =$ {{ params.B_i }}$\hat{\imath}$ {{params.B_j_sign}} {{ params.B_j_abs}}$\hat{\jmath}$, $\vec{C} =$ {{ params.C_i }}$\hat{\imath}$ {{params.C_j_sign}} {{ params.C_j_abs}}$\hat{\jmath}$ and $d=$ {{ params.d }}, find the magnitude and direction of $\vec{A}-\vec{B}+d\vec{C}$.
