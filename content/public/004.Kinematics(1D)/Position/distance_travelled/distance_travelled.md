@@ -29,7 +29,7 @@ part1:
 substitutions:
   params:
     vars:
-      name: Santiago
+      name: Ahmed
       vehicle: ice skates
       units: m
       title: Distance travelled

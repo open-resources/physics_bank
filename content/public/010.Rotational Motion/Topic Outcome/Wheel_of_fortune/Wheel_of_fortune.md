@@ -31,27 +31,27 @@ substitutions:
   params:
     vars:
       units: rad/s
-      name: Mateo
+      name: Emilia
       title: Wheel of Fortune
-    w_i: ${\pi \over 2} {rad\over s}$
     t: 6
+    w_i: ${\pi \over 3} {rad\over s}$
     part1:
       ans1:
-        value: 2.47
+        value: 1.65
       ans2:
-        value: 1.57
+        value: 1.28
       ans3:
-        value: 3.14
+        value: 2.57
       ans4:
-        value: $\pi$/2
+        value: 0.74
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} wants to win a game of Wheel-of-Fortune.
-The grand prize is initially located at a position at the top of the wheel (shown) and {{ params.vars.name }} only wins if the wheel stops when the prize is at the position to the right ($\theta$ = 0).{{ params.vars.name }} notes that when another contestant set the wheel spinning at $w_i = $ {{params.w_i}}, it takes {{params.t}} seconds to stop.
+The grand prize is initially located at a position at the top of the wheel (shown) and {{ params.vars.name }} only wins if the wheel stops when the prize is at the position to the right ($\theta$ = 0).{{ params.vars.name }} notes that when another contestant set the wheel spinning at $w_i = $ {{params.w_i}} in the counter-clockwise direction, it takes {{params.t}} $s$ to stop.
 
 ## Part 1
 
-With which initial velocity should {{ params.vars.name }} spin the wheel to win the prize?
+With which initial velocity in the counter-clockwise direction should {{ params.vars.name }} spin the wheel to win the grand prize?
 
 <img src="wheel_of_fortune.png" alt="Image of a wheel showing the winning section to be between the top center of the wheel, and approximately 10 degrees to the left." width=300>
 

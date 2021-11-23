@@ -29,18 +29,18 @@ substitutions:
   params:
     vars:
       title: Energy Consumption Units
-      name: Aliyah
+      name: Maya
     part1:
       ans1:
-        value: voltage
-      ans2:
-        value: energy
-      ans3:
         value: current
-      ans4:
+      ans2:
         value: charge
-      ans5:
+      ans3:
+        value: voltage
+      ans4:
         value: power
+      ans5:
+        value: energy
 ---
 # {{ params.vars.title }}
 

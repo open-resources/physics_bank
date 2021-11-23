@@ -46,9 +46,9 @@ substitutions:
     vars:
       title: Rolling Disk of Spruce and Steel
       units: $kg$
-    rho_spruce: 413.0
-    rho_steel: 7810.0
-    w_disk: 22.0
+    rho_spruce: 442.0
+    rho_steel: 7890.0
+    w_disk: 18.8
     part3:
       ans1:
         value: $x$ = 1 $cm$, $y$ = 0 $cm$
@@ -64,16 +64,9 @@ substitutions:
         value: $x$ = 0 $cm$, $y$ = 0.0 $cm$
 ---
 # {{ params.vars.title }}
-A disk that will appear to roll uphill is made from spruce ($\rho\_{\text{spruce}} = $ {{ params.rho_spruce }} $kg/m^3$) and steel ($\rho\_{\text{steel}} = $ {{ params.rho_steel }} $kg/m^3$) by drilling a 3 $cm$ diameter hole, centred 8 $cm$ above the centre of a 30 $cm$ diameter spruce cylinder, as shown in the figure.  Into this hole is inserted a piece of steel of identical dimensions.  The disk has a {{ params.w_disk }} $cm$ width.
+A disk that will appear to roll uphill is made from spruce ($\rho\_{\text{spruce}} = $ {{ params.rho_spruce }} $kg/m^3$) and steel ($\rho\_{\text{steel}} = $ {{ params.rho_steel }} $kg/m^3$) by drilling a 3 $cm$ diameter hole, centred 8 $cm$ above the centre of a 30 $cm$ diameter spruce cylinder, as shown in the figure.  Into this hole is inserted a piece of steel of identical dimensions.  The disk has a thickness of {{ params.w_disk }} $cm$.
 
-<img longdesc="Spruce and Steel Disk.md#desc" alt="Disk of spruce and steel." src="q10_2013practiceFinal.png">
-
-<div id="desc">
-<h5>Long Description of image: Disk of spruce and steel.</h5>
-The figure shows a disk centred at the origin of a cartesian plane with diameter 30 cm.
-There is a hole of diameter 3cm centred 8 cm above the centre of the disk.
-<p>Long description ends.</p>
-<div>
+<img alt="The figure shows a disk centred at the origin of a cartesian plane with diameter 30 cm. There is a hole of diameter 3cm centred 8 cm above the centre of the disk." src="q10_2013practiceFinal.png">
 
 ## Part 1
 

@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $8^{4} $=$ 4096$
+    expr: $7^{5} $=$ 16807$
     part1:
       ans1:
-        value: $log_84096 = 4$
+        value: $log_716807 = 5$
       ans2:
-        value: $log_84 = 4096$
+        value: $log_75 = 16807$
       ans3:
-        value: $log_40964 = 8$
+        value: $log_168075 = 7$
       ans4:
-        value: $log_44096 = 8$
+        value: $log_516807 = 7$
       ans5:
         value: Don't Know
 ---

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #12'
-    expr: $2\over 2- x$ > $ 9$
+    expr: $5\over 5- x$ > $ 9$
     part1:
       ans1:
-        value: (16/9 < x) & (x < 2)
+        value: (40/9 < x) & (x < 5)
       ans2:
-        value: (16/9 > x) & (x > 2)
+        value: (40/9 > x) & (x > 5)
       ans3:
-        value: x > 2/9
+        value: x > 5/9
       ans4:
-        value: (27/2 < x) & (x < 18)
+        value: (216/5 < x) & (x < 45)
       ans5:
         value: Do not know
 ---

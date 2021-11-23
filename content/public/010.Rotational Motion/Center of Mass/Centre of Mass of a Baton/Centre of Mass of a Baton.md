@@ -36,11 +36,11 @@ substitutions:
     vars:
       title: Centre of Mass of a Baton
       units: $m$
-    m1: 0.26
-    m2: 0.13
-    m3: 0.15
-    l1: 0.89
-    l2: 1.1
+    m1: 0.27
+    m2: 0.096
+    m3: 0.14
+    l1: 1.2
+    l2: 0.74
 ---
 # {{ params.vars.title }}
 
@@ -51,16 +51,7 @@ The ball at the left end has a mass of $m_1 = $ {{ params.m1 }} $kg$, the ball a
 Take the point $l_1 = $ {{ params.l1 }} $m$ to the left of the {{ params.m1 }} $kg$ mass as your origin.
 The length from the center of the left ball to the center of the right ball is $l_2 = $ {{ params.l2 }} $m$.
 
-<img longdesc="Centre of Mass of a Baton.md#desc" alt="Figure of the system." src="q5_2015practiceMid2.png">
-
-<div id="desc">
-<h5>Long Description of image: Figure of the system.</h5>
-The figure shows the origin on the left side and the baton to the right of the origin.<br>
-The left ball of the baton has mass m one and is bigger than the right ball of mass m three. The bar has mass m two.<br>
-The length from the origin to the center of the left ball is l one.<br>
-The length from the center of the left ball to the center of the right ball is l two.
-<p>Long description ends.</p>
-<div>
+<img alt="The figure shows the origin on the left side and the baton to the right of the origin. The left ball of the baton has mass m one and is bigger than the right ball of mass m three. The bar has mass m two. The length from the origin to the center of the left ball is l one. The length from the center of the left ball to the center of the right ball is l two." src="q5_2015practiceMid2.png">
 
 ### Answer Section
 

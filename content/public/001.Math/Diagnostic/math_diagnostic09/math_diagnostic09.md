@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $e$ = $\dfrac{(h)}{(b + 3p)} $
+    expr: $c$ = $\dfrac{(s)}{(z - 5b)} $
     part1:
       ans1:
-        value: b = ${ - 3 p + \frac{h}{e}}$
+        value: z = ${ 5 b + \frac{s}{c}}$
       ans2:
-        value: b = ${\frac{3 e p}{h}}$
+        value: z = ${- \frac{5 b c}{s}}$
       ans3:
-        value: b = ${\frac{h}{3 e p}}$
+        value: z = ${- \frac{s}{5 b c}}$
       ans4:
-        value: b = ${\frac{e - 3 p}{h}}$
+        value: z = ${\frac{5 b + c}{s}}$
       ans5:
         value: Don't Know
 ---

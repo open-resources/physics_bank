@@ -61,14 +61,14 @@ substitutions:
       name: Ahmed
       unit1: $m/s$
       unit2: $kg/s$
-    m: 2
-    d_m: 43
-    sd: 0.051
-    v1: 0.92
-    v2: 0.93
-    v3: 0.86
-    v4: 0.97
-    v5: 0.81
+    m: 3
+    d_m: 51
+    sd: 0.097
+    v1: 0.97
+    v2: 0.89
+    v3: 0.74
+    v4: 0.71
+    v5: 0.93
     v6: 0.9
 ---
 # {{ params.vars.title }}
