@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $c$ = $\dfrac{(s)}{(z - 5b)} $
+    expr: $c$ = $\dfrac{(e)}{(h + 8o)} $
     part1:
       ans1:
-        value: z = ${ 5 b + \frac{s}{c}}$
+        value: h = ${ - 8 o + \frac{e}{c}}$
       ans2:
-        value: z = ${- \frac{5 b c}{s}}$
+        value: h = ${\frac{8 c o}{e}}$
       ans3:
-        value: z = ${- \frac{s}{5 b c}}$
+        value: h = ${\frac{e}{8 c o}}$
       ans4:
-        value: z = ${\frac{5 b + c}{s}}$
+        value: h = ${\frac{c - 8 o}{e}}$
       ans5:
         value: Don't Know
 ---

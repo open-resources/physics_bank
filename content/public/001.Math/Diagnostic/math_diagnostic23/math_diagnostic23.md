@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 2
-    b: 7
-    formula: $x^{2} \sin{\left(7 x \right)}$
+    a: 9
+    b: 1
+    formula: $x^{9} \cos{\left(x \right)}$
     part1:
       ans1:
-        value: $7 x^{2} \cos{\left(7 x \right)} + 2 x \sin{\left(7 x \right)}$
+        value: $- x^{9} \sin{\left(x \right)} + 9 x^{8} \cos{\left(x \right)}$
       ans2:
-        value: $7 x^{2} \cos{\left(7 x \right)} $
+        value: $- x^{9} \sin{\left(x \right)} $
       ans3:
-        value: $ 2 x \cos{\left(7 x \right)}$
+        value: $ 9 x^{8} \sin{\left(x \right)}$
       ans4:
-        value: $- 7 x^{2} \sin{\left(7 x \right)} + 2 x \cos{\left(7 x \right)}$
+        value: $x^{9} \cos{\left(x \right)} + 9 x^{8} \sin{\left(x \right)}$
       ans5:
         value: Don't Know
 ---

@@ -45,8 +45,8 @@ substitutions:
   params:
     vars:
       title: Inductance of a Solenoid
-    l: '42.0'
-    N: '430'
+    l: '57.0'
+    N: '550'
     A: '1.70'
 ---
 # {{ params.vars.title }}

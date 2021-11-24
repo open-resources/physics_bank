@@ -42,10 +42,10 @@ substitutions:
     vars:
       title: Coil Encircling Solenoid
     n: '11'
-    A: '10'
-    I: '1.00'
-    N: '4'
-    t: '0.05'
+    A: '5'
+    I: '0.75'
+    N: '6'
+    t: '0.06'
 ---
 # {{ params.vars.title }}
 
