@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-54x + 12y }{ 6 }$
+    expr: $\dfrac{21x + 49y }{ -7 }$
     part1:
       ans1:
-        value: $- 9 x + 2 y$
+        value: $- 3 x - 7 y$
       ans2:
-        value: $\dfrac{-9x + 2y}{6}$
+        value: $\dfrac{-3x - 7y}{-7}$
       ans3:
-        value: $2x - 9y$
+        value: $-7x - 3y$
       ans4:
-        value: $-54x + 12y$
+        value: $21x - 49y$
       ans5:
         value: Don't know.
 ---

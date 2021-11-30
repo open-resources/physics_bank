@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 13
-    expr: $\dfrac{z^5 }{z^1} $
+    expr: $\dfrac{z^2 }{z^3} $
     part1:
       ans1:
-        value: $z^{4}$
+        value: $z^{-1}$
       ans2:
-        value: $z^{-4}$
+        value: $z^{1}$
       ans3:
-        value: 4z
+        value: -1z
       ans4:
-        value: (5)z
+        value: (2/3)z
       ans5:
         value: Don't Know
 ---

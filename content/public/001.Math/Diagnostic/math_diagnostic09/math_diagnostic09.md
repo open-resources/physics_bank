@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $w$ = $\dfrac{(i)}{(q - 2x)} $
+    expr: $z$ = $\dfrac{(e)}{(j + 4g)} $
     part1:
       ans1:
-        value: q = ${ \frac{i}{w} + 2 x}$
+        value: j = ${ \frac{e}{z} - 4 g}$
       ans2:
-        value: q = ${- \frac{2 w x}{i}}$
+        value: j = ${\frac{4 g z}{e}}$
       ans3:
-        value: q = ${- \frac{i}{2 w x}}$
+        value: j = ${\frac{e}{4 g z}}$
       ans4:
-        value: q = ${\frac{w + 2 x}{i}}$
+        value: j = ${\frac{- 4 g + z}{e}}$
       ans5:
         value: Don't Know
 ---

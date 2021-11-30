@@ -32,18 +32,18 @@ substitutions:
   params:
     vars:
       title: Speed Before Impact
-      vehicle: car
+      vehicle: semi-truck
       units: $m/s$
-    m: 683
+    m: 531
     part1:
       ans1:
-        value: 79.0
+        value: 102.0
       ans2:
-        value: 40.0
+        value: 51.0
       ans3:
-        value: 20.0
+        value: 25.0
       ans4:
-        value: 10.0
+        value: 13.0
       ans5:
         value: 0
 ---
@@ -55,7 +55,7 @@ The mass of the {{ params.vars.vehicle }} is {{ params.m }} $kg$ and it comes to
 
 ## Part 1
 
-What was the *approximate* speed of the car just before the impact? Choose the best answer.
+What was the *approximate* speed of the {{ params.vars.vehicle }} just before the impact? Choose the best answer.
 
 ### Answer Section
 

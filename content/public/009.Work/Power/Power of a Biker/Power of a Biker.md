@@ -36,7 +36,7 @@ substitutions:
       title: Power of a Biker
       units: $W$
     v_kph: 18
-    mass_kg: 84
+    mass_kg: 103
     grade: 7
 ---
 # {{ params.vars.title }}

@@ -75,7 +75,7 @@ substitutions:
   params:
     vars:
       title: Switched LC Circuit
-    L: '106.0'
+    L: '96.0'
     C: '2.25'
     V: '10.5'
 ---
