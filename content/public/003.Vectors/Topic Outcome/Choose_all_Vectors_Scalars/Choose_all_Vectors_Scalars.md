@@ -35,15 +35,15 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Area
+        value: Length
       ans2:
         value: Temperature
       ans3:
-        value: Speed
+        value: Mass
       ans4:
-        value: Pressure
+        value: Distance travelled
       ans5:
-        value: The average acceleration
+        value: Acceleration
       ans6:
         value: Force
 ---

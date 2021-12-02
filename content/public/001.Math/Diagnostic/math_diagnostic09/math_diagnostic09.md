@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $z$ = $\dfrac{(e)}{(j + 4g)} $
+    expr: $u$ = $\dfrac{(p)}{(i + 10k)} $
     part1:
       ans1:
-        value: j = ${ \frac{e}{z} - 4 g}$
+        value: i = ${ - 10 k + \frac{p}{u}}$
       ans2:
-        value: j = ${\frac{4 g z}{e}}$
+        value: i = ${\frac{10 k u}{p}}$
       ans3:
-        value: j = ${\frac{e}{4 g z}}$
+        value: i = ${\frac{p}{10 k u}}$
       ans4:
-        value: j = ${\frac{- 4 g + z}{e}}$
+        value: i = ${\frac{- 10 k + u}{p}}$
       ans5:
         value: Don't Know
 ---

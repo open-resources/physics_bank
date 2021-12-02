@@ -42,9 +42,9 @@ substitutions:
   params:
     vars:
       title: Temperature Range of Resistor
-    p: 1
-    metal: Gold
-    T_0: 94
+    p: 3
+    metal: Copper
+    T_0: 129
 ---
 # {{ params.vars.title }}
 
