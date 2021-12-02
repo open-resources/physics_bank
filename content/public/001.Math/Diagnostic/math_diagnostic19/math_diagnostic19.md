@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin255$
+    a: $ \sin340$
     part1:
       ans1:
-        value: $\sin{-105}$
+        value: $\sin{-20}$
       ans2:
-        value: $\sin{105}$
+        value: $\sin{20}$
       ans3:
-        value: $\sin{-75}$
+        value: $\sin{-160}$
       ans4:
-        value: $\sin{75}$
+        value: $\sin{160}$
       ans5:
         value: Don't Know
 ---

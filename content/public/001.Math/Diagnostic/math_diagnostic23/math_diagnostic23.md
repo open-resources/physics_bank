@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 2
-    b: 9
-    formula: $x^{2} \cos{\left(9 x \right)}$
+    a: 3
+    b: 8
+    formula: $x^{3} \sin{\left(8 x \right)}$
     part1:
       ans1:
-        value: $- 9 x^{2} \sin{\left(9 x \right)} + 2 x \cos{\left(9 x \right)}$
+        value: $8 x^{3} \cos{\left(8 x \right)} + 3 x^{2} \sin{\left(8 x \right)}$
       ans2:
-        value: $- 9 x^{2} \sin{\left(9 x \right)} $
+        value: $8 x^{3} \cos{\left(8 x \right)} $
       ans3:
-        value: $ 2 x \sin{\left(9 x \right)}$
+        value: $ 3 x^{2} \cos{\left(8 x \right)}$
       ans4:
-        value: $9 x^{2} \cos{\left(9 x \right)} + 2 x \sin{\left(9 x \right)}$
+        value: $- 8 x^{3} \sin{\left(8 x \right)} + 3 x^{2} \cos{\left(8 x \right)}$
       ans5:
         value: Don't Know
 ---

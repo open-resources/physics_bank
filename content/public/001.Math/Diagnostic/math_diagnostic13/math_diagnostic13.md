@@ -31,14 +31,14 @@ substitutions:
   params:
     vars:
       title: Math Practice 13
-    expr: $\dfrac{z^8 }{z^4} $
+    expr: $\dfrac{z^6 }{z^3} $
     part1:
       ans1:
-        value: $z^{4}$
+        value: $z^{3}$
       ans2:
-        value: $z^{-4}$
+        value: $z^{-3}$
       ans3:
-        value: 4z
+        value: 3z
       ans4:
         value: (2)z
       ans5:

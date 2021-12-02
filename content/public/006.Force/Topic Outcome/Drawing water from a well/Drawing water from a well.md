@@ -48,10 +48,10 @@ substitutions:
       title: Drawing Water from a Well
       unit1: $N$
       unit2: $m$
-    M: 5.99
-    m: 5.79
-    R: 0.875
-    t: 9.15
+    M: 5.75
+    m: 3.58
+    R: 0.63
+    t: 8.96
 ---
 # {{ params.vars.title }}
 As shown in the figure, a solid, uniform, frictionless cylindrical reel of mass $M = $ {{ params.M }} $kg$ and radius $R = $ {{ params.R }} $m$ is used to draw water from a well. A bucket of mass $m = $ {{ params.m }} $kg$ is  attached to a massless cord that is wrapped around the cylinder.

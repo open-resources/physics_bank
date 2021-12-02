@@ -35,11 +35,11 @@ substitutions:
     vars:
       title: Cars around a bend
       units: $ft$
-    max_acc_A: 0.3
-    max_acc_B: 1.0
-    ra: 324
-    rb: 376
-    angle: 59
+    max_acc_A: 0.8
+    max_acc_B: 0.9
+    ra: 343
+    rb: 421
+    angle: 46
 ---
 # {{ params.vars.title }}
 Two cars travel at constant speeds around a curve.

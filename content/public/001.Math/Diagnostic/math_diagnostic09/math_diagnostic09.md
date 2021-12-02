@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $k$ = $\dfrac{(t)}{(q - 10g)} $
+    expr: $n$ = $\dfrac{(q)}{(w - 4b)} $
     part1:
       ans1:
-        value: q = ${ 10 g + \frac{t}{k}}$
+        value: w = ${ 4 b + \frac{q}{n}}$
       ans2:
-        value: q = ${- \frac{10 g k}{t}}$
+        value: w = ${- \frac{4 b n}{q}}$
       ans3:
-        value: q = ${- \frac{t}{10 g k}}$
+        value: w = ${- \frac{q}{4 b n}}$
       ans4:
-        value: q = ${\frac{10 g + k}{t}}$
+        value: w = ${\frac{4 b + n}{q}}$
       ans5:
         value: Don't Know
 ---

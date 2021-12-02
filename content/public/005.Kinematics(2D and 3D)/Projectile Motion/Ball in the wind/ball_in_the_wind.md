@@ -35,8 +35,8 @@ substitutions:
     vars:
       title: Ball in the wind
       units: ${\circ}$
-    v0: 13
-    wind_speed: 4.2
+    v0: 10
+    wind_speed: 2.7
 ---
 # {{ params.vars.title }}
 A child throws a ball upward with a speed of $v\_{0} = {{params.v0}} m/s$.

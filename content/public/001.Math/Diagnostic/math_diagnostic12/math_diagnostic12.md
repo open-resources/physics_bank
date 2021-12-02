@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #12'
-    expr: $8\over 8- x$ > $ 9$
+    expr: $2\over 2- x$ > $ 4$
     part1:
       ans1:
-        value: (64/9 < x) & (x < 8)
+        value: (3/2 < x) & (x < 2)
       ans2:
-        value: (64/9 > x) & (x > 8)
+        value: (3/2 > x) & (x > 2)
       ans3:
-        value: x > 8/9
+        value: x > 2/4
       ans4:
-        value: (567/8 < x) & (x < 72)
+        value: (6 < x) & (x < 8)
       ans5:
         value: Do not know
 ---
