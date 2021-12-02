@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-6x + 8y }{ 2 }$
+    expr: $\dfrac{-12x - 8y }{ 2 }$
     part1:
       ans1:
-        value: $- 3 x + 4 y$
+        value: $- 6 x - 4 y$
       ans2:
-        value: $\dfrac{-3x + 4y}{2}$
+        value: $\dfrac{-6x - 4y}{2}$
       ans3:
-        value: $4x - 3y$
+        value: $-4x - 6y$
       ans4:
-        value: $-6x + 8y$
+        value: $-12x - 8y$
       ans5:
         value: Don't know.
 ---

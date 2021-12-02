@@ -45,10 +45,10 @@ substitutions:
   params:
     vars:
       title: Worker Pulls Cart Uphill
-    m: 51
-    theta_s: 19
-    theta_2: 6
-    T_2: 235
+    m: 58
+    theta_s: 16
+    theta_2: 9
+    T_2: 193
     T_1: 140
 ---
 # {{ params.vars.title }}

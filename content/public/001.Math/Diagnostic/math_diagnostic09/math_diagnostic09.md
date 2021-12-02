@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $u$ = $\dfrac{(p)}{(i + 10k)} $
+    expr: $k$ = $\dfrac{(t)}{(q - 10g)} $
     part1:
       ans1:
-        value: i = ${ - 10 k + \frac{p}{u}}$
+        value: q = ${ 10 g + \frac{t}{k}}$
       ans2:
-        value: i = ${\frac{10 k u}{p}}$
+        value: q = ${- \frac{10 g k}{t}}$
       ans3:
-        value: i = ${\frac{p}{10 k u}}$
+        value: q = ${- \frac{t}{10 g k}}$
       ans4:
-        value: i = ${\frac{- 10 k + u}{p}}$
+        value: q = ${\frac{10 g + k}{t}}$
       ans5:
         value: Don't Know
 ---

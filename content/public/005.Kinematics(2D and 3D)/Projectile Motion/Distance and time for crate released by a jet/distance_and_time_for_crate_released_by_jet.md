@@ -45,9 +45,9 @@ substitutions:
       title: Distance and Time for a crate released by a Jett
       distance_units: $m$
       time_units: $seconds$
-    distance_from_ground: 488
-    speed_of_jett: 320
-    angle: 71
+    distance_from_ground: 484
+    speed_of_jett: 496
+    angle: 66
 ---
 # {{ params.vars.title }}
 The pilot of a jet pulls into a steep {{params.angle}}$^{\circ}$ climb at {{params.speed_of_jett}} $km/h$ and releases a crate at point A, {{params.distance_from_ground}} $m$ above the ground.

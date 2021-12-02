@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice Q25
-    expr: $\dfrac{ 2-e^{(-5x)}}{7-x}$
+    expr: $\dfrac{ 7-e^{(-1x)}}{3-x}$
     part1:
       ans1:
-        value: 1/7
+        value: '2'
       ans2:
         value: Negative Infinity
       ans3:
-        value: 0.2857142857142857
+        value: 2.3333333333333335
       ans4:
-        value: 2
+        value: 7
       ans5:
         value: Don't Know
 ---
