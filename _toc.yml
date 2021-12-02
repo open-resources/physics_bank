@@ -192,7 +192,6 @@ parts:
       Coordinates from Function/polar_coords_from_func
 - caption: Force
   chapters:
-  - file: content/public/006.Force/Topic Outcome/spring_on_incline/spring_on_incline
   - file: content/public/006.Force/Topic Outcome/ropes_and_blocks/ropes_and_blocks
   - file: content/public/006.Force/Topic Outcome/The max acceleration without slipping/The
       max acceleration without slipping
@@ -209,20 +208,16 @@ parts:
       water from a well
   - file: content/public/006.Force/Topic Outcome/Rotating ball/Rotating ball
   - file: content/public/006.Force/Topic Outcome/velocity_netforce/velocity_netforce
-  - file: content/public/006.Force/Topic Outcome/Slider in a Rotating Tube/Slider
-      in a rotating Tube
   - file: content/public/006.Force/Topic Outcome/Window Washer/window_washer
   - file: content/public/006.Force/Topic Outcome/Worker Pulls Cart Uphill/worker_pulls_cart_uphill
   - file: content/public/006.Force/Topic Outcome/Frictionless Air Track/Frictionless
       Air Track
-  - file: content/public/006.Force/Topic Outcome/Springs On a Disk/Springs On a Disk
   - file: content/public/006.Force/Topic Outcome/Turning_Car/Turning_car
   - file: content/public/006.Force/Topic Outcome/Raising a Package/raising_a_package
   - file: content/public/006.Force/Topic Outcome/Particle in Conservative Potential/Particle
       in Conservative Potential
   - file: content/public/006.Force/Topic Outcome/Mass inside rotating cone/Mass inside
       rotating cone
-  - file: content/public/006.Force/Topic Outcome/Pendulum on a downhill cart/pendulum_on_a_downhill_cart
   - file: content/public/006.Force/Topic Outcome/Greatest Tension in Rope/Greatest
       Tension in Rope
   - file: content/public/006.Force/Topic Outcome/centripetal_force/centripetal_force
@@ -234,7 +229,6 @@ parts:
   - file: content/public/006.Force/Equilibrium/Two blocks connected by a string/Two
       Blocks Connected by a String
   - file: content/public/006.Force/Springs/Stiffness of a Spring/Stiffness of a Spring
-  - file: content/public/006.Force/Springs/Bungee_jumping/bungee_jumping
   - file: content/public/006.Force/Newton's Third Law/Tension_In_Rope/Tention_In_Rope
   - file: content/public/006.Force/Newton's Third Law/Ironclad_Beetle/ironclad_beetle_mcq
   - file: content/public/006.Force/Newton's Third Law/Force Vectors/force_vectors
@@ -245,8 +239,6 @@ parts:
       on a Highway Exit
   - file: content/public/006.Force/Newton's Second Law/The Great Conjunction/The Great
       Conjunction
-  - file: content/public/006.Force/Newton's Second Law/Force and Momentum/Force and
-      Momentum
   - file: content/public/006.Force/Newton's Second Law/Force_On_An_Object/Force_On_An_Object
   - file: content/public/006.Force/Newton's Second Law/Hockey net across ice/hocket_net_across_ice
   - file: content/public/006.Force/Drag/Cyclist with a Deathwish/cyclist
@@ -275,7 +267,6 @@ parts:
   - file: content/public/007.Momentum and Impulse/Topic Outcome/Superballs/Superballs
   - file: content/public/007.Momentum and Impulse/Topic Outcome/Force and Momentum/Force
       and Momentum
-  - file: content/public/007.Momentum and Impulse/Topic Outcome/Test_Uranium_fragments/Test_Uranium_fragments
   - file: content/public/007.Momentum and Impulse/Topic Outcome/Force on a Mosquito/force_on_mosquito
   - file: content/public/007.Momentum and Impulse/Topic Outcome/A flying arrow/A flying
       arrow
@@ -290,10 +281,6 @@ parts:
   - file: content/public/007.Momentum and Impulse/Momentum/Momentum_and_Inertia/Momentum_and_Inertia
   - file: content/public/007.Momentum and Impulse/Momentum/Dinner_Plate/dinner_plate
   - file: content/public/007.Momentum and Impulse/Momentum/Rock_Powered_Rocket/Rock_Powered_Rocket
-  - file: content/public/007.Momentum and Impulse/Momentum/Rotating buckets/Rotating
-      buckets
-  - file: content/public/007.Momentum and Impulse/Momentum/Rotating Spheres/Rotating
-      Spheres
   - file: content/public/007.Momentum and Impulse/Impulse/airbag_collision/airbag_collision
   - file: content/public/007.Momentum and Impulse/Impulse/Speed_Before_Impact/Speed_Before_Impact
   - file: content/public/007.Momentum and Impulse/Impulse/Bouncing_Ball/Bouncing_Ball
@@ -340,12 +327,6 @@ parts:
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/System_Open_or_Closed/System_Open_or_Closed
 - caption: Energy
   chapters:
-  - file: content/public/008.Energy/Topic Outcome/spring_on_incline/spring_on_incline
-  - file: content/public/008.Energy/Topic Outcome/spring_oscillations/spring_oscillations
-  - file: content/public/008.Energy/Topic Outcome/frictionless_track/frictionless_track
-  - file: content/public/008.Energy/Topic Outcome/force_vs_position/force_vs_position
-  - file: content/public/008.Energy/Topic Outcome/A disk and a paintball/A disk and
-      a paintball
   - file: content/public/008.Energy/Conservation of Energy/Two Waterslide Paths/Two
       Waterslide Paths
   - file: content/public/008.Energy/Conservation of Energy/Firing a ball using a compressed
@@ -354,11 +335,8 @@ parts:
       Rail/Spring Potential Energy Rail
   - file: content/public/008.Energy/Conservation of Energy/Block_in_hole/Block_In_Hole
   - file: content/public/008.Energy/Conservation of Energy/Energy lost to air friction/energy_lost_air_friction
-  - file: content/public/008.Energy/Conservation of Energy/Package on a hill/Package
-      on a Hill
   - file: content/public/008.Energy/Conservation of Energy/Connected Balls on Hill/Connected
       Balls on Hill
-  - file: content/public/008.Energy/Conservation of Energy/Bottle Race/Bottle Race
   - file: content/public/008.Energy/Conservation of Energy/Slider Restricted by Spring/Slider
       Restricted by Spring
   - file: content/public/008.Energy/Conservation of Energy/Spring Restraining Cart/Spring
@@ -368,13 +346,10 @@ parts:
   - file: content/public/008.Energy/Conservation of Energy/Log up a Hill/Log up a
       Hill
   - file: content/public/008.Energy/Conservation of Energy/Compressed_Spring_To_Launch_Mass/Compressed_Spring_To_Launch_Mass
-  - file: content/public/008.Energy/Conservation of Energy/Falling bucket/Falling
-      bucket
   - file: content/public/008.Energy/Conservation of Energy/Potential Energy and Conservative
       Force/Potential Energy and Conservative Force
   - file: content/public/008.Energy/Conservation of Energy/dissipative_process/dissipative_process
   - file: content/public/008.Energy/Conservation of Energy/ball_race/ball_race
-  - file: content/public/008.Energy/Conservation of Energy/ball_race/2012Final_q3
   - file: content/public/008.Energy/Conservation of Energy/Cut The Rope/Cut The Rope
   - file: content/public/008.Energy/Conservation of Energy/Physics of Roller Coasters/Physics
       of Roller Coasters
@@ -384,7 +359,6 @@ parts:
   - file: content/public/008.Energy/Kinetic Energy/KE_testmass/KE_testmass
   - file: content/public/008.Energy/Kinetic Energy/Kinetic Energy of a Simple Pendulum
       System/Kinetic Energy of a Simple Pendulum System
-  - file: content/public/008.Energy/Kinetic Energy/KE_energy_momentum/KE_energy_momentum
   - file: content/public/008.Energy/Potential Energy/Equilibrium Length of a Spring/Equilibrium
       Length of a Spring
   - file: content/public/008.Energy/Potential Energy/Collision of cart with spring/Collision
@@ -477,8 +451,6 @@ parts:
       Plates
   - file: content/public/018.Electrostatics/Electric Field/Conductor with a Cavity
       and a Charge/Conductor with a Cavity and a Charge
-  - file: content/public/018.Electrostatics/Electric Field/Conductor with a Cavity/Conductor
-      with a Cavity
   - file: content/public/018.Electrostatics/Electric Field/Vanishing electric field/Vanishing
       electric field
   - file: content/public/018.Electrostatics/Electric Field/Colinear point charges/Colinear
@@ -706,7 +678,6 @@ parts:
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_52/OSUPv2p14_52
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_55/OSUPv2p14_55
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_36/OSUPv2p14_36
-  - file: content/public/021.Circuits/Inductors/Inductor emf/Inductor emf
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_48/OSUPv2p14_48
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_57/OSUPv2p14_57
   - file: content/public/021.Circuits/Inductors/OSUPv2p14_17/OSUPv2p14_17
