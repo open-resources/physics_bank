@@ -57,9 +57,9 @@ substitutions:
         value: Right-hand side
       ans2:
         value: Left-hand side
-    change1: decreasing
-    change2: increasing
-    find: lower
+    change1: increasing
+    change2: decreasing
+    find: higher
 ---
 # {{ params.vars.title }}
 The current shown below in figure (a) is {{ params.change1 }}, while that shown in part (b) is {{ params.change2 }}.

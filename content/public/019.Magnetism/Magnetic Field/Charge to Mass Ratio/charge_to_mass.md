@@ -42,9 +42,9 @@ substitutions:
   params:
     vars:
       title: Velocity Selector
-    B: 0.528
-    E: 1.4
-    r: 2.17
+    B: 0.43
+    E: 1.7
+    r: 2.46
 ---
 # {{ params.vars.title }}
 

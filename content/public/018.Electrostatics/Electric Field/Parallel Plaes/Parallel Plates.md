@@ -46,9 +46,9 @@ part2:
 substitutions:
   params:
     L: '15'
-    q: '4.4'
-    p: '-10'
-    d: '1.5'
+    q: '7.6'
+    p: '-9'
+    d: '1.1'
     part2:
       ans1:
         value: points towards the negative plate

@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin340$
+    a: $ \sin274$
     part1:
       ans1:
-        value: $\sin{-20}$
+        value: $\sin{-86}$
       ans2:
-        value: $\sin{20}$
+        value: $\sin{86}$
       ans3:
-        value: $\sin{-160}$
+        value: $\sin{-94}$
       ans4:
-        value: $\sin{160}$
+        value: $\sin{94}$
       ans5:
         value: Don't Know
 ---

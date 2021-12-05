@@ -37,8 +37,8 @@ substitutions:
     vars:
       title: Raising a Package
       units: mm
-    v_a: 350
-    t: 2
+    v_a: 337
+    t: 5
 ---
 # {{ params.vars.title }}
 

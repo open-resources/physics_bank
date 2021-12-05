@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 14
-    expr: $x^{ -8\over 9}$
+    expr: $x^{ -9\over 2}$
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt[9]{x^{8}}}\end{equation}
+        value: \begin{equation}\frac{1}{\sqrt{x^{9}}}\end{equation}
       ans2:
-        value: \begin{equation}\sqrt[9]{x^{8}}\end{equation}
+        value: \begin{equation}\sqrt{x^{9}}\end{equation}
       ans3:
-        value: \begin{equation}x^{\frac{8}{9}}\end{equation}
+        value: \begin{equation}x^{\frac{9}{2}}\end{equation}
       ans4:
-        value: \begin{equation}- \frac{1}{\sqrt[9]{x^{8}}}\end{equation}
+        value: \begin{equation}- \frac{1}{\sqrt{x^{9}}}\end{equation}
       ans5:
         value: Do not know
 ---

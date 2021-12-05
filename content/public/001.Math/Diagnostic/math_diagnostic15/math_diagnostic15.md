@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $9^{8} $=$ 43046721$
+    expr: $3^{9} $=$ 19683$
     part1:
       ans1:
-        value: $log_943046721 = 8$
+        value: $log_319683 = 9$
       ans2:
-        value: $log_98 = 43046721$
+        value: $log_39 = 19683$
       ans3:
-        value: $log_430467218 = 9$
+        value: $log_196839 = 3$
       ans4:
-        value: $log_843046721 = 9$
+        value: $log_919683 = 3$
       ans5:
         value: Don't Know
 ---

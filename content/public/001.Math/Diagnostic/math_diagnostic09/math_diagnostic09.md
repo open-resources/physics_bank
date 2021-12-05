@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $n$ = $\dfrac{(q)}{(w - 4b)} $
+    expr: $s$ = $\dfrac{(n)}{(f - 9j)} $
     part1:
       ans1:
-        value: w = ${ 4 b + \frac{q}{n}}$
+        value: f = ${ 9 j + \frac{n}{s}}$
       ans2:
-        value: w = ${- \frac{4 b n}{q}}$
+        value: f = ${- \frac{9 j s}{n}}$
       ans3:
-        value: w = ${- \frac{q}{4 b n}}$
+        value: f = ${- \frac{n}{9 j s}}$
       ans4:
-        value: w = ${\frac{4 b + n}{q}}$
+        value: f = ${\frac{9 j + s}{n}}$
       ans5:
         value: Don't Know
 ---
