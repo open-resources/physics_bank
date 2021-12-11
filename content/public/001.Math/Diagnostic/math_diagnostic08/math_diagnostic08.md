@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-24x + 28y }{ 4 }$
+    expr: $\dfrac{28x + 12y }{ -4 }$
     part1:
       ans1:
-        value: $- 6 x + 7 y$
+        value: $- 7 x - 3 y$
       ans2:
-        value: $\dfrac{-6x + 7y}{4}$
+        value: $\dfrac{-7x - 3y}{-4}$
       ans3:
-        value: $7x - 6y$
+        value: $-3x - 7y$
       ans4:
-        value: $-24x + 28y$
+        value: $28x - 12y$
       ans5:
         value: Don't know.
 ---

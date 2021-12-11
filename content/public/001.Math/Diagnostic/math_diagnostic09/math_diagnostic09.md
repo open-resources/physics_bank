@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $s$ = $\dfrac{(n)}{(f - 9j)} $
+    expr: $z$ = $\dfrac{(d)}{(w + 5x)} $
     part1:
       ans1:
-        value: f = ${ 9 j + \frac{n}{s}}$
+        value: w = ${ \frac{d}{z} - 5 x}$
       ans2:
-        value: f = ${- \frac{9 j s}{n}}$
+        value: w = ${\frac{5 x z}{d}}$
       ans3:
-        value: f = ${- \frac{n}{9 j s}}$
+        value: w = ${\frac{d}{5 x z}}$
       ans4:
-        value: f = ${\frac{9 j + s}{n}}$
+        value: w = ${\frac{- 5 x + z}{d}}$
       ans5:
         value: Don't Know
 ---

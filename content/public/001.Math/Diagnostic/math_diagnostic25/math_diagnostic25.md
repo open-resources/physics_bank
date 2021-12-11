@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice Q25
-    expr: $\dfrac{ 3-e^{(-8x)}}{7-x}$
+    expr: $\dfrac{ 2-e^{(-4x)}}{8-x}$
     part1:
       ans1:
-        value: 2/7
+        value: 1/8
       ans2:
         value: Negative Infinity
       ans3:
-        value: 0.42857142857142855
+        value: 0.25
       ans4:
-        value: 3
+        value: 2
       ans5:
         value: Don't Know
 ---

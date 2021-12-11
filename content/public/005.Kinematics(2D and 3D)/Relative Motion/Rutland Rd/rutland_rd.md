@@ -24,6 +24,14 @@ tags:
 assets:
 - q1.png
 part1:
+  type: number-input
+  pl-customizations:
+    rtol: 0.05
+    weight: 1
+    allow-blank: true
+    label: $v= $
+    suffix: $km/h$
+part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
@@ -31,37 +39,60 @@ substitutions:
   params:
     vars:
       title: Rutland Rd
-      vehicle: semi-truck
+      vehicle: pickup truck
       units: km/h
-    v: 4
-    part1:
+    v: 21
+    part2:
       ans1:
-        value: 5.7 km/h [SW]
+        value: North
       ans2:
-        value: 5.7 km/h [NW]
+        value: North-East
       ans3:
-        value: 5.7 km/h [SE]
+        value: East
       ans4:
-        value: 4 km/h [North]
+        value: South-East
       ans5:
+        value: South
+      ans6:
+        value: South-West
+      ans7:
+        value: West
+      ans8:
+        value: North-West
+      ans9:
         value: Impossible to know without knowing how far each car is from the intersection.
 ---
 # {{ params.vars.title }}
-A {{params.vars.vehicle}} drives northward on Rutland Road North at {{params.v}} {{params.vars.units}} towards the intersection with 33rd Street.
-A second {{params.vars.vehicle}} drives eastward at {{params.v}} {{params.vars.units}} on 33rd Street having just left the same intersection as shown in Fig 1.
-As a passenger in the second {{params.vars.vehicle}}, the first {{params.vars.vehicle}} appears to travel:
+A {{ params.vars.vehicle }} drives northward on Rutland Road North at {{ params.v }} {{ params.vars.units }} towards the intersection with 33rd Street.
+A second {{ params.vars.vehicle }} drives eastward at {{params.v}} {{ params.vars.units }} on 33rd Street having just left the same intersection as shown in the figure below.
+
+As a passenger in the second {{ params.vars.vehicle }}, the first {{ params.vars.vehicle }} appears to travel at a velocity $v$.
 
 <img src="q1.png" width = 400px>
 
 ## Part 1
 
+What is the magnitude of $v$, in {{ params.vars.units }}?
+
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+Please enter in a numeric value in {{ params.vars.units }}.
+
+## Part 2
+
+What is the (cardinal) direction of $v$ ?
+
+### Answer Section
+
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
+- {{ params.part2.ans4.value }}
+- {{ params.part2.ans5.value }}
+- {{ params.part2.ans6.value }}
+- {{ params.part2.ans7.value }}
+- {{ params.part2.ans8.value }}
+- {{ params.part2.ans9.value }}
 
 ## Attribution
 
