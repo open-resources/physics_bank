@@ -31,16 +31,16 @@ substitutions:
     vars:
       title: Angular Speed
       units: rad/s
-    rev: 7
+    rev: 10
     part1:
       ans1:
-        value: 0.9
+        value: 0.63
       ans2:
-        value: 22.0
+        value: 31.0
       ans3:
-        value: 44.0
+        value: 63.0
       ans4:
-        value: 1.1
+        value: 1.6
 ---
 # {{ params.vars.title }}
 

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{24x + 27y }{ -3 }$
+    expr: $\dfrac{36x - 16y }{ 4 }$
     part1:
       ans1:
-        value: $- 8 x - 9 y$
+        value: $9 x - 4 y$
       ans2:
-        value: $\dfrac{-8x - 9y}{-3}$
+        value: $\dfrac{9x - 4y}{4}$
       ans3:
-        value: $-9x - 8y$
+        value: $-4x + 9y$
       ans4:
-        value: $24x - 27y$
+        value: $36x - 16y$
       ans5:
         value: Don't know.
 ---

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $e$ = $\dfrac{(m)}{(t + 8y)} $
+    expr: $j$ = $\dfrac{(v)}{(w + 8g)} $
     part1:
       ans1:
-        value: t = ${ - 8 y + \frac{m}{e}}$
+        value: w = ${ - 8 g + \frac{v}{j}}$
       ans2:
-        value: t = ${\frac{8 e y}{m}}$
+        value: w = ${\frac{8 g j}{v}}$
       ans3:
-        value: t = ${\frac{m}{8 e y}}$
+        value: w = ${\frac{v}{8 g j}}$
       ans4:
-        value: t = ${\frac{e - 8 y}{m}}$
+        value: w = ${\frac{- 8 g + j}{v}}$
       ans5:
         value: Don't Know
 ---

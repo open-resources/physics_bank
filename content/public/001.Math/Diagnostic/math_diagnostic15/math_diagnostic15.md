@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $5^{7} $=$ 78125$
+    expr: $3^{5} $=$ 243$
     part1:
       ans1:
-        value: $log_578125 = 7$
+        value: $log_3243 = 5$
       ans2:
-        value: $log_57 = 78125$
+        value: $log_35 = 243$
       ans3:
-        value: $log_781257 = 5$
+        value: $log_2435 = 3$
       ans4:
-        value: $log_778125 = 5$
+        value: $log_5243 = 3$
       ans5:
         value: Don't Know
 ---

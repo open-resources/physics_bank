@@ -44,10 +44,10 @@ substitutions:
   params:
     vars:
       title: Relative Motion of Two Planes
-    v: 269
-    h: 2447
-    d: 9217
-    t: 5
+    v: 341
+    h: 1600
+    d: 9181
+    t: 8
 ---
 # {{ params.vars.title }}
 <img src="L11Q3.png" width=85%>

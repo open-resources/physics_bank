@@ -42,9 +42,9 @@ substitutions:
   params:
     vars:
       title: Temperature Range of Resistor
-    p: 6
-    metal: Iron
-    T_0: 68
+    p: 3
+    metal: Silver
+    T_0: 87
 ---
 # {{ params.vars.title }}
 
