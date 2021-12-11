@@ -36,21 +36,21 @@ substitutions:
   params:
     vars:
       title: Cat in a Laundry Basket
-    w: 25
-    h: 66
+    w: 33
+    h: 38
     part1:
       ans1:
-        value: $\Delta t_1 >\Delta t_3 >\Delta t_2$ and $v_{x1} > v_{x2}$
+        value: $\Delta t_1 >\Delta t_3 >\Delta t_2$
       ans2:
-        value: $\Delta t_1>\Delta t_3>\Delta t_2$ and $v_{x2}>v_{x1}$
+        value: $\Delta t_1>\Delta t_3>\Delta t_2$
       ans3:
-        value: $\Delta t_1 =\Delta t_3 >\Delta t_2$ and $v_{x1} = v_{x2}$
+        value: $\Delta t_1 =\Delta t_3 >\Delta t_2$
       ans4:
-        value: $\Delta t_3 > \Delta t_1 >\Delta t_2$ and $v_{x1} > v_{x2}$
+        value: $\Delta t_3 > \Delta t_1 >\Delta t_2$
       ans5:
-        value: $\Delta t_3>\Delta t_1>\Delta t_2$ and $v_{x2}>v_{x1}$
+        value: $\Delta t_3>\Delta t_1>\Delta t_2$
       ans6:
-        value: $\Delta t_1>\Delta t_3>\Delta t_2$ and $v_{x2}=v_{x1}$
+        value: $\Delta t_1>\Delta t_3>\Delta t_2$
     part2:
       ans1:
         value: $v_{x1} > v_{x2}$

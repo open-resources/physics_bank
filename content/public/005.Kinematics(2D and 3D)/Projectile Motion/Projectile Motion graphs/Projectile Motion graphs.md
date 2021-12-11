@@ -25,6 +25,7 @@ part1:
   type: checkbox
   pl-customizations:
     weight: 1
+    fixed-order: true
     partial-credit: true
     partial-credit-method: EDC
 substitutions:

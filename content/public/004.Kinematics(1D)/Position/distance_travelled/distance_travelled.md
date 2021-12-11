@@ -29,19 +29,19 @@ part1:
 substitutions:
   params:
     vars:
-      name: Abbas
-      vehicle: rollerblades
+      name: Savannah
+      vehicle: a bicycle
       units: m
       title: Distance travelled
-    v: 6
-    t: 6
+    v: 5
+    t: 5
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 36
+        value: 25
       ans3:
-        value: 12
+        value: 10
       ans4:
         value: 1.0
       ans5:

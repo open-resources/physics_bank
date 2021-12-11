@@ -25,29 +25,22 @@ tags:
 - EW
 assets: null
 part1:
-  type: multiple-choice
+  type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
+    allow-blank: true
+    label: $J= $
+    suffix: $N\cdot s$
 substitutions:
   params:
     vars:
       title: Bouncing Ball
       units_m: kg
       units_h: m
-      units: kgm/s
-    m: 0.277
-    h: 1.4
-    part1:
-      ans1:
-        value: 1.0
-      ans2:
-        value: 1.5
-      ans3:
-        value: 2.1
-      ans4:
-        value: 2.9
-      ans5:
-        value: 3.8
+      units: kg m/s
+    m: 0.317
+    h: 1.6
 ---
 # {{ params.vars.title }}
 A ball of mass {{ params.m }} {{ params.vars.units_m}} is dropped vertically from a height of {{ params.h }} {{ params.vars.units_h}} and bounces back to the original height.
@@ -58,11 +51,7 @@ What is the magnitude of the impulse that the floor exerts on the ball during th
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
-- {{ params.part1.ans5.value }} {{ params.vars.units}}
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

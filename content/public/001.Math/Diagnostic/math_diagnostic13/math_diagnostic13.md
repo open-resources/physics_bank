@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 13
-    expr: $\dfrac{z^8 }{z^3} $
+    expr: $\dfrac{z^8 }{z^2} $
     part1:
       ans1:
-        value: $z^{5}$
+        value: $z^{6}$
       ans2:
-        value: $z^{-5}$
+        value: $z^{-6}$
       ans3:
-        value: 5z
+        value: 6z
       ans4:
-        value: (8/3)z
+        value: (4)z
       ans5:
         value: Don't Know
 ---

@@ -36,10 +36,10 @@ substitutions:
       vehicle: bus
       title: Displacement of a Vehicle
       units: blocks
-    c1: 19
-    c2: 91
-    c3: 16
-    dir1: south
+    c1: 30
+    c2: 67
+    c3: 5
+    dir1: west
     dir2: east
     dir3: west
 ---

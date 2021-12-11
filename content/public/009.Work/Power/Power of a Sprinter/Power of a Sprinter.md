@@ -35,9 +35,9 @@ substitutions:
       title: Power of a Sprinter
       units: W
     v: 8
-    t: 1
-    m: 84
-    v2: 3
+    t: 4
+    m: 67
+    v2: 4
 ---
 # {{ params.vars.title }}
 A {{ params.m }}$kg$ sprinter accelerates uniformly from rest to reach their maximum speed of {{ params.v }}$m/s$ in {{ params.t }} seconds.

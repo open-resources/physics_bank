@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $s$ = $\dfrac{(b)}{(n + 5v)} $
+    expr: $t$ = $\dfrac{(b)}{(z + 2n)} $
     part1:
       ans1:
-        value: n = ${ \frac{b}{s} - 5 v}$
+        value: z = ${ \frac{b}{t} - 2 n}$
       ans2:
-        value: n = ${\frac{5 s v}{b}}$
+        value: z = ${\frac{2 n t}{b}}$
       ans3:
-        value: n = ${\frac{b}{5 s v}}$
+        value: z = ${\frac{b}{2 n t}}$
       ans4:
-        value: n = ${\frac{s - 5 v}{b}}$
+        value: z = ${\frac{- 2 n + t}{b}}$
       ans5:
         value: Don't Know
 ---

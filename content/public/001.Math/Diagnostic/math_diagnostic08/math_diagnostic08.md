@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{35x - 21y }{ -7 }$
+    expr: $\dfrac{24x + 36y }{ 6 }$
     part1:
       ans1:
-        value: $- 5 x + 3 y$
+        value: $4 x + 6 y$
       ans2:
-        value: $\dfrac{-5x + 3y}{-7}$
+        value: $\dfrac{4x + 6y}{6}$
       ans3:
-        value: $3x - 5y$
+        value: $6x + 4y$
       ans4:
-        value: $35x + 21y$
+        value: $24x + 36y$
       ans5:
         value: Don't know.
 ---
