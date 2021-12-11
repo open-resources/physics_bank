@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice Q25
-    expr: $\dfrac{ 9-e^{(-5x)}}{10-x}$
+    expr: $\dfrac{ 6-e^{(-8x)}}{8-x}$
     part1:
       ans1:
-        value: 4/5
+        value: 5/8
       ans2:
         value: Negative Infinity
       ans3:
-        value: 0.9
+        value: 0.75
       ans4:
-        value: 9
+        value: 6
       ans5:
         value: Don't Know
 ---

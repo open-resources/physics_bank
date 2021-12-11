@@ -29,7 +29,7 @@ substitutions:
   params:
     vars:
       title: Energy Consumption Units
-      name: Savannah
+      name: Emilia
     part1:
       ans1:
         value: energy

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $t$ = $\dfrac{(b)}{(z + 2n)} $
+    expr: $v$ = $\dfrac{(u)}{(l + 9n)} $
     part1:
       ans1:
-        value: z = ${ \frac{b}{t} - 2 n}$
+        value: l = ${ - 9 n + \frac{u}{v}}$
       ans2:
-        value: z = ${\frac{2 n t}{b}}$
+        value: l = ${\frac{9 n v}{u}}$
       ans3:
-        value: z = ${\frac{b}{2 n t}}$
+        value: l = ${\frac{u}{9 n v}}$
       ans4:
-        value: z = ${\frac{- 2 n + t}{b}}$
+        value: l = ${\frac{- 9 n + v}{u}}$
       ans5:
         value: Don't Know
 ---

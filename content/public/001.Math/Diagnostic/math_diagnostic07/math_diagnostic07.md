@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 10x - 9y = 37
-    formula2: 6x + 2y = 33
+    formula1: 8x - 3y = 34
+    formula2: 2x + 3y = 48
     part1:
       ans1:
-        value: ' x =371/74, y =54/37'
+        value: ' x =41/5, y =158/15'
       ans2:
-        value: ' x =54/37, y =371/74'
+        value: ' x =158/15, y =41/5'
       ans3:
-        value: ' x =-371/74, y =-54/37'
+        value: ' x =-41/5, y =-158/15'
       ans4:
-        value: ' x =-54/37, y =-371/74'
+        value: ' x =-158/15, y =-41/5'
       ans5:
         value: Don't Know
 ---

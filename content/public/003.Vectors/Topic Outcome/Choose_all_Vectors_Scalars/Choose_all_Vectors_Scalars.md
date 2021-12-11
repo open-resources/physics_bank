@@ -35,15 +35,15 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: Momentum
+        value: Displacement
       ans2:
-        value: velocity
+        value: The position in 3 dimensions
       ans3:
-        value: The average velocity
+        value: The position in a 1 dimensional system
       ans4:
-        value: Lift
+        value: Entropy
       ans5:
-        value: Length
+        value: Density
       ans6:
         value: Energy
 ---

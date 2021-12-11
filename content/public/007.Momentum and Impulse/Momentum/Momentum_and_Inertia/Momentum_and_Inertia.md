@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Momentum and Inertia
-      vehicle: van
+      vehicle: sedan
     part1:
       ans1:
         value: The bee has greater momentum, and also greater inertia.
       ans2:
-        value: The van has greater momentum, while the bee has greater inertia.
+        value: The sedan has greater momentum, while the bee has greater inertia.
       ans3:
-        value: The van has greater momentum, and also  greater inertia.
+        value: The sedan has greater momentum, and also  greater inertia.
       ans4:
-        value: The bee has greater momentum, while the van has greater inertia.
+        value: The bee has greater momentum, while the sedan has greater inertia.
       ans5:
         value: It can’t be determined from this information.
 ---

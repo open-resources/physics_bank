@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $3^{4} $=$ 81$
+    expr: $9^{4} $=$ 6561$
     part1:
       ans1:
-        value: $log_381 = 4$
+        value: $log_96561 = 4$
       ans2:
-        value: $log_34 = 81$
+        value: $log_94 = 6561$
       ans3:
-        value: $log_814 = 3$
+        value: $log_65614 = 9$
       ans4:
-        value: $log_481 = 3$
+        value: $log_46561 = 9$
       ans5:
         value: Don't Know
 ---
