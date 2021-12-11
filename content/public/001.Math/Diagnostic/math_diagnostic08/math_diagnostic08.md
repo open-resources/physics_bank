@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-72x - 54y }{ -9 }$
+    expr: $\dfrac{24x + 27y }{ -3 }$
     part1:
       ans1:
-        value: $8 x + 6 y$
+        value: $- 8 x - 9 y$
       ans2:
-        value: $\dfrac{8x + 6y}{-9}$
+        value: $\dfrac{-8x - 9y}{-3}$
       ans3:
-        value: $6x + 8y$
+        value: $-9x - 8y$
       ans4:
-        value: $-72x + 54y$
+        value: $24x - 27y$
       ans5:
         value: Don't know.
 ---

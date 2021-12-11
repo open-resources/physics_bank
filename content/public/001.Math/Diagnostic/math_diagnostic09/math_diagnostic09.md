@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $v$ = $\dfrac{(u)}{(l + 9n)} $
+    expr: $e$ = $\dfrac{(m)}{(t + 8y)} $
     part1:
       ans1:
-        value: l = ${ - 9 n + \frac{u}{v}}$
+        value: t = ${ - 8 y + \frac{m}{e}}$
       ans2:
-        value: l = ${\frac{9 n v}{u}}$
+        value: t = ${\frac{8 e y}{m}}$
       ans3:
-        value: l = ${\frac{u}{9 n v}}$
+        value: t = ${\frac{m}{8 e y}}$
       ans4:
-        value: l = ${\frac{- 9 n + v}{u}}$
+        value: t = ${\frac{e - 8 y}{m}}$
       ans5:
         value: Don't Know
 ---

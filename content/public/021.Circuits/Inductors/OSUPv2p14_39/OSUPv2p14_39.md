@@ -41,8 +41,8 @@ substitutions:
       title: Alternating Current in a Coil
     I0: '2.0'
     L: '3.0'
-    k: '106'
-    mult: '636'
+    k: '113'
+    mult: '678'
 ---
 # {{ params.vars.title }}
 A coil with a self-inductance of ${{ params.L }}\rm\ H$ carries a current that varies with time according to $I(t) = ({{ params.I0 }}{\rm\ A}) \sin{\!({{ params.k }} \pi t)}$.
