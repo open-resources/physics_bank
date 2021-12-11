@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $z$ = $\dfrac{(d)}{(w + 5x)} $
+    expr: $s$ = $\dfrac{(b)}{(n + 5v)} $
     part1:
       ans1:
-        value: w = ${ \frac{d}{z} - 5 x}$
+        value: n = ${ \frac{b}{s} - 5 v}$
       ans2:
-        value: w = ${\frac{5 x z}{d}}$
+        value: n = ${\frac{5 s v}{b}}$
       ans3:
-        value: w = ${\frac{d}{5 x z}}$
+        value: n = ${\frac{b}{5 s v}}$
       ans4:
-        value: w = ${\frac{- 5 x + z}{d}}$
+        value: n = ${\frac{s - 5 v}{b}}$
       ans5:
         value: Don't Know
 ---

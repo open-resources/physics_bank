@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice Q25
-    expr: $\dfrac{ 2-e^{(-4x)}}{8-x}$
+    expr: $\dfrac{ 5-e^{(-4x)}}{9-x}$
     part1:
       ans1:
-        value: 1/8
+        value: 4/9
       ans2:
         value: Negative Infinity
       ans3:
-        value: 0.25
+        value: 0.5555555555555556
       ans4:
-        value: 2
+        value: 5
       ans5:
         value: Don't Know
 ---

@@ -31,23 +31,23 @@ substitutions:
   params:
     vars:
       title: Vehicle Crash
-      name: Santiago
-      vehicle_1: car
-      vehicle_2: van
-    dist: 3.92
+      name: Mateo
+      vehicle_1: sedan
+      vehicle_2: sedan
+    dist: 2.1
     v: 33.4
-    acc: 14.8
+    acc: 10.7
     s_1: 0.2
-    s_2: 1.608
+    s_2: 1.957
     part1:
       ans1:
-        value: 12.56 $m/s$
+        value: 14.6 $m/s$
       ans2:
-        value: 9.602 $m/s$
+        value: 12.46 $m/s$
       ans3:
-        value: 30.44 $m/s$
+        value: 31.26 $m/s$
       ans4:
-        value: 6.642 $m/s$
+        value: 10.32 $m/s$
       ans5:
         value: 33.4 $m/s$
 ---

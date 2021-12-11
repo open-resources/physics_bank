@@ -22,26 +22,28 @@ tags:
 assets:
 - q1_2013Mid1.png
 part1:
-  type: multiple-choice
+  type: checkbox
   pl-customizations:
     weight: 1
+    partial-credit: true
+    partial-credit-method: EDC
 substitutions:
   params:
     vars:
       title: Graphs of Projectile Motion
     part1:
       ans1:
-        value: Graphs (ii) and (v)
+        value: Graph (i)
       ans2:
-        value: Graphs (ii) and (vi)
+        value: Graph (ii)
       ans3:
-        value: Graphs (i) and (iv)
+        value: Graph (iii)
       ans4:
-        value: Graphs (iii) and (vi)
+        value: Graph (iv)
       ans5:
-        value: Graphs (i) and (v)
+        value: Graph (v)
       ans6:
-        value: Graphs (iv) and (v)
+        value: Graph (vi)
 ---
 # {{ params.vars.title }}
 

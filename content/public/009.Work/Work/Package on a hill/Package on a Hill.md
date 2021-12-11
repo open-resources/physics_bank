@@ -34,11 +34,11 @@ substitutions:
   params:
     vars:
       title: Package on a Hill
-    m: 46
-    va: 1
+    m: 51
+    va: 3
     vb: 23
-    h: 19
-    d: 25
+    h: 30
+    d: 39
 ---
 # {{ params.vars.title }}
 <img src="Package on a Hill.png" width=400>

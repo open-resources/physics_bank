@@ -34,9 +34,9 @@ substitutions:
   params:
     vars:
       title: Stiffness of a Spring
-    h: 426
-    F: 197
-    x: 152
+    h: 476
+    F: 188
+    x: 109
     d: 33
     m: 7
 ---

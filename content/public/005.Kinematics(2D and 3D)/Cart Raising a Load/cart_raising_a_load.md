@@ -36,8 +36,8 @@ substitutions:
     vars:
       title: Cart raising a load
       units: m/s
-    v_a: 3
-    x: 4
+    v_a: 5
+    x: 3
     h: 2
 ---
 # {{ params.vars.title }}

@@ -48,8 +48,8 @@ substitutions:
   params:
     vars:
       title: Force between parallel currents
-    d: '16.0'
-    I: '42.0'
+    d: '14.0'
+    I: '66.0'
     txt: the same direction
     part2:
       ans1:

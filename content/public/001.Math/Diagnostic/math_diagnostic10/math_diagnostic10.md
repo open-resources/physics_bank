@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Math Practice Q10
-    a: 10
-    b: '14'
+    a: -10
+    b: '10'
     b_sign: ' + '
-    c: -13
+    c: 3
     part1:
       ans1:
-        value: x =  - 23/14
+        value: x =   13/10
       ans2:
-        value: x =   23/14
+        value: x =  - 13/10
       ans3:
-        value: x = -37
+        value: x = 3
       ans4:
         value: x = -17
       ans5:

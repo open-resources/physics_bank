@@ -28,12 +28,16 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+part2:
+  type: multiple-choice
+  pl-customizations:
+    weight: 1
 substitutions:
   params:
     vars:
       title: Cat in a Laundry Basket
-    w: 31
-    h: 57
+    w: 25
+    h: 66
     part1:
       ans1:
         value: $\Delta t_1 >\Delta t_3 >\Delta t_2$ and $v_{x1} > v_{x2}$
@@ -47,6 +51,19 @@ substitutions:
         value: $\Delta t_3>\Delta t_1>\Delta t_2$ and $v_{x2}>v_{x1}$
       ans6:
         value: $\Delta t_1>\Delta t_3>\Delta t_2$ and $v_{x2}=v_{x1}$
+    part2:
+      ans1:
+        value: $v_{x1} > v_{x2}$
+      ans2:
+        value: $v_{x2}>v_{x1}$
+      ans3:
+        value: $v_{x1} = v_{x2}$
+      ans4:
+        value: $v_{x1} > v_{x2}$
+      ans5:
+        value: $v_{x2}>v_{x1}$
+      ans6:
+        value: $v_{x2}=v_{x1}$
 ---
 # {{ params.vars.title }}
 A cat jumps out of a laundry basket, travelling $w = $ {{ params.w }} $cm$ horizontally before just clearing the $h =$ {{ params.h }} $cm$ high edge of the basket.The parabolic trajectories of three different jumps labelled 1, 2 and 3 are shown in Fig. 1.
@@ -63,7 +80,7 @@ Trajectory 3 has the second highest peak and the largest range. <br>
 
 ## Part 1
 
-Rank the time in the air ($\Delta t_1, \Delta t_2, \Delta t_3$ respectively) of the cat on each path and the relative sizes of the $x-$components of the velocity vectors for paths 1 ($v\_{x1}$) and 2 ($v\_{x2}$).
+Rank the time in the air ($\Delta t_1, \Delta t_2, \Delta t_3$ respectively) of the cat on each path.
 
 ### Answer Section
 
@@ -73,6 +90,19 @@ Rank the time in the air ($\Delta t_1, \Delta t_2, \Delta t_3$ respectively) of 
 - {{ params.part1.ans4.value }}
 - {{ params.part1.ans5.value }}
 - {{ params.part1.ans6.value }}
+
+## Part 2
+
+Rank the relative sizes of the $x-$components of the velocity vectors for path 1 ($v\_{x1}$) and path 2 ($v\_{x2}$).
+
+### Answer Section
+
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
+- {{ params.part2.ans4.value }}
+- {{ params.part2.ans5.value }}
+- {{ params.part2.ans6.value }}
 
 ## Attribution
 
