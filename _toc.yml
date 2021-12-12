@@ -111,6 +111,7 @@ parts:
       of an object/Velocity and acceleration of an object
   - file: content/public/004.Kinematics(1D)/NotationForDynamics/NotationForDynamics
   - file: content/public/004.Kinematics(1D)/water_slide/water_slide
+  - file: content/public/004.Kinematics(1D)/Acceleration/Racing Markers/Racing Markers
   - file: content/public/004.Kinematics(1D)/Motion Diagrams/Running_Dog/Running_Dog
   - file: content/public/004.Kinematics(1D)/Free Fall/Mount Etna/Mount Etna
   - file: content/public/004.Kinematics(1D)/Free Fall/Free Fall Turning Point/Free
@@ -241,6 +242,8 @@ parts:
       Conjunction
   - file: content/public/006.Force/Newton's Second Law/Force_On_An_Object/Force_On_An_Object
   - file: content/public/006.Force/Newton's Second Law/Hockey net across ice/hocket_net_across_ice
+  - file: content/public/006.Force/Newton's Second Law/Blocks on a Table/Blocks on
+      a Table
   - file: content/public/006.Force/Drag/Cyclist with a Deathwish/cyclist
   - file: content/public/006.Force/Newton's First Law/Particle travelling with constant
       velocity/Particle travelling with constant velocity
