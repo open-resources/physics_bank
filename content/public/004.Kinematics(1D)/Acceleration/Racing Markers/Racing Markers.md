@@ -30,10 +30,10 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: van
+      vehicle: car
       title: Racing Markers
-      v1: 67
-      v2: 34.0
+      v1: 80
+      v2: 40.0
     part1:
       ans1:
         value: Marker 1
@@ -56,9 +56,9 @@ substitutions:
 A {{ params.vars.vehicle }} accelerates uniformly from rest along a straight track towards the left.
 The track has five markers: Start, and Markers 1-4.
 Each marker is equally spaced so Marker 2 is halfway between Start and Marker 4.
-The car reaches a speed of {{ params.vars.v1 }} m/s as it passes the last marker, Marker 4.
+The {{ params.vars.vehicle }} reaches a speed of {{ params.vars.v1 }} m/s as it passes the last marker, Marker 4.
 
-<img src="blocks_on_table.png">
+<img src="car_markers.png">
 
 ## Part 1
 

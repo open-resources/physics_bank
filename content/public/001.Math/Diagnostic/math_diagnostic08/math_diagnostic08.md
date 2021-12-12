@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{15x - 15y }{ -5 }$
+    expr: $\dfrac{42x - 54y }{ 6 }$
     part1:
       ans1:
-        value: $- 3 x + 3 y$
+        value: $7 x - 9 y$
       ans2:
-        value: $\dfrac{-3x + 3y}{-5}$
+        value: $\dfrac{7x - 9y}{6}$
       ans3:
-        value: $3x - 3y$
+        value: $-9x + 7y$
       ans4:
-        value: $15x + 15y$
+        value: $42x - 54y$
       ans5:
         value: Don't know.
 ---

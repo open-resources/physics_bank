@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $c$ = $\dfrac{(l)}{(a - 4i)} $
+    expr: $v$ = $\dfrac{(j)}{(g + 7r)} $
     part1:
       ans1:
-        value: a = ${ 4 i + \frac{l}{c}}$
+        value: g = ${ \frac{j}{v} - 7 r}$
       ans2:
-        value: a = ${- \frac{4 c i}{l}}$
+        value: g = ${\frac{7 r v}{j}}$
       ans3:
-        value: a = ${- \frac{l}{4 c i}}$
+        value: g = ${\frac{j}{7 r v}}$
       ans4:
-        value: a = ${\frac{c + 4 i}{l}}$
+        value: g = ${\frac{- 7 r + v}{j}}$
       ans5:
         value: Don't Know
 ---

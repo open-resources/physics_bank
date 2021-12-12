@@ -43,8 +43,8 @@ substitutions:
     vars:
       title: Cars on a track
       units: $m/s$
-    r1: 24
-    r2: 42
+    r1: 11
+    r2: 19
 ---
 # {{ params.vars.title }}
 Two cars travel side by side on an even, unbanked turn in a roadway.
