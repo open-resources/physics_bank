@@ -57,9 +57,9 @@ substitutions:
       units1: $\frac{m}{s^2}$
       units2: N
     m_a: 5
-    m_b: 11
-    m_c: 17
-    f_a: 97
+    m_b: 16
+    m_c: 16
+    f_a: 50
 ---
 # {{ params.vars.title }}
 Assume the three blocks portrayed in the figure move on a frictionless surface and a {{params.f_a}} N force

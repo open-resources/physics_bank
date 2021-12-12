@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $6^{4} $=$ 1296$
+    expr: $7^{9} $=$ 40353607$
     part1:
       ans1:
-        value: $log_61296 = 4$
+        value: $log_740353607 = 9$
       ans2:
-        value: $log_64 = 1296$
+        value: $log_79 = 40353607$
       ans3:
-        value: $log_12964 = 6$
+        value: $log_403536079 = 7$
       ans4:
-        value: $log_41296 = 6$
+        value: $log_940353607 = 7$
       ans5:
         value: Don't Know
 ---

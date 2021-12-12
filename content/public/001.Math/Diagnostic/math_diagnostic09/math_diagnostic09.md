@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $v$ = $\dfrac{(j)}{(g + 7r)} $
+    expr: $b$ = $\dfrac{(p)}{(j - 9i)} $
     part1:
       ans1:
-        value: g = ${ \frac{j}{v} - 7 r}$
+        value: j = ${ 9 i + \frac{p}{b}}$
       ans2:
-        value: g = ${\frac{7 r v}{j}}$
+        value: j = ${- \frac{9 b i}{p}}$
       ans3:
-        value: g = ${\frac{j}{7 r v}}$
+        value: j = ${- \frac{p}{9 b i}}$
       ans4:
-        value: g = ${\frac{- 7 r + v}{j}}$
+        value: j = ${\frac{b + 9 i}{p}}$
       ans5:
         value: Don't Know
 ---

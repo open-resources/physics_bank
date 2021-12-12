@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{42x - 54y }{ 6 }$
+    expr: $\dfrac{-32x + 32y }{ 4 }$
     part1:
       ans1:
-        value: $7 x - 9 y$
+        value: $- 8 x + 8 y$
       ans2:
-        value: $\dfrac{7x - 9y}{6}$
+        value: $\dfrac{-8x + 8y}{4}$
       ans3:
-        value: $-9x + 7y$
+        value: $8x - 8y$
       ans4:
-        value: $42x - 54y$
+        value: $-32x + 32y$
       ans5:
         value: Don't know.
 ---

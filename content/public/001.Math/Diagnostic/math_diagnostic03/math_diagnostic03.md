@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 10x + -10 > -10x + -4
+      formula: 8x + -10 > -3x + -4
     part1:
       ans1:
-        value: x > 3/10
+        value: x > 6/11
       ans2:
-        value: x < 3/10
+        value: x < 6/11
       ans3:
-        value: x < 10/3
+        value: x < 11/6
       ans4:
-        value: x > 10/3
+        value: x > 11/6
       ans5:
         value: Don't Know
 ---

@@ -30,21 +30,21 @@ substitutions:
   params:
     vars:
       title: Shooting a Steel Ball
-    v: 2
-    theta: 70
+    v: 3
+    theta: 79
     part1:
       ans1:
-        value: $(2\cos(70^{\circ}), \; -2\sin(70^{\circ}))$
+        value: $(3\cos(79^{\circ}), \; -3\sin(79^{\circ}))$
       ans2:
-        value: $(2\cos(70^{\circ}), \;2\sin(70^{\circ}))$
+        value: $(3\cos(79^{\circ}), \;3\sin(79^{\circ}))$
       ans3:
-        value: $(2\sin(70^{\circ}), \; -2\cos(70^{\circ}))$
+        value: $(3\sin(79^{\circ}), \; -3\cos(79^{\circ}))$
       ans4:
-        value: $(2\sin(70^{\circ}), \;2\cos(70^{\circ}))$
+        value: $(3\sin(79^{\circ}), \;3\cos(79^{\circ}))$
       ans5:
-        value: $(-2\cos(70^{\circ}), \; -2\sin(70^{\circ}))$
+        value: $(-3\cos(79^{\circ}), \; -3\sin(79^{\circ}))$
       ans6:
-        value: $(-2\sin(70^{\circ}), \;2\cos(70^{\circ}))$
+        value: $(-3\sin(79^{\circ}), \;3\cos(79^{\circ}))$
 ---
 # {{ params.vars.title }}
 A small steel ball is shot at {{ params.v }} $m/s$ at a {{ params.theta }}$^{\circ}$ angle above the horizontal direction and its motion is well approximated by projectile motion.

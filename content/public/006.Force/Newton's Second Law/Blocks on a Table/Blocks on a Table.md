@@ -30,9 +30,9 @@ substitutions:
   params:
     vars:
       title: Blocks on a Table
-    m1: 5
-    m2: 3
-    m3: 15
+    m1: 9
+    m2: 15
+    m3: 24
     part1:
       ans1:
         value: Block A has the highest net force.
@@ -53,7 +53,7 @@ Block C is pulled to the right by a large force $F_A$ that causes the entire sys
 
 Which of the following statements is true?
 
-<img src="blocks_on_table.png">
+<img src="blocks_on_table.png" width=100%>
 
 ## Part 1
 
