@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $3^{5} $=$ 243$
+    expr: $3^{7} $=$ 2187$
     part1:
       ans1:
-        value: $log_3243 = 5$
+        value: $log_32187 = 7$
       ans2:
-        value: $log_35 = 243$
+        value: $log_37 = 2187$
       ans3:
-        value: $log_2435 = 3$
+        value: $log_21877 = 3$
       ans4:
-        value: $log_5243 = 3$
+        value: $log_72187 = 3$
       ans5:
         value: Don't Know
 ---

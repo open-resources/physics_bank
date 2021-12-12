@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $j$ = $\dfrac{(v)}{(w + 8g)} $
+    expr: $r$ = $\dfrac{(d)}{(x - 6y)} $
     part1:
       ans1:
-        value: w = ${ - 8 g + \frac{v}{j}}$
+        value: x = ${ \frac{d}{r} + 6 y}$
       ans2:
-        value: w = ${\frac{8 g j}{v}}$
+        value: x = ${- \frac{6 r y}{d}}$
       ans3:
-        value: w = ${\frac{v}{8 g j}}$
+        value: x = ${- \frac{d}{6 r y}}$
       ans4:
-        value: w = ${\frac{- 8 g + j}{v}}$
+        value: x = ${\frac{r + 6 y}{d}}$
       ans5:
         value: Don't Know
 ---

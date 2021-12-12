@@ -35,7 +35,7 @@ substitutions:
     vars:
       title: Ball in the wind
       units: ${\circ}$
-    v0: 19
+    v0: 13
     wind_speed: 2.5
 ---
 # {{ params.vars.title }}

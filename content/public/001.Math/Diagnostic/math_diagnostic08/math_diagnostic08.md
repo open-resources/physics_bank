@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{36x - 16y }{ 4 }$
+    expr: $\dfrac{35x - 14y }{ -7 }$
     part1:
       ans1:
-        value: $9 x - 4 y$
+        value: $- 5 x + 2 y$
       ans2:
-        value: $\dfrac{9x - 4y}{4}$
+        value: $\dfrac{-5x + 2y}{-7}$
       ans3:
-        value: $-4x + 9y$
+        value: $2x - 5y$
       ans4:
-        value: $36x - 16y$
+        value: $35x + 14y$
       ans5:
         value: Don't know.
 ---
