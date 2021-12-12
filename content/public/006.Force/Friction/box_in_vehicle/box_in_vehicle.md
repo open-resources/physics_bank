@@ -32,7 +32,7 @@ substitutions:
     vars:
       title: Box in a Vehicle
       vehicle: semi-truck
-      direction: negative
+      direction: positive
     part1:
       ans1:
         value: Kinetic friction, positive x-direction

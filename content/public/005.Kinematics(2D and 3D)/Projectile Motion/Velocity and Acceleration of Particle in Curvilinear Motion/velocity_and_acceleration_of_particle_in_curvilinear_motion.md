@@ -44,7 +44,7 @@ substitutions:
     x_position: -3
     t: 0
     y_position: 0
-    vxcon: 22
+    vxcon: 27
     vxcof: 11
 ---
 # {{ params.vars.title }}

@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $3^{7} $=$ 2187$
+    expr: $3^{9} $=$ 19683$
     part1:
       ans1:
-        value: $log_32187 = 7$
+        value: $log_319683 = 9$
       ans2:
-        value: $log_37 = 2187$
+        value: $log_39 = 19683$
       ans3:
-        value: $log_21877 = 3$
+        value: $log_196839 = 3$
       ans4:
-        value: $log_72187 = 3$
+        value: $log_919683 = 3$
       ans5:
         value: Don't Know
 ---

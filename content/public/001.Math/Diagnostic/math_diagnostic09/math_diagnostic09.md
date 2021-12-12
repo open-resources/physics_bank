@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $r$ = $\dfrac{(d)}{(x - 6y)} $
+    expr: $c$ = $\dfrac{(l)}{(a - 4i)} $
     part1:
       ans1:
-        value: x = ${ \frac{d}{r} + 6 y}$
+        value: a = ${ 4 i + \frac{l}{c}}$
       ans2:
-        value: x = ${- \frac{6 r y}{d}}$
+        value: a = ${- \frac{4 c i}{l}}$
       ans3:
-        value: x = ${- \frac{d}{6 r y}}$
+        value: a = ${- \frac{l}{4 c i}}$
       ans4:
-        value: x = ${\frac{r + 6 y}{d}}$
+        value: a = ${\frac{c + 4 i}{l}}$
       ans5:
         value: Don't Know
 ---

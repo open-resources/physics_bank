@@ -37,15 +37,15 @@ substitutions:
       ans1:
         value: Lift
       ans2:
-        value: The position in 3 dimensions
+        value: velocity
       ans3:
-        value: Distance travelled
+        value: The average velocity
       ans4:
-        value: Energy
-      ans5:
-        value: Work
-      ans6:
         value: Length
+      ans5:
+        value: Pressure
+      ans6:
+        value: Distance travelled
 ---
 # {{ params.vars.title }}
 

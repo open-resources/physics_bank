@@ -51,9 +51,9 @@ substitutions:
     vars:
       title: Parcel from Aircraft 3D
       units: ft
-    z0: 1367
-    y0: 1425
-    vx0: 242
+    z0: 1389
+    y0: 1474
+    vx0: 218
     vy0: 30
 ---
 # {{ params.vars.title }}

@@ -58,18 +58,18 @@ substitutions:
   params:
     vars:
       title: Terminal Velocity of a Coffee Filter
-      name: Savannah
+      name: Maya
       unit1: $m/s$
       unit2: $kg/s$
     m: 2
-    d_m: 41
-    sd: 0.096
+    d_m: 40
+    sd: 0.045
     v1: 0.85
-    v2: 0.73
-    v3: 0.89
-    v4: 0.98
-    v5: 0.95
-    v6: 0.74
+    v2: 0.81
+    v3: 0.73
+    v4: 0.77
+    v5: 0.72
+    v6: 0.79
 ---
 # {{ params.vars.title }}
 In one of the PHYS 111 labs {{ params.vars.name }} measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling through the air.

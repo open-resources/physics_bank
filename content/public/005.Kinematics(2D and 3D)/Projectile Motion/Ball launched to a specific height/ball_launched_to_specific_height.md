@@ -58,15 +58,13 @@ substitutions:
   params:
     vars:
       title: Projectile of ball launched to a specific height
-    v0: 312
-    distance: 430
+    v0: 270
+    distance: 414
 ---
 # {{ params.vars.title }}
-A ball is launched vertically at point A with an initial speed of $v = {{params.v0}} ft/sec$.
-Relative to an observer {{params.distance}} $ft$ away at B:
-Compute the magnitude of speed of the ball
-
-at each time. Ignore air resistance.
+A ball is launched vertically at Point A with an initial speed of $v = {{params.v0}} m/s$.
+It passes through the Point C twice, once on the way up ($t_1$), and again on the way down ($t_2$).
+Ignoring air resistance and drag, answer the following questions **relative to an observer standing** {{params.distance}} $m$ away, at Point B.
 
 <img src="L4Q4.png" width=80%>
 
@@ -74,13 +72,17 @@ at each time. Ignore air resistance.
 
 At what time $t_1$ will the line of sight make a $\theta$ = 45 $^{\circ}$ angle with the horizontal?
 
+*Hint: The line of sight is the dotted line connecting Point B to Point C.*
+
 ### Answer Section
 
 Please enter in a numeric value in $seconds$.
 
 ## Part 2
 
-At what time $t_2$ will the line of sight make a $\theta$ = 45 $^{\circ}$ angle with the horizontal?
+At what time $t_2 s$ will the line of sight make a $\theta$ = 45 $^{\circ}$ angle with the horizontal?
+
+*Hint: The line of sight is the dotted line connecting Point B to Point C.*
 
 ### Answer Section
 
@@ -88,19 +90,19 @@ At what time $t_2$ will the line of sight make a $\theta$ = 45 $^{\circ}$ angle 
 
 ## Part 3
 
-Compute the magnitude of speed of the ball at $t_1 seconds$.
+Compute the magnitude of speed of the ball at $t_1 s$.
 
 ### Answer Section
 
-Please enter in a numeric value in $ft/s$.
+Please enter in a numeric value in $m/s$.
 
 ## Part 4
 
-Compute the magnitude of speed of the ball at $t_2 seconds$.
+Compute the magnitude of speed of the ball at $t_2 s$.
 
 ### Answer Section
 
-Please enter in a numeric value in $ft/s$.
+Please enter in a numeric value in $m/s$.
 
 ## Attribution
 

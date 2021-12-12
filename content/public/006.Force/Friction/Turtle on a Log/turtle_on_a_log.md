@@ -46,22 +46,22 @@ substitutions:
       ans4:
         value: $F_n = mg\cos\theta$
       ans5:
-        value: "$F_n = 2\\cdot mg\tan\\theta$"
+        value: $F_n = 2\cdot mg tan\theta$
     part2:
       ans1:
         value: $F_{fs} = \mu_s mg$
-      ans2:
-        value: $F_{fs} = \mu_s mg \cos\theta$
       ans3:
         value: $F_{fs} = \mu_s mg\sin\theta$
+      ans2:
+        value: $F_{fs} = \mu_s mg \cos\theta$
       ans4:
         value: $F_{fs} = mg\sin\theta$
       ans5:
         value: $F_{fs} = mg\cos\theta$
       ans6:
-        value: "$F_{fs} = mg\tan\\theta$"
+        value: $F_{fs} = mg tan\theta$
       ans7:
-        value: "$F_{fs} = \\mu_s mg\tan\\theta$"
+        value: $F_{fs} = \mu_s mg tan\theta$
 ---
 # {{ params.vars.title }}
 A turtle lies on a log in the sun as shown in the figure below.
