@@ -72,6 +72,8 @@ parts:
       Filter/Terminal Velocity of Coffee Filter
   - file: content/public/002.Physics in General/Uncertainty/Uncertainty_of_Coefficient/Uncertainty_of_Coefficient
   - file: content/public/002.Physics in General/Uncertainty/projectile_uncertainty/projectile_uncertainty
+  - file: content/public/002.Physics in General/Solving Problems in Physics/Frictionless
+      Ski Jump Collision/Frictionless Ski Jump Collision
   - file: content/public/002.Physics in General/Units/Potato Density/Potato Density
   - file: content/public/002.Physics in General/Units/weight unit conversion/weight_unit_conversion
   - file: content/public/002.Physics in General/density, mass and volume/potato_volume
@@ -188,6 +190,8 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Projectile Motion
       graphs/Projectile Motion graphs
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Slanted Table/slanted_table
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Archery Competition/Archery
+      Competition
   - file: content/public/005.Kinematics(2D and 3D)/Aircraft Liftoff 3D/aircraft_liftoff_3d
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Polar
       Coordinates from Function/polar_coords_from_func
@@ -327,6 +331,8 @@ parts:
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Collision_In_Outer_Space/Collision_In_Outer_Space
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Raindrops_Collision/raindrops_collision
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Blocks_On_Frictionless_Table/Blocks_On_Frictionless_Table
+  - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Bullet
+      and block/Bullet and block
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/System_Open_or_Closed/System_Open_or_Closed
 - caption: Energy
   chapters:
