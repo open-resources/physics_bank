@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 5x - 10y = 11
-    formula2: 10x + 5y = 42
+    formula1: 8x - 9y = 6
+    formula2: 3x + 1y = 39
     part1:
       ans1:
-        value: ' x =19/5, y =4/5'
+        value: ' x =51/5, y =42/5'
       ans2:
-        value: ' x =4/5, y =19/5'
+        value: ' x =42/5, y =51/5'
       ans3:
-        value: ' x =-19/5, y =-4/5'
+        value: ' x =-51/5, y =-42/5'
       ans4:
-        value: ' x =-4/5, y =-19/5'
+        value: ' x =-42/5, y =-51/5'
       ans5:
         value: Don't Know
 ---

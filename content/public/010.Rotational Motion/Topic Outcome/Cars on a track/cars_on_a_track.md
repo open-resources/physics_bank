@@ -43,13 +43,13 @@ substitutions:
     vars:
       title: Cars on a track
       units: $m/s$
-    r1: 27
-    r2: 43
+    r1: 22
+    r2: 25
 ---
 # {{ params.vars.title }}
-Two cars travel side by side on an even, unbanked turn in a roadway.
-Determine the maximum speed for each car if the normal acceleration is limited to g.
-$R\_{1} = {{params.r1}}m$, $R\_{2} = {{params.r2}}m$
+Two cars travel side by side on an even, unbanked turn on a roadway.
+Car A has a turn radius $R\_{1} = {{params.r1}}m$ and Car B has a turn radius $R\_{2} = {{params.r2}}m$.
+What is the maximum speed of each car if the centripetal acceleration is restricted to $g$ (Earth's gravitational constant)?
 
 <img src="L6Q1.png" width=85%>
 

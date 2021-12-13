@@ -34,22 +34,22 @@ substitutions:
   params:
     vars:
       title: Running Dog
-    choice: 'True'
+    choice: Untrue
     part1:
       ans1:
-        value: The dog is not moving between $t=2$ $s$ and $t=6$ $s$
+        value: The dog is moving at the same speed at time $t=8$ $s$ and $t=10$ $s$
       ans2:
-        value: The dog has an average velocity of $0$ $m/s$ between time $t=0$ $s$
-          and $t=8$ $s$
-      ans3:
         value: The dog has a negative acceleration at $t=9$ $s$
-      ans4:
+      ans3:
         value: The dog is slowing down at $t=7$ $s$
+      ans4:
+        value: The dog is moving at a constant velocity between $t=2$ $s$ and $t=6$
+          $s$
 ---
 # {{ params.vars.title }}
 Consider the following motion diagram for a dog running down a straight path.
 
-<img src="Q1.png" alt = "A displacement time graph showing the dog increasing by 2 meters from t equals 0 seconds to t equals 2 seconds. The dog is not moving from t equals 2 seconds to t equals 6 seconds. The dog decreases 2 meters from t equals 6 seconds to t equals 8 seconds. The dog decreases to negative 2 meters from t equals 8 second to t equals 10 seconds. The dog increases 2 meters from t equals 10 seconds to t equals 12 seconds." width = 300>
+<img src="Q1.png" alt = "A displacement time graph showing the dog increasing by 2 meters from t equals 0 seconds to t equals 2 seconds. The dog is not moving from t equals 2 seconds to t equals 6 seconds. The dog decreases 2 meters from t equals 6 seconds to t equals 8 seconds. The dog decreases to negative 2 meters from t equals 8 second to t equals 10 seconds. The dog increases 2 meters from t equals 10 seconds to t equals 12 seconds." width = 100%>
 
 ## Question Text
 

@@ -71,7 +71,7 @@ The turtle has mass $\rm m$, the log makes an angle $\theta$ with respect to the
 
 The magnitude of the normal force, $F_n$ is:
 
-<img src="turtleonlog.png" width="800">
+<img src="turtleonlog.png" width=100%>
 
 ### Answer Section
 

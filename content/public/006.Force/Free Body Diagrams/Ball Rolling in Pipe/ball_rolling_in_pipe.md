@@ -48,7 +48,7 @@ substitutions:
 A ball rolls counterclockwise around the inside of a horizontal pipe.
 The ball is fastest at the lowest point, slowest at the highest point.
 
-<img src="Q3.png" width=500 alt="A cross-section of a pipe with a ball rotating couterclockwise inside of it. Options A, B, C, D and E are arrows pointing right, left, down, down and to the right, and the zero vector, respectively.">
+<img src="Q3.png" width=100% alt="A cross-section of a pipe with a ball rotating couterclockwise inside of it. Options A, B, C, D and E are arrows pointing right, left, down, down and to the right, and the zero vector, respectively.">
 
 ## Part 1
 

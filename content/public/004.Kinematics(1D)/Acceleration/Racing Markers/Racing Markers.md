@@ -32,8 +32,8 @@ substitutions:
     vars:
       vehicle: car
       title: Racing Markers
-      v1: 31
-      v2: 16.0
+      v1: 48
+      v2: 24.0
     part1:
       ans1:
         value: Marker 1
@@ -58,7 +58,7 @@ The track has five markers: Start, and Markers 1-4.
 Each marker is equally spaced so Marker 2 is halfway between Start and Marker 4.
 The {{ params.vars.vehicle }} reaches a speed of {{ params.vars.v1 }} m/s as it passes the last marker, Marker 4.
 
-<img src="car_markers.png">
+<img src="car_markers.png" width=100%>
 
 ## Part 1
 

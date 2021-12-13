@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $a$ = $\dfrac{(p)}{(h - 10u)} $
+    expr: $w$ = $\dfrac{(a)}{(n + 3h)} $
     part1:
       ans1:
-        value: h = ${ 10 u + \frac{p}{a}}$
+        value: n = ${ \frac{a}{w} - 3 h}$
       ans2:
-        value: h = ${- \frac{10 a u}{p}}$
+        value: n = ${\frac{3 h w}{a}}$
       ans3:
-        value: h = ${- \frac{p}{10 a u}}$
+        value: n = ${\frac{a}{3 h w}}$
       ans4:
-        value: h = ${\frac{a + 10 u}{p}}$
+        value: n = ${\frac{- 3 h + w}{a}}$
       ans5:
         value: Don't Know
 ---
