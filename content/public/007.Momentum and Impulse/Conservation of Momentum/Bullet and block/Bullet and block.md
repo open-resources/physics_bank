@@ -32,22 +32,18 @@ part1:
 part2:
   type: number-input
   pl-customizations:
-    rtol: 0.02
+    rtol: 0.03
     weight: 1
     allow-blank: true
     label: $m= $
     suffix: kg
 substitutions:
   params:
-    vars:
-      name: Maya
-      title: Bullet and Block
-      units1: m/s
-      units2: kg
-    m_bullet: 568
-    m_block: 21
-    bullet_v: 663
-    slide_dnew: 11
+    m_bullet: 31
+    m_block: 20
+    bullet_v: 857
+    slide_d: 5
+    slide_dnew: 5.3
     coeff_k: 0.2
 ---
 # {{ params.vars.title }}

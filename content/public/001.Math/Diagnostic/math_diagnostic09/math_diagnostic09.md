@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $j$ = $\dfrac{(q)}{(v + 7p)} $
+    expr: $l$ = $\dfrac{(z)}{(y - 6x)} $
     part1:
       ans1:
-        value: v = ${ - 7 p + \frac{q}{j}}$
+        value: y = ${ 6 x + \frac{z}{l}}$
       ans2:
-        value: v = ${\frac{7 j p}{q}}$
+        value: y = ${- \frac{6 l x}{z}}$
       ans3:
-        value: v = ${\frac{q}{7 j p}}$
+        value: y = ${- \frac{z}{6 l x}}$
       ans4:
-        value: v = ${\frac{j - 7 p}{q}}$
+        value: y = ${\frac{l + 6 x}{z}}$
       ans5:
         value: Don't Know
 ---

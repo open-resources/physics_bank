@@ -37,14 +37,13 @@ substitutions:
     choice: 'True'
     part1:
       ans1:
-        value: The dog is moving at a constant velocity between $t=2$ $s$ and $t=6$
-          $s$
+        value: The dog is not moving between $t=2$ $s$ and $t=6$ $s$
       ans2:
-        value: The dog is slowing down at $t=7$ $s$
+        value: The dog is speeding up at time $t=7$ $s$
       ans3:
         value: The dog is moving at the same speed at time $t=8$ $s$ and $t=10$ $s$
       ans4:
-        value: The dog has a negative acceleration at $t=9$ $s$
+        value: The dog is not moving between $t=6$ $s$ and $t=10$ $s$
 ---
 # {{ params.vars.title }}
 Consider the following motion diagram for a dog running down a straight path.
