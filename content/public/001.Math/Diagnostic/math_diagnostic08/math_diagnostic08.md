@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-72x - 36y }{ 9 }$
+    expr: $\dfrac{10x - 6y }{ 2 }$
     part1:
       ans1:
-        value: $- 8 x - 4 y$
+        value: $5 x - 3 y$
       ans2:
-        value: $\dfrac{-8x - 4y}{9}$
+        value: $\dfrac{5x - 3y}{2}$
       ans3:
-        value: $-4x - 8y$
+        value: $-3x + 5y$
       ans4:
-        value: $-72x - 36y$
+        value: $10x - 6y$
       ans5:
         value: Don't know.
 ---

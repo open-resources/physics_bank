@@ -41,27 +41,29 @@ part2:
 substitutions:
   params:
     vars:
-      name: Abbas
+      name: Mateo
       title: Frictionless Ski Jump Collision
       units1: m/s
       units2: m
-    mA: 25
-    mB: 18.0
-    ramp_angle: 34
-    ramp_h: 0.07
-    jump_h: 402
+    mA: 19
+    mB: 10.45
+    ramp_angle: 16
+    ramp_h: 0.04
+    jump_h: 495
 ---
 # {{ params.vars.title }}
 A frictionless ski jump is designed such that at the bottom of the hill, there is a short flat section.
 
-After the flat section, the slope continues into a ramp of vertical height {{ params.ramp_h }} m angle {{ params.ramp_angle }} degrees.
+After the flat section, the slope continues into a ramp of vertical height {{ params.ramp_h }} m, at an angle {{ params.ramp_angle }} degrees (relative to the horizontal).
 
 The top of the ski jump is {{ params.jump_h }} {{ params.vars.units2 }} high off the ground.
 
 Block A of mass {{ params.mA }}kg is released from the top of the slope so that it slides down and makes a perfectly elastic collision with Block B of mass {{ params.mB }}kg.
 This causes the Block B to slide up the frictionless ramp and undergo projectile motion, before landing a horizontal distance $x$ {{ params.vars.units2 }} away from the ramp.
 
-## Question Text
+<img src="skijump.png" width=100%>
+
+## Part 1
 
 What is the speed of Block B (in {{ params.vars.units1 }}), immediately after the perfectly elastic collision?
 
@@ -69,9 +71,9 @@ What is the speed of Block B (in {{ params.vars.units1 }}), immediately after th
 
 Please enter in a numeric value in m/s.
 
-## Question Text
+## Part 2
 
-What is the horizontal distance (in {{ params.vars.units2 }} ) that Block B travels after it goes off the ramp ($x$)?
+What is the horizontal distance (in {{ params.vars.units2 }}) that Block B travels after it goes off the ramp ($x$)?
 
 ### Answer Section
 

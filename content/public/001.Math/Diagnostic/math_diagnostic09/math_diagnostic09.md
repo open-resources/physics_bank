@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $l$ = $\dfrac{(z)}{(y - 6x)} $
+    expr: $t$ = $\dfrac{(s)}{(n - 6e)} $
     part1:
       ans1:
-        value: y = ${ 6 x + \frac{z}{l}}$
+        value: n = ${ 6 e + \frac{s}{t}}$
       ans2:
-        value: y = ${- \frac{6 l x}{z}}$
+        value: n = ${- \frac{6 e t}{s}}$
       ans3:
-        value: y = ${- \frac{z}{6 l x}}$
+        value: n = ${- \frac{s}{6 e t}}$
       ans4:
-        value: y = ${\frac{l + 6 x}{z}}$
+        value: n = ${\frac{6 e + t}{s}}$
       ans5:
         value: Don't Know
 ---

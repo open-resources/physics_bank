@@ -39,11 +39,11 @@ part2:
     suffix: kg
 substitutions:
   params:
-    m_bullet: 31
-    m_block: 20
-    bullet_v: 857
-    slide_d: 5
-    slide_dnew: 5.3
+    m_bullet: 40
+    m_block: 15
+    bullet_v: 886
+    slide_d: 2
+    slide_dnew: 2.9
     coeff_k: 0.2
 ---
 # {{ params.vars.title }}

@@ -39,7 +39,7 @@ substitutions:
   params:
     vars:
       title: Long thin wire
-    B: '1.2'
+    B: '1.0'
     d: '22'
 ---
 # {{ params.vars.title }}

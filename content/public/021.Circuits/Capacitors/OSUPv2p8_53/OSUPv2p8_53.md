@@ -69,10 +69,10 @@ substitutions:
   params:
     vars:
       title: Analyzing Potential Difference and Electric Field
-    q: '8.0'
-    c: '5.0'
+    q: '12.0'
+    c: '1.0'
     d: '5.0'
-    k: '7.0'
+    k: '6.0'
 ---
 # {{ params.vars.title }}
 A parallel-plate capacitor has charge of magnitude {{params.q }} $\rm\ \mu\textrm{C}$ on each plate and capacitance {{params.c }} $\rm\ \mu\textrm{F}$  when there is air between the plates.

@@ -32,8 +32,8 @@ substitutions:
     vars:
       vehicle: truck
       title: Racing Markers
-      v1: 70
-      v2: 35.0
+      v1: 54
+      v2: 27.0
     part1:
       ans1:
         value: Marker 1
