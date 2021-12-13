@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 14
-    expr: $x^{ -8\over 2}$
+    expr: $x^{ -6\over 4}$
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt{x^{8}}}\end{equation}
+        value: \begin{equation}\frac{1}{\sqrt[4]{x^{6}}}\end{equation}
       ans2:
-        value: \begin{equation}\sqrt{x^{8}}\end{equation}
+        value: \begin{equation}\sqrt[4]{x^{6}}\end{equation}
       ans3:
-        value: \begin{equation}x^{4}\end{equation}
+        value: \begin{equation}x^{\frac{3}{2}}\end{equation}
       ans4:
-        value: \begin{equation}- \frac{1}{\sqrt{x^{8}}}\end{equation}
+        value: \begin{equation}- \frac{1}{\sqrt[4]{x^{6}}}\end{equation}
       ans5:
         value: Do not know
 ---

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $w$ = $\dfrac{(a)}{(n + 3h)} $
+    expr: $j$ = $\dfrac{(q)}{(v + 7p)} $
     part1:
       ans1:
-        value: n = ${ \frac{a}{w} - 3 h}$
+        value: v = ${ - 7 p + \frac{q}{j}}$
       ans2:
-        value: n = ${\frac{3 h w}{a}}$
+        value: v = ${\frac{7 j p}{q}}$
       ans3:
-        value: n = ${\frac{a}{3 h w}}$
+        value: v = ${\frac{q}{7 j p}}$
       ans4:
-        value: n = ${\frac{- 3 h + w}{a}}$
+        value: v = ${\frac{j - 7 p}{q}}$
       ans5:
         value: Don't Know
 ---

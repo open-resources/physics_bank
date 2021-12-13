@@ -127,13 +127,13 @@ substitutions:
   params:
     vars:
       title: Circuit with Multiple Voltage Sources
-    R1: '15.0'
-    R2: '24.0'
+    R1: '10.0'
+    R2: '21.0'
     R3: '12.0'
-    R4: '12.0'
-    R5: '11.0'
-    V1: '10.0'
-    V2: '23.5'
+    R4: '16.0'
+    R5: '10.0'
+    V1: '12.0'
+    V2: '22.0'
 ---
 # {{ params.vars.title }}
 Consider the circuit shown below.

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #12'
-    expr: $1\over 1- x$ > $ 7$
+    expr: $9\over 9- x$ > $ 6$
     part1:
       ans1:
-        value: (6/7 < x) & (x < 1)
+        value: (15/2 < x) & (x < 9)
       ans2:
-        value: (6/7 > x) & (x > 1)
+        value: (15/2 > x) & (x > 9)
       ans3:
-        value: x > 1/7
+        value: x > 9/6
       ans4:
-        value: (0 < x) & (x < 7)
+        value: (160/3 < x) & (x < 54)
       ans5:
         value: Do not know
 ---

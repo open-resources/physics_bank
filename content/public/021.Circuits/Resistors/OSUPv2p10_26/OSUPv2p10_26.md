@@ -50,8 +50,8 @@ part2:
 substitutions:
   params:
     R1: '2.00'
-    R2: '4.25'
-    R3: '5.00'
+    R2: '3.75'
+    R3: '5.25'
 ---
 # {{ params.vars.title }}
 Consider a ${{{ params.R1 }}}\times{10^{2}} \rm\ \Omega$, a ${{ params.R2 }}\rm\ k \Omega$, and a ${{ params.R3 }}\rm\ k \Omega$ resistor.
