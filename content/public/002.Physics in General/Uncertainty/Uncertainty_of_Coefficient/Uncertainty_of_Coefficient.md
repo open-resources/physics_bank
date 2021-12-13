@@ -32,11 +32,11 @@ substitutions:
   params:
     vars:
       title: Uncertainty of Coefficient
-      name: Aliyah
+      name: Emilia
       units: $kg/s$
-    m: 141
-    v: 2.4
-    b: 0.57
+    m: 140
+    v: 2.3
+    b: 0.63
     part1:
       ans1:
         value: ' $\pm$ 0.1'
@@ -45,7 +45,7 @@ substitutions:
       ans3:
         value: ' $\pm$ 0.01'
       ans4:
-        value: ' $\pm$ 0.56'
+        value: ' $\pm$ 0.64'
 ---
 # {{ params.vars.title }}
 The drag force on an object of interest can be accurately modelled as $\vec{D}$ = -$b\vec{v}$ such that its terminal velocity in free fall is given by $v_T$ = $mg/b$.

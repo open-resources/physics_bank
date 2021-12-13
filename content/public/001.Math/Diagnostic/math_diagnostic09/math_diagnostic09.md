@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $b$ = $\dfrac{(p)}{(j - 9i)} $
+    expr: $a$ = $\dfrac{(p)}{(h - 10u)} $
     part1:
       ans1:
-        value: j = ${ 9 i + \frac{p}{b}}$
+        value: h = ${ 10 u + \frac{p}{a}}$
       ans2:
-        value: j = ${- \frac{9 b i}{p}}$
+        value: h = ${- \frac{10 a u}{p}}$
       ans3:
-        value: j = ${- \frac{p}{9 b i}}$
+        value: h = ${- \frac{p}{10 a u}}$
       ans4:
-        value: j = ${\frac{b + 9 i}{p}}$
+        value: h = ${\frac{a + 10 u}{p}}$
       ans5:
         value: Don't Know
 ---

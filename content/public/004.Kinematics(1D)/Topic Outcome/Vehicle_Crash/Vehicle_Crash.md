@@ -2,7 +2,7 @@
 title: Vehicle Crash
 topic: Kinematics(1D)
 author: John Hopkinson
-source: PHYS 116 2016 W1 002 Mock Test Q4
+source: PHYS 112 2016 W1 002 Mock Test Q4
 template_version: 1.3
 attribution: standard
 partialCredit: true
@@ -31,25 +31,25 @@ substitutions:
   params:
     vars:
       title: Vehicle Crash
-      name: Santiago
-      vehicle_1: van
-      vehicle_2: van
-    dist: 4.04
-    v: 36.0
-    acc: 11.6
+      name: Maya
+      vehicle_1: truck
+      vehicle_2: semi-truck
+    dist: 3.16
+    v: 38.7
+    acc: 11.2
     s_1: 0.2
-    s_2: 1.438
+    s_2: 1.889
     part1:
       ans1:
-        value: 21.64 $m/s$
+        value: 19.78 $m/s$
       ans2:
-        value: 19.32 $m/s$
+        value: 17.54 $m/s$
       ans3:
-        value: 33.68 $m/s$
+        value: 36.46 $m/s$
       ans4:
-        value: 17.0 $m/s$
+        value: 15.3 $m/s$
       ans5:
-        value: 36.0 $m/s$
+        value: 38.7 $m/s$
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is following {{params.dist}} $m$ behind a {{params.vars.vehicle_1}} when it suddenly brakes with an acceleration of -{{params.acc}} $m/s^2$.
