@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $t$ = $\dfrac{(s)}{(n - 6e)} $
+    expr: $u$ = $\dfrac{(t)}{(h - 5y)} $
     part1:
       ans1:
-        value: n = ${ 6 e + \frac{s}{t}}$
+        value: h = ${ \frac{t}{u} + 5 y}$
       ans2:
-        value: n = ${- \frac{6 e t}{s}}$
+        value: h = ${- \frac{5 u y}{t}}$
       ans3:
-        value: n = ${- \frac{s}{6 e t}}$
+        value: h = ${- \frac{t}{5 u y}}$
       ans4:
-        value: n = ${\frac{6 e + t}{s}}$
+        value: h = ${\frac{u + 5 y}{t}}$
       ans5:
         value: Don't Know
 ---

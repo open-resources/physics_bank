@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $6^{7} $=$ 279936$
+    expr: $8^{5} $=$ 32768$
     part1:
       ans1:
-        value: $log_6279936 = 7$
+        value: $log_832768 = 5$
       ans2:
-        value: $log_67 = 279936$
+        value: $log_85 = 32768$
       ans3:
-        value: $log_2799367 = 6$
+        value: $log_327685 = 8$
       ans4:
-        value: $log_7279936 = 6$
+        value: $log_532768 = 8$
       ans5:
         value: Don't Know
 ---

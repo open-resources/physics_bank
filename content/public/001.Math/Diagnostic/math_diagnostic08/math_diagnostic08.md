@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{10x - 6y }{ 2 }$
+    expr: $\dfrac{-54x + 81y }{ -9 }$
     part1:
       ans1:
-        value: $5 x - 3 y$
+        value: $6 x - 9 y$
       ans2:
-        value: $\dfrac{5x - 3y}{2}$
+        value: $\dfrac{6x - 9y}{-9}$
       ans3:
-        value: $-3x + 5y$
+        value: $-9x + 6y$
       ans4:
-        value: $10x - 6y$
+        value: $-54x - 81y$
       ans5:
         value: Don't know.
 ---

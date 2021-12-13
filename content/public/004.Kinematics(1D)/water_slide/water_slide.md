@@ -55,7 +55,7 @@ substitutions:
     vars:
       name: Ahmed
       title: Water Slide
-    theta: 40
+    theta: 30
     l: 100
     l2: 50.0
 ---

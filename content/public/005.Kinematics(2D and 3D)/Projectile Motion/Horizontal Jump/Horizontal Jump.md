@@ -34,19 +34,19 @@ substitutions:
       sport: skateboarder
       title: Horizontal Jump
       units: m
-    v: 20
-    d: 4.4399999999999995
+    v: 25
+    d: 3.71
     part1:
       ans1:
         value: 9.81
       ans2:
-        value: 13.46
+        value: 15.37
       ans3:
-        value: 18.1
+        value: 18.91
       ans4:
-        value: 19.03
+        value: 21.74
       ans5:
-        value: 27.16
+        value: 28.36
 ---
 # {{ params.vars.title }}
 

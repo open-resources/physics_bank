@@ -39,11 +39,15 @@ part2:
     suffix: kg
 substitutions:
   params:
+    vars:
+      name: Mateo
+      units1: m/s
+      units2: kg
     m_bullet: 40
-    m_block: 15
-    bullet_v: 886
-    slide_d: 2
-    slide_dnew: 2.9
+    m_block: 16
+    bullet_v: 862
+    slide_d: 5
+    slide_dnew: 5.4
     coeff_k: 0.2
 ---
 # {{ params.vars.title }}
@@ -68,7 +72,7 @@ But because they took an undergraduate physics course, they know they can figure
 They happen to have a ballistic chronograph that can capture the velocity of fast moving bullet.
 Just before it collides with the block, the bullet's velocity is {{ params.bullet_v }} {{ params.vars.units1 }}.
 
-What is the mass of the new block (in kg) if it moves {{ params.slide_dnew }} cm.
+What is the mass of the new block (in kg) if it moves {{ params.slide_dnew }}cm ?
 
 ### Answer Section
 

@@ -32,32 +32,51 @@ substitutions:
     vars:
       title: Distance Between Two People
       units: $m$
-      name1: Ahmed
-      name2: Aliyah
+      name1: Emilia
+      name2: Mateo
     s: 4
-    ai_1: 3
-    ai_2: 2
-    ai_3: 1
-    aj_1: 2
-    aj_2: 3
+    ai_1: 1
+    ai_2: 3
+    ai_3: 3
+    aj_1: 4
+    aj_2: 4
     aj_3: 1
-    bi_1: 5
-    bi_2: 3
-    bi_3: 2
-    bj_1: 4
-    bj_2: 2
-    bj_3: 2
+    bi_1: 2
+    bi_2: 1
+    bi_3: 1
+    bj_1: 6
+    bj_2: 3
+    bj_3: 3
     part1:
       ans1:
-        value: 47.0
+        value: 67.0
       ans2:
-        value: 24.0
+        value: 33.0
       ans3:
-        value: 2200.0
+        value: 4500.0
       ans4:
-        value: 36
+        value: !!python/object/apply:numpy.core.multiarray.scalar
+        - &id001 !!python/object/apply:numpy.dtype
+          args:
+          - i8
+          - false
+          - true
+          state: !!python/tuple
+          - 3
+          - <
+          - null
+          - null
+          - null
+          - -1
+          - -1
+          - 0
+        - !!binary |
+          VwAAAAAAAAA=
       ans5:
-        value: 56
+        value: !!python/object/apply:numpy.core.multiarray.scalar
+        - *id001
+        - !!binary |
+          JQAAAAAAAAA=
 ---
 # {{ params.vars.title }}
 The position of {{ params.vars.name1 }} as a function of time is given by:
