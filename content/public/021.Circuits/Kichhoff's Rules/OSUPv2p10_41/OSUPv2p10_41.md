@@ -129,9 +129,9 @@ substitutions:
     R1: '8.00'
     R2: '6.00'
     R3: '4.00'
-    R4: '7.00'
-    V1: '13.0'
-    V2: '14.00'
+    R4: '6.00'
+    V1: '15.0'
+    V2: '11.00'
 ---
 # {{ params.vars.title }}
 Consider the circuit shown below.

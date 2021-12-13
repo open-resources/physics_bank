@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $u$ = $\dfrac{(t)}{(h - 5y)} $
+    expr: $t$ = $\dfrac{(z)}{(d - 6j)} $
     part1:
       ans1:
-        value: h = ${ \frac{t}{u} + 5 y}$
+        value: d = ${ 6 j + \frac{z}{t}}$
       ans2:
-        value: h = ${- \frac{5 u y}{t}}$
+        value: d = ${- \frac{6 j t}{z}}$
       ans3:
-        value: h = ${- \frac{t}{5 u y}}$
+        value: d = ${- \frac{z}{6 j t}}$
       ans4:
-        value: h = ${\frac{u + 5 y}{t}}$
+        value: d = ${\frac{6 j + t}{z}}$
       ans5:
         value: Don't Know
 ---

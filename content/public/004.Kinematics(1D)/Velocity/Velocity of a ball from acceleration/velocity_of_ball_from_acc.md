@@ -37,19 +37,19 @@ substitutions:
       units: m/s
     v0: 25
     s0: 9
-    k: 0.04
-    s: 13
+    k: 0.03
+    s: 11
 ---
 # {{ params.vars.title }}
-The acceleration of a ball is given by $a(s) = -5ks^2$, where $a$ is acceleration of the ball in $m/s^2$, $k$ is a constant with units of $m^-^1s^-^2$, and $s$ is the position of the ball in $m$.
+The acceleration of a ball is given by $a(x) = -5kx^2$, where $a$ is acceleration of the ball in $m/s^2$, $k$ is a constant with unspecified units, and $x$ is the position of the ball in $m$.
 
 ## Question Text
 
-Consider the following initial conditions for position $s_0$ and velocity $v_0$ at $t = 0 s$:
-$s_0 = {{params.s0}} m$
+Consider the following initial conditions for position $x_0$ and velocity $v_0$ at $t = 0 s$:
+$x_0 = {{params.s0}} m$
 $v_0 = {{params.v0}} m/s$
-Use these conditions to detemine the velocity of the ball at $s = {{params.s}} m$.
-You may use $k = {{params.k}} m^-^1s^-^2$.
+Use these conditions to detemine the velocity of the ball at $x = {{params.s}} m$.
+You may use $k = {{params.k}}.
 
 ### Answer Section
 
