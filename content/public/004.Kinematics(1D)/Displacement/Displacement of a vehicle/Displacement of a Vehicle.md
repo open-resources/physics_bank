@@ -36,10 +36,10 @@ substitutions:
       vehicle: truck
       title: Displacement of a Vehicle
       units: blocks
-    c1: 63
-    c2: 20
-    c3: 78
-    dir1: west
+    c1: 51
+    c2: 65
+    c3: 18
+    dir1: east
     dir2: south
     dir3: west
 ---

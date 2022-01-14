@@ -32,15 +32,15 @@ substitutions:
       name: Abbas
     part1:
       ans1:
-        value: voltage
+        value: charge
       ans2:
-        value: energy
+        value: current
       ans3:
         value: power
       ans4:
-        value: current
+        value: energy
       ans5:
-        value: charge
+        value: voltage
 ---
 # {{ params.vars.title }}
 

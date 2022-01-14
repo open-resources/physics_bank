@@ -42,12 +42,12 @@ substitutions:
   params:
     vars:
       title: Slider in a Rotating Tube
-    m: 0.15
+    m: 0.42
     w: 6
-    wdot: -9
-    r: 0.4
-    rdot: -0.2
-    rddot: 2.7
+    wdot: -4
+    r: 0.89
+    rdot: -3.3
+    rddot: 3.5
 ---
 # {{ params.vars.title }}
 <img src="Slider in a rotating Tube.png" alt="A vertical hollow tube rotating about its vertical axis at omega rad per second is connected to a horizontal hollow tube in which a slider P moves under control of a string. The distance from the slider to the point of connection is R. The tension in the string acts downwards." width=200>

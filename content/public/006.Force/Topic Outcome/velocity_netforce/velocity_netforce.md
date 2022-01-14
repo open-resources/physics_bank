@@ -32,6 +32,7 @@ substitutions:
   params:
     vars:
       title: Velocity and Net Force
+    t: 0
     part1:
       ans1:
         value: Velocity is negative, net force is to the left
@@ -59,7 +60,7 @@ The position versus time graph of a mass on a spring is shown in the image.
 
 ## Part 1
 
-What can you say about the velocity of the mass and the net force of the mass at $t=2s$?
+What can you say about the velocity of the mass and the net force of the mass at $t= {{ params.t }} s$?
 (For a right-handed coordinate system, positive $x$ is to the right)
 
 ### Answer Section

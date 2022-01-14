@@ -29,23 +29,23 @@ part1:
     weight: 1
     allow-blank: true
     label: $t_1= $
-    suffix: $seconds$
+    suffix: $s$
 part2:
   type: number-input
   pl-customizations:
     rtol: 0.05
     weight: 1
     allow-blank: true
-    label: $t_2= $
-    suffix: $seconds$
+    label: $v_1= $
+    suffix: $m/s$
 part3:
   type: number-input
   pl-customizations:
     rtol: 0.05
     weight: 1
     allow-blank: true
-    label: $v_1= $
-    suffix: $ft/s$
+    label: $t_2= $
+    suffix: $s$
 part4:
   type: number-input
   pl-customizations:
@@ -53,13 +53,13 @@ part4:
     weight: 1
     allow-blank: true
     label: $v_2= $
-    suffix: $ft/s$
+    suffix: $m/s$
 substitutions:
   params:
     vars:
       title: Projectile of ball launched to a specific height
-    v0: 376
-    distance: 440
+    v0: 348
+    distance: 491
 ---
 # {{ params.vars.title }}
 A ball is launched vertically at Point A with an initial speed of $v = {{params.v0}} m/s$.
@@ -80,6 +80,14 @@ Please enter in a numeric value in $seconds$.
 
 ## Part 2
 
+Compute the magnitude of speed of the ball at $t_1$.
+
+### Answer Section
+
+Please enter in a numeric value in $m/s$.
+
+## Part 3
+
 At what time $t_2 s$ will the line of sight make a $\theta$ = 45 $^{\circ}$ angle with the horizontal?
 
 *Hint: The line of sight is the dotted line connecting Point B to Point C.*
@@ -88,17 +96,9 @@ At what time $t_2 s$ will the line of sight make a $\theta$ = 45 $^{\circ}$ angl
 
 - Please enter in a numeric value in $seconds$.
 
-## Part 3
-
-Compute the magnitude of speed of the ball at $t_1 s$.
-
-### Answer Section
-
-Please enter in a numeric value in $m/s$.
-
 ## Part 4
 
-Compute the magnitude of speed of the ball at $t_2 s$.
+Compute the magnitude of speed of the ball at $t_2$.
 
 ### Answer Section
 

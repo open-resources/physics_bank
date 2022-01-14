@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 1x - 7y = 42
-    formula2: 7x + 6y = 44
+    formula1: 3x - 4y = 4
+    formula2: 7x + 1y = 30
     part1:
       ans1:
-        value: ' x =112/11, y =-50/11'
+        value: ' x =4, y =2'
       ans2:
-        value: ' x =-50/11, y =112/11'
+        value: ' x =2, y =4'
       ans3:
-        value: ' x =-112/11, y =50/11'
+        value: ' x =-4, y =-2'
       ans4:
-        value: ' x =50/11, y =-112/11'
+        value: ' x =-2, y =-4'
       ans5:
         value: Don't Know
 ---

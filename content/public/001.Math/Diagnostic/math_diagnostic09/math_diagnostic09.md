@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $t$ = $\dfrac{(z)}{(d - 6j)} $
+    expr: $q$ = $\dfrac{(i)}{(k + 10t)} $
     part1:
       ans1:
-        value: d = ${ 6 j + \frac{z}{t}}$
+        value: k = ${ \frac{i}{q} - 10 t}$
       ans2:
-        value: d = ${- \frac{6 j t}{z}}$
+        value: k = ${\frac{10 q t}{i}}$
       ans3:
-        value: d = ${- \frac{z}{6 j t}}$
+        value: k = ${\frac{i}{10 q t}}$
       ans4:
-        value: d = ${\frac{6 j + t}{z}}$
+        value: k = ${\frac{q - 10 t}{i}}$
       ans5:
         value: Don't Know
 ---

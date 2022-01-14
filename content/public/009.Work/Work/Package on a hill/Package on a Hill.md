@@ -34,16 +34,16 @@ substitutions:
   params:
     vars:
       title: Package on a Hill
-    m: 52
-    va: 5
+    m: 55
+    va: 1
     vb: 27
-    h: 33
-    d: 42
+    h: 34
+    d: 48
 ---
 # {{ params.vars.title }}
 <img src="Package on a Hill.png" width=400>
 
-A crate of mass $m = {{ params.w }} kg$ slides down a hill from $A$ to $B$ separated by a height $h = {{ params.h }} m$ and a distance $d = {{ params.d }} m$ as shown.
+A crate of mass $m = {{ params.m }} kg$ slides down a hill from $A$ to $B$ separated by a height $h = {{ params.h }} m$ and a distance $d = {{ params.d }} m$ as shown.
 If the crate has a velocity of ${{ params.va }} m/s$ down the incline at $A$ and a velocity of ${{ params.vb }} m/s$ away from the incline at $B$, what is the work done by friction during the motion?
 
 ## Part 1

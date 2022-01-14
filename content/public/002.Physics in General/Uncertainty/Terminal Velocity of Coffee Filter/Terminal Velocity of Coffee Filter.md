@@ -58,17 +58,17 @@ substitutions:
   params:
     vars:
       title: Terminal Velocity of a Coffee Filter
-      name: Ahmed
+      name: Savannah
       unit1: $m/s$
       unit2: $kg/s$
-    m: 2
-    d_m: 58
-    sd: 0.086
-    v1: 0.72
-    v2: 0.92
-    v3: 0.75
-    v4: 0.95
-    v5: 0.77
+    m: 5
+    d_m: 54
+    sd: 0.082
+    v1: 0.93
+    v2: 0.93
+    v3: 0.78
+    v4: 0.73
+    v5: 0.74
     v6: 0.83
 ---
 # {{ params.vars.title }}

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #12'
-    expr: $4\over 4- x$ > $ 6$
+    expr: $3\over 3- x$ > $ 6$
     part1:
       ans1:
-        value: (10/3 < x) & (x < 4)
+        value: (5/2 < x) & (x < 3)
       ans2:
-        value: (10/3 > x) & (x > 4)
+        value: (5/2 > x) & (x > 3)
       ans3:
-        value: x > 4/6
+        value: x > 3/6
       ans4:
-        value: (45/2 < x) & (x < 24)
+        value: (16 < x) & (x < 18)
       ans5:
         value: Do not know
 ---

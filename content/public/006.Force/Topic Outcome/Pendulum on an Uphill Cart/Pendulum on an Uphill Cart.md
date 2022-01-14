@@ -38,7 +38,7 @@ substitutions:
       title: Pendulum on an Uphill Cart
       units: ^{\circ}
     a: 6
-    theta: 9
+    theta: 11
 ---
 # {{ params.vars.title }}
 

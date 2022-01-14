@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-72x + 72y }{ -8 }$
+    expr: $\dfrac{45x + 45y }{ -5 }$
     part1:
       ans1:
-        value: $9 x - 9 y$
+        value: $- 9 x - 9 y$
       ans2:
-        value: $\dfrac{9x - 9y}{-8}$
+        value: $\dfrac{-9x - 9y}{-5}$
       ans3:
-        value: $-9x + 9y$
+        value: $-9x - 9y$
       ans4:
-        value: $-72x - 72y$
+        value: $45x - 45y$
       ans5:
         value: Don't know.
 ---
