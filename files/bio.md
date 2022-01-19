@@ -8,20 +8,19 @@
 |------------------|----------------|
 | Firas Moosvi     | firasm         |
 | Jake Bobowski    | jake-bobowski  |
-| Stephen Collins  | SteveCollins17 |
-| Michael Kudla    | michaelwkudla  |
-| Graham Bovett    | gbovett        |
 | Ava Cornell      | ahcornell      |
 | Abby Kiehlbauch  | abbykiehlbauch |
 | Maya Patel       | maya-patel     |
 | Akshat Poddar    | akshatpoddar   |
 | Parsa Rajabi     | Parsa-Rajabi   |
+| James Ropotar    | JamesShadowfyre|
 | Vanshika Sharma  | vanshika151    |
 | Joseph Wandinger | Bizwatch-UBC   |
 | Paula Wong-Chung | KafkaNoNeko    |
 | Edris Wu         | edriswu        |
-| James Ropotar    | JamesShadowfyre|
-
+| Graham Bovett    | gbovett        |
+| Stephen Collins  | SteveCollins17 |
+| Michael Kudla    | michaelwkudla  |
 
 ## Bios
 
@@ -40,27 +39,7 @@ Firas Moosvi is a Lecturer at UBC Okanagan in the Computer Science, Math, Physic
 
 Jake is a Professor of Teaching in physics at UBC Okanagan.  In addition to teaching and Physics Education Research, he is interested in applying microwave techniques to study condensed matter systems. <br><br><br><br><br>
 
-### Graduate students
-
-<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/stephen.png"> </img>
-
-#### **Stephen Collins**
-
-I am a PhD candidate in medical physics here at UBCO. My research is in iterative image reconstruction methods for optical CT radiochromic gel dosimetry. Outside of my research I enjoy hockey, golf and snowboarding. <br><br><br>
-
-<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/michael.png"> </img>
-
-#### **Michael Kudla**
-
-I am a PhD student in MedPhys. I am developing a patient specific technology suite for low cost imaging and surgical tool manufacturing (3D printed) for treatment of gynecological malignancies. I am into rock climbing and ski-touring. <br><br><br>
-
 ### Undergraduate students
-
-<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/graham.png"> </img>
-
-#### **Graham Bovett**
-
-I am a 3rd year Comp Sci student at UBCO. I am looking forward to specializing in AI and machine learning in my future courses and through co-op placements. Outside of school, I enjoy hiking, camping, snowboarding, and sailing. <br><br><br>
 
 <img align="left" width="150" height="150" style="padding-right: 20px" src="../images/ava.png"> </img>
 
@@ -86,13 +65,20 @@ I am a third year physics student at UBCO. I am passionate about physics educati
 
 I am a 2nd year undergraduate student at UBC. My interests lie in the fields of Computer Science and Mathematics and I spend my time making myself more proficient in these disciplines. When I am not busy learning new technologies and frameworks, I spend most of my time on YouTube. I love to sing, cruise around on my skateboard, and enjoy a good game of the Settlers of Catan.  <br><br><br>
 
-<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/parsa.png"> </img> 
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/parsa.png"> </img>
 
 #### **Parsa Rajabi**
 
 I am a 5th year Computer Science student with a background in Project Management, DevOps, Software Development, and research. I have a strong passion for Computer Science Education, Computational Thinking within K-12 Education and Human-Computer Interaction (HCI). Aside from doing research and teaching, I spend my spare time cooking, traveling, hiking and volunteering in the community / on campus!
 
 [![Linkedin](../images/linkedin_logo.png) LinkedIn](https://www.linkedin.com/in/parsa-rajabi/) <br><br><br>
+
+<img align="left" width="150" style="padding-right: 20px" src="../images/james.png"> </img>
+
+#### **James Ropotar**
+
+I am a second year UBC Okanagan student studying Manufacturing Engineering. I have a particular interest in teaching, and exploring new ways to develop methods to teach complex topics. I am extremely curious, always putting myself out to learn new things. My life goal is to be able to help everyone reach their highest potential as learners. I spend my free time writing, mapping, and doing other creative works. 
+<br><br><br>
 
 <img align="left" width="150" height="150" style="padding-right: 20px" src="../images/vanshika.png"> </img>
 
@@ -119,10 +105,23 @@ I am a second-year Computer Science major at UBCO.  While I currently do not hav
 I am a third year UBC student majoring in Cognitive Systems. My interests are mainly in computer science and psychology. I am interested in understanding the brain's role in cognitive processes and perception, I also enjoy coding and learning about artificial intelligence as well as human computer interaction. In my spare time I enjoy going on walks with my dog, trying new foods, and listening to podcasts.
 <br><br><br>
 
-<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/james.png"> </img>
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/graham.png"> </img>
 
-#### **James Ropotar**
+#### **Graham Bovett**
 
-I am a second year UBC Okanagan student studying Manufacturing Engineering. I have a particular interest in teaching, and exploring new ways to develop methods to teach complex topics. I am extremely curious, always putting myself out to learn new things. My life goal is to be able to help everyone reach their highest potential as learners. I spend my free time writing, mapping, and doing other creative works. 
-<br><br><br>
+I am a 3rd year Comp Sci student at UBCO. I am looking forward to specializing in AI and machine learning in my future courses and through co-op placements. Outside of school, I enjoy hiking, camping, snowboarding, and sailing. <br><br><br>
+
+### Graduate students
+
+<img align="left" width="150" style="padding-right: 20px" src="../images/stephen.png"> </img>
+
+#### **Stephen Collins**
+
+I am a PhD candidate in medical physics here at UBCO. My research is in iterative image reconstruction methods for optical CT radiochromic gel dosimetry. Outside of my research I enjoy hockey, golf and snowboarding. <br><br><br>
+
+<img align="left" width="150" style="padding-right: 20px" src="../images/michael.png"> </img>
+
+#### **Michael Kudla**
+
+I am a PhD student in MedPhys. I am developing a patient specific technology suite for low cost imaging and surgical tool manufacturing (3D printed) for treatment of gynecological malignancies. I am into rock climbing and ski-touring. <br><br><br>
 
