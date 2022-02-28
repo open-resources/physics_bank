@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $9^{4} $=$ 6561$
+    expr: $7^{2} $=$ 49$
     part1:
       ans1:
-        value: $log_96561 = 4$
+        value: $log_749 = 2$
       ans2:
-        value: $log_94 = 6561$
+        value: $log_72 = 49$
       ans3:
-        value: $log_65614 = 9$
+        value: $log_492 = 7$
       ans4:
-        value: $log_46561 = 9$
+        value: $log_249 = 7$
       ans5:
         value: Don't Know
 ---

@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Angular Acceleration
-    v_1: 9
-    v_2: 12
-    t: 6
+    v_1: 6
+    v_2: 17
+    t: 10
     part1:
       ans1:
-        value: 0.5 $rad/s^2$
+        value: 1.1 $rad/s^2$
       ans2:
-        value: 0.5 $m/s^2$
+        value: 1.1 $m/s^2$
       ans3:
-        value: -0.5 $rad/s^2$
+        value: -1.1 $rad/s^2$
       ans4:
-        value: -0.5 $m/s^2$
+        value: -1.1 $m/s^2$
       ans5:
         value: 10 $rad/s^2$
 ---
@@ -47,7 +47,7 @@ substitutions:
 
 ## Part 1
 
-A 1 $m$ radius solid object that increases in angular velocity from $\omega\_{1z}$ = {{ params.v_1 }} $rad/s$ to $\omega\_{2z}$ = {{ params.v_2 }} $rad/s$ in a {{ params.t }} second interval has an average angular velocity of:
+A 1 $m$ radius solid object that increases in angular velocity from $\omega\_{1z}$ = {{ params.v_1 }} $rad/s$ to $\omega\_{2z}$ = {{ params.v_2 }} $rad/s$ in a {{ params.t }} second interval has an average angular acceleration of:
 
 ### Answer Section
 

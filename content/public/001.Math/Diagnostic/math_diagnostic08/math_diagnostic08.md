@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{45x + 45y }{ -5 }$
+    expr: $\dfrac{-16x - 8y }{ 2 }$
     part1:
       ans1:
-        value: $- 9 x - 9 y$
+        value: $- 8 x - 4 y$
       ans2:
-        value: $\dfrac{-9x - 9y}{-5}$
+        value: $\dfrac{-8x - 4y}{2}$
       ans3:
-        value: $-9x - 9y$
+        value: $-4x - 8y$
       ans4:
-        value: $45x - 45y$
+        value: $-16x - 8y$
       ans5:
         value: Don't know.
 ---

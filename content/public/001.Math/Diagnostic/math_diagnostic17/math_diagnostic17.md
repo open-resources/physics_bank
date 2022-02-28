@@ -30,17 +30,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 17
-    a: 5
-    b: 2
+    a: 6
+    b: 4
     part1:
       ans1:
-        value: $e^{2} e^{5 y}$
+        value: $e^{4} e^{6 y}$
       ans2:
-        value: $e^{5 y} + e^{5}$
+        value: $e^{6 y} + e^{6}$
       ans3:
-        value: $5 e^{5} e^{y}$
+        value: $6 e^{6} e^{y}$
       ans4:
-        value: $2 e^{5 y}$
+        value: $4 e^{6 y}$
       ans5:
         value: Don't Know
 ---

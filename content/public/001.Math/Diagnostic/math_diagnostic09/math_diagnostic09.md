@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $q$ = $\dfrac{(i)}{(k + 10t)} $
+    expr: $u$ = $\dfrac{(l)}{(k + 7x)} $
     part1:
       ans1:
-        value: k = ${ \frac{i}{q} - 10 t}$
+        value: k = ${ \frac{l}{u} - 7 x}$
       ans2:
-        value: k = ${\frac{10 q t}{i}}$
+        value: k = ${\frac{7 u x}{l}}$
       ans3:
-        value: k = ${\frac{i}{10 q t}}$
+        value: k = ${\frac{l}{7 u x}}$
       ans4:
-        value: k = ${\frac{q - 10 t}{i}}$
+        value: k = ${\frac{u - 7 x}{l}}$
       ans5:
         value: Don't Know
 ---
