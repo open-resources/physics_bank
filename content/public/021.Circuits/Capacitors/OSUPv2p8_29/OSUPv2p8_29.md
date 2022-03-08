@@ -40,7 +40,7 @@ substitutions:
   params:
     vars:
       title: Cylindrical Capacitor
-    c: '19'
+    c: '40'
 ---
 # {{ params.vars.title }}
 

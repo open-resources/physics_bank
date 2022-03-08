@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $u$ = $\dfrac{(l)}{(k + 7x)} $
+    expr: $b$ = $\dfrac{(m)}{(o - 10z)} $
     part1:
       ans1:
-        value: k = ${ \frac{l}{u} - 7 x}$
+        value: o = ${ 10 z + \frac{m}{b}}$
       ans2:
-        value: k = ${\frac{7 u x}{l}}$
+        value: o = ${- \frac{10 b z}{m}}$
       ans3:
-        value: k = ${\frac{l}{7 u x}}$
+        value: o = ${- \frac{m}{10 b z}}$
       ans4:
-        value: k = ${\frac{u - 7 x}{l}}$
+        value: o = ${\frac{b + 10 z}{m}}$
       ans5:
         value: Don't Know
 ---
