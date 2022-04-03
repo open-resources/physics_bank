@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-30x + 12y }{ -6 }$
+    expr: $\dfrac{-25x + 25y }{ -5 }$
     part1:
       ans1:
-        value: $5 x - 2 y$
+        value: $5 x - 5 y$
       ans2:
-        value: $\dfrac{5x - 2y}{-6}$
+        value: $\dfrac{5x - 5y}{-5}$
       ans3:
-        value: $-2x + 5y$
+        value: $-5x + 5y$
       ans4:
-        value: $-30x - 12y$
+        value: $-25x - 25y$
       ans5:
         value: Don't know.
 ---

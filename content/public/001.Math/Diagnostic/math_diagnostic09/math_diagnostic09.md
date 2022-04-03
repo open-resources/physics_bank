@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $b$ = $\dfrac{(m)}{(o - 10z)} $
+    expr: $n$ = $\dfrac{(c)}{(z - 7f)} $
     part1:
       ans1:
-        value: o = ${ 10 z + \frac{m}{b}}$
+        value: z = ${ \frac{c}{n} + 7 f}$
       ans2:
-        value: o = ${- \frac{10 b z}{m}}$
+        value: z = ${- \frac{7 f n}{c}}$
       ans3:
-        value: o = ${- \frac{m}{10 b z}}$
+        value: z = ${- \frac{c}{7 f n}}$
       ans4:
-        value: o = ${\frac{b + 10 z}{m}}$
+        value: z = ${\frac{7 f + n}{c}}$
       ans5:
         value: Don't Know
 ---

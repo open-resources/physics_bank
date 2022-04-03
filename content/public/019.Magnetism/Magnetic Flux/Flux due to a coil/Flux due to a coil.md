@@ -53,7 +53,7 @@ part4:
 substitutions:
   params:
     vars:
-      title: Flux through a loop
+      title: Flux due to a coil
     part1:
       ans1:
         value: $-3\mu_0 I$

@@ -33,17 +33,17 @@ substitutions:
     vars:
       title: The Energy Expenditure of a Jogger
       units: W
-    F: 19
-    v: 5.7
+    F: 17
+    v: 6.3
     part1:
       ans1:
         value: 11.0
       ans2:
         value: 110.0
       ans3:
-        value: 620.0
+        value: 670.0
       ans4:
-        value: 220.0
+        value: 210.0
       ans5:
         value: 320.0
       ans6:

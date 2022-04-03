@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $4^{6} $=$ 4096$
+    expr: $4^{9} $=$ 262144$
     part1:
       ans1:
-        value: $log_44096 = 6$
+        value: $log_4262144 = 9$
       ans2:
-        value: $log_46 = 4096$
+        value: $log_49 = 262144$
       ans3:
-        value: $log_40966 = 4$
+        value: $log_2621449 = 4$
       ans4:
-        value: $log_64096 = 4$
+        value: $log_9262144 = 4$
       ans5:
         value: Don't Know
 ---
