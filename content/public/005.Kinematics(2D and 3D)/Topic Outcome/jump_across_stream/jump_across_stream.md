@@ -94,11 +94,11 @@ substitutions:
     vars:
       title: Jump Across Stream
       units: $m$
-    m: 298
-    w_s: 2.7
-    h_s: 1.6
-    v_i: 5
-    v_j: 3
+    m: 120
+    w_s: 3.1
+    h_s: 1.7
+    v_i: 6
+    v_j: 6
     h_b: 4.5
     part5:
       ans1:

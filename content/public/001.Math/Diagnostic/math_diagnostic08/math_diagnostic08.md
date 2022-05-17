@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-25x + 25y }{ -5 }$
+    expr: $\dfrac{-36x - 81y }{ 9 }$
     part1:
       ans1:
-        value: $5 x - 5 y$
+        value: $- 4 x - 9 y$
       ans2:
-        value: $\dfrac{5x - 5y}{-5}$
+        value: $\dfrac{-4x - 9y}{9}$
       ans3:
-        value: $-5x + 5y$
+        value: $-9x - 4y$
       ans4:
-        value: $-25x - 25y$
+        value: $-36x - 81y$
       ans5:
         value: Don't know.
 ---

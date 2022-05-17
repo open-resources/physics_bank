@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $n$ = $\dfrac{(c)}{(z - 7f)} $
+    expr: $w$ = $\dfrac{(r)}{(f - 2a)} $
     part1:
       ans1:
-        value: z = ${ \frac{c}{n} + 7 f}$
+        value: f = ${ 2 a + \frac{r}{w}}$
       ans2:
-        value: z = ${- \frac{7 f n}{c}}$
+        value: f = ${- \frac{2 a w}{r}}$
       ans3:
-        value: z = ${- \frac{c}{7 f n}}$
+        value: f = ${- \frac{r}{2 a w}}$
       ans4:
-        value: z = ${\frac{7 f + n}{c}}$
+        value: f = ${\frac{2 a + w}{r}}$
       ans5:
         value: Don't Know
 ---

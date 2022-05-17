@@ -37,9 +37,9 @@ substitutions:
     vars:
       title: Single-Turn Rectangular Coil
     R: '2'
-    B: '0.75'
-    f: '250'
-    t: '0.006'
+    B: '0.25'
+    f: '100'
+    t: '0.007'
 ---
 # {{ params.vars.title }}
 

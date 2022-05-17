@@ -42,9 +42,9 @@ substitutions:
   params:
     vars:
       title: Temperature Range of Resistor
-    p: 7
-    metal: 'Germanium '
-    T_0: 91
+    p: 2
+    metal: Constantan
+    T_0: 53
 ---
 # {{ params.vars.title }}
 
