@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $8^{2} $=$ 64$
+    expr: $3^{2} $=$ 9$
     part1:
       ans1:
-        value: $log_864 = 2$
+        value: $log_39 = 2$
       ans2:
-        value: $log_82 = 64$
+        value: $log_32 = 9$
       ans3:
-        value: $log_642 = 8$
+        value: $log_92 = 3$
       ans4:
-        value: $log_264 = 8$
+        value: $log_29 = 3$
       ans5:
         value: Don't Know
 ---

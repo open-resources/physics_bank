@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-36x - 81y }{ 9 }$
+    expr: $\dfrac{42x - 18y }{ 6 }$
     part1:
       ans1:
-        value: $- 4 x - 9 y$
+        value: $7 x - 3 y$
       ans2:
-        value: $\dfrac{-4x - 9y}{9}$
+        value: $\dfrac{7x - 3y}{6}$
       ans3:
-        value: $-9x - 4y$
+        value: $-3x + 7y$
       ans4:
-        value: $-36x - 81y$
+        value: $42x - 18y$
       ans5:
         value: Don't know.
 ---

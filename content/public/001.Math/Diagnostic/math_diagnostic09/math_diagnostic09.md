@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $w$ = $\dfrac{(r)}{(f - 2a)} $
+    expr: $j$ = $\dfrac{(o)}{(n + 4g)} $
     part1:
       ans1:
-        value: f = ${ 2 a + \frac{r}{w}}$
+        value: n = ${ - 4 g + \frac{o}{j}}$
       ans2:
-        value: f = ${- \frac{2 a w}{r}}$
+        value: n = ${\frac{4 g j}{o}}$
       ans3:
-        value: f = ${- \frac{r}{2 a w}}$
+        value: n = ${\frac{o}{4 g j}}$
       ans4:
-        value: f = ${\frac{2 a + w}{r}}$
+        value: n = ${\frac{- 4 g + j}{o}}$
       ans5:
         value: Don't Know
 ---
