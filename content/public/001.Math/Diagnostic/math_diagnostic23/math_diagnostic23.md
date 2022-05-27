@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 9
-    b: 9
-    formula: $x^{9} \sin{\left(9 x \right)}$
+    a: 1
+    b: 2
+    formula: $x \cos{\left(2 x \right)}$
     part1:
       ans1:
-        value: $9 x^{9} \cos{\left(9 x \right)} + 9 x^{8} \sin{\left(9 x \right)}$
+        value: $- 2 x \sin{\left(2 x \right)} + \cos{\left(2 x \right)}$
       ans2:
-        value: $9 x^{9} \cos{\left(9 x \right)} $
+        value: $- 2 x \sin{\left(2 x \right)} $
       ans3:
-        value: $ 9 x^{8} \cos{\left(9 x \right)}$
+        value: $ \sin{\left(2 x \right)}$
       ans4:
-        value: $- 9 x^{9} \sin{\left(9 x \right)} + 9 x^{8} \cos{\left(9 x \right)}$
+        value: $2 x \cos{\left(2 x \right)} + \sin{\left(2 x \right)}$
       ans5:
         value: Don't Know
 ---

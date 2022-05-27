@@ -23,47 +23,29 @@ tags:
 - PW
 assets: null
 part1:
-  type: multiple-choice
+  type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
+    allow-blank: true
+    label: 'by a factor of '
+    suffix: ' '
 substitutions:
   params:
     vars:
       title: Maximum Speed of a Pendulum
     choice: halved
-    part1:
-      ans1:
-        value: multiplied by a factor of $\dfrac{1}{\sqrt{2}}$
-      ans2:
-        value: quartered
-      ans3:
-        value: quadrupled
-      ans4:
-        value: unchanged
-      ans5:
-        value: multiplied by a factor of $\sqrt{2}$
-      ans6:
-        value: halved
-      ans7:
-        value: doubled
 ---
 # {{ params.vars.title }}
 A  simple  pendulum  swings  at  small  angles.
 
 ## Part 1
 
-If  the  amplitude  and  length  of the pendulum are both {{ params.choice }}, the maximum speed of the pendulum's bob is:
-(you may assume that the amplitude remains sufficiently small that it still undergoes simple harmonic motion)
+If  the  amplitude  and  length  of the pendulum are both {{ params.choice }}, how much is the maximum speed of the pendulum's bob increased/decreased? You may assume that the amplitude remains sufficiently small that it still undergoes simple harmonic motion.
+
+Please enter a real number (symbols will not be accepted).
 
 ### Answer Section
-
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
-- {{ params.part1.ans6.value }}
-- {{ params.part1.ans7.value }}
 
 ## Attribution
 

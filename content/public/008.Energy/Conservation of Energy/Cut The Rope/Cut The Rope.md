@@ -59,7 +59,7 @@ substitutions:
       units: m
     l: 0.5
     theta_0: 41
-    theta_c: 17
+    theta_c: 18
 ---
 # {{ params.vars.title }}
 In the mobile app "Cut the Rope", a mass (of candy) swings on a rope and the game player selects a point to cut the rope so it lands in a cute little monster's mouth.

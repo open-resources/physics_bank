@@ -42,8 +42,8 @@ substitutions:
   params:
     vars:
       title: Magnetic field of a solenoid
-    n: '2800'
-    I: '9.20'
+    n: '2500'
+    I: '6.60'
 ---
 # {{ params.vars.title }}
 A solenoid is wound with {{ params.n }} turns per meter.

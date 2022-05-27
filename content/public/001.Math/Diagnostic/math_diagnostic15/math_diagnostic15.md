@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $3^{2} $=$ 9$
+    expr: $8^{9} $=$ 134217728$
     part1:
       ans1:
-        value: $log_39 = 2$
+        value: $log_8134217728 = 9$
       ans2:
-        value: $log_32 = 9$
+        value: $log_89 = 134217728$
       ans3:
-        value: $log_92 = 3$
+        value: $log_1342177289 = 8$
       ans4:
-        value: $log_29 = 3$
+        value: $log_9134217728 = 8$
       ans5:
         value: Don't Know
 ---

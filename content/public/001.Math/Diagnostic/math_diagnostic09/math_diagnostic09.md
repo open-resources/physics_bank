@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $j$ = $\dfrac{(o)}{(n + 4g)} $
+    expr: $c$ = $\dfrac{(s)}{(v - 4a)} $
     part1:
       ans1:
-        value: n = ${ - 4 g + \frac{o}{j}}$
+        value: v = ${ 4 a + \frac{s}{c}}$
       ans2:
-        value: n = ${\frac{4 g j}{o}}$
+        value: v = ${- \frac{4 a c}{s}}$
       ans3:
-        value: n = ${\frac{o}{4 g j}}$
+        value: v = ${- \frac{s}{4 a c}}$
       ans4:
-        value: n = ${\frac{- 4 g + j}{o}}$
+        value: v = ${\frac{4 a + c}{s}}$
       ans5:
         value: Don't Know
 ---
