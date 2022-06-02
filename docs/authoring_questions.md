@@ -36,7 +36,7 @@ Image credit for the above flow is from [GitHub Guides](https://guides.github.co
 
 3. Checkout a new branch (replace `newbranchname` with your question number or description):
 
-> `git checkout -b newbranchname`
+> `git switch -c newbranchname` (the `-c` flag creates a new branch if it does not already exist)
 
 4. Choose a problem that you want to write in markdown, take note of the source, and any attribution you may need to make. Use the [Topics, Subtopics, and Learning Outcomes](https://github.com/open-resources/learning_outcomes/blob/main/Masterlist.csv) file to get the "Topic" and "Subtopic" - you will need to put the question in the correct directory.
 
@@ -74,7 +74,7 @@ Image credit for the above flow is from [GitHub Guides](https://guides.github.co
 
 13. Switch back to the `main` branch locally:
 
-> `git checkout main`
+> `git switch main`
 
 14. Pull any changes (if there are any):
 
