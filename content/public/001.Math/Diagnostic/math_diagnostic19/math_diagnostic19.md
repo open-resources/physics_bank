@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin341$
+    a: $ \sin216$
     part1:
       ans1:
-        value: $\sin{-19}$
+        value: $\sin{-144}$
       ans2:
-        value: $\sin{19}$
+        value: $\sin{144}$
       ans3:
-        value: $\sin{-161}$
+        value: $\sin{-36}$
       ans4:
-        value: $\sin{161}$
+        value: $\sin{36}$
       ans5:
         value: Don't Know
 ---

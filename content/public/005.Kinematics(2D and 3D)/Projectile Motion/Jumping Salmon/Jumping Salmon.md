@@ -41,8 +41,8 @@ substitutions:
     vars:
       title: Jumping Salmon
       units: $m/s$
-    h_fall: 3.71
-    dist: 1.15
+    h_fall: 3.7
+    dist: 0.901
     part1:
       ans1:
         value: Time interval for jump, $\Delta t$

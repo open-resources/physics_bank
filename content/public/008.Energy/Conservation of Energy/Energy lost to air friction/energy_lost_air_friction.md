@@ -31,22 +31,22 @@ substitutions:
     vars:
       title: Energy Lost due to Air Friction
       units: J
-    m: 2.17
-    v: 54.5
-    h: 36.2
+    m: 2.89
+    v: 54.4
+    h: 91.4
     part1:
       ans1:
-        value: -2450.0
+        value: -1690.0
       ans2:
-        value: 2450.0
+        value: 1690.0
       ans3:
-        value: -3990.0
+        value: -6870.0
       ans4:
-        value: 3990.0
+        value: 6870.0
       ans5:
-        value: 711.0
+        value: 2510.0
       ans6:
-        value: 830.0
+        value: 2670.0
 ---
 # {{ params.vars.title }}
 A {{ params.m }} kg mass is thrown upwards with a velocity of {{ params.v }} m/s.

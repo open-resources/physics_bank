@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $v$ = $\dfrac{(c)}{(u - 8d)} $
+    expr: $n$ = $\dfrac{(t)}{(r - 9l)} $
     part1:
       ans1:
-        value: u = ${ \frac{c}{v} + 8 d}$
+        value: r = ${ 9 l + \frac{t}{n}}$
       ans2:
-        value: u = ${- \frac{8 d v}{c}}$
+        value: r = ${- \frac{9 l n}{t}}$
       ans3:
-        value: u = ${- \frac{c}{8 d v}}$
+        value: r = ${- \frac{t}{9 l n}}$
       ans4:
-        value: u = ${\frac{8 d + v}{c}}$
+        value: r = ${\frac{9 l + n}{t}}$
       ans5:
         value: Don't Know
 ---
