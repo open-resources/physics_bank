@@ -4,7 +4,7 @@
 Welcome to the Open Problem Bank (OPB) in Physics.
 This repository contains the source code (including solutions) to the questions available publicly [here](https://firas.moosvi.com/oer/physicsbank).
 
-## How to create questions on the OPB
+## How to create questions on the OPBa
 
 First some general guidelines:
 
