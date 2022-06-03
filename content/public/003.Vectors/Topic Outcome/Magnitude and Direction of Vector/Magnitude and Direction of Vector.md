@@ -36,29 +36,29 @@ substitutions:
   params:
     vars:
       title: Magnitude and Direction of a Vector
-    A_i: 9
-    A_j_abs: 5
-    A_j_sign: ' - '
-    B_i: 2
-    B_j_abs: 5
+    A_i: -5
+    A_j_abs: 7
+    A_j_sign: ' + '
+    B_i: 1
+    B_j_abs: 2
     B_j_sign: ' + '
-    C_i: 3
-    C_j_abs: 10
+    C_i: -8
+    C_j_abs: 1
     C_j_sign: ' + '
-    d: 3
+    d: -1
     part1:
       ans1:
-        value: ($\sqrt{660}$, $\theta = $51.3$^\circ$)
+        value: ($\sqrt{20}$, $\theta = $63.4$^\circ$)
       ans2:
-        value: ($\sqrt{660}$, $\theta = $25.65$^\circ$)
+        value: ($\sqrt{20}$, $\theta = $31.7$^\circ$)
       ans3:
-        value: ($\sqrt{330.0}$, $\theta = $25.65$^\circ$)
+        value: ($\sqrt{10.0}$, $\theta = $31.7$^\circ$)
       ans4:
-        value: ($\sqrt{26.0}$, $\theta = $51.3$^\circ$)
+        value: ($\sqrt{4.5}$, $\theta = $63.4$^\circ$)
       ans5:
-        value: ($\sqrt{990.0}$, $\theta = $25.65$^\circ$)
+        value: ($\sqrt{30.0}$, $\theta = $31.7$^\circ$)
       ans6:
-        value: ($\sqrt{36}$, $\theta = $51.3$^\circ$)
+        value: ($\sqrt{6}$, $\theta = $63.4$^\circ$)
 ---
 # {{ params.vars.title }}
 Given $\vec{A} =$ {{ params.A_i }}$\hat{\imath}$ {{params.A_j_sign}} {{ params.A_j_abs}}$\hat{\jmath}$, $\vec{B} =$ {{ params.B_i }}$\hat{\imath}$ {{params.B_j_sign}} {{ params.B_j_abs}}$\hat{\jmath}$, $\vec{C} =$ {{ params.C_i }}$\hat{\imath}$ {{params.C_j_sign}} {{ params.C_j_abs}}$\hat{\jmath}$ and $d=$ {{ params.d }}, find the magnitude and direction of $\vec{A}-\vec{B}+d\vec{C}$.

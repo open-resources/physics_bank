@@ -45,8 +45,8 @@ substitutions:
   params:
     vars:
       title: Rate of Change of Current in a Coil
-    L: '0.700'
-    V: '0.290'
+    L: '0.150'
+    V: '0.230'
 ---
 # {{ params.vars.title }}
 

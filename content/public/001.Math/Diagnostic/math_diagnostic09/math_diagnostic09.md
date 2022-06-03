@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $n$ = $\dfrac{(t)}{(r - 9l)} $
+    expr: $k$ = $\dfrac{(p)}{(q + 8x)} $
     part1:
       ans1:
-        value: r = ${ 9 l + \frac{t}{n}}$
+        value: q = ${ - 8 x + \frac{p}{k}}$
       ans2:
-        value: r = ${- \frac{9 l n}{t}}$
+        value: q = ${\frac{8 k x}{p}}$
       ans3:
-        value: r = ${- \frac{t}{9 l n}}$
+        value: q = ${\frac{p}{8 k x}}$
       ans4:
-        value: r = ${\frac{9 l + n}{t}}$
+        value: q = ${\frac{k - 8 x}{p}}$
       ans5:
         value: Don't Know
 ---

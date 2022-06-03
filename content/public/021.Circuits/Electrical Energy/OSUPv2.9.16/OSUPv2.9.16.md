@@ -32,15 +32,15 @@ substitutions:
       name: Maya
     part1:
       ans1:
-        value: charge
+        value: voltage
       ans2:
-        value: energy
+        value: charge
       ans3:
         value: current
       ans4:
         value: power
       ans5:
-        value: voltage
+        value: energy
 ---
 # {{ params.vars.title }}
 

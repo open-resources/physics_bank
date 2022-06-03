@@ -62,8 +62,8 @@ substitutions:
       name: Ximena
       unit1: $kg$
       unit2: $m^3$
-    m_p: 256
-    m_cp: 102
+    m_p: 240
+    m_cp: 67
     l: 4
 ---
 # {{ params.vars.title }}

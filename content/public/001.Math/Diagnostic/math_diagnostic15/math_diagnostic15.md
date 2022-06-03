@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $9^{4} $=$ 6561$
+    expr: $9^{7} $=$ 4782969$
     part1:
       ans1:
-        value: $log_96561 = 4$
+        value: $log_94782969 = 7$
       ans2:
-        value: $log_94 = 6561$
+        value: $log_97 = 4782969$
       ans3:
-        value: $log_65614 = 9$
+        value: $log_47829697 = 9$
       ans4:
-        value: $log_46561 = 9$
+        value: $log_74782969 = 9$
       ans5:
         value: Don't Know
 ---

@@ -39,7 +39,7 @@ substitutions:
       units_m: kg
       units_h: m
       units: kg m/s
-    m: 0.23
+    m: 0.235
     h: 1.5
 ---
 # {{ params.vars.title }}
