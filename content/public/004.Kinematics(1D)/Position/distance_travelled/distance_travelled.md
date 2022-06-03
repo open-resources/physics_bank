@@ -29,21 +29,21 @@ part1:
 substitutions:
   params:
     vars:
-      name: Mateo
-      vehicle: ice skates
+      name: Ximena
+      vehicle: rollerblades
       units: m
       title: Distance travelled
-    v: 7
-    t: 10
+    v: 3
+    t: 6
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 70
+        value: 18
       ans3:
-        value: 17
+        value: 9
       ans4:
-        value: 0.7
+        value: 0.5
       ans5:
         value: -3
       ans6:

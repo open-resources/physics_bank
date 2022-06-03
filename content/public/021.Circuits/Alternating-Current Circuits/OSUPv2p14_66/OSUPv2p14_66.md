@@ -59,8 +59,8 @@ substitutions:
   params:
     vars:
       title: Frequency and Voltage of an LC Circuit
-    L: '29.0'
-    C: '4.5'
+    L: '50.0'
+    C: '1.0'
     V: '54.0'
 ---
 # {{ params.vars.title }}

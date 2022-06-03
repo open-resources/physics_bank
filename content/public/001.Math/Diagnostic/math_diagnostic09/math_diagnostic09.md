@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $c$ = $\dfrac{(s)}{(v - 4a)} $
+    expr: $v$ = $\dfrac{(c)}{(u - 8d)} $
     part1:
       ans1:
-        value: v = ${ 4 a + \frac{s}{c}}$
+        value: u = ${ \frac{c}{v} + 8 d}$
       ans2:
-        value: v = ${- \frac{4 a c}{s}}$
+        value: u = ${- \frac{8 d v}{c}}$
       ans3:
-        value: v = ${- \frac{s}{4 a c}}$
+        value: u = ${- \frac{c}{8 d v}}$
       ans4:
-        value: v = ${\frac{4 a + c}{s}}$
+        value: u = ${\frac{8 d + v}{c}}$
       ans5:
         value: Don't Know
 ---
