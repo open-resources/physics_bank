@@ -42,7 +42,7 @@ substitutions:
   params:
     vars:
       title: Force on Lightning Bolt
-    I: 18439
+    I: 19409
     part2:
       ans1:
         value: North

@@ -40,12 +40,12 @@ part2:
 substitutions:
   params:
     vars:
-      name: Emilia
+      name: Ximena
       title: Archery Competition
       units: m/s
-    x: 107
-    arrow_v: 207
-    theta: 6
+    x: 129
+    arrow_v: 103
+    theta: 15
     height: 180
 ---
 # {{ params.vars.title }}

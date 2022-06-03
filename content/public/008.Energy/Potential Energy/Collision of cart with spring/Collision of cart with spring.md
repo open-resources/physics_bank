@@ -37,7 +37,7 @@ substitutions:
       units: m/s
     m: 87
     k: 244
-    x: 66
+    x: 90
 ---
 # {{ params.vars.title }}
 A  {{ params.m }}  $kg$  runaway  grocery  cart  runs  into  a  spring  with a spring  constant $k = $  {{ params.k }}  $N/m$  and compresses it by {{ params.x }} $cm$ before momentarily coming to rest.

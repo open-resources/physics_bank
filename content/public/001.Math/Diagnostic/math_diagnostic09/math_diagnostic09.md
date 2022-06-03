@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $k$ = $\dfrac{(p)}{(q + 8x)} $
+    expr: $b$ = $\dfrac{(h)}{(a - 3l)} $
     part1:
       ans1:
-        value: q = ${ - 8 x + \frac{p}{k}}$
+        value: a = ${ 3 l + \frac{h}{b}}$
       ans2:
-        value: q = ${\frac{8 k x}{p}}$
+        value: a = ${- \frac{3 b l}{h}}$
       ans3:
-        value: q = ${\frac{p}{8 k x}}$
+        value: a = ${- \frac{h}{3 b l}}$
       ans4:
-        value: q = ${\frac{k - 8 x}{p}}$
+        value: a = ${\frac{b + 3 l}{h}}$
       ans5:
         value: Don't Know
 ---

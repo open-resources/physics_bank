@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{24x + 64y }{ 8 }$
+    expr: $\dfrac{16x - 16y }{ -4 }$
     part1:
       ans1:
-        value: $3 x + 8 y$
+        value: $- 4 x + 4 y$
       ans2:
-        value: $\dfrac{3x + 8y}{8}$
+        value: $\dfrac{-4x + 4y}{-4}$
       ans3:
-        value: $8x + 3y$
+        value: $4x - 4y$
       ans4:
-        value: $24x + 64y$
+        value: $16x + 16y$
       ans5:
         value: Don't know.
 ---
