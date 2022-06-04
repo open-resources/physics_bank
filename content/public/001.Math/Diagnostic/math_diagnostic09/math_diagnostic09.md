@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $n$ = $\dfrac{(s)}{(z + 10c)} $
+    expr: $f$ = $\dfrac{(m)}{(o + 6y)} $
     part1:
       ans1:
-        value: z = ${ - 10 c + \frac{s}{n}}$
+        value: o = ${ - 6 y + \frac{m}{f}}$
       ans2:
-        value: z = ${\frac{10 c n}{s}}$
+        value: o = ${\frac{6 f y}{m}}$
       ans3:
-        value: z = ${\frac{s}{10 c n}}$
+        value: o = ${\frac{m}{6 f y}}$
       ans4:
-        value: z = ${\frac{- 10 c + n}{s}}$
+        value: o = ${\frac{f - 6 y}{m}}$
       ans5:
         value: Don't Know
 ---

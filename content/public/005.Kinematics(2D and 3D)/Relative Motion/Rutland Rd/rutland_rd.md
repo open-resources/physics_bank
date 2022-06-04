@@ -41,7 +41,7 @@ substitutions:
       title: Rutland Rd
       vehicle: semi-truck
       units: km/h
-    v: 40
+    v: 47
     part2:
       ans1:
         value: North

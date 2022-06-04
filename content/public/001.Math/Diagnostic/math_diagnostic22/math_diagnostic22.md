@@ -30,17 +30,17 @@ substitutions:
   params:
     vars:
       title: Math Practice Q22
-    denom: 6
-    formula: $\cos{\left(\frac{x}{6} \right)}$
+    denom: 5
+    formula: $\cos{\left(\frac{x}{5} \right)}$
     part1:
       ans1:
-        value: ${6 \sin{\left(\frac{x}{6} \right)}}$
+        value: ${5 \sin{\left(\frac{x}{5} \right)}}$
       ans2:
-        value: ${- 6 \sin{\left(\frac{x}{6} \right)}}$
+        value: ${- 5 \sin{\left(\frac{x}{5} \right)}}$
       ans3:
-        value: ${12 \sin{\left(\frac{x}{6} \right)}}$
+        value: ${10 \sin{\left(\frac{x}{5} \right)}}$
       ans4:
-        value: ${3 \sin{\left(\frac{x}{6} \right)}}$
+        value: ${\frac{5 \sin{\left(\frac{x}{5} \right)}}{2}}$
 ---
 # {{ params.vars.title }}
 
