@@ -34,7 +34,7 @@ substitutions:
   params:
     vars:
       title: Aircraft Carrier
-    va: 119
+    va: 170
     vb: 250
 ---
 # {{ params.vars.title }}

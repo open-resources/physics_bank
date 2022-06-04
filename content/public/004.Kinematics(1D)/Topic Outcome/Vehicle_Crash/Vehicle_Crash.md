@@ -31,25 +31,25 @@ substitutions:
   params:
     vars:
       title: Vehicle Crash
-      name: Emilia
+      name: Santiago
       vehicle_1: sedan
-      vehicle_2: semi-truck
-    dist: 4.44
-    v: 37.3
-    acc: 11.9
-    s_1: 0.3
-    s_2: 1.551
+      vehicle_2: bus
+    dist: 3.07
+    v: 33.6
+    acc: 12.0
+    s_1: 0.4
+    s_2: 1.533
     part1:
       ans1:
-        value: 22.41 $m/s$
+        value: 20.0 $m/s$
       ans2:
-        value: 18.84 $m/s$
+        value: 15.2 $m/s$
       ans3:
-        value: 33.73 $m/s$
+        value: 28.8 $m/s$
       ans4:
-        value: 15.27 $m/s$
+        value: 10.4 $m/s$
       ans5:
-        value: 37.3 $m/s$
+        value: 33.6 $m/s$
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is following {{params.dist}} $m$ behind a {{params.vars.vehicle_1}} when it suddenly brakes with an acceleration of -{{params.acc}} $m/s^2$.

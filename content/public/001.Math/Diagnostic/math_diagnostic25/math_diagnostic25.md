@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice Q25
-    expr: $\dfrac{ 6-e^{(-6x)}}{9-x}$
+    expr: $\dfrac{ 4-e^{(-2x)}}{5-x}$
     part1:
       ans1:
-        value: 5/9
+        value: 3/5
       ans2:
         value: Negative Infinity
       ans3:
-        value: 0.6666666666666666
+        value: 0.8
       ans4:
-        value: 6
+        value: 4
       ans5:
         value: Don't Know
 ---

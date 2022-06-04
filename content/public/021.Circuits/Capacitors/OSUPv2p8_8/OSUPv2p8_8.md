@@ -41,7 +41,7 @@ substitutions:
   params:
     vars:
       title: Maximizing Energy in a Capacitor Bank
-      name: Santiago
+      name: Ahmed
     part1:
       ans1:
         value: Parallel

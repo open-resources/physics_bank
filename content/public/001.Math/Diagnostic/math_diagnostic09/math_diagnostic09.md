@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $g$ = $\dfrac{(q)}{(i - 2t)} $
+    expr: $n$ = $\dfrac{(s)}{(z + 10c)} $
     part1:
       ans1:
-        value: i = ${ 2 t + \frac{q}{g}}$
+        value: z = ${ - 10 c + \frac{s}{n}}$
       ans2:
-        value: i = ${- \frac{2 g t}{q}}$
+        value: z = ${\frac{10 c n}{s}}$
       ans3:
-        value: i = ${- \frac{q}{2 g t}}$
+        value: z = ${\frac{s}{10 c n}}$
       ans4:
-        value: i = ${\frac{g + 2 t}{q}}$
+        value: z = ${\frac{- 10 c + n}{s}}$
       ans5:
         value: Don't Know
 ---

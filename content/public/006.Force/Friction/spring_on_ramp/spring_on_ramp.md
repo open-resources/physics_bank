@@ -48,9 +48,9 @@ substitutions:
     vars:
       title: Spring on Ramp
       units: m
-    m: 8
-    theta: 33
-    k: 300
+    m: 7
+    theta: 34
+    k: 150
     us: 0.5
     uk: 0.4
 ---
