@@ -117,7 +117,7 @@ substitutions:
   params:
     vars:
       title: Battery and Resistors
-    V: '49.0'
+    V: '50.0'
     R1: '15.0'
     R2: '86.0'
 ---

@@ -37,9 +37,9 @@ substitutions:
     vars:
       title: Box on a Slant with a Pulley
       units: $kg$
-    theta: 10
-    mu: 0.4
-    m: 9
+    theta: 33
+    mu: 0.2
+    m: 8
 ---
 # {{ params.vars.title }}
 The figure shows a block of mass $m$ resting on a {{params.theta}}$^\circ$ slope.

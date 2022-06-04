@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $m$ = $\dfrac{(d)}{(j - 8c)} $
+    expr: $g$ = $\dfrac{(q)}{(i - 2t)} $
     part1:
       ans1:
-        value: j = ${ 8 c + \frac{d}{m}}$
+        value: i = ${ 2 t + \frac{q}{g}}$
       ans2:
-        value: j = ${- \frac{8 c m}{d}}$
+        value: i = ${- \frac{2 g t}{q}}$
       ans3:
-        value: j = ${- \frac{d}{8 c m}}$
+        value: i = ${- \frac{q}{2 g t}}$
       ans4:
-        value: j = ${\frac{8 c + m}{d}}$
+        value: i = ${\frac{g + 2 t}{q}}$
       ans5:
         value: Don't Know
 ---
