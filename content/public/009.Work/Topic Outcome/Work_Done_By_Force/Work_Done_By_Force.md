@@ -34,20 +34,20 @@ substitutions:
       units: $J$
     t1: 2
     t2: 10
-    f1: 2.3
+    f1: 1.7
     f2: 4.7
-    r1: 2.8
-    r2: 1.6
-    m: 6.8
+    r1: 3.3
+    r2: 1.8
+    m: 8.8
     part1:
       ans1:
-        value: -1.1
+        value: -2.9
       ans2:
         value: 14.0
       ans3:
-        value: 95.0
+        value: 120.0
       ans4:
-        value: 2.1
+        value: 1.6
       ans5:
         value: -14.0
 ---

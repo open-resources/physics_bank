@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $o$ = $\dfrac{(b)}{(i - 4p)} $
+    expr: $m$ = $\dfrac{(d)}{(j - 8c)} $
     part1:
       ans1:
-        value: i = ${ \frac{b}{o} + 4 p}$
+        value: j = ${ 8 c + \frac{d}{m}}$
       ans2:
-        value: i = ${- \frac{4 o p}{b}}$
+        value: j = ${- \frac{8 c m}{d}}$
       ans3:
-        value: i = ${- \frac{b}{4 o p}}$
+        value: j = ${- \frac{d}{8 c m}}$
       ans4:
-        value: i = ${\frac{o + 4 p}{b}}$
+        value: j = ${\frac{8 c + m}{d}}$
       ans5:
         value: Don't Know
 ---

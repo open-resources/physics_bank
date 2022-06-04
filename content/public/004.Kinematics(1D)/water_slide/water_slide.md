@@ -55,7 +55,7 @@ substitutions:
     vars:
       name: Maya
       title: Water Slide
-    theta: 30
+    theta: 20
     l: 400
     l2: 200.0
 ---

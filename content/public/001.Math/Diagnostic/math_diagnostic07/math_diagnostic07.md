@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 5x - 6y = 1
-    formula2: 1x + 4y = 5
+    formula1: 2x - 7y = 3
+    formula2: 1x + 7y = 11
     part1:
       ans1:
-        value: ' x =17/13, y =12/13'
+        value: ' x =14/3, y =19/21'
       ans2:
-        value: ' x =12/13, y =17/13'
+        value: ' x =19/21, y =14/3'
       ans3:
-        value: ' x =-17/13, y =-12/13'
+        value: ' x =-14/3, y =-19/21'
       ans4:
-        value: ' x =-12/13, y =-17/13'
+        value: ' x =-19/21, y =-14/3'
       ans5:
         value: Don't Know
 ---
