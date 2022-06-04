@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-28x - 49y }{ -7 }$
+    expr: $\dfrac{-45x - 81y }{ 9 }$
     part1:
       ans1:
-        value: $4 x + 7 y$
+        value: $- 5 x - 9 y$
       ans2:
-        value: $\dfrac{4x + 7y}{-7}$
+        value: $\dfrac{-5x - 9y}{9}$
       ans3:
-        value: $7x + 4y$
+        value: $-9x - 5y$
       ans4:
-        value: $-28x + 49y$
+        value: $-45x - 81y$
       ans5:
         value: Don't know.
 ---

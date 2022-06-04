@@ -42,7 +42,7 @@ substitutions:
   params:
     vars:
       title: Magnetic field of a solenoid
-    n: '3000'
+    n: '2100'
     I: '4.80'
 ---
 # {{ params.vars.title }}

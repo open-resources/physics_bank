@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $b$ = $\dfrac{(c)}{(z - 8a)} $
+    expr: $o$ = $\dfrac{(b)}{(i - 4p)} $
     part1:
       ans1:
-        value: z = ${ 8 a + \frac{c}{b}}$
+        value: i = ${ \frac{b}{o} + 4 p}$
       ans2:
-        value: z = ${- \frac{8 a b}{c}}$
+        value: i = ${- \frac{4 o p}{b}}$
       ans3:
-        value: z = ${- \frac{c}{8 a b}}$
+        value: i = ${- \frac{b}{4 o p}}$
       ans4:
-        value: z = ${\frac{8 a + b}{c}}$
+        value: i = ${\frac{o + 4 p}{b}}$
       ans5:
         value: Don't Know
 ---
