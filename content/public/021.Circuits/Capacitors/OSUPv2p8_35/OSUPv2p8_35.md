@@ -53,7 +53,7 @@ substitutions:
   params:
     vars:
       title: Connecting Capacitors
-      name: Maya
+      name: Aliyah
     a: '13'
     b: '12'
 ---

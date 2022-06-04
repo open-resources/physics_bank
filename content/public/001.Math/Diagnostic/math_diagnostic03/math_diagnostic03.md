@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 2x + -10 > -5x + 2
+      formula: 6x + 5 > -9x + 6
     part1:
       ans1:
-        value: x > 12/7
+        value: x > 1/15
       ans2:
-        value: x < 12/7
+        value: x < 1/15
       ans3:
-        value: x < 7/12
+        value: x < 15
       ans4:
-        value: x > 7/12
+        value: x > 15
       ans5:
         value: Don't Know
 ---

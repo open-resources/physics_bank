@@ -39,13 +39,13 @@ substitutions:
       ans2:
         value: The average acceleration
       ans3:
-        value: Drag
+        value: Lift
       ans4:
-        value: velocity
+        value: Momentum
       ans5:
-        value: Area
+        value: Mass
       ans6:
-        value: Density
+        value: Power
 ---
 # {{ params.vars.title }}
 

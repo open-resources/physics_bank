@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $b$ = $\dfrac{(h)}{(a - 3l)} $
+    expr: $k$ = $\dfrac{(m)}{(a - 2u)} $
     part1:
       ans1:
-        value: a = ${ 3 l + \frac{h}{b}}$
+        value: a = ${ 2 u + \frac{m}{k}}$
       ans2:
-        value: a = ${- \frac{3 b l}{h}}$
+        value: a = ${- \frac{2 k u}{m}}$
       ans3:
-        value: a = ${- \frac{h}{3 b l}}$
+        value: a = ${- \frac{m}{2 k u}}$
       ans4:
-        value: a = ${\frac{b + 3 l}{h}}$
+        value: a = ${\frac{k + 2 u}{m}}$
       ans5:
         value: Don't Know
 ---

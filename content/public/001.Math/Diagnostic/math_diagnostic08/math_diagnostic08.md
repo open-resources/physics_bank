@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{16x - 16y }{ -4 }$
+    expr: $\dfrac{18x + 12y }{ 6 }$
     part1:
       ans1:
-        value: $- 4 x + 4 y$
+        value: $3 x + 2 y$
       ans2:
-        value: $\dfrac{-4x + 4y}{-4}$
+        value: $\dfrac{3x + 2y}{6}$
       ans3:
-        value: $4x - 4y$
+        value: $2x + 3y$
       ans4:
-        value: $16x + 16y$
+        value: $18x + 12y$
       ans5:
         value: Don't know.
 ---

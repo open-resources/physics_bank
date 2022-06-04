@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $3^{8} $=$ 6561$
+    expr: $5^{4} $=$ 625$
     part1:
       ans1:
-        value: $log_36561 = 8$
+        value: $log_5625 = 4$
       ans2:
-        value: $log_38 = 6561$
+        value: $log_54 = 625$
       ans3:
-        value: $log_65618 = 3$
+        value: $log_6254 = 5$
       ans4:
-        value: $log_86561 = 3$
+        value: $log_4625 = 5$
       ans5:
         value: Don't Know
 ---
