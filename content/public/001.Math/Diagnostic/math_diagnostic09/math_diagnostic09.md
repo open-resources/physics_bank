@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $k$ = $\dfrac{(m)}{(a - 2u)} $
+    expr: $b$ = $\dfrac{(c)}{(z - 8a)} $
     part1:
       ans1:
-        value: a = ${ 2 u + \frac{m}{k}}$
+        value: z = ${ 8 a + \frac{c}{b}}$
       ans2:
-        value: a = ${- \frac{2 k u}{m}}$
+        value: z = ${- \frac{8 a b}{c}}$
       ans3:
-        value: a = ${- \frac{m}{2 k u}}$
+        value: z = ${- \frac{c}{8 a b}}$
       ans4:
-        value: a = ${\frac{k + 2 u}{m}}$
+        value: z = ${\frac{8 a + b}{c}}$
       ans5:
         value: Don't Know
 ---

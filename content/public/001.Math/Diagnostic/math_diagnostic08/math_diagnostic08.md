@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{18x + 12y }{ 6 }$
+    expr: $\dfrac{-28x - 49y }{ -7 }$
     part1:
       ans1:
-        value: $3 x + 2 y$
+        value: $4 x + 7 y$
       ans2:
-        value: $\dfrac{3x + 2y}{6}$
+        value: $\dfrac{4x + 7y}{-7}$
       ans3:
-        value: $2x + 3y$
+        value: $7x + 4y$
       ans4:
-        value: $18x + 12y$
+        value: $-28x + 49y$
       ans5:
         value: Don't know.
 ---

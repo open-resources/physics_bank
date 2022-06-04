@@ -44,9 +44,9 @@ substitutions:
       title: Archery Competition
       units: m/s
     x: 144
-    arrow_v: 180
-    theta: 9
-    height: 199
+    arrow_v: 171
+    theta: 11
+    height: 161
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is reading a novel that describes an athelete participating in an archery competition.
