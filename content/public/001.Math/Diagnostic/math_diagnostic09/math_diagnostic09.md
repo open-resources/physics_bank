@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $x$ = $\dfrac{(a)}{(u - 6e)} $
+    expr: $w$ = $\dfrac{(v)}{(s - 5n)} $
     part1:
       ans1:
-        value: u = ${ \frac{a}{x} + 6 e}$
+        value: s = ${ 5 n + \frac{v}{w}}$
       ans2:
-        value: u = ${- \frac{6 e x}{a}}$
+        value: s = ${- \frac{5 n w}{v}}$
       ans3:
-        value: u = ${- \frac{a}{6 e x}}$
+        value: s = ${- \frac{v}{5 n w}}$
       ans4:
-        value: u = ${\frac{6 e + x}{a}}$
+        value: s = ${\frac{5 n + w}{v}}$
       ans5:
         value: Don't Know
 ---

@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Minimum Coefficient Of Static Friction
-      vehicle: truck
-    r: 63
-    v: 25
+      vehicle: sedan
+    r: 90
+    v: 20
     part1:
       ans1:
-        value: 0.99
+        value: 2.2
       ans2:
-        value: 1.0
+        value: 0.45
       ans3:
-        value: 9.9
+        value: 4.4
       ans4:
-        value: 0.04
+        value: 0.023
       ans5:
-        value: 0.4
+        value: 0.22
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }} drives around a flat curve with radius $r$ = {{params.r}} $m$ at a speed of $v$ = {{params.v}} $\frac{m}{s}$.

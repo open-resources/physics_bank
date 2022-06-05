@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 5x - 1y = 28
-    formula2: 2x + 2y = 49
+    formula1: 9x - 1y = 34
+    formula2: 4x + 1y = 9
     part1:
       ans1:
-        value: ' x =35/4, y =63/4'
+        value: ' x =43/13, y =-55/13'
       ans2:
-        value: ' x =63/4, y =35/4'
+        value: ' x =-55/13, y =43/13'
       ans3:
-        value: ' x =-35/4, y =-63/4'
+        value: ' x =-43/13, y =55/13'
       ans4:
-        value: ' x =-63/4, y =-35/4'
+        value: ' x =55/13, y =-43/13'
       ans5:
         value: Don't Know
 ---

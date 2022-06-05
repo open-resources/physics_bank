@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic 6
-    eq: $\dfrac{x-5}{x+2}$ = $ \dfrac{x+2}{x-2}$
+    eq: $\dfrac{x-3}{x+3}$ = $ \dfrac{x+5}{x-5}$
     part1:
       ans1:
-        value: 6/11
+        value: '0'
       ans2:
-        value: 6/11
+        value: '-1'
       ans3:
-        value: '2'
+        value: '0'
       ans4:
-        value: -6/11
+        value: '1'
 ---
 # {{ params.vars.title }}
 

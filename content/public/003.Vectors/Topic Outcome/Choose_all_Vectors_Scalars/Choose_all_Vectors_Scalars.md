@@ -35,17 +35,17 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: Weight
+        value: The average velocity
       ans2:
-        value: The position in 3 dimensions
+        value: Acceleration
       ans3:
-        value: Energy
+        value: Speed
       ans4:
         value: Pressure
       ans5:
-        value: Speed
+        value: Distance travelled
       ans6:
-        value: Work
+        value: Power
 ---
 # {{ params.vars.title }}
 
