@@ -29,25 +29,25 @@ part1:
 substitutions:
   params:
     vars:
-      name: Lorenzo
-      vehicle: a tricycle
+      name: Abbas
+      vehicle: ice skates
       units: m
       title: Distance travelled
-    v: 7
-    t: 10
+    v: 6
+    t: 8
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 70
+        value: 48
       ans3:
-        value: 17
+        value: 14
       ans4:
-        value: 0.7
+        value: 0.75
       ans5:
-        value: -3
+        value: -2
       ans6:
-        value: -3.9
+        value: -2.6
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is traveling on {{ params.vars.vehicle }} at {{ params.v }} {{ params.vars.units }}.

@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin225$
+    a: $ \sin282$
     part1:
       ans1:
-        value: $\sin{-135}$
+        value: $\sin{-78}$
       ans2:
-        value: $\sin{135}$
+        value: $\sin{78}$
       ans3:
-        value: $\sin{-45}$
+        value: $\sin{-102}$
       ans4:
-        value: $\sin{45}$
+        value: $\sin{102}$
       ans5:
         value: Don't Know
 ---

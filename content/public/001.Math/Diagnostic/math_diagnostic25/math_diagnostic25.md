@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice Q25
-    expr: $\dfrac{ 1-e^{(-8x)}}{5-x}$
+    expr: $\dfrac{ 9-e^{(-1x)}}{1-x}$
     part1:
       ans1:
-        value: '0'
+        value: '8'
       ans2:
         value: Negative Infinity
       ans3:
-        value: 0.2
+        value: 9.0
       ans4:
-        value: 1
+        value: 9
       ans5:
         value: Don't Know
 ---

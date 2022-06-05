@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $f$ = $\dfrac{(m)}{(o + 6y)} $
+    expr: $x$ = $\dfrac{(a)}{(u - 6e)} $
     part1:
       ans1:
-        value: o = ${ - 6 y + \frac{m}{f}}$
+        value: u = ${ \frac{a}{x} + 6 e}$
       ans2:
-        value: o = ${\frac{6 f y}{m}}$
+        value: u = ${- \frac{6 e x}{a}}$
       ans3:
-        value: o = ${\frac{m}{6 f y}}$
+        value: u = ${- \frac{a}{6 e x}}$
       ans4:
-        value: o = ${\frac{f - 6 y}{m}}$
+        value: u = ${\frac{6 e + x}{a}}$
       ans5:
         value: Don't Know
 ---

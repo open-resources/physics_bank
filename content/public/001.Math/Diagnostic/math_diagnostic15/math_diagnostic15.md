@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $6^{3} $=$ 216$
+    expr: $7^{6} $=$ 117649$
     part1:
       ans1:
-        value: $log_6216 = 3$
+        value: $log_7117649 = 6$
       ans2:
-        value: $log_63 = 216$
+        value: $log_76 = 117649$
       ans3:
-        value: $log_2163 = 6$
+        value: $log_1176496 = 7$
       ans4:
-        value: $log_3216 = 6$
+        value: $log_6117649 = 7$
       ans5:
         value: Don't Know
 ---
