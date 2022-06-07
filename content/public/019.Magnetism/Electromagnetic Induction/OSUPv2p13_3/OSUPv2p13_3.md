@@ -20,7 +20,6 @@ tags:
 - chapter 13
 - problem 3
 - electromagnetic induction
-- multiple choice
 - AC
 assets: null
 part1:

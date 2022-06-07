@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{15x + 35y }{ 5 }$
+    expr: $\dfrac{40x - 10y }{ 5 }$
     part1:
       ans1:
-        value: $3 x + 7 y$
+        value: $8 x - 2 y$
       ans2:
-        value: $\dfrac{3x + 7y}{5}$
+        value: $\dfrac{8x - 2y}{5}$
       ans3:
-        value: $7x + 3y$
+        value: $-2x + 8y$
       ans4:
-        value: $15x + 35y$
+        value: $40x - 10y$
       ans5:
         value: Don't know.
 ---

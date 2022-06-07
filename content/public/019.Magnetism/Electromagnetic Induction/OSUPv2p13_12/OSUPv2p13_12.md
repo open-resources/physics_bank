@@ -18,7 +18,6 @@ tags:
 - volume 2
 - chapter 13
 - problem 12
-- multiple choice
 - electromagnetic induction
 - AC
 assets:

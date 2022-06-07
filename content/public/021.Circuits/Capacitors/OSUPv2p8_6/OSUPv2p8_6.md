@@ -30,7 +30,6 @@ tags:
 - chapter 8
 - problem 6
 - capacitors
-- multiple choice
 - AC
 assets: null
 part1:
@@ -41,7 +40,7 @@ substitutions:
   params:
     vars:
       title: Maximizing Charge in a Capacitor Bank
-      name: Maya
+      name: Savannah
     part1:
       ans1:
         value: Parallel

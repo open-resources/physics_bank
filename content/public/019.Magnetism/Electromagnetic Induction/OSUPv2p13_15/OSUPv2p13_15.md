@@ -24,7 +24,6 @@ tags:
 - volume 2
 - chapter 13
 - problem 15
-- multiple choice
 - multi-part
 - electromagnetic induction
 - AC

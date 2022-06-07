@@ -57,9 +57,9 @@ substitutions:
       title: Motion of watermelon
       units1: ${m/s}^2$
       units2: $s$
-    a: 2
-    b: 6
-    c: 7
+    a: 4
+    b: 8
+    c: 6
     part4:
       ans1:
         value: The speed is increasing

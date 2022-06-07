@@ -26,7 +26,6 @@ tags:
 - problem 15
 - circuits
 - inductors
-- multiple choice
 - JW
 assets:
 - fig_OSUPv2p14_15.png

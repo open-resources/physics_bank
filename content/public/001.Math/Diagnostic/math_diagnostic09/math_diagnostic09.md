@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $w$ = $\dfrac{(v)}{(s - 5n)} $
+    expr: $t$ = $\dfrac{(f)}{(q - 7v)} $
     part1:
       ans1:
-        value: s = ${ 5 n + \frac{v}{w}}$
+        value: q = ${ \frac{f}{t} + 7 v}$
       ans2:
-        value: s = ${- \frac{5 n w}{v}}$
+        value: q = ${- \frac{7 t v}{f}}$
       ans3:
-        value: s = ${- \frac{v}{5 n w}}$
+        value: q = ${- \frac{f}{7 t v}}$
       ans4:
-        value: s = ${\frac{5 n + w}{v}}$
+        value: q = ${\frac{t + 7 v}{f}}$
       ans5:
         value: Don't Know
 ---

@@ -30,7 +30,6 @@ tags:
 - chapter 8
 - problem 8
 - capacitors
-- multiple choice
 - AC
 assets: null
 part1:

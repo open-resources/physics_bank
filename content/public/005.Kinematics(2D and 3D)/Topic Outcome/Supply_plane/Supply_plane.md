@@ -67,7 +67,7 @@ substitutions:
       units3: $m/s \ \ \hat\imath$
       units4: $m/s \ \ \hat\jmath$
     h: 100
-    s: 100
+    s: 200
     vert: 70
 ---
 # {{ params.vars.title }}
