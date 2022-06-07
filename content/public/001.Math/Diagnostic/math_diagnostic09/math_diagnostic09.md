@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $t$ = $\dfrac{(f)}{(q - 7v)} $
+    expr: $w$ = $\dfrac{(e)}{(m - 2c)} $
     part1:
       ans1:
-        value: q = ${ \frac{f}{t} + 7 v}$
+        value: m = ${ 2 c + \frac{e}{w}}$
       ans2:
-        value: q = ${- \frac{7 t v}{f}}$
+        value: m = ${- \frac{2 c w}{e}}$
       ans3:
-        value: q = ${- \frac{f}{7 t v}}$
+        value: m = ${- \frac{e}{2 c w}}$
       ans4:
-        value: q = ${\frac{t + 7 v}{f}}$
+        value: m = ${\frac{2 c + w}{e}}$
       ans5:
         value: Don't Know
 ---

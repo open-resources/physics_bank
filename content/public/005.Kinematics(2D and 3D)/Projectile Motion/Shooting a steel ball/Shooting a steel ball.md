@@ -31,20 +31,20 @@ substitutions:
     vars:
       title: Shooting a Steel Ball
     v: 4
-    theta: 54
+    theta: 47
     part1:
       ans1:
-        value: $(4\cos(54^{\circ}), \; -4\sin(54^{\circ}))$
+        value: $(4\cos(47^{\circ}), \; -4\sin(47^{\circ}))$
       ans2:
-        value: $(4\cos(54^{\circ}), \;4\sin(54^{\circ}))$
+        value: $(4\cos(47^{\circ}), \;4\sin(47^{\circ}))$
       ans3:
-        value: $(4\sin(54^{\circ}), \; -4\cos(54^{\circ}))$
+        value: $(4\sin(47^{\circ}), \; -4\cos(47^{\circ}))$
       ans4:
-        value: $(4\sin(54^{\circ}), \;4\cos(54^{\circ}))$
+        value: $(4\sin(47^{\circ}), \;4\cos(47^{\circ}))$
       ans5:
-        value: $(-4\cos(54^{\circ}), \; -4\sin(54^{\circ}))$
+        value: $(-4\cos(47^{\circ}), \; -4\sin(47^{\circ}))$
       ans6:
-        value: $(-4\sin(54^{\circ}), \;4\cos(54^{\circ}))$
+        value: $(-4\sin(47^{\circ}), \;4\cos(47^{\circ}))$
 ---
 # {{ params.vars.title }}
 A small steel ball is shot at {{ params.v }} $m/s$ at a {{ params.theta }}$^{\circ}$ angle above the horizontal direction and its motion is well approximated by projectile motion.

@@ -47,14 +47,14 @@ part3:
 substitutions:
   params:
     vars:
-      person1: grandfather
-      person2: brother
+      person1: sister
+      person2: cousin
       title: Bouncing a Baby to Sleep
       units: $N/m$
-    m1: 61.4
-    m2: 99.1
-    m_b: 3.93
-    f: 2.8
+    m1: 57.8
+    m2: 87.3
+    m_b: 6.7
+    f: 2.31
     part3:
       ans1:
         value: Add more air to increase the pressure in the ball. Increased pressure
