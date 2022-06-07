@@ -1,24 +1,25 @@
 ---
-title: The Magnitude of a Particle's Vector
-topic: Kinematics(2D and 3D)
-author: Jake Bobowski
-source: 2012 Final Q1
+title: Diameter of a Tree
+topic: Math
+author: Reza Khanbabaie
+source: PHYS 112 Proportional Reasoning Q3
 template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
 outcomes:
-- 4.7.3.0
+- 1.1.1.0
+- 2.2.1.3
 difficulty:
-- easy
+- undefined
 randomization:
-- 2
+- undefined
 taxonomy:
 - undefined
 span:
-- section
+- undefined
 length:
-- average
+- undefined
 tags:
 - PW
 assets: null
@@ -28,27 +29,25 @@ part1:
     rtol: 0.05
     weight: 1
     allow-blank: true
-    label: 'Magnitude = '
-    suffix: $m/s^2$
+    label: $d_2= $
+    suffix: $cm$
 substitutions:
   params:
     vars:
-      title: The Magnitude of a Particle's Vector
-      units: $m/s$
-    r_i: $-3t^3 + 8t^2 + 4t$
-    r_j: $-3t^2 + 7t$
-    t: $17$
-    choice: velocity
+      title: Diameter of a Tree
+    h_t1: 8.46
+    d_t1: 28
+    h_t2: 20.0
 ---
 # {{ params.vars.title }}
 
 ## Question Text
 
-A particle has a trajectory given as $\vec{r} = ($ {{ params.r_i }} $) \hat{\imath} + ($ {{ params.r_j }} $) \hat{\jmath}$ $m$ for $t$ given in seconds. What is the magnitude of the {{ params.choice }} vector for this particle at $t = $ {{ params.t }} $s$?
+It has been reported (Journal of Plant Studies) that the diameters of trees ($d$) are proportional to their height ($h$) as the $2/3$ scaling exponent, $d \propto h^{2/3}$. If the diameter of a {{ params.h_t1 }} $m$ tree is {{ params.d_t1 }} $cm$, what is your prediction for the diameter of a {{ params.h_t2 }} $m$ tree in $cm$?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in $m$.
 
 ## Attribution
 

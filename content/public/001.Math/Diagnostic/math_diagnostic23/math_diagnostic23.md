@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 3
-    b: 7
-    formula: $x^{3} \sin{\left(7 x \right)}$
+    a: 8
+    b: 1
+    formula: $x^{8} \cos{\left(x \right)}$
     part1:
       ans1:
-        value: $7 x^{3} \cos{\left(7 x \right)} + 3 x^{2} \sin{\left(7 x \right)}$
+        value: $- x^{8} \sin{\left(x \right)} + 8 x^{7} \cos{\left(x \right)}$
       ans2:
-        value: $7 x^{3} \cos{\left(7 x \right)} $
+        value: $- x^{8} \sin{\left(x \right)} $
       ans3:
-        value: $ 3 x^{2} \cos{\left(7 x \right)}$
+        value: $ 8 x^{7} \sin{\left(x \right)}$
       ans4:
-        value: $- 7 x^{3} \sin{\left(7 x \right)} + 3 x^{2} \cos{\left(7 x \right)}$
+        value: $x^{8} \cos{\left(x \right)} + 8 x^{7} \sin{\left(x \right)}$
       ans5:
         value: Don't Know
 ---

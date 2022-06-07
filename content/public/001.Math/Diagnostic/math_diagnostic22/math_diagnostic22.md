@@ -30,17 +30,17 @@ substitutions:
   params:
     vars:
       title: Math Practice Q22
-    denom: 4
-    formula: $\cos{\left(\frac{x}{4} \right)}$
+    denom: 3
+    formula: $\cos{\left(\frac{x}{3} \right)}$
     part1:
       ans1:
-        value: ${4 \sin{\left(\frac{x}{4} \right)}}$
+        value: ${3 \sin{\left(\frac{x}{3} \right)}}$
       ans2:
-        value: ${- 4 \sin{\left(\frac{x}{4} \right)}}$
+        value: ${- 3 \sin{\left(\frac{x}{3} \right)}}$
       ans3:
-        value: ${8 \sin{\left(\frac{x}{4} \right)}}$
+        value: ${6 \sin{\left(\frac{x}{3} \right)}}$
       ans4:
-        value: ${2 \sin{\left(\frac{x}{4} \right)}}$
+        value: ${\frac{3 \sin{\left(\frac{x}{3} \right)}}{2}}$
 ---
 # {{ params.vars.title }}
 

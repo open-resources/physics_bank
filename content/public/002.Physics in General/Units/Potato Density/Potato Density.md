@@ -62,8 +62,8 @@ substitutions:
       name: Maya
       unit1: $kg$
       unit2: $m^3$
-    m_p: 295
-    m_cp: 91
+    m_p: 263
+    m_cp: 62
     l: 4
 ---
 # {{ params.vars.title }}

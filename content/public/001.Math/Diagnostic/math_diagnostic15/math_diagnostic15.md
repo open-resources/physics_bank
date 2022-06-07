@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $8^{3} $=$ 512$
+    expr: $8^{7} $=$ 2097152$
     part1:
       ans1:
-        value: $log_8512 = 3$
+        value: $log_82097152 = 7$
       ans2:
-        value: $log_83 = 512$
+        value: $log_87 = 2097152$
       ans3:
-        value: $log_5123 = 8$
+        value: $log_20971527 = 8$
       ans4:
-        value: $log_3512 = 8$
+        value: $log_72097152 = 8$
       ans5:
         value: Don't Know
 ---

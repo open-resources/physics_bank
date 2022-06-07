@@ -56,10 +56,10 @@ substitutions:
       title: Ropes and Blocks
       units1: $\frac{m}{s^2}$
       units2: N
-    m_a: 8
-    m_b: 4
-    m_c: 19
-    f_a: 59
+    m_a: 4
+    m_b: 19
+    m_c: 2
+    f_a: 61
 ---
 # {{ params.vars.title }}
 Assume the three blocks portrayed in the figure move on a frictionless surface and a {{params.f_a}} N force

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{35x + 10y }{ 5 }$
+    expr: $\dfrac{28x + 56y }{ -7 }$
     part1:
       ans1:
-        value: $7 x + 2 y$
+        value: $- 4 x - 8 y$
       ans2:
-        value: $\dfrac{7x + 2y}{5}$
+        value: $\dfrac{-4x - 8y}{-7}$
       ans3:
-        value: $2x + 7y$
+        value: $-8x - 4y$
       ans4:
-        value: $35x + 10y$
+        value: $28x - 56y$
       ans5:
         value: Don't know.
 ---

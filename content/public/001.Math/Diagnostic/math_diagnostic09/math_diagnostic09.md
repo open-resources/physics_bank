@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $w$ = $\dfrac{(e)}{(m - 2c)} $
+    expr: $d$ = $\dfrac{(g)}{(q + 5n)} $
     part1:
       ans1:
-        value: m = ${ 2 c + \frac{e}{w}}$
+        value: q = ${ - 5 n + \frac{g}{d}}$
       ans2:
-        value: m = ${- \frac{2 c w}{e}}$
+        value: q = ${\frac{5 d n}{g}}$
       ans3:
-        value: m = ${- \frac{e}{2 c w}}$
+        value: q = ${\frac{g}{5 d n}}$
       ans4:
-        value: m = ${\frac{2 c + w}{e}}$
+        value: q = ${\frac{d - 5 n}{g}}$
       ans5:
         value: Don't Know
 ---
