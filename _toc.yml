@@ -56,6 +56,9 @@ parts:
   - file: content/public/001.Math/Derivatives/Velocity Derivatives/velocity_derivative
   - file: content/public/001.Math/Derivatives/Acceleration_Based_On_Graph/Acceleration_Based_On_Graph
   - file: content/public/001.Math/Algebra/Smudge/Smudge
+  - file: content/public/001.Math/Topic Outcome/Diameter of a Tree/Diameter of a Tree
+  - file: content/public/001.Math/Topic Outcome/Mean resting respiratory rate/Mean
+      resting respiratory rate
 - caption: Physics in General
   chapters:
   - file: content/public/002.Physics in General/Units/Potato Density/Potato Density
@@ -67,6 +70,7 @@ parts:
       Energy Released
   - file: content/public/002.Physics in General/Topic Outcome/Choose correct ans/choose
       correct ans
+  - file: content/public/002.Physics in General/Topic Outcome/Tree Proportionality/tree_proportionality
   - file: content/public/002.Physics in General/Topic Outcome/Ratio of Inertias/Ratio
       of Inertias
   - file: content/public/002.Physics in General/Topic Outcome/What is conserved/What
