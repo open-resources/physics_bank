@@ -67,7 +67,11 @@ For instance, ```"$\Delta\vec{p}_A$"``` will not display correctly while ```"$\D
 
 Assume that we have answer choices in the following format: 0.5 $\pm$ 0.1 $J$ where 0.5 is stored in ```params.part1.constant``` and 0.1 is stored in ```params.part1.ans1.value```. 
 
-```{{ params.part1.constant }} $\pm$ {{ params.part1.ans1.value }} {{ params.vars.units}} ``` will not work.  The solution is to store the whole expression in ```{{ params.part1.ans1.value }}``` as a string in the following manner by using concatenation: ```str(constant) + " $\pm$ " + str(randomized value)```
+```"{{ params.part1.constant }} $\pm$ {{ params.part1.ans1.value }} {{ params.vars.units}}"``` will not work.  
+
+The solution is to use a raw string (prepend an ```r```).
+
+So, ```r"{{ params.part1.constant }} $\pm$ {{ params.part1.ans1.value }} {{ params.vars.units}}"``` will produce the correct output.
 
 ## Dealing with vectors and polynomials
 
