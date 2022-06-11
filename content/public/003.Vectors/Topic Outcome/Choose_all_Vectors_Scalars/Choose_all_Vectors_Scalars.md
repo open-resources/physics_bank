@@ -35,15 +35,15 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Distance travelled
+        value: Energy
       ans2:
-        value: Length
+        value: Area
       ans3:
-        value: Volume
+        value: Distance travelled
       ans4:
-        value: Force
-      ans5:
         value: The average velocity
+      ans5:
+        value: Acceleration
       ans6:
         value: Drag
 ---

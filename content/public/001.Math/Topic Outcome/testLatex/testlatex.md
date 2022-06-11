@@ -1,15 +1,15 @@
 ---
-title: Electric potential of parallel plates
-topic: Electrostatics
-author: Jake Bobowksi
-source: 2.7.78
-template_version: 1.3
+title: testlatex
+topic: Template
+author: Firas Moosvi
+source: 5.45
+template_version: 1.4
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
 outcomes:
-- 18.11.2.1
-- 18.11.3.0
+- 6.1.1.0
+- 6.1.1.1
 difficulty:
 - undefined
 randomization:
@@ -21,39 +21,37 @@ span:
 length:
 - undefined
 tags:
-- OSUP
-- volume 2
-- chapter 7
-- problem 78
-- electric potential
-- electric field
-- parallel plates
-- numeric
-- JB
+- unknown
 assets: null
 part1:
-  type: number-input
+  type: multiple-choice
   pl-customizations:
-    rtol: 0.05
     weight: 1
-    allow-blank: false
-    show-correct-answer: false
-    label: $d= $
-    suffix: $\rm\ m$
 substitutions:
   params:
-    vars:
-      title: Electric potential of parallel plates
-    f_s: $3.80\times 10^{3}$
-    V: '9.0'
+    frac: "$\frac{1}{2}$"
+    frac2: $\frac{1}{2}$
+    part1:
+      ans1:
+        value: 42
+      ans2:
+        value: 855
 ---
 # {{ params.vars.title }}
+| Test | Display   |
+|----------|-------|
+| Fraction - triple braces  | {{{ params.frac }}} |
+| Fraction - double braces  | {{ params.frac }} |
+| Fraction - old method | {{ params.frac2 }} |
 
-## Question Text
+## Part 1
 
-How far apart are two conducting plates that have an electric field strength of {{ params.f_s }} $\rm\ V/m$ between them, if their potential difference is {{ params.V }} $\rm\ kV$?
+Part 1
 
 ### Answer Section
+
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Attribution
 

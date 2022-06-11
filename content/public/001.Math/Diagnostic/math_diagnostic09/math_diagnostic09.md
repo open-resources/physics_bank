@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $d$ = $\dfrac{(g)}{(q + 5n)} $
+    expr: $t$ = $\dfrac{(y)}{(k + 4g)} $
     part1:
       ans1:
-        value: q = ${ - 5 n + \frac{g}{d}}$
+        value: k = ${ - 4 g + \frac{y}{t}}$
       ans2:
-        value: q = ${\frac{5 d n}{g}}$
+        value: k = ${\frac{4 g t}{y}}$
       ans3:
-        value: q = ${\frac{g}{5 d n}}$
+        value: k = ${\frac{y}{4 g t}}$
       ans4:
-        value: q = ${\frac{d - 5 n}{g}}$
+        value: k = ${\frac{- 4 g + t}{y}}$
       ans5:
         value: Don't Know
 ---

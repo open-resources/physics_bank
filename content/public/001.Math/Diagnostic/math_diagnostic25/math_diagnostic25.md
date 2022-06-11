@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice Q25
-    expr: $\dfrac{ 6-e^{(-4x)}}{7-x}$
+    expr: $\dfrac{ 2-e^{(-8x)}}{10-x}$
     part1:
       ans1:
-        value: 5/7
+        value: 1/10
       ans2:
         value: Negative Infinity
       ans3:
-        value: 0.8571428571428571
+        value: 0.2
       ans4:
-        value: 6
+        value: 2
       ans5:
         value: Don't Know
 ---
