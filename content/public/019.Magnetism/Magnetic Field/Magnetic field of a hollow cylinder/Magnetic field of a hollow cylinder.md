@@ -70,7 +70,7 @@ substitutions:
       title: Magnetic field of a hollow cylinder
     r1: '3.0'
     r2: '5.0'
-    I: '35.0'
+    I: '55.0'
     ra: '2.0'
     rb: '4.0'
     rc: '6.0'
@@ -98,6 +98,10 @@ Calculate the magnitude of the magnetic field at a radius $r = {{ params.rb }}\r
 Calculate the magnitude of the magnetic field at a radius $r = {{ params.rc }}\rm\ cm$ measured from the axis of the hollow cylinder.
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ feedback.part1_ans }}
 
 ## Attribution
 

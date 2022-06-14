@@ -43,8 +43,8 @@ substitutions:
   params:
     vars:
       title: Particle between charged plates
-    sig: '22'
-    d: '3.8'
+    sig: '12'
+    d: '3.4'
     particle: An electron
     particle1: electron
     p1: negative
@@ -59,6 +59,16 @@ Two large plates of charge density {{ params.sig }}$\rm\ \mu C/m^2$ face each ot
 With what speed does the {{ params.particle1 }} strike the {{ params.p2 }} plate?
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$v=$ {{ correct_answers.part1_ans_str }} $\rm m/s$
 
 ## Attribution
 

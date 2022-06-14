@@ -37,8 +37,8 @@ substitutions:
     vars:
       title: 'Electron Beam '
       units: ' $ A / m^2 $ '
-    I: 80
-    r: 0.62
+    I: 33
+    r: 0.66
 ---
 # {{ params.vars.title }}
 
@@ -50,6 +50,13 @@ What is the magnitude of the current density in the beam?
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
+
+### pl-submission-panel
+
+<p></p>
+{{ submitted_answers.part1_ans_str }}
+<p></p>
+{{ feedback.part1_ans }}
 
 ## Attribution
 

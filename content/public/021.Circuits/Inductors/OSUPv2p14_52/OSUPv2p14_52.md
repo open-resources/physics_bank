@@ -115,10 +115,10 @@ substitutions:
   params:
     vars:
       title: Switched RL Series Circuit
-    num: '3'
-    emf: '14.0'
-    L: '22.0'
-    R: '9.00'
+    num: '2'
+    emf: '12.0'
+    L: '25.0'
+    R: '6.00'
 ---
 # {{ params.vars.title }}
 Consider the $RL$ circuit shown below.
@@ -174,6 +174,23 @@ What is the voltage across the resistor when $t = t^{\star} = {{ params.num }} \
 ### Answer Section
 
 Please enter in a numeric value in $\rm\ V$.
+
+### pl-submission-panel
+
+{{ feedback.part1_ans }}<br>
+{{ feedback.part3_ans }}<br>
+{{ feedback.part4_ans }}<br>
+{{ feedback.part5_ans }}<br>
+{{ feedback.part6_ans }}
+
+### pl-answer-panel
+
+$\tau_L =$ {{ correct_answers.part1_ans_str }} $\rm\ s$<br>
+$I\_{R,\rm\ i} =$ {{ correct_answers.part2_ans_str }} $\rm\ A$<br>
+$I\_{R,\rm\ f} =$ {{ correct_answers.part3_ans_str }} $\rm\ A$<br>
+$I_R(t^{\star}) =$ {{ correct_answers.part4_ans_str }} $\rm\ A$<br>
+$V_L(t^{\star}) =$ {{ correct_answers.part5_ans_str }} $\rm\ V$<br>
+$V_R(t^{\star}) =$ {{ correct_answers.part6_ans_str }} $\rm\ V$<br>
 
 ## Attribution
 

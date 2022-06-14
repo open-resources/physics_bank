@@ -69,10 +69,10 @@ substitutions:
   params:
     vars:
       title: Analyzing Potential Difference and Electric Field
-    q: '3.0'
-    c: '4.0'
-    d: '4.0'
-    k: '5.0'
+    q: '9.0'
+    c: '3.0'
+    d: '1.0'
+    k: '3.0'
 ---
 # {{ params.vars.title }}
 A parallel-plate capacitor has charge of magnitude {{params.q }} $\rm\ \mu\textrm{C}$ on each plate and capacitance {{params.c }} $\rm\ \mu\textrm{F}$  when there is air between the plates.
@@ -110,6 +110,13 @@ What is the electrical field at the point midway between the plates after the di
 ### Answer Section
 
 Please enter a numeric value.
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
 
 ## Attribution
 

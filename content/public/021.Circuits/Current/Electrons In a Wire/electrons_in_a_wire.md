@@ -37,8 +37,8 @@ substitutions:
     vars:
       title: Electrons In a Wire
       units: m/s
-    I: 40
-    t: 31
+    I: 114
+    t: 22
 ---
 # {{ params.vars.title }}
 
@@ -49,6 +49,17 @@ How many electrons flow through a point in a wire in {{params.t}} s if there is 
 ### Answer Section
 
 Please enter a numeric value.
+
+### pl-submission-panel
+
+<p></p>
+{{ submitted_answers.part1_ans_str }}
+<p></p>
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+Number of electrons =  {{correct_answers.part1_ans_str}}
 
 ## Attribution
 

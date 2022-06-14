@@ -37,9 +37,9 @@ substitutions:
   params:
     vars:
       title: Parallel-plate potential difference
-    d: '9.0'
-    t: '1.9'
-    q: '5.6'
+    d: '13.0'
+    t: '0.6'
+    q: '4.0'
     p: -11
 ---
 # {{ params.vars.title }}
@@ -51,6 +51,10 @@ The plates are ${{ params.t }}\rm\ mm$ apart.
 What is the potential difference between the plates?
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ feedback.part1_ans }}
 
 ## Attribution
 

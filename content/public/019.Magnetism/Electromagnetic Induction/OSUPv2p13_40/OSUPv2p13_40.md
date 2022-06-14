@@ -35,10 +35,10 @@ substitutions:
   params:
     vars:
       title: Rotating Coil
-    N: '1000'
-    a: '15'
-    t: '0.015'
-    B: '6.5'
+    N: '900'
+    a: '35'
+    t: '0.010'
+    B: '5.5'
 ---
 # {{ params.vars.title }}
 
@@ -47,6 +47,16 @@ substitutions:
 A coil of ${{params.N }}$ turns encloses an area of ${{params.a }}\rm\ {cm^2}$. It is rotated in ${{params.t }}\textrm{ s}$ from a position where its plane is perpendicular to Earth's magnetic field to one where its plane is parallel to the field. If the strength of the field is ${{params.B }} \times 10^{-5} \textrm{ T}$ what is the average emf induced in the coil?
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$\varepsilon=$ {{ correct_answers.part1_ans_str }} $\rm\ V$
 
 ## Attribution
 

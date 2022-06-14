@@ -39,9 +39,9 @@ substitutions:
   params:
     vars:
       title: Rutland Rd
-      vehicle: semi-truck
+      vehicle: truck
       units: km/h
-    v: 40
+    v: 69
     part2:
       ans1:
         value: North
@@ -93,6 +93,10 @@ What is the (cardinal) direction of $v$ ?
 - {{ params.part2.ans7.value }}
 - {{ params.part2.ans8.value }}
 - {{ params.part2.ans9.value }}
+
+### pl-submission-panel
+
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

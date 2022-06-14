@@ -56,6 +56,16 @@ Determine the ratio of the energies stored per unit length of these solenoids wh
 
 ### Answer Section
 
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$E_B/E_A =$ {{ correct_answers.part1_ans_str }}.
+
 ## Attribution
 
 Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br> ![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

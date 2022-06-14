@@ -49,10 +49,10 @@ substitutions:
   params:
     vars:
       title: Copper in a Magnetic Field
-    B: 9.3
-    E: 3.6
-    n: 8
-    A: 5.2
+    B: 7.4
+    E: 8.8
+    n: 7
+    A: 1.2
 ---
 # {{ params.vars.title }}
 A strip of copper is placed in a uniform magnetic field of magnitude ${{params.B}}\textrm{ T}$.
@@ -73,6 +73,11 @@ Assuming that $n = {{params.n}} \times 10^{28}$ electrons per cubic meter and th
 ### Answer Section
 
 Please enter a numeric value.
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+{{ feedback.part1_ans }}
 
 ## Attribution
 

@@ -56,8 +56,8 @@ substitutions:
   params:
     vars:
       title: Combining Capacitors
-    c: '1.1'
-    n: '6'
+    c: '2.1'
+    n: '3'
 ---
 # {{ params.vars.title }}
 
@@ -76,6 +76,13 @@ What is the minimum capacitance you can get using the same capacitors?
 ### Answer Section
 
 Please enter a numeric value.
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
 
 ## Attribution
 

@@ -60,9 +60,9 @@ substitutions:
   params:
     vars:
       title: Long Cylindrical Solenoid
-    n: '130'
-    r: '2.0'
-    dIdt: '3.0'
+    n: '140'
+    r: '1.0'
+    dIdt: '8.0'
 ---
 # {{ params.vars.title }}
 A long, cylindrical solenoid with ${{ params.n }}\rm\ turns/cm$ has a radius of ${{ params.r }}\rm\ cm$.
@@ -82,6 +82,16 @@ If the current through the solenoid changes at a rate of ${{ params.dIdt }}\rm\ 
 ### Answer Section
 
 Please enter in a numeric value in $\rm\ V/m$.
+
+### pl-submission-panel
+
+{{ feedback.part1_ans }}<br>
+{{ feedback.part2_ans }}
+
+### pl-answer-panel
+
+$L/\ell =$ {{ correct_answers.part1_ans_str }} $\rm\ H/m$<br>
+${\boldsymbol \varepsilon}/{\ell} =$ {{ correct_answers.part2_ans_str }} $\rm\ V/m$
 
 ## Attribution
 

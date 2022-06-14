@@ -43,10 +43,10 @@ substitutions:
   params:
     vars:
       title: Current Through Loop
-    N: 54
-    t: 14
+    N: 73
+    t: 2
     s: 19
-    B: 0.956
+    B: 0.684
 ---
 # {{ params.vars.title }}
 
@@ -56,6 +56,12 @@ Find the current through a loop needed to create a maximum torque of {{params.t}
 The loop has {{params.N}} square turns that are {{params.s}} $\textrm{ cm}$ on a side and is in a uniform {{params.B}} $\textrm{ T}$ magnetic field.
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
 
 ## Attribution
 

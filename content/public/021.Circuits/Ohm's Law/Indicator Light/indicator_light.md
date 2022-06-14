@@ -41,8 +41,8 @@ substitutions:
     vars:
       title: Voltage Supplied To An Indicator Light
       units: V
-    R: 230
-    I: 34
+    R: 87
+    I: 95
 ---
 # {{ params.vars.title }}
 
@@ -52,6 +52,13 @@ An indicator light on a DVD player has a resistance of {{params.R}} $ \rm \Omega
 How many volts must be supplied to operate this light?
 
 ### Answer Section
+
+### pl-submission-panel
+
+<p></p>
+{{ submitted_answers.part1_ans_str }}
+<p></p>
+{{ feedback.part1_ans }}
 
 ## Attribution
 

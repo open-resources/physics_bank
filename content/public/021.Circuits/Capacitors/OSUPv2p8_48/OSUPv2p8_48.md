@@ -58,9 +58,9 @@ substitutions:
     vars:
       title: Varying Separation Distance of Capacitor Plates
     a: '20.0'
-    b: '1.00'
-    c: '1.75'
-    v: '30'
+    b: '1.50'
+    c: '2.75'
+    v: '40'
     part3:
       ans1:
         value: It is lost to the surroundings in the laboratory
@@ -97,6 +97,13 @@ Which best describes why the energy decreases even though work is done separatin
 - {{ params.part3.ans1.value }}
 - {{ params.part3.ans2.value }}
 - {{ params.part3.ans3.value }}
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
 
 ## Attribution
 

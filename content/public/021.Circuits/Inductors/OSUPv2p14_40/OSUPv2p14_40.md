@@ -46,8 +46,8 @@ substitutions:
     vars:
       title: Inductance of a Solenoid
     l: '40.0'
-    N: '480'
-    A: '2.90'
+    N: '400'
+    A: '1.50'
 ---
 # {{ params.vars.title }}
 A ${{ params.l }}\rm\ cm$ long solenoid is wound with ${{ params.N }}\rm\ turns$ of wire.
@@ -60,6 +60,16 @@ What is the self-inductance of the solenoid?
 ### Answer Section
 
 Please enter a numeric value in $\rm\ H$.
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$L =$ {{ correct_answers.part1_ans_str }} $\rm\ H$.
 
 ## Attribution
 

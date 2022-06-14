@@ -43,9 +43,9 @@ substitutions:
   params:
     vars:
       title: Suspended parallel wires
-    s: '5.2'
-    mu: '29.8'
-    theta: '6.0'
+    s: '6.6'
+    mu: '30.6'
+    theta: '3.0'
 ---
 # {{ params.vars.title }}
 Two long, parallel wires are hung by cords of length $s = $ {{ params.s }} $\rm\ cm$, as shown in the figure.
@@ -59,6 +59,16 @@ Each wire has a mass per unit length of {{ params.mu }} $\rm\ g/m$, and they car
 What is the current if the cords hang at $\theta =$ {{ params.theta }}$^\circ$ with respect to the vertical?
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$I=$ {{ correct_answers.part1_ans_str }} $\rm\ A$
 
 ## Attribution
 

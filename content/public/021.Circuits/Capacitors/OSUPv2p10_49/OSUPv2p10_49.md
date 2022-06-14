@@ -59,8 +59,8 @@ substitutions:
   params:
     vars:
       title: Automobile Intermittent Wiper System
-    C: '0.600'
-    t1: '2.25'
+    C: '0.200'
+    t1: '2.50'
     t2: '14.0'
 ---
 # {{ params.vars.title }}
@@ -82,6 +82,16 @@ What must be the value of $R$ for the time constant to be ${{ params.t2 }}\rm\ s
 ### Answer Section
 
 Please enter in a numeric value in $\rm\ \Omega$.
+
+### pl-submission-panel
+
+{{ feedback.part1_ans }}<br>
+{{ feedback.part2_ans }}
+
+### pl-answer-panel
+
+$R=$ {{ correct_answers.part1_ans_str }} $\rm\ \Omega$ (Part 1)<br>
+$R=$ {{ correct_answers.part2_ans_str }} $\rm\ \Omega$ (Part 2)
 
 ## Attribution
 

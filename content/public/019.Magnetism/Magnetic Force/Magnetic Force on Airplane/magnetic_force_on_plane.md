@@ -46,8 +46,8 @@ substitutions:
   params:
     vars:
       title: Magnetic Force on Airplane
-    q: 0.806
-    v: 598
+    q: 0.962
+    v: 651
     part2:
       ans1:
         value: North
@@ -79,6 +79,15 @@ What is the direction of the magnetic force on the plane?
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$F=$ {{ correct_answers.part1_ans_str }} $\mathrm{N}$
 
 ## Attribution
 

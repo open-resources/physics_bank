@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $n$ = $\dfrac{(s)}{(z + 10c)} $
+    expr: $e$ = $\dfrac{(n)}{(b + 5y)} $
     part1:
       ans1:
-        value: z = ${ - 10 c + \frac{s}{n}}$
+        value: b = ${ - 5 y + \frac{n}{e}}$
       ans2:
-        value: z = ${\frac{10 c n}{s}}$
+        value: b = ${\frac{5 e y}{n}}$
       ans3:
-        value: z = ${\frac{s}{10 c n}}$
+        value: b = ${\frac{n}{5 e y}}$
       ans4:
-        value: z = ${\frac{- 10 c + n}{s}}$
+        value: b = ${\frac{e - 5 y}{n}}$
       ans5:
         value: Don't Know
 ---

@@ -35,8 +35,8 @@ substitutions:
   params:
     vars:
       title: Cathode Ray Tube
-    I: 92
-    t: 5
+    I: 80
+    t: 4
 ---
 # {{ params.vars.title }}
 A cathode ray tube (CRT) is a device that produces a focused beam of electrons in a vacuum.
@@ -51,6 +51,12 @@ How many electrons strike the screen every {{params.t}} minutes?
 ### Answer Section
 
 Please enter in a numeric value.
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
 
 ## Attribution
 

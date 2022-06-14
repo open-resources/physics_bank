@@ -42,8 +42,8 @@ substitutions:
   params:
     vars:
       title: Voltage Applied to a Capacitor
-    c: '1.2'
-    q: '3.9'
+    c: '2.4'
+    q: '1.3'
 ---
 # {{ params.vars.title }}
 
@@ -52,6 +52,14 @@ substitutions:
 Calculate the voltage applied to a {{params.c }} $ \rm\ \mu\textrm{F}$ capacitor when it holds {{params.q }}$\rm\ \mu\textrm{C}$ of charge.
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
 
 ## Attribution
 

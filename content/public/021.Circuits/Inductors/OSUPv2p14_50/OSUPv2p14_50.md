@@ -60,9 +60,9 @@ substitutions:
   params:
     vars:
       title: Energy in a Series RL Circuit
-    L: '4.00'
+    L: '2.75'
     R: '100.0'
-    I: '5.50'
+    I: '5.00'
 ---
 # {{ params.vars.title }}
 A coil with a self-inductance of ${{ params.L }}\rm\ H$ and a resistance of ${{ params.R }}\rm\ \Omega$ carries a steady current of ${{ params.I }}\rm\ A$.
@@ -82,6 +82,16 @@ What is the energy per second dissipated in the resistance of the coil?
 ### Answer Section
 
 Please enter in a numeric value in $\rm\ W$.
+
+### pl-submission-panel
+
+{{ feedback.part1_ans }}<br>
+{{ feedback.part2_ans }}
+
+### pl-answer-panel
+
+$E =$ {{ correct_answers.part1_ans_str }} $\rm\ J$<br>
+$P =$ {{ correct_answers.part2_ans_str }} $\rm\ W$
 
 ## Attribution
 

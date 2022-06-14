@@ -45,12 +45,12 @@ substitutions:
   params:
     vars:
       title: Adding Capacitances
-    a: '4'
-    b: '6'
+    a: '6'
+    b: '9'
     c: '3.5'
-    d: '1.0'
-    e: '1.00'
-    f: '15'
+    d: '1.5'
+    e: '1.25'
+    f: '13'
 ---
 # {{ params.vars.title }}
 
@@ -61,6 +61,16 @@ Find the net capacitance of this combination of series and parallel capacitors s
 <img src="Fig8_37.png">
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$C=$ {{ correct_answers.part1_ans_str }} $\rm\ \mu\textrm{F}$
 
 ## Attribution
 

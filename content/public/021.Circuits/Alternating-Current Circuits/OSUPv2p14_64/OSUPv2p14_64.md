@@ -44,8 +44,8 @@ substitutions:
   params:
     vars:
       title: Frequency and Capacitance of an LC Circuit
-    f: '74.0'
-    C: '13.0'
+    f: '50.0'
+    C: '11.5'
 ---
 # {{ params.vars.title }}
 
@@ -54,6 +54,16 @@ substitutions:
 What is the self-inductance of an $LC$ circuit that oscillates at ${{ params.f }}\rm\ Hz$ when the capacitance is ${{ params.C }}\rm\ \mu F$?
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$L =$ {{ correct_answers.part1_ans_str }} $\rm\ H$.
 
 ## Attribution
 

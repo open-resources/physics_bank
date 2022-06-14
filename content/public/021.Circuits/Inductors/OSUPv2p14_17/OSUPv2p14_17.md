@@ -44,9 +44,9 @@ substitutions:
   params:
     vars:
       title: 'RL Series Circuit: Energy'
-    factor: '4'
-    word: reduced
-    ans: '0.062'
+    factor: '2'
+    word: increased
+    ans: '4.000'
 ---
 # {{ params.vars.title }}
 Consider the $RL$ circuit shown below.
@@ -58,6 +58,16 @@ Consider the $RL$ circuit shown below.
 If the emf of the battery is {{ params.word }} by a factor of ${{ params.factor }}$, by how much does the steady-state energy stored in the magnetic field of the inductor change?
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$\frac{\displaystyle E\_{\rm\ final}}{\displaystyle E\_{\rm\ initial}} =$ {{ correct_answers.part1_ans_str }}
 
 ## Attribution
 

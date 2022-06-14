@@ -68,8 +68,8 @@ substitutions:
   params:
     vars:
       title: Power And Energy Through Resistor
-    V: 47
-    R: 29
+    V: 40
+    R: 8
     part4:
       ans1:
         value: It is converted into light energy.
@@ -115,6 +115,13 @@ What happens to the energy dissipated by the resistor?
 - {{ params.part1.ans1.value }}
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
 
 ## Attribution
 

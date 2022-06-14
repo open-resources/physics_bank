@@ -51,7 +51,7 @@ substitutions:
     vars:
       title: Unknown Voltage Source
     dV: '2.50'
-    dI: '5.70'
+    dI: '5.90'
     part2:
       ans1:
         value: 'No'
@@ -76,6 +76,15 @@ Can the emf of the voltage source be found with the information supplied?
 
 - {{ params.part1.ans1.value }}
 - {{ params.part1.ans2.value }}
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$R=$ {{ correct_answers.part1_ans_str }} $\rm\ \Omega$
 
 ## Attribution
 

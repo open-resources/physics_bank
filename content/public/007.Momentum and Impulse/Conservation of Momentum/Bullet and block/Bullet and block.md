@@ -44,11 +44,11 @@ substitutions:
       name: Lorenzo
       units1: m/s
       units2: kg
-    m_bullet: 31
-    m_block: 16
-    bullet_v: 894
-    slide_d: 7
-    slide_dnew: 7.8
+    m_bullet: 32
+    m_block: 10
+    bullet_v: 770
+    slide_d: 3
+    slide_dnew: 3.8
     coeff_k: 0.2
 ---
 # {{ params.vars.title }}

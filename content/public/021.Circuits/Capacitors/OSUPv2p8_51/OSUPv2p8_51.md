@@ -49,8 +49,8 @@ substitutions:
     vars:
       title: Filling a Capacitor with Dielectric Material
     d: '1.25'
-    a: '8.0'
-    k: '8.0'
+    a: '9.0'
+    k: '9.0'
 ---
 # {{ params.vars.title }}
 An air-filled capacitor is made from two flat parallel plates ${{params.d }} \textrm{ mm}$ apart. The inside area of each plate is ${{params.a }} \rm\ cm^2$.
@@ -70,6 +70,13 @@ If the region between the conductors is filled with a material whose dielectric 
 ### Answer Section
 
 Please enter a numeric value.
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
 
 ## Attribution
 

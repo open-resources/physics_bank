@@ -39,8 +39,8 @@ substitutions:
   params:
     vars:
       title: Long thin wire
-    B: '3.4'
-    d: '38'
+    B: '5.6'
+    d: '56'
 ---
 # {{ params.vars.title }}
 The magnitude of the megnetic field ${{ params.d }}\rm\ cm$ from a long, thin straight wire is ${{ params.B }}\rm\ \mu T$.
@@ -50,6 +50,16 @@ The magnitude of the megnetic field ${{ params.d }}\rm\ cm$ from a long, thin st
 What is the current through the long wire?
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$I=$ {{ correct_answers.part1_ans_str }} $\rm\ A$
 
 ## Attribution
 

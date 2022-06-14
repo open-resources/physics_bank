@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 5x - 5y = 32
-    formula2: 8x + 4y = 30
+    formula1: 4x - 3y = 9
+    formula2: 4x + 8y = 39
     part1:
       ans1:
-        value: ' x =139/30, y =-53/30'
+        value: ' x =189/44, y =30/11'
       ans2:
-        value: ' x =-53/30, y =139/30'
+        value: ' x =30/11, y =189/44'
       ans3:
-        value: ' x =-139/30, y =53/30'
+        value: ' x =-189/44, y =-30/11'
       ans4:
-        value: ' x =53/30, y =-139/30'
+        value: ' x =-30/11, y =-189/44'
       ans5:
         value: Don't Know
 ---

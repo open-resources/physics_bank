@@ -47,7 +47,7 @@ substitutions:
   params:
     vars:
       title: Current over Time in a Series RL Circuit
-    fac: '4'
+    fac: '7'
 ---
 # {{ params.vars.title }}
 Consider the $RL$ circuit shown below.
@@ -60,6 +60,16 @@ How long after switch $\rm S$ is thrown does it take the current in the circuit 
 Express your answer in terms of the time constant $\tau_L$ of the circuit.
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$t =$ {{ correct_answers.part1_ans_str }} $\tau_L$.
 
 ## Attribution
 

@@ -42,7 +42,7 @@ substitutions:
   params:
     vars:
       title: Force on Lightning Bolt
-    I: 19170
+    I: 19232
     part2:
       ans1:
         value: North
@@ -73,6 +73,11 @@ What is the direction of the force if the current is straight up and the Earth's
 - {{ params.part1.ans2.value }}
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+{{ feedback.part1_ans }}
 
 ## Attribution
 

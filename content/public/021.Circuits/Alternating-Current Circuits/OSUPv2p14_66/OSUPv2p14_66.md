@@ -59,9 +59,9 @@ substitutions:
   params:
     vars:
       title: Frequency and Voltage of an LC Circuit
-    L: '49.0'
-    C: '3.5'
-    V: '45.0'
+    L: '45.0'
+    C: '1.0'
+    V: '43.0'
 ---
 # {{ params.vars.title }}
 The self-inductance and capacitance of an oscillating $LC$ circuit are $L = {{ params.L }}\rm\ mH$ and $C = {{ params.C }}\rm\ \mu F$, respectively.
@@ -81,6 +81,16 @@ If the maximum potential difference between the plates of the capacitor is ${{ p
 ### Answer Section
 
 Please enter in a numeric value in $\rm\ A$.
+
+### pl-submission-panel
+
+{{ feedback.part1_ans }}<br>
+{{ feedback.part2_ans }}
+
+### pl-answer-panel
+
+$f=$ {{ correct_answers.part1_ans_str }} $\rm\ Hz$<br>
+$I\_{\rm max}=$ {{ correct_answers.part2_ans_str }} $\rm\ A$
 
 ## Attribution
 

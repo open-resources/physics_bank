@@ -44,8 +44,8 @@ substitutions:
   params:
     vars:
       title: Cosmic Ray Electron
-    v: 9.0
-    B: 2.0
+    v: 2.0
+    B: 5.2
 ---
 # {{ params.vars.title }}
 
@@ -55,6 +55,12 @@ A cosmic-ray electron moves at {{params.v}}$\times 10^6 \textrm{ m/s}$ perpendic
 What is the radius of the circular path the electron follows?
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
 
 ## Attribution
 

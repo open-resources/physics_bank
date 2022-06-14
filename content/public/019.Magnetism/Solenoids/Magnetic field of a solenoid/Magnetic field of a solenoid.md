@@ -42,8 +42,8 @@ substitutions:
   params:
     vars:
       title: Magnetic field of a solenoid
-    n: '1600'
-    I: '7.80'
+    n: '1900'
+    I: '9.40'
 ---
 # {{ params.vars.title }}
 A solenoid is wound with {{ params.n }} turns per meter.
@@ -53,6 +53,16 @@ A solenoid is wound with {{ params.n }} turns per meter.
 When the current is {{ params.I }}$\rm\ A$, what is the magnetic field within the solenoid?
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$B=$ {{ correct_answers.part1_ans_str }} $\rm\ T$
 
 ## Attribution
 

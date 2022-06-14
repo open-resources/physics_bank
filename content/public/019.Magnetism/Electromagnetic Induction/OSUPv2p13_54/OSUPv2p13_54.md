@@ -36,10 +36,10 @@ substitutions:
   params:
     vars:
       title: Electric Field Outside Solenoid
-    R: '2'
+    R: '3'
     r: '6'
     n: '35'
-    DI: '4'
+    DI: '5'
 ---
 # {{ params.vars.title }}
 
@@ -48,6 +48,16 @@ substitutions:
 The current in a long solenoid of radius ${{params.R }}\rm\ {cm}$ and ${{params.n }}\rm\ {turns/cm}$ is varied with time at a rate of ${{params.DI }}\rm\ {A/s}$. Find the magnitude of the electric field at a distance of ${{params.r }}\rm\ {cm}$ from the center of the solenoid.
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$E=$ {{ correct_answers.part1_ans_str }} $\rm\ {N/C}$
 
 ## Attribution
 

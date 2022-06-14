@@ -72,9 +72,9 @@ substitutions:
   params:
     vars:
       title: Charging Capacitors
-    a: '45'
-    b: '15'
-    v: '500'
+    a: '40'
+    b: '20'
+    v: '600'
 ---
 # {{ params.vars.title }}
 A {{params.a }} $\textrm{ pF}$ capacitor is charged to a potential difference of {{params.v }} $\textrm{ V}$. Its terminals are then connected to those of an uncharged {{params.b }} $\textrm{ pF}$ capacitor.
@@ -110,6 +110,13 @@ What is the potential difference across the plates of each capacitor after the c
 ### Answer Section
 
 Please enter a numeric value.
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
 
 ## Attribution
 

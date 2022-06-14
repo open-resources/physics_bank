@@ -52,8 +52,8 @@ substitutions:
   params:
     vars:
       title: Field due to parallel currents
-    I1: '10.0'
-    I2: '15.0'
+    I1: '12.5'
+    I2: '17.5'
     r1: '5.0'
     r2: '15.0'
     part2:
@@ -97,6 +97,10 @@ What is the direction of the magnetic field at point P?
 - {{ params.part2.ans5.value }}
 - {{ params.part2.ans6.value }}
 - {{ params.part2.ans7.value }}
+
+### pl-submission-panel
+
+{{ feedback.part1_ans }}
 
 ## Attribution
 

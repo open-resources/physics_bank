@@ -178,9 +178,9 @@ substitutions:
     vars:
       title: Simple Series Circuit
     V: '19.0'
-    R1: '4.75'
-    R2: '3.75'
-    R3: '3.25'
+    R1: '3.25'
+    R2: '2.25'
+    R3: '3.75'
 ---
 # {{ params.vars.title }}
 Consider the circuit shown below.
@@ -276,6 +276,34 @@ Find the power supplied by the battery.
 ### Answer Section
 
 Please enter a numeric value.
+
+### pl-submission-panel
+
+{{ feedback.part1_ans }}<br>
+{{ feedback.part2_ans }}<br>
+{{ feedback.part3_ans }}<br>
+{{ feedback.part4_ans }}<br>
+{{ feedback.part5_ans }}<br>
+{{ feedback.part6_ans }}<br>
+{{ feedback.part7_ans }}<br>
+{{ feedback.part8_ans }}<br>
+{{ feedback.part9_ans }}<br>
+{{ feedback.part10_ans }}<br>
+{{ feedback.part11_ans }}
+
+### pl-answer-panel
+
+$R =$ {{ correct_answers.part1_ans_str }} $\rm\ \Omega$<br>
+$I_1 =$ {{ correct_answers.part2_ans_str }} $\rm\ A$<br>
+$I_2 =$ {{ correct_answers.part3_ans_str }} $\rm\ A$<br>
+$I_3 =$ {{ correct_answers.part4_ans_str }} $\rm\ A$<br>
+$V_1 =$ {{ correct_answers.part5_ans_str }} $\rm\ V$<br>
+$V_2 =$ {{ correct_answers.part6_ans_str }} $\rm\ V$<br>
+$V_3 =$ {{ correct_answers.part7_ans_str }} $\rm\ V$<br>
+$P_1 =$ {{ correct_answers.part8_ans_str }} $\rm\ W$<br>
+$P_2 =$ {{ correct_answers.part9_ans_str }} $\rm\ W$<br>
+$P_3 =$ {{ correct_answers.part10_ans_str }} $\rm\ W$<br>
+$P =$ {{ correct_answers.part11_ans_str }} $\rm\ W$
 
 ## Attribution
 

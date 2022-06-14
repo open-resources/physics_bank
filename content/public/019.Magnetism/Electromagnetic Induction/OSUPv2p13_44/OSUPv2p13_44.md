@@ -42,9 +42,9 @@ substitutions:
   params:
     vars:
       title: Moving Rod
-    r: '3'
-    v: '4'
-    B: '0.75'
+    r: '2'
+    v: '3'
+    B: '0.25'
     a: '7'
     part2:
       ans1:
@@ -73,6 +73,13 @@ Does the induced current circulate clockwise or counterclockwise?
 
 - {{ params.part2.ans1.value }}
 - {{ params.part2.ans2.value }}
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
 
 ## Attribution
 

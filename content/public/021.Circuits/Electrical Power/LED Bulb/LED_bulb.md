@@ -42,8 +42,8 @@ substitutions:
     vars:
       title: LED Bulb
       units: $
-    c: 0.62
-    h: 7
+    c: 0.94
+    h: 24
 ---
 # {{ params.vars.title }}
 
@@ -55,6 +55,13 @@ A 100-W incandescent bulb can be replaced by a 16-W LED bulb. Both produce 1600 
 Assuming the cost of electricity is $\rm\ {$}{{params.c}}$ per kilowatt-hour, how much does it cost to run the LED bulb for one year if it runs for {{params.h}} hours a day?
 
 ### Answer Section
+
+### pl-submission-panel
+
+<p></p>
+{{ submitted_answers.part1_ans_str }}
+<p></p>
+{{ feedback.part1_ans }}
 
 ## Attribution
 

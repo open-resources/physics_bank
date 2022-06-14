@@ -49,9 +49,9 @@ substitutions:
   params:
     vars:
       title: Electron in a Solenoid
-    n: '25'
-    r: '1.00'
-    v: "$2.20\\times 10^{4 }\textrm{ m/s}$"
+    n: '20'
+    r: '1.40'
+    v: "$2.50\\times 10^{6 }\textrm{ m/s}$"
 ---
 # {{ params.vars.title }}
 A solenoid with {{ params.n }} turns per centimter carries a current $I$.
@@ -63,6 +63,16 @@ The plane of the circular motion is perpendicular to the axis of the solenoid.Th
 What is the current $I$ in the solenoid?
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$I=$ {{ correct_answers.part1_ans_str }} $\textrm{ A}$
 
 ## Attribution
 

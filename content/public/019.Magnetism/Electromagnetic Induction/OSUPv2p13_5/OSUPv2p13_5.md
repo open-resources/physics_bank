@@ -25,7 +25,6 @@ tags:
 - chapter 13
 - problem 5
 - electromagnetic induction
-- multiple choice
 - multi-part
 - AC
 assets: null

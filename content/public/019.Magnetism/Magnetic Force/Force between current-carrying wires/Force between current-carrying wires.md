@@ -46,10 +46,10 @@ substitutions:
   params:
     vars:
       title: Force between current-carrying wires
-    d: '17.0'
-    I1: '3.0'
+    d: '14.0'
+    I1: '2.8'
     I2: '6.6'
-    txt: the same direction
+    txt: opposite directions
     part2:
       ans1:
         value: Attract
@@ -74,6 +74,10 @@ Do the wires attract or repel eachother?
 
 - {{ params.part2.ans1.value }}
 - {{ params.part2.ans2.value }}
+
+### pl-submission-panel
+
+{{ feedback.part1_ans }}
 
 ## Attribution
 

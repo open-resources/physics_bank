@@ -42,8 +42,8 @@ substitutions:
   params:
     vars:
       title: Determining Capacitance
-    q: '1.3'
-    v: '290'
+    q: '1.5'
+    v: '130'
 ---
 # {{ params.vars.title }}
 
@@ -52,6 +52,12 @@ substitutions:
 What capacitance is needed to store {{params.q }}$\rm\ \mu\textrm{C}$ of charge at a voltage of {{params.v }}$\textrm{ V}$? Enter your answer in units of $\textrm{nF}$.
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
 
 ## Attribution
 

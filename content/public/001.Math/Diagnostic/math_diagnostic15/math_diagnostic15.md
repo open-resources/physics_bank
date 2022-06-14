@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $7^{9} $=$ 40353607$
+    expr: $6^{1} $=$ 6$
     part1:
       ans1:
-        value: $log_740353607 = 9$
+        value: $log_66 = 1$
       ans2:
-        value: $log_79 = 40353607$
+        value: $log_61 = 6$
       ans3:
-        value: $log_403536079 = 7$
+        value: $log_61 = 6$
       ans4:
-        value: $log_940353607 = 7$
+        value: $log_16 = 6$
       ans5:
         value: Don't Know
 ---

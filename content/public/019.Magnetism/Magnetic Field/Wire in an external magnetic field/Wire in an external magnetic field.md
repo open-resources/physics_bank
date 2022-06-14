@@ -43,9 +43,9 @@ substitutions:
   params:
     vars:
       title: Wire in an external magnetic field
-    I: '20.5'
-    Bext: '36.0'
-    d: '15.0'
+    I: '17.5'
+    Bext: '52.0'
+    d: '26.0'
 ---
 # {{ params.vars.title }}
 A long, straight, horizontal wire carries a left-to-right current of {{ params.I }}$\rm\ A$.The wire is placed in a uniform magnetic field of magnitude {{ params.Bext }}$~\mu\mathrm{T}$ that is directed vertically downward.
@@ -55,6 +55,16 @@ A long, straight, horizontal wire carries a left-to-right current of {{ params.I
 What is the magnitude of the net magnetic field {{ params.d }}$\rm\ cm$ above the wire?
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$B=$ {{ correct_answers.part1_ans_str }} $\rm\ \mu T$
 
 ## Attribution
 

@@ -55,6 +55,8 @@ The electric field inside a metal is always zero.
 - {{ params.part1.ans1.value }}
 - {{ params.part1.ans2.value }}
 
+Only conductors/metals in electrostatic equilibrium must have zero electric field inside.
+
 ## Attribution
 
 Problem is from the [OpenStax University Physics Volume 2](https://openstax.org/details/books/university-physics-volume-2) textbook, licensed under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).<br>![Image representing the Creative Commons 4.0 BY license.](https://raw.githubusercontent.com/firasm/bits/master/by.png)

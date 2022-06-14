@@ -44,9 +44,9 @@ substitutions:
   params:
     vars:
       title: Capacitor in a Heart Pacemaker
-    rate: '80'
-    C: '29.0'
-    charge: '0.620'
+    rate: '73'
+    C: '30.0'
+    charge: '0.638'
 ---
 # {{ params.vars.title }}
 A heart pacemaker activates ${{ params.rate }}$ times per minute.
@@ -57,6 +57,16 @@ Each time, a ${{ params.C }}\rm\ nF$ capacitor is charged (by a battery in serie
 What is the value of the resistance?
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$R=$ {{ correct_answers.part1_ans_str }} $\rm\ \Omega$
 
 ## Attribution
 

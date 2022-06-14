@@ -30,7 +30,6 @@ tags:
 - chapter 8
 - problem 8
 - capacitors
-- multiple choice
 - AC
 assets: null
 part1:
@@ -41,7 +40,7 @@ substitutions:
   params:
     vars:
       title: Maximizing Energy in a Capacitor Bank
-      name: Ahmed
+      name: Abbas
     part1:
       ans1:
         value: Parallel

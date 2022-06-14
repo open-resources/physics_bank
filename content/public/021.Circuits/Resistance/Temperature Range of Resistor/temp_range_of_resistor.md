@@ -42,9 +42,9 @@ substitutions:
   params:
     vars:
       title: Temperature Range of Resistor
-    p: 9
-    metal: Constantan
-    T_0: 113
+    p: 8
+    metal: Platinum
+    T_0: 58
 ---
 # {{ params.vars.title }}
 
@@ -54,6 +54,12 @@ A resistor made of {{params.metal}} wire is used in an application where its res
 Over what temperature range can it be used?
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
 
 ## Attribution
 

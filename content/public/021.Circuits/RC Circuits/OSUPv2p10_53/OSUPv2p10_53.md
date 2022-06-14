@@ -84,9 +84,9 @@ substitutions:
   params:
     vars:
       title: RC Series Circuit
-    R: '475.0'
-    C: '1.40'
-    V: '6.61'
+    R: '525.0'
+    C: '2.00'
+    V: '7.62'
 ---
 # {{ params.vars.title }}
 A ${{ params.R }}\rm\ \Omega$ resistor, an uncharged ${{ params.C }}\rm\ \mu F$ capacitor, and a ${{ params.V }}\rm\ V$ are connected in series.
@@ -122,6 +122,20 @@ What is the voltage on the capacitor after one time constant?
 ### Answer Section
 
 Please enter in a numeric value in $\rm\ V$.
+
+### pl-submission-panel
+
+{{ feedback.part1_ans }}<br>
+{{ feedback.part2_ans }}<br>
+{{ feedback.part3_ans }}<br>
+{{ feedback.part4_ans }}
+
+### pl-answer-panel
+
+$I_0 =$ {{ correct_answers.part1_ans_str }} $\rm\ A$<br>
+$\tau =$ {{ correct_answers.part2_ans_str }} $\rm\ s$<br>
+$I_1 =$ {{ correct_answers.part3_ans_str }} $\rm\ A$<br>
+$V=$ {{ correct_answers.part4_ans_str }} $\rm\ V$
 
 ## Attribution
 

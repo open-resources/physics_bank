@@ -45,10 +45,10 @@ part2:
     weight: 1
 substitutions:
   params:
-    L: '7'
-    q: '8.0'
+    L: '14'
+    q: '8.4'
     p: '-7'
-    d: '2.0'
+    d: '1.5'
     part2:
       ans1:
         value: points towards the negative plate
@@ -77,6 +77,12 @@ What is the direction of the electric field at the centre of the region between 
 - {{ params.part2.ans1.value }}
 - {{ params.part2.ans2.value }}
 - {{ params.part2.ans3.value }}
+
+### pl-submission-panel
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
 
 ## Attribution
 

@@ -50,8 +50,8 @@ substitutions:
     vars:
       title: Uniformly Decreasing Magnetic Field
     r: '10'
-    B: '0.5'
-    t: '30'
+    B: '1.0'
+    t: '20'
     part2:
       ans1:
         value: Clockwise
@@ -79,6 +79,13 @@ What is the direction of this electric field?
 
 - {{ params.part2.ans1.value }}
 - {{ params.part2.ans2.value }}
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
 
 ## Attribution
 

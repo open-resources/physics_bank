@@ -83,6 +83,11 @@ Compare their accelerations.
 - {{ params.part2.ans3.value}}
 - {{ params.part2.ans4.value}}
 
+(1)The magnitude of the proton and electron magnetic forces are the same since they have the same amount of charge. The direction of these forces however are opposite of each other.
+
+<p></p>
+(2)The accelerations are opposite in direction and the electron has a larger acceleration than the proton due to its smaller mass.
+
 ## Attribution
 
 Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br> ![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)

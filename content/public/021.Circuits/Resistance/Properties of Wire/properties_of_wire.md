@@ -79,6 +79,11 @@ What is the resistance of the wire $150 ^\circ \textrm{C}$?
 
 Please enter a numeric value.
 
+### pl-submission-panel
+
+{{ submitted_answers.part2_ans_str }}
+{{ feedback.part2_ans }}
+
 ## Attribution
 
 Problem is from the [OpenStax University Physics Volume 2](https://openstax.org/details/books/university-physics-volume-2) textbook, licensed under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).<br>![Image representing the Creative Commons 4.0 BY license.](https://raw.githubusercontent.com/firasm/bits/master/by.png)

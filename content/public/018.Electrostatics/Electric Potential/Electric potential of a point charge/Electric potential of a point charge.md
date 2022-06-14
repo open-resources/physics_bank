@@ -44,8 +44,8 @@ substitutions:
   params:
     vars:
       title: Electric potential of a point charge
-    r: '4.20'
-    V: '3.80'
+    r: '5.80'
+    V: '-1.20'
 ---
 # {{ params.vars.title }}
 
@@ -56,6 +56,10 @@ What point charge $q$ produces a potential of {{ params.V }} $\rm\ V$ at a dista
 ### Answer Section
 
 Please enter a numeric value.
+
+### pl-submission-panel
+
+{{ feedback.part1_ans }}
 
 ## Attribution
 

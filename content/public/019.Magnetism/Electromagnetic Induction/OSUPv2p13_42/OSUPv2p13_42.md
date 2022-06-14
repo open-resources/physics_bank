@@ -42,8 +42,8 @@ substitutions:
   params:
     vars:
       title: Potential Difference of Rod
-    B: '0.75'
-    v: '5'
+    B: '0.25'
+    v: '7'
     part2:
       ans1:
         value: Bottom
@@ -71,6 +71,13 @@ Which end of the rod is at a higher potential?
 
 - {{ params.part2.ans1.value }}
 - {{ params.part2.ans2.value }}
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
 
 ## Attribution
 

@@ -36,10 +36,10 @@ substitutions:
   params:
     vars:
       title: Single-Turn Rectangular Coil
-    R: '4'
+    R: '3'
     B: '0.25'
-    f: '175'
-    t: '0.007'
+    f: '125'
+    t: '0.008'
 ---
 # {{ params.vars.title }}
 
@@ -50,6 +50,16 @@ The figure below shows a single-turn rectangular coil that has a resistance of $
 <img src="Fig13_28.png">
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$I=$ {{ correct_answers.part1_ans_str }} $\rm\ A$
 
 ## Attribution
 

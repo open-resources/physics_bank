@@ -42,9 +42,9 @@ substitutions:
   params:
     vars:
       title: Velocity Selector
-    B: 0.01
-    E: 0.2
-    r: 2.62
+    B: 0.98
+    E: 2.2
+    r: 2.5
 ---
 # {{ params.vars.title }}
 
@@ -54,6 +54,12 @@ A charged particle moves through a velocity selector at constant velocity. In th
 When the electric field is turned off, the charged particle travels in a circular path of radius ${{params.r}}\textrm{ mm}$. Determine the charge-to-mass ratio of the particle.
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
 
 ## Attribution
 

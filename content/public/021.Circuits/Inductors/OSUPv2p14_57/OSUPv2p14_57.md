@@ -62,8 +62,8 @@ substitutions:
   params:
     vars:
       title: 'Switched RL Series Circuit: Time Constant'
-    t: '2.95'
-    L: '215.0'
+    t: '1.65'
+    L: '260.0'
 ---
 # {{ params.vars.title }}
 Consider the $RL$ circuit shown below.
@@ -87,6 +87,16 @@ Given $L = {{ params.L }}\rm\ mH$, determine the resistance $R$ of the circuit.
 ### Answer Section
 
 Please enter in a numeric value in $\rm\ \Omega$.
+
+### pl-submission-panel
+
+{{ feedback.part1_ans }}<br>
+{{ feedback.part2_ans }}
+
+### pl-answer-panel
+
+$\tau_L =$ {{ correct_answers.part1_ans_str }} $\rm\ s$<br>
+$R =$ {{ correct_answers.part2_ans_str }} $\rm\ \Omega$
 
 ## Attribution
 

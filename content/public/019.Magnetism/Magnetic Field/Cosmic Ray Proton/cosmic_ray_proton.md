@@ -39,9 +39,9 @@ substitutions:
   params:
     vars:
       title: Cosmic Ray Proton
-    v: 8.7
-    F: 1.21
-    theta: 42
+    v: 1.15
+    F: 1.87
+    theta: 67
 ---
 # {{ params.vars.title }}
 
@@ -51,6 +51,16 @@ A cosmic ray proton moving toward Earth at ${{params.v}} \times 10^7 \textrm{ m\
 What is the strength of the magnetic field if there is a ${{params.theta}} ^{\circ}$ angle between it and the velocity of the proton?
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$B=$ {{ correct_answers.part1_ans_str }} $\textrm{ T}$
 
 ## Attribution
 

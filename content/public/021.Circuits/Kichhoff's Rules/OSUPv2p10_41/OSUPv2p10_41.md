@@ -126,12 +126,12 @@ substitutions:
   params:
     vars:
       title: Power and Currents in a Three-Loop Circuit
-    R1: '8.00'
-    R2: '8.00'
-    R3: '4.00'
-    R4: '9.00'
-    V1: '16.0'
-    V2: '15.00'
+    R1: '2.00'
+    R2: '3.00'
+    R3: '6.00'
+    R4: '6.00'
+    V1: '19.0'
+    V2: '10.00'
 ---
 # {{ params.vars.title }}
 Consider the circuit shown below.
@@ -195,6 +195,26 @@ Find the total power dissipated by the circuit.
 ### Answer Section
 
 Please enter in a numeric value in $\rm\ W$.
+
+### pl-submission-panel
+
+{{ feedback.part1_ans }}<br>
+{{ feedback.part2_ans }}<br>
+{{ feedback.part3_ans }}<br>
+{{ feedback.part4_ans }}<br>
+{{ feedback.part5_ans }}<br>
+{{ feedback.part6_ans }}<br>
+{{ feedback.part7_ans }}
+
+### pl-answer-panel
+
+$I_1=$ {{ correct_answers.part1_ans_str }} $\rm\ A$<br>
+$I_2=$ {{ correct_answers.part2_ans_str }} $\rm\ A$<br>
+$I_3=$ {{ correct_answers.part3_ans_str }} $\rm\ A$<br>
+$I_4=$ {{ correct_answers.part4_ans_str }} $\rm\ A$<br>
+$I_5=$ {{ correct_answers.part5_ans_str }} $\rm\ A$<br>
+$P\_{\rm in}=$ {{ correct_answers.part6_ans_str }} $\rm\ W$<br>
+$P\_{\rm out}=$ {{ correct_answers.part7_ans_str }} $\rm\ W$
 
 ## Attribution
 

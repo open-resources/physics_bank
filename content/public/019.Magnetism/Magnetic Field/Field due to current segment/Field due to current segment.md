@@ -44,9 +44,9 @@ substitutions:
   params:
     vars:
       title: Field due to current segment
-    I: '13.5'
-    x: '4.20'
-    y: '4.40'
+    I: '9.5'
+    x: '3.80'
+    y: '1.00'
     dl: '0.50'
 ---
 # {{ params.vars.title }}
@@ -61,6 +61,16 @@ Take $x = {{ params.x }}\rm\ cm$ and $y = {{ params.y }}\rm\ cm$.
 What is the magnitude of the magnetic field due to a ${{ params.dl }}\rm\ mm$ segment of wire as measured at point P?
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$B=$ {{ correct_answers.part1_ans_str }} $\rm\ T$
 
 ## Attribution
 

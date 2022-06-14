@@ -51,9 +51,9 @@ substitutions:
   params:
     vars:
       title: Partially Filled Capacitor
-    a: '40.0'
-    b: '10.0'
-    f: '4'
+    a: '35.0'
+    b: '11.0'
+    f: '3'
 ---
 # {{ params.vars.title }}
 A parallel-plate capacitor with only air between its plates is charged by connecting the capacitor to a battery. The capacitor is then disconnected from the battery, without any of the charge leaving the plates.
@@ -73,6 +73,13 @@ What will the voltmeter read if the dielectric is now pulled away out so it fill
 ### Answer Section
 
 Please enter a numeric value.
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
 
 ## Attribution
 

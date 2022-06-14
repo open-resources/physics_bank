@@ -44,7 +44,7 @@ substitutions:
   params:
     vars:
       title: Accelerating electrons
-    f_s: $4.40\times 10^6$
+    f_s: $3.20\times 10^6$
 ---
 # {{ params.vars.title }}
 A simple and common technique for accelerating electrons is shown in the figure, where there is a uniform electric field between two plates.
@@ -57,6 +57,16 @@ Electrons are released from rest, usually from a hot filament, near the negative
 Calculate the acceleration of the electron if the field strength  is {{ params.f_s }} $\textrm{ N/C}$.
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$a=$ {{ correct_answers.part1_ans_str }} $~\mathrm{m}/\mathrm{s}^2$
 
 ## Attribution
 

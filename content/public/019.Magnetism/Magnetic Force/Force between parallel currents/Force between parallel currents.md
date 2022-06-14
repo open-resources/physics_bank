@@ -48,8 +48,8 @@ substitutions:
   params:
     vars:
       title: Force between parallel currents
-    d: '20.0'
-    I: '64.0'
+    d: '44.0'
+    I: '48.0'
     txt: opposite directions
     part2:
       ans1:
@@ -74,6 +74,10 @@ Do the wire attract or repel eachother?
 
 - {{ params.part2.ans1.value }}
 - {{ params.part2.ans2.value }}
+
+### pl-submission-panel
+
+{{ feedback.part1_ans }}
 
 ## Attribution
 

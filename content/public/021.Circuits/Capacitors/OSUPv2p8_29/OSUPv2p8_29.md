@@ -40,7 +40,7 @@ substitutions:
   params:
     vars:
       title: Cylindrical Capacitor
-    c: '25'
+    c: '17'
 ---
 # {{ params.vars.title }}
 
@@ -49,6 +49,17 @@ substitutions:
 If the capacitance per unit length of a cylindrical capacitor is {{params.c }}$\textrm{ pF/m}$, what is the ratio of the radii of the two cylinders, $R_2/R_1$? In this set-up, $R_2$ is the outer cylinder and $R_1$ is the inner cylinder.
 
 ### Answer Section
+
+### pl-submission-panel
+
+<p></p>
+{{ submitted_answers.part1_ans_str }}
+<p></p>
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$R_2/R_1 =$ {{ correct_answers.part1_ans_str }}
 
 ## Attribution
 

@@ -57,6 +57,8 @@ Regardless of the values of the two point charges, there will always be a point 
 - {{ params.part1.ans1.value }}
 - {{ params.part1.ans2.value }}
 
+Consider a pair of equal but opposite point charges.  The electric field is non-zero at all points along the $x$-axis (except +/- infinity).
+
 ## Attribution
 
 Problem is from the [OpenStax University Physics Volume 2](https://openstax.org/details/books/university-physics-volume-2) textbook, licensed under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).<br>![Image representing the Creative Commons 4.0 BY license.](https://raw.githubusercontent.com/firasm/bits/master/by.png)

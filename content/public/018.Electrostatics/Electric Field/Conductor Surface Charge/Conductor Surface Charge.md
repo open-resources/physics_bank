@@ -56,8 +56,8 @@ substitutions:
   params:
     vars:
       title: Conductor Surface Charge
-    Q: '-2.2'
-    q: '-5.7'
+    Q: '-8.0'
+    q: '-3.6'
 ---
 # {{ params.vars.title }}
 The conductor in the figure has an excess charge of ${{params.Q}}\rm\ \mu C$.
@@ -78,6 +78,16 @@ What is the net charge on the outer surface of the conductor?
 Give your answer in units of micro-Coulombs.
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ feedback.part1_ans }}<br>
+{{ feedback.part2_ans }}
+
+### pl-answer-panel
+
+$Q\_\mathrm{cavity}=$ {{ correct_answers.part1_ans_str }} $\rm\ \mu C$<br>
+$Q\_\mathrm{outer}=$ {{ correct_answers.part2_ans_str }} $\rm\ \mu C$
 
 ## Attribution
 

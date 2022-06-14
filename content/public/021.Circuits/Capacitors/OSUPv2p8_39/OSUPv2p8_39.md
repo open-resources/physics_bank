@@ -66,7 +66,7 @@ substitutions:
   params:
     vars:
       title: Switching Connections
-    a: '5.0'
+    a: '1.0'
     b: '4.0'
     v: '4.0'
 ---
@@ -104,6 +104,13 @@ What is the charge on the ${{params.b }} \rm\ \mu\textrm{F}$ capacitor?
 ### Answer Section
 
 Please enter a numeric value.
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
 
 ## Attribution
 

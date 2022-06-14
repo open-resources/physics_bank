@@ -75,9 +75,9 @@ substitutions:
   params:
     vars:
       title: Switched LC Circuit
-    L: '98.0'
-    C: '3.75'
-    V: '13.0'
+    L: '93.0'
+    C: '4.75'
+    V: '10.5'
 ---
 # {{ params.vars.title }}
 Consider the switched $LC$ circuit shown below.
@@ -110,6 +110,18 @@ What is the maximum current through the inductor?
 ### Answer Section
 
 Please enter in a numeric value in $\rm\ A$.
+
+### pl-submission-panel
+
+{{ feedback.part1_ans }}<br>
+{{ feedback.part2_ans }}<br>
+{{ feedback.part3_ans }}
+
+### pl-answer-panel
+
+$f=$ {{ correct_answers.part1_ans_str }} $\rm\ Hz$<br>
+$Q\_{C, \rm\ max}=$ {{ correct_answers.part2_ans_str }} $\rm\ C$<br>
+$I\_{L, \rm\ max}=$ {{ correct_answers.part3_ans_str }} $\rm\ A$
 
 ## Attribution
 

@@ -53,8 +53,8 @@ substitutions:
   params:
     vars:
       title: Heart Defibrillator
-    c: '18.0'
-    v: '9.0'
+    c: '10.0'
+    v: '6.0'
 ---
 # {{ params.vars.title }}
 
@@ -73,6 +73,13 @@ What is the amount of charge stored?
 ### Answer Section
 
 Please enter a numeric value.
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
 
 ## Attribution
 

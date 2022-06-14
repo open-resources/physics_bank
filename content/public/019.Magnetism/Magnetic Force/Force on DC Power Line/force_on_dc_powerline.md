@@ -38,9 +38,9 @@ substitutions:
   params:
     vars:
       title: Force on a DC Power Line
-    I: 889
-    theta: 60
-    L: 158
+    I: 945
+    theta: 31
+    L: 53
 ---
 # {{ params.vars.title }}
 
@@ -50,6 +50,14 @@ A DC power line for a light-rail system carries ${{params.I}}\textrm{ A}$ at an 
 What is the force on a ${{params.L}}\textrm{ m}$ section of this line?
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
 
 ## Attribution
 

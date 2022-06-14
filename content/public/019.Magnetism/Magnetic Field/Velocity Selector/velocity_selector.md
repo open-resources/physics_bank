@@ -40,8 +40,8 @@ substitutions:
   params:
     vars:
       title: Velocity Selector
-    B: 0.622
-    E: 0.721
+    B: 1.29
+    E: 0.908
 ---
 # {{ params.vars.title }}
 
@@ -51,6 +51,14 @@ The magnitudes of the electric and magnetic fields in a velocity selector are ${
 What speed must a proton have to pass through the selector?
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
 
 ## Attribution
 

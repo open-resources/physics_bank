@@ -127,13 +127,13 @@ substitutions:
   params:
     vars:
       title: Circuit with Multiple Voltage Sources
-    R1: '10.0'
-    R2: '21.0'
-    R3: '10.0'
-    R4: '20.0'
-    R5: '14.0'
-    V1: '10.5'
-    V2: '24.0'
+    R1: '15.0'
+    R2: '23.0'
+    R3: '15.0'
+    R4: '12.0'
+    R5: '20.0'
+    V1: '11.5'
+    V2: '25.0'
 ---
 # {{ params.vars.title }}
 Consider the circuit shown below.
@@ -198,6 +198,26 @@ What is the power dissipated by the circuit?
 ### Answer Section
 
 Please enter in a numeric value in $\rm\ W$.
+
+### pl-submission-panel
+
+{{ feedback.part1_ans }}<br>
+{{ feedback.part2_ans }}<br>
+{{ feedback.part3_ans }}<br>
+{{ feedback.part4_ans }}<br>
+{{ feedback.part5_ans }}<br>
+{{ feedback.part6_ans }}<br>
+{{ feedback.part7_ans }}
+
+### pl-answer-panel
+
+$V\_{R_1} =$ {{ correct_answers.part1_ans_str }} $\rm\ V$<br>
+$V\_{R_2} =$ {{ correct_answers.part2_ans_str }} $\rm\ V$<br>
+$V\_{R_3} =$ {{ correct_answers.part3_ans_str }} $\rm\ V$<br>
+$V\_{R_4} =$ {{ correct_answers.part4_ans_str }} $\rm\ V$<br>
+$V\_{R_5} =$ {{ correct_answers.part5_ans_str }} $\rm\ V$<br>
+$P\_{\rm in} =$ {{ correct_answers.part6_ans_str }} $\rm\ W$<br>
+$P\_{\rm out} =$ {{ correct_answers.part7_ans_str }} $\rm\ W$
 
 ## Attribution
 

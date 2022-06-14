@@ -42,8 +42,8 @@ substitutions:
   params:
     vars:
       title: Solenoid current
-    n: '20'
-    B: $4.0\times 10^{-2}$
+    n: '11'
+    B: $3.4\times 10^{-1}$
 ---
 # {{ params.vars.title }}
 A solenoid has {{ params.n }} turns per centimeter.
@@ -53,6 +53,16 @@ A solenoid has {{ params.n }} turns per centimeter.
 What current will produce a magnetic field of {{ params.B }} $\rm\ T$ within the solenoid?
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$I=$ {{ correct_answers.part1_ans_str }} $\rm\ A$
 
 ## Attribution
 

@@ -43,9 +43,9 @@ substitutions:
     vars:
       title: Current Through A Silicon Rod
       units: "$\textrm{A}$"
-    d: 1.21
-    l: 10.4
-    V: 19
+    d: 3.78
+    l: 29.2
+    V: 58
 ---
 # {{ params.vars.title }}
 
@@ -55,6 +55,16 @@ What current flows through a {{params.d}}-cm-diameter rod of pure silicon that i
 (Such a rod may be used to make nuclear-particle detectors, for example.)
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$I=$ {{ correct_answers.part1_ans_str }} $\textrm{ A}$
 
 ## Attribution
 

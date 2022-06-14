@@ -41,8 +41,8 @@ substitutions:
     vars:
       title: Maximum Voltage
       units: V
-    P: 0.79
-    R: 21
+    P: 1.06
+    R: 42
 ---
 # {{ params.vars.title }}
 
@@ -51,6 +51,15 @@ substitutions:
 What is the maximum voltage that can be applied to a {{params.R}} $\rm {k \Omega}$ resistor rated at {{params.P}} $\textrm {W}$?
 
 ### Answer Section
+
+### pl-submission-panel
+
+<p></p>
+{{ submitted_answers.part1_ans_str }}
+<p></p>
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
 
 ## Attribution
 

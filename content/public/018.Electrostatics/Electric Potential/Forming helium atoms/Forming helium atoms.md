@@ -41,7 +41,7 @@ substitutions:
   params:
     vars:
       title: Forming helium atoms
-    d: '0.540000'
+    d: '0.520000'
     p: -10
 ---
 # {{ params.vars.title }}
@@ -58,6 +58,10 @@ What is the work done by the system to assemble the charges?
 ### Answer Section
 
 Please enter a numeric value.
+
+### pl-submission-panel
+
+{{ feedback.part1_ans }}
 
 ## Attribution
 

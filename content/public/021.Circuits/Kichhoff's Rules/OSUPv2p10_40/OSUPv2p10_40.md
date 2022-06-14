@@ -73,11 +73,11 @@ substitutions:
   params:
     vars:
       title: Circuit Loop within a Loop
-    R1: '8.0'
+    R1: '7.0'
     R2: '9.0'
-    R3: '2.0'
-    V1: '22.0'
-    V2: '10.0'
+    R3: '9.0'
+    V1: '25.0'
+    V2: '11.0'
 ---
 # {{ params.vars.title }}
 Consider the circuit shown below.
@@ -109,6 +109,18 @@ Find $I_3$.
 ### Answer Section
 
 Please enter in a numeric value in $\rm\ A$.
+
+### pl-submission-panel
+
+{{ feedback.part1_ans }}<br>
+{{ feedback.part2_ans }}<br>
+{{ feedback.part3_ans }}
+
+### pl-answer-panel
+
+$I_1 =$ {{ correct_answers.part1_ans_str }} $\rm\ A$<br>
+$I_2 =$ {{ correct_answers.part2_ans_str }} $\rm\ A$<br>
+$I_3 =$ {{ correct_answers.part3_ans_str }} $\rm\ A$
 
 ## Attribution
 

@@ -42,8 +42,8 @@ substitutions:
     vars:
       title: Resistance Of A Copper Wire
       units: Ohms
-    d: 9.444
-    l: 5.9
+    d: 8.564
+    l: 6.8
 ---
 # {{ params.vars.title }}
 
@@ -53,6 +53,15 @@ The diameter of copper wire is {{params.d}} $\textrm{mm}$.
 Find the resistance of a {{params.l}} $\textrm{km}$ length of such wire used for power transmission.
 
 ### Answer Section
+
+### pl-submission-panel
+
+<p></p>
+{{ submitted_answers.part1_ans_str }}
+<p></p>
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
 
 ## Attribution
 

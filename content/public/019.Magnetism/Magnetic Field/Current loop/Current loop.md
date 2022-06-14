@@ -43,8 +43,8 @@ substitutions:
   params:
     vars:
       title: Current loop
-    I: '3.60'
-    B: $1.10\times 10^{-6}$
+    I: '6.00'
+    B: $1.60\times 10^{-4}$
 ---
 # {{ params.vars.title }}
 When the current through a circular loop is {{ params.I }}$\rm\ A$, the magnetic field at its centre is {{ params.B }} $\rm\ T$.
@@ -54,6 +54,16 @@ When the current through a circular loop is {{ params.I }}$\rm\ A$, the magnetic
 What is the radius of the loop?
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$r=$ {{ correct_answers.part1_ans_str }} $\rm\ m$
 
 ## Attribution
 

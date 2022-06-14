@@ -51,14 +51,14 @@ substitutions:
   params:
     vars:
       title: Power Transmission To Dorm
-    I_ref: 3
-    V_ref: 111
-    P_bulb: 56
-    P_light: 46
-    P_other: 2
-    V_pp: 111
-    d_pp: 9
-    Al_d: 8.677
+    I_ref: 1
+    V_ref: 148
+    P_bulb: 85
+    P_light: 50
+    P_other: 1
+    V_pp: 148
+    d_pp: 5
+    Al_d: 8.595
 ---
 # {{ params.vars.title }}
 A physics student has a single-occupancy dorm room.
@@ -79,6 +79,11 @@ What would be the result if the power company delivered the electric power at ${
 ### Answer Section
 
 Please enter a numeric value.
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+{{ feedback.part1_ans }}
 
 ## Attribution
 

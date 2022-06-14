@@ -22,7 +22,6 @@ tags:
 - volume 2
 - chapter 13
 - problem 36
-- multiple choice
 - multi-part
 - electromagnetic induction
 - AC

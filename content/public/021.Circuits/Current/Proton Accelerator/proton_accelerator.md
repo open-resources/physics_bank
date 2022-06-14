@@ -61,10 +61,10 @@ substitutions:
   params:
     vars:
       title: Proton Accelerator
-    r: 0.32
-    I: 50
-    n: 6.99
-    p: 42
+    r: 0.41
+    I: 18
+    n: 9.9
+    p: 8
 ---
 # {{ params.vars.title }}
 A high-energy proton accelerator produces a proton beam with a radius of {{params.r}} $\textrm{mm}$.
@@ -94,6 +94,18 @@ How much time does it take for ${{params.p}} \times 10^{10}$ protons to be emitt
 ### Answer Section
 
 Please enter a numeric value.
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$v\_{d}=$ {{ correct_answers.part2_ans_str }} $\mathrm{m}/\mathrm{s}$
+
+<p></p>
+$t=$ {{ correct_answers.part3_ans_str }} $\mathrm{s}$
 
 ## Attribution
 

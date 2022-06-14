@@ -46,8 +46,8 @@ substitutions:
     vars:
       title: Equivalent Capacitance
     a: '5'
-    b: '5.0'
-    c: '0.3'
+    b: '3.5'
+    c: '1.0'
 ---
 # {{ params.vars.title }}
 
@@ -58,6 +58,16 @@ Find the total capacitance of this combination of series and parallel capacitors
 <img src="Fig8_33.png">
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$C=$ {{ correct_answers.part1_ans_str }} $\rm\ \mu\textrm{F}$
 
 ## Attribution
 

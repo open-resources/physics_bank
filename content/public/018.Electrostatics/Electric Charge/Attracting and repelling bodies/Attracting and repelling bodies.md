@@ -70,6 +70,8 @@ Both bodies must carry a non-zero net charge.
 - {{ params.part2.ans1.value }}
 - {{ params.part2.ans2.value }}
 
+A charged body can attract a neutral body if the neutral body can be polarized.
+
 ## Attribution
 
 Problem is from the [OpenStax University Physics Volume 2](https://openstax.org/details/books/university-physics-volume-2) textbook, licensed under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).<br>![Image representing the Creative Commons 4.0 BY license.](https://raw.githubusercontent.com/firasm/bits/master/by.png)

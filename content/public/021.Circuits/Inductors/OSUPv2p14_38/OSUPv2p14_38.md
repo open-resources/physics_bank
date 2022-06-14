@@ -45,9 +45,9 @@ substitutions:
   params:
     vars:
       title: Camera Flash
-    I: '0.175'
-    L: '1.75'
-    V: '550'
+    I: '0.275'
+    L: '1.25'
+    V: '525'
 ---
 # {{ params.vars.title }}
 When a camera uses a flash, a fully-charged capacitor discharges through an inductor.
@@ -57,6 +57,16 @@ When a camera uses a flash, a fully-charged capacitor discharges through an indu
 In what time must the ${{ params.I }}\rm\ A$ current through a ${{ params.L }}\rm\ mH$ inductor be switched on or off to induce a ${{ params.V }}\rm\ V$ emf?
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+
+{{ feedback.part1_ans }}
+
+### pl-answer-panel
+
+$t =$ {{ correct_answers.part1_ans_str }} $\rm\ s$.
 
 ## Attribution
 
