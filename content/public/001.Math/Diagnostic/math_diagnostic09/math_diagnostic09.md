@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $l$ = $\dfrac{(w)}{(b - 3f)} $
+    expr: $p$ = $\dfrac{(z)}{(y + 2j)} $
     part1:
       ans1:
-        value: b = ${ 3 f + \frac{w}{l}}$
+        value: y = ${ - 2 j + \frac{z}{p}}$
       ans2:
-        value: b = ${- \frac{3 f l}{w}}$
+        value: y = ${\frac{2 j p}{z}}$
       ans3:
-        value: b = ${- \frac{w}{3 f l}}$
+        value: y = ${\frac{z}{2 j p}}$
       ans4:
-        value: b = ${\frac{3 f + l}{w}}$
+        value: y = ${\frac{- 2 j + p}{z}}$
       ans5:
         value: Don't Know
 ---

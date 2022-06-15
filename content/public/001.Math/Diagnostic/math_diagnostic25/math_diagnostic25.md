@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice Q25
-    expr: $\dfrac{ 6-e^{(-10x)}}{5-x}$
+    expr: $\dfrac{ 5-e^{(-6x)}}{1-x}$
     part1:
       ans1:
-        value: '1'
+        value: '4'
       ans2:
         value: Negative Infinity
       ans3:
-        value: 1.2
+        value: 5.0
       ans4:
-        value: 6
+        value: 5
       ans5:
         value: Don't Know
 ---

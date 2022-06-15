@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $6^{3} $=$ 216$
+    expr: $2^{7} $=$ 128$
     part1:
       ans1:
-        value: $log_6216 = 3$
+        value: $log_2128 = 7$
       ans2:
-        value: $log_63 = 216$
+        value: $log_27 = 128$
       ans3:
-        value: $log_2163 = 6$
+        value: $log_1287 = 2$
       ans4:
-        value: $log_3216 = 6$
+        value: $log_7128 = 2$
       ans5:
         value: Don't Know
 ---
