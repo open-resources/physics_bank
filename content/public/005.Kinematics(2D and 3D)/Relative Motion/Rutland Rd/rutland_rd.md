@@ -39,9 +39,9 @@ substitutions:
   params:
     vars:
       title: Rutland Rd
-      vehicle: truck
+      vehicle: sedan
       units: km/h
-    v: 78
+    v: 40
     part2:
       ans1:
         value: North

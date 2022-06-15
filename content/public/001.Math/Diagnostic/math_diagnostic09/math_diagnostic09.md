@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $x$ = $\dfrac{(d)}{(k + 10n)} $
+    expr: $l$ = $\dfrac{(w)}{(b - 3f)} $
     part1:
       ans1:
-        value: k = ${ \frac{d}{x} - 10 n}$
+        value: b = ${ 3 f + \frac{w}{l}}$
       ans2:
-        value: k = ${\frac{10 n x}{d}}$
+        value: b = ${- \frac{3 f l}{w}}$
       ans3:
-        value: k = ${\frac{d}{10 n x}}$
+        value: b = ${- \frac{w}{3 f l}}$
       ans4:
-        value: k = ${\frac{- 10 n + x}{d}}$
+        value: b = ${\frac{3 f + l}{w}}$
       ans5:
         value: Don't Know
 ---

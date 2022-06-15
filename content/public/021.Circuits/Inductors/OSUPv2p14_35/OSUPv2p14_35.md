@@ -43,9 +43,9 @@ substitutions:
   params:
     vars:
       title: Inductance of a Coil
-    V: '0.35'
-    I_i: '0.10'
-    I_f: '0.60'
+    V: '0.80'
+    I_i: '0.20'
+    I_f: '0.80'
     t: '0.75'
 ---
 # {{ params.vars.title }}

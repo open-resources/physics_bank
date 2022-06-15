@@ -59,9 +59,9 @@ substitutions:
   params:
     vars:
       title: Automobile Intermittent Wiper System
-    C: '0.600'
-    t1: '1.75'
-    t2: '16.0'
+    C: '0.200'
+    t1: '2.00'
+    t2: '15.5'
 ---
 # {{ params.vars.title }}
 The timing device in an automobile's intermittent wiper system is based on an $RC$ time constant and utilizes a ${{ params.C }}\rm\ \mu F$ capacitor and a variable resistor.

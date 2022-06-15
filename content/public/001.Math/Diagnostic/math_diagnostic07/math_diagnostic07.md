@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 6x - 1y = 39
-    formula2: 6x + 1y = 38
+    formula1: 4x - 5y = 23
+    formula2: 10x + 2y = 46
     part1:
       ans1:
-        value: ' x =77/12, y =-1/2'
+        value: ' x =138/29, y =-23/29'
       ans2:
-        value: ' x =-1/2, y =77/12'
+        value: ' x =-23/29, y =138/29'
       ans3:
-        value: ' x =-77/12, y =1/2'
+        value: ' x =-138/29, y =23/29'
       ans4:
-        value: ' x =1/2, y =-77/12'
+        value: ' x =23/29, y =-138/29'
       ans5:
         value: Don't Know
 ---

@@ -54,11 +54,11 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-      name: Mateo
-    i: 334
-    m: 28
-    v_1: 15
-    v_2: 39
+      name: Maya
+    i: 398
+    m: 39
+    v_1: 10
+    v_2: 20
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.

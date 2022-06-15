@@ -58,18 +58,18 @@ substitutions:
   params:
     vars:
       title: Terminal Velocity of a Coffee Filter
-      name: Aliyah
+      name: Lorenzo
       unit1: $m/s$
       unit2: $kg/s$
-    m: 4
-    d_m: 34
-    sd: 0.055
-    v1: 0.85
-    v2: 0.71
-    v3: 0.83
-    v4: 0.8
-    v5: 0.89
-    v6: 0.81
+    m: 3
+    d_m: 42
+    sd: 0.089
+    v1: 0.79
+    v2: 0.73
+    v3: 0.93
+    v4: 0.95
+    v5: 0.74
+    v6: 0.89
 ---
 # {{ params.vars.title }}
 In one of the PHYS 111 labs {{ params.vars.name }} measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling through the air.
