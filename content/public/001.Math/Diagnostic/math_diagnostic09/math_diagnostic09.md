@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $e$ = $\dfrac{(n)}{(b + 5y)} $
+    expr: $x$ = $\dfrac{(d)}{(k + 10n)} $
     part1:
       ans1:
-        value: b = ${ - 5 y + \frac{n}{e}}$
+        value: k = ${ \frac{d}{x} - 10 n}$
       ans2:
-        value: b = ${\frac{5 e y}{n}}$
+        value: k = ${\frac{10 n x}{d}}$
       ans3:
-        value: b = ${\frac{n}{5 e y}}$
+        value: k = ${\frac{d}{10 n x}}$
       ans4:
-        value: b = ${\frac{e - 5 y}{n}}$
+        value: k = ${\frac{- 10 n + x}{d}}$
       ans5:
         value: Don't Know
 ---

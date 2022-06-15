@@ -31,7 +31,7 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 9x + 1 > -7x + 9
+      formula: 10x + 9 > 8x + 10
     part1:
       ans1:
         value: x > 1/2
