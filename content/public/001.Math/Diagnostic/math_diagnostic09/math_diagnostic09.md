@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $p$ = $\dfrac{(z)}{(y + 2j)} $
+    expr: $w$ = $\dfrac{(g)}{(x - 4u)} $
     part1:
       ans1:
-        value: y = ${ - 2 j + \frac{z}{p}}$
+        value: x = ${ \frac{g}{w} + 4 u}$
       ans2:
-        value: y = ${\frac{2 j p}{z}}$
+        value: x = ${- \frac{4 u w}{g}}$
       ans3:
-        value: y = ${\frac{z}{2 j p}}$
+        value: x = ${- \frac{g}{4 u w}}$
       ans4:
-        value: y = ${\frac{- 2 j + p}{z}}$
+        value: x = ${\frac{4 u + w}{g}}$
       ans5:
         value: Don't Know
 ---

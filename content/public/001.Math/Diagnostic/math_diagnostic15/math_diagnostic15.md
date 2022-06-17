@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $2^{7} $=$ 128$
+    expr: $8^{4} $=$ 4096$
     part1:
       ans1:
-        value: $log_2128 = 7$
+        value: $log_84096 = 4$
       ans2:
-        value: $log_27 = 128$
+        value: $log_84 = 4096$
       ans3:
-        value: $log_1287 = 2$
+        value: $log_40964 = 8$
       ans4:
-        value: $log_7128 = 2$
+        value: $log_44096 = 8$
       ans5:
         value: Don't Know
 ---

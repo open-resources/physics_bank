@@ -40,7 +40,7 @@ substitutions:
   params:
     vars:
       title: Maximizing Energy in a Capacitor Bank
-      name: Emilia
+      name: Aliyah
     part1:
       ans1:
         value: Parallel

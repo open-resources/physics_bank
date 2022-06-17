@@ -37,15 +37,15 @@ substitutions:
       ans1:
         value: velocity
       ans2:
-        value: Drag
+        value: The position in a 1 dimensional system
       ans3:
-        value: Density
+        value: Mass
       ans4:
         value: Entropy
       ans5:
-        value: Distance travelled
+        value: Volume
       ans6:
-        value: Work
+        value: Length
 ---
 # {{ params.vars.title }}
 
