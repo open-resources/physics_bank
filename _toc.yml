@@ -166,6 +166,8 @@ parts:
       Basket/Cat in a Laundry Basket
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Slanted Table/slanted_table
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Hit_Baseball/Hit_Baseball
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Midair Propulsion/Midair
+      Propulsion
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Jumping Salmon/Jumping
       Salmon
 - caption: Force
@@ -373,6 +375,9 @@ parts:
       a Pendulum/Maximum Speed of a Pendulum
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Displacement and
       Potential Energy of an Oscillator/Displacement and Potential Energy of an Oscillator
+- caption: Waves
+  chapters:
+  - file: content/public/016.Waves/Misc/microscope_resolution/microscope_resolution
 - caption: Electrostatics
   chapters:
   - file: content/public/018.Electrostatics/Electric Potential/Order of charges/Order
