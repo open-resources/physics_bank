@@ -41,7 +41,7 @@ substitutions:
       title: Rutland Rd
       vehicle: car
       units: km/h
-    v: 48
+    v: 21
     part2:
       ans1:
         value: North

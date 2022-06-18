@@ -35,15 +35,15 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: velocity
-      ans2:
         value: The position in a 1 dimensional system
+      ans2:
+        value: Drag
       ans3:
-        value: Mass
+        value: Force
       ans4:
-        value: Entropy
+        value: Speed
       ans5:
-        value: Volume
+        value: Work
       ans6:
         value: Length
 ---

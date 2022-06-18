@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 1
+    a: 4
     b: 5
-    formula: $x \cos{\left(5 x \right)}$
+    formula: $x^{4} \sin{\left(5 x \right)}$
     part1:
       ans1:
-        value: $- 5 x \sin{\left(5 x \right)} + \cos{\left(5 x \right)}$
+        value: $5 x^{4} \cos{\left(5 x \right)} + 4 x^{3} \sin{\left(5 x \right)}$
       ans2:
-        value: $- 5 x \sin{\left(5 x \right)} $
+        value: $5 x^{4} \cos{\left(5 x \right)} $
       ans3:
-        value: $ \sin{\left(5 x \right)}$
+        value: $ 4 x^{3} \cos{\left(5 x \right)}$
       ans4:
-        value: $5 x \cos{\left(5 x \right)} + \sin{\left(5 x \right)}$
+        value: $- 5 x^{4} \sin{\left(5 x \right)} + 4 x^{3} \cos{\left(5 x \right)}$
       ans5:
         value: Don't Know
 ---

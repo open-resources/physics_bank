@@ -56,8 +56,8 @@ substitutions:
   params:
     vars:
       title: Conductor Surface Charge
-    Q: '6.0'
-    q: '5.7'
+    Q: '6.7'
+    q: '-7.0'
 ---
 # {{ params.vars.title }}
 The conductor in the figure has an excess charge of ${{params.Q}}\rm\ \mu C$.

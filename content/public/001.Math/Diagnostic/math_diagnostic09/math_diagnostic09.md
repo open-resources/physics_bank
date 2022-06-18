@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $w$ = $\dfrac{(g)}{(x - 4u)} $
+    expr: $d$ = $\dfrac{(z)}{(x - 5p)} $
     part1:
       ans1:
-        value: x = ${ \frac{g}{w} + 4 u}$
+        value: x = ${ 5 p + \frac{z}{d}}$
       ans2:
-        value: x = ${- \frac{4 u w}{g}}$
+        value: x = ${- \frac{5 d p}{z}}$
       ans3:
-        value: x = ${- \frac{g}{4 u w}}$
+        value: x = ${- \frac{z}{5 d p}}$
       ans4:
-        value: x = ${\frac{4 u + w}{g}}$
+        value: x = ${\frac{d + 5 p}{z}}$
       ans5:
         value: Don't Know
 ---
