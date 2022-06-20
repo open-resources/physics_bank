@@ -45,9 +45,9 @@ substitutions:
   params:
     vars:
       title: Inductance of a Solenoid
-    l: '44.0'
-    N: '540'
-    A: '1.40'
+    l: '46.0'
+    N: '580'
+    A: '1.30'
 ---
 # {{ params.vars.title }}
 A ${{ params.l }}\rm\ cm$ long solenoid is wound with ${{ params.N }}\rm\ turns$ of wire.

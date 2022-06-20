@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{16x - 56y }{ 8 }$
+    expr: $\dfrac{-72x + 27y }{ 9 }$
     part1:
       ans1:
-        value: $2 x - 7 y$
+        value: $- 8 x + 3 y$
       ans2:
-        value: $\dfrac{2x - 7y}{8}$
+        value: $\dfrac{-8x + 3y}{9}$
       ans3:
-        value: $-7x + 2y$
+        value: $3x - 8y$
       ans4:
-        value: $16x - 56y$
+        value: $-72x + 27y$
       ans5:
         value: Don't know.
 ---

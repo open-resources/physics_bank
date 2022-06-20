@@ -62,14 +62,14 @@ substitutions:
       unit1: $m/s$
       unit2: $kg/s$
     m: 3
-    d_m: 41
-    sd: 0.08
-    v1: 0.74
-    v2: 0.77
-    v3: 0.82
-    v4: 0.98
-    v5: 0.89
-    v6: 0.88
+    d_m: 44
+    sd: 0.089
+    v1: 0.75
+    v2: 0.97
+    v3: 0.7
+    v4: 0.73
+    v5: 0.77
+    v6: 0.83
 ---
 # {{ params.vars.title }}
 In one of the PHYS 111 labs {{ params.vars.name }} measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling through the air.

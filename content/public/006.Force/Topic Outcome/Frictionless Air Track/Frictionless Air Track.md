@@ -59,21 +59,21 @@ substitutions:
       title: A Frictionless Air Track?
       name: Mateo
       units: $m/s^2$
-    m1: 438.9
-    m2: 37.97
+    m1: 207.2
+    m2: 22.72
     d_a: 0.03
-    mean: 1.57
-    sd: 0.155
-    a1: 1.78
-    a2: 1.37
-    a3: 1.78
-    a4: 1.58
-    a5: 1.51
-    a6: 1.78
-    a7: 1.48
-    a8: 1.62
-    a9: 1.37
-    a10: 1.45
+    mean: 1.62
+    sd: 0.123
+    a1: 1.66
+    a2: 1.63
+    a3: 1.49
+    a4: 1.79
+    a5: 1.67
+    a6: 1.38
+    a7: 1.6
+    a8: 1.76
+    a9: 1.5
+    a10: 1.71
     part4:
       ans1:
         value: The track is frictionless because $a_{expected}$ does not agree with

@@ -30,9 +30,9 @@ substitutions:
   params:
     vars:
       title: Blocks on a Table
-    m1: 2
-    m2: 8
-    m3: 10
+    m1: 9
+    m2: 5
+    m3: 8
     part1:
       ans1:
         value: Block A has the highest net force.

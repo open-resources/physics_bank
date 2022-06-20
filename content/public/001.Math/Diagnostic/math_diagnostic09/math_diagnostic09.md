@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $y$ = $\dfrac{(j)}{(q + 8n)} $
+    expr: $v$ = $\dfrac{(j)}{(n + 9t)} $
     part1:
       ans1:
-        value: q = ${ \frac{j}{y} - 8 n}$
+        value: n = ${ \frac{j}{v} - 9 t}$
       ans2:
-        value: q = ${\frac{8 n y}{j}}$
+        value: n = ${\frac{9 t v}{j}}$
       ans3:
-        value: q = ${\frac{j}{8 n y}}$
+        value: n = ${\frac{j}{9 t v}}$
       ans4:
-        value: q = ${\frac{- 8 n + y}{j}}$
+        value: n = ${\frac{- 9 t + v}{j}}$
       ans5:
         value: Don't Know
 ---
