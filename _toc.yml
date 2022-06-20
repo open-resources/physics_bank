@@ -96,6 +96,8 @@ parts:
       and Direction of Vector
 - caption: Kinematics(1D)
   chapters:
+  - file: content/public/004.Kinematics(1D)/Speed/Average Speed of Kinesin/Average
+      Speed of Kinesin
   - file: content/public/004.Kinematics(1D)/Speed/Vehicle_Speed/Vehicle_Speed
   - file: content/public/004.Kinematics(1D)/Motion Diagrams/Motion Diagram of a Car/Motion
       Diagram of a Car
