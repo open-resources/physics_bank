@@ -70,7 +70,7 @@ substitutions:
     vars:
       title: Analyzing Potential Difference and Electric Field
     q: '5.0'
-    c: '1.0'
+    c: '2.0'
     d: '4.0'
     k: '4.0'
 ---

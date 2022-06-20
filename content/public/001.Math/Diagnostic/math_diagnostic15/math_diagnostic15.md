@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $5^{2} $=$ 25$
+    expr: $7^{2} $=$ 49$
     part1:
       ans1:
-        value: $log_525 = 2$
+        value: $log_749 = 2$
       ans2:
-        value: $log_52 = 25$
+        value: $log_72 = 49$
       ans3:
-        value: $log_252 = 5$
+        value: $log_492 = 7$
       ans4:
-        value: $log_225 = 5$
+        value: $log_249 = 7$
       ans5:
         value: Don't Know
 ---

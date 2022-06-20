@@ -33,15 +33,15 @@ substitutions:
       units: rad/s
       name: Ahmed
       title: Wheel of Fortune
-    t: 4
-    w_i: ${\pi \over 3} {rad\over s}$
+    t: 6
+    w_i: ${\pi \over 2} {rad\over s}$
     part1:
       ans1:
         value: 2.47
       ans2:
         value: 1.57
       ans3:
-        value: 3.15
+        value: 3.14
       ans4:
         value: 0.91
 ---

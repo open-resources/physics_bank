@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $d$ = $\dfrac{(z)}{(x - 5p)} $
+    expr: $y$ = $\dfrac{(j)}{(q + 8n)} $
     part1:
       ans1:
-        value: x = ${ 5 p + \frac{z}{d}}$
+        value: q = ${ \frac{j}{y} - 8 n}$
       ans2:
-        value: x = ${- \frac{5 d p}{z}}$
+        value: q = ${\frac{8 n y}{j}}$
       ans3:
-        value: x = ${- \frac{z}{5 d p}}$
+        value: q = ${\frac{j}{8 n y}}$
       ans4:
-        value: x = ${\frac{d + 5 p}{z}}$
+        value: q = ${\frac{- 8 n + y}{j}}$
       ans5:
         value: Don't Know
 ---

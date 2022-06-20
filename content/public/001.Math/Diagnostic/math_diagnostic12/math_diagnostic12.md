@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #12'
-    expr: $8\over 8- x$ > $ 5$
+    expr: $5\over 5- x$ > $ 2$
     part1:
       ans1:
-        value: (32/5 < x) & (x < 8)
+        value: (5/2 < x) & (x < 5)
       ans2:
-        value: (32/5 > x) & (x > 8)
+        value: (5/2 > x) & (x > 5)
       ans3:
-        value: x > 8/5
+        value: x > 5/2
       ans4:
-        value: (315/8 < x) & (x < 40)
+        value: (48/5 < x) & (x < 10)
       ans5:
         value: Do not know
 ---

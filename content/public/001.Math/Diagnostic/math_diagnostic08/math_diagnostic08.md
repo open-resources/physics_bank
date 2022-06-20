@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-16x - 56y }{ 8 }$
+    expr: $\dfrac{16x - 56y }{ 8 }$
     part1:
       ans1:
-        value: $- 2 x - 7 y$
+        value: $2 x - 7 y$
       ans2:
-        value: $\dfrac{-2x - 7y}{8}$
+        value: $\dfrac{2x - 7y}{8}$
       ans3:
-        value: $-7x - 2y$
+        value: $-7x + 2y$
       ans4:
-        value: $-16x - 56y$
+        value: $16x - 56y$
       ans5:
         value: Don't know.
 ---
