@@ -27,6 +27,7 @@ parts:
   - file: content/public/001.Math/Topic Outcome/Diameter of a Tree/Diameter of a Tree
   - file: content/public/001.Math/Topic Outcome/Mean resting respiratory rate/Mean
       resting respiratory rate
+  - file: content/public/001.Math/Topic Outcome/Bird Flying Speed/Bird Flying Speed
   - file: content/public/001.Math/Derivatives/Acceleration_Based_On_Graph/Acceleration_Based_On_Graph
   - file: content/public/001.Math/Derivatives/Velocity Derivatives/velocity_derivative
   - file: content/public/001.Math/Derivatives/Vehicle_Velocity/Vehicle_Velocity
@@ -377,6 +378,7 @@ parts:
       a Pendulum/Maximum Speed of a Pendulum
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Displacement and
       Potential Energy of an Oscillator/Displacement and Potential Energy of an Oscillator
+  - file: content/public/015.Oscillations/Pendulum/lengths_with_same_period/lengths_with_same_period
 - caption: Waves
   chapters:
   - file: content/public/016.Waves/Misc/microscope_resolution/microscope_resolution
