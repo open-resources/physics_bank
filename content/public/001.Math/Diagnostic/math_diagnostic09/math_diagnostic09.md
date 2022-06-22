@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $v$ = $\dfrac{(j)}{(n + 9t)} $
+    expr: $f$ = $\dfrac{(m)}{(p + 8k)} $
     part1:
       ans1:
-        value: n = ${ \frac{j}{v} - 9 t}$
+        value: p = ${ - 8 k + \frac{m}{f}}$
       ans2:
-        value: n = ${\frac{9 t v}{j}}$
+        value: p = ${\frac{8 f k}{m}}$
       ans3:
-        value: n = ${\frac{j}{9 t v}}$
+        value: p = ${\frac{m}{8 f k}}$
       ans4:
-        value: n = ${\frac{- 9 t + v}{j}}$
+        value: p = ${\frac{f - 8 k}{m}}$
       ans5:
         value: Don't Know
 ---

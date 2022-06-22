@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #12'
-    expr: $5\over 5- x$ > $ 7$
+    expr: $4\over 4- x$ > $ 3$
     part1:
       ans1:
-        value: (30/7 < x) & (x < 5)
+        value: (8/3 < x) & (x < 4)
       ans2:
-        value: (30/7 > x) & (x > 5)
+        value: (8/3 > x) & (x > 4)
       ans3:
-        value: x > 5/7
+        value: x > 4/3
       ans4:
-        value: (168/5 < x) & (x < 35)
+        value: (45/4 < x) & (x < 12)
       ans5:
         value: Do not know
 ---

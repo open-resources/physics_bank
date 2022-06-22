@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $5^{9} $=$ 1953125$
+    expr: $2^{6} $=$ 64$
     part1:
       ans1:
-        value: $log_51953125 = 9$
+        value: $log_264 = 6$
       ans2:
-        value: $log_59 = 1953125$
+        value: $log_26 = 64$
       ans3:
-        value: $log_19531259 = 5$
+        value: $log_646 = 2$
       ans4:
-        value: $log_91953125 = 5$
+        value: $log_664 = 2$
       ans5:
         value: Don't Know
 ---
