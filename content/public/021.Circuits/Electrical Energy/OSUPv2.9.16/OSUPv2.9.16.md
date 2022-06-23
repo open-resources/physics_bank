@@ -29,18 +29,18 @@ substitutions:
   params:
     vars:
       title: Energy Consumption Units
-      name: Emilia
+      name: Abbas
     part1:
       ans1:
-        value: voltage
-      ans2:
-        value: energy
-      ans3:
         value: current
+      ans2:
+        value: voltage
+      ans3:
+        value: energy
       ans4:
-        value: power
-      ans5:
         value: charge
+      ans5:
+        value: power
 ---
 # {{ params.vars.title }}
 

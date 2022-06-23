@@ -130,10 +130,10 @@ substitutions:
     R1: '14.0'
     R2: '20.0'
     R3: '12.0'
-    R4: '14.0'
-    R5: '19.0'
-    V1: '11.5'
-    V2: '20.5'
+    R4: '17.0'
+    R5: '15.0'
+    V1: '13.5'
+    V2: '21.0'
 ---
 # {{ params.vars.title }}
 Consider the circuit shown below.

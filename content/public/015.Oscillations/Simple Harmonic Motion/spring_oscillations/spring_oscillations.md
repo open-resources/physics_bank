@@ -55,9 +55,9 @@ substitutions:
       units1: m/s
       units2: N/m
       units3: m
-    m: 315
-    T: 0.43
-    E: 6.3
+    m: 333
+    T: 0.74
+    E: 5.4
 ---
 # {{ params.vars.title }}
 A {{params.m}} g object is attached to a spring and executes simple harmonic motion with a period of {{params.T}} s.

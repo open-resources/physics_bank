@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-6x + 4y }{ -2 }$
+    expr: $\dfrac{-28x + 20y }{ 4 }$
     part1:
       ans1:
-        value: $3 x - 2 y$
+        value: $- 7 x + 5 y$
       ans2:
-        value: $\dfrac{3x - 2y}{-2}$
+        value: $\dfrac{-7x + 5y}{4}$
       ans3:
-        value: $-2x + 3y$
+        value: $5x - 7y$
       ans4:
-        value: $-6x - 4y$
+        value: $-28x + 20y$
       ans5:
         value: Don't know.
 ---

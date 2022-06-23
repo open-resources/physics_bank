@@ -35,17 +35,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Work
+        value: Area
       ans2:
-        value: Power
+        value: Length
       ans3:
-        value: Lift
+        value: The average acceleration
       ans4:
-        value: The position in a 1 dimensional system
+        value: Weight
       ans5:
-        value: The average velocity
+        value: Lift
       ans6:
-        value: Acceleration
+        value: Force
 ---
 # {{ params.vars.title }}
 

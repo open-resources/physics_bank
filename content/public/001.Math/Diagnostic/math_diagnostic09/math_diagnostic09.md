@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $f$ = $\dfrac{(m)}{(p + 8k)} $
+    expr: $d$ = $\dfrac{(t)}{(f + 9m)} $
     part1:
       ans1:
-        value: p = ${ - 8 k + \frac{m}{f}}$
+        value: f = ${ - 9 m + \frac{t}{d}}$
       ans2:
-        value: p = ${\frac{8 f k}{m}}$
+        value: f = ${\frac{9 d m}{t}}$
       ans3:
-        value: p = ${\frac{m}{8 f k}}$
+        value: f = ${\frac{t}{9 d m}}$
       ans4:
-        value: p = ${\frac{f - 8 k}{m}}$
+        value: f = ${\frac{d - 9 m}{t}}$
       ans5:
         value: Don't Know
 ---

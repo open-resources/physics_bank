@@ -57,22 +57,22 @@ substitutions:
   params:
     vars:
       title: A Frictionless Air Track?
-      name: Mateo
+      name: Ximena
       units: $m/s^2$
-    m1: 284.9
-    m2: 63.72
+    m1: 170.6
+    m2: 68.8
     d_a: 0.01
-    mean: 1.52
-    sd: 0.11
-    a1: 1.37
-    a2: 1.42
-    a3: 1.67
-    a4: 1.72
-    a5: 1.46
-    a6: 1.47
-    a7: 1.57
-    a8: 1.46
-    a9: 1.59
+    mean: 1.51
+    sd: 0.147
+    a1: 1.49
+    a2: 1.73
+    a3: 1.56
+    a4: 1.71
+    a5: 1.37
+    a6: 1.41
+    a7: 1.31
+    a8: 1.7
+    a9: 1.4
     a10: 1.43
     part4:
       ans1:
