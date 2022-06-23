@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 2
+    a: 7
     b: 1
-    formula: $x^{2} \cos{\left(x \right)}$
+    formula: $x^{7} \sin{\left(x \right)}$
     part1:
       ans1:
-        value: $- x^{2} \sin{\left(x \right)} + 2 x \cos{\left(x \right)}$
+        value: $x^{7} \cos{\left(x \right)} + 7 x^{6} \sin{\left(x \right)}$
       ans2:
-        value: $- x^{2} \sin{\left(x \right)} $
+        value: $x^{7} \cos{\left(x \right)} $
       ans3:
-        value: $ 2 x \sin{\left(x \right)}$
+        value: $ 7 x^{6} \cos{\left(x \right)}$
       ans4:
-        value: $x^{2} \cos{\left(x \right)} + 2 x \sin{\left(x \right)}$
+        value: $- x^{7} \sin{\left(x \right)} + 7 x^{6} \cos{\left(x \right)}$
       ans5:
         value: Don't Know
 ---

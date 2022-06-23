@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $d$ = $\dfrac{(t)}{(f + 9m)} $
+    expr: $m$ = $\dfrac{(b)}{(x - 9u)} $
     part1:
       ans1:
-        value: f = ${ - 9 m + \frac{t}{d}}$
+        value: x = ${ \frac{b}{m} + 9 u}$
       ans2:
-        value: f = ${\frac{9 d m}{t}}$
+        value: x = ${- \frac{9 m u}{b}}$
       ans3:
-        value: f = ${\frac{t}{9 d m}}$
+        value: x = ${- \frac{b}{9 m u}}$
       ans4:
-        value: f = ${\frac{d - 9 m}{t}}$
+        value: x = ${\frac{m + 9 u}{b}}$
       ans5:
         value: Don't Know
 ---

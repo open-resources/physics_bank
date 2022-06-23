@@ -81,23 +81,23 @@ substitutions:
   params:
     vars:
       title: Barge Pulled by Tugboats
-    F1: 4561
-    F2: 5595
-    theta_1: 17
-    theta_2: 21
+    F1: 3331
+    F2: 5106
+    theta_1: 20
+    theta_2: 10
     part6:
       ans1:
-        value: 4.01$^{\circ}$ to the right of AB.
+        value: 1.77$^{\circ}$ to the left of AB.
       ans2:
-        value: 4.01$^{\circ}$ to the left of AB.
+        value: 1.77$^{\circ}$ to the right of AB.
       ans3:
-        value: 86.0$^{\circ}$ to the right of AB.
+        value: 88.2$^{\circ}$ to the left of AB.
       ans4:
-        value: 86.0$^{\circ}$ to the left of AB.
+        value: 88.2$^{\circ}$ to the right of AB.
       ans5:
-        value: 40.1$^{\circ}$ to the right of AB.
+        value: 17.7$^{\circ}$ to the left of AB.
       ans6:
-        value: 40.1$^{\circ}$ to the left of AB.
+        value: 17.7$^{\circ}$ to the right of AB.
 ---
 # {{ params.vars.title }}
 A barge is pulled by the two tugboats shown in the following figure.
