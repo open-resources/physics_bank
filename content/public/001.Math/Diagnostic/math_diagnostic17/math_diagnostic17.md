@@ -30,17 +30,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 17
-    a: 8
-    b: 6
+    a: 4
+    b: 10
     part1:
       ans1:
-        value: $e^{6} e^{8 y}$
+        value: $e^{10} e^{4 y}$
       ans2:
-        value: $e^{8 y} + e^{8}$
+        value: $e^{4 y} + e^{4}$
       ans3:
-        value: $8 e^{8} e^{y}$
+        value: $4 e^{4} e^{y}$
       ans4:
-        value: $6 e^{8 y}$
+        value: $10 e^{4 y}$
       ans5:
         value: Don't Know
 ---

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $j$ = $\dfrac{(i)}{(s + 6l)} $
+    expr: $d$ = $\dfrac{(k)}{(w + 5t)} $
     part1:
       ans1:
-        value: s = ${ \frac{i}{j} - 6 l}$
+        value: w = ${ - 5 t + \frac{k}{d}}$
       ans2:
-        value: s = ${\frac{6 j l}{i}}$
+        value: w = ${\frac{5 d t}{k}}$
       ans3:
-        value: s = ${\frac{i}{6 j l}}$
+        value: w = ${\frac{k}{5 d t}}$
       ans4:
-        value: s = ${\frac{j - 6 l}{i}}$
+        value: w = ${\frac{d - 5 t}{k}}$
       ans5:
         value: Don't Know
 ---
