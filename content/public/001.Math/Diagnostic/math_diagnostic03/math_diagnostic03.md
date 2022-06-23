@@ -31,7 +31,7 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 6x + 3 > 4x + 4
+      formula: 7x + -1 > 1x + 2
     part1:
       ans1:
         value: x > 1/2

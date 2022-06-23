@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Momentum and Inertia
-      vehicle: bus
+      vehicle: pickup truck
     part1:
       ans1:
         value: The bee has greater momentum, and also greater inertia.
       ans2:
-        value: The bus has greater momentum, while the bee has greater inertia.
+        value: The pickup truck has greater momentum, while the bee has greater inertia.
       ans3:
-        value: The bus has greater momentum, and also  greater inertia.
+        value: The pickup truck has greater momentum, and also  greater inertia.
       ans4:
-        value: The bee has greater momentum, while the bus has greater inertia.
+        value: The bee has greater momentum, while the pickup truck has greater inertia.
       ans5:
         value: It can’t be determined from this information.
 ---

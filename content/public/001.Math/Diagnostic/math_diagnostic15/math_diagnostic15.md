@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $3^{6} $=$ 729$
+    expr: $2^{1} $=$ 2$
     part1:
       ans1:
-        value: $log_3729 = 6$
+        value: $log_22 = 1$
       ans2:
-        value: $log_36 = 729$
+        value: $log_21 = 2$
       ans3:
-        value: $log_7296 = 3$
+        value: $log_21 = 2$
       ans4:
-        value: $log_6729 = 3$
+        value: $log_12 = 2$
       ans5:
         value: Don't Know
 ---

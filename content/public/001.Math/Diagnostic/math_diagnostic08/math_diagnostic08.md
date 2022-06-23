@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{45x + 15y }{ -5 }$
+    expr: $\dfrac{6x - 15y }{ 3 }$
     part1:
       ans1:
-        value: $- 9 x - 3 y$
+        value: $2 x - 5 y$
       ans2:
-        value: $\dfrac{-9x - 3y}{-5}$
+        value: $\dfrac{2x - 5y}{3}$
       ans3:
-        value: $-3x - 9y$
+        value: $-5x + 2y$
       ans4:
-        value: $45x - 15y$
+        value: $6x - 15y$
       ans5:
         value: Don't know.
 ---

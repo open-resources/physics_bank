@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Blocks on a Table
-    m1: 10
-    m2: 13
-    m3: 14
+    m1: 6
+    m2: 16
+    m3: 12
     part1:
       ans1:
-        value: Block A has the highest net force.
+        value: Block A experiences the greatest net force.
       ans2:
-        value: Block B has the highest net force.
+        value: Block B experiences the greatest net force.
       ans3:
-        value: Block C has the highest net force.
+        value: Block C experiences the greatest net force.
       ans4:
         value: More information is needed to answer this question.
       ans5:
@@ -47,7 +47,7 @@ substitutions:
 ---
 # {{ params.vars.title }}
 Blocks A, B, and C are on a frictionless table, connected by massless strings.
-Block A has mass {{ params.m1 }} $m$, Block B has mass {{ params.m2 }} $m$, and Block C has mass {{ params.m3 }} $m$.
+Block A has mass {{ params.m1 }} $M$, block B has mass {{ params.m2 }} $M$, and block C has mass {{ params.m3 }} $M$.
 
 Block C is pulled to the right by a large force $F_A$ that causes the entire system to accelerate.
 

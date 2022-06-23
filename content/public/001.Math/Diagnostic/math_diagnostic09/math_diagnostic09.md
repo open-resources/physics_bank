@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $m$ = $\dfrac{(b)}{(x - 9u)} $
+    expr: $j$ = $\dfrac{(i)}{(s + 6l)} $
     part1:
       ans1:
-        value: x = ${ \frac{b}{m} + 9 u}$
+        value: s = ${ \frac{i}{j} - 6 l}$
       ans2:
-        value: x = ${- \frac{9 m u}{b}}$
+        value: s = ${\frac{6 j l}{i}}$
       ans3:
-        value: x = ${- \frac{b}{9 m u}}$
+        value: s = ${\frac{i}{6 j l}}$
       ans4:
-        value: x = ${\frac{m + 9 u}{b}}$
+        value: s = ${\frac{j - 6 l}{i}}$
       ans5:
         value: Don't Know
 ---

@@ -30,17 +30,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 17
-    a: 9
-    b: 7
+    a: 8
+    b: 6
     part1:
       ans1:
-        value: $e^{7} e^{9 y}$
+        value: $e^{6} e^{8 y}$
       ans2:
-        value: $e^{9 y} + e^{9}$
+        value: $e^{8 y} + e^{8}$
       ans3:
-        value: $9 e^{9} e^{y}$
+        value: $8 e^{8} e^{y}$
       ans4:
-        value: $7 e^{9 y}$
+        value: $6 e^{8 y}$
       ans5:
         value: Don't Know
 ---
