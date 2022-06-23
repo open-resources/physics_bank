@@ -106,6 +106,8 @@ parts:
       Diagram/Turning point of a motion diagram
   - file: content/public/004.Kinematics(1D)/Motion Diagrams/Moving Creature/Moving
       Creature
+  - file: content/public/004.Kinematics(1D)/Motion Diagrams/Motion of an Object/Motion
+      of an Object
   - file: content/public/004.Kinematics(1D)/Motion Diagrams/Motion Diagram of a Car/Motion
       Diagram of a Car
   - file: content/public/004.Kinematics(1D)/Position/Label_Position_Vs_Time_Graph/Label_Position_Vs_Time_Graph
