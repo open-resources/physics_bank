@@ -1,29 +1,30 @@
 ---
-title: Block on a Ramp
-topic: Force
+title: Components of Net Force
+topic: Kinematics
 author: Jake Bobowski
-source: 2013 Midterm 2 002 Q2
+source: 2013 Final Q3
 template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
 outcomes:
-- 6.4.1.1
 - 6.1.1.4
+- 6.3.1.1
+- 6.5.1.3
 difficulty:
-- easy
+- undefined
 randomization:
-- 2
+- undefined
 taxonomy:
 - undefined
 span:
-- section
+- undefined
 length:
-- average
+- undefined
 tags:
 - MP
 assets:
-- Q2.png
+- q3image.png
 part1:
   type: multiple-choice
   pl-customizations:
@@ -31,31 +32,28 @@ part1:
 substitutions:
   params:
     vars:
-      title: Block on a Ramp
-    m: 9
-    theta: 23
-    mu: 0.3
+      title: Components of Net Force
     part1:
       ans1:
-        value: 34.0 $N$, up the incline
+        value: $\vec{n} + \vec{f_s} = m\vec{a}$
       ans2:
-        value: 81.0 $N$, up the incline
+        value: $\vec{n} - \vec{f_s} = \frac{mv^2}{a} \vec{r}$
       ans3:
-        value: 10.0 $N$, down the incline
+        value: $n cos(\theta) + f_s = \frac{mv^2}{a}$
       ans4:
-        value: 24.0 $N$, down the incline
+        value: $n cos(\theta) - f_s = \frac{mv^2}{a}$
       ans5:
-        value: 34.0 $N$, down the incline
+        value: $\vec{n_r} - \vec{f_{s,r}} = m\vec{a_r}$
 ---
 # {{ params.vars.title }}
-A mass of {{params.m}} $kg$ sits at rest on an incline making an angle of {{params.theta}} $^\circ$ with respect to the horizontal.
-
-<img src="Q2.png" width=300 alt = "a block sits on a ramp that makes angle theta with the horizontal">
 
 ## Part 1
 
-If $\mu_s$ = {{params.mu}}, what is the friction force on the block?
-Choose the best answer.
+The image shows the free-body diagram of an object in circular motion with speed v and radius r.
+The net force is along the radial direction.
+The component of Newton's second law along the radial direction is:
+
+<img src="q3image.png" width="400" height="400" alt="Circular Motion FBD">
 
 ### Answer Section
 
@@ -64,6 +62,7 @@ Choose the best answer.
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
 - {{ params.part1.ans5.value }}
+- {{ params.part1.ans6.value }}
 
 ## Attribution
 

@@ -48,7 +48,7 @@ If the particle moves in a plane perpendicular to $B$, what is the radius of its
 
 ### Answer Section
 
-{{ substitutions.part1.label }}
+Enter your expression in terms of $m$, $B$, $q$, and $V$:
 
 ## Attribution
 

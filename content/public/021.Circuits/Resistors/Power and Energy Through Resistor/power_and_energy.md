@@ -68,8 +68,8 @@ substitutions:
   params:
     vars:
       title: Power And Energy Through Resistor
-    V: 49
-    R: 9
+    V: 41
+    R: 30
     part4:
       ans1:
         value: It is converted into light energy.
@@ -79,7 +79,7 @@ substitutions:
         value: It is converted into chemical energy.
 ---
 # {{ params.vars.title }}
-A {{params.V}} $\textrm{ V}$ battery is used to supply current to a  {{params.R} $\rm\ k\Omega$ resistor.
+A {{params.V}} $\textrm{ V}$ battery is used to supply current to a {{params.R} $\rm\ k\Omega$ resistor.
 Assume the voltage drop across any wires used for connections is negligible.
 
 ## Part 1
@@ -89,6 +89,11 @@ What is the current through the resistor?
 ### Answer Section
 
 Please enter a numeric value.
+
+### pl-submission-panel
+
+{{ submitted_answers.part1_ans_str }}
+{{ feedback.part1_ans }}
 
 ## Part 2
 
@@ -112,16 +117,9 @@ What happens to the energy dissipated by the resistor?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
+- {{ params.part4.ans1.value }}
+- {{ params.part4.ans2.value }}
+- {{ params.part4.ans3.value }}
 
 ## Attribution
 

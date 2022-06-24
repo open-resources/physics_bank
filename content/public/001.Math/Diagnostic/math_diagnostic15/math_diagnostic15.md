@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $9^{4} $=$ 6561$
+    expr: $3^{2} $=$ 9$
     part1:
       ans1:
-        value: $log_96561 = 4$
+        value: $log_39 = 2$
       ans2:
-        value: $log_94 = 6561$
+        value: $log_32 = 9$
       ans3:
-        value: $log_65614 = 9$
+        value: $log_92 = 3$
       ans4:
-        value: $log_46561 = 9$
+        value: $log_29 = 3$
       ans5:
         value: Don't Know
 ---

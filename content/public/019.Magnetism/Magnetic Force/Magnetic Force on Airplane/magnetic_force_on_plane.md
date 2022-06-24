@@ -46,8 +46,8 @@ substitutions:
   params:
     vars:
       title: Magnetic Force on Airplane
-    q: 0.538
-    v: 508
+    q: 0.519
+    v: 684
     part2:
       ans1:
         value: North
@@ -69,17 +69,6 @@ What is the magnitude of the electric force on the plane?
 
 Please enter a numeric value.
 
-## Part 2
-
-What is the direction of the magnetic force on the plane?
-
-### Answer Section
-
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-
 ### pl-submission-panel
 
 {{ submitted_answers.part1_ans_str }}
@@ -88,6 +77,17 @@ What is the direction of the magnetic force on the plane?
 ### pl-answer-panel
 
 $F=$ {{ correct_answers.part1_ans_str }} $\mathrm{N}$
+
+## Part 2
+
+What is the direction of the magnetic force on the plane?
+
+### Answer Section
+
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
+- {{ params.part2.ans4.value }}
 
 ## Attribution
 

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $d$ = $\dfrac{(k)}{(w + 5t)} $
+    expr: $j$ = $\dfrac{(k)}{(d - 5w)} $
     part1:
       ans1:
-        value: w = ${ - 5 t + \frac{k}{d}}$
+        value: d = ${ 5 w + \frac{k}{j}}$
       ans2:
-        value: w = ${\frac{5 d t}{k}}$
+        value: d = ${- \frac{5 j w}{k}}$
       ans3:
-        value: w = ${\frac{k}{5 d t}}$
+        value: d = ${- \frac{k}{5 j w}}$
       ans4:
-        value: w = ${\frac{d - 5 t}{k}}$
+        value: d = ${\frac{j + 5 w}{k}}$
       ans5:
         value: Don't Know
 ---
