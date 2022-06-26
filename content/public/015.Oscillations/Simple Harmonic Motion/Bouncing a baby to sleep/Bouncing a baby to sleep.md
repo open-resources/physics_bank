@@ -31,7 +31,7 @@ part1:
     weight: 1
     allow-blank: true
     label: $k= $
-    suffix: $N/m$
+    suffix: $\rm{N/m}$
 part2:
   type: number-input
   pl-customizations:
@@ -39,7 +39,7 @@ part2:
     weight: 1
     allow-blank: true
     label: Adjustment to $\; k= $
-    suffix: $N/m$
+    suffix: $\rm{N/m}$
 part3:
   type: multiple-choice
   pl-customizations:
@@ -48,13 +48,13 @@ substitutions:
   params:
     vars:
       person1: mother
-      person2: grandmother
+      person2: sister
       title: Bouncing a Baby to Sleep
       units: $N/m$
-    m1: 85.2
-    m2: 99.8
-    m_b: 3.97
-    f: 2.59
+    m1: 52.0
+    m2: 96.4
+    m_b: 4.19
+    f: 1.6
     part3:
       ans1:
         value: Add more air to increase the pressure in the ball. Increased pressure
@@ -82,7 +82,10 @@ substitutions:
           makes the ball 'softer'.
 ---
 # {{ params.vars.title }}
-Some  babies  like  to  be  bounced  to  calm  them  down.   A  baby's  {{ params.vars.person1 }} ({{ params.m1 }} $kg$) sits on a "birthing" ball and bounces a {{ params.m_b }} $kg$ baby with them with frequency {{ params.f }} $Hz$, and finds that the baby goes to sleep.  The baby's {{ params.vars.person2 }} ({{ params.m2 }} $kg$) tries the same technique, but finds that the baby won't go to sleep.  They realize that this is because they can't bounce on the ball with the same frequency as the baby's {{ params.vars.person1 }}.
+Some babies like to  be bounced to calm them down.
+A  baby's  {{ params.vars.person1 }} ({{ params.m1 }} $kg$) sits on a "birthing" ball and bounces a {{ params.m_b }} $kg$ baby with them with frequency {{ params.f }} $Hz$, and finds that the baby goes to sleep.
+The baby's {{ params.vars.person2 }} ({{ params.m2 }} $kg$) tries the same technique, but finds that the baby won't go to sleep.
+They realize that this is because they can't bounce on the ball with the same frequency as the baby's {{ params.vars.person1 }}.
 
 ## Part 1
 

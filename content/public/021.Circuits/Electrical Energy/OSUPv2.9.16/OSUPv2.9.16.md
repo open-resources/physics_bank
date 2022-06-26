@@ -32,15 +32,15 @@ substitutions:
       name: Santiago
     part1:
       ans1:
-        value: voltage
-      ans2:
-        value: energy
-      ans3:
         value: power
-      ans4:
+      ans2:
         value: current
-      ans5:
+      ans3:
+        value: energy
+      ans4:
         value: charge
+      ans5:
+        value: voltage
 ---
 # {{ params.vars.title }}
 

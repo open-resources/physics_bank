@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-32x - 56y }{ 8 }$
+    expr: $\dfrac{36x - 36y }{ -9 }$
     part1:
       ans1:
-        value: $- 4 x - 7 y$
+        value: $- 4 x + 4 y$
       ans2:
-        value: $\dfrac{-4x - 7y}{8}$
+        value: $\dfrac{-4x + 4y}{-9}$
       ans3:
-        value: $-7x - 4y$
+        value: $4x - 4y$
       ans4:
-        value: $-32x - 56y$
+        value: $36x + 36y$
       ans5:
         value: Don't know.
 ---

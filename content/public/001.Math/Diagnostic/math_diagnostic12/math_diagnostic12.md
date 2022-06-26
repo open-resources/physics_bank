@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #12'
-    expr: $3\over 3- x$ > $ 2$
+    expr: $2\over 2- x$ > $ 5$
     part1:
       ans1:
-        value: (3/2 < x) & (x < 3)
+        value: (8/5 < x) & (x < 2)
       ans2:
-        value: (3/2 > x) & (x > 3)
+        value: (8/5 > x) & (x > 2)
       ans3:
-        value: x > 3/2
+        value: x > 2/5
       ans4:
-        value: (16/3 < x) & (x < 6)
+        value: (15/2 < x) & (x < 10)
       ans5:
         value: Do not know
 ---

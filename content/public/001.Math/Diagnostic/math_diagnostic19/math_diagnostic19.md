@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin229$
+    a: $ \sin182$
     part1:
       ans1:
-        value: $\sin{-131}$
+        value: $\sin{-178}$
       ans2:
-        value: $\sin{131}$
+        value: $\sin{178}$
       ans3:
-        value: $\sin{-49}$
+        value: $\sin{-2}$
       ans4:
-        value: $\sin{49}$
+        value: $\sin{2}$
       ans5:
         value: Don't Know
 ---

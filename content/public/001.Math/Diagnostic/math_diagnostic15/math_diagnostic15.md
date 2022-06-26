@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $3^{2} $=$ 9$
+    expr: $6^{5} $=$ 7776$
     part1:
       ans1:
-        value: $log_39 = 2$
+        value: $log_67776 = 5$
       ans2:
-        value: $log_32 = 9$
+        value: $log_65 = 7776$
       ans3:
-        value: $log_92 = 3$
+        value: $log_77765 = 6$
       ans4:
-        value: $log_29 = 3$
+        value: $log_57776 = 6$
       ans5:
         value: Don't Know
 ---

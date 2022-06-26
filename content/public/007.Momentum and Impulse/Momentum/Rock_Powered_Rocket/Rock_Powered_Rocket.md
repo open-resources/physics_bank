@@ -55,10 +55,10 @@ substitutions:
       units1: m/s
       units2: kg
       name: Abbas
-    i: 374
-    m: 22
-    v_1: 17
-    v_2: 41
+    i: 395
+    m: 20
+    v_1: 30
+    v_2: 42
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.

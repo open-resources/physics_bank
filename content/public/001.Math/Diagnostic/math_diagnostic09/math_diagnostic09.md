@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $j$ = $\dfrac{(k)}{(d - 5w)} $
+    expr: $x$ = $\dfrac{(w)}{(q - 4k)} $
     part1:
       ans1:
-        value: d = ${ 5 w + \frac{k}{j}}$
+        value: q = ${ 4 k + \frac{w}{x}}$
       ans2:
-        value: d = ${- \frac{5 j w}{k}}$
+        value: q = ${- \frac{4 k x}{w}}$
       ans3:
-        value: d = ${- \frac{k}{5 j w}}$
+        value: q = ${- \frac{w}{4 k x}}$
       ans4:
-        value: d = ${\frac{j + 5 w}{k}}$
+        value: q = ${\frac{4 k + x}{w}}$
       ans5:
         value: Don't Know
 ---

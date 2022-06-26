@@ -31,18 +31,18 @@ substitutions:
   params:
     vars:
       title: Delivering Newspapers
-      name: Maya
+      name: Emilia
     part1:
       ans1:
         value: '2'
       ans2:
-        value: '6'
-      ans3:
-        value: '3'
-      ans4:
-        value: '7'
-      ans5:
         value: '1'
+      ans3:
+        value: '7'
+      ans4:
+        value: '3'
+      ans5:
+        value: '5'
       ans6:
         value: '4'
 ---
