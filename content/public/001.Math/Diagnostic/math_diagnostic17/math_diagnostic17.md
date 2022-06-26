@@ -30,17 +30,17 @@ substitutions:
   params:
     vars:
       title: Math Practice 17
-    a: 5
-    b: 6
+    a: 3
+    b: 8
     part1:
       ans1:
-        value: $e^{6} e^{5 y}$
+        value: $e^{8} e^{3 y}$
       ans2:
-        value: $e^{5 y} + e^{5}$
+        value: $e^{3 y} + e^{3}$
       ans3:
-        value: $5 e^{5} e^{y}$
+        value: $3 e^{3} e^{y}$
       ans4:
-        value: $6 e^{5 y}$
+        value: $8 e^{3 y}$
       ans5:
         value: Don't Know
 ---

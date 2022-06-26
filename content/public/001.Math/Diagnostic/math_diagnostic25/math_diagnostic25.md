@@ -30,14 +30,14 @@ substitutions:
   params:
     vars:
       title: Math Practice Q25
-    expr: $\dfrac{ 4-e^{(-6x)}}{8-x}$
+    expr: $\dfrac{ 4-e^{(-6x)}}{10-x}$
     part1:
       ans1:
-        value: 3/8
+        value: 3/10
       ans2:
         value: Negative Infinity
       ans3:
-        value: 0.5
+        value: 0.4
       ans4:
         value: 4
       ans5:

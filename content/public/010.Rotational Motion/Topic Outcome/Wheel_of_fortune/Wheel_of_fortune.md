@@ -33,17 +33,17 @@ substitutions:
       units: rad/s
       name: Aliyah
       title: Wheel of Fortune
-    t: 4
+    t: 6
     w_i: ${\pi \over 3} {rad\over s}$
     part1:
       ans1:
-        value: 2.47
+        value: 1.65
       ans2:
-        value: 1.57
+        value: 1.28
       ans3:
-        value: 3.15
+        value: 2.57
       ans4:
-        value: 0.91
+        value: 0.74
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} wants to win a game of Wheel-of-Fortune.

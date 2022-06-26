@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $5^{3} $=$ 125$
+    expr: $3^{9} $=$ 19683$
     part1:
       ans1:
-        value: $log_5125 = 3$
+        value: $log_319683 = 9$
       ans2:
-        value: $log_53 = 125$
+        value: $log_39 = 19683$
       ans3:
-        value: $log_1253 = 5$
+        value: $log_196839 = 3$
       ans4:
-        value: $log_3125 = 5$
+        value: $log_919683 = 3$
       ans5:
         value: Don't Know
 ---

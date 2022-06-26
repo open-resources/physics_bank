@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin210$
+    a: $ \sin260$
     part1:
       ans1:
-        value: $\sin{-150}$
+        value: $\sin{-100}$
       ans2:
-        value: $\sin{150}$
+        value: $\sin{100}$
       ans3:
-        value: $\sin{-30}$
+        value: $\sin{-80}$
       ans4:
-        value: $\sin{30}$
+        value: $\sin{80}$
       ans5:
         value: Don't Know
 ---

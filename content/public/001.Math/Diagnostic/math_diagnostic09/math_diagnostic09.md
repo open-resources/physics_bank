@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $o$ = $\dfrac{(h)}{(g - 4l)} $
+    expr: $j$ = $\dfrac{(d)}{(e - 2l)} $
     part1:
       ans1:
-        value: g = ${ \frac{h}{o} + 4 l}$
+        value: e = ${ \frac{d}{j} + 2 l}$
       ans2:
-        value: g = ${- \frac{4 l o}{h}}$
+        value: e = ${- \frac{2 j l}{d}}$
       ans3:
-        value: g = ${- \frac{h}{4 l o}}$
+        value: e = ${- \frac{d}{2 j l}}$
       ans4:
-        value: g = ${\frac{4 l + o}{h}}$
+        value: e = ${\frac{j + 2 l}{d}}$
       ans5:
         value: Don't Know
 ---
