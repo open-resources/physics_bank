@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $6^{5} $=$ 7776$
+    expr: $5^{3} $=$ 125$
     part1:
       ans1:
-        value: $log_67776 = 5$
+        value: $log_5125 = 3$
       ans2:
-        value: $log_65 = 7776$
+        value: $log_53 = 125$
       ans3:
-        value: $log_77765 = 6$
+        value: $log_1253 = 5$
       ans4:
-        value: $log_57776 = 6$
+        value: $log_3125 = 5$
       ans5:
         value: Don't Know
 ---

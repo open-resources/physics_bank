@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $x$ = $\dfrac{(w)}{(q - 4k)} $
+    expr: $o$ = $\dfrac{(h)}{(g - 4l)} $
     part1:
       ans1:
-        value: q = ${ 4 k + \frac{w}{x}}$
+        value: g = ${ \frac{h}{o} + 4 l}$
       ans2:
-        value: q = ${- \frac{4 k x}{w}}$
+        value: g = ${- \frac{4 l o}{h}}$
       ans3:
-        value: q = ${- \frac{w}{4 k x}}$
+        value: g = ${- \frac{h}{4 l o}}$
       ans4:
-        value: q = ${\frac{4 k + x}{w}}$
+        value: g = ${\frac{4 l + o}{h}}$
       ans5:
         value: Don't Know
 ---

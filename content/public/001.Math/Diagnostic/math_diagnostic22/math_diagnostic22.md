@@ -30,17 +30,17 @@ substitutions:
   params:
     vars:
       title: Math Practice Q22
-    denom: 5
-    formula: $\cos{\left(\frac{x}{5} \right)}$
+    denom: 9
+    formula: $\cos{\left(\frac{x}{9} \right)}$
     part1:
       ans1:
-        value: ${5 \sin{\left(\frac{x}{5} \right)}}$
+        value: ${9 \sin{\left(\frac{x}{9} \right)}}$
       ans2:
-        value: ${- 5 \sin{\left(\frac{x}{5} \right)}}$
+        value: ${- 9 \sin{\left(\frac{x}{9} \right)}}$
       ans3:
-        value: ${10 \sin{\left(\frac{x}{5} \right)}}$
+        value: ${18 \sin{\left(\frac{x}{9} \right)}}$
       ans4:
-        value: ${\frac{5 \sin{\left(\frac{x}{5} \right)}}{2}}$
+        value: ${\frac{9 \sin{\left(\frac{x}{9} \right)}}{2}}$
 ---
 # {{ params.vars.title }}
 

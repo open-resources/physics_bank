@@ -29,8 +29,8 @@ part1:
 substitutions:
   params:
     vars:
-      name: Maya
-      vehicle: a skateboard
+      name: Lorenzo
+      vehicle: rollerblades
       units: m
       title: Distance travelled
     v: 4
