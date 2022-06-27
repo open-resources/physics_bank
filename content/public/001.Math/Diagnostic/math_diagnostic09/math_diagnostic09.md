@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $j$ = $\dfrac{(d)}{(e - 2l)} $
+    expr: $m$ = $\dfrac{(p)}{(i - 6r)} $
     part1:
       ans1:
-        value: e = ${ \frac{d}{j} + 2 l}$
+        value: i = ${ 6 r + \frac{p}{m}}$
       ans2:
-        value: e = ${- \frac{2 j l}{d}}$
+        value: i = ${- \frac{6 m r}{p}}$
       ans3:
-        value: e = ${- \frac{d}{2 j l}}$
+        value: i = ${- \frac{p}{6 m r}}$
       ans4:
-        value: e = ${\frac{j + 2 l}{d}}$
+        value: i = ${\frac{m + 6 r}{p}}$
       ans5:
         value: Don't Know
 ---

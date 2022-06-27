@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-40x - 56y }{ -8 }$
+    expr: $\dfrac{-21x + 21y }{ 7 }$
     part1:
       ans1:
-        value: $5 x + 7 y$
+        value: $- 3 x + 3 y$
       ans2:
-        value: $\dfrac{5x + 7y}{-8}$
+        value: $\dfrac{-3x + 3y}{7}$
       ans3:
-        value: $7x + 5y$
+        value: $3x - 3y$
       ans4:
-        value: $-40x + 56y$
+        value: $-21x + 21y$
       ans5:
         value: Don't know.
 ---

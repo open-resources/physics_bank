@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 13
-    expr: $\dfrac{z^9 }{z^2} $
+    expr: $\dfrac{z^5 }{z^8} $
     part1:
       ans1:
-        value: $z^{7}$
+        value: $z^{-3}$
       ans2:
-        value: $z^{-7}$
+        value: $z^{3}$
       ans3:
-        value: 7z
+        value: -3z
       ans4:
-        value: (9/2)z
+        value: (5/8)z
       ans5:
         value: Don't Know
 ---

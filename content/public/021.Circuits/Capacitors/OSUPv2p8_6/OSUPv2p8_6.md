@@ -40,7 +40,7 @@ substitutions:
   params:
     vars:
       title: Maximizing Charge in a Capacitor Bank
-      name: Santiago
+      name: Ahmed
     part1:
       ans1:
         value: Parallel
