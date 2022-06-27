@@ -31,18 +31,18 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q5
-    expr: $\dfrac{x}{3}$
-    num2: 8
-    num3: 4
+    expr: $\dfrac{x}{10}$
+    num2: 10
+    num3: 3
     part1:
       ans1:
-        value: 96
+        value: 300
       ans2:
-        value: 8/3
+        value: '1'
       ans3:
-        value: 12
+        value: 30
       ans4:
-        value: 32/3
+        value: '3'
       ans5:
         value: Don't Know
 ---

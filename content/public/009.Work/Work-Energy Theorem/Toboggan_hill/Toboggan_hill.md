@@ -64,17 +64,17 @@ part4:
 substitutions:
   params:
     vars:
-      name: Aliyah
+      name: Ximena
       title: Toboggan hill
       units1_2_3: $kJ$
       units_4: $m/s$
-    m: 63
-    l: 80
-    ang_horiz: 14
-    fr: 63
-    fwind: 15
+    m: 86
+    l: 84
+    ang_horiz: 7
+    fr: 66
+    fwind: 22
     theta: 25
-    v_i: 3
+    v_i: 1
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} ({{params.m}} $kg$) slides on their toboggan down a hill. The hill is {{params.l}} $m$ long and at an angle of {{params.ang_horiz}}$^\circ$ to the horizontal. They feel a friction force from the snow $F\_{fr} =$ {{params.fr}} $N$ and another force from the wind $F\_{wind} =$ {{params.fwind}} $N$ blowing {{params.theta}}$^\circ$ below the horizontal. The system is {{params.vars.name}} and their sled.

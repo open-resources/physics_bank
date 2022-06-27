@@ -47,10 +47,10 @@ substitutions:
     vars:
       title: Uncertainty
       units: s
-    m: 29.6
-    m_u: 0.03
-    d: 0.30000000000000004
-    d_u: 0.002
+    m: 32.36
+    m_u: 0.02
+    d: 0.1
+    d_u: 0.001
     t1: !!python/object/apply:numpy.core.multiarray.scalar
     - &id001 !!python/object/apply:numpy.dtype
       args:
@@ -67,19 +67,19 @@ substitutions:
       - -1
       - 0
     - !!binary |
-      ZO5aQj7oqT8=
+      zO7Jw0KtqT8=
     t2: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      lkOLbOf7qT8=
+      MZkqGJXUqT8=
     t3: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      zO7Jw0KtqT8=
+      lkOLbOf7qT8=
     t4: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      /0P67evAqT8=
+      zO7Jw0KtqT8=
     t5: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
@@ -87,7 +87,7 @@ substitutions:
     t6: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      /0P67evAqT8=
+      zO7Jw0KtqT8=
     t7: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |

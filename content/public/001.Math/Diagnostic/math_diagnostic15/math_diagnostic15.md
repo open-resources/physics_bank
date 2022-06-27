@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $7^{3} $=$ 343$
+    expr: $6^{4} $=$ 1296$
     part1:
       ans1:
-        value: $log_7343 = 3$
+        value: $log_61296 = 4$
       ans2:
-        value: $log_73 = 343$
+        value: $log_64 = 1296$
       ans3:
-        value: $log_3433 = 7$
+        value: $log_12964 = 6$
       ans4:
-        value: $log_3343 = 7$
+        value: $log_41296 = 6$
       ans5:
         value: Don't Know
 ---

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #12'
-    expr: $2\over 2- x$ > $ 1$
+    expr: $6\over 6- x$ > $ 2$
     part1:
       ans1:
-        value: (0 < x) & (x < 2)
+        value: (3 < x) & (x < 6)
       ans2:
-        value: (0 > x) & (x > 2)
+        value: (3 > x) & (x > 6)
       ans3:
-        value: x > 2/1
+        value: x > 6/2
       ans4:
-        value: (3/2 < x) & (x < 2)
+        value: (35/3 < x) & (x < 12)
       ans5:
         value: Do not know
 ---

@@ -117,9 +117,9 @@ substitutions:
   params:
     vars:
       title: Battery and Resistors
-    V: '56.0'
-    R1: '17.0'
-    R2: '85.0'
+    V: '46.0'
+    R1: '29.0'
+    R2: '75.0'
 ---
 # {{ params.vars.title }}
 Consider a ${{ params.V }}\rm\ V$ battery and two resistors: $R_1 = {{ params.R1 }}\rm\ \Omega$ and $R_2 = {{ params.R2 }}\rm\ \Omega$.

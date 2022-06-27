@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $m$ = $\dfrac{(p)}{(i - 6r)} $
+    expr: $b$ = $\dfrac{(y)}{(i - 10a)} $
     part1:
       ans1:
-        value: i = ${ 6 r + \frac{p}{m}}$
+        value: i = ${ 10 a + \frac{y}{b}}$
       ans2:
-        value: i = ${- \frac{6 m r}{p}}$
+        value: i = ${- \frac{10 a b}{y}}$
       ans3:
-        value: i = ${- \frac{p}{6 m r}}$
+        value: i = ${- \frac{y}{10 a b}}$
       ans4:
-        value: i = ${\frac{m + 6 r}{p}}$
+        value: i = ${\frac{10 a + b}{y}}$
       ans5:
         value: Don't Know
 ---
