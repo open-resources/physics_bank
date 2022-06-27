@@ -55,7 +55,7 @@ substitutions:
       title: Connecting Capacitors
       name: Aliyah
     a: '12'
-    b: '13'
+    b: '8'
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} has a {{params.a }} $\rm\ \mu\textrm{F}$ capacitor and a {{params.b }} $\rm\ \mu\textrm{F}$ capacitor.

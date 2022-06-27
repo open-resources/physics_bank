@@ -36,9 +36,9 @@ substitutions:
     vars:
       title: Centre of Mass of a Baton
       units: $m$
-    m1: 0.13
-    m2: 0.092
-    m3: 0.064
+    m1: 0.15
+    m2: 0.062
+    m3: 0.076
     l1: 1.5
     l2: 1.1
 ---

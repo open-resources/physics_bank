@@ -36,37 +36,34 @@ substitutions:
   params:
     vars:
       title: Cat in a Laundry Basket
-    w: 23
-    h: 42
+    w: 25
+    h: 59
     part1:
       ans1:
-        value: $\Delta t_1 >\Delta t_3 >\Delta t_2$
+        value: $\Delta t_1 > \Delta t_2 > \Delta t_3$
       ans2:
-        value: $\Delta t_1>\Delta t_3>\Delta t_2$
+        value: $\Delta t_1 > \Delta t_3 > \Delta t_2$
       ans3:
-        value: $\Delta t_1 =\Delta t_3 >\Delta t_2$
+        value: $\Delta t_2 > \Delta t_1 > \Delta t_3$
       ans4:
-        value: $\Delta t_3 > \Delta t_1 >\Delta t_2$
+        value: $\Delta t_2 > \Delta t_3 > \Delta t_1$
       ans5:
-        value: $\Delta t_3>\Delta t_1>\Delta t_2$
+        value: $\Delta t_3 > \Delta t_1 > \Delta t_2$
       ans6:
-        value: $\Delta t_1>\Delta t_3>\Delta t_2$
+        value: $\Delta t_3 > \Delta t_2 > \Delta t_1$
+      ans7:
+        value: $\Delta t_3 = \Delta t_2 = \Delta t_1$
     part2:
       ans1:
         value: $v_{x1} > v_{x2}$
       ans2:
-        value: $v_{x2}>v_{x1}$
+        value: $v_{x2} > v_{x1}$
       ans3:
         value: $v_{x1} = v_{x2}$
-      ans4:
-        value: $v_{x1} > v_{x2}$
-      ans5:
-        value: $v_{x2}>v_{x1}$
-      ans6:
-        value: $v_{x2}=v_{x1}$
 ---
 # {{ params.vars.title }}
-A cat jumps out of a laundry basket, travelling $w = $ {{ params.w }} $cm$ horizontally before just clearing the $h =$ {{ params.h }} $cm$ high edge of the basket.The parabolic trajectories of three different jumps labelled 1, 2 and 3 are shown in Fig. 1.
+A cat jumps out of a laundry basket, travelling $w = $ {{ params.w }} $cm$ horizontally before just clearing the $h =$ {{ params.h }} $cm$ high edge of the basket.
+The parabolic trajectories of three different jumps labelled 1, 2, and 3 are shown below.
 
 <img longdesc="Cat in Laundry Basket.md#desc" alt="The parabolic trajectories of three different jumps." src="catbasket.png" width = "500px">
 
@@ -80,7 +77,7 @@ Trajectory 3 has the second highest peak and the largest range. <br>
 
 ## Part 1
 
-Rank the time in the air ($\Delta t_1, \Delta t_2, \Delta t_3$ respectively) of the cat on each path.
+Rank the time in the air ($\Delta t_1, \Delta t_2, and \Delta t_3$, respectively) of the cat on each path.
 
 ### Answer Section
 

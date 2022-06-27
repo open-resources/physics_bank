@@ -46,9 +46,9 @@ substitutions:
     vars:
       title: Adding Capacitances
     a: '8'
-    b: '4'
-    c: '3.5'
-    d: '5.0'
+    b: '2'
+    c: '5.0'
+    d: '1.5'
     e: '1.50'
     f: '9'
 ---

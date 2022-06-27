@@ -29,8 +29,8 @@ part1:
 substitutions:
   params:
     vars:
-      name: Abbas
-      vehicle: rollerblades
+      name: Ximena
+      vehicle: a bicycle
       units: m
       title: Distance travelled
     v: 5

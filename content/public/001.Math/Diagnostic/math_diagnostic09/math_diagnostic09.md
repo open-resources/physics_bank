@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $b$ = $\dfrac{(y)}{(i - 10a)} $
+    expr: $y$ = $\dfrac{(l)}{(w + 2f)} $
     part1:
       ans1:
-        value: i = ${ 10 a + \frac{y}{b}}$
+        value: w = ${ - 2 f + \frac{l}{y}}$
       ans2:
-        value: i = ${- \frac{10 a b}{y}}$
+        value: w = ${\frac{2 f y}{l}}$
       ans3:
-        value: i = ${- \frac{y}{10 a b}}$
+        value: w = ${\frac{l}{2 f y}}$
       ans4:
-        value: i = ${\frac{10 a + b}{y}}$
+        value: w = ${\frac{- 2 f + y}{l}}$
       ans5:
         value: Don't Know
 ---

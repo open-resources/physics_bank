@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $6^{4} $=$ 1296$
+    expr: $6^{1} $=$ 6$
     part1:
       ans1:
-        value: $log_61296 = 4$
+        value: $log_66 = 1$
       ans2:
-        value: $log_64 = 1296$
+        value: $log_61 = 6$
       ans3:
-        value: $log_12964 = 6$
+        value: $log_61 = 6$
       ans4:
-        value: $log_41296 = 6$
+        value: $log_16 = 6$
       ans5:
         value: Don't Know
 ---
