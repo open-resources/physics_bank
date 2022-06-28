@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{12x + 18y }{ 6 }$
+    expr: $\dfrac{-10x - 20y }{ 5 }$
     part1:
       ans1:
-        value: $2 x + 3 y$
+        value: $- 2 x - 4 y$
       ans2:
-        value: $\dfrac{2x + 3y}{6}$
+        value: $\dfrac{-2x - 4y}{5}$
       ans3:
-        value: $3x + 2y$
+        value: $-4x - 2y$
       ans4:
-        value: $12x + 18y$
+        value: $-10x - 20y$
       ans5:
         value: Don't know.
 ---

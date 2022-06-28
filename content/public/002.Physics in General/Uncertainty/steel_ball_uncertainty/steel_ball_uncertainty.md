@@ -47,9 +47,9 @@ substitutions:
     vars:
       title: Uncertainty
       units: s
-    m: 30.48
-    m_u: 0.02
-    d: 0.2
+    m: 35.48
+    m_u: 0.04
+    d: 0.30000000000000004
     d_u: 0.002
     t1: !!python/object/apply:numpy.core.multiarray.scalar
     - &id001 !!python/object/apply:numpy.dtype
@@ -71,30 +71,30 @@ substitutions:
     t2: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      MgisHFpksz8=
+      md2Th4Vasz8=
     t3: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      MgisHFpksz8=
+      md2Th4Vasz8=
     t4: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      ZohjXdxGsz8=
+      md2Th4Vasz8=
     t5: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      zV1LyAc9sz8=
+      ALN78rBQsz8=
     t6: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      md2Th4Vasz8=
+      ZohjXdxGsz8=
     t7: !!python/object/apply:numpy.core.multiarray.scalar
     - *id001
     - !!binary |
-      ZohjXdxGsz8=
+      zV1LyAc9sz8=
 ---
 # {{ params.vars.title }}
-A steel ball (mball = ({{params.m}} $\pm$ {{params.m_u}}) g) is shot from a mini-launcher on its medium setting, through horizontal photogates spaced ({{params.d}} $\pm$ {{d_u}}) m apart.
+A steel ball (mball = ({{params.m}} $\pm$ {{ params.m_u }}) g) is shot from a mini-launcher on its medium setting, through horizontal photogates spaced ({{ params.d }} $\pm$ {{ params.d_u }}) m apart.
 The time interval that the ball spends between these gates is measured in six independent trials to be:
 
 | Trial Number | Time between gates (s) |

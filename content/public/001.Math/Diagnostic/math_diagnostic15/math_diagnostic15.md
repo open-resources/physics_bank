@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $6^{1} $=$ 6$
+    expr: $6^{7} $=$ 279936$
     part1:
       ans1:
-        value: $log_66 = 1$
+        value: $log_6279936 = 7$
       ans2:
-        value: $log_61 = 6$
+        value: $log_67 = 279936$
       ans3:
-        value: $log_61 = 6$
+        value: $log_2799367 = 6$
       ans4:
-        value: $log_16 = 6$
+        value: $log_7279936 = 6$
       ans5:
         value: Don't Know
 ---

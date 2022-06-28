@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $y$ = $\dfrac{(l)}{(w + 2f)} $
+    expr: $z$ = $\dfrac{(r)}{(g - 10d)} $
     part1:
       ans1:
-        value: w = ${ - 2 f + \frac{l}{y}}$
+        value: g = ${ 10 d + \frac{r}{z}}$
       ans2:
-        value: w = ${\frac{2 f y}{l}}$
+        value: g = ${- \frac{10 d z}{r}}$
       ans3:
-        value: w = ${\frac{l}{2 f y}}$
+        value: g = ${- \frac{r}{10 d z}}$
       ans4:
-        value: w = ${\frac{- 2 f + y}{l}}$
+        value: g = ${\frac{10 d + z}{r}}$
       ans5:
         value: Don't Know
 ---

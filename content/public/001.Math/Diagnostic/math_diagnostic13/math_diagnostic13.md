@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 13
-    expr: $\dfrac{z^4 }{z^6} $
+    expr: $\dfrac{z^2 }{z^9} $
     part1:
       ans1:
-        value: $z^{-2}$
+        value: $z^{-7}$
       ans2:
-        value: $z^{2}$
+        value: $z^{7}$
       ans3:
-        value: -2z
+        value: -7z
       ans4:
-        value: (2/3)z
+        value: (2/9)z
       ans5:
         value: Don't Know
 ---

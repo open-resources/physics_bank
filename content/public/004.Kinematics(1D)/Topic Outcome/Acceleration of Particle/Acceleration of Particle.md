@@ -62,11 +62,11 @@ substitutions:
       title: Acceleration of a Particle
       unit1: $s$
       unit2: $m/s^2$
-    c1: 3
-    c2_abs: 8
+    c1: 6
+    c2_abs: 7
     c2_sign: ' - '
-    c3_abs: 11
-    c3_sign: ' + '
+    c3_abs: 10
+    c3_sign: ' - '
 ---
 # {{ params.vars.title }}
 The position of a particle in $m$ is given by the function $x = ${{ params.c1 }}$t^3$ {{ params.c2_sign }} {{ params.c2_abs }}$t^2$ {{ params.c3_sign }} {{ params.c3_abs }}, where $t$ is in $s$.

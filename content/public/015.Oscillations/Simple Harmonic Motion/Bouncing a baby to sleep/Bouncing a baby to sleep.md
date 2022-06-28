@@ -47,39 +47,39 @@ part3:
 substitutions:
   params:
     vars:
-      person1: aunt
-      person2: brother
+      person1: father
+      person2: uncle
       title: Bouncing a Baby to Sleep
       units: $N/m$
-    m1: 73.7
-    m2: 61.1
-    m_b: 7.41
-    f: 2.15
+    m1: 74.9
+    m2: 98.8
+    m_b: 2.21
+    f: 1.54
     part3:
       ans1:
-        value: Remove air to decrease the pressure in the ball. Decreased pressure
-          makes the ball 'softer'.
+        value: Add more air to increase the pressure in the ball. Increased pressure
+          makes the ball 'stiffer'.
       ans2:
         value: Remove air to decrease the pressure in the ball. Decreased pressure
-          makes the ball 'stiffer'.
-      ans3:
-        value: Remove air to increase the pressure in the ball. Increased pressure
           makes the ball 'softer'.
+      ans3:
+        value: Remove air to decrease the pressure in the ball. Decreased pressure
+          makes the ball 'stiffer'.
       ans4:
         value: Remove air to increase the pressure in the ball. Increased pressure
-          makes the ball 'stiffer'.
-      ans5:
-        value: Add more air to decrease the pressure in the ball. Decreased pressure
           makes the ball 'softer'.
+      ans5:
+        value: Remove air to increase the pressure in the ball. Increased pressure
+          makes the ball 'stiffer'.
       ans6:
         value: Add more air to decrease the pressure in the ball. Decreased pressure
-          makes the ball 'stiffer'.
-      ans7:
-        value: Add more air to increase the pressure in the ball. Increased pressure
           makes the ball 'softer'.
+      ans7:
+        value: Add more air to decrease the pressure in the ball. Decreased pressure
+          makes the ball 'stiffer'.
       ans8:
         value: Add more air to increase the pressure in the ball. Increased pressure
-          makes the ball 'stiffer'.
+          makes the ball 'softer'.
 ---
 # {{ params.vars.title }}
 Some babies like to  be bounced to calm them down.

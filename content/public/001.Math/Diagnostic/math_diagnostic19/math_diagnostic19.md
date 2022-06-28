@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin203$
+    a: $ \sin262$
     part1:
       ans1:
-        value: $\sin{-157}$
+        value: $\sin{-98}$
       ans2:
-        value: $\sin{157}$
+        value: $\sin{98}$
       ans3:
-        value: $\sin{-23}$
+        value: $\sin{-82}$
       ans4:
-        value: $\sin{23}$
+        value: $\sin{82}$
       ans5:
         value: Don't Know
 ---

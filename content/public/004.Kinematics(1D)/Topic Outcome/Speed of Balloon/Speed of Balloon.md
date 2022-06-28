@@ -35,12 +35,12 @@ part1:
 substitutions:
   params:
     vars:
-      name: Maya
+      name: Santiago
       title: Speed of Balloon
       units: $m/s$
-    m: 1.5
-    F: 0.04
-    d: 4.62
+    m: 1.4
+    F: 0.03
+    d: 4.16
 ---
 # {{ params.vars.title }}
 In a demo for showing how a jet works, {{ params.vars.name }} would like to use an inflated balloon. The mass of the empty balloon is {{ params.m }} $g$ and it only moves vertically upward. We know that this balloon produces a constant thrust force of {{ params.F }} $N$.
