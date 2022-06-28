@@ -1,6 +1,6 @@
 # Tips for authoring questions
 
-Below is a list of suggestions and recommendataions when authoring questions.
+Below is a list of suggestions and recommendations when authoring questions.
 
 ## Legend
 - Shuffling Choices
@@ -11,7 +11,7 @@ Below is a list of suggestions and recommendataions when authoring questions.
 - Sympy
 - Adding Images to a Question
 - Using numpy
-- Randomising Tables
+- Randomizing Tables
 - Choosing two or more names/animals/objects without repetition
 
 ## Shuffling choices
@@ -49,29 +49,7 @@ part1:
 
 ## LaTeX Issues
 
-LaTeX code might sometimes not render properly on PL.  Most of the time, using two back slashes instead of one will solve the issue.
-
-Some examples:
-
-| Issue | Fix |
-| -- | -- |
-| ```\frac{}{}``` | Use ```\dfrac{}{}``` or ```\\frac{}{}```|
-| ```\theta``` | ```\\theta``` |
-| ```\vec{}``` | ```\\vec{}``` |
-
-Furthermore, if adding the extra back slash does not work, separating the LaTeX elements into different strings and then applying concatenation might fix the problem.
-
-For instance, ```"$\Delta\vec{p}_A$"``` will not display correctly while ```"$\Delta$" + "$\\vec{p}_A$"``` will.
-
-### Storing and displaying answers with LaTeX elements
-
-Assume that we have answer choices in the following format: 0.5 $\pm$ 0.1 $J$ where 0.5 is stored in ```params.part1.constant``` and 0.1 is stored in ```params.part1.ans1.value```. 
-
-```"{{ params.part1.constant }} $\pm$ {{ params.part1.ans1.value }} {{ params.vars.units}}"``` will not work.  
-
-The solution is to use a raw string (prepend an ```r```).
-
-So, ```r"{{ params.part1.constant }} $\pm$ {{ params.part1.ans1.value }} {{ params.vars.units}}"``` will produce the correct output.
+See the [latex](./latex.md) section for common issues using LaTeX.
 
 ## Dealing with vectors and polynomials
 
@@ -88,7 +66,7 @@ The function can be used in the following ways.
 
 **Example**. 
 
-Assume that we would like to randomise the coefficients of a vector and display it in the format $\vec{v_1} = a \hat\imath +b \hat\jmath$ where $a$ and $b$ are real numbers.
+Assume that we would like to randomize the coefficients of a vector and display it in the format $\vec{v_1} = a \hat\imath +b \hat\jmath$ where $a$ and $b$ are real numbers.
 
 ```pbh.sign_str()``` will be used to determine the sign of the coefficient of the $\jmath$ component.  This sign will be stored in the ```data2``` dictionary as ```data2["params"]["v1_j_sign"] ```. 
 
@@ -128,71 +106,81 @@ Functions can be defined inside the ```generate()``` section of the server code.
 
 *Note*: If you feel the function could be generalized and used in other questions, please request for it to be added to the ```pbh``` package.
 
-## Sympy
-### Calling a sympy object in your html file
-Sometimes it is nice to have sympy expressions in the question.html file. If you simply call a sympy object in, it will not render properly.
-Say we have some sympy expression 'expr': 
-First, convert it to a string: srt_expr = string(expr)
+## Using the `sympy` package
+
+### Calling a `sympy` object in your html file
+
+Sometimes it is nice to have `sympy` expressions in the question.html file. If you simply call a `sympy` object in, it will not render properly.
+Say we have some `sympy` expression 'expr': 
+First, convert it to a string: `srt_expr = string(expr)`
 For nicer printing, you can also convert double * ' s to ^ with str_expr.replace(' ** ',' ^ ') - (without the spaces)
 And single * ' s with str_expr.replace('* ','') - (again, without the spaces)
 
-### Sympy object doesn't convert nicely to json for answer.
-Sympy to json conversion in prairielearn doesn't like floats. It also doesn't like fractions in brackets. 
+### `sympy` object doesn't convert nicely to json for answer.
+
+Sympy to json conversion in PrairieLearn doesn't like floats.
+It also doesn't like fractions in brackets. 
 So, it's best to do something like:
 Y = X/2
 As opposed to:
 Y = 0.5 * X or Y = 1/2 * X
-At this time, there isn't a clear way for using floats in PL via sympy. 
+At this time, there isn't a clear way for using floats in PL via `sympy`. 
 
 ### You get the error: "Object of type Null is not JSON serializable"
+
 The code here: 
     
-    # Declare math symbols to be used by sympy
-    t, v_o, g = sp.symbols('t, v_o, g')
-    
-    # define bounds of the variables
-    theta = random.randint(2,5)*10
-    l = random.randint(1,9)*100
-    l2 = 0.5*l
-    a1 = g*math.sin(math.radians(theta))
-    
-    # store the variables in the dictionary "params"
-    data2["params"]["theta"] = theta
-    data2["params"]["l"] = l
-    data2["params"]["l2"] = l2
-    
-    # Describe the solution equation
-    x1 = a1*t**2/2
-    x2 = l + v_o*t + a1*t**2/2
-    
-    
-Will result in the error. The code below will not:
+```
+# Declare math symbols to be used by sympy
+t, v_o, g = sp.symbols('t, v_o, g')
 
+# define bounds of the variables
+theta = random.randint(2,5)*10
+l = random.randint(1,9)*100
+l2 = 0.5*l
+a1 = g*math.sin(math.radians(theta))
+
+# store the variables in the dictionary "params"
+data2["params"]["theta"] = theta
+data2["params"]["l"] = l
+data2["params"]["l2"] = l2
+
+# Describe the solution equation
+x1 = a1*t**2/2
+x2 = l + v_o*t + a1*t**2/2
+```
     
-    # Declare math symbols to be used by sympy
-    t, v_o, g = sp.symbols('t, v_o, g')
-    
-    # define bounds of the variables
-    theta = random.randint(2,5)*10
-    l = random.randint(1,9)*100
-    l2 = (1/2)*l
-    a1 = 9.8*math.sin(math.pi*theta/180)
-    
-    # store the variables in the dictionary "params"
-    data2["params"]["theta"] = theta
-    data2["params"]["l"] = l
-    data2["params"]["l2"] = l2
-    
-    # Describe the solution equation   
-    x1 = t**2 / 2 * g * sp.sin(sp.pi*theta/180)
-    x2 = 1 + v_o*t + t**2 / 2 * g * sp.sin(sp.pi*theta/180)
-    
+Will result in that error.
+The code below will not:
+
+```  
+# Declare math symbols to be used by sympy
+t, v_o, g = sp.symbols('t, v_o, g')
+
+# define bounds of the variables
+theta = random.randint(2,5)*10
+l = random.randint(1,9)*100
+l2 = (1/2)*l
+a1 = 9.8*math.sin(math.pi*theta/180)
+
+# store the variables in the dictionary "params"
+data2["params"]["theta"] = theta
+data2["params"]["l"] = l
+data2["params"]["l2"] = l2
+
+# Describe the solution equation   
+x1 = t**2 / 2 * g * sp.sin(sp.pi*theta/180)
+x2 = 1 + v_o*t + t**2 / 2 * g * sp.sin(sp.pi*theta/180)
+```
  
- Be sure to use sp.sin rather than math.sin for symbolics, and remember that pl.to_json conversion or pl.sympy_to_json doesn't like floats.
+ Be sure to use `sp.sin` rather than `math.sin` for symbolic questions, and remember that `pl.to_json` conversion or `pl.sympy_to_json()` doesn't like floats.
 
 ### You get the error: "argument of type 'int' is not iterable"
 
-Assume we have a symbolic input question where the correct answer is a simple integer without any other variable.  While this could be converted to a numeric input question, we want to keep this question as a symbolic one so as not to give away the answer. Simply setting the answer to the integer will result in an "argument of type 'int' is not iterable" error. Converting the integer to a string before calling ```pl.to_json()``` will resolve the issue.
+Assume we have a symbolic input question where the correct answer is a simple integer without any other variable.
+While this could be converted to a numeric input question, we want to keep this question as a symbolic one so as not to give away the answer.
+Simply setting the answer to the integer will result in an "argument of type 'int' is not iterable" error.
+Converting the integer to a string before calling ```pl.to_json()``` will resolve the issue.
 
 Here is an example taken from a multipart question.
 
@@ -255,15 +243,15 @@ If you want to add an image to a question:
     server: 
     ```
     
-See q01_multiple-choice.md for an example.
+See `q01_multiple-choice.md` template for an example.
 
-## Using numpy
+## Using `numpy`
 
-Some rendering issues might occur when using numpy for calculations, especiallly when using a numpy result in a multiple choice question answer section. The result should first be cast to an integer or a string before being used. 
+Some rendering issues might occur when using `numpy` for calculations, especially when using a `numpy` result in a multiple choice question answer section. The result should first be cast to an integer or a string before being used. 
 
-In addition, if a numpy value is used with ```pbh.roundp()```, that value must first be cast to ```float()```.
+In addition, if a `numpy` value is used with ```pbh.roundp()```, that value must first be cast to ```float()```.
 
-## Randomising Tables
+## Randomizing Tables
 
 For questions containing tables of data, the following approach can be used.
 
@@ -317,18 +305,18 @@ data2["params"]["sd"] = sd
 
 Suppose a question involves two ($n = 2$) named entities. We would not want to have the same name generated twice.
 
-1. Assume that we have a list called ```entity``` of names/animals/objects (manually defined or loaded using pandas).
+1. Assume that we have a list called `entity` of names/animals/objects (manually defined or loaded using pandas).
 
-2. The first named entity is generated using ```random.choice()```.
+2. The first named `entity` is generated using ```random.choice()```.
 
-```entity1 = random.choice(entity)```
+    ```entity1 = random.choice(entity)```
 
 3. To prevent repetition, ```entity1``` needs to be removed from the list.
 
-```entity.remove(entity1)```
+    ```entity.remove(entity1)```
 
 4. Finally, the second entity is again generated using ```random.choice()```.
 
-```entity2 = random.choice(entity)```
+    ```entity2 = random.choice(entity)```
 
 This process can be repeated for $n > 2$.

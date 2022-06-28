@@ -12,9 +12,9 @@ parts:
 - caption: Documentation
   chapters:
   - file: docs/authoring_questions
-  - file: docs/authoring
-  - file: docs/tips
+  - file: docs/anatomy
   - file: docs/reviews
-  - file: docs/alt-text/alt-text
+  - file: docs/tips
   - file: docs/latex
   - file: docs/rounding
+  - file: docs/alt-text/alt-text
