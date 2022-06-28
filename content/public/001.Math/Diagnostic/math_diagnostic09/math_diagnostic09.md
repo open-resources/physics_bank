@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $z$ = $\dfrac{(r)}{(v - 10j)} $
+    expr: $q$ = $\dfrac{(p)}{(b - 7s)} $
     part1:
       ans1:
-        value: v = ${ 10 j + \frac{r}{z}}$
+        value: b = ${ \frac{p}{q} + 7 s}$
       ans2:
-        value: v = ${- \frac{10 j z}{r}}$
+        value: b = ${- \frac{7 q s}{p}}$
       ans3:
-        value: v = ${- \frac{r}{10 j z}}$
+        value: b = ${- \frac{p}{7 q s}}$
       ans4:
-        value: v = ${\frac{10 j + z}{r}}$
+        value: b = ${\frac{q + 7 s}{p}}$
       ans5:
         value: Don't Know
 ---

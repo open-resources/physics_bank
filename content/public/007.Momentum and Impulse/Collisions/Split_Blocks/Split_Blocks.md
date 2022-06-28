@@ -48,10 +48,10 @@ substitutions:
     vars:
       title: Split Blocks
       units: $J$
-    m: 9
-    m_a: 4
+    m: 7
+    m_a: 2
     m_b: 5
-    v_a: 5.1
+    v_a: 5.0
 ---
 # {{ params.vars.title }}
 A {{params.m}} $kg$ block is initially at rest on a sheet of ice.

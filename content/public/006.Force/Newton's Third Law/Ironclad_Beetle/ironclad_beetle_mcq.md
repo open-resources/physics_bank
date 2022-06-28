@@ -30,7 +30,7 @@ substitutions:
   params:
     vars:
       title: Force on Ironclad Beetle
-    f: 53
+    f: 133
     part1:
       ans1:
         value: the beetle will exert a force of 9.5 x 10$^{-4}$ $N$ on your thumb.
@@ -41,7 +41,7 @@ substitutions:
       ans4:
         value: the beetle will exert a force of 149 $N$ back on your thumb.
       ans5:
-        value: The beetle will exert a force of 53 $N$ back on your thumb.
+        value: The beetle will exert a force of 133 $N$ back on your thumb.
 ---
 # {{ params.vars.title }}
 The 2 $cm$ long diabolical ironclad beetle is reported to survive forces as high as 149 $N$, roughly  39000 times its body weight ([here's the reference](https://www.nature.com/articles/s41586-020-2813-8) if you don't believe us)!

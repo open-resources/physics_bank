@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 4x - 3y = 21
-    formula2: 1x + 7y = 2
+    formula1: 5x - 5y = 2
+    formula2: 2x + 7y = 36
     part1:
       ans1:
-        value: ' x =153/31, y =-13/31'
+        value: ' x =194/45, y =176/45'
       ans2:
-        value: ' x =-13/31, y =153/31'
+        value: ' x =176/45, y =194/45'
       ans3:
-        value: ' x =-153/31, y =13/31'
+        value: ' x =-194/45, y =-176/45'
       ans4:
-        value: ' x =13/31, y =-153/31'
+        value: ' x =-176/45, y =-194/45'
       ans5:
         value: Don't Know
 ---

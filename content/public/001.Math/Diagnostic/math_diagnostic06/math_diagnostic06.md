@@ -31,14 +31,14 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic 6
-    eq: $\dfrac{x-8}{x+7}$ = $ \dfrac{x+9}{x-4}$
+    eq: $\dfrac{x-5}{x+3}$ = $ \dfrac{x+1}{x-5}$
     part1:
       ans1:
-        value: 11/7
+        value: -5/7
       ans2:
         value: 5/7
       ans3:
-        value: '22'
+        value: '-5'
       ans4:
         value: -5/7
 ---

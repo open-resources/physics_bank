@@ -73,10 +73,10 @@ substitutions:
   params:
     vars:
       title: Circuit Loop within a Loop
-    R1: '6.0'
-    R2: '6.0'
-    R3: '3.0'
-    V1: '23.0'
+    R1: '8.0'
+    R2: '5.0'
+    R3: '4.0'
+    V1: '20.0'
     V2: '13.0'
 ---
 # {{ params.vars.title }}

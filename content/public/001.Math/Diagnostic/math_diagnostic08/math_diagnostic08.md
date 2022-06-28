@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{63x + 28y }{ 7 }$
+    expr: $\dfrac{-12x - 36y }{ -6 }$
     part1:
       ans1:
-        value: $9 x + 4 y$
+        value: $2 x + 6 y$
       ans2:
-        value: $\dfrac{9x + 4y}{7}$
+        value: $\dfrac{2x + 6y}{-6}$
       ans3:
-        value: $4x + 9y$
+        value: $6x + 2y$
       ans4:
-        value: $63x + 28y$
+        value: $-12x + 36y$
       ans5:
         value: Don't know.
 ---
