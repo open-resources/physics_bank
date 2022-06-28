@@ -44,8 +44,8 @@ substitutions:
       title: Moving Rod
     r: '4'
     v: '3'
-    B: '2.00'
-    a: '8'
+    B: '0.25'
+    a: '7'
     part2:
       ans1:
         value: Clockwise

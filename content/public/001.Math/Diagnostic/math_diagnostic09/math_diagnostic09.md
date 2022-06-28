@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $q$ = $\dfrac{(p)}{(b - 7s)} $
+    expr: $x$ = $\dfrac{(d)}{(m - 5y)} $
     part1:
       ans1:
-        value: b = ${ \frac{p}{q} + 7 s}$
+        value: m = ${ \frac{d}{x} + 5 y}$
       ans2:
-        value: b = ${- \frac{7 q s}{p}}$
+        value: m = ${- \frac{5 x y}{d}}$
       ans3:
-        value: b = ${- \frac{p}{7 q s}}$
+        value: m = ${- \frac{d}{5 x y}}$
       ans4:
-        value: b = ${\frac{q + 7 s}{p}}$
+        value: m = ${\frac{x + 5 y}{d}}$
       ans5:
         value: Don't Know
 ---

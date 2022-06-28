@@ -32,7 +32,7 @@ substitutions:
   params:
     vars:
       title: Acceleration Around a Turn
-      vehicle: sedan
+      vehicle: car
       dir: clockwise
     part1:
       ans1:

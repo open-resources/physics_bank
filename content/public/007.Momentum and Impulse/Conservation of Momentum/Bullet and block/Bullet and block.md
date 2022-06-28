@@ -45,10 +45,10 @@ substitutions:
       units1: m/s
       units2: kg
     m_bullet: 36
-    m_block: 28
-    bullet_v: 792
-    slide_d: 6
-    slide_dnew: 6.9
+    m_block: 12
+    bullet_v: 750
+    slide_d: 7
+    slide_dnew: 7.9
     coeff_k: 0.2
 ---
 # {{ params.vars.title }}

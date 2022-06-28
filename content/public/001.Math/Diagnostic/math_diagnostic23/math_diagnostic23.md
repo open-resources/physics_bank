@@ -28,17 +28,17 @@ substitutions:
     vars:
       title: Math Practice 23
     a: 5
-    b: 1
-    formula: $x^{5} \sin{\left(x \right)}$
+    b: 9
+    formula: $x^{5} \cos{\left(9 x \right)}$
     part1:
       ans1:
-        value: $x^{5} \cos{\left(x \right)} + 5 x^{4} \sin{\left(x \right)}$
+        value: $- 9 x^{5} \sin{\left(9 x \right)} + 5 x^{4} \cos{\left(9 x \right)}$
       ans2:
-        value: $x^{5} \cos{\left(x \right)} $
+        value: $- 9 x^{5} \sin{\left(9 x \right)} $
       ans3:
-        value: $ 5 x^{4} \cos{\left(x \right)}$
+        value: $ 5 x^{4} \sin{\left(9 x \right)}$
       ans4:
-        value: $- x^{5} \sin{\left(x \right)} + 5 x^{4} \cos{\left(x \right)}$
+        value: $9 x^{5} \cos{\left(9 x \right)} + 5 x^{4} \sin{\left(9 x \right)}$
       ans5:
         value: Don't Know
 ---

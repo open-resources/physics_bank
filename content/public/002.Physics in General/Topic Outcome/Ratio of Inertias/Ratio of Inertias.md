@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Ratio of Inertias
-    choice: three
+    choice: five
     part1:
       ans1:
-        value: $\dfrac{1}{3}$
+        value: $\dfrac{1}{5}$
       ans2:
         value: $\dfrac{1}{6}$
       ans3:
-        value: $\dfrac{1}{5}$
-      ans4:
         value: $\dfrac{1}{4}$
+      ans4:
+        value: $\dfrac{1}{3}$
       ans5:
         value: $\dfrac{1}{2}$
       ans6:

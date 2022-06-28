@@ -32,7 +32,7 @@ substitutions:
   params:
     vars:
       title: Resistors in a Lab
-      name: Maya
+      name: Lorenzo
     have: larger
     want: smaller
     part1:

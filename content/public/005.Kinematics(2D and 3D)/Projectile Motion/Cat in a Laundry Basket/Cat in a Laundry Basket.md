@@ -36,7 +36,7 @@ substitutions:
   params:
     vars:
       title: Cat in a Laundry Basket
-    w: 30
+    w: 20
     h: 57
     part1:
       ans1:
