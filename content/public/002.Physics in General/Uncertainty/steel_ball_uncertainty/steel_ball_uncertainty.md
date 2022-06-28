@@ -47,51 +47,17 @@ substitutions:
     vars:
       title: Uncertainty
       units: s
-    m: 35.48
-    m_u: 0.04
-    d: 0.30000000000000004
+    m: 31.12
+    m_u: 0.03
+    d: 0.2
     d_u: 0.002
-    t1: !!python/object/apply:numpy.core.multiarray.scalar
-    - &id001 !!python/object/apply:numpy.dtype
-      args:
-      - f8
-      - false
-      - true
-      state: !!python/tuple
-      - 3
-      - <
-      - null
-      - null
-      - null
-      - -1
-      - -1
-      - 0
-    - !!binary |
-      zV1LyAc9sz8=
-    t2: !!python/object/apply:numpy.core.multiarray.scalar
-    - *id001
-    - !!binary |
-      md2Th4Vasz8=
-    t3: !!python/object/apply:numpy.core.multiarray.scalar
-    - *id001
-    - !!binary |
-      md2Th4Vasz8=
-    t4: !!python/object/apply:numpy.core.multiarray.scalar
-    - *id001
-    - !!binary |
-      md2Th4Vasz8=
-    t5: !!python/object/apply:numpy.core.multiarray.scalar
-    - *id001
-    - !!binary |
-      ALN78rBQsz8=
-    t6: !!python/object/apply:numpy.core.multiarray.scalar
-    - *id001
-    - !!binary |
-      ZohjXdxGsz8=
-    t7: !!python/object/apply:numpy.core.multiarray.scalar
-    - *id001
-    - !!binary |
-      zV1LyAc9sz8=
+    t1: 0.0256
+    t2: 0.0255
+    t3: 0.0255
+    t4: 0.0255
+    t5: 0.0253
+    t6: 0.0255
+    t7: 0.0252
 ---
 # {{ params.vars.title }}
 A steel ball (mball = ({{params.m}} $\pm$ {{ params.m_u }}) g) is shot from a mini-launcher on its medium setting, through horizontal photogates spaced ({{ params.d }} $\pm$ {{ params.d_u }}) m apart.

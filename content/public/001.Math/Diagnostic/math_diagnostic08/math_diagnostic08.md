@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-10x - 20y }{ 5 }$
+    expr: $\dfrac{63x + 28y }{ 7 }$
     part1:
       ans1:
-        value: $- 2 x - 4 y$
+        value: $9 x + 4 y$
       ans2:
-        value: $\dfrac{-2x - 4y}{5}$
+        value: $\dfrac{9x + 4y}{7}$
       ans3:
-        value: $-4x - 2y$
+        value: $4x + 9y$
       ans4:
-        value: $-10x - 20y$
+        value: $63x + 28y$
       ans5:
         value: Don't know.
 ---

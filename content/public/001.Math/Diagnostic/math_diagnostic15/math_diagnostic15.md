@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $6^{7} $=$ 279936$
+    expr: $4^{6} $=$ 4096$
     part1:
       ans1:
-        value: $log_6279936 = 7$
+        value: $log_44096 = 6$
       ans2:
-        value: $log_67 = 279936$
+        value: $log_46 = 4096$
       ans3:
-        value: $log_2799367 = 6$
+        value: $log_40966 = 4$
       ans4:
-        value: $log_7279936 = 6$
+        value: $log_64096 = 4$
       ans5:
         value: Don't Know
 ---

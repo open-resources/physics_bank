@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $z$ = $\dfrac{(r)}{(g - 10d)} $
+    expr: $z$ = $\dfrac{(r)}{(v - 10j)} $
     part1:
       ans1:
-        value: g = ${ 10 d + \frac{r}{z}}$
+        value: v = ${ 10 j + \frac{r}{z}}$
       ans2:
-        value: g = ${- \frac{10 d z}{r}}$
+        value: v = ${- \frac{10 j z}{r}}$
       ans3:
-        value: g = ${- \frac{r}{10 d z}}$
+        value: v = ${- \frac{r}{10 j z}}$
       ans4:
-        value: g = ${\frac{10 d + z}{r}}$
+        value: v = ${\frac{10 j + z}{r}}$
       ans5:
         value: Don't Know
 ---

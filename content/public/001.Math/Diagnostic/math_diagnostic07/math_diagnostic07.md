@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 10x - 1y = 38
-    formula2: 10x + 1y = 5
+    formula1: 4x - 3y = 21
+    formula2: 1x + 7y = 2
     part1:
       ans1:
-        value: ' x =43/20, y =-33/2'
+        value: ' x =153/31, y =-13/31'
       ans2:
-        value: ' x =-33/2, y =43/20'
+        value: ' x =-13/31, y =153/31'
       ans3:
-        value: ' x =-43/20, y =33/2'
+        value: ' x =-153/31, y =13/31'
       ans4:
-        value: ' x =33/2, y =-43/20'
+        value: ' x =13/31, y =-153/31'
       ans5:
         value: Don't Know
 ---
