@@ -7,8 +7,8 @@ parts:
     title: About
   - file: files/bio
     title: Project Team
-  - file: content/index
-    title: Question Index
+  # - file: content/index
+  #   title: Question Index
 - caption: Documentation
   chapters:
   - file: docs/authoring_questions
