@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin313$
+    a: $ \sin284$
     part1:
       ans1:
-        value: $\sin{-47}$
+        value: $\sin{-76}$
       ans2:
-        value: $\sin{47}$
+        value: $\sin{76}$
       ans3:
-        value: $\sin{-133}$
+        value: $\sin{-104}$
       ans4:
-        value: $\sin{133}$
+        value: $\sin{104}$
       ans5:
         value: Don't Know
 ---

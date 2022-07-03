@@ -34,19 +34,19 @@ substitutions:
       sport: mountain biker
       title: Horizontal Jump
       units: m
-    v: 21
-    d: 4.2
+    v: 22
+    d: 3.34
     part1:
       ans1:
         value: 9.81
       ans2:
-        value: 13.74
+        value: 12.84
       ans3:
-        value: 17.98
+        value: 14.98
       ans4:
-        value: 19.43
+        value: 18.15
       ans5:
-        value: 26.97
+        value: 22.47
 ---
 # {{ params.vars.title }}
 

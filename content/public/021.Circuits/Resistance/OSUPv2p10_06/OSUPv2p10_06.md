@@ -32,9 +32,9 @@ substitutions:
   params:
     vars:
       title: Resistors in a Lab
-      name: Lorenzo
-    have: larger
-    want: smaller
+      name: Ximena
+    have: smaller
+    want: larger
     part1:
       ans1:
         value: Connect multiple resistors in parallel

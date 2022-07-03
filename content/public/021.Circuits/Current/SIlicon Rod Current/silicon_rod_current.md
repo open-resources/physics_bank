@@ -43,9 +43,9 @@ substitutions:
     vars:
       title: Current Through A Silicon Rod
       units: "$\textrm{A}$"
-    d: 4.99
-    l: 36.8
-    V: 9
+    d: 1.13
+    l: 46.8
+    V: 39
 ---
 # {{ params.vars.title }}
 

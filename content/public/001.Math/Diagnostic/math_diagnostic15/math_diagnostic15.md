@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $2^{3} $=$ 8$
+    expr: $4^{5} $=$ 1024$
     part1:
       ans1:
-        value: $log_28 = 3$
+        value: $log_41024 = 5$
       ans2:
-        value: $log_23 = 8$
+        value: $log_45 = 1024$
       ans3:
-        value: $log_83 = 2$
+        value: $log_10245 = 4$
       ans4:
-        value: $log_38 = 2$
+        value: $log_51024 = 4$
       ans5:
         value: Don't Know
 ---

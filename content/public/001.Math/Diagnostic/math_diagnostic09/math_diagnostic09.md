@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $b$ = $\dfrac{(v)}{(y + 7f)} $
+    expr: $a$ = $\dfrac{(u)}{(f - 9m)} $
     part1:
       ans1:
-        value: y = ${ - 7 f + \frac{v}{b}}$
+        value: f = ${ 9 m + \frac{u}{a}}$
       ans2:
-        value: y = ${\frac{7 b f}{v}}$
+        value: f = ${- \frac{9 a m}{u}}$
       ans3:
-        value: y = ${\frac{v}{7 b f}}$
+        value: f = ${- \frac{u}{9 a m}}$
       ans4:
-        value: y = ${\frac{b - 7 f}{v}}$
+        value: f = ${\frac{a + 9 m}{u}}$
       ans5:
         value: Don't Know
 ---
