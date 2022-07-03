@@ -30,20 +30,20 @@ substitutions:
   params:
     vars:
       name: Savannah
-      vehicle: a tricycle
+      vehicle: a bicycle
       units: m
       title: Distance travelled
-    v: 7
-    t: 9
+    v: 3
+    t: 5
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 63
+        value: 15
       ans3:
-        value: 16
+        value: 8
       ans4:
-        value: 0.78
+        value: 0.6
       ans5:
         value: -2
       ans6:

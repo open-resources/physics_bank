@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $4^{5} $=$ 1024$
+    expr: $3^{6} $=$ 729$
     part1:
       ans1:
-        value: $log_41024 = 5$
+        value: $log_3729 = 6$
       ans2:
-        value: $log_45 = 1024$
+        value: $log_36 = 729$
       ans3:
-        value: $log_10245 = 4$
+        value: $log_7296 = 3$
       ans4:
-        value: $log_51024 = 4$
+        value: $log_6729 = 3$
       ans5:
         value: Don't Know
 ---

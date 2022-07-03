@@ -30,8 +30,8 @@ substitutions:
   params:
     vars:
       title: Blocks on a Table
-    m1: 3
-    m2: 20
+    m1: 7
+    m2: 22
     m3: 11
     part1:
       ans1:

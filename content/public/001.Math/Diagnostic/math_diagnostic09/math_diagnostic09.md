@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $a$ = $\dfrac{(u)}{(f - 9m)} $
+    expr: $f$ = $\dfrac{(r)}{(e - 4x)} $
     part1:
       ans1:
-        value: f = ${ 9 m + \frac{u}{a}}$
+        value: e = ${ 4 x + \frac{r}{f}}$
       ans2:
-        value: f = ${- \frac{9 a m}{u}}$
+        value: e = ${- \frac{4 f x}{r}}$
       ans3:
-        value: f = ${- \frac{u}{9 a m}}$
+        value: e = ${- \frac{r}{4 f x}}$
       ans4:
-        value: f = ${\frac{a + 9 m}{u}}$
+        value: e = ${\frac{f + 4 x}{r}}$
       ans5:
         value: Don't Know
 ---
