@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $x$ = $\dfrac{(d)}{(m - 5y)} $
+    expr: $b$ = $\dfrac{(v)}{(y + 7f)} $
     part1:
       ans1:
-        value: m = ${ \frac{d}{x} + 5 y}$
+        value: y = ${ - 7 f + \frac{v}{b}}$
       ans2:
-        value: m = ${- \frac{5 x y}{d}}$
+        value: y = ${\frac{7 b f}{v}}$
       ans3:
-        value: m = ${- \frac{d}{5 x y}}$
+        value: y = ${\frac{v}{7 b f}}$
       ans4:
-        value: m = ${\frac{x + 5 y}{d}}$
+        value: y = ${\frac{b - 7 f}{v}}$
       ans5:
         value: Don't Know
 ---

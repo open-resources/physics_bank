@@ -36,7 +36,7 @@ substitutions:
   params:
     vars:
       title: Electric Field Outside Solenoid
-    R: '3'
+    R: '2'
     r: '6'
     n: '20'
     DI: '4'

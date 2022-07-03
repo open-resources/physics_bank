@@ -40,13 +40,13 @@ part2:
 substitutions:
   params:
     vars:
-      name: Maya
+      name: Abbas
       title: Archery Competition
       units: m/s
-    x: 135
-    arrow_v: 157
+    x: 78
+    arrow_v: 268
     theta: 11
-    height: 190
+    height: 199
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is reading a novel that describes an athelete participating in an archery competition.

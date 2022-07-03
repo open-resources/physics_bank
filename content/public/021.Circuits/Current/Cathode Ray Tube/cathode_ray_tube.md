@@ -35,7 +35,7 @@ substitutions:
   params:
     vars:
       title: Cathode Ray Tube
-    I: 53
+    I: 81
     t: 9
 ---
 # {{ params.vars.title }}
