@@ -3,7 +3,7 @@ title: Wheel of Fortune
 topic: Rotational Motion
 author: Jake Bobowski
 source: 2016 Final Q2
-template_version: 1.3
+template_version: 1.4
 attribution: standard
 partialCredit: true
 singleVariant: false
@@ -12,7 +12,7 @@ outcomes:
 difficulty:
 - medium
 randomization:
-- 2
+- undefined
 taxonomy:
 - undefined
 span:
@@ -24,43 +24,36 @@ tags:
 assets:
 - wheel_of_fortune.png
 part1:
-  type: multiple-choice
+  type: number-input
   pl-customizations:
+    rtol: 0.05
     weight: 1
+    allow-blank: true
+    label: $\omega_i = $
+    suffix: $rad/s$
 substitutions:
   params:
     vars:
       units: rad/s
-      name: Santiago
+      name: Emilia
       title: Wheel of Fortune
-    t: 6
-    w_i: ${\pi \over 3} {rad\over s}$
-    part1:
-      ans1:
-        value: 1.65
-      ans2:
-        value: 1.28
-      ans3:
-        value: 2.57
-      ans4:
-        value: 0.74
+    t: 2.6
+    w_i: ${\pi \over 4} {rad\over s}$
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} wants to win a game of Wheel-of-Fortune.
-The grand prize is initially located at a position at the top of the wheel (shown) and {{ params.vars.name }} only wins if the wheel stops when the prize is at the position to the right ($\theta$ = 0).{{ params.vars.name }} notes that when another contestant set the wheel spinning at $w_i = $ {{params.w_i}} in the counter-clockwise direction, it takes {{params.t}} $s$ to stop.
+The grand prize is initially located at a position at the top of the wheel and contestants win the prize located at the position to the right when the wheel stops (shown below).
+{{ params.vars.name }} notes that when another contestant set the wheel spinning at $\omega_i = $ {{ params.w_i }} in the counter-clockwise direction, it takes {{ params.t }} $s$ to stop.
 
 ## Part 1
 
-With which initial velocity in the counter-clockwise direction should {{ params.vars.name }} spin the wheel to win the grand prize?
+With which initial velocity in the counter-clockwise direction should {{ params.vars.name }} spin the wheel to win the grand prize? Note that it is not possible to spin the wheel such that it undergoes more than 16 full rotations. Your answer should include at three significant figures.
 
-<img src="wheel_of_fortune.png" alt="Image of a wheel showing the winning section to be between the top center of the wheel, and approximately 10 degrees to the left." width=300>
+<img src="wheel_of_fortune.png" alt="Image of a wheel showing the prize to be at the top (0 degrees) and the winning section to be on the right (90 degrees clockwise)." width=300>
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

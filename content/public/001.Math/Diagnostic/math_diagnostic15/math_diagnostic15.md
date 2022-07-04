@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $8^{6} $=$ 262144$
+    expr: $5^{9} $=$ 1953125$
     part1:
       ans1:
-        value: $log_8262144 = 6$
+        value: $log_51953125 = 9$
       ans2:
-        value: $log_86 = 262144$
+        value: $log_59 = 1953125$
       ans3:
-        value: $log_2621446 = 8$
+        value: $log_19531259 = 5$
       ans4:
-        value: $log_6262144 = 8$
+        value: $log_91953125 = 5$
       ans5:
         value: Don't Know
 ---

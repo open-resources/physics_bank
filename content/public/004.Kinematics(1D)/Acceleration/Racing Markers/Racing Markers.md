@@ -30,10 +30,10 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: car
+      vehicle: sedan
       title: Racing Markers
-      v1: 53
-      v2: 27.0
+      v1: 79
+      v2: 40.0
     part1:
       ans1:
         value: Marker 1

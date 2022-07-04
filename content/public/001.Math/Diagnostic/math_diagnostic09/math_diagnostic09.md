@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $b$ = $\dfrac{(r)}{(u + 7t)} $
+    expr: $j$ = $\dfrac{(u)}{(c + 10y)} $
     part1:
       ans1:
-        value: u = ${ - 7 t + \frac{r}{b}}$
+        value: c = ${ - 10 y + \frac{u}{j}}$
       ans2:
-        value: u = ${\frac{7 b t}{r}}$
+        value: c = ${\frac{10 j y}{u}}$
       ans3:
-        value: u = ${\frac{r}{7 b t}}$
+        value: c = ${\frac{u}{10 j y}}$
       ans4:
-        value: u = ${\frac{b - 7 t}{r}}$
+        value: c = ${\frac{j - 10 y}{u}}$
       ans5:
         value: Don't Know
 ---
