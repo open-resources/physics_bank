@@ -35,17 +35,17 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: The position in 3 dimensions
-      ans2:
         value: Drag
+      ans2:
+        value: The average acceleration
       ans3:
-        value: Mass
+        value: The average velocity
       ans4:
-        value: Energy
+        value: Speed
       ans5:
-        value: Power
+        value: Density
       ans6:
-        value: Entropy
+        value: Energy
 ---
 # {{ params.vars.title }}
 

@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $3^{5} $=$ 243$
+    expr: $8^{2} $=$ 64$
     part1:
       ans1:
-        value: $log_3243 = 5$
+        value: $log_864 = 2$
       ans2:
-        value: $log_35 = 243$
+        value: $log_82 = 64$
       ans3:
-        value: $log_2435 = 3$
+        value: $log_642 = 8$
       ans4:
-        value: $log_5243 = 3$
+        value: $log_264 = 8$
       ans5:
         value: Don't Know
 ---

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $n$ = $\dfrac{(q)}{(o + 9h)} $
+    expr: $q$ = $\dfrac{(y)}{(a + 2v)} $
     part1:
       ans1:
-        value: o = ${ - 9 h + \frac{q}{n}}$
+        value: a = ${ - 2 v + \frac{y}{q}}$
       ans2:
-        value: o = ${\frac{9 h n}{q}}$
+        value: a = ${\frac{2 q v}{y}}$
       ans3:
-        value: o = ${\frac{q}{9 h n}}$
+        value: a = ${\frac{y}{2 q v}}$
       ans4:
-        value: o = ${\frac{- 9 h + n}{q}}$
+        value: a = ${\frac{q - 2 v}{y}}$
       ans5:
         value: Don't Know
 ---
