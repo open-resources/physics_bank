@@ -6,6 +6,5 @@ docopt>0.6.1
 PyYAML>5.4
 selenium<4.3
 altair_saver
-problem-bank-scripts
 linkify-it-py
 jupyter-book
