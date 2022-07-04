@@ -139,6 +139,7 @@ parts:
   - file: content/public/004.Kinematics(1D)/Velocity/Label_Velocity_Vs_Time_Graph/Label_Velocity_Vs_Time_Graph
   - file: content/public/004.Kinematics(1D)/Velocity/Choose the correct graph/Choose
       the correct graph
+  - file: content/public/004.Kinematics(1D)/Displacement/Velocity_versus_time_plot/Velocity_versus_time_plot
   - file: content/public/004.Kinematics(1D)/Displacement/Position_From_Graph/Position_From_Graph
   - file: content/public/004.Kinematics(1D)/Displacement/Displacement of a vehicle/Displacement
       of a Vehicle
@@ -153,7 +154,10 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/AIrcraft Carrier/aircraft_carrier
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Velocity of a Falcon/Velocity
       of a Falcon
+  - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Archer Fish and
+      Insect Catch/q02_number-input_AZ_Archer Fish
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/apples_in_truck/apples_in_truck
+  - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Tetherball/tetherball
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Shooting a steel
       ball/Shooting a steel ball
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Horizontal Jump/Horizontal
@@ -192,6 +196,8 @@ parts:
   chapters:
   - file: content/public/006.Force/Newton's Second Law/The Great Conjunction/The Great
       Conjunction
+  - file: content/public/006.Force/Newton's Second Law/Washing Machine Mechanics/q01_AZ_Force
+      Kinetics
   - file: content/public/006.Force/Newton's Second Law/Hockey net across ice/hocket_net_across_ice
   - file: content/public/006.Force/Newton's Second Law/Force_On_An_Object/Force_On_An_Object
   - file: content/public/006.Force/Newton's Second Law/Blocks on a Table/Blocks on
@@ -240,6 +246,7 @@ parts:
   - file: content/public/006.Force/Topic Outcome/Rotating ball/Rotating ball
   - file: content/public/006.Force/Topic Outcome/Turning_Car/Turning_car
   - file: content/public/006.Force/Topic Outcome/ropes_and_blocks/ropes_and_blocks
+  - file: content/public/006.Force/Topic Outcome/A Diver/A Diver
   - file: content/public/006.Force/Topic Outcome/Coefficient_Of_Friction/Coefficient_Of_Friction
   - file: content/public/006.Force/Topic Outcome/Pinball Machine Precursor/Pinball
       Machine Precursor
@@ -251,6 +258,8 @@ parts:
   - file: content/public/006.Force/Drag/Cyclist with a Deathwish/cyclist
   - file: content/public/006.Force/Equilibrium/Two blocks connected by a string/Two
       Blocks Connected by a String
+  - file: content/public/006.Force/Equilibrium/Rod in Static Equilibrium/Rod in Static
+      Equilibrium
   - file: content/public/006.Force/Newton's First Law/Particle travelling with constant
       velocity/Particle travelling with constant velocity
   - file: content/public/006.Force/Newton's First Law/Collision_of_two_carts/Collision_of_two_carts
@@ -268,6 +277,8 @@ parts:
   - file: content/public/007.Momentum and Impulse/2D Collisions/collision_of_carts/collision_of_carts
   - file: content/public/007.Momentum and Impulse/2D Collisions/Perfectly Inelastic
       Collision/Perfectly Inelastic Collision
+  - file: content/public/007.Momentum and Impulse/2D Collisions/Particle Collision/Particle
+      Collision
   - file: content/public/007.Momentum and Impulse/Momentum/Rock_Powered_Rocket/Rock_Powered_Rocket
   - file: content/public/007.Momentum and Impulse/Momentum/Momentum_and_Inertia/Momentum_and_Inertia
   - file: content/public/007.Momentum and Impulse/Momentum/Dinner_Plate/dinner_plate
