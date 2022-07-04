@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $4^{1} $=$ 4$
+    expr: $3^{5} $=$ 243$
     part1:
       ans1:
-        value: $log_44 = 1$
+        value: $log_3243 = 5$
       ans2:
-        value: $log_41 = 4$
+        value: $log_35 = 243$
       ans3:
-        value: $log_41 = 4$
+        value: $log_2435 = 3$
       ans4:
-        value: $log_14 = 4$
+        value: $log_5243 = 3$
       ans5:
         value: Don't Know
 ---

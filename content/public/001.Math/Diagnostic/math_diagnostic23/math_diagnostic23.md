@@ -28,17 +28,17 @@ substitutions:
     vars:
       title: Math Practice 23
     a: 6
-    b: 4
-    formula: $x^{6} \cos{\left(4 x \right)}$
+    b: 2
+    formula: $x^{6} \sin{\left(2 x \right)}$
     part1:
       ans1:
-        value: $- 4 x^{6} \sin{\left(4 x \right)} + 6 x^{5} \cos{\left(4 x \right)}$
+        value: $2 x^{6} \cos{\left(2 x \right)} + 6 x^{5} \sin{\left(2 x \right)}$
       ans2:
-        value: $- 4 x^{6} \sin{\left(4 x \right)} $
+        value: $2 x^{6} \cos{\left(2 x \right)} $
       ans3:
-        value: $ 6 x^{5} \sin{\left(4 x \right)}$
+        value: $ 6 x^{5} \cos{\left(2 x \right)}$
       ans4:
-        value: $4 x^{6} \cos{\left(4 x \right)} + 6 x^{5} \sin{\left(4 x \right)}$
+        value: $- 2 x^{6} \sin{\left(2 x \right)} + 6 x^{5} \cos{\left(2 x \right)}$
       ans5:
         value: Don't Know
 ---

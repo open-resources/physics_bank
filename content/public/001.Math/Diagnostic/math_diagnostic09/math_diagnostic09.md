@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $p$ = $\dfrac{(m)}{(f - 7u)} $
+    expr: $n$ = $\dfrac{(q)}{(o + 9h)} $
     part1:
       ans1:
-        value: f = ${ \frac{m}{p} + 7 u}$
+        value: o = ${ - 9 h + \frac{q}{n}}$
       ans2:
-        value: f = ${- \frac{7 p u}{m}}$
+        value: o = ${\frac{9 h n}{q}}$
       ans3:
-        value: f = ${- \frac{m}{7 p u}}$
+        value: o = ${\frac{q}{9 h n}}$
       ans4:
-        value: f = ${\frac{p + 7 u}{m}}$
+        value: o = ${\frac{- 9 h + n}{q}}$
       ans5:
         value: Don't Know
 ---

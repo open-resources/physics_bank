@@ -31,20 +31,20 @@ substitutions:
   params:
     vars:
       title: Delivering Newspapers
-      name: Ahmed
+      name: Ximena
     part1:
       ans1:
         value: '2'
       ans2:
-        value: '1'
-      ans3:
-        value: '7'
-      ans4:
-        value: '5'
-      ans5:
         value: '6'
-      ans6:
+      ans3:
+        value: '4'
+      ans4:
         value: '3'
+      ans5:
+        value: '5'
+      ans6:
+        value: '7'
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} delivers newspapers by throwing them out of the passenger window of their car, perpendicular to the motion of their car.

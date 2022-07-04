@@ -61,15 +61,15 @@ substitutions:
       name: Ahmed
       unit1: $m/s$
       unit2: $kg/s$
-    m: 5
-    d_m: 55
-    sd: 0.019
-    v1: 0.94
-    v2: 0.93
-    v3: 0.97
-    v4: 0.92
-    v5: 0.91
-    v6: 0.94
+    m: 3
+    d_m: 30
+    sd: 0.085
+    v1: 0.88
+    v2: 0.92
+    v3: 0.73
+    v4: 0.95
+    v5: 0.8
+    v6: 0.74
 ---
 # {{ params.vars.title }}
 In one of the PHYS 111 labs {{ params.vars.name }} measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling through the air.

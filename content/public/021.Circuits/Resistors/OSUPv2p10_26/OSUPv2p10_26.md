@@ -51,9 +51,9 @@ substitutions:
   params:
     vars:
       title: Series and Parallel Resistors
-    R1: '2.10'
-    R2: '3.25'
-    R3: '5.00'
+    R1: '1.60'
+    R2: '4.50'
+    R3: '7.00'
 ---
 # {{ params.vars.title }}
 Consider a ${{{ params.R1 }}}\times{10^{2}} \rm\ \Omega$, a ${{ params.R2 }}\rm\ k \Omega$, and a ${{ params.R3 }}\rm\ k \Omega$ resistor.
