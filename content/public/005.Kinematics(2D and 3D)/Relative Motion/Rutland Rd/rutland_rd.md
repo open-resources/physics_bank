@@ -41,7 +41,7 @@ substitutions:
       title: Rutland Rd
       vehicle: bus
       units: km/h
-    v: 67
+    v: 74
     part2:
       ans1:
         value: North

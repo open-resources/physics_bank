@@ -45,8 +45,8 @@ substitutions:
   params:
     vars:
       title: Camera Flash
-    I: '0.375'
-    L: '3.00'
+    I: '0.225'
+    L: '2.75'
     V: '475'
 ---
 # {{ params.vars.title }}

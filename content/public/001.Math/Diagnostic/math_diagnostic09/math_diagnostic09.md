@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $d$ = $\dfrac{(p)}{(s + 9l)} $
+    expr: $b$ = $\dfrac{(r)}{(u + 7t)} $
     part1:
       ans1:
-        value: s = ${ - 9 l + \frac{p}{d}}$
+        value: u = ${ - 7 t + \frac{r}{b}}$
       ans2:
-        value: s = ${\frac{9 d l}{p}}$
+        value: u = ${\frac{7 b t}{r}}$
       ans3:
-        value: s = ${\frac{p}{9 d l}}$
+        value: u = ${\frac{r}{7 b t}}$
       ans4:
-        value: s = ${\frac{d - 9 l}{p}}$
+        value: u = ${\frac{b - 7 t}{r}}$
       ans5:
         value: Don't Know
 ---
