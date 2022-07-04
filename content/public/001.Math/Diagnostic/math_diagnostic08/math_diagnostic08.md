@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{30x + 35y }{ 5 }$
+    expr: $\dfrac{-72x - 16y }{ -8 }$
     part1:
       ans1:
-        value: $6 x + 7 y$
+        value: $9 x + 2 y$
       ans2:
-        value: $\dfrac{6x + 7y}{5}$
+        value: $\dfrac{9x + 2y}{-8}$
       ans3:
-        value: $7x + 6y$
+        value: $2x + 9y$
       ans4:
-        value: $30x + 35y$
+        value: $-72x + 16y$
       ans5:
         value: Don't know.
 ---

@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $8^{2} $=$ 64$
+    expr: $4^{1} $=$ 4$
     part1:
       ans1:
-        value: $log_864 = 2$
+        value: $log_44 = 1$
       ans2:
-        value: $log_82 = 64$
+        value: $log_41 = 4$
       ans3:
-        value: $log_642 = 8$
+        value: $log_41 = 4$
       ans4:
-        value: $log_264 = 8$
+        value: $log_14 = 4$
       ans5:
         value: Don't Know
 ---

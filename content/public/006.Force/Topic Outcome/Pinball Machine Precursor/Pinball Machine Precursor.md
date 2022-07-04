@@ -58,10 +58,10 @@ substitutions:
   params:
     vars:
       title: Pinball Machine Precursor
-    l_u: 7.06
-    l_c: 5.18
-    rise: 9.1
-    radius: 23
+    l_u: 8.01
+    l_c: 5.93
+    rise: 8.79
+    radius: 22
     m_b: 10.0
     part2:
       ans1:

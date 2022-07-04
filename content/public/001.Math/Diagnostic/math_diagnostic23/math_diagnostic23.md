@@ -27,18 +27,18 @@ substitutions:
   params:
     vars:
       title: Math Practice 23
-    a: 2
-    b: 7
-    formula: $x^{2} \sin{\left(7 x \right)}$
+    a: 6
+    b: 9
+    formula: $x^{6} \sin{\left(9 x \right)}$
     part1:
       ans1:
-        value: $7 x^{2} \cos{\left(7 x \right)} + 2 x \sin{\left(7 x \right)}$
+        value: $9 x^{6} \cos{\left(9 x \right)} + 6 x^{5} \sin{\left(9 x \right)}$
       ans2:
-        value: $7 x^{2} \cos{\left(7 x \right)} $
+        value: $9 x^{6} \cos{\left(9 x \right)} $
       ans3:
-        value: $ 2 x \cos{\left(7 x \right)}$
+        value: $ 6 x^{5} \cos{\left(9 x \right)}$
       ans4:
-        value: $- 7 x^{2} \sin{\left(7 x \right)} + 2 x \cos{\left(7 x \right)}$
+        value: $- 9 x^{6} \sin{\left(9 x \right)} + 6 x^{5} \cos{\left(9 x \right)}$
       ans5:
         value: Don't Know
 ---

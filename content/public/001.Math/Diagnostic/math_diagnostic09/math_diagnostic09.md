@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $q$ = $\dfrac{(y)}{(a + 2v)} $
+    expr: $d$ = $\dfrac{(p)}{(s + 9l)} $
     part1:
       ans1:
-        value: a = ${ - 2 v + \frac{y}{q}}$
+        value: s = ${ - 9 l + \frac{p}{d}}$
       ans2:
-        value: a = ${\frac{2 q v}{y}}$
+        value: s = ${\frac{9 d l}{p}}$
       ans3:
-        value: a = ${\frac{y}{2 q v}}$
+        value: s = ${\frac{p}{9 d l}}$
       ans4:
-        value: a = ${\frac{q - 2 v}{y}}$
+        value: s = ${\frac{d - 9 l}{p}}$
       ans5:
         value: Don't Know
 ---
