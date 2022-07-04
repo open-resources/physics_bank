@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $f$ = $\dfrac{(r)}{(e - 4x)} $
+    expr: $p$ = $\dfrac{(m)}{(f - 7u)} $
     part1:
       ans1:
-        value: e = ${ 4 x + \frac{r}{f}}$
+        value: f = ${ \frac{m}{p} + 7 u}$
       ans2:
-        value: e = ${- \frac{4 f x}{r}}$
+        value: f = ${- \frac{7 p u}{m}}$
       ans3:
-        value: e = ${- \frac{r}{4 f x}}$
+        value: f = ${- \frac{m}{7 p u}}$
       ans4:
-        value: e = ${\frac{f + 4 x}{r}}$
+        value: f = ${\frac{p + 7 u}{m}}$
       ans5:
         value: Don't Know
 ---

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-6x - 24y }{ 3 }$
+    expr: $\dfrac{-42x - 42y }{ 7 }$
     part1:
       ans1:
-        value: $- 2 x - 8 y$
+        value: $- 6 x - 6 y$
       ans2:
-        value: $\dfrac{-2x - 8y}{3}$
+        value: $\dfrac{-6x - 6y}{7}$
       ans3:
-        value: $-8x - 2y$
+        value: $-6x - 6y$
       ans4:
-        value: $-6x - 24y$
+        value: $-42x - 42y$
       ans5:
         value: Don't know.
 ---

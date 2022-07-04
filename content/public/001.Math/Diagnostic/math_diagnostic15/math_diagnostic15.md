@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $3^{6} $=$ 729$
+    expr: $4^{1} $=$ 4$
     part1:
       ans1:
-        value: $log_3729 = 6$
+        value: $log_44 = 1$
       ans2:
-        value: $log_36 = 729$
+        value: $log_41 = 4$
       ans3:
-        value: $log_7296 = 3$
+        value: $log_41 = 4$
       ans4:
-        value: $log_6729 = 3$
+        value: $log_14 = 4$
       ans5:
         value: Don't Know
 ---

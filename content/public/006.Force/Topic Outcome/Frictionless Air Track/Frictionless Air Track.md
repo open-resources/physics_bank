@@ -59,20 +59,20 @@ substitutions:
       title: A Frictionless Air Track?
       name: Emilia
       units: $m/s^2$
-    m1: 425.0
-    m2: 64.01
+    m1: 185.4
+    m2: 69.61
     d_a: 0.01
-    mean: 1.52
-    sd: 0.155
-    a1: 1.42
-    a2: 1.36
-    a3: 1.32
-    a4: 1.55
-    a5: 1.67
-    a6: 1.72
-    a7: 1.58
-    a8: 1.46
-    a9: 1.37
+    mean: 1.54
+    sd: 0.171
+    a1: 1.37
+    a2: 1.72
+    a3: 1.35
+    a4: 1.34
+    a5: 1.55
+    a6: 1.32
+    a7: 1.69
+    a8: 1.65
+    a9: 1.64
     a10: 1.79
     part4:
       ans1:
