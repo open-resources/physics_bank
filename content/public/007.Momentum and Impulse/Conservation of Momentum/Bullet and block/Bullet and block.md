@@ -44,11 +44,11 @@ substitutions:
       name: Ximena
       units1: m/s
       units2: kg
-    m_bullet: 33
-    m_block: 15
-    bullet_v: 709
-    slide_d: 3
-    slide_dnew: 3.1
+    m_bullet: 39
+    m_block: 27
+    bullet_v: 798
+    slide_d: 6
+    slide_dnew: 7.0
     coeff_k: 0.2
 ---
 # {{ params.vars.title }}

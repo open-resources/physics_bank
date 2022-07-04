@@ -41,7 +41,7 @@ substitutions:
   params:
     vars:
       title: Forming helium atoms
-    d: '0.560000'
+    d: '0.670000'
     p: -10
 ---
 # {{ params.vars.title }}

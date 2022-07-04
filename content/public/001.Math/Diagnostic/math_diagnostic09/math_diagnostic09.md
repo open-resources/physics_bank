@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $j$ = $\dfrac{(u)}{(c + 10y)} $
+    expr: $f$ = $\dfrac{(r)}{(u + 4o)} $
     part1:
       ans1:
-        value: c = ${ - 10 y + \frac{u}{j}}$
+        value: u = ${ - 4 o + \frac{r}{f}}$
       ans2:
-        value: c = ${\frac{10 j y}{u}}$
+        value: u = ${\frac{4 f o}{r}}$
       ans3:
-        value: c = ${\frac{u}{10 j y}}$
+        value: u = ${\frac{r}{4 f o}}$
       ans4:
-        value: c = ${\frac{j - 10 y}{u}}$
+        value: u = ${\frac{f - 4 o}{r}}$
       ans5:
         value: Don't Know
 ---
