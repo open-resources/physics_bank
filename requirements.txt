@@ -7,4 +7,4 @@ PyYAML>5.4
 selenium<4.3
 altair_saver
 linkify-it-py
-jupyter-book
+problem_bank_scripts
