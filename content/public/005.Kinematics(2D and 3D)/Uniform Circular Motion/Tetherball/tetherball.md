@@ -23,7 +23,8 @@ length:
 tags:
 - APSC181
 - PJ
-assets: null
+assets:
+- Tetherball.png
 part1:
   type: number-input
   pl-customizations:
@@ -47,11 +48,13 @@ substitutions:
       units:
         part1: "$\theta$"
         part2: /s
-    v: 23
-    L: 6
+    v: 13
+    L: 8
 ---
 # {{ params.vars.title }}
 Two friends are playing tetherball. The ball is tethered to a pole by a rope of length L. The first player serves with a velocity $v$ = {{params.v}}.
+
+<img src="Tetherball.png" width=500 alt="A ball attached to a pole via rope angled theta degrees." >
 
 ## Part 1
 

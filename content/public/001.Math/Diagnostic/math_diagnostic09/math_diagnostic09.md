@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $j$ = $\dfrac{(c)}{(v - 4f)} $
+    expr: $c$ = $\dfrac{(h)}{(b + 10d)} $
     part1:
       ans1:
-        value: v = ${ \frac{c}{j} + 4 f}$
+        value: b = ${ - 10 d + \frac{h}{c}}$
       ans2:
-        value: v = ${- \frac{4 f j}{c}}$
+        value: b = ${\frac{10 c d}{h}}$
       ans3:
-        value: v = ${- \frac{c}{4 f j}}$
+        value: b = ${\frac{h}{10 c d}}$
       ans4:
-        value: v = ${\frac{4 f + j}{c}}$
+        value: b = ${\frac{c - 10 d}{h}}$
       ans5:
         value: Don't Know
 ---

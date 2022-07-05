@@ -37,11 +37,11 @@ substitutions:
         feedback: Consider whether velocity is directly proportional to force! If
           not, what is?
       ans2:
-        value: "$F_{yr} = \frac{1}{2} F_{fr}$"
+        value: $F_{yr} = \dfrac{1}{2} F_{fr}$
         feedback: Consider whether velocity is directly proportional to force! If
           not, what is?
       ans3:
-        value: "$F_{yr} = F_{fr} \neq 0$"
+        value: $F_{yr} = F_{fr} \neq 0$
         feedback: Great job! You got it!
       ans4:
         value: $F_{yr} = 0, F_{fr} = 0$

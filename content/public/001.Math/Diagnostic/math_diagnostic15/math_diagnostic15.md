@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $9^{7} $=$ 4782969$
+    expr: $9^{2} $=$ 81$
     part1:
       ans1:
-        value: $log_94782969 = 7$
+        value: $log_981 = 2$
       ans2:
-        value: $log_97 = 4782969$
+        value: $log_92 = 81$
       ans3:
-        value: $log_47829697 = 9$
+        value: $log_812 = 9$
       ans4:
-        value: $log_74782969 = 9$
+        value: $log_281 = 9$
       ans5:
         value: Don't Know
 ---

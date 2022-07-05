@@ -31,28 +31,28 @@ substitutions:
     vars:
       title: Particle Collision
     choice: total
-    m1: 4
-    m2: 1
-    v1: 12
-    v2: 8
+    m1: 9
+    m2: 8
+    v1: 4
+    v2: 5
     part1:
       ans1:
-        value: 48 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 8 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+        value: 36 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 40 $kg$ $\dfrac{m}{s}\hat{\jmath}$
         feedback: Great! You got it.
       ans2:
-        value: 8 $kg$ $\dfrac{m}{s}\hat{\imath}$
+        value: 40 $kg$ $\dfrac{m}{s}\hat{\imath}$
         feedback: Hmm... Try again.
       ans3:
-        value: 8 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+        value: 40 $kg$ $\dfrac{m}{s}\hat{\jmath}$
         feedback: Careful! Both components are asked for.
       ans4:
-        value: 8 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 48 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+        value: 40 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 36 $kg$ $\dfrac{m}{s}\hat{\jmath}$
         feedback: Hmm... Try again.
       ans5:
-        value: 48 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+        value: 36 $kg$ $\dfrac{m}{s}\hat{\jmath}$
         feedback: Hmm... Try again.
       ans6:
-        value: 48 $kg$ $\dfrac{m}{s}\hat{\imath}$
+        value: 36 $kg$ $\dfrac{m}{s}\hat{\imath}$
         feedback: Careful! Both components are asked for.
 ---
 # {{ params.vars.title }}
