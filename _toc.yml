@@ -182,6 +182,8 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Slanted Table/slanted_table
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Cat in a Laundry
       Basket/Cat in a Laundry Basket
+  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Nuts to You/Nuts
+      To You
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/jump_across_stream/jump_across_stream
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Rocket/Rocket
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Magnitude of a particle
