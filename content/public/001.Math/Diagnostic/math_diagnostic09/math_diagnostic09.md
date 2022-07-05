@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $o$ = $\dfrac{(i)}{(l - 3d)} $
+    expr: $r$ = $\dfrac{(k)}{(b - 7a)} $
     part1:
       ans1:
-        value: l = ${ 3 d + \frac{i}{o}}$
+        value: b = ${ 7 a + \frac{k}{r}}$
       ans2:
-        value: l = ${- \frac{3 d o}{i}}$
+        value: b = ${- \frac{7 a r}{k}}$
       ans3:
-        value: l = ${- \frac{i}{3 d o}}$
+        value: b = ${- \frac{k}{7 a r}}$
       ans4:
-        value: l = ${\frac{3 d + o}{i}}$
+        value: b = ${\frac{7 a + r}{k}}$
       ans5:
         value: Don't Know
 ---

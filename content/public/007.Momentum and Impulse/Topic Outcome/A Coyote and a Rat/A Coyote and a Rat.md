@@ -108,12 +108,12 @@ substitutions:
   params:
     vars:
       title: A Coyote and a Rat
-    m_c: 11
-    m_r: 3
-    d_b: 50
-    d_c: 28
+    m_c: 9
+    m_r: 2
+    d_b: 41
+    d_c: 32
     v_r: 7
-    a_c: 7
+    a_c: 6
     mu_k: 2.34
     part10:
       ans1:

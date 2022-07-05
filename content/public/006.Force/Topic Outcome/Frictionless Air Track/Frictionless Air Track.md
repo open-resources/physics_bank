@@ -59,21 +59,21 @@ substitutions:
       title: A Frictionless Air Track?
       name: Lorenzo
       units: $m/s^2$
-    m1: 267.3
-    m2: 45.35
-    d_a: 0.03
-    mean: 1.59
-    sd: 0.139
-    a1: 1.42
-    a2: 1.55
-    a3: 1.51
-    a4: 1.69
-    a5: 1.33
-    a6: 1.55
-    a7: 1.62
-    a8: 1.75
-    a9: 1.75
-    a10: 1.75
+    m1: 417.6
+    m2: 56.61
+    d_a: 0.02
+    mean: 1.55
+    sd: 0.141
+    a1: 1.47
+    a2: 1.67
+    a3: 1.42
+    a4: 1.5
+    a5: 1.78
+    a6: 1.7
+    a7: 1.4
+    a8: 1.7
+    a9: 1.4
+    a10: 1.43
     part4:
       ans1:
         value: The track is frictionless because $a_{expected}$ does not agree with

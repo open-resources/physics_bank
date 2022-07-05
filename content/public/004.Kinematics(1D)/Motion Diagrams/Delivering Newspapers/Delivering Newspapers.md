@@ -38,11 +38,11 @@ substitutions:
       ans2:
         value: '5'
       ans3:
-        value: '4'
+        value: '3'
       ans4:
         value: '6'
       ans5:
-        value: '7'
+        value: '4'
       ans6:
         value: '1'
 ---

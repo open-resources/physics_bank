@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{21x - 27y }{ 3 }$
+    expr: $\dfrac{-20x - 10y }{ 5 }$
     part1:
       ans1:
-        value: $7 x - 9 y$
+        value: $- 4 x - 2 y$
       ans2:
-        value: $\dfrac{7x - 9y}{3}$
+        value: $\dfrac{-4x - 2y}{5}$
       ans3:
-        value: $-9x + 7y$
+        value: $-2x - 4y$
       ans4:
-        value: $21x - 27y$
+        value: $-20x - 10y$
       ans5:
         value: Don't know.
 ---

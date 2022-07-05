@@ -117,8 +117,8 @@ substitutions:
   params:
     vars:
       title: Battery and Resistors
-    V: '47.0'
-    R1: '23.0'
+    V: '60.0'
+    R1: '26.0'
     R2: '76.0'
 ---
 # {{ params.vars.title }}
