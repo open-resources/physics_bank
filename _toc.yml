@@ -204,6 +204,7 @@ parts:
       a Table
   - file: content/public/006.Force/Newton's Second Law/Broken-down Cruise Ship/Broken-down
       Cruise Ship
+  - file: content/public/006.Force/Newton's Second Law/fridge_force_comparison/fridge_force_comparison
   - file: content/public/006.Force/Free Body Diagrams/Ball Rolling in Pipe/ball_rolling_in_pipe
   - file: content/public/006.Force/Free Body Diagrams/pulley_on_truck/pulley_on_truck
   - file: content/public/006.Force/Free Body Diagrams/Accelerating Elevator/Accelerating
