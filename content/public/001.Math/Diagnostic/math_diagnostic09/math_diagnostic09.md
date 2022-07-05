@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $f$ = $\dfrac{(r)}{(u + 4o)} $
+    expr: $o$ = $\dfrac{(i)}{(l - 3d)} $
     part1:
       ans1:
-        value: u = ${ - 4 o + \frac{r}{f}}$
+        value: l = ${ 3 d + \frac{i}{o}}$
       ans2:
-        value: u = ${\frac{4 f o}{r}}$
+        value: l = ${- \frac{3 d o}{i}}$
       ans3:
-        value: u = ${\frac{r}{4 f o}}$
+        value: l = ${- \frac{i}{3 d o}}$
       ans4:
-        value: u = ${\frac{f - 4 o}{r}}$
+        value: l = ${\frac{3 d + o}{i}}$
       ans5:
         value: Don't Know
 ---

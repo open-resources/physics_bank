@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $8^{7} $=$ 2097152$
+    expr: $4^{7} $=$ 16384$
     part1:
       ans1:
-        value: $log_82097152 = 7$
+        value: $log_416384 = 7$
       ans2:
-        value: $log_87 = 2097152$
+        value: $log_47 = 16384$
       ans3:
-        value: $log_20971527 = 8$
+        value: $log_163847 = 4$
       ans4:
-        value: $log_72097152 = 8$
+        value: $log_716384 = 4$
       ans5:
         value: Don't Know
 ---

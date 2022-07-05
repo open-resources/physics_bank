@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{6x - 16y }{ -2 }$
+    expr: $\dfrac{21x - 27y }{ 3 }$
     part1:
       ans1:
-        value: $- 3 x + 8 y$
+        value: $7 x - 9 y$
       ans2:
-        value: $\dfrac{-3x + 8y}{-2}$
+        value: $\dfrac{7x - 9y}{3}$
       ans3:
-        value: $8x - 3y$
+        value: $-9x + 7y$
       ans4:
-        value: $6x + 16y$
+        value: $21x - 27y$
       ans5:
         value: Don't know.
 ---

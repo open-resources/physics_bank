@@ -31,7 +31,7 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 1x + -5 > -7x + 4
+      formula: 1x + -3 > -7x + 6
     part1:
       ans1:
         value: x > 9/8
