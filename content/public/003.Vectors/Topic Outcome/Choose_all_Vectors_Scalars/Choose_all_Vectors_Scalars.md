@@ -35,17 +35,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Distance travelled
+        value: Power
       ans2:
         value: Mass
       ans3:
-        value: Temperature
+        value: Volume
       ans4:
-        value: Pressure
+        value: Momentum
       ans5:
-        value: Force
+        value: velocity
       ans6:
-        value: Acceleration
+        value: Lift
 ---
 # {{ params.vars.title }}
 

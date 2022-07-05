@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $r$ = $\dfrac{(k)}{(b - 7a)} $
+    expr: $j$ = $\dfrac{(c)}{(v - 4f)} $
     part1:
       ans1:
-        value: b = ${ 7 a + \frac{k}{r}}$
+        value: v = ${ \frac{c}{j} + 4 f}$
       ans2:
-        value: b = ${- \frac{7 a r}{k}}$
+        value: v = ${- \frac{4 f j}{c}}$
       ans3:
-        value: b = ${- \frac{k}{7 a r}}$
+        value: v = ${- \frac{c}{4 f j}}$
       ans4:
-        value: b = ${\frac{7 a + r}{k}}$
+        value: v = ${\frac{4 f + j}{c}}$
       ans5:
         value: Don't Know
 ---
