@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $c$ = $\dfrac{(h)}{(b + 10d)} $
+    expr: $p$ = $\dfrac{(a)}{(v + 6q)} $
     part1:
       ans1:
-        value: b = ${ - 10 d + \frac{h}{c}}$
+        value: v = ${ \frac{a}{p} - 6 q}$
       ans2:
-        value: b = ${\frac{10 c d}{h}}$
+        value: v = ${\frac{6 p q}{a}}$
       ans3:
-        value: b = ${\frac{h}{10 c d}}$
+        value: v = ${\frac{a}{6 p q}}$
       ans4:
-        value: b = ${\frac{c - 10 d}{h}}$
+        value: v = ${\frac{p - 6 q}{a}}$
       ans5:
         value: Don't Know
 ---

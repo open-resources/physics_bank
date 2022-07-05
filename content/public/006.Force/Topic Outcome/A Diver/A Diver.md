@@ -49,9 +49,9 @@ substitutions:
       title: A Diver
       unit1: $N$
       unit2: degrees
-    m: 87.8
-    L: 5.05
-    d: 1.7
+    m: 63.2
+    L: 2.47
+    d: 1.14
 ---
 # {{ params.vars.title }}
 A $M = $ {{ params.m }} $kg$ diver stands at the edge of a diving board with length $L = $ {{ params.L }} $m$ and negligible mass. The diving board is supported by two narrow pillars. One pillar is located at the end of the diving board furthest from the water and the other is $d = $ {{ params.d }} $m$ towards the water, as shown in the figure.

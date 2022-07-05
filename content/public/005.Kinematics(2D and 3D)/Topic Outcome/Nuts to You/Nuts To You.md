@@ -79,8 +79,8 @@ substitutions:
   params:
     vars:
       title: Nuts To You
-    vi_hawk: 3.31
-    h_Jed: 14.0
+    vi_hawk: 4.49
+    h_Jed: 14.7
     part3:
       ans1:
         value: Jed maintains the $x$-component of their velocity. ($a_x = 0 \; m/s^2$)

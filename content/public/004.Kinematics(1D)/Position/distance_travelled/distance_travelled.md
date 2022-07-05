@@ -29,8 +29,8 @@ part1:
 substitutions:
   params:
     vars:
-      name: Ximena
-      vehicle: ice skates
+      name: Ahmed
+      vehicle: a skateboard
       units: m
       title: Distance travelled
     v: 7

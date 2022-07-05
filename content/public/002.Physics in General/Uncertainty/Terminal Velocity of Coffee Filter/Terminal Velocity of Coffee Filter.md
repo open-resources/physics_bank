@@ -61,15 +61,15 @@ substitutions:
       name: Savannah
       unit1: $m/s$
       unit2: $kg/s$
-    m: 4
-    d_m: 34
-    sd: 0.082
-    v1: 0.71
-    v2: 0.87
-    v3: 0.72
+    m: 1
+    d_m: 59
+    sd: 0.061
+    v1: 0.97
+    v2: 0.93
+    v3: 0.94
     v4: 0.87
-    v5: 0.92
-    v6: 0.88
+    v5: 0.99
+    v6: 0.81
 ---
 # {{ params.vars.title }}
 In one of the PHYS 111 labs {{ params.vars.name }} measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling through the air.
