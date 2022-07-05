@@ -408,10 +408,18 @@ parts:
   chapters:
   - file: content/public/015.Oscillations/Simple Harmonic Motion/frequency_graph/frequency_graph
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Maximum_In_Simple_Harmonic_Motion/Maximum_In_Simple_Harmonic_Motion
+  - file: content/public/015.Oscillations/Simple Harmonic Motion/Displacement From
+      Equilibrium 2/displacement_from_equilibrium_3
+  - file: content/public/015.Oscillations/Simple Harmonic Motion/DIsplacement From
+      Equilibrium 3/displacement_from_equilibrium_4to5
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Displacement and
       Potential Energy of an Oscillator/Displacement and Potential Energy of an Oscillator
+  - file: content/public/015.Oscillations/Simple Harmonic Motion/Displacement From
+      Equilibrium 4/displacement_from_equilibrium_6to7
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Maximum Speed of
       a Pendulum/Maximum Speed of a Pendulum
+  - file: content/public/015.Oscillations/Simple Harmonic Motion/Displacement from
+      Equilibrium 1/displacement_from_equlibrium_1to2
   - file: content/public/015.Oscillations/Simple Harmonic Motion/spring_oscillations/spring_oscillations
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Bouncing a baby to
       sleep/Bouncing a baby to sleep
