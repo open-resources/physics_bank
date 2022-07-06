@@ -53,7 +53,7 @@ part4:
 substitutions:
   params:
     vars:
-      name: Mateo
+      name: Lorenzo
       title: Motion of watermelon
       units1: ${m/s}^2$
       units2: $s$

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $p$ = $\dfrac{(a)}{(v + 6q)} $
+    expr: $p$ = $\dfrac{(a)}{(g + 9f)} $
     part1:
       ans1:
-        value: v = ${ \frac{a}{p} - 6 q}$
+        value: g = ${ \frac{a}{p} - 9 f}$
       ans2:
-        value: v = ${\frac{6 p q}{a}}$
+        value: g = ${\frac{9 f p}{a}}$
       ans3:
-        value: v = ${\frac{a}{6 p q}}$
+        value: g = ${\frac{a}{9 f p}}$
       ans4:
-        value: v = ${\frac{p - 6 q}{a}}$
+        value: g = ${\frac{- 9 f + p}{a}}$
       ans5:
         value: Don't Know
 ---

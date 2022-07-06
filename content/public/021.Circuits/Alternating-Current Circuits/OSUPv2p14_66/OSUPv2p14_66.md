@@ -60,8 +60,8 @@ substitutions:
     vars:
       title: Frequency and Voltage of an LC Circuit
     L: '48.0'
-    C: '4.5'
-    V: '47.0'
+    C: '2.0'
+    V: '45.0'
 ---
 # {{ params.vars.title }}
 The self-inductance and capacitance of an oscillating $LC$ circuit are $L = {{ params.L }}\rm\ mH$ and $C = {{ params.C }}\rm\ \mu F$, respectively.

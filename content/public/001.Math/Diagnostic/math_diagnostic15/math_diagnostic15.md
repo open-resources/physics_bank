@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $5^{7} $=$ 78125$
+    expr: $9^{3} $=$ 729$
     part1:
       ans1:
-        value: $log_578125 = 7$
+        value: $log_9729 = 3$
       ans2:
-        value: $log_57 = 78125$
+        value: $log_93 = 729$
       ans3:
-        value: $log_781257 = 5$
+        value: $log_7293 = 9$
       ans4:
-        value: $log_778125 = 5$
+        value: $log_3729 = 9$
       ans5:
         value: Don't Know
 ---
