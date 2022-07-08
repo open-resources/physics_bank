@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{-30x + 18y }{ -6 }$
+    expr: $\dfrac{-16x + 16y }{ 2 }$
     part1:
       ans1:
-        value: $5 x - 3 y$
+        value: $- 8 x + 8 y$
       ans2:
-        value: $\dfrac{5x - 3y}{-6}$
+        value: $\dfrac{-8x + 8y}{2}$
       ans3:
-        value: $-3x + 5y$
+        value: $8x - 8y$
       ans4:
-        value: $-30x - 18y$
+        value: $-16x + 16y$
       ans5:
         value: Don't know.
 ---

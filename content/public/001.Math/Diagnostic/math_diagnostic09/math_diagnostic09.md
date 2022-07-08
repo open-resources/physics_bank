@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $p$ = $\dfrac{(a)}{(g + 9f)} $
+    expr: $z$ = $\dfrac{(j)}{(g - 2r)} $
     part1:
       ans1:
-        value: g = ${ \frac{a}{p} - 9 f}$
+        value: g = ${ \frac{j}{z} + 2 r}$
       ans2:
-        value: g = ${\frac{9 f p}{a}}$
+        value: g = ${- \frac{2 r z}{j}}$
       ans3:
-        value: g = ${\frac{a}{9 f p}}$
+        value: g = ${- \frac{j}{2 r z}}$
       ans4:
-        value: g = ${\frac{- 9 f + p}{a}}$
+        value: g = ${\frac{2 r + z}{j}}$
       ans5:
         value: Don't Know
 ---

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic 6
-    eq: $\dfrac{x-2}{x+6}$ = $ \dfrac{x+5}{x-1}$
+    eq: $\dfrac{x-8}{x+9}$ = $ \dfrac{x+2}{x-6}$
     part1:
       ans1:
-        value: 2/7
+        value: -38/25
       ans2:
-        value: 1/2
+        value: 12/5
       ans3:
-        value: '2'
+        value: -38/9
       ans4:
-        value: -1/2
+        value: -12/5
 ---
 # {{ params.vars.title }}
 

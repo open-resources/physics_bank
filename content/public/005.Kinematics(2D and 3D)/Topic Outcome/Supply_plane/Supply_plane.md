@@ -66,7 +66,7 @@ substitutions:
       units2: $m/s^2 \ \ \hat\jmath$
       units3: $m/s \ \ \hat\imath$
       units4: $m/s \ \ \hat\jmath$
-    h: 80
+    h: 70
     s: 100
     vert: 50
 ---
