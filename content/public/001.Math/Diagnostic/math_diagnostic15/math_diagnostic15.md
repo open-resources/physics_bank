@@ -27,16 +27,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $2^{6} $=$ 64$
+    expr: $3^{6} $=$ 729$
     part1:
       ans1:
-        value: $log_264 = 6$
+        value: $log_3729 = 6$
       ans2:
-        value: $log_26 = 64$
+        value: $log_36 = 729$
       ans3:
-        value: $log_646 = 2$
+        value: $log_7296 = 3$
       ans4:
-        value: $log_664 = 2$
+        value: $log_6729 = 3$
       ans5:
         value: Don't Know
 ---

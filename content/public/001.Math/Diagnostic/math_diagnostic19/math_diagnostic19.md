@@ -30,16 +30,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin338$
+    a: $ \sin210$
     part1:
       ans1:
-        value: $\sin{-22}$
+        value: $\sin{-150}$
       ans2:
-        value: $\sin{22}$
+        value: $\sin{150}$
       ans3:
-        value: $\sin{-158}$
+        value: $\sin{-30}$
       ans4:
-        value: $\sin{158}$
+        value: $\sin{30}$
       ans5:
         value: Don't Know
 ---

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $z$ = $\dfrac{(j)}{(g - 2r)} $
+    expr: $u$ = $\dfrac{(l)}{(v - 9w)} $
     part1:
       ans1:
-        value: g = ${ \frac{j}{z} + 2 r}$
+        value: v = ${ \frac{l}{u} + 9 w}$
       ans2:
-        value: g = ${- \frac{2 r z}{j}}$
+        value: v = ${- \frac{9 u w}{l}}$
       ans3:
-        value: g = ${- \frac{j}{2 r z}}$
+        value: v = ${- \frac{l}{9 u w}}$
       ans4:
-        value: g = ${\frac{2 r + z}{j}}$
+        value: v = ${\frac{u + 9 w}{l}}$
       ans5:
         value: Don't Know
 ---

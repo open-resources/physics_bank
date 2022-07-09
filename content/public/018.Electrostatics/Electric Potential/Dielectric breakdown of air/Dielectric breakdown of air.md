@@ -45,7 +45,7 @@ substitutions:
   params:
     vars:
       title: Dielectric breakdown of air
-    V: '5600'
+    V: '4200'
 ---
 # {{ params.vars.title }}
 The electric field strength that causes the breakdown of dry air is $3.00\times 10^6\rm\ V/m$.
