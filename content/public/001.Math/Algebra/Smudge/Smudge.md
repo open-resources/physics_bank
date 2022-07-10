@@ -1,5 +1,5 @@
 ---
-title: Smudge
+title: Smudge1
 topic: Math
 author: John Hopkinson
 source: PHYS 112 2015W Group Problem Solving II Q1

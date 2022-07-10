@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $n$ = $\dfrac{(k)}{(j - 5s)} $
+    expr: $p$ = $\dfrac{(h)}{(o + 7k)} $
     part1:
       ans1:
-        value: j = ${ \frac{k}{n} + 5 s}$
+        value: o = ${ \frac{h}{p} - 7 k}$
       ans2:
-        value: j = ${- \frac{5 n s}{k}}$
+        value: o = ${\frac{7 k p}{h}}$
       ans3:
-        value: j = ${- \frac{k}{5 n s}}$
+        value: o = ${\frac{h}{7 k p}}$
       ans4:
-        value: j = ${\frac{n + 5 s}{k}}$
+        value: o = ${\frac{- 7 k + p}{h}}$
       ans5:
         value: Don't Know
 ---

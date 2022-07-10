@@ -30,17 +30,17 @@ substitutions:
   params:
     vars:
       title: Math Practice Q22
-    denom: 8
-    formula: $\sin{\left(\frac{x}{8} \right)}$
+    denom: 9
+    formula: $\cos{\left(\frac{x}{9} \right)}$
     part1:
       ans1:
-        value: ${- 8 \cos{\left(\frac{x}{8} \right)}}$
+        value: ${9 \sin{\left(\frac{x}{9} \right)}}$
       ans2:
-        value: ${8 \cos{\left(\frac{x}{8} \right)}}$
+        value: ${- 9 \sin{\left(\frac{x}{9} \right)}}$
       ans3:
-        value: ${- 16 \cos{\left(\frac{x}{8} \right)}}$
+        value: ${18 \sin{\left(\frac{x}{9} \right)}}$
       ans4:
-        value: ${- 4 \cos{\left(\frac{x}{8} \right)}}$
+        value: ${\frac{9 \sin{\left(\frac{x}{9} \right)}}{2}}$
 ---
 # {{ params.vars.title }}
 

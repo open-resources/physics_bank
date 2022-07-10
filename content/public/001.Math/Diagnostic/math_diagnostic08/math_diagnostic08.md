@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{30x + 10y }{ 5 }$
+    expr: $\dfrac{48x + 56y }{ -8 }$
     part1:
       ans1:
-        value: $6 x + 2 y$
+        value: $- 6 x - 7 y$
       ans2:
-        value: $\dfrac{6x + 2y}{5}$
+        value: $\dfrac{-6x - 7y}{-8}$
       ans3:
-        value: $2x + 6y$
+        value: $-7x - 6y$
       ans4:
-        value: $30x + 10y$
+        value: $48x - 56y$
       ans5:
         value: Don't know.
 ---
