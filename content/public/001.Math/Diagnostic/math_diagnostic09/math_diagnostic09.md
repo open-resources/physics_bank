@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $i$ = $\dfrac{(a)}{(x - 10v)} $
+    expr: $n$ = $\dfrac{(k)}{(j - 5s)} $
     part1:
       ans1:
-        value: x = ${ \frac{a}{i} + 10 v}$
+        value: j = ${ \frac{k}{n} + 5 s}$
       ans2:
-        value: x = ${- \frac{10 i v}{a}}$
+        value: j = ${- \frac{5 n s}{k}}$
       ans3:
-        value: x = ${- \frac{a}{10 i v}}$
+        value: j = ${- \frac{k}{5 n s}}$
       ans4:
-        value: x = ${\frac{i + 10 v}{a}}$
+        value: j = ${\frac{n + 5 s}{k}}$
       ans5:
         value: Don't Know
 ---
