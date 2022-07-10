@@ -5,6 +5,7 @@ author: Jake Bobowksi
 source: 2.12.23
 template_version: 1.0
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - 19.2.4.1
 difficulty:
@@ -39,8 +40,8 @@ substitutions:
   params:
     vars:
       title: Long thin wire
-    B: '9.0'
-    d: '62'
+    B: '1.2'
+    d: '48'
 ---
 # {{ params.vars.title }}
 The magnitude of the megnetic field ${{ params.d }}\rm\ cm$ from a long, thin straight wire is ${{ params.B }}\rm\ \mu T$.

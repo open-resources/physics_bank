@@ -5,6 +5,7 @@ author: Jake Bobowski
 source: 2.12.30
 template_version: 1.1
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - 19.3.3.2
 - 19.3.3.4
@@ -48,9 +49,9 @@ substitutions:
   params:
     vars:
       title: Force between parallel currents
-    d: '26.0'
-    I: '76.0'
-    txt: the same direction
+    d: '32.0'
+    I: '62.0'
+    txt: opposite directions
     part2:
       ans1:
         value: Attract

@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 19.8.1.0
 difficulty:
@@ -41,11 +42,11 @@ substitutions:
   params:
     vars:
       title: Coil Encircling Solenoid
-    n: '19'
-    A: '9'
-    I: '0.50'
-    N: '7'
-    t: '0.04'
+    n: '13'
+    A: '7'
+    I: '1.00'
+    N: '5'
+    t: '0.06'
 ---
 # {{ params.vars.title }}
 

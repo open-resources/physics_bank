@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - null
 difficulty:
@@ -31,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic 6
-    eq: $\dfrac{x-5}{x+2}$ = $ \dfrac{x+1}{x-8}$
+    eq: $\dfrac{x-7}{x+5}$ = $ \dfrac{x+8}{x-3}$
     part1:
       ans1:
-        value: -11/16
+        value: 41/23
       ans2:
-        value: 1/8
+        value: 11/23
       ans3:
-        value: 11/2
+        value: '41'
       ans4:
-        value: -1/8
+        value: -11/23
 ---
 # {{ params.vars.title }}
 

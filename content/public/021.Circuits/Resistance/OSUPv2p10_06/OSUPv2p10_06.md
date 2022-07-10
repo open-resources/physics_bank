@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.8.2.0
 - 21.8.3.0
@@ -32,9 +33,9 @@ substitutions:
   params:
     vars:
       title: Resistors in a Lab
-      name: Maya
-    have: smaller
-    want: larger
+      name: Savannah
+    have: larger
+    want: smaller
     part1:
       ans1:
         value: Connect multiple resistors in parallel

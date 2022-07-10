@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 5.6.2.0
 difficulty:

@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 4.1.1.1
 - 4.9.1.0
@@ -31,25 +32,25 @@ substitutions:
   params:
     vars:
       title: Vehicle Crash
-      name: Santiago
-      vehicle_1: truck
-      vehicle_2: pickup truck
-    dist: 3.0
-    v: 34.8
-    acc: 12.4
+      name: Maya
+      vehicle_1: van
+      vehicle_2: car
+    dist: 2.01
+    v: 33.2
+    acc: 11.7
     s_1: 0.3
-    s_2: 1.342
+    s_2: 1.196
     part1:
       ans1:
-        value: 21.88 $m/s$
+        value: 22.72 $m/s$
       ans2:
-        value: 18.16 $m/s$
+        value: 19.21 $m/s$
       ans3:
-        value: 31.08 $m/s$
+        value: 29.69 $m/s$
       ans4:
-        value: 14.44 $m/s$
+        value: 15.7 $m/s$
       ans5:
-        value: 34.8 $m/s$
+        value: 33.2 $m/s$
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is following {{params.dist}} $m$ behind a {{params.vars.vehicle_1}} when it suddenly brakes with an acceleration of -{{params.acc}} $m/s^2$.

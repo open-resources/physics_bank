@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.14.4.0
 difficulty:
@@ -59,9 +60,9 @@ substitutions:
   params:
     vars:
       title: Frequency and Voltage of an LC Circuit
-    L: '22.0'
-    C: '1.0'
-    V: '41.0'
+    L: '36.0'
+    C: '2.5'
+    V: '60.0'
 ---
 # {{ params.vars.title }}
 The self-inductance and capacitance of an oscillating $LC$ circuit are $L = {{ params.L }}\rm\ mH$ and $C = {{ params.C }}\rm\ \mu F$, respectively.

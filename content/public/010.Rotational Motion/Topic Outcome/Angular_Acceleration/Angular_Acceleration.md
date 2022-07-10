@@ -5,6 +5,7 @@ author: John Hopkinson
 source: PHYS 112 2015 W1 Final Q9
 template_version: 1.2
 attribution: standard
+showCorrectAnswer: false
 outcomes:
 - 5.7.2.1
 difficulty:
@@ -29,17 +30,17 @@ substitutions:
     vars:
       title: Angular Acceleration
     v_1: 7
-    v_2: 12
-    t: 4
+    v_2: 11
+    t: 8
     part1:
       ans1:
-        value: 1.3 $rad/s^2$
+        value: 0.5 $rad/s^2$
       ans2:
-        value: 1.3 $m/s^2$
+        value: 0.5 $m/s^2$
       ans3:
-        value: -1.3 $rad/s^2$
+        value: -0.5 $rad/s^2$
       ans4:
-        value: -1.3 $m/s^2$
+        value: -0.5 $m/s^2$
       ans5:
         value: 10 $rad/s^2$
 ---

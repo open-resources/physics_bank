@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.8.2.0
 difficulty:
@@ -36,9 +37,9 @@ substitutions:
   params:
     vars:
       title: Battery Internal Resistance
-    x: 4
-    N: 5
-    V_string: '9.75'
+    x: 3
+    N: 2
+    V_string: '8.25'
 ---
 # {{ params.vars.title }}
 A battery with an internal resistance of $r$ and an emf of {{ params.V_string }}$\textrm{ V}$ is connected to a load resistor $R =$ {{ params.N }}$r$ and current $I_0$ flows.

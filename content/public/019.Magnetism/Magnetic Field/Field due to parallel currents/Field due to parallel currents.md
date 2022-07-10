@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 19.2.4.1
 - 19.2.4.5
@@ -52,10 +53,10 @@ substitutions:
   params:
     vars:
       title: Field due to parallel currents
-    I1: '17.5'
-    I2: '12.5'
-    r1: '15.0'
-    r2: '5.0'
+    I1: '20.0'
+    I2: '15.0'
+    r1: '5.0'
+    r2: '15.0'
     part2:
       ans1:
         value: Out of the screen.

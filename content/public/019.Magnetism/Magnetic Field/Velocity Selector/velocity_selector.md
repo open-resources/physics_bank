@@ -5,6 +5,7 @@ author: Vanshika Sharma
 source: 2.11.50
 template_version: 1.2
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - 19.5.1.0
 - 19.3.2.0
@@ -40,8 +41,8 @@ substitutions:
   params:
     vars:
       title: Velocity Selector
-    B: 0.934
-    E: 2.856
+    B: 0.846
+    E: 2.861
 ---
 # {{ params.vars.title }}
 

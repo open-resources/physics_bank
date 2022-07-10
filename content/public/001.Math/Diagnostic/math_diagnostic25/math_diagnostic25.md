@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes: null
 difficulty:
 - undefined
@@ -30,14 +31,14 @@ substitutions:
   params:
     vars:
       title: Math Practice Q25
-    expr: $\dfrac{ 8-e^{(-5x)}}{1-x}$
+    expr: $\dfrac{ 8-e^{(-8x)}}{6-x}$
     part1:
       ans1:
-        value: '7'
+        value: 7/6
       ans2:
         value: Negative Infinity
       ans3:
-        value: 8.0
+        value: 1.3333333333333333
       ans4:
         value: 8
       ans5:

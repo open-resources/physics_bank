@@ -5,6 +5,7 @@ author: Jake Bobowski
 source: 2015 Midterm 2 Q1
 template_version: 1.2
 attribution: standard
+showCorrectAnswer: false
 outcomes:
 - 7.3.1.2
 - 7.5.1.3

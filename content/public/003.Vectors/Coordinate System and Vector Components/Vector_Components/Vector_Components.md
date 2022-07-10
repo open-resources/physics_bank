@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol1
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 3.5.1.3
 difficulty:

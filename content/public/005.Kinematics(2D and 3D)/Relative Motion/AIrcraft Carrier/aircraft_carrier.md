@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 5.8.1.3
 difficulty:
@@ -34,8 +35,8 @@ substitutions:
   params:
     vars:
       title: Aircraft Carrier
-    va: 207
-    vb: 193
+    va: 166
+    vb: 294
 ---
 # {{ params.vars.title }}
 Plane A takes off with a velocity of $\vec{v_A}$ = ({{ params.va }} $km/h$)$\hat{\imath}$ relative to the aircraft carrier. On a second runway which is directed 30$^{\circ}$ away from the $x$-axis, plane B has a speed of {{ params.vb }} $km/h$ relative to the aircraft carrier.

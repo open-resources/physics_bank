@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 5.6.2.0
 difficulty:
@@ -31,16 +32,16 @@ substitutions:
     vars:
       title: Angular Speed
       units: rad/s
-    rev: 12
+    rev: 6
     part1:
       ans1:
-        value: 0.52
+        value: 1.0
       ans2:
-        value: 38.0
+        value: 19.0
       ans3:
-        value: 75.0
+        value: 38.0
       ans4:
-        value: 1.9
+        value: 0.95
 ---
 # {{ params.vars.title }}
 

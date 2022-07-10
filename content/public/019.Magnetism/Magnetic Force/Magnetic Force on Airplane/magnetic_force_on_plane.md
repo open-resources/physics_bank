@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 19.3.2.0
 - 19.3.1.1
@@ -46,8 +47,8 @@ substitutions:
   params:
     vars:
       title: Magnetic Force on Airplane
-    q: 0.067
-    v: 694
+    q: 0.466
+    v: 639
     part2:
       ans1:
         value: North

@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.14.3.0
 - 21.14.3.1
@@ -47,7 +48,7 @@ substitutions:
   params:
     vars:
       title: Current over Time in a Series RL Circuit
-    fac: '4'
+    fac: '2'
 ---
 # {{ params.vars.title }}
 Consider the $RL$ circuit shown below.

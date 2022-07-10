@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - null
 difficulty:
@@ -31,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: -2x + -8 > -7x + -2
+      formula: 7x + 1 > -6x + 2
     part1:
       ans1:
-        value: x > 6/5
+        value: x > 1/13
       ans2:
-        value: x < 6/5
+        value: x < 1/13
       ans3:
-        value: x < 5/6
+        value: x < 13
       ans4:
-        value: x > 5/6
+        value: x > 13
       ans5:
         value: Don't Know
 ---

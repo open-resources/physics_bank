@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes: null
 difficulty:
 - undefined
@@ -30,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 19
-    a: $ \sin311$
+    a: $ \sin294$
     part1:
       ans1:
-        value: $\sin{-49}$
+        value: $\sin{-66}$
       ans2:
-        value: $\sin{49}$
+        value: $\sin{66}$
       ans3:
-        value: $\sin{-131}$
+        value: $\sin{-114}$
       ans4:
-        value: $\sin{131}$
+        value: $\sin{114}$
       ans5:
         value: Don't Know
 ---

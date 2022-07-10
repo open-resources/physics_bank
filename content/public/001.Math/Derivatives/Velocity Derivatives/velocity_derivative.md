@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 1.7.2.2
 difficulty:
@@ -31,17 +32,17 @@ substitutions:
     vars:
       title: Velocity to Acceleration
       units: $m/s^2$
-    c: 0.1
-    t: 10
+    c: 1.9
+    t: 1
     part1:
       ans1:
-        value: 0.0002
+        value: 3.8
       ans2:
-        value: -0.0002
+        value: -3.8
       ans3:
-        value: -0.001
+        value: -1.9
       ans4:
-        value: 0.001
+        value: 1.9
       ans5:
         value: The acceleration is 0
 ---

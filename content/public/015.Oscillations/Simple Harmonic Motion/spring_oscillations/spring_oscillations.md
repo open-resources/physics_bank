@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 15.2.2.0
 - 15.2.1.4
@@ -56,8 +57,8 @@ substitutions:
       units2: N/m
       units3: m
     m: 322
-    T: 1.8
-    E: 6.1
+    T: 0.57
+    E: 6.6
 ---
 # {{ params.vars.title }}
 A {{params.m}} g object is attached to a spring and executes simple harmonic motion with a period of {{params.T}} s.

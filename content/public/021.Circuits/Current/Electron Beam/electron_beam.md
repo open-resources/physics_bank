@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.2.2.0
 - 21.2.2.1
@@ -37,8 +38,8 @@ substitutions:
     vars:
       title: 'Electron Beam '
       units: ' $ A / m^2 $ '
-    I: 74
-    r: 0.6
+    I: 64
+    r: 0.91
 ---
 # {{ params.vars.title }}
 

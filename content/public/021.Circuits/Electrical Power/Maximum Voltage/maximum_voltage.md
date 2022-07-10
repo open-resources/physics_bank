@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.6.1.1
 difficulty:
@@ -41,8 +42,8 @@ substitutions:
     vars:
       title: Maximum Voltage
       units: V
-    P: 1.74
-    R: 64
+    P: 0.92
+    R: 81
 ---
 # {{ params.vars.title }}
 

@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes: null
 difficulty:
 - undefined
@@ -30,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Math Practice Q22
-    denom: 9
-    formula: $\cos{\left(\frac{x}{9} \right)}$
+    denom: 4
+    formula: $\sin{\left(\frac{x}{4} \right)}$
     part1:
       ans1:
-        value: ${9 \sin{\left(\frac{x}{9} \right)}}$
+        value: ${- 4 \cos{\left(\frac{x}{4} \right)}}$
       ans2:
-        value: ${- 9 \sin{\left(\frac{x}{9} \right)}}$
+        value: ${4 \cos{\left(\frac{x}{4} \right)}}$
       ans3:
-        value: ${18 \sin{\left(\frac{x}{9} \right)}}$
+        value: ${- 8 \cos{\left(\frac{x}{4} \right)}}$
       ans4:
-        value: ${\frac{9 \sin{\left(\frac{x}{9} \right)}}{2}}$
+        value: ${- 2 \cos{\left(\frac{x}{4} \right)}}$
 ---
 # {{ params.vars.title }}
 

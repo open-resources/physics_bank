@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.7.1.0
 - 21.7.2.0
@@ -45,9 +46,9 @@ substitutions:
   params:
     vars:
       title: Equivalent Capacitance
-    a: '6'
-    b: '2.5'
-    c: '0.2'
+    a: '11'
+    b: '4.0'
+    c: '0.8'
 ---
 # {{ params.vars.title }}
 

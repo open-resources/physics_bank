@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.7.1.0
 - 21.7.2.0
@@ -56,8 +57,8 @@ substitutions:
   params:
     vars:
       title: Combining Capacitors
-    c: '2.4'
-    n: '5'
+    c: '1.1'
+    n: '3'
 ---
 # {{ params.vars.title }}
 

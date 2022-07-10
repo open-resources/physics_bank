@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 2.4.1.1
 - 2.4.1.2
@@ -51,7 +52,7 @@ substitutions:
   params:
     vars:
       title: Projectile Uncertainty
-      name: Santiago
+      name: Maya
       units1: m/s
       units2: m
     d: 0.126

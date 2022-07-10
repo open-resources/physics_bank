@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 18.11.2.2
 difficulty:
@@ -44,8 +45,8 @@ substitutions:
   params:
     vars:
       title: Electric potential of a point charge
-    r: '1.80'
-    V: '5.20'
+    r: '1.00'
+    V: '4.40'
 ---
 # {{ params.vars.title }}
 

@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.12.1.0
 difficulty:
@@ -51,7 +52,7 @@ substitutions:
     vars:
       title: Unknown Voltage Source
     dV: '2.90'
-    dI: '5.70'
+    dI: '5.50'
     part2:
       ans1:
         value: 'No'

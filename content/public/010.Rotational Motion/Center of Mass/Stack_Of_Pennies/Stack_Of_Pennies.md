@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 10.4.1.1
 difficulty:
@@ -35,10 +36,10 @@ substitutions:
   params:
     vars:
       title: Stack of Pennies
-    s_1: 2
-    s_2: 3
-    s_3: 4
-    s_4: 5
+    s_1: 4
+    s_2: 5
+    s_3: 6
+    s_4: 7
 ---
 # {{ params.vars.title }}
 There are four stacks of pennies lined up in a row. The first stack has {{params.s_1}} pennies, the

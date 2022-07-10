@@ -5,6 +5,7 @@ author: Vanshika Sharma
 source: 2.9.47
 template_version: 1.2
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - undefined
 difficulty:

@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 19.2.4.3
 - 19.2.4.7
@@ -42,9 +43,9 @@ substitutions:
   params:
     vars:
       title: Circular coil
-    r: '11.50'
-    I: '0.66'
-    B: $1.40\times 10^{-4}$
+    r: '10.50'
+    I: '0.98'
+    B: $5.00\times 10^{-4}$
 ---
 # {{ params.vars.title }}
 

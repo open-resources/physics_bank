@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.6.1.0
 - 21.6.1.1
@@ -51,14 +52,14 @@ substitutions:
   params:
     vars:
       title: Power Transmission To Dorm
-    I_ref: 4
-    V_ref: 140
-    P_bulb: 52
-    P_light: 27
-    P_other: 4
-    V_pp: 140
-    d_pp: 5
-    Al_d: 7.313
+    I_ref: 5
+    V_ref: 132
+    P_bulb: 85
+    P_light: 44
+    P_other: 5
+    V_pp: 132
+    d_pp: 6
+    Al_d: 7.366
 ---
 # {{ params.vars.title }}
 A physics student has a single-occupancy dorm room.

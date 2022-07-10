@@ -5,6 +5,7 @@ author: Joseph Wandinger
 source: 2.10.30
 template_version: 1.1
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - 21.6.1.1
 - 21.8.2.0
@@ -117,9 +118,9 @@ substitutions:
   params:
     vars:
       title: Battery and Resistors
-    V: '53.0'
-    R1: '18.0'
-    R2: '91.0'
+    V: '45.0'
+    R1: '22.0'
+    R2: '87.0'
 ---
 # {{ params.vars.title }}
 Consider a ${{ params.V }}\rm\ V$ battery and two resistors: $R_1 = {{ params.R1 }}\rm\ \Omega$ and $R_2 = {{ params.R2 }}\rm\ \Omega$.

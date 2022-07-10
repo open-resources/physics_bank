@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.6.1.1
 - 21.8.2.0
@@ -67,10 +68,10 @@ substitutions:
   params:
     vars:
       title: Electrocution Safety
-    R_b: '12.00'
-    R_s: '2400'
-    V_s: '22.0'
-    I_max: '0.6'
+    R_b: '11.50'
+    R_s: '2300'
+    V_s: '18.0'
+    I_max: '0.5'
 ---
 # {{ params.vars.title }}
 A person with body resistance between their hands of {{ params.R_b }} $\rm\ k \Omega$ accidentally grasps the terminals of a {{ params.V_s }} $\rm\ kV$ power supply.

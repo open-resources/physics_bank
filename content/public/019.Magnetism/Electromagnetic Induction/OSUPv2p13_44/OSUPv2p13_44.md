@@ -5,6 +5,7 @@ author: Ava Cornell
 source: 2.13.44
 template_version: 1.1
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - 19.8.6.0
 difficulty:
@@ -42,10 +43,10 @@ substitutions:
   params:
     vars:
       title: Moving Rod
-    r: '5'
+    r: '3'
     v: '4'
     B: '1.25'
-    a: '6'
+    a: '9'
     part2:
       ans1:
         value: Clockwise

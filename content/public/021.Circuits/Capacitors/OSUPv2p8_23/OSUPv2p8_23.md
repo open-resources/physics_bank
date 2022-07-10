@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.7.1.0
 - 21.7.1.1
@@ -42,8 +43,8 @@ substitutions:
   params:
     vars:
       title: Determining Capacitance
-    q: '2.4'
-    v: '250'
+    q: '3.8'
+    v: '210'
 ---
 # {{ params.vars.title }}
 

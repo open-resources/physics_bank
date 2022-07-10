@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 6.9.1.0
 - 6.9.1.3
@@ -31,8 +32,8 @@ substitutions:
   params:
     vars:
       title: Box in a Vehicle
-      vehicle: pickup truck
-      direction: negative
+      vehicle: car
+      direction: positive
     part1:
       ans1:
         value: Kinetic friction, positive x-direction

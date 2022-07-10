@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.6.1.1
 difficulty:
@@ -55,9 +56,9 @@ substitutions:
   params:
     vars:
       title: Automobile Battery Properties
-    V: '10.5'
-    V_t: '13.5'
-    I: '11.00'
+    V: '11.0'
+    V_t: '16.0'
+    I: '11.50'
 ---
 # {{ params.vars.title }}
 A $ {{ params.V }}\rm\ V$ emf automobile battery has a terminal voltage of $ {{ params.V_t }}\rm\ V$ when being charged by a current of $ {{ params.I }}\rm\ A$.

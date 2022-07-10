@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 15.3.1.0
 - 15.2.1.3
@@ -48,13 +49,13 @@ substitutions:
   params:
     vars:
       person1: father
-      person2: grandfather
+      person2: uncle
       title: Bouncing a Baby to Sleep
       units: $N/m$
-    m1: 92.4
-    m2: 61.6
-    m_b: 2.48
-    f: 2.47
+    m1: 93.4
+    m2: 60.9
+    m_b: 5.24
+    f: 2.0
     part3:
       ans1:
         value: Remove air to decrease the pressure in the ball. Decreased pressure

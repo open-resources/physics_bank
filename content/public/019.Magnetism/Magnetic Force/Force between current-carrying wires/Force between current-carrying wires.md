@@ -5,6 +5,7 @@ author: Jake Bobowski
 source: 2.12.31
 template_version: 1.1
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - 19.3.3.2
 - 19.3.3.4
@@ -46,10 +47,10 @@ substitutions:
   params:
     vars:
       title: Force between current-carrying wires
-    d: '5.0'
-    I1: '2.8'
-    I2: '6.6'
-    txt: the same direction
+    d: '12.0'
+    I1: '1.0'
+    I2: '6.8'
+    txt: opposite directions
     part2:
       ans1:
         value: Attract

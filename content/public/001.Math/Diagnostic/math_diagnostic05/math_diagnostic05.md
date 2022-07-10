@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 1.5.1.5
 difficulty:
@@ -31,18 +32,18 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q5
-    expr: $\dfrac{x}{10}$
-    num2: 7
-    num3: 10
+    expr: $\dfrac{x}{9}$
+    num2: 9
+    num3: 6
     part1:
       ans1:
-        value: 700
+        value: 486
       ans2:
-        value: 7/10
+        value: '1'
       ans3:
-        value: 100
+        value: 54
       ans4:
-        value: '7'
+        value: '6'
       ans5:
         value: Don't Know
 ---

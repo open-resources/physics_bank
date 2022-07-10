@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 7.2.1.1
 - 7.4.1.2
@@ -48,10 +49,10 @@ substitutions:
     vars:
       title: Split Blocks
       units: $J$
-    m: 10
-    m_a: 8
-    m_b: 2
-    v_a: 5.0
+    m: 12
+    m_a: 7
+    m_b: 5
+    v_a: 6.0
 ---
 # {{ params.vars.title }}
 A {{params.m}} $kg$ block is initially at rest on a sheet of ice.

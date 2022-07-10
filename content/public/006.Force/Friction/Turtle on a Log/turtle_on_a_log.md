@@ -5,6 +5,7 @@ author: John Hopkinson
 source: PHYS 112 2020W1 Second Test Q3
 template_version: 1.1
 attribution: standard
+showCorrectAnswer: false
 outcomes:
 - 6.1.1.4
 - 6.7.1.0

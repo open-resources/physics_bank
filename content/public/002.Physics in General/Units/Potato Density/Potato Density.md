@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 2.2.1.3
 difficulty:
@@ -59,11 +60,11 @@ substitutions:
   params:
     vars:
       title: Potato Density
-      name: Ahmed
+      name: Santiago
       unit1: $kg$
       unit2: $m^3$
-    m_p: 187
-    m_cp: 84
+    m_p: 257
+    m_cp: 124
     l: 3
 ---
 # {{ params.vars.title }}

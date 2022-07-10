@@ -5,6 +5,7 @@ author: Jake Bobowski
 source: 2.7.73
 template_version: 1.1
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - 18.11.1.4
 difficulty:
@@ -41,7 +42,7 @@ substitutions:
   params:
     vars:
       title: Forming helium atoms
-    d: '0.660000'
+    d: '0.510000'
     p: -10
 ---
 # {{ params.vars.title }}

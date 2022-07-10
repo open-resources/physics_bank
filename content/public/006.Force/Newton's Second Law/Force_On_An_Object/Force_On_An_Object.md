@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 1.7.2.1
 - 6.5.1.1
@@ -32,17 +33,17 @@ substitutions:
   params:
     vars:
       title: Force On An Object
-    m: 30
+    m: 32
     part1:
       ans1:
-        value: $F = $ -75.0 $N$
+        value: $F = $ -80.0 $N$
       ans2:
-        value: $F = $ 75.0 $N$
+        value: $F = $ 80.0 $N$
       ans3:
-        value: $F = $ 75.0 $N$ from 2 to 6 $s$, then $F = $ -75.0 $N$ from 6 to 10
+        value: $F = $ 80.0 $N$ from 2 to 6 $s$, then $F = $ -80.0 $N$ from 6 to 10
           $s$
       ans4:
-        value: $F = $ -75.0 $N$ from 2 to 6 $s$, then $F = $ 75.0 $N$ from 6 to 10
+        value: $F = $ -80.0 $N$ from 2 to 6 $s$, then $F = $ 80.0 $N$ from 6 to 10
           $s$
       ans5:
         value: Impossible to tell

@@ -5,6 +5,7 @@ author: Jake Bobowksi
 source: 2.7.63
 template_version: 1.0
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - 18.11.2.4
 difficulty:
@@ -37,10 +38,10 @@ substitutions:
   params:
     vars:
       title: Parallel-plate potential difference
-    d: '18.0'
-    t: '0.8'
-    q: '6.4'
-    p: -10
+    d: '19.0'
+    t: '2.3'
+    q: '4.2'
+    p: -8
 ---
 # {{ params.vars.title }}
 Two parallel plates ${{ params.d }}\rm\ cm$ on a side are given equal and opposite charges of magnitude ${{ params.q }}\times 10^{ {{ params.p }} }\rm\ C$.

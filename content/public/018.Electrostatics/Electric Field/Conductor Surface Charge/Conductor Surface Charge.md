@@ -5,6 +5,7 @@ author: Jake Bobowski
 source: 2.6.19
 template_version: 1.0
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - 18.10.1.0
 difficulty:
@@ -56,8 +57,8 @@ substitutions:
   params:
     vars:
       title: Conductor Surface Charge
-    Q: '3.3'
-    q: '-7.2'
+    Q: '-3.6'
+    q: '5.3'
 ---
 # {{ params.vars.title }}
 The conductor in the figure has an excess charge of ${{params.Q}}\rm\ \mu C$.

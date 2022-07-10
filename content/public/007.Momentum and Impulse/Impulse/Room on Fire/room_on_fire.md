@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 7.3.1.2
 difficulty:
@@ -29,7 +30,7 @@ part1:
 substitutions:
   params:
     vars:
-      name: Aliyah
+      name: Emilia
       title: Living Room on Fire
     part1:
       ans1:

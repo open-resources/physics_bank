@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.7.6.4
 difficulty:
@@ -45,7 +46,7 @@ substitutions:
   params:
     vars:
       title: Dielectric breakdown of air
-    V: '6000'
+    V: '4600'
 ---
 # {{ params.vars.title }}
 The electric field strength that causes the breakdown of dry air is $3.00\times 10^6\rm\ V/m$.

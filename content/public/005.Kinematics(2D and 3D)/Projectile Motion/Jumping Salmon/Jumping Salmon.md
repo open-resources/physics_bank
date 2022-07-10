@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 5.5.1.0
 difficulty:
@@ -41,8 +42,8 @@ substitutions:
     vars:
       title: Jumping Salmon
       units: $m/s$
-    h_fall: 3.74
-    dist: 0.996
+    h_fall: 3.72
+    dist: 0.821
     part1:
       ans1:
         value: Time interval for jump, $\Delta t$

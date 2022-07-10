@@ -5,6 +5,7 @@ author: John Hopkinson
 source: PHYS 111 2013W1 MT2 Q2
 template_version: 1.2
 attribution: standard
+showCorrectAnswer: false
 outcomes:
 - 6.10.1.1
 difficulty:
@@ -28,18 +29,18 @@ substitutions:
   params:
     vars:
       title: Cyclist with a Deathwish
-    v1: 155
-    v2: 45
-    age: 51
+    v1: 154
+    v2: 47
+    age: 56
     part1:
       ans1:
-        value: 11.9 times.
+        value: 10.7 times.
       ans2:
-        value: 3.44 times.
+        value: 3.28 times.
       ans3:
-        value: 0.29 times.
+        value: 0.305 times.
       ans4:
-        value: 0.0843 times.
+        value: 0.0931 times.
       ans5:
         value: It would be equal to their maximum thrust.
 ---

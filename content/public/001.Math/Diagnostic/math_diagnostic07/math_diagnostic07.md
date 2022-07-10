@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 1.11.3.0
 difficulty:
@@ -31,17 +32,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 9x - 10y = 8
-    formula2: 7x + 3y = 37
+    formula1: 3x - 10y = 30
+    formula2: 8x + 3y = 18
     part1:
       ans1:
-        value: ' x =394/97, y =277/97'
+        value: ' x =270/89, y =-186/89'
       ans2:
-        value: ' x =277/97, y =394/97'
+        value: ' x =-186/89, y =270/89'
       ans3:
-        value: ' x =-394/97, y =-277/97'
+        value: ' x =-270/89, y =186/89'
       ans4:
-        value: ' x =-277/97, y =-394/97'
+        value: ' x =186/89, y =-270/89'
       ans5:
         value: Don't Know
 ---

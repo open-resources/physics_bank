@@ -5,6 +5,7 @@ author: John Hopkinson
 source: PHYS 112 2020W1 GPS III
 template_version: 1.2
 attribution: standard
+showCorrectAnswer: false
 outcomes:
 - 5.1.1.0
 - 5.5.1.0
@@ -79,8 +80,8 @@ substitutions:
   params:
     vars:
       title: Nuts To You
-    vi_hawk: 5.46
-    h_Jed: 28.9
+    vi_hawk: 5.28
+    h_Jed: 17.3
     part3:
       ans1:
         value: Jed maintains the $x$-component of their velocity. ($a_x = 0 \; m/s^2$)

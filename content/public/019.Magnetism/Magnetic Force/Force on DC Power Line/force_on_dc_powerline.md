@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 19.3.3.0
 - 19.3.3.1
@@ -38,9 +39,9 @@ substitutions:
   params:
     vars:
       title: Force on a DC Power Line
-    I: 945
-    theta: 43
-    L: 105
+    I: 957
+    theta: 53
+    L: 164
 ---
 # {{ params.vars.title }}
 

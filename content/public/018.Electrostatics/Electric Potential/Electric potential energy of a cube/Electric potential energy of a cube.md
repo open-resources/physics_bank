@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 18.11.2.3
 difficulty:
@@ -42,8 +43,8 @@ substitutions:
   params:
     vars:
       title: Electric potential energy of a cube
-    q: '5.20'
-    d: '1.80'
+    q: '5.80'
+    d: '1.40'
 ---
 # {{ params.vars.title }}
 

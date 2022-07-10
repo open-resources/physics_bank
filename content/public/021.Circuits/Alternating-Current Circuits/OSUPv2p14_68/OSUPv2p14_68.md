@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.13.3.0
 - 21.14.5.0
@@ -75,9 +76,9 @@ substitutions:
   params:
     vars:
       title: Switched LC Circuit
-    L: '102.0'
-    C: '4.00'
-    V: '11.5'
+    L: '98.0'
+    C: '5.00'
+    V: '13.0'
 ---
 # {{ params.vars.title }}
 Consider the switched $LC$ circuit shown below.

@@ -5,6 +5,7 @@ author: Joseph Wandinger
 source: 2.10.35
 template_version: 1.3
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - 21.8.1.1
 - 21.8.2.0
@@ -177,10 +178,10 @@ substitutions:
   params:
     vars:
       title: Simple Series Circuit
-    V: '18.0'
-    R1: '3.25'
+    V: '16.0'
+    R1: '4.50'
     R2: '3.00'
-    R3: '3.50'
+    R3: '3.75'
 ---
 # {{ params.vars.title }}
 Consider the circuit shown below.

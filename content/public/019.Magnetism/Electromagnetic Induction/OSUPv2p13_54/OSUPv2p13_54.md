@@ -5,6 +5,7 @@ author: Ava Cornell
 source: 2.13.54
 template_version: 1.1
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - 19.8.6.0
 - 19.8.6.1
@@ -37,8 +38,8 @@ substitutions:
     vars:
       title: Electric Field Outside Solenoid
     R: '3'
-    r: '6'
-    n: '15'
+    r: '5'
+    n: '35'
     DI: '2'
 ---
 # {{ params.vars.title }}

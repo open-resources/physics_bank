@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 5.5.1.0
 - 5.5.1.1
@@ -31,22 +32,22 @@ part1:
 substitutions:
   params:
     vars:
-      sport: mountain biker
+      sport: skateboarder
       title: Horizontal Jump
       units: m
-    v: 20
-    d: 4.52
+    v: 18
+    d: 3.34
     part1:
       ans1:
         value: 9.81
       ans2:
-        value: 13.58
+        value: 10.5
       ans3:
-        value: 18.43
+        value: 12.26
       ans4:
-        value: 19.2
+        value: 14.85
       ans5:
-        value: 27.65
+        value: 18.39
 ---
 # {{ params.vars.title }}
 

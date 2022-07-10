@@ -5,6 +5,7 @@ author: John Hopkinson
 source: PHYS 112 2014 W1 001 Midterm 2 Q1
 template_version: 1.2
 attribution: standard
+showCorrectAnswer: false
 outcomes:
 - 6.12.1.1
 difficulty:

@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 1.4.1.0
 difficulty:
@@ -32,13 +33,13 @@ substitutions:
       title: Largest Number
     part1:
       ans1:
-        value: 3.2E29
+        value: 2.5E30
       ans2:
-        value: 4.5E11
+        value: 6.9E9
       ans3:
-        value: 5924.209735265964
+        value: 4738.128664562426
       ans4:
-        value: '3.6E-86'
+        value: '8.0E-36'
       ans5:
         value: Don't Know
 ---

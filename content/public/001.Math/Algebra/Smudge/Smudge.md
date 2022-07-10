@@ -1,5 +1,5 @@
 ---
-title: Smudge1
+title: Smudge
 topic: Math
 author: John Hopkinson
 source: PHYS 112 2015W Group Problem Solving II Q1
@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 1.5.2.0
 difficulty:
@@ -47,7 +48,7 @@ part3:
 substitutions:
   params:
     vars:
-      name: Mateo
+      name: Abbas
       title: Smudge
 ---
 # {{ params.vars.title }}

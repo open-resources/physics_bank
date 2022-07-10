@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 1.5.1.6
 difficulty:
@@ -31,19 +32,19 @@ substitutions:
   params:
     vars:
       title: Math Practice Q10
-    a: 7
-    b: '10'
+    a: -1
+    b: '8'
     b_sign: ' - '
-    c: -15
+    c: 2
     part1:
       ans1:
-        value: x =   22/10
+        value: x =  - 3/8
       ans2:
-        value: x =  - 22/10
+        value: x =   3/8
       ans3:
-        value: x = -12
+        value: x = 11
       ans4:
-        value: x = 2
+        value: x = 9
       ans5:
         value: This equation cannot be solved
 ---

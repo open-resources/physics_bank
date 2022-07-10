@@ -5,6 +5,7 @@ author: Vanshika Sharma
 source: 2.11.36
 template_version: 1.1
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - undefined
 difficulty:
@@ -42,7 +43,7 @@ substitutions:
   params:
     vars:
       title: Force on Lightning Bolt
-    I: 18804
+    I: 19379
     part2:
       ans1:
         value: North

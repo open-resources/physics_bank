@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes: null
 difficulty:
 - easy
@@ -30,10 +31,10 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: van
+      vehicle: truck
       title: Racing Markers
-      v1: 63
-      v2: 32.0
+      v1: 43
+      v2: 22.0
     part1:
       ans1:
         value: Marker 1

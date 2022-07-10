@@ -5,6 +5,7 @@ author: Jake Bobowksi
 source: 2.6.6
 template_version: 1.0
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - 18.8.1.0
 - 18.8.1.1

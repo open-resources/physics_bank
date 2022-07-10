@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.14.4.0
 difficulty:
@@ -44,7 +45,7 @@ substitutions:
   params:
     vars:
       title: Frequency and Capacitance of an LC Circuit
-    f: '49.0'
+    f: '56.0'
     C: '12.5'
 ---
 # {{ params.vars.title }}

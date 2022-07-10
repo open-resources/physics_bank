@@ -5,6 +5,7 @@ author: Ava Cornell
 source: 2.13.31
 template_version: 1.1
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - 19.8.6.0
 difficulty:

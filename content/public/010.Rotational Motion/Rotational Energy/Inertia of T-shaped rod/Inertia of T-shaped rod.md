@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 10.5.2.0
 - 10.5.2.2
@@ -33,7 +34,7 @@ substitutions:
   params:
     vars:
       title: Rotational Inertia of T-shaped Rods
-    choice: minimum
+    choice: maximum
     part1:
       ans1:
         value: Figure (a)

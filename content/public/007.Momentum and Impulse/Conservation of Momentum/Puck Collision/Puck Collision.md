@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 7.5.1.2
 - 7.4.1.2
@@ -32,7 +33,7 @@ substitutions:
   params:
     vars:
       title: Puck Collision
-    E: 20
+    E: 19
     part1:
       ans1:
         value: momentum increases, kinetic energy increases

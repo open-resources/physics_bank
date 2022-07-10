@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 6.1.1.6
 - 6.1.1.8
@@ -36,8 +37,8 @@ substitutions:
   params:
     vars:
       title: Coefficient Of Friction
-    m: 217
-    t: 3
+    m: 189
+    t: 1
 ---
 # {{ params.vars.title }}
 You have been hired to measure the coefficients of friction for the newly discovered substance jelloium.

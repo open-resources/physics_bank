@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 6.1.1.4
 - 6.12.1.1
@@ -58,10 +59,10 @@ substitutions:
   params:
     vars:
       title: Pinball Machine Precursor
-    l_u: 6.69
-    l_c: 4.5
-    rise: 9.36
-    radius: 25
+    l_u: 6.87
+    l_c: 5.05
+    rise: 9.06
+    radius: 20
     m_b: 10.0
     part2:
       ans1:

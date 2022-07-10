@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 7.5.1.4
 - 4.1.1.1
@@ -47,9 +48,9 @@ substitutions:
       title: Flying Squid
       units1: m/s
       units2: m
-    m1: 0.34
-    m2: 0.83
-    v: 17
+    m1: 0.18
+    m2: 0.87
+    v: 21
 ---
 # {{ params.vars.title }}
 The Japanese flying squid, shown in the photograph below, is able to "jump" off the surface of the sea by taking water into its body cavity and then ejecting the water downward. A Japanese flying squid is able to eject ${{params.m1}} kg$ of water with a speed of ${{params.v}} m/s$.

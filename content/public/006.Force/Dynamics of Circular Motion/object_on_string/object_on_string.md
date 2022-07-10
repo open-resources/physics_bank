@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 6.12.2.0
 - 6.2.1.2
@@ -34,16 +35,16 @@ substitutions:
     vars:
       title: Object Swung in Circular Path
       units: N
-    m: 0.85
-    r: 7.2
-    w: 7
+    m: 1.19
+    r: 1.72
+    w: 6
     part1:
       ans1:
-        value: 291.55
+        value: 62.02
       ans2:
-        value: 239.9
+        value: 53.63
       ans3:
-        value: 299.88
+        value: 73.68
       ans4:
         value: 19.6
 ---

@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.14.3.0
 - 21.14.3.1
@@ -62,8 +63,8 @@ substitutions:
   params:
     vars:
       title: 'Switched RL Series Circuit: Time Constant'
-    t: '2.30'
-    L: '215.0'
+    t: '1.70'
+    L: '270.0'
 ---
 # {{ params.vars.title }}
 Consider the $RL$ circuit shown below.

@@ -5,6 +5,7 @@ author: Ava Cornell
 source: 2.13.42
 template_version: 1.1
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - 19.8.4.0
 difficulty:
@@ -42,8 +43,8 @@ substitutions:
   params:
     vars:
       title: Potential Difference of Rod
-    B: '1.00'
-    v: '8'
+    B: '0.50'
+    v: '10'
     part2:
       ans1:
         value: Bottom

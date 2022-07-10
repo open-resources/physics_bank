@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 7.2.1.0
 difficulty:
@@ -31,23 +32,23 @@ substitutions:
     vars:
       title: Kinetic Energy of Test Mass
       units: J
-    m: 315
-    v: 4.25
-    d_m: 2
-    d_v: 0.06
+    m: 489
+    v: 7.57
+    d_m: 3
+    d_v: 0.05
     part1:
       ans1:
-        value: 2.845 $\pm$ 0.058
+        value: 14.011 $\pm$ 0.179
       ans2:
-        value: 2.845 $\pm$ 0.098
+        value: 14.011 $\pm$ 0.271
       ans3:
-        value: 2.845 $\pm$ 0.019
+        value: 14.011 $\pm$ 0.087
       ans4:
-        value: 2.845 $\pm$ 0.007
+        value: 14.011 $\pm$ 0.006
       ans5:
-        value: 2.845 $\pm$ 0.035
+        value: 14.011 $\pm$ 0.019
       ans6:
-        value: 2.845 $\pm$ 0.018
+        value: 14.011 $\pm$ 0.086
 ---
 # {{ params.vars.title }}
 In a lab, a {{ params.m}} $\pm$ {{ params.d_m}} $g$ test-mass is measured to have a speed of {{ params.v}} $\pm$ {{ params.d_v}} $m/s$.

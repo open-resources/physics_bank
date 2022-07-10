@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 19.3.2.0
 - 19.2.1.0
@@ -44,8 +45,8 @@ substitutions:
   params:
     vars:
       title: Cosmic Ray Electron
-    v: 4.2
-    B: 4.7
+    v: 6.3
+    B: 4.4
 ---
 # {{ params.vars.title }}
 

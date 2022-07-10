@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.7.1.0
 - 21.7.2.0
@@ -40,7 +41,7 @@ substitutions:
   params:
     vars:
       title: Maximizing Energy in a Capacitor Bank
-      name: Mateo
+      name: Maya
     part1:
       ans1:
         value: Parallel

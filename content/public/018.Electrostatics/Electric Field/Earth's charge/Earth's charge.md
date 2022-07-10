@@ -5,6 +5,7 @@ author: Jake Bobowksi
 source: 2.5.24
 template_version: 1.0
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - 18.6.1.1
 difficulty:

@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 10.1.1.1
 difficulty:
@@ -33,10 +34,10 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: car
+      vehicle: bus
       title: Rotational Displacement of Tires
       units: rad
-    a: 6.5
+    a: 6.33
     t: 25.3
 ---
 # {{ params.vars.title }}

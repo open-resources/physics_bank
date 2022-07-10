@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 4.7.3.0
 - 1.7.2.4
@@ -62,10 +63,10 @@ substitutions:
       title: Acceleration of a Particle
       unit1: $s$
       unit2: $m/s^2$
-    c1: 6
-    c2_abs: 5
+    c1: 2
+    c2_abs: 9
     c2_sign: ' - '
-    c3_abs: 48
+    c3_abs: 20
     c3_sign: ' - '
 ---
 # {{ params.vars.title }}

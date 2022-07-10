@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 18.11.2.3
 difficulty:
@@ -43,7 +44,7 @@ substitutions:
   params:
     vars:
       title: Field due to lightning
-    d: '1.9'
+    d: '1.2'
     p: $10^4$
 ---
 # {{ params.vars.title }}

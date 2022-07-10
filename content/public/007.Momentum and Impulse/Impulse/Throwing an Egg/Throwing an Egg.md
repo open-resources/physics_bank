@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 7.3.1.3
 - 7.3.1.4
@@ -32,7 +33,7 @@ substitutions:
   params:
     vars:
       title: Throwing an Egg
-      name: Ximena
+      name: Santiago
     part1:
       ans1:
         value: The energy in the egg is not sufficient to allow it to break.

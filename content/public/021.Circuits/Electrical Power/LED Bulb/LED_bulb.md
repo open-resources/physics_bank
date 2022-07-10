@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.5.1.1
 - 21.6.1.0
@@ -42,8 +43,8 @@ substitutions:
     vars:
       title: LED Bulb
       units: $
-    c: 0.91
-    h: 16
+    c: 0.26
+    h: 13
 ---
 # {{ params.vars.title }}
 

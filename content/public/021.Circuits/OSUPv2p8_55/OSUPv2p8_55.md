@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.7.1.0
 - 21.7.6.0
@@ -51,8 +52,8 @@ substitutions:
   params:
     vars:
       title: Partially Filled Capacitor
-    a: '55.0'
-    b: '16.0'
+    a: '40.0'
+    b: '14.0'
     f: '6'
 ---
 # {{ params.vars.title }}

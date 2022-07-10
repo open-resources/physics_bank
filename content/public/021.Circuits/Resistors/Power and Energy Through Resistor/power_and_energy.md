@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.8.1.1
 - 21.8.1.0
@@ -68,8 +69,8 @@ substitutions:
   params:
     vars:
       title: Power And Energy Through Resistor
-    V: 22
-    R: 25
+    V: 5
+    R: 13
     part4:
       ans1:
         value: It is converted into light energy.

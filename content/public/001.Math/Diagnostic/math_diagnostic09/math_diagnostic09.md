@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - null
 difficulty:
@@ -31,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $p$ = $\dfrac{(h)}{(o + 7k)} $
+    expr: $i$ = $\dfrac{(r)}{(j - 10c)} $
     part1:
       ans1:
-        value: o = ${ \frac{h}{p} - 7 k}$
+        value: j = ${ 10 c + \frac{r}{i}}$
       ans2:
-        value: o = ${\frac{7 k p}{h}}$
+        value: j = ${- \frac{10 c i}{r}}$
       ans3:
-        value: o = ${\frac{h}{7 k p}}$
+        value: j = ${- \frac{r}{10 c i}}$
       ans4:
-        value: o = ${\frac{- 7 k + p}{h}}$
+        value: j = ${\frac{10 c + i}{r}}$
       ans5:
         value: Don't Know
 ---

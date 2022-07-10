@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 6.1.1.4
 - 6.3.1.2
@@ -32,8 +33,8 @@ substitutions:
   params:
     vars:
       title: Direction of Movement of the Elevator
-    m_st: 410
-    m_sc: 438
+    m_st: 694
+    m_sc: 655
     part1:
       ans1:
         value: The elevator is moving Downwards, with gravity.

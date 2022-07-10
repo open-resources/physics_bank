@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 19.6.1.0
 difficulty:
@@ -42,8 +43,8 @@ substitutions:
   params:
     vars:
       title: Solenoid current
-    n: '8'
-    B: $4.8\times 10^{-1}$
+    n: '17'
+    B: $3.0\times 10^{-2}$
 ---
 # {{ params.vars.title }}
 A solenoid has {{ params.n }} turns per centimeter.

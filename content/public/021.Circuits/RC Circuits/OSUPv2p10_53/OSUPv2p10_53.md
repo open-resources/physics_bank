@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.13.2.0
 difficulty:
@@ -84,9 +85,9 @@ substitutions:
   params:
     vars:
       title: RC Series Circuit
-    R: '575.0'
-    C: '1.90'
-    V: '7.65'
+    R: '450.0'
+    C: '1.45'
+    V: '6.49'
 ---
 # {{ params.vars.title }}
 A ${{ params.R }}\rm\ \Omega$ resistor, an uncharged ${{ params.C }}\rm\ \mu F$ capacitor, and a ${{ params.V }}\rm\ V$ are connected in series.

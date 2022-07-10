@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 8.5.1.1
 difficulty:
@@ -37,8 +38,8 @@ substitutions:
     vars:
       title: Block In Hole
       units: m
-    a: 27
-    d: 0.8
+    a: 26
+    d: 0.6
 ---
 # {{ params.vars.title }}
 A small block is placed at height $h$ on a frictionless, {{params.a}}$^\circ$ ramp.

@@ -5,6 +5,7 @@ author: Joseph Wandinger
 source: 2.10.26
 template_version: 1.1
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - 21.8.2.0
 - 21.8.3.0
@@ -51,9 +52,9 @@ substitutions:
   params:
     vars:
       title: Series and Parallel Resistors
-    R1: '2.40'
-    R2: '4.25'
-    R3: '6.25'
+    R1: '1.30'
+    R2: '3.50'
+    R3: '6.50'
 ---
 # {{ params.vars.title }}
 Consider a ${{{ params.R1 }}}\times{10^{2}} \rm\ \Omega$, a ${{ params.R2 }}\rm\ k \Omega$, and a ${{ params.R3 }}\rm\ k \Omega$ resistor.

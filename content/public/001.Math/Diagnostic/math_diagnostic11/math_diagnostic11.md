@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - null
 difficulty:
@@ -32,17 +33,17 @@ substitutions:
     vars:
       title: Diagnostic Q11
     a: 2
-    b: 10
-    c: 9
+    b: 9
+    c: 8
     part1:
       ans1:
-        value: x = -3.8, x = -1.2
+        value: x = -3.3, x = -1.2
       ans2:
-        value: x = 3.8, x = 1.2
+        value: x = 3.3, x = 1.2
       ans3:
-        value: x = 10, x = 9
+        value: x = 9, x = 8
       ans4:
-        value: x = 2, x = 10
+        value: x = 2, x = 9
       ans5:
         value: Don't Know
 ---

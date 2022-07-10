@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 6.1.1.4
 - 6.3.1.2
@@ -40,9 +41,9 @@ substitutions:
       vehicle: van
       title: A Crate's Maximum Acceleration without Slipping
       units: $m/s^2$
-    mu_s: 0.67
-    mu_k: 0.2
-    theta: 20
+    mu_s: 0.96
+    mu_k: 0.47
+    theta: 11
 ---
 # {{ params.vars.title }}
 A wood crate sits in the back of a {{ params.vars.vehicle }}.

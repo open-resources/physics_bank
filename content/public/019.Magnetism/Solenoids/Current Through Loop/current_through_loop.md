@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 19.3.4.0
 - 19.3.4.1
@@ -43,10 +44,10 @@ substitutions:
   params:
     vars:
       title: Current Through Loop
-    N: 81
+    N: 56
     t: 20
-    s: 6
-    B: 0.159
+    s: 13
+    B: 0.41
 ---
 # {{ params.vars.title }}
 

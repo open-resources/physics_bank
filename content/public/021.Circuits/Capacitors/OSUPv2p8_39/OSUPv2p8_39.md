@@ -5,6 +5,7 @@ author: Ava Cornell
 source: 2.8.39
 template_version: 1.1
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - 21.7.1.0
 - 21.7.1.1
@@ -66,9 +67,9 @@ substitutions:
   params:
     vars:
       title: Switching Connections
-    a: '3.0'
-    b: '5.0'
-    v: '4.0'
+    a: '4.0'
+    b: '2.0'
+    v: '3.0'
 ---
 # {{ params.vars.title }}
 A ${{params.a }} \rm\ \mu\textrm{F}$ capacitor and a ${{params.b }} \rm\ \mu\textrm{F}$ capacitor are connected in series across a ${{params.v }} \textrm{ kV}$ potential. The charged capacitors are then disconnected from the source and connected to each other with terminals of like sign together.

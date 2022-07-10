@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 18.11.2.3
 difficulty:
@@ -44,10 +45,10 @@ substitutions:
   params:
     vars:
       title: Field due to current segment
-    I: '17.0'
-    x: '5.00'
-    y: '2.80'
-    dl: '0.20'
+    I: '16.5'
+    x: '6.00'
+    y: '3.40'
+    dl: '0.50'
 ---
 # {{ params.vars.title }}
 A ${{ params.I }}\rm\ A$ current flows through the wire shown in the figure.

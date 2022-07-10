@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes: null
 difficulty:
 - easy
@@ -30,9 +31,9 @@ substitutions:
   params:
     vars:
       title: Blocks on a Table
-    m1: 3
-    m2: 19
-    m3: 12
+    m1: 4
+    m2: 17
+    m3: 15
     part1:
       ans1:
         value: Block A experiences the greatest net force.

@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 19.8.6.0
 difficulty:
@@ -47,8 +48,8 @@ substitutions:
   params:
     vars:
       title: Single-turn Circular Loop
-    r: '60'
-    b: '200'
+    r: '30'
+    b: '100'
     B: '350'
     t: '0.2'
     part2:

@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.4.1.0
 difficulty:
@@ -41,8 +42,8 @@ substitutions:
     vars:
       title: Voltage Supplied To An Indicator Light
       units: V
-    R: 286
-    I: 59
+    R: 119
+    I: 53
 ---
 # {{ params.vars.title }}
 

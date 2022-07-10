@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - null
 difficulty:
@@ -27,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $2^{3} $=$ 8$
+    expr: $5^{9} $=$ 1953125$
     part1:
       ans1:
-        value: $log_28 = 3$
+        value: $log_51953125 = 9$
       ans2:
-        value: $log_23 = 8$
+        value: $log_59 = 1953125$
       ans3:
-        value: $log_83 = 2$
+        value: $log_19531259 = 5$
       ans4:
-        value: $log_38 = 2$
+        value: $log_91953125 = 5$
       ans5:
         value: Don't Know
 ---

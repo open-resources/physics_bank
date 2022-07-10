@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 8.5.1.0
 - 8.5.1.1
@@ -34,14 +35,14 @@ substitutions:
   params:
     vars:
       title: Firing a Ball
-    theta: 60
+    theta: 30
     part1:
       ans1:
-        value: $\frac{2v_1}{\sqrt{3}}$
+        value: $2v_1$
       ans2:
         value: $\sqrt{2}v_1$
       ans3:
-        value: $2v_1$
+        value: $\frac{2v_1}{\sqrt{3}}$
       ans4:
         value: $\frac{v_1}{2}$
       ans5:

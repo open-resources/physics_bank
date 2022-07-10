@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 15.2.2.0
 - 15.2.1.1
@@ -34,7 +35,7 @@ substitutions:
   params:
     vars:
       title: Displacement and Potential Energy of an Oscillator
-    choice: half
+    choice: one-eighth
 ---
 # {{ params.vars.title }}
 

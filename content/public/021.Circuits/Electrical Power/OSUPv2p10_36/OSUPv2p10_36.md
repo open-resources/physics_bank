@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.8.1.1
 - 21.8.2.0
@@ -127,13 +128,13 @@ substitutions:
   params:
     vars:
       title: Circuit with Multiple Voltage Sources
-    R1: '13.0'
-    R2: '25.0'
+    R1: '11.0'
+    R2: '24.0'
     R3: '13.0'
-    R4: '20.0'
-    R5: '17.0'
-    V1: '13.0'
-    V2: '23.5'
+    R4: '11.0'
+    R5: '19.0'
+    V1: '11.0'
+    V2: '23.0'
 ---
 # {{ params.vars.title }}
 Consider the circuit shown below.

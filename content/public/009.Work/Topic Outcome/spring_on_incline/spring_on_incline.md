@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 5.9.1.0
 - 5.11
@@ -50,8 +51,8 @@ substitutions:
       title: Spring on an Incline
       units1: m
       units2: J
-    m: 5
-    k: 652
+    m: 2
+    k: 666
     theta: 26
     mu: 0.25
     d: 7

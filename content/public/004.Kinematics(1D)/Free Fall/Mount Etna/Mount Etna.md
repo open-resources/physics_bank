@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 4.10.1.0
 - 4.10.1.2
@@ -36,7 +37,7 @@ substitutions:
     vars:
       title: Eruption of Mount Etna
       units: $km/h$
-    h: 115.0
+    h: 114.0
 ---
 # {{ params.vars.title }}
 Mount Etna erupted on Dec. 14 2020 sending lava {{ params.h }} $m$ into the air.

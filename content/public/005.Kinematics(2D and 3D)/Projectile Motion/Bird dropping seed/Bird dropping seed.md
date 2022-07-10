@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 5.5.1.0
 difficulty:
@@ -37,7 +38,7 @@ substitutions:
   params:
     vars:
       title: Seed Dropped by a Bird
-    v: 3
+    v: 5
     part1:
       ans1:
         value: directly overhead.

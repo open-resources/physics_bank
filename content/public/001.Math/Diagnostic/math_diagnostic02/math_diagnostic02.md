@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 1.3.1.0
 difficulty:
@@ -31,17 +32,17 @@ substitutions:
   params:
     vars:
       title: Significant Figures
-    x: 426.65963586
-    sf: 6
+    x: 294.8274803
+    sf: 5
     part1:
       ans1:
-        value: 426.66
+        value: 294.83
       ans2:
-        value: 426.76000000000005
+        value: 294.93
       ans3:
-        value: 426.659636
+        value: 294.82748
       ans4:
-        value: 416.66
+        value: 284.83
 ---
 # {{ params.vars.title }}
 

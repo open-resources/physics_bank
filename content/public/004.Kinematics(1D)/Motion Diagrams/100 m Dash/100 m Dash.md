@@ -8,6 +8,7 @@ attribution: standard
 partialCredit: true
 singleVariant: false
 gradingMethod: Manual
+showCorrectAnswer: false
 outcomes:
 - 4.2.1.0
 - 4.2.1.1
@@ -34,8 +35,8 @@ substitutions:
   params:
     vars:
       title: 100 m Dash
-    d1: 20
-    d2: 80
+    d1: 10
+    d2: 90
 ---
 # {{ params.vars.title }}
 In the 100 $m$ dash sprinters speed up from rest for the first {{ params.d1 }} $m$, and maintain their speed for the final {{ params.d2 }} $m$.

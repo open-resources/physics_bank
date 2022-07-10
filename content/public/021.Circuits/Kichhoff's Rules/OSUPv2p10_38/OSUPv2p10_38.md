@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.12.1.0
 difficulty:
@@ -73,11 +74,11 @@ substitutions:
   params:
     vars:
       title: Circuit with Multiple Loops
-    R1: '13.0'
-    R2: '5.0'
-    R3: '6.0'
-    I1: '2.0'
-    V2: '20.0'
+    R1: '12.0'
+    R2: '3.0'
+    R3: '9.0'
+    I1: '3.0'
+    V2: '23.0'
 ---
 # {{ params.vars.title }}
 Consider the circuit shown below.

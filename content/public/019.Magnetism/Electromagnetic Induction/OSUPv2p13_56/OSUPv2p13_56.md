@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 19.8.6.0
 difficulty:
@@ -41,10 +42,10 @@ substitutions:
   params:
     vars:
       title: Square Coil
-    N: '10'
+    N: '20'
     l: '30'
-    B: '0.060'
-    E: '40'
+    B: '0.070'
+    E: '35'
 ---
 # {{ params.vars.title }}
 

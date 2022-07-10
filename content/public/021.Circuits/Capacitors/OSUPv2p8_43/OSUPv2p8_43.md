@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.7.1.0
 - 21.7.1.1
@@ -53,7 +54,7 @@ substitutions:
   params:
     vars:
       title: Heart Defibrillator
-    c: '13.0'
+    c: '20.0'
     v: '7.0'
 ---
 # {{ params.vars.title }}

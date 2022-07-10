@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol1
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 3.5.1.0
 - 3.5.1.1
@@ -34,22 +35,22 @@ substitutions:
     vars:
       title: Motion of an Airplane
       units: km
-    v1: 25
-    v2: 72
-    a1: 31
-    a2: 70
+    v1: 88
+    v2: 53
+    a1: 64
+    a2: 47
     dir1: south
     part1:
       ans1:
-        value: 71.6 km in a direction 49.9 degrees south of east.
+        value: 84.9 km in a direction 28.4 degrees south of east.
       ans2:
-        value: 71.6 km in a direction 49.9 degrees north of east.
+        value: 84.9 km in a direction 28.4 degrees north of east.
       ans3:
-        value: 5122.1 km in a direction 49.9 degrees south of east.
+        value: 7210.1 km in a direction 28.4 degrees south of east.
       ans4:
-        value: 5122.1 km in a direction 49.9 degrees north  of east.
+        value: 7210.1 km in a direction 28.4 degrees north  of east.
       ans5:
-        value: 71.6 km in a direction 89.2 degrees north of east.
+        value: 84.9 km in a direction 90.5 degrees north of east.
 ---
 # {{ params.vars.title }}
 A small plane flies {{params.v1}} km in a direction {{params.a1}} degrees {{params.dir1}} of east and then flies {{params.v2}} km in a direction {{params.a2}} degrees north of east.

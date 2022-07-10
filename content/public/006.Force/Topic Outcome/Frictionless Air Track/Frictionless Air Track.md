@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 6.1.1.4
 - 2.4.1.2
@@ -57,23 +58,23 @@ substitutions:
   params:
     vars:
       title: A Frictionless Air Track?
-      name: Savannah
+      name: Santiago
       units: $m/s^2$
-    m1: 323.4
-    m2: 30.76
+    m1: 163.3
+    m2: 37.76
     d_a: 0.03
-    mean: 1.53
-    sd: 0.19
-    a1: 1.3
-    a2: 1.31
-    a3: 1.6
-    a4: 1.31
-    a5: 1.7
-    a6: 1.74
-    a7: 1.79
-    a8: 1.54
-    a9: 1.68
-    a10: 1.32
+    mean: 1.63
+    sd: 0.115
+    a1: 1.59
+    a2: 1.63
+    a3: 1.53
+    a4: 1.75
+    a5: 1.75
+    a6: 1.53
+    a7: 1.78
+    a8: 1.76
+    a9: 1.43
+    a10: 1.59
     part4:
       ans1:
         value: The track is frictionless because $a_{expected}$ does not agree with

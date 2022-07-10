@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 10.4.1.1
 difficulty:
@@ -36,11 +37,11 @@ substitutions:
     vars:
       title: Centre of Mass of a Baton
       units: $m$
-    m1: 0.14
-    m2: 0.063
-    m3: 0.077
-    l1: 1.2
-    l2: 1.5
+    m1: 0.19
+    m2: 0.12
+    m3: 0.12
+    l1: 0.64
+    l2: 1.1
 ---
 # {{ params.vars.title }}
 

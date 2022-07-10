@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 5.6.1.0
 difficulty:
@@ -50,8 +51,8 @@ substitutions:
       title: Roller Coaster
       units: m/s
       units_2: N
-    r: 14.0
-    m: 207
+    r: 12.0
+    m: 201
 ---
 # {{ params.vars.title }}
 A roller-coaster car moves around a vertical circular loop of radius $R$ = {{params.r}} m.

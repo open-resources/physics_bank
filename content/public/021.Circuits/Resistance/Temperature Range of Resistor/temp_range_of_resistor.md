@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.3.1.0
 - 21.3.3.0
@@ -42,9 +43,9 @@ substitutions:
   params:
     vars:
       title: Temperature Range of Resistor
-    p: 5
-    metal: Manganin
-    T_0: 146
+    p: 10
+    metal: Tungsten
+    T_0: 62
 ---
 # {{ params.vars.title }}
 

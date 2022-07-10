@@ -5,6 +5,7 @@ author: Ava Cornell
 source: 2.13.40
 template_version: 1.1
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - 19.8.6.0
 difficulty:
@@ -35,10 +36,10 @@ substitutions:
   params:
     vars:
       title: Rotating Coil
-    N: '1000'
+    N: '700'
     a: '20'
-    t: '0.015'
-    B: '6.0'
+    t: '0.005'
+    B: '5.0'
 ---
 # {{ params.vars.title }}
 

@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 19.2.4.3
 - 19.2.4.7
@@ -43,8 +44,8 @@ substitutions:
   params:
     vars:
       title: Current loop
-    I: '6.80'
-    B: $2.20\times 10^{-5}$
+    I: '5.60'
+    B: $1.80\times 10^{-5}$
 ---
 # {{ params.vars.title }}
 When the current through a circular loop is {{ params.I }}$\rm\ A$, the magnetic field at its centre is {{ params.B }} $\rm\ T$.

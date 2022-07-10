@@ -5,6 +5,7 @@ author: Ammar Zavahir
 source: original
 template_version: 1.0
 attribution: standard
+showCorrectAnswer: false
 outcomes:
 - 5.8.1.3
 - 5.5.1.2

@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 5.1.1.1
 - 5.11.1
@@ -32,7 +33,7 @@ substitutions:
   params:
     vars:
       title: Velocity and Net Force
-    t: 2
+    t: 1
     part1:
       ans1:
         value: Velocity is negative, net force is to the left

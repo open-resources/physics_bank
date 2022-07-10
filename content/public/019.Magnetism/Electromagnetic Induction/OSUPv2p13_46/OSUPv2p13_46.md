@@ -5,6 +5,7 @@ author: Ava Cornell
 source: 2.13.46
 template_version: 1.1
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - 19.8.6.0
 difficulty:
@@ -78,8 +79,8 @@ substitutions:
   params:
     vars:
       title: Circuit with Resistance
-    B: '0.50'
-    v: '20'
+    B: '2.00'
+    v: '5'
     part3:
       ans1:
         value: Clockwise

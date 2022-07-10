@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 19.8.6.0
 - 19.8.6.1
@@ -49,8 +50,8 @@ substitutions:
   params:
     vars:
       title: Uniformly Decreasing Magnetic Field
-    r: '10'
-    B: '2.5'
+    r: '15'
+    B: '3.0'
     t: '10'
     part2:
       ans1:

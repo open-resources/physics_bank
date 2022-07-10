@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 7.5.1.2
 - 7.5.1.1
@@ -35,14 +36,14 @@ substitutions:
       title: Isolated Systems
     part1:
       ans1:
+        value: A system is isolated if all of the external forces on it are balanced
+      ans2:
+        value: A system is isolated if energy isn't entering or leaving the system
+      ans3:
         value: A system is isolated if its center of mass is moving with constant
           velocity
-      ans2:
-        value: A system is isolated if its total momentum is constant
-      ans3:
-        value: A system is isolated if all of the external forces on it are balanced
       ans4:
-        value: A system is isolated if energy isn't entering or leaving the system
+        value: A system is isolated if its total momentum is constant
 ---
 # {{ params.vars.title }}
 

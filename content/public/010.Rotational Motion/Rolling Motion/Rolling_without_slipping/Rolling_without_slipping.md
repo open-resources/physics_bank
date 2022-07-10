@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 10.3.2.1
 difficulty:
@@ -30,7 +31,7 @@ substitutions:
   params:
     vars:
       title: Rolling without slipping
-      name: Mateo
+      name: Ahmed
     part1:
       ans1:
         value: The hoop, because it has less rotational intera, less of its total

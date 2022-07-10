@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 6.11.2.1
 - 8.5.1.1
@@ -32,18 +33,18 @@ substitutions:
   params:
     vars:
       title: Compressed Spring To Launch Mass
-    choice: quartered
+    choice: doubled
     part1:
       ans1:
-        value: 1/16$h$
+        value: 4$h$
       ans2:
         value: 9$h$
       ans3:
-        value: 1/4$h$
+        value: 1/16$h$
       ans4:
-        value: 16$h$
+        value: 1/4$h$
       ans5:
-        value: 4$h$
+        value: 16$h$
 ---
 # {{ params.vars.title }}
 A spring is compressed a distance $\Delta$$s$ and is used to launch a mass $m$ vertically to a height $h$ above it's starting position.

@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.7.1.0
 - 21.7.6.0
@@ -69,10 +70,10 @@ substitutions:
   params:
     vars:
       title: Analyzing Potential Difference and Electric Field
-    q: '6.0'
+    q: '10.0'
     c: '5.0'
-    d: '4.0'
-    k: '6.0'
+    d: '2.0'
+    k: '7.0'
 ---
 # {{ params.vars.title }}
 A parallel-plate capacitor has charge of magnitude {{params.q }} $\rm\ \mu\textrm{C}$ on each plate and capacitance {{params.c }} $\rm\ \mu\textrm{F}$  when there is air between the plates.

@@ -5,6 +5,7 @@ author: Jake Bobowski
 source: 2013 Practice Final Q10
 template_version: 1.2
 attribution: standard
+showCorrectAnswer: false
 outcomes:
 - 10.4.1.1
 difficulty:
@@ -46,9 +47,9 @@ substitutions:
     vars:
       title: Rolling Disk of Spruce and Steel
       units: $kg$
-    rho_spruce: 468.0
-    rho_steel: 7820.0
-    w_disk: 25.7
+    rho_spruce: 422.0
+    rho_steel: 7880.0
+    w_disk: 23.7
     part3:
       ans1:
         value: $x$ = 1 $cm$, $y$ = 0 $cm$

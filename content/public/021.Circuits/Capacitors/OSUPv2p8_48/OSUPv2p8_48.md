@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.7.1.0
 - 21.7.5.0
@@ -57,10 +58,10 @@ substitutions:
   params:
     vars:
       title: Varying Separation Distance of Capacitor Plates
-    a: '20.0'
+    a: '15.0'
     b: '1.25'
-    c: '2.25'
-    v: '50'
+    c: '2.50'
+    v: '70'
     part3:
       ans1:
         value: It is lost to the surroundings in the laboratory

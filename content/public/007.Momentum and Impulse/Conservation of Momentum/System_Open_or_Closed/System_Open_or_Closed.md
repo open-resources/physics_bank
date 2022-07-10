@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 7.5.1.1
 - 7.5.1.4
@@ -32,11 +33,11 @@ substitutions:
   params:
     vars:
       title: System Open or Closed
-      vehicle_c: Truck
-      vehicle: truck
+      vehicle_c: Bus
+      vehicle: bus
       units: kg
-    i_a: 65
-    i_b: 304
+    i_a: 69
+    i_b: 329
     part1:
       ans1:
         value: Yes, because the two carts are on a track with no friction.

@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 1.2.1.4
 difficulty:
@@ -29,7 +30,7 @@ part1:
     weight: 1
 substitutions:
   params:
-    t: 3
+    t: 0
     vars:
       title: Acceleration from Velocity Graph
     part1:

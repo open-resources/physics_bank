@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.8.2.0
 - 21.8.3.0
@@ -57,8 +58,8 @@ substitutions:
   params:
     vars:
       title: Greatest and Least Resistor Combinations
-    R1: '16.0'
-    R2: '57.0'
+    R1: '26.0'
+    R2: '58.0'
     R3: '750'
 ---
 # {{ params.vars.title }}

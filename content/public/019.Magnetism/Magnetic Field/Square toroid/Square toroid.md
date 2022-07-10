@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 19.2.4.0
 difficulty:
@@ -42,10 +43,10 @@ substitutions:
   params:
     vars:
       title: Square toroid
-    N: '365'
-    d: '4.4'
-    r: '23'
-    I: '1.0'
+    N: '521'
+    d: '4.6'
+    r: '30'
+    I: '2.0'
 ---
 # {{ params.vars.title }}
 A toroid with a square cross section {{ params.d }}$\textrm{ cm}\times${{ params.d }}$\textrm{ cm}$ has an inner radius of {{ params.r }}$\textrm{ cm}$.

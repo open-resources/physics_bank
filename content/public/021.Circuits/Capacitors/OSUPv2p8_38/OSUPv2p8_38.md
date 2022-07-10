@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.7.1.0
 - 21.7.1.1
@@ -73,8 +74,8 @@ substitutions:
     vars:
       title: Charging Capacitors
     a: '45'
-    b: '10'
-    v: '600'
+    b: '20'
+    v: '300'
 ---
 # {{ params.vars.title }}
 A {{params.a }} $\textrm{ pF}$ capacitor is charged to a potential difference of {{params.v }} $\textrm{ V}$. Its terminals are then connected to those of an uncharged {{params.b }} $\textrm{ pF}$ capacitor.

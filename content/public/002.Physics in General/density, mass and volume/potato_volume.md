@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 13.2.1.2
 difficulty:
@@ -48,13 +49,13 @@ part3:
 substitutions:
   params:
     vars:
-      name: Aliyah
+      name: Savannah
       title: Potato Volume
       mass_units: kg
       volume_units: m^3
-      mass_potato: 333
-      mass_cube: 52
-      cube_side_length: 3.6636535178644594
+      mass_potato: 383
+      mass_cube: 38
+      cube_side_length: 1.6954010101186565
 ---
 # {{ params.vars.title }}
 For our first lab, {{params.vars.name}} decides to measure the density of a potato.

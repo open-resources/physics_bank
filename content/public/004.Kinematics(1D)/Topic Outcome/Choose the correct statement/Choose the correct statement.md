@@ -5,6 +5,7 @@ author: Jake Bobowski
 source: 2013 Midterm 1 Section 001 Q3
 template_version: 1.2
 attribution: standard
+showCorrectAnswer: false
 outcomes:
 - 1.2.1.10
 - 4.3.1.3

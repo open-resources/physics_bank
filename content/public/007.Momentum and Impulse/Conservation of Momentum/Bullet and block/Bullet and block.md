@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes: null
 difficulty:
 - undefined
@@ -41,14 +42,14 @@ substitutions:
   params:
     vars:
       title: Bullet and Block
-      name: Savannah
+      name: Maya
       units1: m/s
       units2: kg
-    m_bullet: 27
-    m_block: 11
-    bullet_v: 830
+    m_bullet: 39
+    m_block: 12
+    bullet_v: 896
     slide_d: 4
-    slide_dnew: 4.9
+    slide_dnew: 4.2
     coeff_k: 0.2
 ---
 # {{ params.vars.title }}

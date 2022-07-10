@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 1.5.1.9
 difficulty:
@@ -32,16 +33,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{48x + 56y }{ -8 }$
+    expr: $\dfrac{24x - 24y }{ 8 }$
     part1:
       ans1:
-        value: $- 6 x - 7 y$
+        value: $3 x - 3 y$
       ans2:
-        value: $\dfrac{-6x - 7y}{-8}$
+        value: $\dfrac{3x - 3y}{8}$
       ans3:
-        value: $-7x - 6y$
+        value: $-3x + 3y$
       ans4:
-        value: $48x - 56y$
+        value: $24x - 24y$
       ans5:
         value: Don't know.
 ---

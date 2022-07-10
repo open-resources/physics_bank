@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.7.1.0
 - 21.7.2.0
@@ -45,11 +46,11 @@ substitutions:
   params:
     vars:
       title: Adding Capacitances
-    a: '4'
-    b: '8'
-    c: '1.5'
+    a: '6'
+    b: '4'
+    c: '4.5'
     d: '4.5'
-    e: '1.50'
+    e: '0.75'
     f: '9'
 ---
 # {{ params.vars.title }}

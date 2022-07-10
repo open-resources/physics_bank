@@ -5,6 +5,7 @@ author: Ava Cornell
 source: 2.13.37
 template_version: 1.1
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - 19.8.4.0
 difficulty:
@@ -35,9 +36,9 @@ substitutions:
   params:
     vars:
       title: Radio Antenna
-    l: '0.5'
-    v: '125'
-    B: '6.5'
+    l: '1.5'
+    v: '50'
+    B: '7.0'
 ---
 # {{ params.vars.title }}
 

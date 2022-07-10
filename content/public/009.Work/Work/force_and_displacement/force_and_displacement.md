@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 9.1.1.1
 - 9.2.1.1
@@ -32,19 +33,19 @@ substitutions:
     vars:
       title: Force and Displacement
       units: J
-    f1: -7
-    f2: 4
-    r1: 17
-    r2: -2
+    f1: -1
+    f2: 16
+    r1: 14
+    r2: -18
     part1:
       ans1:
-        value: -127
+        value: -302
       ans2:
-        value: 127
+        value: 302
       ans3:
-        value: -111
+        value: 274
       ans4:
-        value: 111
+        value: -274
       ans5:
         value: Zero
 ---

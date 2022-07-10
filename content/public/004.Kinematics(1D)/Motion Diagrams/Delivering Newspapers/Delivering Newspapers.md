@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 4.2.1.0
 difficulty:
@@ -31,20 +32,20 @@ substitutions:
   params:
     vars:
       title: Delivering Newspapers
-      name: Santiago
+      name: Abbas
     part1:
       ans1:
         value: '2'
       ans2:
-        value: '4'
+        value: '3'
       ans3:
         value: '6'
       ans4:
-        value: '1'
+        value: '4'
       ans5:
-        value: '3'
+        value: '5'
       ans6:
-        value: '7'
+        value: '1'
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} delivers newspapers by throwing them out of the passenger window of their car, perpendicular to the motion of their car.

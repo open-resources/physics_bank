@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.2.1.0
 - 21.2.1.1
@@ -37,8 +38,8 @@ substitutions:
     vars:
       title: Electrons In a Wire
       units: m/s
-    I: 115
-    t: 40
+    I: 197
+    t: 21
 ---
 # {{ params.vars.title }}
 

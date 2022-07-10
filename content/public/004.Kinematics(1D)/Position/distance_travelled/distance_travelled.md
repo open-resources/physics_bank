@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - undefined
 difficulty:
@@ -29,25 +30,25 @@ part1:
 substitutions:
   params:
     vars:
-      name: Maya
-      vehicle: a bicycle
+      name: Ximena
+      vehicle: rollerblades
       units: m
       title: Distance travelled
     v: 3
-    t: 10
+    t: 8
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 30
+        value: 24
       ans3:
-        value: 13
+        value: 11
       ans4:
-        value: 0.3
+        value: 0.38
       ans5:
-        value: -7
+        value: -5
       ans6:
-        value: -9.1
+        value: -6.5
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is traveling on {{ params.vars.vehicle }} at {{ params.v }} {{ params.vars.units }}.

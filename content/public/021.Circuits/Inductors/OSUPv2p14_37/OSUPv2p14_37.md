@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.14.2.2
 difficulty:
@@ -45,8 +46,8 @@ substitutions:
   params:
     vars:
       title: Rate of Change of Current in a Coil
-    L: '0.100'
-    V: '0.320'
+    L: '0.350'
+    V: '0.170'
 ---
 # {{ params.vars.title }}
 

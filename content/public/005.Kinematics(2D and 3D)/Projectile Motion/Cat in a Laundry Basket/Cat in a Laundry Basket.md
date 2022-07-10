@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 5.5.1.0
 - 1.1.1.0
@@ -36,7 +37,7 @@ substitutions:
   params:
     vars:
       title: Cat in a Laundry Basket
-    w: 23
+    w: 33
     h: 35
     part1:
       ans1:

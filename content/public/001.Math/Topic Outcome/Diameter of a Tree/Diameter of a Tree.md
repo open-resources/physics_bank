@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 1.1.1.0
 - 2.2.1.3
@@ -35,9 +36,9 @@ substitutions:
   params:
     vars:
       title: Diameter of a Tree
-    h_t1: 5.42
-    d_t1: 23
-    h_t2: 28.5
+    h_t1: 7.19
+    d_t1: 35
+    h_t2: 23.0
 ---
 # {{ params.vars.title }}
 

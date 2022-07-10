@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.14.2.2
 difficulty:
@@ -39,10 +40,10 @@ substitutions:
   params:
     vars:
       title: Alternating Current in a Coil
-    I0: '1.0'
-    L: '2.0'
-    k: '114'
-    mult: '228'
+    I0: '3.0'
+    L: '3.0'
+    k: '120'
+    mult: '1080'
 ---
 # {{ params.vars.title }}
 A coil with a self-inductance of ${{ params.L }}\rm\ H$ carries a current that varies with time according to $I(t) = ({{ params.I0 }}{\rm\ A}) \sin{\!({{ params.k }} \pi t)}$.

@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.4.1.1
 - 21.14.3.0
@@ -115,10 +116,10 @@ substitutions:
   params:
     vars:
       title: Switched RL Series Circuit
-    num: '3'
-    emf: '15.0'
+    num: ''
+    emf: '12.0'
     L: '21.0'
-    R: '7.00'
+    R: '3.00'
 ---
 # {{ params.vars.title }}
 Consider the $RL$ circuit shown below.

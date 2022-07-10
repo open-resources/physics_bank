@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 7.5.1.1
 - 9.1.1.1
@@ -43,7 +44,7 @@ part3:
 substitutions:
   params:
     vars:
-      name: Ahmed
+      name: Emilia
       title: Lowering a bucket - the rope, the bucket, the air, the earth
     part1:
       ans1:

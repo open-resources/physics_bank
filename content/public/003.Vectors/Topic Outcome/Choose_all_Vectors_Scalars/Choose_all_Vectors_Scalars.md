@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 2.1.1.0
 difficulty:
@@ -35,17 +36,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Work
+        value: Volume
       ans2:
-        value: Speed
+        value: Length
       ans3:
-        value: Density
+        value: velocity
       ans4:
-        value: Displacement
-      ans5:
-        value: Drag
-      ans6:
         value: The position in 3 dimensions
+      ans5:
+        value: The position in a 1 dimensional system
+      ans6:
+        value: Force
 ---
 # {{ params.vars.title }}
 

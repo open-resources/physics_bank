@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 19.2.4.1
 difficulty:
@@ -70,7 +71,7 @@ substitutions:
       title: Magnetic field of a hollow cylinder
     r1: '3.0'
     r2: '5.0'
-    I: '40.0'
+    I: '35.0'
     ra: '2.0'
     rb: '4.0'
     rc: '6.0'

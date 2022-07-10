@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 5.8.1.3
 difficulty:
@@ -39,9 +40,9 @@ substitutions:
   params:
     vars:
       title: Rutland Rd
-      vehicle: sedan
+      vehicle: van
       units: km/h
-    v: 28
+    v: 29
     part2:
       ans1:
         value: North

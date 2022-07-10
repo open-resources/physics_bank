@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 18.1.1.3
 difficulty:
@@ -44,7 +45,7 @@ substitutions:
   params:
     vars:
       title: Accelerating electrons
-    f_s: $5.00\times 10^5$
+    f_s: $5.40\times 10^5$
 ---
 # {{ params.vars.title }}
 A simple and common technique for accelerating electrons is shown in the figure, where there is a uniform electric field between two plates.

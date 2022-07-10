@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.3.1.1
 - 21.2.1.
@@ -43,9 +44,9 @@ substitutions:
     vars:
       title: Current Through A Silicon Rod
       units: "$\textrm{A}$"
-    d: 3.88
-    l: 41.3
-    V: 73
+    d: 3.07
+    l: 48.3
+    V: 27
 ---
 # {{ params.vars.title }}
 

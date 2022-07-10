@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 4.7.3.0
 difficulty:
@@ -35,9 +36,9 @@ substitutions:
     vars:
       title: The Magnitude of a Particle's Vector
       units: $m/s$
-    r_i: $-5t^3 + 4t^2 - 8t$
-    r_j: $5t^2 - 3t$
-    t: $8$
+    r_i: $4t^2 + t$
+    r_j: $-6t^3 + 9t^2 - t$
+    t: $19$
     choice: acceleration
 ---
 # {{ params.vars.title }}

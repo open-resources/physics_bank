@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes: null
 difficulty:
 - undefined
@@ -40,13 +41,13 @@ part2:
 substitutions:
   params:
     vars:
-      name: Emilia
+      name: Santiago
       title: Archery Competition
       units: m/s
-    x: 81
-    arrow_v: 287
-    theta: 12
-    height: 169
+    x: 71
+    arrow_v: 185
+    theta: 15
+    height: 205
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is reading a novel that describes an athelete participating in an archery competition.

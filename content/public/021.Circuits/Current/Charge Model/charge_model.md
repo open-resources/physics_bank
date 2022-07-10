@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.2.1.0
 difficulty:
@@ -43,10 +44,10 @@ substitutions:
     vars:
       title: Charge Model
       units: A
-    c1: 23
-    c2: 1
-    c3: 31
-    t: 24
+    c1: 20
+    c2: 43
+    c3: 15
+    t: 9
 ---
 # {{ params.vars.title }}
 The quantity of charge through a conductor is modeled as $ \textrm{Q}=$ {{params.c1}}$\rm{t^4}$ $\rm{mC \over s^4}$ - {{params.c2}}$\rm{t}$ $\rm{mC \over s}$ + {{params.c1}} $\rm{mC}$.

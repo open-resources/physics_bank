@@ -5,6 +5,7 @@ author: Jake Bobowski
 source: 2017 Midterm 1 (002) Q7
 template_version: 1.1
 attribution: standard
+showCorrectAnswer: false
 outcomes:
 - 4.2.1.0
 - 4.4.1.1

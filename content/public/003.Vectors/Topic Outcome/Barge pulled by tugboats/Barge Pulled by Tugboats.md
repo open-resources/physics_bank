@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol1
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 3.1.1.2
 - 3.4.1.0
@@ -81,23 +82,23 @@ substitutions:
   params:
     vars:
       title: Barge Pulled by Tugboats
-    F1: 4249
-    F2: 4967
-    theta_1: 37
-    theta_2: 6
+    F1: 4293
+    F2: 4198
+    theta_1: 12
+    theta_2: 9
     part6:
       ans1:
-        value: 13.7$^{\circ}$ to the left of AB.
+        value: 1.62$^{\circ}$ to the left of AB.
       ans2:
-        value: 13.7$^{\circ}$ to the right of AB.
+        value: 1.62$^{\circ}$ to the right of AB.
       ans3:
-        value: 76.3$^{\circ}$ to the left of AB.
+        value: 88.4$^{\circ}$ to the left of AB.
       ans4:
-        value: 76.3$^{\circ}$ to the right of AB.
+        value: 88.4$^{\circ}$ to the right of AB.
       ans5:
-        value: 137.0$^{\circ}$ to the left of AB.
+        value: 16.2$^{\circ}$ to the left of AB.
       ans6:
-        value: 137.0$^{\circ}$ to the right of AB.
+        value: 16.2$^{\circ}$ to the right of AB.
 ---
 # {{ params.vars.title }}
 A barge is pulled by the two tugboats shown in the following figure.

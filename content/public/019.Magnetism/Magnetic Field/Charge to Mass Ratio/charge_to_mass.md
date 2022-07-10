@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 19.5.1.0
 - 19.3.2.0
@@ -42,9 +43,9 @@ substitutions:
   params:
     vars:
       title: Velocity Selector
-    B: 0.413
-    E: 2.0
-    r: 1.87
+    B: 0.487
+    E: 2.2
+    r: 1.49
 ---
 # {{ params.vars.title }}
 

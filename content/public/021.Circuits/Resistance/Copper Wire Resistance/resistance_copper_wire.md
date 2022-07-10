@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.3.1.1
 difficulty:
@@ -42,8 +43,8 @@ substitutions:
     vars:
       title: Resistance Of A Copper Wire
       units: Ohms
-    d: 6.031
-    l: 4.4
+    d: 6.459
+    l: 10.6
 ---
 # {{ params.vars.title }}
 

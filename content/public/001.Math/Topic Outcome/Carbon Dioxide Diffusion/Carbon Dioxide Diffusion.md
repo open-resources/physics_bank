@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 1.1.1.0
 difficulty:
@@ -64,9 +65,9 @@ substitutions:
       title: Carbon Dioxide Diffusion
       unit1: $m^2/s$
       unit2: $s$
-    water: 2.0
-    air: 1.7
-    time: 6
+    water: 2.2
+    air: 2.0
+    time: 5
     const: 5
     part3:
       ans1:

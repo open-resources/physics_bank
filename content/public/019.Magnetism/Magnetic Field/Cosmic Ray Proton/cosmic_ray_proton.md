@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 19.2.1.0
 - 19.2.1.1
@@ -39,9 +40,9 @@ substitutions:
   params:
     vars:
       title: Cosmic Ray Proton
-    v: 9.97
-    F: 1.16
-    theta: 70
+    v: 3.8
+    F: 1.05
+    theta: 67
 ---
 # {{ params.vars.title }}
 

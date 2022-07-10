@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 7.2.1.1
 - 7.5.1.4
@@ -45,9 +46,9 @@ substitutions:
     vars:
       title: Uranium Fragments
       units: amu
-    frag_speed: 2.8
-    dn_speed: 3.01
-    orig_mass: $^{238}\mathrm{U}$
+    frag_speed: 1.1
+    dn_speed: 2.7
+    orig_mass: $^{234}\mathrm{U}$
 ---
 # {{ params.vars.title }}
 A radioactive {{params.orig_mass}} uranium nucleus is initially at rest.

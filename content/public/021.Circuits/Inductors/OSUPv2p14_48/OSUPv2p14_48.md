@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.14.2.3
 difficulty:
@@ -44,7 +45,7 @@ substitutions:
   params:
     vars:
       title: Energy Stored in Different Coils
-    num: '3'
+    num: '2'
 ---
 # {{ params.vars.title }}
 Solenoid $A$ is tightly wound while solenoid $B$ has windings that are evenly spaced with a gap equal to ${\rm {{ params.num }}} d$, where $d$ is the diameter of the wire.

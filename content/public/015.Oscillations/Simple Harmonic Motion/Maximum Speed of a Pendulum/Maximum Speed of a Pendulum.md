@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 15.2.1.3
 difficulty:
@@ -34,7 +35,7 @@ substitutions:
   params:
     vars:
       title: Maximum Speed of a Pendulum
-    choice: quadrupled
+    choice: halved
 ---
 # {{ params.vars.title }}
 A  simple  pendulum  swings  at  small  angles.

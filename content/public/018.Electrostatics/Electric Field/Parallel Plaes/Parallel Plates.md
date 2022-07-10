@@ -5,6 +5,7 @@ author: Jake Bobowski
 source: 2.6.67
 template_version: 1.0
 attribution: openstax-physics-vol2
+showCorrectAnswer: false
 outcomes:
 - 18.9.1.2
 - 18.9.1.5
@@ -45,10 +46,10 @@ part2:
     weight: 1
 substitutions:
   params:
-    L: '9'
-    q: '2.8'
-    p: '-10'
-    d: '1.5'
+    L: '11'
+    q: '5.2'
+    p: '-8'
+    d: '1.0'
     part2:
       ans1:
         value: points towards the negative plate

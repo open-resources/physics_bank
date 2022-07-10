@@ -5,6 +5,7 @@ author: Jake Bobowski
 source: 2013 Midterm 1 (Section 001) Q1
 template_version: 1.2
 attribution: standard
+showCorrectAnswer: false
 outcomes:
 - 5.5.1.0
 difficulty:

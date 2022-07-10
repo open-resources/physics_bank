@@ -7,6 +7,7 @@ template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
+showCorrectAnswer: false
 outcomes:
 - 21.1.1.6
 - 21.12.1.0
@@ -72,12 +73,12 @@ substitutions:
   params:
     vars:
       title: Electrical Appliances Plugged into an Outlet
-    P_T: '1860'
-    P_S: '1430'
-    P_L: '70.0'
-    I_F: '28.0'
-    V: '150.0'
-    prep: a
+    P_T: '1890'
+    P_S: '1480'
+    P_L: '90.0'
+    I_F: '26.0'
+    V: '125.0'
+    prep: an
     part4:
       ans1:
         value: 'Yes'
