@@ -30,7 +30,8 @@ part1:
 substitutions:
   params:
     vars:
-      title: Force
+      title: Fridge Force Comparison
+      name: Abbas
     part1:
       ans1:
         value: $F_{yr} = 2F_{fr}$
@@ -48,11 +49,11 @@ substitutions:
         feedback: Consider any external forces resulting from rough surfaces! Also,
           make sure to clarify the difference between applied and net force.
       ans5:
-        value: Since $f_{s} \leq \mu_{s}n$ it is impossible to tell
+        value: Since $f_{s} \leq \mu_{s}n$, it is impossible to tell
         feedback: Is this static or kinetic friction? Does it depend on speed?
 ---
 # {{ params.vars.title }}
-You push a refrigerator (with force $\vec{F}_{yr}$) at a constant 1 $m/s$ across a level rough floor. A second identical refrigerator is pushed (with force $\vec{F}_{fr}$) across the same floor by your friend at a constant 2 $m/s$.
+{{ params.vars.name }} pushes a refrigerator (with force $\vec{F}_{yr}$) at a constant 1 $\rm{m/s}$ across a level rough floor. A second identical refrigerator is pushed (with force $\vec{F}_{fr}$) across the same floor by their friend at a constant 2 $\rm{m/s}$.
 
 ## Part 1
 

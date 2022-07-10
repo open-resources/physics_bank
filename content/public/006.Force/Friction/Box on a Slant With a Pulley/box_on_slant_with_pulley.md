@@ -39,7 +39,7 @@ substitutions:
       units: $kg$
     theta: 35
     mu: 0.6
-    m: 5
+    m: 1
 ---
 # {{ params.vars.title }}
 The figure shows a block of mass $m$ resting on a {{params.theta}}$^\circ$ slope.

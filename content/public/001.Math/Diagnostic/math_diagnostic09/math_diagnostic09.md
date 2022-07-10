@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $n$ = $\dfrac{(w)}{(b + 2h)} $
+    expr: $i$ = $\dfrac{(a)}{(x - 10v)} $
     part1:
       ans1:
-        value: b = ${ - 2 h + \frac{w}{n}}$
+        value: x = ${ \frac{a}{i} + 10 v}$
       ans2:
-        value: b = ${\frac{2 h n}{w}}$
+        value: x = ${- \frac{10 i v}{a}}$
       ans3:
-        value: b = ${\frac{w}{2 h n}}$
+        value: x = ${- \frac{a}{10 i v}}$
       ans4:
-        value: b = ${\frac{- 2 h + n}{w}}$
+        value: x = ${\frac{i + 10 v}{a}}$
       ans5:
         value: Don't Know
 ---
