@@ -32,8 +32,8 @@ substitutions:
   params:
     vars:
       title: Direction of Movement of the Elevator
-    m_st: 441
-    m_sc: 421
+    m_st: 790
+    m_sc: 774
     part1:
       ans1:
         value: The elevator is moving Downwards, with gravity.

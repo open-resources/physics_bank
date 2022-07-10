@@ -32,7 +32,7 @@ substitutions:
   params:
     vars:
       title: Velocity and Net Force
-    t: 3
+    t: 0
     part1:
       ans1:
         value: Velocity is negative, net force is to the left

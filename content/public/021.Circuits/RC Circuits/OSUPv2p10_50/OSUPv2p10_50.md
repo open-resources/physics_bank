@@ -44,9 +44,9 @@ substitutions:
   params:
     vars:
       title: Capacitor in a Heart Pacemaker
-    rate: '78'
-    C: '23.0'
-    charge: '0.621'
+    rate: '70'
+    C: '24.5'
+    charge: '0.607'
 ---
 # {{ params.vars.title }}
 A heart pacemaker activates ${{ params.rate }}$ times per minute.

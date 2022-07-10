@@ -44,11 +44,11 @@ substitutions:
       name: Aliyah
       units1: m/s
       units2: kg
-    m_bullet: 29
-    m_block: 20
-    bullet_v: 752
-    slide_d: 2
-    slide_dnew: 3.0
+    m_bullet: 32
+    m_block: 14
+    bullet_v: 865
+    slide_d: 8
+    slide_dnew: 8.8
     coeff_k: 0.2
 ---
 # {{ params.vars.title }}

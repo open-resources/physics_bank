@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $u$ = $\dfrac{(l)}{(v - 9w)} $
+    expr: $n$ = $\dfrac{(w)}{(b + 2h)} $
     part1:
       ans1:
-        value: v = ${ \frac{l}{u} + 9 w}$
+        value: b = ${ - 2 h + \frac{w}{n}}$
       ans2:
-        value: v = ${- \frac{9 u w}{l}}$
+        value: b = ${\frac{2 h n}{w}}$
       ans3:
-        value: v = ${- \frac{l}{9 u w}}$
+        value: b = ${\frac{w}{2 h n}}$
       ans4:
-        value: v = ${\frac{u + 9 w}{l}}$
+        value: b = ${\frac{- 2 h + n}{w}}$
       ans5:
         value: Don't Know
 ---

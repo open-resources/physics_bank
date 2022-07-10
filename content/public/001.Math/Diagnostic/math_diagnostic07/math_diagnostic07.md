@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 4x - 1y = 44
-    formula2: 5x + 10y = 24
+    formula1: 8x - 2y = 2
+    formula2: 4x + 2y = 48
     part1:
       ans1:
-        value: ' x =464/45, y =-124/45'
+        value: ' x =25/6, y =47/3'
       ans2:
-        value: ' x =-124/45, y =464/45'
+        value: ' x =47/3, y =25/6'
       ans3:
-        value: ' x =-464/45, y =124/45'
+        value: ' x =-25/6, y =-47/3'
       ans4:
-        value: ' x =124/45, y =-464/45'
+        value: ' x =-47/3, y =-25/6'
       ans5:
         value: Don't Know
 ---

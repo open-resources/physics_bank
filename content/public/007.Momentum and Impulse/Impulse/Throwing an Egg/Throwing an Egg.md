@@ -32,7 +32,7 @@ substitutions:
   params:
     vars:
       title: Throwing an Egg
-      name: Aliyah
+      name: Santiago
     part1:
       ans1:
         value: The energy in the egg is not sufficient to allow it to break.

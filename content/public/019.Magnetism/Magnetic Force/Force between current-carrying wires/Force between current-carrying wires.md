@@ -46,9 +46,9 @@ substitutions:
   params:
     vars:
       title: Force between current-carrying wires
-    d: '11.0'
-    I1: '4.0'
-    I2: '7.4'
+    d: '6.0'
+    I1: '2.4'
+    I2: '7.2'
     txt: the same direction
     part2:
       ans1:

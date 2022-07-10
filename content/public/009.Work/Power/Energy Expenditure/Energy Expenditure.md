@@ -33,21 +33,21 @@ substitutions:
     vars:
       title: The Energy Expenditure of a Jogger
       units: W
-    F: 23
-    v: 4.3
+    F: 22
+    v: 8.0
     part1:
       ans1:
-        value: 9.9
+        value: 18.0
       ans2:
-        value: 99.0
+        value: 180.0
       ans3:
-        value: 430.0
+        value: 1400.0
       ans4:
-        value: 200.0
+        value: 350.0
       ans5:
-        value: 300.0
+        value: 530.0
       ans6:
-        value: 49.0
+        value: 88.0
 ---
 # {{ params.vars.title }}
 Suppose a jogger has to exert a force of {{ params.F }} $N$ against air resistance to maintain a velocity of {{ params.v }} $m/s$.
