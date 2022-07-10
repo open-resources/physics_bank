@@ -347,6 +347,7 @@ parts:
   - file: content/public/008.Energy/Kinetic Energy/KE_testmass/KE_testmass
   - file: content/public/008.Energy/Kinetic Energy/Kinetic Energy of a Simple Pendulum
       System/Kinetic Energy of a Simple Pendulum System
+  - file: content/public/008.Energy/Energy Diagrams/Potential Energy to Force/potential_energy_to_force
   - file: content/public/008.Energy/Exploding_Asteroid/Exploding_Asteroid
 - caption: Work
   chapters:
