@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $5^{9} $=$ 1953125$
+    expr: $9^{2} $=$ 81$
     part1:
       ans1:
-        value: $log_51953125 = 9$
+        value: $log_981 = 2$
       ans2:
-        value: $log_59 = 1953125$
+        value: $log_92 = 81$
       ans3:
-        value: $log_19531259 = 5$
+        value: $log_812 = 9$
       ans4:
-        value: $log_91953125 = 5$
+        value: $log_281 = 9$
       ans5:
         value: Don't Know
 ---

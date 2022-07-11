@@ -42,7 +42,7 @@ substitutions:
       title: Rutland Rd
       vehicle: van
       units: km/h
-    v: 29
+    v: 52
     part2:
       ans1:
         value: North

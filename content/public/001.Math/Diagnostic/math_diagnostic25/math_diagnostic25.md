@@ -31,7 +31,7 @@ substitutions:
   params:
     vars:
       title: Math Practice Q25
-    expr: $\dfrac{ 8-e^{(-8x)}}{6-x}$
+    expr: $\dfrac{ 8-e^{(-3x)}}{6-x}$
     part1:
       ans1:
         value: 7/6

@@ -37,20 +37,20 @@ substitutions:
     dir1: North
     dir2: West
     v_f: 95.1
-    v_w: 87.7
+    v_w: 84.5
     part1:
       ans1:
-        value: 129.0 $km/h$ 42.7$^\circ$ West of North
+        value: 127.0 $km/h$ 41.6$^\circ$ West of North
       ans2:
-        value: 183.0 $km/h$ 42.7$^\circ$ West of North
+        value: 180.0 $km/h$ 41.6$^\circ$ West of North
       ans3:
-        value: 88.2 $km/h$ 47.7$^\circ$ West of North
+        value: 85.1 $km/h$ 46.6$^\circ$ West of North
       ans4:
-        value: 88.2 $km/h$ 47.7$^\circ$ West of South
+        value: 85.1 $km/h$ 46.6$^\circ$ West of South
       ans5:
-        value: 183.0 $km/h$ 47.7$^\circ$ East of North
+        value: 180.0 $km/h$ 46.6$^\circ$ East of South
       ans6:
-        value: 88.2 $km/h$ 42.7$^\circ$ East of South
+        value: 85.1 $km/h$ 41.6$^\circ$ East of North
 ---
 # {{ params.vars.title }}
 A peregrine falcon flies at {{ params.v_f }} $km/h$ {{ params.dir1 }} (relative to the air) in a {{ params.v_w }} $km/h$ wind to the {{ params.dir2 }} (relative to the ground).

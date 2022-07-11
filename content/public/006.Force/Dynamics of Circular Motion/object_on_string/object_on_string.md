@@ -35,16 +35,16 @@ substitutions:
     vars:
       title: Object Swung in Circular Path
       units: N
-    m: 1.19
-    r: 1.72
-    w: 6
+    m: 1.75
+    r: 9.65
+    w: 2
     part1:
       ans1:
-        value: 62.02
+        value: 50.4
       ans2:
-        value: 53.63
+        value: -97.95
       ans3:
-        value: 73.68
+        value: 67.55
       ans4:
         value: 19.6
 ---

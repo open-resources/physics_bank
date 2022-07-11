@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $i$ = $\dfrac{(r)}{(j - 10c)} $
+    expr: $h$ = $\dfrac{(e)}{(g - 6w)} $
     part1:
       ans1:
-        value: j = ${ 10 c + \frac{r}{i}}$
+        value: g = ${ \frac{e}{h} + 6 w}$
       ans2:
-        value: j = ${- \frac{10 c i}{r}}$
+        value: g = ${- \frac{6 h w}{e}}$
       ans3:
-        value: j = ${- \frac{r}{10 c i}}$
+        value: g = ${- \frac{e}{6 h w}}$
       ans4:
-        value: j = ${\frac{10 c + i}{r}}$
+        value: g = ${\frac{h + 6 w}{e}}$
       ans5:
         value: Don't Know
 ---

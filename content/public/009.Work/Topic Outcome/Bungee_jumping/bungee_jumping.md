@@ -37,11 +37,11 @@ substitutions:
         value: The tension points down, and Mateo moves down, so negative work is
           done.
       ans2:
-        value: The tension points up, and Mateo moves down, so negative work is done.
-      ans3:
-        value: The tension point up, and Mateo moves up, so positive work is done.
-      ans4:
         value: The tension points up, and Mateo moves down, so positive work is done.
+      ans3:
+        value: The tension points up, and Mateo moves down, so negative work is done.
+      ans4:
+        value: The tension point up, and Mateo moves up, so positive work is done.
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} decides to go bungee jumping. Starting atop a very high bridge, elastic cords are tied to their feet and they jump off the bridge. Once {{ params.vars.name }} has fallen a certain distance, the force of the bungee cords slows their descent until they are at the lowest point.
