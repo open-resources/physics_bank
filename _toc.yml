@@ -144,6 +144,7 @@ parts:
   - file: content/public/004.Kinematics(1D)/Displacement/Position_From_Graph/Position_From_Graph
   - file: content/public/004.Kinematics(1D)/Displacement/Displacement of a vehicle/Displacement
       of a Vehicle
+  - file: content/public/004.Kinematics(1D)/Acceleration/Rocket_Dog/Rocket_Dog
   - file: content/public/004.Kinematics(1D)/Acceleration/Racing Markers/Racing Markers
   - file: content/public/004.Kinematics(1D)/Speed/Average Speed of Kinesin/Average
       Speed of Kinesin
