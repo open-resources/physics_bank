@@ -36,17 +36,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Mass
-      ans2:
         value: Length
-      ans3:
+      ans2:
         value: Temperature
+      ans3:
+        value: Distance travelled
       ans4:
-        value: Speed
+        value: Displacement
       ans5:
-        value: The position in a 1 dimensional system
+        value: Force
       ans6:
-        value: Drag
+        value: velocity
 ---
 # {{ params.vars.title }}
 

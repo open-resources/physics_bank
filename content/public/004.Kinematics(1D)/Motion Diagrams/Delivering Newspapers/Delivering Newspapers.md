@@ -32,7 +32,7 @@ substitutions:
   params:
     vars:
       title: Delivering Newspapers
-      name: Mateo
+      name: Maya
     part1:
       ans1:
         value: '2'
@@ -43,7 +43,7 @@ substitutions:
       ans4:
         value: '3'
       ans5:
-        value: '5'
+        value: '6'
       ans6:
         value: '4'
 ---

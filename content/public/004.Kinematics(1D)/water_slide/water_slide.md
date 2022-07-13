@@ -54,7 +54,7 @@ part4:
 substitutions:
   params:
     vars:
-      name: Ahmed
+      name: Savannah
       title: Water Slide
     theta: 30
     l: 100

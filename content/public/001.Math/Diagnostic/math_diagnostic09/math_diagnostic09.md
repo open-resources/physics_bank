@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $h$ = $\dfrac{(e)}{(g - 6w)} $
+    expr: $o$ = $\dfrac{(r)}{(a + 6n)} $
     part1:
       ans1:
-        value: g = ${ \frac{e}{h} + 6 w}$
+        value: a = ${ - 6 n + \frac{r}{o}}$
       ans2:
-        value: g = ${- \frac{6 h w}{e}}$
+        value: a = ${\frac{6 n o}{r}}$
       ans3:
-        value: g = ${- \frac{e}{6 h w}}$
+        value: a = ${\frac{r}{6 n o}}$
       ans4:
-        value: g = ${\frac{h + 6 w}{e}}$
+        value: a = ${\frac{- 6 n + o}{r}}$
       ans5:
         value: Don't Know
 ---

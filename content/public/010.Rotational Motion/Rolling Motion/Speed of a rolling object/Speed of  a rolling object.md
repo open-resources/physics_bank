@@ -35,48 +35,52 @@ part1:
     rtol: 0.05
     weight: 1
     allow-blank: true
-    label: $v= $
-    suffix: $m/s$
+    label: $v = $
+    suffix: $\rm{m/s}$
 part2:
   type: number-input
   pl-customizations:
     rtol: 0.05
     weight: 1
     allow-blank: true
-    label: $v= $
-    suffix: $m/s$
+    label: $v = $
+    suffix: $\rm{m/s}$
 part3:
   type: number-input
   pl-customizations:
     rtol: 0.05
     weight: 1
     allow-blank: true
-    label: $v= $
-    suffix: $m/s$
+    label: $v = $
+    suffix: $\rm{m/s}$
 substitutions:
   params:
     vars:
       title: Speed of a Rolling Object
-      units: $m/s$
-    h: 10.5
+      units: "$\rm{m/s}$"
+    h: 14.6
 ---
 # {{ params.vars.title }}
-One end of a massless string is attached to a massless axle that passes through the centre of mass of an object (mass $m$) that has a circular cross-section (radius $R$)  and  rolls  without  slipping  up  the  incline.
-The  string  passes  over a massless, frictionless pulley and a block (also of mass $m$) is suspended from the opposite end of the string as shown in the figure.
+Consider the setup shown in the figure below.
+One end of a string of negligible mass is connected to a round object of mass $m$ and circular cross-section of radius $r$.
+The string is connected to the round object via a frictionless axel of negligible mass that passes through the centre of mass of the round object.
+The round object is on an incline that makes an angle $\theta = 30^{\circ}$ with the horizontal.
+The string runs over a frictionless pulley of negligible mass and the other end of the string is connected to a rectangular object of mass $m$.
+The pulley is positioned at the end of the incline such that the rectangular object is suspended in the air.
 
-In this problem you are to find the speed of the rolling object after the hanging mass has fallen by {{ params.h }} $m$ (the system is released from rest).
+The system is initally at rest, but once the rectangular object is released, it accelerates downward, causing the round object to roll up the incline without slipping. Find the speed of the round object when the rectangular object has fallen $h =$ {{ params.h }} $\rm{m}$ for the case where the round object is a solid sphere, hollow sphere, or a solid cylinder.
 
 <img longdesc="Speed of a rolling object.md#desc" alt="Figure of the system described in the question text." src="q9_2013practiceFinal.png">
 
 <div id="desc">
-<h5>Long Description of image: Figure of the system described in the question text.</h5>
-An object with a circular cross-section rolls up a thirty-degree incline (to the horizontal).  This object is attached to a string which passes  over a massless, frictionless pulley and a block of mass m is suspended from the opposite end of the string. The whole setup forms a right-angle triangle with the opposite side on the right.
+<h5>Long Description of Image: Figure of the system described in the question text.</h5>
+A round object rolls up an incline.  The round object is attached to a string which passes over a frictionless pulley of negligible mass positioned at the end of the incline. A rectangular object is suspended from the opposite end of the string. 
 <p>Long description ends.</p>
 <div>
 
 ## Part 1
 
-Find the rolling object's speed assuming that it is a solid sphere.
+Find the speed of the round object assuming that it is a solid sphere.
 
 ### Answer Section
 
@@ -84,7 +88,7 @@ Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
-Find the rolling object's speed assuming that it is a hollow sphere.
+Find the speed of the round object assuming that it is a hollow sphere.
 
 ### Answer Section
 
@@ -92,7 +96,7 @@ Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 3
 
-Find the rolling object's speed assuming that it is a solid cylinder.
+Find the speed of the round object assuming that it is a solid cylinder.
 
 ### Answer Section
 
