@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 13
-    expr: $\dfrac{z^4 }{z^2} $
+    expr: $\dfrac{z^1 }{z^4} $
     part1:
       ans1:
-        value: $z^{2}$
+        value: $z^{-3}$
       ans2:
-        value: $z^{-2}$
+        value: $z^{3}$
       ans3:
-        value: 2z
+        value: -3z
       ans4:
-        value: (2)z
+        value: (1/4)z
       ans5:
         value: Don't Know
 ---

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Solve this Inequality
-      formula: 4x + -4 > -8x + -3
+      formula: -1x + -4 > -3x + 2
     part1:
       ans1:
-        value: x > 1/12
+        value: x > 3
       ans2:
-        value: x < 1/12
+        value: x < 3
       ans3:
-        value: x < 12
+        value: x < 1/3
       ans4:
-        value: x > 12
+        value: x > 1/3
       ans5:
         value: Don't Know
 ---

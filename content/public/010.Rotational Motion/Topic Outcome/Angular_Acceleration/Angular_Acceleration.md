@@ -29,9 +29,9 @@ substitutions:
   params:
     vars:
       title: Angular Acceleration
-    v_1: 6
-    v_2: 14
-    t: 9
+    v_1: 5
+    v_2: 11
+    t: 7
     part1:
       ans1:
         value: 0.9 $rad/s^2$

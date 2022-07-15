@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $o$ = $\dfrac{(r)}{(a + 6n)} $
+    expr: $d$ = $\dfrac{(f)}{(r + 9k)} $
     part1:
       ans1:
-        value: a = ${ - 6 n + \frac{r}{o}}$
+        value: r = ${ - 9 k + \frac{f}{d}}$
       ans2:
-        value: a = ${\frac{6 n o}{r}}$
+        value: r = ${\frac{9 d k}{f}}$
       ans3:
-        value: a = ${\frac{r}{6 n o}}$
+        value: r = ${\frac{f}{9 d k}}$
       ans4:
-        value: a = ${\frac{- 6 n + o}{r}}$
+        value: r = ${\frac{d - 9 k}{f}}$
       ans5:
         value: Don't Know
 ---

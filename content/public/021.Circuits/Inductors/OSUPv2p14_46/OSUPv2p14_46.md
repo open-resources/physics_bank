@@ -46,7 +46,7 @@ substitutions:
   params:
     vars:
       title: Energy Stored in a Coil
-    I: '0.60'
+    I: '0.90'
     E: '4.0'
 ---
 # {{ params.vars.title }}
