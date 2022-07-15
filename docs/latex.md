@@ -55,14 +55,16 @@ Some examples:
 
 Furthermore, if adding the extra back slash does not work, separating the LaTeX elements into different strings and then applying concatenation might fix the problem.
 
-For instance, ```"$\Delta\vec{p}_A$"``` will not display correctly while ```"$\Delta$" + "$\\vec{p}_A$"``` will.
-
 ### Storing and displaying answers with LaTeX elements
 
-Assume that we have answer choices in the following format: 0.5 $\pm$ 0.1 $J$ where 0.5 is stored in ```params.part1.constant``` and 0.1 is stored in ```params.part1.ans1.value```. 
+Let's assume that we have two variables ```t1``` and ```t2```  which are used to generate different answers each time a new variant of a question is created.  The answers need to look like this: $\Delta_{v_{ t1 \to t2}}$.
 
-```"{{ params.part1.constant }} $\pm$ {{ params.part1.ans1.value }} {{ params.vars.units}}"``` will not work.  
+For example, if we had ```t1 = 3``` and ```t2 = 5```, the answer option would be $\Delta_{v_{ 3 \to 5}}$.
 
-The solution is to use a raw string (prepend an ```r```).
+Instead of using
 
-So, ```r"{{ params.part1.constant }} $\pm$ {{ params.part1.ans1.value }} {{ params.vars.units}}"``` will produce the correct output.
+```r"$\Delta v_{" + str(t1) + r"\to" + str(t2) + r"}$"```
+to create the answer string, a combination of f-strings and raw-strings can be used to simplify the expression and to increase readability:
+``` rf"$\Delta v_{{ {t1} \to {t2} }}$" ```
+
+The variables need to be enclosed by a set of curly braces. In addition, the curly braces needed by LaTeX need to be doubled to 'escape' them.
