@@ -39,7 +39,7 @@ def main():
     for topic in topics:
         
         # get all questions for a particular topic
-        topic_questions = [str(f).split('.md')[0] for f in files if f.parts[2]==topic]
+        topic_questions = sorted([str(f).split('.md')[0] for f in files if f.parts[2]==topic])
         
         temp_dict = {'caption': topic.split('.')[1],
                     'chapters': [{'file': p} for p in topic_questions]}
