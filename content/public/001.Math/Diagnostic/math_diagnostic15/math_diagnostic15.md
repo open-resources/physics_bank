@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 15
-    expr: $4^{9} $=$ 262144$
+    expr: $5^{9} $=$ 1953125$
     part1:
       ans1:
-        value: $log_4262144 = 9$
+        value: $log_51953125 = 9$
       ans2:
-        value: $log_49 = 262144$
+        value: $log_59 = 1953125$
       ans3:
-        value: $log_2621449 = 4$
+        value: $log_19531259 = 5$
       ans4:
-        value: $log_9262144 = 4$
+        value: $log_91953125 = 5$
       ans5:
         value: Don't Know
 ---

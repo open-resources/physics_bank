@@ -32,17 +32,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 9x - 9y = 35
-    formula2: 3x + 3y = 9
+    formula1: 10x - 5y = 15
+    formula2: 7x + 9y = 10
     part1:
       ans1:
-        value: ' x =31/9, y =-4/9'
+        value: ' x =37/25, y =-1/25'
       ans2:
-        value: ' x =-4/9, y =31/9'
+        value: ' x =-1/25, y =37/25'
       ans3:
-        value: ' x =-31/9, y =4/9'
+        value: ' x =-37/25, y =1/25'
       ans4:
-        value: ' x =4/9, y =-31/9'
+        value: ' x =1/25, y =-37/25'
       ans5:
         value: Don't Know
 ---

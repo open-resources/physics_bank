@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $d$ = $\dfrac{(f)}{(r + 9k)} $
+    expr: $q$ = $\dfrac{(i)}{(e - 4l)} $
     part1:
       ans1:
-        value: r = ${ - 9 k + \frac{f}{d}}$
+        value: e = ${ \frac{i}{q} + 4 l}$
       ans2:
-        value: r = ${\frac{9 d k}{f}}$
+        value: e = ${- \frac{4 l q}{i}}$
       ans3:
-        value: r = ${\frac{f}{9 d k}}$
+        value: e = ${- \frac{i}{4 l q}}$
       ans4:
-        value: r = ${\frac{d - 9 k}{f}}$
+        value: e = ${\frac{4 l + q}{i}}$
       ans5:
         value: Don't Know
 ---

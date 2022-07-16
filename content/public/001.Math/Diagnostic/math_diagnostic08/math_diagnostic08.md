@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: 'Math Practice #8'
-    expr: $\dfrac{81x - 18y }{ 9 }$
+    expr: $\dfrac{36x + 12y }{ -4 }$
     part1:
       ans1:
-        value: $9 x - 2 y$
+        value: $- 9 x - 3 y$
       ans2:
-        value: $\dfrac{9x - 2y}{9}$
+        value: $\dfrac{-9x - 3y}{-4}$
       ans3:
-        value: $-2x + 9y$
+        value: $-3x - 9y$
       ans4:
-        value: $81x - 18y$
+        value: $36x - 12y$
       ans5:
         value: Don't know.
 ---

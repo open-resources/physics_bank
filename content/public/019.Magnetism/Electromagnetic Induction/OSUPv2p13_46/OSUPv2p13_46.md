@@ -79,8 +79,8 @@ substitutions:
   params:
     vars:
       title: Circuit with Resistance
-    B: '0.50'
-    v: '20'
+    B: '1.00'
+    v: '5'
     part3:
       ans1:
         value: Clockwise

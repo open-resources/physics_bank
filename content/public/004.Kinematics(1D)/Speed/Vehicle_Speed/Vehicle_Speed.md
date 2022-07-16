@@ -31,7 +31,7 @@ substitutions:
   params:
     vars:
       title: Vehicle Speed
-      vehicle: pickup truck
+      vehicle: van
     part1:
       ans1:
         value: constant

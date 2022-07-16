@@ -78,9 +78,9 @@ substitutions:
       title: Delivery Man
       units: km
     dist1: 10
-    dist2: 70
-    dist3: 2
-    dist4: 80
+    dist2: 90
+    dist3: 1
+    dist4: 90
 ---
 # {{ params.vars.title }}
 A delivery person starts at the post office, drives {{params.dist1}} km north, then {{params.dist2}} km west, then {{params.dist3}} km northeast, and finally {{params.dist4}} km north to stop for lunch.  Assume $+y$ is to the North, and $+x$ is to the East. Use the analytical method to determine the following:
