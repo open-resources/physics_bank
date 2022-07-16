@@ -217,6 +217,7 @@ parts:
   - file: content/public/006.Force/Dynamics of Circular Motion/object_on_string/object_on_string
   - file: content/public/006.Force/Free Body Diagrams/Ball Rolling in Pipe/ball_rolling_in_pipe
   - file: content/public/006.Force/Free Body Diagrams/pulley_on_truck/pulley_on_truck
+  - file: content/public/006.Force/Free Body Diagrams/pushing_net_across_ice/pushing_net_across_ice
   - file: content/public/006.Force/Free Body Diagrams/Accelerating Elevator/Accelerating
       Elevator
   - file: content/public/006.Force/Equilibrium/Two blocks connected by a string/Two
