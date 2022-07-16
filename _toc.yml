@@ -178,6 +178,7 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Slanted Table/slanted_table
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Halloween Gourd
       Launcher/Halloween Gourd Launcher
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Hawk and Squirrel/hawk_and_squirrel
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Hit_Baseball/Hit_Baseball
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Shooting a steel
       ball/Shooting a steel ball
