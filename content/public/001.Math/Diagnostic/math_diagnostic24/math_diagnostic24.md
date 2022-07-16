@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 24
+title: Math Diagnostic24
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
@@ -30,7 +30,7 @@ part1:
 substitutions:
   params:
     vars:
-      title: Math Practice 24
+      title: Math Diagnostic24
     x1: 1
     x2: -2
     x3: 1

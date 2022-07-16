@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 27
+title: Math Diagnostic27
 topic: Math
 author: Simon Bates
 source: Math Diagnostic Q27
@@ -29,7 +29,7 @@ part1:
 substitutions:
   params:
     vars:
-      title: Math Practice 27
+      title: Math Diagnostic27
     part1:
       ans1:
         value: Answer A

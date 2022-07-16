@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 7
+title: Math Diagnostic07
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
@@ -31,18 +31,18 @@ part1:
 substitutions:
   params:
     vars:
-      title: Diagnostic Q7
-    formula1: 10x - 5y = 39
-    formula2: 2x + 9y = 46
+      title: Math Diagnostic07
+    formula1: 4x - 8y = 23
+    formula2: 10x + 5y = 44
     part1:
       ans1:
-        value: ' x =581/100, y =191/50'
+        value: ' x =467/100, y =-27/50'
       ans2:
-        value: ' x =191/50, y =581/100'
+        value: ' x =-27/50, y =467/100'
       ans3:
-        value: ' x =-581/100, y =-191/50'
+        value: ' x =-467/100, y =27/50'
       ans4:
-        value: ' x =-191/50, y =-581/100'
+        value: ' x =27/50, y =-467/100'
       ans5:
         value: Don't Know
 ---

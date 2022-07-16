@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 19
+title: Math Diagnostic19
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
@@ -30,17 +30,17 @@ part1:
 substitutions:
   params:
     vars:
-      title: Math Practice 19
-    a: $ \sin260$
+      title: Math Diagnostic19
+    a: $ \sin270$
     part1:
       ans1:
-        value: $\sin{-100}$
+        value: $\sin{-90}$
       ans2:
-        value: $\sin{100}$
+        value: $\sin{90}$
       ans3:
-        value: $\sin{-80}$
+        value: $\sin{-90}$
       ans4:
-        value: $\sin{80}$
+        value: $\sin{90}$
       ans5:
         value: Don't Know
 ---

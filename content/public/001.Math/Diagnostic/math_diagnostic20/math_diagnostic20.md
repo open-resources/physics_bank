@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 20
+title: Math Diagnostic20
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
@@ -30,7 +30,7 @@ part1:
 substitutions:
   params:
     vars:
-      title: Math Practice 20
+      title: Math Diagnostic20
     expr: $\sin \Big({7\pi \over{6 }} \Big)$
     part1:
       ans1:

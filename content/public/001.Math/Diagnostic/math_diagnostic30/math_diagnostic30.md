@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 30
+title: Math Diagnostic30
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
@@ -30,8 +30,8 @@ part1:
 substitutions:
   params:
     vars:
-      title: Math Practice 30
-      name: Mateo
+      title: Math Diagnostic30
+      name: Santiago
     sp1: 8
     sp2: 4
     part1:

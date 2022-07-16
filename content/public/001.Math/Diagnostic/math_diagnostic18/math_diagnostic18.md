@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 18
+title: Math Diagnostic18
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
@@ -30,7 +30,7 @@ part1:
 substitutions:
   params:
     vars:
-      title: Math Practice 4
+      title: Math Diagnostic18
     k: 1
     denom: 2
     part1:

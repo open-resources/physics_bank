@@ -50,8 +50,8 @@ substitutions:
     vars:
       title: Filling a Capacitor with Dielectric Material
     d: '1.00'
-    a: '6.0'
-    k: '4.0'
+    a: '4.0'
+    k: '8.0'
 ---
 # {{ params.vars.title }}
 An air-filled capacitor is made from two flat parallel plates ${{params.d }} \textrm{ mm}$ apart. The inside area of each plate is ${{params.a }} \rm\ cm^2$.

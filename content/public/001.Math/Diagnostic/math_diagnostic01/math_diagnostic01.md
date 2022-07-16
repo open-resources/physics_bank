@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 1
+title: Math Diagnostic01
 topic: Math
 author: Simon Bates
 source: Math Diagnostic Q1
@@ -30,16 +30,16 @@ part1:
 substitutions:
   params:
     vars:
-      title: Largest Number
+      title: Math Diagnostic01
     part1:
       ans1:
-        value: 6.6E87
+        value: 8.0E14
       ans2:
-        value: 3.0E4
+        value: 6.2E11
       ans3:
-        value: 9788.016902075376
+        value: 8296.286901580996
       ans4:
-        value: '9.1E-15'
+        value: '2.5E-10'
       ans5:
         value: Don't Know
 ---

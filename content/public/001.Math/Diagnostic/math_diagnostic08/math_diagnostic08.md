@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 8
+title: Math Diagnostic08
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
@@ -32,17 +32,17 @@ part1:
 substitutions:
   params:
     vars:
-      title: 'Math Practice #8'
-    expr: $\dfrac{42x + 14y }{ 7 }$
+      title: Math Diagnostic08
+    expr: $\dfrac{-35x + 14y }{ -7 }$
     part1:
       ans1:
-        value: $6 x + 2 y$
+        value: $5 x - 2 y$
       ans2:
-        value: $\dfrac{6x + 2y}{7}$
+        value: $\dfrac{5x - 2y}{-7}$
       ans3:
-        value: $2x + 6y$
+        value: $-2x + 5y$
       ans4:
-        value: $42x + 14y$
+        value: $-35x - 14y$
       ans5:
         value: Don't know.
 ---

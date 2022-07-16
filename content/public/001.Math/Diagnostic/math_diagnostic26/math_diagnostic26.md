@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 26
+title: Math Diagnostic26
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
@@ -30,7 +30,7 @@ part1:
 substitutions:
   params:
     vars:
-      title: Math Practice 26
+      title: Math Diagnostic26
     a: 3
     b: -2
     x: -1

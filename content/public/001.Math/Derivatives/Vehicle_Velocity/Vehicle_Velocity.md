@@ -31,24 +31,24 @@ substitutions:
   params:
     vars:
       title: Vehicle Velocity
-      vehicle: sedan
+      vehicle: truck
       units: $m/s$
-    i_1: 3
-    i_2: 2
-    j_1: 10
-    j_2: 2
-    s: 1
+    i_1: 4
+    i_2: 1
+    j_1: 9
+    j_2: 1
+    s: 3
     part1:
       ans1:
-        value: (4$\hat{\imath}$ - 4$\hat{\jmath}$)
+        value: (23$\hat{\imath}$ + 26$\hat{\jmath}$)
       ans2:
-        value: (4$\hat{\imath}$ + 6$\hat{\jmath}$)
+        value: (23$\hat{\imath}$ + 27$\hat{\jmath}$)
       ans3:
-        value: (1$\hat{\imath}$ + 12$\hat{\jmath}$)
+        value: (33$\hat{\imath}$ + 30$\hat{\jmath}$)
       ans4:
-        value: (1$\hat{\imath}$ - 4$\hat{\jmath}$)
+        value: (33$\hat{\imath}$ + 26$\hat{\jmath}$)
       ans5:
-        value: (4$\hat{\imath}$ + 12$\hat{\jmath}$)
+        value: (23$\hat{\imath}$ + 30$\hat{\jmath}$)
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }}'s position as a function of time is given by $\vec{r} =$ ({{ params.i_1 }}$t^2 -$ {{ params.i_2 }}$t)\hat{\imath} + ($ {{ params.j_1 }}$t^{-1}+$ {{ params.j_2 }} $t^3)\hat{\jmath}$ where $\vec{r}$ is in meters and $t$ is in seconds.

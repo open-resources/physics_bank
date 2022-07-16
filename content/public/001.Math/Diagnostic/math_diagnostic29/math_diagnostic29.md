@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 29
+title: Math Diagnostic29
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
@@ -32,7 +32,7 @@ part1:
 substitutions:
   params:
     vars:
-      title: Math Practice 29
+      title: Math Diagnostic29
     part1:
       ans1:
         value: Answer A

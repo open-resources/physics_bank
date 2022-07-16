@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 11
+title: Math Diagnostic11
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
@@ -31,19 +31,19 @@ part1:
 substitutions:
   params:
     vars:
-      title: Diagnostic Q11
-    a: 6
-    b: 6
-    c: 1
+      title: Math Diagnostic11
+    a: 5
+    b: 9
+    c: 3
     part1:
       ans1:
-        value: x = -0.79, x = -0.21
+        value: x = -1.4, x = -0.44
       ans2:
-        value: x = 0.79, x = 0.21
+        value: x = 1.4, x = 0.44
       ans3:
-        value: x = 6, x = 1
+        value: x = 9, x = 3
       ans4:
-        value: x = 6, x = 6
+        value: x = 5, x = 9
       ans5:
         value: Don't Know
 ---

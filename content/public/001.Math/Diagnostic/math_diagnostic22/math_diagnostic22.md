@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 22
+title: Math Diagnostic22
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
@@ -30,18 +30,18 @@ part1:
 substitutions:
   params:
     vars:
-      title: Math Practice Q22
-    denom: 3
-    formula: $\sin{\left(\frac{x}{3} \right)}$
+      title: Math Diagnostic22
+    denom: 7
+    formula: $\sin{\left(\frac{x}{7} \right)}$
     part1:
       ans1:
-        value: ${- 3 \cos{\left(\frac{x}{3} \right)}}$
+        value: ${- 7 \cos{\left(\frac{x}{7} \right)}}$
       ans2:
-        value: ${3 \cos{\left(\frac{x}{3} \right)}}$
+        value: ${7 \cos{\left(\frac{x}{7} \right)}}$
       ans3:
-        value: ${- 6 \cos{\left(\frac{x}{3} \right)}}$
+        value: ${- 14 \cos{\left(\frac{x}{7} \right)}}$
       ans4:
-        value: ${- \frac{3 \cos{\left(\frac{x}{3} \right)}}{2}}$
+        value: ${- \frac{7 \cos{\left(\frac{x}{7} \right)}}{2}}$
 ---
 # {{ params.vars.title }}
 

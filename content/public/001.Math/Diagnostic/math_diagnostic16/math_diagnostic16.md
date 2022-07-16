@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 16
+title: Math Diagnostic16
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
@@ -30,7 +30,7 @@ part1:
 substitutions:
   params:
     vars:
-      title: Math Practice Q16
+      title: Math Diagnostic16
     part1:
       ans1:
         value: $log (AB) = log A log B$

@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 3
+title: Math Diagnostic03
 topic: Math
 author: Simon Bates
 source: Math Diagnostic Q3
@@ -31,17 +31,17 @@ part1:
 substitutions:
   params:
     vars:
-      title: Solve this Inequality
-      formula: 1x + -1 > -1x + 4
+      title: Math Diagnostic03
+      formula: 2x + -8 > -4x + -6
     part1:
       ans1:
-        value: x > 5/2
+        value: x > 1/3
       ans2:
-        value: x < 5/2
+        value: x < 1/3
       ans3:
-        value: x < 2/5
+        value: x < 3
       ans4:
-        value: x > 2/5
+        value: x > 3
       ans5:
         value: Don't Know
 ---

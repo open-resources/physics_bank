@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 4
+title: Math Diagnostic04
 topic: Math
 author: Simon Bates
 source: Math Diagnostic Q4
@@ -31,7 +31,7 @@ part1:
 substitutions:
   params:
     vars:
-      title: Math Practice 4
+      title: Math Diagnostic04
     b: 4
     c: 12
     part1:

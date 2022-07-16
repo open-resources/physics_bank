@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 9
+title: Math Diagnostic09
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
@@ -31,17 +31,17 @@ part1:
 substitutions:
   params:
     vars:
-      title: Math Practice 9
-    expr: $a$ = $\dfrac{(z)}{(n + 5s)} $
+      title: Math Diagnostic09
+    expr: $b$ = $\dfrac{(k)}{(x - 6g)} $
     part1:
       ans1:
-        value: n = ${ - 5 s + \frac{z}{a}}$
+        value: x = ${ 6 g + \frac{k}{b}}$
       ans2:
-        value: n = ${\frac{5 a s}{z}}$
+        value: x = ${- \frac{6 b g}{k}}$
       ans3:
-        value: n = ${\frac{z}{5 a s}}$
+        value: x = ${- \frac{k}{6 b g}}$
       ans4:
-        value: n = ${\frac{a - 5 s}{z}}$
+        value: x = ${\frac{b + 6 g}{k}}$
       ans5:
         value: Don't Know
 ---

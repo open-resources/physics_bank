@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 2
+title: Math Diagnostic02
 topic: Math
 author: Simon Bates
 source: Math Diagnostic Q2
@@ -31,18 +31,18 @@ part1:
 substitutions:
   params:
     vars:
-      title: Significant Figures
-    x: 414.9137807
-    sf: 5
+      title: Math Diagnostic02
+    x: 549.9719
+    sf: 3
     part1:
       ans1:
-        value: 414.91
+        value: 550.0
       ans2:
-        value: 415.01000000000005
+        value: 550.1
       ans3:
-        value: 414.91378
+        value: 549.972
       ans4:
-        value: 404.91
+        value: 540.0
 ---
 # {{ params.vars.title }}
 

@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 13
+title: Math Diagnostic13
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
@@ -31,17 +31,17 @@ part1:
 substitutions:
   params:
     vars:
-      title: Math Practice 13
-    expr: $\dfrac{z^3 }{z^1} $
+      title: Math Diagnostic13
+    expr: $\dfrac{z^9 }{z^2} $
     part1:
       ans1:
-        value: $z^{2}$
+        value: $z^{7}$
       ans2:
-        value: $z^{-2}$
+        value: $z^{-7}$
       ans3:
-        value: 2z
+        value: 7z
       ans4:
-        value: (3)z
+        value: (9/2)z
       ans5:
         value: Don't Know
 ---

@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 21
+title: Math Diagnostic21
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
@@ -30,17 +30,17 @@ part1:
 substitutions:
   params:
     vars:
-      title: Math Practice 21
-    formula: $\sin{\left(x^{2} \right)}$
+      title: Math Diagnostic21
+    formula: $\cos{\left(x^{2} \right)}$
     part1:
       ans1:
-        value: ${2 x \cos{\left(x^{2} \right)}}$
+        value: ${- 2 x \sin{\left(x^{2} \right)}}$
       ans2:
-        value: ${2 \cos{\left(x^{2} \right)}}$
+        value: ${- 2 \sin{\left(x^{2} \right)}}$
       ans3:
-        value: ${\cos{\left(x^{2} \right)}}$
+        value: ${- \sin{\left(x^{2} \right)}}$
       ans4:
-        value: ${2 x \sin{\left(x^{2} \right)}}$
+        value: ${- 2 x \cos{\left(x^{2} \right)}}$
       ans5:
         value: Don't Know
 ---

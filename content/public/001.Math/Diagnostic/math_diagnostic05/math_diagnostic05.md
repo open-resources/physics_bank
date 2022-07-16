@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 5
+title: Math Diagnostic05
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
@@ -31,19 +31,19 @@ part1:
 substitutions:
   params:
     vars:
-      title: Diagnostic Q5
-    expr: $\dfrac{x}{7}$
-    num2: 3
+      title: Math Diagnostic05
+    expr: $\dfrac{x}{8}$
+    num2: 7
     num3: 9
     part1:
       ans1:
-        value: 189
+        value: 504
       ans2:
-        value: 3/7
+        value: 7/8
       ans3:
-        value: 63
+        value: 72
       ans4:
-        value: 27/7
+        value: 63/8
       ans5:
         value: Don't Know
 ---

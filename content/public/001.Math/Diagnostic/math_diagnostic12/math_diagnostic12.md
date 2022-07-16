@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 12
+title: Math Diagnostic12
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
@@ -31,17 +31,17 @@ part1:
 substitutions:
   params:
     vars:
-      title: 'Math Practice #12'
-    expr: $8\over 8- x$ > $ 7$
+      title: Math Diagnostic12
+    expr: $5\over 5- x$ > $ 7$
     part1:
       ans1:
-        value: (48/7 < x) & (x < 8)
+        value: (30/7 < x) & (x < 5)
       ans2:
-        value: (48/7 > x) & (x > 8)
+        value: (30/7 > x) & (x > 5)
       ans3:
-        value: x > 8/7
+        value: x > 5/7
       ans4:
-        value: (441/8 < x) & (x < 56)
+        value: (168/5 < x) & (x < 35)
       ans5:
         value: Do not know
 ---

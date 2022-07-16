@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 28
+title: Math Diagnostic28
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
@@ -31,7 +31,7 @@ part1:
 substitutions:
   params:
     vars:
-      title: Math Practice 28
+      title: Math Diagnostic28
     part1:
       ans1:
         value: sin, cos, tan

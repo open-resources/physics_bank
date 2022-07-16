@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 6
+title: Math Diagnostic06
 topic: Math
 author: Simon Bates
 source: Math Diagnostic Q6
@@ -31,17 +31,17 @@ part1:
 substitutions:
   params:
     vars:
-      title: Math Diagnostic 6
-    eq: $\dfrac{x-2}{x+9}$ = $ \dfrac{x+9}{x-4}$
+      title: Math Diagnostic06
+    eq: $\dfrac{x-2}{x+2}$ = $ \dfrac{x+1}{x-8}$
     part1:
       ans1:
-        value: -3/4
+        value: -14/13
       ans2:
-        value: -3/4
+        value: -4/13
       ans3:
-        value: '9'
+        value: 14/5
       ans4:
-        value: 3/4
+        value: 4/13
 ---
 # {{ params.vars.title }}
 

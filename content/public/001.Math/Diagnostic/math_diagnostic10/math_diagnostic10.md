@@ -1,5 +1,5 @@
 ---
-title: Math Diagnostic 10
+title: Math Diagnostic10
 topic: Math
 author: Simon Bates
 source: Math Diagnostic
@@ -31,20 +31,20 @@ part1:
 substitutions:
   params:
     vars:
-      title: Math Practice Q10
-    a: 13
-    b: '12'
+      title: Math Diagnostic10
+    a: -13
+    b: '15'
     b_sign: ' - '
-    c: -8
+    c: 11
     part1:
       ans1:
-        value: x =   21/12
+        value: x =  - 24/15
       ans2:
-        value: x =  - 21/12
+        value: x =   24/15
       ans3:
-        value: x = -9
+        value: x = 39
       ans4:
-        value: x = 17
+        value: x = 13
       ans5:
         value: This equation cannot be solved
 ---
