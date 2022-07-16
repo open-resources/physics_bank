@@ -430,6 +430,8 @@ parts:
 - caption: Waves
   chapters:
   - file: content/public/016.Waves/Misc/microscope_resolution/microscope_resolution
+  - file: content/public/016.Waves/Interference/PHYS 122 2018W2 Second Term Test Q3/PHYS
+      122 2018W2 Second Term Test Q3
 - caption: Electrostatics
   chapters:
   - file: content/public/018.Electrostatics/Electric Potential/Dielectric breakdown
