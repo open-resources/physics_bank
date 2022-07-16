@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Practice Q25
-    expr: $\dfrac{ 1-e^{(-3x)}}{9-x}$
+    expr: $\dfrac{ 9-e^{(-9x)}}{5-x}$
     part1:
       ans1:
-        value: '0'
+        value: 8/5
       ans2:
         value: Negative Infinity
       ans3:
-        value: 0.1111111111111111
+        value: 1.8
       ans4:
-        value: 1
+        value: 9
       ans5:
         value: Don't Know
 ---

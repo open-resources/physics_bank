@@ -119,7 +119,7 @@ substitutions:
     num: ''
     emf: '14.0'
     L: '23.0'
-    R: '7.50'
+    R: '5.00'
 ---
 # {{ params.vars.title }}
 Consider the $RL$ circuit shown below.

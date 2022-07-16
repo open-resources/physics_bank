@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Practice 9
-    expr: $q$ = $\dfrac{(i)}{(e - 4l)} $
+    expr: $a$ = $\dfrac{(z)}{(n + 5s)} $
     part1:
       ans1:
-        value: e = ${ \frac{i}{q} + 4 l}$
+        value: n = ${ - 5 s + \frac{z}{a}}$
       ans2:
-        value: e = ${- \frac{4 l q}{i}}$
+        value: n = ${\frac{5 a s}{z}}$
       ans3:
-        value: e = ${- \frac{i}{4 l q}}$
+        value: n = ${\frac{z}{5 a s}}$
       ans4:
-        value: e = ${\frac{4 l + q}{i}}$
+        value: n = ${\frac{a - 5 s}{z}}$
       ans5:
         value: Don't Know
 ---

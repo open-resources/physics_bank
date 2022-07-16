@@ -32,17 +32,17 @@ substitutions:
   params:
     vars:
       title: Diagnostic Q7
-    formula1: 10x - 5y = 15
-    formula2: 7x + 9y = 10
+    formula1: 10x - 5y = 39
+    formula2: 2x + 9y = 46
     part1:
       ans1:
-        value: ' x =37/25, y =-1/25'
+        value: ' x =581/100, y =191/50'
       ans2:
-        value: ' x =-1/25, y =37/25'
+        value: ' x =191/50, y =581/100'
       ans3:
-        value: ' x =-37/25, y =1/25'
+        value: ' x =-581/100, y =-191/50'
       ans4:
-        value: ' x =1/25, y =-37/25'
+        value: ' x =-191/50, y =-581/100'
       ans5:
         value: Don't Know
 ---
