@@ -41,13 +41,13 @@ part2:
 substitutions:
   params:
     vars:
-      name: Ximena
+      name: Mateo
       title: Archery Competition
       units: m/s
-    x: 102
-    arrow_v: 200
-    theta: 10
-    height: 166
+    x: 55
+    arrow_v: 164
+    theta: 6
+    height: 200
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is reading a novel that describes an athelete participating in an archery competition.

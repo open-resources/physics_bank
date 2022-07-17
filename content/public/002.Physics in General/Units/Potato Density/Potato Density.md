@@ -60,11 +60,11 @@ substitutions:
   params:
     vars:
       title: Potato Density
-      name: Ximena
+      name: Ahmed
       unit1: $kg$
       unit2: $m^3$
-    m_p: 163
-    m_cp: 78
+    m_p: 157
+    m_cp: 74
     l: 4
 ---
 # {{ params.vars.title }}

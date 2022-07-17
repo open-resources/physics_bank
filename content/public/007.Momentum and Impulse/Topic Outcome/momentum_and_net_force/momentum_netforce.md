@@ -1,27 +1,21 @@
 ---
-title: Vehicle Velocity
-topic: Math
+title: Momentum and Net Force
+topic: Momentum and Impulse
 author: Jake Bobowski
-source: 2014 Final Q3
-template_version: 1.3
+source: 2017 Final Q9
+template_version: 1.4
 attribution: standard
-partialCredit: true
-singleVariant: false
-showCorrectAnswer: false
 outcomes:
-- 1.7.2.4
+- 6.1.1.3
+- 7.2.1.3
 difficulty:
 - undefined
 randomization:
 - undefined
 taxonomy:
 - undefined
-span:
-- undefined
-length:
-- undefined
 tags:
-- EW
+- MP
 assets: null
 part1:
   type: multiple-choice
@@ -30,32 +24,29 @@ part1:
 substitutions:
   params:
     vars:
-      title: Vehicle Velocity
-      vehicle: bus
-      units: $m/s$
-    i_1: 4
-    i_2: 2
-    j_1: 10
-    j_2: 2
-    s: 2
+      title: Momentum and Net Force
+      units: N
+    p_i: -4t^2 + 2t
+    p_j: 3t^2 - 3t
+    time: 12.6
     part1:
       ans1:
-        value: (14$\hat{\imath}$ + 43/2$\hat{\jmath}$)
+        value: 0
       ans2:
-        value: (14$\hat{\imath}$ + 24$\hat{\jmath}$)
+        value: 120.0
       ans3:
-        value: (12$\hat{\imath}$ + 21$\hat{\jmath}$)
+        value: 140.0
       ans4:
-        value: (12$\hat{\imath}$ + 43/2$\hat{\jmath}$)
+        value: 5.1
       ans5:
-        value: (14$\hat{\imath}$ + 21$\hat{\jmath}$)
+        value: 15000.0
 ---
 # {{ params.vars.title }}
-A {{ params.vars.vehicle }}'s position as a function of time is given by $\vec{r} =$ ({{ params.i_1 }}$t^2 -$ {{ params.i_2 }}$t)\hat{\imath} + ($ {{ params.j_1 }}$t^{-1}+$ {{ params.j_2 }} $t^3)\hat{\jmath}$ where $\vec{r}$ is in meters and $t$ is in seconds.
+The momentum of an object as a function of time is given by $\vec{p} = ({{ params.p_i }})\hat{\imath} + ({{ params.p_j }})\hat{\jmath}$ where $p$ is in kg $\cdot$ m/s and $t$ is in seconds.
 
 ## Part 1
 
-What is the {{ params.vars.vehicle }}'s velocity at $t=$ {{ params.s }} $s$?
+What is the magnitude of the net force on the object at $t$ = {{params.time}} s?
 
 ### Answer Section
 

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $b$ = $\dfrac{(k)}{(x - 6g)} $
+    expr: $j$ = $\dfrac{(d)}{(q + 8x)} $
     part1:
       ans1:
-        value: x = ${ 6 g + \frac{k}{b}}$
+        value: q = ${ \frac{d}{j} - 8 x}$
       ans2:
-        value: x = ${- \frac{6 b g}{k}}$
+        value: q = ${\frac{8 j x}{d}}$
       ans3:
-        value: x = ${- \frac{k}{6 b g}}$
+        value: q = ${\frac{d}{8 j x}}$
       ans4:
-        value: x = ${\frac{b + 6 g}{k}}$
+        value: q = ${\frac{j - 8 x}{d}}$
       ans5:
         value: Don't Know
 ---

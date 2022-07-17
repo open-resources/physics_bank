@@ -48,39 +48,39 @@ part3:
 substitutions:
   params:
     vars:
-      person1: grandfather
-      person2: cousin
+      person1: mother
+      person2: father
       title: Bouncing a Baby to Sleep
       units: $N/m$
-    m1: 89.8
-    m2: 74.1
-    m_b: 4.42
-    f: 2.4
+    m1: 88.7
+    m2: 99.8
+    m_b: 6.29
+    f: 2.15
     part3:
       ans1:
-        value: Remove air to decrease the pressure in the ball. Decreased pressure
-          makes the ball 'softer'.
+        value: Add more air to increase the pressure in the ball. Increased pressure
+          makes the ball 'stiffer'.
       ans2:
         value: Remove air to decrease the pressure in the ball. Decreased pressure
-          makes the ball 'stiffer'.
-      ans3:
-        value: Remove air to increase the pressure in the ball. Increased pressure
           makes the ball 'softer'.
+      ans3:
+        value: Remove air to decrease the pressure in the ball. Decreased pressure
+          makes the ball 'stiffer'.
       ans4:
         value: Remove air to increase the pressure in the ball. Increased pressure
-          makes the ball 'stiffer'.
-      ans5:
-        value: Add more air to decrease the pressure in the ball. Decreased pressure
           makes the ball 'softer'.
+      ans5:
+        value: Remove air to increase the pressure in the ball. Increased pressure
+          makes the ball 'stiffer'.
       ans6:
         value: Add more air to decrease the pressure in the ball. Decreased pressure
-          makes the ball 'stiffer'.
-      ans7:
-        value: Add more air to increase the pressure in the ball. Increased pressure
           makes the ball 'softer'.
+      ans7:
+        value: Add more air to decrease the pressure in the ball. Decreased pressure
+          makes the ball 'stiffer'.
       ans8:
         value: Add more air to increase the pressure in the ball. Increased pressure
-          makes the ball 'stiffer'.
+          makes the ball 'softer'.
 ---
 # {{ params.vars.title }}
 Some babies like to  be bounced to calm them down.

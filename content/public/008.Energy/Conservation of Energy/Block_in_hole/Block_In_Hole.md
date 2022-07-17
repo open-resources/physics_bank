@@ -39,7 +39,7 @@ substitutions:
       title: Block In Hole
       units: m
     a: 26
-    d: 0.6
+    d: 0.9
 ---
 # {{ params.vars.title }}
 A small block is placed at height $h$ on a frictionless, {{params.a}}$^\circ$ ramp.

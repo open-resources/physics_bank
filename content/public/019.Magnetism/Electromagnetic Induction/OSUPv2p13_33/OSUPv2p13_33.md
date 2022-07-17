@@ -50,8 +50,8 @@ substitutions:
       title: Single-turn Circular Loop
     r: '50'
     b: '100'
-    B: '300'
-    t: '0.1'
+    B: '375'
+    t: '0.3'
     part2:
       ans1:
         value: Clockwise
