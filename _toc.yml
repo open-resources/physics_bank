@@ -325,6 +325,7 @@ parts:
   - file: content/public/007.Momentum and Impulse/Topic Outcome/KE_energy_momentum/KE_energy_momentum
   - file: content/public/007.Momentum and Impulse/Topic Outcome/Superballs/Superballs
   - file: content/public/007.Momentum and Impulse/Topic Outcome/Uranium_fragments/Uranium_fragments
+  - file: content/public/007.Momentum and Impulse/Topic Outcome/momentum_and_net_force/momentum_netforce
 - caption: Energy
   chapters:
   - file: content/public/008.Energy/Conservation of Energy/Block_in_hole/Block_In_Hole
