@@ -44,7 +44,7 @@ substitutions:
   params:
     vars:
       title: Suspended parallel wires
-    s: '5.4'
+    s: '6.0'
     mu: '32.6'
     theta: '8.0'
 ---

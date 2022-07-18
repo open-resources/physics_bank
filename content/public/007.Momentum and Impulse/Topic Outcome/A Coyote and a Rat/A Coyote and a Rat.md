@@ -104,13 +104,13 @@ substitutions:
   params:
     vars:
       title: A Coyote and a Rat
-    m_c: 7
+    m_c: 12
     m_r: 2
-    d_b: 40
-    d_c: 31
+    d_b: 45
+    d_c: 22
     v_r: 5
     a_c: 6
-    mu_k: 3.0
+    mu_k: 2.88
 ---
 # {{ params.vars.title }}
 A {{ params.m_c }} $kg$ coyote notices a {{ params.m_r }} $kg$ rat running past it, but the rat has a possible route to safety. At the end of the field ({{ params.d_b }} $m$ to the right from where the rat starts) there is a thorny bush. If the rat can reach the bush before the coyote catches it, the coyote will not be able to pursue it any farther. At $t=0$ $s$, the rat is running towards the bush at a constant velocity of {{ params.v_r }} $m/s$, and the coyote is at rest, {{ params.d_c }} $m$ to the left of the rat. However, the coyote begins running to the right with an acceleration of $a = $ {{ params.a_c }} $m/s^2$.

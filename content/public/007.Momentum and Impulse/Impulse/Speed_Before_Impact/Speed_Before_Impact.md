@@ -35,14 +35,14 @@ substitutions:
       title: Speed Before Impact
       vehicle: sedan
       units: $m/s$
-    m: 603
+    m: 642
     part1:
       ans1:
-        value: 90.0
+        value: 84.0
       ans2:
-        value: 45.0
+        value: 42.0
       ans3:
-        value: 22.0
+        value: 21.0
       ans4:
         value: 11.0
       ans5:

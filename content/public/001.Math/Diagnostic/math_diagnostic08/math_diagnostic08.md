@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-12x - 10y }{ 2 }$
+    expr: $\dfrac{-63x - 81y }{ -9 }$
     part1:
       ans1:
-        value: $- 6 x - 5 y$
+        value: $7 x + 9 y$
       ans2:
-        value: $\dfrac{-6x - 5y}{2}$
+        value: $\dfrac{7x + 9y}{-9}$
       ans3:
-        value: $-5x - 6y$
+        value: $9x + 7y$
       ans4:
-        value: $-12x - 10y$
+        value: $-63x + 81y$
       ans5:
         value: Don't know.
 ---

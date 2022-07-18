@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic12
-    expr: $4\over 4- x$ > $ 1$
+    expr: $1\over 1- x$ > $ 9$
     part1:
       ans1:
-        value: (0 < x) & (x < 4)
+        value: (8/9 < x) & (x < 1)
       ans2:
-        value: (0 > x) & (x > 4)
+        value: (8/9 > x) & (x > 1)
       ans3:
-        value: x > 4/1
+        value: x > 1/9
       ans4:
-        value: (15/4 < x) & (x < 4)
+        value: (0 < x) & (x < 9)
       ans5:
         value: Do not know
 ---

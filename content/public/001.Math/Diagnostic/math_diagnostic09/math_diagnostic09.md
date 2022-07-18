@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $l$ = $\dfrac{(e)}{(p + 3n)} $
+    expr: $l$ = $\dfrac{(r)}{(n + 4v)} $
     part1:
       ans1:
-        value: p = ${ \frac{e}{l} - 3 n}$
+        value: n = ${ - 4 v + \frac{r}{l}}$
       ans2:
-        value: p = ${\frac{3 l n}{e}}$
+        value: n = ${\frac{4 l v}{r}}$
       ans3:
-        value: p = ${\frac{e}{3 l n}}$
+        value: n = ${\frac{r}{4 l v}}$
       ans4:
-        value: p = ${\frac{l - 3 n}{e}}$
+        value: n = ${\frac{l - 4 v}{r}}$
       ans5:
         value: Don't Know
 ---

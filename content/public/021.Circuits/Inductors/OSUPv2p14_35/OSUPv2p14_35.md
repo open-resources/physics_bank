@@ -44,10 +44,10 @@ substitutions:
   params:
     vars:
       title: Inductance of a Coil
-    V: '0.75'
-    I_i: '0.25'
-    I_f: '0.90'
-    t: '0.55'
+    V: '0.90'
+    I_i: '0.30'
+    I_f: '0.80'
+    t: '0.35'
 ---
 # {{ params.vars.title }}
 An emf of ${{ params.V }}\rm\ V$ is induced across a coil when the current through it changes uniformly from ${{ params.I_i }}\rm\ A$ to ${{ params.I_f }}\rm\ A$ in ${{ params.t }}\rm\ s$.
