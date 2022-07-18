@@ -269,6 +269,7 @@ parts:
       max acceleration without slipping
   - file: content/public/006.Force/Topic Outcome/Turning_Car/Turning_car
   - file: content/public/006.Force/Topic Outcome/centripetal_force/centripetal_force
+  - file: content/public/006.Force/Topic Outcome/forceMultipartTrueFalse/forceMultipartTrueFalse
   - file: content/public/006.Force/Topic Outcome/frictionless_track/frictionless_track
   - file: content/public/006.Force/Topic Outcome/ropes_and_blocks/ropes_and_blocks
   - file: content/public/006.Force/Topic Outcome/velocity_netforce/velocity_netforce
