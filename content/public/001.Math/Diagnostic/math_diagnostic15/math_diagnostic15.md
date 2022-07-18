@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $8^{1} $=$ 8$
+    expr: $4^{5} $=$ 1024$
     part1:
       ans1:
-        value: $log_88 = 1$
+        value: $log_41024 = 5$
       ans2:
-        value: $log_81 = 8$
+        value: $log_45 = 1024$
       ans3:
-        value: $log_81 = 8$
+        value: $log_10245 = 4$
       ans4:
-        value: $log_18 = 8$
+        value: $log_51024 = 4$
       ans5:
         value: Don't Know
 ---

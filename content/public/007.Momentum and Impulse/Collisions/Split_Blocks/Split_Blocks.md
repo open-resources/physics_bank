@@ -49,8 +49,8 @@ substitutions:
     vars:
       title: Split Blocks
       units: $J$
-    m: 11
-    m_a: 7
+    m: 7
+    m_a: 3
     m_b: 4
     v_a: 4.8
 ---

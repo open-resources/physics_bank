@@ -35,7 +35,7 @@ substitutions:
   params:
     vars:
       title: Maximum Speed of a Pendulum
-    choice: quartered
+    choice: halved
 ---
 # {{ params.vars.title }}
 A  simple  pendulum  swings  at  small  angles.

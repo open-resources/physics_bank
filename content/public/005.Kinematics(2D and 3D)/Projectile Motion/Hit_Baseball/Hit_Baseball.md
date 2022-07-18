@@ -30,19 +30,19 @@ substitutions:
     vars:
       title: Hit Baseball
       units: $m/s$
-    v: 26.5
-    d: 18.5
+    v: 20.5
+    d: 24.7
     part1:
       ans1:
-        value: 25.1 $m/s$ $\hat{x}$
+        value: 18.6 $m/s$ $\hat{x}$
       ans2:
         value: 0 $m/s$
       ans3:
-        value: 25.1 $m/s$
+        value: 18.6 $m/s$
       ans4:
-        value: 8.41 $m/s$
+        value: 8.57 $m/s$
       ans5:
-        value: 25.1 $m/s$ $\hat{x}$ + 8.41 $m/s$ $\hat{y}$
+        value: 18.6 $m/s$ $\hat{x}$ + 8.57 $m/s$ $\hat{y}$
 ---
 # {{ params.vars.title }}
 A baseball is hit at a {{ params.v }} $m/s$, {{ params.d }}$^\circ$ above the horizontal.

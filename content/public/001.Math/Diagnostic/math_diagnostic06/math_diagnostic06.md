@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic06
-    eq: $\dfrac{x-9}{x+2}$ = $ \dfrac{x+8}{x-4}$
+    eq: $\dfrac{x-4}{x+2}$ = $ \dfrac{x+1}{x-1}$
     part1:
       ans1:
-        value: 64/23
+        value: 1/4
       ans2:
-        value: -14/23
+        value: 7/8
       ans3:
-        value: '-64'
+        value: 1/2
       ans4:
-        value: 14/23
+        value: -7/8
 ---
 # {{ params.vars.title }}
 

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $j$ = $\dfrac{(d)}{(q + 8x)} $
+    expr: $l$ = $\dfrac{(e)}{(p + 3n)} $
     part1:
       ans1:
-        value: q = ${ \frac{d}{j} - 8 x}$
+        value: p = ${ \frac{e}{l} - 3 n}$
       ans2:
-        value: q = ${\frac{8 j x}{d}}$
+        value: p = ${\frac{3 l n}{e}}$
       ans3:
-        value: q = ${\frac{d}{8 j x}}$
+        value: p = ${\frac{e}{3 l n}}$
       ans4:
-        value: q = ${\frac{j - 8 x}{d}}$
+        value: p = ${\frac{l - 3 n}{e}}$
       ans5:
         value: Don't Know
 ---
