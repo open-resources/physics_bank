@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $j$ = $\dfrac{(k)}{(d + 2q)} $
+    expr: $t$ = $\dfrac{(o)}{(y + 4h)} $
     part1:
       ans1:
-        value: d = ${ - 2 q + \frac{k}{j}}$
+        value: y = ${ - 4 h + \frac{o}{t}}$
       ans2:
-        value: d = ${\frac{2 j q}{k}}$
+        value: y = ${\frac{4 h t}{o}}$
       ans3:
-        value: d = ${\frac{k}{2 j q}}$
+        value: y = ${\frac{o}{4 h t}}$
       ans4:
-        value: d = ${\frac{j - 2 q}{k}}$
+        value: y = ${\frac{- 4 h + t}{o}}$
       ans5:
         value: Don't Know
 ---

@@ -32,17 +32,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic07
-    formula1: 10x - 1y = 50
-    formula2: 6x + 3y = 33
+    formula1: 1x - 6y = 28
+    formula2: 9x + 4y = 20
     part1:
       ans1:
-        value: ' x =61/12, y =5/6'
+        value: ' x =4, y =-4'
       ans2:
-        value: ' x =5/6, y =61/12'
+        value: ' x =-4, y =4'
       ans3:
-        value: ' x =-61/12, y =-5/6'
+        value: ' x =-4, y =4'
       ans4:
-        value: ' x =-5/6, y =-61/12'
+        value: ' x =4, y =-4'
       ans5:
         value: Don't Know
 ---

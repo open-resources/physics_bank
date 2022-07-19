@@ -36,7 +36,7 @@ substitutions:
   params:
     vars:
       units: rad/s
-      name: Savannah
+      name: Abbas
       title: Wheel of Fortune
     t: 2.2
     w_i: ${\pi \over 3} {rad\over s}$

@@ -41,13 +41,13 @@ part2:
 substitutions:
   params:
     vars:
-      name: Aliyah
+      name: Savannah
       title: Archery Competition
       units: m/s
-    x: 63
-    arrow_v: 86
-    theta: 8
-    height: 161
+    x: 145
+    arrow_v: 120
+    theta: 10
+    height: 166
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is reading a novel that describes an athelete participating in an archery competition.

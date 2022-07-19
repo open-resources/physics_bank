@@ -38,18 +38,18 @@ substitutions:
   params:
     vars:
       title: Pushing Net Across Ice
-    v: 1
-    f: 3
+    v: 5
+    f: 4
     part2:
       ans1:
         value: at a steadily increasing speed
         feedback: Great job! You got it!
       ans2:
-        value: at 2 $\rm{m/s}$
+        value: at 6 $\rm{m/s}$
         feedback: Consider whether kinetic or static friction is acting? Is the net
           force truly zero?
       ans3:
-        value: at an increasing speed until it reaches 2 $\rm{m/s}$, and then at a
+        value: at an increasing speed until it reaches 6 $\rm{m/s}$, and then at a
           constant speed
         feedback: Consider whether kinetic or static friction is acting? Which is
           dependent on speed?
@@ -58,7 +58,7 @@ substitutions:
         feedback: Consider whether kinetic or static friction is acting? Which is
           dependent on speed?
       ans5:
-        value: at 1 $\rm{m/s}$
+        value: at 5 $\rm{m/s}$
         feedback: Consider whether kinetic or static friction is acting? Is the net
           force truly zero?
 ---
