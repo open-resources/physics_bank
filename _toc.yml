@@ -203,6 +203,7 @@ parts:
   - file: content/public/006.Force/Drag/Cyclist with a Deathwish/cyclist
   - file: content/public/006.Force/Dynamics of Circular Motion/Frictionless Table/frictionless_table
   - file: content/public/006.Force/Dynamics of Circular Motion/Object_In_Circular_Motion/Object_In_Circular_Motion
+  - file: content/public/006.Force/Dynamics of Circular Motion/Washing Machine Mechanics/washing_machine_mechanics
   - file: content/public/006.Force/Dynamics of Circular Motion/circular_motion_FBD/circular_motion_FBD
   - file: content/public/006.Force/Dynamics of Circular Motion/object_on_string/object_on_string
   - file: content/public/006.Force/Equilibrium/Rod in Static Equilibrium/Rod in Static
