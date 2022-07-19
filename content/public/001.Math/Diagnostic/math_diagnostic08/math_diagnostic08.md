@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-63x - 81y }{ -9 }$
+    expr: $\dfrac{63x - 42y }{ -7 }$
     part1:
       ans1:
-        value: $7 x + 9 y$
+        value: $- 9 x + 6 y$
       ans2:
-        value: $\dfrac{7x + 9y}{-9}$
+        value: $\dfrac{-9x + 6y}{-7}$
       ans3:
-        value: $9x + 7y$
+        value: $6x - 9y$
       ans4:
-        value: $-63x + 81y$
+        value: $63x + 42y$
       ans5:
         value: Don't know.
 ---

@@ -33,22 +33,22 @@ substitutions:
     vars:
       title: Vehicle Crash
       name: Mateo
-      vehicle_1: sedan
-      vehicle_2: car
-    dist: 2.98
+      vehicle_1: truck
+      vehicle_2: van
+    dist: 3.29
     v: 37.1
-    acc: 14.5
+    acc: 13.4
     s_1: 0.2
-    s_2: 1.544
+    s_2: 1.325
     part1:
       ans1:
-        value: 17.61 $m/s$
+        value: 22.03 $m/s$
       ans2:
-        value: 14.71 $m/s$
+        value: 19.35 $m/s$
       ans3:
-        value: 34.2 $m/s$
+        value: 34.42 $m/s$
       ans4:
-        value: 11.81 $m/s$
+        value: 16.67 $m/s$
       ans5:
         value: 37.1 $m/s$
 ---

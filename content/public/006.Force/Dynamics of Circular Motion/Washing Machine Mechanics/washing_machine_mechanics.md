@@ -7,10 +7,8 @@ template_version: 1.3
 attribution: standard
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
 outcomes:
 - 6.12.1.1
-- 6.12.2.0
 difficulty:
 - undefined
 randomization:
@@ -31,14 +29,14 @@ part1:
     rtol: 0.05
     weight: 1
     allow-blank: true
-    label: $v= $
+    label: v=
     suffix: m/s
 substitutions:
   params:
     vars:
       title: Washing Machine Mechanics
-    m: 1
-    r: 4
+    m: 3
+    r: 2
 ---
 # {{ params.vars.title }}
 A washing machine works by rotating the drum about a horizontal axis in a vertical plane. For thorough cleaning, detergent is sprayed from tiny holes in the surface of the drum.

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $l$ = $\dfrac{(r)}{(n + 4v)} $
+    expr: $j$ = $\dfrac{(k)}{(d + 2q)} $
     part1:
       ans1:
-        value: n = ${ - 4 v + \frac{r}{l}}$
+        value: d = ${ - 2 q + \frac{k}{j}}$
       ans2:
-        value: n = ${\frac{4 l v}{r}}$
+        value: d = ${\frac{2 j q}{k}}$
       ans3:
-        value: n = ${\frac{r}{4 l v}}$
+        value: d = ${\frac{k}{2 j q}}$
       ans4:
-        value: n = ${\frac{l - 4 v}{r}}$
+        value: d = ${\frac{j - 2 q}{k}}$
       ans5:
         value: Don't Know
 ---

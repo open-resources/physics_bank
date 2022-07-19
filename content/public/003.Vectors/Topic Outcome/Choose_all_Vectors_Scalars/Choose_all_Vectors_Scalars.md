@@ -36,17 +36,17 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: Lift
+        value: The position in 3 dimensions
       ans2:
-        value: Acceleration
+        value: Lift
       ans3:
-        value: Momentum
+        value: Distance travelled
       ans4:
-        value: Temperature
+        value: Pressure
       ans5:
-        value: Length
+        value: Speed
       ans6:
-        value: Power
+        value: Work
 ---
 # {{ params.vars.title }}
 

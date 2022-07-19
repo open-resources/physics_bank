@@ -44,8 +44,8 @@ substitutions:
   params:
     vars:
       title: Current loop
-    I: '3.60'
-    B: $2.50\times 10^{-5}$
+    I: '7.60'
+    B: $1.10\times 10^{-4}$
 ---
 # {{ params.vars.title }}
 When the current through a circular loop is {{ params.I }}$\rm\ A$, the magnetic field at its centre is {{ params.B }} $\rm\ T$.
