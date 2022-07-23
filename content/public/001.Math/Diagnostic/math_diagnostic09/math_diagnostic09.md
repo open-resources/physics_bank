@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $t$ = $\dfrac{(o)}{(y + 4h)} $
+    expr: $q$ = $\dfrac{(f)}{(j + 6u)} $
     part1:
       ans1:
-        value: y = ${ - 4 h + \frac{o}{t}}$
+        value: j = ${ \frac{f}{q} - 6 u}$
       ans2:
-        value: y = ${\frac{4 h t}{o}}$
+        value: j = ${\frac{6 q u}{f}}$
       ans3:
-        value: y = ${\frac{o}{4 h t}}$
+        value: j = ${\frac{f}{6 q u}}$
       ans4:
-        value: y = ${\frac{- 4 h + t}{o}}$
+        value: j = ${\frac{q - 6 u}{f}}$
       ans5:
         value: Don't Know
 ---

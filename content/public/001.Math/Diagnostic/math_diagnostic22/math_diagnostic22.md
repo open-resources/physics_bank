@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic22
-    denom: 5
-    formula: $\sin{\left(\frac{x}{5} \right)}$
+    denom: 7
+    formula: $\sin{\left(\frac{x}{7} \right)}$
     part1:
       ans1:
-        value: ${- 5 \cos{\left(\frac{x}{5} \right)}}$
+        value: ${- 7 \cos{\left(\frac{x}{7} \right)}}$
       ans2:
-        value: ${5 \cos{\left(\frac{x}{5} \right)}}$
+        value: ${7 \cos{\left(\frac{x}{7} \right)}}$
       ans3:
-        value: ${- 10 \cos{\left(\frac{x}{5} \right)}}$
+        value: ${- 14 \cos{\left(\frac{x}{7} \right)}}$
       ans4:
-        value: ${- \frac{5 \cos{\left(\frac{x}{5} \right)}}{2}}$
+        value: ${- \frac{7 \cos{\left(\frac{x}{7} \right)}}{2}}$
 ---
 # {{ params.vars.title }}
 
