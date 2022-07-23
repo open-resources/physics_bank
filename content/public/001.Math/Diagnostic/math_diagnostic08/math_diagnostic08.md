@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{56x - 32y }{ 8 }$
+    expr: $\dfrac{-56x - 14y }{ 7 }$
     part1:
       ans1:
-        value: $7 x - 4 y$
+        value: $- 8 x - 2 y$
       ans2:
-        value: $\dfrac{7x - 4y}{8}$
+        value: $\dfrac{-8x - 2y}{7}$
       ans3:
-        value: $-4x + 7y$
+        value: $-2x - 8y$
       ans4:
-        value: $56x - 32y$
+        value: $-56x - 14y$
       ans5:
         value: Don't know.
 ---

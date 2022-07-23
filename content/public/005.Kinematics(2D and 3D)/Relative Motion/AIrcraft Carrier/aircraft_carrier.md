@@ -35,8 +35,8 @@ substitutions:
   params:
     vars:
       title: Aircraft Carrier
-    va: 245
-    vb: 182
+    va: 249
+    vb: 290
 ---
 # {{ params.vars.title }}
 Plane A takes off with a velocity of $\vec{v_A}$ = ({{ params.va }} $km/h$)$\hat{\imath}$ relative to the aircraft carrier. On a second runway which is directed 30$^{\circ}$ away from the $x$-axis, plane B has a speed of {{ params.vb }} $km/h$ relative to the aircraft carrier.

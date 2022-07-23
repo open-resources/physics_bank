@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic23
-    a: 4
-    b: 4
-    formula: $x^{4} \cos{\left(4 x \right)}$
+    a: 9
+    b: 5
+    formula: $x^{9} \sin{\left(5 x \right)}$
     part1:
       ans1:
-        value: $- 4 x^{4} \sin{\left(4 x \right)} + 4 x^{3} \cos{\left(4 x \right)}$
+        value: $5 x^{9} \cos{\left(5 x \right)} + 9 x^{8} \sin{\left(5 x \right)}$
       ans2:
-        value: $- 4 x^{4} \sin{\left(4 x \right)} $
+        value: $5 x^{9} \cos{\left(5 x \right)} $
       ans3:
-        value: $ 4 x^{3} \sin{\left(4 x \right)}$
+        value: $ 9 x^{8} \cos{\left(5 x \right)}$
       ans4:
-        value: $4 x^{4} \cos{\left(4 x \right)} + 4 x^{3} \sin{\left(4 x \right)}$
+        value: $- 5 x^{9} \sin{\left(5 x \right)} + 9 x^{8} \cos{\left(5 x \right)}$
       ans5:
         value: Don't Know
 ---

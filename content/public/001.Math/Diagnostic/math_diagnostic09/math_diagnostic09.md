@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $v$ = $\dfrac{(h)}{(g - 10t)} $
+    expr: $l$ = $\dfrac{(v)}{(i + 9j)} $
     part1:
       ans1:
-        value: g = ${ \frac{h}{v} + 10 t}$
+        value: i = ${ - 9 j + \frac{v}{l}}$
       ans2:
-        value: g = ${- \frac{10 t v}{h}}$
+        value: i = ${\frac{9 j l}{v}}$
       ans3:
-        value: g = ${- \frac{h}{10 t v}}$
+        value: i = ${\frac{v}{9 j l}}$
       ans4:
-        value: g = ${\frac{10 t + v}{h}}$
+        value: i = ${\frac{- 9 j + l}{v}}$
       ans5:
         value: Don't Know
 ---

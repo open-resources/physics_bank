@@ -36,15 +36,15 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: Drag
-      ans2:
         value: Acceleration
+      ans2:
+        value: The position in 3 dimensions
       ans3:
-        value: Speed
+        value: Lift
       ans4:
         value: Energy
       ans5:
-        value: Mass
+        value: Temperature
       ans6:
         value: Area
 ---

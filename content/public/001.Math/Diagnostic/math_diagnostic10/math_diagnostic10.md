@@ -32,17 +32,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic10
-    a: -7
-    b: '3'
+    a: -5
+    b: '10'
     b_sign: ' - '
-    c: 7
+    c: -2
     part1:
       ans1:
-        value: x =  - 14/3
+        value: x =  - 3/10
       ans2:
-        value: x =   14/3
+        value: x =   3/10
       ans3:
-        value: x = 17
+        value: x = 13
       ans4:
         value: x = 3
       ans5:
