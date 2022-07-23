@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $q$ = $\dfrac{(f)}{(j + 6u)} $
+    expr: $v$ = $\dfrac{(h)}{(g - 10t)} $
     part1:
       ans1:
-        value: j = ${ \frac{f}{q} - 6 u}$
+        value: g = ${ \frac{h}{v} + 10 t}$
       ans2:
-        value: j = ${\frac{6 q u}{f}}$
+        value: g = ${- \frac{10 t v}{h}}$
       ans3:
-        value: j = ${\frac{f}{6 q u}}$
+        value: g = ${- \frac{h}{10 t v}}$
       ans4:
-        value: j = ${\frac{q - 6 u}{f}}$
+        value: g = ${\frac{10 t + v}{h}}$
       ans5:
         value: Don't Know
 ---

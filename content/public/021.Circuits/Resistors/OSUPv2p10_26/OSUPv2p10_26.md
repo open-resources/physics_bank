@@ -52,7 +52,7 @@ substitutions:
   params:
     vars:
       title: Series and Parallel Resistors
-    R1: '1.20'
+    R1: '2.10'
     R2: '3.00'
     R3: '7.00'
 ---

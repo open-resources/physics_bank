@@ -51,8 +51,8 @@ substitutions:
   params:
     vars:
       title: Unknown Voltage Source
-    dV: '2.90'
-    dI: '5.10'
+    dV: '2.80'
+    dI: '5.70'
     part2:
       ans1:
         value: 'No'

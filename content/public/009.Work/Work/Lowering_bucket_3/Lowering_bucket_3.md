@@ -44,7 +44,7 @@ part3:
 substitutions:
   params:
     vars:
-      name: Santiago
+      name: Ximena
       title: Lowering a bucket - the bucket
     part1:
       ans1:
