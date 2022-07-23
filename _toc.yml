@@ -170,6 +170,8 @@ parts:
       Salmon
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Midair Propulsion/Midair
       Propulsion
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Mischievous Caracara/Mischievous
+      Caracara
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Projectile Motion
       graphs/Projectile Motion graphs
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Salmon passing
