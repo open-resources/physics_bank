@@ -380,6 +380,8 @@ parts:
   - file: content/public/010.Rotational Motion/Relating Rotational to Translational
       Motion/Stewie Swinging a Rock/stewie_swinging_rock
   - file: content/public/010.Rotational Motion/Relating Rotational to Translational
+      Motion/centrifuge_acceleration/centrifuge_acceleration
+  - file: content/public/010.Rotational Motion/Relating Rotational to Translational
       Motion/competitive_hammer_throw/competitive_hammer_throw
   - file: content/public/010.Rotational Motion/Rolling Motion/Minimum_Coefficient_Of_Static_Friction/Minimum_Coefficient_Of_Static_Friction
   - file: content/public/010.Rotational Motion/Rolling Motion/Rolling_without_slipping/Rolling_without_slipping
