@@ -431,6 +431,8 @@ parts:
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Maximum Speed of
       a Pendulum/Maximum Speed of a Pendulum
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Maximum_In_Simple_Harmonic_Motion/Maximum_In_Simple_Harmonic_Motion
+  - file: content/public/015.Oscillations/Simple Harmonic Motion/SHO Kinetic Energy
+      Graph/SHO_Kinetic_Energy_Graph
   - file: content/public/015.Oscillations/Simple Harmonic Motion/frequency_graph/frequency_graph
   - file: content/public/015.Oscillations/Simple Harmonic Motion/spring_oscillations/spring_oscillations
 - caption: Waves
