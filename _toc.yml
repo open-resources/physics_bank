@@ -200,6 +200,7 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/jump_across_stream/jump_across_stream
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Tetherball/Tetherball
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Tetherball/tetherball
+  - file: content/public/005.Kinematics(2D and 3D)/kinematics_test_q1/kinematics_test_q1
 - caption: Force
   chapters:
   - file: content/public/006.Force/Drag/Cyclist with a Deathwish/cyclist
