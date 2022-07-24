@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $7^{8} $=$ 5764801$
+    expr: $2^{6} $=$ 64$
     part1:
       ans1:
-        value: $log_75764801 = 8$
+        value: $log_264 = 6$
       ans2:
-        value: $log_78 = 5764801$
+        value: $log_26 = 64$
       ans3:
-        value: $log_57648018 = 7$
+        value: $log_646 = 2$
       ans4:
-        value: $log_85764801 = 7$
+        value: $log_664 = 2$
       ans5:
         value: Don't Know
 ---

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $l$ = $\dfrac{(v)}{(i + 9j)} $
+    expr: $r$ = $\dfrac{(b)}{(p + 2f)} $
     part1:
       ans1:
-        value: i = ${ - 9 j + \frac{v}{l}}$
+        value: p = ${ \frac{b}{r} - 2 f}$
       ans2:
-        value: i = ${\frac{9 j l}{v}}$
+        value: p = ${\frac{2 f r}{b}}$
       ans3:
-        value: i = ${\frac{v}{9 j l}}$
+        value: p = ${\frac{b}{2 f r}}$
       ans4:
-        value: i = ${\frac{- 9 j + l}{v}}$
+        value: p = ${\frac{- 2 f + r}{b}}$
       ans5:
         value: Don't Know
 ---

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic13
-    expr: $\dfrac{z^1 }{z^6} $
+    expr: $\dfrac{z^3 }{z^4} $
     part1:
       ans1:
-        value: $z^{-5}$
+        value: $z^{-1}$
       ans2:
-        value: $z^{5}$
+        value: $z^{1}$
       ans3:
-        value: -5z
+        value: -1z
       ans4:
-        value: (1/6)z
+        value: (3/4)z
       ans5:
         value: Don't Know
 ---
