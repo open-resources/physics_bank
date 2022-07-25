@@ -198,6 +198,8 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Rocket/Rocket
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Supply_plane/Supply_plane
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/jump_across_stream/jump_across_stream
+  - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Cars Around
+      a Bend/cars_around_bend
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Tetherball/Tetherball
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Tetherball/tetherball
   - file: content/public/005.Kinematics(2D and 3D)/kinematics_test_q1/kinematics_test_q1
