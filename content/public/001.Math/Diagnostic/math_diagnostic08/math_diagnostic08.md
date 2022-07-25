@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-30x - 36y }{ -6 }$
+    expr: $\dfrac{32x + 56y }{ 8 }$
     part1:
       ans1:
-        value: $5 x + 6 y$
+        value: $4 x + 7 y$
       ans2:
-        value: $\dfrac{5x + 6y}{-6}$
+        value: $\dfrac{4x + 7y}{8}$
       ans3:
-        value: $6x + 5y$
+        value: $7x + 4y$
       ans4:
-        value: $-30x + 36y$
+        value: $32x + 56y$
       ans5:
         value: Don't know.
 ---

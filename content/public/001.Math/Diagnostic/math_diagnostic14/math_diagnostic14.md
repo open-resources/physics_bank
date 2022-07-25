@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic14
-    expr: $x^{ -9\over 2}$
+    expr: $x^{ -3\over 6}$
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt{x^{9}}}\end{equation}
+        value: \begin{equation}\frac{1}{\sqrt[6]{x^{3}}}\end{equation}
       ans2:
-        value: \begin{equation}\sqrt{x^{9}}\end{equation}
+        value: \begin{equation}\sqrt[6]{x^{3}}\end{equation}
       ans3:
-        value: \begin{equation}x^{\frac{9}{2}}\end{equation}
+        value: \begin{equation}\sqrt{x}\end{equation}
       ans4:
-        value: \begin{equation}- \frac{1}{\sqrt{x^{9}}}\end{equation}
+        value: \begin{equation}- \frac{1}{\sqrt[6]{x^{3}}}\end{equation}
       ans5:
         value: Do not know
 ---

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $r$ = $\dfrac{(b)}{(p + 2f)} $
+    expr: $v$ = $\dfrac{(x)}{(z - 6g)} $
     part1:
       ans1:
-        value: p = ${ \frac{b}{r} - 2 f}$
+        value: z = ${ 6 g + \frac{x}{v}}$
       ans2:
-        value: p = ${\frac{2 f r}{b}}$
+        value: z = ${- \frac{6 g v}{x}}$
       ans3:
-        value: p = ${\frac{b}{2 f r}}$
+        value: z = ${- \frac{x}{6 g v}}$
       ans4:
-        value: p = ${\frac{- 2 f + r}{b}}$
+        value: z = ${\frac{6 g + v}{x}}$
       ans5:
         value: Don't Know
 ---

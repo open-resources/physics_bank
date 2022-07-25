@@ -32,17 +32,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic07
-    formula1: 3x - 5y = 4
-    formula2: 2x + 7y = 26
+    formula1: 1x - 8y = 30
+    formula2: 2x + 8y = 30
     part1:
       ans1:
-        value: ' x =158/31, y =70/31'
+        value: ' x =20, y =-5/4'
       ans2:
-        value: ' x =70/31, y =158/31'
+        value: ' x =-5/4, y =20'
       ans3:
-        value: ' x =-158/31, y =-70/31'
+        value: ' x =-20, y =5/4'
       ans4:
-        value: ' x =-70/31, y =-158/31'
+        value: ' x =5/4, y =-20'
       ans5:
         value: Don't Know
 ---

@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $2^{6} $=$ 64$
+    expr: $6^{4} $=$ 1296$
     part1:
       ans1:
-        value: $log_264 = 6$
+        value: $log_61296 = 4$
       ans2:
-        value: $log_26 = 64$
+        value: $log_64 = 1296$
       ans3:
-        value: $log_646 = 2$
+        value: $log_12964 = 6$
       ans4:
-        value: $log_664 = 2$
+        value: $log_41296 = 6$
       ans5:
         value: Don't Know
 ---

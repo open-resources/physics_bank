@@ -64,8 +64,8 @@ substitutions:
   params:
     vars:
       title: Charge and Voltage Across Capacitors
-    a: '4'
-    b: '7'
+    a: '13'
+    b: '5'
     v: '360'
 ---
 # {{ params.vars.title }}
