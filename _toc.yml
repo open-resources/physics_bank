@@ -365,6 +365,7 @@ parts:
   - file: content/public/009.Work/Power/Energy Expenditure/Energy Expenditure
   - file: content/public/009.Work/Topic Outcome/Bungee_jumping/bungee_jumping
   - file: content/public/009.Work/Topic Outcome/Work_Done_By_Force/Work_Done_By_Force
+  - file: content/public/009.Work/Topic Outcome/animal_in_elevator/animal_in_elevator
   - file: content/public/009.Work/Topic Outcome/spring_on_incline/spring_on_incline
   - file: content/public/009.Work/Work-Energy Theorem/Toboggan_hill/Toboggan_hill
   - file: content/public/009.Work/Work-Energy Theorem/work_frictionless_surface/work_frictionless_surface
