@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $r$ = $\dfrac{(j)}{(m - 9u)} $
+    expr: $x$ = $\dfrac{(m)}{(h + 10y)} $
     part1:
       ans1:
-        value: m = ${ \frac{j}{r} + 9 u}$
+        value: h = ${ \frac{m}{x} - 10 y}$
       ans2:
-        value: m = ${- \frac{9 r u}{j}}$
+        value: h = ${\frac{10 x y}{m}}$
       ans3:
-        value: m = ${- \frac{j}{9 r u}}$
+        value: h = ${\frac{m}{10 x y}}$
       ans4:
-        value: m = ${\frac{r + 9 u}{j}}$
+        value: h = ${\frac{x - 10 y}{m}}$
       ans5:
         value: Don't Know
 ---

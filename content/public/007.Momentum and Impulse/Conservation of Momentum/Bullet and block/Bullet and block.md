@@ -45,11 +45,11 @@ substitutions:
       name: Santiago
       units1: m/s
       units2: kg
-    m_bullet: 22
-    m_block: 26
-    bullet_v: 891
-    slide_d: 6
-    slide_dnew: 6.9
+    m_bullet: 25
+    m_block: 21
+    bullet_v: 714
+    slide_d: 1
+    slide_dnew: 2.0
     coeff_k: 0.2
 ---
 # {{ params.vars.title }}
