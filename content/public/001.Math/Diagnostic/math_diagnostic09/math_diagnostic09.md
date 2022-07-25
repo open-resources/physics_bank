@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $v$ = $\dfrac{(x)}{(z - 6g)} $
+    expr: $r$ = $\dfrac{(j)}{(m - 9u)} $
     part1:
       ans1:
-        value: z = ${ 6 g + \frac{x}{v}}$
+        value: m = ${ \frac{j}{r} + 9 u}$
       ans2:
-        value: z = ${- \frac{6 g v}{x}}$
+        value: m = ${- \frac{9 r u}{j}}$
       ans3:
-        value: z = ${- \frac{x}{6 g v}}$
+        value: m = ${- \frac{j}{9 r u}}$
       ans4:
-        value: z = ${\frac{6 g + v}{x}}$
+        value: m = ${\frac{r + 9 u}{j}}$
       ans5:
         value: Don't Know
 ---

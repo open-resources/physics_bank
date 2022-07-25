@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic23
-    a: 7
-    b: 9
-    formula: $x^{7} \sin{\left(9 x \right)}$
+    a: 4
+    b: 8
+    formula: $x^{4} \cos{\left(8 x \right)}$
     part1:
       ans1:
-        value: $9 x^{7} \cos{\left(9 x \right)} + 7 x^{6} \sin{\left(9 x \right)}$
+        value: $- 8 x^{4} \sin{\left(8 x \right)} + 4 x^{3} \cos{\left(8 x \right)}$
       ans2:
-        value: $9 x^{7} \cos{\left(9 x \right)} $
+        value: $- 8 x^{4} \sin{\left(8 x \right)} $
       ans3:
-        value: $ 7 x^{6} \cos{\left(9 x \right)}$
+        value: $ 4 x^{3} \sin{\left(8 x \right)}$
       ans4:
-        value: $- 9 x^{7} \sin{\left(9 x \right)} + 7 x^{6} \cos{\left(9 x \right)}$
+        value: $8 x^{4} \cos{\left(8 x \right)} + 4 x^{3} \sin{\left(8 x \right)}$
       ans5:
         value: Don't Know
 ---

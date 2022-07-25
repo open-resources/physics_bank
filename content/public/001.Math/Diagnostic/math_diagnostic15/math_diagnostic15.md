@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $6^{4} $=$ 1296$
+    expr: $8^{7} $=$ 2097152$
     part1:
       ans1:
-        value: $log_61296 = 4$
+        value: $log_82097152 = 7$
       ans2:
-        value: $log_64 = 1296$
+        value: $log_87 = 2097152$
       ans3:
-        value: $log_12964 = 6$
+        value: $log_20971527 = 8$
       ans4:
-        value: $log_41296 = 6$
+        value: $log_72097152 = 8$
       ans5:
         value: Don't Know
 ---

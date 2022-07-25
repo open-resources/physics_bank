@@ -58,9 +58,9 @@ substitutions:
   params:
     vars:
       title: Varying Separation Distance of Capacitor Plates
-    a: '20.0'
-    b: '1.00'
-    c: '2.25'
+    a: '15.0'
+    b: '1.25'
+    c: '2.00'
     v: '30'
     part3:
       ans1:

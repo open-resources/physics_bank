@@ -55,11 +55,11 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-      name: Santiago
+      name: Maya
     i: 313
-    m: 34
-    v_1: 30
-    v_2: 49
+    m: 36
+    v_1: 19
+    v_2: 24
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.

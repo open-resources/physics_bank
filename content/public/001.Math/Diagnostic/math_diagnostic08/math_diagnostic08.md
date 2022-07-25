@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{32x + 56y }{ 8 }$
+    expr: $\dfrac{-54x - 45y }{ 9 }$
     part1:
       ans1:
-        value: $4 x + 7 y$
+        value: $- 6 x - 5 y$
       ans2:
-        value: $\dfrac{4x + 7y}{8}$
+        value: $\dfrac{-6x - 5y}{9}$
       ans3:
-        value: $7x + 4y$
+        value: $-5x - 6y$
       ans4:
-        value: $32x + 56y$
+        value: $-54x - 45y$
       ans5:
         value: Don't know.
 ---

@@ -37,8 +37,8 @@ substitutions:
   params:
     vars:
       title: Coefficient Of Friction
-    m: 230
-    t: 2
+    m: 197
+    t: 1
 ---
 # {{ params.vars.title }}
 You have been hired to measure the coefficients of friction for the newly discovered substance jelloium.
