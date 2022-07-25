@@ -440,6 +440,7 @@ parts:
       Graph/SHO_Kinetic_Energy_Graph
   - file: content/public/015.Oscillations/Simple Harmonic Motion/frequency_graph/frequency_graph
   - file: content/public/015.Oscillations/Simple Harmonic Motion/spring_oscillations/spring_oscillations
+  - file: content/public/015.Oscillations/q01_multiple-choice/q01_multiple-choice
 - caption: Waves
   chapters:
   - file: content/public/016.Waves/Interference/PHYS 122 2018W2 Second Term Test Q3/PHYS
