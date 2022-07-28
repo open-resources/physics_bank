@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{56x - 14y }{ -7 }$
+    expr: $\dfrac{-25x - 40y }{ 5 }$
     part1:
       ans1:
-        value: $- 8 x + 2 y$
+        value: $- 5 x - 8 y$
       ans2:
-        value: $\dfrac{-8x + 2y}{-7}$
+        value: $\dfrac{-5x - 8y}{5}$
       ans3:
-        value: $2x - 8y$
+        value: $-8x - 5y$
       ans4:
-        value: $56x + 14y$
+        value: $-25x - 40y$
       ans5:
         value: Don't know.
 ---

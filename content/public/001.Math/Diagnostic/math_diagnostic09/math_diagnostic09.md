@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $h$ = $\dfrac{(c)}{(l - 3x)} $
+    expr: $f$ = $\dfrac{(c)}{(h + 9k)} $
     part1:
       ans1:
-        value: l = ${ \frac{c}{h} + 3 x}$
+        value: h = ${ \frac{c}{f} - 9 k}$
       ans2:
-        value: l = ${- \frac{3 h x}{c}}$
+        value: h = ${\frac{9 f k}{c}}$
       ans3:
-        value: l = ${- \frac{c}{3 h x}}$
+        value: h = ${\frac{c}{9 f k}}$
       ans4:
-        value: l = ${\frac{h + 3 x}{c}}$
+        value: h = ${\frac{f - 9 k}{c}}$
       ans5:
         value: Don't Know
 ---

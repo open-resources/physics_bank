@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $9^{3} $=$ 729$
+    expr: $3^{4} $=$ 81$
     part1:
       ans1:
-        value: $log_9729 = 3$
+        value: $log_381 = 4$
       ans2:
-        value: $log_93 = 729$
+        value: $log_34 = 81$
       ans3:
-        value: $log_7293 = 9$
+        value: $log_814 = 3$
       ans4:
-        value: $log_3729 = 9$
+        value: $log_481 = 3$
       ans5:
         value: Don't Know
 ---

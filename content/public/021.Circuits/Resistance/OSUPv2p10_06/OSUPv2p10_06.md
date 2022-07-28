@@ -34,8 +34,8 @@ substitutions:
     vars:
       title: Resistors in a Lab
       name: Emilia
-    have: larger
-    want: smaller
+    have: smaller
+    want: larger
     part1:
       ans1:
         value: Connect multiple resistors in parallel

@@ -93,8 +93,8 @@ substitutions:
   params:
     vars:
       title: A Mischievous Caracara
-    v: 4
-    h: 7
+    v: 2
+    h: 11
     part4:
       ans1:
         value: East
@@ -103,36 +103,36 @@ substitutions:
         value: East and down
         feedback: The nut does not start moving down immediately
       ans3:
-        value: West and up
+        value: West and down
         feedback: Hmh...Try again!
       ans4:
-        value: East and up
+        value: West and up
         feedback: Hmh...Try again!
       ans5:
-        value: South and down
+        value: South and up
         feedback: Hmh...Try again!
       ans6:
-        value: North and up
+        value: South and down
         feedback: Hmh...Try again!
     part7:
       ans1:
         value: Down
         feedback: Great! You got it.
       ans2:
-        value: South and up
+        value: East and up
         feedback: Hmh...Try again!
       ans3:
-        value: North and down
+        value: South and down
         feedback: Hmh...Try again!
       ans4:
-        value: East and down
+        value: North and down
         feedback: Hmh...Try again!
       ans5:
-        value: West and up
+        value: South and up
         feedback: Hmh...Try again!
       ans6:
-        value: Up
-        feedback: 'Hint: acceleration due to gravity.'
+        value: West and up
+        feedback: Hmh...Try again!
 ---
 # {{ params.vars.title }}
 A mischievous caracara sees a fisherman unscrew a shiny steel nut from a bolt on his ship while doing repairs in a harbor off the Falkland Islands.  The fisherman watches helplessly as the bird picks up the nut and flies toward the shore.  The bird flies due east at a constant speed of {{ params.v }} $\rm{m/s}$ and constant height of {{ params.h }} $\rm{m}$.  The bird flies directly over a person on the shoreline, dropping the nut at the instant they are above the person.

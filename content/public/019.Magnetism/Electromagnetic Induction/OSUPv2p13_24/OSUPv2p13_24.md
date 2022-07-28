@@ -44,8 +44,8 @@ substitutions:
       title: Coil in Uniform Magnetic Field
     N: '40'
     d: '5'
-    B: '0.25'
-    t: '0.4'
+    B: '0.50'
+    t: '0.8'
 ---
 # {{ params.vars.title }}
 
