@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $x$ = $\dfrac{(m)}{(h + 10y)} $
+    expr: $h$ = $\dfrac{(c)}{(l - 3x)} $
     part1:
       ans1:
-        value: h = ${ \frac{m}{x} - 10 y}$
+        value: l = ${ \frac{c}{h} + 3 x}$
       ans2:
-        value: h = ${\frac{10 x y}{m}}$
+        value: l = ${- \frac{3 h x}{c}}$
       ans3:
-        value: h = ${\frac{m}{10 x y}}$
+        value: l = ${- \frac{c}{3 h x}}$
       ans4:
-        value: h = ${\frac{x - 10 y}{m}}$
+        value: l = ${\frac{h + 3 x}{c}}$
       ans5:
         value: Don't Know
 ---

@@ -49,13 +49,13 @@ part3:
 substitutions:
   params:
     vars:
-      name: Lorenzo
+      name: Savannah
       title: Potato Volume
       mass_units: kg
       volume_units: m^3
-      mass_potato: 224
-      mass_cube: 46
-      cube_side_length: 4.811332953041495
+      mass_potato: 319
+      mass_cube: 89
+      cube_side_length: 3.862605956131474
 ---
 # {{ params.vars.title }}
 For our first lab, {{params.vars.name}} decides to measure the density of a potato.

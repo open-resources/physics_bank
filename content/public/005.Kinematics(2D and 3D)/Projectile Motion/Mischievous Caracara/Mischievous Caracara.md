@@ -93,24 +93,24 @@ substitutions:
   params:
     vars:
       title: A Mischievous Caracara
-    v: 5
-    h: 8
+    v: 4
+    h: 7
     part4:
       ans1:
         value: East
         feedback: Great! You got it.
       ans2:
-        value: South and up
-        feedback: Hmh...Try again!
-      ans3:
-        value: East and up
-        feedback: Hmh...Try again!
-      ans4:
-        value: South and down
-        feedback: Hmh...Try again!
-      ans5:
         value: East and down
         feedback: The nut does not start moving down immediately
+      ans3:
+        value: West and up
+        feedback: Hmh...Try again!
+      ans4:
+        value: East and up
+        feedback: Hmh...Try again!
+      ans5:
+        value: South and down
+        feedback: Hmh...Try again!
       ans6:
         value: North and up
         feedback: Hmh...Try again!
@@ -119,20 +119,20 @@ substitutions:
         value: Down
         feedback: Great! You got it.
       ans2:
-        value: Up
-        feedback: 'Hint: acceleration due to gravity.'
+        value: South and up
+        feedback: Hmh...Try again!
       ans3:
         value: North and down
         feedback: Hmh...Try again!
       ans4:
-        value: West
-        feedback: Gravity is the only source of acceleration!
-      ans5:
-        value: East
-        feedback: Gravity is the only source of acceleration!
-      ans6:
         value: East and down
         feedback: Hmh...Try again!
+      ans5:
+        value: West and up
+        feedback: Hmh...Try again!
+      ans6:
+        value: Up
+        feedback: 'Hint: acceleration due to gravity.'
 ---
 # {{ params.vars.title }}
 A mischievous caracara sees a fisherman unscrew a shiny steel nut from a bolt on his ship while doing repairs in a harbor off the Falkland Islands.  The fisherman watches helplessly as the bird picks up the nut and flies toward the shore.  The bird flies due east at a constant speed of {{ params.v }} $\rm{m/s}$ and constant height of {{ params.h }} $\rm{m}$.  The bird flies directly over a person on the shoreline, dropping the nut at the instant they are above the person.

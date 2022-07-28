@@ -48,39 +48,39 @@ part3:
 substitutions:
   params:
     vars:
-      person1: aunt
-      person2: cousin
+      person1: grandmother
+      person2: aunt
       title: Bouncing a Baby to Sleep
       units: $N/m$
-    m1: 56.9
-    m2: 99.4
-    m_b: 5.28
-    f: 1.98
+    m1: 96.6
+    m2: 82.3
+    m_b: 6.06
+    f: 1.66
     part3:
       ans1:
-        value: Add more air to increase the pressure in the ball. Increased pressure
-          makes the ball 'stiffer'.
+        value: Remove air to decrease the pressure in the ball. Decreased pressure
+          makes the ball 'softer'.
       ans2:
         value: Remove air to decrease the pressure in the ball. Decreased pressure
-          makes the ball 'softer'.
-      ans3:
-        value: Remove air to decrease the pressure in the ball. Decreased pressure
           makes the ball 'stiffer'.
+      ans3:
+        value: Remove air to increase the pressure in the ball. Increased pressure
+          makes the ball 'softer'.
       ans4:
         value: Remove air to increase the pressure in the ball. Increased pressure
-          makes the ball 'softer'.
-      ans5:
-        value: Remove air to increase the pressure in the ball. Increased pressure
           makes the ball 'stiffer'.
+      ans5:
+        value: Add more air to decrease the pressure in the ball. Decreased pressure
+          makes the ball 'softer'.
       ans6:
         value: Add more air to decrease the pressure in the ball. Decreased pressure
-          makes the ball 'softer'.
-      ans7:
-        value: Add more air to decrease the pressure in the ball. Decreased pressure
           makes the ball 'stiffer'.
-      ans8:
+      ans7:
         value: Add more air to increase the pressure in the ball. Increased pressure
           makes the ball 'softer'.
+      ans8:
+        value: Add more air to increase the pressure in the ball. Increased pressure
+          makes the ball 'stiffer'.
 ---
 # {{ params.vars.title }}
 Some babies like to  be bounced to calm them down.

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic25
-    expr: $\dfrac{ 8-e^{(-1x)}}{8-x}$
+    expr: $\dfrac{ 7-e^{(-8x)}}{2-x}$
     part1:
       ans1:
-        value: 7/8
+        value: '3'
       ans2:
         value: Negative Infinity
       ans3:
-        value: 1.0
+        value: 3.5
       ans4:
-        value: 8
+        value: 7
       ans5:
         value: Don't Know
 ---

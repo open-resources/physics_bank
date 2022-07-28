@@ -117,9 +117,9 @@ substitutions:
     vars:
       title: Switched RL Series Circuit
     num: ''
-    emf: '12.0'
-    L: '23.0'
-    R: '4.00'
+    emf: '11.0'
+    L: '24.0'
+    R: '8.50'
 ---
 # {{ params.vars.title }}
 Consider the $RL$ circuit shown below.
