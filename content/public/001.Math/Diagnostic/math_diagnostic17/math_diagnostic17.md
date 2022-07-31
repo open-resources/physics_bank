@@ -32,16 +32,16 @@ substitutions:
     vars:
       title: Math Diagnostic17
     a: 9
-    b: 10
+    b: 9
     part1:
       ans1:
-        value: $e^{10} e^{9 y}$
+        value: $e^{9} e^{9 y}$
       ans2:
         value: $e^{9 y} + e^{9}$
       ans3:
         value: $9 e^{9} e^{y}$
       ans4:
-        value: $10 e^{9 y}$
+        value: $9 e^{9 y}$
       ans5:
         value: Don't Know
 ---

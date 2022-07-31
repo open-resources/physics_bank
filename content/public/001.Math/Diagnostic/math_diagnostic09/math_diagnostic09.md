@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $f$ = $\dfrac{(c)}{(h + 9k)} $
+    expr: $x$ = $\dfrac{(k)}{(j - 4e)} $
     part1:
       ans1:
-        value: h = ${ \frac{c}{f} - 9 k}$
+        value: j = ${ 4 e + \frac{k}{x}}$
       ans2:
-        value: h = ${\frac{9 f k}{c}}$
+        value: j = ${- \frac{4 e x}{k}}$
       ans3:
-        value: h = ${\frac{c}{9 f k}}$
+        value: j = ${- \frac{k}{4 e x}}$
       ans4:
-        value: h = ${\frac{f - 9 k}{c}}$
+        value: j = ${\frac{4 e + x}{k}}$
       ans5:
         value: Don't Know
 ---

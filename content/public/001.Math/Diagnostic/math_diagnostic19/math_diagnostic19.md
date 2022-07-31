@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic19
-    a: $ \sin253$
+    a: $ \sin335$
     part1:
       ans1:
-        value: $\sin{-107}$
+        value: $\sin{-25}$
       ans2:
-        value: $\sin{107}$
+        value: $\sin{25}$
       ans3:
-        value: $\sin{-73}$
+        value: $\sin{-155}$
       ans4:
-        value: $\sin{73}$
+        value: $\sin{155}$
       ans5:
         value: Don't Know
 ---

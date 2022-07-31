@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-25x - 40y }{ 5 }$
+    expr: $\dfrac{-12x - 9y }{ 3 }$
     part1:
       ans1:
-        value: $- 5 x - 8 y$
+        value: $- 4 x - 3 y$
       ans2:
-        value: $\dfrac{-5x - 8y}{5}$
+        value: $\dfrac{-4x - 3y}{3}$
       ans3:
-        value: $-8x - 5y$
+        value: $-3x - 4y$
       ans4:
-        value: $-25x - 40y$
+        value: $-12x - 9y$
       ans5:
         value: Don't know.
 ---
