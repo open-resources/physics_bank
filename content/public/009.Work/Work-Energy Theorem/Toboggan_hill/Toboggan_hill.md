@@ -65,15 +65,15 @@ part4:
 substitutions:
   params:
     vars:
-      name: Ximena
+      name: Aliyah
       title: Toboggan hill
       units1_2_3: $kJ$
       units_4: $m/s$
-    m: 92
-    l: 83
-    ang_horiz: 5
-    fr: 90
-    fwind: 22
+    m: 75
+    l: 107
+    ang_horiz: 22
+    fr: 60
+    fwind: 16
     theta: 23
     v_i: 3
 ---

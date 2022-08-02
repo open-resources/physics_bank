@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $6^{3} $=$ 216$
+    expr: $5^{2} $=$ 25$
     part1:
       ans1:
-        value: $log_6216 = 3$
+        value: $log_525 = 2$
       ans2:
-        value: $log_63 = 216$
+        value: $log_52 = 25$
       ans3:
-        value: $log_2163 = 6$
+        value: $log_252 = 5$
       ans4:
-        value: $log_3216 = 6$
+        value: $log_225 = 5$
       ans5:
         value: Don't Know
 ---

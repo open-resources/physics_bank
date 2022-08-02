@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $x$ = $\dfrac{(k)}{(j - 4e)} $
+    expr: $u$ = $\dfrac{(o)}{(b - 8i)} $
     part1:
       ans1:
-        value: j = ${ 4 e + \frac{k}{x}}$
+        value: b = ${ 8 i + \frac{o}{u}}$
       ans2:
-        value: j = ${- \frac{4 e x}{k}}$
+        value: b = ${- \frac{8 i u}{o}}$
       ans3:
-        value: j = ${- \frac{k}{4 e x}}$
+        value: b = ${- \frac{o}{8 i u}}$
       ans4:
-        value: j = ${\frac{4 e + x}{k}}$
+        value: b = ${\frac{8 i + u}{o}}$
       ans5:
         value: Don't Know
 ---

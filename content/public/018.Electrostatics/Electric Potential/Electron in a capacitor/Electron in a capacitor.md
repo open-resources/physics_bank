@@ -47,9 +47,9 @@ substitutions:
   params:
     vars:
       title: Electron in a capacitor
-    d: '2.0'
+    d: '3.0'
     V: '140'
-    s: $6.5\times 10^{6}$
+    s: $8.5\times 10^{4}$
     x: '1.0'
 ---
 # {{ params.vars.title }}
