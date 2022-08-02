@@ -3,15 +3,15 @@ title: Cars on Hills
 topic: Rotational Motion
 author: Jake Bobowski
 source: 2012 Midterm 2 Q4
-template_version: 1.3
+template_version: 1.4
 attribution: standard
 partialCredit: true
 singleVariant: false
 showCorrectAnswer: false
 outcomes:
-- 6.9.1.0
-- 5.7.1.0
-- 6.12.2.0
+- 6.9.1.3
+- 5.7.1.1
+- 6.12.1.1
 - 10.3.2.2
 difficulty:
 - hard
@@ -25,6 +25,7 @@ length:
 - long
 tags:
 - MP
+- NR
 - final_exam
 assets:
 - q4.png
@@ -33,6 +34,7 @@ part1:
   pl-customizations:
     rtol: 0.05
     label: $a=$
+    suffix: $\rm{\frac{m}{s^2}}$
     allow-blank: true
     weight: 1
 part2:
@@ -40,28 +42,29 @@ part2:
   pl-customizations:
     rtol: 0.05
     label: $a=$
+    suffix: $\rm{\frac{m}{s^2}}$
     allow-blank: true
     weight: 1
 substitutions:
   params:
     vars:
       title: Cars on Hills
-      units: "$\frac{m}{s^2}"
-    v: 30
-    r: 267
-    mu: 6.22
+      units: "$\rm{\frac{m}{s^2}}$"
+    v: 28
+    r: 168
+    mu: 7.22
 ---
 # {{ params.vars.title }}
-Two cars are driving at {{params.v}} $m/s$ along the road shown in the figure.
-Car B is at the bottom of a hill and car C is at the top. Both hills have a {{params.r}} $m$ radius of curvature.
+Two cars are driving at {{params.v}} $\rm{m/s}$ along the road shown in the figure.
+Car B is at the bottom of a hill and car C is at the top. Both hills have a {{params.r}} $\rm{m}$ radius of curvature.
 Suppose both cars suddenly brake hard and start to skid.
 
 <img src="q4.png" width=400 alt="Two cars on two hills on equal raduis of curvature">
 
 ## Part 1
 
-What is the tangential (i.e., the acceleration parallel to the road) of car B?
-Assume $\mu_k = 0.850$.
+What is the tangential (parallel to the road) acceleration of car B?
+Assume $\mu_k = 0.850$ and car B has velocity in the positive direction.
 
 ### Answer Section
 
@@ -69,8 +72,8 @@ Please enter in a numeric value in {{ params.vars.units}}.
 
 ## Part 2
 
-What is the tangential (i.e., the acceleration parallel to the road) of car C?
-Assume $\mu_k = 0.850$.
+What is the tangential (parallel to the road) acceleration of car C?
+Assume $\mu_k = 0.850$ and car C has velocity in the positive direction.
 
 ### Answer Section
 

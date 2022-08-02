@@ -45,8 +45,8 @@ substitutions:
   params:
     vars:
       title: Frequency of an LC Circuit
-    L: '0.10'
-    C: '5.6'
+    L: '0.24'
+    C: '7.4'
 ---
 # {{ params.vars.title }}
 The self-inductance and capacitance of an $LC$ circuit are $L = {{ params.L }}\rm\ mH$ and $C = {{ params.C }}\rm\ pF$.

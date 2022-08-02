@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $u$ = $\dfrac{(o)}{(b - 8i)} $
+    expr: $e$ = $\dfrac{(w)}{(v - 9a)} $
     part1:
       ans1:
-        value: b = ${ 8 i + \frac{o}{u}}$
+        value: v = ${ 9 a + \frac{w}{e}}$
       ans2:
-        value: b = ${- \frac{8 i u}{o}}$
+        value: v = ${- \frac{9 a e}{w}}$
       ans3:
-        value: b = ${- \frac{o}{8 i u}}$
+        value: v = ${- \frac{w}{9 a e}}$
       ans4:
-        value: b = ${\frac{8 i + u}{o}}$
+        value: v = ${\frac{9 a + e}{w}}$
       ans5:
         value: Don't Know
 ---

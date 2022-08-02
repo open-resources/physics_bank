@@ -43,7 +43,7 @@ substitutions:
     vars:
       title: Coil in Uniform Magnetic Field
     N: '40'
-    d: '10'
+    d: '5'
     B: '1.00'
     t: '0.1'
 ---

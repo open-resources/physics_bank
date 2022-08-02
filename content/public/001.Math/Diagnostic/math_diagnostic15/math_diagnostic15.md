@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $5^{2} $=$ 25$
+    expr: $9^{8} $=$ 43046721$
     part1:
       ans1:
-        value: $log_525 = 2$
+        value: $log_943046721 = 8$
       ans2:
-        value: $log_52 = 25$
+        value: $log_98 = 43046721$
       ans3:
-        value: $log_252 = 5$
+        value: $log_430467218 = 9$
       ans4:
-        value: $log_225 = 5$
+        value: $log_843046721 = 9$
       ans5:
         value: Don't Know
 ---

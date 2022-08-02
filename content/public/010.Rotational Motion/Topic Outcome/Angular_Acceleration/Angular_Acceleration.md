@@ -3,11 +3,13 @@ title: Angular Acceleration
 topic: Rotational Motion
 author: John Hopkinson
 source: PHYS 112 2015 W1 Final Q9
-template_version: 1.2
+template_version: 1.4
 attribution: standard
+partialCredit: true
+singleVariant: false
 showCorrectAnswer: false
 outcomes:
-- 5.7.2.1
+- 5.7.2.0
 difficulty:
 - easy
 randomization:
@@ -20,6 +22,7 @@ length:
 - short
 tags:
 - EW
+- NR
 assets: null
 part1:
   type: multiple-choice
@@ -29,26 +32,26 @@ substitutions:
   params:
     vars:
       title: Angular Acceleration
-    v_1: 4
-    v_2: 12
-    t: 2
+    v_1: 6
+    v_2: 17
+    t: 7
     part1:
       ans1:
-        value: 4.0 $rad/s^2$
+        value: 1.6 $\rm{rad/s^2}$
       ans2:
-        value: 4.0 $m/s^2$
+        value: 1.6 $\rm{m/s^2}$
       ans3:
-        value: -4.0 $rad/s^2$
+        value: -1.6 $\rm{rad/s^2}$
       ans4:
-        value: -4.0 $m/s^2$
+        value: -1.6 $\rm{m/s^2}$
       ans5:
-        value: 10 $rad/s^2$
+        value: 10 $\rm{rad/s^2}$
 ---
 # {{ params.vars.title }}
 
 ## Part 1
 
-A 1 $m$ radius solid object that increases in angular velocity from $\omega\_{1z}$ = {{ params.v_1 }} $rad/s$ to $\omega\_{2z}$ = {{ params.v_2 }} $rad/s$ in a {{ params.t }} second interval has an average angular acceleration of:
+A solid object with 1 $\rm{m}$ radius that increases in angular velocity from $\omega\_{1z}$ = {{ params.v_1 }} $\rm{rad/s}$ to $\omega\_{2z}$ = {{ params.v_2 }} $\rm{rad/s}$ in a {{ params.t }} $\rm{s}$ interval has an average angular acceleration of:
 
 ### Answer Section
 
