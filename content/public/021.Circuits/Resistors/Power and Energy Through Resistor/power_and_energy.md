@@ -69,7 +69,7 @@ substitutions:
   params:
     vars:
       title: Power And Energy Through Resistor
-    V: 40
+    V: 31
     R: 5
     part4:
       ans1:

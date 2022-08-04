@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $a$ = $\dfrac{(p)}{(w - 9j)} $
+    expr: $k$ = $\dfrac{(b)}{(d + 2l)} $
     part1:
       ans1:
-        value: w = ${ 9 j + \frac{p}{a}}$
+        value: d = ${ \frac{b}{k} - 2 l}$
       ans2:
-        value: w = ${- \frac{9 a j}{p}}$
+        value: d = ${\frac{2 k l}{b}}$
       ans3:
-        value: w = ${- \frac{p}{9 a j}}$
+        value: d = ${\frac{b}{2 k l}}$
       ans4:
-        value: w = ${\frac{a + 9 j}{p}}$
+        value: d = ${\frac{k - 2 l}{b}}$
       ans5:
         value: Don't Know
 ---

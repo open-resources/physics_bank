@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic25
-    expr: $\dfrac{ 4-e^{(-6x)}}{4-x}$
+    expr: $\dfrac{ 1-e^{(-2x)}}{2-x}$
     part1:
       ans1:
-        value: 3/4
+        value: '0'
       ans2:
         value: Negative Infinity
       ans3:
-        value: 1.0
+        value: 0.5
       ans4:
-        value: 4
+        value: 1
       ans5:
         value: Don't Know
 ---

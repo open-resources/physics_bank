@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic23
-    a: 1
-    b: 1
-    formula: $x \cos{\left(x \right)}$
+    a: 9
+    b: 4
+    formula: $x^{9} \cos{\left(4 x \right)}$
     part1:
       ans1:
-        value: $- x \sin{\left(x \right)} + \cos{\left(x \right)}$
+        value: $- 4 x^{9} \sin{\left(4 x \right)} + 9 x^{8} \cos{\left(4 x \right)}$
       ans2:
-        value: $- x \sin{\left(x \right)} $
+        value: $- 4 x^{9} \sin{\left(4 x \right)} $
       ans3:
-        value: $ \sin{\left(x \right)}$
+        value: $ 9 x^{8} \sin{\left(4 x \right)}$
       ans4:
-        value: $x \cos{\left(x \right)} + \sin{\left(x \right)}$
+        value: $4 x^{9} \cos{\left(4 x \right)} + 9 x^{8} \sin{\left(4 x \right)}$
       ans5:
         value: Don't Know
 ---

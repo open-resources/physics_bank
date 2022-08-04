@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $3^{5} $=$ 243$
+    expr: $4^{8} $=$ 65536$
     part1:
       ans1:
-        value: $log_3243 = 5$
+        value: $log_465536 = 8$
       ans2:
-        value: $log_35 = 243$
+        value: $log_48 = 65536$
       ans3:
-        value: $log_2435 = 3$
+        value: $log_655368 = 4$
       ans4:
-        value: $log_5243 = 3$
+        value: $log_865536 = 4$
       ans5:
         value: Don't Know
 ---

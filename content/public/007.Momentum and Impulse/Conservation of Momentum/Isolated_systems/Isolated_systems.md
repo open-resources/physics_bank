@@ -36,9 +36,9 @@ substitutions:
       title: Isolated Systems
     part1:
       ans1:
-        value: A system is isolated if energy isn't entering or leaving the system
-      ans2:
         value: A system is isolated if all of the external forces on it are balanced
+      ans2:
+        value: A system is isolated if energy isn't entering or leaving the system
       ans3:
         value: A system is isolated if its center of mass is moving with constant
           velocity
