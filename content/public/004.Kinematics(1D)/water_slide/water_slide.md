@@ -54,9 +54,9 @@ part4:
 substitutions:
   params:
     vars:
-      name: Savannah
+      name: Aliyah
       title: Water Slide
-    theta: 20
+    theta: 30
     l: 600
     l2: 300.0
 ---

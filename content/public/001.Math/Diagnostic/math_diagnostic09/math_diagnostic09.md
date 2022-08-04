@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $e$ = $\dfrac{(w)}{(v - 9a)} $
+    expr: $a$ = $\dfrac{(p)}{(w - 9j)} $
     part1:
       ans1:
-        value: v = ${ 9 a + \frac{w}{e}}$
+        value: w = ${ 9 j + \frac{p}{a}}$
       ans2:
-        value: v = ${- \frac{9 a e}{w}}$
+        value: w = ${- \frac{9 a j}{p}}$
       ans3:
-        value: v = ${- \frac{w}{9 a e}}$
+        value: w = ${- \frac{p}{9 a j}}$
       ans4:
-        value: v = ${\frac{9 a + e}{w}}$
+        value: w = ${\frac{a + 9 j}{p}}$
       ans5:
         value: Don't Know
 ---

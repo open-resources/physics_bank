@@ -36,8 +36,8 @@ substitutions:
   params:
     vars:
       title: Cathode Ray Tube
-    I: 86
-    t: 6
+    I: 8
+    t: 3
 ---
 # {{ params.vars.title }}
 A cathode ray tube (CRT) is a device that produces a focused beam of electrons in a vacuum.
