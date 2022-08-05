@@ -219,6 +219,7 @@ parts:
       Elevator
   - file: content/public/006.Force/Free Body Diagrams/Ball Rolling in Pipe/ball_rolling_in_pipe
   - file: content/public/006.Force/Free Body Diagrams/Car in Ditch/car_in_ditch
+  - file: content/public/006.Force/Free Body Diagrams/Mass_Swinging_on_a_String/Mass_Swinging_on_a_String
   - file: content/public/006.Force/Free Body Diagrams/pulley_on_truck/pulley_on_truck
   - file: content/public/006.Force/Free Body Diagrams/pushing_net_across_ice/pushing_net_across_ice
   - file: content/public/006.Force/Friction/Antilock braking systems/Antilock braking
@@ -250,6 +251,7 @@ parts:
   - file: content/public/006.Force/Newton's Second Law/Washing Machine Mechanics/q01_AZ_Force
       Kinetics
   - file: content/public/006.Force/Newton's Second Law/fridge_force_comparison/fridge_force_comparison
+  - file: content/public/006.Force/Newton's Third Law/A_Leaf_Falling_From_A_Tree/A_Leaf_Falling_From_A_Tree
   - file: content/public/006.Force/Newton's Third Law/Force Vectors/force_vectors
   - file: content/public/006.Force/Newton's Third Law/Ironclad_Beetle/ironclad_beetle_mcq
   - file: content/public/006.Force/Newton's Third Law/Tension_In_Rope/Tention_In_Rope
@@ -274,6 +276,7 @@ parts:
   - file: content/public/006.Force/Topic Outcome/Rotating ball/Rotating ball
   - file: content/public/006.Force/Topic Outcome/The max acceleration without slipping/The
       max acceleration without slipping
+  - file: content/public/006.Force/Topic Outcome/True_or_False/q04_checkbox
   - file: content/public/006.Force/Topic Outcome/Turning_Car/Turning_car
   - file: content/public/006.Force/Topic Outcome/centripetal_force/centripetal_force
   - file: content/public/006.Force/Topic Outcome/forceMultipartTrueFalse/forceMultipartTrueFalse
@@ -294,6 +297,7 @@ parts:
   - file: content/public/007.Momentum and Impulse/Collisions/Head-on collision of
       carts/Head-on collision of carts
   - file: content/public/007.Momentum and Impulse/Collisions/Split_Blocks/Split_Blocks
+  - file: content/public/007.Momentum and Impulse/Collisions/collision_A_B/collision_A_B
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Ball Bouncing
       off Wall/ball_bouncing_off_wall
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Blocks_On_Frictionless_Table/Blocks_On_Frictionless_Table
@@ -453,6 +457,7 @@ parts:
   - file: content/public/016.Waves/Interference/PHYS 122 2018W2 Second Term Test Q3/PHYS
       122 2018W2 Second Term Test Q3
   - file: content/public/016.Waves/Misc/microscope_resolution/microscope_resolution
+  - file: content/public/016.Waves/Power of a Wave/power_wave_q1/power_wave_q1
   - file: content/public/016.Waves/Standing Waves/Superposition of Two Waves/superposition_of_two_waves
 - caption: Electrostatics
   chapters:
