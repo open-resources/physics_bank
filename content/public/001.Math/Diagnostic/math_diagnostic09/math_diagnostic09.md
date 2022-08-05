@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $k$ = $\dfrac{(b)}{(d + 2l)} $
+    expr: $e$ = $\dfrac{(q)}{(g + 10h)} $
     part1:
       ans1:
-        value: d = ${ \frac{b}{k} - 2 l}$
+        value: g = ${ - 10 h + \frac{q}{e}}$
       ans2:
-        value: d = ${\frac{2 k l}{b}}$
+        value: g = ${\frac{10 e h}{q}}$
       ans3:
-        value: d = ${\frac{b}{2 k l}}$
+        value: g = ${\frac{q}{10 e h}}$
       ans4:
-        value: d = ${\frac{k - 2 l}{b}}$
+        value: g = ${\frac{e - 10 h}{q}}$
       ans5:
         value: Don't Know
 ---

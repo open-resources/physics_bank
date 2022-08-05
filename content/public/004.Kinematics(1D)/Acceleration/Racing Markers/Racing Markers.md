@@ -31,7 +31,7 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: semi-truck
+      vehicle: pickup truck
       title: Racing Markers
       v1: 63
       v2: 32.0

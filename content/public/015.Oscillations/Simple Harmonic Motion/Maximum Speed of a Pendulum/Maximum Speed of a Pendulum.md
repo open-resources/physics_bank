@@ -35,7 +35,7 @@ substitutions:
   params:
     vars:
       title: Maximum Speed of a Pendulum
-    choice: halved
+    choice: quadrupled
 ---
 # {{ params.vars.title }}
 A  simple  pendulum  swings  at  small  angles.
@@ -47,6 +47,10 @@ If  the  amplitude  and  length  of the pendulum are both {{ params.choice }}, h
 Please enter a real number (symbols will not be accepted).
 
 ### Answer Section
+
+### pl-submission-panel
+
+{{feedback.y}}
 
 ## Attribution
 

@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{54x + 72y }{ -9 }$
+    expr: $\dfrac{20x + 15y }{ -5 }$
     part1:
       ans1:
-        value: $- 6 x - 8 y$
+        value: $- 4 x - 3 y$
       ans2:
-        value: $\dfrac{-6x - 8y}{-9}$
+        value: $\dfrac{-4x - 3y}{-5}$
       ans3:
-        value: $-8x - 6y$
+        value: $-3x - 4y$
       ans4:
-        value: $54x - 72y$
+        value: $20x - 15y$
       ans5:
         value: Don't know.
 ---
