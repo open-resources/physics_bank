@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $e$ = $\dfrac{(q)}{(g + 10h)} $
+    expr: $a$ = $\dfrac{(k)}{(e - 4f)} $
     part1:
       ans1:
-        value: g = ${ - 10 h + \frac{q}{e}}$
+        value: e = ${ 4 f + \frac{k}{a}}$
       ans2:
-        value: g = ${\frac{10 e h}{q}}$
+        value: e = ${- \frac{4 a f}{k}}$
       ans3:
-        value: g = ${\frac{q}{10 e h}}$
+        value: e = ${- \frac{k}{4 a f}}$
       ans4:
-        value: g = ${\frac{e - 10 h}{q}}$
+        value: e = ${\frac{a + 4 f}{k}}$
       ans5:
         value: Don't Know
 ---

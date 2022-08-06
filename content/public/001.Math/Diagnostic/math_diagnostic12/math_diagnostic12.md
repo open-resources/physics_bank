@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic12
-    expr: $8\over 8- x$ > $ 3$
+    expr: $5\over 5- x$ > $ 4$
     part1:
       ans1:
-        value: (16/3 < x) & (x < 8)
+        value: (15/4 < x) & (x < 5)
       ans2:
-        value: (16/3 > x) & (x > 8)
+        value: (15/4 > x) & (x > 5)
       ans3:
-        value: x > 8/3
+        value: x > 5/4
       ans4:
-        value: (189/8 < x) & (x < 24)
+        value: (96/5 < x) & (x < 20)
       ans5:
         value: Do not know
 ---

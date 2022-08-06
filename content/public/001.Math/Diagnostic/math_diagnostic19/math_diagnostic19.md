@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic19
-    a: $ \sin358$
+    a: $ \sin294$
     part1:
       ans1:
-        value: $\sin{-2}$
+        value: $\sin{-66}$
       ans2:
-        value: $\sin{2}$
+        value: $\sin{66}$
       ans3:
-        value: $\sin{-178}$
+        value: $\sin{-114}$
       ans4:
-        value: $\sin{178}$
+        value: $\sin{114}$
       ans5:
         value: Don't Know
 ---

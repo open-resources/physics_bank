@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{20x + 15y }{ -5 }$
+    expr: $\dfrac{21x - 42y }{ 7 }$
     part1:
       ans1:
-        value: $- 4 x - 3 y$
+        value: $3 x - 6 y$
       ans2:
-        value: $\dfrac{-4x - 3y}{-5}$
+        value: $\dfrac{3x - 6y}{7}$
       ans3:
-        value: $-3x - 4y$
+        value: $-6x + 3y$
       ans4:
-        value: $20x - 15y$
+        value: $21x - 42y$
       ans5:
         value: Don't know.
 ---
