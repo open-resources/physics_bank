@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{21x - 42y }{ 7 }$
+    expr: $\dfrac{-30x + 45y }{ -5 }$
     part1:
       ans1:
-        value: $3 x - 6 y$
+        value: $6 x - 9 y$
       ans2:
-        value: $\dfrac{3x - 6y}{7}$
+        value: $\dfrac{6x - 9y}{-5}$
       ans3:
-        value: $-6x + 3y$
+        value: $-9x + 6y$
       ans4:
-        value: $21x - 42y$
+        value: $-30x - 45y$
       ans5:
         value: Don't know.
 ---

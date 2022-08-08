@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Bungee Jumping
-      name: Mateo
+      name: Aliyah
     part1:
       ans1:
-        value: The tension points up, and Mateo moves down, so positive work is done.
+        value: The tension points up, and Aliyah moves down, so positive work is done.
       ans2:
-        value: The tension points up, and Mateo moves down, so negative work is done.
+        value: The tension points up, and Aliyah moves down, so negative work is done.
       ans3:
-        value: The tension point up, and Mateo moves up, so positive work is done.
+        value: The tension point up, and Aliyah moves up, so positive work is done.
       ans4:
-        value: The tension points down, and Mateo moves down, so negative work is
+        value: The tension points down, and Aliyah moves down, so negative work is
           done.
 ---
 # {{ params.vars.title }}

@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $3^{6} $=$ 729$
+    expr: $8^{9} $=$ 134217728$
     part1:
       ans1:
-        value: $log_3729 = 6$
+        value: $log_8134217728 = 9$
       ans2:
-        value: $log_36 = 729$
+        value: $log_89 = 134217728$
       ans3:
-        value: $log_7296 = 3$
+        value: $log_1342177289 = 8$
       ans4:
-        value: $log_6729 = 3$
+        value: $log_9134217728 = 8$
       ans5:
         value: Don't Know
 ---

@@ -32,17 +32,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic02
-    x: 101.0571
-    sf: 2
+    x: 544.34013664
+    sf: 6
     part1:
       ans1:
-        value: 100.0
+        value: 544.34
       ans2:
-        value: 100.1
+        value: 544.44
       ans3:
-        value: 101.06
+        value: 544.340137
       ans4:
-        value: 90.0
+        value: 534.34
 ---
 # {{ params.vars.title }}
 

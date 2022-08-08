@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $a$ = $\dfrac{(k)}{(e - 4f)} $
+    expr: $n$ = $\dfrac{(j)}{(y - 2c)} $
     part1:
       ans1:
-        value: e = ${ 4 f + \frac{k}{a}}$
+        value: y = ${ 2 c + \frac{j}{n}}$
       ans2:
-        value: e = ${- \frac{4 a f}{k}}$
+        value: y = ${- \frac{2 c n}{j}}$
       ans3:
-        value: e = ${- \frac{k}{4 a f}}$
+        value: y = ${- \frac{j}{2 c n}}$
       ans4:
-        value: e = ${\frac{a + 4 f}{k}}$
+        value: y = ${\frac{2 c + n}{j}}$
       ans5:
         value: Don't Know
 ---

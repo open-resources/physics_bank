@@ -2,14 +2,15 @@
 title: Explosions and Velocity
 topic: Momentum and Impulse
 author: Jake Bobowski
-source: 2015 practice midterm 1 Q4
-template_version: 1.3
+source: 2015 Practice Midterm 1 Q4
+template_version: 1.4
 attribution: standard
 partialCredit: true
 singleVariant: false
 outcomes:
-- 6.5.1.6
-- 6.4.4.0
+- 7.4.1.0
+- 7.5.1.1
+- 7.5.1.4
 difficulty:
 - medium
 randomization:
@@ -21,7 +22,7 @@ span:
 length:
 - average
 tags:
-- EW
+- HZ
 assets: null
 part1:
   type: multiple-choice
@@ -31,32 +32,34 @@ substitutions:
   params:
     vars:
       title: Explosions and Velocity
-      name: Ximena
+      name: Aliyah
     part1:
-      m_pumpkin: 8
-      I_A: 3
-      I_B: 5
-      v_A: 11
-      v_B: 30
-      v: 23.0
+      m_A: 2
+      m_B: 3
+      v_A: 15
+      v_B: 33
+      v: 26.0
+      m_pumpkin: 5
       ans1:
         value: Yes, because of conservation of momentum
+        feedback: Great! You got it.
       ans2:
         value: No, because we have not accounted for how the explosion might have
           changed the momentum of the pumpkin.
+        feedback: Hmm, does the unit make sense?
       ans3:
-        value: No, because the velocity should be $v = $ 41 $m/s$
+        value: No, because the velocity should be $v$ = 48 $\rm{m/s}$
       ans4:
-        value: No, because the velocity should be $v = $ 5.1 $m/s$
+        value: No, because the velocity should be $v$ = 9.6 $\rm{m/s/kg}$
 ---
 # {{ params.vars.title }}
-{{params.vars.name}} put a bunch of explosives inside of a {{ params.part1.m_pumpkin }} kg pumpkin, which explodes in two pieces.
-Piece A has mass {{ params.part1.I_A }} kg and velocity $v_A$ = {{ params.part1.v_A }} $m/s$.
-Piece B has mass {{ params.part1.I_B }} kg, and velocity $v_B$ = {{ params.part1.v_B }} $m/s$.
+{{params.vars.name}} put a bunch of explosives inside of a {{ params.part1.m_pumpkin }} $\rm{kg}$ pumpkin, which explodes in two pieces, traveling in the same direction.
+Piece A has mass $m_A$ = {{ params.part1.m_A }} $\rm{kg}$ and velocity $v_A$ = {{ params.part1.v_A }} $\rm{m/s}$.
+Piece B has mass $m_B$ = {{ params.part1.m_B }} $\rm{kg}$ and velocity $v_B$ = {{ params.part1.v_B }} $\rm{m/s}$.
 
 ## Part 1
 
-Is it true that the pumpkin must initially have had velocity $v$ = {{ params.part1.v }} $m/s$ ?
+Is it true that the pumpkin must initially have had velocity $v$ = {{ params.part1.v }} $\rm{m/s}$ ?
 
 ### Answer Section
 
