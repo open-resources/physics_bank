@@ -237,6 +237,7 @@ parts:
   - file: content/public/006.Force/Friction/box_in_vehicle/box_in_vehicle
   - file: content/public/006.Force/Friction/hand_pushing_blocks/hand_pushing_blocks
   - file: content/public/006.Force/Friction/spring_on_ramp/spring_on_ramp
+  - file: content/public/006.Force/Friction/vehicle_in_circular_motion/vehicle_in_circular_motion
   - file: content/public/006.Force/Newton's First Law/Collision_of_two_carts/Collision_of_two_carts
   - file: content/public/006.Force/Newton's First Law/Inertial_Reference_Frames/Inertial_Reference_Frames
   - file: content/public/006.Force/Newton's First Law/Particle travelling with constant
@@ -281,6 +282,7 @@ parts:
   - file: content/public/006.Force/Topic Outcome/Turning_Car/Turning_car
   - file: content/public/006.Force/Topic Outcome/centripetal_force/centripetal_force
   - file: content/public/006.Force/Topic Outcome/forceMultipartTrueFalse/forceMultipartTrueFalse
+  - file: content/public/006.Force/Topic Outcome/force_true_or_false/force_true_or_false
   - file: content/public/006.Force/Topic Outcome/frictionless_track/frictionless_track
   - file: content/public/006.Force/Topic Outcome/ropes_and_blocks/ropes_and_blocks
   - file: content/public/006.Force/Topic Outcome/velocity_netforce/velocity_netforce
@@ -376,6 +378,7 @@ parts:
   - file: content/public/009.Work/Topic Outcome/Work_Done_By_Force/Work_Done_By_Force
   - file: content/public/009.Work/Topic Outcome/animal_in_elevator/animal_in_elevator
   - file: content/public/009.Work/Topic Outcome/spring_on_incline/spring_on_incline
+  - file: content/public/009.Work/Work-Energy Theorem/Sled Hill/sled_hill
   - file: content/public/009.Work/Work-Energy Theorem/Toboggan_hill/Toboggan_hill
   - file: content/public/009.Work/Work-Energy Theorem/work_frictionless_surface/work_frictionless_surface
   - file: content/public/009.Work/Work/Lowering_bucket_1/lowering_bucket_1
