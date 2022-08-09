@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $p$ = $\dfrac{(o)}{(x - 8c)} $
+    expr: $c$ = $\dfrac{(t)}{(y - 5e)} $
     part1:
       ans1:
-        value: x = ${ 8 c + \frac{o}{p}}$
+        value: y = ${ 5 e + \frac{t}{c}}$
       ans2:
-        value: x = ${- \frac{8 c p}{o}}$
+        value: y = ${- \frac{5 c e}{t}}$
       ans3:
-        value: x = ${- \frac{o}{8 c p}}$
+        value: y = ${- \frac{t}{5 c e}}$
       ans4:
-        value: x = ${\frac{8 c + p}{o}}$
+        value: y = ${\frac{c + 5 e}{t}}$
       ans5:
         value: Don't Know
 ---

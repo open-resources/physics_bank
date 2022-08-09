@@ -32,17 +32,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic07
-    formula1: 1x - 10y = 20
-    formula2: 7x + 10y = 30
+    formula1: 10x - 7y = 49
+    formula2: 10x + 8y = 35
     part1:
       ans1:
-        value: ' x =25/4, y =-11/8'
+        value: ' x =327/77, y =-14/15'
       ans2:
-        value: ' x =-11/8, y =25/4'
+        value: ' x =-14/15, y =327/77'
       ans3:
-        value: ' x =-25/4, y =11/8'
+        value: ' x =-327/77, y =14/15'
       ans4:
-        value: ' x =11/8, y =-25/4'
+        value: ' x =14/15, y =-327/77'
       ans5:
         value: Don't Know
 ---

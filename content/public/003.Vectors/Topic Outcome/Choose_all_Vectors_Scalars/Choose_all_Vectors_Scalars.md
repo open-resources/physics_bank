@@ -36,17 +36,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Volume
+        value: Pressure
       ans2:
-        value: Energy
+        value: Density
       ans3:
-        value: Area
-      ans4:
-        value: Length
-      ans5:
-        value: Weight
-      ans6:
         value: Acceleration
+      ans4:
+        value: Displacement
+      ans5:
+        value: Lift
+      ans6:
+        value: The position in 3 dimensions
 ---
 # {{ params.vars.title }}
 

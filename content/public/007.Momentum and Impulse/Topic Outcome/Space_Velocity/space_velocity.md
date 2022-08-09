@@ -73,14 +73,14 @@ substitutions:
       title: Space Velocity
       units1: $\rm{m/s}$
       units2: $\rm{J}$
-    m: 101
+    m: 102
     left_arm: 8
     head: 12
     V_L_i: 12
     V_L_j: 8
-    V_H_i: -24
+    V_H_i: -23
     V_H_j: -13
-    t: 1.2
+    t: 1.0
     part5:
       ans1:
         value: His head required more force
