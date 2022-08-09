@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $c$ = $\dfrac{(t)}{(y - 5e)} $
+    expr: $f$ = $\dfrac{(m)}{(d - 6b)} $
     part1:
       ans1:
-        value: y = ${ 5 e + \frac{t}{c}}$
+        value: d = ${ 6 b + \frac{m}{f}}$
       ans2:
-        value: y = ${- \frac{5 c e}{t}}$
+        value: d = ${- \frac{6 b f}{m}}$
       ans3:
-        value: y = ${- \frac{t}{5 c e}}$
+        value: d = ${- \frac{m}{6 b f}}$
       ans4:
-        value: y = ${\frac{c + 5 e}{t}}$
+        value: d = ${\frac{6 b + f}{m}}$
       ans5:
         value: Don't Know
 ---

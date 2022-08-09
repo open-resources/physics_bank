@@ -50,9 +50,9 @@ substitutions:
   params:
     vars:
       title: Uniformly Decreasing Magnetic Field
-    r: '5'
-    B: '0.5'
-    t: '30'
+    r: '15'
+    B: '3.0'
+    t: '10'
     part2:
       ans1:
         value: Clockwise
