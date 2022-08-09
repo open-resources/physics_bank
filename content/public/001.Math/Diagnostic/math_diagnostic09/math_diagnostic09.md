@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $n$ = $\dfrac{(j)}{(y - 2c)} $
+    expr: $p$ = $\dfrac{(o)}{(x - 8c)} $
     part1:
       ans1:
-        value: y = ${ 2 c + \frac{j}{n}}$
+        value: x = ${ 8 c + \frac{o}{p}}$
       ans2:
-        value: y = ${- \frac{2 c n}{j}}$
+        value: x = ${- \frac{8 c p}{o}}$
       ans3:
-        value: y = ${- \frac{j}{2 c n}}$
+        value: x = ${- \frac{o}{8 c p}}$
       ans4:
-        value: y = ${\frac{2 c + n}{j}}$
+        value: x = ${\frac{8 c + p}{o}}$
       ans5:
         value: Don't Know
 ---

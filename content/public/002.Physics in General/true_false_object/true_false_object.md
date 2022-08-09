@@ -1,19 +1,18 @@
 ---
-title: Which option is correct?
-topic: Physics in General
-author: Jake Bobowski
-source: 2015 Final Q1
-template_version: 1.3
+title: Object True or False
+topic: Physic in General
+author: John Hopkinson
+source: PHYS 112 2020W1 Second Test Q1
+template_version: 1.4
 attribution: standard
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
 outcomes:
-- 7.4.1.2
-- 6.9.1.1
-- 5.6.1.0
+- 5.6.2.1
+- 6.4.1.0
+- 6.6.1.0
 difficulty:
-- Medium
+- undefined
 randomization:
 - undefined
 taxonomy:
@@ -23,31 +22,28 @@ span:
 length:
 - undefined
 tags:
-- PW
-- Average
-- Multi-Chapter
+- AK
+- NR
 assets: null
 part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    fixed-order: true
 part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
+    fixed-order: true
 part3:
   type: multiple-choice
   pl-customizations:
     weight: 1
-part4:
-  type: multiple-choice
-  pl-customizations:
-    weight: 1
+    fixed-order: true
 substitutions:
   params:
     vars:
-      title: Which option is correct?
-    choice1: not possible
+      title: Object True or False
     part1:
       ans1:
         value: 'True'
@@ -63,17 +59,13 @@ substitutions:
         value: 'True'
       ans2:
         value: 'False'
-    part4:
-      ans1:
-        value: Kinetic
-      ans2:
-        value: Static
 ---
 # {{ params.vars.title }}
+Please select true or false for each of following statements.
 
 ## Part 1
 
-It is {{ params.choice1 }} for the acceleration and velocity vectors of an object to be always perpendicular to each other.
+An object undergoing uniform circular motion has a constant angular velocity.
 
 ### Answer Section
 
@@ -82,7 +74,7 @@ It is {{ params.choice1 }} for the acceleration and velocity vectors of an objec
 
 ## Part 2
 
-An object can be accelerated without changing its kinetic energy.
+When a small object A pushes on a large object B to accelerate it from rest, $F\_{\text{ B on A }} > F\_{\text{ A on B }}$.
 
 ### Answer Section
 
@@ -91,21 +83,12 @@ An object can be accelerated without changing its kinetic energy.
 
 ## Part 3
 
-When measured from the zero-momentum reference frame, the system's kinetic energy is also always zero.
+In the absence of any forces acting on it an object will eventually come to a rest.
 
 ### Answer Section
 
 - {{ params.part3.ans1.value}}
 - {{ params.part3.ans2.value}}
-
-## Part 4
-
-When a car accelerates gradually (no squealing tires), is the friction between the tires and the road kinetic or static?
-
-### Answer Section
-
-- {{ params.part4.ans1.value}}
-- {{ params.part4.ans2.value}}
 
 ## Attribution
 

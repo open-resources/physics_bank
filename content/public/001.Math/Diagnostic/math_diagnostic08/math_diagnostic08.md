@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-30x + 45y }{ -5 }$
+    expr: $\dfrac{48x - 54y }{ -6 }$
     part1:
       ans1:
-        value: $6 x - 9 y$
+        value: $- 8 x + 9 y$
       ans2:
-        value: $\dfrac{6x - 9y}{-5}$
+        value: $\dfrac{-8x + 9y}{-6}$
       ans3:
-        value: $-9x + 6y$
+        value: $9x - 8y$
       ans4:
-        value: $-30x - 45y$
+        value: $48x + 54y$
       ans5:
         value: Don't know.
 ---

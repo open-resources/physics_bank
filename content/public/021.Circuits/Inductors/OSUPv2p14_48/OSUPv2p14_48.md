@@ -45,7 +45,7 @@ substitutions:
   params:
     vars:
       title: Energy Stored in Different Coils
-    num: '4'
+    num: '3'
 ---
 # {{ params.vars.title }}
 Solenoid $A$ is tightly wound while solenoid $B$ has windings that are evenly spaced with a gap equal to ${\rm {{ params.num }}} d$, where $d$ is the diameter of the wire.

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic06
-    eq: $\dfrac{x-4}{x+2}$ = $ \dfrac{x+5}{x-6}$
+    eq: $\dfrac{x-1}{x+4}$ = $ \dfrac{x+6}{x-2}$
     part1:
       ans1:
-        value: 8/17
+        value: -2/13
       ans2:
-        value: -22/17
+        value: -8/13
       ans3:
-        value: -8/5
+        value: 2/3
       ans4:
-        value: 22/17
+        value: 8/13
 ---
 # {{ params.vars.title }}
 

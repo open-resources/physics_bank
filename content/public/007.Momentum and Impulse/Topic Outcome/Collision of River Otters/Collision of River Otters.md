@@ -119,10 +119,10 @@ substitutions:
   params:
     vars:
       title: Collision of River Otters
-    m_s: 4.37
-    m_l: 6.98
-    vis: 3.32
-    vil: 6.82
+    m_s: 3.77
+    m_l: 5.85
+    vis: 4.93
+    vil: 6.73
     theta_i: 46.7
     part9:
       ans1:
