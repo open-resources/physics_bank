@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $f$ = $\dfrac{(m)}{(d - 6b)} $
+    expr: $c$ = $\dfrac{(x)}{(k + 3u)} $
     part1:
       ans1:
-        value: d = ${ 6 b + \frac{m}{f}}$
+        value: k = ${ - 3 u + \frac{x}{c}}$
       ans2:
-        value: d = ${- \frac{6 b f}{m}}$
+        value: k = ${\frac{3 c u}{x}}$
       ans3:
-        value: d = ${- \frac{m}{6 b f}}$
+        value: k = ${\frac{x}{3 c u}}$
       ans4:
-        value: d = ${\frac{6 b + f}{m}}$
+        value: k = ${\frac{c - 3 u}{x}}$
       ans5:
         value: Don't Know
 ---

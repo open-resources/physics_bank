@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic23
-    a: 6
-    b: 2
-    formula: $x^{6} \sin{\left(2 x \right)}$
+    a: 7
+    b: 9
+    formula: $x^{7} \cos{\left(9 x \right)}$
     part1:
       ans1:
-        value: $2 x^{6} \cos{\left(2 x \right)} + 6 x^{5} \sin{\left(2 x \right)}$
+        value: $- 9 x^{7} \sin{\left(9 x \right)} + 7 x^{6} \cos{\left(9 x \right)}$
       ans2:
-        value: $2 x^{6} \cos{\left(2 x \right)} $
+        value: $- 9 x^{7} \sin{\left(9 x \right)} $
       ans3:
-        value: $ 6 x^{5} \cos{\left(2 x \right)}$
+        value: $ 7 x^{6} \sin{\left(9 x \right)}$
       ans4:
-        value: $- 2 x^{6} \sin{\left(2 x \right)} + 6 x^{5} \cos{\left(2 x \right)}$
+        value: $9 x^{7} \cos{\left(9 x \right)} + 7 x^{6} \sin{\left(9 x \right)}$
       ans5:
         value: Don't Know
 ---
