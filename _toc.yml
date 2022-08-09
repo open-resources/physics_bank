@@ -82,6 +82,7 @@ parts:
   - file: content/public/002.Physics in General/Uncertainty/steel_ball_uncertainty/steel_ball_uncertainty
   - file: content/public/002.Physics in General/Units/Potato Density/Potato Density
   - file: content/public/002.Physics in General/density, mass and volume/potato_volume
+  - file: content/public/002.Physics in General/true_false_object/true_false_object
 - caption: Vectors
   chapters:
   - file: content/public/003.Vectors/Coordinate System and Vector Components/Delivery
