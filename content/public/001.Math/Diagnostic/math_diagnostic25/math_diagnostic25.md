@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic25
-    expr: $\dfrac{ 6-e^{(-7x)}}{7-x}$
+    expr: $\dfrac{ 10-e^{(-2x)}}{1-x}$
     part1:
       ans1:
-        value: 5/7
+        value: '9'
       ans2:
         value: Negative Infinity
       ans3:
-        value: 0.8571428571428571
+        value: 10.0
       ans4:
-        value: 6
+        value: 10
       ans5:
         value: Don't Know
 ---

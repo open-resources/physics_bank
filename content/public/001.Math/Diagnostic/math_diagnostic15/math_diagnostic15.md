@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $7^{1} $=$ 7$
+    expr: $6^{4} $=$ 1296$
     part1:
       ans1:
-        value: $log_77 = 1$
+        value: $log_61296 = 4$
       ans2:
-        value: $log_71 = 7$
+        value: $log_64 = 1296$
       ans3:
-        value: $log_71 = 7$
+        value: $log_12964 = 6$
       ans4:
-        value: $log_17 = 7$
+        value: $log_41296 = 6$
       ans5:
         value: Don't Know
 ---

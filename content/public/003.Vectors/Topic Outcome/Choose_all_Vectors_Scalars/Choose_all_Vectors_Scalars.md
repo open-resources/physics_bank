@@ -3,13 +3,13 @@ title: Choose all Vectors and Scalars
 topic: Vectors
 author: Jake Bobowski
 source: 2015 practice midterm 1 Q5
-template_version: 1.3
+template_version: 1.4
 attribution: standard
 partialCredit: true
 singleVariant: false
 showCorrectAnswer: false
 outcomes:
-- 2.1.1.0
+- 3.1.1.0
 difficulty:
 - undefined
 randomization:
@@ -21,7 +21,7 @@ span:
 length:
 - undefined
 tags:
-- unknown
+- NR
 assets: null
 part1:
   type: checkbox
@@ -33,20 +33,20 @@ substitutions:
   params:
     vars:
       title: Choose all Vectors and Scalars
-    choice: scalars
+    choice: vectors
     part1:
       ans1:
-        value: Mass
+        value: Average Velocity
       ans2:
-        value: Area
-      ans3:
-        value: Volume
-      ans4:
-        value: Length
-      ans5:
         value: Weight
+      ans3:
+        value: Momentum
+      ans4:
+        value: Average Acceleration
+      ans5:
+        value: Area
       ans6:
-        value: Acceleration
+        value: Mass
 ---
 # {{ params.vars.title }}
 

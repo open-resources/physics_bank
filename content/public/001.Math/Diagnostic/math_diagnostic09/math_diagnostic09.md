@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $c$ = $\dfrac{(x)}{(k + 3u)} $
+    expr: $l$ = $\dfrac{(g)}{(r + 9o)} $
     part1:
       ans1:
-        value: k = ${ - 3 u + \frac{x}{c}}$
+        value: r = ${ \frac{g}{l} - 9 o}$
       ans2:
-        value: k = ${\frac{3 c u}{x}}$
+        value: r = ${\frac{9 l o}{g}}$
       ans3:
-        value: k = ${\frac{x}{3 c u}}$
+        value: r = ${\frac{g}{9 l o}}$
       ans4:
-        value: k = ${\frac{c - 3 u}{x}}$
+        value: r = ${\frac{l - 9 o}{g}}$
       ans5:
         value: Don't Know
 ---

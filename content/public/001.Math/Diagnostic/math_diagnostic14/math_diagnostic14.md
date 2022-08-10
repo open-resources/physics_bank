@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic14
-    expr: $x^{ -5\over 4}$
+    expr: $x^{ -2\over 7}$
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt[4]{x^{5}}}\end{equation}
+        value: \begin{equation}\frac{1}{\sqrt[7]{x^{2}}}\end{equation}
       ans2:
-        value: \begin{equation}\sqrt[4]{x^{5}}\end{equation}
+        value: \begin{equation}\sqrt[7]{x^{2}}\end{equation}
       ans3:
-        value: \begin{equation}x^{\frac{5}{4}}\end{equation}
+        value: \begin{equation}x^{\frac{2}{7}}\end{equation}
       ans4:
-        value: \begin{equation}- \frac{1}{\sqrt[4]{x^{5}}}\end{equation}
+        value: \begin{equation}- \frac{1}{\sqrt[7]{x^{2}}}\end{equation}
       ans5:
         value: Do not know
 ---
