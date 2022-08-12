@@ -60,21 +60,21 @@ substitutions:
       title: A Frictionless Air Track?
       name: Emilia
       units: $m/s^2$
-    m1: 299.2
-    m2: 27.16
+    m1: 480.7
+    m2: 26.83
     d_a: 0.02
-    mean: 1.53
-    sd: 0.123
-    a1: 1.54
-    a2: 1.56
-    a3: 1.68
-    a4: 1.55
-    a5: 1.54
-    a6: 1.4
-    a7: 1.39
-    a8: 1.36
-    a9: 1.78
-    a10: 1.53
+    mean: 1.61
+    sd: 0.114
+    a1: 1.65
+    a2: 1.65
+    a3: 1.75
+    a4: 1.69
+    a5: 1.67
+    a6: 1.53
+    a7: 1.6
+    a8: 1.73
+    a9: 1.42
+    a10: 1.41
     part4:
       ans1:
         value: The track is frictionless because $a_{expected}$ does not agree with

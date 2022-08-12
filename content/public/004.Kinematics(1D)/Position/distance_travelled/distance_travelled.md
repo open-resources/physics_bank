@@ -3,13 +3,13 @@ title: Distance travelled
 topic: Kinematics(1D)
 author: Firas Moosvi
 source: original
-template_version: 1.3
+template_version: 1.4
 attribution: standard
 partialCredit: true
 singleVariant: false
 showCorrectAnswer: false
 outcomes:
-- undefined
+- 4.3.1.1
 difficulty:
 - Easy
 randomization:
@@ -21,7 +21,7 @@ span:
 length:
 - Short
 tags:
-- unknown
+- HZ
 assets: null
 part1:
   type: multiple-choice
@@ -30,32 +30,32 @@ part1:
 substitutions:
   params:
     vars:
-      name: Emilia
-      vehicle: a tricycle
+      name: Mateo
+      vehicle: a bicycle
       units: m
       title: Distance travelled
-    v: 4
-    t: 5
+    v: 2
+    t: 7
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 20
+        value: 14
       ans3:
         value: 9
       ans4:
-        value: 0.8
+        value: 0.29
       ans5:
-        value: -1
+        value: -5
       ans6:
-        value: -1.3
+        value: -6.5
 ---
 # {{ params.vars.title }}
-{{ params.vars.name }} is traveling on {{ params.vars.vehicle }} at {{ params.v }} {{ params.vars.units }}.
+{{ params.vars.name }} is traveling on {{ params.vars.vehicle }} at {{ params.v }} $\rm{m/s}$.
 
 ## Part 1
 
-How far does {{ params.vars.name }} travel in {{ params.t }} seconds, assuming they continue at the same velocity?
+How far does {{ params.vars.name }} travel in {{ params.t }} $\rm{s}$, assuming they continue at the same velocity?
 
 ### Answer Section
 

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic25
-    expr: $\dfrac{ 10-e^{(-2x)}}{1-x}$
+    expr: $\dfrac{ 3-e^{(-1x)}}{1-x}$
     part1:
       ans1:
-        value: '9'
+        value: '2'
       ans2:
         value: Negative Infinity
       ans3:
-        value: 10.0
+        value: 3.0
       ans4:
-        value: 10
+        value: 3
       ans5:
         value: Don't Know
 ---

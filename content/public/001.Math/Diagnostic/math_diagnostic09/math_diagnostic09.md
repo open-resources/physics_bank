@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $l$ = $\dfrac{(g)}{(r + 9o)} $
+    expr: $p$ = $\dfrac{(f)}{(u - 2q)} $
     part1:
       ans1:
-        value: r = ${ \frac{g}{l} - 9 o}$
+        value: u = ${ \frac{f}{p} + 2 q}$
       ans2:
-        value: r = ${\frac{9 l o}{g}}$
+        value: u = ${- \frac{2 p q}{f}}$
       ans3:
-        value: r = ${\frac{g}{9 l o}}$
+        value: u = ${- \frac{f}{2 p q}}$
       ans4:
-        value: r = ${\frac{l - 9 o}{g}}$
+        value: u = ${\frac{p + 2 q}{f}}$
       ans5:
         value: Don't Know
 ---

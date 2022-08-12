@@ -46,10 +46,10 @@ part2:
     weight: 1
 substitutions:
   params:
-    L: '13'
-    q: '7.0'
+    L: '9'
+    q: '3.8'
     p: '-6'
-    d: '1.6'
+    d: '1.4'
     part2:
       ans1:
         value: points towards the negative plate

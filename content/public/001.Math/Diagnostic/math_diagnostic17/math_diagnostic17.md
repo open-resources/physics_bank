@@ -32,16 +32,16 @@ substitutions:
     vars:
       title: Math Diagnostic17
     a: 5
-    b: 7
+    b: 4
     part1:
       ans1:
-        value: $e^{7} e^{5 y}$
+        value: $e^{4} e^{5 y}$
       ans2:
         value: $e^{5 y} + e^{5}$
       ans3:
         value: $5 e^{5} e^{y}$
       ans4:
-        value: $7 e^{5 y}$
+        value: $4 e^{5 y}$
       ans5:
         value: Don't Know
 ---

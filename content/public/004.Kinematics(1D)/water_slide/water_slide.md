@@ -56,7 +56,7 @@ substitutions:
     vars:
       name: Savannah
       title: Water Slide
-    theta: 40
+    theta: 20
     l: 600
     l2: 300.0
 ---
