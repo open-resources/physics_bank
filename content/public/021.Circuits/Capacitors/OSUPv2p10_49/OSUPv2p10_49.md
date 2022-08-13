@@ -61,7 +61,7 @@ substitutions:
     vars:
       title: Automobile Intermittent Wiper System
     C: '0.800'
-    t1: '1.75'
+    t1: '2.25'
     t2: '14.0'
 ---
 # {{ params.vars.title }}

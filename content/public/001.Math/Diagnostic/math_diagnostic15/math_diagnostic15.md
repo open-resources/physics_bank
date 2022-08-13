@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $8^{9} $=$ 134217728$
+    expr: $8^{2} $=$ 64$
     part1:
       ans1:
-        value: $log_8134217728 = 9$
+        value: $log_864 = 2$
       ans2:
-        value: $log_89 = 134217728$
+        value: $log_82 = 64$
       ans3:
-        value: $log_1342177289 = 8$
+        value: $log_642 = 8$
       ans4:
-        value: $log_9134217728 = 8$
+        value: $log_264 = 8$
       ans5:
         value: Don't Know
 ---

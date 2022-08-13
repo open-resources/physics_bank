@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic14
-    expr: $x^{ -8\over 7}$
+    expr: $x^{ -9\over 6}$
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt[7]{x^{8}}}\end{equation}
+        value: \begin{equation}\frac{1}{\sqrt[6]{x^{9}}}\end{equation}
       ans2:
-        value: \begin{equation}\sqrt[7]{x^{8}}\end{equation}
+        value: \begin{equation}\sqrt[6]{x^{9}}\end{equation}
       ans3:
-        value: \begin{equation}x^{\frac{8}{7}}\end{equation}
+        value: \begin{equation}x^{\frac{3}{2}}\end{equation}
       ans4:
-        value: \begin{equation}- \frac{1}{\sqrt[7]{x^{8}}}\end{equation}
+        value: \begin{equation}- \frac{1}{\sqrt[6]{x^{9}}}\end{equation}
       ans5:
         value: Do not know
 ---

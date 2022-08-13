@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $p$ = $\dfrac{(f)}{(u - 2q)} $
+    expr: $a$ = $\dfrac{(f)}{(n + 5w)} $
     part1:
       ans1:
-        value: u = ${ \frac{f}{p} + 2 q}$
+        value: n = ${ - 5 w + \frac{f}{a}}$
       ans2:
-        value: u = ${- \frac{2 p q}{f}}$
+        value: n = ${\frac{5 a w}{f}}$
       ans3:
-        value: u = ${- \frac{f}{2 p q}}$
+        value: n = ${\frac{f}{5 a w}}$
       ans4:
-        value: u = ${\frac{p + 2 q}{f}}$
+        value: n = ${\frac{a - 5 w}{f}}$
       ans5:
         value: Don't Know
 ---

@@ -65,10 +65,10 @@ substitutions:
       title: Carbon Dioxide Diffusion
       unit1: $m^2/s$
       unit2: $s$
-    water: 2.0
-    air: 2.0
-    time: 7
-    const: 4
+    water: 1.9
+    air: 1.8
+    time: 4
+    const: 6
     part3:
       ans1:
         value: directly
