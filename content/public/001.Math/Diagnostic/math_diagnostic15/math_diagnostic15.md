@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $8^{2} $=$ 64$
+    expr: $4^{2} $=$ 16$
     part1:
       ans1:
-        value: $log_864 = 2$
+        value: $log_416 = 2$
       ans2:
-        value: $log_82 = 64$
+        value: $log_42 = 16$
       ans3:
-        value: $log_642 = 8$
+        value: $log_162 = 4$
       ans4:
-        value: $log_264 = 8$
+        value: $log_216 = 4$
       ans5:
         value: Don't Know
 ---

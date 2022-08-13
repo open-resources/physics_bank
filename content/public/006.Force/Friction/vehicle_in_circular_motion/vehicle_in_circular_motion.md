@@ -74,11 +74,11 @@ substitutions:
   params:
     vars:
       title: Vehicle in Circular Motion
-      vehicle: sedan
-    m: 2100.0
-    v: 85.0
-    r: 110.0
-    theta: 18.0
+      vehicle: car
+    m: 1600.0
+    v: 95.0
+    r: 120.0
+    theta: 20.0
     f_s: 0.6
     f_k: 0.4
     f_r: 0.02

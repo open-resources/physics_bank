@@ -32,17 +32,17 @@ substitutions:
     vars:
       title: Velocity to Acceleration
       units: $m/s^2$
-    c: 2.0
-    t: 9
+    c: 1.4
+    t: 1
     part1:
       ans1:
-        value: 0.0055
+        value: 2.8
       ans2:
-        value: -0.0055
+        value: -2.8
       ans3:
-        value: -0.025
+        value: -1.4
       ans4:
-        value: 0.025
+        value: 1.4
       ans5:
         value: The acceleration is 0
 ---

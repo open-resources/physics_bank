@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $a$ = $\dfrac{(f)}{(n + 5w)} $
+    expr: $f$ = $\dfrac{(b)}{(j - 10p)} $
     part1:
       ans1:
-        value: n = ${ - 5 w + \frac{f}{a}}$
+        value: j = ${ \frac{b}{f} + 10 p}$
       ans2:
-        value: n = ${\frac{5 a w}{f}}$
+        value: j = ${- \frac{10 f p}{b}}$
       ans3:
-        value: n = ${\frac{f}{5 a w}}$
+        value: j = ${- \frac{b}{10 f p}}$
       ans4:
-        value: n = ${\frac{a - 5 w}{f}}$
+        value: j = ${\frac{f + 10 p}{b}}$
       ans5:
         value: Don't Know
 ---

@@ -32,28 +32,28 @@ substitutions:
     vars:
       title: Particle Collision
     choice: $x$-component of the
-    m1: 3
-    m2: 2
-    v1: 5
-    v2: 14
+    m1: 2
+    m2: 4
+    v1: 8
+    v2: 10
     part1:
       ans1:
-        value: 15 $kg$ $\dfrac{m}{s}\hat{\imath}$
+        value: 16 $kg$ $\dfrac{m}{s}\hat{\imath}$
         feedback: Great! You got it.
       ans2:
-        value: 28 $kg$ $\dfrac{m}{s}\hat{\imath}$
+        value: 40 $kg$ $\dfrac{m}{s}\hat{\imath}$
         feedback: Hmm... Try again.
       ans3:
-        value: 28 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+        value: 40 $kg$ $\dfrac{m}{s}\hat{\jmath}$
         feedback: Close! Double check the directions of the unit vectors.
       ans4:
-        value: 28 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 15 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+        value: 40 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 16 $kg$ $\dfrac{m}{s}\hat{\jmath}$
         feedback: Hmm... Try again.
       ans5:
-        value: 15 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+        value: 16 $kg$ $\dfrac{m}{s}\hat{\jmath}$
         feedback: Hmm... Try again.
       ans6:
-        value: 15 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 28 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+        value: 16 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 40 $kg$ $\dfrac{m}{s}\hat{\jmath}$
         feedback: Careful! Only one component is asked for.
 ---
 # {{ params.vars.title }}

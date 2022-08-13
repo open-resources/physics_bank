@@ -38,8 +38,8 @@ substitutions:
     vars:
       title: Electrons In a Wire
       units: m/s
-    I: 149
-    t: 21
+    I: 148
+    t: 26
 ---
 # {{ params.vars.title }}
 

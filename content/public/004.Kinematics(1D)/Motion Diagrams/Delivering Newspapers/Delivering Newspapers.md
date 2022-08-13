@@ -39,13 +39,13 @@ substitutions:
       ans2:
         value: '7'
       ans3:
-        value: '3'
+        value: '4'
       ans4:
-        value: '5'
+        value: '3'
       ans5:
         value: '1'
       ans6:
-        value: '4'
+        value: '5'
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} delivers newspapers by throwing them out of the passenger window of their car, perpendicular to the motion of their car.

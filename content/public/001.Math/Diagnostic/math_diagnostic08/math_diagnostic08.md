@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-63x - 14y }{ -7 }$
+    expr: $\dfrac{21x + 9y }{ 3 }$
     part1:
       ans1:
-        value: $9 x + 2 y$
+        value: $7 x + 3 y$
       ans2:
-        value: $\dfrac{9x + 2y}{-7}$
+        value: $\dfrac{7x + 3y}{3}$
       ans3:
-        value: $2x + 9y$
+        value: $3x + 7y$
       ans4:
-        value: $-63x + 14y$
+        value: $21x + 9y$
       ans5:
         value: Don't know.
 ---
