@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic23
-    a: 1
-    b: 4
-    formula: $x \cos{\left(4 x \right)}$
+    a: 2
+    b: 3
+    formula: $x^{2} \cos{\left(3 x \right)}$
     part1:
       ans1:
-        value: $- 4 x \sin{\left(4 x \right)} + \cos{\left(4 x \right)}$
+        value: $- 3 x^{2} \sin{\left(3 x \right)} + 2 x \cos{\left(3 x \right)}$
       ans2:
-        value: $- 4 x \sin{\left(4 x \right)} $
+        value: $- 3 x^{2} \sin{\left(3 x \right)} $
       ans3:
-        value: $ \sin{\left(4 x \right)}$
+        value: $ 2 x \sin{\left(3 x \right)}$
       ans4:
-        value: $4 x \cos{\left(4 x \right)} + \sin{\left(4 x \right)}$
+        value: $3 x^{2} \cos{\left(3 x \right)} + 2 x \sin{\left(3 x \right)}$
       ans5:
         value: Don't Know
 ---

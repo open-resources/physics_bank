@@ -33,14 +33,14 @@ substitutions:
   params:
     vars:
       title: Compressed Spring To Launch Mass
-    choice: quartered
+    choice: halved
     part1:
       ans1:
-        value: 1/16$h$
+        value: 1/4$h$
       ans2:
         value: 9$h$
       ans3:
-        value: 1/4$h$
+        value: 1/16$h$
       ans4:
         value: 16$h$
       ans5:

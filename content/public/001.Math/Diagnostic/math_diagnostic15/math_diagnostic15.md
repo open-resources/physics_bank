@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $5^{6} $=$ 15625$
+    expr: $9^{7} $=$ 4782969$
     part1:
       ans1:
-        value: $log_515625 = 6$
+        value: $log_94782969 = 7$
       ans2:
-        value: $log_56 = 15625$
+        value: $log_97 = 4782969$
       ans3:
-        value: $log_156256 = 5$
+        value: $log_47829697 = 9$
       ans4:
-        value: $log_615625 = 5$
+        value: $log_74782969 = 9$
       ans5:
         value: Don't Know
 ---

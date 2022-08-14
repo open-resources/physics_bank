@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic13
-    expr: $\dfrac{z^6 }{z^3} $
+    expr: $\dfrac{z^7 }{z^3} $
     part1:
       ans1:
-        value: $z^{3}$
+        value: $z^{4}$
       ans2:
-        value: $z^{-3}$
+        value: $z^{-4}$
       ans3:
-        value: 3z
+        value: 4z
       ans4:
-        value: (2)z
+        value: (7/3)z
       ans5:
         value: Don't Know
 ---

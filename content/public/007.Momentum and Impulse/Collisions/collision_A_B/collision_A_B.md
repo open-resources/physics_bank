@@ -52,8 +52,8 @@ substitutions:
       name: Savannah
     v1: 5
     v2: 5
-    m_a: 2
-    m_b: 2
+    m_a: 4
+    m_b: 4
     part2:
       ans1:
         value: 'Yes'

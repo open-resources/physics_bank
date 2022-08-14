@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-14x - 63y }{ -7 }$
+    expr: $\dfrac{-40x + 48y }{ 8 }$
     part1:
       ans1:
-        value: $2 x + 9 y$
+        value: $- 5 x + 6 y$
       ans2:
-        value: $\dfrac{2x + 9y}{-7}$
+        value: $\dfrac{-5x + 6y}{8}$
       ans3:
-        value: $9x + 2y$
+        value: $6x - 5y$
       ans4:
-        value: $-14x + 63y$
+        value: $-40x + 48y$
       ans5:
         value: Don't know.
 ---

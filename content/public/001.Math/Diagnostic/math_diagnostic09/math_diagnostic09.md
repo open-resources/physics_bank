@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $r$ = $\dfrac{(g)}{(k - 10b)} $
+    expr: $x$ = $\dfrac{(r)}{(a + 10s)} $
     part1:
       ans1:
-        value: k = ${ 10 b + \frac{g}{r}}$
+        value: a = ${ \frac{r}{x} - 10 s}$
       ans2:
-        value: k = ${- \frac{10 b r}{g}}$
+        value: a = ${\frac{10 s x}{r}}$
       ans3:
-        value: k = ${- \frac{g}{10 b r}}$
+        value: a = ${\frac{r}{10 s x}}$
       ans4:
-        value: k = ${\frac{10 b + r}{g}}$
+        value: a = ${\frac{- 10 s + x}{r}}$
       ans5:
         value: Don't Know
 ---
