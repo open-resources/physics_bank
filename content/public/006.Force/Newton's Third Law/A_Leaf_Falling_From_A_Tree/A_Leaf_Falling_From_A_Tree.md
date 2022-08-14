@@ -6,7 +6,7 @@ source: PHYS 112 (Hopkinson) 2019W1 Midterm 2 Q3
 template_version: 1.4
 attribution: standard
 partialCredit: true
-singleVariant: false
+singleVariant: true
 outcomes:
 - 6.6.1.1
 difficulty:
@@ -42,7 +42,7 @@ substitutions:
       ans4:
         value: The force of gravity of the leaf pulling upward on the Earth
         feedback: Newton's third law relates the forces between two objects. $F_{A\
-          on\ B}$  = $F_{B\ on\ A}$ . $W_{Leaf}$ = $W_{Earth\ on\ Leaf}$ = - $W_{Leaf\
+          on\ B}$  = - $F_{B\ on\ A}$ . $W_{Leaf}$ = $W_{Earth\ on\ Leaf}$ = - $W_{Leaf\
           on\ Earth}$ . Weight is the force of gravity. The gravitational force acts
           between two massive bodies.
       ans5:

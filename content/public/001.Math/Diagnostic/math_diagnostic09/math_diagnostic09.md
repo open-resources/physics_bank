@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $x$ = $\dfrac{(r)}{(a + 10s)} $
+    expr: $b$ = $\dfrac{(y)}{(p - 10m)} $
     part1:
       ans1:
-        value: a = ${ \frac{r}{x} - 10 s}$
+        value: p = ${ 10 m + \frac{y}{b}}$
       ans2:
-        value: a = ${\frac{10 s x}{r}}$
+        value: p = ${- \frac{10 b m}{y}}$
       ans3:
-        value: a = ${\frac{r}{10 s x}}$
+        value: p = ${- \frac{y}{10 b m}}$
       ans4:
-        value: a = ${\frac{- 10 s + x}{r}}$
+        value: p = ${\frac{b + 10 m}{y}}$
       ans5:
         value: Don't Know
 ---

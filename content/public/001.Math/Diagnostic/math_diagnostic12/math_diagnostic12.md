@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic12
-    expr: $7\over 7- x$ > $ 9$
+    expr: $5\over 5- x$ > $ 2$
     part1:
       ans1:
-        value: (56/9 < x) & (x < 7)
+        value: (5/2 < x) & (x < 5)
       ans2:
-        value: (56/9 > x) & (x > 7)
+        value: (5/2 > x) & (x > 5)
       ans3:
-        value: x > 7/9
+        value: x > 5/2
       ans4:
-        value: (432/7 < x) & (x < 63)
+        value: (48/5 < x) & (x < 10)
       ans5:
         value: Do not know
 ---

@@ -46,11 +46,11 @@ substitutions:
           among themselves) only external forces can cause the center of mass of the
           system to accelerate.
       ans4:
-        value: If two objects push on each other, they will accelerate in opposite
-          directions.
-      ans5:
         value: If two objects push on each other, their velocities will change by
           the same amount (though opposite directions).
+      ans5:
+        value: If two objects push on each other, they will accelerate in opposite
+          directions.
 ---
 # {{ params.vars.title }}
 

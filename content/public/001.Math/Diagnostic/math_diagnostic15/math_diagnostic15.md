@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $9^{7} $=$ 4782969$
+    expr: $4^{5} $=$ 1024$
     part1:
       ans1:
-        value: $log_94782969 = 7$
+        value: $log_41024 = 5$
       ans2:
-        value: $log_97 = 4782969$
+        value: $log_45 = 1024$
       ans3:
-        value: $log_47829697 = 9$
+        value: $log_10245 = 4$
       ans4:
-        value: $log_74782969 = 9$
+        value: $log_51024 = 4$
       ans5:
         value: Don't Know
 ---

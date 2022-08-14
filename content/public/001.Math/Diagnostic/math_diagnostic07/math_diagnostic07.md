@@ -32,17 +32,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic07
-    formula1: 10x - 5y = 22
-    formula2: 5x + 3y = 5
+    formula1: 3x - 4y = 32
+    formula2: 4x + 3y = 11
     part1:
       ans1:
-        value: ' x =91/55, y =-12/11'
+        value: ' x =28/5, y =-19/5'
       ans2:
-        value: ' x =-12/11, y =91/55'
+        value: ' x =-19/5, y =28/5'
       ans3:
-        value: ' x =-91/55, y =12/11'
+        value: ' x =-28/5, y =19/5'
       ans4:
-        value: ' x =12/11, y =-91/55'
+        value: ' x =19/5, y =-28/5'
       ans5:
         value: Don't Know
 ---

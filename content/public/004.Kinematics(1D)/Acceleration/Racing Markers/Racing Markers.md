@@ -33,8 +33,8 @@ substitutions:
     vars:
       vehicle: semi-truck
       title: Racing Markers
-      v1: 58
-      v2: 29.0
+      v1: 62
+      v2: 31.0
     part1:
       ans1:
         value: Marker 1
