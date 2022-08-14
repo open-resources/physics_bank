@@ -26,18 +26,18 @@ substitutions:
     vars:
       title: Momentum and Net Force
       units: N
-    p_i: 6t^3 + 2t^2 - 6t
-    p_j: 7t^3 + 6t^2 + 7t
-    time: 12.2
+    p_i: t^2 - 9t
+    p_j: -9t^3 - 2t^2 - 4t
+    time: 12.4
     part1:
       ans1:
         value: 0
       ans2:
-        value: 4300.0
+        value: 4200.0
       ans3:
-        value: 3800.0
+        value: 22.0
       ans4:
-        value: 77.0
+        value: 65.0
       ans5:
         value: 18000000.0
 ---

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic12
-    expr: $6\over 6- x$ > $ 3$
+    expr: $6\over 6- x$ > $ 8$
     part1:
       ans1:
-        value: (4 < x) & (x < 6)
+        value: (21/4 < x) & (x < 6)
       ans2:
-        value: (4 > x) & (x > 6)
+        value: (21/4 > x) & (x > 6)
       ans3:
-        value: x > 6/3
+        value: x > 6/8
       ans4:
-        value: (35/2 < x) & (x < 18)
+        value: (140/3 < x) & (x < 48)
       ans5:
         value: Do not know
 ---

@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic22
-    denom: 5
-    formula: $\sin{\left(\frac{x}{5} \right)}$
+    denom: 3
+    formula: $\cos{\left(\frac{x}{3} \right)}$
     part1:
       ans1:
-        value: ${- 5 \cos{\left(\frac{x}{5} \right)}}$
+        value: ${3 \sin{\left(\frac{x}{3} \right)}}$
       ans2:
-        value: ${5 \cos{\left(\frac{x}{5} \right)}}$
+        value: ${- 3 \sin{\left(\frac{x}{3} \right)}}$
       ans3:
-        value: ${- 10 \cos{\left(\frac{x}{5} \right)}}$
+        value: ${6 \sin{\left(\frac{x}{3} \right)}}$
       ans4:
-        value: ${- \frac{5 \cos{\left(\frac{x}{5} \right)}}{2}}$
+        value: ${\frac{3 \sin{\left(\frac{x}{3} \right)}}{2}}$
 ---
 # {{ params.vars.title }}
 

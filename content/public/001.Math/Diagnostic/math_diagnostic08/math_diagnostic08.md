@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{21x + 9y }{ 3 }$
+    expr: $\dfrac{10x - 6y }{ 2 }$
     part1:
       ans1:
-        value: $7 x + 3 y$
+        value: $5 x - 3 y$
       ans2:
-        value: $\dfrac{7x + 3y}{3}$
+        value: $\dfrac{5x - 3y}{2}$
       ans3:
-        value: $3x + 7y$
+        value: $-3x + 5y$
       ans4:
-        value: $21x + 9y$
+        value: $10x - 6y$
       ans5:
         value: Don't know.
 ---

@@ -45,11 +45,11 @@ substitutions:
       name: Abbas
       units1: m/s
       units2: kg
-    m_bullet: 21
-    m_block: 24
-    bullet_v: 849
-    slide_d: 4
-    slide_dnew: 4.5
+    m_bullet: 23
+    m_block: 22
+    bullet_v: 701
+    slide_d: 5
+    slide_dnew: 5.1
     coeff_k: 0.2
 ---
 # {{ params.vars.title }}

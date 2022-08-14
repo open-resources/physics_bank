@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $f$ = $\dfrac{(b)}{(j - 10p)} $
+    expr: $a$ = $\dfrac{(q)}{(m - 8z)} $
     part1:
       ans1:
-        value: j = ${ \frac{b}{f} + 10 p}$
+        value: m = ${ 8 z + \frac{q}{a}}$
       ans2:
-        value: j = ${- \frac{10 f p}{b}}$
+        value: m = ${- \frac{8 a z}{q}}$
       ans3:
-        value: j = ${- \frac{b}{10 f p}}$
+        value: m = ${- \frac{q}{8 a z}}$
       ans4:
-        value: j = ${\frac{f + 10 p}{b}}$
+        value: m = ${\frac{a + 8 z}{q}}$
       ans5:
         value: Don't Know
 ---

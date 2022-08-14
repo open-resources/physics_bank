@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $4^{2} $=$ 16$
+    expr: $8^{3} $=$ 512$
     part1:
       ans1:
-        value: $log_416 = 2$
+        value: $log_8512 = 3$
       ans2:
-        value: $log_42 = 16$
+        value: $log_83 = 512$
       ans3:
-        value: $log_162 = 4$
+        value: $log_5123 = 8$
       ans4:
-        value: $log_216 = 4$
+        value: $log_3512 = 8$
       ans5:
         value: Don't Know
 ---

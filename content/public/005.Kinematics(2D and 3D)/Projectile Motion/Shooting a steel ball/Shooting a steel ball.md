@@ -32,20 +32,20 @@ substitutions:
     vars:
       title: Shooting a Steel Ball
     v: 1
-    theta: 29
+    theta: 72
     part1:
       ans1:
-        value: $(1\cos(29^{\circ}), \; -1\sin(29^{\circ}))$
+        value: $(1\cos(72^{\circ}), \; -1\sin(72^{\circ}))$
       ans2:
-        value: $(1\cos(29^{\circ}), \;1\sin(29^{\circ}))$
+        value: $(1\cos(72^{\circ}), \;1\sin(72^{\circ}))$
       ans3:
-        value: $(1\sin(29^{\circ}), \; -1\cos(29^{\circ}))$
+        value: $(1\sin(72^{\circ}), \; -1\cos(72^{\circ}))$
       ans4:
-        value: $(1\sin(29^{\circ}), \;1\cos(29^{\circ}))$
+        value: $(1\sin(72^{\circ}), \;1\cos(72^{\circ}))$
       ans5:
-        value: $(-1\cos(29^{\circ}), \; -1\sin(29^{\circ}))$
+        value: $(-1\cos(72^{\circ}), \; -1\sin(72^{\circ}))$
       ans6:
-        value: $(-1\sin(29^{\circ}), \;1\cos(29^{\circ}))$
+        value: $(-1\sin(72^{\circ}), \;1\cos(72^{\circ}))$
 ---
 # {{ params.vars.title }}
 A small steel ball is shot at {{ params.v }} $m/s$ at a {{ params.theta }}$^{\circ}$ angle above the horizontal direction and its motion is well approximated by projectile motion.
