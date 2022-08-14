@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $8^{3} $=$ 512$
+    expr: $5^{6} $=$ 15625$
     part1:
       ans1:
-        value: $log_8512 = 3$
+        value: $log_515625 = 6$
       ans2:
-        value: $log_83 = 512$
+        value: $log_56 = 15625$
       ans3:
-        value: $log_5123 = 8$
+        value: $log_156256 = 5$
       ans4:
-        value: $log_3512 = 8$
+        value: $log_615625 = 5$
       ans5:
         value: Don't Know
 ---

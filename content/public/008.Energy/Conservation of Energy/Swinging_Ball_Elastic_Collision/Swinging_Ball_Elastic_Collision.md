@@ -40,12 +40,12 @@ substitutions:
   params:
     vars:
       title: Swinging Ball Elastic Collision
-    l: 2.0
-    m_1: 220
-    m_2: 1.6
-    x: 2.1
-    k: 2490
-    spring: 15
+    l: 2.8
+    m_1: 250
+    m_2: 1.1
+    x: 1.6
+    k: 2180
+    spring: 30
 ---
 # {{ params.vars.title }}
 A {{params.m_1}} $\rm{g}$ rubber ball is tied to a {{params.l}} meter long string and released from rest at angle $\theta$.

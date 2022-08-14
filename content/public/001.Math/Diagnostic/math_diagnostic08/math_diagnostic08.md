@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{10x - 6y }{ 2 }$
+    expr: $\dfrac{-14x - 63y }{ -7 }$
     part1:
       ans1:
-        value: $5 x - 3 y$
+        value: $2 x + 9 y$
       ans2:
-        value: $\dfrac{5x - 3y}{2}$
+        value: $\dfrac{2x + 9y}{-7}$
       ans3:
-        value: $-3x + 5y$
+        value: $9x + 2y$
       ans4:
-        value: $10x - 6y$
+        value: $-14x + 63y$
       ans5:
         value: Don't know.
 ---

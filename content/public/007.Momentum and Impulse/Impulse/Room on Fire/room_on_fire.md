@@ -30,7 +30,7 @@ part1:
 substitutions:
   params:
     vars:
-      name: Ahmed
+      name: Lorenzo
       title: Living Room on Fire
     part1:
       ans1:

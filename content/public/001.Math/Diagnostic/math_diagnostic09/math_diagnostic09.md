@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $a$ = $\dfrac{(q)}{(m - 8z)} $
+    expr: $r$ = $\dfrac{(g)}{(k - 10b)} $
     part1:
       ans1:
-        value: m = ${ 8 z + \frac{q}{a}}$
+        value: k = ${ 10 b + \frac{g}{r}}$
       ans2:
-        value: m = ${- \frac{8 a z}{q}}$
+        value: k = ${- \frac{10 b r}{g}}$
       ans3:
-        value: m = ${- \frac{q}{8 a z}}$
+        value: k = ${- \frac{g}{10 b r}}$
       ans4:
-        value: m = ${\frac{a + 8 z}{q}}$
+        value: k = ${\frac{10 b + r}{g}}$
       ans5:
         value: Don't Know
 ---
