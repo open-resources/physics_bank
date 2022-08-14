@@ -239,6 +239,7 @@ parts:
   - file: content/public/006.Force/Friction/hand_pushing_blocks/hand_pushing_blocks
   - file: content/public/006.Force/Friction/spring_on_ramp/spring_on_ramp
   - file: content/public/006.Force/Friction/vehicle_in_circular_motion/vehicle_in_circular_motion
+  - file: content/public/006.Force/Mass, Weight and Gravity/elevator_apparent_weight/elevator_apparent_weight
   - file: content/public/006.Force/Newton's First Law/Collision_of_two_carts/Collision_of_two_carts
   - file: content/public/006.Force/Newton's First Law/Inertial_Reference_Frames/Inertial_Reference_Frames
   - file: content/public/006.Force/Newton's First Law/Particle travelling with constant
@@ -293,6 +294,7 @@ parts:
       Collision
   - file: content/public/007.Momentum and Impulse/2D Collisions/Perfectly Inelastic
       Collision/Perfectly Inelastic Collision
+  - file: content/public/007.Momentum and Impulse/2D Collisions/Stuck Together Collision/stuck_together_collision
   - file: content/public/007.Momentum and Impulse/2D Collisions/billiards_collision/billiards_collision
   - file: content/public/007.Momentum and Impulse/2D Collisions/collision_of_carts/collision_of_carts
   - file: content/public/007.Momentum and Impulse/2D Collisions/light_heavy_collision/light_heavy_collision
@@ -318,11 +320,13 @@ parts:
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Raindrops_Collision/raindrops_collision
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/System_Open_or_Closed/System_Open_or_Closed
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/mass_spring_collision/mass_spring_collision
+  - file: content/public/007.Momentum and Impulse/Conservation of Momentum/object_collision/object_collision
   - file: content/public/007.Momentum and Impulse/Impulse/Bouncing_Ball/Bouncing_Ball
   - file: content/public/007.Momentum and Impulse/Impulse/Room on Fire/room_on_fire
   - file: content/public/007.Momentum and Impulse/Impulse/Speed_Before_Impact/Speed_Before_Impact
   - file: content/public/007.Momentum and Impulse/Impulse/Throwing an Egg/Throwing
       an Egg
+  - file: content/public/007.Momentum and Impulse/Impulse/Water Rocket/water_rocket
   - file: content/public/007.Momentum and Impulse/Impulse/airbag_collision/airbag_collision
   - file: content/public/007.Momentum and Impulse/Momentum/Dinner_Plate/dinner_plate
   - file: content/public/007.Momentum and Impulse/Momentum/Momentum Vector/momentum_vector
@@ -409,6 +413,7 @@ parts:
   - file: content/public/010.Rotational Motion/Rotational Energy/Rotating buckets/Rotating
       buckets
   - file: content/public/010.Rotational Motion/Rotational Velocity/Mass_Attached_To_String/Mass_Attached_To_String
+  - file: content/public/010.Rotational Motion/Rotational Velocity/figure_skater/figure_skater
   - file: content/public/010.Rotational Motion/Topic Outcome/Acceleration around a
       turn/Acceleration around a turn
   - file: content/public/010.Rotational Motion/Topic Outcome/Angular_Acceleration/Angular_Acceleration
@@ -429,6 +434,8 @@ parts:
   - file: content/public/010.Rotational Motion/Topic Outcome/rock_on_string/rock_on_string
 - caption: Rotational Dynamics
   chapters:
+  - file: content/public/011.Rotational Dynamics/Newton's Second Law for Rotational
+      Motion/Throwing a Frisbee/throwing_a_frisbee
   - file: content/public/011.Rotational Dynamics/Topic Outcome/thread_on_spool/thread_on_spool
 - caption: Elasticity
   chapters:
@@ -454,6 +461,7 @@ parts:
       a Pendulum/Maximum Speed of a Pendulum
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Maximum_In_Simple_Harmonic_Motion/Maximum_In_Simple_Harmonic_Motion
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Period_oscillation_SHM/Period_oscillation_SHM
+  - file: content/public/015.Oscillations/Simple Harmonic Motion/Potential_energy_SHM/Potential_energy_SHM
   - file: content/public/015.Oscillations/Simple Harmonic Motion/SHO Kinetic Energy
       Graph/SHO_Kinetic_Energy_Graph
   - file: content/public/015.Oscillations/Simple Harmonic Motion/frequency_graph/frequency_graph
