@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $b$ = $\dfrac{(y)}{(p - 10m)} $
+    expr: $b$ = $\dfrac{(a)}{(g - 9m)} $
     part1:
       ans1:
-        value: p = ${ 10 m + \frac{y}{b}}$
+        value: g = ${ \frac{a}{b} + 9 m}$
       ans2:
-        value: p = ${- \frac{10 b m}{y}}$
+        value: g = ${- \frac{9 b m}{a}}$
       ans3:
-        value: p = ${- \frac{y}{10 b m}}$
+        value: g = ${- \frac{a}{9 b m}}$
       ans4:
-        value: p = ${\frac{b + 10 m}{y}}$
+        value: g = ${\frac{b + 9 m}{a}}$
       ans5:
         value: Don't Know
 ---

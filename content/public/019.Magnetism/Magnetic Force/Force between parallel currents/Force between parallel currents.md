@@ -50,7 +50,7 @@ substitutions:
     vars:
       title: Force between parallel currents
     d: '48.0'
-    I: '50.0'
+    I: '68.0'
     txt: the same direction
     part2:
       ans1:

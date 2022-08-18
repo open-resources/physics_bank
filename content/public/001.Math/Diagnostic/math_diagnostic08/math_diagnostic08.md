@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-36x + 32y }{ 4 }$
+    expr: $\dfrac{28x + 16y }{ 4 }$
     part1:
       ans1:
-        value: $- 9 x + 8 y$
+        value: $7 x + 4 y$
       ans2:
-        value: $\dfrac{-9x + 8y}{4}$
+        value: $\dfrac{7x + 4y}{4}$
       ans3:
-        value: $8x - 9y$
+        value: $4x + 7y$
       ans4:
-        value: $-36x + 32y$
+        value: $28x + 16y$
       ans5:
         value: Don't know.
 ---

@@ -30,29 +30,29 @@ part1:
 substitutions:
   params:
     t1: $1$
-    t2: $4$
-    t3: $5$
-    dv1: $\Delta v_{y 1 \to 4 }$
-    dv2: $\Delta v_{y 4 \to 5 }$
+    t2: $2$
+    t3: $4$
+    dv1: $\Delta v_{y 1 \to 2 }$
+    dv2: $\Delta v_{y 2 \to 4 }$
     vars:
       title: Throwing a Rock
     part1:
       ans1:
-        value: $\Delta v_{y 1 \to 4 } = \Delta v_{y 4 \to 5 } + 2 $
+        value: $\Delta v_{y 1 \to 2 } = \Delta v_{y 2 \to 4 } + 1 $
         feedback: Hmm, not quite. Try relating the change in velocity to the time
           interval and compare those.
       ans2:
-        value: $\Delta v_{y 1 \to 4 }=0$ ; $\Delta v_{y 4 \to 5 }<0$
+        value: $\Delta v_{y 1 \to 2 }=0$ ; $\Delta v_{y 2 \to 4 }<0$
         feedback: Remember, the rock is accelerating down. These statements would
           imply the rock slows down as it falls!
       ans3:
-        value: $\Delta v_{y 1 \to 4 } = \frac{ 1 }{ 3 }\Delta v_{y 4 \to 5 }$
+        value: $\Delta v_{y 1 \to 2 } = 2\Delta v_{y 2 \to 4 }$
         feedback: Close! Try double-checking your algebra.
       ans4:
-        value: $\Delta v_{ y 1 \to 4 } = 3\Delta v_{y 4 \to 5 }$
+        value: $\Delta v_{ y 1 \to 2 } = \frac{ 1 }{ 2 }\Delta v_{y 2 \to 4 }$
         feedback: Great! You got it.
       ans5:
-        value: $\Delta v_{y 1 \to 4 } = \frac{ 3 }{ 4 }\Delta v_{y 4 \to 5 }$
+        value: $\Delta v_{y 1 \to 2 } = \frac{ 1 }{ 5 }\Delta v_{y 2 \to 4 }$
         feedback: Hmm, try relating the time intervals to the change in velocity.
 ---
 # {{ params.vars.title }}
