@@ -45,7 +45,7 @@ substitutions:
       title: Temperature Range of Resistor
     p: 6
     metal: Silicon
-    T_0: 60
+    T_0: 54
 ---
 # {{ params.vars.title }}
 

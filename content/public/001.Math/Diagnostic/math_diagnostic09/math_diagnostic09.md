@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $e$ = $\dfrac{(t)}{(d + 10y)} $
+    expr: $y$ = $\dfrac{(x)}{(i + 6q)} $
     part1:
       ans1:
-        value: d = ${ - 10 y + \frac{t}{e}}$
+        value: i = ${ - 6 q + \frac{x}{y}}$
       ans2:
-        value: d = ${\frac{10 e y}{t}}$
+        value: i = ${\frac{6 q y}{x}}$
       ans3:
-        value: d = ${\frac{t}{10 e y}}$
+        value: i = ${\frac{x}{6 q y}}$
       ans4:
-        value: d = ${\frac{e - 10 y}{t}}$
+        value: i = ${\frac{- 6 q + y}{x}}$
       ans5:
         value: Don't Know
 ---

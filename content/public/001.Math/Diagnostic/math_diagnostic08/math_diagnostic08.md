@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{48x - 64y }{ 8 }$
+    expr: $\dfrac{8x - 8y }{ -2 }$
     part1:
       ans1:
-        value: $6 x - 8 y$
+        value: $- 4 x + 4 y$
       ans2:
-        value: $\dfrac{6x - 8y}{8}$
+        value: $\dfrac{-4x + 4y}{-2}$
       ans3:
-        value: $-8x + 6y$
+        value: $4x - 4y$
       ans4:
-        value: $48x - 64y$
+        value: $8x + 8y$
       ans5:
         value: Don't know.
 ---

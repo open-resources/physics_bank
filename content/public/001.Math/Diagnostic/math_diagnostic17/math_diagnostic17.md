@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic17
-    a: 6
-    b: 6
+    a: 8
+    b: 8
     part1:
       ans1:
-        value: $e^{6} e^{6 y}$
+        value: $e^{8} e^{8 y}$
       ans2:
-        value: $e^{6 y} + e^{6}$
+        value: $e^{8 y} + e^{8}$
       ans3:
-        value: $6 e^{6} e^{y}$
+        value: $8 e^{8} e^{y}$
       ans4:
-        value: $6 e^{6 y}$
+        value: $8 e^{8 y}$
       ans5:
         value: Don't Know
 ---

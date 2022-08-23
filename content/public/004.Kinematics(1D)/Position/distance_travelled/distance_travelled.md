@@ -30,21 +30,21 @@ part1:
 substitutions:
   params:
     vars:
-      name: Lorenzo
+      name: Ahmed
       vehicle: rollerblades
       units: m
       title: Distance travelled
-    v: 3
-    t: 8
+    v: 4
+    t: 9
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 24
+        value: 36
       ans3:
-        value: 11
+        value: 13
       ans4:
-        value: 0.38
+        value: 0.44
       ans5:
         value: -5
       ans6:

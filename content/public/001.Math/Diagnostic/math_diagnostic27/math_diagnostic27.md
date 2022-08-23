@@ -30,7 +30,7 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic27
-      sym1: '>'
+      sym1: <
       sym2: '>'
     part1:
       ans1:

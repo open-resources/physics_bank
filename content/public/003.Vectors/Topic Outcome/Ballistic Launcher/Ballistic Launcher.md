@@ -105,9 +105,9 @@ substitutions:
   params:
     vars:
       title: Ballistic Launcher
-    dist: 22.5
-    vmax: 5.44
-    theta_1: 33.5
+    dist: 32.7
+    vmax: 4.24
+    theta_1: 33.7
     theta_2: 47.5
 ---
 # {{ params.vars.title }}

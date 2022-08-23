@@ -33,32 +33,32 @@ substitutions:
     vars:
       title: Distance Between Two People
       units: $m$
-      name1: Maya
-      name2: Abbas
-    s: 1
+      name1: Abbas
+      name2: Santiago
+    s: 2
     ai_1: 3
     ai_2: 3
-    ai_3: 1
-    aj_1: 1
+    ai_3: 2
+    aj_1: 2
     aj_2: 5
-    aj_3: 1
+    aj_3: 2
     bi_1: 4
     bi_2: 3
-    bi_3: 1
-    bj_1: 6
-    bj_2: 3
+    bi_3: 3
+    bj_1: 5
+    bj_2: 2
     bj_3: 1
     part1:
       ans1:
-        value: 5.1
+        value: 9.5
       ans2:
-        value: 2.5
+        value: 4.7
       ans3:
-        value: 26.0
+        value: 90.0
       ans4:
         value: 6
       ans5:
-        value: 4
+        value: 12
 ---
 # {{ params.vars.title }}
 The position of {{ params.vars.name1 }} as a function of time is given by:

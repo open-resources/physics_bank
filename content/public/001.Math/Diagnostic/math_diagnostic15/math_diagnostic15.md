@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $4^{7} $=$ 16384$
+    expr: $6^{5} $=$ 7776$
     part1:
       ans1:
-        value: $log_416384 = 7$
+        value: $log_67776 = 5$
       ans2:
-        value: $log_47 = 16384$
+        value: $log_65 = 7776$
       ans3:
-        value: $log_163847 = 4$
+        value: $log_77765 = 6$
       ans4:
-        value: $log_716384 = 4$
+        value: $log_57776 = 6$
       ans5:
         value: Don't Know
 ---

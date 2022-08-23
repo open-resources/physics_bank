@@ -33,18 +33,18 @@ substitutions:
   params:
     vars:
       title: Block on a Ramp
-    m: 7
-    theta: 15
-    mu: 0.9
+    m: 5
+    theta: 21
+    mu: 0.8
     part1:
       ans1:
         value: 18.0 $N$, up the incline
       ans2:
-        value: 66.0 $N$, up the incline
+        value: 46.0 $N$, up the incline
       ans3:
-        value: 16.0 $N$, down the incline
+        value: 14.0 $N$, down the incline
       ans4:
-        value: 60.0 $N$, down the incline
+        value: 37.0 $N$, down the incline
       ans5:
         value: 18.0 $N$, down the incline
 ---
