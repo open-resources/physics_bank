@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic22
-    denom: 9
-    formula: $\sin{\left(\frac{x}{9} \right)}$
+    denom: 8
+    formula: $\sin{\left(\frac{x}{8} \right)}$
     part1:
       ans1:
-        value: ${- 9 \cos{\left(\frac{x}{9} \right)}}$
+        value: ${- 8 \cos{\left(\frac{x}{8} \right)}}$
       ans2:
-        value: ${9 \cos{\left(\frac{x}{9} \right)}}$
+        value: ${8 \cos{\left(\frac{x}{8} \right)}}$
       ans3:
-        value: ${- 18 \cos{\left(\frac{x}{9} \right)}}$
+        value: ${- 16 \cos{\left(\frac{x}{8} \right)}}$
       ans4:
-        value: ${- \frac{9 \cos{\left(\frac{x}{9} \right)}}{2}}$
+        value: ${- 4 \cos{\left(\frac{x}{8} \right)}}$
 ---
 # {{ params.vars.title }}
 

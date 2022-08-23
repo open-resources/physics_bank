@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $b$ = $\dfrac{(a)}{(g - 9m)} $
+    expr: $e$ = $\dfrac{(t)}{(d + 10y)} $
     part1:
       ans1:
-        value: g = ${ \frac{a}{b} + 9 m}$
+        value: d = ${ - 10 y + \frac{t}{e}}$
       ans2:
-        value: g = ${- \frac{9 b m}{a}}$
+        value: d = ${\frac{10 e y}{t}}$
       ans3:
-        value: g = ${- \frac{a}{9 b m}}$
+        value: d = ${\frac{t}{10 e y}}$
       ans4:
-        value: g = ${\frac{b + 9 m}{a}}$
+        value: d = ${\frac{e - 10 y}{t}}$
       ans5:
         value: Don't Know
 ---

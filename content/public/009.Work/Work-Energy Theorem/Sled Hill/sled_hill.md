@@ -56,11 +56,11 @@ part5:
 substitutions:
   params:
     vars:
-      name: Emilia
+      name: Lorenzo
       title: Sled Hill
-    angle: 9
+    angle: 4
     h: 19
-    uk: 0.12
+    uk: 0.05
     m: 100
 ---
 # {{ params.vars.title }}
