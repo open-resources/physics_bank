@@ -36,15 +36,15 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Length
-      ans2:
-        value: Pressure
-      ans3:
         value: Volume
+      ans2:
+        value: Distance
+      ans3:
+        value: Temperature
       ans4:
-        value: Weight
+        value: Density
       ans5:
-        value: Displacement
+        value: Position
       ans6:
         value: Average Acceleration
 ---

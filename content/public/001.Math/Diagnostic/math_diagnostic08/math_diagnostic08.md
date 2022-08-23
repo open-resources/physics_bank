@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{8x - 8y }{ -2 }$
+    expr: $\dfrac{72x - 40y }{ -8 }$
     part1:
       ans1:
-        value: $- 4 x + 4 y$
+        value: $- 9 x + 5 y$
       ans2:
-        value: $\dfrac{-4x + 4y}{-2}$
+        value: $\dfrac{-9x + 5y}{-8}$
       ans3:
-        value: $4x - 4y$
+        value: $5x - 9y$
       ans4:
-        value: $8x + 8y$
+        value: $72x + 40y$
       ans5:
         value: Don't know.
 ---

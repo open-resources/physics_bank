@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $y$ = $\dfrac{(x)}{(i + 6q)} $
+    expr: $s$ = $\dfrac{(p)}{(w - 4h)} $
     part1:
       ans1:
-        value: i = ${ - 6 q + \frac{x}{y}}$
+        value: w = ${ 4 h + \frac{p}{s}}$
       ans2:
-        value: i = ${\frac{6 q y}{x}}$
+        value: w = ${- \frac{4 h s}{p}}$
       ans3:
-        value: i = ${\frac{x}{6 q y}}$
+        value: w = ${- \frac{p}{4 h s}}$
       ans4:
-        value: i = ${\frac{- 6 q + y}{x}}$
+        value: w = ${\frac{4 h + s}{p}}$
       ans5:
         value: Don't Know
 ---

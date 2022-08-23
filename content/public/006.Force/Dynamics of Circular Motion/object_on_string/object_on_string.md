@@ -3,7 +3,7 @@ title: Object Swung in Circular Path
 topic: Force
 author: Jake Bobowski
 source: 2017 Final Q8
-template_version: 1.3
+template_version: 1.4
 attribution: standard
 partialCredit: true
 singleVariant: false
@@ -25,6 +25,7 @@ length:
 - average
 tags:
 - MP
+- NR
 assets: null
 part1:
   type: multiple-choice
@@ -34,27 +35,31 @@ substitutions:
   params:
     vars:
       title: Object Swung in Circular Path
-      units: N
-    m: 0.5
-    r: 5.41
-    w: 7
+      units: $\rm{N}$
+    m: 0.88
+    r: 3.01
+    w: 5
     part1:
       ans1:
-        value: 127.65
+        value: 57.6
+        feedback: Great! You got it.
       ans2:
-        value: 106.04
+        value: 40.26
+        feedback: Hmm... try double-checking your algebra.
       ans3:
-        value: 132.55
+        value: 66.22
+        feedback: Try considering how gravity might effect the tension.
       ans4:
-        value: 19.6
+        value: 192.08
+        feedback: Hmm, not quite.
 ---
 # {{ params.vars.title }}
-A {{params.m}} kg object attached to the end of a string of length {{params.r}} m is swung in a circular path
+A {{params.m}} $\rm{kg}$ object attached to the end of a string of length {{params.r}} $\rm{m}$ is swung in a circular path
 and in a vertical plane.
 
 ## Part 1
 
-If a constant angular speed of {{params.w}} rad/s is maintained, what is the magnitude of the tension in the string when the object is at the top of the circular path?
+If a constant angular speed of {{params.w}} $\rm{rad/s}$ is maintained, what is the magnitude of the tension in the string when the object is at the top of the circular path?
 
 ### Answer Section
 

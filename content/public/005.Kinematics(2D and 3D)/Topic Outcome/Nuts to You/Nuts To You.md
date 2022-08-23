@@ -80,7 +80,7 @@ substitutions:
   params:
     vars:
       title: Nuts To You
-    vi_hawk: 4.84
+    vi_hawk: 5.63
     h_Jed: 20.8
     part3:
       ans1:

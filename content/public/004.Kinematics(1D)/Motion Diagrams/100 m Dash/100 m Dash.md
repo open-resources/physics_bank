@@ -35,8 +35,8 @@ substitutions:
   params:
     vars:
       title: 100 m Dash
-    d1: 10
-    d2: 90
+    d1: 30
+    d2: 70
 ---
 # {{ params.vars.title }}
 In the 100 $m$ dash sprinters speed up from rest for the first {{ params.d1 }} $m$, and maintain their speed for the final {{ params.d2 }} $m$.

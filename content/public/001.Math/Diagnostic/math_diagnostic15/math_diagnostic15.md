@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $6^{5} $=$ 7776$
+    expr: $3^{9} $=$ 19683$
     part1:
       ans1:
-        value: $log_67776 = 5$
+        value: $log_319683 = 9$
       ans2:
-        value: $log_65 = 7776$
+        value: $log_39 = 19683$
       ans3:
-        value: $log_77765 = 6$
+        value: $log_196839 = 3$
       ans4:
-        value: $log_57776 = 6$
+        value: $log_919683 = 3$
       ans5:
         value: Don't Know
 ---
