@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $s$ = $\dfrac{(p)}{(w - 4h)} $
+    expr: $k$ = $\dfrac{(z)}{(i + 2u)} $
     part1:
       ans1:
-        value: w = ${ 4 h + \frac{p}{s}}$
+        value: i = ${ - 2 u + \frac{z}{k}}$
       ans2:
-        value: w = ${- \frac{4 h s}{p}}$
+        value: i = ${\frac{2 k u}{z}}$
       ans3:
-        value: w = ${- \frac{p}{4 h s}}$
+        value: i = ${\frac{z}{2 k u}}$
       ans4:
-        value: w = ${\frac{4 h + s}{p}}$
+        value: i = ${\frac{k - 2 u}{z}}$
       ans5:
         value: Don't Know
 ---

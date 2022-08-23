@@ -50,8 +50,8 @@ substitutions:
     vars:
       title: Collision of Objects A and B
       name: Emilia
-    v1: 4
-    v2: 4
+    v1: 2
+    v2: 2
     m_a: 5
     m_b: 2
     part2:

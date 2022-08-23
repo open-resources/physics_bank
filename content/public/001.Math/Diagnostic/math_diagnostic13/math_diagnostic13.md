@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic13
-    expr: $\dfrac{z^2 }{z^9} $
+    expr: $\dfrac{z^2 }{z^8} $
     part1:
       ans1:
-        value: $z^{-7}$
+        value: $z^{-6}$
       ans2:
-        value: $z^{7}$
+        value: $z^{6}$
       ans3:
-        value: -7z
+        value: -6z
       ans4:
-        value: (2/9)z
+        value: (1/4)z
       ans5:
         value: Don't Know
 ---

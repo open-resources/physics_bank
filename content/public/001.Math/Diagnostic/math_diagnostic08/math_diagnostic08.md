@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{72x - 40y }{ -8 }$
+    expr: $\dfrac{-21x - 6y }{ 3 }$
     part1:
       ans1:
-        value: $- 9 x + 5 y$
+        value: $- 7 x - 2 y$
       ans2:
-        value: $\dfrac{-9x + 5y}{-8}$
+        value: $\dfrac{-7x - 2y}{3}$
       ans3:
-        value: $5x - 9y$
+        value: $-2x - 7y$
       ans4:
-        value: $72x + 40y$
+        value: $-21x - 6y$
       ans5:
         value: Don't know.
 ---
