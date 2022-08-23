@@ -208,6 +208,7 @@ parts:
 - caption: Force
   chapters:
   - file: content/public/006.Force/Drag/Cyclist with a Deathwish/cyclist
+  - file: content/public/006.Force/Drag/Leaf_Falling_off_A_Tree/Leaf_Falling_off_A_Tree
   - file: content/public/006.Force/Dynamics of Circular Motion/Frictionless Table/frictionless_table
   - file: content/public/006.Force/Dynamics of Circular Motion/Object_In_Circular_Motion/Object_In_Circular_Motion
   - file: content/public/006.Force/Dynamics of Circular Motion/Washing Machine Mechanics/washing_machine_mechanics
