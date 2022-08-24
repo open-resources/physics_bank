@@ -450,6 +450,16 @@ parts:
       different Displacement/Identical Mass-Springs with different Displacement
 - caption: Oscillations
   chapters:
+  - file: content/public/015.Oscillations/Damped Oscillations/Exponential Damping/part
+      1/exponential_damping1
+  - file: content/public/015.Oscillations/Damped Oscillations/Exponential Damping/part
+      2/exponential_damping2
+  - file: content/public/015.Oscillations/Damped Oscillations/Exponential Damping/part
+      3/exponential_damping3
+  - file: content/public/015.Oscillations/Damped Oscillations/Exponential Damping/part
+      4/exponential_damping4
+  - file: content/public/015.Oscillations/Damped Oscillations/Exponential Damping/part
+      5/exponential_damping5
   - file: content/public/015.Oscillations/Pendulum/lengths_with_same_period/lengths_with_same_period
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Bouncing a baby to
       sleep/Bouncing a baby to sleep
