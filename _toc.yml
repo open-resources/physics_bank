@@ -336,6 +336,7 @@ parts:
   - file: content/public/007.Momentum and Impulse/Momentum/Momentum Vector/momentum_vector
   - file: content/public/007.Momentum and Impulse/Momentum/Momentum_and_Inertia/Momentum_and_Inertia
   - file: content/public/007.Momentum and Impulse/Momentum/Rock_Powered_Rocket/Rock_Powered_Rocket
+  - file: content/public/007.Momentum and Impulse/Momentum/cricket_force_graph/cricket_force_graph
   - file: content/public/007.Momentum and Impulse/Topic Outcome/A Coyote and a Rat/A
       Coyote and a Rat
   - file: content/public/007.Momentum and Impulse/Topic Outcome/A disk and a paintball/A
