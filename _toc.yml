@@ -154,6 +154,7 @@ parts:
   - file: content/public/004.Kinematics(1D)/water_slide/water_slide
 - caption: Kinematics(2D and 3D)
   chapters:
+  - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/circular_motion_graph/circular_motion_graph
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Archery Competition/Archery
       Competition
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Bird dropping
