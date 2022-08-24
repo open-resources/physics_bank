@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-21x - 6y }{ 3 }$
+    expr: $\dfrac{-14x - 6y }{ 2 }$
     part1:
       ans1:
-        value: $- 7 x - 2 y$
+        value: $- 7 x - 3 y$
       ans2:
-        value: $\dfrac{-7x - 2y}{3}$
+        value: $\dfrac{-7x - 3y}{2}$
       ans3:
-        value: $-2x - 7y$
+        value: $-3x - 7y$
       ans4:
-        value: $-21x - 6y$
+        value: $-14x - 6y$
       ans5:
         value: Don't know.
 ---

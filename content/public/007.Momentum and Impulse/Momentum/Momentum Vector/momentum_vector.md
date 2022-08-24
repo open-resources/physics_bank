@@ -34,25 +34,25 @@ substitutions:
   params:
     vars:
       title: Momentum Vector
-    px: -6
-    py: 8
+    px: 4
+    py: -3
     part1:
       ans1:
-        value: $p= 10\; \rm{kg \; m/s}$, $\theta = 233.13^\circ$.
+        value: $p= 5\; \rm{kg \; m/s}$, $\theta = 36.87^\circ$.
         feedback: Hmm, it looks like your angle is off. Make sure you're calculating
           the desired angle.
       ans2:
-        value: $p= -10\; \rm{kg \; m/s}$, $\theta = 126.87^\circ$.
+        value: $p= -5\; \rm{kg \; m/s}$, $\theta = 323.13^\circ$.
         feedback: Hmm, can a magnitude really be negative?
       ans3:
-        value: $p= 10\; \rm{kg \; m/s}$, $\theta = 306.87^\circ$.
+        value: $p= 5\; \rm{kg \; m/s}$, $\theta = 143.13^\circ$.
         feedback: Close, try drawing out the momentum vector to make sure you have
           the correct angle!
       ans4:
-        value: $p= -10\; \rm{kg \; m/s}$, $\theta = 306.87^\circ$.
+        value: $p= -5\; \rm{kg \; m/s}$, $\theta = 143.13^\circ$.
         feedback: Try drawing out the momentum vector and make sure your answers match!
       ans5:
-        value: $p= 10\; \rm{kg \; m/s}$, $\theta = 126.87^\circ$.
+        value: $p= 5\; \rm{kg \; m/s}$, $\theta = 323.13^\circ$.
         feedback: Great! You got it.
 ---
 # {{ params.vars.title }}

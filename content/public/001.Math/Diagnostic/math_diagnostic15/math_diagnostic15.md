@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $5^{1} $=$ 5$
+    expr: $7^{1} $=$ 7$
     part1:
       ans1:
-        value: $log_55 = 1$
+        value: $log_77 = 1$
       ans2:
-        value: $log_51 = 5$
+        value: $log_71 = 7$
       ans3:
-        value: $log_51 = 5$
+        value: $log_71 = 7$
       ans4:
-        value: $log_15 = 5$
+        value: $log_17 = 7$
       ans5:
         value: Don't Know
 ---

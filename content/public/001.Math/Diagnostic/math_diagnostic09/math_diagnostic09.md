@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $k$ = $\dfrac{(z)}{(i + 2u)} $
+    expr: $z$ = $\dfrac{(r)}{(t - 4q)} $
     part1:
       ans1:
-        value: i = ${ - 2 u + \frac{z}{k}}$
+        value: t = ${ 4 q + \frac{r}{z}}$
       ans2:
-        value: i = ${\frac{2 k u}{z}}$
+        value: t = ${- \frac{4 q z}{r}}$
       ans3:
-        value: i = ${\frac{z}{2 k u}}$
+        value: t = ${- \frac{r}{4 q z}}$
       ans4:
-        value: i = ${\frac{k - 2 u}{z}}$
+        value: t = ${\frac{4 q + z}{r}}$
       ans5:
         value: Don't Know
 ---
