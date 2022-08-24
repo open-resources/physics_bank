@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $i$ = $\dfrac{(x)}{(m - 5l)} $
+    expr: $g$ = $\dfrac{(i)}{(z + 7s)} $
     part1:
       ans1:
-        value: m = ${ 5 l + \frac{x}{i}}$
+        value: z = ${ - 7 s + \frac{i}{g}}$
       ans2:
-        value: m = ${- \frac{5 i l}{x}}$
+        value: z = ${\frac{7 g s}{i}}$
       ans3:
-        value: m = ${- \frac{x}{5 i l}}$
+        value: z = ${\frac{i}{7 g s}}$
       ans4:
-        value: m = ${\frac{i + 5 l}{x}}$
+        value: z = ${\frac{g - 7 s}{i}}$
       ans5:
         value: Don't Know
 ---

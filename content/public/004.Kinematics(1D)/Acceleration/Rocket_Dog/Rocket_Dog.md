@@ -70,15 +70,15 @@ substitutions:
     vars:
       title: Rocket Dog
       units: $\rm{m/s}$
-    x: $4t^3 - 4t^2 - 9t$
-    time: 2
+    x: $7t^3 - t^2 - 9t$
+    time: 8
     part4:
       ans1:
-        value: The rocket dog is moving away from the origin.
+        value: The rocket dog is moving towards the origin.
         feedback: 'Hint: Consider the signs of the dog''s position and velocity at
           the given time.'
       ans2:
-        value: The rocket dog is moving towards the origin.
+        value: The rocket dog is moving away from the origin.
         feedback: Great! You got it.
 ---
 # {{ params.vars.title }}

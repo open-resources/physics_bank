@@ -38,15 +38,15 @@ substitutions:
       ans1:
         value: Velocity
       ans2:
-        value: Average Velocity
+        value: Position
       ans3:
-        value: Density
+        value: Weight
       ans4:
-        value: Temperature
+        value: Mass
       ans5:
-        value: Length
+        value: Distance
       ans6:
-        value: Area
+        value: Power
 ---
 # {{ params.vars.title }}
 

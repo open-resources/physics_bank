@@ -76,8 +76,8 @@ substitutions:
   params:
     vars:
       title: Switched LC Circuit
-    L: '107.0'
-    C: '5.00'
+    L: '108.0'
+    C: '2.25'
     V: '10.5'
 ---
 # {{ params.vars.title }}

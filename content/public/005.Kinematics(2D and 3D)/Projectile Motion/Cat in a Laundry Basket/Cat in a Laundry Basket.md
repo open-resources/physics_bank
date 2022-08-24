@@ -37,8 +37,8 @@ substitutions:
   params:
     vars:
       title: Cat in a Laundry Basket
-    w: 29
-    h: 36
+    w: 35
+    h: 40
     part1:
       ans1:
         value: $\Delta t_1 > \Delta t_2 > \Delta t_3$

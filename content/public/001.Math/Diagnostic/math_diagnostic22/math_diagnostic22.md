@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic22
-    denom: 7
-    formula: $\sin{\left(\frac{x}{7} \right)}$
+    denom: 3
+    formula: $\sin{\left(\frac{x}{3} \right)}$
     part1:
       ans1:
-        value: ${- 7 \cos{\left(\frac{x}{7} \right)}}$
+        value: ${- 3 \cos{\left(\frac{x}{3} \right)}}$
       ans2:
-        value: ${7 \cos{\left(\frac{x}{7} \right)}}$
+        value: ${3 \cos{\left(\frac{x}{3} \right)}}$
       ans3:
-        value: ${- 14 \cos{\left(\frac{x}{7} \right)}}$
+        value: ${- 6 \cos{\left(\frac{x}{3} \right)}}$
       ans4:
-        value: ${- \frac{7 \cos{\left(\frac{x}{7} \right)}}{2}}$
+        value: ${- \frac{3 \cos{\left(\frac{x}{3} \right)}}{2}}$
 ---
 # {{ params.vars.title }}
 

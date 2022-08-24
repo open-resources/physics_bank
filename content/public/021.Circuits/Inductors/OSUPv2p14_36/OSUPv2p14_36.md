@@ -59,7 +59,7 @@ substitutions:
       ans2:
         value: Left-hand side
     change1: decreasing
-    change2: increasing
+    change2: also decreasing
     find: higher
 ---
 # {{ params.vars.title }}

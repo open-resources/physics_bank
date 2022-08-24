@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic06
-    eq: $\dfrac{x-7}{x+8}$ = $ \dfrac{x+9}{x-6}$
+    eq: $\dfrac{x-8}{x+3}$ = $ \dfrac{x+9}{x-2}$
     part1:
       ans1:
-        value: 1/2
+        value: '3'
       ans2:
-        value: 1/15
+        value: 3/11
       ans3:
         value: ''
       ans4:
-        value: -1/15
+        value: -3/11
 ---
 # {{ params.vars.title }}
 
