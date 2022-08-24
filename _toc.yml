@@ -233,6 +233,7 @@ parts:
   - file: content/public/006.Force/Friction/Doorstop/Doorstop
   - file: content/public/006.Force/Friction/Frictional Force between tires and road/Frictional
       Force between tires and road
+  - file: content/public/006.Force/Friction/Truck_Up_Hill/Truck_Up_Hill
   - file: content/public/006.Force/Friction/Turtle on a Log/turtle_on_a_log
   - file: content/public/006.Force/Friction/Which_Block_Stops_First/Which_Block_Stops_First
   - file: content/public/006.Force/Friction/box_in_truck_bed_2/box_in_truck_bed_2
