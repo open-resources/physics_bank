@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $z$ = $\dfrac{(r)}{(t - 4q)} $
+    expr: $i$ = $\dfrac{(x)}{(m - 5l)} $
     part1:
       ans1:
-        value: t = ${ 4 q + \frac{r}{z}}$
+        value: m = ${ 5 l + \frac{x}{i}}$
       ans2:
-        value: t = ${- \frac{4 q z}{r}}$
+        value: m = ${- \frac{5 i l}{x}}$
       ans3:
-        value: t = ${- \frac{r}{4 q z}}$
+        value: m = ${- \frac{x}{5 i l}}$
       ans4:
-        value: t = ${\frac{4 q + z}{r}}$
+        value: m = ${\frac{i + 5 l}{x}}$
       ans5:
         value: Don't Know
 ---

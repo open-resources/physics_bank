@@ -56,10 +56,10 @@ substitutions:
       units1: m/s
       units2: kg
       name: Maya
-    i: 343
-    m: 28
-    v_1: 20
-    v_2: 35
+    i: 372
+    m: 36
+    v_1: 22
+    v_2: 34
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.

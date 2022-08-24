@@ -36,15 +36,15 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: Momentum
+        value: Velocity
       ans2:
-        value: Acceleration
+        value: Average Velocity
       ans3:
-        value: Pressure
+        value: Density
       ans4:
-        value: Mass
+        value: Temperature
       ans5:
-        value: Power
+        value: Length
       ans6:
         value: Area
 ---

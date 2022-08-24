@@ -44,7 +44,7 @@ substitutions:
     vars:
       title: Solenoid current
     n: '13'
-    B: $2.6\times 10^{-2}$
+    B: $4.6\times 10^{-2}$
 ---
 # {{ params.vars.title }}
 A solenoid has {{ params.n }} turns per centimeter.
