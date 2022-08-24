@@ -35,27 +35,27 @@ substitutions:
     vars:
       title: Elevator Apparent Weight
     a: 7
-    m: 90.0
+    m: 100.0
     part1:
       ans1:
-        value: 882$\rm{N}$ for all time intervals.
+        value: 981$\rm{N}$ for all time intervals.
         feedback: Please consider what affects apparent weight.
       ans2:
-        value: 1512$\rm{N}$ for the first second, 882$\rm{N}$ for the second second,
-          and 252$\rm{N}$ for the third second.
+        value: 1681$\rm{N}$ for the first second, 981$\rm{N}$ for the second second,
+          and 281$\rm{N}$ for the third second.
         feedback: Great! You got it!
       ans3:
-        value: 252$\rm{N}$ for the first second, 882$\rm{N}$ for the second second,
-          and 1512$\rm{N}$ for the third second.
+        value: 281$\rm{N}$ for the first second, 981$\rm{N}$ for the second second,
+          and 1681$\rm{N}$ for the third second.
         feedback: Please consider whether upwards acceleration increases or decreases
           apparent weight!
       ans4:
-        value: 892$\rm{N}$ for the first second, 882$\rm{N}$ for the second second,
-          and 887$\rm{N}$ for the third second.
+        value: 991$\rm{N}$ for the first second, 981$\rm{N}$ for the second second,
+          and 986$\rm{N}$ for the third second.
         feedback: Please check your free body diagram and calculations!
       ans5:
-        value: 882$\rm{N}$ for the first second, 252$\rm{N}$ for the second second,
-          and 1512$\rm{N}$ for the third second.
+        value: 981$\rm{N}$ for the first second, 281$\rm{N}$ for the second second,
+          and 1681$\rm{N}$ for the third second.
         feedback: Please consider how upwards or downwards acceleration affects apparent
           weight.
 ---

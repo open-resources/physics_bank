@@ -93,8 +93,8 @@ substitutions:
   params:
     vars:
       title: A Mischievous Caracara
-    v: 3
-    h: 13
+    v: 2
+    h: 7
     part4:
       ans1:
         value: East
@@ -106,32 +106,32 @@ substitutions:
         value: West and down
         feedback: Hmh...Try again!
       ans4:
-        value: South and up
+        value: East and up
         feedback: Hmh...Try again!
       ans5:
         value: West and up
         feedback: Hmh...Try again!
       ans6:
-        value: East and up
+        value: North and up
         feedback: Hmh...Try again!
     part7:
       ans1:
         value: Down
         feedback: Great! You got it.
       ans2:
-        value: East and up
+        value: West and up
         feedback: Hmh...Try again!
       ans3:
-        value: South and up
-        feedback: Hmh...Try again!
-      ans4:
         value: East and down
         feedback: Hmh...Try again!
-      ans5:
+      ans4:
         value: North and up
         feedback: Hmh...Try again!
+      ans5:
+        value: West and down
+        feedback: Hmh...Try again!
       ans6:
-        value: West and up
+        value: South and down
         feedback: Hmh...Try again!
 ---
 # {{ params.vars.title }}

@@ -32,17 +32,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic07
-    formula1: 4x - 3y = 22
-    formula2: 6x + 3y = 16
+    formula1: 1x - 1y = 33
+    formula2: 6x + 6y = 21
     part1:
       ans1:
-        value: ' x =19/5, y =-34/15'
+        value: ' x =73/4, y =-59/4'
       ans2:
-        value: ' x =-34/15, y =19/5'
+        value: ' x =-59/4, y =73/4'
       ans3:
-        value: ' x =-19/5, y =34/15'
+        value: ' x =-73/4, y =59/4'
       ans4:
-        value: ' x =34/15, y =-19/5'
+        value: ' x =59/4, y =-73/4'
       ans5:
         value: Don't Know
 ---

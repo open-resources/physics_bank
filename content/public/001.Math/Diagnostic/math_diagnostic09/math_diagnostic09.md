@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $j$ = $\dfrac{(q)}{(x - 5z)} $
+    expr: $o$ = $\dfrac{(r)}{(l + 6y)} $
     part1:
       ans1:
-        value: x = ${ 5 z + \frac{q}{j}}$
+        value: l = ${ - 6 y + \frac{r}{o}}$
       ans2:
-        value: x = ${- \frac{5 j z}{q}}$
+        value: l = ${\frac{6 o y}{r}}$
       ans3:
-        value: x = ${- \frac{q}{5 j z}}$
+        value: l = ${\frac{r}{6 o y}}$
       ans4:
-        value: x = ${\frac{j + 5 z}{q}}$
+        value: l = ${\frac{o - 6 y}{r}}$
       ans5:
         value: Don't Know
 ---

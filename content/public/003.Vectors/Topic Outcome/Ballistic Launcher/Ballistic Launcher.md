@@ -105,10 +105,10 @@ substitutions:
   params:
     vars:
       title: Ballistic Launcher
-    dist: 32.3
-    vmax: 5.46
-    theta_1: 32.7
-    theta_2: 41.2
+    dist: 36.2
+    vmax: 4.37
+    theta_1: 28.0
+    theta_2: 42.2
 ---
 # {{ params.vars.title }}
 A steel ball is fired from a ballistic launcher at different angles.  The launched ball has been found to travel from the edge of a table to land {{ params.dist }} $cm$ from the far end of the table when starting from the height of the table and launched at an angle of {{ params.theta_1 }}$^{\circ}$ above the horizontal.  When launched at {{ params.theta_2 }}$^{\circ}$, the ball easily clears the table to land on the floor.

@@ -3,8 +3,10 @@ title: Hit Baseball
 topic: Kinematics(2D and 3D)
 author: John Hopkinson
 source: PHYS 112 2014 W1 Midterm 1 Q1
-template_version: 1.2
+template_version: 1.4
 attribution: standard
+partialCredit: true
+singleVariant: false
 showCorrectAnswer: false
 outcomes:
 - 5.5.1.0
@@ -20,6 +22,7 @@ length:
 - average
 tags:
 - EW
+- NR
 assets: null
 part1:
   type: multiple-choice
@@ -30,26 +33,32 @@ substitutions:
     vars:
       title: Hit Baseball
       units: $m/s$
-    v: 20.4
-    d: 16.9
+    v: 22.7
+    d: 21.8
     part1:
       ans1:
-        value: 19.5 $m/s$ $\hat{x}$
+        value: $21.1 \, \rm{m/s} \; \hat{x}$
       ans2:
-        value: 0 $m/s$
+        value: $8.43 \, \rm{m/s} \; \hat{y}$
       ans3:
-        value: 19.5 $m/s$
+        value: $-8.43 \, \rm{m/s} \; \hat{y}$
       ans4:
-        value: 5.93 $m/s$
+        value: $21.1 \, \rm{m/s} \; \hat{x} \; - \; 8.43 \, \rm{m/s} \; \hat{y}$
       ans5:
-        value: 19.5 $m/s$ $\hat{x}$ + 5.93 $m/s$ $\hat{y}$
+        value: $21.1 \, \rm{m/s} \; \hat{x} \; + \; 8.43 \, \rm{m/s} \; \hat{y}$
+      ans6:
+        value: $8.43 \, \rm{m/s} \; \hat{x} \; + \; 21.1 \, \rm{m/s} \; \hat{y}$
+      ans7:
+        value: $8.43 \, \rm{m/s} \; \hat{x} \; - \; 21.1 \, \rm{m/s} \; \hat{y}$
+      ans8:
+        value: $0 \rm{m/s}$
 ---
 # {{ params.vars.title }}
-A baseball is hit at a {{ params.v }} $m/s$, {{ params.d }}$^\circ$ above the horizontal.
+A baseball is hit at {{ params.d }}$^\circ$ above the horizontal with a speed of {{ params.v }} $\rm{m/s}$.
 
 ## Part 1
 
-Neglecting air resistance, the smallest **velocity** of the ball before it hits the ground is:
+Neglecting air resistance, what is the **velocity** of the ball the instant before it hits the ground? Let up be the positive $y$-direction and the ball be hit to the right, which is the positive $x$-direction.
 
 ### Answer Section
 
@@ -58,6 +67,9 @@ Neglecting air resistance, the smallest **velocity** of the ball before it hits 
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
 - {{ params.part1.ans5.value }}
+- {{ params.part1.ans6.value }}
+- {{ params.part1.ans7.value }}
+- {{ params.part1.ans8.value }}
 
 ## Attribution
 
