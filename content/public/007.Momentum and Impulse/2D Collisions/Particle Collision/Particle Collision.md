@@ -31,30 +31,30 @@ substitutions:
   params:
     vars:
       title: Particle Collision
-    choice: total
-    m1: 9
-    m2: 1
-    v1: 9
-    v2: 2
+    choice: $x$-component of the
+    m1: 6
+    m2: 9
+    v1: 1
+    v2: 12
     part1:
       ans1:
-        value: 81 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 2 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+        value: 6 $kg$ $\dfrac{m}{s}\hat{\imath}$
         feedback: Great! You got it.
       ans2:
-        value: 2 $kg$ $\dfrac{m}{s}\hat{\imath}$
+        value: 108 $kg$ $\dfrac{m}{s}\hat{\imath}$
         feedback: Hmm... Try again.
       ans3:
-        value: 2 $kg$ $\dfrac{m}{s}\hat{\jmath}$
-        feedback: Careful! Both components are asked for.
+        value: 108 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+        feedback: Close! Double check the directions of the unit vectors.
       ans4:
-        value: 2 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 81 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+        value: 108 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 6 $kg$ $\dfrac{m}{s}\hat{\jmath}$
         feedback: Hmm... Try again.
       ans5:
-        value: 81 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+        value: 6 $kg$ $\dfrac{m}{s}\hat{\jmath}$
         feedback: Hmm... Try again.
       ans6:
-        value: 81 $kg$ $\dfrac{m}{s}\hat{\imath}$
-        feedback: Careful! Both components are asked for.
+        value: 6 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 108 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+        feedback: Careful! Only one component is asked for.
 ---
 # {{ params.vars.title }}
 A particle of mass {{ params.m1 }} $kg$ is travelling with velocity {{ params.v1 }} $\frac{m}{s}\hat{\imath}$ when it collides with another particle of mass {{ params.m2 }} $kg$ travelling with velocity {{ params.v2 }} $\frac{m}{s}\hat{\jmath}$.

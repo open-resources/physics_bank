@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $3^{2} $=$ 9$
+    expr: $8^{3} $=$ 512$
     part1:
       ans1:
-        value: $log_39 = 2$
+        value: $log_8512 = 3$
       ans2:
-        value: $log_32 = 9$
+        value: $log_83 = 512$
       ans3:
-        value: $log_92 = 3$
+        value: $log_5123 = 8$
       ans4:
-        value: $log_29 = 3$
+        value: $log_3512 = 8$
       ans5:
         value: Don't Know
 ---

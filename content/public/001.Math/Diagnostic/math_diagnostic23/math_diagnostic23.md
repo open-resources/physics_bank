@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic23
-    a: 1
-    b: 6
-    formula: $x \sin{\left(6 x \right)}$
+    a: 9
+    b: 2
+    formula: $x^{9} \cos{\left(2 x \right)}$
     part1:
       ans1:
-        value: $6 x \cos{\left(6 x \right)} + \sin{\left(6 x \right)}$
+        value: $- 2 x^{9} \sin{\left(2 x \right)} + 9 x^{8} \cos{\left(2 x \right)}$
       ans2:
-        value: $6 x \cos{\left(6 x \right)} $
+        value: $- 2 x^{9} \sin{\left(2 x \right)} $
       ans3:
-        value: $ \cos{\left(6 x \right)}$
+        value: $ 9 x^{8} \sin{\left(2 x \right)}$
       ans4:
-        value: $- 6 x \sin{\left(6 x \right)} + \cos{\left(6 x \right)}$
+        value: $2 x^{9} \cos{\left(2 x \right)} + 9 x^{8} \sin{\left(2 x \right)}$
       ans5:
         value: Don't Know
 ---

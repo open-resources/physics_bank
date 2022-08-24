@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $g$ = $\dfrac{(i)}{(z + 7s)} $
+    expr: $j$ = $\dfrac{(q)}{(x - 5z)} $
     part1:
       ans1:
-        value: z = ${ - 7 s + \frac{i}{g}}$
+        value: x = ${ 5 z + \frac{q}{j}}$
       ans2:
-        value: z = ${\frac{7 g s}{i}}$
+        value: x = ${- \frac{5 j z}{q}}$
       ans3:
-        value: z = ${\frac{i}{7 g s}}$
+        value: x = ${- \frac{q}{5 j z}}$
       ans4:
-        value: z = ${\frac{g - 7 s}{i}}$
+        value: x = ${\frac{j + 5 z}{q}}$
       ans5:
         value: Don't Know
 ---
