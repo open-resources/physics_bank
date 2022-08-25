@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Bungee Jumping
-      name: Emilia
+      name: Abbas
     part1:
       ans1:
-        value: The tension points up, and Emilia moves down, so negative work is done.
+        value: The tension points up, and Abbas moves down, so negative work is done.
       ans2:
-        value: The tension point up, and Emilia moves up, so positive work is done.
+        value: The tension points up, and Abbas moves down, so positive work is done.
       ans3:
-        value: The tension points up, and Emilia moves down, so positive work is done.
+        value: The tension point up, and Abbas moves up, so positive work is done.
       ans4:
-        value: The tension points down, and Emilia moves down, so negative work is
+        value: The tension points down, and Abbas moves down, so negative work is
           done.
 ---
 # {{ params.vars.title }}

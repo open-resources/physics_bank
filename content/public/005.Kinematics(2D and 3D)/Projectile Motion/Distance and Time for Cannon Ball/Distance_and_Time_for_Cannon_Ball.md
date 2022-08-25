@@ -47,9 +47,9 @@ substitutions:
       title: Distance and Time for a Cannon Ball
       distance_units: $m$
       time_units: $seconds$
-    distance_from_ground: 411
-    speed_of_jett: 631
-    angle: 69
+    distance_from_ground: 951
+    speed_of_jett: 404
+    angle: 48
 ---
 # {{ params.vars.title }}
 A cannon fires a projectile at a {{params.angle}}$^{\circ}$ angle at {{params.speed_of_jett}} $km/h$. The cannon is {{params.distance_from_ground}} $m$ above the ground.

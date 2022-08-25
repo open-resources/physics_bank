@@ -64,7 +64,7 @@ substitutions:
       units1: J
       units2: m/s
       units3: m
-    m: 4.0
+    m: 5.0
     v: 0.5
     x: 0.5
 ---

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $b$ = $\dfrac{(t)}{(p - 7o)} $
+    expr: $k$ = $\dfrac{(r)}{(l + 8h)} $
     part1:
       ans1:
-        value: p = ${ 7 o + \frac{t}{b}}$
+        value: l = ${ - 8 h + \frac{r}{k}}$
       ans2:
-        value: p = ${- \frac{7 b o}{t}}$
+        value: l = ${\frac{8 h k}{r}}$
       ans3:
-        value: p = ${- \frac{t}{7 b o}}$
+        value: l = ${\frac{r}{8 h k}}$
       ans4:
-        value: p = ${\frac{b + 7 o}{t}}$
+        value: l = ${\frac{- 8 h + k}{r}}$
       ans5:
         value: Don't Know
 ---

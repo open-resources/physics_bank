@@ -34,14 +34,14 @@ substitutions:
       title: Math Diagnostic11
     a: 2
     b: 8
-    c: 1
+    c: 2
     part1:
       ans1:
-        value: x = -3.9, x = -0.13
+        value: x = -3.7, x = -0.27
       ans2:
-        value: x = 3.9, x = 0.13
+        value: x = 3.7, x = 0.27
       ans3:
-        value: x = 8, x = 1
+        value: x = 8, x = 2
       ans4:
         value: x = 2, x = 8
       ans5:
