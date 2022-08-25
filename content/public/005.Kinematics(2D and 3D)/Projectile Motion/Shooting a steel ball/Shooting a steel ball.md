@@ -31,21 +31,21 @@ substitutions:
   params:
     vars:
       title: Shooting a Steel Ball
-    v: 5
-    theta: 34
+    v: 1
+    theta: 76
     part1:
       ans1:
-        value: $(5\cos(34^{\circ}), \; -5\sin(34^{\circ}))$
+        value: $(1\cos(76^{\circ}), \; -1\sin(76^{\circ}))$
       ans2:
-        value: $(5\cos(34^{\circ}), \;5\sin(34^{\circ}))$
+        value: $(1\cos(76^{\circ}), \;1\sin(76^{\circ}))$
       ans3:
-        value: $(5\sin(34^{\circ}), \; -5\cos(34^{\circ}))$
+        value: $(1\sin(76^{\circ}), \; -1\cos(76^{\circ}))$
       ans4:
-        value: $(5\sin(34^{\circ}), \;5\cos(34^{\circ}))$
+        value: $(1\sin(76^{\circ}), \;1\cos(76^{\circ}))$
       ans5:
-        value: $(-5\cos(34^{\circ}), \; -5\sin(34^{\circ}))$
+        value: $(-1\cos(76^{\circ}), \; -1\sin(76^{\circ}))$
       ans6:
-        value: $(-5\sin(34^{\circ}), \;5\cos(34^{\circ}))$
+        value: $(-1\sin(76^{\circ}), \;1\cos(76^{\circ}))$
 ---
 # {{ params.vars.title }}
 A small steel ball is shot at {{ params.v }} $m/s$ at a {{ params.theta }}$^{\circ}$ angle above the horizontal direction and its motion is well approximated by projectile motion.

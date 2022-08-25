@@ -104,12 +104,12 @@ substitutions:
   params:
     vars:
       title: A Coyote and a Rat
-    m_c: 6
-    m_r: 5
-    d_b: 41
-    d_c: 22
-    v_r: 5
-    a_c: 8
+    m_c: 11
+    m_r: 2
+    d_b: 30
+    d_c: 24
+    v_r: 6
+    a_c: 4
     mu_k: 2.84
 ---
 # {{ params.vars.title }}

@@ -58,7 +58,7 @@ substitutions:
       units: $(m/s)\; \hat{\imath}$
     c1: 8
     c2: 5
-    v0: 8.7
+    v0: 16.8
 ---
 # {{ params.vars.title }}
 A cart of relative mass ${{ params.c1 }}m$ (Cart 1) moving with velocity $\vec{v_0} = ($ {{ params.v0 }} $m/s)\hat{\imath}$ collides head-on with a cart of relative mass {{ params.c2 }} $m$ (Cart 2) that is initially at rest.

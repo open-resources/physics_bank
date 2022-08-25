@@ -56,7 +56,7 @@ substitutions:
       units1: $m$
       units2: $m/s$
       units3: $\frac{m}{s^2}$
-    t: 1
+    t: 3
     x_i: -7
 ---
 # {{ params.vars.title }}

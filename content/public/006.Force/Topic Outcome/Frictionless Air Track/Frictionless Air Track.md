@@ -60,21 +60,21 @@ substitutions:
       title: A Frictionless Air Track?
       name: Maya
       units: $m/s^2$
-    m1: 245.5
-    m2: 75.11
-    d_a: 0.02
-    mean: 1.51
-    sd: 0.145
-    a1: 1.33
-    a2: 1.31
-    a3: 1.49
-    a4: 1.58
-    a5: 1.45
-    a6: 1.56
-    a7: 1.75
-    a8: 1.74
-    a9: 1.47
-    a10: 1.39
+    m1: 492.6
+    m2: 52.22
+    d_a: 0.01
+    mean: 1.6
+    sd: 0.142
+    a1: 1.75
+    a2: 1.72
+    a3: 1.55
+    a4: 1.31
+    a5: 1.79
+    a6: 1.67
+    a7: 1.56
+    a8: 1.41
+    a9: 1.62
+    a10: 1.62
     part4:
       ans1:
         value: The track is frictionless because $a_{expected}$ does not agree with

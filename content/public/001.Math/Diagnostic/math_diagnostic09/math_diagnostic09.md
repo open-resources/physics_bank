@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $o$ = $\dfrac{(r)}{(l + 6y)} $
+    expr: $b$ = $\dfrac{(t)}{(p - 7o)} $
     part1:
       ans1:
-        value: l = ${ - 6 y + \frac{r}{o}}$
+        value: p = ${ 7 o + \frac{t}{b}}$
       ans2:
-        value: l = ${\frac{6 o y}{r}}$
+        value: p = ${- \frac{7 b o}{t}}$
       ans3:
-        value: l = ${\frac{r}{6 o y}}$
+        value: p = ${- \frac{t}{7 b o}}$
       ans4:
-        value: l = ${\frac{o - 6 y}{r}}$
+        value: p = ${\frac{b + 7 o}{t}}$
       ans5:
         value: Don't Know
 ---

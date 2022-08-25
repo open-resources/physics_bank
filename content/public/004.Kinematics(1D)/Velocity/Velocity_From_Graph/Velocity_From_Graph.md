@@ -39,10 +39,10 @@ substitutions:
     vars:
       title: Velocity From Graph
       units: $m/s$
-    choice: '0.5'
+    choice: '1.5'
     part1:
       ans1:
-        value: '1'
+        value: '0'
       ans2:
         value: '-0.5'
       ans3:

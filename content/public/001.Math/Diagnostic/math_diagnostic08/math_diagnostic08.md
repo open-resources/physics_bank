@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-45x + 36y }{ -9 }$
+    expr: $\dfrac{6x + 9y }{ 3 }$
     part1:
       ans1:
-        value: $5 x - 4 y$
+        value: $2 x + 3 y$
       ans2:
-        value: $\dfrac{5x - 4y}{-9}$
+        value: $\dfrac{2x + 3y}{3}$
       ans3:
-        value: $-4x + 5y$
+        value: $3x + 2y$
       ans4:
-        value: $-45x - 36y$
+        value: $6x + 9y$
       ans5:
         value: Don't know.
 ---

@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $7^{4} $=$ 2401$
+    expr: $2^{4} $=$ 16$
     part1:
       ans1:
-        value: $log_72401 = 4$
+        value: $log_216 = 4$
       ans2:
-        value: $log_74 = 2401$
+        value: $log_24 = 16$
       ans3:
-        value: $log_24014 = 7$
+        value: $log_164 = 2$
       ans4:
-        value: $log_42401 = 7$
+        value: $log_416 = 2$
       ans5:
         value: Don't Know
 ---
