@@ -69,6 +69,7 @@ parts:
       correct ans
   - file: content/public/002.Physics in General/Topic Outcome/Internal Energy Released/Internal
       Energy Released
+  - file: content/public/002.Physics in General/Topic Outcome/NotationForDynamics/NotationForDynamics
   - file: content/public/002.Physics in General/Topic Outcome/Ratio of Inertias/Ratio
       of Inertias
   - file: content/public/002.Physics in General/Topic Outcome/Skateboarder and observer/Skateboarder
@@ -81,6 +82,7 @@ parts:
   - file: content/public/002.Physics in General/Uncertainty/projectile_uncertainty/projectile_uncertainty
   - file: content/public/002.Physics in General/Uncertainty/steel_ball_uncertainty/steel_ball_uncertainty
   - file: content/public/002.Physics in General/Units/Potato Density/Potato Density
+  - file: content/public/002.Physics in General/Units/weight unit conversion/weight_unit_conversion
   - file: content/public/002.Physics in General/density, mass and volume/potato_volume
   - file: content/public/002.Physics in General/true_false_object/true_false_object
 - caption: Vectors
@@ -96,6 +98,7 @@ parts:
   - file: content/public/003.Vectors/Topic Outcome/Choose_all_Vectors_Scalars/Choose_all_Vectors_Scalars
   - file: content/public/003.Vectors/Topic Outcome/Magnitude and Direction of Vector/Magnitude
       and Direction of Vector
+  - file: content/public/003.Vectors/Topic Outcome/Vector Operations/L1Q2 Vector Operations
   - file: content/public/003.Vectors/Vector Algebra/Motion of Airplane/motion_of_airplane
 - caption: Kinematics(1D)
   chapters:
@@ -103,6 +106,7 @@ parts:
   - file: content/public/004.Kinematics(1D)/Acceleration/Rocket_Dog/Rocket_Dog
   - file: content/public/004.Kinematics(1D)/Displacement/Displacement of a vehicle/Displacement
       of a Vehicle
+  - file: content/public/004.Kinematics(1D)/Displacement/Displacement_and_distance_of_particle/displacement_and_distance_of_particle
   - file: content/public/004.Kinematics(1D)/Displacement/Position_From_Graph/Position_From_Graph
   - file: content/public/004.Kinematics(1D)/Displacement/Velocity_versus_time_plot/Velocity_versus_time_plot
   - file: content/public/004.Kinematics(1D)/Free Fall/Free Fall Turning Point/Free
@@ -127,6 +131,7 @@ parts:
   - file: content/public/004.Kinematics(1D)/Position/distance_travelled/distance_travelled
   - file: content/public/004.Kinematics(1D)/Speed/Average Speed of Kinesin/Average
       Speed of Kinesin
+  - file: content/public/004.Kinematics(1D)/Speed/Maximum Speed of Car/max_speed_of_car
   - file: content/public/004.Kinematics(1D)/Speed/Vehicle_Speed/Vehicle_Speed
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Acceleration of Particle/Acceleration
       of Particle
@@ -150,17 +155,30 @@ parts:
       the correct graph
   - file: content/public/004.Kinematics(1D)/Velocity/Label_The_Graph/Label_The_Graph
   - file: content/public/004.Kinematics(1D)/Velocity/Label_Velocity_Vs_Time_Graph/Label_Velocity_Vs_Time_Graph
+  - file: content/public/004.Kinematics(1D)/Velocity/Moving Ball velocity vs displacement
+      graph/Moving_Ball_velocity_vs_displacement_graph
+  - file: content/public/004.Kinematics(1D)/Velocity/Position Velocity and Acceleration
+      of particle/position_veloctity_acceleration_of_particle
+  - file: content/public/004.Kinematics(1D)/Velocity/Velocity of a ball from acceleration/velocity_of_ball_from_acc
   - file: content/public/004.Kinematics(1D)/Velocity/Velocity_From_Graph/Velocity_From_Graph
   - file: content/public/004.Kinematics(1D)/water_slide/water_slide
 - caption: Kinematics(2D and 3D)
   chapters:
+  - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Polar
+      Coordinates from Function/polar_coords_from_func
+  - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Radius
+      of a Rollercoaster/radius_of_a_rollercoaster
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/circular_motion_graph/circular_motion_graph
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Archery Competition/Archery
       Competition
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Ball launched
+      to a specific height/ball_launched_to_specific_height
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Bird dropping
       seed/Bird dropping seed
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Cat in a Laundry
       Basket/Cat in a Laundry Basket
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Distance and
+      Time for Cannon Ball/Distance_and_Time_for_Cannon_Ball
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Halloween Gourd
       Launcher/Halloween Gourd Launcher
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Hawk and Squirrel/hawk_and_squirrel
@@ -177,6 +195,8 @@ parts:
       Caracara
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Projectile Motion
       graphs/Projectile Motion graphs
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Rocket in the
+      wind/rocket_in_the_wind
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Salmon passing
       a waterfall/Salmon Passing a Waterfall
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Shooting a steel
@@ -185,26 +205,49 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/AIrcraft Carrier/aircraft_carrier
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Archer Fish and
       Insect Catch/q02_number-input_AZ_Archer Fish
+  - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Relative Motion
+      of Two Swimmers/relative_motion_of_two_swimmers
+  - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Relative Motion
+      of Water Slide/relative_motion_of_water_slide
+  - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Relative Motion
+      on a Curve/relative_motion_on_a_curve
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Rutland Rd/rutland_rd
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Velocity of a Falcon/Velocity
       of a Falcon
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/apples_in_truck/apples_in_truck
+  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Aircraft Liftoff
+      3D/aircraft_liftoff_3d
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Ball Launched from
       Horizontal Cliff/Ball Launched from Horizontal cliff
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Ball rolling down
       an incline/Ball rolling down an incline
+  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Cart Raising a Load/cart_raising_a_load
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Distance_Between_Two_People/Distance_Between_Two_People
+  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Highway Speeding/Highway_Speeding
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Magnitude of a particle
       vector/Magnitude of a particle vector
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Nuts to You/Nuts
       To You
+  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Raising a Package/raising_a_package
+  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Raising weight with
+      Block on Hill/raising_weight_with_block_on_hill
+  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Resistance Swimmer/resistance_swimmer
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Rocket/Rocket
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Supply_plane/Supply_plane
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/jump_across_stream/jump_across_stream
+  - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Bottle
+      From Car 3D/Bottle_from_Car
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Cars Around
       a Bend/cars_around_bend
+  - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Child on
+      Swing/Child on Swing
+  - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/MarbleCourse/MarbleCourse
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Tetherball/Tetherball
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Tetherball/tetherball
+  - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Yoyo Spin/Yoyo
+      Spin
+  - file: content/public/005.Kinematics(2D and 3D)/Velocity Vector/Velocity and Acceleration
+      of Particle in Curvilinear Motion/velocity_and_acceleration_of_particle_in_curvilinear_motion
   - file: content/public/005.Kinematics(2D and 3D)/kinematics_test_q1/kinematics_test_q1
 - caption: Force
   chapters:
@@ -251,6 +294,8 @@ parts:
       a Table
   - file: content/public/006.Force/Newton's Second Law/Broken-down Cruise Ship/Broken-down
       Cruise Ship
+  - file: content/public/006.Force/Newton's Second Law/Force on a Waterslide/Force
+      on a Waterslide
   - file: content/public/006.Force/Newton's Second Law/Force_On_An_Object/Force_On_An_Object
   - file: content/public/006.Force/Newton's Second Law/Hockey net across ice/hocket_net_across_ice
   - file: content/public/006.Force/Newton's Second Law/The Great Conjunction/The Great
@@ -263,8 +308,11 @@ parts:
   - file: content/public/006.Force/Newton's Third Law/Ironclad_Beetle/ironclad_beetle_mcq
   - file: content/public/006.Force/Newton's Third Law/Tension_In_Rope/Tention_In_Rope
   - file: content/public/006.Force/Newton's Third Law/Two_Blocks_Stacked/Two_Blocks_Stacked
+  - file: content/public/006.Force/Springs/Clutch Plate Dampening/Clutch Plate Dampening
+  - file: content/public/006.Force/Springs/Stiffness of a Spring/Stiffness of a Spring
   - file: content/public/006.Force/Topic Outcome/A Diver/A Diver
   - file: content/public/006.Force/Topic Outcome/Coefficient_Of_Friction/Coefficient_Of_Friction
+  - file: content/public/006.Force/Topic Outcome/Dice On The Mirror/Dice_On_The_Mirror
   - file: content/public/006.Force/Topic Outcome/Drawing water from a well/Drawing
       water from a well
   - file: content/public/006.Force/Topic Outcome/Elevator Movement Direction/Elevator
@@ -279,11 +327,16 @@ parts:
       in Conservative Potential
   - file: content/public/006.Force/Topic Outcome/Pinball Machine Precursor/Pinball
       Machine Precursor
+  - file: content/public/006.Force/Topic Outcome/Pulley Crate/pulley crate
   - file: content/public/006.Force/Topic Outcome/RollerCoaster/RollerCoaster
   - file: content/public/006.Force/Topic Outcome/Rotating ball/Rotating ball
+  - file: content/public/006.Force/Topic Outcome/Slider in a Rotating Tube/Slider
+      in a rotating Tube
   - file: content/public/006.Force/Topic Outcome/The max acceleration without slipping/The
       max acceleration without slipping
   - file: content/public/006.Force/Topic Outcome/True_or_False/q04_checkbox
+  - file: content/public/006.Force/Topic Outcome/Tube Pulled Up Hill/tube pulled up
+      hill
   - file: content/public/006.Force/Topic Outcome/Turning_Car/Turning_car
   - file: content/public/006.Force/Topic Outcome/centripetal_force/centripetal_force
   - file: content/public/006.Force/Topic Outcome/forceMultipartTrueFalse/forceMultipartTrueFalse
@@ -293,16 +346,26 @@ parts:
   - file: content/public/006.Force/Topic Outcome/velocity_netforce/velocity_netforce
 - caption: Momentum and Impulse
   chapters:
+  - file: content/public/007.Momentum and Impulse/2D Collisions/Biker Impact Landing/Biker
+      Impact Landing
   - file: content/public/007.Momentum and Impulse/2D Collisions/Particle Collision/Particle
       Collision
   - file: content/public/007.Momentum and Impulse/2D Collisions/Perfectly Inelastic
       Collision/Perfectly Inelastic Collision
+  - file: content/public/007.Momentum and Impulse/2D Collisions/Pool Trickshot/Pool
+      Trickshot
   - file: content/public/007.Momentum and Impulse/2D Collisions/Stuck Together Collision/stuck_together_collision
+  - file: content/public/007.Momentum and Impulse/2D Collisions/T-bone Collision/T-bone
+      Collision
   - file: content/public/007.Momentum and Impulse/2D Collisions/billiards_collision/billiards_collision
   - file: content/public/007.Momentum and Impulse/2D Collisions/collision_of_carts/collision_of_carts
   - file: content/public/007.Momentum and Impulse/2D Collisions/light_heavy_collision/light_heavy_collision
+  - file: content/public/007.Momentum and Impulse/Collisions/BulletCart Energy Loss/BulletCart
+      Energy Loss
   - file: content/public/007.Momentum and Impulse/Collisions/Colliding Balls/Colliding
       Balls
+  - file: content/public/007.Momentum and Impulse/Collisions/Collision of Collars/Collision
+      of Collars
   - file: content/public/007.Momentum and Impulse/Collisions/Head-on collision of
       carts/Head-on collision of carts
   - file: content/public/007.Momentum and Impulse/Collisions/Split_Blocks/Split_Blocks
@@ -312,6 +375,8 @@ parts:
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Blocks_On_Frictionless_Table/Blocks_On_Frictionless_Table
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Bullet
       and block/Bullet and block
+  - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Coin in
+      a Funnel/Coin in a Funnel
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Collision_In_Outer_Space/Collision_In_Outer_Space
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Collisions_and_Isolated_Systems_Graphs/Collisions_and_Isolated_Systems_Graphs
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Explosions_and_Velocity/Explosions_and_Velocity
@@ -321,11 +386,15 @@ parts:
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Puck Collision/Puck
       Collision
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Raindrops_Collision/raindrops_collision
+  - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Skater
+      in a Bowl/Skater in a Bowl
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/System_Open_or_Closed/System_Open_or_Closed
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/mass_spring_collision/mass_spring_collision
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/object_collision/object_collision
   - file: content/public/007.Momentum and Impulse/Impulse/Basketball Rebound/basketball_rebound
   - file: content/public/007.Momentum and Impulse/Impulse/Bouncing_Ball/Bouncing_Ball
+  - file: content/public/007.Momentum and Impulse/Impulse/Impulse of a Bat/Impulse
+      of a Bat
   - file: content/public/007.Momentum and Impulse/Impulse/Room on Fire/room_on_fire
   - file: content/public/007.Momentum and Impulse/Impulse/Speed_Before_Impact/Speed_Before_Impact
   - file: content/public/007.Momentum and Impulse/Impulse/Throwing an Egg/Throwing
@@ -336,6 +405,8 @@ parts:
   - file: content/public/007.Momentum and Impulse/Momentum/Momentum Vector/momentum_vector
   - file: content/public/007.Momentum and Impulse/Momentum/Momentum_and_Inertia/Momentum_and_Inertia
   - file: content/public/007.Momentum and Impulse/Momentum/Rock_Powered_Rocket/Rock_Powered_Rocket
+  - file: content/public/007.Momentum and Impulse/Momentum/Rotating Spheres/Rotating
+      Spheres
   - file: content/public/007.Momentum and Impulse/Momentum/cricket_force_graph/cricket_force_graph
   - file: content/public/007.Momentum and Impulse/Topic Outcome/A Coyote and a Rat/A
       Coyote and a Rat
@@ -355,6 +426,7 @@ parts:
   - file: content/public/007.Momentum and Impulse/Topic Outcome/momentum_and_net_force/momentum_netforce
 - caption: Energy
   chapters:
+  - file: content/public/008.Energy/Conservation of Energy/Bike on Hill/Bike On Hill
   - file: content/public/008.Energy/Conservation of Energy/Block_in_hole/Block_In_Hole
   - file: content/public/008.Energy/Conservation of Energy/Compressed_Spring_To_Launch_Mass/Compressed_Spring_To_Launch_Mass
   - file: content/public/008.Energy/Conservation of Energy/Cut The Rope/Cut The Rope
@@ -367,7 +439,18 @@ parts:
       of Roller Coasters
   - file: content/public/008.Energy/Conservation of Energy/Potential Energy and Conservative
       Force/Potential Energy and Conservative Force
+  - file: content/public/008.Energy/Conservation of Energy/Rocket Racer on Track/Rocket
+      Racer on Track
+  - file: content/public/008.Energy/Conservation of Energy/Spring Launch Loading/Spring
+      Launch Loading
+  - file: content/public/008.Energy/Conservation of Energy/Spring Potential Energy
+      Rail 2/Spring Potential Energy Rail 2
+  - file: content/public/008.Energy/Conservation of Energy/Spring Potential Energy
+      Rail/Spring Potential Energy Rail
   - file: content/public/008.Energy/Conservation of Energy/Swinging_Ball_Elastic_Collision/Swinging_Ball_Elastic_Collision
+  - file: content/public/008.Energy/Conservation of Energy/Trapped Hiker/Trapped Hiker
+  - file: content/public/008.Energy/Conservation of Energy/Tube up a Hill/Tube up
+      a Hill
   - file: content/public/008.Energy/Conservation of Energy/Two Waterslide Paths/Two
       Waterslide Paths
   - file: content/public/008.Energy/Conservation of Energy/ball_race/ball_race
@@ -384,6 +467,9 @@ parts:
 - caption: Work
   chapters:
   - file: content/public/009.Work/Power/Energy Expenditure/Energy Expenditure
+  - file: content/public/009.Work/Power/Power Climbing Stairs/Power Climbing Stairs
+  - file: content/public/009.Work/Power/Power of a Horse/Power of a Horse
+  - file: content/public/009.Work/Power/Power of a Sprinter/Power of a Sprinter
   - file: content/public/009.Work/Topic Outcome/Bungee_jumping/bungee_jumping
   - file: content/public/009.Work/Topic Outcome/Work_Done_By_Force/Work_Done_By_Force
   - file: content/public/009.Work/Topic Outcome/animal_in_elevator/animal_in_elevator
@@ -427,6 +513,7 @@ parts:
   - file: content/public/010.Rotational Motion/Topic Outcome/Discus_Thrower/Discus_Thrower
   - file: content/public/010.Rotational Motion/Topic Outcome/Falling bucket/Falling
       bucket
+  - file: content/public/010.Rotational Motion/Topic Outcome/Mining Drill Polar Coordinates/mining_drill_polar_coords
   - file: content/public/010.Rotational Motion/Topic Outcome/Rotational Displacement
       of Tires/Rotational Displacement of tires
   - file: content/public/010.Rotational Motion/Topic Outcome/Speed_Skating/Speed_Skating
@@ -442,6 +529,10 @@ parts:
   - file: content/public/011.Rotational Dynamics/Newton's Second Law for Rotational
       Motion/Throwing a Frisbee/throwing_a_frisbee
   - file: content/public/011.Rotational Dynamics/Topic Outcome/thread_on_spool/thread_on_spool
+- caption: Gravitation
+  chapters:
+  - file: content/public/012.Gravitation/Topic Outcome/Asteroid Equal Attraction/Asteroid
+      Equal Attraction
 - caption: Fluids
   chapters:
   - file: content/public/013.Fluids/Fluid Dynamics/water_filled_vase/water_filled_vase
