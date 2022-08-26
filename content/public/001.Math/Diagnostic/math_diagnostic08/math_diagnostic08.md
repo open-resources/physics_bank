@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-12x + 12y }{ 6 }$
+    expr: $\dfrac{42x - 18y }{ 6 }$
     part1:
       ans1:
-        value: $- 2 x + 2 y$
+        value: $7 x - 3 y$
       ans2:
-        value: $\dfrac{-2x + 2y}{6}$
+        value: $\dfrac{7x - 3y}{6}$
       ans3:
-        value: $2x - 2y$
+        value: $-3x + 7y$
       ans4:
-        value: $-12x + 12y$
+        value: $42x - 18y$
       ans5:
         value: Don't know.
 ---

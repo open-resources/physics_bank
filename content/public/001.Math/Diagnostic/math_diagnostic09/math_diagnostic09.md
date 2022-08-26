@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $k$ = $\dfrac{(r)}{(l + 8h)} $
+    expr: $a$ = $\dfrac{(s)}{(t - 4c)} $
     part1:
       ans1:
-        value: l = ${ - 8 h + \frac{r}{k}}$
+        value: t = ${ 4 c + \frac{s}{a}}$
       ans2:
-        value: l = ${\frac{8 h k}{r}}$
+        value: t = ${- \frac{4 a c}{s}}$
       ans3:
-        value: l = ${\frac{r}{8 h k}}$
+        value: t = ${- \frac{s}{4 a c}}$
       ans4:
-        value: l = ${\frac{- 8 h + k}{r}}$
+        value: t = ${\frac{a + 4 c}{s}}$
       ans5:
         value: Don't Know
 ---

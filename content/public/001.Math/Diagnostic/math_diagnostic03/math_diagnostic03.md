@@ -32,7 +32,7 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic03
-      formula: 2x + -7 > -1x + -5
+      formula: -1x + -9 > -4x + -7
     part1:
       ans1:
         value: x > 2/3

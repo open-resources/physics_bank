@@ -64,9 +64,9 @@ substitutions:
       units1: J
       units2: m/s
       units3: m
-    m: 5.0
-    v: 0.5
-    x: 0.5
+    m: 2.0
+    v: 2.0
+    x: 2.5
 ---
 # {{ params.vars.title }}
 The graph below shows the net force on a particle as a function of its position. The mass of

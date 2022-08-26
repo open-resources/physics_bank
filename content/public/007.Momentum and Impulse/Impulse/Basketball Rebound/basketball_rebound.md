@@ -37,7 +37,7 @@ substitutions:
   params:
     vars:
       title: Basketball Rebound
-    m: 688
+    m: 375
     v: 9
 ---
 # {{ params.vars.title }}
