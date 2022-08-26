@@ -74,9 +74,9 @@ substitutions:
   params:
     vars:
       title: Circuit with Multiple Loops
-    R1: '15.0'
+    R1: '10.0'
     R2: '5.0'
-    R3: '8.0'
+    R3: '7.0'
     I1: '1.0'
     V2: '20.0'
 ---

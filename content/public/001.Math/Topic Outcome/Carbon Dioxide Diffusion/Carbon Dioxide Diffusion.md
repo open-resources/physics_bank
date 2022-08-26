@@ -66,8 +66,8 @@ substitutions:
       unit1: $m^2/s$
       unit2: $s$
     water: 1.9
-    air: 2.0
-    time: 6
+    air: 1.7
+    time: 4
     const: 5
     part3:
       ans1:

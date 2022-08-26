@@ -46,8 +46,8 @@ substitutions:
     vars:
       title: Uranium Fragments
       units: amu
-    frag_speed: 2.1
-    dn_speed: 2.76
+    frag_speed: 2.9
+    dn_speed: 2.36
     orig_mass: $^{238}\mathrm{U}$
 ---
 # {{ params.vars.title }}

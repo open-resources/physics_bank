@@ -33,18 +33,18 @@ substitutions:
     vars:
       title: Math Diagnostic10
     a: -2
-    b: '5'
+    b: '6'
     b_sign: ' + '
-    c: 3
+    c: 13
     part1:
       ans1:
-        value: x =   5/5
+        value: x =   15/6
       ans2:
-        value: x =  - 5/5
+        value: x =  - 15/6
       ans3:
-        value: x = 0
+        value: x = 9
       ans4:
-        value: x = -4
+        value: x = 5
       ans5:
         value: This equation cannot be solved
 ---

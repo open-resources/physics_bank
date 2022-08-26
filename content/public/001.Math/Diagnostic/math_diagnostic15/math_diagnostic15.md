@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $2^{1} $=$ 2$
+    expr: $2^{6} $=$ 64$
     part1:
       ans1:
-        value: $log_22 = 1$
+        value: $log_264 = 6$
       ans2:
-        value: $log_21 = 2$
+        value: $log_26 = 64$
       ans3:
-        value: $log_21 = 2$
+        value: $log_646 = 2$
       ans4:
-        value: $log_12 = 2$
+        value: $log_664 = 2$
       ans5:
         value: Don't Know
 ---

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $a$ = $\dfrac{(s)}{(t - 4c)} $
+    expr: $i$ = $\dfrac{(m)}{(t - 6y)} $
     part1:
       ans1:
-        value: t = ${ 4 c + \frac{s}{a}}$
+        value: t = ${ 6 y + \frac{m}{i}}$
       ans2:
-        value: t = ${- \frac{4 a c}{s}}$
+        value: t = ${- \frac{6 i y}{m}}$
       ans3:
-        value: t = ${- \frac{s}{4 a c}}$
+        value: t = ${- \frac{m}{6 i y}}$
       ans4:
-        value: t = ${\frac{a + 4 c}{s}}$
+        value: t = ${\frac{i + 6 y}{m}}$
       ans5:
         value: Don't Know
 ---

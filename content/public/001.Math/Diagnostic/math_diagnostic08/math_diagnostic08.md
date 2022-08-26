@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{42x - 18y }{ 6 }$
+    expr: $\dfrac{-56x + 28y }{ -7 }$
     part1:
       ans1:
-        value: $7 x - 3 y$
+        value: $8 x - 4 y$
       ans2:
-        value: $\dfrac{7x - 3y}{6}$
+        value: $\dfrac{8x - 4y}{-7}$
       ans3:
-        value: $-3x + 7y$
+        value: $-4x + 8y$
       ans4:
-        value: $42x - 18y$
+        value: $-56x - 28y$
       ans5:
         value: Don't know.
 ---
