@@ -162,6 +162,9 @@ parts:
   - file: content/public/004.Kinematics(1D)/Velocity/Velocity of a ball from acceleration/velocity_of_ball_from_acc
   - file: content/public/004.Kinematics(1D)/Velocity/Velocity_From_Graph/Velocity_From_Graph
   - file: content/public/004.Kinematics(1D)/water_slide/water_slide
+- caption: Force
+  chapters:
+  - file: content/public/005.Force/rope_tension_blocks/rope_tension_blocks
 - caption: Kinematics(2D and 3D)
   chapters:
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Polar
@@ -344,6 +347,7 @@ parts:
   - file: content/public/006.Force/Topic Outcome/frictionless_track/frictionless_track
   - file: content/public/006.Force/Topic Outcome/ropes_and_blocks/ropes_and_blocks
   - file: content/public/006.Force/Topic Outcome/velocity_netforce/velocity_netforce
+  - file: content/public/006.Force/rope_tension_blocks/rope_tension_blocks
 - caption: Momentum and Impulse
   chapters:
   - file: content/public/007.Momentum and Impulse/2D Collisions/Biker Impact Landing/Biker
