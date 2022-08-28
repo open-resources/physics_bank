@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $i$ = $\dfrac{(m)}{(t - 6y)} $
+    expr: $r$ = $\dfrac{(a)}{(n + 8h)} $
     part1:
       ans1:
-        value: t = ${ 6 y + \frac{m}{i}}$
+        value: n = ${ \frac{a}{r} - 8 h}$
       ans2:
-        value: t = ${- \frac{6 i y}{m}}$
+        value: n = ${\frac{8 h r}{a}}$
       ans3:
-        value: t = ${- \frac{m}{6 i y}}$
+        value: n = ${\frac{a}{8 h r}}$
       ans4:
-        value: t = ${\frac{i + 6 y}{m}}$
+        value: n = ${\frac{- 8 h + r}{a}}$
       ans5:
         value: Don't Know
 ---

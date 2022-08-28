@@ -61,7 +61,7 @@ substitutions:
     vars:
       title: Work Done by a Constant Force
       units: $J$
-    F: 33.8
+    F: 34.4
     r: 12.5
 ---
 # {{ params.vars.title }}

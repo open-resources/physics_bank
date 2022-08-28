@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-56x + 28y }{ -7 }$
+    expr: $\dfrac{-72x - 32y }{ 8 }$
     part1:
       ans1:
-        value: $8 x - 4 y$
+        value: $- 9 x - 4 y$
       ans2:
-        value: $\dfrac{8x - 4y}{-7}$
+        value: $\dfrac{-9x - 4y}{8}$
       ans3:
-        value: $-4x + 8y$
+        value: $-4x - 9y$
       ans4:
-        value: $-56x - 28y$
+        value: $-72x - 32y$
       ans5:
         value: Don't know.
 ---

@@ -178,8 +178,8 @@ substitutions:
   params:
     vars:
       title: Simple Series Circuit
-    V: '14.0'
-    R1: '4.50'
+    V: '12.0'
+    R1: '3.25'
     R2: '1.00'
     R3: '4.25'
 ---

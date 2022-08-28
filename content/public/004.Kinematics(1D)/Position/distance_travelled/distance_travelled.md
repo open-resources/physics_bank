@@ -34,17 +34,17 @@ substitutions:
       vehicle: a unicycle
       units: m
       title: Distance travelled
-    v: 2
-    t: 6
+    v: 5
+    t: 9
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 12
+        value: 45
       ans3:
-        value: 8
+        value: 14
       ans4:
-        value: 0.33
+        value: 0.56
       ans5:
         value: -4
       ans6:

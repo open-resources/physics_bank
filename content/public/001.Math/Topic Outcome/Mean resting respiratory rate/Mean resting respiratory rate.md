@@ -56,19 +56,19 @@ substitutions:
   params:
     vars:
       title: Mean resting respiratory rate
-    Resp_Es: 661
-    Resp_r: 16
-    m_Es: 2.42
-    power: 3
+    Resp_Es: 664
+    Resp_r: 18
+    m_Es: 1.99
+    power: 4
     part1:
       ans1:
         value: $RR \propto M$
         feedback: Reread the question. What does $RR$ scale as?
       ans2:
-        value: $RR \propto M^{-1/3}$
+        value: $RR \propto M^{-1/4}$
         feedback: Great! You got it.
       ans3:
-        value: $RR \propto \frac{1}{M^{-1/3}}$
+        value: $RR \propto \frac{1}{M^{-1/4}}$
         feedback: Review the definitions of "proportional to" and "inversely proportional
           to".
       ans4:
