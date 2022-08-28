@@ -31,7 +31,7 @@ substitutions:
   params:
     vars:
       title: Rolling without slipping
-      name: Emilia
+      name: Lorenzo
     part1:
       ans1:
         value: The hoop, because it has less rotational intera, less of its total

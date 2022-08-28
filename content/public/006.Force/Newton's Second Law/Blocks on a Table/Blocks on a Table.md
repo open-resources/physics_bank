@@ -32,8 +32,8 @@ substitutions:
     vars:
       title: Blocks on a Table
     m1: 4
-    m2: 16
-    m3: 11
+    m2: 21
+    m3: 12
     part1:
       ans1:
         value: Block A experiences the greatest net force.

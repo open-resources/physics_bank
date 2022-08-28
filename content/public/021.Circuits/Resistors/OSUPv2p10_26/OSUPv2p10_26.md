@@ -52,8 +52,8 @@ substitutions:
   params:
     vars:
       title: Series and Parallel Resistors
-    R1: '2.00'
-    R2: '3.50'
+    R1: '1.50'
+    R2: '4.50'
     R3: '5.00'
 ---
 # {{ params.vars.title }}

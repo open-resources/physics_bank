@@ -75,10 +75,10 @@ substitutions:
     vars:
       title: Vehicle in Circular Motion
       vehicle: van
-    m: 2100.0
-    v: 93.0
+    m: 2000.0
+    v: 80.0
     r: 110.0
-    theta: 18.0
+    theta: 19.0
     f_s: 0.6
     f_k: 0.4
     f_r: 0.02

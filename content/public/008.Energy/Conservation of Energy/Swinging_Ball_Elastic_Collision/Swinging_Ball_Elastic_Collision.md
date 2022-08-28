@@ -40,11 +40,11 @@ substitutions:
   params:
     vars:
       title: Swinging Ball Elastic Collision
-    l: 2.8
-    m_1: 200
-    m_2: 1.5
-    x: 2.0
-    k: 2430
+    l: 2.4
+    m_1: 240
+    m_2: 1.8
+    x: 1.3
+    k: 2400
     spring: 25
 ---
 # {{ params.vars.title }}

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $r$ = $\dfrac{(a)}{(n + 8h)} $
+    expr: $q$ = $\dfrac{(c)}{(m + 4z)} $
     part1:
       ans1:
-        value: n = ${ \frac{a}{r} - 8 h}$
+        value: m = ${ \frac{c}{q} - 4 z}$
       ans2:
-        value: n = ${\frac{8 h r}{a}}$
+        value: m = ${\frac{4 q z}{c}}$
       ans3:
-        value: n = ${\frac{a}{8 h r}}$
+        value: m = ${\frac{c}{4 q z}}$
       ans4:
-        value: n = ${\frac{- 8 h + r}{a}}$
+        value: m = ${\frac{q - 4 z}{c}}$
       ans5:
         value: Don't Know
 ---

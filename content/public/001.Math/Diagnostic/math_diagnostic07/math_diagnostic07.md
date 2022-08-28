@@ -32,17 +32,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic07
-    formula1: 8x - 2y = 34
-    formula2: 7x + 2y = 26
+    formula1: 6x - 3y = 9
+    formula2: 10x + 2y = 14
     part1:
       ans1:
-        value: ' x =4, y =-1'
+        value: ' x =10/7, y =-1/7'
       ans2:
-        value: ' x =-1, y =4'
+        value: ' x =-1/7, y =10/7'
       ans3:
-        value: ' x =-4, y =1'
+        value: ' x =-10/7, y =1/7'
       ans4:
-        value: ' x =1, y =-4'
+        value: ' x =1/7, y =-10/7'
       ans5:
         value: Don't Know
 ---

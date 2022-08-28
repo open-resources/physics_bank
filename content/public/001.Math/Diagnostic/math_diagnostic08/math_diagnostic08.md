@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-72x - 32y }{ 8 }$
+    expr: $\dfrac{42x + 49y }{ 7 }$
     part1:
       ans1:
-        value: $- 9 x - 4 y$
+        value: $6 x + 7 y$
       ans2:
-        value: $\dfrac{-9x - 4y}{8}$
+        value: $\dfrac{6x + 7y}{7}$
       ans3:
-        value: $-4x - 9y$
+        value: $7x + 6y$
       ans4:
-        value: $-72x - 32y$
+        value: $42x + 49y$
       ans5:
         value: Don't know.
 ---

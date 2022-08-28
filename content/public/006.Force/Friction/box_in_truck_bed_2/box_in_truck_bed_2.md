@@ -33,8 +33,8 @@ substitutions:
   params:
     vars:
       title: Box in a Truck Bed 2
-      vehicle: pickup truck
-      direction: positive
+      vehicle: semi-truck
+      direction: negative
     part1:
       ans1:
         value: Kinetic friction, positive work
