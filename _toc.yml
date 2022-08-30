@@ -102,6 +102,7 @@ parts:
   - file: content/public/003.Vectors/Vector Algebra/Motion of Airplane/motion_of_airplane
 - caption: Kinematics(1D)
   chapters:
+  - file: content/public/004.Kinematics(1D)/Acceleration/Ball_and_spring/ball_and_spring
   - file: content/public/004.Kinematics(1D)/Acceleration/Racing Markers/Racing Markers
   - file: content/public/004.Kinematics(1D)/Acceleration/Rocket_Dog/Rocket_Dog
   - file: content/public/004.Kinematics(1D)/Displacement/Displacement of a vehicle/Displacement
