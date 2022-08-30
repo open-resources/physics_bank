@@ -37,7 +37,7 @@ substitutions:
     vars:
       title: Rocket in the wind
       units: ${\circ}$
-    v0: 12
+    v0: 17
     wind_speed: 2.4
 ---
 # {{ params.vars.title }}

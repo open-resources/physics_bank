@@ -61,9 +61,9 @@ substitutions:
   params:
     vars:
       title: Throwing a Frisbee
-    dw: 9
-    dt: 0.15
-    m: 0.207
+    dw: 13
+    dt: 0.1
+    m: 0.191
     d: 0.406
 ---
 # {{ params.vars.title }}

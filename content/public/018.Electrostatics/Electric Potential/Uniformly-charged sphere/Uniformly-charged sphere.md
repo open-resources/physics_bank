@@ -39,7 +39,7 @@ substitutions:
   params:
     vars:
       title: Uniformly-charged sphere
-    same: different than
+    same: the same as
     part1:
       ans1:
         value: The region of space inside the sphere.

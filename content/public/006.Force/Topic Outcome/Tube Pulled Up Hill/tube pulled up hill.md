@@ -46,11 +46,11 @@ substitutions:
   params:
     vars:
       title: Tube pulled Uphill
-    m: 46
-    theta_s: 12
-    theta_2: 7
-    T_2: 234
-    T_1: 89
+    m: 43
+    theta_s: 10
+    theta_2: 12
+    T_2: 211
+    T_1: 122
 ---
 # {{ params.vars.title }}
 <img src="L14Q2.png" width=80%>

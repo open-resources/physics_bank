@@ -58,8 +58,8 @@ substitutions:
     vars:
       name: Ahmed
       title: Sled Hill
-    angle: 9
-    h: 13
+    angle: 5
+    h: 22
     uk: 0.12
     m: 100
 ---

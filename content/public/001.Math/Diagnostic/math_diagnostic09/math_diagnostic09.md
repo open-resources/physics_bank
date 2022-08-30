@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $q$ = $\dfrac{(c)}{(m + 4z)} $
+    expr: $c$ = $\dfrac{(o)}{(h - 9p)} $
     part1:
       ans1:
-        value: m = ${ \frac{c}{q} - 4 z}$
+        value: h = ${ 9 p + \frac{o}{c}}$
       ans2:
-        value: m = ${\frac{4 q z}{c}}$
+        value: h = ${- \frac{9 c p}{o}}$
       ans3:
-        value: m = ${\frac{c}{4 q z}}$
+        value: h = ${- \frac{o}{9 c p}}$
       ans4:
-        value: m = ${\frac{q - 4 z}{c}}$
+        value: h = ${\frac{c + 9 p}{o}}$
       ans5:
         value: Don't Know
 ---

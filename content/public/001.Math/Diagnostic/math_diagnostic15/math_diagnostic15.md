@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $2^{7} $=$ 128$
+    expr: $4^{1} $=$ 4$
     part1:
       ans1:
-        value: $log_2128 = 7$
+        value: $log_44 = 1$
       ans2:
-        value: $log_27 = 128$
+        value: $log_41 = 4$
       ans3:
-        value: $log_1287 = 2$
+        value: $log_41 = 4$
       ans4:
-        value: $log_7128 = 2$
+        value: $log_14 = 4$
       ans5:
         value: Don't Know
 ---

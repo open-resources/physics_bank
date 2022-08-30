@@ -26,20 +26,20 @@ substitutions:
     vars:
       title: Momentum and Net Force
       units: N
-    p_i: -5t^3 + 9t^2 - 8t
-    p_j: -6t^3 - t^2 + 5t
-    time: 17.3
+    p_i: -7t^3 - 8t^2 - 5t
+    p_j: 6t^3 + 5t^2
+    time: 6.82
     part1:
       ans1:
         value: 0
       ans2:
-        value: 6800.0
+        value: 1400.0
       ans3:
-        value: 5900.0
+        value: 1500.0
       ans4:
-        value: 98.0
+        value: 14.0
       ans5:
-        value: 47000000.0
+        value: 2000000.0
 ---
 # {{ params.vars.title }}
 The momentum of an object as a function of time is given by $\vec{p} = ({{ params.p_i }})\hat{\imath} + ({{ params.p_j }})\hat{\jmath}$ where $p$ is in kg $\cdot$ m/s and $t$ is in seconds.
