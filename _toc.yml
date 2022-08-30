@@ -172,6 +172,7 @@ parts:
       Coordinates from Function/polar_coords_from_func
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Radius
       of a Rollercoaster/radius_of_a_rollercoaster
+  - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Running_on_a_track/Running_on_a_track
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/circular_motion_graph/circular_motion_graph
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Archery Competition/Archery
       Competition
@@ -250,6 +251,7 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Tetherball/tetherball
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Yoyo Spin/Yoyo
       Spin
+  - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/merry_go_round/merry_go_round
   - file: content/public/005.Kinematics(2D and 3D)/Velocity Vector/Velocity and Acceleration
       of Particle in Curvilinear Motion/velocity_and_acceleration_of_particle_in_curvilinear_motion
   - file: content/public/005.Kinematics(2D and 3D)/kinematics_test_q1/kinematics_test_q1
@@ -536,6 +538,7 @@ parts:
   - file: content/public/011.Rotational Dynamics/Newton's Second Law for Rotational
       Motion/Throwing a Frisbee/throwing_a_frisbee
   - file: content/public/011.Rotational Dynamics/Topic Outcome/thread_on_spool/thread_on_spool
+  - file: content/public/011.Rotational Dynamics/Torque/Monkeys/Monkeys
 - caption: Gravitation
   chapters:
   - file: content/public/012.Gravitation/Topic Outcome/Asteroid Equal Attraction/Asteroid
