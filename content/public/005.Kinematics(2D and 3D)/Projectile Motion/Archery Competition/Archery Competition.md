@@ -44,10 +44,10 @@ substitutions:
       name: Ximena
       title: Archery Competition
       units: m/s
-    x: 75
-    arrow_v: 127
-    theta: 15
-    height: 162
+    x: 78
+    arrow_v: 287
+    theta: 12
+    height: 207
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is reading a novel that describes an athelete participating in an archery competition.

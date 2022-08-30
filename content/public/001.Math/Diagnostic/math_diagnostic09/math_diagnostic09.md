@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $c$ = $\dfrac{(i)}{(g - 9k)} $
+    expr: $j$ = $\dfrac{(a)}{(f - 9l)} $
     part1:
       ans1:
-        value: g = ${ 9 k + \frac{i}{c}}$
+        value: f = ${ \frac{a}{j} + 9 l}$
       ans2:
-        value: g = ${- \frac{9 c k}{i}}$
+        value: f = ${- \frac{9 j l}{a}}$
       ans3:
-        value: g = ${- \frac{i}{9 c k}}$
+        value: f = ${- \frac{a}{9 j l}}$
       ans4:
-        value: g = ${\frac{c + 9 k}{i}}$
+        value: f = ${\frac{j + 9 l}{a}}$
       ans5:
         value: Don't Know
 ---

@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic25
-    expr: $\dfrac{ 2-e^{(-7x)}}{4-x}$
+    expr: $\dfrac{ 10-e^{(-9x)}}{4-x}$
     part1:
       ans1:
-        value: 1/4
+        value: 9/4
       ans2:
         value: Negative Infinity
       ans3:
-        value: 0.5
+        value: 2.5
       ans4:
-        value: 2
+        value: 10
       ans5:
         value: Don't Know
 ---

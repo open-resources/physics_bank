@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{9x + 12y }{ -3 }$
+    expr: $\dfrac{-18x + 18y }{ -9 }$
     part1:
       ans1:
-        value: $- 3 x - 4 y$
+        value: $2 x - 2 y$
       ans2:
-        value: $\dfrac{-3x - 4y}{-3}$
+        value: $\dfrac{2x - 2y}{-9}$
       ans3:
-        value: $-4x - 3y$
+        value: $-2x + 2y$
       ans4:
-        value: $9x - 12y$
+        value: $-18x - 18y$
       ans5:
         value: Don't know.
 ---

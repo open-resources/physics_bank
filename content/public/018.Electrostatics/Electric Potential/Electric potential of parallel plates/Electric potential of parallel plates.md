@@ -46,7 +46,7 @@ substitutions:
     vars:
       title: Electric potential of parallel plates
     f_s: $3.60\times 10^{3}$
-    V: '8.0'
+    V: '16.0'
 ---
 # {{ params.vars.title }}
 

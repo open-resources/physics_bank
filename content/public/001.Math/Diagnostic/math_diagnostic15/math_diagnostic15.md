@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $2^{6} $=$ 64$
+    expr: $3^{2} $=$ 9$
     part1:
       ans1:
-        value: $log_264 = 6$
+        value: $log_39 = 2$
       ans2:
-        value: $log_26 = 64$
+        value: $log_32 = 9$
       ans3:
-        value: $log_646 = 2$
+        value: $log_92 = 3$
       ans4:
-        value: $log_664 = 2$
+        value: $log_29 = 3$
       ans5:
         value: Don't Know
 ---

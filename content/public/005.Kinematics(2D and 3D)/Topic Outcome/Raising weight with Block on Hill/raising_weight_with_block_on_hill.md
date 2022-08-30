@@ -47,8 +47,8 @@ substitutions:
       title: Raising weight with Block on Hill
       units_v: m/s
       units_a: m/s^2
-    v_b: 3.0
-    a_b: 3.5
+    v_b: 1.9
+    a_b: 0.8
 ---
 # {{ params.vars.title }}
 <img src="L13Q3.png" width=85%>
