@@ -60,21 +60,21 @@ substitutions:
       title: A Frictionless Air Track?
       name: Santiago
       units: $m/s^2$
-    m1: 410.7
-    m2: 16.19
-    d_a: 0.02
-    mean: 1.51
-    sd: 0.131
-    a1: 1.47
-    a2: 1.6
-    a3: 1.68
-    a4: 1.57
-    a5: 1.37
-    a6: 1.31
-    a7: 1.67
-    a8: 1.62
-    a9: 1.5
-    a10: 1.33
+    m1: 192.5
+    m2: 18.36
+    d_a: 0.03
+    mean: 1.59
+    sd: 0.15
+    a1: 1.42
+    a2: 1.38
+    a3: 1.77
+    a4: 1.66
+    a5: 1.72
+    a6: 1.33
+    a7: 1.64
+    a8: 1.74
+    a9: 1.66
+    a10: 1.58
     part4:
       ans1:
         value: The track is frictionless because $a_{expected}$ does not agree with

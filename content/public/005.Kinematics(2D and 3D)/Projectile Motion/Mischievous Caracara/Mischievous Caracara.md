@@ -93,8 +93,8 @@ substitutions:
   params:
     vars:
       title: A Mischievous Caracara
-    v: 5
-    h: 10
+    v: 3
+    h: 13
     part4:
       ans1:
         value: East
@@ -103,35 +103,35 @@ substitutions:
         value: North and up
         feedback: Hmh...Try again!
       ans3:
-        value: West and down
-        feedback: Hmh...Try again!
-      ans4:
-        value: West and up
-        feedback: Hmh...Try again!
-      ans5:
         value: North and down
         feedback: Hmh...Try again!
-      ans6:
+      ans4:
+        value: East and up
+        feedback: Hmh...Try again!
+      ans5:
         value: South and down
+        feedback: Hmh...Try again!
+      ans6:
+        value: West and down
         feedback: Hmh...Try again!
     part7:
       ans1:
         value: Down
         feedback: Great! You got it.
       ans2:
-        value: East and up
+        value: North and up
         feedback: Hmh...Try again!
       ans3:
-        value: South and down
+        value: East and up
         feedback: Hmh...Try again!
       ans4:
-        value: East
-        feedback: Gravity is the only source of acceleration!
+        value: East and down
+        feedback: Hmh...Try again!
       ans5:
-        value: West and up
+        value: South and up
         feedback: Hmh...Try again!
       ans6:
-        value: North and up
+        value: West and up
         feedback: Hmh...Try again!
 ---
 # {{ params.vars.title }}

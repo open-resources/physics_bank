@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $c$ = $\dfrac{(o)}{(h - 9p)} $
+    expr: $g$ = $\dfrac{(a)}{(i - 3q)} $
     part1:
       ans1:
-        value: h = ${ 9 p + \frac{o}{c}}$
+        value: i = ${ \frac{a}{g} + 3 q}$
       ans2:
-        value: h = ${- \frac{9 c p}{o}}$
+        value: i = ${- \frac{3 g q}{a}}$
       ans3:
-        value: h = ${- \frac{o}{9 c p}}$
+        value: i = ${- \frac{a}{3 g q}}$
       ans4:
-        value: h = ${\frac{c + 9 p}{o}}$
+        value: i = ${\frac{g + 3 q}{a}}$
       ans5:
         value: Don't Know
 ---

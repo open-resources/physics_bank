@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{12x - 27y }{ 3 }$
+    expr: $\dfrac{-8x - 20y }{ 4 }$
     part1:
       ans1:
-        value: $4 x - 9 y$
+        value: $- 2 x - 5 y$
       ans2:
-        value: $\dfrac{4x - 9y}{3}$
+        value: $\dfrac{-2x - 5y}{4}$
       ans3:
-        value: $-9x + 4y$
+        value: $-5x - 2y$
       ans4:
-        value: $12x - 27y$
+        value: $-8x - 20y$
       ans5:
         value: Don't know.
 ---
