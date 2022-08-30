@@ -274,6 +274,7 @@ parts:
   - file: content/public/006.Force/Free Body Diagrams/Ball Rolling in Pipe/ball_rolling_in_pipe
   - file: content/public/006.Force/Free Body Diagrams/Car in Ditch/car_in_ditch
   - file: content/public/006.Force/Free Body Diagrams/Mass_Swinging_on_a_String/Mass_Swinging_on_a_String
+  - file: content/public/006.Force/Free Body Diagrams/dogs_pulling_sled/dogs_pulling_sled
   - file: content/public/006.Force/Free Body Diagrams/pulley_on_truck/pulley_on_truck
   - file: content/public/006.Force/Free Body Diagrams/pushing_net_across_ice/pushing_net_across_ice
   - file: content/public/006.Force/Friction/Antilock braking systems/Antilock braking
@@ -465,6 +466,7 @@ parts:
   - file: content/public/008.Energy/Conservation of Energy/ball_race/ball_race
   - file: content/public/008.Energy/Conservation of Energy/dissipative_process/dissipative_process
   - file: content/public/008.Energy/Energy Diagrams/Potential Energy to Force/potential_energy_to_force
+  - file: content/public/008.Energy/Energy Diagrams/particle_energy_to_force_diagram/particle_energy_to_force_diagram
   - file: content/public/008.Energy/Exploding_Asteroid/Exploding_Asteroid
   - file: content/public/008.Energy/Kinetic Energy/KE_testmass/KE_testmass
   - file: content/public/008.Energy/Kinetic Energy/Kinetic Energy of a Simple Pendulum
