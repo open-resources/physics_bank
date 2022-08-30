@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $4^{5} $=$ 1024$
+    expr: $2^{4} $=$ 16$
     part1:
       ans1:
-        value: $log_41024 = 5$
+        value: $log_216 = 4$
       ans2:
-        value: $log_45 = 1024$
+        value: $log_24 = 16$
       ans3:
-        value: $log_10245 = 4$
+        value: $log_164 = 2$
       ans4:
-        value: $log_51024 = 4$
+        value: $log_416 = 2$
       ans5:
         value: Don't Know
 ---

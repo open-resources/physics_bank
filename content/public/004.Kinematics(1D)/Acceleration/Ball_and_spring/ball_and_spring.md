@@ -73,10 +73,10 @@ substitutions:
     m: 0.1
     deg: 30
     h: 0
-    x: 3
-    k: 1000
-    a_a: 0.03
-    a_b: 0.06
+    x: 4
+    k: 800
+    a_a: 0.04
+    a_b: 0.08
 ---
 # {{ params.vars.title }}
 I have built a game that involves a spring, a smooth slope, and a little ball of $m = ${{params.m}} kg.

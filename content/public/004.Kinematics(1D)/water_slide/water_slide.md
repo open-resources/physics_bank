@@ -54,7 +54,7 @@ part4:
 substitutions:
   params:
     vars:
-      name: Santiago
+      name: Abbas
       title: Water Slide
     theta: 50
     l: 700

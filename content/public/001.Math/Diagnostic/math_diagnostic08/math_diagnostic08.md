@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-64x - 32y }{ 8 }$
+    expr: $\dfrac{45x - 20y }{ -5 }$
     part1:
       ans1:
-        value: $- 8 x - 4 y$
+        value: $- 9 x + 4 y$
       ans2:
-        value: $\dfrac{-8x - 4y}{8}$
+        value: $\dfrac{-9x + 4y}{-5}$
       ans3:
-        value: $-4x - 8y$
+        value: $4x - 9y$
       ans4:
-        value: $-64x - 32y$
+        value: $45x + 20y$
       ans5:
         value: Don't know.
 ---

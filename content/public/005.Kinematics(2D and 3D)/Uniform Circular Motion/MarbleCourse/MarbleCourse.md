@@ -37,10 +37,10 @@ substitutions:
     vars:
       title: Marble Course
       units: $in$
-    max_acc_A: 0.6
+    max_acc_A: 0.4
     max_acc_B: 0.8
-    ra: 369
-    rb: 398
+    ra: 350
+    rb: 366
     angle: 40
 ---
 # {{ params.vars.title }}

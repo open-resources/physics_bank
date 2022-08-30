@@ -50,10 +50,10 @@ substitutions:
     vars:
       title: Collision of Objects A and B
       name: Aliyah
-    v1: 5
-    v2: 3
+    v1: 3
+    v2: 4
     m_a: 4
-    m_b: 2
+    m_b: 6
     part2:
       ans1:
         value: 'Yes'

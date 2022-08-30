@@ -38,20 +38,20 @@ substitutions:
     vars:
       title: Stuck Together Collision
       units: $^\circ$
-    k: 5
+    k: 4
     part1:
       ans1:
-        value: 11.3
+        value: 14.0
         feedback: Close! Make sure that you don't mix up your horizontal and vertical
           momentum.
       ans2:
-        value: 65.9
+        value: 63.4
         feedback: Not quite, try double checking your math again.
       ans3:
-        value: 78.7
+        value: 76.0
         feedback: Great! You got it.
       ans4:
-        value: 80.5
+        value: 78.7
         feedback: Not quite, try double checking your math again.
       ans5:
         value: 81.9

@@ -36,9 +36,9 @@ substitutions:
     vars:
       title: Power of a Sprinter
       units: W
-    v: 11
-    t: 5
-    m: 66
+    v: 8
+    t: 2
+    m: 84
     v2: 5
 ---
 # {{ params.vars.title }}

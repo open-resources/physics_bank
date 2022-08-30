@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $a$ = $\dfrac{(c)}{(u + 3t)} $
+    expr: $o$ = $\dfrac{(l)}{(j - 2a)} $
     part1:
       ans1:
-        value: u = ${ - 3 t + \frac{c}{a}}$
+        value: j = ${ 2 a + \frac{l}{o}}$
       ans2:
-        value: u = ${\frac{3 a t}{c}}$
+        value: j = ${- \frac{2 a o}{l}}$
       ans3:
-        value: u = ${\frac{c}{3 a t}}$
+        value: j = ${- \frac{l}{2 a o}}$
       ans4:
-        value: u = ${\frac{a - 3 t}{c}}$
+        value: j = ${\frac{2 a + o}{l}}$
       ans5:
         value: Don't Know
 ---
