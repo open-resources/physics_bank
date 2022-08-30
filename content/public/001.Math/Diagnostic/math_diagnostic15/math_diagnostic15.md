@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $7^{3} $=$ 343$
+    expr: $9^{4} $=$ 6561$
     part1:
       ans1:
-        value: $log_7343 = 3$
+        value: $log_96561 = 4$
       ans2:
-        value: $log_73 = 343$
+        value: $log_94 = 6561$
       ans3:
-        value: $log_3433 = 7$
+        value: $log_65614 = 9$
       ans4:
-        value: $log_3343 = 7$
+        value: $log_46561 = 9$
       ans5:
         value: Don't Know
 ---

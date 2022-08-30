@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic23
-    a: 8
-    b: 6
-    formula: $x^{8} \sin{\left(6 x \right)}$
+    a: 9
+    b: 8
+    formula: $x^{9} \sin{\left(8 x \right)}$
     part1:
       ans1:
-        value: $6 x^{8} \cos{\left(6 x \right)} + 8 x^{7} \sin{\left(6 x \right)}$
+        value: $8 x^{9} \cos{\left(8 x \right)} + 9 x^{8} \sin{\left(8 x \right)}$
       ans2:
-        value: $6 x^{8} \cos{\left(6 x \right)} $
+        value: $8 x^{9} \cos{\left(8 x \right)} $
       ans3:
-        value: $ 8 x^{7} \cos{\left(6 x \right)}$
+        value: $ 9 x^{8} \cos{\left(8 x \right)}$
       ans4:
-        value: $- 6 x^{8} \sin{\left(6 x \right)} + 8 x^{7} \cos{\left(6 x \right)}$
+        value: $- 8 x^{9} \sin{\left(8 x \right)} + 9 x^{8} \cos{\left(8 x \right)}$
       ans5:
         value: Don't Know
 ---

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $t$ = $\dfrac{(q)}{(z - 3p)} $
+    expr: $h$ = $\dfrac{(v)}{(e + 4d)} $
     part1:
       ans1:
-        value: z = ${ 3 p + \frac{q}{t}}$
+        value: e = ${ - 4 d + \frac{v}{h}}$
       ans2:
-        value: z = ${- \frac{3 p t}{q}}$
+        value: e = ${\frac{4 d h}{v}}$
       ans3:
-        value: z = ${- \frac{q}{3 p t}}$
+        value: e = ${\frac{v}{4 d h}}$
       ans4:
-        value: z = ${\frac{3 p + t}{q}}$
+        value: e = ${\frac{- 4 d + h}{v}}$
       ans5:
         value: Don't Know
 ---

@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{40x + 24y }{ -8 }$
+    expr: $\dfrac{-54x - 18y }{ 9 }$
     part1:
       ans1:
-        value: $- 5 x - 3 y$
+        value: $- 6 x - 2 y$
       ans2:
-        value: $\dfrac{-5x - 3y}{-8}$
+        value: $\dfrac{-6x - 2y}{9}$
       ans3:
-        value: $-3x - 5y$
+        value: $-2x - 6y$
       ans4:
-        value: $40x - 24y$
+        value: $-54x - 18y$
       ans5:
         value: Don't know.
 ---

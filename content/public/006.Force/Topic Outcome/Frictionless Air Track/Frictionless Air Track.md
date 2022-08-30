@@ -60,21 +60,21 @@ substitutions:
       title: A Frictionless Air Track?
       name: Ximena
       units: $m/s^2$
-    m1: 448.9
-    m2: 56.66
-    d_a: 0.02
-    mean: 1.51
-    sd: 0.119
-    a1: 1.41
-    a2: 1.34
-    a3: 1.7
-    a4: 1.6
-    a5: 1.68
-    a6: 1.5
-    a7: 1.34
-    a8: 1.53
-    a9: 1.48
-    a10: 1.53
+    m1: 394.9
+    m2: 29.26
+    d_a: 0.03
+    mean: 1.55
+    sd: 0.155
+    a1: 1.36
+    a2: 1.35
+    a3: 1.54
+    a4: 1.55
+    a5: 1.72
+    a6: 1.72
+    a7: 1.31
+    a8: 1.77
+    a9: 1.55
+    a10: 1.59
     part4:
       ans1:
         value: The track is frictionless because $a_{expected}$ does not agree with
