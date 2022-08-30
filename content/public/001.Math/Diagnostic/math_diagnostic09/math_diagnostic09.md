@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $j$ = $\dfrac{(a)}{(f - 9l)} $
+    expr: $t$ = $\dfrac{(q)}{(z - 3p)} $
     part1:
       ans1:
-        value: f = ${ \frac{a}{j} + 9 l}$
+        value: z = ${ 3 p + \frac{q}{t}}$
       ans2:
-        value: f = ${- \frac{9 j l}{a}}$
+        value: z = ${- \frac{3 p t}{q}}$
       ans3:
-        value: f = ${- \frac{a}{9 j l}}$
+        value: z = ${- \frac{q}{3 p t}}$
       ans4:
-        value: f = ${\frac{j + 9 l}{a}}$
+        value: z = ${\frac{3 p + t}{q}}$
       ans5:
         value: Don't Know
 ---

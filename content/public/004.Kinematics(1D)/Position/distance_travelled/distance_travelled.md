@@ -30,21 +30,21 @@ part1:
 substitutions:
   params:
     vars:
-      name: Ahmed
+      name: Abbas
       vehicle: a tricycle
       units: m
       title: Distance travelled
-    v: 2
-    t: 6
+    v: 6
+    t: 10
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 12
+        value: 60
       ans3:
-        value: 8
+        value: 16
       ans4:
-        value: 0.33
+        value: 0.6
       ans5:
         value: -4
       ans6:

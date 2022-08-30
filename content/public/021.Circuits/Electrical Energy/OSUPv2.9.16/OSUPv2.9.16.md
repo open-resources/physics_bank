@@ -29,12 +29,12 @@ substitutions:
   params:
     vars:
       title: Energy Consumption Units
-      name: Ahmed
+      name: Aliyah
     part1:
       ans1:
-        value: energy
-      ans2:
         value: charge
+      ans2:
+        value: energy
       ans3:
         value: current
       ans4:

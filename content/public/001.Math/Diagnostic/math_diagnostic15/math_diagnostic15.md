@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $3^{2} $=$ 9$
+    expr: $7^{3} $=$ 343$
     part1:
       ans1:
-        value: $log_39 = 2$
+        value: $log_7343 = 3$
       ans2:
-        value: $log_32 = 9$
+        value: $log_73 = 343$
       ans3:
-        value: $log_92 = 3$
+        value: $log_3433 = 7$
       ans4:
-        value: $log_29 = 3$
+        value: $log_3343 = 7$
       ans5:
         value: Don't Know
 ---

@@ -54,7 +54,7 @@ substitutions:
   params:
     vars:
       title: Heart Defibrillator
-    c: '11.0'
+    c: '20.0'
     v: '7.0'
 ---
 # {{ params.vars.title }}
