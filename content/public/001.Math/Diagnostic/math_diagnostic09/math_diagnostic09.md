@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $w$ = $\dfrac{(r)}{(b - 6e)} $
+    expr: $a$ = $\dfrac{(c)}{(u + 3t)} $
     part1:
       ans1:
-        value: b = ${ 6 e + \frac{r}{w}}$
+        value: u = ${ - 3 t + \frac{c}{a}}$
       ans2:
-        value: b = ${- \frac{6 e w}{r}}$
+        value: u = ${\frac{3 a t}{c}}$
       ans3:
-        value: b = ${- \frac{r}{6 e w}}$
+        value: u = ${\frac{c}{3 a t}}$
       ans4:
-        value: b = ${\frac{6 e + w}{r}}$
+        value: u = ${\frac{a - 3 t}{c}}$
       ans5:
         value: Don't Know
 ---

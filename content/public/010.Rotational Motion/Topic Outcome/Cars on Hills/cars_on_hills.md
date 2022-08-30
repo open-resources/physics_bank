@@ -50,8 +50,8 @@ substitutions:
     vars:
       title: Cars on Hills
       units: "$\rm{\frac{m}{s^2}}$"
-    v: 15
-    r: 153
+    v: 11
+    r: 215
     mu: 5.17
 ---
 # {{ params.vars.title }}

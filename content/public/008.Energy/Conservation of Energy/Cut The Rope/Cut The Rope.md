@@ -59,7 +59,7 @@ substitutions:
       title: Cut The Rope
       units: m
     l: 0.6
-    theta_0: 39
+    theta_0: 37
     theta_c: 20
 ---
 # {{ params.vars.title }}

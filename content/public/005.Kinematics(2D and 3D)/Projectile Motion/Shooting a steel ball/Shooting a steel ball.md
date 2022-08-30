@@ -32,20 +32,20 @@ substitutions:
     vars:
       title: Shooting a Steel Ball
     v: 3
-    theta: 62
+    theta: 42
     part1:
       ans1:
-        value: $(3\cos(62^{\circ}), \; -3\sin(62^{\circ}))$
+        value: $(3\cos(42^{\circ}), \; -3\sin(42^{\circ}))$
       ans2:
-        value: $(3\cos(62^{\circ}), \;3\sin(62^{\circ}))$
+        value: $(3\cos(42^{\circ}), \;3\sin(42^{\circ}))$
       ans3:
-        value: $(3\sin(62^{\circ}), \; -3\cos(62^{\circ}))$
+        value: $(3\sin(42^{\circ}), \; -3\cos(42^{\circ}))$
       ans4:
-        value: $(3\sin(62^{\circ}), \;3\cos(62^{\circ}))$
+        value: $(3\sin(42^{\circ}), \;3\cos(42^{\circ}))$
       ans5:
-        value: $(-3\cos(62^{\circ}), \; -3\sin(62^{\circ}))$
+        value: $(-3\cos(42^{\circ}), \; -3\sin(42^{\circ}))$
       ans6:
-        value: $(-3\sin(62^{\circ}), \;3\cos(62^{\circ}))$
+        value: $(-3\sin(42^{\circ}), \;3\cos(42^{\circ}))$
 ---
 # {{ params.vars.title }}
 A small steel ball is shot at {{ params.v }} $m/s$ at a {{ params.theta }}$^{\circ}$ angle above the horizontal direction and its motion is well approximated by projectile motion.

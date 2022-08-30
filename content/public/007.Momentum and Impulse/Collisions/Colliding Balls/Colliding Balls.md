@@ -37,12 +37,12 @@ substitutions:
   params:
     vars:
       title: Colliding Balls
-    m1: 104
-    m2: 229
-    v1_i: 3.28
-    v2_i: -8.47
-    v1_f: -12.9
-    v2_f: -1.13
+    m1: 115
+    m2: 240
+    v1_i: 5.36
+    v2_i: -8.71
+    v1_f: -13.7
+    v2_f: 0.406
     part1:
       ans1:
         value: This is an elastic collision, as both kinetic energy and momentum are

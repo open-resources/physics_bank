@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic17
-    a: 9
-    b: 7
+    a: 10
+    b: 4
     part1:
       ans1:
-        value: $e^{7} e^{9 y}$
+        value: $e^{4} e^{10 y}$
       ans2:
-        value: $e^{9 y} + e^{9}$
+        value: $e^{10 y} + e^{10}$
       ans3:
-        value: $9 e^{9} e^{y}$
+        value: $10 e^{10} e^{y}$
       ans4:
-        value: $7 e^{9 y}$
+        value: $4 e^{10 y}$
       ans5:
         value: Don't Know
 ---

@@ -32,8 +32,8 @@ substitutions:
   params:
     vars:
       title: Angular Acceleration
-    v_1: 2
-    v_2: 14
+    v_1: 4
+    v_2: 16
     t: 5
     part1:
       ans1:

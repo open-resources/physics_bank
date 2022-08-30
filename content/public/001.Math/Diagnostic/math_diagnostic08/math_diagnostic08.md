@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-4x + 14y }{ 2 }$
+    expr: $\dfrac{-64x - 32y }{ 8 }$
     part1:
       ans1:
-        value: $- 2 x + 7 y$
+        value: $- 8 x - 4 y$
       ans2:
-        value: $\dfrac{-2x + 7y}{2}$
+        value: $\dfrac{-8x - 4y}{8}$
       ans3:
-        value: $7x - 2y$
+        value: $-4x - 8y$
       ans4:
-        value: $-4x + 14y$
+        value: $-64x - 32y$
       ans5:
         value: Don't know.
 ---
