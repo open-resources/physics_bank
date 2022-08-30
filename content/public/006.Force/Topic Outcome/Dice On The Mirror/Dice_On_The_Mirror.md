@@ -38,8 +38,8 @@ substitutions:
     vars:
       title: Dice on the Mirror
       units: ^{\circ}
-    a: 8
-    theta: 16
+    a: 5
+    theta: 18
 ---
 # {{ params.vars.title }}
 

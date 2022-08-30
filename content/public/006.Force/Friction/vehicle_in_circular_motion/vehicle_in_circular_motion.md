@@ -75,9 +75,9 @@ substitutions:
     vars:
       title: Vehicle in Circular Motion
       vehicle: car
-    m: 1900.0
-    v: 84.0
-    r: 110.0
+    m: 1800.0
+    v: 97.0
+    r: 90.0
     theta: 21.0
     f_s: 0.6
     f_k: 0.4

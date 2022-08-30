@@ -67,7 +67,7 @@ substitutions:
       unit2: $s$
     water: 1.8
     air: 1.9
-    time: 5
+    time: 4
     const: 5
     part3:
       ans1:

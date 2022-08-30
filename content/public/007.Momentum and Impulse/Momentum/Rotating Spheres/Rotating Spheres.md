@@ -36,7 +36,7 @@ substitutions:
   params:
     vars:
       title: Rotating Spheres
-    m: 2.7
+    m: 2.5
     Mo: 1
     t: 1
     r: 0.2

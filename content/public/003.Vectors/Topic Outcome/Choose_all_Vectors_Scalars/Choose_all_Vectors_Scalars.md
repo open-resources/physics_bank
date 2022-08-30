@@ -38,15 +38,15 @@ substitutions:
       ans1:
         value: Velocity
       ans2:
-        value: Momentum
+        value: Force
       ans3:
-        value: Acceleration
+        value: Momentum
       ans4:
-        value: Average Acceleration
+        value: Displacement
       ans5:
-        value: Power
+        value: Area
       ans6:
-        value: Mass
+        value: Energy
 ---
 # {{ params.vars.title }}
 

@@ -44,11 +44,11 @@ substitutions:
   params:
     vars:
       title: Collision of Collars
-    W1: 5
+    W1: 2
     W2: 10
-    v1: 27
+    v1: 25
     v2: 3
-    e: 0.69
+    e: 0.65
 ---
 # {{ params.vars.title }}
 <img src="Collision of Collars.png" width=400>

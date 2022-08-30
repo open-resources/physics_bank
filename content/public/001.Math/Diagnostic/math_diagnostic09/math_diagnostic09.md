@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $o$ = $\dfrac{(l)}{(j - 2a)} $
+    expr: $c$ = $\dfrac{(i)}{(g - 9k)} $
     part1:
       ans1:
-        value: j = ${ 2 a + \frac{l}{o}}$
+        value: g = ${ 9 k + \frac{i}{c}}$
       ans2:
-        value: j = ${- \frac{2 a o}{l}}$
+        value: g = ${- \frac{9 c k}{i}}$
       ans3:
-        value: j = ${- \frac{l}{2 a o}}$
+        value: g = ${- \frac{i}{9 c k}}$
       ans4:
-        value: j = ${\frac{2 a + o}{l}}$
+        value: g = ${\frac{c + 9 k}{i}}$
       ans5:
         value: Don't Know
 ---

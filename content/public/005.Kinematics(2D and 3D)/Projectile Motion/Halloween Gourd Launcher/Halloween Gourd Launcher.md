@@ -72,9 +72,9 @@ substitutions:
     vars:
       name: Maya
       title: Halloween Gourd Launcher
-    m_gourd: 1.47
-    h: 1.96
-    v_f: 4.96
+    m_gourd: 0.779
+    h: 2.24
+    v_f: 5.57
 ---
 # {{ params.vars.title }}
 At a local pumpkin patch, {{ params.vars.name }} is hired to create a Hallowe'en gourd launcher.  {{ params.vars.name }} wants to launch a {{ params.m_gourd }} $kg$ gourd (decorated as an "Angry Bird") at a large pumpkin (decorated as a "pig") which sits on top of a $h=$ {{ params.h }} $m$ tall hay bale as shown in the figure.

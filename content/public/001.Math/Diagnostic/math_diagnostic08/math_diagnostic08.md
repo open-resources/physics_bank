@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{45x - 20y }{ -5 }$
+    expr: $\dfrac{9x + 12y }{ -3 }$
     part1:
       ans1:
-        value: $- 9 x + 4 y$
+        value: $- 3 x - 4 y$
       ans2:
-        value: $\dfrac{-9x + 4y}{-5}$
+        value: $\dfrac{-3x - 4y}{-3}$
       ans3:
-        value: $4x - 9y$
+        value: $-4x - 3y$
       ans4:
-        value: $45x + 20y$
+        value: $9x - 12y$
       ans5:
         value: Don't know.
 ---

@@ -57,8 +57,8 @@ substitutions:
       name: Abbas
       title: Water Slide
     theta: 50
-    l: 700
-    l2: 350.0
+    l: 500
+    l2: 250.0
 ---
 # {{ params.vars.title }}
 What an exciting time to be alive! A water slide has just opened up near {{ params.vars.name }}'s house! It is a ramp, L = {{params.l}} $m$ long at {{params.theta}}$^{\circ}$ to the horizontal.

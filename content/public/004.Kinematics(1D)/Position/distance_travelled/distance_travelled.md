@@ -31,24 +31,24 @@ substitutions:
   params:
     vars:
       name: Ahmed
-      vehicle: a tricycle
+      vehicle: a unicycle
       units: m
       title: Distance travelled
-    v: 7
+    v: 2
     t: 10
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 70
+        value: 20
       ans3:
-        value: 17
+        value: 12
       ans4:
-        value: 0.7
+        value: 0.2
       ans5:
-        value: -3
+        value: -8
       ans6:
-        value: -3.9
+        value: -10.0
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is traveling on {{ params.vars.vehicle }} at {{ params.v }} $\rm{m/s}$.

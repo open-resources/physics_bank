@@ -50,9 +50,9 @@ substitutions:
   params:
     vars:
       title: Copper in a Magnetic Field
-    B: 8.2
-    E: 8.3
-    n: 3
+    B: 7.5
+    E: 8.6
+    n: 2
     A: 8.1
 ---
 # {{ params.vars.title }}

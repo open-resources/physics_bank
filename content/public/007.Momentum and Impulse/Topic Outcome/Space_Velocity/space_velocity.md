@@ -76,11 +76,11 @@ substitutions:
     m: 104
     left_arm: 8
     head: 12
-    V_L_i: 12
-    V_L_j: 8
+    V_L_i: 14
+    V_L_j: 6
     V_H_i: -24
     V_H_j: -14
-    t: 0.7
+    t: 1.1
     part5:
       ans1:
         value: His head required more force
