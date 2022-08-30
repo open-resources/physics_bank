@@ -162,6 +162,7 @@ parts:
       of particle/position_veloctity_acceleration_of_particle
   - file: content/public/004.Kinematics(1D)/Velocity/Velocity of a ball from acceleration/velocity_of_ball_from_acc
   - file: content/public/004.Kinematics(1D)/Velocity/Velocity_From_Graph/Velocity_From_Graph
+  - file: content/public/004.Kinematics(1D)/Velocity/position_to_velocity_graph/position_to_velocity_graph
   - file: content/public/004.Kinematics(1D)/water_slide/water_slide
 - caption: Force
   chapters:
@@ -219,6 +220,7 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Rutland Rd/rutland_rd
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Velocity of a Falcon/Velocity
       of a Falcon
+  - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/airplane_relative_motion/airplane_relative_motion
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/apples_in_truck/apples_in_truck
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Aircraft Liftoff
       3D/aircraft_liftoff_3d
