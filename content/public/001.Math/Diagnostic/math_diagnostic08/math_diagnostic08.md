@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-8x - 20y }{ 4 }$
+    expr: $\dfrac{-4x + 14y }{ 2 }$
     part1:
       ans1:
-        value: $- 2 x - 5 y$
+        value: $- 2 x + 7 y$
       ans2:
-        value: $\dfrac{-2x - 5y}{4}$
+        value: $\dfrac{-2x + 7y}{2}$
       ans3:
-        value: $-5x - 2y$
+        value: $7x - 2y$
       ans4:
-        value: $-8x - 20y$
+        value: $-4x + 14y$
       ans5:
         value: Don't know.
 ---

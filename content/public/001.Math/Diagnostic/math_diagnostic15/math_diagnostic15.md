@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $7^{8} $=$ 5764801$
+    expr: $6^{9} $=$ 10077696$
     part1:
       ans1:
-        value: $log_75764801 = 8$
+        value: $log_610077696 = 9$
       ans2:
-        value: $log_78 = 5764801$
+        value: $log_69 = 10077696$
       ans3:
-        value: $log_57648018 = 7$
+        value: $log_100776969 = 6$
       ans4:
-        value: $log_85764801 = 7$
+        value: $log_910077696 = 6$
       ans5:
         value: Don't Know
 ---

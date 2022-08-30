@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $g$ = $\dfrac{(a)}{(i - 3q)} $
+    expr: $w$ = $\dfrac{(r)}{(b - 6e)} $
     part1:
       ans1:
-        value: i = ${ \frac{a}{g} + 3 q}$
+        value: b = ${ 6 e + \frac{r}{w}}$
       ans2:
-        value: i = ${- \frac{3 g q}{a}}$
+        value: b = ${- \frac{6 e w}{r}}$
       ans3:
-        value: i = ${- \frac{a}{3 g q}}$
+        value: b = ${- \frac{r}{6 e w}}$
       ans4:
-        value: i = ${\frac{g + 3 q}{a}}$
+        value: b = ${\frac{6 e + w}{r}}$
       ans5:
         value: Don't Know
 ---

@@ -43,9 +43,9 @@ substitutions:
   params:
     vars:
       title: Centrifuge Acceleration
-    v: 3800.0
-    t: 2.2
-    r: 8
+    v: 3400.0
+    t: 1.4
+    r: 9
 ---
 # {{ params.vars.title }}
 The test tubes of high-speed centrifuges should be placed with care because of the very large acceleration.

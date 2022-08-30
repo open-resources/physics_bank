@@ -29,17 +29,17 @@ substitutions:
     vars:
       title: Math Diagnostic23
     a: 1
-    b: 7
-    formula: $x \cos{\left(7 x \right)}$
+    b: 1
+    formula: $x \cos{\left(x \right)}$
     part1:
       ans1:
-        value: $- 7 x \sin{\left(7 x \right)} + \cos{\left(7 x \right)}$
+        value: $- x \sin{\left(x \right)} + \cos{\left(x \right)}$
       ans2:
-        value: $- 7 x \sin{\left(7 x \right)} $
+        value: $- x \sin{\left(x \right)} $
       ans3:
-        value: $ \sin{\left(7 x \right)}$
+        value: $ \sin{\left(x \right)}$
       ans4:
-        value: $7 x \cos{\left(7 x \right)} + \sin{\left(7 x \right)}$
+        value: $x \cos{\left(x \right)} + \sin{\left(x \right)}$
       ans5:
         value: Don't Know
 ---

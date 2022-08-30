@@ -69,10 +69,10 @@ substitutions:
       part5:
         units: m
     b: 3
-    spring: 3
-    k: 5.27
-    u_k: 0.26
-    u_s: 0.65
+    spring: 4
+    k: 3.63
+    u_k: 0.21
+    u_s: 0.33
 ---
 # {{ params.vars.title }}
 I decide to set up a very elaborate physics apparatus consisting of a {{ params.b}} kg brick, which is attached to the wall with a spring, placed on a conveyor belt. The end of the spring starts out {{params.spring}} m from the wall, and its rest length is {{params.spring}} m. The spring constant of the spring is k = {{params.k}} $N \over m$. The coefficient of kinetic (sliding) friction is $\mu_k$ = {{params.u_k}}, and the coefficient of static friction is $\mu_s$ = {{params.u_s}}.
