@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $h$ = $\dfrac{(v)}{(e + 4d)} $
+    expr: $v$ = $\dfrac{(t)}{(m - 5o)} $
     part1:
       ans1:
-        value: e = ${ - 4 d + \frac{v}{h}}$
+        value: m = ${ 5 o + \frac{t}{v}}$
       ans2:
-        value: e = ${\frac{4 d h}{v}}$
+        value: m = ${- \frac{5 o v}{t}}$
       ans3:
-        value: e = ${\frac{v}{4 d h}}$
+        value: m = ${- \frac{t}{5 o v}}$
       ans4:
-        value: e = ${\frac{- 4 d + h}{v}}$
+        value: m = ${\frac{5 o + v}{t}}$
       ans5:
         value: Don't Know
 ---

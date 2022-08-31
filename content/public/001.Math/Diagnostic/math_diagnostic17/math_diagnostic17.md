@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic17
-    a: 3
-    b: 3
+    a: 10
+    b: 2
     part1:
       ans1:
-        value: $e^{3} e^{3 y}$
+        value: $e^{2} e^{10 y}$
       ans2:
-        value: $e^{3 y} + e^{3}$
+        value: $e^{10 y} + e^{10}$
       ans3:
-        value: $3 e^{3} e^{y}$
+        value: $10 e^{10} e^{y}$
       ans4:
-        value: $3 e^{3 y}$
+        value: $2 e^{10 y}$
       ans5:
         value: Don't Know
 ---

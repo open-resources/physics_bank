@@ -1,15 +1,15 @@
 ---
-title: Math Diagnostic12
-topic: Math
-author: Simon Bates
-source: Math Diagnostic
-template_version: 1.3
+title: A Ball Rotating in a Circle
+topic: Kinematics(2D and 3D)
+author: John Hopkinson
+source: PHYS 112 Hopkinson 2018W1 GPS V Q1
+template_version: 1.4
 attribution: standard
 partialCredit: true
 singleVariant: false
 showCorrectAnswer: false
 outcomes:
-- 1.5.1.5
+- 5.6.1.0
 difficulty:
 - undefined
 randomization:
@@ -21,43 +21,30 @@ span:
 length:
 - undefined
 tags:
-- AK
-- math_diagnostic
+- SJ
 assets: null
 part1:
-  type: multiple-choice
+  type: number-input
   pl-customizations:
     weight: 1
+    allow-blank: true
+    label: $\frac{a_{1}}{a_{2}}$=
 substitutions:
   params:
     vars:
-      title: Math Diagnostic12
-    expr: $8\over 8- x$ > $ 6$
-    part1:
-      ans1:
-        value: (20/3 < x) & (x < 8)
-      ans2:
-        value: (20/3 > x) & (x > 8)
-      ans3:
-        value: x > 8/6
-      ans4:
-        value: (189/4 < x) & (x < 48)
-      ans5:
-        value: Do not know
+      title: A Ball Rotating in a Circle
+    N: 3
 ---
 # {{ params.vars.title }}
+A ball rotated at constant speed in a circle from a string of length $L$ has a rotation period $T$. The string is shortened to a length $\frac{L}{{{ params.N }}}$ while its rotation period in circular motion remains $T$.
 
 ## Part 1
 
-If {{ params.expr }} then:
+What is the ratio of the accelerations of the ball rotated by the longer string to the ball rotated by the shorter string?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+Please enter a numeric value.
 
 ## Attribution
 

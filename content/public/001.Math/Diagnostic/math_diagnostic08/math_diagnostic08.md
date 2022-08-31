@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-54x - 18y }{ 9 }$
+    expr: $\dfrac{-63x + 36y }{ -9 }$
     part1:
       ans1:
-        value: $- 6 x - 2 y$
+        value: $7 x - 4 y$
       ans2:
-        value: $\dfrac{-6x - 2y}{9}$
+        value: $\dfrac{7x - 4y}{-9}$
       ans3:
-        value: $-2x - 6y$
+        value: $-4x + 7y$
       ans4:
-        value: $-54x - 18y$
+        value: $-63x - 36y$
       ans5:
         value: Don't know.
 ---

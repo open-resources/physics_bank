@@ -32,18 +32,18 @@ substitutions:
   params:
     vars:
       title: Delivering Newspapers
-      name: Ximena
+      name: Santiago
     part1:
       ans1:
         value: '2'
       ans2:
-        value: '6'
-      ans3:
         value: '3'
-      ans4:
-        value: '4'
-      ans5:
+      ans3:
         value: '5'
+      ans4:
+        value: '7'
+      ans5:
+        value: '6'
       ans6:
         value: '1'
 ---

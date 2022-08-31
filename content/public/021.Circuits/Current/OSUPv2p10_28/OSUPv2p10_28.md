@@ -73,12 +73,12 @@ substitutions:
   params:
     vars:
       title: Electrical Appliances Plugged into an Outlet
-    P_T: '1810'
-    P_S: '1310'
-    P_L: '90.0'
-    I_F: '27.0'
+    P_T: '1820'
+    P_S: '1320'
+    P_L: '60.0'
+    I_F: '25.0'
     V: '145.0'
-    prep: an
+    prep: a
     part4:
       ans1:
         value: 'Yes'

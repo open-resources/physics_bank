@@ -43,7 +43,7 @@ substitutions:
   params:
     vars:
       title: Solenoid current
-    n: '15'
+    n: '13'
     B: $2.6\times 10^{-2}$
 ---
 # {{ params.vars.title }}
