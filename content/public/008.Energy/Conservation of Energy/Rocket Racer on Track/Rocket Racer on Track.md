@@ -38,9 +38,9 @@ substitutions:
       title: Package on a Hill
     m: 12
     va: 2
-    vb: 25
+    vb: 20
     h: 28
-    d: 25
+    d: 48
 ---
 # {{ params.vars.title }}
 <img src="Rocket Racer on Track.png" width=400>

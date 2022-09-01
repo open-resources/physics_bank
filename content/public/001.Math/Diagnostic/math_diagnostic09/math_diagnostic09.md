@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $v$ = $\dfrac{(t)}{(m - 5o)} $
+    expr: $c$ = $\dfrac{(q)}{(d + 5t)} $
     part1:
       ans1:
-        value: m = ${ 5 o + \frac{t}{v}}$
+        value: d = ${ - 5 t + \frac{q}{c}}$
       ans2:
-        value: m = ${- \frac{5 o v}{t}}$
+        value: d = ${\frac{5 c t}{q}}$
       ans3:
-        value: m = ${- \frac{t}{5 o v}}$
+        value: d = ${\frac{q}{5 c t}}$
       ans4:
-        value: m = ${\frac{5 o + v}{t}}$
+        value: d = ${\frac{c - 5 t}{q}}$
       ans5:
         value: Don't Know
 ---

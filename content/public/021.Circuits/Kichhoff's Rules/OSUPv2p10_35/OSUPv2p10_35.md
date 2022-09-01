@@ -178,10 +178,10 @@ substitutions:
   params:
     vars:
       title: Simple Series Circuit
-    V: '15.0'
-    R1: '5.00'
-    R2: '1.00'
-    R3: '4.25'
+    V: '16.0'
+    R1: '3.50'
+    R2: '1.25'
+    R3: '3.25'
 ---
 # {{ params.vars.title }}
 Consider the circuit shown below.

@@ -32,17 +32,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic07
-    formula1: 8x - 9y = 23
-    formula2: 1x + 10y = 18
+    formula1: 2x - 9y = 39
+    formula2: 9x + 2y = 1
     part1:
       ans1:
-        value: ' x =392/89, y =121/89'
+        value: ' x =87/85, y =-349/85'
       ans2:
-        value: ' x =121/89, y =392/89'
+        value: ' x =-349/85, y =87/85'
       ans3:
-        value: ' x =-392/89, y =-121/89'
+        value: ' x =-87/85, y =349/85'
       ans4:
-        value: ' x =-121/89, y =-392/89'
+        value: ' x =349/85, y =-87/85'
       ans5:
         value: Don't Know
 ---

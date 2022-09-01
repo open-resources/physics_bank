@@ -70,7 +70,7 @@ substitutions:
     vars:
       title: Rocket Dog
       units: $\rm{m/s}$
-    x: $-3t^2 + t$
+    x: $5t^2 + 5t$
     time: 5
     part4:
       ans1:

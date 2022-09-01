@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-63x + 36y }{ -9 }$
+    expr: $\dfrac{-14x + 14y }{ -2 }$
     part1:
       ans1:
-        value: $7 x - 4 y$
+        value: $7 x - 7 y$
       ans2:
-        value: $\dfrac{7x - 4y}{-9}$
+        value: $\dfrac{7x - 7y}{-2}$
       ans3:
-        value: $-4x + 7y$
+        value: $-7x + 7y$
       ans4:
-        value: $-63x - 36y$
+        value: $-14x - 14y$
       ans5:
         value: Don't know.
 ---

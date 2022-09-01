@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic03
-      formula: 6x + 3 > -1x + 6
+      formula: 10x + -10 > 3x + 2
     part1:
       ans1:
-        value: x > 3/7
+        value: x > 12/7
       ans2:
-        value: x < 3/7
+        value: x < 12/7
       ans3:
-        value: x < 7/3
+        value: x < 7/12
       ans4:
-        value: x > 7/3
+        value: x > 7/12
       ans5:
         value: Don't Know
 ---

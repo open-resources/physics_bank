@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $3^{9} $=$ 19683$
+    expr: $2^{4} $=$ 16$
     part1:
       ans1:
-        value: $log_319683 = 9$
+        value: $log_216 = 4$
       ans2:
-        value: $log_39 = 19683$
+        value: $log_24 = 16$
       ans3:
-        value: $log_196839 = 3$
+        value: $log_164 = 2$
       ans4:
-        value: $log_919683 = 3$
+        value: $log_416 = 2$
       ans5:
         value: Don't Know
 ---
