@@ -518,6 +518,7 @@ parts:
       rod/Inertia of T-shaped rod
   - file: content/public/010.Rotational Motion/Rotational Energy/Rotating buckets/Rotating
       buckets
+  - file: content/public/010.Rotational Motion/Rotational Energy/Turntables/Turntables
   - file: content/public/010.Rotational Motion/Rotational Velocity/Mass_Attached_To_String/Mass_Attached_To_String
   - file: content/public/010.Rotational Motion/Rotational Velocity/figure_skater/figure_skater
   - file: content/public/010.Rotational Motion/Topic Outcome/Acceleration around a
