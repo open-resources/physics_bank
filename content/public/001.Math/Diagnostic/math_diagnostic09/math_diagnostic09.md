@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $e$ = $\dfrac{(p)}{(h - 8t)} $
+    expr: $x$ = $\dfrac{(n)}{(o + 9q)} $
     part1:
       ans1:
-        value: h = ${ 8 t + \frac{p}{e}}$
+        value: o = ${ \frac{n}{x} - 9 q}$
       ans2:
-        value: h = ${- \frac{8 e t}{p}}$
+        value: o = ${\frac{9 q x}{n}}$
       ans3:
-        value: h = ${- \frac{p}{8 e t}}$
+        value: o = ${\frac{n}{9 q x}}$
       ans4:
-        value: h = ${\frac{e + 8 t}{p}}$
+        value: o = ${\frac{- 9 q + x}{n}}$
       ans5:
         value: Don't Know
 ---

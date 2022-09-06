@@ -68,7 +68,7 @@ substitutions:
     water: 2.0
     air: 2.0
     time: 6
-    const: 4
+    const: 6
     part3:
       ans1:
         value: directly

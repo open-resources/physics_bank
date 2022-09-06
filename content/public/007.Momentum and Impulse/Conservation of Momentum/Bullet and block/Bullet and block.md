@@ -45,11 +45,11 @@ substitutions:
       name: Maya
       units1: m/s
       units2: kg
-    m_bullet: 36
-    m_block: 16
-    bullet_v: 865
-    slide_d: 3
-    slide_dnew: 3.3
+    m_bullet: 23
+    m_block: 19
+    bullet_v: 851
+    slide_d: 2
+    slide_dnew: 2.3
     coeff_k: 0.2
 ---
 # {{ params.vars.title }}
