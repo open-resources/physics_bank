@@ -3,7 +3,7 @@ title: Hockey net across ice
 topic: Force
 author: John Hopkinson
 source: standard
-template_version: 1.3
+template_version: 1.4
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
@@ -21,7 +21,7 @@ span:
 length:
 - short
 tags:
-- unknown
+- HZ
 assets: null
 part1:
   type: multiple-choice
@@ -31,27 +31,26 @@ substitutions:
   params:
     vars:
       title: Hockey net across ice
-    v: 3
-    f: 3.438030262056074
+    v: 20
+    f: 4.326905598966831
     part1:
       ans1:
-        value: at a steadily increasing speed.
+        value: At a steadily increasing speed.
       ans2:
-        value: at 10.0 $\mathrm{m/s}$.
+        value: At 87.0 $\mathrm{m/s}$.
       ans3:
-        value: at an increasing speed until it reaches 10.0 $\mathrm{m/s}$ then at
+        value: At an increasing speed until it reaches 87.0 $\mathrm{m/s}$ then at
           a constant speed.
       ans4:
-        value: at a steadily decreasing speed.
+        value: At a steadily decreasing speed.
       ans5:
-        value: at 3 $\mathrm{m/s}$.
+        value: At 20 $\mathrm{m/s}$.
 ---
 # {{ params.vars.title }}
 
 ## Part 1
 
-A ringette player pushes a hockey net at 2 $\mathrm{m/s}$ across rough ice with a force of magnitude $F$.
-If she pushes the same net across the same ice starting from 2 $\mathrm{m/s}$ with a constant force of magnitude 1.5 $F$, the net will move:
+A ringette player pushes a hockey net with a constant force of magnitude $F$ across rough ice at a constant velocity of 2 $\rm{m/s}$. If she pushes the same net with a constant force of magnitude 1.5 $F$ in the same direction across the same ice starting from a velocity of 2 $\rm{m/s}$, the net will move:
 
 ### Answer Section
 

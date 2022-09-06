@@ -61,7 +61,7 @@ substitutions:
   params:
     vars:
       title: Energy in a Series RL Circuit
-    L: '2.50'
+    L: '5.00'
     R: '300.0'
     I: '4.00'
 ---

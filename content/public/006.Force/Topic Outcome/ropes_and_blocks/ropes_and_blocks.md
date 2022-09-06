@@ -57,9 +57,9 @@ substitutions:
       title: Ropes and Blocks
       units1: $\frac{m}{s^2}$
       units2: N
-    m_a: 17
-    m_b: 3
-    m_c: 13
+    m_a: 20
+    m_b: 1
+    m_c: 4
     f_a: 43
 ---
 # {{ params.vars.title }}

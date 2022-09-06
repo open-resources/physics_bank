@@ -54,10 +54,10 @@ substitutions:
     vars:
       title: Bottle From Car
       units: ft
-    z0: 1786
-    y0: 1150
-    vx0: 61
-    vy0: 50
+    z0: 1223
+    y0: 883
+    vx0: 50
+    vy0: 21
 ---
 # {{ params.vars.title }}
 A reckless driver speeds around a highway corner on the edge of a cliff, ${{params.z0}}ft$ above the ground, which has a radius of R = ${{params.y0}}ft$.

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $c$ = $\dfrac{(q)}{(d + 5t)} $
+    expr: $e$ = $\dfrac{(p)}{(h - 8t)} $
     part1:
       ans1:
-        value: d = ${ - 5 t + \frac{q}{c}}$
+        value: h = ${ 8 t + \frac{p}{e}}$
       ans2:
-        value: d = ${\frac{5 c t}{q}}$
+        value: h = ${- \frac{8 e t}{p}}$
       ans3:
-        value: d = ${\frac{q}{5 c t}}$
+        value: h = ${- \frac{p}{8 e t}}$
       ans4:
-        value: d = ${\frac{c - 5 t}{q}}$
+        value: h = ${\frac{e + 8 t}{p}}$
       ans5:
         value: Don't Know
 ---

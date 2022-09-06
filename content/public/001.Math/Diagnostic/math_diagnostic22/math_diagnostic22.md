@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic22
-    denom: 10
-    formula: $\cos{\left(\frac{x}{10} \right)}$
+    denom: 6
+    formula: $\sin{\left(\frac{x}{6} \right)}$
     part1:
       ans1:
-        value: ${10 \sin{\left(\frac{x}{10} \right)}}$
+        value: ${- 6 \cos{\left(\frac{x}{6} \right)}}$
       ans2:
-        value: ${- 10 \sin{\left(\frac{x}{10} \right)}}$
+        value: ${6 \cos{\left(\frac{x}{6} \right)}}$
       ans3:
-        value: ${20 \sin{\left(\frac{x}{10} \right)}}$
+        value: ${- 12 \cos{\left(\frac{x}{6} \right)}}$
       ans4:
-        value: ${5 \sin{\left(\frac{x}{10} \right)}}$
+        value: ${- 3 \cos{\left(\frac{x}{6} \right)}}$
 ---
 # {{ params.vars.title }}
 

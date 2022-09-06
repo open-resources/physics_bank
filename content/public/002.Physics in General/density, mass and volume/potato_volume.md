@@ -53,9 +53,9 @@ substitutions:
       title: Potato Volume
       mass_units: kg
       volume_units: m^3
-      mass_potato: 200
-      mass_cube: 34
-      cube_side_length: 4.343215796983783
+      mass_potato: 238
+      mass_cube: 67
+      cube_side_length: 4.8276372353126735
 ---
 # {{ params.vars.title }}
 For our first lab, {{params.vars.name}} decides to measure the density of a potato.
