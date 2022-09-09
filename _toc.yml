@@ -278,6 +278,7 @@ parts:
   - file: content/public/006.Force/Free Body Diagrams/Ball Rolling in Pipe/ball_rolling_in_pipe
   - file: content/public/006.Force/Free Body Diagrams/Car in Ditch/car_in_ditch
   - file: content/public/006.Force/Free Body Diagrams/Mass_Swinging_on_a_String/Mass_Swinging_on_a_String
+  - file: content/public/006.Force/Free Body Diagrams/Masses on Slopes/masses_on_slopes
   - file: content/public/006.Force/Free Body Diagrams/dogs_pulling_sled/dogs_pulling_sled
   - file: content/public/006.Force/Free Body Diagrams/pulley_on_truck/pulley_on_truck
   - file: content/public/006.Force/Free Body Diagrams/pushing_net_across_ice/pushing_net_across_ice
@@ -320,6 +321,7 @@ parts:
   - file: content/public/006.Force/Newton's Third Law/Ironclad_Beetle/ironclad_beetle_mcq
   - file: content/public/006.Force/Newton's Third Law/Tension_In_Rope/Tention_In_Rope
   - file: content/public/006.Force/Newton's Third Law/Two_Blocks_Stacked/Two_Blocks_Stacked
+  - file: content/public/006.Force/Newton's Third Law/cow_and_mosquito/cow_and_mosquito
   - file: content/public/006.Force/Springs/Clutch Plate Dampening/Clutch Plate Dampening
   - file: content/public/006.Force/Springs/Stiffness of a Spring/Stiffness of a Spring
   - file: content/public/006.Force/Topic Outcome/A Diver/A Diver
