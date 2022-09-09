@@ -47,9 +47,9 @@ substitutions:
     vars:
       title: Rolling Disk of Spruce and Steel
       units: $kg$
-    rho_spruce: 471.0
-    rho_steel: 7810.0
-    w_disk: 22.3
+    rho_spruce: 437.0
+    rho_steel: 7800.0
+    w_disk: 13.2
     part3:
       ans1:
         value: $x$ = 1 $cm$, $y$ = 0 $cm$

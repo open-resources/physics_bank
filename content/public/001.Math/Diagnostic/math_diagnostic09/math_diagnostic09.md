@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $x$ = $\dfrac{(m)}{(j - 8u)} $
+    expr: $m$ = $\dfrac{(x)}{(h - 7t)} $
     part1:
       ans1:
-        value: j = ${ \frac{m}{x} + 8 u}$
+        value: h = ${ 7 t + \frac{x}{m}}$
       ans2:
-        value: j = ${- \frac{8 u x}{m}}$
+        value: h = ${- \frac{7 m t}{x}}$
       ans3:
-        value: j = ${- \frac{m}{8 u x}}$
+        value: h = ${- \frac{x}{7 m t}}$
       ans4:
-        value: j = ${\frac{8 u + x}{m}}$
+        value: h = ${\frac{m + 7 t}{x}}$
       ans5:
         value: Don't Know
 ---

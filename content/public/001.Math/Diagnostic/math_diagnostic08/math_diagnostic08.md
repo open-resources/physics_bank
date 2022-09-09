@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-42x + 35y }{ -7 }$
+    expr: $\dfrac{12x + 14y }{ 2 }$
     part1:
       ans1:
-        value: $6 x - 5 y$
+        value: $6 x + 7 y$
       ans2:
-        value: $\dfrac{6x - 5y}{-7}$
+        value: $\dfrac{6x + 7y}{2}$
       ans3:
-        value: $-5x + 6y$
+        value: $7x + 6y$
       ans4:
-        value: $-42x - 35y$
+        value: $12x + 14y$
       ans5:
         value: Don't know.
 ---

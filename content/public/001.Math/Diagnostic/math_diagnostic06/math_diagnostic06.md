@@ -32,18 +32,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic06
-    eq: $\dfrac{x-2}{x-5}$ = $ \dfrac{x+3}{x+9}$
+    eq: $\dfrac{x-3}{x-1}$ = $ \dfrac{x+8}{x+1}$
     part1:
       ans1:
-        value: -39/19
+        value: 23/13
       ans2:
-        value: -17/19
+        value: -5/13
       ans3:
-        value: 39/5
+        value: -23/5
       ans4:
-        value: 17/19
+        value: 5/13
       ans5:
-        value: -37/9
+        value: '-1'
       ans6:
         value: None of the above
 ---

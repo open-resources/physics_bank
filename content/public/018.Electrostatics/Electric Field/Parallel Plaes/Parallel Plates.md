@@ -47,8 +47,8 @@ part2:
 substitutions:
   params:
     L: '15'
-    q: '3.4'
-    p: '-9'
+    q: '8.0'
+    p: '-6'
     d: '1.2'
     part2:
       ans1:

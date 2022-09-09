@@ -87,8 +87,8 @@ substitutions:
   params:
     vars:
       title: Circular Motion Graph
-    r: 7
-    t: 0.4
+    r: 5
+    t: 0.6
     wmax: 10
     part1:
       ans1:

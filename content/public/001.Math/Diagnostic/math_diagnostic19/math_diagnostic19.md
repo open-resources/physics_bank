@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic19
-    a: $ \sin182$
+    a: $ \sin200$
     part1:
       ans1:
-        value: $\sin{-178}$
+        value: $\sin{-160}$
       ans2:
-        value: $\sin{178}$
+        value: $\sin{160}$
       ans3:
-        value: $\sin{-2}$
+        value: $\sin{-20}$
       ans4:
-        value: $\sin{2}$
+        value: $\sin{20}$
       ans5:
         value: Don't Know
 ---
