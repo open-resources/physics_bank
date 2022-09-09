@@ -52,9 +52,9 @@ substitutions:
   params:
     vars:
       title: Force on a Waterslide
-    va: 10
-    vc: 7
-    W: 50
+    va: 15
+    vc: 6
+    W: 74
     d: 13
     r: 7
 ---

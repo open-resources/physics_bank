@@ -34,8 +34,8 @@ substitutions:
       title: Maximum Speed of Car
       units: $ft/s$
     yards: 100
-    max_speed_t: 3
-    overall_t: 4
+    max_speed_t: 8
+    overall_t: 10
 ---
 # {{ params.vars.title }}
 <img src="L5Q1.png" width=85%>

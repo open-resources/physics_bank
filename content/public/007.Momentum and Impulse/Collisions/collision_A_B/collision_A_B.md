@@ -49,9 +49,9 @@ substitutions:
   params:
     vars:
       title: Collision of Objects A and B
-      name: Lorenzo
-    v1: 6
-    v2: 3
+      name: Santiago
+    v1: 4
+    v2: 5
     m_a: 4
     m_b: 3
     part2:

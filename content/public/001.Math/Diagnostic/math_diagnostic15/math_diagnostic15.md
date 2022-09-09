@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $7^{4} $=$ 2401$
+    expr: $6^{8} $=$ 1679616$
     part1:
       ans1:
-        value: $log_72401 = 4$
+        value: $log_61679616 = 8$
       ans2:
-        value: $log_74 = 2401$
+        value: $log_68 = 1679616$
       ans3:
-        value: $log_24014 = 7$
+        value: $log_16796168 = 6$
       ans4:
-        value: $log_42401 = 7$
+        value: $log_81679616 = 6$
       ans5:
         value: Don't Know
 ---

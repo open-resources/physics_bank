@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $x$ = $\dfrac{(n)}{(o + 9q)} $
+    expr: $x$ = $\dfrac{(m)}{(j - 8u)} $
     part1:
       ans1:
-        value: o = ${ \frac{n}{x} - 9 q}$
+        value: j = ${ \frac{m}{x} + 8 u}$
       ans2:
-        value: o = ${\frac{9 q x}{n}}$
+        value: j = ${- \frac{8 u x}{m}}$
       ans3:
-        value: o = ${\frac{n}{9 q x}}$
+        value: j = ${- \frac{m}{8 u x}}$
       ans4:
-        value: o = ${\frac{- 9 q + x}{n}}$
+        value: j = ${\frac{8 u + x}{m}}$
       ans5:
         value: Don't Know
 ---
