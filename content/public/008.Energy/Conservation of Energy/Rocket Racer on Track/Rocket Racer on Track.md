@@ -36,10 +36,10 @@ substitutions:
   params:
     vars:
       title: Package on a Hill
-    m: 19
-    va: 5
-    vb: 26
-    h: 46
+    m: 20
+    va: 3
+    vb: 20
+    h: 20
     d: 48
 ---
 # {{ params.vars.title }}

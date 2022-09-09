@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $m$ = $\dfrac{(x)}{(h - 7t)} $
+    expr: $c$ = $\dfrac{(q)}{(t + 4g)} $
     part1:
       ans1:
-        value: h = ${ 7 t + \frac{x}{m}}$
+        value: t = ${ - 4 g + \frac{q}{c}}$
       ans2:
-        value: h = ${- \frac{7 m t}{x}}$
+        value: t = ${\frac{4 c g}{q}}$
       ans3:
-        value: h = ${- \frac{x}{7 m t}}$
+        value: t = ${\frac{q}{4 c g}}$
       ans4:
-        value: h = ${\frac{m + 7 t}{x}}$
+        value: t = ${\frac{c - 4 g}{q}}$
       ans5:
         value: Don't Know
 ---

@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic23
-    a: 4
-    b: 9
-    formula: $x^{4} \cos{\left(9 x \right)}$
+    a: 1
+    b: 2
+    formula: $x \cos{\left(2 x \right)}$
     part1:
       ans1:
-        value: $- 9 x^{4} \sin{\left(9 x \right)} + 4 x^{3} \cos{\left(9 x \right)}$
+        value: $- 2 x \sin{\left(2 x \right)} + \cos{\left(2 x \right)}$
       ans2:
-        value: $- 9 x^{4} \sin{\left(9 x \right)} $
+        value: $- 2 x \sin{\left(2 x \right)} $
       ans3:
-        value: $ 4 x^{3} \sin{\left(9 x \right)}$
+        value: $ \sin{\left(2 x \right)}$
       ans4:
-        value: $9 x^{4} \cos{\left(9 x \right)} + 4 x^{3} \sin{\left(9 x \right)}$
+        value: $2 x \cos{\left(2 x \right)} + \sin{\left(2 x \right)}$
       ans5:
         value: Don't Know
 ---

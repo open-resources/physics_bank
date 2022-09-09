@@ -45,8 +45,8 @@ substitutions:
     vars:
       title: Yoyo Spin
       units: $m/s$
-    r1: 25
-    r2: 29
+    r1: 15
+    r2: 20
 ---
 # {{ params.vars.title }}
 A performer spins two yoyos at full length in a loop as part of a trick.

@@ -50,8 +50,8 @@ substitutions:
   params:
     vars:
       title: Perfectly Inelastic Collision
-    v1: 2
-    v2: 3
+    v1: 3
+    v2: 2
 ---
 # {{ params.vars.title }}
 Particles of mass $m$ and $2m$ have velocities $v_1=$ {{ params.v1 }}$v\hat{x}$ and $v_2=$ {{ params.v2 }}$v\hat{y}$ respectively.

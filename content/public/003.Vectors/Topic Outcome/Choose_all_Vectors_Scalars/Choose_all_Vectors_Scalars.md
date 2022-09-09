@@ -40,13 +40,13 @@ substitutions:
       ans2:
         value: Length
       ans3:
-        value: Speed
+        value: Average Acceleration
       ans4:
-        value: Average Velocity
+        value: Velocity
       ans5:
-        value: Force
+        value: Average Velocity
       ans6:
-        value: Acceleration
+        value: Weight
 ---
 # {{ params.vars.title }}
 

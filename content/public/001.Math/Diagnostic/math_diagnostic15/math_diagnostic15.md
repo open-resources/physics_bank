@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $7^{3} $=$ 343$
+    expr: $8^{2} $=$ 64$
     part1:
       ans1:
-        value: $log_7343 = 3$
+        value: $log_864 = 2$
       ans2:
-        value: $log_73 = 343$
+        value: $log_82 = 64$
       ans3:
-        value: $log_3433 = 7$
+        value: $log_642 = 8$
       ans4:
-        value: $log_3343 = 7$
+        value: $log_264 = 8$
       ans5:
         value: Don't Know
 ---

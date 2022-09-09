@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic25
-    expr: $\dfrac{ 6-e^{(-8x)}}{9-x}$
+    expr: $\dfrac{ 8-e^{(-7x)}}{9-x}$
     part1:
       ans1:
-        value: 5/9
+        value: 7/9
       ans2:
         value: Negative Infinity
       ans3:
-        value: 0.6666666666666666
+        value: 0.8888888888888888
       ans4:
-        value: 6
+        value: 8
       ans5:
         value: Don't Know
 ---
