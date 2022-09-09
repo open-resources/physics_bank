@@ -36,7 +36,7 @@ substitutions:
   params:
     vars:
       title: Bike on a Hill
-    R: 256
+    R: 182
 ---
 # {{ params.vars.title }}
 <img src="Connected Balls on Hill.png" width=400>

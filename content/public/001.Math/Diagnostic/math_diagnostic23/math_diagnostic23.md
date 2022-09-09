@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic23
-    a: 1
-    b: 2
-    formula: $x \cos{\left(2 x \right)}$
+    a: 8
+    b: 4
+    formula: $x^{8} \cos{\left(4 x \right)}$
     part1:
       ans1:
-        value: $- 2 x \sin{\left(2 x \right)} + \cos{\left(2 x \right)}$
+        value: $- 4 x^{8} \sin{\left(4 x \right)} + 8 x^{7} \cos{\left(4 x \right)}$
       ans2:
-        value: $- 2 x \sin{\left(2 x \right)} $
+        value: $- 4 x^{8} \sin{\left(4 x \right)} $
       ans3:
-        value: $ \sin{\left(2 x \right)}$
+        value: $ 8 x^{7} \sin{\left(4 x \right)}$
       ans4:
-        value: $2 x \cos{\left(2 x \right)} + \sin{\left(2 x \right)}$
+        value: $4 x^{8} \cos{\left(4 x \right)} + 8 x^{7} \sin{\left(4 x \right)}$
       ans5:
         value: Don't Know
 ---

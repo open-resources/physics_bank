@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $c$ = $\dfrac{(q)}{(t + 4g)} $
+    expr: $f$ = $\dfrac{(n)}{(t - 9r)} $
     part1:
       ans1:
-        value: t = ${ - 4 g + \frac{q}{c}}$
+        value: t = ${ 9 r + \frac{n}{f}}$
       ans2:
-        value: t = ${\frac{4 c g}{q}}$
+        value: t = ${- \frac{9 f r}{n}}$
       ans3:
-        value: t = ${\frac{q}{4 c g}}$
+        value: t = ${- \frac{n}{9 f r}}$
       ans4:
-        value: t = ${\frac{c - 4 g}{q}}$
+        value: t = ${\frac{f + 9 r}{n}}$
       ans5:
         value: Don't Know
 ---

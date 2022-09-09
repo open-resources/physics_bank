@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-42x - 12y }{ 6 }$
+    expr: $\dfrac{8x - 36y }{ -4 }$
     part1:
       ans1:
-        value: $- 7 x - 2 y$
+        value: $- 2 x + 9 y$
       ans2:
-        value: $\dfrac{-7x - 2y}{6}$
+        value: $\dfrac{-2x + 9y}{-4}$
       ans3:
-        value: $-2x - 7y$
+        value: $9x - 2y$
       ans4:
-        value: $-42x - 12y$
+        value: $8x + 36y$
       ans5:
         value: Don't know.
 ---

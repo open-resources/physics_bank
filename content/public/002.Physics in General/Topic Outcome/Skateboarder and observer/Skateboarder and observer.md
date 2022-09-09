@@ -71,16 +71,16 @@ part5:
 substitutions:
   params:
     vars:
-      name1: Savannah
-      name2: Mateo
+      name1: Emilia
+      name2: Lorenzo
       title: A Skateboarder and an Observer
       unit_v: $m/s$
       unit_t: $s$
       unit_x: $m$
-    v: 1.64
-    v_b: 3.23
-    h: 3.84
-    m_s: 77.1
+    v: 1.54
+    v_b: 3.06
+    h: 2.36
+    m_s: 70.7
     m_b: 1.34
 ---
 # {{ params.vars.title }}
