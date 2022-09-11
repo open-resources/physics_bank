@@ -17,7 +17,8 @@ taxonomy:
 - undefined
 tags:
 - AP
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets:
 - L5Q1.png
 part1:
@@ -35,7 +36,7 @@ substitutions:
       units: $ft/s$
     yards: 100
     max_speed_t: 4
-    overall_t: 6
+    overall_t: 5
 ---
 # {{ params.vars.title }}
 <img src="L5Q1.png" width=85%>

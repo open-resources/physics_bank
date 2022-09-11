@@ -20,7 +20,8 @@ span:
 length:
 - long
 tags:
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 - JR
 assets:
 - Rocket Racer on Track.png
@@ -36,10 +37,10 @@ substitutions:
   params:
     vars:
       title: Package on a Hill
-    m: 15
+    m: 13
     va: 5
-    vb: 26
-    h: 39
+    vb: 20
+    h: 45
     d: 41
 ---
 # {{ params.vars.title }}

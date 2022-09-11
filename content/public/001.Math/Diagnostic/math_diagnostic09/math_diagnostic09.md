@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $e$ = $\dfrac{(j)}{(p + 2d)} $
+    expr: $n$ = $\dfrac{(l)}{(w + 10e)} $
     part1:
       ans1:
-        value: p = ${ - 2 d + \frac{j}{e}}$
+        value: w = ${ - 10 e + \frac{l}{n}}$
       ans2:
-        value: p = ${\frac{2 d e}{j}}$
+        value: w = ${\frac{10 e n}{l}}$
       ans3:
-        value: p = ${\frac{j}{2 d e}}$
+        value: w = ${\frac{l}{10 e n}}$
       ans4:
-        value: p = ${\frac{- 2 d + e}{j}}$
+        value: w = ${\frac{- 10 e + n}{l}}$
       ans5:
         value: Don't Know
 ---

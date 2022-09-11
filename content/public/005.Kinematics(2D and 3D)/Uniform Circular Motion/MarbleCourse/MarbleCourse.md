@@ -21,7 +21,8 @@ length:
 - average
 tags:
 - AP
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets:
 - L8Q1.png
 part1:
@@ -37,11 +38,11 @@ substitutions:
     vars:
       title: Marble Course
       units: $in$
-    max_acc_A: 0.7
-    max_acc_B: 1.0
-    ra: 343
-    rb: 371
-    angle: 53
+    max_acc_A: 0.5
+    max_acc_B: 0.9
+    ra: 339
+    rb: 366
+    angle: 42
 ---
 # {{ params.vars.title }}
 Two marbles travel in track as part of a Rube Goldberg machine.

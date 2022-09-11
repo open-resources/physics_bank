@@ -23,7 +23,8 @@ length:
 - average
 tags:
 - AP
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets:
 - L14Q1.png
 part1:
@@ -39,8 +40,8 @@ substitutions:
     vars:
       title: Pulley Crate
       units: ft/s^2
-    m: 102
-    f: 47
+    m: 51
+    f: 31
 ---
 # {{ params.vars.title }}
 

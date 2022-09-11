@@ -21,7 +21,8 @@ length:
 - average
 tags:
 - AP
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets:
 - L5Q4.png
 part1:
@@ -37,8 +38,8 @@ substitutions:
     vars:
       title: Rocket in the wind
       units: ${\circ}$
-    v0: 12
-    wind_speed: 3.3
+    v0: 7
+    wind_speed: 0.3
 ---
 # {{ params.vars.title }}
 A model rocket looks to launch with a speed $v\_{0} = {{params.v0}} m/s$.

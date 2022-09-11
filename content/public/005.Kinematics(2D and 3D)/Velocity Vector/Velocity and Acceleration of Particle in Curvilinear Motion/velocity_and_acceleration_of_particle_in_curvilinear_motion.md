@@ -22,7 +22,8 @@ length:
 - average
 tags:
 - AP
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets: null
 part1:
   type: number-input
@@ -43,11 +44,11 @@ substitutions:
   params:
     vars:
       title: Velocity and Acceleration of Particle in Curvilinear motion
-    x_position: 1
+    x_position: -4
     t: 0
     y_position: 0
-    vxcon: 23
-    vxcof: 14
+    vxcon: 22
+    vxcof: 12
 ---
 # {{ params.vars.title }}
 The curvilinear motion of a particle is defined by the x velocity, $v\_{x} = {{params.vxcon}} - {{params.vxcof}}t$ and the y position, $y = 50 - 2t^2$,

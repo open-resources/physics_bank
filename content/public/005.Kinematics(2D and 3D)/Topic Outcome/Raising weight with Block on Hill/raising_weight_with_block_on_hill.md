@@ -22,7 +22,8 @@ length:
 - average
 tags:
 - AP
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets:
 - L13Q3.png
 part1:
@@ -47,8 +48,8 @@ substitutions:
       title: Raising weight with Block on Hill
       units_v: m/s
       units_a: m/s^2
-    v_b: 4.2
-    a_b: 0.8
+    v_b: 4.9
+    a_b: 2.6
 ---
 # {{ params.vars.title }}
 <img src="L13Q3.png" width=85%>

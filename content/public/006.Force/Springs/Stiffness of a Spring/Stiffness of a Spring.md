@@ -20,7 +20,8 @@ span:
 length:
 - long
 tags:
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 - JR
 assets:
 - Stiffness of a Spring.png
@@ -36,11 +37,11 @@ substitutions:
   params:
     vars:
       title: Stiffness of a Spring
-    h: 369
-    F: 99.21561713004814
-    x: 152
-    d: 59
-    m: 1
+    h: 400
+    F: 225.5256080743233
+    x: 270
+    d: 29
+    m: 4
 ---
 # {{ params.vars.title }}
 <img src="Stiffness of a Spring.png" width=400>

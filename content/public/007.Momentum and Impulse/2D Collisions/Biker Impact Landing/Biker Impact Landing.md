@@ -20,7 +20,8 @@ span:
 length:
 - long
 tags:
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 - JR
 assets:
 - Snowboarder Impact Landing.png
@@ -45,10 +46,10 @@ substitutions:
     vars:
       title: Biker Impact Landing
     v: 7
-    t: 0.05
-    ad: 17
-    m: 71
-    thetad: 32
+    t: 0.12
+    ad: 26
+    m: 70
+    thetad: 40
 ---
 # {{ params.vars.title }}
 <img src="Snowboarder Impact Landing.png" width=400>

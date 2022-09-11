@@ -20,7 +20,8 @@ span:
 length:
 - long
 tags:
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 - JR
 assets:
 - Springs On a Disk.gif
@@ -53,12 +54,12 @@ substitutions:
   params:
     vars:
       title: Clutch Plate Dampening System
-    w: 177
-    d: 98
-    k: 218
-    m: 0.3
-    x: 18
-    d2: 1.96
+    w: 152
+    d: 77
+    k: 224
+    m: 0.2
+    x: 17
+    d2: 1.81
 ---
 # {{ params.vars.title }}
 <img src="Springs On a Disk.gif" width=800>

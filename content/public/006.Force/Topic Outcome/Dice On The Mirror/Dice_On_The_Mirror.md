@@ -22,7 +22,8 @@ length:
 - average
 tags:
 - AP
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets:
 - L14Q3.png
 part1:
@@ -38,8 +39,8 @@ substitutions:
     vars:
       title: Dice on the Mirror
       units: ^{\circ}
-    a: 3
-    theta: 12
+    a: 4
+    theta: 9
 ---
 # {{ params.vars.title }}
 

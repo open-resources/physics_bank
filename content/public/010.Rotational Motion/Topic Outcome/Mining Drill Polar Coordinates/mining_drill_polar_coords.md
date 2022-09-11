@@ -21,7 +21,8 @@ length:
 - long
 tags:
 - AP
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets:
 - L8Q2.png
 part1:
@@ -58,12 +59,12 @@ substitutions:
   params:
     vars:
       title: Mining Drill Polar Coordinates
-    d: 5
-    theta: 7
-    dot_theta: 10
+    d: 4
+    theta: 5
+    dot_theta: 5
     ddot_theta: 8
-    l: 9
-    dot_l: 7
+    l: 6
+    dot_l: 9
     ddot_l: 5
 ---
 # {{ params.vars.title }}

@@ -20,7 +20,8 @@ span:
 length:
 - average
 tags:
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 - JR
 assets:
 - L22Q1.png
@@ -45,7 +46,7 @@ substitutions:
     vars:
       title: Pool Trickshot
     thetad: 30
-    e: 0.95
+    e: 0.94
 ---
 # {{ params.vars.title }}
 <img src="L22Q1.png" width=400>

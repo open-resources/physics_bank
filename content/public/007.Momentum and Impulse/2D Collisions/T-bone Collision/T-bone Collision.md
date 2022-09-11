@@ -20,7 +20,8 @@ span:
 length:
 - average
 tags:
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 - JR
 assets:
 - T-bone Collision.png
@@ -36,10 +37,10 @@ substitutions:
   params:
     vars:
       title: T-bone Collision
-    ma: 1084
-    mb: 1438
-    vak: 42
-    thetad: 43
+    ma: 1174
+    mb: 1418
+    vak: 53
+    thetad: 39
 ---
 # {{ params.vars.title }}
 <img src="T-bone Collision.png" width=400>

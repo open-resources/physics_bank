@@ -20,7 +20,8 @@ span:
 length:
 - long
 tags:
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 - JR
 assets:
 - Spring Restraining Cart.png
@@ -36,13 +37,13 @@ substitutions:
   params:
     vars:
       title: Trapped Hiker
-    m: 71
-    F: 1409
-    x1: 6.0
-    d: 17.0
-    h: 8.0
-    k: 31
-    thetad: 5
+    m: 92
+    F: 1432
+    x1: 4.0
+    d: 19.0
+    h: 9.0
+    k: 24
+    thetad: 10
 ---
 # {{ params.vars.title }}
 <img src="Spring Restraining Cart.png" width=400>

@@ -20,7 +20,8 @@ span:
 length:
 - average
 tags:
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 - JR
 assets:
 - Spring Potential Energy Rail.png
@@ -36,11 +37,11 @@ substitutions:
   params:
     vars:
       title: Spring Potential Energy Rail
-    m: 403
-    xi: 26.0
-    x: 58.0
-    R: 773.0
-    k: 173
+    m: 415
+    xi: 21.0
+    x: 57.0
+    R: 888.0
+    k: 115
 ---
 # {{ params.vars.title }}
 <img src="Spring Potential Energy Rail.png" width=400>

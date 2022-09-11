@@ -20,7 +20,8 @@ span:
 length:
 - long
 tags:
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 - JR
 assets:
 - Marble in a Funnel.png
@@ -36,10 +37,10 @@ substitutions:
   params:
     vars:
       title: Coin in a Funnel
-    r1: 1.36
-    vo: 0.43
-    r2: 0.252
-    ad: 37
+    r1: 1.03
+    vo: 0.6
+    r2: 0.293
+    ad: 15
 ---
 # {{ params.vars.title }}
 <img src="Marble in a Funnel.png" width=400>

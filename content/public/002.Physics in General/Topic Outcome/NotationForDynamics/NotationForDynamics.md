@@ -20,7 +20,8 @@ span:
 length:
 - Short
 tags:
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 - Dynamics
 - Notation
 - JR

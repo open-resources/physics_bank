@@ -21,7 +21,8 @@ length:
 - long
 tags:
 - AP
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets: null
 part1:
   type: number-input
@@ -51,14 +52,14 @@ substitutions:
   params:
     vars:
       title: Polar Coordinates from Functions
-    a1: 7
-    a2: 7
-    b1: 5
-    b2: 10
-    c1: 5
-    c2: 2
-    v: 7i + (5j) + (5k)
-    a: 7i + (10j) + (2k)
+    a1: 10
+    a2: 3
+    b1: -3
+    b2: 4
+    c1: -4
+    c2: -7
+    v: 10i + (-3j) + (-4k)
+    a: 3i + (4j) + (-7k)
 ---
 # {{ params.vars.title }}
 The velocity and acceleration of a particle at a moment in time is given by $v = {{params.v}}m/s$ and

@@ -21,7 +21,8 @@ length:
 - average
 tags:
 - AP
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets:
 - L11Q4.png
 part1:
@@ -44,11 +45,11 @@ substitutions:
   params:
     vars:
       title: Relative Motion on a Curve
-    v: 53
-    r: 68
-    d: 29
-    a: 1.6
-    theta: 44
+    v: 35
+    r: 69
+    d: 21
+    a: 2.4
+    theta: 32
 ---
 # {{ params.vars.title }}
 <img src="L11Q4.png" width=85%>

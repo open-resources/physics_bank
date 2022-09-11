@@ -21,7 +21,8 @@ span:
 length:
 - average
 tags:
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets:
 - L13Q2.png
 part1:
@@ -37,8 +38,8 @@ substitutions:
     vars:
       title: Cart raising a load
       units: m/s
-    v_a: 5
-    x: 8
+    v_a: 7
+    x: 7
     h: 4
 ---
 # {{ params.vars.title }}

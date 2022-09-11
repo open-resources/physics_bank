@@ -20,7 +20,8 @@ span:
 length:
 - average
 tags:
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 - JR
 assets:
 - BulletCart Energy Loss.png
@@ -44,9 +45,9 @@ substitutions:
   params:
     vars:
       title: BulletCart Energy Loss
-    m: 43
-    mbg: 54
-    vb: 418
+    m: 31
+    mbg: 68
+    vb: 611
 ---
 # {{ params.vars.title }}
 <img src="BulletCart Energy Loss.png" width=400>

@@ -21,7 +21,8 @@ length:
 - long
 tags:
 - AP
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets:
 - L7Q1.png
 part1:
@@ -44,10 +45,10 @@ substitutions:
   params:
     vars:
       title: Highway Speeding
-    d: 497
-    r_dot: 176
-    angle1: 56
-    angle2: 43
+    d: 399
+    r_dot: 174
+    angle1: 57
+    angle2: 41
 ---
 # {{ params.vars.title }}
 <img src="L7Q1.png" width=90%>

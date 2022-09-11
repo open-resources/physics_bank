@@ -60,21 +60,21 @@ substitutions:
       title: A Frictionless Air Track?
       name: Aliyah
       units: $m/s^2$
-    m1: 461.0
-    m2: 44.66
-    d_a: 0.01
-    mean: 1.61
-    sd: 0.138
-    a1: 1.54
-    a2: 1.7
-    a3: 1.7
-    a4: 1.77
-    a5: 1.57
-    a6: 1.72
-    a7: 1.76
-    a8: 1.58
-    a9: 1.33
-    a10: 1.44
+    m1: 209.0
+    m2: 48.06
+    d_a: 0.02
+    mean: 1.53
+    sd: 0.133
+    a1: 1.61
+    a2: 1.72
+    a3: 1.61
+    a4: 1.5
+    a5: 1.46
+    a6: 1.58
+    a7: 1.74
+    a8: 1.34
+    a9: 1.37
+    a10: 1.41
     part4:
       ans1:
         value: The track is frictionless because $a_{expected}$ does not agree with

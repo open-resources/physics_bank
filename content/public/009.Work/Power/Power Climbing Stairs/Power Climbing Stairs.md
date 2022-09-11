@@ -20,7 +20,8 @@ span:
 length:
 - average
 tags:
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 - JR
 assets:
 - Power Climbing Stairs.png
@@ -45,8 +46,8 @@ substitutions:
     vars:
       title: Power Climbing Stairs
     W: 170
-    t: 4
-    h: 13
+    t: 7
+    h: 11
 ---
 # {{ params.vars.title }}
 A ${{ params.W }}lb$ jogger jogs up a flight of stairs ${{ params.h }}ft$ high in ${{ params.t }}$ seconds.

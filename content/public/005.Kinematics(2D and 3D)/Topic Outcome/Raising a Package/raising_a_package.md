@@ -22,7 +22,8 @@ length:
 - short
 tags:
 - AP
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets:
 - L13Q1.png
 part1:
@@ -38,8 +39,8 @@ substitutions:
     vars:
       title: Raising a Package
       units: mm
-    v_a: 317
-    t: 5
+    v_a: 339
+    t: 6
 ---
 # {{ params.vars.title }}
 

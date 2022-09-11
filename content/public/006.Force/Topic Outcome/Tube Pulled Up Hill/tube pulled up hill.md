@@ -23,7 +23,8 @@ length:
 - average
 tags:
 - AP
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets:
 - L14Q2.png
 part1:
@@ -46,11 +47,11 @@ substitutions:
   params:
     vars:
       title: Tube pulled Uphill
-    m: 55
-    theta_s: 17
-    theta_2: 8
-    T_2: 200
-    T_1: 121
+    m: 44
+    theta_s: 16
+    theta_2: 14
+    T_2: 188
+    T_1: 104
 ---
 # {{ params.vars.title }}
 <img src="L14Q2.png" width=80%>

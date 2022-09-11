@@ -17,7 +17,8 @@ taxonomy:
 - undefined
 tags:
 - AP
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets:
 - L2Q2_drawing.png
 part1:
@@ -33,7 +34,7 @@ substitutions:
     vars:
       title: Asteroid Equal Attraction
       units: $km$
-    x: 10770
+    x: 14393
 ---
 # {{ params.vars.title }}
 <img src="L2Q2_drawing.png" width=90% style="padding: 5%">

@@ -20,7 +20,8 @@ span:
 length:
 - long
 tags:
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 - JR
 assets:
 - Force on a Waterslide.png
@@ -52,11 +53,11 @@ substitutions:
   params:
     vars:
       title: Force on a Waterslide
-    va: 14
-    vc: 6
-    W: 67
-    d: 11
-    r: 5
+    va: 12
+    vc: 7
+    W: 71
+    d: 13
+    r: 7
 ---
 # {{ params.vars.title }}
 <img src="Force on a Waterslide.png" width=400>

@@ -21,7 +21,8 @@ length:
 - average
 tags:
 - AP
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets:
 - L11Q3.png
 part1:
@@ -44,10 +45,10 @@ substitutions:
   params:
     vars:
       title: Relative Motion of Two Swimmers
-    v: 4
-    h: 16
-    d: 12
-    t: 9
+    v: 2
+    h: 24
+    d: 34
+    t: 10
 ---
 # {{ params.vars.title }}
 <img src="L11Q3.png" width=85%>

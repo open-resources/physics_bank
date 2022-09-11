@@ -21,7 +21,8 @@ length:
 - average
 tags:
 - AP
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets:
 - L10Q1.png
 part1:
@@ -52,10 +53,10 @@ substitutions:
   params:
     vars:
       title: Aircraft Liftoff 3D
-    v: 5
-    z: 341
-    x: 491
-    angle: 47
+    v: 9
+    z: 354
+    x: 448
+    angle: 35
 ---
 # {{ params.vars.title }}
 <img src="L10Q1.png" width=85%>

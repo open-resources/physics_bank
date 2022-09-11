@@ -20,7 +20,8 @@ span:
 length:
 - long
 tags:
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 - JR
 - final_exam
 assets:
@@ -44,11 +45,11 @@ substitutions:
   params:
     vars:
       title: Tube up a Hill
-    W: 577
-    t: 30
-    v: 5
-    P: 7
-    P2: 9
+    W: 655
+    t: 13
+    v: 4
+    P: 8
+    P2: 10
 ---
 # {{ params.vars.title }}
 <img src="Log up a Hill.png" width=400>

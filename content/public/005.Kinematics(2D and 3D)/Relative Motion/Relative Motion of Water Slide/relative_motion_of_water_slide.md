@@ -22,7 +22,8 @@ length:
 - long
 tags:
 - AP
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets:
 - L11Q5.png
 part1:
@@ -61,10 +62,10 @@ substitutions:
   params:
     vars:
       title: Relative Motion of Lazy River
-    d1: 4
-    d2: 9
-    theta1: 22
-    theta2: 68
+    d1: 3
+    d2: 2
+    theta1: 30
+    theta2: 60
     v_AB: 14
     v_B: 4
 ---

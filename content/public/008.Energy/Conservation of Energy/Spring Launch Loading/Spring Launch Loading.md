@@ -20,7 +20,8 @@ span:
 length:
 - long
 tags:
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 - JR
 - final_exam
 assets:
@@ -37,12 +38,12 @@ substitutions:
   params:
     vars:
       title: Spring Launch Loading
-    m: 50
-    F: 390
-    x1: 0.243
-    d: 1.13
-    h: 1.16
-    k: 50
+    m: 46
+    F: 322
+    x1: 0.138
+    d: 0.99
+    h: 0.7
+    k: 59
 ---
 # {{ params.vars.title }}
 <img src="Slider Restricted by Spring.png" width=100%>

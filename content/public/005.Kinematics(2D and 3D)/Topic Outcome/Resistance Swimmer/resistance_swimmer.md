@@ -22,7 +22,8 @@ length:
 - average
 tags:
 - AP
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets:
 - L11Q1.png
 part1:
@@ -45,10 +46,10 @@ substitutions:
   params:
     vars:
       title: Resistance Swimmer
-    v: 1
-    h: 13
-    x: 5
-    a: 0.4
+    v: 3
+    h: 12
+    x: 6
+    a: 0.2
 ---
 # {{ params.vars.title }}
 <img src="L11Q1.png" width=85%>

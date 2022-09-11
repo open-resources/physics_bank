@@ -20,7 +20,8 @@ span:
 length:
 - average
 tags:
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 - JR
 assets:
 - Connected Balls on Hill.png
@@ -36,7 +37,7 @@ substitutions:
   params:
     vars:
       title: Bike on a Hill
-    R: 271
+    R: 255
 ---
 # {{ params.vars.title }}
 <img src="Connected Balls on Hill.png" width=400>

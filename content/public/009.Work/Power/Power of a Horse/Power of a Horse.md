@@ -20,7 +20,8 @@ span:
 length:
 - average
 tags:
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 - JR
 assets:
 - Power of a Biker.png
@@ -37,9 +38,9 @@ substitutions:
     vars:
       title: Power of a Horse
       units: $W$
-    v_kph: 16
-    mass_kg: 159
-    grade: 9
+    v_kph: 11
+    mass_kg: 102
+    grade: 4
 ---
 # {{ params.vars.title }}
 <img src="Power of a Biker.png" width=400>

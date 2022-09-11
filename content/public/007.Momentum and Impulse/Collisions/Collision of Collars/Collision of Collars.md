@@ -20,7 +20,8 @@ span:
 length:
 - average
 tags:
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 - JR
 assets:
 - Collision of Collars.png
@@ -44,10 +45,10 @@ substitutions:
   params:
     vars:
       title: Collision of Collars
-    W1: 4
-    W2: 10
-    v1: 23
-    v2: 5
+    W1: 5
+    W2: 8
+    v1: 25
+    v2: 4
     e: 0.63
 ---
 # {{ params.vars.title }}

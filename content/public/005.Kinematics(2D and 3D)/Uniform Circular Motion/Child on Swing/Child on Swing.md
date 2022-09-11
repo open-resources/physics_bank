@@ -22,7 +22,8 @@ length:
 - average
 tags:
 - AP
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets:
 - L11Q2.png
 part1:
@@ -45,10 +46,10 @@ substitutions:
   params:
     vars:
       title: Child on Swing
-    v: 595
-    h: 593
-    d: 940
-    r2: 1187
+    v: 646
+    h: 498
+    d: 808
+    r2: 1121
 ---
 # {{ params.vars.title }}
 <img src="L11Q2.png" width=85%>

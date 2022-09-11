@@ -20,7 +20,8 @@ span:
 length:
 - long
 tags:
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 - JR
 assets:
 - Marble in a Bowl.png
@@ -36,9 +37,9 @@ substitutions:
   params:
     vars:
       title: Skater in a Bowl
-    ro: 4.79
+    ro: 4.54
     vo: 5
-    h: 2.41
+    h: 1.25
 ---
 # {{ params.vars.title }}
 <img src="Marble in a Bowl.png" width=400>

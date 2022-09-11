@@ -20,7 +20,8 @@ span:
 length:
 - undefined
 tags:
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 - JR
 assets:
 - L1Q2_drawing.png
@@ -70,9 +71,9 @@ substitutions:
   params:
     vars:
       title: Vector Operations
-    v1: 6
-    v2: 10
-    angle: 58
+    v1: 4
+    v2: 9
+    angle: 39
 ---
 # {{ params.vars.title }}
 <img src="L1Q2_drawing.png" width=400>

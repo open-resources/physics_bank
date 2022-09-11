@@ -33,17 +33,17 @@ substitutions:
   params:
     vars:
       title: Force On An Object
-    m: 39
+    m: 34
     part1:
       ans1:
-        value: $F = $ -97.5 $N$
+        value: $F = $ -85.0 $N$
       ans2:
-        value: $F = $ 97.5 $N$
+        value: $F = $ 85.0 $N$
       ans3:
-        value: $F = $ 97.5 $N$ from 2 to 6 $s$, then $F = $ -97.5 $N$ from 6 to 10
+        value: $F = $ 85.0 $N$ from 2 to 6 $s$, then $F = $ -85.0 $N$ from 6 to 10
           $s$
       ans4:
-        value: $F = $ -97.5 $N$ from 2 to 6 $s$, then $F = $ 97.5 $N$ from 6 to 10
+        value: $F = $ -85.0 $N$ from 2 to 6 $s$, then $F = $ 85.0 $N$ from 6 to 10
           $s$
       ans5:
         value: Impossible to tell

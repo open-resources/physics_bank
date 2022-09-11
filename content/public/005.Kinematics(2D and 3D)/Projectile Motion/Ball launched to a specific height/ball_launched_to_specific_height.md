@@ -21,7 +21,8 @@ length:
 - long
 tags:
 - AP
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets:
 - L4Q4.png
 part1:
@@ -60,8 +61,8 @@ substitutions:
   params:
     vars:
       title: Projectile of ball launched to a specific height
-    v0: 255
-    distance: 487
+    v0: 374
+    distance: 357
 ---
 # {{ params.vars.title }}
 A ball is launched vertically at Point A with an initial speed of $v = {{params.v0}} m/s$.

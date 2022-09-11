@@ -17,7 +17,8 @@ taxonomy:
 - undefined
 tags:
 - A.P.
-- APSC 181 - LA
+- APSC181
+- Lecture Activities
 assets: null
 part1:
   type: number-input
@@ -46,7 +47,7 @@ substitutions:
   params:
     vars:
       title: Weight units conversion
-    w_lbs: 141
+    w_lbs: 122
 ---
 # {{ params.vars.title }}
 A students has a mass of {{params.w_lbs}} $lbs$.
