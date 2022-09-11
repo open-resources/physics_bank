@@ -58,11 +58,11 @@ substitutions:
   params:
     vars:
       title: Mining Drill Polar Coordinates
-    d: 3
-    theta: 8
-    dot_theta: 5
-    ddot_theta: 6
-    l: 8
+    d: 5
+    theta: 7
+    dot_theta: 10
+    ddot_theta: 8
+    l: 9
     dot_l: 7
     ddot_l: 5
 ---

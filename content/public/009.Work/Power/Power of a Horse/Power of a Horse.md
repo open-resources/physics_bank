@@ -37,8 +37,8 @@ substitutions:
     vars:
       title: Power of a Horse
       units: $W$
-    v_kph: 10
-    mass_kg: 195
+    v_kph: 16
+    mass_kg: 159
     grade: 9
 ---
 # {{ params.vars.title }}

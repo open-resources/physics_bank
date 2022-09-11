@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $f$ = $\dfrac{(n)}{(t - 9r)} $
+    expr: $e$ = $\dfrac{(j)}{(p + 2d)} $
     part1:
       ans1:
-        value: t = ${ 9 r + \frac{n}{f}}$
+        value: p = ${ - 2 d + \frac{j}{e}}$
       ans2:
-        value: t = ${- \frac{9 f r}{n}}$
+        value: p = ${\frac{2 d e}{j}}$
       ans3:
-        value: t = ${- \frac{n}{9 f r}}$
+        value: p = ${\frac{j}{2 d e}}$
       ans4:
-        value: t = ${\frac{f + 9 r}{n}}$
+        value: p = ${\frac{- 2 d + e}{j}}$
       ans5:
         value: Don't Know
 ---
