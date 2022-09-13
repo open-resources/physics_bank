@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic12
-    expr: $7\over 7- x$ > $ 4$
+    expr: $7\over 7- x$ > $ 9$
     part1:
       ans1:
-        value: (21/4 < x) & (x < 7)
+        value: (56/9 < x) & (x < 7)
       ans2:
-        value: (21/4 > x) & (x > 7)
+        value: (56/9 > x) & (x > 7)
       ans3:
-        value: x > 7/4
+        value: x > 7/9
       ans4:
-        value: (192/7 < x) & (x < 28)
+        value: (432/7 < x) & (x < 63)
       ans5:
         value: Do not know
 ---

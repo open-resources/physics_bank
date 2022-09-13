@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $9^{5} $=$ 59049$
+    expr: $9^{8} $=$ 43046721$
     part1:
       ans1:
-        value: $log_959049 = 5$
+        value: $log_943046721 = 8$
       ans2:
-        value: $log_95 = 59049$
+        value: $log_98 = 43046721$
       ans3:
-        value: $log_590495 = 9$
+        value: $log_430467218 = 9$
       ans4:
-        value: $log_559049 = 9$
+        value: $log_843046721 = 9$
       ans5:
         value: Don't Know
 ---

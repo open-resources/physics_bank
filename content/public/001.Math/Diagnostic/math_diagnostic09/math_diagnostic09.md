@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $n$ = $\dfrac{(l)}{(w + 10e)} $
+    expr: $j$ = $\dfrac{(w)}{(m - 5p)} $
     part1:
       ans1:
-        value: w = ${ - 10 e + \frac{l}{n}}$
+        value: m = ${ 5 p + \frac{w}{j}}$
       ans2:
-        value: w = ${\frac{10 e n}{l}}$
+        value: m = ${- \frac{5 j p}{w}}$
       ans3:
-        value: w = ${\frac{l}{10 e n}}$
+        value: m = ${- \frac{w}{5 j p}}$
       ans4:
-        value: w = ${\frac{- 10 e + n}{l}}$
+        value: m = ${\frac{j + 5 p}{w}}$
       ans5:
         value: Don't Know
 ---

@@ -35,29 +35,29 @@ substitutions:
     vars:
       title: Motion of an Airplane
       units: km
-    v1: 81
-    v2: 100
-    a1: 43
-    a2: 42
-    dir1: north
+    v1: 72
+    v2: 80
+    a1: 15
+    a2: 49
+    dir1: south
     part1:
       ans1:
-        value: 181.0 km in a direction 42.4 degrees north of east.
+        value: 129.0 km in a direction 18.9 degrees south of east.
       ans2:
-        value: 181.0 km in a direction 42.4 degrees south of east.
+        value: 129.0 km in a direction 18.9 degrees north of east.
       ans3:
-        value: 32758.5 km in a direction 42.4 degrees north of east.
+        value: 16634.0 km in a direction 18.9 degrees south of east.
       ans4:
-        value: 32758.5 km in a direction 42.4 degrees south  of east.
+        value: 16634.0 km in a direction 18.9 degrees north  of east.
       ans5:
-        value: 181.0 km in a direction 89.3 degrees south of east.
+        value: 129.0 km in a direction 89.7 degrees north of east.
 ---
 # {{ params.vars.title }}
 A small plane flies {{params.v1}} km in a direction {{params.a1}} degrees {{params.dir1}} of east and then flies {{params.v2}} km in a direction {{params.a2}} degrees north of east.
 
 ## Part 1
 
-Use a graphical method to find the total distance the plane covers from the starting point and the direction of the path to the final position.
+Find the total distance the plane covers from the starting point and the direction of the path to the final position.
 
 ### Answer Section
 

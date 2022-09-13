@@ -67,8 +67,8 @@ substitutions:
   params:
     vars:
       title: Switching Connections
-    a: '3.0'
-    b: '4.0'
+    a: '1.0'
+    b: '3.0'
     v: '4.0'
 ---
 # {{ params.vars.title }}

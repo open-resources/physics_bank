@@ -94,39 +94,39 @@ substitutions:
     vars:
       title: A Mischievous Caracara
     v: 4
-    h: 10
+    h: 7
     part4:
       ans1:
         value: East
         feedback: Great! You got it.
       ans2:
-        value: South and down
+        value: North and up
         feedback: Hmh...Try again!
       ans3:
-        value: East and down
-        feedback: The nut does not start moving down immediately
-      ans4:
-        value: West and up
-        feedback: Hmh...Try again!
-      ans5:
         value: South and up
         feedback: Hmh...Try again!
-      ans6:
+      ans4:
         value: North and down
+        feedback: Hmh...Try again!
+      ans5:
+        value: West and down
+        feedback: Hmh...Try again!
+      ans6:
+        value: South and down
         feedback: Hmh...Try again!
     part7:
       ans1:
         value: Down
         feedback: Great! You got it.
       ans2:
-        value: South and down
+        value: North and down
         feedback: Hmh...Try again!
       ans3:
-        value: West
-        feedback: Gravity is the only source of acceleration!
+        value: West and down
+        feedback: Hmh...Try again!
       ans4:
-        value: East
-        feedback: Gravity is the only source of acceleration!
+        value: East and down
+        feedback: Hmh...Try again!
       ans5:
         value: South and up
         feedback: Hmh...Try again!

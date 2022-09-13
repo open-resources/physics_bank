@@ -59,13 +59,13 @@ substitutions:
   params:
     vars:
       title: Mining Drill Polar Coordinates
-    d: 4
+    d: 3
     theta: 5
-    dot_theta: 5
-    ddot_theta: 8
-    l: 6
-    dot_l: 9
-    ddot_l: 5
+    dot_theta: 7
+    ddot_theta: 7
+    l: 9
+    dot_l: 6
+    ddot_l: 6
 ---
 # {{ params.vars.title }}
 <img src="L8Q2.png" width=85%>
