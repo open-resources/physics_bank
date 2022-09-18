@@ -296,6 +296,7 @@ parts:
   - file: content/public/006.Force/Friction/Which_Block_Stops_First/Which_Block_Stops_First
   - file: content/public/006.Force/Friction/box_in_truck_bed_2/box_in_truck_bed_2
   - file: content/public/006.Force/Friction/box_in_vehicle/box_in_vehicle
+  - file: content/public/006.Force/Friction/box_up_ramp/box_up_ramp
   - file: content/public/006.Force/Friction/hand_pushing_blocks/hand_pushing_blocks
   - file: content/public/006.Force/Friction/spring_on_ramp/spring_on_ramp
   - file: content/public/006.Force/Friction/vehicle_in_circular_motion/vehicle_in_circular_motion
@@ -412,6 +413,7 @@ parts:
   - file: content/public/007.Momentum and Impulse/Impulse/Bouncing_Ball/Bouncing_Ball
   - file: content/public/007.Momentum and Impulse/Impulse/Impulse of a Bat/Impulse
       of a Bat
+  - file: content/public/007.Momentum and Impulse/Impulse/Impulse_of_a_particle/Impulse_of_a_particle
   - file: content/public/007.Momentum and Impulse/Impulse/Room on Fire/room_on_fire
   - file: content/public/007.Momentum and Impulse/Impulse/Speed_Before_Impact/Speed_Before_Impact
   - file: content/public/007.Momentum and Impulse/Impulse/Throwing an Egg/Throwing
