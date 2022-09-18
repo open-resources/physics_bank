@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic22
-    denom: 6
-    formula: $\cos{\left(\frac{x}{6} \right)}$
+    denom: 8
+    formula: $\sin{\left(\frac{x}{8} \right)}$
     part1:
       ans1:
-        value: ${6 \sin{\left(\frac{x}{6} \right)}}$
+        value: ${- 8 \cos{\left(\frac{x}{8} \right)}}$
       ans2:
-        value: ${- 6 \sin{\left(\frac{x}{6} \right)}}$
+        value: ${8 \cos{\left(\frac{x}{8} \right)}}$
       ans3:
-        value: ${12 \sin{\left(\frac{x}{6} \right)}}$
+        value: ${- 16 \cos{\left(\frac{x}{8} \right)}}$
       ans4:
-        value: ${3 \sin{\left(\frac{x}{6} \right)}}$
+        value: ${- 4 \cos{\left(\frac{x}{8} \right)}}$
 ---
 # {{ params.vars.title }}
 

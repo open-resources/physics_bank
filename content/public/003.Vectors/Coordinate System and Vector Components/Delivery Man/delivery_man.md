@@ -1,7 +1,7 @@
 ---
 title: Delivery Man
 topic: Vectors
-author: OpenStax University Physics Vol 2
+author: OpenStax University Physics Vol 1
 source: 2.54
 template_version: 1.3
 attribution: openstax-physics-vol2
@@ -77,14 +77,17 @@ substitutions:
     vars:
       title: Delivery Man
       units: km
-    dist1: 90
+    dist1: 20
     dist2: 100
-    dist3: 5
-    dist4: 80
+    dist3: 10
+    dist4: 70
 ---
 # {{ params.vars.title }}
-A delivery person starts at the post office, drives {{params.dist1}} km north, then {{params.dist2}} km west, then {{params.dist3}} km northeast, and finally {{params.dist4}} km north to stop for lunch.  Assume $+y$ is to the North, and $+x$ is to the East.
-Determine the following quantities
+A delivery person starts at the post office, drives {{params.dist1}} km north, then {{params.dist2}} km west, then {{params.dist3}} km northeast, and finally {{params.dist4}} km north to stop for lunch.
+
+Assume $+y$ is to the North, and $+x$ is to the East.
+
+Determine the following quantities:
 
 ## Part 1
 
@@ -104,7 +107,7 @@ Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 3
 
-How far is the restaurant from the post office?
+How far is the shortest path from the post office to the restaurant?
 
 ### Answer Section
 
@@ -112,7 +115,7 @@ Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 4
 
-If they return directly from the restaurant to the post office, what is the x component of their displacement vector on the return trip?
+If the delivery person returns from the restaurant to the post office, what is the **x component** of their displacement vector on this return trip?
 
 ### Answer Section
 
@@ -120,7 +123,7 @@ Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 5
 
-What is the y component of their displacement vector on the return trip?
+If the delivery person returns from the restaurant to the post office, what is the **y component** of their displacement vector on this return trip?
 
 ### Answer Section
 
@@ -128,7 +131,7 @@ Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 6
 
-What is their compass heading on the return trip? Pay close attention to how the positive direction of the angle is labeled in the input box.
+If the delivery person returns from the restaurant to the post office, what direction is their heading on this return trip? *Pay close attention to how the positive direction of the angle is labeled in the input box.*
 
 ### Answer Section
 

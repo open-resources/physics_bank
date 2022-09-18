@@ -37,9 +37,9 @@ substitutions:
   params:
     vars:
       title: Impulse of a Bat
-    F: 25809
-    t1: 0.002
-    t2: 0.008
+    F: 23930
+    t1: 0.001
+    t2: 0.006
     t3: 0.014
 ---
 # {{ params.vars.title }}

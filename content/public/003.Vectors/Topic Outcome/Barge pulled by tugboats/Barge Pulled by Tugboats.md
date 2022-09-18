@@ -82,23 +82,23 @@ substitutions:
   params:
     vars:
       title: Barge Pulled by Tugboats
-    F1: 4643
-    F2: 3332
-    theta_1: 35
-    theta_2: 27
+    F1: 3819
+    F2: 3629
+    theta_1: 30
+    theta_2: 6
     part6:
       ans1:
-        value: 9.64$^{\circ}$ to the left of AB.
+        value: 12.5$^{\circ}$ to the left of AB.
       ans2:
-        value: 9.64$^{\circ}$ to the right of AB.
+        value: 12.5$^{\circ}$ to the right of AB.
       ans3:
-        value: 80.4$^{\circ}$ to the left of AB.
+        value: 77.5$^{\circ}$ to the left of AB.
       ans4:
-        value: 80.4$^{\circ}$ to the right of AB.
+        value: 77.5$^{\circ}$ to the right of AB.
       ans5:
-        value: 96.4$^{\circ}$ to the left of AB.
+        value: 125.0$^{\circ}$ to the left of AB.
       ans6:
-        value: 96.4$^{\circ}$ to the right of AB.
+        value: 125.0$^{\circ}$ to the right of AB.
 ---
 # {{ params.vars.title }}
 A barge is pulled by the two tugboats shown in the following figure.
@@ -110,13 +110,15 @@ Assume $+y$ is straight ahead, and $+x$ is to the right.
 
 <div id="desc">
 <h5>Figure of a barge pulled by two tugboats.</h5>
-A straight line AB is drawn through the center of the barge. One tugboat pulls the barge to the left with a force of magnitude F one at an angle theta one relative to AB. The other tugboat pulls to the right with a force F two at angle theta two relative to AB.
+A straight line AB is drawn through the center of the barge.
+One tugboat pulls the barge to the left with a force of magnitude $F_1$ at an angle $	heta_1$ relative to AB.
+The other tugboat pulls to the right with a force $F_2$ at angle $	heta_2$ relative to AB.
 </div>
 
 ## Part 1
 
-Resolve the pulling forces to theircomponents.
-What is the $x$-component of the force above the line AB i.e. the right force?
+Resolve the pulling forces to their components.
+What is the $x$-component of the right-force (i.e. $F_2$)?
 Remember to consider the sign convention.
 
 ### Answer Section
@@ -125,8 +127,8 @@ Please enter in a numeric value in 'units of force'.
 
 ## Part 2
 
-Resolve the pulling forces to theircomponents.
-What is the $y$-component of the force above the line AB i.e. the right force?
+Resolve the pulling forces to their components.
+What is the $y$-component of the right-force (i.e. $F_2$)?
 Remember to consider the sign convention.
 
 ### Answer Section
@@ -135,8 +137,8 @@ Please enter in a numeric value in 'units of force'.
 
 ## Part 3
 
-Resolve the pulling forces to theircomponents.
-What is the $x$-component of the force below the line AB i.e. the left force?
+Resolve the pulling forces to their components.
+What is the $x$-component of the left-force (i.e. $F_1$)?
 Remember to consider the sign convention.
 
 ### Answer Section
@@ -145,8 +147,8 @@ Please enter in a numeric value in 'units of force'.
 
 ## Part 4
 
-Resolve the pulling forces to theircomponents.
-What is the $y$-component of the force below the line AB i.e. the left force?
+Resolve the pulling forces to their components.
+What is the $y$-component of the left-force (i.e. $F_1$)?
 Remember to consider the sign convention.
 
 ### Answer Section

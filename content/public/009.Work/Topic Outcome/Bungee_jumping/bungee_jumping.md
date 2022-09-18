@@ -34,10 +34,10 @@ substitutions:
       name: Abbas
     part1:
       ans1:
+        value: The tension point up, and Abbas moves up, so positive work is done.
+      ans2:
         value: The tension points down, and Abbas moves down, so negative work is
           done.
-      ans2:
-        value: The tension point up, and Abbas moves up, so positive work is done.
       ans3:
         value: The tension points up, and Abbas moves down, so negative work is done.
       ans4:

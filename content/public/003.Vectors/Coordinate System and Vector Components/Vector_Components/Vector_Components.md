@@ -57,10 +57,11 @@ substitutions:
         value: A sin θ
 ---
 # {{ params.vars.title }}
+For this question, consider two vectors **$\vec{A}$** and **$\vec{B}$** that are orthogonal to each other.
 
 ## Part 1
 
-If vectors **$\vec{A}$** and **$\vec{B}$** are orthogonal, what is the component of **$\vec{B}$** along the direction of **$\vec{A}$**?
+What is the component of **$\vec{B}$** along the direction of **$\vec{A}$**?
 
 ### Answer Section
 

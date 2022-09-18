@@ -31,7 +31,7 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic30
-      name: Emilia
+      name: Savannah
     sp1: 8
     sp2: 4
     part1:

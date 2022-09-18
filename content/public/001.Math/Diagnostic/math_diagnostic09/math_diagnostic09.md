@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $j$ = $\dfrac{(w)}{(m - 5p)} $
+    expr: $d$ = $\dfrac{(o)}{(j + 10s)} $
     part1:
       ans1:
-        value: m = ${ 5 p + \frac{w}{j}}$
+        value: j = ${ - 10 s + \frac{o}{d}}$
       ans2:
-        value: m = ${- \frac{5 j p}{w}}$
+        value: j = ${\frac{10 d s}{o}}$
       ans3:
-        value: m = ${- \frac{w}{5 j p}}$
+        value: j = ${\frac{o}{10 d s}}$
       ans4:
-        value: m = ${\frac{j + 5 p}{w}}$
+        value: j = ${\frac{d - 10 s}{o}}$
       ans5:
         value: Don't Know
 ---

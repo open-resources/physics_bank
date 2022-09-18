@@ -31,18 +31,18 @@ substitutions:
   params:
     vars:
       title: Firing a Ball using a Compressed Spring
-    choice: quadrupled (4x)
+    choice: doubled (2x)
     part1:
       ans1:
-        value: The ball will reach four times (4x) the height as before.
+        value: The ball will reach twice (2x) the height as before.
       ans2:
         value: The ball will reach one quarter (0.25x) of the height previously reached.
       ans3:
-        value: The ball will reach half (0.5x) of the height previously reached.
+        value: The ball will reach four times (4x) the height as before.
       ans4:
-        value: The ball will reach the same (1x) height as before.
+        value: The ball will reach half (0.5x) of the height previously reached.
       ans5:
-        value: The ball will reach twice (2x) the height as before.
+        value: The ball will reach the same (1x) height as before.
       ans6:
         value: The ball will reach thrice (3x) the height as before.
 ---

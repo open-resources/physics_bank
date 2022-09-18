@@ -33,17 +33,17 @@ substitutions:
   params:
     vars:
       title: Work on Sliding Object
-    v_i: '2'
-    v_f: 4
+    v_i: ''
+    v_f: 2
     part1:
       ans1:
-        value: 13 times the work required to accelerate the object from $v$ = 0 to
+        value: 4 times the work required to accelerate the object from $v$ = 0 to
           $v$
       ans2:
-        value: 11 times the work required to accelerate the object from $v$ = 0 to
+        value: 2 times the work required to accelerate the object from $v$ = 0 to
           $v$
       ans3:
-        value: 12 times the work required to accelerate the object from $v$ = 0 to
+        value: 3 times the work required to accelerate the object from $v$ = 0 to
           $v$
       ans4:
         value: Equal to the work required to accelerate the object from 3$v$ to 4$v$

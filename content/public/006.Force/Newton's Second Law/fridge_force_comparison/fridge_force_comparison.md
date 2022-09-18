@@ -32,7 +32,7 @@ substitutions:
   params:
     vars:
       title: Fridge Force Comparison
-      name: Ximena
+      name: Lorenzo
     part1:
       ans1:
         value: $F_{yr} = 2F_{fr}$

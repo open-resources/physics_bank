@@ -75,12 +75,12 @@ substitutions:
       units2: $\rm{J}$
     m: 102
     left_arm: 7
-    head: 14
+    head: 13
     V_L_i: 12
-    V_L_j: 8
+    V_L_j: 6
     V_H_i: -22
     V_H_j: -13
-    t: 0.8
+    t: 0.6
     part5:
       ans1:
         value: His head required more force
