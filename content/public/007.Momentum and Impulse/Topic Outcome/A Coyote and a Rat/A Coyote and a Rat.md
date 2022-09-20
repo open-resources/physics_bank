@@ -3,7 +3,7 @@ title: A Coyote and a Rat
 topic: Kinematics(1D)
 author: John Hopkinson
 source: PHYS 112 2017W1 002 Final Q15
-template_version: 1.3
+template_version: 1.4
 attribution: standard
 partialCredit: true
 singleVariant: false
@@ -30,34 +30,35 @@ length:
 - long
 tags:
 - PW
+- JR
 - final_exam
 assets: null
 part1:
   type: symbolic-input
   pl-customizations:
-    label: $x = $
-    variables: t, vf, vi, a
+    label: $x_{\text{coyote}}(t) = $
+    variables: t, dx, vr, ac
     weight: 1
     allow-blank: false
 part2:
   type: symbolic-input
   pl-customizations:
-    label: $v = $
-    variables: t, vf, vi, a
+    label: $v_{\text{coyote}}(t) = $
+    variables: t, dx, vr, ac
     weight: 1
     allow-blank: false
 part3:
   type: symbolic-input
   pl-customizations:
-    label: $x = $
-    variables: t, vf, vi, a
+    label: $x_{\text{rat}}(t) = $
+    variables: t, dx, vr, ac
     weight: 1
     allow-blank: false
 part4:
   type: symbolic-input
   pl-customizations:
-    label: $v = $
-    variables: t, vf, vi, a
+    label: $v_{\text{rat}}(t) = $
+    variables: t, dx, vr, ac
     weight: 1
     allow-blank: false
 part5:
@@ -66,156 +67,139 @@ part5:
     rtol: 0.05
     weight: 1
     allow-blank: true
-    label: $t= $
-    suffix: $s$
+    label: $t_{\text{catch}} = $
+    suffix: $\rm{s}$
 part6:
   type: number-input
   pl-customizations:
     rtol: 0.05
     weight: 1
     allow-blank: true
-    label: $v= $
-    suffix: $m/s$
+    label: $v_{\text{coyote}}(t_{\text{catch}}) = $
+    suffix: $\rm{m/s}$
 part7:
   type: number-input
   pl-customizations:
     rtol: 0.05
     weight: 1
     allow-blank: true
-    label: $v= $
-    suffix: $m/s$
+    label: $v_{\text{rat}}(t_{\text{catch}}) = $
+    suffix: $\rm{m/s}$
 part8:
   type: number-input
   pl-customizations:
     rtol: 0.05
     weight: 1
     allow-blank: true
-    label: $x= $
-    suffix: $m$
-part9:
-  type: number-input
-  pl-customizations:
-    rtol: 0.05
-    weight: 1
-    allow-blank: true
-    label: $v= $
-    suffix: $m/s$
+    label: $x_{\text{coyote}}(t_{\text{catch}}) = $x_{\text{rat}}(t_{\text{catch}})
+      = $
+    suffix: $\rm{m}$
 substitutions:
   params:
     vars:
       title: A Coyote and a Rat
-    m_c: 9
-    m_r: 5
-    d_b: 44
-    d_c: 22
+    dx: 28
     v_r: 6
-    a_c: 6
-    mu_k: 2.43
+    a_c: 7
 ---
 # {{ params.vars.title }}
-A {{ params.m_c }} $kg$ coyote notices a {{ params.m_r }} $kg$ rat running past it, but the rat has a possible route to safety. At the end of the field ({{ params.d_b }} $m$ to the right from where the rat starts) there is a thorny bush. If the rat can reach the bush before the coyote catches it, the coyote will not be able to pursue it any farther. At $t=0$ $s$, the rat is running towards the bush at a constant velocity of {{ params.v_r }} $m/s$, and the coyote is at rest, {{ params.d_c }} $m$ to the left of the rat. However, the coyote begins running to the right with an acceleration of $a = $ {{ params.a_c }} $m/s^2$.
+A coyote notices a rat running past it, toward a bush where the rat will be safe.
+The rat is running with a constant velocity of $v\_{\text{rat}} = {{ params.v_r }} \rm{m/s}$ and the coyote is at rest, $\Delta x = {{ params.d_x }} \rm{m}$ to the left of the rat.
+However, at $t=0 \rm{s}$, the coyote begins running to the right, in pursuit of the rat, with an acceleration of $a\_{\text{coyote}} = {{ params.a_c }} \rm{m/s^2}$.
 
-Set your reference frame to be located with the origin at the original location of the coyote, and the rightward direction corresponding to $x$-increasing.
+Set your reference frame to be located with the origin at the original location of the coyote and the rightward direction corresponding to the positive $x$-direction.
 
 ## Part 1
 
-Write the position of the coyote as a function of time. Do not plug in numerical values for velocity and acceleration for this part, enter answer using the variables below.
+Write the position of the coyote as a function of time $x\_{\text{coyote}}(t)$. Do not plug in numerical values for this part.
 
 Use the following table as a reference for each variable. Note that it may not be necessary to use every variable.
 
-| For        | Use |
-|------------|-----|
-| $\Delta t$ | t   |
-| $v_f$      | vf  |
-| $v_i$      | vi  |
-| $a$        | a   |
+| For                 | Use |
+|---------------------|-----|
+| $t$                 | t   |
+| $\Delta x$          | dx  |
+| $v\_{\text{rat}}$    | vr  |
+| $a\_{\text{coyote}}$ | ac  |
 
 ### Answer Section
 
 ## Part 2
 
-Write the velocity of the coyote as a function of time. Do not plug in numerical values for velocity and acceleration for this part, use the variables below to answer this part.
+Write the velocity of the coyote as a function of time $v\_{\text{coyote}}(t)$. Do not plug in numerical values for this part.
 
 Use the following table as a reference for each variable. Note that it may not be necessary to use every variable.
 
-| For        | Use |
-|------------|-----|
-| $\Delta t$ | t   |
-| $v_f$      | vf  |
-| $v_i$      | vi  |
-| $a$        | a   |
+| For                 | Use |
+|---------------------|-----|
+| $t$                 | t   |
+| $\Delta x$          | dx  |
+| $v\_{\text{rat}}$    | vr  |
+| $a\_{\text{coyote}}$ | ac  |
 
 ### Answer Section
 
 ## Part 3
 
-Write the position of the rat as a function of time. Using the variables below for velocity and acceleration.
+Write the position of the rat as a function of time $x\_{\text{rat}}(t)$. Do not plug in numerical values for this part.
 
 Use the following table as a reference for each variable. Note that it may not be necessary to use every variable.
 
-| For        | Use |
-|------------|-----|
-| $\Delta t$ | t   |
-| $v_f$      | vf  |
-| $v_i$      | vi  |
-| $a$        | a   |
+| For                 | Use |
+|---------------------|-----|
+| $t$                 | t   |
+| $\Delta x$          | dx  |
+| $v\_{\text{rat}}$    | vr  |
+| $a\_{\text{coyote}}$ | ac  |
 
 ### Answer Section
 
 ## Part 4
 
-Write the velocity of the rat as a function of time. Do not plug in numerical values for velocity and acceleration, use the variables given below to answer this part.
+Write the velocity of the rat as a function of time $v\_{\text{rat}}(t)$. Do not plug in numerical values for this part.
 
 Use the following table as a reference for each variable. Note that it may not be necessary to use every variable.
 
-| For        | Use |
-|------------|-----|
-| $\Delta t$ | t   |
-| $v_f$      | vf  |
-| $v_i$      | vi  |
-| $a$        | a   |
+| For                 | Use |
+|---------------------|-----|
+| $t$                 | t   |
+| $\Delta x$          | dx  |
+| $v\_{\text{rat}}$    | vr  |
+| $a\_{\text{coyote}}$ | ac  |
 
 ### Answer Section
 
 ## Part 5
 
-At what time does the coyote catch the rat?
+At what time does the coyote catch the rat $t\_{\text{catch}}$?
 
 ### Answer Section
 
-Please enter in a numeric value in seconds.
+Please enter in a numeric value in $\rm{s}$.
 
 ## Part 6
 
-At this time, what is the velocity of the coyote?
+At this time, what is the velocity of the coyote $v\_{\text{coyote}}(t\_{\text{catch}})$?
 
 ### Answer Section
 
-Please enter in a numeric value in $m/s$.
+Please enter in a numeric value in $\rm{m/s}$.
 
 ## Part 7
 
-At this time, what is the velocity of the rat?
+At this time, what is the velocity of the rat $v\_{\text{rat}}(t\_{\text{catch}})$?
 
 ### Answer Section
 
-Please enter in a numeric value in $m/s$.
+Please enter in a numeric value in $\rm{m/s}$.
 
 ## Part 8
 
-What is the location at which the coyote will catch the rat?
+What is the location at which the coyote will catch the rat $x\_{\text{coyote}}(t\_{\text{catch}}) = x\_{\text{rat}}(t\_{\text{catch}})$?
 
 ### Answer Section
 
-Please enter in a numeric value in $m$.
-
-## Part 9
-
-In the process where the coyote grabs the rat in its teeth, momentum is conserved. Imagine it takes only an instant. What is the velocity of the coyote after it grabs the rat?
-
-### Answer Section
-
-Please enter in a numeric value in $m/s$.
+Please enter in a numeric value in $\rm{m}$.
 
 ## Attribution
 

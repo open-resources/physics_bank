@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic12
-    expr: $2\over 2- x$ > $ 3$
+    expr: $2\over 2- x$ > $ 9$
     part1:
       ans1:
-        value: (4/3 < x) & (x < 2)
+        value: (16/9 < x) & (x < 2)
       ans2:
-        value: (4/3 > x) & (x > 2)
+        value: (16/9 > x) & (x > 2)
       ans3:
-        value: x > 2/3
+        value: x > 2/9
       ans4:
-        value: (9/2 < x) & (x < 6)
+        value: (27/2 < x) & (x < 18)
       ans5:
         value: Do not know
 ---

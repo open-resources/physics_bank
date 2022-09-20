@@ -32,18 +32,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic06
-    eq: $\dfrac{x-4}{x-6}$ = $ \dfrac{x+1}{x+5}$
+    eq: $\dfrac{x-1}{x-8}$ = $ \dfrac{x+1}{x+8}$
     part1:
       ans1:
-        value: -13/8
+        value: -7/2
       ans2:
-        value: 7/3
+        value: '0'
       ans3:
-        value: -13/2
+        value: ''
       ans4:
-        value: -19/16
+        value: '0'
       ans5:
-        value: -29/4
+        value: '-8'
       ans6:
         value: None of the above
 ---

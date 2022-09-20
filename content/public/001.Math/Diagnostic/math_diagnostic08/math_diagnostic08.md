@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-12x + 12y }{ -3 }$
+    expr: $\dfrac{6x + 18y }{ -3 }$
     part1:
       ans1:
-        value: $4 x - 4 y$
+        value: $- 2 x - 6 y$
       ans2:
-        value: $\dfrac{4x - 4y}{-3}$
+        value: $\dfrac{-2x - 6y}{-3}$
       ans3:
-        value: $-4x + 4y$
+        value: $-6x - 2y$
       ans4:
-        value: $-12x - 12y$
+        value: $6x - 18y$
       ans5:
         value: Don't know.
 ---

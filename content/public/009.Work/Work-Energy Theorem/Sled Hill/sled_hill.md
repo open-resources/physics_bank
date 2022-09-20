@@ -56,9 +56,9 @@ part5:
 substitutions:
   params:
     vars:
-      name: Abbas
+      name: Aliyah
       title: Sled Hill
-    angle: 5
+    angle: 6
     h: 14
     uk: 0.05
     m: 90

@@ -41,7 +41,7 @@ substitutions:
     vars:
       title: Long thin wire
     B: '4.4'
-    d: '80'
+    d: '12'
 ---
 # {{ params.vars.title }}
 The magnitude of the megnetic field ${{ params.d }}\rm\ cm$ from a long, thin straight wire is ${{ params.B }}\rm\ \mu T$.

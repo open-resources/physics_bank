@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $d$ = $\dfrac{(o)}{(j + 10s)} $
+    expr: $n$ = $\dfrac{(g)}{(i + 6b)} $
     part1:
       ans1:
-        value: j = ${ - 10 s + \frac{o}{d}}$
+        value: i = ${ - 6 b + \frac{g}{n}}$
       ans2:
-        value: j = ${\frac{10 d s}{o}}$
+        value: i = ${\frac{6 b n}{g}}$
       ans3:
-        value: j = ${\frac{o}{10 d s}}$
+        value: i = ${\frac{g}{6 b n}}$
       ans4:
-        value: j = ${\frac{d - 10 s}{o}}$
+        value: i = ${\frac{- 6 b + n}{g}}$
       ans5:
         value: Don't Know
 ---

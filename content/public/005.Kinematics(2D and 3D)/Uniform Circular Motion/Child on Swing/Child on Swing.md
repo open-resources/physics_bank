@@ -46,9 +46,9 @@ substitutions:
   params:
     vars:
       title: Child on Swing
-    v: 622
-    h: 558
-    d: 810
+    v: 619
+    h: 452
+    d: 799
     r2: 1402
 ---
 # {{ params.vars.title }}
