@@ -71,12 +71,12 @@ substitutions:
       units3: "$\rm{m}$"
       units4: "$\rm{m/s^2}$"
     m: 0.30000000000000004
-    deg: 27
+    deg: 23
     h: 0
     x: 3
     k: 800
-    a_a: 0.05
-    a_b: 0.1
+    a_a: 0.04
+    a_b: 0.08
 ---
 # {{ params.vars.title }}
 I have built a game that involves a spring, a smooth slope, and a little ball of $m = ${{params.m}} kg.

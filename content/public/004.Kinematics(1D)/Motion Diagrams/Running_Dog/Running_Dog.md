@@ -35,7 +35,17 @@ substitutions:
   params:
     vars:
       title: Running Dog
-    choice: Not True
+    choice: 'True'
+    part1:
+      ans1:
+        value: The dog is moving at the same speed at time $t=10$ $s$ and $t=4$ $s$
+      ans2:
+        value: The dog is speeding up at time $t=7$ $s$
+      ans3:
+        value: The dog is not moving between $t=6$ $s$ and $t=10$ $s$
+      ans4:
+        value: The dog has a velocity of $1$ $m/s$ between time $t=6$ $s$ and $t=10$
+          $s$
 ---
 # {{ params.vars.title }}
 Consider the following motion diagram for a dog running down a straight path.

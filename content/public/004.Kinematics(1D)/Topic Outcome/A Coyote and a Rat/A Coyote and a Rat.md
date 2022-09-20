@@ -98,7 +98,7 @@ substitutions:
   params:
     vars:
       title: A Coyote and a Rat
-    d_x: 33
+    d_x: 32
     v_r: 8
     a_c: 5
 ---

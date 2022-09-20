@@ -55,11 +55,11 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-      name: Emilia
-    i: 357
-    m: 35
-    v_1: 12
-    v_2: 31
+      name: Santiago
+    i: 382
+    m: 28
+    v_1: 25
+    v_2: 48
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.

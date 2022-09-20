@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic14
-    expr: $x^{ -8\over 9}$
+    expr: $x^{ -3\over 2}$
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt[9]{x^{8}}}\end{equation}
+        value: \begin{equation}\frac{1}{\sqrt{x^{3}}}\end{equation}
       ans2:
-        value: \begin{equation}\sqrt[9]{x^{8}}\end{equation}
+        value: \begin{equation}\sqrt{x^{3}}\end{equation}
       ans3:
-        value: \begin{equation}x^{\frac{8}{9}}\end{equation}
+        value: \begin{equation}x^{\frac{3}{2}}\end{equation}
       ans4:
-        value: \begin{equation}- \frac{1}{\sqrt[9]{x^{8}}}\end{equation}
+        value: \begin{equation}- \frac{1}{\sqrt{x^{3}}}\end{equation}
       ans5:
         value: Do not know
 ---

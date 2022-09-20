@@ -32,19 +32,19 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic10
-    a: -12
-    b: '2'
-    b_sign: ' + '
-    c: -4
+    a: 9
+    b: '12'
+    b_sign: ' - '
+    c: -14
     part1:
       ans1:
-        value: x =   8/2
+        value: x =   23/12
       ans2:
-        value: x =  - 8/2
+        value: x =  - 23/12
       ans3:
-        value: x = 6
+        value: x = -11
       ans4:
-        value: x = -18
+        value: x = 7
       ans5:
         value: This equation cannot be solved
 ---

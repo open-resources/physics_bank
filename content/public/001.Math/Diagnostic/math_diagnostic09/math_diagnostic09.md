@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $n$ = $\dfrac{(g)}{(i + 6b)} $
+    expr: $b$ = $\dfrac{(m)}{(t - 9c)} $
     part1:
       ans1:
-        value: i = ${ - 6 b + \frac{g}{n}}$
+        value: t = ${ 9 c + \frac{m}{b}}$
       ans2:
-        value: i = ${\frac{6 b n}{g}}$
+        value: t = ${- \frac{9 b c}{m}}$
       ans3:
-        value: i = ${\frac{g}{6 b n}}$
+        value: t = ${- \frac{m}{9 b c}}$
       ans4:
-        value: i = ${\frac{- 6 b + n}{g}}$
+        value: t = ${\frac{b + 9 c}{m}}$
       ans5:
         value: Don't Know
 ---

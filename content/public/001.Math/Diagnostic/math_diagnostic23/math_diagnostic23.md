@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic23
-    a: 9
-    b: 7
-    formula: $x^{9} \sin{\left(7 x \right)}$
+    a: 1
+    b: 5
+    formula: $x \cos{\left(5 x \right)}$
     part1:
       ans1:
-        value: $7 x^{9} \cos{\left(7 x \right)} + 9 x^{8} \sin{\left(7 x \right)}$
+        value: $- 5 x \sin{\left(5 x \right)} + \cos{\left(5 x \right)}$
       ans2:
-        value: $7 x^{9} \cos{\left(7 x \right)} $
+        value: $- 5 x \sin{\left(5 x \right)} $
       ans3:
-        value: $ 9 x^{8} \cos{\left(7 x \right)}$
+        value: $ \sin{\left(5 x \right)}$
       ans4:
-        value: $- 7 x^{9} \sin{\left(7 x \right)} + 9 x^{8} \cos{\left(7 x \right)}$
+        value: $5 x \cos{\left(5 x \right)} + \sin{\left(5 x \right)}$
       ans5:
         value: Don't Know
 ---
