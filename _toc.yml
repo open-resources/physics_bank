@@ -403,6 +403,7 @@ parts:
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Explosions_and_Velocity/Explosions_and_Velocity
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Flying
       Squid/flying_squid
+  - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Ice_Skater/Ice_Skater
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Isolated_systems/Isolated_systems
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Puck Collision/Puck
       Collision
