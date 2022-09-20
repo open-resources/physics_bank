@@ -135,6 +135,8 @@ parts:
       Speed of Kinesin
   - file: content/public/004.Kinematics(1D)/Speed/Maximum Speed of Car/max_speed_of_car
   - file: content/public/004.Kinematics(1D)/Speed/Vehicle_Speed/Vehicle_Speed
+  - file: content/public/004.Kinematics(1D)/Topic Outcome/A Coyote and a Rat/A Coyote
+      and a Rat
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Acceleration of Particle/Acceleration
       of Particle
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Acceleration, Velocity and
@@ -202,6 +204,8 @@ parts:
       Caracara
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Projectile Motion
       graphs/Projectile Motion graphs
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Projectile Motion
+      on a decline/projectile motion on an incline_numerical input
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Rocket in the
       wind/rocket_in_the_wind
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Salmon passing
