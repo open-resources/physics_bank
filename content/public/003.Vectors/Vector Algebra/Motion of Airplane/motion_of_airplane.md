@@ -3,7 +3,7 @@ title: Motion of Airplane
 topic: Vectors
 author: OpenStax University Physics Vol 1
 source: 2.32
-template_version: 1.3
+template_version: 1.4
 attribution: openstax-physics-vol1
 partialCredit: true
 singleVariant: false
@@ -23,6 +23,7 @@ length:
 - undefined
 tags:
 - MP
+- JR
 - osup
 - volume 1
 assets: null
@@ -35,22 +36,22 @@ substitutions:
     vars:
       title: Motion of an Airplane
       units: km
-    v1: 83
-    v2: 41
-    a1: 66
-    a2: 45
-    dir1: north
+    v1: 30
+    v2: 82
+    a1: 35
+    a2: 29
+    dir1: south
     part1:
       ans1:
-        value: 122.2 km in a direction 59.1 degrees north of east.
+        value: 98.9 km in a direction 13.2 degrees north of east.
       ans2:
-        value: 122.2 km in a direction 59.1 degrees south of east.
+        value: 98.9 km in a direction 13.2 degrees south of east.
       ans3:
-        value: 14923.9 km in a direction 59.1 degrees north of east.
+        value: 9780.8 km in a direction 13.2 degrees north of east.
       ans4:
-        value: 14923.9 km in a direction 59.1 degrees south  of east.
+        value: 9780.8 km in a direction 13.2 degrees south  of east.
       ans5:
-        value: 122.2 km in a direction 89.1 degrees south of east.
+        value: 98.9 km in a direction 89.8 degrees south of east.
 ---
 # {{ params.vars.title }}
 A small plane flies {{params.v1}} km in a direction {{params.a1}} degrees {{params.dir1}} of east and then flies {{params.v2}} km in a direction {{params.a2}} degrees north of east.

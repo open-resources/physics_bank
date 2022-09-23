@@ -50,8 +50,8 @@ substitutions:
   params:
     vars:
       title: Copper in a Magnetic Field
-    B: 6.4
-    E: 2.6
+    B: 7.0
+    E: 9.7
     n: 10
     A: 1.9
 ---

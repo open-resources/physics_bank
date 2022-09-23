@@ -85,8 +85,8 @@ substitutions:
   params:
     vars:
       title: RC Series Circuit
-    R: '475.0'
-    C: '1.90'
+    R: '500.0'
+    C: '1.55'
     V: '7.06'
 ---
 # {{ params.vars.title }}

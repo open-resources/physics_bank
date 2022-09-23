@@ -35,30 +35,30 @@ substitutions:
       units: $m$
       name1: Emilia
       name2: Ximena
-    s: 2
+    s: 1
     ai_1: 1
     ai_2: 2
     ai_3: 3
-    aj_1: 1
-    aj_2: 2
+    aj_1: 3
+    aj_2: 5
     aj_3: 3
-    bi_1: 3
-    bi_2: 2
+    bi_1: 2
+    bi_2: 4
     bi_3: 3
-    bj_1: 3
-    bj_2: 2
-    bj_3: 2
+    bj_1: 4
+    bj_2: 3
+    bj_3: 3
     part1:
       ans1:
-        value: 22.0
+        value: 5.8
       ans2:
-        value: 11.0
+        value: 2.9
       ans3:
-        value: 490.0
+        value: 34.0
       ans4:
-        value: 24
+        value: 8
       ans5:
-        value: 20
+        value: 2
 ---
 # {{ params.vars.title }}
 The position of {{ params.vars.name1 }} as a function of time is given by:

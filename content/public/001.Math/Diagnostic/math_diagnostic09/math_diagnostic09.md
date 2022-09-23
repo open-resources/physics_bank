@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $b$ = $\dfrac{(m)}{(t - 9c)} $
+    expr: $w$ = $\dfrac{(e)}{(o - 10p)} $
     part1:
       ans1:
-        value: t = ${ 9 c + \frac{m}{b}}$
+        value: o = ${ \frac{e}{w} + 10 p}$
       ans2:
-        value: t = ${- \frac{9 b c}{m}}$
+        value: o = ${- \frac{10 p w}{e}}$
       ans3:
-        value: t = ${- \frac{m}{9 b c}}$
+        value: o = ${- \frac{e}{10 p w}}$
       ans4:
-        value: t = ${\frac{b + 9 c}{m}}$
+        value: o = ${\frac{10 p + w}{e}}$
       ans5:
         value: Don't Know
 ---

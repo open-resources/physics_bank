@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic03
-      formula: 5x + -7 > 2x + -2
+      formula: 8x + -8 > 5x + 8
     part1:
       ans1:
-        value: x > 5/3
+        value: x > 16/3
       ans2:
-        value: x < 5/3
+        value: x < 16/3
       ans3:
-        value: x < 3/5
+        value: x < 3/16
       ans4:
-        value: x > 3/5
+        value: x > 3/16
       ans5:
         value: Don't Know
 ---
