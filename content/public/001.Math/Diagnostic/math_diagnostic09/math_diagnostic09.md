@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $w$ = $\dfrac{(e)}{(o - 10p)} $
+    expr: $p$ = $\dfrac{(u)}{(d - 9k)} $
     part1:
       ans1:
-        value: o = ${ \frac{e}{w} + 10 p}$
+        value: d = ${ 9 k + \frac{u}{p}}$
       ans2:
-        value: o = ${- \frac{10 p w}{e}}$
+        value: d = ${- \frac{9 k p}{u}}$
       ans3:
-        value: o = ${- \frac{e}{10 p w}}$
+        value: d = ${- \frac{u}{9 k p}}$
       ans4:
-        value: o = ${\frac{10 p + w}{e}}$
+        value: d = ${\frac{9 k + p}{u}}$
       ans5:
         value: Don't Know
 ---

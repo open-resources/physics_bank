@@ -49,11 +49,11 @@ substitutions:
   params:
     vars:
       title: Collision of Objects A and B
-      name: Abbas
-    v1: 4
-    v2: 3
-    m_a: 2
-    m_b: 6
+      name: Savannah
+    v1: 3
+    v2: 2
+    m_a: 4
+    m_b: 2
     part2:
       ans1:
         value: 'Yes'

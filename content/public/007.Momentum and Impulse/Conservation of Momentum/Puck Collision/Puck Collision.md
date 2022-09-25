@@ -33,7 +33,7 @@ substitutions:
   params:
     vars:
       title: Puck Collision
-    E: 14
+    E: 20
     part1:
       ans1:
         value: momentum increases, kinetic energy increases

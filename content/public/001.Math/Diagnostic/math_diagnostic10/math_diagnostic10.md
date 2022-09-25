@@ -32,10 +32,10 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic10
-    a: -15
+    a: -14
     b: '1'
     b_sign: ' - '
-    c: -4
+    c: -3
     part1:
       ans1:
         value: x =  - 11/1
@@ -44,7 +44,7 @@ substitutions:
       ans3:
         value: x = 12
       ans4:
-        value: x = -18
+        value: x = -16
       ans5:
         value: This equation cannot be solved
 ---

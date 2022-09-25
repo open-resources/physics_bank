@@ -33,17 +33,17 @@ substitutions:
     vars:
       title: Math Diagnostic05
     expr: $\dfrac{x}{8}$
-    num2: 7
-    num3: 5
+    num2: 6
+    num3: 3
     part1:
       ans1:
-        value: 280
+        value: 144
       ans2:
-        value: 7/8
+        value: 3/4
       ans3:
-        value: 40
+        value: 24
       ans4:
-        value: 35/8
+        value: 9/4
       ans5:
         value: Don't Know
 ---

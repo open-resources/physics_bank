@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic22
-    denom: 5
-    formula: $\sin{\left(\frac{x}{5} \right)}$
+    denom: 4
+    formula: $\sin{\left(\frac{x}{4} \right)}$
     part1:
       ans1:
-        value: ${- 5 \cos{\left(\frac{x}{5} \right)}}$
+        value: ${- 4 \cos{\left(\frac{x}{4} \right)}}$
       ans2:
-        value: ${5 \cos{\left(\frac{x}{5} \right)}}$
+        value: ${4 \cos{\left(\frac{x}{4} \right)}}$
       ans3:
-        value: ${- 10 \cos{\left(\frac{x}{5} \right)}}$
+        value: ${- 8 \cos{\left(\frac{x}{4} \right)}}$
       ans4:
-        value: ${- \frac{5 \cos{\left(\frac{x}{5} \right)}}{2}}$
+        value: ${- 2 \cos{\left(\frac{x}{4} \right)}}$
 ---
 # {{ params.vars.title }}
 

@@ -32,18 +32,18 @@ part1:
     weight: 1
     allow-blank: true
     label: $\theta= $
-    suffix: ${\circ}$
+    suffix: ${\circ}$ E of N
 substitutions:
   params:
     vars:
       title: Rocket in the wind
       units: ${\circ}$
-    v0: 17
-    wind_speed: 2.1
+    v0: 6
+    wind_acc: 4.1
 ---
 # {{ params.vars.title }}
 A model rocket looks to launch with a speed $v\_{0} = {{params.v0}} m/s$.
-A the windy day imparts a horizontal acceleration of ${{params.wind_speed}} m/s^2$ to the left.
+A the windy day imparts a horizontal acceleration of ${{params.wind_acc}} m/s^2$ to the left.
 
 <img src="L5Q4.png" width=400>
 

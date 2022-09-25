@@ -38,7 +38,7 @@ substitutions:
     vars:
       title: Acceleration for moving ball from Velocity vs Displacement graph
       units: $m/s^2$
-    s: 16
+    s: 19
 ---
 # {{ params.vars.title }}
 <img src="L4Q3.png" width=90% height=75%>

@@ -37,10 +37,10 @@ substitutions:
   params:
     vars:
       title: Impulse of a Bat
-    F: 31227
+    F: 33460
     t1: 0.002
-    t2: 0.007
-    t3: 0.012
+    t2: 0.006
+    t3: 0.015
 ---
 # {{ params.vars.title }}
 <img src="L20Q4.png" width=400>

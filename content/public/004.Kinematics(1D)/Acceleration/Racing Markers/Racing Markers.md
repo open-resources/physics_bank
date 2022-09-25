@@ -31,9 +31,9 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: car
+      vehicle: sedan
       title: Racing Markers
-      v1: 51
+      v1: 52
       v2: 26.0
     part1:
       ans1:

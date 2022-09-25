@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-25x + 35y }{ -5 }$
+    expr: $\dfrac{-8x + 24y }{ 4 }$
     part1:
       ans1:
-        value: $5 x - 7 y$
+        value: $- 2 x + 6 y$
       ans2:
-        value: $\dfrac{5x - 7y}{-5}$
+        value: $\dfrac{-2x + 6y}{4}$
       ans3:
-        value: $-7x + 5y$
+        value: $6x - 2y$
       ans4:
-        value: $-25x - 35y$
+        value: $-8x + 24y$
       ans5:
         value: Don't know.
 ---
