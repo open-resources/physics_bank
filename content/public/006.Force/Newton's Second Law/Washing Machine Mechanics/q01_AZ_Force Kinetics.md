@@ -37,7 +37,7 @@ substitutions:
   params:
     vars:
       title: Washing Machine Mechanics
-    m: 3
+    m: 0
     r: 3
 ---
 # {{ params.vars.title }}

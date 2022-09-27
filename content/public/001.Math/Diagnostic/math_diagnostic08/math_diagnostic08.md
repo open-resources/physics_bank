@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-30x - 54y }{ -6 }$
+    expr: $\dfrac{-72x - 45y }{ -9 }$
     part1:
       ans1:
-        value: $5 x + 9 y$
+        value: $8 x + 5 y$
       ans2:
-        value: $\dfrac{5x + 9y}{-6}$
+        value: $\dfrac{8x + 5y}{-9}$
       ans3:
-        value: $9x + 5y$
+        value: $5x + 8y$
       ans4:
-        value: $-30x + 54y$
+        value: $-72x + 45y$
       ans5:
         value: Don't know.
 ---

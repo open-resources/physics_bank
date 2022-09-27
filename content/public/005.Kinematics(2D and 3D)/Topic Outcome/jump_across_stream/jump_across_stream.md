@@ -70,7 +70,7 @@ part6:
     weight: 1
     allow-blank: true
     label: $x= $
-    suffix: $m$
+    suffix: $\rm{m}$
 part7:
   type: number-input
   pl-customizations:
@@ -78,7 +78,7 @@ part7:
     weight: 1
     allow-blank: true
     label: $y= $
-    suffix: $m$
+    suffix: $\rm{m}$
 part8:
   type: symbolic-input
   pl-customizations:
@@ -94,13 +94,13 @@ substitutions:
   params:
     vars:
       title: Jump Across Stream
-      units: $m$
-    m: 423
-    w_s: 2.9
-    h_s: 1.8
-    v_i: 5
+      units: m
+    m: 437
+    w_s: 2.3
+    h_s: 1.3
+    v_i: 2
     v_j: 2
-    h_b: 3.2
+    h_b: 2.5
     part5:
       ans1:
         value: Yes, the bear makes it to the other side of the stream.
@@ -114,8 +114,8 @@ substitutions:
 ---
 # {{ params.vars.title }}
 A very bored {{params.m}} $kg$ bear decided to jump across a stream.
-The stream is {{params.w_s}} $m$ wide and the east bank of the stream is {{params.h_s}} $m$ higher than the west bank (where the bear starts).
-The bear can jump with an initial velocity $\overrightarrow{V_i} = $ {{params.v_i}}${m\over s}\hat{\imath}+$ {{params.v_j}} ${m\over s}\hat{\jmath}$, and decides to start from {{params.h_b}} $m$ in the air, halfway up a sturdy tree.
+The stream is {{params.w_s}} $m$ wide and the east bank of the stream is {{params.h_s}} $\rm{m}$ higher than the west bank (where the bear starts).
+The bear can jump with an initial velocity $\overrightarrow{V_i} = $ {{params.v_i}}$\rm{m\over s}\hat{\imath}+$ {{params.v_j}} $\rm{m\over s}\hat{\jmath}$, and decides to start from {{params.h_b}} $\rm{m}$ in the air, halfway up a sturdy tree.
 
 ## Part 1
 
@@ -211,7 +211,7 @@ Use the following table as a reference.
 
 ## Part 9
 
-This question is much easier to do in the frame of an observer moving with velocity $\vec{u}  = $ {{params.v_i}} ${m\over s}\hat{\imath} + $ 0 ${m\over s}\hat{\jmath}$. Describe why?
+This question is much easier to do in the frame of an observer moving with velocity $\vec{u}  = $ {{params.v_i}} $\rm{m\over s}\hat{\imath} + $ 0 $\rm{m\over s}\hat{\jmath}$. Describe why?
 
 ### Answer Section
 

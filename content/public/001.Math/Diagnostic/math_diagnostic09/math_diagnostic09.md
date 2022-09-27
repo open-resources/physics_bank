@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $j$ = $\dfrac{(y)}{(a + 7f)} $
+    expr: $a$ = $\dfrac{(i)}{(t + 9e)} $
     part1:
       ans1:
-        value: a = ${ - 7 f + \frac{y}{j}}$
+        value: t = ${ - 9 e + \frac{i}{a}}$
       ans2:
-        value: a = ${\frac{7 f j}{y}}$
+        value: t = ${\frac{9 a e}{i}}$
       ans3:
-        value: a = ${\frac{y}{7 f j}}$
+        value: t = ${\frac{i}{9 a e}}$
       ans4:
-        value: a = ${\frac{- 7 f + j}{y}}$
+        value: t = ${\frac{a - 9 e}{i}}$
       ans5:
         value: Don't Know
 ---

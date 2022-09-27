@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic13
-    expr: $\dfrac{z^8 }{z^4} $
+    expr: $\dfrac{z^1 }{z^2} $
     part1:
       ans1:
-        value: $z^{4}$
+        value: $z^{-1}$
       ans2:
-        value: $z^{-4}$
+        value: $z^{1}$
       ans3:
-        value: 4z
+        value: -1z
       ans4:
-        value: (2)z
+        value: (1/2)z
       ans5:
         value: Don't Know
 ---

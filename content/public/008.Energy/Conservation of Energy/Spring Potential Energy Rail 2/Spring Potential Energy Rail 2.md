@@ -53,8 +53,8 @@ substitutions:
   params:
     vars:
       title: Spring Potential Energy Rail 2
-    m: 300
-    R: 43.0
+    m: 500
+    R: 87.0
     k: 119
 ---
 # {{ params.vars.title }}

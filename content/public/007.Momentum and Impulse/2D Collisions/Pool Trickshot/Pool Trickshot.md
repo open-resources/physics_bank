@@ -46,7 +46,7 @@ substitutions:
     vars:
       title: Pool Trickshot
     thetad: 30
-    e: 0.81
+    e: 0.72
 ---
 # {{ params.vars.title }}
 <img src="L22Q1.png" width=400>
