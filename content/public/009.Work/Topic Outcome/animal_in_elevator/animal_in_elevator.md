@@ -64,14 +64,14 @@ part5:
 substitutions:
   params:
     vars:
-      animal: horse
+      animal: cat
       title: Animal in an Elevator
       units1: $\rm{N}$
       units2: $\rm{m/s}$
-    m_a: 6.01
-    m_e: 25.9
-    P: 1762
-    a: ' + 6.22'
+    m_a: 3.09
+    m_e: 27.3
+    P: 1733
+    a: ' + 7.63'
 ---
 # {{ params.vars.title }}
 A {{params.m_a}} $\rm{kg}$ {{params.vars.animal}} sits inside of a {{params.m_e}} $\rm{kg}$ elevator. The elevator is connected to a motor by a wire. The maximum power that can be produced by the motor is {{params.P}} $\rm{W}$.

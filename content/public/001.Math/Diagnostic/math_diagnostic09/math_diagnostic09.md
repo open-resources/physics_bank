@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $p$ = $\dfrac{(u)}{(d - 9k)} $
+    expr: $j$ = $\dfrac{(y)}{(a + 7f)} $
     part1:
       ans1:
-        value: d = ${ 9 k + \frac{u}{p}}$
+        value: a = ${ - 7 f + \frac{y}{j}}$
       ans2:
-        value: d = ${- \frac{9 k p}{u}}$
+        value: a = ${\frac{7 f j}{y}}$
       ans3:
-        value: d = ${- \frac{u}{9 k p}}$
+        value: a = ${\frac{y}{7 f j}}$
       ans4:
-        value: d = ${\frac{9 k + p}{u}}$
+        value: a = ${\frac{- 7 f + j}{y}}$
       ans5:
         value: Don't Know
 ---

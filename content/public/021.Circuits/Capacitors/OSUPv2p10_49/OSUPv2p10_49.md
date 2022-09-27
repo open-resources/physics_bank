@@ -60,7 +60,7 @@ substitutions:
   params:
     vars:
       title: Automobile Intermittent Wiper System
-    C: '0.300'
+    C: '0.500'
     t1: '1.50'
     t2: '15.0'
 ---
