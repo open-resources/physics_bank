@@ -45,11 +45,11 @@ substitutions:
   params:
     vars:
       title: Slider in a Rotating Tube
-    m: 0.34
-    w: 10
-    wdot: -4
-    r: 0.35
-    rdot: -2.2
+    m: 0.48
+    w: 8
+    wdot: -9
+    r: 0.61
+    rdot: -1.2
     rddot: 2.6
 ---
 # {{ params.vars.title }}

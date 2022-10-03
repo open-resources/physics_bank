@@ -44,10 +44,10 @@ substitutions:
       name: Santiago
       title: Archery Competition
       units: m/s
-    x: 89
-    arrow_v: 127
-    theta: 8
-    height: 204
+    x: 64
+    arrow_v: 290
+    theta: 4
+    height: 172
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is reading a novel that describes an athelete participating in an archery competition.

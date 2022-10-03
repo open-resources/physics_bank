@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $a$ = $\dfrac{(i)}{(t + 9e)} $
+    expr: $e$ = $\dfrac{(a)}{(x + 9b)} $
     part1:
       ans1:
-        value: t = ${ - 9 e + \frac{i}{a}}$
+        value: x = ${ \frac{a}{e} - 9 b}$
       ans2:
-        value: t = ${\frac{9 a e}{i}}$
+        value: x = ${\frac{9 b e}{a}}$
       ans3:
-        value: t = ${\frac{i}{9 a e}}$
+        value: x = ${\frac{a}{9 b e}}$
       ans4:
-        value: t = ${\frac{a - 9 e}{i}}$
+        value: x = ${\frac{- 9 b + e}{a}}$
       ans5:
         value: Don't Know
 ---

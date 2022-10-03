@@ -70,8 +70,8 @@ substitutions:
     vars:
       title: Rocket Dog
       units: $\rm{m/s}$
-    x: $-t^3 - 8t^2 + 5t$
-    time: 5
+    x: $4t^3 + t^2 + 6t$
+    time: 6
     part4:
       ans1:
         value: The rocket dog is moving towards the origin.

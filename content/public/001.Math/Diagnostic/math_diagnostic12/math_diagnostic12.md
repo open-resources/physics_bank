@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic12
-    expr: $1\over 1- x$ > $ 7$
+    expr: $3\over 3- x$ > $ 1$
     part1:
       ans1:
-        value: (6/7 < x) & (x < 1)
+        value: (0 < x) & (x < 3)
       ans2:
-        value: (6/7 > x) & (x > 1)
+        value: (0 > x) & (x > 3)
       ans3:
-        value: x > 1/7
+        value: x > 3/1
       ans4:
-        value: (0 < x) & (x < 7)
+        value: (8/3 < x) & (x < 3)
       ans5:
         value: Do not know
 ---

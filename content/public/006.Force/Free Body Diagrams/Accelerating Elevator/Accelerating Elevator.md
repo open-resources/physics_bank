@@ -27,10 +27,6 @@ tags:
 - PW
 assets: null
 part1:
-  type: file-upload
-  pl-customizations:
-    file-names: diagrams.pdf
-part2:
   type: number-input
   pl-customizations:
     rtol: 0.05
@@ -40,7 +36,7 @@ part2:
     suffix: $N$
     comparison: sigfig
     digits: 3
-part3:
+part2:
   type: number-input
   pl-customizations:
     rtol: 0.05
@@ -55,21 +51,13 @@ substitutions:
     vars:
       title: Accelerating Elevator
       units: $N$
-    m: 82.5
-    a: 1.32
+    m: 78.6
+    a: 1.34
 ---
 # {{ params.vars.title }}
 A person with a mass of {{ params.m }} $kg$ is standing on the floor of an elevator which is accelerating downward at {{ params.a }} $m/s^2$.
 
 ## Part 1
-
-Draw a simple picture of the situation and show the direction of the acceleration. In addition, draw the free body diagram of the person.
-
-### Answer Section
-
-File upload box will be shown here.
-
-## Part 2
 
 Find the magnitude of the normal force of the elevator floor on the person. Use $g = 9.81$.
 
@@ -77,7 +65,7 @@ Find the magnitude of the normal force of the elevator floor on the person. Use 
 
 Please enter in a numeric value in {{ params.vars.units }}.
 
-## Part 3
+## Part 2
 
 Determine the magnitude of the force of the person on the floor of the elevator. Use $g = 9.81$.
 

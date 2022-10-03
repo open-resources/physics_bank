@@ -43,8 +43,8 @@ substitutions:
     vars:
       title: Resistance Of A Copper Wire
       units: Ohms
-    d: 6.737
-    l: 3.5
+    d: 4.382
+    l: 3.1
 ---
 # {{ params.vars.title }}
 

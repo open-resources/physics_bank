@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-72x - 45y }{ -9 }$
+    expr: $\dfrac{25x - 15y }{ 5 }$
     part1:
       ans1:
-        value: $8 x + 5 y$
+        value: $5 x - 3 y$
       ans2:
-        value: $\dfrac{8x + 5y}{-9}$
+        value: $\dfrac{5x - 3y}{5}$
       ans3:
-        value: $5x + 8y$
+        value: $-3x + 5y$
       ans4:
-        value: $-72x + 45y$
+        value: $25x - 15y$
       ans5:
         value: Don't know.
 ---

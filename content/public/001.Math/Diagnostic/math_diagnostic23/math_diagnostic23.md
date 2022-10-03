@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic23
-    a: 6
+    a: 5
     b: 5
-    formula: $x^{6} \sin{\left(5 x \right)}$
+    formula: $x^{5} \sin{\left(5 x \right)}$
     part1:
       ans1:
-        value: $5 x^{6} \cos{\left(5 x \right)} + 6 x^{5} \sin{\left(5 x \right)}$
+        value: $5 x^{5} \cos{\left(5 x \right)} + 5 x^{4} \sin{\left(5 x \right)}$
       ans2:
-        value: $5 x^{6} \cos{\left(5 x \right)} $
+        value: $5 x^{5} \cos{\left(5 x \right)} $
       ans3:
-        value: $ 6 x^{5} \cos{\left(5 x \right)}$
+        value: $ 5 x^{4} \cos{\left(5 x \right)}$
       ans4:
-        value: $- 5 x^{6} \sin{\left(5 x \right)} + 6 x^{5} \cos{\left(5 x \right)}$
+        value: $- 5 x^{5} \sin{\left(5 x \right)} + 5 x^{4} \cos{\left(5 x \right)}$
       ans5:
         value: Don't Know
 ---

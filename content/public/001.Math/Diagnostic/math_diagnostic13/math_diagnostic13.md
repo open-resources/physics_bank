@@ -32,7 +32,7 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic13
-    expr: $\dfrac{z^1 }{z^2} $
+    expr: $\dfrac{z^6 }{z^7} $
     part1:
       ans1:
         value: $z^{-1}$
@@ -41,7 +41,7 @@ substitutions:
       ans3:
         value: -1z
       ans4:
-        value: (1/2)z
+        value: (6/7)z
       ans5:
         value: Don't Know
 ---

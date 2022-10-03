@@ -55,10 +55,10 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-      name: Santiago
-    i: 310
-    m: 32
-    v_1: 28
+      name: Emilia
+    i: 354
+    m: 38
+    v_1: 18
     v_2: 41
 ---
 # {{ params.vars.title }}
