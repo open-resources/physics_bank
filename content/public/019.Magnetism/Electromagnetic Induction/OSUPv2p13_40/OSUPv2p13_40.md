@@ -36,8 +36,8 @@ substitutions:
   params:
     vars:
       title: Rotating Coil
-    N: '1100'
-    a: '35'
+    N: '1400'
+    a: '25'
     t: '0.015'
     B: '5.0'
 ---

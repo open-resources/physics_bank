@@ -34,7 +34,7 @@ substitutions:
     vars:
       title: Asteroid Equal Attraction
       units: $km$
-    x: 13946
+    x: 18119
 ---
 # {{ params.vars.title }}
 <img src="L2Q2_drawing.png" width=90% style="padding: 5%">

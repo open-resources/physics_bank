@@ -1,14 +1,15 @@
 ---
 title: Exploding Asteroid
-topic: Energy
+topic: Momentum and Impulse
 author: Jake Bobowski
 source: Final 2016 Q6
-template_version: 1.3
+template_version: 1.4
 attribution: standard
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
 outcomes:
+- 5.8.1.0
+- 7.3.1.4
 - 8.2.1.1
 difficulty:
 - easy
@@ -22,6 +23,7 @@ length:
 - short
 tags:
 - AK
+- JR
 assets: null
 part1:
   type: checkbox
@@ -33,38 +35,39 @@ substitutions:
   params:
     vars:
       title: Exploding Asteroid
-      name: Emilia
-      name2: Lorenzo
+      name: Savannah
+      name2: Abbas
     part1:
       ans1:
         value: The final speeds they measure for the two asteroid pieces will be the
           same.
       ans2:
-        value: They will both agree on how the TOTAL kinetic energy of the system
-          has changed.
+        value: They will both agree on how much kinetic energy each of the asteroid
+          pieces has.
       ans3:
-        value: The final velocity vectors they use to describe the two asteroid pieces
-          will be the same.
+        value: The force vector they determine that each piece of the asteroid felt
+          during the explosion will be the same.
       ans4:
-        value: The total momentum vectors they use to describe the asteroid system
-          (both pieces) will be the same.
-      ans5:
-        value: They will both agree on how the internal energy of the system has changed.
-      ans6:
         value: The momentum vectors they use to describe each of the two asteroid
           pieces will be the same.
+      ans5:
+        value: They will both agree on how the total kinetic energy of the system
+          has changed.
+      ans6:
+        value: The change in the momentum vector they determine for each piece of
+          the asteroid before and after the explosion will be the same.
 ---
 # {{ params.vars.title }}
 
 ## Question Text
 
-{{ params.vars.name }} and {{ params.vars.name2 }} are both standing in their space ships, each one moving with a constant (but different) velocity. They carefully watch and measure, from their two space ships, an asteroid exploding into two parts. When they compare their final numbers, which of their numbers will agree?
+{{ params.vars.name }} and {{ params.vars.name2 }} are both standing in their spaceships, each one moving with a different constant velocity.
+They carefully watch and measure, from their two spaceships, an asteroid exploding into two parts. Select the correct statement(s).
 
 ### Answer Section
 
-Select all the choices that apply.
-
-Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
+Note: You will be awarded full marks only if you select all the correct choices and none of the incorrect choices.
+Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
 - {{ params.part1.ans1.value }}
 - {{ params.part1.ans2.value }}

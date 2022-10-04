@@ -48,7 +48,7 @@ substitutions:
       title: Rotating Buckets
       units: kg
     m1: 1.49
-    c: 5
+    c: 4
 ---
 # {{ params.vars.title }}
 A pair of buckets are connected by a *massless* rod. As shown in the figure, the buckets rotate about an axis through the centre of mass of the two-bucket system.

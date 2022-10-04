@@ -38,7 +38,7 @@ substitutions:
   params:
     vars:
       title: Seed Dropped by a Bird
-    v: 6
+    v: 4
     part1:
       ans1:
         value: directly overhead.

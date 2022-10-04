@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic12
-    expr: $3\over 3- x$ > $ 1$
+    expr: $5\over 5- x$ > $ 6$
     part1:
       ans1:
-        value: (0 < x) & (x < 3)
+        value: (25/6 < x) & (x < 5)
       ans2:
-        value: (0 > x) & (x > 3)
+        value: (25/6 > x) & (x > 5)
       ans3:
-        value: x > 3/1
+        value: x > 5/6
       ans4:
-        value: (8/3 < x) & (x < 3)
+        value: (144/5 < x) & (x < 30)
       ans5:
         value: Do not know
 ---

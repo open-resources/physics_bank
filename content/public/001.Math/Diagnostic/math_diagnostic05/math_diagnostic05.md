@@ -34,16 +34,16 @@ substitutions:
       title: Math Diagnostic05
     expr: $\dfrac{x}{9}$
     num2: 9
-    num3: 2
+    num3: 8
     part1:
       ans1:
-        value: 162
+        value: 648
       ans2:
         value: '1'
       ans3:
-        value: 18
+        value: 72
       ans4:
-        value: '2'
+        value: '8'
       ans5:
         value: Don't Know
 ---

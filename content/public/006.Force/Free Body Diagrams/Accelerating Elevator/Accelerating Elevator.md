@@ -51,8 +51,8 @@ substitutions:
     vars:
       title: Accelerating Elevator
       units: $N$
-    m: 78.6
-    a: 1.34
+    m: 90.3
+    a: 1.94
 ---
 # {{ params.vars.title }}
 A person with a mass of {{ params.m }} $kg$ is standing on the floor of an elevator which is accelerating downward at {{ params.a }} $m/s^2$.

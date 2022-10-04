@@ -3,11 +3,10 @@ title: Force vs Position Graph
 topic: Work
 author: Jake Bobowski
 source: 2017 Final Q15
-template_version: 1.3
+template_version: 1.4
 attribution: standard
 partialCredit: true
 singleVariant: false
-showCorrectAnswer: false
 outcomes:
 - 8.2.1.0
 - 9.2.1.0
@@ -23,6 +22,7 @@ length:
 - average
 tags:
 - MP
+- JR
 assets:
 - q15image.png
 part1:
@@ -31,81 +31,62 @@ part1:
     rtol: 0.05
     weight: 1
     allow-blank: true
-    label: $W= $
-    suffix: $J$
+    label: $v= $
+    suffix: $\rm{m/s}$
 part2:
   type: number-input
   pl-customizations:
     rtol: 0.05
     weight: 1
     allow-blank: true
-    label: $v_x= $
-    suffix: $m/s$
+    label: $x= $
+    suffix: $\rm{m}$
 part3:
   type: number-input
   pl-customizations:
     rtol: 0.05
     weight: 1
     allow-blank: true
-    label: $x= $
-    suffix: $m$
-part4:
-  type: number-input
-  pl-customizations:
-    rtol: 0.05
-    weight: 1
-    allow-blank: true
     label: $K= $
-    suffix: $J$
+    suffix: $\rm{J}$
 substitutions:
   params:
     vars:
       title: Force vs Position Graph
-      units1: J
-      units2: m/s
-      units3: m
-    m: 3.5
+    m: 1.0
     v: 4.0
-    x: 1.5
+    x: 3.0
 ---
 # {{ params.vars.title }}
-The graph below shows the net force on a particle as a function of its position. The mass of
-the particle is $m =$ {{params.m}} $kg$.
+The graph below shows the net force on a particle in the $x$-direction as a function of its position along the $x$-axis.
+The mass of the particle is $m = {{params.m}} \rm{kg}$.
 
 <img src="q15image.png" width=400 alt="Force vs position graph">
 
 ## Part 1
 
-What is the total work done on the particle?
+If the particle has a velocity of $v_x = {{ params.v }} \rm{m/s}$ when $x = 0 \rm{m}$, what is the particle's speed
+when $x = {{ params.x }} \rm{m}$?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units1 }}.
+Please enter in a numeric value in $\rm{m/s}$.
 
 ## Part 2
 
-If the particle has a velocity of $v_x =$ {{params.v}} $m/s$ when $x =$ 0 $m$, what is the particle's velocity
-when $x =$ {{params.x}} $m$?
+At what value of x does the particle have its maximum kinetic energy?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units2 }}.
+Please enter in a numeric value in $\rm{m}$.
 
 ## Part 3
-
-At what value of x (in meters) does the particle have the maximum kinetic energy?
-
-### Answer Section
-
-Please enter in a numeric value in {{ params.vars.units3 }}.
-
-## Part 4
 
 What is the particle's maximum kinetic energy?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units1 }}.
+Please enter in a numeric value in $\rm{J}$.
 
 ## Attribution
 

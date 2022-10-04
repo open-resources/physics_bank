@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $e$ = $\dfrac{(a)}{(x + 9b)} $
+    expr: $s$ = $\dfrac{(l)}{(o + 4k)} $
     part1:
       ans1:
-        value: x = ${ \frac{a}{e} - 9 b}$
+        value: o = ${ - 4 k + \frac{l}{s}}$
       ans2:
-        value: x = ${\frac{9 b e}{a}}$
+        value: o = ${\frac{4 k s}{l}}$
       ans3:
-        value: x = ${\frac{a}{9 b e}}$
+        value: o = ${\frac{l}{4 k s}}$
       ans4:
-        value: x = ${\frac{- 9 b + e}{a}}$
+        value: o = ${\frac{- 4 k + s}{l}}$
       ans5:
         value: Don't Know
 ---
