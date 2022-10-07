@@ -49,10 +49,10 @@ substitutions:
     vars:
       title: Spring on Ramp
       units: m
-    m: 7
-    theta: 33
+    m: 3
+    theta: 27
     k: 300
-    us: 0.7
+    us: 0.5
     uk: 0.39
 ---
 # {{ params.vars.title }}

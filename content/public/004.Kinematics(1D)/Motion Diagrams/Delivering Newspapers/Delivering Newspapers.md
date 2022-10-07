@@ -37,13 +37,13 @@ substitutions:
       ans1:
         value: '2'
       ans2:
-        value: '1'
-      ans3:
-        value: '3'
-      ans4:
         value: '7'
-      ans5:
+      ans3:
         value: '6'
+      ans4:
+        value: '1'
+      ans5:
+        value: '4'
       ans6:
         value: '5'
 ---

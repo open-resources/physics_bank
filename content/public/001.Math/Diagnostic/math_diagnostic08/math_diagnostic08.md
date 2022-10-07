@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{20x + 10y }{ 5 }$
+    expr: $\dfrac{-12x + 30y }{ -6 }$
     part1:
       ans1:
-        value: $4 x + 2 y$
+        value: $2 x - 5 y$
       ans2:
-        value: $\dfrac{4x + 2y}{5}$
+        value: $\dfrac{2x - 5y}{-6}$
       ans3:
-        value: $2x + 4y$
+        value: $-5x + 2y$
       ans4:
-        value: $20x + 10y$
+        value: $-12x - 30y$
       ans5:
         value: Don't know.
 ---

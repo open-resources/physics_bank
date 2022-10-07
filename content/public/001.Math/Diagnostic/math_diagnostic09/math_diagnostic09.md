@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $s$ = $\dfrac{(l)}{(o + 4k)} $
+    expr: $x$ = $\dfrac{(s)}{(r + 4q)} $
     part1:
       ans1:
-        value: o = ${ - 4 k + \frac{l}{s}}$
+        value: r = ${ - 4 q + \frac{s}{x}}$
       ans2:
-        value: o = ${\frac{4 k s}{l}}$
+        value: r = ${\frac{4 q x}{s}}$
       ans3:
-        value: o = ${\frac{l}{4 k s}}$
+        value: r = ${\frac{s}{4 q x}}$
       ans4:
-        value: o = ${\frac{- 4 k + s}{l}}$
+        value: r = ${\frac{- 4 q + x}{s}}$
       ans5:
         value: Don't Know
 ---

@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic23
-    a: 5
+    a: 9
     b: 7
-    formula: $x^{5} \sin{\left(7 x \right)}$
+    formula: $x^{9} \cos{\left(7 x \right)}$
     part1:
       ans1:
-        value: $7 x^{5} \cos{\left(7 x \right)} + 5 x^{4} \sin{\left(7 x \right)}$
+        value: $- 7 x^{9} \sin{\left(7 x \right)} + 9 x^{8} \cos{\left(7 x \right)}$
       ans2:
-        value: $7 x^{5} \cos{\left(7 x \right)} $
+        value: $- 7 x^{9} \sin{\left(7 x \right)} $
       ans3:
-        value: $ 5 x^{4} \cos{\left(7 x \right)}$
+        value: $ 9 x^{8} \sin{\left(7 x \right)}$
       ans4:
-        value: $- 7 x^{5} \sin{\left(7 x \right)} + 5 x^{4} \cos{\left(7 x \right)}$
+        value: $7 x^{9} \cos{\left(7 x \right)} + 9 x^{8} \sin{\left(7 x \right)}$
       ans5:
         value: Don't Know
 ---

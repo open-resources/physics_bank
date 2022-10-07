@@ -32,8 +32,8 @@ substitutions:
   params:
     vars:
       title: Box in a Vehicle
-      vehicle: car
-      direction: negative
+      vehicle: sedan
+      direction: positive
     part1:
       ans1:
         value: Kinetic friction, positive x-direction

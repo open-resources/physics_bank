@@ -32,17 +32,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic07
-    formula1: 6x - 8y = 11
-    formula2: 10x + 1y = 38
+    formula1: 2x - 2y = 11
+    formula2: 8x + 1y = 3
     part1:
       ans1:
-        value: ' x =315/86, y =59/43'
+        value: ' x =17/18, y =-41/9'
       ans2:
-        value: ' x =59/43, y =315/86'
+        value: ' x =-41/9, y =17/18'
       ans3:
-        value: ' x =-315/86, y =-59/43'
+        value: ' x =-17/18, y =41/9'
       ans4:
-        value: ' x =-59/43, y =-315/86'
+        value: ' x =41/9, y =-17/18'
       ans5:
         value: Don't Know
 ---

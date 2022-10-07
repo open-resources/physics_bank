@@ -53,11 +53,11 @@ substitutions:
   params:
     vars:
       title: Force on a Waterslide
-    va: 10
+    va: 14
     vc: 7
-    W: 42
-    d: 15
-    r: 7
+    W: 73
+    d: 10
+    r: 3
 ---
 # {{ params.vars.title }}
 <img src="Force on a Waterslide.png" width=400>

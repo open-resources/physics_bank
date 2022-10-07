@@ -31,21 +31,21 @@ substitutions:
   params:
     vars:
       title: Shooting a Steel Ball
-    v: 4
-    theta: 71
+    v: 2
+    theta: 75
     part1:
       ans1:
-        value: $(4\cos(71^{\circ}), \; -4\sin(71^{\circ}))$
+        value: $(2\cos(75^{\circ}), \; -2\sin(75^{\circ}))$
       ans2:
-        value: $(4\cos(71^{\circ}), \;4\sin(71^{\circ}))$
+        value: $(2\cos(75^{\circ}), \;2\sin(75^{\circ}))$
       ans3:
-        value: $(4\sin(71^{\circ}), \; -4\cos(71^{\circ}))$
+        value: $(2\sin(75^{\circ}), \; -2\cos(75^{\circ}))$
       ans4:
-        value: $(4\sin(71^{\circ}), \;4\cos(71^{\circ}))$
+        value: $(2\sin(75^{\circ}), \;2\cos(75^{\circ}))$
       ans5:
-        value: $(-4\cos(71^{\circ}), \; -4\sin(71^{\circ}))$
+        value: $(-2\cos(75^{\circ}), \; -2\sin(75^{\circ}))$
       ans6:
-        value: $(-4\sin(71^{\circ}), \;4\cos(71^{\circ}))$
+        value: $(-2\sin(75^{\circ}), \;2\cos(75^{\circ}))$
 ---
 # {{ params.vars.title }}
 A small steel ball is shot at {{ params.v }} $m/s$ at a {{ params.theta }}$^{\circ}$ angle above the horizontal direction and its motion is well approximated by projectile motion.

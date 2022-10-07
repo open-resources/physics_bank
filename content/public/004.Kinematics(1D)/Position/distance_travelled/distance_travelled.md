@@ -30,19 +30,19 @@ part1:
 substitutions:
   params:
     vars:
-      name: Ximena
-      vehicle: a skateboard
+      name: Abbas
+      vehicle: rollerblades
       units: m
       title: Distance travelled
-    v: 6
-    t: 6
+    v: 7
+    t: 7
     part1:
       ans1:
         value: 42.0
       ans2:
-        value: 36
+        value: 49
       ans3:
-        value: 12
+        value: 14
       ans4:
         value: 1.0
       ans5:
