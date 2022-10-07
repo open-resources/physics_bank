@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $i$ = $\dfrac{(q)}{(e + 6a)} $
+    expr: $v$ = $\dfrac{(w)}{(m - 10e)} $
     part1:
       ans1:
-        value: e = ${ - 6 a + \frac{q}{i}}$
+        value: m = ${ 10 e + \frac{w}{v}}$
       ans2:
-        value: e = ${\frac{6 a i}{q}}$
+        value: m = ${- \frac{10 e v}{w}}$
       ans3:
-        value: e = ${\frac{q}{6 a i}}$
+        value: m = ${- \frac{w}{10 e v}}$
       ans4:
-        value: e = ${\frac{- 6 a + i}{q}}$
+        value: m = ${\frac{10 e + v}{w}}$
       ans5:
         value: Don't Know
 ---

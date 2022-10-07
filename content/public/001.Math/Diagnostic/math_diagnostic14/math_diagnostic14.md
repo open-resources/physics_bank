@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic14
-    expr: $x^{ -3\over 5}$
+    expr: $x^{ -7\over 2}$
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt[5]{x^{3}}}\end{equation}
+        value: \begin{equation}\frac{1}{\sqrt{x^{7}}}\end{equation}
       ans2:
-        value: \begin{equation}\sqrt[5]{x^{3}}\end{equation}
+        value: \begin{equation}\sqrt{x^{7}}\end{equation}
       ans3:
-        value: \begin{equation}x^{\frac{3}{5}}\end{equation}
+        value: \begin{equation}x^{\frac{7}{2}}\end{equation}
       ans4:
-        value: \begin{equation}- \frac{1}{\sqrt[5]{x^{3}}}\end{equation}
+        value: \begin{equation}- \frac{1}{\sqrt{x^{7}}}\end{equation}
       ans5:
         value: Do not know
 ---

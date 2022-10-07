@@ -77,8 +77,8 @@ substitutions:
     vars:
       title: Arctic Haul
       units: $\rm{N}$
-    uk: 0.14
-    m: 55
+    uk: 0.57
+    m: 44
 ---
 # {{ params.vars.title }}
 An environmental physicist working in the Arctic pulls their supplies up a steep ($\theta = 30^\circ$ above the horizontal) snow-covered slope. The rope that they pull with is at an angle $\theta = 30^\circ$ above the angle of the slope (see figure below). The coefficient of kinetic friction between the supplies and the slope is $\mu_k = {{ params.uk }}$. They maintain a constant velocity up the hill.

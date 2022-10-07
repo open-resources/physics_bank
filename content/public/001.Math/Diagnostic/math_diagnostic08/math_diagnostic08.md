@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-54x - 24y }{ 6 }$
+    expr: $\dfrac{-27x - 15y }{ -3 }$
     part1:
       ans1:
-        value: $- 9 x - 4 y$
+        value: $9 x + 5 y$
       ans2:
-        value: $\dfrac{-9x - 4y}{6}$
+        value: $\dfrac{9x + 5y}{-3}$
       ans3:
-        value: $-4x - 9y$
+        value: $5x + 9y$
       ans4:
-        value: $-54x - 24y$
+        value: $-27x + 15y$
       ans5:
         value: Don't know.
 ---

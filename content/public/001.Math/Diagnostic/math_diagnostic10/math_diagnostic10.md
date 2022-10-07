@@ -34,17 +34,17 @@ substitutions:
       title: Math Diagnostic10
     a: 9
     b: '1'
-    b_sign: ' - '
+    b_sign: ' + '
     c: 11
     part1:
       ans1:
-        value: x =  - 2/1
-      ans2:
         value: x =   2/1
+      ans2:
+        value: x =  - 2/1
       ans3:
-        value: x = 3
+        value: x = 1
       ans4:
-        value: x = 21
+        value: x = 19
       ans5:
         value: This equation cannot be solved
 ---

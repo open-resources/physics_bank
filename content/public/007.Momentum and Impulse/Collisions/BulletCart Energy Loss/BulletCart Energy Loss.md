@@ -45,9 +45,9 @@ substitutions:
   params:
     vars:
       title: BulletCart Energy Loss
-    m: 49
-    mbg: 60
-    vb: 621
+    m: 35
+    mbg: 84
+    vb: 485
 ---
 # {{ params.vars.title }}
 <img src="BulletCart Energy Loss.png" width=400>

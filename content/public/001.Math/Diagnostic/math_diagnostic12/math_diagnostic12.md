@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic12
-    expr: $7\over 7- x$ > $ 8$
+    expr: $6\over 6- x$ > $ 7$
     part1:
       ans1:
-        value: (49/8 < x) & (x < 7)
+        value: (36/7 < x) & (x < 6)
       ans2:
-        value: (49/8 > x) & (x > 7)
+        value: (36/7 > x) & (x > 6)
       ans3:
-        value: x > 7/8
+        value: x > 6/7
       ans4:
-        value: (384/7 < x) & (x < 56)
+        value: (245/6 < x) & (x < 42)
       ans5:
         value: Do not know
 ---
