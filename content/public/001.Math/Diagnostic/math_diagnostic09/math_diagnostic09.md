@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $x$ = $\dfrac{(s)}{(r + 4q)} $
+    expr: $i$ = $\dfrac{(q)}{(e + 6a)} $
     part1:
       ans1:
-        value: r = ${ - 4 q + \frac{s}{x}}$
+        value: e = ${ - 6 a + \frac{q}{i}}$
       ans2:
-        value: r = ${\frac{4 q x}{s}}$
+        value: e = ${\frac{6 a i}{q}}$
       ans3:
-        value: r = ${\frac{s}{4 q x}}$
+        value: e = ${\frac{q}{6 a i}}$
       ans4:
-        value: r = ${\frac{- 4 q + x}{s}}$
+        value: e = ${\frac{- 6 a + i}{q}}$
       ans5:
         value: Don't Know
 ---

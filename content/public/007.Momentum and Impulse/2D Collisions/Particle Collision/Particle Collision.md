@@ -33,18 +33,18 @@ substitutions:
       title: Particle Collision
     choice: $y$-component of the
     m1: 5
-    m2: 1
+    m2: 5
     v1: 12
-    v2: 3
+    v2: 11
     part1:
       ans1:
-        value: 3 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+        value: 55 $kg$ $\dfrac{m}{s}\hat{\jmath}$
         feedback: Great! You got it.
       ans2:
-        value: 3 $kg$ $\dfrac{m}{s}\hat{\imath}$
+        value: 55 $kg$ $\dfrac{m}{s}\hat{\imath}$
         feedback: Hmm... Try again.
       ans3:
-        value: 3 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 60 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+        value: 55 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 60 $kg$ $\dfrac{m}{s}\hat{\jmath}$
         feedback: Hmm... Try again.
       ans4:
         value: 60 $kg$ $\dfrac{m}{s}\hat{\jmath}$
@@ -53,7 +53,7 @@ substitutions:
         value: 60 $kg$ $\dfrac{m}{s}\hat{\imath}$
         feedback: Close! Double check the directions of the unit vectors.
       ans6:
-        value: 60 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 3 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+        value: 60 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 55 $kg$ $\dfrac{m}{s}\hat{\jmath}$
         feedback: Careful! Only one component is asked for.
 ---
 # {{ params.vars.title }}

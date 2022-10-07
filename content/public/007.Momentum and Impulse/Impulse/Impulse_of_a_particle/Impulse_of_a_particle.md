@@ -48,7 +48,7 @@ substitutions:
   params:
     vars:
       title: Impulse of a particle
-    m: 115
+    m: 197
 ---
 # {{ params.vars.title }}
 <img src="Impulse.png" alt= " A graph of force in the unit of newton, and time in ms. A straight line from t1= 0 ms to t2= 3 ms where F1 = 0 N and F2= 800 N. A horizontal line from t2= 3 ms to t3= 6 ms where F= 800 N.">

@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $5^{1} $=$ 5$
+    expr: $8^{6} $=$ 262144$
     part1:
       ans1:
-        value: $log_55 = 1$
+        value: $log_8262144 = 6$
       ans2:
-        value: $log_51 = 5$
+        value: $log_86 = 262144$
       ans3:
-        value: $log_51 = 5$
+        value: $log_2621446 = 8$
       ans4:
-        value: $log_15 = 5$
+        value: $log_6262144 = 8$
       ans5:
         value: Don't Know
 ---

@@ -44,7 +44,7 @@ substitutions:
     vars:
       title: Masses on Slopes
       units: $\rm{\frac{m}{s^2}}$
-    m1: 13
+    m1: 11
     m2: 1
 ---
 # {{ params.vars.title }}

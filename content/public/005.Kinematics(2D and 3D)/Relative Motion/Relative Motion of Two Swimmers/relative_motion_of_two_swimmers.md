@@ -45,10 +45,10 @@ substitutions:
   params:
     vars:
       title: Relative Motion of Two Swimmers
-    v: 1
-    h: 16
-    d: 40
-    t: 19
+    v: 4
+    h: 15
+    d: 18
+    t: 12
 ---
 # {{ params.vars.title }}
 <img src="L11Q3.png" width=85%>

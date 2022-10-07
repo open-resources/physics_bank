@@ -45,7 +45,7 @@ substitutions:
   params:
     vars:
       title: Collision of Collars
-    W1: 1
+    W1: 2
     W2: 8
     v1: 29
     v2: 5

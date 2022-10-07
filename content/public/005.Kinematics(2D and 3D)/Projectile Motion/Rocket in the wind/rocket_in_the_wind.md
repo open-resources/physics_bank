@@ -38,8 +38,8 @@ substitutions:
     vars:
       title: Rocket in the wind
       units: ${\circ}$
-    v0: 10
-    wind_acc: 3.5
+    v0: 18
+    wind_acc: 0.3
 ---
 # {{ params.vars.title }}
 A model rocket looks to launch with a speed $v\_{0} = {{params.v0}} m/s$.

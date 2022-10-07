@@ -32,17 +32,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic07
-    formula1: 2x - 2y = 11
-    formula2: 8x + 1y = 3
+    formula1: 10x - 7y = 10
+    formula2: 1x + 1y = 2
     part1:
       ans1:
-        value: ' x =17/18, y =-41/9'
+        value: ' x =24/17, y =10/17'
       ans2:
-        value: ' x =-41/9, y =17/18'
+        value: ' x =10/17, y =24/17'
       ans3:
-        value: ' x =-17/18, y =41/9'
+        value: ' x =-24/17, y =-10/17'
       ans4:
-        value: ' x =41/9, y =-17/18'
+        value: ' x =-10/17, y =-24/17'
       ans5:
         value: Don't Know
 ---

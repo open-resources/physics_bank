@@ -31,16 +31,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic25
-    expr: $\dfrac{ 1-e^{(-10x)}}{4-x}$
+    expr: $\dfrac{ 5-e^{(-3x)}}{9-x}$
     part1:
       ans1:
-        value: '0'
+        value: 4/9
       ans2:
         value: Negative Infinity
       ans3:
-        value: 0.25
+        value: 0.5555555555555556
       ans4:
-        value: 1
+        value: 5
       ans5:
         value: Don't Know
 ---
