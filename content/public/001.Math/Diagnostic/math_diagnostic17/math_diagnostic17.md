@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic17
-    a: 9
+    a: 5
     b: 5
     part1:
       ans1:
-        value: $e^{5} e^{9 y}$
+        value: $e^{5} e^{5 y}$
       ans2:
-        value: $e^{9 y} + e^{9}$
+        value: $e^{5 y} + e^{5}$
       ans3:
-        value: $9 e^{9} e^{y}$
+        value: $5 e^{5} e^{y}$
       ans4:
-        value: $5 e^{9 y}$
+        value: $5 e^{5 y}$
       ans5:
         value: Don't Know
 ---

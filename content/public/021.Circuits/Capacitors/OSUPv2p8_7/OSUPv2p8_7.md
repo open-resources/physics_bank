@@ -57,8 +57,8 @@ substitutions:
   params:
     vars:
       title: Combining Capacitors
-    c: '2.3'
-    n: '4'
+    c: '1.0'
+    n: '7'
 ---
 # {{ params.vars.title }}
 

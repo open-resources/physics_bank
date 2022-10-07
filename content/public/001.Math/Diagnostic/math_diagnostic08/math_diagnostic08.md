@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-27x - 15y }{ -3 }$
+    expr: $\dfrac{-72x - 63y }{ -9 }$
     part1:
       ans1:
-        value: $9 x + 5 y$
+        value: $8 x + 7 y$
       ans2:
-        value: $\dfrac{9x + 5y}{-3}$
+        value: $\dfrac{8x + 7y}{-9}$
       ans3:
-        value: $5x + 9y$
+        value: $7x + 8y$
       ans4:
-        value: $-27x + 15y$
+        value: $-72x + 63y$
       ans5:
         value: Don't know.
 ---

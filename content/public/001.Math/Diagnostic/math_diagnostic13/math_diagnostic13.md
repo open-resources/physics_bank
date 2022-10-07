@@ -32,7 +32,7 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic13
-    expr: $\dfrac{z^9 }{z^5} $
+    expr: $\dfrac{z^8 }{z^4} $
     part1:
       ans1:
         value: $z^{4}$
@@ -41,7 +41,7 @@ substitutions:
       ans3:
         value: 4z
       ans4:
-        value: (9/5)z
+        value: (2)z
       ans5:
         value: Don't Know
 ---

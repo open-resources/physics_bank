@@ -35,7 +35,7 @@ substitutions:
   params:
     vars:
       title: Water Rocket
-    m: 1.2
+    m: 1.6
     i: 11
 ---
 # {{ params.vars.title }}

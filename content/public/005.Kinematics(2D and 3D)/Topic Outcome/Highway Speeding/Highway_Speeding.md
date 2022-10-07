@@ -45,10 +45,10 @@ substitutions:
   params:
     vars:
       title: Highway Speeding
-    d: 498
-    r_dot: 148
-    angle1: 59
-    angle2: 52
+    d: 572
+    r_dot: 145
+    angle1: 41
+    angle2: 30
 ---
 # {{ params.vars.title }}
 <img src="L7Q1.png" width=90%>

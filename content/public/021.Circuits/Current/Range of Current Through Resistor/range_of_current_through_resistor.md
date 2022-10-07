@@ -53,10 +53,10 @@ substitutions:
   params:
     vars:
       title: Range of Current Through Resistor
-    R: 293
-    V: 2.4
-    p: 2
-    Vtotal: 4.8
+    R: 118
+    V: 3.8
+    p: 1
+    Vtotal: 7.6
 ---
 # {{ params.vars.title }}
 A resistor rated at {{params.R}} $\rm\ k\Omega$ is connected across two D cell batteries (each {{params.V}} $\textrm{ V}$) in series, with a total voltage of {{params.Vtotal}} $\textrm{ V}$.

@@ -56,10 +56,10 @@ part5:
 substitutions:
   params:
     vars:
-      name: Maya
+      name: Ximena
       title: Sled Hill
-    angle: 5
-    h: 12
+    angle: 4
+    h: 16
     uk: 0.15
     m: 85
 ---

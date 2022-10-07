@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $v$ = $\dfrac{(w)}{(m - 10e)} $
+    expr: $v$ = $\dfrac{(c)}{(e - 7u)} $
     part1:
       ans1:
-        value: m = ${ 10 e + \frac{w}{v}}$
+        value: e = ${ \frac{c}{v} + 7 u}$
       ans2:
-        value: m = ${- \frac{10 e v}{w}}$
+        value: e = ${- \frac{7 u v}{c}}$
       ans3:
-        value: m = ${- \frac{w}{10 e v}}$
+        value: e = ${- \frac{c}{7 u v}}$
       ans4:
-        value: m = ${\frac{10 e + v}{w}}$
+        value: e = ${\frac{7 u + v}{c}}$
       ans5:
         value: Don't Know
 ---

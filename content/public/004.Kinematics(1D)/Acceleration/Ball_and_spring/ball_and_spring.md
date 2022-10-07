@@ -71,7 +71,7 @@ substitutions:
       units3: "$\rm{m}$"
       units4: "$\rm{m/s^2}$"
     m: 0.2
-    deg: 22
+    deg: 23
     h: 0
     x: 5
     k: 700

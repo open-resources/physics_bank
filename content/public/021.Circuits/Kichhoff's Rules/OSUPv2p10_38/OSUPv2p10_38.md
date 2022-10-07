@@ -74,11 +74,11 @@ substitutions:
   params:
     vars:
       title: Circuit with Multiple Loops
-    R1: '14.0'
-    R2: '7.0'
-    R3: '5.0'
-    I1: '2.0'
-    V2: '24.0'
+    R1: '11.0'
+    R2: '8.0'
+    R3: '8.0'
+    I1: '1.0'
+    V2: '22.0'
 ---
 # {{ params.vars.title }}
 Consider the circuit shown below.

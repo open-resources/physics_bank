@@ -34,25 +34,25 @@ substitutions:
   params:
     vars:
       title: Momentum Vector
-    px: -7
-    py: 24
+    px: -12
+    py: -5
     part1:
       ans1:
-        value: $p= 25\; \rm{kg \; m/s}$, $\theta = 253.74^\circ$.
+        value: $p= 13\; \rm{kg \; m/s}$, $\theta = 157.38^\circ$.
         feedback: Hmm, it looks like your angle is off. Make sure you're calculating
           the desired angle.
       ans2:
-        value: $p= -25\; \rm{kg \; m/s}$, $\theta = 106.26^\circ$.
+        value: $p= -13\; \rm{kg \; m/s}$, $\theta = 202.62^\circ$.
         feedback: Hmm, can a magnitude really be negative?
       ans3:
-        value: $p= 25\; \rm{kg \; m/s}$, $\theta = 286.26^\circ$.
+        value: $p= 13\; \rm{kg \; m/s}$, $\theta = 22.62^\circ$.
         feedback: Close, try drawing out the momentum vector to make sure you have
           the correct angle!
       ans4:
-        value: $p= -25\; \rm{kg \; m/s}$, $\theta = 286.26^\circ$.
+        value: $p= -13\; \rm{kg \; m/s}$, $\theta = 22.62^\circ$.
         feedback: Try drawing out the momentum vector and make sure your answers match!
       ans5:
-        value: $p= 25\; \rm{kg \; m/s}$, $\theta = 106.26^\circ$.
+        value: $p= 13\; \rm{kg \; m/s}$, $\theta = 202.62^\circ$.
         feedback: Great! You got it.
 ---
 # {{ params.vars.title }}

@@ -84,7 +84,7 @@ substitutions:
   params:
     vars:
       title: Competitive Hammer Throw
-    v: 25.7
+    v: 29.78
     r: 1.194
     m: 4
     d: 82.98

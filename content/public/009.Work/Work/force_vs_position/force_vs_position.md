@@ -53,9 +53,9 @@ substitutions:
   params:
     vars:
       title: Force vs Position Graph
-    m: 1.0
-    v: 5.0
-    x: 3.0
+    m: 3.0
+    v: 2.5
+    x: 2.5
 ---
 # {{ params.vars.title }}
 The graph below shows the net force on a particle in the $x$-direction as a function of its position along the $x$-axis.
