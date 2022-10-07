@@ -223,6 +223,8 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Relative Motion
       on a Curve/relative_motion_on_a_curve
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Rutland Rd/rutland_rd
+  - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Skateboarder and
+      observer2/Skateboarder and observer2
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Velocity of a Falcon/Velocity
       of a Falcon
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/airplane_relative_motion/airplane_relative_motion
