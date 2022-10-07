@@ -281,6 +281,7 @@ parts:
       Elevator
   - file: content/public/006.Force/Free Body Diagrams/Ball Rolling in Pipe/ball_rolling_in_pipe
   - file: content/public/006.Force/Free Body Diagrams/Car in Ditch/car_in_ditch
+  - file: content/public/006.Force/Free Body Diagrams/Elevator/Elevator
   - file: content/public/006.Force/Free Body Diagrams/Mass_Swinging_on_a_String/Mass_Swinging_on_a_String
   - file: content/public/006.Force/Free Body Diagrams/Masses on Slopes/masses_on_slopes
   - file: content/public/006.Force/Free Body Diagrams/dogs_pulling_sled/dogs_pulling_sled
