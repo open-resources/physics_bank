@@ -67,9 +67,9 @@ substitutions:
   params:
     vars:
       title: Switching Connections
-    a: '2.0'
-    b: '1.0'
-    v: '2.0'
+    a: '3.0'
+    b: '5.0'
+    v: '5.0'
 ---
 # {{ params.vars.title }}
 A ${{params.a }} \rm\ \mu\textrm{F}$ capacitor and a ${{params.b }} \rm\ \mu\textrm{F}$ capacitor are connected in series across a ${{params.v }} \textrm{ kV}$ potential. The charged capacitors are then disconnected from the source and connected to each other with terminals of like sign together.

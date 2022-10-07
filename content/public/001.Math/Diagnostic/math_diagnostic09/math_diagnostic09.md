@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $v$ = $\dfrac{(c)}{(e - 7u)} $
+    expr: $d$ = $\dfrac{(o)}{(m + 3l)} $
     part1:
       ans1:
-        value: e = ${ \frac{c}{v} + 7 u}$
+        value: m = ${ - 3 l + \frac{o}{d}}$
       ans2:
-        value: e = ${- \frac{7 u v}{c}}$
+        value: m = ${\frac{3 d l}{o}}$
       ans3:
-        value: e = ${- \frac{c}{7 u v}}$
+        value: m = ${\frac{o}{3 d l}}$
       ans4:
-        value: e = ${\frac{7 u + v}{c}}$
+        value: m = ${\frac{d - 3 l}{o}}$
       ans5:
         value: Don't Know
 ---

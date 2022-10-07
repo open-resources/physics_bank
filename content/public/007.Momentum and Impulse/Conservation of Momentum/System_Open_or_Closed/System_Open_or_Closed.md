@@ -36,8 +36,8 @@ substitutions:
       vehicle_c: Car
       vehicle: car
       units: kg
-    i_a: 142
-    i_b: 348
+    i_a: 144
+    i_b: 339
     part1:
       ans1:
         value: Yes, because the two carts are on a track with no friction.

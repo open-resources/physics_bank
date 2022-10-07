@@ -46,9 +46,9 @@ substitutions:
   params:
     vars:
       title: Resistance Swimmer
-    v: 2
-    h: 19
-    x: 12
+    v: 3
+    h: 20
+    x: 11
     a: 0.5
 ---
 # {{ params.vars.title }}

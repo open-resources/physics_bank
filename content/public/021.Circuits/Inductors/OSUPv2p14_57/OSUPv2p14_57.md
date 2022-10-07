@@ -63,7 +63,7 @@ substitutions:
   params:
     vars:
       title: 'Switched RL Series Circuit: Time Constant'
-    t: '2.55'
+    t: '1.60'
     L: '220.0'
 ---
 # {{ params.vars.title }}

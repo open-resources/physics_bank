@@ -33,18 +33,18 @@ substitutions:
   params:
     vars:
       title: Speed Before Impact
-      vehicle: van
+      vehicle: pickup truck
       units: $m/s$
-    m: 660
+    m: 526
     part1:
       ans1:
-        value: 82.0
+        value: 103.0
       ans2:
-        value: 41.0
+        value: 51.0
       ans3:
-        value: 20.0
+        value: 26.0
       ans4:
-        value: 10.0
+        value: 13.0
       ans5:
         value: 0
 ---

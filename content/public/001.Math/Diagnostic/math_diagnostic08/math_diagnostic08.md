@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-72x - 63y }{ -9 }$
+    expr: $\dfrac{-16x - 12y }{ 2 }$
     part1:
       ans1:
-        value: $8 x + 7 y$
+        value: $- 8 x - 6 y$
       ans2:
-        value: $\dfrac{8x + 7y}{-9}$
+        value: $\dfrac{-8x - 6y}{2}$
       ans3:
-        value: $7x + 8y$
+        value: $-6x - 8y$
       ans4:
-        value: $-72x + 63y$
+        value: $-16x - 12y$
       ans5:
         value: Don't know.
 ---
