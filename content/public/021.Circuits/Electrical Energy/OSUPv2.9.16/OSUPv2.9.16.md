@@ -29,18 +29,18 @@ substitutions:
   params:
     vars:
       title: Energy Consumption Units
-      name: Savannah
+      name: Maya
     part1:
       ans1:
-        value: current
-      ans2:
         value: voltage
-      ans3:
+      ans2:
         value: energy
-      ans4:
-        value: power
-      ans5:
+      ans3:
         value: charge
+      ans4:
+        value: current
+      ans5:
+        value: power
 ---
 # {{ params.vars.title }}
 

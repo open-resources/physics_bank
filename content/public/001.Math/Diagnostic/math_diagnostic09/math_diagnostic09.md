@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $g$ = $\dfrac{(p)}{(k + 3y)} $
+    expr: $a$ = $\dfrac{(g)}{(j - 9e)} $
     part1:
       ans1:
-        value: k = ${ - 3 y + \frac{p}{g}}$
+        value: j = ${ 9 e + \frac{g}{a}}$
       ans2:
-        value: k = ${\frac{3 g y}{p}}$
+        value: j = ${- \frac{9 a e}{g}}$
       ans3:
-        value: k = ${\frac{p}{3 g y}}$
+        value: j = ${- \frac{g}{9 a e}}$
       ans4:
-        value: k = ${\frac{g - 3 y}{p}}$
+        value: j = ${\frac{a + 9 e}{g}}$
       ans5:
         value: Don't Know
 ---

@@ -51,7 +51,7 @@ substitutions:
       units: m
     m: 6
     theta: 29
-    k: 200
+    k: 150
     us: 0.5
     uk: 0.39
 ---

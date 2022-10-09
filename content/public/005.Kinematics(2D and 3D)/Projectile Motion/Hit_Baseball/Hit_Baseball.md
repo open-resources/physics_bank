@@ -33,23 +33,23 @@ substitutions:
     vars:
       title: Hit Baseball
       units: $m/s$
-    v: 28.9
-    d: 19.5
+    v: 23.9
+    d: 21.5
     part1:
       ans1:
-        value: $27.2 \, \rm{m/s} \; \hat{x}$
+        value: $22.2 \, \rm{m/s} \; \hat{x}$
       ans2:
-        value: $9.65 \, \rm{m/s} \; \hat{y}$
+        value: $8.76 \, \rm{m/s} \; \hat{y}$
       ans3:
-        value: $-9.65 \, \rm{m/s} \; \hat{y}$
+        value: $-8.76 \, \rm{m/s} \; \hat{y}$
       ans4:
-        value: $27.2 \, \rm{m/s} \; \hat{x} \; - \; 9.65 \, \rm{m/s} \; \hat{y}$
+        value: $22.2 \, \rm{m/s} \; \hat{x} \; - \; 8.76 \, \rm{m/s} \; \hat{y}$
       ans5:
-        value: $27.2 \, \rm{m/s} \; \hat{x} \; + \; 9.65 \, \rm{m/s} \; \hat{y}$
+        value: $22.2 \, \rm{m/s} \; \hat{x} \; + \; 8.76 \, \rm{m/s} \; \hat{y}$
       ans6:
-        value: $9.65 \, \rm{m/s} \; \hat{x} \; + \; 27.2 \, \rm{m/s} \; \hat{y}$
+        value: $8.76 \, \rm{m/s} \; \hat{x} \; + \; 22.2 \, \rm{m/s} \; \hat{y}$
       ans7:
-        value: $9.65 \, \rm{m/s} \; \hat{x} \; - \; 27.2 \, \rm{m/s} \; \hat{y}$
+        value: $8.76 \, \rm{m/s} \; \hat{x} \; - \; 22.2 \, \rm{m/s} \; \hat{y}$
       ans8:
         value: $0 \rm{m/s}$
 ---

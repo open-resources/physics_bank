@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{14x + 28y }{ -7 }$
+    expr: $\dfrac{-54x - 54y }{ -9 }$
     part1:
       ans1:
-        value: $- 2 x - 4 y$
+        value: $6 x + 6 y$
       ans2:
-        value: $\dfrac{-2x - 4y}{-7}$
+        value: $\dfrac{6x + 6y}{-9}$
       ans3:
-        value: $-4x - 2y$
+        value: $6x + 6y$
       ans4:
-        value: $14x - 28y$
+        value: $-54x + 54y$
       ans5:
         value: Don't know.
 ---

@@ -46,10 +46,10 @@ substitutions:
   params:
     vars:
       title: Child on Swing
-    v: 595
-    h: 556
-    d: 995
-    r2: 1241
+    v: 627
+    h: 511
+    d: 829
+    r2: 1477
 ---
 # {{ params.vars.title }}
 <img src="L11Q2.png" width=85%>

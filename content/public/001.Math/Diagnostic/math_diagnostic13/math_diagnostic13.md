@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic13
-    expr: $\dfrac{z^2 }{z^5} $
+    expr: $\dfrac{z^2 }{z^7} $
     part1:
       ans1:
-        value: $z^{-3}$
+        value: $z^{-5}$
       ans2:
-        value: $z^{3}$
+        value: $z^{5}$
       ans3:
-        value: -3z
+        value: -5z
       ans4:
-        value: (2/5)z
+        value: (2/7)z
       ans5:
         value: Don't Know
 ---

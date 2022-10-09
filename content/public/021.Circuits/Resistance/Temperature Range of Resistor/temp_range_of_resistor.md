@@ -43,9 +43,9 @@ substitutions:
   params:
     vars:
       title: Temperature Range of Resistor
-    p: 2
-    metal: 'Germanium '
-    T_0: 58
+    p: 5
+    metal: Silicon
+    T_0: 144
 ---
 # {{ params.vars.title }}
 

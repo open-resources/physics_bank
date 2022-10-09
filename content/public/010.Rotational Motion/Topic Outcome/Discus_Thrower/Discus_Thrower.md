@@ -32,19 +32,19 @@ substitutions:
     vars:
       title: Discus Thrower
       units: $rad/s$
-    r: 2
-    a: 42
+    r: 3
+    a: 52
     part1:
       ans1:
-        value: 32.0
+        value: 44.0
       ans2:
-        value: 1056.0
+        value: 1960.0
       ans3:
-        value: 168
+        value: 312
       ans4:
-        value: 11.0
+        value: 13.0
       ans5:
-        value: 16.0
+        value: 18.0
 ---
 # {{ params.vars.title }}
 A discus thrower makes {{ params.r }} complete revolutions from rest while holding the discus at a distance of 1 $m$ from their centre before releasing it.
