@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $d$ = $\dfrac{(o)}{(f + 10s)} $
+    expr: $r$ = $\dfrac{(b)}{(x + 5i)} $
     part1:
       ans1:
-        value: f = ${ - 10 s + \frac{o}{d}}$
+        value: x = ${ \frac{b}{r} - 5 i}$
       ans2:
-        value: f = ${\frac{10 d s}{o}}$
+        value: x = ${\frac{5 i r}{b}}$
       ans3:
-        value: f = ${\frac{o}{10 d s}}$
+        value: x = ${\frac{b}{5 i r}}$
       ans4:
-        value: f = ${\frac{d - 10 s}{o}}$
+        value: x = ${\frac{- 5 i + r}{b}}$
       ans5:
         value: Don't Know
 ---

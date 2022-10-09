@@ -63,8 +63,8 @@ substitutions:
       name: Lorenzo
       unit1: $kg$
       unit2: $m^3$
-    m_p: 219
-    m_cp: 94
+    m_p: 174
+    m_cp: 76
     l: 2
 ---
 # {{ params.vars.title }}

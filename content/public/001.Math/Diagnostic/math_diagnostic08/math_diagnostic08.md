@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-45x - 18y }{ 9 }$
+    expr: $\dfrac{20x + 16y }{ -4 }$
     part1:
       ans1:
-        value: $- 5 x - 2 y$
+        value: $- 5 x - 4 y$
       ans2:
-        value: $\dfrac{-5x - 2y}{9}$
+        value: $\dfrac{-5x - 4y}{-4}$
       ans3:
-        value: $-2x - 5y$
+        value: $-4x - 5y$
       ans4:
-        value: $-45x - 18y$
+        value: $20x - 16y$
       ans5:
         value: Don't know.
 ---

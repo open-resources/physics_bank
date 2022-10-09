@@ -56,7 +56,7 @@ substitutions:
       title: Connecting Capacitors
       name: Lorenzo
     a: '8'
-    b: '11'
+    b: '9'
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} has a {{params.a }} $\rm\ \mu\textrm{F}$ capacitor and a {{params.b }} $\rm\ \mu\textrm{F}$ capacitor.

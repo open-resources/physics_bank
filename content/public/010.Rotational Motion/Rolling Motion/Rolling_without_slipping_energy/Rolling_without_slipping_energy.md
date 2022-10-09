@@ -1,15 +1,16 @@
 ---
-title: Choose all Vectors and Scalars
-topic: Vectors
-author: Jake Bobowski
-source: 2015 practice midterm 1 Q5
+title: Rolling Without Slipping Energy
+topic: Rotational Motion
+author: John Hopkinson
+source: Phys 112 2018W1 Practice Final Q2
 template_version: 1.4
 attribution: standard
 partialCredit: true
 singleVariant: false
 showCorrectAnswer: false
 outcomes:
-- 3.1.1.0
+- 8.2.1.2
+- 10.5.1.0
 difficulty:
 - undefined
 randomization:
@@ -21,7 +22,7 @@ span:
 length:
 - undefined
 tags:
-- NR
+- JR
 assets: null
 part1:
   type: checkbox
@@ -32,40 +33,30 @@ part1:
 substitutions:
   params:
     vars:
-      title: Choose all Vectors and Scalars
-    choice: vectors
+      title: Rolling Without Slipping Energy
     part1:
       ans1:
-        value: Acceleration
+        value: Gravitational kinetic energy
       ans2:
-        value: Momentum
+        value: Translational kinetic energy
       ans3:
-        value: Force
-      ans4:
-        value: Velocity
-      ans5:
-        value: Length
-      ans6:
-        value: Speed
+        value: Rotational kinetic energy
 ---
 # {{ params.vars.title }}
 
-## Question Text
+## Part 1
 
-Consider the following quantities. Choose all of those which are {{ params.choice }}.
+An object that is rolling without slipping has:
 
 ### Answer Section
 
 Select all the choices that apply.
 
-Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
+Note: You will be awarded full marks only if you select all of the correct choices and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
 - {{ params.part1.ans1.value}}
 - {{ params.part1.ans2.value}}
 - {{ params.part1.ans3.value}}
-- {{ params.part1.ans4.value}}
-- {{ params.part1.ans5.value}}
-- {{ params.part1.ans6.value}}
 
 ## Attribution
 

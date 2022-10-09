@@ -38,11 +38,11 @@ substitutions:
     vars:
       title: Trapped Hiker
     m: 92
-    F: 1410
-    x1: 3.0
-    d: 19.0
+    F: 1479
+    x1: 8.0
+    d: 18.0
     h: 5.0
-    k: 30
+    k: 42
     thetad: 5
 ---
 # {{ params.vars.title }}
