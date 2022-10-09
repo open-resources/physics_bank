@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-16x - 12y }{ 2 }$
+    expr: $\dfrac{14x + 28y }{ -7 }$
     part1:
       ans1:
-        value: $- 8 x - 6 y$
+        value: $- 2 x - 4 y$
       ans2:
-        value: $\dfrac{-8x - 6y}{2}$
+        value: $\dfrac{-2x - 4y}{-7}$
       ans3:
-        value: $-6x - 8y$
+        value: $-4x - 2y$
       ans4:
-        value: $-16x - 12y$
+        value: $14x - 28y$
       ans5:
         value: Don't know.
 ---

@@ -32,18 +32,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic11
-    a: 5
-    b: 8
-    c: 1
+    a: 1
+    b: 3
+    c: 2
     part1:
       ans1:
-        value: x = -1.5, x = -0.14
+        value: x = -2.0, x = -1.0
       ans2:
-        value: x = 1.5, x = 0.14
+        value: x = 2.0, x = 1.0
       ans3:
-        value: x = 8, x = 1
+        value: x = 3, x = 2
       ans4:
-        value: x = 5, x = 8
+        value: x = 1, x = 3
       ans5:
         value: Don't Know
 ---

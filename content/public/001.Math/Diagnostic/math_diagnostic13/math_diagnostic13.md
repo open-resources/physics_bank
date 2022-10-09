@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic13
-    expr: $\dfrac{z^5 }{z^1} $
+    expr: $\dfrac{z^2 }{z^5} $
     part1:
       ans1:
-        value: $z^{4}$
+        value: $z^{-3}$
       ans2:
-        value: $z^{-4}$
+        value: $z^{3}$
       ans3:
-        value: 4z
+        value: -3z
       ans4:
-        value: (5)z
+        value: (2/5)z
       ans5:
         value: Don't Know
 ---

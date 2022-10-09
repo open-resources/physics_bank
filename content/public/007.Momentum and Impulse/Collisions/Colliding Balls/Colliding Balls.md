@@ -37,12 +37,12 @@ substitutions:
   params:
     vars:
       title: Colliding Balls
-    m1: 100
-    m2: 210
-    v1_i: 7.81
-    v2_i: -4.1
-    v1_f: -6.89
-    v2_f: 5.56
+    m1: 114
+    m2: 136
+    v1_i: 5.05
+    v2_i: -6.53
+    v1_f: -4.38
+    v2_f: 7.09
     part1:
       ans1:
         value: This is not possible as momentum is not conserved.

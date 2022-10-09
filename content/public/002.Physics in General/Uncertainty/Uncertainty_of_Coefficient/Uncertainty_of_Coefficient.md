@@ -35,12 +35,12 @@ substitutions:
       title: Uncertainty of Coefficient
       name: Santiago
       units: $kg/s$
-    m: 89
-    v: 2.0
-    b: 0.34
+    m: 75
+    v: 1.9
+    b: 0.32
     part1:
       ans1:
-        value: ' $\pm$ 0.12'
+        value: ' $\pm$ 0.13'
       ans2:
         value: ' $\pm$ 0.04'
       ans3:

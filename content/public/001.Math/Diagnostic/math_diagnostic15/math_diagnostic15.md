@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $8^{2} $=$ 64$
+    expr: $8^{3} $=$ 512$
     part1:
       ans1:
-        value: $log_864 = 2$
+        value: $log_8512 = 3$
       ans2:
-        value: $log_82 = 64$
+        value: $log_83 = 512$
       ans3:
-        value: $log_642 = 8$
+        value: $log_5123 = 8$
       ans4:
-        value: $log_264 = 8$
+        value: $log_3512 = 8$
       ans5:
         value: Don't Know
 ---

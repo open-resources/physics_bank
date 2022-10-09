@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $d$ = $\dfrac{(o)}{(m + 3l)} $
+    expr: $g$ = $\dfrac{(p)}{(k + 3y)} $
     part1:
       ans1:
-        value: m = ${ - 3 l + \frac{o}{d}}$
+        value: k = ${ - 3 y + \frac{p}{g}}$
       ans2:
-        value: m = ${\frac{3 d l}{o}}$
+        value: k = ${\frac{3 g y}{p}}$
       ans3:
-        value: m = ${\frac{o}{3 d l}}$
+        value: k = ${\frac{p}{3 g y}}$
       ans4:
-        value: m = ${\frac{d - 3 l}{o}}$
+        value: k = ${\frac{g - 3 y}{p}}$
       ans5:
         value: Don't Know
 ---

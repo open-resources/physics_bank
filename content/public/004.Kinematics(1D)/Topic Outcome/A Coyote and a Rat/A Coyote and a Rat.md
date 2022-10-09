@@ -98,8 +98,8 @@ substitutions:
   params:
     vars:
       title: A Coyote and a Rat
-    d_x: 28
-    v_r: 4
+    d_x: 32
+    v_r: 6
     a_c: 5
 ---
 # {{ params.vars.title }}

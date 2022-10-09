@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic06
-    eq: $\dfrac{x-1}{x-9}$ = $ \dfrac{x+4}{x+9}$
+    eq: $\dfrac{x-1}{x-8}$ = $ \dfrac{x+4}{x+7}$
     part1:
       ans1:
-        value: -77/23
+        value: -13/5
       ans2:
-        value: -27/13
+        value: -5/2
       ans3:
-        value: 77/3
+        value: '26'
       ans4:
-        value: 27/23
+        value: '1'
       ans5:
         value: '-9'
       ans6:
