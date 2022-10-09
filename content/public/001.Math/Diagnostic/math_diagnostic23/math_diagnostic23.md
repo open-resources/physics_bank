@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic23
-    a: 5
+    a: 3
     b: 8
-    formula: $x^{5} \sin{\left(8 x \right)}$
+    formula: $x^{3} \sin{\left(8 x \right)}$
     part1:
       ans1:
-        value: $8 x^{5} \cos{\left(8 x \right)} + 5 x^{4} \sin{\left(8 x \right)}$
+        value: $8 x^{3} \cos{\left(8 x \right)} + 3 x^{2} \sin{\left(8 x \right)}$
       ans2:
-        value: $8 x^{5} \cos{\left(8 x \right)} $
+        value: $8 x^{3} \cos{\left(8 x \right)} $
       ans3:
-        value: $ 5 x^{4} \cos{\left(8 x \right)}$
+        value: $ 3 x^{2} \cos{\left(8 x \right)}$
       ans4:
-        value: $- 8 x^{5} \sin{\left(8 x \right)} + 5 x^{4} \cos{\left(8 x \right)}$
+        value: $- 8 x^{3} \sin{\left(8 x \right)} + 3 x^{2} \cos{\left(8 x \right)}$
       ans5:
         value: Don't Know
 ---

@@ -36,17 +36,17 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Speed
+        value: Power
       ans2:
-        value: Length
+        value: Volume
       ans3:
-        value: Temperature
+        value: Mass
       ans4:
-        value: Average Acceleration
-      ans5:
-        value: Velocity
-      ans6:
         value: Average Velocity
+      ans5:
+        value: Momentum
+      ans6:
+        value: Weight
 ---
 # {{ params.vars.title }}
 

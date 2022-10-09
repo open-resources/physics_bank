@@ -38,9 +38,9 @@ substitutions:
     vars:
       title: Radius of a Rollercoaster
       units: $m$
-    speed_of_car: 167
+    speed_of_car: 168
     rate_of_decrease: 8
-    a: 2
+    a: 6
 ---
 # {{ params.vars.title }}
 As a rollercoaster passes the bottommost point in a loop, an accelerometer records an acceleration of ${{params.a}}g$.

@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $6^{3} $=$ 216$
+    expr: $8^{5} $=$ 32768$
     part1:
       ans1:
-        value: $log_6216 = 3$
+        value: $log_832768 = 5$
       ans2:
-        value: $log_63 = 216$
+        value: $log_85 = 32768$
       ans3:
-        value: $log_2163 = 6$
+        value: $log_327685 = 8$
       ans4:
-        value: $log_3216 = 6$
+        value: $log_532768 = 8$
       ans5:
         value: Don't Know
 ---

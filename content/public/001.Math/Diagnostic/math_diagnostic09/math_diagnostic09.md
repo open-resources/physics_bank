@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $a$ = $\dfrac{(g)}{(j - 9e)} $
+    expr: $d$ = $\dfrac{(o)}{(f + 10s)} $
     part1:
       ans1:
-        value: j = ${ 9 e + \frac{g}{a}}$
+        value: f = ${ - 10 s + \frac{o}{d}}$
       ans2:
-        value: j = ${- \frac{9 a e}{g}}$
+        value: f = ${\frac{10 d s}{o}}$
       ans3:
-        value: j = ${- \frac{g}{9 a e}}$
+        value: f = ${\frac{o}{10 d s}}$
       ans4:
-        value: j = ${\frac{a + 9 e}{g}}$
+        value: f = ${\frac{d - 10 s}{o}}$
       ans5:
         value: Don't Know
 ---

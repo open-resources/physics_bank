@@ -33,20 +33,20 @@ substitutions:
     vars:
       title: Physics of Roller-Coasters
       units: m/s
-    r: 28.6
+    r: 14.1
     part1:
       ans1:
-        value: 33.5
+        value: 23.5
       ans2:
-        value: 37.5
+        value: 26.3
       ans3:
-        value: 29.0
+        value: 20.4
       ans4:
-        value: 23.7
+        value: 16.6
       ans5:
-        value: 16.8
+        value: 11.8
       ans6:
-        value: 41.0
+        value: 28.8
 ---
 # {{ params.vars.title }}
 A roller-coaster travels over a vertical, circular loop of radius $R = $ {{ params.r }} $m$.

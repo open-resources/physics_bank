@@ -58,7 +58,7 @@ substitutions:
     vars:
       title: Ice Skater
     W: 67
-    H: 175
+    H: 162
 ---
 # {{ params.vars.title }}
 We model a {{ params.W }} kg and {{ params.H }} cm tall ice skater when spinning with arms and legs in as a solid cylinder of diameter $40$ cm.

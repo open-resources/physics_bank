@@ -37,8 +37,8 @@ substitutions:
     vars:
       title: Average Speed of Kinesin
       units: $m/s$
-    dist: 8.4
-    t: 45.9
+    dist: 7.8
+    t: 54.9
     delay: 13.6
 ---
 # {{ params.vars.title }}
