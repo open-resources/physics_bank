@@ -45,11 +45,11 @@ substitutions:
       name: Mateo
       units1: m/s
       units2: kg
-    m_bullet: 30
-    m_block: 12
-    bullet_v: 733
-    slide_d: 7
-    slide_dnew: 7.5
+    m_bullet: 25
+    m_block: 20
+    bullet_v: 762
+    slide_d: 1
+    slide_dnew: 2.0
     coeff_k: 0.2
 ---
 # {{ params.vars.title }}

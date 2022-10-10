@@ -62,15 +62,15 @@ substitutions:
       name: Maya
       unit1: $m/s$
       unit2: $kg/s$
-    m: 1
-    d_m: 43
-    sd: 0.087
-    v1: 0.79
-    v2: 0.7
-    v3: 0.81
-    v4: 0.73
-    v5: 0.84
-    v6: 0.97
+    m: 5
+    d_m: 51
+    sd: 0.031
+    v1: 0.96
+    v2: 0.88
+    v3: 0.89
+    v4: 0.87
+    v5: 0.91
+    v6: 0.87
 ---
 # {{ params.vars.title }}
 In one of the PHYS 111 labs {{ params.vars.name }} measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling through the air.

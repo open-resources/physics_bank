@@ -75,10 +75,10 @@ substitutions:
     vars:
       title: Vehicle in Circular Motion
       vehicle: truck
-    m: 1600.0
-    v: 84.0
-    r: 90.0
-    theta: 19.0
+    m: 2000.0
+    v: 79.0
+    r: 97.0
+    theta: 18.0
     f_s: 0.6
     f_k: 0.4
     f_r: 0.02

@@ -47,7 +47,7 @@ substitutions:
     vars:
       title: Rotating Buckets
       units: kg
-    m1: 2.93
+    m1: 2.92
     c: 3
 ---
 # {{ params.vars.title }}

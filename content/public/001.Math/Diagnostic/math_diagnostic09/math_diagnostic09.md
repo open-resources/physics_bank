@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $r$ = $\dfrac{(b)}{(x + 5i)} $
+    expr: $d$ = $\dfrac{(q)}{(e + 3l)} $
     part1:
       ans1:
-        value: x = ${ \frac{b}{r} - 5 i}$
+        value: e = ${ - 3 l + \frac{q}{d}}$
       ans2:
-        value: x = ${\frac{5 i r}{b}}$
+        value: e = ${\frac{3 d l}{q}}$
       ans3:
-        value: x = ${\frac{b}{5 i r}}$
+        value: e = ${\frac{q}{3 d l}}$
       ans4:
-        value: x = ${\frac{- 5 i + r}{b}}$
+        value: e = ${\frac{d - 3 l}{q}}$
       ans5:
         value: Don't Know
 ---
