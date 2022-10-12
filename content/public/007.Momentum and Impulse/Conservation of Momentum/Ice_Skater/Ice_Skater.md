@@ -57,7 +57,7 @@ substitutions:
   params:
     vars:
       title: Ice Skater
-    W: 67
+    W: 66
     H: 170
 ---
 # {{ params.vars.title }}

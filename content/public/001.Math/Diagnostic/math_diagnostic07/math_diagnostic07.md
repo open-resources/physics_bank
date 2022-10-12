@@ -32,17 +32,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic07
-    formula1: 3x - 9y = 37
-    formula2: 1x + 1y = 49
+    formula1: 8x - 4y = 13
+    formula2: 5x + 8y = 20
     part1:
       ans1:
-        value: ' x =239/6, y =55/6'
+        value: ' x =46/21, y =95/84'
       ans2:
-        value: ' x =55/6, y =239/6'
+        value: ' x =95/84, y =46/21'
       ans3:
-        value: ' x =-239/6, y =-55/6'
+        value: ' x =-46/21, y =-95/84'
       ans4:
-        value: ' x =-55/6, y =-239/6'
+        value: ' x =-95/84, y =-46/21'
       ans5:
         value: Don't Know
 ---

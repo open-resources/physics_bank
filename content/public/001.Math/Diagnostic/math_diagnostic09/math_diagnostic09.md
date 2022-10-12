@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $s$ = $\dfrac{(q)}{(f + 2j)} $
+    expr: $g$ = $\dfrac{(j)}{(v - 4z)} $
     part1:
       ans1:
-        value: f = ${ - 2 j + \frac{q}{s}}$
+        value: v = ${ 4 z + \frac{j}{g}}$
       ans2:
-        value: f = ${\frac{2 j s}{q}}$
+        value: v = ${- \frac{4 g z}{j}}$
       ans3:
-        value: f = ${\frac{q}{2 j s}}$
+        value: v = ${- \frac{j}{4 g z}}$
       ans4:
-        value: f = ${\frac{- 2 j + s}{q}}$
+        value: v = ${\frac{g + 4 z}{j}}$
       ans5:
         value: Don't Know
 ---

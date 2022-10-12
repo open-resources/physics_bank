@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-48x - 16y }{ 8 }$
+    expr: $\dfrac{-56x + 72y }{ -8 }$
     part1:
       ans1:
-        value: $- 6 x - 2 y$
+        value: $7 x - 9 y$
       ans2:
-        value: $\dfrac{-6x - 2y}{8}$
+        value: $\dfrac{7x - 9y}{-8}$
       ans3:
-        value: $-2x - 6y$
+        value: $-9x + 7y$
       ans4:
-        value: $-48x - 16y$
+        value: $-56x - 72y$
       ans5:
         value: Don't know.
 ---

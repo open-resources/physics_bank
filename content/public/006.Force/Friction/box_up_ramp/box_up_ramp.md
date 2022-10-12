@@ -77,10 +77,10 @@ substitutions:
   params:
     vars:
       title: Box Up Ramp
-      name: Abbas
-    f: 187.0
+      name: Mateo
+    f: 188.0
     k: 0.3
-    s: 0.7
+    s: 0.4
     ang: 11
     part2:
       ans1:
