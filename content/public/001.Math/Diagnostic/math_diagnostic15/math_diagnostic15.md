@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $2^{7} $=$ 128$
+    expr: $3^{5} $=$ 243$
     part1:
       ans1:
-        value: $log_2128 = 7$
+        value: $log_3243 = 5$
       ans2:
-        value: $log_27 = 128$
+        value: $log_35 = 243$
       ans3:
-        value: $log_1287 = 2$
+        value: $log_2435 = 3$
       ans4:
-        value: $log_7128 = 2$
+        value: $log_5243 = 3$
       ans5:
         value: Don't Know
 ---

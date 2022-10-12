@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic13
-    expr: $\dfrac{z^6 }{z^8} $
+    expr: $\dfrac{z^4 }{z^7} $
     part1:
       ans1:
-        value: $z^{-2}$
+        value: $z^{-3}$
       ans2:
-        value: $z^{2}$
+        value: $z^{3}$
       ans3:
-        value: -2z
+        value: -3z
       ans4:
-        value: (3/4)z
+        value: (4/7)z
       ans5:
         value: Don't Know
 ---

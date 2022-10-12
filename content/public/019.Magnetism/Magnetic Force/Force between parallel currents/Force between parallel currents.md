@@ -49,9 +49,9 @@ substitutions:
   params:
     vars:
       title: Force between parallel currents
-    d: '50.0'
-    I: '62.0'
-    txt: opposite directions
+    d: '12.0'
+    I: '40.0'
+    txt: the same direction
     part2:
       ans1:
         value: Attract

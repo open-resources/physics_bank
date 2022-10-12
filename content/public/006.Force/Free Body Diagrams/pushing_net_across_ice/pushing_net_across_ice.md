@@ -39,7 +39,7 @@ substitutions:
     vars:
       title: Pushing Net Across Ice
     v: 1
-    f: 5
+    f: 3
     part2:
       ans1:
         value: at a steadily increasing speed

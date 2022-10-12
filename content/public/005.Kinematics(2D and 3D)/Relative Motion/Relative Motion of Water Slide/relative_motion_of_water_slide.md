@@ -62,17 +62,17 @@ substitutions:
   params:
     vars:
       title: Relative Motion of Lazy River
-    d1: 3
-    d2: 10
+    d1: 9
+    d2: 8
     theta1: 30
     theta2: 60
-    v_AB: 5
-    v_B: 2
+    v_AB: 13
+    v_B: 5
 ---
 # {{ params.vars.title }}
 <img src="L11Q5.png" width=85%>
 
-A child, A, floats down the lazy river, at a constant speed of ${{params.v_A}} m/s$ relative to the swimmer B, who is swimming in a straight line at a constant speed of ${{params.v_B}} m/s$ relative to a stationary observer on the pool deck.
+A child, A, floats down the lazy river, at a constant speed of ${{params.v_AB}} m/s$ relative to the swimmer B, who is swimming in a straight line at a constant speed of ${{params.v_B}} m/s$ relative to a stationary observer on the pool deck.
 Both swimmers are viewed in the horizontal plane.
 In the above figure, $\theta\_{1} = {{params.theta1}}$, $\theta\_{2} = {{params.theta2}}$, $d\_{1} = {{params.d1}}$, and $d\_{2} = {{params.d2}}$.
 Note that the line between $\theta\_{1}$ and $\theta\_{2}$ is parallel to the y-axis.

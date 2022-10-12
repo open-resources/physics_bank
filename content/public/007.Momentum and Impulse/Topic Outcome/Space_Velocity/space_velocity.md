@@ -74,13 +74,13 @@ substitutions:
       units1: $\rm{m/s}$
       units2: $\rm{J}$
     m: 104
-    left_arm: 7
-    head: 13
-    V_L_i: 12
+    left_arm: 8
+    head: 14
+    V_L_i: 13
     V_L_j: 6
     V_H_i: -23
     V_H_j: -14
-    t: 1.1
+    t: 1.0
     part5:
       ans1:
         value: His head required more force

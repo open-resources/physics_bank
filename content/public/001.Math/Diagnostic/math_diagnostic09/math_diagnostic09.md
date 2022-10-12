@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $d$ = $\dfrac{(q)}{(e + 3l)} $
+    expr: $s$ = $\dfrac{(q)}{(f + 2j)} $
     part1:
       ans1:
-        value: e = ${ - 3 l + \frac{q}{d}}$
+        value: f = ${ - 2 j + \frac{q}{s}}$
       ans2:
-        value: e = ${\frac{3 d l}{q}}$
+        value: f = ${\frac{2 j s}{q}}$
       ans3:
-        value: e = ${\frac{q}{3 d l}}$
+        value: f = ${\frac{q}{2 j s}}$
       ans4:
-        value: e = ${\frac{d - 3 l}{q}}$
+        value: f = ${\frac{- 2 j + s}{q}}$
       ans5:
         value: Don't Know
 ---

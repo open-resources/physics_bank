@@ -58,7 +58,7 @@ substitutions:
     vars:
       title: Speed of a Rolling Object
       units: "$\rm{m/s}$"
-    h: 13.9
+    h: 5.78
 ---
 # {{ params.vars.title }}
 Consider the setup shown in the figure below.

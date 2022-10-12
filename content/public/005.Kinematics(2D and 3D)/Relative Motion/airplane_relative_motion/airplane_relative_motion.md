@@ -89,8 +89,8 @@ substitutions:
   params:
     vars:
       title: Airplane Relative Motion
-    v1: 800.0
-    v2: 190.0
+    v1: 770.0
+    v2: 150.0
     theta: 42.0
 ---
 # {{ params.vars.title }}
