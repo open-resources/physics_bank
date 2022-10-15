@@ -38,12 +38,12 @@ substitutions:
   params:
     vars:
       title: Spring Launch Loading
-    m: 51
-    F: 254
-    x1: 0.223
-    d: 0.99
-    h: 0.71
-    k: 94
+    m: 46
+    F: 285
+    x1: 0.269
+    d: 1.09
+    h: 1.08
+    k: 60
 ---
 # {{ params.vars.title }}
 <img src="Slider Restricted by Spring.png" width=100%>

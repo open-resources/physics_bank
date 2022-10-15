@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $g$ = $\dfrac{(j)}{(v - 4z)} $
+    expr: $i$ = $\dfrac{(y)}{(h + 4w)} $
     part1:
       ans1:
-        value: v = ${ 4 z + \frac{j}{g}}$
+        value: h = ${ - 4 w + \frac{y}{i}}$
       ans2:
-        value: v = ${- \frac{4 g z}{j}}$
+        value: h = ${\frac{4 i w}{y}}$
       ans3:
-        value: v = ${- \frac{j}{4 g z}}$
+        value: h = ${\frac{y}{4 i w}}$
       ans4:
-        value: v = ${\frac{g + 4 z}{j}}$
+        value: h = ${\frac{i - 4 w}{y}}$
       ans5:
         value: Don't Know
 ---

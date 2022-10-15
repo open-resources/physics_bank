@@ -50,9 +50,9 @@ substitutions:
     vars:
       title: Collision of Objects A and B
       name: Mateo
-    v1: 2
-    v2: 3
-    m_a: 2
+    v1: 4
+    v2: 5
+    m_a: 3
     m_b: 4
     part2:
       ans1:

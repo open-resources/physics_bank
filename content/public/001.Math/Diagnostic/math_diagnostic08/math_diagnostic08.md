@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-56x + 72y }{ -8 }$
+    expr: $\dfrac{12x + 12y }{ 4 }$
     part1:
       ans1:
-        value: $7 x - 9 y$
+        value: $3 x + 3 y$
       ans2:
-        value: $\dfrac{7x - 9y}{-8}$
+        value: $\dfrac{3x + 3y}{4}$
       ans3:
-        value: $-9x + 7y$
+        value: $3x + 3y$
       ans4:
-        value: $-56x - 72y$
+        value: $12x + 12y$
       ans5:
         value: Don't know.
 ---

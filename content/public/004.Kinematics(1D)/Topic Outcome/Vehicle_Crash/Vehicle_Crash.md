@@ -34,23 +34,23 @@ substitutions:
       title: Vehicle Crash
       name: Emilia
       vehicle_1: semi-truck
-      vehicle_2: pickup truck
-    dist: 2.41
-    v: 33.3
-    acc: 14.4
-    s_1: 0.1
-    s_2: 1.559
+      vehicle_2: sedan
+    dist: 3.37
+    v: 33.5
+    acc: 10.7
+    s_1: 0.3
+    s_2: 1.758
     part1:
       ans1:
-        value: 12.29 $m/s$
+        value: 17.9 $m/s$
       ans2:
-        value: 10.85 $m/s$
+        value: 14.69 $m/s$
       ans3:
-        value: 31.86 $m/s$
+        value: 30.29 $m/s$
       ans4:
-        value: 9.41 $m/s$
+        value: 11.48 $m/s$
       ans5:
-        value: 33.3 $m/s$
+        value: 33.5 $m/s$
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is following {{params.dist}} $m$ behind a {{params.vars.vehicle_1}} when it suddenly brakes with an acceleration of -{{params.acc}} $m/s^2$.
