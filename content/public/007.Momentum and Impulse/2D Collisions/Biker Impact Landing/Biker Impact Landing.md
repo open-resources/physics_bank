@@ -45,10 +45,10 @@ substitutions:
   params:
     vars:
       title: Biker Impact Landing
-    v: 7
-    t: 0.19
-    ad: 23
-    m: 78
+    v: 10
+    t: 0.08
+    ad: 39
+    m: 66
     thetad: 40
 ---
 # {{ params.vars.title }}

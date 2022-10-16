@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $4^{1} $=$ 4$
+    expr: $3^{1} $=$ 3$
     part1:
       ans1:
-        value: $log_44 = 1$
+        value: $log_33 = 1$
       ans2:
-        value: $log_41 = 4$
+        value: $log_31 = 3$
       ans3:
-        value: $log_41 = 4$
+        value: $log_31 = 3$
       ans4:
-        value: $log_14 = 4$
+        value: $log_13 = 3$
       ans5:
         value: Don't Know
 ---

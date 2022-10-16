@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $n$ = $\dfrac{(f)}{(j + 3m)} $
+    expr: $q$ = $\dfrac{(o)}{(x + 3t)} $
     part1:
       ans1:
-        value: j = ${ \frac{f}{n} - 3 m}$
+        value: x = ${ \frac{o}{q} - 3 t}$
       ans2:
-        value: j = ${\frac{3 m n}{f}}$
+        value: x = ${\frac{3 q t}{o}}$
       ans3:
-        value: j = ${\frac{f}{3 m n}}$
+        value: x = ${\frac{o}{3 q t}}$
       ans4:
-        value: j = ${\frac{- 3 m + n}{f}}$
+        value: x = ${\frac{q - 3 t}{o}}$
       ans5:
         value: Don't Know
 ---

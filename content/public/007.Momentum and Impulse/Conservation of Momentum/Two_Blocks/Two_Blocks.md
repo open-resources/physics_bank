@@ -33,10 +33,10 @@ substitutions:
   params:
     vars:
       title: Two Blocks
-    x: 2
+    x: 6
     part1:
       ans1:
-        value: 3.0 $mv^2$
+        value: 21.0 $mv^2$
       ans2:
         value: 4.0 $mv^2$
       ans3:
