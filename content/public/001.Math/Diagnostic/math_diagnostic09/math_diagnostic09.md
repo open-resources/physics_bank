@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $i$ = $\dfrac{(y)}{(h + 4w)} $
+    expr: $n$ = $\dfrac{(f)}{(j + 3m)} $
     part1:
       ans1:
-        value: h = ${ - 4 w + \frac{y}{i}}$
+        value: j = ${ \frac{f}{n} - 3 m}$
       ans2:
-        value: h = ${\frac{4 i w}{y}}$
+        value: j = ${\frac{3 m n}{f}}$
       ans3:
-        value: h = ${\frac{y}{4 i w}}$
+        value: j = ${\frac{f}{3 m n}}$
       ans4:
-        value: h = ${\frac{i - 4 w}{y}}$
+        value: j = ${\frac{- 3 m + n}{f}}$
       ans5:
         value: Don't Know
 ---

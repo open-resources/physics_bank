@@ -42,14 +42,14 @@ substitutions:
   params:
     vars:
       title: Bullet and Block
-      name: Lorenzo
+      name: Ahmed
       units1: m/s
       units2: kg
-    m_bullet: 29
+    m_bullet: 34
     m_block: 20
-    bullet_v: 763
-    slide_d: 6
-    slide_dnew: 6.2
+    bullet_v: 766
+    slide_d: 2
+    slide_dnew: 2.3
     coeff_k: 0.2
 ---
 # {{ params.vars.title }}

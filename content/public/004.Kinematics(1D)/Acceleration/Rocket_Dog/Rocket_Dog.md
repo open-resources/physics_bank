@@ -70,7 +70,7 @@ substitutions:
     vars:
       title: Rocket Dog
       units: $\rm{m/s}$
-    x: $t^3 - 6t^2 - 2t$
+    x: $2t^3 - 7t^2 - t$
     time: 4
     part4:
       ans1:

@@ -46,8 +46,8 @@ substitutions:
   params:
     vars:
       title: Energy Stored in a Coil
-    I: '0.75'
-    E: '2.5'
+    I: '0.90'
+    E: '3.5'
 ---
 # {{ params.vars.title }}
 At the instant a current of ${{ params.I }}\rm\ A$ is flowing through a coil of wire, the energy stored in its magnetic field is ${{ params.E }} \times 10^{-3}\rm\ J$.

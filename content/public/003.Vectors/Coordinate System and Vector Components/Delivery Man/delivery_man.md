@@ -77,10 +77,10 @@ substitutions:
     vars:
       title: Delivery Man
       units: km
-    dist1: 40
-    dist2: 70
-    dist3: 8
-    dist4: 10
+    dist1: 70
+    dist2: 10
+    dist3: 10
+    dist4: 40
 ---
 # {{ params.vars.title }}
 A delivery person starts at the post office, drives {{params.dist1}} km north, then {{params.dist2}} km west, then {{params.dist3}} km northeast, and finally {{params.dist4}} km north to stop for lunch.

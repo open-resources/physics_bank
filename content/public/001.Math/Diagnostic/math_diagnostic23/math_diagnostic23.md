@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic23
-    a: 1
-    b: 8
-    formula: $x \sin{\left(8 x \right)}$
+    a: 7
+    b: 7
+    formula: $x^{7} \sin{\left(7 x \right)}$
     part1:
       ans1:
-        value: $8 x \cos{\left(8 x \right)} + \sin{\left(8 x \right)}$
+        value: $7 x^{7} \cos{\left(7 x \right)} + 7 x^{6} \sin{\left(7 x \right)}$
       ans2:
-        value: $8 x \cos{\left(8 x \right)} $
+        value: $7 x^{7} \cos{\left(7 x \right)} $
       ans3:
-        value: $ \cos{\left(8 x \right)}$
+        value: $ 7 x^{6} \cos{\left(7 x \right)}$
       ans4:
-        value: $- 8 x \sin{\left(8 x \right)} + \cos{\left(8 x \right)}$
+        value: $- 7 x^{7} \sin{\left(7 x \right)} + 7 x^{6} \cos{\left(7 x \right)}$
       ans5:
         value: Don't Know
 ---

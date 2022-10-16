@@ -36,7 +36,7 @@ substitutions:
       units: $ft/s$
     yards: 100
     max_speed_t: 2
-    overall_t: 5
+    overall_t: 3
 ---
 # {{ params.vars.title }}
 <img src="L5Q1.png" width=85%>

@@ -32,18 +32,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic05
-    expr: $\dfrac{x}{5}$
-    num2: 8
-    num3: 8
+    expr: $\dfrac{x}{10}$
+    num2: 3
+    num3: 7
     part1:
       ans1:
-        value: 320
+        value: 210
       ans2:
-        value: 8/5
+        value: 3/10
       ans3:
-        value: 40
+        value: 70
       ans4:
-        value: 64/5
+        value: 21/10
       ans5:
         value: Don't Know
 ---

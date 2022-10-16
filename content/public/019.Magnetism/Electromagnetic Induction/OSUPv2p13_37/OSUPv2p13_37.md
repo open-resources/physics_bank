@@ -36,9 +36,9 @@ substitutions:
   params:
     vars:
       title: Radio Antenna
-    l: '0.5'
-    v: '100'
-    B: '6.5'
+    l: '1.0'
+    v: '75'
+    B: '5.0'
 ---
 # {{ params.vars.title }}
 
