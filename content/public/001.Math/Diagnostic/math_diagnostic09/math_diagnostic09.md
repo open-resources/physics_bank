@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $q$ = $\dfrac{(o)}{(x + 3t)} $
+    expr: $l$ = $\dfrac{(v)}{(r + 9x)} $
     part1:
       ans1:
-        value: x = ${ \frac{o}{q} - 3 t}$
+        value: r = ${ - 9 x + \frac{v}{l}}$
       ans2:
-        value: x = ${\frac{3 q t}{o}}$
+        value: r = ${\frac{9 l x}{v}}$
       ans3:
-        value: x = ${\frac{o}{3 q t}}$
+        value: r = ${\frac{v}{9 l x}}$
       ans4:
-        value: x = ${\frac{q - 3 t}{o}}$
+        value: r = ${\frac{l - 9 x}{v}}$
       ans5:
         value: Don't Know
 ---

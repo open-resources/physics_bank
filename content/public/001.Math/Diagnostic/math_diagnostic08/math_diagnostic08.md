@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{54x + 36y }{ -9 }$
+    expr: $\dfrac{-8x + 32y }{ 4 }$
     part1:
       ans1:
-        value: $- 6 x - 4 y$
+        value: $- 2 x + 8 y$
       ans2:
-        value: $\dfrac{-6x - 4y}{-9}$
+        value: $\dfrac{-2x + 8y}{4}$
       ans3:
-        value: $-4x - 6y$
+        value: $8x - 2y$
       ans4:
-        value: $54x - 36y$
+        value: $-8x + 32y$
       ans5:
         value: Don't know.
 ---

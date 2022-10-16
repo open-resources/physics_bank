@@ -34,21 +34,21 @@ substitutions:
       vehicle: car
       units: $m/s$
     i_1: 3
-    i_2: 3
+    i_2: 1
     j_1: 9
     j_2: 3
-    s: 1
+    s: 3
     part1:
       ans1:
-        value: (3$\hat{\imath}$ + 0$\hat{\jmath}$)
+        value: (17$\hat{\imath}$ + 80$\hat{\jmath}$)
       ans2:
-        value: (3$\hat{\imath}$ + 9$\hat{\jmath}$)
+        value: (17$\hat{\imath}$ + 81$\hat{\jmath}$)
       ans3:
-        value: (0$\hat{\imath}$ + 12$\hat{\jmath}$)
+        value: (24$\hat{\imath}$ + 84$\hat{\jmath}$)
       ans4:
-        value: (0$\hat{\imath}$ + 0$\hat{\jmath}$)
+        value: (24$\hat{\imath}$ + 80$\hat{\jmath}$)
       ans5:
-        value: (3$\hat{\imath}$ + 12$\hat{\jmath}$)
+        value: (17$\hat{\imath}$ + 84$\hat{\jmath}$)
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }}'s position as a function of time is given by $\vec{r} =$ ({{ params.i_1 }}$t^2 -$ {{ params.i_2 }}$t)\hat{\imath} + ($ {{ params.j_1 }}$t^{-1}+$ {{ params.j_2 }} $t^3)\hat{\jmath}$ where $\vec{r}$ is in meters and $t$ is in seconds.

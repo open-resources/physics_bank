@@ -77,10 +77,10 @@ substitutions:
   params:
     vars:
       title: Box Up Ramp
-      name: Savannah
-    f: 177.0
+      name: Santiago
+    f: 189.0
     k: 0.2
-    s: 0.5
+    s: 0.6
     ang: 11
     part2:
       ans1:
