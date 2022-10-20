@@ -37,9 +37,9 @@ substitutions:
   params:
     vars:
       title: Battery Internal Resistance
-    x: 4
+    x: 5
     N: 2
-    V_string: '7.25'
+    V_string: '12.00'
 ---
 # {{ params.vars.title }}
 A battery with an internal resistance of $r$ and an emf of {{ params.V_string }}$\textrm{ V}$ is connected to a load resistor $R =$ {{ params.N }}$r$ and current $I_0$ flows.

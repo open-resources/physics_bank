@@ -53,17 +53,19 @@ substitutions:
   params:
     vars:
       title: Force on a Waterslide
-    va: 15
-    vc: 5
-    W: 52
-    d: 12
-    r: 6
+    va: 14
+    vc: 7
+    W: 45
+    d: 11
+    r: 3
 ---
 # {{ params.vars.title }}
 <img src="Force on a Waterslide.png" width=400>
 
-A {{ params.W }}$kg$ swimmer travels with a speed of ${{ params.va }}m/s$ down the waterslide as they approach point A. At A, the slide flattens out before the turn, causing the swimmer to decelerate uniformly to a speed of ${{ params.vc }}m/s$ as it passes point C on the horizontal unbanked slide.
+A {{ params.W }}$kg$ swimmer travels with a speed of ${{ params.va }}m/s$ down the waterslide as they approach point A.
+At A, the slide flattens out before the turn, causing the swimmer to decelerate uniformly to a speed of ${{ params.vc }}m/s$ as it passes point C on the horizontal unbanked slide.
 $R = {{ params.r }}m$, $d = {{ params.d }}m$.
+You may assume that the swimmer undergoes circular motion starting at point B.
 
 ## Part 1
 
@@ -75,7 +77,7 @@ Please enter in a numeric value in $m/s$.
 
 ## Part 2
 
-What is the force at point B?
+What is the net force on the swimmer at point B?
 
 ### Answer Section
 

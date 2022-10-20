@@ -102,22 +102,22 @@ substitutions:
       title: Three Blocks
       unit1: $\rm{m/s^2}$
       unit2: $\rm{N}$
-    m_A: 1.5
-    m_B: 3.0
-    m_C: 6.0
+    m_A: 1.9
+    m_B: 3.8
+    m_C: 7.6
     F: 16
     part2:
       ans1:
-        value: $m_B$
+        value: $F_{\text{on A}}$
         feedback: Correct! Nice work
       ans2:
-        value: $F_{\text{on A}}$
+        value: $m_C$
         feedback: Correct! Nice work
       ans3:
         value: $m_A$
         feedback: Correct! Nice work
       ans4:
-        value: $m_C$
+        value: $m_B$
         feedback: Correct! Nice work
       ans5:
         value: $F_{\text{B on C}}$
@@ -133,16 +133,16 @@ substitutions:
         value: $F_{\text{B on A}}$
         feedback: Correct! Nice work
       ans3:
-        value: $m_B$
+        value: $F_{\text{on A}}$
         feedback: Not quite - Try again!
       ans4:
-        value: $F_{\text{on A}}$
+        value: $m_C$
         feedback: Not quite - Try again!
       ans5:
         value: $m_A$
         feedback: Not quite - Try again!
       ans6:
-        value: $m_C$
+        value: $m_B$
         feedback: Not quite - Try again!
 ---
 # {{ params.vars.title }}

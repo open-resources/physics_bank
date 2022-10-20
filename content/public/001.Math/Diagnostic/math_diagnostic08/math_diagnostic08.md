@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-8x + 32y }{ 4 }$
+    expr: $\dfrac{25x - 20y }{ 5 }$
     part1:
       ans1:
-        value: $- 2 x + 8 y$
+        value: $5 x - 4 y$
       ans2:
-        value: $\dfrac{-2x + 8y}{4}$
+        value: $\dfrac{5x - 4y}{5}$
       ans3:
-        value: $8x - 2y$
+        value: $-4x + 5y$
       ans4:
-        value: $-8x + 32y$
+        value: $25x - 20y$
       ans5:
         value: Don't know.
 ---

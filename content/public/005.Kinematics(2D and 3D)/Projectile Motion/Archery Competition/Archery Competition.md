@@ -41,12 +41,12 @@ part2:
 substitutions:
   params:
     vars:
-      name: Abbas
+      name: Mateo
       title: Archery Competition
       units: m/s
-    x: 106
-    arrow_v: 209
-    theta: 14
+    x: 134
+    arrow_v: 254
+    theta: 6
     height: 201
 ---
 # {{ params.vars.title }}

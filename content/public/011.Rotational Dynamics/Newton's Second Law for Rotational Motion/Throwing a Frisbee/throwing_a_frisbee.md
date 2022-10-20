@@ -61,10 +61,10 @@ substitutions:
   params:
     vars:
       title: Throwing a Frisbee
-    dw: 13
-    dt: 0.05
-    m: 0.188
-    d: 0.314
+    dw: 7
+    dt: 0.15
+    m: 0.213
+    d: 0.46
 ---
 # {{ params.vars.title }}
 As a frisbee (a flying disk) is released, it is spun so that its angular velocity increases from 0 to {{ params.dw }} $\pi \; \rm{rad/s}$ in {{ params.dt }} $\rm{s}$.

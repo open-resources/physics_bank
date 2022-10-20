@@ -40,17 +40,17 @@ substitutions:
       title: Figure Skater Moment of Inertia
     part1:
       ans1:
-        value: It decreases by a factor of 3.
+        value: It decreases by a factor of 4.
         feedback: Careful, moment of inertia decreases.
       ans2:
-        value: It decreases by a factor of 9.
+        value: It decreases by a factor of 16.
         feedback: Angular momentum $L$ is given by $L = I \omega$, where $I$ is the
           moment of inertia and $\omega$ is angular speed.
       ans3:
-        value: It increases by a factor of 3.
+        value: It increases by a factor of 4.
         feedback: Great, you got it!
       ans4:
-        value: It increases by a factor of 9.
+        value: It increases by a factor of 16.
         feedback: Angular momentum $L$ is given by $L = I \omega$, where $I$ is the
           moment of inertia and $\omega$ is angular speed.
       ans5:
@@ -59,18 +59,18 @@ substitutions:
           where $I$ is moment of inertia and $\omega$ is angular speed.
     part2:
       ans1:
-        value: It decreases by a factor of 3.
+        value: It decreases by a factor of 4.
         feedback: Careful, moment of inertia decreases.
       ans2:
-        value: It decreases by a factor of 9.
+        value: It decreases by a factor of 16.
         feedback: Rotational kinetic energy $K_{rot}$ is given by $K_{rot} = 1/2 I
           \omega ^2$, where $I$ is moment of inertia and $\omega$ is angular speed.
           Don't forget that both $I$ and $\omega$ change.
       ans3:
-        value: It increases by a factor of 3.
+        value: It increases by a factor of 4.
         feedback: Great, you got it!
       ans4:
-        value: It increases by a factor of 9.
+        value: It increases by a factor of 16.
         feedback: Rotational kinetic energy $K_{rot}$ is given by $K_{rot} = 1/2 I
           \omega ^2$, where $I$ is moment of inertia and $\omega$ is angular speed.
           Don't forget that both $I$ and $\omega$ change.
@@ -80,7 +80,7 @@ substitutions:
           \omega ^2$, where $I$ is moment of inertia and $\omega$ is angular speed.
     arms1: out
     arms2: in
-    I1: 1.2
+    I1: 1.6
     I2: 0.4
 ---
 # {{ params.vars.title }}

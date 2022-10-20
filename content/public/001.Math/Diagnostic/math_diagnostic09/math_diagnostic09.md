@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $l$ = $\dfrac{(v)}{(r + 9x)} $
+    expr: $z$ = $\dfrac{(j)}{(u + 9d)} $
     part1:
       ans1:
-        value: r = ${ - 9 x + \frac{v}{l}}$
+        value: u = ${ - 9 d + \frac{j}{z}}$
       ans2:
-        value: r = ${\frac{9 l x}{v}}$
+        value: u = ${\frac{9 d z}{j}}$
       ans3:
-        value: r = ${\frac{v}{9 l x}}$
+        value: u = ${\frac{j}{9 d z}}$
       ans4:
-        value: r = ${\frac{l - 9 x}{v}}$
+        value: u = ${\frac{- 9 d + z}{j}}$
       ans5:
         value: Don't Know
 ---

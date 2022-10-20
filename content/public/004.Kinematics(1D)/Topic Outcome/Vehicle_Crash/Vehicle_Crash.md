@@ -32,23 +32,23 @@ substitutions:
   params:
     vars:
       title: Vehicle Crash
-      name: Abbas
-      vehicle_1: truck
-      vehicle_2: van
-    dist: 2.17
+      name: Savannah
+      vehicle_1: bus
+      vehicle_2: semi-truck
+    dist: 4.88
     v: 32.4
-    acc: 11.1
-    s_1: 0.4
-    s_2: 1.919
+    acc: 12.9
+    s_1: 0.1
+    s_2: 1.094
     part1:
       ans1:
-        value: 15.54 $m/s$
+        value: 19.58 $m/s$
       ans2:
-        value: 11.1 $m/s$
+        value: 18.29 $m/s$
       ans3:
-        value: 27.96 $m/s$
+        value: 31.11 $m/s$
       ans4:
-        value: 6.659 $m/s$
+        value: 17.0 $m/s$
       ans5:
         value: 32.4 $m/s$
 ---
