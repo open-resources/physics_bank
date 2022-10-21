@@ -37,9 +37,9 @@ substitutions:
   params:
     vars:
       title: Skater in a Bowl
-    ro: 4.54
-    vo: 4
-    h: 1.84
+    ro: 4.95
+    vo: 3
+    h: 2.99
 ---
 # {{ params.vars.title }}
 <img src="Marble in a Bowl.png" width=400>

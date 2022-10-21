@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $t$ = $\dfrac{(q)}{(r + 7l)} $
+    expr: $p$ = $\dfrac{(z)}{(l + 10e)} $
     part1:
       ans1:
-        value: r = ${ - 7 l + \frac{q}{t}}$
+        value: l = ${ - 10 e + \frac{z}{p}}$
       ans2:
-        value: r = ${\frac{7 l t}{q}}$
+        value: l = ${\frac{10 e p}{z}}$
       ans3:
-        value: r = ${\frac{q}{7 l t}}$
+        value: l = ${\frac{z}{10 e p}}$
       ans4:
-        value: r = ${\frac{- 7 l + t}{q}}$
+        value: l = ${\frac{- 10 e + p}{z}}$
       ans5:
         value: Don't Know
 ---

@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{30x - 10y }{ -5 }$
+    expr: $\dfrac{-28x + 24y }{ 4 }$
     part1:
       ans1:
-        value: $- 6 x + 2 y$
+        value: $- 7 x + 6 y$
       ans2:
-        value: $\dfrac{-6x + 2y}{-5}$
+        value: $\dfrac{-7x + 6y}{4}$
       ans3:
-        value: $2x - 6y$
+        value: $6x - 7y$
       ans4:
-        value: $30x + 10y$
+        value: $-28x + 24y$
       ans5:
         value: Don't know.
 ---

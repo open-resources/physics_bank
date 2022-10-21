@@ -33,13 +33,13 @@ substitutions:
       title: Math Diagnostic01
     part1:
       ans1:
-        value: 9.1E93
+        value: 7.8E33
       ans2:
-        value: 3.8E4
+        value: 3.6E4
       ans3:
-        value: 8898.536151829885
+        value: 4921.5384504889535
       ans4:
-        value: '7.1E-89'
+        value: '1.2E-89'
       ans5:
         value: Don't Know
 ---

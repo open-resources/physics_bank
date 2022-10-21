@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $5^{4} $=$ 625$
+    expr: $3^{1} $=$ 3$
     part1:
       ans1:
-        value: $log_5625 = 4$
+        value: $log_33 = 1$
       ans2:
-        value: $log_54 = 625$
+        value: $log_31 = 3$
       ans3:
-        value: $log_6254 = 5$
+        value: $log_31 = 3$
       ans4:
-        value: $log_4625 = 5$
+        value: $log_13 = 3$
       ans5:
         value: Don't Know
 ---

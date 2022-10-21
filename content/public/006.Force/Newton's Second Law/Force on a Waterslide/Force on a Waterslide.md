@@ -32,7 +32,7 @@ part1:
     weight: 1
     allow-blank: true
     label: $v_b= $
-    suffix: $m/s$
+    suffix: $\rm{m/s}$
 part2:
   type: number-input
   pl-customizations:
@@ -40,7 +40,7 @@ part2:
     weight: 1
     allow-blank: true
     label: $F= $
-    suffix: $N$
+    suffix: $\rm{N}$
 part3:
   type: number-input
   pl-customizations:
@@ -48,48 +48,48 @@ part3:
     weight: 1
     allow-blank: true
     label: $F= $
-    suffix: $N$
+    suffix: $\rm{N}$
 substitutions:
   params:
     vars:
       title: Force on a Waterslide
-    va: 14
+    va: 10
     vc: 5
-    M: 49
-    d: 12
-    r: 6
+    M: 71
+    d: 10
+    r: 7
 ---
 # {{ params.vars.title }}
 <img src="Force on a Waterslide.png" width=400>
 
-A {{ params.M }}$kg$ swimmer travels with a speed of ${{ params.va }}m/s$ down the waterslide as they approach point A.
-At A, the slide flattens out before the turn, causing the swimmer to decelerate uniformly to a speed of ${{ params.vc }}m/s$ as it passes point C on the horizontal unbanked slide.
-$R = {{ params.r }}m$, $d = {{ params.d }}m$.
+A ${{ params.M }} \rm{kg}$ swimmer travels with a speed of ${{ params.va }} \rm{m/s}$ down a waterslide as they approach point A, as shown in the figure below.
+At point A, the slide flattens out before the turn, causing the swimmer to decelerate uniformly to a speed of ${{ params.vc }} \rm{m/s}$ as they pass point C.
+In the figure, $R = {{ params.r }} \rm{m}$ and $d = {{ params.d }} \rm{m}$.
 You may assume that the swimmer undergoes circular motion starting at point B.
 
 ## Part 1
 
-What is the velocity as the swimmer passes point B?
+What is the speed of the swimmer as they pass point B?
 
 ### Answer Section
 
-Please enter in a numeric value in $m/s$.
+Please enter in a numeric value in $\rm{m/s}$.
 
 ## Part 2
 
-What is the net force on the swimmer at point B?
+What is the magnitude of the net force acting on the swimmer at point B?
 
 ### Answer Section
 
-Please enter in a numeric value in $N$.
+Please enter in a numeric value in $\rm{N}$.
 
 ## Part 3
 
-What is the normal force at point C? Assume the slider does not slip out of the flow.
+What is the magnitude of the horizontal component of normal force acting on the swimmer at point C? Assume the slider does not slip out of the flow.
 
 ### Answer Section
 
-Please enter a numeric value in $N$.
+Please enter a numeric value in $\rm{N}$.
 
 ## Attribution
 

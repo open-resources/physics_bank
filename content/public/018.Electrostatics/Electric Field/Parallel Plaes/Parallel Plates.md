@@ -46,9 +46,9 @@ part2:
     weight: 1
 substitutions:
   params:
-    L: '15'
-    q: '1.4'
-    p: '-6'
+    L: '8'
+    q: '6.8'
+    p: '-7'
     d: '2.1'
     part2:
       ans1:

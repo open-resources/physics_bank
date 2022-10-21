@@ -48,8 +48,8 @@ substitutions:
       title: Distance and Time for a Cannon Ball
       distance_units: $m$
       time_units: $seconds$
-    distance_from_ground: 924
-    speed_of_jett: 342
+    distance_from_ground: 400
+    speed_of_jett: 313
     angle: 38
 ---
 # {{ params.vars.title }}

@@ -62,7 +62,7 @@ substitutions:
       units1: $m/s^2$
       units2: $s$
     v_1: 6
-    t_1: 0
+    t_1: 2
     t_2: 5
 ---
 # {{ params.vars.title }}

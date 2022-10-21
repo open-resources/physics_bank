@@ -58,8 +58,8 @@ substitutions:
       units1: $\frac{m}{s^2}$
       units2: N
     m_a: 16
-    m_b: 8
-    m_c: 20
+    m_b: 18
+    m_c: 15
     f_a: 84
 ---
 # {{ params.vars.title }}
