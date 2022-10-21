@@ -34,16 +34,16 @@ substitutions:
       title: Math Diagnostic05
     expr: $\dfrac{x}{3}$
     num2: 4
-    num3: 10
+    num3: 4
     part1:
       ans1:
-        value: 120
+        value: 48
       ans2:
         value: 4/3
       ans3:
-        value: 30
+        value: 12
       ans4:
-        value: 40/3
+        value: 16/3
       ans5:
         value: Don't Know
 ---

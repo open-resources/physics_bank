@@ -50,10 +50,10 @@ substitutions:
   params:
     vars:
       title: Copper in a Magnetic Field
-    B: 2.2
-    E: 7.8
+    B: 7.5
+    E: 5.7
     n: 1
-    A: 7.9
+    A: 8.3
 ---
 # {{ params.vars.title }}
 A strip of copper is placed in a uniform magnetic field of magnitude ${{params.B}}\textrm{ T}$.

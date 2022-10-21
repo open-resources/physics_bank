@@ -43,8 +43,8 @@ substitutions:
   params:
     vars:
       title: Centrifuge Acceleration
-    v: 4100.0
-    t: 1.7
+    v: 3600.0
+    t: 2.3
     r: 5
 ---
 # {{ params.vars.title }}

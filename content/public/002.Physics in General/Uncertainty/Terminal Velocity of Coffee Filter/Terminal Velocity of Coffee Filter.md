@@ -62,15 +62,15 @@ substitutions:
       name: Lorenzo
       unit1: $m/s$
       unit2: $kg/s$
-    m: 4
-    d_m: 42
-    sd: 0.055
-    v1: 0.81
-    v2: 0.84
-    v3: 0.81
-    v4: 0.93
-    v5: 0.87
-    v6: 0.95
+    m: 1
+    d_m: 37
+    sd: 0.062
+    v1: 0.9
+    v2: 0.9
+    v3: 0.94
+    v4: 0.78
+    v5: 0.85
+    v6: 0.97
 ---
 # {{ params.vars.title }}
 In one of the PHYS 111 labs {{ params.vars.name }} measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling through the air.

@@ -48,45 +48,45 @@ part3:
 substitutions:
   params:
     vars:
-      person1: uncle
-      person2: father
+      person1: grandmother
+      person2: grandfather
       title: Bouncing a Baby to Sleep
       units: $N/m$
-    m1: 65.7
-    m2: 89.9
-    m_b: 5.71
-    f: 2.21
+    m1: 80.3
+    m2: 69.8
+    m_b: 9.15
+    f: 1.57
     part3:
       ans1:
-        value: Add more air to increase the pressure in the ball. Increased pressure
-          makes the ball 'stiffer'.
-      ans2:
         value: Remove air to decrease the pressure in the ball. Decreased pressure
           makes the ball 'softer'.
-        feedback: Hmm, not quite. How would adding air affect pressure of the ball?
-      ans3:
+      ans2:
         value: Remove air to decrease the pressure in the ball. Decreased pressure
           makes the ball 'stiffer'.
+        feedback: Hmm, not quite. How would adding air affect pressure of the ball?
+      ans3:
+        value: Remove air to increase the pressure in the ball. Increased pressure
+          makes the ball 'softer'.
         feedback: Hmm, not quite. How would adding air affect pressure of the ball?
       ans4:
         value: Remove air to increase the pressure in the ball. Increased pressure
-          makes the ball 'softer'.
+          makes the ball 'stiffer'.
         feedback: Hmm, not quite. How would adding air affect pressure of the ball?
       ans5:
-        value: Remove air to increase the pressure in the ball. Increased pressure
-          makes the ball 'stiffer'.
+        value: Add more air to decrease the pressure in the ball. Decreased pressure
+          makes the ball 'softer'.
         feedback: Hmm, not quite. How would adding air affect pressure of the ball?
       ans6:
         value: Add more air to decrease the pressure in the ball. Decreased pressure
-          makes the ball 'softer'.
+          makes the ball 'stiffer'.
         feedback: Hmm, not quite. How would adding air affect pressure of the ball?
       ans7:
-        value: Add more air to decrease the pressure in the ball. Decreased pressure
-          makes the ball 'stiffer'.
+        value: Add more air to increase the pressure in the ball. Increased pressure
+          makes the ball 'softer'.
         feedback: Hmm, not quite. How would adding air affect pressure of the ball?
       ans8:
         value: Add more air to increase the pressure in the ball. Increased pressure
-          makes the ball 'softer'.
+          makes the ball 'stiffer'.
         feedback: Hmm, not quite. How would adding air affect pressure of the ball?
 ---
 # {{ params.vars.title }}

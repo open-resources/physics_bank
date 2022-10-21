@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $9^{6} $=$ 531441$
+    expr: $5^{4} $=$ 625$
     part1:
       ans1:
-        value: $log_9531441 = 6$
+        value: $log_5625 = 4$
       ans2:
-        value: $log_96 = 531441$
+        value: $log_54 = 625$
       ans3:
-        value: $log_5314416 = 9$
+        value: $log_6254 = 5$
       ans4:
-        value: $log_6531441 = 9$
+        value: $log_4625 = 5$
       ans5:
         value: Don't Know
 ---

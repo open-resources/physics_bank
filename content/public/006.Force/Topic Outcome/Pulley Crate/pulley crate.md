@@ -40,8 +40,8 @@ substitutions:
     vars:
       title: Pulley Crate
       units: ft/s^2
-    m: 82
-    f: 45
+    m: 114
+    f: 55
 ---
 # {{ params.vars.title }}
 

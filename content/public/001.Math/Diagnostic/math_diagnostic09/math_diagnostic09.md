@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $z$ = $\dfrac{(j)}{(u + 9d)} $
+    expr: $t$ = $\dfrac{(q)}{(r + 7l)} $
     part1:
       ans1:
-        value: u = ${ - 9 d + \frac{j}{z}}$
+        value: r = ${ - 7 l + \frac{q}{t}}$
       ans2:
-        value: u = ${\frac{9 d z}{j}}$
+        value: r = ${\frac{7 l t}{q}}$
       ans3:
-        value: u = ${\frac{j}{9 d z}}$
+        value: r = ${\frac{q}{7 l t}}$
       ans4:
-        value: u = ${\frac{- 9 d + z}{j}}$
+        value: r = ${\frac{- 7 l + t}{q}}$
       ans5:
         value: Don't Know
 ---

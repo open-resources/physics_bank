@@ -46,8 +46,8 @@ substitutions:
   params:
     vars:
       title: Oxygen-16 Ion
-    v: 1.8
-    B: 4.3
+    v: 3.8
+    B: 4.5
     r: '0.070'
 ---
 # {{ params.vars.title }}

@@ -77,8 +77,8 @@ substitutions:
     vars:
       title: Delivery Man
       units: km
-    dist1: 30
-    dist2: 10
+    dist1: 10
+    dist2: 70
     dist3: 3
     dist4: 50
 ---

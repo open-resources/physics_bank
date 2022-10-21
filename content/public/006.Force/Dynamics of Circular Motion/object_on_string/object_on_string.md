@@ -36,18 +36,18 @@ substitutions:
     vars:
       title: Object Swung in Circular Path
       units: $\rm{N}$
-    m: 1.48
-    r: 1.12
-    w: 9
+    m: 0.66
+    r: 7.62
+    w: 6
     part1:
       ans1:
-        value: 119.76
+        value: 174.58
         feedback: Great! You got it.
       ans2:
-        value: 118.02
+        value: 131.77
         feedback: Hmm... try double-checking your algebra.
       ans3:
-        value: 134.27
+        value: 181.05
         feedback: Try considering how gravity might effect the tension.
       ans4:
         value: 192.08

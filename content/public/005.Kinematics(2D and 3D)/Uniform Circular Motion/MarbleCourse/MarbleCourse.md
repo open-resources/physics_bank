@@ -38,11 +38,11 @@ substitutions:
     vars:
       title: Marble Course
       units: $in$
-    max_acc_A: 0.7
-    max_acc_B: 1.0
-    ra: 302
-    rb: 332
-    angle: 51
+    max_acc_A: 0.6
+    max_acc_B: 0.7
+    ra: 388
+    rb: 418
+    angle: 71
 ---
 # {{ params.vars.title }}
 Two marbles travel in track as part of a Rube Goldberg machine.

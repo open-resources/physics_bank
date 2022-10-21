@@ -36,9 +36,9 @@ substitutions:
   params:
     vars:
       units: rad/s
-      name: Santiago
+      name: Ximena
       title: Wheel of Fortune
-    t: 0.3
+    t: 3.0
     w_i: ${\pi \over 4} {rad\over s}$
 ---
 # {{ params.vars.title }}
