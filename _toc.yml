@@ -146,6 +146,14 @@ parts:
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Electrons_Accelerating/Electrons_Accelerating
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Kicked_Soccer_Ball/Kicked_Soccer_Ball
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Motion_of_watermelon/Motion_of_watermelon
+  - file: content/public/004.Kinematics(1D)/Topic Outcome/Position XY 1a/Position_XY_1a
+  - file: content/public/004.Kinematics(1D)/Topic Outcome/Position XY 1b/Position_XY_1b
+  - file: content/public/004.Kinematics(1D)/Topic Outcome/Position XY 1c/Position_XY_1c
+  - file: content/public/004.Kinematics(1D)/Topic Outcome/Position XY 1d/Position_XY_1d
+  - file: content/public/004.Kinematics(1D)/Topic Outcome/Position XY 2a/Position_XY_2a
+  - file: content/public/004.Kinematics(1D)/Topic Outcome/Position XY 3a/Position_XY_3a
+  - file: content/public/004.Kinematics(1D)/Topic Outcome/Position XY 4a/Position_XY_4a
+  - file: content/public/004.Kinematics(1D)/Topic Outcome/Position XY 5a/Position_XY_5a
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Speed of Balloon/Speed of
       Balloon
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Throwing Stones/Throwing
