@@ -40,9 +40,9 @@ substitutions:
       units: $in$
     max_acc_A: 0.4
     max_acc_B: 0.8
-    ra: 363
-    rb: 380
-    angle: 56
+    ra: 387
+    rb: 402
+    angle: 46
 ---
 # {{ params.vars.title }}
 Two marbles travel in track as part of a Rube Goldberg machine.

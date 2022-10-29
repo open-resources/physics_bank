@@ -45,8 +45,8 @@ substitutions:
   params:
     vars:
       title: Frequency and Capacitance of an LC Circuit
-    f: '88.0'
-    C: '11.5'
+    f: '48.0'
+    C: '12.0'
 ---
 # {{ params.vars.title }}
 

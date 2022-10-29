@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $p$ = $\dfrac{(z)}{(l + 10e)} $
+    expr: $v$ = $\dfrac{(y)}{(l - 3i)} $
     part1:
       ans1:
-        value: l = ${ - 10 e + \frac{z}{p}}$
+        value: l = ${ 3 i + \frac{y}{v}}$
       ans2:
-        value: l = ${\frac{10 e p}{z}}$
+        value: l = ${- \frac{3 i v}{y}}$
       ans3:
-        value: l = ${\frac{z}{10 e p}}$
+        value: l = ${- \frac{y}{3 i v}}$
       ans4:
-        value: l = ${\frac{- 10 e + p}{z}}$
+        value: l = ${\frac{3 i + v}{y}}$
       ans5:
         value: Don't Know
 ---

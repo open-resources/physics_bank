@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-28x + 24y }{ 4 }$
+    expr: $\dfrac{18x + 8y }{ -2 }$
     part1:
       ans1:
-        value: $- 7 x + 6 y$
+        value: $- 9 x - 4 y$
       ans2:
-        value: $\dfrac{-7x + 6y}{4}$
+        value: $\dfrac{-9x - 4y}{-2}$
       ans3:
-        value: $6x - 7y$
+        value: $-4x - 9y$
       ans4:
-        value: $-28x + 24y$
+        value: $18x - 8y$
       ans5:
         value: Don't know.
 ---

@@ -43,7 +43,7 @@ substitutions:
         value: The coefficient of kinetic friction is larger than that of rolling
           friction.
       ans3:
-        value: In rolling motion a car's wheels remain at rest relative to the road,
+        value: In rolling motion, a car's wheels remain at rest relative to the road,
           and the coefficient of static friction is larger than that of kinetic friction.
       ans4:
         value: In sliding motion, a car's wheels remain at rest relative to the road,

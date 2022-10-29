@@ -56,12 +56,12 @@ part5:
 substitutions:
   params:
     vars:
-      name: Mateo
+      name: Lorenzo
       title: Sled Hill
     angle: 4
-    h: 25
-    uk: 0.14
-    m: 80
+    h: 14
+    uk: 0.08
+    m: 85
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is on a sled, sliding down a snow covered hill sloped at {{ params.angle }}$^\circ$ (relative to the horizontal). In travelling a distance $d$ the sled has descended through a vertical distance of $10 \, \rm{m}$.

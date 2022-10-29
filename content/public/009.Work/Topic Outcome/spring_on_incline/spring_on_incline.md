@@ -52,8 +52,8 @@ substitutions:
       units1: m
       units2: J
     m: 4
-    k: 647
-    theta: 29
+    k: 650
+    theta: 27
     mu: 0.25
     d: 7
     g: 9.8
