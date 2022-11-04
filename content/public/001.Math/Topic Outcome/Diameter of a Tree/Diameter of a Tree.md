@@ -36,9 +36,9 @@ substitutions:
   params:
     vars:
       title: Diameter of a Tree
-    h_t1: 7.2
-    d_t1: 21
-    h_t2: 24.9
+    h_t1: 7.16
+    d_t1: 32
+    h_t2: 20.8
 ---
 # {{ params.vars.title }}
 

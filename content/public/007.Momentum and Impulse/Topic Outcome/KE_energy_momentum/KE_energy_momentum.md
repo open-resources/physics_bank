@@ -37,17 +37,17 @@ substitutions:
       title: Kinetic Energy and Momentum
     part1:
       ans1:
-        value: If I throw an object straight up (vertically) in the air, its momentum
-          at the highest point will be zero.
+        value: If I throw an object diagonally up in the air, its momentum at the
+          highest point will be zero.
       ans2:
         value: If I throw an object diagonally up in the air, its kinetic energy at
           the highest point will be zero.
       ans3:
-        value: If I throw an object straight up (vertically) in the air, its kinetic
-          energy at the highest point will be zero.
+        value: If I throw an object into the air, the system composed of the object
+          and the earth is a closed system.
       ans4:
-        value: If I throw an object diagonally up in the air, its momentum at the
-          highest point will be zero.
+        value: If I throw an object straight up (vertically) in the air, its momentum
+          at the highest point will be zero.
 ---
 # {{ params.vars.title }}
 

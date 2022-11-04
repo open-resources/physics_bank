@@ -44,10 +44,10 @@ substitutions:
   params:
     vars:
       title: Velocity and Acceleration of Particle in Curvilinear motion
-    x_position: -4
+    x_position: 0
     t: 0
     y_position: 0
-    vxcon: 21
+    vxcon: 20
     vxcof: 16
 ---
 # {{ params.vars.title }}

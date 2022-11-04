@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic23
-    a: 9
-    b: 1
-    formula: $x^{9} \cos{\left(x \right)}$
+    a: 7
+    b: 3
+    formula: $x^{7} \cos{\left(3 x \right)}$
     part1:
       ans1:
-        value: $- x^{9} \sin{\left(x \right)} + 9 x^{8} \cos{\left(x \right)}$
+        value: $- 3 x^{7} \sin{\left(3 x \right)} + 7 x^{6} \cos{\left(3 x \right)}$
       ans2:
-        value: $- x^{9} \sin{\left(x \right)} $
+        value: $- 3 x^{7} \sin{\left(3 x \right)} $
       ans3:
-        value: $ 9 x^{8} \sin{\left(x \right)}$
+        value: $ 7 x^{6} \sin{\left(3 x \right)}$
       ans4:
-        value: $x^{9} \cos{\left(x \right)} + 9 x^{8} \sin{\left(x \right)}$
+        value: $3 x^{7} \cos{\left(3 x \right)} + 7 x^{6} \sin{\left(3 x \right)}$
       ans5:
         value: Don't Know
 ---

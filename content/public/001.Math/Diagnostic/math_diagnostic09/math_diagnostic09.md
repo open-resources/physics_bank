@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $y$ = $\dfrac{(d)}{(l + 10x)} $
+    expr: $n$ = $\dfrac{(f)}{(u - 5i)} $
     part1:
       ans1:
-        value: l = ${ \frac{d}{y} - 10 x}$
+        value: u = ${ \frac{f}{n} + 5 i}$
       ans2:
-        value: l = ${\frac{10 x y}{d}}$
+        value: u = ${- \frac{5 i n}{f}}$
       ans3:
-        value: l = ${\frac{d}{10 x y}}$
+        value: u = ${- \frac{f}{5 i n}}$
       ans4:
-        value: l = ${\frac{- 10 x + y}{d}}$
+        value: u = ${\frac{5 i + n}{f}}$
       ans5:
         value: Don't Know
 ---

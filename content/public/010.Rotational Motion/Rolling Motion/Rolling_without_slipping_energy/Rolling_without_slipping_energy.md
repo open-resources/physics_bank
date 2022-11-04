@@ -36,9 +36,9 @@ substitutions:
       title: Rolling Without Slipping Energy
     part1:
       ans1:
-        value: Gravitational kinetic energy
-      ans2:
         value: Translational kinetic energy
+      ans2:
+        value: Gravitational kinetic energy
       ans3:
         value: Rotational kinetic energy
 ---

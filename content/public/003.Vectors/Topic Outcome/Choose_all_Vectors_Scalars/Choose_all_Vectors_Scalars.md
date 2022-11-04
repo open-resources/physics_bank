@@ -36,15 +36,15 @@ substitutions:
     choice: scalars
     part1:
       ans1:
-        value: Energy
-      ans2:
-        value: Area
-      ans3:
         value: Distance
-      ans4:
+      ans2:
+        value: Temperature
+      ans3:
         value: Power
+      ans4:
+        value: Pressure
       ans5:
-        value: Position
+        value: Force
       ans6:
         value: Velocity
 ---

@@ -50,9 +50,9 @@ part3:
     directory: clientFilesQuestion
 substitutions:
   params:
-    V: 1.1
-    T: 1.1
-    R: 6.3
+    V: 1.5
+    T: 0.26
+    R: 0.27
     vars:
       title: Merry Go Round
 ---

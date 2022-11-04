@@ -49,7 +49,7 @@ substitutions:
     vars:
       title: Single-turn Circular Loop
     r: '70'
-    b: '200'
+    b: '125'
     B: '375'
     t: '0.1'
     part2:

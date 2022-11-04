@@ -48,7 +48,7 @@ substitutions:
       title: Camera Flash
     I: '0.425'
     L: '1.00'
-    V: '450'
+    V: '550'
 ---
 # {{ params.vars.title }}
 When a camera uses a flash, a fully-charged capacitor discharges through an inductor.
