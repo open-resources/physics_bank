@@ -44,7 +44,7 @@ part3:
 substitutions:
   params:
     vars:
-      name: Lorenzo
+      name: Savannah
       title: Lowering a bucket - person, the rope, the bucket, the air, the earth
     part1:
       ans1:

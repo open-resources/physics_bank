@@ -63,8 +63,8 @@ substitutions:
       name: Emilia
       unit1: $kg$
       unit2: $m^3$
-    m_p: 157
-    m_cp: 72
+    m_p: 169
+    m_cp: 65
     l: 4
 ---
 # {{ params.vars.title }}

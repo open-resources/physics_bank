@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{18x + 8y }{ -2 }$
+    expr: $\dfrac{15x - 18y }{ 3 }$
     part1:
       ans1:
-        value: $- 9 x - 4 y$
+        value: $5 x - 6 y$
       ans2:
-        value: $\dfrac{-9x - 4y}{-2}$
+        value: $\dfrac{5x - 6y}{3}$
       ans3:
-        value: $-4x - 9y$
+        value: $-6x + 5y$
       ans4:
-        value: $18x - 8y$
+        value: $15x - 18y$
       ans5:
         value: Don't know.
 ---

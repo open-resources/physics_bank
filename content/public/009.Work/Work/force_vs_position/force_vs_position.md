@@ -53,8 +53,8 @@ substitutions:
   params:
     vars:
       title: Force vs Position Graph
-    m: 1.5
-    v: 2.0
+    m: 5.0
+    v: 5.0
     x: 0.5
 ---
 # {{ params.vars.title }}

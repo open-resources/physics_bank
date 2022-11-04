@@ -45,9 +45,9 @@ substitutions:
   params:
     vars:
       title: Tube up a Hill
-    W: 678
-    t: 21
-    v: 4
+    W: 568
+    t: 18
+    v: 3
     P: 4
     P2: 6
 ---

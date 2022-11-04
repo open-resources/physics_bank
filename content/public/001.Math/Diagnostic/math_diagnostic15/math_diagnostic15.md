@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $7^{6} $=$ 117649$
+    expr: $4^{1} $=$ 4$
     part1:
       ans1:
-        value: $log_7117649 = 6$
+        value: $log_44 = 1$
       ans2:
-        value: $log_76 = 117649$
+        value: $log_41 = 4$
       ans3:
-        value: $log_1176496 = 7$
+        value: $log_41 = 4$
       ans4:
-        value: $log_6117649 = 7$
+        value: $log_14 = 4$
       ans5:
         value: Don't Know
 ---

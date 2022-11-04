@@ -36,10 +36,10 @@ substitutions:
     vars:
       title: Blocks On Frictionless Table
       units: $\frac{m}{s}$
-    v0: 498
-    v1: 7
-    mb: 10
-    mw: 546
+    v0: 414
+    v1: 5
+    mb: 13
+    mw: 525
     d: 1
 ---
 # {{ params.vars.title }}

@@ -3,7 +3,7 @@ title: Box on a Slant with a Pulley
 topic: Force
 author: Jake Bobowski
 source: 2013 Midterm 2 002 Q4
-template_version: 1.3
+template_version: 1.4
 attribution: standard
 partialCredit: true
 singleVariant: false
@@ -23,39 +23,85 @@ length:
 - undefined
 tags:
 - MP
+- JR
 assets:
 - Q4.png
 part1:
+  type: symbolic-input
+  pl-customizations:
+    label: $f = $
+    variables: ms, mh, g, mu, theta
+    weight: 1
+    allow-blank: false
+part2:
+  type: symbolic-input
+  pl-customizations:
+    label: $T = $
+    variables: ms, mh, g, mu, theta
+    weight: 1
+    allow-blank: false
+part3:
   type: number-input
   pl-customizations:
     rtol: 0.05
     weight: 1
     allow-blank: true
-    label: $m= $
-    suffix: $kg$
+    label: $m_s = $
+    suffix: $\rm{kg}$
 substitutions:
   params:
     vars:
       title: Box on a Slant with a Pulley
-      units: $kg$
-    theta: 19
-    mu: 0.1
-    m: 5
+    angl: 34
+    coef: 0.9
+    mass: 5
 ---
 # {{ params.vars.title }}
-The figure shows a block of mass $m$ resting on a {{params.theta}}$^\circ$ slope.
-The coefficient of static friction between the block and the sloped surface is {{params.mu}}.
-It is connected via a massless string over a massless, frictionless pulley to a hanging block of mass {{params.m}} $kg$.
+The figure shows a block of mass $m_s$ resting on a $\theta = {{params.angl}}^\circ$ slope.
+The coefficient of static friction between the block and the sloped surface is $\mu_s = {{params.coef}}$.
+The block on the slope is connected to a hanging block of mass $m_h = {{params.mass}} \rm{kg}$ via a massless string that passes over a massless, frictionless pulley. Assume $g = 9.81 \rm{m/s^2}$.
 
-<img src="Q4.png" width=300 alt = "A box sits on a ramp that is at an angle theta from the horizontal. The box is connected by a rope to another mass that hangs freely from a pulley.">
+<img src="Q4.png" width=400 alt = "A box sits on a ramp that is at an angle theta from the horizontal. The box is connected by a string to another mass that hangs freely from a pulley.">
 
-## Question Text
+## Part 1
 
-What is the _minimum_ value of $m$ such that the system remains at rest?
+What is the force of friction acting on the block on the slope $f$? Express your answer in terms of the variables in the question.
+
+Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
+
+| For      | Use   |
+|----------|-------|
+| $m_s$    | ms    |
+| $m_h$    | mh    |
+| $g$      | g     |
+| $mu_s$   | mu    |
+| $\theta$ | theta |
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+## Part 2
+
+What is the tension in the string $T$? Express your answer in terms of the variables in the question.
+
+Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
+
+| For      | Use   |
+|----------|-------|
+| $m_s$    | ms    |
+| $m_h$    | mh    |
+| $g$      | g     |
+| $mu_s$   | mus   |
+| $\theta$ | theta |
+
+### Answer Section
+
+## Part 3
+
+Use Newton's second law and your answers to Part 1 and 2 to determine the minimum value of the mass of the block on the slope $m_s$ such that the system remains at rest.
+
+### Answer Section
+
+Please enter in a numeric value in $\rm{kg}$.
 
 ## Attribution
 

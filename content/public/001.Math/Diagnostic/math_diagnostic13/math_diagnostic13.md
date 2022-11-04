@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic13
-    expr: $\dfrac{z^5 }{z^1} $
+    expr: $\dfrac{z^9 }{z^7} $
     part1:
       ans1:
-        value: $z^{4}$
+        value: $z^{2}$
       ans2:
-        value: $z^{-4}$
+        value: $z^{-2}$
       ans3:
-        value: 4z
+        value: 2z
       ans4:
-        value: (5)z
+        value: (9/7)z
       ans5:
         value: Don't Know
 ---

@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic17
-    a: 6
-    b: 6
+    a: 9
+    b: 10
     part1:
       ans1:
-        value: $e^{6} e^{6 y}$
+        value: $e^{10} e^{9 y}$
       ans2:
-        value: $e^{6 y} + e^{6}$
+        value: $e^{9 y} + e^{9}$
       ans3:
-        value: $6 e^{6} e^{y}$
+        value: $9 e^{9} e^{y}$
       ans4:
-        value: $6 e^{6 y}$
+        value: $10 e^{9 y}$
       ans5:
         value: Don't Know
 ---

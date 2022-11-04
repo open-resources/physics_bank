@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $v$ = $\dfrac{(y)}{(l - 3i)} $
+    expr: $y$ = $\dfrac{(d)}{(l + 10x)} $
     part1:
       ans1:
-        value: l = ${ 3 i + \frac{y}{v}}$
+        value: l = ${ \frac{d}{y} - 10 x}$
       ans2:
-        value: l = ${- \frac{3 i v}{y}}$
+        value: l = ${\frac{10 x y}{d}}$
       ans3:
-        value: l = ${- \frac{y}{3 i v}}$
+        value: l = ${\frac{d}{10 x y}}$
       ans4:
-        value: l = ${\frac{3 i + v}{y}}$
+        value: l = ${\frac{- 10 x + y}{d}}$
       ans5:
         value: Don't Know
 ---

@@ -37,13 +37,13 @@ substitutions:
   params:
     vars:
       title: Trapped Hiker
-    m: 53
-    F: 1428
+    m: 83
+    F: 1411
     x1: 4.0
-    d: 17.0
-    h: 6.0
-    k: 50
-    thetad: 6
+    d: 15.0
+    h: 7.0
+    k: 27
+    thetad: 5
 ---
 # {{ params.vars.title }}
 <img src="Spring Restraining Cart.png" width=400>

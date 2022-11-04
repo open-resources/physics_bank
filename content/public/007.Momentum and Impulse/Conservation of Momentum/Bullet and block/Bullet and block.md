@@ -42,14 +42,14 @@ substitutions:
   params:
     vars:
       title: Bullet and Block
-      name: Maya
+      name: Savannah
       units1: m/s
       units2: kg
-    m_bullet: 29
-    m_block: 16
-    bullet_v: 778
-    slide_d: 3
-    slide_dnew: 3.3
+    m_bullet: 31
+    m_block: 23
+    bullet_v: 888
+    slide_d: 7
+    slide_dnew: 7.7
     coeff_k: 0.2
 ---
 # {{ params.vars.title }}
