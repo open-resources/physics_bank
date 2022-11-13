@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{20x - 30y }{ 5 }$
+    expr: $\dfrac{-16x - 16y }{ 8 }$
     part1:
       ans1:
-        value: $4 x - 6 y$
+        value: $- 2 x - 2 y$
       ans2:
-        value: $\dfrac{4x - 6y}{5}$
+        value: $\dfrac{-2x - 2y}{8}$
       ans3:
-        value: $-6x + 4y$
+        value: $-2x - 2y$
       ans4:
-        value: $20x - 30y$
+        value: $-16x - 16y$
       ans5:
         value: Don't know.
 ---

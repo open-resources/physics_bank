@@ -32,18 +32,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic06
-    eq: $\dfrac{x-3}{x-5}$ = $ \dfrac{x+1}{x+6}$
+    eq: $\dfrac{x-4}{x-9}$ = $ \dfrac{x+4}{x+5}$
     part1:
       ans1:
-        value: -9/5
+        value: -29/22
       ans2:
-        value: 13/7
+        value: -8/3
       ans3:
-        value: '-27'
+        value: -29/4
       ans4:
-        value: -3/5
+        value: -8/11
       ans5:
-        value: -21/5
+        value: '-14'
       ans6:
         value: None of the above
 ---

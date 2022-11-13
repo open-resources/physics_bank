@@ -52,8 +52,8 @@ substitutions:
   params:
     vars:
       title: Box on a Slant with a Pulley
-    angl: 11
-    coef: 0.6
+    angl: 23
+    coef: 0.5
     mass: 2
 ---
 # {{ params.vars.title }}
@@ -74,7 +74,7 @@ Note that it may not be necessary to use every variable. Use the following table
 | $m_s$    | ms    |
 | $m_h$    | mh    |
 | $g$      | g     |
-| $mu_s$   | mu    |
+| $\mu_s$   | mu    |
 | $\theta$ | theta |
 
 ### Answer Section
@@ -90,7 +90,7 @@ Note that it may not be necessary to use every variable. Use the following table
 | $m_s$    | ms    |
 | $m_h$    | mh    |
 | $g$      | g     |
-| $mu_s$   | mus   |
+| $\mu_s$   | mus   |
 | $\theta$ | theta |
 
 ### Answer Section

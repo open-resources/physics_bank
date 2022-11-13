@@ -55,17 +55,17 @@ substitutions:
       title: Rock Powered Rocket
       units1: m/s
       units2: kg
-      name: Mateo
-    i: 330
-    m: 27
-    v_1: 8
-    v_2: 15
+      name: Maya
+    i: 387
+    m: 39
+    v_1: 14
+    v_2: 23
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.
 Their rocket is powered by throwing rocks out of a hole in the back of the spaceship.
-The total inertia of {{params.vars.name}} and their rocket is {{ params.i }} kg.
-{{params.vars.name}} also has two {{ params.m }} kg rocks on board.
+The inertia of {{params.vars.name}} and their rocket together is {{ params.i }} kg.
+{{params.vars.name}} also (in addition to the rocket and the person) has two {{ params.m }} kg rocks on board.
 They are initially at rest.
 {{params.vars.name}} throws the first rock, and then they are moving with velocity {{ params.v_1 }} {{ params.vars.units1 }}.
 Then {{params.vars.name}} throws the second rock out of the back and they are moving with velocity {{ params.v_2 }} {{ params.vars.units1 }} .

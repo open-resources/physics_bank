@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $n$ = $\dfrac{(f)}{(u - 5i)} $
+    expr: $d$ = $\dfrac{(q)}{(z + 10w)} $
     part1:
       ans1:
-        value: u = ${ \frac{f}{n} + 5 i}$
+        value: z = ${ - 10 w + \frac{q}{d}}$
       ans2:
-        value: u = ${- \frac{5 i n}{f}}$
+        value: z = ${\frac{10 d w}{q}}$
       ans3:
-        value: u = ${- \frac{f}{5 i n}}$
+        value: z = ${\frac{q}{10 d w}}$
       ans4:
-        value: u = ${\frac{5 i + n}{f}}$
+        value: z = ${\frac{d - 10 w}{q}}$
       ans5:
         value: Don't Know
 ---

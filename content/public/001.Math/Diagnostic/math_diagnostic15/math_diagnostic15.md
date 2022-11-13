@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $2^{3} $=$ 8$
+    expr: $9^{4} $=$ 6561$
     part1:
       ans1:
-        value: $log_28 = 3$
+        value: $log_96561 = 4$
       ans2:
-        value: $log_23 = 8$
+        value: $log_94 = 6561$
       ans3:
-        value: $log_83 = 2$
+        value: $log_65614 = 9$
       ans4:
-        value: $log_38 = 2$
+        value: $log_46561 = 9$
       ans5:
         value: Don't Know
 ---

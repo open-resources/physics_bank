@@ -63,7 +63,7 @@ substitutions:
       name: Savannah
       unit1: $kg$
       unit2: $m^3$
-    m_p: 186
+    m_p: 163
     m_cp: 69
     l: 3
 ---

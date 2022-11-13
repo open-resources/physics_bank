@@ -46,7 +46,7 @@ substitutions:
     vars:
       title: Yoyo Spin
       units: $m/s$
-    r1: 24
+    r1: 25
     r2: 38
 ---
 # {{ params.vars.title }}
