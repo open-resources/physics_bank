@@ -41,14 +41,14 @@ substitutions:
     part1:
       ans1:
         value: It decreases by a factor of 6.
-        feedback: Careful, moment of inertia decreases.
+        feedback: Great, you got it!
       ans2:
         value: It decreases by a factor of 36.
         feedback: Angular momentum $L$ is given by $L = I \omega$, where $I$ is the
           moment of inertia and $\omega$ is angular speed.
       ans3:
         value: It increases by a factor of 6.
-        feedback: Great, you got it!
+        feedback: Careful, moment of inertia increases.
       ans4:
         value: It increases by a factor of 36.
         feedback: Angular momentum $L$ is given by $L = I \omega$, where $I$ is the
@@ -60,7 +60,7 @@ substitutions:
     part2:
       ans1:
         value: It decreases by a factor of 6.
-        feedback: Careful, moment of inertia decreases.
+        feedback: Great, you got it!
       ans2:
         value: It decreases by a factor of 36.
         feedback: Rotational kinetic energy $K_{rot}$ is given by $K_{rot} = 1/2 I
@@ -68,7 +68,7 @@ substitutions:
           Don't forget that both $I$ and $\omega$ change.
       ans3:
         value: It increases by a factor of 6.
-        feedback: Great, you got it!
+        feedback: Careful, moment of inertia increases.
       ans4:
         value: It increases by a factor of 36.
         feedback: Rotational kinetic energy $K_{rot}$ is given by $K_{rot} = 1/2 I
@@ -78,10 +78,10 @@ substitutions:
         value: It does not change.
         feedback: Rotational kinetic energy $K_{rot}$ is given by $K_{rot} = 1/2 I
           \omega ^2$, where $I$ is moment of inertia and $\omega$ is angular speed.
-    arms1: out
-    arms2: in
-    I1: 2.4
-    I2: 0.4
+    arms1: in
+    arms2: out
+    I1: 0.4
+    I2: 2.4
 ---
 # {{ params.vars.title }}
 A figure skater begins a spin with their arms {{ params.arms1 }} and during the spin, they move their arms {{ params.arms2 }}. This changes their moment of inertia from $I\_{\text{arms {{ params.arms1 }}}} = {{ params.I1 }}$ $\rm{kgm^2}$ to $I\_{\text{arms {{ params.arms2 }}}} = {{ params.I2 }}$ $\rm{kgm^2}$ during their spin.

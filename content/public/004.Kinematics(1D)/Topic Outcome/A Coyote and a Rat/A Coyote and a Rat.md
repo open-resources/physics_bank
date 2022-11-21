@@ -98,9 +98,9 @@ substitutions:
   params:
     vars:
       title: A Coyote and a Rat
-    d_x: 30
+    d_x: 36
     v_r: 8
-    a_c: 8
+    a_c: 5
 ---
 # {{ params.vars.title }}
 A coyote notices a rat running past it, toward a bush where the rat will be safe.

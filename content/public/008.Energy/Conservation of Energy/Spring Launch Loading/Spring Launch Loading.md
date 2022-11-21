@@ -38,11 +38,11 @@ substitutions:
   params:
     vars:
       title: Spring Launch Loading
-    m: 58
-    F: 376
-    x1: 0.14
-    d: 1.13
-    h: 0.88
+    m: 47
+    F: 213
+    x1: 0.238
+    d: 1.05
+    h: 0.78
     k: 73
 ---
 # {{ params.vars.title }}

@@ -54,12 +54,12 @@ substitutions:
   params:
     vars:
       title: Clutch Plate Dampening System
-    w: 160
-    d: 98
-    k: 274
-    m: 0.2
+    w: 185
+    d: 72
+    k: 375
+    m: 0.3
     x: 25
-    d2: 1.78
+    d2: 1.93
 ---
 # {{ params.vars.title }}
 <img src="Springs On a Disk.gif" width=800>

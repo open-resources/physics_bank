@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{-16x - 16y }{ 8 }$
+    expr: $\dfrac{18x - 54y }{ -6 }$
     part1:
       ans1:
-        value: $- 2 x - 2 y$
+        value: $- 3 x + 9 y$
       ans2:
-        value: $\dfrac{-2x - 2y}{8}$
+        value: $\dfrac{-3x + 9y}{-6}$
       ans3:
-        value: $-2x - 2y$
+        value: $9x - 3y$
       ans4:
-        value: $-16x - 16y$
+        value: $18x + 54y$
       ans5:
         value: Don't know.
 ---

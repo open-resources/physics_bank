@@ -28,18 +28,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic23
-    a: 7
-    b: 5
-    formula: $x^{7} \sin{\left(5 x \right)}$
+    a: 8
+    b: 2
+    formula: $x^{8} \sin{\left(2 x \right)}$
     part1:
       ans1:
-        value: $5 x^{7} \cos{\left(5 x \right)} + 7 x^{6} \sin{\left(5 x \right)}$
+        value: $2 x^{8} \cos{\left(2 x \right)} + 8 x^{7} \sin{\left(2 x \right)}$
       ans2:
-        value: $5 x^{7} \cos{\left(5 x \right)} $
+        value: $2 x^{8} \cos{\left(2 x \right)} $
       ans3:
-        value: $ 7 x^{6} \cos{\left(5 x \right)}$
+        value: $ 8 x^{7} \cos{\left(2 x \right)}$
       ans4:
-        value: $- 5 x^{7} \sin{\left(5 x \right)} + 7 x^{6} \cos{\left(5 x \right)}$
+        value: $- 2 x^{8} \sin{\left(2 x \right)} + 8 x^{7} \cos{\left(2 x \right)}$
       ans5:
         value: Don't Know
 ---

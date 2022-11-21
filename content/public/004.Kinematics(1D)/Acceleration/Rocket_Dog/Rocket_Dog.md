@@ -70,8 +70,8 @@ substitutions:
     vars:
       title: Rocket Dog
       units: $\rm{m/s}$
-    x: $2t^2 + 7t$
-    time: 7
+    x: $-7t^2$
+    time: 2
     part4:
       ans1:
         value: The rocket dog is moving towards the origin.

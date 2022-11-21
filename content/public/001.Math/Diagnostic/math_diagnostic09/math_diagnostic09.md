@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $d$ = $\dfrac{(q)}{(z + 10w)} $
+    expr: $a$ = $\dfrac{(o)}{(l + 2u)} $
     part1:
       ans1:
-        value: z = ${ - 10 w + \frac{q}{d}}$
+        value: l = ${ - 2 u + \frac{o}{a}}$
       ans2:
-        value: z = ${\frac{10 d w}{q}}$
+        value: l = ${\frac{2 a u}{o}}$
       ans3:
-        value: z = ${\frac{q}{10 d w}}$
+        value: l = ${\frac{o}{2 a u}}$
       ans4:
-        value: z = ${\frac{d - 10 w}{q}}$
+        value: l = ${\frac{a - 2 u}{o}}$
       ans5:
         value: Don't Know
 ---
