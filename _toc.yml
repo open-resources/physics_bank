@@ -527,6 +527,8 @@ parts:
   - file: content/public/009.Work/Work/force_vs_position/force_vs_position
 - caption: Rotational Motion
   chapters:
+  - file: content/public/010.Rotational Motion/Angular Momentum/Rotating buckets2/Rotating
+      buckets2
   - file: content/public/010.Rotational Motion/Angular Momentum/Rotating_Student/rotating_student
   - file: content/public/010.Rotational Motion/Center of Mass/Centre of Mass of a
       Baton/Centre of Mass of a Baton
