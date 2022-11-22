@@ -32,18 +32,18 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic06
-    eq: $\dfrac{x-3}{x-7}$ = $ \dfrac{x+1}{x+7}$
+    eq: $\dfrac{x-4}{x-5}$ = $ \dfrac{x+1}{x+6}$
     part1:
       ans1:
-        value: -23/9
+        value: -13/8
       ans2:
-        value: 7/5
+        value: 19/6
       ans3:
-        value: '-23'
+        value: '-13'
       ans4:
-        value: -7/9
+        value: -7/8
       ans5:
-        value: '-7'
+        value: -13/3
       ans6:
         value: None of the above
 ---

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic19
-    a: $ \sin336$
+    a: $ \sin347$
     part1:
       ans1:
-        value: $\sin{-24}$
+        value: $\sin{-13}$
       ans2:
-        value: $\sin{24}$
+        value: $\sin{13}$
       ans3:
-        value: $\sin{67}$
+        value: $\sin{78}$
       ans4:
-        value: $\sin{-67}$
+        value: $\sin{-78}$
       ans5:
         value: Don't Know
 ---

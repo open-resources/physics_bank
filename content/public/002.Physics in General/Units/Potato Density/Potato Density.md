@@ -63,9 +63,9 @@ substitutions:
       name: Maya
       unit1: $kg$
       unit2: $m^3$
-    m_p: 170
-    m_cp: 81
-    l: 2
+    m_p: 174
+    m_cp: 80
+    l: 4
 ---
 # {{ params.vars.title }}
 For their first lab, {{ params.vars.name }} decides to measure the density of a potato.They notice that it's an unusual shape and floats, so it's hard to calculate its volume.The potato's mass is measured to be {{ params.m_p }} $g$.They then cut the potato into a cube and measure that the sides of the cube have length {{ params.l}} inches, and the potato's mass is {{ params.m_cp }} $g$.For a uniform density potato, the mass and volume are proportional.

@@ -32,14 +32,14 @@ substitutions:
   params:
     vars:
       title: Explosions and Velocity
-      name: Ahmed
+      name: Lorenzo
     part1:
-      m_A: 5
+      m_A: 3
       m_B: 7
-      v_A: 27
+      v_A: 20
       v_B: 18
-      v: 22.0
-      m_pumpkin: 12
+      v: 19.0
+      m_pumpkin: 10
       ans1:
         value: Yes, because of conservation of momentum
         feedback: Great! You got it.
@@ -48,7 +48,7 @@ substitutions:
           changed the momentum of the pumpkin.
         feedback: Hmm, does the unit make sense?
       ans3:
-        value: No, because the velocity should be $v$ = 45 $\rm{m/s}$
+        value: No, because the velocity should be $v$ = 38 $\rm{m/s}$
       ans4:
         value: No, because the velocity should be $v$ = 3.8 $\rm{m/s/kg}$
 ---

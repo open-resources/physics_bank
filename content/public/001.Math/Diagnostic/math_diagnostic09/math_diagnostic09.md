@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $b$ = $\dfrac{(e)}{(j + 3h)} $
+    expr: $h$ = $\dfrac{(q)}{(k + 3x)} $
     part1:
       ans1:
-        value: j = ${ - 3 h + \frac{e}{b}}$
+        value: k = ${ - 3 x + \frac{q}{h}}$
       ans2:
-        value: j = ${\frac{3 b h}{e}}$
+        value: k = ${\frac{3 h x}{q}}$
       ans3:
-        value: j = ${\frac{e}{3 b h}}$
+        value: k = ${\frac{q}{3 h x}}$
       ans4:
-        value: j = ${\frac{b - 3 h}{e}}$
+        value: k = ${\frac{h - 3 x}{q}}$
       ans5:
         value: Don't Know
 ---

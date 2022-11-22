@@ -46,10 +46,10 @@ substitutions:
   params:
     vars:
       title: Resistance Swimmer
-    v: 2
-    h: 15
-    x: 6
-    a: 0.1
+    v: 4
+    h: 19
+    x: 9
+    a: 0.2
 ---
 # {{ params.vars.title }}
 <img src="L11Q1.png" width=85%>

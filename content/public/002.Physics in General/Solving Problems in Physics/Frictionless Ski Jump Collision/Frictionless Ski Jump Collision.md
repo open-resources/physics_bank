@@ -42,15 +42,15 @@ part2:
 substitutions:
   params:
     vars:
-      name: Mateo
+      name: Ahmed
       title: Frictionless Ski Jump Collision
       units1: m/s
       units2: m
-    mA: 24
-    mB: 15.84
-    ramp_angle: 14
-    ramp_h: 0.03
-    jump_h: 348
+    mA: 16
+    mB: 6.72
+    ramp_angle: 10
+    ramp_h: 0.06
+    jump_h: 497
 ---
 # {{ params.vars.title }}
 A frictionless ski jump is designed such that at the bottom of the hill, there is a short flat section.

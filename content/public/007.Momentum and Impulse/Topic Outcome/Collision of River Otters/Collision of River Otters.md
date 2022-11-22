@@ -119,11 +119,11 @@ substitutions:
   params:
     vars:
       title: Collision of River Otters
-    m_s: 4.45
-    m_l: 8.91
-    vis: 4.88
-    vil: 6.06
-    theta_i: 44.3
+    m_s: 4.98
+    m_l: 7.29
+    vis: 4.55
+    vil: 6.54
+    theta_i: 44.0
     part9:
       ans1:
         value: Kinetic energy is lost in this collision.

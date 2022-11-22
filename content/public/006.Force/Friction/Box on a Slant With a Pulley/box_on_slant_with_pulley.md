@@ -52,7 +52,7 @@ substitutions:
   params:
     vars:
       title: Box on a Slant with a Pulley
-    angl: 17
+    angl: 29
     coef: 0.4
     mass: 10
 ---

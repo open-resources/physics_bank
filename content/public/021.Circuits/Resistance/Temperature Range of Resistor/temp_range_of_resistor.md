@@ -43,9 +43,9 @@ substitutions:
   params:
     vars:
       title: Temperature Range of Resistor
-    p: 5
-    metal: Tungsten
-    T_0: 119
+    p: 7
+    metal: Silicon
+    T_0: 98
 ---
 # {{ params.vars.title }}
 

@@ -33,17 +33,17 @@ substitutions:
     vars:
       title: Math Diagnostic11
     a: 4
-    b: 7
-    c: 3
+    b: 9
+    c: 2
     part1:
       ans1:
-        value: x = -1.0, x = -0.75
+        value: x = -2.0, x = -0.25
       ans2:
-        value: x = 1.0, x = 0.75
+        value: x = 2.0, x = 0.25
       ans3:
-        value: x = 7, x = 3
+        value: x = 9, x = 2
       ans4:
-        value: x = 4, x = 7
+        value: x = 4, x = 9
       ans5:
         value: Don't Know
 ---

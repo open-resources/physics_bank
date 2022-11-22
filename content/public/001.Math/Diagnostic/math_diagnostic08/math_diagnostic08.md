@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{32x - 24y }{ -4 }$
+    expr: $\dfrac{-10x - 15y }{ -5 }$
     part1:
       ans1:
-        value: $- 8 x + 6 y$
+        value: $2 x + 3 y$
       ans2:
-        value: $\dfrac{-8x + 6y}{-4}$
+        value: $\dfrac{2x + 3y}{-5}$
       ans3:
-        value: $6x - 8y$
+        value: $3x + 2y$
       ans4:
-        value: $32x + 24y$
+        value: $-10x + 15y$
       ans5:
         value: Don't know.
 ---

@@ -47,7 +47,7 @@ substitutions:
       title: Bird Flying Speed
       units: $km/h$
     m_1: 4
-    v_1: 75
+    v_1: 78
     m_2: 3
 ---
 # {{ params.vars.title }}

@@ -61,7 +61,7 @@ substitutions:
   params:
     vars:
       title: Long Cylindrical Solenoid
-    n: '120'
+    n: '100'
     r: '2.5'
     dIdt: '8.5'
 ---
