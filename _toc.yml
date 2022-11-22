@@ -89,6 +89,8 @@ parts:
   chapters:
   - file: content/public/003.Vectors/Coordinate System and Vector Components/Delivery
       Man/delivery_man
+  - file: content/public/003.Vectors/Coordinate System and Vector Components/Delivery
+      Person/delivery_person
   - file: content/public/003.Vectors/Coordinate System and Vector Components/Magnitude_And_Components/Magnitude_And_Components
   - file: content/public/003.Vectors/Coordinate System and Vector Components/Vector_Components/Vector_Components
   - file: content/public/003.Vectors/Notation/Identify_the_figure/Identify_the_figure
