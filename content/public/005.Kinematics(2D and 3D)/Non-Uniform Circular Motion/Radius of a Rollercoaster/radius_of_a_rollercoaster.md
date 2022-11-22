@@ -38,7 +38,7 @@ substitutions:
     vars:
       title: Radius of a Rollercoaster
       units: $m$
-    speed_of_car: 223
+    speed_of_car: 220
     rate_of_decrease: 9
     a: 3
 ---

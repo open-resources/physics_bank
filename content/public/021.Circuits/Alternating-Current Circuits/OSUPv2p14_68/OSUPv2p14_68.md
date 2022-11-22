@@ -76,9 +76,9 @@ substitutions:
   params:
     vars:
       title: Switched LC Circuit
-    L: '91.0'
-    C: '2.25'
-    V: '12.5'
+    L: '99.0'
+    C: '2.50'
+    V: '13.5'
 ---
 # {{ params.vars.title }}
 Consider the switched $LC$ circuit shown below.

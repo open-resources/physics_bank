@@ -35,27 +35,27 @@ substitutions:
   params:
     vars:
       title: Exploding Asteroid
-      name: Lorenzo
-      name2: Emilia
+      name: Santiago
+      name2: Aliyah
     part1:
       ans1:
-        value: They will both agree on how the kinetic energy of each of the pieces
-          has changed.
-      ans2:
-        value: They will both agree on how the total kinetic energy of the system
-          has changed.
-      ans3:
-        value: The total momentum vectors they use to describe the asteroid system
-          (both pieces) will be the same.
-      ans4:
-        value: The final speeds they measure for the two asteroid pieces will be the
-          same.
-      ans5:
         value: The final velocity vectors they use to describe the two asteroid pieces
           will be the same.
-      ans6:
+      ans2:
+        value: The final speeds they measure for the two asteroid pieces will be the
+          same.
+      ans3:
+        value: They will both agree on how the total kinetic energy of the system
+          has changed.
+      ans4:
+        value: The change in the momentum vector they determine for each piece of
+          the asteroid before and after the explosion will be the same.
+      ans5:
         value: The momentum vectors they use to describe each of the two asteroid
           pieces will be the same.
+      ans6:
+        value: The total momentum vectors they use to describe the asteroid system
+          (both pieces) will be the same.
 ---
 # {{ params.vars.title }}
 

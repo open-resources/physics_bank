@@ -64,10 +64,10 @@ substitutions:
       unit1: $s$
       unit2: $m/s^2$
     c1: 9
-    c2_abs: 6
+    c2_abs: 10
     c2_sign: ' - '
-    c3_abs: 46
-    c3_sign: ' - '
+    c3_abs: 22
+    c3_sign: ' + '
 ---
 # {{ params.vars.title }}
 The position of a particle in $m$ is given by the function $x = ${{ params.c1 }}$t^3$ {{ params.c2_sign }} {{ params.c2_abs }}$t^2$ {{ params.c3_sign }} {{ params.c3_abs }}, where $t$ is in $s$.

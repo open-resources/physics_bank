@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $a$ = $\dfrac{(o)}{(l + 2u)} $
+    expr: $b$ = $\dfrac{(e)}{(j + 3h)} $
     part1:
       ans1:
-        value: l = ${ - 2 u + \frac{o}{a}}$
+        value: j = ${ - 3 h + \frac{e}{b}}$
       ans2:
-        value: l = ${\frac{2 a u}{o}}$
+        value: j = ${\frac{3 b h}{e}}$
       ans3:
-        value: l = ${\frac{o}{2 a u}}$
+        value: j = ${\frac{e}{3 b h}}$
       ans4:
-        value: l = ${\frac{a - 2 u}{o}}$
+        value: j = ${\frac{b - 3 h}{e}}$
       ans5:
         value: Don't Know
 ---

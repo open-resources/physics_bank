@@ -56,9 +56,9 @@ substitutions:
   params:
     vars:
       title: Mean resting respiratory rate
-    Resp_Es: 657
-    Resp_r: 20
-    m_Es: 2.13
+    Resp_Es: 662
+    Resp_r: 22
+    m_Es: 1.85
     power: 3
     part1:
       ans1:
