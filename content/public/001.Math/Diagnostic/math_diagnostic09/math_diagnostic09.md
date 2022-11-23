@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $h$ = $\dfrac{(q)}{(k + 3x)} $
+    expr: $m$ = $\dfrac{(t)}{(q - 6e)} $
     part1:
       ans1:
-        value: k = ${ - 3 x + \frac{q}{h}}$
+        value: q = ${ 6 e + \frac{t}{m}}$
       ans2:
-        value: k = ${\frac{3 h x}{q}}$
+        value: q = ${- \frac{6 e m}{t}}$
       ans3:
-        value: k = ${\frac{q}{3 h x}}$
+        value: q = ${- \frac{t}{6 e m}}$
       ans4:
-        value: k = ${\frac{h - 3 x}{q}}$
+        value: q = ${\frac{6 e + m}{t}}$
       ans5:
         value: Don't Know
 ---

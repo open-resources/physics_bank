@@ -33,8 +33,8 @@ substitutions:
     vars:
       vehicle: van
       title: Racing Markers
-      v1: 56
-      v2: 28.0
+      v1: 70
+      v2: 35.0
     part1:
       ans1:
         value: Marker 1

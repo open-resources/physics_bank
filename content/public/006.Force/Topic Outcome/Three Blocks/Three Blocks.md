@@ -105,16 +105,16 @@ substitutions:
     m_A: 1.8
     m_B: 3.6
     m_C: 7.2
-    F: 26
+    F: 24
     part2:
       ans1:
-        value: $m_C$
+        value: $F_{\text{on A}}$
         feedback: Correct! Nice work
       ans2:
         value: $m_A$
         feedback: Correct! Nice work
       ans3:
-        value: $F_{\text{on A}}$
+        value: $m_C$
         feedback: Correct! Nice work
       ans4:
         value: $m_B$
@@ -133,13 +133,13 @@ substitutions:
         value: $F_{\text{B on C}}$
         feedback: Correct! Nice work
       ans3:
-        value: $m_C$
+        value: $F_{\text{on A}}$
         feedback: Not quite - Try again!
       ans4:
         value: $m_A$
         feedback: Not quite - Try again!
       ans5:
-        value: $F_{\text{on A}}$
+        value: $m_C$
         feedback: Not quite - Try again!
       ans6:
         value: $m_B$

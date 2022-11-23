@@ -36,19 +36,20 @@ substitutions:
   params:
     vars:
       units: rad/s
-      name: Emilia
+      name: Ximena
       title: Wheel of Fortune
-    t: 1.0
-    w_i: ${\pi \over 2} {rad\over s}$
+    t: 1.3
+    w_i: ${\pi \over 3} {rad\over s}$
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} wants to win a game of Wheel-of-Fortune.
-The grand prize is initially located at a position at the top of the wheel and contestants win the prize located at the position to the right when the wheel stops (shown below).
+The grand prize is located at a position at the top of the wheel when each contestant spins the wheel.
+Contestants win the prize located at the position to the right when the wheel stops (shown below).
 {{ params.vars.name }} notes that when another contestant set the wheel spinning at $\omega_i = $ {{ params.w_i }} in the counter-clockwise direction, it takes {{ params.t }} $s$ to stop.
 
 ## Part 1
 
-With which initial velocity in the counter-clockwise direction should {{ params.vars.name }} spin the wheel to win the grand prize? Note that it is not possible to spin the wheel such that it undergoes more than 16 full rotations. Your answer should include at three significant figures.
+With which initial velocity in the counter-clockwise direction should {{ params.vars.name }} spin the wheel to win the grand prize? Note that it is not possible to spin the wheel such that it undergoes more than 16 full rotations. Your answer should include three significant figures.
 
 <img src="wheel_of_fortune.png" alt="Image of a wheel showing the prize to be at the top (0 degrees) and the winning section to be on the right (90 degrees clockwise)." width=300>
 

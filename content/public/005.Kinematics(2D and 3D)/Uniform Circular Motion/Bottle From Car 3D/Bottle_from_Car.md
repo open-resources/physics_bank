@@ -55,9 +55,9 @@ substitutions:
     vars:
       title: Bottle From Car
       units: ft
-    z0: 1409
-    y0: 1054
-    vx0: 134
+    z0: 1737
+    y0: 1300
+    vx0: 147
     vy0: 32
 ---
 # {{ params.vars.title }}

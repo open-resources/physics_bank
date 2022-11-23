@@ -77,11 +77,11 @@ substitutions:
   params:
     vars:
       title: Box Up Ramp
-      name: Mateo
-    f: 187.0
-    k: 0.4
-    s: 0.6
-    ang: 9
+      name: Aliyah
+    f: 182.0
+    k: 0.1
+    s: 0.7
+    ang: 11
     part2:
       ans1:
         value: No, this is not an example of static or dynamic equilibrium.

@@ -74,9 +74,9 @@ substitutions:
   params:
     vars:
       title: Vehicle in Circular Motion
-      vehicle: truck
-    m: 1800.0
-    v: 86.0
+      vehicle: van
+    m: 2100.0
+    v: 74.0
     r: 110.0
     theta: 21.0
     f_s: 0.6

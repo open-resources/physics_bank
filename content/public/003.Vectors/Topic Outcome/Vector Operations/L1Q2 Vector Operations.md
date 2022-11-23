@@ -71,7 +71,7 @@ substitutions:
   params:
     vars:
       title: Vector Operations
-    v1: 3
+    v1: 4
     v2: 5
     angle: 33
 ---

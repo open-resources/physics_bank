@@ -38,8 +38,8 @@ substitutions:
     vars:
       title: Rotating Buckets
       units: kg
-    m1: 2.57
-    c: 3
+    m1: 1.3
+    c: 4
 ---
 # {{ params.vars.title }}
 A pair of buckets are connected by a *massless* rod.
