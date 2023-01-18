@@ -112,6 +112,8 @@ parts:
   - file: content/public/004.Kinematics(1D)/Displacement/Displacement_and_distance_of_particle/displacement_and_distance_of_particle
   - file: content/public/004.Kinematics(1D)/Displacement/Position_From_Graph/Position_From_Graph
   - file: content/public/004.Kinematics(1D)/Displacement/Velocity_versus_time_plot/Velocity_versus_time_plot
+  - file: content/public/004.Kinematics(1D)/Free Fall/Ball launched to a specific
+      height/ball_launched_to_specific_height
   - file: content/public/004.Kinematics(1D)/Free Fall/Free Fall Turning Point/Free
       Fall Turning Point
   - file: content/public/004.Kinematics(1D)/Free Fall/Mount Etna/Mount Etna
@@ -187,6 +189,8 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Radius
       of a Rollercoaster/radius_of_a_rollercoaster
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Running_on_a_track/Running_on_a_track
+  - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Slider
+      on a Rotating Arm/SliderOnARotatingArm
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/circular_motion_graph/circular_motion_graph
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Archery Competition/Archery
       Competition
@@ -198,6 +202,7 @@ parts:
       Basket/Cat in a Laundry Basket
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Distance and
       Time for Cannon Ball/Distance_and_Time_for_Cannon_Ball
+  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Field Goal Kicker/Field_goal_kicker
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Halloween Gourd
       Launcher/Halloween Gourd Launcher
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Hawk and Squirrel/hawk_and_squirrel
@@ -466,6 +471,7 @@ parts:
   - file: content/public/007.Momentum and Impulse/Topic Outcome/momentum_and_net_force/momentum_netforce
 - caption: Energy
   chapters:
+  - file: content/public/008.Energy/Conservation of Energy/BallOnATrack/BallOnATrack
   - file: content/public/008.Energy/Conservation of Energy/Bike on Hill/Bike On Hill
   - file: content/public/008.Energy/Conservation of Energy/Block_in_hole/Block_In_Hole
   - file: content/public/008.Energy/Conservation of Energy/Compressed_Spring_To_Launch_Mass/Compressed_Spring_To_Launch_Mass
@@ -475,6 +481,8 @@ parts:
       spring/Firing a ball using a compressed spring
   - file: content/public/008.Energy/Conservation of Energy/Firing a ball/Firing a
       ball
+  - file: content/public/008.Energy/Conservation of Energy/Frictionless Ski Jump Collision/Frictionless
+      Ski Jump Collision
   - file: content/public/008.Energy/Conservation of Energy/Physics of Roller Coasters/Physics
       of Roller Coasters
   - file: content/public/008.Energy/Conservation of Energy/Potential Energy and Conservative
@@ -530,6 +538,7 @@ parts:
   - file: content/public/010.Rotational Motion/Angular Momentum/Rotating buckets2/Rotating
       buckets2
   - file: content/public/010.Rotational Motion/Angular Momentum/Rotating_Student/rotating_student
+  - file: content/public/010.Rotational Motion/Angular Momentum/merry_go_round/merry_go_round
   - file: content/public/010.Rotational Motion/Center of Mass/Centre of Mass of a
       Baton/Centre of Mass of a Baton
   - file: content/public/010.Rotational Motion/Center of Mass/Stack_Of_Pennies/Stack_Of_Pennies
@@ -579,6 +588,7 @@ parts:
   - file: content/public/011.Rotational Dynamics/Torque/Monkeys/Monkeys
   - file: content/public/011.Rotational Dynamics/Torque/Pentagon_on_the_Edge of_Table/Pentagon_on_the_Edge
       of_Table
+  - file: content/public/011.Rotational Dynamics/Work and Power/Grindstone/Grindstone
 - caption: Gravitation
   chapters:
   - file: content/public/012.Gravitation/Topic Outcome/Asteroid Equal Attraction/Asteroid
@@ -602,6 +612,12 @@ parts:
       4/exponential_damping4
   - file: content/public/015.Oscillations/Damped Oscillations/Exponential Damping/part
       5/exponential_damping5
+  - file: content/public/015.Oscillations/Pendulum/Length of Pendulum/Length_of_Pendulum
+  - file: content/public/015.Oscillations/Pendulum/Pendulum Clock/Pendulum_Clock
+  - file: content/public/015.Oscillations/Pendulum/Pendulum Gravity/Pendulum_Gravity
+  - file: content/public/015.Oscillations/Pendulum/Pendulum Period Dependence on Length/Pendulum_Period_Dependence_on_Length
+  - file: content/public/015.Oscillations/Pendulum/Perfect Pendulum Clock/Perfect_Pendulum_Clock
+  - file: content/public/015.Oscillations/Pendulum/Period of Pendulum/Period_of_Pendulum
   - file: content/public/015.Oscillations/Pendulum/lengths_with_same_period/lengths_with_same_period
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Bouncing a baby to
       sleep/Bouncing a baby to sleep
