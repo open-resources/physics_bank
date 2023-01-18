@@ -43,11 +43,11 @@ part2:
 substitutions:
   params:
     vars:
-      name: Lorenzo
+      name: Abbas
       title: Archery Competition
-    d: 96
-    v: 231
-    h: 174
+    d: 127
+    v: 91
+    h: 194
     theta: 36
 ---
 # {{ params.vars.title }}

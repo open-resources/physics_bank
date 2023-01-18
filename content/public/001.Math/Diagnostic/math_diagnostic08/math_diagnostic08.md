@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{4x - 4y }{ 2 }$
+    expr: $\dfrac{42x - 49y }{ 7 }$
     part1:
       ans1:
-        value: $2 x - 2 y$
+        value: $6 x - 7 y$
       ans2:
-        value: $\dfrac{2x - 2y}{2}$
+        value: $\dfrac{6x - 7y}{7}$
       ans3:
-        value: $-2x + 2y$
+        value: $-7x + 6y$
       ans4:
-        value: $4x - 4y$
+        value: $42x - 49y$
       ans5:
         value: Don't know.
 ---

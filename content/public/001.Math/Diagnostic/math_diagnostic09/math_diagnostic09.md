@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $f$ = $\dfrac{(d)}{(x + 5z)} $
+    expr: $z$ = $\dfrac{(x)}{(i + 5e)} $
     part1:
       ans1:
-        value: x = ${ \frac{d}{f} - 5 z}$
+        value: i = ${ - 5 e + \frac{x}{z}}$
       ans2:
-        value: x = ${\frac{5 f z}{d}}$
+        value: i = ${\frac{5 e z}{x}}$
       ans3:
-        value: x = ${\frac{d}{5 f z}}$
+        value: i = ${\frac{x}{5 e z}}$
       ans4:
-        value: x = ${\frac{f - 5 z}{d}}$
+        value: i = ${\frac{- 5 e + z}{x}}$
       ans5:
         value: Don't Know
 ---

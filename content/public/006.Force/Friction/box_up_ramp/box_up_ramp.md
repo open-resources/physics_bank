@@ -77,10 +77,10 @@ substitutions:
   params:
     vars:
       title: Box Up Ramp
-      name: Ximena
-    f: 188.0
+      name: Mateo
+    f: 182.0
     k: 0.3
-    s: 0.5
+    s: 0.4
     ang: 12
     part2:
       ans1:

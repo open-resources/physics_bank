@@ -34,17 +34,17 @@ substitutions:
       title: Math Diagnostic10
     a: -6
     b: '5'
-    b_sign: ' + '
-    c: -8
+    b_sign: ' - '
+    c: 5
     part1:
       ans1:
-        value: x =  - 2/5
+        value: x =  - 11/5
       ans2:
-        value: x =   2/5
+        value: x =   11/5
       ans3:
-        value: x = -7
+        value: x = 16
       ans4:
-        value: x = -19
+        value: x = 4
       ans5:
         value: This equation cannot be solved
 ---

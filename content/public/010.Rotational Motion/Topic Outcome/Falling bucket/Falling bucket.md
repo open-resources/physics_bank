@@ -40,9 +40,9 @@ substitutions:
     vars:
       title: Falling Bucket
       units: m/s
-    m_b: 21.4
-    m_c: 5.23
-    h: 25.6
+    m_b: 20.3
+    m_c: 3.92
+    h: 43.4
     r: 62.1
 ---
 # {{ params.vars.title }}

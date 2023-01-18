@@ -56,12 +56,12 @@ part5:
 substitutions:
   params:
     vars:
-      name: Emilia
+      name: Savannah
       title: Sled Hill
-    angle: 4
+    angle: 6
     h: 20
     uk: 0.05
-    m: 100
+    m: 80
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is on a sled, sliding down a snow covered hill sloped at {{ params.angle }}$^\circ$ (relative to the horizontal). In travelling a distance $d$ the sled has descended through a vertical distance of $10 \, \rm{m}$.

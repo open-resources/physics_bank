@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $4^{9} $=$ 262144$
+    expr: $6^{1} $=$ 6$
     part1:
       ans1:
-        value: $log_4262144 = 9$
+        value: $log_66 = 1$
       ans2:
-        value: $log_49 = 262144$
+        value: $log_61 = 6$
       ans3:
-        value: $log_2621449 = 4$
+        value: $log_61 = 6$
       ans4:
-        value: $log_9262144 = 4$
+        value: $log_16 = 6$
       ans5:
         value: Don't Know
 ---

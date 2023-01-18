@@ -37,10 +37,10 @@ substitutions:
   params:
     vars:
       title: Coin in a Funnel
-    r1: 1.02
-    vo: 0.36
-    r2: 0.252
-    ad: 42
+    r1: 1.04
+    vo: 0.39
+    r2: 0.287
+    ad: 33
 ---
 # {{ params.vars.title }}
 <img src="Marble in a Funnel.png" width=400>

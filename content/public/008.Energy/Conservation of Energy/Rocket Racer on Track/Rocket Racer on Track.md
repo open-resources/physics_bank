@@ -37,11 +37,11 @@ substitutions:
   params:
     vars:
       title: Rocket Racer on Track
-    m: 18
-    va: 1
-    vb: 24
-    h: 38
-    d: 28
+    m: 20
+    va: 4
+    vb: 17
+    h: 44
+    d: 27
 ---
 # {{ params.vars.title }}
 A rocket racer toy of mass $m = {{ params.m }} kg$ is sent down a track from $A$ to $B$ from a height $h = {{ params.h }} m$ and a horizontal distance $d = {{ params.d }} m$ away from point B as shown in the diagram below.

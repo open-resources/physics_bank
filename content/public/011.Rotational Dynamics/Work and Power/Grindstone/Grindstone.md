@@ -48,11 +48,11 @@ substitutions:
   params:
     vars:
       title: Grindstone
-    M: 9.0
-    R: 14
-    RPM: 1261
-    F: 6.8
-    mu: 0.83
+    M: 9.8
+    R: 8
+    RPM: 1835
+    F: 7.0
+    mu: 0.8
 ---
 # {{ params.vars.title }}
 A uniform cylindrical grindstone has a mass of ${{ params.M }} \rm{kg}$ and a radius of ${{ params.R }} \rm{cm}$.

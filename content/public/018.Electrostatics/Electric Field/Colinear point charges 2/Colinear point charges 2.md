@@ -1,15 +1,15 @@
 ---
-title: Magnetic field of a solenoid
-topic: Magnetism
+title: Colinear point charges 2
+topic: Electrostatics
 author: Jake Bobowksi
-source: 2.12.49
+source: 2.5.25
 template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
 showCorrectAnswer: false
 outcomes:
-- 19.6.1.0
+- 18.6.1.1
 difficulty:
 - undefined
 randomization:
@@ -23,47 +23,41 @@ length:
 tags:
 - OSUP
 - volume 2
-- chapter 12
-- problem 49
-- magnetic field
-- solenoid
-- numeric
+- chapter 5
+- problem 25
+- point charges
+- electric field
+- drop down
 - JB
 assets: null
 part1:
-  type: number-input
+  type: dropdown
   pl-customizations:
-    rtol: 0.05
     weight: 1
-    allow-blank: false
-    show-correct-answer: false
-    label: $B= $
-    suffix: $\rm\ T$
+    blank: true
 substitutions:
   params:
     vars:
-      title: Magnetic field of a solenoid
-    n: '1900'
-    I: '2.20'
+      title: Colinear point charges 2
+    part1:
+      ans1:
+        value: The charges have opposite signs
+      ans2:
+        value: The charges have the same sign.
+      ans3:
+        value: The absolute value of the two charges are the same.
 ---
 # {{ params.vars.title }}
-A solenoid is wound with {{ params.n }} turns per meter.
 
-## Question Text
+## Part 1
 
-When the current is {{ params.I }}$\rm\ A$, what is the magnetic field within the solenoid?
+If the electric field at a point outside of the line between two charges is zero, what do you know about the charges?
 
 ### Answer Section
 
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$B=$ {{ correct_answers.part1_ans_str }} $\rm\ T$
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 
