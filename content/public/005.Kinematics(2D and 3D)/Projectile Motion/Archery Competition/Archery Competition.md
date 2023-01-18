@@ -43,12 +43,12 @@ part2:
 substitutions:
   params:
     vars:
-      name: Mateo
+      name: Lorenzo
       title: Archery Competition
-    d: 149
-    v: 85
-    h: 198
-    theta: 38
+    d: 96
+    v: 231
+    h: 174
+    theta: 36
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is reading a novel that describes an athelete participating in an archery competition.

@@ -52,9 +52,9 @@ substitutions:
   params:
     vars:
       title: Box on a Slant with a Pulley
-    angl: 17
-    coef: 0.3
-    mass: 8
+    angl: 30
+    coef: 0.6
+    mass: 9
 ---
 # {{ params.vars.title }}
 The figure shows a block of mass $m_s$ resting on a $\theta = {{params.angl}}^\circ$ slope.

@@ -60,7 +60,7 @@ substitutions:
     vars:
       title: Vehicle Around a Curve
       vehicle: semi-truck
-    rad: 151
+    rad: 128
     ang: 9
 ---
 # {{ params.vars.title }}

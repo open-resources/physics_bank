@@ -53,7 +53,7 @@ substitutions:
   params:
     vars:
       title: Range of Current Through Resistor
-    R: 91
+    R: 69
     V: 4.7
     p: 6
     Vtotal: 9.4

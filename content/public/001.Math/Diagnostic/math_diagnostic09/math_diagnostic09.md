@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $j$ = $\dfrac{(h)}{(p - 8t)} $
+    expr: $f$ = $\dfrac{(d)}{(x + 5z)} $
     part1:
       ans1:
-        value: p = ${ \frac{h}{j} + 8 t}$
+        value: x = ${ \frac{d}{f} - 5 z}$
       ans2:
-        value: p = ${- \frac{8 j t}{h}}$
+        value: x = ${\frac{5 f z}{d}}$
       ans3:
-        value: p = ${- \frac{h}{8 j t}}$
+        value: x = ${\frac{d}{5 f z}}$
       ans4:
-        value: p = ${\frac{j + 8 t}{h}}$
+        value: x = ${\frac{f - 5 z}{d}}$
       ans5:
         value: Don't Know
 ---

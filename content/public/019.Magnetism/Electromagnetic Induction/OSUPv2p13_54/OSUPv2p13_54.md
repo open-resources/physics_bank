@@ -40,7 +40,7 @@ substitutions:
     R: '3'
     r: '6'
     n: '35'
-    DI: '2'
+    DI: '5'
 ---
 # {{ params.vars.title }}
 

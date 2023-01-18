@@ -67,17 +67,17 @@ part4:
 substitutions:
   params:
     vars:
-      name: Ximena
+      name: Emilia
       title: Toboggan Hill
       units1_2_3: "$\rm{kJ}$"
       units_4: "$\rm{m/s}$"
     m: 35
-    l: 94
-    ang_horiz: 27
-    fr: 77
+    l: 90
+    ang_horiz: 26
+    fr: 73
     fwind: 17
-    ang_wind: 19
-    v_i: 2
+    ang_wind: 23
+    v_i: 1
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} and their sled, with a combined mass of ${{params.m}}$ $\rm{kg}$, slide ${{params.l}}$ $\rm{m}$ down a hill that makes an angle of ${{params.ang_horiz}}^\circ$ with the horizontal.

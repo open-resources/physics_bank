@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{6x - 16y }{ -2 }$
+    expr: $\dfrac{4x - 4y }{ 2 }$
     part1:
       ans1:
-        value: $- 3 x + 8 y$
+        value: $2 x - 2 y$
       ans2:
-        value: $\dfrac{-3x + 8y}{-2}$
+        value: $\dfrac{2x - 2y}{2}$
       ans3:
-        value: $8x - 3y$
+        value: $-2x + 2y$
       ans4:
-        value: $6x + 16y$
+        value: $4x - 4y$
       ans5:
         value: Don't know.
 ---

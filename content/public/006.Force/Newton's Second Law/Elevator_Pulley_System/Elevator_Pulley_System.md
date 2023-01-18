@@ -101,8 +101,8 @@ substitutions:
   params:
     vars:
       title: Elevator Pulley System
-    m_p: 88
-    M_e: 50
+    m_p: 79
+    M_e: 47
     ang: 20
     part1:
       ans1:
@@ -111,15 +111,15 @@ substitutions:
         value: 'No'
     part7:
       ans1:
-        value: $mg$
+        value: $n_{pe}$
       ans2:
         value: $Mg$
       ans3:
-        value: $T$
-      ans4:
-        value: $n_{pe}$
-      ans5:
         value: $n_{ep}$
+      ans4:
+        value: $T$
+      ans5:
+        value: $mg$
     part8:
       ans1:
         value: 'Yes'

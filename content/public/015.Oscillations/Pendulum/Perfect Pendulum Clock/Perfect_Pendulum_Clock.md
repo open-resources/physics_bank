@@ -36,7 +36,7 @@ substitutions:
   params:
     vars:
       title: Perfect Pendulum Clock
-    gain: 24.5
+    gain: 21.0
 ---
 # {{ params.vars.title }}
 

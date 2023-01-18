@@ -89,9 +89,9 @@ substitutions:
   params:
     vars:
       title: Airplane Relative Motion
-    v1: 760.0
-    v2: 170.0
-    theta: 46.0
+    v1: 770.0
+    v2: 150.0
+    theta: 41.0
 ---
 # {{ params.vars.title }}
 An airplane flying at {{params.v1}} $\rm{km/h}$ at {{params.theta}} $^{\circ}$ West of South relative to the air is subjected to a jet stream to the East of {{params.v2}} $\rm{km/h}$ , relative to the ground.

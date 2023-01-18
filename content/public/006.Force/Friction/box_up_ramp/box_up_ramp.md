@@ -77,10 +77,10 @@ substitutions:
   params:
     vars:
       title: Box Up Ramp
-      name: Emilia
-    f: 178.0
-    k: 0.2
-    s: 0.7
+      name: Ximena
+    f: 188.0
+    k: 0.3
+    s: 0.5
     ang: 12
     part2:
       ans1:

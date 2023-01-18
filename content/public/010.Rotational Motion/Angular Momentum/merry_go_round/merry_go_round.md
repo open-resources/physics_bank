@@ -38,7 +38,7 @@ substitutions:
   params:
     vars:
       title: Merry Go Round
-      name: Mateo
+      name: Ximena
     part1:
       ans1:
         value: The merry-go-round's moment of inertia is increasing.

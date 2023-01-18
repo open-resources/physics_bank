@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $4^{8} $=$ 65536$
+    expr: $4^{9} $=$ 262144$
     part1:
       ans1:
-        value: $log_465536 = 8$
+        value: $log_4262144 = 9$
       ans2:
-        value: $log_48 = 65536$
+        value: $log_49 = 262144$
       ans3:
-        value: $log_655368 = 4$
+        value: $log_2621449 = 4$
       ans4:
-        value: $log_865536 = 4$
+        value: $log_9262144 = 4$
       ans5:
         value: Don't Know
 ---

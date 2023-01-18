@@ -43,8 +43,8 @@ substitutions:
   params:
     vars:
       title: Moving Rod
-    r: '1'
-    v: '4'
+    r: '3'
+    v: '5'
     B: '0.50'
     a: '4'
     part2:
