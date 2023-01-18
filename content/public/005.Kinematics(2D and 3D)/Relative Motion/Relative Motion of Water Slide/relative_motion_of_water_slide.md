@@ -62,12 +62,12 @@ substitutions:
   params:
     vars:
       title: Relative Motion of Lazy River
-    d1: 3
-    d2: 4
-    theta1: 31
-    theta2: 59
-    v_AB: 8
-    v_B: 4
+    d1: 9
+    d2: 9
+    theta1: 23
+    theta2: 67
+    v_AB: 11
+    v_B: 2
 ---
 # {{ params.vars.title }}
 <img src="L11Q5.png" width=85%>

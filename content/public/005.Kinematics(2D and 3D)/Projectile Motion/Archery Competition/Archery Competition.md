@@ -3,73 +3,72 @@ title: Archery Competition
 topic: Template
 author: Firas Moosvi
 source: original
-template_version: 1.3
+template_version: 1.4
 attribution: standard
 partialCredit: true
 singleVariant: false
 showCorrectAnswer: false
-outcomes: null
+outcomes:
+- 5.5.1.1
+- 5.5.1.2
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 4
 taxonomy:
 - undefined
 span:
 - undefined
 length:
-- undefined
+- medium
 tags:
-- unknown
+- JR
 assets: null
 part1:
   type: number-input
   pl-customizations:
-    rtol: 0.03
+    rtol: 0.05
     weight: 1
     allow-blank: true
-    label: $v= $
-    suffix: m/s
+    label: $v = $
+    suffix: $\rm{m/s}$
 part2:
   type: number-input
   pl-customizations:
-    rtol: 0.03
+    rtol: 0.05
     weight: 1
     allow-blank: true
-    label: $x= $
-    suffix: m
+    label: $x = $
+    suffix: $\rm{m}$
 substitutions:
   params:
     vars:
-      name: Santiago
+      name: Mateo
       title: Archery Competition
-      units: m/s
-    x: 77
-    arrow_v: 193
-    theta: 13
-    height: 199
+    d: 149
+    v: 85
+    h: 198
+    theta: 38
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is reading a novel that describes an athelete participating in an archery competition.
-The athlete is {{ params.height }}cm tall and hits an amazing shot where they fire an arrow completely horizontally, and it lands {{ params.x }} m away from them.
-
-The arrow is found embedded in the ground, at an angle of {{ params.theta }} degrees to the horizontal.
+The athlete fires an arrow horizontally at a height of ${{ params.h }}$ $\rm{cm}$ above the ground and it lands ${{ params.d }}$ $\rm{m}$ away from them.
 
 ## Part 1
 
-Neglecting air resistance and drag, what is the initial speed the arrow must have been fired at (to land {{ params.x }} m away)?
+Neglecting air resistance, lift, and drag, what is the initial speed the arrow must have been fired at to land ${{ params.d }}$ $\rm{m}$ away?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in $\rm{m/s}$.
 
 ## Part 2
 
-If the arrow was instead fired at a 45 degree angle (instead of being shot horizontally), how far would it have gone if it was launched at a speed of {{ params.arrow_v }} m/s.
+If the arrow was instead fired at an angle ${{ params.theta }}^\circ$ to the horizontal (instead of horizontally), how far would it have gone if it was launched at a speed of ${{ params.v }}$ $\rm{m/s}$.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in $\rm{m}$.
 
 ## Attribution
 

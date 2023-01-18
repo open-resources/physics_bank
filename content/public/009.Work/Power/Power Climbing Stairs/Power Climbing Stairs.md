@@ -45,9 +45,9 @@ substitutions:
   params:
     vars:
       title: Power Climbing Stairs
-    W: 195
-    t: 7
-    h: 12
+    W: 142
+    t: 6
+    h: 10
 ---
 # {{ params.vars.title }}
 A ${{ params.W }}lb$ jogger jogs up a flight of stairs ${{ params.h }}ft$ high in ${{ params.t }}$ seconds.

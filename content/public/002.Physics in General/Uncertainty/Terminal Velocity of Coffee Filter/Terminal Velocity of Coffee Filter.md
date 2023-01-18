@@ -62,15 +62,15 @@ substitutions:
       name: Ximena
       unit1: $m/s$
       unit2: $kg/s$
-    m: 5
-    d_m: 49
-    sd: 0.069
-    v1: 0.76
-    v2: 0.87
-    v3: 0.79
-    v4: 0.7
-    v5: 0.88
-    v6: 0.88
+    m: 3
+    d_m: 58
+    sd: 0.1
+    v1: 0.94
+    v2: 0.99
+    v3: 0.86
+    v4: 0.73
+    v5: 0.72
+    v6: 0.79
 ---
 # {{ params.vars.title }}
 In one of the PHYS 111 labs {{ params.vars.name }} measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling through the air.

@@ -62,6 +62,8 @@ part5:
     weight: 1
 substitutions:
   params:
+    vars:
+      title: Position Graph
     part5:
       ans1:
         value: There is no sign.

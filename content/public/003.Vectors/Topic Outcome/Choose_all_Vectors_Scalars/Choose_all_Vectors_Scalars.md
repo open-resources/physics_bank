@@ -36,15 +36,15 @@ substitutions:
     choice: vectors
     part1:
       ans1:
-        value: Velocity
+        value: Average Acceleration
       ans2:
-        value: Weight
+        value: Displacement
       ans3:
         value: Position
       ans4:
-        value: Power
+        value: Volume
       ans5:
-        value: Length
+        value: Energy
       ans6:
         value: Temperature
 ---

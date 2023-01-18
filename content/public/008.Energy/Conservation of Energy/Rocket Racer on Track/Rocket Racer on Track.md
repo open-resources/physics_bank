@@ -36,18 +36,18 @@ part1:
 substitutions:
   params:
     vars:
-      title: Package on a Hill
-    m: 18
-    va: 5
-    vb: 16
-    h: 46
-    d: 43
+      title: Rocket Racer on Track
+    m: 20
+    va: 2
+    vb: 20
+    h: 45
+    d: 37
 ---
 # {{ params.vars.title }}
-<img src="Rocket Racer on Track.png" width=400>
+A rocket racer toy of mass $m = {{ params.m }} kg$ is sent down a track from $A$ to $B$ from a height $h = {{ params.h }} m$ and a horizontal distance $d = {{ params.d }} m$ away from point B as shown in the diagram below.
+If the toy has a velocity of ${{ params.va }} m/s$ down the incline at point $A$, and a velocity of ${{ params.vb }} m/s$ at point $B$, what is the work done by friction as the toy moves from point A to point B?
 
-A rocket racer toy, $m = {{ params.m }} kg$ is sent down a track from $A$ to $B$ separated by a height $h = {{ params.h }} m$ and a distance $d = {{ params.d }} m$ as shown.
-If the racer has a velocity of ${{ params.va }} m/s$ down the incline at $A$ and a velocity of ${{ params.vb }} m/s$ away from the incline at $B$, what is the work done by friction from A to B?
+<img src="Rocket Racer on Track.png" width=400>
 
 ## Part 1
 

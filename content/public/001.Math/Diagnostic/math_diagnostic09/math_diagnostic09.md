@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $m$ = $\dfrac{(t)}{(q - 6e)} $
+    expr: $j$ = $\dfrac{(h)}{(p - 8t)} $
     part1:
       ans1:
-        value: q = ${ 6 e + \frac{t}{m}}$
+        value: p = ${ \frac{h}{j} + 8 t}$
       ans2:
-        value: q = ${- \frac{6 e m}{t}}$
+        value: p = ${- \frac{8 j t}{h}}$
       ans3:
-        value: q = ${- \frac{t}{6 e m}}$
+        value: p = ${- \frac{h}{8 j t}}$
       ans4:
-        value: q = ${\frac{6 e + m}{t}}$
+        value: p = ${\frac{j + 8 t}{h}}$
       ans5:
         value: Don't Know
 ---

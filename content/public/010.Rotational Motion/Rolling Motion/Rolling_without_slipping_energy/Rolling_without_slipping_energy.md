@@ -36,11 +36,11 @@ substitutions:
       title: Rolling Without Slipping Energy
     part1:
       ans1:
-        value: Rotational kinetic energy
-      ans2:
         value: Gravitational kinetic energy
-      ans3:
+      ans2:
         value: Translational kinetic energy
+      ans3:
+        value: Rotational kinetic energy
 ---
 # {{ params.vars.title }}
 

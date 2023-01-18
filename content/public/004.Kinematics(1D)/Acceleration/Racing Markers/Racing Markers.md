@@ -31,10 +31,10 @@ part1:
 substitutions:
   params:
     vars:
-      vehicle: van
+      vehicle: pickup truck
       title: Racing Markers
-      v1: 70
-      v2: 35.0
+      v1: 13
+      v2: 6.5
     part1:
       ans1:
         value: Marker 1
@@ -63,7 +63,9 @@ The {{ params.vars.vehicle }} reaches a speed of {{ params.vars.v1 }} m/s as it 
 
 ## Part 1
 
-Which marker is the car closest to when the race car is traveling at {{ params.vars.v2 }} m/?
+Where is the {{ params.vars.vehicle }} along the track when it is traveling at {{ params.vars.v2 }} m/?
+
+Select the closest position from the list below...
 
 ### Answer Section
 

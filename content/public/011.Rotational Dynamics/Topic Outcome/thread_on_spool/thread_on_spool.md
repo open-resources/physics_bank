@@ -52,9 +52,11 @@ substitutions:
 
 ## Question Text
 
-A length of massless thread is wound around a spool of mass $M$ and radius $R$.
+A length of massless thread is wound around a solid spool of mass $M$ and radius $R$.
 The end of the thread is attached to a horizontal bar as shown in the figure.
-If the spool of thread is dropped from rest and falls without slipping, its acceleration will be:
+If the solid spool of thread is dropped from rest and falls without slipping, its acceleration will be:
+
+Hint: You will need to look up the moment of inertia for the solid spool of thread. You should assume it is a "solid disk or cylinder about a cylinder axis".
 
 <img src="q6image.png" width=300>
 

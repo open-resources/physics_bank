@@ -35,16 +35,28 @@ substitutions:
   params:
     vars:
       title: Running Dog
-    choice: Not True
+    part1:
+      ans1:
+        value: The dog is speeding up at time $t=7$ $s$
+      ans2:
+        value: The dog is moving at the same speed at time $t=8$ $s$ and $t=10$ $s$
+      ans3:
+        value: The dog has a velocity of $1$ $m/s$ between time $t=6$ $s$ and $t=10$
+          $s$
+      ans4:
+        value: The dog is slowing down at $t=7$ $s$
+      ans5:
+        value: The dog has a negative acceleration at $t=9$ $s$
 ---
 # {{ params.vars.title }}
 Consider the following motion diagram for a dog running down a straight path.
+In the motion diagram, the x-axis is the time in seconds, and the y-axis is position in metres.
 
 <img src="Q1.png" alt = "A displacement time graph showing the dog increasing by 2 meters from t equals 0 seconds to t equals 2 seconds. The dog is not moving from t equals 2 seconds to t equals 6 seconds. The dog decreases 2 meters from t equals 6 seconds to t equals 8 seconds. The dog decreases to negative 2 meters from t equals 8 second to t equals 10 seconds. The dog increases 2 meters from t equals 10 seconds to t equals 12 seconds." width = 100%>
 
 ## Question Text
 
-Which of the following statements is {{ params.choice }} ?
+Which of the following statements are True?
 
 ### Answer Section
 

@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $8^{5} $=$ 32768$
+    expr: $4^{8} $=$ 65536$
     part1:
       ans1:
-        value: $log_832768 = 5$
+        value: $log_465536 = 8$
       ans2:
-        value: $log_85 = 32768$
+        value: $log_48 = 65536$
       ans3:
-        value: $log_327685 = 8$
+        value: $log_655368 = 4$
       ans4:
-        value: $log_532768 = 8$
+        value: $log_865536 = 4$
       ans5:
         value: Don't Know
 ---
