@@ -37,9 +37,9 @@ substitutions:
   params:
     vars:
       title: Coin in a Funnel
-    r1: 1.04
-    vo: 0.39
-    r2: 0.287
+    r1: 1.32
+    vo: 0.42
+    r2: 0.259
     ad: 33
 ---
 # {{ params.vars.title }}

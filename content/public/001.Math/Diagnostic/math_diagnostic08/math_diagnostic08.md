@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{42x - 49y }{ 7 }$
+    expr: $\dfrac{10x - 45y }{ 5 }$
     part1:
       ans1:
-        value: $6 x - 7 y$
+        value: $2 x - 9 y$
       ans2:
-        value: $\dfrac{6x - 7y}{7}$
+        value: $\dfrac{2x - 9y}{5}$
       ans3:
-        value: $-7x + 6y$
+        value: $-9x + 2y$
       ans4:
-        value: $42x - 49y$
+        value: $10x - 45y$
       ans5:
         value: Don't know.
 ---

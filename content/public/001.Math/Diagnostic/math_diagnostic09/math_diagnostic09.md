@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $z$ = $\dfrac{(x)}{(i + 5e)} $
+    expr: $r$ = $\dfrac{(e)}{(b + 7l)} $
     part1:
       ans1:
-        value: i = ${ - 5 e + \frac{x}{z}}$
+        value: b = ${ \frac{e}{r} - 7 l}$
       ans2:
-        value: i = ${\frac{5 e z}{x}}$
+        value: b = ${\frac{7 l r}{e}}$
       ans3:
-        value: i = ${\frac{x}{5 e z}}$
+        value: b = ${\frac{e}{7 l r}}$
       ans4:
-        value: i = ${\frac{- 5 e + z}{x}}$
+        value: b = ${\frac{- 7 l + r}{e}}$
       ans5:
         value: Don't Know
 ---

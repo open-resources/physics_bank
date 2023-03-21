@@ -46,8 +46,8 @@ substitutions:
   params:
     vars:
       title: Resistance Swimmer
-    v: 3
-    h: 18
+    v: 1
+    h: 13
     x: 7
     a: 0.1
 ---

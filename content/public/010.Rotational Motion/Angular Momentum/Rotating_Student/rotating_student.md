@@ -89,13 +89,13 @@ substitutions:
   params:
     vars:
       title: Rotating Student
-    m_t: 97
-    m_a: 12
+    m_t: 68
+    m_a: 9
     m_m: 3
-    r_t: 1.0
-    r_ao: 0.86
-    r_ai: 0.15
-    h_t: 1.9
+    r_t: 1.1
+    r_ao: 0.89
+    r_ai: 0.24
+    h_t: 1.7
     dt: 6.8
 ---
 # {{ params.vars.title }}

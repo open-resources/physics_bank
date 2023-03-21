@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic13
-    expr: $\dfrac{z^5 }{z^8} $
+    expr: $\dfrac{z^7 }{z^8} $
     part1:
       ans1:
-        value: $z^{-3}$
+        value: $z^{-1}$
       ans2:
-        value: $z^{3}$
+        value: $z^{1}$
       ans3:
-        value: -3z
+        value: -1z
       ans4:
-        value: (5/8)z
+        value: (7/8)z
       ans5:
         value: Don't Know
 ---

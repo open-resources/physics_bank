@@ -63,9 +63,9 @@ substitutions:
     vars:
       title: Relative Motion of Lazy River
     d1: 3
-    d2: 2
-    theta1: 39
-    theta2: 51
+    d2: 9
+    theta1: 26
+    theta2: 64
     v_AB: 14
     v_B: 3
 ---

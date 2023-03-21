@@ -36,7 +36,7 @@ substitutions:
   params:
     vars:
       title: Period of Pendulum
-    L: 1.14
+    L: 0.87
 ---
 # {{ params.vars.title }}
 

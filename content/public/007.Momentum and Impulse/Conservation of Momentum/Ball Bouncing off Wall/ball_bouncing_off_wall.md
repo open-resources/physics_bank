@@ -47,10 +47,10 @@ substitutions:
       title: Ball Bouncing off a Wall
       units1: $\frac{kg*m}{s}$
       units2: $N$
-    m: 7
-    v: 11
-    theta: 56
-    t: 0.277
+    m: 4
+    v: 1
+    theta: 38
+    t: 0.875
 ---
 # {{ params.vars.title }}
 A {{params.m}} kg steel bass strikes a massive wall at {{params.v}} m/s at an angle of {{params.theta}} degrees with the plane of the wall.

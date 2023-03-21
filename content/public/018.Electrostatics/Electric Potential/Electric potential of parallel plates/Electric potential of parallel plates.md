@@ -45,8 +45,8 @@ substitutions:
   params:
     vars:
       title: Electric potential of parallel plates
-    f_s: $7.00\times 10^{3}$
-    V: '17.0'
+    f_s: $1.60\times 10^{3}$
+    V: '25.0'
 ---
 # {{ params.vars.title }}
 

@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic14
-    expr: $x^{ -4\over 3}$
+    expr: $x^{ -8\over 4}$
     part1:
       ans1:
-        value: \begin{equation}\frac{1}{\sqrt[3]{x^{4}}}\end{equation}
+        value: \begin{equation}\frac{1}{\sqrt[4]{x^{8}}}\end{equation}
       ans2:
-        value: \begin{equation}\sqrt[3]{x^{4}}\end{equation}
+        value: \begin{equation}\sqrt[4]{x^{8}}\end{equation}
       ans3:
-        value: \begin{equation}x^{\frac{4}{3}}\end{equation}
+        value: \begin{equation}x^{2}\end{equation}
       ans4:
-        value: \begin{equation}- \frac{1}{\sqrt[3]{x^{4}}}\end{equation}
+        value: \begin{equation}- \frac{1}{\sqrt[4]{x^{8}}}\end{equation}
       ans5:
         value: Do not know
 ---
