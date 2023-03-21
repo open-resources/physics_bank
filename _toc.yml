@@ -328,6 +328,8 @@ parts:
   - file: content/public/006.Force/Newton's First Law/Inertial_Reference_Frames/Inertial_Reference_Frames
   - file: content/public/006.Force/Newton's First Law/Particle travelling with constant
       velocity/Particle travelling with constant velocity
+  - file: content/public/006.Force/Newton's Second Law/Artificial Gravity Simulator/q03_number-input_AZ_artificial
+      gravity
   - file: content/public/006.Force/Newton's Second Law/Blocks on a Table/Blocks on
       a Table
   - file: content/public/006.Force/Newton's Second Law/Broken-down Cruise Ship/Broken-down
