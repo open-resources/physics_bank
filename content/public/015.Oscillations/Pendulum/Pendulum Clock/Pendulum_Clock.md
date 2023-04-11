@@ -45,7 +45,7 @@ substitutions:
   params:
     vars:
       title: Pendulum Clock
-    change: 1
+    change: 10
 ---
 # {{ params.vars.title }}
 Suppose the length of a clock's pendulum is changed by {{ params.change }}.000 %, exactly at noon one day. What time will the clock read 24.00 hours later, assuming the pendulum kept perfect time before the change? Note that there are two answers, one before noon and the other after noon. Your answer should be in hours with 0.000 being 12:00 AM.

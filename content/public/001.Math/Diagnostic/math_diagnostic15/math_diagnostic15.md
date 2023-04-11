@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $8^{4} $=$ 4096$
+    expr: $9^{2} $=$ 81$
     part1:
       ans1:
-        value: $log_84096 = 4$
+        value: $log_981 = 2$
       ans2:
-        value: $log_84 = 4096$
+        value: $log_92 = 81$
       ans3:
-        value: $log_40964 = 8$
+        value: $log_812 = 9$
       ans4:
-        value: $log_44096 = 8$
+        value: $log_281 = 9$
       ans5:
         value: Don't Know
 ---

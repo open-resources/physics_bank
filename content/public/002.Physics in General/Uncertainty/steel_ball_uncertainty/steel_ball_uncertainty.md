@@ -48,17 +48,17 @@ substitutions:
     vars:
       title: Uncertainty
       units: s
-    m: 29.36
+    m: 25.24
     m_u: 0.01
-    d: 0.30000000000000004
-    d_u: 0.002
-    t1: 0.0258
-    t2: 0.0258
-    t3: 0.0258
-    t4: 0.0256
-    t5: 0.0255
-    t6: 0.0256
-    t7: 0.0255
+    d: 0.2
+    d_u: 0.001
+    t1: 0.0503
+    t2: 0.0505
+    t3: 0.0503
+    t4: 0.0508
+    t5: 0.0502
+    t6: 0.0502
+    t7: 0.0508
 ---
 # {{ params.vars.title }}
 A steel ball (mball = ({{params.m}} $\pm$ {{ params.m_u }}) g) is shot from a mini-launcher on its medium setting, through horizontal photogates spaced ({{ params.d }} $\pm$ {{ params.d_u }}) m apart.

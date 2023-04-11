@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{10x - 45y }{ 5 }$
+    expr: $\dfrac{63x - 72y }{ -9 }$
     part1:
       ans1:
-        value: $2 x - 9 y$
+        value: $- 7 x + 8 y$
       ans2:
-        value: $\dfrac{2x - 9y}{5}$
+        value: $\dfrac{-7x + 8y}{-9}$
       ans3:
-        value: $-9x + 2y$
+        value: $8x - 7y$
       ans4:
-        value: $10x - 45y$
+        value: $63x + 72y$
       ans5:
         value: Don't know.
 ---

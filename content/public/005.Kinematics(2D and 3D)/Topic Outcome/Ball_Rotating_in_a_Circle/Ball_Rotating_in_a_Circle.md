@@ -33,7 +33,7 @@ substitutions:
   params:
     vars:
       title: A Ball Rotating in a Circle
-    N: 4
+    N: 10
 ---
 # {{ params.vars.title }}
 A ball rotated at constant speed in a circle from a string of length $L$ has a rotation period $T$. The string is shortened to a length $\frac{L}{{{ params.N }}}$ while its rotation period in circular motion remains $T$.

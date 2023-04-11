@@ -36,8 +36,8 @@ substitutions:
   params:
     vars:
       title: Pendulum Gravity
-    Ti: 2.099
-    Tf: 1.9530000000000003
+    Ti: 1.955
+    Tf: 2.063
 ---
 # {{ params.vars.title }}
 

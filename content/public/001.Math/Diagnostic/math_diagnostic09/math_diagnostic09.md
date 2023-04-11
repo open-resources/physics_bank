@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $r$ = $\dfrac{(e)}{(b + 7l)} $
+    expr: $k$ = $\dfrac{(b)}{(e + 8w)} $
     part1:
       ans1:
-        value: b = ${ \frac{e}{r} - 7 l}$
+        value: e = ${ \frac{b}{k} - 8 w}$
       ans2:
-        value: b = ${\frac{7 l r}{e}}$
+        value: e = ${\frac{8 k w}{b}}$
       ans3:
-        value: b = ${\frac{e}{7 l r}}$
+        value: e = ${\frac{b}{8 k w}}$
       ans4:
-        value: b = ${\frac{- 7 l + r}{e}}$
+        value: e = ${\frac{k - 8 w}{b}}$
       ans5:
         value: Don't Know
 ---

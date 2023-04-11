@@ -70,11 +70,11 @@ substitutions:
       units1_2: "$\rm{m/s}$"
       units3: "$\rm{m}$"
       units4: "$\rm{m/s^2}$"
-    m: 0.2
-    deg: 24
+    m: 0.4
+    deg: 23
     h: 0
-    x: 3
-    k: 900
+    x: 4
+    k: 600
     a_a: 0.04
     a_b: 0.08
 ---

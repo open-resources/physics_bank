@@ -1,0 +1,60 @@
+---
+title: Walking on a Spinning Disk
+topic: Work
+author: Patrick Jilek-Rodriguez
+source: original
+template_version: 1.4
+attribution: standard
+partialCredit: false
+singleVariant: false
+outcomes:
+- 5.6.3.0
+- 9.1.1.1
+difficulty:
+- undefined
+randomization:
+- undefined
+taxonomy:
+- undefined
+span:
+- undefined
+length:
+- undefined
+tags:
+- APSC181
+- PJ
+assets:
+- WalkingOnASpinningDisk.png
+part1:
+  type: number-input
+  pl-customizations:
+    rtol: 0.05
+    weight: 1
+    allow-blank: true
+    label: $W= $
+    suffix: $J$
+substitutions:
+  params:
+    vars:
+      title: Walking on a Spinning Disk
+    m: 76
+    r1: 4
+    r2: 1.28
+    theta_dot: 1
+---
+# {{ params.vars.title }}
+A ${{params.m}}kg$ man is walking at a constant speed towards the center of a platform spinning at a constant rate of ${{params.theta_dot}}rad/s$.
+
+<img src="WalkingOnASpinningDisk.png" width=500 alt="A disk with a mass at distance r1 from the center. The mass moves closer to the center, where the radius is r2." >
+
+## Part 1
+
+If his initial distance from the center is $r_1={{params.r1}}m$, and he moves to a new location where $r_2={{params.r2}}m$, how much work did he do?
+
+### Answer Section
+
+Please enter in a numeric value in J.
+
+## Attribution
+
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br> ![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
