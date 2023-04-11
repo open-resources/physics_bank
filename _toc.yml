@@ -451,10 +451,12 @@ parts:
   - file: content/public/007.Momentum and Impulse/Momentum/Dinner_Plate/dinner_plate
   - file: content/public/007.Momentum and Impulse/Momentum/Momentum Vector/momentum_vector
   - file: content/public/007.Momentum and Impulse/Momentum/Momentum_and_Inertia/Momentum_and_Inertia
+  - file: content/public/007.Momentum and Impulse/Momentum/Pulling a Spinning Mass/PullingASpinningMass
   - file: content/public/007.Momentum and Impulse/Momentum/Rock_Powered_Rocket/Rock_Powered_Rocket
   - file: content/public/007.Momentum and Impulse/Momentum/Rotating Spheres/Rotating
       Spheres
   - file: content/public/007.Momentum and Impulse/Momentum/cricket_force_graph/cricket_force_graph
+  - file: content/public/007.Momentum and Impulse/Pulling a Spinning Mass/PullingASpinningMass
   - file: content/public/007.Momentum and Impulse/Topic Outcome/A Coyote and a Rat/A
       Coyote and a Rat
   - file: content/public/007.Momentum and Impulse/Topic Outcome/A disk and a paintball/A
@@ -531,6 +533,7 @@ parts:
   - file: content/public/009.Work/Work/Lowering_bucket_1/lowering_bucket_1
   - file: content/public/009.Work/Work/Lowering_bucket_2/Lowering_bucket_2
   - file: content/public/009.Work/Work/Lowering_bucket_3/Lowering_bucket_3
+  - file: content/public/009.Work/Work/WalkingOnASpinningDisk/WalkingOnASpinningDisk
   - file: content/public/009.Work/Work/Work Done by Constant Force/Work Done by Constant
       Force
   - file: content/public/009.Work/Work/force_and_displacement/force_and_displacement
