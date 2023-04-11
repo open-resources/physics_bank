@@ -64,7 +64,7 @@ substitutions:
     vars:
       title: Projectile of ball launched to a specific height
     v: 56
-    h: 96
+    h: 45
 ---
 # {{ params.vars.title }}
 A ball is launched vertically from the ground with an initial speed of $v = {{ params.v }}$ $\rm{m/s}$.

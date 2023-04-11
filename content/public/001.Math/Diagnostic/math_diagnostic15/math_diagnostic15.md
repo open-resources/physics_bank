@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $9^{2} $=$ 81$
+    expr: $4^{5} $=$ 1024$
     part1:
       ans1:
-        value: $log_981 = 2$
+        value: $log_41024 = 5$
       ans2:
-        value: $log_92 = 81$
+        value: $log_45 = 1024$
       ans3:
-        value: $log_812 = 9$
+        value: $log_10245 = 4$
       ans4:
-        value: $log_281 = 9$
+        value: $log_51024 = 4$
       ans5:
         value: Don't Know
 ---

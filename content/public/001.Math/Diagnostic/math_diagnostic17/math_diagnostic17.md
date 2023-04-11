@@ -31,17 +31,17 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic17
-    a: 3
-    b: 2
+    a: 4
+    b: 7
     part1:
       ans1:
-        value: $e^{2} e^{3 y}$
+        value: $e^{7} e^{4 y}$
       ans2:
-        value: $e^{3 y} + e^{3}$
+        value: $e^{4 y} + e^{4}$
       ans3:
-        value: $3 e^{3} e^{y}$
+        value: $4 e^{4} e^{y}$
       ans4:
-        value: $2 e^{3 y}$
+        value: $7 e^{4 y}$
       ans5:
         value: Don't Know
 ---

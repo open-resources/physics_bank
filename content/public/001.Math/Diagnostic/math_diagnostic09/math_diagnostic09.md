@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $k$ = $\dfrac{(b)}{(e + 8w)} $
+    expr: $t$ = $\dfrac{(d)}{(h + 9p)} $
     part1:
       ans1:
-        value: e = ${ \frac{b}{k} - 8 w}$
+        value: h = ${ \frac{d}{t} - 9 p}$
       ans2:
-        value: e = ${\frac{8 k w}{b}}$
+        value: h = ${\frac{9 p t}{d}}$
       ans3:
-        value: e = ${\frac{b}{8 k w}}$
+        value: h = ${\frac{d}{9 p t}}$
       ans4:
-        value: e = ${\frac{k - 8 w}{b}}$
+        value: h = ${\frac{- 9 p + t}{d}}$
       ans5:
         value: Don't Know
 ---

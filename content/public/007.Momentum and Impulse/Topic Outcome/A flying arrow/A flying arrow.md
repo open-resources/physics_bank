@@ -70,16 +70,16 @@ part5:
 substitutions:
   params:
     vars:
-      name1: Ximena
-      name2: Savannah
+      name1: Maya
+      name2: Emilia
       title: A Flying Arrow
       unit1: $kg\cdot m/s$
       unit2: $J$
       unit3: $m/s$
-    m: 0.16
-    v_x: 109.0
-    x1: 9.88
-    x2: 17.4
+    m: 0.474
+    v_x: -90.7
+    x1: 7.81
+    x2: 20.2
 ---
 # {{ params.vars.title }}
 {{ params.vars.name1 }} and {{ params.vars.name2 }} watch an arrow fly past them.

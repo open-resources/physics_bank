@@ -35,9 +35,9 @@ substitutions:
   params:
     vars:
       title: Pulling a Spinning Mass
-    time: 2.2
-    r1: 0.65
-    r2: 0.32
+    time: 2.09
+    r1: 0.67
+    r2: 0.37
 ---
 # {{ params.vars.title }}
 A mass is swinging around a pole at a radius of ${{params.r1}} \ \rm{m}$.

@@ -37,10 +37,10 @@ substitutions:
   params:
     vars:
       title: Walking on a Spinning Disk
-    m: 76
-    r1: 4
-    r2: 1.28
-    theta_dot: 1
+    m: 57
+    r1: 1
+    r2: 0.2
+    theta_dot: 2
 ---
 # {{ params.vars.title }}
 A ${{params.m}}kg$ man is walking at a constant speed towards the center of a platform spinning at a constant rate of ${{params.theta_dot}}rad/s$.

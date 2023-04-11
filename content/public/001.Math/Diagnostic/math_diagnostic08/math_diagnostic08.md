@@ -33,16 +33,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic08
-    expr: $\dfrac{63x - 72y }{ -9 }$
+    expr: $\dfrac{56x + 49y }{ 7 }$
     part1:
       ans1:
-        value: $- 7 x + 8 y$
+        value: $8 x + 7 y$
       ans2:
-        value: $\dfrac{-7x + 8y}{-9}$
+        value: $\dfrac{8x + 7y}{7}$
       ans3:
-        value: $8x - 7y$
+        value: $7x + 8y$
       ans4:
-        value: $63x + 72y$
+        value: $56x + 49y$
       ans5:
         value: Don't know.
 ---

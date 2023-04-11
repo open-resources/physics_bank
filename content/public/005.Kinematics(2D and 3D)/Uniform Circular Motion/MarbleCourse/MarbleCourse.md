@@ -40,8 +40,8 @@ substitutions:
       units: $in$
     max_acc_A: 0.6
     max_acc_B: 0.9
-    ra: 312
-    rb: 324
+    ra: 374
+    rb: 386
     angle: 68
 ---
 # {{ params.vars.title }}

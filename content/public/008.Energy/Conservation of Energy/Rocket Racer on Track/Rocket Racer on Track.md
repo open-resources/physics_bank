@@ -37,10 +37,10 @@ substitutions:
   params:
     vars:
       title: Rocket Racer on Track
-    m: 11
-    va: 2
-    vb: 21
-    h: 40
+    m: 19
+    va: 5
+    vb: 16
+    h: 48
     d: 31
 ---
 # {{ params.vars.title }}
