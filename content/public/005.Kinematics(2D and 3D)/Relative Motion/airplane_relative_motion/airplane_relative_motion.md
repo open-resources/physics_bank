@@ -85,13 +85,14 @@ part8:
     allow-blank: true
     label: $\theta =  $
     suffix: $^{\circ}$  West of South
-substitutions:
-  params:
-    vars:
-      title: Airplane Relative Motion
-    v1: 770.0
-    v2: 150.0
-    theta: 44.0
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Airplane Relative Motion
+      v1: 820.0
+      v2: 140.0
+      theta: 42.0
 ---
 # {{ params.vars.title }}
 An airplane flying at {{params.v1}} $\rm{km/h}$ at {{params.theta}} $^{\circ}$ West of South relative to the air is subjected to a jet stream to the East of {{params.v2}} $\rm{km/h}$ , relative to the ground.

@@ -38,14 +38,15 @@ part1:
     show-correct-answer: false
     label: $\omega= $
     suffix: $\rm\ {rad/s}$
-substitutions:
-  params:
-    vars:
-      title: Square Coil
-    N: '35'
-    l: '35'
-    B: '0.065'
-    E: '30'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Square Coil
+      N: '30'
+      l: '25'
+      B: '0.065'
+      E: '40'
 ---
 # {{ params.vars.title }}
 

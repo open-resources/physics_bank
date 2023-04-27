@@ -49,13 +49,14 @@ part3:
     allow-blank: true
     label: $N= $
     suffix: $N$
-substitutions:
-  params:
-    vars:
-      title: Spring Potential Energy Rail 2
-    m: 400
-    R: 76.0
-    k: 98
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Spring Potential Energy Rail 2
+      m: 200
+      R: 86.0
+      k: 56
 ---
 # {{ params.vars.title }}
 <img src="Spring Potential Energy Rail 2.png" width=400>

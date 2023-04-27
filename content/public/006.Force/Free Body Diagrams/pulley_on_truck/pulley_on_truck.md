@@ -31,21 +31,22 @@ part1:
   pl-customizations:
     weight: 1
     fixed-order: true
-substitutions:
-  params:
-    vars:
-      title: Moving Pulley System
-    part1:
-      ans1:
-        value: ' '
-      ans2:
-        value: ' '
-      ans3:
-        value: ' '
-      ans4:
-        value: ' '
-      ans5:
-        value: ' '
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Moving Pulley System
+      part1:
+        ans1:
+          value: ' '
+        ans2:
+          value: ' '
+        ans3:
+          value: ' '
+        ans4:
+          value: ' '
+        ans5:
+          value: ' '
 ---
 # {{ params.vars.title }}
 A truck moving at a constant velocity has a mass $m_1$ in its back connected by a massless frictionless pulley to a hanging mass $m_2$ as shown in the image.

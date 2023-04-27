@@ -57,17 +57,18 @@ part4:
     allow-blank: true
     label: $a_{x,1}= $
     suffix: $m/s^2$
-substitutions:
-  params:
-    vars:
-      title: Acceleration of a Particle
-      unit1: $s$
-      unit2: $m/s^2$
-    c1: 10
-    c2_abs: 3
-    c2_sign: ' - '
-    c3_abs: 16
-    c3_sign: ' - '
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Acceleration of a Particle
+        unit1: $s$
+        unit2: $m/s^2$
+      c1: 5
+      c2_abs: 3
+      c2_sign: ' - '
+      c3_abs: 18
+      c3_sign: ' - '
 ---
 # {{ params.vars.title }}
 The position of a particle in $m$ is given by the function $x = ${{ params.c1 }}$t^3$ {{ params.c2_sign }} {{ params.c2_abs }}$t^2$ {{ params.c3_sign }} {{ params.c3_abs }}, where $t$ is in $s$.

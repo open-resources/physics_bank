@@ -28,19 +28,20 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Collision of Two Carts
-    part1:
-      ans1:
-        value: Cart 1
-      ans2:
-        value: Cart 2
-      ans3:
-        value: They have the same inertia
-      ans4:
-        value: More information is needed
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Collision of Two Carts
+      part1:
+        ans1:
+          value: Cart 1
+        ans2:
+          value: Cart 2
+        ans3:
+          value: They have the same inertia
+        ans4:
+          value: More information is needed
 ---
 # {{ params.vars.title }}
 The figure below shows the position versus time plots of two carts that collide.

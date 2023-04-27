@@ -29,21 +29,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Rotating Ball attached to Two Strings
-    part1:
-      ans1:
-        value: Bottom string.
-      ans2:
-        value: Top string.
-      ans3:
-        value: They break at the same time.
-      ans4:
-        value: It depends on whether the rotation is clockwise or counter clockwise
-      ans5:
-        value: Impossible to tell
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Rotating Ball attached to Two Strings
+      part1:
+        ans1:
+          value: Bottom string.
+        ans2:
+          value: Top string.
+        ans3:
+          value: They break at the same time.
+        ans4:
+          value: It depends on whether the rotation is clockwise or counter clockwise
+        ans5:
+          value: Impossible to tell
 ---
 # {{ params.vars.title }}
 A ball is attached to a vertical rod by two strings of equal strength and length. One end of the top string is attached to the very top of the rod, and one end of the bottom string is attached partway down the rod. The other ends of both strings attach to a single ball. The rod begins to rotate clockwise with a rotational speed that continuously increases.

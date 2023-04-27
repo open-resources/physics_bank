@@ -43,22 +43,23 @@ part2:
   pl-customizations:
     weight: 1
     blank: true
-substitutions:
-  params:
-    vars:
-      title: Zero flux
-    part1:
-      ans1:
-        value: 'True'
-      ans2:
-        value: 'False'
-    part2:
-      ans1:
-        value: There is a net positive charge
-      ans2:
-        value: There is a net negative charge
-      ans3:
-        value: The net charge is zero
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Zero flux
+      part1:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
+      part2:
+        ans1:
+          value: There is a net positive charge
+        ans2:
+          value: There is a net negative charge
+        ans3:
+          value: The net charge is zero
 ---
 # {{ params.vars.title }}
 

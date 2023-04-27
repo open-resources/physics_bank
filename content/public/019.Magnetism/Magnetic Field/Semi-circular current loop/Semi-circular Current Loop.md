@@ -44,17 +44,18 @@ part2:
   pl-customizations:
     weight: 1
     blank: true
-substitutions:
-  params:
-    vars:
-      title: Semi-circular Current Loop
-    part2:
-      ans1:
-        value: points out of the screen
-      ans2:
-        value: points into the screen
-      ans3:
-        value: points parallel to the screen
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Semi-circular Current Loop
+      part2:
+        ans1:
+          value: points out of the screen
+        ans2:
+          value: points into the screen
+        ans3:
+          value: points parallel to the screen
 ---
 # {{ params.vars.title }}
 What is the magnetic field at point P due to the current $I$ in the loop of wire shown?

@@ -39,12 +39,13 @@ part1:
     show-correct-answer: false
     label: $U= $
     suffix: $\rm\ J$
-substitutions:
-  params:
-    vars:
-      title: Electric potential energy of a cube
-    q: '4.80'
-    d: '3.60'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Electric potential energy of a cube
+      q: '4.40'
+      d: '4.00'
 ---
 # {{ params.vars.title }}
 

@@ -32,14 +32,15 @@ part1:
     allow-blank: true
     label: $X_{cm} = $
     suffix: $d$
-substitutions:
-  params:
-    vars:
-      title: Stack of Pennies
-    s_1: 3
-    s_2: 4
-    s_3: 5
-    s_4: 6
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Stack of Pennies
+      s_1: 2
+      s_2: 3
+      s_3: 4
+      s_4: 5
 ---
 # {{ params.vars.title }}
 There are four stacks of pennies lined up in a row. The first stack has {{params.s_1}} pennies, the

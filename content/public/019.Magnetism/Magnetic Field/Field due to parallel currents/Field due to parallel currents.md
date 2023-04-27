@@ -49,29 +49,30 @@ part2:
     weight: 1
     blank: true
     sort: fixed
-substitutions:
-  params:
-    vars:
-      title: Field due to parallel currents
-    I1: '10.0'
-    I2: '5.0'
-    r1: '5.0'
-    r2: '15.0'
-    part2:
-      ans1:
-        value: Out of the screen.
-      ans2:
-        value: Into the screen.
-      ans3:
-        value: Towards the top of the screen.
-      ans4:
-        value: Towards the bottom of the screen.
-      ans5:
-        value: To the right.
-      ans6:
-        value: To the left.
-      ans7:
-        value: The magnetic field is zero.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Field due to parallel currents
+      I1: '20.0'
+      I2: '25.0'
+      r1: '12.0'
+      r2: '8.0'
+      part2:
+        ans1:
+          value: Out of the screen.
+        ans2:
+          value: Into the screen.
+        ans3:
+          value: Towards the top of the screen.
+        ans4:
+          value: Towards the bottom of the screen.
+        ans5:
+          value: To the right.
+        ans6:
+          value: To the left.
+        ans7:
+          value: The magnetic field is zero.
 ---
 # {{ params.vars.title }}
 The two long, parallel wires shown in the figure carry currents in the same direction (towards the bottom of the screen).

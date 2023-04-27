@@ -31,14 +31,15 @@ part1:
     allow-blank: true
     label: $T = $
     suffix: s
-substitutions:
-  params:
-    vars:
-      title: Exponential Damping 4
-      units: s
-    m: 1
-    b: 2
-    k: 5
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Exponential Damping 4
+        units: s
+      m: 1
+      b: 2
+      k: 5
 ---
 # {{ params.vars.title }}
 A ${{params.m}}$ kg mass oscillates on a ${{params.k}}$ N/m spring. The damping constant of this spring is $b$ = ${{params.b}}$ kg/s.

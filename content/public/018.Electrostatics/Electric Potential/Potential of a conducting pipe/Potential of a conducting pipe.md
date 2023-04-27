@@ -39,10 +39,11 @@ part2:
     variables: a, r, R0, σ, ε0
     weight: 1
     allow-blank: false
-substitutions:
-  params:
-    vars:
-      title: Potential of a conducting pipe
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Potential of a conducting pipe
 ---
 # {{ params.vars.title }}
 The surface charge density on a long straight hollow metallic pipe is Ï.  Assume the pipe has a diameter of $2a$.

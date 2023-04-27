@@ -39,13 +39,14 @@ part1:
     allow-blank: false
     show-correct-answer: false
     label: $N= $
-substitutions:
-  params:
-    vars:
-      title: Circular coil
-    r: '15.00'
-    I: '0.60'
-    B: $3.40\times 10^{-3}$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Circular coil
+      r: '6.50'
+      I: '0.50'
+      B: $6.00\times 10^{-4}$
 ---
 # {{ params.vars.title }}
 

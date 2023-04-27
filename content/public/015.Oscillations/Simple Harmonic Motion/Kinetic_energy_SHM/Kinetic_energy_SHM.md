@@ -39,32 +39,33 @@ part2:
   pl-customizations:
     weight: 1
     fixed-order: true
-substitutions:
-  params:
-    vars:
-      title: Kinetic energy from velocity in SHM
-      units: $rm\{s}$
-    part2:
-      ans1:
-        value: Figure A
-        feedback: What is the period of oscillation of the velocity?  How long should
-          it be between zeroes of the kinetic energy?  Are the periods of oscillation
-          of the energy and velocity the same?
-      ans2:
-        value: Figure B
-        feedback: What is the period of oscillation of the velocity?  How long should
-          it be between zeroes of the kinetic energy?  Are the periods of oscillation
-          of the energy and velocity the same?
-      ans3:
-        value: Figure C
-        feedback: Great! You got it.
-      ans4:
-        value: Figure D
-        feedback: Can the kinetic energy $K = \frac{1}{2}mv^2$ ever be negative?
-      ans5:
-        value: Figure E
-        feedback: At the time when the velocity is first zero, is the kinetic energy
-          at its maximum or minimum?
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Kinetic energy from velocity in SHM
+        units: $rm\{s}$
+      part2:
+        ans1:
+          value: Figure A
+          feedback: What is the period of oscillation of the velocity?  How long should
+            it be between zeroes of the kinetic energy?  Are the periods of oscillation
+            of the energy and velocity the same?
+        ans2:
+          value: Figure B
+          feedback: What is the period of oscillation of the velocity?  How long should
+            it be between zeroes of the kinetic energy?  Are the periods of oscillation
+            of the energy and velocity the same?
+        ans3:
+          value: Figure C
+          feedback: Great! You got it.
+        ans4:
+          value: Figure D
+          feedback: Can the kinetic energy $K = \frac{1}{2}mv^2$ ever be negative?
+        ans5:
+          value: Figure E
+          feedback: At the time when the velocity is first zero, is the kinetic energy
+            at its maximum or minimum?
 ---
 # {{ params.vars.title }}
 

@@ -29,21 +29,22 @@ part1:
   pl-customizations:
     weight: 1
     fixed-order: true
-substitutions:
-  params:
-    vars:
-      title: Acceleration Around a Turn
-      vehicle: truck
-      dir: clockwise
-    part1:
-      ans1:
-        value: Figure A
-      ans2:
-        value: Figure B
-      ans3:
-        value: Figure C
-      ans4:
-        value: None of the above
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Acceleration Around a Turn
+        vehicle: sedan
+        dir: clockwise
+      part1:
+        ans1:
+          value: Figure A
+        ans2:
+          value: Figure B
+        ans3:
+          value: Figure C
+        ans4:
+          value: None of the above
 ---
 # {{ params.vars.title }}
 As you drive *{{ params.vars.dir }}* around a turn (as viewed from above), you see backed-up traffic ahead and so you slow down.

@@ -28,22 +28,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic13
-    expr: $\dfrac{z^6 }{z^3} $
-    part1:
-      ans1:
-        value: $z^{3}$
-      ans2:
-        value: $z^{-3}$
-      ans3:
-        value: 3z
-      ans4:
-        value: (2)z
-      ans5:
-        value: Don't Know
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic13
+      expr: $\dfrac{z^6 }{z^1} $
+      part1:
+        ans1:
+          value: $z^{5}$
+        ans2:
+          value: $z^{-5}$
+        ans3:
+          value: 5z
+        ans4:
+          value: (6)z
+        ans5:
+          value: Don't Know
 ---
 # {{ params.vars.title }}
 The expression {{params.expr}} can be simplified to:

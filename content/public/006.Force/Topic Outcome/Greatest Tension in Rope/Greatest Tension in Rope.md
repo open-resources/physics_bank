@@ -31,19 +31,20 @@ part1:
     weight: 1
     fixed-order: true
     hide-letter-keys: false
-substitutions:
-  params:
-    vars:
-      title: Greatest Tension in Rope
-    part1:
-      ans1:
-        value: System A
-      ans2:
-        value: System C
-      ans3:
-        value: System B
-      ans4:
-        value: System D
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Greatest Tension in Rope
+      part1:
+        ans1:
+          value: System A
+        ans2:
+          value: System C
+        ans3:
+          value: System B
+        ans4:
+          value: System D
 ---
 # {{ params.vars.title }}
 All the blocks in the figure below are identical and you can ignore any friction in the massless pulleys.

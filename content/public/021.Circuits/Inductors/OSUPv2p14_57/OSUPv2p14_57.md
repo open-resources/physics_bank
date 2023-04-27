@@ -59,12 +59,13 @@ part2:
     suffix: $\rm\ \Omega$
     weight: 1
     custom-format: .3g
-substitutions:
-  params:
-    vars:
-      title: 'Switched RL Series Circuit: Time Constant'
-    t: '1.75'
-    L: '300.0'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: 'Switched RL Series Circuit: Time Constant'
+      t: '2.25'
+      L: '265.0'
 ---
 # {{ params.vars.title }}
 Consider the $RL$ circuit shown below.

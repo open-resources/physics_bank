@@ -37,13 +37,14 @@ part1:
     allow-blank: false
     label: $V= $
     suffix: $\rm\ V$
-substitutions:
-  params:
-    vars:
-      title: Voltage Supplied To An Indicator Light
-      units: V
-    R: 99
-    I: 38
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Voltage Supplied To An Indicator Light
+        units: V
+      R: 257
+      I: 3
 ---
 # {{ params.vars.title }}
 

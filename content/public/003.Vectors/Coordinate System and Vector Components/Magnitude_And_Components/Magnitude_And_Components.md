@@ -29,15 +29,16 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Magnitude And Components
-    part1:
-      ans1:
-        value: 'Yes'
-      ans2:
-        value: 'No'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Magnitude And Components
+      part1:
+        ans1:
+          value: 'Yes'
+        ans2:
+          value: 'No'
 ---
 # {{ params.vars.title }}
 

@@ -29,22 +29,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Compressed Spring To Launch Mass
-    choice: halved
-    part1:
-      ans1:
-        value: 1/4$h$
-      ans2:
-        value: 9$h$
-      ans3:
-        value: 1/16$h$
-      ans4:
-        value: 16$h$
-      ans5:
-        value: 4$h$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Compressed Spring To Launch Mass
+      choice: quartered
+      part1:
+        ans1:
+          value: 1/16$h$
+        ans2:
+          value: 9$h$
+        ans3:
+          value: 1/4$h$
+        ans4:
+          value: 16$h$
+        ans5:
+          value: 4$h$
 ---
 # {{ params.vars.title }}
 A spring is compressed a distance $\Delta$$s$ and is used to launch a mass $m$ vertically to a height $h$ above it's starting position.

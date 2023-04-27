@@ -35,15 +35,16 @@ part1:
     allow-blank: true
     label: $v = $
     suffix: m/s
-substitutions:
-  params:
-    vars:
-      title: Falling Bucket
-      units: m/s
-    m_b: 11.7
-    m_c: 4.71
-    h: 36.1
-    r: 77.7
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Falling Bucket
+        units: m/s
+      m_b: 11.0
+      m_c: 3.31
+      h: 30.9
+      r: 75.9
 ---
 # {{ params.vars.title }}
 A bucket of mass $m_b$ = {{ params.m_b }} $kg$ is knocked off the side of a well.

@@ -59,12 +59,13 @@ part4:
     allow-blank: true
     label: $v_2 = $
     suffix: $\rm{m/s}$
-substitutions:
-  params:
-    vars:
-      title: Projectile of ball launched to a specific height
-    v: 59
-    h: 75
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Projectile of ball launched to a specific height
+      v: 56
+      h: 102
 ---
 # {{ params.vars.title }}
 A ball is launched vertically from the ground with an initial speed of $v = {{ params.v }}$ $\rm{m/s}$.

@@ -41,48 +41,49 @@ part3:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      name: Ximena
-      title: Lowering a bucket - the bucket
-    part1:
-      ans1:
-        value: Open
-      ans2:
-        value: Closed
-      ans3:
-        value: None of the above
-    part2:
-      ans1:
-        value: Kinetic energy - Decreasing
-      ans2:
-        value: Kinetic energy - Increasing
-      ans3:
-        value: Gravitational potential energy - Decreasing
-      ans4:
-        value: Gravitational potential energy - Increasing
-      ans5:
-        value: Thermal energy - Decreasing
-      ans6:
-        value: Thermal energy - Increasing
-      ans7:
-        value: Elastic potential energy - Decreasing
-      ans8:
-        value: Elastic potential energy - Increasing
-      ans9:
-        value: Motion energy - Decreasing
-      ans10:
-        value: Motion energy - Increasing
-    part3:
-      ans1:
-        value: Positive
-      ans2:
-        value: Negative
-      ans3:
-        value: Both positive and negative (by different external forces)
-      ans4:
-        value: No external forces
+myst:
+  substitutions:
+    params:
+      vars:
+        name: Maya
+        title: Lowering a bucket - the bucket
+      part1:
+        ans1:
+          value: Open
+        ans2:
+          value: Closed
+        ans3:
+          value: None of the above
+      part2:
+        ans1:
+          value: Kinetic energy - Decreasing
+        ans2:
+          value: Kinetic energy - Increasing
+        ans3:
+          value: Gravitational potential energy - Decreasing
+        ans4:
+          value: Gravitational potential energy - Increasing
+        ans5:
+          value: Thermal energy - Decreasing
+        ans6:
+          value: Thermal energy - Increasing
+        ans7:
+          value: Elastic potential energy - Decreasing
+        ans8:
+          value: Elastic potential energy - Increasing
+        ans9:
+          value: Motion energy - Decreasing
+        ans10:
+          value: Motion energy - Increasing
+      part3:
+        ans1:
+          value: Positive
+        ans2:
+          value: Negative
+        ans3:
+          value: Both positive and negative (by different external forces)
+        ans4:
+          value: No external forces
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} stands on a cliff, and gently lowers a bucket of water to the ground using a rope. The bucket starts out with an initial downwards velocity, but {{ params.vars.name }} is tightening their grip on the rope as it slides through their hands, so that is slows as it descends, and when the bucket touches the ground it has zero velocity.

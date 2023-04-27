@@ -41,13 +41,14 @@ part2:
     allow-blank: true
     label: $P= $
     suffix: $W$
-substitutions:
-  params:
-    vars:
-      title: Power Climbing Stairs
-    W: 142
-    t: 5
-    h: 13
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Power Climbing Stairs
+      W: 180
+      t: 4
+      h: 12
 ---
 # {{ params.vars.title }}
 A ${{ params.W }}lb$ jogger jogs up a flight of stairs ${{ params.h }}ft$ high in ${{ params.t }}$ seconds.

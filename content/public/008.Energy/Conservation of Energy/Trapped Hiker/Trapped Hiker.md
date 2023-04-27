@@ -33,17 +33,18 @@ part1:
     allow-blank: true
     label: $v= $
     suffix: $m/s$
-substitutions:
-  params:
-    vars:
-      title: Trapped Hiker
-    m: 92
-    F: 1431
-    x1: 3.0
-    d: 20.0
-    h: 6.0
-    k: 22
-    thetad: 10
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Trapped Hiker
+      m: 53
+      F: 1470
+      x1: 7.0
+      d: 18.0
+      h: 5.0
+      k: 42
+      thetad: 10
 ---
 # {{ params.vars.title }}
 <img src="Spring Restraining Cart.png" width=400>

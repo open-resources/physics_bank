@@ -32,11 +32,12 @@ part1:
     label: $\frac{\Delta L}{L_i} = $
     suffix: null
     comparison: relabs
-substitutions:
-  params:
-    vars:
-      title: Perfect Pendulum Clock
-    gain: 21.5
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Perfect Pendulum Clock
+      gain: 16.5
 ---
 # {{ params.vars.title }}
 

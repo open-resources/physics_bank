@@ -35,10 +35,11 @@ part1:
     variables: m, B, q, V
     weight: 1
     allow-blank: false
-substitutions:
-  params:
-    vars:
-      title: Accelerated Particle
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Accelerated Particle
 ---
 # {{ params.vars.title }}
 

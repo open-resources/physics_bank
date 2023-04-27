@@ -34,13 +34,14 @@ part1:
     suffix: $^{\circ}$
     weight: 1
     allow-blank: true
-substitutions:
-  params:
-    vars:
-      title: Dice on the Mirror
-      units: ^{\circ}
-    a: 4
-    theta: 18
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Dice on the Mirror
+        units: ^{\circ}
+      a: 4
+      theta: 5
 ---
 # {{ params.vars.title }}
 

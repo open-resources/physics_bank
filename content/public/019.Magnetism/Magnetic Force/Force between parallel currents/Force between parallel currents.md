@@ -45,18 +45,19 @@ part2:
     weight: 1
     blank: true
     sort: fixed
-substitutions:
-  params:
-    vars:
-      title: Force between parallel currents
-    d: '28.0'
-    I: '72.0'
-    txt: the same direction
-    part2:
-      ans1:
-        value: Attract
-      ans2:
-        value: Repel
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Force between parallel currents
+      d: '24.0'
+      I: '78.0'
+      txt: opposite directions
+      part2:
+        ans1:
+          value: Attract
+        ans2:
+          value: Repel
 ---
 # {{ params.vars.title }}
 Two long, straight wires are parallel and ${{ params.d }}\rm\ cm$ apart.

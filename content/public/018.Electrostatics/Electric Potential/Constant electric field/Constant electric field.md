@@ -35,19 +35,20 @@ part1:
   pl-customizations:
     weight: 1
     blank: true
-substitutions:
-  params:
-    vars:
-      title: Constant electric field
-    part1:
-      ans1:
-        value: increasing
-      ans2:
-        value: decreasing
-      ans3:
-        value: zero
-      ans4:
-        value: non-zero and constant
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Constant electric field
+      part1:
+        ans1:
+          value: increasing
+        ans2:
+          value: decreasing
+        ans3:
+          value: zero
+        ans4:
+          value: non-zero and constant
 ---
 # {{ params.vars.title }}
 

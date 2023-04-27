@@ -32,33 +32,34 @@ part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Rope Tension Between Blocks
-      units: $\rm{ \frac{m}{s^2} }$
-    part1:
-      ans1:
-        value: $T_3$ > $T_2$ > $T_1$
-      ans2:
-        value: $T_3$ > $T_2$ = $T_1$
-      ans3:
-        value: $T_3$ = $T_3$ = $T_1$
-      ans4:
-        value: $T_3$ < $T_2$ < $T_1$
-      ans5:
-        value: $T_3$ < $T_2$ = $T_1$
-    part2:
-      ans1:
-        value: $a = \frac{4}{21} g$
-      ans2:
-        value: $a = \frac{g}{4}$
-      ans3:
-        value: $a = \frac{g}{2}$
-      ans4:
-        value: $a = g$
-      ans5:
-        value: $a = \frac{2}{3} g$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Rope Tension Between Blocks
+        units: $\rm{ \frac{m}{s^2} }$
+      part1:
+        ans1:
+          value: $T_3$ > $T_2$ > $T_1$
+        ans2:
+          value: $T_3$ > $T_2$ = $T_1$
+        ans3:
+          value: $T_3$ = $T_3$ = $T_1$
+        ans4:
+          value: $T_3$ < $T_2$ < $T_1$
+        ans5:
+          value: $T_3$ < $T_2$ = $T_1$
+      part2:
+        ans1:
+          value: $a = \frac{4}{21} g$
+        ans2:
+          value: $a = \frac{g}{4}$
+        ans3:
+          value: $a = \frac{g}{2}$
+        ans4:
+          value: $a = g$
+        ans5:
+          value: $a = \frac{2}{3} g$
 ---
 # {{ params.vars.title }}
 As pictured, two blocks of mass $2m$ are connected by a rope of tension $T_3$ and pulled along a frictionless surface.

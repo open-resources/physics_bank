@@ -27,21 +27,22 @@ part1:
   pl-customizations:
     weight: 1
     fixed-order: true
-substitutions:
-  params:
-    vars:
-      title: Speed Skating
-    part1:
-      ans1:
-        value: A
-      ans2:
-        value: B
-      ans3:
-        value: C
-      ans4:
-        value: D
-      ans5:
-        value: E
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Speed Skating
+      part1:
+        ans1:
+          value: A
+        ans2:
+          value: B
+        ans3:
+          value: C
+        ans4:
+          value: D
+        ans5:
+          value: E
 ---
 # {{ params.vars.title }}
 In short-track speed skating skaters frequently fall.

@@ -30,26 +30,27 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Two Waterslide Paths
-    part1:
-      ans1:
-        value: riders will arrive at the end of their slide with a greater final speed
-          along path (i) than along path (ii).
-      ans2:
-        value: riders will arrive at the same speed at the end of their slide regardless
-          of which track they choose.
-      ans3:
-        value: riders will arrive at the end of their slide with a greater final speed
-          along path (ii) than along path (i).
-      ans4:
-        value: riders will not reach the end of their slide as they will fly off the
-          sides of the track regardless of which track they choose.
-      ans5:
-        value: riders will not reach the end of their slide along path (ii) as they
-          will not be able to get over the hill.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Two Waterslide Paths
+      part1:
+        ans1:
+          value: riders will arrive at the end of their slide with a greater final
+            speed along path (i) than along path (ii).
+        ans2:
+          value: riders will arrive at the same speed at the end of their slide regardless
+            of which track they choose.
+        ans3:
+          value: riders will arrive at the end of their slide with a greater final
+            speed along path (ii) than along path (i).
+        ans4:
+          value: riders will not reach the end of their slide as they will fly off
+            the sides of the track regardless of which track they choose.
+        ans5:
+          value: riders will not reach the end of their slide along path (ii) as they
+            will not be able to get over the hill.
 ---
 # {{ params.vars.title }}
 Two waterslide paths are shown in the figure.

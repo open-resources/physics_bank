@@ -28,29 +28,30 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Oscillations
-    part1:
-      ans1:
-        value: $R > l > L$
-        feedback: Hmm, maybe go back and double-check your algebra.
-      ans2:
-        value: $l > R > L$
-        feedback: Hmm, not quite. Did you try relating the period and $I$?
-      ans3:
-        value: $L > l > R$
-        feedback: Great! You got it.
-      ans4:
-        value: $L = l = R$
-        feedback: Hmm, they all oscillate with the same period, yet the lengths all
-          have a different relation to $I$. How are the period and $I$ related?
-      ans5:
-        value: that we cannot know the relative lengths without knowing the masses
-          of the objects
-        feedback: We have the moment of inertia for each object... maybe that could
-          help.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Oscillations
+      part1:
+        ans1:
+          value: $R > l > L$
+          feedback: Hmm, maybe go back and double-check your algebra.
+        ans2:
+          value: $l > R > L$
+          feedback: Hmm, not quite. Did you try relating the period and $I$?
+        ans3:
+          value: $L > l > R$
+          feedback: Great! You got it.
+        ans4:
+          value: $L = l = R$
+          feedback: Hmm, they all oscillate with the same period, yet the lengths
+            all have a different relation to $I$. How are the period and $I$ related?
+        ans5:
+          value: that we cannot know the relative lengths without knowing the masses
+            of the objects
+          feedback: We have the moment of inertia for each object... maybe that could
+            help.
 ---
 # {{ params.vars.title }}
 A thin rod of length $L$ oscillating about its end ($I = \frac13 mL^2$), a hoop of radius $R$ oscillating about its edge ($I=2mR^2$) and a simple pendulum of length $l$ ($I = ml^2$) are all found to have the same period.

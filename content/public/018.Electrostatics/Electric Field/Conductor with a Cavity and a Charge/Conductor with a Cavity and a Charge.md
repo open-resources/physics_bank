@@ -31,15 +31,16 @@ part1:
     weight: 1
     blank: true
     sort: fixed
-substitutions:
-  params:
-    vars:
-      title: Conductor with a Cavity and a Charge
-    part1:
-      ans1:
-        value: 'Yes'
-      ans2:
-        value: 'No'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Conductor with a Cavity and a Charge
+      part1:
+        ans1:
+          value: 'Yes'
+        ans2:
+          value: 'No'
 ---
 # {{ params.vars.title }}
 

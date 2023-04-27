@@ -34,31 +34,32 @@ part2:
   pl-customizations:
     weight: 1
     hide-letter-keys: true
-substitutions:
-  params:
-    vars:
-      title: Seed Dropped by a Bird
-    v: 6
-    part1:
-      ans1:
-        value: directly overhead.
-      ans2:
-        value: well in front of the seed.
-      ans3:
-        value: well behind the seed.
-    part2:
-      ans1:
-        value: The final speed of the seed is bigger than the bird's speed because
-          despite having the same horizontal velocity component as that of the bird,
-          it also has a large vertical component.
-      ans2:
-        value: The final speed of the seed is smaller than the bird's speed because
-          the bird is no longer pulling it.
-      ans3:
-        value: The final speed of the seed is the same as the bird's speed.
-      ans4:
-        value: The final speed of the seed is smaller than the bird's speed because
-          the bird maintains its horizontal speed.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Seed Dropped by a Bird
+      v: 3
+      part1:
+        ans1:
+          value: directly overhead.
+        ans2:
+          value: well in front of the seed.
+        ans3:
+          value: well behind the seed.
+      part2:
+        ans1:
+          value: The final speed of the seed is bigger than the bird's speed because
+            despite having the same horizontal velocity component as that of the bird,
+            it also has a large vertical component.
+        ans2:
+          value: The final speed of the seed is smaller than the bird's speed because
+            the bird is no longer pulling it.
+        ans3:
+          value: The final speed of the seed is the same as the bird's speed.
+        ans4:
+          value: The final speed of the seed is smaller than the bird's speed because
+            the bird maintains its horizontal speed.
 ---
 # {{ params.vars.title }}
 A bird gliding at a constant {{ params.v }} $m/s$ drops an apple seed from its beak.

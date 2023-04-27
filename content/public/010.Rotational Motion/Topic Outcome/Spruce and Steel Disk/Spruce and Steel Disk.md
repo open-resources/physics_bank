@@ -42,27 +42,28 @@ part3:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Rolling Disk of Spruce and Steel
-      units: $kg$
-    rho_spruce: 496.0
-    rho_steel: 7810.0
-    w_disk: 27.5
-    part3:
-      ans1:
-        value: $x$ = 1 $cm$, $y$ = 0 $cm$
-      ans2:
-        value: $x$ = 0 $cm$, $y$ = 1.0 $cm$
-      ans3:
-        value: $x$ = 0 $cm$, $y$ = 2.0 $cm$
-      ans4:
-        value: $x$ = 0 $cm$, $y$ = 3.0 $cm$
-      ans5:
-        value: $x$ = 0 $cm$, $y$ = 4.0 $cm$
-      ans6:
-        value: $x$ = 0 $cm$, $y$ = 0.0 $cm$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Rolling Disk of Spruce and Steel
+        units: $kg$
+      rho_spruce: 436.0
+      rho_steel: 7810.0
+      w_disk: 17.3
+      part3:
+        ans1:
+          value: $x$ = 1 $cm$, $y$ = 0 $cm$
+        ans2:
+          value: $x$ = 0 $cm$, $y$ = 1.0 $cm$
+        ans3:
+          value: $x$ = 0 $cm$, $y$ = 2.0 $cm$
+        ans4:
+          value: $x$ = 0 $cm$, $y$ = 3.0 $cm$
+        ans5:
+          value: $x$ = 0 $cm$, $y$ = 4.0 $cm$
+        ans6:
+          value: $x$ = 0 $cm$, $y$ = 0.0 $cm$
 ---
 # {{ params.vars.title }}
 A disk that will appear to roll uphill is made from spruce ($\rho\_{\text{spruce}} = $ {{ params.rho_spruce }} $kg/m^3$) and steel ($\rho\_{\text{steel}} = $ {{ params.rho_steel }} $kg/m^3$) by drilling a 3 $cm$ diameter hole, centred 8 $cm$ above the centre of a 30 $cm$ diameter spruce cylinder, as shown in the figure.  Into this hole is inserted a piece of steel of identical dimensions.  The disk has a thickness of {{ params.w_disk }} $cm$.

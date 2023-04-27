@@ -29,24 +29,25 @@ part1:
     weight: 1
     partial-credit: true
     partial-credit-method: EDC
-substitutions:
-  params:
-    vars:
-      title: Choose all Vectors and Scalars
-    choice: scalars
-    part1:
-      ans1:
-        value: Density
-      ans2:
-        value: Mass
-      ans3:
-        value: Average Acceleration
-      ans4:
-        value: Weight
-      ans5:
-        value: Average Velocity
-      ans6:
-        value: Velocity
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Choose all Vectors and Scalars
+      choice: scalars
+      part1:
+        ans1:
+          value: Temperature
+        ans2:
+          value: Pressure
+        ans3:
+          value: Speed
+        ans4:
+          value: Acceleration
+        ans5:
+          value: Weight
+        ans6:
+          value: Momentum
 ---
 # {{ params.vars.title }}
 

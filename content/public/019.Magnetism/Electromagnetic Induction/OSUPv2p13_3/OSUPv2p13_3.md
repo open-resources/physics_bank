@@ -27,26 +27,27 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Copper and Wooden Rings
-    part1:
-      ans1:
-        value: Both rings have the same induced electric fields; the copper ring has
-          a much higher induced emf than the wooden ring.
-      ans2:
-        value: Both rings have the same induced electric fields; the wooden ring has
-          a much higher induced emf than the copper ring.
-      ans3:
-        value: The copper ring has a much higher induced electric field and induced
-          emf than the wooden ring.
-      ans4:
-        value: The wooden ring has a much higher induced electric field and induced
-          emf than the copper ring.
-      ans5:
-        value: The copper ring and wooden ring have the same induced electric fields
-          and induced emf.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Copper and Wooden Rings
+      part1:
+        ans1:
+          value: Both rings have the same induced electric fields; the copper ring
+            has a much higher induced emf than the wooden ring.
+        ans2:
+          value: Both rings have the same induced electric fields; the wooden ring
+            has a much higher induced emf than the copper ring.
+        ans3:
+          value: The copper ring has a much higher induced electric field and induced
+            emf than the wooden ring.
+        ans4:
+          value: The wooden ring has a much higher induced electric field and induced
+            emf than the copper ring.
+        ans5:
+          value: The copper ring and wooden ring have the same induced electric fields
+            and induced emf.
 ---
 # {{ params.vars.title }}
 

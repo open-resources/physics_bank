@@ -28,22 +28,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic09
-    expr: $l$ = $\dfrac{(h)}{(k - 10x)} $
-    part1:
-      ans1:
-        value: k = ${ \frac{h}{l} + 10 x}$
-      ans2:
-        value: k = ${- \frac{10 l x}{h}}$
-      ans3:
-        value: k = ${- \frac{h}{10 l x}}$
-      ans4:
-        value: k = ${\frac{l + 10 x}{h}}$
-      ans5:
-        value: Don't Know
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic09
+      expr: $y$ = $\dfrac{(q)}{(e + 10n)} $
+      part1:
+        ans1:
+          value: e = ${ - 10 n + \frac{q}{y}}$
+        ans2:
+          value: e = ${\frac{10 n y}{q}}$
+        ans3:
+          value: e = ${\frac{q}{10 n y}}$
+        ans4:
+          value: e = ${\frac{- 10 n + y}{q}}$
+        ans5:
+          value: Don't Know
 ---
 # {{ params.vars.title }}
 If {{params.expr}}

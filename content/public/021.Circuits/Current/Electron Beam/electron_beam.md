@@ -33,13 +33,14 @@ part1:
     allow-blank: false
     label: $ \textrm {J=} $
     suffix: $ \rm {A/m^2} $
-substitutions:
-  params:
-    vars:
-      title: 'Electron Beam '
-      units: ' $ A / m^2 $ '
-    I: 173
-    r: 0.83
+myst:
+  substitutions:
+    params:
+      vars:
+        title: 'Electron Beam '
+        units: ' $ A / m^2 $ '
+      I: 191
+      r: 0.32
 ---
 # {{ params.vars.title }}
 

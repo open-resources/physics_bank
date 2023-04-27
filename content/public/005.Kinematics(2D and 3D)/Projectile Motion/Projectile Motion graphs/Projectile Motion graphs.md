@@ -29,23 +29,24 @@ part1:
     fixed-order: true
     partial-credit: true
     partial-credit-method: EDC
-substitutions:
-  params:
-    vars:
-      title: Graphs of Projectile Motion
-    part1:
-      ans1:
-        value: Graph (i)
-      ans2:
-        value: Graph (ii)
-      ans3:
-        value: Graph (iii)
-      ans4:
-        value: Graph (iv)
-      ans5:
-        value: Graph (v)
-      ans6:
-        value: Graph (vi)
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Graphs of Projectile Motion
+      part1:
+        ans1:
+          value: Graph (i)
+        ans2:
+          value: Graph (ii)
+        ans3:
+          value: Graph (iii)
+        ans4:
+          value: Graph (iv)
+        ans5:
+          value: Graph (v)
+        ans6:
+          value: Graph (vi)
 ---
 # {{ params.vars.title }}
 

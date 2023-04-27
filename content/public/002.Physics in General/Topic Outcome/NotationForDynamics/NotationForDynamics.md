@@ -30,19 +30,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Notation For Dynamics
-    part1:
-      ans1:
-        value: Velocity is $v$, $\dot x$; Acceleration is $a$, $\dot v$, $\ddot x$.
-      ans2:
-        value: Velocity is $\dot v$; Acceleration is $\dot a$.
-      ans3:
-        value: Velocity is $\ddot v$, $\dot x$; Acceleration is $\ddot a$, $\dot a$.
-      ans4:
-        value: Velocity is $\ddot x$, $v$; Acceleration is $\dot x$, $\ddot v$, $a$.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Notation For Dynamics
+      part1:
+        ans1:
+          value: Velocity is $v$, $\dot x$; Acceleration is $a$, $\dot v$, $\ddot
+            x$.
+        ans2:
+          value: Velocity is $\dot v$; Acceleration is $\dot a$.
+        ans3:
+          value: Velocity is $\ddot v$, $\dot x$; Acceleration is $\ddot a$, $\dot
+            a$.
+        ans4:
+          value: Velocity is $\ddot x$, $v$; Acceleration is $\dot x$, $\ddot v$,
+            $a$.
 ---
 # {{ params.vars.title }}
 What is the Newtonian Notation for velocity and acceleration?

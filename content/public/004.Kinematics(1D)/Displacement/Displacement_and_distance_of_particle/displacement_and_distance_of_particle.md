@@ -40,12 +40,13 @@ part2:
     allow-blank: true
     label: $d= $
     suffix: cm
-substitutions:
-  params:
-    vars:
-      title: Displacement and Distance of a particle
-      units: cm
-    seconds: 5
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Displacement and Distance of a particle
+        units: cm
+      seconds: 9
 ---
 # {{ params.vars.title }}
 The position of a particle in centimeters is given by $s(t) = 20 - 9t + t^2$, where $t$ is in seconds.

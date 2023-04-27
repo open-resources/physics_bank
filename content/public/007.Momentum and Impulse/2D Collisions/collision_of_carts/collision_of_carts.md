@@ -28,20 +28,21 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Collision of Two Carts
-    part1:
-      ans1:
-        value: It is less than $p$.
-      ans2:
-        value: It is equal to $p$.
-      ans3:
-        value: It is larger than $p$.
-      ans4:
-        value: It is impossible to predict what the momentum of cart B will be after
-          the collision.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Collision of Two Carts
+      part1:
+        ans1:
+          value: It is less than $p$.
+        ans2:
+          value: It is equal to $p$.
+        ans3:
+          value: It is larger than $p$.
+        ans4:
+          value: It is impossible to predict what the momentum of cart B will be after
+            the collision.
 ---
 # {{ params.vars.title }}
 Cart A with momentum of magnitude $p$ collides with cart B and rebounds. Cart B is initially at rest and cart A is going in the negative direction.

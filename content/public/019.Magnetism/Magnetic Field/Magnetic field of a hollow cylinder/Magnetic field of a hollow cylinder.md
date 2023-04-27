@@ -65,16 +65,17 @@ part3:
     suffix: $\rm\ T$
     weight: 1
     custom-format: .3g
-substitutions:
-  params:
-    vars:
-      title: Magnetic field of a hollow cylinder
-    r1: '3.0'
-    r2: '5.0'
-    I: '65.0'
-    ra: '2.0'
-    rb: '4.0'
-    rc: '6.0'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Magnetic field of a hollow cylinder
+      r1: '3.0'
+      r2: '5.0'
+      I: '50.0'
+      ra: '2.0'
+      rb: '4.0'
+      rc: '6.0'
 ---
 # {{ params.vars.title }}
 The figure shows a cross-section of a long, hollow, cylindrical conductor of inner radius $r_1 = {{ params.r1 }}\rm\ cm$ and outer radius $r_2 = {{ params.r2 }}\rm\ cm$.

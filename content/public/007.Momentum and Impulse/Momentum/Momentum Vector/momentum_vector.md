@@ -30,30 +30,32 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Momentum Vector
-    px: -7
-    py: -24
-    part1:
-      ans1:
-        value: $p= 25\; \rm{kg \; m/s}$, $\theta = 106.26^\circ$.
-        feedback: Hmm, it looks like your angle is off. Make sure you're calculating
-          the desired angle.
-      ans2:
-        value: $p= -25\; \rm{kg \; m/s}$, $\theta = 253.74^\circ$.
-        feedback: Hmm, can a magnitude really be negative?
-      ans3:
-        value: $p= 25\; \rm{kg \; m/s}$, $\theta = 73.74^\circ$.
-        feedback: Close, try drawing out the momentum vector to make sure you have
-          the correct angle!
-      ans4:
-        value: $p= -25\; \rm{kg \; m/s}$, $\theta = 73.74^\circ$.
-        feedback: Try drawing out the momentum vector and make sure your answers match!
-      ans5:
-        value: $p= 25\; \rm{kg \; m/s}$, $\theta = 253.74^\circ$.
-        feedback: Great! You got it.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Momentum Vector
+      px: 4
+      py: 3
+      part1:
+        ans1:
+          value: $p= 5\; \rm{kg \; m/s}$, $\theta = 323.13^\circ$.
+          feedback: Hmm, it looks like your angle is off. Make sure you're calculating
+            the desired angle.
+        ans2:
+          value: $p= -5\; \rm{kg \; m/s}$, $\theta = 36.87^\circ$.
+          feedback: Hmm, can a magnitude really be negative?
+        ans3:
+          value: $p= 5\; \rm{kg \; m/s}$, $\theta = 216.87^\circ$.
+          feedback: Close, try drawing out the momentum vector to make sure you have
+            the correct angle!
+        ans4:
+          value: $p= -5\; \rm{kg \; m/s}$, $\theta = 216.87^\circ$.
+          feedback: Try drawing out the momentum vector and make sure your answers
+            match!
+        ans5:
+          value: $p= 5\; \rm{kg \; m/s}$, $\theta = 36.87^\circ$.
+          feedback: Great! You got it.
 ---
 # {{ params.vars.title }}
 A momentum vector expressed in component form is exactly $p_x =$ {{ params.px }} $\rm{kg \; m/s}$ and $p_y =$ {{ params.py }} $\rm{kg \; m/s}$.

@@ -28,26 +28,27 @@ part1:
   pl-customizations:
     weight: 1
     fixed-order: true
-substitutions:
-  params:
-    vars:
-      title: SHO Kinetic Energy Graph
-    part1:
-      ans1:
-        value: Figure A
-        feedback: K should be zero at t = 2s
-      ans2:
-        value: Figure B
-        feedback: K should be zero at t = 2s
-      ans3:
-        value: Figure C
-        feedback: Great! You got it.
-      ans4:
-        value: Figure D
-        feedback: K cannot be negative!
-      ans5:
-        value: Figure E
-        feedback: K should be zero at t = 2s
+myst:
+  substitutions:
+    params:
+      vars:
+        title: SHO Kinetic Energy Graph
+      part1:
+        ans1:
+          value: Figure A
+          feedback: K should be zero at t = 2s
+        ans2:
+          value: Figure B
+          feedback: K should be zero at t = 2s
+        ans3:
+          value: Figure C
+          feedback: Great! You got it.
+        ans4:
+          value: Figure D
+          feedback: K cannot be negative!
+        ans5:
+          value: Figure E
+          feedback: K should be zero at t = 2s
 ---
 # {{ params.vars.title }}
 

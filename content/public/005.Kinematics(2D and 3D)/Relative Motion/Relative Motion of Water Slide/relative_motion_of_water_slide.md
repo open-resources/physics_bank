@@ -58,16 +58,17 @@ part4:
     allow-blank: true
     label: $v_{A}= $
     suffix: $m/s$ ($\hat\jmath$)
-substitutions:
-  params:
-    vars:
-      title: Relative Motion of Lazy River
-    d1: 3
-    d2: 10
-    theta1: 20
-    theta2: 70
-    v_AB: 9
-    v_B: 3
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Relative Motion of Lazy River
+      d1: 6
+      d2: 7
+      theta1: 30
+      theta2: 60
+      v_AB: 9
+      v_B: 5
 ---
 # {{ params.vars.title }}
 <img src="L11Q5.png" width=85%>

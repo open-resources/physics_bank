@@ -49,15 +49,16 @@ part3:
     allow-blank: true
     label: $a= $
     suffix: $m/s^2$
-substitutions:
-  params:
-    vars:
-      title: Position, Velocity and Acceleration
-      units1: $m$
-      units2: $m/s$
-      units3: $\frac{m}{s^2}$
-    t: 2
-    x_i: -7
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Position, Velocity and Acceleration
+        units1: $m$
+        units2: $m/s$
+        units3: $\frac{m}{s^2}$
+      t: 2
+      x_i: -1
 ---
 # {{ params.vars.title }}
 The figure shows the velocity-versus-time graph for a particle moving along the x-axis. Its position at $t$ = 0 s is {{params.x_i}} $m$.

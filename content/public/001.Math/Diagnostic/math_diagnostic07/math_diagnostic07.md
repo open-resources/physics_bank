@@ -28,23 +28,24 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic07
-    formula1: 9x - 9y = 49
-    formula2: 6x + 5y = 50
-    part1:
-      ans1:
-        value: ' x =695/99, y =52/33'
-      ans2:
-        value: ' x =52/33, y =695/99'
-      ans3:
-        value: ' x =-695/99, y =-52/33'
-      ans4:
-        value: ' x =-52/33, y =-695/99'
-      ans5:
-        value: Don't Know
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic07
+      formula1: 10x - 5y = 43
+      formula2: 3x + 8y = 11
+      part1:
+        ans1:
+          value: ' x =21/5, y =-1/5'
+        ans2:
+          value: ' x =-1/5, y =21/5'
+        ans3:
+          value: ' x =-21/5, y =1/5'
+        ans4:
+          value: ' x =1/5, y =-21/5'
+        ans5:
+          value: Don't Know
 ---
 # {{ params.vars.title }}
 The solution of the simultaneous equations {{params.formula1}}, {{params.formula2}} is:

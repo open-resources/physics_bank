@@ -28,21 +28,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Box in a Vehicle
-      vehicle: sedan
-      direction: negative
-    part1:
-      ans1:
-        value: Kinetic friction, positive x-direction
-      ans2:
-        value: Kinetic friction, negative x-direction
-      ans3:
-        value: Static friction, positive x-direction
-      ans4:
-        value: Static friction, negative x-direction
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Box in a Vehicle
+        vehicle: pickup truck
+        direction: positive
+      part1:
+        ans1:
+          value: Kinetic friction, positive x-direction
+        ans2:
+          value: Kinetic friction, negative x-direction
+        ans3:
+          value: Static friction, positive x-direction
+        ans4:
+          value: Static friction, negative x-direction
 ---
 # {{ params.vars.title }}
 A {{params.vars.vehicle}} is at a stop-light, with a box sitting in the back.

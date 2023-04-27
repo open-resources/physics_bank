@@ -33,14 +33,15 @@ part1:
     allow-blank: true
     label: $P= $
     suffix: $W$
-substitutions:
-  params:
-    vars:
-      title: Power of a Horse
-      units: $W$
-    v_kph: 17
-    mass_kg: 197
-    grade: 5
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Power of a Horse
+        units: $W$
+      v_kph: 15
+      mass_kg: 150
+      grade: 6
 ---
 # {{ params.vars.title }}
 <img src="Power of a Biker.png" width=400>

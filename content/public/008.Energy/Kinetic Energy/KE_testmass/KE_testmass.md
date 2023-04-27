@@ -27,28 +27,29 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Kinetic Energy of Test Mass
-      units: J
-    m: 488
-    v: 7.25
-    d_m: 2
-    d_v: 0.08
-    part1:
-      ans1:
-        value: 12.825 $\pm$ 0.194
-      ans2:
-        value: 12.825 $\pm$ 0.336
-      ans3:
-        value: 12.825 $\pm$ 0.054
-      ans4:
-        value: 12.825 $\pm$ 0.004
-      ans5:
-        value: 12.825 $\pm$ 0.026
-      ans6:
-        value: 12.825 $\pm$ 0.053
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Kinetic Energy of Test Mass
+        units: J
+      m: 490
+      v: 5.05
+      d_m: 4
+      d_v: 0.05
+      part1:
+        ans1:
+          value: 6.248 $\pm$ 0.113
+        ans2:
+          value: 6.248 $\pm$ 0.175
+        ans3:
+          value: 6.248 $\pm$ 0.052
+        ans4:
+          value: 6.248 $\pm$ 0.008
+        ans5:
+          value: 6.248 $\pm$ 0.028
+        ans6:
+          value: 6.248 $\pm$ 0.051
 ---
 # {{ params.vars.title }}
 In a lab, a {{ params.m}} $\pm$ {{ params.d_m}} $g$ test-mass is measured to have a speed of {{ params.v}} $\pm$ {{ params.d_v}} $m/s$.

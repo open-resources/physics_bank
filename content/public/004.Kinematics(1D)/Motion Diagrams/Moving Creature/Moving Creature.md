@@ -42,52 +42,53 @@ part3:
   pl-customizations:
     weight: 1
     hide-letter-keys: true
-substitutions:
-  params:
-    vars:
-      title: Moving Creature
-    part1:
-      ans1:
-        value: The creature is speeding up because the distance between points equally
-          spaced in time is increasing.
-      ans2:
-        value: The creature is slowing down because the distance between points equally
-          spaced in time is increasing.
-      ans3:
-        value: The creature is maintaining a constant speed because the distance between
-          points equally spaced in time is increasing at a constant rate.
-      ans4:
-        value: The creature is stationary because the points form a horizontal line.
-    part2:
-      ans1:
-        value: The creature maintains a constant space because the distance between
-          points equally spaced in time is constant.
-      ans2:
-        value: The creature is stationary because the distance between points equally
-          spaced in time is constant.
-      ans3:
-        value: The creature is speeding up because the dots form a line with a positive
-          slope.
-      ans4:
-        value: The creature is slowing down because the dots form a line with a positive
-          slope.
-    part3:
-      ans1:
-        value: This could describe a loon or a duck accelerating across the surface
-          of the water before taking flight at a constant speed, about 30$^{\circ}$
-          above the water.
-      ans2:
-        value: This could describe a loon or a duck flying at a constant speed across
-          the surface of the water before taking flight with an increasing speed,
-          about 30$^{\circ}$ above the water.
-      ans3:
-        value: This could describe a loon or a duck at rest on the surface of the
-          water before taking flight at a constant speed, about 30$^{\circ}$ above
-          the water.
-      ans4:
-        value: This could describe a loon or a duck at rest on the surface of the
-          water before taking flight with an increasing speed, about 30$^{\circ}$
-          above the water.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Moving Creature
+      part1:
+        ans1:
+          value: The creature is speeding up because the distance between points equally
+            spaced in time is increasing.
+        ans2:
+          value: The creature is slowing down because the distance between points
+            equally spaced in time is increasing.
+        ans3:
+          value: The creature is maintaining a constant speed because the distance
+            between points equally spaced in time is increasing at a constant rate.
+        ans4:
+          value: The creature is stationary because the points form a horizontal line.
+      part2:
+        ans1:
+          value: The creature maintains a constant space because the distance between
+            points equally spaced in time is constant.
+        ans2:
+          value: The creature is stationary because the distance between points equally
+            spaced in time is constant.
+        ans3:
+          value: The creature is speeding up because the dots form a line with a positive
+            slope.
+        ans4:
+          value: The creature is slowing down because the dots form a line with a
+            positive slope.
+      part3:
+        ans1:
+          value: This could describe a loon or a duck accelerating across the surface
+            of the water before taking flight at a constant speed, about 30$^{\circ}$
+            above the water.
+        ans2:
+          value: This could describe a loon or a duck flying at a constant speed across
+            the surface of the water before taking flight with an increasing speed,
+            about 30$^{\circ}$ above the water.
+        ans3:
+          value: This could describe a loon or a duck at rest on the surface of the
+            water before taking flight at a constant speed, about 30$^{\circ}$ above
+            the water.
+        ans4:
+          value: This could describe a loon or a duck at rest on the surface of the
+            water before taking flight with an increasing speed, about 30$^{\circ}$
+            above the water.
 ---
 # {{ params.vars.title }}
 A set of dots representing the position of a living creature is shown in the figure. The spots are equally spaced in time.

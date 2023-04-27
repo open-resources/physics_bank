@@ -28,24 +28,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Position XY 2a
-    part1:
-      ans1:
-        value: At $x = 0$, the particle's instantaneous acceleration does not point
-          in the $\hat{\imath}$ nor the $-\hat{\imath}$ direction.
-      ans2:
-        value: At $x = 0$, the particle's instantaneous acceleration does not point
-          in the $\hat{\jmath}$ nor the $-\hat{\jmath}$ direction.
-      ans3:
-        value: At $x = 0$, the particle's instantaneous acceleration is zero.
-      ans4:
-        value: At $x = 0$, the particle's instantaneous acceleration is non-zero.
-      ans5:
-        value: No information about the particle's velocity or acceleration can be
-          found from its trajectory.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Position XY 2a
+      part1:
+        ans1:
+          value: At $x = 0$, the particle's instantaneous acceleration does not point
+            in the $\hat{\imath}$ nor the $-\hat{\imath}$ direction.
+        ans2:
+          value: At $x = 0$, the particle's instantaneous acceleration does not point
+            in the $\hat{\jmath}$ nor the $-\hat{\jmath}$ direction.
+        ans3:
+          value: At $x = 0$, the particle's instantaneous acceleration is zero.
+        ans4:
+          value: At $x = 0$, the particle's instantaneous acceleration is non-zero.
+        ans5:
+          value: No information about the particle's velocity or acceleration can
+            be found from its trajectory.
 ---
 # {{ params.vars.title }}
 

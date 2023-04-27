@@ -41,14 +41,15 @@ part2:
     quill-theme: snow
     directory: clientFilesQuestion
     source-file-name: sample.html
-substitutions:
-  params:
-    vars:
-      title: Bird Flying Speed
-      units: $km/h$
-    m_1: 5
-    v_1: 72
-    m_2: 4
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Bird Flying Speed
+        units: $km/h$
+      m_1: 4
+      v_1: 71
+      m_2: 2
 ---
 # {{ params.vars.title }}
 To predict the flying speed of an eagle, we can use the relationship between the flying speed ($v$) and the mass ($m$) of birds. It has been reported that in steady flight, the flying speed of birds is related to their mass as $v \propto m^{-1/4}$.

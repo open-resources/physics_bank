@@ -28,22 +28,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    t: 1
-    vars:
-      title: Acceleration from Velocity Graph
-    part1:
-      ans1:
-        value: In the $+x$ direction.
-      ans2:
-        value: In the $-x$ direction.
-      ans3:
-        value: In the $+y$ direction.
-      ans4:
-        value: In the $-y$ direction.
-      ans5:
-        value: The acceleration is zero.
+myst:
+  substitutions:
+    params:
+      t: 2
+      vars:
+        title: Acceleration from Velocity Graph
+      part1:
+        ans1:
+          value: In the $+x$ direction.
+        ans2:
+          value: In the $-x$ direction.
+        ans3:
+          value: In the $+y$ direction.
+        ans4:
+          value: In the $-y$ direction.
+        ans5:
+          value: The acceleration is zero.
 ---
 # {{ params.vars.title }}
 The figure shows the velocity of a particle as it travels along the x-axis.

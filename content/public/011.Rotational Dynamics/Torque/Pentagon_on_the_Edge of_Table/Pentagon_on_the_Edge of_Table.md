@@ -31,28 +31,29 @@ part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: A Pentagon on the Edge of Table
-    part1:
-      ans1:
-        value: ' The gravitational torque is non-zero about the corner of the table'
-        feedback: Great! You got it.
-      ans2:
-        value: ' The gravitational torque is zero about the corner of the table'
-        feedback: Does this torque cause rotation?
-    part2:
-      ans1:
-        value: Negative (clockwise)
-        feedback: Great! You got it. The gravitational torque causes clockwise rotation.
-      ans2:
-        value: Positive (counter-clockwise)
-        feedback: The direction of the net torque points down which causes clockwise
-          rotation(negative torque).
-      ans3:
-        value: The gravitational torque is zero about the corner of the table.
-        feedback: Does this torque cause rotation?
+myst:
+  substitutions:
+    params:
+      vars:
+        title: A Pentagon on the Edge of Table
+      part1:
+        ans1:
+          value: ' The gravitational torque is non-zero about the corner of the table'
+          feedback: Great! You got it.
+        ans2:
+          value: ' The gravitational torque is zero about the corner of the table'
+          feedback: Does this torque cause rotation?
+      part2:
+        ans1:
+          value: Negative (clockwise)
+          feedback: Great! You got it. The gravitational torque causes clockwise rotation.
+        ans2:
+          value: Positive (counter-clockwise)
+          feedback: The direction of the net torque points down which causes clockwise
+            rotation(negative torque).
+        ans3:
+          value: The gravitational torque is zero about the corner of the table.
+          feedback: Does this torque cause rotation?
 ---
 # {{ params.vars.title }}
 The diagram in the figure below is showing a pentagon (with its mass uniformly distributed) close to the edge of a table.

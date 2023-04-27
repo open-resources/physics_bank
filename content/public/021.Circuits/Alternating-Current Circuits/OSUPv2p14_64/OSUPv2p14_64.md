@@ -41,12 +41,13 @@ part1:
     comparison: relabs
     rtol: 0.03
     atol: 0
-substitutions:
-  params:
-    vars:
-      title: Frequency and Capacitance of an LC Circuit
-    f: '70.0'
-    C: '14.5'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Frequency and Capacitance of an LC Circuit
+      f: '49.0'
+      C: '12.5'
 ---
 # {{ params.vars.title }}
 

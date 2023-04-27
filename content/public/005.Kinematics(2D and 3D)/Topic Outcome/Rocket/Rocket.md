@@ -55,15 +55,16 @@ part4:
     allow-blank: true
     label: $t= $
     suffix: $s$
-substitutions:
-  params:
-    vars:
-      title: Rocket
-      units1: $m/s^2$
-      units2: $s$
-    v_1: 4
-    t_1: 3
-    t_2: 4
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Rocket
+        units1: $m/s^2$
+        units2: $s$
+      v_1: 2
+      t_1: 3
+      t_2: 5
 ---
 # {{ params.vars.title }}
 A rocket has a velocity (pointing away from the launch pad) given by $v(t)$={{ params.v_1 }}$t$-$t^2$

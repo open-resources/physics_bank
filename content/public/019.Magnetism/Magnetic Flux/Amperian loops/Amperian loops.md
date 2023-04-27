@@ -44,54 +44,55 @@ part4:
   pl-customizations:
     fixed-order: true
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Amperian loops
-    part1:
-      ans1:
-        value: $-2\mu_0 I$
-      ans2:
-        value: $-\mu_0 I$
-      ans3:
-        value: zero
-      ans4:
-        value: $\mu_0 I$
-      ans5:
-        value: $2\mu_0 I$
-    part2:
-      ans1:
-        value: $-2\mu_0 I$
-      ans2:
-        value: $-\mu_0 I$
-      ans3:
-        value: zero
-      ans4:
-        value: $\mu_0 I$
-      ans5:
-        value: $2\mu_0 I$
-    part3:
-      ans1:
-        value: $-2\mu_0 I$
-      ans2:
-        value: $-\mu_0 I$
-      ans3:
-        value: zero
-      ans4:
-        value: $\mu_0 I$
-      ans5:
-        value: $2\mu_0 I$
-    part4:
-      ans1:
-        value: $-2\mu_0 I$
-      ans2:
-        value: $-\mu_0 I$
-      ans3:
-        value: zero
-      ans4:
-        value: $\mu_0 I$
-      ans5:
-        value: $2\mu_0 I$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Amperian loops
+      part1:
+        ans1:
+          value: $-2\mu_0 I$
+        ans2:
+          value: $-\mu_0 I$
+        ans3:
+          value: zero
+        ans4:
+          value: $\mu_0 I$
+        ans5:
+          value: $2\mu_0 I$
+      part2:
+        ans1:
+          value: $-2\mu_0 I$
+        ans2:
+          value: $-\mu_0 I$
+        ans3:
+          value: zero
+        ans4:
+          value: $\mu_0 I$
+        ans5:
+          value: $2\mu_0 I$
+      part3:
+        ans1:
+          value: $-2\mu_0 I$
+        ans2:
+          value: $-\mu_0 I$
+        ans3:
+          value: zero
+        ans4:
+          value: $\mu_0 I$
+        ans5:
+          value: $2\mu_0 I$
+      part4:
+        ans1:
+          value: $-2\mu_0 I$
+        ans2:
+          value: $-\mu_0 I$
+        ans3:
+          value: zero
+        ans4:
+          value: $\mu_0 I$
+        ans5:
+          value: $2\mu_0 I$
 ---
 # {{ params.vars.title }}
 A current $I$ flows around the rectangular loop shown in the figure.

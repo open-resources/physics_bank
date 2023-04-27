@@ -31,11 +31,12 @@ part1:
     label: $x = \pm $
     weight: 1
     allow-blank: false
-substitutions:
-  params:
-    vars:
-      title: Displacement and Potential Energy of an Oscillator
-    choice: half
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Displacement and Potential Energy of an Oscillator
+      choice: half
 ---
 # {{ params.vars.title }}
 

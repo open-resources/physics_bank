@@ -32,10 +32,11 @@ part1:
     variables: g, h, r
     weight: 1
     allow-blank: false
-substitutions:
-  params:
-    vars:
-      title: Swinging a Rock in a Circle
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Swinging a Rock in a Circle
 ---
 # {{ params.vars.title }}
 Stewie watches as a rock tied to a string is swung clockwise in a vertical circle of radius $r$. The

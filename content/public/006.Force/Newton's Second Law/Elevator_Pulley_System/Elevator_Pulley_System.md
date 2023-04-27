@@ -97,34 +97,35 @@ part10:
     show-correct-answer: false
     label: $n_{\text{pe}} = $
     suffix: $\rm{N}$
-substitutions:
-  params:
-    vars:
-      title: Elevator Pulley System
-    m_p: 93
-    M_e: 32
-    ang: 20
-    part1:
-      ans1:
-        value: 'Yes'
-      ans2:
-        value: 'No'
-    part7:
-      ans1:
-        value: $n_{ep}$
-      ans2:
-        value: $n_{pe}$
-      ans3:
-        value: $mg$
-      ans4:
-        value: $Mg$
-      ans5:
-        value: $T$
-    part8:
-      ans1:
-        value: 'Yes'
-      ans2:
-        value: 'No'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Elevator Pulley System
+      m_p: 81
+      M_e: 35
+      ang: 20
+      part1:
+        ans1:
+          value: 'Yes'
+        ans2:
+          value: 'No'
+      part7:
+        ans1:
+          value: $mg$
+        ans2:
+          value: $T$
+        ans3:
+          value: $n_{ep}$
+        ans4:
+          value: $n_{pe}$
+        ans5:
+          value: $Mg$
+      part8:
+        ans1:
+          value: 'Yes'
+        ans2:
+          value: 'No'
 ---
 # {{ params.vars.title }}
 A $m = {{ params.m_p }} \rm{kg}$ person in a $M = {{ params.M_e }} \rm{kg}$ elevator lifts themselves at constant velocity by pulling on the rope shown in the figure below. The rope passes over a pulley attached to the top of the elevator shaft, back over a pulley attached to the top of the elevator, over a second pulley attached to the top of the elevator shaft, and attaches to the top of the elevator. Treat the rope as if it is massless and the pulleys as if they are frictionless and massless. At the instant shown in the figure below, the rope passing over the elevator's pulley makes a $\theta = {{ params.ang }}^\circ$ angle with the vertical.

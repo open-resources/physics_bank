@@ -40,14 +40,15 @@ part1:
     label: $I= $
     suffix: $\rm\ A$
     custom-format: .3g
-substitutions:
-  params:
-    vars:
-      title: Current Through Loop
-    N: 39
-    t: 16
-    s: 12
-    B: 0.15
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Current Through Loop
+      N: 76
+      t: 16
+      s: 6
+      B: 0.36
 ---
 # {{ params.vars.title }}
 

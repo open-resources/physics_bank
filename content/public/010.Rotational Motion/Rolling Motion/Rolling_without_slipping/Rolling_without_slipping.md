@@ -27,25 +27,26 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Rolling without slipping
-      name: Savannah
-    part1:
-      ans1:
-        value: The hoop, because it has less rotational intera, less of its total
-          energy will be taken up by the rotation kinetic energy and more will remain
-          for the translational kinetic energy (so it travels faster
-      ans2:
-        value: The sphere, because it has less rotational inertia, less of its total
-          energy will be taken up by the rotation kinetic energy and more will remain
-          for the translational kinetic energy (so it travels faster
-      ans3:
-        value: They both reach the bottom at the same time, because gravity causes
-          all things to have the same acceleration regardless of their mass.
-      ans4:
-        value: There is not enough information to answer this question.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Rolling without slipping
+        name: Santiago
+      part1:
+        ans1:
+          value: The hoop, because it has less rotational intera, less of its total
+            energy will be taken up by the rotation kinetic energy and more will remain
+            for the translational kinetic energy (so it travels faster
+        ans2:
+          value: The sphere, because it has less rotational inertia, less of its total
+            energy will be taken up by the rotation kinetic energy and more will remain
+            for the translational kinetic energy (so it travels faster
+        ans3:
+          value: They both reach the bottom at the same time, because gravity causes
+            all things to have the same acceleration regardless of their mass.
+        ans4:
+          value: There is not enough information to answer this question.
 ---
 # {{ params.vars.title }}
 Suppose {{ params.vars.name }} has a sphere (made of solid wood), and a hoop made of heavy metal; and both have the SAME MASS, and both have the SAME RADIUS.

@@ -58,14 +58,15 @@ part3:
     show-help-text: true
     suffix: $\rm\ s$
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Proton Accelerator
-    r: 0.63
-    I: 10
-    n: 2.46
-    p: 17
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Proton Accelerator
+      r: 0.57
+      I: 27
+      n: 6.75
+      p: 33
 ---
 # {{ params.vars.title }}
 A high-energy proton accelerator produces a proton beam with a radius of {{params.r}} $\textrm{mm}$.

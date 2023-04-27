@@ -32,17 +32,18 @@ part1:
   pl-customizations:
     weight: 1
     blank: true
-substitutions:
-  params:
-    vars:
-      title: A cube and a sphere
-    part1:
-      ans1:
-        value: The sphere has greater electric flux passing through it.
-      ans2:
-        value: The cube has greater electric flux passing through it.
-      ans3:
-        value: The same electric flux passes through each surface.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: A cube and a sphere
+      part1:
+        ans1:
+          value: The sphere has greater electric flux passing through it.
+        ans2:
+          value: The cube has greater electric flux passing through it.
+        ans3:
+          value: The same electric flux passes through each surface.
 ---
 # {{ params.vars.title }}
 

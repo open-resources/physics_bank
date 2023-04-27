@@ -33,14 +33,15 @@ part1:
     allow-blank: true
     label: $v_B= $
     suffix: $m/s$
-substitutions:
-  params:
-    vars:
-      title: T-bone Collision
-    ma: 1056
-    mb: 1671
-    vak: 70
-    thetad: 26
+myst:
+  substitutions:
+    params:
+      vars:
+        title: T-bone Collision
+      ma: 1577
+      mb: 1457
+      vak: 67
+      thetad: 42
 ---
 # {{ params.vars.title }}
 <img src="T-bone Collision.png" width=400>

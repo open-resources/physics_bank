@@ -32,23 +32,24 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Ratio of Diameter of Wires
-    part1:
-      ans1:
-        value: $\sqrt{\rho_\mathrm{Cu} / \rho_\mathrm{Al}}$
-      ans2:
-        value: $\sqrt{\rho_\mathrm{Al} / \rho_\mathrm{Cu}}$
-      ans3:
-        value: $\rho_\mathrm{Cu} / \rho_\mathrm{Al}$
-      ans4:
-        value: $\rho_\mathrm{Al} / \rho_\mathrm{Cu}$
-      ans5:
-        value: $\rho_\mathrm{Cu} * \rho_\mathrm{Al}$
-      ans6:
-        value: $(\rho_\mathrm{Cu} / \rho_\mathrm{Al})^2$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Ratio of Diameter of Wires
+      part1:
+        ans1:
+          value: $\sqrt{\rho_\mathrm{Cu} / \rho_\mathrm{Al}}$
+        ans2:
+          value: $\sqrt{\rho_\mathrm{Al} / \rho_\mathrm{Cu}}$
+        ans3:
+          value: $\rho_\mathrm{Cu} / \rho_\mathrm{Al}$
+        ans4:
+          value: $\rho_\mathrm{Al} / \rho_\mathrm{Cu}$
+        ans5:
+          value: $\rho_\mathrm{Cu} * \rho_\mathrm{Al}$
+        ans6:
+          value: $(\rho_\mathrm{Cu} / \rho_\mathrm{Al})^2$
 ---
 # {{ params.vars.title }}
 

@@ -49,65 +49,66 @@ part5:
   pl-customizations:
     weight: 1
     blank: 'true'
-substitutions:
-  params:
-    vars:
-      title: Label Velocity Vs Time Graph
-    part1:
-      ans1:
-        value: A
-      ans2:
-        value: B
-      ans3:
-        value: C
-      ans4:
-        value: D
-      ans5:
-        value: E
-    part2:
-      ans1:
-        value: A
-      ans2:
-        value: B
-      ans3:
-        value: C
-      ans4:
-        value: D
-      ans5:
-        value: E
-    part3:
-      ans1:
-        value: A
-      ans2:
-        value: B
-      ans3:
-        value: C
-      ans4:
-        value: D
-      ans5:
-        value: E
-    part4:
-      ans1:
-        value: A
-      ans2:
-        value: B
-      ans3:
-        value: C
-      ans4:
-        value: D
-      ans5:
-        value: E
-    part5:
-      ans1:
-        value: A
-      ans2:
-        value: B
-      ans3:
-        value: C
-      ans4:
-        value: D
-      ans5:
-        value: E
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Label Velocity Vs Time Graph
+      part1:
+        ans1:
+          value: A
+        ans2:
+          value: B
+        ans3:
+          value: C
+        ans4:
+          value: D
+        ans5:
+          value: E
+      part2:
+        ans1:
+          value: A
+        ans2:
+          value: B
+        ans3:
+          value: C
+        ans4:
+          value: D
+        ans5:
+          value: E
+      part3:
+        ans1:
+          value: A
+        ans2:
+          value: B
+        ans3:
+          value: C
+        ans4:
+          value: D
+        ans5:
+          value: E
+      part4:
+        ans1:
+          value: A
+        ans2:
+          value: B
+        ans3:
+          value: C
+        ans4:
+          value: D
+        ans5:
+          value: E
+      part5:
+        ans1:
+          value: A
+        ans2:
+          value: B
+        ans3:
+          value: C
+        ans4:
+          value: D
+        ans5:
+          value: E
 ---
 # {{ params.vars.title }}
 The following is a figure of velocity vs. time. Each of the following 5 statements below describe the motion shown in the figure labeled A through E. Label each statement with the letter of the corresponding line on the velocity vs. time graph.

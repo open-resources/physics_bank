@@ -48,11 +48,12 @@ part2:
     label: $r= $
     suffix: $\rm\ {m}$
     custom-format: .2g
-substitutions:
-  params:
-    vars:
-      title: Protons in a Cyclotron
-    B: 1.5
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Protons in a Cyclotron
+      B: 2.0
 ---
 # {{ params.vars.title }}
 A physicist is designing a cyclotron to accelerate protons to one-tenth the speed of light.

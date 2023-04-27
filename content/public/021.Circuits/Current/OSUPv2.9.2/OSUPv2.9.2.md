@@ -25,21 +25,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Car Battery
-    part1:
-      ans1:
-        value: Voltage
-      ans2:
-        value: Charge
-      ans3:
-        value: Current
-      ans4:
-        value: Energy
-      ans5:
-        value: Power
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Car Battery
+      part1:
+        ans1:
+          value: Voltage
+        ans2:
+          value: Charge
+        ans3:
+          value: Current
+        ans4:
+          value: Energy
+        ans5:
+          value: Power
 ---
 # {{ params.vars.title }}
 

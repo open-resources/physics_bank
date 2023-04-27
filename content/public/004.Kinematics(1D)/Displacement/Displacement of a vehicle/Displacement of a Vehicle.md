@@ -31,18 +31,19 @@ part1:
     allow-blank: true
     label: $\Delta r = $
     suffix: blocks
-substitutions:
-  params:
-    vars:
-      vehicle: pickup truck
-      title: Displacement of a Vehicle
-      units: blocks
-    c1: 42
-    c2: 82
-    c3: 99
-    dir1: east
-    dir2: west
-    dir3: east
+myst:
+  substitutions:
+    params:
+      vars:
+        vehicle: pickup truck
+        title: Displacement of a Vehicle
+        units: blocks
+      c1: 40
+      c2: 19
+      c3: 24
+      dir1: east
+      dir2: south
+      dir3: west
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }} moves {{ params.c1}} blocks due {{ params.dir1}}, {{ params.c2 }} blocks due {{ params.dir2}}, and another {{ params.c3 }} blocks due {{ params.dir3}}.

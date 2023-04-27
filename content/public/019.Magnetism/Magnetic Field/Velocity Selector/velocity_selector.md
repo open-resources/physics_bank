@@ -37,12 +37,13 @@ part1:
     label: $v= $
     suffix: $\rm\ {m/s}$
     custom-format: .2g
-substitutions:
-  params:
-    vars:
-      title: Velocity Selector
-    B: 0.989
-    E: 0.481
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Velocity Selector
+      B: 1.26
+      E: 0.936
 ---
 # {{ params.vars.title }}
 

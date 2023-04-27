@@ -123,16 +123,17 @@ part7:
     suffix: $\rm\ W$
     weight: 1
     custom-format: .3g
-substitutions:
-  params:
-    vars:
-      title: Power and Currents in a Three-Loop Circuit
-    R1: '6.00'
-    R2: '5.00'
-    R3: '6.00'
-    R4: '8.00'
-    V1: '15.0'
-    V2: '15.00'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Power and Currents in a Three-Loop Circuit
+      R1: '4.00'
+      R2: '4.00'
+      R3: '3.00'
+      R4: '2.00'
+      V1: '18.0'
+      V2: '13.00'
 ---
 # {{ params.vars.title }}
 Consider the circuit shown below.

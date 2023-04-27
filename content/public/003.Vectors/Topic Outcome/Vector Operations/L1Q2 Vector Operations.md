@@ -67,13 +67,14 @@ part6:
     weight: 1
     allow-blank: true
     label: $\vec{V_1} \bullet \vec{V_2}$
-substitutions:
-  params:
-    vars:
-      title: Vector Operations
-    v1: 2
-    v2: 8
-    angle: 49
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Vector Operations
+      v1: 2
+      v2: 8
+      angle: 51
 ---
 # {{ params.vars.title }}
 <img src="L1Q2_drawing.png" width=400>

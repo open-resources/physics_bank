@@ -33,14 +33,15 @@ part1:
     allow-blank: true
     label: $\theta= $
     suffix: $^{\circ}$
-substitutions:
-  params:
-    vars:
-      title: Coin in a Funnel
-    r1: 1.1
-    vo: 0.38
-    r2: 0.265
-    ad: 33
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Coin in a Funnel
+      r1: 1.49
+      vo: 0.44
+      r2: 0.172
+      ad: 40
 ---
 # {{ params.vars.title }}
 <img src="Marble in a Funnel.png" width=400>

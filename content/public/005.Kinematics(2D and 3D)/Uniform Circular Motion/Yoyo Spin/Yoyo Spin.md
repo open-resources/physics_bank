@@ -41,13 +41,14 @@ part2:
     allow-blank: true
     label: $v_{B}= $
     suffix: $m/s$
-substitutions:
-  params:
-    vars:
-      title: Yoyo Spin
-      units: $m/s$
-    r1: 23
-    r2: 27
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Yoyo Spin
+        units: $m/s$
+      r1: 36
+      r2: 47
 ---
 # {{ params.vars.title }}
 A performer spins two yoyos at full length in a loop as part of a trick.

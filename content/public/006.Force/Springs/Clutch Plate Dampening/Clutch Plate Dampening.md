@@ -50,16 +50,17 @@ part3:
     allow-blank: true
     label: $N= $
     suffix: $N$
-substitutions:
-  params:
-    vars:
-      title: Clutch Plate Dampening System
-    w: 182
-    d: 65
-    k: 237
-    m: 0.2
-    x: 12
-    d2: 1.63
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Clutch Plate Dampening System
+      w: 175
+      d: 99
+      k: 278
+      m: 0.2
+      x: 23
+      d2: 1.99
 ---
 # {{ params.vars.title }}
 <img src="Springs On a Disk.gif" width=800>

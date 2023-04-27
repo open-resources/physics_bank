@@ -46,25 +46,26 @@ part3:
   pl-customizations:
     weight: 1
     fixed-order: true
-substitutions:
-  params:
-    vars:
-      title: Possible Forces on a Charge
-    part1:
-      ans1:
-        value: 'Yes'
-      ans2:
-        value: 'No'
-    part2:
-      ans1:
-        value: 'Yes'
-      ans2:
-        value: 'No'
-    part3:
-      ans1:
-        value: 'Yes'
-      ans2:
-        value: 'No'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Possible Forces on a Charge
+      part1:
+        ans1:
+          value: 'Yes'
+        ans2:
+          value: 'No'
+      part2:
+        ans1:
+          value: 'Yes'
+        ans2:
+          value: 'No'
+      part3:
+        ans1:
+          value: 'Yes'
+        ans2:
+          value: 'No'
 ---
 # {{ params.vars.title }}
 

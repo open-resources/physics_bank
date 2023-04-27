@@ -27,21 +27,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Particle in a Uniform Magnetic Field
-    part1:
-      ans1:
-        value: The particle will move in a straight line.
-      ans2:
-        value: The particle will travel at constant velocity.
-      ans3:
-        value: The particle will spiral inwards.
-      ans4:
-        value: The particle will travel at constant speed.
-      ans5:
-        value: The particle will spiral outwards.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Particle in a Uniform Magnetic Field
+      part1:
+        ans1:
+          value: The particle will move in a straight line.
+        ans2:
+          value: The particle will travel at constant velocity.
+        ans3:
+          value: The particle will spiral inwards.
+        ans4:
+          value: The particle will travel at constant speed.
+        ans5:
+          value: The particle will spiral outwards.
 ---
 # {{ params.vars.title }}
 

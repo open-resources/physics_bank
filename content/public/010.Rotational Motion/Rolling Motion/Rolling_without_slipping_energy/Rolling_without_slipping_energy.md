@@ -30,17 +30,18 @@ part1:
     weight: 1
     partial-credit: true
     partial-credit-method: EDC
-substitutions:
-  params:
-    vars:
-      title: Rolling Without Slipping Energy
-    part1:
-      ans1:
-        value: Gravitational kinetic energy
-      ans2:
-        value: Translational kinetic energy
-      ans3:
-        value: Rotational kinetic energy
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Rolling Without Slipping Energy
+      part1:
+        ans1:
+          value: Gravitational kinetic energy
+        ans2:
+          value: Translational kinetic energy
+        ans3:
+          value: Rotational kinetic energy
 ---
 # {{ params.vars.title }}
 

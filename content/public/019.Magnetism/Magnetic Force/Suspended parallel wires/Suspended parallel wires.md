@@ -40,13 +40,14 @@ part1:
     show-correct-answer: false
     label: $I= $
     suffix: $\rm\ A$
-substitutions:
-  params:
-    vars:
-      title: Suspended parallel wires
-    s: '5.2'
-    mu: '27.0'
-    theta: '7.0'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Suspended parallel wires
+      s: '5.0'
+      mu: '32.4'
+      theta: '6.0'
 ---
 # {{ params.vars.title }}
 Two long, parallel wires are hung by cords of length $s = $ {{ params.s }} $\rm\ cm$, as shown in the figure.

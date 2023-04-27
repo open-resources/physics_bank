@@ -35,16 +35,17 @@ part1:
   pl-customizations:
     weight: 1
     blank: true
-substitutions:
-  params:
-    vars:
-      title: Uniformly-charged sphere
-    same: different than
-    part1:
-      ans1:
-        value: The region of space inside the sphere.
-      ans2:
-        value: The region of space outside the sphere.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Uniformly-charged sphere
+      same: the same as
+      part1:
+        ans1:
+          value: The region of space inside the sphere.
+        ans2:
+          value: The region of space outside the sphere.
 ---
 # {{ params.vars.title }}
 

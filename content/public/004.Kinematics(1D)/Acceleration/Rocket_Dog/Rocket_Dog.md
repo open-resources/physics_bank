@@ -65,21 +65,22 @@ part5:
     quill-theme: snow
     directory: clientFilesQuestion
     source-file-name: sample.html
-substitutions:
-  params:
-    vars:
-      title: Rocket Dog
-      units: $\rm{m/s}$
-    x: $7t^2 - 2t$
-    time: 5
-    part4:
-      ans1:
-        value: The rocket dog is moving towards the origin.
-        feedback: 'Hint: Consider the signs of the dog''s position and velocity at
-          the given time.'
-      ans2:
-        value: The rocket dog is moving away from the origin.
-        feedback: Great! You got it.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Rocket Dog
+        units: $\rm{m/s}$
+      x: $5t^3 + 6t^2 - t$
+      time: 8
+      part4:
+        ans1:
+          value: The rocket dog is moving towards the origin.
+          feedback: 'Hint: Consider the signs of the dog''s position and velocity
+            at the given time.'
+        ans2:
+          value: The rocket dog is moving away from the origin.
+          feedback: Great! You got it.
 ---
 # {{ params.vars.title }}
 A rocket dog has a position along a straight track given by:

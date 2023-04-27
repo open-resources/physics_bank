@@ -44,19 +44,20 @@ part2:
   pl-customizations:
     weight: 1
     blank: true
-substitutions:
-  params:
-    vars:
-      title: Single-turn Circular Loop
-    r: '20'
-    b: '100'
-    B: '300'
-    t: '0.3'
-    part2:
-      ans1:
-        value: Clockwise
-      ans2:
-        value: Counterclockwise
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Single-turn Circular Loop
+      r: '60'
+      b: '125'
+      B: '325'
+      t: '0.1'
+      part2:
+        ans1:
+          value: Clockwise
+        ans2:
+          value: Counterclockwise
 ---
 # {{ params.vars.title }}
 A single-turn circular loop of wire of radius {{params.r }} $\textrm{ mm}$ lies in a plane perpendicular to a spatially uniform magnetic field. During a {{params.t }} $\textrm{ s}$ time interval, the magnitude of the field increases uniformly from {{params.b }} $\textrm{ mT}$ to {{params.B }} $\textrm{ mT}$.

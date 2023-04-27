@@ -40,25 +40,26 @@ part3:
   pl-customizations:
     weight: 1
     fixed-order: true
-substitutions:
-  params:
-    vars:
-      title: Object True or False
-    part1:
-      ans1:
-        value: 'True'
-      ans2:
-        value: 'False'
-    part2:
-      ans1:
-        value: 'True'
-      ans2:
-        value: 'False'
-    part3:
-      ans1:
-        value: 'True'
-      ans2:
-        value: 'False'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Object True or False
+      part1:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
+      part2:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
+      part3:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
 ---
 # {{ params.vars.title }}
 Please select true or false for each of following statements.

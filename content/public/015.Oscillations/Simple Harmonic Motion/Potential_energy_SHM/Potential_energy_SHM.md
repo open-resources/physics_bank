@@ -39,32 +39,33 @@ part2:
   pl-customizations:
     weight: 1
     fixed-order: true
-substitutions:
-  params:
-    vars:
-      title: Potential energy from velocity in SHM
-    part2:
-      ans1:
-        value: Figure A
-        feedback: What is the period of oscillation of the velocity?  How long should
-          it be between zeroes of the potential energy?  Are the periods of oscillation
-          of the energy and velocity the same?
-      ans2:
-        value: Figure B
-        feedback: What is the period of oscillation of the velocity?  How long should
-          it be between zeroes of the potential energy?  Are the periods of oscillation
-          of the energy and velocity the same?
-      ans3:
-        value: Figure C
-        feedback: At the time when the velocity is first zero, is the potential energy
-          at its maximum or minimum?
-      ans4:
-        value: Figure D
-        feedback: Noting that the spring constant $k$ is positive, can the elastic
-          potential energy $U = \frac{1}{2}kx^2$ ever be negative?
-      ans5:
-        value: Figure E
-        feedback: Great! You got it.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Potential energy from velocity in SHM
+      part2:
+        ans1:
+          value: Figure A
+          feedback: What is the period of oscillation of the velocity?  How long should
+            it be between zeroes of the potential energy?  Are the periods of oscillation
+            of the energy and velocity the same?
+        ans2:
+          value: Figure B
+          feedback: What is the period of oscillation of the velocity?  How long should
+            it be between zeroes of the potential energy?  Are the periods of oscillation
+            of the energy and velocity the same?
+        ans3:
+          value: Figure C
+          feedback: At the time when the velocity is first zero, is the potential
+            energy at its maximum or minimum?
+        ans4:
+          value: Figure D
+          feedback: Noting that the spring constant $k$ is positive, can the elastic
+            potential energy $U = \frac{1}{2}kx^2$ ever be negative?
+        ans5:
+          value: Figure E
+          feedback: Great! You got it.
 ---
 # {{ params.vars.title }}
 

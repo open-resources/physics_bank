@@ -28,30 +28,31 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Hit Baseball
-      units: $m/s$
-    v: 22.8
-    d: 21.7
-    part1:
-      ans1:
-        value: $21.2 \, \rm{m/s} \; \hat{x}$
-      ans2:
-        value: $8.43 \, \rm{m/s} \; \hat{y}$
-      ans3:
-        value: $-8.43 \, \rm{m/s} \; \hat{y}$
-      ans4:
-        value: $21.2 \, \rm{m/s} \; \hat{x} \; - \; 8.43 \, \rm{m/s} \; \hat{y}$
-      ans5:
-        value: $21.2 \, \rm{m/s} \; \hat{x} \; + \; 8.43 \, \rm{m/s} \; \hat{y}$
-      ans6:
-        value: $8.43 \, \rm{m/s} \; \hat{x} \; + \; 21.2 \, \rm{m/s} \; \hat{y}$
-      ans7:
-        value: $8.43 \, \rm{m/s} \; \hat{x} \; - \; 21.2 \, \rm{m/s} \; \hat{y}$
-      ans8:
-        value: $0 \rm{m/s}$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Hit Baseball
+        units: $m/s$
+      v: 25.2
+      d: 22.2
+      part1:
+        ans1:
+          value: $23.3 \, \rm{m/s} \; \hat{x}$
+        ans2:
+          value: $9.52 \, \rm{m/s} \; \hat{y}$
+        ans3:
+          value: $-9.52 \, \rm{m/s} \; \hat{y}$
+        ans4:
+          value: $23.3 \, \rm{m/s} \; \hat{x} \; - \; 9.52 \, \rm{m/s} \; \hat{y}$
+        ans5:
+          value: $23.3 \, \rm{m/s} \; \hat{x} \; + \; 9.52 \, \rm{m/s} \; \hat{y}$
+        ans6:
+          value: $9.52 \, \rm{m/s} \; \hat{x} \; + \; 23.3 \, \rm{m/s} \; \hat{y}$
+        ans7:
+          value: $9.52 \, \rm{m/s} \; \hat{x} \; - \; 23.3 \, \rm{m/s} \; \hat{y}$
+        ans8:
+          value: $0 \rm{m/s}$
 ---
 # {{ params.vars.title }}
 A baseball is hit at {{ params.d }}$^\circ$ above the horizontal with a speed of {{ params.v }} $\rm{m/s}$.

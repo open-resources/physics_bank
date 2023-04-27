@@ -55,22 +55,23 @@ part4:
     label: $ b = $
     suffix: $kg/s$
     digits: 2
-substitutions:
-  params:
-    vars:
-      title: Terminal Velocity of a Coffee Filter
-      name: Abbas
-      unit1: $m/s$
-      unit2: $kg/s$
-    m: 2
-    d_m: 59
-    sd: 0.063
-    v1: 0.84
-    v2: 0.94
-    v3: 0.81
-    v4: 0.81
-    v5: 0.91
-    v6: 0.97
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Terminal Velocity of a Coffee Filter
+        name: Abbas
+        unit1: $m/s$
+        unit2: $kg/s$
+      m: 4
+      d_m: 57
+      sd: 0.059
+      v1: 0.79
+      v2: 0.75
+      v3: 0.93
+      v4: 0.82
+      v5: 0.88
+      v6: 0.86
 ---
 # {{ params.vars.title }}
 In one of the PHYS 111 labs {{ params.vars.name }} measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling through the air.

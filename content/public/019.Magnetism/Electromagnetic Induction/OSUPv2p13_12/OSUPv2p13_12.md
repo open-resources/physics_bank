@@ -27,15 +27,16 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Inducing Current in Copper Loop
-    part1:
-      ans1:
-        value: Counterclockwise
-      ans2:
-        value: Clockwise
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Inducing Current in Copper Loop
+      part1:
+        ans1:
+          value: Counterclockwise
+        ans2:
+          value: Clockwise
 ---
 # {{ params.vars.title }}
 

@@ -35,12 +35,13 @@ part1:
     suffix: $\rm\ V$
     weight: 1
     custom-format: .3g
-substitutions:
-  params:
-    vars:
-      title: Electric potential of a proton
-    r: '0.530'
-    p: '-10'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Electric potential of a proton
+      r: '0.530'
+      p: '-10'
 ---
 # {{ params.vars.title }}
 

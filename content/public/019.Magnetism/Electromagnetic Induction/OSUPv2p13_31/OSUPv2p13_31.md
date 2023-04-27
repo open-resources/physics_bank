@@ -28,21 +28,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Time Dependent Magnetic Field
-    part1:
-      ans1:
-        value: $\frac{-Cab^2{\omega}}{2}$cos(${\omega}t$)
-      ans2:
-        value: $\frac{Cab^2{\omega}}{2}$cos(${\omega}t$)
-      ans3:
-        value: $\frac{-Cab^2{\omega}}{2}$sin(${\omega}t$)
-      ans4:
-        value: $\frac{Cab^2{\omega}}{2}$sin(${\omega}t$)
-      ans5:
-        value: $-Cab{\omega}$sin(${\omega}t$)
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Time Dependent Magnetic Field
+      part1:
+        ans1:
+          value: $\frac{-Cab^2{\omega}}{2}$cos(${\omega}t$)
+        ans2:
+          value: $\frac{Cab^2{\omega}}{2}$cos(${\omega}t$)
+        ans3:
+          value: $\frac{-Cab^2{\omega}}{2}$sin(${\omega}t$)
+        ans4:
+          value: $\frac{Cab^2{\omega}}{2}$sin(${\omega}t$)
+        ans5:
+          value: $-Cab{\omega}$sin(${\omega}t$)
 ---
 # {{ params.vars.title }}
 

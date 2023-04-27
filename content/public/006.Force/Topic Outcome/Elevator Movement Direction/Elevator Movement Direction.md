@@ -29,19 +29,20 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Direction of Movement of the Elevator
-    m_st: 747
-    m_sc: 719
-    part1:
-      ans1:
-        value: The elevator is moving Downwards, with gravity.
-      ans2:
-        value: You cannot tell if it is moving upward or downward.
-      ans3:
-        value: The elevator is moving Upwards, against gravity.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Direction of Movement of the Elevator
+      m_st: 489
+      m_sc: 480
+      part1:
+        ans1:
+          value: The elevator is moving Downwards, with gravity.
+        ans2:
+          value: You cannot tell if it is moving upward or downward.
+        ans3:
+          value: The elevator is moving Upwards, against gravity.
 ---
 # {{ params.vars.title }}
 A {{ params.m_st }} $N$ student standing on a scale in an elevator notices that the scale reads {{ params.m_sc }} $N$.

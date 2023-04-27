@@ -28,26 +28,27 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Force and Displacement
-      units: J
-    f1: -8
-    f2: 17
-    r1: 9
-    r2: -4
-    part1:
-      ans1:
-        value: -140
-      ans2:
-        value: 140
-      ans3:
-        value: -4
-      ans4:
-        value: 4
-      ans5:
-        value: Zero
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Force and Displacement
+        units: J
+      f1: -20
+      f2: 14
+      r1: 2
+      r2: -11
+      part1:
+        ans1:
+          value: -194
+        ans2:
+          value: 194
+        ans3:
+          value: 114
+        ans4:
+          value: -114
+        ans5:
+          value: Zero
 ---
 # {{ params.vars.title }}
 A constant force of $\vec{F}$  = ( {{params.f1}} $\hat{\imath}$ + {{params.f2}} $\hat{\jmath}$ ) N acts on an object during a displacement of $\Delta \vec{r} = (${{params.r1}} $\hat{\imath}$  {{params.r2}} $\hat{\jmath}$ ) m.

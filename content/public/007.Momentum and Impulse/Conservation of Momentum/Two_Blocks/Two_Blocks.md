@@ -29,22 +29,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Two Blocks
-    x: 4
-    part1:
-      ans1:
-        value: 10.0 $mv^2$
-      ans2:
-        value: 4.0 $mv^2$
-      ans3:
-        value: 8.0 $mv^2$
-      ans4:
-        value: 20.0 $mv^2$
-      ans5:
-        value: 6.0 $mv^2$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Two Blocks
+      x: 2
+      part1:
+        ans1:
+          value: 3.0 $mv^2$
+        ans2:
+          value: 4.0 $mv^2$
+        ans3:
+          value: 8.0 $mv^2$
+        ans4:
+          value: 20.0 $mv^2$
+        ans5:
+          value: 6.0 $mv^2$
 ---
 # {{ params.vars.title }}
 Two blocks, $M =$ {{ params.x }}$m$, sit on a horizontal frictionless surface with a compressed massless spring between them.

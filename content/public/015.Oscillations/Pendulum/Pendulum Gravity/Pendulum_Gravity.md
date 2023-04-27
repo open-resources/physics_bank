@@ -32,12 +32,13 @@ part1:
     label: $g_{\text{new}} = $
     suffix: null
     comparison: relabs
-substitutions:
-  params:
-    vars:
-      title: Pendulum Gravity
-    Ti: 2.136
-    Tf: 2.2070000000000003
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Pendulum Gravity
+      Ti: 2.045
+      Tf: 1.9629999999999999
 ---
 # {{ params.vars.title }}
 

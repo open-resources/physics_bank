@@ -49,14 +49,15 @@ part2:
     show-help-text: true
     suffix: $\rm\ {\mu A}$
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Range of Current Through Resistor
-    R: 205
-    V: 4.5
-    p: 1
-    Vtotal: 9.0
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Range of Current Through Resistor
+      R: 194
+      V: 2.4
+      p: 8
+      Vtotal: 4.8
 ---
 # {{ params.vars.title }}
 A resistor rated at {{params.R}} $\rm\ k\Omega$ is connected across two D cell batteries (each {{params.V}} $\textrm{ V}$) in series, with a total voltage of {{params.Vtotal}} $\textrm{ V}$.

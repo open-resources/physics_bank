@@ -39,12 +39,13 @@ part1:
     show-correct-answer: true
     label: $Q= $
     suffix: $\rm\ \mu\textrm{C}$
-substitutions:
-  params:
-    vars:
-      title: Charging a Capacitor
-    c: '4.8'
-    v: '50'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Charging a Capacitor
+      c: '3.7'
+      v: '50'
 ---
 # {{ params.vars.title }}
 

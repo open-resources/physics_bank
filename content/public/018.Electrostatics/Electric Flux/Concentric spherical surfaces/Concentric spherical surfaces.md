@@ -38,17 +38,18 @@ part1:
   pl-customizations:
     weight: 1
     blank: true
-substitutions:
-  params:
-    vars:
-      title: Concentric spherical surfaces
-    part1:
-      ans1:
-        value: The larger sphere has greater electric flux passing through it.
-      ans2:
-        value: The smaller sphere has greater electric flux passing through it.
-      ans3:
-        value: The same electric flux passes through each sphere.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Concentric spherical surfaces
+      part1:
+        ans1:
+          value: The larger sphere has greater electric flux passing through it.
+        ans2:
+          value: The smaller sphere has greater electric flux passing through it.
+        ans3:
+          value: The same electric flux passes through each sphere.
 ---
 # {{ params.vars.title }}
 

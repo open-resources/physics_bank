@@ -33,30 +33,31 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Stuck Together Collision
-      units: $^\circ$
-    k: 4
-    part1:
-      ans1:
-        value: 14.0
-        feedback: Close! Make sure that you don't mix up your horizontal and vertical
-          momentum.
-      ans2:
-        value: 63.4
-        feedback: Not quite, try double checking your math again.
-      ans3:
-        value: 76.0
-        feedback: Great! You got it.
-      ans4:
-        value: 78.7
-        feedback: Not quite, try double checking your math again.
-      ans5:
-        value: 81.9
-        feedback: This is a random angle, you probably selected this by mistake! Please
-          try again!
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Stuck Together Collision
+        units: $^\circ$
+      k: 4
+      part1:
+        ans1:
+          value: 14.0
+          feedback: Close! Make sure that you don't mix up your horizontal and vertical
+            momentum.
+        ans2:
+          value: 63.4
+          feedback: Not quite, try double checking your math again.
+        ans3:
+          value: 76.0
+          feedback: Great! You got it.
+        ans4:
+          value: 78.7
+          feedback: Not quite, try double checking your math again.
+        ans5:
+          value: 81.9
+          feedback: This is a random angle, you probably selected this by mistake!
+            Please try again!
 ---
 # {{ params.vars.title }}
 A perfectly inelastic collision occurs between an object of mass $m$ initially travelling along the positive $x$-axis at speed $v$, and an object of mass {{ params.k }}$m$ initially travelling along the positive $y$-axis at the same speed $v$. Following the collision the objects stick together and travel at a final speed $v_f$ at an angle $\theta$ degrees from the positive $x$-axis as shown in the figure below.

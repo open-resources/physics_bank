@@ -32,14 +32,15 @@ part1:
     allow-blank: true
     label: $\omega_i = $
     suffix: $rad/s$
-substitutions:
-  params:
-    vars:
-      units: rad/s
-      name: Abbas
-      title: Wheel of Fortune
-    t: 2.2
-    w_i: ${\pi \over 3} {rad\over s}$
+myst:
+  substitutions:
+    params:
+      vars:
+        units: rad/s
+        name: Maya
+        title: Wheel of Fortune
+      t: 0.5
+      w_i: ${\pi \over 3} {rad\over s}$
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} wants to win a game of Wheel-of-Fortune.

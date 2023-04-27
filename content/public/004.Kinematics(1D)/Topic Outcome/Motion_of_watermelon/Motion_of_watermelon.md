@@ -51,26 +51,27 @@ part4:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      name: Abbas
-      title: Motion of watermelon
-      units1: ${m/s}^2$
-      units2: $s$
-    signa: +
-    signb: '-'
-    signc: '-'
-    a: 5
-    b: 7
-    c: 3
-    part4:
-      ans1:
-        value: The speed is increasing
-      ans2:
-        value: The speed is decreasing
-      ans3:
-        value: There is not enough information to tell
+myst:
+  substitutions:
+    params:
+      vars:
+        name: Lorenzo
+        title: Motion of watermelon
+        units1: ${m/s}^2$
+        units2: $s$
+      signa: +
+      signb: +
+      signc: '-'
+      a: 2
+      b: 6
+      c: 11
+      part4:
+        ans1:
+          value: The speed is increasing
+        ans2:
+          value: The speed is decreasing
+        ans3:
+          value: There is not enough information to tell
 ---
 # {{ params.vars.title }}
 The position $x$ of a watermelon as a function of time $t$ is given by $x(t) = {{ params.signa }}{{ params.a }}t^2 {{ params.signb }}{{ params.b}}t {{params.signc }}{{ params.c }}$ where $x$ is in $m$ and $t$ is in $s$.

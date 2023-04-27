@@ -33,12 +33,13 @@ part1:
     weight: 1
     allow-blank: true
     label: $\mu_k= $
-substitutions:
-  params:
-    vars:
-      title: Coefficient Of Friction
-    m: 230
-    t: 2
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Coefficient Of Friction
+      m: 236
+      t: 3
 ---
 # {{ params.vars.title }}
 You have been hired to measure the coefficients of friction for the newly discovered substance jelloium.

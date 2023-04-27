@@ -37,11 +37,12 @@ part1:
     allow-blank: false
     show-correct-answer: false
     label: $R_2/R_1= $
-substitutions:
-  params:
-    vars:
-      title: Cylindrical Capacitor
-    c: '37'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Cylindrical Capacitor
+      c: '28'
 ---
 # {{ params.vars.title }}
 

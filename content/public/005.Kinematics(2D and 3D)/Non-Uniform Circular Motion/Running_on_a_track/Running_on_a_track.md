@@ -101,10 +101,11 @@ part8:
     file-name: answer7.html
     quill-theme: snow
     directory: clientFilesQuestion
-substitutions:
-  params:
-    vars:
-      title: Running on a track
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Running on a track
 ---
 # {{ params.vars.title }}
 In the 200 m dash, runners start on a semi-circular part of the track and finish on a straight. The straight has a length of 84.39 m, the radius of the inside of the lane 1 track is 36.5 m, and the lanes are 1.22 m in width.

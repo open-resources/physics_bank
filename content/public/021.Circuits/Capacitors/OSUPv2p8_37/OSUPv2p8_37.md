@@ -42,16 +42,17 @@ part1:
     show-correct-answer: false
     label: $C= $
     suffix: $\rm\ \mu\textrm{F}$
-substitutions:
-  params:
-    vars:
-      title: Adding Capacitances
-    a: '9'
-    b: '10'
-    c: '5.0'
-    d: '3.5'
-    e: '2.00'
-    f: '11'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Adding Capacitances
+      a: '10'
+      b: '3'
+      c: '3.5'
+      d: '3.5'
+      e: '2.00'
+      f: '14'
 ---
 # {{ params.vars.title }}
 

@@ -41,14 +41,15 @@ part1:
     show-correct-answer: false
     label: $B= $
     suffix: $\rm\ T$
-substitutions:
-  params:
-    vars:
-      title: Field due to current segment
-    I: '8.0'
-    x: '5.20'
-    y: '2.40'
-    dl: '0.40'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Field due to current segment
+      I: '14.0'
+      x: '5.40'
+      y: '3.60'
+      dl: '0.40'
 ---
 # {{ params.vars.title }}
 A ${{ params.I }}\rm\ A$ current flows through the wire shown in the figure.

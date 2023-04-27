@@ -33,14 +33,15 @@ part1:
     suffix: $m/s$
     weight: 1
     allow-blank: true
-substitutions:
-  params:
-    vars:
-      title: Cart raising a load
-      units: m/s
-    v_a: 7
-    x: 6
-    h: 5
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Cart raising a load
+        units: m/s
+      v_a: 4
+      x: 2
+      h: 2
 ---
 # {{ params.vars.title }}
 

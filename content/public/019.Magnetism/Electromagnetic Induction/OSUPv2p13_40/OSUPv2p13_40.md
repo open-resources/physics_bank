@@ -32,14 +32,15 @@ part1:
     show-correct-answer: false
     label: $\varepsilon= $
     suffix: $\rm\ V$
-substitutions:
-  params:
-    vars:
-      title: Rotating Coil
-    N: '1200'
-    a: '15'
-    t: '0.015'
-    B: '6.0'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Rotating Coil
+      N: '1400'
+      a: '35'
+      t: '0.010'
+      B: '5.0'
 ---
 # {{ params.vars.title }}
 

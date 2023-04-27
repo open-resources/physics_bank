@@ -32,21 +32,22 @@ part1:
   pl-customizations:
     fixed-order: true
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Choose the Correct Graph
-    part1:
-      ans1:
-        value: Figure (a)
-      ans2:
-        value: Figure (b)
-      ans3:
-        value: Figure (c)
-      ans4:
-        value: Figure (d)
-      ans5:
-        value: Figure (e)
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Choose the Correct Graph
+      part1:
+        ans1:
+          value: Figure (a)
+        ans2:
+          value: Figure (b)
+        ans3:
+          value: Figure (c)
+        ans4:
+          value: Figure (d)
+        ans5:
+          value: Figure (e)
 ---
 # {{ params.vars.title }}
 This figure shows the graph of the position $x$ as a function of time $t$ for an object moving in a straight line (along the $x$-axis):

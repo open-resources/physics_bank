@@ -29,26 +29,27 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    part1:
-      ans3:
-        value: a
-        feedback: Great! You got it. The Z-pattern relates the angle theta(θ)to that
-          given in the diagram.
-      ans2:
-        value: b
-        feedback: The net force must point toward the center of the circle.
-      ans1:
-        value: c
-        feedback: Since the mass is on a table, it should have a normal force acting
-          upward on it.
-      ans4:
-        value: d
-        feedback: The net force must point toward the center of the circle.
-      ans5:
-        value: e
-        feedback: The net force must point toward the center of the circle.
+myst:
+  substitutions:
+    params:
+      part1:
+        ans3:
+          value: a
+          feedback: Great! You got it. The Z-pattern relates the angle theta(θ)to
+            that given in the diagram.
+        ans2:
+          value: b
+          feedback: The net force must point toward the center of the circle.
+        ans1:
+          value: c
+          feedback: Since the mass is on a table, it should have a normal force acting
+            upward on it.
+        ans4:
+          value: d
+          feedback: The net force must point toward the center of the circle.
+        ans5:
+          value: e
+          feedback: The net force must point toward the center of the circle.
 ---
 # {{ params.vars.title }}
 A mass on the end of a string is swung around a circle across a horizontal frictionless table. The angle the string makes with respect to the vertical is $\theta$. Choose the best free body diagram from the choices provided in the figure.

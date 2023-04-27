@@ -33,13 +33,14 @@ part1:
     allow-blank: false
     show-correct-answer: false
     label: 'Number of electrons = '
-substitutions:
-  params:
-    vars:
-      title: Electrons In a Wire
-      units: m/s
-    I: 97
-    t: 4
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Electrons In a Wire
+        units: m/s
+      I: 91
+      t: 39
 ---
 # {{ params.vars.title }}
 

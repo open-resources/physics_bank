@@ -49,14 +49,15 @@ part3:
     allow-blank: true
     label: $\dot{\phi}= $
     suffix: $rad/s$
-substitutions:
-  params:
-    vars:
-      title: Aircraft Liftoff 3D
-    v: 3
-    z: 340
-    x: 407
-    angle: 27
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Aircraft Liftoff 3D
+      v: 6
+      z: 309
+      x: 445
+      angle: 33
 ---
 # {{ params.vars.title }}
 <img src="L10Q1.png" width=85%>

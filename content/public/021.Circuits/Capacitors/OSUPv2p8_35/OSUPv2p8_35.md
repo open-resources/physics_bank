@@ -50,13 +50,14 @@ part2:
     show-help-text: true
     suffix: $\rm\ \mu\textrm{F}$
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Connecting Capacitors
-      name: Maya
-    a: '8'
-    b: '7'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Connecting Capacitors
+        name: Lorenzo
+      a: '7'
+      b: '14'
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} has a {{params.a }} $\rm\ \mu\textrm{F}$ capacitor and a {{params.b }} $\rm\ \mu\textrm{F}$ capacitor.

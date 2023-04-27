@@ -28,16 +28,17 @@ part1:
     weight: 1
     partial-credit: true
     partial-credit-method: EDC
-substitutions:
-  params:
-    part1:
-      ans1:
-        value: When object A causes object B to accelerate, $F_{A\ on\ B}$ = $F_{B\
-          on\ A}$ .
-        feedback: Great! You got it.
-      ans2:
-        value: There is always a force in the direction of any motion.
-        feedback: Consider Retardation!
+myst:
+  substitutions:
+    params:
+      part1:
+        ans1:
+          value: When object A causes object B to accelerate, $F_{A\ on\ B}$ = $F_{B\
+            on\ A}$ .
+          feedback: Great! You got it.
+        ans2:
+          value: There is always a force in the direction of any motion.
+          feedback: Consider Retardation!
 ---
 # {{ params.vars.title }}
 

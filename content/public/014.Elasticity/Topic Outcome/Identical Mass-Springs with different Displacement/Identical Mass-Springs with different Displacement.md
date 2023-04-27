@@ -28,21 +28,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Identical Mass-Springs with Different Displacement
-    d1: $d$
-    d2: $2d$
-    part1:
-      ans1:
-        value: Spring A
-      ans2:
-        value: Spring B
-      ans3:
-        value: It is a tie.
-      ans4:
-        value: Not enough information is given.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Identical Mass-Springs with Different Displacement
+      d1: $d$
+      d2: $2d$
+      part1:
+        ans1:
+          value: Spring A
+        ans2:
+          value: Spring B
+        ans3:
+          value: It is a tie.
+        ans4:
+          value: Not enough information is given.
 ---
 # {{ params.vars.title }}
 Two identical springs are attached to two identical masses.

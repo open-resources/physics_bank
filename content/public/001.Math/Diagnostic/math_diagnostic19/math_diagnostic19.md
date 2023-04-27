@@ -28,22 +28,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic19
-    a: $ \sin219$
-    part1:
-      ans1:
-        value: $\sin{-141}$
-      ans2:
-        value: $\sin{141}$
-      ans3:
-        value: $\sin{40}$
-      ans4:
-        value: $\sin{-40}$
-      ans5:
-        value: Don't Know
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic19
+      a: $ \sin206$
+      part1:
+        ans1:
+          value: $\sin{-154}$
+        ans2:
+          value: $\sin{154}$
+        ans3:
+          value: $\sin{27}$
+        ans4:
+          value: $\sin{-27}$
+        ans5:
+          value: Don't Know
 ---
 # {{ params.vars.title }}
 Assume angles are in degrees.

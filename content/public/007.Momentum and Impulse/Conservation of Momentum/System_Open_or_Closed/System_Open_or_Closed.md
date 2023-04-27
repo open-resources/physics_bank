@@ -29,24 +29,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: System Open or Closed
-      vehicle_c: Semi-truck
-      vehicle: semi-truck
-      units: kg
-    i_a: 98
-    i_b: 253
-    part1:
-      ans1:
-        value: Yes, because the two carts are on a track with no friction.
-      ans2:
-        value: Yes, because their change in velocities are the same.
-      ans3:
-        value: No, because the total momentum is nonzero.
-      ans4:
-        value: No, because the momentum is not conserved
+myst:
+  substitutions:
+    params:
+      vars:
+        title: System Open or Closed
+        vehicle_c: Truck
+        vehicle: truck
+        units: kg
+      i_a: 106
+      i_b: 316
+      part1:
+        ans1:
+          value: Yes, because the two carts are on a track with no friction.
+        ans2:
+          value: Yes, because their change in velocities are the same.
+        ans3:
+          value: No, because the total momentum is nonzero.
+        ans4:
+          value: No, because the momentum is not conserved
 ---
 # {{ params.vars.title }}
 Two {{ params.vars.vehicle }}s collide on a track. {{ params.vars.vehicle_c }}  A comes up behind {{ params.vars.vehicle }}  B and runs into it.

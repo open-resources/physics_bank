@@ -34,32 +34,33 @@ part2:
   pl-customizations:
     weight: 1
     fixed-order: true
-substitutions:
-  params:
-    vars:
-      title: Apples on a Truck
-    part1:
-      ans1:
-        value: Choice A
-      ans2:
-        value: Choice B
-      ans3:
-        value: Choice C
-      ans4:
-        value: Choice D
-      ans5:
-        value: Choice E
-    part2:
-      ans1:
-        value: Choice A
-      ans2:
-        value: Choice B
-      ans3:
-        value: Choice C
-      ans4:
-        value: Choice D
-      ans5:
-        value: Choice E
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Apples on a Truck
+      part1:
+        ans1:
+          value: Choice A
+        ans2:
+          value: Choice B
+        ans3:
+          value: Choice C
+        ans4:
+          value: Choice D
+        ans5:
+          value: Choice E
+      part2:
+        ans1:
+          value: Choice A
+        ans2:
+          value: Choice B
+        ans3:
+          value: Choice C
+        ans4:
+          value: Choice D
+        ans5:
+          value: Choice E
 ---
 # {{ params.vars.title }}
 An apple tree is transported by a truck moving to the right with constant velocity.

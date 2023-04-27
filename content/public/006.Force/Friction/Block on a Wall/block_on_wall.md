@@ -33,14 +33,15 @@ part1:
     allow-blank: true
     label: $F= $
     suffix: N
-substitutions:
-  params:
-    vars:
-      title: Block on a Wall
-      units: N
-    theta: 70
-    m: 1
-    mu: 0.232
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Block on a Wall
+        units: N
+      theta: 42
+      m: 5
+      mu: 0.202
 ---
 # {{ params.vars.title }}
 A {{params.m}} kg wood block slides down a vertical wall while you push on it at a {{params.theta}}$^\circ$ angle.

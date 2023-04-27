@@ -67,27 +67,28 @@ part5:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Space Velocity
-      units1: $\rm{m/s}$
-      units2: $\rm{J}$
-    m: 100
-    left_arm: 8
-    head: 12
-    V_L_i: 13
-    V_L_j: 6
-    V_H_i: -22
-    V_H_j: -12
-    t: 1.0
-    part5:
-      ans1:
-        value: His head required more force
-      ans2:
-        value: His left arm required more force
-      ans3:
-        value: There is not enough information.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Space Velocity
+        units1: $\rm{m/s}$
+        units2: $\rm{J}$
+      m: 102
+      left_arm: 6
+      head: 13
+      V_L_i: 13
+      V_L_j: 6
+      V_H_i: -24
+      V_H_j: -13
+      t: 1.1
+      part5:
+        ans1:
+          value: His head required more force
+        ans2:
+          value: His left arm required more force
+        ans3:
+          value: There is not enough information.
 ---
 # {{ params.vars.title }}
 Bender the robot ({{params.m}} $\rm{kg}$) is floating out in deep space.

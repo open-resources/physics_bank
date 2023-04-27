@@ -39,13 +39,14 @@ part1:
     show-correct-answer: true
     label: $\Delta T = \pm $
     suffix: $^{\circ}\textrm{C}$
-substitutions:
-  params:
-    vars:
-      title: Temperature Range of Resistor
-    p: 7
-    metal: Gold
-    T_0: 85
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Temperature Range of Resistor
+      p: 3
+      metal: Platinum
+      T_0: 130
 ---
 # {{ params.vars.title }}
 

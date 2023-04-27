@@ -72,13 +72,14 @@ part3:
     suffix: $\rm\ A$
     weight: 1
     custom-format: .3g
-substitutions:
-  params:
-    vars:
-      title: Switched LC Circuit
-    L: '108.0'
-    C: '2.50'
-    V: '10.5'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Switched LC Circuit
+      L: '99.0'
+      C: '3.50'
+      V: '11.5'
 ---
 # {{ params.vars.title }}
 Consider the switched $LC$ circuit shown below.

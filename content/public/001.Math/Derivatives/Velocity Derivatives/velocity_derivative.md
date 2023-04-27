@@ -27,24 +27,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Velocity to Acceleration
-      units: $m/s^2$
-    c: 1.0
-    t: 1
-    part1:
-      ans1:
-        value: 2.0
-      ans2:
-        value: -2.0
-      ans3:
-        value: -1.0
-      ans4:
-        value: 1.0
-      ans5:
-        value: The acceleration is 0
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Velocity to Acceleration
+        units: $m/s^2$
+      c: 2.6
+      t: 1
+      part1:
+        ans1:
+          value: 5.2
+        ans2:
+          value: -5.2
+        ans3:
+          value: -2.6
+        ans4:
+          value: 2.6
+        ans5:
+          value: The acceleration is 0
 ---
 # {{ params.vars.title }}
 The velocity of an object moving along the x-axis is given by $v_x$ = -$ct^{-2}$, where $c$ = {{params.c}} m/s

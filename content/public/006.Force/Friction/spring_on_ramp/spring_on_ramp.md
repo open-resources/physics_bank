@@ -44,16 +44,17 @@ part2:
     allow-blank: true
     label: $x= $
     suffix: m
-substitutions:
-  params:
-    vars:
-      title: Spring on Ramp
-      units: m
-    m: 3
-    theta: 37
-    k: 250
-    us: 0.5
-    uk: 0.37
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Spring on Ramp
+        units: m
+      m: 5
+      theta: 27
+      k: 350
+      us: 0.7
+      uk: 0.4
 ---
 # {{ params.vars.title }}
 In the figure below m = {{ params.m }} kg, $\theta$ = {{ params.theta }}$^\circ$, and k = {{ params.k }} N/m.

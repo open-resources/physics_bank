@@ -34,33 +34,34 @@ part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Pushing Net Across Ice
-    v: 2
-    f: 5
-    part2:
-      ans1:
-        value: at a steadily increasing speed
-        feedback: Great job! You got it!
-      ans2:
-        value: at 3 $\rm{m/s}$
-        feedback: Consider whether kinetic or static friction is acting? Is the net
-          force truly zero?
-      ans3:
-        value: at an increasing speed until it reaches 3 $\rm{m/s}$, and then at a
-          constant speed
-        feedback: Consider whether kinetic or static friction is acting? Which is
-          dependent on speed?
-      ans4:
-        value: at a steadily decreasing speed
-        feedback: Consider whether kinetic or static friction is acting? Which is
-          dependent on speed?
-      ans5:
-        value: at 2 $\rm{m/s}$
-        feedback: Consider whether kinetic or static friction is acting? Is the net
-          force truly zero?
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Pushing Net Across Ice
+      v: 5
+      f: 3
+      part2:
+        ans1:
+          value: at a steadily increasing speed
+          feedback: Great job! You got it!
+        ans2:
+          value: at 6 $\rm{m/s}$
+          feedback: Consider whether kinetic or static friction is acting? Is the
+            net force truly zero?
+        ans3:
+          value: at an increasing speed until it reaches 6 $\rm{m/s}$, and then at
+            a constant speed
+          feedback: Consider whether kinetic or static friction is acting? Which is
+            dependent on speed?
+        ans4:
+          value: at a steadily decreasing speed
+          feedback: Consider whether kinetic or static friction is acting? Which is
+            dependent on speed?
+        ans5:
+          value: at 5 $\rm{m/s}$
+          feedback: Consider whether kinetic or static friction is acting? Is the
+            net force truly zero?
 ---
 # {{ params.vars.title }}
 

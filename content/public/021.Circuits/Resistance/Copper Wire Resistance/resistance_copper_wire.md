@@ -38,13 +38,14 @@ part1:
     allow-blank: false
     label: $R= $
     suffix: $\rm \Omega $
-substitutions:
-  params:
-    vars:
-      title: Resistance Of A Copper Wire
-      units: Ohms
-    d: 7.332
-    l: 12.9
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Resistance Of A Copper Wire
+        units: Ohms
+      d: 5.178
+      l: 1.2
 ---
 # {{ params.vars.title }}
 

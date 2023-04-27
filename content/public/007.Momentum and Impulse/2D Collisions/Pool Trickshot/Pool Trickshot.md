@@ -41,12 +41,13 @@ part2:
     allow-blank: true
     label: $\theta_{2B}= $
     suffix: $^{\circ}$
-substitutions:
-  params:
-    vars:
-      title: Pool Trickshot
-    thetad: 30
-    e: 0.91
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Pool Trickshot
+      thetad: 30
+      e: 0.93
 ---
 # {{ params.vars.title }}
 <img src="L22Q1.png" width=400>

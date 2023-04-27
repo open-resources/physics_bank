@@ -67,19 +67,20 @@ part5:
     allow-blank: true
     label: $K= $
     suffix: $J$
-substitutions:
-  params:
-    vars:
-      name1: Ahmed
-      name2: Maya
-      title: A Flying Arrow
-      unit1: $kg\cdot m/s$
-      unit2: $J$
-      unit3: $m/s$
-    m: 0.139
-    v_x: 88.5
-    x1: 12.8
-    x2: 9.5
+myst:
+  substitutions:
+    params:
+      vars:
+        name1: Maya
+        name2: Mateo
+        title: A Flying Arrow
+        unit1: $kg\cdot m/s$
+        unit2: $J$
+        unit3: $m/s$
+      m: 0.191
+      v_x: 85.4
+      x1: 6.97
+      x2: 13.6
 ---
 # {{ params.vars.title }}
 {{ params.vars.name1 }} and {{ params.vars.name2 }} watch an arrow fly past them.

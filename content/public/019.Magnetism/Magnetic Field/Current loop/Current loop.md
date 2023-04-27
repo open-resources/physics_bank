@@ -40,12 +40,13 @@ part1:
     show-correct-answer: false
     label: $r= $
     suffix: $\rm\ m$
-substitutions:
-  params:
-    vars:
-      title: Current loop
-    I: '7.40'
-    B: $2.00\times 10^{-4}$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Current loop
+      I: '5.40'
+      B: $3.20\times 10^{-4}$
 ---
 # {{ params.vars.title }}
 When the current through a circular loop is {{ params.I }}$\rm\ A$, the magnetic field at its centre is {{ params.B }} $\rm\ T$.

@@ -41,13 +41,14 @@ part1:
     comparison: relabs
     rtol: 0.03
     atol: 0
-substitutions:
-  params:
-    vars:
-      title: Capacitor in a Heart Pacemaker
-    rate: '75'
-    C: '24.5'
-    charge: '0.636'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Capacitor in a Heart Pacemaker
+      rate: '76'
+      C: '23.5'
+      charge: '0.629'
 ---
 # {{ params.vars.title }}
 A heart pacemaker activates ${{ params.rate }}$ times per minute.

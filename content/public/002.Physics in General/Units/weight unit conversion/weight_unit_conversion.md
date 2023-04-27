@@ -43,11 +43,12 @@ part3:
     allow-blank: true
     label: $m= $
     suffix: $kg$
-substitutions:
-  params:
-    vars:
-      title: Weight units conversion
-    w_lbs: 157
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Weight units conversion
+      w_lbs: 124
 ---
 # {{ params.vars.title }}
 A students has a mass of {{params.w_lbs}} $lbs$.

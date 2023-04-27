@@ -31,7 +31,8 @@ part1:
   type: file-upload
   pl-customizations:
     file-names: velocity.pdf
-substitutions: {}
+myst:
+  substitutions: {}
 ---
 # {{ params.vars.title }}
 A position vs. time graph is shown. On the velocity versus time graph below it, sketch the corresponding velocity as a function of time. Show all calculations, and label the axes appropriately.

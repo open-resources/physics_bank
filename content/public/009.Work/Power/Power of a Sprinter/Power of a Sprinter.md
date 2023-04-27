@@ -32,15 +32,16 @@ part1:
     allow-blank: true
     label: $P= $
     suffix: $W$
-substitutions:
-  params:
-    vars:
-      title: Power of a Sprinter
-      units: W
-    v: 11
-    t: 5
-    m: 81
-    v2: 8
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Power of a Sprinter
+        units: W
+      v: 11
+      t: 4
+      m: 89
+      v2: 1
 ---
 # {{ params.vars.title }}
 A {{ params.m }}$kg$ sprinter accelerates uniformly from rest to reach their maximum speed of {{ params.v }}$m/s$ in {{ params.t }} seconds.

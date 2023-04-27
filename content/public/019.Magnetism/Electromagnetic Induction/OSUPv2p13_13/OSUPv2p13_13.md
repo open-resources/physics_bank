@@ -42,31 +42,32 @@ part3:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Moving Ring Through Magnetic Field
-    part1:
-      ans1:
-        value: A counterclockwise current is induced in the ring.
-      ans2:
-        value: A clockwise current is induced in the ring.
-      ans3:
-        value: No current is induced in the ring.
-    part2:
-      ans1:
-        value: A counterclockwise current is induced in the ring.
-      ans2:
-        value: A clockwise current is induced in the ring.
-      ans3:
-        value: No current is induced in the ring.
-    part3:
-      ans1:
-        value: A counterclockwise current is induced in the ring.
-      ans2:
-        value: A clockwise current is induced in the ring.
-      ans3:
-        value: No current is induced in the ring.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Moving Ring Through Magnetic Field
+      part1:
+        ans1:
+          value: A counterclockwise current is induced in the ring.
+        ans2:
+          value: A clockwise current is induced in the ring.
+        ans3:
+          value: No current is induced in the ring.
+      part2:
+        ans1:
+          value: A counterclockwise current is induced in the ring.
+        ans2:
+          value: A clockwise current is induced in the ring.
+        ans3:
+          value: No current is induced in the ring.
+      part3:
+        ans1:
+          value: A counterclockwise current is induced in the ring.
+        ans2:
+          value: A clockwise current is induced in the ring.
+        ans3:
+          value: No current is induced in the ring.
 ---
 # {{ params.vars.title }}
 The figure below shows a conducting ring at various positions as it moves through a magnetic field.

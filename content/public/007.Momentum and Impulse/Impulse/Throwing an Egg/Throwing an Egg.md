@@ -29,25 +29,26 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Throwing an Egg
-      name: Emilia
-    part1:
-      ans1:
-        value: The energy in the egg is not sufficient to allow it to break.
-      ans2:
-        value: The egg experiences an elastic collision with the sheet.
-      ans3:
-        value: The time interval over which the egg slows down in short enough that
-          the net force acting on the egg is not large enough for it to break.
-      ans4:
-        value: The impulse acting on the egg is not as large as if the egg hit a brick
-          wall.
-      ans5:
-        value: The time interval over which the egg slows down is large enough that
-          the acceleration of the egg is not large enough for it to break.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Throwing an Egg
+        name: Lorenzo
+      part1:
+        ans1:
+          value: The energy in the egg is not sufficient to allow it to break.
+        ans2:
+          value: The egg experiences an elastic collision with the sheet.
+        ans3:
+          value: The time interval over which the egg slows down in short enough that
+            the net force acting on the egg is not large enough for it to break.
+        ans4:
+          value: The impulse acting on the egg is not as large as if the egg hit a
+            brick wall.
+        ans5:
+          value: The time interval over which the egg slows down is large enough that
+            the acceleration of the egg is not large enough for it to break.
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} throws an egg as hard as they can towards a bed sheet held vertically by two of their friends.

@@ -64,25 +64,26 @@ part5:
     allow-blank: true
     weight: 1
     label: $\Delta E = $
-substitutions:
-  params:
-    vars:
-      title: Dinner Plate
-      part1:
-        units: rad/s
-      part2:
-        units: $kg m^2$
-      part3:
-        units: $kg m^2$/s
-      part4:
-        units: rad/s
-      part5:
-        units: J
-    m_p: 1.17
-    r_p: 0.38
-    m: 2.52
-    r: 0.42
-    x: 1
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Dinner Plate
+        part1:
+          units: rad/s
+        part2:
+          units: $kg m^2$
+        part3:
+          units: $kg m^2$/s
+        part4:
+          units: rad/s
+        part5:
+          units: J
+      m_p: 1.67
+      r_p: 0.47
+      m: 1.93
+      r: 0.21
+      x: 6
 ---
 # {{ params.vars.title }}
 A cylindrical dinner plate is spinning out in space. It has mass $m_p =$ {{params.m_p}} $kg$, radius $r =$ {{ params.r_p }} $m$ and it rotates clockwise (as seen from above) {{ params.x }} times every second.

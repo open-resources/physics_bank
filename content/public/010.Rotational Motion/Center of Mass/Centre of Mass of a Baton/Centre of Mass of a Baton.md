@@ -32,16 +32,17 @@ part1:
     allow-blank: true
     label: $x= $
     suffix: $m$
-substitutions:
-  params:
-    vars:
-      title: Centre of Mass of a Baton
-      units: $m$
-    m1: 0.23
-    m2: 0.068
-    m3: 0.083
-    l1: 1.1
-    l2: 0.59
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Centre of Mass of a Baton
+        units: $m$
+      m1: 0.17
+      m2: 0.12
+      m3: 0.091
+      l1: 0.57
+      l2: 1.2
 ---
 # {{ params.vars.title }}
 

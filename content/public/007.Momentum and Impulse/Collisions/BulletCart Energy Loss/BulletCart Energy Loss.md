@@ -41,13 +41,14 @@ part2:
     allow-blank: true
     label: $n= $
     suffix: $%$
-substitutions:
-  params:
-    vars:
-      title: BulletCart Energy Loss
-    m: 33
-    mbg: 88
-    vb: 401
+myst:
+  substitutions:
+    params:
+      vars:
+        title: BulletCart Energy Loss
+      m: 36
+      mbg: 87
+      vb: 484
 ---
 # {{ params.vars.title }}
 <img src="BulletCart Energy Loss.png" width=400>

@@ -69,21 +69,22 @@ part4:
   pl-customizations:
     blank: true
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Electrical Appliances Plugged into an Outlet
-    P_T: '1790'
-    P_S: '1460'
-    P_L: '85.0'
-    I_F: '30.0'
-    V: '130.0'
-    prep: an
-    part4:
-      ans1:
-        value: 'Yes'
-      ans2:
-        value: 'No'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Electrical Appliances Plugged into an Outlet
+      P_T: '1830'
+      P_S: '1480'
+      P_L: '70.0'
+      I_F: '23.0'
+      V: '140.0'
+      prep: a
+      part4:
+        ans1:
+          value: 'Yes'
+        ans2:
+          value: 'No'
 ---
 # {{ params.vars.title }}
 A {{ params.P_T }} $\rm\ W$ toaster, a {{ params.P_S }} $\rm\ W$ speaker, and {{ params.prep }} {{ params.P_L }} $\rm\ W$ lamp are plugged into the same outlet in a {{ params.I_F }} $\rm\ A$ fuse and {{ params.V }} $\rm\ V$ circuit.

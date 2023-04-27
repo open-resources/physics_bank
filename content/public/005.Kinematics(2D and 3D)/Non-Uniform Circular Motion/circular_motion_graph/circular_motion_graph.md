@@ -83,65 +83,66 @@ part9:
     allow-blank: true
     label: $\Delta \theta = $
     suffix: $\rm{rad}$
-substitutions:
-  params:
-    vars:
-      title: Circular Motion Graph
-    r: 5
-    t: 0.7
-    wmax: 10
-    part1:
-      ans1:
-        value: $t = 0\rm{s} $ to $ t = 1\rm{s}$, positive
-        feedback: Hmm... try again.
-      ans2:
-        value: $t = 0\rm{s} $ to $ t = 2\rm{s}$, positive
-        feedback: Hmm... try again.
-      ans3:
-        value: $t = 1\rm{s} $ to $ t = 2\rm{s}$, positive
-        feedback: Great, you got it!
-      ans4:
-        value: $t = 2\rm{s} $ to $ t = 3\rm{s}$, positive
-        feedback: Hmm... try again.
-      ans5:
-        value: $t = 0\rm{s} $ to $ t = 2\rm{s}$, negative
-        feedback: Hmm... try again.
-    part2:
-      ans1:
-        value: $t = 0\rm{s} $ to $ t = 1\rm{s}$, positive
-        feedback: Great, you got it!
-      ans2:
-        value: $t = 0\rm{s} $ to $ t = 2\rm{s}$, positive
-        feedback: Hmm... try again.
-      ans3:
-        value: $t = 1\rm{s} $ to $ t = 2\rm{s}$, positive
-        feedback: Hmm... try again.
-      ans4:
-        value: $t = 2\rm{s} $ to $ t = 3\rm{s}$, positive
-        feedback: Hmm... try again.
-      ans5:
-        value: $t = 0\rm{s} $ to $ t = 2\rm{s}$, negative
-        feedback: Hmm... try again.
-    part7:
-      ans1:
-        value: Tangential to the circle
-        feedback: Great, you got it!
-      ans2:
-        value: Radially inwards to the centre of the circle
-        feedback: Hmm... try again.
-      ans3:
-        value: Radially outwards to the centre of the circle
-        feedback: Hmm... try again.
-    part8:
-      ans1:
-        value: Tangential to the circle
-        feedback: Hmm... try again.
-      ans2:
-        value: Radially inwards to the centre of the circle
-        feedback: Great, you got it!
-      ans3:
-        value: Radially outwards to the centre of the circle
-        feedback: Hmm... try again.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Circular Motion Graph
+      r: 6
+      t: 0.6
+      wmax: 10
+      part1:
+        ans1:
+          value: $t = 0\rm{s} $ to $ t = 1\rm{s}$, positive
+          feedback: Hmm... try again.
+        ans2:
+          value: $t = 0\rm{s} $ to $ t = 2\rm{s}$, positive
+          feedback: Hmm... try again.
+        ans3:
+          value: $t = 1\rm{s} $ to $ t = 2\rm{s}$, positive
+          feedback: Great, you got it!
+        ans4:
+          value: $t = 2\rm{s} $ to $ t = 3\rm{s}$, positive
+          feedback: Hmm... try again.
+        ans5:
+          value: $t = 0\rm{s} $ to $ t = 2\rm{s}$, negative
+          feedback: Hmm... try again.
+      part2:
+        ans1:
+          value: $t = 0\rm{s} $ to $ t = 1\rm{s}$, positive
+          feedback: Great, you got it!
+        ans2:
+          value: $t = 0\rm{s} $ to $ t = 2\rm{s}$, positive
+          feedback: Hmm... try again.
+        ans3:
+          value: $t = 1\rm{s} $ to $ t = 2\rm{s}$, positive
+          feedback: Hmm... try again.
+        ans4:
+          value: $t = 2\rm{s} $ to $ t = 3\rm{s}$, positive
+          feedback: Hmm... try again.
+        ans5:
+          value: $t = 0\rm{s} $ to $ t = 2\rm{s}$, negative
+          feedback: Hmm... try again.
+      part7:
+        ans1:
+          value: Tangential to the circle
+          feedback: Great, you got it!
+        ans2:
+          value: Radially inwards to the centre of the circle
+          feedback: Hmm... try again.
+        ans3:
+          value: Radially outwards to the centre of the circle
+          feedback: Hmm... try again.
+      part8:
+        ans1:
+          value: Tangential to the circle
+          feedback: Hmm... try again.
+        ans2:
+          value: Radially inwards to the centre of the circle
+          feedback: Great, you got it!
+        ans3:
+          value: Radially outwards to the centre of the circle
+          feedback: Hmm... try again.
 ---
 # {{ params.vars.title }}
 <img src="diagram.png" alt= "A graph of angular velocity (rad/s) vs. time (s). At 0s, it is -10 rad/s, with a constant linear slope towards 0 rad/s at 1s and 10 rad/s at 2s (this shape: /). From 2s to 3s, it is a constant 10 rad/s, producing a horizontal slope (-). "> 

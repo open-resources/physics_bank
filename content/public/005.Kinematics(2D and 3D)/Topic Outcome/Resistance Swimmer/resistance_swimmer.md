@@ -42,14 +42,15 @@ part2:
     allow-blank: true
     label: $\ddot{\theta}= $
     suffix: rad/s$^2$
-substitutions:
-  params:
-    vars:
-      title: Resistance Swimmer
-    v: 2
-    h: 17
-    x: 7
-    a: 0.1
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Resistance Swimmer
+      v: 3
+      h: 13
+      x: 8
+      a: 0.4
 ---
 # {{ params.vars.title }}
 <img src="L11Q1.png" width=85%>

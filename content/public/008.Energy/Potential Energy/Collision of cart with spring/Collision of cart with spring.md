@@ -31,14 +31,15 @@ part1:
     allow-blank: true
     label: $v= $
     suffix: $m/s$
-substitutions:
-  params:
-    vars:
-      title: Collision of a Cart with a Spring
-      units: m/s
-    m: 79
-    k: 201
-    x: 32
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Collision of a Cart with a Spring
+        units: m/s
+      m: 67
+      k: 226
+      x: 43
 ---
 # {{ params.vars.title }}
 A  {{ params.m }}  $kg$  runaway  grocery  cart  runs  into  a  spring  with a spring  constant $k = $  {{ params.k }}  $N/m$  and compresses it by {{ params.x }} $cm$ before momentarily coming to rest.

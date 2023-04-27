@@ -36,31 +36,32 @@ part3:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Force Multipart True False Question
-    part1:
-      ans1:
-        value: 'True'
-        feedback: Great! You got it.
-      ans2:
-        value: 'False'
-        feedback: 'Hint: ''Uniform'' implies constant speed.'
-    part2:
-      ans1:
-        value: 'True'
-        feedback: 'Hint: Newton''s Third Law.'
-      ans2:
-        value: 'False'
-        feedback: Great! You got it.
-    part3:
-      ans1:
-        value: 'True'
-        feedback: 'Hint: Newton''s First Law.'
-      ans2:
-        value: 'False'
-        feedback: Great! You got it.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Force Multipart True False Question
+      part1:
+        ans1:
+          value: 'True'
+          feedback: Great! You got it.
+        ans2:
+          value: 'False'
+          feedback: 'Hint: ''Uniform'' implies constant speed.'
+      part2:
+        ans1:
+          value: 'True'
+          feedback: 'Hint: Newton''s Third Law.'
+        ans2:
+          value: 'False'
+          feedback: Great! You got it.
+      part3:
+        ans1:
+          value: 'True'
+          feedback: 'Hint: Newton''s First Law.'
+        ans2:
+          value: 'False'
+          feedback: Great! You got it.
 ---
 # {{ params.vars.title }}
 Determine whether the following statements are true or false.

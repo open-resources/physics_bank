@@ -35,13 +35,14 @@ part1:
     weight: 1
     suffix: $ft/s^2$
     allow-blank: true
-substitutions:
-  params:
-    vars:
-      title: Pulley Crate
-      units: ft/s^2
-    m: 85
-    f: 46
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Pulley Crate
+        units: ft/s^2
+      m: 75
+      f: 30
 ---
 # {{ params.vars.title }}
 

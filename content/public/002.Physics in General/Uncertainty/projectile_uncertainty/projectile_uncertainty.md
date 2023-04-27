@@ -48,17 +48,18 @@ part3:
     allow-blank: true
     label: $\Delta v_o= $
     suffix: m/s
-substitutions:
-  params:
-    vars:
-      title: Projectile Uncertainty
-      name: Mateo
-      units1: m/s
-      units2: m
-    d: 0.126
-    s: 0.053
-    theta: 30
-    N: 30
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Projectile Uncertainty
+        name: Aliyah
+        units1: m/s
+        units2: m
+      d: 0.126
+      s: 0.053
+      theta: 30
+      N: 30
 ---
 # {{ params.vars.title }}
 In the second PHYS 111 lab, {{ params.vars.name }} repeatedly launched a metal sphere and measured the horizontal distance $d$ it traveled.

@@ -28,19 +28,20 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Collisions and Isolated Systems Graphs
-    part1:
-      ans1:
-        value: I
-      ans2:
-        value: II
-      ans3:
-        value: I & II
-      ans4:
-        value: Neither
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Collisions and Isolated Systems Graphs
+      part1:
+        ans1:
+          value: I
+        ans2:
+          value: II
+        ans3:
+          value: I & II
+        ans4:
+          value: Neither
 ---
 # {{ params.vars.title }}
 The figure below shows the velocity versus time graphs of two different collisions. The graph on the left shows a collision between cart A and cart S. The graph of the right shows a collision between cart B and cart S.

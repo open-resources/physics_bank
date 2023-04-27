@@ -38,14 +38,15 @@ part1:
     allow-blank: true
     label: $\vec{P} = $
     suffix: $N$
-substitutions:
-  params:
-    vars:
-      title: Two Blocks Stacked
-      units: N
-    m: 10
-    f: 0.41
-    t: 30
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Two Blocks Stacked
+        units: N
+      m: 14
+      f: 0.27
+      t: 39
 ---
 # {{ params.vars.title }}
 Blocks A and B each have a mass $m$ = {{params.m}} $kg$.

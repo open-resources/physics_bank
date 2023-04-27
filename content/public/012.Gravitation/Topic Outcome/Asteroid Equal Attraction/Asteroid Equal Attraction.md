@@ -29,12 +29,13 @@ part1:
     allow-blank: true
     label: $h= $
     suffix: $km$
-substitutions:
-  params:
-    vars:
-      title: Asteroid Equal Attraction
-      units: $km$
-    x: 9630
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Asteroid Equal Attraction
+        units: $km$
+      x: 20129
 ---
 # {{ params.vars.title }}
 <img src="L2Q2_drawing.png" width=90% style="padding: 5%">

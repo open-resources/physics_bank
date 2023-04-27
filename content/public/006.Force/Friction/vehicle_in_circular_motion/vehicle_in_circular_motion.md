@@ -70,32 +70,33 @@ part7:
     allow-blank: true
     label: $F_{friction} = $
     suffix: $\rm{N}$
-substitutions:
-  params:
-    vars:
-      title: Vehicle in Circular Motion
-      vehicle: sedan
-    m: 2100.0
-    v: 73.0
-    r: 98.0
-    theta: 19.0
-    f_s: 0.6
-    f_k: 0.4
-    f_r: 0.02
-    part1:
-      ans1:
-        value: centre, kinetic
-        feedback: Close! Consider if the tires are rolling or sliding.
-      ans2:
-        value: outside, static
-        feedback: Close! Consider why the vehicle is able to travel in a circle.
-      ans3:
-        value: centre, static
-        feedback: Great! You got it!
-      ans4:
-        value: outside, kinetic
-        feedback: 'Consider why the vehicle is able to travel in a circle, and if
-          its tires are rolling or sliding. '
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Vehicle in Circular Motion
+        vehicle: truck
+      m: 1600.0
+      v: 79.0
+      r: 120.0
+      theta: 18.0
+      f_s: 0.6
+      f_k: 0.4
+      f_r: 0.02
+      part1:
+        ans1:
+          value: centre, kinetic
+          feedback: Close! Consider if the tires are rolling or sliding.
+        ans2:
+          value: outside, static
+          feedback: Close! Consider why the vehicle is able to travel in a circle.
+        ans3:
+          value: centre, static
+          feedback: Great! You got it!
+        ans4:
+          value: outside, kinetic
+          feedback: 'Consider why the vehicle is able to travel in a circle, and if
+            its tires are rolling or sliding. '
 ---
 # {{ params.vars.title }}
 

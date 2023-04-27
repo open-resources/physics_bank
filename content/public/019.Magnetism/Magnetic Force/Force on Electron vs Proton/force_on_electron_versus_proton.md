@@ -36,28 +36,29 @@ part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Force on Electron vs Proton
-    part1:
-      ans1:
-        value: Same magnitude, different direction.
-      ans2:
-        value: Same magnitude, same direction.
-      ans3:
-        value: Different magnitude, different direction.
-      ans4:
-        value: Different magnitude, same direction.
-    part2:
-      ans1:
-        value: Same magnitude, different direction.
-      ans2:
-        value: Same magnitude, same direction.
-      ans3:
-        value: Different magnitude, different direction.
-      ans4:
-        value: Different magnitude, same direction.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Force on Electron vs Proton
+      part1:
+        ans1:
+          value: Same magnitude, different direction.
+        ans2:
+          value: Same magnitude, same direction.
+        ans3:
+          value: Different magnitude, different direction.
+        ans4:
+          value: Different magnitude, same direction.
+      part2:
+        ans1:
+          value: Same magnitude, different direction.
+        ans2:
+          value: Same magnitude, same direction.
+        ans3:
+          value: Different magnitude, different direction.
+        ans4:
+          value: Different magnitude, same direction.
 ---
 # {{ params.vars.title }}
 At a given instant, an electron and a proton are moving with the same velocity in a constant magnetic field.

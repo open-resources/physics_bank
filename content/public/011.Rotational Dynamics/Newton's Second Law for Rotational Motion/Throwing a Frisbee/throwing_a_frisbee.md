@@ -57,14 +57,15 @@ part4:
     file-name: answer.html
     quill-theme: snow
     directory: clientFilesQuestion
-substitutions:
-  params:
-    vars:
-      title: Throwing a Frisbee
-    dw: 12
-    dt: 0.05
-    m: 0.153
-    d: 0.316
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Throwing a Frisbee
+      dw: 14
+      dt: 0.15
+      m: 0.201
+      d: 0.26
 ---
 # {{ params.vars.title }}
 As a frisbee (a flying disk) is released, it is spun so that its angular velocity increases from 0 to {{ params.dw }} $\pi \; \rm{rad/s}$ in {{ params.dt }} $\rm{s}$.

@@ -29,32 +29,33 @@ part1:
   pl-customizations:
     weight: 1
     fixed-order: true
-substitutions:
-  params:
-    vars:
-      title: Water Filled Vase
-    part1:
-      ans1:
-        value: Option A
-        feedback: Consider how force changes with pressure, and what affects pressure.
-      ans2:
-        value: Option B
-        feedback: Make sure the vectors are pointing in the correct direction. Is
-          the water pushing or pulling?
-      ans3:
-        value: Option C
-        feedback: Great job! Pressure is equal to Force over Area, so the size of
-          the force is proportional to the pressure! Hydrostatic pressure increases
-          with depth ( $P = P_{0} + \rho gh$ ) so the vectors should get longer with
-          depth.
-      ans4:
-        value: Option D
-        feedback: Make sure the vectors are pointing in the correct direction. Is
-          the water pushing or pulling?
-      ans5:
-        value: Option E
-        feedback: Make sure the vectors are pointing in the correct direction. Is
-          the water pushing or pulling?
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Water Filled Vase
+      part1:
+        ans1:
+          value: Option A
+          feedback: Consider how force changes with pressure, and what affects pressure.
+        ans2:
+          value: Option B
+          feedback: Make sure the vectors are pointing in the correct direction. Is
+            the water pushing or pulling?
+        ans3:
+          value: Option C
+          feedback: Great job! Pressure is equal to Force over Area, so the size of
+            the force is proportional to the pressure! Hydrostatic pressure increases
+            with depth ( $P = P_{0} + \rho gh$ ) so the vectors should get longer
+            with depth.
+        ans4:
+          value: Option D
+          feedback: Make sure the vectors are pointing in the correct direction. Is
+            the water pushing or pulling?
+        ans5:
+          value: Option E
+          feedback: Make sure the vectors are pointing in the correct direction. Is
+            the water pushing or pulling?
 ---
 # {{ params.vars.title }}
 A water-filled vase is shown below.

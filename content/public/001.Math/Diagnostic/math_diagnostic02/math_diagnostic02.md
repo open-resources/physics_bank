@@ -28,21 +28,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic02
-    x: 507.79819118
-    sf: 6
-    part1:
-      ans1:
-        value: 507.798
-      ans2:
-        value: 507.898
-      ans3:
-        value: 507.798191
-      ans4:
-        value: 497.798
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic02
+      x: 432.96234
+      sf: 3
+      part1:
+        ans1:
+          value: 433.0
+        ans2:
+          value: 433.1
+        ans3:
+          value: 432.962
+        ans4:
+          value: 423.0
 ---
 # {{ params.vars.title }}
 

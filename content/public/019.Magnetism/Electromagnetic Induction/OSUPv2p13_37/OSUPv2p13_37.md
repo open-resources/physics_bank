@@ -32,13 +32,14 @@ part1:
     show-correct-answer: false
     label: $\varepsilon= $
     suffix: $\rm\ V$
-substitutions:
-  params:
-    vars:
-      title: Radio Antenna
-    l: '1.5'
-    v: '100'
-    B: '5.0'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Radio Antenna
+      l: '0.8'
+      v: '50'
+      B: '6.5'
 ---
 # {{ params.vars.title }}
 

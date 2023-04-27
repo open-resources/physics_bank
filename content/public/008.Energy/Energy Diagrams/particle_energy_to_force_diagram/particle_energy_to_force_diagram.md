@@ -30,7 +30,8 @@ part1:
   type: file-upload
   pl-customizations:
     file-names: diagram.pdf
-substitutions: {}
+myst:
+  substitutions: {}
 ---
 # {{ params.vars.title }}
 

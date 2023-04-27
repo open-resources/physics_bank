@@ -60,52 +60,53 @@ part6:
   pl-customizations:
     weight: 1
     fixed-order: true
-substitutions:
-  params:
-    vars:
-      title: Inducing Current with Bar Magnet
-    part1:
-      ans1:
-        value: Counterclockwise.
-      ans2:
-        value: Clockwise.
-      ans3:
-        value: No current is induced.
-    part2:
-      ans1:
-        value: Counterclockwise.
-      ans2:
-        value: Clockwise
-      ans3:
-        value: No current is induced.
-    part3:
-      ans1:
-        value: Counterclockwise.
-      ans2:
-        value: Clockwise.
-      ans3:
-        value: No current is induced.
-    part4:
-      ans1:
-        value: Counterclockwise.
-      ans2:
-        value: Clockwise.
-      ans3:
-        value: No current is induced.
-    part5:
-      ans1:
-        value: Counterclockwise.
-      ans2:
-        value: Clockwise.
-      ans3:
-        value: No current is induced.
-    part6:
-      ans1:
-        value: Counterclockwise.
-      ans2:
-        value: Clockwise.
-      ans3:
-        value: No current is induced.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Inducing Current with Bar Magnet
+      part1:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise.
+        ans3:
+          value: No current is induced.
+      part2:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise
+        ans3:
+          value: No current is induced.
+      part3:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise.
+        ans3:
+          value: No current is induced.
+      part4:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise.
+        ans3:
+          value: No current is induced.
+      part5:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise.
+        ans3:
+          value: No current is induced.
+      part6:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise.
+        ans3:
+          value: No current is induced.
 ---
 # {{ params.vars.title }}
 The figure below shows a bar magnet and a conducting ring interacting in various scenarios. For each scenario, state the direction of the induced current in the ring, observing from the side of the magnet.

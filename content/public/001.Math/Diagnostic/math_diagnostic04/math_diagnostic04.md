@@ -28,23 +28,24 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic04
-    b: 4
-    c: 12
-    part1:
-      ans1:
-        value: (x-4)(x+3)
-      ans2:
-        value: (x+4)(x-3)
-      ans3:
-        value: (x+6)(x-2)
-      ans4:
-        value: (x-6)(x+2)
-      ans5:
-        value: Do not know
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic04
+      b: 4
+      c: 12
+      part1:
+        ans1:
+          value: (x-4)(x+3)
+        ans2:
+          value: (x+4)(x-3)
+        ans3:
+          value: (x+6)(x-2)
+        ans4:
+          value: (x-6)(x+2)
+        ans5:
+          value: Do not know
 ---
 # {{ params.vars.title }}
 

@@ -39,27 +39,28 @@ part3:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    part3:
-      ans1:
-        value: Yes, the force of the sled acting on the dogs appears on the free body
-          diagram because all forces, including those in force pairs, must be included
-          on the diagram for it to be accurate.
-        feedback: In a free body diagram, only one of the two forces of an action-reaction
-          pair is included.
-      ans2:
-        value: No, it does not appear. The normal force on the slide is the related
-          force and is equal in size.
-        feedback: The normal force does not involve the dogs.
-      ans3:
-        value: No, it does not appear. The tension of the dogs acting on the sled
-          is the related force and is equal in size.
-        feedback: Great job! You got it.
-      ans4:
-        value: No, it does not appear. The tension of the dogs acting on the sled
-          is the related force and is smaller in size.
-        feedback: Consider Newton's third law.
+myst:
+  substitutions:
+    params:
+      part3:
+        ans1:
+          value: Yes, the force of the sled acting on the dogs appears on the free
+            body diagram because all forces, including those in force pairs, must
+            be included on the diagram for it to be accurate.
+          feedback: In a free body diagram, only one of the two forces of an action-reaction
+            pair is included.
+        ans2:
+          value: No, it does not appear. The normal force on the slide is the related
+            force and is equal in size.
+          feedback: The normal force does not involve the dogs.
+        ans3:
+          value: No, it does not appear. The tension of the dogs acting on the sled
+            is the related force and is equal in size.
+          feedback: Great job! You got it.
+        ans4:
+          value: No, it does not appear. The tension of the dogs acting on the sled
+            is the related force and is smaller in size.
+          feedback: Consider Newton's third law.
 ---
 # {{ params.vars.title }}
 A sled is pulled by a team of dogs across a level icy surface at constant velocity.

@@ -38,12 +38,13 @@ part1:
     show-correct-answer: false
     label: $U= $
     suffix: $\rm\ \mu\textrm{J}$
-substitutions:
-  params:
-    vars:
-      title: Energy Stored in a Capacitor
-    c: '9'
-    v: '15'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Energy Stored in a Capacitor
+      c: '13'
+      v: '7'
 ---
 # {{ params.vars.title }}
 

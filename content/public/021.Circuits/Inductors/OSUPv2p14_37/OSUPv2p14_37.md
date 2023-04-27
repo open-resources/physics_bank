@@ -42,12 +42,13 @@ part1:
     rtol: 0.03
     atol: 0
     custom-format: .3g
-substitutions:
-  params:
-    vars:
-      title: Rate of Change of Current in a Coil
-    L: '0.500'
-    V: '0.110'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Rate of Change of Current in a Coil
+      L: '0.400'
+      V: '0.250'
 ---
 # {{ params.vars.title }}
 

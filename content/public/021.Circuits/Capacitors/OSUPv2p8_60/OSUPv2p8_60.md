@@ -44,12 +44,13 @@ part2:
     allow-blank: false
     show-help-text: true
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Electric Field Between Capacitor Plates
-    a: '5.8'
-    b: '1.9'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Electric Field Between Capacitor Plates
+      a: '5.3'
+      b: '2.8'
 ---
 # {{ params.vars.title }}
 Two parallel plates have equal and opposite charges. When the space between the plates is evacuated, the electrical field is $E = {{params.a }} \times 10^5 \textrm{ V/m}$. When the space is filled with dielectric, the electrical field is $E = {{params.b }} \times 10^5 \textrm{ V/m}$.

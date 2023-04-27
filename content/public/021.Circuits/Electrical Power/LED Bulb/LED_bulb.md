@@ -38,13 +38,14 @@ part1:
     weight: 1
     allow-blank: false
     label: Cost = $
-substitutions:
-  params:
-    vars:
-      title: LED Bulb
-      units: $
-    c: 0.83
-    h: 5
+myst:
+  substitutions:
+    params:
+      vars:
+        title: LED Bulb
+        units: $
+      c: 0.49
+      h: 11
 ---
 # {{ params.vars.title }}
 

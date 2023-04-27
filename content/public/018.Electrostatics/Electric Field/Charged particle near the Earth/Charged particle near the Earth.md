@@ -46,16 +46,17 @@ part2:
   pl-customizations:
     blank: true
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Charged particle near the Earth
-    charge: proton
-    part2:
-      ans1:
-        value: Away from the surface of the Earth.
-      ans2:
-        value: Towards the surface of the Earth.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Charged particle near the Earth
+      charge: proton
+      part2:
+        ans1:
+          value: Away from the surface of the Earth.
+        ans2:
+          value: Towards the surface of the Earth.
 ---
 # {{ params.vars.title }}
 

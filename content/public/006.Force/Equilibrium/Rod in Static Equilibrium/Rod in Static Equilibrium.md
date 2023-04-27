@@ -50,12 +50,13 @@ part4:
   type: file-upload
   pl-customizations:
     file-names: rod.pdf
-substitutions:
-  params:
-    vars:
-      title: Rod in Static Equilibrium
-      unit1: $N$
-      unit2: degrees
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Rod in Static Equilibrium
+        unit1: $N$
+        unit2: degrees
 ---
 # {{ params.vars.title }}
 The figure shows a mass $M$ attached to the right end of a rod of length $L$ and of mass $m$. There is a support located at the middle of the rod. The left end of the rod is connected to a spring. The system is in static equilibrium.

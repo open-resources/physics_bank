@@ -51,16 +51,17 @@ part3:
     allow-blank: true
     label: $F= $
     suffix: N
-substitutions:
-  params:
-    vars:
-      title: Ropes and Blocks
-      units1: $\frac{m}{s^2}$
-      units2: N
-    m_a: 2
-    m_b: 5
-    m_c: 20
-    f_a: 77
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Ropes and Blocks
+        units1: $\frac{m}{s^2}$
+        units2: N
+      m_a: 2
+      m_b: 17
+      m_c: 20
+      f_a: 84
 ---
 # {{ params.vars.title }}
 Assume the three blocks portrayed in the figure move on a frictionless surface and a {{params.f_a}} N force

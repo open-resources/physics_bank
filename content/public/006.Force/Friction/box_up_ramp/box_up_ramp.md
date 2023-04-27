@@ -73,36 +73,37 @@ part7:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Box Up Ramp
-      name: Abbas
-    f: 179.0
-    k: 0.4
-    s: 0.6
-    ang: 12
-    part2:
-      ans1:
-        value: No, this is not an example of static or dynamic equilibrium.
-        feedback: Consider the net force.
-      ans2:
-        value: This is an example of dynamic equilibrium.
-        feedback: Great! You got it.
-      ans3:
-        value: This is an example of static equilibrium.
-        feedback: Is the box at rest or in motion?
-    part7:
-      ans1:
-        value: The box would slow down and come to a rest.
-        feedback: Consider the net force in the x axis.
-      ans2:
-        value: The box would continue to speed up.
-        feedback: Great! You got it; since $F_{net_x}$ > 0, the box would continue
-          to speed up!
-      ans3:
-        value: The box would slow down until achieving a constant velocity.
-        feedback: Consider the net force in the x axis.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Box Up Ramp
+        name: Savannah
+      f: 189.0
+      k: 0.3
+      s: 0.7
+      ang: 9
+      part2:
+        ans1:
+          value: No, this is not an example of static or dynamic equilibrium.
+          feedback: Consider the net force.
+        ans2:
+          value: This is an example of dynamic equilibrium.
+          feedback: Great! You got it.
+        ans3:
+          value: This is an example of static equilibrium.
+          feedback: Is the box at rest or in motion?
+      part7:
+        ans1:
+          value: The box would slow down and come to a rest.
+          feedback: Consider the net force in the x axis.
+        ans2:
+          value: The box would continue to speed up.
+          feedback: Great! You got it; since $F_{net_x}$ > 0, the box would continue
+            to speed up!
+        ans3:
+          value: The box would slow down until achieving a constant velocity.
+          feedback: Consider the net force in the x axis.
 ---
 # {{ params.vars.title }}
 On moving day, {{params.vars.name}} pushes a box weighing {{params.f}} $\rm{N}$ at constant speed up a ramp. They push parallel to the ramp with a force of magnitude $F\_{\textit{A on B}}$ (see the figure below). The ramp makes an angle of $\theta = {{params.ang}}^{\circ}$ with the horizontal direction. The coefficients of static and kinetic friction friction between the box and the ramp are $\mu_s = {{params.s}}$ and  $\mu_k = {{params.k}}$, respectively.

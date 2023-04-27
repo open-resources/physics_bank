@@ -30,23 +30,24 @@ part1:
   pl-customizations:
     weight: 1
     hide-letter-keys: true
-substitutions:
-  params:
-    vars:
-      title: Rotating Pencil
-    part1:
-      ans1:
-        value: The particle model tells us about the location of the pencil's centre
-          of mass, but nothing about its orientation.
-      ans2:
-        value: The particle model tells us about the location of the pencil's centre
-          of mass, but nothing about its weight.
-      ans3:
-        value: The particle model tells us about the location of the pencil's centre
-          of mass, but nothing about its mass.
-      ans4:
-        value: The particle model tells us about the location of the pencil's centre
-          of mass, but nothing about its height above the floor.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Rotating Pencil
+      part1:
+        ans1:
+          value: The particle model tells us about the location of the pencil's centre
+            of mass, but nothing about its orientation.
+        ans2:
+          value: The particle model tells us about the location of the pencil's centre
+            of mass, but nothing about its weight.
+        ans3:
+          value: The particle model tells us about the location of the pencil's centre
+            of mass, but nothing about its mass.
+        ans4:
+          value: The particle model tells us about the location of the pencil's centre
+            of mass, but nothing about its height above the floor.
 ---
 # {{ params.vars.title }}
 <img longdesc="Rotating Pencil.md#desc" alt="Motion diagram of a rotating pencil as it flies through the air." src="rotatingpencil.png" width="500px">

@@ -40,12 +40,13 @@ part1:
     show-correct-answer: false
     label: $B= $
     suffix: $\rm\ T$
-substitutions:
-  params:
-    vars:
-      title: Field due to lightning
-    d: '1.8'
-    p: $10^4$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Field due to lightning
+      d: '0.9'
+      p: $10^4$
 ---
 # {{ params.vars.title }}
 A typical current in a lightning bolt is {{ params.p }} $\rm\ A$.

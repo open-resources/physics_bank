@@ -30,27 +30,28 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Momentum
-    part1:
-      ans1:
-        value: 8 $\rm{kg m/s}$
-        feedback: Are you considering the change in momentum for the cricket bat or
-          the cricket ball?
-      ans2:
-        value: -8 $\rm{kg m/s}$
-        feedback: Great! You got it.
-      ans3:
-        value: -16 $\rm{kg m/s}$
-        feedback: Please check your calculation again!
-      ans4:
-        value: 12 $\rm{kg m/s}$
-        feedback: Please check your calculation again!
-      ans5:
-        value: Cannot be found from this information.
-        feedback: The answer can be determined by using the graph!
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Momentum
+      part1:
+        ans1:
+          value: 8 $\rm{kg m/s}$
+          feedback: Are you considering the change in momentum for the cricket bat
+            or the cricket ball?
+        ans2:
+          value: -8 $\rm{kg m/s}$
+          feedback: Great! You got it.
+        ans3:
+          value: -16 $\rm{kg m/s}$
+          feedback: Please check your calculation again!
+        ans4:
+          value: 12 $\rm{kg m/s}$
+          feedback: Please check your calculation again!
+        ans5:
+          value: Cannot be found from this information.
+          feedback: The answer can be determined by using the graph!
 ---
 # {{ params.vars.title }}
 The force that a cricket bat puts on a cricket ball as a function of time is shown in the diagram below.

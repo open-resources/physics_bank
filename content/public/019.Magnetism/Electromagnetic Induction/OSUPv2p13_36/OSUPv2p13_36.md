@@ -58,52 +58,53 @@ part6:
   pl-customizations:
     weight: 1
     fixed-order: true
-substitutions:
-  params:
-    vars:
-      title: Inducing Current from Magnetic Field
-    part1:
-      ans1:
-        value: Counterclockwise.
-      ans2:
-        value: Clockwise.
-      ans3:
-        value: No current is induced.
-    part2:
-      ans1:
-        value: Counterclockwise.
-      ans2:
-        value: Clockwise
-      ans3:
-        value: No current is induced.
-    part3:
-      ans1:
-        value: Counterclockwise.
-      ans2:
-        value: Clockwise.
-      ans3:
-        value: No current is induced.
-    part4:
-      ans1:
-        value: Counterclockwise.
-      ans2:
-        value: Clockwise.
-      ans3:
-        value: No current is induced.
-    part5:
-      ans1:
-        value: Counterclockwise.
-      ans2:
-        value: Clockwise.
-      ans3:
-        value: No current is induced.
-    part6:
-      ans1:
-        value: Counterclockwise.
-      ans2:
-        value: Clockwise.
-      ans3:
-        value: No current is induced.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Inducing Current from Magnetic Field
+      part1:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise.
+        ans3:
+          value: No current is induced.
+      part2:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise
+        ans3:
+          value: No current is induced.
+      part3:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise.
+        ans3:
+          value: No current is induced.
+      part4:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise.
+        ans3:
+          value: No current is induced.
+      part5:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise.
+        ans3:
+          value: No current is induced.
+      part6:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise.
+        ans3:
+          value: No current is induced.
 ---
 # {{ params.vars.title }}
 Use Lenz's law to determine the direction of induced current in each case.

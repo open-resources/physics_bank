@@ -49,65 +49,66 @@ part5:
   pl-customizations:
     weight: 1
     blank: 'true'
-substitutions:
-  params:
-    vars:
-      title: Label The Graph
-    part1:
-      ans1:
-        value: A
-      ans2:
-        value: B
-      ans3:
-        value: C
-      ans4:
-        value: D
-      ans5:
-        value: E
-    part2:
-      ans1:
-        value: A
-      ans2:
-        value: B
-      ans3:
-        value: C
-      ans4:
-        value: D
-      ans5:
-        value: E
-    part3:
-      ans1:
-        value: A
-      ans2:
-        value: B
-      ans3:
-        value: C
-      ans4:
-        value: D
-      ans5:
-        value: E
-    part4:
-      ans1:
-        value: A
-      ans2:
-        value: B
-      ans3:
-        value: C
-      ans4:
-        value: D
-      ans5:
-        value: E
-    part5:
-      ans1:
-        value: A
-      ans2:
-        value: B
-      ans3:
-        value: C
-      ans4:
-        value: D
-      ans5:
-        value: E
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Label The Graph
+      part1:
+        ans1:
+          value: A
+        ans2:
+          value: B
+        ans3:
+          value: C
+        ans4:
+          value: D
+        ans5:
+          value: E
+      part2:
+        ans1:
+          value: A
+        ans2:
+          value: B
+        ans3:
+          value: C
+        ans4:
+          value: D
+        ans5:
+          value: E
+      part3:
+        ans1:
+          value: A
+        ans2:
+          value: B
+        ans3:
+          value: C
+        ans4:
+          value: D
+        ans5:
+          value: E
+      part4:
+        ans1:
+          value: A
+        ans2:
+          value: B
+        ans3:
+          value: C
+        ans4:
+          value: D
+        ans5:
+          value: E
+      part5:
+        ans1:
+          value: A
+        ans2:
+          value: B
+        ans3:
+          value: C
+        ans4:
+          value: D
+        ans5:
+          value: E
 ---
 # {{ params.vars.title }}
 Each of the following 5 statements describe the motion shown in Fig.1 labeled A through E.

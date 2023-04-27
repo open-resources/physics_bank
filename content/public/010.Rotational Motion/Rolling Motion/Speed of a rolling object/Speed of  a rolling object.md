@@ -53,12 +53,13 @@ part3:
     allow-blank: true
     label: $v = $
     suffix: $\rm{m/s}$
-substitutions:
-  params:
-    vars:
-      title: Speed of a Rolling Object
-      units: "$\rm{m/s}$"
-    h: 9.35
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Speed of a Rolling Object
+        units: "$\rm{m/s}$"
+      h: 1.27
 ---
 # {{ params.vars.title }}
 Consider the setup shown in the figure below.

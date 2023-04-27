@@ -28,24 +28,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic11
-    a: 4
-    b: 9
-    c: 4
-    part1:
-      ans1:
-        value: x = -1.6, x = -0.61
-      ans2:
-        value: x = 1.6, x = 0.61
-      ans3:
-        value: x = 9, x = 4
-      ans4:
-        value: x = 4, x = 9
-      ans5:
-        value: Don't Know
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic11
+      a: 9
+      b: 7
+      c: 1
+      part1:
+        ans1:
+          value: x = -0.59, x = -0.19
+        ans2:
+          value: x = 0.59, x = 0.19
+        ans3:
+          value: x = 7, x = 1
+        ans4:
+          value: x = 9, x = 7
+        ans5:
+          value: Don't Know
 ---
 # {{ params.vars.title }}
 The solutions of the quadratic equation {{params.a}}$x^2$ + {{params.b}}$x$ + {{params.c}} = 0 are:

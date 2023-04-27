@@ -27,35 +27,37 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Power Waves Q1
-    units: $\rm{m}
-    r_sun_europa: 7.8
-    r_sun_earth: 1.5
-    part1:
-      ans1:
-        value: '5.00'
-        feedback: This is a random number, you probably selected this choice by mistake!
-          Try again please!
-      ans2:
-        value: 27.0
-        feedback: Great! You got it.
-      ans3:
-        value: 5.2
-        feedback: Hmm, it seems like you forgot to square the radii!
-      ans4:
-        value: 0.037
-        feedback: Hmm, it seems like you got the radii switched! Remember that you
-          need to compare the intensity of solar radiation reaching the Earth $I_{Earth}$
-          to the solar radiation reaching Europa $I_{Europa}$, not the other way around
-      ans5:
-        value: 0.19
-        feedback: Hmm, it seems like you got the radii switched and forgot to square
-          them! Remember that you need to compare the intensity of solar radiation
-          reaching the Earth $I_{Earth}$ to the solar radiation reaching Europa $I_{Europa}$,
-          not the other way around.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Power Waves Q1
+      units: $\rm{m}
+      r_sun_europa: 7.8
+      r_sun_earth: 1.5
+      part1:
+        ans1:
+          value: '5.00'
+          feedback: This is a random number, you probably selected this choice by
+            mistake! Try again please!
+        ans2:
+          value: 27.0
+          feedback: Great! You got it.
+        ans3:
+          value: 5.2
+          feedback: Hmm, it seems like you forgot to square the radii!
+        ans4:
+          value: 0.037
+          feedback: Hmm, it seems like you got the radii switched! Remember that you
+            need to compare the intensity of solar radiation reaching the Earth $I_{Earth}$
+            to the solar radiation reaching Europa $I_{Europa}$, not the other way
+            around
+        ans5:
+          value: 0.19
+          feedback: Hmm, it seems like you got the radii switched and forgot to square
+            them! Remember that you need to compare the intensity of solar radiation
+            reaching the Earth $I_{Earth}$ to the solar radiation reaching Europa
+            $I_{Europa}$, not the other way around.
 ---
 # {{ params.vars.title }}
 One of the moons of Jupiter, Europa, has shown evidence of water plumes coming from its surface. Europa is $ {{ params.r_sun_europa }} \times 10^{11}$ $\rm{m}$ from the sun, while Earth is $ {{ params.r_sun_earth }} \times 10^{11}$ $\rm{m}$ from the sun.

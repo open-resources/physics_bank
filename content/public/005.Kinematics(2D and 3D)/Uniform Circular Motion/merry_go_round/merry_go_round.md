@@ -48,13 +48,14 @@ part3:
     file-name: answer5.html
     quill-theme: snow
     directory: clientFilesQuestion
-substitutions:
-  params:
-    V: 1.8
-    T: 2.0
-    R: 0.46
-    vars:
-      title: Merry Go Round
+myst:
+  substitutions:
+    params:
+      V: 0.6
+      T: 0.54
+      R: 4.7
+      vars:
+        title: Merry Go Round
 ---
 # {{ params.vars.title }}
 A boy on a merry-go-round (a solid horizontal platform that rotates about its centre) is rotating at ${{ params.V }}$ m/s . He jumps vertically into the air and returns to the merry-go-round height ${{ params.T }}$ s later.

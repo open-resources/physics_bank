@@ -75,17 +75,18 @@ part6:
     label: $P= $
     suffix: $\rm\ W$
     show-help-text: true
-substitutions:
-  params:
-    vars:
-      title: Circuit with Resistance
-    B: '0.50'
-    v: '15'
-    part3:
-      ans1:
-        value: Clockwise
-      ans2:
-        value: Counterclockwise
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Circuit with Resistance
+      B: '1.50'
+      v: '20'
+      part3:
+        ans1:
+          value: Clockwise
+        ans2:
+          value: Counterclockwise
 ---
 # {{ params.vars.title }}
 Shown below is a conducting rod that slides along metal rails. The apparatus is in a uniform magnetic field of strength ${{params.B }} \textrm{ T}$, which is directly into the page. The rod is pulled to the right at a constant speed of ${{params.v }} \textrm{ m/s}$ by a force $\overrightarrow{F}$. The only significant resistance in the circuit comes from the $2.0 \rm\ \Omega$ resistor shown.

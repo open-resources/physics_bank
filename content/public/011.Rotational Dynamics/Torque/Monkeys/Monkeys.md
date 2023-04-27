@@ -101,10 +101,11 @@ part8:
     file-name: answer8.html
     quill-theme: snow
     directory: clientFilesQuestion
-substitutions:
-  params:
-    vars:
-      title: Monkeys
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Monkeys
 ---
 # {{ params.vars.title }}
 <img src="monkeys.gif">

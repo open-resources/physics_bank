@@ -27,21 +27,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Free Fall Turning Point
-    part1:
-      ans1:
-        value: $\overrightarrow{v}$ $= 0$ and $\overrightarrow{a}$ $= 0$.
-      ans2:
-        value: $\overrightarrow{v}$ $= 0$ and $\overrightarrow{a}$ $\neq 0$
-      ans3:
-        value: $\overrightarrow{v}$ $\neq 0$ and $\overrightarrow{a}$ $= 0$.
-      ans4:
-        value: $\overrightarrow{v}$ $\neq 0$ and $\overrightarrow{a}$ $\neq 0$.
-      ans5:
-        value: There is no general relation between $\overrightarrow{v}$ and $\overrightarrow{a}$.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Free Fall Turning Point
+      part1:
+        ans1:
+          value: $\overrightarrow{v}$ $= 0$ and $\overrightarrow{a}$ $= 0$.
+        ans2:
+          value: $\overrightarrow{v}$ $= 0$ and $\overrightarrow{a}$ $\neq 0$
+        ans3:
+          value: $\overrightarrow{v}$ $\neq 0$ and $\overrightarrow{a}$ $= 0$.
+        ans4:
+          value: $\overrightarrow{v}$ $\neq 0$ and $\overrightarrow{a}$ $\neq 0$.
+        ans5:
+          value: There is no general relation between $\overrightarrow{v}$ and $\overrightarrow{a}$.
 ---
 # {{ params.vars.title }}
 

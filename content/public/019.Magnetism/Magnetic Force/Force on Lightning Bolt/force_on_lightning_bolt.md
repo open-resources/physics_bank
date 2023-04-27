@@ -39,20 +39,21 @@ part2:
   pl-customizations:
     blank: true
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Force on Lightning Bolt
-    I: 18557
-    part2:
-      ans1:
-        value: North
-      ans2:
-        value: South
-      ans3:
-        value: East
-      ans4:
-        value: West
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Force on Lightning Bolt
+      I: 19544
+      part2:
+        ans1:
+          value: North
+        ans2:
+          value: South
+        ans3:
+          value: East
+        ans4:
+          value: West
 ---
 # {{ params.vars.title }}
 

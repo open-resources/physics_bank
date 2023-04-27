@@ -33,14 +33,15 @@ part1:
     allow-blank: true
     label: $\dot \theta= $
     suffix: $rad/s$
-substitutions:
-  params:
-    vars:
-      title: Rotating Spheres
-    m: 2.6
-    Mo: 3
-    t: 5
-    r: 0.5
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Rotating Spheres
+      m: 1.8
+      Mo: 3
+      t: 2
+      r: 0.1
 ---
 # {{ params.vars.title }}
 <img src="Rotating Spheres.png" width=400>

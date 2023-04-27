@@ -29,24 +29,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Block on a Ramp
-    m: 42
-    theta: 28
-    mu: 0.3
-    part1:
-      ans1:
-        value: 190.0 $N$, up the incline
-      ans2:
-        value: 360.0 $N$, up the incline
-      ans3:
-        value: 58.0 $N$, down the incline
-      ans4:
-        value: 110.0 $N$, down the incline
-      ans5:
-        value: 190.0 $N$, down the incline
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Block on a Ramp
+      m: 8
+      theta: 28
+      mu: 0.4
+      part1:
+        ans1:
+          value: 37.0 $N$, up the incline
+        ans2:
+          value: 69.0 $N$, up the incline
+        ans3:
+          value: 15.0 $N$, down the incline
+        ans4:
+          value: 28.0 $N$, down the incline
+        ans5:
+          value: 37.0 $N$, down the incline
 ---
 # {{ params.vars.title }}
 A mass of {{params.m}} $kg$ sits at rest on an incline making an angle of {{params.theta}} $^\circ$ with respect to the horizontal.

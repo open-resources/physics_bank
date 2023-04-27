@@ -37,10 +37,11 @@ part2:
   gradingMethod: Manual
   pl-customizations:
     file-names: motionDiagram.pdf
-substitutions:
-  params:
-    vars:
-      title: Motion Diagram of a Car
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Motion Diagram of a Car
 ---
 # {{ params.vars.title }}
 A car speeds up slowly from a stop sign, travels a short distance at a constant speed, then quickly brakes to stop at the next stop sign.

@@ -41,11 +41,12 @@ part1:
     show-correct-answer: false
     label: $a= $
     suffix: $\rm\ m/s^2$
-substitutions:
-  params:
-    vars:
-      title: Accelerating electrons
-    f_s: $5.00\times 10^6$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Accelerating electrons
+      f_s: $3.40\times 10^4$
 ---
 # {{ params.vars.title }}
 A simple and common technique for accelerating electrons is shown in the figure, where there is a uniform electric field between two plates.

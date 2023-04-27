@@ -33,45 +33,46 @@ part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Salmon Passing a Waterfall
-    d: 4.63
-    vx: 1.08
-    vy: 5.57
-    part1:
-      ans1:
-        value: Time interval for acceleration, $\Delta t$
-      ans2:
-        value: Vertical displacement, $\Delta y$
-      ans3:
-        value: Horizontal displacement, $\Delta x$
-      ans4:
-        value: Vertical acceleration component, $a_y$
-      ans5:
-        value: Horizontal acceleration component, $a_x$
-      ans6:
-        value: Vertical component of velocity at top of water, $v_{fy}$
-      ans7:
-        value: Horizontal component of velocity at top of water, $v_{fx}$
-      ans8:
-        value: Vertical component of velocity at bottom of water, $v_{iy}$
-      ans9:
-        value: Horizontal component of velocity at bottom of water, $v_{ix}$
-    part2:
-      ans1:
-        value: $(0.65\; m/s^2, 3.35 \; m/s^2)$
-      ans2:
-        value: $(3.35\; m/s^2, 0.65\; m/s^2)$
-      ans3:
-        value: $(0 \; m/s^2, 3.85\; m/s^2)$
-      ans4:
-        value: 9.81 $m/s^2$
-      ans5:
-        value: $(1.15\; m/s^2, 2.0\; m/s^2)$
-      ans6:
-        value: 2.0 $m/s^2$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Salmon Passing a Waterfall
+      d: 3.85
+      vx: 1.59
+      vy: 7.73
+      part1:
+        ans1:
+          value: Time interval for acceleration, $\Delta t$
+        ans2:
+          value: Vertical displacement, $\Delta y$
+        ans3:
+          value: Horizontal displacement, $\Delta x$
+        ans4:
+          value: Vertical acceleration component, $a_y$
+        ans5:
+          value: Horizontal acceleration component, $a_x$
+        ans6:
+          value: Vertical component of velocity at top of water, $v_{fy}$
+        ans7:
+          value: Horizontal component of velocity at top of water, $v_{fx}$
+        ans8:
+          value: Vertical component of velocity at bottom of water, $v_{iy}$
+        ans9:
+          value: Horizontal component of velocity at bottom of water, $v_{ix}$
+      part2:
+        ans1:
+          value: $(1.6\; m/s^2, 7.76 \; m/s^2)$
+        ans2:
+          value: $(7.76\; m/s^2, 1.6\; m/s^2)$
+        ans3:
+          value: $(0 \; m/s^2, 8.26\; m/s^2)$
+        ans4:
+          value: 9.81 $m/s^2$
+        ans5:
+          value: $(2.1\; m/s^2, 4.68\; m/s^2)$
+        ans6:
+          value: 4.68 $m/s^2$
 ---
 # {{ params.vars.title }}
 A salmon accelerates from rest in still water at a depth of {{ params.d }} $m$, to reach a velocity with components $v\_{x} = $ {{ params.vx }} $m/s$ and $v\_{y} = $ {{ params.vy }} $m/s$ when it jumps from the water to pass a waterfall.

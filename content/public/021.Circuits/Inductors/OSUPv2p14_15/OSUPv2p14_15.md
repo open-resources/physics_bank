@@ -34,19 +34,20 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: 'RL Series Circuit: Time'
-    part1:
-      ans1:
-        value: Immediately when switch $\rm S$ is first thrown.
-      ans2:
-        value: After an infinitely long period of time.
-      ans3:
-        value: After one time constant.
-      ans4:
-        value: After two time constants.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: 'RL Series Circuit: Time'
+      part1:
+        ans1:
+          value: Immediately when switch $\rm S$ is first thrown.
+        ans2:
+          value: After an infinitely long period of time.
+        ans3:
+          value: After one time constant.
+        ans4:
+          value: After two time constants.
 ---
 # {{ params.vars.title }}
 Consider the $RL$ circuit shown below.

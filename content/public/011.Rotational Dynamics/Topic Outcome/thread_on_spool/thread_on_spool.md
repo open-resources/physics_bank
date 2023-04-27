@@ -32,21 +32,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Rotational Inertia
-    part1:
-      ans1:
-        value: $g$
-      ans2:
-        value: $3g \over 4$
-      ans3:
-        value: $2g$
-      ans4:
-        value: $2g \over 3$
-      ans5:
-        value: $g \over 2$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Rotational Inertia
+      part1:
+        ans1:
+          value: $g$
+        ans2:
+          value: $3g \over 4$
+        ans3:
+          value: $2g$
+        ans4:
+          value: $2g \over 3$
+        ans5:
+          value: $g \over 2$
 ---
 # {{ params.vars.title }}
 

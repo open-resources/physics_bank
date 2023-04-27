@@ -28,22 +28,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic03
-      formula: 3x + -8 > -9x + 10
-    part1:
-      ans1:
-        value: x > 3/2
-      ans2:
-        value: x < 3/2
-      ans3:
-        value: x < 2/3
-      ans4:
-        value: x > 2/3
-      ans5:
-        value: Don't Know
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic03
+        formula: 9x + -10 > 2x + 1
+      part1:
+        ans1:
+          value: x > 11/7
+        ans2:
+          value: x < 11/7
+        ans3:
+          value: x < 7/11
+        ans4:
+          value: x > 7/11
+        ans5:
+          value: Don't Know
 ---
 # {{ params.vars.title }}
 The solution of the inequality {{params.vars.formula}} is:

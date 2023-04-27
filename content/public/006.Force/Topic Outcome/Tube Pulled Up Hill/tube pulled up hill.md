@@ -43,15 +43,16 @@ part2:
     allow-blank: true
     label: $a_{x}= $
     suffix: $m/s^2$
-substitutions:
-  params:
-    vars:
-      title: Tube pulled Uphill
-    m: 44
-    theta_s: 16
-    theta_2: 7
-    T_2: 183
-    T_1: 114
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Tube pulled Uphill
+      m: 41
+      theta_s: 16
+      theta_2: 10
+      T_2: 185
+      T_1: 122
 ---
 # {{ params.vars.title }}
 <img src="L14Q2.png" width=80%>

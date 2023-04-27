@@ -40,10 +40,11 @@ part2:
     variables: a, b, I, μ0
     weight: 1
     allow-blank: false
-substitutions:
-  params:
-    vars:
-      title: Parallel wires in a circuit
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Parallel wires in a circuit
 ---
 # {{ params.vars.title }}
 A circuit with current $I$ has two long parallel wire sections that carry current in opposite directions.

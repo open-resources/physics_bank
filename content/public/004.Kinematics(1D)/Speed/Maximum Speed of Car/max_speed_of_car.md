@@ -29,14 +29,15 @@ part1:
     allow-blank: true
     label: $v_{max}= $
     suffix: $ft/s$
-substitutions:
-  params:
-    vars:
-      title: Maximum Speed of Car
-      units: $ft/s$
-    yards: 100
-    max_speed_t: 8
-    overall_t: 9
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Maximum Speed of Car
+        units: $ft/s$
+      yards: 100
+      max_speed_t: 3
+      overall_t: 6
 ---
 # {{ params.vars.title }}
 <img src="L5Q1.png" width=85%>

@@ -24,24 +24,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic23
-    a: 1
-    b: 1
-    formula: $x \cos{\left(x \right)}$
-    part1:
-      ans1:
-        value: $- x \sin{\left(x \right)} + \cos{\left(x \right)}$
-      ans2:
-        value: $- x \sin{\left(x \right)} $
-      ans3:
-        value: $ \sin{\left(x \right)}$
-      ans4:
-        value: $x \cos{\left(x \right)} + \sin{\left(x \right)}$
-      ans5:
-        value: Don't Know
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic23
+      a: 2
+      b: 1
+      formula: $x^{2} \cos{\left(x \right)}$
+      part1:
+        ans1:
+          value: $- x^{2} \sin{\left(x \right)} + 2 x \cos{\left(x \right)}$
+        ans2:
+          value: $- x^{2} \sin{\left(x \right)} $
+        ans3:
+          value: $ 2 x \sin{\left(x \right)}$
+        ans4:
+          value: $x^{2} \cos{\left(x \right)} + 2 x \sin{\left(x \right)}$
+        ans5:
+          value: Don't Know
 ---
 # {{ params.vars.title }}
 The derivative of {{params.formula}} is

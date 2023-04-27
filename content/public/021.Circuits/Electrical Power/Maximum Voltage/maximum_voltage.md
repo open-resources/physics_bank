@@ -37,13 +37,14 @@ part1:
     allow-blank: false
     label: $V= $
     suffix: $\rm\ V$
-substitutions:
-  params:
-    vars:
-      title: Maximum Voltage
-      units: V
-    P: 0.73
-    R: 87
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Maximum Voltage
+        units: V
+      P: 1.69
+      R: 92
 ---
 # {{ params.vars.title }}
 

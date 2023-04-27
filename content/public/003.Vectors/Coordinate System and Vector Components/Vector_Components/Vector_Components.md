@@ -33,28 +33,29 @@ part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Vector Components
-    part1:
-      ans1:
-        value: B cos θ
-      ans2:
-        value: '0'
-      ans3:
-        value: A sin θ
-      ans4:
-        value: '1'
-    part2:
-      ans1:
-        value: A cos θ
-      ans2:
-        value: '0'
-      ans3:
-        value: '1'
-      ans4:
-        value: A sin θ
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Vector Components
+      part1:
+        ans1:
+          value: B cos θ
+        ans2:
+          value: '0'
+        ans3:
+          value: A sin θ
+        ans4:
+          value: '1'
+      part2:
+        ans1:
+          value: A cos θ
+        ans2:
+          value: '0'
+        ans3:
+          value: '1'
+        ans4:
+          value: A sin θ
 ---
 # {{ params.vars.title }}
 For this question, consider two vectors **$\vec{A}$** and **$\vec{B}$** that are orthogonal to each other.

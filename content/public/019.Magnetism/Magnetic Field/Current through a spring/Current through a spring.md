@@ -38,17 +38,18 @@ part1:
   pl-customizations:
     weight: 1
     blank: true
-substitutions:
-  params:
-    vars:
-      title: Current through a spring
-    part1:
-      ans1:
-        value: The length decreases
-      ans2:
-        value: The length increases
-      ans3:
-        value: The length stays the same
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Current through a spring
+      part1:
+        ans1:
+          value: The length decreases
+        ans2:
+          value: The length increases
+        ans3:
+          value: The length stays the same
 ---
 # {{ params.vars.title }}
 

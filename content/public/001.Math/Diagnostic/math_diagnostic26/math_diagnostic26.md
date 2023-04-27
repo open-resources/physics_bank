@@ -27,25 +27,26 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic26
-    a: 3
-    b: -2
-    x: -1
-    y: 1
-    part1:
-      ans1:
-        value: 3
-      ans2:
-        value: -5
-      ans3:
-        value: -1
-      ans4:
-        value: 1
-      ans5:
-        value: Do not know
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic26
+      a: 3
+      b: -2
+      x: -1
+      y: 1
+      part1:
+        ans1:
+          value: 3
+        ans2:
+          value: -5
+        ans3:
+          value: -1
+        ans4:
+          value: 1
+        ans5:
+          value: Do not know
 ---
 # {{ params.vars.title }}
 

@@ -33,11 +33,12 @@ part1:
     allow-blank: true
     label: $v= $
     suffix: $m/s$
-substitutions:
-  params:
-    vars:
-      title: Bike on a Hill
-    R: 126
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Bike on a Hill
+      R: 157
 ---
 # {{ params.vars.title }}
 <img src="Connected Balls on Hill.png" width=400>

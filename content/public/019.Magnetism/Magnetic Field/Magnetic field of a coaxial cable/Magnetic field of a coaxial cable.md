@@ -85,38 +85,39 @@ part8:
     sort: fixed
     weight: 1
     blank: true
-substitutions:
-  params:
-    vars:
-      title: Magnetic field of a coaxial cable
-    part2:
-      ans1:
-        value: clockwise
-      ans2:
-        value: counterclockwise
-      ans3:
-        value: the magnetic field is zero
-    part4:
-      ans1:
-        value: clockwise
-      ans2:
-        value: counterclockwise
-      ans3:
-        value: the magnetic field is zero
-    part6:
-      ans1:
-        value: clockwise
-      ans2:
-        value: counterclockwise
-      ans3:
-        value: the magnetic field is zero
-    part8:
-      ans1:
-        value: clockwise
-      ans2:
-        value: counterclockwise
-      ans3:
-        value: the magnetic field is zero
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Magnetic field of a coaxial cable
+      part2:
+        ans1:
+          value: clockwise
+        ans2:
+          value: counterclockwise
+        ans3:
+          value: the magnetic field is zero
+      part4:
+        ans1:
+          value: clockwise
+        ans2:
+          value: counterclockwise
+        ans3:
+          value: the magnetic field is zero
+      part6:
+        ans1:
+          value: clockwise
+        ans2:
+          value: counterclockwise
+        ans3:
+          value: the magnetic field is zero
+      part8:
+        ans1:
+          value: clockwise
+        ans2:
+          value: counterclockwise
+        ans3:
+          value: the magnetic field is zero
 ---
 # {{ params.vars.title }}
 A portion of a long, cylindrical coaxial cable is shown in the figure.

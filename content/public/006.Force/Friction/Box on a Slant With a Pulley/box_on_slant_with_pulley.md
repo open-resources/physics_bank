@@ -48,13 +48,14 @@ part3:
     allow-blank: true
     label: $m_s = $
     suffix: $\rm{kg}$
-substitutions:
-  params:
-    vars:
-      title: Box on a Slant with a Pulley
-    angl: 13
-    coef: 0.5
-    mass: 2
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Box on a Slant with a Pulley
+      angl: 12
+      coef: 0.1
+      mass: 6
 ---
 # {{ params.vars.title }}
 The figure shows a block of mass $m_s$ resting on a $\theta = {{params.angl}}^\circ$ slope.

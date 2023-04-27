@@ -46,12 +46,13 @@ part2:
     allow-blank: true
     label: $\theta_f= $
     suffix: $^{\circ}$
-substitutions:
-  params:
-    vars:
-      title: Perfectly Inelastic Collision
-    v1: 1
-    v2: 3
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Perfectly Inelastic Collision
+      v1: 3
+      v2: 1
 ---
 # {{ params.vars.title }}
 Particles of mass $m$ and $2m$ have velocities $v_1=$ {{ params.v1 }}$v\hat{x}$ and $v_2=$ {{ params.v2 }}$v\hat{y}$ respectively.

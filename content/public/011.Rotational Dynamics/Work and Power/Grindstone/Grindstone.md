@@ -44,15 +44,16 @@ part2:
     suffix: $\rm{turns}$
     comparison: sigfig
     digits: 2
-substitutions:
-  params:
-    vars:
-      title: Grindstone
-    M: 9.8
-    R: 9
-    RPM: 1554
-    F: 3.0
-    mu: 0.82
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Grindstone
+      M: 10.6
+      R: 12
+      RPM: 1320
+      F: 6.8
+      mu: 0.93
 ---
 # {{ params.vars.title }}
 A uniform cylindrical grindstone has a mass of ${{ params.M }} \rm{kg}$ and a radius of ${{ params.R }} \rm{cm}$.

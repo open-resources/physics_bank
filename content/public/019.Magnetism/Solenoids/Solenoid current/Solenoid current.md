@@ -39,12 +39,13 @@ part1:
     show-correct-answer: false
     label: $I= $
     suffix: $\rm\ A$
-substitutions:
-  params:
-    vars:
-      title: Solenoid current
-    n: '16'
-    B: $4.4\times 10^{-2}$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Solenoid current
+      n: '9'
+      B: $5.0\times 10^{-2}$
 ---
 # {{ params.vars.title }}
 A solenoid has {{ params.n }} turns per centimeter.

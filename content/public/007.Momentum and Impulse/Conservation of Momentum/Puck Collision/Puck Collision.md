@@ -29,20 +29,21 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Puck Collision
-    E: 11
-    part1:
-      ans1:
-        value: momentum increases, kinetic energy increases
-      ans2:
-        value: momentum increases, kinetic energy is unchanged
-      ans3:
-        value: momentum is unchanged, kinetic energy increases
-      ans4:
-        value: momentum is unchanged, kinetic energy is unchanged
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Puck Collision
+      E: 20
+      part1:
+        ans1:
+          value: momentum increases, kinetic energy increases
+        ans2:
+          value: momentum increases, kinetic energy is unchanged
+        ans3:
+          value: momentum is unchanged, kinetic energy increases
+        ans4:
+          value: momentum is unchanged, kinetic energy is unchanged
 ---
 # {{ params.vars.title }}
 Consider a system of two pucks on a frictionless surface. An orange puck moving with velocity $\vec{v\_{oi}}$ collides with a blue puck that is initially at rest. At the time of the collision, a small explosion injects {{ params.E }} $J$ of energy into the system. Afterwards, the pucks move as shown in the figure below.

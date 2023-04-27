@@ -28,25 +28,26 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic10
-    a: -11
-    b: '1'
-    b_sign: ' + '
-    c: 2
-    part1:
-      ans1:
-        value: x =   13/1
-      ans2:
-        value: x =  - 13/1
-      ans3:
-        value: x = 12
-      ans4:
-        value: x = -10
-      ans5:
-        value: This equation cannot be solved
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic10
+      a: 8
+      b: '13'
+      b_sign: ' + '
+      c: -13
+      part1:
+        ans1:
+          value: x =  - 21/13
+        ans2:
+          value: x =   21/13
+        ans3:
+          value: x = -34
+        ans4:
+          value: x = -18
+        ans5:
+          value: This equation cannot be solved
 ---
 # {{ params.vars.title }}
 

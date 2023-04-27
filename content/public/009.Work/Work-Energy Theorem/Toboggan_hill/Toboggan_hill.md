@@ -64,20 +64,21 @@ part4:
     suffix: $\rm{m/s}$
     comparison: decdig
     digits: 1
-substitutions:
-  params:
-    vars:
-      name: Santiago
-      title: Toboggan Hill
-      units1_2_3: "$\rm{kJ}$"
-      units_4: "$\rm{m/s}$"
-    m: 38
-    l: 80
-    ang_horiz: 29
-    fr: 84
-    fwind: 17
-    ang_wind: 15
-    v_i: 1
+myst:
+  substitutions:
+    params:
+      vars:
+        name: Abbas
+        title: Toboggan Hill
+        units1_2_3: "$\rm{kJ}$"
+        units_4: "$\rm{m/s}$"
+      m: 31
+      l: 82
+      ang_horiz: 33
+      fr: 63
+      fwind: 18
+      ang_wind: 20
+      v_i: 1
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} and their sled, with a combined mass of ${{params.m}}$ $\rm{kg}$, slide ${{params.l}}$ $\rm{m}$ down a hill that makes an angle of ${{params.ang_horiz}}^\circ$ with the horizontal.

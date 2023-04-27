@@ -28,10 +28,11 @@ part1:
     suffix: $deg
     comparison: sigfig
     digits: 2
-substitutions:
-  params:
-    vars:
-      title: Archer Fish and Insect Catch
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Archer Fish and Insect Catch
 ---
 # {{ params.vars.title }}
 An âarcherâ fish catches insect prey by squirting water droplets into the air to knock insects off the leaves above the surface of the water.

@@ -81,13 +81,14 @@ part4:
     suffix: $\rm\ V$
     weight: 1
     custom-format: .3g
-substitutions:
-  params:
-    vars:
-      title: RC Series Circuit
-    R: '575.0'
-    C: '1.80'
-    V: '6.93'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: RC Series Circuit
+      R: '575.0'
+      C: '1.60'
+      V: '6.44'
 ---
 # {{ params.vars.title }}
 A ${{ params.R }}\rm\ \Omega$ resistor, an uncharged ${{ params.C }}\rm\ \mu F$ capacitor, and a ${{ params.V }}\rm\ V$ are connected in series.

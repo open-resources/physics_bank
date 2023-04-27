@@ -48,18 +48,19 @@ part3:
     allow-blank: true
     label: $\rho= $
     suffix: $m$
-substitutions:
-  params:
-    vars:
-      title: Polar Coordinates from Functions
-    a1: 9
-    a2: -1
-    b1: -8
-    b2: -1
-    c1: -8
-    c2: 6
-    v: 9i + (-8j) + (-8k)
-    a: -1i + (-1j) + (6k)
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Polar Coordinates from Functions
+      a1: -7
+      a2: -10
+      b1: -2
+      b2: 4
+      c1: 7
+      c2: -8
+      v: -7i + (-2j) + (7k)
+      a: -10i + (4j) + (-8k)
 ---
 # {{ params.vars.title }}
 The velocity and acceleration of a particle at a moment in time is given by $v = {{params.v}}m/s$ and

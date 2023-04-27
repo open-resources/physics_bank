@@ -45,20 +45,21 @@ part4:
     variables: v
     weight: 1
     allow-blank: false
-substitutions:
-  params:
-    vars:
-      title: Collision of Objects A and B
-      name: Ximena
-    v1: 3
-    v2: 6
-    m_a: 2
-    m_b: 5
-    part2:
-      ans1:
-        value: 'Yes'
-      ans2:
-        value: 'No'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Collision of Objects A and B
+        name: Lorenzo
+      v1: 2
+      v2: 2
+      m_a: 6
+      m_b: 6
+      part2:
+        ans1:
+          value: 'Yes'
+        ans2:
+          value: 'No'
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} observes object A, which has mass ${{params.m_a}}$ and velocity $v_0 \vec{i}$, collide with object B, which has mass {{params.m_b}} $kg$ and a velocity  1/{{params.v1}} $v_0 \vec{j}$.

@@ -44,11 +44,12 @@ part2:
     suffix: $\rm{m/s}$
     comparison: sigfig
     digits: 2
-substitutions:
-  params:
-    vars:
-      title: Impulse of a particle
-    m: 261
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Impulse of a particle
+      m: 254
 ---
 # {{ params.vars.title }}
 <img src="Impulse.png" alt= " A graph of force in the unit of newton, and time in ms. A straight line from t1= 0 ms to t2= 3 ms where F1 = 0 N and F2= 800 N. A horizontal line from t2= 3 ms to t3= 6 ms where F= 800 N.">

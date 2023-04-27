@@ -41,12 +41,13 @@ part1:
     comparison: relabs
     rtol: 0.03
     atol: 0
-substitutions:
-  params:
-    vars:
-      title: Frequency of an LC Circuit
-    L: '0.14'
-    C: '3.7'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Frequency of an LC Circuit
+      L: '0.31'
+      C: '3.4'
 ---
 # {{ params.vars.title }}
 The self-inductance and capacitance of an $LC$ circuit are $L = {{ params.L }}\rm\ mH$ and $C = {{ params.C }}\rm\ pF$.

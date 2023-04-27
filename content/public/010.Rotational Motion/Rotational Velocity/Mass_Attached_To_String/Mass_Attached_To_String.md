@@ -29,23 +29,24 @@ part1:
   pl-customizations:
     weight: 1
     fixed-order: 'True'
-substitutions:
-  params:
-    vars:
-      title: Mass Attached To String
-    part1:
-      ans1:
-        value: Arrow A
-      ans2:
-        value: Arrow B
-      ans3:
-        value: Arrow C
-      ans4:
-        value: Arrow D
-      ans5:
-        value: Arrow E
-      ans6:
-        value: Arrow F
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Mass Attached To String
+      part1:
+        ans1:
+          value: Arrow A
+        ans2:
+          value: Arrow B
+        ans3:
+          value: Arrow C
+        ans4:
+          value: Arrow D
+        ans5:
+          value: Arrow E
+        ans6:
+          value: Arrow F
 ---
 # {{ params.vars.title }}
 The figure below shows a mass attached to a string.

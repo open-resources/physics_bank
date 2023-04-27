@@ -27,21 +27,22 @@ part1:
   pl-customizations:
     weight: 1
     fixed-order: true
-substitutions:
-  params:
-    vars:
-      title: Ohm's Law
-    part1:
-      ans1:
-        value: A
-      ans2:
-        value: B
-      ans3:
-        value: C
-      ans4:
-        value: D
-      ans5:
-        value: None of the above
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Ohm's Law
+      part1:
+        ans1:
+          value: A
+        ans2:
+          value: B
+        ans3:
+          value: C
+        ans4:
+          value: D
+        ans5:
+          value: None of the above
 ---
 # {{ params.vars.title }}
 

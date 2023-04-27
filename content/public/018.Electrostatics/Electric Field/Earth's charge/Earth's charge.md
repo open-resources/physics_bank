@@ -29,17 +29,18 @@ part1:
   pl-customizations:
     weight: 1
     blank: true
-substitutions:
-  params:
-    vars:
-      title: Earth's charge
-    part1:
-      ans1:
-        value: neutral
-      ans2:
-        value: positive
-      ans3:
-        value: negative
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Earth's charge
+      part1:
+        ans1:
+          value: neutral
+        ans2:
+          value: positive
+        ans3:
+          value: negative
 ---
 # {{ params.vars.title }}
 

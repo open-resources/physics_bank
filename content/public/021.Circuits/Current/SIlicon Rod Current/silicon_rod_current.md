@@ -39,14 +39,15 @@ part1:
     show-correct-answer: false
     label: $I= $
     suffix: $\rm\ A$
-substitutions:
-  params:
-    vars:
-      title: Current Through A Silicon Rod
-      units: "$\textrm{A}$"
-    d: 2.76
-    l: 38.5
-    V: 81
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Current Through A Silicon Rod
+        units: "$\textrm{A}$"
+      d: 4.19
+      l: 10.1
+      V: 75
 ---
 # {{ params.vars.title }}
 

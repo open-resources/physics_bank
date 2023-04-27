@@ -36,12 +36,13 @@ part1:
     comparison: relabs
     rtol: 0.03
     atol: 0
-substitutions:
-  params:
-    vars:
-      title: Long thin wire
-    B: '2.6'
-    d: '78'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Long thin wire
+      B: '5.4'
+      d: '38'
 ---
 # {{ params.vars.title }}
 The magnitude of the megnetic field ${{ params.d }}\rm\ cm$ from a long, thin straight wire is ${{ params.B }}\rm\ \mu T$.

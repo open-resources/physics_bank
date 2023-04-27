@@ -36,16 +36,17 @@ part1:
     suffix: $^\circ$
     comparison: sigfig
     digits: 2
-substitutions:
-  params:
-    vars:
-      title: Swinging Ball Elastic Collision
-    l: 2.4
-    m_1: 200
-    m_2: 1.4
-    x: 1.9
-    k: 2110
-    spring: 15
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Swinging Ball Elastic Collision
+      l: 1.9
+      m_1: 200
+      m_2: 1.4
+      x: 1.1
+      k: 2330
+      spring: 25
 ---
 # {{ params.vars.title }}
 A {{params.m_1}} $\rm{g}$ rubber ball is tied to a {{params.l}} meter long string and released from rest at angle $\theta$.

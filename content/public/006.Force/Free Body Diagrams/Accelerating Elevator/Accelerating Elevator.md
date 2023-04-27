@@ -46,13 +46,14 @@ part2:
     suffix: $N$
     comparison: sigfig
     digits: 3
-substitutions:
-  params:
-    vars:
-      title: Accelerating Elevator
-      units: $N$
-    m: 70.6
-    a: 1.17
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Accelerating Elevator
+        units: $N$
+      m: 68.6
+      a: 1.39
 ---
 # {{ params.vars.title }}
 A person with a mass of {{ params.m }} $kg$ is standing on the floor of an elevator which is accelerating downward at {{ params.a }} $m/s^2$.

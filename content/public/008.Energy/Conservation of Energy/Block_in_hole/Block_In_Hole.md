@@ -33,13 +33,14 @@ part1:
     allow-blank: true
     label: $h= $
     suffix: $m$
-substitutions:
-  params:
-    vars:
-      title: Block In Hole
-      units: m
-    a: 29
-    d: 0.7
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Block In Hole
+        units: m
+      a: 29
+      d: 0.6
 ---
 # {{ params.vars.title }}
 A small block is placed at height $h$ on a frictionless, {{params.a}}$^\circ$ ramp.

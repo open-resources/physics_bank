@@ -42,14 +42,15 @@ part2:
     weight: 1
     allow-blank: true
     suffix: $m/s^2$
-substitutions:
-  params:
-    vars:
-      title: Raising weight with Block on Hill
-      units_v: m/s
-      units_a: m/s^2
-    v_b: 2.3
-    a_b: 1.3
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Raising weight with Block on Hill
+        units_v: m/s
+        units_a: m/s^2
+      v_b: 2.5
+      a_b: 2.4
 ---
 # {{ params.vars.title }}
 <img src="L13Q3.png" width=85%>

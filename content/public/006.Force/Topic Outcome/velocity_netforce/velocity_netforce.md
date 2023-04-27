@@ -29,30 +29,31 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Velocity and Net Force
-    t: 1
-    part1:
-      ans1:
-        value: Velocity is negative, net force is to the left
-      ans2:
-        value: Velocity is negative, net force is to the right
-      ans3:
-        value: Velocity is negative, net force is zero
-      ans4:
-        value: Velocity is positive, net force is to the left
-      ans5:
-        value: Velocity is positive, net force is to the right
-      ans6:
-        value: Velocity is positive, net force is zero
-      ans7:
-        value: Velocity is zero, net force is to the left
-      ans8:
-        value: Velocity is zero, net force is to the right
-      ans9:
-        value: Velocity is zero, net force is zero
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Velocity and Net Force
+      t: 1
+      part1:
+        ans1:
+          value: Velocity is negative, net force is to the left
+        ans2:
+          value: Velocity is negative, net force is to the right
+        ans3:
+          value: Velocity is negative, net force is zero
+        ans4:
+          value: Velocity is positive, net force is to the left
+        ans5:
+          value: Velocity is positive, net force is to the right
+        ans6:
+          value: Velocity is positive, net force is zero
+        ans7:
+          value: Velocity is zero, net force is to the left
+        ans8:
+          value: Velocity is zero, net force is to the right
+        ans9:
+          value: Velocity is zero, net force is zero
 ---
 # {{ params.vars.title }}
 The position versus time graph of a mass on a spring is shown in the image.

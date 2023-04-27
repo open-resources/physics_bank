@@ -46,10 +46,11 @@ part3:
     variables: t, A, w
     weight: 1
     allow-blank: false
-substitutions:
-  params:
-    vars:
-      title: Perfect Elastic Collision of a Mass Attached to a Spring
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Perfect Elastic Collision of a Mass Attached to a Spring
 ---
 # {{ params.vars.title }}
 A block of mass $m_1$ slides across a frictionless surface with speed $v_1$ and collides perfectly elastically with a block $m_2$ (initially at rest).

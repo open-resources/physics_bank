@@ -27,21 +27,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic22
-    denom: 8
-    formula: $\sin{\left(\frac{x}{8} \right)}$
-    part1:
-      ans1:
-        value: ${- 8 \cos{\left(\frac{x}{8} \right)}}$
-      ans2:
-        value: ${8 \cos{\left(\frac{x}{8} \right)}}$
-      ans3:
-        value: ${- 16 \cos{\left(\frac{x}{8} \right)}}$
-      ans4:
-        value: ${- 4 \cos{\left(\frac{x}{8} \right)}}$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic22
+      denom: 7
+      formula: $\sin{\left(\frac{x}{7} \right)}$
+      part1:
+        ans1:
+          value: ${- 7 \cos{\left(\frac{x}{7} \right)}}$
+        ans2:
+          value: ${7 \cos{\left(\frac{x}{7} \right)}}$
+        ans3:
+          value: ${- 14 \cos{\left(\frac{x}{7} \right)}}$
+        ans4:
+          value: ${- \frac{7 \cos{\left(\frac{x}{7} \right)}}{2}}$
 ---
 # {{ params.vars.title }}
 

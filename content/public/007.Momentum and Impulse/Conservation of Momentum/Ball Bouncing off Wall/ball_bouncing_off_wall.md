@@ -41,16 +41,17 @@ part2:
     allow-blank: true
     label: $F_{avg}= $
     suffix: $N$
-substitutions:
-  params:
-    vars:
-      title: Ball Bouncing off a Wall
-      units1: $\frac{kg*m}{s}$
-      units2: $N$
-    m: 3
-    v: 8
-    theta: 29
-    t: 0.399
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Ball Bouncing off a Wall
+        units1: $\frac{kg*m}{s}$
+        units2: $N$
+      m: 7
+      v: 14
+      theta: 25
+      t: 0.321
 ---
 # {{ params.vars.title }}
 A {{params.m}} kg steel bass strikes a massive wall at {{params.v}} m/s at an angle of {{params.theta}} degrees with the plane of the wall.

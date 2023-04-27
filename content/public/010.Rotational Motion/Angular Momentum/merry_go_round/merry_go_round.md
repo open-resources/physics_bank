@@ -34,24 +34,25 @@ part2:
     weight: 1
     partial-credit: true
     partial-credit-method: EDC
-substitutions:
-  params:
-    vars:
-      title: Merry Go Round
-      name: Aliyah
-    part1:
-      ans1:
-        value: The merry-go-round's moment of inertia is increasing.
-      ans2:
-        value: Angular momentum is conserved.
-      ans3:
-        value: The merry-go-round's moment of inertia is decreasing.
-      ans4:
-        value: The merry-go-round's moment of inertia stays the same
-      ans5:
-        value: Angular momentum is not conserved.
-      ans6:
-        value: Angular momentum is not conserved because this is an open system.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Merry Go Round
+        name: Mateo
+      part1:
+        ans1:
+          value: The merry-go-round's moment of inertia is increasing.
+        ans2:
+          value: Angular momentum is conserved.
+        ans3:
+          value: The merry-go-round's moment of inertia is decreasing.
+        ans4:
+          value: The merry-go-round's moment of inertia stays the same
+        ans5:
+          value: Angular momentum is not conserved.
+        ans6:
+          value: Angular momentum is not conserved because this is an open system.
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} starts standing on the outer edge of a merry-go-round that is rotating at an angular velocity of $\omega_0$.

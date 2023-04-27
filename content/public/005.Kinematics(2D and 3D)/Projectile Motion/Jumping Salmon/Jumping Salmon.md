@@ -37,32 +37,33 @@ part2:
     allow-blank: true
     label: $v_{iy}= $
     suffix: $m/s$
-substitutions:
-  params:
-    vars:
-      title: Jumping Salmon
-      units: $m/s$
-    h_fall: 3.69
-    dist: 0.961
-    part1:
-      ans1:
-        value: Time interval for jump, $\Delta t$
-      ans2:
-        value: Vertical displacement, $\Delta y$
-      ans3:
-        value: Horizontal displacement, $\Delta x$
-      ans4:
-        value: Horizontal acceleration component, $a_x$
-      ans5:
-        value: Vertical acceleration component, $a_y$
-      ans6:
-        value: Vertical component of velocity at top of falls, $v_{fy}$
-      ans7:
-        value: Horizontal component of velocity at top of falls, $v_{fx}$
-      ans8:
-        value: Vertical component of velocity at bottom of falls, $v_{iy}$
-      ans9:
-        value: Horizontal component of velocity at bottom of falls, $v_{ix}$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Jumping Salmon
+        units: $m/s$
+      h_fall: 3.71
+      dist: 1.05
+      part1:
+        ans1:
+          value: Time interval for jump, $\Delta t$
+        ans2:
+          value: Vertical displacement, $\Delta y$
+        ans3:
+          value: Horizontal displacement, $\Delta x$
+        ans4:
+          value: Horizontal acceleration component, $a_x$
+        ans5:
+          value: Vertical acceleration component, $a_y$
+        ans6:
+          value: Vertical component of velocity at top of falls, $v_{fy}$
+        ans7:
+          value: Horizontal component of velocity at top of falls, $v_{fx}$
+        ans8:
+          value: Vertical component of velocity at bottom of falls, $v_{iy}$
+        ans9:
+          value: Horizontal component of velocity at bottom of falls, $v_{ix}$
 ---
 # {{ params.vars.title }}
 There are reports that salmon can only just jump over a {{ params.h_fall }} $m$ falls.

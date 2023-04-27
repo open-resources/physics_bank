@@ -38,12 +38,13 @@ part1:
     show-correct-answer: false
     label: $A= $
     suffix: $\rm\ m^2$
-substitutions:
-  params:
-    vars:
-      title: Area of Capacitor Plates
-    c: '3.5'
-    d: '2.4'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Area of Capacitor Plates
+      c: '2.0'
+      d: '1.5'
 ---
 # {{ params.vars.title }}
 

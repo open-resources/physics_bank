@@ -63,13 +63,14 @@ part4:
     show-help-text: true
     suffix: $\textrm{C}$
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Switching Connections
-    a: '2.0'
-    b: '5.0'
-    v: '2.0'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Switching Connections
+      a: '5.0'
+      b: '2.0'
+      v: '4.0'
 ---
 # {{ params.vars.title }}
 A ${{params.a }} \rm\ \mu\textrm{F}$ capacitor and a ${{params.b }} \rm\ \mu\textrm{F}$ capacitor are connected in series across a ${{params.v }} \textrm{ kV}$ potential. The charged capacitors are then disconnected from the source and connected to each other with terminals of like sign together.

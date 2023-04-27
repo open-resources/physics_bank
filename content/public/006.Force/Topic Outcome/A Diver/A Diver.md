@@ -44,15 +44,16 @@ part3:
     allow-blank: true
     label: $\theta = $
     suffix: $^\circ$
-substitutions:
-  params:
-    vars:
-      title: A Diver
-      unit1: $N$
-      unit2: degrees
-    m: 79.2
-    L: 4.53
-    d: 1.67
+myst:
+  substitutions:
+    params:
+      vars:
+        title: A Diver
+        unit1: $N$
+        unit2: degrees
+      m: 79.5
+      L: 2.64
+      d: 1.06
 ---
 # {{ params.vars.title }}
 A $M = $ {{ params.m }} $kg$ diver stands at the edge of a diving board with length $L = $ {{ params.L }} $m$ and negligible mass. The diving board is supported by two narrow pillars. One pillar is located at the end of the diving board furthest from the water and the other is $d = $ {{ params.d }} $m$ towards the water, as shown in the figure.

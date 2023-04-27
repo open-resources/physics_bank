@@ -28,26 +28,27 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Oscillations
-    part1:
-      ans1:
-        value: 10 $s$
-        feedback: Are you solving for period or frequency? Check your units!
-      ans2:
-        value: 0.10 $Hz$
-        feedback: Please check your steps and try again!
-      ans3:
-        value: 0.1 $\pi$ $Hz$
-        feedback: Make sure you are solving for frequency, not angular frequency!
-      ans4:
-        value: 0.05 $Hz$
-        feedback: Great! You got it!
-      ans5:
-        value: 20 $s$
-        feedback: Are you solving for period or frequency? Check your units!
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Oscillations
+      part1:
+        ans1:
+          value: 10 $s$
+          feedback: Are you solving for period or frequency? Check your units!
+        ans2:
+          value: 0.10 $Hz$
+          feedback: Please check your steps and try again!
+        ans3:
+          value: 0.1 $\pi$ $Hz$
+          feedback: Make sure you are solving for frequency, not angular frequency!
+        ans4:
+          value: 0.05 $Hz$
+          feedback: Great! You got it!
+        ans5:
+          value: 20 $s$
+          feedback: Are you solving for period or frequency? Check your units!
 ---
 # {{ params.vars.title }}
 A simple harmonic oscillator has a displacement from equilibrium $x = A \cos(\phi)$, where the phase is plotted as a function of time in Fig. 1.

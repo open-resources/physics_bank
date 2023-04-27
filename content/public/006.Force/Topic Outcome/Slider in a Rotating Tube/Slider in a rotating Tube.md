@@ -41,16 +41,17 @@ part2:
     allow-blank: true
     label: $F_{\theta} = $
     suffix: N
-substitutions:
-  params:
-    vars:
-      title: Slider in a Rotating Tube
-    m: 0.36
-    w: 7
-    wdot: -1
-    r: 0.34
-    rdot: -3.2
-    rddot: 1.1
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Slider in a Rotating Tube
+      m: 0.48
+      w: 10
+      wdot: -9
+      r: 0.43
+      rdot: -3.2
+      rddot: 1.0
 ---
 # {{ params.vars.title }}
 <img src="Slider in a rotating Tube.png" alt="A vertical hollow tube rotating about its vertical axis at omega rad per second is connected to a horizontal hollow tube in which a slider P moves under control of a string. The distance from the slider to the point of connection is R. The tension in the string acts downwards." width=200>

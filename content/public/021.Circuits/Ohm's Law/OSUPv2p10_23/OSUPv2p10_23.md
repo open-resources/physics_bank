@@ -47,17 +47,18 @@ part2:
   pl-customizations:
     blank: true
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Unknown Voltage Source
-    dV: '2.10'
-    dI: '5.20'
-    part2:
-      ans1:
-        value: 'No'
-      ans2:
-        value: 'Yes'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Unknown Voltage Source
+      dV: '2.00'
+      dI: '5.20'
+      part2:
+        ans1:
+          value: 'No'
+        ans2:
+          value: 'Yes'
 ---
 # {{ params.vars.title }}
 

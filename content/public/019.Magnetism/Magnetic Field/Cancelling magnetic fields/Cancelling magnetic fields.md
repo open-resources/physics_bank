@@ -44,15 +44,16 @@ part2:
   pl-customizations:
     weight: 1
     blank: true
-substitutions:
-  params:
-    vars:
-      title: Cancelling magnetic fields
-    part2:
-      ans1:
-        value: Towards the top of the screen
-      ans2:
-        value: Towards the bottom of the screen
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Cancelling magnetic fields
+      part2:
+        ans1:
+          value: Towards the top of the screen
+        ans2:
+          value: Towards the bottom of the screen
 ---
 # {{ params.vars.title }}
 Two long wires, one of which has a semicircular bend of radius $R$, are positioned as shown in the figure.

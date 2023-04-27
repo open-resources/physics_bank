@@ -54,38 +54,40 @@ part4:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: A Frictionless Air Track?
-      name: Abbas
-      units: $m/s^2$
-    m1: 341.9
-    m2: 54.84
-    d_a: 0.02
-    mean: 1.49
-    sd: 0.154
-    a1: 1.45
-    a2: 1.34
-    a3: 1.56
-    a4: 1.31
-    a5: 1.42
-    a6: 1.74
-    a7: 1.35
-    a8: 1.78
-    a9: 1.54
-    a10: 1.46
-    part4:
-      ans1:
-        value: The track is frictionless because $a_{expected}$ does not agree with
-          $a_{measured}$.
-      ans2:
-        value: The track is not frictionless because $a_{expected}$ agrees with $a_{measured}$.
-      ans3:
-        value: The track is not frictionless because $a_{expected}$ does not agree
-          with $a_{measured}$.
-      ans4:
-        value: The track is frictionless because $a_{expected}$ agrees with $a_{measured}$.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: A Frictionless Air Track?
+        name: Santiago
+        units: $m/s^2$
+      m1: 271.0
+      m2: 41.93
+      d_a: 0.01
+      mean: 1.54
+      sd: 0.156
+      a1: 1.33
+      a2: 1.31
+      a3: 1.77
+      a4: 1.47
+      a5: 1.75
+      a6: 1.53
+      a7: 1.52
+      a8: 1.64
+      a9: 1.66
+      a10: 1.4
+      part4:
+        ans1:
+          value: The track is frictionless because $a_{expected}$ does not agree with
+            $a_{measured}$.
+        ans2:
+          value: The track is not frictionless because $a_{expected}$ agrees with
+            $a_{measured}$.
+        ans3:
+          value: The track is not frictionless because $a_{expected}$ does not agree
+            with $a_{measured}$.
+        ans4:
+          value: The track is frictionless because $a_{expected}$ agrees with $a_{measured}$.
 ---
 # {{ params.vars.title }}
 Because of {{ params.vars.name }}'s excellent work in lab, their professor asks them to test out a new "frictionless" air track, which can be used to measure the acceleration due to gravity.

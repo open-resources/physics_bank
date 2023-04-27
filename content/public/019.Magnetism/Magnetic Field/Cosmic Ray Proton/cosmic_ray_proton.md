@@ -36,13 +36,14 @@ part1:
     show-correct-answer: false
     label: $B= $
     suffix: $\rm\ T$
-substitutions:
-  params:
-    vars:
-      title: Cosmic Ray Proton
-    v: 9.38
-    F: 3.81
-    theta: 63
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Cosmic Ray Proton
+      v: 8.31
+      F: 3.09
+      theta: 44
 ---
 # {{ params.vars.title }}
 

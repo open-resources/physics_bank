@@ -29,21 +29,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Collision of Billiard Balls
-    part1:
-      ans1:
-        value: 'red ball: $-v$, cue ball: $3v$'
-      ans2:
-        value: 'red ball: $v$; cue ball: $2v$'
-      ans3:
-        value: 'red ball: $-3v$; cue ball: $v$'
-      ans4:
-        value: 'red ball: $v$; cue ball: $3v$'
-      ans5:
-        value: More information is needed.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Collision of Billiard Balls
+      part1:
+        ans1:
+          value: 'red ball: $-v$, cue ball: $3v$'
+        ans2:
+          value: 'red ball: $v$; cue ball: $2v$'
+        ans3:
+          value: 'red ball: $-3v$; cue ball: $v$'
+        ans4:
+          value: 'red ball: $v$; cue ball: $3v$'
+        ans5:
+          value: More information is needed.
 ---
 # {{ params.vars.title }}
 In a game of billards, a red billiard ball is traveling in the positive x-direction with speed $v$ and the cue ball is traveling in the negative x-direction with speed $3v$.

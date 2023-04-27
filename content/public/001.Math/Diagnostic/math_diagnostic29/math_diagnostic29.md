@@ -29,21 +29,22 @@ part1:
   pl-customizations:
     fixed-order: true
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic29
-    part1:
-      ans1:
-        value: Answer A
-      ans2:
-        value: Answer B
-      ans3:
-        value: Answer C
-      ans4:
-        value: Answer D
-      ans5:
-        value: Don't Know
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic29
+      part1:
+        ans1:
+          value: Answer A
+        ans2:
+          value: Answer B
+        ans3:
+          value: Answer C
+        ans4:
+          value: Answer D
+        ans5:
+          value: Don't Know
 ---
 # {{ params.vars.title }}
 Which is a sketch of the function $ y = e^{x} $ for $ x \geq 0 $

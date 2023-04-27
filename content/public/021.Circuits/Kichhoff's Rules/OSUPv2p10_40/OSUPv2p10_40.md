@@ -70,15 +70,16 @@ part3:
     suffix: $\rm\ A$
     weight: 1
     custom-format: .2g
-substitutions:
-  params:
-    vars:
-      title: Circuit Loop within a Loop
-    R1: '5.0'
-    R2: '6.0'
-    R3: '4.0'
-    V1: '22.0'
-    V2: '8.0'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Circuit Loop within a Loop
+      R1: '7.0'
+      R2: '5.0'
+      R3: '2.0'
+      V1: '22.0'
+      V2: '10.0'
 ---
 # {{ params.vars.title }}
 Consider the circuit shown below.

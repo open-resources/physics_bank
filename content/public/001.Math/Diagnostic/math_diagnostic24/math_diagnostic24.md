@@ -27,25 +27,26 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic24
-    x1: 1
-    x2: -2
-    x3: 1
-    x4: 1
-    part1:
-      ans1:
-        value: tends to -2
-      ans2:
-        value: tends to 0
-      ans3:
-        value: tends to 1
-      ans4:
-        value: is undefined
-      ans5:
-        value: Do not know
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic24
+      x1: 1
+      x2: -2
+      x3: 1
+      x4: 1
+      part1:
+        ans1:
+          value: tends to -2
+        ans2:
+          value: tends to 0
+        ans3:
+          value: tends to 1
+        ans4:
+          value: is undefined
+        ans5:
+          value: Do not know
 ---
 # {{ params.vars.title }}
 

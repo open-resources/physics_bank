@@ -29,22 +29,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic08
-    expr: $\dfrac{-42x - 35y }{ 7 }$
-    part1:
-      ans1:
-        value: $- 6 x - 5 y$
-      ans2:
-        value: $\dfrac{-6x - 5y}{7}$
-      ans3:
-        value: $-5x - 6y$
-      ans4:
-        value: $-42x - 35y$
-      ans5:
-        value: Don't know.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic08
+      expr: $\dfrac{12x - 6y }{ -3 }$
+      part1:
+        ans1:
+          value: $- 4 x + 2 y$
+        ans2:
+          value: $\dfrac{-4x + 2y}{-3}$
+        ans3:
+          value: $2x - 4y$
+        ans4:
+          value: $12x + 6y$
+        ans5:
+          value: Don't know.
 ---
 # {{ params.vars.title }}
 

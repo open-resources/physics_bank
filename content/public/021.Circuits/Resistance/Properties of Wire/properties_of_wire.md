@@ -41,21 +41,22 @@ part2:
     suffix: $\rm \Omega$
     custom-format: .3g
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Properties of Wire
-    part1:
-      ans1:
-        value: Silver
-      ans2:
-        value: Gold
-      ans3:
-        value: Copper
-      ans4:
-        value: Aluminum
-      ans5:
-        value: Tungsten
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Properties of Wire
+      part1:
+        ans1:
+          value: Silver
+        ans2:
+          value: Gold
+        ans3:
+          value: Copper
+        ans4:
+          value: Aluminum
+        ans5:
+          value: Tungsten
 ---
 # {{ params.vars.title }}
 A wire is $25.0\rm\ m$ long with a diameter of $0.100\rm\ mm$. and has a resistance of $77.7 \rm\ \Omega$ at $20 ^\circ \textrm{C}$.

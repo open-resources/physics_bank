@@ -37,10 +37,11 @@ part1:
     variables: B, l, v, N
     weight: 1
     allow-blank: false
-substitutions:
-  params:
-    vars:
-      title: Loop Moving Through Magnetic Field
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Loop Moving Through Magnetic Field
 ---
 # {{ params.vars.title }}
 The rectangular loop of $N$ turns shown below moves to the right with a constant velocity $\overrightarrow{ v}$ while leaving the poles of a large electromagnet.

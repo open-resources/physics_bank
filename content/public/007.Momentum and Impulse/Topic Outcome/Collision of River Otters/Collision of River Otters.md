@@ -115,22 +115,23 @@ part9:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Collision of River Otters
-    m_s: 4.18
-    m_l: 7.55
-    vis: 4.83
-    vil: 7.5
-    theta_i: 42.9
-    part9:
-      ans1:
-        value: Kinetic energy is lost in this collision.
-      ans2:
-        value: Kinetic energy is gained in this collision.
-      ans3:
-        value: Kinetic energy remains constant in this collision.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Collision of River Otters
+      m_s: 3.28
+      m_l: 5.5
+      vis: 4.39
+      vil: 7.93
+      theta_i: 54.9
+      part9:
+        ans1:
+          value: Kinetic energy is lost in this collision.
+        ans2:
+          value: Kinetic energy is gained in this collision.
+        ans3:
+          value: Kinetic energy remains constant in this collision.
 ---
 # {{ params.vars.title }}
 Two river otters collide while sliding across frictionless ice and get tangled together following the (perfectly inelastic) collision as shown in the figure, where a coordinate system has been defined.

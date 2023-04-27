@@ -41,12 +41,13 @@ part1:
     show-correct-answer: false
     label: $d= $
     suffix: $\rm\ m$
-substitutions:
-  params:
-    vars:
-      title: Electric potential of parallel plates
-    f_s: $4.80\times 10^{3}$
-    V: '24.0'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Electric potential of parallel plates
+      f_s: $3.60\times 10^{3}$
+      V: '25.0'
 ---
 # {{ params.vars.title }}
 

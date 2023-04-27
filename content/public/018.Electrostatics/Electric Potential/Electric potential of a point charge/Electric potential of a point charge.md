@@ -41,12 +41,13 @@ part1:
     suffix: $\rm\ C$
     weight: 1
     custom-format: .3g
-substitutions:
-  params:
-    vars:
-      title: Electric potential of a point charge
-    r: '3.20'
-    V: '1.00'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Electric potential of a point charge
+      r: '2.40'
+      V: '-3.40'
 ---
 # {{ params.vars.title }}
 

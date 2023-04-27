@@ -42,13 +42,14 @@ part1:
     rtol: 0.03
     atol: 0
     custom-format: .3g
-substitutions:
-  params:
-    vars:
-      title: Inductance of a Solenoid
-    l: '40.0'
-    N: '410'
-    A: '2.10'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Inductance of a Solenoid
+      l: '42.0'
+      N: '530'
+      A: '1.20'
 ---
 # {{ params.vars.title }}
 A ${{ params.l }}\rm\ cm$ long solenoid is wound with ${{ params.N }}\rm\ turns$ of wire.

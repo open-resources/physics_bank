@@ -38,17 +38,18 @@ part2:
     allow-blank: true
     label: $m = $
     suffix: $\rm{kg}$
-substitutions:
-  params:
-    vars:
-      title: Bullet and Block
-      name: Ximena
-    m_bullet: 31
-    m_block: 11
-    bullet_v: 756
-    slide_d: 5
-    slide_dnew: 5.3
-    coeff_k: 0.2
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Bullet and Block
+        name: Savannah
+      m_bullet: 38
+      m_block: 18
+      bullet_v: 777
+      slide_d: 3
+      slide_dnew: 3.9
+      coeff_k: 0.2
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} fires a ${{ params.m_bullet }} \rm{g}$ bullet into a ${{ params.m_block }} \rm{kg}$ block of wood that is initially at rest on a table.

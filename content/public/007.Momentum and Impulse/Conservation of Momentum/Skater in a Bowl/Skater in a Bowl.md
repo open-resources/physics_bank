@@ -33,13 +33,14 @@ part1:
     allow-blank: true
     label: $\theta= $
     suffix: $^{\circ}$
-substitutions:
-  params:
-    vars:
-      title: Skater in a Bowl
-    ro: 4.72
-    vo: 3
-    h: 1.39
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Skater in a Bowl
+      ro: 4.92
+      vo: 3
+      h: 1.02
 ---
 # {{ params.vars.title }}
 <img src="Marble in a Bowl.png" width=400>

@@ -27,23 +27,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Bungee Jumping
-      name: Lorenzo
-    part1:
-      ans1:
-        value: The tension points down, and Lorenzo moves down, so negative work is
-          done.
-      ans2:
-        value: The tension points up, and Lorenzo moves down, so positive work is
-          done.
-      ans3:
-        value: The tension points up, and Lorenzo moves down, so negative work is
-          done.
-      ans4:
-        value: The tension point up, and Lorenzo moves up, so positive work is done.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Bungee Jumping
+        name: Savannah
+      part1:
+        ans1:
+          value: The tension points up, and Savannah moves down, so negative work
+            is done.
+        ans2:
+          value: The tension points down, and Savannah moves down, so negative work
+            is done.
+        ans3:
+          value: The tension points up, and Savannah moves down, so positive work
+            is done.
+        ans4:
+          value: The tension point up, and Savannah moves up, so positive work is
+            done.
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} decides to go bungee jumping. Starting atop a very high bridge, elastic cords are tied to their feet and they jump off the bridge. Once {{ params.vars.name }} has fallen a certain distance, the force of the bungee cords slows their descent until they are at the lowest point.

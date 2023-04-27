@@ -32,11 +32,12 @@ part1:
     label: $T = $
     suffix: $\rm{s}$
     comparison: relabs
-substitutions:
-  params:
-    vars:
-      title: Period of Pendulum
-    L: 0.76
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Period of Pendulum
+      L: 1.16
 ---
 # {{ params.vars.title }}
 

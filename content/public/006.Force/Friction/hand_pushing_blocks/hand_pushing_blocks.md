@@ -29,17 +29,18 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Hand Pushing on Blocks
-    part1:
-      ans1:
-        value: smaller than the force of the hand on A.
-      ans2:
-        value: equal to the force of the hand on A.
-      ans3:
-        value: larger than the force of the hand on A.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Hand Pushing on Blocks
+      part1:
+        ans1:
+          value: smaller than the force of the hand on A.
+        ans2:
+          value: equal to the force of the hand on A.
+        ans3:
+          value: larger than the force of the hand on A.
 ---
 # {{ params.vars.title }}
 The hand in the figure pushes the back of block A.

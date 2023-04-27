@@ -35,15 +35,16 @@ part1:
   pl-customizations:
     weight: 1
     blank: true
-substitutions:
-  params:
-    vars:
-      title: Order of charges
-    part1:
-      ans1:
-        value: 'True'
-      ans2:
-        value: 'False'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Order of charges
+      part1:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
 ---
 # {{ params.vars.title }}
 

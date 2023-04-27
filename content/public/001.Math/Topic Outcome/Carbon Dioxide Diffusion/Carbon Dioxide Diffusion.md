@@ -59,21 +59,22 @@ part5:
     quill-theme: snow
     directory: clientFilesQuestion
     source-file-name: sample.html
-substitutions:
-  params:
-    vars:
-      title: Carbon Dioxide Diffusion
-      unit1: $m^2/s$
-      unit2: $s$
-    water: 2.0
-    air: 1.8
-    time: 7
-    const: 5
-    part3:
-      ans1:
-        value: directly
-      ans2:
-        value: inversely
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Carbon Dioxide Diffusion
+        unit1: $m^2/s$
+        unit2: $s$
+      water: 2.0
+      air: 1.7
+      time: 6
+      const: 5
+      part3:
+        ans1:
+          value: directly
+        ans2:
+          value: inversely
 ---
 # {{ params.vars.title }}
 According to our textbook, at 25$^\circ$ $C$, the diffusion constant of $CO_2$ in water is $D\_{water} = {{ params.water }} \times 10^{-9}$ $m^2/s$ and the diffusion constant of $CO_2$ in air at one atmosphere is $D\_{air} = {{ params.air }} \times 10^{-5}$ $m^2/s$. If it takes $t\_{air} = $ {{ params.time }} $s$ for $CO_2$ to diffuse a distance $r\_{rms}=d_1$ through the air, how long does it take for $CO_2$ to diffuse $r\_{rms}=d_1$ through the water?

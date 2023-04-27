@@ -27,21 +27,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic01
-    part1:
-      ans1:
-        value: 4.6E24
-      ans2:
-        value: 1.5E6
-      ans3:
-        value: 7440.308721429768
-      ans4:
-        value: '8.7E-29'
-      ans5:
-        value: Don't Know
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic01
+      part1:
+        ans1:
+          value: 5.2E93
+        ans2:
+          value: 4.6E7
+        ans3:
+          value: 8164.368952013527
+        ans4:
+          value: '9.3E-79'
+        ans5:
+          value: Don't Know
 ---
 # {{ params.vars.title }}
 The largest of the following numbers is:

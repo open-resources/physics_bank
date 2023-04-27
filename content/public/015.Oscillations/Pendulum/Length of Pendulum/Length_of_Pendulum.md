@@ -32,11 +32,12 @@ part1:
     label: $L = $
     suffix: $\rm{m}$
     comparison: relabs
-substitutions:
-  params:
-    vars:
-      title: Length of Pendulum
-    T: 0.4
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Length of Pendulum
+      T: 0.33
 ---
 # {{ params.vars.title }}
 

@@ -31,26 +31,30 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Antilock Braking Systems
-    part1:
-      ans1:
-        value: The coefficient of rolling friction is larger than that of kinetic
-          friction.
-      ans2:
-        value: The coefficient of kinetic friction is larger than that of rolling
-          friction.
-      ans3:
-        value: In rolling motion, a car's wheels remain at rest relative to the road,
-          and the coefficient of static friction is larger than that of kinetic friction.
-      ans4:
-        value: In sliding motion, a car's wheels remain at rest relative to the road,
-          and the coefficient of static friction is larger than that of kinetic friction.
-      ans5:
-        value: In sliding motion,  a car's wheels remain at rest relative to the car,  and
-          the coefficient of kinetic friction is larger than that of static friction.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Antilock Braking Systems
+      part1:
+        ans1:
+          value: The coefficient of rolling friction is larger than that of kinetic
+            friction.
+        ans2:
+          value: The coefficient of kinetic friction is larger than that of rolling
+            friction.
+        ans3:
+          value: In rolling motion, a car's wheels remain at rest relative to the
+            road, and the coefficient of static friction is larger than that of kinetic
+            friction.
+        ans4:
+          value: In sliding motion, a car's wheels remain at rest relative to the
+            road, and the coefficient of static friction is larger than that of kinetic
+            friction.
+        ans5:
+          value: In sliding motion,  a car's wheels remain at rest relative to the
+            car,  and the coefficient of kinetic friction is larger than that of static
+            friction.
 ---
 # {{ params.vars.title }}
 Antilock braking systems (ABS) automatically release brakes when wheels are locked.  Once the wheels recommence rolling, the ABS reapplies the brakes.

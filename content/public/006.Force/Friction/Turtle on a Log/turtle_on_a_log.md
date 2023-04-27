@@ -33,36 +33,37 @@ part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Turtle on a log
-    part1:
-      ans1:
-        value: $F_n = mg$
-      ans2:
-        value: $F_n = 0$
-      ans3:
-        value: $F_n = mg \sin\theta$
-      ans4:
-        value: $F_n = mg\cos\theta$
-      ans5:
-        value: $F_n = 2\cdot mg tan\theta$
-    part2:
-      ans1:
-        value: $F_{fs} = \mu_s mg$
-      ans3:
-        value: $F_{fs} = \mu_s mg\sin\theta$
-      ans2:
-        value: $F_{fs} = \mu_s mg \cos\theta$
-      ans4:
-        value: $F_{fs} = mg\sin\theta$
-      ans5:
-        value: $F_{fs} = mg\cos\theta$
-      ans6:
-        value: $F_{fs} = mg tan\theta$
-      ans7:
-        value: $F_{fs} = \mu_s mg tan\theta$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Turtle on a log
+      part1:
+        ans1:
+          value: $F_n = mg$
+        ans2:
+          value: $F_n = 0$
+        ans3:
+          value: $F_n = mg \sin\theta$
+        ans4:
+          value: $F_n = mg\cos\theta$
+        ans5:
+          value: $F_n = 2\cdot mg tan\theta$
+      part2:
+        ans1:
+          value: $F_{fs} = \mu_s mg$
+        ans3:
+          value: $F_{fs} = \mu_s mg\sin\theta$
+        ans2:
+          value: $F_{fs} = \mu_s mg \cos\theta$
+        ans4:
+          value: $F_{fs} = mg\sin\theta$
+        ans5:
+          value: $F_{fs} = mg\cos\theta$
+        ans6:
+          value: $F_{fs} = mg tan\theta$
+        ans7:
+          value: $F_{fs} = \mu_s mg tan\theta$
 ---
 # {{ params.vars.title }}
 A turtle lies on a log in the sun as shown in the figure below.

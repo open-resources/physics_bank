@@ -34,11 +34,12 @@ part1:
     suffix: $\frac{kg m}{s}$
     comparison: sigfig
     digits: 2
-substitutions:
-  params:
-    vars:
-      title: Force on a Mosquito
-      units: "$\frac{kg m}{s}$"
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Force on a Mosquito
+        units: "$\frac{kg m}{s}$"
 ---
 # {{ params.vars.title }}
 A force versus time graph for the force on a mosquito is given in the figure below.

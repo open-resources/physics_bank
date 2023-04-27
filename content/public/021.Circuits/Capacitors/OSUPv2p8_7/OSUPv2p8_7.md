@@ -53,12 +53,13 @@ part2:
     show-help-text: true
     suffix: $\rm\ \mu\textrm{F}$
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Combining Capacitors
-    c: '1.5'
-    n: '6'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Combining Capacitors
+      c: '1.2'
+      n: '7'
 ---
 # {{ params.vars.title }}
 

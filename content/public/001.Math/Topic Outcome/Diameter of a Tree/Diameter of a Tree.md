@@ -32,13 +32,14 @@ part1:
     allow-blank: true
     label: $d_2= $
     suffix: $cm$
-substitutions:
-  params:
-    vars:
-      title: Diameter of a Tree
-    h_t1: 6.68
-    d_t1: 25
-    h_t2: 24.2
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Diameter of a Tree
+      h_t1: 9.75
+      d_t1: 28
+      h_t2: 26.9
 ---
 # {{ params.vars.title }}
 

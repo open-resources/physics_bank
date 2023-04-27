@@ -50,12 +50,13 @@ part2:
     show-help-text: true
     suffix: $\textrm{C}$
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Heart Defibrillator
-    c: '10.0'
-    v: '4.0'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Heart Defibrillator
+      c: '12.0'
+      v: '5.0'
 ---
 # {{ params.vars.title }}
 

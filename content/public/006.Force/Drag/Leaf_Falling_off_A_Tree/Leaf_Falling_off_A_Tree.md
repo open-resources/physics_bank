@@ -29,35 +29,36 @@ part1:
     weight: 1
     partial-credit: true
     partial-credit-method: EDC
-substitutions:
-  params:
-    part1:
-      ans1:
-        value: The drag force on the leaf and the force the leaf pushes on the air
-          are the same size.
-        feedback: Great! You got it.
-      ans2:
-        value: ' The drag force on the leaf and the weight of the leaf are Newton''s
-          third law pairs.'
-        feedback: 'Incorrect! The Newton''s third law pair of the drag force on the
-          leaf is $F_{air\ on\ leaf}$ = - $F_{leaf\ on\ air}$ . The Newton''s third
-          law pair of the weight of the leaf is $F_{Earth\ on\ leaf}$= -$F_{leaf\
-          on\ Earth}$ . '
-      ans3:
-        value: ' The weight of the leaf equals the drag force on the leaf in magnitude.'
-        feedback: Incorrect! Acceleration means the weight and drag force are NOT
-          equal. The weight of the leaf is greater than the drag force on the leaf.
-      ans4:
-        value: ' The weight of the leaf is greater than the drag force on the leaf.'
-        feedback: Great! You got it. Acceleration means the weight and drag force
-          are NOT equal.
-      ans5:
-        value: ' Although the weight and drag force are equal, the force in the direction
-          of motion propels the leaf downward.'
-        feedback: Try again! Acceleration means the weight and drag force are NOT
-          equal. The direction of the net force is downward. There is no force in
-          the direction of motion other than the weight. Based on the Newton’s third
-          law, $F_{air\ on\ leaf}$  = - $F_{leaf\ on\ air}$
+myst:
+  substitutions:
+    params:
+      part1:
+        ans1:
+          value: The drag force on the leaf and the force the leaf pushes on the air
+            are the same size.
+          feedback: Great! You got it.
+        ans2:
+          value: ' The drag force on the leaf and the weight of the leaf are Newton''s
+            third law pairs.'
+          feedback: 'Incorrect! The Newton''s third law pair of the drag force on
+            the leaf is $F_{air\ on\ leaf}$ = - $F_{leaf\ on\ air}$ . The Newton''s
+            third law pair of the weight of the leaf is $F_{Earth\ on\ leaf}$= -$F_{leaf\
+            on\ Earth}$ . '
+        ans3:
+          value: ' The weight of the leaf equals the drag force on the leaf in magnitude.'
+          feedback: Incorrect! Acceleration means the weight and drag force are NOT
+            equal. The weight of the leaf is greater than the drag force on the leaf.
+        ans4:
+          value: ' The weight of the leaf is greater than the drag force on the leaf.'
+          feedback: Great! You got it. Acceleration means the weight and drag force
+            are NOT equal.
+        ans5:
+          value: ' Although the weight and drag force are equal, the force in the
+            direction of motion propels the leaf downward.'
+          feedback: Try again! Acceleration means the weight and drag force are NOT
+            equal. The direction of the net force is downward. There is no force in
+            the direction of motion other than the weight. Based on the Newton’s third
+            law, $F_{air\ on\ leaf}$  = - $F_{leaf\ on\ air}$
 ---
 # {{ params.vars.title }}
 

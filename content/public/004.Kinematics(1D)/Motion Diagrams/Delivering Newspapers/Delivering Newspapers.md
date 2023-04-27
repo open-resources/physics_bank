@@ -28,24 +28,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Delivering Newspapers
-      name: Savannah
-    part1:
-      ans1:
-        value: '2'
-      ans2:
-        value: '5'
-      ans3:
-        value: '1'
-      ans4:
-        value: '7'
-      ans5:
-        value: '4'
-      ans6:
-        value: '6'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Delivering Newspapers
+        name: Aliyah
+      part1:
+        ans1:
+          value: '2'
+        ans2:
+          value: '1'
+        ans3:
+          value: '7'
+        ans4:
+          value: '3'
+        ans5:
+          value: '6'
+        ans6:
+          value: '5'
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} delivers newspapers by throwing them out of the passenger window of their car, perpendicular to the motion of their car.

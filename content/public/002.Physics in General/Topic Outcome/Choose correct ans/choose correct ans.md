@@ -43,31 +43,32 @@ part4:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Which option is correct?
-    choice1: not possible
-    part1:
-      ans1:
-        value: 'True'
-      ans2:
-        value: 'False'
-    part2:
-      ans1:
-        value: 'True'
-      ans2:
-        value: 'False'
-    part3:
-      ans1:
-        value: 'True'
-      ans2:
-        value: 'False'
-    part4:
-      ans1:
-        value: Kinetic
-      ans2:
-        value: Static
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Which option is correct?
+      choice1: not possible
+      part1:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
+      part2:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
+      part3:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
+      part4:
+        ans1:
+          value: Kinetic
+        ans2:
+          value: Static
 ---
 # {{ params.vars.title }}
 

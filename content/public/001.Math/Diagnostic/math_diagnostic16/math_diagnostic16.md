@@ -27,21 +27,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic16
-    part1:
-      ans1:
-        value: $log (AB) = log A log B$
-      ans2:
-        value: $log A + log B = log(AB)$
-      ans3:
-        value: $log A - log B = log(A/B)$
-      ans4:
-        value: $log A^2 = 2 log A$
-      ans5:
-        value: Do not know
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic16
+      part1:
+        ans1:
+          value: $log (AB) = log A log B$
+        ans2:
+          value: $log A + log B = log(AB)$
+        ans3:
+          value: $log A - log B = log(A/B)$
+        ans4:
+          value: $log A^2 = 2 log A$
+        ans5:
+          value: Do not know
 ---
 # {{ params.vars.title }}
 

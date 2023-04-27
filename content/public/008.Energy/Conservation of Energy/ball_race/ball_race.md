@@ -29,22 +29,23 @@ part1:
   pl-customizations:
     weight: 1
     fixed-order: true
-substitutions:
-  params:
-    vars:
-      title: Ball Race
-    part1:
-      ans1:
-        value: It depends on the horizontal location of the U-shaped dip.It is not
-          possible to predict this with 100% certainty.
-      ans2:
-        value: It depends on the height of the dip.
-      ans3:
-        value: They reach the end of the track at the same time.
-      ans4:
-        value: Ball B will reach the end of the track first.
-      ans5:
-        value: Ball A will reach the end of the track first.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Ball Race
+      part1:
+        ans1:
+          value: It depends on the horizontal location of the U-shaped dip.It is not
+            possible to predict this with 100% certainty.
+        ans2:
+          value: It depends on the height of the dip.
+        ans3:
+          value: They reach the end of the track at the same time.
+        ans4:
+          value: Ball B will reach the end of the track first.
+        ans5:
+          value: Ball A will reach the end of the track first.
 ---
 # {{ params.vars.title }}
 Two identical balls, Ball A and Ball B are launched with the same initial velocity $v$ along a pair of tracks.

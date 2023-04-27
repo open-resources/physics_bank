@@ -30,21 +30,22 @@ part1:
   pl-customizations:
     weight: 1
     fixed-order: true
-substitutions:
-  params:
-    vars:
-      title: Potential Energy to Force
-    part1:
-      ans1:
-        value: Figure A
-      ans2:
-        value: Figure B
-      ans3:
-        value: Figure C
-      ans4:
-        value: Figure D
-      ans5:
-        value: Figure E
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Potential Energy to Force
+      part1:
+        ans1:
+          value: Figure A
+        ans2:
+          value: Figure B
+        ans3:
+          value: Figure C
+        ans4:
+          value: Figure D
+        ans5:
+          value: Figure E
 ---
 # {{ params.vars.title }}
 

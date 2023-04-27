@@ -28,22 +28,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Swinging Mass
-    part1:
-      ans1:
-        value: The mass will pull sharply to the left.
-      ans2:
-        value: The mass will continue in the positive y direction.
-      ans3:
-        value: The mass will stop.
-      ans4:
-        value: The mass will continue around the circle.
-      ans5:
-        value: The mass will be thrown out of the circle with components in the positive
-          x and y directions.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Swinging Mass
+      part1:
+        ans1:
+          value: The mass will pull sharply to the left.
+        ans2:
+          value: The mass will continue in the positive y direction.
+        ans3:
+          value: The mass will stop.
+        ans4:
+          value: The mass will continue around the circle.
+        ans5:
+          value: The mass will be thrown out of the circle with components in the
+            positive x and y directions.
 ---
 # {{ params.vars.title }}
 A mass, $m$, tied to the end of a string is swung **horizontally** on a frictionless surface in the counter-clockwise direction, exhibiting uniform circular motion as shown in Fig. 1.

@@ -51,10 +51,11 @@ part2:
     variables: I, L, E
     allow-blank: false
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: RL Series Circuit
+myst:
+  substitutions:
+    params:
+      vars:
+        title: RL Series Circuit
 ---
 # {{ params.vars.title }}
 Consider the $RL$ circuit shown below.

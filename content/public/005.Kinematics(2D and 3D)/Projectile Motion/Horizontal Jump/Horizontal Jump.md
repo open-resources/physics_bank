@@ -29,25 +29,26 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      sport: mountain biker
-      title: Horizontal Jump
-      units: m
-    v: 25
-    d: 3.7800000000000002
-    part1:
-      ans1:
-        value: 9.81
-      ans2:
-        value: 15.52
-      ans3:
-        value: 19.27
-      ans4:
-        value: 21.95
-      ans5:
-        value: 28.9
+myst:
+  substitutions:
+    params:
+      vars:
+        sport: motorcyclist
+        title: Horizontal Jump
+        units: m
+      v: 24
+      d: 3.77
+      part1:
+        ans1:
+          value: 9.81
+        ans2:
+          value: 14.88
+        ans3:
+          value: 18.45
+        ans4:
+          value: 21.04
+        ans5:
+          value: 27.67
 ---
 # {{ params.vars.title }}
 

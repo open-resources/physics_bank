@@ -29,25 +29,26 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Box in a Truck Bed 2
-      vehicle: van
-      direction: negative
-    part1:
-      ans1:
-        value: Kinetic friction, positive work
-      ans2:
-        value: Kinetic friction, negative work
-      ans3:
-        value: Kinetic friction, zero work
-      ans4:
-        value: Static friction, positive work
-      ans5:
-        value: Static friction, negative work
-      ans6:
-        value: Static friction, zero work
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Box in a Truck Bed 2
+        vehicle: sedan
+        direction: negative
+      part1:
+        ans1:
+          value: Kinetic friction, positive work
+        ans2:
+          value: Kinetic friction, negative work
+        ans3:
+          value: Kinetic friction, zero work
+        ans4:
+          value: Static friction, positive work
+        ans5:
+          value: Static friction, negative work
+        ans6:
+          value: Static friction, zero work
 ---
 # {{ params.vars.title }}
 A {{params.vars.vehicle}} is approaching a stop-light as it drives down the road moving in the {{params.vars.direction}} direction.

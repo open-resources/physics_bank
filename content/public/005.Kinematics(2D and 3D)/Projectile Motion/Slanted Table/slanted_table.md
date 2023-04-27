@@ -33,13 +33,14 @@ part1:
     allow-blank: true
     label: $v_0= $
     suffix: m/s
-substitutions:
-  params:
-    vars:
-      title: Ball on a Slanted Table
-      units: $m/s$
-    d: 2.4
-    theta: 12
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Ball on a Slanted Table
+        units: $m/s$
+      d: 2.3
+      theta: 29
 ---
 # {{ params.vars.title }}
 A ball is launched with an initial velocity of $\vec{v_0}$ from one corner of a smooth, flat board.

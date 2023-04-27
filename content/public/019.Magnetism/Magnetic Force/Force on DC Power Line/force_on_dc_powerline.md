@@ -35,13 +35,14 @@ part1:
     label: $F= $
     suffix: $\rm\ N$
     custom-format: .2g
-substitutions:
-  params:
-    vars:
-      title: Force on a DC Power Line
-    I: 940
-    theta: 63
-    L: 124
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Force on a DC Power Line
+      I: 992
+      theta: 41
+      L: 119
 ---
 # {{ params.vars.title }}
 

@@ -25,24 +25,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Cyclist with a Deathwish
-    v1: 165
-    v2: 43
-    age: 25
-    part1:
-      ans1:
-        value: 14.7 times.
-      ans2:
-        value: 3.84 times.
-      ans3:
-        value: 0.261 times.
-      ans4:
-        value: 0.0679 times.
-      ans5:
-        value: It would be equal to their maximum thrust.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Cyclist with a Deathwish
+      v1: 156
+      v2: 49
+      age: 33
+      part1:
+        ans1:
+          value: 10.1 times.
+        ans2:
+          value: 3.18 times.
+        ans3:
+          value: 0.314 times.
+        ans4:
+          value: 0.0987 times.
+        ans5:
+          value: It would be equal to their maximum thrust.
 ---
 # {{ params.vars.title }}
 A {{params.age}} year old cyclist is obsessed with trying to go as fast as humanly possible on a bicycle using their knowledge of physics.

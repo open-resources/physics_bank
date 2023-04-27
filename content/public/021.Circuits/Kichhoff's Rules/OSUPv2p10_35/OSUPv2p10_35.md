@@ -174,14 +174,15 @@ part11:
     suffix: $\rm\ W$
     custom-format: .3g
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Simple Series Circuit
-    V: '12.0'
-    R1: '4.50'
-    R2: '1.25'
-    R3: '5.00'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Simple Series Circuit
+      V: '12.0'
+      R1: '4.75'
+      R2: '3.50'
+      R3: '3.75'
 ---
 # {{ params.vars.title }}
 Consider the circuit shown below.

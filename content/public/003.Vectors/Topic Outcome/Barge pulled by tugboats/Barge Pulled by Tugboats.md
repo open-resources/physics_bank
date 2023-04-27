@@ -78,27 +78,28 @@ part6:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Barge Pulled by Tugboats
-    F1: 3581
-    F2: 5855
-    theta_1: 37
-    theta_2: 15
-    part6:
-      ans1:
-        value: 4.3$^{\circ}$ to the left of AB.
-      ans2:
-        value: 4.3$^{\circ}$ to the right of AB.
-      ans3:
-        value: 85.7$^{\circ}$ to the left of AB.
-      ans4:
-        value: 85.7$^{\circ}$ to the right of AB.
-      ans5:
-        value: 43.0$^{\circ}$ to the left of AB.
-      ans6:
-        value: 43.0$^{\circ}$ to the right of AB.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Barge Pulled by Tugboats
+      F1: 4262
+      F2: 4115
+      theta_1: 30
+      theta_2: 27
+      part6:
+        ans1:
+          value: 2.05$^{\circ}$ to the left of AB.
+        ans2:
+          value: 2.05$^{\circ}$ to the right of AB.
+        ans3:
+          value: 88.0$^{\circ}$ to the left of AB.
+        ans4:
+          value: 88.0$^{\circ}$ to the right of AB.
+        ans5:
+          value: 20.5$^{\circ}$ to the left of AB.
+        ans6:
+          value: 20.5$^{\circ}$ to the right of AB.
 ---
 # {{ params.vars.title }}
 A barge is pulled by the two tugboats shown in the following figure.

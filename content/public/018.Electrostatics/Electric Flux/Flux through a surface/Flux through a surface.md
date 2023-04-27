@@ -36,24 +36,25 @@ part2:
   pl-customizations:
     weight: 1
     blank: true
-substitutions:
-  params:
-    vars:
-      title: Flux through a surface
-    part1:
-      ans1:
-        value: Perpendicular to the electric field
-      ans2:
-        value: Parallel to the electric field
-      ans3:
-        value: At a 45 degree angle with respect to the electric field
-    part2:
-      ans1:
-        value: Perpendicular to the electric field
-      ans2:
-        value: Parallel to the electric field
-      ans3:
-        value: At a 45 degree angle with respect to the electric field
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Flux through a surface
+      part1:
+        ans1:
+          value: Perpendicular to the electric field
+        ans2:
+          value: Parallel to the electric field
+        ans3:
+          value: At a 45 degree angle with respect to the electric field
+      part2:
+        ans1:
+          value: Perpendicular to the electric field
+        ans2:
+          value: Parallel to the electric field
+        ans3:
+          value: At a 45 degree angle with respect to the electric field
 ---
 # {{ params.vars.title }}
 

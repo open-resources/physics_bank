@@ -33,19 +33,20 @@ part1:
   pl-customizations:
     weight: 1
     fixed-order: true
-substitutions:
-  params:
-    vars:
-      title: Electron Through A Magnetic Field
-    part1:
-      ans1:
-        value: The magnetic field must must be perpendicular to the velocity.
-      ans2:
-        value: The magnetic field must point parallel or anti-parallel to the velocity.
-      ans3:
-        value: The magnetic field must not be very strong
-      ans4:
-        value: None of the above
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Electron Through A Magnetic Field
+      part1:
+        ans1:
+          value: The magnetic field must must be perpendicular to the velocity.
+        ans2:
+          value: The magnetic field must point parallel or anti-parallel to the velocity.
+        ans3:
+          value: The magnetic field must not be very strong
+        ans4:
+          value: None of the above
 ---
 # {{ params.vars.title }}
 

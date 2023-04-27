@@ -39,12 +39,13 @@ part1:
     show-correct-answer: false
     label: $C= $
     suffix: $\rm\ nF$
-substitutions:
-  params:
-    vars:
-      title: Determining Capacitance
-    q: '2.6'
-    v: '170'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Determining Capacitance
+      q: '1.7'
+      v: '100'
 ---
 # {{ params.vars.title }}
 

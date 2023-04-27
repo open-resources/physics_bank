@@ -26,23 +26,24 @@ part1:
   pl-customizations:
     fixed-order: true
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic27
-      sym1: '>'
-      sym2: <
-    part1:
-      ans1:
-        value: Answer A
-      ans2:
-        value: Answer B
-      ans3:
-        value: Answer C
-      ans4:
-        value: Answer D
-      ans5:
-        value: Don't Know
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic27
+        sym1: '>'
+        sym2: '>'
+      part1:
+        ans1:
+          value: Answer A
+        ans2:
+          value: Answer B
+        ans3:
+          value: Answer C
+        ans4:
+          value: Answer D
+        ans5:
+          value: Don't Know
 ---
 # {{ params.vars.title }}
 Which of the following sketches depicts a function $f(x)$ with $f^{'}(x)$ {{ params.vars.sym1 }} $0$ and $f^{''}(x)$ {{ params.vars.sym2 }} $0$?

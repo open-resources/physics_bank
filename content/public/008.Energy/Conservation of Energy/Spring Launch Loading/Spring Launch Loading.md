@@ -34,16 +34,17 @@ part1:
     allow-blank: true
     label: $v= $
     suffix: $m/s$
-substitutions:
-  params:
-    vars:
-      title: Spring Launch Loading
-    m: 47
-    F: 253
-    x1: 0.241
-    d: 1.23
-    h: 0.85
-    k: 62
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Spring Launch Loading
+      m: 59
+      F: 229
+      x1: 0.255
+      d: 1.15
+      h: 0.8
+      k: 91
 ---
 # {{ params.vars.title }}
 <img src="Slider Restricted by Spring.png" width=100%>

@@ -37,17 +37,18 @@ part1:
   pl-customizations:
     weight: 1
     blank: true
-substitutions:
-  params:
-    vars:
-      title: Suspended neutral conductor
-    part1:
-      ans1:
-        value: attracted to the rod
-      ans2:
-        value: repelled by the rod
-      ans3:
-        value: unaffected by the rod
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Suspended neutral conductor
+      part1:
+        ans1:
+          value: attracted to the rod
+        ans2:
+          value: repelled by the rod
+        ans3:
+          value: unaffected by the rod
 ---
 # {{ params.vars.title }}
 

@@ -41,13 +41,14 @@ part1:
     comparison: relabs
     rtol: 0.03
     atol: 0
-substitutions:
-  params:
-    vars:
-      title: 'RL Series Circuit: Energy'
-    factor: '2'
-    word: reduced
-    ans: '0.250'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: 'RL Series Circuit: Energy'
+      factor: '4'
+      word: reduced
+      ans: '0.062'
 ---
 # {{ params.vars.title }}
 Consider the $RL$ circuit shown below.

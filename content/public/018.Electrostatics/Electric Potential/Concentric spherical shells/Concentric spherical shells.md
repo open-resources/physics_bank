@@ -39,10 +39,11 @@ part1:
     variables: a, b, Q, k
     weight: 1
     allow-blank: false
-substitutions:
-  params:
-    vars:
-      title: Concentric spherical shells
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Concentric spherical shells
 ---
 # {{ params.vars.title }}
 Concentric conducting spherical shells carry charges of $Q$ and $-Q$ as shown in the figure.

@@ -28,22 +28,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Acceleration Based On Graph
-      units: $m/s^2$
-    part1:
-      ans1:
-        value: '-4.0'
-      ans2:
-        value: '-3.0'
-      ans3:
-        value: '0'
-      ans4:
-        value: '1.8'
-      ans5:
-        value: '3.0'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Acceleration Based On Graph
+        units: $m/s^2$
+      part1:
+        ans1:
+          value: '-4.0'
+        ans2:
+          value: '-3.0'
+        ans3:
+          value: '0'
+        ans4:
+          value: '1.8'
+        ans5:
+          value: '3.0'
 ---
 # {{ params.vars.title }}
 <img src="Q1&Q2image.png" alt = "A graph of velocity versus time. At 0 seconds, the velocity is 4 meters per second. At 1 second, the veleocity decreases to 1 meter per second. The velocity increases and at 3 seconds the velocity is 3 meters per second. From 3 to 5 seconds, the velocity is 3 meters per second. The graph has a point labelled A and C. A is labelled at 1 second, with a velocity of 1 meters per second. C is labelled at 4 seconds with a velocity of 3 meters per second." width = 300>

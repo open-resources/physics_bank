@@ -41,48 +41,49 @@ part3:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      name: Mateo
-      title: Lowering a bucket - person, the rope, the bucket, the air, the earth
-    part1:
-      ans1:
-        value: Open
-      ans2:
-        value: Closed
-      ans3:
-        value: None of the above
-    part2:
-      ans1:
-        value: Kinetic energy - Decreasing
-      ans2:
-        value: Kinetic energy - Increasing
-      ans3:
-        value: Gravitational potential energy - Decreasing
-      ans4:
-        value: Gravitational potential energy - Increasing
-      ans5:
-        value: Thermal energy - Increasing
-      ans6:
-        value: Thermal energy - Decreasing
-      ans7:
-        value: Elastic potential energy - Increasing
-      ans8:
-        value: Elastic potential energy - Decreasing
-      ans9:
-        value: Motion energy - Increasing
-      ans10:
-        value: Motion energy - Decreasing
-    part3:
-      ans1:
-        value: Positive
-      ans2:
-        value: Negative
-      ans3:
-        value: Both positive and negative (by different external forces)
-      ans4:
-        value: No external forces
+myst:
+  substitutions:
+    params:
+      vars:
+        name: Mateo
+        title: Lowering a bucket - person, the rope, the bucket, the air, the earth
+      part1:
+        ans1:
+          value: Open
+        ans2:
+          value: Closed
+        ans3:
+          value: None of the above
+      part2:
+        ans1:
+          value: Kinetic energy - Decreasing
+        ans2:
+          value: Kinetic energy - Increasing
+        ans3:
+          value: Gravitational potential energy - Decreasing
+        ans4:
+          value: Gravitational potential energy - Increasing
+        ans5:
+          value: Thermal energy - Increasing
+        ans6:
+          value: Thermal energy - Decreasing
+        ans7:
+          value: Elastic potential energy - Increasing
+        ans8:
+          value: Elastic potential energy - Decreasing
+        ans9:
+          value: Motion energy - Increasing
+        ans10:
+          value: Motion energy - Decreasing
+      part3:
+        ans1:
+          value: Positive
+        ans2:
+          value: Negative
+        ans3:
+          value: Both positive and negative (by different external forces)
+        ans4:
+          value: No external forces
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} stands on a cliff, and gently lowers a bucket of water to the ground using a rope.

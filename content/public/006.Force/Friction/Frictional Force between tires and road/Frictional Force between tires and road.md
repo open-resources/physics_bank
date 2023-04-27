@@ -32,10 +32,11 @@ part1:
     variables: m, v, R, g
     weight: 1
     allow-blank: false
-substitutions:
-  params:
-    vars:
-      title: Frictional Force between Tires and the Road
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Frictional Force between Tires and the Road
 ---
 # {{ params.vars.title }}
 

@@ -57,13 +57,14 @@ part2:
     suffix: $\rm\ V/m$
     weight: 1
     custom-format: .2g
-substitutions:
-  params:
-    vars:
-      title: Long Cylindrical Solenoid
-    n: '80'
-    r: '1.0'
-    dIdt: '5.5'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Long Cylindrical Solenoid
+      n: '130'
+      r: '2.5'
+      dIdt: '3.5'
 ---
 # {{ params.vars.title }}
 A long, cylindrical solenoid with ${{ params.n }}\rm\ turns/cm$ has a radius of ${{ params.r }}\rm\ cm$.

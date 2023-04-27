@@ -33,34 +33,35 @@ part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Cat in a Laundry Basket
-    w: 24
-    h: 48
-    part1:
-      ans1:
-        value: $\Delta t_1 > \Delta t_2 > \Delta t_3$
-      ans2:
-        value: $\Delta t_1 > \Delta t_3 > \Delta t_2$
-      ans3:
-        value: $\Delta t_2 > \Delta t_1 > \Delta t_3$
-      ans4:
-        value: $\Delta t_2 > \Delta t_3 > \Delta t_1$
-      ans5:
-        value: $\Delta t_3 > \Delta t_1 > \Delta t_2$
-      ans6:
-        value: $\Delta t_3 > \Delta t_2 > \Delta t_1$
-      ans7:
-        value: $\Delta t_3 = \Delta t_2 = \Delta t_1$
-    part2:
-      ans1:
-        value: $v_{x1} > v_{x2}$
-      ans2:
-        value: $v_{x2} > v_{x1}$
-      ans3:
-        value: $v_{x1} = v_{x2}$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Cat in a Laundry Basket
+      w: 36
+      h: 67
+      part1:
+        ans1:
+          value: $\Delta t_1 > \Delta t_2 > \Delta t_3$
+        ans2:
+          value: $\Delta t_1 > \Delta t_3 > \Delta t_2$
+        ans3:
+          value: $\Delta t_2 > \Delta t_1 > \Delta t_3$
+        ans4:
+          value: $\Delta t_2 > \Delta t_3 > \Delta t_1$
+        ans5:
+          value: $\Delta t_3 > \Delta t_1 > \Delta t_2$
+        ans6:
+          value: $\Delta t_3 > \Delta t_2 > \Delta t_1$
+        ans7:
+          value: $\Delta t_3 = \Delta t_2 = \Delta t_1$
+      part2:
+        ans1:
+          value: $v_{x1} > v_{x2}$
+        ans2:
+          value: $v_{x2} > v_{x1}$
+        ans3:
+          value: $v_{x1} = v_{x2}$
 ---
 # {{ params.vars.title }}
 A cat jumps out of a laundry basket, travelling $w = $ {{ params.w }} $cm$ horizontally before just clearing the $h =$ {{ params.h }} $cm$ high edge of the basket.

@@ -28,21 +28,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic28
-    part1:
-      ans1:
-        value: sin, cos, tan
-      ans2:
-        value: Do not know
-      ans3:
-        value: tan, cos, sin
-      ans4:
-        value: cos, tan, sin
-      ans5:
-        value: cos, sin, tan
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic28
+      part1:
+        ans1:
+          value: sin, cos, tan
+        ans2:
+          value: Do not know
+        ans3:
+          value: tan, cos, sin
+        ans4:
+          value: cos, tan, sin
+        ans5:
+          value: cos, sin, tan
 ---
 # {{ params.vars.title }}
 

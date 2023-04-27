@@ -33,21 +33,22 @@ part1:
     weight: 1
     partial-credit: true
     partial-credit-method: EDC
-substitutions:
-  params:
-    vars:
-      title: A Particle in Conservative Potential
-    part1:
-      ans1:
-        value: The particle must be at rest.
-      ans2:
-        value: The particle must not be accelerating.
-      ans3:
-        value: The particle has only kinetic energy.
-      ans4:
-        value: The particle has only thermal energy.
-      ans5:
-        value: The particle must be massless.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: A Particle in Conservative Potential
+      part1:
+        ans1:
+          value: The particle must be at rest.
+        ans2:
+          value: The particle must not be accelerating.
+        ans3:
+          value: The particle has only kinetic energy.
+        ans4:
+          value: The particle has only thermal energy.
+        ans5:
+          value: The particle must be massless.
 ---
 # {{ params.vars.title }}
 

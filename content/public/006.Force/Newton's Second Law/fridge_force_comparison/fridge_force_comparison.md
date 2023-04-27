@@ -28,30 +28,31 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Fridge Force Comparison
-      name: Lorenzo
-    part1:
-      ans1:
-        value: $F_{yr} = 2F_{fr}$
-        feedback: Consider whether velocity is directly proportional to force! If
-          not, what is?
-      ans2:
-        value: $F_{yr} = \dfrac{1}{2} F_{fr}$
-        feedback: Consider whether velocity is directly proportional to force! If
-          not, what is?
-      ans3:
-        value: $F_{yr} = F_{fr} \neq 0$
-        feedback: Great job! You got it!
-      ans4:
-        value: $F_{yr} = 0, F_{fr} = 0$
-        feedback: Consider any external forces resulting from rough surfaces! Also,
-          make sure to clarify the difference between applied and net force.
-      ans5:
-        value: Since $f_{s} \leq \mu_{s}n$, it is impossible to tell
-        feedback: Is this static or kinetic friction? Does it depend on speed?
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Fridge Force Comparison
+        name: Savannah
+      part1:
+        ans1:
+          value: $F_{yr} = 2F_{fr}$
+          feedback: Consider whether velocity is directly proportional to force! If
+            not, what is?
+        ans2:
+          value: $F_{yr} = \dfrac{1}{2} F_{fr}$
+          feedback: Consider whether velocity is directly proportional to force! If
+            not, what is?
+        ans3:
+          value: $F_{yr} = F_{fr} \neq 0$
+          feedback: Great job! You got it!
+        ans4:
+          value: $F_{yr} = 0, F_{fr} = 0$
+          feedback: Consider any external forces resulting from rough surfaces! Also,
+            make sure to clarify the difference between applied and net force.
+        ans5:
+          value: Since $f_{s} \leq \mu_{s}n$, it is impossible to tell
+          feedback: Is this static or kinetic friction? Does it depend on speed?
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} pushes a refrigerator (with force $\vec{F}_{yr}$) at a constant 1 $\rm{m/s}$ across a level rough floor. A second identical refrigerator is pushed (with force $\vec{F}_{fr}$) across the same floor by their friend at a constant 2 $\rm{m/s}$.

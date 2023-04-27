@@ -90,27 +90,28 @@ part9:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Jump Across Stream
-      units: m
-    m: 109
-    w_s: 3.1
-    h_s: 1.1
-    v_i: 2
-    v_j: 2
-    h_b: 3.0
-    part5:
-      ans1:
-        value: Yes, the bear makes it to the other side of the stream.
-      ans2:
-        value: No, the bear does not make it to the other side of the stream.
-    part9:
-      ans1:
-        value: The problem would become a 1-D problem with motion only in the $y$-direction.
-      ans2:
-        value: The problem would become a 1-D problem with motion only in the $x$-direction.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Jump Across Stream
+        units: m
+      m: 226
+      w_s: 2.4
+      h_s: 1.1
+      v_i: 4
+      v_j: 2
+      h_b: 2.4
+      part5:
+        ans1:
+          value: Yes, the bear makes it to the other side of the stream.
+        ans2:
+          value: No, the bear does not make it to the other side of the stream.
+      part9:
+        ans1:
+          value: The problem would become a 1-D problem with motion only in the $y$-direction.
+        ans2:
+          value: The problem would become a 1-D problem with motion only in the $x$-direction.
 ---
 # {{ params.vars.title }}
 A very bored {{params.m}} $kg$ bear decided to jump across a stream.

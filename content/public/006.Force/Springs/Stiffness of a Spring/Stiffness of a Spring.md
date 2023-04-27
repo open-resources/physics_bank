@@ -33,15 +33,16 @@ part1:
     allow-blank: true
     label: $k= $
     suffix: $N/m$
-substitutions:
-  params:
-    vars:
-      title: Stiffness of a Spring
-    h: 450
-    F: 157.7325632122305
-    x: 297
-    d: 53
-    m: 3
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Stiffness of a Spring
+      h: 303
+      F: 228.90462565187818
+      x: 117
+      d: 51
+      m: 2
 ---
 # {{ params.vars.title }}
 <img src="Stiffness of a Spring.png" width=400>

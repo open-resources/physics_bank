@@ -29,21 +29,22 @@ part1:
   pl-customizations:
     fixed-order: true
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Ball Rolling in a Pipe
-    part1:
-      ans1:
-        value: Option A
-      ans2:
-        value: Option B
-      ans3:
-        value: Option C
-      ans4:
-        value: Option D
-      ans5:
-        value: Option E
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Ball Rolling in a Pipe
+      part1:
+        ans1:
+          value: Option A
+        ans2:
+          value: Option B
+        ans3:
+          value: Option C
+        ans4:
+          value: Option D
+        ans5:
+          value: Option E
 ---
 # {{ params.vars.title }}
 A ball rolls counterclockwise around the inside of a horizontal pipe.

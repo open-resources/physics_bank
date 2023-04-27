@@ -32,15 +32,16 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Zero Magnetic Flux
-    part1:
-      ans1:
-        value: 'True'
-      ans2:
-        value: 'False'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Zero Magnetic Flux
+      part1:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
 ---
 # {{ params.vars.title }}
 

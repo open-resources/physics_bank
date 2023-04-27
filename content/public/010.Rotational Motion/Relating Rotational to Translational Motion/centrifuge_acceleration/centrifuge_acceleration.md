@@ -39,13 +39,14 @@ part2:
     allow-blank: true
     label: $\alpha = $
     suffix: $\rm{rad/s^2}$
-substitutions:
-  params:
-    vars:
-      title: Centrifuge Acceleration
-    v: 5000.0
-    t: 1.9
-    r: 8
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Centrifuge Acceleration
+      v: 4700.0
+      t: 1.0
+      r: 6
 ---
 # {{ params.vars.title }}
 The test tubes of high-speed centrifuges should be placed with care because of the very large acceleration.

@@ -38,12 +38,13 @@ part1:
     suffix: $\rm\ J$
     weight: 1
     custom-format: .3g
-substitutions:
-  params:
-    vars:
-      title: Forming helium atoms
-    d: '0.680000'
-    p: -10
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Forming helium atoms
+      d: '0.680000'
+      p: -10
 ---
 # {{ params.vars.title }}
 To form a helium atom, an alpha particle that contains two protons and two neutrons is fixed at one location, and two electrons are brought from far away, one at a time.

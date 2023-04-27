@@ -29,21 +29,22 @@ part1:
   pl-customizations:
     weight: 1
     fixed-order: true
-substitutions:
-  params:
-    vars:
-      title: Identify the figure
-    part1:
-      ans1:
-        value: a
-      ans2:
-        value: b
-      ans3:
-        value: c
-      ans4:
-        value: d
-      ans5:
-        value: e
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Identify the figure
+      part1:
+        ans1:
+          value: a
+        ans2:
+          value: b
+        ans3:
+          value: c
+        ans4:
+          value: d
+        ans5:
+          value: e
 ---
 # {{ params.vars.title }}
 

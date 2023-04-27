@@ -76,11 +76,12 @@ part6:
     allow-blank: true
     label: $v_5 = $
     suffix: $m/s$
-substitutions:
-  params:
-    vars:
-      title: Motion of an Object
-      units: $m/s$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Motion of an Object
+        units: $m/s$
 ---
 # {{ params.vars.title }}
 A position versus time graph of the motion of an object is given below.

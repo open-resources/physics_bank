@@ -29,25 +29,26 @@ part1:
     weight: 1
     partial-credit: true
     partial-credit-method: EDC
-substitutions:
-  params:
-    vars:
-      title: Turning Car
-      vehicle: car
-    part1:
-      ans1:
-        value: There is a force pushing everything to the right.
-      ans2:
-        value: Your head (and eyes) are not in an inertial reference frame, and so
-          things are moving for no reason.
-      ans3:
-        value: Your car is moving along a circular path, and a centripetal acceleration
-          is required. Without a force to push it towards the middle, objects(your
-          shoulders, the soup cans) will NOT move in a circle along with the rest
-          of the car, and so will move relative to the car's interior.
-      ans4:
-        value: Turning to the right forces your car to tilt, and all the cans and
-          the shoulders shift down-hill.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Turning Car
+        vehicle: van
+      part1:
+        ans1:
+          value: There is a force pushing everything to the right.
+        ans2:
+          value: Your head (and eyes) are not in an inertial reference frame, and
+            so things are moving for no reason.
+        ans3:
+          value: Your van is moving along a circular path, and a centripetal acceleration
+            is required. Without a force to push it towards the middle, objects(your
+            shoulders, the soup cans) will NOT move in a circle along with the rest
+            of the van, and so will move relative to the van's interior.
+        ans4:
+          value: Turning to the right forces your van to tilt, and all the cans and
+            the shoulders shift down-hill.
 ---
 # {{ params.vars.title }}
 If you are sitting in the passenger seat of a {{ params.vars.vehicle}} that makes a quick left turn, your shoulders seem to lean to the right (and all of the soup cans on the floor roll to the right).

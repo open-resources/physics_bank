@@ -55,37 +55,39 @@ part4:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Pinball Machine Precursor
-    l_u: 8.57
-    l_c: 4.04
-    rise: 8.51
-    radius: 25
-    m_b: 10.0
-    part2:
-      ans1:
-        value: No, because the ball moves parallel to the walls of the track. The
-          normal force and displacement are perpendicular.
-      ans2:
-        value: Yes, because the ball moves parallel to the walls of the track. The
-          normal force and displacement are parallel.
-      ans3:
-        value: No, because the ball moves parallel to the walls of the track. The
-          normal force and displacement are parallel.
-      ans4:
-        value: Yes, because the ball moves parallel to the walls of the track. The
-          normal force and displacement are perpendicular.
-    part4:
-      ans1:
-        value: The normal force will be zero wherever the ball first leaves the wall.
-      ans2:
-        value: The normal force will be equal to $g$.
-      ans3:
-        value: The normal force will be close to $1 N$.
-      ans4:
-        value: The normal force will be half of its initial value.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Pinball Machine Precursor
+      l_u: 8.38
+      l_c: 5.34
+      rise: 8.42
+      radius: 24
+      m_b: 10.0
+      part2:
+        ans1:
+          value: No, because the ball moves parallel to the walls of the track. The
+            normal force and displacement are perpendicular.
+        ans2:
+          value: Yes, because the ball moves parallel to the walls of the track. The
+            normal force and displacement are parallel.
+        ans3:
+          value: No, because the ball moves parallel to the walls of the track. The
+            normal force and displacement are parallel.
+        ans4:
+          value: Yes, because the ball moves parallel to the walls of the track. The
+            normal force and displacement are perpendicular.
+      part4:
+        ans1:
+          value: The normal force will be zero wherever the ball first leaves the
+            wall.
+        ans2:
+          value: The normal force will be equal to $g$.
+        ans3:
+          value: The normal force will be close to $1 N$.
+        ans4:
+          value: The normal force will be half of its initial value.
 ---
 # {{ params.vars.title }}
 A precursor of pinball machines involved manually pushing down on a ball suspended atop of a spring in a track that allows the ball only to travel up a ramp as shown in the figure.  The unstretched spring has a length of $l_u=$ {{ params.l_u }} $cm$, over the 1.00 $m$ length of the board the track rises by $r=$ {{ params.rise }} $cm$, and the top of the board is circular, with a radius of {{ params.radius }}.0 $cm$.

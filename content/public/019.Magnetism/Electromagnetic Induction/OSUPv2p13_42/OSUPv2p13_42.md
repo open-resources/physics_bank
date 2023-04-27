@@ -39,17 +39,18 @@ part2:
   pl-customizations:
     weight: 1
     blank: true
-substitutions:
-  params:
-    vars:
-      title: Potential Difference of Rod
-    B: '0.25'
-    v: '9'
-    part2:
-      ans1:
-        value: Bottom
-      ans2:
-        value: Top
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Potential Difference of Rod
+      B: '0.75'
+      v: '12'
+      part2:
+        ans1:
+          value: Bottom
+        ans2:
+          value: Top
 ---
 # {{ params.vars.title }}
 The rod shown in the accompanying figure is moving through a uniform magnetic field of strength ${{params.B }} \textrm{ T}$ with a constant velocity of magnitude ${{params.v }} \textrm{ m/s}$.

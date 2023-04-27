@@ -41,15 +41,16 @@ part2:
     allow-blank: true
     label: $v= $
     suffix: $m/s$
-substitutions:
-  params:
-    vars:
-      title: Biker Impact Landing
-    v: 10
-    t: 0.18
-    ad: 35
-    m: 74
-    thetad: 25
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Biker Impact Landing
+      v: 7
+      t: 0.16
+      ad: 19
+      m: 57
+      thetad: 40
 ---
 # {{ params.vars.title }}
 <img src="Snowboarder Impact Landing.png" width=400>

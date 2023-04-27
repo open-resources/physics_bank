@@ -40,15 +40,16 @@ part2:
     allow-blank: true
     label: $x = $
     suffix: $\rm{m}$
-substitutions:
-  params:
-    vars:
-      name: Aliyah
-      title: Archery Competition
-    d: 71
-    v: 273
-    h: 178
-    theta: 47
+myst:
+  substitutions:
+    params:
+      vars:
+        name: Lorenzo
+        title: Archery Competition
+      d: 131
+      v: 94
+      h: 165
+      theta: 51
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is reading a novel that describes an athelete participating in an archery competition.

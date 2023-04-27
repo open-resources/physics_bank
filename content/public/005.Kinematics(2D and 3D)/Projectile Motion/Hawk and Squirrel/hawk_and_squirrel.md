@@ -58,10 +58,11 @@ part5:
     file-name: answer5.html
     quill-theme: snow
     directory: clientFilesQuestion
-substitutions:
-  params:
-    vars:
-      title: Hawk and Squirrel
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Hawk and Squirrel
 ---
 # {{ params.vars.title }}
 A hawk glides in a straight line at constant speed without descending with a squirrel grasped in its talons from time $t_0$ until it accidentally releases the squirrel at time $t_1$. The hawk continues to glide in the same direction at constant speed while the squirrel hits the ground at time $t_2$.

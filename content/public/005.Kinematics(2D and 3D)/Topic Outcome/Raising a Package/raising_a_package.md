@@ -34,13 +34,14 @@ part1:
     suffix: $mm$
     weight: 1
     allow-blank: true
-substitutions:
-  params:
-    vars:
-      title: Raising a Package
-      units: mm
-    v_a: 304
-    t: 6
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Raising a Package
+        units: mm
+      v_a: 254
+      t: 3
 ---
 # {{ params.vars.title }}
 

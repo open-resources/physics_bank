@@ -28,29 +28,30 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Vehicle Crash
-      name: Santiago
-      vehicle_1: sedan
-      vehicle_2: car
-    dist: 2.29
-    v: 35.7
-    acc: 12.1
-    s_1: 0.2
-    s_2: 1.455
-    part1:
-      ans1:
-        value: 20.51 $m/s$
-      ans2:
-        value: 18.09 $m/s$
-      ans3:
-        value: 33.28 $m/s$
-      ans4:
-        value: 15.67 $m/s$
-      ans5:
-        value: 35.7 $m/s$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Vehicle Crash
+        name: Ximena
+        vehicle_1: car
+        vehicle_2: pickup truck
+      dist: 4.19
+      v: 35.7
+      acc: 11.2
+      s_1: 0.2
+      s_2: 1.797
+      part1:
+        ans1:
+          value: 17.81 $m/s$
+        ans2:
+          value: 15.57 $m/s$
+        ans3:
+          value: 33.46 $m/s$
+        ans4:
+          value: 13.33 $m/s$
+        ans5:
+          value: 35.7 $m/s$
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is following {{params.dist}} $m$ behind a {{params.vars.vehicle_1}} when it suddenly brakes with an acceleration of -{{params.acc}} $m/s^2$.

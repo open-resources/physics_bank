@@ -45,14 +45,15 @@ part2:
     suffix: $\rm{\frac{m}{s^2}}$
     allow-blank: true
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Cars on Hills
-      units: "$\rm{\frac{m}{s^2}}$"
-    v: 20
-    r: 127
-    mu: 8.53
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Cars on Hills
+        units: "$\rm{\frac{m}{s^2}}$"
+      v: 11
+      r: 225
+      mu: 5.88
 ---
 # {{ params.vars.title }}
 Two cars are driving at {{params.v}} $\rm{m/s}$ along the road shown in the figure.

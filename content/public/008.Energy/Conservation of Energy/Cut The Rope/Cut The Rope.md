@@ -53,14 +53,15 @@ part3:
     allow-blank: true
     label: $d= $
     suffix: $m$
-substitutions:
-  params:
-    vars:
-      title: Cut The Rope
-      units: m
-    l: 0.6
-    theta_0: 39
-    theta_c: 12
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Cut The Rope
+        units: m
+      l: 0.6
+      theta_0: 41
+      theta_c: 19
 ---
 # {{ params.vars.title }}
 In the mobile app "Cut the Rope", a mass (of candy) swings on a rope and the game player selects a point to cut the rope so it lands in a cute little monster's mouth.

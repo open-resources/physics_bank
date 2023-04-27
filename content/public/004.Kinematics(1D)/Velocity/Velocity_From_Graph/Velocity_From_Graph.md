@@ -34,39 +34,40 @@ part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Velocity From Graph
-      units: $m/s$
-    choice: '1.5'
-    part1:
-      ans1:
-        value: '0'
-      ans2:
-        value: '-0.5'
-      ans3:
-        value: '-2'
-      ans4:
-        value: '2'
-      ans5:
-        value: '-1'
-    part2:
-      ans1:
-        value: $v_{avg,x \; 0 \rightarrow 3}$ = -0.33 $m/s$ and $v_{avg \; 0 \rightarrow
-          3}$= 1 $m/s$
-      ans2:
-        value: $v_{avg,x \; 0 \rightarrow 3}$ = -0.33 $m/s$ and $v_{avg \; 0 \rightarrow
-          3}$= 0.33 $m/s$
-      ans3:
-        value: $v_{avg,x \; 0 \rightarrow 3}$ = -0.35 $m/s$ and $v_{avg \; 0 \rightarrow
-          3}$= 0.5 $m/s$
-      ans4:
-        value: $v_{avg,x \; 0 \rightarrow 3}$ = -0.5 $m/s$ and $v_{avg \; 0 \rightarrow
-          3}$= -2 $m/s$
-      ans5:
-        value: $v_{avg,x \; 0 \rightarrow 3}$ = -2 $m/s$ and $v_{avg \; 0 \rightarrow
-          3}$= -0.5 $m/s$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Velocity From Graph
+        units: $m/s$
+      choice: '1.5'
+      part1:
+        ans1:
+          value: '0'
+        ans2:
+          value: '-0.5'
+        ans3:
+          value: '-2'
+        ans4:
+          value: '2'
+        ans5:
+          value: '-1'
+      part2:
+        ans1:
+          value: $v_{avg,x \; 0 \rightarrow 3}$ = -0.33 $m/s$ and $v_{avg \; 0 \rightarrow
+            3}$= 1 $m/s$
+        ans2:
+          value: $v_{avg,x \; 0 \rightarrow 3}$ = -0.33 $m/s$ and $v_{avg \; 0 \rightarrow
+            3}$= 0.33 $m/s$
+        ans3:
+          value: $v_{avg,x \; 0 \rightarrow 3}$ = -0.35 $m/s$ and $v_{avg \; 0 \rightarrow
+            3}$= 0.5 $m/s$
+        ans4:
+          value: $v_{avg,x \; 0 \rightarrow 3}$ = -0.5 $m/s$ and $v_{avg \; 0 \rightarrow
+            3}$= -2 $m/s$
+        ans5:
+          value: $v_{avg,x \; 0 \rightarrow 3}$ = -2 $m/s$ and $v_{avg \; 0 \rightarrow
+            3}$= -0.5 $m/s$
 ---
 # {{ params.vars.title }}
 Refer to the following figure.

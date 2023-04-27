@@ -29,24 +29,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Force On An Object
-    m: 37
-    part1:
-      ans1:
-        value: $F = $ -92.5 $N$
-      ans2:
-        value: $F = $ 92.5 $N$
-      ans3:
-        value: $F = $ 92.5 $N$ from 2 to 6 $s$, then $F = $ -92.5 $N$ from 6 to 10
-          $s$
-      ans4:
-        value: $F = $ -92.5 $N$ from 2 to 6 $s$, then $F = $ 92.5 $N$ from 6 to 10
-          $s$
-      ans5:
-        value: Impossible to tell
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Force On An Object
+      m: 29
+      part1:
+        ans1:
+          value: $F = $ -72.5 $N$
+        ans2:
+          value: $F = $ 72.5 $N$
+        ans3:
+          value: $F = $ 72.5 $N$ from 2 to 6 $s$, then $F = $ -72.5 $N$ from 6 to
+            10 $s$
+        ans4:
+          value: $F = $ -72.5 $N$ from 2 to 6 $s$, then $F = $ 72.5 $N$ from 6 to
+            10 $s$
+        ans5:
+          value: Impossible to tell
 ---
 # {{ params.vars.title }}
 The velocity as a function of time of an object is as shown in the figure below. The mass of the

@@ -34,20 +34,21 @@ part2:
   pl-customizations:
     weight: 1
     blank: true
-substitutions:
-  params:
-    vars:
-      title: Attracting and repelling bodies
-    part1:
-      ans1:
-        value: 'True'
-      ans2:
-        value: 'False'
-    part2:
-      ans1:
-        value: 'True'
-      ans2:
-        value: 'False'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Attracting and repelling bodies
+      part1:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
+      part2:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
 ---
 # {{ params.vars.title }}
 

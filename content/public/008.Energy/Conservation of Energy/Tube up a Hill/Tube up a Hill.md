@@ -41,15 +41,16 @@ part2:
     allow-blank: true
     label: $a= $
     suffix: $ft/s^2$
-substitutions:
-  params:
-    vars:
-      title: Tube up a Hill
-    W: 662
-    t: 25
-    v: 6
-    P: 5
-    P2: 7
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Tube up a Hill
+      W: 650
+      t: 11
+      v: 6
+      P: 8
+      P2: 10
 ---
 # {{ params.vars.title }}
 <img src="Log up a Hill.png" width=400>

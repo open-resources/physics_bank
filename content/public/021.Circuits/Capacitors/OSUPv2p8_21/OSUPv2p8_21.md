@@ -39,12 +39,13 @@ part1:
     show-correct-answer: true
     label: $V= $
     suffix: $\rm\ V$
-substitutions:
-  params:
-    vars:
-      title: Voltage Applied to a Capacitor
-    c: '1.8'
-    q: '3.6'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Voltage Applied to a Capacitor
+      c: '2.4'
+      q: '2.0'
 ---
 # {{ params.vars.title }}
 

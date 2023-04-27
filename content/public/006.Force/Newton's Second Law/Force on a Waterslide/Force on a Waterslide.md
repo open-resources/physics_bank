@@ -49,15 +49,16 @@ part3:
     allow-blank: true
     label: $F= $
     suffix: $\rm{N}$
-substitutions:
-  params:
-    vars:
-      title: Force on a Waterslide
-    va: 13
-    vc: 5
-    M: 43
-    d: 14
-    r: 4
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Force on a Waterslide
+      va: 15
+      vc: 6
+      M: 67
+      d: 13
+      r: 6
 ---
 # {{ params.vars.title }}
 <img src="Force on a Waterslide.png" width=400>

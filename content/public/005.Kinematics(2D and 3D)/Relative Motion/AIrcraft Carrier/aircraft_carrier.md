@@ -31,12 +31,13 @@ part1:
     variables: i_hat, j_hat
     weight: 1
     allow-blank: false
-substitutions:
-  params:
-    vars:
-      title: Aircraft Carrier
-    va: 264
-    vb: 129
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Aircraft Carrier
+      va: 204
+      vb: 103
 ---
 # {{ params.vars.title }}
 Plane A takes off with a velocity of $\vec{v_A}$ = ({{ params.va }} $km/h$)$\hat{\imath}$ relative to the aircraft carrier. On a second runway which is directed 30$^{\circ}$ away from the $x$-axis, plane B has a speed of {{ params.vb }} $km/h$ relative to the aircraft carrier.

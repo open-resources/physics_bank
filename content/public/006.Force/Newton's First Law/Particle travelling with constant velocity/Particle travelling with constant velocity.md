@@ -29,21 +29,23 @@ part1:
     weight: 1
     partial-credit: true
     partial-credit-method: EDC
-substitutions:
-  params:
-    vars:
-      title: Particle Travelling with Constant Velocity
-    part1:
-      ans1:
-        value: The particle has no mass.
-      ans2:
-        value: The net force on the particle is zero.
-      ans3:
-        value: There must be a force acting on the particle.
-      ans4:
-        value: The particle has no acceleration.
-      ans5:
-        value: The acceleration of the particle is in the same direction as the velocity.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Particle Travelling with Constant Velocity
+      part1:
+        ans1:
+          value: The particle has no mass.
+        ans2:
+          value: The net force on the particle is zero.
+        ans3:
+          value: There must be a force acting on the particle.
+        ans4:
+          value: The particle has no acceleration.
+        ans5:
+          value: The acceleration of the particle is in the same direction as the
+            velocity.
 ---
 # {{ params.vars.title }}
 

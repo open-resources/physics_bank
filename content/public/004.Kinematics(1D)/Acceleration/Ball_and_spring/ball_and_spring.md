@@ -63,20 +63,21 @@ part5:
     quill-theme: snow
     directory: clientFilesQuestion
     source-file-name: sample.html
-substitutions:
-  params:
-    vars:
-      title: Ball and a spring
-      units1_2: "$\rm{m/s}$"
-      units3: "$\rm{m}$"
-      units4: "$\rm{m/s^2}$"
-    m: 0.9
-    deg: 25
-    h: 0
-    x: 4
-    k: 800
-    a_a: 0.02
-    a_b: 0.04
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Ball and a spring
+        units1_2: "$\rm{m/s}$"
+        units3: "$\rm{m}$"
+        units4: "$\rm{m/s^2}$"
+      m: 0.4
+      deg: 22
+      h: 0
+      x: 2
+      k: 1000
+      a_a: 0.06
+      a_b: 0.12
 ---
 # {{ params.vars.title }}
 I have built a game that involves a spring, a smooth slope, and a little ball of $m = ${{params.m}} kg.

@@ -64,14 +64,15 @@ part3:
     suffix: $\rm\ \Omega$
     custom-format: .3g
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Electrocution Safety
-    R_b: '11.50'
-    R_s: '2350'
-    V_s: '18.5'
-    I_max: '0.7'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Electrocution Safety
+      R_b: '10.25'
+      R_s: '2050'
+      V_s: '20.5'
+      I_max: '0.6'
 ---
 # {{ params.vars.title }}
 A person with body resistance between their hands of {{ params.R_b }} $\rm\ k \Omega$ accidentally grasps the terminals of a {{ params.V_s }} $\rm\ kV$ power supply.

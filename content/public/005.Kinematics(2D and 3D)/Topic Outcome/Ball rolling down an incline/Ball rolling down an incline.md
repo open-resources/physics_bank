@@ -29,19 +29,20 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Ball Rolling Down an Incline
-    part1:
-      ans1:
-        value: $T/2$
-      ans2:
-        value: Less than $T/2$
-      ans3:
-        value: Greater than $T/2$
-      ans4:
-        value: More information is needed.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Ball Rolling Down an Incline
+      part1:
+        ans1:
+          value: $T/2$
+        ans2:
+          value: Less than $T/2$
+        ans3:
+          value: Greater than $T/2$
+        ans4:
+          value: More information is needed.
 ---
 # {{ params.vars.title }}
 A ball rolls down an incline starting from rest.

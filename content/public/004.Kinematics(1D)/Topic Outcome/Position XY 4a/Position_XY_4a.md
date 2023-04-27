@@ -28,24 +28,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Position XY 4a
-    part1:
-      ans1:
-        value: For $x>0$, the particle's instantaneous acceleration is non-zero.
-      ans2:
-        value: For $x>0$, the particle's instantaneous velocity is constant.
-      ans3:
-        value: For $x>0$, the particle's instantaneous velocity is in the $\hat{\imath}$
-          and $\hat{\jmath}$ directions.
-      ans4:
-        value: For $x>0$, the particle's instantaneous acceleration is in the $-\hat{\imath}$
-          and $\hat{\jmath}$ directions.
-      ans5:
-        value: No information about the particle's velocity or acceleration can be
-          found from its trajectory.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Position XY 4a
+      part1:
+        ans1:
+          value: For $x>0$, the particle's instantaneous acceleration is non-zero.
+        ans2:
+          value: For $x>0$, the particle's instantaneous velocity is constant.
+        ans3:
+          value: For $x>0$, the particle's instantaneous velocity is in the $\hat{\imath}$
+            and $\hat{\jmath}$ directions.
+        ans4:
+          value: For $x>0$, the particle's instantaneous acceleration is in the $-\hat{\imath}$
+            and $\hat{\jmath}$ directions.
+        ans5:
+          value: No information about the particle's velocity or acceleration can
+            be found from its trajectory.
 ---
 # {{ params.vars.title }}
 

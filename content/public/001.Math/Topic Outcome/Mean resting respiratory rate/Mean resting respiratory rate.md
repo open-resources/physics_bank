@@ -52,28 +52,29 @@ part4:
     quill-theme: snow
     directory: clientFilesQuestion
     source-file-name: sample.html
-substitutions:
-  params:
-    vars:
-      title: Mean resting respiratory rate
-    Resp_Es: 659
-    Resp_r: 22
-    m_Es: 1.87
-    power: 4
-    part1:
-      ans1:
-        value: $RR \propto M$
-        feedback: Reread the question. What does $RR$ scale as?
-      ans2:
-        value: $RR \propto M^{-1/4}$
-        feedback: Great! You got it.
-      ans3:
-        value: $RR \propto \frac{1}{M^{-1/4}}$
-        feedback: Review the definitions of "proportional to" and "inversely proportional
-          to".
-      ans4:
-        value: $RR \propto \frac{1}{M}$
-        feedback: Hmm, try rereading the question.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Mean resting respiratory rate
+      Resp_Es: 669
+      Resp_r: 22
+      m_Es: 2.13
+      power: 2
+      part1:
+        ans1:
+          value: $RR \propto M$
+          feedback: Reread the question. What does $RR$ scale as?
+        ans2:
+          value: $RR \propto M^{-1/2}$
+          feedback: Great! You got it.
+        ans3:
+          value: $RR \propto \frac{1}{M^{-1/2}}$
+          feedback: Review the definitions of "proportional to" and "inversely proportional
+            to".
+        ans4:
+          value: $RR \propto \frac{1}{M}$
+          feedback: Hmm, try rereading the question.
 ---
 # {{ params.vars.title }}
 The mean resting respiratory rate of an Etruscan shrew is {{ params.Resp_Es }} breaths per minute, while the mean respiratory rate of healthy standing unrestrained white rhinoceroses is {{ params.Resp_r }} breaths per minute. If the mean mass of an Etruscan shrew is {{ params.m_Es }} $g$, what would one expect the mass of the white rhinoceroses to be assuming respiratory rates ($RR$) scale as $M^{-1/ {{ params.power }} }$?

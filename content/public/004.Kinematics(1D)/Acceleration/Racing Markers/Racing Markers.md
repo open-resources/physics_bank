@@ -28,30 +28,31 @@ part1:
   pl-customizations:
     weight: 1
     fixed-order: true
-substitutions:
-  params:
-    vars:
-      vehicle: van
-      title: Racing Markers
-      v1: 60
-      v2: 30.0
-    part1:
-      ans1:
-        value: Marker 1
-      ans2:
-        value: Between Marker 1 and Marker 2
-      ans3:
-        value: Marker 2
-      ans4:
-        value: Between Marker 2 and Marker 3
-      ans5:
-        value: Marker 3
-      ans6:
-        value: Between Marker 3 and Marker 4
-      ans7:
-        value: Marker 4
-      ans8:
-        value: There is not enough information in the question.
+myst:
+  substitutions:
+    params:
+      vars:
+        vehicle: truck
+        title: Racing Markers
+        v1: 65
+        v2: 33.0
+      part1:
+        ans1:
+          value: Marker 1
+        ans2:
+          value: Between Marker 1 and Marker 2
+        ans3:
+          value: Marker 2
+        ans4:
+          value: Between Marker 2 and Marker 3
+        ans5:
+          value: Marker 3
+        ans6:
+          value: Between Marker 3 and Marker 4
+        ans7:
+          value: Marker 4
+        ans8:
+          value: There is not enough information in the question.
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }} accelerates uniformly from rest along a straight track towards the left.

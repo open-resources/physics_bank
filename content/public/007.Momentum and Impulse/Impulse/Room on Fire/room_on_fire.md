@@ -27,18 +27,19 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      name: Lorenzo
-      title: Living Room on Fire
-    part1:
-      ans1:
-        value: Throw the Superball.
-      ans2:
-        value: Throw the ball of clay.
-      ans3:
-        value: It doesn't matter. Throw either.
+myst:
+  substitutions:
+    params:
+      vars:
+        name: Savannah
+        title: Living Room on Fire
+      part1:
+        ans1:
+          value: Throw the Superball.
+        ans2:
+          value: Throw the ball of clay.
+        ans3:
+          value: It doesn't matter. Throw either.
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} awakes in the night to find that their living room is on fire.

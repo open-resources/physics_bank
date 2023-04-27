@@ -51,54 +51,55 @@ part4:
   pl-customizations:
     fixed-order: true
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Flux due to a coil
-    part1:
-      ans1:
-        value: $-3\mu_0 I$
-      ans2:
-        value: $-\mu_0 I$
-      ans3:
-        value: zero
-      ans4:
-        value: $\mu_0 I$
-      ans5:
-        value: $3\mu_0 I$
-    part2:
-      ans1:
-        value: $-4\mu_0 I$
-      ans2:
-        value: $-2\mu_0 I$
-      ans3:
-        value: zero
-      ans4:
-        value: $2\mu_0 I$
-      ans5:
-        value: $4\mu_0 I$
-    part3:
-      ans1:
-        value: $-7\mu_0 I$
-      ans2:
-        value: $-\mu_0 I$
-      ans3:
-        value: zero
-      ans4:
-        value: $\mu_0 I$
-      ans5:
-        value: $7\mu_0 I$
-    part4:
-      ans1:
-        value: $-2\mu_0 I$
-      ans2:
-        value: $-\mu_0 I$
-      ans3:
-        value: zero
-      ans4:
-        value: $\mu_0 I$
-      ans5:
-        value: $2\mu_0 I$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Flux due to a coil
+      part1:
+        ans1:
+          value: $-3\mu_0 I$
+        ans2:
+          value: $-\mu_0 I$
+        ans3:
+          value: zero
+        ans4:
+          value: $\mu_0 I$
+        ans5:
+          value: $3\mu_0 I$
+      part2:
+        ans1:
+          value: $-4\mu_0 I$
+        ans2:
+          value: $-2\mu_0 I$
+        ans3:
+          value: zero
+        ans4:
+          value: $2\mu_0 I$
+        ans5:
+          value: $4\mu_0 I$
+      part3:
+        ans1:
+          value: $-7\mu_0 I$
+        ans2:
+          value: $-\mu_0 I$
+        ans3:
+          value: zero
+        ans4:
+          value: $\mu_0 I$
+        ans5:
+          value: $7\mu_0 I$
+      part4:
+        ans1:
+          value: $-2\mu_0 I$
+        ans2:
+          value: $-\mu_0 I$
+        ans3:
+          value: zero
+        ans4:
+          value: $\mu_0 I$
+        ans5:
+          value: $2\mu_0 I$
 ---
 # {{ params.vars.title }}
 The coil whose lengthwise cross section is shown in the figure carries a current $I$ and has $N$ evenly-spaced turns distributed along the length $\ell$.

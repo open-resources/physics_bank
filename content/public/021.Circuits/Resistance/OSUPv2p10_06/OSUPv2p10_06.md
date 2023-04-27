@@ -29,20 +29,21 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Resistors in a Lab
-      name: Emilia
-    have: larger
-    want: smaller
-    part1:
-      ans1:
-        value: Connect multiple resistors in parallel
-      ans2:
-        value: Connect multiple resistors in series
-      ans3:
-        value: It is not possible to achieve the desired resistance
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Resistors in a Lab
+        name: Ahmed
+      have: smaller
+      want: larger
+      part1:
+        ans1:
+          value: Connect multiple resistors in parallel
+        ans2:
+          value: Connect multiple resistors in series
+        ans3:
+          value: It is not possible to achieve the desired resistance
 ---
 # {{ params.vars.title }}
 Suppose {{ params.vars.name }} is doing a physics lab that asks them to put a resistor into a circuit, but all the resistors supplied have a {{ params.have }} resistance than the requested value.

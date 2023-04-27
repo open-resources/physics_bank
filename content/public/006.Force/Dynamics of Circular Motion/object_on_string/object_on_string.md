@@ -31,27 +31,28 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Object Swung in Circular Path
-      units: $\rm{N}$
-    m: 1.05
-    r: 6.9
-    w: 5
-    part1:
-      ans1:
-        value: 170.84
-        feedback: Great! You got it.
-      ans2:
-        value: 110.12
-        feedback: Hmm... try double-checking your algebra.
-      ans3:
-        value: 181.13
-        feedback: Try considering how gravity might effect the tension.
-      ans4:
-        value: 192.08
-        feedback: Hmm, not quite.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Object Swung in Circular Path
+        units: $\rm{N}$
+      m: 0.34
+      r: 6.0
+      w: 7
+      part1:
+        ans1:
+          value: 96.63
+          feedback: Great! You got it.
+        ans2:
+          value: 79.97
+          feedback: Hmm... try double-checking your algebra.
+        ans3:
+          value: 99.96
+          feedback: Try considering how gravity might effect the tension.
+        ans4:
+          value: 192.08
+          feedback: Hmm, not quite.
 ---
 # {{ params.vars.title }}
 A {{params.m}} $\rm{kg}$ object attached to the end of a string of length {{params.r}} $\rm{m}$ is swung in a circular path

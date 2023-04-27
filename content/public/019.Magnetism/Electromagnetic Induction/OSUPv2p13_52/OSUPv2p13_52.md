@@ -46,18 +46,19 @@ part2:
   pl-customizations:
     weight: 1
     blank: true
-substitutions:
-  params:
-    vars:
-      title: Uniformly Decreasing Magnetic Field
-    r: '10'
-    B: '1.5'
-    t: '10'
-    part2:
-      ans1:
-        value: Clockwise
-      ans2:
-        value: Counterclockwise
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Uniformly Decreasing Magnetic Field
+      r: '5'
+      B: '3.5'
+      t: '10'
+      part2:
+        ans1:
+          value: Clockwise
+        ans2:
+          value: Counterclockwise
 ---
 # {{ params.vars.title }}
 The magnetic field at all points within the cylindrical region whose cross-section is indicated in the accompanying figure starts at magnetic field of {{params.B }} $\textrm{ T}$ and decreases uniformly to zero in {{params.t }}  $\textrm{ s}$.

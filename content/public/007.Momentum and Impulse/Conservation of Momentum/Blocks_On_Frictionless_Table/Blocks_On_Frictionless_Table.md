@@ -31,16 +31,17 @@ part1:
     allow-blank: true
     label: $v_2 = $
     suffix: $m/s$
-substitutions:
-  params:
-    vars:
-      title: Blocks On Frictionless Table
-      units: $\frac{m}{s}$
-    v0: 492
-    v1: 5
-    mb: 11
-    mw: 503
-    d: 1
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Blocks On Frictionless Table
+        units: $\frac{m}{s}$
+      v0: 470
+      v1: 8
+      mb: 15
+      mw: 485
+      d: 1
 ---
 # {{ params.vars.title }}
 Two {{params.mw}} $g$ blocks of wood are {{params.d}} $m$ apart on a frictionless table.

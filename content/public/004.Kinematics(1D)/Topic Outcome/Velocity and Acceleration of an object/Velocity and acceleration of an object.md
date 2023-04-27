@@ -28,25 +28,26 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Velocity and Acceleration of an Object
-    v: $-8t^2 + 8t$
-    time: 17.3
-    part1:
-      ans1:
-        value: $v = $ -2260.0 $m/s$, $a = $ -269.0 $m/s^2$
-      ans2:
-        value: $v = $ -2260.0 $m/s$, $a = $ 0 $m/s^2$
-      ans3:
-        value: $v = $ -2260.0 $m/s$, $a = $ 9.81 $m/s^2$
-      ans4:
-        value: $v = $ 17.3 $m/s$, $a = $ -135.0 $m/s^2$
-      ans5:
-        value: $v = $ -2260.0 $m/s$, $a = $ 269.0 $m/s^2$
-      ans6:
-        value: $v = $ -2260.0 $m/s$, $a = $ -538.0 $m/s^2$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Velocity and Acceleration of an Object
+      v: $2t^3 - t^2 - 4t$
+      time: 13.1
+      part1:
+        ans1:
+          value: $v = $ 4270.0 $m/s$, $a = $ 999.0 $m/s^2$
+        ans2:
+          value: $v = $ 4270.0 $m/s$, $a = $ 0 $m/s^2$
+        ans3:
+          value: $v = $ 4270.0 $m/s$, $a = $ 9.81 $m/s^2$
+        ans4:
+          value: $v = $ 13.1 $m/s$, $a = $ 500.0 $m/s^2$
+        ans5:
+          value: $v = $ 4270.0 $m/s$, $a = $ -999.0 $m/s^2$
+        ans6:
+          value: $v = $ 4270.0 $m/s$, $a = $ 2000.0 $m/s^2$
 ---
 # {{ params.vars.title }}
 If the velocity of an object in one-dimensional motion is given by $v(t) = $ {{ params.v }}, where the units of $v$ are in $m/s$ and of $t$ are in seconds,

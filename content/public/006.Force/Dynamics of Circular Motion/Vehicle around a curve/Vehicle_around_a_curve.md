@@ -55,13 +55,14 @@ part4:
     allow-blank: true
     label: $v = $
     suffix: $\rm{m/s}$
-substitutions:
-  params:
-    vars:
-      title: Vehicle Around a Curve
-      vehicle: van
-    rad: 141
-    ang: 5
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Vehicle Around a Curve
+        vehicle: bus
+      rad: 156
+      ang: 14
 ---
 # {{ params.vars.title }}
 To ensure that motorists stay on roads with tight turns, it is common to tild (or bank) the roads toward the centre of the turn. A {{ params.vars.vehicle }} going around a banked curve without sliding is shown on the left of the figure below and its corresponding free body diagram is shown on the right of the figure below. In the free body diagram $\vec{W}_{\textit{E on v}}$ is the weight of the {{ params.vars.vehicle }}, $\vec{n}_{\textit{r on v}}$ is the normal force of the road on the {{ params.vars.vehicle }}, and $\vec{F}\_{\textit{net on v}}$ is the net force on the {{ params.vars.vehicle }}. Take the angle to be $\theta = {{ params.ang }}^\circ$ and the radius of curvature (distance from the centre of the circle to the {{ params.vars.vehicle }}) to be $r = {{ params.rad }}$ $\rm{m}$.

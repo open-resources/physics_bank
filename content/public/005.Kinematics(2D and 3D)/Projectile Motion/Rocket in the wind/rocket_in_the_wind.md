@@ -33,13 +33,14 @@ part1:
     allow-blank: true
     label: $\theta= $
     suffix: ${\circ}$ E of N
-substitutions:
-  params:
-    vars:
-      title: Rocket in the wind
-      units: ${\circ}$
-    v0: 17
-    wind_acc: 0.7
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Rocket in the wind
+        units: ${\circ}$
+      v0: 6
+      wind_acc: 3.4
 ---
 # {{ params.vars.title }}
 A model rocket looks to launch with a speed $v\_{0} = {{params.v0}} m/s$.

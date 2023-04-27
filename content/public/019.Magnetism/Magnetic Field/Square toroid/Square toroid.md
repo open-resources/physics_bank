@@ -39,14 +39,15 @@ part1:
     show-correct-answer: false
     label: $B= $
     suffix: $\rm\ T$
-substitutions:
-  params:
-    vars:
-      title: Square toroid
-    N: '385'
-    d: '2.0'
-    r: '22'
-    I: '2.2'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Square toroid
+      N: '515'
+      d: '2.4'
+      r: '30'
+      I: '1.4'
 ---
 # {{ params.vars.title }}
 A toroid with a square cross section {{ params.d }}$\textrm{ cm}\times${{ params.d }}$\textrm{ cm}$ has an inner radius of {{ params.r }}$\textrm{ cm}$.

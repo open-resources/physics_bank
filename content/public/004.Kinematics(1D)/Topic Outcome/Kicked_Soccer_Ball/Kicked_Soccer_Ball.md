@@ -31,10 +31,11 @@ part1:
     variables: v_0, a, g
     weight: 1
     allow-blank: false
-substitutions:
-  params:
-    vars:
-      title: Kicked Soccer Ball
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Kicked Soccer Ball
 ---
 # {{ params.vars.title }}
 

@@ -30,30 +30,31 @@ part1:
   pl-customizations:
     weight: 1
     hide-letter-keys: true
-substitutions:
-  params:
-    vars:
-      title: Bottle Race
-    part1:
-      ans1:
-        value: Both bottles will stop at the same height before rolling back down
-          the ramp as they both have the same mass.
-      ans2:
-        value: Bottle 1 has more initial kinetic energy than bottle 2, so bottle 1
-          will stop higher up the ramp than bottle 2.  Both bottles will roll back
-          down the ramp after stopping.
-      ans3:
-        value: Bottle 2 has more initial kinetic energy than bottle 1, so bottle 2
-          will stop higher up the ramp than bottle 1.  Both bottles will roll back
-          down the ramp after stopping.
-      ans4:
-        value: Bottle 2 has more initial kinetic energy than bottle 1, so bottle 1
-          will stop higher up the ramp than bottle 2.  Both bottles will roll back
-          down the ramp after stopping.
-      ans5:
-        value: Bottle 1 has more initial kinetic energy than bottle 2, so bottle 2
-          will stop higher up the ramp than bottle 1.  Both bottles will roll back
-          down the ramp after stopping.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Bottle Race
+      part1:
+        ans1:
+          value: Both bottles will stop at the same height before rolling back down
+            the ramp as they both have the same mass.
+        ans2:
+          value: Bottle 1 has more initial kinetic energy than bottle 2, so bottle
+            1 will stop higher up the ramp than bottle 2.  Both bottles will roll
+            back down the ramp after stopping.
+        ans3:
+          value: Bottle 2 has more initial kinetic energy than bottle 1, so bottle
+            2 will stop higher up the ramp than bottle 1.  Both bottles will roll
+            back down the ramp after stopping.
+        ans4:
+          value: Bottle 2 has more initial kinetic energy than bottle 1, so bottle
+            1 will stop higher up the ramp than bottle 2.  Both bottles will roll
+            back down the ramp after stopping.
+        ans5:
+          value: Bottle 1 has more initial kinetic energy than bottle 2, so bottle
+            2 will stop higher up the ramp than bottle 1.  Both bottles will roll
+            back down the ramp after stopping.
 ---
 # {{ params.vars.title }}
 Two identical cylindrical water bottles are 80% filled with water.  Bottle 1 is placed in a freezer until the water turns to ice, while bottle 2 remains unfrozen.

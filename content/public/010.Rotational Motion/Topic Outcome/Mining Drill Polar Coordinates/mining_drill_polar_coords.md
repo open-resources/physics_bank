@@ -55,17 +55,18 @@ part4:
     allow-blank: true
     label: $a= $
     suffix: $\hat{\theta}$
-substitutions:
-  params:
-    vars:
-      title: Mining Drill Polar Coordinates
-    d: 4
-    theta: 6
-    dot_theta: 8
-    ddot_theta: 9
-    l: 9
-    dot_l: 6
-    ddot_l: 5
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Mining Drill Polar Coordinates
+      d: 4
+      theta: 5
+      dot_theta: 8
+      ddot_theta: 5
+      l: 7
+      dot_l: 7
+      ddot_l: 6
 ---
 # {{ params.vars.title }}
 <img src="L8Q2.png" width=85%>

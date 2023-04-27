@@ -94,13 +94,14 @@ part8:
     label: $x_{\text{coyote}}(t_{\text{catch}}) = x_{\text{rat}}(t_{\text{catch}})
       = $
     suffix: $\rm{m}$
-substitutions:
-  params:
-    vars:
-      title: A Coyote and a Rat
-    d_x: 24
-    v_r: 7
-    a_c: 6
+myst:
+  substitutions:
+    params:
+      vars:
+        title: A Coyote and a Rat
+      d_x: 23
+      v_r: 7
+      a_c: 4
 ---
 # {{ params.vars.title }}
 A coyote notices a rat running past it, toward a bush where the rat will be safe.

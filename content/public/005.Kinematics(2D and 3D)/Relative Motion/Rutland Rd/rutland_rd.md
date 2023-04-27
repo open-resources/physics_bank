@@ -36,32 +36,33 @@ part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Rutland Rd
-      vehicle: truck
-      units: km/h
-    v: 44
-    part2:
-      ans1:
-        value: North
-      ans2:
-        value: North-East
-      ans3:
-        value: East
-      ans4:
-        value: South-East
-      ans5:
-        value: South
-      ans6:
-        value: South-West
-      ans7:
-        value: West
-      ans8:
-        value: North-West
-      ans9:
-        value: Impossible to know without knowing how far each car is from the intersection.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Rutland Rd
+        vehicle: truck
+        units: km/h
+      v: 80
+      part2:
+        ans1:
+          value: North
+        ans2:
+          value: North-East
+        ans3:
+          value: East
+        ans4:
+          value: South-East
+        ans5:
+          value: South
+        ans6:
+          value: South-West
+        ans7:
+          value: West
+        ans8:
+          value: North-West
+        ans9:
+          value: Impossible to know without knowing how far each car is from the intersection.
 ---
 # {{ params.vars.title }}
 A {{ params.vars.vehicle }} drives northward on Rutland Road North at {{ params.v }} {{ params.vars.units }} towards the intersection with 33rd Street.

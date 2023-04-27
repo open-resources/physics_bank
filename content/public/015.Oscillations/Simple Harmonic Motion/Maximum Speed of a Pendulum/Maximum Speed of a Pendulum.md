@@ -31,11 +31,12 @@ part1:
     allow-blank: true
     label: 'by a factor of '
     suffix: ' '
-substitutions:
-  params:
-    vars:
-      title: Maximum Speed of a Pendulum
-    choice: quadrupled
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Maximum Speed of a Pendulum
+      choice: halved
 ---
 # {{ params.vars.title }}
 A  simple  pendulum  swings  at  small  angles.

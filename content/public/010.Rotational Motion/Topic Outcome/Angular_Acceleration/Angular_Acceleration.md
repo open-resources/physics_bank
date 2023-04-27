@@ -28,24 +28,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Angular Acceleration
-    v_1: 4
-    v_2: 19
-    t: 2
-    part1:
-      ans1:
-        value: 7.5 $\rm{rad/s^2}$
-      ans2:
-        value: 7.5 $\rm{m/s^2}$
-      ans3:
-        value: -7.5 $\rm{rad/s^2}$
-      ans4:
-        value: -7.5 $\rm{m/s^2}$
-      ans5:
-        value: 10 $\rm{rad/s^2}$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Angular Acceleration
+      v_1: 8
+      v_2: 16
+      t: 8
+      part1:
+        ans1:
+          value: 1.0 $\rm{rad/s^2}$
+        ans2:
+          value: 1.0 $\rm{m/s^2}$
+        ans3:
+          value: -1.0 $\rm{rad/s^2}$
+        ans4:
+          value: -1.0 $\rm{m/s^2}$
+        ans5:
+          value: 10 $\rm{rad/s^2}$
 ---
 # {{ params.vars.title }}
 

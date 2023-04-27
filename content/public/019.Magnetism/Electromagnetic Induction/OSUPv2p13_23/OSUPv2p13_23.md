@@ -70,80 +70,81 @@ part10:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Induced Current and Magnetic Force
-    part1:
-      ans1:
-        value: Counterclockwise.
-      ans2:
-        value: Clockwise.
-      ans3:
-        value: No current is induced.
-    part2:
-      ans1:
-        value: Right.
-      ans2:
-        value: Left.
-      ans3:
-        value: There is no magnetic force on the coil.
-    part3:
-      ans1:
-        value: Counterclockwise.
-      ans2:
-        value: Clockwise.
-      ans3:
-        value: No current is induced.
-    part4:
-      ans1:
-        value: Right.
-      ans2:
-        value: Left.
-      ans3:
-        value: There is no magnetic force on the coil.
-    part5:
-      ans1:
-        value: Counterclockwise.
-      ans2:
-        value: Clockwise.
-      ans3:
-        value: No current is induced.
-    part6:
-      ans1:
-        value: Right.
-      ans2:
-        value: Left.
-      ans3:
-        value: There is no magnetic force on the coil.
-    part7:
-      ans1:
-        value: Counterclockwise.
-      ans2:
-        value: Clockwise.
-      ans3:
-        value: No current is induced.
-    part8:
-      ans1:
-        value: Right.
-      ans2:
-        value: Left.
-      ans3:
-        value: There is no magnetic force on the coil.
-    part9:
-      ans1:
-        value: Counterclockwise.
-      ans2:
-        value: Clockwise.
-      ans3:
-        value: No current is induced.
-    part10:
-      ans1:
-        value: Right.
-      ans2:
-        value: Left.
-      ans3:
-        value: There is no magnetic force on the coil.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Induced Current and Magnetic Force
+      part1:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise.
+        ans3:
+          value: No current is induced.
+      part2:
+        ans1:
+          value: Right.
+        ans2:
+          value: Left.
+        ans3:
+          value: There is no magnetic force on the coil.
+      part3:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise.
+        ans3:
+          value: No current is induced.
+      part4:
+        ans1:
+          value: Right.
+        ans2:
+          value: Left.
+        ans3:
+          value: There is no magnetic force on the coil.
+      part5:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise.
+        ans3:
+          value: No current is induced.
+      part6:
+        ans1:
+          value: Right.
+        ans2:
+          value: Left.
+        ans3:
+          value: There is no magnetic force on the coil.
+      part7:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise.
+        ans3:
+          value: No current is induced.
+      part8:
+        ans1:
+          value: Right.
+        ans2:
+          value: Left.
+        ans3:
+          value: There is no magnetic force on the coil.
+      part9:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise.
+        ans3:
+          value: No current is induced.
+      part10:
+        ans1:
+          value: Right.
+        ans2:
+          value: Left.
+        ans3:
+          value: There is no magnetic force on the coil.
 ---
 # {{ params.vars.title }}
 A coil is moved through a magnetic field as shown below. The field is uniform inside the rectangle and zero outside.

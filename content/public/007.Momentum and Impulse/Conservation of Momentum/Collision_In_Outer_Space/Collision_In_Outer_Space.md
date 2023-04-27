@@ -26,21 +26,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Collision In Outer Space
-    part1:
-      ans1:
-        value: $\Delta$$\vec{p}_A$
-      ans2:
-        value: -$\Delta$$\vec{p}_A$
-      ans3:
-        value: -$\dfrac{m_A}{m_B}$ $\Delta$$\vec{p}_A$
-      ans4:
-        value: -$\dfrac{m_B}{m_A}$ $\Delta$$\vec{p}_A$
-      ans5:
-        value: $\dfrac{m_A}{m_B}$ $\Delta$$\vec{p}_A$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Collision In Outer Space
+      part1:
+        ans1:
+          value: $\Delta$$\vec{p}_A$
+        ans2:
+          value: -$\Delta$$\vec{p}_A$
+        ans3:
+          value: -$\dfrac{m_A}{m_B}$ $\Delta$$\vec{p}_A$
+        ans4:
+          value: -$\dfrac{m_B}{m_A}$ $\Delta$$\vec{p}_A$
+        ans5:
+          value: $\dfrac{m_A}{m_B}$ $\Delta$$\vec{p}_A$
 ---
 # {{ params.vars.title }}
 Object A of mass $m_A$ and object B of mass $m_B$ collide in outer space. If, as a result of the collision, object A experiences an impulse of $\Delta\vec{p}\_A$

@@ -46,13 +46,14 @@ part1:
     show-correct-answer: false
     label: $I= $
     suffix: $\rm\ A$
-substitutions:
-  params:
-    vars:
-      title: Electron in a Solenoid
-    n: '35'
-    r: '2.60'
-    v: "$1.70\\times 10^{4 }\textrm{ m/s}$"
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Electron in a Solenoid
+      n: '10'
+      r: '1.80'
+      v: "$1.00\\times 10^{4 }\textrm{ m/s}$"
 ---
 # {{ params.vars.title }}
 A solenoid with {{ params.n }} turns per centimter carries a current $I$.

@@ -29,25 +29,26 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Two Blocks Connected by a String
-      units: N
-    m1: 1
-    part1:
-      ans1:
-        value: 10
-      ans2:
-        value: 12
-      ans3:
-        value: 24
-      ans4:
-        value: 20
-      ans5:
-        value: 13
-      ans6:
-        value: 17
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Two Blocks Connected by a String
+        units: N
+      m1: 1
+      part1:
+        ans1:
+          value: 10
+        ans2:
+          value: 12
+        ans3:
+          value: 24
+        ans4:
+          value: 20
+        ans5:
+          value: 13
+        ans6:
+          value: 17
 ---
 # {{ params.vars.title }}
 Two blocks are arranged as shown and kept at rest by holding the {{ params.m1 }} kg block in place.

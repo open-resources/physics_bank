@@ -70,15 +70,16 @@ part3:
     suffix: $\rm\ A$
     weight: 1
     custom-format: .2g
-substitutions:
-  params:
-    vars:
-      title: Circuit with Multiple Loops
-    R1: '15.0'
-    R2: '9.0'
-    R3: '5.0'
-    I1: '3.0'
-    V2: '20.0'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Circuit with Multiple Loops
+      R1: '10.0'
+      R2: '5.0'
+      R3: '9.0'
+      I1: '1.0'
+      V2: '20.0'
 ---
 # {{ params.vars.title }}
 Consider the circuit shown below.

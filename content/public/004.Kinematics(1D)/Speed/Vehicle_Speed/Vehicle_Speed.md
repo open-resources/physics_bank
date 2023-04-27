@@ -27,22 +27,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Vehicle Speed
-      vehicle: sedan
-    part1:
-      ans1:
-        value: constant
-      ans2:
-        value: increasing
-      ans3:
-        value: decreasing
-      ans4:
-        value: increasing but then decreasing
-      ans5:
-        value: decreasing but then increasing
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Vehicle Speed
+        vehicle: sedan
+      part1:
+        ans1:
+          value: constant
+        ans2:
+          value: increasing
+        ans3:
+          value: decreasing
+        ans4:
+          value: increasing but then decreasing
+        ans5:
+          value: decreasing but then increasing
 ---
 # {{ params.vars.title }}
 A person is initially driving a {{params.vars.vehicle}} east down a straight road.

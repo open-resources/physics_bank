@@ -39,19 +39,20 @@ part2:
   pl-customizations:
     weight: 1
     blank: true
-substitutions:
-  params:
-    vars:
-      title: Moving Rod
-    r: '1'
-    v: '5'
-    B: '0.75'
-    a: '6'
-    part2:
-      ans1:
-        value: Clockwise
-      ans2:
-        value: Counterclockwise
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Moving Rod
+      r: '3'
+      v: '5'
+      B: '1.25'
+      a: '5'
+      part2:
+        ans1:
+          value: Clockwise
+        ans2:
+          value: Counterclockwise
 ---
 # {{ params.vars.title }}
 In the accompanying figure, the rails, connecting end piece, and rod all have a resistance per unit length of ${{params.r }}$ $\rm\ \Omega$$/$$\textrm{cm}$. The rod moves to the left at a $v=$ ${{params.v }} \textrm{ m/s}$.

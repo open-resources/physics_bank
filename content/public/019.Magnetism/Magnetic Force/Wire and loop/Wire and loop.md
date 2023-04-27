@@ -47,19 +47,20 @@ part2:
   pl-customizations:
     blank: true
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Wire and loop
-    part2:
-      ans1:
-        value: to the left
-      ans2:
-        value: to the right
-      ans3:
-        value: towards to the top of the screen
-      ans4:
-        value: towards to the bottom of the screen
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Wire and loop
+      part2:
+        ans1:
+          value: to the left
+        ans2:
+          value: to the right
+        ans3:
+          value: towards to the top of the screen
+        ans4:
+          value: towards to the bottom of the screen
 ---
 # {{ params.vars.title }}
 The inifinite, straight wire shown in the figure carries a current $I_1$.

@@ -35,17 +35,18 @@ part1:
   pl-customizations:
     weight: 1
     blank: true
-substitutions:
-  params:
-    vars:
-      title: Colinear point charges
-    part1:
-      ans1:
-        value: The charges have opposite signs
-      ans2:
-        value: The charges have the same sign.
-      ans3:
-        value: The absolute value of the two charges are the same.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Colinear point charges
+      part1:
+        ans1:
+          value: The charges have opposite signs
+        ans2:
+          value: The charges have the same sign.
+        ans3:
+          value: The absolute value of the two charges are the same.
 ---
 # {{ params.vars.title }}
 

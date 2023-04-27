@@ -44,11 +44,12 @@ part1:
     comparison: relabs
     rtol: 0.03
     atol: 0
-substitutions:
-  params:
-    vars:
-      title: Current over Time in a Series RL Circuit
-    fac: '4'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Current over Time in a Series RL Circuit
+      fac: '7'
 ---
 # {{ params.vars.title }}
 Consider the $RL$ circuit shown below.

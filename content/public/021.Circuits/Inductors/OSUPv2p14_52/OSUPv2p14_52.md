@@ -112,14 +112,15 @@ part6:
     suffix: $\rm\ V$
     weight: 1
     custom-format: .3g
-substitutions:
-  params:
-    vars:
-      title: Switched RL Series Circuit
-    num: '3'
-    emf: '11.0'
-    L: '23.0'
-    R: '8.00'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Switched RL Series Circuit
+      num: '2'
+      emf: '12.0'
+      L: '25.0'
+      R: '7.00'
 ---
 # {{ params.vars.title }}
 Consider the $RL$ circuit shown below.

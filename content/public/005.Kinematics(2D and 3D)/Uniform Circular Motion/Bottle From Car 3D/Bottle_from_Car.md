@@ -50,15 +50,16 @@ part3:
     allow-blank: true
     label: $z= $
     suffix: $ft$
-substitutions:
-  params:
-    vars:
-      title: Bottle From Car
-      units: ft
-    z0: 1463
-    y0: 1428
-    vx0: 58
-    vy0: 49
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Bottle From Car
+        units: ft
+      z0: 1467
+      y0: 832
+      vx0: 73
+      vy0: 47
 ---
 # {{ params.vars.title }}
 A reckless driver speeds around a highway corner on the edge of a cliff, ${{params.z0}}ft$ above the ground, which has a radius of R = ${{params.y0}}ft$.

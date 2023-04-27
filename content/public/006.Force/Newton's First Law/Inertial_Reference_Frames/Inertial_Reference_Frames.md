@@ -29,21 +29,23 @@ part1:
     weight: 1
     partial-credit: true
     partial-credit-method: EDC
-substitutions:
-  params:
-    vars:
-      title: Inertial Reference Frames
-    part1:
-      ans1:
-        value: The inside of a car stopped at a traffic light
-      ans2:
-        value: The inside of a car driving at a constant speed along a straight highway
-      ans3:
-        value: The inside of a car accelerating after the traffic light turns green
-      ans4:
-        value: The inside of a car that is slowing down as it approaches a red light
-      ans5:
-        value: The inside of a car taking a corner at a constant speed
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Inertial Reference Frames
+      part1:
+        ans1:
+          value: The inside of a car stopped at a traffic light
+        ans2:
+          value: The inside of a car driving at a constant speed along a straight
+            highway
+        ans3:
+          value: The inside of a car accelerating after the traffic light turns green
+        ans4:
+          value: The inside of a car that is slowing down as it approaches a red light
+        ans5:
+          value: The inside of a car taking a corner at a constant speed
 ---
 # {{ params.vars.title }}
 

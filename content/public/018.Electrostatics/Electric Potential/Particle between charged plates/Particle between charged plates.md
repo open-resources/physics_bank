@@ -40,16 +40,17 @@ part1:
     show-correct-answer: false
     label: $v= $
     suffix: $\rm\ m/s$
-substitutions:
-  params:
-    vars:
-      title: Particle between charged plates
-    sig: '14'
-    d: '3.9'
-    particle: A proton
-    particle1: proton
-    p1: positive
-    p2: negative
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Particle between charged plates
+      sig: '18'
+      d: '4.2'
+      particle: A proton
+      particle1: proton
+      p1: positive
+      p2: negative
 ---
 # {{ params.vars.title }}
 Two large plates of charge density {{ params.sig }}$\rm\ \mu C/m^2$ face each other at a separation of {{ params.d }}$ \textrm{ mm}$.

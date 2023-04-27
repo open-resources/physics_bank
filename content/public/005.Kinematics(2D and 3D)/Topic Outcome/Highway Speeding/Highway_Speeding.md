@@ -41,14 +41,15 @@ part2:
     allow-blank: true
     label: $\dot \theta= $
     suffix: $rad/s$
-substitutions:
-  params:
-    vars:
-      title: Highway Speeding
-    d: 552
-    r_dot: 103
-    angle1: 57
-    angle2: 37
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Highway Speeding
+      d: 484
+      r_dot: 159
+      angle1: 50
+      angle2: 41
 ---
 # {{ params.vars.title }}
 <img src="L7Q1.png" width=90%>

@@ -42,14 +42,15 @@ part2:
     allow-blank: true
     label: $\ddot{\theta}= $
     suffix: $rad/s^2$
-substitutions:
-  params:
-    vars:
-      title: Child on Swing
-    v: 608
-    h: 585
-    d: 928
-    r2: 1404
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Child on Swing
+      v: 615
+      h: 580
+      d: 1000
+      r2: 1335
 ---
 # {{ params.vars.title }}
 <img src="L11Q2.png" width=85%>

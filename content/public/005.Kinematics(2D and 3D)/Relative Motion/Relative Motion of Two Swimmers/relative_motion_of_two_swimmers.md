@@ -41,14 +41,15 @@ part2:
     allow-blank: true
     label: $\theta_{v}= $
     suffix: $^{\circ}$
-substitutions:
-  params:
-    vars:
-      title: Relative Motion of Two Swimmers
-    v: 1
-    h: 20
-    d: 24
-    t: 19
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Relative Motion of Two Swimmers
+      v: 3
+      h: 23
+      d: 36
+      t: 18
 ---
 # {{ params.vars.title }}
 <img src="L11Q3.png" width=85%>

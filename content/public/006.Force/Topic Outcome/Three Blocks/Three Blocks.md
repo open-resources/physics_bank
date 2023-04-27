@@ -96,54 +96,55 @@ part10:
     allow-blank: true
     label: $F_{\text{B on C}} = $
     suffix: $\rm{N}$
-substitutions:
-  params:
-    vars:
-      title: Three Blocks
-      unit1: $\rm{m/s^2}$
-      unit2: $\rm{N}$
-    m_A: 1.7
-    m_B: 3.4
-    m_C: 6.8
-    F: 15
-    part2:
-      ans1:
-        value: $m_A$
-        feedback: Correct! Nice work
-      ans2:
-        value: $F_{\text{on A}}$
-        feedback: Correct! Nice work
-      ans3:
-        value: $m_B$
-        feedback: Correct! Nice work
-      ans4:
-        value: $m_C$
-        feedback: Correct! Nice work
-      ans5:
-        value: $F_{\text{B on A}}$
-        feedback: Not quite - Try again!
-      ans6:
-        value: $F_{\text{B on C}}$
-        feedback: Not quite - Try again!
-    part3:
-      ans1:
-        value: $F_{\text{B on A}}$
-        feedback: Correct! Nice work
-      ans2:
-        value: $F_{\text{B on C}}$
-        feedback: Correct! Nice work
-      ans3:
-        value: $m_A$
-        feedback: Not quite - Try again!
-      ans4:
-        value: $F_{\text{on A}}$
-        feedback: Not quite - Try again!
-      ans5:
-        value: $m_B$
-        feedback: Not quite - Try again!
-      ans6:
-        value: $m_C$
-        feedback: Not quite - Try again!
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Three Blocks
+        unit1: $\rm{m/s^2}$
+        unit2: $\rm{N}$
+      m_A: 2.0
+      m_B: 4.0
+      m_C: 8.0
+      F: 29
+      part2:
+        ans1:
+          value: $m_A$
+          feedback: Correct! Nice work
+        ans2:
+          value: $F_{\text{on A}}$
+          feedback: Correct! Nice work
+        ans3:
+          value: $m_B$
+          feedback: Correct! Nice work
+        ans4:
+          value: $m_C$
+          feedback: Correct! Nice work
+        ans5:
+          value: $F_{\text{B on A}}$
+          feedback: Not quite - Try again!
+        ans6:
+          value: $F_{\text{B on C}}$
+          feedback: Not quite - Try again!
+      part3:
+        ans1:
+          value: $F_{\text{B on A}}$
+          feedback: Correct! Nice work
+        ans2:
+          value: $F_{\text{B on C}}$
+          feedback: Correct! Nice work
+        ans3:
+          value: $m_A$
+          feedback: Not quite - Try again!
+        ans4:
+          value: $F_{\text{on A}}$
+          feedback: Not quite - Try again!
+        ans5:
+          value: $m_B$
+          feedback: Not quite - Try again!
+        ans6:
+          value: $m_C$
+          feedback: Not quite - Try again!
 ---
 # {{ params.vars.title }}
 Three blocks with masses $m_A = $ {{ params.m_A }} $\rm{kg}$, $m_B = $ {{ params.m_B }} $\rm{kg}$, and $m_C = $ {{ params.m_C }} $\rm{kg}$ are lined up in a row on a frictionless table. All three blocks are pushed forward by a force applied to block $A$ as shown in the figure ($F\_\text{on A} = F =$ {{ params.F }} $\rm{N}$). We would like to determine the force block $B$ exerts on blocks $A$ and $C$.

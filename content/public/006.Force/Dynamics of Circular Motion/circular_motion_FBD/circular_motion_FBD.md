@@ -30,21 +30,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Components of Net Force
-    part1:
-      ans1:
-        value: $\vec{n} + \vec{f_s} = m\vec{a}$
-      ans2:
-        value: $\vec{n} - \vec{f_s} = \frac{mv^2}{a} \vec{r}$
-      ans3:
-        value: $n cos(\theta) + f_s = \frac{mv^2}{a}$
-      ans4:
-        value: $n cos(\theta) - f_s = \frac{mv^2}{a}$
-      ans5:
-        value: $\vec{n_r} - \vec{f_{s,r}} = m\vec{a_r}$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Components of Net Force
+      part1:
+        ans1:
+          value: $\vec{n} + \vec{f_s} = m\vec{a}$
+        ans2:
+          value: $\vec{n} - \vec{f_s} = \frac{mv^2}{a} \vec{r}$
+        ans3:
+          value: $n cos(\theta) + f_s = \frac{mv^2}{a}$
+        ans4:
+          value: $n cos(\theta) - f_s = \frac{mv^2}{a}$
+        ans5:
+          value: $\vec{n_r} - \vec{f_{s,r}} = m\vec{a_r}$
 ---
 # {{ params.vars.title }}
 

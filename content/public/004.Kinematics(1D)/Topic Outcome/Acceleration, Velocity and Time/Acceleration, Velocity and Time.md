@@ -36,32 +36,33 @@ part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Acceleration, Velocity and Time
-    part1:
-      ans1:
-        value: Option A
-      ans2:
-        value: Option B
-      ans3:
-        value: Option C
-      ans4:
-        value: Option D
-      ans5:
-        value: Option E
-    part2:
-      ans1:
-        value: Never
-      ans2:
-        value: 3.225 $s$
-      ans3:
-        value: 1.5 $s$
-      ans4:
-        value: 2 $s$
-      ans5:
-        value: 2.866 $s$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Acceleration, Velocity and Time
+      part1:
+        ans1:
+          value: Option A
+        ans2:
+          value: Option B
+        ans3:
+          value: Option C
+        ans4:
+          value: Option D
+        ans5:
+          value: Option E
+      part2:
+        ans1:
+          value: Never
+        ans2:
+          value: 3.225 $s$
+        ans3:
+          value: 1.5 $s$
+        ans4:
+          value: 2 $s$
+        ans5:
+          value: 2.866 $s$
 ---
 # {{ params.vars.title }}
 For this problem, refer to the following figure.

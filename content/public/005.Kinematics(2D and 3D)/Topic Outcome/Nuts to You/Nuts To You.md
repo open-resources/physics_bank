@@ -76,42 +76,43 @@ part8:
     suffix: $m$
     comparison: sigfig
     digits: 3
-substitutions:
-  params:
-    vars:
-      title: Nuts To You
-    vi_hawk: 4.25
-    h_Jed: 28.6
-    part3:
-      ans1:
-        value: Jed maintains the $x$-component of their velocity. ($a_x = 0 \; m/s^2$)
-      ans2:
-        value: There is no $x$-component since Jed falls in a straight line.
-      ans3:
-        value: Jed's velocity decreases because the hawk is no longer pulling them.
-      ans4:
-        value: Jed's velocity increases due to gravity.
-    part5:
-      ans1:
-        value: Jed maintains the $y$-component of their velocity.
-      ans2:
-        value: Jed's velocity increases due to gravity.
-      ans3:
-        value: Jed's velocity decreases because the hawk is no longer pulling them.
-      ans4:
-        value: Jed maintains the $x$-component of their velocity.
-    part6:
-      ans1:
-        value: Jed travels at a higher speed after release as they accelerate downwards
-          and maintain their horizontal speed.
-      ans2:
-        value: The hawk travels at a higher speed after Jed is released since it is
-          now lighter without Jed's weight.
-      ans3:
-        value: Both the hawk and Jed travel at the same speed.
-      ans4:
-        value: The hawk travels at a higher speed because it maintains its horizontal
-          speed.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Nuts To You
+      vi_hawk: 4.58
+      h_Jed: 18.6
+      part3:
+        ans1:
+          value: Jed maintains the $x$-component of their velocity. ($a_x = 0 \; m/s^2$)
+        ans2:
+          value: There is no $x$-component since Jed falls in a straight line.
+        ans3:
+          value: Jed's velocity decreases because the hawk is no longer pulling them.
+        ans4:
+          value: Jed's velocity increases due to gravity.
+      part5:
+        ans1:
+          value: Jed maintains the $y$-component of their velocity.
+        ans2:
+          value: Jed's velocity increases due to gravity.
+        ans3:
+          value: Jed's velocity decreases because the hawk is no longer pulling them.
+        ans4:
+          value: Jed maintains the $x$-component of their velocity.
+      part6:
+        ans1:
+          value: Jed travels at a higher speed after release as they accelerate downwards
+            and maintain their horizontal speed.
+        ans2:
+          value: The hawk travels at a higher speed after Jed is released since it
+            is now lighter without Jed's weight.
+        ans3:
+          value: Both the hawk and Jed travel at the same speed.
+        ans4:
+          value: The hawk travels at a higher speed because it maintains its horizontal
+            speed.
 ---
 # {{ params.vars.title }}
 In the children's book *Nuts to You*, a young squirrel named Jed is snatched up by a hawk.While in the air Jed manages to go limp, slip through the hawk's talons and fall to the forest floor.The hawk travels horizontally at a speed of {{ params.vi_hawk }} $m/s$.(You may neglect any effects of air resistance as you answer the following questions).

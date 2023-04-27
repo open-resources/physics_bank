@@ -27,21 +27,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Maximum In Simple Harmonic Motion
-    part1:
-      ans1:
-        value: Speed
-      ans2:
-        value: Acceleration
-      ans3:
-        value: Kinetic energy
-      ans4:
-        value: Frequency
-      ans5:
-        value: Period
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Maximum In Simple Harmonic Motion
+      part1:
+        ans1:
+          value: Speed
+        ans2:
+          value: Acceleration
+        ans3:
+          value: Kinetic energy
+        ans4:
+          value: Frequency
+        ans5:
+          value: Period
 ---
 # {{ params.vars.title }}
 

@@ -31,12 +31,13 @@ part1:
     allow-blank: true
     label: $v_f= $
     suffix: $\rm{m/s}$
-substitutions:
-  params:
-    vars:
-      title: Water Rocket
-    m: 1.1
-    i: 12
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Water Rocket
+      m: 1.3
+      i: 15
 ---
 # {{ params.vars.title }}
 We are designing a water rocket with a water bottle and pressurized air. We will fill 80% of the volume of the bottle with water. The total mass of our rocket (bottle + water + air) is {{ params.m }} $\rm{kg}$.

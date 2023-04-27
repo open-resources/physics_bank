@@ -25,22 +25,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Energy Consumption Units
-      name: Santiago
-    part1:
-      ans1:
-        value: current
-      ans2:
-        value: power
-      ans3:
-        value: energy
-      ans4:
-        value: voltage
-      ans5:
-        value: charge
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Energy Consumption Units
+        name: Savannah
+      part1:
+        ans1:
+          value: power
+        ans2:
+          value: voltage
+        ans3:
+          value: energy
+        ans4:
+          value: charge
+        ans5:
+          value: current
 ---
 # {{ params.vars.title }}
 

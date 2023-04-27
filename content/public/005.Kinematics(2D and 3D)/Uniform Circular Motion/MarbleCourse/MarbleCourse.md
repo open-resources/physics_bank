@@ -33,16 +33,17 @@ part1:
     allow-blank: true
     label: $\gamma= $
     suffix: $in$
-substitutions:
-  params:
-    vars:
-      title: Marble Course
-      units: $in$
-    max_acc_A: 0.5
-    max_acc_B: 0.8
-    ra: 305
-    rb: 315
-    angle: 64
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Marble Course
+        units: $in$
+      max_acc_A: 0.5
+      max_acc_B: 0.8
+      ra: 346
+      rb: 376
+      angle: 66
 ---
 # {{ params.vars.title }}
 Two marbles travel in track as part of a Rube Goldberg machine.

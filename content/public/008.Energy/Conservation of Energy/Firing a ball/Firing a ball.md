@@ -30,24 +30,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Firing a Ball
-    theta: 45
-    part1:
-      ans1:
-        value: $\sqrt{2}v_1$
-      ans2:
-        value: $\frac{2v_1}{\sqrt{3}}$
-      ans3:
-        value: $2v_1$
-      ans4:
-        value: $\frac{v_1}{2}$
-      ans5:
-        value: $v_1$
-      ans6:
-        value: $\frac{4v_1}{3}$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Firing a Ball
+      theta: 45
+      part1:
+        ans1:
+          value: $\sqrt{2}v_1$
+        ans2:
+          value: $\frac{2v_1}{\sqrt{3}}$
+        ans3:
+          value: $2v_1$
+        ans4:
+          value: $\frac{v_1}{2}$
+        ans5:
+          value: $v_1$
+        ans6:
+          value: $\frac{4v_1}{3}$
 ---
 # {{ params.vars.title }}
 A ball fired vertically at speed $v_1$ reaches a maximum height $h_1$.

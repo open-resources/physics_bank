@@ -31,15 +31,16 @@ part1:
     allow-blank: true
     label: 'Magnitude = '
     suffix: $m/s^2$
-substitutions:
-  params:
-    vars:
-      title: The Magnitude of a Particle's Vector
-      units: $m/s$
-    r_i: $4t^3 - 2t^2 + 3t$
-    r_j: $7t^2$
-    t: $8$
-    choice: acceleration
+myst:
+  substitutions:
+    params:
+      vars:
+        title: The Magnitude of a Particle's Vector
+        units: $m/s$
+      r_i: $7t^2$
+      r_j: $8t^2 - 9t$
+      t: $6$
+      choice: acceleration
 ---
 # {{ params.vars.title }}
 

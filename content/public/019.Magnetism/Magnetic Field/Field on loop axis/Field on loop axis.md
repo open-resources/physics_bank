@@ -40,10 +40,11 @@ part1:
     show-correct-answer: false
     label: $z= $
     suffix: $R$
-substitutions:
-  params:
-    vars:
-      title: Field on loop axis
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Field on loop axis
 ---
 # {{ params.vars.title }}
 A circular loop of radius $R$ carries a current $I$.

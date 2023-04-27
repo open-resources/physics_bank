@@ -28,24 +28,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic05
-    expr: $\dfrac{x}{6}$
-    num2: 2
-    num3: 7
-    part1:
-      ans1:
-        value: 84
-      ans2:
-        value: 1/3
-      ans3:
-        value: 42
-      ans4:
-        value: 7/3
-      ans5:
-        value: Don't Know
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic05
+      expr: $\dfrac{x}{3}$
+      num2: 5
+      num3: 6
+      part1:
+        ans1:
+          value: 90
+        ans2:
+          value: 5/3
+        ans3:
+          value: 18
+        ans4:
+          value: '10'
+        ans5:
+          value: Don't Know
 ---
 # {{ params.vars.title }}
 If {{ params.expr }} $=$ {{ params.num2 }} then {{ params.num3 }}x equals:

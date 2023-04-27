@@ -27,34 +27,35 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Particle Collision
-    choice: $x$-component of the
-    m1: 3
-    m2: 1
-    v1: 13
-    v2: 10
-    part1:
-      ans1:
-        value: 39 $kg$ $\dfrac{m}{s}\hat{\imath}$
-        feedback: Great! You got it.
-      ans2:
-        value: 10 $kg$ $\dfrac{m}{s}\hat{\imath}$
-        feedback: Hmm... Try again.
-      ans3:
-        value: 10 $kg$ $\dfrac{m}{s}\hat{\jmath}$
-        feedback: Close! Double check the directions of the unit vectors.
-      ans4:
-        value: 10 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 39 $kg$ $\dfrac{m}{s}\hat{\jmath}$
-        feedback: Hmm... Try again.
-      ans5:
-        value: 39 $kg$ $\dfrac{m}{s}\hat{\jmath}$
-        feedback: Hmm... Try again.
-      ans6:
-        value: 39 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 10 $kg$ $\dfrac{m}{s}\hat{\jmath}$
-        feedback: Careful! Only one component is asked for.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Particle Collision
+      choice: total
+      m1: 6
+      m2: 6
+      v1: 2
+      v2: 9
+      part1:
+        ans1:
+          value: 12 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 54 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+          feedback: Great! You got it.
+        ans2:
+          value: 54 $kg$ $\dfrac{m}{s}\hat{\imath}$
+          feedback: Hmm... Try again.
+        ans3:
+          value: 54 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+          feedback: Careful! Both components are asked for.
+        ans4:
+          value: 54 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 12 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+          feedback: Hmm... Try again.
+        ans5:
+          value: 12 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+          feedback: Hmm... Try again.
+        ans6:
+          value: 12 $kg$ $\dfrac{m}{s}\hat{\imath}$
+          feedback: Careful! Both components are asked for.
 ---
 # {{ params.vars.title }}
 A particle of mass {{ params.m1 }} $kg$ is travelling with velocity {{ params.v1 }} $\frac{m}{s}\hat{\imath}$ when it collides with another particle of mass {{ params.m2 }} $kg$ travelling with velocity {{ params.v2 }} $\frac{m}{s}\hat{\jmath}$.

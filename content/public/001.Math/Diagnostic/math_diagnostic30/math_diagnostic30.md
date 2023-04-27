@@ -27,24 +27,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic30
-      name: Ahmed
-    sp1: 8
-    sp2: 4
-    part1:
-      ans1:
-        value: $4 {1 \over 2} mph$
-      ans2:
-        value: $5 {1 \over 2}mph$
-      ans3:
-        value: $5 {1 \over 3}mph$
-      ans4:
-        value: $6mph$
-      ans5:
-        value: Do not know
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic30
+        name: Mateo
+      sp1: 8
+      sp2: 4
+      part1:
+        ans1:
+          value: $4 {1 \over 2} mph$
+        ans2:
+          value: $5 {1 \over 2}mph$
+        ans3:
+          value: $5 {1 \over 3}mph$
+        ans4:
+          value: $6mph$
+        ans5:
+          value: Do not know
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} runs 1 mile at {{ params.sp1 }} $mph$ followed by 1 mile at {{ params.sp2 }} $mph$.

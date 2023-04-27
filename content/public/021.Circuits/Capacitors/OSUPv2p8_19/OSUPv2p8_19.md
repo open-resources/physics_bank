@@ -39,12 +39,13 @@ part1:
     show-correct-answer: false
     label: $Q= $
     suffix: $\rm\ C$
-substitutions:
-  params:
-    vars:
-      title: Charge Stored in a Capacitor
-    c: '120'
-    v: '180'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Charge Stored in a Capacitor
+      c: '170'
+      v: '160'
 ---
 # {{ params.vars.title }}
 

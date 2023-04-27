@@ -56,13 +56,14 @@ part4:
     allow-blank: true
     label: $W= $
     suffix: $J$
-substitutions:
-  params:
-    vars:
-      title: Work Done by a Constant Force
-      units: $J$
-    F: 46.7
-    r: 7.79
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Work Done by a Constant Force
+        units: $J$
+      F: 19.7
+      r: 39.0
 ---
 # {{ params.vars.title }}
 Calculate the work done by a constant force of magnitude $F = $ {{ params.F }} $N$ applied over a displacement of magnitude $\Delta r = $ {{ params.r }} $m$ for all four of the diagrams.

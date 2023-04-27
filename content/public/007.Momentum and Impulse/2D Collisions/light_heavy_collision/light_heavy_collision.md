@@ -32,34 +32,35 @@ part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Collision of Light and Heavy Object
-    part1:
-      ans1:
-        value: lead sphere
-      ans2:
-        value: aluminium sphere
-      ans3:
-        value: both spheres experience the same magnitude of change in momentum
-      ans4:
-        value: it depends on if the collision was elastic or inelastic
-      ans5:
-        value: it depends on whether the collision was a direct hit or a glancing
-          blow
-    part2:
-      ans1:
-        value: lead sphere
-      ans2:
-        value: aluminium sphere
-      ans3:
-        value: both spheres experience the same magnitude of acceleration
-      ans4:
-        value: it depends on if the collision was elastic or inelastic
-      ans5:
-        value: it depends on whether the collision was a direct hit or a glancing
-          blow
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Collision of Light and Heavy Object
+      part1:
+        ans1:
+          value: lead sphere
+        ans2:
+          value: aluminium sphere
+        ans3:
+          value: both spheres experience the same magnitude of change in momentum
+        ans4:
+          value: it depends on if the collision was elastic or inelastic
+        ans5:
+          value: it depends on whether the collision was a direct hit or a glancing
+            blow
+      part2:
+        ans1:
+          value: lead sphere
+        ans2:
+          value: aluminium sphere
+        ans3:
+          value: both spheres experience the same magnitude of acceleration
+        ans4:
+          value: it depends on if the collision was elastic or inelastic
+        ans5:
+          value: it depends on whether the collision was a direct hit or a glancing
+            blow
 ---
 # {{ params.vars.title }}
 A lead sphere (heavy) collides with an aluminum sphere (light).

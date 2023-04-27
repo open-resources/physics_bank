@@ -45,11 +45,12 @@ part3:
     weight: 1
     allow-blank: true
     label: $?= $
-substitutions:
-  params:
-    vars:
-      name: Abbas
-      title: Smudge
+myst:
+  substitutions:
+    params:
+      vars:
+        name: Ximena
+        title: Smudge
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is writing a physics test, and their formula sheet has a smudge on it, making it hard to read the exponent of one of their equations, which describes the energy stored in a spring.  Their copy reads $U = \frac{1}{2}kx^?$, where $?$ represents the number that they can't read.  Rather than asking the instructor (WHICH YOU SHOULD ALWAYS DO WHEN WRITING A TEST!), {{ params.vars.name }} decides to use dimensional analysis to figure out the power.  {{ params.vars.name }} remembers that the units of energy, $U$, are \[$U$\] = $J$ = $Nm$,  the units of the spring constant, $k$, are \[$k$\] = $\frac{\text{N}}{\text{m}}$, and the units of position, $x$, are \[$x$\] = $m$,  where 1 $N$ = 1 $kg$ $\frac{\text{m}}{\text{s}^2}$.

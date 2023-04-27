@@ -39,13 +39,14 @@ part1:
     label: $|Q|/m = $
     suffix: $\rm\ {C/kg}$
     custom-format: .2g
-substitutions:
-  params:
-    vars:
-      title: Velocity Selector
-    B: 0.08
-    E: 1.8
-    r: 1.84
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Velocity Selector
+      B: 0.822
+      E: 1.0
+      r: 1.96
 ---
 # {{ params.vars.title }}
 

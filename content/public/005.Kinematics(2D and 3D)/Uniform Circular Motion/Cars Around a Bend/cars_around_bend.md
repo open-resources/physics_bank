@@ -34,16 +34,17 @@ part1:
     allow-blank: true
     label: $S = $
     suffix: $\rm{m}$
-substitutions:
-  params:
-    vars:
-      title: Cars around a bend
-      units: "$\rm{m}$"
-    max_acc_A: 0.1
-    max_acc_B: 0.2
-    ra: 305
-    rb: 402
-    angle: 30
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Cars around a bend
+        units: "$\rm{m}$"
+      max_acc_A: 0.2
+      max_acc_B: 0.8
+      ra: 312
+      rb: 375
+      angle: 23
 ---
 # {{ params.vars.title }}
 Two cars travel at constant speeds around a curve as shown below.

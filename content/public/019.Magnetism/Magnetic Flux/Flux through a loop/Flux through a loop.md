@@ -55,65 +55,66 @@ part5:
   pl-customizations:
     fixed-order: true
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Flux through a loop
-    part1:
-      ans1:
-        value: $-2\mu_0$
-      ans2:
-        value: $-\mu_0$
-      ans3:
-        value: zero
-      ans4:
-        value: $\mu_0$
-      ans5:
-        value: $2\mu_0$
-    part2:
-      ans1:
-        value: $-11\mu_0$
-      ans2:
-        value: $-9\mu_0$
-      ans3:
-        value: zero
-      ans4:
-        value: $9\mu_0$
-      ans5:
-        value: $11\mu_0$
-    part3:
-      ans1:
-        value: $-5\mu_0$
-      ans2:
-        value: $-1\mu_0$
-      ans3:
-        value: zero
-      ans4:
-        value: $\mu_0$
-      ans5:
-        value: $5\mu_0$
-    part4:
-      ans1:
-        value: $-6\mu_0$
-      ans2:
-        value: $-2\mu_0$
-      ans3:
-        value: zero
-      ans4:
-        value: $2\mu_0$
-      ans5:
-        value: $6\mu_0$
-    part5:
-      ans1:
-        value: $-11\mu_0$
-      ans2:
-        value: $-5\mu_0$
-      ans3:
-        value: zero
-      ans4:
-        value: $5\mu_0$
-      ans5:
-        value: $11\mu_0$
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Flux through a loop
+      part1:
+        ans1:
+          value: $-2\mu_0$
+        ans2:
+          value: $-\mu_0$
+        ans3:
+          value: zero
+        ans4:
+          value: $\mu_0$
+        ans5:
+          value: $2\mu_0$
+      part2:
+        ans1:
+          value: $-11\mu_0$
+        ans2:
+          value: $-9\mu_0$
+        ans3:
+          value: zero
+        ans4:
+          value: $9\mu_0$
+        ans5:
+          value: $11\mu_0$
+      part3:
+        ans1:
+          value: $-5\mu_0$
+        ans2:
+          value: $-1\mu_0$
+        ans3:
+          value: zero
+        ans4:
+          value: $\mu_0$
+        ans5:
+          value: $5\mu_0$
+      part4:
+        ans1:
+          value: $-6\mu_0$
+        ans2:
+          value: $-2\mu_0$
+        ans3:
+          value: zero
+        ans4:
+          value: $2\mu_0$
+        ans5:
+          value: $6\mu_0$
+      part5:
+        ans1:
+          value: $-11\mu_0$
+        ans2:
+          value: $-5\mu_0$
+        ans3:
+          value: zero
+        ans4:
+          value: $5\mu_0$
+        ans5:
+          value: $11\mu_0$
 ---
 # {{ params.vars.title }}
 Evaluate the magnetic flux $\oint\vec{\mathbf{B}}\cdot d\vec{\mathbf{\ell}}$ for each of the cases shown in the figure.

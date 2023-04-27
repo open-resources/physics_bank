@@ -33,14 +33,15 @@ part1:
     show-correct-answer: false
     label: $E= $
     suffix: $\rm\ {N/C}$
-substitutions:
-  params:
-    vars:
-      title: Electric Field Outside Solenoid
-    R: '2'
-    r: '6'
-    n: '20'
-    DI: '3'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Electric Field Outside Solenoid
+      R: '2'
+      r: '5'
+      n: '25'
+      DI: '5'
 ---
 # {{ params.vars.title }}
 

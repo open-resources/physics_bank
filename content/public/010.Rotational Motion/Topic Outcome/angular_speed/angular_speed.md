@@ -27,21 +27,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Angular Speed
-      units: rad/s
-    rev: 14
-    part1:
-      ans1:
-        value: 0.45
-      ans2:
-        value: 44.0
-      ans3:
-        value: 88.0
-      ans4:
-        value: 2.2
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Angular Speed
+        units: rad/s
+      rev: 14
+      part1:
+        ans1:
+          value: 0.45
+        ans2:
+          value: 44.0
+        ans3:
+          value: 88.0
+        ans4:
+          value: 2.2
 ---
 # {{ params.vars.title }}
 

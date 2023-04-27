@@ -41,15 +41,16 @@ part2:
     allow-blank: true
     label: $\theta_{a}= $
     suffix: $^{\circ}$
-substitutions:
-  params:
-    vars:
-      title: Relative Motion on a Curve
-    v: 36
-    r: 35
-    d: 49
-    a: 1.6
-    theta: 31
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Relative Motion on a Curve
+      v: 38
+      r: 64
+      d: 27
+      a: 2.1
+      theta: 33
 ---
 # {{ params.vars.title }}
 <img src="L11Q4.png" width=85%>

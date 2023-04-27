@@ -32,12 +32,13 @@ part1:
     allow-blank: true
     label: $v_{iy}= $
     suffix: $km/h$
-substitutions:
-  params:
-    vars:
-      title: Eruption of Mount Etna
-      units: $km/h$
-    h: 80.8
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Eruption of Mount Etna
+        units: $km/h$
+      h: 86.8
 ---
 # {{ params.vars.title }}
 Mount Etna erupted on Dec. 14 2020 sending lava {{ params.h }} $m$ into the air.

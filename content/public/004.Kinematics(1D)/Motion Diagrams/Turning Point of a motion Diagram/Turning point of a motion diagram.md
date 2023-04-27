@@ -29,27 +29,28 @@ part1:
   pl-customizations:
     weight: 1
     hide-letter-keys: true
-substitutions:
-  params:
-    vars:
-      title: Turning Point of a Motion Diagram
-    part1:
-      ans1:
-        value: When approaching a turning point, the spacing of dots decreases. Right
-          at the turning point, the spacing is momentarily zero. Leaving a turning
-          point, the spacing of dots increases.
-      ans2:
-        value: When approaching a turning point, the spacing of dots increases. Right
-          at the turning point, the spacing is momentarily zero. Leaving a turning
-          point, the spacing of dots decreases.
-      ans3:
-        value: When approaching a turning point, the spacing of dots decreases. Right
-          at the turning point, the spacing is momentarily zero. Leaving a turning
-          point, the spacing of dots decreases.
-      ans4:
-        value: When approaching a turning point, the spacing of dots increases. Right
-          at the turning point, the spacing is momentarily zero. Leaving a turning
-          point, the spacing of dots increases.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Turning Point of a Motion Diagram
+      part1:
+        ans1:
+          value: When approaching a turning point, the spacing of dots decreases.
+            Right at the turning point, the spacing is momentarily zero. Leaving a
+            turning point, the spacing of dots increases.
+        ans2:
+          value: When approaching a turning point, the spacing of dots increases.
+            Right at the turning point, the spacing is momentarily zero. Leaving a
+            turning point, the spacing of dots decreases.
+        ans3:
+          value: When approaching a turning point, the spacing of dots decreases.
+            Right at the turning point, the spacing is momentarily zero. Leaving a
+            turning point, the spacing of dots decreases.
+        ans4:
+          value: When approaching a turning point, the spacing of dots increases.
+            Right at the turning point, the spacing is momentarily zero. Leaving a
+            turning point, the spacing of dots increases.
 ---
 # {{ params.vars.title }}
 

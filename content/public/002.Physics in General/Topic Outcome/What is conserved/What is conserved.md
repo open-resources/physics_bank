@@ -31,21 +31,22 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: What is Conserved ?
-    part1:
-      ans1:
-        value: Momentum only
-      ans2:
-        value: Kinetic energy only
-      ans3:
-        value: Momentum and mechanical energy
-      ans4:
-        value: Momentum and kinetic energy
-      ans5:
-        value: Momentum and potential energy
+myst:
+  substitutions:
+    params:
+      vars:
+        title: What is Conserved ?
+      part1:
+        ans1:
+          value: Momentum only
+        ans2:
+          value: Kinetic energy only
+        ans3:
+          value: Momentum and mechanical energy
+        ans4:
+          value: Momentum and kinetic energy
+        ans5:
+          value: Momentum and potential energy
 ---
 # {{ params.vars.title }}
 

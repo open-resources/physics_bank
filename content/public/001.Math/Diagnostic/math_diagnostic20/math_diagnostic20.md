@@ -27,22 +27,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic20
-    expr: $\sin \Big({7\pi \over{6 }} \Big)$
-    part1:
-      ans1:
-        value: \begin{equation}- \frac{\sqrt{3}}{2}\end{equation}
-      ans2:
-        value: \begin{equation}- \frac{1}{2}\end{equation}
-      ans3:
-        value: \begin{equation}\frac{1}{2}\end{equation}
-      ans4:
-        value: \begin{equation}\frac{\sqrt{3}}{2}\end{equation}
-      ans5:
-        value: Do not know
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic20
+      expr: $\sin \Big({7\pi \over{6 }} \Big)$
+      part1:
+        ans1:
+          value: \begin{equation}- \frac{\sqrt{3}}{2}\end{equation}
+        ans2:
+          value: \begin{equation}- \frac{1}{2}\end{equation}
+        ans3:
+          value: \begin{equation}\frac{1}{2}\end{equation}
+        ans4:
+          value: \begin{equation}\frac{\sqrt{3}}{2}\end{equation}
+        ans5:
+          value: Do not know
 ---
 # {{ params.vars.title }}
 

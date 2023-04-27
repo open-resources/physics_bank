@@ -27,24 +27,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Hockey net across ice
-    v: 15
-    f: 2.1771821203953716
-    part1:
-      ans1:
-        value: At a steadily increasing speed.
-      ans2:
-        value: At 33.0 $\mathrm{m/s}$.
-      ans3:
-        value: At an increasing speed until it reaches 33.0 $\mathrm{m/s}$ then at
-          a constant speed.
-      ans4:
-        value: At a steadily decreasing speed.
-      ans5:
-        value: At 15 $\mathrm{m/s}$.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Hockey net across ice
+      v: 11
+      f: 1.1143628838043775
+      part1:
+        ans1:
+          value: At a steadily increasing speed.
+        ans2:
+          value: At 12.0 $\mathrm{m/s}$.
+        ans3:
+          value: At an increasing speed until it reaches 12.0 $\mathrm{m/s}$ then
+            at a constant speed.
+        ans4:
+          value: At a steadily decreasing speed.
+        ans5:
+          value: At 11 $\mathrm{m/s}$.
 ---
 # {{ params.vars.title }}
 

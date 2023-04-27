@@ -42,13 +42,14 @@ part1:
     comparison: relabs
     rtol: 0.03
     atol: 0
-substitutions:
-  params:
-    vars:
-      title: Camera Flash
-    I: '0.150'
-    L: '2.50'
-    V: '575'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Camera Flash
+      I: '0.275'
+      L: '1.50'
+      V: '475'
 ---
 # {{ params.vars.title }}
 When a camera uses a flash, a fully-charged capacitor discharges through an inductor.

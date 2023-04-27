@@ -28,19 +28,20 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Which Block Stops First
-    part1:
-      ans1:
-        value: $M_1$
-      ans2:
-        value: $M_2$
-      ans3:
-        value: Both stop in the same distance
-      ans4:
-        value: Cannot be determined without more information
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Which Block Stops First
+      part1:
+        ans1:
+          value: $M_1$
+        ans2:
+          value: $M_2$
+        ans3:
+          value: Both stop in the same distance
+        ans4:
+          value: Cannot be determined without more information
 ---
 # {{ params.vars.title }}
 Two blocks, $M_1$ \< $M_2$, having the same initial speed, move from a frictionless surface onto a surface having a coefficient of kinetic friction $\mu_k$.

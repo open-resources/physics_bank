@@ -48,10 +48,11 @@ part3:
     variables: m1, m2, g, r
     weight: 1
     allow-blank: false
-substitutions:
-  params:
-    vars:
-      title: Rotation on a Frictionless Table
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Rotation on a Frictionless Table
 ---
 # {{ params.vars.title }}
 A mass $m_1$ is connected to a mass $m_2$ by a massless string that passes through a hole in a table as shown in the figure below. Mass $m_1$ rotates about the hole with radius $r$, while mass $m_2$ hangs below the table. The angular velocity $\omega$ of mass $m_1$ is such that $m_2$ remains at rest.

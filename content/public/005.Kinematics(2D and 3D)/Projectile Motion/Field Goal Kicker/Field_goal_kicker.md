@@ -60,17 +60,18 @@ part4:
     label: $\Delta h = $
     suffix: $\rm{m}$
     comparison: relabs
-substitutions:
-  params:
-    vars:
-      title: Field Goal Kicker
-    theta: 34
-    hg: 1.9
-    dg: 32.5
-    deltahg: 2.0
-    hl: 2.43
-    dl1: 4.3
-    dl2: 1.9
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Field Goal Kicker
+      theta: 35
+      hg: 2.2
+      dg: 33.6
+      deltahg: 1.5
+      hl: 2.73
+      dl1: 4.5
+      dl2: 1.4
 ---
 # {{ params.vars.title }}
 When a field goal kicker kicks a football at ${{ params.theta }}^\circ$ to the horizontal, the ball clears the crossbar of the goalposts by ${{ params.deltahg }}$ $\rm{m}$.

@@ -32,29 +32,30 @@ part2:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Immersion Heater
-    part1:
-      ans1:
-        value: It will double
-      ans2:
-        value: It will be quartered
-      ans3:
-        value: It will be halved
-      ans4:
-        value: It will triple
-      ans5:
-        value: It will stay the same
-    part2:
-      ans1:
-        value: Yes, since it would take a much shorter time to heat the water.
-      ans2:
-        value: No, since the device is rated for a specific power and could possibly
-          burn up.
-      ans3:
-        value: It does not matter since it does not affect the time.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Immersion Heater
+      part1:
+        ans1:
+          value: It will double
+        ans2:
+          value: It will be quartered
+        ans3:
+          value: It will be halved
+        ans4:
+          value: It will triple
+        ans5:
+          value: It will stay the same
+      part2:
+        ans1:
+          value: Yes, since it would take a much shorter time to heat the water.
+        ans2:
+          value: No, since the device is rated for a specific power and could possibly
+            burn up.
+        ans3:
+          value: It does not matter since it does not affect the time.
 ---
 # {{ params.vars.title }}
 An immersion heater is a small appliance used to heat a cup of water for tea by passing current through a resistor.

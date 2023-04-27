@@ -57,15 +57,16 @@ part4:
     weight: 1
     allow-blank: true
     suffix: $\hat{\jmath} \; (m/s)$
-substitutions:
-  params:
-    vars:
-      title: Ball Launched from a Horizontal Cliff
-      unit1: $s$
-      unit2: rad
-      unit3: $m/s$
-    v0: 2.61
-    h: 44.0
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Ball Launched from a Horizontal Cliff
+        unit1: $s$
+        unit2: rad
+        unit3: $m/s$
+      v0: 1.31
+      h: 52.3
 ---
 # {{ params.vars.title }}
 A small ball is launched from a horizontal cliff with initial speed {{ params.v0 }} $m/s$. The side of the cliff is sloped. The ball makes contact with the cliff side after falling a vertical distance of {{ params.h }} cm.

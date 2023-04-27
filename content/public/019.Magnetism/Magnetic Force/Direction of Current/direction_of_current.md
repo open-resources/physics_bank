@@ -47,49 +47,50 @@ part3:
   pl-customizations:
     weight: 1
     blank: 'true'
-substitutions:
-  params:
-    vars:
-      title: Magnetic Force on Charged Particle
-    part1:
-      ans1:
-        value: Left
-      ans2:
-        value: Right
-      ans3:
-        value: Into the screen
-      ans4:
-        value: Out of the screen
-      ans5:
-        value: Up
-      ans6:
-        value: Down
-    part2:
-      ans1:
-        value: Left
-      ans2:
-        value: Right
-      ans3:
-        value: Into the screen
-      ans4:
-        value: Out of the screen
-      ans5:
-        value: Up
-      ans6:
-        value: Down
-    part3:
-      ans1:
-        value: Left
-      ans2:
-        value: Right
-      ans3:
-        value: Into the screen
-      ans4:
-        value: Out of the screen
-      ans5:
-        value: Up
-      ans6:
-        value: Down
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Magnetic Force on Charged Particle
+      part1:
+        ans1:
+          value: Left
+        ans2:
+          value: Right
+        ans3:
+          value: Into the screen
+        ans4:
+          value: Out of the screen
+        ans5:
+          value: Up
+        ans6:
+          value: Down
+      part2:
+        ans1:
+          value: Left
+        ans2:
+          value: Right
+        ans3:
+          value: Into the screen
+        ans4:
+          value: Out of the screen
+        ans5:
+          value: Up
+        ans6:
+          value: Down
+      part3:
+        ans1:
+          value: Left
+        ans2:
+          value: Right
+        ans3:
+          value: Into the screen
+        ans4:
+          value: Out of the screen
+        ans5:
+          value: Up
+        ans6:
+          value: Down
 ---
 # {{ params.vars.title }}
 What is the direction of a current that experiences the magnetic force shown in each of the three cases, assuming the current runs perpendicular to to $B$?

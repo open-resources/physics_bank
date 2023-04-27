@@ -31,20 +31,21 @@ part1:
   pl-customizations:
     weight: 1
     fixed-order: true
-substitutions:
-  params:
-    vars:
-      title: Rotational Inertia of T-shaped Rods
-    choice: minimum
-    part1:
-      ans1:
-        value: Figure (a)
-      ans2:
-        value: Figure (b)
-      ans3:
-        value: Figure (c)
-      ans4:
-        value: Figure (d)
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Rotational Inertia of T-shaped Rods
+      choice: maximum
+      part1:
+        ans1:
+          value: Figure (a)
+        ans2:
+          value: Figure (b)
+        ans3:
+          value: Figure (c)
+        ans4:
+          value: Figure (d)
 ---
 # {{ params.vars.title }}
 Four 'T's are made from two identical rods of equal mass and length. The 'T's are rotated about various axes indicated by the dashed lines in the figures below.

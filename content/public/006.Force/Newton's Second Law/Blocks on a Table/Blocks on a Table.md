@@ -27,24 +27,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Blocks on a Table
-    m1: 3
-    m2: 16
-    m3: 13
-    part1:
-      ans1:
-        value: Block A experiences the greatest net force.
-      ans2:
-        value: Block B experiences the greatest net force.
-      ans3:
-        value: Block C experiences the greatest net force.
-      ans4:
-        value: More information is needed to answer this question.
-      ans5:
-        value: The net force on all the blocks is the same.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Blocks on a Table
+      m1: 2
+      m2: 17
+      m3: 8
+      part1:
+        ans1:
+          value: Block A experiences the greatest net force.
+        ans2:
+          value: Block B experiences the greatest net force.
+        ans3:
+          value: Block C experiences the greatest net force.
+        ans4:
+          value: More information is needed to answer this question.
+        ans5:
+          value: The net force on all the blocks is the same.
 ---
 # {{ params.vars.title }}
 Blocks A, B, and C are on a frictionless table, connected by massless strings.

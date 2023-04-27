@@ -65,19 +65,20 @@ part4:
   pl-customizations:
     blank: true
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Power And Energy Through Resistor
-    V: 34
-    R: 4
-    part4:
-      ans1:
-        value: It is converted into light energy.
-      ans2:
-        value: It is converted into heat.
-      ans3:
-        value: It is converted into chemical energy.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Power And Energy Through Resistor
+      V: 43
+      R: 15
+      part4:
+        ans1:
+          value: It is converted into light energy.
+        ans2:
+          value: It is converted into heat.
+        ans3:
+          value: It is converted into chemical energy.
 ---
 # {{ params.vars.title }}
 A {{params.V}} $\textrm{ V}$ battery is used to supply current to a {{params.R} $\rm\ k\Omega$ resistor.

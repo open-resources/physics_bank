@@ -54,21 +54,22 @@ part3:
   pl-customizations:
     weight: 1
     blank: true
-substitutions:
-  params:
-    vars:
-      title: Varying Separation Distance of Capacitor Plates
-    a: '30.0'
-    b: '1.25'
-    c: '2.50'
-    v: '60'
-    part3:
-      ans1:
-        value: It is lost to the surroundings in the laboratory
-      ans2:
-        value: Charge is transferred to the battery
-      ans3:
-        value: It is transferred into heat energy
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Varying Separation Distance of Capacitor Plates
+      a: '30.0'
+      b: '1.25'
+      c: '2.00'
+      v: '30'
+      part3:
+        ans1:
+          value: It is lost to the surroundings in the laboratory
+        ans2:
+          value: Charge is transferred to the battery
+        ans3:
+          value: It is transferred into heat energy
 ---
 # {{ params.vars.title }}
 A parallel-plate capacitor is made of two square plates with side length {{params.a }} $\textrm{ cm}$ that are {{params.b }} $\textrm{ mm}$ apart. The capacitor is connected to a {{params.v }} $\textrm{ V}$ battery. With the battery still connected, the plates are pulled apart to a separation distance of {{params.c }} $\textrm{ mm}$.

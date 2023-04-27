@@ -27,23 +27,24 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Math Diagnostic17
-    a: 10
-    b: 3
-    part1:
-      ans1:
-        value: $e^{3} e^{10 y}$
-      ans2:
-        value: $e^{10 y} + e^{10}$
-      ans3:
-        value: $10 e^{10} e^{y}$
-      ans4:
-        value: $3 e^{10 y}$
-      ans5:
-        value: Don't Know
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Math Diagnostic17
+      a: 4
+      b: 3
+      part1:
+        ans1:
+          value: $e^{3} e^{4 y}$
+        ans2:
+          value: $e^{4 y} + e^{4}$
+        ans3:
+          value: $4 e^{4} e^{y}$
+        ans4:
+          value: $3 e^{4 y}$
+        ans5:
+          value: Don't Know
 ---
 # {{ params.vars.title }}
 If $ x = $ {{params.a}} $y$ + {{params.b}} then $e^x$ is equal to:

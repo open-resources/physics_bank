@@ -47,55 +47,56 @@ part3:
   pl-customizations:
     weight: 1
     blank: 'true'
-substitutions:
-  params:
-    vars:
-      title: Magnetic Force on Charged Particle
-    part1:
-      ans1:
-        value: Left
-      ans2:
-        value: Right
-      ans3:
-        value: Into the page
-      ans4:
-        value: Out of the page
-      ans5:
-        value: Up
-      ans6:
-        value: Down
-      ans7:
-        value: No force
-    part2:
-      ans1:
-        value: Left
-      ans2:
-        value: Right
-      ans3:
-        value: Into the page
-      ans4:
-        value: Out of the page
-      ans5:
-        value: Up
-      ans6:
-        value: Down
-      ans7:
-        value: No force
-    part3:
-      ans1:
-        value: Left
-      ans2:
-        value: Right
-      ans3:
-        value: Into the page
-      ans4:
-        value: Out of the page
-      ans5:
-        value: Up
-      ans6:
-        value: Down
-      ans7:
-        value: No force
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Magnetic Force on Charged Particle
+      part1:
+        ans1:
+          value: Left
+        ans2:
+          value: Right
+        ans3:
+          value: Into the page
+        ans4:
+          value: Out of the page
+        ans5:
+          value: Up
+        ans6:
+          value: Down
+        ans7:
+          value: No force
+      part2:
+        ans1:
+          value: Left
+        ans2:
+          value: Right
+        ans3:
+          value: Into the page
+        ans4:
+          value: Out of the page
+        ans5:
+          value: Up
+        ans6:
+          value: Down
+        ans7:
+          value: No force
+      part3:
+        ans1:
+          value: Left
+        ans2:
+          value: Right
+        ans3:
+          value: Into the page
+        ans4:
+          value: Out of the page
+        ans5:
+          value: Up
+        ans6:
+          value: Down
+        ans7:
+          value: No force
 ---
 # {{ params.vars.title }}
 What is the direction of the velocity of an electron that experiences the magnetic force shown in each of the three cases, assuming it moves perpendicular to B?

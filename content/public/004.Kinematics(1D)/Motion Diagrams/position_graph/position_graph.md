@@ -60,23 +60,24 @@ part5:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Position Graph
-    part5:
-      ans1:
-        value: There is no sign.
-        feedback: 'Please try again! Hint: Try finding the velocities before and after
-          point B (recall the definition of acceleration).'
-      ans2:
-        value: Negative
-        feedback: Great! You got it; the velocity $v_x$ is positive just before B
-          and negative after B, thus $a_x$ has a negative sign!
-      ans3:
-        value: Positive
-        feedback: 'Please try again! Hint: Try finding the velocities before and after
-          point B (recall the definition of acceleration).'
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Position Graph
+      part5:
+        ans1:
+          value: There is no sign.
+          feedback: 'Please try again! Hint: Try finding the velocities before and
+            after point B (recall the definition of acceleration).'
+        ans2:
+          value: Negative
+          feedback: Great! You got it; the velocity $v_x$ is positive just before
+            B and negative after B, thus $a_x$ has a negative sign!
+        ans3:
+          value: Positive
+          feedback: 'Please try again! Hint: Try finding the velocities before and
+            after point B (recall the definition of acceleration).'
 ---
 # {{ params.vars.title }}
 At each of A, B and C on the graph below, estimate the $x$-component of the velocity vector, $v_x$ from the position vs. time graph.

@@ -29,24 +29,25 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Speed Before Impact
-      vehicle: semi-truck
-      units: $m/s$
-    m: 512
-    part1:
-      ans1:
-        value: 105.0
-      ans2:
-        value: 53.0
-      ans3:
-        value: 26.0
-      ans4:
-        value: 13.0
-      ans5:
-        value: 0
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Speed Before Impact
+        vehicle: truck
+        units: $m/s$
+      m: 658
+      part1:
+        ans1:
+          value: 82.0
+        ans2:
+          value: 41.0
+        ans3:
+          value: 21.0
+        ans4:
+          value: 10.0
+        ans5:
+          value: 0
 ---
 # {{ params.vars.title }}
 The figure below shows the force on a {{ params.vars.vehicle }} during a typical collision used during safety tests.

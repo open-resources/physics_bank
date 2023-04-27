@@ -33,10 +33,11 @@ part1:
     variables: m, h, g , theta
     weight: 1
     allow-blank: true
-substitutions:
-  params:
-    vars:
-      title: Mass inside a Rotating Cone
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Mass inside a Rotating Cone
 ---
 # {{ params.vars.title }}
 

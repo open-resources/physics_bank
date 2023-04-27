@@ -29,27 +29,28 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Rotational Motion
-    part1:
-      ans1:
-        value: Increasing their moment of inertia, slowing down their angular velocity.
-        feedback: Great job! You got it!
-      ans2:
-        value: Decreasing their moment of inertia, slowing down their angular velocity.
-        feedback: Consider if angular momentum is conserved.
-      ans3:
-        value: Increasing their moment of inertia, speeding up their angular velocity.
-        feedback: Consider if angular momentum is conserved.
-      ans4:
-        value: Decreasing their moment of inertia, speeding up their angular velocity.
-        feedback: Does spreading mass out from your centre of gravity increase or
-          decrease your moment of inertia?
-      ans5:
-        value: Showing the judges that they are in control, boosting their confidence.
-        feedback: Perhaps! But there is another more concrete reason.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Rotational Motion
+      part1:
+        ans1:
+          value: Increasing their moment of inertia, slowing down their angular velocity.
+          feedback: Great job! You got it!
+        ans2:
+          value: Decreasing their moment of inertia, slowing down their angular velocity.
+          feedback: Consider if angular momentum is conserved.
+        ans3:
+          value: Increasing their moment of inertia, speeding up their angular velocity.
+          feedback: Consider if angular momentum is conserved.
+        ans4:
+          value: Decreasing their moment of inertia, speeding up their angular velocity.
+          feedback: Does spreading mass out from your centre of gravity increase or
+            decrease your moment of inertia?
+        ans5:
+          value: Showing the judges that they are in control, boosting their confidence.
+          feedback: Perhaps! But there is another more concrete reason.
 ---
 # {{ params.vars.title }}
 

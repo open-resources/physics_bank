@@ -29,22 +29,23 @@ part1:
   type: multiple-choice
   pl-customizations:
     weight: 1
-substitutions:
-  params:
-    vars:
-      title: Broken-down Cruise Ship
-    part1:
-      ans1:
-        value: Has the same magnitude as the weight of the ship.
-      ans2:
-        value: Is greater than the weight of the ship.
-      ans3:
-        value: Is exactly balanced by the total force that resists the ship's motion.
-      ans4:
-        value: Is greater than the total force that resists the ship's motion.
-      ans5:
-        value: Is greater than both the total force that resists the ship's motion
-          and the weight of the ship.
+myst:
+  substitutions:
+    params:
+      vars:
+        title: Broken-down Cruise Ship
+      part1:
+        ans1:
+          value: Has the same magnitude as the weight of the ship.
+        ans2:
+          value: Is greater than the weight of the ship.
+        ans3:
+          value: Is exactly balanced by the total force that resists the ship's motion.
+        ans4:
+          value: Is greater than the total force that resists the ship's motion.
+        ans5:
+          value: Is greater than both the total force that resists the ship's motion
+            and the weight of the ship.
 ---
 # {{ params.vars.title }}
 A broken-down cruise ship is towed through the water by a tug boat at constant velocity.
