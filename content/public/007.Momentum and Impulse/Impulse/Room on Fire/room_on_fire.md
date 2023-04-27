@@ -29,34 +29,28 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        name: Savannah
-        title: Living Room on Fire
-      part1:
-        ans1:
-          value: Throw the Superball.
-        ans2:
-          value: Throw the ball of clay.
-        ans3:
-          value: It doesn't matter. Throw either.
+    params_vars_name: Santiago
+    params_vars_title: Living Room on Fire
+    params_part1_ans1_value: Throw the Superball.
+    params_part1_ans2_value: Throw the ball of clay.
+    params_part1_ans3_value: It doesn't matter. Throw either.
 ---
-# {{ params.vars.title }}
-{{ params.vars.name }} awakes in the night to find that their living room is on fire.
+# {{ params_vars_title }}
+{{ params_vars_name }} awakes in the night to find that their living room is on fire.
 Their one chance to save themself is to throw something that will hit the back of their bedroom door and close it, giving them a few seconds to escape out the window.
 
 ## Part 1
 
-{{ params.vars.name }} happens to have both a sticky ball of clay and a super-bouncy Superball next to their bed, both the same size and same mass.
+{{ params_vars_name }} happens to have both a sticky ball of clay and a super-bouncy Superball next to their bed, both the same size and same mass.
 They only have time to throw one.
 Which will it be?
 Their life depends on making the right choice!
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
 
 ## Attribution
 

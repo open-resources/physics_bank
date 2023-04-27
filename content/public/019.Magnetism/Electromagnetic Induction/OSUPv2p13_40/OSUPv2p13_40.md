@@ -34,19 +34,17 @@ part1:
     suffix: $\rm\ V$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Rotating Coil
-      N: '1400'
-      a: '35'
-      t: '0.010'
-      B: '5.0'
+    params_vars_title: Rotating Coil
+    params_N: '600'
+    params_a: '15'
+    params_t: '0.010'
+    params_B: '6.0'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
-A coil of ${{params.N }}$ turns encloses an area of ${{params.a }}\rm\ {cm^2}$. It is rotated in ${{params.t }}\textrm{ s}$ from a position where its plane is perpendicular to Earth's magnetic field to one where its plane is parallel to the field. If the strength of the field is ${{params.B }} \times 10^{-5} \textrm{ T}$ what is the average emf induced in the coil?
+A coil of ${{params_N }}$ turns encloses an area of ${{params_a }}\rm\ {cm^2}$. It is rotated in ${{params_t }}\textrm{ s}$ from a position where its plane is perpendicular to Earth's magnetic field to one where its plane is parallel to the field. If the strength of the field is ${{params_B }} \times 10^{-5} \textrm{ T}$ what is the average emf induced in the coil?
 
 ### Answer Section
 

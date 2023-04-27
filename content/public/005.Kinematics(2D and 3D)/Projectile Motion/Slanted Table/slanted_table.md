@@ -35,17 +35,15 @@ part1:
     suffix: m/s
 myst:
   substitutions:
-    params:
-      vars:
-        title: Ball on a Slanted Table
-        units: $m/s$
-      d: 2.3
-      theta: 29
+    params_vars_title: Ball on a Slanted Table
+    params_vars_units: $m/s$
+    params_d: 2.6
+    params_theta: 26
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A ball is launched with an initial velocity of $\vec{v_0}$ from one corner of a smooth, flat board.
-The angle launch is $\theta$ = {{params.theta}}$^{\circ}$.
-As shown, the board has a width of {{params.d}} $m$ and is tilted up at a 20.0$^{\circ}$ angle.
+The angle launch is $\theta$ = {{params_theta}}$^{\circ}$.
+As shown, the board has a width of {{params_d}} $m$ and is tilted up at a 20.0$^{\circ}$ angle.
 
 <img src="Q4.png" width=300 alt="A table of width d is slanted at 20 degrees. A ball is launched from the bottom left corner towards the bottom right corner at and angle theta." >
 
@@ -55,7 +53,7 @@ Determine the initial speed $v_0$ required to make the ball land at the adjacent
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

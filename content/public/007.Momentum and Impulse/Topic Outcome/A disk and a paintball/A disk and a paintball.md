@@ -54,17 +54,15 @@ part3:
     suffix: $J$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Distance travelled
-        unit1: $J$
-        unit2: $m/s$
-      m_d: 0.059
-      m_b: 0.057
-      v: 14.0
+    params_vars_title: Distance travelled
+    params_vars_unit1: $J$
+    params_vars_unit2: $m/s$
+    params_m_d: 0.073
+    params_m_b: 0.054
+    params_v: 5.6
 ---
-# {{ params.vars.title }}
-A {{ params.m_d }} $kg$ disk initially at rest in the Earth reference frame is free to move parallel to a horizontal bar through a hole in the disk's centre. The disk is struck face-on by a {{ params.m_b }} $kg$ paintball traveling at {{ params.v }} $m/s$.
+# {{ params_vars_title }}
+A {{ params.m_d }} $kg$ disk initially at rest in the Earth reference frame is free to move parallel to a horizontal bar through a hole in the disk's centre. The disk is struck face-on by a {{ params.m_b }} $kg$ paintball traveling at {{ params_v }} $m/s$.
 
 <img src="2017Mid2S002Q6.png" alt="Figure of a paintball travelling to the right hitting a disk which has a horizontal bar going through its centre." width=300>
 
@@ -74,7 +72,7 @@ According to an observer in the Earth reference frame, what is the change in the
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.unit1 }}.
+Please enter in a numeric value in {{ params_vars_unit1 }}.
 
 ## Part 2
 
@@ -82,7 +80,7 @@ Before the paintball hits the disk, what is the velocity of the system's zero-mo
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.unit2 }}.
+Please enter in a numeric value in {{ params_vars_unit2 }}.
 
 ## Part 3
 
@@ -90,7 +88,7 @@ What would an observer in the zero-momentum reference frame measure for the syst
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.unit1 }}.
+Please enter in a numeric value in {{ params_vars_unit1 }}.
 
 ## Attribution
 

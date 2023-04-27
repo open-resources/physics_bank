@@ -36,26 +36,24 @@ part1:
     allow-blank: true
 myst:
   substitutions:
-    params:
-      vars:
-        title: Dice on the Mirror
-        units: ^{\circ}
-      a: 4
-      theta: 5
+    params_vars_title: Dice on the Mirror
+    params_vars_units: ^{\circ}
+    params_a: 6
+    params_theta: 15
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
 <img src="L14Q3.png" width=80%>
 
 A van drives up a hill, with fuzzy dice attached to the mirror.
-If the van constantly accelerates, $a = {{params.a}}m/s^2$, up the hill, which is inclined at ${{params.theta}}^{\circ}$,
+If the van constantly accelerates, $a = {{params_a}}m/s^2$, up the hill, which is inclined at ${{params_theta}}^{\circ}$,
 then what is the angle $\beta$ created by the dice after all startup movement has ceased?
 
 ### Answer Section
 
-Please enter an numerical value in ${{ params.vars.units }}$.
+Please enter an numerical value in ${{ params_vars_units }}$.
 
 ## Attribution
 

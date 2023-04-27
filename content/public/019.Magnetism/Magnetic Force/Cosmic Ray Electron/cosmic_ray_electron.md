@@ -43,17 +43,15 @@ part1:
     suffix: $\rm\ m$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Cosmic Ray Electron
-      v: 6.3
-      B: 2.7
+    params_vars_title: Cosmic Ray Electron
+    params_v: 6.5
+    params_B: 4.8
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
-A cosmic-ray electron moves at {{params.v}}$\times 10^6 \textrm{ m/s}$ perpendicular to Earth's magnetic field at an altitude where the field strength is {{params.B}}$ \times 10^{-5} \textrm{ T}$.
+A cosmic-ray electron moves at {{params_v}}$\times 10^6 \textrm{ m/s}$ perpendicular to Earth's magnetic field at an altitude where the field strength is {{params_B}}$ \times 10^{-5} \textrm{ T}$.
 What is the radius of the circular path the electron follows?
 
 ### Answer Section

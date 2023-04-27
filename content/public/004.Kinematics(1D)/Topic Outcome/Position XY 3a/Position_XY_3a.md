@@ -30,23 +30,19 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Position XY 3a
-      part1:
-        ans1:
-          value: At $x = 0$, the particle is moving in the $\hat{\imath}$ direction.
-        ans2:
-          value: At $x = 0$, the particle is moving in the $-\hat{\imath}$ direction.
-        ans3:
-          value: At $x = 0$. the particle is moving in the $\hat{\jmath}$ direction.
-        ans4:
-          value: At $x = 0$, the particle is moving in the $-\hat{\jmath}$ direction.
-        ans5:
-          value: No information about the particle's direction can be found from its
-            trajectory.
+    params_vars_title: Position XY 3a
+    params_part1_ans1_value: At $x = 0$, the particle is moving in the $\hat{\imath}$
+      direction.
+    params_part1_ans2_value: At $x = 0$, the particle is moving in the $-\hat{\imath}$
+      direction.
+    params_part1_ans3_value: At $x = 0$. the particle is moving in the $\hat{\jmath}$
+      direction.
+    params_part1_ans4_value: At $x = 0$, the particle is moving in the $-\hat{\jmath}$
+      direction.
+    params_part1_ans5_value: No information about the particle's direction can be
+      found from its trajectory.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
@@ -56,11 +52,11 @@ A particle follows the trajectory shown in the figure without stopping along it'
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

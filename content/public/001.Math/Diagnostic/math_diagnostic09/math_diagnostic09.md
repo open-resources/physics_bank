@@ -30,34 +30,26 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Math Diagnostic09
-      expr: $y$ = $\dfrac{(q)}{(e + 10n)} $
-      part1:
-        ans1:
-          value: e = ${ - 10 n + \frac{q}{y}}$
-        ans2:
-          value: e = ${\frac{10 n y}{q}}$
-        ans3:
-          value: e = ${\frac{q}{10 n y}}$
-        ans4:
-          value: e = ${\frac{- 10 n + y}{q}}$
-        ans5:
-          value: Don't Know
+    params_vars_title: Math Diagnostic09
+    params_expr: $u$ = $\dfrac{(f)}{(y + 2z)} $
+    params_part1_ans1_value: y = ${ \frac{f}{u} - 2 z}$
+    params_part1_ans2_value: y = ${\frac{2 u z}{f}}$
+    params_part1_ans3_value: y = ${\frac{f}{2 u z}}$
+    params_part1_ans4_value: y = ${\frac{u - 2 z}{f}}$
+    params_part1_ans5_value: Don't Know
 ---
-# {{ params.vars.title }}
-If {{params.expr}}
+# {{ params_vars_title }}
+If {{params_expr}}
 
 ## Part 1
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

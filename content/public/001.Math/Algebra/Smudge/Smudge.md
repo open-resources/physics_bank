@@ -47,13 +47,11 @@ part3:
     label: $?= $
 myst:
   substitutions:
-    params:
-      vars:
-        name: Ximena
-        title: Smudge
+    params_vars_name: Abbas
+    params_vars_title: Smudge
 ---
-# {{ params.vars.title }}
-{{ params.vars.name }} is writing a physics test, and their formula sheet has a smudge on it, making it hard to read the exponent of one of their equations, which describes the energy stored in a spring.  Their copy reads $U = \frac{1}{2}kx^?$, where $?$ represents the number that they can't read.  Rather than asking the instructor (WHICH YOU SHOULD ALWAYS DO WHEN WRITING A TEST!), {{ params.vars.name }} decides to use dimensional analysis to figure out the power.  {{ params.vars.name }} remembers that the units of energy, $U$, are \[$U$\] = $J$ = $Nm$,  the units of the spring constant, $k$, are \[$k$\] = $\frac{\text{N}}{\text{m}}$, and the units of position, $x$, are \[$x$\] = $m$,  where 1 $N$ = 1 $kg$ $\frac{\text{m}}{\text{s}^2}$.
+# {{ params_vars_title }}
+{{ params_vars_name }} is writing a physics test, and their formula sheet has a smudge on it, making it hard to read the exponent of one of their equations, which describes the energy stored in a spring.  Their copy reads $U = \frac{1}{2}kx^?$, where $?$ represents the number that they can't read.  Rather than asking the instructor (WHICH YOU SHOULD ALWAYS DO WHEN WRITING A TEST!), {{ params_vars_name }} decides to use dimensional analysis to figure out the power.  {{ params_vars_name }} remembers that the units of energy, $U$, are \[$U$\] = $J$ = $Nm$,  the units of the spring constant, $k$, are \[$k$\] = $\frac{\text{N}}{\text{m}}$, and the units of position, $x$, are \[$x$\] = $m$,  where 1 $N$ = 1 $kg$ $\frac{\text{m}}{\text{s}^2}$.
 
 ## Part 1
 

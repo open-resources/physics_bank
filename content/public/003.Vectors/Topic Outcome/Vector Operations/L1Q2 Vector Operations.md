@@ -69,17 +69,15 @@ part6:
     label: $\vec{V_1} \bullet \vec{V_2}$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Vector Operations
-      v1: 2
-      v2: 8
-      angle: 51
+    params_vars_title: Vector Operations
+    params_v1: 3
+    params_v2: 9
+    params_angle: 49
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="L1Q2_drawing.png" width=400>
 
-For the diagram above $\vec{V_1} = {{ params.v1 }}$, $\vec{V_2} = {{ params.v2 }}$, and $\theta = {{ params.angle }}$ what is:
+For the diagram above $\vec{V_1} = {{ params_v1 }}$, $\vec{V_2} = {{ params_v2 }}$, and $\theta = {{ params_angle }}$ what is:
 
 ## Part 1
 

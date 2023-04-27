@@ -53,16 +53,14 @@ part3:
     suffix: $(m/s)\; \hat{\imath}$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Head-on Collision of Carts
-        units: $(m/s)\; \hat{\imath}$
-      c1: 6
-      c2: 5
-      v0: 18.9
+    params_vars_title: Head-on Collision of Carts
+    params_vars_units: $(m/s)\; \hat{\imath}$
+    params_c1: 8
+    params_c2: 5
+    params_v0: 19.7
 ---
-# {{ params.vars.title }}
-A cart of relative mass ${{ params.c1 }}m$ (Cart 1) moving with velocity $\vec{v_0} = ($ {{ params.v0 }} $m/s)\hat{\imath}$ collides head-on with a cart of relative mass {{ params.c2 }} $m$ (Cart 2) that is initially at rest.
+# {{ params_vars_title }}
+A cart of relative mass ${{ params_c1 }}m$ (Cart 1) moving with velocity $\vec{v_0} = ($ {{ params_v0 }} $m/s)\hat{\imath}$ collides head-on with a cart of relative mass {{ params_c2 }} $m$ (Cart 2) that is initially at rest.
 
 You may ignore friction for this question.
 
@@ -72,23 +70,23 @@ If the collision is perfectly inelastic, what is the final velocity of the carts
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Part 2
 
-If the collision is elastic, what is the final velocity of Cart 1 (with mass {{ params.c1 }} $m$).
+If the collision is elastic, what is the final velocity of Cart 1 (with mass {{ params_c1 }} $m$).
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Part 3
 
-If the collision is elastic, what is the final velocity of Cart 2 (with mass {{ params.c2 }} $m$).
+If the collision is elastic, what is the final velocity of Cart 2 (with mass {{ params_c2 }} $m$).
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

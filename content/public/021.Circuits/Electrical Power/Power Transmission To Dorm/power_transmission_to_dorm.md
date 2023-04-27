@@ -50,19 +50,17 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Power Transmission To Dorm
-      I_ref: 3
-      V_ref: 100
-      P_bulb: 74
-      P_light: 35
-      P_other: 5
-      V_pp: 100
-      d_pp: 5
-      Al_d: 7.617
+    params_vars_title: Power Transmission To Dorm
+    params_I_ref: 2
+    params_V_ref: 127
+    params_P_bulb: 57
+    params_P_light: 52
+    params_P_other: 2
+    params_V_pp: 127
+    params_d_pp: 10
+    params_Al_d: 7.775
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A physics student has a single-occupancy dorm room.
 The student has a small refrigerator that runs with a current of ${{params.I_ref}}\textrm{ A}$ and a voltage of ${{params.V_ref}}\textrm{ V}$, a lamp that contains a ${{params.P_bulb}}\textrm{ W}$ bulb, an overhead light with a ${{params.P_light}}\textrm{ W}$ bulb, and various other small devices adding up to ${{params.P_other}}\textrm{ W}$.
 

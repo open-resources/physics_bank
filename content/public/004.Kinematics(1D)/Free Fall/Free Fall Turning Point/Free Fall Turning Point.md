@@ -29,22 +29,19 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Free Fall Turning Point
-      part1:
-        ans1:
-          value: $\overrightarrow{v}$ $= 0$ and $\overrightarrow{a}$ $= 0$.
-        ans2:
-          value: $\overrightarrow{v}$ $= 0$ and $\overrightarrow{a}$ $\neq 0$
-        ans3:
-          value: $\overrightarrow{v}$ $\neq 0$ and $\overrightarrow{a}$ $= 0$.
-        ans4:
-          value: $\overrightarrow{v}$ $\neq 0$ and $\overrightarrow{a}$ $\neq 0$.
-        ans5:
-          value: There is no general relation between $\overrightarrow{v}$ and $\overrightarrow{a}$.
+    params_vars_title: Free Fall Turning Point
+    params_part1_ans1_value: $\overrightarrow{v}$ $= 0$ and $\overrightarrow{a}$ $=
+      0$.
+    params_part1_ans2_value: $\overrightarrow{v}$ $= 0$ and $\overrightarrow{a}$ $\neq
+      0$
+    params_part1_ans3_value: $\overrightarrow{v}$ $\neq 0$ and $\overrightarrow{a}$
+      $= 0$.
+    params_part1_ans4_value: $\overrightarrow{v}$ $\neq 0$ and $\overrightarrow{a}$
+      $\neq 0$.
+    params_part1_ans5_value: There is no general relation between $\overrightarrow{v}$
+      and $\overrightarrow{a}$.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
@@ -52,11 +49,11 @@ For an object in free fall at a turning point,
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

@@ -39,18 +39,16 @@ part1:
     suffix: $\rm\ V$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Voltage Supplied To An Indicator Light
-        units: V
-      R: 257
-      I: 3
+    params_vars_title: Voltage Supplied To An Indicator Light
+    params_vars_units: V
+    params_R: 189
+    params_I: 4
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
-An indicator light on a DVD player has a resistance of {{params.R}} $ \rm \Omega $ and has {{params.I}} $ \textrm {mA}$ of current passing through it.
+An indicator light on a DVD player has a resistance of {{params_R}} $ \rm \Omega $ and has {{params_I}} $ \textrm {mA}$ of current passing through it.
 How many volts must be supplied to operate this light?
 
 ### Answer Section

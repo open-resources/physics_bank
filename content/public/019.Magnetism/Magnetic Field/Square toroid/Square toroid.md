@@ -41,17 +41,15 @@ part1:
     suffix: $\rm\ T$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Square toroid
-      N: '515'
-      d: '2.4'
-      r: '30'
-      I: '1.4'
+    params_vars_title: Square toroid
+    params_N: '478'
+    params_d: '2.4'
+    params_r: '26'
+    params_I: '1.0'
 ---
-# {{ params.vars.title }}
-A toroid with a square cross section {{ params.d }}$\textrm{ cm}\times${{ params.d }}$\textrm{ cm}$ has an inner radius of {{ params.r }}$\textrm{ cm}$.
-It is wound with {{ params.N }} turns of wire, and it carries a current of {{ params.I }}$\textrm{ A}$.
+# {{ params_vars_title }}
+A toroid with a square cross section {{ params_d }}$\textrm{ cm}\times${{ params_d }}$\textrm{ cm}$ has an inner radius of {{ params_r }}$\textrm{ cm}$.
+It is wound with {{ params_N }} turns of wire, and it carries a current of {{ params_I }}$\textrm{ A}$.
 
 ## Question Text
 

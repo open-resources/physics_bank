@@ -43,22 +43,20 @@ part2:
     suffix: $^{\circ}$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Relative Motion on a Curve
-      v: 38
-      r: 64
-      d: 27
-      a: 2.1
-      theta: 33
+    params_vars_title: Relative Motion on a Curve
+    params_v: 44
+    params_r: 61
+    params_d: 48
+    params_a: 2.4
+    params_theta: 31
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="L11Q4.png" width=85%>
 
 On a relatively quiet lake, two boats approach each other.
-Boat A has been speeding in circles, $r = {{params.r}}m$, at a constant speed of {{params.v}}km/hr.
-When A is as shown, B is $d = {{params.d}} m$ from the curve representing A's path, and is accelerating at a rate of ${{params.a}} m/s^2$.
-Assume $\theta = {{params.theta}}^{\circ}$.
+Boat A has been speeding in circles, $r = {{params_r}}m$, at a constant speed of {{params_v}}km/hr.
+When A is as shown, B is $d = {{params_d}} m$ from the curve representing A's path, and is accelerating at a rate of ${{params_a}} m/s^2$.
+Assume $\theta = {{params_theta}}^{\circ}$.
 
 ## Part 1
 

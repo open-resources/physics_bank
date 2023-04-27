@@ -50,21 +50,19 @@ part3:
     suffix: $m$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Polar Coordinates from Functions
-      a1: -7
-      a2: -10
-      b1: -2
-      b2: 4
-      c1: 7
-      c2: -8
-      v: -7i + (-2j) + (7k)
-      a: -10i + (4j) + (-8k)
+    params_vars_title: Polar Coordinates from Functions
+    params_a1: -4
+    params_a2: -2
+    params_b1: -10
+    params_b2: 4
+    params_c1: -2
+    params_c2: 1
+    params_v: -4i + (-10j) + (-2k)
+    params_a: -2i + (4j) + (1k)
 ---
-# {{ params.vars.title }}
-The velocity and acceleration of a particle at a moment in time is given by $v = {{params.v}}m/s$ and
-$a = {{params.a}}m/s^2$.
+# {{ params_vars_title }}
+The velocity and acceleration of a particle at a moment in time is given by $v = {{params_v}}m/s$ and
+$a = {{params_a}}m/s^2$.
 
 ## Part 1
 

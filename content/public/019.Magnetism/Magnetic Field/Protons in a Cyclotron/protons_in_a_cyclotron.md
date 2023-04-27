@@ -50,14 +50,12 @@ part2:
     custom-format: .2g
 myst:
   substitutions:
-    params:
-      vars:
-        title: Protons in a Cyclotron
-      B: 2.0
+    params_vars_title: Protons in a Cyclotron
+    params_B: 1.0
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A physicist is designing a cyclotron to accelerate protons to one-tenth the speed of light.
-The magnetic field will have a strength of ${{params.B}}\textrm{ T}$.
+The magnetic field will have a strength of ${{params_B}}\textrm{ T}$.
 
 ## Part 1
 

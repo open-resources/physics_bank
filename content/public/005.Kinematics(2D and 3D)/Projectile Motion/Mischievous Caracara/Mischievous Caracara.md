@@ -91,52 +91,36 @@ part9:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params:
-      vars:
-        title: A Mischievous Caracara
-      v: 4
-      h: 12
-      part4:
-        ans1:
-          value: East
-          feedback: Great! You got it.
-        ans2:
-          value: South and down
-          feedback: Hmh...Try again!
-        ans3:
-          value: North and up
-          feedback: Hmh...Try again!
-        ans4:
-          value: West and up
-          feedback: Hmh...Try again!
-        ans5:
-          value: West and down
-          feedback: Hmh...Try again!
-        ans6:
-          value: South and up
-          feedback: Hmh...Try again!
-      part7:
-        ans1:
-          value: Down
-          feedback: Great! You got it.
-        ans2:
-          value: West and up
-          feedback: Hmh...Try again!
-        ans3:
-          value: Up
-          feedback: 'Hint: acceleration due to gravity.'
-        ans4:
-          value: North and up
-          feedback: Hmh...Try again!
-        ans5:
-          value: West and down
-          feedback: Hmh...Try again!
-        ans6:
-          value: East and up
-          feedback: Hmh...Try again!
+    params_vars_title: A Mischievous Caracara
+    params_v: 4
+    params_h: 11
+    params_part4_ans1_value: East
+    params_part4_ans1_feedback: Great! You got it.
+    params_part4_ans2_value: North and down
+    params_part4_ans2_feedback: Hmh...Try again!
+    params_part4_ans3_value: West and down
+    params_part4_ans3_feedback: Hmh...Try again!
+    params_part4_ans4_value: East and up
+    params_part4_ans4_feedback: Hmh...Try again!
+    params_part4_ans5_value: West and up
+    params_part4_ans5_feedback: Hmh...Try again!
+    params_part4_ans6_value: South and down
+    params_part4_ans6_feedback: Hmh...Try again!
+    params_part7_ans1_value: Down
+    params_part7_ans1_feedback: Great! You got it.
+    params_part7_ans2_value: North and down
+    params_part7_ans2_feedback: Hmh...Try again!
+    params_part7_ans3_value: East
+    params_part7_ans3_feedback: Gravity is the only source of acceleration!
+    params_part7_ans4_value: West and down
+    params_part7_ans4_feedback: Hmh...Try again!
+    params_part7_ans5_value: Up
+    params_part7_ans5_feedback: 'Hint: acceleration due to gravity.'
+    params_part7_ans6_value: South and up
+    params_part7_ans6_feedback: Hmh...Try again!
 ---
-# {{ params.vars.title }}
-A mischievous caracara sees a fisherman unscrew a shiny steel nut from a bolt on his ship while doing repairs in a harbor off the Falkland Islands.  The fisherman watches helplessly as the bird picks up the nut and flies toward the shore.  The bird flies due east at a constant speed of {{ params.v }} $\rm{m/s}$ and constant height of {{ params.h }} $\rm{m}$.  The bird flies directly over a person on the shoreline, dropping the nut at the instant they are above the person.
+# {{ params_vars_title }}
+A mischievous caracara sees a fisherman unscrew a shiny steel nut from a bolt on his ship while doing repairs in a harbor off the Falkland Islands.  The fisherman watches helplessly as the bird picks up the nut and flies toward the shore.  The bird flies due east at a constant speed of {{ params_v }} $\rm{m/s}$ and constant height of {{ params_h }} $\rm{m}$.  The bird flies directly over a person on the shoreline, dropping the nut at the instant they are above the person.
 
 ## Part 1
 
@@ -168,10 +152,10 @@ Prepare: At the instant the caracara releases the nut, in which directions does 
 
 ### Answer Section
 
-- {{ params.part4.ans1.value }}
-- {{ params.part4.ans2.value }}
-- {{ params.part4.ans3.value }}
-- {{ params.part4.ans4.value }}
+- {{ params_part4_ans1_value }}
+- {{ params_part4_ans2_value }}
+- {{ params_part4_ans3_value }}
+- {{ params_part4_ans4_value }}
 
 ## Part 5
 
@@ -195,8 +179,8 @@ Prepare: Once the nut has been released, in which directions does the accelerati
 
 ### Answer Section
 
-- {{ params.part7.ans1.value }}
-- {{ params.part7.ans2.value }}
+- {{ params_part7_ans1_value }}
+- {{ params_part7_ans2_value }}
 
 ## Part 8
 

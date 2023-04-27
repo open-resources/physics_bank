@@ -31,27 +31,20 @@ part1:
     fixed-order: true
 myst:
   substitutions:
-    params:
-      vars:
-        title: Acceleration Around a Turn
-        vehicle: sedan
-        dir: clockwise
-      part1:
-        ans1:
-          value: Figure A
-        ans2:
-          value: Figure B
-        ans3:
-          value: Figure C
-        ans4:
-          value: None of the above
+    params_vars_title: Acceleration Around a Turn
+    params_vars_vehicle: van
+    params_vars_dir: clockwise
+    params_part1_ans1_value: Figure A
+    params_part1_ans2_value: Figure B
+    params_part1_ans3_value: Figure C
+    params_part1_ans4_value: None of the above
 ---
-# {{ params.vars.title }}
-As you drive *{{ params.vars.dir }}* around a turn (as viewed from above), you see backed-up traffic ahead and so you slow down.
+# {{ params_vars_title }}
+As you drive *{{ params_vars_dir }}* around a turn (as viewed from above), you see backed-up traffic ahead and so you slow down.
 
 ## Part 1
 
-In which of the figures below does the arrow best represent the acceleration of the {{ params.vars.vehicle }}?
+In which of the figures below does the arrow best represent the acceleration of the {{ params_vars_vehicle }}?
 
 <img longdesc="Acceleration around a turn.md#desc" alt="Figures of the same vehicle with the acceleration arrow pointing in different directions." src="q4_2015Final.png">
 
@@ -65,10 +58,10 @@ The acceleration arrow in A is pointing directly towards the centre of the track
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
 
 ## Attribution
 

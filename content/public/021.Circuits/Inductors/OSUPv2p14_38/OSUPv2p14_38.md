@@ -44,19 +44,17 @@ part1:
     atol: 0
 myst:
   substitutions:
-    params:
-      vars:
-        title: Camera Flash
-      I: '0.275'
-      L: '1.50'
-      V: '475'
+    params_vars_title: Camera Flash
+    params_I: '0.200'
+    params_L: '1.75'
+    params_V: '475'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 When a camera uses a flash, a fully-charged capacitor discharges through an inductor.
 
 ## Question Text
 
-In what time must the ${{ params.I }}\rm\ A$ current through a ${{ params.L }}\rm\ mH$ inductor be switched on or off to induce a ${{ params.V }}\rm\ V$ emf?
+In what time must the ${{ params_I }}\rm\ A$ current through a ${{ params_L }}\rm\ mH$ inductor be switched on or off to induce a ${{ params_V }}\rm\ V$ emf?
 
 ### Answer Section
 

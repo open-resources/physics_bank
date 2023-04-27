@@ -117,26 +117,20 @@ part9:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Collision of River Otters
-      m_s: 3.28
-      m_l: 5.5
-      vis: 4.39
-      vil: 7.93
-      theta_i: 54.9
-      part9:
-        ans1:
-          value: Kinetic energy is lost in this collision.
-        ans2:
-          value: Kinetic energy is gained in this collision.
-        ans3:
-          value: Kinetic energy remains constant in this collision.
+    params_vars_title: Collision of River Otters
+    params_m_s: 3.85
+    params_m_l: 8.17
+    params_vis: 4.95
+    params_vil: 7.72
+    params_theta_i: 45.8
+    params_part9_ans1_value: Kinetic energy is lost in this collision.
+    params_part9_ans2_value: Kinetic energy is gained in this collision.
+    params_part9_ans3_value: Kinetic energy remains constant in this collision.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Two river otters collide while sliding across frictionless ice and get tangled together following the (perfectly inelastic) collision as shown in the figure, where a coordinate system has been defined.
 
-The smaller otter ($m_s =$ {{ params.m_s }} $kg$) is initially moving at $v\_{i_s} = $ {{ params.vis }} $m/s$ along the x-axis, while the larger otter ($m_l =$ {{ params.m_l }} $kg$) is initially moving at $v\_{i_l} = $ {{ params.vil }} $m/s$, $\theta_i=${{ params.theta_i }}$^{\circ}$ counterclockwise from the x-axis.
+The smaller otter ($m_s =$ {{ params.m_s }} $kg$) is initially moving at $v\_{i_s} = $ {{ params_vis }} $m/s$ along the x-axis, while the larger otter ($m_l =$ {{ params.m_l }} $kg$) is initially moving at $v\_{i_l} = $ {{ params_vil }} $m/s$, $\theta_i=${{ params.theta_i }}$^{\circ}$ counterclockwise from the x-axis.
 
 <img src="riverotters.png" alt="Figure of two river otters before and after collision. The coordinate system is a traditional cartesian plane. The two otters tangle after collision and move with velocity v f at an angle theta with respect to the horizontal axis." width=400>
 
@@ -212,9 +206,9 @@ If the difference in kinetic energy is less than 0.05, consider that kinetic ene
 
 ### Answer Section
 
-- {{ params.part9.ans1.value}}
-- {{ params.part9.ans2.value}}
-- {{ params.part9.ans3.value}}
+- {{ params_part9_ans1_value}}
+- {{ params_part9_ans2_value}}
+- {{ params_part9_ans3_value}}
 
 ## Attribution
 

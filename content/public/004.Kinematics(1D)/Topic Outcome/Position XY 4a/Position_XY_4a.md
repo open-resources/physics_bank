@@ -30,25 +30,18 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Position XY 4a
-      part1:
-        ans1:
-          value: For $x>0$, the particle's instantaneous acceleration is non-zero.
-        ans2:
-          value: For $x>0$, the particle's instantaneous velocity is constant.
-        ans3:
-          value: For $x>0$, the particle's instantaneous velocity is in the $\hat{\imath}$
-            and $\hat{\jmath}$ directions.
-        ans4:
-          value: For $x>0$, the particle's instantaneous acceleration is in the $-\hat{\imath}$
-            and $\hat{\jmath}$ directions.
-        ans5:
-          value: No information about the particle's velocity or acceleration can
-            be found from its trajectory.
+    params_vars_title: Position XY 4a
+    params_part1_ans1_value: For $x>0$, the particle's instantaneous acceleration
+      is non-zero.
+    params_part1_ans2_value: For $x>0$, the particle's instantaneous velocity is constant.
+    params_part1_ans3_value: For $x>0$, the particle's instantaneous velocity is in
+      the $\hat{\imath}$ and $\hat{\jmath}$ directions.
+    params_part1_ans4_value: For $x>0$, the particle's instantaneous acceleration
+      is in the $-\hat{\imath}$ and $\hat{\jmath}$ directions.
+    params_part1_ans5_value: No information about the particle's velocity or acceleration
+      can be found from its trajectory.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
@@ -58,11 +51,11 @@ A particle's path follows the trajectory shown in the figure. Which of the follo
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

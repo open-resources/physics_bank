@@ -29,37 +29,29 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Vehicle Speed
-        vehicle: sedan
-      part1:
-        ans1:
-          value: constant
-        ans2:
-          value: increasing
-        ans3:
-          value: decreasing
-        ans4:
-          value: increasing but then decreasing
-        ans5:
-          value: decreasing but then increasing
+    params_vars_title: Vehicle Speed
+    params_vars_vehicle: pickup truck
+    params_part1_ans1_value: constant
+    params_part1_ans2_value: increasing
+    params_part1_ans3_value: decreasing
+    params_part1_ans4_value: increasing but then decreasing
+    params_part1_ans5_value: decreasing but then increasing
 ---
-# {{ params.vars.title }}
-A person is initially driving a {{params.vars.vehicle}} east down a straight road.
+# {{ params_vars_title }}
+A person is initially driving a {{params_vars_vehicle}} east down a straight road.
 The magnitude of the instantaneous acceleration is decreasing with time, but the direction of the acceleration is always to the east.
 
 ## Part 1
 
-The speed of the {{params.vars.vehicle}} is:
+The speed of the {{params_vars_vehicle}} is:
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

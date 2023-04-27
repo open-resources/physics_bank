@@ -29,33 +29,26 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Math Diagnostic22
-      denom: 7
-      formula: $\sin{\left(\frac{x}{7} \right)}$
-      part1:
-        ans1:
-          value: ${- 7 \cos{\left(\frac{x}{7} \right)}}$
-        ans2:
-          value: ${7 \cos{\left(\frac{x}{7} \right)}}$
-        ans3:
-          value: ${- 14 \cos{\left(\frac{x}{7} \right)}}$
-        ans4:
-          value: ${- \frac{7 \cos{\left(\frac{x}{7} \right)}}{2}}$
+    params_vars_title: Math Diagnostic22
+    params_denom: 6
+    params_formula: $\sin{\left(\frac{x}{6} \right)}$
+    params_part1_ans1_value: ${- 6 \cos{\left(\frac{x}{6} \right)}}$
+    params_part1_ans2_value: ${6 \cos{\left(\frac{x}{6} \right)}}$
+    params_part1_ans3_value: ${- 12 \cos{\left(\frac{x}{6} \right)}}$
+    params_part1_ans4_value: ${- 3 \cos{\left(\frac{x}{6} \right)}}$
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
-$\int$ {{params.formula}} $dx$ is equal to a constant plus:
+$\int$ {{params_formula}} $dx$ is equal to a constant plus:
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
 
 ## Attribution
 

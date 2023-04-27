@@ -28,27 +28,21 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      part1:
-        ans1:
-          value: The drag force on the leaf
-          feedback: Pairs do not act on the same object. This is a force between the
-            air and the leaf.
-        ans2:
-          value: The normal force of the ground acting on the leaf
-          feedback: The contact force with the ground is not gravity
-        ans3:
-          value: The drag force of the leaf acting on the air
-          feedback: Try again!
-        ans4:
-          value: The force of gravity of the leaf pulling upward on the Earth
-          feedback: Newton's third law relates the forces between two objects. $F_{A\
-            on\ B}$  = - $F_{B\ on\ A}$ . $W_{Leaf}$ = $W_{Earth\ on\ Leaf}$ = - $W_{Leaf\
-            on\ Earth}$ . Weight is the force of gravity. The gravitational force
-            acts between two massive bodies.
-        ans5:
-          value: The terminal velocity of the leaf.
-          feedback: Not a force!
+    params_part1_ans1_value: The drag force on the leaf
+    params_part1_ans1_feedback: Pairs do not act on the same object. This is a force
+      between the air and the leaf.
+    params_part1_ans2_value: The normal force of the ground acting on the leaf
+    params_part1_ans2_feedback: The contact force with the ground is not gravity
+    params_part1_ans3_value: The drag force of the leaf acting on the air
+    params_part1_ans3_feedback: Try again!
+    params_part1_ans4_value: The force of gravity of the leaf pulling upward on the
+      Earth
+    params_part1_ans4_feedback: Newton's third law relates the forces between two
+      objects. $F_{A\ on\ B}$  = - $F_{B\ on\ A}$ . $W_{Leaf}$ = $W_{Earth\ on\ Leaf}$
+      = - $W_{Leaf\ on\ Earth}$ . Weight is the force of gravity. The gravitational
+      force acts between two massive bodies.
+    params_part1_ans5_value: The terminal velocity of the leaf.
+    params_part1_ans5_feedback: Not a force!
 ---
 # {{ params.vars.title }}
 A leaf falling from a tree has a weight $\vec{W}$. What is the equal and opposite Newton's third law action/reaction partner of this force?
@@ -57,11 +51,11 @@ A leaf falling from a tree has a weight $\vec{W}$. What is the equal and opposit
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
-- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params_part1_ans1_value }} {{ params.vars.units}}
+- {{ params_part1_ans2_value }} {{ params.vars.units}}
+- {{ params_part1_ans3_value }} {{ params.vars.units}}
+- {{ params_part1_ans4_value }} {{ params.vars.units}}
+- {{ params_part1_ans5_value }} {{ params.vars.units}}
 
 ## Attribution
 

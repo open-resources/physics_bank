@@ -42,22 +42,20 @@ part2:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params:
-      vars:
-        name: Lorenzo
-        title: Archery Competition
-      d: 131
-      v: 94
-      h: 165
-      theta: 51
+    params_vars_name: Ahmed
+    params_vars_title: Archery Competition
+    params_d: 114
+    params_v: 195
+    params_h: 189
+    params_theta: 55
 ---
-# {{ params.vars.title }}
-{{ params.vars.name }} is reading a novel that describes an athelete participating in an archery competition.
-The athlete fires an arrow horizontally at a height of ${{ params.h }}$ $\rm{cm}$ above the ground and it lands ${{ params.d }}$ $\rm{m}$ away from them.
+# {{ params_vars_title }}
+{{ params_vars_name }} is reading a novel that describes an athelete participating in an archery competition.
+The athlete fires an arrow horizontally at a height of ${{ params_h }}$ $\rm{cm}$ above the ground and it lands ${{ params_d }}$ $\rm{m}$ away from them.
 
 ## Part 1
 
-Neglecting air resistance, lift, and drag, what is the initial speed the arrow must have been fired at to land ${{ params.d }}$ $\rm{m}$ away?
+Neglecting air resistance, lift, and drag, what is the initial speed the arrow must have been fired at to land ${{ params_d }}$ $\rm{m}$ away?
 
 ### Answer Section
 
@@ -65,7 +63,7 @@ Please enter in a numeric value in $\rm{m/s}$.
 
 ## Part 2
 
-If the arrow was instead fired at an angle ${{ params.theta }}^\circ$ to the horizontal (instead of horizontally), how far would it have gone if it was launched at a speed of ${{ params.v }}$ $\rm{m/s}$.
+If the arrow was instead fired at an angle ${{ params_theta }}^\circ$ to the horizontal (instead of horizontally), how far would it have gone if it was launched at a speed of ${{ params_v }}$ $\rm{m/s}$.
 
 ### Answer Section
 

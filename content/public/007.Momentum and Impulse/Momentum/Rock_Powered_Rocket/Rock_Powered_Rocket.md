@@ -51,25 +51,23 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Rock Powered Rocket
-        units1: m/s
-        units2: kg
-        name: Mateo
-      i: 324
-      m: 35
-      v_1: 28
-      v_2: 41
+    params_vars_title: Rock Powered Rocket
+    params_vars_units1: m/s
+    params_vars_units2: kg
+    params_vars_name: Lorenzo
+    params_i: 345
+    params_m: 21
+    params_v_1: 17
+    params_v_2: 20
 ---
-# {{ params.vars.title }}
-{{params.vars.name}} is an astronaut, floating in space.
+# {{ params_vars_title }}
+{{params_vars_name}} is an astronaut, floating in space.
 Their rocket is powered by throwing rocks out of a hole in the back of the spaceship.
-The inertia of {{params.vars.name}} and their rocket together is {{ params.i }} kg.
-{{params.vars.name}} also (in addition to the rocket and the person) has two {{ params.m }} kg rocks on board.
+The inertia of {{params_vars_name}} and their rocket together is {{ params_i }} kg.
+{{params_vars_name}} also (in addition to the rocket and the person) has two {{ params_m }} kg rocks on board.
 They are initially at rest.
-{{params.vars.name}} throws the first rock, and then they are moving with velocity {{ params.v_1 }} {{ params.vars.units1 }}.
-Then {{params.vars.name}} throws the second rock out of the back and they are moving with velocity {{ params.v_2 }} {{ params.vars.units1 }} .
+{{params_vars_name}} throws the first rock, and then they are moving with velocity {{ params.v_1 }} {{ params_vars_units1 }}.
+Then {{params_vars_name}} throws the second rock out of the back and they are moving with velocity {{ params.v_2 }} {{ params_vars_units1 }} .
 
 ## Part 1
 
@@ -77,23 +75,23 @@ Then {{params.vars.name}} throws the second rock out of the back and they are mo
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units1 }}{{ params.vars.units2 }}.
+Please enter in a numeric value in {{ params_vars_units1 }}{{ params_vars_units2 }}.
 
 ## Part 2
 
-(b) With what velocity is the first rock {{params.vars.name}} threw moving through space?
+(b) With what velocity is the first rock {{params_vars_name}} threw moving through space?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units1 }}.
+Please enter in a numeric value in {{ params_vars_units1 }}.
 
 ## Part 3
 
-(c) With what velocity is the second rock {{params.vars.name}} threw moving through space?
+(c) With what velocity is the second rock {{params_vars_name}} threw moving through space?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units1 }}.
+Please enter in a numeric value in {{ params_vars_units1 }}.
 
 ## Attribution
 

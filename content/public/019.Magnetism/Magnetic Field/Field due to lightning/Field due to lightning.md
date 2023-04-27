@@ -42,18 +42,16 @@ part1:
     suffix: $\rm\ T$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Field due to lightning
-      d: '0.9'
-      p: $10^4$
+    params_vars_title: Field due to lightning
+    params_d: '1.5'
+    params_p: $10^4$
 ---
-# {{ params.vars.title }}
-A typical current in a lightning bolt is {{ params.p }} $\rm\ A$.
+# {{ params_vars_title }}
+A typical current in a lightning bolt is {{ params_p }} $\rm\ A$.
 
 ## Question Text
 
-Estimate the magnetic field a perpendicular distance of {{ params.d }}$\rm\ m$ from the bolt.
+Estimate the magnetic field a perpendicular distance of {{ params_d }}$\rm\ m$ from the bolt.
 
 ### Answer Section
 

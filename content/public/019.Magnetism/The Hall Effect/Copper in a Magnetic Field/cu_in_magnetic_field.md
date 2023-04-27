@@ -48,17 +48,15 @@ part2:
     custom-format: .2g
 myst:
   substitutions:
-    params:
-      vars:
-        title: Copper in a Magnetic Field
-      B: 3.6
-      E: 1.6
-      n: 3
-      A: 2.5
+    params_vars_title: Copper in a Magnetic Field
+    params_B: 7.2
+    params_E: 7.6
+    params_n: 5
+    params_A: 1.1
 ---
-# {{ params.vars.title }}
-A strip of copper is placed in a uniform magnetic field of magnitude ${{params.B}}\textrm{ T}$.
-The Hall electric field is measured to be ${{params.E}} \times 10^{-3}\textrm{ V/m}$.
+# {{ params_vars_title }}
+A strip of copper is placed in a uniform magnetic field of magnitude ${{params_B}}\textrm{ T}$.
+The Hall electric field is measured to be ${{params_E}} \times 10^{-3}\textrm{ V/m}$.
 
 ## Part 1
 
@@ -70,7 +68,7 @@ Please enter a numeric value.
 
 ## Part 2
 
-Assuming that $n = {{params.n}} \times 10^{28}$ electrons per cubic meter and that the cross-sectional area of the strip is ${{params.A}} \times 10^{-6} \rm\ { m^{2}}$, calculate the current in the strip.
+Assuming that $n = {{params_n}} \times 10^{28}$ electrons per cubic meter and that the cross-sectional area of the strip is ${{params_A}} \times 10^{-6} \rm\ { m^{2}}$, calculate the current in the strip.
 
 ### Answer Section
 

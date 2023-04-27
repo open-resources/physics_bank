@@ -30,54 +30,43 @@ part1:
     fixed-order: true
 myst:
   substitutions:
-    params:
-      vars:
-        vehicle: truck
-        title: Racing Markers
-        v1: 65
-        v2: 33.0
-      part1:
-        ans1:
-          value: Marker 1
-        ans2:
-          value: Between Marker 1 and Marker 2
-        ans3:
-          value: Marker 2
-        ans4:
-          value: Between Marker 2 and Marker 3
-        ans5:
-          value: Marker 3
-        ans6:
-          value: Between Marker 3 and Marker 4
-        ans7:
-          value: Marker 4
-        ans8:
-          value: There is not enough information in the question.
+    params_vars_vehicle: van
+    params_vars_title: Racing Markers
+    params_vars_v1: 38
+    params_vars_v2: 19.0
+    params_part1_ans1_value: Marker 1
+    params_part1_ans2_value: Between Marker 1 and Marker 2
+    params_part1_ans3_value: Marker 2
+    params_part1_ans4_value: Between Marker 2 and Marker 3
+    params_part1_ans5_value: Marker 3
+    params_part1_ans6_value: Between Marker 3 and Marker 4
+    params_part1_ans7_value: Marker 4
+    params_part1_ans8_value: There is not enough information in the question.
 ---
-# {{ params.vars.title }}
-A {{ params.vars.vehicle }} accelerates uniformly from rest along a straight track towards the left.
+# {{ params_vars_title }}
+A {{ params_vars_vehicle }} accelerates uniformly from rest along a straight track towards the left.
 The track has five markers: Start, and Markers 1-4.
 Each marker is equally spaced so Marker 2 is halfway between Start and Marker 4.
-The {{ params.vars.vehicle }} reaches a speed of {{ params.vars.v1 }} m/s as it passes the last marker, Marker 4.
+The {{ params_vars_vehicle }} reaches a speed of {{ params_vars_v1 }} m/s as it passes the last marker, Marker 4.
 
 <img src="car_markers.png" width=100%>
 
 ## Part 1
 
-Where is the {{ params.vars.vehicle }} along the track when it is traveling at {{ params.vars.v2 }} m/?
+Where is the {{ params_vars_vehicle }} along the track when it is traveling at {{ params_vars_v2 }} m/?
 
 Select the closest position from the list below...
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
-- {{ params.part1.ans6.value }}
-- {{ params.part1.ans7.value }}
-- {{ params.part1.ans8.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
+- {{ params_part1_ans6_value }}
+- {{ params_part1_ans7_value }}
+- {{ params_part1_ans8_value }}
 
 ## Attribution
 

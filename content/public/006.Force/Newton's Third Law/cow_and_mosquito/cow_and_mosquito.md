@@ -36,37 +36,27 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Cow and Mosquito
-      part1:
-        ans1:
-          value: The force the tail feels is greater than the force that the mosquito
-            feels.
-          feedback: Consider Newton's laws!
-        ans2:
-          value: The forces felt by the mosquito and the tail are equivalent.
-          feedback: You got it, this is an example of Newton's Third Law!
-        ans3:
-          value: The force the mosquito feels is greater than the force that the tail
-            feels.
-          feedback: Consider Newton's laws!
-      part2:
-        ans1:
-          value: The tail accelerates more than the mosquito.
-          feedback: Consider the equation for force, and the relationship between
-            mass and acceleration!
-        ans2:
-          value: The mosquito accelerates more than the tail.
-          feedback: You got it, the mosquito accelerates much more than the tail!
-            This is because its mass is much smaller than that of the tail, so to
-            have the forces be equal, it must accelerate much more!
-        ans3:
-          value: The mosquito and the tail have the same acceleration!
-          feedback: Consider the equation for force, and the relationship between
-            mass and acceleration!
+    params_vars_title: Cow and Mosquito
+    params_part1_ans1_value: The force the tail feels is greater than the force that
+      the mosquito feels.
+    params_part1_ans1_feedback: Consider Newton's laws!
+    params_part1_ans2_value: The forces felt by the mosquito and the tail are equivalent.
+    params_part1_ans2_feedback: You got it, this is an example of Newton's Third Law!
+    params_part1_ans3_value: The force the mosquito feels is greater than the force
+      that the tail feels.
+    params_part1_ans3_feedback: Consider Newton's laws!
+    params_part2_ans1_value: The tail accelerates more than the mosquito.
+    params_part2_ans1_feedback: Consider the equation for force, and the relationship
+      between mass and acceleration!
+    params_part2_ans2_value: The mosquito accelerates more than the tail.
+    params_part2_ans2_feedback: You got it, the mosquito accelerates much more than
+      the tail! This is because its mass is much smaller than that of the tail, so
+      to have the forces be equal, it must accelerate much more!
+    params_part2_ans3_value: The mosquito and the tail have the same acceleration!
+    params_part2_ans3_feedback: Consider the equation for force, and the relationship
+      between mass and acceleration!
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A cow swats a mosquito with its tail in mid-air.
 
 ## Part 1
@@ -75,9 +65,9 @@ Compare the size of the forces that the tail and the mosquito feel from each oth
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
 
 ## Part 2
 
@@ -85,9 +75,9 @@ Compare the size of accelerations that the collision between the cow's tail and 
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
 
 ## Attribution
 

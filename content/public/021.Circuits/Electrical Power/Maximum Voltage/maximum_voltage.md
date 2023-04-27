@@ -39,18 +39,16 @@ part1:
     suffix: $\rm\ V$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Maximum Voltage
-        units: V
-      P: 1.69
-      R: 92
+    params_vars_title: Maximum Voltage
+    params_vars_units: V
+    params_P: 1.56
+    params_R: 36
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
-What is the maximum voltage that can be applied to a {{params.R}} $\rm {k \Omega}$ resistor rated at {{params.P}} $\textrm {W}$?
+What is the maximum voltage that can be applied to a {{params_R}} $\rm {k \Omega}$ resistor rated at {{params_P}} $\textrm {W}$?
 
 ### Answer Section
 

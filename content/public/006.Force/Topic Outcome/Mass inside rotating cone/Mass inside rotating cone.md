@@ -35,11 +35,9 @@ part1:
     allow-blank: true
 myst:
   substitutions:
-    params:
-      vars:
-        title: Mass inside a Rotating Cone
+    params_vars_title: Mass inside a Rotating Cone
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 

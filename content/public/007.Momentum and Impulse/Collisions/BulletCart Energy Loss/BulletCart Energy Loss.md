@@ -43,17 +43,15 @@ part2:
     suffix: $%$
 myst:
   substitutions:
-    params:
-      vars:
-        title: BulletCart Energy Loss
-      m: 36
-      mbg: 87
-      vb: 484
+    params_vars_title: BulletCart Energy Loss
+    params_m: 41
+    params_mbg: 84
+    params_vb: 647
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="BulletCart Energy Loss.png" width=400>
 
-A ${{params.mbg}} g$ bullet travels at ${{params.vb}} m/s$ and strikes a stationary ${{params.m}} kg$ block, embedding in it.
+A ${{params_mbg}} g$ bullet travels at ${{params_vb}} m/s$ and strikes a stationary ${{params_m}} kg$ block, embedding in it.
 
 ## Part 1
 

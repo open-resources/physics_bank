@@ -103,11 +103,9 @@ part8:
     directory: clientFilesQuestion
 myst:
   substitutions:
-    params:
-      vars:
-        title: Monkeys
+    params_vars_title: Monkeys
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="monkeys.gif">
 
 (https://makeagif.com/gif/gibbon-brachiation-a5VJFW) sourced from this original YouTube video (https://www.youtube.com/watch?v=acy--k7Qww0)

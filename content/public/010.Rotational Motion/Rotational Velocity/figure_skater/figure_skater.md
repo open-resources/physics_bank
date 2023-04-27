@@ -31,28 +31,25 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Rotational Motion
-      part1:
-        ans1:
-          value: Increasing their moment of inertia, slowing down their angular velocity.
-          feedback: Great job! You got it!
-        ans2:
-          value: Decreasing their moment of inertia, slowing down their angular velocity.
-          feedback: Consider if angular momentum is conserved.
-        ans3:
-          value: Increasing their moment of inertia, speeding up their angular velocity.
-          feedback: Consider if angular momentum is conserved.
-        ans4:
-          value: Decreasing their moment of inertia, speeding up their angular velocity.
-          feedback: Does spreading mass out from your centre of gravity increase or
-            decrease your moment of inertia?
-        ans5:
-          value: Showing the judges that they are in control, boosting their confidence.
-          feedback: Perhaps! But there is another more concrete reason.
+    params_vars_title: Rotational Motion
+    params_part1_ans1_value: Increasing their moment of inertia, slowing down their
+      angular velocity.
+    params_part1_ans1_feedback: Great job! You got it!
+    params_part1_ans2_value: Decreasing their moment of inertia, slowing down their
+      angular velocity.
+    params_part1_ans2_feedback: Consider if angular momentum is conserved.
+    params_part1_ans3_value: Increasing their moment of inertia, speeding up their
+      angular velocity.
+    params_part1_ans3_feedback: Consider if angular momentum is conserved.
+    params_part1_ans4_value: Decreasing their moment of inertia, speeding up their
+      angular velocity.
+    params_part1_ans4_feedback: Does spreading mass out from your centre of gravity
+      increase or decrease your moment of inertia?
+    params_part1_ans5_value: Showing the judges that they are in control, boosting
+      their confidence.
+    params_part1_ans5_feedback: Perhaps! But there is another more concrete reason.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
@@ -60,11 +57,11 @@ When landing a triple axel (a figure skating jump where the skater rotates 3.5 t
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

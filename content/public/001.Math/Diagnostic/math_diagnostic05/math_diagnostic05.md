@@ -30,36 +30,28 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Math Diagnostic05
-      expr: $\dfrac{x}{3}$
-      num2: 5
-      num3: 6
-      part1:
-        ans1:
-          value: 90
-        ans2:
-          value: 5/3
-        ans3:
-          value: 18
-        ans4:
-          value: '10'
-        ans5:
-          value: Don't Know
+    params_vars_title: Math Diagnostic05
+    params_expr: $\dfrac{x}{10}$
+    params_num2: 9
+    params_num3: 4
+    params_part1_ans1_value: 360
+    params_part1_ans2_value: 9/10
+    params_part1_ans3_value: 40
+    params_part1_ans4_value: 18/5
+    params_part1_ans5_value: Don't Know
 ---
-# {{ params.vars.title }}
-If {{ params.expr }} $=$ {{ params.num2 }} then {{ params.num3 }}x equals:
+# {{ params_vars_title }}
+If {{ params_expr }} $=$ {{ params_num2 }} then {{ params_num3 }}x equals:
 
 ## Part 1
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

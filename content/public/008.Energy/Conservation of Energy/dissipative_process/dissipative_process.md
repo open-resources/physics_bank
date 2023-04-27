@@ -33,24 +33,16 @@ part1:
     partial-credit-method: EDC
 myst:
   substitutions:
-    params:
-      vars:
-        title: Dissipative Energy
-      part1:
-        ans1:
-          value: Incoherent deformations are dissipative
-        ans2:
-          value: Irreversible processes are dissipative.
-        ans3:
-          value: Dissipative processes are one where the total mechanical energy is
-            not conserved.
-        ans4:
-          value: Coherent deformations are dissipative.
-        ans5:
-          value: If the total kinetic energy is not constant all of the way through
-            the interaction, the process is dissipative.
+    params_vars_title: Dissipative Energy
+    params_part1_ans1_value: If the total kinetic energy is not constant all of the
+      way through the interaction, the process is dissipative.
+    params_part1_ans2_value: Incoherent deformations are dissipative
+    params_part1_ans3_value: Irreversible processes are dissipative.
+    params_part1_ans4_value: Dissipative processes are one where the total mechanical
+      energy is not conserved.
+    params_part1_ans5_value: Coherent deformations are dissipative.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
@@ -60,11 +52,11 @@ Note: You will be awarded full marks only if you select all the correct choices 
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

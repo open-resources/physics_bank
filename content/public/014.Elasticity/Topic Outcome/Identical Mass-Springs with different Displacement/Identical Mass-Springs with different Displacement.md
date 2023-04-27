@@ -30,25 +30,18 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Identical Mass-Springs with Different Displacement
-      d1: $d$
-      d2: $2d$
-      part1:
-        ans1:
-          value: Spring A
-        ans2:
-          value: Spring B
-        ans3:
-          value: It is a tie.
-        ans4:
-          value: Not enough information is given.
+    params_vars_title: Identical Mass-Springs with Different Displacement
+    params_d1: $d$
+    params_d2: $2d$
+    params_part1_ans1_value: Spring A
+    params_part1_ans2_value: Spring B
+    params_part1_ans3_value: It is a tie.
+    params_part1_ans4_value: Not enough information is given.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Two identical springs are attached to two identical masses.
 Both masses are free to slide along a frictionless horizontal surface.
-One of the springs is displaced a distance {{ params.d1 }} from its equilibrium position, while the other is displaced a distance {{ params.d2 }}.
+One of the springs is displaced a distance {{ params_d1 }} from its equilibrium position, while the other is displaced a distance {{ params_d2 }}.
 
 ![Using the same point of reference, Spring A is displaced a distance d from its equilibrium position while Spring B is displaced a distance 2d.](q8_2012Final.png)
 
@@ -58,10 +51,10 @@ If both masses are released at the same instant, which of the springs, A or B, r
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
 
 ## Attribution
 

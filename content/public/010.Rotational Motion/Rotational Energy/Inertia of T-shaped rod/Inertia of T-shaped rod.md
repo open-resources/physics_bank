@@ -33,26 +33,19 @@ part1:
     fixed-order: true
 myst:
   substitutions:
-    params:
-      vars:
-        title: Rotational Inertia of T-shaped Rods
-      choice: maximum
-      part1:
-        ans1:
-          value: Figure (a)
-        ans2:
-          value: Figure (b)
-        ans3:
-          value: Figure (c)
-        ans4:
-          value: Figure (d)
+    params_vars_title: Rotational Inertia of T-shaped Rods
+    params_choice: maximum
+    params_part1_ans1_value: Figure (a)
+    params_part1_ans2_value: Figure (b)
+    params_part1_ans3_value: Figure (c)
+    params_part1_ans4_value: Figure (d)
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Four 'T's are made from two identical rods of equal mass and length. The 'T's are rotated about various axes indicated by the dashed lines in the figures below.
 
 ## Part 1
 
-For which of the cases below is the rotational inertia at a {{ params.choice }}?
+For which of the cases below is the rotational inertia at a {{ params_choice }}?
 
 <img longdesc="Inertia of T-shaped rod.md#desc" alt="Four Ts with different rotation axes." src="q10_2015Final.png">
 
@@ -70,10 +63,10 @@ In Figure (d), the dashed line is vertical and located at the left of the invert
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
 
 ## Attribution
 

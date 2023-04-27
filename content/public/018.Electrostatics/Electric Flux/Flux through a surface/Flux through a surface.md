@@ -38,25 +38,15 @@ part2:
     blank: true
 myst:
   substitutions:
-    params:
-      vars:
-        title: Flux through a surface
-      part1:
-        ans1:
-          value: Perpendicular to the electric field
-        ans2:
-          value: Parallel to the electric field
-        ans3:
-          value: At a 45 degree angle with respect to the electric field
-      part2:
-        ans1:
-          value: Perpendicular to the electric field
-        ans2:
-          value: Parallel to the electric field
-        ans3:
-          value: At a 45 degree angle with respect to the electric field
+    params_vars_title: Flux through a surface
+    params_part1_ans1_value: Perpendicular to the electric field
+    params_part1_ans2_value: Parallel to the electric field
+    params_part1_ans3_value: At a 45 degree angle with respect to the electric field
+    params_part2_ans1_value: Perpendicular to the electric field
+    params_part2_ans2_value: Parallel to the electric field
+    params_part2_ans3_value: At a 45 degree angle with respect to the electric field
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
@@ -64,9 +54,9 @@ How should a planar surface of area $A$ be oriented in a uniform electric field 
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
 
 ## Part 2
 
@@ -74,9 +64,9 @@ How should a planar surface of area $A$ be oriented in a uniform electric field 
 
 ### Answer Section
 
-- {{ params.part2.ans1.value }}
-- {{ params.part2.ans2.value }}
-- {{ params.part2.ans3.value }}
+- {{ params_part2_ans1_value }}
+- {{ params_part2_ans2_value }}
+- {{ params_part2_ans3_value }}
 
 ## Attribution
 

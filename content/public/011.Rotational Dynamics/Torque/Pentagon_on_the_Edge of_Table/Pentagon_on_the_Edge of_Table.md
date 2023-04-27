@@ -33,29 +33,24 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: A Pentagon on the Edge of Table
-      part1:
-        ans1:
-          value: ' The gravitational torque is non-zero about the corner of the table'
-          feedback: Great! You got it.
-        ans2:
-          value: ' The gravitational torque is zero about the corner of the table'
-          feedback: Does this torque cause rotation?
-      part2:
-        ans1:
-          value: Negative (clockwise)
-          feedback: Great! You got it. The gravitational torque causes clockwise rotation.
-        ans2:
-          value: Positive (counter-clockwise)
-          feedback: The direction of the net torque points down which causes clockwise
-            rotation(negative torque).
-        ans3:
-          value: The gravitational torque is zero about the corner of the table.
-          feedback: Does this torque cause rotation?
+    params_vars_title: A Pentagon on the Edge of Table
+    params_part1_ans1_value: ' The gravitational torque is non-zero about the corner
+      of the table'
+    params_part1_ans1_feedback: Great! You got it.
+    params_part1_ans2_value: ' The gravitational torque is zero about the corner of
+      the table'
+    params_part1_ans2_feedback: Does this torque cause rotation?
+    params_part2_ans1_value: Negative (clockwise)
+    params_part2_ans1_feedback: Great! You got it. The gravitational torque causes
+      clockwise rotation.
+    params_part2_ans2_value: Positive (counter-clockwise)
+    params_part2_ans2_feedback: The direction of the net torque points down which
+      causes clockwise rotation(negative torque).
+    params_part2_ans3_value: The gravitational torque is zero about the corner of
+      the table.
+    params_part2_ans3_feedback: Does this torque cause rotation?
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 The diagram in the figure below is showing a pentagon (with its mass uniformly distributed) close to the edge of a table.
 
 <img src="centreofgravity3.png" alt="a pentagon with its mass uniformly distributed close to the right edge of a table">
@@ -66,8 +61,8 @@ The gravitational torque is :
 
 ### Answer Section
 
-- {{ params.part1.ans1.value}}
-- {{ params.part1.ans2.value}}
+- {{ params_part1_ans1_value}}
+- {{ params_part1_ans2_value}}
 
 ## Part 2
 
@@ -75,9 +70,9 @@ The sign of the gravitational torque is :
 
 ### Answer Section
 
-- {{ params.part2.ans1.value}}
-- {{ params.part2.ans2.value}}
-- {{ params.part2.ans3.value}}
+- {{ params_part2_ans1_value}}
+- {{ params_part2_ans2_value}}
+- {{ params_part2_ans3_value}}
 
 ## Attribution
 

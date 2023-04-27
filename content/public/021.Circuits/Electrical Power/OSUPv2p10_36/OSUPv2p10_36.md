@@ -126,24 +126,22 @@ part7:
     custom-format: .3g
 myst:
   substitutions:
-    params:
-      vars:
-        title: Circuit with Multiple Voltage Sources
-      R1: '11.0'
-      R2: '23.0'
-      R3: '15.0'
-      R4: '13.0'
-      R5: '11.0'
-      V1: '10.0'
-      V2: '23.5'
+    params_vars_title: Circuit with Multiple Voltage Sources
+    params_R1: '14.0'
+    params_R2: '22.0'
+    params_R3: '10.0'
+    params_R4: '17.0'
+    params_R5: '13.0'
+    params_V1: '11.0'
+    params_V2: '24.5'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Consider the circuit shown below.
 
 <img src="fig_OSUPv2p10_36.png" width=250>
 
-The battery voltages are $V_1 = {{ params.V1 }}\rm\ V$ and $V_2 = {{ params.V2 }}\rm\ V$.
-The resistances are $R_1 = {{ params.R1 }}\rm\ k \Omega$, $R_2 = {{ params.R2 }}\rm\ k \Omega$, $R_3 = {{ params.R3 }}\rm\ k \Omega$, $R_4 = {{ params.R4 }}\rm\ k \Omega$, and $R_5 = {{ params.R5 }}\rm\ k \Omega$.
+The battery voltages are $V_1 = {{ params_V1 }}\rm\ V$ and $V_2 = {{ params_V2 }}\rm\ V$.
+The resistances are $R_1 = {{ params_R1 }}\rm\ k \Omega$, $R_2 = {{ params_R2 }}\rm\ k \Omega$, $R_3 = {{ params_R3 }}\rm\ k \Omega$, $R_4 = {{ params_R4 }}\rm\ k \Omega$, and $R_5 = {{ params_R5 }}\rm\ k \Omega$.
 
 ## Part 1
 

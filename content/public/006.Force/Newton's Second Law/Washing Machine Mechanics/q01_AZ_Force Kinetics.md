@@ -35,18 +35,16 @@ part1:
     suffix: m/s
 myst:
   substitutions:
-    params:
-      vars:
-        title: Washing Machine Mechanics
-      m: 2
-      r: 3
+    params_vars_title: Washing Machine Mechanics
+    params_m: 4
+    params_r: 4
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A washing machine works by rotating the drum about a horizontal axis in a vertical plane. For thorough cleaning, detergent is sprayed from tiny holes in the surface of the drum.
 
 ## Question Text
 
-Determine the minimum speed v for which the drum has to spin to ensure the clothes remain in contact with the drum for maximum detergent absorption. Treat the clothes as a single particle with mass, m = {{ params.m }}. The effective radius of the drum is r = {{ params.r }}. Assume the clothes do not slip relative to the drum anywhere along the circular motion.
+Determine the minimum speed v for which the drum has to spin to ensure the clothes remain in contact with the drum for maximum detergent absorption. Treat the clothes as a single particle with mass, m = {{ params_m }}. The effective radius of the drum is r = {{ params_r }}. Assume the clothes do not slip relative to the drum anywhere along the circular motion.
 
 ### Answer Section
 

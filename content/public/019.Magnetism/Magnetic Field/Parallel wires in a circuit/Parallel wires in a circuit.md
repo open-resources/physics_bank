@@ -42,11 +42,9 @@ part2:
     allow-blank: false
 myst:
   substitutions:
-    params:
-      vars:
-        title: Parallel wires in a circuit
+    params_vars_title: Parallel wires in a circuit
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A circuit with current $I$ has two long parallel wire sections that carry current in opposite directions.
 Find expressions for the $x$- and $y$-components of the magnetic field at point P which is a distance $a$ from one wire and $b$ from the other wire, as shown in the figure.
 

@@ -34,14 +34,12 @@ part1:
     suffix: $km/h$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Eruption of Mount Etna
-        units: $km/h$
-      h: 86.8
+    params_vars_title: Eruption of Mount Etna
+    params_vars_units: $km/h$
+    params_h: 115.0
 ---
-# {{ params.vars.title }}
-Mount Etna erupted on Dec. 14 2020 sending lava {{ params.h }} $m$ into the air.
+# {{ params_vars_title }}
+Mount Etna erupted on Dec. 14 2020 sending lava {{ params_h }} $m$ into the air.
 
 ## Question Text
 
@@ -49,7 +47,7 @@ Assuming the lava was in free fall, what speed did the lava leave the surface of
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

@@ -29,43 +29,34 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        name: Mateo
-        vehicle: a unicycle
-        units: m
-        title: Distance travelled
-      v: 3
-      t: 9
-      part1:
-        ans1:
-          value: 42.0
-        ans2:
-          value: 27
-        ans3:
-          value: 12
-        ans4:
-          value: 0.33
-        ans5:
-          value: -6
-        ans6:
-          value: -7.8
+    params_vars_name: Emilia
+    params_vars_vehicle: a unicycle
+    params_vars_units: m
+    params_vars_title: Distance travelled
+    params_v: 7
+    params_t: 8
+    params_part1_ans1_value: 42.0
+    params_part1_ans2_value: 56
+    params_part1_ans3_value: 15
+    params_part1_ans4_value: 0.88
+    params_part1_ans5_value: -1
+    params_part1_ans6_value: -1.3
 ---
-# {{ params.vars.title }}
-{{ params.vars.name }} is traveling on {{ params.vars.vehicle }} at {{ params.v }} $\rm{m/s}$.
+# {{ params_vars_title }}
+{{ params_vars_name }} is traveling on {{ params_vars_vehicle }} at {{ params_v }} $\rm{m/s}$.
 
 ## Part 1
 
-How far does {{ params.vars.name }} travel in {{ params.t }} $\rm{s}$, assuming they continue at the same velocity?
+How far does {{ params_vars_name }} travel in {{ params_t }} $\rm{s}$, assuming they continue at the same velocity?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
-- {{ params.part1.ans5.value }} {{ params.vars.units}}
-- {{ params.part1.ans6.value }} {{ params.vars.units}}
+- {{ params_part1_ans1_value }} {{ params_vars_units}}
+- {{ params_part1_ans2_value }} {{ params_vars_units}}
+- {{ params_part1_ans3_value }} {{ params_vars_units}}
+- {{ params_part1_ans4_value }} {{ params_vars_units}}
+- {{ params_part1_ans5_value }} {{ params_vars_units}}
+- {{ params_part1_ans6_value }} {{ params_vars_units}}
 
 ## Attribution
 

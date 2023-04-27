@@ -35,18 +35,16 @@ part1:
     suffix: $J$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Rocket Racer on Track
-      m: 19
-      va: 4
-      vb: 15
-      h: 36
-      d: 44
+    params_vars_title: Rocket Racer on Track
+    params_m: 12
+    params_va: 3
+    params_vb: 19
+    params_h: 40
+    params_d: 41
 ---
-# {{ params.vars.title }}
-A rocket racer toy of mass $m = {{ params.m }} kg$ is sent down a track from $A$ to $B$ from a height $h = {{ params.h }} m$ and a horizontal distance $d = {{ params.d }} m$ away from point B as shown in the diagram below.
-If the toy has a velocity of ${{ params.va }} m/s$ down the incline at point $A$, and a velocity of ${{ params.vb }} m/s$ at point $B$, what is the work done by friction as the toy moves from point A to point B?
+# {{ params_vars_title }}
+A rocket racer toy of mass $m = {{ params_m }} kg$ is sent down a track from $A$ to $B$ from a height $h = {{ params_h }} m$ and a horizontal distance $d = {{ params_d }} m$ away from point B as shown in the diagram below.
+If the toy has a velocity of ${{ params_va }} m/s$ down the incline at point $A$, and a velocity of ${{ params_vb }} m/s$ at point $B$, what is the work done by friction as the toy moves from point A to point B?
 
 <img src="Rocket Racer on Track.png" width=400>
 

@@ -47,22 +47,20 @@ part2:
     suffix: J
 myst:
   substitutions:
-    params:
-      vars:
-        title: Spring on an Incline
-        units1: m
-        units2: J
-      m: 3
-      k: 650
-      theta: 30
-      mu: 0.25
-      d: 9
-      g: 9.8
+    params_vars_title: Spring on an Incline
+    params_vars_units1: m
+    params_vars_units2: J
+    params_m: 4
+    params_k: 655
+    params_theta: 28
+    params_mu: 0.25
+    params_d: 5
+    params_g: 9.8
 ---
-# {{ params.vars.title }}
-A small {{params.m}} kg block is accelerated from rest on a flat surface by a compressed spring ($k$ = {{params.k}} $N/m$) along a frictionless, horizontal surface.
-The block leaves the spring at the spring's equilibrium position ($x$ = 0) and travels on an incline ($\theta$ = {{params.theta}}$^{\circ}$) with a coefficient of kinetic friction $\mu_k$ = {{params.mu}}.
-The block moves a horizontal distance $D$ = {{params.d}} m before coming to a stop.
+# {{ params_vars_title }}
+A small {{params_m}} kg block is accelerated from rest on a flat surface by a compressed spring ($k$ = {{params_k}} $N/m$) along a frictionless, horizontal surface.
+The block leaves the spring at the spring's equilibrium position ($x$ = 0) and travels on an incline ($\theta$ = {{params_theta}}$^{\circ}$) with a coefficient of kinetic friction $\mu_k$ = {{params_mu}}.
+The block moves a horizontal distance $D$ = {{params_d}} m before coming to a stop.
 
 <img src="q10image.png" alt="Pictured is a block being pushed towards a ramp by a compressed string." >
 
@@ -72,7 +70,7 @@ The block moves a horizontal distance $D$ = {{params.d}} m before coming to a st
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units1 }}.
+Please enter in a numeric value in {{ params_vars_units1 }}.
 
 ## Part 2
 
@@ -80,7 +78,7 @@ Please enter in a numeric value in {{ params.vars.units1 }}.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units2 }}.
+Please enter in a numeric value in {{ params_vars_units2 }}.
 
 ## Attribution
 

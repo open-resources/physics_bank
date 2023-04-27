@@ -58,18 +58,16 @@ part4:
     suffix: $m^3$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Potato Density
-        name: Maya
-        unit1: $kg$
-        unit2: $m^3$
-      m_p: 201
-      m_cp: 68
-      l: 3
+    params_vars_title: Potato Density
+    params_vars_name: Aliyah
+    params_vars_unit1: $kg$
+    params_vars_unit2: $m^3$
+    params_m_p: 168
+    params_m_cp: 60
+    params_l: 2
 ---
-# {{ params.vars.title }}
-For their first lab, {{ params.vars.name }} decides to measure the density of a potato.They notice that it's an unusual shape and floats, so it's hard to calculate its volume.The potato's mass is measured to be {{ params.m_p }} $g$.They then cut the potato into a cube and measure that the sides of the cube have length {{ params.l}} inches, and the potato's mass is {{ params.m_cp }} $g$.For a uniform density potato, the mass and volume are proportional.
+# {{ params_vars_title }}
+For their first lab, {{ params_vars_name }} decides to measure the density of a potato.They notice that it's an unusual shape and floats, so it's hard to calculate its volume.The potato's mass is measured to be {{ params.m_p }} $g$.They then cut the potato into a cube and measure that the sides of the cube have length {{ params_l}} inches, and the potato's mass is {{ params.m_cp }} $g$.For a uniform density potato, the mass and volume are proportional.
 
 (Useful conversions: 1 $\textrm{inch}$ = 2.54 $cm$, 1 $cm$ = $10^{-2}$ $m$, 1 $g$ = $10^{-3}$ $kg$).
 
@@ -79,7 +77,7 @@ In SI units what is the potato's mass ($m_p$)?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.unit1 }}.
+Please enter in a numeric value in {{ params_vars_unit1 }}.
 
 ## Part 2
 
@@ -87,7 +85,7 @@ In SI units what is the cube of potato's mass ($m\_{cp}$)?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.unit1 }}.
+Please enter in a numeric value in {{ params_vars_unit1 }}.
 
 ## Part 3
 
@@ -95,7 +93,7 @@ In SI units, what is the volume of the cube of potato after it has been cut?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.unit2 }}.
+Please enter in a numeric value in {{ params_vars_unit2 }}.
 
 ## Part 4
 
@@ -105,7 +103,7 @@ In SI units, what is the volume of the original potato?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.unit2 }}.
+Please enter in a numeric value in {{ params_vars_unit2 }}.
 
 ## Attribution
 

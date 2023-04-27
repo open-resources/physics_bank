@@ -62,21 +62,17 @@ part5:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Brick and spring on a conveyor
-        part2:
-          units: $m/s^2$
-        part5:
-          units: m
-      b: 2
-      spring: 5
-      k: 6.41
-      u_k: 0.21
-      u_s: 0.55
+    params_vars_title: Brick and spring on a conveyor
+    params_vars_part2_units: $m/s^2$
+    params_vars_part5_units: m
+    params_b: 1
+    params_spring: 4
+    params_k: 5.75
+    params_u_k: 0.2
+    params_u_s: 0.26
 ---
-# {{ params.vars.title }}
-I decide to set up a very elaborate physics apparatus consisting of a {{ params.b}} kg brick, which is attached to the wall with a spring, placed on a conveyor belt. The end of the spring starts out {{params.spring}} m from the wall, and its rest length is {{params.spring}} m. The spring constant of the spring is k = {{params.k}} $N \over m$. The coefficient of kinetic (sliding) friction is $\mu_k$ = {{params.u_k}}, and the coefficient of static friction is $\mu_s$ = {{params.u_s}}.
+# {{ params_vars_title }}
+I decide to set up a very elaborate physics apparatus consisting of a {{ params_b}} kg brick, which is attached to the wall with a spring, placed on a conveyor belt. The end of the spring starts out {{params_spring}} m from the wall, and its rest length is {{params_spring}} m. The spring constant of the spring is k = {{params_k}} $N \over m$. The coefficient of kinetic (sliding) friction is $\mu_k$ = {{params.u_k}}, and the coefficient of static friction is $\mu_s$ = {{params.u_s}}.
 
 ## Part 1
 
@@ -88,11 +84,11 @@ File upload box will be shown here.
 
 ## Part 2
 
-What is the maximum possible acceleration the belt can have for the brick to stay in place upon it WHEN THE BRICK IS {{params.spring}} m from the wall?
+What is the maximum possible acceleration the belt can have for the brick to stay in place upon it WHEN THE BRICK IS {{params_spring}} m from the wall?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.part2.units }}.
+Please enter in a numeric value in {{ params_vars_part2_units }}.
 
 ## Part 3
 
@@ -104,7 +100,7 @@ Answer in 3-4 sentences, try and use full sentences.
 
 ## Part 4
 
-What would have happened to the brick (when it is {{params.spring}} m from the wall) if I had set the conveyor belt to accelerate more rapidly than your answer from part 2? (Explain with words and numbers)
+What would have happened to the brick (when it is {{params_spring}} m from the wall) if I had set the conveyor belt to accelerate more rapidly than your answer from part 2? (Explain with words and numbers)
 
 ### Answer Section
 
@@ -116,7 +112,7 @@ Once the brick has moved too far from its original location, the spring will beg
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.part5.units }}.
+Please enter in a numeric value in {{ params_vars_part5_units }}.
 
 ## Attribution
 

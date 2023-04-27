@@ -67,25 +67,20 @@ part5:
     source-file-name: sample.html
 myst:
   substitutions:
-    params:
-      vars:
-        title: Rocket Dog
-        units: $\rm{m/s}$
-      x: $5t^3 + 6t^2 - t$
-      time: 8
-      part4:
-        ans1:
-          value: The rocket dog is moving towards the origin.
-          feedback: 'Hint: Consider the signs of the dog''s position and velocity
-            at the given time.'
-        ans2:
-          value: The rocket dog is moving away from the origin.
-          feedback: Great! You got it.
+    params_vars_title: Rocket Dog
+    params_vars_units: $\rm{m/s}$
+    params_x: $8t^2 - 3t$
+    params_time: 4
+    params_part4_ans1_value: The rocket dog is moving towards the origin.
+    params_part4_ans1_feedback: 'Hint: Consider the signs of the dog''s position and
+      velocity at the given time.'
+    params_part4_ans2_value: The rocket dog is moving away from the origin.
+    params_part4_ans2_feedback: Great! You got it.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A rocket dog has a position along a straight track given by:
 
-$x(t)$ = {{ params.x }}
+$x(t)$ = {{ params_x }}
 
 where $x$ is in metres and $t$ is in seconds.
 
@@ -117,20 +112,20 @@ Please enter the equation for acceleration.
 
 ## Part 3
 
-Calculate the average velocity of the rocket dog between $t = 0$ $\rm{s}$ and $t$ = {{params.time}} $\rm{s}$.
+Calculate the average velocity of the rocket dog between $t = 0$ $\rm{s}$ and $t$ = {{params_time}} $\rm{s}$.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Part 4
 
-At time $t = $ {{params.time}} $\rm{s}$, is the rocket dog moving towards the origin or away from the origin?
+At time $t = $ {{params_time}} $\rm{s}$, is the rocket dog moving towards the origin or away from the origin?
 
 ### Answer Section
 
-- {{ params.part4.ans1.value }}
-- {{ params.part4.ans2.value }}
+- {{ params_part4_ans1_value }}
+- {{ params_part4_ans2_value }}
 
 ## Part 5
 

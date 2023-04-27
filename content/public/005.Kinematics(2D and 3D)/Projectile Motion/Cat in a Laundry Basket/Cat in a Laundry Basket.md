@@ -35,36 +35,22 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Cat in a Laundry Basket
-      w: 36
-      h: 67
-      part1:
-        ans1:
-          value: $\Delta t_1 > \Delta t_2 > \Delta t_3$
-        ans2:
-          value: $\Delta t_1 > \Delta t_3 > \Delta t_2$
-        ans3:
-          value: $\Delta t_2 > \Delta t_1 > \Delta t_3$
-        ans4:
-          value: $\Delta t_2 > \Delta t_3 > \Delta t_1$
-        ans5:
-          value: $\Delta t_3 > \Delta t_1 > \Delta t_2$
-        ans6:
-          value: $\Delta t_3 > \Delta t_2 > \Delta t_1$
-        ans7:
-          value: $\Delta t_3 = \Delta t_2 = \Delta t_1$
-      part2:
-        ans1:
-          value: $v_{x1} > v_{x2}$
-        ans2:
-          value: $v_{x2} > v_{x1}$
-        ans3:
-          value: $v_{x1} = v_{x2}$
+    params_vars_title: Cat in a Laundry Basket
+    params_w: 40
+    params_h: 62
+    params_part1_ans1_value: $\Delta t_1 > \Delta t_2 > \Delta t_3$
+    params_part1_ans2_value: $\Delta t_1 > \Delta t_3 > \Delta t_2$
+    params_part1_ans3_value: $\Delta t_2 > \Delta t_1 > \Delta t_3$
+    params_part1_ans4_value: $\Delta t_2 > \Delta t_3 > \Delta t_1$
+    params_part1_ans5_value: $\Delta t_3 > \Delta t_1 > \Delta t_2$
+    params_part1_ans6_value: $\Delta t_3 > \Delta t_2 > \Delta t_1$
+    params_part1_ans7_value: $\Delta t_3 = \Delta t_2 = \Delta t_1$
+    params_part2_ans1_value: $v_{x1} > v_{x2}$
+    params_part2_ans2_value: $v_{x2} > v_{x1}$
+    params_part2_ans3_value: $v_{x1} = v_{x2}$
 ---
-# {{ params.vars.title }}
-A cat jumps out of a laundry basket, travelling $w = $ {{ params.w }} $cm$ horizontally before just clearing the $h =$ {{ params.h }} $cm$ high edge of the basket.
+# {{ params_vars_title }}
+A cat jumps out of a laundry basket, travelling $w = $ {{ params_w }} $cm$ horizontally before just clearing the $h =$ {{ params_h }} $cm$ high edge of the basket.
 The parabolic trajectories of three different jumps labelled 1, 2, and 3 are shown below.
 
 <img longdesc="Cat in Laundry Basket.md#desc" alt="The parabolic trajectories of three different jumps." src="catbasket.png" width = "500px">
@@ -83,12 +69,12 @@ Rank the time in the air ($\Delta t_1, \Delta t_2, and \Delta t_3$, respectively
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
-- {{ params.part1.ans6.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
+- {{ params_part1_ans6_value }}
 
 ## Part 2
 
@@ -96,9 +82,9 @@ Rank the relative sizes of the $x-$components of the velocity vectors for path 1
 
 ### Answer Section
 
-- {{ params.part2.ans1.value }}
-- {{ params.part2.ans2.value }}
-- {{ params.part2.ans3.value }}
+- {{ params_part2_ans1_value }}
+- {{ params_part2_ans2_value }}
+- {{ params_part2_ans3_value }}
 - {{ params.part2.ans4.value }}
 - {{ params.part2.ans5.value }}
 - {{ params.part2.ans6.value }}

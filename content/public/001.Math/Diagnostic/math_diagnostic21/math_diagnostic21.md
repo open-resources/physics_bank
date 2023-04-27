@@ -29,34 +29,26 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Math Diagnostic21
-      formula: $\cos{\left(x^{2} \right)}$
-      part1:
-        ans1:
-          value: ${- 2 x \sin{\left(x^{2} \right)}}$
-        ans2:
-          value: ${- 2 \sin{\left(x^{2} \right)}}$
-        ans3:
-          value: ${- \sin{\left(x^{2} \right)}}$
-        ans4:
-          value: ${- 2 x \cos{\left(x^{2} \right)}}$
-        ans5:
-          value: Don't Know
+    params_vars_title: Math Diagnostic21
+    params_formula: $\cos{\left(x^{2} \right)}$
+    params_part1_ans1_value: ${- 2 x \sin{\left(x^{2} \right)}}$
+    params_part1_ans2_value: ${- 2 \sin{\left(x^{2} \right)}}$
+    params_part1_ans3_value: ${- \sin{\left(x^{2} \right)}}$
+    params_part1_ans4_value: ${- 2 x \cos{\left(x^{2} \right)}}$
+    params_part1_ans5_value: Don't Know
 ---
-# {{ params.vars.title }}
-The derivative of {{params.formula}} is:
+# {{ params_vars_title }}
+The derivative of {{params_formula}} is:
 
 ## Part 1
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

@@ -47,17 +47,15 @@ part3:
     suffix: $N$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Roller Coaster
-        units: m/s
-        units_2: N
-      r: 15.0
-      m: 241
+    params_vars_title: Roller Coaster
+    params_vars_units: m/s
+    params_vars_units_2: N
+    params_r: 18.0
+    params_m: 233
 ---
-# {{ params.vars.title }}
-A roller-coaster car moves around a vertical circular loop of radius $R$ = {{params.r}} m.
-The total mass of the car (including passengers) is {{params.m}} kg.
+# {{ params_vars_title }}
+A roller-coaster car moves around a vertical circular loop of radius $R$ = {{params_r}} m.
+The total mass of the car (including passengers) is {{params_m}} kg.
 
 <img src="Q16.png" width=300>
 
@@ -67,7 +65,7 @@ What speed must the car have at the top of the loop so that it will just make it
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Part 2
 
@@ -75,7 +73,7 @@ What speed will the car subsequently have at the bottom of the loop (after going
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Part 3
 
@@ -83,7 +81,7 @@ What will be the normal force on a passenger at the bottom of the loop?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units_2 }}.
+Please enter in a numeric value in {{ params_vars_units_2 }}.
 
 ## Attribution
 

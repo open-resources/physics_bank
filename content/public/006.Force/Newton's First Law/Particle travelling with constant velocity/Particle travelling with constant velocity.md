@@ -31,23 +31,15 @@ part1:
     partial-credit-method: EDC
 myst:
   substitutions:
-    params:
-      vars:
-        title: Particle Travelling with Constant Velocity
-      part1:
-        ans1:
-          value: The particle has no mass.
-        ans2:
-          value: The net force on the particle is zero.
-        ans3:
-          value: There must be a force acting on the particle.
-        ans4:
-          value: The particle has no acceleration.
-        ans5:
-          value: The acceleration of the particle is in the same direction as the
-            velocity.
+    params_vars_title: Particle Travelling with Constant Velocity
+    params_part1_ans1_value: The particle has no mass.
+    params_part1_ans2_value: The net force on the particle is zero.
+    params_part1_ans3_value: There must be a force acting on the particle.
+    params_part1_ans4_value: The particle has no acceleration.
+    params_part1_ans5_value: The acceleration of the particle is in the same direction
+      as the velocity.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
@@ -59,11 +51,11 @@ Select all the choices that apply.
 
 Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params.part1.ans1.value}}
-- {{ params.part1.ans2.value}}
-- {{ params.part1.ans3.value}}
-- {{ params.part1.ans4.value}}
-- {{ params.part1.ans5.value}}
+- {{ params_part1_ans1_value}}
+- {{ params_part1_ans2_value}}
+- {{ params_part1_ans3_value}}
+- {{ params_part1_ans4_value}}
+- {{ params_part1_ans5_value}}
 
 ## Attribution
 

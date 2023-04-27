@@ -37,17 +37,15 @@ part1:
     custom-format: .3g
 myst:
   substitutions:
-    params:
-      vars:
-        title: Electric potential of a proton
-      r: '0.530'
-      p: '-10'
+    params_vars_title: Electric potential of a proton
+    params_r: '0.530'
+    params_p: '-10'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
-What is the potential ${{ params.r }}\times 10^{ {{params.p }} }\rm\ m$ from a proton (the average distance between the proton and electron in a hydrogen atom)?
+What is the potential ${{ params_r }}\times 10^{ {{params_p }} }\rm\ m$ from a proton (the average distance between the proton and electron in a hydrogen atom)?
 
 ### Answer Section
 

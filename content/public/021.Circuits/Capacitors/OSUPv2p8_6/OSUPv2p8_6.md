@@ -39,29 +39,23 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Maximizing Charge in a Capacitor Bank
-        name: Mateo
-      part1:
-        ans1:
-          value: Parallel
-        ans2:
-          value: Series
-        ans3:
-          value: Both parallel and series connections are equally effective
+    params_vars_title: Maximizing Charge in a Capacitor Bank
+    params_vars_name: Ximena
+    params_part1_ans1_value: Parallel
+    params_part1_ans2_value: Series
+    params_part1_ans3_value: Both parallel and series connections are equally effective
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
-If {{ params.vars.name }} wishes to store a large amount of charge in a capacitor bank, would they connect the capacitors in series or parallel?
+If {{ params_vars_name }} wishes to store a large amount of charge in a capacitor bank, would they connect the capacitors in series or parallel?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
 
 ## Attribution
 

@@ -45,35 +45,33 @@ part2:
     digits: 2
 myst:
   substitutions:
-    params:
-      vars:
-        title: Uncertainty
-        units: s
-      m: 33.24
-      m_u: 0.02
-      d: 0.2
-      d_u: 0.002
-      t1: 0.0755
-      t2: 0.0758
-      t3: 0.0755
-      t4: 0.0753
-      t5: 0.0756
-      t6: 0.0753
-      t7: 0.0755
+    params_vars_title: Uncertainty
+    params_vars_units: s
+    params_m: 29.48
+    params_m_u: 0.02
+    params_d: 0.2
+    params_d_u: 0.001
+    params_t1: 0.0753
+    params_t2: 0.0755
+    params_t3: 0.0755
+    params_t4: 0.0753
+    params_t5: 0.0753
+    params_t6: 0.0755
+    params_t7: 0.0753
 ---
-# {{ params.vars.title }}
-A steel ball (mball = ({{params.m}} $\pm$ {{ params.m_u }}) g) is shot from a mini-launcher on its medium setting, through horizontal photogates spaced ({{ params.d }} $\pm$ {{ params.d_u }}) m apart.
+# {{ params_vars_title }}
+A steel ball (mball = ({{params_m}} $\pm$ {{ params_m_u }}) g) is shot from a mini-launcher on its medium setting, through horizontal photogates spaced ({{ params_d }} $\pm$ {{ params_d_u }}) m apart.
 The time interval that the ball spends between these gates is measured in six independent trials to be:
 
 | Trial Number | Time between gates (s) |
 |--------------|------------------------|
-| Trial 1      | {{params.t1}}          |
-| Trial 2      | {{params.t2}}          |
-| Trial 3      | {{params.t3}}          |
-| Trial 4      | {{params.t4}}          |
-| Trial 5      | {{params.t5}}          |
-| Trial 6      | {{params.t6}}          |
-| Trial 7      | {{params.t7}}          |
+| Trial 1      | {{params_t1}}          |
+| Trial 2      | {{params_t2}}          |
+| Trial 3      | {{params_t3}}          |
+| Trial 4      | {{params_t4}}          |
+| Trial 5      | {{params_t5}}          |
+| Trial 6      | {{params_t6}}          |
+| Trial 7      | {{params_t7}}          |
 
 For this problem, keep one significant figure in the calculated uncertainty and the appropriate number of significant figures in the calculated average time interval.
 
@@ -83,7 +81,7 @@ Calculate the average time interval.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Part 2
 
@@ -91,7 +89,7 @@ Calculate the uncertainty in the average time interval
 
 ### Answer Section
 
-Please enter a numeric value in {{ params.vars.units}}
+Please enter a numeric value in {{ params_vars_units}}
 
 ## Attribution
 

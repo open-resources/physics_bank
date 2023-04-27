@@ -42,23 +42,21 @@ part1:
     suffix: $\rm\ A$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Suspended parallel wires
-      s: '5.0'
-      mu: '32.4'
-      theta: '6.0'
+    params_vars_title: Suspended parallel wires
+    params_s: '4.0'
+    params_mu: '33.6'
+    params_theta: '7.0'
 ---
-# {{ params.vars.title }}
-Two long, parallel wires are hung by cords of length $s = $ {{ params.s }} $\rm\ cm$, as shown in the figure.
-Each wire has a mass per unit length of {{ params.mu }} $\rm\ g/m$, and they carry the same current in opposite directions.
+# {{ params_vars_title }}
+Two long, parallel wires are hung by cords of length $s = $ {{ params_s }} $\rm\ cm$, as shown in the figure.
+Each wire has a mass per unit length of {{ params_mu }} $\rm\ g/m$, and they carry the same current in opposite directions.
 
 <img src="OSUPv2p12_32.png" width=400 alt="Parallel currents suspended by cords">
 <p></p>
 
 ## Question Text
 
-What is the current if the cords hang at $\theta =$ {{ params.theta }}$^\circ$ with respect to the vertical?
+What is the current if the cords hang at $\theta =$ {{ params_theta }}$^\circ$ with respect to the vertical?
 
 ### Answer Section
 

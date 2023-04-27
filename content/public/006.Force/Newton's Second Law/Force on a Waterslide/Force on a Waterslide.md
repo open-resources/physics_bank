@@ -51,21 +51,19 @@ part3:
     suffix: $\rm{N}$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Force on a Waterslide
-      va: 15
-      vc: 6
-      M: 67
-      d: 13
-      r: 6
+    params_vars_title: Force on a Waterslide
+    params_va: 10
+    params_vc: 7
+    params_M: 48
+    params_d: 12
+    params_r: 4
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="Force on a Waterslide.png" width=400>
 
-A ${{ params.M }} \rm{kg}$ swimmer travels with a speed of ${{ params.va }} \rm{m/s}$ down a waterslide as they approach point A, as shown in the figure below.
-At point A, the slide flattens out before the turn, causing the swimmer to decelerate uniformly to a speed of ${{ params.vc }} \rm{m/s}$ as they pass point C.
-In the figure, $R = {{ params.r }} \rm{m}$ and $d = {{ params.d }} \rm{m}$.
+A ${{ params_M }} \rm{kg}$ swimmer travels with a speed of ${{ params_va }} \rm{m/s}$ down a waterslide as they approach point A, as shown in the figure below.
+At point A, the slide flattens out before the turn, causing the swimmer to decelerate uniformly to a speed of ${{ params_vc }} \rm{m/s}$ as they pass point C.
+In the figure, $R = {{ params_r }} \rm{m}$ and $d = {{ params_d }} \rm{m}$.
 You may assume that the swimmer undergoes circular motion starting at point B.
 
 ## Part 1

@@ -52,13 +52,11 @@ part4:
     file-names: rod.pdf
 myst:
   substitutions:
-    params:
-      vars:
-        title: Rod in Static Equilibrium
-        unit1: $N$
-        unit2: degrees
+    params_vars_title: Rod in Static Equilibrium
+    params_vars_unit1: $N$
+    params_vars_unit2: degrees
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 The figure shows a mass $M$ attached to the right end of a rod of length $L$ and of mass $m$. There is a support located at the middle of the rod. The left end of the rod is connected to a spring. The system is in static equilibrium.
 
 <img src="rod.png" width=400>
@@ -78,7 +76,7 @@ Use the following table as a reference for each variable. Note that it may not b
 
 ### Answer Section
 
-Please enter in a symbolic value in {{ params.vars.unit1 }}.
+Please enter in a symbolic value in {{ params_vars_unit1 }}.
 
 ## Part 2
 
@@ -86,7 +84,7 @@ Determine the direction, $\theta$, of the vertical force exerted on the rod by t
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.unit2 }}.
+Please enter in a numeric value in {{ params_vars_unit2 }}.
 
 ## Part 3
 
@@ -103,7 +101,7 @@ Use the following table as a reference for each variable. Note that it may not b
 
 ### Answer Section
 
-Please enter in a symbolic value in {{ params.vars.unit1 }}.
+Please enter in a symbolic value in {{ params_vars_unit1 }}.
 
 ## Part 4
 

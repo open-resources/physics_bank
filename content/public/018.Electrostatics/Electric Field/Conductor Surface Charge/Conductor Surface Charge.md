@@ -55,15 +55,13 @@ part2:
     custom-format: .3g
 myst:
   substitutions:
-    params:
-      vars:
-        title: Conductor Surface Charge
-      Q: '-4.0'
-      q: '-6.5'
+    params_vars_title: Conductor Surface Charge
+    params_Q: '4.7'
+    params_q: '4.3'
 ---
-# {{ params.vars.title }}
-The conductor in the figure has an excess charge of ${{params.Q}}\rm\ \mu C$.
-A point charge $q = {{params.q}}\rm\ \mu C$ is placed in the cavity.
+# {{ params_vars_title }}
+The conductor in the figure has an excess charge of ${{params_Q}}\rm\ \mu C$.
+A point charge $q = {{params_q}}\rm\ \mu C$ is placed in the cavity.
 
 <img src="OSUPv2p6_19.png" width=300 alt="Conductor with a cavity enclosing a point charge.">
 

@@ -34,22 +34,14 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Rotational Inertia
-      part1:
-        ans1:
-          value: $g$
-        ans2:
-          value: $3g \over 4$
-        ans3:
-          value: $2g$
-        ans4:
-          value: $2g \over 3$
-        ans5:
-          value: $g \over 2$
+    params_vars_title: Rotational Inertia
+    params_part1_ans1_value: $g$
+    params_part1_ans2_value: $3g \over 4$
+    params_part1_ans3_value: $2g$
+    params_part1_ans4_value: $2g \over 3$
+    params_part1_ans5_value: $g \over 2$
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
@@ -63,11 +55,11 @@ Hint: You will need to look up the moment of inertia for the solid spool of thre
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

@@ -30,35 +30,29 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Momentum and Inertia
-        vehicle: bus
-      part1:
-        ans1:
-          value: The bee has greater momentum, and also greater inertia.
-        ans2:
-          value: The bus has greater momentum, while the bee has greater inertia.
-        ans3:
-          value: The bus has greater momentum, and also  greater inertia.
-        ans4:
-          value: The bee has greater momentum, while the bus has greater inertia.
-        ans5:
-          value: It can’t be determined from this information.
+    params_vars_title: Momentum and Inertia
+    params_vars_vehicle: sedan
+    params_part1_ans1_value: The bee has greater momentum, and also greater inertia.
+    params_part1_ans2_value: The sedan has greater momentum, while the bee has greater
+      inertia.
+    params_part1_ans3_value: The sedan has greater momentum, and also  greater inertia.
+    params_part1_ans4_value: The bee has greater momentum, while the sedan has greater
+      inertia.
+    params_part1_ans5_value: It can’t be determined from this information.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
-Which has greater momentum: A flying bumblebee? Or a stationary {{ params.vars.vehicle }}? Which has greater inertia?
+Which has greater momentum: A flying bumblebee? Or a stationary {{ params_vars_vehicle }}? Which has greater inertia?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

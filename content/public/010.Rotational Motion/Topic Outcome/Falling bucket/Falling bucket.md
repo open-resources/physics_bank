@@ -37,19 +37,17 @@ part1:
     suffix: m/s
 myst:
   substitutions:
-    params:
-      vars:
-        title: Falling Bucket
-        units: m/s
-      m_b: 11.0
-      m_c: 3.31
-      h: 30.9
-      r: 75.9
+    params_vars_title: Falling Bucket
+    params_vars_units: m/s
+    params_m_b: 12.1
+    params_m_c: 4.26
+    params_h: 44.2
+    params_r: 65.9
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A bucket of mass $m_b$ = {{ params.m_b }} $kg$ is knocked off the side of a well.
-The bucket falls {{ params.h }} $m$ to the bottom of the well.
-Attached to the bucket is a light rope that wraps around a cylinder of radius $r = $ {{ params.r}} $cm$ and mass $m_c$ = {{ params.m_c }} $kg$.
+The bucket falls {{ params_h }} $m$ to the bottom of the well.
+Attached to the bucket is a light rope that wraps around a cylinder of radius $r = $ {{ params_r}} $cm$ and mass $m_c$ = {{ params.m_c }} $kg$.
 
 <img src="q17_2015Final.png">
 
@@ -59,7 +57,7 @@ How fast is the bucket falling just before it hits the ground?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

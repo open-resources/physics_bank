@@ -31,13 +31,11 @@ part1:
     suffix: $km$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Asteroid Equal Attraction
-        units: $km$
-      x: 20129
+    params_vars_title: Asteroid Equal Attraction
+    params_vars_units: $km$
+    params_x: 11851
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="L2Q2_drawing.png" width=90% style="padding: 5%">
 
 ## Question Text
@@ -46,11 +44,11 @@ An asteroid is floating through space on a collision course for earth. Determine
 the moon on its journey.
 The distance between the Earth and moon centres is 384398 $km$.
 The moon has 0.0123 times the mass of the Earth.
-x = {{params.x}}{{params.vars.units}}
+x = {{params_x}}{{params_vars_units}}
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

@@ -31,22 +31,15 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Puck Collision
-      E: 20
-      part1:
-        ans1:
-          value: momentum increases, kinetic energy increases
-        ans2:
-          value: momentum increases, kinetic energy is unchanged
-        ans3:
-          value: momentum is unchanged, kinetic energy increases
-        ans4:
-          value: momentum is unchanged, kinetic energy is unchanged
+    params_vars_title: Puck Collision
+    params_E: 26
+    params_part1_ans1_value: momentum increases, kinetic energy increases
+    params_part1_ans2_value: momentum increases, kinetic energy is unchanged
+    params_part1_ans3_value: momentum is unchanged, kinetic energy increases
+    params_part1_ans4_value: momentum is unchanged, kinetic energy is unchanged
 ---
-# {{ params.vars.title }}
-Consider a system of two pucks on a frictionless surface. An orange puck moving with velocity $\vec{v\_{oi}}$ collides with a blue puck that is initially at rest. At the time of the collision, a small explosion injects {{ params.E }} $J$ of energy into the system. Afterwards, the pucks move as shown in the figure below.
+# {{ params_vars_title }}
+Consider a system of two pucks on a frictionless surface. An orange puck moving with velocity $\vec{v\_{oi}}$ collides with a blue puck that is initially at rest. At the time of the collision, a small explosion injects {{ params_E }} $J$ of energy into the system. Afterwards, the pucks move as shown in the figure below.
 
 <img longdesc="Puck Collision.md#desc" alt="Figure of the system described." src="2017Mid2S002Q2.png">
 
@@ -63,10 +56,10 @@ Which of the statements below best describes how the system's momentum and kinet
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
 
 ## Attribution
 

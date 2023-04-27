@@ -30,34 +30,26 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Math Diagnostic13
-      expr: $\dfrac{z^6 }{z^1} $
-      part1:
-        ans1:
-          value: $z^{5}$
-        ans2:
-          value: $z^{-5}$
-        ans3:
-          value: 5z
-        ans4:
-          value: (6)z
-        ans5:
-          value: Don't Know
+    params_vars_title: Math Diagnostic13
+    params_expr: $\dfrac{z^7 }{z^9} $
+    params_part1_ans1_value: $z^{-2}$
+    params_part1_ans2_value: $z^{2}$
+    params_part1_ans3_value: -2z
+    params_part1_ans4_value: (7/9)z
+    params_part1_ans5_value: Don't Know
 ---
-# {{ params.vars.title }}
-The expression {{params.expr}} can be simplified to:
+# {{ params_vars_title }}
+The expression {{params_expr}} can be simplified to:
 
 ## Part 1
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

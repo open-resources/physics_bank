@@ -30,36 +30,28 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Math Diagnostic19
-      a: $ \sin206$
-      part1:
-        ans1:
-          value: $\sin{-154}$
-        ans2:
-          value: $\sin{154}$
-        ans3:
-          value: $\sin{27}$
-        ans4:
-          value: $\sin{-27}$
-        ans5:
-          value: Don't Know
+    params_vars_title: Math Diagnostic19
+    params_a: $ \sin295$
+    params_part1_ans1_value: $\sin{-65}$
+    params_part1_ans2_value: $\sin{65}$
+    params_part1_ans3_value: $\sin{26}$
+    params_part1_ans4_value: $\sin{-26}$
+    params_part1_ans5_value: Don't Know
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Assume angles are in degrees.
 
 ## Part 1
 
-{{params.a}} is the same as
+{{params_a}} is the same as
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

@@ -29,42 +29,34 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Vehicle Velocity
-        vehicle: semi-truck
-        units: $m/s$
-      i_1: 4
-      i_2: 2
-      j_1: 7
-      j_2: 1
-      s: 2
-      part1:
-        ans1:
-          value: (14$\hat{\imath}$ + 41/4$\hat{\jmath}$)
-        ans2:
-          value: (14$\hat{\imath}$ + 12$\hat{\jmath}$)
-        ans3:
-          value: (12$\hat{\imath}$ + 23/2$\hat{\jmath}$)
-        ans4:
-          value: (12$\hat{\imath}$ + 41/4$\hat{\jmath}$)
-        ans5:
-          value: (14$\hat{\imath}$ + 23/2$\hat{\jmath}$)
+    params_vars_title: Vehicle Velocity
+    params_vars_vehicle: pickup truck
+    params_vars_units: $m/s$
+    params_i_1: 4
+    params_i_2: 3
+    params_j_1: 8
+    params_j_2: 3
+    params_s: 1
+    params_part1_ans1_value: (5$\hat{\imath}$ + 1$\hat{\jmath}$)
+    params_part1_ans2_value: (5$\hat{\imath}$ + 9$\hat{\jmath}$)
+    params_part1_ans3_value: (1$\hat{\imath}$ + 11$\hat{\jmath}$)
+    params_part1_ans4_value: (1$\hat{\imath}$ + 1$\hat{\jmath}$)
+    params_part1_ans5_value: (5$\hat{\imath}$ + 11$\hat{\jmath}$)
 ---
-# {{ params.vars.title }}
-A {{ params.vars.vehicle }}'s position as a function of time is given by $\vec{r} =$ ({{ params.i_1 }}$t^2 -$ {{ params.i_2 }}$t)\hat{\imath} + ($ {{ params.j_1 }}$t^{-1}+$ {{ params.j_2 }} $t^3)\hat{\jmath}$ where $\vec{r}$ is in meters and $t$ is in seconds.
+# {{ params_vars_title }}
+A {{ params_vars_vehicle }}'s position as a function of time is given by $\vec{r} =$ ({{ params.i_1 }}$t^2 -$ {{ params.i_2 }}$t)\hat{\imath} + ($ {{ params.j_1 }}$t^{-1}+$ {{ params.j_2 }} $t^3)\hat{\jmath}$ where $\vec{r}$ is in meters and $t$ is in seconds.
 
 ## Part 1
 
-What is the {{ params.vars.vehicle }}'s velocity at $t=$ {{ params.s }} $s$?
+What is the {{ params_vars_vehicle }}'s velocity at $t=$ {{ params_s }} $s$?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
-- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params_part1_ans1_value }} {{ params_vars_units}}
+- {{ params_part1_ans2_value }} {{ params_vars_units}}
+- {{ params_part1_ans3_value }} {{ params_vars_units}}
+- {{ params_part1_ans4_value }} {{ params_vars_units}}
+- {{ params_part1_ans5_value }} {{ params_vars_units}}
 
 ## Attribution
 

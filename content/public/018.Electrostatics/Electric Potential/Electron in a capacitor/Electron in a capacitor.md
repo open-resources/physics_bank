@@ -45,22 +45,20 @@ part1:
     custom-format: .3g
 myst:
   substitutions:
-    params:
-      vars:
-        title: Electron in a capacitor
-      d: '4.0'
-      V: '180'
-      s: $4.0\times 10^{4}$
-      x: '2.2'
+    params_vars_title: Electron in a capacitor
+    params_d: '3.0'
+    params_V: '180'
+    params_s: $8.5\times 10^{6}$
+    params_x: '1.0'
 ---
-# {{ params.vars.title }}
-An electron enters a region between two large parallel plates made of aluminum separated by a distance of {{ params.d }} $\rm\ cm$ and kept at a potential difference of {{ params.V }} $\rm\ V$.
+# {{ params_vars_title }}
+An electron enters a region between two large parallel plates made of aluminum separated by a distance of {{ params_d }} $\rm\ cm$ and kept at a potential difference of {{ params_V }} $\rm\ V$.
 The electron enters through a small hole in the negative plate and moves toward the positive plate.
-At the time the electron is near the negative plate, its speed is {{ params.s }} $\rm\ m/s$.
+At the time the electron is near the negative plate, its speed is {{ params_s }} $\rm\ m/s$.
 
 ## Question Text
 
-Assuming the electric field between the plates is uniform, find the speed of the electron when it is {{ params.x }} $\rm\ cm$ from the negative plate.
+Assuming the electric field between the plates is uniform, find the speed of the electron when it is {{ params_x }} $\rm\ cm$ from the negative plate.
 
 ### Answer Section
 

@@ -33,14 +33,12 @@ part1:
     allow-blank: false
 myst:
   substitutions:
-    params:
-      vars:
-        title: Aircraft Carrier
-      va: 204
-      vb: 103
+    params_vars_title: Aircraft Carrier
+    params_va: 119
+    params_vb: 176
 ---
-# {{ params.vars.title }}
-Plane A takes off with a velocity of $\vec{v_A}$ = ({{ params.va }} $km/h$)$\hat{\imath}$ relative to the aircraft carrier. On a second runway which is directed 30$^{\circ}$ away from the $x$-axis, plane B has a speed of {{ params.vb }} $km/h$ relative to the aircraft carrier.
+# {{ params_vars_title }}
+Plane A takes off with a velocity of $\vec{v_A}$ = ({{ params_va }} $km/h$)$\hat{\imath}$ relative to the aircraft carrier. On a second runway which is directed 30$^{\circ}$ away from the $x$-axis, plane B has a speed of {{ params_vb }} $km/h$ relative to the aircraft carrier.
 
 | For  | Use   |
 |----------|-------|

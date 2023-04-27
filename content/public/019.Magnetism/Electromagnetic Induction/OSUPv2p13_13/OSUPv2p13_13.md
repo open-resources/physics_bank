@@ -44,32 +44,18 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Moving Ring Through Magnetic Field
-      part1:
-        ans1:
-          value: A counterclockwise current is induced in the ring.
-        ans2:
-          value: A clockwise current is induced in the ring.
-        ans3:
-          value: No current is induced in the ring.
-      part2:
-        ans1:
-          value: A counterclockwise current is induced in the ring.
-        ans2:
-          value: A clockwise current is induced in the ring.
-        ans3:
-          value: No current is induced in the ring.
-      part3:
-        ans1:
-          value: A counterclockwise current is induced in the ring.
-        ans2:
-          value: A clockwise current is induced in the ring.
-        ans3:
-          value: No current is induced in the ring.
+    params_vars_title: Moving Ring Through Magnetic Field
+    params_part1_ans1_value: A counterclockwise current is induced in the ring.
+    params_part1_ans2_value: A clockwise current is induced in the ring.
+    params_part1_ans3_value: No current is induced in the ring.
+    params_part2_ans1_value: A counterclockwise current is induced in the ring.
+    params_part2_ans2_value: A clockwise current is induced in the ring.
+    params_part2_ans3_value: No current is induced in the ring.
+    params_part3_ans1_value: A counterclockwise current is induced in the ring.
+    params_part3_ans2_value: A clockwise current is induced in the ring.
+    params_part3_ans3_value: No current is induced in the ring.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 The figure below shows a conducting ring at various positions as it moves through a magnetic field.
 
 <img src="Fig13_13.png">
@@ -80,9 +66,9 @@ As the conducting ring enters the magnetic field, $\textrm{(a)}$, what direction
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
 
 ## Part 2
 
@@ -90,9 +76,9 @@ When the conducting ring is fully inside the magnetic field, $\textrm{(b)}$, wha
 
 ### Answer Section
 
-- {{ params.part2.ans1.value }}
-- {{ params.part2.ans2.value }}
-- {{ params.part2.ans3.value }}
+- {{ params_part2_ans1_value }}
+- {{ params_part2_ans2_value }}
+- {{ params_part2_ans3_value }}
 
 ## Part 3
 
@@ -100,9 +86,9 @@ As the conducting ring exits the magnetic field, $\textrm{(c)}$, what direction 
 
 ### Answer Section
 
-- {{ params.part3.ans1.value }}
-- {{ params.part3.ans2.value }}
-- {{ params.part3.ans3.value }}
+- {{ params_part3_ans1_value }}
+- {{ params_part3_ans2_value }}
+- {{ params_part3_ans3_value }}
 
 ## Attribution
 

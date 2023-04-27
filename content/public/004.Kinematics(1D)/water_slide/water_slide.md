@@ -53,18 +53,16 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        name: Aliyah
-        title: Water Slide
-      theta: 40
-      l: 400
-      l2: 200.0
+    params_vars_name: Ahmed
+    params_vars_title: Water Slide
+    params_theta: 30
+    params_l: 200
+    params_l2: 100.0
 ---
-# {{ params.vars.title }}
-What an exciting time to be alive! A water slide has just opened up near {{ params.vars.name }}'s house! It is a ramp, L = {{params.l}} $m$ long at {{params.theta}}$^{\circ}$ to the horizontal.
-At the same instant {{ params.vars.name }} begins sliding down from the top with zero initial velocity $(x=0)$, some jerk kid decides to TRY TO SLIDE UP the slide from the bottom $(x=L)$.
-The kid has an unknown initial velocity $v_o$ , but they collide midway down the ramp ({{params.l2}} $m$ from the bottom).
+# {{ params_vars_title }}
+What an exciting time to be alive! A water slide has just opened up near {{ params_vars_name }}'s house! It is a ramp, L = {{params_l}} $m$ long at {{params_theta}}$^{\circ}$ to the horizontal.
+At the same instant {{ params_vars_name }} begins sliding down from the top with zero initial velocity $(x=0)$, some jerk kid decides to TRY TO SLIDE UP the slide from the bottom $(x=L)$.
+The kid has an unknown initial velocity $v_o$ , but they collide midway down the ramp ({{params_l2}} $m$ from the bottom).
 
 Use the following table as a reference for each variable:
 
@@ -76,7 +74,7 @@ Use the following table as a reference for each variable:
 
 ## Part 1
 
-What is the equation describing {{ params.vars.name }}'s position as a function of time?
+What is the equation describing {{ params_vars_name }}'s position as a function of time?
 
 ### Answer Section
 

@@ -34,11 +34,9 @@ part1:
     allow-blank: false
 myst:
   substitutions:
-    params:
-      vars:
-        title: Frictional Force between Tires and the Road
+    params_vars_title: Frictional Force between Tires and the Road
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 

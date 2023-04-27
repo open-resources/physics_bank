@@ -51,66 +51,34 @@ part5:
     blank: 'true'
 myst:
   substitutions:
-    params:
-      vars:
-        title: Label The Graph
-      part1:
-        ans1:
-          value: A
-        ans2:
-          value: B
-        ans3:
-          value: C
-        ans4:
-          value: D
-        ans5:
-          value: E
-      part2:
-        ans1:
-          value: A
-        ans2:
-          value: B
-        ans3:
-          value: C
-        ans4:
-          value: D
-        ans5:
-          value: E
-      part3:
-        ans1:
-          value: A
-        ans2:
-          value: B
-        ans3:
-          value: C
-        ans4:
-          value: D
-        ans5:
-          value: E
-      part4:
-        ans1:
-          value: A
-        ans2:
-          value: B
-        ans3:
-          value: C
-        ans4:
-          value: D
-        ans5:
-          value: E
-      part5:
-        ans1:
-          value: A
-        ans2:
-          value: B
-        ans3:
-          value: C
-        ans4:
-          value: D
-        ans5:
-          value: E
+    params_vars_title: Label The Graph
+    params_part1_ans1_value: A
+    params_part1_ans2_value: B
+    params_part1_ans3_value: C
+    params_part1_ans4_value: D
+    params_part1_ans5_value: E
+    params_part2_ans1_value: A
+    params_part2_ans2_value: B
+    params_part2_ans3_value: C
+    params_part2_ans4_value: D
+    params_part2_ans5_value: E
+    params_part3_ans1_value: A
+    params_part3_ans2_value: B
+    params_part3_ans3_value: C
+    params_part3_ans4_value: D
+    params_part3_ans5_value: E
+    params_part4_ans1_value: A
+    params_part4_ans2_value: B
+    params_part4_ans3_value: C
+    params_part4_ans4_value: D
+    params_part4_ans5_value: E
+    params_part5_ans1_value: A
+    params_part5_ans2_value: B
+    params_part5_ans3_value: C
+    params_part5_ans4_value: D
+    params_part5_ans5_value: E
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Each of the following 5 statements describe the motion shown in Fig.1 labeled A through E.
 Label each statement with the letter of the corresponding line on the velocity vs. time graph.
 
@@ -122,11 +90,11 @@ An object slows down then speeds up with a constant positive acceleration.
 
 ### Answer Section
 
-- {{ params.part1.ans1.value}}
-- {{ params.part1.ans2.value}}
-- {{ params.part1.ans3.value}}
-- {{ params.part1.ans4.value}}
-- {{ params.part1.ans5.value}}
+- {{ params_part1_ans1_value}}
+- {{ params_part1_ans2_value}}
+- {{ params_part1_ans3_value}}
+- {{ params_part1_ans4_value}}
+- {{ params_part1_ans5_value}}
 
 ## Part 2
 
@@ -134,11 +102,11 @@ An object has a constant velocity.
 
 ### Answer Section
 
-- {{ params.part2.ans1.value}}
-- {{ params.part2.ans2.value}}
-- {{ params.part2.ans3.value}}
-- {{ params.part2.ans4.value}}
-- {{ params.part2.ans5.value}}
+- {{ params_part2_ans1_value}}
+- {{ params_part2_ans2_value}}
+- {{ params_part2_ans3_value}}
+- {{ params_part2_ans4_value}}
+- {{ params_part2_ans5_value}}
 
 ## Part 3
 
@@ -146,11 +114,11 @@ An object speeds up at a constant rate.
 
 ### Answer Section
 
-- {{ params.part3.ans1.value}}
-- {{ params.part3.ans2.value}}
-- {{ params.part3.ans3.value}}
-- {{ params.part3.ans4.value}}
-- {{ params.part3.ans5.value}}
+- {{ params_part3_ans1_value}}
+- {{ params_part3_ans2_value}}
+- {{ params_part3_ans3_value}}
+- {{ params_part3_ans4_value}}
+- {{ params_part3_ans5_value}}
 
 ## Part 4
 
@@ -158,11 +126,11 @@ An object speeds up with an acceleration whose magnitude increases in time.
 
 ### Answer Section
 
-- {{ params.part4.ans1.value}}
-- {{ params.part4.ans2.value}}
-- {{ params.part4.ans3.value}}
-- {{ params.part4.ans4.value}}
-- {{ params.part4.ans5.value}}
+- {{ params_part4_ans1_value}}
+- {{ params_part4_ans2_value}}
+- {{ params_part4_ans3_value}}
+- {{ params_part4_ans4_value}}
+- {{ params_part4_ans5_value}}
 
 ## Part 5
 
@@ -170,11 +138,11 @@ An object speeds up with an acceleration whose magnitude decreases in time.
 
 ### Answer Section
 
-- {{ params.part5.ans1.value}}
-- {{ params.part5.ans2.value}}
-- {{ params.part5.ans3.value}}
-- {{ params.part5.ans4.value}}
-- {{ params.part5.ans5.value}}
+- {{ params_part5_ans1_value}}
+- {{ params_part5_ans2_value}}
+- {{ params_part5_ans3_value}}
+- {{ params_part5_ans4_value}}
+- {{ params_part5_ans5_value}}
 
 ## Attribution
 

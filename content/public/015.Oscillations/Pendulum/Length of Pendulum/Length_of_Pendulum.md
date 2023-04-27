@@ -34,16 +34,14 @@ part1:
     comparison: relabs
 myst:
   substitutions:
-    params:
-      vars:
-        title: Length of Pendulum
-      T: 0.33
+    params_vars_title: Length of Pendulum
+    params_T: 0.76
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
-What is the length of a pendulum that has a period of {{ params.T }} $\rm{s}$?
+What is the length of a pendulum that has a period of {{ params_T }} $\rm{s}$?
 
 ### Answer Section
 

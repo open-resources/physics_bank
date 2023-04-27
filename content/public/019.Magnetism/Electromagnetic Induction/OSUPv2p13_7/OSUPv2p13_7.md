@@ -34,16 +34,11 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Zero Magnetic Flux
-      part1:
-        ans1:
-          value: 'True'
-        ans2:
-          value: 'False'
+    params_vars_title: Zero Magnetic Flux
+    params_part1_ans1_value: 'True'
+    params_part1_ans2_value: 'False'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
@@ -51,8 +46,8 @@ There can be an induced emf in a circuit at an instant when the magnetic flux th
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
 
 ## Attribution
 

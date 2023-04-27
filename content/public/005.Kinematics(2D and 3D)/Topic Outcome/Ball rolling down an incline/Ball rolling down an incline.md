@@ -31,20 +31,13 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Ball Rolling Down an Incline
-      part1:
-        ans1:
-          value: $T/2$
-        ans2:
-          value: Less than $T/2$
-        ans3:
-          value: Greater than $T/2$
-        ans4:
-          value: More information is needed.
+    params_vars_title: Ball Rolling Down an Incline
+    params_part1_ans1_value: $T/2$
+    params_part1_ans2_value: Less than $T/2$
+    params_part1_ans3_value: Greater than $T/2$
+    params_part1_ans4_value: More information is needed.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A ball rolls down an incline starting from rest.
 
 ## Part 1
@@ -53,10 +46,10 @@ If the total time it takes to reach the end of the incline is $T$, how much time
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
 
 ## Attribution
 

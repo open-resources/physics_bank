@@ -43,12 +43,10 @@ part1:
     suffix: $\rm\ m/s^2$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Accelerating electrons
-      f_s: $3.40\times 10^4$
+    params_vars_title: Accelerating electrons
+    params_f_s: $1.00\times 10^6$
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A simple and common technique for accelerating electrons is shown in the figure, where there is a uniform electric field between two plates.
 Electrons are released from rest, usually from a hot filament, near the negative plate, and there is a small hole in the positive plate that allows the electrons to pass through it.
 

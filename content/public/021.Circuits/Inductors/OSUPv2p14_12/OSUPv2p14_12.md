@@ -53,11 +53,9 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: RL Series Circuit
+    params_vars_title: RL Series Circuit
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Consider the $RL$ circuit shown below.
 
 <img src="fig_OSUPv2p14_12.png" width=250>

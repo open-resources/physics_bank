@@ -62,14 +62,12 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Aplha Particle in Magnetic Field
-      r: 26
-      B: 5
+    params_vars_title: Aplha Particle in Magnetic Field
+    params_r: 14
+    params_B: 3
 ---
-# {{ params.vars.title }}
-An alpha-particle ($m = 6.64 \times 10^{-27} \textrm{ kg}, q = 3.2 \times 10^{-19} \textrm{ C}$) travels in a circular path of radius ${{params.r}} \textrm{ cm}$ in a uniform magnetic field of magnitude ${{params.B}} \textrm{ T}$.
+# {{ params_vars_title }}
+An alpha-particle ($m = 6.64 \times 10^{-27} \textrm{ kg}, q = 3.2 \times 10^{-19} \textrm{ C}$) travels in a circular path of radius ${{params_r}} \textrm{ cm}$ in a uniform magnetic field of magnitude ${{params_B}} \textrm{ T}$.
 
 ## Part 1
 

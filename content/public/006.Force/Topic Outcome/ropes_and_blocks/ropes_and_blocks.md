@@ -53,17 +53,15 @@ part3:
     suffix: N
 myst:
   substitutions:
-    params:
-      vars:
-        title: Ropes and Blocks
-        units1: $\frac{m}{s^2}$
-        units2: N
-      m_a: 2
-      m_b: 17
-      m_c: 20
-      f_a: 84
+    params_vars_title: Ropes and Blocks
+    params_vars_units1: $\frac{m}{s^2}$
+    params_vars_units2: N
+    params_m_a: 18
+    params_m_b: 6
+    params_m_c: 13
+    params_f_a: 83
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Assume the three blocks portrayed in the figure move on a frictionless surface and a {{params.f_a}} N force
 acts as shown on block C. The masses of the blocks are as follows: $m_a$ = {{params.m_a}} kg, $m_b$ = {{params.m_b}} kg, $m_c$ = {{params.m_c}} kg.
 
@@ -77,7 +75,7 @@ Determine the acceleration of block C.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units1 }}.
+Please enter in a numeric value in {{ params_vars_units1 }}.
 
 ## Part 2
 
@@ -85,7 +83,7 @@ Determine the magnitude of the tension in the cord connecting block C and block 
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units2 }}.
+Please enter in a numeric value in {{ params_vars_units2 }}.
 
 ## Part 3
 
@@ -93,7 +91,7 @@ Determine the magnitude of the force exerted by block B on block A.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units2}}.
+Please enter in a numeric value in {{ params_vars_units2}}.
 
 ## Attribution
 

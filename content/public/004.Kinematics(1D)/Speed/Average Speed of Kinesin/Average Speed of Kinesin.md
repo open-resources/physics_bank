@@ -34,16 +34,14 @@ part1:
     suffix: $m/s$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Average Speed of Kinesin
-        units: $m/s$
-      dist: 8.4
-      t: 47.4
-      delay: 13.7
+    params_vars_title: Average Speed of Kinesin
+    params_vars_units: $m/s$
+    params_dist: 7.8
+    params_t: 47.9
+    params_delay: 14.0
 ---
-# {{ params.vars.title }}
-Conventional kinesin is a motor protein that moves stepwise along microtubules carrying membrane-bound organelles toward the periphery of cells. It is powered by the hydrolysis of ATP (PubMed, 1999). Assume that the steps of the motion are {{ params.dist }} $nm$ (the distance between adjacent tubulin binding sites), each step takes about {{ params.t }} $\mu s$, and on average there is {{ params.delay }} $ms$ delay between steps.
+# {{ params_vars_title }}
+Conventional kinesin is a motor protein that moves stepwise along microtubules carrying membrane-bound organelles toward the periphery of cells. It is powered by the hydrolysis of ATP (PubMed, 1999). Assume that the steps of the motion are {{ params_dist }} $nm$ (the distance between adjacent tubulin binding sites), each step takes about {{ params_t }} $\mu s$, and on average there is {{ params_delay }} $ms$ delay between steps.
 
 ## Question Text
 
@@ -51,7 +49,7 @@ Calculate the average speed of this protein in SI units. Round your answer to tw
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

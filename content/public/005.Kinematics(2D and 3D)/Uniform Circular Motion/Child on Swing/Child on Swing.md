@@ -44,20 +44,18 @@ part2:
     suffix: $rad/s^2$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Child on Swing
-      v: 615
-      h: 580
-      d: 1000
-      r2: 1335
+    params_vars_title: Child on Swing
+    params_v: 576
+    params_h: 508
+    params_d: 807
+    params_r2: 1340
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="L11Q2.png" width=85%>
 
-As an child reaches the bottom of a loop of their swing in the vertical plane, they have a horizontal velocity of $v = {{params.v}}cm/s$ and no horizontal acceleration.
-The radius of curvature for the loop is {{params.r2}}cm, and the height of the child off the ground is is ${{params.h}}cm$.
-For their pet rabbit watching at $O$, $d = {{params.d}}cm$ away.
+As an child reaches the bottom of a loop of their swing in the vertical plane, they have a horizontal velocity of $v = {{params_v}}cm/s$ and no horizontal acceleration.
+The radius of curvature for the loop is {{params_r2}}cm, and the height of the child off the ground is is ${{params_h}}cm$.
+For their pet rabbit watching at $O$, $d = {{params_d}}cm$ away.
 
 ## Part 1
 

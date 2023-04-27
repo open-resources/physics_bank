@@ -37,16 +37,11 @@ part1:
     blank: true
 myst:
   substitutions:
-    params:
-      vars:
-        title: Vanishing electric field
-      part1:
-        ans1:
-          value: 'True'
-        ans2:
-          value: 'False'
+    params_vars_title: Vanishing electric field
+    params_part1_ans1_value: 'True'
+    params_part1_ans2_value: 'False'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
@@ -56,8 +51,8 @@ Regardless of the values of the two point charges, there will always be a point 
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
 
 Consider a pair of equal but opposite point charges.  The electric field is non-zero at all points along the $x$-axis (except +/- infinity).
 

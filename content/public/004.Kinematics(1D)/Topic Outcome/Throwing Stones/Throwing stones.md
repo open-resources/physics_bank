@@ -34,15 +34,13 @@ part1:
     suffix: $s$
 myst:
   substitutions:
-    params:
-      vars:
-        name: Santiago
-        title: Throwing Stones
-        units: $s$
-      v: 17.5
+    params_vars_name: Aliyah
+    params_vars_title: Throwing Stones
+    params_vars_units: $s$
+    params_v: 23.1
 ---
-# {{ params.vars.title }}
-{{ params.vars.name }} simultaneously throws two stones from the top edge of a building with a speed {{ params.v }} $m/s$. They throw one straight down and the other straight up.
+# {{ params_vars_title }}
+{{ params_vars_name }} simultaneously throws two stones from the top edge of a building with a speed {{ params_v }} $m/s$. They throw one straight down and the other straight up.
 
 ## Question Text
 
@@ -50,7 +48,7 @@ The first one hits the street in a time $t_1$. How much later is it before the s
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

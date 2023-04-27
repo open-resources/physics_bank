@@ -31,39 +31,31 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        sport: motorcyclist
-        title: Horizontal Jump
-        units: m
-      v: 24
-      d: 3.77
-      part1:
-        ans1:
-          value: 9.81
-        ans2:
-          value: 14.88
-        ans3:
-          value: 18.45
-        ans4:
-          value: 21.04
-        ans5:
-          value: 27.67
+    params_vars_sport: mountain biker
+    params_vars_title: Horizontal Jump
+    params_vars_units: m
+    params_v: 19
+    params_d: 4.8
+    params_part1_ans1_value: 9.81
+    params_part1_ans2_value: 13.29
+    params_part1_ans3_value: 18.59
+    params_part1_ans4_value: 18.8
+    params_part1_ans5_value: 27.89
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
-A {{ params.vars.sport }} leaves the end of a horizontal jump at {{ params.v }} $m/s$ and falls {{ params.d }} $m$ before landing on a flat, horizontal landing.
-Neglecting friction, how far horizontally does the {{ params.vars.sport }} travel in the air before landing?
+A {{ params_vars_sport }} leaves the end of a horizontal jump at {{ params_v }} $m/s$ and falls {{ params_d }} $m$ before landing on a flat, horizontal landing.
+Neglecting friction, how far horizontally does the {{ params_vars_sport }} travel in the air before landing?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
-- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params_part1_ans1_value }} {{ params_vars_units}}
+- {{ params_part1_ans2_value }} {{ params_vars_units}}
+- {{ params_part1_ans3_value }} {{ params_vars_units}}
+- {{ params_part1_ans4_value }} {{ params_vars_units}}
+- {{ params_part1_ans5_value }} {{ params_vars_units}}
 
 ## Attribution
 

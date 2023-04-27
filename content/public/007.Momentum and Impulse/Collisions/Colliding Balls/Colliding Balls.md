@@ -35,30 +35,24 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Colliding Balls
-      m1: 220
-      m2: 239
-      v1_i: 6.47
-      v2_i: -2.61
-      v1_f: -5.19
-      v2_f: 3.93
-      part1:
-        ans1:
-          value: This is not possible as momentum is not conserved.
-        ans2:
-          value: This is an inelastic collision because only momentum is conserved.
-        ans3:
-          value: This is an inelastic collision because energy and momentum are conserved.
-        ans4:
-          value: This is not possible because kinetic energy is not conserved.
-        ans5:
-          value: This is an elastic collision, as both kinetic energy and momentum
-            are conserved.
+    params_vars_title: Colliding Balls
+    params_m1: 206
+    params_m2: 214
+    params_v1_i: 4.07
+    params_v2_i: -4.72
+    params_v1_f: -3.3
+    params_v2_f: 5.97
+    params_part1_ans1_value: This is not possible as momentum is not conserved.
+    params_part1_ans2_value: This is an inelastic collision because only momentum
+      is conserved.
+    params_part1_ans3_value: This is an inelastic collision because energy and momentum
+      are conserved.
+    params_part1_ans4_value: This is not possible because kinetic energy is not conserved.
+    params_part1_ans5_value: This is an elastic collision, as both kinetic energy
+      and momentum are conserved.
 ---
-# {{ params.vars.title }}
-A ball of mass {{ params.m1 }} $g$ with initial velocity {{ params.v1_i }} $\frac{m}{s}\hat{\imath}$ collides with a ball of mass {{ params.m2 }} $g$ with initial velocity {{ params.v2_i }} $\frac{m}{s}\hat{\imath}$. The final velocity of the {{ params.m1 }} $g$ ball is {{ params.v1_f }} $\frac{m}{s}\hat{\imath}$, while the final velocity of the {{ params.m2 }} $g$ ball is {{ params.v2_f }} $\frac{m}{s}\hat{\imath}$.
+# {{ params_vars_title }}
+A ball of mass {{ params_m1 }} $g$ with initial velocity {{ params.v1_i }} $\frac{m}{s}\hat{\imath}$ collides with a ball of mass {{ params_m2 }} $g$ with initial velocity {{ params.v2_i }} $\frac{m}{s}\hat{\imath}$. The final velocity of the {{ params_m1 }} $g$ ball is {{ params.v1_f }} $\frac{m}{s}\hat{\imath}$, while the final velocity of the {{ params_m2 }} $g$ ball is {{ params.v2_f }} $\frac{m}{s}\hat{\imath}$.
 
 ## Part 1
 
@@ -68,11 +62,11 @@ Choose the correct statement.
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

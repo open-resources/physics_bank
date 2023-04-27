@@ -30,34 +30,27 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Math Diagnostic02
-      x: 432.96234
-      sf: 3
-      part1:
-        ans1:
-          value: 433.0
-        ans2:
-          value: 433.1
-        ans3:
-          value: 432.962
-        ans4:
-          value: 423.0
+    params_vars_title: Math Diagnostic02
+    params_x: 292.9530186
+    params_sf: 5
+    params_part1_ans1_value: 292.95
+    params_part1_ans2_value: 293.05
+    params_part1_ans3_value: 292.95302
+    params_part1_ans4_value: 282.95
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
 Choose the most fitting response:
-The number {{ params.x }} written to {{ params.sf }} significant figures is:
+The number {{ params_x }} written to {{ params_sf }} significant figures is:
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
 
 ## Attribution
 

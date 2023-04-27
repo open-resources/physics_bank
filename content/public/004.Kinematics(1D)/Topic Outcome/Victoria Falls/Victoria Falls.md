@@ -36,22 +36,20 @@ part1:
     suffix: $m^2$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Victoria Falls
-        units: $m^2$
-      rate: 41.0
+    params_vars_title: Victoria Falls
+    params_vars_units: $m^2$
+    params_rate: 42.3
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Victoria Falls  (or Mosi-oa-Tunga, "the smoke that thunders") is the world's tallest waterfall.  In the dry season it has a minimum volume rate of flow of 300 $m^3/s$, and splits into 5 waterfalls along its 1708 $m$ length.  The highest of these is called Rainbow Falls, standing 108 $m$ tall.
 
 ## Question Text
 
-If {{ params.rate }} $m^3/s$ of water flows over Rainbow falls, by the time it reaches the bottom of Rainbow Falls, what cross-sectional area does this water have? (Please make the likely unreasonable assumptions that none of the water evapourates, and that it stays together as its area decreases).
+If {{ params_rate }} $m^3/s$ of water flows over Rainbow falls, by the time it reaches the bottom of Rainbow Falls, what cross-sectional area does this water have? (Please make the likely unreasonable assumptions that none of the water evapourates, and that it stays together as its area decreases).
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

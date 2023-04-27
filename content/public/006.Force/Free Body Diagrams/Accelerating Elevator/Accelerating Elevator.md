@@ -48,15 +48,13 @@ part2:
     digits: 3
 myst:
   substitutions:
-    params:
-      vars:
-        title: Accelerating Elevator
-        units: $N$
-      m: 68.6
-      a: 1.39
+    params_vars_title: Accelerating Elevator
+    params_vars_units: $N$
+    params_m: 78.8
+    params_a: 1.75
 ---
-# {{ params.vars.title }}
-A person with a mass of {{ params.m }} $kg$ is standing on the floor of an elevator which is accelerating downward at {{ params.a }} $m/s^2$.
+# {{ params_vars_title }}
+A person with a mass of {{ params_m }} $kg$ is standing on the floor of an elevator which is accelerating downward at {{ params_a }} $m/s^2$.
 
 ## Part 1
 
@@ -64,7 +62,7 @@ Find the magnitude of the normal force of the elevator floor on the person. Use 
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Part 2
 
@@ -72,7 +70,7 @@ Determine the magnitude of the force of the person on the floor of the elevator.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

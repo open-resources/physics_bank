@@ -35,16 +35,14 @@ part1:
     label: $\mu_k= $
 myst:
   substitutions:
-    params:
-      vars:
-        title: Coefficient Of Friction
-      m: 236
-      t: 3
+    params_vars_title: Coefficient Of Friction
+    params_m: 177
+    params_t: 1
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 You have been hired to measure the coefficients of friction for the newly discovered substance jelloium.
 Today you will measure the coefficient of kinetic friction for jelloium sliding on steel.
-To do so, you pull a {{params.m}} $g$ chunk of jelloium across a horizontal steel table with a constant string tension of {{params.t}} $N$.
+To do so, you pull a {{params_m}} $g$ chunk of jelloium across a horizontal steel table with a constant string tension of {{params_t}} $N$.
 A motion detector records the motion and displays the graph shown.
 
 *Hint: The position verses time graph is not a straight line.*

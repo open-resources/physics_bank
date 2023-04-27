@@ -40,17 +40,15 @@ part1:
     suffix: $\rm\ \mu\textrm{J}$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Energy Stored in a Capacitor
-      c: '13'
-      v: '7'
+    params_vars_title: Energy Stored in a Capacitor
+    params_c: '14'
+    params_v: '11'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
-How much energy is stored in a {{params.c }} $\rm\ \mu\textrm{F}$ capacitor whose plates are at a potential difference of {{params.v }}$\textrm{ V}$?
+How much energy is stored in a {{params_c }} $\rm\ \mu\textrm{F}$ capacitor whose plates are at a potential difference of {{params_v }}$\textrm{ V}$?
 
 ### Answer Section
 

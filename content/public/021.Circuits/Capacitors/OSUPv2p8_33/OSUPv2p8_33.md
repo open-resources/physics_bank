@@ -44,18 +44,16 @@ part1:
     suffix: $\rm\ \mu\textrm{F}$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Equivalent Capacitance
-      a: '12'
-      b: '1.5'
-      c: '0.8'
+    params_vars_title: Equivalent Capacitance
+    params_a: '14'
+    params_b: '2.5'
+    params_c: '1.0'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
-Find the total capacitance of this combination of series and parallel capacitors shown below. Use the following values: $A =$ {{params.a }}, $B =$ {{params.b }}, and $C =$ {{params.c }}.
+Find the total capacitance of this combination of series and parallel capacitors shown below. Use the following values: $A =$ {{params_a }}, $B =$ {{params_b }}, and $C =$ {{params_c }}.
 
 <img src="Fig8_33.png">
 

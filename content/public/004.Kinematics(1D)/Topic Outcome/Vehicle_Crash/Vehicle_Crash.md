@@ -30,45 +30,37 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Vehicle Crash
-        name: Ximena
-        vehicle_1: car
-        vehicle_2: pickup truck
-      dist: 4.19
-      v: 35.7
-      acc: 11.2
-      s_1: 0.2
-      s_2: 1.797
-      part1:
-        ans1:
-          value: 17.81 $m/s$
-        ans2:
-          value: 15.57 $m/s$
-        ans3:
-          value: 33.46 $m/s$
-        ans4:
-          value: 13.33 $m/s$
-        ans5:
-          value: 35.7 $m/s$
+    params_vars_title: Vehicle Crash
+    params_vars_name: Lorenzo
+    params_vars_vehicle_1: bus
+    params_vars_vehicle_2: truck
+    params_dist: 3.6
+    params_v: 33.3
+    params_acc: 12.2
+    params_s_1: 0.1
+    params_s_2: 1.263
+    params_part1_ans1_value: 19.11 $m/s$
+    params_part1_ans2_value: 17.89 $m/s$
+    params_part1_ans3_value: 32.08 $m/s$
+    params_part1_ans4_value: 16.67 $m/s$
+    params_part1_ans5_value: 33.3 $m/s$
 ---
-# {{ params.vars.title }}
-{{params.vars.name}} is following {{params.dist}} $m$ behind a {{params.vars.vehicle_1}} when it suddenly brakes with an acceleration of -{{params.acc}} $m/s^2$.
-Both {{params.vars.name}}'s {{params.vars.vehicle_2}} and the {{params.vars.vehicle_1}} in front of {{params.vars.name}} were initially travelling at {{params.v}} $m/s$.
-{{params.vars.name}} begins to brake ( with the same acceleration as the {{params.vars.vehicle_1}} in front) {{params.s_1}} $s$ after the {{params.vars.vehicle_1}} in front of {{params.vars.name}}.
-{{params.s_2}} $s$ after the {{params.vars.vehicle_1}} in front of {{params.vars.name}} starts to brake, {{params.vars.name}} hits their {{params.vars.vehicle_1}}.
+# {{ params_vars_title }}
+{{params_vars_name}} is following {{params_dist}} $m$ behind a {{params_vars.vehicle_1}} when it suddenly brakes with an acceleration of -{{params_acc}} $m/s^2$.
+Both {{params_vars_name}}'s {{params_vars.vehicle_2}} and the {{params_vars.vehicle_1}} in front of {{params_vars_name}} were initially travelling at {{params_v}} $m/s$.
+{{params_vars_name}} begins to brake ( with the same acceleration as the {{params_vars.vehicle_1}} in front) {{params.s_1}} $s$ after the {{params_vars.vehicle_1}} in front of {{params_vars_name}}.
+{{params.s_2}} $s$ after the {{params_vars.vehicle_1}} in front of {{params_vars_name}} starts to brake, {{params_vars_name}} hits their {{params_vars.vehicle_1}}.
 
 ## Part 1
 
-At what speed is {{params.vars.name}}'s {{params.vars.vehicle_2}} travelling when {{params.vars.name}} hit the {{params.vars.vehicle_1}} in front of them?
+At what speed is {{params_vars_name}}'s {{params_vars.vehicle_2}} travelling when {{params_vars_name}} hit the {{params_vars.vehicle_1}} in front of them?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
 
 ## Attribution
 

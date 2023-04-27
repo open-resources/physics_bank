@@ -50,15 +50,13 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Series and Parallel Resistors
-      R1: '2.10'
-      R2: '4.00'
-      R3: '6.75'
+    params_vars_title: Series and Parallel Resistors
+    params_R1: '1.70'
+    params_R2: '4.50'
+    params_R3: '6.50'
 ---
-# {{ params.vars.title }}
-Consider a ${{{ params.R1 }}}\times{10^{2}} \rm\ \Omega$, a ${{ params.R2 }}\rm\ k \Omega$, and a ${{ params.R3 }}\rm\ k \Omega$ resistor.
+# {{ params_vars_title }}
+Consider a ${{{ params_R1 }}}\times{10^{2}} \rm\ \Omega$, a ${{ params_R2 }}\rm\ k \Omega$, and a ${{ params_R3 }}\rm\ k \Omega$ resistor.
 
 ## Part 1
 

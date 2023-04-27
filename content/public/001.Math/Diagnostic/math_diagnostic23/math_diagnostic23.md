@@ -26,36 +26,28 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Math Diagnostic23
-      a: 2
-      b: 1
-      formula: $x^{2} \cos{\left(x \right)}$
-      part1:
-        ans1:
-          value: $- x^{2} \sin{\left(x \right)} + 2 x \cos{\left(x \right)}$
-        ans2:
-          value: $- x^{2} \sin{\left(x \right)} $
-        ans3:
-          value: $ 2 x \sin{\left(x \right)}$
-        ans4:
-          value: $x^{2} \cos{\left(x \right)} + 2 x \sin{\left(x \right)}$
-        ans5:
-          value: Don't Know
+    params_vars_title: Math Diagnostic23
+    params_a: 1
+    params_b: 8
+    params_formula: $x \cos{\left(8 x \right)}$
+    params_part1_ans1_value: $- 8 x \sin{\left(8 x \right)} + \cos{\left(8 x \right)}$
+    params_part1_ans2_value: $- 8 x \sin{\left(8 x \right)} $
+    params_part1_ans3_value: $ \sin{\left(8 x \right)}$
+    params_part1_ans4_value: $8 x \cos{\left(8 x \right)} + \sin{\left(8 x \right)}$
+    params_part1_ans5_value: Don't Know
 ---
-# {{ params.vars.title }}
-The derivative of {{params.formula}} is
+# {{ params_vars_title }}
+The derivative of {{params_formula}} is
 
 ## Part 1
 
 ### Answer Section
 
-- {{ params.part1.ans1.value}}
-- {{ params.part1.ans2.value}}
-- {{ params.part1.ans3.value}}
-- {{ params.part1.ans4.value}}
-- {{ params.part1.ans5.value}}
+- {{ params_part1_ans1_value}}
+- {{ params_part1_ans2_value}}
+- {{ params_part1_ans3_value}}
+- {{ params_part1_ans4_value}}
+- {{ params_part1_ans5_value}}
 
 ## Attribution
 

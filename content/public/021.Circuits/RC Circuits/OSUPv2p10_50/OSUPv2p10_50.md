@@ -43,16 +43,14 @@ part1:
     atol: 0
 myst:
   substitutions:
-    params:
-      vars:
-        title: Capacitor in a Heart Pacemaker
-      rate: '76'
-      C: '23.5'
-      charge: '0.629'
+    params_vars_title: Capacitor in a Heart Pacemaker
+    params_rate: '77'
+    params_C: '20.0'
+    params_charge: '0.694'
 ---
-# {{ params.vars.title }}
-A heart pacemaker activates ${{ params.rate }}$ times per minute.
-Each time, a ${{ params.C }}\rm\ nF$ capacitor is charged (by a battery in series with a resistor) to ${{ params.charge }}$ of its full voltage.
+# {{ params_vars_title }}
+A heart pacemaker activates ${{ params_rate }}$ times per minute.
+Each time, a ${{ params_C }}\rm\ nF$ capacitor is charged (by a battery in series with a resistor) to ${{ params_charge }}$ of its full voltage.
 
 ## Question Text
 

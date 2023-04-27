@@ -31,27 +31,19 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Force On An Object
-      m: 29
-      part1:
-        ans1:
-          value: $F = $ -72.5 $N$
-        ans2:
-          value: $F = $ 72.5 $N$
-        ans3:
-          value: $F = $ 72.5 $N$ from 2 to 6 $s$, then $F = $ -72.5 $N$ from 6 to
-            10 $s$
-        ans4:
-          value: $F = $ -72.5 $N$ from 2 to 6 $s$, then $F = $ 72.5 $N$ from 6 to
-            10 $s$
-        ans5:
-          value: Impossible to tell
+    params_vars_title: Force On An Object
+    params_m: 30
+    params_part1_ans1_value: $F = $ -75.0 $N$
+    params_part1_ans2_value: $F = $ 75.0 $N$
+    params_part1_ans3_value: $F = $ 75.0 $N$ from 2 to 6 $s$, then $F = $ -75.0 $N$
+      from 6 to 10 $s$
+    params_part1_ans4_value: $F = $ -75.0 $N$ from 2 to 6 $s$, then $F = $ 75.0 $N$
+      from 6 to 10 $s$
+    params_part1_ans5_value: Impossible to tell
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 The velocity as a function of time of an object is as shown in the figure below. The mass of the
-object is {{params.m}} $kg$.
+object is {{params_m}} $kg$.
 
 <img src="Q3.png" alt="A graph of velocity and time. The object has a velocity of 10 meters per second at 0 to 2 seconds. The object's velocity decreases to 0 meters per second at 6 seconds. The object's velocity is at negative 10 meters per seconds from 10 to 12 seconds." width=300>
 
@@ -61,11 +53,11 @@ Which answer below best describes the force on the object between 2 and 10 $s$?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

@@ -114,20 +114,18 @@ part6:
     custom-format: .3g
 myst:
   substitutions:
-    params:
-      vars:
-        title: Switched RL Series Circuit
-      num: '2'
-      emf: '12.0'
-      L: '25.0'
-      R: '7.00'
+    params_vars_title: Switched RL Series Circuit
+    params_num: '3'
+    params_emf: '14.0'
+    params_L: '21.0'
+    params_R: '3.00'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Consider the $RL$ circuit shown below.
 
 <img src="fig_OSUPv2p14_52.png" width=250>
 
-Here, ${\boldsymbol \varepsilon} = {{ params.emf }}\rm\ V$, $L = {{ params.L }}\rm\ mH$, and $R = {{ params.R }}\rm\ \Omega$.
+Here, ${\boldsymbol \varepsilon} = {{ params_emf }}\rm\ V$, $L = {{ params_L }}\rm\ mH$, and $R = {{ params_R }}\rm\ \Omega$.
 
 ## Part 1
 
@@ -155,7 +153,7 @@ Please enter in a numeric value in $\rm\ A$.
 
 ## Part 4
 
-What is the current through the resistor when $t = t^{\star} = {{ params.num }} \tau_L$?
+What is the current through the resistor when $t = t^{\star} = {{ params_num }} \tau_L$?
 
 ### Answer Section
 
@@ -163,7 +161,7 @@ Please enter in a numeric value in $\rm\ A$.
 
 ## Part 5
 
-What is the voltage across the inductor when $t = t^{\star} = {{ params.num }} \tau_L$?
+What is the voltage across the inductor when $t = t^{\star} = {{ params_num }} \tau_L$?
 
 ### Answer Section
 
@@ -171,7 +169,7 @@ Please enter in a numeric value in $\rm\ V$.
 
 ## Part 6
 
-What is the voltage across the resistor when $t = t^{\star} = {{ params.num }} \tau_L$?
+What is the voltage across the resistor when $t = t^{\star} = {{ params_num }} \tau_L$?
 
 ### Answer Section
 

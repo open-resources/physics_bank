@@ -41,18 +41,16 @@ part1:
     suffix: $\rm\ A$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Charge Model
-        units: A
-      c1: 31
-      c2: 45
-      c3: 39
-      t: 30
+    params_vars_title: Charge Model
+    params_vars_units: A
+    params_c1: 32
+    params_c2: 12
+    params_c3: 11
+    params_t: 43
 ---
-# {{ params.vars.title }}
-The quantity of charge through a conductor is modeled as $ \textrm{Q}=$ {{params.c1}}$\rm{t^4}$ $\rm{mC \over s^4}$ - {{params.c2}}$\rm{t}$ $\rm{mC \over s}$ + {{params.c1}} $\rm{mC}$.
-What is the current at time $\textrm{t} =$ {{params.t}} $\textrm{s}$?
+# {{ params_vars_title }}
+The quantity of charge through a conductor is modeled as $ \textrm{Q}=$ {{params_c1}}$\rm{t^4}$ $\rm{mC \over s^4}$ - {{params_c2}}$\rm{t}$ $\rm{mC \over s}$ + {{params_c1}} $\rm{mC}$.
+What is the current at time $\textrm{t} =$ {{params_t}} $\textrm{s}$?
 
 ## Question Text
 

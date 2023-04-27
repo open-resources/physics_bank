@@ -72,21 +72,19 @@ part3:
     custom-format: .2g
 myst:
   substitutions:
-    params:
-      vars:
-        title: Circuit with Multiple Loops
-      R1: '10.0'
-      R2: '5.0'
-      R3: '9.0'
-      I1: '1.0'
-      V2: '20.0'
+    params_vars_title: Circuit with Multiple Loops
+    params_R1: '15.0'
+    params_R2: '8.0'
+    params_R3: '7.0'
+    params_I1: '2.0'
+    params_V2: '22.0'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Consider the circuit shown below.
 
 <img src="fig_OSUPv2p10_38.png" width=350>
 
-It is known that $R_1 = {{ params.R1 }}\rm\ \Omega$, $R_2 = {{ params.R2 }}\rm\ \Omega$, $R_3 = {{ params.R3 }}\rm\ \Omega$, $I_1 = {{ params.I1 }}\rm\ A$, and $V_2 = {{ params.V2 }}\rm\ V$.
+It is known that $R_1 = {{ params_R1 }}\rm\ \Omega$, $R_2 = {{ params_R2 }}\rm\ \Omega$, $R_3 = {{ params_R3 }}\rm\ \Omega$, $I_1 = {{ params_I1 }}\rm\ A$, and $V_2 = {{ params_V2 }}\rm\ V$.
 
 ## Part 1
 

@@ -35,22 +35,14 @@ part1:
     partial-credit-method: EDC
 myst:
   substitutions:
-    params:
-      vars:
-        title: A Particle in Conservative Potential
-      part1:
-        ans1:
-          value: The particle must be at rest.
-        ans2:
-          value: The particle must not be accelerating.
-        ans3:
-          value: The particle has only kinetic energy.
-        ans4:
-          value: The particle has only thermal energy.
-        ans5:
-          value: The particle must be massless.
+    params_vars_title: A Particle in Conservative Potential
+    params_part1_ans1_value: The particle must be at rest.
+    params_part1_ans2_value: The particle must not be accelerating.
+    params_part1_ans3_value: The particle has only kinetic energy.
+    params_part1_ans4_value: The particle has only thermal energy.
+    params_part1_ans5_value: The particle must be massless.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
@@ -62,11 +54,11 @@ Select all the choices that apply.
 
 Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params.part1.ans1.value}}
-- {{ params.part1.ans2.value}}
-- {{ params.part1.ans3.value}}
-- {{ params.part1.ans4.value}}
-- {{ params.part1.ans5.value}}
+- {{ params_part1_ans1_value}}
+- {{ params_part1_ans2_value}}
+- {{ params_part1_ans3_value}}
+- {{ params_part1_ans4_value}}
+- {{ params_part1_ans5_value}}
 
 ## Attribution
 

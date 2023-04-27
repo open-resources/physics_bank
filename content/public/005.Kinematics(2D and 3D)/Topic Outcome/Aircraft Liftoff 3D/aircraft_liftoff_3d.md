@@ -51,19 +51,17 @@ part3:
     suffix: $rad/s$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Aircraft Liftoff 3D
-      v: 6
-      z: 309
-      x: 445
-      angle: 33
+    params_vars_title: Aircraft Liftoff 3D
+    params_v: 7
+    params_z: 302
+    params_x: 447
+    params_angle: 27
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="L10Q1.png" width=85%>
 
-A hot air balloon takes off at $A$ and climbs at a steady angle, $\theta\_{1} = {{params.angle}}^{\circ}$ in the y-z plane at a speed of {{params.v}} $km/h$. The hot air balloon is watched by two observers $O$.
-Calculate the following values as the balloon passes point $B$, $x =$ {{params.x}} $m$ and $z =$ {{params.z}} $m$.
+A hot air balloon takes off at $A$ and climbs at a steady angle, $\theta\_{1} = {{params_angle}}^{\circ}$ in the y-z plane at a speed of {{params_v}} $km/h$. The hot air balloon is watched by two observers $O$.
+Calculate the following values as the balloon passes point $B$, $x =$ {{params_x}} $m$ and $z =$ {{params_z}} $m$.
 
 ## Part 1
 

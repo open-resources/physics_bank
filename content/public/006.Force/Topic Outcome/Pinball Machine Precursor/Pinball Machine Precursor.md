@@ -57,40 +57,28 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Pinball Machine Precursor
-      l_u: 8.38
-      l_c: 5.34
-      rise: 8.42
-      radius: 24
-      m_b: 10.0
-      part2:
-        ans1:
-          value: No, because the ball moves parallel to the walls of the track. The
-            normal force and displacement are perpendicular.
-        ans2:
-          value: Yes, because the ball moves parallel to the walls of the track. The
-            normal force and displacement are parallel.
-        ans3:
-          value: No, because the ball moves parallel to the walls of the track. The
-            normal force and displacement are parallel.
-        ans4:
-          value: Yes, because the ball moves parallel to the walls of the track. The
-            normal force and displacement are perpendicular.
-      part4:
-        ans1:
-          value: The normal force will be zero wherever the ball first leaves the
-            wall.
-        ans2:
-          value: The normal force will be equal to $g$.
-        ans3:
-          value: The normal force will be close to $1 N$.
-        ans4:
-          value: The normal force will be half of its initial value.
+    params_vars_title: Pinball Machine Precursor
+    params_l_u: 8.33
+    params_l_c: 7.23
+    params_rise: 8.32
+    params_radius: 24
+    params_m_b: 10.0
+    params_part2_ans1_value: No, because the ball moves parallel to the walls of the
+      track. The normal force and displacement are perpendicular.
+    params_part2_ans2_value: Yes, because the ball moves parallel to the walls of
+      the track. The normal force and displacement are parallel.
+    params_part2_ans3_value: No, because the ball moves parallel to the walls of the
+      track. The normal force and displacement are parallel.
+    params_part2_ans4_value: Yes, because the ball moves parallel to the walls of
+      the track. The normal force and displacement are perpendicular.
+    params_part4_ans1_value: The normal force will be zero wherever the ball first
+      leaves the wall.
+    params_part4_ans2_value: The normal force will be equal to $g$.
+    params_part4_ans3_value: The normal force will be close to $1 N$.
+    params_part4_ans4_value: The normal force will be half of its initial value.
 ---
-# {{ params.vars.title }}
-A precursor of pinball machines involved manually pushing down on a ball suspended atop of a spring in a track that allows the ball only to travel up a ramp as shown in the figure.  The unstretched spring has a length of $l_u=$ {{ params.l_u }} $cm$, over the 1.00 $m$ length of the board the track rises by $r=$ {{ params.rise }} $cm$, and the top of the board is circular, with a radius of {{ params.radius }}.0 $cm$.
+# {{ params_vars_title }}
+A precursor of pinball machines involved manually pushing down on a ball suspended atop of a spring in a track that allows the ball only to travel up a ramp as shown in the figure.  The unstretched spring has a length of $l_u=$ {{ params.l_u }} $cm$, over the 1.00 $m$ length of the board the track rises by $r=$ {{ params_rise }} $cm$, and the top of the board is circular, with a radius of {{ params_radius }}.0 $cm$.
 
 Treat the ball as a particle of mass $m$ = {{ params.m_b }} $g$, (treating it as a sphere would give a small additional term to the kinetic energy) and ignore friction.
 
@@ -110,10 +98,10 @@ Can the normal force due to the walls of the track ever do work on the ball?  Ex
 
 ### Answer Section
 
-- {{ params.part2.ans1.value}}
-- {{ params.part2.ans2.value}}
-- {{ params.part2.ans3.value}}
-- {{ params.part2.ans4.value}}
+- {{ params_part2_ans1_value}}
+- {{ params_part2_ans2_value}}
+- {{ params_part2_ans3_value}}
+- {{ params_part2_ans4_value}}
 
 ## Part 3
 
@@ -131,10 +119,10 @@ What value does the normal force (from the ends of the track) take at the point 
 
 ### Answer Section
 
-- {{ params.part4.ans1.value}}
-- {{ params.part4.ans2.value}}
-- {{ params.part4.ans3.value}}
-- {{ params.part4.ans4.value}}
+- {{ params_part4_ans1_value}}
+- {{ params_part4_ans2_value}}
+- {{ params_part4_ans3_value}}
+- {{ params_part4_ans4_value}}
 
 ## Attribution
 

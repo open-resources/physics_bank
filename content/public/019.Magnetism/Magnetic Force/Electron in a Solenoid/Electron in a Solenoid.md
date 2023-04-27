@@ -48,17 +48,15 @@ part1:
     suffix: $\rm\ A$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Electron in a Solenoid
-      n: '10'
-      r: '1.80'
-      v: "$1.00\\times 10^{4 }\textrm{ m/s}$"
+    params_vars_title: Electron in a Solenoid
+    params_n: '25'
+    params_r: '1.50'
+    params_v: "$2.30\\times 10^{6 }\textrm{ m/s}$"
 ---
-# {{ params.vars.title }}
-A solenoid with {{ params.n }} turns per centimter carries a current $I$.
-An electron moves within the solenoid in a circle of radius {{ params.r}}$\textrm{ cm}$.
-The plane of the circular motion is perpendicular to the axis of the solenoid.The speed of the electron is {{ params.v }} $\textrm{ m/s}$.
+# {{ params_vars_title }}
+A solenoid with {{ params_n }} turns per centimter carries a current $I$.
+An electron moves within the solenoid in a circle of radius {{ params_r}}$\textrm{ cm}$.
+The plane of the circular motion is perpendicular to the axis of the solenoid.The speed of the electron is {{ params_v }} $\textrm{ m/s}$.
 
 ## Question Text
 

@@ -59,12 +59,10 @@ part4:
     allow-blank: false
 myst:
   substitutions:
-    params:
-      vars:
-        title: Superballs
-      ratio: 3
+    params_vars_title: Superballs
+    params_ratio: 2
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Superballs have nearly elastic collisions with both hard floors and other superballs.  A small superball (mass $m_s$) is dropped directly on top of a large superball of mass $m_l$, both falling from rest from a height $h$.  After an initial collision with the floor, the large superball heads directly upwards at speed $v$, where it collides elastically with the smaller ball, also moving at speed $v$ downward.
 
 ## Part 1
@@ -105,7 +103,7 @@ Express your answer in terms of $h$, the height from which both balls were dropp
 
 ## Part 4
 
-If we replaced the top ball with a "sad" ball, which undergoes a perfectly inelastic collision with the returning "happy" ball, to what height would the "sad" ball return following the collision in terms of $h$, the height from which both balls were dropped?  (For this question, assume that $\frac{m_l}{m_s} = $ {{ params.ratio }}).
+If we replaced the top ball with a "sad" ball, which undergoes a perfectly inelastic collision with the returning "happy" ball, to what height would the "sad" ball return following the collision in terms of $h$, the height from which both balls were dropped?  (For this question, assume that $\frac{m_l}{m_s} = $ {{ params_ratio }}).
 
 | For  | Use   |
 |----------|-------|

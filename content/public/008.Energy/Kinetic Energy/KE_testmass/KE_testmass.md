@@ -29,30 +29,21 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Kinetic Energy of Test Mass
-        units: J
-      m: 490
-      v: 5.05
-      d_m: 4
-      d_v: 0.05
-      part1:
-        ans1:
-          value: 6.248 $\pm$ 0.113
-        ans2:
-          value: 6.248 $\pm$ 0.175
-        ans3:
-          value: 6.248 $\pm$ 0.052
-        ans4:
-          value: 6.248 $\pm$ 0.008
-        ans5:
-          value: 6.248 $\pm$ 0.028
-        ans6:
-          value: 6.248 $\pm$ 0.051
+    params_vars_title: Kinetic Energy of Test Mass
+    params_vars_units: J
+    params_m: 417
+    params_v: 8.42
+    params_d_m: 3
+    params_d_v: 0.09
+    params_part1_ans1_value: 14.782 $\pm$ 0.264
+    params_part1_ans2_value: 14.782 $\pm$ 0.422
+    params_part1_ans3_value: 14.782 $\pm$ 0.108
+    params_part1_ans4_value: 14.782 $\pm$ 0.007
+    params_part1_ans5_value: 14.782 $\pm$ 0.029
+    params_part1_ans6_value: 14.782 $\pm$ 0.106
 ---
-# {{ params.vars.title }}
-In a lab, a {{ params.m}} $\pm$ {{ params.d_m}} $g$ test-mass is measured to have a speed of {{ params.v}} $\pm$ {{ params.d_v}} $m/s$.
+# {{ params_vars_title }}
+In a lab, a {{ params_m}} $\pm$ {{ params.d_m}} $g$ test-mass is measured to have a speed of {{ params_v}} $\pm$ {{ params.d_v}} $m/s$.
 
 ## Part 1
 
@@ -60,12 +51,12 @@ What is the kinetic energy of the test-mass?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
-- {{ params.part1.ans5.value }} {{ params.vars.units}}
-- {{ params.part1.ans6.value }} {{ params.vars.units}}
+- {{ params_part1_ans1_value }} {{ params_vars_units}}
+- {{ params_part1_ans2_value }} {{ params_vars_units}}
+- {{ params_part1_ans3_value }} {{ params_vars_units}}
+- {{ params_part1_ans4_value }} {{ params_vars_units}}
+- {{ params_part1_ans5_value }} {{ params_vars_units}}
+- {{ params_part1_ans6_value }} {{ params_vars_units}}
 
 ## Attribution
 

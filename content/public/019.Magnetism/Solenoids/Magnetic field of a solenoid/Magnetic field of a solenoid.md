@@ -41,18 +41,16 @@ part1:
     suffix: $\rm\ T$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Magnetic field of a solenoid
-      n: '1700'
-      I: '6.40'
+    params_vars_title: Magnetic field of a solenoid
+    params_n: '1900'
+    params_I: '7.80'
 ---
-# {{ params.vars.title }}
-A solenoid is wound with {{ params.n }} turns per meter.
+# {{ params_vars_title }}
+A solenoid is wound with {{ params_n }} turns per meter.
 
 ## Question Text
 
-When the current is {{ params.I }}$\rm\ A$, what is the magnetic field within the solenoid?
+When the current is {{ params_I }}$\rm\ A$, what is the magnetic field within the solenoid?
 
 ### Answer Section
 

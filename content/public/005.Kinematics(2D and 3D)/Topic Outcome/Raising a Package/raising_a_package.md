@@ -36,24 +36,22 @@ part1:
     allow-blank: true
 myst:
   substitutions:
-    params:
-      vars:
-        title: Raising a Package
-        units: mm
-      v_a: 254
-      t: 3
+    params_vars_title: Raising a Package
+    params_vars_units: mm
+    params_v_a: 318
+    params_t: 8
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
 <img src="L13Q1.png" width=60%>
 
-How far does the weight $W$ rise in {{params.t}} seconds if the motor wraps the cable at a constant rate of ${{params.v_a}} mm/s$?
+How far does the weight $W$ rise in {{params_t}} seconds if the motor wraps the cable at a constant rate of ${{params.v_a}} mm/s$?
 
 ### Answer Section
 
-Please enter an integer value in ${{ params.vars.units }}$.
+Please enter an integer value in ${{ params_vars_units }}$.
 
 ## Attribution
 

@@ -43,20 +43,18 @@ part2:
     suffix: $rad/s$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Highway Speeding
-      d: 484
-      r_dot: 159
-      angle1: 50
-      angle2: 41
+    params_vars_title: Highway Speeding
+    params_d: 415
+    params_r_dot: 103
+    params_angle1: 56
+    params_angle2: 41
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="L7Q1.png" width=90%>
 
-A police radar located at O serves automated tickets to speeding highway drivers. It is located $d = {{params.d}}ft$ from the highway.
-As a car cruises by, $\theta\_{1} = {{params.angle1}}^{\circ}$ and the radius from the radar is increasing at $\dot r = {{params.r_dot}}ft/sec$.
-The angle $\theta\_{2} = {{params.angle2}}^{\circ}$
+A police radar located at O serves automated tickets to speeding highway drivers. It is located $d = {{params_d}}ft$ from the highway.
+As a car cruises by, $\theta\_{1} = {{params_angle1}}^{\circ}$ and the radius from the radar is increasing at $\dot r = {{params.r_dot}}ft/sec$.
+The angle $\theta\_{2} = {{params_angle2}}^{\circ}$
 
 ## Part 1
 

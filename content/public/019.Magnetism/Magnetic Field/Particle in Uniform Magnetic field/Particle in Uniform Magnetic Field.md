@@ -29,22 +29,14 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Particle in a Uniform Magnetic Field
-      part1:
-        ans1:
-          value: The particle will move in a straight line.
-        ans2:
-          value: The particle will travel at constant velocity.
-        ans3:
-          value: The particle will spiral inwards.
-        ans4:
-          value: The particle will travel at constant speed.
-        ans5:
-          value: The particle will spiral outwards.
+    params_vars_title: Particle in a Uniform Magnetic Field
+    params_part1_ans1_value: The particle will move in a straight line.
+    params_part1_ans2_value: The particle will travel at constant velocity.
+    params_part1_ans3_value: The particle will spiral inwards.
+    params_part1_ans4_value: The particle will travel at constant speed.
+    params_part1_ans5_value: The particle will spiral outwards.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
@@ -52,11 +44,11 @@ A charged particle moving in a uniform magnetic field experiences a constant mag
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

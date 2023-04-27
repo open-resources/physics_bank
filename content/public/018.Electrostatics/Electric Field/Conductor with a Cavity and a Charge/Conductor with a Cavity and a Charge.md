@@ -33,16 +33,11 @@ part1:
     sort: fixed
 myst:
   substitutions:
-    params:
-      vars:
-        title: Conductor with a Cavity and a Charge
-      part1:
-        ans1:
-          value: 'Yes'
-        ans2:
-          value: 'No'
+    params_vars_title: Conductor with a Cavity and a Charge
+    params_part1_ans1_value: 'Yes'
+    params_part1_ans2_value: 'No'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
@@ -52,8 +47,8 @@ Will a charge placed outside the conductor experience an electric field due to t
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
 
 ## Attribution
 

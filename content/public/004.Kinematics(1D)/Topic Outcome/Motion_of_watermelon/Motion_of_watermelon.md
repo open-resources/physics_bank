@@ -53,28 +53,22 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        name: Lorenzo
-        title: Motion of watermelon
-        units1: ${m/s}^2$
-        units2: $s$
-      signa: +
-      signb: +
-      signc: '-'
-      a: 2
-      b: 6
-      c: 11
-      part4:
-        ans1:
-          value: The speed is increasing
-        ans2:
-          value: The speed is decreasing
-        ans3:
-          value: There is not enough information to tell
+    params_vars_name: Ximena
+    params_vars_title: Motion of watermelon
+    params_vars_units1: ${m/s}^2$
+    params_vars_units2: $s$
+    params_signa: '-'
+    params_signb: '-'
+    params_signc: '-'
+    params_a: 1
+    params_b: 4
+    params_c: 7
+    params_part4_ans1_value: The speed is increasing
+    params_part4_ans2_value: The speed is decreasing
+    params_part4_ans3_value: There is not enough information to tell
 ---
-# {{ params.vars.title }}
-The position $x$ of a watermelon as a function of time $t$ is given by $x(t) = {{ params.signa }}{{ params.a }}t^2 {{ params.signb }}{{ params.b}}t {{params.signc }}{{ params.c }}$ where $x$ is in $m$ and $t$ is in $s$.
+# {{ params_vars_title }}
+The position $x$ of a watermelon as a function of time $t$ is given by $x(t) = {{ params_signa }}{{ params_a }}t^2 {{ params_signb }}{{ params_b}}t {{params_signc }}{{ params_c }}$ where $x$ is in $m$ and $t$ is in $s$.
 
 ## Part 1
 
@@ -96,7 +90,7 @@ At what time $t_0$ is the watermelon at rest? (Negative valuse of $t$ are not co
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units2 }}.
+Please enter in a numeric value in {{ params_vars_units2 }}.
 
 ## Part 3
 
@@ -112,7 +106,7 @@ Use the following table as a reference.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units1 }}.
+Please enter in a numeric value in {{ params_vars_units1 }}.
 
 ## Part 4
 
@@ -120,9 +114,9 @@ Is the speed of the watermelon increasing or decreasing at $t = 0$ $s$?
 
 ### Answer Section
 
-- {{ params.part4.ans1.value}}
-- {{ params.part4.ans2.value}}
-- {{ params.part4.ans3.value}}
+- {{ params_part4_ans1_value}}
+- {{ params_part4_ans2_value}}
+- {{ params_part4_ans3_value}}
 
 ## Attribution
 

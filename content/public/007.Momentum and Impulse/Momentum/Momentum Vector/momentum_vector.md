@@ -32,33 +32,25 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Momentum Vector
-      px: 4
-      py: 3
-      part1:
-        ans1:
-          value: $p= 5\; \rm{kg \; m/s}$, $\theta = 323.13^\circ$.
-          feedback: Hmm, it looks like your angle is off. Make sure you're calculating
-            the desired angle.
-        ans2:
-          value: $p= -5\; \rm{kg \; m/s}$, $\theta = 36.87^\circ$.
-          feedback: Hmm, can a magnitude really be negative?
-        ans3:
-          value: $p= 5\; \rm{kg \; m/s}$, $\theta = 216.87^\circ$.
-          feedback: Close, try drawing out the momentum vector to make sure you have
-            the correct angle!
-        ans4:
-          value: $p= -5\; \rm{kg \; m/s}$, $\theta = 216.87^\circ$.
-          feedback: Try drawing out the momentum vector and make sure your answers
-            match!
-        ans5:
-          value: $p= 5\; \rm{kg \; m/s}$, $\theta = 36.87^\circ$.
-          feedback: Great! You got it.
+    params_vars_title: Momentum Vector
+    params_px: -7
+    params_py: 24
+    params_part1_ans1_value: $p= 25\; \rm{kg \; m/s}$, $\theta = 253.74^\circ$.
+    params_part1_ans1_feedback: Hmm, it looks like your angle is off. Make sure you're
+      calculating the desired angle.
+    params_part1_ans2_value: $p= -25\; \rm{kg \; m/s}$, $\theta = 106.26^\circ$.
+    params_part1_ans2_feedback: Hmm, can a magnitude really be negative?
+    params_part1_ans3_value: $p= 25\; \rm{kg \; m/s}$, $\theta = 286.26^\circ$.
+    params_part1_ans3_feedback: Close, try drawing out the momentum vector to make
+      sure you have the correct angle!
+    params_part1_ans4_value: $p= -25\; \rm{kg \; m/s}$, $\theta = 286.26^\circ$.
+    params_part1_ans4_feedback: Try drawing out the momentum vector and make sure
+      your answers match!
+    params_part1_ans5_value: $p= 25\; \rm{kg \; m/s}$, $\theta = 106.26^\circ$.
+    params_part1_ans5_feedback: Great! You got it.
 ---
-# {{ params.vars.title }}
-A momentum vector expressed in component form is exactly $p_x =$ {{ params.px }} $\rm{kg \; m/s}$ and $p_y =$ {{ params.py }} $\rm{kg \; m/s}$.
+# {{ params_vars_title }}
+A momentum vector expressed in component form is exactly $p_x =$ {{ params_px }} $\rm{kg \; m/s}$ and $p_y =$ {{ params_py }} $\rm{kg \; m/s}$.
 
 ## Part 1
 
@@ -66,11 +58,11 @@ The magnitude, $p$, and angle, $\theta$, measured counterclockwise with respect 
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

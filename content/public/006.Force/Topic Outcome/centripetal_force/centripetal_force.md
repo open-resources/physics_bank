@@ -32,11 +32,9 @@ part1:
     allow-blank: false
 myst:
   substitutions:
-    params:
-      vars:
-        title: Centripetal Motion
+    params_vars_title: Centripetal Motion
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 

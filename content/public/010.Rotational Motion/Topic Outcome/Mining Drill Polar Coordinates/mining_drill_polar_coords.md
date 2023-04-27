@@ -57,24 +57,22 @@ part4:
     suffix: $\hat{\theta}$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Mining Drill Polar Coordinates
-      d: 4
-      theta: 5
-      dot_theta: 8
-      ddot_theta: 5
-      l: 7
-      dot_l: 7
-      ddot_l: 6
+    params_vars_title: Mining Drill Polar Coordinates
+    params_d: 6
+    params_theta: 9
+    params_dot_theta: 6
+    params_ddot_theta: 10
+    params_l: 8
+    params_dot_l: 8
+    params_ddot_l: 8
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="L8Q2.png" width=85%>
 
 A tracked mining dril raises its wireline tower to begin excavating. $OAB$ moves about point $O$, while section $AB$ extends out from $OA$.
 
 For the following conditions:
-$d = {{params.d}} ft$, $\theta = {{params.theta}}^{\circ}$, $\dot{\theta} = {{params.dot_theta}} deg/s$, $\ddot{\theta} = {{params.ddot_theta}} deg/s^2$, $l = {{params.l}} ft$, $\dot{l} = {{params.dot_l}} ft/s$, $\ddot{l} = {{params.ddot_l}} ft/s^2$
+$d = {{params_d}} ft$, $\theta = {{params_theta}}^{\circ}$, $\dot{\theta} = {{params_dot_theta}} deg/s$, $\ddot{\theta} = {{params_ddot_theta}} deg/s^2$, $l = {{params_l}} ft$, $\dot{l} = {{params_dot_l}} ft/s$, $\ddot{l} = {{params_ddot_l}} ft/s^2$
 
 $\dot{l}$ and $\ddot{l}$ are the first and second-time derivatives of the extending section AB.
 

@@ -30,27 +30,18 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Physics of Roller-Coasters
-        units: m/s
-      r: 10.5
-      part1:
-        ans1:
-          value: 20.3
-        ans2:
-          value: 22.7
-        ans3:
-          value: 17.6
-        ans4:
-          value: 14.4
-        ans5:
-          value: 10.1
-        ans6:
-          value: 24.9
+    params_vars_title: Physics of Roller-Coasters
+    params_vars_units: m/s
+    params_r: 11.5
+    params_part1_ans1_value: 21.2
+    params_part1_ans2_value: 23.8
+    params_part1_ans3_value: 18.4
+    params_part1_ans4_value: 15.0
+    params_part1_ans5_value: 10.6
+    params_part1_ans6_value: 26.0
 ---
-# {{ params.vars.title }}
-A roller-coaster travels over a vertical, circular loop of radius $R = $ {{ params.r }} $m$.
+# {{ params_vars_title }}
+A roller-coaster travels over a vertical, circular loop of radius $R = $ {{ params_r }} $m$.
 
 <img src="Physics_of_Roller_Coasters.png" alt="A rollercoaster consisting of a single vertical loop." width=300>
 
@@ -60,12 +51,12 @@ If it travels without friction along the track, what is the minimum speed requir
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
-- {{ params.part1.ans5.value }} {{ params.vars.units}}
-- {{ params.part1.ans6.value }} {{ params.vars.units}}
+- {{ params_part1_ans1_value }} {{ params_vars_units}}
+- {{ params_part1_ans2_value }} {{ params_vars_units}}
+- {{ params_part1_ans3_value }} {{ params_vars_units}}
+- {{ params_part1_ans4_value }} {{ params_vars_units}}
+- {{ params_part1_ans5_value }} {{ params_vars_units}}
+- {{ params_part1_ans6_value }} {{ params_vars_units}}
 
 ## Attribution
 

@@ -71,19 +71,17 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Charging Capacitors
-      a: '30'
-      b: '5'
-      v: '500'
+    params_vars_title: Charging Capacitors
+    params_a: '50'
+    params_b: '10'
+    params_v: '300'
 ---
-# {{ params.vars.title }}
-A {{params.a }} $\textrm{ pF}$ capacitor is charged to a potential difference of {{params.v }} $\textrm{ V}$. Its terminals are then connected to those of an uncharged {{params.b }} $\textrm{ pF}$ capacitor.
+# {{ params_vars_title }}
+A {{params_a }} $\textrm{ pF}$ capacitor is charged to a potential difference of {{params_v }} $\textrm{ V}$. Its terminals are then connected to those of an uncharged {{params_b }} $\textrm{ pF}$ capacitor.
 
 ## Part 1
 
-What is the original charge on the {{params.a }} $\textrm{ pF}$ capacitor? Enter your answer in units of nC.
+What is the original charge on the {{params_a }} $\textrm{ pF}$ capacitor? Enter your answer in units of nC.
 
 ### Answer Section
 
@@ -91,7 +89,7 @@ Please enter a numeric value.
 
 ## Part 2
 
-What is the charge on the {{params.a }} $\textrm{ pF}$ capacitor after the connection is made? Enter your answer in units of nC.
+What is the charge on the {{params_a }} $\textrm{ pF}$ capacitor after the connection is made? Enter your answer in units of nC.
 
 ### Answer Section
 
@@ -99,7 +97,7 @@ Please enter a numeric value.
 
 ## Part 3
 
-What is the charge on the {{params.b }} $\textrm{ pF}$ capacitor after the connection is made? Enter your answer in units of nC.
+What is the charge on the {{params_b }} $\textrm{ pF}$ capacitor after the connection is made? Enter your answer in units of nC.
 
 ### Answer Section
 

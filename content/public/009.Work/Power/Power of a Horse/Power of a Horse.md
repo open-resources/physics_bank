@@ -35,25 +35,23 @@ part1:
     suffix: $W$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Power of a Horse
-        units: $W$
-      v_kph: 15
-      mass_kg: 150
-      grade: 6
+    params_vars_title: Power of a Horse
+    params_vars_units: $W$
+    params_v_kph: 17
+    params_mass_kg: 172
+    params_grade: 8
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="Power of a Biker.png" width=400>
 
 A horse and rider together weigh {{ params.mass_kg }} $kg$.
-What power does the horse output when riding up a {{ params.grade }}% grade at a speed of {{ params.v_kph }} $km/hr$?
+What power does the horse output when riding up a {{ params_grade }}% grade at a speed of {{ params.v_kph }} $km/hr$?
 
 ## Part 1
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

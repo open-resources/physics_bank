@@ -42,19 +42,17 @@ part2:
     suffix: $m/s^2$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Velocity and Acceleration of Particle in Curvilinear motion
-      x_position: 4
-      t: 0
-      y_position: 0
-      vxcon: 24
-      vxcof: 14
+    params_vars_title: Velocity and Acceleration of Particle in Curvilinear motion
+    params_x_position: 3
+    params_t: 0
+    params_y_position: 0
+    params_vxcon: 25
+    params_vxcof: 12
 ---
-# {{ params.vars.title }}
-The curvilinear motion of a particle is defined by the x velocity, $v\_{x} = {{params.vxcon}} - {{params.vxcof}}t$ and the y position, $y = 50 - 2t^2$,
+# {{ params_vars_title }}
+The curvilinear motion of a particle is defined by the x velocity, $v\_{x} = {{params_vxcon}} - {{params_vxcof}}t$ and the y position, $y = 50 - 2t^2$,
 where $v\_{x}$ is in meters per second, $y$ is in $m$, and $t$ is in $seconds$.
-If the x position is {{params.x_position}} at $t = {{params.t}}$:
+If the x position is {{params.x_position}} at $t = {{params_t}}$:
 
 ## Part 1
 

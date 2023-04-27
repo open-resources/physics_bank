@@ -29,25 +29,17 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Hockey net across ice
-      v: 11
-      f: 1.1143628838043775
-      part1:
-        ans1:
-          value: At a steadily increasing speed.
-        ans2:
-          value: At 12.0 $\mathrm{m/s}$.
-        ans3:
-          value: At an increasing speed until it reaches 12.0 $\mathrm{m/s}$ then
-            at a constant speed.
-        ans4:
-          value: At a steadily decreasing speed.
-        ans5:
-          value: At 11 $\mathrm{m/s}$.
+    params_vars_title: Hockey net across ice
+    params_v: 5
+    params_f: 3.4618769096739372
+    params_part1_ans1_value: At a steadily increasing speed.
+    params_part1_ans2_value: At 17.0 $\mathrm{m/s}$.
+    params_part1_ans3_value: At an increasing speed until it reaches 17.0 $\mathrm{m/s}$
+      then at a constant speed.
+    params_part1_ans4_value: At a steadily decreasing speed.
+    params_part1_ans5_value: At 5 $\mathrm{m/s}$.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
@@ -55,11 +47,11 @@ A ringette player pushes a hockey net with a constant force of magnitude $F$ acr
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

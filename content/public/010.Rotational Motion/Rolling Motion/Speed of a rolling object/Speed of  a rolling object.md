@@ -55,13 +55,11 @@ part3:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Speed of a Rolling Object
-        units: "$\rm{m/s}$"
-      h: 1.27
+    params_vars_title: Speed of a Rolling Object
+    params_vars_units: "$\rm{m/s}$"
+    params_h: 16.1
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Consider the setup shown in the figure below.
 One end of a string of negligible mass is connected to a round object of mass $m$ and circular cross-section of radius $r$.
 The string is connected to the round object via a frictionless axel of negligible mass that passes through the centre of mass of the round object.
@@ -69,7 +67,7 @@ The round object is on an incline that makes an angle $\theta = 30^{\circ}$ with
 The string runs over a frictionless pulley of negligible mass and the other end of the string is connected to a rectangular object of mass $m$.
 The pulley is positioned at the end of the incline such that the rectangular object is suspended in the air.
 
-The system is initally at rest, but once the rectangular object is released, it accelerates downward, causing the round object to roll up the incline without slipping. Find the speed of the round object when the rectangular object has fallen $h =$ {{ params.h }} $\rm{m}$ for the case where the round object is a solid sphere, hollow sphere, or a solid cylinder.
+The system is initally at rest, but once the rectangular object is released, it accelerates downward, causing the round object to roll up the incline without slipping. Find the speed of the round object when the rectangular object has fallen $h =$ {{ params_h }} $\rm{m}$ for the case where the round object is a solid sphere, hollow sphere, or a solid cylinder.
 
 <img longdesc="Speed of a rolling object.md#desc" alt="Figure of the system described in the question text." src="q9_2013practiceFinal.png">
 
@@ -85,7 +83,7 @@ Find the speed of the round object assuming that it is a solid sphere.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Part 2
 
@@ -93,7 +91,7 @@ Find the speed of the round object assuming that it is a hollow sphere.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Part 3
 
@@ -101,7 +99,7 @@ Find the speed of the round object assuming that it is a solid cylinder.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

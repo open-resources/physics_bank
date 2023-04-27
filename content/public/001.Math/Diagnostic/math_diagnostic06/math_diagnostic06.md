@@ -30,38 +30,29 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Math Diagnostic06
-      eq: $\dfrac{x-4}{x-9}$ = $ \dfrac{x+1}{x+9}$
-      part1:
-        ans1:
-          value: -77/23
-        ans2:
-          value: 27/13
-        ans3:
-          value: -77/3
-        ans4:
-          value: -27/23
-        ans5:
-          value: '-9'
-        ans6:
-          value: None of the above
+    params_vars_title: Math Diagnostic06
+    params_eq: $\dfrac{x-3}{x-5}$ = $ \dfrac{x+2}{x+5}$
+    params_part1_ans1_value: -19/15
+    params_part1_ans2_value: '1'
+    params_part1_ans3_value: '-19'
+    params_part1_ans4_value: -1/3
+    params_part1_ans5_value: '-5'
+    params_part1_ans6_value: None of the above
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
-Solve the equation: {{ params.eq }}
+Solve the equation: {{ params_eq }}
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
-- {{ params.part1.ans6.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
+- {{ params_part1_ans6_value }}
 
 ## Attribution
 

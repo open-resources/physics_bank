@@ -55,17 +55,15 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Combining Capacitors
-      c: '1.2'
-      n: '7'
+    params_vars_title: Combining Capacitors
+    params_c: '1.0'
+    params_n: '3'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
-What is the maximum capacitance you can get by connecting {{params.n }} {{params.c }} $\rm\ \mu\textrm{F}$ capacitors?
+What is the maximum capacitance you can get by connecting {{params_n }} {{params_c }} $\rm\ \mu\textrm{F}$ capacitors?
 
 ### Answer Section
 

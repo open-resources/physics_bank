@@ -35,26 +35,24 @@ part1:
     suffix: N
 myst:
   substitutions:
-    params:
-      vars:
-        title: Block on a Wall
-        units: N
-      theta: 42
-      m: 5
-      mu: 0.202
+    params_vars_title: Block on a Wall
+    params_vars_units: N
+    params_theta: 47
+    params_m: 5
+    params_mu: 0.281
 ---
-# {{ params.vars.title }}
-A {{params.m}} kg wood block slides down a vertical wall while you push on it at a {{params.theta}}$^\circ$ angle.
+# {{ params_vars_title }}
+A {{params_m}} kg wood block slides down a vertical wall while you push on it at a {{params_theta}}$^\circ$ angle.
 
 <img src="q5.png" width=200px alt="Box pushed against a wall by a force at angle theta">
 
 ## Question Text
 
-What magnitude force should you apply to cause the block to slide down at constant speed? The coefficient of kinetic friction is $\mu_k$ = {{params.mu}}.
+What magnitude force should you apply to cause the block to slide down at constant speed? The coefficient of kinetic friction is $\mu_k$ = {{params_mu}}.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

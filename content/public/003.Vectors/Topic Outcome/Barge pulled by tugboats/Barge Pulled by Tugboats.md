@@ -80,30 +80,21 @@ part6:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Barge Pulled by Tugboats
-      F1: 4262
-      F2: 4115
-      theta_1: 30
-      theta_2: 27
-      part6:
-        ans1:
-          value: 2.05$^{\circ}$ to the left of AB.
-        ans2:
-          value: 2.05$^{\circ}$ to the right of AB.
-        ans3:
-          value: 88.0$^{\circ}$ to the left of AB.
-        ans4:
-          value: 88.0$^{\circ}$ to the right of AB.
-        ans5:
-          value: 20.5$^{\circ}$ to the left of AB.
-        ans6:
-          value: 20.5$^{\circ}$ to the right of AB.
+    params_vars_title: Barge Pulled by Tugboats
+    params_F1: 5080
+    params_F2: 3655
+    params_theta_1: 9
+    params_theta_2: 7
+    params_part6_ans1_value: 2.31$^{\circ}$ to the left of AB.
+    params_part6_ans2_value: 2.31$^{\circ}$ to the right of AB.
+    params_part6_ans3_value: 87.7$^{\circ}$ to the left of AB.
+    params_part6_ans4_value: 87.7$^{\circ}$ to the right of AB.
+    params_part6_ans5_value: 23.1$^{\circ}$ to the left of AB.
+    params_part6_ans6_value: 23.1$^{\circ}$ to the right of AB.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A barge is pulled by the two tugboats shown in the following figure.
-One tugboat pulls on the barge with a force of magnitude $F_2 = $ {{ params.F2 }} units of force at $\theta_2 = $ {{ params.theta_2 }}$^{\circ}$ above the line AB and the other tugboat pulls on the barge with a force of magnitude $F_1 = $ {{ params.F1 }} units of force at $\theta_1 = $ {{ params.theta_1 }}$^{\circ}$ below the line AB.
+One tugboat pulls on the barge with a force of magnitude $F_2 = $ {{ params_F2 }} units of force at $\theta_2 = $ {{ params.theta_2 }}$^{\circ}$ above the line AB and the other tugboat pulls on the barge with a force of magnitude $F_1 = $ {{ params_F1 }} units of force at $\theta_1 = $ {{ params.theta_1 }}$^{\circ}$ below the line AB.
 
 Assume $+y$ is straight ahead, and $+x$ is to the right.
 
@@ -170,12 +161,12 @@ What is the direction of the resultant vector relative to the line AB?
 
 ### Answer Section
 
-- {{ params.part6.ans1.value }}
-- {{ params.part6.ans2.value }}
-- {{ params.part6.ans3.value }}
-- {{ params.part6.ans4.value }}
-- {{ params.part6.ans5.value }}
-- {{ params.part6.ans6.value }}
+- {{ params_part6_ans1_value }}
+- {{ params_part6_ans2_value }}
+- {{ params_part6_ans3_value }}
+- {{ params_part6_ans4_value }}
+- {{ params_part6_ans5_value }}
+- {{ params_part6_ans6_value }}
 
 ## Attribution
 

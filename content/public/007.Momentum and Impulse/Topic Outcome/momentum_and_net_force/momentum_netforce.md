@@ -23,39 +23,31 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Momentum and Net Force
-        units: N
-      p_i: -4t^2 - 7t
-      p_j: -5t^3 + 9t^2 + 8t
-      time: 19.9
-      part1:
-        ans1:
-          value: 0
-        ans2:
-          value: 5600.0
-        ans3:
-          value: 240.0
-        ans4:
-          value: 76.0
-        ans5:
-          value: 31000000.0
+    params_vars_title: Momentum and Net Force
+    params_vars_units: N
+    params_p_i: -7t^3 - 4t^2
+    params_p_j: -2t^3 - 7t^2 - t
+    params_time: 10.4
+    params_part1_ans1_value: 0
+    params_part1_ans2_value: 2500.0
+    params_part1_ans3_value: 3300.0
+    params_part1_ans4_value: 56.0
+    params_part1_ans5_value: 6200000.0
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 The momentum of an object as a function of time is given by $\vec{p} = ({{ params.p_i }})\hat{\imath} + ({{ params.p_j }})\hat{\jmath}$ where $p$ is in kg $\cdot$ m/s and $t$ is in seconds.
 
 ## Part 1
 
-What is the magnitude of the net force on the object at $t$ = {{params.time}} s?
+What is the magnitude of the net force on the object at $t$ = {{params_time}} s?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
-- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params_part1_ans1_value }} {{ params_vars_units}}
+- {{ params_part1_ans2_value }} {{ params_vars_units}}
+- {{ params_part1_ans3_value }} {{ params_vars_units}}
+- {{ params_part1_ans4_value }} {{ params_vars_units}}
+- {{ params_part1_ans5_value }} {{ params_vars_units}}
 
 ## Attribution
 

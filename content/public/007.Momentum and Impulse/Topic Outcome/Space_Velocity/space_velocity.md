@@ -69,35 +69,29 @@ part5:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Space Velocity
-        units1: $\rm{m/s}$
-        units2: $\rm{J}$
-      m: 102
-      left_arm: 6
-      head: 13
-      V_L_i: 13
-      V_L_j: 6
-      V_H_i: -24
-      V_H_j: -13
-      t: 1.1
-      part5:
-        ans1:
-          value: His head required more force
-        ans2:
-          value: His left arm required more force
-        ans3:
-          value: There is not enough information.
+    params_vars_title: Space Velocity
+    params_vars_units1: $\rm{m/s}$
+    params_vars_units2: $\rm{J}$
+    params_m: 105
+    params_left_arm: 8
+    params_head: 13
+    params_V_L_i: 14
+    params_V_L_j: 7
+    params_V_H_i: -24
+    params_V_H_j: -12
+    params_t: 1.0
+    params_part5_ans1_value: His head required more force
+    params_part5_ans2_value: His left arm required more force
+    params_part5_ans3_value: There is not enough information.
 ---
-# {{ params.vars.title }}
-Bender the robot ({{params.m}} $\rm{kg}$) is floating out in deep space.
+# {{ params_vars_title }}
+Bender the robot ({{params_m}} $\rm{kg}$) is floating out in deep space.
 Does it matter what velocity he has?
 It doesn't.
 His velocity is zero.
 He decides that he wants to throw his head towards home.
 First his right arm removes his left arm ({{params.left_arm}} $\rm{kg}$) and throws it so that it has a final velocity of $V_L = {{params.V_L_i}} \rm{m\over s} \hat i + {{params.V_L_j}} \rm{m \over s} \hat j$.
-Then his right arm removes his head ({{params.head}} $\rm{kg}$) and throws it so that it has final velocity $V_H = {{params.V_H_i}} \rm{m\over s} \hat i + {{params.V_H_j}} \rm{m \over s} \hat j$.
+Then his right arm removes his head ({{params_head}} $\rm{kg}$) and throws it so that it has final velocity $V_H = {{params.V_H_i}} \rm{m\over s} \hat i + {{params.V_H_j}} \rm{m \over s} \hat j$.
 Velocities are given in terms of an observer who is also at rest.
 
 ## Part 1
@@ -106,7 +100,7 @@ What is the final velocity $\hat{\imath}$ vector of his torso?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units1 }}.
+Please enter in a numeric value in {{ params_vars_units1 }}.
 
 ## Part 2
 
@@ -114,7 +108,7 @@ What is the final velocity $\hat{\jmath}$ vector of his torso?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units1 }}.
+Please enter in a numeric value in {{ params_vars_units1 }}.
 
 ## Part 3
 
@@ -122,7 +116,7 @@ How much source energy does he expend when he throws his left arm?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units2 }}.
+Please enter in a numeric value in {{ params_vars_units2 }}.
 
 ## Part 4
 
@@ -130,17 +124,17 @@ How much source energy does he expend when he throws his head?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units2 }}.
+Please enter in a numeric value in {{ params_vars_units2 }}.
 
 ## Part 5
 
-The throwing of his left arm and the throwing of his head both take only $\Delta T = {{ params.t }}$ $\rm{s}$, which one required more average force?
+The throwing of his left arm and the throwing of his head both take only $\Delta T = {{ params_t }}$ $\rm{s}$, which one required more average force?
 
 ### Answer Section
 
-- {{ params.part5.ans1.value }}
-- {{ params.part5.ans2.value }}
-- {{ params.part5.ans3.value }}
+- {{ params_part5_ans1_value }}
+- {{ params_part5_ans2_value }}
+- {{ params_part5_ans3_value }}
 
 ## Attribution
 

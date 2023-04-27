@@ -55,17 +55,15 @@ part5:
     suffix: m/s
 myst:
   substitutions:
-    params:
-      vars:
-        name: Mateo
-        title: Sled Hill
-      angle: 7
-      h: 21
-      uk: 0.05
-      m: 100
+    params_vars_name: Lorenzo
+    params_vars_title: Sled Hill
+    params_angle: 6
+    params_h: 15
+    params_uk: 0.07
+    params_m: 100
 ---
-# {{ params.vars.title }}
-{{ params.vars.name }} is on a sled, sliding down a snow covered hill sloped at {{ params.angle }}$^\circ$ (relative to the horizontal). In travelling a distance $d$ the sled has descended through a vertical distance of $10 \, \rm{m}$.
+# {{ params_vars_title }}
+{{ params_vars_name }} is on a sled, sliding down a snow covered hill sloped at {{ params_angle }}$^\circ$ (relative to the horizontal). In travelling a distance $d$ the sled has descended through a vertical distance of $10 \, \rm{m}$.
 
 ## Part 1
 
@@ -78,7 +76,7 @@ File upload box will be shown here.
 
 ## Part 2
 
-If the coefficient of kinetic friction between the sled and snow is $\mu_k = $ {{ params.uk }} and drag can be ignored, draw a free body diagram of the forces acting on the rider and sled system once they have started moving.
+If the coefficient of kinetic friction between the sled and snow is $\mu_k = $ {{ params_uk }} and drag can be ignored, draw a free body diagram of the forces acting on the rider and sled system once they have started moving.
 Your file must be a pdf titled "part2.pdf".
 
 ### Answer Section
@@ -87,7 +85,7 @@ File upload box will be shown here.
 
 ## Part 3
 
-Write Newton's second law in component form and solve for the force of kinetic friction on the rider and sled system if their combined mass is {{ params.m }} kg.
+Write Newton's second law in component form and solve for the force of kinetic friction on the rider and sled system if their combined mass is {{ params_m }} kg.
 Your file must be a pdf titled "part3.pdf".
 
 ### Answer Section

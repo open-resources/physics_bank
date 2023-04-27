@@ -125,22 +125,20 @@ part7:
     custom-format: .3g
 myst:
   substitutions:
-    params:
-      vars:
-        title: Power and Currents in a Three-Loop Circuit
-      R1: '4.00'
-      R2: '4.00'
-      R3: '3.00'
-      R4: '2.00'
-      V1: '18.0'
-      V2: '13.00'
+    params_vars_title: Power and Currents in a Three-Loop Circuit
+    params_R1: '8.00'
+    params_R2: '3.00'
+    params_R3: '5.00'
+    params_R4: '8.00'
+    params_V1: '13.0'
+    params_V2: '12.00'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Consider the circuit shown below.
 
 <img src="fig_OSUPv2p10_41.png" width=400>
 
-It is known that $V_1 = {{ params.V1 }}\rm\ V$, $V_2 = {{ params.V2 }}\rm\ V$, $R_1 = {{ params.R1 }}\rm\ \Omega$, $R_2 = {{ params.R2 }}\rm\ \Omega$, $R_3 = {{ params.R3 }}\rm\ \Omega$, and $R_4 = {{ params.R4 }}\rm\ \Omega$.
+It is known that $V_1 = {{ params_V1 }}\rm\ V$, $V_2 = {{ params_V2 }}\rm\ V$, $R_1 = {{ params_R1 }}\rm\ \Omega$, $R_2 = {{ params_R2 }}\rm\ \Omega$, $R_3 = {{ params_R3 }}\rm\ \Omega$, and $R_4 = {{ params_R4 }}\rm\ \Omega$.
 
 ## Part 1
 

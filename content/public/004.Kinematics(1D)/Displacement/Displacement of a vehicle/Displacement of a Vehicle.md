@@ -33,28 +33,26 @@ part1:
     suffix: blocks
 myst:
   substitutions:
-    params:
-      vars:
-        vehicle: pickup truck
-        title: Displacement of a Vehicle
-        units: blocks
-      c1: 40
-      c2: 19
-      c3: 24
-      dir1: east
-      dir2: south
-      dir3: west
+    params_vars_vehicle: van
+    params_vars_title: Displacement of a Vehicle
+    params_vars_units: blocks
+    params_c1: 22
+    params_c2: 2
+    params_c3: 61
+    params_dir1: north
+    params_dir2: west
+    params_dir3: north
 ---
-# {{ params.vars.title }}
-A {{ params.vars.vehicle }} moves {{ params.c1}} blocks due {{ params.dir1}}, {{ params.c2 }} blocks due {{ params.dir2}}, and another {{ params.c3 }} blocks due {{ params.dir3}}.
+# {{ params_vars_title }}
+A {{ params_vars_vehicle }} moves {{ params_c1}} blocks due {{ params_dir1}}, {{ params_c2 }} blocks due {{ params_dir2}}, and another {{ params_c3 }} blocks due {{ params_dir3}}.
 
 ## Question Text
 
-Assume all blocks are of equal size. What is the magnitude of the {{ params.vars.vehicle }}'s displacement, start to finish?
+Assume all blocks are of equal size. What is the magnitude of the {{ params_vars_vehicle }}'s displacement, start to finish?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

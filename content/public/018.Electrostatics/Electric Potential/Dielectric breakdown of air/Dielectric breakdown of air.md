@@ -44,17 +44,15 @@ part1:
     custom-format: .3g
 myst:
   substitutions:
-    params:
-      vars:
-        title: Dielectric breakdown of air
-      V: '5200'
+    params_vars_title: Dielectric breakdown of air
+    params_V: '5200'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 The electric field strength that causes the breakdown of dry air is $3.00\times 10^6\rm\ V/m$.
 
 ## Question Text
 
-If the potential difference across a pair of parallel conducting plates is {{ params.V }} $\rm\ V$, at what distance between the plates will breakdown just start to occur?
+If the potential difference across a pair of parallel conducting plates is {{ params_V }} $\rm\ V$, at what distance between the plates will breakdown just start to occur?
 Give your answer in units of $\rm mm$.
 
 ### Answer Section

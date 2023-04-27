@@ -70,30 +70,28 @@ part5:
     suffix: m ($\hat{\imath}$)
 myst:
   substitutions:
-    params:
-      vars:
-        name1: Santiago
-        name2: Mateo
-        title: A Skateboarder and an Observer
-        unit_v: $m/s$
-        unit_t: $s$
-        unit_x: $m$
-      v: -0.59
-      v_b: 5.99
-      h: 2.68
-      m_s: 108.0
-      m_b: 1.32
+    params_vars_name1: Mateo
+    params_vars_name2: Lorenzo
+    params_vars_title: A Skateboarder and an Observer
+    params_vars_unit_v: $m/s$
+    params_vars_unit_t: $s$
+    params_vars_unit_x: $m$
+    params_v: 1.04
+    params_v_b: 3.59
+    params_h: 3.07
+    params_m_s: 79.7
+    params_m_b: 1.48
 ---
-# {{ params.vars.title }}
-{{ params.vars.name1 }}  is  on  a  skateboard  and  has  an  initial  velocity  of  ({{ params.v }} $m/s$) $\hat{\imath}$ relative  to  {{ params.vars.name2 }}  who  is at rest with respect to the earth.  Just as they are gliding past {{ params.vars.name2 }},  {{ params.vars.name1 }} throws a ball in the positive $x$-direction from a height of {{ params.h }} m.  According to {{ params.vars.name1 }}, the ball has an initial velocity of ({{ params.v_b }} $m/s$) $\hat{\imath}$.
+# {{ params_vars_title }}
+{{ params_vars_name1 }}  is  on  a  skateboard  and  has  an  initial  velocity  of  ({{ params_v }} $m/s$) $\hat{\imath}$ relative  to  {{ params_vars_name2 }}  who  is at rest with respect to the earth.  Just as they are gliding past {{ params_vars_name2 }},  {{ params_vars_name1 }} throws a ball in the positive $x$-direction from a height of {{ params_h }} m.  According to {{ params_vars_name1 }}, the ball has an initial velocity of ({{ params_v_b }} $m/s$) $\hat{\imath}$.
 
 ## Part 1
 
-What is the initial velocity of the ball according to {{ params.vars.name2 }}?
+What is the initial velocity of the ball according to {{ params_vars_name2 }}?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.unit_v }}.
+Please enter in a numeric value in {{ params_vars.unit_v }}.
 
 ## Part 2
 
@@ -101,31 +99,31 @@ How long is the ball in the air?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.unit_t }}.
+Please enter in a numeric value in {{ params_vars.unit_t }}.
 
 ## Part 3
 
-Relative to {{ params.vars.name2 }}, where does the ball land?
+Relative to {{ params_vars_name2 }}, where does the ball land?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.unit_x }}.
+Please enter in a numeric value in {{ params_vars.unit_x }}.
 
 ## Part 4
 
-If the mass of {{ params.vars.name1 }} plus the skateboard is {{ params.m_s }} $kg$ and the ball has a mass of {{ params.m_b }} $kg$, what is {{ params.vars.name1 }}'s speed, as measured by {{ params.vars.name2 }}, immediately after releasing the ball?
+If the mass of {{ params_vars_name1 }} plus the skateboard is {{ params.m_s }} $kg$ and the ball has a mass of {{ params.m_b }} $kg$, what is {{ params_vars_name1 }}'s speed, as measured by {{ params_vars_name2 }}, immediately after releasing the ball?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.unit_v }}.
+Please enter in a numeric value in {{ params_vars.unit_v }}.
 
 ## Part 5
 
-Relative to {{ params.vars.name1 }}, where does the ball land?
+Relative to {{ params_vars_name1 }}, where does the ball land?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.unit_x }}.
+Please enter in a numeric value in {{ params_vars.unit_x }}.
 
 ## Attribution
 

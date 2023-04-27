@@ -52,15 +52,13 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Connecting Capacitors
-        name: Lorenzo
-      a: '7'
-      b: '14'
+    params_vars_title: Connecting Capacitors
+    params_vars_name: Lorenzo
+    params_a: '13'
+    params_b: '11'
 ---
-# {{ params.vars.title }}
-{{ params.vars.name }} has a {{params.a }} $\rm\ \mu\textrm{F}$ capacitor and a {{params.b }} $\rm\ \mu\textrm{F}$ capacitor.
+# {{ params_vars_title }}
+{{ params_vars_name }} has a {{params_a }} $\rm\ \mu\textrm{F}$ capacitor and a {{params_b }} $\rm\ \mu\textrm{F}$ capacitor.
 
 ## Part 1
 

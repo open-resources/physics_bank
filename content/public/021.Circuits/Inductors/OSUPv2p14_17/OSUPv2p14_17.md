@@ -43,21 +43,19 @@ part1:
     atol: 0
 myst:
   substitutions:
-    params:
-      vars:
-        title: 'RL Series Circuit: Energy'
-      factor: '4'
-      word: reduced
-      ans: '0.062'
+    params_vars_title: 'RL Series Circuit: Energy'
+    params_factor: '3'
+    params_word: reduced
+    params_ans: '0.111'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Consider the $RL$ circuit shown below.
 
 <img src="fig_OSUPv2p14_17.png" width=250>
 
 ## Question Text
 
-If the emf of the battery is {{ params.word }} by a factor of ${{ params.factor }}$, by how much does the steady-state energy stored in the magnetic field of the inductor change?
+If the emf of the battery is {{ params_word }} by a factor of ${{ params_factor }}$, by how much does the steady-state energy stored in the magnetic field of the inductor change?
 
 ### Answer Section
 

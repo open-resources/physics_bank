@@ -37,19 +37,17 @@ part1:
     custom-format: .2g
 myst:
   substitutions:
-    params:
-      vars:
-        title: Force on a DC Power Line
-      I: 992
-      theta: 41
-      L: 119
+    params_vars_title: Force on a DC Power Line
+    params_I: 826
+    params_theta: 88
+    params_L: 103
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
-A DC power line for a light-rail system carries ${{params.I}}\textrm{ A}$ at an angle of ${{params.theta}}^{\circ}$ to the $5.0 \times 10^{-5}\textrm{ T}$ field of the Earth.
-What is the force on a ${{params.L}}\textrm{ m}$ section of this line?
+A DC power line for a light-rail system carries ${{params_I}}\textrm{ A}$ at an angle of ${{params_theta}}^{\circ}$ to the $5.0 \times 10^{-5}\textrm{ T}$ field of the Earth.
+What is the force on a ${{params_L}}\textrm{ m}$ section of this line?
 
 ### Answer Section
 

@@ -31,16 +31,11 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Currents Into a Junction
-      part1:
-        ans1:
-          value: 'Yes'
-        ans2:
-          value: 'No'
+    params_vars_title: Currents Into a Junction
+    params_part1_ans1_value: 'Yes'
+    params_part1_ans2_value: 'No'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
@@ -50,8 +45,8 @@ Can all of the currents going into the junction shown below be positive?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
 
 By Kirchhoff's junction rule, the sum of the currents flowing into a junction must equal the sum of the currents flowing out of the junction.
 

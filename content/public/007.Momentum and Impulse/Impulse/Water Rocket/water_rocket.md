@@ -33,18 +33,16 @@ part1:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Water Rocket
-      m: 1.3
-      i: 15
+    params_vars_title: Water Rocket
+    params_m: 1.5
+    params_i: 12
 ---
-# {{ params.vars.title }}
-We are designing a water rocket with a water bottle and pressurized air. We will fill 80% of the volume of the bottle with water. The total mass of our rocket (bottle + water + air) is {{ params.m }} $\rm{kg}$.
+# {{ params_vars_title }}
+We are designing a water rocket with a water bottle and pressurized air. We will fill 80% of the volume of the bottle with water. The total mass of our rocket (bottle + water + air) is {{ params_m }} $\rm{kg}$.
 
 ## Part 1
 
-If this rocket delivers an impulse of {{ params.i }} $\rm{kg\cdot m/s}$, what will be the final speed of the rocket once launched? (Ignore the weight force of the rocket during the short duration of launching, and also ignore the change in mass as the rocket launches).
+If this rocket delivers an impulse of {{ params_i }} $\rm{kg\cdot m/s}$, what will be the final speed of the rocket once launched? (Ignore the weight force of the rocket during the short duration of launching, and also ignore the change in mass as the rocket launches).
 
 ### Answer Section
 

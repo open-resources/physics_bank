@@ -32,29 +32,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Velocity of a Falcon
-      dir1: South
-      dir2: East
-      v_f: 81.6
-      v_w: 71.4
-      part1:
-        ans1:
-          value: 108.0 $km/h$ 41.2$^\circ$ East of South
-        ans2:
-          value: 153.0 $km/h$ 41.2$^\circ$ East of South
-        ans3:
-          value: 72.0 $km/h$ 46.2$^\circ$ East of South
-        ans4:
-          value: 72.0 $km/h$ 46.2$^\circ$ East of North
-        ans5:
-          value: 153.0 $km/h$ 46.2$^\circ$ West of South
-        ans6:
-          value: 72.0 $km/h$ 41.2$^\circ$ West of South
+    params_vars_title: Velocity of a Falcon
+    params_dir1: South
+    params_dir2: West
+    params_v_f: 125.0
+    params_v_w: 128.0
+    params_part1_ans1_value: 179.0 $km/h$ 45.7$^\circ$ West of South
+    params_part1_ans2_value: 253.0 $km/h$ 45.7$^\circ$ West of South
+    params_part1_ans3_value: 128.0 $km/h$ 50.7$^\circ$ West of South
+    params_part1_ans4_value: 128.0 $km/h$ 50.7$^\circ$ West of North
+    params_part1_ans5_value: 253.0 $km/h$ 50.7$^\circ$ West of North
+    params_part1_ans6_value: 128.0 $km/h$ 45.7$^\circ$ East of North
 ---
-# {{ params.vars.title }}
-A peregrine falcon flies at {{ params.v_f }} $km/h$ {{ params.dir1 }} (relative to the air) in a {{ params.v_w }} $km/h$ wind to the {{ params.dir2 }} (relative to the ground).
+# {{ params_vars_title }}
+A peregrine falcon flies at {{ params.v_f }} $km/h$ {{ params_dir1 }} (relative to the air) in a {{ params.v_w }} $km/h$ wind to the {{ params_dir2 }} (relative to the ground).
 
 ## Part 1
 
@@ -62,12 +53,12 @@ The velocity of the peregrine falcon as seen by an observer on the ground is:
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
-- {{ params.part1.ans6.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
+- {{ params_part1_ans6_value }}
 
 ## Attribution
 

@@ -47,24 +47,19 @@ part2:
     sort: fixed
 myst:
   substitutions:
-    params:
-      vars:
-        title: Force between parallel currents
-      d: '24.0'
-      I: '78.0'
-      txt: opposite directions
-      part2:
-        ans1:
-          value: Attract
-        ans2:
-          value: Repel
+    params_vars_title: Force between parallel currents
+    params_d: '34.0'
+    params_I: '42.0'
+    params_txt: the same direction
+    params_part2_ans1_value: Attract
+    params_part2_ans2_value: Repel
 ---
-# {{ params.vars.title }}
-Two long, straight wires are parallel and ${{ params.d }}\rm\ cm$ apart.
+# {{ params_vars_title }}
+Two long, straight wires are parallel and ${{ params_d }}\rm\ cm$ apart.
 
 ## Part 1
 
-If each wire carries a current of ${{ params.I }}\rm\ A$ in {{ params.txt }}, what is the magnetic force per meter exerted on each wire?
+If each wire carries a current of ${{ params_I }}\rm\ A$ in {{ params_txt }}, what is the magnetic force per meter exerted on each wire?
 
 ### Answer Section
 
@@ -74,8 +69,8 @@ Do the wire attract or repel eachother?
 
 ### Answer Section
 
-- {{ params.part2.ans1.value }}
-- {{ params.part2.ans2.value }}
+- {{ params_part2_ans1_value }}
+- {{ params_part2_ans2_value }}
 
 ### pl-submission-panel
 

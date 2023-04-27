@@ -41,19 +41,17 @@ part2:
     suffix: $\rm{rad/s^2}$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Centrifuge Acceleration
-      v: 4700.0
-      t: 1.0
-      r: 6
+    params_vars_title: Centrifuge Acceleration
+    params_v: 3900.0
+    params_t: 1.5
+    params_r: 4
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 The test tubes of high-speed centrifuges should be placed with care because of the very large acceleration.
 
 ## Part 1
 
-Assume the centrifuge is rotating at {{params.v}} $\rm{rpm}$. Determine the acceleration at the end of a test tube that is placed {{params.r}} $\rm{cm}$ from the axis of rotation.
+Assume the centrifuge is rotating at {{params_v}} $\rm{rpm}$. Determine the acceleration at the end of a test tube that is placed {{params_r}} $\rm{cm}$ from the axis of rotation.
 
 ### Answer Section
 
@@ -61,7 +59,7 @@ Please enter in a numeric value.
 
 ## Part 2
 
-If this centrifuge stops after {{params.t}} $\rm{s}$, what is its angular acceleration?
+If this centrifuge stops after {{params_t}} $\rm{s}$, what is its angular acceleration?
 
 ### Answer Section
 

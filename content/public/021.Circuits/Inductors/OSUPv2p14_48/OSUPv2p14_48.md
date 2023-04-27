@@ -43,13 +43,11 @@ part1:
     atol: 0
 myst:
   substitutions:
-    params:
-      vars:
-        title: Energy Stored in Different Coils
-      num: '4'
+    params_vars_title: Energy Stored in Different Coils
+    params_num: '5'
 ---
-# {{ params.vars.title }}
-Solenoid $A$ is tightly wound while solenoid $B$ has windings that are evenly spaced with a gap equal to ${\rm {{ params.num }}} d$, where $d$ is the diameter of the wire.
+# {{ params_vars_title }}
+Solenoid $A$ is tightly wound while solenoid $B$ has windings that are evenly spaced with a gap equal to ${\rm {{ params_num }}} d$, where $d$ is the diameter of the wire.
 The solenoids are otherwise identical.
 
 ## Question Text

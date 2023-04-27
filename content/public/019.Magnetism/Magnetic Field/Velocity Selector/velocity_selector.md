@@ -39,17 +39,15 @@ part1:
     custom-format: .2g
 myst:
   substitutions:
-    params:
-      vars:
-        title: Velocity Selector
-      B: 1.26
-      E: 0.936
+    params_vars_title: Velocity Selector
+    params_B: 1.366
+    params_E: 2.814
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
-The magnitudes of the electric and magnetic fields in a velocity selector are ${{params.E}} \times 10^{5} \textrm{ V/m}$ and ${{params.B}}\textrm{ T}$, respectively.
+The magnitudes of the electric and magnetic fields in a velocity selector are ${{params_E}} \times 10^{5} \textrm{ V/m}$ and ${{params_B}}\textrm{ T}$, respectively.
 What speed must a proton have to pass through the selector?
 
 ### Answer Section

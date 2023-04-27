@@ -59,15 +59,13 @@ part2:
     custom-format: .3g
 myst:
   substitutions:
-    params:
-      vars:
-        title: Energy in a Series RL Circuit
-      L: '1.00'
-      R: '250.0'
-      I: '5.00'
+    params_vars_title: Energy in a Series RL Circuit
+    params_L: '1.75'
+    params_R: '300.0'
+    params_I: '5.00'
 ---
-# {{ params.vars.title }}
-A coil with a self-inductance of ${{ params.L }}\rm\ H$ and a resistance of ${{ params.R }}\rm\ \Omega$ carries a steady current of ${{ params.I }}\rm\ A$.
+# {{ params_vars_title }}
+A coil with a self-inductance of ${{ params_L }}\rm\ H$ and a resistance of ${{ params_R }}\rm\ \Omega$ carries a steady current of ${{ params_I }}\rm\ A$.
 
 ## Part 1
 

@@ -32,22 +32,14 @@ part1:
     fixed-order: true
 myst:
   substitutions:
-    params:
-      vars:
-        title: Potential Energy to Force
-      part1:
-        ans1:
-          value: Figure A
-        ans2:
-          value: Figure B
-        ans3:
-          value: Figure C
-        ans4:
-          value: Figure D
-        ans5:
-          value: Figure E
+    params_vars_title: Potential Energy to Force
+    params_part1_ans1_value: Figure A
+    params_part1_ans2_value: Figure B
+    params_part1_ans3_value: Figure C
+    params_part1_ans4_value: Figure D
+    params_part1_ans5_value: Figure E
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
@@ -57,11 +49,11 @@ The potential energy of a particle in a conservative one-dimensional potential a
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

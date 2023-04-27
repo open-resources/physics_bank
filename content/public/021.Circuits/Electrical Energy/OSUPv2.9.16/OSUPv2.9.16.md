@@ -27,37 +27,29 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Energy Consumption Units
-        name: Savannah
-      part1:
-        ans1:
-          value: power
-        ans2:
-          value: voltage
-        ans3:
-          value: energy
-        ans4:
-          value: charge
-        ans5:
-          value: current
+    params_vars_title: Energy Consumption Units
+    params_vars_name: Maya
+    params_part1_ans1_value: charge
+    params_part1_ans2_value: power
+    params_part1_ans3_value: current
+    params_part1_ans4_value: voltage
+    params_part1_ans5_value: energy
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
-{{ params.vars.name }}'s electric bill gives their consumption in units of kilowatt-hour ($\textrm{kW}\cdot\textrm{h}$).
+{{ params_vars_name }}'s electric bill gives their consumption in units of kilowatt-hour ($\textrm{kW}\cdot\textrm{h}$).
 
-Does this unit represent the amount of {{params.part1.ans1.value}}, {{params.part1.ans2.value}}, {{params.part1.ans3.value}}, {{params.part1.ans4.value}}, or {{params.part1.ans5.value}} they buy?
+Does this unit represent the amount of {{params_part1_ans1_value}}, {{params_part1_ans2_value}}, {{params_part1_ans3_value}}, {{params_part1_ans4_value}}, or {{params_part1_ans5_value}} they buy?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

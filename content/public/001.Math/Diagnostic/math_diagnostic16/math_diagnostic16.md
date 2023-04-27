@@ -29,22 +29,14 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Math Diagnostic16
-      part1:
-        ans1:
-          value: $log (AB) = log A log B$
-        ans2:
-          value: $log A + log B = log(AB)$
-        ans3:
-          value: $log A - log B = log(A/B)$
-        ans4:
-          value: $log A^2 = 2 log A$
-        ans5:
-          value: Do not know
+    params_vars_title: Math Diagnostic16
+    params_part1_ans1_value: $log (AB) = log A log B$
+    params_part1_ans2_value: $log A + log B = log(AB)$
+    params_part1_ans3_value: $log A - log B = log(A/B)$
+    params_part1_ans4_value: $log A^2 = 2 log A$
+    params_part1_ans5_value: Do not know
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
@@ -52,11 +44,11 @@ The statement which is INCORRECT is...
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

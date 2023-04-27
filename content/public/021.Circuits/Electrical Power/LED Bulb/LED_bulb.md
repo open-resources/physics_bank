@@ -40,21 +40,19 @@ part1:
     label: Cost = $
 myst:
   substitutions:
-    params:
-      vars:
-        title: LED Bulb
-        units: $
-      c: 0.49
-      h: 11
+    params_vars_title: LED Bulb
+    params_vars_units: $
+    params_c: 0.89
+    params_h: 21
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
 A more sustainable alternative to CFL bulbs and incandescent bulbs are light-emitting diode (LED) bulbs.
 A 100-W incandescent bulb can be replaced by a 16-W LED bulb. Both produce 1600 lumens of light.
 
-Assuming the cost of electricity is $\rm\ {$}{{params.c}}$ per kilowatt-hour, how much does it cost to run the LED bulb for one year if it runs for {{params.h}} hours a day?
+Assuming the cost of electricity is $\rm\ {$}{{params_c}}$ per kilowatt-hour, how much does it cost to run the LED bulb for one year if it runs for {{params_h}} hours a day?
 
 ### Answer Section
 

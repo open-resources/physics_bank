@@ -29,27 +29,19 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Blocks on a Table
-      m1: 2
-      m2: 17
-      m3: 8
-      part1:
-        ans1:
-          value: Block A experiences the greatest net force.
-        ans2:
-          value: Block B experiences the greatest net force.
-        ans3:
-          value: Block C experiences the greatest net force.
-        ans4:
-          value: More information is needed to answer this question.
-        ans5:
-          value: The net force on all the blocks is the same.
+    params_vars_title: Blocks on a Table
+    params_m1: 4
+    params_m2: 17
+    params_m3: 9
+    params_part1_ans1_value: Block A experiences the greatest net force.
+    params_part1_ans2_value: Block B experiences the greatest net force.
+    params_part1_ans3_value: Block C experiences the greatest net force.
+    params_part1_ans4_value: More information is needed to answer this question.
+    params_part1_ans5_value: The net force on all the blocks is the same.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Blocks A, B, and C are on a frictionless table, connected by massless strings.
-Block A has mass {{ params.m1 }} $M$, block B has mass {{ params.m2 }} $M$, and block C has mass {{ params.m3 }} $M$.
+Block A has mass {{ params_m1 }} $M$, block B has mass {{ params_m2 }} $M$, and block C has mass {{ params_m3 }} $M$.
 
 Block C is pulled to the right by a large force $F_A$ that causes the entire system to accelerate.
 
@@ -63,11 +55,11 @@ Which of the following statements is true?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

@@ -43,21 +43,19 @@ part2:
     suffix: $^{\circ}$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Pool Trickshot
-      thetad: 30
-      e: 0.93
+    params_vars_title: Pool Trickshot
+    params_thetad: 30
+    params_e: 0.77
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="L22Q1.png" width=400>
 
 A trickshot set up in pool requires a player to hit a moving ball directly into the pocket.
 The balls collide in front of the pocket as shown above.
-Before the collision, $v_1$ has a velocity $\theta_1= {{params.thetad}}^\circ$.
+Before the collision, $v_1$ has a velocity $\theta_1= {{params_thetad}}^\circ$.
 The second ball has a velocity equal in magnitude at an angle $\theta_2$.
 Determine the two possible values of $\theta_2$ which will cause Ball 1 to go directly into the pocket for the trickshot.
-The coefficient of restitution is ${{params.e}}$.
+The coefficient of restitution is ${{params_e}}$.
 
 ## Part 1
 

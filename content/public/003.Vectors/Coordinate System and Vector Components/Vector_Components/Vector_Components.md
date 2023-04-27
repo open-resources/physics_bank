@@ -35,29 +35,17 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Vector Components
-      part1:
-        ans1:
-          value: B cos θ
-        ans2:
-          value: '0'
-        ans3:
-          value: A sin θ
-        ans4:
-          value: '1'
-      part2:
-        ans1:
-          value: A cos θ
-        ans2:
-          value: '0'
-        ans3:
-          value: '1'
-        ans4:
-          value: A sin θ
+    params_vars_title: Vector Components
+    params_part1_ans1_value: B cos θ
+    params_part1_ans2_value: '0'
+    params_part1_ans3_value: A sin θ
+    params_part1_ans4_value: '1'
+    params_part2_ans1_value: A cos θ
+    params_part2_ans2_value: '0'
+    params_part2_ans3_value: '1'
+    params_part2_ans4_value: A sin θ
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 For this question, consider two vectors **$\vec{A}$** and **$\vec{B}$** that are orthogonal to each other.
 
 ## Part 1
@@ -66,10 +54,10 @@ What is the component of **$\vec{B}$** along the direction of **$\vec{A}$**?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params_part1_ans1_value }} {{ params.vars.units}}
+- {{ params_part1_ans2_value }} {{ params.vars.units}}
+- {{ params_part1_ans3_value }} {{ params.vars.units}}
+- {{ params_part1_ans4_value }} {{ params.vars.units}}
 
 ## Part 2
 
@@ -77,10 +65,10 @@ What is the component of **$\vec{A}$** along the direction of **$\vec{B}$**?
 
 ### Answer Section
 
-- {{ params.part2.ans1.value}}
-- {{ params.part2.ans2.value}}
-- {{ params.part2.ans3.value}}
-- {{ params.part2.ans4.value}}
+- {{ params_part2_ans1_value}}
+- {{ params_part2_ans2_value}}
+- {{ params_part2_ans3_value}}
+- {{ params_part2_ans4_value}}
 
 ## Attribution
 

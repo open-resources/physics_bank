@@ -46,11 +46,9 @@ part3:
     label: $\frac{\omega_S}{\omega_J} = $
 myst:
   substitutions:
-    params:
-      vars:
-        title: The Great Conjunction
+    params_vars_title: The Great Conjunction
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 On December 21, 2020, Saturn and Jupiter appeared the closest together in the night sky that they have in the last 400 years (the "Great conjunction").  Assuming that both Jupiter and Saturn make circular orbits of a stationary sun and have paths unaffected by the masses of each other and other planets,
 
 ## Part 1

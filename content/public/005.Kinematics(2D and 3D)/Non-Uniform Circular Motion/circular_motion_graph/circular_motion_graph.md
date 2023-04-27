@@ -85,69 +85,47 @@ part9:
     suffix: $\rm{rad}$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Circular Motion Graph
-      r: 6
-      t: 0.6
-      wmax: 10
-      part1:
-        ans1:
-          value: $t = 0\rm{s} $ to $ t = 1\rm{s}$, positive
-          feedback: Hmm... try again.
-        ans2:
-          value: $t = 0\rm{s} $ to $ t = 2\rm{s}$, positive
-          feedback: Hmm... try again.
-        ans3:
-          value: $t = 1\rm{s} $ to $ t = 2\rm{s}$, positive
-          feedback: Great, you got it!
-        ans4:
-          value: $t = 2\rm{s} $ to $ t = 3\rm{s}$, positive
-          feedback: Hmm... try again.
-        ans5:
-          value: $t = 0\rm{s} $ to $ t = 2\rm{s}$, negative
-          feedback: Hmm... try again.
-      part2:
-        ans1:
-          value: $t = 0\rm{s} $ to $ t = 1\rm{s}$, positive
-          feedback: Great, you got it!
-        ans2:
-          value: $t = 0\rm{s} $ to $ t = 2\rm{s}$, positive
-          feedback: Hmm... try again.
-        ans3:
-          value: $t = 1\rm{s} $ to $ t = 2\rm{s}$, positive
-          feedback: Hmm... try again.
-        ans4:
-          value: $t = 2\rm{s} $ to $ t = 3\rm{s}$, positive
-          feedback: Hmm... try again.
-        ans5:
-          value: $t = 0\rm{s} $ to $ t = 2\rm{s}$, negative
-          feedback: Hmm... try again.
-      part7:
-        ans1:
-          value: Tangential to the circle
-          feedback: Great, you got it!
-        ans2:
-          value: Radially inwards to the centre of the circle
-          feedback: Hmm... try again.
-        ans3:
-          value: Radially outwards to the centre of the circle
-          feedback: Hmm... try again.
-      part8:
-        ans1:
-          value: Tangential to the circle
-          feedback: Hmm... try again.
-        ans2:
-          value: Radially inwards to the centre of the circle
-          feedback: Great, you got it!
-        ans3:
-          value: Radially outwards to the centre of the circle
-          feedback: Hmm... try again.
+    params_vars_title: Circular Motion Graph
+    params_r: 4
+    params_t: 0.2
+    params_wmax: 10
+    params_part1_ans1_value: $t = 0\rm{s} $ to $ t = 1\rm{s}$, positive
+    params_part1_ans1_feedback: Hmm... try again.
+    params_part1_ans2_value: $t = 0\rm{s} $ to $ t = 2\rm{s}$, positive
+    params_part1_ans2_feedback: Hmm... try again.
+    params_part1_ans3_value: $t = 1\rm{s} $ to $ t = 2\rm{s}$, positive
+    params_part1_ans3_feedback: Great, you got it!
+    params_part1_ans4_value: $t = 2\rm{s} $ to $ t = 3\rm{s}$, positive
+    params_part1_ans4_feedback: Hmm... try again.
+    params_part1_ans5_value: $t = 0\rm{s} $ to $ t = 2\rm{s}$, negative
+    params_part1_ans5_feedback: Hmm... try again.
+    params_part2_ans1_value: $t = 0\rm{s} $ to $ t = 1\rm{s}$, positive
+    params_part2_ans1_feedback: Great, you got it!
+    params_part2_ans2_value: $t = 0\rm{s} $ to $ t = 2\rm{s}$, positive
+    params_part2_ans2_feedback: Hmm... try again.
+    params_part2_ans3_value: $t = 1\rm{s} $ to $ t = 2\rm{s}$, positive
+    params_part2_ans3_feedback: Hmm... try again.
+    params_part2_ans4_value: $t = 2\rm{s} $ to $ t = 3\rm{s}$, positive
+    params_part2_ans4_feedback: Hmm... try again.
+    params_part2_ans5_value: $t = 0\rm{s} $ to $ t = 2\rm{s}$, negative
+    params_part2_ans5_feedback: Hmm... try again.
+    params_part7_ans1_value: Tangential to the circle
+    params_part7_ans1_feedback: Great, you got it!
+    params_part7_ans2_value: Radially inwards to the centre of the circle
+    params_part7_ans2_feedback: Hmm... try again.
+    params_part7_ans3_value: Radially outwards to the centre of the circle
+    params_part7_ans3_feedback: Hmm... try again.
+    params_part8_ans1_value: Tangential to the circle
+    params_part8_ans1_feedback: Hmm... try again.
+    params_part8_ans2_value: Radially inwards to the centre of the circle
+    params_part8_ans2_feedback: Great, you got it!
+    params_part8_ans3_value: Radially outwards to the centre of the circle
+    params_part8_ans3_feedback: Hmm... try again.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="diagram.png" alt= "A graph of angular velocity (rad/s) vs. time (s). At 0s, it is -10 rad/s, with a constant linear slope towards 0 rad/s at 1s and 10 rad/s at 2s (this shape: /). From 2s to 3s, it is a constant 10 rad/s, producing a horizontal slope (-). "> 
 
-The angular velocity of an object in circular motion at a distance $r =$ {{params.r}} $\rm{m}$ from the point of rotation is shown in Fig. 1.
+The angular velocity of an object in circular motion at a distance $r =$ {{params_r}} $\rm{m}$ from the point of rotation is shown in Fig. 1.
 
 ## Part 1
 
@@ -155,11 +133,11 @@ Choose the option which correctly states at which times the object is speeding u
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Part 2
 
@@ -167,11 +145,11 @@ Choose the option which correctly states at which times the object is slowing do
 
 ### Answer Section
 
-- {{ params.part2.ans1.value }}
-- {{ params.part2.ans2.value }}
-- {{ params.part2.ans3.value }}
-- {{ params.part2.ans4.value }}
-- {{ params.part2.ans5.value }}
+- {{ params_part2_ans1_value }}
+- {{ params_part2_ans2_value }}
+- {{ params_part2_ans3_value }}
+- {{ params_part2_ans4_value }}
+- {{ params_part2_ans5_value }}
 
 ## Part 3
 
@@ -183,7 +161,7 @@ Please enter in a numeric value.
 
 ## Part 4
 
-Find the magnitude of the centripetal acceleration at $t = $ {{params.t}} $\rm{s}$.
+Find the magnitude of the centripetal acceleration at $t = $ {{params_t}} $\rm{s}$.
 
 ### Answer Section
 
@@ -191,7 +169,7 @@ Please enter in a numeric value.
 
 ## Part 5
 
-Find the tangential acceleration at $t = $ {{params.t}} $\rm{s}$.
+Find the tangential acceleration at $t = $ {{params_t}} $\rm{s}$.
 
 ### Answer Section
 
@@ -199,7 +177,7 @@ Please enter in a numeric value.
 
 ## Part 6
 
-Find the magnitude of the total acceleration at $t = $ {{params.t}} $\rm{s}$.
+Find the magnitude of the total acceleration at $t = $ {{params_t}} $\rm{s}$.
 
 ### Answer Section
 
@@ -211,9 +189,9 @@ At $t = 1 \rm{s}$, what is the direction of the acceleration?
 
 ### Answer Section
 
-- {{ params.part7.ans1.value }}
-- {{ params.part7.ans2.value }}
-- {{ params.part7.ans3.value }}
+- {{ params_part7_ans1_value }}
+- {{ params_part7_ans2_value }}
+- {{ params_part7_ans3_value }}
 
 ## Part 8
 
@@ -221,9 +199,9 @@ At $t = 2.5 \rm{s}$, what is the direction of the acceleration?
 
 ### Answer Section
 
-- {{ params.part8.ans1.value }}
-- {{ params.part8.ans2.value }}
-- {{ params.part8.ans3.value }}
+- {{ params_part8_ans1_value }}
+- {{ params_part8_ans2_value }}
+- {{ params_part8_ans3_value }}
 
 ## Part 9
 

@@ -72,21 +72,19 @@ part3:
     custom-format: .2g
 myst:
   substitutions:
-    params:
-      vars:
-        title: Circuit Loop within a Loop
-      R1: '7.0'
-      R2: '5.0'
-      R3: '2.0'
-      V1: '22.0'
-      V2: '10.0'
+    params_vars_title: Circuit Loop within a Loop
+    params_R1: '4.0'
+    params_R2: '6.0'
+    params_R3: '8.0'
+    params_V1: '25.0'
+    params_V2: '13.0'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Consider the circuit shown below.
 
 <img src="fig_OSUPv2p10_40.png" width=350>
 
-It is known that $V_1 = {{ params.V1 }}\rm\ V$, $V_2 = {{ params.V2 }}\rm\ V$, $R_1 = {{ params.R1 }}\rm\ \Omega$, $R_2 = {{ params.R2 }}\rm\ \Omega$, and $R_3 = {{ params.R3 }}\rm\ \Omega$.
+It is known that $V_1 = {{ params_V1 }}\rm\ V$, $V_2 = {{ params_V2 }}\rm\ V$, $R_1 = {{ params_R1 }}\rm\ \Omega$, $R_2 = {{ params_R2 }}\rm\ \Omega$, and $R_3 = {{ params_R3 }}\rm\ \Omega$.
 
 ## Part 1
 

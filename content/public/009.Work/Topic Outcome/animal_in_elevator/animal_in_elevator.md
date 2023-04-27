@@ -63,25 +63,23 @@ part5:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params:
-      vars:
-        animal: hamster
-        title: Animal in an Elevator
-        units1: $\rm{N}$
-        units2: $\rm{m/s}$
-      m_a: 7.65
-      m_e: 22.9
-      P: 1791
-      a: ' + 2.41'
+    params_vars_animal: rabbit
+    params_vars_title: Animal in an Elevator
+    params_vars_units1: $\rm{N}$
+    params_vars_units2: $\rm{m/s}$
+    params_m_a: 9.76
+    params_m_e: 25.6
+    params_P: 1778
+    params_a: ' + 1.51'
 ---
-# {{ params.vars.title }}
-A {{params.m_a}} $\rm{kg}$ {{params.vars.animal}} sits inside of a {{params.m_e}} $\rm{kg}$ elevator. The elevator is connected to a motor by a wire. The maximum power that can be produced by the motor is {{params.P}} $\rm{W}$.
+# {{ params_vars_title }}
+A {{params.m_a}} $\rm{kg}$ {{params_vars_animal}} sits inside of a {{params.m_e}} $\rm{kg}$ elevator. The elevator is connected to a motor by a wire. The maximum power that can be produced by the motor is {{params_P}} $\rm{W}$.
 
 ## Part 1
 
-Suppose that the elevator is accelerating upwards at {{params.a}} $\rm{\frac{m}{s^2}}$.
+Suppose that the elevator is accelerating upwards at {{params_a}} $\rm{\frac{m}{s^2}}$.
 
-Treating the {{params.vars.animal}} and elevator as separate systems, draw a free-body diagram for the {{params.vars.animal}} and another for the elevator. Upload your diagrams as a single PDF.
+Treating the {{params_vars_animal}} and elevator as separate systems, draw a free-body diagram for the {{params_vars_animal}} and another for the elevator. Upload your diagrams as a single PDF.
 
 ### Answer Section
 
@@ -89,11 +87,11 @@ File upload box will be shown here.
 
 ## Part 2
 
-Consider the acceleration in Part 1. What is the normal force from the floor on the {{params.vars.animal}}?
+Consider the acceleration in Part 1. What is the normal force from the floor on the {{params_vars_animal}}?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units1}}.
+Please enter in a numeric value in {{ params_vars_units1}}.
 
 ## Part 3
 
@@ -101,13 +99,13 @@ Consider the acceleration in Part 1. What is the tension in the wire?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units1}}.
+Please enter in a numeric value in {{ params_vars_units1}}.
 
 ## Part 4
 
 Assume that the elevator is going upwards at a constant speed.
 
-Now consider the system composed of the elevator and the {{params.vars.animal}} together.
+Now consider the system composed of the elevator and the {{params_vars_animal}} together.
 
 Draw the free-body diagram for this system. Upload your diagram as a single PDF.
 
@@ -121,7 +119,7 @@ If the elevator is going upwards at a constant speed, with what speed is the ele
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units2}}.
+Please enter in a numeric value in {{ params_vars_units2}}.
 
 ## Attribution
 

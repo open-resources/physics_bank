@@ -30,20 +30,13 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Collision of Two Carts
-      part1:
-        ans1:
-          value: Cart 1
-        ans2:
-          value: Cart 2
-        ans3:
-          value: They have the same inertia
-        ans4:
-          value: More information is needed
+    params_vars_title: Collision of Two Carts
+    params_part1_ans1_value: Cart 1
+    params_part1_ans2_value: Cart 2
+    params_part1_ans3_value: They have the same inertia
+    params_part1_ans4_value: More information is needed
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 The figure below shows the position versus time plots of two carts that collide.
 
 ## Part 1
@@ -54,10 +47,10 @@ Which cart has the greater inertia?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
 
 ## Attribution
 

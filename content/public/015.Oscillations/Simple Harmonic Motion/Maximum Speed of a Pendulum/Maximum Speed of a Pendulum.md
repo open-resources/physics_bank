@@ -33,17 +33,15 @@ part1:
     suffix: ' '
 myst:
   substitutions:
-    params:
-      vars:
-        title: Maximum Speed of a Pendulum
-      choice: halved
+    params_vars_title: Maximum Speed of a Pendulum
+    params_choice: doubled
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A  simple  pendulum  swings  at  small  angles.
 
 ## Part 1
 
-If  the  amplitude  and  length  of the pendulum are both {{ params.choice }}, how much is the maximum speed of the pendulum's bob increased/decreased? You may assume that the amplitude remains sufficiently small that it still undergoes simple harmonic motion.
+If  the  amplitude  and  length  of the pendulum are both {{ params_choice }}, how much is the maximum speed of the pendulum's bob increased/decreased? You may assume that the amplitude remains sufficiently small that it still undergoes simple harmonic motion.
 
 Please enter a real number (symbols will not be accepted).
 

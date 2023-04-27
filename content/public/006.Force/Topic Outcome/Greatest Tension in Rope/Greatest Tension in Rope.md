@@ -33,20 +33,13 @@ part1:
     hide-letter-keys: false
 myst:
   substitutions:
-    params:
-      vars:
-        title: Greatest Tension in Rope
-      part1:
-        ans1:
-          value: System A
-        ans2:
-          value: System C
-        ans3:
-          value: System B
-        ans4:
-          value: System D
+    params_vars_title: Greatest Tension in Rope
+    params_part1_ans1_value: System A
+    params_part1_ans2_value: System C
+    params_part1_ans3_value: System B
+    params_part1_ans4_value: System D
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 All the blocks in the figure below are identical and you can ignore any friction in the massless pulleys.
 
 <img longdesc="Greatest Tension in Rope.md#desc" alt="Figure of four pulley systems." src="q2_2015Final.png">
@@ -68,10 +61,10 @@ In which of the figures is the tension in the rope the greatest?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
 
 ## Attribution
 

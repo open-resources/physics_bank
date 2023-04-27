@@ -41,17 +41,15 @@ part1:
     suffix: $\rm\ V$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Voltage Applied to a Capacitor
-      c: '2.4'
-      q: '2.0'
+    params_vars_title: Voltage Applied to a Capacitor
+    params_c: '4.0'
+    params_q: '3.7'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
-Calculate the voltage applied to a {{params.c }} $ \rm\ \mu\textrm{F}$ capacitor when it holds {{params.q }}$\rm\ \mu\textrm{C}$ of charge.
+Calculate the voltage applied to a {{params_c }} $ \rm\ \mu\textrm{F}$ capacitor when it holds {{params_q }}$\rm\ \mu\textrm{C}$ of charge.
 
 ### Answer Section
 

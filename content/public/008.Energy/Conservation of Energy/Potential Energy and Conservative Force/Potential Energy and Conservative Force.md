@@ -29,23 +29,16 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Potential Energy and Conservative Force
-      part1:
-        ans1:
-          value: The net force on the particle is also zero.
-        ans2:
-          value: The slope of the force versus position graph is zero at that point.
-        ans3:
-          value: This does not allow us to determine the force at this point, nor
-            the slope of the force versus position graph at this point.
-        ans4:
-          value: The net force on the particle is positive.
-        ans5:
-          value: The net force on the particle is negative.
+    params_vars_title: Potential Energy and Conservative Force
+    params_part1_ans1_value: The net force on the particle is also zero.
+    params_part1_ans2_value: The slope of the force versus position graph is zero
+      at that point.
+    params_part1_ans3_value: This does not allow us to determine the force at this
+      point, nor the slope of the force versus position graph at this point.
+    params_part1_ans4_value: The net force on the particle is positive.
+    params_part1_ans5_value: The net force on the particle is negative.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
@@ -55,11 +48,11 @@ A particle is acted on only by a conservative force. If the potential energy of 
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

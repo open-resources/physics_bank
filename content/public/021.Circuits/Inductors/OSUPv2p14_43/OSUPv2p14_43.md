@@ -59,15 +59,13 @@ part2:
     custom-format: .2g
 myst:
   substitutions:
-    params:
-      vars:
-        title: Long Cylindrical Solenoid
-      n: '130'
-      r: '2.5'
-      dIdt: '3.5'
+    params_vars_title: Long Cylindrical Solenoid
+    params_n: '100'
+    params_r: '2.0'
+    params_dIdt: '7.0'
 ---
-# {{ params.vars.title }}
-A long, cylindrical solenoid with ${{ params.n }}\rm\ turns/cm$ has a radius of ${{ params.r }}\rm\ cm$.
+# {{ params_vars_title }}
+A long, cylindrical solenoid with ${{ params_n }}\rm\ turns/cm$ has a radius of ${{ params_r }}\rm\ cm$.
 
 ## Part 1
 
@@ -79,7 +77,7 @@ Please enter in a numeric value in $\rm\ H/m$.
 
 ## Part 2
 
-If the current through the solenoid changes at a rate of ${{ params.dIdt }}\rm\ A/s$, what is the emf induced per unit length?
+If the current through the solenoid changes at a rate of ${{ params_dIdt }}\rm\ A/s$, what is the emf induced per unit length?
 
 ### Answer Section
 

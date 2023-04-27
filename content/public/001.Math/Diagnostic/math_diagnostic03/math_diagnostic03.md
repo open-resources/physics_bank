@@ -30,34 +30,26 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Math Diagnostic03
-        formula: 9x + -10 > 2x + 1
-      part1:
-        ans1:
-          value: x > 11/7
-        ans2:
-          value: x < 11/7
-        ans3:
-          value: x < 7/11
-        ans4:
-          value: x > 7/11
-        ans5:
-          value: Don't Know
+    params_vars_title: Math Diagnostic03
+    params_vars_formula: 2x + 3 > -2x + 4
+    params_part1_ans1_value: x > 1/4
+    params_part1_ans2_value: x < 1/4
+    params_part1_ans3_value: x < 4
+    params_part1_ans4_value: x > 4
+    params_part1_ans5_value: Don't Know
 ---
-# {{ params.vars.title }}
-The solution of the inequality {{params.vars.formula}} is:
+# {{ params_vars_title }}
+The solution of the inequality {{params_vars_formula}} is:
 
 ## Part 1
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

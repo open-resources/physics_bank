@@ -44,17 +44,15 @@ part1:
     custom-format: .3g
 myst:
   substitutions:
-    params:
-      vars:
-        title: Rate of Change of Current in a Coil
-      L: '0.400'
-      V: '0.250'
+    params_vars_title: Rate of Change of Current in a Coil
+    params_L: '0.350'
+    params_V: '0.390'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
-What is the rate at which the current through a ${{ params.L }}\rm\ H$ coil is changing if an emf of ${{ params.V }}\rm\ V$ is induced across the coil?
+What is the rate at which the current through a ${{ params_L }}\rm\ H$ coil is changing if an emf of ${{ params_V }}\rm\ V$ is induced across the coil?
 
 ### Answer Section
 

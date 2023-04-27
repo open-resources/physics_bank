@@ -35,19 +35,17 @@ part1:
     suffix: $^{\circ}$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Skater in a Bowl
-      ro: 4.92
-      vo: 3
-      h: 1.02
+    params_vars_title: Skater in a Bowl
+    params_ro: 4.15
+    params_vo: 2
+    params_h: 1.08
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="Marble in a Bowl.png" width=400>
 
-A skater dips into a hemispherical bowl ($r_0 = {{params.ro}}m$) with an initial velocity of $v_0 = {{params.vo}}m/s$ tangent to the horizontal rim of the bowl.
+A skater dips into a hemispherical bowl ($r_0 = {{params_ro}}m$) with an initial velocity of $v_0 = {{params_vo}}m/s$ tangent to the horizontal rim of the bowl.
 As the skater rounds the bowl, its rotational radius $r$ shrinks.
-As the skater passes point B, which is $h = {{params.h}}m$ below the rim, and $r$ from the centre line, the velocity makes an angle $\theta$ with the horizontal tangent of the bowl through B.
+As the skater passes point B, which is $h = {{params_h}}m$ below the rim, and $r$ from the centre line, the velocity makes an angle $\theta$ with the horizontal tangent of the bowl through B.
 Determine $\theta$.
 
 ## Part 1

@@ -51,17 +51,15 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Range of Current Through Resistor
-      R: 194
-      V: 2.4
-      p: 8
-      Vtotal: 4.8
+    params_vars_title: Range of Current Through Resistor
+    params_R: 174
+    params_V: 3.8
+    params_p: 10
+    params_Vtotal: 7.6
 ---
-# {{ params.vars.title }}
-A resistor rated at {{params.R}} $\rm\ k\Omega$ is connected across two D cell batteries (each {{params.V}} $\textrm{ V}$) in series, with a total voltage of {{params.Vtotal}} $\textrm{ V}$.
-The manufacturer advertises that their resistors are within {{params.p}} $\%$ of the rated value.
+# {{ params_vars_title }}
+A resistor rated at {{params_R}} $\rm\ k\Omega$ is connected across two D cell batteries (each {{params_V}} $\textrm{ V}$) in series, with a total voltage of {{params_Vtotal}} $\textrm{ V}$.
+The manufacturer advertises that their resistors are within {{params_p}} $\%$ of the rated value.
 What are the possible minimum current and maximum current through the resistor?
 
 ## Part 1

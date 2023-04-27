@@ -47,23 +47,18 @@ part4:
     allow-blank: false
 myst:
   substitutions:
-    params:
-      vars:
-        title: Collision of Objects A and B
-        name: Lorenzo
-      v1: 2
-      v2: 2
-      m_a: 6
-      m_b: 6
-      part2:
-        ans1:
-          value: 'Yes'
-        ans2:
-          value: 'No'
+    params_vars_title: Collision of Objects A and B
+    params_vars_name: Maya
+    params_v1: 6
+    params_v2: 5
+    params_m_a: 2
+    params_m_b: 5
+    params_part2_ans1_value: 'Yes'
+    params_part2_ans2_value: 'No'
 ---
-# {{ params.vars.title }}
-{{ params.vars.name }} observes object A, which has mass ${{params.m_a}}$ and velocity $v_0 \vec{i}$, collide with object B, which has mass {{params.m_b}} $kg$ and a velocity  1/{{params.v1}} $v_0 \vec{j}$.
-Following the collision, object B has a velocity of 1/{{params.v2}} $$v_0 \vec{i}$$.
+# {{ params_vars_title }}
+{{ params_vars_name }} observes object A, which has mass ${{params.m_a}}$ and velocity $v_0 \vec{i}$, collide with object B, which has mass {{params.m_b}} $kg$ and a velocity  1/{{params_v1}} $v_0 \vec{j}$.
+Following the collision, object B has a velocity of 1/{{params_v2}} $$v_0 \vec{i}$$.
 
 Use the following table as a reference for each variable:
 
@@ -87,8 +82,8 @@ Is this collision elastic?
 
 ### Answer Section
 
-- {{ params.part2.ans1.value }}
-- {{ params.part2.ans2.value }}
+- {{ params_part2_ans1_value }}
+- {{ params_part2_ans2_value }}
 
 ## Part 3
 
@@ -99,7 +94,7 @@ Express the change in the kinetic energy in terms of $v_0$ (use v for $v_0$ ).
 ## Part 4
 
 Suppose a second person observes the same collision.
-This second observer, however, is moving with a velocity of $$v\_{2nd} = v_0 \vec{i} - v_0 \vec{j}$$ m/s relative to {{ params.vars.name }}.
+This second observer, however, is moving with a velocity of $$v\_{2nd} = v_0 \vec{i} - v_0 \vec{j}$$ m/s relative to {{ params_vars_name }}.
 What is the change in kinetic energy that this second observer measures?
 
 ### Answer Section

@@ -40,16 +40,11 @@ part1:
     blank: true
 myst:
   substitutions:
-    params:
-      vars:
-        title: Flux through a closed surface
-      part1:
-        ans1:
-          value: 'True'
-        ans2:
-          value: 'False'
+    params_vars_title: Flux through a closed surface
+    params_part1_ans1_value: 'True'
+    params_part1_ans2_value: 'False'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
@@ -57,8 +52,8 @@ The net electric flux crossing a closed surface is always zero.
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
 
 The flux is not zero when the closed surface contains a non-zero net charge.
 

@@ -29,22 +29,14 @@ part1:
     fixed-order: true
 myst:
   substitutions:
-    params:
-      vars:
-        title: Speed Skating
-      part1:
-        ans1:
-          value: A
-        ans2:
-          value: B
-        ans3:
-          value: C
-        ans4:
-          value: D
-        ans5:
-          value: E
+    params_vars_title: Speed Skating
+    params_part1_ans1_value: A
+    params_part1_ans2_value: B
+    params_part1_ans3_value: C
+    params_part1_ans4_value: D
+    params_part1_ans5_value: E
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 In short-track speed skating skaters frequently fall.
 At one of the winter Olympics, speed skater Charles Hamelin won a gold medal in the 1500 $m$, but fell during a turn of the 500 $m$ sprint.
 
@@ -62,11 +54,11 @@ If Charles fell at the point marked H in Fig.1 while in uniform circular motion,
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

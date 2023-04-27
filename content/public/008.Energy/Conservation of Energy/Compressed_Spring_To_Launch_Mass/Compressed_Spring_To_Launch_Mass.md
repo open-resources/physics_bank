@@ -31,36 +31,28 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Compressed Spring To Launch Mass
-      choice: quartered
-      part1:
-        ans1:
-          value: 1/16$h$
-        ans2:
-          value: 9$h$
-        ans3:
-          value: 1/4$h$
-        ans4:
-          value: 16$h$
-        ans5:
-          value: 4$h$
+    params_vars_title: Compressed Spring To Launch Mass
+    params_choice: quadrupled
+    params_part1_ans1_value: 16$h$
+    params_part1_ans2_value: 9$h$
+    params_part1_ans3_value: 1/16$h$
+    params_part1_ans4_value: 1/4$h$
+    params_part1_ans5_value: 4$h$
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A spring is compressed a distance $\Delta$$s$ and is used to launch a mass $m$ vertically to a height $h$ above it's starting position.
 
 ## Part 1
 
-If the initial compression is {{ params.choice }}, how high above it's starting position would the mass rise?
+If the initial compression is {{ params_choice }}, how high above it's starting position would the mass rise?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

@@ -41,15 +41,13 @@ part2:
     digits: 2
 myst:
   substitutions:
-    params:
-      vars:
-        title: Masses on Slopes
-        units: $\rm{\frac{m}{s^2}}$
-      m1: 10
-      m2: 2
+    params_vars_title: Masses on Slopes
+    params_vars_units: $\rm{\frac{m}{s^2}}$
+    params_m1: 9
+    params_m2: 3
 ---
-# {{ params.vars.title }}
-Two masses $m_1=$ {{ params.m1 }} $\rm{kg}$ and $m_2=$ {{ params.m2 }} $\rm{kg}$ are connected by a light rope which passes over a light, low friction pulley between low friction slopes of $30^\circ$ and $10^\circ$ as shown in the figure. Approximating the masses of the rope and pulley to be negligible and the friction of both the slopes and the pulley to be negligible, find the acceleration of mass $m_2$ up the slope.
+# {{ params_vars_title }}
+Two masses $m_1=$ {{ params_m1 }} $\rm{kg}$ and $m_2=$ {{ params_m2 }} $\rm{kg}$ are connected by a light rope which passes over a light, low friction pulley between low friction slopes of $30^\circ$ and $10^\circ$ as shown in the figure. Approximating the masses of the rope and pulley to be negligible and the friction of both the slopes and the pulley to be negligible, find the acceleration of mass $m_2$ up the slope.
 
 <img src="diagram.png" alt="There is a triangle with a block on each of its slopes, and a pulley at the top vertex. The right slope is at 10 degrees with the horizontal with the block labelled m sub 1 on it. The left slope is at 30 degrees with the horizontal with the block labelled m sub 2 on it. The two blocks are connected by a rope that passes over the pulley at the top." width=400>
 
@@ -67,7 +65,7 @@ The acceleration of $m_2$ is:
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

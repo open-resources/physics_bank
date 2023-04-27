@@ -83,15 +83,13 @@ part4:
     custom-format: .3g
 myst:
   substitutions:
-    params:
-      vars:
-        title: RC Series Circuit
-      R: '575.0'
-      C: '1.60'
-      V: '6.44'
+    params_vars_title: RC Series Circuit
+    params_R: '500.0'
+    params_C: '1.10'
+    params_V: '7.66'
 ---
-# {{ params.vars.title }}
-A ${{ params.R }}\rm\ \Omega$ resistor, an uncharged ${{ params.C }}\rm\ \mu F$ capacitor, and a ${{ params.V }}\rm\ V$ are connected in series.
+# {{ params_vars_title }}
+A ${{ params_R }}\rm\ \Omega$ resistor, an uncharged ${{ params_C }}\rm\ \mu F$ capacitor, and a ${{ params_V }}\rm\ V$ are connected in series.
 
 ## Part 1
 

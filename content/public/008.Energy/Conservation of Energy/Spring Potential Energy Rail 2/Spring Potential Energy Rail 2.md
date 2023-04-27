@@ -51,17 +51,15 @@ part3:
     suffix: $N$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Spring Potential Energy Rail 2
-      m: 200
-      R: 86.0
-      k: 56
+    params_vars_title: Spring Potential Energy Rail 2
+    params_m: 300
+    params_R: 33.0
+    params_k: 129
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="Spring Potential Energy Rail 2.png" width=400>
 
-Consider the above figure. A rollercoaster takes a completely vertical drop. A massless spring of stiffness $k = {{params.k}} N/m$ is attaches to a rollercoaster, $m = {{params.m}} kg$, as it rounds a bend. The coaster slides without friction on a rail of radius $R = {{params.R}} m$. Assume $v$ = 0 as it enters the drop at $A$ and the spring is unstretched when the coaster passes $B$, answer the following questions.
+Consider the above figure. A rollercoaster takes a completely vertical drop. A massless spring of stiffness $k = {{params_k}} N/m$ is attaches to a rollercoaster, $m = {{params_m}} kg$, as it rounds a bend. The coaster slides without friction on a rail of radius $R = {{params_R}} m$. Assume $v$ = 0 as it enters the drop at $A$ and the spring is unstretched when the coaster passes $B$, answer the following questions.
 
 ## Part 1
 

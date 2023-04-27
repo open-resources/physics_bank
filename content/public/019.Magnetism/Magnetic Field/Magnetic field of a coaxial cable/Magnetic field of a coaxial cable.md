@@ -87,39 +87,21 @@ part8:
     blank: true
 myst:
   substitutions:
-    params:
-      vars:
-        title: Magnetic field of a coaxial cable
-      part2:
-        ans1:
-          value: clockwise
-        ans2:
-          value: counterclockwise
-        ans3:
-          value: the magnetic field is zero
-      part4:
-        ans1:
-          value: clockwise
-        ans2:
-          value: counterclockwise
-        ans3:
-          value: the magnetic field is zero
-      part6:
-        ans1:
-          value: clockwise
-        ans2:
-          value: counterclockwise
-        ans3:
-          value: the magnetic field is zero
-      part8:
-        ans1:
-          value: clockwise
-        ans2:
-          value: counterclockwise
-        ans3:
-          value: the magnetic field is zero
+    params_vars_title: Magnetic field of a coaxial cable
+    params_part2_ans1_value: clockwise
+    params_part2_ans2_value: counterclockwise
+    params_part2_ans3_value: the magnetic field is zero
+    params_part4_ans1_value: clockwise
+    params_part4_ans2_value: counterclockwise
+    params_part4_ans3_value: the magnetic field is zero
+    params_part6_ans1_value: clockwise
+    params_part6_ans2_value: counterclockwise
+    params_part6_ans3_value: the magnetic field is zero
+    params_part8_ans1_value: clockwise
+    params_part8_ans2_value: counterclockwise
+    params_part8_ans3_value: the magnetic field is zero
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A portion of a long, cylindrical coaxial cable is shown in the figure.
 A current $I$ flows down the centre conductor, and this current is returned in the outer conductor.
 
@@ -139,9 +121,9 @@ What is the direction of the magnetic field calculated in Part 1?
 
 ### Answer Section
 
-- {{ params.part2.ans1.value }}
-- {{ params.part2.ans2.value }}
-- {{ params.part2.ans3.value }}
+- {{ params_part2_ans1_value }}
+- {{ params_part2_ans2_value }}
+- {{ params_part2_ans3_value }}
 
 ## Part 3
 
@@ -157,9 +139,9 @@ What is the direction of the magnetic field calculated in Part 3?
 
 ### Answer Section
 
-- {{ params.part4.ans1.value }}
-- {{ params.part4.ans2.value }}
-- {{ params.part4.ans3.value }}
+- {{ params_part4_ans1_value }}
+- {{ params_part4_ans2_value }}
+- {{ params_part4_ans3_value }}
 
 ## Part 5
 
@@ -175,9 +157,9 @@ What is the direction of the magnetic field calculated in Part 5?
 
 ### Answer Section
 
-- {{ params.part6.ans1.value }}
-- {{ params.part6.ans2.value }}
-- {{ params.part6.ans3.value }}
+- {{ params_part6_ans1_value }}
+- {{ params_part6_ans2_value }}
+- {{ params_part6_ans3_value }}
 
 ## Part 7
 
@@ -193,9 +175,9 @@ What is the direction of the magnetic field calculated in Part 7?
 
 ### Answer Section
 
-- {{ params.part8.ans1.value }}
-- {{ params.part8.ans2.value }}
-- {{ params.part8.ans3.value }}
+- {{ params_part8_ans1_value }}
+- {{ params_part8_ans2_value }}
+- {{ params_part8_ans3_value }}
 
 ## Attribution
 

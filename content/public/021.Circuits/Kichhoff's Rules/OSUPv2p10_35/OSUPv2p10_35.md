@@ -176,20 +176,18 @@ part11:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Simple Series Circuit
-      V: '12.0'
-      R1: '4.75'
-      R2: '3.50'
-      R3: '3.75'
+    params_vars_title: Simple Series Circuit
+    params_V: '15.0'
+    params_R1: '3.50'
+    params_R2: '2.00'
+    params_R3: '4.75'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Consider the circuit shown below.
 
 <img src="fig_OSUPv2p10_35.png" width=250>
 
-The terminal voltage of the battery is ${{ params.V }}\rm\ V$ and the resistances are $R_1 = {{ params.R1 }}\rm\ \Omega$, $R_2 = {{ params.R2 }}\rm\ \Omega$, and $R_3 = {{ params.R3 }}\rm\ \Omega$.
+The terminal voltage of the battery is ${{ params_V }}\rm\ V$ and the resistances are $R_1 = {{ params_R1 }}\rm\ \Omega$, $R_2 = {{ params_R2 }}\rm\ \Omega$, and $R_3 = {{ params_R3 }}\rm\ \Omega$.
 
 ## Part 1
 

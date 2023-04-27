@@ -49,22 +49,17 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Unknown Voltage Source
-      dV: '2.00'
-      dI: '5.20'
-      part2:
-        ans1:
-          value: 'No'
-        ans2:
-          value: 'Yes'
+    params_vars_title: Unknown Voltage Source
+    params_dV: '2.90'
+    params_dI: '5.60'
+    params_part2_ans1_value: 'No'
+    params_part2_ans2_value: 'Yes'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
-What is the internal resistance of a voltage source if its terminal potential drops by ${{ params.dV }}\rm\ V$ when the current supplied increases by ${{ params.dI }}\rm\ A$?
+What is the internal resistance of a voltage source if its terminal potential drops by ${{ params_dV }}\rm\ V$ when the current supplied increases by ${{ params_dI }}\rm\ A$?
 
 ### Answer Section
 

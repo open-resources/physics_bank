@@ -31,28 +31,21 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Uncertainty of Coefficient
-        name: Ahmed
-        units: $kg/s$
-      m: 129
-      v: 2.4
-      b: 0.75
-      part1:
-        ans1:
-          value: ' $\pm$ 0.1'
-        ans2:
-          value: ' $\pm$ 0.07'
-        ans3:
-          value: ' $\pm$ 0.01'
-        ans4:
-          value: ' $\pm$ 0.74'
+    params_vars_title: Uncertainty of Coefficient
+    params_vars_name: Savannah
+    params_vars_units: $kg/s$
+    params_m: 106
+    params_v: 2.5
+    params_b: 0.55
+    params_part1_ans1_value: ' $\pm$ 0.1'
+    params_part1_ans2_value: ' $\pm$ 0.05'
+    params_part1_ans3_value: ' $\pm$ 0.01'
+    params_part1_ans4_value: ' $\pm$ 0.54'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 The drag force on an object of interest can be accurately modelled as $\vec{D}$ = -$b\vec{v}$ such that its terminal velocity in free fall is given by $v_T$ = $mg/b$.
-{{ params.vars.name }} measures $m$ = {{ params.m }} $\pm$ 2 $g$ and $v_T$ = {{ params.v }} $\pm$ 0.2 $m/s$.
-Based on these measurements {{ params.vars.name }} determines the drag coefficient to be $b$ = {{ params.b }} $kg/s$.
+{{ params_vars_name }} measures $m$ = {{ params_m }} $\pm$ 2 $g$ and $v_T$ = {{ params_v }} $\pm$ 0.2 $m/s$.
+Based on these measurements {{ params_vars_name }} determines the drag coefficient to be $b$ = {{ params_b }} $kg/s$.
 
 ## Part 1
 
@@ -60,10 +53,10 @@ What is the uncertainty in your determination of $b$?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params_part1_ans1_value }} {{ params_vars_units}}
+- {{ params_part1_ans2_value }} {{ params_vars_units}}
+- {{ params_part1_ans3_value }} {{ params_vars_units}}
+- {{ params_part1_ans4_value }} {{ params_vars_units}}
 
 ## Attribution
 

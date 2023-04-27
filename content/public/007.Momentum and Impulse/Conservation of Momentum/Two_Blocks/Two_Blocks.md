@@ -31,24 +31,16 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Two Blocks
-      x: 2
-      part1:
-        ans1:
-          value: 3.0 $mv^2$
-        ans2:
-          value: 4.0 $mv^2$
-        ans3:
-          value: 8.0 $mv^2$
-        ans4:
-          value: 20.0 $mv^2$
-        ans5:
-          value: 6.0 $mv^2$
+    params_vars_title: Two Blocks
+    params_x: 6
+    params_part1_ans1_value: 21.0 $mv^2$
+    params_part1_ans2_value: 4.0 $mv^2$
+    params_part1_ans3_value: 8.0 $mv^2$
+    params_part1_ans4_value: 20.0 $mv^2$
+    params_part1_ans5_value: 6.0 $mv^2$
 ---
-# {{ params.vars.title }}
-Two blocks, $M =$ {{ params.x }}$m$, sit on a horizontal frictionless surface with a compressed massless spring between them.
+# {{ params_vars_title }}
+Two blocks, $M =$ {{ params_x }}$m$, sit on a horizontal frictionless surface with a compressed massless spring between them.
 After the spring is released $M$ has velocity $v$.
 
 <img src="Q4.png" alt="A spring connects a block of mass m to its left to a block of mass M to its right" width= 300>
@@ -59,11 +51,11 @@ What was the total energy initially stored in the spring?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

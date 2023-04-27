@@ -68,18 +68,16 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Analyzing Potential Difference and Electric Field
-      q: '8.0'
-      c: '1.0'
-      d: '1.0'
-      k: '4.0'
+    params_vars_title: Analyzing Potential Difference and Electric Field
+    params_q: '11.0'
+    params_c: '2.0'
+    params_d: '4.0'
+    params_k: '6.0'
 ---
-# {{ params.vars.title }}
-A parallel-plate capacitor has charge of magnitude {{params.q }} $\rm\ \mu\textrm{C}$ on each plate and capacitance {{params.c }} $\rm\ \mu\textrm{F}$  when there is air between the plates.
-The plates are separated by {{params.d }} $\textrm{ mm}$.
-With the charge on the plates kept constant, a dielectric with $\kappa = $ {{params.k }} is inserted between the plates, completely filling the volume between the plates.
+# {{ params_vars_title }}
+A parallel-plate capacitor has charge of magnitude {{params_q }} $\rm\ \mu\textrm{C}$ on each plate and capacitance {{params_c }} $\rm\ \mu\textrm{F}$  when there is air between the plates.
+The plates are separated by {{params_d }} $\textrm{ mm}$.
+With the charge on the plates kept constant, a dielectric with $\kappa = $ {{params_k }} is inserted between the plates, completely filling the volume between the plates.
 
 ## Part 1
 

@@ -41,17 +41,15 @@ part1:
     suffix: $\rm\ \mu\textrm{C}$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Charging a Capacitor
-      c: '3.7'
-      v: '50'
+    params_vars_title: Charging a Capacitor
+    params_c: '3.2'
+    params_v: '40'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
-A set of parallel plates has a capacitance of {{params.c }}$\rm\ \mu\textrm{F}$. How much charge must be added to the plates to increase the potential difference between them by {{params.v }}$\textrm{ V}$?
+A set of parallel plates has a capacitance of {{params_c }}$\rm\ \mu\textrm{F}$. How much charge must be added to the plates to increase the potential difference between them by {{params_v }}$\textrm{ V}$?
 
 ### Answer Section
 

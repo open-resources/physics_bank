@@ -74,20 +74,18 @@ part3:
     custom-format: .3g
 myst:
   substitutions:
-    params:
-      vars:
-        title: Switched LC Circuit
-      L: '99.0'
-      C: '3.50'
-      V: '11.5'
+    params_vars_title: Switched LC Circuit
+    params_L: '90.0'
+    params_C: '4.25'
+    params_V: '14.0'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Consider the switched $LC$ circuit shown below.
 
 <img src="fig_OSUPv2p14_68.png" width=325>
 
 Consider the case that $\rm S_1$ is opened and $\rm S_2$ is closed simultaneously.
-Here, $V = {{ params.V }}\rm\ V$, $L = {{ params.L }}\rm\ mH$, and $C = {{ params.C }}\rm\ \mu F$.
+Here, $V = {{ params_V }}\rm\ V$, $L = {{ params_L }}\rm\ mH$, and $C = {{ params_C }}\rm\ \mu F$.
 
 ## Part 1
 

@@ -46,18 +46,12 @@ part2:
     blank: true
 myst:
   substitutions:
-    params:
-      vars:
-        title: Concentric current arcs
-      part2:
-        ans1:
-          value: points out of the screen
-        ans2:
-          value: points into the screen
-        ans3:
-          value: points parallel to the screen
+    params_vars_title: Concentric current arcs
+    params_part2_ans1_value: points out of the screen
+    params_part2_ans2_value: points into the screen
+    params_part2_ans3_value: points parallel to the screen
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 The figure shows a current loop consisting of two concentric circular arcs and two perpendicular radial lines.
 Determine the magnetic field at point P.
 
@@ -77,9 +71,9 @@ Direction:
 
 ### Answer Section
 
-- {{ params.part2.ans1.value }}
-- {{ params.part2.ans2.value }}
-- {{ params.part2.ans3.value }}
+- {{ params_part2_ans1_value }}
+- {{ params_part2_ans2_value }}
+- {{ params_part2_ans3_value }}
 
 ## Attribution
 

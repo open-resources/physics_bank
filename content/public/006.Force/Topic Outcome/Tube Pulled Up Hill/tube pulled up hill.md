@@ -45,19 +45,17 @@ part2:
     suffix: $m/s^2$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Tube pulled Uphill
-      m: 41
-      theta_s: 16
-      theta_2: 10
-      T_2: 185
-      T_1: 122
+    params_vars_title: Tube pulled Uphill
+    params_m: 46
+    params_theta_s: 16
+    params_theta_2: 7
+    params_T_2: 198
+    params_T_1: 138
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="L14Q2.png" width=80%>
 
-At a waterpark, a motor pulls a $m = {{params.m}}kg$ tube and person up a ${{params.theta_s}}^{\circ}$ frictionless incline, creating a tension $T$ in the cable.
+At a waterpark, a motor pulls a $m = {{params_m}}kg$ tube and person up a ${{params.theta_s}}^{\circ}$ frictionless incline, creating a tension $T$ in the cable.
 The cable rises ${{params.theta_2}}^{\circ}$ to travel over a frictionless pulley.
 Acceleration is positive if up the slope, negative if down.
 Determine the acceleration for the following cases:

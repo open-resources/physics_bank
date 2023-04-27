@@ -34,18 +34,16 @@ part1:
     suffix: $\rm\ V$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Radio Antenna
-      l: '0.8'
-      v: '50'
-      B: '6.5'
+    params_vars_title: Radio Antenna
+    params_l: '1.0'
+    params_v: '100'
+    params_B: '6.5'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
-An automobile with a radio antenna ${{params.l }}\textrm{ m}$ long travels at ${{params.v }}\textrm{ km/hr}$ in a location where the Earth's horizontal magnetic field is ${{params.B }} \times 10^{-5} \textrm{ T}$. What is the maximum possible emf induced in the antenna due to this motion?
+An automobile with a radio antenna ${{params_l }}\textrm{ m}$ long travels at ${{params_v }}\textrm{ km/hr}$ in a location where the Earth's horizontal magnetic field is ${{params_B }} \times 10^{-5} \textrm{ T}$. What is the maximum possible emf induced in the antenna due to this motion?
 
 ### Answer Section
 

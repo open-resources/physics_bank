@@ -30,11 +30,9 @@ part1:
     digits: 2
 myst:
   substitutions:
-    params:
-      vars:
-        title: Archer Fish and Insect Catch
+    params_vars_title: Archer Fish and Insect Catch
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 An âarcherâ fish catches insect prey by squirting water droplets into the air to knock insects off the leaves above the surface of the water.
 
 <img src="fish.png" width=400>

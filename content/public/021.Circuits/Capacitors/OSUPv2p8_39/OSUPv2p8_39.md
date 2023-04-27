@@ -65,19 +65,17 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Switching Connections
-      a: '5.0'
-      b: '2.0'
-      v: '4.0'
+    params_vars_title: Switching Connections
+    params_a: '2.0'
+    params_b: '3.0'
+    params_v: '2.0'
 ---
-# {{ params.vars.title }}
-A ${{params.a }} \rm\ \mu\textrm{F}$ capacitor and a ${{params.b }} \rm\ \mu\textrm{F}$ capacitor are connected in series across a ${{params.v }} \textrm{ kV}$ potential. The charged capacitors are then disconnected from the source and connected to each other with terminals of like sign together.
+# {{ params_vars_title }}
+A ${{params_a }} \rm\ \mu\textrm{F}$ capacitor and a ${{params_b }} \rm\ \mu\textrm{F}$ capacitor are connected in series across a ${{params_v }} \textrm{ kV}$ potential. The charged capacitors are then disconnected from the source and connected to each other with terminals of like sign together.
 
 ## Part 1
 
-What is the voltage across the ${{params.a }} \rm\ \mu\textrm{F}$ capacitor?
+What is the voltage across the ${{params_a }} \rm\ \mu\textrm{F}$ capacitor?
 
 ### Answer Section
 
@@ -85,7 +83,7 @@ Please enter a numeric value.
 
 ## Part 2
 
-What is the voltage across the ${{params.b }} \rm\ \mu\textrm{F}$ capacitor?
+What is the voltage across the ${{params_b }} \rm\ \mu\textrm{F}$ capacitor?
 
 ### Answer Section
 
@@ -93,7 +91,7 @@ Please enter a numeric value.
 
 ## Part 3
 
-What is the charge on the ${{params.a }} \rm\ \mu\textrm{F}$ capacitor?
+What is the charge on the ${{params_a }} \rm\ \mu\textrm{F}$ capacitor?
 
 ### Answer Section
 
@@ -101,7 +99,7 @@ Please enter a numeric value.
 
 ## Part 4
 
-What is the charge on the ${{params.b }} \rm\ \mu\textrm{F}$ capacitor?
+What is the charge on the ${{params_b }} \rm\ \mu\textrm{F}$ capacitor?
 
 ### Answer Section
 

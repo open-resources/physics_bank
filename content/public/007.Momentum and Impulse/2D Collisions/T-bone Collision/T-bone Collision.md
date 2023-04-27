@@ -35,22 +35,20 @@ part1:
     suffix: $m/s$
 myst:
   substitutions:
-    params:
-      vars:
-        title: T-bone Collision
-      ma: 1577
-      mb: 1457
-      vak: 67
-      thetad: 42
+    params_vars_title: T-bone Collision
+    params_ma: 1474
+    params_mb: 1429
+    params_vak: 62
+    params_thetad: 43
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="T-bone Collision.png" width=400>
 
 Two cars experience a "T-bone" collision at an intersection.
-Car A has a mass of ${{params.ma}}kg$, and Car B has a mass of ${{params.mb}}kg$.
+Car A has a mass of ${{params_ma}}kg$, and Car B has a mass of ${{params_mb}}kg$.
 The cars become entangled and move with a common velocity in the direction shown.
-If Car A was travelling at ${{params.vak}}km/h$ when impacted, calculate the corresponding velocity of Car B at impact.
-$\theta= {{params.thetad}}^\circ$
+If Car A was travelling at ${{params_vak}}km/h$ when impacted, calculate the corresponding velocity of Car B at impact.
+$\theta= {{params_thetad}}^\circ$
 
 ## Part 1
 

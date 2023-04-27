@@ -35,21 +35,19 @@ part1:
     suffix: $^{\circ}$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Coin in a Funnel
-      r1: 1.49
-      vo: 0.44
-      r2: 0.172
-      ad: 40
+    params_vars_title: Coin in a Funnel
+    params_r1: 1.03
+    params_vo: 0.56
+    params_r2: 0.172
+    params_ad: 45
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="Marble in a Funnel.png" width=400>
 
-A coin is inserted into a donation machine. It leaves the entry track with a velocity of ${{params.vo}}$ m/s horizontally in a funnel, making an angle $\alpha$.
+A coin is inserted into a donation machine. It leaves the entry track with a velocity of ${{params_vo}}$ m/s horizontally in a funnel, making an angle $\alpha$.
 Determine the angle $\theta$ which its velocity makes with the horizontal as the coin passes bottom of the funnel.
 Assume the coin always remains spinning on its thin edge.
-$r = {{params.r1}}$ m, The radius of the opening at the bottom is $r2 = {{params.r2}}$ m, $\alpha= {{params.ad}}^\circ$
+$r = {{params_r1}}$ m, The radius of the opening at the bottom is $r2 = {{params_r2}}$ m, $\alpha= {{params_ad}}^\circ$
 
 ## Part 1
 

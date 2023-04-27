@@ -35,15 +35,13 @@ part1:
     suffix: ${\circ}$ E of N
 myst:
   substitutions:
-    params:
-      vars:
-        title: Rocket in the wind
-        units: ${\circ}$
-      v0: 6
-      wind_acc: 3.4
+    params_vars_title: Rocket in the wind
+    params_vars_units: ${\circ}$
+    params_v0: 20
+    params_wind_acc: 3.4
 ---
-# {{ params.vars.title }}
-A model rocket looks to launch with a speed $v\_{0} = {{params.v0}} m/s$.
+# {{ params_vars_title }}
+A model rocket looks to launch with a speed $v\_{0} = {{params_v0}} m/s$.
 A the windy day imparts a horizontal acceleration of ${{params.wind_acc}} m/s^2$ to the left.
 
 <img src="L5Q4.png" width=400>
@@ -55,7 +53,7 @@ Assume that the wind does not affect vertical motion.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

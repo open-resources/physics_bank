@@ -26,34 +26,26 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Math Diagnostic15
-      expr: $6^{2} $=$ 36$
-      part1:
-        ans1:
-          value: $log_636 = 2$
-        ans2:
-          value: $log_62 = 36$
-        ans3:
-          value: $log_362 = 6$
-        ans4:
-          value: $log_236 = 6$
-        ans5:
-          value: Don't Know
+    params_vars_title: Math Diagnostic15
+    params_expr: $6^{3} $=$ 216$
+    params_part1_ans1_value: $log_6216 = 3$
+    params_part1_ans2_value: $log_63 = 216$
+    params_part1_ans3_value: $log_2163 = 6$
+    params_part1_ans4_value: $log_3216 = 6$
+    params_part1_ans5_value: Don't Know
 ---
-# {{ params.vars.title }}
-If {{params.expr}} then
+# {{ params_vars_title }}
+If {{params_expr}} then
 
 ## Part 1
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

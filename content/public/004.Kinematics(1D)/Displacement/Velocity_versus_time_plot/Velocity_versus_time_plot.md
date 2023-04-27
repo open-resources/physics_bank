@@ -28,11 +28,9 @@ part1:
     allow-blank: true
 myst:
   substitutions:
-    params:
-      vars:
-        title: Velocity Versus Time Plot
+    params_vars_title: Velocity Versus Time Plot
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 The figure below shows a plot of velocity versus time for a particle moving with constant acceleration $a_c$. The particle has velocity $v_0$ at time $t_0$. In the time elapsed between $t_0$ and a later time $t$ ($t > t_0$), the particle is displaced $\Delta x$.
 
 <img src="q7.png" alt = "A velocity versus time plot starting at the second notch on the y-axis and 0 on the x-axis." width = 400px>

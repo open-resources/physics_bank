@@ -28,16 +28,11 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Uniform Magnetic Field
-      part1:
-        ans1:
-          value: 'Yes'
-        ans2:
-          value: 'No'
+    params_vars_title: Uniform Magnetic Field
+    params_part1_ans1_value: 'Yes'
+    params_part1_ans2_value: 'No'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
@@ -45,8 +40,8 @@ A wire loop moves translationally (no rotation) in a uniform magnetic field. Is 
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
 
 ## Attribution
 

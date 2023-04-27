@@ -62,24 +62,18 @@ part5:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Position Graph
-      part5:
-        ans1:
-          value: There is no sign.
-          feedback: 'Please try again! Hint: Try finding the velocities before and
-            after point B (recall the definition of acceleration).'
-        ans2:
-          value: Negative
-          feedback: Great! You got it; the velocity $v_x$ is positive just before
-            B and negative after B, thus $a_x$ has a negative sign!
-        ans3:
-          value: Positive
-          feedback: 'Please try again! Hint: Try finding the velocities before and
-            after point B (recall the definition of acceleration).'
+    params_vars_title: Position Graph
+    params_part5_ans1_value: There is no sign.
+    params_part5_ans1_feedback: 'Please try again! Hint: Try finding the velocities
+      before and after point B (recall the definition of acceleration).'
+    params_part5_ans2_value: Negative
+    params_part5_ans2_feedback: Great! You got it; the velocity $v_x$ is positive
+      just before B and negative after B, thus $a_x$ has a negative sign!
+    params_part5_ans3_value: Positive
+    params_part5_ans3_feedback: 'Please try again! Hint: Try finding the velocities
+      before and after point B (recall the definition of acceleration).'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 At each of A, B and C on the graph below, estimate the $x$-component of the velocity vector, $v_x$ from the position vs. time graph.
 
 <img src="graph.png" alt = "This is a position vs. time graph. The y-axis is labelled 'x (m)' and the x-axis is labelled 't (s)'. Each grid is 1m and 1s. There is an upside down parabola, with its roots at t = 3s (labelled point A) and 7s (labelled point C). Its vertex is approximately at 2.5m and 5s (labelled point B). The rest of the parabola extends downwards to infinity.">

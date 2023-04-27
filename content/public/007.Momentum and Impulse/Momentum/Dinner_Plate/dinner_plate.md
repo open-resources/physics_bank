@@ -66,29 +66,22 @@ part5:
     label: $\Delta E = $
 myst:
   substitutions:
-    params:
-      vars:
-        title: Dinner Plate
-        part1:
-          units: rad/s
-        part2:
-          units: $kg m^2$
-        part3:
-          units: $kg m^2$/s
-        part4:
-          units: rad/s
-        part5:
-          units: J
-      m_p: 1.67
-      r_p: 0.47
-      m: 1.93
-      r: 0.21
-      x: 6
+    params_vars_title: Dinner Plate
+    params_vars_part1_units: rad/s
+    params_vars_part2_units: $kg m^2$
+    params_vars_part3_units: $kg m^2$/s
+    params_vars_part4_units: rad/s
+    params_vars_part5_units: J
+    params_m_p: 1.06
+    params_r_p: 0.28
+    params_m: 2.67
+    params_r: 0.16
+    params_x: 3
 ---
-# {{ params.vars.title }}
-A cylindrical dinner plate is spinning out in space. It has mass $m_p =$ {{params.m_p}} $kg$, radius $r =$ {{ params.r_p }} $m$ and it rotates clockwise (as seen from above) {{ params.x }} times every second.
+# {{ params_vars_title }}
+A cylindrical dinner plate is spinning out in space. It has mass $m_p =$ {{params_m_p}} $kg$, radius $r =$ {{ params_r_p }} $m$ and it rotates clockwise (as seen from above) {{ params_x }} times every second.
 A (non-rotating) cylindrical cake is shot at it and the cake sticks to the surface of the plate.
-The cake has a mass $m =$ {{ params.m }} $kg$ and radius $r =$ {{ params.r }} $m$.
+The cake has a mass $m =$ {{ params_m }} $kg$ and radius $r =$ {{ params_r }} $m$.
 In the end, both the cake and the plate rotate together.
 
 ## Part 1
@@ -97,7 +90,7 @@ Calculate the initial angular velocity of the plate.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.part1.units }}.
+Please enter in a numeric value in {{ params_vars_part1_units }}.
 
 ## Part 2
 
@@ -105,7 +98,7 @@ Calculate the moment of interia of the plate.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.part2.units }}.
+Please enter in a numeric value in {{ params_vars_part2_units }}.
 
 ## Part 3
 
@@ -113,7 +106,7 @@ Calculate the initial angular momentum of the system.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.part3.units }}.
+Please enter in a numeric value in {{ params_vars_part3_units }}.
 
 ## Part 4
 
@@ -121,7 +114,7 @@ Calculate the final angular velocity of the system.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.part4.units }}.
+Please enter in a numeric value in {{ params_vars_part4_units }}.
 
 ## Part 5
 
@@ -129,7 +122,7 @@ How much energy is dissipated in the collision?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.part5.units }}.
+Please enter in a numeric value in {{ params_vars_part5_units }}.
 
 ## Attribution
 

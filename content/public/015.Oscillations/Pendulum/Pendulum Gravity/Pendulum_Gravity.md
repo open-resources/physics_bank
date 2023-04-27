@@ -34,17 +34,15 @@ part1:
     comparison: relabs
 myst:
   substitutions:
-    params:
-      vars:
-        title: Pendulum Gravity
-      Ti: 2.045
-      Tf: 1.9629999999999999
+    params_vars_title: Pendulum Gravity
+    params_Ti: 2.134
+    params_Tf: 2.227
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
-A pendulum with a period of {{ params.Ti }} $\rm{s}$ in one location (g = 9.807 $\rm{m/s^2}$) is moved to a new location where the period is now {{ params.Tf }} $\rm{s}$. What is the acceleration due to gravity at its new location?
+A pendulum with a period of {{ params_Ti }} $\rm{s}$ in one location (g = 9.807 $\rm{m/s^2}$) is moved to a new location where the period is now {{ params_Tf }} $\rm{s}$. What is the acceleration due to gravity at its new location?
 
 ### Answer Section
 

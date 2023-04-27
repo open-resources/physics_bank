@@ -42,19 +42,17 @@ part1:
     suffix: $\rm\ \mu T$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Wire in an external magnetic field
-      I: '15.5'
-      Bext: '28.0'
-      d: '27.5'
+    params_vars_title: Wire in an external magnetic field
+    params_I: '23.5'
+    params_Bext: '25.5'
+    params_d: '17.5'
 ---
-# {{ params.vars.title }}
-A long, straight, horizontal wire carries a left-to-right current of {{ params.I }}$\rm\ A$.The wire is placed in a uniform magnetic field of magnitude {{ params.Bext }}$~\mu\mathrm{T}$ that is directed vertically downward.
+# {{ params_vars_title }}
+A long, straight, horizontal wire carries a left-to-right current of {{ params_I }}$\rm\ A$.The wire is placed in a uniform magnetic field of magnitude {{ params_Bext }}$~\mu\mathrm{T}$ that is directed vertically downward.
 
 ## Question Text
 
-What is the magnitude of the net magnetic field {{ params.d }}$\rm\ cm$ above the wire?
+What is the magnitude of the net magnetic field {{ params_d }}$\rm\ cm$ above the wire?
 
 ### Answer Section
 

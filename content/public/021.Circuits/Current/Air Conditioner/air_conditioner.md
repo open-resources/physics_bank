@@ -40,14 +40,12 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Air Conditioner
-      I: 13
-      n: 36
+    params_vars_title: Air Conditioner
+    params_I: 34
+    params_n: 44
 ---
-# {{ params.vars.title }}
-The current supplied to an air conditioner unit is {{params.I}} $\textrm{A}$. The air conditioner is wired using a 10-gauge (diameter 2.588 mm) wire. The charge density is $ {{{params.n}} \times 10^{28}} {electrons \over m^3} $.
+# {{ params_vars_title }}
+The current supplied to an air conditioner unit is {{params_I}} $\textrm{A}$. The air conditioner is wired using a 10-gauge (diameter 2.588 mm) wire. The charge density is $ {{{params_n}} \times 10^{28}} {electrons \over m^3} $.
 
 ## Part 1
 

@@ -37,16 +37,11 @@ part1:
     blank: true
 myst:
   substitutions:
-    params:
-      vars:
-        title: Order of charges
-      part1:
-        ans1:
-          value: 'True'
-        ans2:
-          value: 'False'
+    params_vars_title: Order of charges
+    params_part1_ans1_value: 'True'
+    params_part1_ans2_value: 'False'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
@@ -54,8 +49,8 @@ The order in which a system of point charges is assembled affects the total work
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
 
 ## Attribution
 

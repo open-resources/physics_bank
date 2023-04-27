@@ -58,15 +58,13 @@ part4:
     suffix: $J$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Work Done by a Constant Force
-        units: $J$
-      F: 19.7
-      r: 39.0
+    params_vars_title: Work Done by a Constant Force
+    params_vars_units: $J$
+    params_F: 6.07
+    params_r: 49.0
 ---
-# {{ params.vars.title }}
-Calculate the work done by a constant force of magnitude $F = $ {{ params.F }} $N$ applied over a displacement of magnitude $\Delta r = $ {{ params.r }} $m$ for all four of the diagrams.
+# {{ params_vars_title }}
+Calculate the work done by a constant force of magnitude $F = $ {{ params_F }} $N$ applied over a displacement of magnitude $\Delta r = $ {{ params_r }} $m$ for all four of the diagrams.
 
 <img longdesc="Work Done by Constant Force.md#desc" alt="Image of the force acting at different angles to the displacement." src="q6_2013practiceFinal.png">
 
@@ -85,7 +83,7 @@ Calculate the work done for Figure (a).
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Part 2
 
@@ -93,7 +91,7 @@ Calculate the work done for Figure (b).
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Part 3
 
@@ -101,7 +99,7 @@ Calculate the work done for Figure (c).
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Part 4
 
@@ -109,7 +107,7 @@ Calculate the work done for Figure (d).
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

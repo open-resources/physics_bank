@@ -33,21 +33,19 @@ part1:
     suffix: $m/s$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Blocks On Frictionless Table
-        units: $\frac{m}{s}$
-      v0: 470
-      v1: 8
-      mb: 15
-      mw: 485
-      d: 1
+    params_vars_title: Blocks On Frictionless Table
+    params_vars_units: $\frac{m}{s}$
+    params_v0: 457
+    params_v1: 8
+    params_mb: 12
+    params_mw: 475
+    params_d: 3
 ---
-# {{ params.vars.title }}
-Two {{params.mw}} $g$ blocks of wood are {{params.d}} $m$ apart on a frictionless table.
-A {{params.mb}} $g$ bullet is fired at {{params.v0}} {{ params.vars.units }} toward the blocks.
+# {{ params_vars_title }}
+Two {{params_mw}} $g$ blocks of wood are {{params_d}} $m$ apart on a frictionless table.
+A {{params_mb}} $g$ bullet is fired at {{params_v0}} {{ params_vars_units }} toward the blocks.
 It passes all the way through the first block, then embeds itself in the second block.
-The speed of the first block immediately afterwards is {{params.v1}} $\frac{m}{s}$.
+The speed of the first block immediately afterwards is {{params_v1}} $\frac{m}{s}$.
 
 ## Question Text
 
@@ -56,7 +54,7 @@ Give your answer to three significant figures.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

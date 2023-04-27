@@ -30,20 +30,13 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Collisions and Isolated Systems Graphs
-      part1:
-        ans1:
-          value: I
-        ans2:
-          value: II
-        ans3:
-          value: I & II
-        ans4:
-          value: Neither
+    params_vars_title: Collisions and Isolated Systems Graphs
+    params_part1_ans1_value: I
+    params_part1_ans2_value: II
+    params_part1_ans3_value: I & II
+    params_part1_ans4_value: Neither
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 The figure below shows the velocity versus time graphs of two different collisions. The graph on the left shows a collision between cart A and cart S. The graph of the right shows a collision between cart B and cart S.
 
 <img src="Q2.png" alt="Two graphs of velocity versus time depicting a collision between two carts. The difference in velocity between Cart A and S is larger than the velocity difference between Cart B and S, at both the beginning and the end of the graph." >
@@ -54,10 +47,10 @@ If $\frac{m_A}{m_S}$ = 1/2 and $\frac{m_B}{m_S}$ = 3, for which of the collision
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
 
 ## Attribution
 

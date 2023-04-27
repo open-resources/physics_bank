@@ -35,29 +35,27 @@ part1:
     suffix: $m/s$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Velocity of a ball from acceleration
-        units: m/s
-      v0: 25
-      s0: 6
-      k: 0.02
-      s: 12
+    params_vars_title: Velocity of a ball from acceleration
+    params_vars_units: m/s
+    params_v0: 25
+    params_s0: 9
+    params_k: 0.03
+    params_s: 11
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 The acceleration of a ball is given by $a(x) = -5kx^2$, where $a$ is acceleration of the ball in $m/s^2$, $k$ is a constant with unspecified units, and $x$ is the position of the ball in $m$.
 
 ## Question Text
 
 Consider the following initial conditions for position $x_0$ and velocity $v_0$ at $t = 0 s$:
-$x_0 = {{params.s0}} m$
-$v_0 = {{params.v0}} m/s$
-Use these conditions to detemine the velocity of the ball at $x = {{params.s}} m$.
-You may use $k = {{params.k}} $.
+$x_0 = {{params_s0}} m$
+$v_0 = {{params_v0}} m/s$
+Use these conditions to detemine the velocity of the ball at $x = {{params_s}} m$.
+You may use $k = {{params_k}} $.
 
 ### Answer Section
 
-Please enter in a numeric value in ${{ params.vars.units }}$.
+Please enter in a numeric value in ${{ params_vars_units }}$.
 
 ## Attribution
 

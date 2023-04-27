@@ -34,30 +34,28 @@ part1:
     suffix: $m$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Centre of Mass of a Baton
-        units: $m$
-      m1: 0.17
-      m2: 0.12
-      m3: 0.091
-      l1: 0.57
-      l2: 1.2
+    params_vars_title: Centre of Mass of a Baton
+    params_vars_units: $m$
+    params_m1: 0.16
+    params_m2: 0.057
+    params_m3: 0.1
+    params_l1: 1.3
+    params_l2: 0.77
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
 Determine the position of the centre of mass of the baton shown in the figure below.
-The ball at the left end has a mass of $m_1 = $ {{ params.m1 }} $kg$, the ball at the right end has a mass of $m_3 = $ {{ params.m3 }} $kg$, and the bar has a mass of $m_2 = $ {{ params.m2 }} $kg$.
-Take the point $l_1 = $ {{ params.l1 }} $m$ to the left of the {{ params.m1 }} $kg$ mass as your origin.
-The length from the center of the left ball to the center of the right ball is $l_2 = $ {{ params.l2 }} $m$.
+The ball at the left end has a mass of $m_1 = $ {{ params_m1 }} $kg$, the ball at the right end has a mass of $m_3 = $ {{ params_m3 }} $kg$, and the bar has a mass of $m_2 = $ {{ params_m2 }} $kg$.
+Take the point $l_1 = $ {{ params_l1 }} $m$ to the left of the {{ params_m1 }} $kg$ mass as your origin.
+The length from the center of the left ball to the center of the right ball is $l_2 = $ {{ params_l2 }} $m$.
 
 <img alt="The figure shows the origin on the left side and the baton to the right of the origin. The left ball of the baton has mass m one and is bigger than the right ball of mass m three. The bar has mass m two. The length from the origin to the center of the left ball is l one. The length from the center of the left ball to the center of the right ball is l two." src="q5_2015practiceMid2.png">
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

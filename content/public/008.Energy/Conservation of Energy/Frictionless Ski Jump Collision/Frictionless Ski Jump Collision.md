@@ -41,20 +41,18 @@ part2:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params:
-      vars:
-        name: Ximena
-        title: Frictionless Ski Jump Collision
-      mA: 15
-      mB: 10.35
-      ramp_angle: 30
-      ramp_h: 0.74
-      hill_h: 427
+    params_vars_name: Emilia
+    params_vars_title: Frictionless Ski Jump Collision
+    params_mA: 29
+    params_mB: 11.6
+    params_ramp_angle: 7
+    params_ramp_h: 0.53
+    params_hill_h: 365
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A ski jump consists of a hill, a short flat section, and a ramp. The hill has height of ${{ params.hill_h }}$ $\rm{m}$ and the ramp has a height of ${{ params.ramp_h }}$ $\rm{m}$, making an angle of $\theta = {{ params.ramp_angle }}^\circ$ with the horizontal.
 
-Block A of mass $m_A = {{ params.mA }}$ $\rm{kg}$ is released from rest at the top of the frictionless hill and slides down to the frictionless short flat section, where it undergoes a perfectly elastic collision with Block B of mass $m_B = {{params.mB }}$ $\rm{kg}$. This causes Block B to slide up the frictionless ramp and undergo projectile motion, before landing a horizontal distance $x$ away from the ramp at the same height as the short flat section.
+Block A of mass $m_A = {{ params_mA }}$ $\rm{kg}$ is released from rest at the top of the frictionless hill and slides down to the frictionless short flat section, where it undergoes a perfectly elastic collision with Block B of mass $m_B = {{params_mB }}$ $\rm{kg}$. This causes Block B to slide up the frictionless ramp and undergo projectile motion, before landing a horizontal distance $x$ away from the ramp at the same height as the short flat section.
 
 <img src="skijump.png" width=100%>
 

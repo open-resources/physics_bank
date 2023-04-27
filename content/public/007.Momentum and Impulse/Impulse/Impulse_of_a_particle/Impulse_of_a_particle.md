@@ -46,19 +46,17 @@ part2:
     digits: 2
 myst:
   substitutions:
-    params:
-      vars:
-        title: Impulse of a particle
-      m: 254
+    params_vars_title: Impulse of a particle
+    params_m: 170
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="Impulse.png" alt= " A graph of force in the unit of newton, and time in ms. A straight line from t1= 0 ms to t2= 3 ms where F1 = 0 N and F2= 800 N. A horizontal line from t2= 3 ms to t3= 6 ms where F= 800 N.">
 
 Given the force-time plot shown in the figure,
 
 ## Part 1
 
-Determine the impulse the force exerts on a {{ params.m }} $\rm{g}$ particle.
+Determine the impulse the force exerts on a {{ params_m }} $\rm{g}$ particle.
 
 ### Answer Section
 

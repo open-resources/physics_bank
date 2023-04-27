@@ -56,23 +56,17 @@ part3:
     blank: true
 myst:
   substitutions:
-    params:
-      vars:
-        title: Varying Separation Distance of Capacitor Plates
-      a: '30.0'
-      b: '1.25'
-      c: '2.00'
-      v: '30'
-      part3:
-        ans1:
-          value: It is lost to the surroundings in the laboratory
-        ans2:
-          value: Charge is transferred to the battery
-        ans3:
-          value: It is transferred into heat energy
+    params_vars_title: Varying Separation Distance of Capacitor Plates
+    params_a: '15.0'
+    params_b: '0.50'
+    params_c: '3.00'
+    params_v: '70'
+    params_part3_ans1_value: It is lost to the surroundings in the laboratory
+    params_part3_ans2_value: Charge is transferred to the battery
+    params_part3_ans3_value: It is transferred into heat energy
 ---
-# {{ params.vars.title }}
-A parallel-plate capacitor is made of two square plates with side length {{params.a }} $\textrm{ cm}$ that are {{params.b }} $\textrm{ mm}$ apart. The capacitor is connected to a {{params.v }} $\textrm{ V}$ battery. With the battery still connected, the plates are pulled apart to a separation distance of {{params.c }} $\textrm{ mm}$.
+# {{ params_vars_title }}
+A parallel-plate capacitor is made of two square plates with side length {{params_a }} $\textrm{ cm}$ that are {{params_b }} $\textrm{ mm}$ apart. The capacitor is connected to a {{params_v }} $\textrm{ V}$ battery. With the battery still connected, the plates are pulled apart to a separation distance of {{params_c }} $\textrm{ mm}$.
 
 ## Part 1
 
@@ -96,9 +90,9 @@ Which best describes why the energy decreases even though work is done separatin
 
 ### Answer Section
 
-- {{ params.part3.ans1.value }}
-- {{ params.part3.ans2.value }}
-- {{ params.part3.ans3.value }}
+- {{ params_part3_ans1_value }}
+- {{ params_part3_ans2_value }}
+- {{ params_part3_ans3_value }}
 
 ### pl-submission-panel
 

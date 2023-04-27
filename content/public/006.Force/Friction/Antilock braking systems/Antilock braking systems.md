@@ -33,30 +33,22 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Antilock Braking Systems
-      part1:
-        ans1:
-          value: The coefficient of rolling friction is larger than that of kinetic
-            friction.
-        ans2:
-          value: The coefficient of kinetic friction is larger than that of rolling
-            friction.
-        ans3:
-          value: In rolling motion, a car's wheels remain at rest relative to the
-            road, and the coefficient of static friction is larger than that of kinetic
-            friction.
-        ans4:
-          value: In sliding motion, a car's wheels remain at rest relative to the
-            road, and the coefficient of static friction is larger than that of kinetic
-            friction.
-        ans5:
-          value: In sliding motion,  a car's wheels remain at rest relative to the
-            car,  and the coefficient of kinetic friction is larger than that of static
-            friction.
+    params_vars_title: Antilock Braking Systems
+    params_part1_ans1_value: The coefficient of rolling friction is larger than that
+      of kinetic friction.
+    params_part1_ans2_value: The coefficient of kinetic friction is larger than that
+      of rolling friction.
+    params_part1_ans3_value: In rolling motion, a car's wheels remain at rest relative
+      to the road, and the coefficient of static friction is larger than that of kinetic
+      friction.
+    params_part1_ans4_value: In sliding motion, a car's wheels remain at rest relative
+      to the road, and the coefficient of static friction is larger than that of kinetic
+      friction.
+    params_part1_ans5_value: In sliding motion,  a car's wheels remain at rest relative
+      to the car,  and the coefficient of kinetic friction is larger than that of
+      static friction.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Antilock braking systems (ABS) automatically release brakes when wheels are locked.  Once the wheels recommence rolling, the ABS reapplies the brakes.
 
 ## Part 1
@@ -65,11 +57,11 @@ These stop  a  vehicle  under  slippery  conditions  in  a  more  rapid  and  co
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

@@ -30,35 +30,28 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Bat Doppler
-      part1:
-        ans1:
-          value: We don't know if the bat is moving closer to or moving farther away
-            from the mosquito.
-          feedback: A frequency increase is not consistent with both the bat and mosquito
-            approaching each other and moving farther away from each other.
-        ans2:
-          value: The bat is moving farther away from the mosquito.
-          feedback: When the bat moves farther from the mosquito the reflected frequency
-            will decrease.
-        ans3:
-          value: The mosquito has evolved to mimic the sound waves produced by the
-            bat to confuse it.
-          feedback: While there are moths that have been reported to mimic the sound
-            wave to confuse their predators, mosquitos are not believed to.
-        ans4:
-          value: Both the bat and mosquito are flying at the same rate in the same
-            direction.
-          feedback: If the distance between bat and mosquito is not changing the frequency
-            of sound between them should not be changing because of the Doppler effect.
-        ans5:
-          value: The bat is moving closer to the mosquito.
-          feedback: Yes! You got it. Frequency increases when sources or receivers
-            approach due to the Doppler effect.
+    params_vars_title: Bat Doppler
+    params_part1_ans1_value: We don't know if the bat is moving closer to or moving
+      farther away from the mosquito.
+    params_part1_ans1_feedback: A frequency increase is not consistent with both the
+      bat and mosquito approaching each other and moving farther away from each other.
+    params_part1_ans2_value: The bat is moving farther away from the mosquito.
+    params_part1_ans2_feedback: When the bat moves farther from the mosquito the reflected
+      frequency will decrease.
+    params_part1_ans3_value: The mosquito has evolved to mimic the sound waves produced
+      by the bat to confuse it.
+    params_part1_ans3_feedback: While there are moths that have been reported to mimic
+      the sound wave to confuse their predators, mosquitos are not believed to.
+    params_part1_ans4_value: Both the bat and mosquito are flying at the same rate
+      in the same direction.
+    params_part1_ans4_feedback: If the distance between bat and mosquito is not changing
+      the frequency of sound between them should not be changing because of the Doppler
+      effect.
+    params_part1_ans5_value: The bat is moving closer to the mosquito.
+    params_part1_ans5_feedback: Yes! You got it. Frequency increases when sources
+      or receivers approach due to the Doppler effect.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Bats have poor eyesight, so they use echolocation to orient themselves and to hunt prey (insects). They emit ultrasonic sound waves as chirps and listen to hear if the reflected waves are Doppler shifted to higher or lower frequencies as they fly.
 
 ## Useful Info
@@ -71,11 +64,11 @@ If the reflected waves from a mosquito have slightly increased in frequency:
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

@@ -43,18 +43,16 @@ part2:
     suffix: $N$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Ball Bouncing off a Wall
-        units1: $\frac{kg*m}{s}$
-        units2: $N$
-      m: 7
-      v: 14
-      theta: 25
-      t: 0.321
+    params_vars_title: Ball Bouncing off a Wall
+    params_vars_units1: $\frac{kg*m}{s}$
+    params_vars_units2: $N$
+    params_m: 3
+    params_v: 5
+    params_theta: 31
+    params_t: 0.665
 ---
-# {{ params.vars.title }}
-A {{params.m}} kg steel bass strikes a massive wall at {{params.v}} m/s at an angle of {{params.theta}} degrees with the plane of the wall.
+# {{ params_vars_title }}
+A {{params_m}} kg steel bass strikes a massive wall at {{params_v}} m/s at an angle of {{params_theta}} degrees with the plane of the wall.
 It bounces off of the wall with the same speed and angle (see the figure).
 
 <img src="q6.png" width=400 alt="Ball bouncing on then off a wall at angle theta">
@@ -65,15 +63,15 @@ What is the x-component of the impulse that the wall exerts on the ball during t
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units1 }}.
+Please enter in a numeric value in {{ params_vars_units1 }}.
 
 ## Part 2
 
-If the ball is in contact with the wall for {{ params.t }} s, what is the average force that the wall exerts on the ball during the collision?
+If the ball is in contact with the wall for {{ params_t }} s, what is the average force that the wall exerts on the ball during the collision?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units2 }}.
+Please enter in a numeric value in {{ params_vars_units2 }}.
 
 ## Attribution
 

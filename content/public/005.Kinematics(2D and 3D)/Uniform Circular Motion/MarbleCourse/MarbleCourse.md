@@ -35,21 +35,19 @@ part1:
     suffix: $in$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Marble Course
-        units: $in$
-      max_acc_A: 0.5
-      max_acc_B: 0.8
-      ra: 346
-      rb: 376
-      angle: 66
+    params_vars_title: Marble Course
+    params_vars_units: $in$
+    params_max_acc_A: 0.6
+    params_max_acc_B: 0.7
+    params_ra: 375
+    params_rb: 397
+    params_angle: 73
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Two marbles travel in track as part of a Rube Goldberg machine.
 Both marbles cross line $C$ at the same time, and flow at a their maximum speed.
-The maximum horizontal acceleration for marble A is ${{params.max_acc_A}}g$ with $R\_{A} = {{params.ra}} in$ and for marble B is ${{params.max_acc_B}}g$ with $R\_{B} = {{params.rb}} in$.
-The angle $\theta = {{params.angle}}^{\circ}$.
+The maximum horizontal acceleration for marble A is ${{params.max_acc_A}}g$ with $R\_{A} = {{params_ra}} in$ and for marble B is ${{params.max_acc_B}}g$ with $R\_{B} = {{params_rb}} in$.
+The angle $\theta = {{params_angle}}^{\circ}$.
 
 <img src="L8Q1.png" width=400>
 
@@ -59,7 +57,7 @@ Determine the distance $\gamma$ which the second marble has yet to go along its 
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

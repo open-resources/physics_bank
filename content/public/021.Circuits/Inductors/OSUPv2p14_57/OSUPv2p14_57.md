@@ -61,18 +61,16 @@ part2:
     custom-format: .3g
 myst:
   substitutions:
-    params:
-      vars:
-        title: 'Switched RL Series Circuit: Time Constant'
-      t: '2.25'
-      L: '265.0'
+    params_vars_title: 'Switched RL Series Circuit: Time Constant'
+    params_t: '2.05'
+    params_L: '300.0'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Consider the $RL$ circuit shown below.
 
 <img src="fig_OSUPv2p14_57.png" width=250>
 
-The current in the circuit reaches half of its maximum value in ${{ params.t }}\rm\ ms$ after switch $\rm S$ is thrown.
+The current in the circuit reaches half of its maximum value in ${{ params_t }}\rm\ ms$ after switch $\rm S$ is thrown.
 
 ## Part 1
 
@@ -84,7 +82,7 @@ Please enter in a numeric value in $\rm\ s$.
 
 ## Part 2
 
-Given $L = {{ params.L }}\rm\ mH$, determine the resistance $R$ of the circuit.
+Given $L = {{ params_L }}\rm\ mH$, determine the resistance $R$ of the circuit.
 
 ### Answer Section
 

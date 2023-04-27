@@ -43,15 +43,13 @@ part2:
     suffix: amu
 myst:
   substitutions:
-    params:
-      vars:
-        title: Uranium Fragments
-        units: amu
-      frag_speed: 1.8
-      dn_speed: 2.16
-      orig_mass: $^{238}\mathrm{U}$
+    params_vars_title: Uranium Fragments
+    params_vars_units: amu
+    params_frag_speed: 2.1
+    params_dn_speed: 3.04
+    params_orig_mass: $^{234}\mathrm{U}$
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A radioactive {{params.orig_mass}} uranium nucleus is initially at rest.
 It spontaneously disintegrates into a small fragment that is ejected with a measured speed of {{params.frag_speed}}$ \times 10^7 \ m/s$ and a daughter nucleus that recoils with a measured speed of {{params.dn_speed}}$ \times 10^5 \ m/s$.
 The mass of the original uranium nucleus is {{params.orig_mass}} amu (atomic mass units).
@@ -62,7 +60,7 @@ What is the mass of the ejected fragment?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Part 2
 
@@ -70,7 +68,7 @@ What is the mass of the daughter nucleus?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

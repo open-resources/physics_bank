@@ -36,12 +36,10 @@ part1:
     digits: 2
 myst:
   substitutions:
-    params:
-      vars:
-        title: Force on a Mosquito
-        units: "$\frac{kg m}{s}$"
+    params_vars_title: Force on a Mosquito
+    params_vars_units: "$\frac{kg m}{s}$"
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A force versus time graph for the force on a mosquito is given in the figure below.
 
 ## Question Text
@@ -52,7 +50,7 @@ Calculate the change in momentum of the mosquito due to this impulsive force.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

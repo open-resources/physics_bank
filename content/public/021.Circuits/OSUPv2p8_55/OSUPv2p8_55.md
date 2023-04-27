@@ -50,19 +50,17 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Partially Filled Capacitor
-      a: '35.0'
-      b: '20.0'
-      f: '4'
+    params_vars_title: Partially Filled Capacitor
+    params_a: '55.0'
+    params_b: '18.0'
+    params_f: '3'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A parallel-plate capacitor with only air between its plates is charged by connecting the capacitor to a battery. The capacitor is then disconnected from the battery, without any of the charge leaving the plates.
 
 ## Part 1
 
-A voltmeter reads {{params.a }} $\textrm{ V}$ when placed across the capacitor. When a dielectric is inserted between the plates, completely filling the space, the voltmeter {{params.b }} $\textrm{ V}$. What is the dielectric constant of the material?
+A voltmeter reads {{params_a }} $\textrm{ V}$ when placed across the capacitor. When a dielectric is inserted between the plates, completely filling the space, the voltmeter {{params_b }} $\textrm{ V}$. What is the dielectric constant of the material?
 
 ### Answer Section
 
@@ -70,7 +68,7 @@ Please enter a numeric value.
 
 ## Part 2
 
-What will the voltmeter read if the dielectric is now pulled away out so it fills only $1/${{params.f }} of the space between the plates?
+What will the voltmeter read if the dielectric is now pulled away out so it fills only $1/${{params_f }} of the space between the plates?
 
 ### Answer Section
 

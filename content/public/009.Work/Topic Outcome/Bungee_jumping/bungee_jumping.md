@@ -29,37 +29,30 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Bungee Jumping
-        name: Savannah
-      part1:
-        ans1:
-          value: The tension points up, and Savannah moves down, so negative work
-            is done.
-        ans2:
-          value: The tension points down, and Savannah moves down, so negative work
-            is done.
-        ans3:
-          value: The tension points up, and Savannah moves down, so positive work
-            is done.
-        ans4:
-          value: The tension point up, and Savannah moves up, so positive work is
-            done.
+    params_vars_title: Bungee Jumping
+    params_vars_name: Aliyah
+    params_part1_ans1_value: The tension points up, and Aliyah moves down, so positive
+      work is done.
+    params_part1_ans2_value: The tension point up, and Aliyah moves up, so positive
+      work is done.
+    params_part1_ans3_value: The tension points up, and Aliyah moves down, so negative
+      work is done.
+    params_part1_ans4_value: The tension points down, and Aliyah moves down, so negative
+      work is done.
 ---
-# {{ params.vars.title }}
-{{ params.vars.name }} decides to go bungee jumping. Starting atop a very high bridge, elastic cords are tied to their feet and they jump off the bridge. Once {{ params.vars.name }} has fallen a certain distance, the force of the bungee cords slows their descent until they are at the lowest point.
+# {{ params_vars_title }}
+{{ params_vars_name }} decides to go bungee jumping. Starting atop a very high bridge, elastic cords are tied to their feet and they jump off the bridge. Once {{ params_vars_name }} has fallen a certain distance, the force of the bungee cords slows their descent until they are at the lowest point.
 
 ## Part 1
 
-If the system under consideration is: {{ params.vars.name }}, the air, and the earth; discuss the work done by the bungee cord as {{ params.vars.name }} descends. Assume the positive y direction is up.
+If the system under consideration is: {{ params_vars_name }}, the air, and the earth; discuss the work done by the bungee cord as {{ params_vars_name }} descends. Assume the positive y direction is up.
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
 
 ## Attribution
 

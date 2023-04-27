@@ -42,11 +42,9 @@ part1:
     suffix: $R$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Field on loop axis
+    params_vars_title: Field on loop axis
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A circular loop of radius $R$ carries a current $I$.
 
 ## Question Text

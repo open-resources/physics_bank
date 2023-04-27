@@ -61,27 +61,22 @@ part5:
     source-file-name: sample.html
 myst:
   substitutions:
-    params:
-      vars:
-        title: Carbon Dioxide Diffusion
-        unit1: $m^2/s$
-        unit2: $s$
-      water: 2.0
-      air: 1.7
-      time: 6
-      const: 5
-      part3:
-        ans1:
-          value: directly
-        ans2:
-          value: inversely
+    params_vars_title: Carbon Dioxide Diffusion
+    params_vars_unit1: $m^2/s$
+    params_vars_unit2: $s$
+    params_water: 1.9
+    params_air: 1.8
+    params_time: 6
+    params_const: 5
+    params_part3_ans1_value: directly
+    params_part3_ans2_value: inversely
 ---
-# {{ params.vars.title }}
-According to our textbook, at 25$^\circ$ $C$, the diffusion constant of $CO_2$ in water is $D\_{water} = {{ params.water }} \times 10^{-9}$ $m^2/s$ and the diffusion constant of $CO_2$ in air at one atmosphere is $D\_{air} = {{ params.air }} \times 10^{-5}$ $m^2/s$. If it takes $t\_{air} = $ {{ params.time }} $s$ for $CO_2$ to diffuse a distance $r\_{rms}=d_1$ through the air, how long does it take for $CO_2$ to diffuse $r\_{rms}=d_1$ through the water?
+# {{ params_vars_title }}
+According to our textbook, at 25$^\circ$ $C$, the diffusion constant of $CO_2$ in water is $D\_{water} = {{ params_water }} \times 10^{-9}$ $m^2/s$ and the diffusion constant of $CO_2$ in air at one atmosphere is $D\_{air} = {{ params_air }} \times 10^{-5}$ $m^2/s$. If it takes $t\_{air} = $ {{ params_time }} $s$ for $CO_2$ to diffuse a distance $r\_{rms}=d_1$ through the air, how long does it take for $CO_2$ to diffuse $r\_{rms}=d_1$ through the water?
 
 ## Part 1
 
-Prepare: Write a formula for the diffusion time $t$ in terms of the distance $d_1$ and diffusion constant $D$ given that $r\_{rms}=\sqrt{ {{ params.const }} Dt}$.
+Prepare: Write a formula for the diffusion time $t$ in terms of the distance $d_1$ and diffusion constant $D$ given that $r\_{rms}=\sqrt{ {{ params_const }} Dt}$.
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for using each variable:
 
@@ -111,8 +106,8 @@ Prepare: In this problem, are $t$ and $D$ directly or inversely proportional?
 
 ### Answer Section
 
-- {{ params.part3.ans1.value}}
-- {{ params.part3.ans2.value}}
+- {{ params_part3_ans1_value}}
+- {{ params_part3_ans2_value}}
 
 ## Part 4
 
@@ -120,7 +115,7 @@ Solve for $t\_{water}$ numerically.
 
 ### Answer Section
 
-Please enter in a numeric value in $ {{ params.vars.unit2 }} $.
+Please enter in a numeric value in $ {{ params_vars_unit2 }} $.
 
 ## Part 5
 

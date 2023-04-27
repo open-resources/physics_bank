@@ -30,38 +30,30 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Math Diagnostic10
-      a: 8
-      b: '13'
-      b_sign: ' + '
-      c: -13
-      part1:
-        ans1:
-          value: x =  - 21/13
-        ans2:
-          value: x =   21/13
-        ans3:
-          value: x = -34
-        ans4:
-          value: x = -18
-        ans5:
-          value: This equation cannot be solved
+    params_vars_title: Math Diagnostic10
+    params_a: 4
+    params_b: '4'
+    params_b_sign: ' - '
+    params_c: -7
+    params_part1_ans1_value: x =   11/4
+    params_part1_ans2_value: x =  - 11/4
+    params_part1_ans3_value: x = -7
+    params_part1_ans4_value: x = 1
+    params_part1_ans5_value: This equation cannot be solved
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
-The solution of the equation {{params.a}} {{params.b_sign}} {{params.b}}x = {{params.c}} is:
+The solution of the equation {{params_a}} {{params_b_sign}} {{params_b}}x = {{params_c}} is:
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

@@ -29,33 +29,26 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Angular Speed
-        units: rad/s
-      rev: 14
-      part1:
-        ans1:
-          value: 0.45
-        ans2:
-          value: 44.0
-        ans3:
-          value: 88.0
-        ans4:
-          value: 2.2
+    params_vars_title: Angular Speed
+    params_vars_units: rad/s
+    params_rev: 2
+    params_part1_ans1_value: 3.1
+    params_part1_ans2_value: 6.3
+    params_part1_ans3_value: 13.0
+    params_part1_ans4_value: 0.32
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
-What is the approximate angular speed of a windmill spinning at the rate of {{ params.rev }} rev/s.
+What is the approximate angular speed of a windmill spinning at the rate of {{ params_rev }} rev/s.
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }} {{ params.vars.units}}
-- {{ params.part1.ans2.value }} {{ params.vars.units}}
-- {{ params.part1.ans3.value }} {{ params.vars.units}}
-- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params_part1_ans1_value }} {{ params_vars_units}}
+- {{ params_part1_ans2_value }} {{ params_vars_units}}
+- {{ params_part1_ans3_value }} {{ params_vars_units}}
+- {{ params_part1_ans4_value }} {{ params_vars_units}}
 
 ## Attribution
 

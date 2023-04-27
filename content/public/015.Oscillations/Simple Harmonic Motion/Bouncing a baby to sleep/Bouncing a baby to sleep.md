@@ -47,51 +47,47 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        person1: grandmother
-        person2: sister
-        title: Bouncing a Baby to Sleep
-        units: $N/m$
-      m1: 68.0
-      m2: 88.4
-      m_b: 7.29
-      f: 1.73
-      part3:
-        ans1:
-          value: Add more air to increase the pressure in the ball. Increased pressure
-            makes the ball 'stiffer'.
-        ans2:
-          value: Remove air to decrease the pressure in the ball. Decreased pressure
-            makes the ball 'softer'.
-          feedback: Hmm, not quite. How would adding air affect pressure of the ball?
-        ans3:
-          value: Remove air to decrease the pressure in the ball. Decreased pressure
-            makes the ball 'stiffer'.
-          feedback: Hmm, not quite. How would adding air affect pressure of the ball?
-        ans4:
-          value: Remove air to increase the pressure in the ball. Increased pressure
-            makes the ball 'softer'.
-          feedback: Hmm, not quite. How would adding air affect pressure of the ball?
-        ans5:
-          value: Remove air to increase the pressure in the ball. Increased pressure
-            makes the ball 'stiffer'.
-          feedback: Hmm, not quite. How would adding air affect pressure of the ball?
-        ans6:
-          value: Add more air to decrease the pressure in the ball. Decreased pressure
-            makes the ball 'softer'.
-          feedback: Hmm, not quite. How would adding air affect pressure of the ball?
-        ans7:
-          value: Add more air to decrease the pressure in the ball. Decreased pressure
-            makes the ball 'stiffer'.
-          feedback: Hmm, not quite. How would adding air affect pressure of the ball?
-        ans8:
-          value: Add more air to increase the pressure in the ball. Increased pressure
-            makes the ball 'softer'.
-          feedback: Hmm, not quite. How would adding air affect pressure of the ball?
+    params_vars_person1: mother
+    params_vars_person2: grandfather
+    params_vars_title: Bouncing a Baby to Sleep
+    params_vars_units: $N/m$
+    params_m1: 92.8
+    params_m2: 81.0
+    params_m_b: 2.63
+    params_f: 1.51
+    params_part3_ans1_value: Remove air to decrease the pressure in the ball. Decreased
+      pressure makes the ball 'softer'.
+    params_part3_ans2_value: Remove air to decrease the pressure in the ball. Decreased
+      pressure makes the ball 'stiffer'.
+    params_part3_ans2_feedback: Hmm, not quite. How would adding air affect pressure
+      of the ball?
+    params_part3_ans3_value: Remove air to increase the pressure in the ball. Increased
+      pressure makes the ball 'softer'.
+    params_part3_ans3_feedback: Hmm, not quite. How would adding air affect pressure
+      of the ball?
+    params_part3_ans4_value: Remove air to increase the pressure in the ball. Increased
+      pressure makes the ball 'stiffer'.
+    params_part3_ans4_feedback: Hmm, not quite. How would adding air affect pressure
+      of the ball?
+    params_part3_ans5_value: Add more air to decrease the pressure in the ball. Decreased
+      pressure makes the ball 'softer'.
+    params_part3_ans5_feedback: Hmm, not quite. How would adding air affect pressure
+      of the ball?
+    params_part3_ans6_value: Add more air to decrease the pressure in the ball. Decreased
+      pressure makes the ball 'stiffer'.
+    params_part3_ans6_feedback: Hmm, not quite. How would adding air affect pressure
+      of the ball?
+    params_part3_ans7_value: Add more air to increase the pressure in the ball. Increased
+      pressure makes the ball 'softer'.
+    params_part3_ans7_feedback: Hmm, not quite. How would adding air affect pressure
+      of the ball?
+    params_part3_ans8_value: Add more air to increase the pressure in the ball. Increased
+      pressure makes the ball 'stiffer'.
+    params_part3_ans8_feedback: Hmm, not quite. How would adding air affect pressure
+      of the ball?
 ---
-# {{ params.vars.title }}
-Some  babies  like  to  be  bounced  to  calm  them  down.   A  baby's  {{ params.vars.person1 }} ({{ params.m1 }} kg) sits on a "birthing" ball and bounces a {{ params.m_b }} kg baby with them with frequency {{ params.f }} Hz, and finds that the baby goes to sleep.  The baby's {{ params.vars.person2 }} ({{ params.m2 }} kg) tries the same technique, but finds that the baby won't go to sleep.  They realize that this is because they can't bounce on the ball with the same frequency as the baby's {{ params.vars.person1 }}.
+# {{ params_vars_title }}
+Some  babies  like  to  be  bounced  to  calm  them  down.   A  baby's  {{ params_vars_person1 }} ({{ params_m1 }} kg) sits on a "birthing" ball and bounces a {{ params.m_b }} kg baby with them with frequency {{ params_f }} Hz, and finds that the baby goes to sleep.  The baby's {{ params_vars_person2 }} ({{ params_m2 }} kg) tries the same technique, but finds that the baby won't go to sleep.  They realize that this is because they can't bounce on the ball with the same frequency as the baby's {{ params_vars_person1 }}.
 
 ## Part 1
 
@@ -99,7 +95,7 @@ Assuming this to be simple harmonic motion, what is the spring constant of the b
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Part 2
 
@@ -107,7 +103,7 @@ What adjustment to the spring constant needs to be made for the father to put hi
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Part 3
 
@@ -115,14 +111,14 @@ How could such an adjustment be made to the ball, which is filled with air?
 
 ### Answer Section
 
-- {{ params.part3.ans1.value}}
-- {{ params.part3.ans2.value}}
-- {{ params.part3.ans3.value}}
-- {{ params.part3.ans4.value}}
-- {{ params.part3.ans5.value}}
-- {{ params.part3.ans6.value}}
-- {{ params.part3.ans7.value}}
-- {{ params.part3.ans8.value}}
+- {{ params_part3_ans1_value}}
+- {{ params_part3_ans2_value}}
+- {{ params_part3_ans3_value}}
+- {{ params_part3_ans4_value}}
+- {{ params_part3_ans5_value}}
+- {{ params_part3_ans6_value}}
+- {{ params_part3_ans7_value}}
+- {{ params_part3_ans8_value}}
 
 ## Attribution
 

@@ -30,36 +30,29 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Box in a Vehicle
-        vehicle: pickup truck
-        direction: positive
-      part1:
-        ans1:
-          value: Kinetic friction, positive x-direction
-        ans2:
-          value: Kinetic friction, negative x-direction
-        ans3:
-          value: Static friction, positive x-direction
-        ans4:
-          value: Static friction, negative x-direction
+    params_vars_title: Box in a Vehicle
+    params_vars_vehicle: sedan
+    params_vars_direction: positive
+    params_part1_ans1_value: Kinetic friction, positive x-direction
+    params_part1_ans2_value: Kinetic friction, negative x-direction
+    params_part1_ans3_value: Static friction, positive x-direction
+    params_part1_ans4_value: Static friction, negative x-direction
 ---
-# {{ params.vars.title }}
-A {{params.vars.vehicle}} is at a stop-light, with a box sitting in the back.
-When the light turns green, the driver accelerates too fast in the {{params.vars.direction}} x-direction.
+# {{ params_vars_title }}
+A {{params_vars_vehicle}} is at a stop-light, with a box sitting in the back.
+When the light turns green, the driver accelerates too fast in the {{params_vars_direction}} x-direction.
 From the perspective of the driver, the box slides backwards as they accelerate.
 
 ## Part 1
 
-What type of friction is affecting the box and which direction is the friction force pointing from the perspective of a pedestrian watching the {{params.vars.vehicle}} (and box) go past?
+What type of friction is affecting the box and which direction is the friction force pointing from the perspective of a pedestrian watching the {{params_vars_vehicle}} (and box) go past?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
 
 ## Attribution
 

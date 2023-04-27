@@ -31,42 +31,33 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Box in a Truck Bed 2
-        vehicle: sedan
-        direction: negative
-      part1:
-        ans1:
-          value: Kinetic friction, positive work
-        ans2:
-          value: Kinetic friction, negative work
-        ans3:
-          value: Kinetic friction, zero work
-        ans4:
-          value: Static friction, positive work
-        ans5:
-          value: Static friction, negative work
-        ans6:
-          value: Static friction, zero work
+    params_vars_title: Box in a Truck Bed 2
+    params_vars_vehicle: pickup truck
+    params_vars_direction: negative
+    params_part1_ans1_value: Kinetic friction, positive work
+    params_part1_ans2_value: Kinetic friction, negative work
+    params_part1_ans3_value: Kinetic friction, zero work
+    params_part1_ans4_value: Static friction, positive work
+    params_part1_ans5_value: Static friction, negative work
+    params_part1_ans6_value: Static friction, zero work
 ---
-# {{ params.vars.title }}
-A {{params.vars.vehicle}} is approaching a stop-light as it drives down the road moving in the {{params.vars.direction}} direction.
-There is a box in the back of the {{params.vars.vehicle}} which, according to the driver, stays IN PLACE the whole time until the {{params.vars.vehicle}} has come to a complete stop.
+# {{ params_vars_title }}
+A {{params_vars_vehicle}} is approaching a stop-light as it drives down the road moving in the {{params_vars_direction}} direction.
+There is a box in the back of the {{params_vars_vehicle}} which, according to the driver, stays IN PLACE the whole time until the {{params_vars_vehicle}} has come to a complete stop.
 
 ## Part 1
 
 What type of friction is acting the box?
-From the perspective of a pedestrian watching the {{params.vars.vehicle}} drive past, is the work by the friction force on the box positive, negative, or zero?
+From the perspective of a pedestrian watching the {{params_vars_vehicle}} drive past, is the work by the friction force on the box positive, negative, or zero?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
-- {{ params.part1.ans6.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
+- {{ params_part1_ans6_value }}
 
 ## Attribution
 

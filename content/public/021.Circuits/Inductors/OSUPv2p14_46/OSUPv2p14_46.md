@@ -44,14 +44,12 @@ part1:
     atol: 0
 myst:
   substitutions:
-    params:
-      vars:
-        title: Energy Stored in a Coil
-      I: '0.35'
-      E: '8.0'
+    params_vars_title: Energy Stored in a Coil
+    params_I: '0.70'
+    params_E: '7.5'
 ---
-# {{ params.vars.title }}
-At the instant a current of ${{ params.I }}\rm\ A$ is flowing through a coil of wire, the energy stored in its magnetic field is ${{ params.E }} \times 10^{-3}\rm\ J$.
+# {{ params_vars_title }}
+At the instant a current of ${{ params_I }}\rm\ A$ is flowing through a coil of wire, the energy stored in its magnetic field is ${{ params_E }} \times 10^{-3}\rm\ J$.
 
 ## Question Text
 

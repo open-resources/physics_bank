@@ -53,55 +53,29 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Flux due to a coil
-      part1:
-        ans1:
-          value: $-3\mu_0 I$
-        ans2:
-          value: $-\mu_0 I$
-        ans3:
-          value: zero
-        ans4:
-          value: $\mu_0 I$
-        ans5:
-          value: $3\mu_0 I$
-      part2:
-        ans1:
-          value: $-4\mu_0 I$
-        ans2:
-          value: $-2\mu_0 I$
-        ans3:
-          value: zero
-        ans4:
-          value: $2\mu_0 I$
-        ans5:
-          value: $4\mu_0 I$
-      part3:
-        ans1:
-          value: $-7\mu_0 I$
-        ans2:
-          value: $-\mu_0 I$
-        ans3:
-          value: zero
-        ans4:
-          value: $\mu_0 I$
-        ans5:
-          value: $7\mu_0 I$
-      part4:
-        ans1:
-          value: $-2\mu_0 I$
-        ans2:
-          value: $-\mu_0 I$
-        ans3:
-          value: zero
-        ans4:
-          value: $\mu_0 I$
-        ans5:
-          value: $2\mu_0 I$
+    params_vars_title: Flux due to a coil
+    params_part1_ans1_value: $-3\mu_0 I$
+    params_part1_ans2_value: $-\mu_0 I$
+    params_part1_ans3_value: zero
+    params_part1_ans4_value: $\mu_0 I$
+    params_part1_ans5_value: $3\mu_0 I$
+    params_part2_ans1_value: $-4\mu_0 I$
+    params_part2_ans2_value: $-2\mu_0 I$
+    params_part2_ans3_value: zero
+    params_part2_ans4_value: $2\mu_0 I$
+    params_part2_ans5_value: $4\mu_0 I$
+    params_part3_ans1_value: $-7\mu_0 I$
+    params_part3_ans2_value: $-\mu_0 I$
+    params_part3_ans3_value: zero
+    params_part3_ans4_value: $\mu_0 I$
+    params_part3_ans5_value: $7\mu_0 I$
+    params_part4_ans1_value: $-2\mu_0 I$
+    params_part4_ans2_value: $-\mu_0 I$
+    params_part4_ans3_value: zero
+    params_part4_ans4_value: $\mu_0 I$
+    params_part4_ans5_value: $2\mu_0 I$
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 The coil whose lengthwise cross section is shown in the figure carries a current $I$ and has $N$ evenly-spaced turns distributed along the length $\ell$.
 Evaluate the magnetic flux $\oint\vec{\mathbf{B}}\cdot d\vec{\mathbf{\ell}}$ for each of the paths indicated.
 
@@ -114,11 +88,11 @@ Path A:
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Part 2
 
@@ -126,11 +100,11 @@ Path B:
 
 ### Answer Section
 
-- {{ params.part2.ans1.value }}
-- {{ params.part2.ans2.value }}
-- {{ params.part2.ans3.value }}
-- {{ params.part2.ans4.value }}
-- {{ params.part2.ans5.value }}
+- {{ params_part2_ans1_value }}
+- {{ params_part2_ans2_value }}
+- {{ params_part2_ans3_value }}
+- {{ params_part2_ans4_value }}
+- {{ params_part2_ans5_value }}
 
 ## Part 3
 
@@ -138,11 +112,11 @@ Path C:
 
 ### Answer Section
 
-- {{ params.part3.ans1.value }}
-- {{ params.part3.ans2.value }}
-- {{ params.part3.ans3.value }}
-- {{ params.part3.ans4.value }}
-- {{ params.part3.ans5.value }}
+- {{ params_part3_ans1_value }}
+- {{ params_part3_ans2_value }}
+- {{ params_part3_ans3_value }}
+- {{ params_part3_ans4_value }}
+- {{ params_part3_ans5_value }}
 
 ## Part 4
 
@@ -150,11 +124,11 @@ Path D:
 
 ### Answer Section
 
-- {{ params.part4.ans1.value }}
-- {{ params.part4.ans2.value }}
-- {{ params.part4.ans3.value }}
-- {{ params.part4.ans4.value }}
-- {{ params.part4.ans5.value }}
+- {{ params_part4_ans1_value }}
+- {{ params_part4_ans2_value }}
+- {{ params_part4_ans3_value }}
+- {{ params_part4_ans4_value }}
+- {{ params_part4_ans5_value }}
 
 ## Attribution
 

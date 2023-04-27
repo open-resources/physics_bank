@@ -34,30 +34,19 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Immersion Heater
-      part1:
-        ans1:
-          value: It will double
-        ans2:
-          value: It will be quartered
-        ans3:
-          value: It will be halved
-        ans4:
-          value: It will triple
-        ans5:
-          value: It will stay the same
-      part2:
-        ans1:
-          value: Yes, since it would take a much shorter time to heat the water.
-        ans2:
-          value: No, since the device is rated for a specific power and could possibly
-            burn up.
-        ans3:
-          value: It does not matter since it does not affect the time.
+    params_vars_title: Immersion Heater
+    params_part1_ans1_value: It will double
+    params_part1_ans2_value: It will be quartered
+    params_part1_ans3_value: It will be halved
+    params_part1_ans4_value: It will triple
+    params_part1_ans5_value: It will stay the same
+    params_part2_ans1_value: Yes, since it would take a much shorter time to heat
+      the water.
+    params_part2_ans2_value: No, since the device is rated for a specific power and
+      could possibly burn up.
+    params_part2_ans3_value: It does not matter since it does not affect the time.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 An immersion heater is a small appliance used to heat a cup of water for tea by passing current through a resistor.
 
 ## Part 1
@@ -66,11 +55,11 @@ If the voltage applied to the appliance is doubled, by how much will the time re
 
 ### Answer Section
 
-- {{ params.part1.ans1.value}}
-- {{ params.part1.ans2.value}}
-- {{ params.part1.ans3.value}}
-- {{ params.part1.ans4.value}}
-- {{ params.part1.ans5.value}}
+- {{ params_part1_ans1_value}}
+- {{ params_part1_ans2_value}}
+- {{ params_part1_ans3_value}}
+- {{ params_part1_ans4_value}}
+- {{ params_part1_ans5_value}}
 
 ## Part 2
 
@@ -78,9 +67,9 @@ Is making this change a good idea?
 
 ### Answer Section
 
-- {{ params.part2.ans1.value}}
-- {{ params.part2.ans2.value}}
-- {{ params.part2.ans3.value}}
+- {{ params_part2_ans1_value}}
+- {{ params_part2_ans2_value}}
+- {{ params_part2_ans3_value}}
 
 ## Attribution
 

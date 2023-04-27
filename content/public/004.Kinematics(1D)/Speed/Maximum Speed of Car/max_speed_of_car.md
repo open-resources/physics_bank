@@ -31,19 +31,17 @@ part1:
     suffix: $ft/s$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Maximum Speed of Car
-        units: $ft/s$
-      yards: 100
-      max_speed_t: 3
-      overall_t: 6
+    params_vars_title: Maximum Speed of Car
+    params_vars_units: $ft/s$
+    params_yards: 100
+    params_max_speed_t: 3
+    params_overall_t: 4
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="L5Q1.png" width=85%>
 
 A car reaches its maximum speed in {{params.max_speed_t}} $seconds$ from rest with constant acceleration.
-It then maintains that speed and travels {{params.yards}} miles with an overall time of {{params.overall_t}} $hours$.
+It then maintains that speed and travels {{params_yards}} miles with an overall time of {{params.overall_t}} $hours$.
 
 ## Question Text
 
@@ -51,7 +49,7 @@ Determine the maximum speed $v\_{max}$ of the car.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

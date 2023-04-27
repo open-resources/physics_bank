@@ -29,38 +29,30 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Math Diagnostic30
-        name: Mateo
-      sp1: 8
-      sp2: 4
-      part1:
-        ans1:
-          value: $4 {1 \over 2} mph$
-        ans2:
-          value: $5 {1 \over 2}mph$
-        ans3:
-          value: $5 {1 \over 3}mph$
-        ans4:
-          value: $6mph$
-        ans5:
-          value: Do not know
+    params_vars_title: Math Diagnostic30
+    params_vars_name: Emilia
+    params_sp1: 8
+    params_sp2: 4
+    params_part1_ans1_value: $4 {1 \over 2} mph$
+    params_part1_ans2_value: $5 {1 \over 2}mph$
+    params_part1_ans3_value: $5 {1 \over 3}mph$
+    params_part1_ans4_value: $6mph$
+    params_part1_ans5_value: Do not know
 ---
-# {{ params.vars.title }}
-{{ params.vars.name }} runs 1 mile at {{ params.sp1 }} $mph$ followed by 1 mile at {{ params.sp2 }} $mph$.
+# {{ params_vars_title }}
+{{ params_vars_name }} runs 1 mile at {{ params_sp1 }} $mph$ followed by 1 mile at {{ params_sp2 }} $mph$.
 
 ## Part 1
 
-{{ params.vars.name }}'s average speed over the two miles is
+{{ params_vars_name }}'s average speed over the two miles is
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

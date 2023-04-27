@@ -39,18 +39,12 @@ part1:
     blank: true
 myst:
   substitutions:
-    params:
-      vars:
-        title: Suspended neutral conductor
-      part1:
-        ans1:
-          value: attracted to the rod
-        ans2:
-          value: repelled by the rod
-        ans3:
-          value: unaffected by the rod
+    params_vars_title: Suspended neutral conductor
+    params_part1_ans1_value: attracted to the rod
+    params_part1_ans2_value: repelled by the rod
+    params_part1_ans3_value: unaffected by the rod
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
@@ -63,9 +57,9 @@ The neutral conductor is:
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
 
 The conducting sphere becomes polarized and is attracted to the charged rod.
 

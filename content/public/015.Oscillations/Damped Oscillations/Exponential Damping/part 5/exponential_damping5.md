@@ -32,15 +32,13 @@ part1:
     label: $\frac{A(t)}{A} = $
 myst:
   substitutions:
-    params:
-      vars:
-        title: Exponential Damping 5
-      m: 1
-      b: 2
-      k: 5
+    params_vars_title: Exponential Damping 5
+    params_m: 1
+    params_b: 2
+    params_k: 5
 ---
-# {{ params.vars.title }}
-A ${{params.m}}$ kg mass oscillates on a ${{params.k}}$ N/m spring. The damping constant of this spring is $b$ = ${{params.b}}$ kg/s.
+# {{ params_vars_title }}
+A ${{params_m}}$ kg mass oscillates on a ${{params_k}}$ N/m spring. The damping constant of this spring is $b$ = ${{params_b}}$ kg/s.
 
 ## Useful Info
 

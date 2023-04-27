@@ -33,36 +33,27 @@ part1:
     partial-credit-method: EDC
 myst:
   substitutions:
-    params:
-      vars:
-        title: Exploding Asteroid
-        name: Lorenzo
-        name2: Maya
-      part1:
-        ans1:
-          value: They will both agree on how the kinetic energy of each of the pieces
-            has changed.
-        ans2:
-          value: They will both agree on how much kinetic energy each of the asteroid
-            pieces has.
-        ans3:
-          value: They will both agree on how the total kinetic energy of the system
-            has changed.
-        ans4:
-          value: The change in the momentum vector they determine for each piece of
-            the asteroid before and after the explosion will be the same.
-        ans5:
-          value: The total momentum vectors they use to describe the asteroid system
-            (both pieces) will be the same.
-        ans6:
-          value: The momentum vectors they use to describe each of the two asteroid
-            pieces will be the same.
+    params_vars_title: Exploding Asteroid
+    params_vars_name: Emilia
+    params_vars_name2: Ahmed
+    params_part1_ans1_value: The momentum vectors they use to describe each of the
+      two asteroid pieces will be the same.
+    params_part1_ans2_value: They will both agree on how much kinetic energy each
+      of the asteroid pieces has.
+    params_part1_ans3_value: The total momentum vectors they use to describe the asteroid
+      system (both pieces) will be the same.
+    params_part1_ans4_value: The force vector they determine that each piece of the
+      asteroid felt during the explosion will be the same.
+    params_part1_ans5_value: They will both agree on how the kinetic energy of each
+      of the pieces has changed.
+    params_part1_ans6_value: The final speeds they measure for the two asteroid pieces
+      will be the same.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
-{{ params.vars.name }} and {{ params.vars.name2 }} are both standing in their spaceships, each one moving with a different constant velocity.
+{{ params_vars_name }} and {{ params_vars_name2 }} are both standing in their spaceships, each one moving with a different constant velocity.
 They carefully watch and measure, from their two spaceships, an asteroid exploding into two parts. Select the correct statement(s).
 
 ### Answer Section
@@ -70,12 +61,12 @@ They carefully watch and measure, from their two spaceships, an asteroid explodi
 Note: You will be awarded full marks only if you select all the correct choices and none of the incorrect choices.
 Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
-- {{ params.part1.ans6.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
+- {{ params_part1_ans6_value }}
 
 ## Attribution
 

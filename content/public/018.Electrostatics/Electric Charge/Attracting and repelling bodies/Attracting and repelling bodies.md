@@ -36,21 +36,13 @@ part2:
     blank: true
 myst:
   substitutions:
-    params:
-      vars:
-        title: Attracting and repelling bodies
-      part1:
-        ans1:
-          value: 'True'
-        ans2:
-          value: 'False'
-      part2:
-        ans1:
-          value: 'True'
-        ans2:
-          value: 'False'
+    params_vars_title: Attracting and repelling bodies
+    params_part1_ans1_value: 'True'
+    params_part1_ans2_value: 'False'
+    params_part2_ans1_value: 'True'
+    params_part2_ans2_value: 'False'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
@@ -59,8 +51,8 @@ Both bodies must carry a non-zero net charge.
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
 
 ## Part 2
 
@@ -69,8 +61,8 @@ Both bodies must carry a non-zero net charge.
 
 ### Answer Section
 
-- {{ params.part2.ans1.value }}
-- {{ params.part2.ans2.value }}
+- {{ params_part2_ans1_value }}
+- {{ params_part2_ans2_value }}
 
 A charged body can attract a neutral body if the neutral body can be polarized.
 

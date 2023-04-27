@@ -43,20 +43,18 @@ part2:
     suffix: $^{\circ}$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Relative Motion of Two Swimmers
-      v: 3
-      h: 23
-      d: 36
-      t: 18
+    params_vars_title: Relative Motion of Two Swimmers
+    params_v: 4
+    params_h: 16
+    params_d: 40
+    params_t: 16
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="L11Q3.png" width=85%>
 
 In a game of sharks and minos, two swimmers move as shown.
-Swimmer B needs to catch A within {{params.t}} seconds from when shown, and A has a velocity of ${{params.v}} ft/s$.
-Assume $h = {{params.h}} ft$ and $d = {{params.d}} ft$.
+Swimmer B needs to catch A within {{params_t}} seconds from when shown, and A has a velocity of ${{params_v}} ft/s$.
+Assume $h = {{params_h}} ft$ and $d = {{params_d}} ft$.
 
 ## Part 1
 

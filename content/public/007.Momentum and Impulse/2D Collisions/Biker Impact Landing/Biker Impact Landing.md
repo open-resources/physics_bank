@@ -43,21 +43,19 @@ part2:
     suffix: $m/s$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Biker Impact Landing
-      v: 7
-      t: 0.16
-      ad: 19
-      m: 57
-      thetad: 40
+    params_vars_title: Biker Impact Landing
+    params_v: 7
+    params_t: 0.13
+    params_ad: 11
+    params_m: 69
+    params_thetad: 40
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="Snowboarder Impact Landing.png" width=400>
 
-A Biker is travelling with a velocity of ${{params.v}}m/s$, $\theta=$ {{params.thetad}} $^\circ$ below the tangent, when they land on the slope with no rebound.
-The impact lasts for ${{params.t}} s$.
-The weight of the biker and bike is ${{params.m}}kg$, and the hill slope is $\alpha= {{params.ad}} ^\circ$.
+A Biker is travelling with a velocity of ${{params_v}}m/s$, $\theta=$ {{params_thetad}} $^\circ$ below the tangent, when they land on the slope with no rebound.
+The impact lasts for ${{params_t}} s$.
+The weight of the biker and bike is ${{params_m}}kg$, and the hill slope is $\alpha= {{params_ad}} ^\circ$.
 
 ## Part 1
 

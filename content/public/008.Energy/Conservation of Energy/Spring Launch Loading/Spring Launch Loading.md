@@ -36,24 +36,22 @@ part1:
     suffix: $m/s$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Spring Launch Loading
-      m: 59
-      F: 229
-      x1: 0.255
-      d: 1.15
-      h: 0.8
-      k: 91
+    params_vars_title: Spring Launch Loading
+    params_m: 47
+    params_F: 268
+    params_x1: 0.182
+    params_d: 1.0
+    params_h: 1.1
+    params_k: 73
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="Slider Restricted by Spring.png" width=100%>
 
-The {{params.m}} $kg$ projectile is loaded into a spring launcher using a string for a game.
-It is acted upon by a constant force of {{params.F}} $N$ via a cable as shown.
-The projectile begins at rest at A, with the spring it is attached to compressed by an initial amount {{params.x1}} $m$.
-The spring stiffness is $k =$ {{params.k}} $N/m$.
-Calculate the velocity of the block when it reaches point B, $d =$ {{params.d}} $m$ away. Assume $h =$ {{params.h}} $m$.
+The {{params_m}} $kg$ projectile is loaded into a spring launcher using a string for a game.
+It is acted upon by a constant force of {{params_F}} $N$ via a cable as shown.
+The projectile begins at rest at A, with the spring it is attached to compressed by an initial amount {{params_x1}} $m$.
+The spring stiffness is $k =$ {{params_k}} $N/m$.
+Calculate the velocity of the block when it reaches point B, $d =$ {{params_d}} $m$ away. Assume $h =$ {{params_h}} $m$.
 
 ## Part 1
 

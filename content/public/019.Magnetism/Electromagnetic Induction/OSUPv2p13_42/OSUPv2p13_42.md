@@ -41,19 +41,14 @@ part2:
     blank: true
 myst:
   substitutions:
-    params:
-      vars:
-        title: Potential Difference of Rod
-      B: '0.75'
-      v: '12'
-      part2:
-        ans1:
-          value: Bottom
-        ans2:
-          value: Top
+    params_vars_title: Potential Difference of Rod
+    params_B: '0.75'
+    params_v: '6'
+    params_part2_ans1_value: Bottom
+    params_part2_ans2_value: Top
 ---
-# {{ params.vars.title }}
-The rod shown in the accompanying figure is moving through a uniform magnetic field of strength ${{params.B }} \textrm{ T}$ with a constant velocity of magnitude ${{params.v }} \textrm{ m/s}$.
+# {{ params_vars_title }}
+The rod shown in the accompanying figure is moving through a uniform magnetic field of strength ${{params_B }} \textrm{ T}$ with a constant velocity of magnitude ${{params_v }} \textrm{ m/s}$.
 
 <img src="Fig13_42.png">
 
@@ -71,8 +66,8 @@ Which end of the rod is at a higher potential?
 
 ### Answer Section
 
-- {{ params.part2.ans1.value }}
-- {{ params.part2.ans2.value }}
+- {{ params_part2_ans1_value }}
+- {{ params_part2_ans2_value }}
 
 ### pl-submission-panel
 

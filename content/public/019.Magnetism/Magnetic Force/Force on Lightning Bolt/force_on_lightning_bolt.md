@@ -41,25 +41,18 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Force on Lightning Bolt
-      I: 19544
-      part2:
-        ans1:
-          value: North
-        ans2:
-          value: South
-        ans3:
-          value: East
-        ans4:
-          value: West
+    params_vars_title: Force on Lightning Bolt
+    params_I: 18622
+    params_part2_ans1_value: North
+    params_part2_ans2_value: South
+    params_part2_ans3_value: East
+    params_part2_ans4_value: West
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
-What is the force per meter on a lightning bolt at the equator that carries ${{params.I}}\textrm{ A}$ perpendicular to the $3 \times 10^{-5}\textrm{ T}$ magnetic field of the Earth?
+What is the force per meter on a lightning bolt at the equator that carries ${{params_I}}\textrm{ A}$ perpendicular to the $3 \times 10^{-5}\textrm{ T}$ magnetic field of the Earth?
 
 ### Answer Section
 

@@ -30,35 +30,27 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Math Diagnostic07
-      formula1: 10x - 5y = 43
-      formula2: 3x + 8y = 11
-      part1:
-        ans1:
-          value: ' x =21/5, y =-1/5'
-        ans2:
-          value: ' x =-1/5, y =21/5'
-        ans3:
-          value: ' x =-21/5, y =1/5'
-        ans4:
-          value: ' x =1/5, y =-21/5'
-        ans5:
-          value: Don't Know
+    params_vars_title: Math Diagnostic07
+    params_formula1: 5x - 3y = 11
+    params_formula2: 4x + 5y = 17
+    params_part1_ans1_value: ' x =106/37, y =41/37'
+    params_part1_ans2_value: ' x =41/37, y =106/37'
+    params_part1_ans3_value: ' x =-106/37, y =-41/37'
+    params_part1_ans4_value: ' x =-41/37, y =-106/37'
+    params_part1_ans5_value: Don't Know
 ---
-# {{ params.vars.title }}
-The solution of the simultaneous equations {{params.formula1}}, {{params.formula2}} is:
+# {{ params_vars_title }}
+The solution of the simultaneous equations {{params_formula1}}, {{params_formula2}} is:
 
 ## Part 1
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

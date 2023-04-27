@@ -46,21 +46,16 @@ part2:
     blank: true
 myst:
   substitutions:
-    params:
-      vars:
-        title: Single-turn Circular Loop
-      r: '60'
-      b: '125'
-      B: '325'
-      t: '0.1'
-      part2:
-        ans1:
-          value: Clockwise
-        ans2:
-          value: Counterclockwise
+    params_vars_title: Single-turn Circular Loop
+    params_r: '20'
+    params_b: '175'
+    params_B: '350'
+    params_t: '0.5'
+    params_part2_ans1_value: Clockwise
+    params_part2_ans2_value: Counterclockwise
 ---
-# {{ params.vars.title }}
-A single-turn circular loop of wire of radius {{params.r }} $\textrm{ mm}$ lies in a plane perpendicular to a spatially uniform magnetic field. During a {{params.t }} $\textrm{ s}$ time interval, the magnitude of the field increases uniformly from {{params.b }} $\textrm{ mT}$ to {{params.B }} $\textrm{ mT}$.
+# {{ params_vars_title }}
+A single-turn circular loop of wire of radius {{params_r }} $\textrm{ mm}$ lies in a plane perpendicular to a spatially uniform magnetic field. During a {{params_t }} $\textrm{ s}$ time interval, the magnitude of the field increases uniformly from {{params_b }} $\textrm{ mT}$ to {{params_B }} $\textrm{ mT}$.
 
 ## Part 1
 
@@ -76,8 +71,8 @@ If the magnetic field is directed out of the screen, what is the direction of th
 
 ### Answer Section
 
-- {{ params.part2.ans1.value }}
-- {{ params.part2.ans2.value }}
+- {{ params_part2_ans1_value }}
+- {{ params_part2_ans2_value }}
 
 ### pl-submission-panel
 

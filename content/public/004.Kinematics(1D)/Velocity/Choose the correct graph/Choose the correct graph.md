@@ -34,22 +34,14 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Choose the Correct Graph
-      part1:
-        ans1:
-          value: Figure (a)
-        ans2:
-          value: Figure (b)
-        ans3:
-          value: Figure (c)
-        ans4:
-          value: Figure (d)
-        ans5:
-          value: Figure (e)
+    params_vars_title: Choose the Correct Graph
+    params_part1_ans1_value: Figure (a)
+    params_part1_ans2_value: Figure (b)
+    params_part1_ans3_value: Figure (c)
+    params_part1_ans4_value: Figure (d)
+    params_part1_ans5_value: Figure (e)
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 This figure shows the graph of the position $x$ as a function of time $t$ for an object moving in a straight line (along the $x$-axis):
 
 <img src="q3_2012Mid1_002.png" alt="Figure of a position-time graph which starts at a negative y-value and which increases at a decreasing rate." width=40%>
@@ -73,11 +65,11 @@ Figure e shows a straight line with a positive slope starting at the origin.
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

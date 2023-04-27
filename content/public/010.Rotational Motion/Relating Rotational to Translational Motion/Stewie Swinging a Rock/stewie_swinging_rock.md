@@ -34,11 +34,9 @@ part1:
     allow-blank: false
 myst:
   substitutions:
-    params:
-      vars:
-        title: Swinging a Rock in a Circle
+    params_vars_title: Swinging a Rock in a Circle
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Stewie watches as a rock tied to a string is swung clockwise in a vertical circle of radius $r$. The
 string breaks when $\theta$ = 0. Stewie observes that the rock reaches a maximum height $h$ relative to the height of the centre of the circle. What is the angular speed $\omega$ of the circular motion at the instant just before the string breaks?
 

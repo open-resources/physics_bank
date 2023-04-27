@@ -42,14 +42,12 @@ part1:
     suffix: $\rm\ m$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Current loop
-      I: '5.40'
-      B: $3.20\times 10^{-4}$
+    params_vars_title: Current loop
+    params_I: '3.80'
+    params_B: $3.20\times 10^{-4}$
 ---
-# {{ params.vars.title }}
-When the current through a circular loop is {{ params.I }}$\rm\ A$, the magnetic field at its centre is {{ params.B }} $\rm\ T$.
+# {{ params_vars_title }}
+When the current through a circular loop is {{ params_I }}$\rm\ A$, the magnetic field at its centre is {{ params_B }} $\rm\ T$.
 
 ## Question Text
 

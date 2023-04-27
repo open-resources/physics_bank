@@ -61,18 +61,16 @@ part4:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Projectile of ball launched to a specific height
-      v: 56
-      h: 102
+    params_vars_title: Projectile of ball launched to a specific height
+    params_v: 47
+    params_h: 58
 ---
-# {{ params.vars.title }}
-A ball is launched vertically from the ground with an initial speed of $v = {{ params.v }}$ $\rm{m/s}$.
+# {{ params_vars_title }}
+A ball is launched vertically from the ground with an initial speed of $v = {{ params_v }}$ $\rm{m/s}$.
 
 ## Part 1
 
-What is the first time at which the ball is at a height of ${{ params.h }}$ $\rm{m}$?
+What is the first time at which the ball is at a height of ${{ params_h }}$ $\rm{m}$?
 
 ### Answer Section
 
@@ -88,7 +86,7 @@ Please enter in a numeric value in $\rm{m/s}$.
 
 ## Part 3
 
-What is the second time at which the ball is at a height of ${{ params.h }}$ $\rm{m}$?
+What is the second time at which the ball is at a height of ${{ params_h }}$ $\rm{m}$?
 
 ### Answer Section
 

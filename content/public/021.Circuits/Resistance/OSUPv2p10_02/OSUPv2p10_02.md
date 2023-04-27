@@ -35,16 +35,14 @@ part1:
     show-placeholder: false
 myst:
   substitutions:
-    params:
-      vars:
-        title: Battery Internal Resistance
-      x: 2
-      N: 3
-      V_string: '13.25'
+    params_vars_title: Battery Internal Resistance
+    params_x: 2
+    params_N: 5
+    params_V_string: '6.25'
 ---
-# {{ params.vars.title }}
-A battery with an internal resistance of $r$ and an emf of {{ params.V_string }}$\textrm{ V}$ is connected to a load resistor $R =$ {{ params.N }}$r$ and current $I_0$ flows.
-As the battery ages, the internal resistance increases by a factor of {{ params.x }}.
+# {{ params_vars_title }}
+A battery with an internal resistance of $r$ and an emf of {{ params.V_string }}$\textrm{ V}$ is connected to a load resistor $R =$ {{ params_N }}$r$ and current $I_0$ flows.
+As the battery ages, the internal resistance increases by a factor of {{ params_x }}.
 
 ## Part 1
 

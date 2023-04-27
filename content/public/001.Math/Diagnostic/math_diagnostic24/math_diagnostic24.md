@@ -29,26 +29,18 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Math Diagnostic24
-      x1: 1
-      x2: -2
-      x3: 1
-      x4: 1
-      part1:
-        ans1:
-          value: tends to -2
-        ans2:
-          value: tends to 0
-        ans3:
-          value: tends to 1
-        ans4:
-          value: is undefined
-        ans5:
-          value: Do not know
+    params_vars_title: Math Diagnostic24
+    params_x1: 1
+    params_x2: -2
+    params_x3: 1
+    params_x4: 1
+    params_part1_ans1_value: tends to -2
+    params_part1_ans2_value: tends to 0
+    params_part1_ans3_value: tends to 1
+    params_part1_ans4_value: is undefined
+    params_part1_ans5_value: Do not know
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
@@ -56,11 +48,11 @@ As x tends to infinity the function $1-2x \over {1+x}$
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

@@ -31,35 +31,27 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Math Diagnostic08
-      expr: $\dfrac{12x - 6y }{ -3 }$
-      part1:
-        ans1:
-          value: $- 4 x + 2 y$
-        ans2:
-          value: $\dfrac{-4x + 2y}{-3}$
-        ans3:
-          value: $2x - 4y$
-        ans4:
-          value: $12x + 6y$
-        ans5:
-          value: Don't know.
+    params_vars_title: Math Diagnostic08
+    params_expr: $\dfrac{15x + 27y }{ 3 }$
+    params_part1_ans1_value: $5 x + 9 y$
+    params_part1_ans2_value: $\dfrac{5x + 9y}{3}$
+    params_part1_ans3_value: $9x + 5y$
+    params_part1_ans4_value: $15x + 27y$
+    params_part1_ans5_value: Don't know.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
-{{ params.expr }} is equivalent to:
+{{ params_expr }} is equivalent to:
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

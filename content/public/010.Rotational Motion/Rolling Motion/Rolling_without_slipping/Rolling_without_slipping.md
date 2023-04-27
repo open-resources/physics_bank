@@ -29,28 +29,22 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Rolling without slipping
-        name: Santiago
-      part1:
-        ans1:
-          value: The hoop, because it has less rotational intera, less of its total
-            energy will be taken up by the rotation kinetic energy and more will remain
-            for the translational kinetic energy (so it travels faster
-        ans2:
-          value: The sphere, because it has less rotational inertia, less of its total
-            energy will be taken up by the rotation kinetic energy and more will remain
-            for the translational kinetic energy (so it travels faster
-        ans3:
-          value: They both reach the bottom at the same time, because gravity causes
-            all things to have the same acceleration regardless of their mass.
-        ans4:
-          value: There is not enough information to answer this question.
+    params_vars_title: Rolling without slipping
+    params_vars_name: Maya
+    params_part1_ans1_value: The hoop, because it has less rotational intera, less
+      of its total energy will be taken up by the rotation kinetic energy and more
+      will remain for the translational kinetic energy (so it travels faster
+    params_part1_ans2_value: The sphere, because it has less rotational inertia, less
+      of its total energy will be taken up by the rotation kinetic energy and more
+      will remain for the translational kinetic energy (so it travels faster
+    params_part1_ans3_value: They both reach the bottom at the same time, because
+      gravity causes all things to have the same acceleration regardless of their
+      mass.
+    params_part1_ans4_value: There is not enough information to answer this question.
 ---
-# {{ params.vars.title }}
-Suppose {{ params.vars.name }} has a sphere (made of solid wood), and a hoop made of heavy metal; and both have the SAME MASS, and both have the SAME RADIUS.
-{{ params.vars.name }} decides to race the two of them, and let them roll from rest down a flat ramp.
+# {{ params_vars_title }}
+Suppose {{ params_vars_name }} has a sphere (made of solid wood), and a hoop made of heavy metal; and both have the SAME MASS, and both have the SAME RADIUS.
+{{ params_vars_name }} decides to race the two of them, and let them roll from rest down a flat ramp.
 
 ## Part 1
 
@@ -58,10 +52,10 @@ Which one of them will reach the bottom first?
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
 
 ## Attribution
 

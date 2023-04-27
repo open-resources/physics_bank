@@ -30,35 +30,27 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Math Diagnostic12
-      expr: $3\over 3- x$ > $ 4$
-      part1:
-        ans1:
-          value: (9/4 < x) & (x < 3)
-        ans2:
-          value: (9/4 > x) & (x > 3)
-        ans3:
-          value: x > 3/4
-        ans4:
-          value: (32/3 < x) & (x < 12)
-        ans5:
-          value: Do not know
+    params_vars_title: Math Diagnostic12
+    params_expr: $9\over 9- x$ > $ 4$
+    params_part1_ans1_value: (27/4 < x) & (x < 9)
+    params_part1_ans2_value: (27/4 > x) & (x > 9)
+    params_part1_ans3_value: x > 9/4
+    params_part1_ans4_value: (320/9 < x) & (x < 36)
+    params_part1_ans5_value: Do not know
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
-If {{ params.expr }} then:
+If {{ params_expr }} then:
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

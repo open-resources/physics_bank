@@ -59,17 +59,15 @@ part4:
     suffix: $\hat{\jmath} \; (m/s)$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Ball Launched from a Horizontal Cliff
-        unit1: $s$
-        unit2: rad
-        unit3: $m/s$
-      v0: 1.31
-      h: 52.3
+    params_vars_title: Ball Launched from a Horizontal Cliff
+    params_vars_unit1: $s$
+    params_vars_unit2: rad
+    params_vars_unit3: $m/s$
+    params_v0: 2.18
+    params_h: 52.6
 ---
-# {{ params.vars.title }}
-A small ball is launched from a horizontal cliff with initial speed {{ params.v0 }} $m/s$. The side of the cliff is sloped. The ball makes contact with the cliff side after falling a vertical distance of {{ params.h }} cm.
+# {{ params_vars_title }}
+A small ball is launched from a horizontal cliff with initial speed {{ params_v0 }} $m/s$. The side of the cliff is sloped. The ball makes contact with the cliff side after falling a vertical distance of {{ params_h }} cm.
 
 <img src="q5_2012Mid1_002.png" alt ="Figure of a ball launched from a horizontal cliff with a sloped side. Theta is the angle between the sloped side and the vertical line going through the point where the slope starts.">
 
@@ -79,7 +77,7 @@ How long was the ball in the air before hitting the side of the cliff?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.unit1 }}.
+Please enter in a numeric value in {{ params_vars_unit1 }}.
 
 ## Part 2
 
@@ -87,7 +85,7 @@ What is the value of the angle $\theta$ shown in the figure?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.unit2 }}.
+Please enter in a numeric value in {{ params_vars_unit2 }}.
 
 ## Part 3
 
@@ -97,7 +95,7 @@ Please enter the coefficient of $\hat{\imath}$ (in $m/s$).
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.unit3 }}.
+Please enter in a numeric value in {{ params_vars_unit3 }}.
 
 ## Part 4
 
@@ -107,7 +105,7 @@ Please enter the coefficient of $\hat{\jmath}$ (in $m/s$).
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.unit3 }}.
+Please enter in a numeric value in {{ params_vars_unit3 }}.
 
 ## Attribution
 

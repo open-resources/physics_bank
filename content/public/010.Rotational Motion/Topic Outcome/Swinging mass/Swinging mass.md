@@ -30,23 +30,15 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Swinging Mass
-      part1:
-        ans1:
-          value: The mass will pull sharply to the left.
-        ans2:
-          value: The mass will continue in the positive y direction.
-        ans3:
-          value: The mass will stop.
-        ans4:
-          value: The mass will continue around the circle.
-        ans5:
-          value: The mass will be thrown out of the circle with components in the
-            positive x and y directions.
+    params_vars_title: Swinging Mass
+    params_part1_ans1_value: The mass will pull sharply to the left.
+    params_part1_ans2_value: The mass will continue in the positive y direction.
+    params_part1_ans3_value: The mass will stop.
+    params_part1_ans4_value: The mass will continue around the circle.
+    params_part1_ans5_value: The mass will be thrown out of the circle with components
+      in the positive x and y directions.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A mass, $m$, tied to the end of a string is swung **horizontally** on a frictionless surface in the counter-clockwise direction, exhibiting uniform circular motion as shown in Fig. 1.
 
 <img src="Q3.png" alt="Figure 1. Taking one end of the string as the origin of a Cartesian plane, a mass is atatched to the other end and swung anti-clockwise.">
@@ -57,11 +49,11 @@ When the string returns to parallel to the $x$-axis, it is cut in half by a very
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

@@ -35,18 +35,16 @@ part1:
     label: 'Number of electrons = '
 myst:
   substitutions:
-    params:
-      vars:
-        title: Electrons In a Wire
-        units: m/s
-      I: 91
-      t: 39
+    params_vars_title: Electrons In a Wire
+    params_vars_units: m/s
+    params_I: 89
+    params_t: 21
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 
-How many electrons flow through a point in a wire in {{params.t}} s if there is a constant current of {{params.I}} $\textrm{A}$.
+How many electrons flow through a point in a wire in {{params_t}} s if there is a constant current of {{params_I}} $\textrm{A}$.
 
 ### Answer Section
 

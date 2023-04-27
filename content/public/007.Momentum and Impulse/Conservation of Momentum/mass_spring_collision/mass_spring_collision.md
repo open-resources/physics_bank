@@ -48,11 +48,9 @@ part3:
     allow-blank: false
 myst:
   substitutions:
-    params:
-      vars:
-        title: Perfect Elastic Collision of a Mass Attached to a Spring
+    params_vars_title: Perfect Elastic Collision of a Mass Attached to a Spring
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A block of mass $m_1$ slides across a frictionless surface with speed $v_1$ and collides perfectly elastically with a block $m_2$ (initially at rest).
 Block $m_2$ is attached to a spring with spring constant $k$ and equilibrium length $x_0$.
 Assume $m_2 > m_1$.

@@ -51,19 +51,17 @@ part3:
     suffix: m
 myst:
   substitutions:
-    params:
-      vars:
-        title: Simple harmonic spring
-        units1: m/s
-        units2: N/m
-        units3: m
-      m: 321
-      T: 1.2
-      E: 6.0
+    params_vars_title: Simple harmonic spring
+    params_vars_units1: m/s
+    params_vars_units2: N/m
+    params_vars_units3: m
+    params_m: 323
+    params_T: 0.51
+    params_E: 4.6
 ---
-# {{ params.vars.title }}
-A {{params.m}} g object is attached to a spring and executes simple harmonic motion with a period of {{params.T}} s.
-If the total energy of the system is {{params.E}} J, find:
+# {{ params_vars_title }}
+A {{params_m}} g object is attached to a spring and executes simple harmonic motion with a period of {{params_T}} s.
+If the total energy of the system is {{params_E}} J, find:
 
 ## Part 1
 
@@ -71,7 +69,7 @@ If the total energy of the system is {{params.E}} J, find:
 
 ### Answer Section
 
-Please enter a numeric value in {{ params.vars.units1 }}.
+Please enter a numeric value in {{ params_vars_units1 }}.
 
 ## Part 2
 
@@ -79,7 +77,7 @@ Please enter a numeric value in {{ params.vars.units1 }}.
 
 ### Answer Section
 
-Please enter a numeric value {{ params.vars.units2 }}.
+Please enter a numeric value {{ params_vars_units2 }}.
 
 ## Part 3
 
@@ -87,7 +85,7 @@ Please enter a numeric value {{ params.vars.units2 }}.
 
 ### Answer Section
 
-Please enter a numeric value in {{ params.vars.units3 }}.
+Please enter a numeric value in {{ params_vars_units3 }}.
 
 ### pl-submission-panel
 

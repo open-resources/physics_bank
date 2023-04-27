@@ -38,47 +38,36 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Rutland Rd
-        vehicle: truck
-        units: km/h
-      v: 80
-      part2:
-        ans1:
-          value: North
-        ans2:
-          value: North-East
-        ans3:
-          value: East
-        ans4:
-          value: South-East
-        ans5:
-          value: South
-        ans6:
-          value: South-West
-        ans7:
-          value: West
-        ans8:
-          value: North-West
-        ans9:
-          value: Impossible to know without knowing how far each car is from the intersection.
+    params_vars_title: Rutland Rd
+    params_vars_vehicle: sedan
+    params_vars_units: km/h
+    params_v: 32
+    params_part2_ans1_value: North
+    params_part2_ans2_value: North-East
+    params_part2_ans3_value: East
+    params_part2_ans4_value: South-East
+    params_part2_ans5_value: South
+    params_part2_ans6_value: South-West
+    params_part2_ans7_value: West
+    params_part2_ans8_value: North-West
+    params_part2_ans9_value: Impossible to know without knowing how far each car is
+      from the intersection.
 ---
-# {{ params.vars.title }}
-A {{ params.vars.vehicle }} drives northward on Rutland Road North at {{ params.v }} {{ params.vars.units }} towards the intersection with 33rd Street.
-A second {{ params.vars.vehicle }} drives eastward at {{params.v}} {{ params.vars.units }} on 33rd Street having just left the same intersection as shown in the figure below.
+# {{ params_vars_title }}
+A {{ params_vars_vehicle }} drives northward on Rutland Road North at {{ params_v }} {{ params_vars_units }} towards the intersection with 33rd Street.
+A second {{ params_vars_vehicle }} drives eastward at {{params_v}} {{ params_vars_units }} on 33rd Street having just left the same intersection as shown in the figure below.
 
-As a passenger in the second {{ params.vars.vehicle }}, the first {{ params.vars.vehicle }} appears to travel at a velocity $v$.
+As a passenger in the second {{ params_vars_vehicle }}, the first {{ params_vars_vehicle }} appears to travel at a velocity $v$.
 
 <img src="q1.png" width = 400px>
 
 ## Part 1
 
-What is the magnitude of $v$, in {{ params.vars.units }}?
+What is the magnitude of $v$, in {{ params_vars_units }}?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Part 2
 
@@ -86,19 +75,19 @@ What is the (cardinal) direction of $v$ ?
 
 ### Answer Section
 
-- {{ params.part2.ans1.value }}
-- {{ params.part2.ans2.value }}
-- {{ params.part2.ans3.value }}
-- {{ params.part2.ans4.value }}
-- {{ params.part2.ans5.value }}
-- {{ params.part2.ans6.value }}
-- {{ params.part2.ans7.value }}
-- {{ params.part2.ans8.value }}
-- {{ params.part2.ans9.value }}
+- {{ params_part2_ans1_value }}
+- {{ params_part2_ans2_value }}
+- {{ params_part2_ans3_value }}
+- {{ params_part2_ans4_value }}
+- {{ params_part2_ans5_value }}
+- {{ params_part2_ans6_value }}
+- {{ params_part2_ans7_value }}
+- {{ params_part2_ans8_value }}
+- {{ params_part2_ans9_value }}
 
 ### pl-submission-panel
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 

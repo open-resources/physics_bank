@@ -49,56 +49,30 @@ part3:
     blank: 'true'
 myst:
   substitutions:
-    params:
-      vars:
-        title: Magnetic Force on Charged Particle
-      part1:
-        ans1:
-          value: Left
-        ans2:
-          value: Right
-        ans3:
-          value: Into the page
-        ans4:
-          value: Out of the page
-        ans5:
-          value: Up
-        ans6:
-          value: Down
-        ans7:
-          value: No force
-      part2:
-        ans1:
-          value: Left
-        ans2:
-          value: Right
-        ans3:
-          value: Into the page
-        ans4:
-          value: Out of the page
-        ans5:
-          value: Up
-        ans6:
-          value: Down
-        ans7:
-          value: No force
-      part3:
-        ans1:
-          value: Left
-        ans2:
-          value: Right
-        ans3:
-          value: Into the page
-        ans4:
-          value: Out of the page
-        ans5:
-          value: Up
-        ans6:
-          value: Down
-        ans7:
-          value: No force
+    params_vars_title: Magnetic Force on Charged Particle
+    params_part1_ans1_value: Left
+    params_part1_ans2_value: Right
+    params_part1_ans3_value: Into the page
+    params_part1_ans4_value: Out of the page
+    params_part1_ans5_value: Up
+    params_part1_ans6_value: Down
+    params_part1_ans7_value: No force
+    params_part2_ans1_value: Left
+    params_part2_ans2_value: Right
+    params_part2_ans3_value: Into the page
+    params_part2_ans4_value: Out of the page
+    params_part2_ans5_value: Up
+    params_part2_ans6_value: Down
+    params_part2_ans7_value: No force
+    params_part3_ans1_value: Left
+    params_part3_ans2_value: Right
+    params_part3_ans3_value: Into the page
+    params_part3_ans4_value: Out of the page
+    params_part3_ans5_value: Up
+    params_part3_ans6_value: Down
+    params_part3_ans7_value: No force
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 What is the direction of the velocity of an electron that experiences the magnetic force shown in each of the three cases, assuming it moves perpendicular to B?
 
 ## Part 1
@@ -107,13 +81,13 @@ What is the direction of the velocity of an electron that experiences the magnet
 
 ### Answer Section
 
-- {{ params.part1.ans1.value}}
-- {{ params.part1.ans2.value}}
-- {{ params.part1.ans3.value}}
-- {{ params.part1.ans4.value}}
-- {{ params.part1.ans5.value}}
-- {{ params.part1.ans6.value}}
-- {{ params.part1.ans7.value}}
+- {{ params_part1_ans1_value}}
+- {{ params_part1_ans2_value}}
+- {{ params_part1_ans3_value}}
+- {{ params_part1_ans4_value}}
+- {{ params_part1_ans5_value}}
+- {{ params_part1_ans6_value}}
+- {{ params_part1_ans7_value}}
 
 ## Part 2
 
@@ -121,13 +95,13 @@ What is the direction of the velocity of an electron that experiences the magnet
 
 ### Answer Section
 
-- {{ params.part2.ans1.value}}
-- {{ params.part2.ans2.value}}
-- {{ params.part2.ans3.value}}
-- {{ params.part2.ans4.value}}
-- {{ params.part2.ans5.value}}
-- {{ params.part2.ans6.value}}
-- {{ params.part2.ans7.value}}
+- {{ params_part2_ans1_value}}
+- {{ params_part2_ans2_value}}
+- {{ params_part2_ans3_value}}
+- {{ params_part2_ans4_value}}
+- {{ params_part2_ans5_value}}
+- {{ params_part2_ans6_value}}
+- {{ params_part2_ans7_value}}
 
 ## Part 3
 
@@ -135,13 +109,13 @@ What is the direction of the velocity of an electron that experiences the magnet
 
 ### Answer Section
 
-- {{ params.part3.ans1.value}}
-- {{ params.part3.ans2.value}}
-- {{ params.part3.ans3.value}}
-- {{ params.part3.ans4.value}}
-- {{ params.part3.ans5.value}}
-- {{ params.part3.ans6.value}}
-- {{ params.part3.ans7.value}}
+- {{ params_part3_ans1_value}}
+- {{ params_part3_ans2_value}}
+- {{ params_part3_ans3_value}}
+- {{ params_part3_ans4_value}}
+- {{ params_part3_ans5_value}}
+- {{ params_part3_ans6_value}}
+- {{ params_part3_ans7_value}}
 
 ## Attribution
 

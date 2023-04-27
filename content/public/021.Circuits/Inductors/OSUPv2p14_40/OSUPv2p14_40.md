@@ -44,16 +44,14 @@ part1:
     custom-format: .3g
 myst:
   substitutions:
-    params:
-      vars:
-        title: Inductance of a Solenoid
-      l: '42.0'
-      N: '530'
-      A: '1.20'
+    params_vars_title: Inductance of a Solenoid
+    params_l: '50.0'
+    params_N: '400'
+    params_A: '1.30'
 ---
-# {{ params.vars.title }}
-A ${{ params.l }}\rm\ cm$ long solenoid is wound with ${{ params.N }}\rm\ turns$ of wire.
-The cross-sectional area of the coil is ${{ params.A }}\rm\ cm^2$.
+# {{ params_vars_title }}
+A ${{ params_l }}\rm\ cm$ long solenoid is wound with ${{ params_N }}\rm\ turns$ of wire.
+The cross-sectional area of the coil is ${{ params_A }}\rm\ cm^2$.
 
 ## Question Text
 

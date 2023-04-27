@@ -38,29 +38,17 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: Force on Electron vs Proton
-      part1:
-        ans1:
-          value: Same magnitude, different direction.
-        ans2:
-          value: Same magnitude, same direction.
-        ans3:
-          value: Different magnitude, different direction.
-        ans4:
-          value: Different magnitude, same direction.
-      part2:
-        ans1:
-          value: Same magnitude, different direction.
-        ans2:
-          value: Same magnitude, same direction.
-        ans3:
-          value: Different magnitude, different direction.
-        ans4:
-          value: Different magnitude, same direction.
+    params_vars_title: Force on Electron vs Proton
+    params_part1_ans1_value: Same magnitude, different direction.
+    params_part1_ans2_value: Same magnitude, same direction.
+    params_part1_ans3_value: Different magnitude, different direction.
+    params_part1_ans4_value: Different magnitude, same direction.
+    params_part2_ans1_value: Same magnitude, different direction.
+    params_part2_ans2_value: Same magnitude, same direction.
+    params_part2_ans3_value: Different magnitude, different direction.
+    params_part2_ans4_value: Different magnitude, same direction.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 At a given instant, an electron and a proton are moving with the same velocity in a constant magnetic field.
 
 ## Part 1
@@ -69,10 +57,10 @@ Compare the magnetic forces on these particles.
 
 ### Answer Section
 
-- {{ params.part1.ans1.value}}
-- {{ params.part1.ans2.value}}
-- {{ params.part1.ans3.value}}
-- {{ params.part1.ans4.value}}
+- {{ params_part1_ans1_value}}
+- {{ params_part1_ans2_value}}
+- {{ params_part1_ans3_value}}
+- {{ params_part1_ans4_value}}
 
 ## Part 2
 
@@ -80,10 +68,10 @@ Compare their accelerations.
 
 ### Answer Section
 
-- {{ params.part2.ans1.value}}
-- {{ params.part2.ans2.value}}
-- {{ params.part2.ans3.value}}
-- {{ params.part2.ans4.value}}
+- {{ params_part2_ans1_value}}
+- {{ params_part2_ans2_value}}
+- {{ params_part2_ans3_value}}
+- {{ params_part2_ans4_value}}
 
 (1)The magnitude of the proton and electron magnetic forces are the same since they have the same amount of charge. The direction of these forces however are opposite of each other.
 

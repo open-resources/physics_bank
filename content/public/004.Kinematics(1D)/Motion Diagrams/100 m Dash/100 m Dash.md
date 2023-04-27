@@ -33,14 +33,12 @@ part1:
     file-names: model.pdf
 myst:
   substitutions:
-    params:
-      vars:
-        title: 100 m Dash
-      d1: 20
-      d2: 80
+    params_vars_title: 100 m Dash
+    params_d1: 20
+    params_d2: 80
 ---
-# {{ params.vars.title }}
-In the 100 $m$ dash sprinters speed up from rest for the first {{ params.d1 }} $m$, and maintain their speed for the final {{ params.d2 }} $m$.
+# {{ params_vars_title }}
+In the 100 $m$ dash sprinters speed up from rest for the first {{ params_d1 }} $m$, and maintain their speed for the final {{ params_d2 }} $m$.
 
 ## Part 1
 

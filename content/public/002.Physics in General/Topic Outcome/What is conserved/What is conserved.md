@@ -33,22 +33,14 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params:
-      vars:
-        title: What is Conserved ?
-      part1:
-        ans1:
-          value: Momentum only
-        ans2:
-          value: Kinetic energy only
-        ans3:
-          value: Momentum and mechanical energy
-        ans4:
-          value: Momentum and kinetic energy
-        ans5:
-          value: Momentum and potential energy
+    params_vars_title: What is Conserved ?
+    params_part1_ans1_value: Momentum only
+    params_part1_ans2_value: Kinetic energy only
+    params_part1_ans3_value: Momentum and mechanical energy
+    params_part1_ans4_value: Momentum and kinetic energy
+    params_part1_ans5_value: Momentum and potential energy
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Part 1
 
@@ -56,11 +48,11 @@ On a smooth horizontal floor, an object slides into a spring which is attached t
 
 ### Answer Section
 
-- {{ params.part1.ans1.value }}
-- {{ params.part1.ans2.value }}
-- {{ params.part1.ans3.value }}
-- {{ params.part1.ans4.value }}
-- {{ params.part1.ans5.value }}
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
 
 ## Attribution
 

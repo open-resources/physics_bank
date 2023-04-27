@@ -35,24 +35,23 @@ part1:
     suffix: $m/s^2$
 myst:
   substitutions:
-    params:
-      vars:
-        title: Acceleration for moving ball from Velocity vs Displacement graph
-        units: $m/s^2$
-      s: 7
+    params_vars_title: Acceleration for moving ball from Velocity vs Displacement
+      graph
+    params_vars_units: $m/s^2$
+    params_s: 20
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 <img src="L4Q3.png" width=90% height=75%>
 
 ## Question Text
 
 The graph above shows the movement of a ball, with its displacement, $s$, measured against its velocity, $v$.
 A curve is drawn through the data points as shown.
-Determine the acceleration of the ball when $s = {{params.s}}$.
+Determine the acceleration of the ball when $s = {{params_s}}$.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params.vars.units }}.
+Please enter in a numeric value in {{ params_vars_units }}.
 
 ## Attribution
 
