@@ -19,7 +19,6 @@ parts:
 - caption: Math
   chapters:
   - file: content/public/001.Math/Algebra/Smudge/Smudge
-  - file: content/public/001.Math/Algebra/algebra_test_q1/algebra_test_q1
   - file: content/public/001.Math/Derivatives/Acceleration_Based_On_Graph/Acceleration_Based_On_Graph
   - file: content/public/001.Math/Derivatives/Vehicle_Velocity/Vehicle_Velocity
   - file: content/public/001.Math/Derivatives/Velocity Derivatives/velocity_derivative
@@ -63,8 +62,6 @@ parts:
       resting respiratory rate
 - caption: Physics in General
   chapters:
-  - file: content/public/002.Physics in General/Solving Problems in Physics/Frictionless
-      Ski Jump Collision/Frictionless Ski Jump Collision
   - file: content/public/002.Physics in General/Topic Outcome/Choose correct ans/choose
       correct ans
   - file: content/public/002.Physics in General/Topic Outcome/Internal Energy Released/Internal
@@ -87,8 +84,6 @@ parts:
   - file: content/public/002.Physics in General/true_false_object/true_false_object
 - caption: Vectors
   chapters:
-  - file: content/public/003.Vectors/Coordinate System and Vector Components/Delivery
-      Man/delivery_man
   - file: content/public/003.Vectors/Coordinate System and Vector Components/Delivery
       Person/delivery_person
   - file: content/public/003.Vectors/Coordinate System and Vector Components/Magnitude_And_Components/Magnitude_And_Components
@@ -145,8 +140,6 @@ parts:
       of Particle
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Acceleration, Velocity and
       Time/Acceleration, Velocity and Time
-  - file: content/public/004.Kinematics(1D)/Topic Outcome/Choose the correct statement/Choose
-      the correct statement
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Electrons_Accelerating/Electrons_Accelerating
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Kicked_Soccer_Ball/Kicked_Soccer_Ball
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Motion_of_watermelon/Motion_of_watermelon
@@ -179,9 +172,6 @@ parts:
   - file: content/public/004.Kinematics(1D)/Velocity/Velocity_From_Graph/Velocity_From_Graph
   - file: content/public/004.Kinematics(1D)/Velocity/position_to_velocity_graph/position_to_velocity_graph
   - file: content/public/004.Kinematics(1D)/water_slide/water_slide
-- caption: Force
-  chapters:
-  - file: content/public/005.Force/rope_tension_blocks/rope_tension_blocks
 - caption: Kinematics(2D and 3D)
   chapters:
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Polar
@@ -189,8 +179,6 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Radius
       of a Rollercoaster/radius_of_a_rollercoaster
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Running_on_a_track/Running_on_a_track
-  - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Slider
-      on a Rotating Arm/SliderOnARotatingArm
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/circular_motion_graph/circular_motion_graph
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Archery Competition/Archery
       Competition
@@ -209,12 +197,8 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Hit_Baseball/Hit_Baseball
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Horizontal Jump/Horizontal
       Jump
-  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Jumping Frog/Jumping
-      Frog
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Jumping Salmon/Jumping
       Salmon
-  - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Midair Propulsion/Midair
-      Propulsion
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Mischievous Caracara/Mischievous
       Caracara
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Projectile Motion
@@ -272,14 +256,11 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Child on
       Swing/Child on Swing
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/MarbleCourse/MarbleCourse
-  - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Tetherball/Tetherball
-  - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Tetherball/tetherball
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/Yoyo Spin/Yoyo
       Spin
   - file: content/public/005.Kinematics(2D and 3D)/Uniform Circular Motion/merry_go_round/merry_go_round
   - file: content/public/005.Kinematics(2D and 3D)/Velocity Vector/Velocity and Acceleration
       of Particle in Curvilinear Motion/velocity_and_acceleration_of_particle_in_curvilinear_motion
-  - file: content/public/005.Kinematics(2D and 3D)/kinematics_test_q1/kinematics_test_q1
 - caption: Force
   chapters:
   - file: content/public/006.Force/Drag/Cyclist with a Deathwish/cyclist
@@ -287,7 +268,6 @@ parts:
   - file: content/public/006.Force/Dynamics of Circular Motion/Frictionless Table/frictionless_table
   - file: content/public/006.Force/Dynamics of Circular Motion/Object_In_Circular_Motion/Object_In_Circular_Motion
   - file: content/public/006.Force/Dynamics of Circular Motion/Vehicle around a curve/Vehicle_around_a_curve
-  - file: content/public/006.Force/Dynamics of Circular Motion/Washing Machine Mechanics/washing_machine_mechanics
   - file: content/public/006.Force/Dynamics of Circular Motion/circular_motion_FBD/circular_motion_FBD
   - file: content/public/006.Force/Dynamics of Circular Motion/object_on_string/object_on_string
   - file: content/public/006.Force/Equilibrium/Brick_and_Spring_on_conveyor/Brick_and_spring_on_conveyor
@@ -299,7 +279,6 @@ parts:
       Elevator
   - file: content/public/006.Force/Free Body Diagrams/Ball Rolling in Pipe/ball_rolling_in_pipe
   - file: content/public/006.Force/Free Body Diagrams/Car in Ditch/car_in_ditch
-  - file: content/public/006.Force/Free Body Diagrams/Elevator/Elevator
   - file: content/public/006.Force/Free Body Diagrams/Mass_Swinging_on_a_String/Mass_Swinging_on_a_String
   - file: content/public/006.Force/Free Body Diagrams/Masses on Slopes/masses_on_slopes
   - file: content/public/006.Force/Free Body Diagrams/dogs_pulling_sled/dogs_pulling_sled
@@ -328,8 +307,6 @@ parts:
   - file: content/public/006.Force/Newton's First Law/Inertial_Reference_Frames/Inertial_Reference_Frames
   - file: content/public/006.Force/Newton's First Law/Particle travelling with constant
       velocity/Particle travelling with constant velocity
-  - file: content/public/006.Force/Newton's Second Law/Artificial Gravity Simulator/q03_number-input_AZ_artificial
-      gravity
   - file: content/public/006.Force/Newton's Second Law/Blocks on a Table/Blocks on
       a Table
   - file: content/public/006.Force/Newton's Second Law/Broken-down Cruise Ship/Broken-down
@@ -377,7 +354,6 @@ parts:
   - file: content/public/006.Force/Topic Outcome/The max acceleration without slipping/The
       max acceleration without slipping
   - file: content/public/006.Force/Topic Outcome/Three Blocks/Three Blocks
-  - file: content/public/006.Force/Topic Outcome/True_or_False/q04_checkbox
   - file: content/public/006.Force/Topic Outcome/Tube Pulled Up Hill/tube pulled up
       hill
   - file: content/public/006.Force/Topic Outcome/Turning_Car/Turning_car
@@ -451,12 +427,10 @@ parts:
   - file: content/public/007.Momentum and Impulse/Momentum/Dinner_Plate/dinner_plate
   - file: content/public/007.Momentum and Impulse/Momentum/Momentum Vector/momentum_vector
   - file: content/public/007.Momentum and Impulse/Momentum/Momentum_and_Inertia/Momentum_and_Inertia
-  - file: content/public/007.Momentum and Impulse/Momentum/Pulling a Spinning Mass/PullingASpinningMass
   - file: content/public/007.Momentum and Impulse/Momentum/Rock_Powered_Rocket/Rock_Powered_Rocket
   - file: content/public/007.Momentum and Impulse/Momentum/Rotating Spheres/Rotating
       Spheres
   - file: content/public/007.Momentum and Impulse/Momentum/cricket_force_graph/cricket_force_graph
-  - file: content/public/007.Momentum and Impulse/Pulling a Spinning Mass/PullingASpinningMass
   - file: content/public/007.Momentum and Impulse/Topic Outcome/A Coyote and a Rat/A
       Coyote and a Rat
   - file: content/public/007.Momentum and Impulse/Topic Outcome/A disk and a paintball/A
@@ -475,7 +449,6 @@ parts:
   - file: content/public/007.Momentum and Impulse/Topic Outcome/momentum_and_net_force/momentum_netforce
 - caption: Energy
   chapters:
-  - file: content/public/008.Energy/Conservation of Energy/BallOnATrack/BallOnATrack
   - file: content/public/008.Energy/Conservation of Energy/Bike on Hill/Bike On Hill
   - file: content/public/008.Energy/Conservation of Energy/Block_in_hole/Block_In_Hole
   - file: content/public/008.Energy/Conservation of Energy/Compressed_Spring_To_Launch_Mass/Compressed_Spring_To_Launch_Mass
@@ -533,7 +506,6 @@ parts:
   - file: content/public/009.Work/Work/Lowering_bucket_1/lowering_bucket_1
   - file: content/public/009.Work/Work/Lowering_bucket_2/Lowering_bucket_2
   - file: content/public/009.Work/Work/Lowering_bucket_3/Lowering_bucket_3
-  - file: content/public/009.Work/Work/WalkingOnASpinningDisk/WalkingOnASpinningDisk
   - file: content/public/009.Work/Work/Work Done by Constant Force/Work Done by Constant
       Force
   - file: content/public/009.Work/Work/force_and_displacement/force_and_displacement
@@ -626,35 +598,23 @@ parts:
   - file: content/public/015.Oscillations/Pendulum/lengths_with_same_period/lengths_with_same_period
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Bouncing a baby to
       sleep/Bouncing a baby to sleep
-  - file: content/public/015.Oscillations/Simple Harmonic Motion/DIsplacement From
-      Equilibrium 3/displacement_from_equilibrium_4to5
-  - file: content/public/015.Oscillations/Simple Harmonic Motion/Displacement From
-      Equilibrium 2/displacement_from_equilibrium_3
-  - file: content/public/015.Oscillations/Simple Harmonic Motion/Displacement From
-      Equilibrium 4/displacement_from_equilibrium_6to7
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Displacement and
       Potential Energy of an Oscillator/Displacement and Potential Energy of an Oscillator
-  - file: content/public/015.Oscillations/Simple Harmonic Motion/Displacement from
-      Equilibrium 1/displacement_from_equlibrium_1to2
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Kinetic_energy_SHM/Kinetic_energy_SHM
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Maximum Speed of
       a Pendulum/Maximum Speed of a Pendulum
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Maximum_In_Simple_Harmonic_Motion/Maximum_In_Simple_Harmonic_Motion
-  - file: content/public/015.Oscillations/Simple Harmonic Motion/Period_oscillation_SHM/Period_oscillation_SHM
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Potential_energy_SHM/Potential_energy_SHM
   - file: content/public/015.Oscillations/Simple Harmonic Motion/SHO Kinetic Energy
       Graph/SHO_Kinetic_Energy_Graph
   - file: content/public/015.Oscillations/Simple Harmonic Motion/frequency_graph/frequency_graph
   - file: content/public/015.Oscillations/Simple Harmonic Motion/spring_oscillations/spring_oscillations
-  - file: content/public/015.Oscillations/q01_multiple-choice/q01_multiple-choice
 - caption: Waves
   chapters:
   - file: content/public/016.Waves/Interference/PHYS 122 2018W2 Second Term Test Q3/PHYS
       122 2018W2 Second Term Test Q3
-  - file: content/public/016.Waves/Misc/microscope_resolution/microscope_resolution
   - file: content/public/016.Waves/Power of a Wave/power_wave_q1/power_wave_q1
   - file: content/public/016.Waves/Sound Wave Energy/Sound_Wave_Energy
-  - file: content/public/016.Waves/Standing Waves/Superposition of Two Waves/superposition_of_two_waves
   - file: content/public/016.Waves/The Doppler Effect/Bat_Doppler_V2/Bat_Doppler_V2
   - file: content/public/016.Waves/Traveling Waves/Travelling_wave_derivation/Travelling_wave_derivation
 - caption: Electrostatics
@@ -813,10 +773,6 @@ parts:
       field of a solenoid
   - file: content/public/019.Magnetism/Solenoids/Solenoid current/Solenoid current
   - file: content/public/019.Magnetism/The Hall Effect/Copper in a Magnetic Field/cu_in_magnetic_field
-- caption: Electromagnetic Waves
-  chapters:
-  - file: content/public/020.Electromagnetic Waves/Electromagnetic Spectrum/Atomic
-      Emission Diffraction/atomic_emission_diffraction
 - caption: Circuits
   chapters:
   - file: content/public/021.Circuits/Alternating-Current Circuits/OSUPv2p14_63/OSUPv2p14_63
