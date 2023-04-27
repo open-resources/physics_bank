@@ -1,0 +1,76 @@
+---
+title: Choose the Correct Graph
+topic: Kinematics(1D)
+author: Jake Bobowski
+source: 2012 Midterm 1 Q3 Section 002
+template_version: 1.3
+attribution: standard
+partialCredit: true
+singleVariant: false
+showCorrectAnswer: false
+outcomes:
+- 1.2.1.2
+- 1.7.2.0
+- 4.6.2.0
+difficulty:
+- easy
+randomization:
+- 0
+taxonomy:
+- undefined
+span:
+- section
+length:
+- short
+tags:
+- PW
+assets:
+- q3_2012Mid1_002.png
+- q3_ans_2012Mid1_002.png
+part1:
+  type: multiple-choice
+  pl-customizations:
+    fixed-order: true
+    weight: 1
+myst:
+  substitutions:
+    params_vars_title: Choose the Correct Graph
+    params_part1_ans1_value: Figure (a)
+    params_part1_ans2_value: Figure (b)
+    params_part1_ans3_value: Figure (c)
+    params_part1_ans4_value: Figure (d)
+    params_part1_ans5_value: Figure (e)
+---
+# {{ params_vars_title }}
+This figure shows the graph of the position $x$ as a function of time $t$ for an object moving in a straight line (along the $x$-axis):
+
+<img src="q3_2012Mid1_002.png" alt="Figure of a position-time graph which starts at a negative y-value and which increases at a decreasing rate." width=40%>
+
+## Part 1
+
+Which of the following graphs best describes the velocity along the $x$-axis as a function of time for this object?
+
+<img longdesc="Choose the correct graph.md#desc" alt="Figure of answer options." src="q3_ans_2012Mid1_002.png" width=100% >
+
+<div id="desc">
+<h5>Long Description of image: Figure of answer options.</h5>
+All of the figures are velocity-time graphs.<br>
+Figure a shows a graph which starts at a negative y-value and which increases at a decreasing rate. The graph does not cross the x-axis.<br>
+Figure b shows a straight line which starts at a negative y-value and stops when it reaches the x-axis.<br>
+Figure c shows a graph which starts at a negative y-value and which increases at a decreasing rate. The graph crosses the x-axis.<br>
+Figure d shows a graph which starts at a positive y-value and which decreases at a decreasing rate.<br>
+Figure e shows a straight line with a positive slope starting at the origin.
+<p>Long description ends.</p>
+<div>
+
+### Answer Section
+
+- {{ params_part1_ans1_value }}
+- {{ params_part1_ans2_value }}
+- {{ params_part1_ans3_value }}
+- {{ params_part1_ans4_value }}
+- {{ params_part1_ans5_value }}
+
+## Attribution
+
+Problem is licensed under the [CC-BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br> ![The Creative Commons 4.0 license requiring attribution-BY, non-commercial-NC, and share-alike-SA license.](https://raw.githubusercontent.com/firasm/bits/master/by-nc-sa.png)
