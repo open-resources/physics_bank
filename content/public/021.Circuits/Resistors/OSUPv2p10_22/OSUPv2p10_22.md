@@ -100,9 +100,9 @@ part6:
 myst:
   substitutions:
     params_vars_title: Starter Motor Resistance
-    params_R_b: '0.008'
-    params_R_m: '0.065'
-    params_R_add: '0.098'
+    params_R_b: '0.007'
+    params_R_m: '0.070'
+    params_R_add: '0.100'
     params_V: '12.50'
 ---
 # {{ params_vars_title }}

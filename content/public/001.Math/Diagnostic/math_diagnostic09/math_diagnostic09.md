@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $q$ = $\dfrac{(y)}{(x - 8b)} $
-    params_part1_ans1_value: x = ${ 8 b + \frac{y}{q}}$
-    params_part1_ans2_value: x = ${- \frac{8 b q}{y}}$
-    params_part1_ans3_value: x = ${- \frac{y}{8 b q}}$
-    params_part1_ans4_value: x = ${\frac{8 b + q}{y}}$
+    params_expr: $u$ = $\dfrac{(l)}{(x + 2c)} $
+    params_part1_ans1_value: x = ${ - 2 c + \frac{l}{u}}$
+    params_part1_ans2_value: x = ${\frac{2 c u}{l}}$
+    params_part1_ans3_value: x = ${\frac{l}{2 c u}}$
+    params_part1_ans4_value: x = ${\frac{- 2 c + u}{l}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

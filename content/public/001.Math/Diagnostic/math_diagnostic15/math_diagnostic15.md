@@ -27,11 +27,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic15
-    params_expr: $4^{2} $=$ 16$
-    params_part1_ans1_value: $log_416 = 2$
-    params_part1_ans2_value: $log_42 = 16$
-    params_part1_ans3_value: $log_162 = 4$
-    params_part1_ans4_value: $log_216 = 4$
+    params_expr: $9^{3} $=$ 729$
+    params_part1_ans1_value: $log_9729 = 3$
+    params_part1_ans2_value: $log_93 = 729$
+    params_part1_ans3_value: $log_7293 = 9$
+    params_part1_ans4_value: $log_3729 = 9$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

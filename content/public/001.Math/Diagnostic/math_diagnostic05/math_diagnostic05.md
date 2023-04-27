@@ -32,12 +32,12 @@ myst:
   substitutions:
     params_vars_title: Math Diagnostic05
     params_expr: $\dfrac{x}{2}$
-    params_num2: 10
+    params_num2: 5
     params_num3: 9
-    params_part1_ans1_value: 180
-    params_part1_ans2_value: '5'
+    params_part1_ans1_value: 90
+    params_part1_ans2_value: 5/2
     params_part1_ans3_value: 18
-    params_part1_ans4_value: '45'
+    params_part1_ans4_value: 45/2
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

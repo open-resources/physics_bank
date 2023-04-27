@@ -46,15 +46,16 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_L: '8'
-    params_q: '1.2'
-    params_p: '-6'
-    params_d: '1.3'
+    params_vars_title: Parallel Plates
+    params_L: '7'
+    params_q: '5.2'
+    params_p: '-7'
+    params_d: '1.4'
     params_part2_ans1_value: points towards the negative plate
     params_part2_ans2_value: points towards the positive plate
     params_part2_ans3_value: points parallel to the plates
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 Two parallel conducting plates ${{params_L}} \textrm{ cm}$ on a side are given equal and opposite charges of magnitude ${{params_q}}\times 10^{ {{params_p}} } \textrm{ C}$.
 
 The plates are ${{params_d}}\rm\ mm$ apart.

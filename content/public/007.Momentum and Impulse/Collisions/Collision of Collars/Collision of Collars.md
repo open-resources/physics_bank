@@ -44,11 +44,11 @@ part2:
 myst:
   substitutions:
     params_vars_title: Collision of Collars
-    params_W1: 5
-    params_W2: 8
-    params_v1: 26
-    params_v2: 3
-    params_e: 0.7
+    params_W1: 2
+    params_W2: 9
+    params_v1: 20
+    params_v2: 2
+    params_e: 0.71
 ---
 # {{ params_vars_title }}
 <img src="Collision of Collars.png" width=400>

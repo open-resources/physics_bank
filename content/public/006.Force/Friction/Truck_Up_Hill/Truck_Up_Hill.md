@@ -32,6 +32,7 @@ part1:
     fixed-order: true
 myst:
   substitutions:
+    params_vars_title: Truck Up Hill
     params_part1_ans1_value: ' a= $\mu_s g - g\sin$(10$^\circ$)'
     params_part1_ans1_feedback: 'At the point of slipping, $f_s$ = $f_{s\ max}$=$\mu_s$
       n .  Also, $f_s$ - $w\sin$(10$^\circ$)$= $ma and $n - w\cos$(10$^\circ$) = 0
@@ -63,7 +64,7 @@ myst:
       $w= mg$, $m$ is canceled out and we will have , a=$\mu_s g\cos$(10$^\circ$)
       - $g\sin$(10$^\circ$).'
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A truck accelerates up a 10  $^\circ$  incline. For a box in the back of the truck as shown in Fig. (i), the free body diagram is shown in Fig. (ii). The coefficient of friction between the box and the truck is $\mu_s$ . At the point of slipping, the acceleration of the truck is:
 
 <img src="truckuphill1.png">

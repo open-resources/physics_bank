@@ -28,6 +28,7 @@ part1:
     weight: 1
 myst:
   substitutions:
+    params_vars_title: A Leaf Falling From a Tree
     params_part1_ans1_value: The drag force on the leaf
     params_part1_ans1_feedback: Pairs do not act on the same object. This is a force
       between the air and the leaf.
@@ -44,7 +45,7 @@ myst:
     params_part1_ans5_value: The terminal velocity of the leaf.
     params_part1_ans5_feedback: Not a force!
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A leaf falling from a tree has a weight $\vec{W}$. What is the equal and opposite Newton's third law action/reaction partner of this force?
 
 ## Part 1

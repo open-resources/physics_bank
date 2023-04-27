@@ -70,7 +70,7 @@ myst:
     params_vars_title: Magnetic field of a hollow cylinder
     params_r1: '3.0'
     params_r2: '5.0'
-    params_I: '55.0'
+    params_I: '45.0'
     params_ra: '2.0'
     params_rb: '4.0'
     params_rc: '6.0'

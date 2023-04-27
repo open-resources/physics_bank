@@ -41,6 +41,7 @@ part3:
     weight: 1
 myst:
   substitutions:
+    params_vars_title: Dogs Pulling Sled
     params_part3_ans1_value: Yes, the force of the sled acting on the dogs appears
       on the free body diagram because all forces, including those in force pairs,
       must be included on the diagram for it to be accurate.
@@ -56,7 +57,7 @@ myst:
       on the sled is the related force and is smaller in size.
     params_part3_ans4_feedback: Consider Newton's third law.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A sled is pulled by a team of dogs across a level icy surface at constant velocity.
 
 ## Part 1

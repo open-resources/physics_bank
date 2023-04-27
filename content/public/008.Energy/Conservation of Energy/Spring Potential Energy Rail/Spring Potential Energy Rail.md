@@ -36,11 +36,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Spring Potential Energy Rail
-    params_m: 383
-    params_xi: 21.0
-    params_x: 67.0
-    params_R: 771.0
-    params_k: 105
+    params_m: 327
+    params_xi: 42.0
+    params_x: 54.0
+    params_R: 706.0
+    params_k: 141
 ---
 # {{ params_vars_title }}
 <img src="Spring Potential Energy Rail.png" width=400>

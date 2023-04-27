@@ -43,10 +43,10 @@ myst:
   substitutions:
     params_vars_title: Charge Model
     params_vars_units: A
-    params_c1: 8
-    params_c2: 23
-    params_c3: 4
-    params_t: 1
+    params_c1: 45
+    params_c2: 40
+    params_c3: 31
+    params_t: 5
 ---
 # {{ params_vars_title }}
 The quantity of charge through a conductor is modeled as $ \textrm{Q}=$ {{params_c1}}$\rm{t^4}$ $\rm{mC \over s^4}$ - {{params_c2}}$\rm{t}$ $\rm{mC \over s}$ + {{params_c1}} $\rm{mC}$.

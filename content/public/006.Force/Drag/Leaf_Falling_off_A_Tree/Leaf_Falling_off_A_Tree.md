@@ -1,5 +1,5 @@
 ---
-title: A Leaf Falling Off a Tree
+title: Leaf Falling Off A Tree
 topic: Force
 author: John Hopkinson
 source: PHYS 112 (Hopkinson) 2018W1 Midterm 2 Q1
@@ -31,6 +31,7 @@ part1:
     partial-credit-method: EDC
 myst:
   substitutions:
+    params_vars_title: Leaf Falling Off A Tree
     params_part1_ans1_value: The drag force on the leaf and the force the leaf pushes
       on the air are the same size.
     params_part1_ans1_feedback: Great! You got it.
@@ -56,7 +57,7 @@ myst:
       force in the direction of motion other than the weight. Based on the Newton’s
       third law, $F_{air\ on\ leaf}$  = - $F_{leaf\ on\ air}$
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 

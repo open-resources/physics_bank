@@ -31,6 +31,7 @@ part1:
     weight: 1
 myst:
   substitutions:
+    params_vars_title: Mass on the end of a string
     params_part1_ans3_value: a
     params_part1_ans3_feedback: Great! You got it. The Z-pattern relates the angle
       theta(θ)to that given in the diagram.
@@ -47,7 +48,7 @@ myst:
     params_part1_ans5_feedback: The net force must point toward the center of the
       circle.
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 A mass on the end of a string is swung around a circle across a horizontal frictionless table. The angle the string makes with respect to the vertical is $\theta$. Choose the best free body diagram from the choices provided in the figure.
 
 <img src="fbdmassonstring6.png">

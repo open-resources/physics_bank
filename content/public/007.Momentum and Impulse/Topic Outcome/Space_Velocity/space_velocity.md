@@ -73,12 +73,12 @@ myst:
     params_vars_units1: $\rm{m/s}$
     params_vars_units2: $\rm{J}$
     params_m: 102
-    params_left_arm: 8
-    params_head: 13
-    params_V_L_i: 14
-    params_V_L_j: 7
+    params_left_arm: 7
+    params_head: 12
+    params_V_L_i: 12
+    params_V_L_j: 6
     params_V_H_i: -22
-    params_V_H_j: -12
+    params_V_H_j: -13
     params_t: 0.9
     params_part5_ans1_value: His head required more force
     params_part5_ans2_value: His left arm required more force

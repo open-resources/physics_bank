@@ -27,15 +27,13 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic23
-    params_a: 2
-    params_b: 8
-    params_formula: $x^{2} \sin{\left(8 x \right)}$
-    params_part1_ans1_value: $8 x^{2} \cos{\left(8 x \right)} + 2 x \sin{\left(8 x
-      \right)}$
-    params_part1_ans2_value: $8 x^{2} \cos{\left(8 x \right)} $
-    params_part1_ans3_value: $ 2 x \cos{\left(8 x \right)}$
-    params_part1_ans4_value: $- 8 x^{2} \sin{\left(8 x \right)} + 2 x \cos{\left(8
-      x \right)}$
+    params_a: 1
+    params_b: 4
+    params_formula: $x \cos{\left(4 x \right)}$
+    params_part1_ans1_value: $- 4 x \sin{\left(4 x \right)} + \cos{\left(4 x \right)}$
+    params_part1_ans2_value: $- 4 x \sin{\left(4 x \right)} $
+    params_part1_ans3_value: $ \sin{\left(4 x \right)}$
+    params_part1_ans4_value: $4 x \cos{\left(4 x \right)} + \sin{\left(4 x \right)}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

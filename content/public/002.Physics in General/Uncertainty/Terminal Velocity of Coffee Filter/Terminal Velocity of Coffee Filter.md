@@ -61,15 +61,15 @@ myst:
     params_vars_name: Mateo
     params_vars_unit1: $m/s$
     params_vars_unit2: $kg/s$
-    params_m: 2
+    params_m: 1
     params_d_m: 52
-    params_sd: 0.066
-    params_v1: 0.85
-    params_v2: 0.8
-    params_v3: 0.9
-    params_v4: 0.7
-    params_v5: 0.78
-    params_v6: 0.74
+    params_sd: 0.078
+    params_v1: 0.98
+    params_v2: 0.78
+    params_v3: 0.83
+    params_v4: 0.77
+    params_v5: 0.75
+    params_v6: 0.78
 ---
 # {{ params_vars_title }}
 In one of the PHYS 111 labs {{ params_vars_name }} measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling through the air.

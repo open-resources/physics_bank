@@ -65,9 +65,9 @@ myst:
     params_vars_unit1: $m^2/s$
     params_vars_unit2: $s$
     params_water: 2.1
-    params_air: 2.1
+    params_air: 1.7
     params_time: 4
-    params_const: 4
+    params_const: 6
     params_part3_ans1_value: directly
     params_part3_ans2_value: inversely
 ---

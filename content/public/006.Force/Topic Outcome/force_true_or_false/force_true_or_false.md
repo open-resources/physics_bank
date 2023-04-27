@@ -30,13 +30,14 @@ part1:
     partial-credit-method: EDC
 myst:
   substitutions:
+    params_vars_title: Force True or False
     params_part1_ans1_value: When object A causes object B to accelerate, $F_{A\ on\
       B}$ = $F_{B\ on\ A}$ .
     params_part1_ans1_feedback: Great! You got it.
     params_part1_ans2_value: There is always a force in the direction of any motion.
     params_part1_ans2_feedback: Consider Retardation!
 ---
-# {{ params.vars.title }}
+# {{ params_vars_title }}
 
 ## Question Text
 

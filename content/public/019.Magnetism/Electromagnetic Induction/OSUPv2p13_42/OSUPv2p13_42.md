@@ -42,8 +42,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Potential Difference of Rod
-    params_B: '0.75'
-    params_v: '12'
+    params_B: '1.00'
+    params_v: '11'
     params_part2_ans1_value: Bottom
     params_part2_ans2_value: Top
 ---

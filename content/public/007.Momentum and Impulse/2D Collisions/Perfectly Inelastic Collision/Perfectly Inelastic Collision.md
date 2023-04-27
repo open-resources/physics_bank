@@ -50,7 +50,7 @@ myst:
   substitutions:
     params_vars_title: Perfectly Inelastic Collision
     params_v1: 3
-    params_v2: 2
+    params_v2: 1
 ---
 # {{ params_vars_title }}
 Particles of mass $m$ and $2m$ have velocities $v_1=$ {{ params_v1 }}$v\hat{x}$ and $v_2=$ {{ params_v2 }}$v\hat{y}$ respectively.

@@ -44,9 +44,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Relative Motion of Two Swimmers
-    params_v: 2
-    params_h: 28
-    params_d: 40
+    params_v: 1
+    params_h: 26
+    params_d: 27
     params_t: 12
 ---
 # {{ params_vars_title }}
