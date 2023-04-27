@@ -89,12 +89,12 @@ substitutions:
   params:
     vars:
       title: Rotating Student
-    m_t: 62
+    m_t: 86
     m_a: 8
-    m_m: 6
-    r_t: 1.3
-    r_ao: 0.85
-    r_ai: 0.17
+    m_m: 5
+    r_t: 1.4
+    r_ao: 0.84
+    r_ai: 0.2
     h_t: 1.9
     dt: 5.5
 ---

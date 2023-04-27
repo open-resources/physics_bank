@@ -38,9 +38,9 @@ substitutions:
       ans1:
         value: Gravitational kinetic energy
       ans2:
-        value: Rotational kinetic energy
-      ans3:
         value: Translational kinetic energy
+      ans3:
+        value: Rotational kinetic energy
 ---
 # {{ params.vars.title }}
 

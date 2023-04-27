@@ -40,21 +40,21 @@ substitutions:
   params:
     vars:
       title: Pendulum Period Dependence on Length
-    inc: 5
-    dec: 75.0
+    inc: 2
+    dec: 80.0
     part1:
       ans1:
-        value: It increases by a factor of $\sqrt($5$)$.
+        value: It increases by a factor of $\sqrt($2$)$.
       ans2:
-        value: It increases by a factor of 5.
+        value: It increases by a factor of 2.
       ans3:
-        value: It increases by a factor of 5$^2$.
+        value: It increases by a factor of 2$^2$.
       ans4:
-        value: It decreases by a factor of $\sqrt($5$)$.
+        value: It decreases by a factor of $\sqrt($2$)$.
       ans5:
-        value: It decreases by a factor of 5.
+        value: It decreases by a factor of 2.
       ans6:
-        value: It decreases by a factor of 5$^2$.
+        value: It decreases by a factor of 2$^2$.
       ans7:
         value: It does not change.
 ---

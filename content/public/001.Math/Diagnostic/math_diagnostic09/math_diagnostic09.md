@@ -32,16 +32,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic09
-    expr: $t$ = $\dfrac{(d)}{(h + 9p)} $
+    expr: $l$ = $\dfrac{(h)}{(k - 10x)} $
     part1:
       ans1:
-        value: h = ${ \frac{d}{t} - 9 p}$
+        value: k = ${ \frac{h}{l} + 10 x}$
       ans2:
-        value: h = ${\frac{9 p t}{d}}$
+        value: k = ${- \frac{10 l x}{h}}$
       ans3:
-        value: h = ${\frac{d}{9 p t}}$
+        value: k = ${- \frac{h}{10 l x}}$
       ans4:
-        value: h = ${\frac{- 9 p + t}{d}}$
+        value: k = ${\frac{l + 10 x}{h}}$
       ans5:
         value: Don't Know
 ---

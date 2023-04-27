@@ -28,16 +28,16 @@ substitutions:
   params:
     vars:
       title: Math Diagnostic15
-    expr: $4^{5} $=$ 1024$
+    expr: $7^{2} $=$ 49$
     part1:
       ans1:
-        value: $log_41024 = 5$
+        value: $log_749 = 2$
       ans2:
-        value: $log_45 = 1024$
+        value: $log_72 = 49$
       ans3:
-        value: $log_10245 = 4$
+        value: $log_492 = 7$
       ans4:
-        value: $log_51024 = 4$
+        value: $log_249 = 7$
       ans5:
         value: Don't Know
 ---

@@ -63,8 +63,8 @@ substitutions:
       name: Santiago
       unit1: $kg$
       unit2: $m^3$
-    m_p: 222
-    m_cp: 91
+    m_p: 235
+    m_cp: 79
     l: 2
 ---
 # {{ params.vars.title }}

@@ -43,12 +43,12 @@ part2:
 substitutions:
   params:
     vars:
-      name: Abbas
+      name: Aliyah
       title: Archery Competition
-    d: 148
-    v: 170
-    h: 176
-    theta: 37
+    d: 71
+    v: 273
+    h: 178
+    theta: 47
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is reading a novel that describes an athelete participating in an archery competition.

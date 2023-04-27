@@ -36,7 +36,7 @@ substitutions:
   params:
     vars:
       title: Length of Pendulum
-    T: 0.83
+    T: 0.4
 ---
 # {{ params.vars.title }}
 
