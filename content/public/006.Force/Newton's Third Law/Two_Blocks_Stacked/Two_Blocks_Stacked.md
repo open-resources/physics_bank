@@ -42,9 +42,9 @@ myst:
   substitutions:
     params_vars_title: Two Blocks Stacked
     params_vars_units: N
-    params_m: 14
-    params_f: 0.31
-    params_t: 34
+    params_m: 15
+    params_f: 0.26
+    params_t: 46
 ---
 # {{ params_vars_title }}
 Blocks A and B each have a mass $m$ = {{params_m}} $kg$.

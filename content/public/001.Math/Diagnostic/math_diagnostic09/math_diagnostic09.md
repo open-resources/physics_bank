@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $d$ = $\dfrac{(z)}{(j - 9u)} $
-    params_part1_ans1_value: j = ${ 9 u + \frac{z}{d}}$
-    params_part1_ans2_value: j = ${- \frac{9 d u}{z}}$
-    params_part1_ans3_value: j = ${- \frac{z}{9 d u}}$
-    params_part1_ans4_value: j = ${\frac{d + 9 u}{z}}$
+    params_expr: $e$ = $\dfrac{(g)}{(b - 9y)} $
+    params_part1_ans1_value: b = ${ 9 y + \frac{g}{e}}$
+    params_part1_ans2_value: b = ${- \frac{9 e y}{g}}$
+    params_part1_ans3_value: b = ${- \frac{g}{9 e y}}$
+    params_part1_ans4_value: b = ${\frac{e + 9 y}{g}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

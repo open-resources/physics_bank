@@ -54,11 +54,11 @@ myst:
     params_vars_title: Rock Powered Rocket
     params_vars_units1: m/s
     params_vars_units2: kg
-    params_vars_name: Ahmed
-    params_i: 308
-    params_m: 36
-    params_v_1: 16
-    params_v_2: 30
+    params_vars_name: Ximena
+    params_i: 343
+    params_m: 27
+    params_v_1: 18
+    params_v_2: 29
 ---
 # {{ params_vars_title }}
 {{params_vars_name}} is an astronaut, floating in space.

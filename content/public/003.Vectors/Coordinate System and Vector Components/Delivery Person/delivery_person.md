@@ -77,10 +77,10 @@ myst:
   substitutions:
     params_vars_title: Delivery Person
     params_vars_units: km
-    params_dist1: 30
-    params_dist2: 40
-    params_dist3: '1.0'
-    params_dist4: 80
+    params_dist1: 90
+    params_dist2: 60
+    params_dist3: '5.0'
+    params_dist4: 60
 ---
 # {{ params_vars_title }}
 A delivery person starts at the post office, drives {{params_dist1}} km north, then {{params_dist2}} km west, then {{params_dist3}} km northeast, and finally {{params_dist4}} km north to stop for lunch.

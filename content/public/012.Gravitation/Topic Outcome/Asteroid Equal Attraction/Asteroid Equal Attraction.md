@@ -33,7 +33,7 @@ myst:
   substitutions:
     params_vars_title: Asteroid Equal Attraction
     params_vars_units: $km$
-    params_x: 18547
+    params_x: 8848
 ---
 # {{ params_vars_title }}
 <img src="L2Q2_drawing.png" width=90% style="padding: 5%">

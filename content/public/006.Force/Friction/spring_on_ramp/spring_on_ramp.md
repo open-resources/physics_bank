@@ -49,10 +49,10 @@ myst:
     params_vars_title: Spring on Ramp
     params_vars_units: m
     params_m: 2
-    params_theta: 36
-    params_k: 300
+    params_theta: 35
+    params_k: 150
     params_us: 0.6
-    params_uk: 0.37
+    params_uk: 0.39
 ---
 # {{ params_vars_title }}
 In the figure below m = {{ params_m }} kg, $\theta$ = {{ params_theta }}$^\circ$, and k = {{ params_k }} N/m.

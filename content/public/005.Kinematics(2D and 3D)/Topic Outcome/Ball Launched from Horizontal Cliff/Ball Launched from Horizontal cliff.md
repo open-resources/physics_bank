@@ -63,8 +63,8 @@ myst:
     params_vars_unit1: $s$
     params_vars_unit2: rad
     params_vars_unit3: $m/s$
-    params_v0: 2.93
-    params_h: 51.4
+    params_v0: 1.82
+    params_h: 46.5
 ---
 # {{ params_vars_title }}
 A small ball is launched from a horizontal cliff with initial speed {{ params_v0 }} $m/s$. The side of the cliff is sloped. The ball makes contact with the cliff side after falling a vertical distance of {{ params_h }} cm.

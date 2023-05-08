@@ -44,10 +44,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Highway Speeding
-    params_d: 450
-    params_r_dot: 127
-    params_angle1: 47
-    params_angle2: 35
+    params_d: 531
+    params_r_dot: 194
+    params_angle1: 55
+    params_angle2: 39
 ---
 # {{ params_vars_title }}
 <img src="L7Q1.png" width=90%>

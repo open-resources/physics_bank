@@ -37,9 +37,9 @@ myst:
   substitutions:
     params_vars_title: Block on a Wall
     params_vars_units: N
-    params_theta: 57
-    params_m: 4
-    params_mu: 0.489
+    params_theta: 32
+    params_m: 5
+    params_mu: 0.497
 ---
 # {{ params_vars_title }}
 A {{params_m}} kg wood block slides down a vertical wall while you push on it at a {{params_theta}}$^\circ$ angle.

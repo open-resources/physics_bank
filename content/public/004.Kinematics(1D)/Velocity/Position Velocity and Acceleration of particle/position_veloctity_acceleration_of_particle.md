@@ -53,8 +53,8 @@ part3:
 myst:
   substitutions:
     params_vars_title: Position, Velocity and Acceleration of a Particle
-    params_s0: 36
-    params_t: 24
+    params_s0: 24
+    params_t: 28
 ---
 # {{ params_vars_title }}
 The velocity of a particle which moves along the X axis is given by $v = 4 - 8t + 10t^2$, where $t$ is in seconds

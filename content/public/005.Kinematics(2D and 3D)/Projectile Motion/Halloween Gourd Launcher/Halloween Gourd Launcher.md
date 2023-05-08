@@ -69,11 +69,11 @@ part5:
     suffix: $^{\circ}$
 myst:
   substitutions:
-    params_vars_name: Ximena
+    params_vars_name: Aliyah
     params_vars_title: Halloween Gourd Launcher
-    params_m_gourd: 1.03
-    params_h: 2.29
-    params_v_f: 5.03
+    params_m_gourd: 1.19
+    params_h: 1.84
+    params_v_f: 4.38
 ---
 # {{ params_vars_title }}
 At a local pumpkin patch, {{ params_vars_name }} is hired to create a Hallowe'en gourd launcher.  {{ params_vars_name }} wants to launch a {{ params.m_gourd }} $kg$ gourd (decorated as an "Angry Bird") at a large pumpkin (decorated as a "pig") which sits on top of a $h =$ {{ params_h }} $m$ tall hay bale as shown in the figure.

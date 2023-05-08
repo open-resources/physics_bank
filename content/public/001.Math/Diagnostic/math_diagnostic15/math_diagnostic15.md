@@ -27,11 +27,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic15
-    params_expr: $3^{2} $=$ 9$
-    params_part1_ans1_value: $log_39 = 2$
-    params_part1_ans2_value: $log_32 = 9$
-    params_part1_ans3_value: $log_92 = 3$
-    params_part1_ans4_value: $log_29 = 3$
+    params_expr: $5^{6} $=$ 15625$
+    params_part1_ans1_value: $log_515625 = 6$
+    params_part1_ans2_value: $log_56 = 15625$
+    params_part1_ans3_value: $log_156256 = 5$
+    params_part1_ans4_value: $log_615625 = 5$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

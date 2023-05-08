@@ -85,8 +85,8 @@ myst:
   substitutions:
     params_vars_title: RC Series Circuit
     params_R: '600.0'
-    params_C: '1.05'
-    params_V: '6.74'
+    params_C: '1.10'
+    params_V: '6.35'
 ---
 # {{ params_vars_title }}
 A ${{ params_R }}\rm\ \Omega$ resistor, an uncharged ${{ params_C }}\rm\ \mu F$ capacitor, and a ${{ params_V }}\rm\ V$ are connected in series.

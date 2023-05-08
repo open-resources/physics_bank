@@ -55,7 +55,7 @@ myst:
   substitutions:
     params_vars_name: Maya
     params_vars_title: Water Slide
-    params_theta: 30
+    params_theta: 50
     params_l: 600
     params_l2: 300.0
 ---

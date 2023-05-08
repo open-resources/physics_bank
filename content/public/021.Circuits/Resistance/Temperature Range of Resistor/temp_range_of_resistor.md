@@ -42,9 +42,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Temperature Range of Resistor
-    params_p: 7
-    params_metal: Carbon
-    params_T_0: 87
+    params_p: 2
+    params_metal: 'Germanium '
+    params_T_0: 71
 ---
 # {{ params_vars_title }}
 

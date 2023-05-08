@@ -49,8 +49,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Uniformly Decreasing Magnetic Field
-    params_r: '5'
-    params_B: '3.0'
+    params_r: '10'
+    params_B: '2.0'
     params_t: '10'
     params_part2_ans1_value: Clockwise
     params_part2_ans2_value: Counterclockwise

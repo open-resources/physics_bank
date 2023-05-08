@@ -37,7 +37,7 @@ myst:
   substitutions:
     params_vars_title: Block In Hole
     params_vars_units: m
-    params_a: 29
+    params_a: 30
     params_d: 0.8
 ---
 # {{ params_vars_title }}
