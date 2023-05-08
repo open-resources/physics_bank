@@ -1,7 +1,9 @@
 name: deploy
 
-# Only run this when the master branch changes
+# Only run this when the main branch changes
 on:
+  pull_request:
+  merge_group:
   workflow_dispatch:
   push:
     branches:
