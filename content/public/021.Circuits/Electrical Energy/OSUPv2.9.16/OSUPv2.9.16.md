@@ -28,12 +28,12 @@ part1:
 myst:
   substitutions:
     params_vars_title: Energy Consumption Units
-    params_vars_name: Ximena
-    params_part1_ans1_value: current
-    params_part1_ans2_value: power
-    params_part1_ans3_value: charge
-    params_part1_ans4_value: energy
-    params_part1_ans5_value: voltage
+    params_vars_name: Santiago
+    params_part1_ans1_value: voltage
+    params_part1_ans2_value: charge
+    params_part1_ans3_value: power
+    params_part1_ans4_value: current
+    params_part1_ans5_value: energy
 ---
 # {{ params_vars_title }}
 

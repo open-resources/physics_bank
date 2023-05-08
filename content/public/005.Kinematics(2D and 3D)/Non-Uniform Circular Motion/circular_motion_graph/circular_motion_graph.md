@@ -86,8 +86,8 @@ part9:
 myst:
   substitutions:
     params_vars_title: Circular Motion Graph
-    params_r: 6
-    params_t: 0.4
+    params_r: 5
+    params_t: 0.6
     params_wmax: 10
     params_part1_ans1_value: $t = 0\rm{s} $ to $ t = 1\rm{s}$, positive
     params_part1_ans1_feedback: Hmm... try again.

@@ -38,7 +38,7 @@ myst:
   substitutions:
     params_vars_title: Pushing Net Across Ice
     params_v: 1
-    params_f: 5
+    params_f: 3
     params_part2_ans1_value: at a steadily increasing speed
     params_part2_ans1_feedback: Great job! You got it!
     params_part2_ans2_value: at 2 $\rm{m/s}$

@@ -50,9 +50,9 @@ part3:
     directory: clientFilesQuestion
 myst:
   substitutions:
-    params_V: 0.84
-    params_T: 0.6
-    params_R: 1.2
+    params_V: 3.0
+    params_T: 1.6
+    params_R: 4.5
     params_vars_title: Merry Go Round
 ---
 # {{ params_vars_title }}

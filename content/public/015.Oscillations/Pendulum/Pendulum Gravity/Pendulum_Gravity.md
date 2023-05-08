@@ -35,8 +35,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Pendulum Gravity
-    params_Ti: 1.925
-    params_Tf: 1.844
+    params_Ti: 1.83
+    params_Tf: 1.895
 ---
 # {{ params_vars_title }}
 

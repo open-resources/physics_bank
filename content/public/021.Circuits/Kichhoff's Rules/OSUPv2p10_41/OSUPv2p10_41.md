@@ -126,12 +126,12 @@ part7:
 myst:
   substitutions:
     params_vars_title: Power and Currents in a Three-Loop Circuit
-    params_R1: '4.00'
-    params_R2: '9.00'
-    params_R3: '4.00'
-    params_R4: '5.00'
-    params_V1: '13.0'
-    params_V2: '12.00'
+    params_R1: '9.00'
+    params_R2: '3.00'
+    params_R3: '3.00'
+    params_R4: '9.00'
+    params_V1: '18.0'
+    params_V2: '9.00'
 ---
 # {{ params_vars_title }}
 Consider the circuit shown below.

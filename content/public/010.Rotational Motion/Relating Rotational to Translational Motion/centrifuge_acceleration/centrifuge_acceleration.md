@@ -42,9 +42,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Centrifuge Acceleration
-    params_v: 4000.0
-    params_t: 1.6
-    params_r: 5
+    params_v: 3800.0
+    params_t: 1.8
+    params_r: 9
 ---
 # {{ params_vars_title }}
 The test tubes of high-speed centrifuges should be placed with care because of the very large acceleration.

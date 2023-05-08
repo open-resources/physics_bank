@@ -58,17 +58,17 @@ part4:
 myst:
   substitutions:
     params_vars_title: Terminal Velocity of a Coffee Filter
-    params_vars_name: Mateo
+    params_vars_name: Abbas
     params_vars_unit1: $m/s$
     params_vars_unit2: $kg/s$
-    params_m: 1
-    params_d_m: 52
-    params_sd: 0.078
-    params_v1: 0.98
-    params_v2: 0.78
-    params_v3: 0.83
-    params_v4: 0.77
-    params_v5: 0.75
+    params_m: 5
+    params_d_m: 42
+    params_sd: 0.064
+    params_v1: 0.75
+    params_v2: 0.95
+    params_v3: 0.85
+    params_v4: 0.86
+    params_v5: 0.84
     params_v6: 0.78
 ---
 # {{ params_vars_title }}

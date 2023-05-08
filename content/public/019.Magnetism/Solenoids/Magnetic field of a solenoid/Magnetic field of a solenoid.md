@@ -42,8 +42,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Magnetic field of a solenoid
-    params_n: '2000'
-    params_I: '6.40'
+    params_n: '1700'
+    params_I: '5.00'
 ---
 # {{ params_vars_title }}
 A solenoid is wound with {{ params_n }} turns per meter.

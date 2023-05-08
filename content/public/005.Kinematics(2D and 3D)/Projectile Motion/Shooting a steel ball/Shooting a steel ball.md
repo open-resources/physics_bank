@@ -30,14 +30,14 @@ part1:
 myst:
   substitutions:
     params_vars_title: Shooting a Steel Ball
-    params_v: 3
-    params_theta: 45
-    params_part1_ans1_value: $(3\cos(45^{\circ}), \; -3\sin(45^{\circ}))$
-    params_part1_ans2_value: $(3\cos(45^{\circ}), \;3\sin(45^{\circ}))$
-    params_part1_ans3_value: $(3\sin(45^{\circ}), \; -3\cos(45^{\circ}))$
-    params_part1_ans4_value: $(3\sin(45^{\circ}), \;3\cos(45^{\circ}))$
-    params_part1_ans5_value: $(-3\cos(45^{\circ}), \; -3\sin(45^{\circ}))$
-    params_part1_ans6_value: $(-3\sin(45^{\circ}), \;3\cos(45^{\circ}))$
+    params_v: 4
+    params_theta: 68
+    params_part1_ans1_value: $(4\cos(68^{\circ}), \; -4\sin(68^{\circ}))$
+    params_part1_ans2_value: $(4\cos(68^{\circ}), \;4\sin(68^{\circ}))$
+    params_part1_ans3_value: $(4\sin(68^{\circ}), \; -4\cos(68^{\circ}))$
+    params_part1_ans4_value: $(4\sin(68^{\circ}), \;4\cos(68^{\circ}))$
+    params_part1_ans5_value: $(-4\cos(68^{\circ}), \; -4\sin(68^{\circ}))$
+    params_part1_ans6_value: $(-4\sin(68^{\circ}), \;4\cos(68^{\circ}))$
 ---
 # {{ params_vars_title }}
 A small steel ball is shot at {{ params_v }} $m/s$ at a {{ params_theta }}$^{\circ}$ angle above the horizontal direction and its motion is well approximated by projectile motion.

@@ -44,9 +44,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: 'RL Series Circuit: Energy'
-    params_factor: '2'
+    params_factor: '4'
     params_word: reduced
-    params_ans: '0.250'
+    params_ans: '0.062'
 ---
 # {{ params_vars_title }}
 Consider the $RL$ circuit shown below.

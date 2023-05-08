@@ -37,7 +37,7 @@ part2:
 myst:
   substitutions:
     params_vars_title: Merry Go Round
-    params_vars_name: Lorenzo
+    params_vars_name: Ximena
     params_part1_ans1_value: The merry-go-round's moment of inertia is increasing.
     params_part1_ans2_value: Angular momentum is conserved.
     params_part1_ans3_value: The merry-go-round's moment of inertia is decreasing.

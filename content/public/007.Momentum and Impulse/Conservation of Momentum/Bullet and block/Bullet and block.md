@@ -42,11 +42,11 @@ myst:
   substitutions:
     params_vars_title: Bullet and Block
     params_vars_name: Ahmed
-    params_m_bullet: 22
-    params_m_block: 15
-    params_bullet_v: 823
-    params_slide_d: 5
-    params_slide_dnew: 5.7
+    params_m_bullet: 38
+    params_m_block: 16
+    params_bullet_v: 728
+    params_slide_d: 7
+    params_slide_dnew: 7.2
     params_coeff_k: 0.2
 ---
 # {{ params_vars_title }}

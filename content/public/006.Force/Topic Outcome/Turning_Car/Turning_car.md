@@ -32,15 +32,15 @@ part1:
 myst:
   substitutions:
     params_vars_title: Turning Car
-    params_vars_vehicle: truck
+    params_vars_vehicle: van
     params_part1_ans1_value: There is a force pushing everything to the right.
     params_part1_ans2_value: Your head (and eyes) are not in an inertial reference
       frame, and so things are moving for no reason.
-    params_part1_ans3_value: Your truck is moving along a circular path, and a centripetal
+    params_part1_ans3_value: Your van is moving along a circular path, and a centripetal
       acceleration is required. Without a force to push it towards the middle, objects(your
       shoulders, the soup cans) will NOT move in a circle along with the rest of the
-      truck, and so will move relative to the truck's interior.
-    params_part1_ans4_value: Turning to the right forces your truck to tilt, and all
+      van, and so will move relative to the van's interior.
+    params_part1_ans4_value: Turning to the right forces your van to tilt, and all
       the cans and the shoulders shift down-hill.
 ---
 # {{ params_vars_title }}

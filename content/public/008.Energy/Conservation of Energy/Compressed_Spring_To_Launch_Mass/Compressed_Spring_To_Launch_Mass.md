@@ -32,11 +32,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Compressed Spring To Launch Mass
-    params_choice: halved
-    params_part1_ans1_value: 1/4$h$
+    params_choice: quadrupled
+    params_part1_ans1_value: 16$h$
     params_part1_ans2_value: 9$h$
     params_part1_ans3_value: 1/16$h$
-    params_part1_ans4_value: 16$h$
+    params_part1_ans4_value: 1/4$h$
     params_part1_ans5_value: 4$h$
 ---
 # {{ params_vars_title }}

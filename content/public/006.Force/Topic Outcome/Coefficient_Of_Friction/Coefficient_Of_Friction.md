@@ -36,7 +36,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Coefficient Of Friction
-    params_m: 157
+    params_m: 233
     params_t: 2
 ---
 # {{ params_vars_title }}
