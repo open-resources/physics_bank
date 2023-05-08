@@ -50,8 +50,8 @@ myst:
   substitutions:
     params_vars_title: Accelerating Elevator
     params_vars_units: $N$
-    params_m: 52.1
-    params_a: 1.44
+    params_m: 66.6
+    params_a: 1.45
 ---
 # {{ params_vars_title }}
 A person with a mass of {{ params_m }} $kg$ is standing on the floor of an elevator which is accelerating downward at {{ params_a }} $m/s^2$.

@@ -31,12 +31,12 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic06
-    params_eq: $\dfrac{x-3}{x-6}$ = $ \dfrac{x+3}{x+5}$
-    params_part1_ans1_value: -21/17
-    params_part1_ans2_value: -3/5
-    params_part1_ans3_value: '-21'
-    params_part1_ans4_value: -3/17
-    params_part1_ans5_value: -33/5
+    params_eq: $\dfrac{x-3}{x-6}$ = $ \dfrac{x+2}{x+8}$
+    params_part1_ans1_value: -42/19
+    params_part1_ans2_value: 4/3
+    params_part1_ans3_value: '42'
+    params_part1_ans4_value: -2/19
+    params_part1_ans5_value: -34/7
     params_part1_ans6_value: None of the above
 ---
 # {{ params_vars_title }}

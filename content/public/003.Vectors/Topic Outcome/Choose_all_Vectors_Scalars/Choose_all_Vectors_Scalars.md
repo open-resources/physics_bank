@@ -34,11 +34,11 @@ myst:
     params_vars_title: Choose all Vectors and Scalars
     params_choice: vectors
     params_part1_ans1_value: Displacement
-    params_part1_ans2_value: Momentum
-    params_part1_ans3_value: Mass
-    params_part1_ans4_value: Pressure
-    params_part1_ans5_value: Distance
-    params_part1_ans6_value: Energy
+    params_part1_ans2_value: Position
+    params_part1_ans3_value: Acceleration
+    params_part1_ans4_value: Velocity
+    params_part1_ans5_value: Length
+    params_part1_ans6_value: Distance
 ---
 # {{ params_vars_title }}
 

@@ -81,16 +81,16 @@ part6:
 myst:
   substitutions:
     params_vars_title: Barge Pulled by Tugboats
-    params_F1: 5241
-    params_F2: 4287
-    params_theta_1: 38
-    params_theta_2: 7
-    params_part6_ans1_value: 17.9$^{\circ}$ to the left of AB.
-    params_part6_ans2_value: 17.9$^{\circ}$ to the right of AB.
-    params_part6_ans3_value: 72.1$^{\circ}$ to the left of AB.
-    params_part6_ans4_value: 72.1$^{\circ}$ to the right of AB.
-    params_part6_ans5_value: 179.0$^{\circ}$ to the left of AB.
-    params_part6_ans6_value: 179.0$^{\circ}$ to the right of AB.
+    params_F1: 3284
+    params_F2: 5455
+    params_theta_1: 7
+    params_theta_2: 20
+    params_part6_ans1_value: 9.91$^{\circ}$ to the right of AB.
+    params_part6_ans2_value: 9.91$^{\circ}$ to the left of AB.
+    params_part6_ans3_value: 80.1$^{\circ}$ to the right of AB.
+    params_part6_ans4_value: 80.1$^{\circ}$ to the left of AB.
+    params_part6_ans5_value: 99.1$^{\circ}$ to the right of AB.
+    params_part6_ans6_value: 99.1$^{\circ}$ to the left of AB.
 ---
 # {{ params_vars_title }}
 A barge is pulled by the two tugboats shown in the following figure.

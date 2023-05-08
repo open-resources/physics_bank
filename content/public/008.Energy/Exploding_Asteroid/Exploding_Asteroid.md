@@ -34,20 +34,20 @@ part1:
 myst:
   substitutions:
     params_vars_title: Exploding Asteroid
-    params_vars_name: Ximena
-    params_vars_name2: Lorenzo
-    params_part1_ans1_value: They will both agree on how the kinetic energy of each
-      of the pieces has changed.
-    params_part1_ans2_value: They will both agree on how the total kinetic energy
-      of the system has changed.
-    params_part1_ans3_value: The total momentum vectors they use to describe the asteroid
-      system (both pieces) will be the same.
-    params_part1_ans4_value: The momentum vectors they use to describe each of the
+    params_vars_name: Ahmed
+    params_vars_name2: Santiago
+    params_part1_ans1_value: The momentum vectors they use to describe each of the
       two asteroid pieces will be the same.
-    params_part1_ans5_value: The final speeds they measure for the two asteroid pieces
+    params_part1_ans2_value: They will both agree on how much kinetic energy each
+      of the asteroid pieces has.
+    params_part1_ans3_value: The final speeds they measure for the two asteroid pieces
       will be the same.
-    params_part1_ans6_value: The force vector they determine that each piece of the
-      asteroid felt during the explosion will be the same.
+    params_part1_ans4_value: The change in the momentum vector they determine for
+      each piece of the asteroid before and after the explosion will be the same.
+    params_part1_ans5_value: The total momentum vectors they use to describe the asteroid
+      system (both pieces) will be the same.
+    params_part1_ans6_value: The final velocity vectors they use to describe the two
+      asteroid pieces will be the same.
 ---
 # {{ params_vars_title }}
 

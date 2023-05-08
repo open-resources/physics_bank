@@ -41,10 +41,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Coil in Uniform Magnetic Field
-    params_N: '50'
-    params_d: '5'
-    params_B: '0.75'
-    params_t: '0.3'
+    params_N: '40'
+    params_d: '15'
+    params_B: '0.50'
+    params_t: '1.0'
 ---
 # {{ params_vars_title }}
 

@@ -101,15 +101,15 @@ myst:
     params_vars_title: Three Blocks
     params_vars_unit1: $\rm{m/s^2}$
     params_vars_unit2: $\rm{N}$
-    params_m_A: 3.0
-    params_m_B: 6.0
-    params_m_C: 12.0
-    params_F: 37
+    params_m_A: 1.3
+    params_m_B: 2.6
+    params_m_C: 5.2
+    params_F: 23
     params_part2_ans1_value: $F_{\text{on A}}$
     params_part2_ans1_feedback: Correct! Nice work
-    params_part2_ans2_value: $m_A$
+    params_part2_ans2_value: $m_C$
     params_part2_ans2_feedback: Correct! Nice work
-    params_part2_ans3_value: $m_C$
+    params_part2_ans3_value: $m_A$
     params_part2_ans3_feedback: Correct! Nice work
     params_part2_ans4_value: $m_B$
     params_part2_ans4_feedback: Correct! Nice work
@@ -123,9 +123,9 @@ myst:
     params_part3_ans2_feedback: Correct! Nice work
     params_part3_ans3_value: $F_{\text{on A}}$
     params_part3_ans3_feedback: Not quite - Try again!
-    params_part3_ans4_value: $m_A$
+    params_part3_ans4_value: $m_C$
     params_part3_ans4_feedback: Not quite - Try again!
-    params_part3_ans5_value: $m_C$
+    params_part3_ans5_value: $m_A$
     params_part3_ans5_feedback: Not quite - Try again!
     params_part3_ans6_value: $m_B$
     params_part3_ans6_feedback: Not quite - Try again!

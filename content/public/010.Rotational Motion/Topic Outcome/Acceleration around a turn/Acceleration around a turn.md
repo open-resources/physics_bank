@@ -32,7 +32,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Acceleration Around a Turn
-    params_vars_vehicle: sedan
+    params_vars_vehicle: van
     params_vars_dir: clockwise
     params_part1_ans1_value: Figure A
     params_part1_ans2_value: Figure B

@@ -35,7 +35,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Length of Pendulum
-    params_T: 0.85
+    params_T: 0.73
 ---
 # {{ params_vars_title }}
 

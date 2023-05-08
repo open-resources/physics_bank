@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $n$ = $\dfrac{(k)}{(w + 2b)} $
-    params_part1_ans1_value: w = ${ - 2 b + \frac{k}{n}}$
-    params_part1_ans2_value: w = ${\frac{2 b n}{k}}$
-    params_part1_ans3_value: w = ${\frac{k}{2 b n}}$
-    params_part1_ans4_value: w = ${\frac{- 2 b + n}{k}}$
+    params_expr: $d$ = $\dfrac{(z)}{(j - 9u)} $
+    params_part1_ans1_value: j = ${ 9 u + \frac{z}{d}}$
+    params_part1_ans2_value: j = ${- \frac{9 d u}{z}}$
+    params_part1_ans3_value: j = ${- \frac{z}{9 d u}}$
+    params_part1_ans4_value: j = ${\frac{d + 9 u}{z}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

@@ -66,8 +66,8 @@ myst:
     params_vars_unit2: $s$
     params_water: 2.0
     params_air: 1.8
-    params_time: 6
-    params_const: 5
+    params_time: 7
+    params_const: 6
     params_part3_ans1_value: directly
     params_part3_ans2_value: inversely
 ---
