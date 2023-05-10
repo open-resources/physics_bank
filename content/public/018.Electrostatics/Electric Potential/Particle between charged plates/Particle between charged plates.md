@@ -43,7 +43,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Particle between charged plates
-    params_sig: '16'
+    params_sig: '10'
     params_d: '4.1'
     params_particle: An electron
     params_particle1: electron

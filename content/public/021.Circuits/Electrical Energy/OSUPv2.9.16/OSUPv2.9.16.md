@@ -28,7 +28,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Energy Consumption Units
-    params_vars_name: Mateo
+    params_vars_name: Emilia
     params_part1_ans1_value: energy
     params_part1_ans2_value: current
     params_part1_ans3_value: charge

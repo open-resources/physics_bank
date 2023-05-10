@@ -37,7 +37,7 @@ myst:
   substitutions:
     params_vars_title: Ball on a Slanted Table
     params_vars_units: $m/s$
-    params_d: 1.6
+    params_d: 2.9
     params_theta: 28
 ---
 # {{ params_vars_title }}

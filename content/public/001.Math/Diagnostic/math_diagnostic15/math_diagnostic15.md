@@ -27,11 +27,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic15
-    params_expr: $2^{5} $=$ 32$
-    params_part1_ans1_value: $log_232 = 5$
-    params_part1_ans2_value: $log_25 = 32$
-    params_part1_ans3_value: $log_325 = 2$
-    params_part1_ans4_value: $log_532 = 2$
+    params_expr: $9^{6} $=$ 531441$
+    params_part1_ans1_value: $log_9531441 = 6$
+    params_part1_ans2_value: $log_96 = 531441$
+    params_part1_ans3_value: $log_5314416 = 9$
+    params_part1_ans4_value: $log_6531441 = 9$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

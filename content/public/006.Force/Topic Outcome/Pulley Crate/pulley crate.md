@@ -39,8 +39,8 @@ myst:
   substitutions:
     params_vars_title: Pulley Crate
     params_vars_units: ft/s^2
-    params_m: 58
-    params_f: 32
+    params_m: 124
+    params_f: 61
 ---
 # {{ params_vars_title }}
 

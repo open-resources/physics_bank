@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $n$ = $\dfrac{(g)}{(o + 5v)} $
-    params_part1_ans1_value: o = ${ \frac{g}{n} - 5 v}$
-    params_part1_ans2_value: o = ${\frac{5 n v}{g}}$
-    params_part1_ans3_value: o = ${\frac{g}{5 n v}}$
-    params_part1_ans4_value: o = ${\frac{n - 5 v}{g}}$
+    params_expr: $u$ = $\dfrac{(c)}{(n + 8e)} $
+    params_part1_ans1_value: n = ${ \frac{c}{u} - 8 e}$
+    params_part1_ans2_value: n = ${\frac{8 e u}{c}}$
+    params_part1_ans3_value: n = ${\frac{c}{8 e u}}$
+    params_part1_ans4_value: n = ${\frac{- 8 e + u}{c}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

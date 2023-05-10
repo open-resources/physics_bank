@@ -42,9 +42,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Temperature Range of Resistor
-    params_p: 3
-    params_metal: Manganin
-    params_T_0: 59
+    params_p: 5
+    params_metal: Silver
+    params_T_0: 143
 ---
 # {{ params_vars_title }}
 
