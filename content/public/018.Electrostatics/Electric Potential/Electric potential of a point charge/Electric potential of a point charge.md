@@ -44,8 +44,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Electric potential of a point charge
-    params_r: '1.80'
-    params_V: '3.00'
+    params_r: '3.60'
+    params_V: '2.80'
 ---
 # {{ params_vars_title }}
 

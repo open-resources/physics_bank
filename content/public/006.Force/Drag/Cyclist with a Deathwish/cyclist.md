@@ -28,9 +28,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Cyclist with a Deathwish
-    params_v1: 169
-    params_v2: 42
-    params_age: 53
+    params_v1: 173
+    params_v2: 43
+    params_age: 58
     params_part1_ans1_value: 16.2 times.
     params_part1_ans2_value: 4.02 times.
     params_part1_ans3_value: 0.249 times.

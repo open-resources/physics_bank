@@ -32,8 +32,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Box in a Truck Bed 2
-    params_vars_vehicle: semi-truck
-    params_vars_direction: positive
+    params_vars_vehicle: van
+    params_vars_direction: negative
     params_part1_ans1_value: Kinetic friction, positive work
     params_part1_ans2_value: Kinetic friction, negative work
     params_part1_ans3_value: Kinetic friction, zero work

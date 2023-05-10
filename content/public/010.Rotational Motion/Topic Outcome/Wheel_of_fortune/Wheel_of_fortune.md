@@ -35,10 +35,10 @@ part1:
 myst:
   substitutions:
     params_vars_units: rad/s
-    params_vars_name: Aliyah
+    params_vars_name: Ximena
     params_vars_title: Wheel of Fortune
-    params_t: 2.1
-    params_w_i: ${\pi \over 4} {rad\over s}$
+    params_t: 1.1
+    params_w_i: ${\pi \over 3} {rad\over s}$
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} wants to win a game of Wheel-of-Fortune.

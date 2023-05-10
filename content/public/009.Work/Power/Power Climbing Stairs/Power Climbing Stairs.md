@@ -44,9 +44,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Power Climbing Stairs
-    params_W: 153
-    params_t: 3
-    params_h: 9
+    params_W: 193
+    params_t: 5
+    params_h: 14
 ---
 # {{ params_vars_title }}
 A ${{ params_W }}lb$ jogger jogs up a flight of stairs ${{ params_h }}ft$ high in ${{ params_t }}$ seconds.

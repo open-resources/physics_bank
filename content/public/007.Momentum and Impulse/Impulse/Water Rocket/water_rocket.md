@@ -34,8 +34,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Water Rocket
-    params_m: 1.1
-    params_i: 11
+    params_m: 1.3
+    params_i: 16
 ---
 # {{ params_vars_title }}
 We are designing a water rocket with a water bottle and pressurized air. We will fill 80% of the volume of the bottle with water. The total mass of our rocket (bottle + water + air) is {{ params_m }} $\rm{kg}$.

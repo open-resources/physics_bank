@@ -51,9 +51,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Partially Filled Capacitor
-    params_a: '45.0'
-    params_b: '18.0'
-    params_f: '3'
+    params_a: '35.0'
+    params_b: '15.0'
+    params_f: '4'
 ---
 # {{ params_vars_title }}
 A parallel-plate capacitor with only air between its plates is charged by connecting the capacitor to a battery. The capacitor is then disconnected from the battery, without any of the charge leaving the plates.

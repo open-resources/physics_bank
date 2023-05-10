@@ -34,7 +34,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Rotational Inertia of T-shaped Rods
-    params_choice: minimum
+    params_choice: maximum
     params_part1_ans1_value: Figure (a)
     params_part1_ans2_value: Figure (b)
     params_part1_ans3_value: Figure (c)

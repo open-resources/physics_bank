@@ -32,18 +32,18 @@ myst:
   substitutions:
     params_vars_title: Work Done By Force
     params_vars_units: $J$
-    params_t1: 5
+    params_t1: 1
     params_t2: 9
-    params_f1: 4.0
-    params_f2: 5.0
-    params_r1: 2.5
-    params_r2: 1.5
-    params_m: 8.7
-    params_part1_ans1_value: 2.5
-    params_part1_ans2_value: 18.0
-    params_part1_ans3_value: 150.0
-    params_part1_ans4_value: 2.0
-    params_part1_ans5_value: -18.0
+    params_f1: 2.9
+    params_f2: 5.5
+    params_r1: 2.8
+    params_r2: 1.6
+    params_m: 6.8
+    params_part1_ans1_value: -0.68
+    params_part1_ans2_value: 17.0
+    params_part1_ans3_value: 120.0
+    params_part1_ans4_value: 2.5
+    params_part1_ans5_value: -17.0
 ---
 # {{ params_vars_title }}
 Between time $t =$ {{ params_t1 }} $s$ and $t =$ {{params_t2 }} $s$, a force $\vec{F}$ = ( {{ params_f1 }} $\hat\imath$ - {{ params_f2 }} $\hat\jmath$ ) N moves a {{ params_m }} kg object along a trajectory $\Delta\vec{r}$ = ( {{ params_r1 }} $\hat\imath$ - {{ params_r2 }} $\hat\jmath$ ) m.

@@ -43,8 +43,8 @@ myst:
     params_vars_title: Coil in Uniform Magnetic Field
     params_N: '50'
     params_d: '15'
-    params_B: '0.50'
-    params_t: '0.3'
+    params_B: '1.00'
+    params_t: '0.1'
 ---
 # {{ params_vars_title }}
 

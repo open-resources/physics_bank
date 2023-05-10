@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $e$ = $\dfrac{(g)}{(b - 9y)} $
-    params_part1_ans1_value: b = ${ 9 y + \frac{g}{e}}$
-    params_part1_ans2_value: b = ${- \frac{9 e y}{g}}$
-    params_part1_ans3_value: b = ${- \frac{g}{9 e y}}$
-    params_part1_ans4_value: b = ${\frac{e + 9 y}{g}}$
+    params_expr: $k$ = $\dfrac{(h)}{(a - 2e)} $
+    params_part1_ans1_value: a = ${ 2 e + \frac{h}{k}}$
+    params_part1_ans2_value: a = ${- \frac{2 e k}{h}}$
+    params_part1_ans3_value: a = ${- \frac{h}{2 e k}}$
+    params_part1_ans4_value: a = ${\frac{2 e + k}{h}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}
