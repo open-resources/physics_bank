@@ -69,10 +69,10 @@ part4:
 myst:
   substitutions:
     params_vars_title: Analyzing Potential Difference and Electric Field
-    params_q: '6.0'
-    params_c: '3.0'
+    params_q: '12.0'
+    params_c: '4.0'
     params_d: '5.0'
-    params_k: '4.0'
+    params_k: '7.0'
 ---
 # {{ params_vars_title }}
 A parallel-plate capacitor has charge of magnitude {{params_q }} $\rm\ \mu\textrm{C}$ on each plate and capacitance {{params_c }} $\rm\ \mu\textrm{F}$  when there is air between the plates.

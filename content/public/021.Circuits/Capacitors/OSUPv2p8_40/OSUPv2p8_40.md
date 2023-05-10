@@ -41,8 +41,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Energy Stored in a Capacitor
-    params_c: '5'
-    params_v: '5'
+    params_c: '11'
+    params_v: '8'
 ---
 # {{ params_vars_title }}
 

@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic13
-    params_expr: $\dfrac{z^5 }{z^7} $
+    params_expr: $\dfrac{z^1 }{z^3} $
     params_part1_ans1_value: $z^{-2}$
     params_part1_ans2_value: $z^{2}$
     params_part1_ans3_value: -2z
-    params_part1_ans4_value: (5/7)z
+    params_part1_ans4_value: (1/3)z
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

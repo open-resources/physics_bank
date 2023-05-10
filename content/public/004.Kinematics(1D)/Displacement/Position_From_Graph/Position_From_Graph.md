@@ -33,9 +33,9 @@ myst:
   substitutions:
     params_vars_title: Position From Graph
     params_vars_units: $m$
-    params_m: 3.0
-    params_part1_ans1_value: '10.0'
-    params_part1_ans2_value: '4.0'
+    params_m: 2.9
+    params_part1_ans1_value: '9.9'
+    params_part1_ans2_value: '4.1'
     params_part1_ans3_value: '7.0'
     params_part1_ans4_value: '8.5'
     params_part1_ans5_value: '-8.5'

@@ -29,11 +29,11 @@ myst:
   substitutions:
     params_vars_title: Energy Consumption Units
     params_vars_name: Lorenzo
-    params_part1_ans1_value: voltage
-    params_part1_ans2_value: charge
-    params_part1_ans3_value: current
-    params_part1_ans4_value: power
-    params_part1_ans5_value: energy
+    params_part1_ans1_value: charge
+    params_part1_ans2_value: power
+    params_part1_ans3_value: energy
+    params_part1_ans4_value: voltage
+    params_part1_ans5_value: current
 ---
 # {{ params_vars_title }}
 

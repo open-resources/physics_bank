@@ -100,16 +100,16 @@ part10:
 myst:
   substitutions:
     params_vars_title: Elevator Pulley System
-    params_m_p: 100
-    params_M_e: 59
+    params_m_p: 90
+    params_M_e: 47
     params_ang: 20
     params_part1_ans1_value: 'Yes'
     params_part1_ans2_value: 'No'
     params_part7_ans1_value: $n_{ep}$
-    params_part7_ans2_value: $n_{pe}$
-    params_part7_ans3_value: $Mg$
-    params_part7_ans4_value: $T$
-    params_part7_ans5_value: $mg$
+    params_part7_ans2_value: $Mg$
+    params_part7_ans3_value: $mg$
+    params_part7_ans4_value: $n_{pe}$
+    params_part7_ans5_value: $T$
     params_part8_ans1_value: 'Yes'
     params_part8_ans2_value: 'No'
 ---

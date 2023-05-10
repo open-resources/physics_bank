@@ -69,16 +69,16 @@ part5:
     suffix: $J$
 myst:
   substitutions:
-    params_vars_name1: Ahmed
+    params_vars_name1: Mateo
     params_vars_name2: Ximena
     params_vars_title: A Flying Arrow
     params_vars_unit1: $kg\cdot m/s$
     params_vars_unit2: $J$
     params_vars_unit3: $m/s$
-    params_m: 0.294
-    params_v_x: 83.6
-    params_x1: 12.8
-    params_x2: 6.83
+    params_m: 0.468
+    params_v_x: 93.9
+    params_x1: 16.0
+    params_x2: 6.78
 ---
 # {{ params_vars_title }}
 {{ params_vars_name1 }} and {{ params_vars_name2 }} watch an arrow fly past them.

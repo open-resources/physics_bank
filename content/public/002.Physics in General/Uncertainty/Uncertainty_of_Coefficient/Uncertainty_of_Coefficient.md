@@ -34,13 +34,13 @@ myst:
     params_vars_title: Uncertainty of Coefficient
     params_vars_name: Abbas
     params_vars_units: $kg/s$
-    params_m: 60
-    params_v: 2.4
-    params_b: 0.59
-    params_part1_ans1_value: ' $\pm$ 0.12'
-    params_part1_ans2_value: ' $\pm$ 0.07'
+    params_m: 144
+    params_v: 2.2
+    params_b: 0.46
+    params_part1_ans1_value: ' $\pm$ 0.1'
+    params_part1_ans2_value: ' $\pm$ 0.05'
     params_part1_ans3_value: ' $\pm$ 0.01'
-    params_part1_ans4_value: ' $\pm$ 0.69'
+    params_part1_ans4_value: ' $\pm$ 0.48'
 ---
 # {{ params_vars_title }}
 The drag force on an object of interest can be accurately modelled as $\vec{D}$ = -$b\vec{v}$ such that its terminal velocity in free fall is given by $v_T$ = $mg/b$.

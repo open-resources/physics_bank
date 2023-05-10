@@ -37,8 +37,8 @@ myst:
   substitutions:
     params_vars_title: Battery Internal Resistance
     params_x: 4
-    params_N: 2
-    params_V_string: '9.25'
+    params_N: 4
+    params_V_string: '12.75'
 ---
 # {{ params_vars_title }}
 A battery with an internal resistance of $r$ and an emf of {{ params.V_string }}$\textrm{ V}$ is connected to a load resistor $R =$ {{ params_N }}$r$ and current $I_0$ flows.

@@ -42,12 +42,12 @@ part2:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params_vars_name: Emilia
+    params_vars_name: Ximena
     params_vars_title: Archery Competition
-    params_d: 102
-    params_v: 296
-    params_h: 165
-    params_theta: 35
+    params_d: 126
+    params_v: 214
+    params_h: 184
+    params_theta: 46
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} is reading a novel that describes an athelete participating in an archery competition.

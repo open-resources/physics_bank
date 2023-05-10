@@ -36,10 +36,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Electric Field Outside Solenoid
-    params_R: '3'
+    params_R: '4'
     params_r: '7'
-    params_n: '35'
-    params_DI: '1'
+    params_n: '30'
+    params_DI: '4'
 ---
 # {{ params_vars_title }}
 

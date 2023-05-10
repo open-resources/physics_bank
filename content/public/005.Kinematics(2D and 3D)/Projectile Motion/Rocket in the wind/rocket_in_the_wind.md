@@ -37,8 +37,8 @@ myst:
   substitutions:
     params_vars_title: Rocket in the wind
     params_vars_units: ${\circ}$
-    params_v0: 14
-    params_wind_acc: 1.1
+    params_v0: 13
+    params_wind_acc: 0.3
 ---
 # {{ params_vars_title }}
 A model rocket looks to launch with a speed $v\_{0} = {{params_v0}} m/s$.

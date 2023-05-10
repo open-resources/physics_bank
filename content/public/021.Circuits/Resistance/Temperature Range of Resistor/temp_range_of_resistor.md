@@ -42,9 +42,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Temperature Range of Resistor
-    params_p: 5
-    params_metal: Constantan
-    params_T_0: 116
+    params_p: 1
+    params_metal: Tungsten
+    params_T_0: 65
 ---
 # {{ params_vars_title }}
 

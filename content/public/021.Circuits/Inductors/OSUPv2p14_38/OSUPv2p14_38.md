@@ -45,8 +45,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Camera Flash
-    params_I: '0.450'
-    params_L: '2.75'
+    params_I: '0.425'
+    params_L: '1.50'
     params_V: '400'
 ---
 # {{ params_vars_title }}

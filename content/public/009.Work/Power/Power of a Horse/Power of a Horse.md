@@ -37,8 +37,8 @@ myst:
   substitutions:
     params_vars_title: Power of a Horse
     params_vars_units: $W$
-    params_v_kph: 14
-    params_mass_kg: 171
+    params_v_kph: 15
+    params_mass_kg: 120
     params_grade: 10
 ---
 # {{ params_vars_title }}

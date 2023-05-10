@@ -27,14 +27,14 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic23
-    params_a: 8
-    params_b: 8
-    params_formula: $x^{8} \sin{\left(8 x \right)}$
-    params_part1_ans1_value: $8 x^{8} \cos{\left(8 x \right)} + 8 x^{7} \sin{\left(8
+    params_a: 6
+    params_b: 6
+    params_formula: $x^{6} \cos{\left(6 x \right)}$
+    params_part1_ans1_value: $- 6 x^{6} \sin{\left(6 x \right)} + 6 x^{5} \cos{\left(6
       x \right)}$
-    params_part1_ans2_value: $8 x^{8} \cos{\left(8 x \right)} $
-    params_part1_ans3_value: $ 8 x^{7} \cos{\left(8 x \right)}$
-    params_part1_ans4_value: $- 8 x^{8} \sin{\left(8 x \right)} + 8 x^{7} \cos{\left(8
+    params_part1_ans2_value: $- 6 x^{6} \sin{\left(6 x \right)} $
+    params_part1_ans3_value: $ 6 x^{5} \sin{\left(6 x \right)}$
+    params_part1_ans4_value: $6 x^{6} \cos{\left(6 x \right)} + 6 x^{5} \sin{\left(6
       x \right)}$
     params_part1_ans5_value: Don't Know
 ---

@@ -36,12 +36,12 @@ part1:
 myst:
   substitutions:
     params_vars_title: Trapped Hiker
-    params_m: 51
-    params_F: 1461
-    params_x1: 6.0
-    params_d: 20.0
+    params_m: 78
+    params_F: 1443
+    params_x1: 3.0
+    params_d: 18.0
     params_h: 9.0
-    params_k: 22
+    params_k: 20
     params_thetad: 7
 ---
 # {{ params_vars_title }}

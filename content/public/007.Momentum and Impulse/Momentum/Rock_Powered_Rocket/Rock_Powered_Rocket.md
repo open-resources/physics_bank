@@ -54,11 +54,11 @@ myst:
     params_vars_title: Rock Powered Rocket
     params_vars_units1: m/s
     params_vars_units2: kg
-    params_vars_name: Mateo
-    params_i: 365
+    params_vars_name: Santiago
+    params_i: 346
     params_m: 25
-    params_v_1: 8
-    params_v_2: 17
+    params_v_1: 6
+    params_v_2: 18
 ---
 # {{ params_vars_title }}
 {{params_vars_name}} is an astronaut, floating in space.

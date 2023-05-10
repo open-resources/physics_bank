@@ -30,23 +30,23 @@ part1:
 myst:
   substitutions:
     params_t1: $1$
-    params_t2: $2$
+    params_t2: $3$
     params_t3: $4$
-    params_dv1: $\Delta v_{y 1 \to 2 }$
-    params_dv2: $\Delta v_{y 2 \to 4 }$
+    params_dv1: $\Delta v_{y 1 \to 3 }$
+    params_dv2: $\Delta v_{y 3 \to 4 }$
     params_vars_title: Throwing a Rock
-    params_part1_ans1_value: $\Delta v_{y 1 \to 2 } = \Delta v_{y 2 \to 4 } + 1 $
+    params_part1_ans1_value: $\Delta v_{y 1 \to 3 } = \Delta v_{y 3 \to 4 } + 1 $
     params_part1_ans1_feedback: Hmm, not quite. Try relating the change in velocity
       to the time interval and compare those.
-    params_part1_ans2_value: $\Delta v_{y 1 \to 2 }=0$ ; $\Delta v_{y 2 \to 4 }<0$
+    params_part1_ans2_value: $\Delta v_{y 1 \to 3 }=0$ ; $\Delta v_{y 3 \to 4 }<0$
     params_part1_ans2_feedback: Remember, the rock is accelerating down. These statements
       would imply the rock slows down as it falls!
-    params_part1_ans3_value: $\Delta v_{y 1 \to 2 } = 2\Delta v_{y 2 \to 4 }$
+    params_part1_ans3_value: $\Delta v_{y 1 \to 3 } = \frac{ 1 }{ 2 }\Delta v_{y 3
+      \to 4 }$
     params_part1_ans3_feedback: Close! Try double-checking your algebra.
-    params_part1_ans4_value: $\Delta v_{ y 1 \to 2 } = \frac{ 1 }{ 2 }\Delta v_{y
-      2 \to 4 }$
+    params_part1_ans4_value: $\Delta v_{ y 1 \to 3 } = 2\Delta v_{y 3 \to 4 }$
     params_part1_ans4_feedback: Great! You got it.
-    params_part1_ans5_value: $\Delta v_{y 1 \to 2 } = \frac{ 1 }{ 5 }\Delta v_{y 2
+    params_part1_ans5_value: $\Delta v_{y 1 \to 3 } = \frac{ 2 }{ 3 }\Delta v_{y 3
       \to 4 }$
     params_part1_ans5_feedback: Hmm, try relating the time intervals to the change
       in velocity.

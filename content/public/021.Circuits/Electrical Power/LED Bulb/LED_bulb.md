@@ -42,8 +42,8 @@ myst:
   substitutions:
     params_vars_title: LED Bulb
     params_vars_units: $
-    params_c: 0.43
-    params_h: 2
+    params_c: 0.02
+    params_h: 23
 ---
 # {{ params_vars_title }}
 

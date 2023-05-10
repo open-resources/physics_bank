@@ -42,11 +42,11 @@ myst:
   substitutions:
     params_vars_title: Bullet and Block
     params_vars_name: Savannah
-    params_m_bullet: 25
-    params_m_block: 24
-    params_bullet_v: 806
-    params_slide_d: 1
-    params_slide_dnew: 2.0
+    params_m_bullet: 23
+    params_m_block: 20
+    params_bullet_v: 752
+    params_slide_d: 8
+    params_slide_dnew: 8.2
     params_coeff_k: 0.2
 ---
 # {{ params_vars_title }}

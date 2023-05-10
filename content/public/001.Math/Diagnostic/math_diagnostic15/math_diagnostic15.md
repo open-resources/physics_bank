@@ -27,11 +27,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic15
-    params_expr: $9^{2} $=$ 81$
-    params_part1_ans1_value: $log_981 = 2$
-    params_part1_ans2_value: $log_92 = 81$
-    params_part1_ans3_value: $log_812 = 9$
-    params_part1_ans4_value: $log_281 = 9$
+    params_expr: $3^{1} $=$ 3$
+    params_part1_ans1_value: $log_33 = 1$
+    params_part1_ans2_value: $log_31 = 3$
+    params_part1_ans3_value: $log_31 = 3$
+    params_part1_ans4_value: $log_13 = 3$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

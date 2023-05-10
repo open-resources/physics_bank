@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $x$ = $\dfrac{(p)}{(w + 4k)} $
-    params_part1_ans1_value: w = ${ - 4 k + \frac{p}{x}}$
-    params_part1_ans2_value: w = ${\frac{4 k x}{p}}$
-    params_part1_ans3_value: w = ${\frac{p}{4 k x}}$
-    params_part1_ans4_value: w = ${\frac{- 4 k + x}{p}}$
+    params_expr: $c$ = $\dfrac{(l)}{(q - 2s)} $
+    params_part1_ans1_value: q = ${ 2 s + \frac{l}{c}}$
+    params_part1_ans2_value: q = ${- \frac{2 c s}{l}}$
+    params_part1_ans3_value: q = ${- \frac{l}{2 c s}}$
+    params_part1_ans4_value: q = ${\frac{c + 2 s}{l}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

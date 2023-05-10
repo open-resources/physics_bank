@@ -49,10 +49,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Copper in a Magnetic Field
-    params_B: 4.0
-    params_E: 1.1
-    params_n: 8
-    params_A: 5.4
+    params_B: 1.4
+    params_E: 5.1
+    params_n: 3
+    params_A: 1.3
 ---
 # {{ params_vars_title }}
 A strip of copper is placed in a uniform magnetic field of magnitude ${{params_B}}\textrm{ T}$.

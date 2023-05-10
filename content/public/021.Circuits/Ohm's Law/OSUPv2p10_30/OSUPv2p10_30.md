@@ -117,8 +117,8 @@ part8:
 myst:
   substitutions:
     params_vars_title: Battery and Resistors
-    params_V: '54.0'
-    params_R1: '21.0'
+    params_V: '52.0'
+    params_R1: '22.0'
     params_R2: '81.0'
 ---
 # {{ params_vars_title }}
