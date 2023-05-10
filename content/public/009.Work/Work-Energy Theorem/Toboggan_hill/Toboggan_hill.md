@@ -66,16 +66,16 @@ part4:
     digits: 1
 myst:
   substitutions:
-    params_vars_name: Santiago
+    params_vars_name: Abbas
     params_vars_title: Toboggan Hill
     params_vars_units1_2_3: "$\rm{kJ}$"
     params_vars_units_4: "$\rm{m/s}$"
-    params_m: 30
-    params_l: 100
-    params_ang_horiz: 22
-    params_fr: 91
-    params_fwind: 21
-    params_ang_wind: 21
+    params_m: 37
+    params_l: 84
+    params_ang_horiz: 20
+    params_fr: 83
+    params_fwind: 19
+    params_ang_wind: 20
     params_v_i: 2
 ---
 # {{ params_vars_title }}

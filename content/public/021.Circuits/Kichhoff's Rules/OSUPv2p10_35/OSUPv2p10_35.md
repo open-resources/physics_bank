@@ -177,10 +177,10 @@ part11:
 myst:
   substitutions:
     params_vars_title: Simple Series Circuit
-    params_V: '17.0'
-    params_R1: '5.00'
-    params_R2: '4.00'
-    params_R3: '5.00'
+    params_V: '14.0'
+    params_R1: '3.75'
+    params_R2: '2.75'
+    params_R3: '3.75'
 ---
 # {{ params_vars_title }}
 Consider the circuit shown below.

@@ -56,8 +56,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Conductor Surface Charge
-    params_Q: '-4.2'
-    params_q: '-4.0'
+    params_Q: '-6.5'
+    params_q: '4.6'
 ---
 # {{ params_vars_title }}
 The conductor in the figure has an excess charge of ${{params_Q}}\rm\ \mu C$.

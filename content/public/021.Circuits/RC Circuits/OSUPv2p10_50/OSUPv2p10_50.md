@@ -45,8 +45,8 @@ myst:
   substitutions:
     params_vars_title: Capacitor in a Heart Pacemaker
     params_rate: '71'
-    params_C: '24.0'
-    params_charge: '0.677'
+    params_C: '28.0'
+    params_charge: '0.614'
 ---
 # {{ params_vars_title }}
 A heart pacemaker activates ${{ params_rate }}$ times per minute.

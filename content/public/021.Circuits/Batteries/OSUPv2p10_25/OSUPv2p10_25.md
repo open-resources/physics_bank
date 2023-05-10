@@ -55,8 +55,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Automobile Battery Properties
-    params_V: '12.0'
-    params_V_t: '15.5'
+    params_V: '10.5'
+    params_V_t: '15.0'
     params_I: '11.25'
 ---
 # {{ params_vars_title }}

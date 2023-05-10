@@ -37,12 +37,12 @@ part1:
     suffix: $m/s^2$
 myst:
   substitutions:
-    params_vars_vehicle: sedan
+    params_vars_vehicle: van
     params_vars_title: A Crate's Maximum Acceleration without Slipping
     params_vars_units: $m/s^2$
-    params_mu_s: 0.87
-    params_mu_k: 0.26
-    params_theta: 15
+    params_mu_s: 0.59
+    params_mu_k: 0.28
+    params_theta: 30
 ---
 # {{ params_vars_title }}
 A wood crate sits in the back of a {{ params_vars_vehicle }}.

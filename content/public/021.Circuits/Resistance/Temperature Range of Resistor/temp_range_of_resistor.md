@@ -43,8 +43,8 @@ myst:
   substitutions:
     params_vars_title: Temperature Range of Resistor
     params_p: 5
-    params_metal: Silver
-    params_T_0: 143
+    params_metal: Constantan
+    params_T_0: 116
 ---
 # {{ params_vars_title }}
 

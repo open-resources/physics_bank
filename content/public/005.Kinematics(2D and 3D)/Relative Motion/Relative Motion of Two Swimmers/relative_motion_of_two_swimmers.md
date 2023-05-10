@@ -44,10 +44,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Relative Motion of Two Swimmers
-    params_v: 3
-    params_h: 22
-    params_d: 10
-    params_t: 8
+    params_v: 4
+    params_h: 15
+    params_d: 15
+    params_t: 12
 ---
 # {{ params_vars_title }}
 <img src="L11Q3.png" width=85%>

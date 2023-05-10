@@ -30,21 +30,21 @@ part1:
 myst:
   substitutions:
     params_vars_title: Sound Wave Energy
-    params_factor: tripled
+    params_factor: quadrapuled
     params_part1_ans1_value: stays the same
     params_part1_ans1_feedback: No, the energy carried by a sound wave is related
       to the amplitude of the sound wave's pressure oscillations.
-    params_part1_ans2_value: decreases by a factor of 3
+    params_part1_ans2_value: quarters
     params_part1_ans2_feedback: No, the energy carried by a sound wave is not inversely
       proportional to the amplitude of the sound wave.
-    params_part1_ans3_value: decreases by a factor of 9
+    params_part1_ans3_value: decreases by a factor of 16
     params_part1_ans3_feedback: No, the energy carried by a sound wave is not inversely
       proportional to the square of the amplitude of the sound wave.
-    params_part1_ans4_value: increases by a factor of 9
+    params_part1_ans4_value: increases by a factor of 16
     params_part1_ans4_feedback: Yes, for a simple harmonic oscillator the total energy
       goes as the square of the amplitude of the oscillation, and any point on a sinusoidal
       sound wave undergoes simple harmonic motion.
-    params_part1_ans5_value: increases by a factor of 3
+    params_part1_ans5_value: quadruples
     params_part1_ans5_feedback: No, the energy carried by a sound wave is not directly
       proportional to the amplitude of the sound wave.
 ---

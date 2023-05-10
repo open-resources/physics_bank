@@ -52,9 +52,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Range of Current Through Resistor
-    params_R: 123
+    params_R: 90
     params_V: 4.0
-    params_p: 1
+    params_p: 2
     params_Vtotal: 8.0
 ---
 # {{ params_vars_title }}

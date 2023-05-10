@@ -56,8 +56,8 @@ myst:
     params_vars_name: Savannah
     params_vars_title: Water Slide
     params_theta: 20
-    params_l: 100
-    params_l2: 50.0
+    params_l: 600
+    params_l2: 300.0
 ---
 # {{ params_vars_title }}
 What an exciting time to be alive! A water slide has just opened up near {{ params_vars_name }}'s house! It is a ramp, L = {{params_l}} $m$ long at {{params_theta}}$^{\circ}$ to the horizontal.

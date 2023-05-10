@@ -49,7 +49,7 @@ myst:
     params_vars_title: Horizontal frictionless track
     params_vars_units: N
     params_m: 2.25
-    params_v: 7
+    params_v: 6
     params_R: 1.0
     params_L: 12
 ---

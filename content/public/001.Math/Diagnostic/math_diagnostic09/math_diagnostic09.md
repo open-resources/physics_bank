@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $u$ = $\dfrac{(c)}{(n + 8e)} $
-    params_part1_ans1_value: n = ${ \frac{c}{u} - 8 e}$
-    params_part1_ans2_value: n = ${\frac{8 e u}{c}}$
-    params_part1_ans3_value: n = ${\frac{c}{8 e u}}$
-    params_part1_ans4_value: n = ${\frac{- 8 e + u}{c}}$
+    params_expr: $x$ = $\dfrac{(p)}{(w + 4k)} $
+    params_part1_ans1_value: w = ${ - 4 k + \frac{p}{x}}$
+    params_part1_ans2_value: w = ${\frac{4 k x}{p}}$
+    params_part1_ans3_value: w = ${\frac{p}{4 k x}}$
+    params_part1_ans4_value: w = ${\frac{- 4 k + x}{p}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}
