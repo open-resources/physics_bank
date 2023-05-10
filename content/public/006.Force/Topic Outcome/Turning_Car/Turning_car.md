@@ -32,17 +32,16 @@ part1:
 myst:
   substitutions:
     params_vars_title: Turning Car
-    params_vars_vehicle: semi-truck
+    params_vars_vehicle: truck
     params_part1_ans1_value: There is a force pushing everything to the right.
     params_part1_ans2_value: Your head (and eyes) are not in an inertial reference
       frame, and so things are moving for no reason.
-    params_part1_ans3_value: Your semi-truck is moving along a circular path, and
-      a centripetal acceleration is required. Without a force to push it towards the
-      middle, objects(your shoulders, the soup cans) will NOT move in a circle along
-      with the rest of the semi-truck, and so will move relative to the semi-truck's
-      interior.
-    params_part1_ans4_value: Turning to the right forces your semi-truck to tilt,
-      and all the cans and the shoulders shift down-hill.
+    params_part1_ans3_value: Your truck is moving along a circular path, and a centripetal
+      acceleration is required. Without a force to push it towards the middle, objects(your
+      shoulders, the soup cans) will NOT move in a circle along with the rest of the
+      truck, and so will move relative to the truck's interior.
+    params_part1_ans4_value: Turning to the right forces your truck to tilt, and all
+      the cans and the shoulders shift down-hill.
 ---
 # {{ params_vars_title }}
 If you are sitting in the passenger seat of a {{ params_vars_vehicle}} that makes a quick left turn, your shoulders seem to lean to the right (and all of the soup cans on the floor roll to the right).

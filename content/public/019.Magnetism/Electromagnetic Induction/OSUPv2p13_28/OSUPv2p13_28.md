@@ -38,8 +38,8 @@ myst:
     params_vars_title: Single-Turn Rectangular Coil
     params_R: '4'
     params_B: '1.00'
-    params_f: '275'
-    params_t: '0.009'
+    params_f: '150'
+    params_t: '0.002'
 ---
 # {{ params_vars_title }}
 

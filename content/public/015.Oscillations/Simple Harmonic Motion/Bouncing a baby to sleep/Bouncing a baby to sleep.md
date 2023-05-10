@@ -47,14 +47,14 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params_vars_person1: uncle
-    params_vars_person2: cousin
+    params_vars_person1: sister
+    params_vars_person2: mother
     params_vars_title: Bouncing a Baby to Sleep
     params_vars_units: $N/m$
-    params_m1: 65.8
-    params_m2: 95.6
-    params_m_b: 5.53
-    params_f: 1.57
+    params_m1: 63.6
+    params_m2: 87.7
+    params_m_b: 6.94
+    params_f: 1.25
     params_part3_ans1_value: Add more air to increase the pressure in the ball. Increased
       pressure makes the ball 'stiffer'.
     params_part3_ans2_value: Remove air to decrease the pressure in the ball. Decreased

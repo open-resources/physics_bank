@@ -55,11 +55,11 @@ part5:
     suffix: m/s
 myst:
   substitutions:
-    params_vars_name: Abbas
+    params_vars_name: Savannah
     params_vars_title: Sled Hill
-    params_angle: 6
-    params_h: 17
-    params_uk: 0.09
+    params_angle: 7
+    params_h: 20
+    params_uk: 0.13
     params_m: 85
 ---
 # {{ params_vars_title }}

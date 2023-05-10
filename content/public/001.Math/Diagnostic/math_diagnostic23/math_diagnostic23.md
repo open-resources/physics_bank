@@ -28,13 +28,13 @@ myst:
   substitutions:
     params_vars_title: Math Diagnostic23
     params_a: 6
-    params_b: 6
-    params_formula: $x^{6} \cos{\left(6 x \right)}$
-    params_part1_ans1_value: $- 6 x^{6} \sin{\left(6 x \right)} + 6 x^{5} \cos{\left(6
+    params_b: 5
+    params_formula: $x^{6} \cos{\left(5 x \right)}$
+    params_part1_ans1_value: $- 5 x^{6} \sin{\left(5 x \right)} + 6 x^{5} \cos{\left(5
       x \right)}$
-    params_part1_ans2_value: $- 6 x^{6} \sin{\left(6 x \right)} $
-    params_part1_ans3_value: $ 6 x^{5} \sin{\left(6 x \right)}$
-    params_part1_ans4_value: $6 x^{6} \cos{\left(6 x \right)} + 6 x^{5} \sin{\left(6
+    params_part1_ans2_value: $- 5 x^{6} \sin{\left(5 x \right)} $
+    params_part1_ans3_value: $ 6 x^{5} \sin{\left(5 x \right)}$
+    params_part1_ans4_value: $5 x^{6} \cos{\left(5 x \right)} + 6 x^{5} \sin{\left(5
       x \right)}$
     params_part1_ans5_value: Don't Know
 ---

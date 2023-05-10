@@ -31,12 +31,12 @@ part1:
 myst:
   substitutions:
     params_vars_title: Delivering Newspapers
-    params_vars_name: Santiago
+    params_vars_name: Ahmed
     params_part1_ans1_value: '2'
-    params_part1_ans2_value: '6'
-    params_part1_ans3_value: '5'
-    params_part1_ans4_value: '1'
-    params_part1_ans5_value: '4'
+    params_part1_ans2_value: '4'
+    params_part1_ans3_value: '1'
+    params_part1_ans4_value: '6'
+    params_part1_ans5_value: '7'
     params_part1_ans6_value: '3'
 ---
 # {{ params_vars_title }}

@@ -30,7 +30,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Force on Ironclad Beetle
-    params_f: 27
+    params_f: 91
     params_part1_ans1_value: the beetle will exert a force of 9.5 x 10$^{-4}$ $N$
       on your thumb.
     params_part1_ans2_value: the beetle will exert a force of 3.8 x 10$^{-3}$ $N$
@@ -38,7 +38,7 @@ myst:
     params_part1_ans3_value: the beetle will be crushed between your thumb and forefinger.
     params_part1_ans4_value: the beetle will exert a force of 149 $N$ back on your
       thumb.
-    params_part1_ans5_value: The beetle will exert a force of 27 $N$ back on your
+    params_part1_ans5_value: The beetle will exert a force of 91 $N$ back on your
       thumb.
 ---
 # {{ params_vars_title }}

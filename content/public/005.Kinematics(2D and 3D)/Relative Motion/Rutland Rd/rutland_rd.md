@@ -39,9 +39,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Rutland Rd
-    params_vars_vehicle: bus
+    params_vars_vehicle: sedan
     params_vars_units: km/h
-    params_v: 50
+    params_v: 61
     params_part2_ans1_value: North
     params_part2_ans2_value: North-East
     params_part2_ans3_value: East

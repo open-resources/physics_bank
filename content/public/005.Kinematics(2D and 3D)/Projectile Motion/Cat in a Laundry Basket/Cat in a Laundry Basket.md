@@ -36,8 +36,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Cat in a Laundry Basket
-    params_w: 33
-    params_h: 39
+    params_w: 23
+    params_h: 60
     params_part1_ans1_value: $\Delta t_1 > \Delta t_2 > \Delta t_3$
     params_part1_ans2_value: $\Delta t_1 > \Delta t_3 > \Delta t_2$
     params_part1_ans3_value: $\Delta t_2 > \Delta t_1 > \Delta t_3$

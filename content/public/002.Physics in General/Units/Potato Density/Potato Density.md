@@ -59,12 +59,12 @@ part4:
 myst:
   substitutions:
     params_vars_title: Potato Density
-    params_vars_name: Emilia
+    params_vars_name: Mateo
     params_vars_unit1: $kg$
     params_vars_unit2: $m^3$
-    params_m_p: 163
-    params_m_cp: 67
-    params_l: 4
+    params_m_p: 157
+    params_m_cp: 64
+    params_l: 2
 ---
 # {{ params_vars_title }}
 For their first lab, {{ params_vars_name }} decides to measure the density of a potato.They notice that it's an unusual shape and floats, so it's hard to calculate its volume.The potato's mass is measured to be {{ params.m_p }} $g$.They then cut the potato into a cube and measure that the sides of the cube have length {{ params_l}} inches, and the potato's mass is {{ params.m_cp }} $g$.For a uniform density potato, the mass and volume are proportional.

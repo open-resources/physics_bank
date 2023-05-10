@@ -27,11 +27,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic15
-    params_expr: $3^{1} $=$ 3$
-    params_part1_ans1_value: $log_33 = 1$
-    params_part1_ans2_value: $log_31 = 3$
-    params_part1_ans3_value: $log_31 = 3$
-    params_part1_ans4_value: $log_13 = 3$
+    params_expr: $7^{1} $=$ 7$
+    params_part1_ans1_value: $log_77 = 1$
+    params_part1_ans2_value: $log_71 = 7$
+    params_part1_ans3_value: $log_71 = 7$
+    params_part1_ans4_value: $log_17 = 7$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}
