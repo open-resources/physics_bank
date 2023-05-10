@@ -37,9 +37,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Parallel-plate potential difference
-    params_d: '14.0'
-    params_t: '2.1'
-    params_q: '6.6'
+    params_d: '17.0'
+    params_t: '2.5'
+    params_q: '3.6'
     params_p: -11
 ---
 # {{ params_vars_title }}

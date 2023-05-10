@@ -52,7 +52,7 @@ myst:
     params_part2_ans1_value: Right-hand side
     params_part2_ans2_value: Left-hand side
     params_change1: increasing
-    params_change2: also increasing
+    params_change2: decreasing
     params_find: higher
 ---
 # {{ params_vars_title }}

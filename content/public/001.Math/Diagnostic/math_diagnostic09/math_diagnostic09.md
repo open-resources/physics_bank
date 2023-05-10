@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $k$ = $\dfrac{(h)}{(a - 2e)} $
-    params_part1_ans1_value: a = ${ 2 e + \frac{h}{k}}$
-    params_part1_ans2_value: a = ${- \frac{2 e k}{h}}$
-    params_part1_ans3_value: a = ${- \frac{h}{2 e k}}$
-    params_part1_ans4_value: a = ${\frac{2 e + k}{h}}$
+    params_expr: $n$ = $\dfrac{(g)}{(o + 5v)} $
+    params_part1_ans1_value: o = ${ \frac{g}{n} - 5 v}$
+    params_part1_ans2_value: o = ${\frac{5 n v}{g}}$
+    params_part1_ans3_value: o = ${\frac{g}{5 n v}}$
+    params_part1_ans4_value: o = ${\frac{n - 5 v}{g}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

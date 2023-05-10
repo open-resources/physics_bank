@@ -63,7 +63,7 @@ part4:
 myst:
   substitutions:
     params_vars_title: Projectile of ball launched to a specific height
-    params_v: 50
+    params_v: 51
     params_h: 44
 ---
 # {{ params_vars_title }}

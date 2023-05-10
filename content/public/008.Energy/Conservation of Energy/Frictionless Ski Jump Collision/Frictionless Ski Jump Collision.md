@@ -41,13 +41,13 @@ part2:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params_vars_name: Emilia
+    params_vars_name: Ahmed
     params_vars_title: Frictionless Ski Jump Collision
-    params_mA: 25
-    params_mB: 10.0
-    params_ramp_angle: 28
-    params_ramp_h: 0.71
-    params_hill_h: 425
+    params_mA: 16
+    params_mB: 10.08
+    params_ramp_angle: 5
+    params_ramp_h: 0.7
+    params_hill_h: 430
 ---
 # {{ params_vars_title }}
 A ski jump consists of a hill, a short flat section, and a ramp. The hill has height of ${{ params.hill_h }}$ $\rm{m}$ and the ramp has a height of ${{ params.ramp_h }}$ $\rm{m}$, making an angle of $\theta = {{ params.ramp_angle }}^\circ$ with the horizontal.

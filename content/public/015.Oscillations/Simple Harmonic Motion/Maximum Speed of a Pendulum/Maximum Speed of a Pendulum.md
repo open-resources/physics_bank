@@ -34,7 +34,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Maximum Speed of a Pendulum
-    params_choice: doubled
+    params_choice: quadrupled
 ---
 # {{ params_vars_title }}
 A  simple  pendulum  swings  at  small  angles.

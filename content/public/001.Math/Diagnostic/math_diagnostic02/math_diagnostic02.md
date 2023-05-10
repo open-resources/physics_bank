@@ -31,12 +31,12 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic02
-    params_x: 157.8747567
-    params_sf: 5
-    params_part1_ans1_value: 157.87
-    params_part1_ans2_value: 157.97
-    params_part1_ans3_value: 157.87476
-    params_part1_ans4_value: 147.87
+    params_x: 296.68443
+    params_sf: 3
+    params_part1_ans1_value: 297.0
+    params_part1_ans2_value: 297.1
+    params_part1_ans3_value: 296.684
+    params_part1_ans4_value: 287.0
 ---
 # {{ params_vars_title }}
 

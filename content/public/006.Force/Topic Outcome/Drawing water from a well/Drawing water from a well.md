@@ -48,10 +48,10 @@ myst:
     params_vars_title: Drawing Water from a Well
     params_vars_unit1: $N$
     params_vars_unit2: $m$
-    params_M: 4.96
-    params_m: 5.84
-    params_R: 0.612
-    params_t: 4.71
+    params_M: 4.41
+    params_m: 5.43
+    params_R: 0.37
+    params_t: 9.05
 ---
 # {{ params_vars_title }}
 As shown in the figure, a solid, uniform, frictionless cylindrical reel of mass $M = $ {{ params_M }} $kg$ and radius $R = $ {{ params_R }} $m$ is used to draw water from a well. A bucket of mass $m = $ {{ params_m }} $kg$ is  attached to a massless cord that is wrapped around the cylinder.

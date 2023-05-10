@@ -83,7 +83,7 @@ part7:
 myst:
   substitutions:
     params_vars_title: Competitive Hammer Throw
-    params_v: 26.54
+    params_v: 27.37
     params_r: 1.194
     params_m: 4
     params_d: 82.98

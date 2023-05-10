@@ -31,12 +31,12 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic06
-    params_eq: $\dfrac{x-1}{x-8}$ = $ \dfrac{x+1}{x+7}$
-    params_part1_ans1_value: -55/17
-    params_part1_ans2_value: -1/13
-    params_part1_ans3_value: '-55'
-    params_part1_ans4_value: -1/17
-    params_part1_ans5_value: '-15'
+    params_eq: $\dfrac{x-4}{x-6}$ = $ \dfrac{x+2}{x+6}$
+    params_part1_ans1_value: -14/9
+    params_part1_ans2_value: '2'
+    params_part1_ans3_value: '-14'
+    params_part1_ans4_value: -2/3
+    params_part1_ans5_value: '-6'
     params_part1_ans6_value: None of the above
 ---
 # {{ params_vars_title }}

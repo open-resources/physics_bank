@@ -43,9 +43,9 @@ myst:
     params_vars_title: Coil Encircling Solenoid
     params_n: '12'
     params_A: '5'
-    params_I: '0.25'
-    params_N: '6'
-    params_t: '0.06'
+    params_I: '1.00'
+    params_N: '5'
+    params_t: '0.04'
 ---
 # {{ params_vars_title }}
 

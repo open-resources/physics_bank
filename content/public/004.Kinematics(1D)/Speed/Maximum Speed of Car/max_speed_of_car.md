@@ -35,7 +35,7 @@ myst:
     params_vars_units: $ft/s$
     params_yards: 100
     params_max_speed_t: 3
-    params_overall_t: 5
+    params_overall_t: 6
 ---
 # {{ params_vars_title }}
 <img src="L5Q1.png" width=85%>

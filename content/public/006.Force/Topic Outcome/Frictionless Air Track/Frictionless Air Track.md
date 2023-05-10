@@ -57,23 +57,23 @@ part4:
 myst:
   substitutions:
     params_vars_title: A Frictionless Air Track?
-    params_vars_name: Maya
+    params_vars_name: Savannah
     params_vars_units: $m/s^2$
-    params_m1: 147.0
-    params_m2: 62.59
-    params_d_a: 0.01
-    params_mean: 1.48
-    params_sd: 0.162
-    params_a1: 1.73
-    params_a2: 1.33
-    params_a3: 1.77
-    params_a4: 1.54
-    params_a5: 1.34
-    params_a6: 1.31
-    params_a7: 1.3
-    params_a8: 1.45
-    params_a9: 1.52
-    params_a10: 1.55
+    params_m1: 264.0
+    params_m2: 19.09
+    params_d_a: 0.02
+    params_mean: 1.55
+    params_sd: 0.136
+    params_a1: 1.78
+    params_a2: 1.78
+    params_a3: 1.58
+    params_a4: 1.51
+    params_a5: 1.48
+    params_a6: 1.39
+    params_a7: 1.65
+    params_a8: 1.5
+    params_a9: 1.4
+    params_a10: 1.44
     params_part4_ans1_value: The track is frictionless because $a_{expected}$ does
       not agree with $a_{measured}$.
     params_part4_ans2_value: The track is not frictionless because $a_{expected}$

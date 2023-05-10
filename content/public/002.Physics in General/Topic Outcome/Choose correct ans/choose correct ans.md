@@ -46,7 +46,7 @@ part4:
 myst:
   substitutions:
     params_vars_title: Which option is correct?
-    params_choice1: not possible
+    params_choice1: possible
     params_part1_ans1_value: 'True'
     params_part1_ans2_value: 'False'
     params_part2_ans1_value: 'True'

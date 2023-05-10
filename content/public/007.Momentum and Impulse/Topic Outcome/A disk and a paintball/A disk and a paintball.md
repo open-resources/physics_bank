@@ -57,9 +57,9 @@ myst:
     params_vars_title: Distance travelled
     params_vars_unit1: $J$
     params_vars_unit2: $m/s$
-    params_m_d: 0.065
-    params_m_b: 0.055
-    params_v: 7.8
+    params_m_d: 0.077
+    params_m_b: 0.045
+    params_v: 7.4
 ---
 # {{ params_vars_title }}
 A {{ params.m_d }} $kg$ disk initially at rest in the Earth reference frame is free to move parallel to a horizontal bar through a hole in the disk's centre. The disk is struck face-on by a {{ params.m_b }} $kg$ paintball traveling at {{ params_v }} $m/s$.

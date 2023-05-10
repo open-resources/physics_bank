@@ -49,8 +49,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Electron in a Solenoid
-    params_n: '15'
-    params_r: '1.70'
+    params_n: '35'
+    params_r: '2.20'
     params_v: "$1.70\\times 10^{5 }\textrm{ m/s}$"
 ---
 # {{ params_vars_title }}

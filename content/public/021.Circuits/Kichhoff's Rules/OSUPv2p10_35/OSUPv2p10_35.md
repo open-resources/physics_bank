@@ -177,8 +177,8 @@ part11:
 myst:
   substitutions:
     params_vars_title: Simple Series Circuit
-    params_V: '20.0'
-    params_R1: '3.50'
+    params_V: '15.0'
+    params_R1: '4.75'
     params_R2: '2.50'
     params_R3: '4.00'
 ---

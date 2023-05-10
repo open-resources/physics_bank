@@ -76,8 +76,8 @@ part7:
 myst:
   substitutions:
     params_vars_title: Box Up Ramp
-    params_vars_name: Santiago
-    params_f: 178.0
+    params_vars_name: Ximena
+    params_f: 189.0
     params_k: 0.2
     params_s: 0.4
     params_ang: 10

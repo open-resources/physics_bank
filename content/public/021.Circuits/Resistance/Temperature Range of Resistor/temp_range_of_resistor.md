@@ -42,9 +42,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Temperature Range of Resistor
-    params_p: 10
-    params_metal: Platinum
-    params_T_0: 76
+    params_p: 3
+    params_metal: Manganin
+    params_T_0: 59
 ---
 # {{ params_vars_title }}
 

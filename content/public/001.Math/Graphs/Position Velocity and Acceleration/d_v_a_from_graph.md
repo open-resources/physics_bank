@@ -55,7 +55,7 @@ myst:
     params_vars_units1: $m$
     params_vars_units2: $m/s$
     params_vars_units3: $\frac{m}{s^2}$
-    params_t: 1
+    params_t: 3
     params_x_i: -9
 ---
 # {{ params_vars_title }}
