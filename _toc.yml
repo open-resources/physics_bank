@@ -7,15 +7,15 @@ parts:
     title: About
   - file: files/bio
     title: Project Team
-# - caption: Documentation
-#   chapters:
-#   - file: docs/authoring_questions
-#   - file: docs/anatomy
-#   - file: docs/reviews
-#   - file: docs/tips
-#   - file: docs/latex
-#   - file: docs/rounding
-#   - file: docs/alt-text/alt-text
+- caption: Documentation
+  chapters:
+  - file: docs/authoring_questions
+  - file: docs/anatomy
+  - file: docs/reviews
+  - file: docs/tips
+  - file: docs/latex
+  - file: docs/rounding
+  - file: docs/alt-text/alt-text
 - caption: Math
   chapters:
   - file: content/public/001.Math/Algebra/Smudge/Smudge
@@ -174,8 +174,6 @@ parts:
   - file: content/public/004.Kinematics(1D)/water_slide/water_slide
 - caption: Kinematics(2D and 3D)
   chapters:
-  - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Gravity
-      Pull 1/Gravity Pull 1
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Polar
       Coordinates from Function/polar_coords_from_func
   - file: content/public/005.Kinematics(2D and 3D)/Non-Uniform Circular Motion/Radius
