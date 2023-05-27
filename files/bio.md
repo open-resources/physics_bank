@@ -20,7 +20,13 @@
 | Edris Wu         | edriswu        |
 | Graham Bovett    | gbovett        |
 | Stephen Collins  | SteveCollins17 |
-| Michael Kudla    | michaelwkudla  |
+| Alyssa Kong      | naclsodium     |
+| Anna Shuqi       | annascao       |
+| Muneeba Ashiq    | muneebaashiq   |
+| Larita Kipkeu    | kipkeu         |
+| Mrunal Last??    | Moon0256       |
+| Skyler Last??    | certainlyskyler|
+
 
 ## Bios
 
@@ -40,6 +46,33 @@ Firas Moosvi is a Lecturer at UBC Okanagan in the Computer Science, Math, Physic
 Jake is a Professor of Teaching in physics at UBC Okanagan.  In addition to teaching and Physics Education Research, he is interested in applying microwave techniques to study condensed matter systems. <br><br><br><br><br>
 
 ### Undergraduate students
+
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/ava.png"> </img>
+
+#### **Ava Cornell**
+
+I am a fourth year honours physics student at UBC Okanagan. Throughout my degree, I have thoroughly enjoyed being a physics teaching assistant and tutor, which has caused me to develop an interest in making learning more accessible and less stressful for students. In my free time, I like to hike, camp, and socialize. <br><br><br>
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/ava.png"> </img>
+
+#### **Ava Cornell**
+
+I am a fourth year honours physics student at UBC Okanagan. Throughout my degree, I have thoroughly enjoyed being a physics teaching assistant and tutor, which has caused me to develop an interest in making learning more accessible and less stressful for students. In my free time, I like to hike, camp, and socialize. <br><br><br>
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/ava.png"> </img>
+
+#### **Ava Cornell**
+
+I am a fourth year honours physics student at UBC Okanagan. Throughout my degree, I have thoroughly enjoyed being a physics teaching assistant and tutor, which has caused me to develop an interest in making learning more accessible and less stressful for students. In my free time, I like to hike, camp, and socialize. <br><br><br>
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/ava.png"> </img>
+
+#### **Ava Cornell**
+
+I am a fourth year honours physics student at UBC Okanagan. Throughout my degree, I have thoroughly enjoyed being a physics teaching assistant and tutor, which has caused me to develop an interest in making learning more accessible and less stressful for students. In my free time, I like to hike, camp, and socialize. <br><br><br>
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/ava.png"> </img>
+
+#### **Ava Cornell**
+
+I am a fourth year honours physics student at UBC Okanagan. Throughout my degree, I have thoroughly enjoyed being a physics teaching assistant and tutor, which has caused me to develop an interest in making learning more accessible and less stressful for students. In my free time, I like to hike, camp, and socialize. <br><br><br>
+
 
 <img align="left" width="150" height="150" style="padding-right: 20px" src="../images/ava.png"> </img>
 
