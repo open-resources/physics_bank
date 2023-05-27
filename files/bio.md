@@ -47,31 +47,55 @@ Jake is a Professor of Teaching in physics at UBC Okanagan.  In addition to teac
 
 ### Undergraduate students
 
-<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/ava.png"> </img>
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/moon.jpeg"> </img>
 
-#### **Ava Cornell**
+#### **Mrunal Last??**
 
-I am a fourth year honours physics student at UBC Okanagan. Throughout my degree, I have thoroughly enjoyed being a physics teaching assistant and tutor, which has caused me to develop an interest in making learning more accessible and less stressful for students. In my free time, I like to hike, camp, and socialize. <br><br><br>
-<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/ava.png"> </img>
+I am a second year student at UBC Okanagan. I am planning to major in Computer Science with a minor in Mathematics.
 
-#### **Ava Cornell**
+I am really excited to be a part of this team and work on this project. The courses that I had taken with Dr. Moosvi were not stressful at all because of the how the courses were set with PraireLearn. To now be a part of the team working on expanding and enhancing the Open Problem Bank is a dream come true. I am really grateful to be able to have the opportunity to  enhance the experience of future students. 
 
-I am a fourth year honours physics student at UBC Okanagan. Throughout my degree, I have thoroughly enjoyed being a physics teaching assistant and tutor, which has caused me to develop an interest in making learning more accessible and less stressful for students. In my free time, I like to hike, camp, and socialize. <br><br><br>
-<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/ava.png"> </img>
+Aside from academia, I usually rewatch sitcoms, Modern Family, The Big Bang Theory and Brooklyn Nine-Nine are my favorites. I also like to improve and expand my speedcubing skills. I also like to collect logos. I have also recently started roaming/hiking around the campus and academy hill and it has been awesome. <br><br><br>
 
-#### **Ava Cornell**
 
-I am a fourth year honours physics student at UBC Okanagan. Throughout my degree, I have thoroughly enjoyed being a physics teaching assistant and tutor, which has caused me to develop an interest in making learning more accessible and less stressful for students. In my free time, I like to hike, camp, and socialize. <br><br><br>
-<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/ava.png"> </img>
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/larita.jpg"> </img>
 
-#### **Ava Cornell**
+#### **Larita Kipkeu**
 
-I am a fourth year honours physics student at UBC Okanagan. Throughout my degree, I have thoroughly enjoyed being a physics teaching assistant and tutor, which has caused me to develop an interest in making learning more accessible and less stressful for students. In my free time, I like to hike, camp, and socialize. <br><br><br>
-<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/ava.png"> </img>
+I'm a third-year electrical engineering student. My true passion lies in creating sustainable and inclusive designs that can have a positive impact on communities. I firmly believe that through my work, I can contribute to making the world a better place.
 
-#### **Ava Cornell**
+One of the things I absolutely love is collaborating with diverse teams. There's something truly magical about working with people from different backgrounds and hearing their unique perspectives. I find immense value in learning from others and appreciating the wide range of viewpoints that come together to create innovative solutions.
 
-I am a fourth year honours physics student at UBC Okanagan. Throughout my degree, I have thoroughly enjoyed being a physics teaching assistant and tutor, which has caused me to develop an interest in making learning more accessible and less stressful for students. In my free time, I like to hike, camp, and socialize. <br><br><br>
+When I have some free time, you'll often find me exploring new places, especially nature trails and hiking spots. Being out in nature allows me to disconnect from the hectic world and find inspiration in its breathtaking beauty. These experiences rejuvenate my mind and provide me with fresh ideas and insights that I can bring into different things I partake in. <br><br><br>
+
+
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/muneeba.jpg"> </img>
+
+#### **Muneeba Ashiq**
+
+I am going into my third year at UBC-Vancouver and am specializing in Computer Science. I am quite passionate about making changes in the education industry to make it more accessible to others hence believe that working on this project with all of you will be a great step in that direction.
+
+Some fun facts about me are that I can speak four languages fluently, am quite extroverted and love to talk to new people find out more about their opinions and ideas. Another thing about me is that I started my degree at UBC-O but transferred to UBC-V last summer so I have experienced life at both campuses. I am very excited to get to know everyone and learn from them. <br><br><br>
+
+
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/anna.jpg"> </img>
+
+#### **Anna Shuqi**
+
+I am a second-year Electrical Engineering student at UBC Vancouver. I have a passion for both hardware and software, and I enjoy integrating them into advanced technologies and systems that have a positive impact on people's lives. I’m excited to be part of a project that fosters accessible education and supports students, while also providing an opportunity to collaborate with others and enhance my technical skills. When I'm not studying, I like to ski in the winter or enjoy the lake and paddleboard in the summer. I also love playing piano, and all things art! <br><br><br>
+
+
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/alyssa.JPG"> </img>
+
+#### **Alyssa Kong**
+
+I am a fourth year student completing a  Microbiology degree at UBC Okanagan. Despite being a Microbiology major, I have taken quite a few computer science electives and a data science elective as I have seen an increasing need for these skills within biological sciences! Currently, I am mentoring the 2023 UBCO International Genetically Engineered Machine Competition team, and last year was involved in kickstarting the first team on the Okanagan Campus, leading the team to Gold in Paris! Seeing the importance of dry lab work during the synthetic biology competition, and my background in biological sciences, I am hoping to provide a unique perspective and add to the multi-disciplinary nature of the team! <br><br><br>
+
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/skyler.jpg"> </img>
+
+#### **Skyler Last??**
+
+I am a second year, intending to specialize in computer science. The two things I love the most are helping and learning and that is why I'm here. I'm particularly enthusiastic about Prairelearn because it's open source and free, way better those paid websites with mandatory textbooks. I generally like tv-shows (big fan of game of thrones), hiking, and exploring, and you can usually find me in UBC Okanagan's library. <br><br><br>
 
 
 <img align="left" width="150" height="150" style="padding-right: 20px" src="../images/ava.png"> </img>
