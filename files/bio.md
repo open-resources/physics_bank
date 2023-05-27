@@ -69,7 +69,7 @@ One of the things I absolutely love is collaborating with diverse teams. There's
 When I have some free time, you'll often find me exploring new places, especially nature trails and hiking spots. Being out in nature allows me to disconnect from the hectic world and find inspiration in its breathtaking beauty. These experiences rejuvenate my mind and provide me with fresh ideas and insights that I can bring into different things I partake in. <br><br><br>
 
 
-<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/muneeba.jpg"> </img>
+<img align="left" width="150" height="150" style="padding-right: 20px" src="../images/muneeba.JPG"> </img>
 
 #### **Muneeba Ashiq**
 
