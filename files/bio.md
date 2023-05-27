@@ -21,11 +21,11 @@
 | Graham Bovett    | gbovett        |
 | Stephen Collins  | SteveCollins17 |
 | Alyssa Kong      | naclsodium     |
-| Anna Shuqi       | annascao       |
+| Anna Cao       | annascao       |
 | Muneeba Ashiq    | muneebaashiq   |
 | Larita Kipkeu    | kipkeu         |
 | Mrunal Last??    | Moon0256       |
-| Skyler Last??    | certainlyskyler|
+| Skyler Sattarifard | certainlyskyler|
 
 
 ## Bios
@@ -80,7 +80,7 @@ Some fun facts about me are that I can speak four languages fluently, am quite e
 
 <img align="left" width="150" height="150" style="padding-right: 20px" src="../images/anna.jpg"> </img>
 
-#### **Anna Shuqi**
+#### **Anna Cao**
 
 I am a second-year Electrical Engineering student at UBC Vancouver. I have a passion for both hardware and software, and I enjoy integrating them into advanced technologies and systems that have a positive impact on people's lives. I’m excited to be part of a project that fosters accessible education and supports students, while also providing an opportunity to collaborate with others and enhance my technical skills. When I'm not studying, I like to ski in the winter or enjoy the lake and paddleboard in the summer. I also love playing piano, and all things art! <br><br><br>
 
@@ -93,7 +93,7 @@ I am a fourth year student completing a  Microbiology degree at UBC Okanagan. De
 
 <img align="left" width="150" height="150" style="padding-right: 20px" src="../images/skyler.jpg"> </img>
 
-#### **Skyler Last??**
+#### **Skyler Sattarifard**
 
 I am a second year, intending to specialize in computer science. The two things I love the most are helping and learning and that is why I'm here. I'm particularly enthusiastic about Prairelearn because it's open source and free, way better those paid websites with mandatory textbooks. I generally like tv-shows (big fan of game of thrones), hiking, and exploring, and you can usually find me in UBC Okanagan's library. <br><br><br>
 
