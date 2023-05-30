@@ -20,11 +20,12 @@
 | Edris Wu         | edriswu        |
 | Graham Bovett    | gbovett        |
 | Stephen Collins  | SteveCollins17 |
+| Michael Kudla    | michaelwkudla  |
 | Alyssa Kong      | naclsodium     |
-| Anna Cao       | annascao       |
+| Anna Cao         | annascao       |
 | Muneeba Ashiq    | muneebaashiq   |
 | Larita Kipkeu    | kipkeu         |
-| Mrunal Last??    | Moon0256       |
+| Mrunal Mustapure | Moon0256       |
 | Skyler Sattarifard | certainlyskyler|
 
 
@@ -49,7 +50,7 @@ Jake is a Professor of Teaching in physics at UBC Okanagan.  In addition to teac
 
 <img align="left" width="150" height="150" style="padding-right: 20px" src="../images/moon.jpeg"> </img>
 
-#### **Mrunal Last??**
+#### **Mrunal Mustapure**
 
 I am a second year student at UBC Okanagan. I am planning to major in Computer Science with a minor in Mathematics.
 
