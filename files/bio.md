@@ -8,11 +8,11 @@
 |------------------|----------------|
 | Firas Moosvi     | firasm         |
 | Jake Bobowski    | jake-bobowski  |
-| Alyssa Kong      | naclsodium     |
-| Anna Cao         | annascao       |
-| Muneeba Ashiq    | muneebaashiq   |
-| Larita Kipkeu    | kipkeu         |
 | Mrunal Mustapure | Moon0256       |
+| Larita Kipkeu    | kipkeu         |
+| Muneeba Ashiq    | muneebaashiq   |
+| Anna Cao         | annascao       |
+| Alyssa Kong      | naclsodium     |
 | Skyler Sattarifard | certainlyskyler|
 | Ava Cornell      | ahcornell      |
 | Abby Kiehlbauch  | abbykiehlbauch |
