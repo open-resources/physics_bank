@@ -49,14 +49,15 @@ part1:
 myst:
   substitutions:
     params_vars_title: Electron in a Solenoid
-    params_n: '20'
-    params_r: '1.60'
-    params_v: "$1.20\\times 10^{5 }\textrm{ m/s}$"
+    params_n: '15'
+    params_r: '2.20'
+    params_v: "$1.70\\times 10^{6 }\textrm{ m/s}$"
 ---
 # {{ params_vars_title }}
 A solenoid with {{ params_n }} turns per centimter carries a current $I$.
 An electron moves within the solenoid in a circle of radius {{ params_r}}$\textrm{ cm}$.
-The plane of the circular motion is perpendicular to the axis of the solenoid.The speed of the electron is {{ params_v }} $\textrm{ m/s}$.
+The plane of the circular motion is perpendicular to the axis of the solenoid.
+The speed of the electron is {{ params_v }} $\textrm{ m/s}$.
 
 ## Question Text
 

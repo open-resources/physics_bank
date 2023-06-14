@@ -43,12 +43,13 @@ part1:
 myst:
   substitutions:
     params_vars_title: Wire in an external magnetic field
-    params_I: '23.5'
-    params_Bext: '38.5'
-    params_d: '18.5'
+    params_I: '19.0'
+    params_Bext: '34.0'
+    params_d: '20.5'
 ---
 # {{ params_vars_title }}
-A long, straight, horizontal wire carries a left-to-right current of {{ params_I }}$\rm\ A$.The wire is placed in a uniform magnetic field of magnitude {{ params_Bext }}$~\mu\mathrm{T}$ that is directed vertically downward.
+A long, straight, horizontal wire carries a left-to-right current of {{ params_I }}$\rm\ A$.
+The wire is placed in a uniform magnetic field of magnitude {{ params_Bext }}$~\mu\mathrm{T}$ that is directed vertically downward.
 
 ## Question Text
 

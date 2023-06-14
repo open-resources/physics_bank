@@ -67,7 +67,7 @@ myst:
     params_vars_units3: $m/s \ \ \hat\imath$
     params_vars_units4: $m/s \ \ \hat\jmath$
     params_h: 60
-    params_s: 180
+    params_s: 120
     params_vert: 60
 ---
 # {{ params_vars_title }}

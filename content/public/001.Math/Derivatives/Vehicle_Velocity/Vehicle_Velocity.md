@@ -30,18 +30,18 @@ part1:
 myst:
   substitutions:
     params_vars_title: Vehicle Velocity
-    params_vars_vehicle: pickup truck
+    params_vars_vehicle: van
     params_vars_units: $m/s$
     params_i_1: 3
-    params_i_2: 3
-    params_j_1: 9
-    params_j_2: 1
-    params_s: 1
-    params_part1_ans1_value: (3$\hat{\imath}$ - 6$\hat{\jmath}$)
-    params_part1_ans2_value: (3$\hat{\imath}$ + 3$\hat{\jmath}$)
-    params_part1_ans3_value: (0$\hat{\imath}$ + 10$\hat{\jmath}$)
-    params_part1_ans4_value: (0$\hat{\imath}$ - 6$\hat{\jmath}$)
-    params_part1_ans5_value: (3$\hat{\imath}$ + 10$\hat{\jmath}$)
+    params_i_2: 2
+    params_j_1: 10
+    params_j_2: 2
+    params_s: 2
+    params_part1_ans1_value: (10$\hat{\imath}$ + 43/2$\hat{\jmath}$)
+    params_part1_ans2_value: (10$\hat{\imath}$ + 24$\hat{\jmath}$)
+    params_part1_ans3_value: (8$\hat{\imath}$ + 21$\hat{\jmath}$)
+    params_part1_ans4_value: (8$\hat{\imath}$ + 43/2$\hat{\jmath}$)
+    params_part1_ans5_value: (10$\hat{\imath}$ + 21$\hat{\jmath}$)
 ---
 # {{ params_vars_title }}
 A {{ params_vars_vehicle }}'s position as a function of time is given by $\vec{r} =$ ({{ params.i_1 }}$t^2 -$ {{ params.i_2 }}$t)\hat{\imath} + ($ {{ params.j_1 }}$t^{-1}+$ {{ params.j_2 }} $t^3)\hat{\jmath}$ where $\vec{r}$ is in meters and $t$ is in seconds.

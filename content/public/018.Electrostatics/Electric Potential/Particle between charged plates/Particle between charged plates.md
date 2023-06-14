@@ -43,12 +43,12 @@ part1:
 myst:
   substitutions:
     params_vars_title: Particle between charged plates
-    params_sig: '20'
-    params_d: '3.3'
-    params_particle: An electron
-    params_particle1: electron
-    params_p1: negative
-    params_p2: positive
+    params_sig: '34'
+    params_d: '3.6'
+    params_particle: A proton
+    params_particle1: proton
+    params_p1: positive
+    params_p2: negative
 ---
 # {{ params_vars_title }}
 Two large plates of charge density {{ params_sig }}$\rm\ \mu C/m^2$ face each other at a separation of {{ params_d }}$ \textrm{ mm}$.

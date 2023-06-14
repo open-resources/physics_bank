@@ -31,14 +31,14 @@ part1:
 myst:
   substitutions:
     params_vars_title: Velocity and Acceleration of an Object
-    params_v: $-3t^2 + 2t$
-    params_time: 4.44
-    params_part1_ans1_value: $v = $ -50.3 $m/s$, $a = $ -24.6 $m/s^2$
-    params_part1_ans2_value: $v = $ -50.3 $m/s$, $a = $ 0 $m/s^2$
-    params_part1_ans3_value: $v = $ -50.3 $m/s$, $a = $ 9.81 $m/s^2$
-    params_part1_ans4_value: $v = $ 4.44 $m/s$, $a = $ -12.3 $m/s^2$
-    params_part1_ans5_value: $v = $ -50.3 $m/s$, $a = $ 24.6 $m/s^2$
-    params_part1_ans6_value: $v = $ -50.3 $m/s$, $a = $ -49.2 $m/s^2$
+    params_v: $2t^2 + 6t$
+    params_time: 6.13
+    params_part1_ans1_value: $v = $ 112.0 $m/s$, $a = $ 30.5 $m/s^2$
+    params_part1_ans2_value: $v = $ 112.0 $m/s$, $a = $ 0 $m/s^2$
+    params_part1_ans3_value: $v = $ 112.0 $m/s$, $a = $ 9.81 $m/s^2$
+    params_part1_ans4_value: $v = $ 6.13 $m/s$, $a = $ 15.3 $m/s^2$
+    params_part1_ans5_value: $v = $ 112.0 $m/s$, $a = $ -30.5 $m/s^2$
+    params_part1_ans6_value: $v = $ 112.0 $m/s$, $a = $ 61.0 $m/s^2$
 ---
 # {{ params_vars_title }}
 If the velocity of an object in one-dimensional motion is given by $v(t) = $ {{ params_v }}, where the units of $v$ are in $m/s$ and of $t$ are in seconds,

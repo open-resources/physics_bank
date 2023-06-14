@@ -86,8 +86,8 @@ part9:
 myst:
   substitutions:
     params_vars_title: Circular Motion Graph
-    params_r: 7
-    params_t: 0.6
+    params_r: 3
+    params_t: 0.4
     params_wmax: 10
     params_part1_ans1_value: $t = 0\rm{s} $ to $ t = 1\rm{s}$, positive
     params_part1_ans1_feedback: Hmm... try again.
@@ -123,7 +123,7 @@ myst:
     params_part8_ans3_feedback: Hmm... try again.
 ---
 # {{ params_vars_title }}
-<img src="diagram.png" alt= "A graph of angular velocity (rad/s) vs. time (s). At 0s, it is -10 rad/s, with a constant linear slope towards 0 rad/s at 1s and 10 rad/s at 2s (this shape: /). From 2s to 3s, it is a constant 10 rad/s, producing a horizontal slope (-). "> 
+<img src="diagram.png" alt= "A graph of angular velocity (rad/s) vs. time (s). At 0s, it is -10 rad/s, with a constant linear slope towards 0 rad/s at 1s and 10 rad/s at 2s (this shape: /). From 2s to 3s, it is a constant 10 rad/s, producing a horizontal slope (-). ">
 
 The angular velocity of an object in circular motion at a distance $r =$ {{params_r}} $\rm{m}$ from the point of rotation is shown in Fig. 1.
 

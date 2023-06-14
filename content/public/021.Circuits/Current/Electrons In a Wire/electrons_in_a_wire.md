@@ -37,8 +37,8 @@ myst:
   substitutions:
     params_vars_title: Electrons In a Wire
     params_vars_units: m/s
-    params_I: 143
-    params_t: 15
+    params_I: 194
+    params_t: 1
 ---
 # {{ params_vars_title }}
 

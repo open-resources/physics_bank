@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $k$ = $\dfrac{(m)}{(j - 2x)} $
-    params_part1_ans1_value: j = ${ 2 x + \frac{m}{k}}$
-    params_part1_ans2_value: j = ${- \frac{2 k x}{m}}$
-    params_part1_ans3_value: j = ${- \frac{m}{2 k x}}$
-    params_part1_ans4_value: j = ${\frac{k + 2 x}{m}}$
+    params_expr: $z$ = $\dfrac{(j)}{(q + 3o)} $
+    params_part1_ans1_value: q = ${ \frac{j}{z} - 3 o}$
+    params_part1_ans2_value: q = ${\frac{3 o z}{j}}$
+    params_part1_ans3_value: q = ${\frac{j}{3 o z}}$
+    params_part1_ans4_value: q = ${\frac{- 3 o + z}{j}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

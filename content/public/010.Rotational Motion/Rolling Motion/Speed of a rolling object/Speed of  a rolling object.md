@@ -57,7 +57,7 @@ myst:
   substitutions:
     params_vars_title: Speed of a Rolling Object
     params_vars_units: "$\rm{m/s}$"
-    params_h: 20.2
+    params_h: 6.16
 ---
 # {{ params_vars_title }}
 Consider the setup shown in the figure below.
@@ -73,7 +73,7 @@ The system is initally at rest, but once the rectangular object is released, it 
 
 <div id="desc">
 <h5>Long Description of Image: Figure of the system described in the question text.</h5>
-A round object rolls up an incline.  The round object is attached to a string which passes over a frictionless pulley of negligible mass positioned at the end of the incline. A rectangular object is suspended from the opposite end of the string. 
+A round object rolls up an incline.  The round object is attached to a string which passes over a frictionless pulley of negligible mass positioned at the end of the incline. A rectangular object is suspended from the opposite end of the string.
 <p>Long description ends.</p>
 <div>
 

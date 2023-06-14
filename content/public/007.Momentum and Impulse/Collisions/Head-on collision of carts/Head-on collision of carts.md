@@ -55,9 +55,9 @@ myst:
   substitutions:
     params_vars_title: Head-on Collision of Carts
     params_vars_units: $(m/s)\; \hat{\imath}$
-    params_c1: 10
-    params_c2: 7
-    params_v0: 14.8
+    params_c1: 5
+    params_c2: 6
+    params_v0: 5.61
 ---
 # {{ params_vars_title }}
 A cart of relative mass ${{ params_c1 }}m$ (Cart 1) moving with velocity $\vec{v_0} = ($ {{ params_v0 }} $m/s)\hat{\imath}$ collides head-on with a cart of relative mass {{ params_c2 }} $m$ (Cart 2) that is initially at rest.

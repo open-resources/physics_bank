@@ -36,10 +36,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Single-Turn Rectangular Coil
-    params_R: '4'
+    params_R: '5'
     params_B: '1.00'
-    params_f: '150'
-    params_t: '0.002'
+    params_f: '300'
+    params_t: '0.001'
 ---
 # {{ params_vars_title }}
 

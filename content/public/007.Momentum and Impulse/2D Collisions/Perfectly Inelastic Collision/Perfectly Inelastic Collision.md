@@ -49,7 +49,7 @@ part2:
 myst:
   substitutions:
     params_vars_title: Perfectly Inelastic Collision
-    params_v1: 1
+    params_v1: 2
     params_v2: 3
 ---
 # {{ params_vars_title }}

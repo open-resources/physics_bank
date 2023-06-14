@@ -42,7 +42,7 @@ myst:
     params_vars_title: Jumping Salmon
     params_vars_units: $m/s$
     params_h_fall: 3.71
-    params_dist: 1.05
+    params_dist: 1.2
     params_part1_ans1_value: Time interval for jump, $\Delta t$
     params_part1_ans2_value: Vertical displacement, $\Delta y$
     params_part1_ans3_value: Horizontal displacement, $\Delta x$

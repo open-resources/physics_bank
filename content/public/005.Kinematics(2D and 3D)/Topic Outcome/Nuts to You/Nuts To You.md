@@ -79,8 +79,8 @@ part8:
 myst:
   substitutions:
     params_vars_title: Nuts To You
-    params_vi_hawk: 5.85
-    params_h_Jed: 15.4
+    params_vi_hawk: 5.41
+    params_h_Jed: 25.4
     params_part3_ans1_value: Jed maintains the $x$-component of their velocity. ($a_x
       = 0 \; m/s^2$)
     params_part3_ans2_value: There is no $x$-component since Jed falls in a straight
@@ -102,7 +102,10 @@ myst:
       its horizontal speed.
 ---
 # {{ params_vars_title }}
-In the children's book *Nuts to You*, a young squirrel named Jed is snatched up by a hawk.While in the air Jed manages to go limp, slip through the hawk's talons and fall to the forest floor.The hawk travels horizontally at a speed of {{ params.vi_hawk }} $m/s$.(You may neglect any effects of air resistance as you answer the following questions).
+In the children's book *Nuts to You*, a young squirrel named Jed is snatched up by a hawk.
+While in the air Jed manages to go limp, slip through the hawk's talons and fall to the forest floor.
+The hawk travels horizontally at a speed of {{ params.vi_hawk }} $m/s$.
+(You may neglect any effects of air resistance as you answer the following questions).
 
 ## Part 1
 

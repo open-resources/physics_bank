@@ -47,7 +47,7 @@ myst:
 
 <div id="desc">
 <h5>Long Description of image: Motion diagram of a rotating pencil as it flies through the air.</h5>
-The centre of mass of the pencil is marked by a dot throughout its motion through the air. The motion of the pencil has a shape similar to that of a parabola. 
+The centre of mass of the pencil is marked by a dot throughout its motion through the air. The motion of the pencil has a shape similar to that of a parabola.
 The motion diagram consists of seven dots numbered 0 to 6 and the dot numbered 3 is at the peak of the parabola.
 <p>Long description ends.</p>
 <div>

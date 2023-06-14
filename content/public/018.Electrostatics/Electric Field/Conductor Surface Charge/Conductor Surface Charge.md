@@ -56,7 +56,7 @@ part2:
 myst:
   substitutions:
     params_vars_title: Conductor Surface Charge
-    params_Q: '-6.9'
+    params_Q: '-5.9'
     params_q: '6.8'
 ---
 # {{ params_vars_title }}

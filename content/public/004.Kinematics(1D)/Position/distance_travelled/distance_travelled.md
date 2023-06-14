@@ -29,18 +29,18 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Ahmed
-    params_vars_vehicle: a tricycle
+    params_vars_name: Savannah
+    params_vars_vehicle: a unicycle
     params_vars_units: m
     params_vars_title: Distance travelled
     params_v: 3
-    params_t: 10
+    params_t: 6
     params_part1_ans1_value: 42.0
-    params_part1_ans2_value: 30
-    params_part1_ans3_value: 13
-    params_part1_ans4_value: 0.3
-    params_part1_ans5_value: -7
-    params_part1_ans6_value: -9.1
+    params_part1_ans2_value: 18
+    params_part1_ans3_value: 9
+    params_part1_ans4_value: 0.5
+    params_part1_ans5_value: -3
+    params_part1_ans6_value: -3.9
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} is traveling on {{ params_vars_vehicle }} at {{ params_v }} $\rm{m/s}$.

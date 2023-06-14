@@ -36,12 +36,12 @@ myst:
     params_vars_vehicle: bus
     params_vars_title: Displacement of a Vehicle
     params_vars_units: blocks
-    params_c1: 35
-    params_c2: 77
-    params_c3: 7
+    params_c1: 52
+    params_c2: 33
+    params_c3: 20
     params_dir1: south
-    params_dir2: north
-    params_dir3: east
+    params_dir2: east
+    params_dir3: west
 ---
 # {{ params_vars_title }}
 A {{ params_vars_vehicle }} moves {{ params_c1}} blocks due {{ params_dir1}}, {{ params_c2 }} blocks due {{ params_dir2}}, and another {{ params_c3 }} blocks due {{ params_dir3}}.

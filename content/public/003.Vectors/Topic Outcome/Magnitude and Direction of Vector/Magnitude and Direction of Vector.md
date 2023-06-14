@@ -36,22 +36,22 @@ part1:
 myst:
   substitutions:
     params_vars_title: Magnitude and Direction of a Vector
-    params_A_i: -8
-    params_A_j_abs: 6
-    params_A_j_sign: ' + '
-    params_B_i: -10
-    params_B_j_abs: 5
-    params_B_j_sign: ' + '
-    params_C_i: 6
-    params_C_j_abs: 10
-    params_C_j_sign: ' + '
-    params_d: 3
-    params_part1_ans1_value: ($\sqrt{1400}$, $\theta = $57.2$^\circ$)
-    params_part1_ans2_value: ($\sqrt{1400}$, $\theta = $28.6$^\circ$)
-    params_part1_ans3_value: ($\sqrt{700.0}$, $\theta = $28.6$^\circ$)
-    params_part1_ans4_value: ($\sqrt{37.0}$, $\theta = $57.2$^\circ$)
-    params_part1_ans5_value: ($\sqrt{2100.0}$, $\theta = $28.6$^\circ$)
-    params_part1_ans6_value: ($\sqrt{51}$, $\theta = $57.2$^\circ$)
+    params_A_i: 7
+    params_A_j_abs: 8
+    params_A_j_sign: ' - '
+    params_B_i: -9
+    params_B_j_abs: 2
+    params_B_j_sign: ' - '
+    params_C_i: -2
+    params_C_j_abs: 9
+    params_C_j_sign: ' - '
+    params_d: 1
+    params_part1_ans1_value: ($\sqrt{420}$, $\theta = $313.0$^\circ$)
+    params_part1_ans2_value: ($\sqrt{420}$, $\theta = $156.5$^\circ$)
+    params_part1_ans3_value: ($\sqrt{210.0}$, $\theta = $156.5$^\circ$)
+    params_part1_ans4_value: ($\sqrt{20.0}$, $\theta = $313.0$^\circ$)
+    params_part1_ans5_value: ($\sqrt{630.0}$, $\theta = $156.5$^\circ$)
+    params_part1_ans6_value: ($\sqrt{1}$, $\theta = $313.0$^\circ$)
 ---
 # {{ params_vars_title }}
 Given $\vec{A} =$ {{ params.A_i }}$\hat{\imath}$ {{params.A_j_sign}} {{ params.A_j_abs}}$\hat{\jmath}$, $\vec{B} =$ {{ params.B_i }}$\hat{\imath}$ {{params.B_j_sign}} {{ params.B_j_abs}}$\hat{\jmath}$, $\vec{C} =$ {{ params.C_i }}$\hat{\imath}$ {{params.C_j_sign}} {{ params.C_j_abs}}$\hat{\jmath}$ and $d=$ {{ params_d }}, find the magnitude and direction of $\vec{A}-\vec{B}+d\vec{C}$.

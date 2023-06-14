@@ -57,8 +57,8 @@ myst:
     params_vars_title: Distance travelled
     params_vars_unit1: $J$
     params_vars_unit2: $m/s$
-    params_m_d: 0.056
-    params_m_b: 0.042
+    params_m_d: 0.078
+    params_m_b: 0.058
     params_v: 13.0
 ---
 # {{ params_vars_title }}

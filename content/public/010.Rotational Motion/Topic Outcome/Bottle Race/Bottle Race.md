@@ -53,7 +53,8 @@ Two identical cylindrical water bottles are 80% filled with water.  Bottle 1 is 
 
 ## Part 1
 
-If both bottles are given the same initial velocity and roll without slipping **up** a very long ramp, which of the following will be true?(You may ignore any work done by non-conservative forces in this problem).
+If both bottles are given the same initial velocity and roll without slipping **up** a very long ramp, which of the following will be true?
+(You may ignore any work done by non-conservative forces in this problem).
 
 ### Answer Section
 

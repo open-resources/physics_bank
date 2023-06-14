@@ -37,7 +37,7 @@ myst:
     params_vars_name: Ximena
     params_vars_title: Throwing Stones
     params_vars_units: $s$
-    params_v: 19.6
+    params_v: 11.3
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} simultaneously throws two stones from the top edge of a building with a speed {{ params_v }} $m/s$. They throw one straight down and the other straight up.
