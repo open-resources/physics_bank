@@ -58,7 +58,7 @@ myst:
   substitutions:
     params_vars_title: Varying Separation Distance of Capacitor Plates
     params_a: '30.0'
-    params_b: '0.50'
+    params_b: '0.75'
     params_c: '1.75'
     params_v: '50'
     params_part3_ans1_value: It is lost to the surroundings in the laboratory

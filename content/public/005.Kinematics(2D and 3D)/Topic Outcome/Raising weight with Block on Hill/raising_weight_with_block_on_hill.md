@@ -48,7 +48,7 @@ myst:
     params_vars_units_v: m/s
     params_vars_units_a: m/s^2
     params_v_b: 2.7
-    params_a_b: 2.1
+    params_a_b: 1.6
 ---
 # {{ params_vars_title }}
 <img src="L13Q3.png" width=85%>

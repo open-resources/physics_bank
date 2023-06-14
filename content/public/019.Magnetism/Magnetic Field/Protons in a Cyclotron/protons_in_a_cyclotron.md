@@ -51,7 +51,7 @@ part2:
 myst:
   substitutions:
     params_vars_title: Protons in a Cyclotron
-    params_B: 1.1
+    params_B: 1.8
 ---
 # {{ params_vars_title }}
 A physicist is designing a cyclotron to accelerate protons to one-tenth the speed of light.

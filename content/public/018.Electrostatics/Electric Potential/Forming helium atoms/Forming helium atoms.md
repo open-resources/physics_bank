@@ -41,7 +41,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Forming helium atoms
-    params_d: '0.680000'
+    params_d: '0.590000'
     params_p: -10
 ---
 # {{ params_vars_title }}

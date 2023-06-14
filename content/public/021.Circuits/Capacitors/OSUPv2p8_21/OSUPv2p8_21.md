@@ -42,8 +42,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Voltage Applied to a Capacitor
-    params_c: '2.9'
-    params_q: '1.5'
+    params_c: '1.4'
+    params_q: '3.3'
 ---
 # {{ params_vars_title }}
 

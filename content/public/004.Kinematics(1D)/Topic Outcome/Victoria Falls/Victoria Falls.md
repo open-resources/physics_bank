@@ -38,7 +38,7 @@ myst:
   substitutions:
     params_vars_title: Victoria Falls
     params_vars_units: $m^2$
-    params_rate: 64.6
+    params_rate: 65.1
 ---
 # {{ params_vars_title }}
 Victoria Falls  (or Mosi-oa-Tunga, "the smoke that thunders") is the world's tallest waterfall.  In the dry season it has a minimum volume rate of flow of 300 $m^3/s$, and splits into 5 waterfalls along its 1708 $m$ length.  The highest of these is called Rainbow Falls, standing 108 $m$ tall.

@@ -37,9 +37,9 @@ myst:
   substitutions:
     params_vars_title: Power of a Horse
     params_vars_units: $W$
-    params_v_kph: 12
-    params_mass_kg: 135
-    params_grade: 4
+    params_v_kph: 13
+    params_mass_kg: 150
+    params_grade: 8
 ---
 # {{ params_vars_title }}
 <img src="Power of a Biker.png" width=400>

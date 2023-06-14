@@ -39,12 +39,12 @@ part1:
 myst:
   substitutions:
     params_vars_title: Swinging Ball Elastic Collision
-    params_l: 2.8
-    params_m_1: 220
-    params_m_2: 1.1
-    params_x: 1.6
-    params_k: 2380
-    params_spring: 30
+    params_l: 2.6
+    params_m_1: 240
+    params_m_2: 1.6
+    params_x: 1.0
+    params_k: 2000
+    params_spring: 25
 ---
 # {{ params_vars_title }}
 A {{params.m_1}} $\rm{g}$ rubber ball is tied to a {{params_l}} meter long string and released from rest at angle $\theta$.

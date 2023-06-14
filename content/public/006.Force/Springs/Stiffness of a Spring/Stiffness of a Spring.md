@@ -36,10 +36,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Stiffness of a Spring
-    params_h: 430
-    params_F: 220.03914261629558
-    params_x: 299
-    params_d: 36
+    params_h: 422
+    params_F: 204.92526026678894
+    params_x: 264
+    params_d: 63
     params_m: 4
 ---
 # {{ params_vars_title }}

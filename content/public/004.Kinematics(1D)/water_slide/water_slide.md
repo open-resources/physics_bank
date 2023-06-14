@@ -53,9 +53,9 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Santiago
+    params_vars_name: Emilia
     params_vars_title: Water Slide
-    params_theta: 20
+    params_theta: 40
     params_l: 700
     params_l2: 350.0
 ---

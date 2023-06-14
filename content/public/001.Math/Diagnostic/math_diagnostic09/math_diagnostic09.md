@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $z$ = $\dfrac{(j)}{(q + 3o)} $
-    params_part1_ans1_value: q = ${ \frac{j}{z} - 3 o}$
-    params_part1_ans2_value: q = ${\frac{3 o z}{j}}$
-    params_part1_ans3_value: q = ${\frac{j}{3 o z}}$
-    params_part1_ans4_value: q = ${\frac{- 3 o + z}{j}}$
+    params_expr: $b$ = $\dfrac{(y)}{(e - 2c)} $
+    params_part1_ans1_value: e = ${ 2 c + \frac{y}{b}}$
+    params_part1_ans2_value: e = ${- \frac{2 b c}{y}}$
+    params_part1_ans3_value: e = ${- \frac{y}{2 b c}}$
+    params_part1_ans4_value: e = ${\frac{b + 2 c}{y}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

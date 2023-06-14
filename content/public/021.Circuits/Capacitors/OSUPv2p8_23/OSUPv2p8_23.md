@@ -42,8 +42,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Determining Capacitance
-    params_q: '4.4'
-    params_v: '210'
+    params_q: '4.3'
+    params_v: '200'
 ---
 # {{ params_vars_title }}
 

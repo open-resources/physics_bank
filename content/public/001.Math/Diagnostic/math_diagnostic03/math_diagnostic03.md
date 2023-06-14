@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic03
-    params_vars_formula: -5x + -4 > -10x + 8
-    params_part1_ans1_value: x > 12/5
-    params_part1_ans2_value: x < 12/5
-    params_part1_ans3_value: x < 5/12
-    params_part1_ans4_value: x > 5/12
+    params_vars_formula: 2x + -2 > -2x + 9
+    params_part1_ans1_value: x > 11/4
+    params_part1_ans2_value: x < 11/4
+    params_part1_ans3_value: x < 4/11
+    params_part1_ans4_value: x > 4/11
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

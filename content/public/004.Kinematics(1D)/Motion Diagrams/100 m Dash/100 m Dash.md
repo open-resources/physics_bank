@@ -34,8 +34,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: 100 m Dash
-    params_d1: 40
-    params_d2: 60
+    params_d1: 20
+    params_d2: 80
 ---
 # {{ params_vars_title }}
 In the 100 $m$ dash sprinters speed up from rest for the first {{ params_d1 }} $m$, and maintain their speed for the final {{ params_d2 }} $m$.

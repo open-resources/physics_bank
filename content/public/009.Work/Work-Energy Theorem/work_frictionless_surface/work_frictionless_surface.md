@@ -33,12 +33,12 @@ myst:
   substitutions:
     params_vars_title: Work on Sliding Object
     params_v_i: '2'
-    params_v_f: 3
-    params_part1_ans1_value: 6 times the work required to accelerate the object from
+    params_v_f: 4
+    params_part1_ans1_value: 13 times the work required to accelerate the object from
       $v$ = 0 to $v$
-    params_part1_ans2_value: 4 times the work required to accelerate the object from
+    params_part1_ans2_value: 11 times the work required to accelerate the object from
       $v$ = 0 to $v$
-    params_part1_ans3_value: 5 times the work required to accelerate the object from
+    params_part1_ans3_value: 12 times the work required to accelerate the object from
       $v$ = 0 to $v$
     params_part1_ans4_value: Equal to the work required to accelerate the object from
       3$v$ to 4$v$

@@ -32,8 +32,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Two Blocks
-    params_x: 6
-    params_part1_ans1_value: 21.0 $mv^2$
+    params_x: 2
+    params_part1_ans1_value: 3.0 $mv^2$
     params_part1_ans2_value: 4.0 $mv^2$
     params_part1_ans3_value: 8.0 $mv^2$
     params_part1_ans4_value: 20.0 $mv^2$

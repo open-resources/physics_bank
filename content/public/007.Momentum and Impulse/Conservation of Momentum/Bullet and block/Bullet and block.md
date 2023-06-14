@@ -41,12 +41,12 @@ part2:
 myst:
   substitutions:
     params_vars_title: Bullet and Block
-    params_vars_name: Ximena
-    params_m_bullet: 27
-    params_m_block: 25
-    params_bullet_v: 814
+    params_vars_name: Ahmed
+    params_m_bullet: 22
+    params_m_block: 29
+    params_bullet_v: 772
     params_slide_d: 1
-    params_slide_dnew: 1.3
+    params_slide_dnew: 2.0
     params_coeff_k: 0.2
 ---
 # {{ params_vars_title }}
