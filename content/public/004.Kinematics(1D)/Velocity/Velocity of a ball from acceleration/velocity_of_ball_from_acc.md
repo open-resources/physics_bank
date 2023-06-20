@@ -37,9 +37,9 @@ myst:
   substitutions:
     params_vars_title: Velocity of a ball from acceleration
     params_vars_units: m/s
-    params_v0: 23
-    params_s0: 6
-    params_k: 0.04
+    params_v0: 24
+    params_s0: 7
+    params_k: 0.02
     params_s: 10
 ---
 # {{ params_vars_title }}

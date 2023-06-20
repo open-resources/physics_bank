@@ -29,18 +29,18 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Lorenzo
+    params_vars_name: Ahmed
     params_vars_vehicle: rollerblades
     params_vars_units: m
     params_vars_title: Distance travelled
-    params_v: 5
-    params_t: 7
+    params_v: 3
+    params_t: 6
     params_part1_ans1_value: 42.0
-    params_part1_ans2_value: 35
-    params_part1_ans3_value: 12
-    params_part1_ans4_value: 0.71
-    params_part1_ans5_value: -2
-    params_part1_ans6_value: -2.6
+    params_part1_ans2_value: 18
+    params_part1_ans3_value: 9
+    params_part1_ans4_value: 0.5
+    params_part1_ans5_value: -3
+    params_part1_ans6_value: -3.9
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} is traveling on {{ params_vars_vehicle }} at {{ params_v }} $\rm{m/s}$.

@@ -72,14 +72,14 @@ myst:
     params_vars_title: Space Velocity
     params_vars_units1: $\rm{m/s}$
     params_vars_units2: $\rm{J}$
-    params_m: 104
-    params_left_arm: 7
+    params_m: 102
+    params_left_arm: 8
     params_head: 13
     params_V_L_i: 13
-    params_V_L_j: 7
+    params_V_L_j: 8
     params_V_H_i: -24
-    params_V_H_j: -13
-    params_t: 0.8
+    params_V_H_j: -14
+    params_t: 0.7
     params_part5_ans1_value: His head required more force
     params_part5_ans2_value: His left arm required more force
     params_part5_ans3_value: There is not enough information.

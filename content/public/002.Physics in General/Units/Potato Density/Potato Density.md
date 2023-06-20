@@ -62,9 +62,9 @@ myst:
     params_vars_name: Mateo
     params_vars_unit1: $kg$
     params_vars_unit2: $m^3$
-    params_m_p: 162
-    params_m_cp: 68
-    params_l: 3
+    params_m_p: 213
+    params_m_cp: 69
+    params_l: 4
 ---
 # {{ params_vars_title }}
 For their first lab, {{ params_vars_name }} decides to measure the density of a potato.

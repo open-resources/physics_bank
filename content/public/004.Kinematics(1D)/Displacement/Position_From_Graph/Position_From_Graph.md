@@ -33,12 +33,12 @@ myst:
   substitutions:
     params_vars_title: Position From Graph
     params_vars_units: $m$
-    params_m: 4.9
-    params_part1_ans1_value: '12.0'
-    params_part1_ans2_value: '2.1'
+    params_m: 3.9
+    params_part1_ans1_value: '11.0'
+    params_part1_ans2_value: '3.1'
     params_part1_ans3_value: '7.0'
-    params_part1_ans4_value: '9.5'
-    params_part1_ans5_value: '-9.5'
+    params_part1_ans4_value: '9.0'
+    params_part1_ans5_value: '-9.0'
 ---
 # {{ params_vars_title }}
 <img src="Q1&Q2image.png" alt = "A graph of velocity versus time. At 0 seconds, the velocity is 4 meters per second. At 1 second, the velocity decreases to 1 meter per second. The velocity increases and at 3 seconds the velocity is 3 meters per second. From 3 to 5 seconds, the velocity is 3 meters per second. The graph has a point labelled A and C. A is labelled at 1 second, with a velocity of 1 meters per second. C is labelled at 4 seconds with a velocity of 3 meters per second." width = 300>

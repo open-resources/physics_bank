@@ -33,14 +33,14 @@ part1:
     suffix: blocks
 myst:
   substitutions:
-    params_vars_vehicle: van
+    params_vars_vehicle: pickup truck
     params_vars_title: Displacement of a Vehicle
     params_vars_units: blocks
-    params_c1: 36
-    params_c2: 74
-    params_c3: 4
+    params_c1: 54
+    params_c2: 72
+    params_c3: 47
     params_dir1: west
-    params_dir2: north
+    params_dir2: south
     params_dir3: east
 ---
 # {{ params_vars_title }}

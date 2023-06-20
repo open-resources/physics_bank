@@ -57,9 +57,9 @@ myst:
     params_vars_units1: $\frac{m}{s^2}$
     params_vars_units2: N
     params_m_a: 5
-    params_m_b: 8
-    params_m_c: 6
-    params_f_a: 48
+    params_m_b: 9
+    params_m_c: 5
+    params_f_a: 44
 ---
 # {{ params_vars_title }}
 Assume the three blocks portrayed in the figure move on a frictionless surface and a {{params.f_a}} N force

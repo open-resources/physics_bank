@@ -94,8 +94,8 @@ myst:
   substitutions:
     params_vars_title: Jump Across Stream
     params_vars_units: m
-    params_m: 444
-    params_w_s: 4.3
+    params_m: 376
+    params_w_s: 2.3
     params_h_s: 1.2
     params_v_i: 4
     params_v_j: 2

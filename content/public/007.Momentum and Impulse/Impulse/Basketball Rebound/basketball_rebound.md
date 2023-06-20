@@ -36,8 +36,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Basketball Rebound
-    params_m: 465
-    params_v: 15
+    params_m: 865
+    params_v: 11
 ---
 # {{ params_vars_title }}
 To measure the interaction force between a basketball and the backboard, we attached a force plate to the backboard. When a {{ params_m }} $\rm{g}$ basketball hit the force plate with a speed of {{ params_v }} $\rm{m/s}$, a graph of force of the plate on the ball versus time ($\rm{ms}$) was recorded as shown in the figure.

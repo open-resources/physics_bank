@@ -35,8 +35,8 @@ myst:
     params_vars_vehicle_c: Pickup truck
     params_vars_vehicle: pickup truck
     params_vars_units: kg
-    params_i_a: 133
-    params_i_b: 305
+    params_i_a: 56
+    params_i_b: 259
     params_part1_ans1_value: Yes, because the two carts are on a track with no friction.
     params_part1_ans2_value: Yes, because their change in velocities are the same.
     params_part1_ans3_value: No, because the total momentum is nonzero.

@@ -44,9 +44,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Field due to current segment
-    params_I: '11.5'
-    params_x: '2.60'
-    params_y: '6.00'
+    params_I: '2.0'
+    params_x: '2.80'
+    params_y: '5.80'
     params_dl: '0.50'
 ---
 # {{ params_vars_title }}

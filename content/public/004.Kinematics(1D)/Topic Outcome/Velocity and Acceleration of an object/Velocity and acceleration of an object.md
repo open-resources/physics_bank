@@ -31,14 +31,14 @@ part1:
 myst:
   substitutions:
     params_vars_title: Velocity and Acceleration of an Object
-    params_v: $2t^3 + 2t^2 + 4t$
-    params_time: 18.5
-    params_part1_ans1_value: $v = $ 13400.0 $m/s$, $a = $ 2130.0 $m/s^2$
-    params_part1_ans2_value: $v = $ 13400.0 $m/s$, $a = $ 0 $m/s^2$
-    params_part1_ans3_value: $v = $ 13400.0 $m/s$, $a = $ 9.81 $m/s^2$
-    params_part1_ans4_value: $v = $ 18.5 $m/s$, $a = $ 1070.0 $m/s^2$
-    params_part1_ans5_value: $v = $ 13400.0 $m/s$, $a = $ -2130.0 $m/s^2$
-    params_part1_ans6_value: $v = $ 13400.0 $m/s$, $a = $ 4260.0 $m/s^2$
+    params_v: $5t^3 + t^2 - 5t$
+    params_time: 3.06
+    params_part1_ans1_value: $v = $ 137.0 $m/s$, $a = $ 142.0 $m/s^2$
+    params_part1_ans2_value: $v = $ 137.0 $m/s$, $a = $ 0 $m/s^2$
+    params_part1_ans3_value: $v = $ 137.0 $m/s$, $a = $ 9.81 $m/s^2$
+    params_part1_ans4_value: $v = $ 3.06 $m/s$, $a = $ 71.0 $m/s^2$
+    params_part1_ans5_value: $v = $ 137.0 $m/s$, $a = $ -142.0 $m/s^2$
+    params_part1_ans6_value: $v = $ 137.0 $m/s$, $a = $ 284.0 $m/s^2$
 ---
 # {{ params_vars_title }}
 If the velocity of an object in one-dimensional motion is given by $v(t) = $ {{ params_v }}, where the units of $v$ are in $m/s$ and of $t$ are in seconds,

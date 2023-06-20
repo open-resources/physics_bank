@@ -32,14 +32,14 @@ part1:
 myst:
   substitutions:
     params_vars_title: Block on a Ramp
-    params_m: 24
-    params_theta: 22
-    params_mu: 0.1
-    params_part1_ans1_value: 88.0 $N$, up the incline
-    params_part1_ans2_value: 220.0 $N$, up the incline
-    params_part1_ans3_value: 8.8 $N$, down the incline
-    params_part1_ans4_value: 22.0 $N$, down the incline
-    params_part1_ans5_value: 88.0 $N$, down the incline
+    params_m: 50
+    params_theta: 13
+    params_mu: 0.8
+    params_part1_ans1_value: 110.0 $N$, up the incline
+    params_part1_ans2_value: 480.0 $N$, up the incline
+    params_part1_ans3_value: 88.0 $N$, down the incline
+    params_part1_ans4_value: 380.0 $N$, down the incline
+    params_part1_ans5_value: 110.0 $N$, down the incline
 ---
 # {{ params_vars_title }}
 A mass of {{params_m}} $kg$ sits at rest on an incline making an angle of {{params_theta}} $^\circ$ with respect to the horizontal.

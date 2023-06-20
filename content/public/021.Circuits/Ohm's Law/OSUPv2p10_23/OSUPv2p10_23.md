@@ -50,8 +50,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Unknown Voltage Source
-    params_dV: '2.80'
-    params_dI: '5.60'
+    params_dV: '2.70'
+    params_dI: '5.10'
     params_part2_ans1_value: 'No'
     params_part2_ans2_value: 'Yes'
 ---

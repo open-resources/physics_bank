@@ -36,7 +36,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Bike on a Hill
-    params_R: 235
+    params_R: 140
 ---
 # {{ params_vars_title }}
 <img src="Connected Balls on Hill.png" width=400>

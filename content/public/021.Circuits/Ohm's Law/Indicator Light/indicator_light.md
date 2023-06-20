@@ -41,8 +41,8 @@ myst:
   substitutions:
     params_vars_title: Voltage Supplied To An Indicator Light
     params_vars_units: V
-    params_R: 55
-    params_I: 59
+    params_R: 61
+    params_I: 53
 ---
 # {{ params_vars_title }}
 

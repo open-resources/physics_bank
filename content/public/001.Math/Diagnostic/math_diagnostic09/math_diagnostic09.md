@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $b$ = $\dfrac{(y)}{(e - 2c)} $
-    params_part1_ans1_value: e = ${ 2 c + \frac{y}{b}}$
-    params_part1_ans2_value: e = ${- \frac{2 b c}{y}}$
-    params_part1_ans3_value: e = ${- \frac{y}{2 b c}}$
-    params_part1_ans4_value: e = ${\frac{b + 2 c}{y}}$
+    params_expr: $l$ = $\dfrac{(s)}{(i + 5u)} $
+    params_part1_ans1_value: i = ${ - 5 u + \frac{s}{l}}$
+    params_part1_ans2_value: i = ${\frac{5 l u}{s}}$
+    params_part1_ans3_value: i = ${\frac{s}{5 l u}}$
+    params_part1_ans4_value: i = ${\frac{l - 5 u}{s}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

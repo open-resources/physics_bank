@@ -48,11 +48,11 @@ part4:
 myst:
   substitutions:
     params_vars_title: Collision of Objects A and B
-    params_vars_name: Savannah
-    params_v1: 4
-    params_v2: 2
+    params_vars_name: Mateo
+    params_v1: 6
+    params_v2: 3
     params_m_a: 4
-    params_m_b: 2
+    params_m_b: 4
     params_part2_ans1_value: 'Yes'
     params_part2_ans2_value: 'No'
 ---

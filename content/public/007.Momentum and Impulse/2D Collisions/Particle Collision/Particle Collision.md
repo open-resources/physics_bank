@@ -31,21 +31,21 @@ myst:
   substitutions:
     params_vars_title: Particle Collision
     params_choice: total
-    params_m1: 3
-    params_m2: 5
-    params_v1: 12
-    params_v2: 5
-    params_part1_ans1_value: 36 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 25 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+    params_m1: 4
+    params_m2: 1
+    params_v1: 11
+    params_v2: 14
+    params_part1_ans1_value: 44 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 14 $kg$ $\dfrac{m}{s}\hat{\jmath}$
     params_part1_ans1_feedback: Great! You got it.
-    params_part1_ans2_value: 25 $kg$ $\dfrac{m}{s}\hat{\imath}$
+    params_part1_ans2_value: 14 $kg$ $\dfrac{m}{s}\hat{\imath}$
     params_part1_ans2_feedback: Hmm... Try again.
-    params_part1_ans3_value: 25 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+    params_part1_ans3_value: 14 $kg$ $\dfrac{m}{s}\hat{\jmath}$
     params_part1_ans3_feedback: Careful! Both components are asked for.
-    params_part1_ans4_value: 25 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 36 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+    params_part1_ans4_value: 14 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 44 $kg$ $\dfrac{m}{s}\hat{\jmath}$
     params_part1_ans4_feedback: Hmm... Try again.
-    params_part1_ans5_value: 36 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+    params_part1_ans5_value: 44 $kg$ $\dfrac{m}{s}\hat{\jmath}$
     params_part1_ans5_feedback: Hmm... Try again.
-    params_part1_ans6_value: 36 $kg$ $\dfrac{m}{s}\hat{\imath}$
+    params_part1_ans6_value: 44 $kg$ $\dfrac{m}{s}\hat{\imath}$
     params_part1_ans6_feedback: Careful! Both components are asked for.
 ---
 # {{ params_vars_title }}
