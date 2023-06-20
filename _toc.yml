@@ -128,6 +128,7 @@ parts:
   - file: content/public/004.Kinematics(1D)/Motion Diagrams/Turning Point of a motion
       Diagram/Turning point of a motion diagram
   - file: content/public/004.Kinematics(1D)/Motion Diagrams/position_graph/position_graph
+  - file: content/public/004.Kinematics(1D)/Motion Diagrams/vole_position/Vole_Position
   - file: content/public/004.Kinematics(1D)/Position/Label_Position_Vs_Time_Graph/Label_Position_Vs_Time_Graph
   - file: content/public/004.Kinematics(1D)/Position/distance_travelled/distance_travelled
   - file: content/public/004.Kinematics(1D)/Speed/Average Speed of Kinesin/Average
