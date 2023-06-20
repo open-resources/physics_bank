@@ -40,7 +40,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Cylindrical Capacitor
-    params_c: '27'
+    params_c: '24'
 ---
 # {{ params_vars_title }}
 

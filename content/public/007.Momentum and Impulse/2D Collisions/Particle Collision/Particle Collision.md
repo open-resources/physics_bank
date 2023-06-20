@@ -30,23 +30,23 @@ part1:
 myst:
   substitutions:
     params_vars_title: Particle Collision
-    params_choice: total
-    params_m1: 4
-    params_m2: 1
-    params_v1: 11
-    params_v2: 14
-    params_part1_ans1_value: 44 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 14 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+    params_choice: $y$-component of the
+    params_m1: 2
+    params_m2: 2
+    params_v1: 5
+    params_v2: 11
+    params_part1_ans1_value: 22 $kg$ $\dfrac{m}{s}\hat{\jmath}$
     params_part1_ans1_feedback: Great! You got it.
-    params_part1_ans2_value: 14 $kg$ $\dfrac{m}{s}\hat{\imath}$
+    params_part1_ans2_value: 22 $kg$ $\dfrac{m}{s}\hat{\imath}$
     params_part1_ans2_feedback: Hmm... Try again.
-    params_part1_ans3_value: 14 $kg$ $\dfrac{m}{s}\hat{\jmath}$
-    params_part1_ans3_feedback: Careful! Both components are asked for.
-    params_part1_ans4_value: 14 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 44 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+    params_part1_ans3_value: 22 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 10 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+    params_part1_ans3_feedback: Hmm... Try again.
+    params_part1_ans4_value: 10 $kg$ $\dfrac{m}{s}\hat{\jmath}$
     params_part1_ans4_feedback: Hmm... Try again.
-    params_part1_ans5_value: 44 $kg$ $\dfrac{m}{s}\hat{\jmath}$
-    params_part1_ans5_feedback: Hmm... Try again.
-    params_part1_ans6_value: 44 $kg$ $\dfrac{m}{s}\hat{\imath}$
-    params_part1_ans6_feedback: Careful! Both components are asked for.
+    params_part1_ans5_value: 10 $kg$ $\dfrac{m}{s}\hat{\imath}$
+    params_part1_ans5_feedback: Close! Double check the directions of the unit vectors.
+    params_part1_ans6_value: 10 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 22 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+    params_part1_ans6_feedback: Careful! Only one component is asked for.
 ---
 # {{ params_vars_title }}
 A particle of mass {{ params_m1 }} $kg$ is travelling with velocity {{ params_v1 }} $\frac{m}{s}\hat{\imath}$ when it collides with another particle of mass {{ params_m2 }} $kg$ travelling with velocity {{ params_v2 }} $\frac{m}{s}\hat{\jmath}$.

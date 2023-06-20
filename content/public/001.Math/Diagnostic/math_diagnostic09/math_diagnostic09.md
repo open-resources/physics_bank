@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $l$ = $\dfrac{(s)}{(i + 5u)} $
-    params_part1_ans1_value: i = ${ - 5 u + \frac{s}{l}}$
-    params_part1_ans2_value: i = ${\frac{5 l u}{s}}$
-    params_part1_ans3_value: i = ${\frac{s}{5 l u}}$
-    params_part1_ans4_value: i = ${\frac{l - 5 u}{s}}$
+    params_expr: $h$ = $\dfrac{(i)}{(p - 8s)} $
+    params_part1_ans1_value: p = ${ 8 s + \frac{i}{h}}$
+    params_part1_ans2_value: p = ${- \frac{8 h s}{i}}$
+    params_part1_ans3_value: p = ${- \frac{i}{8 h s}}$
+    params_part1_ans4_value: p = ${\frac{h + 8 s}{i}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

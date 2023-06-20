@@ -44,7 +44,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Electric potential of parallel plates
-    params_f_s: $3.40\times 10^{3}$
+    params_f_s: $4.20\times 10^{3}$
     params_V: '13.0'
 ---
 # {{ params_vars_title }}

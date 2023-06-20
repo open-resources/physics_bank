@@ -51,8 +51,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Partially Filled Capacitor
-    params_a: '35.0'
-    params_b: '16.0'
+    params_a: '60.0'
+    params_b: '17.0'
     params_f: '5'
 ---
 # {{ params_vars_title }}

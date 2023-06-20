@@ -51,8 +51,8 @@ part3:
 myst:
   substitutions:
     params_vars_title: Box on a Slant with a Pulley
-    params_angl: 12
-    params_coef: 0.1
+    params_angl: 21
+    params_coef: 0.8
     params_mass: 8
 ---
 # {{ params_vars_title }}

@@ -44,10 +44,10 @@ myst:
   substitutions:
     params_vars_name: Santiago
     params_vars_title: Archery Competition
-    params_d: 85
-    params_v: 131
-    params_h: 165
-    params_theta: 39
+    params_d: 112
+    params_v: 89
+    params_h: 194
+    params_theta: 42
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} is reading a novel that describes an athelete participating in an archery competition.

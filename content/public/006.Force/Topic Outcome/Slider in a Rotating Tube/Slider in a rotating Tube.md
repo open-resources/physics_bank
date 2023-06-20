@@ -45,10 +45,10 @@ myst:
   substitutions:
     params_vars_title: Slider in a Rotating Tube
     params_m: 0.41
-    params_w: 2
-    params_wdot: -10
-    params_r: 0.33
-    params_rdot: -1.9
+    params_w: 10
+    params_wdot: -6
+    params_r: 0.3
+    params_rdot: -2.4
     params_rddot: 0.1
 ---
 # {{ params_vars_title }}

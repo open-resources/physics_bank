@@ -55,9 +55,9 @@ part4:
 myst:
   substitutions:
     params_vars_title: Mean resting respiratory rate
-    params_Resp_Es: 655
-    params_Resp_r: 16
-    params_m_Es: 2.03
+    params_Resp_Es: 663
+    params_Resp_r: 22
+    params_m_Es: 1.82
     params_power: 4
     params_part1_ans1_value: $RR \propto M$
     params_part1_ans1_feedback: Reread the question. What does $RR$ scale as?

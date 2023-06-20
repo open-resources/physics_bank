@@ -47,17 +47,17 @@ myst:
   substitutions:
     params_vars_title: Uncertainty
     params_vars_units: s
-    params_m: 29.24
-    params_m_u: 0.04
-    params_d: 0.2
-    params_d_u: 0.001
-    params_t1: 0.0753
-    params_t2: 0.0758
-    params_t3: 0.0753
-    params_t4: 0.0753
-    params_t5: 0.0758
-    params_t6: 0.0758
-    params_t7: 0.0758
+    params_m: 30.36
+    params_m_u: 0.01
+    params_d: 0.30000000000000004
+    params_d_u: 0.002
+    params_t1: 0.0258
+    params_t2: 0.0258
+    params_t3: 0.0256
+    params_t4: 0.0253
+    params_t5: 0.0253
+    params_t6: 0.0256
+    params_t7: 0.0253
 ---
 # {{ params_vars_title }}
 A steel ball (mball = ({{params_m}} $\pm$ {{ params_m_u }}) g) is shot from a mini-launcher on its medium setting, through horizontal photogates spaced ({{ params_d }} $\pm$ {{ params_d_u }}) m apart.

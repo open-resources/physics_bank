@@ -33,26 +33,26 @@ myst:
   substitutions:
     params_vars_title: Distance Between Two People
     params_vars_units: $\rm{m}$
-    params_vars_name1: Lorenzo
-    params_vars_name2: Emilia
-    params_s: 3
+    params_vars_name1: Abbas
+    params_vars_name2: Maya
+    params_s: 4
     params_ai_1: 2
     params_ai_2: 3
-    params_ai_3: 2
+    params_ai_3: 3
     params_aj_1: 1
-    params_aj_2: 2
-    params_aj_3: 3
-    params_bi_1: 2
-    params_bi_2: 4
+    params_aj_2: 3
+    params_aj_3: 2
+    params_bi_1: 4
+    params_bi_2: 1
     params_bi_3: 3
     params_bj_1: 5
-    params_bj_2: 3
-    params_bj_3: 2
-    params_part1_ans1_value: 52.0
-    params_part1_ans2_value: 26.0
-    params_part1_ans3_value: 2700.0
-    params_part1_ans4_value: 46
-    params_part1_ans5_value: 58
+    params_bj_2: 1
+    params_bj_3: 3
+    params_part1_ans1_value: 76.0
+    params_part1_ans2_value: 38.0
+    params_part1_ans3_value: 5800.0
+    params_part1_ans4_value: 70
+    params_part1_ans5_value: 82
 ---
 # {{ params_vars_title }}
 The position of {{ params_vars_name1 }} as a function of time is given by:

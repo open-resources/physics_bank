@@ -29,7 +29,7 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Savannah
+    params_vars_name: Santiago
     params_vars_title: Living Room on Fire
     params_part1_ans1_value: Throw the Superball.
     params_part1_ans2_value: Throw the ball of clay.

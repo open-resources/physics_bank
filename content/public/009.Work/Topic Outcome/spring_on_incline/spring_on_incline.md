@@ -50,11 +50,11 @@ myst:
     params_vars_title: Spring on an Incline
     params_vars_units1: m
     params_vars_units2: J
-    params_m: 4
-    params_k: 647
-    params_theta: 29
+    params_m: 5
+    params_k: 649
+    params_theta: 27
     params_mu: 0.25
-    params_d: 8
+    params_d: 6
     params_g: 9.8
 ---
 # {{ params_vars_title }}

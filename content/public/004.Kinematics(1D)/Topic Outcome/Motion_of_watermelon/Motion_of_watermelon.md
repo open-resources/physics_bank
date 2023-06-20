@@ -58,11 +58,11 @@ myst:
     params_vars_units1: ${m/s}^2$
     params_vars_units2: $s$
     params_signa: +
-    params_signb: '-'
-    params_signc: '-'
-    params_a: 5
-    params_b: 4
-    params_c: 7
+    params_signb: +
+    params_signc: +
+    params_a: 4
+    params_b: 1
+    params_c: 9
     params_part4_ans1_value: The speed is increasing
     params_part4_ans2_value: The speed is decreasing
     params_part4_ans3_value: There is not enough information to tell

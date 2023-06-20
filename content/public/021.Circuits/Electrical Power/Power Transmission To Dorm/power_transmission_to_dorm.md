@@ -51,14 +51,14 @@ part2:
 myst:
   substitutions:
     params_vars_title: Power Transmission To Dorm
-    params_I_ref: 2
-    params_V_ref: 144
-    params_P_bulb: 69
-    params_P_light: 42
-    params_P_other: 5
-    params_V_pp: 144
-    params_d_pp: 7
-    params_Al_d: 8.841
+    params_I_ref: 4
+    params_V_ref: 129
+    params_P_bulb: 71
+    params_P_light: 25
+    params_P_other: 4
+    params_V_pp: 129
+    params_d_pp: 10
+    params_Al_d: 7.034
 ---
 # {{ params_vars_title }}
 A physics student has a single-occupancy dorm room.

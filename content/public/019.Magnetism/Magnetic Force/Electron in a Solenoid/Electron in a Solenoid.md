@@ -50,8 +50,8 @@ myst:
   substitutions:
     params_vars_title: Electron in a Solenoid
     params_n: '25'
-    params_r: '1.50'
-    params_v: "$2.90\\times 10^{5 }\textrm{ m/s}$"
+    params_r: '2.50'
+    params_v: "$2.90\\times 10^{4 }\textrm{ m/s}$"
 ---
 # {{ params_vars_title }}
 A solenoid with {{ params_n }} turns per centimter carries a current $I$.

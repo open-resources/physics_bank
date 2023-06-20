@@ -69,11 +69,11 @@ part5:
     suffix: $^{\circ}$
 myst:
   substitutions:
-    params_vars_name: Mateo
+    params_vars_name: Abbas
     params_vars_title: Halloween Gourd Launcher
-    params_m_gourd: 0.862
-    params_h: 1.55
-    params_v_f: 5.62
+    params_m_gourd: 1.12
+    params_h: 2.31
+    params_v_f: 5.09
 ---
 # {{ params_vars_title }}
 At a local pumpkin patch, {{ params_vars_name }} is hired to create a Hallowe'en gourd launcher.  {{ params_vars_name }} wants to launch a {{ params.m_gourd }} $kg$ gourd (decorated as an "Angry Bird") at a large pumpkin (decorated as a "pig") which sits on top of a $h =$ {{ params_h }} $m$ tall hay bale as shown in the figure.

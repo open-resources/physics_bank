@@ -36,7 +36,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Washing Machine Mechanics
-    params_m: 4
+    params_m: 3
     params_r: 2
 ---
 # {{ params_vars_title }}

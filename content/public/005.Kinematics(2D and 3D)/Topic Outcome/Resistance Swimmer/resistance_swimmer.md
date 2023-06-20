@@ -48,7 +48,7 @@ myst:
     params_v: 1
     params_h: 10
     params_x: 5
-    params_a: 0.2
+    params_a: 0.4
 ---
 # {{ params_vars_title }}
 <img src="L11Q1.png" width=85%>

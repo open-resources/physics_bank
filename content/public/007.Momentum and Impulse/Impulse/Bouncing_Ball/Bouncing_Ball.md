@@ -39,7 +39,7 @@ myst:
     params_vars_units_m: kg
     params_vars_units_h: m
     params_vars_units: kg m/s
-    params_m: 0.354
+    params_m: 0.439
     params_h: 2.0
 ---
 # {{ params_vars_title }}

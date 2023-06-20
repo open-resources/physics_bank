@@ -48,9 +48,9 @@ myst:
   substitutions:
     params_vars_title: Spring on Ramp
     params_vars_units: m
-    params_m: 10
-    params_theta: 38
-    params_k: 100
+    params_m: 3
+    params_theta: 30
+    params_k: 200
     params_us: 0.5
     params_uk: 0.4
 ---

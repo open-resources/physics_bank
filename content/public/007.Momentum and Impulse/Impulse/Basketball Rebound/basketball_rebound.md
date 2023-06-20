@@ -36,7 +36,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Basketball Rebound
-    params_m: 865
+    params_m: 398
     params_v: 11
 ---
 # {{ params_vars_title }}
