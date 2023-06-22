@@ -35,10 +35,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Horizontal Beam
-    params_M: 2.2
+    params_M: 1.7
     params_m: 0.8
-    params_L: 3.8
-    params_w: 0.8
+    params_L: 4.3
+    params_w: 1.1
 ---
 # {{ params_vars_title }}
 A horizontal beam of length $L = {{ params_L }}$ $\rm{m}$ and mass $M = {{ params_M }}$ $\rm{kg}$ has a mass $m = {{ params_m }}$ $\rm{kg}$ and width $w = {{ params_w }}$ $\rm{m}$ sitting at the end of the beam (see the following figure).

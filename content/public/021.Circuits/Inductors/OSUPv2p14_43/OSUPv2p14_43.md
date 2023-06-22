@@ -60,9 +60,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Long Cylindrical Solenoid
-    params_n: '110'
-    params_r: '2.0'
-    params_dIdt: '9.0'
+    params_n: '70'
+    params_r: '3.0'
+    params_dIdt: '8.5'
 ---
 # {{ params_vars_title }}
 A long, cylindrical solenoid with ${{ params_n }}\rm\ turns/cm$ has a radius of ${{ params_r }}\rm\ cm$.

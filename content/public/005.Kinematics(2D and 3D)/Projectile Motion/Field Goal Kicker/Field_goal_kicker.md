@@ -63,13 +63,13 @@ part4:
 myst:
   substitutions:
     params_vars_title: Field Goal Kicker
-    params_theta: 27
-    params_hg: 1.9
-    params_dg: 30.3
-    params_deltahg: 1.8
-    params_hl: 2.29
-    params_dl1: 4.2
-    params_dl2: 1.2
+    params_theta: 34
+    params_hg: 2.4
+    params_dg: 31.1
+    params_deltahg: 2.1
+    params_hl: 2.6
+    params_dl1: 4.0
+    params_dl2: 1.5
 ---
 # {{ params_vars_title }}
 When a field goal kicker kicks a football at ${{ params_theta }}^\circ$ to the horizontal, the ball clears the crossbar of the goalposts by ${{ params_deltahg }}$ $\rm{m}$.

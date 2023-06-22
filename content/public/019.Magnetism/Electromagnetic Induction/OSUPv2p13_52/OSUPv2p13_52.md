@@ -49,7 +49,7 @@ part2:
 myst:
   substitutions:
     params_vars_title: Uniformly Decreasing Magnetic Field
-    params_r: '15'
+    params_r: '5'
     params_B: '1.5'
     params_t: '20'
     params_part2_ans1_value: Clockwise

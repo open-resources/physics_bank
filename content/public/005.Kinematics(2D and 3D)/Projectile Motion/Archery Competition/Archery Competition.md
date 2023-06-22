@@ -42,12 +42,12 @@ part2:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params_vars_name: Santiago
+    params_vars_name: Maya
     params_vars_title: Archery Competition
-    params_d: 112
-    params_v: 89
-    params_h: 194
-    params_theta: 42
+    params_d: 119
+    params_v: 262
+    params_h: 196
+    params_theta: 43
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} is reading a novel that describes an athelete participating in an archery competition.

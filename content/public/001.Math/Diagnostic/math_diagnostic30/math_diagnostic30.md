@@ -30,7 +30,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic30
-    params_vars_name: Ahmed
+    params_vars_name: Lorenzo
     params_sp1: 8
     params_sp2: 4
     params_part1_ans1_value: $4 {1 \over 2} mph$

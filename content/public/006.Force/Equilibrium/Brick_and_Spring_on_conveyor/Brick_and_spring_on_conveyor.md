@@ -65,11 +65,11 @@ myst:
     params_vars_title: Brick and spring on a conveyor
     params_vars_part2_units: $m/s^2$
     params_vars_part5_units: m
-    params_b: 1
-    params_spring: 4
-    params_k: 4.27
-    params_u_k: 0.45
-    params_u_s: 0.42
+    params_b: 3
+    params_spring: 5
+    params_k: 5.73
+    params_u_k: 0.42
+    params_u_s: 0.54
 ---
 # {{ params_vars_title }}
 I decide to set up a very elaborate physics apparatus consisting of a {{ params_b}} kg brick, which is attached to the wall with a spring, placed on a conveyor belt. The end of the spring starts out {{params_spring}} m from the wall, and its rest length is {{params_spring}} m. The spring constant of the spring is k = {{params_k}} $N \over m$. The coefficient of kinetic (sliding) friction is $\mu_k$ = {{params.u_k}}, and the coefficient of static friction is $\mu_s$ = {{params.u_s}}.

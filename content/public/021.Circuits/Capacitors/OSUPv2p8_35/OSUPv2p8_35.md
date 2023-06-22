@@ -53,8 +53,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Connecting Capacitors
-    params_vars_name: Mateo
-    params_a: '9'
+    params_vars_name: Lorenzo
+    params_a: '6'
     params_b: '9'
 ---
 # {{ params_vars_title }}

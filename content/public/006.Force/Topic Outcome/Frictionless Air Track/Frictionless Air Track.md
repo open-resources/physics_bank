@@ -57,23 +57,23 @@ part4:
 myst:
   substitutions:
     params_vars_title: A Frictionless Air Track?
-    params_vars_name: Ahmed
+    params_vars_name: Santiago
     params_vars_units: $m/s^2$
-    params_m1: 196.8
-    params_m2: 67.67
+    params_m1: 255.9
+    params_m2: 23.58
     params_d_a: 0.03
     params_mean: 1.54
-    params_sd: 0.179
-    params_a1: 1.8
-    params_a2: 1.47
-    params_a3: 1.3
-    params_a4: 1.58
-    params_a5: 1.79
-    params_a6: 1.34
-    params_a7: 1.71
-    params_a8: 1.61
-    params_a9: 1.47
-    params_a10: 1.32
+    params_sd: 0.161
+    params_a1: 1.48
+    params_a2: 1.65
+    params_a3: 1.75
+    params_a4: 1.55
+    params_a5: 1.31
+    params_a6: 1.72
+    params_a7: 1.73
+    params_a8: 1.52
+    params_a9: 1.32
+    params_a10: 1.37
     params_part4_ans1_value: The track is frictionless because $a_{expected}$ does
       not agree with $a_{measured}$.
     params_part4_ans2_value: The track is not frictionless because $a_{expected}$

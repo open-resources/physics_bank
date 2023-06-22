@@ -60,9 +60,9 @@ myst:
     params_vars_title: Rocket
     params_vars_units1: $m/s^2$
     params_vars_units2: $s$
-    params_v_1: 2
-    params_t_1: 0
-    params_t_2: 4
+    params_v_1: 3
+    params_t_1: 3
+    params_t_2: 6
 ---
 # {{ params_vars_title }}
 A rocket has a velocity (pointing away from the launch pad) given by $v(t)$={{ params.v_1 }}$t$-$t^2$

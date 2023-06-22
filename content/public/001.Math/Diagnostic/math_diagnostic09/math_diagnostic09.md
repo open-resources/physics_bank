@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $h$ = $\dfrac{(i)}{(p - 8s)} $
-    params_part1_ans1_value: p = ${ 8 s + \frac{i}{h}}$
-    params_part1_ans2_value: p = ${- \frac{8 h s}{i}}$
-    params_part1_ans3_value: p = ${- \frac{i}{8 h s}}$
-    params_part1_ans4_value: p = ${\frac{h + 8 s}{i}}$
+    params_expr: $a$ = $\dfrac{(f)}{(n - 8s)} $
+    params_part1_ans1_value: n = ${ 8 s + \frac{f}{a}}$
+    params_part1_ans2_value: n = ${- \frac{8 a s}{f}}$
+    params_part1_ans3_value: n = ${- \frac{f}{8 a s}}$
+    params_part1_ans4_value: n = ${\frac{a + 8 s}{f}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

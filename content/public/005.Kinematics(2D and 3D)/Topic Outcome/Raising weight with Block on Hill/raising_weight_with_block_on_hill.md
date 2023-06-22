@@ -47,7 +47,7 @@ myst:
     params_vars_title: Raising weight with Block on Hill
     params_vars_units_v: m/s
     params_vars_units_a: m/s^2
-    params_v_b: 3.2
+    params_v_b: 4.4
     params_a_b: 2.1
 ---
 # {{ params_vars_title }}
