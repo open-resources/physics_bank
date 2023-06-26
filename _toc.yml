@@ -628,6 +628,8 @@ parts:
   - file: content/public/018.Electrostatics/Electric Field/Accelerating electrons/Accelerating
       electrons
   - file: content/public/018.Electrostatics/Electric Field/Charged particle near the
+      Earth field direction/Charged particle near the Earth field direction
+  - file: content/public/018.Electrostatics/Electric Field/Charged particle near the
       Earth/Charged particle near the Earth
   - file: content/public/018.Electrostatics/Electric Field/Colinear point charges
       2/Colinear point charges 2
