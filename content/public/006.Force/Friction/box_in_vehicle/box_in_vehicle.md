@@ -31,7 +31,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Box in a Vehicle
-    params_vars_vehicle: pickup truck
+    params_vars_vehicle: semi-truck
     params_vars_direction: positive
     params_part1_ans1_value: Kinetic friction, positive x-direction
     params_part1_ans2_value: Kinetic friction, negative x-direction

@@ -38,9 +38,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Force on a DC Power Line
-    params_I: 876
-    params_theta: 50
-    params_L: 131
+    params_I: 937
+    params_theta: 73
+    params_L: 185
 ---
 # {{ params_vars_title }}
 

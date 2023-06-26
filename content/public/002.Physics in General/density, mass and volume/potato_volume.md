@@ -48,13 +48,13 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Aliyah
+    params_vars_name: Mateo
     params_vars_title: Potato Volume
     params_vars_mass_units: kg
     params_vars_volume_units: m^3
-    params_vars_mass_potato: 174
-    params_vars_mass_cube: 63
-    params_vars_cube_side_length: 3.721346224518343
+    params_vars_mass_potato: 385
+    params_vars_mass_cube: 81
+    params_vars_cube_side_length: 4.71214360174341
 ---
 # {{ params_vars_title }}
 For our first lab, {{params_vars_name}} decides to measure the density of a potato.

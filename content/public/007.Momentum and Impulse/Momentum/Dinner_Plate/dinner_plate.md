@@ -72,11 +72,11 @@ myst:
     params_vars_part3_units: $kg m^2$/s
     params_vars_part4_units: rad/s
     params_vars_part5_units: J
-    params_m_p: 1.39
-    params_r_p: 0.29
-    params_m: 2.13
-    params_r: 0.44
-    params_x: 5
+    params_m_p: 1.66
+    params_r_p: 0.16
+    params_m: 2.86
+    params_r: 0.14
+    params_x: 3
 ---
 # {{ params_vars_title }}
 A cylindrical dinner plate is spinning out in space. It has mass $m_p =$ {{params_m_p}} $kg$, radius $r =$ {{ params_r_p }} $m$ and it rotates clockwise (as seen from above) {{ params_x }} times every second.

@@ -38,9 +38,9 @@ myst:
     params_vars_name: Ahmed
     params_vars_title: Speed of Balloon
     params_vars_units: $m/s$
-    params_m: 1.3
-    params_F: 0.03
-    params_d: 3.99
+    params_m: 1.9
+    params_F: 0.04
+    params_d: 1.73
 ---
 # {{ params_vars_title }}
 In a demo for showing how a jet works, {{ params_vars_name }} would like to use an inflated balloon. The mass of the empty balloon is {{ params_m }} $g$ and it only moves vertically upward. We know that this balloon produces a constant thrust force of {{ params_F }} $N$.

@@ -30,12 +30,12 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic22
-    params_denom: 9
-    params_formula: $\sin{\left(\frac{x}{9} \right)}$
-    params_part1_ans1_value: ${- 9 \cos{\left(\frac{x}{9} \right)}}$
-    params_part1_ans2_value: ${9 \cos{\left(\frac{x}{9} \right)}}$
-    params_part1_ans3_value: ${- 18 \cos{\left(\frac{x}{9} \right)}}$
-    params_part1_ans4_value: ${- \frac{9 \cos{\left(\frac{x}{9} \right)}}{2}}$
+    params_denom: 8
+    params_formula: $\cos{\left(\frac{x}{8} \right)}$
+    params_part1_ans1_value: ${8 \sin{\left(\frac{x}{8} \right)}}$
+    params_part1_ans2_value: ${- 8 \sin{\left(\frac{x}{8} \right)}}$
+    params_part1_ans3_value: ${16 \sin{\left(\frac{x}{8} \right)}}$
+    params_part1_ans4_value: ${4 \sin{\left(\frac{x}{8} \right)}}$
 ---
 # {{ params_vars_title }}
 

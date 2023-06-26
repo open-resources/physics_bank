@@ -53,7 +53,7 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Santiago
+    params_vars_name: Maya
     params_vars_title: Water Slide
     params_theta: 20
     params_l: 300

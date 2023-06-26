@@ -31,11 +31,11 @@ myst:
   substitutions:
     params_vars_title: Angular Speed
     params_vars_units: rad/s
-    params_rev: 6
-    params_part1_ans1_value: 1.0
-    params_part1_ans2_value: 19.0
-    params_part1_ans3_value: 38.0
-    params_part1_ans4_value: 0.95
+    params_rev: 5
+    params_part1_ans1_value: 1.3
+    params_part1_ans2_value: 16.0
+    params_part1_ans3_value: 31.0
+    params_part1_ans4_value: 0.8
 ---
 # {{ params_vars_title }}
 

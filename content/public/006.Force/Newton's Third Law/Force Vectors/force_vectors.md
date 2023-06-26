@@ -38,10 +38,10 @@ myst:
     params_part1_ans2_value: If you have a complicated system made of many objects
       (all interacting among themselves) only external forces can add or remove energy
       from the system.
-    params_part1_ans3_value: If two objects push on each other, they will accelerate
-      in opposite directions.
-    params_part1_ans4_value: If two objects push on each other, their momenta will
+    params_part1_ans3_value: If two objects push on each other, their momenta will
       change by the same amount (though opposite directions).
+    params_part1_ans4_value: If two objects push on each other, they will accelerate
+      in opposite directions.
     params_part1_ans5_value: If two objects push on each other, their velocities will
       change by the same amount (though opposite directions).
 ---

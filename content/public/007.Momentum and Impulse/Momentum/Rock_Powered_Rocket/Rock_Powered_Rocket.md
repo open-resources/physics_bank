@@ -54,11 +54,11 @@ myst:
     params_vars_title: Rock Powered Rocket
     params_vars_units1: m/s
     params_vars_units2: kg
-    params_vars_name: Abbas
-    params_i: 355
-    params_m: 28
-    params_v_1: 24
-    params_v_2: 27
+    params_vars_name: Emilia
+    params_i: 398
+    params_m: 21
+    params_v_1: 28
+    params_v_2: 41
 ---
 # {{ params_vars_title }}
 {{params_vars_name}} is an astronaut, floating in space.

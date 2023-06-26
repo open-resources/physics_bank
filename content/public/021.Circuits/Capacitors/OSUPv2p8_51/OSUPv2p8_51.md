@@ -48,9 +48,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Filling a Capacitor with Dielectric Material
-    params_d: '1.75'
-    params_a: '9.0'
-    params_k: '5.0'
+    params_d: '1.25'
+    params_a: '7.0'
+    params_k: '8.0'
 ---
 # {{ params_vars_title }}
 An air-filled capacitor is made from two flat parallel plates ${{params_d }} \textrm{ mm}$ apart. The inside area of each plate is ${{params_a }} \rm\ cm^2$.

@@ -53,7 +53,7 @@ part3:
 myst:
   substitutions:
     params_vars_title: Position, Velocity and Acceleration of a Particle
-    params_s0: 9
+    params_s0: 45
     params_t: 20
 ---
 # {{ params_vars_title }}

@@ -32,7 +32,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Puck Collision
-    params_E: 17
+    params_E: 11
     params_part1_ans1_value: momentum increases, kinetic energy increases
     params_part1_ans2_value: momentum increases, kinetic energy is unchanged
     params_part1_ans3_value: momentum is unchanged, kinetic energy increases

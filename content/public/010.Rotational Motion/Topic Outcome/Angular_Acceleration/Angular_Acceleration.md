@@ -31,13 +31,13 @@ part1:
 myst:
   substitutions:
     params_vars_title: Angular Acceleration
-    params_v_1: 8
-    params_v_2: 17
-    params_t: 4
-    params_part1_ans1_value: 2.3 $\rm{rad/s^2}$
-    params_part1_ans2_value: 2.3 $\rm{m/s^2}$
-    params_part1_ans3_value: -2.3 $\rm{rad/s^2}$
-    params_part1_ans4_value: -2.3 $\rm{m/s^2}$
+    params_v_1: 7
+    params_v_2: 19
+    params_t: 10
+    params_part1_ans1_value: 1.2 $\rm{rad/s^2}$
+    params_part1_ans2_value: 1.2 $\rm{m/s^2}$
+    params_part1_ans3_value: -1.2 $\rm{rad/s^2}$
+    params_part1_ans4_value: -1.2 $\rm{m/s^2}$
     params_part1_ans5_value: 10 $\rm{rad/s^2}$
 ---
 # {{ params_vars_title }}

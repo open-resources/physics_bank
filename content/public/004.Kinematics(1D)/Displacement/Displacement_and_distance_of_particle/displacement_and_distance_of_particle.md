@@ -44,7 +44,7 @@ myst:
   substitutions:
     params_vars_title: Displacement and Distance of a particle
     params_vars_units: cm
-    params_seconds: 11
+    params_seconds: 8
 ---
 # {{ params_vars_title }}
 The position of a particle in centimeters is given by $s(t) = 20 - 9t + t^2$, where $t$ is in seconds.

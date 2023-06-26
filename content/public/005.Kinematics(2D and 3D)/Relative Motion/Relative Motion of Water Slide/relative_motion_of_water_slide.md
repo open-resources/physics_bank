@@ -61,12 +61,12 @@ part4:
 myst:
   substitutions:
     params_vars_title: Relative Motion of Lazy River
-    params_d1: 6
-    params_d2: 10
-    params_theta1: 31
-    params_theta2: 59
-    params_v_AB: 9
-    params_v_B: 5
+    params_d1: 3
+    params_d2: 6
+    params_theta1: 21
+    params_theta2: 69
+    params_v_AB: 11
+    params_v_B: 3
 ---
 # {{ params_vars_title }}
 <img src="L11Q5.png" width=85%>

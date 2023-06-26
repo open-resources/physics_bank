@@ -61,10 +61,10 @@ part3:
 myst:
   substitutions:
     params_vars_title: Proton Accelerator
-    params_r: 0.41
-    params_I: 37
-    params_n: 1.74
-    params_p: 37
+    params_r: 0.24
+    params_I: 10
+    params_n: 7.23
+    params_p: 31
 ---
 # {{ params_vars_title }}
 A high-energy proton accelerator produces a proton beam with a radius of {{params_r}} $\textrm{mm}$.

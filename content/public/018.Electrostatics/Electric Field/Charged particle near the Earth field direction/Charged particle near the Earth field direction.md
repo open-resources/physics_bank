@@ -1,15 +1,15 @@
 ---
-title: Area of Capacitor Plates
-topic: Circuits
-author: Ava Cornell
-source: 2.8.25
+title: Charged particle near the Earth field direction
+topic: Electrostatics
+author: Jake Bobowski
+source: 2.7.69
 template_version: 1.3
 attribution: openstax-physics-vol2
 partialCredit: true
 singleVariant: false
 showCorrectAnswer: false
 outcomes:
-- 21.7.1.0
+- 18.6.1.3
 difficulty:
 - undefined
 randomization:
@@ -23,44 +23,37 @@ length:
 tags:
 - OSUP
 - volume 2
-- chapter 8
-- problem 25
-- capacitors
-- numeric
-- AC
+- chapter 7
+- problem 69
+- charge
+- gravity
+- JB
 assets: null
 part1:
-  type: number-input
+  type: dropdown
   pl-customizations:
-    rtol: 0.05
+    blank: true
     weight: 1
-    allow-blank: false
-    show-correct-answer: false
-    label: $A= $
-    suffix: $\rm\ m^2$
 myst:
   substitutions:
-    params_vars_title: Area of Capacitor Plates
-    params_c: '3.2'
-    params_d: '4.2'
+    params_vars_title: Charged particle near the Earth field direction
+    params_charge: electron
+    params_part1_ans1_value: Away from the surface of the Earth.
+    params_part1_ans2_value: Towards the surface of the Earth.
+    params_part1_ans3_value: It is not possible to know this.
 ---
 # {{ params_vars_title }}
 
-## Question Text
+## Part 1
 
-The plates of an empty parallel-plate capacitor of capacitance {{params_c }}$\textrm{ pF}$ are {{params_d }}$\textrm{ mm}$ apart. What is the area of each plate?
+What is the direction of the electric field that supports the weight of a free {{ params_charge }} near the surface of the Earth?
 
 ### Answer Section
 
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+
 ### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$A=$ {{ correct_answers.part1_ans_str }} $\rm\ m^2$
 
 ## Attribution
 
