@@ -55,12 +55,12 @@ part5:
     suffix: m/s
 myst:
   substitutions:
-    params_vars_name: Ximena
+    params_vars_name: Savannah
     params_vars_title: Sled Hill
-    params_angle: 8
-    params_h: 16
-    params_uk: 0.11
-    params_m: 80
+    params_angle: 6
+    params_h: 10
+    params_uk: 0.06
+    params_m: 100
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} is on a sled, sliding down a snow covered hill sloped at {{ params_angle }}$^\circ$ (relative to the horizontal). In travelling a distance $d$ the sled has descended through a vertical distance of $10 \, \rm{m}$.

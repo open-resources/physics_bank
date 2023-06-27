@@ -31,16 +31,16 @@ myst:
   substitutions:
     params_vars_title: Kinetic Energy of Test Mass
     params_vars_units: J
-    params_m: 362
-    params_v: 4.9
-    params_d_m: 3
-    params_d_v: 0.08
-    params_part1_ans1_value: 4.346 $\pm$ 0.107
-    params_part1_ans2_value: 4.346 $\pm$ 0.178
-    params_part1_ans3_value: 4.346 $\pm$ 0.037
-    params_part1_ans4_value: 4.346 $\pm$ 0.009
-    params_part1_ans5_value: 4.346 $\pm$ 0.041
-    params_part1_ans6_value: 4.346 $\pm$ 0.036
+    params_m: 178
+    params_v: 3.27
+    params_d_m: 4
+    params_d_v: 0.09
+    params_part1_ans1_value: 0.952 $\pm$ 0.048
+    params_part1_ans2_value: 0.952 $\pm$ 0.074
+    params_part1_ans3_value: 0.952 $\pm$ 0.022
+    params_part1_ans4_value: 0.952 $\pm$ 0.023
+    params_part1_ans5_value: 0.952 $\pm$ 0.078
+    params_part1_ans6_value: 0.952 $\pm$ 0.021
 ---
 # {{ params_vars_title }}
 In a lab, a {{ params_m}} $\pm$ {{ params.d_m}} $g$ test-mass is measured to have a speed of {{ params_v}} $\pm$ {{ params.d_v}} $m/s$.

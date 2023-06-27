@@ -44,10 +44,10 @@ myst:
   substitutions:
     params_vars_name: Abbas
     params_vars_title: Archery Competition
-    params_d: 52
-    params_v: 118
-    params_h: 172
-    params_theta: 38
+    params_d: 91
+    params_v: 244
+    params_h: 182
+    params_theta: 54
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} is reading a novel that describes an athelete participating in an archery competition.

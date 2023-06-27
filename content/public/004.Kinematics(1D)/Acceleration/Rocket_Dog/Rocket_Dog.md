@@ -69,8 +69,8 @@ myst:
   substitutions:
     params_vars_title: Rocket Dog
     params_vars_units: $\rm{m/s}$
-    params_x: $9t^2 + 5t$
-    params_time: 10
+    params_x: $9t^3 - 8t^2 - 4t$
+    params_time: 2
     params_part4_ans1_value: The rocket dog is moving towards the origin.
     params_part4_ans1_feedback: 'Hint: Consider the signs of the dog''s position and
       velocity at the given time.'

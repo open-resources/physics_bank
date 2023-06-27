@@ -54,8 +54,8 @@ myst:
   substitutions:
     params_vars_title: Connecting Capacitors
     params_vars_name: Maya
-    params_a: '12'
-    params_b: '13'
+    params_a: '5'
+    params_b: '4'
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} has a {{params_a }} $\rm\ \mu\textrm{F}$ capacitor and a {{params_b }} $\rm\ \mu\textrm{F}$ capacitor.

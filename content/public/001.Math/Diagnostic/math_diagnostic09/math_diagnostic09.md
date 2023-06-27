@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $i$ = $\dfrac{(n)}{(f + 3e)} $
-    params_part1_ans1_value: f = ${ - 3 e + \frac{n}{i}}$
-    params_part1_ans2_value: f = ${\frac{3 e i}{n}}$
-    params_part1_ans3_value: f = ${\frac{n}{3 e i}}$
-    params_part1_ans4_value: f = ${\frac{- 3 e + i}{n}}$
+    params_expr: $x$ = $\dfrac{(g)}{(p - 2k)} $
+    params_part1_ans1_value: p = ${ \frac{g}{x} + 2 k}$
+    params_part1_ans2_value: p = ${- \frac{2 k x}{g}}$
+    params_part1_ans3_value: p = ${- \frac{g}{2 k x}}$
+    params_part1_ans4_value: p = ${\frac{2 k + x}{g}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

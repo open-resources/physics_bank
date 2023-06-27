@@ -31,11 +31,11 @@ myst:
   substitutions:
     params_vars_title: Discus Thrower
     params_vars_units: $rad/s$
-    params_r: 3
+    params_r: 2
     params_a: 49
-    params_part1_ans1_value: 43.0
-    params_part1_ans2_value: 1847.0
-    params_part1_ans3_value: 294
+    params_part1_ans1_value: 35.0
+    params_part1_ans2_value: 1232.0
+    params_part1_ans3_value: 196
     params_part1_ans4_value: 12.0
     params_part1_ans5_value: 18.0
 ---

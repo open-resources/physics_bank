@@ -30,7 +30,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Rolling without slipping
-    params_vars_name: Santiago
+    params_vars_name: Mateo
     params_part1_ans1_value: The hoop, because it has less rotational intera, less
       of its total energy will be taken up by the rotation kinetic energy and more
       will remain for the translational kinetic energy (so it travels faster

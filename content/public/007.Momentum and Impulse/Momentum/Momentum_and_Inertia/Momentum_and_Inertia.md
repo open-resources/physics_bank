@@ -31,12 +31,12 @@ part1:
 myst:
   substitutions:
     params_vars_title: Momentum and Inertia
-    params_vars_vehicle: truck
+    params_vars_vehicle: van
     params_part1_ans1_value: The bee has greater momentum, and also greater inertia.
-    params_part1_ans2_value: The truck has greater momentum, while the bee has greater
+    params_part1_ans2_value: The van has greater momentum, while the bee has greater
       inertia.
-    params_part1_ans3_value: The truck has greater momentum, and also  greater inertia.
-    params_part1_ans4_value: The bee has greater momentum, while the truck has greater
+    params_part1_ans3_value: The van has greater momentum, and also  greater inertia.
+    params_part1_ans4_value: The bee has greater momentum, while the van has greater
       inertia.
     params_part1_ans5_value: It can’t be determined from this information.
 ---

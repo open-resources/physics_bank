@@ -29,7 +29,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic27
-    params_vars_sym1: <
+    params_vars_sym1: '>'
     params_vars_sym2: <
     params_part1_ans1_value: Answer A
     params_part1_ans2_value: Answer B

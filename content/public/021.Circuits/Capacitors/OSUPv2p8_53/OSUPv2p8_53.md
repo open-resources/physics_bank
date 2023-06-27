@@ -70,8 +70,8 @@ myst:
   substitutions:
     params_vars_title: Analyzing Potential Difference and Electric Field
     params_q: '9.0'
-    params_c: '3.0'
-    params_d: '1.0'
+    params_c: '5.0'
+    params_d: '5.0'
     params_k: '5.0'
 ---
 # {{ params_vars_title }}

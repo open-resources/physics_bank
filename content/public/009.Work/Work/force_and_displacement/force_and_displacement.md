@@ -32,14 +32,14 @@ myst:
   substitutions:
     params_vars_title: Force and Displacement
     params_vars_units: J
-    params_f1: -8
-    params_f2: 13
-    params_r1: 2
-    params_r2: -6
-    params_part1_ans1_value: -94
-    params_part1_ans2_value: 94
-    params_part1_ans3_value: 62
-    params_part1_ans4_value: -62
+    params_f1: -14
+    params_f2: 15
+    params_r1: 11
+    params_r2: -12
+    params_part1_ans1_value: -334
+    params_part1_ans2_value: 334
+    params_part1_ans3_value: 26
+    params_part1_ans4_value: -26
     params_part1_ans5_value: Zero
 ---
 # {{ params_vars_title }}

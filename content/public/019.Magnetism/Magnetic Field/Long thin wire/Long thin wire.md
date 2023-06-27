@@ -39,8 +39,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Long thin wire
-    params_B: '8.2'
-    params_d: '18'
+    params_B: '7.0'
+    params_d: '78'
 ---
 # {{ params_vars_title }}
 The magnitude of the megnetic field ${{ params_d }}\rm\ cm$ from a long, thin straight wire is ${{ params_B }}\rm\ \mu T$.

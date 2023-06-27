@@ -43,7 +43,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Field due to lightning
-    params_d: '0.9'
+    params_d: '0.5'
     params_p: $10^4$
 ---
 # {{ params_vars_title }}

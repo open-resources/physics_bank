@@ -76,8 +76,8 @@ part7:
 myst:
   substitutions:
     params_vars_title: Box Up Ramp
-    params_vars_name: Abbas
-    params_f: 173.0
+    params_vars_name: Lorenzo
+    params_f: 170.0
     params_k: 0.3
     params_s: 0.4
     params_ang: 12

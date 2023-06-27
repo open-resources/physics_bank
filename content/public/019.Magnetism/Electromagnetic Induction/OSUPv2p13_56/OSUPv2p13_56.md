@@ -41,10 +41,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Square Coil
-    params_N: '30'
-    params_l: '35'
-    params_B: '0.060'
-    params_E: '25'
+    params_N: '45'
+    params_l: '25'
+    params_B: '0.055'
+    params_E: '15'
 ---
 # {{ params_vars_title }}
 
