@@ -563,6 +563,7 @@ parts:
   - file: content/public/011.Rotational Dynamics/Newton's Second Law for Rotational
       Motion/Throwing a Frisbee/throwing_a_frisbee
   - file: content/public/011.Rotational Dynamics/Topic Outcome/thread_on_spool/thread_on_spool
+  - file: content/public/011.Rotational Dynamics/Torque/Flywheels/flywheels
   - file: content/public/011.Rotational Dynamics/Torque/Horizontal Beam/Horizontal_beam
   - file: content/public/011.Rotational Dynamics/Torque/Monkeys/Monkeys
   - file: content/public/011.Rotational Dynamics/Torque/Pentagon_on_the_Edge of_Table/Pentagon_on_the_Edge
