@@ -69,11 +69,11 @@ myst:
     params_vars_units1_2: "$\rm{m/s}$"
     params_vars_units3: "$\rm{m}$"
     params_vars_units4: "$\rm{m/s^2}$"
-    params_m: 0.30000000000000004
-    params_deg: 20
+    params_m: 0.8
+    params_deg: 24
     params_h: 0
     params_x: 5
-    params_k: 800
+    params_k: 900
     params_a_a: 0.04
     params_a_b: 0.08
 ---

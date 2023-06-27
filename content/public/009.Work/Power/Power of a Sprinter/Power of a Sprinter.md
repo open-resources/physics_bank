@@ -38,8 +38,8 @@ myst:
     params_vars_units: W
     params_v: 8
     params_t: 5
-    params_m: 85
-    params_v2: 3
+    params_m: 81
+    params_v2: 8
 ---
 # {{ params_vars_title }}
 A {{ params_m }}$kg$ sprinter accelerates uniformly from rest to reach their maximum speed of {{ params_v }}$m/s$ in {{ params_t }} seconds.

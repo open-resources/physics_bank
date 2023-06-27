@@ -59,21 +59,21 @@ myst:
     params_vars_title: A Frictionless Air Track?
     params_vars_name: Abbas
     params_vars_units: $m/s^2$
-    params_m1: 117.6
-    params_m2: 55.15
-    params_d_a: 0.02
-    params_mean: 1.5
-    params_sd: 0.101
-    params_a1: 1.31
-    params_a2: 1.45
-    params_a3: 1.47
-    params_a4: 1.46
-    params_a5: 1.62
-    params_a6: 1.52
-    params_a7: 1.44
-    params_a8: 1.5
-    params_a9: 1.7
-    params_a10: 1.54
+    params_m1: 106.4
+    params_m2: 64.75
+    params_d_a: 0.01
+    params_mean: 1.64
+    params_sd: 0.141
+    params_a1: 1.78
+    params_a2: 1.69
+    params_a3: 1.63
+    params_a4: 1.78
+    params_a5: 1.4
+    params_a6: 1.59
+    params_a7: 1.68
+    params_a8: 1.77
+    params_a9: 1.38
+    params_a10: 1.74
     params_part4_ans1_value: The track is frictionless because $a_{expected}$ does
       not agree with $a_{measured}$.
     params_part4_ans2_value: The track is not frictionless because $a_{expected}$

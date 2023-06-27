@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $n$ = $\dfrac{(b)}{(h + 4i)} $
-    params_part1_ans1_value: h = ${ \frac{b}{n} - 4 i}$
-    params_part1_ans2_value: h = ${\frac{4 i n}{b}}$
-    params_part1_ans3_value: h = ${\frac{b}{4 i n}}$
-    params_part1_ans4_value: h = ${\frac{- 4 i + n}{b}}$
+    params_expr: $i$ = $\dfrac{(n)}{(f + 3e)} $
+    params_part1_ans1_value: f = ${ - 3 e + \frac{n}{i}}$
+    params_part1_ans2_value: f = ${\frac{3 e i}{n}}$
+    params_part1_ans3_value: f = ${\frac{n}{3 e i}}$
+    params_part1_ans4_value: f = ${\frac{- 3 e + i}{n}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

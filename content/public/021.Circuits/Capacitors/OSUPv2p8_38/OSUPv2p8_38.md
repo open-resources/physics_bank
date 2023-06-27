@@ -72,8 +72,8 @@ part4:
 myst:
   substitutions:
     params_vars_title: Charging Capacitors
-    params_a: '40'
-    params_b: '5'
+    params_a: '30'
+    params_b: '25'
     params_v: '700'
 ---
 # {{ params_vars_title }}

@@ -53,8 +53,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Connecting Capacitors
-    params_vars_name: Mateo
-    params_a: '11'
+    params_vars_name: Maya
+    params_a: '12'
     params_b: '13'
 ---
 # {{ params_vars_title }}

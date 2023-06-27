@@ -55,9 +55,9 @@ myst:
     params_vars_units1: m/s
     params_vars_units2: N/m
     params_vars_units3: m
-    params_m: 328
-    params_T: 1.1
-    params_E: 6.6
+    params_m: 329
+    params_T: 0.22
+    params_E: 4.3
 ---
 # {{ params_vars_title }}
 A {{params_m}} g object is attached to a spring and executes simple harmonic motion with a period of {{params_T}} s.

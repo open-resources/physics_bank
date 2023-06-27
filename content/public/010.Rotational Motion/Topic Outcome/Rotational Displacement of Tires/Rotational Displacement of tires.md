@@ -36,8 +36,8 @@ myst:
     params_vars_vehicle: pickup truck
     params_vars_title: Rotational Displacement of Tires
     params_vars_units: rad
-    params_a: 4.79
-    params_t: 36.9
+    params_a: 8.92
+    params_t: 46.4
 ---
 # {{ params_vars_title }}
 A {{ params_vars_vehicle }} accelerates from rest at $t = 0$ such that its tires undergo a constant rotational acceleration of $\alpha = $ {{ params_a }} $s^{-2}$.

@@ -51,7 +51,7 @@ myst:
     params_vars_units: m/s
     params_vars_units_2: N
     params_r: 18.0
-    params_m: 220
+    params_m: 217
 ---
 # {{ params_vars_title }}
 A roller-coaster car moves around a vertical circular loop of radius $R$ = {{params_r}} m.

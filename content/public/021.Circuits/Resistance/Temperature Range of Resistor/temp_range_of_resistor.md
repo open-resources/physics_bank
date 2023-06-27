@@ -42,9 +42,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Temperature Range of Resistor
-    params_p: 6
-    params_metal: Copper
-    params_T_0: 104
+    params_p: 9
+    params_metal: 'Germanium '
+    params_T_0: 97
 ---
 # {{ params_vars_title }}
 

@@ -66,7 +66,7 @@ part4:
 myst:
   substitutions:
     params_vars_title: Switching Connections
-    params_a: '2.0'
+    params_a: '3.0'
     params_b: '3.0'
     params_v: '5.0'
 ---

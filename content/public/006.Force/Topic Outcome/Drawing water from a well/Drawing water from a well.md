@@ -48,9 +48,9 @@ myst:
     params_vars_title: Drawing Water from a Well
     params_vars_unit1: $N$
     params_vars_unit2: $m$
-    params_M: 3.69
-    params_m: 3.47
-    params_R: 0.723
+    params_M: 3.5
+    params_m: 2.68
+    params_R: 0.805
     params_t: 14.2
 ---
 # {{ params_vars_title }}

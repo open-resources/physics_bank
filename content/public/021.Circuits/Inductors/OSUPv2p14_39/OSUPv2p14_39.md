@@ -39,10 +39,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Alternating Current in a Coil
-    params_I0: '1.0'
-    params_L: '2.0'
-    params_k: '130'
-    params_mult: '260'
+    params_I0: '3.0'
+    params_L: '1.0'
+    params_k: '106'
+    params_mult: '318'
 ---
 # {{ params_vars_title }}
 A coil with a self-inductance of ${{ params_L }}\rm\ H$ carries a current that varies with time according to $I(t) = ({{ params_I0 }}{\rm\ A}) \sin{\!({{ params_k }} \pi t)}$.

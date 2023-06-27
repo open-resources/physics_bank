@@ -63,8 +63,8 @@ part4:
 myst:
   substitutions:
     params_vars_title: Projectile of ball launched to a specific height
-    params_v: 57
-    params_h: 56
+    params_v: 59
+    params_h: 87
 ---
 # {{ params_vars_title }}
 A ball is launched vertically from the ground with an initial speed of $v = {{ params_v }}$ $\rm{m/s}$.

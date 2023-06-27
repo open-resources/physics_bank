@@ -36,10 +36,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Coin in a Funnel
-    params_r1: 1.39
-    params_vo: 0.45
-    params_r2: 0.184
-    params_ad: 20
+    params_r1: 1.3
+    params_vo: 0.33
+    params_r2: 0.182
+    params_ad: 24
 ---
 # {{ params_vars_title }}
 <img src="Marble in a Funnel.png" width=400>
