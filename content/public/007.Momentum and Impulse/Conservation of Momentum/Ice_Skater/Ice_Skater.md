@@ -56,7 +56,7 @@ part3:
 myst:
   substitutions:
     params_vars_title: Ice Skater
-    params_W: 51
+    params_W: 62
     params_H: 164
 ---
 # {{ params_vars_title }}

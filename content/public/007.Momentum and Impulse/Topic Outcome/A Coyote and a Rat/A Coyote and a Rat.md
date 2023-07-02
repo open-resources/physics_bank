@@ -97,9 +97,9 @@ part8:
 myst:
   substitutions:
     params_vars_title: A Coyote and a Rat
-    params_d_x: 32
+    params_d_x: 30
     params_v_r: 8
-    params_a_c: 8
+    params_a_c: 5
 ---
 # {{ params_vars_title }}
 A coyote notices a rat running past it, toward a bush where the rat will be safe.

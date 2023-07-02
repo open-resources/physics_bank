@@ -51,10 +51,10 @@ myst:
     params_vars_units1: m
     params_vars_units2: J
     params_m: 5
-    params_k: 636
-    params_theta: 30
+    params_k: 670
+    params_theta: 26
     params_mu: 0.25
-    params_d: 7
+    params_d: 5
     params_g: 9.8
 ---
 # {{ params_vars_title }}

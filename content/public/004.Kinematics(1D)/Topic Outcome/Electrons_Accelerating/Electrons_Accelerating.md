@@ -31,13 +31,13 @@ myst:
   substitutions:
     params_vars_title: Electrons Accelerating
     params_vars_units: $m$
-    params_dist: 19
+    params_dist: 18
     params_acc: 5
-    params_part1_ans1_value: 19
-    params_part1_ans2_value: 95.0
-    params_part1_ans3_value: 480.0
-    params_part1_ans4_value: 3.8
-    params_part1_ans5_value: 0.26
+    params_part1_ans1_value: 18
+    params_part1_ans2_value: 90.0
+    params_part1_ans3_value: 450.0
+    params_part1_ans4_value: 3.6
+    params_part1_ans5_value: 0.28
 ---
 # {{ params_vars_title }}
 An electron accelerated (with acceleration $a_1$) from rest for a time interval $t_1$ and travels a distance of {{params_dist}} $m$.

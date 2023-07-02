@@ -78,8 +78,8 @@ part6:
 myst:
   substitutions:
     params_vars_title: Circuit with Resistance
-    params_B: '0.50'
-    params_v: '10'
+    params_B: '0.25'
+    params_v: '15'
     params_part3_ans1_value: Clockwise
     params_part3_ans2_value: Counterclockwise
 ---

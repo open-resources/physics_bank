@@ -31,12 +31,12 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic07
-    params_formula1: 9x - 9y = 40
-    params_formula2: 7x + 2y = 25
-    params_part1_ans1_value: ' x =305/81, y =-55/81'
-    params_part1_ans2_value: ' x =-55/81, y =305/81'
-    params_part1_ans3_value: ' x =-305/81, y =55/81'
-    params_part1_ans4_value: ' x =55/81, y =-305/81'
+    params_formula1: 5x - 4y = 3
+    params_formula2: 4x + 1y = 40
+    params_part1_ans1_value: ' x =163/21, y =188/21'
+    params_part1_ans2_value: ' x =188/21, y =163/21'
+    params_part1_ans3_value: ' x =-163/21, y =-188/21'
+    params_part1_ans4_value: ' x =-188/21, y =-163/21'
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

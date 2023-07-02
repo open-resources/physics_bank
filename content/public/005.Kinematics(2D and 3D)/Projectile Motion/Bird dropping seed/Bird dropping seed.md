@@ -37,7 +37,7 @@ part2:
 myst:
   substitutions:
     params_vars_title: Seed Dropped by a Bird
-    params_v: 4
+    params_v: 5
     params_part1_ans1_value: directly overhead.
     params_part1_ans2_value: well in front of the seed.
     params_part1_ans3_value: well behind the seed.

@@ -36,12 +36,12 @@ myst:
     params_vars_vehicle: truck
     params_vars_title: Displacement of a Vehicle
     params_vars_units: blocks
-    params_c1: 31
-    params_c2: 74
-    params_c3: 93
-    params_dir1: west
-    params_dir2: east
-    params_dir3: south
+    params_c1: 98
+    params_c2: 67
+    params_c3: 98
+    params_dir1: east
+    params_dir2: south
+    params_dir3: west
 ---
 # {{ params_vars_title }}
 A {{ params_vars_vehicle }} moves {{ params_c1}} blocks due {{ params_dir1}}, {{ params_c2 }} blocks due {{ params_dir2}}, and another {{ params_c3 }} blocks due {{ params_dir3}}.

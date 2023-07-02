@@ -37,10 +37,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Parallel-plate potential difference
-    params_d: '7.0'
-    params_t: '1.5'
-    params_q: '6.8'
-    params_p: -9
+    params_d: '8.0'
+    params_t: '1.4'
+    params_q: '3.8'
+    params_p: -6
 ---
 # {{ params_vars_title }}
 Two parallel plates ${{ params_d }}\rm\ cm$ on a side are given equal and opposite charges of magnitude ${{ params_q }}\times 10^{ {{ params_p }} }\rm\ C$.

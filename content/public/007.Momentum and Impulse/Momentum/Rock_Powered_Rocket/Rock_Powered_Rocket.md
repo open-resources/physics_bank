@@ -55,10 +55,10 @@ myst:
     params_vars_units1: m/s
     params_vars_units2: kg
     params_vars_name: Ahmed
-    params_i: 324
-    params_m: 22
-    params_v_1: 6
-    params_v_2: 28
+    params_i: 331
+    params_m: 20
+    params_v_1: 19
+    params_v_2: 35
 ---
 # {{ params_vars_title }}
 {{params_vars_name}} is an astronaut, floating in space.

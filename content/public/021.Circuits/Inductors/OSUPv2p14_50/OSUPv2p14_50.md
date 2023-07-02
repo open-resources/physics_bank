@@ -60,8 +60,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Energy in a Series RL Circuit
-    params_L: '3.00'
-    params_R: '100.0'
+    params_L: '5.00'
+    params_R: '200.0'
     params_I: '2.00'
 ---
 # {{ params_vars_title }}

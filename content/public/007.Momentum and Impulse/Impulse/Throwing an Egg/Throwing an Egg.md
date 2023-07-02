@@ -32,7 +32,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Throwing an Egg
-    params_vars_name: Abbas
+    params_vars_name: Savannah
     params_part1_ans1_value: The energy in the egg is not sufficient to allow it to
       break.
     params_part1_ans2_value: The egg experiences an elastic collision with the sheet.

@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $x$ = $\dfrac{(g)}{(p - 2k)} $
-    params_part1_ans1_value: p = ${ \frac{g}{x} + 2 k}$
-    params_part1_ans2_value: p = ${- \frac{2 k x}{g}}$
-    params_part1_ans3_value: p = ${- \frac{g}{2 k x}}$
-    params_part1_ans4_value: p = ${\frac{2 k + x}{g}}$
+    params_expr: $m$ = $\dfrac{(r)}{(p - 10s)} $
+    params_part1_ans1_value: p = ${ 10 s + \frac{r}{m}}$
+    params_part1_ans2_value: p = ${- \frac{10 m s}{r}}$
+    params_part1_ans3_value: p = ${- \frac{r}{10 m s}}$
+    params_part1_ans4_value: p = ${\frac{m + 10 s}{r}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

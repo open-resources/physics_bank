@@ -34,13 +34,13 @@ myst:
     params_vars_sport: mountain biker
     params_vars_title: Horizontal Jump
     params_vars_units: m
-    params_v: 18
-    params_d: 4.5600000000000005
+    params_v: 23
+    params_d: 4.07
     params_part1_ans1_value: 9.81
-    params_part1_ans2_value: 12.27
-    params_part1_ans3_value: 16.73
-    params_part1_ans4_value: 17.36
-    params_part1_ans5_value: 25.1
+    params_part1_ans2_value: 14.81
+    params_part1_ans3_value: 19.08
+    params_part1_ans4_value: 20.95
+    params_part1_ans5_value: 28.63
 ---
 # {{ params_vars_title }}
 

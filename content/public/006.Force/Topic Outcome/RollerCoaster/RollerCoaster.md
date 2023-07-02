@@ -50,7 +50,7 @@ myst:
     params_vars_title: Roller Coaster
     params_vars_units: m/s
     params_vars_units_2: N
-    params_r: 20.0
+    params_r: 10.0
     params_m: 222
 ---
 # {{ params_vars_title }}

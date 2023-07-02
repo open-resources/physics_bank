@@ -27,13 +27,15 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic23
-    params_a: 1
-    params_b: 3
-    params_formula: $x \cos{\left(3 x \right)}$
-    params_part1_ans1_value: $- 3 x \sin{\left(3 x \right)} + \cos{\left(3 x \right)}$
-    params_part1_ans2_value: $- 3 x \sin{\left(3 x \right)} $
-    params_part1_ans3_value: $ \sin{\left(3 x \right)}$
-    params_part1_ans4_value: $3 x \cos{\left(3 x \right)} + \sin{\left(3 x \right)}$
+    params_a: 6
+    params_b: 7
+    params_formula: $x^{6} \sin{\left(7 x \right)}$
+    params_part1_ans1_value: $7 x^{6} \cos{\left(7 x \right)} + 6 x^{5} \sin{\left(7
+      x \right)}$
+    params_part1_ans2_value: $7 x^{6} \cos{\left(7 x \right)} $
+    params_part1_ans3_value: $ 6 x^{5} \cos{\left(7 x \right)}$
+    params_part1_ans4_value: $- 7 x^{6} \sin{\left(7 x \right)} + 6 x^{5} \cos{\left(7
+      x \right)}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

@@ -47,7 +47,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Current over Time in a Series RL Circuit
-    params_fac: '4'
+    params_fac: '2'
 ---
 # {{ params_vars_title }}
 Consider the $RL$ circuit shown below.

@@ -29,16 +29,16 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Mateo
-    params_vars_vehicle: rollerblades
+    params_vars_name: Santiago
+    params_vars_vehicle: a bicycle
     params_vars_units: m
     params_vars_title: Distance travelled
-    params_v: 3
-    params_t: 7
+    params_v: 5
+    params_t: 9
     params_part1_ans1_value: 42.0
-    params_part1_ans2_value: 21
-    params_part1_ans3_value: 10
-    params_part1_ans4_value: 0.43
+    params_part1_ans2_value: 45
+    params_part1_ans3_value: 14
+    params_part1_ans4_value: 0.56
     params_part1_ans5_value: -4
     params_part1_ans6_value: -5.2
 ---

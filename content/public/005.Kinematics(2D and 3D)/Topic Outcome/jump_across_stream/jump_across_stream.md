@@ -94,12 +94,12 @@ myst:
   substitutions:
     params_vars_title: Jump Across Stream
     params_vars_units: m
-    params_m: 164
-    params_w_s: 5.0
-    params_h_s: 1.1
+    params_m: 380
+    params_w_s: 2.3
+    params_h_s: 1.8
     params_v_i: 2
     params_v_j: 3
-    params_h_b: 2.5
+    params_h_b: 4.5
     params_part5_ans1_value: Yes, the bear makes it to the other side of the stream.
     params_part5_ans2_value: No, the bear does not make it to the other side of the
       stream.
