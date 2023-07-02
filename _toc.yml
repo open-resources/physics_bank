@@ -779,6 +779,10 @@ parts:
       field of a solenoid
   - file: content/public/019.Magnetism/Solenoids/Solenoid current/Solenoid current
   - file: content/public/019.Magnetism/The Hall Effect/Copper in a Magnetic Field/cu_in_magnetic_field
+- caption: Electromagnetic Waves
+  chapters:
+  - file: content/public/020.Electromagnetic Waves/Electromagnetic Spectrum/Atomic
+      Emission Diffraction/atomic_emission_diffraction
 - caption: Circuits
   chapters:
   - file: content/public/021.Circuits/Alternating-Current Circuits/OSUPv2p14_63/OSUPv2p14_63
