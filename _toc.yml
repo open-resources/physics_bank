@@ -566,6 +566,7 @@ parts:
   - file: content/public/011.Rotational Dynamics/Torque/Flywheels/flywheels
   - file: content/public/011.Rotational Dynamics/Torque/Horizontal Beam/Horizontal_beam
   - file: content/public/011.Rotational Dynamics/Torque/Monkeys/Monkeys
+  - file: content/public/011.Rotational Dynamics/Torque/Pendulum/Pendulum
   - file: content/public/011.Rotational Dynamics/Torque/Pentagon_on_the_Edge of_Table/Pentagon_on_the_Edge
       of_Table
   - file: content/public/011.Rotational Dynamics/Torque/Stationary Pulley/Stationary_pulley
