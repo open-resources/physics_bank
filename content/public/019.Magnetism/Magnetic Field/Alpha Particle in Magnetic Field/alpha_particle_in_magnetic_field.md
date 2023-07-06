@@ -63,7 +63,7 @@ part3:
 myst:
   substitutions:
     params_vars_title: Aplha Particle in Magnetic Field
-    params_r: 24
+    params_r: 26
     params_B: 5
 ---
 # {{ params_vars_title }}

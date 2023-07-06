@@ -42,9 +42,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Temperature Range of Resistor
-    params_p: 4
-    params_metal: Nichrome
-    params_T_0: 134
+    params_p: 5
+    params_metal: Manganin
+    params_T_0: 143
 ---
 # {{ params_vars_title }}
 

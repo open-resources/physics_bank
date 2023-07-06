@@ -44,10 +44,10 @@ myst:
   substitutions:
     params_vars_name: Aliyah
     params_vars_title: Archery Competition
-    params_d: 59
-    params_v: 230
-    params_h: 191
-    params_theta: 43
+    params_d: 101
+    params_v: 222
+    params_h: 160
+    params_theta: 48
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} is reading a novel that describes an athelete participating in an archery competition.

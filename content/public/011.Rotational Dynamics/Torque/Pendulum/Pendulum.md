@@ -1,8 +1,8 @@
 ---
-title: Horizontal Beam
+title: Pendulum
 topic: Rotational Dynamics
 author: Firas Moosvi
-source: OPUS V1 Problem 10.6.81
+source: OPUS V1 Problem 10.6.79
 template_version: 1.4
 attribution: openstax-physics-vol1
 partialCredit: true
@@ -10,10 +10,11 @@ singleVariant: true
 showCorrectAnswer: false
 outcomes:
 - 11.3.1.2
+- 11.3.1.4
 difficulty:
-- medium
+- hard
 randomization:
-- 4
+- 5
 taxonomy:
 - undefined
 span:
@@ -22,36 +23,36 @@ length:
 - short
 tags:
 - JR
-assets:
-- horizontal_beam.png
+assets: null
 part1:
   type: number-input
   pl-customizations:
-    rtol: 0.05
+    rtol: 0.03
     weight: 1
     allow-blank: true
     label: $\tau = $
     suffix: $\rm{N \cdot m}$
+    comparison: sigfig
+    digits: 3
 myst:
   substitutions:
-    params_vars_title: Horizontal Beam
-    params_M: 2.2
-    params_m: 1.0
-    params_L: 4.5
-    params_w: 1.0
+    params_vars_title: Pendulum
+    params_mr: 1.2
+    params_lr: 12
+    params_ms: 0.6
+    params_rs: 45
+    params_theta: 28
 ---
 # {{ params_vars_title }}
-A horizontal beam of length $L = {{ params_L }}$ $\rm{m}$ and mass $M = {{ params_M }}$ $\rm{kg}$ has a mass $m = {{ params_m }}$ $\rm{kg}$ and width $w = {{ params_w }}$ $\rm{m}$ sitting at the end of the beam (see the following figure).
-
-<img src="horizontal_beam.png" width=400 alt="An image showing a horizontal beam with length L and mass M connected to a wall by a wall support. On the opposite end, a block of mass m and width w rests on the beam.">
+A pendulum consists of a rod of mass ${{ params_mr }}$ $\rm{kg}$ and length ${{ params_lr }}$ $\rm{m}$ connected to a pivot with a solid sphere attached at the other end with mass ${{ params_ms }}$ $\rm{kg}$ and radius ${{ params_rs }}$ $\rm{cm}$.
 
 ## Part 1
 
-What is the torque $\tau$ of the system about the support at the wall?
+What is the torque $\tau$ about the pivot when the pendulum makes an angle of ${{ params_theta }}^\circ$ with respect to the vertical?
 
 ### Answer Section
 
-Please enter a numerical value in $\rm{N \cdot m}$.
+Please enter a numeric value in $\rm{N \cdot m}$.
 
 ## Attribution
 

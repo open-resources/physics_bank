@@ -35,9 +35,9 @@ part1:
 myst:
   substitutions:
     params_vars_units: rad/s
-    params_vars_name: Aliyah
+    params_vars_name: Maya
     params_vars_title: Wheel of Fortune
-    params_t: 0.2
+    params_t: 3.2
     params_w_i: ${\pi \over 3} {rad\over s}$
 ---
 # {{ params_vars_title }}

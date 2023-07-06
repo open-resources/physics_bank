@@ -35,10 +35,10 @@ myst:
   substitutions:
     params_vars_title: Blocks On Frictionless Table
     params_vars_units: $\frac{m}{s}$
-    params_v0: 437
-    params_v1: 5
-    params_mb: 11
-    params_mw: 527
+    params_v0: 410
+    params_v1: 8
+    params_mb: 14
+    params_mw: 528
     params_d: 1
 ---
 # {{ params_vars_title }}

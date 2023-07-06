@@ -57,8 +57,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Greatest and Least Resistor Combinations
-    params_R1: '23.0'
-    params_R2: '64.0'
+    params_R1: '18.0'
+    params_R2: '81.0'
     params_R3: '800'
 ---
 # {{ params_vars_title }}

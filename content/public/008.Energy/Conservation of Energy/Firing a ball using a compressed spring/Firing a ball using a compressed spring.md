@@ -30,14 +30,14 @@ part1:
 myst:
   substitutions:
     params_vars_title: Firing a Ball using a Compressed Spring
-    params_choice: doubled (2x)
-    params_part1_ans1_value: The ball will reach twice (2x) the height as before.
+    params_choice: quadrupled (4x)
+    params_part1_ans1_value: The ball will reach four times (4x) the height as before.
     params_part1_ans2_value: The ball will reach one quarter (0.25x) of the height
       previously reached.
-    params_part1_ans3_value: The ball will reach four times (4x) the height as before.
-    params_part1_ans4_value: The ball will reach half (0.5x) of the height previously
+    params_part1_ans3_value: The ball will reach half (0.5x) of the height previously
       reached.
-    params_part1_ans5_value: The ball will reach the same (1x) height as before.
+    params_part1_ans4_value: The ball will reach the same (1x) height as before.
+    params_part1_ans5_value: The ball will reach twice (2x) the height as before.
     params_part1_ans6_value: The ball will reach thrice (3x) the height as before.
 ---
 # {{ params_vars_title }}

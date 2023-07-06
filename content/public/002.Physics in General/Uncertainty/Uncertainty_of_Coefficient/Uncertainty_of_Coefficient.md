@@ -32,15 +32,15 @@ part1:
 myst:
   substitutions:
     params_vars_title: Uncertainty of Coefficient
-    params_vars_name: Savannah
+    params_vars_name: Lorenzo
     params_vars_units: $kg/s$
-    params_m: 92
-    params_v: 1.5
-    params_b: 0.61
-    params_part1_ans1_value: ' $\pm$ 0.16'
-    params_part1_ans2_value: ' $\pm$ 0.09'
-    params_part1_ans3_value: ' $\pm$ 0.02'
-    params_part1_ans4_value: ' $\pm$ 0.95'
+    params_m: 81
+    params_v: 1.6
+    params_b: 0.31
+    params_part1_ans1_value: ' $\pm$ 0.15'
+    params_part1_ans2_value: ' $\pm$ 0.05'
+    params_part1_ans3_value: ' $\pm$ 0.01'
+    params_part1_ans4_value: ' $\pm$ 0.46'
 ---
 # {{ params_vars_title }}
 The drag force on an object of interest can be accurately modelled as $\vec{D}$ = -$b\vec{v}$ such that its terminal velocity in free fall is given by $v_T$ = $mg/b$.

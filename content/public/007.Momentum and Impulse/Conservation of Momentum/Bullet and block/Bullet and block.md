@@ -41,12 +41,12 @@ part2:
 myst:
   substitutions:
     params_vars_title: Bullet and Block
-    params_vars_name: Ahmed
-    params_m_bullet: 38
-    params_m_block: 26
-    params_bullet_v: 733
-    params_slide_d: 3
-    params_slide_dnew: 3.8
+    params_vars_name: Mateo
+    params_m_bullet: 21
+    params_m_block: 16
+    params_bullet_v: 810
+    params_slide_d: 4
+    params_slide_dnew: 4.6
     params_coeff_k: 0.2
 ---
 # {{ params_vars_title }}

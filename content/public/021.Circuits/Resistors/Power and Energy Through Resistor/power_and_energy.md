@@ -68,8 +68,8 @@ part4:
 myst:
   substitutions:
     params_vars_title: Power And Energy Through Resistor
-    params_V: 46
-    params_R: 3
+    params_V: 14
+    params_R: 24
     params_part4_ans1_value: It is converted into light energy.
     params_part4_ans2_value: It is converted into heat.
     params_part4_ans3_value: It is converted into chemical energy.

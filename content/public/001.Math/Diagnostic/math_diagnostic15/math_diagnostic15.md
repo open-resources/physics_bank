@@ -27,11 +27,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic15
-    params_expr: $8^{2} $=$ 64$
-    params_part1_ans1_value: $log_864 = 2$
-    params_part1_ans2_value: $log_82 = 64$
-    params_part1_ans3_value: $log_642 = 8$
-    params_part1_ans4_value: $log_264 = 8$
+    params_expr: $4^{7} $=$ 16384$
+    params_part1_ans1_value: $log_416384 = 7$
+    params_part1_ans2_value: $log_47 = 16384$
+    params_part1_ans3_value: $log_163847 = 4$
+    params_part1_ans4_value: $log_716384 = 4$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

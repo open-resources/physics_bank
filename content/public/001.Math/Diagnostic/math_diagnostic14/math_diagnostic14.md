@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic14
-    params_expr: $x^{ -7\over 3}$
-    params_part1_ans1_value: \begin{equation}\frac{1}{\sqrt[3]{x^{7}}}\end{equation}
-    params_part1_ans2_value: \begin{equation}\sqrt[3]{x^{7}}\end{equation}
-    params_part1_ans3_value: \begin{equation}x^{\frac{7}{3}}\end{equation}
-    params_part1_ans4_value: \begin{equation}- \frac{1}{\sqrt[3]{x^{7}}}\end{equation}
+    params_expr: $x^{ -2\over 5}$
+    params_part1_ans1_value: \begin{equation}\frac{1}{\sqrt[5]{x^{2}}}\end{equation}
+    params_part1_ans2_value: \begin{equation}\sqrt[5]{x^{2}}\end{equation}
+    params_part1_ans3_value: \begin{equation}x^{\frac{2}{5}}\end{equation}
+    params_part1_ans4_value: \begin{equation}- \frac{1}{\sqrt[5]{x^{2}}}\end{equation}
     params_part1_ans5_value: Do not know
 ---
 # {{ params_vars_title }}

@@ -77,9 +77,9 @@ myst:
   substitutions:
     params_vars_title: Box Up Ramp
     params_vars_name: Ximena
-    params_f: 176.0
-    params_k: 0.3
-    params_s: 0.7
+    params_f: 182.0
+    params_k: 0.1
+    params_s: 0.3
     params_ang: 10
     params_part2_ans1_value: No, this is not an example of static or dynamic equilibrium.
     params_part2_ans1_feedback: Consider the net force.

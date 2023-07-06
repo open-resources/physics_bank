@@ -67,10 +67,10 @@ myst:
     params_vars_title: Animal in an Elevator
     params_vars_units1: $\rm{N}$
     params_vars_units2: $\rm{m/s}$
-    params_m_a: 4.59
-    params_m_e: 27.4
-    params_P: 1725
-    params_a: ' + 9.48'
+    params_m_a: 3.75
+    params_m_e: 26.4
+    params_P: 1794
+    params_a: ' + 4.41'
 ---
 # {{ params_vars_title }}
 A {{params.m_a}} $\rm{kg}$ {{params_vars_animal}} sits inside of a {{params.m_e}} $\rm{kg}$ elevator. The elevator is connected to a motor by a wire. The maximum power that can be produced by the motor is {{params_P}} $\rm{W}$.

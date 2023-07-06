@@ -46,9 +46,9 @@ myst:
   substitutions:
     params_vars_title: Rolling Disk of Spruce and Steel
     params_vars_units: $kg$
-    params_rho_spruce: 489.0
-    params_rho_steel: 7900.0
-    params_w_disk: 26.4
+    params_rho_spruce: 401.0
+    params_rho_steel: 7870.0
+    params_w_disk: 11.2
     params_part3_ans1_value: $x$ = 1 $cm$, $y$ = 0 $cm$
     params_part3_ans2_value: $x$ = 0 $cm$, $y$ = 1.0 $cm$
     params_part3_ans3_value: $x$ = 0 $cm$, $y$ = 2.0 $cm$

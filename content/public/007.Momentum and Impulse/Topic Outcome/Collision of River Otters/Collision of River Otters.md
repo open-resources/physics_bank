@@ -118,11 +118,11 @@ part9:
 myst:
   substitutions:
     params_vars_title: Collision of River Otters
-    params_m_s: 4.53
-    params_m_l: 9.51
-    params_vis: 3.54
-    params_vil: 7.42
-    params_theta_i: 42.6
+    params_m_s: 3.88
+    params_m_l: 7.06
+    params_vis: 3.44
+    params_vil: 7.18
+    params_theta_i: 43.7
     params_part9_ans1_value: Kinetic energy is lost in this collision.
     params_part9_ans2_value: Kinetic energy is gained in this collision.
     params_part9_ans3_value: Kinetic energy remains constant in this collision.
