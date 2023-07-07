@@ -59,11 +59,11 @@ part4:
 myst:
   substitutions:
     params_vars_title: Potato Density
-    params_vars_name: Maya
+    params_vars_name: Ahmed
     params_vars_unit1: $kg$
     params_vars_unit2: $m^3$
-    params_m_p: 187
-    params_m_cp: 83
+    params_m_p: 234
+    params_m_cp: 104
     params_l: 3
 ---
 # {{ params_vars_title }}

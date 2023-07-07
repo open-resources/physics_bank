@@ -63,14 +63,14 @@ part5:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_animal: cat
+    params_vars_animal: rabbit
     params_vars_title: Animal in an Elevator
     params_vars_units1: $\rm{N}$
     params_vars_units2: $\rm{m/s}$
-    params_m_a: 7.44
-    params_m_e: 29.1
-    params_P: 1763
-    params_a: ' + 1.36'
+    params_m_a: 9.95
+    params_m_e: 27.6
+    params_P: 1731
+    params_a: ' + 9.21'
 ---
 # {{ params_vars_title }}
 A {{params.m_a}} $\rm{kg}$ {{params_vars_animal}} sits inside of a {{params.m_e}} $\rm{kg}$ elevator. The elevator is connected to a motor by a wire. The maximum power that can be produced by the motor is {{params_P}} $\rm{W}$.

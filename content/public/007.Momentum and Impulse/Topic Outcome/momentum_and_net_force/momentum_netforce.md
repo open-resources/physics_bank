@@ -25,14 +25,14 @@ myst:
   substitutions:
     params_vars_title: Momentum and Net Force
     params_vars_units: N
-    params_p_i: 5t^3 + t^2 - 5t
-    params_p_j: 5t^2 - 5t
-    params_time: 17.0
+    params_p_i: 2t^2 + 9t
+    params_p_j: -4t
+    params_time: 6.28
     params_part1_ans1_value: 0
-    params_part1_ans2_value: 4400.0
-    params_part1_ans3_value: 6200.0
-    params_part1_ans4_value: 67.0
-    params_part1_ans5_value: 19000000.0
+    params_part1_ans2_value: 34.0
+    params_part1_ans3_value: 48.0
+    params_part1_ans4_value: 5.5
+    params_part1_ans5_value: 1200.0
 ---
 # {{ params_vars_title }}
 The momentum of an object as a function of time is given by $\vec{p} = ({{ params.p_i }})\hat{\imath} + ({{ params.p_j }})\hat{\jmath}$ where $p$ is in kg $\cdot$ m/s and $t$ is in seconds.

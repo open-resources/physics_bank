@@ -31,14 +31,14 @@ part1:
 myst:
   substitutions:
     params_vars_title: Velocity and Acceleration of an Object
-    params_v: $-6t^3 - 5t^2 + 4t$
-    params_time: 19.4
-    params_part1_ans1_value: $v = $ -45600.0 $m/s$, $a = $ -6960.0 $m/s^2$
-    params_part1_ans2_value: $v = $ -45600.0 $m/s$, $a = $ 0 $m/s^2$
-    params_part1_ans3_value: $v = $ -45600.0 $m/s$, $a = $ 9.81 $m/s^2$
-    params_part1_ans4_value: $v = $ 19.4 $m/s$, $a = $ -3480.0 $m/s^2$
-    params_part1_ans5_value: $v = $ -45600.0 $m/s$, $a = $ 6960.0 $m/s^2$
-    params_part1_ans6_value: $v = $ -45600.0 $m/s$, $a = $ -13900.0 $m/s^2$
+    params_v: $-7t^3 - 6t^2 + 6t$
+    params_time: 6.76
+    params_part1_ans1_value: $v = $ -2400.0 $m/s$, $a = $ -1030.0 $m/s^2$
+    params_part1_ans2_value: $v = $ -2400.0 $m/s$, $a = $ 0 $m/s^2$
+    params_part1_ans3_value: $v = $ -2400.0 $m/s$, $a = $ 9.81 $m/s^2$
+    params_part1_ans4_value: $v = $ 6.76 $m/s$, $a = $ -515.0 $m/s^2$
+    params_part1_ans5_value: $v = $ -2400.0 $m/s$, $a = $ 1030.0 $m/s^2$
+    params_part1_ans6_value: $v = $ -2400.0 $m/s$, $a = $ -2060.0 $m/s^2$
 ---
 # {{ params_vars_title }}
 If the velocity of an object in one-dimensional motion is given by $v(t) = $ {{ params_v }}, where the units of $v$ are in $m/s$ and of $t$ are in seconds,

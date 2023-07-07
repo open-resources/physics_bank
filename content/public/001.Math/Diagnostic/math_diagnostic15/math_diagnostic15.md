@@ -27,11 +27,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic15
-    params_expr: $7^{5} $=$ 16807$
-    params_part1_ans1_value: $log_716807 = 5$
-    params_part1_ans2_value: $log_75 = 16807$
-    params_part1_ans3_value: $log_168075 = 7$
-    params_part1_ans4_value: $log_516807 = 7$
+    params_expr: $8^{5} $=$ 32768$
+    params_part1_ans1_value: $log_832768 = 5$
+    params_part1_ans2_value: $log_85 = 32768$
+    params_part1_ans3_value: $log_327685 = 8$
+    params_part1_ans4_value: $log_532768 = 8$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

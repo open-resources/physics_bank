@@ -38,8 +38,8 @@ myst:
   substitutions:
     params_vars_title: Stationary Pulley
     params_m: 4.7
-    params_ri: 17
-    params_ro: 33
+    params_ri: 24
+    params_ro: 28
     params_theta: 37
 ---
 # {{ params_vars_title }}

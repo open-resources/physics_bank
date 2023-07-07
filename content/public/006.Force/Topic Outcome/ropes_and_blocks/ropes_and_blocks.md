@@ -56,10 +56,10 @@ myst:
     params_vars_title: Ropes and Blocks
     params_vars_units1: $\frac{m}{s^2}$
     params_vars_units2: N
-    params_m_a: 18
-    params_m_b: 2
-    params_m_c: 13
-    params_f_a: 74
+    params_m_a: 3
+    params_m_b: 18
+    params_m_c: 10
+    params_f_a: 93
 ---
 # {{ params_vars_title }}
 Assume the three blocks portrayed in the figure move on a frictionless surface and a {{params.f_a}} N force

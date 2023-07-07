@@ -33,11 +33,11 @@ myst:
   substitutions:
     params_vars_title: The Energy Expenditure of a Jogger
     params_vars_units: W
-    params_F: 31
-    params_v: 4.6
+    params_F: 23
+    params_v: 6.2
     params_part1_ans1_value: 14.0
     params_part1_ans2_value: 140.0
-    params_part1_ans3_value: 660.0
+    params_part1_ans3_value: 880.0
     params_part1_ans4_value: 290.0
     params_part1_ans5_value: 430.0
     params_part1_ans6_value: 71.0

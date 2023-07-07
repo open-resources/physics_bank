@@ -32,12 +32,12 @@ part1:
 myst:
   substitutions:
     params_vars_title: Force On An Object
-    params_m: 36
-    params_part1_ans1_value: $F = $ -90.0 $N$
-    params_part1_ans2_value: $F = $ 90.0 $N$
-    params_part1_ans3_value: $F = $ 90.0 $N$ from 2 to 6 $s$, then $F = $ -90.0 $N$
+    params_m: 34
+    params_part1_ans1_value: $F = $ -85.0 $N$
+    params_part1_ans2_value: $F = $ 85.0 $N$
+    params_part1_ans3_value: $F = $ 85.0 $N$ from 2 to 6 $s$, then $F = $ -85.0 $N$
       from 6 to 10 $s$
-    params_part1_ans4_value: $F = $ -90.0 $N$ from 2 to 6 $s$, then $F = $ 90.0 $N$
+    params_part1_ans4_value: $F = $ -85.0 $N$ from 2 to 6 $s$, then $F = $ 85.0 $N$
       from 6 to 10 $s$
     params_part1_ans5_value: Impossible to tell
 ---

@@ -58,18 +58,18 @@ part4:
 myst:
   substitutions:
     params_vars_title: Terminal Velocity of a Coffee Filter
-    params_vars_name: Ximena
+    params_vars_name: Lorenzo
     params_vars_unit1: $m/s$
     params_vars_unit2: $kg/s$
-    params_m: 3
-    params_d_m: 60
-    params_sd: 0.055
-    params_v1: 0.89
-    params_v2: 0.79
-    params_v3: 0.94
-    params_v4: 0.8
-    params_v5: 0.8
-    params_v6: 0.86
+    params_m: 4
+    params_d_m: 31
+    params_sd: 0.056
+    params_v1: 0.81
+    params_v2: 0.72
+    params_v3: 0.89
+    params_v4: 0.83
+    params_v5: 0.79
+    params_v6: 0.74
 ---
 # {{ params_vars_title }}
 In one of the PHYS 111 labs {{ params_vars_name }} measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling through the air.

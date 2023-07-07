@@ -36,9 +36,9 @@ myst:
   substitutions:
     params_vars_title: Average Speed of Kinesin
     params_vars_units: $m/s$
-    params_dist: 8.1
-    params_t: 46.5
-    params_delay: 14.0
+    params_dist: 7.8
+    params_t: 54.5
+    params_delay: 14.2
 ---
 # {{ params_vars_title }}
 Conventional kinesin is a motor protein that moves stepwise along microtubules carrying membrane-bound organelles toward the periphery of cells. It is powered by the hydrolysis of ATP (PubMed, 1999). Assume that the steps of the motion are {{ params_dist }} $nm$ (the distance between adjacent tubulin binding sites), each step takes about {{ params_t }} $\mu s$, and on average there is {{ params_delay }} $ms$ delay between steps.

@@ -44,11 +44,11 @@ part2:
 myst:
   substitutions:
     params_vars_title: Tube up a Hill
-    params_W: 614
-    params_t: 14
-    params_v: 4
-    params_P: 8
-    params_P2: 10
+    params_W: 617
+    params_t: 21
+    params_v: 5
+    params_P: 4
+    params_P2: 6
 ---
 # {{ params_vars_title }}
 <img src="Log up a Hill.png" width=400>

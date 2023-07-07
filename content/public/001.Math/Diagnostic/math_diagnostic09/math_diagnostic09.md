@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $o$ = $\dfrac{(z)}{(j + 7e)} $
-    params_part1_ans1_value: j = ${ - 7 e + \frac{z}{o}}$
-    params_part1_ans2_value: j = ${\frac{7 e o}{z}}$
-    params_part1_ans3_value: j = ${\frac{z}{7 e o}}$
-    params_part1_ans4_value: j = ${\frac{- 7 e + o}{z}}$
+    params_expr: $k$ = $\dfrac{(p)}{(l - 6i)} $
+    params_part1_ans1_value: l = ${ 6 i + \frac{p}{k}}$
+    params_part1_ans2_value: l = ${- \frac{6 i k}{p}}$
+    params_part1_ans3_value: l = ${- \frac{p}{6 i k}}$
+    params_part1_ans4_value: l = ${\frac{6 i + k}{p}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

@@ -60,7 +60,7 @@ part2:
 myst:
   substitutions:
     params_vars_title: Long Cylindrical Solenoid
-    params_n: '110'
+    params_n: '70'
     params_r: '2.5'
     params_dIdt: '7.0'
 ---

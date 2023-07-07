@@ -42,9 +42,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Circular coil
-    params_r: '14.50'
-    params_I: '0.78'
-    params_B: $1.00\times 10^{-3}$
+    params_r: '5.00'
+    params_I: '0.64'
+    params_B: $4.20\times 10^{-4}$
 ---
 # {{ params_vars_title }}
 
