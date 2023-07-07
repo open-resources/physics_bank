@@ -62,9 +62,9 @@ myst:
     params_vars_name: Maya
     params_vars_unit1: $kg$
     params_vars_unit2: $m^3$
-    params_m_p: 206
-    params_m_cp: 60
-    params_l: 2
+    params_m_p: 187
+    params_m_cp: 83
+    params_l: 3
 ---
 # {{ params_vars_title }}
 For their first lab, {{ params_vars_name }} decides to measure the density of a potato.

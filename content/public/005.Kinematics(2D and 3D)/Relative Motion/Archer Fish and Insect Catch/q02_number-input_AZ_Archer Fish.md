@@ -33,13 +33,13 @@ myst:
     params_vars_title: Archer Fish and Insect Catch
 ---
 # {{ params_vars_title }}
-An âarcherâ fish catches insect prey by squirting water droplets into the air to knock insects off the leaves above the surface of the water.
+An ‘archer’ fish catches insect prey by squirting water droplets into the air to knock insects off the leaves above the surface of the water.
 
 <img src="fish.png" width=400>
 
 ## Question Text
 
-What is the angle($\alpha$) with which the fish has to eject the droplet from the archer fishâs âline of sightâ so that the fish can catch the insect at the same time it hits the water. Assume the droplet is brought to rest by collision(the impact force arrests the dropletâs momentum to overcome the insectâs gripping force) and the insect is released from rest and moves vertically downwards. Treat the droplet, fish, and insect as particles. Neglect air resistance and recoil of fish after ejecting the droplet.
+What is the angle($\alpha$) with which the fish has to eject the droplet from the archer fish’s “line of sight” so that the fish can catch the insect at the same time it hits the water. Assume the droplet is brought to rest by collision(the impact force arrests the droplet’s momentum to overcome the insect’s gripping force) and the insect is released from rest and moves vertically downwards. Treat the droplet, fish, and insect as particles. Neglect air resistance and recoil of fish after ejecting the droplet.
 The fish moves with constant speed of 2 m/s horizontally toward the insect.
 d= 5.2m, h = 1m
 

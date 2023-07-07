@@ -48,9 +48,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Force between parallel currents
-    params_d: '38.0'
-    params_I: '68.0'
-    params_txt: the same direction
+    params_d: '12.0'
+    params_I: '70.0'
+    params_txt: opposite directions
     params_part2_ans1_value: Attract
     params_part2_ans2_value: Repel
 ---

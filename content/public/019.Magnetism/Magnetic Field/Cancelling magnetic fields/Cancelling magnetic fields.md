@@ -59,7 +59,7 @@ Two long wires, one of which has a semicircular bend of radius $R$, are position
 
 If both wires carry a current $I$, how far apart must their parallel sections be so that the net magnetic field at P is zero?
 
-In your symbolic expression, use pi to represent Ï.
+In your symbolic expression, use pi to represent π.
 
 ### Answer Section
 

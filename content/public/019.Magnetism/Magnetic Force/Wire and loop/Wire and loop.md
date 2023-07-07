@@ -65,8 +65,8 @@ The rectangular loop, whose long sides are parallel to the wire, carries a curre
 
 Find an expression for the magnitude of the force on the rectangular loop due to the magnetic field of the wire.
 
-You may copy and paste the Greek character Î¼0 into you symbolic expression.
-Use `pi` to represent Ï.
+You may copy and paste the Greek character μ0 into you symbolic expression.
+Use `pi` to represent π.
 
 ### Answer Section
 

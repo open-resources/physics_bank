@@ -81,16 +81,16 @@ part6:
 myst:
   substitutions:
     params_vars_title: Barge Pulled by Tugboats
-    params_F1: 4421
-    params_F2: 4230
-    params_theta_1: 21
-    params_theta_2: 14
-    params_part6_ans1_value: 3.9$^{\circ}$ to the left of AB.
-    params_part6_ans2_value: 3.9$^{\circ}$ to the right of AB.
-    params_part6_ans3_value: 86.1$^{\circ}$ to the left of AB.
-    params_part6_ans4_value: 86.1$^{\circ}$ to the right of AB.
-    params_part6_ans5_value: 39.0$^{\circ}$ to the left of AB.
-    params_part6_ans6_value: 39.0$^{\circ}$ to the right of AB.
+    params_F1: 3152
+    params_F2: 5225
+    params_theta_1: 2
+    params_theta_2: 23
+    params_part6_ans1_value: 13.6$^{\circ}$ to the right of AB.
+    params_part6_ans2_value: 13.6$^{\circ}$ to the left of AB.
+    params_part6_ans3_value: 76.4$^{\circ}$ to the right of AB.
+    params_part6_ans4_value: 76.4$^{\circ}$ to the left of AB.
+    params_part6_ans5_value: 136.0$^{\circ}$ to the right of AB.
+    params_part6_ans6_value: 136.0$^{\circ}$ to the left of AB.
 ---
 # {{ params_vars_title }}
 A barge is pulled by the two tugboats shown in the following figure.
@@ -103,8 +103,8 @@ Assume $+y$ is straight ahead, and $+x$ is to the right.
 <div id="desc">
 <h5>Figure of a barge pulled by two tugboats.</h5>
 A straight line AB is drawn through the center of the barge.
-One tugboat pulls the barge to the left with a force of magnitude $F_1$ at an angle $	heta_1$ relative to AB.
-The other tugboat pulls to the right with a force $F_2$ at angle $	heta_2$ relative to AB.
+One tugboat pulls the barge to the left with a force of magnitude $F_1$ at an angle $\theta_1$ relative to AB.
+The other tugboat pulls to the right with a force $F_2$ at angle $\theta_2$ relative to AB.
 </div>
 
 ## Part 1

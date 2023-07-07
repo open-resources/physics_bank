@@ -44,9 +44,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: BulletCart Energy Loss
-    params_m: 46
-    params_mbg: 74
-    params_vb: 626
+    params_m: 31
+    params_mbg: 50
+    params_vb: 482
 ---
 # {{ params_vars_title }}
 <img src="BulletCart Energy Loss.png" width=400>

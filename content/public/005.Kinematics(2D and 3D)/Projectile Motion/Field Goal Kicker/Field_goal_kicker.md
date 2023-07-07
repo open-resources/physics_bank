@@ -64,11 +64,11 @@ myst:
   substitutions:
     params_vars_title: Field Goal Kicker
     params_theta: 30
-    params_hg: 2.1
-    params_dg: 32.1
+    params_hg: 2.5
+    params_dg: 25.9
     params_deltahg: 1.9
-    params_hl: 2.41
-    params_dl1: 4.4
+    params_hl: 2.66
+    params_dl1: 4.6
     params_dl2: 1.2
 ---
 # {{ params_vars_title }}

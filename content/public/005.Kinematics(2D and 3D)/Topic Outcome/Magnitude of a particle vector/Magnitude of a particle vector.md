@@ -35,9 +35,9 @@ myst:
   substitutions:
     params_vars_title: The Magnitude of a Particle's Vector
     params_vars_units: $m/s$
-    params_r_i: $-3t^2 + t$
-    params_r_j: $-7t^2 + 8t$
-    params_t: $21$
+    params_r_i: $-3t^2 + 6t$
+    params_r_j: $9t^3 + 2t^2 - t$
+    params_t: $5$
     params_choice: acceleration
 ---
 # {{ params_vars_title }}

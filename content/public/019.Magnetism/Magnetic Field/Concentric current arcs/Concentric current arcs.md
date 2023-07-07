@@ -59,7 +59,7 @@ Determine the magnetic field at point P.
 
 ## Part 1
 
-You may copy the Greek symbol Î¼0 into your symbolic expression.
+You may copy the Greek symbol μ0 into your symbolic expression.
 
 Magnitude:
 

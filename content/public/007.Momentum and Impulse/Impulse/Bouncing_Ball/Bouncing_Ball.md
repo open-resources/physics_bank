@@ -39,8 +39,8 @@ myst:
     params_vars_units_m: kg
     params_vars_units_h: m
     params_vars_units: kg m/s
-    params_m: 0.341
-    params_h: 0.99
+    params_m: 0.288
+    params_h: 2.4
 ---
 # {{ params_vars_title }}
 A ball of mass {{ params_m }} {{ params_vars_units_m}} is dropped vertically from a height of {{ params_h }} {{ params_vars_units_h}} and bounces back to the original height.

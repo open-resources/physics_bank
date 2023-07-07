@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $n$ = $\dfrac{(h)}{(x + 10w)} $
-    params_part1_ans1_value: x = ${ \frac{h}{n} - 10 w}$
-    params_part1_ans2_value: x = ${\frac{10 n w}{h}}$
-    params_part1_ans3_value: x = ${\frac{h}{10 n w}}$
-    params_part1_ans4_value: x = ${\frac{n - 10 w}{h}}$
+    params_expr: $o$ = $\dfrac{(z)}{(j + 7e)} $
+    params_part1_ans1_value: j = ${ - 7 e + \frac{z}{o}}$
+    params_part1_ans2_value: j = ${\frac{7 e o}{z}}$
+    params_part1_ans3_value: j = ${\frac{z}{7 e o}}$
+    params_part1_ans4_value: j = ${\frac{- 7 e + o}{z}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

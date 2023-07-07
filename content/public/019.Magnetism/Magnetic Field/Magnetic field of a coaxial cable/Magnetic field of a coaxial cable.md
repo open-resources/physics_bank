@@ -111,7 +111,7 @@ A current $I$ flows down the centre conductor, and this current is returned in t
 
 Determine the magnitude of the magnetic field in the region $r\\< r_1$.
 
-In your symbolic expression, you may copy and paste the Greek symbol `Î¼0`. Use `pi` to represent Ï.
+In your symbolic expression, you may copy and paste the Greek symbol `μ0`. Use `pi` to represent π.
 
 ### Answer Section
 
@@ -129,7 +129,7 @@ What is the direction of the magnetic field calculated in Part 1?
 
 Determine the magnitude of the magnetic field in the region $r_1\\< r\\< r_2$.
 
-In your symbolic expression, you may copy and paste the Greek symbol `Î¼0`. Use pi to represent `Ï`.
+In your symbolic expression, you may copy and paste the Greek symbol `μ0`. Use pi to represent `π`.
 
 ### Answer Section
 
@@ -147,7 +147,7 @@ What is the direction of the magnetic field calculated in Part 3?
 
 Determine the magnitude of the magnetic field in the region $r_2\\< r\\< r_3$.
 
-In your symbolic expression, you may copy and paste the Greek symbol `Î¼0`. Use `pi` to represent `Ï`.
+In your symbolic expression, you may copy and paste the Greek symbol `μ0`. Use `pi` to represent `π`.
 
 ### Answer Section
 
@@ -165,7 +165,7 @@ What is the direction of the magnetic field calculated in Part 5?
 
 Determine the magnitude of the magnetic field in the region $r > r_3$.
 
-In your symbolic expression, you may copy and paste the Greek symbol `Î¼0`. Use `pi` to represent Ï.
+In your symbolic expression, you may copy and paste the Greek symbol `μ0`. Use `pi` to represent π.
 
 ### Answer Section
 

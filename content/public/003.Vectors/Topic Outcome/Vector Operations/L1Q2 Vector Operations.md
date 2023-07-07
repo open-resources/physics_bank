@@ -70,9 +70,9 @@ part6:
 myst:
   substitutions:
     params_vars_title: Vector Operations
-    params_v1: 2
-    params_v2: 6
-    params_angle: 31
+    params_v1: 6
+    params_v2: 9
+    params_angle: 60
 ---
 # {{ params_vars_title }}
 <img src="L1Q2_drawing.png" width=400>

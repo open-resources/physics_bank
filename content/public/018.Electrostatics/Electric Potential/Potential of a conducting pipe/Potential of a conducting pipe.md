@@ -44,7 +44,7 @@ myst:
     params_vars_title: Potential of a conducting pipe
 ---
 # {{ params_vars_title }}
-The surface charge density on a long straight hollow metallic pipe is Ï.  Assume the pipe has a diameter of $2a$.
+The surface charge density on a long straight hollow metallic pipe is σ.  Assume the pipe has a diameter of $2a$.
 
 <img src="OSUPv2p7_64.png" width=50 alt="Charged conducting pipe">
 
@@ -53,7 +53,7 @@ The surface charge density on a long straight hollow metallic pipe is Ï.  Ass
 What is the electric potential inside the pipe?
 Choose the zero of electric potential to be a distance $R_0>a$ from the axis of the pipe.
 
-You may copy the Greek symbols Ïµ0 and Ï into your symbolic expression.
+You may copy the Greek symbols ϵ0 and σ into your symbolic expression.
 
 ### Answer Section
 
@@ -62,7 +62,7 @@ You may copy the Greek symbols Ïµ0 and Ï into your symbolic expression.
 What is the electric potential outside the pipe?
 Choose the zero of electric potential to be a distance $R_0>a$ from the axis of the pipe.
 
-You may copy the Greek symbols Ïµ0 and Ï into your symbolic expression.
+You may copy the Greek symbols ϵ0 and σ into your symbolic expression.
 
 ### Answer Section
 

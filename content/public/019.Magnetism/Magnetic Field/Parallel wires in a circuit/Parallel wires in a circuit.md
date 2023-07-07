@@ -54,8 +54,8 @@ Find expressions for the $x$- and $y$-components of the magnetic field at point 
 
 The $x$-component:
 
-You may copy and paste the Greek character Î¼0 into your symbolic expression.
-Use pi to represent Ï.
+You may copy and paste the Greek character μ0 into your symbolic expression.
+Use pi to represent π.
 
 ### Answer Section
 
@@ -63,8 +63,8 @@ Use pi to represent Ï.
 
 The $y$-component:
 
-You may copy and paste the Greek character Î¼0 into you symbolic expression.
-Use pi to represent Ï.
+You may copy and paste the Greek character μ0 into you symbolic expression.
+Use pi to represent π.
 
 ### Answer Section
 

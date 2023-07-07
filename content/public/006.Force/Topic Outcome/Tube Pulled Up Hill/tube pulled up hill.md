@@ -46,11 +46,11 @@ part2:
 myst:
   substitutions:
     params_vars_title: Tube pulled Uphill
-    params_m: 52
-    params_theta_s: 17
-    params_theta_2: 14
-    params_T_2: 198
-    params_T_1: 112
+    params_m: 54
+    params_theta_s: 16
+    params_theta_2: 12
+    params_T_2: 248
+    params_T_1: 81
 ---
 # {{ params_vars_title }}
 <img src="L14Q2.png" width=80%>

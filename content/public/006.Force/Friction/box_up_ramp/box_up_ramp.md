@@ -76,11 +76,11 @@ part7:
 myst:
   substitutions:
     params_vars_title: Box Up Ramp
-    params_vars_name: Ximena
-    params_f: 182.0
-    params_k: 0.1
-    params_s: 0.3
-    params_ang: 10
+    params_vars_name: Lorenzo
+    params_f: 177.0
+    params_k: 0.3
+    params_s: 0.7
+    params_ang: 9
     params_part2_ans1_value: No, this is not an example of static or dynamic equilibrium.
     params_part2_ans1_feedback: Consider the net force.
     params_part2_ans2_value: This is an example of dynamic equilibrium.
@@ -98,7 +98,7 @@ myst:
 # {{ params_vars_title }}
 On moving day, {{params_vars_name}} pushes a box weighing {{params_f}} $\rm{N}$ at constant speed up a ramp. They push parallel to the ramp with a force of magnitude $F\_{\textit{A on B}}$ (see the figure below). The ramp makes an angle of $\theta = {{params_ang}}^{\circ}$ with the horizontal direction. The coefficients of static and kinetic friction friction between the box and the ramp are $\mu_s = {{params_s}}$ and  $\mu_k = {{params_k}}$, respectively.
 
-<img src="graph.png" alt = "The top diagram is of a box travelling up an inclined ramp. There is a force vector in the center of the box pointing towards the top of the ramp, parallel to the ramp itself. It is labelled $F_{	extit{A on B}}}$. The bottom diagram is of an empty graph whose x-axis is parallel to the ramp while the y-axis is perpendicular to the ramp.">
+<img src="graph.png" alt = "The top diagram is of a box travelling up an inclined ramp. There is a force vector in the center of the box pointing towards the top of the ramp, parallel to the ramp itself. It is labelled $F_{\textit{A on B}}}$. The bottom diagram is of an empty graph whose x-axis is parallel to the ramp while the y-axis is perpendicular to the ramp.">
 
 ## Question Text
 

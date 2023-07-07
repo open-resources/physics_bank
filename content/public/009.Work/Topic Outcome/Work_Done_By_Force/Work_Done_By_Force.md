@@ -33,17 +33,17 @@ myst:
     params_vars_title: Work Done By Force
     params_vars_units: $J$
     params_t1: 3
-    params_t2: 7
-    params_f1: 3.3
-    params_f2: 4.6
+    params_t2: 8
+    params_f1: 3.6
+    params_f2: 5.9
     params_r1: 3.1
-    params_r2: 1.8
-    params_m: 9.4
-    params_part1_ans1_value: 2.0
-    params_part1_ans2_value: 19.0
-    params_part1_ans3_value: 170.0
+    params_r2: 1.1
+    params_m: 9.0
+    params_part1_ans1_value: 4.7
+    params_part1_ans2_value: 18.0
+    params_part1_ans3_value: 160.0
     params_part1_ans4_value: 2.0
-    params_part1_ans5_value: -19.0
+    params_part1_ans5_value: -18.0
 ---
 # {{ params_vars_title }}
 Between time $t =$ {{ params_t1 }} $s$ and $t =$ {{params_t2 }} $s$, a force $\vec{F}$ = ( {{ params_f1 }} $\hat\imath$ - {{ params_f2 }} $\hat\jmath$ ) N moves a {{ params_m }} kg object along a trajectory $\Delta\vec{r}$ = ( {{ params_r1 }} $\hat\imath$ - {{ params_r2 }} $\hat\jmath$ ) m.

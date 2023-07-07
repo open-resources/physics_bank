@@ -49,9 +49,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Electron in a Solenoid
-    params_n: '35'
-    params_r: '2.00'
-    params_v: "$1.70\\times 10^{6 }\textrm{ m/s}$"
+    params_n: '30'
+    params_r: '1.90'
+    params_v: "$1.00\\times 10^{5 }\textrm{ m/s}$"
 ---
 # {{ params_vars_title }}
 A solenoid with {{ params_n }} turns per centimter carries a current $I$.

@@ -39,7 +39,7 @@ myst:
     params_R: '2'
     params_r: '7'
     params_n: '30'
-    params_DI: '3'
+    params_DI: '4'
 ---
 # {{ params_vars_title }}
 

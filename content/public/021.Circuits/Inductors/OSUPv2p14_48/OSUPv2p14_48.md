@@ -44,7 +44,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Energy Stored in Different Coils
-    params_num: '2'
+    params_num: ''
 ---
 # {{ params_vars_title }}
 Solenoid $A$ is tightly wound while solenoid $B$ has windings that are evenly spaced with a gap equal to ${\rm {{ params_num }}} d$, where $d$ is the diameter of the wire.

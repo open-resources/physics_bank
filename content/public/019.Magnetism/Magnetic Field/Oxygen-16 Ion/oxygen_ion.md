@@ -45,9 +45,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Oxygen-16 Ion
-    params_v: 3.9
-    params_B: 3.3
-    params_r: '0.196'
+    params_v: 3.2
+    params_B: 8.2
+    params_r: '0.032'
 ---
 # {{ params_vars_title }}
 An oxygen-16 ion with a mass of $2.66 \times 10^{-26} \textrm{ kg}$ travels at ${{params_v}} \times 10^{6} \textrm{ m/s}$ perpendicular to a ${{params_B}} \textrm{ T}$ magnetic field, which makes it move in a circular arc with a ${{params_r}} \textrm{ m}$ radius.
