@@ -59,8 +59,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Frequency and Voltage of an LC Circuit
-    params_L: '50.0'
-    params_C: '2.0'
+    params_L: '35.0'
+    params_C: '2.5'
     params_V: '53.0'
 ---
 # {{ params_vars_title }}

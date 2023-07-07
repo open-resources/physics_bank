@@ -32,11 +32,11 @@ myst:
     params_vars_title: Discus Thrower
     params_vars_units: $rad/s$
     params_r: 3
-    params_a: 58
-    params_part1_ans1_value: 47.0
-    params_part1_ans2_value: 2187.0
-    params_part1_ans3_value: 348
-    params_part1_ans4_value: 13.0
+    params_a: 60
+    params_part1_ans1_value: 48.0
+    params_part1_ans2_value: 2262.0
+    params_part1_ans3_value: 360
+    params_part1_ans4_value: 14.0
     params_part1_ans5_value: 19.0
 ---
 # {{ params_vars_title }}

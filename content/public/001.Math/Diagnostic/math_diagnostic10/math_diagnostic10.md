@@ -31,14 +31,14 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic10
-    params_a: -7
-    params_b: '13'
-    params_b_sign: ' - '
-    params_c: 11
-    params_part1_ans1_value: x =  - 18/13
-    params_part1_ans2_value: x =   18/13
-    params_part1_ans3_value: x = 31
-    params_part1_ans4_value: x = 17
+    params_a: -14
+    params_b: '9'
+    params_b_sign: ' + '
+    params_c: 4
+    params_part1_ans1_value: x =   18/9
+    params_part1_ans2_value: x =  - 18/9
+    params_part1_ans3_value: x = 9
+    params_part1_ans4_value: x = -19
     params_part1_ans5_value: This equation cannot be solved
 ---
 # {{ params_vars_title }}

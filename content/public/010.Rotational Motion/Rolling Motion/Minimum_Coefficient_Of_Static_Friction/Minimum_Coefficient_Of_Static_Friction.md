@@ -31,14 +31,14 @@ part1:
 myst:
   substitutions:
     params_vars_title: Minimum Coefficient Of Static Friction
-    params_vars_vehicle: truck
-    params_r: 88
-    params_v: 15
-    params_part1_ans1_value: 3.8
-    params_part1_ans2_value: 0.26
-    params_part1_ans3_value: 2.6
-    params_part1_ans4_value: 0.017
-    params_part1_ans5_value: 0.17
+    params_vars_vehicle: bus
+    params_r: 93
+    params_v: 10
+    params_part1_ans1_value: 9.1
+    params_part1_ans2_value: 0.11
+    params_part1_ans3_value: 1.1
+    params_part1_ans4_value: 0.011
+    params_part1_ans5_value: 0.11
 ---
 # {{ params_vars_title }}
 A {{ params_vars_vehicle }} drives around a flat curve with radius $r$ = {{params_r}} $m$ at a speed of $v$ = {{params_v}} $\frac{m}{s}$.

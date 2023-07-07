@@ -31,16 +31,16 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_sport: skateboarder
+    params_vars_sport: mountain biker
     params_vars_title: Horizontal Jump
     params_vars_units: m
-    params_v: 24
-    params_d: 4.16
+    params_v: 21
+    params_d: 3.4
     params_part1_ans1_value: 9.81
-    params_part1_ans2_value: 15.63
-    params_part1_ans3_value: 20.35
-    params_part1_ans4_value: 22.1
-    params_part1_ans5_value: 30.53
+    params_part1_ans2_value: 12.36
+    params_part1_ans3_value: 14.56
+    params_part1_ans4_value: 17.48
+    params_part1_ans5_value: 21.83
 ---
 # {{ params_vars_title }}
 

@@ -34,7 +34,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Water Rocket
-    params_m: 1.9
+    params_m: 1.8
     params_i: 12
 ---
 # {{ params_vars_title }}

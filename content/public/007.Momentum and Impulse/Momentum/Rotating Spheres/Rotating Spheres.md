@@ -36,10 +36,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Rotating Spheres
-    params_m: 2.8
-    params_Mo: 1
-    params_t: 2
-    params_r: 0.1
+    params_m: 1.9
+    params_Mo: 3
+    params_t: 4
+    params_r: 0.2
 ---
 # {{ params_vars_title }}
 <img src="Rotating Spheres.png" width=400>

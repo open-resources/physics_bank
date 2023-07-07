@@ -47,10 +47,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Grindstone
-    params_M: 11.5
-    params_R: 9
-    params_RPM: 1737
-    params_F: 5.8
+    params_M: 8.5
+    params_R: 13
+    params_RPM: 1278
+    params_F: 3.6
     params_mu: 0.79
 ---
 # {{ params_vars_title }}

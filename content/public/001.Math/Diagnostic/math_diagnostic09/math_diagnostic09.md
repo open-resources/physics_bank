@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $k$ = $\dfrac{(p)}{(l - 6i)} $
-    params_part1_ans1_value: l = ${ 6 i + \frac{p}{k}}$
-    params_part1_ans2_value: l = ${- \frac{6 i k}{p}}$
-    params_part1_ans3_value: l = ${- \frac{p}{6 i k}}$
-    params_part1_ans4_value: l = ${\frac{6 i + k}{p}}$
+    params_expr: $q$ = $\dfrac{(s)}{(a + 7w)} $
+    params_part1_ans1_value: a = ${ - 7 w + \frac{s}{q}}$
+    params_part1_ans2_value: a = ${\frac{7 q w}{s}}$
+    params_part1_ans3_value: a = ${\frac{s}{7 q w}}$
+    params_part1_ans4_value: a = ${\frac{q - 7 w}{s}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

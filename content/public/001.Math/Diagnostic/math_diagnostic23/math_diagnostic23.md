@@ -27,14 +27,14 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic23
-    params_a: 2
-    params_b: 9
-    params_formula: $x^{2} \sin{\left(9 x \right)}$
-    params_part1_ans1_value: $9 x^{2} \cos{\left(9 x \right)} + 2 x \sin{\left(9 x
-      \right)}$
-    params_part1_ans2_value: $9 x^{2} \cos{\left(9 x \right)} $
-    params_part1_ans3_value: $ 2 x \cos{\left(9 x \right)}$
-    params_part1_ans4_value: $- 9 x^{2} \sin{\left(9 x \right)} + 2 x \cos{\left(9
+    params_a: 5
+    params_b: 7
+    params_formula: $x^{5} \sin{\left(7 x \right)}$
+    params_part1_ans1_value: $7 x^{5} \cos{\left(7 x \right)} + 5 x^{4} \sin{\left(7
+      x \right)}$
+    params_part1_ans2_value: $7 x^{5} \cos{\left(7 x \right)} $
+    params_part1_ans3_value: $ 5 x^{4} \cos{\left(7 x \right)}$
+    params_part1_ans4_value: $- 7 x^{5} \sin{\left(7 x \right)} + 5 x^{4} \cos{\left(7
       x \right)}$
     params_part1_ans5_value: Don't Know
 ---

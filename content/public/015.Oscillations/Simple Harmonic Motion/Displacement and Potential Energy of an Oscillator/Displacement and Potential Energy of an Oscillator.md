@@ -34,7 +34,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Displacement and Potential Energy of an Oscillator
-    params_choice: half
+    params_choice: a quarter
 ---
 # {{ params_vars_title }}
 

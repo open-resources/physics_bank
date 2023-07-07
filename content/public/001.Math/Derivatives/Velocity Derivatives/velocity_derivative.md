@@ -32,11 +32,11 @@ myst:
     params_vars_title: Velocity to Acceleration
     params_vars_units: $m/s^2$
     params_c: 0.4
-    params_t: 5
-    params_part1_ans1_value: 0.0064
-    params_part1_ans2_value: -0.0064
-    params_part1_ans3_value: -0.016
-    params_part1_ans4_value: 0.016
+    params_t: 1
+    params_part1_ans1_value: 0.8
+    params_part1_ans2_value: -0.8
+    params_part1_ans3_value: -0.4
+    params_part1_ans4_value: 0.4
     params_part1_ans5_value: The acceleration is 0
 ---
 # {{ params_vars_title }}

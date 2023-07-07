@@ -43,7 +43,7 @@ myst:
   substitutions:
     params_vars_title: Masses on Slopes
     params_vars_units: $\rm{\frac{m}{s^2}}$
-    params_m1: 11
+    params_m1: 10
     params_m2: 3
 ---
 # {{ params_vars_title }}

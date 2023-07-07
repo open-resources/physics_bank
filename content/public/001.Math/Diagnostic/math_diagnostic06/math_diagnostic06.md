@@ -31,12 +31,12 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic06
-    params_eq: $\dfrac{x-4}{x-9}$ = $ \dfrac{x+1}{x+9}$
-    params_part1_ans1_value: -77/23
-    params_part1_ans2_value: 27/13
-    params_part1_ans3_value: -77/3
-    params_part1_ans4_value: -27/23
-    params_part1_ans5_value: '-9'
+    params_eq: $\dfrac{x-4}{x-8}$ = $ \dfrac{x+3}{x+8}$
+    params_part1_ans1_value: -52/23
+    params_part1_ans2_value: 8/9
+    params_part1_ans3_value: '-52'
+    params_part1_ans4_value: -8/23
+    params_part1_ans5_value: '-8'
     params_part1_ans6_value: None of the above
 ---
 # {{ params_vars_title }}
