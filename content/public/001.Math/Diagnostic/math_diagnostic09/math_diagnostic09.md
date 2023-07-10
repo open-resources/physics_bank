@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $q$ = $\dfrac{(s)}{(a + 7w)} $
-    params_part1_ans1_value: a = ${ - 7 w + \frac{s}{q}}$
-    params_part1_ans2_value: a = ${\frac{7 q w}{s}}$
-    params_part1_ans3_value: a = ${\frac{s}{7 q w}}$
-    params_part1_ans4_value: a = ${\frac{q - 7 w}{s}}$
+    params_expr: $n$ = $\dfrac{(r)}{(z + 3y)} $
+    params_part1_ans1_value: z = ${ - 3 y + \frac{r}{n}}$
+    params_part1_ans2_value: z = ${\frac{3 n y}{r}}$
+    params_part1_ans3_value: z = ${\frac{r}{3 n y}}$
+    params_part1_ans4_value: z = ${\frac{n - 3 y}{r}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

@@ -53,11 +53,11 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Mateo
+    params_vars_name: Santiago
     params_vars_title: Water Slide
     params_theta: 30
-    params_l: 700
-    params_l2: 350.0
+    params_l: 800
+    params_l2: 400.0
 ---
 # {{ params_vars_title }}
 What an exciting time to be alive! A water slide has just opened up near {{ params_vars_name }}'s house! It is a ramp, L = {{params_l}} $m$ long at {{params_theta}}$^{\circ}$ to the horizontal.

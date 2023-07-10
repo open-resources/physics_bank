@@ -36,12 +36,12 @@ part1:
 myst:
   substitutions:
     params_vars_title: Colliding Balls
-    params_m1: 119
-    params_m2: 101
-    params_v1_i: 7.35
-    params_v2_i: -4.5
-    params_v1_f: -3.53
-    params_v2_f: 8.32
+    params_m1: 208
+    params_m2: 227
+    params_v1_i: 7.63
+    params_v2_i: -2.29
+    params_v1_f: -2.72
+    params_v2_f: 7.2
     params_part1_ans1_value: This is an elastic collision, as both kinetic energy
       and momentum are conserved.
     params_part1_ans2_value: This is an inelastic collision because only momentum

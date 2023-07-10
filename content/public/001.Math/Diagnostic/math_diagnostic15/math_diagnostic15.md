@@ -27,11 +27,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic15
-    params_expr: $8^{3} $=$ 512$
-    params_part1_ans1_value: $log_8512 = 3$
-    params_part1_ans2_value: $log_83 = 512$
-    params_part1_ans3_value: $log_5123 = 8$
-    params_part1_ans4_value: $log_3512 = 8$
+    params_expr: $6^{2} $=$ 36$
+    params_part1_ans1_value: $log_636 = 2$
+    params_part1_ans2_value: $log_62 = 36$
+    params_part1_ans3_value: $log_362 = 6$
+    params_part1_ans4_value: $log_236 = 6$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

@@ -36,7 +36,7 @@ myst:
   substitutions:
     params_vars_title: Car in a Ditch
     params_vars_units: $\rm{N}$
-    params_F: 6000
+    params_F: 4000
 ---
 # {{ params_vars_title }}
 One way to move a heavy object (like a car) is to attach a strong chain between it and a strong tree and push perpendicular to the chain (see Fig. (a)) to create a large tension. A free body diagram of a piece of the chain is shown in Fig. (b).

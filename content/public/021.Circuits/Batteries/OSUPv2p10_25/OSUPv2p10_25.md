@@ -55,9 +55,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Automobile Battery Properties
-    params_V: '10.0'
-    params_V_t: '14.0'
-    params_I: '10.75'
+    params_V: '13.0'
+    params_V_t: '16.0'
+    params_I: '10.25'
 ---
 # {{ params_vars_title }}
 A $ {{ params_V }}\rm\ V$ emf automobile battery has a terminal voltage of $ {{ params_V_t }}\rm\ V$ when being charged by a current of $ {{ params_I }}\rm\ A$.

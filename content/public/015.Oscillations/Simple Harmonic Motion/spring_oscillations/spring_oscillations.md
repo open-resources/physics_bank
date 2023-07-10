@@ -55,8 +55,8 @@ myst:
     params_vars_units1: m/s
     params_vars_units2: N/m
     params_vars_units3: m
-    params_m: 332
-    params_T: 0.34
+    params_m: 318
+    params_T: 1.8
     params_E: 4.9
 ---
 # {{ params_vars_title }}

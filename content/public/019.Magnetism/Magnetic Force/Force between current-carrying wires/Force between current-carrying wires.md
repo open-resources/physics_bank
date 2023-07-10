@@ -47,8 +47,8 @@ myst:
   substitutions:
     params_vars_title: Force between current-carrying wires
     params_d: '6.0'
-    params_I1: '2.6'
-    params_I2: '5.0'
+    params_I1: '2.2'
+    params_I2: '6.2'
     params_txt: the same direction
     params_part2_ans1_value: Attract
     params_part2_ans2_value: Repel

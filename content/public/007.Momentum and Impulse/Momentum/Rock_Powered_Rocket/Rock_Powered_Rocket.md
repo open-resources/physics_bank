@@ -55,10 +55,10 @@ myst:
     params_vars_units1: m/s
     params_vars_units2: kg
     params_vars_name: Lorenzo
-    params_i: 331
-    params_m: 21
-    params_v_1: 7
-    params_v_2: 16
+    params_i: 318
+    params_m: 28
+    params_v_1: 11
+    params_v_2: 36
 ---
 # {{ params_vars_title }}
 {{params_vars_name}} is an astronaut, floating in space.

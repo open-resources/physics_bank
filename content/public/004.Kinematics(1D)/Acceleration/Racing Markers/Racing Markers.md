@@ -30,10 +30,10 @@ part1:
     fixed-order: true
 myst:
   substitutions:
-    params_vars_vehicle: bus
+    params_vars_vehicle: semi-truck
     params_vars_title: Racing Markers
-    params_vars_v1: 67
-    params_vars_v2: 34.0
+    params_vars_v1: 51
+    params_vars_v2: 26.0
     params_part1_ans1_value: Marker 1
     params_part1_ans2_value: Between Marker 1 and Marker 2
     params_part1_ans3_value: Marker 2

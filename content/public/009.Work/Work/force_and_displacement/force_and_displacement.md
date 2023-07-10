@@ -33,13 +33,13 @@ myst:
     params_vars_title: Force and Displacement
     params_vars_units: J
     params_f1: -19
-    params_f2: 13
-    params_r1: 9
-    params_r2: -3
-    params_part1_ans1_value: -210
-    params_part1_ans2_value: 210
-    params_part1_ans3_value: -132
-    params_part1_ans4_value: 132
+    params_f2: 5
+    params_r1: 12
+    params_r2: -10
+    params_part1_ans1_value: -278
+    params_part1_ans2_value: 278
+    params_part1_ans3_value: -178
+    params_part1_ans4_value: 178
     params_part1_ans5_value: Zero
 ---
 # {{ params_vars_title }}

@@ -33,13 +33,13 @@ part1:
     suffix: blocks
 myst:
   substitutions:
-    params_vars_vehicle: semi-truck
+    params_vars_vehicle: sedan
     params_vars_title: Displacement of a Vehicle
     params_vars_units: blocks
     params_c1: 73
-    params_c2: 19
-    params_c3: 99
-    params_dir1: north
+    params_c2: 85
+    params_c3: 70
+    params_dir1: west
     params_dir2: south
     params_dir3: north
 ---

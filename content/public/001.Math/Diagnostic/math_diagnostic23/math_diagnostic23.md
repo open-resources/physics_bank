@@ -27,14 +27,14 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic23
-    params_a: 5
-    params_b: 7
-    params_formula: $x^{5} \sin{\left(7 x \right)}$
-    params_part1_ans1_value: $7 x^{5} \cos{\left(7 x \right)} + 5 x^{4} \sin{\left(7
+    params_a: 9
+    params_b: 3
+    params_formula: $x^{9} \cos{\left(3 x \right)}$
+    params_part1_ans1_value: $- 3 x^{9} \sin{\left(3 x \right)} + 9 x^{8} \cos{\left(3
       x \right)}$
-    params_part1_ans2_value: $7 x^{5} \cos{\left(7 x \right)} $
-    params_part1_ans3_value: $ 5 x^{4} \cos{\left(7 x \right)}$
-    params_part1_ans4_value: $- 7 x^{5} \sin{\left(7 x \right)} + 5 x^{4} \cos{\left(7
+    params_part1_ans2_value: $- 3 x^{9} \sin{\left(3 x \right)} $
+    params_part1_ans3_value: $ 9 x^{8} \sin{\left(3 x \right)}$
+    params_part1_ans4_value: $3 x^{9} \cos{\left(3 x \right)} + 9 x^{8} \sin{\left(3
       x \right)}$
     params_part1_ans5_value: Don't Know
 ---

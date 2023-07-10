@@ -29,18 +29,18 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Emilia
-    params_vars_vehicle: a skateboard
+    params_vars_name: Mateo
+    params_vars_vehicle: a tricycle
     params_vars_units: m
     params_vars_title: Distance travelled
-    params_v: 2
-    params_t: 9
+    params_v: 7
+    params_t: 7
     params_part1_ans1_value: 42.0
-    params_part1_ans2_value: 18
-    params_part1_ans3_value: 11
-    params_part1_ans4_value: 0.22
-    params_part1_ans5_value: -7
-    params_part1_ans6_value: -9.1
+    params_part1_ans2_value: 49
+    params_part1_ans3_value: 14
+    params_part1_ans4_value: 1.0
+    params_part1_ans5_value: 0
+    params_part1_ans6_value: 0.0
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} is traveling on {{ params_vars_vehicle }} at {{ params_v }} $\rm{m/s}$.

@@ -38,7 +38,7 @@ myst:
     params_vars_title: Acceleration for moving ball from Velocity vs Displacement
       graph
     params_vars_units: $m/s^2$
-    params_s: 28
+    params_s: 8
 ---
 # {{ params_vars_title }}
 <img src="L4Q3.png" width=90% height=75%>

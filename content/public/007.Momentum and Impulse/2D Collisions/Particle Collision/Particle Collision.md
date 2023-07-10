@@ -30,23 +30,23 @@ part1:
 myst:
   substitutions:
     params_vars_title: Particle Collision
-    params_choice: total
-    params_m1: 5
-    params_m2: 5
-    params_v1: 14
-    params_v2: 11
-    params_part1_ans1_value: 70 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 55 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+    params_choice: $x$-component of the
+    params_m1: 1
+    params_m2: 4
+    params_v1: 1
+    params_v2: 5
+    params_part1_ans1_value: 1 $kg$ $\dfrac{m}{s}\hat{\imath}$
     params_part1_ans1_feedback: Great! You got it.
-    params_part1_ans2_value: 55 $kg$ $\dfrac{m}{s}\hat{\imath}$
+    params_part1_ans2_value: 20 $kg$ $\dfrac{m}{s}\hat{\imath}$
     params_part1_ans2_feedback: Hmm... Try again.
-    params_part1_ans3_value: 55 $kg$ $\dfrac{m}{s}\hat{\jmath}$
-    params_part1_ans3_feedback: Careful! Both components are asked for.
-    params_part1_ans4_value: 55 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 70 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+    params_part1_ans3_value: 20 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+    params_part1_ans3_feedback: Close! Double check the directions of the unit vectors.
+    params_part1_ans4_value: 20 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 1 $kg$ $\dfrac{m}{s}\hat{\jmath}$
     params_part1_ans4_feedback: Hmm... Try again.
-    params_part1_ans5_value: 70 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+    params_part1_ans5_value: 1 $kg$ $\dfrac{m}{s}\hat{\jmath}$
     params_part1_ans5_feedback: Hmm... Try again.
-    params_part1_ans6_value: 70 $kg$ $\dfrac{m}{s}\hat{\imath}$
-    params_part1_ans6_feedback: Careful! Both components are asked for.
+    params_part1_ans6_value: 1 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 20 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+    params_part1_ans6_feedback: Careful! Only one component is asked for.
 ---
 # {{ params_vars_title }}
 A particle of mass {{ params_m1 }} $kg$ is travelling with velocity {{ params_v1 }} $\frac{m}{s}\hat{\imath}$ when it collides with another particle of mass {{ params_m2 }} $kg$ travelling with velocity {{ params_v2 }} $\frac{m}{s}\hat{\jmath}$.
