@@ -383,6 +383,7 @@ parts:
   - file: content/public/007.Momentum and Impulse/2D Collisions/light_heavy_collision/light_heavy_collision
   - file: content/public/007.Momentum and Impulse/Collisions/BulletCart Energy Loss/BulletCart
       Energy Loss
+  - file: content/public/007.Momentum and Impulse/Collisions/Carts_Collide_Fvt/Carts_Collide_Fvt
   - file: content/public/007.Momentum and Impulse/Collisions/Colliding Balls/Colliding
       Balls
   - file: content/public/007.Momentum and Impulse/Collisions/Collision of Collars/Collision
