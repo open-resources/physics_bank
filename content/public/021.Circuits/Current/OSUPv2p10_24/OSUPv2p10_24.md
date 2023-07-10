@@ -67,10 +67,10 @@ part3:
 myst:
   substitutions:
     params_vars_title: Electrocution Safety
-    params_R_b: '11.75'
-    params_R_s: '2450'
-    params_V_s: '18.0'
-    params_I_max: '0.7'
+    params_R_b: '12.00'
+    params_R_s: '2300'
+    params_V_s: '21.5'
+    params_I_max: '0.8'
 ---
 # {{ params_vars_title }}
 A person with body resistance between their hands of {{ params.R_b }} $\rm\ k \Omega$ accidentally grasps the terminals of a {{ params.V_s }} $\rm\ kV$ power supply.

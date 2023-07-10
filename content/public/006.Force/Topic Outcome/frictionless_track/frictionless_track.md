@@ -48,9 +48,9 @@ myst:
   substitutions:
     params_vars_title: Horizontal frictionless track
     params_vars_units: N
-    params_m: 2.5
-    params_v: 4
-    params_R: 1.0
+    params_m: 5.0
+    params_v: 3
+    params_R: 0.5
     params_L: 12
 ---
 # {{ params_vars_title }}

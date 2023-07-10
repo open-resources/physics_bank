@@ -1,6 +1,6 @@
 ---
 title: Atomic Emission Diffraction
-topic: Diffraction Grating and Atomic Emission Spectroscopy
+topic: Electromagnetic Waves
 author: John Hopkinson
 source: Phys 122 2020WT2 MT2
 template_version: 1.4

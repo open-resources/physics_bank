@@ -44,8 +44,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Cosmic Ray Electron
-    params_v: 4.0
-    params_B: 5.1
+    params_v: 4.2
+    params_B: 5.5
 ---
 # {{ params_vars_title }}
 

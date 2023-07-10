@@ -1,6 +1,6 @@
 ---
 title: Components of Net Force
-topic: Kinematics
+topic: Force
 author: Jake Bobowski
 source: 2013 Final Q3
 template_version: 1.3

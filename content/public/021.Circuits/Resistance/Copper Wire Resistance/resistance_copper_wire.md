@@ -1,6 +1,6 @@
 ---
 title: Resistance Of A Copper Wire
-topic: Resistance
+topic: Circuits
 author: Vanshika Sharma
 source: 2.9.38
 template_version: 1.3
@@ -42,8 +42,8 @@ myst:
   substitutions:
     params_vars_title: Resistance Of A Copper Wire
     params_vars_units: Ohms
-    params_d: 5.816
-    params_l: 1.2
+    params_d: 9.831
+    params_l: 12.2
 ---
 # {{ params_vars_title }}
 

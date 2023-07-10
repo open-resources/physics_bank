@@ -1,6 +1,6 @@
 ---
 title: Circular Motion Graph
-topic: Non-Uniform Circular Motion
+topic: Kinematics(2D and 3D)
 author: John Hopkinson
 source: PHYS 112 2019W1 GPS IX
 template_version: 1.4
@@ -86,8 +86,8 @@ part9:
 myst:
   substitutions:
     params_vars_title: Circular Motion Graph
-    params_r: 3
-    params_t: 0.2
+    params_r: 6
+    params_t: 0.3
     params_wmax: 10
     params_part1_ans1_value: $t = 0\rm{s} $ to $ t = 1\rm{s}$, positive
     params_part1_ans1_feedback: Hmm... try again.

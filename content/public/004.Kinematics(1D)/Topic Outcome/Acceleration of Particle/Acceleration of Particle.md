@@ -63,9 +63,9 @@ myst:
     params_vars_unit1: $s$
     params_vars_unit2: $m/s^2$
     params_c1: 10
-    params_c2_abs: 10
+    params_c2_abs: 8
     params_c2_sign: ' - '
-    params_c3_abs: 48
+    params_c3_abs: 5
     params_c3_sign: ' - '
 ---
 # {{ params_vars_title }}

@@ -1,6 +1,6 @@
 ---
 title: Charge Model
-topic: Current
+topic: Circuits
 author: Vanshika Sharma
 source: 2.9.25
 template_version: 1.3
@@ -43,10 +43,10 @@ myst:
   substitutions:
     params_vars_title: Charge Model
     params_vars_units: A
-    params_c1: 31
-    params_c2: 49
-    params_c3: 9
-    params_t: 16
+    params_c1: 41
+    params_c2: 5
+    params_c3: 1
+    params_t: 5
 ---
 # {{ params_vars_title }}
 The quantity of charge through a conductor is modeled as $ \textrm{Q}=$ {{params_c1}}$\rm{t^4}$ $\rm{mC \over s^4}$ - {{params_c2}}$\rm{t}$ $\rm{mC \over s}$ + {{params_c1}} $\rm{mC}$.

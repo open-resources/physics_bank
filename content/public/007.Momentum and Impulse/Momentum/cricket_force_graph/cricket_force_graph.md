@@ -1,6 +1,6 @@
 ---
 title: Cricket Force Graph
-topic: Momentum
+topic: Momentum and Impulse
 author: John Hopkinson
 source: PHYS 112 2019W1 Others Q2
 template_version: 1.4

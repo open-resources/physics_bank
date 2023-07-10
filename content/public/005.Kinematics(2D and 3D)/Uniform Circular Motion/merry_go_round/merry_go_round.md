@@ -1,6 +1,6 @@
 ---
 title: Merry Go Round
-topic: Kinematics (2D and 3D)
+topic: Kinematics(2D and 3D)
 author: John Hopkinson
 source: PHYS 112 (Hopkinson) 2018W1 GPS V Q2
 template_version: 1.4
@@ -50,9 +50,9 @@ part3:
     directory: clientFilesQuestion
 myst:
   substitutions:
-    params_V: 1.5
-    params_T: 2.8
-    params_R: 7.8
+    params_V: 2.0
+    params_T: 2.0
+    params_R: 4.0
     params_vars_title: Merry Go Round
 ---
 # {{ params_vars_title }}

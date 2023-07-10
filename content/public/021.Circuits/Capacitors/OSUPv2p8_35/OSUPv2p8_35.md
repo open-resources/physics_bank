@@ -53,7 +53,7 @@ part2:
 myst:
   substitutions:
     params_vars_title: Connecting Capacitors
-    params_vars_name: Savannah
+    params_vars_name: Ximena
     params_a: '14'
     params_b: '9'
 ---

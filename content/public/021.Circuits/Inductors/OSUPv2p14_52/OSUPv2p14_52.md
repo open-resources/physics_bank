@@ -115,10 +115,10 @@ part6:
 myst:
   substitutions:
     params_vars_title: Switched RL Series Circuit
-    params_num: '3'
-    params_emf: '11.0'
-    params_L: '16.0'
-    params_R: '4.50'
+    params_num: ''
+    params_emf: '12.0'
+    params_L: '22.0'
+    params_R: '3.00'
 ---
 # {{ params_vars_title }}
 Consider the $RL$ circuit shown below.

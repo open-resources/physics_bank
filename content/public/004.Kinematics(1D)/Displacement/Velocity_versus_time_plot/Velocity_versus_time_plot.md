@@ -1,6 +1,6 @@
 ---
 title: Velocity versus time plot
-topic: Displacement
+topic: Kinematics(1D)
 author: Jake Bobowski
 source: 2017 Midterm 1 (002) Q7
 template_version: 1.1

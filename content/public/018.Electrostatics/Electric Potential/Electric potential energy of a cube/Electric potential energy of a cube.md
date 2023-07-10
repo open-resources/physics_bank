@@ -42,8 +42,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Electric potential energy of a cube
-    params_q: '2.00'
-    params_d: '3.00'
+    params_q: '2.20'
+    params_d: '1.20'
 ---
 # {{ params_vars_title }}
 

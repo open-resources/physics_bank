@@ -45,9 +45,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Resistance Swimmer
-    params_v: 5
-    params_h: 17
-    params_x: 5
+    params_v: 2
+    params_h: 14
+    params_x: 6
     params_a: 0.5
 ---
 # {{ params_vars_title }}

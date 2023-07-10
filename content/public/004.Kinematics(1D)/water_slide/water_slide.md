@@ -53,9 +53,9 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Santiago
+    params_vars_name: Ximena
     params_vars_title: Water Slide
-    params_theta: 30
+    params_theta: 50
     params_l: 800
     params_l2: 400.0
 ---

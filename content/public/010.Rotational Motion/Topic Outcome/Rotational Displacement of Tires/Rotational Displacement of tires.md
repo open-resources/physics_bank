@@ -33,11 +33,11 @@ part1:
     suffix: rad
 myst:
   substitutions:
-    params_vars_vehicle: bus
+    params_vars_vehicle: sedan
     params_vars_title: Rotational Displacement of Tires
     params_vars_units: rad
-    params_a: 8.65
-    params_t: 22.9
+    params_a: 6.3
+    params_t: 20.2
 ---
 # {{ params_vars_title }}
 A {{ params_vars_vehicle }} accelerates from rest at $t = 0$ such that its tires undergo a constant rotational acceleration of $\alpha = $ {{ params_a }} $s^{-2}$.

@@ -1,6 +1,6 @@
 ---
 title: Ratio of Diameter of Wires
-topic: Resistance
+topic: Circuits
 author: Vanshika Sharma
 source: 2.9.41
 template_version: 1.3

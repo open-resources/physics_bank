@@ -1,6 +1,6 @@
 ---
 title: Vector Operations
-topic: Vector Algebra
+topic: Vectors
 author: Peyman Yousefi
 source: APSC 181, Lecture 1, Q2
 template_version: 1.2
@@ -72,7 +72,7 @@ myst:
     params_vars_title: Vector Operations
     params_v1: 7
     params_v2: 7
-    params_angle: 48
+    params_angle: 47
 ---
 # {{ params_vars_title }}
 <img src="L1Q2_drawing.png" width=400>

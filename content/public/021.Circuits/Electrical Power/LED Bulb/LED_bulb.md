@@ -1,6 +1,6 @@
 ---
 title: LED Bulb
-topic: Electrical Power
+topic: Circuits
 author: Vanshika Sharma
 source: 2.9.58
 template_version: 1.3
@@ -42,8 +42,8 @@ myst:
   substitutions:
     params_vars_title: LED Bulb
     params_vars_units: $
-    params_c: 0.76
-    params_h: 13
+    params_c: 0.07
+    params_h: 23
 ---
 # {{ params_vars_title }}
 

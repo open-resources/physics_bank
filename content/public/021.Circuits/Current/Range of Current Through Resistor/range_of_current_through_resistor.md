@@ -1,6 +1,6 @@
 ---
 title: Range of Current Through Resistor
-topic: Current
+topic: Circuits
 author: Vanshika Sharma
 source: 2.9.51
 template_version: 1.3
@@ -52,10 +52,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Range of Current Through Resistor
-    params_R: 276
-    params_V: 4.4
-    params_p: 3
-    params_Vtotal: 8.8
+    params_R: 241
+    params_V: 2.2
+    params_p: 10
+    params_Vtotal: 4.4
 ---
 # {{ params_vars_title }}
 A resistor rated at {{params_R}} $\rm\ k\Omega$ is connected across two D cell batteries (each {{params_V}} $\textrm{ V}$) in series, with a total voltage of {{params_Vtotal}} $\textrm{ V}$.

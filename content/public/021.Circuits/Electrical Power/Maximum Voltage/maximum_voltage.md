@@ -1,6 +1,6 @@
 ---
 title: Maximum Voltage
-topic: Electrical Power
+topic: Circuits
 author: Vanshika Sharma
 source: 2.9.56
 template_version: 1.3
@@ -41,8 +41,8 @@ myst:
   substitutions:
     params_vars_title: Maximum Voltage
     params_vars_units: V
-    params_P: 1.8
-    params_R: 33
+    params_P: 1.31
+    params_R: 31
 ---
 # {{ params_vars_title }}
 

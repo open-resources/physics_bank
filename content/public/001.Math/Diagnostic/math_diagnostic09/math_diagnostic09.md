@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $n$ = $\dfrac{(r)}{(z + 3y)} $
-    params_part1_ans1_value: z = ${ - 3 y + \frac{r}{n}}$
-    params_part1_ans2_value: z = ${\frac{3 n y}{r}}$
-    params_part1_ans3_value: z = ${\frac{r}{3 n y}}$
-    params_part1_ans4_value: z = ${\frac{n - 3 y}{r}}$
+    params_expr: $q$ = $\dfrac{(b)}{(h - 3m)} $
+    params_part1_ans1_value: h = ${ \frac{b}{q} + 3 m}$
+    params_part1_ans2_value: h = ${- \frac{3 m q}{b}}$
+    params_part1_ans3_value: h = ${- \frac{b}{3 m q}}$
+    params_part1_ans4_value: h = ${\frac{3 m + q}{b}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

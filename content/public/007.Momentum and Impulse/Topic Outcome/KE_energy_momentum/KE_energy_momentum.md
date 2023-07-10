@@ -40,8 +40,8 @@ myst:
       of the object and the earth is a closed system.
     params_part1_ans3_value: If I throw an object straight up (vertically) in the
       air, its momentum at the highest point will be zero.
-    params_part1_ans4_value: If I throw an object straight up (vertically) in the
-      air, its kinetic energy at the highest point will be zero.
+    params_part1_ans4_value: If I throw an object diagonally up in the air, its momentum
+      at the highest point will be zero.
 ---
 # {{ params_vars_title }}
 

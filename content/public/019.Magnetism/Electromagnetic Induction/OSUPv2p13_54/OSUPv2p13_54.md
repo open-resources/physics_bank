@@ -38,7 +38,7 @@ myst:
     params_vars_title: Electric Field Outside Solenoid
     params_R: '2'
     params_r: '7'
-    params_n: '15'
+    params_n: '20'
     params_DI: '5'
 ---
 # {{ params_vars_title }}

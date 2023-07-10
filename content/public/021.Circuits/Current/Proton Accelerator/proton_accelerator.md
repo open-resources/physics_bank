@@ -1,6 +1,6 @@
 ---
 title: Proton Accelerator
-topic: Current
+topic: Circuits
 author: Vanshika Sharma
 source: 2.9.30
 template_version: 1.3
@@ -61,10 +61,10 @@ part3:
 myst:
   substitutions:
     params_vars_title: Proton Accelerator
-    params_r: 0.77
-    params_I: 42
-    params_n: 4.11
-    params_p: 12
+    params_r: 0.63
+    params_I: 47
+    params_n: 5.89
+    params_p: 41
 ---
 # {{ params_vars_title }}
 A high-energy proton accelerator produces a proton beam with a radius of {{params_r}} $\textrm{mm}$.

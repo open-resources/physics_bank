@@ -1,6 +1,6 @@
 ---
 title: Object True or False
-topic: Physic in General
+topic: Physics in General
 author: John Hopkinson
 source: PHYS 112 2020W1 Second Test Q1
 template_version: 1.4

@@ -42,9 +42,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Temperature Range of Resistor
-    params_p: 4
-    params_metal: Aluminum
-    params_T_0: 136
+    params_p: 8
+    params_metal: Platinum
+    params_T_0: 116
 ---
 # {{ params_vars_title }}
 

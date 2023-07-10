@@ -1,6 +1,6 @@
 ---
 title: Properties of Wire
-topic: Resistance
+topic: Circuits
 author: Vanshika Sharma
 source: 2.9.47
 template_version: 1.2

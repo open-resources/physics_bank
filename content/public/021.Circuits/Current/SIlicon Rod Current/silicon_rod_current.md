@@ -1,6 +1,6 @@
 ---
 title: Current Through A Silicon Rod
-topic: Current
+topic: Circuits
 author: Vanshika Sharma
 source: 2.9.42
 template_version: 1.3
@@ -43,9 +43,9 @@ myst:
   substitutions:
     params_vars_title: Current Through A Silicon Rod
     params_vars_units: "$\textrm{A}$"
-    params_d: 2.7
-    params_l: 34.2
-    params_V: 47
+    params_d: 3.11
+    params_l: 6.3
+    params_V: 16
 ---
 # {{ params_vars_title }}
 

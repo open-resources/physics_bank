@@ -1,6 +1,6 @@
 ---
 title: Projectile Motion on an Incline
-topic: Projectile Motion Kinematics
+topic: Kinematics(2D and 3D)
 author: Ammar Zavahir
 source: original
 template_version: 1.4
@@ -35,9 +35,9 @@ part1:
     suffix: m
 myst:
   substitutions:
-    params_a: 9
-    params_theta: 73
-    params_u: 41
+    params_a: 14
+    params_theta: 45
+    params_u: 27
 ---
 # Projectile Motion on an Incline
 A tennis ball is projected with a speed of u at angle of θ measured counter-clockwise from the normal to the inclined plane.
