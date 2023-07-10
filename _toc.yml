@@ -216,6 +216,7 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/AIrcraft Carrier/aircraft_carrier
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Archer Fish and
       Insect Catch/q02_number-input_AZ_Archer Fish
+  - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Archer Fish/archer_fish
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Relative Motion
       of Two Swimmers/relative_motion_of_two_swimmers
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Relative Motion
@@ -321,6 +322,7 @@ parts:
       Conjunction
   - file: content/public/006.Force/Newton's Second Law/Washing Machine Mechanics/q01_AZ_Force
       Kinetics
+  - file: content/public/006.Force/Newton's Second Law/Washing Machine Mechanics/washing_machine_mechanics
   - file: content/public/006.Force/Newton's Second Law/fridge_force_comparison/fridge_force_comparison
   - file: content/public/006.Force/Newton's Third Law/A_Leaf_Falling_From_A_Tree/A_Leaf_Falling_From_A_Tree
   - file: content/public/006.Force/Newton's Third Law/Force Vectors/force_vectors
