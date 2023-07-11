@@ -36,7 +36,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Rotating Spheres
-    params_m: 2.4
+    params_m: 2.6
     params_Mo: 3
     params_t: 3
     params_r: 0.2

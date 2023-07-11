@@ -42,8 +42,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Charge Stored in a Capacitor
-    params_c: '185'
-    params_v: '185'
+    params_c: '135'
+    params_v: '150'
 ---
 # {{ params_vars_title }}
 

@@ -36,9 +36,9 @@ myst:
     params_vars_vehicle: sedan
     params_vars_title: Displacement of a Vehicle
     params_vars_units: blocks
-    params_c1: 80
-    params_c2: 97
-    params_c3: 63
+    params_c1: 39
+    params_c2: 86
+    params_c3: 100
     params_dir1: east
     params_dir2: north
     params_dir3: south

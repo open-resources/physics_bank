@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $q$ = $\dfrac{(b)}{(h - 3m)} $
-    params_part1_ans1_value: h = ${ \frac{b}{q} + 3 m}$
-    params_part1_ans2_value: h = ${- \frac{3 m q}{b}}$
-    params_part1_ans3_value: h = ${- \frac{b}{3 m q}}$
-    params_part1_ans4_value: h = ${\frac{3 m + q}{b}}$
+    params_expr: $v$ = $\dfrac{(r)}{(g + 6i)} $
+    params_part1_ans1_value: g = ${ - 6 i + \frac{r}{v}}$
+    params_part1_ans2_value: g = ${\frac{6 i v}{r}}$
+    params_part1_ans3_value: g = ${\frac{r}{6 i v}}$
+    params_part1_ans4_value: g = ${\frac{- 6 i + v}{r}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

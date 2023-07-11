@@ -1,18 +1,16 @@
 ---
-title: 100 m Dash
-topic: Kinematics(1D)
+title: Equilateral triangle
+topic: Rotational Motion
 author: John Hopkinson
-source: PHYS 112 2018W Group Problem Solving I Q2
+source: PHYS 112 (Hopkinson) 2018W1 GPS IX
 template_version: 1.4
 attribution: standard
 partialCredit: true
-singleVariant: false
+singleVariant: true
 gradingMethod: Manual
 showCorrectAnswer: false
 outcomes:
-- 4.2.1.0
-- 4.2.1.1
-- 4.2.1.2
+- 10.6.1.1
 difficulty:
 - undefined
 randomization:
@@ -24,27 +22,22 @@ span:
 length:
 - undefined
 tags:
-- PW
-- tutorial
+- SJ
+- AK
 assets: null
 part1:
   type: file-upload
   pl-customizations:
-    file-names: model.pdf
+    file-names: file.png, file.jpg, file.pdf, filename space.png
 myst:
   substitutions:
-    params_vars_title: 100 m Dash
-    params_d1: 20
-    params_d2: 80
+    params_vars_title: Equilateral triangle
 ---
 # {{ params_vars_title }}
-In the 100 $m$ dash sprinters speed up from rest for the first {{ params_d1 }} $m$, and maintain their speed for the final {{ params_d2 }} $m$.
 
-## Part 1
+## Question Text
 
-Using the particle model, draw a set of dots on a reasonable coordinate system to represent this motion, take a picture, and upload your diagram.
-
-Your file must be a pdf named "model.pdf".
+Graphically find the centre of gravity of a uniform thickness equilateral triangle using the lines of symmetry. Upload as either a png,jpg, or pdf. Name the file as "file".
 
 ### Answer Section
 

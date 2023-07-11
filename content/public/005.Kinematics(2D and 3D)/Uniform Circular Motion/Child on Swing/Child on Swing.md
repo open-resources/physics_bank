@@ -45,10 +45,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Child on Swing
-    params_v: 569
-    params_h: 595
-    params_d: 905
-    params_r2: 1274
+    params_v: 544
+    params_h: 475
+    params_d: 929
+    params_r2: 1113
 ---
 # {{ params_vars_title }}
 <img src="L11Q2.png" width=85%>

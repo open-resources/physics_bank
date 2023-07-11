@@ -32,12 +32,12 @@ myst:
   substitutions:
     params_vars_title: Math Diagnostic11
     params_a: 1
-    params_b: 8
-    params_c: 9
-    params_part1_ans1_value: x = -6.6, x = -1.4
-    params_part1_ans2_value: x = 6.6, x = 1.4
-    params_part1_ans3_value: x = 8, x = 9
-    params_part1_ans4_value: x = 1, x = 8
+    params_b: 6
+    params_c: 1
+    params_part1_ans1_value: x = -5.8, x = -0.17
+    params_part1_ans2_value: x = 5.8, x = 0.17
+    params_part1_ans3_value: x = 6, x = 1
+    params_part1_ans4_value: x = 1, x = 6
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

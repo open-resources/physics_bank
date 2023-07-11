@@ -27,11 +27,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic15
-    params_expr: $9^{8} $=$ 43046721$
-    params_part1_ans1_value: $log_943046721 = 8$
-    params_part1_ans2_value: $log_98 = 43046721$
-    params_part1_ans3_value: $log_430467218 = 9$
-    params_part1_ans4_value: $log_843046721 = 9$
+    params_expr: $6^{8} $=$ 1679616$
+    params_part1_ans1_value: $log_61679616 = 8$
+    params_part1_ans2_value: $log_68 = 1679616$
+    params_part1_ans3_value: $log_16796168 = 6$
+    params_part1_ans4_value: $log_81679616 = 6$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

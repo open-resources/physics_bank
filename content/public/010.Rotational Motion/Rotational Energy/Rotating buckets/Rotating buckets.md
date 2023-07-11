@@ -37,8 +37,8 @@ myst:
   substitutions:
     params_vars_title: Rotating Buckets
     params_vars_units: kg
-    params_m1: 1.74
-    params_c: 5
+    params_m1: 2.8
+    params_c: 3
 ---
 # {{ params_vars_title }}
 A pair of buckets are connected by a *massless* rod.

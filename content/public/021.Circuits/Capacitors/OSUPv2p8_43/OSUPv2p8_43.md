@@ -53,8 +53,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Heart Defibrillator
-    params_c: '10.0'
-    params_v: '8.0'
+    params_c: '18.0'
+    params_v: '9.0'
 ---
 # {{ params_vars_title }}
 

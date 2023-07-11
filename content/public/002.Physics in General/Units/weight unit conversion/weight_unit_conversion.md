@@ -46,7 +46,7 @@ part3:
 myst:
   substitutions:
     params_vars_title: Weight units conversion
-    params_w_lbs: 187
+    params_w_lbs: 169
 ---
 # {{ params_vars_title }}
 A students has a mass of {{params.w_lbs}} $lbs$.

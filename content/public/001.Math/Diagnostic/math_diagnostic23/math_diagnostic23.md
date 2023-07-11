@@ -27,14 +27,15 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic23
-    params_a: 9
-    params_b: 1
-    params_formula: $x^{9} \sin{\left(x \right)}$
-    params_part1_ans1_value: $x^{9} \cos{\left(x \right)} + 9 x^{8} \sin{\left(x \right)}$
-    params_part1_ans2_value: $x^{9} \cos{\left(x \right)} $
-    params_part1_ans3_value: $ 9 x^{8} \cos{\left(x \right)}$
-    params_part1_ans4_value: $- x^{9} \sin{\left(x \right)} + 9 x^{8} \cos{\left(x
-      \right)}$
+    params_a: 8
+    params_b: 5
+    params_formula: $x^{8} \cos{\left(5 x \right)}$
+    params_part1_ans1_value: $- 5 x^{8} \sin{\left(5 x \right)} + 8 x^{7} \cos{\left(5
+      x \right)}$
+    params_part1_ans2_value: $- 5 x^{8} \sin{\left(5 x \right)} $
+    params_part1_ans3_value: $ 8 x^{7} \sin{\left(5 x \right)}$
+    params_part1_ans4_value: $5 x^{8} \cos{\left(5 x \right)} + 8 x^{7} \sin{\left(5
+      x \right)}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}
