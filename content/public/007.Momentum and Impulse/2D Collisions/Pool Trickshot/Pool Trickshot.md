@@ -45,7 +45,7 @@ myst:
   substitutions:
     params_vars_title: Pool Trickshot
     params_thetad: 30
-    params_e: 0.7
+    params_e: 0.85
 ---
 # {{ params_vars_title }}
 <img src="L22Q1.png" width=400>

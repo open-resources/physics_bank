@@ -80,7 +80,7 @@ part7:
 myst:
   substitutions:
     params_vars_title: Carts Collide Fvt
-    params_m1: 1.39
+    params_m1: 1.35
     params_m2: 0.51
 ---
 # {{ params_vars_title }}

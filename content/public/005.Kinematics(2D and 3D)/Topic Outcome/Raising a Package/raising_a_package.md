@@ -38,8 +38,8 @@ myst:
   substitutions:
     params_vars_title: Raising a Package
     params_vars_units: mm
-    params_v_a: 254
-    params_t: 4
+    params_v_a: 285
+    params_t: 8
 ---
 # {{ params_vars_title }}
 

@@ -51,7 +51,7 @@ part3:
 myst:
   substitutions:
     params_vars_title: Projectile Uncertainty
-    params_vars_name: Emilia
+    params_vars_name: Maya
     params_vars_units1: m/s
     params_vars_units2: m
     params_d: 0.126

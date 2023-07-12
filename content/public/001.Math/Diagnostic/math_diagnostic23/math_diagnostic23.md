@@ -28,13 +28,13 @@ myst:
   substitutions:
     params_vars_title: Math Diagnostic23
     params_a: 2
-    params_b: 6
-    params_formula: $x^{2} \sin{\left(6 x \right)}$
-    params_part1_ans1_value: $6 x^{2} \cos{\left(6 x \right)} + 2 x \sin{\left(6 x
+    params_b: 2
+    params_formula: $x^{2} \sin{\left(2 x \right)}$
+    params_part1_ans1_value: $2 x^{2} \cos{\left(2 x \right)} + 2 x \sin{\left(2 x
       \right)}$
-    params_part1_ans2_value: $6 x^{2} \cos{\left(6 x \right)} $
-    params_part1_ans3_value: $ 2 x \cos{\left(6 x \right)}$
-    params_part1_ans4_value: $- 6 x^{2} \sin{\left(6 x \right)} + 2 x \cos{\left(6
+    params_part1_ans2_value: $2 x^{2} \cos{\left(2 x \right)} $
+    params_part1_ans3_value: $ 2 x \cos{\left(2 x \right)}$
+    params_part1_ans4_value: $- 2 x^{2} \sin{\left(2 x \right)} + 2 x \cos{\left(2
       x \right)}$
     params_part1_ans5_value: Don't Know
 ---

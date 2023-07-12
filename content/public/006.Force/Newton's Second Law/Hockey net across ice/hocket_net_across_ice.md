@@ -30,14 +30,14 @@ part1:
 myst:
   substitutions:
     params_vars_title: Hockey net across ice
-    params_v: 6
-    params_f: 3.090890807820569
+    params_v: 7
+    params_f: 3.363382934021357
     params_part1_ans1_value: At a steadily increasing speed.
-    params_part1_ans2_value: At 19.0 $\mathrm{m/s}$.
-    params_part1_ans3_value: At an increasing speed until it reaches 19.0 $\mathrm{m/s}$
+    params_part1_ans2_value: At 24.0 $\mathrm{m/s}$.
+    params_part1_ans3_value: At an increasing speed until it reaches 24.0 $\mathrm{m/s}$
       then at a constant speed.
     params_part1_ans4_value: At a steadily decreasing speed.
-    params_part1_ans5_value: At 6 $\mathrm{m/s}$.
+    params_part1_ans5_value: At 7 $\mathrm{m/s}$.
 ---
 # {{ params_vars_title }}
 

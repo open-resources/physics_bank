@@ -47,8 +47,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Electric Field Between Capacitor Plates
-    params_a: '3.3'
-    params_b: '1.6'
+    params_a: '3.8'
+    params_b: '1.3'
 ---
 # {{ params_vars_title }}
 Two parallel plates have equal and opposite charges. When the space between the plates is evacuated, the electrical field is $E = {{params_a }} \times 10^5 \textrm{ V/m}$. When the space is filled with dielectric, the electrical field is $E = {{params_b }} \times 10^5 \textrm{ V/m}$.

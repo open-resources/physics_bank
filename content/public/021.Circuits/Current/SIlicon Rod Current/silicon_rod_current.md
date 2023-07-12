@@ -43,9 +43,9 @@ myst:
   substitutions:
     params_vars_title: Current Through A Silicon Rod
     params_vars_units: "$\textrm{A}$"
-    params_d: 1.17
-    params_l: 4.9
-    params_V: 40
+    params_d: 4.61
+    params_l: 21.3
+    params_V: 53
 ---
 # {{ params_vars_title }}
 

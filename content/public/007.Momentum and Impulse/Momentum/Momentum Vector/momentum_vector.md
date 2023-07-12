@@ -33,20 +33,20 @@ part1:
 myst:
   substitutions:
     params_vars_title: Momentum Vector
-    params_px: 4
-    params_py: -3
-    params_part1_ans1_value: $p= 5\; \rm{kg \; m/s}$, $\theta = 36.87^\circ$.
+    params_px: 12
+    params_py: 5
+    params_part1_ans1_value: $p= 13\; \rm{kg \; m/s}$, $\theta = 337.38^\circ$.
     params_part1_ans1_feedback: Hmm, it looks like your angle is off. Make sure you're
       calculating the desired angle.
-    params_part1_ans2_value: $p= -5\; \rm{kg \; m/s}$, $\theta = 323.13^\circ$.
+    params_part1_ans2_value: $p= -13\; \rm{kg \; m/s}$, $\theta = 22.62^\circ$.
     params_part1_ans2_feedback: Hmm, can a magnitude really be negative?
-    params_part1_ans3_value: $p= 5\; \rm{kg \; m/s}$, $\theta = 143.13^\circ$.
+    params_part1_ans3_value: $p= 13\; \rm{kg \; m/s}$, $\theta = 202.62^\circ$.
     params_part1_ans3_feedback: Close, try drawing out the momentum vector to make
       sure you have the correct angle!
-    params_part1_ans4_value: $p= -5\; \rm{kg \; m/s}$, $\theta = 143.13^\circ$.
+    params_part1_ans4_value: $p= -13\; \rm{kg \; m/s}$, $\theta = 202.62^\circ$.
     params_part1_ans4_feedback: Try drawing out the momentum vector and make sure
       your answers match!
-    params_part1_ans5_value: $p= 5\; \rm{kg \; m/s}$, $\theta = 323.13^\circ$.
+    params_part1_ans5_value: $p= 13\; \rm{kg \; m/s}$, $\theta = 22.62^\circ$.
     params_part1_ans5_feedback: Great! You got it.
 ---
 # {{ params_vars_title }}

@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $o$ = $\dfrac{(c)}{(e + 2v)} $
-    params_part1_ans1_value: e = ${ \frac{c}{o} - 2 v}$
-    params_part1_ans2_value: e = ${\frac{2 o v}{c}}$
-    params_part1_ans3_value: e = ${\frac{c}{2 o v}}$
-    params_part1_ans4_value: e = ${\frac{o - 2 v}{c}}$
+    params_expr: $b$ = $\dfrac{(g)}{(n - 8i)} $
+    params_part1_ans1_value: n = ${ 8 i + \frac{g}{b}}$
+    params_part1_ans2_value: n = ${- \frac{8 b i}{g}}$
+    params_part1_ans3_value: n = ${- \frac{g}{8 b i}}$
+    params_part1_ans4_value: n = ${\frac{b + 8 i}{g}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

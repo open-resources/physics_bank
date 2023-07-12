@@ -35,9 +35,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Horizontal Beam
-    params_M: 1.8
-    params_m: 0.7
-    params_L: 4.2
+    params_M: 2.2
+    params_m: 0.9
+    params_L: 3.1
     params_w: 1.1
 ---
 # {{ params_vars_title }}

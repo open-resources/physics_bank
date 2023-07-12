@@ -39,7 +39,7 @@ myst:
     params_vars_title: Dice on the Mirror
     params_vars_units: ^{\circ}
     params_a: 5
-    params_theta: 8
+    params_theta: 20
 ---
 # {{ params_vars_title }}
 
