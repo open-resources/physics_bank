@@ -30,10 +30,10 @@ part1:
     fixed-order: true
 myst:
   substitutions:
-    params_vars_vehicle: truck
+    params_vars_vehicle: sedan
     params_vars_title: Racing Markers
-    params_vars_v1: 47
-    params_vars_v2: 24.0
+    params_vars_v1: 35
+    params_vars_v2: 18.0
     params_part1_ans1_value: Marker 1
     params_part1_ans2_value: Between Marker 1 and Marker 2
     params_part1_ans3_value: Marker 2

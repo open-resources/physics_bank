@@ -88,14 +88,14 @@ part7:
 myst:
   substitutions:
     params_vars_title: Rotating Student
-    params_m_t: 61
-    params_m_a: 9
+    params_m_t: 70
+    params_m_a: 8
     params_m_m: 3
     params_r_t: 1.1
-    params_r_ao: 0.87
-    params_r_ai: 0.25
+    params_r_ao: 0.8
+    params_r_ai: 0.22
     params_h_t: 1.6
-    params_dt: 3.5
+    params_dt: 5.0
 ---
 # {{ params_vars_title }}
 In class, we had a student standing on a platform with their arms outstretched while holding masses. The student was rotated in this position and then pulled their arms in and we observed how their angular velocity changed. For this problem we will assume that the student's torso has a cylindrical (rather than rectangular) cross-section with a radius of $r\_{\text{t}} = {{ params.r_t }} \rm{m}$ and mass $m\_{\text{t}} = {{ params.m_t }} \rm{kg}$. The student's two arms have a total mass of $m\_{\text{a}} = {{ params.m_a }} \rm{kg}$, a radius of $r\_{\text{a,out}} = {{ params.r_ao }} \rm{m}$ when outstretched, and a radius of $r\_{\text{a,in}} = {{ params.r_ai }} \rm{m}$ when held in. The student holds $m\_{\text{m}} = {{ params.m_m }} \rm{kg}$ masses in each hand. Treat the student's arms as point masses when held in and as thin rods when outstreched. The student's torso may be modelled as a solid cylinder with a height of $h\_{\text{t}} = {{ params.h_t }} \rm{m}$.

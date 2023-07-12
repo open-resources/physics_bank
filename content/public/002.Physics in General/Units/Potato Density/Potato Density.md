@@ -59,12 +59,12 @@ part4:
 myst:
   substitutions:
     params_vars_title: Potato Density
-    params_vars_name: Lorenzo
+    params_vars_name: Santiago
     params_vars_unit1: $kg$
     params_vars_unit2: $m^3$
-    params_m_p: 189
-    params_m_cp: 86
-    params_l: 3
+    params_m_p: 180
+    params_m_cp: 71
+    params_l: 2
 ---
 # {{ params_vars_title }}
 For their first lab, {{ params_vars_name }} decides to measure the density of a potato.

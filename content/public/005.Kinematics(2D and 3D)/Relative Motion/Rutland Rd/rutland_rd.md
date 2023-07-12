@@ -41,7 +41,7 @@ myst:
     params_vars_title: Rutland Rd
     params_vars_vehicle: car
     params_vars_units: km/h
-    params_v: 43
+    params_v: 64
     params_part2_ans1_value: North
     params_part2_ans2_value: North-East
     params_part2_ans3_value: East

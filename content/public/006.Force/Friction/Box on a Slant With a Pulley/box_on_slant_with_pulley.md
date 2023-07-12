@@ -51,9 +51,9 @@ part3:
 myst:
   substitutions:
     params_vars_title: Box on a Slant with a Pulley
-    params_angl: 19
+    params_angl: 23
     params_coef: 0.1
-    params_mass: 9
+    params_mass: 3
 ---
 # {{ params_vars_title }}
 The figure shows a block of mass $m_s$ resting on a $\theta = {{params_angl}}^\circ$ slope.

@@ -32,11 +32,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic08
-    params_expr: $\dfrac{-6x - 24y }{ -3 }$
-    params_part1_ans1_value: $2 x + 8 y$
-    params_part1_ans2_value: $\dfrac{2x + 8y}{-3}$
-    params_part1_ans3_value: $8x + 2y$
-    params_part1_ans4_value: $-6x + 24y$
+    params_expr: $\dfrac{63x - 14y }{ 7 }$
+    params_part1_ans1_value: $9 x - 2 y$
+    params_part1_ans2_value: $\dfrac{9x - 2y}{7}$
+    params_part1_ans3_value: $-2x + 9y$
+    params_part1_ans4_value: $63x - 14y$
     params_part1_ans5_value: Don't know.
 ---
 # {{ params_vars_title }}

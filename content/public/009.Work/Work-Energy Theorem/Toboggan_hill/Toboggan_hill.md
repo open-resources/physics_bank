@@ -66,17 +66,17 @@ part4:
     digits: 1
 myst:
   substitutions:
-    params_vars_name: Savannah
+    params_vars_name: Santiago
     params_vars_title: Toboggan Hill
     params_vars_units1_2_3: "$\rm{kJ}$"
     params_vars_units_4: "$\rm{m/s}$"
-    params_m: 33
-    params_l: 99
-    params_ang_horiz: 23
-    params_fr: 93
+    params_m: 31
+    params_l: 100
+    params_ang_horiz: 28
+    params_fr: 94
     params_fwind: 20
-    params_ang_wind: 16
-    params_v_i: 1
+    params_ang_wind: 18
+    params_v_i: 3
 ---
 # {{ params_vars_title }}
 {{params_vars_name}} and their sled, with a combined mass of ${{params_m}}$ $\rm{kg}$, slide ${{params_l}}$ $\rm{m}$ down a hill that makes an angle of ${{params.ang_horiz}}^\circ$ with the horizontal.

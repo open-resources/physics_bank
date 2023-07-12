@@ -38,7 +38,7 @@ myst:
     params_vars_title: Block In Hole
     params_vars_units: m
     params_a: 28
-    params_d: 0.7
+    params_d: 0.9
 ---
 # {{ params_vars_title }}
 A small block is placed at height $h$ on a frictionless, {{params_a}}$^\circ$ ramp.

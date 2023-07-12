@@ -46,13 +46,13 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Santiago
+    params_vars_name: Mateo
     params_vars_title: Potato Volume
     params_vars_mass_units: kg
     params_vars_volume_units: m^3
-    params_vars_mass_potato: 188
-    params_vars_mass_cube: 84
-    params_vars_cube_side_length: 3.7392629044920773
+    params_vars_mass_potato: 214
+    params_vars_mass_cube: 66
+    params_vars_cube_side_length: 3.273349766372921
 ---
 # {{ params_vars_title }}
 For our first lab, {{params_vars_name}} decides to measure the density of a potato.

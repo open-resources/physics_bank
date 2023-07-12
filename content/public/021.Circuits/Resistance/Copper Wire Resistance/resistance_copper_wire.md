@@ -42,8 +42,8 @@ myst:
   substitutions:
     params_vars_title: Resistance Of A Copper Wire
     params_vars_units: Ohms
-    params_d: 4.725
-    params_l: 15.6
+    params_d: 5.598
+    params_l: 19.7
 ---
 # {{ params_vars_title }}
 

@@ -92,32 +92,32 @@ part9:
 myst:
   substitutions:
     params_vars_title: A Mischievous Caracara
-    params_v: 3
-    params_h: 12
+    params_v: 6
+    params_h: 5
     params_part4_ans1_value: East
     params_part4_ans1_feedback: Great! You got it.
-    params_part4_ans2_value: West and up
+    params_part4_ans2_value: South and down
     params_part4_ans2_feedback: Hmh...Try again!
     params_part4_ans3_value: North and up
     params_part4_ans3_feedback: Hmh...Try again!
-    params_part4_ans4_value: West and down
+    params_part4_ans4_value: South and up
     params_part4_ans4_feedback: Hmh...Try again!
     params_part4_ans5_value: East and down
     params_part4_ans5_feedback: The nut does not start moving down immediately
-    params_part4_ans6_value: East and up
+    params_part4_ans6_value: North and down
     params_part4_ans6_feedback: Hmh...Try again!
     params_part7_ans1_value: Down
     params_part7_ans1_feedback: Great! You got it.
-    params_part7_ans2_value: South and down
+    params_part7_ans2_value: East and up
     params_part7_ans2_feedback: Hmh...Try again!
-    params_part7_ans3_value: East and down
+    params_part7_ans3_value: South and down
     params_part7_ans3_feedback: Hmh...Try again!
     params_part7_ans4_value: North and up
     params_part7_ans4_feedback: Hmh...Try again!
-    params_part7_ans5_value: Up
-    params_part7_ans5_feedback: 'Hint: acceleration due to gravity.'
-    params_part7_ans6_value: West
-    params_part7_ans6_feedback: Gravity is the only source of acceleration!
+    params_part7_ans5_value: West
+    params_part7_ans5_feedback: Gravity is the only source of acceleration!
+    params_part7_ans6_value: South and up
+    params_part7_ans6_feedback: Hmh...Try again!
 ---
 # {{ params_vars_title }}
 A mischievous caracara sees a fisherman unscrew a shiny steel nut from a bolt on his ship while doing repairs in a harbor off the Falkland Islands.  The fisherman watches helplessly as the bird picks up the nut and flies toward the shore.  The bird flies due east at a constant speed of {{ params_v }} $\rm{m/s}$ and constant height of {{ params_h }} $\rm{m}$.  The bird flies directly over a person on the shoreline, dropping the nut at the instant they are above the person.

@@ -31,13 +31,13 @@ myst:
   substitutions:
     params_vars_title: Discus Thrower
     params_vars_units: $rad/s$
-    params_r: 2
-    params_a: 54
-    params_part1_ans1_value: 37.0
-    params_part1_ans2_value: 1357.0
-    params_part1_ans3_value: 216
-    params_part1_ans4_value: 13.0
-    params_part1_ans5_value: 18.0
+    params_r: 3
+    params_a: 48
+    params_part1_ans1_value: 43.0
+    params_part1_ans2_value: 1810.0
+    params_part1_ans3_value: 288
+    params_part1_ans4_value: 12.0
+    params_part1_ans5_value: 17.0
 ---
 # {{ params_vars_title }}
 A discus thrower makes {{ params_r }} complete revolutions from rest while holding the discus at a distance of 1 $m$ from their centre before releasing it.

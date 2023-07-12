@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $h$ = $\dfrac{(m)}{(p - 8n)} $
-    params_part1_ans1_value: p = ${ 8 n + \frac{m}{h}}$
-    params_part1_ans2_value: p = ${- \frac{8 h n}{m}}$
-    params_part1_ans3_value: p = ${- \frac{m}{8 h n}}$
-    params_part1_ans4_value: p = ${\frac{h + 8 n}{m}}$
+    params_expr: $i$ = $\dfrac{(z)}{(m + 8k)} $
+    params_part1_ans1_value: m = ${ - 8 k + \frac{z}{i}}$
+    params_part1_ans2_value: m = ${\frac{8 i k}{z}}$
+    params_part1_ans3_value: m = ${\frac{z}{8 i k}}$
+    params_part1_ans4_value: m = ${\frac{i - 8 k}{z}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

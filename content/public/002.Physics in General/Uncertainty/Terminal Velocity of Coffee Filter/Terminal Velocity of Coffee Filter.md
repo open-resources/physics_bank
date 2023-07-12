@@ -61,15 +61,15 @@ myst:
     params_vars_name: Aliyah
     params_vars_unit1: $m/s$
     params_vars_unit2: $kg/s$
-    params_m: 3
-    params_d_m: 49
-    params_sd: 0.076
-    params_v1: 0.72
-    params_v2: 0.83
-    params_v3: 0.86
-    params_v4: 0.87
-    params_v5: 0.94
-    params_v6: 0.95
+    params_m: 5
+    params_d_m: 53
+    params_sd: 0.094
+    params_v1: 0.76
+    params_v2: 0.89
+    params_v3: 0.73
+    params_v4: 0.92
+    params_v5: 0.95
+    params_v6: 0.98
 ---
 # {{ params_vars_title }}
 In one of the PHYS 111 labs {{ params_vars_name }} measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling through the air.

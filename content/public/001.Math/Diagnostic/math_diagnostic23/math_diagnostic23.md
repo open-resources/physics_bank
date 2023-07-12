@@ -27,13 +27,15 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic23
-    params_a: 1
-    params_b: 9
-    params_formula: $x \cos{\left(9 x \right)}$
-    params_part1_ans1_value: $- 9 x \sin{\left(9 x \right)} + \cos{\left(9 x \right)}$
-    params_part1_ans2_value: $- 9 x \sin{\left(9 x \right)} $
-    params_part1_ans3_value: $ \sin{\left(9 x \right)}$
-    params_part1_ans4_value: $9 x \cos{\left(9 x \right)} + \sin{\left(9 x \right)}$
+    params_a: 6
+    params_b: 2
+    params_formula: $x^{6} \cos{\left(2 x \right)}$
+    params_part1_ans1_value: $- 2 x^{6} \sin{\left(2 x \right)} + 6 x^{5} \cos{\left(2
+      x \right)}$
+    params_part1_ans2_value: $- 2 x^{6} \sin{\left(2 x \right)} $
+    params_part1_ans3_value: $ 6 x^{5} \sin{\left(2 x \right)}$
+    params_part1_ans4_value: $2 x^{6} \cos{\left(2 x \right)} + 6 x^{5} \sin{\left(2
+      x \right)}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

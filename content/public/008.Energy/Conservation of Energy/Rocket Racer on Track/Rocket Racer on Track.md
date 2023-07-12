@@ -36,10 +36,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Rocket Racer on Track
-    params_m: 19
-    params_va: 4
-    params_vb: 23
-    params_h: 45
+    params_m: 12
+    params_va: 2
+    params_vb: 16
+    params_h: 39
     params_d: 40
 ---
 # {{ params_vars_title }}

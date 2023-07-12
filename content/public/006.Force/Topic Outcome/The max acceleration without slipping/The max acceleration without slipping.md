@@ -37,11 +37,11 @@ part1:
     suffix: $m/s^2$
 myst:
   substitutions:
-    params_vars_vehicle: bus
+    params_vars_vehicle: truck
     params_vars_title: A Crate's Maximum Acceleration without Slipping
     params_vars_units: $m/s^2$
-    params_mu_s: 0.87
-    params_mu_k: 0.36
+    params_mu_s: 0.55
+    params_mu_k: 0.39
     params_theta: 26
 ---
 # {{ params_vars_title }}

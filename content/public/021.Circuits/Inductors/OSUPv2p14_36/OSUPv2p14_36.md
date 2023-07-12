@@ -51,8 +51,8 @@ myst:
     params_part1_ans2_value: Left-hand side
     params_part2_ans1_value: Right-hand side
     params_part2_ans2_value: Left-hand side
-    params_change1: increasing
-    params_change2: decreasing
+    params_change1: decreasing
+    params_change2: also decreasing
     params_find: lower
 ---
 # {{ params_vars_title }}

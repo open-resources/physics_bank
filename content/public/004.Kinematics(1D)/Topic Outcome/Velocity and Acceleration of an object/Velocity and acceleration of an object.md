@@ -31,14 +31,14 @@ part1:
 myst:
   substitutions:
     params_vars_title: Velocity and Acceleration of an Object
-    params_v: $8t^2 - 5t$
-    params_time: 19.4
-    params_part1_ans1_value: $v = $ 2910.0 $m/s$, $a = $ 305.0 $m/s^2$
-    params_part1_ans2_value: $v = $ 2910.0 $m/s$, $a = $ 0 $m/s^2$
-    params_part1_ans3_value: $v = $ 2910.0 $m/s$, $a = $ 9.81 $m/s^2$
-    params_part1_ans4_value: $v = $ 19.4 $m/s$, $a = $ 153.0 $m/s^2$
-    params_part1_ans5_value: $v = $ 2910.0 $m/s$, $a = $ -305.0 $m/s^2$
-    params_part1_ans6_value: $v = $ 2910.0 $m/s$, $a = $ 610.0 $m/s^2$
+    params_v: $-2t^2$
+    params_time: 7.33
+    params_part1_ans1_value: $v = $ -107.0 $m/s$, $a = $ -29.3 $m/s^2$
+    params_part1_ans2_value: $v = $ -107.0 $m/s$, $a = $ 0 $m/s^2$
+    params_part1_ans3_value: $v = $ -107.0 $m/s$, $a = $ 9.81 $m/s^2$
+    params_part1_ans4_value: $v = $ 7.33 $m/s$, $a = $ -14.7 $m/s^2$
+    params_part1_ans5_value: $v = $ -107.0 $m/s$, $a = $ 29.3 $m/s^2$
+    params_part1_ans6_value: $v = $ -107.0 $m/s$, $a = $ -58.6 $m/s^2$
 ---
 # {{ params_vars_title }}
 If the velocity of an object in one-dimensional motion is given by $v(t) = $ {{ params_v }}, where the units of $v$ are in $m/s$ and of $t$ are in seconds,

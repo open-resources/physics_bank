@@ -44,9 +44,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Tube up a Hill
-    params_W: 525
-    params_t: 17
-    params_v: 4
+    params_W: 648
+    params_t: 12
+    params_v: 2
     params_P: 6
     params_P2: 8
 ---
