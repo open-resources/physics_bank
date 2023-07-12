@@ -72,10 +72,10 @@ myst:
     params_vars_part3_units: $kg m^2$/s
     params_vars_part4_units: rad/s
     params_vars_part5_units: J
-    params_m_p: 0.99
-    params_r_p: 0.34
-    params_m: 2.15
-    params_r: 0.06
+    params_m_p: 1.69
+    params_r_p: 0.31
+    params_m: 1.92
+    params_r: 0.23
     params_x: 3
 ---
 # {{ params_vars_title }}

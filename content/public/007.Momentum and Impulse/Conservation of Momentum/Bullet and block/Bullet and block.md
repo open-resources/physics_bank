@@ -41,12 +41,12 @@ part2:
 myst:
   substitutions:
     params_vars_title: Bullet and Block
-    params_vars_name: Maya
-    params_m_bullet: 26
-    params_m_block: 23
-    params_bullet_v: 848
-    params_slide_d: 4
-    params_slide_dnew: 4.7
+    params_vars_name: Lorenzo
+    params_m_bullet: 30
+    params_m_block: 24
+    params_bullet_v: 800
+    params_slide_d: 3
+    params_slide_dnew: 3.3
     params_coeff_k: 0.2
 ---
 # {{ params_vars_title }}

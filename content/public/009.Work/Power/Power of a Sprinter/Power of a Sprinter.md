@@ -37,9 +37,9 @@ myst:
     params_vars_title: Power of a Sprinter
     params_vars_units: W
     params_v: 11
-    params_t: 3
-    params_m: 87
-    params_v2: 4
+    params_t: 1
+    params_m: 84
+    params_v2: 8
 ---
 # {{ params_vars_title }}
 A {{ params_m }}$kg$ sprinter accelerates uniformly from rest to reach their maximum speed of {{ params_v }}$m/s$ in {{ params_t }} seconds.

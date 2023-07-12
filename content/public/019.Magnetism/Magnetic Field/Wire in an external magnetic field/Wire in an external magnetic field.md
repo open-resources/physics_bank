@@ -43,9 +43,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Wire in an external magnetic field
-    params_I: '24.5'
-    params_Bext: '47.5'
-    params_d: '22.0'
+    params_I: '19.5'
+    params_Bext: '46.0'
+    params_d: '23.5'
 ---
 # {{ params_vars_title }}
 A long, straight, horizontal wire carries a left-to-right current of {{ params_I }}$\rm\ A$.

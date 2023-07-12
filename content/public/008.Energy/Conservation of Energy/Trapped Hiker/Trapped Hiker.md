@@ -36,13 +36,13 @@ part1:
 myst:
   substitutions:
     params_vars_title: Trapped Hiker
-    params_m: 65
-    params_F: 1480
-    params_x1: 4.0
-    params_d: 16.0
-    params_h: 9.0
-    params_k: 46
-    params_thetad: 6
+    params_m: 100
+    params_F: 1468
+    params_x1: 3.0
+    params_d: 17.0
+    params_h: 6.0
+    params_k: 50
+    params_thetad: 8
 ---
 # {{ params_vars_title }}
 <img src="Spring Restraining Cart.png" width=400>

@@ -43,10 +43,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Inductance of a Coil
-    params_V: '0.20'
-    params_I_i: '0.20'
-    params_I_f: '0.65'
-    params_t: '0.25'
+    params_V: '0.90'
+    params_I_i: '0.30'
+    params_I_f: '0.70'
+    params_t: '0.70'
 ---
 # {{ params_vars_title }}
 An emf of ${{ params_V }}\rm\ V$ is induced across a coil when the current through it changes uniformly from ${{ params.I_i }}\rm\ A$ to ${{ params.I_f }}\rm\ A$ in ${{ params_t }}\rm\ s$.

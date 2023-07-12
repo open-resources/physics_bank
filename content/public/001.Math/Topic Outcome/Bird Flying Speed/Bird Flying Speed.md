@@ -46,7 +46,7 @@ myst:
     params_vars_title: Bird Flying Speed
     params_vars_units: $km/h$
     params_m_1: 5
-    params_v_1: 74
+    params_v_1: 70
     params_m_2: 3
 ---
 # {{ params_vars_title }}

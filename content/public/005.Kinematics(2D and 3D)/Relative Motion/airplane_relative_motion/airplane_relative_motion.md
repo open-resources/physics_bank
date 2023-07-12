@@ -88,8 +88,8 @@ part8:
 myst:
   substitutions:
     params_vars_title: Airplane Relative Motion
-    params_v1: 800.0
-    params_v2: 200.0
+    params_v1: 810.0
+    params_v2: 140.0
     params_theta: 44.0
 ---
 # {{ params_vars_title }}

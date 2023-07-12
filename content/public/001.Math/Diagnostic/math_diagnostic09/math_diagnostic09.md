@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $m$ = $\dfrac{(a)}{(k + 9d)} $
-    params_part1_ans1_value: k = ${ \frac{a}{m} - 9 d}$
-    params_part1_ans2_value: k = ${\frac{9 d m}{a}}$
-    params_part1_ans3_value: k = ${\frac{a}{9 d m}}$
-    params_part1_ans4_value: k = ${\frac{- 9 d + m}{a}}$
+    params_expr: $h$ = $\dfrac{(m)}{(p - 8n)} $
+    params_part1_ans1_value: p = ${ 8 n + \frac{m}{h}}$
+    params_part1_ans2_value: p = ${- \frac{8 h n}{m}}$
+    params_part1_ans3_value: p = ${- \frac{m}{8 h n}}$
+    params_part1_ans4_value: p = ${\frac{h + 8 n}{m}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

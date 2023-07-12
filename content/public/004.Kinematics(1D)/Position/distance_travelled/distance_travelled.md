@@ -29,18 +29,18 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Ximena
-    params_vars_vehicle: a bicycle
+    params_vars_name: Lorenzo
+    params_vars_vehicle: ice skates
     params_vars_units: m
     params_vars_title: Distance travelled
-    params_v: 3
-    params_t: 5
+    params_v: 4
+    params_t: 7
     params_part1_ans1_value: 42.0
-    params_part1_ans2_value: 15
-    params_part1_ans3_value: 8
-    params_part1_ans4_value: 0.6
-    params_part1_ans5_value: -2
-    params_part1_ans6_value: -2.6
+    params_part1_ans2_value: 28
+    params_part1_ans3_value: 11
+    params_part1_ans4_value: 0.57
+    params_part1_ans5_value: -3
+    params_part1_ans6_value: -3.9
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} is traveling on {{ params_vars_vehicle }} at {{ params_v }} $\rm{m/s}$.

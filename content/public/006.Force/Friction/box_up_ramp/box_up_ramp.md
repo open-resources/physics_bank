@@ -76,10 +76,10 @@ part7:
 myst:
   substitutions:
     params_vars_title: Box Up Ramp
-    params_vars_name: Lorenzo
-    params_f: 179.0
-    params_k: 0.4
-    params_s: 0.5
+    params_vars_name: Abbas
+    params_f: 184.0
+    params_k: 0.1
+    params_s: 0.4
     params_ang: 12
     params_part2_ans1_value: No, this is not an example of static or dynamic equilibrium.
     params_part2_ans1_feedback: Consider the net force.

@@ -40,8 +40,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Velocity Selector
-    params_B: 1.46
-    params_E: 0.458
+    params_B: 1.483
+    params_E: 2.266
 ---
 # {{ params_vars_title }}
 

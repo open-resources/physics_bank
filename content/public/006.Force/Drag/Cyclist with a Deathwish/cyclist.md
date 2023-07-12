@@ -28,13 +28,13 @@ part1:
 myst:
   substitutions:
     params_vars_title: Cyclist with a Deathwish
-    params_v1: 160
-    params_v2: 41
-    params_age: 52
-    params_part1_ans1_value: 15.2 times.
-    params_part1_ans2_value: 3.9 times.
-    params_part1_ans3_value: 0.256 times.
-    params_part1_ans4_value: 0.0657 times.
+    params_v1: 169
+    params_v2: 55
+    params_age: 43
+    params_part1_ans1_value: 9.44 times.
+    params_part1_ans2_value: 3.07 times.
+    params_part1_ans3_value: 0.325 times.
+    params_part1_ans4_value: 0.106 times.
     params_part1_ans5_value: It would be equal to their maximum thrust.
 ---
 # {{ params_vars_title }}

@@ -27,14 +27,13 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic23
-    params_a: 4
-    params_b: 1
-    params_formula: $x^{4} \sin{\left(x \right)}$
-    params_part1_ans1_value: $x^{4} \cos{\left(x \right)} + 4 x^{3} \sin{\left(x \right)}$
-    params_part1_ans2_value: $x^{4} \cos{\left(x \right)} $
-    params_part1_ans3_value: $ 4 x^{3} \cos{\left(x \right)}$
-    params_part1_ans4_value: $- x^{4} \sin{\left(x \right)} + 4 x^{3} \cos{\left(x
-      \right)}$
+    params_a: 1
+    params_b: 9
+    params_formula: $x \cos{\left(9 x \right)}$
+    params_part1_ans1_value: $- 9 x \sin{\left(9 x \right)} + \cos{\left(9 x \right)}$
+    params_part1_ans2_value: $- 9 x \sin{\left(9 x \right)} $
+    params_part1_ans3_value: $ \sin{\left(9 x \right)}$
+    params_part1_ans4_value: $9 x \cos{\left(9 x \right)} + \sin{\left(9 x \right)}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

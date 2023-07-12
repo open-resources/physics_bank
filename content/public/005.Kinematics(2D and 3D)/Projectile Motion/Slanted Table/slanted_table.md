@@ -37,8 +37,8 @@ myst:
   substitutions:
     params_vars_title: Ball on a Slanted Table
     params_vars_units: $m/s$
-    params_d: 1.6
-    params_theta: 24
+    params_d: 2.7
+    params_theta: 10
 ---
 # {{ params_vars_title }}
 A ball is launched with an initial velocity of $\vec{v_0}$ from one corner of a smooth, flat board.

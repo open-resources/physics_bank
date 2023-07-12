@@ -48,7 +48,7 @@ part2:
 myst:
   substitutions:
     params_vars_title: Filling a Capacitor with Dielectric Material
-    params_d: '1.50'
+    params_d: '2.00'
     params_a: '4.0'
     params_k: '4.0'
 ---

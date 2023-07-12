@@ -66,9 +66,9 @@ part4:
 myst:
   substitutions:
     params_vars_title: Switching Connections
-    params_a: '5.0'
+    params_a: '2.0'
     params_b: '3.0'
-    params_v: '4.0'
+    params_v: '2.0'
 ---
 # {{ params_vars_title }}
 A ${{params_a }} \rm\ \mu\textrm{F}$ capacitor and a ${{params_b }} \rm\ \mu\textrm{F}$ capacitor are connected in series across a ${{params_v }} \textrm{ kV}$ potential. The charged capacitors are then disconnected from the source and connected to each other with terminals of like sign together.

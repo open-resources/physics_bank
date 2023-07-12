@@ -30,10 +30,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic01
-    params_part1_ans1_value: 5.1E50
-    params_part1_ans2_value: 7.7E7
-    params_part1_ans3_value: 3933.4947380460544
-    params_part1_ans4_value: '1.2E-92'
+    params_part1_ans1_value: 3.8E82
+    params_part1_ans2_value: 8.0E6
+    params_part1_ans3_value: 3962.4659638158455
+    params_part1_ans4_value: '4.5E-39'
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

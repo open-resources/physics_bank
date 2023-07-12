@@ -44,10 +44,10 @@ myst:
   substitutions:
     params_vars_name: Ximena
     params_vars_title: Archery Competition
-    params_d: 137
-    params_v: 197
-    params_h: 182
-    params_theta: 39
+    params_d: 74
+    params_v: 141
+    params_h: 190
+    params_theta: 38
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} is reading a novel that describes an athelete participating in an archery competition.

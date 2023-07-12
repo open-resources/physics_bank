@@ -45,9 +45,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Camera Flash
-    params_I: '0.500'
-    params_L: '3.00'
-    params_V: '475'
+    params_I: '0.150'
+    params_L: '1.75'
+    params_V: '575'
 ---
 # {{ params_vars_title }}
 When a camera uses a flash, a fully-charged capacitor discharges through an inductor.

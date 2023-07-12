@@ -38,11 +38,11 @@ myst:
   substitutions:
     params_vars_title: Spring Launch Loading
     params_m: 45
-    params_F: 210
-    params_x1: 0.143
-    params_d: 1.18
-    params_h: 1.26
-    params_k: 82
+    params_F: 314
+    params_x1: 0.278
+    params_d: 1.14
+    params_h: 1.06
+    params_k: 88
 ---
 # {{ params_vars_title }}
 <img src="Slider Restricted by Spring.png" width=100%>

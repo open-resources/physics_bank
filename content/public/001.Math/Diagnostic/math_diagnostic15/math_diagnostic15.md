@@ -27,11 +27,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic15
-    params_expr: $7^{4} $=$ 2401$
-    params_part1_ans1_value: $log_72401 = 4$
-    params_part1_ans2_value: $log_74 = 2401$
-    params_part1_ans3_value: $log_24014 = 7$
-    params_part1_ans4_value: $log_42401 = 7$
+    params_expr: $4^{5} $=$ 1024$
+    params_part1_ans1_value: $log_41024 = 5$
+    params_part1_ans2_value: $log_45 = 1024$
+    params_part1_ans3_value: $log_10245 = 4$
+    params_part1_ans4_value: $log_51024 = 4$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

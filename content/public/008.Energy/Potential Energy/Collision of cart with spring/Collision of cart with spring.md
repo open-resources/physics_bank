@@ -35,9 +35,9 @@ myst:
   substitutions:
     params_vars_title: Collision of a Cart with a Spring
     params_vars_units: m/s
-    params_m: 88
-    params_k: 204
-    params_x: 22
+    params_m: 50
+    params_k: 309
+    params_x: 35
 ---
 # {{ params_vars_title }}
 A  {{ params_m }}  $kg$  runaway  grocery  cart  runs  into  a  spring  with a spring  constant $k = $  {{ params_k }}  $N/m$  and compresses it by {{ params_x }} $cm$ before momentarily coming to rest.

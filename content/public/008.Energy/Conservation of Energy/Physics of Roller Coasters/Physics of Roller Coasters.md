@@ -32,13 +32,13 @@ myst:
   substitutions:
     params_vars_title: Physics of Roller-Coasters
     params_vars_units: m/s
-    params_r: 10.8
-    params_part1_ans1_value: 20.6
-    params_part1_ans2_value: 23.0
-    params_part1_ans3_value: 17.8
-    params_part1_ans4_value: 14.6
-    params_part1_ans5_value: 10.3
-    params_part1_ans6_value: 25.2
+    params_r: 14.5
+    params_part1_ans1_value: 23.9
+    params_part1_ans2_value: 26.7
+    params_part1_ans3_value: 20.7
+    params_part1_ans4_value: 16.9
+    params_part1_ans5_value: 11.9
+    params_part1_ans6_value: 29.2
 ---
 # {{ params_vars_title }}
 A roller-coaster travels over a vertical, circular loop of radius $R = $ {{ params_r }} $m$.
