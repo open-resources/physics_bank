@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic14
-    params_expr: $x^{ -5\over 2}$
-    params_part1_ans1_value: \begin{equation}\frac{1}{\sqrt{x^{5}}}\end{equation}
-    params_part1_ans2_value: \begin{equation}\sqrt{x^{5}}\end{equation}
-    params_part1_ans3_value: \begin{equation}x^{\frac{5}{2}}\end{equation}
-    params_part1_ans4_value: \begin{equation}- \frac{1}{\sqrt{x^{5}}}\end{equation}
+    params_expr: $x^{ -3\over 8}$
+    params_part1_ans1_value: \begin{equation}\frac{1}{\sqrt[8]{x^{3}}}\end{equation}
+    params_part1_ans2_value: \begin{equation}\sqrt[8]{x^{3}}\end{equation}
+    params_part1_ans3_value: \begin{equation}x^{\frac{3}{8}}\end{equation}
+    params_part1_ans4_value: \begin{equation}- \frac{1}{\sqrt[8]{x^{3}}}\end{equation}
     params_part1_ans5_value: Do not know
 ---
 # {{ params_vars_title }}

@@ -36,9 +36,9 @@ myst:
   substitutions:
     params_vars_title: Power of a Sprinter
     params_vars_units: W
-    params_v: 9
-    params_t: 4
-    params_m: 89
+    params_v: 10
+    params_t: 5
+    params_m: 69
     params_v2: 3
 ---
 # {{ params_vars_title }}

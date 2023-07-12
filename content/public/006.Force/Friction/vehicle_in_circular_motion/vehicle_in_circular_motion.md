@@ -73,11 +73,11 @@ part7:
 myst:
   substitutions:
     params_vars_title: Vehicle in Circular Motion
-    params_vars_vehicle: car
-    params_m: 2200.0
-    params_v: 88.0
-    params_r: 130.0
-    params_theta: 18.0
+    params_vars_vehicle: bus
+    params_m: 2000.0
+    params_v: 89.0
+    params_r: 98.0
+    params_theta: 20.0
     params_f_s: 0.6
     params_f_k: 0.4
     params_f_r: 0.02

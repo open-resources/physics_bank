@@ -47,9 +47,9 @@ myst:
   substitutions:
     params_vars_title: Electron in a capacitor
     params_d: '3.0'
-    params_V: '180'
-    params_s: $2.5\times 10^{4}$
-    params_x: '1.8'
+    params_V: '220'
+    params_s: $3.0\times 10^{4}$
+    params_x: '3.0'
 ---
 # {{ params_vars_title }}
 An electron enters a region between two large parallel plates made of aluminum separated by a distance of {{ params_d }} $\rm\ cm$ and kept at a potential difference of {{ params_V }} $\rm\ V$.

@@ -52,7 +52,7 @@ part3:
 myst:
   substitutions:
     params_vars_title: Force vs Position Graph
-    params_m: 3.5
+    params_m: 0.5
     params_v: 0.5
     params_x: 0.5
 ---

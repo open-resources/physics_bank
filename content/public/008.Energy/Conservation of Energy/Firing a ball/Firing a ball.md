@@ -33,9 +33,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Firing a Ball
-    params_theta: 60
-    params_part1_ans1_value: $\frac{2v_1}{\sqrt{3}}$
-    params_part1_ans2_value: $\sqrt{2}v_1$
+    params_theta: 45
+    params_part1_ans1_value: $\sqrt{2}v_1$
+    params_part1_ans2_value: $\frac{2v_1}{\sqrt{3}}$
     params_part1_ans3_value: $2v_1$
     params_part1_ans4_value: $\frac{v_1}{2}$
     params_part1_ans5_value: $v_1$

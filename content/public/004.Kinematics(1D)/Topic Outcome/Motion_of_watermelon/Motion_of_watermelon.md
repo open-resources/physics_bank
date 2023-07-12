@@ -53,16 +53,16 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Lorenzo
+    params_vars_name: Santiago
     params_vars_title: Motion of watermelon
     params_vars_units1: ${m/s}^2$
     params_vars_units2: $s$
-    params_signa: +
-    params_signb: +
-    params_signc: +
-    params_a: 6
-    params_b: 6
-    params_c: 6
+    params_signa: '-'
+    params_signb: '-'
+    params_signc: '-'
+    params_a: 3
+    params_b: 9
+    params_c: 5
     params_part4_ans1_value: The speed is increasing
     params_part4_ans2_value: The speed is decreasing
     params_part4_ans3_value: There is not enough information to tell

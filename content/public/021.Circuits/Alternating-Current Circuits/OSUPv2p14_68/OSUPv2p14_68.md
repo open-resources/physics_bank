@@ -75,9 +75,9 @@ part3:
 myst:
   substitutions:
     params_vars_title: Switched LC Circuit
-    params_L: '94.0'
+    params_L: '98.0'
     params_C: '4.50'
-    params_V: '12.5'
+    params_V: '13.0'
 ---
 # {{ params_vars_title }}
 Consider the switched $LC$ circuit shown below.

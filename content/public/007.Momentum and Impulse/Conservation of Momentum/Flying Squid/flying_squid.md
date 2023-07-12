@@ -47,8 +47,8 @@ myst:
     params_vars_title: Flying Squid
     params_vars_units1: m/s
     params_vars_units2: m
-    params_m1: 0.07
-    params_m2: 0.63
+    params_m1: 0.06
+    params_m2: 0.53
     params_v: 13
 ---
 # {{ params_vars_title }}

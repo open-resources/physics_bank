@@ -35,7 +35,7 @@ myst:
   substitutions:
     params_vars_title: Equilibrium Length of a Spring
     params_vars_units: J
-    params_Ux: $7x^2 - 16x + 43$
+    params_Ux: $x^2 - 16x + 46$
 ---
 # {{ params_vars_title }}
 The potential energy of a spring is given by $U(x) = (${{ params_Ux }}$) J$ if $x$ is given in metres.

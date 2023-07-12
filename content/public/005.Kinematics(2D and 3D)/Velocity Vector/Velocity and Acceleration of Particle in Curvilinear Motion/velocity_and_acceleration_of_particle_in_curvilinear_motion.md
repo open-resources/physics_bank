@@ -43,11 +43,11 @@ part2:
 myst:
   substitutions:
     params_vars_title: Velocity and Acceleration of Particle in Curvilinear motion
-    params_x_position: 2
+    params_x_position: -5
     params_t: 0
     params_y_position: 0
-    params_vxcon: 21
-    params_vxcof: 11
+    params_vxcon: 22
+    params_vxcof: 20
 ---
 # {{ params_vars_title }}
 The curvilinear motion of a particle is defined by the x velocity, $v\_{x} = {{params_vxcon}} - {{params_vxcof}}t$ and the y position, $y = 50 - 2t^2$,

@@ -47,9 +47,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Single-turn Circular Loop
-    params_r: '50'
-    params_b: '125'
-    params_B: '375'
+    params_r: '20'
+    params_b: '200'
+    params_B: '350'
     params_t: '0.4'
     params_part2_ans1_value: Clockwise
     params_part2_ans2_value: Counterclockwise

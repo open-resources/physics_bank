@@ -31,11 +31,11 @@ myst:
   substitutions:
     params_vars_title: Math Diagnostic22
     params_denom: 8
-    params_formula: $\sin{\left(\frac{x}{8} \right)}$
-    params_part1_ans1_value: ${- 8 \cos{\left(\frac{x}{8} \right)}}$
-    params_part1_ans2_value: ${8 \cos{\left(\frac{x}{8} \right)}}$
-    params_part1_ans3_value: ${- 16 \cos{\left(\frac{x}{8} \right)}}$
-    params_part1_ans4_value: ${- 4 \cos{\left(\frac{x}{8} \right)}}$
+    params_formula: $\cos{\left(\frac{x}{8} \right)}$
+    params_part1_ans1_value: ${8 \sin{\left(\frac{x}{8} \right)}}$
+    params_part1_ans2_value: ${- 8 \sin{\left(\frac{x}{8} \right)}}$
+    params_part1_ans3_value: ${16 \sin{\left(\frac{x}{8} \right)}}$
+    params_part1_ans4_value: ${4 \sin{\left(\frac{x}{8} \right)}}$
 ---
 # {{ params_vars_title }}
 

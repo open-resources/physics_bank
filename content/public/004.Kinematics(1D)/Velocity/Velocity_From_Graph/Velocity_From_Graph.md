@@ -38,8 +38,8 @@ myst:
   substitutions:
     params_vars_title: Velocity From Graph
     params_vars_units: $m/s$
-    params_choice: '0.5'
-    params_part1_ans1_value: '1'
+    params_choice: '1.5'
+    params_part1_ans1_value: '0'
     params_part1_ans2_value: '-0.5'
     params_part1_ans3_value: '-2'
     params_part1_ans4_value: '2'

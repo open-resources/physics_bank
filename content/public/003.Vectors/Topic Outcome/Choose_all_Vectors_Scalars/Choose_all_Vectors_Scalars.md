@@ -33,12 +33,12 @@ myst:
   substitutions:
     params_vars_title: Choose all Vectors and Scalars
     params_choice: vectors
-    params_part1_ans1_value: Average Velocity
+    params_part1_ans1_value: Force
     params_part1_ans2_value: Position
-    params_part1_ans3_value: Velocity
-    params_part1_ans4_value: Weight
-    params_part1_ans5_value: Density
-    params_part1_ans6_value: Mass
+    params_part1_ans3_value: Energy
+    params_part1_ans4_value: Mass
+    params_part1_ans5_value: Temperature
+    params_part1_ans6_value: Volume
 ---
 # {{ params_vars_title }}
 

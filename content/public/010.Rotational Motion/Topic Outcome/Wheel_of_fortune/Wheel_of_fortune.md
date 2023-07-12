@@ -35,9 +35,9 @@ part1:
 myst:
   substitutions:
     params_vars_units: rad/s
-    params_vars_name: Abbas
+    params_vars_name: Savannah
     params_vars_title: Wheel of Fortune
-    params_t: 1.3
+    params_t: 3.5
     params_w_i: ${\pi \over 4} {rad\over s}$
 ---
 # {{ params_vars_title }}

@@ -30,15 +30,15 @@ part1:
 myst:
   substitutions:
     params_vars_title: Bungee Jumping
-    params_vars_name: Mateo
-    params_part1_ans1_value: The tension points up, and Mateo moves down, so negative
+    params_vars_name: Savannah
+    params_part1_ans1_value: The tension points up, and Savannah moves down, so positive
       work is done.
-    params_part1_ans2_value: The tension point up, and Mateo moves up, so positive
+    params_part1_ans2_value: The tension points up, and Savannah moves down, so negative
       work is done.
-    params_part1_ans3_value: The tension points up, and Mateo moves down, so positive
+    params_part1_ans3_value: The tension point up, and Savannah moves up, so positive
       work is done.
-    params_part1_ans4_value: The tension points down, and Mateo moves down, so negative
-      work is done.
+    params_part1_ans4_value: The tension points down, and Savannah moves down, so
+      negative work is done.
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} decides to go bungee jumping. Starting atop a very high bridge, elastic cords are tied to their feet and they jump off the bridge. Once {{ params_vars_name }} has fallen a certain distance, the force of the bungee cords slows their descent until they are at the lowest point.

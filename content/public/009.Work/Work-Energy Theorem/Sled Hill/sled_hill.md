@@ -55,10 +55,10 @@ part5:
     suffix: m/s
 myst:
   substitutions:
-    params_vars_name: Maya
+    params_vars_name: Savannah
     params_vars_title: Sled Hill
-    params_angle: 8
-    params_h: 22
+    params_angle: 9
+    params_h: 23
     params_uk: 0.11
     params_m: 80
 ---
