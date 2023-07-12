@@ -52,9 +52,9 @@ part3:
 myst:
   substitutions:
     params_vars_title: Aircraft Liftoff 3D
-    params_v: 4
-    params_z: 355
-    params_x: 457
+    params_v: 7
+    params_z: 301
+    params_x: 491
     params_angle: 37
 ---
 # {{ params_vars_title }}

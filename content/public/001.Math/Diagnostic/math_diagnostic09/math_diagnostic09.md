@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $y$ = $\dfrac{(t)}{(b + 8g)} $
-    params_part1_ans1_value: b = ${ - 8 g + \frac{t}{y}}$
-    params_part1_ans2_value: b = ${\frac{8 g y}{t}}$
-    params_part1_ans3_value: b = ${\frac{t}{8 g y}}$
-    params_part1_ans4_value: b = ${\frac{- 8 g + y}{t}}$
+    params_expr: $l$ = $\dfrac{(z)}{(d - 7m)} $
+    params_part1_ans1_value: d = ${ 7 m + \frac{z}{l}}$
+    params_part1_ans2_value: d = ${- \frac{7 l m}{z}}$
+    params_part1_ans3_value: d = ${- \frac{z}{7 l m}}$
+    params_part1_ans4_value: d = ${\frac{l + 7 m}{z}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

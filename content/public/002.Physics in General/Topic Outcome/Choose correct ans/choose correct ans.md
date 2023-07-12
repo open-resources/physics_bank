@@ -13,19 +13,17 @@ outcomes:
 - 6.9.1.1
 - 5.6.1.0
 difficulty:
-- Medium
+- medium
 randomization:
-- undefined
+- 1
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- average
 tags:
 - PW
-- Average
-- Multi-Chapter
 assets: null
 part1:
   type: multiple-choice
@@ -46,7 +44,7 @@ part4:
 myst:
   substitutions:
     params_vars_title: Which option is correct?
-    params_choice1: not possible
+    params_choice1: possible
     params_part1_ans1_value: 'True'
     params_part1_ans2_value: 'False'
     params_part2_ans1_value: 'True'

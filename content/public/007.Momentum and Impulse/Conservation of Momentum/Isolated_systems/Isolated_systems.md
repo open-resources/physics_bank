@@ -33,13 +33,13 @@ part1:
 myst:
   substitutions:
     params_vars_title: Isolated Systems
-    params_part1_ans1_value: A system is isolated if its total momentum is constant
-    params_part1_ans2_value: A system is isolated if its center of mass is moving
-      with constant velocity
+    params_part1_ans1_value: A system is isolated if all of the external forces on
+      it are balanced
+    params_part1_ans2_value: A system is isolated if its total momentum is constant
     params_part1_ans3_value: A system is isolated if energy isn't entering or leaving
       the system
-    params_part1_ans4_value: A system is isolated if all of the external forces on
-      it are balanced
+    params_part1_ans4_value: A system is isolated if its center of mass is moving
+      with constant velocity
 ---
 # {{ params_vars_title }}
 

@@ -12,15 +12,15 @@ outcomes:
 - 6.4.1.0
 - 6.6.1.0
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 0
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- short
 tags:
 - AK
 - NR

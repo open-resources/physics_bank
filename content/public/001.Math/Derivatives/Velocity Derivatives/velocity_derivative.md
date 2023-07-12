@@ -31,12 +31,12 @@ myst:
   substitutions:
     params_vars_title: Velocity to Acceleration
     params_vars_units: $m/s^2$
-    params_c: 1.6
+    params_c: 0.9
     params_t: 1
-    params_part1_ans1_value: 3.2
-    params_part1_ans2_value: -3.2
-    params_part1_ans3_value: -1.6
-    params_part1_ans4_value: 1.6
+    params_part1_ans1_value: 1.8
+    params_part1_ans2_value: -1.8
+    params_part1_ans3_value: -0.9
+    params_part1_ans4_value: 0.9
     params_part1_ans5_value: The acceleration is 0
 ---
 # {{ params_vars_title }}

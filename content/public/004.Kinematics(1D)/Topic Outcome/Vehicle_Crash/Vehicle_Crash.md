@@ -31,19 +31,19 @@ part1:
 myst:
   substitutions:
     params_vars_title: Vehicle Crash
-    params_vars_name: Santiago
-    params_vars_vehicle_1: pickup truck
-    params_vars_vehicle_2: pickup truck
-    params_dist: 2.52
-    params_v: 34.6
-    params_acc: 12.5
-    params_s_1: 0.3
-    params_s_2: 1.459
-    params_part1_ans1_value: 20.11 $m/s$
-    params_part1_ans2_value: 16.36 $m/s$
-    params_part1_ans3_value: 30.85 $m/s$
-    params_part1_ans4_value: 12.61 $m/s$
-    params_part1_ans5_value: 34.6 $m/s$
+    params_vars_name: Ahmed
+    params_vars_vehicle_1: car
+    params_vars_vehicle_2: sedan
+    params_dist: 3.92
+    params_v: 34.2
+    params_acc: 13.5
+    params_s_1: 0.2
+    params_s_2: 1.91
+    params_part1_ans1_value: 11.12 $m/s$
+    params_part1_ans2_value: 8.415 $m/s$
+    params_part1_ans3_value: 31.5 $m/s$
+    params_part1_ans4_value: 5.715 $m/s$
+    params_part1_ans5_value: 34.2 $m/s$
 ---
 # {{ params_vars_title }}
 {{params_vars_name}} is following {{params_dist}} $m$ behind a {{params_vars.vehicle_1}} when it suddenly brakes with an acceleration of -{{params_acc}} $m/s^2$.

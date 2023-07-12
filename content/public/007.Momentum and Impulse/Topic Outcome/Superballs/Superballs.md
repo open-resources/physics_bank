@@ -17,15 +17,15 @@ outcomes:
 - 7.5.1.8
 - 7.5.1.9
 difficulty:
-- undefined
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- long
 tags:
 - PW
 - tutorial

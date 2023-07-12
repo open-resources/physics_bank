@@ -13,15 +13,15 @@ outcomes:
 - 1.3.1.3
 - 2.1.1.2
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - MP
 assets: null
@@ -47,17 +47,17 @@ myst:
   substitutions:
     params_vars_title: Uncertainty
     params_vars_units: s
-    params_m: 31.24
-    params_m_u: 0.03
+    params_m: 29.12
+    params_m_u: 0.04
     params_d: 0.1
-    params_d_u: 0.001
-    params_t1: 0.0256
-    params_t2: 0.0255
-    params_t3: 0.0255
+    params_d_u: 0.002
+    params_t1: 0.0253
+    params_t2: 0.0252
+    params_t3: 0.0253
     params_t4: 0.0255
     params_t5: 0.0253
     params_t6: 0.0253
-    params_t7: 0.0258
+    params_t7: 0.0255
 ---
 # {{ params_vars_title }}
 A steel ball (mball = ({{params_m}} $\pm$ {{ params_m_u }}) g) is shot from a mini-launcher on its medium setting, through horizontal photogates spaced ({{ params_d }} $\pm$ {{ params_d_u }}) m apart.

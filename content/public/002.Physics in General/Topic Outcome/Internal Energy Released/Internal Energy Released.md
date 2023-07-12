@@ -12,19 +12,17 @@ outcomes:
 - 7.5.1.4
 - 8.2.1.0
 difficulty:
-- Medium
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- average
 tags:
 - PW
-- Average
-- Section
 assets: null
 part1:
   type: number-input
@@ -38,7 +36,7 @@ myst:
   substitutions:
     params_vars_title: Internal Energy Released
     params_vars_units: $J$
-    params_v: -4.83
+    params_v: -3.58
 ---
 # {{ params_vars_title }}
 A  uranium-238  atom  can  break  up  into  a  thorium-234  atom  and  a  particle  called  an *alpha particle*, $\alpha$-4.  The numbers indicate the masses of the atoms and alpha particle in atomic mass units (1 amu = $1.55\times 10^{-27}$ kg).  So, for example, the uranium atom has a mass of 238 amu.

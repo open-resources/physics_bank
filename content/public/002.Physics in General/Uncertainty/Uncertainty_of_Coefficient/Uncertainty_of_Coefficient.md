@@ -11,19 +11,17 @@ showCorrectAnswer: false
 outcomes:
 - 2.4.1.2
 difficulty:
-- Medium
+- medium
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- section
 length:
-- undefined
+- short
 tags:
 - EW
-- Short
-- Section
 assets: null
 part1:
   type: multiple-choice
@@ -32,15 +30,15 @@ part1:
 myst:
   substitutions:
     params_vars_title: Uncertainty of Coefficient
-    params_vars_name: Ximena
+    params_vars_name: Abbas
     params_vars_units: $kg/s$
-    params_m: 81
-    params_v: 1.8
-    params_b: 0.48
-    params_part1_ans1_value: ' $\pm$ 0.14'
-    params_part1_ans2_value: ' $\pm$ 0.07'
+    params_m: 61
+    params_v: 2.4
+    params_b: 0.52
+    params_part1_ans1_value: ' $\pm$ 0.12'
+    params_part1_ans2_value: ' $\pm$ 0.06'
     params_part1_ans3_value: ' $\pm$ 0.01'
-    params_part1_ans4_value: ' $\pm$ 0.65'
+    params_part1_ans4_value: ' $\pm$ 0.6'
 ---
 # {{ params_vars_title }}
 The drag force on an object of interest can be accurately modelled as $\vec{D}$ = -$b\vec{v}$ such that its terminal velocity in free fall is given by $v_T$ = $mg/b$.

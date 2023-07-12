@@ -10,9 +10,9 @@ showCorrectAnswer: false
 outcomes:
 - 2.2.1.3
 difficulty:
-- undefined
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 tags:
@@ -46,7 +46,7 @@ part3:
 myst:
   substitutions:
     params_vars_title: Weight units conversion
-    params_w_lbs: 238
+    params_w_lbs: 187
 ---
 # {{ params_vars_title }}
 A students has a mass of {{params.w_lbs}} $lbs$.

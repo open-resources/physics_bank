@@ -31,13 +31,13 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic05
-    params_expr: $\dfrac{x}{9}$
+    params_expr: $\dfrac{x}{7}$
     params_num2: 7
-    params_num3: 7
-    params_part1_ans1_value: 441
-    params_part1_ans2_value: 7/9
-    params_part1_ans3_value: 63
-    params_part1_ans4_value: 49/9
+    params_num3: 6
+    params_part1_ans1_value: 294
+    params_part1_ans2_value: '1'
+    params_part1_ans3_value: 42
+    params_part1_ans4_value: '6'
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

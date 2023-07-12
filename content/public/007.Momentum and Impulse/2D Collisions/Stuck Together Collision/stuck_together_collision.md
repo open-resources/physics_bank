@@ -37,15 +37,15 @@ myst:
   substitutions:
     params_vars_title: Stuck Together Collision
     params_vars_units: $^\circ$
-    params_k: 3
-    params_part1_ans1_value: 18.4
+    params_k: 2
+    params_part1_ans1_value: 26.6
     params_part1_ans1_feedback: Close! Make sure that you don't mix up your horizontal
       and vertical momentum.
-    params_part1_ans2_value: 60.0
+    params_part1_ans2_value: 54.7
     params_part1_ans2_feedback: Not quite, try double checking your math again.
-    params_part1_ans3_value: 71.6
+    params_part1_ans3_value: 63.4
     params_part1_ans3_feedback: Great! You got it.
-    params_part1_ans4_value: 76.0
+    params_part1_ans4_value: 71.6
     params_part1_ans4_feedback: Not quite, try double checking your math again.
     params_part1_ans5_value: 81.9
     params_part1_ans5_feedback: This is a random angle, you probably selected this

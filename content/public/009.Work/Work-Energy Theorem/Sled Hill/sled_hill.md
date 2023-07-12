@@ -55,12 +55,12 @@ part5:
     suffix: m/s
 myst:
   substitutions:
-    params_vars_name: Mateo
+    params_vars_name: Savannah
     params_vars_title: Sled Hill
-    params_angle: 5
-    params_h: 23
-    params_uk: 0.1
-    params_m: 85
+    params_angle: 7
+    params_h: 18
+    params_uk: 0.09
+    params_m: 80
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} is on a sled, sliding down a snow covered hill sloped at {{ params_angle }}$^\circ$ (relative to the horizontal). In travelling a distance $d$ the sled has descended through a vertical distance of $10 \, \rm{m}$.

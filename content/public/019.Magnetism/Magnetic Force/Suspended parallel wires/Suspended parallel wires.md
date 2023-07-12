@@ -43,9 +43,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Suspended parallel wires
-    params_s: '4.8'
-    params_mu: '31.8'
-    params_theta: '6.0'
+    params_s: '3.0'
+    params_mu: '35.4'
+    params_theta: '9.0'
 ---
 # {{ params_vars_title }}
 Two long, parallel wires are hung by cords of length $s = $ {{ params_s }} $\rm\ cm$, as shown in the figure.

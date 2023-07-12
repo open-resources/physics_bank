@@ -12,15 +12,15 @@ outcomes:
 - 2.4.1.1
 - 2.4.1.2
 difficulty:
-- undefined
+- hard
 randomization:
-- undefined
+- 0
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- long
 tags:
 - MP
 assets: null
@@ -51,7 +51,7 @@ part3:
 myst:
   substitutions:
     params_vars_title: Projectile Uncertainty
-    params_vars_name: Savannah
+    params_vars_name: Emilia
     params_vars_units1: m/s
     params_vars_units2: m
     params_d: 0.126

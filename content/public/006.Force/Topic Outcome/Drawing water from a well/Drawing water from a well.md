@@ -13,7 +13,7 @@ outcomes:
 - 6.1.1.4
 - 10.3.2.2
 difficulty:
-- Medium
+- medium
 randomization:
 - 2
 taxonomy:
@@ -21,7 +21,7 @@ taxonomy:
 span:
 - multi-chapter
 length:
-- long
+- average
 tags:
 - PW
 - final_exam
@@ -48,10 +48,10 @@ myst:
     params_vars_title: Drawing Water from a Well
     params_vars_unit1: $N$
     params_vars_unit2: $m$
-    params_M: 3.99
-    params_m: 2.26
-    params_R: 0.446
-    params_t: 11.8
+    params_M: 4.69
+    params_m: 5.72
+    params_R: 0.871
+    params_t: 14.5
 ---
 # {{ params_vars_title }}
 As shown in the figure, a solid, uniform, frictionless cylindrical reel of mass $M = $ {{ params_M }} $kg$ and radius $R = $ {{ params_R }} $m$ is used to draw water from a well. A bucket of mass $m = $ {{ params_m }} $kg$ is  attached to a massless cord that is wrapped around the cylinder.

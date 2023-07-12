@@ -39,9 +39,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Cosmic Ray Proton
-    params_v: 4.91
-    params_F: 1.77
-    params_theta: 65
+    params_v: 6.79
+    params_F: 3.75
+    params_theta: 66
 ---
 # {{ params_vars_title }}
 

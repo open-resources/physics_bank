@@ -46,9 +46,9 @@ myst:
     params_vars_title: Ball Bouncing off a Wall
     params_vars_units1: $\frac{kg*m}{s}$
     params_vars_units2: $N$
-    params_m: 3
-    params_v: 2
-    params_theta: 42
+    params_m: 5
+    params_v: 14
+    params_theta: 59
     params_t: 0.13
 ---
 # {{ params_vars_title }}

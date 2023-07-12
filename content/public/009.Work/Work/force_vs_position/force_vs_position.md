@@ -54,7 +54,7 @@ myst:
     params_vars_title: Force vs Position Graph
     params_m: 5.0
     params_v: 3.5
-    params_x: 0.5
+    params_x: 2.5
 ---
 # {{ params_vars_title }}
 The graph below shows the net force on a particle in the $x$-direction as a function of its position along the $x$-axis.

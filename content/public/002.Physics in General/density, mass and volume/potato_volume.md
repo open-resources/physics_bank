@@ -11,19 +11,17 @@ showCorrectAnswer: false
 outcomes:
 - 13.2.1.2
 difficulty:
-- Easy
+- easy
 randomization:
-- undefined
+- 2
 taxonomy:
 - undefined
 span:
-- undefined
+- chapter
 length:
-- undefined
+- short
 tags:
 - AP
-- Short
-- Chapter
 assets: null
 part1:
   type: number-input
@@ -48,13 +46,13 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Maya
+    params_vars_name: Savannah
     params_vars_title: Potato Volume
     params_vars_mass_units: kg
     params_vars_volume_units: m^3
-    params_vars_mass_potato: 196
-    params_vars_mass_cube: 87
-    params_vars_cube_side_length: 2.2655338109708256
+    params_vars_mass_potato: 197
+    params_vars_mass_cube: 37
+    params_vars_cube_side_length: 4.436713323483995
 ---
 # {{ params_vars_title }}
 For our first lab, {{params_vars_name}} decides to measure the density of a potato.

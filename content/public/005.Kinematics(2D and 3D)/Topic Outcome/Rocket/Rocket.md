@@ -60,8 +60,8 @@ myst:
     params_vars_title: Rocket
     params_vars_units1: $m/s^2$
     params_vars_units2: $s$
-    params_v_1: 4
-    params_t_1: 2
+    params_v_1: 5
+    params_t_1: 0
     params_t_2: 6
 ---
 # {{ params_vars_title }}

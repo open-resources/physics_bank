@@ -13,19 +13,17 @@ outcomes:
 - 8.5.1.0
 - 7.5.1.2
 difficulty:
-- Medium
+- medium
 randomization:
-- undefined
+- 0
 taxonomy:
 - undefined
 span:
-- undefined
+- multi-chapter
 length:
-- undefined
+- short
 tags:
 - PW
-- Short
-- Multi-Chapter
 assets: null
 part1:
   type: multiple-choice

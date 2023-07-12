@@ -33,8 +33,8 @@ myst:
   substitutions:
     params_vars_title: Resistors in a Lab
     params_vars_name: Emilia
-    params_have: smaller
-    params_want: larger
+    params_have: larger
+    params_want: smaller
     params_part1_ans1_value: Connect multiple resistors in parallel
     params_part1_ans2_value: Connect multiple resistors in series
     params_part1_ans3_value: It is not possible to achieve the desired resistance

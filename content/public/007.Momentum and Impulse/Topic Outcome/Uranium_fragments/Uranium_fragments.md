@@ -45,9 +45,9 @@ myst:
   substitutions:
     params_vars_title: Uranium Fragments
     params_vars_units: amu
-    params_frag_speed: 2.3
-    params_dn_speed: 2.12
-    params_orig_mass: $^{238}\mathrm{U}$
+    params_frag_speed: 2.0
+    params_dn_speed: 3.75
+    params_orig_mass: $^{235}\mathrm{U}$
 ---
 # {{ params_vars_title }}
 A radioactive {{params.orig_mass}} uranium nucleus is initially at rest.

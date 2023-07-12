@@ -30,11 +30,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic21
-    params_formula: $\cos{\left(x^{2} \right)}$
-    params_part1_ans1_value: ${- 2 x \sin{\left(x^{2} \right)}}$
-    params_part1_ans2_value: ${- 2 \sin{\left(x^{2} \right)}}$
-    params_part1_ans3_value: ${- \sin{\left(x^{2} \right)}}$
-    params_part1_ans4_value: ${- 2 x \cos{\left(x^{2} \right)}}$
+    params_formula: $\sin{\left(x^{2} \right)}$
+    params_part1_ans1_value: ${2 x \cos{\left(x^{2} \right)}}$
+    params_part1_ans2_value: ${2 \cos{\left(x^{2} \right)}}$
+    params_part1_ans3_value: ${\cos{\left(x^{2} \right)}}$
+    params_part1_ans4_value: ${2 x \sin{\left(x^{2} \right)}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

@@ -16,9 +16,9 @@ randomization:
 taxonomy:
 - undefined
 span:
-- Section
+- section
 length:
-- Short
+- short
 tags:
 - APSC181
 - Lecture Activities
