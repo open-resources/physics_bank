@@ -631,6 +631,7 @@ parts:
   - file: content/public/016.Waves/Traveling Waves/Travelling_wave_derivation/Travelling_wave_derivation
 - caption: Electrostatics
   chapters:
+  - file: content/public/018.Electrostatics/Coulomb's Law/Gravity_Vs_Electric_Forces/Gravity_Vs_Electric_Forces
   - file: content/public/018.Electrostatics/Electric Charge/Attracting and repelling
       bodies/Attracting and repelling bodies
   - file: content/public/018.Electrostatics/Electric Charge/Charge Distributions/Charge_Distributions
@@ -747,6 +748,14 @@ parts:
       cable/Magnetic field of a coaxial cable
   - file: content/public/019.Magnetism/Magnetic Field/Magnetic field of a hollow cylinder/Magnetic
       field of a hollow cylinder
+  - file: content/public/019.Magnetism/Magnetic Field/Motion of Charges in Fields
+      1/Motion_of_Charges_in_Fields_1
+  - file: content/public/019.Magnetism/Magnetic Field/Motion of Charges in Fields
+      2/Motion_of_Charges_in_Fields_2
+  - file: content/public/019.Magnetism/Magnetic Field/Motion of Charges in Fields
+      3/Motion_of_Charges_in_Fields_3
+  - file: content/public/019.Magnetism/Magnetic Field/Motion of Charges in Fields
+      4/Motion_of_Charges_in_Fields_4
   - file: content/public/019.Magnetism/Magnetic Field/Oxygen-16 Ion/oxygen_ion
   - file: content/public/019.Magnetism/Magnetic Field/Parallel wires in a circuit/Parallel
       wires in a circuit
@@ -821,6 +830,7 @@ parts:
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_60/OSUPv2p8_60
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_7/OSUPv2p8_7
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_8/OSUPv2p8_8
+  - file: content/public/021.Circuits/Capacitors/RC Circuit Reduction/RC_circuit_reduction
   - file: content/public/021.Circuits/Current/Air Conditioner/air_conditioner
   - file: content/public/021.Circuits/Current/Cathode Ray Tube/cathode_ray_tube
   - file: content/public/021.Circuits/Current/Charge Model/charge_model
