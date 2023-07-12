@@ -41,12 +41,12 @@ part2:
 myst:
   substitutions:
     params_vars_title: Bullet and Block
-    params_vars_name: Mateo
-    params_m_bullet: 32
-    params_m_block: 23
-    params_bullet_v: 884
-    params_slide_d: 1
-    params_slide_dnew: 1.9
+    params_vars_name: Savannah
+    params_m_bullet: 39
+    params_m_block: 30
+    params_bullet_v: 822
+    params_slide_d: 8
+    params_slide_dnew: 8.9
     params_coeff_k: 0.2
 ---
 # {{ params_vars_title }}

@@ -38,7 +38,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Uniformly-charged sphere
-    params_same: different than
+    params_same: the same as
     params_part1_ans1_value: The region of space inside the sphere.
     params_part1_ans2_value: The region of space outside the sphere.
 ---

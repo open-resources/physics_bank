@@ -67,7 +67,7 @@ myst:
   substitutions:
     params_vars_title: Switching Connections
     params_a: '5.0'
-    params_b: '1.0'
+    params_b: '2.0'
     params_v: '3.0'
 ---
 # {{ params_vars_title }}

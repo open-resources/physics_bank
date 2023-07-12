@@ -40,9 +40,9 @@ myst:
     params_vars_vehicle: sedan
     params_vars_title: A Crate's Maximum Acceleration without Slipping
     params_vars_units: $m/s^2$
-    params_mu_s: 0.99
-    params_mu_k: 0.24
-    params_theta: 24
+    params_mu_s: 0.8
+    params_mu_k: 0.23
+    params_theta: 19
 ---
 # {{ params_vars_title }}
 A wood crate sits in the back of a {{ params_vars_vehicle }}.

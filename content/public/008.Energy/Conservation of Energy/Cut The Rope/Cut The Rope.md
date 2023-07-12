@@ -57,8 +57,8 @@ myst:
   substitutions:
     params_vars_title: Cut The Rope
     params_vars_units: m
-    params_l: 0.4
-    params_theta_0: 41
+    params_l: 0.8
+    params_theta_0: 40
     params_theta_c: 28
 ---
 # {{ params_vars_title }}

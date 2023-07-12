@@ -44,7 +44,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Accelerating electrons
-    params_f_s: $4.80\times 10^5$
+    params_f_s: $5.80\times 10^4$
 ---
 # {{ params_vars_title }}
 A simple and common technique for accelerating electrons is shown in the figure, where there is a uniform electric field between two plates.

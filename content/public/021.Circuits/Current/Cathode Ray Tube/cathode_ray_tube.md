@@ -35,7 +35,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Cathode Ray Tube
-    params_I: 31
+    params_I: 30
     params_t: 3
 ---
 # {{ params_vars_title }}

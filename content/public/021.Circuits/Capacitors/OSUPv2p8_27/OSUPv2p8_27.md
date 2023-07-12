@@ -43,7 +43,7 @@ myst:
   substitutions:
     params_vars_title: Charging a Capacitor
     params_c: '4.8'
-    params_v: '100'
+    params_v: '60'
 ---
 # {{ params_vars_title }}
 

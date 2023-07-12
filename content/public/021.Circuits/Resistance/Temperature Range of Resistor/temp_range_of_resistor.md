@@ -42,9 +42,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Temperature Range of Resistor
-    params_p: 7
-    params_metal: Silver
-    params_T_0: 89
+    params_p: 10
+    params_metal: Tungsten
+    params_T_0: 82
 ---
 # {{ params_vars_title }}
 

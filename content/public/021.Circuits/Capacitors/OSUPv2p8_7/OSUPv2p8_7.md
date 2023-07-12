@@ -56,8 +56,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Combining Capacitors
-    params_c: '2.2'
-    params_n: '5'
+    params_c: '2.6'
+    params_n: '7'
 ---
 # {{ params_vars_title }}
 

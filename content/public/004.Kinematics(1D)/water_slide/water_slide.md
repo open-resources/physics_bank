@@ -53,9 +53,9 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Aliyah
+    params_vars_name: Savannah
     params_vars_title: Water Slide
-    params_theta: 20
+    params_theta: 40
     params_l: 100
     params_l2: 50.0
 ---

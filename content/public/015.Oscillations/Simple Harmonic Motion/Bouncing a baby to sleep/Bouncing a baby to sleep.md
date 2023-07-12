@@ -47,14 +47,14 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params_vars_person1: aunt
-    params_vars_person2: uncle
+    params_vars_person1: mother
+    params_vars_person2: sister
     params_vars_title: Bouncing a Baby to Sleep
     params_vars_units: $N/m$
-    params_m1: 90.2
-    params_m2: 61.3
-    params_m_b: 8.64
-    params_f: 1.27
+    params_m1: 91.3
+    params_m2: 62.2
+    params_m_b: 7.67
+    params_f: 2.3
     params_part3_ans1_value: Remove air to decrease the pressure in the ball. Decreased
       pressure makes the ball 'softer'.
     params_part3_ans2_value: Remove air to decrease the pressure in the ball. Decreased

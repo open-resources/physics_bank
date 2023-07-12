@@ -61,9 +61,9 @@ myst:
   substitutions:
     params_vars_title: Throwing a Frisbee
     params_dw: 7
-    params_dt: 0.1
-    params_m: 0.173
-    params_d: 0.5
+    params_dt: 0.05
+    params_m: 0.249
+    params_d: 0.476
 ---
 # {{ params_vars_title }}
 As a frisbee (a flying disk) is released, it is spun so that its angular velocity increases from 0 to {{ params_dw }} $\pi \; \rm{rad/s}$ in {{ params_dt }} $\rm{s}$.
