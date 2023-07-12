@@ -31,15 +31,15 @@ myst:
   substitutions:
     params_vars_title: Energy Lost due to Air Friction
     params_vars_units: J
-    params_m: 2.55
-    params_v: 57.8
-    params_h: 96.3
-    params_part1_ans1_value: -1850.0
-    params_part1_ans2_value: 1850.0
-    params_part1_ans3_value: -6670.0
-    params_part1_ans4_value: 6670.0
-    params_part1_ans5_value: 2340.0
-    params_part1_ans6_value: 2480.0
+    params_m: 1.4
+    params_v: 12.4
+    params_h: 31.5
+    params_part1_ans1_value: 325.0
+    params_part1_ans2_value: -325.0
+    params_part1_ans3_value: -540.0
+    params_part1_ans4_value: 540.0
+    params_part1_ans5_value: 424.0
+    params_part1_ans6_value: 441.0
 ---
 # {{ params_vars_title }}
 A {{ params_m }} kg mass is thrown upwards with a velocity of {{ params_v }} m/s.

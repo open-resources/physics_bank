@@ -58,18 +58,18 @@ part4:
 myst:
   substitutions:
     params_vars_title: Terminal Velocity of a Coffee Filter
-    params_vars_name: Santiago
+    params_vars_name: Ahmed
     params_vars_unit1: $m/s$
     params_vars_unit2: $kg/s$
-    params_m: 3
-    params_d_m: 42
-    params_sd: 0.071
-    params_v1: 0.89
-    params_v2: 0.86
-    params_v3: 0.76
-    params_v4: 0.7
-    params_v5: 0.85
-    params_v6: 0.89
+    params_m: 5
+    params_d_m: 49
+    params_sd: 0.076
+    params_v1: 0.76
+    params_v2: 0.9
+    params_v3: 0.77
+    params_v4: 0.82
+    params_v5: 0.98
+    params_v6: 0.86
 ---
 # {{ params_vars_title }}
 In one of the PHYS 111 labs {{ params_vars_name }} measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling through the air.

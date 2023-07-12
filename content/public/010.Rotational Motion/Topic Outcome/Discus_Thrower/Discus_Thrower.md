@@ -32,12 +32,12 @@ myst:
     params_vars_title: Discus Thrower
     params_vars_units: $rad/s$
     params_r: 4
-    params_a: 56
-    params_part1_ans1_value: 53.0
-    params_part1_ans2_value: 2815.0
-    params_part1_ans3_value: 448
-    params_part1_ans4_value: 13.0
-    params_part1_ans5_value: 19.0
+    params_a: 48
+    params_part1_ans1_value: 49.0
+    params_part1_ans2_value: 2413.0
+    params_part1_ans3_value: 384
+    params_part1_ans4_value: 12.0
+    params_part1_ans5_value: 17.0
 ---
 # {{ params_vars_title }}
 A discus thrower makes {{ params_r }} complete revolutions from rest while holding the discus at a distance of 1 $m$ from their centre before releasing it.

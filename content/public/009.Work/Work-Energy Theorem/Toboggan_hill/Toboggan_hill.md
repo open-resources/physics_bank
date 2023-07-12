@@ -70,12 +70,12 @@ myst:
     params_vars_title: Toboggan Hill
     params_vars_units1_2_3: "$\rm{kJ}$"
     params_vars_units_4: "$\rm{m/s}$"
-    params_m: 34
-    params_l: 97
-    params_ang_horiz: 32
-    params_fr: 88
-    params_fwind: 17
-    params_ang_wind: 24
+    params_m: 36
+    params_l: 99
+    params_ang_horiz: 35
+    params_fr: 100
+    params_fwind: 22
+    params_ang_wind: 17
     params_v_i: 2
 ---
 # {{ params_vars_title }}

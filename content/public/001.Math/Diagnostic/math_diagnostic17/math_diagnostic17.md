@@ -31,11 +31,11 @@ myst:
   substitutions:
     params_vars_title: Math Diagnostic17
     params_a: 2
-    params_b: 3
-    params_part1_ans1_value: $e^{3} e^{2 y}$
+    params_b: 9
+    params_part1_ans1_value: $e^{9} e^{2 y}$
     params_part1_ans2_value: $e^{2 y} + e^{2}$
     params_part1_ans3_value: $2 e^{2} e^{y}$
-    params_part1_ans4_value: $3 e^{2 y}$
+    params_part1_ans4_value: $9 e^{2 y}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

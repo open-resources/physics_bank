@@ -34,13 +34,13 @@ myst:
     params_vars_sport: skier
     params_vars_title: Horizontal Jump
     params_vars_units: m
-    params_v: 25
-    params_d: 4.13
+    params_v: 23
+    params_d: 4.1
     params_part1_ans1_value: 9.81
-    params_part1_ans2_value: 16.22
-    params_part1_ans3_value: 21.05
-    params_part1_ans4_value: 22.94
-    params_part1_ans5_value: 31.57
+    params_part1_ans2_value: 14.87
+    params_part1_ans3_value: 19.23
+    params_part1_ans4_value: 21.03
+    params_part1_ans5_value: 28.84
 ---
 # {{ params_vars_title }}
 

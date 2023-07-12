@@ -117,9 +117,9 @@ part8:
 myst:
   substitutions:
     params_vars_title: Battery and Resistors
-    params_V: '58.0'
-    params_R1: '19.0'
-    params_R2: '88.0'
+    params_V: '50.0'
+    params_R1: '21.0'
+    params_R2: '83.0'
 ---
 # {{ params_vars_title }}
 Consider a ${{ params_V }}\rm\ V$ battery and two resistors: $R_1 = {{ params_R1 }}\rm\ \Omega$ and $R_2 = {{ params_R2 }}\rm\ \Omega$.

@@ -47,8 +47,8 @@ myst:
     params_vars_title: Resistance Swimmer
     params_v: 4
     params_h: 19
-    params_x: 7
-    params_a: 0.5
+    params_x: 5
+    params_a: 0.4
 ---
 # {{ params_vars_title }}
 <img src="L11Q1.png" width=85%>

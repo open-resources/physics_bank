@@ -43,7 +43,7 @@ myst:
   substitutions:
     params_vars_title: Determining Capacitance
     params_q: '4.7'
-    params_v: '110'
+    params_v: '120'
 ---
 # {{ params_vars_title }}
 

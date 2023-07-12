@@ -37,11 +37,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Pendulum
-    params_mr: 1.3
+    params_mr: 1.0
     params_lr: 7
-    params_ms: 0.4
-    params_rs: 26
-    params_theta: 35
+    params_ms: 0.6
+    params_rs: 25
+    params_theta: 25
 ---
 # {{ params_vars_title }}
 A pendulum consists of a rod of mass ${{ params_mr }}$ $\rm{kg}$ and length ${{ params_lr }}$ $\rm{m}$ connected to a pivot with a solid sphere attached at the other end with mass ${{ params_ms }}$ $\rm{kg}$ and radius ${{ params_rs }}$ $\rm{cm}$.

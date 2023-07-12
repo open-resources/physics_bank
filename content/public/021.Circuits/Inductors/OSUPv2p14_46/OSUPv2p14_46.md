@@ -45,7 +45,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Energy Stored in a Coil
-    params_I: '0.10'
+    params_I: '0.70'
     params_E: '8.5'
 ---
 # {{ params_vars_title }}

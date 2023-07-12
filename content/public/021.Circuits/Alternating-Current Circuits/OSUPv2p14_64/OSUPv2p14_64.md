@@ -44,8 +44,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Frequency and Capacitance of an LC Circuit
-    params_f: '64.0'
-    params_C: '15.0'
+    params_f: '65.0'
+    params_C: '11.0'
 ---
 # {{ params_vars_title }}
 

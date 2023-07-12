@@ -29,18 +29,18 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Emilia
-    params_vars_vehicle: a tricycle
+    params_vars_name: Ximena
+    params_vars_vehicle: a bicycle
     params_vars_units: m
     params_vars_title: Distance travelled
-    params_v: 2
-    params_t: 7
+    params_v: 3
+    params_t: 5
     params_part1_ans1_value: 42.0
-    params_part1_ans2_value: 14
-    params_part1_ans3_value: 9
-    params_part1_ans4_value: 0.29
-    params_part1_ans5_value: -5
-    params_part1_ans6_value: -6.5
+    params_part1_ans2_value: 15
+    params_part1_ans3_value: 8
+    params_part1_ans4_value: 0.6
+    params_part1_ans5_value: -2
+    params_part1_ans6_value: -2.6
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} is traveling on {{ params_vars_vehicle }} at {{ params_v }} $\rm{m/s}$.

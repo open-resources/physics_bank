@@ -33,14 +33,14 @@ myst:
   substitutions:
     params_vars_title: The Energy Expenditure of a Jogger
     params_vars_units: W
-    params_F: 30
-    params_v: 4.2
-    params_part1_ans1_value: 13.0
-    params_part1_ans2_value: 130.0
-    params_part1_ans3_value: 530.0
-    params_part1_ans4_value: 250.0
-    params_part1_ans5_value: 380.0
-    params_part1_ans6_value: 63.0
+    params_F: 19
+    params_v: 6.4
+    params_part1_ans1_value: 12.0
+    params_part1_ans2_value: 120.0
+    params_part1_ans3_value: 780.0
+    params_part1_ans4_value: 240.0
+    params_part1_ans5_value: 360.0
+    params_part1_ans6_value: 61.0
 ---
 # {{ params_vars_title }}
 Suppose a jogger has to exert a force of {{ params_F }} $N$ against air resistance to maintain a velocity of {{ params_v }} $m/s$.

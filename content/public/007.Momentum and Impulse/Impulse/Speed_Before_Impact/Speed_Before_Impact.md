@@ -34,10 +34,10 @@ myst:
     params_vars_title: Speed Before Impact
     params_vars_vehicle: sedan
     params_vars_units: $m/s$
-    params_m: 654
-    params_part1_ans1_value: 83.0
-    params_part1_ans2_value: 41.0
-    params_part1_ans3_value: 21.0
+    params_m: 696
+    params_part1_ans1_value: 78.0
+    params_part1_ans2_value: 39.0
+    params_part1_ans3_value: 19.0
     params_part1_ans4_value: 10.0
     params_part1_ans5_value: 0
 ---

@@ -43,10 +43,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Current Through Loop
-    params_N: 53
-    params_t: 16
-    params_s: 15
-    params_B: 0.345
+    params_N: 31
+    params_t: 11
+    params_s: 10
+    params_B: 0.842
 ---
 # {{ params_vars_title }}
 

@@ -34,10 +34,10 @@ part1:
     suffix: $s$
 myst:
   substitutions:
-    params_vars_name: Ximena
+    params_vars_name: Mateo
     params_vars_title: Throwing Stones
     params_vars_units: $s$
-    params_v: 26.1
+    params_v: 20.5
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} simultaneously throws two stones from the top edge of a building with a speed {{ params_v }} $m/s$. They throw one straight down and the other straight up.

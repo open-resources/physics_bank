@@ -38,11 +38,11 @@ myst:
   substitutions:
     params_vars_title: Cars around a bend
     params_vars_units: "$\rm{m}$"
-    params_max_acc_A: 0.1
-    params_max_acc_B: 0.9
-    params_ra: 334
-    params_rb: 426
-    params_angle: 54
+    params_max_acc_A: 0.3
+    params_max_acc_B: 0.3
+    params_ra: 325
+    params_rb: 393
+    params_angle: 71
 ---
 # {{ params_vars_title }}
 Two cars travel at constant speeds around a curve as shown below.

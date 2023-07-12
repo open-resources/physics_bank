@@ -30,7 +30,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Vehicle Velocity
-    params_vars_vehicle: sedan
+    params_vars_vehicle: pickup truck
     params_vars_units: $m/s$
     params_i_1: 4
     params_i_2: 2

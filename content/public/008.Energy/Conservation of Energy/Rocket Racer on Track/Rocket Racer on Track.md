@@ -38,9 +38,9 @@ myst:
     params_vars_title: Rocket Racer on Track
     params_m: 20
     params_va: 2
-    params_vb: 23
-    params_h: 35
-    params_d: 36
+    params_vb: 19
+    params_h: 47
+    params_d: 43
 ---
 # {{ params_vars_title }}
 A rocket racer toy of mass $m = {{ params_m }} kg$ is sent down a track from $A$ to $B$ from a height $h = {{ params_h }} m$ and a horizontal distance $d = {{ params_d }} m$ away from point B as shown in the diagram below.

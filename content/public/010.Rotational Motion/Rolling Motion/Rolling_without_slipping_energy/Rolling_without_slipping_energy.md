@@ -33,9 +33,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Rolling Without Slipping Energy
-    params_part1_ans1_value: Translational kinetic energy
-    params_part1_ans2_value: Gravitational kinetic energy
-    params_part1_ans3_value: Rotational kinetic energy
+    params_part1_ans1_value: Gravitational kinetic energy
+    params_part1_ans2_value: Rotational kinetic energy
+    params_part1_ans3_value: Translational kinetic energy
 ---
 # {{ params_vars_title }}
 

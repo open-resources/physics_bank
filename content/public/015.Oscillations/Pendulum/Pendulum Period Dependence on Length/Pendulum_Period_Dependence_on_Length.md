@@ -40,7 +40,7 @@ myst:
   substitutions:
     params_vars_title: Pendulum Period Dependence on Length
     params_inc: 5
-    params_dec: 55.0
+    params_dec: 60.0
     params_part1_ans1_value: It increases by a factor of $\sqrt($5$)$.
     params_part1_ans2_value: It increases by a factor of 5.
     params_part1_ans3_value: It increases by a factor of 5$^2$.

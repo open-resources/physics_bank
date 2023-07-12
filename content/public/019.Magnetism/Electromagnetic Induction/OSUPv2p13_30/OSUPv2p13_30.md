@@ -41,11 +41,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Coil Encircling Solenoid
-    params_n: '10'
-    params_A: '10'
-    params_I: '0.50'
+    params_n: '14'
+    params_A: '6'
+    params_I: '0.75'
     params_N: '4'
-    params_t: '0.06'
+    params_t: '0.07'
 ---
 # {{ params_vars_title }}
 
