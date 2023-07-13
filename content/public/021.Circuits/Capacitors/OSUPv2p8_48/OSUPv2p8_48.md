@@ -58,9 +58,9 @@ myst:
   substitutions:
     params_vars_title: Varying Separation Distance of Capacitor Plates
     params_a: '15.0'
-    params_b: '1.50'
-    params_c: '2.25'
-    params_v: '40'
+    params_b: '0.75'
+    params_c: '2.75'
+    params_v: '50'
     params_part3_ans1_value: It is lost to the surroundings in the laboratory
     params_part3_ans2_value: Charge is transferred to the battery
     params_part3_ans3_value: It is transferred into heat energy

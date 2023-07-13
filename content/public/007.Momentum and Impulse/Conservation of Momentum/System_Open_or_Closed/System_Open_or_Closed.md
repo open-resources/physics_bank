@@ -32,11 +32,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: System Open or Closed
-    params_vars_vehicle_c: Car
-    params_vars_vehicle: car
+    params_vars_vehicle_c: Semi-truck
+    params_vars_vehicle: semi-truck
     params_vars_units: kg
-    params_i_a: 66
-    params_i_b: 311
+    params_i_a: 99
+    params_i_b: 272
     params_part1_ans1_value: Yes, because the two carts are on a track with no friction.
     params_part1_ans2_value: Yes, because their change in velocities are the same.
     params_part1_ans3_value: No, because the total momentum is nonzero.

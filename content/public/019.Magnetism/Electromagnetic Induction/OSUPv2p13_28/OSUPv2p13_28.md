@@ -37,9 +37,9 @@ myst:
   substitutions:
     params_vars_title: Single-Turn Rectangular Coil
     params_R: '3'
-    params_B: '0.50'
-    params_f: '225'
-    params_t: '0.001'
+    params_B: '0.25'
+    params_f: '300'
+    params_t: '0.008'
 ---
 # {{ params_vars_title }}
 

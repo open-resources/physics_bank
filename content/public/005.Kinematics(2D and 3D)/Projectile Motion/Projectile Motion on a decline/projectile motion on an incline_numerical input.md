@@ -35,9 +35,9 @@ part1:
     suffix: m
 myst:
   substitutions:
-    params_a: 39
-    params_theta: 29
-    params_u: 17
+    params_a: 13
+    params_theta: 10
+    params_u: 40
 ---
 # Projectile Motion on an Incline
 A tennis ball is projected with a speed of u at angle of θ measured counter-clockwise from the normal to the inclined plane.

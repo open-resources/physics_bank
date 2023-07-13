@@ -48,8 +48,8 @@ myst:
     params_vars_units2: $N$
     params_m: 4
     params_v: 5
-    params_theta: 35
-    params_t: 0.574
+    params_theta: 48
+    params_t: 0.368
 ---
 # {{ params_vars_title }}
 A {{params_m}} kg steel bass strikes a massive wall at {{params_v}} m/s at an angle of {{params_theta}} degrees with the plane of the wall.

@@ -44,10 +44,10 @@ myst:
   substitutions:
     params_vars_name: Savannah
     params_vars_title: Archery Competition
-    params_d: 111
-    params_v: 196
-    params_h: 173
-    params_theta: 47
+    params_d: 89
+    params_v: 171
+    params_h: 210
+    params_theta: 49
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} is reading a novel that describes an athelete participating in an archery competition.

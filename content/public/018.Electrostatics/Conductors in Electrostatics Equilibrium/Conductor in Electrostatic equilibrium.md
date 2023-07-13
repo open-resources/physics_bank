@@ -33,16 +33,16 @@ part1:
 myst:
   substitutions:
     params_vars_title: Correct and Incorrect Statements
-    params_vars_name: Aliyah
+    params_vars_name: Abbas
     params_choice: 'FALSE'
     params_part1_ans1_value: A conductor in electrostatic equilibrium must have a
       net charge of 0.
     params_part1_ans1_feedback: Correct! Nice work
-    params_part1_ans2_value: If a conductor is in electrostatic equilibrium, the electric
-      field lines will always intersect its surface at right angles.
-    params_part1_ans2_feedback: Not quite - Try again!
-    params_part1_ans3_value: If a system is in electrostatic equilibrium, no charge
+    params_part1_ans2_value: If a system is in electrostatic equilibrium, no charge
       is moving.
+    params_part1_ans2_feedback: Not quite - Try again!
+    params_part1_ans3_value: If a conductor is in electrostatic equilibrium, the electric
+      field lines will always intersect its surface at right angles.
     params_part1_ans3_feedback: Not quite - Try again!
 ---
 # {{ params_vars_title }}

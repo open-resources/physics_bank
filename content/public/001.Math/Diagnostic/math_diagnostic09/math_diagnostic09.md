@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $z$ = $\dfrac{(e)}{(q + 3n)} $
-    params_part1_ans1_value: q = ${ \frac{e}{z} - 3 n}$
-    params_part1_ans2_value: q = ${\frac{3 n z}{e}}$
-    params_part1_ans3_value: q = ${\frac{e}{3 n z}}$
-    params_part1_ans4_value: q = ${\frac{- 3 n + z}{e}}$
+    params_expr: $g$ = $\dfrac{(z)}{(c + 8x)} $
+    params_part1_ans1_value: c = ${ - 8 x + \frac{z}{g}}$
+    params_part1_ans2_value: c = ${\frac{8 g x}{z}}$
+    params_part1_ans3_value: c = ${\frac{z}{8 g x}}$
+    params_part1_ans4_value: c = ${\frac{g - 8 x}{z}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

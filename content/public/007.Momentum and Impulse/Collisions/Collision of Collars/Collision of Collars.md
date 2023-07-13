@@ -44,9 +44,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Collision of Collars
-    params_W1: 2
-    params_W2: 7
-    params_v1: 29
+    params_W1: 4
+    params_W2: 10
+    params_v1: 23
     params_v2: 2
     params_e: 0.63
 ---

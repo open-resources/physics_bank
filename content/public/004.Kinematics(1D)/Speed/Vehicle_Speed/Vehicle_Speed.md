@@ -30,7 +30,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Vehicle Speed
-    params_vars_vehicle: truck
+    params_vars_vehicle: pickup truck
     params_part1_ans1_value: constant
     params_part1_ans2_value: increasing
     params_part1_ans3_value: decreasing

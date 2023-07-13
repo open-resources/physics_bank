@@ -34,11 +34,11 @@ myst:
     params_vars_title: Speed Before Impact
     params_vars_vehicle: bus
     params_vars_units: $m/s$
-    params_m: 665
-    params_part1_ans1_value: 81.0
-    params_part1_ans2_value: 41.0
-    params_part1_ans3_value: 20.0
-    params_part1_ans4_value: 10.0
+    params_m: 577
+    params_part1_ans1_value: 94.0
+    params_part1_ans2_value: 47.0
+    params_part1_ans3_value: 23.0
+    params_part1_ans4_value: 12.0
     params_part1_ans5_value: 0
 ---
 # {{ params_vars_title }}

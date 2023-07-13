@@ -45,8 +45,8 @@ myst:
   substitutions:
     params_vars_title: Yoyo Spin
     params_vars_units: $m/s$
-    params_r1: 27
-    params_r2: 44
+    params_r1: 33
+    params_r2: 52
 ---
 # {{ params_vars_title }}
 A performer spins two yoyos at full length in a loop as part of a trick.

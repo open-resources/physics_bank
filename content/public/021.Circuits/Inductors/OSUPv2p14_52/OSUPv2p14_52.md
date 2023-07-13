@@ -117,8 +117,8 @@ myst:
     params_vars_title: Switched RL Series Circuit
     params_num: '3'
     params_emf: '12.0'
-    params_L: '15.0'
-    params_R: '8.00'
+    params_L: '21.0'
+    params_R: '5.00'
 ---
 # {{ params_vars_title }}
 Consider the $RL$ circuit shown below.

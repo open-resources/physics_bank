@@ -62,8 +62,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: 'Switched RL Series Circuit: Time Constant'
-    params_t: '1.35'
-    params_L: '230.0'
+    params_t: '1.55'
+    params_L: '275.0'
 ---
 # {{ params_vars_title }}
 Consider the $RL$ circuit shown below.
