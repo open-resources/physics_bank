@@ -141,6 +141,8 @@ parts:
       of Particle
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Acceleration, Velocity and
       Time/Acceleration, Velocity and Time
+  - file: content/public/004.Kinematics(1D)/Topic Outcome/Characteristics of a moving
+      rocket/Characteristics of a Moving Rocket
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Electrons_Accelerating/Electrons_Accelerating
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Kicked_Soccer_Ball/Kicked_Soccer_Ball
   - file: content/public/004.Kinematics(1D)/Topic Outcome/Motion_of_watermelon/Motion_of_watermelon
@@ -628,9 +630,12 @@ parts:
   - file: content/public/016.Waves/Power of a Wave/power_wave_q1/power_wave_q1
   - file: content/public/016.Waves/Sound Wave Energy/Sound_Wave_Energy
   - file: content/public/016.Waves/The Doppler Effect/Bat_Doppler_V2/Bat_Doppler_V2
+  - file: content/public/016.Waves/Traveling Waves/Travelling Wave Displacement/Travelling_Wave_Displacement
   - file: content/public/016.Waves/Traveling Waves/Travelling_wave_derivation/Travelling_wave_derivation
 - caption: Electrostatics
   chapters:
+  - file: content/public/018.Electrostatics/Conductors in Electrostatics Equilibrium/Conductor
+      in Electrostatic equilibrium
   - file: content/public/018.Electrostatics/Coulomb's Law/Gravity_Vs_Electric_Forces/Gravity_Vs_Electric_Forces
   - file: content/public/018.Electrostatics/Electric Charge/Attracting and repelling
       bodies/Attracting and repelling bodies
