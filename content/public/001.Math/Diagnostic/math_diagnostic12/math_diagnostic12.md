@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic12
-    params_expr: $7\over 7- x$ > $ 6$
-    params_part1_ans1_value: (35/6 < x) & (x < 7)
-    params_part1_ans2_value: (35/6 > x) & (x > 7)
-    params_part1_ans3_value: x > 7/6
-    params_part1_ans4_value: (288/7 < x) & (x < 42)
+    params_expr: $2\over 2- x$ > $ 4$
+    params_part1_ans1_value: (3/2 < x) & (x < 2)
+    params_part1_ans2_value: (3/2 > x) & (x > 2)
+    params_part1_ans3_value: x > 2/4
+    params_part1_ans4_value: (6 < x) & (x < 8)
     params_part1_ans5_value: Do not know
 ---
 # {{ params_vars_title }}

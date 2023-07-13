@@ -35,10 +35,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Stack of Pennies
-    params_s_1: 4
-    params_s_2: 5
-    params_s_3: 6
-    params_s_4: 7
+    params_s_1: 2
+    params_s_2: 3
+    params_s_3: 4
+    params_s_4: 5
 ---
 # {{ params_vars_title }}
 There are four stacks of pennies lined up in a row. The first stack has {{params.s_1}} pennies, the

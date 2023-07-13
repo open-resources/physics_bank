@@ -45,12 +45,12 @@ part1:
 myst:
   substitutions:
     params_vars_title: Adding Capacitances
-    params_a: '6'
-    params_b: '5'
-    params_c: '3.5'
-    params_d: '2.5'
-    params_e: '1.00'
-    params_f: '7'
+    params_a: '10'
+    params_b: '11'
+    params_c: '2.5'
+    params_d: '5.0'
+    params_e: '1.75'
+    params_f: '8'
 ---
 # {{ params_vars_title }}
 

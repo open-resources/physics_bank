@@ -35,10 +35,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Rotating Coil
-    params_N: '1300'
-    params_a: '30'
-    params_t: '0.015'
-    params_B: '6.0'
+    params_N: '1200'
+    params_a: '25'
+    params_t: '0.005'
+    params_B: '6.5'
 ---
 # {{ params_vars_title }}
 

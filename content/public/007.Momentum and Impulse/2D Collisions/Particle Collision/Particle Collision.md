@@ -30,23 +30,23 @@ part1:
 myst:
   substitutions:
     params_vars_title: Particle Collision
-    params_choice: total
-    params_m1: 5
+    params_choice: $y$-component of the
+    params_m1: 9
     params_m2: 6
-    params_v1: 8
-    params_v2: 8
-    params_part1_ans1_value: 40 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 48 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+    params_v1: 11
+    params_v2: 14
+    params_part1_ans1_value: 84 $kg$ $\dfrac{m}{s}\hat{\jmath}$
     params_part1_ans1_feedback: Great! You got it.
-    params_part1_ans2_value: 48 $kg$ $\dfrac{m}{s}\hat{\imath}$
+    params_part1_ans2_value: 84 $kg$ $\dfrac{m}{s}\hat{\imath}$
     params_part1_ans2_feedback: Hmm... Try again.
-    params_part1_ans3_value: 48 $kg$ $\dfrac{m}{s}\hat{\jmath}$
-    params_part1_ans3_feedback: Careful! Both components are asked for.
-    params_part1_ans4_value: 48 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 40 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+    params_part1_ans3_value: 84 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 99 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+    params_part1_ans3_feedback: Hmm... Try again.
+    params_part1_ans4_value: 99 $kg$ $\dfrac{m}{s}\hat{\jmath}$
     params_part1_ans4_feedback: Hmm... Try again.
-    params_part1_ans5_value: 40 $kg$ $\dfrac{m}{s}\hat{\jmath}$
-    params_part1_ans5_feedback: Hmm... Try again.
-    params_part1_ans6_value: 40 $kg$ $\dfrac{m}{s}\hat{\imath}$
-    params_part1_ans6_feedback: Careful! Both components are asked for.
+    params_part1_ans5_value: 99 $kg$ $\dfrac{m}{s}\hat{\imath}$
+    params_part1_ans5_feedback: Close! Double check the directions of the unit vectors.
+    params_part1_ans6_value: 99 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 84 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+    params_part1_ans6_feedback: Careful! Only one component is asked for.
 ---
 # {{ params_vars_title }}
 A particle of mass {{ params_m1 }} $kg$ is travelling with velocity {{ params_v1 }} $\frac{m}{s}\hat{\imath}$ when it collides with another particle of mass {{ params_m2 }} $kg$ travelling with velocity {{ params_v2 }} $\frac{m}{s}\hat{\jmath}$.

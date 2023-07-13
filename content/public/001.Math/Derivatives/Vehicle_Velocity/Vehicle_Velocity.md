@@ -30,18 +30,18 @@ part1:
 myst:
   substitutions:
     params_vars_title: Vehicle Velocity
-    params_vars_vehicle: car
+    params_vars_vehicle: bus
     params_vars_units: $m/s$
-    params_i_1: 3
-    params_i_2: 1
-    params_j_1: 7
+    params_i_1: 2
+    params_i_2: 3
+    params_j_1: 8
     params_j_2: 3
     params_s: 1
-    params_part1_ans1_value: (5$\hat{\imath}$ + 2$\hat{\jmath}$)
-    params_part1_ans2_value: (5$\hat{\imath}$ + 9$\hat{\jmath}$)
-    params_part1_ans3_value: (2$\hat{\imath}$ + 10$\hat{\jmath}$)
-    params_part1_ans4_value: (2$\hat{\imath}$ + 2$\hat{\jmath}$)
-    params_part1_ans5_value: (5$\hat{\imath}$ + 10$\hat{\jmath}$)
+    params_part1_ans1_value: (1$\hat{\imath}$ + 1$\hat{\jmath}$)
+    params_part1_ans2_value: (1$\hat{\imath}$ + 9$\hat{\jmath}$)
+    params_part1_ans3_value: (-1$\hat{\imath}$ + 11$\hat{\jmath}$)
+    params_part1_ans4_value: (-1$\hat{\imath}$ + 1$\hat{\jmath}$)
+    params_part1_ans5_value: (1$\hat{\imath}$ + 11$\hat{\jmath}$)
 ---
 # {{ params_vars_title }}
 A {{ params_vars_vehicle }}'s position as a function of time is given by $\vec{r} =$ ({{ params.i_1 }}$t^2 -$ {{ params.i_2 }}$t)\hat{\imath} + ($ {{ params.j_1 }}$t^{-1}+$ {{ params.j_2 }} $t^3)\hat{\jmath}$ where $\vec{r}$ is in meters and $t$ is in seconds.

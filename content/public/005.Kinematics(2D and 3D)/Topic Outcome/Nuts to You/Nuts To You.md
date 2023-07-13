@@ -79,8 +79,8 @@ part8:
 myst:
   substitutions:
     params_vars_title: Nuts To You
-    params_vi_hawk: 4.42
-    params_h_Jed: 16.7
+    params_vi_hawk: 3.43
+    params_h_Jed: 19.4
     params_part3_ans1_value: Jed maintains the $x$-component of their velocity. ($a_x
       = 0 \; m/s^2$)
     params_part3_ans2_value: There is no $x$-component since Jed falls in a straight

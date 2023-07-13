@@ -36,8 +36,8 @@ myst:
   substitutions:
     params_vars_title: Average Speed of Kinesin
     params_vars_units: $m/s$
-    params_dist: 8.2
-    params_t: 50.5
+    params_dist: 8.3
+    params_t: 46.6
     params_delay: 14.2
 ---
 # {{ params_vars_title }}

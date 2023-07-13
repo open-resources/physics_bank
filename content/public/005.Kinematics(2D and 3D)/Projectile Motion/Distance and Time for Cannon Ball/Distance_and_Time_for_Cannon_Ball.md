@@ -47,9 +47,9 @@ myst:
     params_vars_title: Distance and Time for a Cannon Ball
     params_vars_distance_units: $m$
     params_vars_time_units: $seconds$
-    params_distance_from_ground: 784
-    params_speed_of_jett: 346
-    params_angle: 33
+    params_distance_from_ground: 404
+    params_speed_of_jett: 306
+    params_angle: 37
 ---
 # {{ params_vars_title }}
 A cannon fires a projectile at a {{params_angle}}$^{\circ}$ angle at {{params.speed_of_jett}} $km/h$. The cannon is {{params.distance_from_ground}} $m$ above the ground.

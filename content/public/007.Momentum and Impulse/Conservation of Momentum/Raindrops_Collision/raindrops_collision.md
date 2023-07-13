@@ -32,20 +32,20 @@ myst:
   substitutions:
     params_vars_title: Perfectly Inelastic Collision of Raindrops
     params_vars_units: m/s
-    params_m1: 0.21
-    params_m2: 0.54
-    params_v1_i: -18.3
-    params_v2_i: -10.3
-    params_v1_j_abs: 11.1
-    params_v2_j_abs: 11.2
+    params_m1: 0.37
+    params_m2: 0.17
+    params_v1_i: -16.0
+    params_v2_i: -4.28
+    params_v1_j_abs: 16.3
+    params_v2_j_abs: 10.1
     params_v1_j_sign: ' - '
     params_v2_j_sign: ' + '
-    params_part1_ans1_value: -45.0$\hat{\imath}$ + 18.0$\hat{\jmath}$
-    params_part1_ans2_value: -13.0$\hat{\imath}$ + 5.0$\hat{\jmath}$
-    params_part1_ans3_value: -17.0$\hat{\imath}$ + 6.9$\hat{\jmath}$
-    params_part1_ans4_value: -3.5$\hat{\imath}$ + 1.4$\hat{\jmath}$
-    params_part1_ans5_value: 2.6$\hat{\imath}$ - 13.0$\hat{\jmath}$
-    params_part1_ans6_value: 2.3$\hat{\imath}$ - 11.0$\hat{\jmath}$
+    params_part1_ans1_value: -18.0$\hat{\imath}$ - 12.0$\hat{\jmath}$
+    params_part1_ans2_value: -12.0$\hat{\imath}$ - 8.0$\hat{\jmath}$
+    params_part1_ans3_value: -39.0$\hat{\imath}$ - 25.0$\hat{\jmath}$
+    params_part1_ans4_value: -1.8$\hat{\imath}$ - 1.2$\hat{\jmath}$
+    params_part1_ans5_value: -5.6$\hat{\imath}$ - 8.4$\hat{\jmath}$
+    params_part1_ans6_value: -9.6$\hat{\imath}$ - 14.0$\hat{\jmath}$
 ---
 # {{ params_vars_title }}
 Two raindrops in a cloud collide perfectly inelastically. The first raindrop has a mass of {{ params_m1}} g and is travelling with $\vec{v_1} =$ ({{ params.v1_i}} $\hat{\imath}$ {{params.v1_j_sign}} {{ params.v1_j_abs}} $\hat{\jmath}$) m/s.

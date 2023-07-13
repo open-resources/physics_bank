@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $b$ = $\dfrac{(g)}{(n - 8i)} $
-    params_part1_ans1_value: n = ${ 8 i + \frac{g}{b}}$
-    params_part1_ans2_value: n = ${- \frac{8 b i}{g}}$
-    params_part1_ans3_value: n = ${- \frac{g}{8 b i}}$
-    params_part1_ans4_value: n = ${\frac{b + 8 i}{g}}$
+    params_expr: $z$ = $\dfrac{(e)}{(q + 3n)} $
+    params_part1_ans1_value: q = ${ \frac{e}{z} - 3 n}$
+    params_part1_ans2_value: q = ${\frac{3 n z}{e}}$
+    params_part1_ans3_value: q = ${\frac{e}{3 n z}}$
+    params_part1_ans4_value: q = ${\frac{- 3 n + z}{e}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

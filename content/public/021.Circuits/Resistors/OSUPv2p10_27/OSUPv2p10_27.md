@@ -57,9 +57,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Greatest and Least Resistor Combinations
-    params_R1: '14.0'
-    params_R2: '66.0'
-    params_R3: '625'
+    params_R1: '13.0'
+    params_R2: '80.0'
+    params_R3: '850'
 ---
 # {{ params_vars_title }}
 Consider a $ {{ params_R1 }}\rm\ \Omega$, a $ {{ params_R2 }}\rm\ \Omega$, and a $ {{ params_R3 }}\rm\ \Omega$ resistor.

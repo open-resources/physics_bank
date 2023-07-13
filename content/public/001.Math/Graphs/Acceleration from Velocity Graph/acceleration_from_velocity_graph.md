@@ -30,7 +30,7 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_t: 4
+    params_t: 1
     params_vars_title: Acceleration from Velocity Graph
     params_part1_ans1_value: In the $+x$ direction.
     params_part1_ans2_value: In the $-x$ direction.

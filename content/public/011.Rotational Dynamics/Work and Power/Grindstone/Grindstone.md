@@ -47,11 +47,11 @@ part2:
 myst:
   substitutions:
     params_vars_title: Grindstone
-    params_M: 9.0
-    params_R: 8
-    params_RPM: 1264
-    params_F: 5.8
-    params_mu: 0.95
+    params_M: 8.1
+    params_R: 9
+    params_RPM: 1758
+    params_F: 4.0
+    params_mu: 0.93
 ---
 # {{ params_vars_title }}
 A uniform cylindrical grindstone has a mass of ${{ params_M }} \rm{kg}$ and a radius of ${{ params_R }} \rm{cm}$.
