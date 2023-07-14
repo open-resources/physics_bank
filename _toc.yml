@@ -898,3 +898,10 @@ parts:
   - file: content/public/022.Light/Topic Outcome/Diffraction/part2/diffraction2
   - file: content/public/022.Light/Topic Outcome/Diffraction/part3/diffraction3
   - file: content/public/022.Light/Topic Outcome/Diffraction/part4/diffraction4
+- caption: Optics
+  chapters:
+  - file: content/public/022.Optics/Raman Diffraction/Raman_Diffraction
+  - file: content/public/022.Optics/Topic Outcome/Diffraction/part1/diffraction1
+  - file: content/public/022.Optics/Topic Outcome/Diffraction/part2/diffraction2
+  - file: content/public/022.Optics/Topic Outcome/Diffraction/part3/diffraction3
+  - file: content/public/022.Optics/Topic Outcome/Diffraction/part4/diffraction4
