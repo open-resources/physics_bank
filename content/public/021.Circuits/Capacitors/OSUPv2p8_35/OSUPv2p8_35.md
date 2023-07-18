@@ -53,9 +53,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Connecting Capacitors
-    params_vars_name: Mateo
-    params_a: '8'
-    params_b: '12'
+    params_vars_name: Ximena
+    params_a: '13'
+    params_b: '8'
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} has a {{params_a }} $\rm\ \mu\textrm{F}$ capacitor and a {{params_b }} $\rm\ \mu\textrm{F}$ capacitor.

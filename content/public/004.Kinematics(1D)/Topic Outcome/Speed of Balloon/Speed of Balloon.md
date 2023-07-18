@@ -35,12 +35,12 @@ part1:
     suffix: $m/s$
 myst:
   substitutions:
-    params_vars_name: Abbas
+    params_vars_name: Maya
     params_vars_title: Speed of Balloon
     params_vars_units: $m/s$
-    params_m: 1.1
-    params_F: 0.02
-    params_d: 3.35
+    params_m: 1.6
+    params_F: 0.08
+    params_d: 3.34
 ---
 # {{ params_vars_title }}
 In a demo for showing how a jet works, {{ params_vars_name }} would like to use an inflated balloon. The mass of the empty balloon is {{ params_m }} $g$ and it only moves vertically upward. We know that this balloon produces a constant thrust force of {{ params_F }} $N$.

@@ -42,12 +42,12 @@ part2:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params_vars_name: Savannah
+    params_vars_name: Mateo
     params_vars_title: Archery Competition
-    params_d: 89
-    params_v: 171
-    params_h: 210
-    params_theta: 49
+    params_d: 109
+    params_v: 223
+    params_h: 182
+    params_theta: 42
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} is reading a novel that describes an athelete participating in an archery competition.

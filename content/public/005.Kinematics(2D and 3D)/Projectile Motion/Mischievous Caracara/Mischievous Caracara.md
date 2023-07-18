@@ -96,27 +96,27 @@ myst:
     params_h: 13
     params_part4_ans1_value: East
     params_part4_ans1_feedback: Great! You got it.
-    params_part4_ans2_value: East and up
+    params_part4_ans2_value: South and up
     params_part4_ans2_feedback: Hmh...Try again!
-    params_part4_ans3_value: West and down
+    params_part4_ans3_value: East and up
     params_part4_ans3_feedback: Hmh...Try again!
     params_part4_ans4_value: East and down
     params_part4_ans4_feedback: The nut does not start moving down immediately
-    params_part4_ans5_value: West and up
+    params_part4_ans5_value: North and down
     params_part4_ans5_feedback: Hmh...Try again!
-    params_part4_ans6_value: North and down
+    params_part4_ans6_value: North and up
     params_part4_ans6_feedback: Hmh...Try again!
     params_part7_ans1_value: Down
     params_part7_ans1_feedback: Great! You got it.
-    params_part7_ans2_value: West and down
+    params_part7_ans2_value: South and up
     params_part7_ans2_feedback: Hmh...Try again!
-    params_part7_ans3_value: East
-    params_part7_ans3_feedback: Gravity is the only source of acceleration!
-    params_part7_ans4_value: East and up
+    params_part7_ans3_value: East and up
+    params_part7_ans3_feedback: Hmh...Try again!
+    params_part7_ans4_value: South and down
     params_part7_ans4_feedback: Hmh...Try again!
-    params_part7_ans5_value: North and up
+    params_part7_ans5_value: West and down
     params_part7_ans5_feedback: Hmh...Try again!
-    params_part7_ans6_value: South and down
+    params_part7_ans6_value: North and up
     params_part7_ans6_feedback: Hmh...Try again!
 ---
 # {{ params_vars_title }}

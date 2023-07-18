@@ -66,16 +66,16 @@ part4:
     digits: 1
 myst:
   substitutions:
-    params_vars_name: Savannah
+    params_vars_name: Ximena
     params_vars_title: Toboggan Hill
     params_vars_units1_2_3: "$\rm{kJ}$"
     params_vars_units_4: "$\rm{m/s}$"
-    params_m: 34
-    params_l: 86
-    params_ang_horiz: 28
-    params_fr: 83
-    params_fwind: 23
-    params_ang_wind: 23
+    params_m: 38
+    params_l: 100
+    params_ang_horiz: 23
+    params_fr: 81
+    params_fwind: 18
+    params_ang_wind: 24
     params_v_i: 1
 ---
 # {{ params_vars_title }}

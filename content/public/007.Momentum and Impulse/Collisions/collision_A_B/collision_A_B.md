@@ -50,9 +50,9 @@ myst:
     params_vars_title: Collision of Objects A and B
     params_vars_name: Aliyah
     params_v1: 3
-    params_v2: 3
+    params_v2: 5
     params_m_a: 2
-    params_m_b: 2
+    params_m_b: 4
     params_part2_ans1_value: 'Yes'
     params_part2_ans2_value: 'No'
 ---

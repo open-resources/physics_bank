@@ -36,10 +36,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: T-bone Collision
-    params_ma: 1421
-    params_mb: 1649
-    params_vak: 40
-    params_thetad: 32
+    params_ma: 1246
+    params_mb: 1632
+    params_vak: 47
+    params_thetad: 31
 ---
 # {{ params_vars_title }}
 <img src="T-bone Collision.png" width=400>

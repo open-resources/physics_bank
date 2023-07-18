@@ -42,9 +42,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Square toroid
-    params_N: '439'
-    params_d: '3.6'
-    params_r: '26'
+    params_N: '373'
+    params_d: '4.0'
+    params_r: '23'
     params_I: '1.4'
 ---
 # {{ params_vars_title }}

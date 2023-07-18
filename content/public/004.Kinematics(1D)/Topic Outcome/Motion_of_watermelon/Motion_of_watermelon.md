@@ -57,12 +57,12 @@ myst:
     params_vars_title: Motion of watermelon
     params_vars_units1: ${m/s}^2$
     params_vars_units2: $s$
-    params_signa: +
+    params_signa: '-'
     params_signb: +
-    params_signc: +
-    params_a: 2
-    params_b: 5
-    params_c: 2
+    params_signc: '-'
+    params_a: 4
+    params_b: 2
+    params_c: 8
     params_part4_ans1_value: The speed is increasing
     params_part4_ans2_value: The speed is decreasing
     params_part4_ans3_value: There is not enough information to tell

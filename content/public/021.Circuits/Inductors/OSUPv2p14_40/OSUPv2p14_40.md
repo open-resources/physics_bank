@@ -45,8 +45,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Inductance of a Solenoid
-    params_l: '46.0'
-    params_N: '550'
+    params_l: '50.0'
+    params_N: '560'
     params_A: '1.00'
 ---
 # {{ params_vars_title }}

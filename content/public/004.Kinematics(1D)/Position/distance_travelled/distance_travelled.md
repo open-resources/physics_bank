@@ -29,18 +29,18 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Savannah
-    params_vars_vehicle: a bicycle
+    params_vars_name: Mateo
+    params_vars_vehicle: a unicycle
     params_vars_units: m
     params_vars_title: Distance travelled
-    params_v: 3
+    params_v: 7
     params_t: 9
     params_part1_ans1_value: 42.0
-    params_part1_ans2_value: 27
-    params_part1_ans3_value: 12
-    params_part1_ans4_value: 0.33
-    params_part1_ans5_value: -6
-    params_part1_ans6_value: -7.8
+    params_part1_ans2_value: 63
+    params_part1_ans3_value: 16
+    params_part1_ans4_value: 0.78
+    params_part1_ans5_value: -2
+    params_part1_ans6_value: -2.6
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} is traveling on {{ params_vars_vehicle }} at {{ params_v }} $\rm{m/s}$.

@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $g$ = $\dfrac{(z)}{(c + 8x)} $
-    params_part1_ans1_value: c = ${ - 8 x + \frac{z}{g}}$
-    params_part1_ans2_value: c = ${\frac{8 g x}{z}}$
-    params_part1_ans3_value: c = ${\frac{z}{8 g x}}$
-    params_part1_ans4_value: c = ${\frac{g - 8 x}{z}}$
+    params_expr: $w$ = $\dfrac{(a)}{(n + 5q)} $
+    params_part1_ans1_value: n = ${ \frac{a}{w} - 5 q}$
+    params_part1_ans2_value: n = ${\frac{5 q w}{a}}$
+    params_part1_ans3_value: n = ${\frac{a}{5 q w}}$
+    params_part1_ans4_value: n = ${\frac{- 5 q + w}{a}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

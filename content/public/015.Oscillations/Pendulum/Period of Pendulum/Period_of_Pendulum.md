@@ -35,7 +35,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Period of Pendulum
-    params_L: 0.86
+    params_L: 0.54
 ---
 # {{ params_vars_title }}
 

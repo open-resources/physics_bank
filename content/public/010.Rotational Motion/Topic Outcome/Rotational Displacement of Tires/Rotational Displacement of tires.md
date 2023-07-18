@@ -36,8 +36,8 @@ myst:
     params_vars_vehicle: bus
     params_vars_title: Rotational Displacement of Tires
     params_vars_units: rad
-    params_a: 5.47
-    params_t: 32.2
+    params_a: 8.68
+    params_t: 2.51
 ---
 # {{ params_vars_title }}
 A {{ params_vars_vehicle }} accelerates from rest at $t = 0$ such that its tires undergo a constant rotational acceleration of $\alpha = $ {{ params_a }} $s^{-2}$.

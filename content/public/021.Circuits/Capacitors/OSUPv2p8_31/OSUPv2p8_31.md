@@ -64,8 +64,8 @@ myst:
   substitutions:
     params_vars_title: Charge and Voltage Across Capacitors
     params_a: '12'
-    params_b: '5'
-    params_v: '390'
+    params_b: '13'
+    params_v: '440'
 ---
 # {{ params_vars_title }}
 A {{params_a }}$\textrm{ pF}$ capacitor is connected in series with a {{params_b }}$\textrm{ pF}$ capacitor and a {{params_v }}$\textrm{ V}$ potential difference is applied across the pair.

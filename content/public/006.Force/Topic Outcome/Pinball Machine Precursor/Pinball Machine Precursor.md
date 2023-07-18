@@ -58,10 +58,10 @@ part4:
 myst:
   substitutions:
     params_vars_title: Pinball Machine Precursor
-    params_l_u: 8.47
-    params_l_c: 7.27
-    params_rise: 8.7
-    params_radius: 24
+    params_l_u: 8.4
+    params_l_c: 3.37
+    params_rise: 8.15
+    params_radius: 21
     params_m_b: 10.0
     params_part2_ans1_value: No, because the ball moves parallel to the walls of the
       track. The normal force and displacement are perpendicular.
