@@ -930,6 +930,7 @@ parts:
       4/exponential_damping4
   - file: content/public/015.Oscillations/Damped Oscillations/Exponential Damping/part
       5/exponential_damping5
+  - file: content/public/015.Oscillations/Pendulum/Frequency_of_Pendulum/Frequency_of_Pendulum
   - file: content/public/015.Oscillations/Pendulum/Length of Pendulum/Length_of_Pendulum
   - file: content/public/015.Oscillations/Pendulum/Pendulum Clock/Pendulum_Clock
   - file: content/public/015.Oscillations/Pendulum/Pendulum Gravity/Pendulum_Gravity
@@ -941,6 +942,7 @@ parts:
       sleep/Bouncing a baby to sleep
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Displacement and
       Potential Energy of an Oscillator/Displacement and Potential Energy of an Oscillator
+  - file: content/public/015.Oscillations/Simple Harmonic Motion/Horizontal_Spring_Displacement/Horizontal_Spring_Displacement
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Kinetic_energy_SHM/Kinetic_energy_SHM
   - file: content/public/015.Oscillations/Simple Harmonic Motion/Maximum Speed of
       a Pendulum/Maximum Speed of a Pendulum
@@ -952,6 +954,8 @@ parts:
   - file: content/public/015.Oscillations/Simple Harmonic Motion/spring_oscillations/spring_oscillations
 - caption: Waves
   chapters:
+  - file: content/public/016.Waves/Interference/Destructive_Inteference/Destructive_Interference
+  - file: content/public/016.Waves/Interference/Light Interference/Light Interference
   - file: content/public/016.Waves/Interference/PHYS 122 2018W2 Second Term Test Q3/PHYS
       122 2018W2 Second Term Test Q3
   - file: content/public/016.Waves/Interference/Single_Slit_Experiment/Single_Slit_Experiment
@@ -959,12 +963,18 @@ parts:
   - file: content/public/016.Waves/Misc/microscope_resolution/microscope_resolution
   - file: content/public/016.Waves/Power of a Wave/power_wave_q1/power_wave_q1
   - file: content/public/016.Waves/Sound Wave Energy/Sound_Wave_Energy
+  - file: content/public/016.Waves/Sound/Harmonic_Sound_Series/Harmonic_Series
   - file: content/public/016.Waves/Standing Waves/Frequency of a Standing Wave/frequency_of_a_standing_wave
+  - file: content/public/016.Waves/Standing Waves/Frequency of open-closed tubes/frequency_of_open_closed_tubes
   - file: content/public/016.Waves/Standing Waves/Superposition of Two Waves/superposition_of_two_waves
   - file: content/public/016.Waves/The Doppler Effect/Bat_Doppler_V2/Bat_Doppler_V2
   - file: content/public/016.Waves/Topic Outcome/WaveOnAString1/wave_on_a_string_1
+  - file: content/public/016.Waves/Traveling Waves/Longitudinal_Wave/Longitudinal_Wave
   - file: content/public/016.Waves/Traveling Waves/Travelling Wave Displacement/Travelling_Wave_Displacement
   - file: content/public/016.Waves/Traveling Waves/Travelling_wave_derivation/Travelling_wave_derivation
+  - file: content/public/016.Waves/Traveling Waves/Wave_On_a_String/Wave_on_a_String
+  - file: content/public/016.Waves/Traveling Waves/Wave_Pulse_Segment/Wave_Pulse
+  - file: content/public/016.Waves/Traveling Waves/Wave_Variation_Strings/Wave_Variations_String
 - caption: Electrostatics
   chapters:
   - file: content/public/018.Electrostatics/Conductors in Electrostatics Equilibrium/Conductor
@@ -1225,6 +1235,7 @@ parts:
   - file: content/public/021.Circuits/Resistors/OSUPv2p10_26/OSUPv2p10_26
   - file: content/public/021.Circuits/Resistors/OSUPv2p10_27/OSUPv2p10_27
   - file: content/public/021.Circuits/Resistors/Power and Energy Through Resistor/power_and_energy
+  - file: content/public/021.Circuits/Resistors/Resistor Circuit Reduction/Resistor_circuit_reduction
 - caption: Light
   chapters:
   - file: content/public/022.Light/Topic Outcome/Diffraction/part1/diffraction1
@@ -1233,6 +1244,7 @@ parts:
   - file: content/public/022.Light/Topic Outcome/Diffraction/part4/diffraction4
 - caption: Optics
   chapters:
+  - file: content/public/022.Optics/Diffraction/Double_Slit_Experiment/Double_Slit_Experiment
   - file: content/public/022.Optics/Raman Diffraction/Raman_Diffraction
   - file: content/public/022.Optics/Topic Outcome/Diffraction/part1/diffraction1
   - file: content/public/022.Optics/Topic Outcome/Diffraction/part2/diffraction2
