@@ -42,8 +42,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Solenoid current
-    params_n: '8'
-    params_B: $3.8\times 10^{-1}$
+    params_n: '11'
+    params_B: $3.2\times 10^{-1}$
 ---
 # {{ params_vars_title }}
 A solenoid has {{ params_n }} turns per centimeter.

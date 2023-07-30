@@ -34,9 +34,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Relative Highway
-    params_v1: 11
-    params_v3: 9
-    params_d: 3
+    params_v1: 15
+    params_v3: 7
+    params_d: 5
     params_t: 1
 ---
 # {{ params_vars_title }}

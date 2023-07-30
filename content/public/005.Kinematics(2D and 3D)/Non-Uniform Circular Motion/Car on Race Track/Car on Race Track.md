@@ -44,9 +44,9 @@ myst:
   substitutions:
     params_vars_title: Car on a Race Track
     params_vars_units: m/$s^2$
-    params_r: 155
-    params_at: 0.168
-    params_t: 18
+    params_r: 63
+    params_at: 0.697
+    params_t: 10
 ---
 # {{ params_vars_title }}
 A newly modified race car is on a race track to test out its speed, acceleration, and the overall build.

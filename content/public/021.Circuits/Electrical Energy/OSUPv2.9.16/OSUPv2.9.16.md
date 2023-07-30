@@ -29,10 +29,10 @@ myst:
   substitutions:
     params_vars_title: Energy Consumption Units
     params_vars_name: Ahmed
-    params_part1_ans1_value: energy
+    params_part1_ans1_value: current
     params_part1_ans2_value: voltage
     params_part1_ans3_value: charge
-    params_part1_ans4_value: current
+    params_part1_ans4_value: energy
     params_part1_ans5_value: power
 ---
 # {{ params_vars_title }}

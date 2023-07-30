@@ -45,10 +45,10 @@ myst:
   substitutions:
     params_vars_title: Crate A & B pushed up a hill
     params_vars_units: m, m/$s^2$
-    params_m1: 13.84
-    params_m2: 21.37
-    params_v0: 4
-    params_theta: 21.1
+    params_m1: 8.29
+    params_m2: 27.45
+    params_v0: 41
+    params_theta: 3.88
 ---
 # {{ params_vars_title }}
 A person is pushing crate A and B up a hill to have it slide down into an area for pickup and loading.

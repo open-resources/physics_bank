@@ -47,8 +47,8 @@ myst:
   substitutions:
     params_vars_title: Gravity at Different Heights
     params_vars_units: "$\rm{m/s^2}$"
-    params_h: 3646
-    params_h2: 13542
+    params_h: 3443
+    params_h2: 14167
     params_r: 6371000.0
 ---
 # {{ params_vars_title }}

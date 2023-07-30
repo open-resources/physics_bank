@@ -44,9 +44,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Slingshot
-    params_K: 193
-    params_d: 1.26
-    params_x0: 0.28
+    params_K: 104
+    params_d: 0.64
+    params_x0: 0.1
     params_m: 9
 ---
 # {{ params_vars_title }}

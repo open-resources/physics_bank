@@ -42,8 +42,8 @@ myst:
   substitutions:
     params_vars_title: Two Blocks Stacked
     params_vars_units: N
-    params_m: 11
-    params_f: 0.32
+    params_m: 14
+    params_f: 0.37
     params_t: 48
 ---
 # {{ params_vars_title }}

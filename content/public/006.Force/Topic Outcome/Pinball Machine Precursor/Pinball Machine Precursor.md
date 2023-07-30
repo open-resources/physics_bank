@@ -58,9 +58,9 @@ part4:
 myst:
   substitutions:
     params_vars_title: Pinball Machine Precursor
-    params_l_u: 8.23
-    params_l_c: 4.69
-    params_rise: 9.66
+    params_l_u: 8.76
+    params_l_c: 3.66
+    params_rise: 9.98
     params_radius: 23
     params_m_b: 10.0
     params_part2_ans1_value: No, because the ball moves parallel to the walls of the

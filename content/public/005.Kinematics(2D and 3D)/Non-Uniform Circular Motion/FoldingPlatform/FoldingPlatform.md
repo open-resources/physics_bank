@@ -44,9 +44,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Folding Platform
-    params_h: 4
-    params_x: 4
-    params_l_dot: 0.58
+    params_h: 2
+    params_x: 2
+    params_l_dot: 0.01
     params_theta: 72
 ---
 # {{ params_vars_title }}

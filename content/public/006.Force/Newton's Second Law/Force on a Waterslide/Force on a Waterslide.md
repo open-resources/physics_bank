@@ -52,9 +52,9 @@ part3:
 myst:
   substitutions:
     params_vars_title: Force on a Waterslide
-    params_va: 12
-    params_vc: 5
-    params_M: 40
+    params_va: 15
+    params_vc: 6
+    params_M: 72
     params_d: 15
     params_r: 3
 ---

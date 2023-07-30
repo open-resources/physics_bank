@@ -44,11 +44,11 @@ part2:
 myst:
   substitutions:
     params_vars_title: Flywheel
-    params_Crr: 0.003
-    params_m: 131
-    params_RPM: 2572
-    params_R: 34
-    params_r: 6
+    params_Crr: 0.006
+    params_m: 186
+    params_RPM: 4710
+    params_R: 21
+    params_r: 5
 ---
 # {{ params_vars_title }}
 A flywheel is a wheel with a high moment of inertia that spins to store kinetic energy.

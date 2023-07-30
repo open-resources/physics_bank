@@ -44,11 +44,11 @@ part2:
 myst:
   substitutions:
     params_vars_title: Motor Lifting a Mass
-    params_e: 0.67
-    params_r: 0.36
-    params_m1: 16
-    params_m2: 8
-    params_RPM: 30
+    params_e: 0.6
+    params_r: 0.41
+    params_m1: 8
+    params_m2: 5
+    params_RPM: 50
 ---
 # {{ params_vars_title }}
 A motor with an efficiency of ${{params_e}}$ is rotating a ${{params_r}} \ \rm{m}$ radius wheel at $\dot \theta = {{params_RPM}} \ \rm{RPM}$ to lift a ${{params_m1}} \ \rm{kg}$ mass.

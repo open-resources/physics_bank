@@ -77,9 +77,9 @@ myst:
   substitutions:
     params_vars_title: Delivery Person
     params_vars_units: km
-    params_dist1: 30
-    params_dist2: 70
-    params_dist3: '5.0'
+    params_dist1: 50
+    params_dist2: 30
+    params_dist3: '2.0'
     params_dist4: 20
 ---
 # {{ params_vars_title }}

@@ -66,17 +66,17 @@ part4:
     digits: 1
 myst:
   substitutions:
-    params_vars_name: Ahmed
+    params_vars_name: Ximena
     params_vars_title: Toboggan Hill
     params_vars_units1_2_3: "$\rm{kJ}$"
     params_vars_units_4: "$\rm{m/s}$"
-    params_m: 30
-    params_l: 79
-    params_ang_horiz: 22
-    params_fr: 74
-    params_fwind: 25
-    params_ang_wind: 17
-    params_v_i: 3
+    params_m: 39
+    params_l: 96
+    params_ang_horiz: 34
+    params_fr: 75
+    params_fwind: 21
+    params_ang_wind: 16
+    params_v_i: 1
 ---
 # {{ params_vars_title }}
 {{params_vars_name}} and their sled, with a combined mass of ${{params_m}}$ $\rm{kg}$, slide ${{params_l}}$ $\rm{m}$ down a hill that makes an angle of ${{params.ang_horiz}}^\circ$ with the horizontal.

@@ -70,9 +70,9 @@ part4:
     digits: 2
 myst:
   substitutions:
-    params_m: 8
-    params_k: 157
-    params_x_0: 6
+    params_m: 6
+    params_k: 378
+    params_x_0: 9
 ---
 # Spring Oscillator
 A wooden train is attached to two linear springs of spring constant $k$ in a closed box. The train is displaced from the center of the box by $x_0 \ \rm{m}$.

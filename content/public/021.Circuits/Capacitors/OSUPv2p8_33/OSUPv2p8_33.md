@@ -45,9 +45,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Equivalent Capacitance
-    params_a: '7'
-    params_b: '3.5'
-    params_c: '0.7'
+    params_a: '5'
+    params_b: '4.0'
+    params_c: '0.3'
 ---
 # {{ params_vars_title }}
 

@@ -44,11 +44,11 @@ part2:
 myst:
   substitutions:
     params_vars_title: Biker Impact Landing
-    params_v: 6
-    params_t: 0.17
-    params_ad: 38
-    params_m: 60
-    params_thetad: 28
+    params_v: 9
+    params_t: 0.16
+    params_ad: 36
+    params_m: 72
+    params_thetad: 39
 ---
 # {{ params_vars_title }}
 <img src="Snowboarder Impact Landing.png" width=400>

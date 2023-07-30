@@ -61,7 +61,7 @@ part4:
 myst:
   substitutions:
     params_u: 2
-    params_a: 31
+    params_a: 59
     params_part4_ans1_value: false
     params_part4_ans2_value: true
 ---

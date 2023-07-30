@@ -28,13 +28,13 @@ myst:
   substitutions:
     params_vars_title: Math Diagnostic23
     params_a: 3
-    params_b: 7
-    params_formula: $x^{3} \cos{\left(7 x \right)}$
-    params_part1_ans1_value: $- 7 x^{3} \sin{\left(7 x \right)} + 3 x^{2} \cos{\left(7
+    params_b: 4
+    params_formula: $x^{3} \sin{\left(4 x \right)}$
+    params_part1_ans1_value: $4 x^{3} \cos{\left(4 x \right)} + 3 x^{2} \sin{\left(4
       x \right)}$
-    params_part1_ans2_value: $- 7 x^{3} \sin{\left(7 x \right)} $
-    params_part1_ans3_value: $ 3 x^{2} \sin{\left(7 x \right)}$
-    params_part1_ans4_value: $7 x^{3} \cos{\left(7 x \right)} + 3 x^{2} \sin{\left(7
+    params_part1_ans2_value: $4 x^{3} \cos{\left(4 x \right)} $
+    params_part1_ans3_value: $ 3 x^{2} \cos{\left(4 x \right)}$
+    params_part1_ans4_value: $- 4 x^{3} \sin{\left(4 x \right)} + 3 x^{2} \cos{\left(4
       x \right)}$
     params_part1_ans5_value: Don't Know
 ---

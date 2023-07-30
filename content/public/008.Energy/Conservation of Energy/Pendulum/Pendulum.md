@@ -49,11 +49,11 @@ myst:
     params_vars_units_part1: "$\rm{m/s}$"
     params_vars_units_part2: "$\rm{N}$"
     params_m: 0.4
-    params_l: 1.2
-    params_theta: 45
-    params_mainText: A $0.4 \ \rm{kg}$ yoyo attached to a string of length $1.2 \
+    params_l: 1.3
+    params_theta: 15
+    params_mainText: A $0.4 \ \rm{kg}$ yoyo attached to a string of length $1.3 \
       \rm{m}$ is held horizontal before being released. After some time it reaches
-      point $A$ with angle $45^\circ$.
+      point $A$ with angle $15^\circ$.
     params_part1Text: Find the speed of the yoyo at point $A$
     params_part2Text: Find the tension in the string at point $A$
 ---

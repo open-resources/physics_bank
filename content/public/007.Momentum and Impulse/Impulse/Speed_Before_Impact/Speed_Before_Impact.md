@@ -32,13 +32,13 @@ part1:
 myst:
   substitutions:
     params_vars_title: Speed Before Impact
-    params_vars_vehicle: semi-truck
+    params_vars_vehicle: pickup truck
     params_vars_units: $m/s$
-    params_m: 660
-    params_part1_ans1_value: 81.8
-    params_part1_ans2_value: 40.9
-    params_part1_ans3_value: 20.5
-    params_part1_ans4_value: 10.2
+    params_m: 700
+    params_part1_ans1_value: 77.1
+    params_part1_ans2_value: 38.6
+    params_part1_ans3_value: 19.3
+    params_part1_ans4_value: 9.64
     params_part1_ans5_value: 0
 ---
 # {{ params_vars_title }}

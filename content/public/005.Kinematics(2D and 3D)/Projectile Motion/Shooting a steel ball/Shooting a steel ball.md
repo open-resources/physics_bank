@@ -31,13 +31,13 @@ myst:
   substitutions:
     params_vars_title: Shooting a Steel Ball
     params_v: 2
-    params_theta: 29
-    params_part1_ans1_value: $(2\cos(29^{\circ}), \; -2\sin(29^{\circ}))$
-    params_part1_ans2_value: $(2\cos(29^{\circ}), \;2\sin(29^{\circ}))$
-    params_part1_ans3_value: $(2\sin(29^{\circ}), \; -2\cos(29^{\circ}))$
-    params_part1_ans4_value: $(2\sin(29^{\circ}), \;2\cos(29^{\circ}))$
-    params_part1_ans5_value: $(-2\cos(29^{\circ}), \; -2\sin(29^{\circ}))$
-    params_part1_ans6_value: $(-2\sin(29^{\circ}), \;2\cos(29^{\circ}))$
+    params_theta: 68
+    params_part1_ans1_value: $(2\cos(68^{\circ}), \; -2\sin(68^{\circ}))$
+    params_part1_ans2_value: $(2\cos(68^{\circ}), \;2\sin(68^{\circ}))$
+    params_part1_ans3_value: $(2\sin(68^{\circ}), \; -2\cos(68^{\circ}))$
+    params_part1_ans4_value: $(2\sin(68^{\circ}), \;2\cos(68^{\circ}))$
+    params_part1_ans5_value: $(-2\cos(68^{\circ}), \; -2\sin(68^{\circ}))$
+    params_part1_ans6_value: $(-2\sin(68^{\circ}), \;2\cos(68^{\circ}))$
 ---
 # {{ params_vars_title }}
 A small steel ball is shot at {{ params_v }} $m/s$ at a {{ params_theta }}$^{\circ}$ angle above the horizontal direction and its motion is well approximated by projectile motion.

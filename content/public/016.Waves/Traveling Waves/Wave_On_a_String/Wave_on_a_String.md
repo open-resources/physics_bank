@@ -2,7 +2,7 @@
 title: Traveling Wave on a String
 topic: Waves
 author: John Hopkinson
-source: Physics 2019W2 Mid-term 1 Q1
+source: Physics 2019W2 First-Test Q1
 template_version: 1.4
 attribution: standard
 partialCredit: true
@@ -32,27 +32,28 @@ part1:
 myst:
   substitutions:
     params_vars_title: Traveling Wave on a String
-    params_b: 6
-    params_c: 17
-    params_d: 9
-    params_wave_equation: cos
+    params_b: 5
+    params_c: 20
+    params_d: 13
+    params_wave_equation: D(x,t) = 5.00 cm * sin(20.0 rad/s * t - 13.0 rad/m * x +
+      π rad)
     params_part1_ans1_value: '|Vᵧₘₐₓ| = 42,   |Vₓ|= 24'
     params_part1_ans1_feedback: This is a random number, you probably selected this
       choice by mistake! Try again
-    params_part1_ans2_value: '|Vᵧₘₐₓ| = 1.02,   |Vₓ| = 1.89'
+    params_part1_ans2_value: '|Vᵧₘₐₓ| = 1.0,   |Vₓ| = 1.54'
     params_part1_ans2_feedback: Correct!
-    params_part1_ans3_value: '|Vᵧₘₐₓ| = 102.0,   |Vₓ|= 1.89'
+    params_part1_ans3_value: '|Vᵧₘₐₓ| = 100.0,   |Vₓ|= 1.54'
     params_part1_ans3_feedback: Check your units!
-    params_part1_ans4_value: '|Vᵧₘₐₓ| = 1.06,   |Vₓ|= 2.4'
+    params_part1_ans4_value: '|Vᵧₘₐₓ| = 0.75,   |Vₓ|= 2.4'
     params_part1_ans4_feedback: There is mix in your chosen calculation values
-    params_part1_ans5_value: '|Vᵧₘₐₓ| = 1.02,   |Vₓ|= 0.353'
+    params_part1_ans5_value: '|Vᵧₘₐₓ| = 1.0,   |Vₓ|= 0.25'
     params_part1_ans5_feedback: Check the your Vₓ value
-    params_part1_ans6_value: '|Vᵧₘₐₓ| = 0.06,   |Vₓ|= 2.65'
+    params_part1_ans6_value: '|Vᵧₘₐₓ| = 0.05,   |Vₓ|= 3.25'
     params_part1_ans6_feedback: Try again!
 ---
 # {{ params_vars_title }}
 A traveling wave on a string satisfies
-$D(x,t) = {{ params_b }}\text{ cm}\ {{ params.wave_equation}}({{ params_c }}\text{ rad/s } t - {{ params_d }} \text{ rad/m } x + \pi \text{ rad })$.
+{{ params.wave_equation }}
 
 ## Part 1
 

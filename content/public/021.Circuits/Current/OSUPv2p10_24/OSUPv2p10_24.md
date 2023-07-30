@@ -68,7 +68,7 @@ myst:
   substitutions:
     params_vars_title: Electrocution Safety
     params_R_b: '10.25'
-    params_R_s: '2150'
+    params_R_s: '2250'
     params_V_s: '18.5'
     params_I_max: '0.5'
 ---

@@ -54,11 +54,11 @@ myst:
     params_vars_title: Rock Powered Rocket
     params_vars_units1: m/s
     params_vars_units2: kg
-    params_vars_name: Savannah
-    params_i: 322
-    params_m: 39
-    params_v_1: 21
-    params_v_2: 41
+    params_vars_name: Mateo
+    params_i: 387
+    params_m: 31
+    params_v_1: 11
+    params_v_2: 15
 ---
 # {{ params_vars_title }}
 {{params_vars_name}} is an astronaut, floating in space.

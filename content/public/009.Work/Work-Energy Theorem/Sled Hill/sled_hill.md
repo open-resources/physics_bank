@@ -55,11 +55,11 @@ part5:
     suffix: m/s
 myst:
   substitutions:
-    params_vars_name: Santiago
+    params_vars_name: Lorenzo
     params_vars_title: Sled Hill
     params_angle: 6
-    params_h: 15
-    params_uk: 0.07
+    params_h: 21
+    params_uk: 0.13
     params_m: 80
 ---
 # {{ params_vars_title }}

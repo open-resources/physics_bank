@@ -36,9 +36,9 @@ myst:
     params_phrases_ball: football
     params_phrases_action: throws
     params_phrases_obstacle: wall
-    params_d: 59
-    params_h: 3
-    params_v: 16
+    params_d: 87
+    params_h: 2
+    params_v: 15
     params_theta: 44
     params_part1_ans1_value: It clears the wall
     params_part1_ans1_feedback: Try again...

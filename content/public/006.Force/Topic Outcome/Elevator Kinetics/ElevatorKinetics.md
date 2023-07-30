@@ -48,9 +48,9 @@ myst:
   substitutions:
     params_vars_title: Elevator Kinetics
     params_vars_units: m/s$^2$
-    params_m2: 547
-    params_tension: 3747
-    params_t: 5
+    params_m2: 625
+    params_tension: 8419
+    params_t: 3
 ---
 # {{ params_vars_title }}
 <img src="ElevatorKinetics.png" width=400>

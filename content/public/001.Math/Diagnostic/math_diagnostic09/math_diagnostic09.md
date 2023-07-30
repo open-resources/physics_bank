@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $t$ = $\dfrac{(g)}{(u + 2b)} $
-    params_part1_ans1_value: u = ${ - 2 b + \frac{g}{t}}$
-    params_part1_ans2_value: u = ${\frac{2 b t}{g}}$
-    params_part1_ans3_value: u = ${\frac{g}{2 b t}}$
-    params_part1_ans4_value: u = ${\frac{- 2 b + t}{g}}$
+    params_expr: $f$ = $\dfrac{(v)}{(i + 10r)} $
+    params_part1_ans1_value: i = ${ - 10 r + \frac{v}{f}}$
+    params_part1_ans2_value: i = ${\frac{10 f r}{v}}$
+    params_part1_ans3_value: i = ${\frac{v}{10 f r}}$
+    params_part1_ans4_value: i = ${\frac{f - 10 r}{v}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

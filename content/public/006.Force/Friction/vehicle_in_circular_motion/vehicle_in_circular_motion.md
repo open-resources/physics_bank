@@ -74,10 +74,10 @@ myst:
   substitutions:
     params_vars_title: Vehicle in Circular Motion
     params_vars_vehicle: semi-truck
-    params_m: 1800.0
-    params_v: 82.0
-    params_r: 98.0
-    params_theta: 19.0
+    params_m: 1700.0
+    params_v: 80.0
+    params_r: 100.0
+    params_theta: 20.0
     params_f_s: 0.6
     params_f_k: 0.4
     params_f_r: 0.02

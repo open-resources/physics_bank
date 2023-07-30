@@ -48,10 +48,10 @@ myst:
   substitutions:
     params_vars_title: Split Blocks
     params_vars_units: $J$
-    params_m: 11
-    params_m_a: 8
-    params_m_b: 3
-    params_v_a: 4.2
+    params_m: 9
+    params_m_a: 7
+    params_m_b: 2
+    params_v_a: 4.8
 ---
 # {{ params_vars_title }}
 A {{params_m}} $kg$ block is initially at rest on a sheet of ice.

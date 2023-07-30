@@ -45,7 +45,7 @@ myst:
   substitutions:
     params_vars_title: Power Climbing Stairs
     params_W: 144
-    params_t: 3
+    params_t: 5
     params_h: 14
 ---
 # {{ params_vars_title }}

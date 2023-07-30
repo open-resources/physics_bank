@@ -35,14 +35,14 @@ myst:
   substitutions:
     params_vars_title: Object Swung in Circular Path
     params_vars_units: $\rm{N}$
-    params_m: 0.78
-    params_r: 8.18
-    params_w: 8
-    params_part1_ans1_value: 400.7
+    params_m: 0.42
+    params_r: 7.23
+    params_w: 5
+    params_part1_ans1_value: 71.8
     params_part1_ans1_feedback: Great! You got it.
-    params_part1_ans2_value: 345.82
+    params_part1_ans2_value: 46.16
     params_part1_ans2_feedback: Hmm... try double-checking your algebra.
-    params_part1_ans3_value: 408.35
+    params_part1_ans3_value: 75.91
     params_part1_ans3_feedback: Try considering how gravity might effect the tension.
     params_part1_ans4_value: 192.08
     params_part1_ans4_feedback: Hmm, not quite.

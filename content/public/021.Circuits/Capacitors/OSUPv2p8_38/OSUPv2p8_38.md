@@ -72,9 +72,9 @@ part4:
 myst:
   substitutions:
     params_vars_title: Charging Capacitors
-    params_a: '55'
+    params_a: '35'
     params_b: '15'
-    params_v: '500'
+    params_v: '700'
 ---
 # {{ params_vars_title }}
 A {{params_a }} $\textrm{ pF}$ capacitor is charged to a potential difference of {{params_v }} $\textrm{ V}$. Its terminals are then connected to those of an uncharged {{params_b }} $\textrm{ pF}$ capacitor.

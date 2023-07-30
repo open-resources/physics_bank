@@ -36,9 +36,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Airplane Over a Hill
-    params_Vshadow: 371
-    params_theta: 12
-    params_alpha: 25
+    params_Vshadow: 317
+    params_theta: 20
+    params_alpha: 24
 ---
 # {{ params_vars_title }}
 As an airplane is taking off, it flies over a hill inclined ${{params_theta}}^{\circ}$ upwards.

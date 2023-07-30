@@ -33,11 +33,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Ratio of Inertias
-    params_choice: five
-    params_part1_ans1_value: $\dfrac{1}{5}$
+    params_choice: three
+    params_part1_ans1_value: $\dfrac{1}{3}$
     params_part1_ans2_value: $\dfrac{1}{6}$
-    params_part1_ans3_value: $\dfrac{1}{4}$
-    params_part1_ans4_value: $\dfrac{1}{3}$
+    params_part1_ans3_value: $\dfrac{1}{5}$
+    params_part1_ans4_value: $\dfrac{1}{4}$
     params_part1_ans5_value: $\dfrac{1}{2}$
     params_part1_ans6_value: $1$
 ---

@@ -37,9 +37,9 @@ myst:
   substitutions:
     params_vars_title: Cart raising a load
     params_vars_units: m/s
-    params_v_a: 5
-    params_x: 8
-    params_h: 8
+    params_v_a: 4
+    params_x: 6
+    params_h: 5
 ---
 # {{ params_vars_title }}
 

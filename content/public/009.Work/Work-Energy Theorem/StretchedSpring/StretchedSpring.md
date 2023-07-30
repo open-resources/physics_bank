@@ -45,10 +45,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Stretched Spring
-    params_m: 18
-    params_deltaX: 0.17
-    params_k: 2190
-    params_nu: 0.32
+    params_m: 5
+    params_deltaX: 0.59
+    params_k: 4450
+    params_nu: 0.4
 ---
 # {{ params_vars_title }}
 A ${{params_m}} \ \rm{kg}$ mass is attached to a wall by a spring of spring constant ${{params_k}} \ \rm{N/m}$.
