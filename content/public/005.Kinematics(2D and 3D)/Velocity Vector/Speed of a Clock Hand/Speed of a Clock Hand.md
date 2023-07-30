@@ -61,8 +61,8 @@ myst:
     params_vars_title: Speed of a Clock Hand
     params_vars_units: m/s
     params_R: 0.27
-    params_theta: 182
-    params_alpha: 33
+    params_theta: 146
+    params_alpha: 42
 ---
 # {{ params_vars_title }}
 <img src="Clock.png" width=400>

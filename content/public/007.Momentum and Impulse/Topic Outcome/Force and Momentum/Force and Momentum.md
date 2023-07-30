@@ -36,15 +36,15 @@ myst:
   substitutions:
     params_vars_title: Force and Momentum
     params_vars_units: N
-    params_p_i: 8t^2 - 3t
-    params_p_j: -8t^3 + 6t^2 + 2t
-    params_time: 8.22
+    params_p_i: -8t^3 + 5t^2 - 8t
+    params_p_j: -7t^2 - 2t
+    params_time: 8.96
     params_part1_ans1_value: 0
-    params_part1_ans2_value: (129.0$\hat\imath$ - 1520.0$\hat\jmath$)
-    params_part1_ans3_value: (-129.0$\hat\imath$ + 1520.0$\hat\jmath$)
-    params_part1_ans4_value: (129.0$\hat\imath$ + 1520.0$\hat\jmath$)
-    params_part1_ans5_value: (-129.0$\hat\imath$ - 1520.0$\hat\jmath$)
-    params_part1_ans6_value: (-258.0$\hat\imath$ - 1520.0$\hat\jmath$)
+    params_part1_ans2_value: (-1850.0$\hat\imath$ - 127.0$\hat\jmath$)
+    params_part1_ans3_value: (1850.0$\hat\imath$ + 127.0$\hat\jmath$)
+    params_part1_ans4_value: (-1850.0$\hat\imath$ + 127.0$\hat\jmath$)
+    params_part1_ans5_value: (1850.0$\hat\imath$ - 127.0$\hat\jmath$)
+    params_part1_ans6_value: (3700.0$\hat\imath$ - 127.0$\hat\jmath$)
 ---
 # {{ params_vars_title }}
 The momentum of an object as a function of time is given by $\vec{p} = (${{ params.p_i }}$)\hat{\imath} + (${{ params.p_j }}$)\hat{\jmath}$ where $p$ is in $kg\cdot m/s$ and $t$ is in seconds.

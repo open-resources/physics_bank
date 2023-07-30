@@ -34,10 +34,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Relative Highway
-    params_v1: 12
-    params_v3: 7
+    params_v1: 11
+    params_v3: 10
     params_d: 5
-    params_t: 2
+    params_t: 1
 ---
 # {{ params_vars_title }}
 Three cars are driving on different lanes on a highway.

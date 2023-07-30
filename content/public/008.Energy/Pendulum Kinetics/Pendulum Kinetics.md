@@ -70,11 +70,11 @@ part4:
     digits: 2
 myst:
   substitutions:
-    params_m: 15
-    params_l: 4.3
-    params_p: 850.0
-    params_v: 0.012
-    params_theta: 41
+    params_m: 10
+    params_l: 4.7
+    params_p: 640.0
+    params_v: 0.01
+    params_theta: 44
 ---
 # Pendulum Kinetics
 A pendulum submerged in a fluid with the bob initially held at an angle of $\theta^{\circ}$ degrees measured from below the horizontal, is released from rest as illustrated below.

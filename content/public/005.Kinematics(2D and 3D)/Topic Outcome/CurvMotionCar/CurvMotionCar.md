@@ -44,11 +44,11 @@ part2:
 myst:
   substitutions:
     params_vars_title: Curvilinear Motion of a Car
-    params_m: 3
-    params_v: 21
-    params_vdot: 7
-    params_d: 37
-    params_h: 42
+    params_m: 4
+    params_v: 11
+    params_vdot: 10
+    params_d: 31
+    params_h: 43
 ---
 # {{ params_vars_title }}
 <img src="CurvCar.png" width=90%>

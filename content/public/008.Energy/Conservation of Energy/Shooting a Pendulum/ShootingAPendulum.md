@@ -39,10 +39,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Shooting a Pendulum
-    params_L: 1.41
-    params_m1: 0.04
-    params_m2: 10.32
-    params_v: 352
+    params_L: 1.12
+    params_m1: 0.03
+    params_m2: 14.92
+    params_v: 485
 ---
 # {{ params_vars_title }}
 A bullet of mass $m_1={{params_m1}} \ \rm{kg}$ is traveling at velocity $v={{params_v}} \ \rm{m/s}$.

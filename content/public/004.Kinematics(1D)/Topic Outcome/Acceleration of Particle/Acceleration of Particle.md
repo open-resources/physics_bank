@@ -62,10 +62,10 @@ myst:
     params_vars_title: Acceleration of a Particle
     params_vars_unit1: $s$
     params_vars_unit2: $m/s^2$
-    params_c1: 6
+    params_c1: 7
     params_c2_abs: 7
     params_c2_sign: ' - '
-    params_c3_abs: 38
+    params_c3_abs: 24
     params_c3_sign: ' + '
 ---
 # {{ params_vars_title }}

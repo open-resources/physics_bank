@@ -44,8 +44,8 @@ myst:
   substitutions:
     params_vars_title: Distance travelled
     params_vars_units: m/s
-    params_a: 1.8
-    params_r: 212
+    params_a: 1.63
+    params_r: 54
 ---
 # {{ params_vars_title }}
 A car is undergoing public safety tests. It is being tested on a circular track with radius $r = {{ params_r }} \ \rm{m}$.

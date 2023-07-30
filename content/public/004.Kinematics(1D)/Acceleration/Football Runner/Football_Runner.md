@@ -43,11 +43,11 @@ part2:
 myst:
   substitutions:
     params_vars_title: Football Runner
-    params_dT: 360.0
+    params_dT: 200.0
     params_vM: 10.0
-    params_d1: 78.0
-    params_d2: 180.0
-    params_vF: 7.6
+    params_d1: 76.0
+    params_d2: 97.0
+    params_vF: 7.2
 ---
 # {{ params_vars_title }}
 <img src="Football_Runner.png" width=600>

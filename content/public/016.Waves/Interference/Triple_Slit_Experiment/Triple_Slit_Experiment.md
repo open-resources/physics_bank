@@ -67,9 +67,9 @@ part6:
 myst:
   substitutions:
     params_vars_title: Triple Slit Experiment
-    params_m: 2
+    params_m: 1
     params_part5_ans1_value: It is a good approximation to the spacing between the
-      $m = 0$ and $ m = $ 2 peak, but not a great approximation to the spacing between
+      $m = 0$ and $ m = $ 1 peak, but not a great approximation to the spacing between
       the $m = 9$ and $ m = 10$ peak as the angle for $y_{10}$ is just outside the
       range of validity of the small angle approximation.
     params_part5_ans2_value: It is a good approximation to both spacings since the

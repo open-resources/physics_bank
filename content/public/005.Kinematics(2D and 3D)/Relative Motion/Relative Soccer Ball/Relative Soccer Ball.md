@@ -47,13 +47,13 @@ myst:
     params_vars_name: Lorenzo
     params_vars_title: Relative Soccer Ball
     params_vars_units: N
-    params_m: 0.43
-    params_vp: 3.08
-    params_theta: 39
-    params_t: 0.024
-    params_vbp: 14.86
-    params_vy: 19.61
-    params_vx: 18.1
+    params_m: 0.48
+    params_vp: 2.79
+    params_theta: 40
+    params_t: 0.022
+    params_vbp: 5.86
+    params_vy: 18.88
+    params_vx: 17.94
 ---
 # {{ params_vars_title }}
 <img src="Relative Soccer Ball.jpg" width=700>

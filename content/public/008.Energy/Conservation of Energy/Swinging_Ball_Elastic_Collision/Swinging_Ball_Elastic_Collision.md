@@ -39,11 +39,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Swinging Ball Elastic Collision
-    params_l: 1.5
-    params_m_1: 230
-    params_m_2: 1.0
-    params_x: 2.1
-    params_k: 2280
+    params_l: 2.7
+    params_m_1: 240
+    params_m_2: 1.2
+    params_x: 1.3
+    params_k: 2460
     params_spring: 15
 ---
 # {{ params_vars_title }}

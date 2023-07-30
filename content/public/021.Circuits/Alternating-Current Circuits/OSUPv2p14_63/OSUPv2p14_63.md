@@ -44,7 +44,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Frequency of an LC Circuit
-    params_L: '0.38'
+    params_L: '0.24'
     params_C: '3.4'
 ---
 # {{ params_vars_title }}

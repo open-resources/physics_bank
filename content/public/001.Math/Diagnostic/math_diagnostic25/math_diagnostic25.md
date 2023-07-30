@@ -30,11 +30,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic25
-    params_expr: $\dfrac{ 3-e^{(-2x)}}{8-x}$
-    params_part1_ans1_value: 1/4
+    params_expr: $\dfrac{ 2-e^{(-6x)}}{6-x}$
+    params_part1_ans1_value: 1/6
     params_part1_ans2_value: Negative Infinity
-    params_part1_ans3_value: 0.375
-    params_part1_ans4_value: 3
+    params_part1_ans3_value: 0.3333333333333333
+    params_part1_ans4_value: 2
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

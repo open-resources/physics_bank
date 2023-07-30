@@ -35,13 +35,13 @@ part1:
 myst:
   substitutions:
     params_vars_title: Constrained Curvilinear Motion Acceleration
-    params_t: 6.8
-    params_C1: 4
-    params_C2: 3
-    params_N1: 4
-    params_N2: 2
-    params_A1: 17
-    params_A2: 26
+    params_t: 3.6
+    params_C1: 7
+    params_C2: 2
+    params_N1: 2
+    params_N2: 4
+    params_A1: 30
+    params_A2: 17
 ---
 # {{ params_vars_title }}
 <img src="Constrained Curvilinear Motion.png" width=600>

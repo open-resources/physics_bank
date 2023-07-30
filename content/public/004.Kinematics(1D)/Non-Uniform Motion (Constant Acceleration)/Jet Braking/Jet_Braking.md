@@ -35,9 +35,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Jet Braking
-    params_v: 110.0
-    params_v0: 310.0
-    params_ac: -0.0079
+    params_v: 210.0
+    params_v0: 340.0
+    params_ac: -0.0011
 ---
 # {{ params_vars_title }}
 <img src="Jet_Braking.png" width=600>

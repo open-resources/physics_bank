@@ -36,9 +36,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Spinning A Stick
-    params_L: 1.46
-    params_F: 69
-    params_m: 7.3
+    params_L: 2.48
+    params_F: 121
+    params_m: 12.4
     params_thetaDot: 2.65
 ---
 # {{ params_vars_title }}

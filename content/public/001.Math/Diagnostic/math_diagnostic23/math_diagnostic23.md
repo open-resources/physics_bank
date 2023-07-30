@@ -27,15 +27,14 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic23
-    params_a: 3
-    params_b: 3
-    params_formula: $x^{3} \cos{\left(3 x \right)}$
-    params_part1_ans1_value: $- 3 x^{3} \sin{\left(3 x \right)} + 3 x^{2} \cos{\left(3
-      x \right)}$
-    params_part1_ans2_value: $- 3 x^{3} \sin{\left(3 x \right)} $
-    params_part1_ans3_value: $ 3 x^{2} \sin{\left(3 x \right)}$
-    params_part1_ans4_value: $3 x^{3} \cos{\left(3 x \right)} + 3 x^{2} \sin{\left(3
-      x \right)}$
+    params_a: 5
+    params_b: 1
+    params_formula: $x^{5} \cos{\left(x \right)}$
+    params_part1_ans1_value: $- x^{5} \sin{\left(x \right)} + 5 x^{4} \cos{\left(x
+      \right)}$
+    params_part1_ans2_value: $- x^{5} \sin{\left(x \right)} $
+    params_part1_ans3_value: $ 5 x^{4} \sin{\left(x \right)}$
+    params_part1_ans4_value: $x^{5} \cos{\left(x \right)} + 5 x^{4} \sin{\left(x \right)}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

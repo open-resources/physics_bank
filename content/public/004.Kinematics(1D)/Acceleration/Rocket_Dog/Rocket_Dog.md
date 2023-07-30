@@ -69,8 +69,13 @@ myst:
   substitutions:
     params_vars_title: Rocket Dog
     params_vars_units: $\rm{m/s}$
-    params_x: $0$
-    params_time: 7
+    params_x: $-t^2 - t$
+    params_time: 2
+    params_part4_ans1_value: The rocket dog is moving towards the origin.
+    params_part4_ans1_feedback: 'Hint: Consider the signs of the dog''s position and
+      velocity at the given time.'
+    params_part4_ans2_value: The rocket dog is moving away from the origin.
+    params_part4_ans2_feedback: Great! You got it.
 ---
 # {{ params_vars_title }}
 A rocket dog has a position along a straight track given by:
@@ -119,8 +124,8 @@ At time $t = $ {{params_time}} $\rm{s}$, is the rocket dog moving towards the or
 
 ### Answer Section
 
-- {{ params.part4.ans1.value }}
-- {{ params.part4.ans2.value }}
+- {{ params_part4_ans1_value }}
+- {{ params_part4_ans2_value }}
 
 ## Part 5
 

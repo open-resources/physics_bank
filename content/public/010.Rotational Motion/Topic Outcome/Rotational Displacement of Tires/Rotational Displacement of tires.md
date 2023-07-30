@@ -33,11 +33,11 @@ part1:
     suffix: rad
 myst:
   substitutions:
-    params_vars_vehicle: semi-truck
+    params_vars_vehicle: truck
     params_vars_title: Rotational Displacement of Tires
     params_vars_units: rad
-    params_a: 3.17
-    params_t: 26.4
+    params_a: 6.56
+    params_t: 46.7
 ---
 # {{ params_vars_title }}
 A {{ params_vars_vehicle }} accelerates from rest at $t = 0$ such that its tires undergo a constant rotational acceleration of $\alpha = $ {{ params_a }} $s^{-2}$.

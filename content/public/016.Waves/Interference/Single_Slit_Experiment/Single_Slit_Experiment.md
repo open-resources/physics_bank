@@ -44,7 +44,7 @@ part2:
 myst:
   substitutions:
     params_vars_title: Single Slit Experiment
-    params_m: 8
+    params_m: 12
 ---
 # {{ params_vars_title }}
 Real multiple slit diffraction patterns experience diffraction effects both from the separation of the slits and the uniform slit width of each slit. This results in the superposition of a single slit pattern on top of the multiple slit pattern, such that the centre of the diffraction pattern remains bright, but the intensity decreases with increasing angle until the first diffraction minimum of the single slit pattern.

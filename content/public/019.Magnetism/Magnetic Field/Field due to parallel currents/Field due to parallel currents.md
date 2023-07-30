@@ -53,7 +53,7 @@ myst:
   substitutions:
     params_vars_title: Field due to parallel currents
     params_I1: '15.0'
-    params_I2: '20.0'
+    params_I2: '10.0'
     params_r1: '5.0'
     params_r2: '15.0'
     params_part2_ans1_value: Out of the screen.

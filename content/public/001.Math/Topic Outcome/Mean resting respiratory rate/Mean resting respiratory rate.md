@@ -55,15 +55,15 @@ part4:
 myst:
   substitutions:
     params_vars_title: Mean resting respiratory rate
-    params_Resp_Es: 663
-    params_Resp_r: 25
-    params_m_Es: 2.24
-    params_power: 2
+    params_Resp_Es: 656
+    params_Resp_r: 22
+    params_m_Es: 2.31
+    params_power: 3
     params_part1_ans1_value: $RR \propto M$
     params_part1_ans1_feedback: Reread the question. What does $RR$ scale as?
-    params_part1_ans2_value: $RR \propto M^{-1/2}$
+    params_part1_ans2_value: $RR \propto M^{-1/3}$
     params_part1_ans2_feedback: Great! You got it.
-    params_part1_ans3_value: $RR \propto \frac{1}{M^{-1/2}}$
+    params_part1_ans3_value: $RR \propto \frac{1}{M^{-1/3}}$
     params_part1_ans3_feedback: Review the definitions of "proportional to" and "inversely
       proportional to".
     params_part1_ans4_value: $RR \propto \frac{1}{M}$

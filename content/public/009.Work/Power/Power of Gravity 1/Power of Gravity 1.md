@@ -36,7 +36,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Power of Gravity 1
-    params_m: 73.0
+    params_m: 75.0
     params_theta: 41.0
     params_t: 7.0
 ---

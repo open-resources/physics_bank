@@ -44,8 +44,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Ball Bouncing Down Ramp
-    params_h: 3.59
-    params_theta: 43
+    params_h: 1.09
+    params_theta: 22
     params_e: 0.71
 ---
 # {{ params_vars_title }}

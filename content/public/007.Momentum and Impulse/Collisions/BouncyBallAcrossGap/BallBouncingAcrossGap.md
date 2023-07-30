@@ -44,10 +44,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Ball Bouncing Across Gap
-    params_h1: 2.35
-    params_h2: 0.7
-    params_v: 6
-    params_theta: 38
+    params_h1: 2.67
+    params_h2: 0.84
+    params_v: 7
+    params_theta: 36
     params_e: 0.76
 ---
 # {{ params_vars_title }}

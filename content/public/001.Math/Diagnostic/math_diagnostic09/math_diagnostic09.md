@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $x$ = $\dfrac{(q)}{(e - 2l)} $
-    params_part1_ans1_value: e = ${ 2 l + \frac{q}{x}}$
-    params_part1_ans2_value: e = ${- \frac{2 l x}{q}}$
-    params_part1_ans3_value: e = ${- \frac{q}{2 l x}}$
-    params_part1_ans4_value: e = ${\frac{2 l + x}{q}}$
+    params_expr: $d$ = $\dfrac{(i)}{(b + 8o)} $
+    params_part1_ans1_value: b = ${ - 8 o + \frac{i}{d}}$
+    params_part1_ans2_value: b = ${\frac{8 d o}{i}}$
+    params_part1_ans3_value: b = ${\frac{i}{8 d o}}$
+    params_part1_ans4_value: b = ${\frac{d - 8 o}{i}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

@@ -31,21 +31,21 @@ myst:
   substitutions:
     params_vars_title: Particle Collision
     params_choice: $y$-component of the
-    params_m1: 1
-    params_m2: 8
-    params_v1: 12
-    params_v2: 4
-    params_part1_ans1_value: 32 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+    params_m1: 4
+    params_m2: 4
+    params_v1: 10
+    params_v2: 1
+    params_part1_ans1_value: 4 $kg$ $\dfrac{m}{s}\hat{\jmath}$
     params_part1_ans1_feedback: Great! You got it.
-    params_part1_ans2_value: 32 $kg$ $\dfrac{m}{s}\hat{\imath}$
+    params_part1_ans2_value: 4 $kg$ $\dfrac{m}{s}\hat{\imath}$
     params_part1_ans2_feedback: Hmm... Try again.
-    params_part1_ans3_value: 32 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 12 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+    params_part1_ans3_value: 4 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 40 $kg$ $\dfrac{m}{s}\hat{\jmath}$
     params_part1_ans3_feedback: Hmm... Try again.
-    params_part1_ans4_value: 12 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+    params_part1_ans4_value: 40 $kg$ $\dfrac{m}{s}\hat{\jmath}$
     params_part1_ans4_feedback: Hmm... Try again.
-    params_part1_ans5_value: 12 $kg$ $\dfrac{m}{s}\hat{\imath}$
+    params_part1_ans5_value: 40 $kg$ $\dfrac{m}{s}\hat{\imath}$
     params_part1_ans5_feedback: Close! Double check the directions of the unit vectors.
-    params_part1_ans6_value: 12 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 32 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+    params_part1_ans6_value: 40 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 4 $kg$ $\dfrac{m}{s}\hat{\jmath}$
     params_part1_ans6_feedback: Careful! Only one component is asked for.
 ---
 # {{ params_vars_title }}
