@@ -57,10 +57,10 @@ myst:
     params_vars_dist_units: m
     params_vars_velo_units: m/s
     params_vars_acc_units: m/s^2
-    params_v: 17
-    params_theta: 58
+    params_v: 21
+    params_theta: 39
     params_N: 5
-    params_C: 9.51
+    params_C: 8.52
 ---
 # Midair Propulsion
 We launch a projectile at an angle ${{ params_theta }}$ in degrees and speed ${{ params_v }}$ in $\rm{m/s}$ in a flat plane. At the peak of the projectile motion, a rocket turns on and starts accelerating the projectile in the x-axis according to the function $ a(t) = {{ params_C }} \times t^{ {{ params_N }} } $ in $\rm{m/s^2}$. Find the range it travels over the flight duration.

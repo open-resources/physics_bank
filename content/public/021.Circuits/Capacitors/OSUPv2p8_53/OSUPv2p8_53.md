@@ -71,7 +71,7 @@ myst:
     params_vars_title: Analyzing Potential Difference and Electric Field
     params_q: '5.0'
     params_c: '2.0'
-    params_d: '2.0'
+    params_d: '3.0'
     params_k: '4.0'
 ---
 # {{ params_vars_title }}

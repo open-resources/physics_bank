@@ -40,9 +40,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Power of car along a circular arc
-    params_m: 1900.0
-    params_v: 104
-    params_a: 32
+    params_m: 4200.0
+    params_v: 150
+    params_a: 56
     params_part2_ans1_value: A
     params_part2_ans2_value: B
     params_part2_ans3_value: C

@@ -62,11 +62,11 @@ myst:
     params_vars_title: Acceleration of a Particle
     params_vars_unit1: $s$
     params_vars_unit2: $m/s^2$
-    params_c1: 2
-    params_c2_abs: 9
+    params_c1: 7
+    params_c2_abs: 10
     params_c2_sign: ' - '
-    params_c3_abs: 15
-    params_c3_sign: ' + '
+    params_c3_abs: 12
+    params_c3_sign: ' - '
 ---
 # {{ params_vars_title }}
 The position of a particle in $m$ is given by the function $x = ${{ params_c1 }}$t^3$ {{ params.c2_sign }} {{ params.c2_abs }}$t^2$ {{ params.c3_sign }} {{ params.c3_abs }}, where $t$ is in $s$.

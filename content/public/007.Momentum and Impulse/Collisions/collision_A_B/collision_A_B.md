@@ -48,11 +48,11 @@ part4:
 myst:
   substitutions:
     params_vars_title: Collision of Objects A and B
-    params_vars_name: Santiago
-    params_v1: 6
-    params_v2: 4
-    params_m_a: 3
-    params_m_b: 5
+    params_vars_name: Emilia
+    params_v1: 2
+    params_v2: 3
+    params_m_a: 2
+    params_m_b: 2
     params_part2_ans1_value: 'Yes'
     params_part2_ans2_value: 'No'
 ---

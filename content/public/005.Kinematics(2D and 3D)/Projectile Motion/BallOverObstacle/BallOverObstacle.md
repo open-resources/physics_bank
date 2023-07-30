@@ -33,13 +33,13 @@ part1:
 myst:
   substitutions:
     params_vars_title: Ball Over Obstacle
-    params_phrases_ball: soccer ball
-    params_phrases_action: kicks
+    params_phrases_ball: football
+    params_phrases_action: throws
     params_phrases_obstacle: wall
-    params_d: 76
-    params_h: 2
-    params_v: 10
-    params_theta: 29
+    params_d: 59
+    params_h: 3
+    params_v: 16
+    params_theta: 44
     params_part1_ans1_value: It clears the wall
     params_part1_ans1_feedback: Try again...
     params_part1_ans2_value: It hits the wall

@@ -37,9 +37,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Gravity in the Tower
-    params_city: Tunis
-    params_h: 480.0
-    params_g0: 9.7799
+    params_city: Baghdad
+    params_h: 590.0
+    params_g0: 9.7964
 ---
 # {{ params_vars_title }}
 In {{params_city}}, Earth's local gravity is calculated to be $g_0 = {{params_g0}} \ \rm{m/s^2}$.

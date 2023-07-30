@@ -44,10 +44,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Biker Impact Landing
-    params_v: 4
-    params_t: 0.04
-    params_ad: 31
-    params_m: 80
+    params_v: 6
+    params_t: 0.17
+    params_ad: 38
+    params_m: 60
     params_thetad: 28
 ---
 # {{ params_vars_title }}

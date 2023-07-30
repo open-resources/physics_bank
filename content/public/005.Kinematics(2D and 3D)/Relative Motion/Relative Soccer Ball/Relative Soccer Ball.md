@@ -44,16 +44,16 @@ part2:
     suffix: $N$
 myst:
   substitutions:
-    params_vars_name: Maya
+    params_vars_name: Emilia
     params_vars_title: Relative Soccer Ball
     params_vars_units: N
     params_m: 0.45
-    params_vp: 3.31
-    params_theta: 23
-    params_t: 0.035
-    params_vbp: 7.08
-    params_vy: 17.22
-    params_vx: 17.78
+    params_vp: 3.33
+    params_theta: 52
+    params_t: 0.029
+    params_vbp: 5.21
+    params_vy: 18.99
+    params_vx: 18.92
 ---
 # {{ params_vars_title }}
 <img src="Relative Soccer Ball.jpg" width=700>

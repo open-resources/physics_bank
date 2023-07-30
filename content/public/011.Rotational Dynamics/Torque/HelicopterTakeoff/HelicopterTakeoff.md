@@ -36,11 +36,11 @@ myst:
   substitutions:
     params_vars_title: Helicpoter Takeoff
     params_vars_units_part1: s
-    params_L: 11
-    params_n: 4
-    params_m: 55
-    params_M: 4630
-    params_RPM: 421
+    params_L: 12
+    params_n: 2
+    params_m: 96
+    params_M: 6770
+    params_RPM: 419
 ---
 # {{ params_vars_title }}
 A helicopter with ${{params_n}}$ blades needs to spin its rotor at ${{params_RPM}} \ \rm{RPM}$ to take off.

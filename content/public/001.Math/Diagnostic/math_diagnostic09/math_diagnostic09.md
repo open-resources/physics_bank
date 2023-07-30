@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $c$ = $\dfrac{(r)}{(t - 2f)} $
-    params_part1_ans1_value: t = ${ 2 f + \frac{r}{c}}$
-    params_part1_ans2_value: t = ${- \frac{2 c f}{r}}$
-    params_part1_ans3_value: t = ${- \frac{r}{2 c f}}$
-    params_part1_ans4_value: t = ${\frac{c + 2 f}{r}}$
+    params_expr: $t$ = $\dfrac{(g)}{(u + 2b)} $
+    params_part1_ans1_value: u = ${ - 2 b + \frac{g}{t}}$
+    params_part1_ans2_value: u = ${\frac{2 b t}{g}}$
+    params_part1_ans3_value: u = ${\frac{g}{2 b t}}$
+    params_part1_ans4_value: u = ${\frac{- 2 b + t}{g}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

@@ -45,10 +45,10 @@ myst:
   substitutions:
     params_vars_title: Particle Curvilinear Motion
     params_vars_units: m/s
-    params_m: 1
-    params_n: 4
-    params_r: 7
-    params_p: 3
+    params_m: 7
+    params_n: 6
+    params_r: 8
+    params_p: 5
     params_t: 2
 ---
 # {{ params_vars_title }}

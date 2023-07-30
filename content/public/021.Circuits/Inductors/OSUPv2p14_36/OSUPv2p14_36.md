@@ -53,7 +53,7 @@ myst:
     params_part2_ans2_value: Left-hand side
     params_change1: decreasing
     params_change2: increasing
-    params_find: higher
+    params_find: lower
 ---
 # {{ params_vars_title }}
 The current shown below in figure (a) is {{ params_change1 }}, while that shown in part (b) is {{ params_change2 }}.

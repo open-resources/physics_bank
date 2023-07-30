@@ -34,9 +34,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Marble Ball Attraction
-    params_r: 0.58
-    params_d: 4.6
-    params_rho: 3900.0
+    params_r: 0.99
+    params_d: 3.7
+    params_rho: 2500.0
 ---
 # {{ params_vars_title }}
 Two marble spheres each with a radius of ${{params_r}} \ \rm{m}$, are positioned with their centres ${{params_d}} \ \rm{m}$ apart.

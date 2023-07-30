@@ -46,7 +46,7 @@ myst:
     params_vars_title: Tetherball serve
     params_vars_units_part1: "$\theta$"
     params_vars_units_part2: "$\rm{/s}$"
-    params_v: 20
+    params_v: 12
     params_L: 6
 ---
 # {{ params_vars_title }}

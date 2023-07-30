@@ -33,7 +33,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Correct and Incorrect Statements
-    params_vars_name: Mateo
+    params_vars_name: Santiago
     params_choice: 'TRUE'
     params_part1_ans1_value: If a conductor is in electrostatic equilibrium, the electric
       field lines will always intersect its surface at right angles.

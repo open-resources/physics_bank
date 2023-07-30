@@ -52,14 +52,14 @@ myst:
   substitutions:
     params_vars_title: Bullet Hit Bullet
     params_vars_units: m/s
-    params_v: 692
-    params_theta: 58
-    params_phi: 79
-    params_vx: 369.37
-    params_vy: 221.94
-    params_vz: 478.59
-    params_t1: 0.1
-    params_t2: 0.05
+    params_v: 613
+    params_theta: 5
+    params_phi: 58
+    params_vx: 41.22
+    params_vy: 178.55
+    params_vz: 563.98
+    params_t1: 0.08
+    params_t2: 0.1
     params_mass: 8.0
 ---
 # {{ params_vars_title }}

@@ -45,8 +45,8 @@ myst:
   substitutions:
     params_vars_title: Springs in Parallel
     params_k1: 310.0
-    params_k2: 400.0
-    params_F: 230.0
+    params_k2: 380.0
+    params_F: 300.0
 ---
 # {{ params_vars_title }}
 <img src="Springs in Parallel.png" height = 600> 

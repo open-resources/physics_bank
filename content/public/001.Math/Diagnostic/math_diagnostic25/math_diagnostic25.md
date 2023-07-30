@@ -30,11 +30,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic25
-    params_expr: $\dfrac{ 4-e^{(-8x)}}{1-x}$
-    params_part1_ans1_value: '3'
+    params_expr: $\dfrac{ 10-e^{(-7x)}}{1-x}$
+    params_part1_ans1_value: '9'
     params_part1_ans2_value: Negative Infinity
-    params_part1_ans3_value: 4.0
-    params_part1_ans4_value: 4
+    params_part1_ans3_value: 10.0
+    params_part1_ans4_value: 10
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

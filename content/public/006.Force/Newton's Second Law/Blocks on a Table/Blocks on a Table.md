@@ -30,8 +30,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Blocks on a Table
-    params_m1: 3
-    params_m2: 21
+    params_m1: 5
+    params_m2: 22
     params_m3: 15
     params_part1_ans1_value: Block A experiences the greatest net force.
     params_part1_ans2_value: Block B experiences the greatest net force.

@@ -51,8 +51,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Series and Parallel Resistors
-    params_R1: '2.00'
-    params_R2: '3.00'
+    params_R1: '1.30'
+    params_R2: '3.50'
     params_R3: '5.00'
 ---
 # {{ params_vars_title }}

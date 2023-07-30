@@ -45,10 +45,10 @@ myst:
   substitutions:
     params_vars_title: Marble in a Cone
     params_vars_units: m/s
-    params_v: 2.14
-    params_H: 7.11
-    params_R: 2.868
-    params_r: 1.001
+    params_v: 2.01
+    params_H: 7.5
+    params_R: 2.935
+    params_r: 1.627
 ---
 # {{ params_vars_title }}
 <img src="Marble Around a Cone.jpg" width=500>

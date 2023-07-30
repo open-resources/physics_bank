@@ -49,9 +49,9 @@ part2:
     digits: 2
 myst:
   substitutions:
-    params_x: 85
-    params_y: 14
-    params_m: 7
+    params_x: 8
+    params_y: 50
+    params_m: 6
 ---
 # Forces acting on a Squirrel
 A squirrel with a mass of ${{ params_m }}\ \rm{kg}$ is hanging at rest between two branches **A** and **B** with an angle of ${{ params_x}}^{\circ}$ and ${{ params_y }}^{\circ}$ respectively.

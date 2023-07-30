@@ -66,9 +66,9 @@ myst:
     params_vars_units2: $m/s^2 \ \ \hat\jmath$
     params_vars_units3: $m/s \ \ \hat\imath$
     params_vars_units4: $m/s \ \ \hat\jmath$
-    params_h: 140
-    params_s: 150
-    params_vert: 70
+    params_h: 80
+    params_s: 100
+    params_vert: 50
 ---
 # {{ params_vars_title }}
 A supply plane needs to drop a package of food to scientists working on a glacier in Greenland.

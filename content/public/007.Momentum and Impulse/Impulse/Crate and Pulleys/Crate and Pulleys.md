@@ -43,8 +43,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Crate and Pulleys
-    params_t: 2.5
-    params_mA: 33
+    params_t: 2.2
+    params_mA: 31
     params_mB: 22.0
 ---
 # {{ params_vars_title }}

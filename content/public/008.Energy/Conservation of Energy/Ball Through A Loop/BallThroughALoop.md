@@ -45,7 +45,7 @@ part2:
 myst:
   substitutions:
     params_vars_title: Ball Through A Loop
-    params_r: 1.27
+    params_r: 1.73
 ---
 # {{ params_vars_title }}
 A ball, initially at rest, falls into a curved path as illustrated below. It follows the path until the peak, and gets launched onto a platform aside.

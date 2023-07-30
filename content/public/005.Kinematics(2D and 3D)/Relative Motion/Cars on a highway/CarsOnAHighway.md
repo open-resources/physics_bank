@@ -43,10 +43,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Cars on a Highway
-    params_l: 13
-    params_d: 24
-    params_va: 92
-    params_vb: 94
+    params_l: 16
+    params_d: 64
+    params_va: 96
+    params_vb: 95
 ---
 # {{ params_vars_title }}
 Two cars are driving at constant speeds on two parallel opposing lanes of a divided highway.

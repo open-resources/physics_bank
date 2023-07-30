@@ -34,9 +34,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Pulling a Spinning Mass
-    params_time: 1.91
-    params_r1: 0.51
-    params_r2: 0.2
+    params_time: 1.87
+    params_r1: 0.61
+    params_r2: 0.22
 ---
 # {{ params_vars_title }}
 A mass is swinging around a pole at a radius of ${{params_r1}} \ \rm{m}$.

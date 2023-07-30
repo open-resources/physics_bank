@@ -34,11 +34,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Truck on Icy Hill 2
-    params_m: 3760
-    params_v: 66
-    params_v2: 94
-    params_t: 4
-    params_theta: 12
+    params_m: 3466
+    params_v: 50
+    params_v2: 64
+    params_t: 8
+    params_theta: 22
 ---
 # {{ params_vars_title }}
 As a car moves down an icy hill, a car changes in velocity from $v = {{ params_v }} \ \rm{km/h}$ to $v_1 = {{ params_v2 }} \ \rm{km/h}$ over the course of $t = {{ params_t }} \ \rm{s}$.
