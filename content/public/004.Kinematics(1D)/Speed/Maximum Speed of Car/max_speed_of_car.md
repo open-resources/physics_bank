@@ -34,7 +34,7 @@ myst:
     params_vars_title: Maximum Speed of Car
     params_vars_units: $ft/s$
     params_yards: 100
-    params_max_speed_t: 7
+    params_max_speed_t: 6
     params_overall_t: 8
 ---
 # {{ params_vars_title }}

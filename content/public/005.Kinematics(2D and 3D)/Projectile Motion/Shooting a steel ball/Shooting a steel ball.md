@@ -30,14 +30,14 @@ part1:
 myst:
   substitutions:
     params_vars_title: Shooting a Steel Ball
-    params_v: 2
-    params_theta: 36
-    params_part1_ans1_value: $(2\cos(36^{\circ}), \; -2\sin(36^{\circ}))$
-    params_part1_ans2_value: $(2\cos(36^{\circ}), \;2\sin(36^{\circ}))$
-    params_part1_ans3_value: $(2\sin(36^{\circ}), \; -2\cos(36^{\circ}))$
-    params_part1_ans4_value: $(2\sin(36^{\circ}), \;2\cos(36^{\circ}))$
-    params_part1_ans5_value: $(-2\cos(36^{\circ}), \; -2\sin(36^{\circ}))$
-    params_part1_ans6_value: $(-2\sin(36^{\circ}), \;2\cos(36^{\circ}))$
+    params_v: 5
+    params_theta: 50
+    params_part1_ans1_value: $(5\cos(50^{\circ}), \; -5\sin(50^{\circ}))$
+    params_part1_ans2_value: $(5\cos(50^{\circ}), \;5\sin(50^{\circ}))$
+    params_part1_ans3_value: $(5\sin(50^{\circ}), \; -5\cos(50^{\circ}))$
+    params_part1_ans4_value: $(5\sin(50^{\circ}), \;5\cos(50^{\circ}))$
+    params_part1_ans5_value: $(-5\cos(50^{\circ}), \; -5\sin(50^{\circ}))$
+    params_part1_ans6_value: $(-5\sin(50^{\circ}), \;5\cos(50^{\circ}))$
 ---
 # {{ params_vars_title }}
 A small steel ball is shot at {{ params_v }} $m/s$ at a {{ params_theta }}$^{\circ}$ angle above the horizontal direction and its motion is well approximated by projectile motion.

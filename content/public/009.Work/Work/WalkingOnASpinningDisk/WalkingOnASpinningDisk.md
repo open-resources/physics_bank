@@ -37,9 +37,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Walking on a Spinning Disk
-    params_m: 50
+    params_m: 100
     params_r1: 1
-    params_r2: 0.68
+    params_r2: 0.48
     params_theta_dot: 2
 ---
 # {{ params_vars_title }}

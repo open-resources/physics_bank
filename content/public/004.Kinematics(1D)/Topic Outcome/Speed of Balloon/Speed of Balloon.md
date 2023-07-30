@@ -35,12 +35,12 @@ part1:
     suffix: $m/s$
 myst:
   substitutions:
-    params_vars_name: Savannah
+    params_vars_name: Santiago
     params_vars_title: Speed of Balloon
     params_vars_units: $m/s$
-    params_m: 1.0
-    params_F: 0.07
-    params_d: 1.5
+    params_m: 2.0
+    params_F: 0.06
+    params_d: 3.67
 ---
 # {{ params_vars_title }}
 In a demo for showing how a jet works, {{ params_vars_name }} would like to use an inflated balloon. The mass of the empty balloon is {{ params_m }} $g$ and it only moves vertically upward. We know that this balloon produces a constant thrust force of {{ params_F }} $N$.

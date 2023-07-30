@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $e$ = $\dfrac{(t)}{(l + 10u)} $
-    params_part1_ans1_value: l = ${ - 10 u + \frac{t}{e}}$
-    params_part1_ans2_value: l = ${\frac{10 e u}{t}}$
-    params_part1_ans3_value: l = ${\frac{t}{10 e u}}$
-    params_part1_ans4_value: l = ${\frac{e - 10 u}{t}}$
+    params_expr: $p$ = $\dfrac{(t)}{(m + 7o)} $
+    params_part1_ans1_value: m = ${ - 7 o + \frac{t}{p}}$
+    params_part1_ans2_value: m = ${\frac{7 o p}{t}}$
+    params_part1_ans3_value: m = ${\frac{t}{7 o p}}$
+    params_part1_ans4_value: m = ${\frac{- 7 o + p}{t}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

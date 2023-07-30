@@ -44,10 +44,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Curvilinear Motion of Jet
-    params_d: 731
-    params_h: 219
-    params_v: 238
-    params_rho: 1444
+    params_d: 821
+    params_h: 438
+    params_v: 751
+    params_rho: 1061
 ---
 # {{ params_vars_title }}
 <img src="CurvJet.png" width=90%>

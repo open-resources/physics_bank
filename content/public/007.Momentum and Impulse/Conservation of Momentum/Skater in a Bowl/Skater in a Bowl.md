@@ -36,9 +36,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Skater in a Bowl
-    params_ro: 4.78
-    params_vo: 3
-    params_h: 2.38
+    params_ro: 4.23
+    params_vo: 5
+    params_h: 2.8
 ---
 # {{ params_vars_title }}
 <img src="Marble in a Bowl.png" width=400>

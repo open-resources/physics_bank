@@ -37,10 +37,10 @@ myst:
   substitutions:
     params_vars_title: Velocity of a ball from acceleration
     params_vars_units: m/s
-    params_v0: 20
+    params_v0: 21
     params_s0: 7
-    params_k: 0.04
-    params_s: 12
+    params_k: 0.02
+    params_s: 10
 ---
 # {{ params_vars_title }}
 The acceleration of a ball is given by $a(x) = -5kx^2$, where $a$ is acceleration of the ball in $m/s^2$, $k$ is a constant with unspecified units, and $x$ is the position of the ball in $m$.

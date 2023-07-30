@@ -36,9 +36,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Coin in a Funnel
-    params_r1: 0.99
-    params_vo: 0.53
-    params_r2: 0.22
+    params_r1: 0.91
+    params_vo: 0.38
+    params_r2: 0.227
     params_ad: 45
 ---
 # {{ params_vars_title }}

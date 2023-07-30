@@ -47,8 +47,8 @@ myst:
   substitutions:
     params_vars_title: Electron in a capacitor
     params_d: '3.0'
-    params_V: '100'
-    params_s: $4.5\times 10^{5}$
+    params_V: '260'
+    params_s: $9.0\times 10^{5}$
     params_x: '2.2'
 ---
 # {{ params_vars_title }}

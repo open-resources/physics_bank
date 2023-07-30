@@ -33,12 +33,12 @@ part1:
     suffix: $^{\circ} $
 myst:
   substitutions:
-    params_vars_name: Abbas
+    params_vars_name: Savannah
     params_vars_title: Angle of the Swing Ride
     params_vars_units: degrees
-    params_omega: 1.84
-    params_d: 10.5
-    params_m: 85
+    params_omega: 2.88
+    params_d: 8.0
+    params_m: 150
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} is on a swing ride, rotating at a $\omega =$ ${{ params_omega}}$ rad/s. The combined mass of {{ params_vars_name }} and the seat is $m = {{ params_m }}$ kg. The length of the cable connecting the seat to the ride is $ d =$ ${{ params_d}}$ m.

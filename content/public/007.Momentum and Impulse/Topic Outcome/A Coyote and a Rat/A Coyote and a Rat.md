@@ -97,7 +97,7 @@ part8:
 myst:
   substitutions:
     params_vars_title: A Coyote and a Rat
-    params_d_x: 33
+    params_d_x: 31
     params_v_r: 7
     params_a_c: 6
 ---

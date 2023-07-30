@@ -35,8 +35,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Frequency/Period of Oscillation
-    params_R: 9
-    params_pendulum: ' frequency of oscillation of this physical pendulum.'
+    params_R: 3
+    params_pendulum: ' period of oscillation of this physical pendulum.'
 ---
 # {{ params_vars_title }}
 A solid disk of mass $M$ and radius $R$ is swung from a massless string of length $R$ through a small angle as shown in Figure; Let $R$={{ params_R }}r.

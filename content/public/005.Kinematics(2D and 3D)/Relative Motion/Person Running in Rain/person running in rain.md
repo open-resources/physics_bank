@@ -57,10 +57,10 @@ part3:
 myst:
   substitutions:
     params_sketch: part22.png
-    params_v_r1: 24
-    params_a: 59
-    params_v_r2: 8
-    params_theta: 31
+    params_v_r1: 19
+    params_a: 55
+    params_v_r2: 13
+    params_theta: 35
     params_text31: declined
 ---
 # Person Running in Rain

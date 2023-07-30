@@ -104,30 +104,30 @@ myst:
     params_m_A: 2.5
     params_m_B: 5.0
     params_m_C: 10.0
-    params_F: 30
-    params_part2_ans1_value: $m_C$
+    params_F: 17
+    params_part2_ans1_value: $m_B$
     params_part2_ans1_feedback: Correct! Nice work
-    params_part2_ans2_value: $F_{\text{on A}}$
+    params_part2_ans2_value: $m_C$
     params_part2_ans2_feedback: Correct! Nice work
-    params_part2_ans3_value: $m_A$
+    params_part2_ans3_value: $F_{\text{on A}}$
     params_part2_ans3_feedback: Correct! Nice work
-    params_part2_ans4_value: $m_B$
+    params_part2_ans4_value: $m_A$
     params_part2_ans4_feedback: Correct! Nice work
-    params_part2_ans5_value: $F_{\text{B on A}}$
+    params_part2_ans5_value: $F_{\text{B on C}}$
     params_part2_ans5_feedback: Not quite - Try again!
-    params_part2_ans6_value: $F_{\text{B on C}}$
+    params_part2_ans6_value: $F_{\text{B on A}}$
     params_part2_ans6_feedback: Not quite - Try again!
-    params_part3_ans1_value: $F_{\text{B on A}}$
+    params_part3_ans1_value: $F_{\text{B on C}}$
     params_part3_ans1_feedback: Correct! Nice work
-    params_part3_ans2_value: $F_{\text{B on C}}$
+    params_part3_ans2_value: $F_{\text{B on A}}$
     params_part3_ans2_feedback: Correct! Nice work
-    params_part3_ans3_value: $m_C$
+    params_part3_ans3_value: $m_B$
     params_part3_ans3_feedback: Not quite - Try again!
-    params_part3_ans4_value: $F_{\text{on A}}$
+    params_part3_ans4_value: $m_C$
     params_part3_ans4_feedback: Not quite - Try again!
-    params_part3_ans5_value: $m_A$
+    params_part3_ans5_value: $F_{\text{on A}}$
     params_part3_ans5_feedback: Not quite - Try again!
-    params_part3_ans6_value: $m_B$
+    params_part3_ans6_value: $m_A$
     params_part3_ans6_feedback: Not quite - Try again!
 ---
 # {{ params_vars_title }}

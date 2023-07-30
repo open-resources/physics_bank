@@ -32,13 +32,13 @@ part1:
 myst:
   substitutions:
     params_vars_title: Speed Before Impact
-    params_vars_vehicle: sedan
+    params_vars_vehicle: bus
     params_vars_units: $m/s$
-    params_m: 526
-    params_part1_ans1_value: 103.0
-    params_part1_ans2_value: 51.3
-    params_part1_ans3_value: 25.7
-    params_part1_ans4_value: 12.8
+    params_m: 687
+    params_part1_ans1_value: 78.6
+    params_part1_ans2_value: 39.3
+    params_part1_ans3_value: 19.7
+    params_part1_ans4_value: 9.83
     params_part1_ans5_value: 0
 ---
 # {{ params_vars_title }}

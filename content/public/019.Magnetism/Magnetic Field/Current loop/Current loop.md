@@ -43,8 +43,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Current loop
-    params_I: '6.80'
-    params_B: $2.70\times 10^{-5}$
+    params_I: '5.20'
+    params_B: $2.40\times 10^{-6}$
 ---
 # {{ params_vars_title }}
 When the current through a circular loop is {{ params_I }}$\rm\ A$, the magnetic field at its centre is {{ params_B }} $\rm\ T$.

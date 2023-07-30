@@ -75,10 +75,10 @@ part6:
 myst:
   substitutions:
     params_vars_title: Momentum of a Particle
-    params_m: 72
-    params_F: 19
-    params_v: 89
-    params_x: 1
+    params_m: 32
+    params_F: 13
+    params_v: 20
+    params_x: 3
     params_y: 1
     params_z: 1
 ---

@@ -43,8 +43,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Wire in an external magnetic field
-    params_I: '23.5'
-    params_Bext: '39.5'
+    params_I: '15.0'
+    params_Bext: '49.5'
     params_d: '18.5'
 ---
 # {{ params_vars_title }}

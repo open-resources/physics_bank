@@ -43,10 +43,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Velocity and Acceleration of Particle in Curvilinear motion
-    params_x_position: 0
+    params_x_position: -1
     params_t: 0
     params_y_position: 0
-    params_vxcon: 26
+    params_vxcon: 30
     params_vxcof: 16
 ---
 # {{ params_vars_title }}

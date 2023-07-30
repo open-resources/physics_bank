@@ -47,8 +47,8 @@ myst:
     params_vars_title: Raising weight with Block on Hill
     params_vars_units_v: m/s
     params_vars_units_a: m/s^2
-    params_v_b: 3.6
-    params_a_b: 1.8
+    params_v_b: 2.4
+    params_a_b: 1.7
 ---
 # {{ params_vars_title }}
 <img src="L13Q3.png" width=85%>

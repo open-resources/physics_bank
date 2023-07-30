@@ -38,10 +38,10 @@ myst:
   substitutions:
     params_vars_title: Man Vs Box
     params_vars_units: m/s^2
-    params_m: 118
-    params_M: 60
-    params_theta: 51
-    params_h: 1.67
+    params_m: 113
+    params_M: 85
+    params_theta: 39
+    params_h: 1.43
 ---
 # {{ params_vars_title }}
 <img src="Man vs box.png" width=700>

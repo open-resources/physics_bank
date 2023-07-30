@@ -35,9 +35,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Forces on Truck
-    params_MT: 4170
-    params_mc: 3
-    params_theta: 33
+    params_MT: 4522
+    params_mc: 4
+    params_theta: 41
 ---
 # {{ params_vars_title }}
 <img src="ForcesOnTruck.png" width=90%>

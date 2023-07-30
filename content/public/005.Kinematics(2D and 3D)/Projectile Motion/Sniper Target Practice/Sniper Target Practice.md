@@ -38,9 +38,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Sniper Target Practice
-    params_v: 773
-    params_d: 1.03
-    params_h: 100
+    params_v: 1088
+    params_d: 1.35
+    params_h: 164
 ---
 # {{ params_vars_title }}
 A sniper is practicing their shots on a target $h = {{ params_h }} \ \rm{m}$ high at $d = {{ params_d }} \ \rm{km}$ away.

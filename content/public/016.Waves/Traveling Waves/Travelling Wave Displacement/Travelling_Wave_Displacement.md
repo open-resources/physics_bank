@@ -47,8 +47,8 @@ part3:
 myst:
   substitutions:
     params_vars_title: Travelling Wave Displacement
-    params_A: 5
-    params_k: 10
+    params_A: 6
+    params_k: 7
     params_omega: 7
     params_part2_ans1_value: The positive x direction.
     params_part2_ans1_feedback: Try setting the phase equal to a constant and differentiating

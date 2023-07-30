@@ -44,9 +44,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Ball Bouncing Down Ramp
-    params_h: 1.5
-    params_theta: 56
-    params_e: 0.61
+    params_h: 4.43
+    params_theta: 50
+    params_e: 0.67
 ---
 # {{ params_vars_title }}
 A ball is dropped from a height ${{params_h}} \ \rm{m}$ above a ${{params_theta}}^{\circ}$ sloped ramp. The coefficient of restitution between the ball and the ramp is $e={{params_e}}$.

@@ -44,16 +44,16 @@ part2:
     suffix: $N$
 myst:
   substitutions:
-    params_vars_name: Aliyah
+    params_vars_name: Santiago
     params_vars_title: Relative Soccer Ball
     params_vars_units: N
-    params_m: 0.32
-    params_vp: 2.71
-    params_theta: 23
-    params_t: 0.024
-    params_vbp: 8.72
-    params_vy: 19.6
-    params_vx: 18.79
+    params_m: 0.37
+    params_vp: 2.58
+    params_theta: 43
+    params_t: 0.05
+    params_vbp: 8.89
+    params_vy: 18.71
+    params_vx: 18.72
 ---
 # {{ params_vars_title }}
 <img src="Relative Soccer Ball.jpg" width=700>

@@ -90,8 +90,8 @@ part6:
 myst:
   substitutions:
     params_a: 49
-    params_u: 36
-    params_d: 60
+    params_u: 46
+    params_d: 59
     params_a_w: 6
 ---
 # Cricket Wicket By Catch

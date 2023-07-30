@@ -33,19 +33,19 @@ part1:
 myst:
   substitutions:
     params_vars_title: Correct and Incorrect Statements
-    params_vars_name: Aliyah
-    params_choice: 'FALSE'
+    params_vars_name: Lorenzo
+    params_choice: 'TRUE'
     params_part1_ans1_value: When a π rad phase change occurs upon reflection from
       both the front and back surfaces of a thin film, constructive interference occurs
-      if half a wavelength fits in twice the film thickness.
+      if a full wavelength fits in twice the film thickness.
     params_part1_ans1_feedback: Correct! Nice work
     params_part1_ans2_value: When a π rad phase change occurs upon reflection from
       the front but not the back surface of a thin film, constructive interference
       occurs if half a wavelength fits in twice the film thickness.
-    params_part1_ans2_feedback: Not quite - Try again!
+    params_part1_ans2_feedback: Correct! Nice work
     params_part1_ans3_value: When a π rad phase change occurs upon reflection from
       both the front and back surfaces of a thin film, constructive interference occurs
-      if a full wavelength fits in twice the film thickness.
+      if half a wavelength fits in twice the film thickness.
     params_part1_ans3_feedback: Not quite - Try again!
 ---
 # {{ params_vars_title }}

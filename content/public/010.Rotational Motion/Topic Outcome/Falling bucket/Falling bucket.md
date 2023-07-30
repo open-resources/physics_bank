@@ -39,10 +39,10 @@ myst:
   substitutions:
     params_vars_title: Falling Bucket
     params_vars_units: m/s
-    params_m_b: 19.0
-    params_m_c: 5.49
-    params_h: 54.0
-    params_r: 78.2
+    params_m_b: 23.1
+    params_m_c: 3.93
+    params_h: 27.5
+    params_r: 86.6
 ---
 # {{ params_vars_title }}
 A bucket of mass $m_b$ = {{ params.m_b }} $kg$ is knocked off the side of a well.

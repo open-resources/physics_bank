@@ -31,7 +31,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Fridge Force Comparison
-    params_vars_name: Ahmed
+    params_vars_name: Emilia
     params_part1_ans1_value: $F_{yr} = 2F_{fr}$
     params_part1_ans1_feedback: Consider whether velocity is directly proportional
       to force! If not, what is?

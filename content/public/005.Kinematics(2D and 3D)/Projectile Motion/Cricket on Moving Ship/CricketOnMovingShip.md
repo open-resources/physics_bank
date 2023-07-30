@@ -46,10 +46,10 @@ myst:
   substitutions:
     params_vars_title: Cricket on a Moving Ship
     params_vars_units: m/s
-    params_v: 11
-    params_h: 45
+    params_v: 13
+    params_h: 15
     params_u: 43
-    params_x: 186.34879430541508
+    params_x: 153.02615671039004
 ---
 # {{ params_vars_title }}
 <img src="Cricket.png" width=85%>
