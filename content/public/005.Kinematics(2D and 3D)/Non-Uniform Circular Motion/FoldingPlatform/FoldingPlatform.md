@@ -44,10 +44,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Folding Platform
-    params_h: 4
-    params_x: 4
-    params_l_dot: 0.89
-    params_theta: 35
+    params_h: 7
+    params_x: 7
+    params_l_dot: 0.79
+    params_theta: 75
 ---
 # {{ params_vars_title }}
 A platform of length $x = {{params_x}}\ \rm{m}$ is being folded up against a wall by a rope pulling on its end.

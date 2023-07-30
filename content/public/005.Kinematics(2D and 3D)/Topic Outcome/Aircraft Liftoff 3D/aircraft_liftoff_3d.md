@@ -53,9 +53,9 @@ myst:
   substitutions:
     params_vars_title: Aircraft Liftoff 3D
     params_v: 5
-    params_z: 366
-    params_x: 422
-    params_angle: 37
+    params_z: 282
+    params_x: 478
+    params_angle: 21
 ---
 # {{ params_vars_title }}
 <img src="L10Q1.png" width=85%>

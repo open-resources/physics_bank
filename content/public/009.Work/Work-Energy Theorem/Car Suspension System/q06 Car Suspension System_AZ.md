@@ -40,11 +40,11 @@ part2:
 myst:
   substitutions:
     params_vars_title: Car Suspension System
-    params_m: 1017
-    params_r: 69
-    params_x: 192
-    params_u: 94.7
-    params_v: 92.7
+    params_m: 1381
+    params_r: 70
+    params_x: 194
+    params_u: 95.3
+    params_v: 93.3
 ---
 # {{ params_vars_title }}
 A car is moving over a hump in the road with a constant speed $v \  \rm{ms^{-1}}$.

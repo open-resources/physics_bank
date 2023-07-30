@@ -43,9 +43,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Crate and Pulleys
-    params_t: 2.1
-    params_mA: 31
-    params_mB: 19.0
+    params_t: 0.61
+    params_mA: 39
+    params_mB: 30.0
 ---
 # {{ params_vars_title }}
 <img src="Crate and Pulleys.png" width=600>

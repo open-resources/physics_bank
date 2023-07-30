@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $d$ = $\dfrac{(i)}{(b + 8o)} $
-    params_part1_ans1_value: b = ${ - 8 o + \frac{i}{d}}$
-    params_part1_ans2_value: b = ${\frac{8 d o}{i}}$
-    params_part1_ans3_value: b = ${\frac{i}{8 d o}}$
-    params_part1_ans4_value: b = ${\frac{d - 8 o}{i}}$
+    params_expr: $n$ = $\dfrac{(m)}{(l + 5h)} $
+    params_part1_ans1_value: l = ${ - 5 h + \frac{m}{n}}$
+    params_part1_ans2_value: l = ${\frac{5 h n}{m}}$
+    params_part1_ans3_value: l = ${\frac{m}{5 h n}}$
+    params_part1_ans4_value: l = ${\frac{- 5 h + n}{m}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

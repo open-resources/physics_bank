@@ -46,7 +46,7 @@ myst:
     params_vars_title: Springs in Parallel
     params_k1: 430.0
     params_k2: 490.0
-    params_F: 310.0
+    params_F: 350.0
 ---
 # {{ params_vars_title }}
 <img src="Springs in Parallel.png" height = 600> 

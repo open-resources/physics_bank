@@ -31,14 +31,14 @@ part1:
 myst:
   substitutions:
     params_vars_title: Velocity and Acceleration of an Object
-    params_v: $-6t^2 - 2t$
-    params_time: 5.07
-    params_part1_ans1_value: $v = $ -164.0 $m/s$, $a = $ -62.8 $m/s^2$
-    params_part1_ans2_value: $v = $ -164.0 $m/s$, $a = $ 0 $m/s^2$
-    params_part1_ans3_value: $v = $ -164.0 $m/s$, $a = $ 9.81 $m/s^2$
-    params_part1_ans4_value: $v = $ 5.07 $m/s$, $a = $ -31.4 $m/s^2$
-    params_part1_ans5_value: $v = $ -164.0 $m/s$, $a = $ 62.8 $m/s^2$
-    params_part1_ans6_value: $v = $ -164.0 $m/s$, $a = $ -126.0 $m/s^2$
+    params_v: $9t^2 + t$
+    params_time: 13.7
+    params_part1_ans1_value: $v = $ 1700.0 $m/s$, $a = $ 248.0 $m/s^2$
+    params_part1_ans2_value: $v = $ 1700.0 $m/s$, $a = $ 0 $m/s^2$
+    params_part1_ans3_value: $v = $ 1700.0 $m/s$, $a = $ 9.81 $m/s^2$
+    params_part1_ans4_value: $v = $ 13.7 $m/s$, $a = $ 124.0 $m/s^2$
+    params_part1_ans5_value: $v = $ 1700.0 $m/s$, $a = $ -248.0 $m/s^2$
+    params_part1_ans6_value: $v = $ 1700.0 $m/s$, $a = $ 496.0 $m/s^2$
 ---
 # {{ params_vars_title }}
 If the velocity of an object in one-dimensional motion is given by $v(t) = $ {{ params_v }}, where the units of $v$ are in $m/s$ and of $t$ are in seconds,

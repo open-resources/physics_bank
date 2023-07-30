@@ -46,13 +46,13 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Abbas
+    params_vars_name: Lorenzo
     params_vars_title: Potato Volume
     params_vars_mass_units: kg
     params_vars_volume_units: m^3
-    params_vars_mass_potato: 297
-    params_vars_mass_cube: 28
-    params_vars_cube_side_length: 4.47
+    params_vars_mass_potato: 349
+    params_vars_mass_cube: 41
+    params_vars_cube_side_length: 4.07
 ---
 # {{ params_vars_title }}
 For our first lab, {{params_vars_name}} decides to measure the density of a potato.

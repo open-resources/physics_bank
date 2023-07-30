@@ -44,11 +44,11 @@ part2:
 myst:
   substitutions:
     params_vars_title: Atwood Machine Difference
-    params_mu: 0.35
-    params_v: 5
-    params_M: 6
+    params_mu: 0.22
+    params_v: 2
+    params_M: 8
     params_h: 4
-    params_t: 0.084
+    params_t: 0.072
 ---
 # {{ params_vars_title }}
 To minimize space usage and for effective distributed controls, packages on a factory conveyor belt descend via multi-belt sections placed horizontally on different levels with the packages changing directions when dropping from one belt to the other.

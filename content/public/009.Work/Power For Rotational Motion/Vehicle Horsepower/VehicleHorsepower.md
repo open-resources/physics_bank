@@ -35,10 +35,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Vehicle Horsepower
-    params_M1: 651
-    params_M2: 1782
-    params_RPM1: 6020
-    params_RPM2: 1800
+    params_M1: 738
+    params_M2: 1968
+    params_RPM1: 4014
+    params_RPM2: 1558
 ---
 # {{ params_vars_title }}
 At peak power, a sports car outputs ${{params_M1}} \ \rm{Nm}$ of torque and rotates the crankshaft at ${{params_RPM1}} \ \rm{RPM}$.

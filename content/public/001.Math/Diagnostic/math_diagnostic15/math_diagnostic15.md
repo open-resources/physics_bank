@@ -27,11 +27,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic15
-    params_expr: $4^{5} $=$ 1024$
-    params_part1_ans1_value: $log_41024 = 5$
-    params_part1_ans2_value: $log_45 = 1024$
-    params_part1_ans3_value: $log_10245 = 4$
-    params_part1_ans4_value: $log_51024 = 4$
+    params_expr: $6^{8} $=$ 1679616$
+    params_part1_ans1_value: $log_61679616 = 8$
+    params_part1_ans2_value: $log_68 = 1679616$
+    params_part1_ans3_value: $log_16796168 = 6$
+    params_part1_ans4_value: $log_81679616 = 6$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

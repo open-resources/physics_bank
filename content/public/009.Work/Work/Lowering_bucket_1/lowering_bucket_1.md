@@ -43,7 +43,7 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Savannah
+    params_vars_name: Aliyah
     params_vars_title: Lowering a bucket - person, the rope, the bucket, the air,
       the earth
     params_part1_ans1_value: Open

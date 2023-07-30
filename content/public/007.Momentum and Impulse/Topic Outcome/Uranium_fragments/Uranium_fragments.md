@@ -45,8 +45,8 @@ myst:
   substitutions:
     params_vars_title: Uranium Fragments
     params_vars_units: amu
-    params_frag_speed: 1.9
-    params_dn_speed: 3.72
+    params_frag_speed: 1.4
+    params_dn_speed: 2.48
     params_orig_mass: $^{238}\mathrm{U}$
 ---
 # {{ params_vars_title }}

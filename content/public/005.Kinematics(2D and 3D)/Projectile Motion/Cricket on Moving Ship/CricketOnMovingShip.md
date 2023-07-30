@@ -47,9 +47,9 @@ myst:
     params_vars_title: Cricket on a Moving Ship
     params_vars_units: m/s
     params_v: 13
-    params_h: 31
-    params_u: 45
-    params_x: 184.6704902445826
+    params_h: 10
+    params_u: 42
+    params_x: 140.58207419828975
 ---
 # {{ params_vars_title }}
 <img src="Cricket.png" width=85%>

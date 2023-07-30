@@ -41,12 +41,12 @@ part2:
 myst:
   substitutions:
     params_vars_title: Bullet and Block
-    params_vars_name: Emilia
-    params_m_bullet: 36
-    params_m_block: 12
-    params_bullet_v: 819
-    params_slide_d: 5
-    params_slide_dnew: 6.0
+    params_vars_name: Aliyah
+    params_m_bullet: 21
+    params_m_block: 15
+    params_bullet_v: 785
+    params_slide_d: 7
+    params_slide_dnew: 7.1
     params_coeff_k: 0.2
 ---
 # {{ params_vars_title }}

@@ -39,8 +39,8 @@ myst:
   substitutions:
     params_vars_title: Gravity at Different Heights
     params_vars_units: "$\rm{m/s^2}$"
-    params_h: 4848
-    params_W: 1983
+    params_h: 1478
+    params_W: 1571
 ---
 # {{ params_vars_title }}
 An asteroid is captured in space by a shuttle crew, looking for rare earth metals. The shuttle is orbiting earth at an altitude of $h = {{ params_h }} \ \rm{mi}$ above the surface of the earth. When the crew weighs the asteroid, it comes up as $W = {{ params_W }}$ $\rm{lb}$.

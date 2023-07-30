@@ -127,13 +127,13 @@ part7:
 myst:
   substitutions:
     params_vars_title: Circuit with Multiple Voltage Sources
-    params_R1: '15.0'
-    params_R2: '24.0'
-    params_R3: '13.0'
-    params_R4: '11.0'
-    params_R5: '16.0'
-    params_V1: '15.0'
-    params_V2: '20.0'
+    params_R1: '14.0'
+    params_R2: '22.0'
+    params_R3: '10.0'
+    params_R4: '15.0'
+    params_R5: '13.0'
+    params_V1: '14.0'
+    params_V2: '22.0'
 ---
 # {{ params_vars_title }}
 Consider the circuit shown below.

@@ -35,9 +35,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Diameter of a Tree
-    params_h_t1: 8.96
-    params_d_t1: 31
-    params_h_t2: 27.9
+    params_h_t1: 7.22
+    params_d_t1: 26
+    params_h_t2: 20.6
 ---
 # {{ params_vars_title }}
 

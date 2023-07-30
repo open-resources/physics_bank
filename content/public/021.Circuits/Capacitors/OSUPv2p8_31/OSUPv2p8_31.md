@@ -63,8 +63,8 @@ part3:
 myst:
   substitutions:
     params_vars_title: Charge and Voltage Across Capacitors
-    params_a: '14'
-    params_b: '6'
+    params_a: '12'
+    params_b: '8'
     params_v: '410'
 ---
 # {{ params_vars_title }}

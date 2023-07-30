@@ -42,10 +42,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Square toroid
-    params_N: '401'
-    params_d: '3.6'
-    params_r: '27'
-    params_I: '1.4'
+    params_N: '397'
+    params_d: '4.2'
+    params_r: '23'
+    params_I: '2.6'
 ---
 # {{ params_vars_title }}
 A toroid with a square cross section {{ params_d }}$\textrm{ cm}\times${{ params_d }}$\textrm{ cm}$ has an inner radius of {{ params_r }}$\textrm{ cm}$.

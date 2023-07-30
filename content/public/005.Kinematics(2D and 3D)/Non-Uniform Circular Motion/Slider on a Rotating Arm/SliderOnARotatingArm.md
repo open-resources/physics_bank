@@ -46,10 +46,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Slider on a Rotating Arm
-    params_n1: 0.13
-    params_n2: 0.51
-    params_n3: 0.1
-    params_theta: 26
+    params_n1: 0.07
+    params_n2: 1.72
+    params_n3: 0.5
+    params_theta: 50
 ---
 # {{ params_vars_title }}
 The rotation of the arm $OA$ rotates about $O$ such that $\theta={{params_n1}}t^2$, where $\theta$ is in radians and $t$ in seconds.

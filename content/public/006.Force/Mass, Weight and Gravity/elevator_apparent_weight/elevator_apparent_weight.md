@@ -33,22 +33,22 @@ part1:
 myst:
   substitutions:
     params_vars_title: Elevator Apparent Weight
-    params_a: 6
-    params_m: 70.0
-    params_part1_ans1_value: 686$\rm{N}$ for all time intervals.
+    params_a: 8
+    params_m: 90.0
+    params_part1_ans1_value: 882$\rm{N}$ for all time intervals.
     params_part1_ans1_feedback: Please consider what affects apparent weight.
-    params_part1_ans2_value: 1106$\rm{N}$ for the first second, 686$\rm{N}$ for the
-      second second, and 266$\rm{N}$ for the third second.
+    params_part1_ans2_value: 1602$\rm{N}$ for the first second, 882$\rm{N}$ for the
+      second second, and 162$\rm{N}$ for the third second.
     params_part1_ans2_feedback: Great! You got it!
-    params_part1_ans3_value: 266$\rm{N}$ for the first second, 686$\rm{N}$ for the
-      second second, and 1106$\rm{N}$ for the third second.
+    params_part1_ans3_value: 162$\rm{N}$ for the first second, 882$\rm{N}$ for the
+      second second, and 1602$\rm{N}$ for the third second.
     params_part1_ans3_feedback: Please consider whether upwards acceleration increases
       or decreases apparent weight!
-    params_part1_ans4_value: 696$\rm{N}$ for the first second, 686$\rm{N}$ for the
-      second second, and 691$\rm{N}$ for the third second.
+    params_part1_ans4_value: 892$\rm{N}$ for the first second, 882$\rm{N}$ for the
+      second second, and 887$\rm{N}$ for the third second.
     params_part1_ans4_feedback: Please check your free body diagram and calculations!
-    params_part1_ans5_value: 686$\rm{N}$ for the first second, 266$\rm{N}$ for the
-      second second, and 1106$\rm{N}$ for the third second.
+    params_part1_ans5_value: 882$\rm{N}$ for the first second, 162$\rm{N}$ for the
+      second second, and 1602$\rm{N}$ for the third second.
     params_part1_ans5_feedback: Please consider how upwards or downwards acceleration
       affects apparent weight.
 ---

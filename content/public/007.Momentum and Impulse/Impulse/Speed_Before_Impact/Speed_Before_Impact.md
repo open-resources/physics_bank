@@ -32,13 +32,13 @@ part1:
 myst:
   substitutions:
     params_vars_title: Speed Before Impact
-    params_vars_vehicle: bus
+    params_vars_vehicle: truck
     params_vars_units: $m/s$
-    params_m: 511
-    params_part1_ans1_value: 106.0
-    params_part1_ans2_value: 52.8
-    params_part1_ans3_value: 26.4
-    params_part1_ans4_value: 13.2
+    params_m: 546
+    params_part1_ans1_value: 98.9
+    params_part1_ans2_value: 49.5
+    params_part1_ans3_value: 24.7
+    params_part1_ans4_value: 12.4
     params_part1_ans5_value: 0
 ---
 # {{ params_vars_title }}

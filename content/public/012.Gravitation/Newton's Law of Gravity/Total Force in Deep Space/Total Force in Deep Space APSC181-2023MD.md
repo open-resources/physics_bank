@@ -45,11 +45,11 @@ myst:
   substitutions:
     params_vars_title: Total Force in Deep Space
     params_vars_units: N
-    params_vars_string_1: Object A is a cylinder with a base radius 1.81 m and height
-      2.93 m. It has a density of 21000.0 $\frac{kg}{m^{3}}$ and it is at position
-      $(2,5)$.
-    params_vars_string_2: The other one, Object B, is a sphere with radius 1.91 m.
-      It has a density of 18800.0 $\frac{kg}{m^{3}}$ and it is at position $(3,-1)$.
+    params_vars_string_1: Object A is a cube with sides 2.92 m. It has a density of
+      20200.0 $\frac{kg}{m^{3}}$ and it is at position $(4,4)$.
+    params_vars_string_2: The other one, Object B, is a cone with base radius 1.59
+      m and height 2.25 m. It has a density of 21300.0 $\frac{kg}{m^{3}}$ and it is
+      at position $(4,-1)$.
     params_m: 3900
 ---
 # {{ params_vars_title }}

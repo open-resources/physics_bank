@@ -46,8 +46,8 @@ myst:
     params_x_position: 5
     params_t: 0
     params_y_position: 0
-    params_vxcon: 23
-    params_vxcof: 16
+    params_vxcon: 24
+    params_vxcof: 12
 ---
 # {{ params_vars_title }}
 The curvilinear motion of a particle is defined by the x velocity, $v\_{x} = {{params_vxcon}} - {{params_vxcof}}t$ and the y position, $y = 50 - 2t^2$,

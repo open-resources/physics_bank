@@ -42,9 +42,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Temperature Range of Resistor
-    params_p: 6
-    params_metal: Silver
-    params_T_0: 100
+    params_p: 1
+    params_metal: Nichrome
+    params_T_0: 61
 ---
 # {{ params_vars_title }}
 

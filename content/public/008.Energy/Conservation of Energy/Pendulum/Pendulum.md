@@ -48,13 +48,13 @@ myst:
     params_vars_title: Pendulum
     params_vars_units_part1: "$\rm{m/s}$"
     params_vars_units_part2: "$\rm{N}$"
-    params_m: 27
-    params_l: 2.6
-    params_theta: 43
-    params_mainText: A child of mass $27 \ \rm{kg}$ is on a swing with length $2.6
+    params_m: 50
+    params_l: 2.0
+    params_theta: 67
+    params_mainText: A child of mass $50 \ \rm{kg}$ is on a swing with length $2.0
       \ \rm{m}$. The swing just reaches the horizontal before the child begins to
       swing downwards. After some time, he reaches point $A$ where the angle formed
-      is $43^\circ$.
+      is $67^\circ$.
     params_part1Text: Find the speed of the child at point $A$
     params_part2Text: Find the total tension on the chains at point $A$
 ---

@@ -56,12 +56,12 @@ part3:
     digits: 2
 myst:
   substitutions:
-    params_sketch: part21.png
-    params_v_r1: 25
-    params_a: 38
-    params_v_r2: 14
-    params_theta: 52
-    params_text31: inclined
+    params_sketch: part22.png
+    params_v_r1: 19
+    params_a: 35
+    params_v_r2: 13
+    params_theta: 55
+    params_text31: declined
 ---
 # Person Running in Rain
 A man without an umbrella is running along a straight road with constant speed whilst it is raining.

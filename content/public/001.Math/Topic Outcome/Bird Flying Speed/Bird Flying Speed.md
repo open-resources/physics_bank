@@ -45,8 +45,8 @@ myst:
   substitutions:
     params_vars_title: Bird Flying Speed
     params_vars_units: $km/h$
-    params_m_1: 4
-    params_v_1: 71
+    params_m_1: 6
+    params_v_1: 79
     params_m_2: 3
 ---
 # {{ params_vars_title }}

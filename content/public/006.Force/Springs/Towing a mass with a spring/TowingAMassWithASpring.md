@@ -36,11 +36,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Towing a Mass With a Spring
-    params_m: 32
-    params_x: 0.75
-    params_L: 0.95
-    params_nu: 0.31
-    params_a: 4.24
+    params_m: 39
+    params_x: 0.99
+    params_L: 1.29
+    params_nu: 0.14
+    params_a: 1.13
 ---
 # {{ params_vars_title }}
 A person accelerates a ${{params_m}} \ \rm{kg}$ mass at ${{params_a}} \ \rm{m/s^2}$ by pulling on a spring that is ${{params_x}} \ \rm{m}$ long at rest.

@@ -48,10 +48,10 @@ myst:
   substitutions:
     params_vars_title: Horizontal frictionless track
     params_vars_units: N
-    params_m: 2.25
-    params_v: 5
-    params_R: 1.0
-    params_L: 13
+    params_m: 5.0
+    params_v: 2
+    params_R: 0.5
+    params_L: 17
 ---
 # {{ params_vars_title }}
 A small block of mass m = {{params_m}} kg is fired with an initial speed $v_0$ = {{params_v}} m/s along a horizontal section of frictionless track, as shown in the top portion of the figure.

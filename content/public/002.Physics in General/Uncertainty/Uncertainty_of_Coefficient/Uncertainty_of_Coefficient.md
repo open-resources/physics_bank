@@ -30,15 +30,15 @@ part1:
 myst:
   substitutions:
     params_vars_title: Uncertainty of Coefficient
-    params_vars_name: Maya
+    params_vars_name: Ahmed
     params_vars_units: $kg/s$
-    params_m: 138
-    params_v: 1.5
-    params_b: 0.58
+    params_m: 99
+    params_v: 1.6
+    params_b: 0.77
     params_part1_ans1_value: ' $\pm$ 0.15'
-    params_part1_ans2_value: ' $\pm$ 0.09'
+    params_part1_ans2_value: ' $\pm$ 0.11'
     params_part1_ans3_value: ' $\pm$ 0.01'
-    params_part1_ans4_value: ' $\pm$ 0.86'
+    params_part1_ans4_value: ' $\pm$ 1.12'
 ---
 # {{ params_vars_title }}
 The drag force on an object of interest can be accurately modelled as $\vec{D}$ = -$b\vec{v}$ such that its terminal velocity in free fall is given by $v_T$ = $mg/b$.

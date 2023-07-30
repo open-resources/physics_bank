@@ -36,16 +36,16 @@ myst:
     params_phrases_ball: baseball
     params_phrases_action: throws
     params_phrases_obstacle: tree
-    params_d: 48
-    params_h: 14
-    params_v: 43
-    params_theta: 66
+    params_d: 100
+    params_h: 25
+    params_v: 10
+    params_theta: 56
     params_part1_ans1_value: It clears the tree
-    params_part1_ans1_feedback: Correct!
+    params_part1_ans1_feedback: Try again...
     params_part1_ans2_value: It hits the tree
     params_part1_ans2_feedback: Try again...
     params_part1_ans3_value: It doesn't even reach the tree
-    params_part1_ans3_feedback: Try again...
+    params_part1_ans3_feedback: Correct!
 ---
 # {{ params_vars_title }}
 A person {{params_phrases_action}} a {{params_phrases_ball}} towards their friend who is behind a ${{params_h}} \ \rm{m}$ {{params_phrases_obstacle}}. The {{params_phrases_ball}} has an initial velocity of ${{params_v}} \ \rm{m/s}$ at an angle ${{params_theta}}^\circ$ relative to ground.

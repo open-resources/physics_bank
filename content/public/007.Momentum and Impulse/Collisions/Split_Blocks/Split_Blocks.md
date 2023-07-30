@@ -51,7 +51,7 @@ myst:
     params_m: 7
     params_m_a: 4
     params_m_b: 3
-    params_v_a: 4.1
+    params_v_a: 5.7
 ---
 # {{ params_vars_title }}
 A {{params_m}} $kg$ block is initially at rest on a sheet of ice.
