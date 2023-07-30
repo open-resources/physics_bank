@@ -27,11 +27,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic15
-    params_expr: $3^{7} $=$ 2187$
-    params_part1_ans1_value: $log_32187 = 7$
-    params_part1_ans2_value: $log_37 = 2187$
-    params_part1_ans3_value: $log_21877 = 3$
-    params_part1_ans4_value: $log_72187 = 3$
+    params_expr: $6^{4} $=$ 1296$
+    params_part1_ans1_value: $log_61296 = 4$
+    params_part1_ans2_value: $log_64 = 1296$
+    params_part1_ans3_value: $log_12964 = 6$
+    params_part1_ans4_value: $log_41296 = 6$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

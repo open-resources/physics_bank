@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic14
-    params_expr: $x^{ -9\over 4}$
-    params_part1_ans1_value: \begin{equation}\frac{1}{\sqrt[4]{x^{9}}}\end{equation}
-    params_part1_ans2_value: \begin{equation}\sqrt[4]{x^{9}}\end{equation}
-    params_part1_ans3_value: \begin{equation}x^{\frac{9}{4}}\end{equation}
-    params_part1_ans4_value: \begin{equation}- \frac{1}{\sqrt[4]{x^{9}}}\end{equation}
+    params_expr: $x^{ -3\over 5}$
+    params_part1_ans1_value: \begin{equation}\frac{1}{\sqrt[5]{x^{3}}}\end{equation}
+    params_part1_ans2_value: \begin{equation}\sqrt[5]{x^{3}}\end{equation}
+    params_part1_ans3_value: \begin{equation}x^{\frac{3}{5}}\end{equation}
+    params_part1_ans4_value: \begin{equation}- \frac{1}{\sqrt[5]{x^{3}}}\end{equation}
     params_part1_ans5_value: Do not know
 ---
 # {{ params_vars_title }}

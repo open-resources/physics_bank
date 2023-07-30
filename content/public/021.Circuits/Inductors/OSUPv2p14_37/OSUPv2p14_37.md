@@ -45,8 +45,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Rate of Change of Current in a Coil
-    params_L: '0.150'
-    params_V: '0.370'
+    params_L: '0.900'
+    params_V: '0.170'
 ---
 # {{ params_vars_title }}
 

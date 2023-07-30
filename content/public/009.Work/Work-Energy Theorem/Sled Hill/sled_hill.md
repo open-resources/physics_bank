@@ -58,9 +58,9 @@ myst:
     params_vars_name: Santiago
     params_vars_title: Sled Hill
     params_angle: 9
-    params_h: 21
-    params_uk: 0.14
-    params_m: 100
+    params_h: 14
+    params_uk: 0.06
+    params_m: 85
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} is on a sled, sliding down a snow covered hill sloped at {{ params_angle }}$^\circ$ (relative to the horizontal). In travelling a distance $d$ the sled has descended through a vertical distance of $10 \, \rm{m}$.

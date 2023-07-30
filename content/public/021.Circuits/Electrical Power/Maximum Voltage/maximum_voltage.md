@@ -41,8 +41,8 @@ myst:
   substitutions:
     params_vars_title: Maximum Voltage
     params_vars_units: V
-    params_P: 0.84
-    params_R: 67
+    params_P: 1.67
+    params_R: 22
 ---
 # {{ params_vars_title }}
 

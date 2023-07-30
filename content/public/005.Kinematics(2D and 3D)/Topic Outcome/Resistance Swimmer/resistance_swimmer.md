@@ -45,10 +45,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Resistance Swimmer
-    params_v: 5
-    params_h: 18
-    params_x: 7
-    params_a: 0.1
+    params_v: 3
+    params_h: 11
+    params_x: 5
+    params_a: 0.3
 ---
 # {{ params_vars_title }}
 <img src="L11Q1.png" width=85%>

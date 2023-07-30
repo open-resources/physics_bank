@@ -44,10 +44,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Field due to current segment
-    params_I: '5.0'
-    params_x: '3.60'
-    params_y: '2.80'
-    params_dl: '0.40'
+    params_I: '17.0'
+    params_x: '4.20'
+    params_y: '3.20'
+    params_dl: '0.20'
 ---
 # {{ params_vars_title }}
 A ${{ params_I }}\rm\ A$ current flows through the wire shown in the figure.

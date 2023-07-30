@@ -60,8 +60,8 @@ part4:
 myst:
   substitutions:
     params_vars_title: Rocket Cart on a Track
-    params_nu: 0.22
-    params_F: 2.24
+    params_nu: 0.21
+    params_F: 2.08
     params_m: 137
     params_t: 5
 ---

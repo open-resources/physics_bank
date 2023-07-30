@@ -53,10 +53,10 @@ myst:
   substitutions:
     params_vars_title: Circular Motion of a Swinging Ball
     params_vars_units: m, s, N
-    params_m: 20
-    params_r: 21.81
-    params_h: 14
-    params_v0: 19.73
+    params_m: 19
+    params_r: 22.31
+    params_h: 41
+    params_v0: 15.3
 ---
 # {{ params_vars_title }}
 A ball with a mass of $m = {{ params_m }} \ \rm{kg}$ is being swung above in a horizontal circle.

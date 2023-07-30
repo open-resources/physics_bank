@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $w$ = $\dfrac{(a)}{(n + 5q)} $
-    params_part1_ans1_value: n = ${ \frac{a}{w} - 5 q}$
-    params_part1_ans2_value: n = ${\frac{5 q w}{a}}$
-    params_part1_ans3_value: n = ${\frac{a}{5 q w}}$
-    params_part1_ans4_value: n = ${\frac{- 5 q + w}{a}}$
+    params_expr: $x$ = $\dfrac{(q)}{(e - 2l)} $
+    params_part1_ans1_value: e = ${ 2 l + \frac{q}{x}}$
+    params_part1_ans2_value: e = ${- \frac{2 l x}{q}}$
+    params_part1_ans3_value: e = ${- \frac{q}{2 l x}}$
+    params_part1_ans4_value: e = ${\frac{2 l + x}{q}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

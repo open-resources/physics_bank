@@ -36,10 +36,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Spinning A Stick
-    params_L: 4.19
-    params_F: 66
-    params_m: 54.47
-    params_thetaDot: 1.94
+    params_L: 1.46
+    params_F: 69
+    params_m: 7.3
+    params_thetaDot: 2.65
 ---
 # {{ params_vars_title }}
 A person is trying to spin a ${{params_m}} \ \rm{kg}$ stick around its center.

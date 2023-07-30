@@ -39,9 +39,9 @@ myst:
     params_vars_units: $in$
     params_max_acc_A: 0.6
     params_max_acc_B: 0.8
-    params_ra: 395
-    params_rb: 419
-    params_angle: 68
+    params_ra: 361
+    params_rb: 388
+    params_angle: 66
 ---
 # {{ params_vars_title }}
 Two marbles travel in track as part of a Rube Goldberg machine.

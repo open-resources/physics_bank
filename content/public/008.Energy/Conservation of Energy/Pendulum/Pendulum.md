@@ -48,14 +48,15 @@ myst:
     params_vars_title: Pendulum
     params_vars_units_part1: "$\rm{m/s}$"
     params_vars_units_part2: "$\rm{N}$"
-    params_m: 53
-    params_l: 5
-    params_theta: 81
-    params_mainText: A gymnast with mass $53 \ \rm{kg}$ steps off a horizontal platform
-      to swing on a trapeze with length $5 \ \rm{m}$. At point $A$, the angle formed
-      is $81^\circ$.
-    params_part1Text: Find the speed of the gymnast at point $A$
-    params_part2Text: Find the total tension holding the trapeze at point $A$
+    params_m: 35
+    params_l: 2.8
+    params_theta: 61
+    params_mainText: A child of mass $35 \ \rm{kg}$ is on a swing with length $2.8
+      \ \rm{m}$. The swing just reaches the horizontal before the child begins to
+      swing downwards. After some time, he reaches point $A$ where the angle formed
+      is $61^\circ$.
+    params_part1Text: Find the speed of the child at point $A$
+    params_part2Text: Find the total tension on the chains at point $A$
 ---
 # {{ params_vars_title }}
 {{params_mainText}}

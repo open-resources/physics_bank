@@ -72,7 +72,7 @@ myst:
     params_vars_title: Vector Operations
     params_v1: 3
     params_v2: 6
-    params_angle: 32
+    params_angle: 59
 ---
 # {{ params_vars_title }}
 <img src="L1Q2_drawing.png" width=400>

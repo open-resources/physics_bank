@@ -43,9 +43,9 @@ myst:
   substitutions:
     params_vars_title: Moving Rod
     params_r: '5'
-    params_v: '6'
-    params_B: '1.25'
-    params_a: '8'
+    params_v: '4'
+    params_B: '1.75'
+    params_a: '5'
     params_part2_ans1_value: Clockwise
     params_part2_ans2_value: Counterclockwise
 ---

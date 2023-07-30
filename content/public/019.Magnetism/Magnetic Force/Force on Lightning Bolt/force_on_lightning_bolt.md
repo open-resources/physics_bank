@@ -42,7 +42,7 @@ part2:
 myst:
   substitutions:
     params_vars_title: Force on Lightning Bolt
-    params_I: 18202
+    params_I: 19229
     params_part2_ans1_value: North
     params_part2_ans2_value: South
     params_part2_ans3_value: East

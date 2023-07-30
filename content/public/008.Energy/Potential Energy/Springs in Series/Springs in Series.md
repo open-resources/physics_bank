@@ -36,9 +36,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Springs in Series
-    params_k2: 200.0
-    params_k1: 110.0
-    params_F: 90.0
+    params_k2: 160.0
+    params_k1: 270.0
+    params_F: 74.0
 ---
 # {{ params_vars_title }}
 <img src="Springs in Series.png" height = 300> 

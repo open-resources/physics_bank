@@ -47,8 +47,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Parallel Plates
-    params_L: '9'
-    params_q: '7.0'
+    params_L: '11'
+    params_q: '1.4'
     params_p: '-8'
     params_d: '2.4'
     params_part2_ans1_value: points towards the negative plate

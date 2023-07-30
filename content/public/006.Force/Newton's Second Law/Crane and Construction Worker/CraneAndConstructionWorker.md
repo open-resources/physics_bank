@@ -43,10 +43,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Crane and Construction Worker
-    params_m: 58
-    params_F_crane: 756
-    params_F_worker: 72
-    params_theta: 33
+    params_m: 120
+    params_F_crane: 1569
+    params_F_worker: 216
+    params_theta: 58
 ---
 # {{ params_vars_title }}
 A crane is lifting a ${{params_m}} \ \rm{kg}$ block.

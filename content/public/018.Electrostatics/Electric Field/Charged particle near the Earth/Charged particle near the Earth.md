@@ -49,7 +49,7 @@ part2:
 myst:
   substitutions:
     params_vars_title: Charged particle near the Earth
-    params_charge: proton
+    params_charge: electron
     params_part2_ans1_value: Away from the surface of the Earth.
     params_part2_ans2_value: Towards the surface of the Earth.
 ---

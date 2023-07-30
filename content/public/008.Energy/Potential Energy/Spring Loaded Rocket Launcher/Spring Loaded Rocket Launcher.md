@@ -51,12 +51,12 @@ part3:
 myst:
   substitutions:
     params_vars_title: Spring Loaded Rocket Launcher
-    params_mp: 70
-    params_mr: 161
-    params_k: 124
-    params_x0: 11
-    params_x1: 4.9
-    params_e: 0.84
+    params_mp: 31
+    params_mr: 157
+    params_k: 668
+    params_x0: 16
+    params_x1: 5.4
+    params_e: 0.83
 ---
 # {{ params_vars_title }}
 <img src="Spring Loaded Rocket Launcher.png" width=800>

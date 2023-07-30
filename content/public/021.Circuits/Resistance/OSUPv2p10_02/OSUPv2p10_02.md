@@ -36,8 +36,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Battery Internal Resistance
-    params_x: 5
-    params_N: 3
+    params_x: 4
+    params_N: 2
     params_V_string: '11.25'
 ---
 # {{ params_vars_title }}

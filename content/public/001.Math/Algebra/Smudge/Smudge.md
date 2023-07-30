@@ -47,7 +47,7 @@ part3:
     label: $?= $
 myst:
   substitutions:
-    params_vars_name: Ahmed
+    params_vars_name: Mateo
     params_vars_title: Smudge
 ---
 # {{ params_vars_title }}
