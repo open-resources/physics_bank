@@ -35,11 +35,13 @@ part1:
 myst:
   substitutions:
     params_vars_title: Tug of War
-    params_numberOfChildren: 3
-    params_adultWeight: 153
-    params_adultForce: 665
-    params_childWeights: ' $67\ \rm{lb}$, $63\ \rm{lb}$, $51\ \rm{lb}$'
-    params_childForces: ' $135\ \rm{N}$, $118\ \rm{N}$, $148\ \rm{N}$'
+    params_numberOfChildren: 6
+    params_adultWeight: 162
+    params_adultForce: 314
+    params_childWeights: ' $57\ \rm{lb}$, $58\ \rm{lb}$, $67\ \rm{lb}$, $61\ \rm{lb}$,
+      $66\ \rm{lb}$, $68\ \rm{lb}$'
+    params_childForces: ' $133\ \rm{N}$, $94\ \rm{N}$, $115\ \rm{N}$, $130\ \rm{N}$,
+      $119\ \rm{N}$, $113\ \rm{N}$'
 ---
 # {{ params_vars_title }}
 In a game of tug of war, two teams pull on opposite sides of a rope to tug the opposing team towards them.

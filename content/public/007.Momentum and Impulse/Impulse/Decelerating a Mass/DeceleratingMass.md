@@ -36,8 +36,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Decelerating Mass
-    params_k: 10
-    params_t: 7
+    params_k: 3
+    params_t: 5
     params_v: 16
 ---
 # {{ params_vars_title }}

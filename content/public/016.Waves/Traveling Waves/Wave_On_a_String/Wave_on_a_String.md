@@ -32,23 +32,23 @@ part1:
 myst:
   substitutions:
     params_vars_title: Traveling Wave on a String
-    params_b: 5
-    params_c: 20
-    params_d: 13
-    params_wave_equation: D(x,t) = 5.00 cm * sin(20.0 rad/s * t - 13.0 rad/m * x +
+    params_b: 4
+    params_c: 25
+    params_d: 12
+    params_wave_equation: D(x,t) = 4.00 cm * sin(25.0 rad/s * t - 12.0 rad/m * x +
       π rad)
     params_part1_ans1_value: '|Vᵧₘₐₓ| = 42,   |Vₓ|= 24'
     params_part1_ans1_feedback: This is a random number, you probably selected this
       choice by mistake! Try again
-    params_part1_ans2_value: '|Vᵧₘₐₓ| = 1.0,   |Vₓ| = 1.54'
+    params_part1_ans2_value: '|Vᵧₘₐₓ| = 1.0,   |Vₓ| = 2.08'
     params_part1_ans2_feedback: Correct!
-    params_part1_ans3_value: '|Vᵧₘₐₓ| = 100.0,   |Vₓ|= 1.54'
+    params_part1_ans3_value: '|Vᵧₘₐₓ| = 100.0,   |Vₓ|= 2.08'
     params_part1_ans3_feedback: Check your units!
-    params_part1_ans4_value: '|Vᵧₘₐₓ| = 0.75,   |Vₓ|= 2.4'
+    params_part1_ans4_value: '|Vᵧₘₐₓ| = 0.48,   |Vₓ|= 2.4'
     params_part1_ans4_feedback: There is mix in your chosen calculation values
-    params_part1_ans5_value: '|Vᵧₘₐₓ| = 1.0,   |Vₓ|= 0.25'
+    params_part1_ans5_value: '|Vᵧₘₐₓ| = 1.0,   |Vₓ|= 0.16'
     params_part1_ans5_feedback: Check the your Vₓ value
-    params_part1_ans6_value: '|Vᵧₘₐₓ| = 0.05,   |Vₓ|= 3.25'
+    params_part1_ans6_value: '|Vᵧₘₐₓ| = 0.04,   |Vₓ|= 2.4'
     params_part1_ans6_feedback: Try again!
 ---
 # {{ params_vars_title }}

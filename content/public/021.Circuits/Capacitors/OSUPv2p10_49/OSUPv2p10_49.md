@@ -60,7 +60,7 @@ myst:
   substitutions:
     params_vars_title: Automobile Intermittent Wiper System
     params_C: '0.700'
-    params_t1: '2.50'
+    params_t1: '1.75'
     params_t2: '14.0'
 ---
 # {{ params_vars_title }}

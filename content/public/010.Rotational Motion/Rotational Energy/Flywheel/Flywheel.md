@@ -44,10 +44,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Flywheel
-    params_Crr: 0.006
-    params_m: 186
-    params_RPM: 4710
-    params_R: 21
+    params_Crr: 0.007
+    params_m: 157
+    params_RPM: 4514
+    params_R: 31
     params_r: 5
 ---
 # {{ params_vars_title }}

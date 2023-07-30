@@ -34,15 +34,15 @@ myst:
   substitutions:
     params_vars_title: Velocity of a Falcon
     params_dir1: North
-    params_dir2: East
-    params_v_f: 78.1
-    params_v_w: 68.3
-    params_part1_ans1_value: 104.0 $km/h$ 41.2$^\circ$ East of North
-    params_part1_ans2_value: 146.0 $km/h$ 41.2$^\circ$ East of North
-    params_part1_ans3_value: 68.9 $km/h$ 46.2$^\circ$ East of North
-    params_part1_ans4_value: 68.9 $km/h$ 46.2$^\circ$ West of North
-    params_part1_ans5_value: 146.0 $km/h$ 46.2$^\circ$ West of North
-    params_part1_ans6_value: 68.9 $km/h$ 41.2$^\circ$ East of South
+    params_dir2: West
+    params_v_f: 120.0
+    params_v_w: 128.0
+    params_part1_ans1_value: 175.0 $km/h$ 46.8$^\circ$ West of North
+    params_part1_ans2_value: 248.0 $km/h$ 46.8$^\circ$ West of North
+    params_part1_ans3_value: 128.0 $km/h$ 51.8$^\circ$ West of North
+    params_part1_ans4_value: 128.0 $km/h$ 51.8$^\circ$ East of South
+    params_part1_ans5_value: 248.0 $km/h$ 51.8$^\circ$ East of South
+    params_part1_ans6_value: 128.0 $km/h$ 46.8$^\circ$ West of South
 ---
 # {{ params_vars_title }}
 A peregrine falcon flies at {{ params.v_f }} $km/h$ {{ params_dir1 }} (relative to the air) in a {{ params.v_w }} $km/h$ wind to the {{ params_dir2 }} (relative to the ground).

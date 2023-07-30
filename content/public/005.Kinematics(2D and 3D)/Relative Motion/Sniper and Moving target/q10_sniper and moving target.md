@@ -47,10 +47,10 @@ part3:
     hide-letter-keys: true
 myst:
   substitutions:
-    params_v_t: 72
-    params_b_t: 2.61
-    params_r: 3000.0
-    params_v_b: 188.0
+    params_v_t: 108
+    params_b_t: 1.9
+    params_r: 6700.0
+    params_v_b: 205.0
     params_part2_ans1_value: true
     params_part2_ans1_feedback: Great! You got it.
     params_part2_ans2_value: false

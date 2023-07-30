@@ -33,7 +33,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Correct and Incorrect Statements
-    params_vars_name: Aliyah
+    params_vars_name: Ximena
     params_choice: 'TRUE'
     params_part1_ans1_value: If a system is in electrostatic equilibrium, no charge
       is moving.

@@ -50,11 +50,11 @@ myst:
   substitutions:
     params_vars_title: Olympic Diving
     params_vars_units: m
-    params_W: 172
-    params_d: 2.5
-    params_k: 1.4
-    params_theta: 62
-    params_h: 14
+    params_W: 171
+    params_d: 1.7
+    params_k: 0.8
+    params_theta: 55
+    params_h: 6
 ---
 # {{ params_vars_title }}
 <img src="OlympianDive.png" width=400>

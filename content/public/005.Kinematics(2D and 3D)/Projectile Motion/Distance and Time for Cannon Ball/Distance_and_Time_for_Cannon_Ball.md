@@ -47,8 +47,8 @@ myst:
     params_vars_title: Distance and Time for a Cannon Ball
     params_vars_distance_units: $m$
     params_vars_time_units: $seconds$
-    params_distance_from_ground: 847
-    params_speed_of_jett: 373
+    params_distance_from_ground: 933
+    params_speed_of_jett: 619
     params_angle: 53
 ---
 # {{ params_vars_title }}

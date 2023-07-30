@@ -46,13 +46,13 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Mateo
+    params_vars_name: Ximena
     params_vars_title: Potato Volume
     params_vars_mass_units: kg
     params_vars_volume_units: m^3
-    params_vars_mass_potato: 363
-    params_vars_mass_cube: 45
-    params_vars_cube_side_length: 2.14
+    params_vars_mass_potato: 226
+    params_vars_mass_cube: 69
+    params_vars_cube_side_length: 3.89
 ---
 # {{ params_vars_title }}
 For our first lab, {{params_vars_name}} decides to measure the density of a potato.

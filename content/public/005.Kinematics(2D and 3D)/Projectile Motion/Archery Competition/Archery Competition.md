@@ -44,10 +44,10 @@ myst:
   substitutions:
     params_vars_name: Maya
     params_vars_title: Archery Competition
-    params_d: 136
-    params_v: 291
-    params_h: 181
-    params_theta: 51
+    params_d: 57
+    params_v: 108
+    params_h: 192
+    params_theta: 37
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} is reading a novel that describes an athelete participating in an archery competition.

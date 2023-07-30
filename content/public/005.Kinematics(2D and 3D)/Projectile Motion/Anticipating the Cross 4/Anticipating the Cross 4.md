@@ -43,11 +43,11 @@ part2:
 myst:
   substitutions:
     params_vars_title: Anticipating the Cross 4
-    params_v0: 12
-    params_theta0: 33
-    params_phi0: 63
-    params_x: 5
-    params_y: 12
+    params_v0: 20
+    params_theta0: 34
+    params_phi0: 54
+    params_x: 7
+    params_y: 14
 ---
 # {{ params_vars_title }}
 <img src="Anticipating the Cross 2.png" width=800>

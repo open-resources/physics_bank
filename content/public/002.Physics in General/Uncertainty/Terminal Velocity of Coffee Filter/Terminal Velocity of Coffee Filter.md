@@ -58,18 +58,18 @@ part4:
 myst:
   substitutions:
     params_vars_title: Terminal Velocity of a Coffee Filter
-    params_vars_name: Emilia
+    params_vars_name: Aliyah
     params_vars_unit1: $m/s$
     params_vars_unit2: $kg/s$
-    params_m: 1
-    params_d_m: 54
-    params_sd: 0.09
-    params_v1: 0.9
-    params_v2: 0.8
-    params_v3: 0.9
-    params_v4: 0.98
-    params_v5: 0.73
-    params_v6: 0.75
+    params_m: 5
+    params_d_m: 50
+    params_sd: 0.074
+    params_v1: 0.95
+    params_v2: 0.84
+    params_v3: 0.92
+    params_v4: 0.74
+    params_v5: 0.81
+    params_v6: 0.78
 ---
 # {{ params_vars_title }}
 In one of the PHYS 111 labs {{ params_vars_name }} measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling through the air.

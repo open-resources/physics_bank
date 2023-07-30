@@ -39,8 +39,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Conveyor Friction 1
-    params_theta: 39
-    params_v: 9
+    params_theta: 25
+    params_v: 8
     params_part2_ans1_value: Greater than before
     params_part2_ans2_value: The same
     params_part2_ans3_value: Less than before

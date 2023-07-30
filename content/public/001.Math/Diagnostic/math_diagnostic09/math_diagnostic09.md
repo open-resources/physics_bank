@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $f$ = $\dfrac{(v)}{(i + 10r)} $
-    params_part1_ans1_value: i = ${ - 10 r + \frac{v}{f}}$
-    params_part1_ans2_value: i = ${\frac{10 f r}{v}}$
-    params_part1_ans3_value: i = ${\frac{v}{10 f r}}$
-    params_part1_ans4_value: i = ${\frac{f - 10 r}{v}}$
+    params_expr: $e$ = $\dfrac{(t)}{(l + 10u)} $
+    params_part1_ans1_value: l = ${ - 10 u + \frac{t}{e}}$
+    params_part1_ans2_value: l = ${\frac{10 e u}{t}}$
+    params_part1_ans3_value: l = ${\frac{t}{10 e u}}$
+    params_part1_ans4_value: l = ${\frac{e - 10 u}{t}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

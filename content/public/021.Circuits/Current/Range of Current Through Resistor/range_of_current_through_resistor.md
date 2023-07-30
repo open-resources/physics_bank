@@ -52,10 +52,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Range of Current Through Resistor
-    params_R: 269
-    params_V: 4.1
-    params_p: 5
-    params_Vtotal: 8.2
+    params_R: 161
+    params_V: 1.2
+    params_p: 8
+    params_Vtotal: 2.4
 ---
 # {{ params_vars_title }}
 A resistor rated at {{params_R}} $\rm\ k\Omega$ is connected across two D cell batteries (each {{params_V}} $\textrm{ V}$) in series, with a total voltage of {{params_Vtotal}} $\textrm{ V}$.

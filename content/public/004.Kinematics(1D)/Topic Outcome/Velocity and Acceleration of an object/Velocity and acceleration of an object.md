@@ -31,14 +31,14 @@ part1:
 myst:
   substitutions:
     params_vars_title: Velocity and Acceleration of an Object
-    params_v: $5t^2$
-    params_time: 6.87
-    params_part1_ans1_value: $v = $ 236.0 $m/s$, $a = $ 68.7 $m/s^2$
-    params_part1_ans2_value: $v = $ 236.0 $m/s$, $a = $ 0 $m/s^2$
-    params_part1_ans3_value: $v = $ 236.0 $m/s$, $a = $ 9.81 $m/s^2$
-    params_part1_ans4_value: $v = $ 6.87 $m/s$, $a = $ 34.4 $m/s^2$
-    params_part1_ans5_value: $v = $ 236.0 $m/s$, $a = $ -68.7 $m/s^2$
-    params_part1_ans6_value: $v = $ 236.0 $m/s$, $a = $ 137.0 $m/s^2$
+    params_v: $6t^3 - t^2 + 5t$
+    params_time: 16.6
+    params_part1_ans1_value: $v = $ 27300.0 $m/s$, $a = $ 4930.0 $m/s^2$
+    params_part1_ans2_value: $v = $ 27300.0 $m/s$, $a = $ 0 $m/s^2$
+    params_part1_ans3_value: $v = $ 27300.0 $m/s$, $a = $ 9.81 $m/s^2$
+    params_part1_ans4_value: $v = $ 16.6 $m/s$, $a = $ 2470.0 $m/s^2$
+    params_part1_ans5_value: $v = $ 27300.0 $m/s$, $a = $ -4930.0 $m/s^2$
+    params_part1_ans6_value: $v = $ 27300.0 $m/s$, $a = $ 9860.0 $m/s^2$
 ---
 # {{ params_vars_title }}
 If the velocity of an object in one-dimensional motion is given by $v(t) = $ {{ params_v }}, where the units of $v$ are in $m/s$ and of $t$ are in seconds,

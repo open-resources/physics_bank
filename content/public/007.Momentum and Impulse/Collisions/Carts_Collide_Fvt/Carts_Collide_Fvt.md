@@ -80,8 +80,8 @@ part7:
 myst:
   substitutions:
     params_vars_title: Carts Collide Fvt
-    params_m1: 1.42
-    params_m2: 0.7
+    params_m1: 1.6
+    params_m2: 0.55
 ---
 # {{ params_vars_title }}
 Cart 1 of mass $m_1 = {{ params_m1 }} \rm{kg}$ collides with cart 2 of mass $m_2 = {{ params_m2 }} \rm{kg}$. The figure below shows a pictoral representation of the two carts just before the collision and a graph of the $x$-component of the force exerted by cart 1 on cart 2 during the collision as a function of time.

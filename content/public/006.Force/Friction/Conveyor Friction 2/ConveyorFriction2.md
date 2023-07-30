@@ -35,10 +35,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Conveyor Friction 2
-    params_theta: 23
-    params_W: 38
+    params_theta: 19
+    params_W: 39
     params_v: 1
-    params_C: 0.44
+    params_C: 0.79
 ---
 # {{ params_vars_title }}
 <img src="ConvFric2.png" width=90%>

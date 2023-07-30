@@ -53,9 +53,9 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Abbas
+    params_vars_name: Ximena
     params_vars_title: Water Slide
-    params_theta: 30
+    params_theta: 40
     params_l: 400
     params_l2: 200.0
 ---

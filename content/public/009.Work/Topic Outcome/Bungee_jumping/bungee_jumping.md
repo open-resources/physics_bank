@@ -30,14 +30,14 @@ part1:
 myst:
   substitutions:
     params_vars_title: Bungee Jumping
-    params_vars_name: Ahmed
-    params_part1_ans1_value: The tension points up, and Ahmed moves down, so negative
+    params_vars_name: Emilia
+    params_part1_ans1_value: The tension points down, and Emilia moves down, so negative
       work is done.
-    params_part1_ans2_value: The tension points up, and Ahmed moves down, so positive
+    params_part1_ans2_value: The tension points up, and Emilia moves down, so positive
       work is done.
-    params_part1_ans3_value: The tension points down, and Ahmed moves down, so negative
+    params_part1_ans3_value: The tension points up, and Emilia moves down, so negative
       work is done.
-    params_part1_ans4_value: The tension point up, and Ahmed moves up, so positive
+    params_part1_ans4_value: The tension point up, and Emilia moves up, so positive
       work is done.
 ---
 # {{ params_vars_title }}

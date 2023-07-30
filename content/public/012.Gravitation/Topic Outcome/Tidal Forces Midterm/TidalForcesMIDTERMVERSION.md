@@ -57,7 +57,7 @@ myst:
     params_vars_units: "$\rm{m/s^2}$"
     params_Me: 5.975999999999999e+24
     params_Dse: 150
-    params_Dme: 384430
+    params_Dme: 384440
     params_part3_ans1_value: A
     params_part3_ans2_value: B
     params_part3_ans3_value: C

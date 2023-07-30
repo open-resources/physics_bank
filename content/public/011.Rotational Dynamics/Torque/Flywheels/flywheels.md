@@ -37,8 +37,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Flywheels
-    params_Rs: 28
-    params_Rl: 50
+    params_Rs: 32
+    params_Rl: 41
     params_Fs: 55
 ---
 # {{ params_vars_title }}

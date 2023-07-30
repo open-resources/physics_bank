@@ -38,9 +38,9 @@ myst:
     params_vars_title: Attaching The Mast
     params_vars_units: m/s
     params_v: 7
-    params_theta: 139
-    params_d1: 2
-    params_d2: 4
+    params_theta: 122
+    params_d1: 1
+    params_d2: 7
 ---
 # {{ params_vars_title }}
 <img src="AttachingTheMast.png" width=400>

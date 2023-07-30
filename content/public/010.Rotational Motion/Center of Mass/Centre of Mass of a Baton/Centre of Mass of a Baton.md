@@ -36,11 +36,11 @@ myst:
   substitutions:
     params_vars_title: Centre of Mass of a Baton
     params_vars_units: $m$
-    params_m1: 0.26
-    params_m2: 0.14
-    params_m3: 0.14
-    params_l1: 0.98
-    params_l2: 1.3
+    params_m1: 0.21
+    params_m2: 0.12
+    params_m3: 0.13
+    params_l1: 1.9
+    params_l2: 0.87
 ---
 # {{ params_vars_title }}
 

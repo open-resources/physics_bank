@@ -36,12 +36,12 @@ part1:
 myst:
   substitutions:
     params_vars_title: Colliding Balls
-    params_m1: 111
-    params_m2: 175
-    params_v1_i: 2.2
-    params_v2_i: -6.0
-    params_v1_f: -1.03
-    params_v2_f: 7.35
+    params_m1: 211
+    params_m2: 205
+    params_v1_i: 6.26
+    params_v2_i: -4.11
+    params_v1_f: -5.41
+    params_v2_f: 4.82
     params_part1_ans1_value: This is not possible as momentum is not conserved.
     params_part1_ans2_value: This is an inelastic collision because only momentum
       is conserved.

@@ -36,10 +36,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Projectile Motion of a Dart
-    params_l: 1.77
-    params_theta: 49
+    params_l: 1.86
+    params_theta: 41
     params_d: 2
-    params_h: 1.04
+    params_h: 1.12
 ---
 # {{ params_vars_title }}
 <img src="ProjDart.png" width=90%>

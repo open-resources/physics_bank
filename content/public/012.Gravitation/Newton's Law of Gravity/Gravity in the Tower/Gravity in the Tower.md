@@ -37,9 +37,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Gravity in the Tower
-    params_city: San Jose
-    params_h: 490.0
-    params_g0: 9.7829
+    params_city: Anchorage
+    params_h: 450.0
+    params_g0: 9.8189
 ---
 # {{ params_vars_title }}
 In {{params_city}}, Earth's local gravity is calculated to be $g_0 = {{params_g0}} \ \rm{m/s^2}$.

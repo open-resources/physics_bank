@@ -43,10 +43,10 @@ part2:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params_L: 4.0
-    params_theta: 160
-    params_omega: 211
-    params_t: 0.76
+    params_L: 1.2
+    params_theta: 284
+    params_omega: 289
+    params_t: 0.4
 ---
 # Projectile Motion on an Incline
 A robot holds a bowling ball that is spun at a rate of ${{ params_omega }} \ \rm{rpm}$ CCW in a plane perpendicular to the ground. The robot arm is ${{params_L}} \ \rm{m}$ long.

@@ -35,17 +35,17 @@ myst:
     params_vars_title: Ball Over Obstacle
     params_phrases_ball: football
     params_phrases_action: throws
-    params_phrases_obstacle: wall
-    params_d: 87
-    params_h: 2
-    params_v: 15
-    params_theta: 44
-    params_part1_ans1_value: It clears the wall
-    params_part1_ans1_feedback: Try again...
-    params_part1_ans2_value: It hits the wall
+    params_phrases_obstacle: fence
+    params_d: 64
+    params_h: 3
+    params_v: 29
+    params_theta: 31
+    params_part1_ans1_value: It clears the fence
+    params_part1_ans1_feedback: Correct!
+    params_part1_ans2_value: It hits the fence
     params_part1_ans2_feedback: Try again...
-    params_part1_ans3_value: It doesn't even reach the wall
-    params_part1_ans3_feedback: Correct!
+    params_part1_ans3_value: It doesn't even reach the fence
+    params_part1_ans3_feedback: Try again...
 ---
 # {{ params_vars_title }}
 A person {{params_phrases_action}} a {{params_phrases_ball}} towards their friend who is behind a ${{params_h}} \ \rm{m}$ {{params_phrases_obstacle}}. The {{params_phrases_ball}} has an initial velocity of ${{params_v}} \ \rm{m/s}$ at an angle ${{params_theta}}^\circ$ relative to ground.

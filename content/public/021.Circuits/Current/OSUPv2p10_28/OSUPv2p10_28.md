@@ -72,11 +72,11 @@ part4:
 myst:
   substitutions:
     params_vars_title: Electrical Appliances Plugged into an Outlet
-    params_P_T: '1710'
-    params_P_S: '1420'
-    params_P_L: '70.0'
-    params_I_F: '24.0'
-    params_V: '140.0'
+    params_P_T: '1810'
+    params_P_S: '1340'
+    params_P_L: '75.0'
+    params_I_F: '25.0'
+    params_V: '120.0'
     params_prep: a
     params_part4_ans1_value: 'Yes'
     params_part4_ans2_value: 'No'

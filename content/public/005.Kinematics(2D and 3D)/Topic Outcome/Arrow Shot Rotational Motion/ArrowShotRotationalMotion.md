@@ -45,9 +45,9 @@ myst:
   substitutions:
     params_vars_title: Arrow Shot Rotational Motion
     params_vars_units: ft/s
-    params_v: 179
-    params_t: 9.16
-    params_d: 31
+    params_v: 171
+    params_t: 8.44
+    params_d: 81
 ---
 # {{ params_vars_title }}
 <img src="Arrow Shot Rotational Motion.png" width=400>
