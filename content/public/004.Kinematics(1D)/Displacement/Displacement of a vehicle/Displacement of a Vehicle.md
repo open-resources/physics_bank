@@ -33,15 +33,15 @@ part1:
     suffix: blocks
 myst:
   substitutions:
-    params_vars_vehicle: bus
+    params_vars_vehicle: car
     params_vars_title: Displacement of a Vehicle
     params_vars_units: blocks
-    params_c1: 82
-    params_c2: 75
-    params_c3: 3
-    params_dir1: west
-    params_dir2: east
-    params_dir3: south
+    params_c1: 30
+    params_c2: 70
+    params_c3: 24
+    params_dir1: east
+    params_dir2: west
+    params_dir3: north
 ---
 # {{ params_vars_title }}
 A {{ params_vars_vehicle }} moves {{ params_c1}} blocks due {{ params_dir1}}, {{ params_c2 }} blocks due {{ params_dir2}}, and another {{ params_c3 }} blocks due {{ params_dir3}}.

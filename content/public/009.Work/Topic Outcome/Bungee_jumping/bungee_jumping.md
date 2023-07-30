@@ -30,14 +30,14 @@ part1:
 myst:
   substitutions:
     params_vars_title: Bungee Jumping
-    params_vars_name: Savannah
-    params_part1_ans1_value: The tension point up, and Savannah moves up, so positive
+    params_vars_name: Lorenzo
+    params_part1_ans1_value: The tension point up, and Lorenzo moves up, so positive
       work is done.
-    params_part1_ans2_value: The tension points down, and Savannah moves down, so
-      negative work is done.
-    params_part1_ans3_value: The tension points up, and Savannah moves down, so positive
+    params_part1_ans2_value: The tension points down, and Lorenzo moves down, so negative
       work is done.
-    params_part1_ans4_value: The tension points up, and Savannah moves down, so negative
+    params_part1_ans3_value: The tension points up, and Lorenzo moves down, so positive
+      work is done.
+    params_part1_ans4_value: The tension points up, and Lorenzo moves down, so negative
       work is done.
 ---
 # {{ params_vars_title }}

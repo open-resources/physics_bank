@@ -46,8 +46,8 @@ myst:
     params_vars_title: Tetherball serve
     params_vars_units_part1: "$\theta$"
     params_vars_units_part2: "$\rm{/s}$"
-    params_v: 8
-    params_L: 7
+    params_v: 18
+    params_L: 8
 ---
 # {{ params_vars_title }}
 Two friends are playing tetherball. The ball is tethered to a pole by a rope of length $L = {{params_L}} \ \rm{ft}$. The first player serves with a velocity $v = {{params_v}} \ \rm{m/s}$.

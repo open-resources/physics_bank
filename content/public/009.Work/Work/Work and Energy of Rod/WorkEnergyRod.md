@@ -40,9 +40,9 @@ myst:
   substitutions:
     params_vars_title: Work and Energy of a Rod
     params_vars_units: rad/s
-    params_m: 10
-    params_L: 5
-    params_F: 241
+    params_m: 5
+    params_L: 6
+    params_F: 135
 ---
 # {{ params_vars_title }}
 <img src="WorkEnergyRod.png" width=400>

@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $n$ = $\dfrac{(m)}{(l + 5h)} $
-    params_part1_ans1_value: l = ${ - 5 h + \frac{m}{n}}$
-    params_part1_ans2_value: l = ${\frac{5 h n}{m}}$
-    params_part1_ans3_value: l = ${\frac{m}{5 h n}}$
-    params_part1_ans4_value: l = ${\frac{- 5 h + n}{m}}$
+    params_expr: $e$ = $\dfrac{(g)}{(x - 6j)} $
+    params_part1_ans1_value: x = ${ 6 j + \frac{g}{e}}$
+    params_part1_ans2_value: x = ${- \frac{6 e j}{g}}$
+    params_part1_ans3_value: x = ${- \frac{g}{6 e j}}$
+    params_part1_ans4_value: x = ${\frac{e + 6 j}{g}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

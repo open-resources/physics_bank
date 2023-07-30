@@ -40,8 +40,8 @@ myst:
   substitutions:
     params_vars_title: Hot Wheels Loop
     params_vars_units: m
-    params_m: 0.07
-    params_r: 0.3
+    params_m: 0.02
+    params_r: 0.21
 ---
 # {{ params_vars_title }}
 <img src="HotWheelsLoop.png" width=400>

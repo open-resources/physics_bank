@@ -44,10 +44,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Curvilinear Motion of Jet
-    params_r: 120
-    params_va: 27
-    params_vad: 5
-    params_s: 17
+    params_r: 368
+    params_va: 18
+    params_vad: 1
+    params_s: 10
 ---
 # {{ params_vars_title }}
 <img src="CurvRaceCar.png" width=90%>

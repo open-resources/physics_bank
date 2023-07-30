@@ -38,8 +38,8 @@ myst:
     params_vars_title: Power of a Horse
     params_vars_units: $W$
     params_v_kph: 11
-    params_mass_kg: 156
-    params_grade: 10
+    params_mass_kg: 153
+    params_grade: 7
 ---
 # {{ params_vars_title }}
 <img src="Power of a Biker.png" width=400>

@@ -53,12 +53,12 @@ part3:
 myst:
   substitutions:
     params_vars_title: Clutch Plate Dampening System
-    params_w: 172
-    params_d: 96
-    params_k: 338
+    params_w: 176
+    params_d: 55
+    params_k: 208
     params_m: 0.3
-    params_x: 23
-    params_d2: 1.8
+    params_x: 12
+    params_d2: 1.14
 ---
 # {{ params_vars_title }}
 <img src="Springs On a Disk.gif" width=800>

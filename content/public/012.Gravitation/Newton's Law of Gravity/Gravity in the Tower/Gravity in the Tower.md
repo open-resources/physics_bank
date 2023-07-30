@@ -38,7 +38,7 @@ myst:
   substitutions:
     params_vars_title: Gravity in the Tower
     params_city: Lisbon
-    params_h: 890.0
+    params_h: 770.0
     params_g0: 9.8009
 ---
 # {{ params_vars_title }}

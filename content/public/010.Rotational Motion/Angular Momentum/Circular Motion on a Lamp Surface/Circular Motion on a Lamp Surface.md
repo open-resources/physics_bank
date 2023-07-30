@@ -87,12 +87,12 @@ part6:
     weight: 1
 myst:
   substitutions:
-    params_m_2: 9.23
-    params_m_1: 6.13
-    params_theta: 34
-    params_l: 4.4
-    params_s: 1.1
-    params_u: 1.14
+    params_m_2: 8.35
+    params_m_1: 14.3
+    params_theta: 32
+    params_l: 6.3
+    params_s: 1.6
+    params_u: 2.34
     params_part6_ans1_value: True because work is done by the rope attached to mass
       $m_2$ which changes the total energy of the system.
     params_part6_ans2_value: False, because the change in kinetic energy and gravitational

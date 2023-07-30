@@ -32,11 +32,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic08
-    params_expr: $\dfrac{20x - 12y }{ -4 }$
-    params_part1_ans1_value: $- 5 x + 3 y$
-    params_part1_ans2_value: $\dfrac{-5x + 3y}{-4}$
-    params_part1_ans3_value: $3x - 5y$
-    params_part1_ans4_value: $20x + 12y$
+    params_expr: $\dfrac{12x + 16y }{ 2 }$
+    params_part1_ans1_value: $6 x + 8 y$
+    params_part1_ans2_value: $\dfrac{6x + 8y}{2}$
+    params_part1_ans3_value: $8x + 6y$
+    params_part1_ans4_value: $12x + 16y$
     params_part1_ans5_value: Don't know.
 ---
 # {{ params_vars_title }}

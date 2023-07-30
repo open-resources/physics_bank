@@ -35,7 +35,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Perfect Pendulum Clock
-    params_gain: 13.5
+    params_gain: 29.5
 ---
 # {{ params_vars_title }}
 

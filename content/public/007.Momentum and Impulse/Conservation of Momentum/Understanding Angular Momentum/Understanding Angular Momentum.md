@@ -36,16 +36,16 @@ myst:
   substitutions:
     params_vars_title: Understanding Angular Momentum
     params_vars_units: kg.m^2/s
-    params_m: 1.72
-    params_x: 2.81
-    params_theta: 31
-    params_v: 4.87
-    params_t: 5.0
-    params_H0: 12.12
-    params_H1: 102.16
-    params_H2: 90.04
-    params_x2: 23.68
-    params_y2: 12.54
+    params_m: 0.56
+    params_x: 1.25
+    params_theta: 49
+    params_v: 6.67
+    params_t: 3.4
+    params_H0: 3.52
+    params_H1: 45.47
+    params_H2: 41.95
+    params_x2: 16.13
+    params_y2: 17.12
 ---
 # {{ params_vars_title }}
 There is a particle with mass ${{params_m}} \rm{kg}$ hat is travelling with a speed of ${{params_v}} \rm{m/s}$ in the direction $\theta = {{params_theta}}^\circ$ with the x-axis. It starts out at $({{params_x}},0)$.

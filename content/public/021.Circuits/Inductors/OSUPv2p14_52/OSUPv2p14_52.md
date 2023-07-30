@@ -115,9 +115,9 @@ part6:
 myst:
   substitutions:
     params_vars_title: Switched RL Series Circuit
-    params_num: ''
-    params_emf: '15.0'
-    params_L: '19.0'
+    params_num: '3'
+    params_emf: '11.0'
+    params_L: '22.0'
     params_R: '8.00'
 ---
 # {{ params_vars_title }}

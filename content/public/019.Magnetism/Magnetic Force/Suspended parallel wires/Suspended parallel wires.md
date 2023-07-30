@@ -43,8 +43,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Suspended parallel wires
-    params_s: '4.2'
-    params_mu: '31.2'
+    params_s: '7.0'
+    params_mu: '34.8'
     params_theta: '8.0'
 ---
 # {{ params_vars_title }}

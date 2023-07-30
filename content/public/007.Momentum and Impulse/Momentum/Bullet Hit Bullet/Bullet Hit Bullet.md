@@ -52,15 +52,15 @@ myst:
   substitutions:
     params_vars_title: Bullet Hit Bullet
     params_vars_units: m/s
-    params_v: 652
-    params_theta: 74
-    params_phi: 61
-    params_vx: 31.71
-    params_vy: 118.33
-    params_vz: 630.2
-    params_t1: 0.09
-    params_t2: 0.1
-    params_mass: 8.0
+    params_v: 595
+    params_theta: 83
+    params_phi: 53
+    params_vx: 258.96
+    params_vy: 79.17
+    params_vz: 433.35
+    params_t1: 0.06
+    params_t2: 0.09
+    params_mass: 9.0
 ---
 # {{ params_vars_title }}
 We are conducting an experiment with bullets where we shoot two bullets and they collide in midair. We shoot the first bullet such that it has a velocity of $v = {{params_v}}$ m/s at an angle $\phi = {{params_phi}}^\circ$ and angle of $\theta = {{ params_theta}}^\circ$. It travels for ${{params_t1}}$ seconds and then collides with the second bullet that is travelling with the following velocity, $\vec{v} ={{params_vx}}.\widehat{\mathbf{i}}+{{params_vy}}.\widehat{\mathbf{j}}+{{params_vz}}.\widehat{\mathbf{k}}$. They are embedded together and travel a further ${{params_t2}}$ seconds. The mass of each bullet is ${{params_mass}}$ g.

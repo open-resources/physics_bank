@@ -32,18 +32,18 @@ myst:
   substitutions:
     params_vars_title: Hit Baseball
     params_vars_units: $m/s$
-    params_v: 24.5
-    params_d: 15.3
-    params_part1_ans1_value: $23.6 \, \rm{m/s} \; \hat{x}$
-    params_part1_ans2_value: $6.46 \, \rm{m/s} \; \hat{y}$
-    params_part1_ans3_value: $-6.46 \, \rm{m/s} \; \hat{y}$
-    params_part1_ans4_value: $23.6 \, \rm{m/s} \; \hat{x} \; - \; 6.46 \, \rm{m/s}
+    params_v: 23.1
+    params_d: 17.6
+    params_part1_ans1_value: $22.0 \, \rm{m/s} \; \hat{x}$
+    params_part1_ans2_value: $6.98 \, \rm{m/s} \; \hat{y}$
+    params_part1_ans3_value: $-6.98 \, \rm{m/s} \; \hat{y}$
+    params_part1_ans4_value: $22.0 \, \rm{m/s} \; \hat{x} \; - \; 6.98 \, \rm{m/s}
       \; \hat{y}$
-    params_part1_ans5_value: $23.6 \, \rm{m/s} \; \hat{x} \; + \; 6.46 \, \rm{m/s}
+    params_part1_ans5_value: $22.0 \, \rm{m/s} \; \hat{x} \; + \; 6.98 \, \rm{m/s}
       \; \hat{y}$
-    params_part1_ans6_value: $6.46 \, \rm{m/s} \; \hat{x} \; + \; 23.6 \, \rm{m/s}
+    params_part1_ans6_value: $6.98 \, \rm{m/s} \; \hat{x} \; + \; 22.0 \, \rm{m/s}
       \; \hat{y}$
-    params_part1_ans7_value: $6.46 \, \rm{m/s} \; \hat{x} \; - \; 23.6 \, \rm{m/s}
+    params_part1_ans7_value: $6.98 \, \rm{m/s} \; \hat{x} \; - \; 22.0 \, \rm{m/s}
       \; \hat{y}$
     params_part1_ans8_value: $0 \rm{m/s}$
 ---

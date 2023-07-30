@@ -44,10 +44,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Slingshot
-    params_K: 185
-    params_d: 0.53
-    params_x0: 0.18
-    params_m: 7
+    params_K: 132
+    params_d: 0.55
+    params_x0: 0.2
+    params_m: 12
 ---
 # {{ params_vars_title }}
 A slingshot made of two springs with spring constant ${{params_K}} \ \rm{N/m}$ is loaded with a mass $m={{params_m}} \ \rm{kg}$.

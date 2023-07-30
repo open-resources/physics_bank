@@ -43,9 +43,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Supply Crate Drop
-    params_mu: 0.48
-    params_mb: 27
-    params_Ma: 20
+    params_mu: 0.32
+    params_mb: 19
+    params_Ma: 29
     params_x: 4
     params_y: 3
 ---

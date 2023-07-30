@@ -37,8 +37,8 @@ myst:
   substitutions:
     params_vars_title: 'Electron Beam '
     params_vars_units: ' $ A / m^2 $ '
-    params_I: 128
-    params_r: 0.81
+    params_I: 119
+    params_r: 0.83
 ---
 # {{ params_vars_title }}
 

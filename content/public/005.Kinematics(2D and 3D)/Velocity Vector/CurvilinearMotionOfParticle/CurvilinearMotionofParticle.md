@@ -45,11 +45,11 @@ myst:
   substitutions:
     params_vars_title: Particle Curvilinear Motion
     params_vars_units: m/s
-    params_m: 7
+    params_m: 2
     params_n: 4
-    params_r: 6
-    params_p: 4
-    params_t: 1
+    params_r: 2
+    params_p: 5
+    params_t: 3
 ---
 # {{ params_vars_title }}
 A particle moves in a curvilinear motion according to the following equations:

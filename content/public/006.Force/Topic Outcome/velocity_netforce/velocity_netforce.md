@@ -32,7 +32,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Velocity and Net Force
-    params_t: 3
+    params_t: 2
     params_part1_ans1_value: Velocity is negative, net force is to the left
     params_part1_ans2_value: Velocity is negative, net force is to the right
     params_part1_ans3_value: Velocity is negative, net force is zero
