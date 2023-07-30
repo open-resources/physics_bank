@@ -34,7 +34,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Stable Orbit
-    params_h: 390
+    params_h: 295
 ---
 # {{ params_vars_title }}
 What magnitude of velocity must a spacecraft travel at to maintain a stable orbit at $h = {{ params_h }} \ \rm{km}$ above the earth's surface?

@@ -73,11 +73,11 @@ part3:
 myst:
   substitutions:
     params_vars_title: Circuit Loop within a Loop
-    params_R1: '8.0'
+    params_R1: '5.0'
     params_R2: '5.0'
-    params_R3: '9.0'
+    params_R3: '5.0'
     params_V1: '21.0'
-    params_V2: '10.0'
+    params_V2: '9.0'
 ---
 # {{ params_vars_title }}
 Consider the circuit shown below.

@@ -34,16 +34,16 @@ part1:
 myst:
   substitutions:
     params_vars_title: Lifting Machine Conceptual
-    params_choice: decreases
-    params_part1_ans1_value: Decrease $r4$
+    params_choice: increases
+    params_part1_ans1_value: Decrease $r1$
     params_part1_ans1_feedback: Correct!
-    params_part1_ans2_value: Decrease $r2$
+    params_part1_ans2_value: Increase $r4$
     params_part1_ans2_feedback: Correct!
-    params_part1_ans3_value: Decrease $r1$
+    params_part1_ans3_value: Decrease $r2$
     params_part1_ans3_feedback: Nope.
-    params_part1_ans4_value: Decrease $r3$
+    params_part1_ans4_value: Increase $r3$
     params_part1_ans4_feedback: Nope.
-    params_part1_ans5_value: Increase $r2$
+    params_part1_ans5_value: Decrease $r4$
     params_part1_ans5_feedback: Nope.
 ---
 # {{ params_vars_title }}

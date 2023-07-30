@@ -63,11 +63,11 @@ part5:
 myst:
   substitutions:
     params_vars_title: Resistor Circuit Reduction
-    params_r1: 1
-    params_r2: 4
-    params_r3: 15
-    params_r4: 20
-    params_r5: 6
+    params_r1: 11
+    params_r2: 18
+    params_r3: 5
+    params_r4: 10
+    params_r5: 4
     params_part1_ans1_value: $(a)$ to $(b)$
     params_part1_ans1_feedback: ''
     params_part1_ans2_value: $(b)$ to $(c)$

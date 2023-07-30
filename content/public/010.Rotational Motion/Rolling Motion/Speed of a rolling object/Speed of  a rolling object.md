@@ -57,7 +57,7 @@ myst:
   substitutions:
     params_vars_title: Speed of a Rolling Object
     params_vars_units: "$\rm{m/s}$"
-    params_h: 21.6
+    params_h: 5.56
 ---
 # {{ params_vars_title }}
 Consider the setup shown in the figure below.

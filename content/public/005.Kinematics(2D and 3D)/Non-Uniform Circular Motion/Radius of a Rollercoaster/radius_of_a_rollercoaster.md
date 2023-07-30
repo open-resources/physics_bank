@@ -37,8 +37,8 @@ myst:
   substitutions:
     params_vars_title: Radius of a Rollercoaster
     params_vars_units: $m$
-    params_speed_of_car: 205
-    params_rate_of_decrease: 10
+    params_speed_of_car: 150
+    params_rate_of_decrease: 5
     params_a: 4
 ---
 # {{ params_vars_title }}

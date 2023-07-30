@@ -38,8 +38,8 @@ myst:
   substitutions:
     params_vars_title: Dice on the Mirror
     params_vars_units: ^{\circ}
-    params_a: 7
-    params_theta: 16
+    params_a: 5
+    params_theta: 18
 ---
 # {{ params_vars_title }}
 

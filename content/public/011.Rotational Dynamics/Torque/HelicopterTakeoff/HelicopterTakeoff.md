@@ -38,9 +38,9 @@ myst:
     params_vars_units_part1: s
     params_L: 11
     params_n: 4
-    params_m: 88
-    params_M: 2890
-    params_RPM: 439
+    params_m: 55
+    params_M: 4630
+    params_RPM: 421
 ---
 # {{ params_vars_title }}
 A helicopter with ${{params_n}}$ blades needs to spin its rotor at ${{params_RPM}} \ \rm{RPM}$ to take off.

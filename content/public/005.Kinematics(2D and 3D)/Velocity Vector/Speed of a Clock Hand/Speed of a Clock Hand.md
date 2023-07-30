@@ -60,9 +60,9 @@ myst:
   substitutions:
     params_vars_title: Speed of a Clock Hand
     params_vars_units: m/s
-    params_R: 0.38
-    params_theta: 101
-    params_alpha: 17
+    params_R: 0.48
+    params_theta: 308
+    params_alpha: 33
 ---
 # {{ params_vars_title }}
 <img src="Clock.png" width=400>

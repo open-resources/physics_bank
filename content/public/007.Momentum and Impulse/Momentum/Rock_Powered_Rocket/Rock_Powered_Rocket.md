@@ -54,11 +54,11 @@ myst:
     params_vars_title: Rock Powered Rocket
     params_vars_units1: m/s
     params_vars_units2: kg
-    params_vars_name: Lorenzo
-    params_i: 368
-    params_m: 31
-    params_v_1: 30
-    params_v_2: 54
+    params_vars_name: Aliyah
+    params_i: 361
+    params_m: 23
+    params_v_1: 17
+    params_v_2: 20
 ---
 # {{ params_vars_title }}
 {{params_vars_name}} is an astronaut, floating in space.

@@ -36,8 +36,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Impulse of a Bat
-    params_F: 20842
-    params_t1: 0.002
+    params_F: 29185
+    params_t1: 0.003
     params_t2: 0.01
     params_t3: 0.013
 ---

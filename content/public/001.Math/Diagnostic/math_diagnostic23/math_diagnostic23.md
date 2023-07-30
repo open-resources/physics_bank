@@ -27,14 +27,14 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic23
-    params_a: 8
-    params_b: 5
-    params_formula: $x^{8} \cos{\left(5 x \right)}$
-    params_part1_ans1_value: $- 5 x^{8} \sin{\left(5 x \right)} + 8 x^{7} \cos{\left(5
+    params_a: 6
+    params_b: 9
+    params_formula: $x^{6} \cos{\left(9 x \right)}$
+    params_part1_ans1_value: $- 9 x^{6} \sin{\left(9 x \right)} + 6 x^{5} \cos{\left(9
       x \right)}$
-    params_part1_ans2_value: $- 5 x^{8} \sin{\left(5 x \right)} $
-    params_part1_ans3_value: $ 8 x^{7} \sin{\left(5 x \right)}$
-    params_part1_ans4_value: $5 x^{8} \cos{\left(5 x \right)} + 8 x^{7} \sin{\left(5
+    params_part1_ans2_value: $- 9 x^{6} \sin{\left(9 x \right)} $
+    params_part1_ans3_value: $ 6 x^{5} \sin{\left(9 x \right)}$
+    params_part1_ans4_value: $9 x^{6} \cos{\left(9 x \right)} + 6 x^{5} \sin{\left(9
       x \right)}$
     params_part1_ans5_value: Don't Know
 ---

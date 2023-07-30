@@ -49,9 +49,9 @@ myst:
   substitutions:
     params_vars_title: Cars on Hills
     params_vars_units: "$\rm{\frac{m}{s^2}}$"
-    params_v: 20
-    params_r: 191
-    params_mu: 6.35
+    params_v: 11
+    params_r: 221
+    params_mu: 5.74
 ---
 # {{ params_vars_title }}
 Two cars are driving at {{params_v}} $\rm{m/s}$ along the road shown in the figure.

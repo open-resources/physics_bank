@@ -43,8 +43,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Atwood Machine Difference
-    params_Wa: 16
-    params_Wb: 40
+    params_Wa: 47
+    params_Wb: 57
 ---
 # {{ params_vars_title }}
 <img src="AtwoodDifference.png" width=90%>

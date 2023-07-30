@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic19
-    params_a: $ \sin236$
-    params_part1_ans1_value: $\sin{-124}$
-    params_part1_ans2_value: $\sin{124}$
-    params_part1_ans3_value: $\sin{57}$
-    params_part1_ans4_value: $\sin{-57}$
+    params_a: $ \sin222$
+    params_part1_ans1_value: $\sin{-138}$
+    params_part1_ans2_value: $\sin{138}$
+    params_part1_ans3_value: $\sin{43}$
+    params_part1_ans4_value: $\sin{-43}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

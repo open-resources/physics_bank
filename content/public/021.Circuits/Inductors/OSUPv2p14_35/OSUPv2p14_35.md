@@ -43,8 +43,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Inductance of a Coil
-    params_V: '0.85'
-    params_I_i: '0.30'
+    params_V: '0.60'
+    params_I_i: '0.25'
     params_I_f: '0.90'
     params_t: '0.90'
 ---

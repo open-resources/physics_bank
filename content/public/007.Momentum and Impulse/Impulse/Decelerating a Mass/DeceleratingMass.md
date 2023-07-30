@@ -37,8 +37,8 @@ myst:
   substitutions:
     params_vars_title: Decelerating Mass
     params_k: 7
-    params_t: 5
-    params_v: 20
+    params_t: 2
+    params_v: 15
 ---
 # {{ params_vars_title }}
 An object is traveling with a speed of ${{params_v}}\ \rm{m/s}$.

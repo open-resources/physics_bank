@@ -35,9 +35,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Person Standing On Earth
-    params_mu: 0.69
-    params_m: 59
-    params_alpha: 34
+    params_mu: 0.54
+    params_m: 94
+    params_alpha: 73
     params_part4_ans2_value: 'False'
 ---
 # {{ params_vars_title }}

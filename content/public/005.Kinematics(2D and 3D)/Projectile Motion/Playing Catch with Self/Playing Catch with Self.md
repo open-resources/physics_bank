@@ -37,9 +37,9 @@ myst:
   substitutions:
     params_vars_title: Playing Catch with Self
     params_vars_units: ^{$\circ$}
-    params_v: 19.79
-    params_theta: 139.24
-    params_a: 7.7
+    params_v: 31.74
+    params_theta: 158.15
+    params_a: 7.57
 ---
 # {{ params_vars_title }}
 <img src = "Playing_Catch_With_Self.jpg" width=600>

@@ -32,19 +32,19 @@ myst:
   substitutions:
     params_vars_title: Explosions and Velocity
     params_vars_name: Ximena
-    params_part1_m_A: 3
+    params_part1_m_A: 7
     params_part1_m_B: 8
-    params_part1_v_A: 15
-    params_part1_v_B: 36
-    params_part1_v: 30.0
-    params_part1_m_pumpkin: 11
+    params_part1_v_A: 10
+    params_part1_v_B: 32
+    params_part1_v: 22.0
+    params_part1_m_pumpkin: 15
     params_part1_ans1_value: Yes, because of conservation of momentum
     params_part1_ans1_feedback: Great! You got it.
     params_part1_ans2_value: No, because we have not accounted for how the explosion
       might have changed the momentum of the pumpkin.
     params_part1_ans2_feedback: Hmm, does the unit make sense?
-    params_part1_ans3_value: No, because the velocity should be $v$ = 51 $\rm{m/s}$
-    params_part1_ans4_value: No, because the velocity should be $v$ = 4.6 $\rm{m/s/kg}$
+    params_part1_ans3_value: No, because the velocity should be $v$ = 42 $\rm{m/s}$
+    params_part1_ans4_value: No, because the velocity should be $v$ = 2.8 $\rm{m/s/kg}$
 ---
 # {{ params_vars_title }}
 {{params_vars_name}} put a bunch of explosives inside of a {{ params.part1.m_pumpkin }} $\rm{kg}$ pumpkin, which explodes in two pieces, traveling in the same direction.

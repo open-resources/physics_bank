@@ -64,9 +64,9 @@ myst:
     params_vars_title: Carbon Dioxide Diffusion
     params_vars_unit1: $m^2/s$
     params_vars_unit2: $s$
-    params_water: 1.9
-    params_air: 2.1
-    params_time: 5
+    params_water: 1.8
+    params_air: 1.9
+    params_time: 4
     params_const: 5
     params_part3_ans1_value: directly
     params_part3_ans2_value: inversely

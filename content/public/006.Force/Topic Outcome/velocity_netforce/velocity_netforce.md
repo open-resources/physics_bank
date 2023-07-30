@@ -22,6 +22,7 @@ span:
 length:
 - short
 tags:
+- AC
 - MP
 assets:
 - q1image.png
@@ -32,7 +33,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Velocity and Net Force
-    params_t: 2
+    params_t: 3
     params_part1_ans1_value: Velocity is negative, net force is to the left
     params_part1_ans2_value: Velocity is negative, net force is to the right
     params_part1_ans3_value: Velocity is negative, net force is zero
@@ -46,11 +47,12 @@ myst:
 # {{ params_vars_title }}
 The position versus time graph of a mass on a spring is shown in the image.
 
-<img src="q1image.png" alt="Position vs. Time of Mass on Spring" width=500>
+<pl-figure file-name= "figure0.png" type="dynamic" width="800px" ></pl-figure>
 
 ## Part 1
 
-What can you say about the velocity of the mass and the net force of the mass at $t= {{ params_t }} s$?
+What can you say about the velocity of the mass and the net force of the mass at $t= {{ params_t }} \rm{s}$?
+
 (For a right-handed coordinate system, positive $x$ is to the right)
 
 ### Answer Section

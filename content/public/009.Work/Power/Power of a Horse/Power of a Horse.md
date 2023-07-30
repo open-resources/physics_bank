@@ -39,7 +39,7 @@ myst:
     params_vars_units: $W$
     params_v_kph: 11
     params_mass_kg: 153
-    params_grade: 7
+    params_grade: 9
 ---
 # {{ params_vars_title }}
 <img src="Power of a Biker.png" width=400>

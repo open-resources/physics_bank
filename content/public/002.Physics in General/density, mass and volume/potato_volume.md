@@ -50,9 +50,9 @@ myst:
     params_vars_title: Potato Volume
     params_vars_mass_units: kg
     params_vars_volume_units: m^3
-    params_vars_mass_potato: 317
-    params_vars_mass_cube: 75
-    params_vars_cube_side_length: 2.4
+    params_vars_mass_potato: 341
+    params_vars_mass_cube: 84
+    params_vars_cube_side_length: 4.36
 ---
 # {{ params_vars_title }}
 For our first lab, {{params_vars_name}} decides to measure the density of a potato.

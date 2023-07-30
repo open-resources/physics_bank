@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $e$ = $\dfrac{(g)}{(x - 6j)} $
-    params_part1_ans1_value: x = ${ 6 j + \frac{g}{e}}$
-    params_part1_ans2_value: x = ${- \frac{6 e j}{g}}$
-    params_part1_ans3_value: x = ${- \frac{g}{6 e j}}$
-    params_part1_ans4_value: x = ${\frac{e + 6 j}{g}}$
+    params_expr: $c$ = $\dfrac{(r)}{(t - 2f)} $
+    params_part1_ans1_value: t = ${ 2 f + \frac{r}{c}}$
+    params_part1_ans2_value: t = ${- \frac{2 c f}{r}}$
+    params_part1_ans3_value: t = ${- \frac{r}{2 c f}}$
+    params_part1_ans4_value: t = ${\frac{c + 2 f}{r}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

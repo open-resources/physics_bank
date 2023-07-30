@@ -52,11 +52,11 @@ part3:
 myst:
   substitutions:
     params_vars_title: Force on a Waterslide
-    params_va: 11
+    params_va: 13
     params_vc: 6
-    params_M: 67
-    params_d: 14
-    params_r: 5
+    params_M: 80
+    params_d: 10
+    params_r: 4
 ---
 # {{ params_vars_title }}
 <img src="Force on a Waterslide.png" width=400>

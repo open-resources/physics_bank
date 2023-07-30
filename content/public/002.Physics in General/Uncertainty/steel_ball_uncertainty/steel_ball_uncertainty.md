@@ -47,16 +47,16 @@ myst:
   substitutions:
     params_vars_title: Uncertainty
     params_vars_units: s
-    params_m: 31.24
-    params_m_u: 0.01
-    params_d: 0.2
-    params_d_u: 0.003
-    params_t1: 0.0506
-    params_t2: 0.0506
-    params_t3: 0.0503
-    params_t4: 0.0503
-    params_t5: 0.0502
-    params_t6: 0.0504
+    params_m: 31.12
+    params_m_u: 0.04
+    params_d: 0.30000000000000004
+    params_d_u: 0.001
+    params_t1: 0.0502
+    params_t2: 0.0504
+    params_t3: 0.0504
+    params_t4: 0.0508
+    params_t5: 0.0508
+    params_t6: 0.0503
     params_t7: 0.0506
 ---
 # {{ params_vars_title }}

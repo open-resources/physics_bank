@@ -54,10 +54,10 @@ myst:
   substitutions:
     params_vars_title: Bottle From Car
     params_vars_units: ft
-    params_z0: 1336
-    params_y0: 1457
-    params_vx0: 88
-    params_vy0: 36
+    params_z0: 1774
+    params_y0: 974
+    params_vx0: 78
+    params_vy0: 58
 ---
 # {{ params_vars_title }}
 A reckless driver speeds around a highway corner on the edge of a cliff, ${{params_z0}}ft$ above the ground, which has a radius of R = ${{params_y0}}ft$.

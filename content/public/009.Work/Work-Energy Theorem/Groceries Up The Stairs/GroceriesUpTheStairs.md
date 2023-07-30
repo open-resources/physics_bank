@@ -45,10 +45,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Groceries up the Stairs
-    params_h: 3.32
-    params_m1: 118
-    params_m2: 12
-    params_t: 70
+    params_h: 2.89
+    params_m1: 119
+    params_m2: 8
+    params_t: 61
 ---
 # {{ params_vars_title }}
 A ${{params_m1}} \ \rm{kg}$ delivery driver is carrying ${{params_m2}} \ \rm{kg}$ groceries up a ${{params_h}} \ \rm{m}$ flight of stairs.
