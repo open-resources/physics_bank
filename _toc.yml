@@ -340,6 +340,7 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Cart Raising a Load/cart_raising_a_load
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Cartesian Coordinate
       System/Cartesian Coordinate System
+  - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/CurvJet/CurvJetmd
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/CurvMotionCar/CurvMotionCar
   - file: content/public/005.Kinematics(2D and 3D)/Topic Outcome/Cylindrical Coordinate
       System Description/Cylindrical Coordinate System Description
@@ -450,6 +451,7 @@ parts:
   - file: content/public/006.Force/Friction/Antilock braking systems/Antilock braking
       systems
   - file: content/public/006.Force/Friction/Arctic Haul/arctic_haul
+  - file: content/public/006.Force/Friction/Beads On Loop/BeadsOnLoop
   - file: content/public/006.Force/Friction/Block on a Ramp/block_on_ramp
   - file: content/public/006.Force/Friction/Block on a Wall/block_on_wall
   - file: content/public/006.Force/Friction/Box on a Slant With a Pulley/box_on_slant_with_pulley
