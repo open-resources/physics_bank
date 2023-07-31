@@ -43,10 +43,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Pendulum Work 1
-    params_m: 9.3
+    params_m: 7.9
     params_v: 0
-    params_l: 3
-    params_thetai: 34
+    params_l: 1
+    params_thetai: 55
 ---
 # {{ params_vars_title }}
 <img src="Pendulum Work.png" width=800>

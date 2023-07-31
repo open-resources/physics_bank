@@ -83,11 +83,11 @@ part7:
 myst:
   substitutions:
     params_vars_title: Competitive Hammer Throw
-    params_v: 26.21
+    params_v: 25.94
     params_r: 1.194
     params_m: 4
     params_d: 82.98
-    params_rot: 5
+    params_rot: 4
 ---
 # {{ params_vars_title }}
 The world record for the women's "hammer" throw is held by Anita Wlodarczyk, who threw the {{params_m}} $\rm{kg}$ ball a distance of {{params_d}} $\rm{m}$. To perform this throw, Anita swung the ball from a {{params_r}} $\rm{m}$ steel wire. Assuming she accelerated the ball from rest while making {{params_rot}} rotations with constant angular acceleration, answer the following questions.

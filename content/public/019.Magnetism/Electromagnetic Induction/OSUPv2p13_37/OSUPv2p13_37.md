@@ -35,8 +35,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Radio Antenna
-    params_l: '1.5'
-    params_v: '50'
+    params_l: '1.2'
+    params_v: '100'
     params_B: '5.5'
 ---
 # {{ params_vars_title }}

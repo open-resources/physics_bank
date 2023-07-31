@@ -89,10 +89,10 @@ part6:
     digits: 2
 myst:
   substitutions:
-    params_a: 49
-    params_u: 46
-    params_d: 59
-    params_a_w: 6
+    params_a: 46
+    params_u: 33
+    params_d: 60
+    params_a_w: 5
 ---
 # Cricket Wicket By Catch
 In a game of cricket akin to baseball, a batsman returns the ball bowled on a pitch and scores runs based on the distance travelled by the ball upon exiting the collision with the bat.

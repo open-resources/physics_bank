@@ -34,7 +34,7 @@ part1:
     digits: 2
 myst:
   substitutions:
-    params_m: 5223
+    params_m: 5809
 ---
 # Escape Velocity
 A rocket is fired from the surface of the Earth with speed $v\ \rm{ms^{-1}}$.

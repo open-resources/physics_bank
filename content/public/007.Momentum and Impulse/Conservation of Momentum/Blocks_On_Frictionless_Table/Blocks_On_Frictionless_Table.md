@@ -35,11 +35,11 @@ myst:
   substitutions:
     params_vars_title: Blocks On Frictionless Table
     params_vars_units: $\frac{m}{s}$
-    params_v0: 437
-    params_v1: 7
-    params_mb: 10
-    params_mw: 536
-    params_d: 1
+    params_v0: 407
+    params_v1: 5
+    params_mb: 12
+    params_mw: 465
+    params_d: 2
 ---
 # {{ params_vars_title }}
 Two {{params_mw}} $g$ blocks of wood are {{params_d}} $m$ apart on a frictionless table.

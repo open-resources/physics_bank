@@ -30,6 +30,7 @@ part1:
     weight: 1
 myst:
   substitutions:
+    params_title: Falling Mass on Rope
     params_part1_ans1_value: $mg(t_2-t_1)$
     params_part1_ans1_feedback: Nope
     params_part1_ans2_value: $mv^2/2$

@@ -45,9 +45,9 @@ myst:
   substitutions:
     params_vars_title: Parachuter
     params_vars_units: m/s
-    params_v: 352
-    params_theta: 57
-    params_h: 428
+    params_v: 372
+    params_theta: 52
+    params_h: 336
 ---
 # {{ params_vars_title }}
 <img src="Parachute.png" width=85%>

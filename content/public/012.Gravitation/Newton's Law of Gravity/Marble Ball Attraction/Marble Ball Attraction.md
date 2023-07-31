@@ -34,8 +34,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Marble Ball Attraction
-    params_r: 0.68
-    params_d: 3.6
+    params_r: 0.91
+    params_d: 4.2
     params_rho: 2200.0
 ---
 # {{ params_vars_title }}

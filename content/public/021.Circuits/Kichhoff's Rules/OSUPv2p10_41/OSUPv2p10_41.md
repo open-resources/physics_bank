@@ -129,8 +129,8 @@ myst:
     params_R1: '2.00'
     params_R2: '5.00'
     params_R3: '3.00'
-    params_R4: '8.00'
-    params_V1: '16.0'
+    params_R4: '6.00'
+    params_V1: '19.0'
     params_V2: '15.00'
 ---
 # {{ params_vars_title }}

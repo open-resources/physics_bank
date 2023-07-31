@@ -61,9 +61,9 @@ myst:
     params_vars_title: Moving Crates
     params_vars_units: N
     params_m1: 9
-    params_m2: 11
-    params_theta: 26
-    params_vo: 5
+    params_m2: 14
+    params_theta: 11
+    params_vo: 7
 ---
 # {{ params_vars_title }}
 A mover is pushing crates $A$ and $B$ up a hill, in order for them to slide down the hill for loading. Crate $A$ has a mass of $m_1 = {{ params_m1 }} \ \rm{kg}$ and crate $B$ has a mass of $m_2 = {{ params_m2 }} \ \rm{kg}$. The hill has an inclination of $\theta = {{ params_theta }}^\circ$, and is frictionless.

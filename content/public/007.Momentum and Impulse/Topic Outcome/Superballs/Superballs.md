@@ -60,7 +60,7 @@ part4:
 myst:
   substitutions:
     params_vars_title: Superballs
-    params_ratio: 4
+    params_ratio: 3
 ---
 # {{ params_vars_title }}
 Superballs have nearly elastic collisions with both hard floors and other superballs.  A small superball (mass $m_s$) is dropped directly on top of a large superball of mass $m_l$, both falling from rest from a height $h$.  After an initial collision with the floor, the large superball heads directly upwards at speed $v$, where it collides elastically with the smaller ball, also moving at speed $v$ downward.

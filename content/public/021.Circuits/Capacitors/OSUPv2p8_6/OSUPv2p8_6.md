@@ -40,7 +40,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Maximizing Charge in a Capacitor Bank
-    params_vars_name: Ximena
+    params_vars_name: Aliyah
     params_part1_ans1_value: Parallel
     params_part1_ans2_value: Series
     params_part1_ans3_value: Both parallel and series connections are equally effective

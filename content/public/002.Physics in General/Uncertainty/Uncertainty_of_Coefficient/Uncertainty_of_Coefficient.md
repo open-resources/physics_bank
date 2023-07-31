@@ -30,15 +30,15 @@ part1:
 myst:
   substitutions:
     params_vars_title: Uncertainty of Coefficient
-    params_vars_name: Lorenzo
+    params_vars_name: Santiago
     params_vars_units: $kg/s$
-    params_m: 84
-    params_v: 1.7
-    params_b: 0.54
-    params_part1_ans1_value: ' $\pm$ 0.14'
-    params_part1_ans2_value: ' $\pm$ 0.08'
+    params_m: 135
+    params_v: 2.3
+    params_b: 0.63
+    params_part1_ans1_value: ' $\pm$ 0.1'
+    params_part1_ans2_value: ' $\pm$ 0.06'
     params_part1_ans3_value: ' $\pm$ 0.01'
-    params_part1_ans4_value: ' $\pm$ 0.76'
+    params_part1_ans4_value: ' $\pm$ 0.64'
 ---
 # {{ params_vars_title }}
 The drag force on an object of interest can be accurately modelled as $\vec{D}$ = -$b\vec{v}$ such that its terminal velocity in free fall is given by $v_T$ = $mg/b$.

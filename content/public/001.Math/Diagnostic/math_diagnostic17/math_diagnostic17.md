@@ -30,12 +30,12 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic17
-    params_a: 10
-    params_b: 8
-    params_part1_ans1_value: $e^{8} e^{10 y}$
-    params_part1_ans2_value: $e^{10 y} + e^{10}$
-    params_part1_ans3_value: $10 e^{10} e^{y}$
-    params_part1_ans4_value: $8 e^{10 y}$
+    params_a: 4
+    params_b: 9
+    params_part1_ans1_value: $e^{9} e^{4 y}$
+    params_part1_ans2_value: $e^{4 y} + e^{4}$
+    params_part1_ans3_value: $4 e^{4} e^{y}$
+    params_part1_ans4_value: $9 e^{4 y}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

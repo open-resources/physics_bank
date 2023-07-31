@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $p$ = $\dfrac{(t)}{(m + 7o)} $
-    params_part1_ans1_value: m = ${ - 7 o + \frac{t}{p}}$
-    params_part1_ans2_value: m = ${\frac{7 o p}{t}}$
-    params_part1_ans3_value: m = ${\frac{t}{7 o p}}$
-    params_part1_ans4_value: m = ${\frac{- 7 o + p}{t}}$
+    params_expr: $x$ = $\dfrac{(r)}{(y + 9z)} $
+    params_part1_ans1_value: y = ${ \frac{r}{x} - 9 z}$
+    params_part1_ans2_value: y = ${\frac{9 x z}{r}}$
+    params_part1_ans3_value: y = ${\frac{r}{9 x z}}$
+    params_part1_ans4_value: y = ${\frac{x - 9 z}{r}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

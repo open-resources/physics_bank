@@ -30,12 +30,12 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic22
-    params_denom: 4
-    params_formula: $\sin{\left(\frac{x}{4} \right)}$
-    params_part1_ans1_value: ${- 4 \cos{\left(\frac{x}{4} \right)}}$
-    params_part1_ans2_value: ${4 \cos{\left(\frac{x}{4} \right)}}$
-    params_part1_ans3_value: ${- 8 \cos{\left(\frac{x}{4} \right)}}$
-    params_part1_ans4_value: ${- 2 \cos{\left(\frac{x}{4} \right)}}$
+    params_denom: 7
+    params_formula: $\cos{\left(\frac{x}{7} \right)}$
+    params_part1_ans1_value: ${7 \sin{\left(\frac{x}{7} \right)}}$
+    params_part1_ans2_value: ${- 7 \sin{\left(\frac{x}{7} \right)}}$
+    params_part1_ans3_value: ${14 \sin{\left(\frac{x}{7} \right)}}$
+    params_part1_ans4_value: ${\frac{7 \sin{\left(\frac{x}{7} \right)}}{2}}$
 ---
 # {{ params_vars_title }}
 

@@ -47,9 +47,9 @@ part3:
 myst:
   substitutions:
     params_vars_title: Travelling Wave Displacement
-    params_A: 6
-    params_k: 7
-    params_omega: 7
+    params_A: 4
+    params_k: 8
+    params_omega: 6
     params_part2_ans1_value: The positive x direction.
     params_part2_ans1_feedback: Try setting the phase equal to a constant and differentiating
       the phase implicitly with respect to time. What is the sign of $v = v_{x} =

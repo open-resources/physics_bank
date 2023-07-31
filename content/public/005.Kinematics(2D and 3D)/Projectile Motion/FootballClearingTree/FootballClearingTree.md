@@ -34,10 +34,10 @@ myst:
   substitutions:
     params_vars_title: Football Clearing Tree
     params_vars_units: m/s
-    params_d: 84
-    params_h: 28
-    params_v: 11
-    params_theta: 15
+    params_d: 88
+    params_h: 16
+    params_v: 10
+    params_theta: 41
     params_part1_ans1_value: The ball clears the tree
     params_part1_ans2_value: The ball does not clear the tree
 ---

@@ -38,11 +38,11 @@ myst:
   substitutions:
     params_vars_title: Shopping Cart Push
     params_vars_units: m
-    params_m1: 65
-    params_m2: 20
-    params_t: 2.5
-    params_F: 680
-    params_C: 0.12
+    params_m1: 74
+    params_m2: 18
+    params_t: 1.4
+    params_F: 828
+    params_C: 0.06
 ---
 # {{ params_vars_title }}
 Two teenagers are playing with a shopping cart in a parking lot.

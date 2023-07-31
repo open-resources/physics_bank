@@ -46,8 +46,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Magnetic Force on Airplane
-    params_q: 0.436
-    params_v: 506
+    params_q: 0.432
+    params_v: 660
     params_part2_ans1_value: North
     params_part2_ans2_value: South
     params_part2_ans3_value: East

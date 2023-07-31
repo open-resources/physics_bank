@@ -34,13 +34,13 @@ myst:
     params_vars_sport: motorcyclist
     params_vars_title: Horizontal Jump
     params_vars_units: m
-    params_v: 24
-    params_d: 3.42
+    params_v: 25
+    params_d: 4.34
     params_part1_ans1_value: 9.81
-    params_part1_ans2_value: 14.17
-    params_part1_ans3_value: 16.73
-    params_part1_ans4_value: 20.04
-    params_part1_ans5_value: 25.1
+    params_part1_ans2_value: 16.63
+    params_part1_ans3_value: 22.12
+    params_part1_ans4_value: 23.52
+    params_part1_ans5_value: 33.18
 ---
 # {{ params_vars_title }}
 

@@ -37,21 +37,21 @@ part2:
 myst:
   substitutions:
     params_vars_title: Pushing Net Across Ice
-    params_v: 3
+    params_v: 2
     params_f: 2
     params_part2_ans1_value: at a steadily increasing speed
     params_part2_ans1_feedback: Great job! You got it!
-    params_part2_ans2_value: at 4 $\rm{m/s}$
+    params_part2_ans2_value: at 3 $\rm{m/s}$
     params_part2_ans2_feedback: Consider whether kinetic or static friction is acting?
       Is the net force truly zero?
-    params_part2_ans3_value: at an increasing speed until it reaches 4 $\rm{m/s}$,
+    params_part2_ans3_value: at an increasing speed until it reaches 3 $\rm{m/s}$,
       and then at a constant speed
     params_part2_ans3_feedback: Consider whether kinetic or static friction is acting?
       Which is dependent on speed?
     params_part2_ans4_value: at a steadily decreasing speed
     params_part2_ans4_feedback: Consider whether kinetic or static friction is acting?
       Which is dependent on speed?
-    params_part2_ans5_value: at 3 $\rm{m/s}$
+    params_part2_ans5_value: at 2 $\rm{m/s}$
     params_part2_ans5_feedback: Consider whether kinetic or static friction is acting?
       Is the net force truly zero?
 ---

@@ -33,13 +33,13 @@ myst:
     params_vars_title: Rock on a String
     params_vars_units: m/s
     params_m: 1.0
-    params_r: 25
-    params_T: 300
-    params_part1_ans1_value: 8.66
-    params_part1_ans2_value: -1.34
-    params_part1_ans3_value: 16.1
-    params_part1_ans4_value: -11.3
-    params_part1_ans5_value: 28.7
+    params_r: 86
+    params_T: 400
+    params_part1_ans1_value: 18.5
+    params_part1_ans2_value: 8.55
+    params_part1_ans3_value: 23.1
+    params_part1_ans4_value: -1.45
+    params_part1_ans5_value: 38.5
 ---
 # {{ params_vars_title }}
 A child ties a {{params_m}} kg rock to the end of a string and whirls it at a constant speed in a horizontal circle of radius {{params_r}} cm.

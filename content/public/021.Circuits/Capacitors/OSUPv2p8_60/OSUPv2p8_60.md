@@ -47,7 +47,7 @@ part2:
 myst:
   substitutions:
     params_vars_title: Electric Field Between Capacitor Plates
-    params_a: '5.7'
+    params_a: '4.6'
     params_b: '1.1'
 ---
 # {{ params_vars_title }}

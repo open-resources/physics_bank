@@ -49,10 +49,10 @@ part2:
     digits: 2
 myst:
   substitutions:
-    params_m: 84
-    params_k: 16
-    params_l: 110
-    params_h1: 380.0
+    params_m: 94
+    params_k: 10
+    params_l: 131
+    params_h1: 500.0
 ---
 # Bungee Jumper
 A bungee jumper comprises of a person attached to a rubber cord who then releases himself off a cliff at a high altitude above sea level as shown in the image below.

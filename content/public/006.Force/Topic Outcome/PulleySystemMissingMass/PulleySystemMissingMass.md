@@ -45,7 +45,7 @@ myst:
   substitutions:
     params_vars_title: Distance travelled
     params_vars_units: m/s
-    params_m: 266
+    params_m: 533
 ---
 # {{ params_vars_title }}
 <img src="Pulley.png" width=60%>

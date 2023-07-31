@@ -32,7 +32,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Resistors in a Lab
-    params_vars_name: Ximena
+    params_vars_name: Mateo
     params_have: larger
     params_want: smaller
     params_part1_ans1_value: Connect multiple resistors in parallel

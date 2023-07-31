@@ -41,8 +41,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Area of Capacitor Plates
-    params_c: '2.3'
-    params_d: '1.9'
+    params_c: '1.2'
+    params_d: '4.0'
 ---
 # {{ params_vars_title }}
 
