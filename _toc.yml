@@ -299,8 +299,6 @@ parts:
   - file: content/public/005.Kinematics(2D and 3D)/Projectile Motion/Sniper Target
       Practice/Sniper Target Practice
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/AIrcraft Carrier/aircraft_carrier
-  - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Archer Fish and
-      Insect Catch/q02_number-input_AZ_Archer Fish
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Archer Fish/archer_fish
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Cars on a highway/CarsOnAHighway
   - file: content/public/005.Kinematics(2D and 3D)/Relative Motion/Jumping from train/CQ03_AZ
@@ -497,8 +495,6 @@ parts:
   - file: content/public/006.Force/Newton's Second Law/The Great Conjunction/The Great
       Conjunction
   - file: content/public/006.Force/Newton's Second Law/Tug of War/TugOfWar
-  - file: content/public/006.Force/Newton's Second Law/Washing Machine Mechanics/q01_AZ_Force
-      Kinetics
   - file: content/public/006.Force/Newton's Second Law/Washing Machine Mechanics/washing_machine_mechanics
   - file: content/public/006.Force/Newton's Second Law/fridge_force_comparison/fridge_force_comparison
   - file: content/public/006.Force/Newton's Third Law/A_Leaf_Falling_From_A_Tree/A_Leaf_Falling_From_A_Tree
