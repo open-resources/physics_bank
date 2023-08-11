@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $x$ = $\dfrac{(r)}{(y + 9z)} $
-    params_part1_ans1_value: y = ${ \frac{r}{x} - 9 z}$
-    params_part1_ans2_value: y = ${\frac{9 x z}{r}}$
-    params_part1_ans3_value: y = ${\frac{r}{9 x z}}$
-    params_part1_ans4_value: y = ${\frac{x - 9 z}{r}}$
+    params_expr: $p$ = $\dfrac{(r)}{(d + 3u)} $
+    params_part1_ans1_value: d = ${ - 3 u + \frac{r}{p}}$
+    params_part1_ans2_value: d = ${\frac{3 p u}{r}}$
+    params_part1_ans3_value: d = ${\frac{r}{3 p u}}$
+    params_part1_ans4_value: d = ${\frac{p - 3 u}{r}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

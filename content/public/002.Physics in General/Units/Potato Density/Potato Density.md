@@ -59,12 +59,12 @@ part4:
 myst:
   substitutions:
     params_vars_title: Potato Density
-    params_vars_name: Emilia
+    params_vars_name: Abbas
     params_vars_unit1: $kg$
     params_vars_unit2: $m^3$
-    params_m_p: 233
-    params_m_cp: 74
-    params_l: 2
+    params_m_p: 244
+    params_m_cp: 103
+    params_l: 4
 ---
 # {{ params_vars_title }}
 For their first lab, {{ params_vars_name }} decides to measure the density of a potato.

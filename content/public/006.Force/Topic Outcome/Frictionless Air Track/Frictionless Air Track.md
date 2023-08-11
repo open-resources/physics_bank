@@ -57,23 +57,23 @@ part4:
 myst:
   substitutions:
     params_vars_title: A Frictionless Air Track?
-    params_vars_name: Emilia
+    params_vars_name: Maya
     params_vars_units: $m/s^2$
-    params_m1: 271.6
-    params_m2: 31.45
-    params_d_a: 0.01
-    params_mean: 1.56
-    params_sd: 0.112
-    params_a1: 1.4
-    params_a2: 1.49
-    params_a3: 1.66
-    params_a4: 1.4
-    params_a5: 1.66
-    params_a6: 1.73
-    params_a7: 1.65
-    params_a8: 1.46
-    params_a9: 1.52
-    params_a10: 1.59
+    params_m1: 438.1
+    params_m2: 40.19
+    params_d_a: 0.03
+    params_mean: 1.52
+    params_sd: 0.147
+    params_a1: 1.47
+    params_a2: 1.75
+    params_a3: 1.39
+    params_a4: 1.52
+    params_a5: 1.54
+    params_a6: 1.32
+    params_a7: 1.71
+    params_a8: 1.5
+    params_a9: 1.68
+    params_a10: 1.32
     params_part4_ans1_value: The track is frictionless because $a_{expected}$ does
       not agree with $a_{measured}$.
     params_part4_ans2_value: The track is not frictionless because $a_{expected}$

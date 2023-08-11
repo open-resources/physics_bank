@@ -36,9 +36,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Power of Gravity 1
-    params_m: 90.0
-    params_theta: 42.0
-    params_t: 5.0
+    params_m: 89.0
+    params_theta: 50.0
+    params_t: 6.0
 ---
 # {{ params_vars_title }}
 <img src="Power of Gravity 1.png" width = 600>

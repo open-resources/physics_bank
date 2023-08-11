@@ -60,10 +60,10 @@ part5:
 myst:
   substitutions:
     params_vars_title: Double Slit Experiment
-    params_l: 346
-    params_w: 92
-    params_s: 449
-    params_d: 11
+    params_l: 586
+    params_w: 102
+    params_s: 355
+    params_d: 5
     params_part3_ans1_value: bright
     params_part3_ans2_value: dark
     params_part3_ans3_value: no pattern appears

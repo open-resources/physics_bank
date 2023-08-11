@@ -60,8 +60,8 @@ part3:
 myst:
   substitutions:
     params_u_s: 7.5
-    params_h: 2.7
-    params_v_s: 5.01
+    params_h: 2.9
+    params_v_s: 4.33
     params_theta: 6.6
 ---
 # Badminton Net Kill Shot

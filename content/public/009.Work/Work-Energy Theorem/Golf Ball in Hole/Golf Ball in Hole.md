@@ -69,11 +69,11 @@ part5:
     digits: 2
 myst:
   substitutions:
-    params_h: 0.36
-    params_a: 47
-    params_r_h: 0.1565324549859361
-    params_r: 0.12
-    params_u: 1.9
+    params_h: 0.38
+    params_a: 84
+    params_r_h: 0.3421535368331792
+    params_r: 0.3
+    params_u: 2.0
     params_part1_ans1_value: true
     params_part1_ans2_value: false
     params_part3_ans1_value: 'No'

@@ -35,11 +35,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Force of a Colliding Ball
-    params_t: 0.023
-    params_v: 15
-    params_theta1: 46
+    params_t: 0.012
+    params_v: 17
+    params_theta1: 51
     params_theta2: 41.0
-    params_m: 1.6
+    params_m: 2.2
 ---
 # {{ params_vars_title }}
 <img src="Force of a Colliding Ball.png" width=800>

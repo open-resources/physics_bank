@@ -44,10 +44,10 @@ myst:
   substitutions:
     params_vars_title: Drag Through Jello
     params_vars_units: m/s
-    params_v: 12
-    params_t: 3.89
-    params_theta: 34
-    params_k: 1.0
+    params_v: 8
+    params_t: 0.24
+    params_theta: 36
+    params_k: 0.9
 ---
 # {{ params_vars_title }}
 A projectile is shot into cherry Jello with velocity $v = {{ params_v }} \ \rm{m/s}$ at an angle $\theta = {{ params_theta }} ^{\circ}$ in the xy plane.

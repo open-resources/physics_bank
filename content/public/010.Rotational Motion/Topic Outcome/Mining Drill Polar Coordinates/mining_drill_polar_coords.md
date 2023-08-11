@@ -59,12 +59,12 @@ myst:
   substitutions:
     params_vars_title: Mining Drill Polar Coordinates
     params_d: 4
-    params_theta: 9
+    params_theta: 5
     params_dot_theta: 5
-    params_ddot_theta: 8
-    params_l: 10
-    params_dot_l: 9
-    params_ddot_l: 7
+    params_ddot_theta: 9
+    params_l: 9
+    params_dot_l: 6
+    params_ddot_l: 10
 ---
 # {{ params_vars_title }}
 <img src="L8Q2.png" width=85%>

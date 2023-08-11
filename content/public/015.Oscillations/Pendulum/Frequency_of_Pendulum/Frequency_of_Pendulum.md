@@ -35,7 +35,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Frequency/Period of Oscillation
-    params_R: 1
+    params_R: 7
     params_pendulum: ' frequency of oscillation of this physical pendulum.'
 ---
 # {{ params_vars_title }}

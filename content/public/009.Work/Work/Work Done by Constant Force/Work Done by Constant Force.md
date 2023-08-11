@@ -60,8 +60,8 @@ myst:
   substitutions:
     params_vars_title: Work Done by a Constant Force
     params_vars_units: $J$
-    params_F: 31.0
-    params_r: 13.8
+    params_F: 34.7
+    params_r: 36.6
 ---
 # {{ params_vars_title }}
 Calculate the work done by a constant force of magnitude $F = $ {{ params_F }} $N$ applied over a displacement of magnitude $\Delta r = $ {{ params_r }} $m$ for all four of the diagrams.

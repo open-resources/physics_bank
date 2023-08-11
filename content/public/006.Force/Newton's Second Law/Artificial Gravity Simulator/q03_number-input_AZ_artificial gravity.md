@@ -34,8 +34,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Artificial Gravity Simulator
-    params_m: 128
-    params_r: 442
+    params_m: 85
+    params_r: 632
 ---
 # {{ params_vars_title }}
 To simulate the effects of "weight" in deep space, the spacecraft is made to rotate with the astronaut "standing" on the outer hull of a circular chamber. The artificial gravity experienced by the astronaut is the inertial reaction to the normal force pulling them to the center of rotation.

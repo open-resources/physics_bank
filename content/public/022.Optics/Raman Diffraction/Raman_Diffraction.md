@@ -31,20 +31,20 @@ part1:
 myst:
   substitutions:
     params_vars_title: Raman Diffraction
-    params_lambda1: 750
-    params_lambda2: 550
-    params_part1_ans1_value: The diffraction angle is larger for the $750$ $\rm{nm}$
+    params_lambda1: 700
+    params_lambda2: 350
+    params_part1_ans1_value: The diffraction angle is larger for the $700$ $\rm{nm}$
       light.
     params_part1_ans1_feedback: Correct, since $d\sin(\theta) = m\lambda$ where $m$
       is an integer, larger wavelengths $\lambda$ diffract at larger angles $\theta$
       for fixed slit spacing $d$
-    params_part1_ans2_value: The diffraction angle is smaller for the $750$ $\rm{nm}$
+    params_part1_ans2_value: The diffraction angle is smaller for the $700$ $\rm{nm}$
       light.
     params_part1_ans2_feedback: No, write an expression for the angles at which constructive
       interference occurs in terms of the spacing between slits $d$, the angle $\theta$,
       and the wavelength $\lambda$.
-    params_part1_ans3_value: The diffraction angle is the same for both the $750$
-      $\rm{nm}$ and $550$ $\rm{nm}$ light.
+    params_part1_ans3_value: The diffraction angle is the same for both the $700$
+      $\rm{nm}$ and $350$ $\rm{nm}$ light.
     params_part1_ans3_feedback: No, diffraction angles do depend on the wavelength
       of light.
     params_part1_ans4_value: Light doesn't exist outside of the visible range from

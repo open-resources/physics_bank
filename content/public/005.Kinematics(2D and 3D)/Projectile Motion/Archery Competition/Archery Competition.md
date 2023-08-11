@@ -42,12 +42,12 @@ part2:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params_vars_name: Aliyah
+    params_vars_name: Maya
     params_vars_title: Archery Competition
-    params_d: 80
-    params_v: 190
-    params_h: 202
-    params_theta: 37
+    params_d: 144
+    params_v: 249
+    params_h: 164
+    params_theta: 44
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} is reading a novel that describes an athelete participating in an archery competition.

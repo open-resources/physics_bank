@@ -44,8 +44,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Ball Down A Hill
-    params_d: 4.76
-    params_theta: 17
+    params_d: 3.96
+    params_theta: 56
 ---
 # {{ params_vars_title }}
 A ball, initially at rest, rolls down a hill slanted $\theta = {{params_theta}}^{\circ}$.

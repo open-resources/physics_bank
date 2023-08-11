@@ -37,9 +37,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Flywheels
-    params_Rs: 31
-    params_Rl: 45
-    params_Fs: 54
+    params_Rs: 33
+    params_Rl: 47
+    params_Fs: 52
 ---
 # {{ params_vars_title }}
 Two flywheels of negligible mass and different radii are bonded together and rotate about a common axis (see below).

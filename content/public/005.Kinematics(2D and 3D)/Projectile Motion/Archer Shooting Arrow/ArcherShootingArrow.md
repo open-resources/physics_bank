@@ -61,9 +61,9 @@ part4:
 myst:
   substitutions:
     params_vars_title: Archer Shooting Arrow
-    params_v: 162
-    params_thetad: 50
-    params_d: 69
+    params_v: 187
+    params_thetad: 17
+    params_d: 94
 ---
 # {{ params_vars_title }}
 <img src="Archer Shooting Arrow.png" width=400>

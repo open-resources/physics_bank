@@ -46,13 +46,13 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Aliyah
+    params_vars_name: Ahmed
     params_vars_title: Potato Volume
     params_vars_mass_units: kg
     params_vars_volume_units: m^3
-    params_vars_mass_potato: 157
-    params_vars_mass_cube: 25
-    params_vars_cube_side_length: 1.7
+    params_vars_mass_potato: 167
+    params_vars_mass_cube: 46
+    params_vars_cube_side_length: 4.84
 ---
 # {{ params_vars_title }}
 For our first lab, {{params_vars_name}} decides to measure the density of a potato.

@@ -43,12 +43,12 @@ part2:
 myst:
   substitutions:
     params_vars_title: Football Practice 2
-    params_d1: 13
-    params_d2: 10
+    params_d1: 10
+    params_d2: 9
     params_h1: 4
-    params_h2: 2
-    params_v: 10
-    params_theta: 65
+    params_h2: 1
+    params_v: 16
+    params_theta: 63
 ---
 # {{ params_vars_title }}
 <img src="Football_Practice_2.png" width=800>

@@ -31,7 +31,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Even Elevation Launch
-    params_v: 11
+    params_v: 5
     params_part1_ans1_value: Less than $45^{\circ}$
     params_part1_ans2_value: Exactly $45^{\circ}$
     params_part1_ans3_value: More than $45^{\circ}$

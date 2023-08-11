@@ -36,9 +36,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: T-bone Collision
-    params_ma: 1074
-    params_mb: 1374
-    params_vak: 69
+    params_ma: 1469
+    params_mb: 1435
+    params_vak: 40
     params_thetad: 19
 ---
 # {{ params_vars_title }}

@@ -36,10 +36,10 @@ myst:
   substitutions:
     params_vars_title: Power of a Sprinter
     params_vars_units: W
-    params_v: 11
+    params_v: 10
     params_t: 5
-    params_m: 61
-    params_v2: 2
+    params_m: 89
+    params_v2: 3
 ---
 # {{ params_vars_title }}
 A {{ params_m }}$kg$ sprinter accelerates uniformly from rest to reach their maximum speed of {{ params_v }}$m/s$ in {{ params_t }} seconds.

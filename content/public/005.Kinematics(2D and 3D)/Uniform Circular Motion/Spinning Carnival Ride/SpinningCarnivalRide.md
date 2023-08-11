@@ -44,10 +44,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Spinning Carnival Ride
-    params_alpha_dot: 0.16
-    params_beta_dot: 0.64
-    params_r1: 7
-    params_r2: 0.63
+    params_alpha_dot: 0.21
+    params_beta_dot: 0.96
+    params_r1: 4
+    params_r2: 0.83
 ---
 # {{ params_vars_title }}
 The carnival ride illustrated below is spinning at $\dot \alpha = {{params.alpha_dot}} \ \rm{rev/s}$.

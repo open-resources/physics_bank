@@ -60,9 +60,9 @@ myst:
   substitutions:
     params_vars_title: Moving Crates
     params_vars_units: N
-    params_m1: 9
-    params_m2: 14
-    params_theta: 11
+    params_m1: 14
+    params_m2: 15
+    params_theta: 17
     params_vo: 7
 ---
 # {{ params_vars_title }}

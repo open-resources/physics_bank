@@ -47,10 +47,10 @@ myst:
   substitutions:
     params_vars_title: Rollercoaster Energy
     params_vars_units: m/s
-    params_m: 801
-    params_r: 28
-    params_h: 70
-    params_d: 57
+    params_m: 977
+    params_r: 15
+    params_h: 58
+    params_d: 31
 ---
 # {{ params_vars_title }}
 A rollercoaster ride moves a car with a mass of ${{params_m}}\ \rm{kg}$ to point $A$ at a height $h = {{params_h}} \ \rm{m}$. At point $A$, the car is at rest, and then goes down the path through a loop of radius ${{params_r}} \ \rm{m}$. Point $B$ is at a height of ${{params_d}} \ \rm{m}$.

@@ -35,10 +35,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Power of Conveyor 1
-    params_theta: 38.0
-    params_v: 9.0
+    params_theta: 26.0
+    params_v: 6.6
     params_L: 12.0
-    params_W: 11.0
+    params_W: 50.0
 ---
 # {{ params_vars_title }}
 <img src="Power of Conveyer 1.png" width=600>

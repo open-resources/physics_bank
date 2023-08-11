@@ -44,11 +44,11 @@ part2:
 myst:
   substitutions:
     params_vars_title: Relative Motion on a Curve
-    params_v: 47
-    params_r: 33
-    params_d: 43
-    params_a: 1.7
-    params_theta: 36
+    params_v: 54
+    params_r: 66
+    params_d: 45
+    params_a: 2.1
+    params_theta: 23
 ---
 # {{ params_vars_title }}
 <img src="L11Q4.png" width=85%>

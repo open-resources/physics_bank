@@ -45,12 +45,13 @@ myst:
   substitutions:
     params_vars_title: Total Force in Deep Space
     params_vars_units: N
-    params_vars_string_1: Object A is a sphere with radius 2.87 m. It has a density
-      of 21100.0 $\frac{kg}{m^{3}}$ and it is at position $(1,1)$.
-    params_vars_string_2: The other one, Object B, is a cylinder with a base radius
-      2.34 m and height 2.1 m. It has a density of 20200.0 $\frac{kg}{m^{3}}$ and
-      it is at position $(1,-1)$.
-    params_m: 3700
+    params_vars_string_1: Object A is a cylinder with a base radius 1.52 m and height
+      1.53 m. It has a density of 18900.0 $\frac{kg}{m^{3}}$ and it is at position
+      $(3,4)$.
+    params_vars_string_2: The other one, Object B, is a cone with base radius 2.81
+      m and height 2.95 m. It has a density of 21600.0 $\frac{kg}{m^{3}}$ and it is
+      at position $(4,-3)$.
+    params_m: 3400
 ---
 # {{ params_vars_title }}
 There are two objects surrounding our spaceship in deep space. {{ params.vars.string_1}} {{ params.vars.string_2}} Our space shuttle has a mass of {{ params_m}} tons. Find the total gravitational force on the spaceship.

@@ -36,10 +36,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Rocket Speed
-    params_d: 1.11
-    params_theta1: 57
-    params_theta2: 66.0
-    params_dt: 0.93
+    params_d: 1.16
+    params_theta1: 69
+    params_theta2: 75.0
+    params_dt: 0.44
 ---
 # {{ params_vars_title }}
 A rocket is fired vertically from a launch pad $d={{params_d}} \ \rm{km}$ away from a tracking radar.

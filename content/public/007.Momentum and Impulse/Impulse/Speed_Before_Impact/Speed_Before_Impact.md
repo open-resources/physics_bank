@@ -34,11 +34,11 @@ myst:
     params_vars_title: Speed Before Impact
     params_vars_vehicle: pickup truck
     params_vars_units: $m/s$
-    params_m: 640
-    params_part1_ans1_value: 84.4
-    params_part1_ans2_value: 42.2
-    params_part1_ans3_value: 21.1
-    params_part1_ans4_value: 10.5
+    params_m: 501
+    params_part1_ans1_value: 108.0
+    params_part1_ans2_value: 53.9
+    params_part1_ans3_value: 26.9
+    params_part1_ans4_value: 13.5
     params_part1_ans5_value: 0
 ---
 # {{ params_vars_title }}
