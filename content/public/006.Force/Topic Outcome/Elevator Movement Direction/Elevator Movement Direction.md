@@ -32,8 +32,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Direction of Movement of the Elevator
-    params_m_st: 696
-    params_m_sc: 688
+    params_m_st: 751
+    params_m_sc: 740
     params_part1_ans1_value: The elevator is moving Downwards, with gravity.
     params_part1_ans2_value: You cannot tell if it is moving upward or downward.
     params_part1_ans3_value: The elevator is moving Upwards, against gravity.

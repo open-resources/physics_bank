@@ -72,10 +72,10 @@ part6:
 myst:
   substitutions:
     params_vars_title: RC Circuit Reduction
-    params_c1: 4.2
-    params_c2: 8.5
-    params_c3: 4.2
-    params_c4: 2.0
+    params_c1: 16.6
+    params_c2: 3.9
+    params_c3: 12.7
+    params_c4: 16.3
     params_part1_ans1_value: $C_1$
     params_part1_ans2_value: $C_2$
     params_part1_ans3_value: $C_3$

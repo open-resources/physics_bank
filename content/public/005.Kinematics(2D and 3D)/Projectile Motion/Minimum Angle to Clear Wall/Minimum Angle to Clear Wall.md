@@ -37,9 +37,9 @@ myst:
   substitutions:
     params_vars_title: Minimum Angle to Clear Wall
     params_vars_units: $^{\circ}$
-    params_v: 18.5
-    params_d: 6.89
-    params_h: 3.51
+    params_v: 19.76
+    params_d: 9.98
+    params_h: 3.64
 ---
 # {{ params_vars_title }}
 <img src = "Minimum_Angle_To_Clear_Wall_Correct.jpg"  width=700>

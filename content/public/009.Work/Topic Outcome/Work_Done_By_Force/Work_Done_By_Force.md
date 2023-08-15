@@ -32,14 +32,14 @@ myst:
   substitutions:
     params_vars_title: Work Done By Force
     params_vars_units: $J$
-    params_t1: 0
-    params_t2: 9
-    params_f1: 1.8
-    params_f2: 5.6
-    params_r1: 3.2
-    params_r2: 2.0
-    params_m: 7.2
-    params_part1_ans1_value: -5.4
+    params_t1: 1
+    params_t2: 10
+    params_f1: 1.9
+    params_f2: 5.4
+    params_r1: 3.3
+    params_r2: 1.9
+    params_m: 7.0
+    params_part1_ans1_value: -4.0
     params_part1_ans2_value: 17.0
     params_part1_ans3_value: 120.0
     params_part1_ans4_value: 2.4

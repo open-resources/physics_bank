@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $c$ = $\dfrac{(h)}{(r + 3t)} $
-    params_part1_ans1_value: r = ${ - 3 t + \frac{h}{c}}$
-    params_part1_ans2_value: r = ${\frac{3 c t}{h}}$
-    params_part1_ans3_value: r = ${\frac{h}{3 c t}}$
-    params_part1_ans4_value: r = ${\frac{c - 3 t}{h}}$
+    params_expr: $b$ = $\dfrac{(d)}{(a + 10y)} $
+    params_part1_ans1_value: a = ${ - 10 y + \frac{d}{b}}$
+    params_part1_ans2_value: a = ${\frac{10 b y}{d}}$
+    params_part1_ans3_value: a = ${\frac{d}{10 b y}}$
+    params_part1_ans4_value: a = ${\frac{b - 10 y}{d}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

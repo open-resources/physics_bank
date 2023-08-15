@@ -37,10 +37,10 @@ myst:
     params_part1_ans1_value: Incoherent deformations are dissipative
     params_part1_ans2_value: Dissipative processes are one where the total mechanical
       energy is not conserved.
-    params_part1_ans3_value: If the total kinetic energy is not constant all of the
+    params_part1_ans3_value: Coherent deformations are dissipative.
+    params_part1_ans4_value: Irreversible processes are dissipative.
+    params_part1_ans5_value: If the total kinetic energy is not constant all of the
       way through the interaction, the process is dissipative.
-    params_part1_ans4_value: Coherent deformations are dissipative.
-    params_part1_ans5_value: Irreversible processes are dissipative.
 ---
 # {{ params_vars_title }}
 

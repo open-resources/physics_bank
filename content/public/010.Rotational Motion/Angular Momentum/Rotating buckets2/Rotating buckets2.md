@@ -46,7 +46,7 @@ myst:
   substitutions:
     params_vars_title: Rotating Buckets
     params_vars_units: kg
-    params_m1: 1.54
+    params_m1: 1.8
     params_c: 2
 ---
 # {{ params_vars_title }}

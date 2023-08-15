@@ -32,19 +32,19 @@ part1:
 myst:
   substitutions:
     params_vars_title: Harmonic Series
-    params_f: 466
-    params_part1_ans1_value: '4.66'
+    params_f: 415
+    params_part1_ans1_value: '4.15'
     params_part1_ans1_feedback: This is a random number, you probably selected this
       choice by mistake! Try again
     params_part1_ans2_value: '1.5'
     params_part1_ans2_feedback: Great! You got it.
-    params_part1_ans3_value: '0.3541'
+    params_part1_ans3_value: '0.3976'
     params_part1_ans3_feedback: Hmm, It seems you did partial calculations, you need
       a ratio!
-    params_part1_ans4_value: '0.5311'
+    params_part1_ans4_value: '0.5964'
     params_part1_ans4_feedback: Hmm, It seems you did partial calculations, you need
       a ratio!
-    params_part1_ans5_value: '0.7082'
+    params_part1_ans5_value: '0.7952'
     params_part1_ans5_feedback: Check your calculations again; Apply suitable formulas!
 ---
 # {{ params_vars_title }}

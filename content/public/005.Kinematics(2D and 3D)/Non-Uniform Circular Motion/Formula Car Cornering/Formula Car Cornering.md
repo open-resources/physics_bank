@@ -45,12 +45,12 @@ myst:
   substitutions:
     params_vars_title: Formula Car Cornering
     params_vars_units: $m/s^2$
-    params_x: 4
-    params_y1: 1.139
-    params_y2: 1.478
-    params_r: 59
-    params_z: 126
-    params_t: 1.7085
+    params_x: 5
+    params_y1: 1.872
+    params_y2: 6.56
+    params_r: 51
+    params_z: 129
+    params_t: 2.8080000000000003
 ---
 # {{ params_vars_title }}
 A formula car is driving on the Autodromo Nazionale Monza race track. The car takes the racing line shown in blue through the Curva Parabolica corner.

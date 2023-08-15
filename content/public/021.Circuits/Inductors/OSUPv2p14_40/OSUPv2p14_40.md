@@ -45,9 +45,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Inductance of a Solenoid
-    params_l: '44.0'
-    params_N: '480'
-    params_A: '2.90'
+    params_l: '51.0'
+    params_N: '460'
+    params_A: '1.40'
 ---
 # {{ params_vars_title }}
 A ${{ params_l }}\rm\ cm$ long solenoid is wound with ${{ params_N }}\rm\ turns$ of wire.

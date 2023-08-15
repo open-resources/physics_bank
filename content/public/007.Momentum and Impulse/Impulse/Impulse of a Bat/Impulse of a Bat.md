@@ -36,10 +36,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Impulse of a Bat
-    params_F: 33791
+    params_F: 33917
     params_t1: 0.001
     params_t2: 0.007
-    params_t3: 0.015
+    params_t3: 0.012
 ---
 # {{ params_vars_title }}
 <img src="L20Q4.png" width=400>

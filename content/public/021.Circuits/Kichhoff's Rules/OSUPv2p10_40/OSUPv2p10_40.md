@@ -75,9 +75,9 @@ myst:
     params_vars_title: Circuit Loop within a Loop
     params_R1: '6.0'
     params_R2: '9.0'
-    params_R3: '6.0'
+    params_R3: '8.0'
     params_V1: '25.0'
-    params_V2: '14.0'
+    params_V2: '15.0'
 ---
 # {{ params_vars_title }}
 Consider the circuit shown below.

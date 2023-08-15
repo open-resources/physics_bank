@@ -34,9 +34,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Truck on Icy Hill
-    params_m: 4295
+    params_m: 3328
     params_v: 53
-    params_theta: 10
+    params_theta: 22
 ---
 # {{ params_vars_title }}
 A car travels down an icy hill at $v = {{ params_v }} \ \rm{km/h}$.

@@ -70,17 +70,17 @@ part5:
     suffix: m ($\hat{\imath}$)
 myst:
   substitutions:
-    params_vars_name1: Ximena
-    params_vars_name2: Maya
+    params_vars_name1: Santiago
+    params_vars_name2: Aliyah
     params_vars_title: A Skateboarder and an Observer
     params_vars_unit_v: $m/s$
     params_vars_unit_t: $s$
     params_vars_unit_x: $m$
-    params_v: -0.195
-    params_v_b: 4.68
-    params_h: 3.66
-    params_m_s: 64.4
-    params_m_b: 2.92
+    params_v: 0.655
+    params_v_b: 3.7
+    params_h: 3.39
+    params_m_s: 109.0
+    params_m_b: 1.29
 ---
 # {{ params_vars_title }}
 {{ params_vars_name1 }}  is  on  a  skateboard  and  has  an  initial  velocity  of  ({{ params_v }} $m/s$) $\hat{\imath}$ relative  to  {{ params_vars_name2 }}  who  is at rest with respect to the earth.  Just as they are gliding past {{ params_vars_name2 }},  {{ params_vars_name1 }} throws a ball in the positive $x$-direction from a height of {{ params_h }} m.  According to {{ params_vars_name1 }}, the ball has an initial velocity of ({{ params_v_b }} $m/s$) $\hat{\imath}$.

@@ -73,9 +73,9 @@ part7:
 myst:
   substitutions:
     params_vars_title: Vehicle in Circular Motion
-    params_vars_vehicle: car
-    params_m: 1500.0
-    params_v: 75.0
+    params_vars_vehicle: sedan
+    params_m: 2100.0
+    params_v: 72.0
     params_r: 110.0
     params_theta: 20.0
     params_f_s: 0.6

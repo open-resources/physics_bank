@@ -37,9 +37,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Gravity in the Tower
-    params_city: New York
-    params_h: 470.0
-    params_g0: 9.8024
+    params_city: Amsterdam
+    params_h: 980.0
+    params_g0: 9.8129
 ---
 # {{ params_vars_title }}
 In <b>{{params_city}}</b>, Earth's local gravity is calculated to be $g_0 = {{params_g0}} \ \rm{m/s^2}$.

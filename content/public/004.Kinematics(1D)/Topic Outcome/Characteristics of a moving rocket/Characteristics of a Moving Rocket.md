@@ -32,14 +32,14 @@ part1:
     partial-credit-method: EDC
 myst:
   substitutions:
-    params_v_y: $-4t^2 + 2t$
+    params_v_y: $7t^2 + t$
     params_vars_title: Characteristics of a Moving Rocket
-    params_part1_ans1_value: $a_y(t = $ 6.1$s) = $ -46.8 $m/s^2$
-    params_part1_ans2_value: $a_y(t) = 2 - 8t$
-    params_part1_ans3_value: $v_y(t=$ 4.9$s) = $ -86.24 $m/s$
-    params_part1_ans4_value: $y(t) = -4t^3/3 + t^2 - 9.2$
-    params_part1_ans5_value: $y(t) = 8t^2 + 8t$
-    params_part1_ans6_value: $a_y(t) = -6t^2 + 6t$
+    params_part1_ans1_value: $y(t) = 7t^3/3 + t^2/2 + 0.26$
+    params_part1_ans2_value: $a_y(t) = 14t + 1$
+    params_part1_ans3_value: $v_y(t=$ 7.1$s) = $ 359.97 $m/s$
+    params_part1_ans4_value: $a_y(t = $ 3.8$s) = $ 73.216 $m/s^2$
+    params_part1_ans5_value: $a_y(t) = -3t^2 + 6t$
+    params_part1_ans6_value: $y(t) = -2t^3 + 4t^2 + 3t$
 ---
 # {{ params_vars_title }}
 

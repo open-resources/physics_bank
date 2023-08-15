@@ -44,10 +44,10 @@ part2:
 myst:
   substitutions:
     params_vars_title: Atwood Machine Difference
-    params_mu: 0.24
+    params_mu: 0.28
     params_v: 5
-    params_M: 7
-    params_h: 4
+    params_M: 3
+    params_h: 3
     params_t: 0.093
 ---
 # {{ params_vars_title }}

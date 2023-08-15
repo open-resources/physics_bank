@@ -37,7 +37,7 @@ part1:
 myst:
   substitutions:
     params_vars_title: Charged particle near the Earth field direction
-    params_charge: electron
+    params_charge: proton
     params_part1_ans1_value: Away from the surface of the Earth.
     params_part1_ans2_value: Towards the surface of the Earth.
     params_part1_ans3_value: It is not possible to know this.

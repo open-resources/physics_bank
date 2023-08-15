@@ -51,10 +51,10 @@ myst:
     params_vars_title: Olympic Diving
     params_vars_units: m
     params_W: 174
-    params_d: 0.8
-    params_k: 1.9
-    params_theta: 21
-    params_h: 13
+    params_d: 0.7
+    params_k: 1.4
+    params_theta: 80
+    params_h: 17
 ---
 # {{ params_vars_title }}
 <img src="OlympianDive.png" width=100%>

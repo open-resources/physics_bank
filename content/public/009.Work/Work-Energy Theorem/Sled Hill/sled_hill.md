@@ -58,9 +58,9 @@ myst:
     params_vars_name: Emilia
     params_vars_title: Sled Hill
     params_angle: 5
-    params_h: 11
+    params_h: 16
     params_uk: 0.07
-    params_m: 100
+    params_m: 90
 ---
 # {{ params_vars_title }}
 {{ params_vars_name }} is on a sled, sliding down a snow covered hill sloped at {{ params_angle }}$^\circ$ (relative to the horizontal). In travelling a distance $d$ the sled has descended through a vertical distance of $10 \, \rm{m}$.

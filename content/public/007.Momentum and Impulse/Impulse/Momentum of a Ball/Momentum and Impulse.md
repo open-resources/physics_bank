@@ -34,9 +34,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Momentum of a Ball
-    params_m: 6431
-    params_a: 3
-    params_t: 49
+    params_m: 7783
+    params_a: 18
+    params_t: 84
 ---
 # {{ params_vars_title }}
 A ball has a mass of $m = {{params_m}} \ \rm{kg}$ and has an acceleration of $a = {{params_a}} \ \rm{m/s^2}$.

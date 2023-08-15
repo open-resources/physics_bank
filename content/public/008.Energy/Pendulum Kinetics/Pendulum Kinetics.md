@@ -70,10 +70,10 @@ part4:
     digits: 2
 myst:
   substitutions:
-    params_m: 20
-    params_l: 3.1
-    params_p: 940.0
-    params_v: 0.014
+    params_m: 10
+    params_l: 4.9
+    params_p: 700.0
+    params_v: 0.0095
     params_theta: 35
 ---
 # Pendulum Kinetics

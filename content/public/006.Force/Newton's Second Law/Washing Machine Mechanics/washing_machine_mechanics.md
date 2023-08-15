@@ -37,7 +37,7 @@ myst:
   substitutions:
     params_vars_title: Washing Machine Mechanics
     params_m: 2
-    params_r: 3
+    params_r: 2
 ---
 # {{ params_vars_title }}
 A washing machine works by rotating the drum about a horizontal axis in a vertical plane. For thorough cleaning, detergent is sprayed from tiny holes in the surface of the drum.

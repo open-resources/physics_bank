@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic14
-    params_expr: $x^{ -4\over 8}$
-    params_part1_ans1_value: \begin{equation}\frac{1}{\sqrt[8]{x^{4}}}\end{equation}
-    params_part1_ans2_value: \begin{equation}\sqrt[8]{x^{4}}\end{equation}
-    params_part1_ans3_value: \begin{equation}\sqrt{x}\end{equation}
-    params_part1_ans4_value: \begin{equation}- \frac{1}{\sqrt[8]{x^{4}}}\end{equation}
+    params_expr: $x^{ -7\over 2}$
+    params_part1_ans1_value: \begin{equation}\frac{1}{\sqrt{x^{7}}}\end{equation}
+    params_part1_ans2_value: \begin{equation}\sqrt{x^{7}}\end{equation}
+    params_part1_ans3_value: \begin{equation}x^{\frac{7}{2}}\end{equation}
+    params_part1_ans4_value: \begin{equation}- \frac{1}{\sqrt{x^{7}}}\end{equation}
     params_part1_ans5_value: Do not know
 ---
 # {{ params_vars_title }}

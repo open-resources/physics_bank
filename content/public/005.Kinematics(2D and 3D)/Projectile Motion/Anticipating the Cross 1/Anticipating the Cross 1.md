@@ -36,8 +36,8 @@ myst:
   substitutions:
     params_vars_title: Anticipating the Cross 1
     params_v0: 13
-    params_theta0: 51
-    params_d: 14
+    params_theta0: 47
+    params_d: 15
 ---
 # {{ params_vars_title }}
 <img src="Anticipating the Cross 1.png" width=800>

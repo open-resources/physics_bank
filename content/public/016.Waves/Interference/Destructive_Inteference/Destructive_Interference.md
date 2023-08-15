@@ -33,18 +33,18 @@ myst:
   substitutions:
     params_vars_units: m
     params_vars_title: Destructive Interference
-    params_f: 88
-    params_part1_ans1_value: '0.88'
+    params_f: 80
+    params_part1_ans1_value: '0.8'
     params_part1_ans1_feedback: This is a random number, you probably selected this
       choice by mistake!Try Again
-    params_part1_ans2_value: '0.9375'
+    params_part1_ans2_value: '1.031'
     params_part1_ans2_feedback: Great! You got it.
-    params_part1_ans3_value: '1.875'
+    params_part1_ans3_value: '2.063'
     params_part1_ans3_feedback: Hmm, It seems you missed a factor of multiplication;
       Recall that this is a reflected wave!
-    params_part1_ans4_value: '22.0'
+    params_part1_ans4_value: '20.0'
     params_part1_ans4_feedback: Check your calculations!
-    params_part1_ans5_value: '3.75'
+    params_part1_ans5_value: '4.125'
     params_part1_ans5_feedback: Check your calculations again; Apply suitable formulas!
 ---
 # {{ params_vars_title }}

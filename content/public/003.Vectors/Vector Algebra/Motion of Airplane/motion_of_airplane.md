@@ -35,16 +35,16 @@ myst:
   substitutions:
     params_vars_title: Motion of an Airplane
     params_vars_units: km
-    params_v1: 14
-    params_v2: 23
-    params_a1: 16
-    params_a2: 16
+    params_v1: 38
+    params_v2: 65
+    params_a1: 26
+    params_a2: 35
     params_dir1: south
-    params_part1_ans1_value: 35.7 km in a direction 4.0 degrees north of east.
-    params_part1_ans2_value: 35.7 km in a direction 4.0 degrees south of east.
-    params_part1_ans3_value: 1271.1 km in a direction 4.0 degrees north of east.
-    params_part1_ans4_value: 1271.1 km in a direction 4.0 degrees south  of east.
-    params_part1_ans5_value: 35.7 km in a direction 89.9 degrees south of east.
+    params_part1_ans1_value: 89.8 km in a direction 13.3 degrees north of east.
+    params_part1_ans2_value: 89.8 km in a direction 13.3 degrees south of east.
+    params_part1_ans3_value: 8064.0 km in a direction 13.3 degrees north of east.
+    params_part1_ans4_value: 8064.0 km in a direction 13.3 degrees south  of east.
+    params_part1_ans5_value: 89.8 km in a direction 89.8 degrees south of east.
 ---
 # {{ params_vars_title }}
 A small plane flies {{params_v1}} km in a direction {{params_a1}} degrees {{params_dir1}} of east and then flies {{params_v2}} km in a direction {{params_a2}} degrees north of east.

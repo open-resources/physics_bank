@@ -46,13 +46,13 @@ myst:
   substitutions:
     params_vars_title: Relative Soccer Ball
     params_vars_units: N
-    params_m: 0.42
-    params_vp: 2.87
-    params_theta: 26
-    params_t: 0.011
-    params_vbp: 9.21
-    params_vy: 18.68
-    params_vx: 18.87
+    params_m: 0.37
+    params_vp: 3.17
+    params_theta: 30
+    params_t: 0.01
+    params_vbp: 13.9
+    params_vy: 19.51
+    params_vx: 19.12
 ---
 # {{ params_vars_title }}
 <img src="Relative Soccer Ball.jpg" width=700>

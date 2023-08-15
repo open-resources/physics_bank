@@ -34,25 +34,25 @@ myst:
     params_vars_title: Distance Between Two People
     params_vars_units: $\rm{m}$
     params_vars_name1: Emilia
-    params_vars_name2: Mateo
-    params_s: 2
+    params_vars_name2: Abbas
+    params_s: 3
     params_ai_1: 2
-    params_ai_2: 4
-    params_ai_3: 3
+    params_ai_2: 3
+    params_ai_3: 1
     params_aj_1: 4
     params_aj_2: 4
     params_aj_3: 2
-    params_bi_1: 4
+    params_bi_1: 2
     params_bi_2: 3
     params_bi_3: 2
-    params_bj_1: 4
-    params_bj_2: 1
-    params_bj_3: 3
-    params_part1_ans1_value: 15.0
-    params_part1_ans2_value: 7.3
-    params_part1_ans3_value: 210.0
-    params_part1_ans4_value: 18
-    params_part1_ans5_value: 10
+    params_bj_1: 5
+    params_bj_2: 3
+    params_bj_3: 2
+    params_part1_ans1_value: 35.0
+    params_part1_ans2_value: 18.0
+    params_part1_ans3_value: 1200.0
+    params_part1_ans4_value: 25
+    params_part1_ans5_value: 43
 ---
 # {{ params_vars_title }}
 The position of {{ params_vars_name1 }} as a function of time is given by:

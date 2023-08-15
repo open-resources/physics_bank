@@ -75,12 +75,12 @@ part6:
 myst:
   substitutions:
     params_vars_title: Momentum of a Particle
-    params_m: 33
-    params_F: 14
-    params_v: 27
-    params_x: 1
-    params_y: 2
-    params_z: 1
+    params_m: 67
+    params_F: 12
+    params_v: 18
+    params_x: 5
+    params_y: 5
+    params_z: 5
 ---
 # {{ params_vars_title }}
 <img src="Momentum.png" width=800>

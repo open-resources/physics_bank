@@ -48,15 +48,14 @@ myst:
     params_vars_title: Pendulum
     params_vars_units_part1: "$\rm{m/s}$"
     params_vars_units_part2: "$\rm{N}$"
-    params_m: 22
-    params_l: 2.1
-    params_theta: 34
-    params_mainText: A child of mass $22 \ \rm{kg}$ is on a swing with length $2.1
-      \ \rm{m}$. The swing just reaches the horizontal before the child begins to
-      swing downwards. After some time, he reaches point $A$ where the angle formed
-      is $34^\circ$.
-    params_part1Text: Find the speed of the child at point $A$
-    params_part2Text: Find the total tension on the chains at point $A$
+    params_m: 0.3
+    params_l: 0.6
+    params_theta: 10
+    params_mainText: A $0.3 \ \rm{kg}$ yoyo attached to a string of length $0.6 \
+      \rm{m}$ is held horizontal before being released. After some time it reaches
+      point $A$ with angle $10^\circ$.
+    params_part1Text: Find the speed of the yoyo at point $A$
+    params_part2Text: Find the tension in the string at point $A$
 ---
 # {{ params_vars_title }}
 {{params_mainText}}

@@ -46,8 +46,8 @@ part2:
     digits: 2
 myst:
   substitutions:
-    params_m: 4501
-    params_v: 653
+    params_m: 4335
+    params_v: 907
 ---
 # Geostationary Orbits
 A communications satellite is orbiting the Earth with constant speed $v\ \rm{km/h}$.

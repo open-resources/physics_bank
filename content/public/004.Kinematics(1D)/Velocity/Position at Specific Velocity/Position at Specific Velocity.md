@@ -36,9 +36,9 @@ myst:
   substitutions:
     params_vars_title: Position at Specific Velocity
     params_vars_units: m
-    params_v: 13.26
-    params_N: 5
-    params_C: 9.71
+    params_v: 31.98
+    params_N: 8
+    params_C: 6.03
 ---
 # {{ params_vars_title }}
 A particle accelerates from rest at $x = 0\ \rm{m}$ according to the following equation: $ a = {{ params_C }} \times x^{{{ params_N }}} $

@@ -56,9 +56,9 @@ part4:
 myst:
   substitutions:
     params_vars_title: Wave on Strings
-    params_t1: 5
+    params_t1: 2
     params_t2: 11
-    params_v: 1
+    params_v: 3
 ---
 # {{ params_vars_title }}
 <img src="reflectionstring.png" width=400 alt="snapshot graphs: (top) A wave pulse on a thin string approaches a short thick string followed by a thin string; (middle) at a later time the transmitted wave pulse into the thick string is shown; (bottom) at a still later time the reflected wave pulse in the middle of the thick string is shown;  the thin strings are left for you to draw on the middle and bottom graphs in (c).">

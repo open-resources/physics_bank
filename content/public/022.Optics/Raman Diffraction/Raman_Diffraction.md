@@ -32,7 +32,7 @@ myst:
   substitutions:
     params_vars_title: Raman Diffraction
     params_lambda1: 650
-    params_lambda2: 400
+    params_lambda2: 600
     params_part1_ans1_value: The diffraction angle is larger for the $650$ $\rm{nm}$
       light.
     params_part1_ans1_feedback: Correct, since $d\sin(\theta) = m\lambda$ where $m$
@@ -44,7 +44,7 @@ myst:
       interference occurs in terms of the spacing between slits $d$, the angle $\theta$,
       and the wavelength $\lambda$.
     params_part1_ans3_value: The diffraction angle is the same for both the $650$
-      $\rm{nm}$ and $400$ $\rm{nm}$ light.
+      $\rm{nm}$ and $600$ $\rm{nm}$ light.
     params_part1_ans3_feedback: No, diffraction angles do depend on the wavelength
       of light.
     params_part1_ans4_value: Light doesn't exist outside of the visible range from

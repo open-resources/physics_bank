@@ -51,14 +51,14 @@ part3:
 myst:
   substitutions:
     params_vars_title: Polar Coordinates from Functions
-    params_a1: -8
-    params_a2: 2
-    params_b1: 4
-    params_b2: -2
-    params_c1: 7
+    params_a1: -7
+    params_a2: 7
+    params_b1: 2
+    params_b2: -6
+    params_c1: 5
     params_c2: 7
-    params_v: -8i + (4j) + (7k)
-    params_a: 2i + (-2j) + (7k)
+    params_v: -7i + (2j) + (5k)
+    params_a: 7i + (-6j) + (7k)
 ---
 # {{ params_vars_title }}
 The velocity and acceleration of a particle at a moment in time is given by $v = {{params_v}}m/s$ and

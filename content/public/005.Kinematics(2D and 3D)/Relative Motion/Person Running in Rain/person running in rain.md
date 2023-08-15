@@ -44,10 +44,10 @@ part2:
     digits: 2
 myst:
   substitutions:
-    params_v_r1: 19
-    params_a: 15
+    params_v_r1: 24
+    params_a: 65
     params_v_r2: 10
-    params_theta: 75
+    params_theta: 25
 ---
 # Person Running in Rain
 A man without an umbrella is running along a straight road with constant speed whilst it is raining.

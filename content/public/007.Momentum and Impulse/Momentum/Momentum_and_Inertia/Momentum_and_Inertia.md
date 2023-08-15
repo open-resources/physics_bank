@@ -31,13 +31,14 @@ part1:
 myst:
   substitutions:
     params_vars_title: Momentum and Inertia
-    params_vars_vehicle: car
+    params_vars_vehicle: pickup truck
     params_part1_ans1_value: The bee has greater momentum, and also greater inertia.
-    params_part1_ans2_value: The car has greater momentum, while the bee has greater
+    params_part1_ans2_value: The pickup truck has greater momentum, while the bee
+      has greater inertia.
+    params_part1_ans3_value: The pickup truck has greater momentum, and also  greater
       inertia.
-    params_part1_ans3_value: The car has greater momentum, and also  greater inertia.
-    params_part1_ans4_value: The bee has greater momentum, while the car has greater
-      inertia.
+    params_part1_ans4_value: The bee has greater momentum, while the pickup truck
+      has greater inertia.
     params_part1_ans5_value: It can’t be determined from this information.
 ---
 # {{ params_vars_title }}

@@ -44,8 +44,8 @@ part1:
 myst:
   substitutions:
     params_vars_title: Field due to current segment
-    params_I: '17.5'
-    params_x: '2.20'
+    params_I: '2.5'
+    params_x: '3.00'
     params_y: '3.80'
     params_dl: '0.20'
 ---
