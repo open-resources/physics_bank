@@ -618,6 +618,7 @@ parts:
   - file: content/public/007.Momentum and Impulse/Collisions/Head-on collision of
       carts/Head-on collision of carts
   - file: content/public/007.Momentum and Impulse/Collisions/Split_Blocks/Split_Blocks
+  - file: content/public/007.Momentum and Impulse/Collisions/Two Carts Collide/two_carts_collide
   - file: content/public/007.Momentum and Impulse/Collisions/collision_A_B/collision_A_B
   - file: content/public/007.Momentum and Impulse/Conservation of Momentum/Ball Bouncing
       off Wall/ball_bouncing_off_wall
@@ -773,6 +774,7 @@ parts:
       of cart with spring
   - file: content/public/008.Energy/Potential Energy/Equilibrium Length of a Spring/Equilibrium
       Length of a Spring
+  - file: content/public/008.Energy/Potential Energy/Lennard_Jones/Lennard_Jones
   - file: content/public/008.Energy/Potential Energy/Potential Energy of a Spring/Potential
       Energy of a Spring
   - file: content/public/008.Energy/Potential Energy/Spring Energy Relation/Spring
@@ -923,6 +925,8 @@ parts:
   - file: content/public/012.Gravitation/Topic Outcome/Gravity at Different Heights
       Midterm/GravityatdifferentHeightsMIDTERMVERSION
   - file: content/public/012.Gravitation/Topic Outcome/Mass of Astroid Midterm/MassofAstroidMIDTERMVERSION
+  - file: content/public/012.Gravitation/Topic Outcome/Solar_Intensity_Radiation/Solar
+      Intensity Radiation
   - file: content/public/012.Gravitation/Topic Outcome/Tidal Forces Midterm/TidalForcesMIDTERMVERSION
 - caption: Fluids
   chapters:
@@ -973,16 +977,21 @@ parts:
       122 2018W2 Second Term Test Q3
   - file: content/public/016.Waves/Interference/Single_Slit_Experiment/Single_Slit_Experiment
   - file: content/public/016.Waves/Interference/Triple_Slit_Experiment/Triple_Slit_Experiment
+  - file: content/public/016.Waves/Interference/Wave_Intensity/Wave_Intensity
   - file: content/public/016.Waves/Misc/microscope_resolution/microscope_resolution
   - file: content/public/016.Waves/Power of a Wave/power_wave_q1/power_wave_q1
   - file: content/public/016.Waves/Sound Wave Energy/Sound_Wave_Energy
   - file: content/public/016.Waves/Sound/Harmonic_Sound_Series/Harmonic_Series
+  - file: content/public/016.Waves/Sound/Open_Tube/Open_Tube
   - file: content/public/016.Waves/Standing Waves/Frequency of a Standing Wave/frequency_of_a_standing_wave
   - file: content/public/016.Waves/Standing Waves/Frequency of open-closed tubes/frequency_of_open_closed_tubes
   - file: content/public/016.Waves/Standing Waves/Superposition of Two Waves/superposition_of_two_waves
   - file: content/public/016.Waves/The Doppler Effect/Bat_Doppler_V2/Bat_Doppler_V2
   - file: content/public/016.Waves/Topic Outcome/WaveOnAString1/wave_on_a_string_1
+  - file: content/public/016.Waves/Traveling Waves/Displacement History/Displacement
+      History
   - file: content/public/016.Waves/Traveling Waves/Longitudinal_Wave/Longitudinal_Wave
+  - file: content/public/016.Waves/Traveling Waves/Transverse/Transverse
   - file: content/public/016.Waves/Traveling Waves/Travelling Wave Displacement/Travelling_Wave_Displacement
   - file: content/public/016.Waves/Traveling Waves/Travelling_wave_derivation/Travelling_wave_derivation
   - file: content/public/016.Waves/Traveling Waves/Wave_On_a_String/Wave_on_a_String
@@ -996,8 +1005,13 @@ parts:
   - file: content/public/018.Electrostatics/Electric Charge/Attracting and repelling
       bodies/Attracting and repelling bodies
   - file: content/public/018.Electrostatics/Electric Charge/Charge Distributions/Charge_Distributions
+  - file: content/public/018.Electrostatics/Electric Charge/Charge_on_Conducting_balls/Charge_on_Conducting_balls
   - file: content/public/018.Electrostatics/Electric Charge/Suspended neutral conductor/Suspended
       neutral conductor
+  - file: content/public/018.Electrostatics/Electric Charge/Two Pieces of Scotch Tape/Two
+      Pieces of Scotch Tape
+  - file: content/public/018.Electrostatics/Electric Dipoles/Dipoles_in_Field/Dipoles_in_Field
+  - file: content/public/018.Electrostatics/Electric Dipoles/Direction_of_Rotation/Direction_of_Rotation
   - file: content/public/018.Electrostatics/Electric Field/Accelerating electrons/Accelerating
       electrons
   - file: content/public/018.Electrostatics/Electric Field/Charged particle near the
@@ -1012,8 +1026,11 @@ parts:
       Surface Charge
   - file: content/public/018.Electrostatics/Electric Field/Conductor with a Cavity
       and a Charge/Conductor with a Cavity and a Charge
+  - file: content/public/018.Electrostatics/Electric Field/Continuous Charge Distributions/Continuous
+      Charge Distributions
   - file: content/public/018.Electrostatics/Electric Field/Earth's charge/Earth's
       charge
+  - file: content/public/018.Electrostatics/Electric Field/Electron_in_Field/Electron_in_Field
   - file: content/public/018.Electrostatics/Electric Field/Parallel Plaes/Parallel
       Plates
   - file: content/public/018.Electrostatics/Electric Field/Vanishing electric field/Vanishing
@@ -1091,6 +1108,8 @@ parts:
   - file: content/public/019.Magnetism/Magnetic Field/Concentric current arcs/Concentric
       current arcs
   - file: content/public/019.Magnetism/Magnetic Field/Cosmic Ray Proton/cosmic_ray_proton
+  - file: content/public/019.Magnetism/Magnetic Field/Current Carrying Wire/Current
+      Carrying Wire
   - file: content/public/019.Magnetism/Magnetic Field/Current loop/Current loop
   - file: content/public/019.Magnetism/Magnetic Field/Current through a spring/Current
       through a spring
@@ -1169,6 +1188,7 @@ parts:
   - file: content/public/021.Circuits/Alternating-Current Circuits/OSUPv2p14_66/OSUPv2p14_66
   - file: content/public/021.Circuits/Alternating-Current Circuits/OSUPv2p14_68/OSUPv2p14_68
   - file: content/public/021.Circuits/Batteries/OSUPv2p10_25/OSUPv2p10_25
+  - file: content/public/021.Circuits/Capacitors/Effective Capacitance/Effective Capacitance
   - file: content/public/021.Circuits/Capacitors/OSUPv2p10_49/OSUPv2p10_49
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_19/OSUPv2p8_19
   - file: content/public/021.Circuits/Capacitors/OSUPv2p8_21/OSUPv2p8_21
@@ -1204,6 +1224,8 @@ parts:
   - file: content/public/021.Circuits/Current/Range of Current Through Resistor/range_of_current_through_resistor
   - file: content/public/021.Circuits/Current/SIlicon Rod Current/silicon_rod_current
   - file: content/public/021.Circuits/Electrical Energy/OSUPv2.9.16/OSUPv2.9.16
+  - file: content/public/021.Circuits/Electrical Measuring Devices/Timing Circuits/Timing
+      Circuits
   - file: content/public/021.Circuits/Electrical Power/Immersion Heater/immersion_heater
   - file: content/public/021.Circuits/Electrical Power/LED Bulb/LED_bulb
   - file: content/public/021.Circuits/Electrical Power/Maximum Voltage/maximum_voltage
@@ -1238,12 +1260,16 @@ parts:
   - file: content/public/021.Circuits/RC Circuits/OSUPv2p10_16/OSUPv2p10_16
   - file: content/public/021.Circuits/RC Circuits/OSUPv2p10_50/OSUPv2p10_50
   - file: content/public/021.Circuits/RC Circuits/OSUPv2p10_53/OSUPv2p10_53
+  - file: content/public/021.Circuits/RC Circuits/RC_Analysis/RC_Analysis
   - file: content/public/021.Circuits/Resistance/Copper Wire Resistance/resistance_copper_wire
   - file: content/public/021.Circuits/Resistance/OSUPv2p10_02/OSUPv2p10_02
   - file: content/public/021.Circuits/Resistance/OSUPv2p10_06/OSUPv2p10_06
   - file: content/public/021.Circuits/Resistance/Properties of Wire/properties_of_wire
   - file: content/public/021.Circuits/Resistance/Ratio Of Diameter/ratio_of_diameter
+  - file: content/public/021.Circuits/Resistance/Resistivity Variations/Resistivity
+      Variations
   - file: content/public/021.Circuits/Resistance/Temperature Range of Resistor/temp_range_of_resistor
+  - file: content/public/021.Circuits/Resistors/Combined Resistance/Combined Resistance
   - file: content/public/021.Circuits/Resistors/OSUPv2p10_22/OSUPv2p10_22
   - file: content/public/021.Circuits/Resistors/OSUPv2p10_26/OSUPv2p10_26
   - file: content/public/021.Circuits/Resistors/OSUPv2p10_27/OSUPv2p10_27
@@ -1259,6 +1285,7 @@ parts:
   chapters:
   - file: content/public/022.Optics/Diffraction/Double_Slit_Experiment/Double_Slit_Experiment
   - file: content/public/022.Optics/Raman Diffraction/Raman_Diffraction
+  - file: content/public/022.Optics/Thin_Film/Thin_Film
   - file: content/public/022.Optics/Topic Outcome/Diffraction/part1/diffraction1
   - file: content/public/022.Optics/Topic Outcome/Diffraction/part2/diffraction2
   - file: content/public/022.Optics/Topic Outcome/Diffraction/part3/diffraction3
