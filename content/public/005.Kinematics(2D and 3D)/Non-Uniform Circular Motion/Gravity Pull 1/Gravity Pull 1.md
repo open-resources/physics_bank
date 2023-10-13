@@ -36,11 +36,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Gravity Pull
-    params_M: 7.856
-    params_R: 4812.0
-    params_d: 37.0
-    params_d1: 8.6
-    params_v0: 1700.0
+    params_M: 8.923
+    params_R: 3734.0
+    params_d: 11.0
+    params_d1: 6.4
+    params_v0: 3000.0
 ---
 # {{ params_vars_title }}
 <img src="Gravity Pull.png" width = 800> 

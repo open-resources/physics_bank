@@ -35,9 +35,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Power of Conveyor 1
-    params_theta: 27.0
-    params_v: 3.1
-    params_L: 16.0
+    params_theta: 30.0
+    params_v: 8.7
+    params_L: 17.0
     params_W: 46.0
 ---
 # {{ params_vars_title }}

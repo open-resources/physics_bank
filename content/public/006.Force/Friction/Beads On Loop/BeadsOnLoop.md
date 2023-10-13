@@ -35,9 +35,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Beads on Loop
-    params_v: 9
-    params_r: 0.27
-    params_mu: 0.22
+    params_v: 6
+    params_r: 0.15
+    params_mu: 0.13
 ---
 # {{ params_vars_title }}
 <img src="BeadsOnLoop.png" width=90%>

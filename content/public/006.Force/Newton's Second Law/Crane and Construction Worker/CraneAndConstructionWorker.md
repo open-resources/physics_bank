@@ -43,9 +43,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Crane and Construction Worker
-    params_m: 173
-    params_F_crane: 2260
-    params_F_worker: 278
+    params_m: 53
+    params_F_crane: 699
+    params_F_worker: 67
     params_theta: 35
 ---
 # {{ params_vars_title }}

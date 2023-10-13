@@ -46,13 +46,13 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Savannah
+    params_vars_name: Maya
     params_vars_title: Potato Volume
     params_vars_mass_units: kg
     params_vars_volume_units: m^3
-    params_vars_mass_potato: 321
-    params_vars_mass_cube: 80
-    params_vars_cube_side_length: 3.93
+    params_vars_mass_potato: 153
+    params_vars_mass_cube: 82
+    params_vars_cube_side_length: 2.1
 ---
 # {{ params_vars_title }}
 For our first lab, {{params_vars_name}} decides to measure the density of a potato.

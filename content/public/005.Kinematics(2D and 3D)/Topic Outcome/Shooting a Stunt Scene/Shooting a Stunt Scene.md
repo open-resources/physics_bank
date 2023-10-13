@@ -52,10 +52,10 @@ part3:
 myst:
   substitutions:
     params_vars_title: Shooting a Stunt Scene
-    params_a: 5.5
-    params_b: 4.3
-    params_h: 9.5
-    params_v0: 92.0
+    params_a: 3.3
+    params_b: 5.5
+    params_h: 9.9
+    params_v0: 80.0
 ---
 # {{ params_vars_title }}
 <img src="Movie Set.png" height = 800> 

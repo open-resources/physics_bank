@@ -66,7 +66,7 @@ part6:
     weight: 1
 myst:
   substitutions:
-    params_d: 13
+    params_d: 10
     params_vars_title: Wave on a String 1
     params_part5_ans1_value: Potential energy
     params_part5_ans2_value: Kinetic energy

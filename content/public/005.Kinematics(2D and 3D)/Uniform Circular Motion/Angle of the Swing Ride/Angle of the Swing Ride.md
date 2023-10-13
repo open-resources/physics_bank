@@ -34,12 +34,12 @@ part1:
     suffix: $^{\circ} $
 myst:
   substitutions:
-    params_vars_name: Aliyah
+    params_vars_name: Ximena
     params_vars_title: Angle of the Swing Ride
     params_vars_units: degrees
-    params_omega: 3.0
-    params_d: 8.5
-    params_m: 128
+    params_omega: 2.18
+    params_d: 8.3
+    params_m: 142
 ---
 # {{ params_vars_title }}
 <img src = "part1.png" width=600>

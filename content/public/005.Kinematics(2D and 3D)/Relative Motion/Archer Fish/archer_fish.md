@@ -32,9 +32,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Archer Fish
-    params_d: 2.6
-    params_h: 5.6
-    params_vf: 2.2
+    params_d: 2.8
+    params_h: 5.0
+    params_vf: 2.1
 ---
 # {{ params_vars_title }}
 An archer fish catches insect prey by squirting water droplets into the air to knock insects off the leaves above the surface of the water. <br>

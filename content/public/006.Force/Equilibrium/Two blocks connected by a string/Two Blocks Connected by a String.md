@@ -34,12 +34,12 @@ myst:
     params_vars_title: Two Blocks Connected by a String
     params_vars_units: N
     params_m1: 1
-    params_part1_ans1_value: 9
-    params_part1_ans2_value: 11
-    params_part1_ans3_value: 23
-    params_part1_ans4_value: 19
-    params_part1_ans5_value: 12
-    params_part1_ans6_value: 16
+    params_part1_ans1_value: 10
+    params_part1_ans2_value: 12
+    params_part1_ans3_value: 24
+    params_part1_ans4_value: 20
+    params_part1_ans5_value: 13
+    params_part1_ans6_value: 17
 ---
 # {{ params_vars_title }}
 Two blocks are arranged as shown and kept at rest by holding the {{ params_m1 }} kg block in place.

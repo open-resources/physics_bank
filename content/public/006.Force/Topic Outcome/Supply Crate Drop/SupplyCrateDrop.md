@@ -43,11 +43,11 @@ part2:
 myst:
   substitutions:
     params_vars_title: Supply Crate Drop
-    params_mu: 0.33
-    params_mb: 24
-    params_Ma: 33
-    params_x: 1
-    params_y: 8
+    params_mu: 0.4
+    params_mb: 29
+    params_Ma: 31
+    params_x: 5
+    params_y: 6
 ---
 # {{ params_vars_title }}
 <img src="SupplyCrate.png" width=90%>

@@ -60,10 +60,10 @@ part4:
 myst:
   substitutions:
     params_vars_title: Rocket Cart on a Track
-    params_nu: 0.23
-    params_F: 2.04
-    params_m: 123
-    params_t: 4
+    params_nu: 0.24
+    params_F: 2.27
+    params_m: 116
+    params_t: 3
 ---
 # {{ params_vars_title }}
 A ${{params_m}} \ \rm{kg}$ cart uses rocket propulsion to accelerate on a track.

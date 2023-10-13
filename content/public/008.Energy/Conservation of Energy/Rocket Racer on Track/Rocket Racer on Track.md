@@ -37,10 +37,10 @@ myst:
   substitutions:
     params_vars_title: Rocket Racer on Track
     params_m: 20
-    params_va: 4
-    params_vb: 19
-    params_h: 49
-    params_d: 43
+    params_va: 3
+    params_vb: 16
+    params_h: 44
+    params_d: 40
 ---
 # {{ params_vars_title }}
 A rocket racer toy of mass $m = {{ params_m }} kg$ is sent down a track from $A$ to $B$ from a height $h = {{ params_h }} m$ and a horizontal distance $d = {{ params_d }} m$ away from point B as shown in the diagram below.

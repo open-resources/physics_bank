@@ -48,9 +48,9 @@ part2:
     digits: 2
 myst:
   substitutions:
-    params_x: 34
-    params_y: 60
-    params_m: 3
+    params_x: 1
+    params_y: 45
+    params_m: 9
 ---
 # Forces acting on a Squirrel
 A box, suspended by two ropes and possessing a mass of ${{ params_m }}\ \rm{kg}$, remains stationary between two attachment points, referred to as $\rm{A}$ and $\rm{B}$. The ropes form angles of ${{ params_x}}^{\circ}$ and ${{ params_y }}^{\circ}$ with the horizontal at these points, respectively.<br>

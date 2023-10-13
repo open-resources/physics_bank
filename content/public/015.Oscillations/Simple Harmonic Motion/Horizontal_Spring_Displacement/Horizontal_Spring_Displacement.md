@@ -69,7 +69,7 @@ part6:
 myst:
   substitutions:
     params_vars_title: Horizontal Spring Displacement
-    params_n: 5
+    params_n: 6
 ---
 # {{ params_vars_title }}
 The displacement of a mass from its equilibrium position as it oscillates  on a horizontal spring satisfies the equation $x(t) = A\cos(\omega t + \phi_0)$.

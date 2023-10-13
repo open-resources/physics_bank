@@ -44,12 +44,12 @@ part2:
 myst:
   substitutions:
     params_vars_title: Slider in a Rotating Tube
-    params_m: 0.27
-    params_w: 5
-    params_wdot: -1
-    params_r: 0.35
-    params_rdot: -2.5
-    params_rddot: 3.7
+    params_m: 0.43
+    params_w: 8
+    params_wdot: -5
+    params_r: 0.55
+    params_rdot: -3.6
+    params_rddot: 1.0
 ---
 # {{ params_vars_title }}
 <img src="Slider in a rotating Tube.png" alt="A vertical hollow tube rotating about its vertical axis at omega rad per second is connected to a horizontal hollow tube in which a slider P moves under control of a string. The distance from the slider to the point of connection is R. The tension in the string acts downwards." width=200>

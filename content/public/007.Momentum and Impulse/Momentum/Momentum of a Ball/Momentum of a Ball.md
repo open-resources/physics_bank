@@ -34,9 +34,9 @@ part1:
 myst:
   substitutions:
     params_vars_title: Momentum of a Ball
-    params_h: 3.6
-    params_v: 12
-    params_m: 2.7
+    params_h: 3.2
+    params_v: 17
+    params_m: 2.9
 ---
 # {{ params_vars_title }}
 A ball with mass ${{params_m}} \ \rm{kg}$ is thrown from a height ${{params_h}} \ \rm{m}$ directly downwards, having a speed of ${{params_v}} \ \rm{m/s}$.

@@ -37,10 +37,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Walking on a Spinning Disk
-    params_m: 53
+    params_m: 69
     params_r1: 3
-    params_r2: 1.7399999999999998
-    params_theta_dot: 1
+    params_r2: 1.23
+    params_theta_dot: 3
 ---
 # {{ params_vars_title }}
 A ${{params_m}}\ \rm{kg}$ man is walking at a constant speed towards the center of a platform spinning at a constant rate of ${{params.theta_dot}} \ \rm{rad/s}$.

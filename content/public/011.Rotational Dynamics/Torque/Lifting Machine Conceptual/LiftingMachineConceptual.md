@@ -41,9 +41,9 @@ myst:
     params_part1_ans2_feedback: Correct!
     params_part1_ans3_value: Decrease $r_2$
     params_part1_ans3_feedback: Correct!
-    params_part1_ans4_value: Increase $r_1$
-    params_part1_ans4_feedback: Correct!
-    params_part1_ans5_value: Decrease $r_1$
+    params_part1_ans4_value: Decrease $r_1$
+    params_part1_ans4_feedback: Nope.
+    params_part1_ans5_value: Increase $r_4$
     params_part1_ans5_feedback: Nope.
 ---
 # {{ params_vars_title }}

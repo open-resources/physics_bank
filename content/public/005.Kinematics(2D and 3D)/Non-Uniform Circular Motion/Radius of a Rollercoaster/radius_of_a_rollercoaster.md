@@ -37,9 +37,9 @@ myst:
   substitutions:
     params_vars_title: Radius of a Rollercoaster
     params_vars_units: $m$
-    params_speed_of_car: 184
-    params_rate_of_decrease: 5
-    params_a: 5
+    params_speed_of_car: 158
+    params_rate_of_decrease: 9
+    params_a: 2
 ---
 # {{ params_vars_title }}
 As a rollercoaster passes the bottommost point in a loop, an accelerometer records an acceleration of ${{params_a}}g$.

@@ -37,10 +37,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Pendulum
-    params_mr: 1.0
-    params_lr: 9
-    params_ms: 0.8
-    params_rs: 31
+    params_mr: 1.3
+    params_lr: 10
+    params_ms: 0.5
+    params_rs: 38
     params_theta: 27
 ---
 # {{ params_vars_title }}

@@ -34,11 +34,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Running Dog
-    params_part1_ans1_value: The dog is not moving between $t=2$ $s$ and $t=6$ $s$
-    params_part1_ans2_value: The dog has a negative acceleration at $t=9$ $s$
-    params_part1_ans3_value: The dog is not moving between $t=6$ $s$ and $t=10$ $s$
-    params_part1_ans4_value: The dog has a velocity of $1$ $m/s$ between time $t=6$
+    params_part1_ans1_value: The dog is speeding up at time $t=7$ $s$
+    params_part1_ans2_value: The dog has a velocity of $1$ $m/s$ between time $t=6$
       $s$ and $t=10$ $s$
+    params_part1_ans3_value: The dog is not moving between $t=6$ $s$ and $t=10$ $s$
+    params_part1_ans4_value: The dog has a negative acceleration at $t=9$ $s$
     params_part1_ans5_value: The dog is slowing down at $t=7$ $s$
 ---
 # {{ params_vars_title }}

@@ -48,14 +48,14 @@ myst:
     params_vars_title: Pendulum
     params_vars_units_part1: "$\rm{m/s}$"
     params_vars_units_part2: "$\rm{N}$"
-    params_m: 0.3
-    params_l: 0.6
-    params_theta: 10
-    params_mainText: A $0.3 \ \rm{kg}$ yoyo attached to a string of length $0.6 \
-      \rm{m}$ is held horizontal before being released. After some time it reaches
-      point $A$ with angle $10^\circ$.
-    params_part1Text: Find the speed of the yoyo at point $A$
-    params_part2Text: Find the tension in the string at point $A$
+    params_m: 48
+    params_l: 9
+    params_theta: 49
+    params_mainText: A gymnast with mass $48 \ \rm{kg}$ steps off a horizontal platform
+      to swing on a trapeze with length $9 \ \rm{m}$. At point $A$, the angle formed
+      is $49^\circ$.
+    params_part1Text: Find the speed of the gymnast at point $A$
+    params_part2Text: Find the total tension holding the trapeze at point $A$
 ---
 # {{ params_vars_title }}
 {{params_mainText}}

@@ -60,8 +60,8 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params_u: 2
-    params_a: 70
+    params_u: 9
+    params_a: 19
     params_part4_ans1_value: 'False'
     params_part4_ans2_value: 'True'
 ---

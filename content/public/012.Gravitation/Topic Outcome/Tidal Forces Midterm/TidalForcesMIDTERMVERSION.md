@@ -52,8 +52,8 @@ myst:
     params_vars_title: Tidal Forces
     params_vars_units: "$\rm{m/s^2}$"
     params_Me: 5.975999999999999e+24
-    params_Dse: 145
-    params_Dme: 384247
+    params_Dse: 149
+    params_Dme: 384355
     params_part3_ans1_value: $\rm{A}$
     params_part3_ans2_value: $\rm{B}$
     params_part3_ans3_value: $\rm{C}$

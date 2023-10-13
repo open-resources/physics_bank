@@ -58,8 +58,8 @@ part4:
 myst:
   substitutions:
     params_vars_title: Vehicle Around a Curve
-    params_vars_vehicle: sedan
-    params_rad: 103
+    params_vars_vehicle: car
+    params_rad: 184
     params_ang: 12
 ---
 # {{ params_vars_title }}

@@ -49,9 +49,9 @@ myst:
     params_vars_title: A Diver
     params_vars_unit1: $N$
     params_vars_unit2: degrees
-    params_m: 93.8
-    params_L: 2.69
-    params_d: 1.11
+    params_m: 84.1
+    params_L: 3.96
+    params_d: 1.63
 ---
 # {{ params_vars_title }}
 A $M = $ {{ params_m }} $kg$ diver stands at the edge of a diving board with length $L = $ {{ params_L }} $m$ and negligible mass. The diving board is supported by two narrow pillars. One pillar is located at the end of the diving board furthest from the water and the other is $d = $ {{ params_d }} $m$ towards the water, as shown in the figure.

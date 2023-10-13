@@ -31,11 +31,11 @@ part1:
 myst:
   substitutions:
     params_vars_title: Math Diagnostic09
-    params_expr: $b$ = $\dfrac{(d)}{(a + 10y)} $
-    params_part1_ans1_value: a = ${ - 10 y + \frac{d}{b}}$
-    params_part1_ans2_value: a = ${\frac{10 b y}{d}}$
-    params_part1_ans3_value: a = ${\frac{d}{10 b y}}$
-    params_part1_ans4_value: a = ${\frac{b - 10 y}{d}}$
+    params_expr: $c$ = $\dfrac{(q)}{(p - 4a)} $
+    params_part1_ans1_value: p = ${ 4 a + \frac{q}{c}}$
+    params_part1_ans2_value: p = ${- \frac{4 a c}{q}}$
+    params_part1_ans3_value: p = ${- \frac{q}{4 a c}}$
+    params_part1_ans4_value: p = ${\frac{4 a + c}{q}}$
     params_part1_ans5_value: Don't Know
 ---
 # {{ params_vars_title }}

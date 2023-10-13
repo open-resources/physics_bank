@@ -51,9 +51,9 @@ part2:
 myst:
   substitutions:
     params_vars_title: Series and Parallel Resistors
-    params_R1: '2.00'
-    params_R2: '4.25'
-    params_R3: '5.75'
+    params_R1: '2.50'
+    params_R2: '4.50'
+    params_R3: '7.00'
 ---
 # {{ params_vars_title }}
 Consider a ${{{ params_R1 }}}\times{10^{2}} \rm\ \Omega$, a ${{ params_R2 }}\rm\ k \Omega$, and a ${{ params_R3 }}\rm\ k \Omega$ resistor.

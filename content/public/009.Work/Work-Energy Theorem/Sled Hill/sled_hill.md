@@ -55,11 +55,11 @@ part5:
     suffix: m/s
 myst:
   substitutions:
-    params_vars_name: Emilia
+    params_vars_name: Aliyah
     params_vars_title: Sled Hill
-    params_angle: 5
-    params_h: 16
-    params_uk: 0.07
+    params_angle: 8
+    params_h: 15
+    params_uk: 0.14
     params_m: 90
 ---
 # {{ params_vars_title }}

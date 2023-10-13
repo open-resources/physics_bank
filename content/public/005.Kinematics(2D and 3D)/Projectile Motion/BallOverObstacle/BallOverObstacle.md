@@ -35,16 +35,16 @@ myst:
     params_vars_title: Ball Over Obstacle
     params_phrases_ball: soccer ball
     params_phrases_action: kicks
-    params_phrases_obstacle: fence
-    params_d: 91
-    params_h: 1
-    params_v: 59
-    params_theta: 16
-    params_part1_ans1_value: It clears the fence
-    params_part1_ans1_feedback: Correct!
-    params_part1_ans2_value: It hits the fence
-    params_part1_ans2_feedback: Try again...
-    params_part1_ans3_value: It doesn't even reach the fence
+    params_phrases_obstacle: tree
+    params_d: 48
+    params_h: 26
+    params_v: 58
+    params_theta: 26
+    params_part1_ans1_value: It clears the tree
+    params_part1_ans1_feedback: Try again...
+    params_part1_ans2_value: It hits the tree
+    params_part1_ans2_feedback: Correct!
+    params_part1_ans3_value: It doesn't even reach the tree
     params_part1_ans3_feedback: Try again...
 ---
 # {{ params_vars_title }}

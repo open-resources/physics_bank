@@ -70,12 +70,12 @@ myst:
     params_vars_units3: "$\rm{m}$"
     params_vars_units4: "$\rm{m/s^2}$"
     params_m: 0.30000000000000004
-    params_deg: 24
+    params_deg: 29
     params_h: 0
-    params_x: 3
-    params_k: 1000
-    params_a_a: 0.02
-    params_a_b: 0.04
+    params_x: 5
+    params_k: 900
+    params_a_a: 0.06
+    params_a_b: 0.12
 ---
 # {{ params_vars_title }}
 I have built a game that involves a spring, a smooth slope, and a little ball of $m = ${{params_m}} kg.

@@ -37,9 +37,9 @@ myst:
   substitutions:
     params_vars_title: Attaching The Mast
     params_vars_units: m/s
-    params_v: 10
-    params_theta: 139
-    params_d1: 2
+    params_v: 9
+    params_theta: 122
+    params_d1: 1
     params_d2: 6
 ---
 # {{ params_vars_title }}

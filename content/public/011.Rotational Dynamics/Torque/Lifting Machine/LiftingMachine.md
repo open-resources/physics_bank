@@ -45,12 +45,12 @@ part2:
 myst:
   substitutions:
     params_vars_title: Lifting Machine
-    params_r1: 0.3
-    params_r2: 0.09
-    params_r3: 0.32
-    params_r4: 0.11
-    params_thetaDot: 4
-    params_m: 33
+    params_r1: 0.1
+    params_r2: 0.1
+    params_r3: 0.4
+    params_r4: 0.13
+    params_thetaDot: 7
+    params_m: 35
 ---
 # {{ params_vars_title }}
 The machine illustrated below lifts a mass m by turning a pedal with radius $r_1 = {{params_r1}} \ \rm{m}$.

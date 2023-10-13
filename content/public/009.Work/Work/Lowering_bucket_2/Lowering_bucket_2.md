@@ -43,7 +43,7 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Santiago
+    params_vars_name: Abbas
     params_vars_title: Lowering a bucket - the rope, the bucket, the air, the earth
     params_part1_ans1_value: Open
     params_part1_ans2_value: Closed

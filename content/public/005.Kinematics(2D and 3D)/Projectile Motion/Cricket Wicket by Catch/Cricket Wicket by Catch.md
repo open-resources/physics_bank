@@ -89,9 +89,9 @@ part6:
     digits: 2
 myst:
   substitutions:
-    params_a: 41
-    params_u: 17
-    params_d: 58
+    params_a: 60
+    params_u: 47
+    params_d: 59
     params_a_w: 3
 ---
 # Cricket Wicket By Catch

@@ -46,10 +46,10 @@ myst:
     params_vars_title: Ball Bouncing off a Wall
     params_vars_units1: $\frac{kg*m}{s}$
     params_vars_units2: $N$
-    params_m: 4
-    params_v: 14
-    params_theta: 40
-    params_t: 0.56
+    params_m: 10
+    params_v: 5
+    params_theta: 38
+    params_t: 0.769
 ---
 # {{ params_vars_title }}
 A {{params_m}} kg steel bass strikes a massive wall at {{params_v}} m/s at an angle of {{params_theta}} degrees with the plane of the wall.

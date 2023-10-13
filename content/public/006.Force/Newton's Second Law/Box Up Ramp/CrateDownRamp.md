@@ -36,10 +36,10 @@ part1:
 myst:
   substitutions:
     params_vars_title: Crate Down Ramp
-    params_nu: 0.59
-    params_theta: 27
-    params_m: 12
-    params_T: 39
+    params_nu: 0.39
+    params_theta: 17
+    params_m: 11
+    params_T: 80
 ---
 # {{ params_vars_title }}
 A ${{params_m}} \ \rm{kg}$ crate is sliding down a ${{params_theta}}^{\circ}$ slope. A man attempts to stop it by pulling uphill on a rope parallel to the slope.

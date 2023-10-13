@@ -59,12 +59,12 @@ part4:
 myst:
   substitutions:
     params_vars_title: Potato Density
-    params_vars_name: Abbas
+    params_vars_name: Maya
     params_vars_unit1: $kg$
     params_vars_unit2: $m^3$
-    params_m_p: 266
-    params_m_cp: 129
-    params_l: 2
+    params_m_p: 206
+    params_m_cp: 67
+    params_l: 4
 ---
 # {{ params_vars_title }}
 For their first lab, {{ params_vars_name }} decides to measure the density of a potato.

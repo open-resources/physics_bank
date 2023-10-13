@@ -42,8 +42,8 @@ part2:
 myst:
   substitutions:
     params_vars_title: Centrifuge Acceleration
-    params_v: 3300.0
-    params_t: 1.6
+    params_v: 4300.0
+    params_t: 2.4
     params_r: 6
 ---
 # {{ params_vars_title }}
