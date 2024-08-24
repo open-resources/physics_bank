@@ -67,15 +67,21 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Power And Energy Through Resistor
-    params_V: 28
-    params_R: 25
-    params_part4_ans1_value: It is converted into light energy.
-    params_part4_ans2_value: It is converted into heat.
-    params_part4_ans3_value: It is converted into chemical energy.
+    params:
+      vars:
+        title: Power And Energy Through Resistor
+      V: 23
+      R: 5
+      part4:
+        ans1:
+          value: It is converted into light energy.
+        ans2:
+          value: It is converted into heat.
+        ans3:
+          value: It is converted into chemical energy.
 ---
-# {{ params_vars_title }}
-A {{params_V}} $\textrm{ V}$ battery is used to supply current to a {{params_R} $\rm\ k\Omega$ resistor.
+# {{ params.vars.title }}
+A {{params.V}} $\textrm{ V}$ battery is used to supply current to a {{params.R} $\rm\ k\Omega$ resistor.
 Assume the voltage drop across any wires used for connections is negligible.
 
 ## Part 1
@@ -85,11 +91,6 @@ What is the current through the resistor?
 ### Answer Section
 
 Please enter a numeric value.
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-{{ feedback.part1_ans }}
 
 ## Part 2
 
@@ -113,9 +114,9 @@ What happens to the energy dissipated by the resistor?
 
 ### Answer Section
 
-- {{ params_part4_ans1_value }}
-- {{ params_part4_ans2_value }}
-- {{ params_part4_ans3_value }}
+- {{ params.part4.ans1.value }}
+- {{ params.part4.ans2.value }}
+- {{ params.part4.ans3.value }}
 
 ## Attribution
 

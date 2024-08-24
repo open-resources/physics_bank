@@ -30,25 +30,31 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Particle Body Theory
-    params_part1_ans1_value: The analysis is concerned only with the motion of the
-      center of mass
-    params_part1_ans2_value: The dimensions of the object are small compared to those
-      of surrounding objects
-    params_part1_ans3_value: The forces acting on the body are non-concurrent
-    params_part1_ans4_value: The mass of the body is negligible
+    params:
+      vars:
+        title: Particle Body Theory
+      part1:
+        ans1:
+          value: The analysis is concerned only with the motion of the center of mass
+        ans2:
+          value: The dimensions of the object are small compared to those of surrounding
+            objects
+        ans3:
+          value: The forces acting on the body are non-concurrent
+        ans4:
+          value: The mass of the body is negligible
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Rectilinear motion of an object can be simplified by treating the motion of the body as a particle if:
 
 ## Part 1
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

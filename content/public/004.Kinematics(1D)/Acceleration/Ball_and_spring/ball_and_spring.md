@@ -65,22 +65,24 @@ part5:
     source-file-name: sample.html
 myst:
   substitutions:
-    params_vars_title: Ball and a spring
-    params_vars_units1_2: "$\rm{m/s}$"
-    params_vars_units3: "$\rm{m}$"
-    params_vars_units4: "$\rm{m/s^2}$"
-    params_m: 0.30000000000000004
-    params_deg: 29
-    params_h: 0
-    params_x: 5
-    params_k: 900
-    params_a_a: 0.06
-    params_a_b: 0.12
+    params:
+      vars:
+        title: Ball and a spring
+        units1_2: "$\rm{m/s}$"
+        units3: "$\rm{m}$"
+        units4: "$\rm{m/s^2}$"
+      m: 0.2
+      deg: 24
+      h: 0
+      x: 2
+      k: 800
+      a_a: 0.05
+      a_b: 0.1
 ---
-# {{ params_vars_title }}
-I have built a game that involves a spring, a smooth slope, and a little ball of $m = ${{params_m}} kg.
-The slope is {{params_deg}}$^{\circ}$ above the horizontal.
-The spring is placed into a small hole such that when it is compressed to the proper starting position, and the ball is placed upon it, the ball will be at the height $h = ${{params_h}} m. The spring has been compressed by 3 cm and has a spring constant of $k = ${{params_k}} N/m.
+# {{ params.vars.title }}
+I have built a game that involves a spring, a smooth slope, and a little ball of $m = ${{params.m}} kg.
+The slope is {{params.deg}}$^{\circ}$ above the horizontal.
+The spring is placed into a small hole such that when it is compressed to the proper starting position, and the ball is placed upon it, the ball will be at the height $h = ${{params.h}} m. The spring has been compressed by 3 cm and has a spring constant of $k = ${{params.k}} N/m.
 
 ## Part 1
 
@@ -105,7 +107,7 @@ What is the maximum DISTANCE the ball reaches from the bottom of the slope?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units3 }}.
+Please enter in a numeric value in {{ params.vars.units3 }}.
 
 ## Part 4
 

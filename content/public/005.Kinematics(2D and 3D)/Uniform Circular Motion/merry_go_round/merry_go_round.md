@@ -50,13 +50,15 @@ part3:
     directory: clientFilesQuestion
 myst:
   substitutions:
-    params_V: 2.1
-    params_T: 2.1
-    params_R: 5.0
-    params_vars_title: Merry Go Round
+    params:
+      V: 2.6
+      T: 2.7
+      R: 6.9
+      vars:
+        title: Merry Go Round
 ---
-# {{ params_vars_title }}
-A boy on a merry-go-round (a solid horizontal platform that rotates about its centre) is rotating at ${{ params_V }}$ m/s . He jumps vertically into the air and returns to the merry-go-round height ${{ params_T }}$ s later.
+# {{ params.vars.title }}
+A boy on a merry-go-round (a solid horizontal platform that rotates about its centre) is rotating at ${{ params.V }}$ m/s . He jumps vertically into the air and returns to the merry-go-round height ${{ params.T }}$ s later.
 
 ## Part 1
 
@@ -76,7 +78,7 @@ Answer in 2-3 sentences, try and use full sentences.
 
 ## Part 3
 
-If the boy is initially at the edge of the merry-go-round, and the merry-go-round has a ${{ params_R }}$ m radius, at what distance from the centre of the merry-go-round does the boy return to his original height?
+If the boy is initially at the edge of the merry-go-round, and the merry-go-round has a ${{ params.R }}$ m radius, at what distance from the centre of the merry-go-round does the boy return to his original height?
 
 ### Answer Section
 

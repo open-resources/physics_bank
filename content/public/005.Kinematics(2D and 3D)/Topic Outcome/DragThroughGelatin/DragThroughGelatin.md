@@ -42,27 +42,29 @@ part2:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_title: Drag Through Jello
-    params_vars_units: m/s
-    params_v: 13
-    params_t: 4.91
-    params_theta: 41
-    params_k: 0.6
+    params:
+      vars:
+        title: Drag Through Jello
+        units: m/s
+      v: 10
+      t: 2.56
+      theta: 38
+      k: 0.4
 ---
-# {{ params_vars_title }}
-A projectile is shot into cherry Jello with velocity $v = {{ params_v }} \ \rm{m/s}$ at an angle $\theta = {{ params_theta }} ^{\circ}$ in the xy plane.
+# {{ params.vars.title }}
+A projectile is shot into cherry Jello with velocity $v = {{ params.v }} \ \rm{m/s}$ at an angle $\theta = {{ params.theta }} ^{\circ}$ in the xy plane.
 While in the Jello, the acceleration is subject to drag based on the tangential path the projectile travels.
-The acceleration along the tangential path is given by $a = -kv$, where $k = {{ params_k }}$ is a constant and $v$ is the velocity of the projectile.
+The acceleration along the tangential path is given by $a = -kv$, where $k = {{ params.k }}$ is a constant and $v$ is the velocity of the projectile.
 
 ## Part 1
 
-What is the x-velocity at $t = {{ params_t }} \ \rm{s}$
+What is the x-velocity at $t = {{ params.t }} \ \rm{s}$
 
 ### Answer Section
 
 ## Part 2
 
-What is the y-velocity at $t = {{ params_t }} \ \rm{s}$
+What is the y-velocity at $t = {{ params.t }} \ \rm{s}$
 
 ### Answer Section
 

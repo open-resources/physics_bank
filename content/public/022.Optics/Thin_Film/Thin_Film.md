@@ -93,20 +93,24 @@ part8:
     suffix: nm
 myst:
   substitutions:
-    params_vars_title: Thin Film
-    params_v: 479
-    params_t: 101
-    params_part1_ans1_value: 'in phase causing constructive interference of the reflected
-      light. '
-    params_part1_ans2_value: 'out of phase causing destructive interference of the
-      reflected light. '
-    params_part7_ans1_value: 'in phase causing constructive interference of the reflected
-      light. '
-    params_part7_ans2_value: 'out of phase causing destructive interference of the
-      reflected light. '
+    params:
+      vars:
+        title: Thin Film
+      v: 611
+      t: 148
+      part1:
+        ans1:
+          value: 'in phase causing constructive interference of the reflected light. '
+        ans2:
+          value: 'out of phase causing destructive interference of the reflected light. '
+      part7:
+        ans1:
+          value: 'in phase causing constructive interference of the reflected light. '
+        ans2:
+          value: 'out of phase causing destructive interference of the reflected light. '
 ---
-# {{ params_vars_title }}
-Light of wavelength $\lambda\_{\text{air}}$ = {{ params_v}} nm is incident (from the air, $n\_{air} = 1.00$) on a thin film of unknown index of refraction and thickness. The film is attached to a glass surface ($n\_{\text{glass}} = 1.5$).  The path length difference traveled by the light reflecting from the front and back surfaces of the film corresponds to $\frac{\lambda\_{\text{film}}}{2}$ (half a wavelength). Light reflecting off both the front and back surfaces of the film experiences a $\pi$ rad (initial) phase shift.
+# {{ params.vars.title }}
+Light of wavelength $\lambda\_{\text{air}}$ = {{ params.v}} nm is incident (from the air, $n\_{air} = 1.00$) on a thin film of unknown index of refraction and thickness. The film is attached to a glass surface ($n\_{\text{glass}} = 1.5$).  The path length difference traveled by the light reflecting from the front and back surfaces of the film corresponds to $\frac{\lambda\_{\text{film}}}{2}$ (half a wavelength). Light reflecting off both the front and back surfaces of the film experiences a $\pi$ rad (initial) phase shift.
 
 ## Part 1
 
@@ -114,12 +118,8 @@ This implies that the reflected light from these two reflections will be;
 
 ### Answer Section
 
-- {{ params.part1.ans1}} {{ params_vars.units}}
-- {{ params.part1.ans2}} {{ params_vars.units}}
-
-### pl-submission-panel
-
-### pl-answer-panel
+- {{ params.part1.ans1}} {{ params.vars.units}}
+- {{ params.part1.ans2}} {{ params.vars.units}}
 
 ## Part 2
 
@@ -127,13 +127,7 @@ What must the product of the film thickness and the film's index of refraction b
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars.units }}.
-
-### pl-submission-panel
-
-{{ feedback.part2_ans }}
-
-### pl-answer-panel
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 3
 
@@ -141,25 +135,13 @@ In order for both reflections to experience $\pi$ rad phase shifts, what range o
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars.units }}.
-
-### pl-submission-panel
-
-{{ feedback.part3_ans }}
-
-### pl-answer-panel
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## 
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars.units }}.
-
-### pl-submission-panel
-
-{{ feedback.part4_ans }}
-
-### pl-answer-panel
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 4
 
@@ -167,27 +149,15 @@ What is the lower limit on how thick the film could be, given your answers to on
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars.units }}.
-
-### pl-submission-panel
-
-{{ feedback.part5_ans }}
-
-### pl-answer-panel
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 5
 
-If the thin film had a thickness of {{ params_t }}nm, what index of refraction would the thin film have to have?
+If the thin film had a thickness of {{ params.t }}nm, what index of refraction would the thin film have to have?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars.units }}.
-
-### pl-submission-panel
-
-{{ feedback.part6_ans }}
-
-### pl-answer-panel
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 6
 
@@ -195,12 +165,8 @@ If the film thickness was now doubled, the reflected light from the front and ba
 
 ### Answer Section
 
-- {{ params.part7.ans1}} {{ params_vars.units}}
-- {{ params.part7.ans2}} {{ params_vars.units}}
-
-### pl-submission-panel
-
-### pl-answer-panel
+- {{ params.part7.ans1}} {{ params.vars.units}}
+- {{ params.part7.ans2}} {{ params.vars.units}}
 
 ## Part 7
 
@@ -208,13 +174,7 @@ If you were to design anti-reflective coatings for glasses with this thin film m
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars.units }}.
-
-### pl-submission-panel
-
-{{ feedback.part8_ans }}
-
-### pl-answer-panel
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

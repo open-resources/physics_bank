@@ -30,14 +30,22 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Time Dependent Magnetic Field
-    params_part1_ans1_value: $\frac{-Cab^2{\omega}}{2}$cos(${\omega}t$)
-    params_part1_ans2_value: $\frac{Cab^2{\omega}}{2}$cos(${\omega}t$)
-    params_part1_ans3_value: $\frac{-Cab^2{\omega}}{2}$sin(${\omega}t$)
-    params_part1_ans4_value: $\frac{Cab^2{\omega}}{2}$sin(${\omega}t$)
-    params_part1_ans5_value: $-Cab{\omega}$sin(${\omega}t$)
+    params:
+      vars:
+        title: Time Dependent Magnetic Field
+      part1:
+        ans1:
+          value: $\frac{-Cab^2{\omega}}{2}$cos(${\omega}t$)
+        ans2:
+          value: $\frac{Cab^2{\omega}}{2}$cos(${\omega}t$)
+        ans3:
+          value: $\frac{-Cab^2{\omega}}{2}$sin(${\omega}t$)
+        ans4:
+          value: $\frac{Cab^2{\omega}}{2}$sin(${\omega}t$)
+        ans5:
+          value: $-Cab{\omega}$sin(${\omega}t$)
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -47,11 +55,11 @@ A rectangular wire loop with length $a$ and width $b$ lies in the xy-plane, as s
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

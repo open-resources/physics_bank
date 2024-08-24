@@ -49,17 +49,22 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Unknown Voltage Source
-    params_dV: '2.40'
-    params_dI: '5.20'
-    params_part2_ans1_value: 'No'
-    params_part2_ans2_value: 'Yes'
+    params:
+      vars:
+        title: Unknown Voltage Source
+      dV: '2.50'
+      dI: '5.00'
+      part2:
+        ans1:
+          value: 'No'
+        ans2:
+          value: 'Yes'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
-What is the internal resistance of a voltage source if its terminal potential drops by ${{ params_dV }}\rm\ V$ when the current supplied increases by ${{ params_dI }}\rm\ A$?
+What is the internal resistance of a voltage source if its terminal potential drops by ${{ params.dV }}\rm\ V$ when the current supplied increases by ${{ params.dI }}\rm\ A$?
 
 ### Answer Section
 
@@ -73,15 +78,6 @@ Can the emf of the voltage source be found with the information supplied?
 
 - {{ params.part1.ans1.value }}
 - {{ params.part1.ans2.value }}
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$R=$ {{ correct_answers.part1_ans_str }} $\rm\ \Omega$
 
 ## Attribution
 

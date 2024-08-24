@@ -31,17 +31,23 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Broken-down Cruise Ship
-    params_part1_ans1_value: Has the same magnitude as the weight of the ship.
-    params_part1_ans2_value: Is greater than the weight of the ship.
-    params_part1_ans3_value: Is exactly balanced by the total force that resists the
-      ship's motion.
-    params_part1_ans4_value: Is greater than the total force that resists the ship's
-      motion.
-    params_part1_ans5_value: Is greater than both the total force that resists the
-      ship's motion and the weight of the ship.
+    params:
+      vars:
+        title: Broken-down Cruise Ship
+      part1:
+        ans1:
+          value: Has the same magnitude as the weight of the ship.
+        ans2:
+          value: Is greater than the weight of the ship.
+        ans3:
+          value: Is exactly balanced by the total force that resists the ship's motion.
+        ans4:
+          value: Is greater than the total force that resists the ship's motion.
+        ans5:
+          value: Is greater than both the total force that resists the ship's motion
+            and the weight of the ship.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A broken-down cruise ship is towed through the water by a tug boat at constant velocity.
 
 ## Part 1
@@ -50,11 +56,11 @@ The constant force applied to the ship by the cable that joins the ship to the t
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

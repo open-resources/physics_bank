@@ -34,16 +34,20 @@ part1:
     suffix: $^{\circ}$
 myst:
   substitutions:
-    params_vars_title: Person Standing On Earth
-    params_mu: 0.74
-    params_m: 74
-    params_alpha: 6
-    params_part4_ans2_value: 'False'
+    params:
+      vars:
+        title: Person Standing On Earth
+      mu: 0.66
+      m: 82
+      alpha: 26
+      part4:
+        ans2:
+          value: 'False'
 ---
-# {{ params_vars_title }}
-A person of mass $m = {{ params_m }} \ \rm{kg}$ is standing on a longitudinal line (line which runs along the outer edge from North to South) on the surface of the Earth.
+# {{ params.vars.title }}
+A person of mass $m = {{ params.m }} \ \rm{kg}$ is standing on a longitudinal line (line which runs along the outer edge from North to South) on the surface of the Earth.
 Treat the person as a particle and neglect aerodynamic drag.
-$\alpha = {{ params_alpha }}^{\circ}$
+$\alpha = {{ params.alpha }}^{\circ}$
 
 ## Part 1
 

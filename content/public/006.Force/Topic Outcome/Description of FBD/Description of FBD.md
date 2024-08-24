@@ -30,17 +30,22 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Description of FBD
-    params_part1_ans1_value: Excluding all bodies which contact and exert forces on
-      the system and replacing them by vectors representing the forces and moments
-      they exert on the isolated system.
-    params_part1_ans2_value: Including all bodies which contact and exert forces on
-      the system.
-    params_part1_ans3_value: Which does not contain any forces.
-    params_part1_ans4_value: Excluding all bodies which contact and exert forces on
-      the system.
+    params:
+      vars:
+        title: Description of FBD
+      part1:
+        ans1:
+          value: Excluding all bodies which contact and exert forces on the system
+            and replacing them by vectors representing the forces and moments they
+            exert on the isolated system.
+        ans2:
+          value: Including all bodies which contact and exert forces on the system.
+        ans3:
+          value: Which does not contain any forces.
+        ans4:
+          value: Excluding all bodies which contact and exert forces on the system.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -48,10 +53,10 @@ A free-body diagram consists of a closed outline of the external boundary of the
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

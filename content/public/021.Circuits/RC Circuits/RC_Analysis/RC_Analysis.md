@@ -53,10 +53,12 @@ part4:
     suffix: J
 myst:
   substitutions:
-    params_vars_title: RC Circuit Analysis
-    params_capacitor: '1'
+    params:
+      vars:
+        title: RC Circuit Analysis
+      capacitor: '4'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="RC.png" width="400">
 
 ## Part 1
@@ -71,10 +73,6 @@ Finally, upload your work as a png file named "circuit1"
 
 File upload box will be shown here.
 
-### pl-submission-panel
-
-### pl-answer-panel
-
 ## Part 2
 
 Find the time constant for this circuit.
@@ -82,12 +80,6 @@ Find the time constant for this circuit.
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
-
-### pl-submission-panel
-
-{{ feedback.part2_ans }}
-
-### pl-answer-panel
 
 ## Part 3
 
@@ -99,23 +91,13 @@ Upload your work as a png file named "circuit2"
 
 File upload box will be shown here.
 
-### pl-submission-panel
-
-### pl-answer-panel
-
 ## Part 4
 
-Find the energy stored on the {{ params_capacitor}} $\mu$F capacitor when it is fully charged.
+Find the energy stored on the {{ params.capacitor}} $\mu$F capacitor when it is fully charged.
 
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
-
-### pl-submission-panel
-
-{{ feedback.part4_ans }}
-
-### pl-answer-panel
 
 ## Attribution
 

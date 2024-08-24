@@ -46,15 +46,17 @@ part3:
     suffix: $^\circ$
 myst:
   substitutions:
-    params_vars_title: A Diver
-    params_vars_unit1: $N$
-    params_vars_unit2: degrees
-    params_m: 84.1
-    params_L: 3.96
-    params_d: 1.63
+    params:
+      vars:
+        title: A Diver
+        unit1: $N$
+        unit2: degrees
+      m: 80.7
+      L: 4.51
+      d: 1.51
 ---
-# {{ params_vars_title }}
-A $M = $ {{ params_m }} $kg$ diver stands at the edge of a diving board with length $L = $ {{ params_L }} $m$ and negligible mass. The diving board is supported by two narrow pillars. One pillar is located at the end of the diving board furthest from the water and the other is $d = $ {{ params_d }} $m$ towards the water, as shown in the figure.
+# {{ params.vars.title }}
+A $M = $ {{ params.m }} $kg$ diver stands at the edge of a diving board with length $L = $ {{ params.L }} $m$ and negligible mass. The diving board is supported by two narrow pillars. One pillar is located at the end of the diving board furthest from the water and the other is $d = $ {{ params.d }} $m$ towards the water, as shown in the figure.
 
 <img src="diver.png" width=400 alt="A diver stands at the right edge of a diving board of length L metres supported by two pillars A and B which are d metres apart. Pillar A touches the left end of the board.">
 
@@ -74,7 +76,7 @@ Find the magnitude of the force exerted on the diving board by pillar $B$ ($F_B$
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_unit1 }}.
+Please enter in a numeric value in {{ params.vars.unit1 }}.
 
 ## Part 3
 
@@ -82,7 +84,7 @@ Find the direction, $\theta$, of the force exerted on the diving board by pillar
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_unit2 }}.
+Please enter in a numeric value in {{ params.vars.unit2 }}.
 
 ## Attribution
 

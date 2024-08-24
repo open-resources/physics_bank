@@ -35,17 +35,19 @@ part1:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_title: Projectile Motion of a Dart
-    params_l: 1.73
-    params_theta: 50
-    params_d: 2
-    params_h: 1.01
+    params:
+      vars:
+        title: Projectile Motion of a Dart
+      l: 1.61
+      theta: 57
+      d: 3
+      h: 1.21
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="ProjDart.png" width=90%>
 
-A person is throwing a dart board that is $h = {{ params_h }} \ \rm{m}$ above the floor, and the person is $d = {{ params_d }} \ \rm{m}$ away from the dart board.
-The height the dart is released at is $l = {{ params_l }} \ \rm{m}$, and the angle that the dart is thrown at is $\theta = {{ params_theta }}^{\circ}$.
+A person is throwing a dart board that is $h = {{ params.h }} \ \rm{m}$ above the floor, and the person is $d = {{ params.d }} \ \rm{m}$ away from the dart board.
+The height the dart is released at is $l = {{ params.l }} \ \rm{m}$, and the angle that the dart is thrown at is $\theta = {{ params.theta }}^{\circ}$.
 
 ## Part 1
 

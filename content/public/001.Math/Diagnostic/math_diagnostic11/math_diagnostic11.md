@@ -30,28 +30,36 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Math Diagnostic11
-    params_a: 3
-    params_b: 6
-    params_c: 1
-    params_part1_ans1_value: x = -1.8, x = -0.18
-    params_part1_ans2_value: x = 1.8, x = 0.18
-    params_part1_ans3_value: x = 6, x = 1
-    params_part1_ans4_value: x = 3, x = 6
-    params_part1_ans5_value: Don't Know
+    params:
+      vars:
+        title: Math Diagnostic11
+      a: 1
+      b: 7
+      c: 1
+      part1:
+        ans1:
+          value: x = -6.9, x = -0.15
+        ans2:
+          value: x = 6.9, x = 0.15
+        ans3:
+          value: x = 7, x = 1
+        ans4:
+          value: x = 1, x = 7
+        ans5:
+          value: Don't Know
 ---
-# {{ params_vars_title }}
-The solutions of the quadratic equation {{params_a}}$x^2$ + {{params_b}}$x$ + {{params_c}} = 0 are:
+# {{ params.vars.title }}
+The solutions of the quadratic equation {{params.a}}$x^2$ + {{params.b}}$x$ + {{params.c}} = 0 are:
 
 ## Part 1
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

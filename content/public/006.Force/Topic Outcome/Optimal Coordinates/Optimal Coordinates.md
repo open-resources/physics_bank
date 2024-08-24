@@ -30,13 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Optimal Coordinates
-    params_part1_ans1_value: Rectangular
-    params_part1_ans2_value: N-T
-    params_part1_ans3_value: Polar
-    params_part1_ans4_value: Cartesian
+    params:
+      vars:
+        title: Optimal Coordinates
+      part1:
+        ans1:
+          value: Rectangular
+        ans2:
+          value: N-T
+        ans3:
+          value: Polar
+        ans4:
+          value: Cartesian
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -44,10 +51,10 @@ A car is travelling around the semi-circle portion of a race track. What coordin
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

@@ -48,15 +48,26 @@ part3:
     fixed-order: true
 myst:
   substitutions:
-    params_vars_title: Possible Forces on a Charge
-    params_part1_ans1_value: 'Yes'
-    params_part1_ans2_value: 'No'
-    params_part2_ans1_value: 'Yes'
-    params_part2_ans2_value: 'No'
-    params_part3_ans1_value: 'Yes'
-    params_part3_ans2_value: 'No'
+    params:
+      vars:
+        title: Possible Forces on a Charge
+      part1:
+        ans1:
+          value: 'Yes'
+        ans2:
+          value: 'No'
+      part2:
+        ans1:
+          value: 'Yes'
+        ans2:
+          value: 'No'
+      part3:
+        ans1:
+          value: 'Yes'
+        ans2:
+          value: 'No'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -64,8 +75,8 @@ Is it possible for the magnetic force on a charge moving in a magnetic field to 
 
 ### Answer Section
 
-- {{ params_part1_ans1_value}}
-- {{ params_part1_ans2_value}}
+- {{ params.part1.ans1.value}}
+- {{ params.part1.ans2.value}}
 
 ## Part 2
 
@@ -73,8 +84,8 @@ Is it possible for the electric force on a charge moving in an electric field to
 
 ### Answer Section
 
-- {{ params_part2_ans1_value}}
-- {{ params_part2_ans2_value}}
+- {{ params.part2.ans1.value}}
+- {{ params.part2.ans2.value}}
 
 ## Part 3
 
@@ -82,8 +93,8 @@ Is it possible for the resultant of the electric and magnetic forces on a charge
 
 ### Answer Section
 
-- {{ params_part3_ans1_value}}
-- {{ params_part3_ans2_value}}
+- {{ params.part3.ans1.value}}
+- {{ params.part3.ans2.value}}
 
 ## Attribution
 

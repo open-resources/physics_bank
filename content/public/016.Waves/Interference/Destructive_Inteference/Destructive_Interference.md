@@ -31,26 +31,34 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_units: m
-    params_vars_title: Destructive Interference
-    params_f: 87
-    params_part1_ans1_value: '0.87'
-    params_part1_ans1_feedback: This is a random number, you probably selected this
-      choice by mistake!Try Again
-    params_part1_ans2_value: '0.9483'
-    params_part1_ans2_feedback: Great! You got it.
-    params_part1_ans3_value: '1.897'
-    params_part1_ans3_feedback: Hmm, It seems you missed a factor of multiplication;
-      Recall that this is a reflected wave!
-    params_part1_ans4_value: '21.75'
-    params_part1_ans4_feedback: Check your calculations!
-    params_part1_ans5_value: '3.793'
-    params_part1_ans5_feedback: Check your calculations again; Apply suitable formulas!
+    params:
+      vars:
+        units: m
+        title: Destructive Interference
+      f: 80
+      part1:
+        ans1:
+          value: '0.8'
+          feedback: This is a random number, you probably selected this choice by
+            mistake!Try Again
+        ans2:
+          value: '1.031'
+          feedback: Great! You got it.
+        ans3:
+          value: '2.063'
+          feedback: Hmm, It seems you missed a factor of multiplication; Recall that
+            this is a reflected wave!
+        ans4:
+          value: '20.0'
+          feedback: Check your calculations!
+        ans5:
+          value: '4.125'
+          feedback: Check your calculations again; Apply suitable formulas!
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="reflections.png" width="400">
 
-In a factory a loud sound of frequency {{ params_f}} Hz and speed 330.0 m/s is bothering workers.  Sound engineers suggest the installation of a second wall a distance $L$ in front of a large flat wall in the room as shown by the dashed line in the figure. If built, some sound waves will reflect off the second wall, while others reflect off the large flat wall as shown by the arrows in the figure.
+In a factory a loud sound of frequency {{ params.f}} Hz and speed 330.0 m/s is bothering workers.  Sound engineers suggest the installation of a second wall a distance $L$ in front of a large flat wall in the room as shown by the dashed line in the figure. If built, some sound waves will reflect off the second wall, while others reflect off the large flat wall as shown by the arrows in the figure.
 
 ## Part 1
 
@@ -58,15 +66,11 @@ In order to achieve destructive interference of these two reflected sound waves,
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params_vars_units}}
-- {{ params_part1_ans2_value }} {{ params_vars_units}}
-- {{ params_part1_ans3_value }} {{ params_vars_units}}
-- {{ params_part1_ans4_value }} {{ params_vars_units}}
-- {{ params_part1_ans5_value }} {{ params_vars_units}}
-
-### pl-submission-panel
-
-### pl-answer-panel
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

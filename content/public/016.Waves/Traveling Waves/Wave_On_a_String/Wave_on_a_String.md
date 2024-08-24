@@ -31,27 +31,35 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Traveling Wave on a String
-    params_b: 8
-    params_c: 14
-    params_d: 8
-    params_wave_equation: D(x,t) = 8.00 cm * cos(14.0 rad/s * t - 8.0 rad/m * x +
-      π rad)
-    params_part1_ans1_value: '|Vᵧₘₐₓ| = 42,   |Vₓ|= 24'
-    params_part1_ans1_feedback: This is a random number, you probably selected this
-      choice by mistake! Try again
-    params_part1_ans2_value: '|Vᵧₘₐₓ| = 1.12,   |Vₓ| = 1.75'
-    params_part1_ans2_feedback: Correct!
-    params_part1_ans3_value: '|Vᵧₘₐₓ| = 112.0,   |Vₓ|= 1.75'
-    params_part1_ans3_feedback: Check your units!
-    params_part1_ans4_value: '|Vᵧₘₐₓ| = 1.71,   |Vₓ|= 2.4'
-    params_part1_ans4_feedback: There is mix in your chosen calculation values
-    params_part1_ans5_value: '|Vᵧₘₐₓ| = 1.12,   |Vₓ|= 0.571'
-    params_part1_ans5_feedback: Check the your Vₓ value
-    params_part1_ans6_value: '|Vᵧₘₐₓ| = 0.08,   |Vₓ|= 2.86'
-    params_part1_ans6_feedback: Try again!
+    params:
+      vars:
+        title: Traveling Wave on a String
+      b: 2
+      c: 25
+      d: 10
+      wave_equation: D(x,t) = 2.00 cm * cos(25.0 rad/s * t - 10.0 rad/m * x + π rad)
+      part1:
+        ans1:
+          value: '|Vᵧₘₐₓ| = 42,   |Vₓ|= 24'
+          feedback: This is a random number, you probably selected this choice by
+            mistake! Try again
+        ans2:
+          value: '|Vᵧₘₐₓ| = 0.5,   |Vₓ| = 2.5'
+          feedback: Correct!
+        ans3:
+          value: '|Vᵧₘₐₓ| = 50.0,   |Vₓ|= 2.5'
+          feedback: Check your units!
+        ans4:
+          value: '|Vᵧₘₐₓ| = 0.24,   |Vₓ|= 2.4'
+          feedback: There is mix in your chosen calculation values
+        ans5:
+          value: '|Vᵧₘₐₓ| = 0.5,   |Vₓ|= 0.08'
+          feedback: Check the your Vₓ value
+        ans6:
+          value: '|Vᵧₘₐₓ| = 0.02,   |Vₓ|= 2.0'
+          feedback: Try again!
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A traveling wave on a string satisfies
 {{ params.wave_equation }}
 
@@ -61,16 +69,12 @@ Find the maximum speed that any part of this string moves at, ($|v\_{y,max}|$), 
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params.vars.units}}
-- {{ params_part1_ans2_value }} {{ params.vars.units}}
-- {{ params_part1_ans3_value }} {{ params.vars.units}}
-- {{ params_part1_ans4_value }} {{ params.vars.units}}
-- {{ params_part1_ans5_value }} {{ params.vars.units}}
-- {{ params_part1_ans6_value }} {{ params.vars.units}}
-
-### pl-submission-panel
-
-### pl-answer-panel
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params.part1.ans6.value }} {{ params.vars.units}}
 
 ## Attribution
 

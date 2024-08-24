@@ -66,18 +66,30 @@ part6:
     weight: 1
 myst:
   substitutions:
-    params_d: 10
-    params_vars_title: Wave on a String 1
-    params_part5_ans1_value: Potential energy
-    params_part5_ans2_value: Kinetic energy
-    params_part5_ans3_value: Both potential and kinetic energy
-    params_part5_ans4_value: Neither potential nor kinetic energy
-    params_part6_ans1_value: Potential energy
-    params_part6_ans2_value: Kinetic energy
-    params_part6_ans3_value: Both potential and kinetic energy
-    params_part6_ans4_value: Neither potential nor kinetic energy
+    params:
+      d: 8
+      vars:
+        title: Wave on a String 1
+      part5:
+        ans1:
+          value: Potential energy
+        ans2:
+          value: Kinetic energy
+        ans3:
+          value: Both potential and kinetic energy
+        ans4:
+          value: Neither potential nor kinetic energy
+      part6:
+        ans1:
+          value: Potential energy
+        ans2:
+          value: Kinetic energy
+        ans3:
+          value: Both potential and kinetic energy
+        ans4:
+          value: Neither potential nor kinetic energy
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Useful Info
 
@@ -85,22 +97,13 @@ Waves on a string satisfy $v = f \psi = w/k = \sqrt{T_s u}$ , where $f$ is the f
 
 ## Part 1
 
-A standing wave on a string fixed at x = 0.00m and at x = {{params_d}}m satisfies y(x, t) = 2Asin(kx)cos(t).
+A standing wave on a string fixed at x = 0.00m and at x = {{params.d}}m satisfies y(x, t) = 2Asin(kx)cos(t).
 
 At $x = 0.10 m$, a fixed string implies that $y(x = 0.1,t) = 0$. What values of the wave number, $k$, are possible? Express your answer as a formula in terms of a number, $ \pi $, and $m$, with units of $rad/m$.
 
 ### Answer Section
 
 Please enter a numeric value in $ \pi m$.
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-Everything here will get inserted directly into an pl-answer-panel element at the end of the `question.html`.
-Please remove this section if it is not application for this question.
 
 ## Part 2
 
@@ -112,15 +115,6 @@ Note that the longest wavelength allowed by the boundary conditions is associate
 
 Please enter in a numeric value in $m$.
 
-### pl-submission-panel
-
-{{ feedback.part2_ans }}
-
-### pl-answer-panel
-
-Everything here will get inserted directly into an pl-answer-panel element at the end of the `question.html`.
-Please remove this section if it is not application for this question.
-
 ## Part 3
 
 For the fundamental frequency, what is the displacement (the value of $y$) of this wave at $x = 0.05 m$ at $t = 0 s$? Express your answer as a formula in terms of numbers and A.
@@ -129,29 +123,11 @@ $w = (2 \pi )/T$
 
 ### Answer Section
 
-### pl-submission-panel
-
-{{ feedback.part3_ans }}
-
-### pl-answer-panel
-
-Everything here will get inserted directly into an pl-answer-panel element at the end of the `question.html`.
-Please remove this section if it is not application for this question.
-
 ## Part 4
 
 For the fundamental frequency, what is the displacement (the value of $y$) of this wave at $x = 0.05 m$ at $t = T/4$, where $T$ is the period of the fundamental mode?
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ feedback.part4_ans }}
-
-### pl-answer-panel
-
-Everything here will get inserted directly into an pl-answer-panel element at the end of the `question.html`.
-Please remove this section if it is not application for this question.
 
 ## Part 5
 
@@ -159,19 +135,10 @@ For the fundamental frequency, what type(s) of energy does this wave have at $t 
 
 ### Answer Section
 
-- {{ params_part5_ans1_value }}
-- {{ params_part5_ans2_value }}
-- {{ params_part5_ans3_value }}
-- {{ params_part5_ans4_value }}
-
-### pl-submission-panel
-
-{{ feedback.part5_ans }}
-
-### pl-answer-panel
-
-Everything here will get inserted directly into an pl-answer-panel element at the end of the `question.html`.
-Please remove this section if it is not application for this question.
+- {{ params.part5.ans1.value }}
+- {{ params.part5.ans2.value }}
+- {{ params.part5.ans3.value }}
+- {{ params.part5.ans4.value }}
 
 ## Part 6
 
@@ -179,19 +146,10 @@ For the fundamental frequency, what type(s) of energy does this wave have at $t 
 
 ### Answer Section
 
-- {{ params_part6_ans1_value }}
-- {{ params_part6_ans2_value }}
-- {{ params_part6_ans3_value }}
-- {{ params_part6_ans4_value }}
-
-### pl-submission-panel
-
-{{ feedback.part6_ans }}
-
-### pl-answer-panel
-
-Everything here will get inserted directly into an pl-answer-panel element at the end of the `question.html`.
-Please remove this section if it is not application for this question.
+- {{ params.part6.ans1.value }}
+- {{ params.part6.ans2.value }}
+- {{ params.part6.ans3.value }}
+- {{ params.part6.ans4.value }}
 
 ## Attribution
 

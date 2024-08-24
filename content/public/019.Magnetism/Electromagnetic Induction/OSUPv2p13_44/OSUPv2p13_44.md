@@ -41,22 +41,27 @@ part2:
     blank: true
 myst:
   substitutions:
-    params_vars_title: Moving Rod
-    params_r: '5'
-    params_v: '5'
-    params_B: '1.75'
-    params_a: '5'
-    params_part2_ans1_value: Clockwise
-    params_part2_ans2_value: Counterclockwise
+    params:
+      vars:
+        title: Moving Rod
+      r: '5'
+      v: '3'
+      B: '1.50'
+      a: '9'
+      part2:
+        ans1:
+          value: Clockwise
+        ans2:
+          value: Counterclockwise
 ---
-# {{ params_vars_title }}
-In the accompanying figure, the rails, connecting end piece, and rod all have a resistance per unit length of ${{params_r }}$ $\rm\ \Omega$$/$$\textrm{cm}$. The rod moves to the left at a $v=$ ${{params_v }} \textrm{ m/s}$.
+# {{ params.vars.title }}
+In the accompanying figure, the rails, connecting end piece, and rod all have a resistance per unit length of ${{params.r }}$ $\rm\ \Omega$$/$$\textrm{cm}$. The rod moves to the left at a $v=$ ${{params.v }} \textrm{ m/s}$.
 
 <img src="Fig13_44.png">
 
 ## Part 1
 
-If $B=$ ${{params_B }} \textrm{ T}$ everywhere in the region, what is the magnitude of the induced current in the circuit when $a=$ ${{params_a }} \textrm{ cm}$?
+If $B=$ ${{params.B }} \textrm{ T}$ everywhere in the region, what is the magnitude of the induced current in the circuit when $a=$ ${{params.a }} \textrm{ cm}$?
 
 ### Answer Section
 
@@ -68,15 +73,8 @@ Does the induced current circulate clockwise or counterclockwise?
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
 
 ## Attribution
 

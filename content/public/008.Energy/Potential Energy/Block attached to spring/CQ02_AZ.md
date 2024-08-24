@@ -32,13 +32,18 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_part1_ans1_value: Increases, because the block now has more stored elastic
-      potential energy initially.
-    params_part1_ans2_value: Decreases, because a greater stiffness constant results
-      in a larger decelerating force, hence the new spring can do the same negative
-      work in a shorter distance.
-    params_part1_ans3_value: No change, because the increased initial stored potential
-      energy is offset by the greater amount of negative work done.
+    params:
+      part1:
+        ans1:
+          value: Increases, because the block now has more stored elastic potential
+            energy initially.
+        ans2:
+          value: Decreases, because a greater stiffness constant results in a larger
+            decelerating force, hence the new spring can do the same negative work
+            in a shorter distance.
+        ans3:
+          value: No change, because the increased initial stored potential energy
+            is offset by the greater amount of negative work done.
 ---
 # Block attached to Spring
 A block of mass $m$ attached to a linear spring with spring constant $k$ and an un-stretched length of $3R/2 m$ is held at equilibrium in the position shown below and then released from rest.
@@ -51,9 +56,9 @@ If the spring stiffness constant is increased, does the maximum horizontal displ
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

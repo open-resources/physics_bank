@@ -35,15 +35,17 @@ part1:
     suffix: $N\cdot s$
 myst:
   substitutions:
-    params_vars_title: Bouncing Ball
-    params_vars_units_m: kg
-    params_vars_units_h: m
-    params_vars_units: kg m/s
-    params_m: 0.434
-    params_h: 1.6
+    params:
+      vars:
+        title: Bouncing Ball
+        units_m: kg
+        units_h: m
+        units: kg m/s
+      m: 0.479
+      h: 1.4
 ---
-# {{ params_vars_title }}
-A ball of mass {{ params_m }} {{ params_vars_units_m}} is dropped vertically from a height of {{ params_h }} {{ params_vars_units_h}} and bounces back to the original height.
+# {{ params.vars.title }}
+A ball of mass {{ params.m }} {{ params.vars.units_m}} is dropped vertically from a height of {{ params.h }} {{ params.vars.units_h}} and bounces back to the original height.
 
 ## Part 1
 
@@ -51,7 +53,7 @@ What is the magnitude of the impulse that the floor exerts on the ball during th
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

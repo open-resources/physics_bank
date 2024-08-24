@@ -32,33 +32,42 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Firing a Ball
-    params_theta: 30
-    params_part1_ans1_value: $2v_1$
-    params_part1_ans2_value: $\sqrt{2}v_1$
-    params_part1_ans3_value: $\frac{2v_1}{\sqrt{3}}$
-    params_part1_ans4_value: $\frac{v_1}{2}$
-    params_part1_ans5_value: $v_1$
-    params_part1_ans6_value: $\frac{4v_1}{3}$
+    params:
+      vars:
+        title: Firing a Ball
+      theta: 45
+      part1:
+        ans1:
+          value: $\sqrt{2}v_1$
+        ans2:
+          value: $\frac{2v_1}{\sqrt{3}}$
+        ans3:
+          value: $2v_1$
+        ans4:
+          value: $\frac{v_1}{2}$
+        ans5:
+          value: $v_1$
+        ans6:
+          value: $\frac{4v_1}{3}$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A ball fired vertically at speed $v_1$ reaches a maximum height $h_1$.
 
 <img src="ballsfired.png" alt="Figure of a ball fired vertically with speed v one and a second ball of the same mass fired at an angle theta above the horizontal with speed v two." width=400>
 
 ## Part 1
 
-At what speed must a second ball of the same mass be fired to reach the same maximal height if it is fired at an angle $\theta=$ {{ params_theta }}$^{\circ}$ above the horizontal (as shown in the figure)?
+At what speed must a second ball of the same mass be fired to reach the same maximal height if it is fired at an angle $\theta=$ {{ params.theta }}$^{\circ}$ above the horizontal (as shown in the figure)?
 Assume air resistance is negligible.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
-- {{ params_part1_ans6_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
+- {{ params.part1.ans6.value }}
 
 ## Attribution
 

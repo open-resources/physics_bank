@@ -44,22 +44,24 @@ part2:
     suffix: $\rm{N}$
 myst:
   substitutions:
-    params_vars_title: Relative Soccer Ball
-    params_vars_units: N
-    params_m: 0.33
-    params_vp: 2.7
-    params_theta: 54
-    params_t: 0.048
-    params_vbp: 11.33
-    params_vy: 17.93
-    params_vx: 19.73
+    params:
+      vars:
+        title: Relative Soccer Ball
+        units: N
+      m: 0.44
+      vp: 3.38
+      theta: 30
+      t: 0.015
+      vbp: 13.46
+      vy: 17.55
+      vx: 19.94
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Relative Soccer Ball.jpg" width=700>
 
-A football player is running up the soccer field at a velocity ${{params_vp}}\ \rm{m/s}$. A ball that has mass $m = {{params_m}}\ \rm{kg}$ is passed their way, and just before the player shoots the ball they observe that the ball is moving at a speed of ${{params_vbp}} \ \rm{m/s}$ and angle $\theta = {{params_theta}}^\circ$ relative to their motion.
+A football player is running up the soccer field at a velocity ${{params.vp}}\ \rm{m/s}$. A ball that has mass $m = {{params.m}}\ \rm{kg}$ is passed their way, and just before the player shoots the ball they observe that the ball is moving at a speed of ${{params.vbp}} \ \rm{m/s}$ and angle $\theta = {{params.theta}}^\circ$ relative to their motion.
 
-Their foot is in contact with the ball for ${{params_t}}$ seconds and it imparted a change of velocity such that the absolute velocity now is $v_x = {{params_vx}} \ \rm{m/s}$ and  $v_y = {{params_vy}}\ \rm{m/s}$.
+Their foot is in contact with the ball for ${{params.t}}$ seconds and it imparted a change of velocity such that the absolute velocity now is $v_x = {{params.vx}} \ \rm{m/s}$ and  $v_y = {{params.vy}}\ \rm{m/s}$.
 
 Find the average force components needed for this kick.
 
@@ -69,7 +71,7 @@ What is the x-component of the average force?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
@@ -77,7 +79,7 @@ What is the y-component of the average force?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

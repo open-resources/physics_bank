@@ -43,17 +43,19 @@ part2:
     suffix: $^{\circ}$
 myst:
   substitutions:
-    params_vars_title: Total Force in Deep Space
-    params_vars_units: $\rm{N}$
-    params_vars_string_1: Object $\rm{A}$ is a sphere with radius $1.78\ \rm{m}$.
-      It has a density of $18325.0\ \rm{\frac{kg}{m^{3}}}$ and it is at position $(5,2)$.
-    params_vars_string_2: The other one, Object $\rm{B}$, is a cylinder with a base
-      radius $2.95\ \rm{m}$ and height $2.62\ \rm{m}$. It has a density of $19896.0\
-      \rm{\frac{kg}{m^{3}}}$ and it is at position $(4,-5)$.
-    params_m: 3900
+    params:
+      vars:
+        title: Total Force in Deep Space
+        units: $\rm{N}$
+        string_1: Object $\rm{A}$ is a cube with sides $1.33\ \rm{m}$. It has a density
+          of $21859.0\ \rm{\frac{kg}{m^{3}}}$ and it is at position $(2,2)$.
+        string_2: The other one, Object $\rm{B}$, is a sphere with radius $2.63\ \rm{m}$.
+          It has a density of $18366.0\ \rm{\frac{kg}{m^{3}}}$ and it is at position
+          $(4,-3)$.
+      m: 3300
 ---
-# {{ params_vars_title }}
-There are two objects surrounding our spaceship in deep space. {{ params.vars.string_1}} {{ params.vars.string_2}} Our space shuttle has a mass of ${{ params_m}}$ metric tons and is at the origin. Find the total gravitational force on the spaceship.
+# {{ params.vars.title }}
+There are two objects surrounding our spaceship in deep space. {{ params.vars.string_1}} {{ params.vars.string_2}} Our space shuttle has a mass of ${{ params.m}}$ metric tons and is at the origin. Find the total gravitational force on the spaceship.
 <br>
 Note: <br>
 Volume of a Sphere: $V = \frac{4}{3}.\pi.r^3$<br>
@@ -69,7 +71,7 @@ What is the magnitude of the total gravitational force on our spaceship?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 

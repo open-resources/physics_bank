@@ -39,24 +39,30 @@ part2:
     hide-letter-keys: true
 myst:
   substitutions:
-    params_vars_title: Power of car along a circular arc
-    params_m: 5900.0
-    params_v: 144
-    params_a: 64
-    params_part2_ans1_value: "$\rm{A}$"
-    params_part2_ans2_value: "$\rm{B}$"
-    params_part2_ans3_value: "$\rm{C}$"
+    params:
+      vars:
+        title: Power of car along a circular arc
+      m: 9200.0
+      v: 97
+      a: 74
+      part2:
+        ans1:
+          value: "$\rm{A}$"
+        ans2:
+          value: "$\rm{B}$"
+        ans3:
+          value: "$\rm{C}$"
 ---
-# {{ params_vars_title }}
-A car is travelling up a smooth semi-circular slope with a constant speed of ${{ params_v }}\ \rm{km/h}$.
+# {{ params.vars.title }}
+A car is travelling up a smooth semi-circular slope with a constant speed of ${{ params.v }}\ \rm{km/h}$.
 
 <img src="part1.png" width=800>
 
 ## Question Text
 
-What is the additional power which has to be developed in the engine to keep the car moving at this speed at $\alpha = {{ params_a }}^{\circ}$ mark?
+What is the additional power which has to be developed in the engine to keep the car moving at this speed at $\alpha = {{ params.a }}^{\circ}$ mark?
 <br>
-Neglect air resistance. Treat the car as a particle with mass $M= {{ params_m }}\ \rm{kg}$
+Neglect air resistance. Treat the car as a particle with mass $M= {{ params.m }}\ \rm{kg}$
 
 ### Answer Section
 
@@ -70,9 +76,9 @@ At what point along the circular arc is the power developed by the engine the ma
 
 ### Answer Section
 
-- {{ params_part2_ans1_value}}
-- {{ params_part2_ans2_value}}
-- {{ params_part2_ans3_value}}
+- {{ params.part2.ans1.value}}
+- {{ params.part2.ans2.value}}
+- {{ params.part2.ans3.value}}
 
 ## Attribution
 

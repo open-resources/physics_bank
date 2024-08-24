@@ -30,13 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Uniform Circular Motion Equations
-    params_part1_ans1_value: $a = v.r$
-    params_part1_ans2_value: $a = r^2 . v$
-    params_part1_ans3_value: $a = \frac{v^2}{r}$
-    params_part1_ans4_value: $a = v^2 . r$
+    params:
+      vars:
+        title: Uniform Circular Motion Equations
+      part1:
+        ans1:
+          value: $a = v.r$
+        ans2:
+          value: $a = r^2 . v$
+        ans3:
+          value: $a = \frac{v^2}{r}$
+        ans4:
+          value: $a = v^2 . r$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -44,10 +51,10 @@ In the case of a particle in uniform circular motion in a circle of radius, $r$,
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

@@ -30,13 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: What is $mv$?
-    params_part1_ans1_value: Linear momentum
-    params_part1_ans2_value: Angular momentum
-    params_part1_ans3_value: Kinetic Energy
-    params_part1_ans4_value: Impulse
+    params:
+      vars:
+        title: What is $mv$?
+      part1:
+        ans1:
+          value: Linear momentum
+        ans2:
+          value: Angular momentum
+        ans3:
+          value: Kinetic Energy
+        ans4:
+          value: Impulse
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -44,10 +51,10 @@ The product of mass with velocity is the
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

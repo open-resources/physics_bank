@@ -38,15 +38,17 @@ part1:
     digits: 2
 myst:
   substitutions:
-    params_vars_title: Hot Wheels Loop
-    params_vars_units: m
-    params_m: 0.04
-    params_r: 0.3
+    params:
+      vars:
+        title: Hot Wheels Loop
+        units: m
+      m: 0.09
+      r: 0.24
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="HotWheelsLoop.png" width=400>
 
-A child creates a track to play with their toy car. The toy car has a mass of $m = {{ params_m }} \ \rm{kg}$ and goes down a drop with height $h$ which ends with a loop, before continuing onto a flat track. The loop has a radius of $r = {{ params_r }} \ \rm{m}$. The child has no clue how high the track must start for the car to make it fully through the loop without dropping.
+A child creates a track to play with their toy car. The toy car has a mass of $m = {{ params.m }} \ \rm{kg}$ and goes down a drop with height $h$ which ends with a loop, before continuing onto a flat track. The loop has a radius of $r = {{ params.r }} \ \rm{m}$. The child has no clue how high the track must start for the car to make it fully through the loop without dropping.
 
 ## Part 1
 
@@ -54,7 +56,7 @@ Find the height the car must start at to fully pass through the loop.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

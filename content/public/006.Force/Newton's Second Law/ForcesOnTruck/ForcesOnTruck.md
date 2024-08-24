@@ -34,18 +34,20 @@ part1:
     suffix: $\rm{N}$
 myst:
   substitutions:
-    params_vars_title: Forces on Truck
-    params_MT: 4516
-    params_mc: 3
-    params_theta: 17
+    params:
+      vars:
+        title: Forces on Truck
+      MT: 4650
+      mc: 1
+      theta: 16
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="ForcesOnTruck.png" width=90%>
 
 A truck has a golf cart with no brakes on its back bed.
 To prevent it from rolling out, a ramp is installed.
 What is the maximum acceleration force that the engine can apply before the cart goes over the ramp and falls out?
-The mass of the truck is $M = {{ params_MT }} \ \rm{kg}$, the ramp has an angle $\theta = {{ params_theta }}^{\circ}$, and the cart has a mass $m = {{ params_mc }} \ \rm{kg}$.
+The mass of the truck is $M = {{ params.MT }} \ \rm{kg}$, the ramp has an angle $\theta = {{ params.theta }}^{\circ}$, and the cart has a mass $m = {{ params.mc }} \ \rm{kg}$.
 
 ## Part 1
 

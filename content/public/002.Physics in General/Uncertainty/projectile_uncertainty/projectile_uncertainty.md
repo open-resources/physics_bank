@@ -50,36 +50,38 @@ part3:
     suffix: m/s
 myst:
   substitutions:
-    params_vars_title: Projectile Uncertainty
-    params_vars_name: Mateo
-    params_vars_units1: m/s
-    params_vars_units2: m
-    params_d: 0.126
-    params_s: 0.053
-    params_theta: 30
-    params_N: 30
+    params:
+      vars:
+        title: Projectile Uncertainty
+        name: Ahmed
+        units1: m/s
+        units2: m
+      d: 0.126
+      s: 0.053
+      theta: 30
+      N: 30
 ---
-# {{ params_vars_title }}
-In the second PHYS 111 lab, {{ params_vars_name }} repeatedly launched a metal sphere and measured the horizontal distance $d$ it traveled.
+# {{ params.vars.title }}
+In the second PHYS 111 lab, {{ params.vars.name }} repeatedly launched a metal sphere and measured the horizontal distance $d$ it traveled.
 The launch angle was $\theta$ and the sphere was fired from a height $h$ above the ground.
-Using the measured value of $d$ and the known values of $g$, and $h$, {{ params_vars_name }} could determine the launch speed $v_0$ of the projectile.
+Using the measured value of $d$ and the known values of $g$, and $h$, {{ params.vars.name }} could determine the launch speed $v_0$ of the projectile.
 However, the expression for $v_0$ in terms of $d$, $g$, $\theta$, and $h$ was complicated!
 Things get quite a bit simpler if $h = 0$.
 In this case:
 
 $$v = \sqrt{\frac{gd}{2cos(\theta)sin(\theta)}}$$
 
-Suppose that, with $h = 0$, {{ params_vars_name }} and their lab partner make 30 measurements of $d$.
-{{ params_vars_name }} then determines that the average and standard deviation of their 30 measurements were $\bar{d}$ = {{params_d}} $m$
-and $\sigma$= {{params_s}} $m$, respectively.
+Suppose that, with $h = 0$, {{ params.vars.name }} and their lab partner make 30 measurements of $d$.
+{{ params.vars.name }} then determines that the average and standard deviation of their 30 measurements were $\bar{d}$ = {{params.d}} $m$
+and $\sigma$= {{params.s}} $m$, respectively.
 
 ## Part 1
 
-If g = 9.81 $\frac{m}{s^2}$ and $\theta$ = {{params_theta}}, what is the launch speed $v_0$?
+If g = 9.81 $\frac{m}{s^2}$ and $\theta$ = {{params.theta}}, what is the launch speed $v_0$?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units1}}.
+Please enter in a numeric value in {{ params.vars.units1}}.
 
 ## Part 2
 
@@ -87,7 +89,7 @@ What is the uncertainty in your measured value of $d$?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units2}}.
+Please enter in a numeric value in {{ params.vars.units2}}.
 
 ## Part 3
 
@@ -95,7 +97,7 @@ What is the uncertainty in the value of $v_0$ that you determined? For this prob
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units1}}.
+Please enter in a numeric value in {{ params.vars.units1}}.
 
 ## Attribution
 

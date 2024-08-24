@@ -69,14 +69,16 @@ part5:
     suffix: $^{\circ}$
 myst:
   substitutions:
-    params_vars_name: Mateo
-    params_vars_title: Halloween Gourd Launcher
-    params_m_gourd: 1.21
-    params_h: 1.61
-    params_v_f: 4.76
+    params:
+      vars:
+        name: Aliyah
+        title: Halloween Gourd Launcher
+      m_gourd: 0.844
+      h: 2.1
+      v_f: 4.56
 ---
-# {{ params_vars_title }}
-At a local pumpkin patch, {{ params_vars_name }} is hired to create a Hallowe'en gourd launcher.  {{ params_vars_name }} wants to launch a {{ params.m_gourd }} $kg$ gourd (decorated as an "Angry Bird") at a large pumpkin (decorated as a "pig") which sits on top of a $h =$ {{ params_h }} $m$ tall hay bale as shown in the figure.
+# {{ params.vars.title }}
+At a local pumpkin patch, {{ params.vars.name }} is hired to create a Hallowe'en gourd launcher.  {{ params.vars.name }} wants to launch a {{ params.m_gourd }} $kg$ gourd (decorated as an "Angry Bird") at a large pumpkin (decorated as a "pig") which sits on top of a $h =$ {{ params.h }} $m$ tall hay bale as shown in the figure.
 
 Assume that the gourd undergoes projectile motion and that it hits the pumpkin ("pig") with a velocity of $\overrightarrow{v} =$ {{ params.v_f }} $\hat{x} + 0 \hat{y} \frac{\text{m}}{\text{s}} $.
 

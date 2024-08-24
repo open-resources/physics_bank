@@ -51,16 +51,18 @@ part3:
     suffix: $\rm{N}$
 myst:
   substitutions:
-    params_vars_title: Circular Motion of a Swinging Ball
-    params_vars_units: m, s, N
-    params_m: 22
-    params_r: 19.82
-    params_h: 16
-    params_v0: 16.2
+    params:
+      vars:
+        title: Circular Motion of a Swinging Ball
+        units: m, s, N
+      m: 12
+      r: 26.22
+      h: 15
+      v0: 13.79
 ---
-# {{ params_vars_title }}
-A ball with a mass of $m = {{ params_m }} \ \rm{kg}$ is being swung above in a horizontal circle.
-If the radius is $r = {{params_r}} \ \rm{m}$, the height is $h = {{params_h}} \ \rm{m}$, and the speed is $v_0 = {{params_v0}} \ \rm{m/s}$ once the string breaks:
+# {{ params.vars.title }}
+A ball with a mass of $m = {{ params.m }} \ \rm{kg}$ is being swung above in a horizontal circle.
+If the radius is $r = {{params.r}} \ \rm{m}$, the height is $h = {{params.h}} \ \rm{m}$, and the speed is $v_0 = {{params.v0}} \ \rm{m/s}$ once the string breaks:
 
 <img src="ball.png" width=800>
 
@@ -70,7 +72,7 @@ Find the time required for the ball to hit the ground.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
@@ -78,7 +80,7 @@ Find the distance the ball travels till it hits the ground.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}
+Please enter in a numeric value in {{ params.vars.units }}
 
 ## Part 3
 
@@ -86,7 +88,7 @@ Fine the tension in the string before the string broke
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}
+Please enter in a numeric value in {{ params.vars.units }}
 
 ## Attribution
 

@@ -32,19 +32,26 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Diffraction
-    params_d: 60
-    params_part1_ans1_value: It doesn't hold at all
-    params_part1_ans1_feedback: Make sure that your calculator is in radian mode
-    params_part1_ans2_value: Four digits
-    params_part1_ans2_feedback: This means that the small angle approximation is very
-      good for small angles
-    params_part1_ans3_value: Two digits
-    params_part1_ans3_feedback: Hmm, not quite!
-    params_part1_ans4_value: One digit
-    params_part1_ans4_feedback: Hmm, not quite!
+    params:
+      vars:
+        title: Diffraction
+      d: 60
+      part1:
+        ans1:
+          value: It doesn't hold at all
+          feedback: Make sure that your calculator is in radian mode
+        ans2:
+          value: Four digits
+          feedback: This means that the small angle approximation is very good for
+            small angles
+        ans3:
+          value: Two digits
+          feedback: Hmm, not quite!
+        ans4:
+          value: One digit
+          feedback: Hmm, not quite!
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Photographs of the diffraction of a red laser of wavelength $\lambda = 650$ nm are shown in figures (i) and (ii). A line of length $7$ cm indicates the length scale on the screen.
 
 <img src="gratings.png" height = 500px>
@@ -55,14 +62,14 @@ When monochromatic light of wavelength $\lambda$ passes through a double slit of
 
 ## Part 1
 
-If the screen was {{params_d}} cm away from the diffraction that caused these patterns, to how many digits after the decimal would the small angle approximation ($\theta \approx$ tan$^{-1} \theta$) hold for the largest angle?
+If the screen was {{params.d}} cm away from the diffraction that caused these patterns, to how many digits after the decimal would the small angle approximation ($\theta \approx$ tan$^{-1} \theta$) hold for the largest angle?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params.vars.units}}
-- {{ params_part1_ans2_value }} {{ params.vars.units}}
-- {{ params_part1_ans3_value }} {{ params.vars.units}}
-- {{ params_part1_ans4_value }} {{ params.vars.units}}
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
 
 ## Attribution
 

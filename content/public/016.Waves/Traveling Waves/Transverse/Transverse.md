@@ -63,17 +63,19 @@ part5:
     file-names: wave.png
 myst:
   substitutions:
-    params_vars_title: Transverse String Wave
-    params_vars_units: "$\r{Hz}$"
-    params_vars_labels: $ f $
-    params_amplitude: 6
-    params_wavelength: 4
-    params_period: 4
-    params_wave_equation: sin
-    params_wave: frequency
+    params:
+      vars:
+        title: Transverse String Wave
+        units: "$\r{Hz}$"
+        labels: $ f $
+      amplitude: 10
+      wavelength: 5
+      period: 7
+      wave_equation: cos
+      wave: frequency
 ---
-# {{ params_vars_title }}
-The transverse displacement of a traveling wave on a string is described by the formula $D(x,t) = {{ params_amplitude}} cm \, {{  params_wave_equation }}(\frac{2\pi}{({{ params_wavelength}}) \text{cm}} x - \frac{2\pi}{({{ params_period}})  \text{s}} t + \frac{\pi}{2})$
+# {{ params.vars.title }}
+The transverse displacement of a traveling wave on a string is described by the formula $D(x,t) = {{ params.amplitude}} cm \, {{  params.wave_equation }}(\frac{2\pi}{({{ params.wavelength}}) \text{cm}} x - \frac{2\pi}{({{ params.period}})  \text{s}} t + \frac{\pi}{2})$
 
 ## Part 1
 
@@ -81,7 +83,7 @@ What is the amplitude of this wave?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
@@ -89,15 +91,15 @@ What is the wavelength of this wave?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 3
 
-What is this wave's {{ params_wave}}?
+What is this wave's {{ params.wave}}?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 4
 
@@ -105,7 +107,7 @@ What is the speed at which energy travels down this wave?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 5
 

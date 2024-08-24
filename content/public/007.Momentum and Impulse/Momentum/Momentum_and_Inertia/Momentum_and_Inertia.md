@@ -30,30 +30,35 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Momentum and Inertia
-    params_vars_vehicle: pickup truck
-    params_part1_ans1_value: The bee has greater momentum, and also greater inertia.
-    params_part1_ans2_value: The pickup truck has greater momentum, while the bee
-      has greater inertia.
-    params_part1_ans3_value: The pickup truck has greater momentum, and also  greater
-      inertia.
-    params_part1_ans4_value: The bee has greater momentum, while the pickup truck
-      has greater inertia.
-    params_part1_ans5_value: It can’t be determined from this information.
+    params:
+      vars:
+        title: Momentum and Inertia
+        vehicle: truck
+      part1:
+        ans1:
+          value: The bee has greater momentum, and also greater inertia.
+        ans2:
+          value: The truck has greater momentum, while the bee has greater inertia.
+        ans3:
+          value: The truck has greater momentum, and also  greater inertia.
+        ans4:
+          value: The bee has greater momentum, while the truck has greater inertia.
+        ans5:
+          value: It can’t be determined from this information.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
-Which has greater momentum: A flying bumblebee? Or a stationary {{ params_vars_vehicle }}? Which has greater inertia?
+Which has greater momentum: A flying bumblebee? Or a stationary {{ params.vars.vehicle }}? Which has greater inertia?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

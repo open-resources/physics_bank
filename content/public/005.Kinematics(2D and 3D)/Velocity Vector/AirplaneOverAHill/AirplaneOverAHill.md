@@ -35,20 +35,22 @@ part1:
     suffix: $\rm{km/h}$
 myst:
   substitutions:
-    params_vars_title: Airplane Over a Hill
-    params_Vshadow: 358
-    params_theta: 17
-    params_alpha: 13
+    params:
+      vars:
+        title: Airplane Over a Hill
+      Vshadow: 330
+      theta: 15
+      alpha: 27
 ---
-# {{ params_vars_title }}
-As an airplane is taking off, it flies over a hill inclined ${{params_theta}}^{\circ}$ upwards.
-The plane is inclined ${{params_alpha}}^{\circ}$ up from the horizon.
+# {{ params.vars.title }}
+As an airplane is taking off, it flies over a hill inclined ${{params.theta}}^{\circ}$ upwards.
+The plane is inclined ${{params.alpha}}^{\circ}$ up from the horizon.
 
 <img src="AirplaneOverAHill.png" width=100% alt="A plane is flying alpha degrees from the horizon. It casts a shadow on a hill inclined theta degrees upwards." >
 
 ## Part 1
 
-If the shadow moves at ${{params_Vshadow}} \ \rm{km/h}$ up the hill, what is the plane's speed?
+If the shadow moves at ${{params.Vshadow}} \ \rm{km/h}$ up the hill, what is the plane's speed?
 The sun is directly above the plane.
 
 ### Answer Section

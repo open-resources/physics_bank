@@ -30,12 +30,18 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Higher Elevation Launch
-    params_part1_ans1_value: Less than $45^{\circ}$
-    params_part1_ans2_value: Exactly $45^{\circ}$
-    params_part1_ans3_value: More than $45^{\circ}$
+    params:
+      vars:
+        title: Higher Elevation Launch
+      part1:
+        ans1:
+          value: Less than $45^{\circ}$
+        ans2:
+          value: Exactly $45^{\circ}$
+        ans3:
+          value: More than $45^{\circ}$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A catapult is to shoot a projectile from atop a wall into a battlefield.
 If the goal was to launch the projectile as far as possible, what angle should it be set to fire at?
 
@@ -43,9 +49,9 @@ If the goal was to launch the projectile as far as possible, what angle should i
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

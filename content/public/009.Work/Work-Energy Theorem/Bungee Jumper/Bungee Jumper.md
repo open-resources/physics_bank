@@ -49,10 +49,11 @@ part2:
     digits: 2
 myst:
   substitutions:
-    params_m: 72
-    params_k: 11
-    params_l: 148
-    params_h1: 460.0
+    params:
+      m: 74
+      k: 20
+      l: 109
+      h1: 340.0
 ---
 # Bungee Jumper
 A bungee jumper comprises of a person attached to a rubber cord who then releases himself off a cliff at a high altitude above sea level as shown in the image below.
@@ -61,9 +62,9 @@ A bungee jumper comprises of a person attached to a rubber cord who then release
 
 ## Part 1
 
-Treating the rubber cord as the equivalent of a linear spring with original un-stretched length $L = {{ params_l }} \ \rm{m}$ and spring stiffness constant $k = {{ params_k }}\ \rm{N/m}$, and neglecting any forces in the cord whilst it is slackened, determine the maximum vertical displacement from the cliff.<br>
+Treating the rubber cord as the equivalent of a linear spring with original un-stretched length $L = {{ params.l }} \ \rm{m}$ and spring stiffness constant $k = {{ params.k }}\ \rm{N/m}$, and neglecting any forces in the cord whilst it is slackened, determine the maximum vertical displacement from the cliff.<br>
 Treat the person as a particle with mass $m$, and neglect the mass of the cord and any resistive forces.<br>
-$m = {{ params_m }} \ \rm{kg}$, $h_1= {{ params_h1 }}\ \rm{m}$
+$m = {{ params.m }} \ \rm{kg}$, $h_1= {{ params.h1 }}\ \rm{m}$
 
 ### Answer Section
 

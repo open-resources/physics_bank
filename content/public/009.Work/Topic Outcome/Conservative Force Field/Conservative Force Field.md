@@ -30,15 +30,21 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Conservative Force Field
-    params_part1_ans1_value: Is independent of the particular path followed in reaching
-      the new position.
-    params_part1_ans2_value: Is independent of the position of the particle.
-    params_part1_ans3_value: Depends on the path the particle followed in reaching
-      the new position.
-    params_part1_ans4_value: Is independent of the velocity of the particle.
+    params:
+      vars:
+        title: Conservative Force Field
+      part1:
+        ans1:
+          value: Is independent of the particular path followed in reaching the new
+            position.
+        ans2:
+          value: Is independent of the position of the particle.
+        ans3:
+          value: Depends on the path the particle followed in reaching the new position.
+        ans4:
+          value: Is independent of the velocity of the particle.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -46,10 +52,10 @@ In a conservative force field the work done against the force
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

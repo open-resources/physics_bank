@@ -77,14 +77,19 @@ part6:
     show-help-text: true
 myst:
   substitutions:
-    params_vars_title: Circuit with Resistance
-    params_B: '1.00'
-    params_v: '15'
-    params_part3_ans1_value: Clockwise
-    params_part3_ans2_value: Counterclockwise
+    params:
+      vars:
+        title: Circuit with Resistance
+      B: '0.50'
+      v: '5'
+      part3:
+        ans1:
+          value: Clockwise
+        ans2:
+          value: Counterclockwise
 ---
-# {{ params_vars_title }}
-Shown below is a conducting rod that slides along metal rails. The apparatus is in a uniform magnetic field of strength ${{params_B }} \textrm{ T}$, which is directly into the page. The rod is pulled to the right at a constant speed of ${{params_v }} \textrm{ m/s}$ by a force $\overrightarrow{F}$. The only significant resistance in the circuit comes from the $2.0 \rm\ \Omega$ resistor shown.
+# {{ params.vars.title }}
+Shown below is a conducting rod that slides along metal rails. The apparatus is in a uniform magnetic field of strength ${{params.B }} \textrm{ T}$, which is directly into the page. The rod is pulled to the right at a constant speed of ${{params.v }} \textrm{ m/s}$ by a force $\overrightarrow{F}$. The only significant resistance in the circuit comes from the $2.0 \rm\ \Omega$ resistor shown.
 
 <img src="Fig13_46.png">
 
@@ -110,8 +115,8 @@ Does the induced current circulate clockwise or counterclockwise?
 
 ### Answer Section
 
-- {{ params_part3_ans1_value }}
-- {{ params_part3_ans2_value }}
+- {{ params.part3.ans1.value }}
+- {{ params.part3.ans2.value }}
 
 ## Part 4
 
@@ -136,13 +141,6 @@ What is the power dissipated in the resistor?
 ### Answer Section
 
 Please enter a numeric value.
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
 
 ## Attribution
 

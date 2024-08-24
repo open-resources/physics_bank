@@ -37,21 +37,26 @@ part1:
     blank: true
 myst:
   substitutions:
-    params_vars_title: Uniformly-charged sphere
-    params_same: different than
-    params_part1_ans1_value: The region of space inside the sphere.
-    params_part1_ans2_value: The region of space outside the sphere.
+    params:
+      vars:
+        title: Uniformly-charged sphere
+      same: different than
+      part1:
+        ans1:
+          value: The region of space inside the sphere.
+        ans2:
+          value: The region of space outside the sphere.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
-In what region of space is the potential due to a uniformly-charged sphere {{params_same}} that of a point charge?
+In what region of space is the potential due to a uniformly-charged sphere {{params.same}} that of a point charge?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Attribution
 

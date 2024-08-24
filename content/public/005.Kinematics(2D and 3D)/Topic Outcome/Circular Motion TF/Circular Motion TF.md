@@ -30,11 +30,16 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Circular Motion Acceleration
-    params_part1_ans1_value: There is no acceleration.
-    params_part1_ans2_value: There is acceleration.
+    params:
+      vars:
+        title: Circular Motion Acceleration
+      part1:
+        ans1:
+          value: There is no acceleration.
+        ans2:
+          value: There is acceleration.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -42,8 +47,8 @@ In the context of a mechanical system, when an object moves along a curved traje
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Attribution
 

@@ -65,9 +65,11 @@ part5:
     allow-blank: false
 myst:
   substitutions:
-    params_vars_title: Charge Distributions
+    params:
+      vars:
+        title: Charge Distributions
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Two thin rings of radius $R$ and charges $Q_1 = Q$ and $Q_2 = -Q$ are centred along the $x$-axis as shown in the figure below.
 
 <img src="charge_distributions.png" width=400 alt="Two thin rings of radius R are concentric with the x axis. One ring of charge Q1 equal to Q has an x position of -d, while the other ring of charge Q2 equal to -Q has an x position of 0. A point P is shown at some positive value of x with a distance r1 to the ring of charge Q1 at an x position of -d.">
@@ -118,10 +120,6 @@ Use the following table as a reference for each variable:
 
 ### Answer Section
 
-### pl-submission-panel
-
-{{feedback.part1_ans}}
-
 ## Part 2
 
 Write an expression for the electric potential at point $P$ due to the two thin rings in terms of $Q$, $R$, $d$ and $x$.
@@ -139,10 +137,6 @@ Use the following table as a reference for each variable:
 **If the answer is 0, enter "zero"**.
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{feedback.part2_ans}}
 
 ## Part 3
 
@@ -163,10 +157,6 @@ Use the following table as a reference for each variable:
 
 ### Answer Section
 
-### pl-submission-panel
-
-{{feedback.part3_ans}}
-
 ## Part 4
 
 When $x = -\frac{d}{2}$ evaluate the electric potential.
@@ -185,10 +175,6 @@ Use the following table as a reference for each variable:
 
 ### Answer Section
 
-### pl-submission-panel
-
-{{feedback.part4_ans}}
-
 ## Part 5
 
 When $x = -\frac{d}{2}$ evaluate the electric field.
@@ -206,10 +192,6 @@ Use the following table as a reference for each variable:
 **If the answer is 0, enter "zero".**
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{feedback.part5_ans}}
 
 ## Attribution
 

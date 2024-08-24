@@ -35,20 +35,22 @@ part1:
     suffix: $N/m$
 myst:
   substitutions:
-    params_vars_title: Stiffness of a Spring
-    params_h: 404
-    params_F: 229.0
-    params_x: 154
-    params_d: 39
-    params_m: 5
+    params:
+      vars:
+        title: Stiffness of a Spring
+      h: 345
+      F: 178.0
+      x: 168
+      d: 62
+      m: 1
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Stiffness of a Spring.png" width=400>
 
-A carnival game requires box A of mass ${{ params_m }}$ kg to be slid up the shaft $h = {{ params_h }}$ cm tall with negligible friction.
-Force is applied by the fair-goer over the distance $d$, providing a constant force $F = {{ params_F }}$ N.
-Find the value of k if the spring only compresses ${{ params_d }}$ cm.
-$d = {{ params_d }}$ cm.
+A carnival game requires box A of mass ${{ params.m }}$ kg to be slid up the shaft $h = {{ params.h }}$ cm tall with negligible friction.
+Force is applied by the fair-goer over the distance $d$, providing a constant force $F = {{ params.F }}$ N.
+Find the value of k if the spring only compresses ${{ params.d }}$ cm.
+$d = {{ params.d }}$ cm.
 
 ## Part 1
 

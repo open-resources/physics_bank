@@ -45,10 +45,12 @@ part3:
     suffix: $kg$
 myst:
   substitutions:
-    params_vars_title: Weight units conversion
-    params_w_lbs: 206
+    params:
+      vars:
+        title: Weight units conversion
+      w_lbs: 123
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A students has a mass of {{params.w_lbs}} $lbs$.
 
 ## Part 1

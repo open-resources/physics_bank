@@ -32,9 +32,14 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_part1_ans1_value: Seat 1
-    params_part1_ans2_value: Seat 2
-    params_part1_ans3_value: Seat 3
+    params:
+      part1:
+        ans1:
+          value: Seat 1
+        ans2:
+          value: Seat 2
+        ans3:
+          value: Seat 3
 ---
 # Train Seats
 A person on a train has three seating options to choose from; Seats 1,2, and 3.
@@ -48,9 +53,9 @@ Assume, all three seats get occupied.<br>
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

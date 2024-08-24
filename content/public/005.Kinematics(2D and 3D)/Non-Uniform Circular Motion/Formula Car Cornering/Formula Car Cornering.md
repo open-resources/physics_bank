@@ -43,19 +43,21 @@ part2:
     suffix: $^{\circ}$
 myst:
   substitutions:
-    params_vars_title: Formula Car Cornering
-    params_vars_units: $m/s^2$
-    params_x: 3
-    params_y1: 1.092
-    params_y2: 1.302
-    params_r: 51
-    params_z: 132
-    params_t: 1.6380000000000001
+    params:
+      vars:
+        title: Formula Car Cornering
+        units: $m/s^2$
+      x: 3
+      y1: 1.602
+      y2: 4.111
+      r: 55
+      z: 147
+      t: 2.403
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A formula car is driving on the Autodromo Nazionale Monza race track. The car takes the racing line shown in blue through the Curva Parabolica corner.
-The car's tangential motion is governed by the equation $s(t) = \frac{1}{3}( {{params_x}}(t-{{params_y1}})^3 + {{params_z}}t +{{params_y2}})$, when it starts taking the corner. It hits the apex of the corner at the time $t = {{params_t}} \ \rm{s}$, where the
-turning radius is $r = {{params_r}} \ \rm{m}$.
+The car's tangential motion is governed by the equation $s(t) = \frac{1}{3}( {{params.x}}(t-{{params.y1}})^3 + {{params.z}}t +{{params.y2}})$, when it starts taking the corner. It hits the apex of the corner at the time $t = {{params.t}} \ \rm{s}$, where the
+turning radius is $r = {{params.r}} \ \rm{m}$.
 
 ## Part 1
 

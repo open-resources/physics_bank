@@ -31,24 +31,30 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Harmonic Series
-    params_f: 488
-    params_part1_ans1_value: '4.88'
-    params_part1_ans1_feedback: This is a random number, you probably selected this
-      choice by mistake! Try again
-    params_part1_ans2_value: '1.5'
-    params_part1_ans2_feedback: Great! You got it.
-    params_part1_ans3_value: '0.3381'
-    params_part1_ans3_feedback: Hmm, It seems you did partial calculations, you need
-      a ratio!
-    params_part1_ans4_value: '0.5072'
-    params_part1_ans4_feedback: Hmm, It seems you did partial calculations, you need
-      a ratio!
-    params_part1_ans5_value: '0.6762'
-    params_part1_ans5_feedback: Check your calculations again; Apply suitable formulas!
+    params:
+      vars:
+        title: Harmonic Series
+      f: 514
+      part1:
+        ans1:
+          value: '5.14'
+          feedback: This is a random number, you probably selected this choice by
+            mistake! Try again
+        ans2:
+          value: '1.5'
+          feedback: Great! You got it.
+        ans3:
+          value: '0.321'
+          feedback: Hmm, It seems you did partial calculations, you need a ratio!
+        ans4:
+          value: '0.4815'
+          feedback: Hmm, It seems you did partial calculations, you need a ratio!
+        ans5:
+          value: '0.642'
+          feedback: Check your calculations again; Apply suitable formulas!
 ---
-# {{ params_vars_title }}
-Musical instruments tune to the note A at a frequency of {{ params_f }}.  The speed of sound in the air is 330 m/s at room temperature.  An open-open tube (a flute) plays this note as its fundamental (first harmonic) while an open-closed tube (a clarinet) plays this note as its third harmonic.
+# {{ params.vars.title }}
+Musical instruments tune to the note A at a frequency of {{ params.f }}.  The speed of sound in the air is 330 m/s at room temperature.  An open-open tube (a flute) plays this note as its fundamental (first harmonic) while an open-closed tube (a clarinet) plays this note as its third harmonic.
 
 ## Part 1
 
@@ -56,15 +62,11 @@ What is the ratio of the effective length of the open-closed tube to the open-op
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params.vars.units}}
-- {{ params_part1_ans2_value }} {{ params.vars.units}}
-- {{ params_part1_ans3_value }} {{ params.vars.units}}
-- {{ params_part1_ans4_value }} {{ params.vars.units}}
-- {{ params_part1_ans5_value }} {{ params.vars.units}}
-
-### pl-submission-panel
-
-### pl-answer-panel
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

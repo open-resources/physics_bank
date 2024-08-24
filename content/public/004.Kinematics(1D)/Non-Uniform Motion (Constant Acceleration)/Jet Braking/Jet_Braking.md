@@ -34,17 +34,19 @@ part1:
     suffix: $\rm{s}$
 myst:
   substitutions:
-    params_vars_title: Jet Braking
-    params_v: 150.0
-    params_v0: 280.0
-    params_ac: -0.0065
+    params:
+      vars:
+        title: Jet Braking
+      v: 270.0
+      v0: 380.0
+      ac: -0.0044
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Jet_Braking.png" width=800>
 
-The speed of a jet fighter is ${{params_v0}} \ \rm{m/s}$ when its drag parachute deploys.
-At ${{params_v}} \ \rm{m/s}$, the parachute is jettisoned (discarded).
-If the acceleration in $\rm{m/s^2}$ (note negative sign) during the time that the parachute is deployed is ${{params_ac}} v^2$ (speed $v$ in $\rm{m/s}$), calculate the time spent in this braking phase. Neglect other forms of braking or resistance.
+The speed of a jet fighter is ${{params.v0}} \ \rm{m/s}$ when its drag parachute deploys.
+At ${{params.v}} \ \rm{m/s}$, the parachute is jettisoned (discarded).
+If the acceleration in $\rm{m/s^2}$ (note negative sign) during the time that the parachute is deployed is ${{params.ac}} v^2$ (speed $v$ in $\rm{m/s}$), calculate the time spent in this braking phase. Neglect other forms of braking or resistance.
 
 ## Part 1
 

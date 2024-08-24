@@ -41,25 +41,21 @@ part1:
     suffix: $^{\circ}\textrm{C}$
 myst:
   substitutions:
-    params_vars_title: Temperature Range of Resistor
-    params_p: 1
-    params_metal: Platinum
-    params_T_0: 79
+    params:
+      vars:
+        title: Temperature Range of Resistor
+      p: 8
+      metal: Silicon
+      T_0: 110
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
-A resistor made of {{params_metal}} wire is used in an application where its resistance cannot change more than {{params_p}} percent from its value at {{params.T_0}}$^{\circ}\textrm{C}$.
+A resistor made of {{params.metal}} wire is used in an application where its resistance cannot change more than {{params.p}} percent from its value at {{params.T_0}}$^{\circ}\textrm{C}$.
 Over what temperature range can it be used?
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
 
 ## Attribution
 

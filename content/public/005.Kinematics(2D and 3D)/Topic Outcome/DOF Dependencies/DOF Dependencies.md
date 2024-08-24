@@ -30,13 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: DOF Dependencies
-    params_part1_ans1_value: $n = d$
-    params_part1_ans2_value: $n = d - 1$
-    params_part1_ans3_value: $n = 3d$
-    params_part1_ans4_value: $n = d + 1$
+    params:
+      vars:
+        title: DOF Dependencies
+      part1:
+        ans1:
+          value: $n = d$
+        ans2:
+          value: $n = d - 1$
+        ans3:
+          value: $n = 3d$
+        ans4:
+          value: $n = d + 1$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -44,10 +51,10 @@ The relationship between the number of variables needed to describe a system, $n
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

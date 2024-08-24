@@ -34,16 +34,18 @@ part1:
     suffix: $\rm{ft-lb/s}$
 myst:
   substitutions:
-    params_vars_title: Power of Conveyor 1
-    params_theta: 30.0
-    params_v: 8.7
-    params_L: 17.0
-    params_W: 46.0
+    params:
+      vars:
+        title: Power of Conveyor 1
+      theta: 18.0
+      v: 2.6
+      L: 18.0
+      W: 14.0
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Power of Conveyer 1.png" width=600>
 
-What is the power requirement for a ${{params_L}} \ \rm{ft}$ long conveyor to carry a load of ${{params_W}} \ \rm{lb}$ up a $\theta = {{params_theta}}^{\circ}$ incline at a constant speed of $v = {{params_v}} \ \rm{ft/s}$?
+What is the power requirement for a ${{params.L}} \ \rm{ft}$ long conveyor to carry a load of ${{params.W}} \ \rm{lb}$ up a $\theta = {{params.theta}}^{\circ}$ incline at a constant speed of $v = {{params.v}} \ \rm{ft/s}$?
 
 ## Part 1
 

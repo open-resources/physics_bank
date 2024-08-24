@@ -32,19 +32,27 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Two Waterslide Paths
-    params_part1_ans1_value: riders will arrive at the end of their slide with a greater
-      final speed along path (i) than along path (ii).
-    params_part1_ans2_value: riders will arrive at the same speed at the end of their
-      slide regardless of which track they choose.
-    params_part1_ans3_value: riders will arrive at the end of their slide with a greater
-      final speed along path (ii) than along path (i).
-    params_part1_ans4_value: riders will not reach the end of their slide as they
-      will fly off the sides of the track regardless of which track they choose.
-    params_part1_ans5_value: riders will not reach the end of their slide along path
-      (ii) as they will not be able to get over the hill.
+    params:
+      vars:
+        title: Two Waterslide Paths
+      part1:
+        ans1:
+          value: riders will arrive at the end of their slide with a greater final
+            speed along path (i) than along path (ii).
+        ans2:
+          value: riders will arrive at the same speed at the end of their slide regardless
+            of which track they choose.
+        ans3:
+          value: riders will arrive at the end of their slide with a greater final
+            speed along path (ii) than along path (i).
+        ans4:
+          value: riders will not reach the end of their slide as they will fly off
+            the sides of the track regardless of which track they choose.
+        ans5:
+          value: riders will not reach the end of their slide along path (ii) as they
+            will not be able to get over the hill.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Two waterslide paths are shown in the figure.
 
 <img src="waterslides.png" alt="Figure of two waterslide paths. The first slide forms an almost straight path from start to end while the second slide creates a deep valley and then a bump before reaching the end point." width=400>
@@ -55,11 +63,11 @@ If riders experience no friction and no drag along both paths, then
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

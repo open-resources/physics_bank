@@ -35,16 +35,18 @@ part1:
     suffix: $ ^\circ $
 myst:
   substitutions:
-    params_vars_title: Playing Catch with Self
-    params_vars_units: ^{$\circ$}
-    params_v: 34.36
-    params_theta: 118.7
-    params_a: 11.74
+    params:
+      vars:
+        title: Playing Catch with Self
+        units: ^{$\circ$}
+      v: 23.16
+      theta: 124.29
+      a: 9.64
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src = "Playing_Catch_With_Self.jpg" width=600>
 
-A child wants to launch a projectile with mass $m$ at a speed of $v_0 =  {{ params_v }} \ \rm{m/s}$. There is a gust of wind blowing at an angle of $\theta_2$ = ${{ params_theta }}^\circ$ and will apply a force on their projectile at $F = {{ params_a }}.m \ \rm{N}$.
+A child wants to launch a projectile with mass $m$ at a speed of $v_0 =  {{ params.v }} \ \rm{m/s}$. There is a gust of wind blowing at an angle of $\theta_2$ = ${{ params.theta }}^\circ$ and will apply a force on their projectile at $F = {{ params.a }}.m \ \rm{N}$.
 
 ## Part 1
 
@@ -52,7 +54,7 @@ At what angle should the ball be thrown for it to return to their hand?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

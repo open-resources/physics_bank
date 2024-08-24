@@ -31,23 +31,31 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: RC Circuit with a Switch
-    params_part1_ans1_value: Nothing. Current cannot flow across the capacitor, so
-      the lightbulb remains dark.
-    params_part1_ans2_value: When the switch is first closed, the current through
-      the lightbulb is high and the lightbulb shines brightly. As the capacitor charges,
-      the current decreases to zero, and the brightness of the lightbulb decreases
-      until it becomes completely dark.
-    params_part1_ans3_value: When the switch is first closed, the current through
-      the lightbulb is low and the lightbulb shines dimly. As the capacitor charges,
-      the current increases and the brightness of the lightbulb increases until it
-      becomes very bright.
-    params_part1_ans4_value: Current flows and the lightbulb turns on.
-    params_part1_ans5_value: As the capacitor charges and discharges, the current
-      flowing in the circuit fluctuates, causing the lightbulb to fluctuate between
-      being bright and dark.
+    params:
+      vars:
+        title: RC Circuit with a Switch
+      part1:
+        ans1:
+          value: Nothing. Current cannot flow across the capacitor, so the lightbulb
+            remains dark.
+        ans2:
+          value: When the switch is first closed, the current through the lightbulb
+            is high and the lightbulb shines brightly. As the capacitor charges, the
+            current decreases to zero, and the brightness of the lightbulb decreases
+            until it becomes completely dark.
+        ans3:
+          value: When the switch is first closed, the current through the lightbulb
+            is low and the lightbulb shines dimly. As the capacitor charges, the current
+            increases and the brightness of the lightbulb increases until it becomes
+            very bright.
+        ans4:
+          value: Current flows and the lightbulb turns on.
+        ans5:
+          value: As the capacitor charges and discharges, the current flowing in the
+            circuit fluctuates, causing the lightbulb to fluctuate between being bright
+            and dark.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A battery, switch, capacitor, and lightbulb are connected in series.
 The switch is initially open.
 
@@ -59,11 +67,11 @@ Describe what happens to the lightbulb when the switch is closed.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

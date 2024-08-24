@@ -43,20 +43,22 @@ part2:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params_vars_title: Atwood Machine Difference
-    params_mu: 0.31
-    params_v: 5
-    params_M: 3
-    params_h: 3
-    params_t: 0.089
+    params:
+      vars:
+        title: Atwood Machine Difference
+      mu: 0.28
+      v: 2
+      M: 7
+      h: 5
+      t: 0.062
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 To minimize space usage and for effective distributed controls, packages on a factory conveyor belt descend via multi-belt sections placed horizontally on different levels with the packages changing directions when dropping from one belt to the other.
 
 ## Part 1
 
-If the belts are moving at a speed $v = {{ params_v }} \ \rm{m/s}$ and the package of mass $m = {{ params_M }} \ \rm{kg}$ does not slip relative to the belt prior to descent, what is the angle $\theta$ the resultant contact force vector makes with the belt for the time of impact.
-The height between the belts is $h = {{ params_h }} \ \rm{m}$, and the coefficient of friction is $\mu = {{ params_mu }}$
+If the belts are moving at a speed $v = {{ params.v }} \ \rm{m/s}$ and the package of mass $m = {{ params.M }} \ \rm{kg}$ does not slip relative to the belt prior to descent, what is the angle $\theta$ the resultant contact force vector makes with the belt for the time of impact.
+The height between the belts is $h = {{ params.h }} \ \rm{m}$, and the coefficient of friction is $\mu = {{ params.mu }}$
 (Hint: The resultant is the vector sum of the normal reaction and friction force)
 
 ### Answer Section
@@ -67,7 +69,7 @@ Please enter in a numeric value in $\rm{N}$.
 
 <img src="Conveyor2.png" width=90%>
 
-If the impact time is $t = {{ params_t }} \ \rm{s}$, determine the minimum extra length $x$ of the conveyor belt for the package to not fall off the belt.
+If the impact time is $t = {{ params.t }} \ \rm{s}$, determine the minimum extra length $x$ of the conveyor belt for the package to not fall off the belt.
 
 ### Answer Section
 

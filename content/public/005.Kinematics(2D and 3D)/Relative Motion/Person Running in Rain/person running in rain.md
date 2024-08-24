@@ -44,10 +44,11 @@ part2:
     digits: 2
 myst:
   substitutions:
-    params_v_r1: 21
-    params_a: 39
-    params_v_r2: 6
-    params_theta: 51
+    params:
+      v_r1: 21
+      a: 25
+      v_r2: 7
+      theta: 65
 ---
 # Person Running in Rain
 A man without an umbrella is running along a straight road with constant speed whilst it is raining.
@@ -56,7 +57,7 @@ A man without an umbrella is running along a straight road with constant speed w
 
 ## Part 1
 
-If the rain droplets are falling with a terminal velocity of $v\_{rain} = {{ params.v_r1 }}\ \rm{mph}$ at an angle of $\alpha = {{ params_a }}^{\circ}$ from the vertical, what must the speed of the person be such that the rain does not hit his face or clothes?
+If the rain droplets are falling with a terminal velocity of $v\_{rain} = {{ params.v_r1 }}\ \rm{mph}$ at an angle of $\alpha = {{ params.a }}^{\circ}$ from the vertical, what must the speed of the person be such that the rain does not hit his face or clothes?
 <br>
 Treat the man and rain droplets as particles. Assume the man's face is always oriented parallel to the horizontal.
 

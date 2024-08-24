@@ -33,11 +33,13 @@ part1:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_title: Stable Orbit
-    params_h: 392
+    params:
+      vars:
+        title: Stable Orbit
+      h: 314
 ---
-# {{ params_vars_title }}
-What magnitude of velocity must a spacecraft travel at to maintain a stable orbit at $h = {{ params_h }} \ \rm{km}$ above the earth's surface?
+# {{ params.vars.title }}
+What magnitude of velocity must a spacecraft travel at to maintain a stable orbit at $h = {{ params.h }} \ \rm{km}$ above the earth's surface?
 
 ## Part 1
 

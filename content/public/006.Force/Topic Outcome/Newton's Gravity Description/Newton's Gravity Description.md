@@ -30,17 +30,24 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Newton's Gravity Description
-    params_part1_ans1_value: Inversely proportional to the distance between the centers
-      of the particles.
-    params_part1_ans2_value: Directly proportional to the distance between the centers
-      of the particles
-    params_part1_ans3_value: Directly proportional to the square of the distance between
-      the centers of the particles.
-    params_part1_ans4_value: Inversely proportional to the square of the distance
-      between the centers of the particles.
+    params:
+      vars:
+        title: Newton's Gravity Description
+      part1:
+        ans1:
+          value: Inversely proportional to the distance between the centers of the
+            particles.
+        ans2:
+          value: Directly proportional to the distance between the centers of the
+            particles
+        ans3:
+          value: Directly proportional to the square of the distance between the centers
+            of the particles.
+        ans4:
+          value: Inversely proportional to the square of the distance between the
+            centers of the particles.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -48,10 +55,10 @@ According to Newton's Law of Gravitation the force of gravitational attraction b
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

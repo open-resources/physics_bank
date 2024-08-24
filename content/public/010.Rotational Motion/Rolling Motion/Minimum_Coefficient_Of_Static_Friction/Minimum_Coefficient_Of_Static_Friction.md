@@ -30,18 +30,26 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Minimum Coefficient Of Static Friction
-    params_vars_vehicle: sedan
-    params_r: 77
-    params_v: 24
-    params_part1_ans1_value: 1.3
-    params_part1_ans2_value: 0.76
-    params_part1_ans3_value: 7.5
-    params_part1_ans4_value: 0.032
-    params_part1_ans5_value: 0.32
+    params:
+      vars:
+        title: Minimum Coefficient Of Static Friction
+        vehicle: van
+      r: 87
+      v: 10
+      part1:
+        ans1:
+          value: 8.5
+        ans2:
+          value: 0.12
+        ans3:
+          value: 1.1
+        ans4:
+          value: 0.012
+        ans5:
+          value: 0.12
 ---
-# {{ params_vars_title }}
-A {{ params_vars_vehicle }} drives around a flat curve with radius $r$ = {{params_r}} $m$ at a speed of $v$ = {{params_v}} $\frac{m}{s}$.
+# {{ params.vars.title }}
+A {{ params.vars.vehicle }} drives around a flat curve with radius $r$ = {{params.r}} $m$ at a speed of $v$ = {{params.v}} $\frac{m}{s}$.
 
 ## Part 1
 
@@ -49,11 +57,11 @@ What is the minimum coefficient of static friction required to keep the car from
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

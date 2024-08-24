@@ -34,20 +34,22 @@ part1:
     suffix: $\rm{ft/s}$
 myst:
   substitutions:
-    params_vars_title: Conveyor Friction 2
-    params_theta: 17
-    params_W: 47
-    params_v: 3
-    params_C: 1.7
+    params:
+      vars:
+        title: Conveyor Friction 2
+      theta: 41
+      W: 46
+      v: 5
+      C: 0.49
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="ConvFric2.png" width=90%>
 
-A conveyor belt, angled at $\theta = {{ params_theta }}^{\circ}$, carries packages up an incline.
-The package aboard it slips and begins moving downwards at a constant speed $v_p = {{ params_v }} \ \rm{ft/s}$ relative to the ground.
-Given that friction can be found as $F = Cv\_{PC}$, where $C$ is a constant ${{ params_C }}$.
+A conveyor belt, angled at $\theta = {{ params.theta }}^{\circ}$, carries packages up an incline.
+The package aboard it slips and begins moving downwards at a constant speed $v_p = {{ params.v }} \ \rm{ft/s}$ relative to the ground.
+Given that friction can be found as $F = Cv\_{PC}$, where $C$ is a constant ${{ params.C }}$.
 $v\_{PC}$  is the relative velocity of the package to the conveyor.\
-The package has a weight of $W = {{ params_W }} \ \rm{lb}$.
+The package has a weight of $W = {{ params.W }} \ \rm{lb}$.
 
 ## Part 1
 

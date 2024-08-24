@@ -39,14 +39,16 @@ part2:
     suffix: $\rm{N/m}$
 myst:
   substitutions:
-    params_vars_title: Car Suspension System
-    params_m: 1476
-    params_r: 84
-    params_x: 164
-    params_u: 104.3
-    params_v: 102.3
+    params:
+      vars:
+        title: Car Suspension System
+      m: 1417
+      r: 94
+      x: 150
+      u: 110.3
+      v: 108.3
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A car is moving over a hump in the road with a constant speed $v \  \rm{ms^{-1}}$.
 
 <img src="part1.png" width=800>
@@ -56,7 +58,7 @@ A car is moving over a hump in the road with a constant speed $v \  \rm{ms^{-1}}
 What is the maximum speed, $v$ with which the car can move without it losing contact with the road at the top of the hump.
 <br>Treat the car as a particle. Neglect friction and air resistance.
 <br>
-$m = {{ params_m }} \ \rm{kg}$, $R = {{ params_r }} \ \rm{m}$
+$m = {{ params.m }} \ \rm{kg}$, $R = {{ params.r }} \ \rm{m}$
 
 ### Answer Section
 
@@ -65,9 +67,9 @@ Please enter value of $v$ in $m/s$.
 ## Part 2
 
 In order to reduce the likelihood of loss of contact when navigating the curvature of the hump, a suspension system consisting of a series of springs is connected to the wheels to absorb some of the excess kinetic energy of the vehicle before it encounters the circular arc.
-<br>If the maximum compression ($\delta x$) of the springs are ${{ params_x }}\ \rm{mm}$ at the top of the hump, what must the equivalent spring stiffness constant, $k$, be if the speed of the car goes at the top of the hump is ${{ params_v }} \ \rm{km/h}$.
+<br>If the maximum compression ($\delta x$) of the springs are ${{ params.x }}\ \rm{mm}$ at the top of the hump, what must the equivalent spring stiffness constant, $k$, be if the speed of the car goes at the top of the hump is ${{ params.v }} \ \rm{km/h}$.
 <br>
-The speed of the car just before the hump is ${{ params_u }} \ \rm{km/h}$. The height of the hump above the ground plane is $0.5 \ \rm{m}$.
+The speed of the car just before the hump is ${{ params.u }} \ \rm{km/h}$. The height of the hump above the ground plane is $0.5 \ \rm{m}$.
 
 <img src="part2.png" width=800>
 

@@ -34,20 +34,20 @@ part1:
     suffix: $\rm{m/s^2}$
 myst:
   substitutions:
-    params_vars_title: Tug of War
-    params_numberOfChildren: 6
-    params_adultWeight: 177
-    params_adultForce: 374
-    params_childWeights: ' $61\ \rm{lb}$, $66\ \rm{lb}$, $61\ \rm{lb}$, $56\ \rm{lb}$,
-      $59\ \rm{lb}$, $50\ \rm{lb}$'
-    params_childForces: ' $93\ \rm{N}$, $135\ \rm{N}$, $98\ \rm{N}$, $80\ \rm{N}$,
-      $133\ \rm{N}$, $141\ \rm{N}$'
+    params:
+      vars:
+        title: Tug of War
+      numberOfChildren: 4
+      adultWeight: 217
+      adultForce: 305
+      childWeights: ' $63\ \rm{lb}$, $70\ \rm{lb}$, $56\ \rm{lb}$, $58\ \rm{lb}$'
+      childForces: ' $104\ \rm{N}$, $124\ \rm{N}$, $141\ \rm{N}$, $99\ \rm{N}$'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 In a game of tug of war, two teams pull on opposite sides of a rope to tug the opposing team towards them.
-One team is made of {{params_numberOfChildren}} children.
-Their weights are {{params_childWeights}}, and they pull with forces of {{params_childForces}}.
-On the other side, a ${{params_adultWeight}} \ \rm{lb}$ adult pulls the rope with a force of ${{params_adultForce}} \ \rm{N}$.
+One team is made of {{params.numberOfChildren}} children.
+Their weights are {{params.childWeights}}, and they pull with forces of {{params.childForces}}.
+On the other side, a ${{params.adultWeight}} \ \rm{lb}$ adult pulls the rope with a force of ${{params.adultForce}} \ \rm{N}$.
 
 ## Part 1
 

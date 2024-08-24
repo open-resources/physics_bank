@@ -30,13 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Integral of Motion Equations 1
-    params_part1_ans1_value: Impulse and momentum
-    params_part1_ans2_value: Velocity
-    params_part1_ans3_value: Power
-    params_part1_ans4_value: Work
+    params:
+      vars:
+        title: Integral of Motion Equations 1
+      part1:
+        ans1:
+          value: Impulse and momentum
+        ans2:
+          value: Velocity
+        ans3:
+          value: Power
+        ans4:
+          value: Work
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -44,10 +51,10 @@ The integration of the equation of motion with respect to displacement rather th
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

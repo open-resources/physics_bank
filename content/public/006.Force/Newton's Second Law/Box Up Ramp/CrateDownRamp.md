@@ -35,19 +35,21 @@ part1:
     suffix: $\rm{m/s^2}$
 myst:
   substitutions:
-    params_vars_title: Crate Down Ramp
-    params_nu: 0.39
-    params_theta: 17
-    params_m: 11
-    params_T: 80
+    params:
+      vars:
+        title: Crate Down Ramp
+      nu: 0.25
+      theta: 37
+      m: 15
+      T: 41
 ---
-# {{ params_vars_title }}
-A ${{params_m}} \ \rm{kg}$ crate is sliding down a ${{params_theta}}^{\circ}$ slope. A man attempts to stop it by pulling uphill on a rope parallel to the slope.
+# {{ params.vars.title }}
+A ${{params.m}} \ \rm{kg}$ crate is sliding down a ${{params.theta}}^{\circ}$ slope. A man attempts to stop it by pulling uphill on a rope parallel to the slope.
 <img src="CrateDownRamp.png" width=800 alt="A man pulling a crate up a slope using a rope." >
 
 ## Part 1
 
-If the coefficient of kinetic friction is ${{params_nu}}$ and the tension of the rope is ${{params_T}} \ \rm{N}$, what is the acceleration of the block?
+If the coefficient of kinetic friction is ${{params.nu}}$ and the tension of the rope is ${{params.T}} \ \rm{N}$, what is the acceleration of the block?
 Enter a negative number if the crate accelerates downwards.
 
 ### Answer Section

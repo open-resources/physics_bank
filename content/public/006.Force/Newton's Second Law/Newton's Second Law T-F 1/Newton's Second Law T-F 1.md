@@ -30,11 +30,16 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Newton's Second Law T-F 1
-    params_part1_ans1_value: 'True'
-    params_part1_ans2_value: 'False'
+    params:
+      vars:
+        title: Newton's Second Law T-F 1
+      part1:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -42,8 +47,8 @@ Newton's second law states that the acceleration of a particle of constant mass 
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Attribution
 

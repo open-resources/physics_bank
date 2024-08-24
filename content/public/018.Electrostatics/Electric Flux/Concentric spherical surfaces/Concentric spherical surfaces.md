@@ -40,14 +40,18 @@ part1:
     blank: true
 myst:
   substitutions:
-    params_vars_title: Concentric spherical surfaces
-    params_part1_ans1_value: The larger sphere has greater electric flux passing through
-      it.
-    params_part1_ans2_value: The smaller sphere has greater electric flux passing
-      through it.
-    params_part1_ans3_value: The same electric flux passes through each sphere.
+    params:
+      vars:
+        title: Concentric spherical surfaces
+      part1:
+        ans1:
+          value: The larger sphere has greater electric flux passing through it.
+        ans2:
+          value: The smaller sphere has greater electric flux passing through it.
+        ans3:
+          value: The same electric flux passes through each sphere.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -58,9 +62,9 @@ Compare the electric fluxes crossing the two surfaces.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

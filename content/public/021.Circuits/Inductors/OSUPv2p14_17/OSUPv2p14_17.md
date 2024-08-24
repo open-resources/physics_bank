@@ -43,31 +43,23 @@ part1:
     atol: 0
 myst:
   substitutions:
-    params_vars_title: 'RL Series Circuit: Energy'
-    params_factor: '3'
-    params_word: reduced
-    params_ans: '0.111'
+    params:
+      vars:
+        title: 'RL Series Circuit: Energy'
+      factor: '4'
+      word: increased
+      ans: '16.000'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Consider the $RL$ circuit shown below.
 
 <img src="fig_OSUPv2p14_17.png" width=250>
 
 ## Question Text
 
-If the emf of the battery is {{ params_word }} by a factor of ${{ params_factor }}$, by how much does the steady-state energy stored in the magnetic field of the inductor change?
+If the emf of the battery is {{ params.word }} by a factor of ${{ params.factor }}$, by how much does the steady-state energy stored in the magnetic field of the inductor change?
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$\frac{\displaystyle E\_{\rm\ final}}{\displaystyle E\_{\rm\ initial}} =$ {{ correct_answers.part1_ans_str }}
 
 ## Attribution
 

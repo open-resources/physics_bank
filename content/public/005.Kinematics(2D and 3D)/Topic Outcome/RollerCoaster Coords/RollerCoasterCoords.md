@@ -30,12 +30,18 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Rollercoaster Coords
-    params_part1_ans1_value: Rectangular
-    params_part1_ans2_value: Spherical
-    params_part1_ans3_value: Cylindrical
+    params:
+      vars:
+        title: Rollercoaster Coords
+      part1:
+        ans1:
+          value: Rectangular
+        ans2:
+          value: Spherical
+        ans3:
+          value: Cylindrical
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A rollercoaster goes through a corkscrew.
 What coordinate system would be best to calculate the average acceleration and velocity felt by the passengers?
 
@@ -43,9 +49,9 @@ What coordinate system would be best to calculate the average acceleration and v
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

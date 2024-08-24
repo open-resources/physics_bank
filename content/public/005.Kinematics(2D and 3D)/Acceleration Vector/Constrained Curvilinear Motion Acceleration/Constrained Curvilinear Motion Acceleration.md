@@ -34,22 +34,24 @@ part1:
     suffix: $\rm{m/s^2}$
 myst:
   substitutions:
-    params_vars_title: Constrained Curvilinear Motion Acceleration
-    params_t: 7.6
-    params_N: 0.18
-    params_M1: 1.8
-    params_M2: 7.2
+    params:
+      vars:
+        title: Constrained Curvilinear Motion Acceleration
+      t: 3.4
+      N: 0.21
+      M1: 2.2
+      M2: 8.8
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Constrained Curvilinear Motion.png" width=600>
 
 There is a drone that is surveying the park. The drone turns on and flies vertically upward to a height $h$. Afterwards, the drone flies around in a pre-programmed path, while remaining at a constant height.
 <br>
 The path of the drone is governed by the following equations:
 <br>
-$\theta(t) = 2\pi sin^3({{params_M1}}t + \frac{\pi}{2})$
+$\theta(t) = 2\pi sin^3({{params.M1}}t + \frac{\pi}{2})$
 <br>
-$r(t) = {{params_N}} cos^4({{params_M2}}t + \frac{\pi}{2})$
+$r(t) = {{params.N}} cos^4({{params.M2}}t + \frac{\pi}{2})$
 <br>
 The origin point of this coordinate system is at the location where the drone starts the path as indicated on the figure.
 <br>
@@ -57,7 +59,7 @@ Treat the drone as a particle which is constrained in the plane parallel to the 
 
 ## Part 1
 
-What is the magnitude of the acceleration of the drone at time $t = {{params_t}} \ \rm{s}$?
+What is the magnitude of the acceleration of the drone at time $t = {{params.t}} \ \rm{s}$?
 
 ### Answer Section
 

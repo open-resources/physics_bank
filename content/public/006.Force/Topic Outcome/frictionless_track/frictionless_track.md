@@ -46,16 +46,18 @@ part2:
     suffix: null
 myst:
   substitutions:
-    params_vars_title: Horizontal frictionless track
-    params_vars_units: N
-    params_m: 0.75
-    params_v: 9
-    params_R: 0.5
-    params_L: 15
+    params:
+      vars:
+        title: Horizontal frictionless track
+        units: N
+      m: 0.5
+      v: 3
+      R: 0.5
+      L: 12
 ---
-# {{ params_vars_title }}
-A small block of mass m = {{params_m}} kg is fired with an initial speed $v_0$ = {{params_v}} m/s along a horizontal section of frictionless track, as shown in the top portion of the figure.
-The block then moves along the frictionless semicircular vertical track of radius $R$ = {{params_R}}m.
+# {{ params.vars.title }}
+A small block of mass m = {{params.m}} kg is fired with an initial speed $v_0$ = {{params.v}} m/s along a horizontal section of frictionless track, as shown in the top portion of the figure.
+The block then moves along the frictionless semicircular vertical track of radius $R$ = {{params.R}}m.
 
 <img src="q12image.png" alt="Mass on frictionless track." width=100%>
 
@@ -65,11 +67,11 @@ Determine the force exerted by the track on the block at point A.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
-The bottom of the track consists of a horizontal section (L = {{params_L}} m) with friction.
+The bottom of the track consists of a horizontal section (L = {{params.L}} m) with friction.
 Determine the coefficient of kinetic friction between the block and the bottom portion of the track if the block just makes it to point B before coming to rest.
 
 ### Answer Section

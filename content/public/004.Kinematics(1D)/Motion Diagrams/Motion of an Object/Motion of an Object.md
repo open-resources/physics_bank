@@ -78,10 +78,12 @@ part6:
     suffix: $m/s$
 myst:
   substitutions:
-    params_vars_title: Motion of an Object
-    params_vars_units: $m/s$
+    params:
+      vars:
+        title: Motion of an Object
+        units: $m/s$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A position versus time graph of the motion of an object is given below.
 
 <img src="Set2Q4.png" width=300>
@@ -100,7 +102,7 @@ Calculate the speed of the object in the first segment of the motion.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 3
 
@@ -108,7 +110,7 @@ Calculate the speed of the object in the second segment of the motion.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 4
 
@@ -116,7 +118,7 @@ Calculate the speed of the object in the third segment of the motion.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 5
 
@@ -124,7 +126,7 @@ Calculate the speed of the object in the fourth segment of the motion.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 6
 
@@ -132,7 +134,7 @@ Calculate the speed of the object in the fifth segment of the motion.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

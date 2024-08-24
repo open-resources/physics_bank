@@ -34,7 +34,8 @@ part1:
     digits: 2
 myst:
   substitutions:
-    params_m: 6354
+    params:
+      m: 6394
 ---
 # Escape Velocity
 A rocket is fired from the surface of the Earth with speed $v\ \rm{m/s}$.
@@ -43,7 +44,7 @@ A rocket is fired from the surface of the Earth with speed $v\ \rm{m/s}$.
 
 ## Part 1
 
-What is the minimum speed **$v$** with which a rocket, which has a mass of ${{ params_m }}\ \rm{tonnes}$ would need to be fired from the surface of the earth to escape the earth's gravitational field (i.e gravitational force goes to zero).<br>
+What is the minimum speed **$v$** with which a rocket, which has a mass of ${{ params.m }}\ \rm{tonnes}$ would need to be fired from the surface of the earth to escape the earth's gravitational field (i.e gravitational force goes to zero).<br>
 <br>Treat the rocket as a single particle and neglect air resistance. Assume the mass of the rocket remains constant throughout its motion. Neglect local gravitational effects in the vicinity of the launch point.
 <br>
 The diameter of the earth is $d = 12742\ \rm{km}$, the mass of the earth is $M\_{earth} = 5.976\times 10^{24}\ \rm{kg}$

@@ -44,12 +44,14 @@ part2:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params_vars_title: Ball Through A Loop
-    params_r: 1.26
+    params:
+      vars:
+        title: Ball Through A Loop
+      r: 0.98
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A ball, initially at rest, falls into a curved path as illustrated below. It follows the path until the peak, and gets launched onto a platform aside.
-The curvature has a radius $r={{params_r}} \ \rm{m}$.
+The curvature has a radius $r={{params.r}} \ \rm{m}$.
 Neglect friction.
 
 <img src="BallThroughALoop.png" width=500 alt="A ball falling vertically into a loop of radius r from a height h. At the peak of the loop, it comes off the track and lands on a platform of distance d from the start of the loop." >

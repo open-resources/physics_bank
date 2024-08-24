@@ -37,19 +37,21 @@ part1:
     suffix: $ \rm{m} $
 myst:
   substitutions:
-    params_vars_title: Sniper Target Practice
-    params_v: 908
-    params_d: 2.17
-    params_h: 70
+    params:
+      vars:
+        title: Sniper Target Practice
+      v: 1137
+      d: 1.78
+      h: 42
 ---
-# {{ params_vars_title }}
-A sniper is practicing their shots on a target $h = {{ params_h }} \ \rm{m}$ high at $d = {{ params_d }} \ \rm{km}$ away.
+# {{ params.vars.title }}
+A sniper is practicing their shots on a target $h = {{ params.h }} \ \rm{m}$ high at $d = {{ params.d }} \ \rm{km}$ away.
 
 <img src="SniperQuestion.png" height=300 alt="A gun points above a target at distance d and height h away. A straight dotted line goes from the muzzle of the gun to directly above the target. The dotted line is elevated at height e from the target." >
 
 ## Question Text
 
-If the bullet leaves the gun at $v = {{params_v}} \ \rm{m/s}$, at what elevation $e$ above the target should the sniper aim? <br>(Use the smaller angle)
+If the bullet leaves the gun at $v = {{params.v}} \ \rm{m/s}$, at what elevation $e$ above the target should the sniper aim? <br>(Use the smaller angle)
 
 ### Answer Section
 

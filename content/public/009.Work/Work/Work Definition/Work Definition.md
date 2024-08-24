@@ -30,13 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Work Definition
-    params_part1_ans1_value: Dot product of force with a differential displacement
-    params_part1_ans2_value: Cross product of force with a differential displacement
-    params_part1_ans3_value: Cross product of force with velocity
-    params_part1_ans4_value: Dot product of force with velocity
+    params:
+      vars:
+        title: Work Definition
+      part1:
+        ans1:
+          value: Dot product of force with a differential displacement
+        ans2:
+          value: Cross product of force with a differential displacement
+        ans3:
+          value: Cross product of force with velocity
+        ans4:
+          value: Dot product of force with velocity
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -44,10 +51,10 @@ Work is defined as
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

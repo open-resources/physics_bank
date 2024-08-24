@@ -99,22 +99,36 @@ part10:
     suffix: $\rm{N}$
 myst:
   substitutions:
-    params_vars_title: Elevator Pulley System
-    params_m_p: 69
-    params_M_e: 35
-    params_ang: 20
-    params_part1_ans1_value: 'Yes'
-    params_part1_ans2_value: 'No'
-    params_part7_ans1_value: $Mg$
-    params_part7_ans2_value: $n_{ep}$
-    params_part7_ans3_value: $T$
-    params_part7_ans4_value: $mg$
-    params_part7_ans5_value: $n_{pe}$
-    params_part8_ans1_value: 'Yes'
-    params_part8_ans2_value: 'No'
+    params:
+      vars:
+        title: Elevator Pulley System
+      m_p: 60
+      M_e: 25
+      ang: 20
+      part1:
+        ans1:
+          value: 'Yes'
+        ans2:
+          value: 'No'
+      part7:
+        ans1:
+          value: $n_{ep}$
+        ans2:
+          value: $T$
+        ans3:
+          value: $mg$
+        ans4:
+          value: $n_{pe}$
+        ans5:
+          value: $Mg$
+      part8:
+        ans1:
+          value: 'Yes'
+        ans2:
+          value: 'No'
 ---
-# {{ params_vars_title }}
-A $m = {{ params.m_p }} \rm{kg}$ person in a $M = {{ params.M_e }} \rm{kg}$ elevator lifts themselves at constant velocity by pulling on the rope shown in the figure below. The rope passes over a pulley attached to the top of the elevator shaft, back over a pulley attached to the top of the elevator, over a second pulley attached to the top of the elevator shaft, and attaches to the top of the elevator. Treat the rope as if it is massless and the pulleys as if they are frictionless and massless. At the instant shown in the figure below, the rope passing over the elevator's pulley makes a $\theta = {{ params_ang }}^\circ$ angle with the vertical.
+# {{ params.vars.title }}
+A $m = {{ params.m_p }} \rm{kg}$ person in a $M = {{ params.M_e }} \rm{kg}$ elevator lifts themselves at constant velocity by pulling on the rope shown in the figure below. The rope passes over a pulley attached to the top of the elevator shaft, back over a pulley attached to the top of the elevator, over a second pulley attached to the top of the elevator shaft, and attaches to the top of the elevator. Treat the rope as if it is massless and the pulleys as if they are frictionless and massless. At the instant shown in the figure below, the rope passing over the elevator's pulley makes a $\theta = {{ params.ang }}^\circ$ angle with the vertical.
 
 <img src="elevatorperson2.png" width=400 alt="An image of a person in an elevator. The person is holding on to a rope that passes through the top of the elevator and over a pulley attached to the top of the elevator shaft, making an angle of 20 degrees with itself. The rope then passes over a pulley attached to the top of the elevator, making an angle of 40 degrees with itself. The rope again passes over a pulley connected to the top of the elevator shaft and connects directly to the top of the elevator, making an angle of 20 degrees with itself. The portion of the rope that is held by the person and passes over the pulley connected to the top of the elevator shaft runs vertically. The portion of the rope that is connected directly to the top of the elevator and passes over the pulley connected to the top of the elevator shaft also runs vertically.">
 
@@ -205,11 +219,11 @@ Select all the choices that apply.
 
 Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params_part7_ans1_value}}
-- {{ params_part7_ans2_value}}
-- {{ params_part7_ans3_value}}
-- {{ params_part7_ans4_value}}
-- {{ params_part7_ans5_value}}
+- {{ params.part7.ans1.value}}
+- {{ params.part7.ans2.value}}
+- {{ params.part7.ans3.value}}
+- {{ params.part7.ans4.value}}
+- {{ params.part7.ans5.value}}
 
 ## Part 8
 

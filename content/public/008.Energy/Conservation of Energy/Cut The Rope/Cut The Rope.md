@@ -55,15 +55,17 @@ part3:
     suffix: $m$
 myst:
   substitutions:
-    params_vars_title: Cut The Rope
-    params_vars_units: m
-    params_l: 0.5
-    params_theta_0: 37
-    params_theta_c: 18
+    params:
+      vars:
+        title: Cut The Rope
+        units: m
+      l: 0.2
+      theta_0: 35
+      theta_c: 27
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 In the mobile app "Cut the Rope", a mass (of candy) swings on a rope and the game player selects a point to cut the rope so it lands in a cute little monster's mouth.
-Imagine that the mass is suspended from a fixed pivot point by a massless string of length $L = $  {{ params_l }} m.
+Imagine that the mass is suspended from a fixed pivot point by a massless string of length $L = $  {{ params.l }} m.
 It is released from an angle $\theta_0 = $ {{ params.theta_0 }} $^{\circ}$, swings through its lowest point, and is then cut on the other side at $\theta\_{cut} = $ {{ params.theta_c }} $^{\circ}$.
 Once cut, the mass flies free (no drag) and lands on a surface a distance $d$ away from the point where it was when the rope was cut.
 The surface is at the same height as the mass when the rope is cut.

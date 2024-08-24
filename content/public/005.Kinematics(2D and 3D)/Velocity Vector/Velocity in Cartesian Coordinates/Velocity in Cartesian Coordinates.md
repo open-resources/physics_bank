@@ -30,13 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Velocity in Spherical Coordinates
-    params_part1_ans1_value: ${\bf{v}} = \dot{x}{\bf{i}} + \dot{y}{\bf{j}} + \dot{z}{\bf{k}}$
-    params_part1_ans2_value: ${\bf{v}} = \dot{z}{\bf{i}} + \dot{x}{\bf{j}} + \dot{y}{\bf{k}}$
-    params_part1_ans3_value: ${\bf{v}} = y.z{\bf{i}} + z.x{\bf{j}} + x.y{\bf{k}}$
-    params_part1_ans4_value: ${\bf{v}} = \dot{x}^2{\bf{i}} + \dot{y}^2{\bf{j}} + \dot{z}^2{\bf{k}}$
+    params:
+      vars:
+        title: Velocity in Spherical Coordinates
+      part1:
+        ans1:
+          value: ${\bf{v}} = \dot{x}{\bf{i}} + \dot{y}{\bf{j}} + \dot{z}{\bf{k}}$
+        ans2:
+          value: ${\bf{v}} = \dot{z}{\bf{i}} + \dot{x}{\bf{j}} + \dot{y}{\bf{k}}$
+        ans3:
+          value: ${\bf{v}} = y.z{\bf{i}} + z.x{\bf{j}} + x.y{\bf{k}}$
+        ans4:
+          value: ${\bf{v}} = \dot{x}^2{\bf{i}} + \dot{y}^2{\bf{j}} + \dot{z}^2{\bf{k}}$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -44,10 +51,10 @@ When using cartesian coordinates for space curvilinear motion the expression for
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

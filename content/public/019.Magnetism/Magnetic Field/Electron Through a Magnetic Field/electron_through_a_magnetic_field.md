@@ -35,15 +35,20 @@ part1:
     fixed-order: true
 myst:
   substitutions:
-    params_vars_title: Electron Through A Magnetic Field
-    params_part1_ans1_value: The magnetic field must must be perpendicular to the
-      velocity.
-    params_part1_ans2_value: The magnetic field must point parallel or anti-parallel
-      to the velocity.
-    params_part1_ans3_value: The magnetic field must not be very strong
-    params_part1_ans4_value: None of the above
+    params:
+      vars:
+        title: Electron Through A Magnetic Field
+      part1:
+        ans1:
+          value: The magnetic field must must be perpendicular to the velocity.
+        ans2:
+          value: The magnetic field must point parallel or anti-parallel to the velocity.
+        ans3:
+          value: The magnetic field must not be very strong
+        ans4:
+          value: None of the above
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -51,10 +56,10 @@ An electron passes through a magnetic field without being deflected. What do you
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

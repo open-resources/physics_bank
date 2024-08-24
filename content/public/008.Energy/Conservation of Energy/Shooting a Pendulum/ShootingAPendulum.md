@@ -38,15 +38,17 @@ part1:
     suffix: $^\circ$
 myst:
   substitutions:
-    params_vars_title: Shooting a Pendulum
-    params_L: 1.54
-    params_m1: 0.06
-    params_m2: 12.55
-    params_v: 300
+    params:
+      vars:
+        title: Shooting a Pendulum
+      L: 1.67
+      m1: 0.05
+      m2: 17.72
+      v: 543
 ---
-# {{ params_vars_title }}
-A bullet of mass $m_1={{params_m1}} \ \rm{kg}$ is traveling at velocity $v={{params_v}} \ \rm{m/s}$.
-It collides with a mass $m_2={{params_m2}} \ \rm{kg}$ hanging at rest on a rope of length $L={{params_L}} \ \rm{m}$.
+# {{ params.vars.title }}
+A bullet of mass $m_1={{params.m1}} \ \rm{kg}$ is traveling at velocity $v={{params.v}} \ \rm{m/s}$.
+It collides with a mass $m_2={{params.m2}} \ \rm{kg}$ hanging at rest on a rope of length $L={{params.L}} \ \rm{m}$.
 Both masses combine and swing to an angle $\theta$.
 
 <img src="ShootingAPendulum.png" width=600 alt="A bullet of mass m1 moving towards a ball of mass m2 hanging on a rope of length L. It swings to an angle theta." >

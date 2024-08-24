@@ -33,18 +33,20 @@ part1:
     suffix: $\rm{N}$
 myst:
   substitutions:
-    params_vars_title: Truck on Icy Hill 2
-    params_m: 3484
-    params_v: 53
-    params_v2: 73
-    params_t: 12
-    params_theta: 25
+    params:
+      vars:
+        title: Truck on Icy Hill 2
+      m: 4032
+      v: 68
+      v2: 73
+      t: 17
+      theta: 23
 ---
-# {{ params_vars_title }}
-As a car moves down an icy hill, a car changes in velocity from $v = {{ params_v }} \ \rm{km/h}$ to $v_1 = {{ params_v2 }} \ \rm{km/h}$ over the course of $t = {{ params_t }} \ \rm{s}$.
+# {{ params.vars.title }}
+As a car moves down an icy hill, a car changes in velocity from $v = {{ params.v }} \ \rm{km/h}$ to $v_1 = {{ params.v2 }} \ \rm{km/h}$ over the course of $t = {{ params.t }} \ \rm{s}$.
 Was the engine braking or pushing over this interval?
 What force was put out by the engine?
-Assume the mass of the car is M and hill slope is $\theta = {{ params_theta }}^{\circ}$
+Assume the mass of the car is M and hill slope is $\theta = {{ params.theta }}^{\circ}$
 Assume that braking uphill is negative, accelearting downhill is positive.
 
 ## Part 1

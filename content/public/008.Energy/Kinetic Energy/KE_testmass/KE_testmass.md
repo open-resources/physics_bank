@@ -29,21 +29,30 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Kinetic Energy of Test Mass
-    params_vars_units: J
-    params_m: 473
-    params_v: 6.44
-    params_d_m: 3
-    params_d_v: 0.08
-    params_part1_ans1_value: 9.809 $\pm$ 0.184
-    params_part1_ans2_value: 9.809 $\pm$ 0.306
-    params_part1_ans3_value: 9.809 $\pm$ 0.064
-    params_part1_ans4_value: 9.809 $\pm$ 0.006
-    params_part1_ans5_value: 9.809 $\pm$ 0.031
-    params_part1_ans6_value: 9.809 $\pm$ 0.062
+    params:
+      vars:
+        title: Kinetic Energy of Test Mass
+        units: J
+      m: 163
+      v: 1.28
+      d_m: 3
+      d_v: 0.03
+      part1:
+        ans1:
+          value: 0.134 $\pm$ 0.006
+        ans2:
+          value: 0.134 $\pm$ 0.009
+        ans3:
+          value: 0.134 $\pm$ 0.003
+        ans4:
+          value: 0.134 $\pm$ 0.019
+        ans5:
+          value: 0.134 $\pm$ 0.065
+        ans6:
+          value: 0.134 $\pm$ 0.002
 ---
-# {{ params_vars_title }}
-In a lab, a {{ params_m}} $\pm$ {{ params.d_m}} $g$ test-mass is measured to have a speed of {{ params_v}} $\pm$ {{ params.d_v}} $m/s$.
+# {{ params.vars.title }}
+In a lab, a {{ params.m}} $\pm$ {{ params.d_m}} $g$ test-mass is measured to have a speed of {{ params.v}} $\pm$ {{ params.d_v}} $m/s$.
 
 ## Part 1
 
@@ -51,12 +60,12 @@ What is the kinetic energy of the test-mass?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params_vars_units}}
-- {{ params_part1_ans2_value }} {{ params_vars_units}}
-- {{ params_part1_ans3_value }} {{ params_vars_units}}
-- {{ params_part1_ans4_value }} {{ params_vars_units}}
-- {{ params_part1_ans5_value }} {{ params_vars_units}}
-- {{ params_part1_ans6_value }} {{ params_vars_units}}
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params.part1.ans6.value }} {{ params.vars.units}}
 
 ## Attribution
 

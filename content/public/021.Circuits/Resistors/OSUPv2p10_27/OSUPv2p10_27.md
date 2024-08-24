@@ -56,13 +56,15 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Greatest and Least Resistor Combinations
-    params_R1: '38.0'
-    params_R2: '55.0'
-    params_R3: '700'
+    params:
+      vars:
+        title: Greatest and Least Resistor Combinations
+      R1: '20.0'
+      R2: '65.0'
+      R3: '650'
 ---
-# {{ params_vars_title }}
-Consider a $ {{ params_R1 }}\rm\ \Omega$, a $ {{ params_R2 }}\rm\ \Omega$, and a $ {{ params_R3 }}\rm\ \Omega$ resistor.
+# {{ params.vars.title }}
+Consider a $ {{ params.R1 }}\rm\ \Omega$, a $ {{ params.R2 }}\rm\ \Omega$, and a $ {{ params.R3 }}\rm\ \Omega$ resistor.
 
 ## Part 1
 

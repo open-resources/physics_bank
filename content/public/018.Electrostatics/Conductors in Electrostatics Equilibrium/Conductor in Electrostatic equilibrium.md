@@ -32,24 +32,29 @@ part1:
     partial-credit-method: COV
 myst:
   substitutions:
-    params_vars_title: Correct and Incorrect Statements
-    params_vars_name: Emilia
-    params_choice: 'FALSE'
-    params_part1_ans1_value: A conductor in electrostatic equilibrium must have a
-      net charge of 0.
-    params_part1_ans1_feedback: Correct! Nice work
-    params_part1_ans2_value: If a conductor is in electrostatic equilibrium, the electric
-      field lines will always intersect its surface at right angles.
-    params_part1_ans2_feedback: Not quite - Try again!
-    params_part1_ans3_value: If a system is in electrostatic equilibrium, no charge
-      is moving.
-    params_part1_ans3_feedback: Not quite - Try again!
+    params:
+      vars:
+        title: Correct and Incorrect Statements
+        name: Abbas
+      choice: 'TRUE'
+      part1:
+        ans1:
+          value: If a system is in electrostatic equilibrium, no charge is moving.
+          feedback: Correct! Nice work
+        ans2:
+          value: If a conductor is in electrostatic equilibrium, the electric field
+            lines will always intersect its surface at right angles.
+          feedback: Correct! Nice work
+        ans3:
+          value: A conductor in electrostatic equilibrium must have a net charge of
+            0.
+          feedback: Not quite - Try again!
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
-{{ params_vars_name }} is given a list of statements about systems in electrostatic equilibriums and has to identify all of the  {{ params_choice }} statements. Can you help?
+{{ params.vars.name }} is given a list of statements about systems in electrostatic equilibriums and has to identify all of the  {{ params.choice }} statements. Can you help?
 
 ### Answer Section
 
@@ -57,9 +62,9 @@ Select all the choices that that apply.
 
 Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params_part1_ans1_value}}
-- {{ params_part1_ans2_value}}
-- {{ params_part1_ans3_value}}
+- {{ params.part1.ans1.value}}
+- {{ params.part1.ans2.value}}
+- {{ params.part1.ans3.value}}
 
 ## Attribution
 

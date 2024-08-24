@@ -43,22 +43,24 @@ part2:
     suffix: $\rm{rad/s^2}$
 myst:
   substitutions:
-    params_vars_title: Folding Platform
-    params_h: 6
-    params_x: 6
-    params_l_dot: 1.99
-    params_theta: 16
+    params:
+      vars:
+        title: Folding Platform
+      h: 1
+      x: 1
+      l_dot: 0.5
+      theta: 28
 ---
-# {{ params_vars_title }}
-A platform of length $x = {{params_x}}\ \rm{m}$ is being folded up against a wall by a rope pulling on its end.
+# {{ params.vars.title }}
+A platform of length $x = {{params.x}}\ \rm{m}$ is being folded up against a wall by a rope pulling on its end.
 The rope is retracting at a constant rate of $\dot{\ell} = {{params.l_dot}}\ \rm{m/s}$.
-The distance between the pivot and where the rope is pulling from is $h = {{params_h}}\ \rm{m}$.
+The distance between the pivot and where the rope is pulling from is $h = {{params.h}}\ \rm{m}$.
 
 <img src="FoldingPlatform.png" width=500 alt="A platform sticking out of a wall." >
 
 ## Part 1
 
-When $\theta = {{params_theta}}^{\circ}$, what is $\dot{\theta}$?
+When $\theta = {{params.theta}}^{\circ}$, what is $\dot{\theta}$?
 
 ### Answer Section
 

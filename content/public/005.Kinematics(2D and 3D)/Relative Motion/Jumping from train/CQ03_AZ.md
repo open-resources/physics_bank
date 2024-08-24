@@ -31,8 +31,12 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_part1_ans1_value: He lands back on the edge of the train.
-    params_part1_ans2_value: He lands on the ground.
+    params:
+      part1:
+        ans1:
+          value: He lands back on the edge of the train.
+        ans2:
+          value: He lands on the ground.
 ---
 # Jumping from train
 A person is standing at the edge of a moving train as illustrated below.
@@ -46,8 +50,8 @@ Neglect any resistive forces acting on the person.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Attribution
 

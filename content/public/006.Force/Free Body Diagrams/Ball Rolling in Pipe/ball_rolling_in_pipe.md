@@ -31,14 +31,22 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Ball Rolling in a Pipe
-    params_part1_ans1_value: Option A
-    params_part1_ans2_value: Option B
-    params_part1_ans3_value: Option C
-    params_part1_ans4_value: Option D
-    params_part1_ans5_value: Option E
+    params:
+      vars:
+        title: Ball Rolling in a Pipe
+      part1:
+        ans1:
+          value: Option A
+        ans2:
+          value: Option B
+        ans3:
+          value: Option C
+        ans4:
+          value: Option D
+        ans5:
+          value: Option E
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A ball rolls counterclockwise around the inside of a horizontal pipe.
 The ball is fastest at the lowest point, slowest at the highest point.
 
@@ -50,11 +58,11 @@ At the point shown, with the ball moving down (the white arrow shows the ball's 
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

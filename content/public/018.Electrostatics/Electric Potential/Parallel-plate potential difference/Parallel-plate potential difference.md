@@ -36,25 +36,23 @@ part1:
     custom-format: .3g
 myst:
   substitutions:
-    params_vars_title: Parallel-plate potential difference
-    params_d: '17.0'
-    params_t: '2.2'
-    params_q: '3.6'
-    params_p: -7
+    params:
+      vars:
+        title: Parallel-plate potential difference
+      d: '9.0'
+      t: '2.0'
+      q: '3.2'
+      p: -7
 ---
-# {{ params_vars_title }}
-Two parallel plates ${{ params_d }}\rm\ cm$ on a side are given equal and opposite charges of magnitude ${{ params_q }}\times 10^{ {{ params_p }} }\rm\ C$.
-The plates are ${{ params_t }}\rm\ mm$ apart.
+# {{ params.vars.title }}
+Two parallel plates ${{ params.d }}\rm\ cm$ on a side are given equal and opposite charges of magnitude ${{ params.q }}\times 10^{ {{ params.p }} }\rm\ C$.
+The plates are ${{ params.t }}\rm\ mm$ apart.
 
 ## Question Text
 
 What is the potential difference between the plates?
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}
 
 ## Attribution
 

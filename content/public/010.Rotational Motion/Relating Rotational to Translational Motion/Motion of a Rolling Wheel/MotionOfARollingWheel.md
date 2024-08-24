@@ -38,20 +38,27 @@ part1:
     hide-letter-keys: true
 myst:
   substitutions:
-    params_vars_title: Motion of a Rolling Wheel
-    params_part1_ans1_value: Graph 1
-    params_part1_ans1_feedback: Nice
-    params_part1_ans2_value: Graph 2
-    params_part1_ans2_feedback: Nope
-    params_part1_ans3_value: Graph 3
-    params_part1_ans3_feedback: Nope
-    params_part1_ans4_value: Graph 4
-    params_part1_ans4_feedback: Nope
-    params_part1_ans5_value: All of the above
-    params_part1_ans5_feedback: How is it all of the above? They are all completely
-      different.
+    params:
+      vars:
+        title: Motion of a Rolling Wheel
+      part1:
+        ans1:
+          value: Graph 1
+          feedback: Nice
+        ans2:
+          value: Graph 2
+          feedback: Nope
+        ans3:
+          value: Graph 3
+          feedback: Nope
+        ans4:
+          value: Graph 4
+          feedback: Nope
+        ans5:
+          value: All of the above
+          feedback: How is it all of the above? They are all completely different.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A wheel is rolling along a surface at speed $v$ without slipping.
 
 <img src="MotionOfARollingWheel.png">
@@ -74,11 +81,11 @@ Graph 4:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

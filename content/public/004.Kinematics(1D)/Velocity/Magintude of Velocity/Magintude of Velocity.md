@@ -30,13 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Magintude of Velocity
-    params_part1_ans1_value: Speed and it is a scalar.
-    params_part1_ans2_value: Speed and it is a vector.
-    params_part1_ans3_value: Acceleration and it is a vector.
-    params_part1_ans4_value: Acceleration and it is a scalar.
+    params:
+      vars:
+        title: Magintude of Velocity
+      part1:
+        ans1:
+          value: Speed and it is a scalar.
+        ans2:
+          value: Speed and it is a vector.
+        ans3:
+          value: Acceleration and it is a vector.
+        ans4:
+          value: Acceleration and it is a scalar.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -44,10 +51,10 @@ The magnitude of the velocity vector is called the
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

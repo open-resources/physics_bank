@@ -50,20 +50,22 @@ part3:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_title: Bullet Hit Bullet
-    params_vars_units: m/s
-    params_v: 548
-    params_theta: 5
-    params_phi: 67
-    params_vx: 128.96
-    params_vy: 303.81
-    params_vz: 508.23
-    params_t1: 0.08
-    params_t2: 0.09
-    params_mass: 7.0
+    params:
+      vars:
+        title: Bullet Hit Bullet
+        units: m/s
+      v: 539
+      theta: 74
+      phi: 80
+      vx: 208.22
+      vy: 391.61
+      vz: 528.57
+      t1: 0.05
+      t2: 0.05
+      mass: 9.0
 ---
-# {{ params_vars_title }}
-We are conducting an experiment with bullets where we shoot two bullets and they collide in midair. We shoot the first bullet such that it has a velocity of $v = {{params_v}}\ \rm{m/s}$ at an angle $\phi = {{params_phi}}^\circ$ and angle of $\theta = {{ params_theta}}^\circ$. It travels for ${{params_t1}}$ seconds and then collides with the second bullet that is travelling with the following velocity, $\vec{v} ={{params_vx}}.\widehat{\mathbf{i}}+{{params_vy}}.\widehat{\mathbf{j}}+{{params_vz}}.\widehat{\mathbf{k}}$. They are embedded together and travel a further ${{params_t2}}$ seconds. The mass of each bullet is ${{params_mass}}\ \rm{g}$.
+# {{ params.vars.title }}
+We are conducting an experiment with bullets where we shoot two bullets and they collide in midair. We shoot the first bullet such that it has a velocity of $v = {{params.v}}\ \rm{m/s}$ at an angle $\phi = {{params.phi}}^\circ$ and angle of $\theta = {{ params.theta}}^\circ$. It travels for ${{params.t1}}$ seconds and then collides with the second bullet that is travelling with the following velocity, $\vec{v} ={{params.vx}}.\widehat{\mathbf{i}}+{{params.vy}}.\widehat{\mathbf{j}}+{{params.vz}}.\widehat{\mathbf{k}}$. They are embedded together and travel a further ${{params.t2}}$ seconds. The mass of each bullet is ${{params.mass}}\ \rm{g}$.
 
 Find the velocity of the bullets at that point in time. Consider that gravity acts on the $z$-axis and that $\phi$ is the angle between the vector and the $xy$ plane.
 
@@ -73,7 +75,7 @@ What is $v_x$?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
@@ -81,7 +83,7 @@ What is $v_y$?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 3
 
@@ -89,7 +91,7 @@ What is $v_z$?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

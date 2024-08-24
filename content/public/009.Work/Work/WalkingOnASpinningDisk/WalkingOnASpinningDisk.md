@@ -36,20 +36,22 @@ part1:
     suffix: $\rm{J}$
 myst:
   substitutions:
-    params_vars_title: Walking on a Spinning Disk
-    params_m: 69
-    params_r1: 3
-    params_r2: 1.23
-    params_theta_dot: 3
+    params:
+      vars:
+        title: Walking on a Spinning Disk
+      m: 50
+      r1: 2
+      r2: 1.14
+      theta_dot: 2
 ---
-# {{ params_vars_title }}
-A ${{params_m}}\ \rm{kg}$ man is walking at a constant speed towards the center of a platform spinning at a constant rate of ${{params.theta_dot}} \ \rm{rad/s}$.
+# {{ params.vars.title }}
+A ${{params.m}}\ \rm{kg}$ man is walking at a constant speed towards the center of a platform spinning at a constant rate of ${{params.theta_dot}} \ \rm{rad/s}$.
 
 <img src="WalkingOnASpinningDisk.png" width=500 alt="A disk with a mass at distance r1 from the center. The mass moves closer to the center, where the radius is r2." >
 
 ## Part 1
 
-If his initial distance from the center is $r_1={{params_r1}} \ \rm{m}$, and he moves to a new location where $r={{params_r2}}\ \rm{m}$, how much work did he do?
+If his initial distance from the center is $r_1={{params.r1}} \ \rm{m}$, and he moves to a new location where $r={{params.r2}}\ \rm{m}$, how much work did he do?
 
 ### Answer Section
 

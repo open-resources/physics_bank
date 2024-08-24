@@ -34,15 +34,17 @@ part1:
     suffix: $\rm{hp}$
 myst:
   substitutions:
-    params_vars_title: Vehicle Horsepower
-    params_M1: 600
-    params_M2: 1699
-    params_RPM1: 6446
-    params_RPM2: 1582
+    params:
+      vars:
+        title: Vehicle Horsepower
+      M1: 620
+      M2: 1996
+      RPM1: 5189
+      RPM2: 1791
 ---
-# {{ params_vars_title }}
-At peak power, a sports car outputs ${{params_M1}} \ \rm{Nm}$ of torque and rotates the crankshaft at ${{params_RPM1}} \ \rm{RPM}$.
-At peak power, a semi truck outputs ${{params_M2}} \ \rm{Nm}$ of torque and rotates the crankshaft at ${{params_RPM2}} \ \rm{RPM}$.
+# {{ params.vars.title }}
+At peak power, a sports car outputs ${{params.M1}} \ \rm{Nm}$ of torque and rotates the crankshaft at ${{params.RPM1}} \ \rm{RPM}$.
+At peak power, a semi truck outputs ${{params.M2}} \ \rm{Nm}$ of torque and rotates the crankshaft at ${{params.RPM2}} \ \rm{RPM}$.
 
 ## Part 1
 

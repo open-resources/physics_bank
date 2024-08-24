@@ -30,24 +30,30 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Oscillations
-    params_part1_ans1_value: $R > l > L$
-    params_part1_ans1_feedback: Hmm, maybe go back and double-check your algebra.
-    params_part1_ans2_value: $l > R > L$
-    params_part1_ans2_feedback: Hmm, not quite. Did you try relating the period and
-      $I$?
-    params_part1_ans3_value: $L > l > R$
-    params_part1_ans3_feedback: Great! You got it.
-    params_part1_ans4_value: $L = l = R$
-    params_part1_ans4_feedback: Hmm, they all oscillate with the same period, yet
-      the lengths all have a different relation to $I$. How are the period and $I$
-      related?
-    params_part1_ans5_value: that we cannot know the relative lengths without knowing
-      the masses of the objects
-    params_part1_ans5_feedback: We have the moment of inertia for each object... maybe
-      that could help.
+    params:
+      vars:
+        title: Oscillations
+      part1:
+        ans1:
+          value: $R > l > L$
+          feedback: Hmm, maybe go back and double-check your algebra.
+        ans2:
+          value: $l > R > L$
+          feedback: Hmm, not quite. Did you try relating the period and $I$?
+        ans3:
+          value: $L > l > R$
+          feedback: Great! You got it.
+        ans4:
+          value: $L = l = R$
+          feedback: Hmm, they all oscillate with the same period, yet the lengths
+            all have a different relation to $I$. How are the period and $I$ related?
+        ans5:
+          value: that we cannot know the relative lengths without knowing the masses
+            of the objects
+          feedback: We have the moment of inertia for each object... maybe that could
+            help.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A thin rod of length $L$ oscillating about its end ($I = \frac13 mL^2$), a hoop of radius $R$ oscillating about its edge ($I=2mR^2$) and a simple pendulum of length $l$ ($I = ml^2$) are all found to have the same period.
 
 ## Part 1
@@ -56,11 +62,11 @@ This means:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

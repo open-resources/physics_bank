@@ -59,17 +59,23 @@ part5:
     file-names: Slit2.png
 myst:
   substitutions:
-    params_vars_title: Double Slit Experiment
-    params_l: 566
-    params_w: 102
-    params_s: 445
-    params_d: 13
-    params_part3_ans1_value: bright
-    params_part3_ans2_value: dark
-    params_part3_ans3_value: no pattern appears
+    params:
+      vars:
+        title: Double Slit Experiment
+      l: 315
+      w: 113
+      s: 384
+      d: 10
+      part3:
+        ans1:
+          value: bright
+        ans2:
+          value: dark
+        ans3:
+          value: no pattern appears
 ---
-# {{ params_vars_title }}
-A double slit experiment with {{ params_l}}nm light has a slit width of {{ params_w}}$\mu$m, and a slit separation of {{ params_s}}nm
+# {{ params.vars.title }}
+A double slit experiment with {{ params.l}}nm light has a slit width of {{ params.w}}$\mu$m, and a slit separation of {{ params.s}}nm
 
 ## Part 1
 
@@ -81,23 +87,13 @@ Upload a file named 'Slit1' and must be a png.
 
 File upload will appear here
 
-### pl-submission-panel
-
-### pl-answer-panel
-
 ## Part 2
 
-If the screen is {{ params_d}}m away, find the location of the edge of the central maximum from the centre of the single slit diffraction pattern, assuming the small angle approximation is valid.
+If the screen is {{ params.d}}m away, find the location of the edge of the central maximum from the centre of the single slit diffraction pattern, assuming the small angle approximation is valid.
 
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
-
-### pl-submission-panel
-
-{{ feedback.part2_ans }}
-
-### pl-answer-panel
 
 ## Part 3
 
@@ -109,10 +105,6 @@ When observing a double-slit pattern, you would notice a bright line at a specif
 - {{ params.part3.ans2}} {{ params.vars.units}}
 - {{ params.part3.ans3}} {{ params.vars.units}}
 
-### pl-submission-panel
-
-### pl-answer-panel
-
 ## Part 4
 
 Is there a bright line of the double slit pattern that coincides with the underlying single slit pattern's first minimum?  If so, at what diffraction order, $m$ does this occur?
@@ -120,12 +112,6 @@ Is there a bright line of the double slit pattern that coincides with the underl
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
-
-### pl-submission-panel
-
-{{ feedback.part4_ans }}
-
-### pl-answer-panel
 
 ## Part 5
 
@@ -136,10 +122,6 @@ Upload a file named 'Slit2' and must be a png.
 ### Answer Section
 
 File upload will appear here
-
-### pl-submission-panel
-
-### pl-answer-panel
 
 ## Attribution
 

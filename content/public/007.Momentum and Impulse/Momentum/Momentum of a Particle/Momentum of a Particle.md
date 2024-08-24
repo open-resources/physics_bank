@@ -74,18 +74,20 @@ part6:
     suffix: $\rm{N.m}$
 myst:
   substitutions:
-    params_vars_title: Momentum of a Particle
-    params_m: 41
-    params_F: 11
-    params_v: 30
-    params_x: 5
-    params_y: 3
-    params_z: 2
+    params:
+      vars:
+        title: Momentum of a Particle
+      m: 89
+      F: 22
+      v: 74
+      x: 1
+      y: 5
+      z: 2
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Momentum.png" width=800>
 
-A particle has a mass of $m = {{params_m}} \ \rm{kg}$ and has a velocity of $v = {{params_v}} \ \rm{m/s}$. The force acting upon this particle is $F = {{params_F}} \ \rm{N}$, and the position is given by $({{params_x}} ,{{params_y}} ,{{params_z}} )$. What is the angular momentum about the origin and its time derivative?
+A particle has a mass of $m = {{params.m}} \ \rm{kg}$ and has a velocity of $v = {{params.v}} \ \rm{m/s}$. The force acting upon this particle is $F = {{params.F}} \ \rm{N}$, and the position is given by $({{params.x}} ,{{params.y}} ,{{params.z}} )$. What is the angular momentum about the origin and its time derivative?
 
 ## Part 1
 

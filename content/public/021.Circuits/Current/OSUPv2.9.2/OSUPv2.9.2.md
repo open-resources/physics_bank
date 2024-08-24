@@ -27,14 +27,22 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Car Battery
-    params_part1_ans1_value: Voltage
-    params_part1_ans2_value: Charge
-    params_part1_ans3_value: Current
-    params_part1_ans4_value: Energy
-    params_part1_ans5_value: Power
+    params:
+      vars:
+        title: Car Battery
+      part1:
+        ans1:
+          value: Voltage
+        ans2:
+          value: Charge
+        ans3:
+          value: Current
+        ans4:
+          value: Energy
+        ans5:
+          value: Power
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -44,11 +52,11 @@ What physical quantity do ampere-hours correspond with?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

@@ -34,12 +34,14 @@ part1:
     suffix: $cm$
 myst:
   substitutions:
-    params_vars_title: Diameter of a Tree
-    params_h_t1: 7.47
-    params_d_t1: 21
-    params_h_t2: 20.7
+    params:
+      vars:
+        title: Diameter of a Tree
+      h_t1: 5.96
+      d_t1: 38
+      h_t2: 22.6
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 

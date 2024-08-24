@@ -31,24 +31,29 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Mass on the end of a string
-    params_part1_ans3_value: a
-    params_part1_ans3_feedback: Great! You got it. The Z-pattern relates the angle
-      theta(θ)to that given in the diagram.
-    params_part1_ans2_value: b
-    params_part1_ans2_feedback: The net force must point toward the center of the
-      circle.
-    params_part1_ans1_value: c
-    params_part1_ans1_feedback: Since the mass is on a table, it should have a normal
-      force acting upward on it.
-    params_part1_ans4_value: d
-    params_part1_ans4_feedback: The net force must point toward the center of the
-      circle.
-    params_part1_ans5_value: e
-    params_part1_ans5_feedback: The net force must point toward the center of the
-      circle.
+    params:
+      vars:
+        title: Mass on the end of a string
+      part1:
+        ans3:
+          value: a
+          feedback: Great! You got it. The Z-pattern relates the angle theta(θ)to
+            that given in the diagram.
+        ans2:
+          value: b
+          feedback: The net force must point toward the center of the circle.
+        ans1:
+          value: c
+          feedback: Since the mass is on a table, it should have a normal force acting
+            upward on it.
+        ans4:
+          value: d
+          feedback: The net force must point toward the center of the circle.
+        ans5:
+          value: e
+          feedback: The net force must point toward the center of the circle.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A mass on the end of a string is swung around a circle across a horizontal frictionless table. The angle the string makes with respect to the vertical is $\theta$. Choose the best free body diagram from the choices provided in the figure.
 
 <img src="fbdmassonstring6.png">
@@ -57,11 +62,11 @@ A mass on the end of a string is swung around a circle across a horizontal frict
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params.vars.units}}
-- {{ params_part1_ans2_value }} {{ params.vars.units}}
-- {{ params_part1_ans3_value }} {{ params.vars.units}}
-- {{ params_part1_ans4_value }} {{ params.vars.units}}
-- {{ params_part1_ans5_value }} {{ params.vars.units}}
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

@@ -56,37 +56,43 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: A Frictionless Air Track?
-    params_vars_name: Maya
-    params_vars_units: $m/s^2$
-    params_m1: 111.1
-    params_m2: 18.62
-    params_d_a: 0.03
-    params_mean: 1.53
-    params_sd: 0.0849
-    params_a1: 1.64
-    params_a2: 1.43
-    params_a3: 1.4
-    params_a4: 1.47
-    params_a5: 1.65
-    params_a6: 1.61
-    params_a7: 1.46
-    params_a8: 1.58
-    params_a9: 1.51
-    params_a10: 1.56
-    params_part4_ans1_value: The track is frictionless because $a_{expected}$ does
-      not agree with $a_{measured}$.
-    params_part4_ans2_value: The track is not frictionless because $a_{expected}$
-      agrees with $a_{measured}$.
-    params_part4_ans3_value: The track is not frictionless because $a_{expected}$
-      does not agree with $a_{measured}$.
-    params_part4_ans4_value: The track is frictionless because $a_{expected}$ agrees
-      with $a_{measured}$.
+    params:
+      vars:
+        title: A Frictionless Air Track?
+        name: Mateo
+        units: $m/s^2$
+      m1: 456.9
+      m2: 43.86
+      d_a: 0.02
+      mean: 1.54
+      sd: 0.136
+      a1: 1.64
+      a2: 1.31
+      a3: 1.52
+      a4: 1.58
+      a5: 1.72
+      a6: 1.61
+      a7: 1.48
+      a8: 1.72
+      a9: 1.45
+      a10: 1.34
+      part4:
+        ans1:
+          value: The track is frictionless because $a_{expected}$ does not agree with
+            $a_{measured}$.
+        ans2:
+          value: The track is not frictionless because $a_{expected}$ agrees with
+            $a_{measured}$.
+        ans3:
+          value: The track is not frictionless because $a_{expected}$ does not agree
+            with $a_{measured}$.
+        ans4:
+          value: The track is frictionless because $a_{expected}$ agrees with $a_{measured}$.
 ---
-# {{ params_vars_title }}
-Because of {{ params_vars_name }}'s excellent work in lab, their professor asks them to test out a new "frictionless" air track, which can be used to measure the acceleration due to gravity.
-In {{ params_vars_name }}'s setup, they place a cart with mass $m_1$ = {{ params_m1 }} $g$ on the track and suspend a second mass $m_2$ = {{ params_m2 }} $g$ over a (supposedly) massless, frictionless pulley.
-Using a photogate that reads the acceleration of the system at the pulley, {{ params_vars_name }} measures the acceleration in 10 trials as given in the table below.
+# {{ params.vars.title }}
+Because of {{ params.vars.name }}'s excellent work in lab, their professor asks them to test out a new "frictionless" air track, which can be used to measure the acceleration due to gravity.
+In {{ params.vars.name }}'s setup, they place a cart with mass $m_1$ = {{ params.m1 }} $g$ on the track and suspend a second mass $m_2$ = {{ params.m2 }} $g$ over a (supposedly) massless, frictionless pulley.
+Using a photogate that reads the acceleration of the system at the pulley, {{ params.vars.name }} measures the acceleration in 10 trials as given in the table below.
 The uncertainty in each acceleration measurement is $\pm$ {{ params.d_a }} $m/s^2$; the uncertainties in $m_1$ and $m_2$ are negligible.
 The mean and standard deviation (SD) of the acceleration data are also given in the table.
 Given these data, would you conclude that the air track system is frictionless as claimed?
@@ -96,18 +102,18 @@ Justify your answer!
 
 | Trial     | Accel. ($m/s^2$) |
 | ----------- | ----------- |
-| 1     |  {{ params_a1 }}     |
-| 2   |   {{ params_a2 }}      |
-| 3     |  {{ params_a3 }}     |
-| 4   |   {{ params_a4 }}      |
-| 5     |  {{ params_a5 }}     |
-| 6   |   {{ params_a6 }}      |
-| 7     |  {{ params_a7 }}     |
-| 8   |   {{ params_a8 }}      |
-| 9     |  {{ params_a9 }}     |
-| 10   |   {{ params_a10 }}      |
-| **Mean** | {{ params_mean }}      |
-| **SD** | {{ params_sd }}      |
+| 1     |  {{ params.a1 }}     |
+| 2   |   {{ params.a2 }}      |
+| 3     |  {{ params.a3 }}     |
+| 4   |   {{ params.a4 }}      |
+| 5     |  {{ params.a5 }}     |
+| 6   |   {{ params.a6 }}      |
+| 7     |  {{ params.a7 }}     |
+| 8   |   {{ params.a8 }}      |
+| 9     |  {{ params.a9 }}     |
+| 10   |   {{ params.a10 }}      |
+| **Mean** | {{ params.mean }}      |
+| **SD** | {{ params.sd }}      |
 
 ## Part 1
 
@@ -115,7 +121,7 @@ Calculate $a\_{expected}$.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
@@ -123,7 +129,7 @@ Calculate $a\_{measured}$.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 3
 
@@ -131,7 +137,7 @@ Calculate the standard error of $a\_{measured}$.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 4
 
@@ -139,10 +145,10 @@ Would you conclude that the air track system is frictionless as claimed? Justify
 
 ### Answer Section
 
-- {{ params_part4_ans1_value}}
-- {{ params_part4_ans2_value}}
-- {{ params_part4_ans3_value}}
-- {{ params_part4_ans4_value}}
+- {{ params.part4.ans1.value}}
+- {{ params.part4.ans2.value}}
+- {{ params.part4.ans3.value}}
+- {{ params.part4.ans4.value}}
 
 ## Attribution
 

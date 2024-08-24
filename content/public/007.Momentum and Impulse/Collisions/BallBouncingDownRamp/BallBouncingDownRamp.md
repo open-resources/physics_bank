@@ -43,13 +43,15 @@ part2:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params_vars_title: Ball Bouncing Down Ramp
-    params_h: 2.9
-    params_theta: 46
-    params_e: 0.61
+    params:
+      vars:
+        title: Ball Bouncing Down Ramp
+      h: 4.09
+      theta: 59
+      e: 0.88
 ---
-# {{ params_vars_title }}
-A ball is dropped from a height ${{params_h}} \ \rm{m}$ above a ${{params_theta}}^{\circ}$ sloped ramp. The coefficient of restitution between the ball and the ramp is $e={{params_e}}$.
+# {{ params.vars.title }}
+A ball is dropped from a height ${{params.h}} \ \rm{m}$ above a ${{params.theta}}^{\circ}$ sloped ramp. The coefficient of restitution between the ball and the ramp is $e={{params.e}}$.
 
 <img src="BallBouncingDownRamp.png" width=500 alt="A basketball dropped vertically onto a ramp." >
 

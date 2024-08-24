@@ -33,9 +33,11 @@ part1:
     allow-blank: false
 myst:
   substitutions:
-    params_vars_title: Kicked Soccer Ball
+    params:
+      vars:
+        title: Kicked Soccer Ball
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 

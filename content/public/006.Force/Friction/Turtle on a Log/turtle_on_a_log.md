@@ -35,21 +35,37 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Turtle on a log
-    params_part1_ans1_value: $F_n = mg$
-    params_part1_ans2_value: $F_n = 0$
-    params_part1_ans3_value: $F_n = mg \sin\theta$
-    params_part1_ans4_value: $F_n = mg\cos\theta$
-    params_part1_ans5_value: $F_n = 2\cdot mg tan\theta$
-    params_part2_ans1_value: $F_{fs} = \mu_s mg$
-    params_part2_ans3_value: $F_{fs} = \mu_s mg\sin\theta$
-    params_part2_ans2_value: $F_{fs} = \mu_s mg \cos\theta$
-    params_part2_ans4_value: $F_{fs} = mg\sin\theta$
-    params_part2_ans5_value: $F_{fs} = mg\cos\theta$
-    params_part2_ans6_value: $F_{fs} = mg tan\theta$
-    params_part2_ans7_value: $F_{fs} = \mu_s mg tan\theta$
+    params:
+      vars:
+        title: Turtle on a log
+      part1:
+        ans1:
+          value: $F_n = mg$
+        ans2:
+          value: $F_n = 0$
+        ans3:
+          value: $F_n = mg \sin\theta$
+        ans4:
+          value: $F_n = mg\cos\theta$
+        ans5:
+          value: $F_n = 2\cdot mg tan\theta$
+      part2:
+        ans1:
+          value: $F_{fs} = \mu_s mg$
+        ans3:
+          value: $F_{fs} = \mu_s mg\sin\theta$
+        ans2:
+          value: $F_{fs} = \mu_s mg \cos\theta$
+        ans4:
+          value: $F_{fs} = mg\sin\theta$
+        ans5:
+          value: $F_{fs} = mg\cos\theta$
+        ans6:
+          value: $F_{fs} = mg tan\theta$
+        ans7:
+          value: $F_{fs} = \mu_s mg tan\theta$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A turtle lies on a log in the sun as shown in the figure below.
 The turtle has mass $\rm m$, the log makes an angle $\theta$ with respect to the horizontal and the coefficient of static friction between the turtle and the log is $\mu_s$ (where $\mu_s > \tan\theta$).
 
@@ -61,11 +77,11 @@ The magnitude of the normal force, $F_n$ is:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 - {{ params.part1.ans6.value }}
 
 ## Part 2
@@ -74,13 +90,13 @@ The magnitude of the static frictional force $F\_{fs}$ is:
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-- {{ params_part2_ans3_value }}
-- {{ params_part2_ans4_value }}
-- {{ params_part2_ans5_value }}
-- {{ params_part2_ans6_value }}
-- {{ params_part2_ans7_value }}
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
+- {{ params.part2.ans4.value }}
+- {{ params.part2.ans5.value }}
+- {{ params.part2.ans6.value }}
+- {{ params.part2.ans7.value }}
 
 ## Attribution
 

@@ -33,21 +33,29 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Motion of an Airplane
-    params_vars_units: km
-    params_v1: 34
-    params_v2: 47
-    params_a1: 68
-    params_a2: 25
-    params_dir1: north
-    params_part1_ans1_value: 75.5 km in a direction 42.9 degrees north of east.
-    params_part1_ans2_value: 75.5 km in a direction 42.9 degrees south of east.
-    params_part1_ans3_value: 5702.4 km in a direction 42.9 degrees north of east.
-    params_part1_ans4_value: 5702.4 km in a direction 42.9 degrees south  of east.
-    params_part1_ans5_value: 75.5 km in a direction 89.3 degrees south of east.
+    params:
+      vars:
+        title: Motion of an Airplane
+        units: km
+      v1: 21
+      v2: 29
+      a1: 10
+      a2: 79
+      dir1: south
+      part1:
+        ans1:
+          value: 36.1 km in a direction 43.4 degrees north of east.
+        ans2:
+          value: 36.1 km in a direction 43.4 degrees south of east.
+        ans3:
+          value: 1303.3 km in a direction 43.4 degrees north of east.
+        ans4:
+          value: 1303.3 km in a direction 43.4 degrees south  of east.
+        ans5:
+          value: 36.1 km in a direction 89.3 degrees south of east.
 ---
-# {{ params_vars_title }}
-A small plane flies {{params_v1}} km in a direction {{params_a1}} degrees {{params_dir1}} of east and then flies {{params_v2}} km in a direction {{params_a2}} degrees north of east.
+# {{ params.vars.title }}
+A small plane flies {{params.v1}} km in a direction {{params.a1}} degrees {{params.dir1}} of east and then flies {{params.v2}} km in a direction {{params.a2}} degrees north of east.
 
 ## Part 1
 
@@ -55,11 +63,11 @@ Find the total distance the plane covers from the starting point and the directi
 
 ### Answer Section
 
-- {{ params_part1_ans1_value}}
-- {{ params_part1_ans2_value}}
-- {{ params_part1_ans3_value}}
-- {{ params_part1_ans4_value}}
-- {{ params_part1_ans5_value}}
+- {{ params.part1.ans1.value}}
+- {{ params.part1.ans2.value}}
+- {{ params.part1.ans3.value}}
+- {{ params.part1.ans4.value}}
+- {{ params.part1.ans5.value}}
 
 ## Attribution
 

@@ -50,12 +50,14 @@ part2:
     custom-format: .2g
 myst:
   substitutions:
-    params_vars_title: Protons in a Cyclotron
-    params_B: 1.1
+    params:
+      vars:
+        title: Protons in a Cyclotron
+      B: 1.8
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A physicist is designing a cyclotron to accelerate protons to one-tenth the speed of light.
-The magnetic field will have a strength of ${{params_B}}\textrm{ T}$.
+The magnetic field will have a strength of ${{params.B}}\textrm{ T}$.
 
 ## Part 1
 
@@ -72,11 +74,6 @@ Determine the the maximum radius of the protons orbit.
 ### Answer Section
 
 Please enter a numeric value.
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-{{ feedback.part1_ans }}
 
 ## Attribution
 

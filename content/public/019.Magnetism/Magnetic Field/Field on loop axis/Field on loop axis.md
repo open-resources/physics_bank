@@ -42,9 +42,11 @@ part1:
     suffix: $R$
 myst:
   substitutions:
-    params_vars_title: Field on loop axis
+    params:
+      vars:
+        title: Field on loop axis
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A circular loop of radius $R$ carries a current $I$.
 
 ## Question Text
@@ -53,16 +55,6 @@ At what distance $z$ along the axis of the loop is the magnetic field one-half i
 Give your answer as a multiple of $R$.
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$z=$ {{ correct_answers.part1_ans_str }}$R$
 
 ## Attribution
 

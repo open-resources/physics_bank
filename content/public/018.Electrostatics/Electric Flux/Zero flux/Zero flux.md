@@ -45,14 +45,23 @@ part2:
     blank: true
 myst:
   substitutions:
-    params_vars_title: Zero flux
-    params_part1_ans1_value: 'True'
-    params_part1_ans2_value: 'False'
-    params_part2_ans1_value: There is a net positive charge
-    params_part2_ans2_value: There is a net negative charge
-    params_part2_ans3_value: The net charge is zero
+    params:
+      vars:
+        title: Zero flux
+      part1:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
+      part2:
+        ans1:
+          value: There is a net positive charge
+        ans2:
+          value: There is a net negative charge
+        ans3:
+          value: The net charge is zero
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -60,8 +69,8 @@ If the electric flux through a closed surface is zero, the electric field is nec
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Part 2
 
@@ -69,9 +78,9 @@ If the electric flux through a closed surface is zero, what is the net charge in
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-- {{ params_part2_ans3_value }}
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
 
 ## Attribution
 

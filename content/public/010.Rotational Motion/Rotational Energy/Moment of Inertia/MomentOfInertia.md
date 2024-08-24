@@ -32,20 +32,24 @@ part1:
     blank: 'true'
 myst:
   substitutions:
-    params_vars_title: Moment of Inertia
-    params_part1_ans1_value: Rod
-    params_part1_ans1_feedback: Good job!
-    params_part1_ans2_value: Hoop
-    params_part1_ans2_feedback: Think of keeping most of the mass close to the axis
-      of rotation.
-    params_part1_ans3_value: Disk
-    params_part1_ans3_feedback: Think of keeping most of the mass close to the axis
-      of rotation.
-    params_part1_ans4_value: Point Mass
-    params_part1_ans4_feedback: Think of keeping most of the mass close to the axis
-      of rotation.
+    params:
+      vars:
+        title: Moment of Inertia
+      part1:
+        ans1:
+          value: Rod
+          feedback: Good job!
+        ans2:
+          value: Hoop
+          feedback: Think of keeping most of the mass close to the axis of rotation.
+        ans3:
+          value: Disk
+          feedback: Think of keeping most of the mass close to the axis of rotation.
+        ans4:
+          value: Point Mass
+          feedback: Think of keeping most of the mass close to the axis of rotation.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 

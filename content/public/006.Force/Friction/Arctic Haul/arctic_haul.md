@@ -74,13 +74,15 @@ part7:
     suffix: $\rm{N}$
 myst:
   substitutions:
-    params_vars_title: Arctic Haul
-    params_vars_units: $\rm{N}$
-    params_uk: 0.57
-    params_m: 67
+    params:
+      vars:
+        title: Arctic Haul
+        units: $\rm{N}$
+      uk: 0.41
+      m: 33
 ---
-# {{ params_vars_title }}
-An environmental physicist working in the Arctic pulls their supplies up a steep ($\theta = 30^\circ$ above the horizontal) snow-covered slope. The rope that they pull with is at an angle $\theta = 30^\circ$ above the angle of the slope (see figure below). The coefficient of kinetic friction between the supplies and the slope is $\mu_k = {{ params_uk }}$. They maintain a constant velocity up the hill.
+# {{ params.vars.title }}
+An environmental physicist working in the Arctic pulls their supplies up a steep ($\theta = 30^\circ$ above the horizontal) snow-covered slope. The rope that they pull with is at an angle $\theta = 30^\circ$ above the angle of the slope (see figure below). The coefficient of kinetic friction between the supplies and the slope is $\mu_k = {{ params.uk }}$. They maintain a constant velocity up the hill.
 
 <img src="diagram.png" alt="Someone pulling a block, to the right, up a 30 degree slope with a rope that is 30 degrees above the angle of the slope." width=400>
 
@@ -134,11 +136,11 @@ Note that it may not be necessary to use every variable. Use the following table
 
 ## Part 5
 
-If the mass of their supplies is {{ params_m }} $\rm{kg}$, solve your equations to find the normal force on the supplies. (*Hint: you will need to eliminate the tension and express $f_k$ in terms of the normal force*).
+If the mass of their supplies is {{ params.m }} $\rm{kg}$, solve your equations to find the normal force on the supplies. (*Hint: you will need to eliminate the tension and express $f_k$ in terms of the normal force*).
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 6
 
@@ -146,7 +148,7 @@ Find the magnitude of the kinetic force of friction on the supplies.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 7
 
@@ -154,7 +156,7 @@ Solve your equations to find the tension in the rope.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

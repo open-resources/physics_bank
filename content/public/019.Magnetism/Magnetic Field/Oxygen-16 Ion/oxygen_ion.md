@@ -44,13 +44,15 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Oxygen-16 Ion
-    params_v: 1.3
-    params_B: 6.2
-    params_r: '0.035'
+    params:
+      vars:
+        title: Oxygen-16 Ion
+      v: 4.4
+      B: 9.2
+      r: '0.080'
 ---
-# {{ params_vars_title }}
-An oxygen-16 ion with a mass of $2.66 \times 10^{-26} \textrm{ kg}$ travels at ${{params_v}} \times 10^{6} \textrm{ m/s}$ perpendicular to a ${{params_B}} \textrm{ T}$ magnetic field, which makes it move in a circular arc with a ${{params_r}} \textrm{ m}$ radius.
+# {{ params.vars.title }}
+An oxygen-16 ion with a mass of $2.66 \times 10^{-26} \textrm{ kg}$ travels at ${{params.v}} \times 10^{6} \textrm{ m/s}$ perpendicular to a ${{params.B}} \textrm{ T}$ magnetic field, which makes it move in a circular arc with a ${{params.r}} \textrm{ m}$ radius.
 
 ## Part 1
 
@@ -67,11 +69,6 @@ What is the ratio of this charge to the charge of an electron?
 ### Answer Section
 
 Please enter a numeric value.
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-{{ feedback.part1_ans }}
 
 ## Attribution
 

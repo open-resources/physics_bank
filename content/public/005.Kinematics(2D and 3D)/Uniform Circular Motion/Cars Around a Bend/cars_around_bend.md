@@ -36,19 +36,21 @@ part1:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params_vars_title: Cars around a bend
-    params_vars_units: "$\rm{m}$"
-    params_max_acc_A: 0.6
-    params_max_acc_B: 0.3
-    params_ra: 329
-    params_rb: 425
-    params_angle: 40
+    params:
+      vars:
+        title: Cars around a bend
+        units: "$\rm{m}$"
+      max_acc_A: 0.2
+      max_acc_B: 0.9
+      ra: 371
+      rb: 428
+      angle: 42
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Two cars travel at constant speeds around a curve as shown below.
 The front end of both cars crosses line $C$ at the same time and each driver minimizes their time in the curve.
-The maximum centripetal acceleration for car A is ${{params.max_acc_A}}g$ with $R\_{A} = {{params_ra}}$ $\rm{m}$ and for car B is ${{params.max_acc_B}}g$ with $R\_{B} = {{params_rb}}$ $\rm{m}$, where $g$ is the gravitational constant.
-The angle $\theta = {{params_angle}}^{\circ}$.
+The maximum centripetal acceleration for car A is ${{params.max_acc_A}}g$ with $R\_{A} = {{params.ra}}$ $\rm{m}$ and for car B is ${{params.max_acc_B}}g$ with $R\_{B} = {{params.rb}}$ $\rm{m}$, where $g$ is the gravitational constant.
+The angle $\theta = {{params.angle}}^{\circ}$.
 
 <img src="L8Q1.png" width=400 alt="Two cars are on a curved road. The radius or curvature of the road for car A (R_A) is less than that of car B (R_B). Both cars start at radial line C. Radial line D, which is some distance in front of the cars, makes an angle (theta) with radial line C.">
 
@@ -58,7 +60,7 @@ Determine the distance $S$ that the second car has yet to travel to reach line $
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

@@ -43,13 +43,15 @@ part2:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params_vars_title: Ball Down A Hill
-    params_d: 1.35
-    params_theta: 43
+    params:
+      vars:
+        title: Ball Down A Hill
+      d: 0.91
+      theta: 48
 ---
-# {{ params_vars_title }}
-A ball, initially at rest, rolls down a hill slanted $\theta = {{params_theta}}^{\circ}$.
-After traveling a horizontal distance $d = {{params_d}} \ \rm{m}$, it moves up a curve whose height follows the equation $h(x) = \frac{x^2}{2}$.
+# {{ params.vars.title }}
+A ball, initially at rest, rolls down a hill slanted $\theta = {{params.theta}}^{\circ}$.
+After traveling a horizontal distance $d = {{params.d}} \ \rm{m}$, it moves up a curve whose height follows the equation $h(x) = \frac{x^2}{2}$.
 
 <img src="BallDownAHill.png" width=600 alt="A ball rolls down a hill slanted theta degrees up. At the end of that hill the path curves upwards." >
 

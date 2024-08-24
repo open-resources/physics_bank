@@ -60,10 +60,14 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params_u: 9
-    params_a: 19
-    params_part4_ans1_value: 'False'
-    params_part4_ans2_value: 'True'
+    params:
+      u: 8
+      a: 53
+      part4:
+        ans1:
+          value: 'False'
+        ans2:
+          value: 'True'
 ---
 # Pool ball collision
 In a game of pool, the white cue ball is shot in a straight line towards a stationary black ball with speed $u_1$.
@@ -84,7 +88,7 @@ Please enter the angle in $\circ$.
 
 If the **black** ball leaves the collision at an angle $\alpha$ measured from below the horizontal, what is the speed of the **black** ball after the collision?
 <br>
-$u_1 = {{ params_u }}\ \rm{m/s}$ , $\alpha = {{ params_a }}^{\circ}$
+$u_1 = {{ params.u }}\ \rm{m/s}$ , $\alpha = {{ params.a }}^{\circ}$
 
 <img src="part2.png" width=600>
 
@@ -106,8 +110,8 @@ If the final direction of one of the balls was undetermined, using the principle
 
 ### Answer Section
 
-- {{ params_part4_ans1_value}}
-- {{ params_part4_ans2_value}}
+- {{ params.part4.ans1.value}}
+- {{ params.part4.ans2.value}}
 
 ## Attribution
 

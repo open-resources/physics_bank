@@ -45,21 +45,26 @@ part2:
     sort: fixed
 myst:
   substitutions:
-    params_vars_title: Force between current-carrying wires
-    params_d: '9.0'
-    params_I1: '2.4'
-    params_I2: '6.4'
-    params_txt: opposite directions
-    params_part2_ans1_value: Attract
-    params_part2_ans2_value: Repel
+    params:
+      vars:
+        title: Force between current-carrying wires
+      d: '18.0'
+      I1: '2.0'
+      I2: '5.2'
+      txt: the same direction
+      part2:
+        ans1:
+          value: Attract
+        ans2:
+          value: Repel
 ---
-# {{ params_vars_title }}
-Two long, straight wires are parallel and ${{ params_d }}\rm\ cm$ apart.
-One carries a current of ${{ params_I1 }}\rm\ A$, the other a current of ${{ params_I2 }}\rm\ A$.
+# {{ params.vars.title }}
+Two long, straight wires are parallel and ${{ params.d }}\rm\ cm$ apart.
+One carries a current of ${{ params.I1 }}\rm\ A$, the other a current of ${{ params.I2 }}\rm\ A$.
 
 ## Part 1
 
-If the two currents flow in {{ params_txt }}, what is the magnitude of the force per unit length of one wire on the other?
+If the two currents flow in {{ params.txt }}, what is the magnitude of the force per unit length of one wire on the other?
 
 ### Answer Section
 
@@ -69,12 +74,8 @@ Do the wires attract or repel eachother?
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
 
 ## Attribution
 

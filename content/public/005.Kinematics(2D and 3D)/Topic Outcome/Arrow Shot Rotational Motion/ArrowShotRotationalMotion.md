@@ -43,34 +43,36 @@ part2:
     suffix: $\rm{rad/s}$
 myst:
   substitutions:
-    params_vars_title: Arrow Shot Rotational Motion
-    params_vars_units: ft/s
-    params_v: 122
-    params_t: 6.73
-    params_d: 81
+    params:
+      vars:
+        title: Arrow Shot Rotational Motion
+        units: ft/s
+      v: 134
+      t: 7.57
+      d: 61
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Arrow Shot Rotational Motion.png" width=800>
 
-An archer shoots an arrow straight up into the air to hit a bird, with an initial speed $v = {{ params_v }}$ $\rm{ft/s}$.
-Their friend stands $d = {{ params_d }}$ $\rm{ft}$ away.
+An archer shoots an arrow straight up into the air to hit a bird, with an initial speed $v = {{ params.v }}$ $\rm{ft/s}$.
+Their friend stands $d = {{ params.d }}$ $\rm{ft}$ away.
 Find the following information. Assume the arrow launches from the horizontal line of site of the friend.
 
 ## Part 1
 
-At $t = {{ params_t }}$ $\rm{s}$, what is $\dot r$?
+At $t = {{ params.t }}$ $\rm{s}$, what is $\dot r$?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
-At $t = {{ params_t }}$ $\rm{s}$, what is $\dot \theta$?
+At $t = {{ params.t }}$ $\rm{s}$, what is $\dot \theta$?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

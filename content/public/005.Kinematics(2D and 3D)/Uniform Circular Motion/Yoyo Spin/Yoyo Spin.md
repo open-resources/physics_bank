@@ -43,14 +43,16 @@ part2:
     suffix: $m/s$
 myst:
   substitutions:
-    params_vars_title: Yoyo Spin
-    params_vars_units: $m/s$
-    params_r1: 31
-    params_r2: 38
+    params:
+      vars:
+        title: Yoyo Spin
+        units: $m/s$
+      r1: 27
+      r2: 47
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A performer spins two yoyos at full length in a loop as part of a trick.
-Yoyo A has a string length $R\_{1} = {{params_r1}}cm$ and yoyo B has a string length $R\_{2} = {{params_r2}}cm$.
+Yoyo A has a string length $R\_{1} = {{params.r1}}cm$ and yoyo B has a string length $R\_{2} = {{params.r2}}cm$.
 What is the maximum speed of each yoyo if the strength of the string restricts centripetal acceleration to $g$ (Earth's gravitational constant)?
 
 <img src="L6Q1.png" width=85%>
@@ -61,7 +63,7 @@ Determine the maximum speed for yoyo A.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
@@ -69,7 +71,7 @@ Determine the maximum speed for yoyo B.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

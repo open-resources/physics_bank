@@ -42,21 +42,23 @@ part2:
     suffix: $\rm{N}$
 myst:
   substitutions:
-    params_vars_title: Supply Crate Drop
-    params_mu: 0.4
-    params_mb: 29
-    params_Ma: 31
-    params_x: 5
-    params_y: 6
+    params:
+      vars:
+        title: Supply Crate Drop
+      mu: 0.45
+      mb: 28
+      Ma: 45
+      x: 1
+      y: 3
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="SupplyCrate.png" width=90%>
 
 When workforce is limited, solutions are needed to reduce the number of people needed.
 An engineer comes up with the system in the diagram above, which seeks to autonomously limit the acceleration of a supply crate into a pit, without it needing to be manually controlled.
 Find the acceleration of the supply crate, and the tension in the rope.
-Assume the system starts from rest, the top block has a mass $M = {{ params_Ma }} \ \rm{kg}$, the supply crate has a mass $m = {{ params_mb }} \ \rm{kg}$, and the coefficient of static friction is equal to the kinetic friction, with a value of ${{ params_mu }}$.
-Assume $x = {{ params_x }}$ and $y = {{ params_y }}$
+Assume the system starts from rest, the top block has a mass $M = {{ params.Ma }} \ \rm{kg}$, the supply crate has a mass $m = {{ params.mb }} \ \rm{kg}$, and the coefficient of static friction is equal to the kinetic friction, with a value of ${{ params.mu }}$.
+Assume $x = {{ params.x }}$ and $y = {{ params.y }}$
 
 ## Part 1
 

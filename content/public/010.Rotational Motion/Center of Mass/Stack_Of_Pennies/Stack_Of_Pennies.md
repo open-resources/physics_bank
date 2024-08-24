@@ -34,13 +34,15 @@ part1:
     suffix: $d$
 myst:
   substitutions:
-    params_vars_title: Stack of Pennies
-    params_s_1: 4
-    params_s_2: 5
-    params_s_3: 6
-    params_s_4: 7
+    params:
+      vars:
+        title: Stack of Pennies
+      s_1: 4
+      s_2: 5
+      s_3: 6
+      s_4: 7
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 There are four stacks of pennies lined up in a row. The first stack has {{params.s_1}} pennies, the
 second stack {{params.s_2}} pennies, the third stack {{params.s_3}} pennies, and the last stack {{params.s_4}} pennies.
 All pennies have mass $m$ and diameter $d$.

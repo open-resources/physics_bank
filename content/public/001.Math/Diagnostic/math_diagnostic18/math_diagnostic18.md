@@ -29,16 +29,24 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Math Diagnostic18
-    params_k: 1
-    params_denom: 2
-    params_part1_ans1_value: 1/4
-    params_part1_ans2_value: '16'
-    params_part1_ans3_value: 1/16
-    params_part1_ans4_value: '4'
-    params_part1_ans5_value: Do not know
+    params:
+      vars:
+        title: Math Diagnostic18
+      k: 1
+      denom: 2
+      part1:
+        ans1:
+          value: 1/4
+        ans2:
+          value: '16'
+        ans3:
+          value: 1/16
+        ans4:
+          value: '4'
+        ans5:
+          value: Do not know
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -46,11 +54,11 @@ The fourth term in the series $\sum\_{k=1}^{\infty}$$ $$1\over{2^k}$ is
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

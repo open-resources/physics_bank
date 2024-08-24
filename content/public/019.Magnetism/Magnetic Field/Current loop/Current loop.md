@@ -42,28 +42,20 @@ part1:
     suffix: $\rm\ m$
 myst:
   substitutions:
-    params_vars_title: Current loop
-    params_I: '3.20'
-    params_B: $4.00\times 10^{-5}$
+    params:
+      vars:
+        title: Current loop
+      I: '5.20'
+      B: $3.60\times 10^{-6}$
 ---
-# {{ params_vars_title }}
-When the current through a circular loop is {{ params_I }}$\rm\ A$, the magnetic field at its centre is {{ params_B }} $\rm\ T$.
+# {{ params.vars.title }}
+When the current through a circular loop is {{ params.I }}$\rm\ A$, the magnetic field at its centre is {{ params.B }} $\rm\ T$.
 
 ## Question Text
 
 What is the radius of the loop?
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$r=$ {{ correct_answers.part1_ans_str }} $\rm\ m$
 
 ## Attribution
 

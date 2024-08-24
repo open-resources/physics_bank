@@ -33,9 +33,11 @@ part1:
     file-names: velocity.pdf
 myst:
   substitutions:
-    params_vars_title: Position to Velocity Graph
+    params:
+      vars:
+        title: Position to Velocity Graph
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A position vs. time graph is shown. On the velocity versus time graph below it, sketch the corresponding velocity as a function of time. Show all calculations, and label the axes appropriately.
 
 <img src="positiongraph.png" alt = "This is an image of a position (m) vs. time (s) graph. The y-axis is labelled 'x (m)' and ranges from -2 to 2. The x-axis is labelled 't (s)' and ranges from 0 to 7 seconds, each in 1 second increments. From 0s to 2s, it is a constant 2 metres. From 2s to 4s, there is a downwards linear slope: 2m at 2s, 0m at 3s, and -2m at 4s. From 4s to 5s it is a constant -2m. From 5s to 7s it is a steady upwards linear slope; -2m at 5s and 0m at 7s.">

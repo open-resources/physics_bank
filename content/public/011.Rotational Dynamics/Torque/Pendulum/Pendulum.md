@@ -36,19 +36,21 @@ part1:
     digits: 3
 myst:
   substitutions:
-    params_vars_title: Pendulum
-    params_mr: 1.3
-    params_lr: 10
-    params_ms: 0.5
-    params_rs: 38
-    params_theta: 27
+    params:
+      vars:
+        title: Pendulum
+      mr: 0.9
+      lr: 13
+      ms: 0.8
+      rs: 32
+      theta: 35
 ---
-# {{ params_vars_title }}
-A pendulum consists of a rod of mass ${{ params_mr }}$ $\rm{kg}$ and length ${{ params_lr }}$ $\rm{m}$ connected to a pivot with a solid sphere attached at the other end with mass ${{ params_ms }}$ $\rm{kg}$ and radius ${{ params_rs }}$ $\rm{cm}$.
+# {{ params.vars.title }}
+A pendulum consists of a rod of mass ${{ params.mr }}$ $\rm{kg}$ and length ${{ params.lr }}$ $\rm{m}$ connected to a pivot with a solid sphere attached at the other end with mass ${{ params.ms }}$ $\rm{kg}$ and radius ${{ params.rs }}$ $\rm{cm}$.
 
 ## Part 1
 
-What is the torque $\tau$ about the pivot when the pendulum makes an angle of ${{ params_theta }}^\circ$ with respect to the vertical?
+What is the torque $\tau$ about the pivot when the pendulum makes an angle of ${{ params.theta }}^\circ$ with respect to the vertical?
 
 ### Answer Section
 

@@ -30,14 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Impact Definition
-    params_part1_ans1_value: The collision between two bodies
-    params_part1_ans2_value: Any action of a force on a particle
-    params_part1_ans3_value: The motion of a particle under the influence of a central
-      force
-    params_part1_ans4_value: A force producing a moment on a body about a fixed point
+    params:
+      vars:
+        title: Impact Definition
+      part1:
+        ans1:
+          value: The collision between two bodies
+        ans2:
+          value: Any action of a force on a particle
+        ans3:
+          value: The motion of a particle under the influence of a central force
+        ans4:
+          value: A force producing a moment on a body about a fixed point
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -45,10 +51,10 @@ Impact refers to:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

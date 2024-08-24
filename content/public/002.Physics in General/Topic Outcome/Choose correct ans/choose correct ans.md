@@ -43,27 +43,41 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Which option is correct?
-    params_choice1: possible
-    params_part1_ans1_value: 'True'
-    params_part1_ans2_value: 'False'
-    params_part2_ans1_value: 'True'
-    params_part2_ans2_value: 'False'
-    params_part3_ans1_value: 'True'
-    params_part3_ans2_value: 'False'
-    params_part4_ans1_value: Kinetic
-    params_part4_ans2_value: Static
+    params:
+      vars:
+        title: Which option is correct?
+      choice1: possible
+      part1:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
+      part2:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
+      part3:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
+      part4:
+        ans1:
+          value: Kinetic
+        ans2:
+          value: Static
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
-It is {{ params_choice1 }} for the acceleration and velocity vectors of an object to be always perpendicular to each other.
+It is {{ params.choice1 }} for the acceleration and velocity vectors of an object to be always perpendicular to each other.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value}}
-- {{ params_part1_ans2_value}}
+- {{ params.part1.ans1.value}}
+- {{ params.part1.ans2.value}}
 
 ## Part 2
 
@@ -71,8 +85,8 @@ An object can be accelerated without changing its kinetic energy.
 
 ### Answer Section
 
-- {{ params_part2_ans1_value}}
-- {{ params_part2_ans2_value}}
+- {{ params.part2.ans1.value}}
+- {{ params.part2.ans2.value}}
 
 ## Part 3
 
@@ -80,8 +94,8 @@ When measured from the zero-momentum reference frame, the system's kinetic energ
 
 ### Answer Section
 
-- {{ params_part3_ans1_value}}
-- {{ params_part3_ans2_value}}
+- {{ params.part3.ans1.value}}
+- {{ params.part3.ans2.value}}
 
 ## Part 4
 
@@ -89,8 +103,8 @@ When a car accelerates gradually (no squealing tires), is the friction between t
 
 ### Answer Section
 
-- {{ params_part4_ans1_value}}
-- {{ params_part4_ans2_value}}
+- {{ params.part4.ans1.value}}
+- {{ params.part4.ans2.value}}
 
 ## Attribution
 

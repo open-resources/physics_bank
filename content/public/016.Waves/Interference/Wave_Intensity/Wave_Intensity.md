@@ -50,17 +50,25 @@ part4:
     blank: 'true'
 myst:
   substitutions:
-    params_vars_title: Wave Intensity
-    params_part3_ans1_value: ' less than the intensity of the source waves.'
-    params_part3_ans1_feedback: ''
-    params_part3_ans2_value: ' greater than the intensity of the source waves.'
-    params_part3_ans2_feedback: Great! You got it.
-    params_part4_ans1_value: ' greater than the intensity of the source waves.'
-    params_part4_ans1_feedback: ''
-    params_part4_ans2_value: ' less than the intensity of the source waves.'
-    params_part4_ans2_feedback: Great! You got it.
+    params:
+      vars:
+        title: Wave Intensity
+      part3:
+        ans1:
+          value: ' less than the intensity of the source waves.'
+          feedback: ''
+        ans2:
+          value: ' greater than the intensity of the source waves.'
+          feedback: Great! You got it.
+      part4:
+        ans1:
+          value: ' greater than the intensity of the source waves.'
+          feedback: ''
+        ans2:
+          value: ' less than the intensity of the source waves.'
+          feedback: Great! You got it.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="doubleslitsmall.png" width="400">
 
 The two-dimensional snapshot of the interference of waves from two sources is shown in the figure, where bright lines represent wave crests.
@@ -75,10 +83,6 @@ Upload your labeled diagram as png named 'file'.
 
 File upload box will be shown here.
 
-### pl-submission-panel
-
-### pl-answer-panel
-
 ## Part 2
 
 Along the $m = 2$ antinodal line, what is the path length difference traveled by the wave from source 2 relative to source 1 in terms of the wavelength of the wave?
@@ -86,10 +90,6 @@ Along the $m = 2$ antinodal line, what is the path length difference traveled by
 ### Answer Section
 
 {{ feedback.part2_ans }}
-
-### pl-submission-panel
-
-### pl-answer-panel
 
 ## Part 3
 
@@ -100,10 +100,6 @@ Where two troughs align along an antinodal line, the intensity of the wave is
 - {{ params.part3.ans1}} {{ params.vars.units}}
 - {{ params.part3.ans2}} {{ params.vars.units}}
 
-### pl-submission-panel
-
-### pl-answer-panel
-
 ## Part 4
 
 Where a trough and a crest align along a nodal line, the intensity of the wave is
@@ -112,10 +108,6 @@ Where a trough and a crest align along a nodal line, the intensity of the wave i
 
 - {{ params.part4.ans1}} {{ params.vars.units}}
 - {{ params.part4.ans2}} {{ params.vars.units}}
-
-### pl-submission-panel
-
-### pl-answer-panel
 
 ## Attribution
 

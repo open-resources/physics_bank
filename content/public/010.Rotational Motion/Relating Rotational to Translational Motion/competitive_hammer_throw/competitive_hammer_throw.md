@@ -82,19 +82,21 @@ part7:
     suffix: $\rm{m/s^2}$
 myst:
   substitutions:
-    params_vars_title: Competitive Hammer Throw
-    params_v: 29.06
-    params_r: 1.194
-    params_m: 4
-    params_d: 82.98
-    params_rot: 5
+    params:
+      vars:
+        title: Competitive Hammer Throw
+      v: 26.46
+      r: 1.194
+      m: 4
+      d: 82.98
+      rot: 2
 ---
-# {{ params_vars_title }}
-The world record for the women's "hammer" throw is held by Anita Wlodarczyk, who threw the {{params_m}} $\rm{kg}$ ball a distance of {{params_d}} $\rm{m}$. To perform this throw, Anita swung the ball from a {{params_r}} $\rm{m}$ steel wire. Assuming she accelerated the ball from rest while making {{params_rot}} rotations with constant angular acceleration, answer the following questions.
+# {{ params.vars.title }}
+The world record for the women's "hammer" throw is held by Anita Wlodarczyk, who threw the {{params.m}} $\rm{kg}$ ball a distance of {{params.d}} $\rm{m}$. To perform this throw, Anita swung the ball from a {{params.r}} $\rm{m}$ steel wire. Assuming she accelerated the ball from rest while making {{params.rot}} rotations with constant angular acceleration, answer the following questions.
 
 ## Part 1
 
-At the instant the ball was released, if it had a speed of {{params_v}} $\rm{m/s}$, what was its velocity?
+At the instant the ball was released, if it had a speed of {{params.v}} $\rm{m/s}$, what was its velocity?
 
 ### Answer Section
 

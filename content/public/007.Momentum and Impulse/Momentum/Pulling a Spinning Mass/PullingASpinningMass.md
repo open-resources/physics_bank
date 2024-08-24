@@ -33,18 +33,20 @@ part1:
     suffix: $\rm{s}$
 myst:
   substitutions:
-    params_vars_title: Pulling a Spinning Mass
-    params_time: 1.47
-    params_r1: 0.66
-    params_r2: 0.16
+    params:
+      vars:
+        title: Pulling a Spinning Mass
+      time: 1.35
+      r1: 0.49
+      r2: 0.19
 ---
-# {{ params_vars_title }}
-A mass is swinging around a pole at a radius of ${{params_r1}} \ \rm{m}$.
-It completes a circle every ${{params_time}} \ \rm{s}$.
+# {{ params.vars.title }}
+A mass is swinging around a pole at a radius of ${{params.r1}} \ \rm{m}$.
+It completes a circle every ${{params.time}} \ \rm{s}$.
 
 ## Part 1
 
-If the mass is pulled to ${{params_r2}} \ \rm{m}$ from the pole, how long does it take to complete a cycle?
+If the mass is pulled to ${{params.r2}} \ \rm{m}$ from the pole, how long does it take to complete a cycle?
 
 ### Answer Section
 

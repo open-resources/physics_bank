@@ -30,14 +30,21 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Mechanical Efficiency Definition
-    params_part1_ans1_value: The power output divided by the power input
-    params_part1_ans2_value: The power input divided by the power output
-    params_part1_ans3_value: The product of power input with the time during which
-      the power is expended
-    params_part1_ans4_value: The product of power input with power output
+    params:
+      vars:
+        title: Mechanical Efficiency Definition
+      part1:
+        ans1:
+          value: The power output divided by the power input
+        ans2:
+          value: The power input divided by the power output
+        ans3:
+          value: The product of power input with the time during which the power is
+            expended
+        ans4:
+          value: The product of power input with power output
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -45,10 +52,10 @@ Mechanical efficiency at any instant of time is expressed as
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

@@ -74,18 +74,20 @@ part3:
     custom-format: .3g
 myst:
   substitutions:
-    params_vars_title: Switched LC Circuit
-    params_L: '90.0'
-    params_C: '3.25'
-    params_V: '13.0'
+    params:
+      vars:
+        title: Switched LC Circuit
+      L: '109.0'
+      C: '4.75'
+      V: '11.5'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Consider the switched $LC$ circuit shown below.
 
 <img src="fig_OSUPv2p14_68.png" width=325>
 
 Consider the case that $\rm S_1$ is opened and $\rm S_2$ is closed simultaneously.
-Here, $V = {{ params_V }}\rm\ V$, $L = {{ params_L }}\rm\ mH$, and $C = {{ params_C }}\rm\ \mu F$.
+Here, $V = {{ params.V }}\rm\ V$, $L = {{ params.L }}\rm\ mH$, and $C = {{ params.C }}\rm\ \mu F$.
 
 ## Part 1
 
@@ -110,18 +112,6 @@ What is the maximum current through the inductor?
 ### Answer Section
 
 Please enter in a numeric value in $\rm\ A$.
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}<br>
-{{ feedback.part2_ans }}<br>
-{{ feedback.part3_ans }}
-
-### pl-answer-panel
-
-$f=$ {{ correct_answers.part1_ans_str }} $\rm\ Hz$<br>
-$Q\_{C, \rm\ max}=$ {{ correct_answers.part2_ans_str }} $\rm\ C$<br>
-$I\_{L, \rm\ max}=$ {{ correct_answers.part3_ans_str }} $\rm\ A$
 
 ## Attribution
 

@@ -36,13 +36,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: 'RL Series Circuit: Time'
-    params_part1_ans1_value: Immediately when switch $\rm S$ is first thrown.
-    params_part1_ans2_value: After an infinitely long period of time.
-    params_part1_ans3_value: After one time constant.
-    params_part1_ans4_value: After two time constants.
+    params:
+      vars:
+        title: 'RL Series Circuit: Time'
+      part1:
+        ans1:
+          value: Immediately when switch $\rm S$ is first thrown.
+        ans2:
+          value: After an infinitely long period of time.
+        ans3:
+          value: After one time constant.
+        ans4:
+          value: After two time constants.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Consider the $RL$ circuit shown below.
 
 <img src="fig_OSUPv2p14_15.png" width=250>
@@ -53,10 +60,10 @@ At what time is the voltage across the inductor at a maximum?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

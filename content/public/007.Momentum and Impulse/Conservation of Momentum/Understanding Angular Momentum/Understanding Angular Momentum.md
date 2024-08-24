@@ -34,35 +34,31 @@ part1:
     suffix: $\rm{kg.m^2/s}$
 myst:
   substitutions:
-    params_vars_title: Understanding Angular Momentum
-    params_vars_units: $\rm{kg.m^2/s}$
-    params_m: 2.94
-    params_x: 4.69
-    params_theta: 51
-    params_v: 4.44
-    params_t: 6.5
-    params_H0: 47.58
-    params_H1: 231.8
-    params_H2: 184.26
-    params_x2: 22.85
-    params_y2: 22.43
+    params:
+      vars:
+        title: Understanding Angular Momentum
+        units: $\rm{kg.m^2/s}$
+      m: 1.56
+      x: 4.03
+      theta: 40
+      v: 4.11
+      t: 4.7
+      H0: 16.61
+      H1: 77.6
+      H2: 61.0
+      x2: 18.83
+      y2: 12.42
 ---
-# {{ params_vars_title }}
-There is a particle with mass ${{params_m}} \rm{kg}$ hat is travelling with a speed of ${{params_v}} \rm{m/s}$ in the direction $\theta = {{params_theta}}^\circ$ with the $x$-axis. It starts out at $({{params_x}},0)$.
+# {{ params.vars.title }}
+There is a particle with mass ${{params.m}} \rm{kg}$ hat is travelling with a speed of ${{params.v}} \rm{m/s}$ in the direction $\theta = {{params.theta}}^\circ$ with the $x$-axis. It starts out at $({{params.x}},0)$.
 
 ## Part 1
 
-Calculate the magnitude of the angular momentum of this particle after ${{params_t}}$ seconds.
+Calculate the magnitude of the angular momentum of this particle after ${{params.t}}$ seconds.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
-
-### pl-answer-panel
-
-<br>You might have noticed that the angular momentum after ${{params_t}}$ seconds is the same as the angular momentum at $t = 0$ seconds. This is because of the principle of Conservation of Momentum. There was no external moment affecting the particle hence we have Conservation of Momentum.<br><br>
-
-It can be seen if we actually go ahead and find the coordinates after ${{params_t}}$ and calculate the angular momentum that way. $x = x_0 + v.cos(\theta).t$ where we find that $x = {{params_x2}}$ and similarly $y =  v\*sin(\theta)t$ where $y = {{params_y2}}$ m. Now let us find the angular momentum with our new numbers. $\vec{H} = x.\widehat{\mathbf{i}}\times m.v.sin(\theta)\widehat{\mathbf{j}} +  y.\widehat{\mathbf{j}}\times m.v.cos(\theta)\widehat{\mathbf{i}}\Rightarrow \vec{H} = {{params_H1}}.\widehat{\mathbf{k}}-{{params_H2}}.\widehat{\mathbf{k}}$  which is equal to ${{params_H0}}$ {{ params_vars_units }}. <br><br>This is the same as if we did $\vec{H} = {{params_x}}.\widehat{\mathbf{i}}\times m.v.sin(\theta)\widehat{\mathbf{j}}$ where we also get ${{params_H0}}$ {{ params_vars_units }}. <br><br>This demonstrates that nature will always tend to conserve momentum as long as there are no external forces or moments.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

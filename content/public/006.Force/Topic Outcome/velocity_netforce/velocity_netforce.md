@@ -32,40 +32,52 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Velocity and Net Force
-    params_t: 2
-    params_part1_ans1_value: Velocity is negative, net force is to the left
-    params_part1_ans2_value: Velocity is negative, net force is to the right
-    params_part1_ans3_value: Velocity is negative, net force is zero
-    params_part1_ans4_value: Velocity is positive, net force is to the left
-    params_part1_ans5_value: Velocity is positive, net force is to the right
-    params_part1_ans6_value: Velocity is positive, net force is zero
-    params_part1_ans7_value: Velocity is zero, net force is to the left
-    params_part1_ans8_value: Velocity is zero, net force is to the right
-    params_part1_ans9_value: Velocity is zero, net force is zero
+    params:
+      vars:
+        title: Velocity and Net Force
+      t: 3
+      part1:
+        ans1:
+          value: Velocity is negative, net force is to the left
+        ans2:
+          value: Velocity is negative, net force is to the right
+        ans3:
+          value: Velocity is negative, net force is zero
+        ans4:
+          value: Velocity is positive, net force is to the left
+        ans5:
+          value: Velocity is positive, net force is to the right
+        ans6:
+          value: Velocity is positive, net force is zero
+        ans7:
+          value: Velocity is zero, net force is to the left
+        ans8:
+          value: Velocity is zero, net force is to the right
+        ans9:
+          value: Velocity is zero, net force is zero
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The position versus time graph of a mass on a spring is shown in the image.
 
 <pl-figure file-name= "figure0.png" type="dynamic" width="800px" ></pl-figure>
 
 ## Part 1
 
-What can you say about the velocity of the mass and the net force of the mass at $t= {{ params_t }} \rm{s}$?
+What can you say about the velocity of the mass and the net force of the mass at $t= {{ params.t }} \rm{s}$?
 
 (For a right-handed coordinate system, positive $x$ is to the right)
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
-- {{ params_part1_ans6_value }}
-- {{ params_part1_ans7_value }}
-- {{ params_part1_ans8_value }}
-- {{ params_part1_ans9_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
+- {{ params.part1.ans6.value }}
+- {{ params.part1.ans7.value }}
+- {{ params.part1.ans8.value }}
+- {{ params.part1.ans9.value }}
 
 ## Attribution
 

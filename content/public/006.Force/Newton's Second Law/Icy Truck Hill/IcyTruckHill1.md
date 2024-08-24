@@ -33,17 +33,19 @@ part1:
     suffix: $\rm{N}$
 myst:
   substitutions:
-    params_vars_title: Truck on Icy Hill
-    params_m: 3168
-    params_v: 68
-    params_theta: 13
+    params:
+      vars:
+        title: Truck on Icy Hill
+      m: 4607
+      v: 53
+      theta: 22
 ---
-# {{ params_vars_title }}
-A car travels down an icy hill at $v = {{ params_v }} \ \rm{km/h}$.
+# {{ params.vars.title }}
+A car travels down an icy hill at $v = {{ params.v }} \ \rm{km/h}$.
 
 ## Part 1
 
-If the slope of the hill is $\theta = {{ params_theta }}^{\circ}$, and the mass of the car is $m = {{ params_m }}$, what force must the engine be putting out to maintain constant speed?
+If the slope of the hill is $\theta = {{ params.theta }}^{\circ}$, and the mass of the car is $m = {{ params.m }}$, what force must the engine be putting out to maintain constant speed?
 Negative if braking up the hill, positive if downhill.
 
 ### Answer Section

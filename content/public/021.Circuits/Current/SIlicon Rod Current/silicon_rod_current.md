@@ -41,30 +41,22 @@ part1:
     suffix: $\rm\ A$
 myst:
   substitutions:
-    params_vars_title: Current Through A Silicon Rod
-    params_vars_units: "$\textrm{A}$"
-    params_d: 4.65
-    params_l: 50.0
-    params_V: 61
+    params:
+      vars:
+        title: Current Through A Silicon Rod
+        units: "$\textrm{A}$"
+      d: 3.98
+      l: 34.7
+      V: 49
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
-What current flows through a {{params_d}}-cm-diameter rod of pure silicon that is {{params_l}} $\textrm{cm}$ long, when {{params_V}} $\textrm{kV}$ is applied to it?
+What current flows through a {{params.d}}-cm-diameter rod of pure silicon that is {{params.l}} $\textrm{cm}$ long, when {{params.V}} $\textrm{kV}$ is applied to it?
 (Such a rod may be used to make nuclear-particle detectors, for example.)
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$I=$ {{ correct_answers.part1_ans_str }} $\textrm{ A}$
 
 ## Attribution
 

@@ -38,19 +38,25 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Conveyor Friction 1
-    params_theta: 36
-    params_v: 2
-    params_part2_ans1_value: Greater than before
-    params_part2_ans2_value: The same
-    params_part2_ans3_value: Less than before
+    params:
+      vars:
+        title: Conveyor Friction 1
+      theta: 33
+      v: 1
+      part2:
+        ans1:
+          value: Greater than before
+        ans2:
+          value: The same
+        ans3:
+          value: Less than before
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="ConvFric1.png" width=90%>
 
-A conveyor belt, angled at $\theta = {{ params_theta }}^{\circ}$, carries packages up an incline.
+A conveyor belt, angled at $\theta = {{ params.theta }}^{\circ}$, carries packages up an incline.
 What must the coefficient of friction be to prevent the packages from slipping as they move?
-Assume the conveyor belt runs at $v = {{ params_v }} \ \rm{ft/s}$  and the package has a smooth transition onto the belt.
+Assume the conveyor belt runs at $v = {{ params.v }} \ \rm{ft/s}$  and the package has a smooth transition onto the belt.
 
 ## Part 1
 
@@ -66,9 +72,9 @@ If the direction of the conveyor belt was downwards, would the coefficient need 
 
 ### Answer Section
 
-- {{ params_part2_ans1_value}}
-- {{ params_part2_ans2_value}}
-- {{ params_part2_ans3_value}}
+- {{ params.part2.ans1.value}}
+- {{ params.part2.ans2.value}}
+- {{ params.part2.ans3.value}}
 
 ## Attribution
 

@@ -40,28 +40,21 @@ part1:
     suffix: $\rm \Omega $
 myst:
   substitutions:
-    params_vars_title: Resistance Of A Copper Wire
-    params_vars_units: Ohms
-    params_d: 4.436
-    params_l: 16.8
+    params:
+      vars:
+        title: Resistance Of A Copper Wire
+        units: Ohms
+      d: 6.88
+      l: 9.1
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
-The diameter of copper wire is {{params_d}} $\textrm{mm}$.
-Find the resistance of a {{params_l}} $\textrm{km}$ length of such wire used for power transmission.
+The diameter of copper wire is {{params.d}} $\textrm{mm}$.
+Find the resistance of a {{params.l}} $\textrm{km}$ length of such wire used for power transmission.
 
 ### Answer Section
-
-### pl-submission-panel
-
-<p></p>
-{{ submitted_answers.part1_ans_str }}
-<p></p>
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
 
 ## Attribution
 

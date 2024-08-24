@@ -60,27 +60,53 @@ part6:
     fixed-order: true
 myst:
   substitutions:
-    params_vars_title: Inducing Current from Magnetic Field
-    params_part1_ans1_value: Counterclockwise.
-    params_part1_ans2_value: Clockwise.
-    params_part1_ans3_value: No current is induced.
-    params_part2_ans1_value: Counterclockwise.
-    params_part2_ans2_value: Clockwise
-    params_part2_ans3_value: No current is induced.
-    params_part3_ans1_value: Counterclockwise.
-    params_part3_ans2_value: Clockwise.
-    params_part3_ans3_value: No current is induced.
-    params_part4_ans1_value: Counterclockwise.
-    params_part4_ans2_value: Clockwise.
-    params_part4_ans3_value: No current is induced.
-    params_part5_ans1_value: Counterclockwise.
-    params_part5_ans2_value: Clockwise.
-    params_part5_ans3_value: No current is induced.
-    params_part6_ans1_value: Counterclockwise.
-    params_part6_ans2_value: Clockwise.
-    params_part6_ans3_value: No current is induced.
+    params:
+      vars:
+        title: Inducing Current from Magnetic Field
+      part1:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise.
+        ans3:
+          value: No current is induced.
+      part2:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise
+        ans3:
+          value: No current is induced.
+      part3:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise.
+        ans3:
+          value: No current is induced.
+      part4:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise.
+        ans3:
+          value: No current is induced.
+      part5:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise.
+        ans3:
+          value: No current is induced.
+      part6:
+        ans1:
+          value: Counterclockwise.
+        ans2:
+          value: Clockwise.
+        ans3:
+          value: No current is induced.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Use Lenz's law to determine the direction of induced current in each case.
 
 <img src="Fig13_36.png" width=300>
@@ -91,9 +117,9 @@ Scenario (a) depicts a conducting rod moving with velocity $\overrightarrow{ v }
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Part 2
 
@@ -101,9 +127,9 @@ Scenario (b) depicts a circular ring of wire moving with velocity $\overrightarr
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-- {{ params_part2_ans3_value }}
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
 
 ## Part 3
 
@@ -111,9 +137,9 @@ Scenario (c) depicts a circular ring of wire moving with velocity $\overrightarr
 
 ### Answer Section
 
-- {{ params_part3_ans1_value }}
-- {{ params_part3_ans2_value }}
-- {{ params_part3_ans3_value }}
+- {{ params.part3.ans1.value }}
+- {{ params.part3.ans2.value }}
+- {{ params.part3.ans3.value }}
 
 ## Part 4
 
@@ -121,9 +147,9 @@ Scenario (d) depicts a conducting rod moving with velocity $\overrightarrow{ v }
 
 ### Answer Section
 
-- {{ params_part4_ans1_value }}
-- {{ params_part4_ans2_value }}
-- {{ params_part4_ans3_value }}
+- {{ params.part4.ans1.value }}
+- {{ params.part4.ans2.value }}
+- {{ params.part4.ans3.value }}
 
 ## Part 5
 
@@ -131,9 +157,9 @@ Scenario (e) depicts a circular ring of wire perpendicular to an increasing magn
 
 ### Answer Section
 
-- {{ params_part5_ans1_value }}
-- {{ params_part5_ans2_value }}
-- {{ params_part5_ans3_value }}
+- {{ params.part5.ans1.value }}
+- {{ params.part5.ans2.value }}
+- {{ params.part5.ans3.value }}
 
 ## Part 6
 
@@ -141,9 +167,9 @@ Scenario (f) depicts a circular ring of wire parallel to a decreasing magnetic f
 
 ### Answer Section
 
-- {{ params_part6_ans1_value }}
-- {{ params_part6_ans2_value }}
-- {{ params_part6_ans3_value }}
+- {{ params.part6.ans1.value }}
+- {{ params.part6.ans2.value }}
+- {{ params.part6.ans3.value }}
 
 ## Attribution
 

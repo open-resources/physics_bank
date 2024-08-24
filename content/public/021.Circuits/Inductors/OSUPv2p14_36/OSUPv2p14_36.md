@@ -46,21 +46,29 @@ part2:
     sort: fixed
 myst:
   substitutions:
-    params_vars_title: Potential Difference across Inductors
-    params_part1_ans1_value: Right-hand side
-    params_part1_ans2_value: Left-hand side
-    params_part2_ans1_value: Right-hand side
-    params_part2_ans2_value: Left-hand side
-    params_change1: increasing
-    params_change2: also increasing
-    params_find: lower
+    params:
+      vars:
+        title: Potential Difference across Inductors
+      part1:
+        ans1:
+          value: Right-hand side
+        ans2:
+          value: Left-hand side
+      part2:
+        ans1:
+          value: Right-hand side
+        ans2:
+          value: Left-hand side
+      change1: decreasing
+      change2: also decreasing
+      find: lower
 ---
-# {{ params_vars_title }}
-The current shown below in figure (a) is {{ params_change1 }}, while that shown in part (b) is {{ params_change2 }}.
+# {{ params.vars.title }}
+The current shown below in figure (a) is {{ params.change1 }}, while that shown in part (b) is {{ params.change2 }}.
 
 <img src="fig_OSUPv2p14_36.png" width=400>
 
-In each case, determine which end of the inductor is at the {{ params_find }} potential.
+In each case, determine which end of the inductor is at the {{ params.find }} potential.
 
 ## Part 1
 
@@ -68,8 +76,8 @@ Figure (a):
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Part 2
 
@@ -77,8 +85,8 @@ Figure (b):
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
 
 ## Attribution
 

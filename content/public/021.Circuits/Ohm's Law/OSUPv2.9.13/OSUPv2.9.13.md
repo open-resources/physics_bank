@@ -29,14 +29,22 @@ part1:
     fixed-order: true
 myst:
   substitutions:
-    params_vars_title: Ohm's Law
-    params_part1_ans1_value: A
-    params_part1_ans2_value: B
-    params_part1_ans3_value: C
-    params_part1_ans4_value: D
-    params_part1_ans5_value: None of the above
+    params:
+      vars:
+        title: Ohm's Law
+      part1:
+        ans1:
+          value: A
+        ans2:
+          value: B
+        ans3:
+          value: C
+        ans4:
+          value: D
+        ans5:
+          value: None of the above
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -48,11 +56,11 @@ Which device, if any, is an ohmic device?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

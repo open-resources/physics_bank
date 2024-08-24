@@ -28,14 +28,22 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Collision In Outer Space
-    params_part1_ans1_value: $\Delta$$\vec{p}_A$
-    params_part1_ans2_value: -$\Delta$$\vec{p}_A$
-    params_part1_ans3_value: -$\dfrac{m_A}{m_B}$ $\Delta$$\vec{p}_A$
-    params_part1_ans4_value: -$\dfrac{m_B}{m_A}$ $\Delta$$\vec{p}_A$
-    params_part1_ans5_value: $\dfrac{m_A}{m_B}$ $\Delta$$\vec{p}_A$
+    params:
+      vars:
+        title: Collision In Outer Space
+      part1:
+        ans1:
+          value: $\Delta$$\vec{p}_A$
+        ans2:
+          value: -$\Delta$$\vec{p}_A$
+        ans3:
+          value: -$\dfrac{m_A}{m_B}$ $\Delta$$\vec{p}_A$
+        ans4:
+          value: -$\dfrac{m_B}{m_A}$ $\Delta$$\vec{p}_A$
+        ans5:
+          value: $\dfrac{m_A}{m_B}$ $\Delta$$\vec{p}_A$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Object A of mass $m_A$ and object B of mass $m_B$ collide in outer space. If, as a result of the collision, object A experiences an impulse of $\Delta\vec{p}\_A$
 
 ## Part 1
@@ -44,11 +52,11 @@ What impulse will object B experience?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 -
 
 ## Attribution

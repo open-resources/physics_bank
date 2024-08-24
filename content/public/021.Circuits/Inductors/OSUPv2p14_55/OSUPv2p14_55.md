@@ -46,30 +46,22 @@ part1:
     atol: 0
 myst:
   substitutions:
-    params_vars_title: Current over Time in a Series RL Circuit
-    params_fac: '5'
+    params:
+      vars:
+        title: Current over Time in a Series RL Circuit
+      fac: '2'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Consider the $RL$ circuit shown below.
 
 <img src="fig_OSUPv2p14_55.png" width=250>
 
 ## Question Text
 
-How long after switch $\rm S$ is thrown does it take the current in the circuit to reach $1/{{ params_fac }}$ of its maximum value?
+How long after switch $\rm S$ is thrown does it take the current in the circuit to reach $1/{{ params.fac }}$ of its maximum value?
 Express your answer in terms of the time constant $\tau_L$ of the circuit.
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$t =$ {{ correct_answers.part1_ans_str }} $\tau_L$.
 
 ## Attribution
 

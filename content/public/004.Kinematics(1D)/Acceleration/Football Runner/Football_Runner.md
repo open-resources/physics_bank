@@ -42,21 +42,23 @@ part2:
     suffix: $\rm{m/s^2}$
 myst:
   substitutions:
-    params_vars_title: Football Runner
-    params_dT: 350.0
-    params_vM: 11.0
-    params_d1: 92.0
-    params_d2: 150.0
-    params_vF: 8.0
+    params:
+      vars:
+        title: Football Runner
+      dT: 400.0
+      vM: 10.0
+      d1: 160.0
+      d2: 220.0
+      vF: 7.5
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Football_Runner.png" width=600>
 
-A football player participates in a ${{params_dT}} \ \rm{m}$ sprint. They starts accelerating uniformly from rest in a straight line, where they reach a top speed of ${{params_vM}} \ \rm{m/s}$ at the ${{params_d1}} \ \rm{m}$ mark. He then maintains this speed for the next ${{params_d2}} \ \rm{m}$. After that he slows down uniformly to a final speed of ${{params_vF}} \ \rm{m/s}$ at the finish line.
+A football player participates in a ${{params.dT}} \ \rm{m}$ sprint. They starts accelerating uniformly from rest in a straight line, where they reach a top speed of ${{params.vM}} \ \rm{m/s}$ at the ${{params.d1}} \ \rm{m}$ mark. He then maintains this speed for the next ${{params.d2}} \ \rm{m}$. After that he slows down uniformly to a final speed of ${{params.vF}} \ \rm{m/s}$ at the finish line.
 
 ## Part 1
 
-What is the acceleration just before the ${{params_d1}} \ \rm{m}$ mark?
+What is the acceleration just before the ${{params.d1}} \ \rm{m}$ mark?
 
 ### Answer Section
 

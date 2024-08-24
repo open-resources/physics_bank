@@ -49,22 +49,28 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Tidal Forces
-    params_vars_units: "$\rm{m/s^2}$"
-    params_Me: 5.975999999999999e+24
-    params_Dse: 149
-    params_Dme: 384355
-    params_part3_ans1_value: $\rm{A}$
-    params_part3_ans2_value: $\rm{B}$
-    params_part3_ans3_value: $\rm{C}$
+    params:
+      vars:
+        title: Tidal Forces
+        units: "$\rm{m/s^2}$"
+      Me: 5.975999999999999e+24
+      Dse: 145
+      Dme: 384252
+      part3:
+        ans1:
+          value: $\rm{A}$
+        ans2:
+          value: $\rm{B}$
+        ans3:
+          value: $\rm{C}$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Tides1.png" width=700>
 
 The height of the ocean tides periodically vary according to the time of day due to the orbital motion of the Earth around the Moon coupled with that of the Earth around the Sun, and the changing gravitational forces acting on the Earth.
 
 $G = 6.67 \times 10^{-11} \ \rm{m^3. kg^{-1}. s^{-2}}$ <br> $M\_{earth} = 5.976 \times 10^{24} \ \rm{kg}, \ M\_{sun} = 333000 \ . \ M\_{earth}, \ M\_{moon} = 0.0123 \ . \ M\_{earth}$ <br>
-$D\_{MoonEarth} = {{ params_Dme }} \ \rm{km}, D\_{SunEarth} = {{ params_Dse }} \times 10^6 \ \rm{km}$
+$D\_{MoonEarth} = {{ params.Dme }} \ \rm{km}, D\_{SunEarth} = {{ params.Dse }} \times 10^6 \ \rm{km}$
 
 ## Part 1
 
@@ -72,7 +78,7 @@ In the relative configuration given below, determine the magnitude of the result
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
@@ -80,7 +86,7 @@ In the relative configuration given below, determine the direction of the result
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 3
 

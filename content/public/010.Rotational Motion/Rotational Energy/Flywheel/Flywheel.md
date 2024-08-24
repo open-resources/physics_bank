@@ -43,20 +43,22 @@ part2:
     suffix: $\rm{hours}$
 myst:
   substitutions:
-    params_vars_title: Flywheel
-    params_Crr: 0.007
-    params_m: 299
-    params_RPM: 2450
-    params_R: 40
-    params_r: 5
+    params:
+      vars:
+        title: Flywheel
+      Crr: 0.004
+      m: 276
+      RPM: 2725
+      R: 23
+      r: 4
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A flywheel is a wheel with a high moment of inertia that spins to store kinetic energy.
 It has applications in cars, gyroscopes, and electrical power systems.
 
 <img src="Flywheel.png" alt="A wheel." >
 
-A flywheel of mass ${{params_m}}\ \rm{kg}$, and radius of gyration ${{params_R}}\ \rm{cm}$ is spinning at ${{params_RPM}}\ \rm{RPM}$.
+A flywheel of mass ${{params.m}}\ \rm{kg}$, and radius of gyration ${{params.R}}\ \rm{cm}$ is spinning at ${{params.RPM}}\ \rm{RPM}$.
 
 ## Part 1
 
@@ -68,8 +70,8 @@ Please enter in a numeric value in kJ.
 
 ## Part 2
 
-If the coefficient of rolling friction of the bearing is ${{params_Crr}}$, for how long will the flywheel spin?
-This friction occurs at an inner radius of ${{params_r}}\ \rm{cm}$.
+If the coefficient of rolling friction of the bearing is ${{params.Crr}}$, for how long will the flywheel spin?
+This friction occurs at an inner radius of ${{params.r}}\ \rm{cm}$.
 Note that the rolling resistance force is analogous to the force of friction, where $F\_{friction} = {\mu}\_rF_N$.
 
 ### Answer Section

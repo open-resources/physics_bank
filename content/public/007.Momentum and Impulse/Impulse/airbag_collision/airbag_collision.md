@@ -29,18 +29,26 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Airbags
-    params_part1_ans1_value: Increase the time of impact, increasing the average acceleration
-      of the person they are protecting.
-    params_part1_ans2_value: Increase the time of impact, decreasing the average acceleration
-      of the person they are protecting.
-    params_part1_ans3_value: Increase the time of impact, decreasing the impulse on
-      the person they are protecting.
-    params_part1_ans4_value: Increase the time of impact, increasing the impulse on
-      the person they are protecting.
-    params_part1_ans5_value: Explode to give you more oxygen to breathe.
+    params:
+      vars:
+        title: Airbags
+      part1:
+        ans1:
+          value: Increase the time of impact, increasing the average acceleration
+            of the person they are protecting.
+        ans2:
+          value: Increase the time of impact, decreasing the average acceleration
+            of the person they are protecting.
+        ans3:
+          value: Increase the time of impact, decreasing the impulse on the person
+            they are protecting.
+        ans4:
+          value: Increase the time of impact, increasing the impulse on the person
+            they are protecting.
+        ans5:
+          value: Explode to give you more oxygen to breathe.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Modern cars are outfitted with air bags that quickly inflate with air if the car experiences too large of an acceleration.
 
 ## Part 1
@@ -49,11 +57,11 @@ Air bags work because, in the event of an accident, they (choose the best option
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

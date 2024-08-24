@@ -41,26 +41,33 @@ part2:
     fixed-order: true
 myst:
   substitutions:
-    params_vars_title: Kinetic energy from velocity in SHM
-    params_vars_units: $rm\{s}$
-    params_part2_ans1_value: Figure A
-    params_part2_ans1_feedback: What is the period of oscillation of the velocity?  How
-      long should it be between zeroes of the kinetic energy?  Are the periods of
-      oscillation of the energy and velocity the same?
-    params_part2_ans2_value: Figure B
-    params_part2_ans2_feedback: What is the period of oscillation of the velocity?  How
-      long should it be between zeroes of the kinetic energy?  Are the periods of
-      oscillation of the energy and velocity the same?
-    params_part2_ans3_value: Figure C
-    params_part2_ans3_feedback: Great! You got it.
-    params_part2_ans4_value: Figure D
-    params_part2_ans4_feedback: Can the kinetic energy $K = \frac{1}{2}mv^2$ ever
-      be negative?
-    params_part2_ans5_value: Figure E
-    params_part2_ans5_feedback: At the time when the velocity is first zero, is the
-      kinetic energy at its maximum or minimum?
+    params:
+      vars:
+        title: Kinetic energy from velocity in SHM
+        units: $rm\{s}$
+      part2:
+        ans1:
+          value: Figure A
+          feedback: What is the period of oscillation of the velocity?  How long should
+            it be between zeroes of the kinetic energy?  Are the periods of oscillation
+            of the energy and velocity the same?
+        ans2:
+          value: Figure B
+          feedback: What is the period of oscillation of the velocity?  How long should
+            it be between zeroes of the kinetic energy?  Are the periods of oscillation
+            of the energy and velocity the same?
+        ans3:
+          value: Figure C
+          feedback: Great! You got it.
+        ans4:
+          value: Figure D
+          feedback: Can the kinetic energy $K = \frac{1}{2}mv^2$ ever be negative?
+        ans5:
+          value: Figure E
+          feedback: At the time when the velocity is first zero, is the kinetic energy
+            at its maximum or minimum?
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -68,7 +75,7 @@ For a simple harmonic oscillator with velocity $v_x(t) = v\_{max}\sin(\frac{2\pi
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
@@ -78,11 +85,11 @@ Identify which of the below graphs represents the kinetic energy as a function o
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-- {{ params_part2_ans3_value }}
-- {{ params_part2_ans4_value }}
-- {{ params_part2_ans5_value }}
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
+- {{ params.part2.ans4.value }}
+- {{ params.part2.ans5.value }}
 
 ## Attribution
 

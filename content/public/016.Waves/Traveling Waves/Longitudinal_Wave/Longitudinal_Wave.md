@@ -33,14 +33,22 @@ part1:
     fixed-order: true
 myst:
   substitutions:
-    params_vars_title: Longitudinal Wave Displacement
-    params_part1_ans1_value: A
-    params_part1_ans2_value: B
-    params_part1_ans3_value: C
-    params_part1_ans4_value: D
-    params_part1_ans5_value: E
+    params:
+      vars:
+        title: Longitudinal Wave Displacement
+      part1:
+        ans1:
+          value: A
+        ans2:
+          value: B
+        ans3:
+          value: C
+        ans4:
+          value: D
+        ans5:
+          value: E
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The top two dot figures show a longitudinal wave at equilibrium, and again at $t = 5$ s after a displacement.
 
 <img src="long.png" width="400">
@@ -52,15 +60,11 @@ Which of the snapshot graph in the figure of the displacement as a function of p
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params.vars.units}}
-- {{ params_part1_ans2_value }} {{ params.vars.units}}
-- {{ params_part1_ans3_value }} {{ params.vars.units}}
-- {{ params_part1_ans4_value }} {{ params.vars.units}}
-- {{ params_part1_ans5_value }} {{ params.vars.units}}
-
-### pl-submission-panel
-
-### pl-answer-panel
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

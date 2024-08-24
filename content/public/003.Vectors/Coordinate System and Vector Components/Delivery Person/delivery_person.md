@@ -75,15 +75,17 @@ part6:
     suffix: degrees south of east
 myst:
   substitutions:
-    params_vars_title: Delivery Person
-    params_vars_units: km
-    params_dist1: 100
-    params_dist2: 10
-    params_dist3: '7.0'
-    params_dist4: 80
+    params:
+      vars:
+        title: Delivery Person
+        units: km
+      dist1: 10
+      dist2: 60
+      dist3: '3.0'
+      dist4: 30
 ---
-# {{ params_vars_title }}
-A delivery person starts at the post office, drives {{params_dist1}} km north, then {{params_dist2}} km west, then {{params_dist3}} km northeast, and finally {{params_dist4}} km north to stop for lunch.
+# {{ params.vars.title }}
+A delivery person starts at the post office, drives {{params.dist1}} km north, then {{params.dist2}} km west, then {{params.dist3}} km northeast, and finally {{params.dist4}} km north to stop for lunch.
 
 Assume $+y$ is to the North, and $+x$ is to the East.
 
@@ -95,7 +97,7 @@ Find the x component of their net displacement vector.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
@@ -103,7 +105,7 @@ Find the y component of their net displacement vector.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 3
 
@@ -111,7 +113,7 @@ How far is the shortest path from the post office to the restaurant?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 4
 
@@ -119,7 +121,7 @@ If the delivery person returns from the restaurant to the post office, what is t
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 5
 
@@ -127,7 +129,7 @@ If the delivery person returns from the restaurant to the post office, what is t
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 6
 
@@ -135,7 +137,7 @@ If the delivery person returns from the restaurant to the post office, what dire
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

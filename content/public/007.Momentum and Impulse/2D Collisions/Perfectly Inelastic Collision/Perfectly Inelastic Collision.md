@@ -48,12 +48,14 @@ part2:
     suffix: $^{\circ}$
 myst:
   substitutions:
-    params_vars_title: Perfectly Inelastic Collision
-    params_v1: 3
-    params_v2: 1
+    params:
+      vars:
+        title: Perfectly Inelastic Collision
+      v1: 1
+      v2: 2
 ---
-# {{ params_vars_title }}
-Particles of mass $m$ and $2m$ have velocities $v_1=$ {{ params_v1 }}$v\hat{x}$ and $v_2=$ {{ params_v2 }}$v\hat{y}$ respectively.
+# {{ params.vars.title }}
+Particles of mass $m$ and $2m$ have velocities $v_1=$ {{ params.v1 }}$v\hat{x}$ and $v_2=$ {{ params.v2 }}$v\hat{y}$ respectively.
 
 <img src="2Dconservation.png" alt="Figure of a particle of mass m travelling to the right with velocity v1 along the x-axis and a particle of mass 2m travelling up with velocity v2 along the right axis. The two particles collide and form a resulting particle of mass 3m which moves with velocity v f at an angle theta f with respect to the x-axis." width=400>
 

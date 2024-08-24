@@ -55,12 +55,14 @@ part3:
     digits: 2
 myst:
   substitutions:
-    params_vars_title: Ice Skater
-    params_W: 66
-    params_H: 165
+    params:
+      vars:
+        title: Ice Skater
+      W: 52
+      H: 157
 ---
-# {{ params_vars_title }}
-We model a {{ params_W }} kg and {{ params_H }} cm tall ice skater when spinning with arms and legs in as a solid cylinder of diameter $40$ cm.
+# {{ params.vars.title }}
+We model a {{ params.W }} kg and {{ params.H }} cm tall ice skater when spinning with arms and legs in as a solid cylinder of diameter $40$ cm.
 
 ## Part 1
 

@@ -35,19 +35,21 @@ part1:
     suffix: $\rm{W}$
 myst:
   substitutions:
-    params_vars_title: Power of Gravity 1
-    params_m: 64.0
-    params_theta: 57.0
-    params_t: 9.0
+    params:
+      vars:
+        title: Power of Gravity 1
+      m: 56.0
+      theta: 60.0
+      t: 7.0
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Power of Gravity 1.png" width = 600>
 
-A mass, $m = {{params_m}} \ \rm{kg}$, is dropped from rest at the top of the slide shown in the above figure. The ball falls due to its own weight only, following the path of the slide without any bouncing. This slide is inclined at an angle $\theta = {{params_theta}}^{\circ}$ with the $x$-axis.
+A mass, $m = {{params.m}} \ \rm{kg}$, is dropped from rest at the top of the slide shown in the above figure. The ball falls due to its own weight only, following the path of the slide without any bouncing. This slide is inclined at an angle $\theta = {{params.theta}}^{\circ}$ with the $x$-axis.
 
 ## Part 1
 
-Find the power lost due to gravity at $t = {{ params_t }} \ \rm{s}$. Assume no friction force and that only slipping occurs.
+Find the power lost due to gravity at $t = {{ params.t }} \ \rm{s}$. Assume no friction force and that only slipping occurs.
 
 ### Answer Section
 

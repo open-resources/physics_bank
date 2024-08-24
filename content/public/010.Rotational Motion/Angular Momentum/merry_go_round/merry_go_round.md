@@ -36,19 +36,27 @@ part2:
     partial-credit-method: EDC
 myst:
   substitutions:
-    params_vars_title: Merry Go Round
-    params_vars_name: Ximena
-    params_part1_ans1_value: The merry-go-round's moment of inertia is increasing.
-    params_part1_ans2_value: Angular momentum is conserved.
-    params_part1_ans3_value: The merry-go-round's moment of inertia is decreasing.
-    params_part1_ans4_value: The merry-go-round's moment of inertia stays the same
-    params_part1_ans5_value: Angular momentum is not conserved.
-    params_part1_ans6_value: Angular momentum is not conserved because this is an
-      open system.
+    params:
+      vars:
+        title: Merry Go Round
+        name: Mateo
+      part1:
+        ans1:
+          value: The merry-go-round's moment of inertia is increasing.
+        ans2:
+          value: Angular momentum is conserved.
+        ans3:
+          value: The merry-go-round's moment of inertia is decreasing.
+        ans4:
+          value: The merry-go-round's moment of inertia stays the same
+        ans5:
+          value: Angular momentum is not conserved.
+        ans6:
+          value: Angular momentum is not conserved because this is an open system.
 ---
-# {{ params_vars_title }}
-{{ params_vars_name }} starts standing on the outer edge of a merry-go-round that is rotating at an angular velocity of $\omega_0$.
-{{ params_vars_name }} then starts walking towards the center, to the inside portion of the merry-go-round.
+# {{ params.vars.title }}
+{{ params.vars.name }} starts standing on the outer edge of a merry-go-round that is rotating at an angular velocity of $\omega_0$.
+{{ params.vars.name }} then starts walking towards the center, to the inside portion of the merry-go-round.
 You may assume the merry-go-round is rotating without friction.
 
 An image of a merry-go-round (courtesy of [Narelle Steckyj from Pixabay](https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=169901)) is shown below.
@@ -61,15 +69,15 @@ Which of the following statement about the angular velocity of the merry-go-roun
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Part 2
 
-Which of the following choices are correct (select all that apply) after {{ params_vars_name }} starts walking inwards on the merry-go-round?
+Which of the following choices are correct (select all that apply) after {{ params.vars.name }} starts walking inwards on the merry-go-round?
 
 ### Answer Section
 

@@ -35,28 +35,23 @@ part1:
     suffix: $ \rm {A/m^2} $
 myst:
   substitutions:
-    params_vars_title: 'Electron Beam '
-    params_vars_units: ' $ A / m^2 $ '
-    params_I: 164
-    params_r: 0.33
+    params:
+      vars:
+        title: 'Electron Beam '
+        units: ' $ A / m^2 $ '
+      I: 129
+      r: 0.87
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
-An electron beam with a radius of {{params_r}} $\textrm{mm}$ has a measured current of {{params_I}}$\rm\ \mu A$.
+An electron beam with a radius of {{params.r}} $\textrm{mm}$ has a measured current of {{params.I}}$\rm\ \mu A$.
 What is the magnitude of the current density in the beam?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
-
-### pl-submission-panel
-
-<p></p>
-{{ submitted_answers.part1_ans_str }}
-<p></p>
-{{ feedback.part1_ans }}
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

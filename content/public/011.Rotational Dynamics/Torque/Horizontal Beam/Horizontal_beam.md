@@ -34,14 +34,16 @@ part1:
     suffix: $\rm{N \cdot m}$
 myst:
   substitutions:
-    params_vars_title: Horizontal Beam
-    params_M: 1.7
-    params_m: 1.0
-    params_L: 3.0
-    params_w: 0.9
+    params:
+      vars:
+        title: Horizontal Beam
+      M: 2.0
+      m: 0.8
+      L: 4.0
+      w: 0.9
 ---
-# {{ params_vars_title }}
-A horizontal beam of length $L = {{ params_L }}$ $\rm{m}$ and mass $M = {{ params_M }}$ $\rm{kg}$ has a mass $m = {{ params_m }}$ $\rm{kg}$ and width $w = {{ params_w }}$ $\rm{m}$ sitting at the end of the beam (see the following figure).
+# {{ params.vars.title }}
+A horizontal beam of length $L = {{ params.L }}$ $\rm{m}$ and mass $M = {{ params.M }}$ $\rm{kg}$ has a mass $m = {{ params.m }}$ $\rm{kg}$ and width $w = {{ params.w }}$ $\rm{m}$ sitting at the end of the beam (see the following figure).
 
 <img src="horizontal_beam.png" width=400 alt="An image showing a horizontal beam with length L and mass M connected to a wall by a wall support. On the opposite end, a block of mass m and width w rests on the beam.">
 

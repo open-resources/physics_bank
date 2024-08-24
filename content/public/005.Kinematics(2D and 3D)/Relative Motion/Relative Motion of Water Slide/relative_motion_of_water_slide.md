@@ -60,20 +60,22 @@ part4:
     suffix: $m/s$ ($\hat\jmath$)
 myst:
   substitutions:
-    params_vars_title: Relative Motion of Lazy River
-    params_d1: 8
-    params_d2: 8
-    params_theta1: 21
-    params_theta2: 69
-    params_v_AB: 9
-    params_v_B: 3
+    params:
+      vars:
+        title: Relative Motion of Lazy River
+      d1: 8
+      d2: 10
+      theta1: 40
+      theta2: 50
+      v_AB: 13
+      v_B: 2
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="L11Q5.png" width=85%>
 
 A child, A, floats down the lazy river, at a constant speed of ${{params.v_AB}} m/s$ relative to the swimmer B, who is swimming in a straight line at a constant speed of ${{params.v_B}} m/s$ relative to a stationary observer on the pool deck.
 Both swimmers are viewed in the horizontal plane.
-In the above figure, $\theta\_{1} = {{params_theta1}}$, $\theta\_{2} = {{params_theta2}}$, $d\_{1} = {{params_d1}}$, and $d\_{2} = {{params_d2}}$.
+In the above figure, $\theta\_{1} = {{params.theta1}}$, $\theta\_{2} = {{params.theta2}}$, $d\_{1} = {{params.d1}}$, and $d\_{2} = {{params.d2}}$.
 Note that the line between $\theta\_{1}$ and $\theta\_{2}$ is parallel to the y-axis.
 
 ## Part 1

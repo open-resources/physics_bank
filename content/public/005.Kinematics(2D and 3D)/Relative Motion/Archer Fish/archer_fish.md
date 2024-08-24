@@ -31,15 +31,17 @@ part1:
     digits: 2
 myst:
   substitutions:
-    params_vars_title: Archer Fish
-    params_d: 2.8
-    params_h: 5.0
-    params_vf: 2.1
+    params:
+      vars:
+        title: Archer Fish
+      d: 2.8
+      h: 5.9
+      vf: 2.3
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 An archer fish catches insect prey by squirting water droplets into the air to knock insects off the leaves above the surface of the water. <br>
 
-This archer fish is moving with a constant speed of ${{params_vf}} \ \rm{m/s}$ horizontally toward the insect. At a moment in time such that $d= {{params_d}}\ \rm{m}$, the archer fish ejects a water droplet at an angle $\alpha$ such that it will hit the insect and the insect will fall vertically down from the tree with $h = {{params_h}}\ \rm{m}$. <br> At the moment the insect hits the water, the archer fish arrives to point $\rm{A}$ and catches the insect at the same time.
+This archer fish is moving with a constant speed of ${{params.vf}} \ \rm{m/s}$ horizontally toward the insect. At a moment in time such that $d= {{params.d}}\ \rm{m}$, the archer fish ejects a water droplet at an angle $\alpha$ such that it will hit the insect and the insect will fall vertically down from the tree with $h = {{params.h}}\ \rm{m}$. <br> At the moment the insect hits the water, the archer fish arrives to point $\rm{A}$ and catches the insect at the same time.
 
 <img src="fish.png" width=800>
 

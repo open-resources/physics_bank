@@ -36,18 +36,20 @@ part1:
     suffix: $\rm{m/s^2}$
 myst:
   substitutions:
-    params_vars_title: Man Vs Box
-    params_vars_units: "$\rm{m/s^2}$"
-    params_m: 131
-    params_M: 67
-    params_theta: 56
-    params_h: 1.57
+    params:
+      vars:
+        title: Man Vs Box
+        units: "$\rm{m/s^2}$"
+      m: 139
+      M: 89
+      theta: 60
+      h: 1.52
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Man vs box.png" width=700>
 
-In the figure shown is a pulley system with a box attached with mass ${{params_m}}\ \rm{kg}$. On the other side of the pulley is a person with mass ${{params_M}}\ \rm{kg}$ and height ${{params_h}}\ \rm{m}$.
-The person leans back at an angle ${{params_theta}}^\circ$  and uses only their weight as leverage on the rope.
+In the figure shown is a pulley system with a box attached with mass ${{params.m}}\ \rm{kg}$. On the other side of the pulley is a person with mass ${{params.M}}\ \rm{kg}$ and height ${{params.h}}\ \rm{m}$.
+The person leans back at an angle ${{params.theta}}^\circ$  and uses only their weight as leverage on the rope.
 Up is negative, down is positive.
 
 ## Part 1
@@ -56,7 +58,7 @@ What is the acceleration of the box at that moment?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

@@ -126,22 +126,24 @@ part7:
     custom-format: .3g
 myst:
   substitutions:
-    params_vars_title: Circuit with Multiple Voltage Sources
-    params_R1: '14.0'
-    params_R2: '25.0'
-    params_R3: '15.0'
-    params_R4: '11.0'
-    params_R5: '14.0'
-    params_V1: '14.0'
-    params_V2: '24.5'
+    params:
+      vars:
+        title: Circuit with Multiple Voltage Sources
+      R1: '11.0'
+      R2: '25.0'
+      R3: '15.0'
+      R4: '18.0'
+      R5: '15.0'
+      V1: '11.0'
+      V2: '21.0'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Consider the circuit shown below.
 
 <img src="fig_OSUPv2p10_36.png" width=250>
 
-The battery voltages are $V_1 = {{ params_V1 }}\rm\ V$ and $V_2 = {{ params_V2 }}\rm\ V$.
-The resistances are $R_1 = {{ params_R1 }}\rm\ k \Omega$, $R_2 = {{ params_R2 }}\rm\ k \Omega$, $R_3 = {{ params_R3 }}\rm\ k \Omega$, $R_4 = {{ params_R4 }}\rm\ k \Omega$, and $R_5 = {{ params_R5 }}\rm\ k \Omega$.
+The battery voltages are $V_1 = {{ params.V1 }}\rm\ V$ and $V_2 = {{ params.V2 }}\rm\ V$.
+The resistances are $R_1 = {{ params.R1 }}\rm\ k \Omega$, $R_2 = {{ params.R2 }}\rm\ k \Omega$, $R_3 = {{ params.R3 }}\rm\ k \Omega$, $R_4 = {{ params.R4 }}\rm\ k \Omega$, and $R_5 = {{ params.R5 }}\rm\ k \Omega$.
 
 ## Part 1
 
@@ -198,26 +200,6 @@ What is the power dissipated by the circuit?
 ### Answer Section
 
 Please enter in a numeric value in $\rm\ W$.
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}<br>
-{{ feedback.part2_ans }}<br>
-{{ feedback.part3_ans }}<br>
-{{ feedback.part4_ans }}<br>
-{{ feedback.part5_ans }}<br>
-{{ feedback.part6_ans }}<br>
-{{ feedback.part7_ans }}
-
-### pl-answer-panel
-
-$V\_{R_1} =$ {{ correct_answers.part1_ans_str }} $\rm\ V$<br>
-$V\_{R_2} =$ {{ correct_answers.part2_ans_str }} $\rm\ V$<br>
-$V\_{R_3} =$ {{ correct_answers.part3_ans_str }} $\rm\ V$<br>
-$V\_{R_4} =$ {{ correct_answers.part4_ans_str }} $\rm\ V$<br>
-$V\_{R_5} =$ {{ correct_answers.part5_ans_str }} $\rm\ V$<br>
-$P\_{\rm in} =$ {{ correct_answers.part6_ans_str }} $\rm\ W$<br>
-$P\_{\rm out} =$ {{ correct_answers.part7_ans_str }} $\rm\ W$
 
 ## Attribution
 

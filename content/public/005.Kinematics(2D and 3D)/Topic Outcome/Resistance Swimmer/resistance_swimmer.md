@@ -44,18 +44,20 @@ part2:
     suffix: rad/s$^2$
 myst:
   substitutions:
-    params_vars_title: Resistance Swimmer
-    params_v: 2
-    params_h: 14
-    params_x: 7
-    params_a: 0.4
+    params:
+      vars:
+        title: Resistance Swimmer
+      v: 2
+      h: 16
+      x: 11
+      a: 0.3
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="L11Q1.png" width=85%>
 
 A lifeguard watches a swimmer train while sitting at their chair, fixed at point O.
-They swim at $v = {{params_v}}$ m/s, while they slow them at a rate of ${{params_a}}$ m/s^2$ in the moment shown.
-Determine the following values where $r$ is the length between the lifeguard and swimmer, $h = {{params_h}}$ m and $x = {{params_x}}$ m.
+They swim at $v = {{params.v}}$ m/s, while they slow them at a rate of ${{params.a}}$ m/s^2$ in the moment shown.
+Determine the following values where $r$ is the length between the lifeguard and swimmer, $h = {{params.h}}$ m and $x = {{params.x}}$ m.
 
 ## Part 1
 

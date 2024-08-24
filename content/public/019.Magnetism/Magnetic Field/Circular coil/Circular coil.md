@@ -41,28 +41,20 @@ part1:
     label: $N= $
 myst:
   substitutions:
-    params_vars_title: Circular coil
-    params_r: '7.00'
-    params_I: '0.56'
-    params_B: $6.00\times 10^{-3}$
+    params:
+      vars:
+        title: Circular coil
+      r: '11.00'
+      I: '0.76'
+      B: $5.20\times 10^{-3}$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
-How many turns must be wound on a flat, circular coil of radius {{ params_r }}$\rm\ cm$ in order to produce a magnetic field of magnitude {{ params_B }} $\rm\ T$ at the centre of the coil when the current through it is {{ params_I }}$\rm\ A$?
+How many turns must be wound on a flat, circular coil of radius {{ params.r }}$\rm\ cm$ in order to produce a magnetic field of magnitude {{ params.B }} $\rm\ T$ at the centre of the coil when the current through it is {{ params.I }}$\rm\ A$?
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$N=$ {{ correct_answers.part1_ans_str }}
 
 ## Attribution
 

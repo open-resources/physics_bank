@@ -51,16 +51,18 @@ part3:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_title: Shooting a Stunt Scene
-    params_a: 3.3
-    params_b: 5.5
-    params_h: 9.9
-    params_v0: 80.0
+    params:
+      vars:
+        title: Shooting a Stunt Scene
+      a: 5.8
+      b: 7.4
+      h: 9.3
+      v0: 50.0
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Movie Set.png" height = 800> 
 
-At a movie set, a drone is capturing footage for a stunt scene. The drone is $h = {{params_h}} \ \rm{m}$ in the sky, tracking the stunt car that has a constant speed of $v = {{params_v0}} \ \rm{km/h}$. At a frame in time, find the car's velocity vectors with respect to the hovering drone in spherical coordinates. Consider $a = {{params_a}} \ \rm{m}$ and $b = {{params_b}} \ \rm{m}$.
+At a movie set, a drone is capturing footage for a stunt scene. The drone is $h = {{params.h}} \ \rm{m}$ in the sky, tracking the stunt car that has a constant speed of $v = {{params.v0}} \ \rm{km/h}$. At a frame in time, find the car's velocity vectors with respect to the hovering drone in spherical coordinates. Consider $a = {{params.a}} \ \rm{m}$ and $b = {{params.b}} \ \rm{m}$.
 
 ## Part 1
 

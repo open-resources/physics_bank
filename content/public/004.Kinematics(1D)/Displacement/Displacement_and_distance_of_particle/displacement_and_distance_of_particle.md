@@ -42,28 +42,30 @@ part2:
     suffix: cm
 myst:
   substitutions:
-    params_vars_title: Displacement and Distance of a particle
-    params_vars_units: cm
-    params_seconds: 28
+    params:
+      vars:
+        title: Displacement and Distance of a particle
+        units: cm
+      seconds: 39
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The position of a particle in centimeters is given by $s(t) = 20 - 9t + t^2$, where $t$ is in seconds.
 
 ## Part 1
 
-Determine the net displacement in the first {{params_seconds}} seconds.
+Determine the net displacement in the first {{params.seconds}} seconds.
 
 ### Answer Section
 
-Please enter in a numeric value in ${{ params_vars_units }}$.
+Please enter in a numeric value in ${{ params.vars.units }}$.
 
 ## Part 2
 
-Determine the total distance travelled in the first {{params_seconds}} seconds.
+Determine the total distance travelled in the first {{params.seconds}} seconds.
 
 ### Answer Section
 
-Please enter in a numeric value in ${{ params_vars_units }}$.
+Please enter in a numeric value in ${{ params.vars.units }}$.
 
 ## Attribution
 

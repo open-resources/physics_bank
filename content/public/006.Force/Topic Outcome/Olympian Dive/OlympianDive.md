@@ -48,18 +48,20 @@ part2:
     digits: 2
 myst:
   substitutions:
-    params_vars_title: Olympic Diving
-    params_vars_units: m
-    params_W: 153
-    params_d: 1.2
-    params_k: 1.5
-    params_theta: 25
-    params_h: 15
+    params:
+      vars:
+        title: Olympic Diving
+        units: m
+      W: 170
+      d: 1.1
+      k: 0.7
+      theta: 85
+      h: 7
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="OlympianDive.png" width=100%>
 
-A diver is practicing their dives for the Olympics! They have a weight of $W = {{ params_W }} \ \rm{lb}$. In figure (**a**), their center of gravity is $d = {{ params_d }} \ \rm{ft}$ from the board, and the rotation radius about their center of gravity is $k_G = {{ params_k }} \ \rm{ft}$. When they jump off the board, an angle of ${{ params_theta }}^\circ$ is made from the board. The height of the board is $h = {{ params_h }} \ \rm{ft}$ from the water.
+A diver is practicing their dives for the Olympics! They have a weight of $W = {{ params.W }} \ \rm{lb}$. In figure (**a**), their center of gravity is $d = {{ params.d }} \ \rm{ft}$ from the board, and the rotation radius about their center of gravity is $k_G = {{ params.k }} \ \rm{ft}$. When they jump off the board, an angle of ${{ params.theta }}^\circ$ is made from the board. The height of the board is $h = {{ params.h }} \ \rm{ft}$ from the water.
 
 ## Part 1
 
@@ -68,7 +70,7 @@ What is the angular velocity of the diver as they jump off the board?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
@@ -76,7 +78,7 @@ How many revolutions do they complete before they land in the water?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

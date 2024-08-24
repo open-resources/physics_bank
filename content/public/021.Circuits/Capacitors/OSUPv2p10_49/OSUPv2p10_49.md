@@ -58,18 +58,20 @@ part2:
     custom-format: .3g
 myst:
   substitutions:
-    params_vars_title: Automobile Intermittent Wiper System
-    params_C: '0.700'
-    params_t1: '2.50'
-    params_t2: '15.5'
+    params:
+      vars:
+        title: Automobile Intermittent Wiper System
+      C: '0.400'
+      t1: '2.50'
+      t2: '15.5'
 ---
-# {{ params_vars_title }}
-The timing device in an automobile's intermittent wiper system is based on an $RC$ time constant and utilizes a ${{ params_C }}\rm\ \mu F$ capacitor and a variable resistor.
-Over what range must $R$ be made to vary to achieve time constants from ${{ params_t1 }}\rm\ s$ to ${{ params_t2 }}\rm\ s$?
+# {{ params.vars.title }}
+The timing device in an automobile's intermittent wiper system is based on an $RC$ time constant and utilizes a ${{ params.C }}\rm\ \mu F$ capacitor and a variable resistor.
+Over what range must $R$ be made to vary to achieve time constants from ${{ params.t1 }}\rm\ s$ to ${{ params.t2 }}\rm\ s$?
 
 ## Part 1
 
-What must be the value of $R$ for the time constant to be ${{ params_t1 }}\rm\ s$?
+What must be the value of $R$ for the time constant to be ${{ params.t1 }}\rm\ s$?
 
 ### Answer Section
 
@@ -77,21 +79,11 @@ Please enter in a numeric value in $\rm\ \Omega$.
 
 ## Part 2
 
-What must be the value of $R$ for the time constant to be ${{ params_t2 }}\rm\ s$?
+What must be the value of $R$ for the time constant to be ${{ params.t2 }}\rm\ s$?
 
 ### Answer Section
 
 Please enter in a numeric value in $\rm\ \Omega$.
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}<br>
-{{ feedback.part2_ans }}
-
-### pl-answer-panel
-
-$R=$ {{ correct_answers.part1_ans_str }} $\rm\ \Omega$ (Part 1)<br>
-$R=$ {{ correct_answers.part2_ans_str }} $\rm\ \Omega$ (Part 2)
 
 ## Attribution
 

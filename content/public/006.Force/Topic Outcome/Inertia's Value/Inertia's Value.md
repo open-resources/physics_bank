@@ -30,13 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Inertia's Value
-    params_part1_ans1_value: Mass
-    params_part1_ans2_value: Momentum
-    params_part1_ans3_value: Weight
-    params_part1_ans4_value: Force
+    params:
+      vars:
+        title: Inertia's Value
+      part1:
+        ans1:
+          value: Mass
+        ans2:
+          value: Momentum
+        ans3:
+          value: Weight
+        ans4:
+          value: Force
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -44,10 +51,10 @@ The quantitative measure of the inertia or resistance to change in motion of a b
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

@@ -34,18 +34,20 @@ part1:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params_vars_title: Position at Specific Velocity
-    params_vars_units: m
-    params_v: 27.68
-    params_N: 6
-    params_C: 3.82
+    params:
+      vars:
+        title: Position at Specific Velocity
+        units: m
+      v: 27.18
+      N: 4
+      C: 1.46
 ---
-# {{ params_vars_title }}
-A particle accelerates from rest at $x = 0\ \rm{m}$ according to the following equation: $ a = {{ params_C }} \times x^{{{ params_N }}} $
+# {{ params.vars.title }}
+A particle accelerates from rest at $x = 0\ \rm{m}$ according to the following equation: $ a = {{ params.C }} \times x^{{{ params.N }}} $
 
 ## Part 1
 
-Find $x$ when $v = {{ params_v }}\ \rm{m/s}$
+Find $x$ when $v = {{ params.v }}\ \rm{m/s}$
 
 ### Answer Section
 

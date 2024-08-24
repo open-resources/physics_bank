@@ -30,29 +30,37 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Angular Acceleration
-    params_v_1: 3
-    params_v_2: 19
-    params_t: 3
-    params_part1_ans1_value: 5.3 $\rm{rad/s^2}$
-    params_part1_ans2_value: 5.3 $\rm{m/s^2}$
-    params_part1_ans3_value: -5.3 $\rm{rad/s^2}$
-    params_part1_ans4_value: -5.3 $\rm{m/s^2}$
-    params_part1_ans5_value: 10 $\rm{rad/s^2}$
+    params:
+      vars:
+        title: Angular Acceleration
+      v_1: 7
+      v_2: 12
+      t: 4
+      part1:
+        ans1:
+          value: 1.3 $\rm{rad/s^2}$
+        ans2:
+          value: 1.3 $\rm{m/s^2}$
+        ans3:
+          value: -1.3 $\rm{rad/s^2}$
+        ans4:
+          value: -1.3 $\rm{m/s^2}$
+        ans5:
+          value: 10 $\rm{rad/s^2}$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
-A solid object with 1 $\rm{m}$ radius that increases in angular velocity from $\omega\_{1z}$ = {{ params.v_1 }} $\rm{rad/s}$ to $\omega\_{2z}$ = {{ params.v_2 }} $\rm{rad/s}$ in a {{ params_t }} $\rm{s}$ interval has an average angular acceleration of:
+A solid object with 1 $\rm{m}$ radius that increases in angular velocity from $\omega\_{1z}$ = {{ params.v_1 }} $\rm{rad/s}$ to $\omega\_{2z}$ = {{ params.v_2 }} $\rm{rad/s}$ in a {{ params.t }} $\rm{s}$ interval has an average angular acceleration of:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

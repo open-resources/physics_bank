@@ -29,32 +29,40 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Firing a Ball using a Compressed Spring
-    params_choice: tripled (3x)
-    params_part1_ans1_value: The ball will reach thrice (3x) the height as before.
-    params_part1_ans2_value: The ball will reach one quarter (0.25x) of the height
-      previously reached.
-    params_part1_ans3_value: The ball will reach four times (4x) the height as before.
-    params_part1_ans4_value: The ball will reach half (0.5x) of the height previously
-      reached.
-    params_part1_ans5_value: The ball will reach the same (1x) height as before.
-    params_part1_ans6_value: The ball will reach twice (2x) the height as before.
+    params:
+      vars:
+        title: Firing a Ball using a Compressed Spring
+      choice: quadrupled (4x)
+      part1:
+        ans1:
+          value: The ball will reach four times (4x) the height as before.
+        ans2:
+          value: The ball will reach one quarter (0.25x) of the height previously
+            reached.
+        ans3:
+          value: The ball will reach half (0.5x) of the height previously reached.
+        ans4:
+          value: The ball will reach the same (1x) height as before.
+        ans5:
+          value: The ball will reach twice (2x) the height as before.
+        ans6:
+          value: The ball will reach thrice (3x) the height as before.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A compressed spring fires a ball of mass $m$ directly upwards.
 
 ## Part 1
 
-If the mass of the ball and the initial compression of the spring are both {{ params_choice }}, (neglect air resistance) then,
+If the mass of the ball and the initial compression of the spring are both {{ params.choice }}, (neglect air resistance) then,
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
-- {{ params_part1_ans6_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
+- {{ params.part1.ans6.value }}
 
 ## Attribution
 

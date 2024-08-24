@@ -31,27 +31,35 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Math Diagnostic08
-    params_expr: $\dfrac{-49x - 14y }{ 7 }$
-    params_part1_ans1_value: $- 7 x - 2 y$
-    params_part1_ans2_value: $\dfrac{-7x - 2y}{7}$
-    params_part1_ans3_value: $-2x - 7y$
-    params_part1_ans4_value: $-49x - 14y$
-    params_part1_ans5_value: Don't know.
+    params:
+      vars:
+        title: Math Diagnostic08
+      expr: $\dfrac{-8x + 36y }{ -4 }$
+      part1:
+        ans1:
+          value: $2 x - 9 y$
+        ans2:
+          value: $\dfrac{2x - 9y}{-4}$
+        ans3:
+          value: $-9x + 2y$
+        ans4:
+          value: $-8x - 36y$
+        ans5:
+          value: Don't know.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
-{{ params_expr }} is equivalent to:
+{{ params.expr }} is equivalent to:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

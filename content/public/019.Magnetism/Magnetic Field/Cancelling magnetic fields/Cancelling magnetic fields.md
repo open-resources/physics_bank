@@ -46,11 +46,16 @@ part2:
     blank: true
 myst:
   substitutions:
-    params_vars_title: Cancelling magnetic fields
-    params_part2_ans1_value: Towards the top of the screen
-    params_part2_ans2_value: Towards the bottom of the screen
+    params:
+      vars:
+        title: Cancelling magnetic fields
+      part2:
+        ans1:
+          value: Towards the top of the screen
+        ans2:
+          value: Towards the bottom of the screen
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Two long wires, one of which has a semicircular bend of radius $R$, are positioned as shown in the figure.
 
 <img src="OSUPv2p12_21.png" width=350 alt="Parallel wires, one with a semicircular bend">
@@ -69,8 +74,8 @@ What is the direction of the current in the straight wire on the right-hand side
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
 
 ## Attribution
 

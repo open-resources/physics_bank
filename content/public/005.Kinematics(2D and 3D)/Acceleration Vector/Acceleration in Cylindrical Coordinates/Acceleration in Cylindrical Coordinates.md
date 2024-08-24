@@ -30,17 +30,24 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Acceleration in Cylindrical Coordinates
-    params_part1_ans1_value: ${\bf{a}} = (\ddot{r} - r\ddot{\theta}){\bf{e_r}} + (r\ddot{\theta}
-      + 2\dot{r}\dot{\theta}){\bf{e_{\theta}}} + \ddot{z}{\bf{k}}$
-    params_part1_ans2_value: ${\bf{a}} = (\ddot{r} + r\ddot{\theta}){\bf{e_r}} + (r\ddot{\theta}
-      - 2\dot{r}\dot{\theta}){\bf{e_{\theta}}} + \ddot{z}{\bf{k}}$
-    params_part1_ans3_value: ${\bf{a}} = (\ddot{r} - r\ddot{\theta}){\bf{e_r}} + (r\ddot{\theta}
-      - 2\dot{r}\dot{\theta}){\bf{e_{\theta}}} + \ddot{z}{\bf{k}}$
-    params_part1_ans4_value: ${\bf{a}} = (\ddot{r} + r\ddot{\theta}){\bf{e_r}} + (r\ddot{\theta}
-      + 2\dot{r}\dot{\theta}){\bf{e_{\theta}}} + \ddot{z}{\bf{k}}$
+    params:
+      vars:
+        title: Acceleration in Cylindrical Coordinates
+      part1:
+        ans1:
+          value: ${\bf{a}} = (\ddot{r} - r\ddot{\theta}){\bf{e_r}} + (r\ddot{\theta}
+            + 2\dot{r}\dot{\theta}){\bf{e_{\theta}}} + \ddot{z}{\bf{k}}$
+        ans2:
+          value: ${\bf{a}} = (\ddot{r} + r\ddot{\theta}){\bf{e_r}} + (r\ddot{\theta}
+            - 2\dot{r}\dot{\theta}){\bf{e_{\theta}}} + \ddot{z}{\bf{k}}$
+        ans3:
+          value: ${\bf{a}} = (\ddot{r} - r\ddot{\theta}){\bf{e_r}} + (r\ddot{\theta}
+            - 2\dot{r}\dot{\theta}){\bf{e_{\theta}}} + \ddot{z}{\bf{k}}$
+        ans4:
+          value: ${\bf{a}} = (\ddot{r} + r\ddot{\theta}){\bf{e_r}} + (r\ddot{\theta}
+            + 2\dot{r}\dot{\theta}){\bf{e_{\theta}}} + \ddot{z}{\bf{k}}$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -48,10 +55,10 @@ When using cylindrical coordinates for space curvilinear motion the expression f
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

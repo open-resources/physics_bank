@@ -52,30 +52,32 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Diffraction
-    params_vars_units: $\mu$m
-    params_part3_ans1_value: Yes, because the wider patterm should come from the larger
-      slit width.
-    params_part3_ans1_feedback: Wider diffraction patterns do not result from wider
-      slits.
-    params_part3_ans2_value: Yes, because the less wide pattern should come from the
-      larger slit width.
-    params_part3_ans2_feedback: Yes, smaller slits cause diffraction patterns to spread
-      out more.
-    params_part3_ans3_value: No, because the wider pattern should come from the larger
-      slit width.
-    params_part3_ans3_feedback: Wider diffraction patterns do not result from wider
-      slits.
-    params_part3_ans4_value: No, because the less wide pattern should come from the
-      larger slit width.
-    params_part3_ans4_feedback: Although smaller slits cause diffraction patterns
-      to spread out more, this should be reflected in your calculated slit widths.
-    params_part3_ans5_value: There is no relation between slit width and width of
-      the pattern.
-    params_part3_ans5_feedback: Slit width and diffraction pattern width are related,
-      please read the helpful information before selecting again.
+    params:
+      vars:
+        title: Diffraction
+        units: $\mu$m
+      part3:
+        ans1:
+          value: Yes, because the wider patterm should come from the larger slit width.
+          feedback: Wider diffraction patterns do not result from wider slits.
+        ans2:
+          value: Yes, because the less wide pattern should come from the larger slit
+            width.
+          feedback: Yes, smaller slits cause diffraction patterns to spread out more.
+        ans3:
+          value: No, because the wider pattern should come from the larger slit width.
+          feedback: Wider diffraction patterns do not result from wider slits.
+        ans4:
+          value: No, because the less wide pattern should come from the larger slit
+            width.
+          feedback: Although smaller slits cause diffraction patterns to spread out
+            more, this should be reflected in your calculated slit widths.
+        ans5:
+          value: There is no relation between slit width and width of the pattern.
+          feedback: Slit width and diffraction pattern width are related, please read
+            the helpful information before selecting again.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Photographs of the diffraction of a red laser of wavelength $\lambda = 650$ nm are shown in figures (i) and (ii). A line of length $7$ cm indicates the length scale on the screen.
 
 <img src="gratings.png" height = 500px>
@@ -86,23 +88,19 @@ When monochromatic light of wavelength $\lambda$ passes through a double slit of
 
 ## Part 1
 
-Find the slit width, $a_i$, for pattern (i) (use the small angle approximation if it applies). Express your answer in {{params_vars_units}} to three significant figures. Take the distance you measured on Fig. (i) in Part 2 to be 1.00 cm, and the distance to the screen to be 60.0 cm.
+Find the slit width, $a_i$, for pattern (i) (use the small angle approximation if it applies). Express your answer in {{params.vars.units}} to three significant figures. Take the distance you measured on Fig. (i) in Part 2 to be 1.00 cm, and the distance to the screen to be 60.0 cm.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
-
-### pl-submission-panel
-
-{{feedback.part1_ans}}
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
-Find the slit width, $a\_{ii}$, for pattern (ii) (use the small angle approximation if it applies). Express your answer in {{params_vars_units}} to three significant figures. Take the distance you measured on Fig. (ii) in Part 2 to be 2.30 cm, and the distance to the screen to be 60.0 cm.
+Find the slit width, $a\_{ii}$, for pattern (ii) (use the small angle approximation if it applies). Express your answer in {{params.vars.units}} to three significant figures. Take the distance you measured on Fig. (ii) in Part 2 to be 2.30 cm, and the distance to the screen to be 60.0 cm.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 3
 
@@ -110,11 +108,11 @@ Do your answers to part 1 and 2 make sense in terms of which pattern indicated h
 
 ### Answer Section
 
-- {{ params_part3_ans1_value}}
-- {{ params_part3_ans2_value}}
-- {{ params_part3_ans3_value}}
-- {{ params_part3_ans4_value}}
-- {{ params_part3_ans5_value}}
+- {{ params.part3.ans1.value}}
+- {{ params.part3.ans2.value}}
+- {{ params.part3.ans3.value}}
+- {{ params.part3.ans4.value}}
+- {{ params.part3.ans5.value}}
 
 ## Attribution
 

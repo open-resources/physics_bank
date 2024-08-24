@@ -33,15 +33,24 @@ part1:
     partial-credit-method: EDC
 myst:
   substitutions:
-    params_vars_title: Running Dog
-    params_part1_ans1_value: The dog is speeding up at time $t=7$ $s$
-    params_part1_ans2_value: The dog has a velocity of $1$ $m/s$ between time $t=6$
-      $s$ and $t=10$ $s$
-    params_part1_ans3_value: The dog is not moving between $t=6$ $s$ and $t=10$ $s$
-    params_part1_ans4_value: The dog has a negative acceleration at $t=9$ $s$
-    params_part1_ans5_value: The dog is slowing down at $t=7$ $s$
+    params:
+      vars:
+        title: Running Dog
+      part1:
+        ans1:
+          value: The dog is speeding up at time $t=7$ $s$
+        ans2:
+          value: The dog is not moving between $t=6$ $s$ and $t=10$ $s$
+        ans3:
+          value: The dog has a velocity of $1$ $m/s$ between time $t=6$ $s$ and $t=10$
+            $s$
+        ans4:
+          value: The dog has a negative acceleration at $t=9$ $s$
+        ans5:
+          value: The dog is moving at a constant velocity between $t=2$ $s$ and $t=6$
+            $s$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Consider the following motion diagram for a dog running down a straight path.
 In the motion diagram, the x-axis is the time in seconds, and the y-axis is position in metres.
 
@@ -57,10 +66,10 @@ Select all the choices that apply.
 
 Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params_part1_ans1_value}}
-- {{ params_part1_ans2_value}}
-- {{ params_part1_ans3_value}}
-- {{ params_part1_ans4_value}}
+- {{ params.part1.ans1.value}}
+- {{ params.part1.ans2.value}}
+- {{ params.part1.ans3.value}}
+- {{ params.part1.ans4.value}}
 
 ## Attribution
 

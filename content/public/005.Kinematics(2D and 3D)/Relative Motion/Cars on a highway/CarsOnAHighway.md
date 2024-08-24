@@ -42,16 +42,18 @@ part2:
     suffix: $ \rm{^\circ/s^2}$
 myst:
   substitutions:
-    params_vars_title: Cars on a Highway
-    params_l: 11
-    params_d: 23
-    params_va: 107
-    params_vb: 109
+    params:
+      vars:
+        title: Cars on a Highway
+      l: 11
+      d: 37
+      va: 90
+      vb: 101
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Two cars are driving at constant speeds on two parallel opposing lanes of a divided highway.
-The lanes are $L = {{params_l}} \ \rm{m}$ apart and the cars are $d = {{params_d}} \ \rm{m}$ away from each other.
-Car $A$ is traveling at ${{params_va}} \ \rm{km/h}$ and car $B$ at ${{params_vb}} \ \rm{km/h}$.
+The lanes are $L = {{params.l}} \ \rm{m}$ apart and the cars are $d = {{params.d}} \ \rm{m}$ away from each other.
+Car $A$ is traveling at ${{params.va}} \ \rm{km/h}$ and car $B$ at ${{params.vb}} \ \rm{km/h}$.
 
 <img src="CarsOnAHighway.png" width=800 alt="Two cars are driving on opposite roads towards each other. The roads are L distance away from each other." >
 

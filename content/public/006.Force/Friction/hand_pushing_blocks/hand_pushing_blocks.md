@@ -31,12 +31,18 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Hand Pushing on Blocks
-    params_part1_ans1_value: smaller than the force of the hand on A.
-    params_part1_ans2_value: equal to the force of the hand on A.
-    params_part1_ans3_value: larger than the force of the hand on A.
+    params:
+      vars:
+        title: Hand Pushing on Blocks
+      part1:
+        ans1:
+          value: smaller than the force of the hand on A.
+        ans2:
+          value: equal to the force of the hand on A.
+        ans3:
+          value: larger than the force of the hand on A.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The hand in the figure pushes the back of block A.
 The blocks, with $m_B$ > $m_A$, are connected by a light string and slide on a frictionless surface.
 
@@ -48,9 +54,9 @@ The force of the string on B is:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

@@ -34,14 +34,16 @@ part1:
     comparison: relabs
 myst:
   substitutions:
-    params_vars_title: Perfect Pendulum Clock
-    params_gain: 23.5
+    params:
+      vars:
+        title: Perfect Pendulum Clock
+      gain: 22.5
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
-If a pendulum-driven clock gains {{ params_gain }} $\rm{min/day}$, what fractional change in pendulum length must be made for it to keep perfect time?
+If a pendulum-driven clock gains {{ params.gain }} $\rm{min/day}$, what fractional change in pendulum length must be made for it to keep perfect time?
 
 ### Answer Section
 

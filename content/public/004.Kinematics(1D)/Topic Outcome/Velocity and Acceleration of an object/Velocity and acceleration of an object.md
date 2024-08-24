@@ -30,31 +30,40 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Velocity and Acceleration of an Object
-    params_v: $-9t^2 - 5t$
-    params_time: 12.1
-    params_part1_ans1_value: $v = $ -1380.0 $m/s$, $a = $ -223.0 $m/s^2$
-    params_part1_ans2_value: $v = $ -1380.0 $m/s$, $a = $ 0 $m/s^2$
-    params_part1_ans3_value: $v = $ -1380.0 $m/s$, $a = $ 9.81 $m/s^2$
-    params_part1_ans4_value: $v = $ 12.1 $m/s$, $a = $ -112.0 $m/s^2$
-    params_part1_ans5_value: $v = $ -1380.0 $m/s$, $a = $ 223.0 $m/s^2$
-    params_part1_ans6_value: $v = $ -1380.0 $m/s$, $a = $ -446.0 $m/s^2$
+    params:
+      vars:
+        title: Velocity and Acceleration of an Object
+      v: $3t^2 + 5t$
+      time: 13.3
+      part1:
+        ans1:
+          value: $v = $ 597.0 $m/s$, $a = $ 84.8 $m/s^2$
+        ans2:
+          value: $v = $ 597.0 $m/s$, $a = $ 0 $m/s^2$
+        ans3:
+          value: $v = $ 597.0 $m/s$, $a = $ 9.81 $m/s^2$
+        ans4:
+          value: $v = $ 13.3 $m/s$, $a = $ 42.4 $m/s^2$
+        ans5:
+          value: $v = $ 597.0 $m/s$, $a = $ -84.8 $m/s^2$
+        ans6:
+          value: $v = $ 597.0 $m/s$, $a = $ 170.0 $m/s^2$
 ---
-# {{ params_vars_title }}
-If the velocity of an object in one-dimensional motion is given by $v(t) = $ {{ params_v }}, where the units of $v$ are in $m/s$ and of $t$ are in seconds,
+# {{ params.vars.title }}
+If the velocity of an object in one-dimensional motion is given by $v(t) = $ {{ params.v }}, where the units of $v$ are in $m/s$ and of $t$ are in seconds,
 
 ## Part 1
 
-The velocity and acceleration of the object at $t = $ {{ params_time }} $s$ are:
+The velocity and acceleration of the object at $t = $ {{ params.time }} $s$ are:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
-- {{ params_part1_ans6_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
+- {{ params.part1.ans6.value }}
 
 ## Attribution
 

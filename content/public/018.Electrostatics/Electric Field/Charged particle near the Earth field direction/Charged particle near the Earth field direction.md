@@ -36,24 +36,28 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Charged particle near the Earth field direction
-    params_charge: proton
-    params_part1_ans1_value: Away from the surface of the Earth.
-    params_part1_ans2_value: Towards the surface of the Earth.
-    params_part1_ans3_value: It is not possible to know this.
+    params:
+      vars:
+        title: Charged particle near the Earth field direction
+      charge: electron
+      part1:
+        ans1:
+          value: Away from the surface of the Earth.
+        ans2:
+          value: Towards the surface of the Earth.
+        ans3:
+          value: It is not possible to know this.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
-What is the direction of the electric field that supports the weight of a free {{ params_charge }} near the surface of the Earth?
+What is the direction of the electric field that supports the weight of a free {{ params.charge }} near the surface of the Earth?
 
 ### Answer Section
 
 - {{ params.part2.ans1.value }}
 - {{ params.part2.ans2.value }}
-
-### pl-submission-panel
 
 ## Attribution
 

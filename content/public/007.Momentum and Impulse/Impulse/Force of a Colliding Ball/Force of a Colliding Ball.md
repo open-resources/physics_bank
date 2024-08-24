@@ -34,21 +34,23 @@ part1:
     suffix: $\rm{N}$
 myst:
   substitutions:
-    params_vars_title: Force of a Colliding Ball
-    params_t: 0.011
-    params_v: 16
-    params_theta1: 61
-    params_theta2: 54.0
-    params_m: 1.9
+    params:
+      vars:
+        title: Force of a Colliding Ball
+      t: 0.011
+      v: 20
+      theta1: 52
+      theta2: 46.0
+      m: 1.6
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Force of a Colliding Ball.png" width=800>
 
-A ball with mass ${{params_m}} \ \rm{kg}$ collides into a wall with an initial velocity of ${{params_v}} \ \rm{m/s}$ at an angle of ${\theta}\_1 = {{params_theta1}}^{\circ}$ and  bounces back at an angle of ${\theta}\_2 = {{params_theta2}}^{\circ}$.
+A ball with mass ${{params.m}} \ \rm{kg}$ collides into a wall with an initial velocity of ${{params.v}} \ \rm{m/s}$ at an angle of ${\theta}\_1 = {{params.theta1}}^{\circ}$ and  bounces back at an angle of ${\theta}\_2 = {{params.theta2}}^{\circ}$.
 
 ## Part 1
 
-What is the magnitude of the average force on the ball by the wall if the contact with the wall lasted for ${{params_t}} \ \rm{s}$
+What is the magnitude of the average force on the ball by the wall if the contact with the wall lasted for ${{params.t}} \ \rm{s}$
 
 ### Answer Section
 

@@ -176,18 +176,20 @@ part11:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Simple Series Circuit
-    params_V: '13.0'
-    params_R1: '3.50'
-    params_R2: '3.00'
-    params_R3: '5.00'
+    params:
+      vars:
+        title: Simple Series Circuit
+      V: '13.0'
+      R1: '5.00'
+      R2: '3.50'
+      R3: '4.00'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Consider the circuit shown below.
 
 <img src="fig_OSUPv2p10_35.png" width=250>
 
-The terminal voltage of the battery is ${{ params_V }}\rm\ V$ and the resistances are $R_1 = {{ params_R1 }}\rm\ \Omega$, $R_2 = {{ params_R2 }}\rm\ \Omega$, and $R_3 = {{ params_R3 }}\rm\ \Omega$.
+The terminal voltage of the battery is ${{ params.V }}\rm\ V$ and the resistances are $R_1 = {{ params.R1 }}\rm\ \Omega$, $R_2 = {{ params.R2 }}\rm\ \Omega$, and $R_3 = {{ params.R3 }}\rm\ \Omega$.
 
 ## Part 1
 
@@ -276,34 +278,6 @@ Find the power supplied by the battery.
 ### Answer Section
 
 Please enter a numeric value.
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}<br>
-{{ feedback.part2_ans }}<br>
-{{ feedback.part3_ans }}<br>
-{{ feedback.part4_ans }}<br>
-{{ feedback.part5_ans }}<br>
-{{ feedback.part6_ans }}<br>
-{{ feedback.part7_ans }}<br>
-{{ feedback.part8_ans }}<br>
-{{ feedback.part9_ans }}<br>
-{{ feedback.part10_ans }}<br>
-{{ feedback.part11_ans }}
-
-### pl-answer-panel
-
-$R =$ {{ correct_answers.part1_ans_str }} $\rm\ \Omega$<br>
-$I_1 =$ {{ correct_answers.part2_ans_str }} $\rm\ A$<br>
-$I_2 =$ {{ correct_answers.part3_ans_str }} $\rm\ A$<br>
-$I_3 =$ {{ correct_answers.part4_ans_str }} $\rm\ A$<br>
-$V_1 =$ {{ correct_answers.part5_ans_str }} $\rm\ V$<br>
-$V_2 =$ {{ correct_answers.part6_ans_str }} $\rm\ V$<br>
-$V_3 =$ {{ correct_answers.part7_ans_str }} $\rm\ V$<br>
-$P_1 =$ {{ correct_answers.part8_ans_str }} $\rm\ W$<br>
-$P_2 =$ {{ correct_answers.part9_ans_str }} $\rm\ W$<br>
-$P_3 =$ {{ correct_answers.part10_ans_str }} $\rm\ W$<br>
-$P =$ {{ correct_answers.part11_ans_str }} $\rm\ W$
 
 ## Attribution
 

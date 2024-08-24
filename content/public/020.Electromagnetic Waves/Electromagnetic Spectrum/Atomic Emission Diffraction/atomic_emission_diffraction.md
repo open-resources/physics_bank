@@ -30,15 +30,23 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Diffraction
-    params_vars_units: nm
-    params_part1_ans1_value: 407
-    params_part1_ans2_value: 619
-    params_part1_ans3_value: 223
-    params_part1_ans4_value: 667
-    params_part1_ans5_value: 589
+    params:
+      vars:
+        title: Diffraction
+        units: nm
+      part1:
+        ans1:
+          value: 407
+        ans2:
+          value: 619
+        ans3:
+          value: 223
+        ans4:
+          value: 667
+        ans5:
+          value: 589
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 You measure an atomic emission line to be 8.00 cm from the central diffraction maximum using a diffraction grating with 600.0 lines/mm held at a distance of 20.0 cm from the screen, as shown below.
 
 <img src="fig1.png" width=400 alt="">
@@ -49,11 +57,11 @@ The wavelength of this light is:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params_vars_units}}
-- {{ params_part1_ans2_value }} {{ params_vars_units}}
-- {{ params_part1_ans3_value }} {{ params_vars_units}}
-- {{ params_part1_ans4_value }} {{ params_vars_units}}
-- {{ params_part1_ans5_value }} {{ params_vars_units}}
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

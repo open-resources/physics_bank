@@ -31,19 +31,27 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Effective Capacitance
-    params_part1_ans1_value: Figure (b)
-    params_part1_ans1_feedback: Try Recalculating
-    params_part1_ans2_value: Figure (a)
-    params_part1_ans2_feedback: Great! You got it.
-    params_part1_ans3_value: Figure (c)
-    params_part1_ans3_feedback: Try Recalculating
-    params_part1_ans4_value: Figure (d)
-    params_part1_ans4_feedback: Try Recalculating
-    params_part1_ans5_value: None of the above
-    params_part1_ans5_feedback: Try Recalculating
+    params:
+      vars:
+        title: Effective Capacitance
+      part1:
+        ans1:
+          value: Figure (b)
+          feedback: Try Recalculating
+        ans2:
+          value: Figure (a)
+          feedback: Great! You got it.
+        ans3:
+          value: Figure (c)
+          feedback: Try Recalculating
+        ans4:
+          value: Figure (d)
+          feedback: Try Recalculating
+        ans5:
+          value: None of the above
+          feedback: Try Recalculating
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="capacitance.png" width=400>
 
 ## Part 1
@@ -52,15 +60,11 @@ Which of the circuits shown in figure above (made up of one each of a 3$\mu$F, 5
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params.vars.units}}
-- {{ params_part1_ans2_value }} {{ params.vars.units}}
-- {{ params_part1_ans3_value }} {{ params.vars.units}}
-- {{ params_part1_ans4_value }} {{ params.vars.units}}
-- {{ params_part1_ans5_value }} {{ params.vars.units}}
-
-### pl-submission-panel
-
-### pl-answer-panel
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

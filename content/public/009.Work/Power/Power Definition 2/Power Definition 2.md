@@ -30,15 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Power Definition 2
-    params_part1_ans1_value: The scalar product of force and velocity
-    params_part1_ans2_value: The scalar product of force and velocity in the direction
-      of force
-    params_part1_ans3_value: The quotient of force divided by velocity
-    params_part1_ans4_value: The product of work and the time during which the work
-      is done
+    params:
+      vars:
+        title: Power Definition 2
+      part1:
+        ans1:
+          value: The scalar product of force and velocity
+        ans2:
+          value: The scalar product of force and velocity in the direction of force
+        ans3:
+          value: The quotient of force divided by velocity
+        ans4:
+          value: The product of work and the time during which the work is done
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -46,10 +51,10 @@ The value of power at any time is
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

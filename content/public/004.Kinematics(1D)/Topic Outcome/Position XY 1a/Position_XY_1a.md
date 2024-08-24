@@ -30,19 +30,25 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Position XY 1a
-    params_part1_ans1_value: At $x = 0$, the particle's instantaneous velocity points
-      in either the $\hat{\imath}$ or the $-\hat{\imath}$ direction.
-    params_part1_ans2_value: At $x = 0$, the particle's instantaneous velocity points
-      in either the $\hat{\jmath}$ or the $-\hat{\jmath}$ direction.
-    params_part1_ans3_value: At $x = 0$, the particle's instantaneous acceleration
-      is zero.
-    params_part1_ans4_value: At $x = 0$, the particle's instantaneous acceleration
-      non-zero.
-    params_part1_ans5_value: No information about the particle's velocity or acceleration
-      can be found from its trajectory.
+    params:
+      vars:
+        title: Position XY 1a
+      part1:
+        ans1:
+          value: At $x = 0$, the particle's instantaneous velocity points in either
+            the $\hat{\imath}$ or the $-\hat{\imath}$ direction.
+        ans2:
+          value: At $x = 0$, the particle's instantaneous velocity points in either
+            the $\hat{\jmath}$ or the $-\hat{\jmath}$ direction.
+        ans3:
+          value: At $x = 0$, the particle's instantaneous acceleration is zero.
+        ans4:
+          value: At $x = 0$, the particle's instantaneous acceleration non-zero.
+        ans5:
+          value: No information about the particle's velocity or acceleration can
+            be found from its trajectory.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -52,11 +58,11 @@ A particle follows the trajectory shown in the figure without stopping along it'
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

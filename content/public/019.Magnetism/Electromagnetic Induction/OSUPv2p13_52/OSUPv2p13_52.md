@@ -48,21 +48,26 @@ part2:
     blank: true
 myst:
   substitutions:
-    params_vars_title: Uniformly Decreasing Magnetic Field
-    params_r: '5'
-    params_B: '1.5'
-    params_t: '10'
-    params_part2_ans1_value: Clockwise
-    params_part2_ans2_value: Counterclockwise
+    params:
+      vars:
+        title: Uniformly Decreasing Magnetic Field
+      r: '10'
+      B: '3.5'
+      t: '20'
+      part2:
+        ans1:
+          value: Clockwise
+        ans2:
+          value: Counterclockwise
 ---
-# {{ params_vars_title }}
-The magnetic field at all points within the cylindrical region whose cross-section is indicated in the accompanying figure starts at magnetic field of {{params_B }} $\textrm{ T}$ and decreases uniformly to zero in {{params_t }}  $\textrm{ s}$.
+# {{ params.vars.title }}
+The magnetic field at all points within the cylindrical region whose cross-section is indicated in the accompanying figure starts at magnetic field of {{params.B }} $\textrm{ T}$ and decreases uniformly to zero in {{params.t }}  $\textrm{ s}$.
 
 <img src="Fig13_52.png">
 
 ## Part 1
 
-What is the magnitude of the electric field when $r$, the distance from the geometric center of the region, is ${{params_r }} \textrm{ cm}$?
+What is the magnitude of the electric field when $r$, the distance from the geometric center of the region, is ${{params.r }} \textrm{ cm}$?
 
 ### Answer Section
 
@@ -74,15 +79,8 @@ What is the direction of this electric field?
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
 
 ## Attribution
 

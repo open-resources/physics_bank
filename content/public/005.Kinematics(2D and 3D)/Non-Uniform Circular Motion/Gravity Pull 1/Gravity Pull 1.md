@@ -35,22 +35,24 @@ part1:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_title: Gravity Pull
-    params_M: 8.923
-    params_R: 3734.0
-    params_d: 11.0
-    params_d1: 6.4
-    params_v0: 3000.0
+    params:
+      vars:
+        title: Gravity Pull
+      M: 8.708
+      R: 6314.0
+      d: 33.0
+      d1: 29.0
+      v0: 1600.0
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Gravity Pull.png" width = 800> 
 
-There is an asteroid flying in space. At $t = 0 \ \rm{s}$ , it travels at a speed of $v_0 = {{ params_v0 }} \ \rm{m/s}$ and a distance $d = {{ params_d }} \ \rm{km}$ away from the planet's surface as shown. The planet has a radius of $R = {{ params_R }}\ \rm{km}$ and mass $M = {{ params_M }} \times 10^{25}\ \rm{kg}$. <br>
+There is an asteroid flying in space. At $t = 0 \ \rm{s}$ , it travels at a speed of $v_0 = {{ params.v0 }} \ \rm{m/s}$ and a distance $d = {{ params.d }} \ \rm{km}$ away from the planet's surface as shown. The planet has a radius of $R = {{ params.R }}\ \rm{km}$ and mass $M = {{ params.M }} \times 10^{25}\ \rm{kg}$. <br>
 $G = 6.67 \times 10^{-11} \ \rm{m^3. kg^{-1}. s^{-2}}$
 
 ## Part 1
 
-Find the asteroid's speed when it is ${{ params_d1 }}\ \rm{km}$  away from the surface.
+Find the asteroid's speed when it is ${{ params.d1 }}\ \rm{km}$  away from the surface.
 
 ### Answer Section
 

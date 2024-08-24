@@ -30,15 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Acceleration in Cartesian Coordinates
-    params_part1_ans1_value: ${\bf{a}} = \ddot{x}{\bf{i}} + \ddot{y}{\bf{j}} + \ddot{z}{\bf{k}}$
-    params_part1_ans2_value: ${\bf{a}} = \ddot{z}{\bf{i}} + \ddot{x}{\bf{j}} + \ddot{y}{\bf{k}}$
-    params_part1_ans3_value: ${\bf{a}} = \dot{y}.\dot{z}{\bf{i}} + \dot{z}.\dot{x}{\bf{j}}
-      + \dot{x}.\dot{y}{\bf{k}}$
-    params_part1_ans4_value: ${\bf{a}} = \ddot{x}^2{\bf{i}} + \ddot{y}^2{\bf{j}} +
-      \ddot{z}^2{\bf{k}}$
+    params:
+      vars:
+        title: Acceleration in Cartesian Coordinates
+      part1:
+        ans1:
+          value: ${\bf{a}} = \ddot{x}{\bf{i}} + \ddot{y}{\bf{j}} + \ddot{z}{\bf{k}}$
+        ans2:
+          value: ${\bf{a}} = \ddot{z}{\bf{i}} + \ddot{x}{\bf{j}} + \ddot{y}{\bf{k}}$
+        ans3:
+          value: ${\bf{a}} = \dot{y}.\dot{z}{\bf{i}} + \dot{z}.\dot{x}{\bf{j}} + \dot{x}.\dot{y}{\bf{k}}$
+        ans4:
+          value: ${\bf{a}} = \ddot{x}^2{\bf{i}} + \ddot{y}^2{\bf{j}} + \ddot{z}^2{\bf{k}}$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -46,10 +51,10 @@ When using Cartesian coordinates for space curvilinear motion the expression for
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

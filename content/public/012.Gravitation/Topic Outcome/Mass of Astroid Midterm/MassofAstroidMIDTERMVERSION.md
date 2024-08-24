@@ -35,13 +35,15 @@ part1:
     suffix: $\rm{kg}$
 myst:
   substitutions:
-    params_vars_title: Gravity at Different Heights
-    params_vars_units: "$\rm{m/s^2}$"
-    params_h: 2026
-    params_W: 1902
+    params:
+      vars:
+        title: Gravity at Different Heights
+        units: "$\rm{m/s^2}$"
+      h: 1227
+      W: 1772
 ---
-# {{ params_vars_title }}
-An asteroid is captured in space by a shuttle crew, looking for rare earth metals. The shuttle is orbiting earth at an altitude of $h = {{ params_h }} \ \rm{mi}$ above the surface of the earth. When the crew weighs the asteroid, it comes up as $W = {{ params_W }}$ $\rm{lb}$.
+# {{ params.vars.title }}
+An asteroid is captured in space by a shuttle crew, looking for rare earth metals. The shuttle is orbiting earth at an altitude of $h = {{ params.h }} \ \rm{mi}$ above the surface of the earth. When the crew weighs the asteroid, it comes up as $W = {{ params.W }}$ $\rm{lb}$.
 Take the radius of the earth to be $R\_{earth} = 3,959 \ \rm{mi}$. $1 \ \rm{slug} = 14.59 \ \rm{kg}$
 
 ## Part 1
@@ -50,7 +52,7 @@ What is the mass of the asteroid in $\rm{kg}$?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

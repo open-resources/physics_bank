@@ -52,17 +52,19 @@ part3:
     suffix: $ft$
 myst:
   substitutions:
-    params_vars_title: Bottle From Car
-    params_vars_units: ft
-    params_z0: 1742
-    params_y0: 983
-    params_vx0: 100
-    params_vy0: 52
+    params:
+      vars:
+        title: Bottle From Car
+        units: ft
+      z0: 1549
+      y0: 1332
+      vx0: 134
+      vy0: 32
 ---
-# {{ params_vars_title }}
-A reckless driver speeds around a highway corner on the edge of a cliff, ${{params_z0}}ft$ above the ground, which has a radius of R = ${{params_y0}}ft$.
-Their speed is constant at ${{params_vx0}}ft/s$.
-As they pass the edge of the corner, they toss out an empty can, with a velocity of ${{params_vy0}}ft/s$ relative to the car.
+# {{ params.vars.title }}
+A reckless driver speeds around a highway corner on the edge of a cliff, ${{params.z0}}ft$ above the ground, which has a radius of R = ${{params.y0}}ft$.
+Their speed is constant at ${{params.vx0}}ft/s$.
+As they pass the edge of the corner, they toss out an empty can, with a velocity of ${{params.vy0}}ft/s$ relative to the car.
 Calculate the coordinates of the point of impact, neglect air resistance.
 
 <img src="L9Q2.png" width=400>

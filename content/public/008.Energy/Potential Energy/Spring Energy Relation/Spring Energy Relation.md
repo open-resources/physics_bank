@@ -30,14 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Spring Energy Relation
-    params_part1_ans1_value: Proportional to the square of the stretch of the spring.
-    params_part1_ans2_value: Proportional to the stretch of the spring.
-    params_part1_ans3_value: Inversely proportional to the square of the stretch of
-      the spring.
-    params_part1_ans4_value: Inversely proportional to the stretch of the spring.
+    params:
+      vars:
+        title: Spring Energy Relation
+      part1:
+        ans1:
+          value: Proportional to the square of the stretch of the spring.
+        ans2:
+          value: Proportional to the stretch of the spring.
+        ans3:
+          value: Inversely proportional to the square of the stretch of the spring.
+        ans4:
+          value: Inversely proportional to the stretch of the spring.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -45,10 +51,10 @@ The work done in stretching a spring an amount $x$ is
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

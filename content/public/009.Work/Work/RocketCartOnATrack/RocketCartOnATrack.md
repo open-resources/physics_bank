@@ -59,17 +59,19 @@ part4:
     suffix: $\rm{kJ}$
 myst:
   substitutions:
-    params_vars_title: Rocket Cart on a Track
-    params_nu: 0.24
-    params_F: 2.27
-    params_m: 116
-    params_t: 3
+    params:
+      vars:
+        title: Rocket Cart on a Track
+      nu: 0.22
+      F: 2.03
+      m: 112
+      t: 3
 ---
-# {{ params_vars_title }}
-A ${{params_m}} \ \rm{kg}$ cart uses rocket propulsion to accelerate on a track.
-The rockets are known to deliver ${{params_F}} \ \rm{kN}$ of thrust total.
-The kinetic friction coefficient is ${{params_nu}}$.
-The cart begins at rest, and the rockets are on for ${{params_t}} \ \rm{s}$.
+# {{ params.vars.title }}
+A ${{params.m}} \ \rm{kg}$ cart uses rocket propulsion to accelerate on a track.
+The rockets are known to deliver ${{params.F}} \ \rm{kN}$ of thrust total.
+The kinetic friction coefficient is ${{params.nu}}$.
+The cart begins at rest, and the rockets are on for ${{params.t}} \ \rm{s}$.
 
 <img src="RocketOnATrack.png" width=400 alt="Rockets mounted on a cart are pushing it forward on a track." >
 

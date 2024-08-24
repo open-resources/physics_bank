@@ -43,18 +43,20 @@ part2:
     suffix: N
 myst:
   substitutions:
-    params_vars_title: Slider in a Rotating Tube
-    params_m: 0.43
-    params_w: 8
-    params_wdot: -5
-    params_r: 0.55
-    params_rdot: -3.6
-    params_rddot: 1.0
+    params:
+      vars:
+        title: Slider in a Rotating Tube
+      m: 0.19
+      w: 9
+      wdot: -10
+      r: 0.61
+      rdot: -2.8
+      rddot: 2.3
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Slider in a rotating Tube.png" alt="A vertical hollow tube rotating about its vertical axis at omega rad per second is connected to a horizontal hollow tube in which a slider P moves under control of a string. The distance from the slider to the point of connection is R. The tension in the string acts downwards." width=200>
 
-The hollow tube above rotates about its vertical axis at $\omega=\dot{\theta}={{ params_w }}rad/s$ and $\dot{\omega}=\ddot{\theta}={{ params_wdot }}rad/s^2$. A small ${{ params_m }}kg$ slider P moves inside the horizontal portion under the control of a string which is being pulled out the bottom of the tube. If $r= {{ params_r}}m$, $\dot{r}= {{ params_rdot }}m/s$,and $\ddot{r}={{params_rddot}}m/s^2$, Determine the tension $T$ in the string and the magnitude of the horizontal force $F\_{\theta}$ exerted on the tube by the slider.
+The hollow tube above rotates about its vertical axis at $\omega=\dot{\theta}={{ params.w }}rad/s$ and $\dot{\omega}=\ddot{\theta}={{ params.wdot }}rad/s^2$. A small ${{ params.m }}kg$ slider P moves inside the horizontal portion under the control of a string which is being pulled out the bottom of the tube. If $r= {{ params.r}}m$, $\dot{r}= {{ params.rdot }}m/s$,and $\ddot{r}={{params.rddot}}m/s^2$, Determine the tension $T$ in the string and the magnitude of the horizontal force $F\_{\theta}$ exerted on the tube by the slider.
 
 ## Part 1
 

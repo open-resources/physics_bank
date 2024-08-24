@@ -67,33 +67,67 @@ part8:
     blank: 'true'
 myst:
   substitutions:
-    params_vars_title: Kinematics Through Graphs
-    params_part1_ans1_value: +
-    params_part1_ans2_value: '-'
-    params_part1_ans3_value: '0'
-    params_part2_ans1_value: +
-    params_part2_ans2_value: '-'
-    params_part2_ans3_value: '0'
-    params_part3_ans1_value: +
-    params_part3_ans2_value: '-'
-    params_part3_ans3_value: '0'
-    params_part4_ans1_value: +
-    params_part4_ans2_value: '-'
-    params_part4_ans3_value: '0'
-    params_part5_ans1_value: +
-    params_part5_ans2_value: '-'
-    params_part5_ans3_value: '0'
-    params_part6_ans1_value: +
-    params_part6_ans2_value: '-'
-    params_part6_ans3_value: '0'
-    params_part7_ans1_value: +
-    params_part7_ans2_value: '-'
-    params_part7_ans3_value: '0'
-    params_part8_ans1_value: +
-    params_part8_ans2_value: '-'
-    params_part8_ans3_value: '0'
+    params:
+      vars:
+        title: Kinematics Through Graphs
+      part1:
+        ans1:
+          value: +
+        ans2:
+          value: '-'
+        ans3:
+          value: '0'
+      part2:
+        ans1:
+          value: +
+        ans2:
+          value: '-'
+        ans3:
+          value: '0'
+      part3:
+        ans1:
+          value: +
+        ans2:
+          value: '-'
+        ans3:
+          value: '0'
+      part4:
+        ans1:
+          value: +
+        ans2:
+          value: '-'
+        ans3:
+          value: '0'
+      part5:
+        ans1:
+          value: +
+        ans2:
+          value: '-'
+        ans3:
+          value: '0'
+      part6:
+        ans1:
+          value: +
+        ans2:
+          value: '-'
+        ans3:
+          value: '0'
+      part7:
+        ans1:
+          value: +
+        ans2:
+          value: '-'
+        ans3:
+          value: '0'
+      part8:
+        ans1:
+          value: +
+        ans2:
+          value: '-'
+        ans3:
+          value: '0'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Graph Manipulation.png" width = 800> 
 
 Identify what the sign of the velocity and acceleration for the different lines.

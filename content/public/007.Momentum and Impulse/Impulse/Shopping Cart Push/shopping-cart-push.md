@@ -36,28 +36,30 @@ part1:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params_vars_title: Shopping Cart Push
-    params_vars_units: m
-    params_m1: 45
-    params_m2: 16
-    params_t: 2.3
-    params_F: 488
-    params_C: 0.12
+    params:
+      vars:
+        title: Shopping Cart Push
+        units: m
+      m1: 59
+      m2: 15
+      t: 2.2
+      F: 444
+      C: 0.1
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Two teenagers are playing with a shopping cart in a parking lot.
-One teenager begins pushing their ${{ params_m1 }} \  \rm{kg}$ friend on the ${{ params_m2 }} \ \rm{kg}$ cart with a maximum force of $F\_{max} = {{ params_F }} \ \rm{N}$.
-The magnitude of the force decreases linearly to $0 \ \rm{N}$ until the cart is released after ${{ params_t }} \ \rm{s}$.
+One teenager begins pushing their ${{ params.m1 }} \  \rm{kg}$ friend on the ${{ params.m2 }} \ \rm{kg}$ cart with a maximum force of $F\_{max} = {{ params.F }} \ \rm{N}$.
+The magnitude of the force decreases linearly to $0 \ \rm{N}$ until the cart is released after ${{ params.t }} \ \rm{s}$.
 
 ## Question Text
 
-If the rolling resistance coefficient of the cart is $C\_{rr} = {{ params_C }}$, how far does the cart travel from release?
+If the rolling resistance coefficient of the cart is $C\_{rr} = {{ params.C }}$, how far does the cart travel from release?
 
 Note that the rolling resistance force is analogous to the force of friction, where $F\_{rr}$ = $C\_{rr}$$F_N$ and acts in the direction opposite of motion.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

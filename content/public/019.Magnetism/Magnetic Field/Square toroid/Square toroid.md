@@ -41,31 +41,23 @@ part1:
     suffix: $\rm\ T$
 myst:
   substitutions:
-    params_vars_title: Square toroid
-    params_N: '434'
-    params_d: '4.0'
-    params_r: '28'
-    params_I: '2.0'
+    params:
+      vars:
+        title: Square toroid
+      N: '464'
+      d: '2.6'
+      r: '28'
+      I: '2.2'
 ---
-# {{ params_vars_title }}
-A toroid with a square cross section {{ params_d }}$\textrm{ cm}\times${{ params_d }}$\textrm{ cm}$ has an inner radius of {{ params_r }}$\textrm{ cm}$.
-It is wound with {{ params_N }} turns of wire, and it carries a current of {{ params_I }}$\textrm{ A}$.
+# {{ params.vars.title }}
+A toroid with a square cross section {{ params.d }}$\textrm{ cm}\times${{ params.d }}$\textrm{ cm}$ has an inner radius of {{ params.r }}$\textrm{ cm}$.
+It is wound with {{ params.N }} turns of wire, and it carries a current of {{ params.I }}$\textrm{ A}$.
 
 ## Question Text
 
 What is the strength of the magnetic field at the centre of the square cross section?
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$B=$ {{ correct_answers.part1_ans_str }} $\rm\ T$
 
 ## Attribution
 

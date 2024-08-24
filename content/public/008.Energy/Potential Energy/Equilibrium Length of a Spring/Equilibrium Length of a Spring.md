@@ -33,12 +33,14 @@ part1:
     suffix: m
 myst:
   substitutions:
-    params_vars_title: Equilibrium Length of a Spring
-    params_vars_units: J
-    params_Ux: $4x^2 - 12x + 39$
+    params:
+      vars:
+        title: Equilibrium Length of a Spring
+        units: J
+      Ux: $7x^2 - 11x - 48$
 ---
-# {{ params_vars_title }}
-The potential energy of a spring is given by $U(x) = (${{ params_Ux }}$) J$ if $x$ is given in metres.
+# {{ params.vars.title }}
+The potential energy of a spring is given by $U(x) = (${{ params.Ux }}$) J$ if $x$ is given in metres.
 
 ## Question Text
 
@@ -46,7 +48,7 @@ What is the equilibrium length of the spring?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

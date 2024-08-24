@@ -60,9 +60,11 @@ part5:
     directory: clientFilesQuestion
 myst:
   substitutions:
-    params_vars_title: Hawk and Squirrel
+    params:
+      vars:
+        title: Hawk and Squirrel
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A hawk glides in a straight line at constant speed without descending with a squirrel grasped in its talons from time $t_0$ until it accidentally releases the squirrel at time $t_1$. The hawk continues to glide in the same direction at constant speed while the squirrel hits the ground at time $t_2$.
 
 Representing the hawk in the particle model as a filled circle, and the squirrel as an open circle, and neglecting air resistance:

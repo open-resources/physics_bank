@@ -69,62 +69,64 @@ part5:
     suffix: $J$
 myst:
   substitutions:
-    params_vars_name1: Mateo
-    params_vars_name2: Savannah
-    params_vars_title: A Flying Arrow
-    params_vars_unit1: $kg\cdot m/s$
-    params_vars_unit2: $J$
-    params_vars_unit3: $m/s$
-    params_m: 0.282
-    params_v_x: 78.6
-    params_x1: 7.61
-    params_x2: 18.5
+    params:
+      vars:
+        name1: Aliyah
+        name2: Ximena
+        title: A Flying Arrow
+        unit1: $kg\cdot m/s$
+        unit2: $J$
+        unit3: $m/s$
+      m: 0.325
+      v_x: -76.2
+      x1: 6.67
+      x2: 16.2
 ---
-# {{ params_vars_title }}
-{{ params_vars_name1 }} and {{ params_vars_name2 }} watch an arrow fly past them.
-The arrow has mass $m = $ {{ params_m }} $kg$.
-{{ params_vars_name1 }} is sitting on a stump and sees the arrow move with velocity $v_x = $ {{ params.v_x }} $m/s$.
-{{ params_vars_name1 }} also notes that {{ params_vars_name2 }} is riding a horse and measures {{ params_vars_name2 }}'s position to be $x(t) = $ {{ params_x1 }} $m$ + ({{ params_x2 }} $m/s$) $t$, where $t$ is time measured in seconds.
+# {{ params.vars.title }}
+{{ params.vars.name1 }} and {{ params.vars.name2 }} watch an arrow fly past them.
+The arrow has mass $m = $ {{ params.m }} $kg$.
+{{ params.vars.name1 }} is sitting on a stump and sees the arrow move with velocity $v_x = $ {{ params.v_x }} $m/s$.
+{{ params.vars.name1 }} also notes that {{ params.vars.name2 }} is riding a horse and measures {{ params.vars.name2 }}'s position to be $x(t) = $ {{ params.x1 }} $m$ + ({{ params.x2 }} $m/s$) $t$, where $t$ is time measured in seconds.
 
 ## Part 1
 
-According to {{ params_vars_name1 }}, what is the arrow's momentum?
+According to {{ params.vars.name1 }}, what is the arrow's momentum?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_unit1 }}.
+Please enter in a numeric value in {{ params.vars.unit1 }}.
 
 ## Part 2
 
-According to {{ params_vars_name1 }}, what is the arrow's kinetic energy?
+According to {{ params.vars.name1 }}, what is the arrow's kinetic energy?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_unit2 }}.
+Please enter in a numeric value in {{ params.vars.unit2 }}.
 
 ## Part 3
 
-According to {{ params_vars_name2 }}, what is the arrow's velocity?
+According to {{ params.vars.name2 }}, what is the arrow's velocity?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_unit3 }}.
+Please enter in a numeric value in {{ params.vars.unit3 }}.
 
 ## Part 4
 
-According to {{ params_vars_name2 }}, what is the arrow's momentum?
+According to {{ params.vars.name2 }}, what is the arrow's momentum?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_unit1 }}.
+Please enter in a numeric value in {{ params.vars.unit1 }}.
 
 ## Part 5
 
-According to {{ params_vars_name2 }}, what is the arrow's kinetic energy?
+According to {{ params.vars.name2 }}, what is the arrow's kinetic energy?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_unit2 }}.
+Please enter in a numeric value in {{ params.vars.unit2 }}.
 
 ## Attribution
 

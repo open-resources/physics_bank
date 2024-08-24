@@ -30,19 +30,27 @@ part1:
     fixed-order: true
 myst:
   substitutions:
-    params_vars_title: SHO Kinetic Energy Graph
-    params_part1_ans1_value: Figure A
-    params_part1_ans1_feedback: K should be zero at t = 2s
-    params_part1_ans2_value: Figure B
-    params_part1_ans2_feedback: K should be zero at t = 2s
-    params_part1_ans3_value: Figure C
-    params_part1_ans3_feedback: Great! You got it.
-    params_part1_ans4_value: Figure D
-    params_part1_ans4_feedback: K cannot be negative!
-    params_part1_ans5_value: Figure E
-    params_part1_ans5_feedback: K should be zero at t = 2s
+    params:
+      vars:
+        title: SHO Kinetic Energy Graph
+      part1:
+        ans1:
+          value: Figure A
+          feedback: K should be zero at t = 2s
+        ans2:
+          value: Figure B
+          feedback: K should be zero at t = 2s
+        ans3:
+          value: Figure C
+          feedback: Great! You got it.
+        ans4:
+          value: Figure D
+          feedback: K cannot be negative!
+        ans5:
+          value: Figure E
+          feedback: K should be zero at t = 2s
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -52,11 +60,11 @@ Identify which of the below graphs represents the kinetic energy as a function o
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

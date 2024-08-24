@@ -29,14 +29,22 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Math Diagnostic01
-    params_part1_ans1_value: 1.9E61
-    params_part1_ans2_value: 8.8E3
-    params_part1_ans3_value: 415.95885165947254
-    params_part1_ans4_value: '9.7E-42'
-    params_part1_ans5_value: Don't Know
+    params:
+      vars:
+        title: Math Diagnostic01
+      part1:
+        ans1:
+          value: 2.3E46
+        ans2:
+          value: 4.5E7
+        ans3:
+          value: 8731.800418368457
+        ans4:
+          value: '4.2E-83'
+        ans5:
+          value: Don't Know
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The largest of the following numbers is:
 
 *Note that you should read **E** as $ \times 10$^, or "times ten to the power of".*
@@ -45,11 +53,11 @@ The largest of the following numbers is:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

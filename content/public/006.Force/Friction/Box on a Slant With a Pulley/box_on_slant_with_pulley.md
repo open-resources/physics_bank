@@ -50,15 +50,17 @@ part3:
     suffix: $\rm{kg}$
 myst:
   substitutions:
-    params_vars_title: Box on a Slant with a Pulley
-    params_angl: 16
-    params_coef: 0.2
-    params_mass: 1
+    params:
+      vars:
+        title: Box on a Slant with a Pulley
+      angl: 30
+      coef: 0.8
+      mass: 7
 ---
-# {{ params_vars_title }}
-The figure shows a block of mass $m_s$ resting on a $\theta = {{params_angl}}^\circ$ slope.
-The coefficient of static friction between the block and the sloped surface is $\mu_s = {{params_coef}}$.
-The block on the slope is connected to a hanging block of mass $m_h = {{params_mass}} \rm{kg}$ via a massless string that passes over a massless, frictionless pulley. Assume $g = 9.81 \rm{m/s^2}$.
+# {{ params.vars.title }}
+The figure shows a block of mass $m_s$ resting on a $\theta = {{params.angl}}^\circ$ slope.
+The coefficient of static friction between the block and the sloped surface is $\mu_s = {{params.coef}}$.
+The block on the slope is connected to a hanging block of mass $m_h = {{params.mass}} \rm{kg}$ via a massless string that passes over a massless, frictionless pulley. Assume $g = 9.81 \rm{m/s^2}$.
 
 <img src="Q4.png" width=400 alt = "A box sits on a ramp that is at an angle theta from the horizontal. The box is connected by a string to another mass that hangs freely from a pulley.">
 

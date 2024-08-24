@@ -44,14 +44,16 @@ part2:
     suffix: $\rm{N}$
 myst:
   substitutions:
-    params_vars_title: Groceries up the Stairs
-    params_h: 2.54
-    params_m1: 93
-    params_m2: 13
-    params_t: 111
+    params:
+      vars:
+        title: Groceries up the Stairs
+      h: 3.28
+      m1: 97
+      m2: 15
+      t: 89
 ---
-# {{ params_vars_title }}
-A ${{params_m1}} \ \rm{kg}$ delivery driver is carrying ${{params_m2}} \ \rm{kg}$ groceries up a ${{params_h}} \ \rm{m}$ flight of stairs.
+# {{ params.vars.title }}
+A ${{params.m1}} \ \rm{kg}$ delivery driver is carrying ${{params.m2}} \ \rm{kg}$ groceries up a ${{params.h}} \ \rm{m}$ flight of stairs.
 
 ## Part 1
 
@@ -67,7 +69,7 @@ Please enter in a numeric value in J.
 <img src="GroceriesUpTheStairs.png" width=600 alt="A man falling down a flight of stairs of height h." >
 
 At the top of the stairs, the man slips, drops his groceries and falls directly to the bottom floor.
-Upon impact, the man decelerates to $0 \ \rm{m/s}$ in ${{params_t}} \ \rm{ms}$.
+Upon impact, the man decelerates to $0 \ \rm{m/s}$ in ${{params.t}} \ \rm{ms}$.
 With what average force does the man hit the ground?
 
 ### Answer Section

@@ -34,22 +34,35 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Collision of Light and Heavy Object
-    params_part1_ans1_value: lead sphere
-    params_part1_ans2_value: aluminium sphere
-    params_part1_ans3_value: both spheres experience the same magnitude of change
-      in momentum
-    params_part1_ans4_value: it depends on if the collision was elastic or inelastic
-    params_part1_ans5_value: it depends on whether the collision was a direct hit
-      or a glancing blow
-    params_part2_ans1_value: lead sphere
-    params_part2_ans2_value: aluminium sphere
-    params_part2_ans3_value: both spheres experience the same magnitude of acceleration
-    params_part2_ans4_value: it depends on if the collision was elastic or inelastic
-    params_part2_ans5_value: it depends on whether the collision was a direct hit
-      or a glancing blow
+    params:
+      vars:
+        title: Collision of Light and Heavy Object
+      part1:
+        ans1:
+          value: lead sphere
+        ans2:
+          value: aluminium sphere
+        ans3:
+          value: both spheres experience the same magnitude of change in momentum
+        ans4:
+          value: it depends on if the collision was elastic or inelastic
+        ans5:
+          value: it depends on whether the collision was a direct hit or a glancing
+            blow
+      part2:
+        ans1:
+          value: lead sphere
+        ans2:
+          value: aluminium sphere
+        ans3:
+          value: both spheres experience the same magnitude of acceleration
+        ans4:
+          value: it depends on if the collision was elastic or inelastic
+        ans5:
+          value: it depends on whether the collision was a direct hit or a glancing
+            blow
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A lead sphere (heavy) collides with an aluminum sphere (light).
 
 ## Part 1
@@ -58,11 +71,11 @@ As a result of the collision, which sphere's change in momentum has the greater 
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Part 2
 
@@ -70,11 +83,11 @@ As a result of the collision, which sphere undergoes an acceleration of greater 
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-- {{ params_part2_ans3_value }}
-- {{ params_part2_ans4_value }}
-- {{ params_part2_ans5_value }}
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
+- {{ params.part2.ans4.value }}
+- {{ params.part2.ans5.value }}
 
 ## Attribution
 

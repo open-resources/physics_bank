@@ -33,17 +33,19 @@ part1:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params_vars_title: Relative Highway
-    params_v1: 10
-    params_v3: 6
-    params_d: 4
-    params_t: 1
+    params:
+      vars:
+        title: Relative Highway
+      v1: 12
+      v3: 8
+      d: 5
+      t: 2
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Three cars are driving on different lanes on a highway.
-At $t = 0 \ \rm{s}$, Car 1 is in the front travelling at a constant speed of ${{params_v1}} \ \rm{m/s}$.
-Car 2 is ${{params_d}} \ \rm{m}$ behind Car 1 and has a constant speed such that it will catch Car 1 in ${{params_t}} \ \rm{s}$.
-Car 3 is in between them travelling at a constant speed of ${{params_v3}}  \ \rm{m/s}$.
+At $t = 0 \ \rm{s}$, Car 1 is in the front travelling at a constant speed of ${{params.v1}} \ \rm{m/s}$.
+Car 2 is ${{params.d}} \ \rm{m}$ behind Car 1 and has a constant speed such that it will catch Car 1 in ${{params.t}} \ \rm{s}$.
+Car 3 is in between them travelling at a constant speed of ${{params.v3}}  \ \rm{m/s}$.
 
 ## Part 1
 

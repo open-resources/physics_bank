@@ -125,20 +125,22 @@ part7:
     custom-format: .3g
 myst:
   substitutions:
-    params_vars_title: Power and Currents in a Three-Loop Circuit
-    params_R1: '5.00'
-    params_R2: '2.00'
-    params_R3: '4.00'
-    params_R4: '8.00'
-    params_V1: '13.0'
-    params_V2: '10.00'
+    params:
+      vars:
+        title: Power and Currents in a Three-Loop Circuit
+      R1: '7.00'
+      R2: '6.00'
+      R3: '9.00'
+      R4: '7.00'
+      V1: '20.0'
+      V2: '8.00'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Consider the circuit shown below.
 
 <img src="fig_OSUPv2p10_41.png" width=400>
 
-It is known that $V_1 = {{ params_V1 }}\rm\ V$, $V_2 = {{ params_V2 }}\rm\ V$, $R_1 = {{ params_R1 }}\rm\ \Omega$, $R_2 = {{ params_R2 }}\rm\ \Omega$, $R_3 = {{ params_R3 }}\rm\ \Omega$, and $R_4 = {{ params_R4 }}\rm\ \Omega$.
+It is known that $V_1 = {{ params.V1 }}\rm\ V$, $V_2 = {{ params.V2 }}\rm\ V$, $R_1 = {{ params.R1 }}\rm\ \Omega$, $R_2 = {{ params.R2 }}\rm\ \Omega$, $R_3 = {{ params.R3 }}\rm\ \Omega$, and $R_4 = {{ params.R4 }}\rm\ \Omega$.
 
 ## Part 1
 
@@ -195,26 +197,6 @@ Find the total power dissipated by the circuit.
 ### Answer Section
 
 Please enter in a numeric value in $\rm\ W$.
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}<br>
-{{ feedback.part2_ans }}<br>
-{{ feedback.part3_ans }}<br>
-{{ feedback.part4_ans }}<br>
-{{ feedback.part5_ans }}<br>
-{{ feedback.part6_ans }}<br>
-{{ feedback.part7_ans }}
-
-### pl-answer-panel
-
-$I_1=$ {{ correct_answers.part1_ans_str }} $\rm\ A$<br>
-$I_2=$ {{ correct_answers.part2_ans_str }} $\rm\ A$<br>
-$I_3=$ {{ correct_answers.part3_ans_str }} $\rm\ A$<br>
-$I_4=$ {{ correct_answers.part4_ans_str }} $\rm\ A$<br>
-$I_5=$ {{ correct_answers.part5_ans_str }} $\rm\ A$<br>
-$P\_{\rm in}=$ {{ correct_answers.part6_ans_str }} $\rm\ W$<br>
-$P\_{\rm out}=$ {{ correct_answers.part7_ans_str }} $\rm\ W$
 
 ## Attribution
 

@@ -43,22 +43,24 @@ part2:
     suffix: $\rm{m/s^2}$
 myst:
   substitutions:
-    params_vars_title: Particle Curvilinear Motion
-    params_vars_units: m/s
-    params_m: 3
-    params_n: 6
-    params_r: 8
-    params_p: 1
-    params_t: 3
+    params:
+      vars:
+        title: Particle Curvilinear Motion
+        units: m/s
+      m: 5
+      n: 3
+      r: 6
+      p: 4
+      t: 1
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A particle moves in a curvilinear motion according to the following equations:
 
-$x = {{ params_m }}t^2 - {{ params_n }}t$
+$x = {{ params.m }}t^2 - {{ params.n }}t$
 
-$y = {{ params_r }}t^2 - \frac{t^3}{ {{ params_p }} }$
+$y = {{ params.r }}t^2 - \frac{t^3}{ {{ params.p }} }$
 
-Find the following at $t = {{ params_t }} \ \rm{s}$
+Find the following at $t = {{ params.t }} \ \rm{s}$
 
 ## Part 1
 
@@ -66,7 +68,7 @@ The velocity $v$
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
@@ -74,7 +76,7 @@ The acceleration $a$
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

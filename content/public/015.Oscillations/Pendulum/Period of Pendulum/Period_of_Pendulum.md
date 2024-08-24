@@ -34,14 +34,16 @@ part1:
     comparison: relabs
 myst:
   substitutions:
-    params_vars_title: Period of Pendulum
-    params_L: 0.56
+    params:
+      vars:
+        title: Period of Pendulum
+      L: 1.34
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
-What is the period of a {{ params_L }}-$\rm{m}$-long pendulum?
+What is the period of a {{ params.L }}-$\rm{m}$-long pendulum?
 
 ### Answer Section
 

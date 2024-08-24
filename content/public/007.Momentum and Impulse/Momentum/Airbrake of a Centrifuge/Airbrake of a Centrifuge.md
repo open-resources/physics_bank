@@ -34,22 +34,24 @@ part1:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_title: Airbrake of a Centrifuge
-    params_vars_units: "$\rm{m/s}$"
-    params_v: 33
-    params_N: 2
-    params_M: 618
-    params_C: 2.207
-    params_r: 3.76
-    params_t: 3.83
-    params_mass: 214
+    params:
+      vars:
+        title: Airbrake of a Centrifuge
+        units: "$\rm{m/s}$"
+      v: 88
+      N: 2
+      M: 912
+      C: 1.48
+      r: 3.93
+      t: 2.95
+      mass: 355
 ---
-# {{ params_vars_title }}
-An important part of astronaut training is force resistance training. It is done in a large centrifuge, with radius $r = {{params_r}} \ \rm{m}$ and total mass $m = {{params_mass}} \ \rm{kg}$.
-The centrifuge cabin is accelerated to a speed $\lvert v \rvert = {{params_v}} \ \rm{m/s}$.
-When it is time to slow down the centrifuge, it is slowed down due to a constant resistive moment $M = {{params_M}} \ \rm{N.m}$ at the axle and the deployment of an airbrake that creates more air resistance such that the force is described by this equation $F = {{params_C}}t^{{{params_N}}} \ \rm{N}$.
+# {{ params.vars.title }}
+An important part of astronaut training is force resistance training. It is done in a large centrifuge, with radius $r = {{params.r}} \ \rm{m}$ and total mass $m = {{params.mass}} \ \rm{kg}$.
+The centrifuge cabin is accelerated to a speed $\lvert v \rvert = {{params.v}} \ \rm{m/s}$.
+When it is time to slow down the centrifuge, it is slowed down due to a constant resistive moment $M = {{params.M}} \ \rm{N.m}$ at the axle and the deployment of an airbrake that creates more air resistance such that the force is described by this equation $F = {{params.C}}t^{{{params.N}}} \ \rm{N}$.
 
-What is the speed of the cabin ${{params_t}}$ seconds later?
+What is the speed of the cabin ${{params.t}}$ seconds later?
 
 ## Part 1
 
@@ -57,7 +59,7 @@ What is $\lvert v \rvert$?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

@@ -103,14 +103,16 @@ part10:
     suffix: $m$
 myst:
   substitutions:
-    params_vars_title: Ballistic Launcher
-    params_dist: 22.1
-    params_vmax: 4.36
-    params_theta_1: 28.2
-    params_theta_2: 46.6
+    params:
+      vars:
+        title: Ballistic Launcher
+      dist: 24.2
+      vmax: 4.38
+      theta_1: 33.5
+      theta_2: 46.6
 ---
-# {{ params_vars_title }}
-A steel ball is fired from a ballistic launcher at different angles.  The launched ball has been found to travel from the edge of a table to land {{ params_dist }} $cm$ from the far end of the table when starting from the height of the table and launched at an angle of {{ params.theta_1 }}$^{\circ}$ above the horizontal.  When launched at {{ params.theta_2 }}$^{\circ}$, the ball easily clears the table to land on the floor.
+# {{ params.vars.title }}
+A steel ball is fired from a ballistic launcher at different angles.  The launched ball has been found to travel from the edge of a table to land {{ params.dist }} $cm$ from the far end of the table when starting from the height of the table and launched at an angle of {{ params.theta_1 }}$^{\circ}$ above the horizontal.  When launched at {{ params.theta_2 }}$^{\circ}$, the ball easily clears the table to land on the floor.
 
 You may assume that $t=0$ at the instant that the ball leaves the launcher.
 
@@ -211,7 +213,7 @@ Please enter in a symbolic answer.
 
 ## Part 7
 
-On its maximum setting, the speed of the ejected steel ball is $v\_{max} = $ {{ params_vmax }} $m/s$.
+On its maximum setting, the speed of the ejected steel ball is $v\_{max} = $ {{ params.vmax }} $m/s$.
 
 From your expression for $v\_{y,\theta^{\circ}}$, solve for the time that the ball was in the air, when the ball was launched at a {{ params.theta_1 }}$^{\circ}$ angle.
 
@@ -265,7 +267,7 @@ Please enter in a symbolic answer.
 
 ## Part 10
 
-Using your results from Part 8 and/or Part 9, estimate the total length of the table.  Note that the steel ball landed about {{ params_dist }} $cm$ from the end of the table when fired at a {{ params.theta_1 }}$^{\circ}$ angle.
+Using your results from Part 8 and/or Part 9, estimate the total length of the table.  Note that the steel ball landed about {{ params.dist }} $cm$ from the end of the table when fired at a {{ params.theta_1 }}$^{\circ}$ angle.
 
 ### Answer Section
 

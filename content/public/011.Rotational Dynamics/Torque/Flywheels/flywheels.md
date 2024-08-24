@@ -36,19 +36,21 @@ part1:
     digits: 2
 myst:
   substitutions:
-    params_vars_title: Flywheels
-    params_Rs: 38
-    params_Rl: 60
-    params_Fs: 43
+    params:
+      vars:
+        title: Flywheels
+      Rs: 26
+      Rl: 58
+      Fs: 45
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Two flywheels of negligible mass and different radii are bonded together and rotate about a common axis (see below).
 
 <img src="flywheels.png" width=400 alt="An image showing two concentric disks connected to each other and to a fixed axis through their centres. The smaller disk is pulled to the right by a rope connected to the top part of the disk. The larger disk is pulled to the left by a rope connected to the top part of the disk.">
 
 ## Part 1
 
-The smaller flywheel of radius $R_s = {{ params_Rs }} \rm{cm}$ has a cord that has a pulling force of $F_s = {{ params_Fs }} \rm{N}$ on it. What pulling force $F_l$ needs to be applied to the cord connecting the larger flywheel of radius $R_l = {{ params_Rl }} \rm{cm}$ such that the combination does not rotate?
+The smaller flywheel of radius $R_s = {{ params.Rs }} \rm{cm}$ has a cord that has a pulling force of $F_s = {{ params.Fs }} \rm{N}$ on it. What pulling force $F_l$ needs to be applied to the cord connecting the larger flywheel of radius $R_l = {{ params.Rl }} \rm{cm}$ such that the combination does not rotate?
 
 ### Answer Section
 

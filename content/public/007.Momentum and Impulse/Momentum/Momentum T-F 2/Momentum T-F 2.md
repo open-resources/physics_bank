@@ -30,11 +30,16 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Momentum T-F 2
-    params_part1_ans1_value: 'True'
-    params_part1_ans2_value: 'False'
+    params:
+      vars:
+        title: Momentum T-F 2
+      part1:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -42,8 +47,8 @@ The momentum of a particle is its mass multiplied by its velocity.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Attribution
 

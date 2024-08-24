@@ -50,17 +50,19 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Power Transmission To Dorm
-    params_I_ref: 4
-    params_V_ref: 139
-    params_P_bulb: 77
-    params_P_light: 29
-    params_P_other: 1
-    params_V_pp: 139
-    params_d_pp: 8
-    params_Al_d: 8.966
+    params:
+      vars:
+        title: Power Transmission To Dorm
+      I_ref: 5
+      V_ref: 141
+      P_bulb: 84
+      P_light: 39
+      P_other: 5
+      V_pp: 141
+      d_pp: 5
+      Al_d: 8.596
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A physics student has a single-occupancy dorm room.
 The student has a small refrigerator that runs with a current of ${{params.I_ref}}\textrm{ A}$ and a voltage of ${{params.V_ref}}\textrm{ V}$, a lamp that contains a ${{params.P_bulb}}\textrm{ W}$ bulb, an overhead light with a ${{params.P_light}}\textrm{ W}$ bulb, and various other small devices adding up to ${{params.P_other}}\textrm{ W}$.
 
@@ -79,11 +81,6 @@ What would be the result if the power company delivered the electric power at ${
 ### Answer Section
 
 Please enter a numeric value.
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-{{ feedback.part1_ans }}
 
 ## Attribution
 

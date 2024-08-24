@@ -59,14 +59,16 @@ part4:
     directory: clientFilesQuestion
 myst:
   substitutions:
-    params_vars_title: Throwing a Frisbee
-    params_dw: 6
-    params_dt: 0.1
-    params_m: 0.152
-    params_d: 0.49
+    params:
+      vars:
+        title: Throwing a Frisbee
+      dw: 10
+      dt: 0.15
+      m: 0.153
+      d: 0.41
 ---
-# {{ params_vars_title }}
-As a frisbee (a flying disk) is released, it is spun so that its angular velocity increases from 0 to {{ params_dw }} $\pi \; \rm{rad/s}$ in {{ params_dt }} $\rm{s}$.
+# {{ params.vars.title }}
+As a frisbee (a flying disk) is released, it is spun so that its angular velocity increases from 0 to {{ params.dw }} $\pi \; \rm{rad/s}$ in {{ params.dt }} $\rm{s}$.
 
 ## Part 1
 
@@ -78,7 +80,7 @@ Please enter in a numeric value in $\pi\frac{\rm{rad}}{\rm{s^2}}$.
 
 ## Part 2
 
-Assuming that the frisbee is a solid disk of mass $m=$ {{ params_m }} $\rm{kg}$ and diameter $d=$ {{ params_d }} $\rm{m}$, find the moment of inertia of the frisbee about its centre.
+Assuming that the frisbee is a solid disk of mass $m=$ {{ params.m }} $\rm{kg}$ and diameter $d=$ {{ params.d }} $\rm{m}$, find the moment of inertia of the frisbee about its centre.
 
 ### Answer Section
 

@@ -29,18 +29,27 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Shooting a Steel Ball
-    params_v: 2
-    params_theta: 34
-    params_part1_ans1_value: $(2\cos(34^{\circ}), \; -2\sin(34^{\circ}))$
-    params_part1_ans2_value: $(2\cos(34^{\circ}), \;2\sin(34^{\circ}))$
-    params_part1_ans3_value: $(2\sin(34^{\circ}), \; -2\cos(34^{\circ}))$
-    params_part1_ans4_value: $(2\sin(34^{\circ}), \;2\cos(34^{\circ}))$
-    params_part1_ans5_value: $(-2\cos(34^{\circ}), \; -2\sin(34^{\circ}))$
-    params_part1_ans6_value: $(-2\sin(34^{\circ}), \;2\cos(34^{\circ}))$
+    params:
+      vars:
+        title: Shooting a Steel Ball
+      v: 5
+      theta: 48
+      part1:
+        ans1:
+          value: $(5\cos(48^{\circ}), \; -5\sin(48^{\circ}))$
+        ans2:
+          value: $(5\cos(48^{\circ}), \;5\sin(48^{\circ}))$
+        ans3:
+          value: $(5\sin(48^{\circ}), \; -5\cos(48^{\circ}))$
+        ans4:
+          value: $(5\sin(48^{\circ}), \;5\cos(48^{\circ}))$
+        ans5:
+          value: $(-5\cos(48^{\circ}), \; -5\sin(48^{\circ}))$
+        ans6:
+          value: $(-5\sin(48^{\circ}), \;5\cos(48^{\circ}))$
 ---
-# {{ params_vars_title }}
-A small steel ball is shot at {{ params_v }} $m/s$ at a {{ params_theta }}$^{\circ}$ angle above the horizontal direction and its motion is well approximated by projectile motion.
+# {{ params.vars.title }}
+A small steel ball is shot at {{ params.v }} $m/s$ at a {{ params.theta }}$^{\circ}$ angle above the horizontal direction and its motion is well approximated by projectile motion.
 
 ## Part 1
 
@@ -48,12 +57,12 @@ When the ball returns to its original height, its velocity $\overrightarrow{v} =
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
-- {{ params_part1_ans6_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
+- {{ params.part1.ans6.value }}
 
 ## Attribution
 

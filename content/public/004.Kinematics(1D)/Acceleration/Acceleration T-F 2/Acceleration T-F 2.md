@@ -30,11 +30,16 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: What is acceleration?
-    params_part1_ans1_value: Yes, the statement is accurate
-    params_part1_ans2_value: No, the statement is inaccurate
+    params:
+      vars:
+        title: What is acceleration?
+      part1:
+        ans1:
+          value: Yes, the statement is accurate
+        ans2:
+          value: No, the statement is inaccurate
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -42,8 +47,8 @@ Would you agree with this statement: The acceleration of a component in a mechan
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Attribution
 

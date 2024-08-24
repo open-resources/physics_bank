@@ -30,15 +30,21 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Conservation of Momentum Condition
-    params_part1_ans1_value: The resultant force on the particle is zero during an
-      interval of time
-    params_part1_ans2_value: The particle must originally be at rest
-    params_part1_ans3_value: The kinetic energy of the particle must be zero
-    params_part1_ans4_value: There must be a nonzero resultant force acting on the
-      particle
+    params:
+      vars:
+        title: Conservation of Momentum Condition
+      part1:
+        ans1:
+          value: The resultant force on the particle is zero during an interval of
+            time
+        ans2:
+          value: The particle must originally be at rest
+        ans3:
+          value: The kinetic energy of the particle must be zero
+        ans4:
+          value: There must be a nonzero resultant force acting on the particle
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -46,10 +52,10 @@ A sufficient condition for the momentum of a particle to be conserved during an 
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

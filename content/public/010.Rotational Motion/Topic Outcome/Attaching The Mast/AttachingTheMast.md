@@ -35,26 +35,28 @@ part1:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_title: Attaching The Mast
-    params_vars_units: m/s
-    params_v: 9
-    params_theta: 122
-    params_d1: 1
-    params_d2: 6
+    params:
+      vars:
+        title: Attaching The Mast
+        units: m/s
+      v: 5
+      theta: 126
+      d1: 2
+      d2: 4
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="AttachingTheMast.png" width=400>
 
 A common problem when assembling a mining drill is attaching the mast tower.
 A common method to attach the mast is to attach a chain to the feed cylinders and spin the mast up.
-If the feed cylinder lowers at a rate of $v_1 = {{ params_v }} \ \rm{m/s}$, then what is the angular speed the tip of the tower is moving at in the instant shown?
-The distance from the chain to the pivot tower is $d_1 = {{ params_d1 }} \ \rm{m}$, the distance from the pivot tower to the end of the mast is $d_2 = {{ params_d2 }} \ \rm{m}$, and the angle between the chain and pivot tower is $\theta = {{ params_theta }} ^{\circ}$
+If the feed cylinder lowers at a rate of $v_1 = {{ params.v }} \ \rm{m/s}$, then what is the angular speed the tip of the tower is moving at in the instant shown?
+The distance from the chain to the pivot tower is $d_1 = {{ params.d1 }} \ \rm{m}$, the distance from the pivot tower to the end of the mast is $d_2 = {{ params.d2 }} \ \rm{m}$, and the angle between the chain and pivot tower is $\theta = {{ params.theta }} ^{\circ}$
 
 ## Part 1
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

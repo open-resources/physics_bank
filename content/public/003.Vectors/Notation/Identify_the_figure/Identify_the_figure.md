@@ -31,14 +31,22 @@ part1:
     fixed-order: true
 myst:
   substitutions:
-    params_vars_title: Identify the figure
-    params_part1_ans1_value: a
-    params_part1_ans2_value: b
-    params_part1_ans3_value: c
-    params_part1_ans4_value: d
-    params_part1_ans5_value: e
+    params:
+      vars:
+        title: Identify the figure
+      part1:
+        ans1:
+          value: a
+        ans2:
+          value: b
+        ans3:
+          value: c
+        ans4:
+          value: d
+        ans5:
+          value: e
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -48,11 +56,11 @@ Which figure shows $2 \overrightarrow{A} - \overrightarrow{B}$?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

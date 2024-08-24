@@ -58,18 +58,20 @@ part4:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_title: Speed of a Clock Hand
-    params_vars_units: m/s
-    params_R: 0.25
-    params_theta: 10
-    params_alpha: 28
+    params:
+      vars:
+        title: Speed of a Clock Hand
+        units: m/s
+      R: 0.39
+      theta: 189
+      alpha: 39
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Clock.png" width=100%>
 
 It is well known that the second hand on a clock rotates at $1 \ \rm{RPM}$.
 In the picture above, an analog clock sits slanted, making it easier for a person at a desk to read.
-Take the radius of the second hand to be $R = {{ params_R }} \ \rm{m}$, $\alpha = {{ params_alpha }} ^{\circ}$, $\theta = {{ params_theta }} ^{\circ}$
+Take the radius of the second hand to be $R = {{ params.R }} \ \rm{m}$, $\alpha = {{ params.alpha }} ^{\circ}$, $\theta = {{ params.theta }} ^{\circ}$
 
 ## Part 1
 
@@ -77,7 +79,7 @@ What would the magnitude of velocity be for the end of the seconds hand?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
@@ -85,7 +87,7 @@ What would the x-component of velocity be?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 3
 
@@ -93,7 +95,7 @@ What would the y-component of velocity be?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 4
 
@@ -101,7 +103,7 @@ What would the z-component of velocity be?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

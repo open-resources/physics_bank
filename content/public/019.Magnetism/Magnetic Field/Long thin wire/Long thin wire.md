@@ -38,28 +38,20 @@ part1:
     atol: 0
 myst:
   substitutions:
-    params_vars_title: Long thin wire
-    params_B: '1.6'
-    params_d: '32'
+    params:
+      vars:
+        title: Long thin wire
+      B: '4.2'
+      d: '74'
 ---
-# {{ params_vars_title }}
-The magnitude of the megnetic field ${{ params_d }}\rm\ cm$ from a long, thin straight wire is ${{ params_B }}\rm\ \mu T$.
+# {{ params.vars.title }}
+The magnitude of the megnetic field ${{ params.d }}\rm\ cm$ from a long, thin straight wire is ${{ params.B }}\rm\ \mu T$.
 
 ## Question Text
 
 What is the current through the long wire?
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$I=$ {{ correct_answers.part1_ans_str }} $\rm\ A$
 
 ## Attribution
 

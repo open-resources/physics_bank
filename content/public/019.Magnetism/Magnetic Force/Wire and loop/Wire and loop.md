@@ -49,13 +49,20 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Wire and loop
-    params_part2_ans1_value: to the left
-    params_part2_ans2_value: to the right
-    params_part2_ans3_value: towards to the top of the screen
-    params_part2_ans4_value: towards to the bottom of the screen
+    params:
+      vars:
+        title: Wire and loop
+      part2:
+        ans1:
+          value: to the left
+        ans2:
+          value: to the right
+        ans3:
+          value: towards to the top of the screen
+        ans4:
+          value: towards to the bottom of the screen
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The inifinite, straight wire shown in the figure carries a current $I_1$.
 The rectangular loop, whose long sides are parallel to the wire, carries a current $I_2$.
 
@@ -76,10 +83,10 @@ What is the direction of the net force on the rectangular loop due to the magnet
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-- {{ params_part2_ans3_value }}
-- {{ params_part2_ans4_value }}
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
+- {{ params.part2.ans4.value }}
 
 ## Attribution
 

@@ -51,20 +51,30 @@ part2:
     sort: fixed
 myst:
   substitutions:
-    params_vars_title: Field due to parallel currents
-    params_I1: '12.5'
-    params_I2: '17.5'
-    params_r1: '5.0'
-    params_r2: '15.0'
-    params_part2_ans1_value: Out of the screen.
-    params_part2_ans2_value: Into the screen.
-    params_part2_ans3_value: Towards the top of the screen.
-    params_part2_ans4_value: Towards the bottom of the screen.
-    params_part2_ans5_value: To the right.
-    params_part2_ans6_value: To the left.
-    params_part2_ans7_value: The magnetic field is zero.
+    params:
+      vars:
+        title: Field due to parallel currents
+      I1: '15.0'
+      I2: '20.0'
+      r1: '15.0'
+      r2: '5.0'
+      part2:
+        ans1:
+          value: Out of the screen.
+        ans2:
+          value: Into the screen.
+        ans3:
+          value: Towards the top of the screen.
+        ans4:
+          value: Towards the bottom of the screen.
+        ans5:
+          value: To the right.
+        ans6:
+          value: To the left.
+        ans7:
+          value: The magnetic field is zero.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The two long, parallel wires shown in the figure carry currents in the same direction (towards the bottom of the screen).
 Note that the figure is not drawn to scale.
 
@@ -72,7 +82,7 @@ Note that the figure is not drawn to scale.
 
 ## Part 1
 
-If $I_1 = {{params_I1}}\rm\ A$, $r_1 = {{params_r1}}\rm\ cm$, $I_2 = {{params_I2}}\rm\ A$, and $r_2 = {{params_r2}}\rm\ cm$, what is the magnitude of the magnetic field at point P?
+If $I_1 = {{params.I1}}\rm\ A$, $r_1 = {{params.r1}}\rm\ cm$, $I_2 = {{params.I2}}\rm\ A$, and $r_2 = {{params.r2}}\rm\ cm$, what is the magnitude of the magnetic field at point P?
 
 ### Answer Section
 
@@ -82,17 +92,13 @@ What is the direction of the magnetic field at point P?
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-- {{ params_part2_ans3_value }}
-- {{ params_part2_ans4_value }}
-- {{ params_part2_ans5_value }}
-- {{ params_part2_ans6_value }}
-- {{ params_part2_ans7_value }}
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
+- {{ params.part2.ans4.value }}
+- {{ params.part2.ans5.value }}
+- {{ params.part2.ans6.value }}
+- {{ params.part2.ans7.value }}
 
 ## Attribution
 

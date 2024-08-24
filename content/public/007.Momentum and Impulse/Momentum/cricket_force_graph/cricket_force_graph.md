@@ -32,20 +32,28 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Momentum
-    params_part1_ans1_value: 8 $\rm{kg m/s}$
-    params_part1_ans1_feedback: Are you considering the change in momentum for the
-      cricket bat or the cricket ball?
-    params_part1_ans2_value: -8 $\rm{kg m/s}$
-    params_part1_ans2_feedback: Great! You got it.
-    params_part1_ans3_value: -16 $\rm{kg m/s}$
-    params_part1_ans3_feedback: Please check your calculation again!
-    params_part1_ans4_value: 12 $\rm{kg m/s}$
-    params_part1_ans4_feedback: Please check your calculation again!
-    params_part1_ans5_value: Cannot be found from this information.
-    params_part1_ans5_feedback: The answer can be determined by using the graph!
+    params:
+      vars:
+        title: Momentum
+      part1:
+        ans1:
+          value: 8 $\rm{kg m/s}$
+          feedback: Are you considering the change in momentum for the cricket bat
+            or the cricket ball?
+        ans2:
+          value: -8 $\rm{kg m/s}$
+          feedback: Great! You got it.
+        ans3:
+          value: -16 $\rm{kg m/s}$
+          feedback: Please check your calculation again!
+        ans4:
+          value: 12 $\rm{kg m/s}$
+          feedback: Please check your calculation again!
+        ans5:
+          value: Cannot be found from this information.
+          feedback: The answer can be determined by using the graph!
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The force that a cricket bat puts on a cricket ball as a function of time is shown in the diagram below.
 
 <img src="diagram1.png" alt = "Image is of a Force (N) vs. Time (ms) graph. From t = 0 to 10ms, it is 0N. From 10ms to 20ms, there is a linear slope from 0N to 800N. From 20ms to 30ms, there is a linear slope from 800N to 0N. From 10ms to 30ms, this shape is formed: /\. From 30ms onwards, there is 0N of force." >
@@ -56,11 +64,11 @@ The change in momentum of the cricket bat due to this collision is:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

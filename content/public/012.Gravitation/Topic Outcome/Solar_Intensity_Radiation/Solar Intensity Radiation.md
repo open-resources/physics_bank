@@ -35,9 +35,11 @@ part1:
     suffix: null
 myst:
   substitutions:
-    params_vars_title: Solar Radiation Intensity
+    params:
+      vars:
+        title: Solar Radiation Intensity
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -46,12 +48,6 @@ One of the moons of Jupiter, Europa, has shown evidence of water plumes coming f
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
 
 ## Attribution
 

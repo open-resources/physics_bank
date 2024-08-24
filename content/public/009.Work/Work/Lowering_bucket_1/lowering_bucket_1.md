@@ -43,32 +43,53 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Ximena
-    params_vars_title: Lowering a bucket - person, the rope, the bucket, the air,
-      the earth
-    params_part1_ans1_value: Open
-    params_part1_ans2_value: Closed
-    params_part1_ans3_value: None of the above
-    params_part2_ans1_value: Kinetic energy - Decreasing
-    params_part2_ans2_value: Kinetic energy - Increasing
-    params_part2_ans3_value: Gravitational potential energy - Decreasing
-    params_part2_ans4_value: Gravitational potential energy - Increasing
-    params_part2_ans5_value: Thermal energy - Increasing
-    params_part2_ans6_value: Thermal energy - Decreasing
-    params_part2_ans7_value: Elastic potential energy - Increasing
-    params_part2_ans8_value: Elastic potential energy - Decreasing
-    params_part2_ans9_value: Motion energy - Increasing
-    params_part2_ans10_value: Motion energy - Decreasing
-    params_part3_ans1_value: Positive
-    params_part3_ans2_value: Negative
-    params_part3_ans3_value: Both positive and negative (by different external forces)
-    params_part3_ans4_value: No external forces
+    params:
+      vars:
+        name: Aliyah
+        title: Lowering a bucket - person, the rope, the bucket, the air, the earth
+      part1:
+        ans1:
+          value: Open
+        ans2:
+          value: Closed
+        ans3:
+          value: None of the above
+      part2:
+        ans1:
+          value: Kinetic energy - Decreasing
+        ans2:
+          value: Kinetic energy - Increasing
+        ans3:
+          value: Gravitational potential energy - Decreasing
+        ans4:
+          value: Gravitational potential energy - Increasing
+        ans5:
+          value: Thermal energy - Increasing
+        ans6:
+          value: Thermal energy - Decreasing
+        ans7:
+          value: Elastic potential energy - Increasing
+        ans8:
+          value: Elastic potential energy - Decreasing
+        ans9:
+          value: Motion energy - Increasing
+        ans10:
+          value: Motion energy - Decreasing
+      part3:
+        ans1:
+          value: Positive
+        ans2:
+          value: Negative
+        ans3:
+          value: Both positive and negative (by different external forces)
+        ans4:
+          value: No external forces
 ---
-# {{ params_vars_title }}
-{{params_vars_name}} stands on a cliff, and gently lowers a bucket of water to the ground using a rope.
-The bucket starts out with an initial downwards velocity, but {{ params_vars_name }} is tightening their grip on the rope as it slides through their hands, so that is slows as it descends, and when the bucket touches the ground it has zero velocity.
+# {{ params.vars.title }}
+{{params.vars.name}} stands on a cliff, and gently lowers a bucket of water to the ground using a rope.
+The bucket starts out with an initial downwards velocity, but {{ params.vars.name }} is tightening their grip on the rope as it slides through their hands, so that is slows as it descends, and when the bucket touches the ground it has zero velocity.
 
-Consider the energy in the situation and how the work is being done if the system consists of **{{params_vars_name}}**, **the rope, the bucket, the air, and the earth**.
+Consider the energy in the situation and how the work is being done if the system consists of **{{params.vars.name}}**, **the rope, the bucket, the air, and the earth**.
 
 ## Part 1
 
@@ -76,9 +97,9 @@ Is the system open or closed?
 
 ### Answer Section
 
-- {{params_part1_ans1_value}}
-- {{params_part1_ans2_value}}
-- {{params_part1_ans3_value}}
+- {{params.part1.ans1.value}}
+- {{params.part1.ans2.value}}
+- {{params.part1.ans3.value}}
 
 ## Part 2
 
@@ -90,16 +111,16 @@ Select all the choices that apply.
 
 Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{params_part2_ans1_value}}
-- {{params_part2_ans2_value}}
-- {{params_part2_ans3_value}}
-- {{params_part2_ans4_value}}
-- {{params_part2_ans5_value}}
-- {{params_part2_ans6_value}}
-- {{params_part2_ans7_value}}
-- {{params_part2_ans8_value}}
-- {{params_part2_ans9_value}}
-- {{params_part2_ans10_value}}
+- {{params.part2.ans1.value}}
+- {{params.part2.ans2.value}}
+- {{params.part2.ans3.value}}
+- {{params.part2.ans4.value}}
+- {{params.part2.ans5.value}}
+- {{params.part2.ans6.value}}
+- {{params.part2.ans7.value}}
+- {{params.part2.ans8.value}}
+- {{params.part2.ans9.value}}
+- {{params.part2.ans10.value}}
 
 ## Part 3
 
@@ -107,10 +128,10 @@ Is the work from external forces being done on the system positive or negative?
 
 ### Answer Section
 
-- {{params_part3_ans1_value}}
-- {{params_part3_ans2_value}}
-- {{params_part3_ans3_value}}
-- {{params_part3_ans4_value}}
+- {{params.part3.ans1.value}}
+- {{params.part3.ans2.value}}
+- {{params.part3.ans3.value}}
+- {{params.part3.ans4.value}}
 
 ## Attribution
 

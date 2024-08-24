@@ -38,16 +38,18 @@ part1:
     digits: 2
 myst:
   substitutions:
-    params_vars_title: Work and Energy of a Rod
-    params_vars_units: rad/s
-    params_m: 7
-    params_L: 9
-    params_F: 183
+    params:
+      vars:
+        title: Work and Energy of a Rod
+        units: rad/s
+      m: 4
+      L: 8
+      F: 190
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="WorkEnergyRod.png" width=400>
 
-A rod with a mass of $m = {{ params_m }} \ \rm{kg}$ and length $l = {{ params_L }} \ \rm{m}$ hangs at rest when the force $F = {{ params_F }} \ \rm{N}$ is applied.
+A rod with a mass of $m = {{ params.m }} \ \rm{kg}$ and length $l = {{ params.L }} \ \rm{m}$ hangs at rest when the force $F = {{ params.F }} \ \rm{N}$ is applied.
 
 ## Part 1
 
@@ -55,7 +57,7 @@ Find the angular velocity of the rod when it has rotated $90^{\circ}$ clockwise.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

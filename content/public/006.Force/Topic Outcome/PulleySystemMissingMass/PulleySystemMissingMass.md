@@ -43,14 +43,16 @@ part2:
     suffix: $\rm{slug}$
 myst:
   substitutions:
-    params_vars_title: Distance travelled
-    params_vars_units: m/s
-    params_m: 344
+    params:
+      vars:
+        title: Distance travelled
+        units: m/s
+      m: 448
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Pulley.png" width=60%>
 
-Shown above is a system of pulleys in equilibrium. The container labeled A has a weight of $W = {{ params_m }} \ \rm{lb}$.
+Shown above is a system of pulleys in equilibrium. The container labeled A has a weight of $W = {{ params.m }} \ \rm{lb}$.
 
 ## Part 1
 
@@ -58,7 +60,7 @@ Find the tension in the cables.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
@@ -66,7 +68,7 @@ Find the mass of the container labeled B.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

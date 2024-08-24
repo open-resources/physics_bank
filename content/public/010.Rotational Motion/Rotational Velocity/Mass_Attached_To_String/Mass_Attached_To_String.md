@@ -31,15 +31,24 @@ part1:
     fixed-order: 'True'
 myst:
   substitutions:
-    params_vars_title: Mass Attached To String
-    params_part1_ans1_value: Arrow A
-    params_part1_ans2_value: Arrow B
-    params_part1_ans3_value: Arrow C
-    params_part1_ans4_value: Arrow D
-    params_part1_ans5_value: Arrow E
-    params_part1_ans6_value: Arrow F
+    params:
+      vars:
+        title: Mass Attached To String
+      part1:
+        ans1:
+          value: Arrow A
+        ans2:
+          value: Arrow B
+        ans3:
+          value: Arrow C
+        ans4:
+          value: Arrow D
+        ans5:
+          value: Arrow E
+        ans6:
+          value: Arrow F
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The figure below shows a mass attached to a string.
 The mass is being swung in a horizontal circle in the counter - clockwise direction when the string is suddenly cut by a pair of scissors.
 
@@ -52,12 +61,12 @@ Choose the best choice.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
-- {{ params_part1_ans6_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
+- {{ params.part1.ans6.value }}
 
 ## Attribution
 

@@ -43,20 +43,22 @@ part2:
     suffix: $\rm{rad/s^2}$
 myst:
   substitutions:
-    params_vars_title: Curvilinear Motion of Jet
-    params_d: 629
-    params_h: 442
-    params_v: 584
-    params_rho: 500
+    params:
+      vars:
+        title: Curvilinear Motion of Jet
+      d: 1042
+      h: 391
+      v: 353
+      rho: 1097
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="CurvJet.png" width=90%>
 
 A jet flies in loops as part of a military parade.
-In the moment shown, it is at an altitude of $h = {{ params_h }} \ \rm{m}$ at the bottom of its loop.
-The camera on the ground, sitting $d = {{ params_d }} \ \rm{m}$ away from the jet.
-The fighter jet has a horizontal velocity of $v = {{ params_v }} \ \rm{km/h}$.
-The radius of the curvature of the jets circular path is $\rho = {{ params_rho }} \ \rm{m}$.
+In the moment shown, it is at an altitude of $h = {{ params.h }} \ \rm{m}$ at the bottom of its loop.
+The camera on the ground, sitting $d = {{ params.d }} \ \rm{m}$ away from the jet.
+The fighter jet has a horizontal velocity of $v = {{ params.v }} \ \rm{km/h}$.
+The radius of the curvature of the jets circular path is $\rho = {{ params.rho }} \ \rm{m}$.
 
 Find the values of $\dot r$ and $\dot \theta$
 

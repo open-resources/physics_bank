@@ -35,9 +35,10 @@ part1:
     suffix: m
 myst:
   substitutions:
-    params_a: 29
-    params_theta: 45
-    params_u: 32
+    params:
+      a: 33
+      theta: 55
+      u: 44
 ---
 # Projectile Motion on an Incline
 A tennis ball is projected with a speed of u at angle of θ measured counter-clockwise from the normal to the inclined plane.
@@ -48,33 +49,11 @@ A tennis ball is projected with a speed of u at angle of θ measured counter-clo
 
 Determine the range R of the tennis ball if it hits the incline at the end of its motion.<br>
 Treat the ball as a particle and neglect any resistive forces.<br><br>
-$u = {{ params_u }}ms^{-1}$, $\theta = {{ params_theta }}\circ$, $\alpha = {{ params_a }}\circ$
+$u = {{ params.u }}ms^{-1}$, $\theta = {{ params.theta }}\circ$, $\alpha = {{ params.a }}\circ$
 
 ### Answer Section
 
 Please enter the range in $m$.
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}
-
-Everything here will get inserted directly into the pl-submission-panel element at the end of the `question.html`.
-Please remove this section if it is not application for this question.
-
-### pl-answer-panel
-
-Everything here will get inserted directly into an pl-answer-panel element at the end of the `question.html`.
-Please remove this section if it is not application for this question.
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}
-
-Everything here will get inserted directly into the pl-submission-panel element at the end of the `question.html`.
-
-### pl-answer-panel
-
-Everything here will get inserted directly into an pl-answer-panel element at the end of the `question.html`.
 
 ## Attribution
 

@@ -30,11 +30,16 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Friction's Work T-F
-    params_part1_ans1_value: No, it depends on the direction of the motion and friction.
-    params_part1_ans2_value: Yes, it is always negative.
+    params:
+      vars:
+        title: Friction's Work T-F
+      part1:
+        ans1:
+          value: No, it depends on the direction of the motion and friction.
+        ans2:
+          value: Yes, it is always negative.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -42,8 +47,8 @@ When an object is moved across a surface, does the frictional force always perfo
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Attribution
 

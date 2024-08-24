@@ -30,12 +30,18 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Lower Elevation Launch
-    params_part1_ans1_value: Less than $45^{\circ}$
-    params_part1_ans2_value: Exactly $45^{\circ}$
-    params_part1_ans3_value: More than $45^{\circ}$
+    params:
+      vars:
+        title: Lower Elevation Launch
+      part1:
+        ans1:
+          value: Less than $45^{\circ}$
+        ans2:
+          value: Exactly $45^{\circ}$
+        ans3:
+          value: More than $45^{\circ}$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 An  army is besieging a castle with a cannon.
 They want to be able to keep the cannon far back, but still be able to strike the castle walls above them.
 What would their optimum launch angle from the cannon be?
@@ -44,9 +50,9 @@ What would their optimum launch angle from the cannon be?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

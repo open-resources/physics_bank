@@ -35,24 +35,26 @@ part1:
     suffix: $m/s$
 myst:
   substitutions:
-    params_vars_title: Trapped Hiker
-    params_m: 54
-    params_F: 1477
-    params_x1: 7.0
-    params_d: 17.0
-    params_h: 10.0
-    params_k: 48
-    params_thetad: 7
+    params:
+      vars:
+        title: Trapped Hiker
+      m: 75
+      F: 1444
+      x1: 2.0
+      d: 17.0
+      h: 5.0
+      k: 23
+      thetad: 5
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Spring Restraining Cart.png" width=400>
 
 A hiker is trapped in a tunnel after a minor rockslide.
 A rescue helicopter arrived and lowered a pulley to help them escape.
-The ${{params_m}}kg$ hiker is pulled up through an opening, without touching the walls (No friction).
-A bungee cord from their pack sticks to them, acting as a spring with a stiffness of ${{params_k}}N/m$ and is stretched ${{params_x1}}m$ at A, where the hiker is initially pulled from rest.
-The $F = {{params_F}}N$ force over a pulley is constantly pulling the hiker free. Calculate the velocity as they passes point C.
-$\theta=${{params_thetad}}$^\circ$,$d = {{params_d}}m$,and $h = {{params_h}}m$.
+The ${{params.m}}kg$ hiker is pulled up through an opening, without touching the walls (No friction).
+A bungee cord from their pack sticks to them, acting as a spring with a stiffness of ${{params.k}}N/m$ and is stretched ${{params.x1}}m$ at A, where the hiker is initially pulled from rest.
+The $F = {{params.F}}N$ force over a pulley is constantly pulling the hiker free. Calculate the velocity as they passes point C.
+$\theta=${{params.thetad}}$^\circ$,$d = {{params.d}}m$,and $h = {{params.h}}m$.
 
 ## Part 1
 

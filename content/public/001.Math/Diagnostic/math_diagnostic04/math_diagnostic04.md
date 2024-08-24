@@ -30,28 +30,36 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Math Diagnostic04
-    params_b: 4
-    params_c: 12
-    params_part1_ans1_value: (x-4)(x+3)
-    params_part1_ans2_value: (x+4)(x-3)
-    params_part1_ans3_value: (x+6)(x-2)
-    params_part1_ans4_value: (x-6)(x+2)
-    params_part1_ans5_value: Do not know
+    params:
+      vars:
+        title: Math Diagnostic04
+      b: 4
+      c: 12
+      part1:
+        ans1:
+          value: (x-4)(x+3)
+        ans2:
+          value: (x+4)(x-3)
+        ans3:
+          value: (x+6)(x-2)
+        ans4:
+          value: (x-6)(x+2)
+        ans5:
+          value: Do not know
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
-The quadratic expression $x^2 +$ {{ params_b }}$x - ${{ params_c }} can be factored as:
+The quadratic expression $x^2 +$ {{ params.b }}$x - ${{ params.c }} can be factored as:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

@@ -71,26 +71,39 @@ part6:
     suffix: $\rm{C}$
 myst:
   substitutions:
-    params_vars_title: RC Circuit Reduction
-    params_c1: 13.3
-    params_c2: 2.7
-    params_c3: 15.4
-    params_c4: 1.3
-    params_part1_ans1_value: $C_1$
-    params_part1_ans2_value: $C_2$
-    params_part1_ans3_value: $C_3$
-    params_part1_ans4_value: $C_4$
-    params_part3_ans1_value: $C_1$
-    params_part3_ans2_value: $C_2$
-    params_part3_ans2_feedback: This capacitor should not be in your redrawn circuit.
-    params_part3_ans3_value: $C_3$
-    params_part3_ans3_feedback: This capacitor should not be in your redrawn circuit.
-    params_part3_ans4_value: $C_4$
-    params_part3_ans4_feedback: This capacitor should not be in your redrawn circuit.
-    params_part3_ans5_value: $C_5$
+    params:
+      vars:
+        title: RC Circuit Reduction
+      c1: 12.4
+      c2: 15.8
+      c3: 13.2
+      c4: 18.8
+      part1:
+        ans1:
+          value: $C_1$
+        ans2:
+          value: $C_2$
+        ans3:
+          value: $C_3$
+        ans4:
+          value: $C_4$
+      part3:
+        ans1:
+          value: $C_1$
+        ans2:
+          value: $C_2$
+          feedback: This capacitor should not be in your redrawn circuit.
+        ans3:
+          value: $C_3$
+          feedback: This capacitor should not be in your redrawn circuit.
+        ans4:
+          value: $C_4$
+          feedback: This capacitor should not be in your redrawn circuit.
+        ans5:
+          value: $C_5$
 ---
-# {{ params_vars_title }}
-Consider the RC circuit shown below. Here, $C_1 = {{ params_c1 }}$ $\rm{\mu F}$, $C_2 = {{ params_c2 }}$ $\rm{\mu F}$, $C_3 = {{ params_c3 }}$ $\rm{\mu F}$, and $C_4 = {{ params_c4 }}$ $\rm{\mu F}$.
+# {{ params.vars.title }}
+Consider the RC circuit shown below. Here, $C_1 = {{ params.c1 }}$ $\rm{\mu F}$, $C_2 = {{ params.c2 }}$ $\rm{\mu F}$, $C_3 = {{ params.c3 }}$ $\rm{\mu F}$, and $C_4 = {{ params.c4 }}$ $\rm{\mu F}$.
 
 In this problem we will find the equivalent capacitance of this capacitor system in two steps. We will then use this result to determine the carge stored in the capacitor system.
 
@@ -102,10 +115,10 @@ Select the capacitors that are in parallel with eachother.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Part 2
 
@@ -117,21 +130,17 @@ Round your answer to three significant figures.
 
 Please enter an answer in $\rm{\mu F}$.
 
-### pl-submission-panel
-
-{{feedback.part2_ans}}
-
 ## Part 3
 
 For your redrawn circuit, select the capacitors that are in series with each other. Do not select any capacitors that you have replaced.
 
 ### Answer Section
 
-- {{ params_part3_ans1_value }}
-- {{ params_part3_ans2_value }}
-- {{ params_part3_ans3_value }}
-- {{ params_part3_ans4_value }}
-- {{ params_part3_ans5_value }}
+- {{ params.part3.ans1.value }}
+- {{ params.part3.ans2.value }}
+- {{ params.part3.ans3.value }}
+- {{ params.part3.ans4.value }}
+- {{ params.part3.ans5.value }}
 
 ## Part 4
 
@@ -143,10 +152,6 @@ Round your answer to three significant figures.
 
 Please enter an answer in $\rm{\mu F}$.
 
-### pl-submission-panel
-
-{{feedback.part4_ans}}
-
 ## Part 5
 
 Find the time constant $\tau$ for this circuit.
@@ -156,10 +161,6 @@ Round your answer to three significant figures.
 ### Answer Section
 
 Please enter an answer in $\rm{s}$.
-
-### pl-submission-panel
-
-{{feedback.part5_ans}}
 
 ## Part 6
 

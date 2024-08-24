@@ -46,21 +46,26 @@ part3:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_title: Travelling Wave Displacement
-    params_A: 3
-    params_k: 5
-    params_omega: 6
-    params_part2_ans1_value: The positive x direction.
-    params_part2_ans1_feedback: Try setting the phase equal to a constant and differentiating
-      the phase implicitly with respect to time. What is the sign of $v = v_{x} =
-      \frac{dx}{dt}$ ?
-    params_part2_ans2_value: The negative x direction.
-    params_part2_ans2_feedback: Yes, you can see this by setting the phase equal to
-      a constant and differentiating the phase implicitly with respect to time to
-      find that $v = v_{x} = \frac{dx}{dt}$ is negative.
+    params:
+      vars:
+        title: Travelling Wave Displacement
+      A: 2
+      k: 7
+      omega: 8
+      part2:
+        ans1:
+          value: The positive x direction.
+          feedback: Try setting the phase equal to a constant and differentiating
+            the phase implicitly with respect to time. What is the sign of $v = v_{x}
+            = \frac{dx}{dt}$ ?
+        ans2:
+          value: The negative x direction.
+          feedback: Yes, you can see this by setting the phase equal to a constant
+            and differentiating the phase implicitly with respect to time to find
+            that $v = v_{x} = \frac{dx}{dt}$ is negative.
 ---
-# {{ params_vars_title }}
-$D(x,t) = {{ params_A }}\cos({{ params_k }}x+ {{ params_omega }}t)$ describes the displacement $D$ in $\rm{cm}$ of a travelling sinusoidal wave as a function of displacement $x$ in $\rm{cm}$ and time $t$ in $\rm{s}$.
+# {{ params.vars.title }}
+$D(x,t) = {{ params.A }}\cos({{ params.k }}x+ {{ params.omega }}t)$ describes the displacement $D$ in $\rm{cm}$ of a travelling sinusoidal wave as a function of displacement $x$ in $\rm{cm}$ and time $t$ in $\rm{s}$.
 
 ## Part 1
 
@@ -69,10 +74,6 @@ What is the amplitude $A$ of the travelling wave?
 ### Answer Section
 
 Please enter in a numeric value in $\rm{cm}$.
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}
 
 ## Part 2
 

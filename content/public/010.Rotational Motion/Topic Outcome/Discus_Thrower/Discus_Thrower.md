@@ -29,19 +29,27 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Discus Thrower
-    params_vars_units: $rad/s$
-    params_r: 2
-    params_a: 60
-    params_part1_ans1_value: 39.0
-    params_part1_ans2_value: 1508.0
-    params_part1_ans3_value: 240
-    params_part1_ans4_value: 14.0
-    params_part1_ans5_value: 19.0
+    params:
+      vars:
+        title: Discus Thrower
+        units: $rad/s$
+      r: 2
+      a: 40
+      part1:
+        ans1:
+          value: 32.0
+        ans2:
+          value: 1005.0
+        ans3:
+          value: 160
+        ans4:
+          value: 11.0
+        ans5:
+          value: 16.0
 ---
-# {{ params_vars_title }}
-A discus thrower makes {{ params_r }} complete revolutions from rest while holding the discus at a distance of 1 $m$ from their centre before releasing it.
-The angular acceleration of the discus is {{ params_a }} $rad/s^2$.
+# {{ params.vars.title }}
+A discus thrower makes {{ params.r }} complete revolutions from rest while holding the discus at a distance of 1 $m$ from their centre before releasing it.
+The angular acceleration of the discus is {{ params.a }} $rad/s^2$.
 
 ## Part 1
 
@@ -49,11 +57,11 @@ The angular velocity of the discus just before launch is:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params_vars_units}}
-- {{ params_part1_ans2_value }} {{ params_vars_units}}
-- {{ params_part1_ans3_value }} {{ params_vars_units}}
-- {{ params_part1_ans4_value }} {{ params_vars_units}}
-- {{ params_part1_ans5_value }} {{ params_vars_units}}
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

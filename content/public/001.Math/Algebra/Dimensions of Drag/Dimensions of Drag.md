@@ -33,9 +33,11 @@ part1:
     allow-blank: false
 myst:
   substitutions:
-    params_vars_title: Dimensions of Drag
+    params:
+      vars:
+        title: Dimensions of Drag
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 

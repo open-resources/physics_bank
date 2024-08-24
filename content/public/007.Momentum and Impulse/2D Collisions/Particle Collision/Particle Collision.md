@@ -29,40 +29,49 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Particle Collision
-    params_choice: total
-    params_m1: 7
-    params_m2: 7
-    params_v1: 15
-    params_v2: 1
-    params_part1_ans1_value: 105 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 7 $kg$ $\dfrac{m}{s}\hat{\jmath}$
-    params_part1_ans1_feedback: Great! You got it.
-    params_part1_ans2_value: 7 $kg$ $\dfrac{m}{s}\hat{\imath}$
-    params_part1_ans2_feedback: Hmm... Try again.
-    params_part1_ans3_value: 7 $kg$ $\dfrac{m}{s}\hat{\jmath}$
-    params_part1_ans3_feedback: Careful! Both components are asked for.
-    params_part1_ans4_value: 7 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 105 $kg$ $\dfrac{m}{s}\hat{\jmath}$
-    params_part1_ans4_feedback: Hmm... Try again.
-    params_part1_ans5_value: 105 $kg$ $\dfrac{m}{s}\hat{\jmath}$
-    params_part1_ans5_feedback: Hmm... Try again.
-    params_part1_ans6_value: 105 $kg$ $\dfrac{m}{s}\hat{\imath}$
-    params_part1_ans6_feedback: Careful! Both components are asked for.
+    params:
+      vars:
+        title: Particle Collision
+      choice: $x$-component of the
+      m1: 6
+      m2: 2
+      v1: 14
+      v2: 15
+      part1:
+        ans1:
+          value: 84 $kg$ $\dfrac{m}{s}\hat{\imath}$
+          feedback: Great! You got it.
+        ans2:
+          value: 30 $kg$ $\dfrac{m}{s}\hat{\imath}$
+          feedback: Hmm... Try again.
+        ans3:
+          value: 30 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+          feedback: Close! Double check the directions of the unit vectors.
+        ans4:
+          value: 30 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 84 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+          feedback: Hmm... Try again.
+        ans5:
+          value: 84 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+          feedback: Hmm... Try again.
+        ans6:
+          value: 84 $kg$ $\dfrac{m}{s}\hat{\imath}$ + 30 $kg$ $\dfrac{m}{s}\hat{\jmath}$
+          feedback: Careful! Only one component is asked for.
 ---
-# {{ params_vars_title }}
-A particle of mass {{ params_m1 }} $kg$ is travelling with velocity {{ params_v1 }} $\frac{m}{s}\hat{\imath}$ when it collides with another particle of mass {{ params_m2 }} $kg$ travelling with velocity {{ params_v2 }} $\frac{m}{s}\hat{\jmath}$.
+# {{ params.vars.title }}
+A particle of mass {{ params.m1 }} $kg$ is travelling with velocity {{ params.v1 }} $\frac{m}{s}\hat{\imath}$ when it collides with another particle of mass {{ params.m2 }} $kg$ travelling with velocity {{ params.v2 }} $\frac{m}{s}\hat{\jmath}$.
 
 ## Part 1
 
-The {{ params_choice }} **initial** momentum of this system is:
+The {{ params.choice }} **initial** momentum of this system is:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
-- {{ params_part1_ans6_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
+- {{ params.part1.ans6.value }}
 
 ## Attribution
 

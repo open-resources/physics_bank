@@ -43,16 +43,18 @@ part2:
     suffix: $\rm{km}$
 myst:
   substitutions:
-    params_vars_title: Parachuter
-    params_vars_units: m/s
-    params_v: 328
-    params_theta: 16
-    params_h: 463
+    params:
+      vars:
+        title: Parachuter
+        units: m/s
+      v: 456
+      theta: 11
+      h: 609
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Parachute.png" width=100%>
 
-A parachuter jumps out of a plane at height $h = {{ params_h }} \ \rm{m}$, with a goal of landing at a marked spot to meet a group of people.  The plane has a velocity $v = {{ params_v }} \ \rm{km/hr}$ with angle $\theta = {{ params_theta }}^{\circ}$
+A parachuter jumps out of a plane at height $h = {{ params.h }} \ \rm{m}$, with a goal of landing at a marked spot to meet a group of people.  The plane has a velocity $v = {{ params.v }} \ \rm{km/hr}$ with angle $\theta = {{ params.theta }}^{\circ}$
 
 ## Part 1
 
@@ -60,7 +62,7 @@ At what time will the parachuter land in the marked spot?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
@@ -68,7 +70,7 @@ What is the distance the parachuter traveled?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

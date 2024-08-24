@@ -31,14 +31,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Direction of Movement of the Elevator
-    params_m_st: 531
-    params_m_sc: 486
-    params_part1_ans1_value: The elevator is moving Downwards, with gravity.
-    params_part1_ans2_value: You cannot tell if it is moving upward or downward.
-    params_part1_ans3_value: The elevator is moving Upwards, against gravity.
+    params:
+      vars:
+        title: Direction of Movement of the Elevator
+      m_st: 509
+      m_sc: 473
+      part1:
+        ans1:
+          value: The elevator is moving Downwards, with gravity.
+        ans2:
+          value: You cannot tell if it is moving upward or downward.
+        ans3:
+          value: The elevator is moving Upwards, against gravity.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A {{ params.m_st }} $N$ student standing on a scale in an elevator notices that the scale reads {{ params.m_sc }} $N$.
 
 ## Part 1
@@ -47,9 +53,9 @@ Which of the following statement is true about the motion of the student?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

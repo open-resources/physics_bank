@@ -75,23 +75,30 @@ part7:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_title: Two Carts Collide
-    params_vars_units: $\rm{m/s}$
-    params_m1: 1.7
-    params_m2: 520
-    params_vi: -1
-    params_part5_ans1_value: Magnets
-    params_part5_ans1_feedback: Not quite - Try again!
-    params_part5_ans2_value: Springs
-    params_part5_ans2_feedback: Not quite - Try again!
-    params_part5_ans3_value: Clay
-    params_part5_ans3_feedback: Correct! Clay would allow the carts to try to stick
-      together following the collision!
-    params_part5_ans4_value: Velcro
-    params_part5_ans4_feedback: Correct! Velcro would allow the carts to try to stick
-      together following the collision!
+    params:
+      vars:
+        title: Two Carts Collide
+        units: $\rm{m/s}$
+      m1: 1.5
+      m2: 370
+      vi: -3
+      part5:
+        ans1:
+          value: Magnets
+          feedback: Not quite - Try again!
+        ans2:
+          value: Springs
+          feedback: Not quite - Try again!
+        ans3:
+          value: Clay
+          feedback: Correct! Clay would allow the carts to try to stick together following
+            the collision!
+        ans4:
+          value: Velcro
+          feedback: Correct! Velcro would allow the carts to try to stick together
+            following the collision!
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Two carts collide on a frictionless track aligned with the $x$-axis. The force versus time graph for the force exerted by cart 1 on cart 2 is shown in the figure below.
 
 <img src="graph1.png" width=400 alt="The force versus time graph for the force exerted by cart 1 on cart 2. The vertical axis is labelled force in newtons and the horizontal axis is labelled time in seconds. From 1 second to 2 seconds, the force increases linearly from 0 newtons to 0.4 newtons. From 2 seconds to 3 seconds, the force increases linearly from 0.4 newtons to 0.6 newtons. From 3 seconds to 4 seconds, the force decreases linearly from 0.6 newtons to 0.4 newtons. From 4 seconds to 5 seconds, the force decreases linearly from 0.4 newtons to 0 newtons. From 5 seconds to 6 seconds, the force decreases linearly from 0 newtons to negative 0.1 newtons. From 6 seconds to 7 seconds, the force increases linearly from negative 0.1 newtons to 0 newtons.">
@@ -118,11 +125,11 @@ Please enter in a numeric value in $\rm{kg \cdot m / s}$.
 
 ## Part 3
 
-If cart 2 has a mass of {{ params_m2 }} $\rm{g}$ and an initial of velocity along the $x$-axis of $v\_{2xi} = ${{ params_vi }} $\rm{m/s}$, find the $x$-component of cart 2's velocity following the collision $v\_{2xf}$.
+If cart 2 has a mass of {{ params.m2 }} $\rm{g}$ and an initial of velocity along the $x$-axis of $v\_{2xi} = ${{ params.vi }} $\rm{m/s}$, find the $x$-component of cart 2's velocity following the collision $v\_{2xf}$.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 4
 
@@ -142,10 +149,10 @@ What could cause an attractive force between the carts? (We have four end types 
 Select all the choices that apply.
 Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params_part5_ans1_value }}
-- {{ params_part5_ans2_value }}
-- {{ params_part5_ans3_value }}
-- {{ params_part5_ans4_value }}
+- {{ params.part5.ans1.value }}
+- {{ params.part5.ans2.value }}
+- {{ params.part5.ans3.value }}
+- {{ params.part5.ans4.value }}
 
 ## Part 6
 
@@ -153,15 +160,15 @@ If the collision was perfectly inelastic, what would be the $x$-component of the
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 7
 
-If cart 1 had a mass of {{ params_m1 }} $\rm{kg}$ and underwent a perfectly inelastic collision, what was the $x$-component of its initial velocity $v\_{1xi}$?
+If cart 1 had a mass of {{ params.m1 }} $\rm{kg}$ and underwent a perfectly inelastic collision, what was the $x$-component of its initial velocity $v\_{1xi}$?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

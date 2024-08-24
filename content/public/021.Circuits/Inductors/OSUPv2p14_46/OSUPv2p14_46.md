@@ -44,28 +44,20 @@ part1:
     atol: 0
 myst:
   substitutions:
-    params_vars_title: Energy Stored in a Coil
-    params_I: '0.20'
-    params_E: '2.0'
+    params:
+      vars:
+        title: Energy Stored in a Coil
+      I: '0.80'
+      E: '4.0'
 ---
-# {{ params_vars_title }}
-At the instant a current of ${{ params_I }}\rm\ A$ is flowing through a coil of wire, the energy stored in its magnetic field is ${{ params_E }} \times 10^{-3}\rm\ J$.
+# {{ params.vars.title }}
+At the instant a current of ${{ params.I }}\rm\ A$ is flowing through a coil of wire, the energy stored in its magnetic field is ${{ params.E }} \times 10^{-3}\rm\ J$.
 
 ## Question Text
 
 What is the self-inductance of the coil?
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$L =$ {{ correct_answers.part1_ans_str }} $\rm\ H$.
 
 ## Attribution
 

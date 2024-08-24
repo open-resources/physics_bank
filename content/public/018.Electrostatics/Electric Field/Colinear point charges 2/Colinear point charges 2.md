@@ -37,12 +37,18 @@ part1:
     blank: true
 myst:
   substitutions:
-    params_vars_title: Colinear point charges 2
-    params_part1_ans1_value: The charges have opposite signs
-    params_part1_ans2_value: The charges have the same sign.
-    params_part1_ans3_value: The absolute value of the two charges are the same.
+    params:
+      vars:
+        title: Colinear point charges 2
+      part1:
+        ans1:
+          value: The charges have opposite signs
+        ans2:
+          value: The charges have the same sign.
+        ans3:
+          value: The absolute value of the two charges are the same.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -50,9 +56,9 @@ If the electric field at a point outside of the line between two charges is zero
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

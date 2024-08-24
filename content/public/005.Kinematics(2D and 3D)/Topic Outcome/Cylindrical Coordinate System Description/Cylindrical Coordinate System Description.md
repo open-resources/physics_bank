@@ -30,14 +30,21 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Cylindrical Coordinate System Description
-    params_part1_ans1_value: A radial distance and two angles
-    params_part1_ans2_value: The distance along the path and two angles
-    params_part1_ans3_value: A radial distance and three angles
-    params_part1_ans4_value: A radial distance and an angle in a plane plus an axis
-      perpendicular to the plane
+    params:
+      vars:
+        title: Cylindrical Coordinate System Description
+      part1:
+        ans1:
+          value: A radial distance and two angles
+        ans2:
+          value: The distance along the path and two angles
+        ans3:
+          value: A radial distance and three angles
+        ans4:
+          value: A radial distance and an angle in a plane plus an axis perpendicular
+            to the plane
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -45,10 +52,10 @@ Cylindrical coordinates use coordinates that consist of
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

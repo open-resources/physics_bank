@@ -47,15 +47,17 @@ part2:
     digits: 2
 myst:
   substitutions:
-    params_vars_title: Curling Rock Hits a Spring
-    params_vars_units: J
-    params_m: 19.1
-    params_d: 1
-    params_mu: 0.9
-    params_k: 114
+    params:
+      vars:
+        title: Curling Rock Hits a Spring
+        units: J
+      m: 19.1
+      d: 2
+      mu: 0.1
+      k: 357
 ---
-# {{ params_vars_title }}
-A curler is practicing for the national curling championships to get the perfect momentum and strength on the push of a curling rock. The rock has a mass of $m = {{ params_m }} \ \rm{kg}$ and hits a spring target at the end. Find the work done by the spring, and the speed of the rock when it reached the spring, if the spring constant is $k = {{ params_k }} \ \rm{N/m}$ and the spring compresses $d = {{ params_d }} \ \rm{cm}$. The coefficient of friction on rough ice sheet is $\mu = {{ params_mu }}$.
+# {{ params.vars.title }}
+A curler is practicing for the national curling championships to get the perfect momentum and strength on the push of a curling rock. The rock has a mass of $m = {{ params.m }} \ \rm{kg}$ and hits a spring target at the end. Find the work done by the spring, and the speed of the rock when it reached the spring, if the spring constant is $k = {{ params.k }} \ \rm{N/m}$ and the spring compresses $d = {{ params.d }} \ \rm{cm}$. The coefficient of friction on rough ice sheet is $\mu = {{ params.mu }}$.
 
 ## Part 1
 
@@ -63,7 +65,7 @@ What is the work done by the spring?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 

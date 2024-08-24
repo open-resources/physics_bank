@@ -35,15 +35,17 @@ part1:
     suffix: $\rm{J}$
 myst:
   substitutions:
-    params_vars_title: Springs in Series
-    params_k2: 260.0
-    params_k1: 150.0
-    params_F: 81.0
+    params:
+      vars:
+        title: Springs in Series
+      k2: 230.0
+      k1: 200.0
+      F: 51.0
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Springs in Series.png" height = 600> 
 
-Two springs in series are displaced at the point they connect by a maximum force of $F = {{params_F}}\ \rm{N}$, spring A has a spring coefficient of $k_1 = {{params_k1}} \ \rm{N/m}$ and spring B has a spring coefficient of $k_2 = {{params_k2}} \ \rm{N/m}$.
+Two springs in series are displaced at the point they connect by a maximum force of $F = {{params.F}}\ \rm{N}$, spring A has a spring coefficient of $k_1 = {{params.k1}} \ \rm{N/m}$ and spring B has a spring coefficient of $k_2 = {{params.k2}} \ \rm{N/m}$.
 
 ## Part 1
 

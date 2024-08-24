@@ -42,17 +42,19 @@ part2:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_title: Pendulum Work 1
-    params_m: 1.7
-    params_v: 0
-    params_l: 1
-    params_thetai: 34
+    params:
+      vars:
+        title: Pendulum Work 1
+      m: 6.8
+      v: 0
+      l: 3
+      thetai: 33
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Pendulum Work.png" width=800>
 
-A pendulum with a ball has a mass ${{params_m}} \ \rm{kg}$ is released from rest at the initial position to the final position with initial angle
-${\theta}\_i = {{params_thetai}}^{\circ}$ and final angle ${\theta}\_f$. The length of the pendulum is ${{params_l}} \ \rm{m}$
+A pendulum with a ball has a mass ${{params.m}} \ \rm{kg}$ is released from rest at the initial position to the final position with initial angle
+${\theta}\_i = {{params.thetai}}^{\circ}$ and final angle ${\theta}\_f$. The length of the pendulum is ${{params.l}} \ \rm{m}$
 
 ## Part 1
 

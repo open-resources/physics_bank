@@ -37,22 +37,24 @@ part1:
     digits: 3
 myst:
   substitutions:
-    params_vars_title: The Magnitude of a Particle's Vector
-    params_vars_units: "$\r{m/s}^2$"
-    params_r_i: $9t^3 + 5t^2 + 2t$
-    params_r_j: $-9t^2 + 8t$
-    params_t: $7$
-    params_choice: acceleration
+    params:
+      vars:
+        title: The Magnitude of a Particle's Vector
+        units: "$\r{m/s}^2$"
+      r_i: $3t^2 - 8t$
+      r_j: $2t^2 + 6t$
+      t: $14$
+      choice: acceleration
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
-A particle has a trajectory given as $\vec{r} = ($ {{ params.r_i }} $) \hat{\imath} + ($ {{ params.r_j }} $) \hat{\jmath}$ $m$ for $t$ given in seconds. What is the magnitude of the {{ params_choice }} vector for this particle at $t = $ {{ params_t }} $s$?
+A particle has a trajectory given as $\vec{r} = ($ {{ params.r_i }} $) \hat{\imath} + ($ {{ params.r_j }} $) \hat{\jmath}$ $m$ for $t$ given in seconds. What is the magnitude of the {{ params.choice }} vector for this particle at $t = $ {{ params.t }} $s$?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

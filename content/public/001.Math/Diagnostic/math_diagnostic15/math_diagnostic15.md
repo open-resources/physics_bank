@@ -26,26 +26,34 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Math Diagnostic15
-    params_expr: $4^{6} $=$ 4096$
-    params_part1_ans1_value: $log_44096 = 6$
-    params_part1_ans2_value: $log_46 = 4096$
-    params_part1_ans3_value: $log_40966 = 4$
-    params_part1_ans4_value: $log_64096 = 4$
-    params_part1_ans5_value: Don't Know
+    params:
+      vars:
+        title: Math Diagnostic15
+      expr: $7^{1} $=$ 7$
+      part1:
+        ans1:
+          value: $log_77 = 1$
+        ans2:
+          value: $log_71 = 7$
+        ans3:
+          value: $log_71 = 7$
+        ans4:
+          value: $log_17 = 7$
+        ans5:
+          value: Don't Know
 ---
-# {{ params_vars_title }}
-If {{params_expr}} then
+# {{ params.vars.title }}
+If {{params.expr}} then
 
 ## Part 1
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

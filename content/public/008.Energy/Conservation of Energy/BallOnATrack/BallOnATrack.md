@@ -33,19 +33,27 @@ part1:
     hide-letter-keys: true
 myst:
   substitutions:
-    params_vars_title: Ball on a Track
-    params_part1_ans1_value: \rm{A}
-    params_part1_ans1_feedback: Yup
-    params_part1_ans2_value: \rm{B}
-    params_part1_ans2_feedback: Nope
-    params_part1_ans3_value: \rm{C}
-    params_part1_ans3_feedback: Nope
-    params_part1_ans4_value: $\rm{D}$
-    params_part1_ans4_feedback: Don't you think D is a bit high?
-    params_part1_ans5_value: $\rm{Somewhere else}$
-    params_part1_ans5_feedback: Where else?
+    params:
+      vars:
+        title: Ball on a Track
+      part1:
+        ans1:
+          value: \rm{A}
+          feedback: Yup
+        ans2:
+          value: \rm{B}
+          feedback: Nope
+        ans3:
+          value: \rm{C}
+          feedback: Nope
+        ans4:
+          value: $\rm{D}$
+          feedback: Don't you think D is a bit high?
+        ans5:
+          value: $\rm{Somewhere else}$
+          feedback: Where else?
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A ball is let go from rest onto the track illustrated below.
 
 <img src="BallOnATrack.png" width=400>
@@ -56,10 +64,10 @@ Where must it stop rolling?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

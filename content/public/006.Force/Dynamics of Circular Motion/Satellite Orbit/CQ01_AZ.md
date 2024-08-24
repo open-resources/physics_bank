@@ -31,10 +31,16 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_part1_ans1_value: 4R
-    params_part1_ans2_value: 0.25R
-    params_part1_ans3_value: 0.5R
-    params_part1_ans4_value: R
+    params:
+      part1:
+        ans1:
+          value: 4R
+        ans2:
+          value: 0.25R
+        ans3:
+          value: 0.5R
+        ans4:
+          value: R
 ---
 # Satellite Orbit
 A satellite with speed $v\ \rm{\frac{m}{s}}$ is orbiting the Earth at a distance $R\ \rm{m}$ from the center of the Earth.
@@ -45,20 +51,10 @@ If the speed of the satellite is doubled, what is the new radius of the stable o
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-
-### pl-submission-panel
-
-Everything here will get inserted directly into the pl-submission-panel element at the end of the `question.html`.
-Please remove this section if it is not application for this question.
-
-### pl-answer-panel
-
-Everything here will get inserted directly into an pl-answer-panel element at the end of the `question.html`.
-Please remove this section if it is not application for this question.
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

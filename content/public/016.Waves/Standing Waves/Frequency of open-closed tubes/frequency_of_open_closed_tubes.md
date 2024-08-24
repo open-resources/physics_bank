@@ -29,19 +29,27 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Frequency of Open-Closed Tubes
-    params_part1_ans1_value: no change in the fundamental frequency of the tube
-    params_part1_ans1_feedback: ''
-    params_part1_ans2_value: a halving of the fundamental frequency of the tube
-    params_part1_ans2_feedback: ''
-    params_part1_ans3_value: a doubling of the fundamental frequency of the tube
-    params_part1_ans3_feedback: ''
-    params_part1_ans4_value: a quartering of the fundamental frequency of the tube
-    params_part1_ans4_feedback: ''
-    params_part1_ans5_value: a quadrupling of the fundamental frequency of the tube
-    params_part1_ans5_feedback: ''
+    params:
+      vars:
+        title: Frequency of Open-Closed Tubes
+      part1:
+        ans1:
+          value: no change in the fundamental frequency of the tube
+          feedback: ''
+        ans2:
+          value: a halving of the fundamental frequency of the tube
+          feedback: ''
+        ans3:
+          value: a doubling of the fundamental frequency of the tube
+          feedback: ''
+        ans4:
+          value: a quartering of the fundamental frequency of the tube
+          feedback: ''
+        ans5:
+          value: a quadrupling of the fundamental frequency of the tube
+          feedback: ''
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -49,11 +57,11 @@ Doubling the length of an open-closed tube results in:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

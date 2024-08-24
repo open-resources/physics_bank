@@ -50,15 +50,17 @@ part3:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_title: Spring Loaded Rocket Launcher
-    params_mp: 13
-    params_mr: 155
-    params_k: 836
-    params_x0: 49
-    params_x1: 16.0
-    params_e: 0.33
+    params:
+      vars:
+        title: Spring Loaded Rocket Launcher
+      mp: 42
+      mr: 158
+      k: 801
+      x0: 23
+      x1: 5.4
+      e: 0.75
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Spring Loaded Rocket Launcher.png" width=800>
 
 A foam rocket launcher consists of a compressed spring attached to a platform of mass $m_p$, which when released collides with a stationary rocket setting it into motion.
@@ -69,7 +71,7 @@ A simplified cross-sectional view of the launch module is shown above.
 
 <br>
 
-$x_0 = {{params_x0}} \ \rm{m}$, $x_1 = {{params_x1}} \ \rm{m}$, $m_p = {{params_mp}} \ \rm{kg}$, $m_r = {{params_mr}} \ \rm{kg}$, $k = {{params_k}}$.
+$x_0 = {{params.x0}} \ \rm{m}$, $x_1 = {{params.x1}} \ \rm{m}$, $m_p = {{params.mp}} \ \rm{kg}$, $m_r = {{params.mr}} \ \rm{kg}$, $k = {{params.k}}$.
 
 ## Part 1
 
@@ -83,7 +85,7 @@ Please enter in a numeric value in $\rm{m/s}$.
 
 ## Part 2
 
-If the coefficient of restitution between the two colliding surfaces is $e = {{params_e}}$, calculate the final speeds of both the rocket and the platform.
+If the coefficient of restitution between the two colliding surfaces is $e = {{params.e}}$, calculate the final speeds of both the rocket and the platform.
 <br>
 Neglect the effects of gravity and force in the spring during the duration of impact.
 <br>

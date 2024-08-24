@@ -33,13 +33,15 @@ part1:
     suffix: $\rm{kg.m/s}$
 myst:
   substitutions:
-    params_vars_title: Momentum of a Ball
-    params_h: 3.2
-    params_v: 17
-    params_m: 2.9
+    params:
+      vars:
+        title: Momentum of a Ball
+      h: 3.1
+      v: 20
+      m: 2.4
 ---
-# {{ params_vars_title }}
-A ball with mass ${{params_m}} \ \rm{kg}$ is thrown from a height ${{params_h}} \ \rm{m}$ directly downwards, having a speed of ${{params_v}} \ \rm{m/s}$.
+# {{ params.vars.title }}
+A ball with mass ${{params.m}} \ \rm{kg}$ is thrown from a height ${{params.h}} \ \rm{m}$ directly downwards, having a speed of ${{params.v}} \ \rm{m/s}$.
 
 ## Part 1
 

@@ -31,24 +31,31 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Object Collision
-    params_part1_ans1_value: The sum of the impulses on the system is non-zero.
-    params_part1_ans1_feedback: Consider what it means to have an isolated system!
-    params_part1_ans2_value: The impulse on one object is the same as the impulse
-      on the other object.
-    params_part1_ans2_feedback: Recall that impulse is a vector quantity!
-    params_part1_ans3_value: The change in speed of one object is equal but opposite
-      to the change in speed of the other object.
-    params_part1_ans3_feedback: This is only true in the case where they have the
-      same mass.
-    params_part1_ans4_value: Each object will experience an impulse, but these impulses
-      will cause equal but opposite changes in the objects' momenta.
-    params_part1_ans4_feedback: Great job! You got it
-    params_part1_ans5_value: Whichever object started with more momentum will continue
-      to have more momentum.
-    params_part1_ans5_feedback: Review the law of conservation of momentum!
+    params:
+      vars:
+        title: Object Collision
+      part1:
+        ans1:
+          value: The sum of the impulses on the system is non-zero.
+          feedback: Consider what it means to have an isolated system!
+        ans2:
+          value: The impulse on one object is the same as the impulse on the other
+            object.
+          feedback: Recall that impulse is a vector quantity!
+        ans3:
+          value: The change in speed of one object is equal but opposite to the change
+            in speed of the other object.
+          feedback: This is only true in the case where they have the same mass.
+        ans4:
+          value: Each object will experience an impulse, but these impulses will cause
+            equal but opposite changes in the objects' momenta.
+          feedback: Great job! You got it
+        ans5:
+          value: Whichever object started with more momentum will continue to have
+            more momentum.
+          feedback: Review the law of conservation of momentum!
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -56,11 +63,11 @@ When a pair of isolated objects collides:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

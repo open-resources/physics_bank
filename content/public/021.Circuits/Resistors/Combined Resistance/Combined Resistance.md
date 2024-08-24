@@ -51,9 +51,11 @@ part3:
     suffix: V
 myst:
   substitutions:
-    params_vars_title: Combined Resistors
+    params:
+      vars:
+        title: Combined Resistors
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The figure below shows a resistor circuit.
 
 <img src="resistors.png" width = 400>
@@ -67,12 +69,6 @@ What is the resistance in the final circuit?
 
 Please enter in a numeric value in {{ params.vars.units }}.
 
-### pl-submission-panel
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
 ## Part 2
 
 Solve for the potential difference $V_B - V_C$.
@@ -81,12 +77,6 @@ Solve for the potential difference $V_B - V_C$.
 
 Please enter in a numeric value in {{ params.vars.units }}.
 
-### pl-submission-panel
-
-{{ feedback.part2_ans }}
-
-### pl-answer-panel
-
 ## Part 3
 
 Solve for the potential difference $V_A - V_B$.
@@ -94,12 +84,6 @@ Solve for the potential difference $V_A - V_B$.
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
-
-### pl-submission-panel
-
-{{ feedback.part3_ans }}
-
-### pl-answer-panel
 
 ## Attribution
 

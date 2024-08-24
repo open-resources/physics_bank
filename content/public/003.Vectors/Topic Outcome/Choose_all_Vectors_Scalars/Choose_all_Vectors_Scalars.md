@@ -31,20 +31,29 @@ part1:
     partial-credit-method: EDC
 myst:
   substitutions:
-    params_vars_title: Choose all Vectors and Scalars
-    params_choice: scalars
-    params_part1_ans1_value: Pressure
-    params_part1_ans2_value: Temperature
-    params_part1_ans3_value: Distance
-    params_part1_ans4_value: Energy
-    params_part1_ans5_value: Acceleration
-    params_part1_ans6_value: Displacement
+    params:
+      vars:
+        title: Choose all Vectors and Scalars
+      choice: vectors
+      part1:
+        ans1:
+          value: Force
+        ans2:
+          value: Displacement
+        ans3:
+          value: Average Acceleration
+        ans4:
+          value: Distance
+        ans5:
+          value: Temperature
+        ans6:
+          value: Power
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
-Consider the following quantities. Choose all of those which are {{ params_choice }}.
+Consider the following quantities. Choose all of those which are {{ params.choice }}.
 
 ### Answer Section
 
@@ -52,12 +61,12 @@ Select all the choices that apply.
 
 Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params_part1_ans1_value}}
-- {{ params_part1_ans2_value}}
-- {{ params_part1_ans3_value}}
-- {{ params_part1_ans4_value}}
-- {{ params_part1_ans5_value}}
-- {{ params_part1_ans6_value}}
+- {{ params.part1.ans1.value}}
+- {{ params.part1.ans2.value}}
+- {{ params.part1.ans3.value}}
+- {{ params.part1.ans4.value}}
+- {{ params.part1.ans5.value}}
+- {{ params.part1.ans6.value}}
 
 ## Attribution
 

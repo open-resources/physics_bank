@@ -53,9 +53,11 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: RL Series Circuit
+    params:
+      vars:
+        title: RL Series Circuit
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Consider the $RL$ circuit shown below.
 
 <img src="fig_OSUPv2p14_12.png" width=250>
@@ -83,11 +85,6 @@ Note that it may not be necessary to use every variable. Use the following table
 | $\boldsymbol \varepsilon$ | E   |
 
 ### Answer Section
-
-### pl-answer-panel
-
-$V_L = 0 \rm\ V$<br>
-$V_R = {\boldsymbol \varepsilon} \rm\ V$
 
 ## Attribution
 

@@ -35,19 +35,21 @@ part1:
     suffix: $m/s$
 myst:
   substitutions:
-    params_vars_title: Spring Potential Energy Rail
-    params_m: 303
-    params_xi: 45.0
-    params_x: 54.0
-    params_R: 840.0
-    params_k: 223
+    params:
+      vars:
+        title: Spring Potential Energy Rail
+      m: 406
+      xi: 26.0
+      x: 61.0
+      R: 749.0
+      k: 102
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Spring Potential Energy Rail.png" width=400>
 
-As a roller coaster approaches the station in the vertical plane, approaching its final drop. A spring attaches to the cart to slow it. The spring has an unstretched length of ${{params_xi}}m$ and a stiffness of ${{params_k}}N/m$.
-The ${{params_m}}kg$ cart experiences its final drop from rest at A, and the track is a curve with radius $R = {{params_R}}m$.
-Calculate the velocity of the cart as it reaches its station at B, $x = {{params_x}}m$ away from the curve, if there is no friction.
+As a roller coaster approaches the station in the vertical plane, approaching its final drop. A spring attaches to the cart to slow it. The spring has an unstretched length of ${{params.xi}}m$ and a stiffness of ${{params.k}}N/m$.
+The ${{params.m}}kg$ cart experiences its final drop from rest at A, and the track is a curve with radius $R = {{params.R}}m$.
+Calculate the velocity of the cart as it reaches its station at B, $x = {{params.x}}m$ away from the curve, if there is no friction.
 
 ## Part 1
 

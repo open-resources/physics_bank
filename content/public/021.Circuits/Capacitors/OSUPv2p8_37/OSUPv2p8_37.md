@@ -44,33 +44,25 @@ part1:
     suffix: $\rm\ \mu\textrm{F}$
 myst:
   substitutions:
-    params_vars_title: Adding Capacitances
-    params_a: '7'
-    params_b: '1'
-    params_c: '3.5'
-    params_d: '1.5'
-    params_e: '1.50'
-    params_f: '13'
+    params:
+      vars:
+        title: Adding Capacitances
+      a: '9'
+      b: '4'
+      c: '1.5'
+      d: '2.5'
+      e: '1.75'
+      f: '13'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
-Find the net capacitance of this combination of series and parallel capacitors shown below. Use the following values: $A = ${{params_a }}, $B =$ {{params_b }}, $C =$ {{params_c }}, $D =$ {{params_d }}, $E =$ {{params_e }}, and $F =$ {{params_f }}.
+Find the net capacitance of this combination of series and parallel capacitors shown below. Use the following values: $A = ${{params.a }}, $B =$ {{params.b }}, $C =$ {{params.c }}, $D =$ {{params.d }}, $E =$ {{params.e }}, and $F =$ {{params.f }}.
 
 <img src="Fig8_37.png">
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$C=$ {{ correct_answers.part1_ans_str }} $\rm\ \mu\textrm{F}$
 
 ## Attribution
 

@@ -31,15 +31,24 @@ part1:
     partial-credit-method: EDC
 myst:
   substitutions:
-    params_vars_title: Graphs of Projectile Motion
-    params_part1_ans1_value: Graph (i)
-    params_part1_ans2_value: Graph (ii)
-    params_part1_ans3_value: Graph (iii)
-    params_part1_ans4_value: Graph (iv)
-    params_part1_ans5_value: Graph (v)
-    params_part1_ans6_value: Graph (vi)
+    params:
+      vars:
+        title: Graphs of Projectile Motion
+      part1:
+        ans1:
+          value: Graph (i)
+        ans2:
+          value: Graph (ii)
+        ans3:
+          value: Graph (iii)
+        ans4:
+          value: Graph (iv)
+        ans5:
+          value: Graph (v)
+        ans6:
+          value: Graph (vi)
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -60,12 +69,12 @@ Which of the below sets of graphs is consistent with projectile motion? Assume t
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
-- {{ params_part1_ans6_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
+- {{ params.part1.ans6.value }}
 
 ## Attribution
 

@@ -32,14 +32,22 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Components of Net Force
-    params_part1_ans1_value: $\vec{n} + \vec{f_s} = m\vec{a}$
-    params_part1_ans2_value: $\vec{n} - \vec{f_s} = \frac{mv^2}{a} \vec{r}$
-    params_part1_ans3_value: $n cos(\theta) + f_s = \frac{mv^2}{a}$
-    params_part1_ans4_value: $n cos(\theta) - f_s = \frac{mv^2}{a}$
-    params_part1_ans5_value: $\vec{n_r} - \vec{f_{s,r}} = m\vec{a_r}$
+    params:
+      vars:
+        title: Components of Net Force
+      part1:
+        ans1:
+          value: $\vec{n} + \vec{f_s} = m\vec{a}$
+        ans2:
+          value: $\vec{n} - \vec{f_s} = \frac{mv^2}{a} \vec{r}$
+        ans3:
+          value: $n cos(\theta) + f_s = \frac{mv^2}{a}$
+        ans4:
+          value: $n cos(\theta) - f_s = \frac{mv^2}{a}$
+        ans5:
+          value: $\vec{n_r} - \vec{f_{s,r}} = m\vec{a_r}$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -51,11 +59,11 @@ The component of Newton's second law along the radial direction is:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 - {{ params.part1.ans6.value }}
 
 ## Attribution

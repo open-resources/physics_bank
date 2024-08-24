@@ -43,16 +43,18 @@ part2:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_title: Spinning Carnival Ride
-    params_alpha_dot: 0.32
-    params_beta_dot: 0.85
-    params_r1: 5
-    params_r2: 1.28
+    params:
+      vars:
+        title: Spinning Carnival Ride
+      alpha_dot: 0.27
+      beta_dot: 0.94
+      r1: 8
+      r2: 0.97
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The carnival ride illustrated below is spinning at $\dot \alpha = {{params.alpha_dot}} \ \rm{rev/s}$.
-Each compartment's center is $r_1 = {{params_r1}} \ \rm{m}$ away from the center of the mechanism.
-Passengers sit along the inner edge of the compartments, which have a radius $r_2 = {{params_r2}} \ \rm{m}$.
+Each compartment's center is $r_1 = {{params.r1}} \ \rm{m}$ away from the center of the mechanism.
+Passengers sit along the inner edge of the compartments, which have a radius $r_2 = {{params.r2}} \ \rm{m}$.
 The compartments and the mechanism are spinning counterclockwise.
 
 <img src="SpinningCarnivalRide.png" width=500 alt="A cross shape with circles at each end. Each circle is r1 away from the center, and each circle has radius r2. The whole mechanism spins at alpha dot, and a compartment is spinning at beta dot.">

@@ -32,35 +32,42 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Ball Over Obstacle
-    params_phrases_ball: soccer ball
-    params_phrases_action: kicks
-    params_phrases_obstacle: tree
-    params_d: 48
-    params_h: 26
-    params_v: 58
-    params_theta: 26
-    params_part1_ans1_value: It clears the tree
-    params_part1_ans1_feedback: Try again...
-    params_part1_ans2_value: It hits the tree
-    params_part1_ans2_feedback: Correct!
-    params_part1_ans3_value: It doesn't even reach the tree
-    params_part1_ans3_feedback: Try again...
+    params:
+      vars:
+        title: Ball Over Obstacle
+      phrases:
+        ball: baseball
+        action: throws
+        obstacle: wall
+      d: 56
+      h: 3
+      v: 28
+      theta: 61
+      part1:
+        ans1:
+          value: It clears the wall
+          feedback: Correct!
+        ans2:
+          value: It hits the wall
+          feedback: Try again...
+        ans3:
+          value: It doesn't even reach the wall
+          feedback: Try again...
 ---
-# {{ params_vars_title }}
-A person {{params_phrases_action}} a {{params_phrases_ball}} towards their friend who is behind a ${{params_h}} \ \rm{m}$ {{params_phrases_obstacle}}. The {{params_phrases_ball}} has an initial velocity of ${{params_v}} \ \rm{m/s}$ at an angle ${{params_theta}}^\circ$ relative to ground.
+# {{ params.vars.title }}
+A person {{params.phrases.action}} a {{params.phrases.ball}} towards their friend who is behind a ${{params.h}} \ \rm{m}$ {{params.phrases.obstacle}}. The {{params.phrases.ball}} has an initial velocity of ${{params.v}} \ \rm{m/s}$ at an angle ${{params.theta}}^\circ$ relative to ground.
 
 <img src="BallOverObstacle.png" width="800px">
 
 ## Part 1
 
-If the {{params_phrases_obstacle}} is ${{params_d}} \ \rm{m}$ away, how far does the {{params_phrases_ball}} go?
+If the {{params.phrases.obstacle}} is ${{params.d}} \ \rm{m}$ away, how far does the {{params.phrases.ball}} go?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

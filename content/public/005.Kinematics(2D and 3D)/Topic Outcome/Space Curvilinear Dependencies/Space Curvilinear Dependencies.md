@@ -30,15 +30,22 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Space Curvilinear Dependencies
-    params_part1_ans1_value: Three independent coordinates.
-    params_part1_ans2_value: One coordinate along the radial direction between the
-      origin and the location of the particle.
-    params_part1_ans3_value: Two independent coordinates.
-    params_part1_ans4_value: Two independent coordinates plus a third coordinate dependent
-      upon one of the independent coordinates.
+    params:
+      vars:
+        title: Space Curvilinear Dependencies
+      part1:
+        ans1:
+          value: Three independent coordinates.
+        ans2:
+          value: One coordinate along the radial direction between the origin and
+            the location of the particle.
+        ans3:
+          value: Two independent coordinates.
+        ans4:
+          value: Two independent coordinates plus a third coordinate dependent upon
+            one of the independent coordinates.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -46,10 +53,10 @@ Space curvilinear motion can be completely specified by using:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

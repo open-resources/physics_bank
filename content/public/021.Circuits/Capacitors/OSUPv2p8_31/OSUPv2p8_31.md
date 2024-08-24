@@ -62,13 +62,15 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Charge and Voltage Across Capacitors
-    params_a: '14'
-    params_b: '9'
-    params_v: '350'
+    params:
+      vars:
+        title: Charge and Voltage Across Capacitors
+      a: '11'
+      b: '7'
+      v: '330'
 ---
-# {{ params_vars_title }}
-A {{params_a }}$\textrm{ pF}$ capacitor is connected in series with a {{params_b }}$\textrm{ pF}$ capacitor and a {{params_v }}$\textrm{ V}$ potential difference is applied across the pair.
+# {{ params.vars.title }}
+A {{params.a }}$\textrm{ pF}$ capacitor is connected in series with a {{params.b }}$\textrm{ pF}$ capacitor and a {{params.v }}$\textrm{ V}$ potential difference is applied across the pair.
 
 ## Part 1
 
@@ -80,7 +82,7 @@ Please enter a numeric value.
 
 ## Part 2
 
-What is the voltage across the {{params_a }}$\textrm{ pF}$ capacitor?
+What is the voltage across the {{params.a }}$\textrm{ pF}$ capacitor?
 
 ### Answer Section
 
@@ -88,18 +90,11 @@ Please enter a numeric value.
 
 ## Part 3
 
-What is the voltage across the {{params_b }}$\textrm{ pF}$ capacitor?
+What is the voltage across the {{params.b }}$\textrm{ pF}$ capacitor?
 
 ### Answer Section
 
 Please enter a numeric value.
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
 
 ## Attribution
 

@@ -40,13 +40,15 @@ part1:
     custom-format: .3g
 myst:
   substitutions:
-    params_vars_title: Forming helium atoms
-    params_d: '0.680000'
-    params_p: -10
+    params:
+      vars:
+        title: Forming helium atoms
+      d: '0.570000'
+      p: -10
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 To form a helium atom, an alpha particle that contains two protons and two neutrons is fixed at one location, and two electrons are brought from far away, one at a time.
-The first electron is placed a distance $d = {{ params_d }}\times 10^{ {{ params_p }} }\rm\ m$ from the alpha particle and held there while the second electron is brought a distance $d = {{ params_d }}\times 10^{ {{ params_p }} }\rm\ m$ from the alpha particle on the other side from the first electron.
+The first electron is placed a distance $d = {{ params.d }}\times 10^{ {{ params.p }} }\rm\ m$ from the alpha particle and held there while the second electron is brought a distance $d = {{ params.d }}\times 10^{ {{ params.p }} }\rm\ m$ from the alpha particle on the other side from the first electron.
 The final configuration of the particles is shown in the figure.
 
 <img src="OSUPv2p7_73.png" width=400 alt="Final configuration of the alpha particle and electrons.">
@@ -58,10 +60,6 @@ What is the work done by the system to assemble the charges?
 ### Answer Section
 
 Please enter a numeric value.
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}
 
 ## Attribution
 

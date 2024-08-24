@@ -43,15 +43,17 @@ part2:
     suffix: $\rm{cm}$
 myst:
   substitutions:
-    params_vars_title: Springs in Parallel
-    params_k1: 430.0
-    params_k2: 400.0
-    params_F: 220.0
+    params:
+      vars:
+        title: Springs in Parallel
+      k1: 350.0
+      k2: 310.0
+      F: 260.0
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Springs in Parallel.png" height = 600> 
 
-Shown above is a massless pulley system with two springs attached in parallel with $k_1 = {{params_k1}} \ \rm{N/m}$ and $k_2 = {{params_k2}} \ \rm{N/m}$. A force $F = {{params_F}} \ \rm{N}$ is applied upwards. Determine the displacement $\Delta x_1$ and $\Delta x_2$ of each of the springs after we apply $F$.
+Shown above is a massless pulley system with two springs attached in parallel with $k_1 = {{params.k1}} \ \rm{N/m}$ and $k_2 = {{params.k2}} \ \rm{N/m}$. A force $F = {{params.F}} \ \rm{N}$ is applied upwards. Determine the displacement $\Delta x_1$ and $\Delta x_2$ of each of the springs after we apply $F$.
 
 ## Part 1
 

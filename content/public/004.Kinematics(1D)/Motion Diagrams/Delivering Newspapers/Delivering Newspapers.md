@@ -30,17 +30,26 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Delivering Newspapers
-    params_vars_name: Maya
-    params_part1_ans1_value: '2'
-    params_part1_ans2_value: '5'
-    params_part1_ans3_value: '1'
-    params_part1_ans4_value: '4'
-    params_part1_ans5_value: '7'
-    params_part1_ans6_value: '3'
+    params:
+      vars:
+        title: Delivering Newspapers
+        name: Emilia
+      part1:
+        ans1:
+          value: '2'
+        ans2:
+          value: '1'
+        ans3:
+          value: '5'
+        ans4:
+          value: '7'
+        ans5:
+          value: '6'
+        ans6:
+          value: '4'
 ---
-# {{ params_vars_title }}
-{{ params_vars_name }} delivers newspapers by throwing them out of the passenger window of their car, perpendicular to the motion of their car.
+# {{ params.vars.title }}
+{{ params.vars.name }} delivers newspapers by throwing them out of the passenger window of their car, perpendicular to the motion of their car.
 
 A motion diagram for their car is shown in the figure below.
 
@@ -56,16 +65,16 @@ The distance to the stairs of their next delivery is drawn to scale.
 
 ## Part 1
 
-Assuming that air resistance can be ignored, that {{ params_vars_name }} throws the paper relative to the car at the speed of the car, and that the paper remains in the air until it hits the stairs, at what time label from the figure does {{ params_vars_name }} throw the paper?
+Assuming that air resistance can be ignored, that {{ params.vars.name }} throws the paper relative to the car at the speed of the car, and that the paper remains in the air until it hits the stairs, at what time label from the figure does {{ params.vars.name }} throw the paper?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
-- {{ params_part1_ans6_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
+- {{ params.part1.ans6.value }}
 
 ## Attribution
 

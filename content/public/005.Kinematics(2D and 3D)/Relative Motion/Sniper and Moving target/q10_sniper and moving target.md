@@ -47,25 +47,32 @@ part3:
     hide-letter-keys: true
 myst:
   substitutions:
-    params_v_t: 85
-    params_b_t: 2.59
-    params_r: 4100.0
-    params_v_b: 220.0
-    params_part2_ans1_value: 'True'
-    params_part2_ans1_feedback: Great! You got it.
-    params_part2_ans2_value: 'False'
-    params_part2_ans2_feedback: The correct answer is True, because the angle the
-      velocity of the bullet relative to the criminal makes with the line of sight
-      of the criminal is always acute measured clockwise from the line of sight and
-      the range of rotation of the criminal's head is acute, hence the criminal can
-      always see the trajectory as it is within his field of view.
-    params_part3_ans1_value: 'True'
-    params_part3_ans1_feedback: The correct answer is False, because the angle the
-      velocity of the bullet relative to the criminal makes with the line of sight
-      of the criminal is always obtuse measured anti-clockwise but the range of rotation
-      of the criminal's head is acute.
-    params_part3_ans2_value: 'False'
-    params_part3_ans2_feedback: Great! You got it.
+    params:
+      v_t: 91
+      b_t: 2.26
+      r: 4700.0
+      v_b: 206.0
+      part2:
+        ans1:
+          value: 'True'
+          feedback: Great! You got it.
+        ans2:
+          value: 'False'
+          feedback: The correct answer is True, because the angle the velocity of
+            the bullet relative to the criminal makes with the line of sight of the
+            criminal is always acute measured clockwise from the line of sight and
+            the range of rotation of the criminal's head is acute, hence the criminal
+            can always see the trajectory as it is within his field of view.
+      part3:
+        ans1:
+          value: 'True'
+          feedback: The correct answer is False, because the angle the velocity of
+            the bullet relative to the criminal makes with the line of sight of the
+            criminal is always obtuse measured anti-clockwise but the range of rotation
+            of the criminal's head is acute.
+        ans2:
+          value: 'False'
+          feedback: Great! You got it.
 ---
 # Sniper and Moving Target
 A sniper has been ordered a hit on a dangerous criminal. It has been determined that the fugitive is being transported on a train and is seated in carriage B. The sniper plans to shoot during the time the train spends on the curve.
@@ -78,7 +85,7 @@ If the train moves with a constant speed of $v\_{train} = {{ params.v_t }}\ \rm{
 <br>
 Assume the bullet and train are on the same plane and neglect any resistive forces.
 <br>
-$v\_{bullet} = {{ params.v_b }}\ \rm{m/s}$, $R = {{ params_r }}\ \rm{m}$
+$v\_{bullet} = {{ params.v_b }}\ \rm{m/s}$, $R = {{ params.r }}\ \rm{m}$
 
 ### Answer Section
 
@@ -99,8 +106,8 @@ Use the angle calculated in the previous part of this question for $\theta$.
 
 ### Answer Section
 
-- {{ params_part2_ans1_value}}
-- {{ params_part2_ans2_value}}
+- {{ params.part2.ans1.value}}
+- {{ params.part2.ans2.value}}
 
 ## Part 3
 
@@ -112,8 +119,8 @@ Assume the criminal can only rotate his head a maximum of **$90^{\circ}$ anti-cl
 
 ### Answer Section
 
-- {{ params_part3_ans1_value}}
-- {{ params_part3_ans2_value}}
+- {{ params.part3.ans1.value}}
+- {{ params.part3.ans2.value}}
 
 ## Attribution
 

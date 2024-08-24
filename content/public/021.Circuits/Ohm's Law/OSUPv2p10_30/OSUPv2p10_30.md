@@ -116,13 +116,15 @@ part8:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Battery and Resistors
-    params_V: '52.0'
-    params_R1: '24.0'
-    params_R2: '94.0'
+    params:
+      vars:
+        title: Battery and Resistors
+      V: '51.0'
+      R1: '24.0'
+      R2: '76.0'
 ---
-# {{ params_vars_title }}
-Consider a ${{ params_V }}\rm\ V$ battery and two resistors: $R_1 = {{ params_R1 }}\rm\ \Omega$ and $R_2 = {{ params_R2 }}\rm\ \Omega$.
+# {{ params.vars.title }}
+Consider a ${{ params.V }}\rm\ V$ battery and two resistors: $R_1 = {{ params.R1 }}\rm\ \Omega$ and $R_2 = {{ params.R2 }}\rm\ \Omega$.
 
 ## Part 1
 

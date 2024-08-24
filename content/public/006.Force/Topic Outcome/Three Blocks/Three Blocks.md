@@ -98,40 +98,56 @@ part10:
     suffix: $\rm{N}$
 myst:
   substitutions:
-    params_vars_title: Three Blocks
-    params_vars_unit1: $\rm{m/s^2}$
-    params_vars_unit2: $\rm{N}$
-    params_m_A: 1.9
-    params_m_B: 3.8
-    params_m_C: 7.6
-    params_F: 22
-    params_part2_ans1_value: $F_{\text{on A}}$
-    params_part2_ans1_feedback: Correct! Nice work
-    params_part2_ans2_value: $m_B$
-    params_part2_ans2_feedback: Correct! Nice work
-    params_part2_ans3_value: $m_C$
-    params_part2_ans3_feedback: Correct! Nice work
-    params_part2_ans4_value: $m_A$
-    params_part2_ans4_feedback: Correct! Nice work
-    params_part2_ans5_value: $F_{\text{B on C}}$
-    params_part2_ans5_feedback: Not quite - Try again!
-    params_part2_ans6_value: $F_{\text{B on A}}$
-    params_part2_ans6_feedback: Not quite - Try again!
-    params_part3_ans1_value: $F_{\text{B on C}}$
-    params_part3_ans1_feedback: Correct! Nice work
-    params_part3_ans2_value: $F_{\text{B on A}}$
-    params_part3_ans2_feedback: Correct! Nice work
-    params_part3_ans3_value: $F_{\text{on A}}$
-    params_part3_ans3_feedback: Not quite - Try again!
-    params_part3_ans4_value: $m_B$
-    params_part3_ans4_feedback: Not quite - Try again!
-    params_part3_ans5_value: $m_C$
-    params_part3_ans5_feedback: Not quite - Try again!
-    params_part3_ans6_value: $m_A$
-    params_part3_ans6_feedback: Not quite - Try again!
+    params:
+      vars:
+        title: Three Blocks
+        unit1: $\rm{m/s^2}$
+        unit2: $\rm{N}$
+      m_A: 1.9
+      m_B: 3.8
+      m_C: 7.6
+      F: 13
+      part2:
+        ans1:
+          value: $m_C$
+          feedback: Correct! Nice work
+        ans2:
+          value: $F_{\text{on A}}$
+          feedback: Correct! Nice work
+        ans3:
+          value: $m_B$
+          feedback: Correct! Nice work
+        ans4:
+          value: $m_A$
+          feedback: Correct! Nice work
+        ans5:
+          value: $F_{\text{B on C}}$
+          feedback: Not quite - Try again!
+        ans6:
+          value: $F_{\text{B on A}}$
+          feedback: Not quite - Try again!
+      part3:
+        ans1:
+          value: $F_{\text{B on C}}$
+          feedback: Correct! Nice work
+        ans2:
+          value: $F_{\text{B on A}}$
+          feedback: Correct! Nice work
+        ans3:
+          value: $m_C$
+          feedback: Not quite - Try again!
+        ans4:
+          value: $F_{\text{on A}}$
+          feedback: Not quite - Try again!
+        ans5:
+          value: $m_B$
+          feedback: Not quite - Try again!
+        ans6:
+          value: $m_A$
+          feedback: Not quite - Try again!
 ---
-# {{ params_vars_title }}
-Three blocks with masses $m_A = $ {{ params.m_A }} $\rm{kg}$, $m_B = $ {{ params.m_B }} $\rm{kg}$, and $m_C = $ {{ params.m_C }} $\rm{kg}$ are lined up in a row on a frictionless table. All three blocks are pushed forward by a force applied to block $A$ as shown in the figure ($F\_\text{on A} = F =$ {{ params_F }} $\rm{N}$). We would like to determine the force block $B$ exerts on blocks $A$ and $C$.
+# {{ params.vars.title }}
+Three blocks with masses $m_A = $ {{ params.m_A }} $\rm{kg}$, $m_B = $ {{ params.m_B }} $\rm{kg}$, and $m_C = $ {{ params.m_C }} $\rm{kg}$ are lined up in a row on a frictionless table. All three blocks are pushed forward by a force applied to block $A$ as shown in the figure ($F\_\text{on A} = F =$ {{ params.F }} $\rm{N}$). We would like to determine the force block $B$ exerts on blocks $A$ and $C$.
 
 <img src="threeblocks.png" width=400 alt="Three blocks of increasing height labelled A, B, and C are lined up in a row. A force F is applied to block A, the smallest block. The blocks are placed in the first quadrant of a cartesian plane.">
 
@@ -155,12 +171,12 @@ Select all the choices that apply.
 
 Note: You will be awarded full marks only if you select all the correct choices and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params_part2_ans1_value}}
-- {{ params_part2_ans2_value}}
-- {{ params_part2_ans3_value}}
-- {{ params_part2_ans4_value}}
-- {{ params_part2_ans5_value}}
-- {{ params_part2_ans6_value}}
+- {{ params.part2.ans1.value}}
+- {{ params.part2.ans2.value}}
+- {{ params.part2.ans3.value}}
+- {{ params.part2.ans4.value}}
+- {{ params.part2.ans5.value}}
+- {{ params.part2.ans6.value}}
 
 ## Part 3
 
@@ -172,12 +188,12 @@ Select all the choices that apply.
 
 Note: You will be awarded full marks only if you select all the correct choices and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params_part3_ans1_value}}
-- {{ params_part3_ans2_value}}
-- {{ params_part3_ans3_value}}
-- {{ params_part3_ans4_value}}
-- {{ params_part3_ans5_value}}
-- {{ params_part3_ans6_value}}
+- {{ params.part3.ans1.value}}
+- {{ params.part3.ans2.value}}
+- {{ params.part3.ans3.value}}
+- {{ params.part3.ans4.value}}
+- {{ params.part3.ans5.value}}
+- {{ params.part3.ans6.value}}
 
 ## Part 4
 
@@ -249,7 +265,7 @@ Apply Newton's 2nd law and calculate the acceleration.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_unit1 }}.
+Please enter in a numeric value in {{ params.vars.unit1 }}.
 
 ## Part 9
 
@@ -257,7 +273,7 @@ Using the acceleration obtained in Part 8, determine the force exerted by block 
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_unit2 }}.
+Please enter in a numeric value in {{ params.vars.unit2 }}.
 
 ## Part 10
 
@@ -265,7 +281,7 @@ Using the acceleration obtained in Part 8, determine the force exerted by block 
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_unit2 }}.
+Please enter in a numeric value in {{ params.vars.unit2 }}.
 
 ## Attribution
 

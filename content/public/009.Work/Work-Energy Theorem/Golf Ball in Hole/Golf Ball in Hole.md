@@ -69,30 +69,37 @@ part5:
     digits: 2
 myst:
   substitutions:
-    params_h: 0.15
-    params_a: 52
-    params_r_h: 0.0732
-    params_r: 0.056
-    params_u: 1.3
-    params_part1_ans1_value: true
-    params_part1_ans2_value: false
-    params_part3_ans1_value: 'No'
-    params_part3_ans2_value: 'Yes'
+    params:
+      h: 0.4
+      a: 90
+      r_h: 0.4
+      r: 0.34
+      u: 2.1
+      part1:
+        ans1:
+          value: true
+        ans2:
+          value: false
+      part3:
+        ans1:
+          value: 'No'
+        ans2:
+          value: 'Yes'
 ---
 # Golf Ball in Hole
-A golf ball lands with a speed of $u = {{ params_u }}\ \rm{m/s}$ in a tapered frictionless hole as shown below.
+A golf ball lands with a speed of $u = {{ params.u }}\ \rm{m/s}$ in a tapered frictionless hole as shown below.
 
 <img src="part1.png" width=600>
 
 ## Part 1
 
 Does the golf ball remain in stable orbit at the circle of radius $r$, if the ball begins to rotate about the vertical axis of the hole at point A?<br>
-$r = {{ params_r }}\ \rm{m}$, $\alpha = {{ params_a }}^{\circ}$
+$r = {{ params.r }}\ \rm{m}$, $\alpha = {{ params.a }}^{\circ}$
 
 ### Answer Section
 
-- {{ params_part1_ans1_value}}
-- {{ params_part1_ans2_value}}
+- {{ params.part1.ans1.value}}
+- {{ params.part1.ans2.value}}
 
 ## Part 2
 
@@ -105,12 +112,12 @@ Please enter a value in $m/s$.
 ## Part 3
 
 Using principles of conservation of energy, does the ball spin out of the hole?<br>
-$H\_{hole} = {{ params_h }}\ \rm{m}$, $R\_{hole}= {{ params_r_h }}\ \rm{m}$.
+$H\_{hole} = {{ params.h }}\ \rm{m}$, $R\_{hole}= {{ params.r_h }}\ \rm{m}$.
 
 ### Answer Section
 
-- {{ params_part3_ans1_value}}
-- {{ params_part3_ans2_value}}
+- {{ params.part3.ans1.value}}
+- {{ params.part3.ans2.value}}
 
 ## Part 4
 

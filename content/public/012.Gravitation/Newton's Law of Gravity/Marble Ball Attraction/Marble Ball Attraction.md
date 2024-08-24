@@ -33,15 +33,17 @@ part1:
     suffix: $\rm{N}$
 myst:
   substitutions:
-    params_vars_title: Marble Ball Attraction
-    params_r: 0.71
-    params_d: 4.9
-    params_rho: 2600.0
+    params:
+      vars:
+        title: Marble Ball Attraction
+      r: 0.63
+      d: 4.0
+      rho: 3900.0
 ---
-# {{ params_vars_title }}
-Two marble spheres each with a radius of ${{params_r}} \ \rm{m}$, are positioned with their centres ${{params_d}} \ \rm{m}$ apart.
+# {{ params.vars.title }}
+Two marble spheres each with a radius of ${{params.r}} \ \rm{m}$, are positioned with their centres ${{params.d}} \ \rm{m}$ apart.
 Calculate the magnitude of the gravitational force between the two spheres.
-Density of marble: $\rho = {{params_rho}} \ \rm{kg/m^3}$
+Density of marble: $\rho = {{params.rho}} \ \rm{kg/m^3}$
 
 ## Part 1
 

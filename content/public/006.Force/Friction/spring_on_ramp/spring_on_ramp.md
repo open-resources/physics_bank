@@ -46,37 +46,39 @@ part2:
     suffix: m
 myst:
   substitutions:
-    params_vars_title: Spring on Ramp
-    params_vars_units: m
-    params_m: 7
-    params_theta: 40
-    params_k: 400
-    params_us: 0.7
-    params_uk: 0.4
+    params:
+      vars:
+        title: Spring on Ramp
+        units: m
+      m: 5
+      theta: 39
+      k: 100
+      us: 0.5
+      uk: 0.38
 ---
-# {{ params_vars_title }}
-In the figure below m = {{ params_m }} kg, $\theta$ = {{ params_theta }}$^\circ$, and k = {{ params_k }} N/m.
+# {{ params.vars.title }}
+In the figure below m = {{ params.m }} kg, $\theta$ = {{ params.theta }}$^\circ$, and k = {{ params.k }} N/m.
 In this problem assume that the ramp never moves and that there is friction between the block and the ramp.
 
 <img src="q16image.png" width=400 alt="Block being pulled up a ramp by a spring">
 
 ## Part 1
 
-If the coefficient of static friction between the block and the ramp is $\mu_s$ = {{ params_us }}, what is the maximum amount that the spring can be stretched beyond its equilibrium length before the block begins to slide up the ramp?
+If the coefficient of static friction between the block and the ramp is $\mu_s$ = {{ params.us }}, what is the maximum amount that the spring can be stretched beyond its equilibrium length before the block begins to slide up the ramp?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
 Suppose now that the block is sliding up the ramp at a constant velocity.
 By what length is the spring stretched?
-Assume that the coefficient of kinetic friction is $\mu_k$ = {{ params_uk }}.
+Assume that the coefficient of kinetic friction is $\mu_k$ = {{ params.uk }}.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

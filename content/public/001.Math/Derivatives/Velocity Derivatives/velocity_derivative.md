@@ -29,31 +29,39 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Velocity to Acceleration
-    params_vars_units: $m/s^2$
-    params_c: 0.8
-    params_t: 10
-    params_part1_ans1_value: 0.0016
-    params_part1_ans2_value: -0.0016
-    params_part1_ans3_value: -0.008
-    params_part1_ans4_value: 0.008
-    params_part1_ans5_value: The acceleration is 0
+    params:
+      vars:
+        title: Velocity to Acceleration
+        units: $m/s^2$
+      c: 1.3
+      t: 2
+      part1:
+        ans1:
+          value: 0.33
+        ans2:
+          value: -0.33
+        ans3:
+          value: -0.33
+        ans4:
+          value: 0.33
+        ans5:
+          value: The acceleration is 0
 ---
-# {{ params_vars_title }}
-The velocity of an object moving along the x-axis is given by $v_x$ = -$ct^{-2}$, where $c$ = {{params_c}} m/s
+# {{ params.vars.title }}
+The velocity of an object moving along the x-axis is given by $v_x$ = -$ct^{-2}$, where $c$ = {{params.c}} m/s
 and $v_x$ and $t$ are in metres per second and seconds respectively.
 
 ## Part 1
 
-What is the instantaneous acceleration of the object when $t$ = {{params_t}} s?
+What is the instantaneous acceleration of the object when $t$ = {{params.t}} s?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params_vars_units}}
-- {{ params_part1_ans2_value }} {{ params_vars_units}}
-- {{ params_part1_ans3_value }} {{ params_vars_units}}
-- {{ params_part1_ans4_value }} {{ params_vars_units}}
-- {{ params_part1_ans5_value }} {{ params_vars_units}}
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

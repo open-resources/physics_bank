@@ -35,15 +35,17 @@ part1:
     suffix: $m$
 myst:
   substitutions:
-    params_vars_title: Block In Hole
-    params_vars_units: m
-    params_a: 30
-    params_d: 0.6
+    params:
+      vars:
+        title: Block In Hole
+        units: m
+      a: 29
+      d: 1.0
 ---
-# {{ params_vars_title }}
-A small block is placed at height $h$ on a frictionless, {{params_a}}$^\circ$ ramp.
-Upon being released (from rest), the block slides down the ramp and then falls {{params_d}} $m$ to the floor.
-A small hole is located {{params_d}} $m$ from the end of the ramp.
+# {{ params.vars.title }}
+A small block is placed at height $h$ on a frictionless, {{params.a}}$^\circ$ ramp.
+Upon being released (from rest), the block slides down the ramp and then falls {{params.d}} $m$ to the floor.
+A small hole is located {{params.d}} $m$ from the end of the ramp.
 
 <img src="Q11.png" alt= "A block is placed on the top of a ramp sliding downwards. The angle of the ramp is labelled theta. There is a vertical distance at the end of the ramp followed by a horizontal distance to the hole" width=300>
 
@@ -53,7 +55,7 @@ From what height $h$ should the block be released in order to land in the hole?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

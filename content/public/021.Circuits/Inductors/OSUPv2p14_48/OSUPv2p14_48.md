@@ -43,11 +43,13 @@ part1:
     atol: 0
 myst:
   substitutions:
-    params_vars_title: Energy Stored in Different Coils
-    params_num: '3'
+    params:
+      vars:
+        title: Energy Stored in Different Coils
+      num: '4'
 ---
-# {{ params_vars_title }}
-Solenoid $A$ is tightly wound while solenoid $B$ has windings that are evenly spaced with a gap equal to ${\rm {{ params_num }}} d$, where $d$ is the diameter of the wire.
+# {{ params.vars.title }}
+Solenoid $A$ is tightly wound while solenoid $B$ has windings that are evenly spaced with a gap equal to ${\rm {{ params.num }}} d$, where $d$ is the diameter of the wire.
 The solenoids are otherwise identical.
 
 ## Question Text
@@ -55,16 +57,6 @@ The solenoids are otherwise identical.
 Determine the ratio of the energies stored per unit length of these solenoids when the same current flows through each.
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$E_B/E_A =$ {{ correct_answers.part1_ans_str }}.
 
 ## Attribution
 

@@ -49,9 +49,10 @@ part2:
     digits: 2
 myst:
   substitutions:
-    params_v_r: 20
-    params_v_b_r: 37
-    params_theta: 80
+    params:
+      v_r: 20
+      v_b_r: 36
+      theta: 163
 ---
 # Railcar Softball Pitch
 A softball pitcher stands atop a moving railcar which is moving in a straight line with a speed of $v\_{railcar} = {{ params.v_r }}\ \rm{m/s}$ as illustrated in the figure below.
@@ -60,7 +61,7 @@ A softball pitcher stands atop a moving railcar which is moving in a straight li
 
 ## Part 1
 
-If the pitcher throws a ball horizontally at a speed of $v\_{ball/railcar} = {{ params.v_b_r }}\ \rm{m/s}$ relative to the railcar at an angle $\theta = {{ params_theta }}\ \rm{^{\circ}}$ measured counterclockwise from the direction of motion of the car, what is the speed($v\_{ball}$) of the ball relative to the ground at the instant of projection?
+If the pitcher throws a ball horizontally at a speed of $v\_{ball/railcar} = {{ params.v_b_r }}\ \rm{m/s}$ relative to the railcar at an angle $\theta = {{ params.theta }}\ \rm{^{\circ}}$ measured counterclockwise from the direction of motion of the car, what is the speed($v\_{ball}$) of the ball relative to the ground at the instant of projection?
 <br>
 
 ### Answer Section

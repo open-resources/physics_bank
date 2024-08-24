@@ -42,16 +42,18 @@ part2:
     suffix: $^{\circ}$
 myst:
   substitutions:
-    params_vars_title: Crane and Construction Worker
-    params_m: 53
-    params_F_crane: 699
-    params_F_worker: 67
-    params_theta: 35
+    params:
+      vars:
+        title: Crane and Construction Worker
+      m: 144
+      F_crane: 1941
+      F_worker: 287
+      theta: 22
 ---
-# {{ params_vars_title }}
-A crane is lifting a ${{params_m}} \ \rm{kg}$ block.
+# {{ params.vars.title }}
+A crane is lifting a ${{params.m}} \ \rm{kg}$ block.
 The tension on the crane's rope is ${{params.F_crane}} \ \rm{N}$.
-A construction worker guides the object using a rope angled $\theta={{params_theta}}^{\circ}$ from the vertical.
+A construction worker guides the object using a rope angled $\theta={{params.theta}}^{\circ}$ from the vertical.
 The worker pulls the rope with a force of ${{params.F_worker}} \ \rm{N}$.
 
 <img src="CraneAndConstructionWorker.png" width=251 alt="A block is pulled upwards with a rope. A man pulls diagonally downwards on a rope attached to the block." >

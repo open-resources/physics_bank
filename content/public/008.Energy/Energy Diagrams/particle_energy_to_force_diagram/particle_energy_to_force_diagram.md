@@ -32,9 +32,11 @@ part1:
     file-names: diagram.pdf
 myst:
   substitutions:
-    params_vars_title: Particle Energy to Force Diagram
+    params:
+      vars:
+        title: Particle Energy to Force Diagram
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 

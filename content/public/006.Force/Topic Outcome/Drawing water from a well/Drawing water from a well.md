@@ -45,16 +45,18 @@ part2:
     suffix: $m$
 myst:
   substitutions:
-    params_vars_title: Drawing Water from a Well
-    params_vars_unit1: $N$
-    params_vars_unit2: $m$
-    params_M: 3.79
-    params_m: 3.51
-    params_R: 0.349
-    params_t: 14.4
+    params:
+      vars:
+        title: Drawing Water from a Well
+        unit1: $N$
+        unit2: $m$
+      M: 5.41
+      m: 2.18
+      R: 0.407
+      t: 5.06
 ---
-# {{ params_vars_title }}
-As shown in the figure, a solid, uniform, frictionless cylindrical reel of mass $M = $ {{ params_M }} $kg$ and radius $R = $ {{ params_R }} $m$ is used to draw water from a well. A bucket of mass $m = $ {{ params_m }} $kg$ is  attached to a massless cord that is wrapped around the cylinder.
+# {{ params.vars.title }}
+As shown in the figure, a solid, uniform, frictionless cylindrical reel of mass $M = $ {{ params.M }} $kg$ and radius $R = $ {{ params.R }} $m$ is used to draw water from a well. A bucket of mass $m = $ {{ params.m }} $kg$ is  attached to a massless cord that is wrapped around the cylinder.
 
 <img src="q11_2013practiceFinal.png" alt="Figure of a bucket attached to a cylindrical reel and a well." width=300>
 
@@ -64,15 +66,15 @@ If the bucket is released from rest at the top of the well, find the tension $T$
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_unit1 }}.
+Please enter in a numeric value in {{ params.vars.unit1 }}.
 
 ## Part 2
 
-If the bucket falls for {{ params_t }} $s$ before hitting the water, how far does it fall?
+If the bucket falls for {{ params.t }} $s$ before hitting the water, how far does it fall?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_unit2 }}.
+Please enter in a numeric value in {{ params.vars.unit2 }}.
 
 ## Attribution
 

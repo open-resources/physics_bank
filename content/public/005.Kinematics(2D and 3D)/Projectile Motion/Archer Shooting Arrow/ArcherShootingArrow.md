@@ -60,16 +60,18 @@ part4:
     suffix: $\rm{ft/s}$
 myst:
   substitutions:
-    params_vars_title: Archer Shooting Arrow
-    params_v: 120
-    params_thetad: 24
-    params_d: 87
+    params:
+      vars:
+        title: Archer Shooting Arrow
+      v: 169
+      thetad: 18
+      d: 66
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Archer Shooting Arrow.png" width=800>
 
-An archer shoots an arrow up into the air to hit a bird with an initial speed of $v = {{ params_v }} \ \rm{ft/s}$.
-Their friend, who is standing $d = {{ params_d }}\ \rm{ft}$ away, sees the arrow at an angle of $\theta = {{ params_thetad }}^{\circ}$ with respect to the horizontal.
+An archer shoots an arrow up into the air to hit a bird with an initial speed of $v = {{ params.v }} \ \rm{ft/s}$.
+Their friend, who is standing $d = {{ params.d }}\ \rm{ft}$ away, sees the arrow at an angle of $\theta = {{ params.thetad }}^{\circ}$ with respect to the horizontal.
 
 ## Part 1
 

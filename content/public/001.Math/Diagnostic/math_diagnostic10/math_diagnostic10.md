@@ -30,30 +30,38 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Math Diagnostic10
-    params_a: -5
-    params_b: '12'
-    params_b_sign: ' + '
-    params_c: -14
-    params_part1_ans1_value: x =  - 9/12
-    params_part1_ans2_value: x =   9/12
-    params_part1_ans3_value: x = -21
-    params_part1_ans4_value: x = -31
-    params_part1_ans5_value: This equation cannot be solved
+    params:
+      vars:
+        title: Math Diagnostic10
+      a: 10
+      b: '11'
+      b_sign: ' + '
+      c: -9
+      part1:
+        ans1:
+          value: x =  - 19/11
+        ans2:
+          value: x =   19/11
+        ans3:
+          value: x = -30
+        ans4:
+          value: x = -10
+        ans5:
+          value: This equation cannot be solved
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
-The solution of the equation {{params_a}} {{params_b_sign}} {{params_b}}x = {{params_c}} is:
+The solution of the equation {{params.a}} {{params.b_sign}} {{params.b}}x = {{params.c}} is:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

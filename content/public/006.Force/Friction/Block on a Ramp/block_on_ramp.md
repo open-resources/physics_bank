@@ -31,33 +31,41 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Block on a Ramp
-    params_m: 48
-    params_theta: 38
-    params_mu: 0.5
-    params_part1_ans1_value: 290.0 $N$, up the incline
-    params_part1_ans2_value: 370.0 $N$, up the incline
-    params_part1_ans3_value: 140.0 $N$, down the incline
-    params_part1_ans4_value: 190.0 $N$, down the incline
-    params_part1_ans5_value: 290.0 $N$, down the incline
+    params:
+      vars:
+        title: Block on a Ramp
+      m: 21
+      theta: 19
+      mu: 0.3
+      part1:
+        ans1:
+          value: 67.0 $N$, up the incline
+        ans2:
+          value: 190.0 $N$, up the incline
+        ans3:
+          value: 20.0 $N$, down the incline
+        ans4:
+          value: 58.0 $N$, down the incline
+        ans5:
+          value: 67.0 $N$, down the incline
 ---
-# {{ params_vars_title }}
-A mass of {{params_m}} $kg$ sits at rest on an incline making an angle of {{params_theta}} $^\circ$ with respect to the horizontal.
+# {{ params.vars.title }}
+A mass of {{params.m}} $kg$ sits at rest on an incline making an angle of {{params.theta}} $^\circ$ with respect to the horizontal.
 
 <img src="Q2.png" width=300 alt = "a block sits on a ramp that makes angle theta with the horizontal">
 
 ## Part 1
 
-If $\mu_s$ = {{params_mu}}, what is the friction force on the block?
+If $\mu_s$ = {{params.mu}}, what is the friction force on the block?
 Choose the best answer.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

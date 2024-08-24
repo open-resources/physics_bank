@@ -43,13 +43,15 @@ part2:
     suffix: $W$
 myst:
   substitutions:
-    params_vars_title: Power Climbing Stairs
-    params_W: 179
-    params_t: 3
-    params_h: 12
+    params:
+      vars:
+        title: Power Climbing Stairs
+      W: 194
+      t: 3
+      h: 14
 ---
-# {{ params_vars_title }}
-A ${{ params_W }}lb$ jogger jogs up a flight of stairs ${{ params_h }}ft$ high in ${{ params_t }}$ seconds.
+# {{ params.vars.title }}
+A ${{ params.W }}lb$ jogger jogs up a flight of stairs ${{ params.h }}ft$ high in ${{ params.t }}$ seconds.
 
 <img src="Power Climbing Stairs.png" width=400>
 

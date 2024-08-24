@@ -41,28 +41,20 @@ part1:
     suffix: $\rm\ A$
 myst:
   substitutions:
-    params_vars_title: Solenoid current
-    params_n: '15'
-    params_B: $4.0\times 10^{-1}$
+    params:
+      vars:
+        title: Solenoid current
+      n: '15'
+      B: $4.6\times 10^{-2}$
 ---
-# {{ params_vars_title }}
-A solenoid has {{ params_n }} turns per centimeter.
+# {{ params.vars.title }}
+A solenoid has {{ params.n }} turns per centimeter.
 
 ## Question Text
 
-What current will produce a magnetic field of {{ params_B }} $\rm\ T$ within the solenoid?
+What current will produce a magnetic field of {{ params.B }} $\rm\ T$ within the solenoid?
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$I=$ {{ correct_answers.part1_ans_str }} $\rm\ A$
 
 ## Attribution
 

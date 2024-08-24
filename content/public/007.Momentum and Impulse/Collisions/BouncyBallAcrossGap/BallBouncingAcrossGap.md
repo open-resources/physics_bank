@@ -43,17 +43,19 @@ part2:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params_vars_title: Ball Bouncing Across Gap
-    params_h1: 2.05
-    params_h2: 1.45
-    params_v: 8
-    params_theta: 44
-    params_e: 0.77
+    params:
+      vars:
+        title: Ball Bouncing Across Gap
+      h1: 2.67
+      h2: 0.83
+      v: 9
+      theta: 35
+      e: 0.76
 ---
-# {{ params_vars_title }}
-A rubber ball is launched off a platform $h_1={{params_h1}} \ \rm{m}$ high with an initial velocity $v={{params_v}} \ \rm{m/s}$ at an angle ${{params_theta}}^\circ$.
-The ball bounces its way onto another platform $h_2={{params_h2}} \ \rm{m}$ high.
-The coefficient of restitution between the ball and the ground is ${{params_e}}$.
+# {{ params.vars.title }}
+A rubber ball is launched off a platform $h_1={{params.h1}} \ \rm{m}$ high with an initial velocity $v={{params.v}} \ \rm{m/s}$ at an angle ${{params.theta}}^\circ$.
+The ball bounces its way onto another platform $h_2={{params.h2}} \ \rm{m}$ high.
+The coefficient of restitution between the ball and the ground is ${{params.e}}$.
 The ball just barely makes it onto the platform.
 In other words, if the platform was any farther, the ball wouldn't have made it.
 

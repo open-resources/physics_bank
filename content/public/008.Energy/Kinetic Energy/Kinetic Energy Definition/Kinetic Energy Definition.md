@@ -30,15 +30,22 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Kinetic Energy Definition
-    params_part1_ans1_value: A scalar quantity
-    params_part1_ans2_value: A vector quantity for which the direction is that of
-      the velocity of the particle
-    params_part1_ans3_value: Directly proportional to the velocity of the particle
-    params_part1_ans4_value: A positive quantity if the velocity is in the positive
-      direction and negative if the velocity is in the negative direction
+    params:
+      vars:
+        title: Kinetic Energy Definition
+      part1:
+        ans1:
+          value: A scalar quantity
+        ans2:
+          value: A vector quantity for which the direction is that of the velocity
+            of the particle
+        ans3:
+          value: Directly proportional to the velocity of the particle
+        ans4:
+          value: A positive quantity if the velocity is in the positive direction
+            and negative if the velocity is in the negative direction
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -46,10 +53,10 @@ Kinetic energy of a particle is:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

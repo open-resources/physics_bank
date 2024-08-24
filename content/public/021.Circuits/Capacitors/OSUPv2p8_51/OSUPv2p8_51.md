@@ -47,13 +47,15 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Filling a Capacitor with Dielectric Material
-    params_d: '1.00'
-    params_a: '9.0'
-    params_k: '4.0'
+    params:
+      vars:
+        title: Filling a Capacitor with Dielectric Material
+      d: '1.25'
+      a: '7.0'
+      k: '6.0'
 ---
-# {{ params_vars_title }}
-An air-filled capacitor is made from two flat parallel plates ${{params_d }} \textrm{ mm}$ apart. The inside area of each plate is ${{params_a }} \rm\ cm^2$.
+# {{ params.vars.title }}
+An air-filled capacitor is made from two flat parallel plates ${{params.d }} \textrm{ mm}$ apart. The inside area of each plate is ${{params.a }} \rm\ cm^2$.
 
 ## Part 1
 
@@ -65,18 +67,11 @@ Please enter a numeric value.
 
 ## Part 2
 
-If the region between the conductors is filled with a material whose dielectric constant is ${{params_k }}$, what is the new capacitance? Enter your answer in units of pF.
+If the region between the conductors is filled with a material whose dielectric constant is ${{params.k }}$, what is the new capacitance? Enter your answer in units of pF.
 
 ### Answer Section
 
 Please enter a numeric value.
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
 
 ## Attribution
 

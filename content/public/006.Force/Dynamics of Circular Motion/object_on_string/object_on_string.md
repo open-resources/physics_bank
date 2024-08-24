@@ -33,34 +33,41 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Object Swung in Circular Path
-    params_vars_units: $\rm{N}$
-    params_m: 0.6
-    params_r: 9.04
-    params_w: 9
-    params_part1_ans1_value: 433.46
-    params_part1_ans1_feedback: Great! You got it.
-    params_part1_ans2_value: 386.19
-    params_part1_ans2_feedback: Hmm... try double-checking your algebra.
-    params_part1_ans3_value: 439.34
-    params_part1_ans3_feedback: Try considering how gravity might effect the tension.
-    params_part1_ans4_value: 192.08
-    params_part1_ans4_feedback: Hmm, not quite.
+    params:
+      vars:
+        title: Object Swung in Circular Path
+        units: $\rm{N}$
+      m: 1.96
+      r: 4.78
+      w: 6
+      part1:
+        ans1:
+          value: 318.07
+          feedback: Great! You got it.
+        ans2:
+          value: 245.46
+          feedback: Hmm... try double-checking your algebra.
+        ans3:
+          value: 337.28
+          feedback: Try considering how gravity might effect the tension.
+        ans4:
+          value: 192.08
+          feedback: Hmm, not quite.
 ---
-# {{ params_vars_title }}
-A {{params_m}} $\rm{kg}$ object attached to the end of a string of length {{params_r}} $\rm{m}$ is swung in a circular path
+# {{ params.vars.title }}
+A {{params.m}} $\rm{kg}$ object attached to the end of a string of length {{params.r}} $\rm{m}$ is swung in a circular path
 and in a vertical plane.
 
 ## Part 1
 
-If a constant angular speed of {{params_w}} $\rm{rad/s}$ is maintained, what is the magnitude of the tension in the string when the object is at the top of the circular path?
+If a constant angular speed of {{params.w}} $\rm{rad/s}$ is maintained, what is the magnitude of the tension in the string when the object is at the top of the circular path?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params_vars_units}}
-- {{ params_part1_ans2_value }} {{ params_vars_units}}
-- {{ params_part1_ans3_value }} {{ params_vars_units}}
-- {{ params_part1_ans4_value }} {{ params_vars_units}}
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
 
 ## Attribution
 

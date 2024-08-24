@@ -34,17 +34,19 @@ part1:
     suffix: null
 myst:
   substitutions:
-    params_vars_title: Beads on Loop
-    params_v: 6
-    params_r: 0.15
-    params_mu: 0.13
+    params:
+      vars:
+        title: Beads on Loop
+      v: 6
+      r: 0.22
+      mu: 0.41
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="BeadsOnLoop.png" width=90%>
 
 A common toy for children is a bent metal track upon which children push beads.
-On this specific track, a set of beads is pushed in a simple circle, with radius $r = {{ params_r }} \ \rm{cm}$.
-If the beads are spun around fast, with an initial velocity $v = {{ params_v }} \ \rm{m/s}$, how far will it travel before it stops? Assume the coefficient of friction is $\mu = {{ params_mu }}$.
+On this specific track, a set of beads is pushed in a simple circle, with radius $r = {{ params.r }} \ \rm{cm}$.
+If the beads are spun around fast, with an initial velocity $v = {{ params.v }} \ \rm{m/s}$, how far will it travel before it stops? Assume the coefficient of friction is $\mu = {{ params.mu }}$.
 
 ## Part 1
 

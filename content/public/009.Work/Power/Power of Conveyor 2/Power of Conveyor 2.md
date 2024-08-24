@@ -34,21 +34,23 @@ part1:
     suffix: $\rm{ft-lb/s}$
 myst:
   substitutions:
-    params_vars_title: Power of Conveyor 2
-    params_theta: 43.0
-    params_v: 10.0
-    params_L: 17.0
-    params_W: 0.52
-    params_mu: 0.52
+    params:
+      vars:
+        title: Power of Conveyor 2
+      theta: 28.0
+      v: 4.3
+      L: 13.0
+      W: 0.3
+      mu: 0.3
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Power of Conveyer 2.png" width=600>
 
 The conveyor above contains a slide plate below the belt, which is used for structure.
-This plate gives a coefficient of friction of $\mu = {{ params_mu }}$ between the plate and the belt.
-The belt is then loaded with a load, with a weight density of $W = {{ params_W }} \ \rm{lb/ft}$.\
-How much horsepower is required to run the belt at a velocity of $v = {{ params_v }} \ \rm{ft/s}$ ?
-The belt is $L = {{ params_L }} \ \rm{ft}$ long and angled at $\theta = {{ params_theta }}^{\circ}$.
+This plate gives a coefficient of friction of $\mu = {{ params.mu }}$ between the plate and the belt.
+The belt is then loaded with a load, with a weight density of $W = {{ params.W }} \ \rm{lb/ft}$.\
+How much horsepower is required to run the belt at a velocity of $v = {{ params.v }} \ \rm{ft/s}$ ?
+The belt is $L = {{ params.L }} \ \rm{ft}$ long and angled at $\theta = {{ params.theta }}^{\circ}$.
 Assume the load is constantly fed onto the belt and transitions smoothly.
 Assume the belt itself is massless.
 

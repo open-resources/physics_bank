@@ -57,22 +57,24 @@ part4:
     digits: 2
 myst:
   substitutions:
-    params_vars_title: Terminal Velocity of a Coffee Filter
-    params_vars_name: Mateo
-    params_vars_unit1: $m/s$
-    params_vars_unit2: $kg/s$
-    params_m: 3
-    params_d_m: 57
-    params_sd: 0.047
-    params_v1: 0.93
-    params_v2: 0.96
-    params_v3: 0.92
-    params_v4: 0.84
-    params_v5: 0.89
-    params_v6: 0.83
+    params:
+      vars:
+        title: Terminal Velocity of a Coffee Filter
+        name: Ximena
+        unit1: $m/s$
+        unit2: $kg/s$
+      m: 3
+      d_m: 46
+      sd: 0.078
+      v1: 0.95
+      v2: 0.83
+      v3: 0.91
+      v4: 0.9
+      v5: 0.82
+      v6: 0.71
 ---
-# {{ params_vars_title }}
-In one of the PHYS 111 labs {{ params_vars_name }} measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling through the air.
+# {{ params.vars.title }}
+In one of the PHYS 111 labs {{ params.vars.name }} measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling through the air.
 In equilibrium, the drag force acting on the coffee filter exactly balances the gravitational force on the filter such that:
 
 $bv_T = mg$
@@ -83,14 +85,14 @@ Suppose that the following six measurements of a coffee filter's terminal veloci
 
 | Trial     | $v_T$ ($m/s$) |
 | ----------- | ----------- |
-| 1     |  {{ params_v1 }}     |
-| 2   |   {{ params_v2 }}      |
-| 3     |  {{ params_v3 }}     |
-| 4   |   {{ params_v4 }}      |
-| 5     |  {{ params_v5 }}     |
-| 6   |   {{ params_v6 }}      |
+| 1     |  {{ params.v1 }}     |
+| 2   |   {{ params.v2 }}      |
+| 3     |  {{ params.v3 }}     |
+| 4   |   {{ params.v4 }}      |
+| 5     |  {{ params.v5 }}     |
+| 6   |   {{ params.v6 }}      |
 
-The standard deviation of this data set is {{ params_sd }} $m/s$.
+The standard deviation of this data set is {{ params.sd }} $m/s$.
 
 ## Part 1
 
@@ -98,7 +100,7 @@ Use the experimental data to determine the uncertainty in the average value of t
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_unit1 }}.
+Please enter in a numeric value in {{ params.vars.unit1 }}.
 
 ## Part 2
 
@@ -106,23 +108,23 @@ Use the experimental data to determine the average value of the terminal velocit
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_unit1 }}.
+Please enter in a numeric value in {{ params.vars.unit1 }}.
 
 ## Part 3
 
-If the coffee filter has a mass of $m = $ {{ params_m }} $\pm$ {{ params.d_m }} $g$, determine the value of the uncertainty in the drag coefficient $b$.  State your answer using the appropriate number of significant figures. Assume that $g= 9.81 kg/s$ and has negligible uncertainty.
+If the coffee filter has a mass of $m = $ {{ params.m }} $\pm$ {{ params.d_m }} $g$, determine the value of the uncertainty in the drag coefficient $b$.  State your answer using the appropriate number of significant figures. Assume that $g= 9.81 kg/s$ and has negligible uncertainty.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_unit2 }}.
+Please enter in a numeric value in {{ params.vars.unit2 }}.
 
 ## Part 4
 
-If the coffee filter has a mass of $m = $ {{ params_m }} $\pm$ {{ params.d_m }} $g$, determine the value of the drag coefficient $b$.  State your answer using the appropriate number of significant figures. Assume that $g= 9.81 kg/s$ and has negligible uncertainty.
+If the coffee filter has a mass of $m = $ {{ params.m }} $\pm$ {{ params.d_m }} $g$, determine the value of the drag coefficient $b$.  State your answer using the appropriate number of significant figures. Assume that $g= 9.81 kg/s$ and has negligible uncertainty.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_unit2 }}.
+Please enter in a numeric value in {{ params.vars.unit2 }}.
 
 ## Attribution
 

@@ -29,11 +29,16 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Inducing Current in Copper Loop
-    params_part1_ans1_value: Counterclockwise
-    params_part1_ans2_value: Clockwise
+    params:
+      vars:
+        title: Inducing Current in Copper Loop
+      part1:
+        ans1:
+          value: Counterclockwise
+        ans2:
+          value: Clockwise
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -43,8 +48,8 @@ The north pole of a magnet is moved toward a copper loop, as shown below. If you
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Attribution
 

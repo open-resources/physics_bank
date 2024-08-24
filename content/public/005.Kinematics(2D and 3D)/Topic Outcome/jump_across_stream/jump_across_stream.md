@@ -92,24 +92,29 @@ part9:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Jump Across Stream
-    params_vars_units: m
-    params_m: 331
-    params_w_s: 6
-    params_h_s: 1
-    params_v_i: 4
-    params_v_j: 3
-    params_h_b: 2
-    params_part5_ans1_value: Yes, the bear makes it to the other side of the stream.
-    params_part5_ans2_value: No, the bear does not make it to the other side of the
-      stream.
-    params_part9_ans1_value: The problem would become a 1-D problem with motion only
-      in the $y$-direction.
-    params_part9_ans2_value: The problem would become a 1-D problem with motion only
-      in the $x$-direction.
+    params:
+      vars:
+        title: Jump Across Stream
+        units: m
+      m: 243
+      w_s: 2
+      h_s: 1
+      v_i: 3
+      v_j: 4
+      h_b: 4
+      part5:
+        ans1:
+          value: Yes, the bear makes it to the other side of the stream.
+        ans2:
+          value: No, the bear does not make it to the other side of the stream.
+      part9:
+        ans1:
+          value: The problem would become a 1-D problem with motion only in the $y$-direction.
+        ans2:
+          value: The problem would become a 1-D problem with motion only in the $x$-direction.
 ---
-# {{ params_vars_title }}
-A very bored {{params_m}} $kg$ bear decided to jump across a stream.
+# {{ params.vars.title }}
+A very bored {{params.m}} $kg$ bear decided to jump across a stream.
 The stream is {{params.w_s}} $m$ wide and the east bank of the stream is {{params.h_s}} $\rm{m}$ higher than the west bank (where the bear starts).
 The bear can jump with an initial velocity $\overrightarrow{V_i} = $ {{params.v_i}}$\rm{m\over s}\hat{\imath}+$ {{params.v_j}} $\rm{m\over s}\hat{\jmath}$, and decides to start from {{params.h_b}} $\rm{m}$ in the air, halfway up a sturdy tree.
 
@@ -171,8 +176,8 @@ Does the bear make it to the other side of the stream?
 
 ### Answer Section
 
-- {{ params_part5_ans1_value}}
-- {{ params_part5_ans2_value}}
+- {{ params.part5.ans1.value}}
+- {{ params.part5.ans2.value}}
 
 ## Part 6
 
@@ -180,7 +185,7 @@ When the bear is at its highest ($y$ or vertical) position above the stream, wha
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 7
 
@@ -188,7 +193,7 @@ Where is the $y$-coordinate of the bear's highest position above the stream?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 8
 
@@ -211,8 +216,8 @@ This question is much easier to do in the frame of an observer moving with veloc
 
 ### Answer Section
 
-- {{ params_part9_ans1_value}}
-- {{ params_part9_ans2_value}}
+- {{ params.part9.ans1.value}}
+- {{ params.part9.ans2.value}}
 
 ## Attribution
 

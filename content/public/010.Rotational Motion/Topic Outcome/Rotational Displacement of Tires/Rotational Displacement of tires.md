@@ -33,22 +33,24 @@ part1:
     suffix: rad
 myst:
   substitutions:
-    params_vars_vehicle: bus
-    params_vars_title: Rotational Displacement of Tires
-    params_vars_units: rad
-    params_a: 4.96
-    params_t: 30.2
+    params:
+      vars:
+        vehicle: bus
+        title: Rotational Displacement of Tires
+        units: rad
+      a: 8.37
+      t: 6.78
 ---
-# {{ params_vars_title }}
-A {{ params_vars_vehicle }} accelerates from rest at $t = 0$ such that its tires undergo a constant rotational acceleration of $\alpha = $ {{ params_a }} $s^{-2}$.
+# {{ params.vars.title }}
+A {{ params.vars.vehicle }} accelerates from rest at $t = 0$ such that its tires undergo a constant rotational acceleration of $\alpha = $ {{ params.a }} $s^{-2}$.
 
 ## Question Text
 
-Compute the rotational displacement of each tire at $t = $ {{ params_t }} $s$.
+Compute the rotational displacement of each tire at $t = $ {{ params.t }} $s$.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

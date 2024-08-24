@@ -31,26 +31,32 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Resistors in a Lab
-    params_vars_name: Ahmed
-    params_have: smaller
-    params_want: larger
-    params_part1_ans1_value: Connect multiple resistors in parallel
-    params_part1_ans2_value: Connect multiple resistors in series
-    params_part1_ans3_value: It is not possible to achieve the desired resistance
+    params:
+      vars:
+        title: Resistors in a Lab
+        name: Mateo
+      have: smaller
+      want: larger
+      part1:
+        ans1:
+          value: Connect multiple resistors in parallel
+        ans2:
+          value: Connect multiple resistors in series
+        ans3:
+          value: It is not possible to achieve the desired resistance
 ---
-# {{ params_vars_title }}
-Suppose {{ params_vars_name }} is doing a physics lab that asks them to put a resistor into a circuit, but all the resistors supplied have a {{ params_have }} resistance than the requested value.
+# {{ params.vars.title }}
+Suppose {{ params.vars.name }} is doing a physics lab that asks them to put a resistor into a circuit, but all the resistors supplied have a {{ params.have }} resistance than the requested value.
 
 ## Part 1
 
-How would {{ params_vars_name }} connect the available resistances to attempt to get the {{ params_want }} value asked for?
+How would {{ params.vars.name }} connect the available resistances to attempt to get the {{ params.want }} value asked for?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

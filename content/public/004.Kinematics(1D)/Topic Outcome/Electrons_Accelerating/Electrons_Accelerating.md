@@ -29,30 +29,38 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Electrons Accelerating
-    params_vars_units: $m$
-    params_dist: 11
-    params_acc: 3
-    params_part1_ans1_value: 11
-    params_part1_ans2_value: 33.0
-    params_part1_ans3_value: 99.0
-    params_part1_ans4_value: 3.7
-    params_part1_ans5_value: 0.27
+    params:
+      vars:
+        title: Electrons Accelerating
+        units: $m$
+      dist: 11
+      acc: 2
+      part1:
+        ans1:
+          value: 11
+        ans2:
+          value: 22.0
+        ans3:
+          value: 44.0
+        ans4:
+          value: 5.5
+        ans5:
+          value: 0.18
 ---
-# {{ params_vars_title }}
-An electron accelerated (with acceleration $a_1$) from rest for a time interval $t_1$ and travels a distance of {{params_dist}} $m$.
+# {{ params.vars.title }}
+An electron accelerated (with acceleration $a_1$) from rest for a time interval $t_1$ and travels a distance of {{params.dist}} $m$.
 
 ## Part 1
 
-A second electron given the acceleration ${a_1}$/{{params_acc}} for a time interval {{params_acc}}$t_1$, after starting from rest, will travel a distance of:
+A second electron given the acceleration ${a_1}$/{{params.acc}} for a time interval {{params.acc}}$t_1$, after starting from rest, will travel a distance of:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params_vars_units}}
-- {{ params_part1_ans2_value }} {{ params_vars_units}}
-- {{ params_part1_ans3_value }} {{ params_vars_units}}
-- {{ params_part1_ans4_value }} {{ params_vars_units}}
-- {{ params_part1_ans5_value }} {{ params_vars_units}}
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

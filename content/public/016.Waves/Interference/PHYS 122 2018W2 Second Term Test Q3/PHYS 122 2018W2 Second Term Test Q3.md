@@ -28,54 +28,61 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Turpentine
-    params_Y: 12
-    params_Y_appear: 24
-    params_part1_ans1_value: Reflects almost all light hitting it since light reflects
-      with the same phase from both surfaces and the path length difference is much
-      less than the wavelength of the visible light.
-    params_part1_ans1_feedback: In order to have constructive interference of reflected
-      blue light, we need a path length difference of ($λ_{blue}$)/(2*$n_{turpentine}$)
-      which is equal to 136 nm. No light will be reflected from this thin film since
-      our path length is much less than the required difference(path length<<136nm).
-    params_part1_ans2_value: will appear blue since ($λ_{blue}$)/2 = $24 nm$
-    params_part1_ans2_feedback: The correct formula for this question is ($λ_{blue}$)/(2*$n_{turpentine}$).
-      In order to have constructive interference of reflected blue light, we need
-      a path length difference of ($λ_{blue}$)/(2*$n_{turpentine}$)= (400nm)/(2 x
-      1.47)=136nm. No light will be reflected from this thin film since our path length
-      is much less than the required difference(path length<<136nm).
-    params_part1_ans3_value: 'Will appear blue since ($λ_{blue}$)/(2*$n_{turpentine}$)=
-      $24 nm$ '
-    params_part1_ans3_feedback: You have used the correct formula however the answer
-      is (400nm)/(2 x 1.47)=136nm and not 20 nm. In order to have constructive interference
-      of reflected blue light, we need a path length difference of ($λ_{blue}$)/(2*$n_{turpentine}$)=
-      (400nm)/(2 x 1.47)=136nm. No light will be reflected from this thin film since
-      our path length is much less than the required difference(path length<<136nm).
-    params_part1_ans4_value: Will look like a normal water surface since both water
-      and turpentine are transparent.
-    params_part1_ans4_feedback: Try again please!
-    params_part1_ans5_value: Will reflect almost no light as light reflects with different
-      phases from each surface and the path length difference is much less than the
-      wavelength of visible light.
-    params_part1_ans5_feedback: Great! You got it.  In order to have constructive
-      interference of reflected blue light, we need a path length difference of ($λ_{blue}$)/(2*$n_{turpentine}$)=
-      (400nm)/(2 x 1.47)=136nm. No light will be reflected from this thin film since
-      our path length is much less than the required difference(path length<<136nm)
+    params:
+      vars:
+        title: Turpentine
+      Y: 6
+      Y_appear: 12
+      part1:
+        ans1:
+          value: Reflects almost all light hitting it since light reflects with the
+            same phase from both surfaces and the path length difference is much less
+            than the wavelength of the visible light.
+          feedback: In order to have constructive interference of reflected blue light,
+            we need a path length difference of ($λ_{blue}$)/(2*$n_{turpentine}$)
+            which is equal to 136 nm. No light will be reflected from this thin film
+            since our path length is much less than the required difference(path length<<136nm).
+        ans2:
+          value: will appear blue since ($λ_{blue}$)/2 = $12 nm$
+          feedback: The correct formula for this question is ($λ_{blue}$)/(2*$n_{turpentine}$).
+            In order to have constructive interference of reflected blue light, we
+            need a path length difference of ($λ_{blue}$)/(2*$n_{turpentine}$)= (400nm)/(2
+            x 1.47)=136nm. No light will be reflected from this thin film since our
+            path length is much less than the required difference(path length<<136nm).
+        ans3:
+          value: 'Will appear blue since ($λ_{blue}$)/(2*$n_{turpentine}$)= $12 nm$ '
+          feedback: You have used the correct formula however the answer is (400nm)/(2
+            x 1.47)=136nm and not 20 nm. In order to have constructive interference
+            of reflected blue light, we need a path length difference of ($λ_{blue}$)/(2*$n_{turpentine}$)=
+            (400nm)/(2 x 1.47)=136nm. No light will be reflected from this thin film
+            since our path length is much less than the required difference(path length<<136nm).
+        ans4:
+          value: Will look like a normal water surface since both water and turpentine
+            are transparent.
+          feedback: Try again please!
+        ans5:
+          value: Will reflect almost no light as light reflects with different phases
+            from each surface and the path length difference is much less than the
+            wavelength of visible light.
+          feedback: Great! You got it.  In order to have constructive interference
+            of reflected blue light, we need a path length difference of ($λ_{blue}$)/(2*$n_{turpentine}$)=
+            (400nm)/(2 x 1.47)=136nm. No light will be reflected from this thin film
+            since our path length is much less than the required difference(path length<<136nm)
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Turpentine is a liquid extracted from pine tree resin and used to remove paint from paint brushes. Being less dense than water it will float on the surface of water if you rinse it off your hands after using it.
 
 ## Part 1
 
-A {{ params_Y }} nm thick thin film of turpentine ($n\_{turpentine}=1.47$) on top of water ($n\_{water}=1.33$) will:
+A {{ params.Y }} nm thick thin film of turpentine ($n\_{turpentine}=1.47$) on top of water ($n\_{water}=1.33$) will:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

@@ -28,17 +28,25 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Math Diagnostic27
-    params_vars_sym1: '>'
-    params_vars_sym2: <
-    params_part1_ans1_value: Answer A
-    params_part1_ans2_value: Answer B
-    params_part1_ans3_value: Answer C
-    params_part1_ans4_value: Answer D
-    params_part1_ans5_value: Don't Know
+    params:
+      vars:
+        title: Math Diagnostic27
+        sym1: <
+        sym2: <
+      part1:
+        ans1:
+          value: Answer A
+        ans2:
+          value: Answer B
+        ans3:
+          value: Answer C
+        ans4:
+          value: Answer D
+        ans5:
+          value: Don't Know
 ---
-# {{ params_vars_title }}
-Which of the following sketches depicts a function $f(x)$ with $f^{'}(x)$ {{ params_vars_sym1 }} $0$ and $f^{''}(x)$ {{ params_vars_sym2 }} $0$?
+# {{ params.vars.title }}
+Which of the following sketches depicts a function $f(x)$ with $f^{'}(x)$ {{ params.vars.sym1 }} $0$ and $f^{''}(x)$ {{ params.vars.sym2 }} $0$?
 
 ## Part 1
 
@@ -46,11 +54,11 @@ Which of the following sketches depicts a function $f(x)$ with $f^{'}(x)$ {{ par
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

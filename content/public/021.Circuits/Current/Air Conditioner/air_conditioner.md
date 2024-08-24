@@ -40,12 +40,14 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Air Conditioner
-    params_I: 19
-    params_n: 13
+    params:
+      vars:
+        title: Air Conditioner
+      I: 26
+      n: 44
 ---
-# {{ params_vars_title }}
-The current supplied to an air conditioner unit is {{params_I}} $\textrm{A}$. The air conditioner is wired using a 10-gauge (diameter 2.588 mm) wire. The charge density is $ {{{params_n}} \times 10^{28}} {electrons \over m^3} $.
+# {{ params.vars.title }}
+The current supplied to an air conditioner unit is {{params.I}} $\textrm{A}$. The air conditioner is wired using a 10-gauge (diameter 2.588 mm) wire. The charge density is $ {{{params.n}} \times 10^{28}} {electrons \over m^3} $.
 
 ## Part 1
 
@@ -62,16 +64,6 @@ What is the magnitude of the drift velocity.
 ### Answer Section
 
 Please enter a numeric value.
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$J=$ {{ correct_answers.part1_ans_str }}  $\rm\ {A/m^2}$
 
 ## Attribution
 

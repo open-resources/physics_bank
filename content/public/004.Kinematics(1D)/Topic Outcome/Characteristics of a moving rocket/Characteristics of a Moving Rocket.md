@@ -32,16 +32,25 @@ part1:
     partial-credit-method: EDC
 myst:
   substitutions:
-    params_v_y: $-7t^2 - 7t$
-    params_vars_title: Characteristics of a Moving Rocket
-    params_part1_ans1_value: $y(t) = -7t^3/3 - 7t^2/2 - 4.6$
-    params_part1_ans2_value: $v_y(t=$ 9.8$s) = $ -740.88 $m/s$
-    params_part1_ans3_value: $a_y(t) = -6t^3 + t^2$
-    params_part1_ans4_value: $v_y(t=$ 9.8$s) = $ -54.088 $m/s$
-    params_part1_ans5_value: $y(t) = -9t^3 + 8t^2 - 5t$
-    params_part1_ans6_value: $a_y(t = $ 4.1$s) = $ 60.169 $m/s^2$
+    params:
+      v_y: $-4t^2 - 3t$
+      vars:
+        title: Characteristics of a Moving Rocket
+      part1:
+        ans1:
+          value: $y(t) = -4t^3/3 - 3t^2/2 + 9.9$
+        ans2:
+          value: $a_y(t) = -8t - 3$
+        ans3:
+          value: $v_y(t=$ 7.5$s) = $ -247.5 $m/s$
+        ans4:
+          value: $y(t) = 4t^2 - 4t$
+        ans5:
+          value: $a_y(t) = -4t^3 - t^2 + 3t$
+        ans6:
+          value: $v_y(t=$ 7.5$s) = $ -3.8604 $m/s$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
@@ -57,10 +66,10 @@ Select all the choices that apply.
 
 Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params_part1_ans1_value}}
-- {{ params_part1_ans2_value}}
-- {{ params_part1_ans3_value}}
-- {{ params_part1_ans4_value}}
+- {{ params.part1.ans1.value}}
+- {{ params.part1.ans2.value}}
+- {{ params.part1.ans3.value}}
+- {{ params.part1.ans4.value}}
 
 ## Attribution
 

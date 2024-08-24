@@ -47,15 +47,17 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Cars on Hills
-    params_vars_units: "$\rm{\frac{m}{s^2}}$"
-    params_v: 21
-    params_r: 264
-    params_mu: 5.91
+    params:
+      vars:
+        title: Cars on Hills
+        units: "$\rm{\frac{m}{s^2}}$"
+      v: 26
+      r: 124
+      mu: 5.56
 ---
-# {{ params_vars_title }}
-Two cars are driving at {{params_v}} $\rm{m/s}$ along the road shown in the figure.
-Car B is at the bottom of a hill and car C is at the top. Both hills have a {{params_r}} $\rm{m}$ radius of curvature.
+# {{ params.vars.title }}
+Two cars are driving at {{params.v}} $\rm{m/s}$ along the road shown in the figure.
+Car B is at the bottom of a hill and car C is at the top. Both hills have a {{params.r}} $\rm{m}$ radius of curvature.
 Suppose both cars suddenly brake hard and start to skid.
 
 <img src="q4.png" width=400 alt="Two cars on two hills on equal raduis of curvature">
@@ -67,7 +69,7 @@ Assume $\mu_k = 0.850$ and car B has velocity in the positive direction.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units}}.
+Please enter in a numeric value in {{ params.vars.units}}.
 
 ## Part 2
 
@@ -76,7 +78,7 @@ Assume $\mu_k = 0.850$ and car C has velocity in the positive direction.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units}}.
+Please enter in a numeric value in {{ params.vars.units}}.
 
 ## Attribution
 

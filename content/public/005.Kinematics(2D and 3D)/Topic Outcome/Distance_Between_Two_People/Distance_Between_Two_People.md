@@ -31,35 +31,43 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Distance Between Two People
-    params_vars_units: $\rm{m}$
-    params_vars_name1: Santiago
-    params_vars_name2: Ximena
-    params_s: 1
-    params_ai_1: 1
-    params_ai_2: 2
-    params_ai_3: 2
-    params_aj_1: 1
-    params_aj_2: 4
-    params_aj_3: 3
-    params_bi_1: 4
-    params_bi_2: 2
-    params_bi_3: 2
-    params_bj_1: 3
-    params_bj_2: 3
-    params_bj_3: 3
-    params_part1_ans1_value: 7.6
-    params_part1_ans2_value: 3.8
-    params_part1_ans3_value: 58.0
-    params_part1_ans4_value: 10
-    params_part1_ans5_value: 4
+    params:
+      vars:
+        title: Distance Between Two People
+        units: $\rm{m}$
+        name1: Emilia
+        name2: Savannah
+      s: 1
+      ai_1: 2
+      ai_2: 3
+      ai_3: 3
+      aj_1: 4
+      aj_2: 2
+      aj_3: 3
+      bi_1: 3
+      bi_2: 2
+      bi_3: 2
+      bj_1: 4
+      bj_2: 2
+      bj_3: 1
+      part1:
+        ans1:
+          value: 4.1
+        ans2:
+          value: 2.1
+        ans3:
+          value: 17.0
+        ans4:
+          value: 5
+        ans5:
+          value: 3
 ---
-# {{ params_vars_title }}
-The position of {{ params_vars_name1 }} as a function of time is given by:
+# {{ params.vars.title }}
+The position of {{ params.vars.name1 }} as a function of time is given by:
 
 $\vec{r_A} =$ ({{ params.ai_1 }}$+${{ params.ai_2 }}$t-${{ params.ai_3 }}$t^2)\hat{\imath} + (${{ params.aj_1 }}$+${{ params.aj_2 }}$t-${{ params.aj_3 }}$t^2)\hat{\jmath}$
 
-{{ params_vars_name2 }}'s position is given by:
+{{ params.vars.name2 }}'s position is given by:
 
 $\vec{r_B} =$ ({{ params.bi_1 }}$+${{ params.bi_2 }}$t-${{ params.bi_3 }}$t^2)\hat{\imath} + (${{ params.bj_1 }}$+${{ params.bj_2 }}$t+${{ params.bj_3 }}$t^2)\hat{\jmath}$.
 
@@ -67,15 +75,15 @@ The positions $\vec{r_A}$ and $\vec{r_B}$ are in meters and $t$ is in seconds.
 
 ## Part 1
 
-What is the distance between {{ params_vars_name1 }} and {{ params_vars_name2 }} when $t$ = {{ params_s }}?
+What is the distance between {{ params.vars.name1 }} and {{ params.vars.name2 }} when $t$ = {{ params.s }}?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params_vars_units}}
-- {{ params_part1_ans2_value }} {{ params_vars_units}}
-- {{ params_part1_ans3_value }} {{ params_vars_units}}
-- {{ params_part1_ans4_value }} {{ params_vars_units}}
-- {{ params_part1_ans5_value }} {{ params_vars_units}}
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

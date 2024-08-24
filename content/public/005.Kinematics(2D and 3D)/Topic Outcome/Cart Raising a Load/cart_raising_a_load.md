@@ -35,13 +35,15 @@ part1:
     allow-blank: true
 myst:
   substitutions:
-    params_vars_title: Cart raising a load
-    params_vars_units: m/s
-    params_v_a: 5
-    params_x: 4
-    params_h: 4
+    params:
+      vars:
+        title: Cart raising a load
+        units: m/s
+      v_a: 8
+      x: 2
+      h: 2
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
@@ -49,11 +51,11 @@ myst:
 
 Determine the magnitude of the total velocity of $B$ as cart $A$ moves to the right with $v = {{params.v_a}}m/s$.
 Assume the cable for $B$ remains vertical, and the diameter of the pully is negligible.
-Assume $x = {{params_x}}m$, and $h = {{params_h}}m$.
+Assume $x = {{params.x}}m$, and $h = {{params.h}}m$.
 
 ### Answer Section
 
-Please enter an integer value in ${{ params_vars_units }}$.
+Please enter an integer value in ${{ params.vars.units }}$.
 
 ## Attribution
 

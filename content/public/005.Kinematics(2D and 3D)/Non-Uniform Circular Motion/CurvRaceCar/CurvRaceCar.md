@@ -43,19 +43,21 @@ part2:
     suffix: $\rm{m/s^2}$
 myst:
   substitutions:
-    params_vars_title: Curvilinear Motion of Jet
-    params_r: 479
-    params_va: 20
-    params_vad: 6
-    params_s: 35
+    params:
+      vars:
+        title: Curvilinear Motion of Jet
+      r: 327
+      va: 28
+      vad: 3
+      s: 24
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="CurvRaceCar.png" width=90%>
 
-A circular racetrack has a radius of $r = {{ params_r }} \ \rm{m}$.
-A race car races at a speed of $v = {{ params_va }} \ \rm{m/s}$.
-For a short distance starting at $s = 0 \ \rm{m}$, the race car increases its velocity at $\dot v = {{ params_vad }}.s \ \rm{m/s^2}$.\
-What is the speed and magnitude of its acceleration when it has moved $s = {{ params_s }} \ \rm{m}$
+A circular racetrack has a radius of $r = {{ params.r }} \ \rm{m}$.
+A race car races at a speed of $v = {{ params.va }} \ \rm{m/s}$.
+For a short distance starting at $s = 0 \ \rm{m}$, the race car increases its velocity at $\dot v = {{ params.vad }}.s \ \rm{m/s^2}$.\
+What is the speed and magnitude of its acceleration when it has moved $s = {{ params.s }} \ \rm{m}$
 
 ## Part 1
 

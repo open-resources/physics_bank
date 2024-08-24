@@ -30,14 +30,21 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Collision of Two Carts
-    params_part1_ans1_value: It is less than $p$.
-    params_part1_ans2_value: It is equal to $p$.
-    params_part1_ans3_value: It is larger than $p$.
-    params_part1_ans4_value: It is impossible to predict what the momentum of cart
-      B will be after the collision.
+    params:
+      vars:
+        title: Collision of Two Carts
+      part1:
+        ans1:
+          value: It is less than $p$.
+        ans2:
+          value: It is equal to $p$.
+        ans3:
+          value: It is larger than $p$.
+        ans4:
+          value: It is impossible to predict what the momentum of cart B will be after
+            the collision.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Cart A with momentum of magnitude $p$ collides with cart B and rebounds. Cart B is initially at rest and cart A is going in the negative direction.
 
 <img src="q2.png" alt= "Top - Carts rolling towards eachother. Bottom - carts collide and bounce off eachother" width = 400px>
@@ -48,10 +55,10 @@ What can you say about the momentum of cart B after the collision?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

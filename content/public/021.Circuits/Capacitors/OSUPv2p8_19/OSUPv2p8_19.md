@@ -41,27 +41,19 @@ part1:
     suffix: $\rm\ C$
 myst:
   substitutions:
-    params_vars_title: Charge Stored in a Capacitor
-    params_c: '155'
-    params_v: '135'
+    params:
+      vars:
+        title: Charge Stored in a Capacitor
+      c: '100'
+      v: '180'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
-What charge is stored in a {{params_c }} $\rm\ \mu\textrm{F}$ capacitor when {{params_v }}$\textrm{ V}$ is applied to it?
+What charge is stored in a {{params.c }} $\rm\ \mu\textrm{F}$ capacitor when {{params.v }}$\textrm{ V}$ is applied to it?
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$Q=$ {{ correct_answers.part1_ans_str }} $\textrm{ C}$
 
 ## Attribution
 

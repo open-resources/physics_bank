@@ -62,28 +62,37 @@ part5:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Resistor Circuit Reduction
-    params_r1: 13
-    params_r2: 18
-    params_r3: 15
-    params_r4: 20
-    params_r5: 2
-    params_part1_ans1_value: $(a)$ to $(b)$
-    params_part1_ans1_feedback: ''
-    params_part1_ans2_value: $(b)$ to $(c)$
-    params_part1_ans2_feedback: ''
-    params_part1_ans3_value: $(c)$ to $(d)$
-    params_part1_ans3_feedback: ''
-    params_part5_ans1_value: Subtract the two electromotive forces and divide by the
-      sum of the resistors.
-    params_part5_ans1_feedback: ''
-    params_part5_ans2_value: Use Kirchhoff's laws (junction and loop rules) to write
-      three equations in three unknown currents, and solve them by eliminating one
-      variable at a time.
-    params_part5_ans2_feedback: ''
+    params:
+      vars:
+        title: Resistor Circuit Reduction
+      r1: 13
+      r2: 6
+      r3: 15
+      r4: 15
+      r5: 8
+      part1:
+        ans1:
+          value: $(a)$ to $(b)$
+          feedback: ''
+        ans2:
+          value: $(b)$ to $(c)$
+          feedback: ''
+        ans3:
+          value: $(c)$ to $(d)$
+          feedback: ''
+      part5:
+        ans1:
+          value: Subtract the two electromotive forces and divide by the sum of the
+            resistors.
+          feedback: ''
+        ans2:
+          value: Use Kirchhoff's laws (junction and loop rules) to write three equations
+            in three unknown currents, and solve them by eliminating one variable
+            at a time.
+          feedback: ''
 ---
-# {{ params_vars_title }}
-A car battery charger circuit contains resistors with resistances $R_1 = {{ params_r1 }} \rm{\Omega}$, $R_2 = {{ params_r2 }} \rm{\Omega}$, $R_3 = {{ params_r3 }} \rm{\Omega}$, $R_4 = {{ params_r4 }} \rm{\Omega}$, $R_5 = {{ params_r5 }} \rm{\Omega}$. The circuit is reduced in the steps shown in the figure below.
+# {{ params.vars.title }}
+A car battery charger circuit contains resistors with resistances $R_1 = {{ params.r1 }} \rm{\Omega}$, $R_2 = {{ params.r2 }} \rm{\Omega}$, $R_3 = {{ params.r3 }} \rm{\Omega}$, $R_4 = {{ params.r4 }} \rm{\Omega}$, $R_5 = {{ params.r5 }} \rm{\Omega}$. The circuit is reduced in the steps shown in the figure below.
 
 <img src="rcircred.png" width=400 alt="Circuit diagrams showing the car battery circuit in a and the steps taken to reduce the circuit from a to b , b to c, and c to d (if that step is allowed).">
 
@@ -93,9 +102,9 @@ Select the steps in reducing the circuit that are allowed.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
 
 ## Part 2
@@ -106,10 +115,6 @@ If step **(a)** to **(b)** is allowed, calculate the value of $R_6$. Otherwise e
 
 Please enter an answer in $\rm{\Omega}$.
 
-### pl-submission-panel
-
-{{feedback.part2_ans}}
-
 ## Part 3
 
 If step **(b)** to **(c)** is allowed, calculate the value of $R_7$. Otherwise enter "-1".
@@ -118,10 +123,6 @@ If step **(b)** to **(c)** is allowed, calculate the value of $R_7$. Otherwise e
 
 Please enter an answer in $\rm{\Omega}$.
 
-### pl-submission-panel
-
-{{feedback.part3_ans}}
-
 ## Part 4
 
 If step **(c)** to **(d)** is allowed, calculate the value of $R_8$. Otherwise enter "-1".
@@ -129,10 +130,6 @@ If step **(c)** to **(d)** is allowed, calculate the value of $R_8$. Otherwise e
 ### Answer Section
 
 Please enter an answer in $\rm{\Omega}$.
-
-### pl-submission-panel
-
-{{feedback.part4_ans}}
 
 ## Part 5
 

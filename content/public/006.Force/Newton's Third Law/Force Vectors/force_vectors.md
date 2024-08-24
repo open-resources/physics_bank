@@ -31,21 +31,29 @@ part1:
     partial-credit-method: EDC
 myst:
   substitutions:
-    params_vars_title: Force Vectors
-    params_part1_ans1_value: If you have a complicated system made of many objects
-      (all interacting among themselves) only external forces can add or remove energy
-      from the system.
-    params_part1_ans2_value: If two objects push on each other, their velocities will
-      change by the same amount (though opposite directions).
-    params_part1_ans3_value: If you have a complicated system made of many objects
-      (all interacting among themselves) only external forces can cause the center
-      of mass of the system to accelerate.
-    params_part1_ans4_value: If two objects push on each other, they will accelerate
-      in opposite directions.
-    params_part1_ans5_value: If two objects push on each other, their momenta will
-      change by the same amount (though opposite directions).
+    params:
+      vars:
+        title: Force Vectors
+      part1:
+        ans1:
+          value: If two objects push on each other, their velocities will change by
+            the same amount (though opposite directions).
+        ans2:
+          value: If you have a complicated system made of many objects (all interacting
+            among themselves) only external forces can add or remove energy from the
+            system.
+        ans3:
+          value: If two objects push on each other, their momenta will change by the
+            same amount (though opposite directions).
+        ans4:
+          value: If two objects push on each other, they will accelerate in opposite
+            directions.
+        ans5:
+          value: If you have a complicated system made of many objects (all interacting
+            among themselves) only external forces can cause the center of mass of
+            the system to accelerate.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
@@ -58,11 +66,11 @@ Select all the choices that are true.
 
 Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

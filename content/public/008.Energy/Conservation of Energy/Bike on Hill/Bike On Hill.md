@@ -35,14 +35,16 @@ part1:
     suffix: $m/s$
 myst:
   substitutions:
-    params_vars_title: Bike on a Hill
-    params_R: 173
+    params:
+      vars:
+        title: Bike on a Hill
+      R: 258
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Connected Balls on Hill.png" width=400>
 
 The two tires of a bike are connected by a massless carbon fibre frame.
-If they are released from rest as shown, and slide along the bottom of the ramp with radius of curvature $R = {{params_R}} cm$, calculate the velocity of the bike when the tire at $A$ reaches $B$ and the tire at $B$ reaches $B^{\prime}$.
+If they are released from rest as shown, and slide along the bottom of the ramp with radius of curvature $R = {{params.R}} cm$, calculate the velocity of the bike when the tire at $A$ reaches $B$ and the tire at $B$ reaches $B^{\prime}$.
 
 ## Part 1
 

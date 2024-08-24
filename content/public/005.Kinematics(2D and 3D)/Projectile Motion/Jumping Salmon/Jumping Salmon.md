@@ -39,27 +39,38 @@ part2:
     suffix: $m/s$
 myst:
   substitutions:
-    params_vars_title: Jumping Salmon
-    params_vars_units: $m/s$
-    params_h_fall: 3.65
-    params_dist: 0.976
-    params_part1_ans1_value: Time interval for jump, $\Delta t$
-    params_part1_ans2_value: Vertical displacement, $\Delta y$
-    params_part1_ans3_value: Horizontal displacement, $\Delta x$
-    params_part1_ans4_value: Horizontal acceleration component, $a_x$
-    params_part1_ans5_value: Vertical acceleration component, $a_y$
-    params_part1_ans6_value: Vertical component of velocity at top of falls, $v_{fy}$
-    params_part1_ans7_value: Horizontal component of velocity at top of falls, $v_{fx}$
-    params_part1_ans8_value: Vertical component of velocity at bottom of falls, $v_{iy}$
-    params_part1_ans9_value: Horizontal component of velocity at bottom of falls,
-      $v_{ix}$
+    params:
+      vars:
+        title: Jumping Salmon
+        units: $m/s$
+      h_fall: 3.71
+      dist: 0.974
+      part1:
+        ans1:
+          value: Time interval for jump, $\Delta t$
+        ans2:
+          value: Vertical displacement, $\Delta y$
+        ans3:
+          value: Horizontal displacement, $\Delta x$
+        ans4:
+          value: Horizontal acceleration component, $a_x$
+        ans5:
+          value: Vertical acceleration component, $a_y$
+        ans6:
+          value: Vertical component of velocity at top of falls, $v_{fy}$
+        ans7:
+          value: Horizontal component of velocity at top of falls, $v_{fx}$
+        ans8:
+          value: Vertical component of velocity at bottom of falls, $v_{iy}$
+        ans9:
+          value: Horizontal component of velocity at bottom of falls, $v_{ix}$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 There are reports that salmon can only just jump over a {{ params.h_fall }} $m$ falls.
 
 ## Part 1
 
-If a salmon starts from a horizontal distance {{ params_dist }} $m$ away from the waterfall in still water and just makes it up the falls, select the known variables for the motion of the salmon after leaving the water.
+If a salmon starts from a horizontal distance {{ params.dist }} $m$ away from the waterfall in still water and just makes it up the falls, select the known variables for the motion of the salmon after leaving the water.
 
 ### Answer Section
 
@@ -67,23 +78,23 @@ Select all the choices that apply.
 
 Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params_part1_ans1_value}}
-- {{ params_part1_ans2_value}}
-- {{ params_part1_ans3_value}}
-- {{ params_part1_ans4_value}}
-- {{ params_part1_ans5_value}}
-- {{ params_part1_ans6_value}}
-- {{ params_part1_ans7_value}}
-- {{ params_part1_ans8_value}}
-- {{ params_part1_ans9_value}}
+- {{ params.part1.ans1.value}}
+- {{ params.part1.ans2.value}}
+- {{ params.part1.ans3.value}}
+- {{ params.part1.ans4.value}}
+- {{ params.part1.ans5.value}}
+- {{ params.part1.ans6.value}}
+- {{ params.part1.ans7.value}}
+- {{ params.part1.ans8.value}}
+- {{ params.part1.ans9.value}}
 
 ## Part 2
 
-If a salmon starts from a horizontal distance {{ params_dist }} $m$ away from the waterfall in still water, what is the initial $y$-component of the velocity vector of the salmon as it leaves the water if it just makes it up the falls?
+If a salmon starts from a horizontal distance {{ params.dist }} $m$ away from the waterfall in still water, what is the initial $y$-component of the velocity vector of the salmon as it leaves the water if it just makes it up the falls?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

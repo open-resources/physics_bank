@@ -60,16 +60,18 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Proton Accelerator
-    params_r: 0.94
-    params_I: 41
-    params_n: 5.28
-    params_p: 45
+    params:
+      vars:
+        title: Proton Accelerator
+      r: 0.13
+      I: 13
+      n: 5.44
+      p: 40
 ---
-# {{ params_vars_title }}
-A high-energy proton accelerator produces a proton beam with a radius of {{params_r}} $\textrm{mm}$.
-The beam current is {{params_I}} $\rm\mu \rm{A}$ and is constant.
-The charge density of the beam is $n = $ {{params_n}} $ \times 10^{11}$ protons per cubic meter.
+# {{ params.vars.title }}
+A high-energy proton accelerator produces a proton beam with a radius of {{params.r}} $\textrm{mm}$.
+The beam current is {{params.I}} $\rm\mu \rm{A}$ and is constant.
+The charge density of the beam is $n = $ {{params.n}} $ \times 10^{11}$ protons per cubic meter.
 
 ## Part 1
 
@@ -89,23 +91,11 @@ Please enter a numeric value.
 
 ## Part 3
 
-How much time does it take for ${{params_p}} \times 10^{10}$ protons to be emitted by the accelerator?
+How much time does it take for ${{params.p}} \times 10^{10}$ protons to be emitted by the accelerator?
 
 ### Answer Section
 
 Please enter a numeric value.
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$v\_{d}=$ {{ correct_answers.part2_ans_str }} $\mathrm{m}/\mathrm{s}$
-
-<p></p>
-$t=$ {{ correct_answers.part3_ans_str }} $\mathrm{s}$
 
 ## Attribution
 

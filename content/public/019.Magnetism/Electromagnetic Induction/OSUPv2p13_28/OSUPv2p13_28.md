@@ -35,31 +35,23 @@ part1:
     suffix: $\rm\ A$
 myst:
   substitutions:
-    params_vars_title: Single-Turn Rectangular Coil
-    params_R: '3'
-    params_B: '1.00'
-    params_f: '275'
-    params_t: '0.010'
+    params:
+      vars:
+        title: Single-Turn Rectangular Coil
+      R: '3'
+      B: '1.00'
+      f: '125'
+      t: '0.010'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
-The figure below shows a single-turn rectangular coil that has a resistance of ${{params_R }}\rm \ \Omega$. The magnetic field at all points inside the coil varies according to $B=B_0e^{-{\alpha}t}$, where $B_0$ = ${{params_B }}\textrm{ T}$ and $\alpha$ = ${{params_f }}\textrm{ Hz}$. What is the current induced in the coil at ${{params_t }}\textrm{ s}$?
+The figure below shows a single-turn rectangular coil that has a resistance of ${{params.R }}\rm \ \Omega$. The magnetic field at all points inside the coil varies according to $B=B_0e^{-{\alpha}t}$, where $B_0$ = ${{params.B }}\textrm{ T}$ and $\alpha$ = ${{params.f }}\textrm{ Hz}$. What is the current induced in the coil at ${{params.t }}\textrm{ s}$?
 
 <img src="Fig13_28.png">
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$I=$ {{ correct_answers.part1_ans_str }} $\rm\ A$
 
 ## Attribution
 

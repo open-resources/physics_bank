@@ -59,13 +59,15 @@ part2:
     custom-format: .3g
 myst:
   substitutions:
-    params_vars_title: Energy in a Series RL Circuit
-    params_L: '1.50'
-    params_R: '450.0'
-    params_I: '3.00'
+    params:
+      vars:
+        title: Energy in a Series RL Circuit
+      L: '2.00'
+      R: '250.0'
+      I: '4.50'
 ---
-# {{ params_vars_title }}
-A coil with a self-inductance of ${{ params_L }}\rm\ H$ and a resistance of ${{ params_R }}\rm\ \Omega$ carries a steady current of ${{ params_I }}\rm\ A$.
+# {{ params.vars.title }}
+A coil with a self-inductance of ${{ params.L }}\rm\ H$ and a resistance of ${{ params.R }}\rm\ \Omega$ carries a steady current of ${{ params.I }}\rm\ A$.
 
 ## Part 1
 
@@ -82,16 +84,6 @@ What is the energy per second dissipated in the resistance of the coil?
 ### Answer Section
 
 Please enter in a numeric value in $\rm\ W$.
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}<br>
-{{ feedback.part2_ans }}
-
-### pl-answer-panel
-
-$E =$ {{ correct_answers.part1_ans_str }} $\rm\ J$<br>
-$P =$ {{ correct_answers.part2_ans_str }} $\rm\ W$
 
 ## Attribution
 

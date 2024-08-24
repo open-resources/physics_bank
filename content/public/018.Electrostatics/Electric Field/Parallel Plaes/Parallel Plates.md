@@ -46,19 +46,25 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Parallel Plates
-    params_L: '14'
-    params_q: '3.2'
-    params_p: '-6'
-    params_d: '0.5'
-    params_part2_ans1_value: points towards the negative plate
-    params_part2_ans2_value: points towards the positive plate
-    params_part2_ans3_value: points parallel to the plates
+    params:
+      vars:
+        title: Parallel Plates
+      L: '7'
+      q: '7.8'
+      p: '-6'
+      d: '0.9'
+      part2:
+        ans1:
+          value: points towards the negative plate
+        ans2:
+          value: points towards the positive plate
+        ans3:
+          value: points parallel to the plates
 ---
-# {{ params_vars_title }}
-Two parallel conducting plates ${{params_L}} \textrm{ cm}$ on a side are given equal and opposite charges of magnitude ${{params_q}}\times 10^{ {{params_p}} } \textrm{ C}$.
+# {{ params.vars.title }}
+Two parallel conducting plates ${{params.L}} \textrm{ cm}$ on a side are given equal and opposite charges of magnitude ${{params.q}}\times 10^{ {{params.p}} } \textrm{ C}$.
 
-The plates are ${{params_d}}\rm\ mm$ apart.
+The plates are ${{params.d}}\rm\ mm$ apart.
 
 ## Part 1
 
@@ -72,15 +78,9 @@ What is the direction of the electric field at the centre of the region between 
 
 ### Answer Section
 
-- {{ params_part2.ans1.value }}
-- {{ params_part2.ans2.value }}
-- {{ params_part2.ans3.value }}
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
 
 ## Attribution
 

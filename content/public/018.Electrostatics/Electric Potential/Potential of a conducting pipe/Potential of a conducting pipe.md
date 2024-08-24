@@ -41,9 +41,11 @@ part2:
     allow-blank: false
 myst:
   substitutions:
-    params_vars_title: Potential of a conducting pipe
+    params:
+      vars:
+        title: Potential of a conducting pipe
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The surface charge density on a long straight hollow metallic pipe is σ.  Assume the pipe has a diameter of $2a$.
 
 <img src="OSUPv2p7_64.png" width=50 alt="Charged conducting pipe">

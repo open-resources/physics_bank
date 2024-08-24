@@ -30,13 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Position in Spherical Coordinates
-    params_part1_ans1_value: ${\bf{R}} = R{\bf{e_R}} + \theta{\bf{e_{\theta}}} + \phi{\bf{e_{\phi}}}$
-    params_part1_ans2_value: ${\bf{R}} = R{\bf{e_R}}$
-    params_part1_ans3_value: ${\bf{R}} = R{\bf{e_R}} + \theta{\bf{e_{\theta}}}$
-    params_part1_ans4_value: ${\bf{R}} = \theta{\bf{e_{\theta}}} + \phi{\bf{e_{\phi}}}$
+    params:
+      vars:
+        title: Position in Spherical Coordinates
+      part1:
+        ans1:
+          value: ${\bf{R}} = R{\bf{e_R}} + \theta{\bf{e_{\theta}}} + \phi{\bf{e_{\phi}}}$
+        ans2:
+          value: ${\bf{R}} = R{\bf{e_R}}$
+        ans3:
+          value: ${\bf{R}} = R{\bf{e_R}} + \theta{\bf{e_{\theta}}}$
+        ans4:
+          value: ${\bf{R}} = \theta{\bf{e_{\theta}}} + \phi{\bf{e_{\phi}}}$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -44,10 +51,10 @@ When using spherical coordinates for space curvilinear motion the expression for
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

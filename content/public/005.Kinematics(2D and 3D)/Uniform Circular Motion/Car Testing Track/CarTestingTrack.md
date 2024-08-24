@@ -42,14 +42,16 @@ part2:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params_vars_title: Distance travelled
-    params_vars_units: m/s
-    params_a: 1.53
-    params_r: 109
+    params:
+      vars:
+        title: Distance travelled
+        units: m/s
+      a: 0.23
+      r: 72
 ---
-# {{ params_vars_title }}
-A car is undergoing public safety tests. It is being tested on a circular track with radius $r = {{ params_r }} \ \rm{m}$.
-The car starts from rest with an instantaneous constant tangential acceleration of $a = {{ params_a }} \ \rm{m/s^2}$
+# {{ params.vars.title }}
+A car is undergoing public safety tests. It is being tested on a circular track with radius $r = {{ params.r }} \ \rm{m}$.
+The car starts from rest with an instantaneous constant tangential acceleration of $a = {{ params.a }} \ \rm{m/s^2}$
 Find the following at the point in time when the tangential and centripetal acceleration are the same.
 
 ## Part 1
@@ -58,7 +60,7 @@ The speed of the car.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
@@ -66,7 +68,7 @@ The distance the car has travelled.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

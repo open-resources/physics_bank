@@ -29,19 +29,22 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Microscope Resolution
-    params_part1_ans1_value: Neutron microscope, visible light microscope, electron
-      microscope.
-    params_part1_ans2_value: Neutron microscope, electron microscope, visible light
-      microscope.
-    params_part1_ans3_value: Electron microscope, visible light microscope, neutron
-      microscope.
-    params_part1_ans4_value: Visible light microscope, electron microscope, neutron
-      microscope.
-    params_part1_ans5_value: Visible light microscope, neutron microscope, electron
-      microscope.
+    params:
+      vars:
+        title: Microscope Resolution
+      part1:
+        ans1:
+          value: Neutron microscope, visible light microscope, electron microscope.
+        ans2:
+          value: Neutron microscope, electron microscope, visible light microscope.
+        ans3:
+          value: Electron microscope, visible light microscope, neutron microscope.
+        ans4:
+          value: Visible light microscope, electron microscope, neutron microscope.
+        ans5:
+          value: Visible light microscope, neutron microscope, electron microscope.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 You have previously learned that diffraction limits our ability to focus waves.
 
 ## Question Text
@@ -52,11 +55,11 @@ the mass of a neutron is $1.67 \times 10^{-27} \rm{kg}$, and take the speed of a
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

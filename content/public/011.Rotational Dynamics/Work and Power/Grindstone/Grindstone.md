@@ -46,19 +46,21 @@ part2:
     digits: 2
 myst:
   substitutions:
-    params_vars_title: Grindstone
-    params_M: 10.5
-    params_R: 11
-    params_RPM: 1564
-    params_F: 6.7
-    params_mu: 0.81
+    params:
+      vars:
+        title: Grindstone
+      M: 11.0
+      R: 12
+      RPM: 1467
+      F: 6.0
+      mu: 0.78
 ---
-# {{ params_vars_title }}
-A uniform cylindrical grindstone has a mass of ${{ params_M }} \rm{kg}$ and a radius of ${{ params_R }} \rm{cm}$.
+# {{ params.vars.title }}
+A uniform cylindrical grindstone has a mass of ${{ params.M }} \rm{kg}$ and a radius of ${{ params.R }} \rm{cm}$.
 
 ## Part 1
 
-What is the rotational kinetic energy $K\_{\text{rot}}$ of the grindstone when it is rotating at ${{ params_RPM }} \rm{rev/min}$?
+What is the rotational kinetic energy $K\_{\text{rot}}$ of the grindstone when it is rotating at ${{ params.RPM }} \rm{rev/min}$?
 You may assume that the grindstone is a solid cylinder rotating about its cylinder axis.
 
 ### Answer Section
@@ -67,8 +69,8 @@ Please enter a numeric value in $\rm{J}$.
 
 ## Part 2
 
-After the grindstone's motor is turned off, a knife blade is pressed against the outer edge of the grindstone with a perpendicular force of ${{ params_F }} \rm{N}$.
-The coefficient of kinetic friction between the grindstone and the blade is ${{ params_mu }}$.
+After the grindstone's motor is turned off, a knife blade is pressed against the outer edge of the grindstone with a perpendicular force of ${{ params.F }} \rm{N}$.
+The coefficient of kinetic friction between the grindstone and the blade is ${{ params.mu }}$.
 Use the work energy theorem to determine how many turns $N$ the grindstone makes before it stops.
 
 ### Answer Section

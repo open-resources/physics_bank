@@ -33,17 +33,24 @@ part1:
     partial-credit-method: EDC
 myst:
   substitutions:
-    params_vars_title: Kinetic Energy and Momentum
-    params_part1_ans1_value: If I throw an object into the air, the system composed
-      of the object and the earth is a closed system.
-    params_part1_ans2_value: If I throw an object straight up (vertically) in the
-      air, its kinetic energy at the highest point will be zero.
-    params_part1_ans3_value: If I throw an object diagonally up in the air, its kinetic
-      energy at the highest point will be zero.
-    params_part1_ans4_value: If I throw an object straight up (vertically) in the
-      air, its momentum at the highest point will be zero.
+    params:
+      vars:
+        title: Kinetic Energy and Momentum
+      part1:
+        ans1:
+          value: If I throw an object diagonally up in the air, its kinetic energy
+            at the highest point will be zero.
+        ans2:
+          value: If I throw an object diagonally up in the air, its momentum at the
+            highest point will be zero.
+        ans3:
+          value: If I throw an object straight up (vertically) in the air, its kinetic
+            energy at the highest point will be zero.
+        ans4:
+          value: If I throw an object into the air, the system composed of the object
+            and the earth is a closed system.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -53,10 +60,10 @@ Which of the following statements is true?
 
 Note: You will be awarded full marks only if you select all the correct choices and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

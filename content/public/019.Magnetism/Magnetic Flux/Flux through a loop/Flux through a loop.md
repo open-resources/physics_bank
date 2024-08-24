@@ -57,34 +57,66 @@ part5:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Flux through a loop
-    params_part1_ans1_value: $-2\mu_0$
-    params_part1_ans2_value: $-\mu_0$
-    params_part1_ans3_value: zero
-    params_part1_ans4_value: $\mu_0$
-    params_part1_ans5_value: $2\mu_0$
-    params_part2_ans1_value: $-11\mu_0$
-    params_part2_ans2_value: $-9\mu_0$
-    params_part2_ans3_value: zero
-    params_part2_ans4_value: $9\mu_0$
-    params_part2_ans5_value: $11\mu_0$
-    params_part3_ans1_value: $-5\mu_0$
-    params_part3_ans2_value: $-1\mu_0$
-    params_part3_ans3_value: zero
-    params_part3_ans4_value: $\mu_0$
-    params_part3_ans5_value: $5\mu_0$
-    params_part4_ans1_value: $-6\mu_0$
-    params_part4_ans2_value: $-2\mu_0$
-    params_part4_ans3_value: zero
-    params_part4_ans4_value: $2\mu_0$
-    params_part4_ans5_value: $6\mu_0$
-    params_part5_ans1_value: $-11\mu_0$
-    params_part5_ans2_value: $-5\mu_0$
-    params_part5_ans3_value: zero
-    params_part5_ans4_value: $5\mu_0$
-    params_part5_ans5_value: $11\mu_0$
+    params:
+      vars:
+        title: Flux through a loop
+      part1:
+        ans1:
+          value: $-2\mu_0$
+        ans2:
+          value: $-\mu_0$
+        ans3:
+          value: zero
+        ans4:
+          value: $\mu_0$
+        ans5:
+          value: $2\mu_0$
+      part2:
+        ans1:
+          value: $-11\mu_0$
+        ans2:
+          value: $-9\mu_0$
+        ans3:
+          value: zero
+        ans4:
+          value: $9\mu_0$
+        ans5:
+          value: $11\mu_0$
+      part3:
+        ans1:
+          value: $-5\mu_0$
+        ans2:
+          value: $-1\mu_0$
+        ans3:
+          value: zero
+        ans4:
+          value: $\mu_0$
+        ans5:
+          value: $5\mu_0$
+      part4:
+        ans1:
+          value: $-6\mu_0$
+        ans2:
+          value: $-2\mu_0$
+        ans3:
+          value: zero
+        ans4:
+          value: $2\mu_0$
+        ans5:
+          value: $6\mu_0$
+      part5:
+        ans1:
+          value: $-11\mu_0$
+        ans2:
+          value: $-5\mu_0$
+        ans3:
+          value: zero
+        ans4:
+          value: $5\mu_0$
+        ans5:
+          value: $11\mu_0$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Evaluate the magnetic flux $\oint\vec{\mathbf{B}}\cdot d\vec{\mathbf{\ell}}$ for each of the cases shown in the figure.
 
 <img src="OSUPv2p12_42.png" width=450 alt="Various Amperian loops threaded by currents">
@@ -96,11 +128,11 @@ Part (a):
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Part 2
 
@@ -108,11 +140,11 @@ Part (b):
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-- {{ params_part2_ans3_value }}
-- {{ params_part2_ans4_value }}
-- {{ params_part2_ans5_value }}
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
+- {{ params.part2.ans4.value }}
+- {{ params.part2.ans5.value }}
 
 ## Part 3
 
@@ -120,11 +152,11 @@ Part (c):
 
 ### Answer Section
 
-- {{ params_part3_ans1_value }}
-- {{ params_part3_ans2_value }}
-- {{ params_part3_ans3_value }}
-- {{ params_part3_ans4_value }}
-- {{ params_part3_ans5_value }}
+- {{ params.part3.ans1.value }}
+- {{ params.part3.ans2.value }}
+- {{ params.part3.ans3.value }}
+- {{ params.part3.ans4.value }}
+- {{ params.part3.ans5.value }}
 
 ## Part 4
 
@@ -132,11 +164,11 @@ Part (d):
 
 ### Answer Section
 
-- {{ params_part4_ans1_value }}
-- {{ params_part4_ans2_value }}
-- {{ params_part4_ans3_value }}
-- {{ params_part4_ans4_value }}
-- {{ params_part4_ans5_value }}
+- {{ params.part4.ans1.value }}
+- {{ params.part4.ans2.value }}
+- {{ params.part4.ans3.value }}
+- {{ params.part4.ans4.value }}
+- {{ params.part4.ans5.value }}
 
 ## Part 5
 
@@ -144,11 +176,11 @@ Part (e):
 
 ### Answer Section
 
-- {{ params_part5_ans1_value }}
-- {{ params_part5_ans2_value }}
-- {{ params_part5_ans3_value }}
-- {{ params_part5_ans4_value }}
-- {{ params_part5_ans5_value }}
+- {{ params.part5.ans1.value }}
+- {{ params.part5.ans2.value }}
+- {{ params.part5.ans3.value }}
+- {{ params.part5.ans4.value }}
+- {{ params.part5.ans5.value }}
 
 ## Attribution
 

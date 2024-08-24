@@ -67,41 +67,39 @@ part3:
     custom-format: .3g
 myst:
   substitutions:
-    params_vars_title: Magnetic field of a hollow cylinder
-    params_r1: '3.0'
-    params_r2: '5.0'
-    params_I: '35.0'
-    params_ra: '2.0'
-    params_rb: '4.0'
-    params_rc: '6.0'
+    params:
+      vars:
+        title: Magnetic field of a hollow cylinder
+      r1: '3.0'
+      r2: '5.0'
+      I: '30.0'
+      ra: '2.0'
+      rb: '4.0'
+      rc: '6.0'
 ---
-# {{ params_vars_title }}
-The figure shows a cross-section of a long, hollow, cylindrical conductor of inner radius $r_1 = {{ params_r1 }}\rm\ cm$ and outer radius $r_2 = {{ params_r2 }}\rm\ cm$.
-A ${{ params_I }}\rm\ A$ current distrubted uniformly over the cross-section flows into the screen.
+# {{ params.vars.title }}
+The figure shows a cross-section of a long, hollow, cylindrical conductor of inner radius $r_1 = {{ params.r1 }}\rm\ cm$ and outer radius $r_2 = {{ params.r2 }}\rm\ cm$.
+A ${{ params.I }}\rm\ A$ current distrubted uniformly over the cross-section flows into the screen.
 
 <img src="OSUPv2p12_46.png" width=350 alt="Cross-section of a hollow cylinder carry a uniform current.">
 
 ## Part 1
 
-Calculate the magnitude of the magnetic field at a radius $r = {{ params_ra }}\rm\ cm$ measured from the axis of the hollow cylinder.
+Calculate the magnitude of the magnetic field at a radius $r = {{ params.ra }}\rm\ cm$ measured from the axis of the hollow cylinder.
 
 ### Answer Section
 
 ## Part 2
 
-Calculate the magnitude of the magnetic field at a radius $r = {{ params_rb }}\rm\ cm$ measured from the axis of the hollow cylinder.
+Calculate the magnitude of the magnetic field at a radius $r = {{ params.rb }}\rm\ cm$ measured from the axis of the hollow cylinder.
 
 ### Answer Section
 
 ## Part 3
 
-Calculate the magnitude of the magnetic field at a radius $r = {{ params_rc }}\rm\ cm$ measured from the axis of the hollow cylinder.
+Calculate the magnitude of the magnetic field at a radius $r = {{ params.rc }}\rm\ cm$ measured from the axis of the hollow cylinder.
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}
 
 ## Attribution
 

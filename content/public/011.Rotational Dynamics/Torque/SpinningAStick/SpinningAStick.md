@@ -35,22 +35,24 @@ part1:
     suffix: $\rm{s}$
 myst:
   substitutions:
-    params_vars_title: Spinning A Stick
-    params_L: 1.61
-    params_F: 117
-    params_m: 24.2
-    params_thetaDot: 1.48
+    params:
+      vars:
+        title: Spinning A Stick
+      L: 2.93
+      F: 66
+      m: 38.1
+      thetaDot: 3.89
 ---
-# {{ params_vars_title }}
-A person is trying to spin a ${{params_m}}\ \rm{kg}$ stick around its center.
-The stick is initially at rest and has a length $L={{params_L}}\ \rm{m}$.
-He applies a force $F={{params_F}}\ \rm{N}$ at one end of the stick.
+# {{ params.vars.title }}
+A person is trying to spin a ${{params.m}}\ \rm{kg}$ stick around its center.
+The stick is initially at rest and has a length $L={{params.L}}\ \rm{m}$.
+He applies a force $F={{params.F}}\ \rm{N}$ at one end of the stick.
 
 <img src="SpinningAStick.png" width=500 alt="A stick of length L rotating about its center at theta dot." >
 
 ## Part 1
 
-How long does it take for the stick to spin at $\dot \theta={{params_thetaDot}}\ \rm{rad/s}$?
+How long does it take for the stick to spin at $\dot \theta={{params.thetaDot}}\ \rm{rad/s}$?
 
 ### Answer Section
 

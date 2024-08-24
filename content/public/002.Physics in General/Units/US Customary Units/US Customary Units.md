@@ -30,15 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: US Customary Units
-    params_part1_ans1_value: The slug is a unit of mass and the pound is a unit of
-      force.
-    params_part1_ans2_value: The slug is a unit of force.
-    params_part1_ans3_value: One slug is equal to one pound mass.
-    params_part1_ans4_value: The slug is a unit of force and the pound is a unit of
-      mass.
+    params:
+      vars:
+        title: US Customary Units
+      part1:
+        ans1:
+          value: The slug is a unit of mass and the pound is a unit of force.
+        ans2:
+          value: The slug is a unit of force.
+        ans3:
+          value: One slug is equal to one pound mass.
+        ans4:
+          value: The slug is a unit of force and the pound is a unit of mass.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -46,10 +51,10 @@ In U.S. customary units
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

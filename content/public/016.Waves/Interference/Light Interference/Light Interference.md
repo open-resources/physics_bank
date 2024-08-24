@@ -32,27 +32,33 @@ part1:
     partial-credit-method: PC
 myst:
   substitutions:
-    params_vars_title: Correct and Incorrect Statements
-    params_vars_name: Emilia
-    params_choice: 'TRUE'
-    params_part1_ans1_value: When a π rad phase change occurs upon reflection from
-      the front but not the back surface of a thin film, constructive interference
-      occurs if half a wavelength fits in twice the film thickness.
-    params_part1_ans1_feedback: Correct! Nice work
-    params_part1_ans2_value: When a π rad phase change occurs upon reflection from
-      both the front and back surfaces of a thin film, constructive interference occurs
-      if a full wavelength fits in twice the film thickness.
-    params_part1_ans2_feedback: Correct! Nice work
-    params_part1_ans3_value: When a π rad phase change occurs upon reflection from
-      both the front and back surfaces of a thin film, constructive interference occurs
-      if half a wavelength fits in twice the film thickness.
-    params_part1_ans3_feedback: Not quite - Try again!
+    params:
+      vars:
+        title: Correct and Incorrect Statements
+        name: Lorenzo
+      choice: 'FALSE'
+      part1:
+        ans1:
+          value: When a π rad phase change occurs upon reflection from both the front
+            and back surfaces of a thin film, constructive interference occurs if
+            half a wavelength fits in twice the film thickness.
+          feedback: Correct! Nice work
+        ans2:
+          value: When a π rad phase change occurs upon reflection from both the front
+            and back surfaces of a thin film, constructive interference occurs if
+            a full wavelength fits in twice the film thickness.
+          feedback: Not quite - Try again!
+        ans3:
+          value: When a π rad phase change occurs upon reflection from the front but
+            not the back surface of a thin film, constructive interference occurs
+            if half a wavelength fits in twice the film thickness.
+          feedback: Not quite - Try again!
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
-{{ params_vars_name }} is given a list of statements about interference of light waves and has to identify all of the __{{ params_choice }}__ statements. Can you help?
+{{ params.vars.name }} is given a list of statements about interference of light waves and has to identify all of the __{{ params.choice }}__ statements. Can you help?
 
 ### Answer Section
 
@@ -60,13 +66,9 @@ Select all the choices that that apply.
 
 Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params_part1_ans1_value}}
-- {{ params_part1_ans2_value}}
-- {{ params_part1_ans3_value}}
-
-### pl-submission-panel
-
-### pl-answer-panel
+- {{ params.part1.ans1.value}}
+- {{ params.part1.ans2.value}}
+- {{ params.part1.ans3.value}}
 
 ## Attribution
 

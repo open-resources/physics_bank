@@ -41,9 +41,11 @@ part1:
     allow-blank: false
 myst:
   substitutions:
-    params_vars_title: Concentric spherical shells
+    params:
+      vars:
+        title: Concentric spherical shells
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Concentric conducting spherical shells carry charges of $Q$ and $-Q$ as shown in the figure.
 The inner shell of radius $a$ has negligible thickness.
 The outer shell has an inner radius $b$.

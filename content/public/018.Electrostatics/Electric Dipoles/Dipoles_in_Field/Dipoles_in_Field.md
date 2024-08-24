@@ -50,9 +50,11 @@ part3:
     allow-blank: false
 myst:
   substitutions:
-    params_vars_title: Dipoles in Electric Field
+    params:
+      vars:
+        title: Dipoles in Electric Field
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="dipoles.png" width="400">
 
 Hydrogen fluoride is a polar molecule with a bond length of about 0.92 x 10-10 m and can be roughly modeled as having a point charge of 6.6 x 10-20 C on the hydrogen atom and another of -6.6 x 10-20 C on the fluorine atom.  If this molecule is on the angle shown in a parallel plate capacitor with charge per unit area Q/A on its positive plate;
@@ -69,10 +71,6 @@ What electric field does this molecule feel (assume that it is far from the ends
 
 ### Answer Section
 
-### pl-submission-panel
-
-### pl-answer-panel
-
 ## Part 2
 
 Calculate the electric force on each atom, and find the net force acting on the molecule.
@@ -80,12 +78,6 @@ Calculate the electric force on each atom, and find the net force acting on the 
 ### Answer Section
 
 Please enter in a numeric value in {{ params.vars.units }}.
-
-### pl-submission-panel
-
-{{ feedback.part2_ans }}
-
-### pl-answer-panel
 
 ## Part 3
 
@@ -98,10 +90,6 @@ Calculate the net torque on the HF molecule. Use the convention that clockwise i
 | $ε_0$| e_0  |
 
 ### Answer Section
-
-### pl-submission-panel
-
-### pl-answer-panel
 
 ## Attribution
 

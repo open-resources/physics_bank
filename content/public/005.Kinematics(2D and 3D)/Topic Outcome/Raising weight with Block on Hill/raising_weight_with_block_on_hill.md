@@ -44,13 +44,15 @@ part2:
     suffix: $m/s^2$
 myst:
   substitutions:
-    params_vars_title: Raising weight with Block on Hill
-    params_vars_units_v: m/s
-    params_vars_units_a: m/s^2
-    params_v_b: 1.2
-    params_a_b: 1.2
+    params:
+      vars:
+        title: Raising weight with Block on Hill
+        units_v: m/s
+        units_a: m/s^2
+      v_b: 3.7
+      a_b: 3.3
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="L13Q3.png" width=85%>
 
 In the moment shown above, $B$ is travelling downwards at $v = {{params.v_b}}m/s$, but accelerating upwards at $a = {{params.a_b}}m/s^2$.

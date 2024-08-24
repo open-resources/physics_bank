@@ -30,20 +30,28 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Timing Circuits
-    params_part1_ans1_value: twice the capacitance on the one minute setting.
-    params_part1_ans1_feedback: Try again! Use the time constant relationship
-    params_part1_ans2_value: four times the capacitance on the one minute setting.
-    params_part1_ans2_feedback: Great! You got it. This is because the time constant
-      relationship (τ=RC) at fixed R means τ=4τ so C=4C
-    params_part1_ans3_value: the same as the capacitance on the one minute setting.
-    params_part1_ans3_feedback: Try again! Use the time constant relationship
-    params_part1_ans4_value: one half the capacitance on the one minute setting.
-    params_part1_ans4_feedback: Try again! Use the time constant relationship
-    params_part1_ans5_value: one quarter the capacitance on the one minute setting.
-    params_part1_ans5_feedback: Try again! Use the time constant relationship
+    params:
+      vars:
+        title: Timing Circuits
+      part1:
+        ans1:
+          value: twice the capacitance on the one minute setting.
+          feedback: Try again! Use the time constant relationship
+        ans2:
+          value: four times the capacitance on the one minute setting.
+          feedback: Great! You got it. This is because the time constant relationship
+            (τ=RC) at fixed R means τ=4τ so C=4C
+        ans3:
+          value: the same as the capacitance on the one minute setting.
+          feedback: Try again! Use the time constant relationship
+        ans4:
+          value: one half the capacitance on the one minute setting.
+          feedback: Try again! Use the time constant relationship
+        ans5:
+          value: one quarter the capacitance on the one minute setting.
+          feedback: Try again! Use the time constant relationship
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Toasters have timing circuits.
 If you want lightly toasted bread you might choose a time of one minute, while for an evenly brown toasted bagel you might choose a time of four minutes.
 
@@ -53,15 +61,11 @@ If the timing circuit in a toaster has a fixed resistance resistor in series wit
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params.vars.units}}
-- {{ params_part1_ans2_value }} {{ params.vars.units}}
-- {{ params_part1_ans3_value }} {{ params.vars.units}}
-- {{ params_part1_ans4_value }} {{ params.vars.units}}
-- {{ params_part1_ans5_value }} {{ params.vars.units}}
-
-### pl-submission-panel
-
-### pl-answer-panel
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

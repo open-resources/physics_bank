@@ -37,24 +37,26 @@ part1:
     allow-blank: true
 myst:
   substitutions:
-    params_vars_title: Pulley Crate
-    params_vars_units: ft/s^2
-    params_m: 79
-    params_f: 39
+    params:
+      vars:
+        title: Pulley Crate
+        units: ft/s^2
+      m: 92
+      f: 42
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
 <img src="L14Q1.png" width=60%>
 
-The worker shown pulls the rope with a force of ${{params_f}}lb$.
-Find the acceleration $a$ of the  ${{params_m}}lb$ crate.
+The worker shown pulls the rope with a force of ${{params.f}}lb$.
+Find the acceleration $a$ of the  ${{params.m}}lb$ crate.
 Neglect mass of the ropes, and pulleys.
 
 ### Answer Section
 
-Please enter a value in ${{ params_vars_units }}$.
+Please enter a value in ${{ params.vars.units }}$.
 
 ## Attribution
 

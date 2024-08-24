@@ -66,21 +66,23 @@ part4:
     digits: 1
 myst:
   substitutions:
-    params_vars_name: Ahmed
-    params_vars_title: Toboggan Hill
-    params_vars_units1_2_3: "$\rm{kJ}$"
-    params_vars_units_4: "$\rm{m/s}$"
-    params_m: 32
-    params_l: 99
-    params_ang_horiz: 33
-    params_fr: 96
-    params_fwind: 23
-    params_ang_wind: 16
-    params_v_i: 1
+    params:
+      vars:
+        name: Aliyah
+        title: Toboggan Hill
+        units1_2_3: "$\rm{kJ}$"
+        units_4: "$\rm{m/s}$"
+      m: 32
+      l: 96
+      ang_horiz: 34
+      fr: 74
+      fwind: 25
+      ang_wind: 25
+      v_i: 3
 ---
-# {{ params_vars_title }}
-{{params_vars_name}} and their sled, with a combined mass of ${{params_m}}$ $\rm{kg}$, slide ${{params_l}}$ $\rm{m}$ down a hill that makes an angle of ${{params.ang_horiz}}^\circ$ with the horizontal.
-They feel a friction force from the snow $F\_{fr} = {{params_fr}}$ $\rm{N}$ and another force from the wind $F\_{wind} = {{params_fwind}}$ $\rm{N}$ blowing at ${{params.ang_wind}}^\circ$ below the horizontal from the top of the hill toward the bottom.
+# {{ params.vars.title }}
+{{params.vars.name}} and their sled, with a combined mass of ${{params.m}}$ $\rm{kg}$, slide ${{params.l}}$ $\rm{m}$ down a hill that makes an angle of ${{params.ang_horiz}}^\circ$ with the horizontal.
+They feel a friction force from the snow $F\_{fr} = {{params.fr}}$ $\rm{N}$ and another force from the wind $F\_{wind} = {{params.fwind}}$ $\rm{N}$ blowing at ${{params.ang_wind}}^\circ$ below the horizontal from the top of the hill toward the bottom.
 
 For reference, below is a picture of a sled.
 
@@ -88,7 +90,7 @@ For reference, below is a picture of a sled.
 
 ## Part 1
 
-How much work is done by gravity $W_g$ by the time {{params_vars_name}} gets to the bottom of the hill?
+How much work is done by gravity $W_g$ by the time {{params.vars.name}} gets to the bottom of the hill?
 
 ### Answer Section
 
@@ -96,7 +98,7 @@ Please enter in a numeric value in {{ params.vars.units1_2_3 }}.
 
 ## Part 2
 
-How much work $W\_{fr}$ is done by friction by the time {{params_vars_name}} gets to the bottom of the hill?
+How much work $W\_{fr}$ is done by friction by the time {{params.vars.name}} gets to the bottom of the hill?
 
 ### Answer Section
 
@@ -104,7 +106,7 @@ Please enter in a numeric value in {{ params.vars.units1_2_3 }}.
 
 ## Part 3
 
-How much work $W_w$ is done by the wind by the time {{params_vars_name}} gets to the bottom of the hill?
+How much work $W_w$ is done by the wind by the time {{params.vars.name}} gets to the bottom of the hill?
 
 ### Answer Section
 
@@ -112,7 +114,7 @@ Please enter in a numeric value in {{ params.vars.units1_2_3 }}.
 
 ## Part 4
 
-If {{params_vars_name}}'s inital speed at the top of the hill is $v_i = {{params.v_i}}$ $\rm{m/s}$, what is their speed $v_f$ at the bottom of the hill?
+If {{params.vars.name}}'s inital speed at the top of the hill is $v_i = {{params.v_i}}$ $\rm{m/s}$, what is their speed $v_f$ at the bottom of the hill?
 
 If you are not able to get an answer for Part 3, you can still get marks for Part 4. Use $W_w = 10$ $\rm{kJ}$ to continue answering Part 4.
 

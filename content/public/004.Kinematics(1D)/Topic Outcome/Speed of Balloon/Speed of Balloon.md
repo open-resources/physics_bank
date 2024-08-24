@@ -35,25 +35,27 @@ part1:
     suffix: $m/s$
 myst:
   substitutions:
-    params_vars_name: Lorenzo
-    params_vars_title: Speed of Balloon
-    params_vars_units: $m/s$
-    params_m: 1.2
-    params_F: 0.05
-    params_d: 2.01
+    params:
+      vars:
+        name: Abbas
+        title: Speed of Balloon
+        units: $m/s$
+      m: 1.1
+      F: 0.05
+      d: 2.8
 ---
-# {{ params_vars_title }}
-In a demo for showing how a jet works, {{ params_vars_name }} would like to use an inflated balloon. The mass of the empty balloon is {{ params_m }} $g$ and it only moves vertically upward. We know that this balloon produces a constant thrust force of {{ params_F }} $N$.
+# {{ params.vars.title }}
+In a demo for showing how a jet works, {{ params.vars.name }} would like to use an inflated balloon. The mass of the empty balloon is {{ params.m }} $g$ and it only moves vertically upward. We know that this balloon produces a constant thrust force of {{ params.F }} $N$.
 
 <img src="balloon.png">
 
 ## Part 1
 
-What will be the speed of the balloon after it moves {{ params_d }} $m$ upward? Neglect air resistance and assume it starts from rest.
+What will be the speed of the balloon after it moves {{ params.d }} $m$ upward? Neglect air resistance and assume it starts from rest.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

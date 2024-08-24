@@ -33,14 +33,16 @@ part1:
     suffix: $m/s$
 myst:
   substitutions:
-    params_vars_title: Collision of a Cart with a Spring
-    params_vars_units: m/s
-    params_m: 15
-    params_k: 286
-    params_x: 57
+    params:
+      vars:
+        title: Collision of a Cart with a Spring
+        units: m/s
+      m: 96
+      k: 384
+      x: 37
 ---
-# {{ params_vars_title }}
-A  {{ params_m }}  $kg$  runaway  grocery  cart  runs  into  a  spring  with a spring  constant $k = $  {{ params_k }}  $N/m$  and compresses it by {{ params_x }} $cm$ before momentarily coming to rest.
+# {{ params.vars.title }}
+A  {{ params.m }}  $kg$  runaway  grocery  cart  runs  into  a  spring  with a spring  constant $k = $  {{ params.k }}  $N/m$  and compresses it by {{ params.x }} $cm$ before momentarily coming to rest.
 
 ## Question Text
 
@@ -48,7 +50,7 @@ What was the speed of the cart just before it hit the spring?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

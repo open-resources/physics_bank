@@ -45,15 +45,17 @@ part2:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_title: Rollercoaster Energy
-    params_vars_units: m/s
-    params_m: 711
-    params_r: 12
-    params_h: 78
-    params_d: 32
+    params:
+      vars:
+        title: Rollercoaster Energy
+        units: m/s
+      m: 956
+      r: 13
+      h: 63
+      d: 47
 ---
-# {{ params_vars_title }}
-A rollercoaster ride moves a car with a mass of ${{params_m}}\ \rm{kg}$ to point $A$ at a height $h_A = {{params_h}} \ \rm{m}$. At point $A$, the car is at rest, and then goes down the path through a loop of radius ${{params_r}} \ \rm{m}$. Point $B$ is at a height of $h_B = {{params_d}} \ \rm{m}$.
+# {{ params.vars.title }}
+A rollercoaster ride moves a car with a mass of ${{params.m}}\ \rm{kg}$ to point $A$ at a height $h_A = {{params.h}} \ \rm{m}$. At point $A$, the car is at rest, and then goes down the path through a loop of radius ${{params.r}} \ \rm{m}$. Point $B$ is at a height of $h_B = {{params.d}} \ \rm{m}$.
 
 <img src="RollercoasterEnergy.png" width=700 alt="A rollercoaster track with max height h and a loop with height d." >
 
@@ -63,7 +65,7 @@ What is the maximum possible speed of the rollercoaster?
 
 ### Answer Section
 
-Please enter in a numeric value in ${{ params_vars_units }}$.
+Please enter in a numeric value in ${{ params.vars.units }}$.
 
 ## Part 2
 
@@ -71,7 +73,7 @@ What is the speed at point $B$?
 
 ### Answer Section
 
-Please enter in a numeric value in ${{ params_vars_units }}$.
+Please enter in a numeric value in ${{ params.vars.units }}$.
 
 ## Attribution
 

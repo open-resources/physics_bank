@@ -33,17 +33,19 @@ part1:
     suffix: $\rm{N.s}$
 myst:
   substitutions:
-    params_vars_title: Momentum of a Ball
-    params_m: 6124
-    params_a: 19
-    params_t: 50
+    params:
+      vars:
+        title: Momentum of a Ball
+      m: 8606
+      a: 22
+      t: 15
 ---
-# {{ params_vars_title }}
-A ball has a mass of $m = {{params_m}} \ \rm{kg}$ and has an acceleration of $a = {{params_a}} \ \rm{m/s^2}$.
+# {{ params.vars.title }}
+A ball has a mass of $m = {{params.m}} \ \rm{kg}$ and has an acceleration of $a = {{params.a}} \ \rm{m/s^2}$.
 
 ## Part 1
 
-At $t = {{params_t}} \ \rm{s}$, what is the impulse on the ball?
+At $t = {{params.t}} \ \rm{s}$, what is the impulse on the ball?
 
 ### Answer Section
 

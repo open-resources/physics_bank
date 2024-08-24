@@ -68,25 +68,23 @@ part6:
     allow-blank: true
 myst:
   substitutions:
-    params_vars_title: Horizontal Spring Displacement
-    params_n: 6
+    params:
+      vars:
+        title: Horizontal Spring Displacement
+      n: 4
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The displacement of a mass from its equilibrium position as it oscillates  on a horizontal spring satisfies the equation $x(t) = A\cos(\omega t + \phi_0)$.
 
 ## Part 1(a)
 
-At $t = 0$ s, if $x = -A/{{ params_n}}$, There are the two possible values of $\phi_0$ between 0 and 2$\pi$ radians.
+At $t = 0$ s, if $x = -A/{{ params.n}}$, There are the two possible values of $\phi_0$ between 0 and 2$\pi$ radians.
 
 Enter the smaller angle;
 
 ### Answer Section
 
 Please enter an integer value in {{ params.vars.units }}.
-
-### pl-submission-panel
-
-### pl-answer-panel
 
 ## Part 1(b)
 
@@ -96,10 +94,6 @@ Enter the larger angle;
 
 Please enter an integer value in {{ params.vars.units }}.
 
-### pl-submission-panel
-
-### pl-answer-panel
-
 ## Part 2
 
 At $t = 0$ s, what fraction of the total energy of this oscillator is spring potential energy?
@@ -108,23 +102,15 @@ At $t = 0$ s, what fraction of the total energy of this oscillator is spring pot
 
 Please enter an integer value in {{ params.vars.units }}.
 
-### pl-submission-panel
-
-### pl-answer-panel
-
 ## Part 3(a)
 
-At $t = 0$ s, there are two possible values of the $x$-components of the velocity of the mass ($v_x$) in terms of $v\_{max}$ that are found when $x = -A/{{ params_n}}$.
+At $t = 0$ s, there are two possible values of the $x$-components of the velocity of the mass ($v_x$) in terms of $v\_{max}$ that are found when $x = -A/{{ params.n}}$.
 
 Which value of $\phi_0$ belongs to the larger angle?
 
 ### Answer Section
 
 Please enter an integer value in {{ params.vars.units }}.
-
-### pl-submission-panel
-
-### pl-answer-panel
 
 ## Part 3(b)
 
@@ -134,10 +120,6 @@ Which value of $\phi_0$ belongs to the smaller angle?
 
 Please enter an integer value in {{ params.vars.units }}.
 
-### pl-submission-panel
-
-### pl-answer-panel
-
 ## Part 4
 
 Choosing the value of $\phi_0$ from part (a) between 0 and $\pi$, at what times between 0 and $T$ are the kinetic and potential energies equal?
@@ -145,10 +127,6 @@ Choosing the value of $\phi_0$ from part (a) between 0 and $\pi$, at what times 
 ### Answer Section
 
 Please enter an integer value in {{ params.vars.units }}.
-
-### pl-submission-panel
-
-### pl-answer-panel
 
 ## Attribution
 

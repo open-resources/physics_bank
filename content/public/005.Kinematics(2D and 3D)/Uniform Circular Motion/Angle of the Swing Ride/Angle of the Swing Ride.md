@@ -34,17 +34,19 @@ part1:
     suffix: $^{\circ} $
 myst:
   substitutions:
-    params_vars_name: Ximena
-    params_vars_title: Angle of the Swing Ride
-    params_vars_units: degrees
-    params_omega: 2.18
-    params_d: 8.3
-    params_m: 142
+    params:
+      vars:
+        name: Maya
+        title: Angle of the Swing Ride
+        units: degrees
+      omega: 2.71
+      d: 7.6
+      m: 87
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src = "part1.png" width=600>
 
-A person is on a swing ride, rotating at a $\omega = {{ params_omega}}\ \rm{rad/s}$. The combined mass of the person and the seat is $m = {{ params_m }}\ \rm{kg}$. The length of the cable connecting the seat to the ride is $ d =$ ${{ params_d}}\ \rm{m}$.
+A person is on a swing ride, rotating at a $\omega = {{ params.omega}}\ \rm{rad/s}$. The combined mass of the person and the seat is $m = {{ params.m }}\ \rm{kg}$. The length of the cable connecting the seat to the ride is $ d =$ ${{ params.d}}\ \rm{m}$.
 
 ## Part 1
 
@@ -52,7 +54,7 @@ What is the angle $\theta$ in degrees?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

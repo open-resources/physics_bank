@@ -89,10 +89,11 @@ part6:
     digits: 2
 myst:
   substitutions:
-    params_a: 60
-    params_u: 47
-    params_d: 59
-    params_a_w: 3
+    params:
+      a: 37
+      u: 25
+      d: 51
+      a_w: 4
 ---
 # Cricket Wicket By Catch
 In a game of cricket akin to baseball, a batsman returns the ball bowled on a pitch and scores runs based on the distance travelled by the ball upon exiting the collision with the bat.
@@ -104,7 +105,7 @@ If the ball leaves the bat with a speed of $u\ \rm{m/s}$ at an angle $\alpha$ me
 <img src="part1.png" width=800>
 
 Treat the ball as a particle and assume an east-ward acceleration awind acting on the ball due to the wind.<br>
-$\alpha = {{ params_a }}^\circ$, $u = {{ params_u }}\ \rm{m/s}$, $d = {{ params_d }}\ \rm{m}$, $a\_{wind} = {{ params_a_w }}\ \rm{m/s^{2}}$.
+$\alpha = {{ params.a }}^\circ$, $u = {{ params.u }}\ \rm{m/s}$, $d = {{ params.d }}\ \rm{m}$, $a\_{wind} = {{ params.a_w }}\ \rm{m/s^{2}}$.
 
 ### Answer Section
 

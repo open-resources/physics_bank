@@ -43,10 +43,12 @@ part2:
     suffix: $I_{single}$
 myst:
   substitutions:
-    params_vars_title: Single Slit Experiment
-    params_m: 10
+    params:
+      vars:
+        title: Single Slit Experiment
+      m: 8
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Real multiple slit diffraction patterns experience diffraction effects both from the separation of the slits and the uniform slit width of each slit. This results in the superposition of a single slit pattern on top of the multiple slit pattern, such that the centre of the diffraction pattern remains bright, but the intensity decreases with increasing angle until the first diffraction minimum of the single slit pattern.
 
 <!-- Button trigger modal -->
@@ -78,7 +80,7 @@ Real multiple slit diffraction patterns experience diffraction effects both from
 
 ## Part 1
 
-If the first diffraction minimum of the single slit pattern coincides with the $m = {{ params_m }}$ triple slit maximum, find the slit width $a$ (express your answer to two significant digits).
+If the first diffraction minimum of the single slit pattern coincides with the $m = {{ params.m }}$ triple slit maximum, find the slit width $a$ (express your answer to two significant digits).
 
 <!-- Button trigger modal -->
 
@@ -115,10 +117,6 @@ If the first diffraction minimum of the single slit pattern coincides with the $
 
 Please enter in a numeric value in $\rm{\mu m}$.
 
-### pl-submission-panel
-
-{{feedback.part1_ans}}
-
 ## Part 2
 
 If the intensity from a single slit is $I\_{single}$, find the intensity of the maximum at $\theta$ = 0 of the triple slit pattern $I\_{triple}$ in terms of $I\_{single}$.
@@ -153,10 +151,6 @@ If the intensity from a single slit is $I\_{single}$, find the intensity of the 
 ### Answer Section
 
 Please enter in a numeric value in terms of $I\_{single}$.
-
-### pl-submission-panel
-
-{{feedback.part2_ans}}
 
 ## Attribution
 

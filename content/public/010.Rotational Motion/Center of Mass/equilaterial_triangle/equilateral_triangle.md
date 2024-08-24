@@ -31,9 +31,11 @@ part1:
     file-names: file.png, file.jpg, file.pdf, filename space.png
 myst:
   substitutions:
-    params_vars_title: Equilateral triangle
+    params:
+      vars:
+        title: Equilateral triangle
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 

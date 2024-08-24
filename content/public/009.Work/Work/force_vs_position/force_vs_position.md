@@ -51,21 +51,23 @@ part3:
     suffix: $\rm{J}$
 myst:
   substitutions:
-    params_vars_title: Force vs Position Graph
-    params_m: 5.0
-    params_v: 4.5
-    params_x: 1.0
+    params:
+      vars:
+        title: Force vs Position Graph
+      m: 1.0
+      v: 3.5
+      x: 1.5
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The graph below shows the net force on a particle in the $x$-direction as a function of its position along the $x$-axis.
-The mass of the particle is $m = {{params_m}} \rm{kg}$.
+The mass of the particle is $m = {{params.m}} \rm{kg}$.
 
 <img src="q15image.png" width=400 alt="Force vs position graph">
 
 ## Part 1
 
-If the particle has a velocity of $v_x = {{ params_v }} \rm{m/s}$ when $x = 0 \rm{m}$, what is the particle's speed
-when $x = {{ params_x }} \rm{m}$?
+If the particle has a velocity of $v_x = {{ params.v }} \rm{m/s}$ when $x = 0 \rm{m}$, what is the particle's speed
+when $x = {{ params.x }} \rm{m}$?
 
 ### Answer Section
 

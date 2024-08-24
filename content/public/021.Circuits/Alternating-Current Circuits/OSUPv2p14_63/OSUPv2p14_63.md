@@ -43,28 +43,20 @@ part1:
     atol: 0
 myst:
   substitutions:
-    params_vars_title: Frequency of an LC Circuit
-    params_L: '0.12'
-    params_C: '7.5'
+    params:
+      vars:
+        title: Frequency of an LC Circuit
+      L: '0.21'
+      C: '5.3'
 ---
-# {{ params_vars_title }}
-The self-inductance and capacitance of an $LC$ circuit are $L = {{ params_L }}\rm\ mH$ and $C = {{ params_C }}\rm\ pF$.
+# {{ params.vars.title }}
+The self-inductance and capacitance of an $LC$ circuit are $L = {{ params.L }}\rm\ mH$ and $C = {{ params.C }}\rm\ pF$.
 
 ## Question Text
 
 What is the angular frequency at which the circuit oscillates?
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$\omega =$ {{ correct_answers.part1_ans_str }} $\rm\ rad/s$.
 
 ## Attribution
 

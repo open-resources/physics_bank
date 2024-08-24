@@ -30,20 +30,28 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Force and Displacement
-    params_vars_units: J
-    params_f1: -10
-    params_f2: 7
-    params_r1: 17
-    params_r2: -2
-    params_part1_ans1_value: -184
-    params_part1_ans2_value: 184
-    params_part1_ans3_value: -156
-    params_part1_ans4_value: 156
-    params_part1_ans5_value: Zero
+    params:
+      vars:
+        title: Force and Displacement
+        units: J
+      f1: -14
+      f2: 18
+      r1: 20
+      r2: -19
+      part1:
+        ans1:
+          value: -622
+        ans2:
+          value: 622
+        ans3:
+          value: 62
+        ans4:
+          value: -62
+        ans5:
+          value: Zero
 ---
-# {{ params_vars_title }}
-A constant force of $\vec{F}$  = ( {{params_f1}} $\hat{\imath}$ + {{params_f2}} $\hat{\jmath}$ ) N acts on an object during a displacement of $\Delta \vec{r} = (${{params_r1}} $\hat{\imath}$  {{params_r2}} $\hat{\jmath}$ ) m.
+# {{ params.vars.title }}
+A constant force of $\vec{F}$  = ( {{params.f1}} $\hat{\imath}$ + {{params.f2}} $\hat{\jmath}$ ) N acts on an object during a displacement of $\Delta \vec{r} = (${{params.r1}} $\hat{\imath}$  {{params.r2}} $\hat{\jmath}$ ) m.
 
 ## Part 1
 
@@ -51,11 +59,11 @@ What is the object's change in kinetic energy?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params_vars_units}}
-- {{ params_part1_ans2_value }} {{ params_vars_units}}
-- {{ params_part1_ans3_value }} {{ params_vars_units}}
-- {{ params_part1_ans4_value }} {{ params_vars_units}}
-- {{ params_part1_ans5_value }} {{ params_vars_units}}
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

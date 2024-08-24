@@ -44,22 +44,24 @@ part2:
     suffix: $\rm{J}$
 myst:
   substitutions:
-    params_vars_title: Stretched Spring
-    params_m: 5
-    params_deltaX: 0.4
-    params_k: 3070
-    params_nu: 0.24
+    params:
+      vars:
+        title: Stretched Spring
+      m: 5
+      deltaX: 0.11
+      k: 3070
+      nu: 0.15
 ---
-# {{ params_vars_title }}
-A ${{params_m}} \ \rm{kg}$ mass is attached to a wall by a spring of spring constant ${{params_k}} \ \rm{N/m}$.
-A person pulls the mass until the spring is stretched ${{params_deltaX}} \ \rm{m}$ from its rest position.
+# {{ params.vars.title }}
+A ${{params.m}} \ \rm{kg}$ mass is attached to a wall by a spring of spring constant ${{params.k}} \ \rm{N/m}$.
+A person pulls the mass until the spring is stretched ${{params.deltaX}} \ \rm{m}$ from its rest position.
 They release the mass and it springs towards the wall.
 
 <img src="StretchedSpring.png" height=150 alt="A mass attached to a wall by spring. The spring is stretched delta x. Coefficient of friction between mass and floor is nu." >
 
 ## Part 1
 
-Given that the kinetic coefficient of friction is ${{params_nu}}$, how far will the spring compress from its rest state?
+Given that the kinetic coefficient of friction is ${{params.nu}}$, how far will the spring compress from its rest state?
 
 ### Answer Section
 

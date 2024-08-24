@@ -35,19 +35,21 @@ part1:
     suffix: $rad/s$
 myst:
   substitutions:
-    params_vars_title: Rotating Spheres
-    params_m: 1.9
-    params_Mo: 2
-    params_t: 1
-    params_r: 0.3
+    params:
+      vars:
+        title: Rotating Spheres
+      m: 2.4
+      Mo: 1
+      t: 4
+      r: 0.4
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Rotating Spheres.png" width=400>
 
-The spinning object above is made of light rods and two ${{params_m}}kg$ balls that rotate about its vertical axis.
-It is initially at rest, until a couple $M = {{params_Mo}} N \bullet m$ is applied for ${{params_t}}s$.
+The spinning object above is made of light rods and two ${{params.m}}kg$ balls that rotate about its vertical axis.
+It is initially at rest, until a couple $M = {{params.Mo}} N \bullet m$ is applied for ${{params.t}}s$.
 Determine the final angular velocity of the assembly.
-$R = {{params_r}}m$
+$R = {{params.r}}m$
 
 ## Part 1
 

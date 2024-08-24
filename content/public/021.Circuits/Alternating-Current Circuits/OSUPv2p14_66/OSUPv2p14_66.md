@@ -58,13 +58,15 @@ part2:
     custom-format: .3g
 myst:
   substitutions:
-    params_vars_title: Frequency and Voltage of an LC Circuit
-    params_L: '37.0'
-    params_C: '5.0'
-    params_V: '59.0'
+    params:
+      vars:
+        title: Frequency and Voltage of an LC Circuit
+      L: '50.0'
+      C: '2.0'
+      V: '45.0'
 ---
-# {{ params_vars_title }}
-The self-inductance and capacitance of an oscillating $LC$ circuit are $L = {{ params_L }}\rm\ mH$ and $C = {{ params_C }}\rm\ \mu F$, respectively.
+# {{ params.vars.title }}
+The self-inductance and capacitance of an oscillating $LC$ circuit are $L = {{ params.L }}\rm\ mH$ and $C = {{ params.C }}\rm\ \mu F$, respectively.
 
 ## Part 1
 
@@ -76,21 +78,11 @@ Please enter in a numeric value in $\rm\ Hz$.
 
 ## Part 2
 
-If the maximum potential difference between the plates of the capacitor is ${{ params_V }}\rm\ V$, what is the maximum current in the circuit?
+If the maximum potential difference between the plates of the capacitor is ${{ params.V }}\rm\ V$, what is the maximum current in the circuit?
 
 ### Answer Section
 
 Please enter in a numeric value in $\rm\ A$.
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}<br>
-{{ feedback.part2_ans }}
-
-### pl-answer-panel
-
-$f=$ {{ correct_answers.part1_ans_str }} $\rm\ Hz$<br>
-$I\_{\rm max}=$ {{ correct_answers.part2_ans_str }} $\rm\ A$
 
 ## Attribution
 

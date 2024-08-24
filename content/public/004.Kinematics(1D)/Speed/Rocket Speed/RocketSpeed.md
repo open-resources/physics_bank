@@ -35,16 +35,18 @@ part1:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_title: Rocket Speed
-    params_d: 4.92
-    params_theta1: 64
-    params_theta2: 77.0
-    params_dt: 0.42
+    params:
+      vars:
+        title: Rocket Speed
+      d: 3.1
+      theta1: 44
+      theta2: 47.0
+      dt: 0.46
 ---
-# {{ params_vars_title }}
-A rocket is fired vertically from a launch pad $d={{params_d}} \ \rm{km}$ away from a tracking radar.
-At some time, the angle of elevation is $\theta={{params_theta1}}^\circ$.
-After ${{params_dt}} \ \rm{s}$, the angle becomes $\theta={{params_theta2}}^\circ$.
+# {{ params.vars.title }}
+A rocket is fired vertically from a launch pad $d={{params.d}} \ \rm{km}$ away from a tracking radar.
+At some time, the angle of elevation is $\theta={{params.theta1}}^\circ$.
+After ${{params.dt}} \ \rm{s}$, the angle becomes $\theta={{params.theta2}}^\circ$.
 
 <img src="RocketSpeed.png" width=700 alt="A rocket moving upwards at a distance d from a radar." >
 

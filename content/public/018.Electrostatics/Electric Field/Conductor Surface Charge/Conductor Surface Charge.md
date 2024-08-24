@@ -55,13 +55,15 @@ part2:
     custom-format: .3g
 myst:
   substitutions:
-    params_vars_title: Conductor Surface Charge
-    params_Q: '3.8'
-    params_q: '6.6'
+    params:
+      vars:
+        title: Conductor Surface Charge
+      Q: '-7.1'
+      q: '-5.9'
 ---
-# {{ params_vars_title }}
-The conductor in the figure has an excess charge of ${{params_Q}}\rm\ \mu C$.
-A point charge $q = {{params_q}}\rm\ \mu C$ is placed in the cavity.
+# {{ params.vars.title }}
+The conductor in the figure has an excess charge of ${{params.Q}}\rm\ \mu C$.
+A point charge $q = {{params.q}}\rm\ \mu C$ is placed in the cavity.
 
 <img src="OSUPv2p6_19.png" width=300 alt="Conductor with a cavity enclosing a point charge.">
 
@@ -78,16 +80,6 @@ What is the net charge on the outer surface of the conductor?
 Give your answer in units of micro-Coulombs.
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}<br>
-{{ feedback.part2_ans }}
-
-### pl-answer-panel
-
-$Q\_\mathrm{cavity}=$ {{ correct_answers.part1_ans_str }} $\rm\ \mu C$<br>
-$Q\_\mathrm{outer}=$ {{ correct_answers.part2_ans_str }} $\rm\ \mu C$
 
 ## Attribution
 

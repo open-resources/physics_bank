@@ -42,15 +42,26 @@ part3:
     fixed-order: true
 myst:
   substitutions:
-    params_vars_title: Object True or False
-    params_part1_ans1_value: 'True'
-    params_part1_ans2_value: 'False'
-    params_part2_ans1_value: 'True'
-    params_part2_ans2_value: 'False'
-    params_part3_ans1_value: 'True'
-    params_part3_ans2_value: 'False'
+    params:
+      vars:
+        title: Object True or False
+      part1:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
+      part2:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
+      part3:
+        ans1:
+          value: 'True'
+        ans2:
+          value: 'False'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Please select true or false for each of following statements.
 
 ## Part 1
@@ -59,8 +70,8 @@ An object undergoing uniform circular motion has a constant angular velocity.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value}}
-- {{ params_part1_ans2_value}}
+- {{ params.part1.ans1.value}}
+- {{ params.part1.ans2.value}}
 
 ## Part 2
 
@@ -68,8 +79,8 @@ When a small object A pushes on a large object B to accelerate it from rest, $F\
 
 ### Answer Section
 
-- {{ params_part2_ans1_value}}
-- {{ params_part2_ans2_value}}
+- {{ params.part2.ans1.value}}
+- {{ params.part2.ans2.value}}
 
 ## Part 3
 
@@ -77,8 +88,8 @@ In the absence of any forces acting on it an object will eventually come to a re
 
 ### Answer Section
 
-- {{ params_part3_ans1_value}}
-- {{ params_part3_ans2_value}}
+- {{ params.part3.ans1.value}}
+- {{ params.part3.ans2.value}}
 
 ## Attribution
 

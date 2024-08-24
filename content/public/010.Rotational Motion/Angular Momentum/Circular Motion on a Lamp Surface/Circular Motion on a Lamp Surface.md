@@ -87,20 +87,24 @@ part6:
     weight: 1
 myst:
   substitutions:
-    params_m_2: 8.23
-    params_m_1: 7.54
-    params_theta: 58
-    params_l: 5.1
-    params_s: 1.3
-    params_u: 1.11
-    params_part6_ans1_value: True because work is done by the rope attached to mass
-      $m_2$ which changes the total energy of the system.
-    params_part6_ans2_value: False, because the change in kinetic energy and gravitational
-      potential energy of mass $m_2$ has been offset by a corresponding change in
-      the K.E and G.P.E of mass $m_1$.
+    params:
+      m_2: 10.2
+      m_1: 11.2
+      theta: 32
+      l: 4.0
+      s: 1.0
+      u: 2.41
+      part6:
+        ans1:
+          value: True because work is done by the rope attached to mass $m_2$ which
+            changes the total energy of the system.
+        ans2:
+          value: False, because the change in kinetic energy and gravitational potential
+            energy of mass $m_2$ has been offset by a corresponding change in the
+            K.E and G.P.E of mass $m_1$.
 ---
 # Circular Motion on a Lamp Surface
-An object of mass $m_2 = {{ params.m_2 }}\ \rm{kg}$ is attached to a freely hanging load of mass $m_1 = {{ params.m_1 }}\ \rm{kg}$ suspended vertically through a light inextensible rope of length $L = {{ params_l }}\ \rm{m}$. The object is also lying on a frictionless inverted funnel surface akin to the top surface of a lamp as illustrated below.
+An object of mass $m_2 = {{ params.m_2 }}\ \rm{kg}$ is attached to a freely hanging load of mass $m_1 = {{ params.m_1 }}\ \rm{kg}$ suspended vertically through a light inextensible rope of length $L = {{ params.l }}\ \rm{m}$. The object is also lying on a frictionless inverted funnel surface akin to the top surface of a lamp as illustrated below.
 
 <img src="part1.png" width=600>
 
@@ -108,7 +112,7 @@ An object of mass $m_2 = {{ params.m_2 }}\ \rm{kg}$ is attached to a freely hang
 
 If the object is accelerated from rest to a speed $v$ in the direction shown, determine the speed $v\_{stable}$ of stable orbit of the rotating object about the vertical axis of the funnel in the position shown above.<br>
 Treat the object and load as particles and neglect the radius of the pulley and air resistance.<br>
-$\theta = {{ params_theta }}^{\circ}$, $s = {{ params_s }}\ \rm{m}$
+$\theta = {{ params.theta }}^{\circ}$, $s = {{ params.s }}\ \rm{m}$
 
 ### Answer Section
 
@@ -134,7 +138,7 @@ Please enter in a numeric value.
 
 ## Part 4
 
-Using conservation of angular momentum determine the final radius of stable orbit gained by mass $m_2$ when it is projected with a speed of $u = {{ params_u }}\ \rm{m/s}$ at a distance of $s = {{ params_s }}\ \rm{m}$ from the pulley.
+Using conservation of angular momentum determine the final radius of stable orbit gained by mass $m_2$ when it is projected with a speed of $u = {{ params.u }}\ \rm{m/s}$ at a distance of $s = {{ params.s }}\ \rm{m}$ from the pulley.
 
 <img src="part2.png" width=600>
 

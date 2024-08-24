@@ -45,26 +45,28 @@ part2:
     digits: 4
 myst:
   substitutions:
-    params_vars_title: Gravity at Different Heights
-    params_vars_units: "$\rm{m/s^2}$"
-    params_h: 3012
-    params_h2: 14738
-    params_r: 6371000.0
+    params:
+      vars:
+        title: Gravity at Different Heights
+        units: "$\rm{m/s^2}$"
+      h: 3217
+      h2: 14564
+      r: 6371000.0
 ---
-# {{ params_vars_title }}
-In this class, we will often assume gravity to be $9.81 \ \rm{m/s^2}$ in all earthbound circumstances, including in tall buildings, with airplanes, and in many other situations at heights far above the surface level. But is this truly accurate? Take the radius at sea level of the earch to be $R = {{ params_r }} \ \rm{m}$
+# {{ params.vars.title }}
+In this class, we will often assume gravity to be $9.81 \ \rm{m/s^2}$ in all earthbound circumstances, including in tall buildings, with airplanes, and in many other situations at heights far above the surface level. But is this truly accurate? Take the radius at sea level of the earch to be $R = {{ params.r }} \ \rm{m}$
 
 ## Part 1
 
-What is the ratio of gravity felt on a mountain top, $h = {{ params_h }} \ \rm{m}$ above sea level, when compared to the $9.81 \ \rm{m/s^2}$ at the surface? (Answer to 4 Significant Figures)
+What is the ratio of gravity felt on a mountain top, $h = {{ params.h }} \ \rm{m}$ above sea level, when compared to the $9.81 \ \rm{m/s^2}$ at the surface? (Answer to 4 Significant Figures)
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
-What is the ratio of gravity felt on an airplane, $h = {{ params_h2 }} \ \rm{m}$ above sea level, when compared to the $9.81 \ \rm{m/s^2}$ at the surface? (Answer to 4 Significant Figures)
+What is the ratio of gravity felt on an airplane, $h = {{ params.h2 }} \ \rm{m}$ above sea level, when compared to the $9.81 \ \rm{m/s^2}$ at the surface? (Answer to 4 Significant Figures)
 
 ### Answer Section
 

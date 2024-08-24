@@ -35,14 +35,16 @@ part1:
     suffix: $m$
 myst:
   substitutions:
-    params_vars_title: Radius of a Rollercoaster
-    params_vars_units: $m$
-    params_speed_of_car: 158
-    params_rate_of_decrease: 9
-    params_a: 2
+    params:
+      vars:
+        title: Radius of a Rollercoaster
+        units: $m$
+      speed_of_car: 227
+      rate_of_decrease: 8
+      a: 5
 ---
-# {{ params_vars_title }}
-As a rollercoaster passes the bottommost point in a loop, an accelerometer records an acceleration of ${{params_a}}g$.
+# {{ params.vars.title }}
+As a rollercoaster passes the bottommost point in a loop, an accelerometer records an acceleration of ${{params.a}}g$.
 The speed of the car is ${{params.speed_of_car}}km/h$ and is decreasing at a rate of ${{params.rate_of_decrease}}km/h$ every second.
 
 <img src="L6Q2.gif" width=85%>
@@ -53,7 +55,7 @@ Determine the radius of curvature at the position shown.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

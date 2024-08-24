@@ -49,29 +49,39 @@ part3:
     partial-credit-method: EDC
 myst:
   substitutions:
-    params_vars_title: Direction of Dipole Rotation
-    params_part2_ans1_value: The Hydrogen atom now experiences a weaker Electric Field
-    params_part2_ans2_value: The Hydrogen atom now experiences a stronger Electric
-      Field
-    params_part2_ans3_value: The dipole experiences a net force towards the sphere
-    params_part2_ans4_value: The dipole experiences a net force away from the sphere
-    params_part2_ans5_value: The dipole will not experience a net torque as r and
-      F are parallel
-    params_part2_ans6_value: The dipole will experience a net torque as r and F are
-      parallel
-    params_part3_ans1_value: There will be a small downward contribution to the net
-      force
-    params_part3_ans2_value: There will be a small upward contribution to the net
-      force
-    params_part3_ans3_value: The molecule experiences a net torque tending to rotate
-      the dipole so that the F atom is closer to charged sphere
-    params_part3_ans4_value: The molecule experiences a net torque tending to rotate
-      the dipole so that the F atom is further away from charged sphere
-    params_part3_ans5_value: Both forces have the same magnitude but not quite opposite
-      directions
-    params_part3_ans6_value: Both forces have the same magnitude and opposite directions
+    params:
+      vars:
+        title: Direction of Dipole Rotation
+      part2:
+        ans1:
+          value: The Hydrogen atom now experiences a weaker Electric Field
+        ans2:
+          value: The Hydrogen atom now experiences a stronger Electric Field
+        ans3:
+          value: The dipole experiences a net force towards the sphere
+        ans4:
+          value: The dipole experiences a net force away from the sphere
+        ans5:
+          value: The dipole will not experience a net torque as r and F are parallel
+        ans6:
+          value: The dipole will experience a net torque as r and F are parallel
+      part3:
+        ans1:
+          value: There will be a small downward contribution to the net force
+        ans2:
+          value: There will be a small upward contribution to the net force
+        ans3:
+          value: The molecule experiences a net torque tending to rotate the dipole
+            so that the F atom is closer to charged sphere
+        ans4:
+          value: The molecule experiences a net torque tending to rotate the dipole
+            so that the F atom is further away from charged sphere
+        ans5:
+          value: Both forces have the same magnitude but not quite opposite directions
+        ans6:
+          value: Both forces have the same magnitude and opposite directions
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Hydrogen fluoride is a polar molecule with a bond length of about 0.92 x 10-10 m and can be roughly modeled as having a point charge of 6.6 x 10-20 C on the hydrogen atom and another of -6.6 x 10-20 C on the fluorine atom.
 
 <img src="dipoles.png" width="400">
@@ -83,10 +93,6 @@ What will the HF molecule tend to do if placed in this geometry?
 ### Answer Section
 
 Answer in 3-4 sentences, try and use full sentences.
-
-### pl-submission-panel
-
-### pl-answer-panel
 
 ## Part 2
 
@@ -100,16 +106,12 @@ If the hydrogen fluoride molecule is placed with its axis along one of the field
 
 Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params_part2_ans1_value}}
-- {{ params_part2_ans2_value}}
-- {{ params_part2_ans3_value}}
-- {{ params_part2_ans4_value}}
-- {{ params_part2_ans5_value}}
-- {{ params_part2_ans6_value}}
-
-### pl-submission-panel
-
-### pl-answer-panel
+- {{ params.part2.ans1.value}}
+- {{ params.part2.ans2.value}}
+- {{ params.part2.ans3.value}}
+- {{ params.part2.ans4.value}}
+- {{ params.part2.ans5.value}}
+- {{ params.part2.ans6.value}}
 
 ## Part 3
 
@@ -119,16 +121,12 @@ If the hydrogen fluoride molecule is placed with its axis perpendicular to the e
 
 Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params_part3_ans1_value}}
-- {{ params_part3_ans2_value}}
-- {{ params_part3_ans3_value}}
-- {{ params_part3_ans4_value}}
-- {{ params_part3_ans5_value}}
-- {{ params_part3_ans6_value}}
-
-### pl-submission-panel
-
-### pl-answer-panel
+- {{ params.part3.ans1.value}}
+- {{ params.part3.ans2.value}}
+- {{ params.part3.ans3.value}}
+- {{ params.part3.ans4.value}}
+- {{ params.part3.ans5.value}}
+- {{ params.part3.ans6.value}}
 
 ## Attribution
 

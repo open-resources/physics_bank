@@ -58,15 +58,17 @@ part3:
     digits: 2
 myst:
   substitutions:
-    params_vars_title: Moving Crates
-    params_vars_units: N
-    params_m1: 7
-    params_m2: 23
-    params_theta: 14
-    params_vo: 9
+    params:
+      vars:
+        title: Moving Crates
+        units: N
+      m1: 14
+      m2: 11
+      theta: 23
+      vo: 1
 ---
-# {{ params_vars_title }}
-A mover is pushing crates $\rm{A}$ and $\rm{B}$ up a hill, in order for them to slide down the hill for loading. Crate $A$ has a mass of $m_1 = {{ params_m1 }} \ \rm{kg}$ and crate $B$ has a mass of $m_2 = {{ params_m2 }} \ \rm{kg}$. The hill has an inclination of $\theta = {{ params_theta }}^\circ$, and is frictionless.
+# {{ params.vars.title }}
+A mover is pushing crates $\rm{A}$ and $\rm{B}$ up a hill, in order for them to slide down the hill for loading. Crate $A$ has a mass of $m_1 = {{ params.m1 }} \ \rm{kg}$ and crate $B$ has a mass of $m_2 = {{ params.m2 }} \ \rm{kg}$. The hill has an inclination of $\theta = {{ params.theta }}^\circ$, and is frictionless.
 
 <img src="MovingCrates.png" width=800>
 
@@ -76,7 +78,7 @@ What is the force needed to push both crates up the hill with no acceleration?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
@@ -88,7 +90,7 @@ Please enter in a numeric value in m/s$^2$.
 
 ## Part 3
 
-If the crates were left with an velocity of $v_o = {{ params_vo }} \ \rm{m/s}$, how far up the hill will they still go?
+If the crates were left with an velocity of $v_o = {{ params.vo }} \ \rm{m/s}$, how far up the hill will they still go?
 
 ### Answer Section
 

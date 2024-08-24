@@ -44,12 +44,14 @@ part2:
     suffix: kg
 myst:
   substitutions:
-    params_vars_title: Rotating Buckets
-    params_vars_units: kg
-    params_m1: 1.6
-    params_c: 3
+    params:
+      vars:
+        title: Rotating Buckets
+        units: kg
+      m1: 2.25
+      c: 3
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A pair of buckets are connected by a *massless* rod. As shown in the figure, the buckets rotate about an axis through the centre of mass of the two-bucket system.
 
 <img alt="Two buckets connected by a rod rotating anti-clockwise." src="2015FinalQ18.png" width=400>
@@ -70,12 +72,12 @@ Note that it may not be necessary to use every variable. Use the following table
 ## Part 2
 
 Assume that initially the buckets rotate with angular speed $\omega_0$. Then it rains for a short time.
-After the rain has stopped, the buckets are observed to be rotating with angular speed $\omega_f = \omega/${{ params_c}}.
-How much rain (in kg) has been collected by the two buckets? When empty, the buckets each have a mass of {{ params_m1 }} kg.
+After the rain has stopped, the buckets are observed to be rotating with angular speed $\omega_f = \omega/${{ params.c}}.
+How much rain (in kg) has been collected by the two buckets? When empty, the buckets each have a mass of {{ params.m1 }} kg.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

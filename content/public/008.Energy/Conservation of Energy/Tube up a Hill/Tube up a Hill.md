@@ -43,21 +43,23 @@ part2:
     suffix: $ft/s^2$
 myst:
   substitutions:
-    params_vars_title: Tube up a Hill
-    params_W: 551
-    params_t: 22
-    params_v: 6
-    params_P: 8
-    params_P2: 10
+    params:
+      vars:
+        title: Tube up a Hill
+      W: 562
+      t: 17
+      v: 3
+      P: 4
+      P2: 6
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Log up a Hill.png" width=400>
 
-At a ski resort, a powered pulley moves a ${{params_W}} lb$ tube up a snowy hill ($\theta=${{params_t}} $^\circ$) at a constant speed of ${{params_v}}ft/s$.
+At a ski resort, a powered pulley moves a ${{params.W}} lb$ tube up a snowy hill ($\theta=${{params.t}} $^\circ$) at a constant speed of ${{params.v}}ft/s$.
 
 ## Part 1
 
-If the power output is ${{params_P}}hp$, compute the coefficient of kinetic friction between the hill and tube.
+If the power output is ${{params.P}}hp$, compute the coefficient of kinetic friction between the hill and tube.
 
 ### Answer Section
 
@@ -65,7 +67,7 @@ Please enter in a numeric value.
 
 ## Part 2
 
-If the power is increased to ${{params_P2}}hp$, what is the new acceleration?
+If the power is increased to ${{params.P2}}hp$, what is the new acceleration?
 
 ### Answer Section
 

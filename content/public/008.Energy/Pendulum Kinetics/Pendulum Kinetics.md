@@ -70,11 +70,12 @@ part4:
     digits: 2
 myst:
   substitutions:
-    params_m: 10
-    params_l: 4.6
-    params_p: 840.0
-    params_v: 0.0079
-    params_theta: 21
+    params:
+      m: 13
+      l: 3.6
+      p: 950.0
+      v: 0.0091
+      theta: 36
 ---
 # Pendulum Kinetics
 A pendulum submerged in a fluid with the bob initially held at an angle of $\theta^{\circ}$ degrees measured from below the horizontal, is released from rest as illustrated below.
@@ -84,7 +85,7 @@ A pendulum submerged in a fluid with the bob initially held at an angle of $\the
 ## Part 1
 
 If in addition to the tension in the string and weight of the bob, a buoyant force of constant magnitude and direction acts on the bob according to the equation; $F\_{b}=\rho g V$, where $\rho$ is the fluid density, $V$ is the volume of fluid displaced, and $g$ is the gravitational acceleration. Determine the work-done by the buoyant force on the bob when it reaches point B as shown below.<br>
-$\theta = {{ params_theta }}^{\circ}$, $L = {{ params_l }} \ \rm{m}$, $V\_{bob} = {{ params_v }} \ \rm{m^3}$, $\rho = {{ params_p }}\ \rm{kg.m^{-3}}$.
+$\theta = {{ params.theta }}^{\circ}$, $L = {{ params.l }} \ \rm{m}$, $V\_{bob} = {{ params.v }} \ \rm{m^3}$, $\rho = {{ params.p }}\ \rm{kg.m^{-3}}$.
 
 <img src="part2.png" width=600>
 
@@ -95,7 +96,7 @@ Please enter in a numeric value in $\rm{N.m}$.
 ## Part 2
 
 Determine the speed of the bob at point B.<br>
-$m = {{ params_m }} \ \rm{kg}$.
+$m = {{ params.m }} \ \rm{kg}$.
 
 ### Answer Section
 

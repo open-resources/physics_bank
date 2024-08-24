@@ -67,10 +67,12 @@ part5:
     suffix: Harmonic
 myst:
   substitutions:
-    params_vars_title: Frequency of a Standing Wave
-    params_vars_units: Hz
+    params:
+      vars:
+        title: Frequency of a Standing Wave
+        units: Hz
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <figure>
 <img src="graph.png" alt= "A Standing Wave" width = 400px>
 <figcaption>Fig.1</figcaption>
@@ -86,16 +88,7 @@ Identify the frequency of the dashed wave shown in Fig. 1. Give a numerical answ
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-Everything here will get inserted directly into an pl-answer-panel element at the end of the `question.html`.
-Please remove this section if it is not application for this question.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
@@ -103,15 +96,7 @@ Identify the frequency of the dotted wave shown in Fig. 1. Give a numerical answ
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
-
-### pl-submission-panel
-
-{{ feedback.part2_ans }}
-
-### pl-answer-panel
-
-Everything here will get inserted directly into an pl-answer-panel element at the end of the `question.html`.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 3a
 
@@ -121,15 +106,7 @@ Fundamental frequency is (number and units) =
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
-
-### pl-submission-panel
-
-{{ feedback.part3_ans }}
-
-### pl-answer-panel
-
-Everything here will get inserted directly into an pl-answer-panel element at the end of the `question.html`.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 3b
 
@@ -140,14 +117,6 @@ The dashed line is the
 
 Please enter a word.
 
-### pl-submission-panel
-
-{{ feedback.part4_ans }}
-
-### pl-answer-panel
-
-Everything here will get inserted directly into an pl-answer-panel element at the end of the `question.html`.
-
 ## Part 3c
 
 The dotted line is the
@@ -156,14 +125,6 @@ The dotted line is the
 ### Answer Section
 
 Please enter a word.
-
-### pl-submission-panel
-
-{{ feedback.part5_ans }}
-
-### pl-answer-panel
-
-Everything here will get inserted directly into an pl-answer-panel element at the end of the `question.html`.
 
 ## Attribution
 

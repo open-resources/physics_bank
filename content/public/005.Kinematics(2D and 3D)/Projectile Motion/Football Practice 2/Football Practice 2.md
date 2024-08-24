@@ -42,18 +42,20 @@ part2:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params_vars_title: Football Practice 2
-    params_d1: 13
-    params_d2: 6
-    params_h1: 5
-    params_h2: 1
-    params_v: 20
-    params_theta: 63
+    params:
+      vars:
+        title: Football Practice 2
+      d1: 14
+      d2: 10
+      h1: 3
+      h2: 1
+      v: 20
+      theta: 50
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Football_Practice_2.png" width=800>
 
-A football player is practicing some of their lob passes at the training academy. They strike the ball giving it a velocity of $v = {{params_v}} \ \rm{m/s}$ at an angle $\theta  = {{params_theta}}^{\circ}$. The training field has a special geometry governed by these paramaters: $h_1 = {{params_h1}} \ \rm{m} $, $h_2 = {{params_h2}} \ \rm{m} $, $d_1 = {{params_d1}} \ \rm{m} $, and $d_2 = {{params_d2}} \ \rm{m} $.
+A football player is practicing some of their lob passes at the training academy. They strike the ball giving it a velocity of $v = {{params.v}} \ \rm{m/s}$ at an angle $\theta  = {{params.theta}}^{\circ}$. The training field has a special geometry governed by these paramaters: $h_1 = {{params.h1}} \ \rm{m} $, $h_2 = {{params.h2}} \ \rm{m} $, $d_1 = {{params.d1}} \ \rm{m} $, and $d_2 = {{params.d2}} \ \rm{m} $.
 <br>
 Find the location where the ball first lands.
 

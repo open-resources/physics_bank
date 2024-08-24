@@ -31,9 +31,14 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_part1_ans1_value: $\rm{Path A}
-    params_part1_ans2_value: $\rm{Path B}
-    params_part1_ans3_value: $\rm{Path C}
+    params:
+      part1:
+        ans1:
+          value: $\rm{Path A}
+        ans2:
+          value: $\rm{Path B}
+        ans3:
+          value: $\rm{Path C}
 ---
 # Work by Friction
 In which of the following paths is the greatest work done by friction down the slope. Assume a constant and equal force of friction acts on the object along the slope.
@@ -44,9 +49,9 @@ In which of the following paths is the greatest work done by friction down the s
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

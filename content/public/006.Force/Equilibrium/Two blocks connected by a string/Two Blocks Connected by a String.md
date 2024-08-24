@@ -31,18 +31,27 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Two Blocks Connected by a String
-    params_vars_units: N
-    params_m1: 1
-    params_part1_ans1_value: 10
-    params_part1_ans2_value: 12
-    params_part1_ans3_value: 24
-    params_part1_ans4_value: 20
-    params_part1_ans5_value: 13
-    params_part1_ans6_value: 17
+    params:
+      vars:
+        title: Two Blocks Connected by a String
+        units: N
+      m1: 1
+      part1:
+        ans1:
+          value: 10
+        ans2:
+          value: 12
+        ans3:
+          value: 24
+        ans4:
+          value: 20
+        ans5:
+          value: 13
+        ans6:
+          value: 17
 ---
-# {{ params_vars_title }}
-Two blocks are arranged as shown and kept at rest by holding the {{ params_m1 }} kg block in place.
+# {{ params.vars.title }}
+Two blocks are arranged as shown and kept at rest by holding the {{ params.m1 }} kg block in place.
 
 <img src="q7_2012Final.png" alt="Two blocks connected by a spring. The 1 kg block is held in place while the 1.2 kg block hangs over a pulley." width=500>
 
@@ -52,12 +61,12 @@ The tension in the string is **closest** to which of the following values?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params_vars_units}}
-- {{ params_part1_ans2_value }} {{ params_vars_units}}
-- {{ params_part1_ans3_value }} {{ params_vars_units}}
-- {{ params_part1_ans4_value }} {{ params_vars_units}}
-- {{ params_part1_ans5_value }} {{ params_vars_units}}
-- {{ params_part1_ans6_value }} {{ params_vars_units}}
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params.part1.ans6.value }} {{ params.vars.units}}
 
 ## Attribution
 

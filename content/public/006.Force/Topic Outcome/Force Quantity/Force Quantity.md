@@ -30,13 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Force Quantity
-    params_part1_ans1_value: Scalar
-    params_part1_ans2_value: Vector
-    params_part1_ans3_value: Scalar Field
-    params_part1_ans4_value: Vector Field
+    params:
+      vars:
+        title: Force Quantity
+      part1:
+        ans1:
+          value: Scalar
+        ans2:
+          value: Vector
+        ans3:
+          value: Scalar Field
+        ans4:
+          value: Vector Field
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -44,10 +51,10 @@ Force is a $\rule{1cm}{0.15mm}$ quantity.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

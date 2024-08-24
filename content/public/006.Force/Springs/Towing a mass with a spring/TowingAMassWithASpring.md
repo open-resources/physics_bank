@@ -35,22 +35,24 @@ part1:
     suffix: $\rm{N/m}$
 myst:
   substitutions:
-    params_vars_title: Towing a Mass With a Spring
-    params_m: 24
-    params_x: 0.83
-    params_L: 0.93
-    params_nu: 0.24
-    params_a: 2.35
+    params:
+      vars:
+        title: Towing a Mass With a Spring
+      m: 34
+      x: 0.49
+      L: 0.56
+      nu: 0.4
+      a: 2.97
 ---
-# {{ params_vars_title }}
-A person accelerates a ${{params_m}} \ \rm{kg}$ mass at ${{params_a}} \ \rm{m/s^2}$ by pulling on a spring that is ${{params_x}} \ \rm{m}$ long at rest.
-The coefficient of friction between the two surfaces is ${{params_nu}}$.
+# {{ params.vars.title }}
+A person accelerates a ${{params.m}} \ \rm{kg}$ mass at ${{params.a}} \ \rm{m/s^2}$ by pulling on a spring that is ${{params.x}} \ \rm{m}$ long at rest.
+The coefficient of friction between the two surfaces is ${{params.nu}}$.
 
 <img src="TowingAMassWithASpring.png" height=150 alt="A rectangular mass m being dragged by a string of length L with a force F." >
 
 ## Part 1
 
-If the spring extends to ${{params_L}} \ \rm{m}$, what is the spring constant $k$?
+If the spring extends to ${{params.L}} \ \rm{m}$, what is the spring constant $k$?
 
 ### Answer Section
 

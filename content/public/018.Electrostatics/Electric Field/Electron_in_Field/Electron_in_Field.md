@@ -32,9 +32,11 @@ part1:
     file-names: Electron.png
 myst:
   substitutions:
-    params_vars_title: Electron in Electric Field
+    params:
+      vars:
+        title: Electron in Electric Field
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 An electron moves in an electric field as a function of position as shown in figure below. Regions of constant electric field are joined by jump discontinuities as shown by the vertical dotted lines.
 
 <img src="graphs.png" width="400">
@@ -54,10 +56,6 @@ Your file must be a png named 'Electron'.
 ### Answer Section
 
 File upload box will be shown here.
-
-### pl-submission-panel
-
-### pl-answer-panel
 
 ## Attribution
 

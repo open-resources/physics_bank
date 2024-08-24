@@ -59,17 +59,19 @@ part4:
     suffix: $m/s^2$
 myst:
   substitutions:
-    params_vars_title: Acceleration of a Particle
-    params_vars_unit1: $s$
-    params_vars_unit2: $m/s^2$
-    params_c1: 9
-    params_c2_abs: 9
-    params_c2_sign: ' - '
-    params_c3_abs: 26
-    params_c3_sign: ' + '
+    params:
+      vars:
+        title: Acceleration of a Particle
+        unit1: $s$
+        unit2: $m/s^2$
+      c1: 6
+      c2_abs: 4
+      c2_sign: ' - '
+      c3_abs: 45
+      c3_sign: ' + '
 ---
-# {{ params_vars_title }}
-The position of a particle in $m$ is given by the function $x = ${{ params_c1 }}$t^3$ {{ params.c2_sign }} {{ params.c2_abs }}$t^2$ {{ params.c3_sign }} {{ params.c3_abs }}, where $t$ is in $s$.
+# {{ params.vars.title }}
+The position of a particle in $m$ is given by the function $x = ${{ params.c1 }}$t^3$ {{ params.c2_sign }} {{ params.c2_abs }}$t^2$ {{ params.c3_sign }} {{ params.c3_abs }}, where $t$ is in $s$.
 
 As you solve the questions below, you will be asked to find several times ($t_1$, $t_2$, $t_3$, etc...) based on certain conditions.
 
@@ -79,7 +81,7 @@ At what time is $v_x = 0$ $m/s$? Enter $t_1$, the smallest of the values (if the
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_unit1 }}.
+Please enter in a numeric value in {{ params.vars.unit1 }}.
 
 ## Part 2
 
@@ -87,7 +89,7 @@ At what time after $t_1$ is $v_x = 0$ $m/s$ again? Enter $t_2$, the next value.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_unit1 }}.
+Please enter in a numeric value in {{ params.vars.unit1 }}.
 
 ## Part 3
 
@@ -95,7 +97,7 @@ What is the particle's acceleration at the time $t_1$? Enter $a\_{x,1}$, the acc
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_unit2 }}.
+Please enter in a numeric value in {{ params.vars.unit2 }}.
 
 ## Part 4
 
@@ -103,7 +105,7 @@ What is the particle's acceleration at the time $t_2$? Enter $a\_{x,2}$, the acc
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_unit2 }}.
+Please enter in a numeric value in {{ params.vars.unit2 }}.
 
 ## Attribution
 

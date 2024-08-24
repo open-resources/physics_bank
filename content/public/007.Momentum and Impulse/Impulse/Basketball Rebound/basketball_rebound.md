@@ -35,12 +35,14 @@ part1:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_title: Basketball Rebound
-    params_m: 716
-    params_v: 12
+    params:
+      vars:
+        title: Basketball Rebound
+      m: 895
+      v: 13
 ---
-# {{ params_vars_title }}
-To measure the interaction force between a basketball and the backboard, we attached a force plate to the backboard. When a {{ params_m }} $\rm{g}$ basketball hit the force plate with a speed of {{ params_v }} $\rm{m/s}$, a graph of force of the plate on the ball versus time ($\rm{ms}$) was recorded as shown in the figure.
+# {{ params.vars.title }}
+To measure the interaction force between a basketball and the backboard, we attached a force plate to the backboard. When a {{ params.m }} $\rm{g}$ basketball hit the force plate with a speed of {{ params.v }} $\rm{m/s}$, a graph of force of the plate on the ball versus time ($\rm{ms}$) was recorded as shown in the figure.
 
 <img src="chart.png" alt="A graph where time is measured in milliseconds along the x-axis, and Force sub x is measured in Newtons along the y-axis. The force increases linearly from (0,0) to (4,5000), and then decreases linearly from (4,5000) to (7,0), forming a triangle." width=500>
 

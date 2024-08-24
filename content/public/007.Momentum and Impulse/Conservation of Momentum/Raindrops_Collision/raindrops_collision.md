@@ -30,26 +30,35 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Perfectly Inelastic Collision of Raindrops
-    params_vars_units: m/s
-    params_m1: 0.73
-    params_m2: 0.4
-    params_v1_i: -5.24
-    params_v2_i: -4.13
-    params_v1_j_abs: 5.05
-    params_v2_j_abs: 1.05
-    params_v1_j_sign: ' + '
-    params_v2_j_sign: ' - '
-    params_part1_ans1_value: -7.5$\hat{\imath}$ + 4.5$\hat{\jmath}$
-    params_part1_ans2_value: -4.8$\hat{\imath}$ + 2.9$\hat{\jmath}$
-    params_part1_ans3_value: -14.0$\hat{\imath}$ + 8.2$\hat{\jmath}$
-    params_part1_ans4_value: -3.1$\hat{\imath}$ + 1.8$\hat{\jmath}$
-    params_part1_ans5_value: -4.9$\hat{\imath}$ + 9.3$\hat{\jmath}$
-    params_part1_ans6_value: -1.9$\hat{\imath}$ + 3.6$\hat{\jmath}$
+    params:
+      vars:
+        title: Perfectly Inelastic Collision of Raindrops
+        units: m/s
+      m1: 0.81
+      m2: 0.43
+      v1_i: -13.7
+      v2_i: 19.0
+      v1_j_abs: 16.8
+      v2_j_abs: 1.52
+      v1_j_sign: ' + '
+      v2_j_sign: ' - '
+      part1:
+        ans1:
+          value: -3.6$\hat{\imath}$ + 16.0$\hat{\jmath}$
+        ans2:
+          value: -2.4$\hat{\imath}$ + 10.0$\hat{\jmath}$
+        ans3:
+          value: -6.8$\hat{\imath}$ + 30.0$\hat{\jmath}$
+        ans4:
+          value: -1.8$\hat{\imath}$ + 8.0$\hat{\jmath}$
+        ans5:
+          value: -48.0$\hat{\imath}$ + 35.0$\hat{\jmath}$
+        ans6:
+          value: -16.0$\hat{\imath}$ + 12.0$\hat{\jmath}$
 ---
-# {{ params_vars_title }}
-Two raindrops in a cloud collide perfectly inelastically. The first raindrop has a mass of {{ params_m1}} g and is travelling with $\vec{v_1} =$ ({{ params.v1_i}} $\hat{\imath}$ {{params.v1_j_sign}} {{ params.v1_j_abs}} $\hat{\jmath}$) m/s.
-The second raindrop has a mass of {{ params_m2}} g and is travelling with $\vec{v_2} =$ ({{ params.v2_i}} $\hat{\imath}$ {{params.v2_j_sign}} {{ params.v2_j_abs}} $\hat{\jmath}$) m/s.
+# {{ params.vars.title }}
+Two raindrops in a cloud collide perfectly inelastically. The first raindrop has a mass of {{ params.m1}} g and is travelling with $\vec{v_1} =$ ({{ params.v1_i}} $\hat{\imath}$ {{params.v1_j_sign}} {{ params.v1_j_abs}} $\hat{\jmath}$) m/s.
+The second raindrop has a mass of {{ params.m2}} g and is travelling with $\vec{v_2} =$ ({{ params.v2_i}} $\hat{\imath}$ {{params.v2_j_sign}} {{ params.v2_j_abs}} $\hat{\jmath}$) m/s.
 
 ## Part 1
 
@@ -57,12 +66,12 @@ What is the resulting velocity of the combined raindrop?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params_vars_units}}
-- {{ params_part1_ans2_value }} {{ params_vars_units}}
-- {{ params_part1_ans3_value }} {{ params_vars_units}}
-- {{ params_part1_ans4_value }} {{ params_vars_units}}
-- {{ params_part1_ans5_value }} {{ params_vars_units}}
-- {{ params_part1_ans6_value }} {{ params_vars_units}}
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params.part1.ans6.value }} {{ params.vars.units}}
 
 ## Attribution
 

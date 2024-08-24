@@ -83,13 +83,15 @@ part4:
     custom-format: .3g
 myst:
   substitutions:
-    params_vars_title: RC Series Circuit
-    params_R: '450.0'
-    params_C: '1.00'
-    params_V: '6.80'
+    params:
+      vars:
+        title: RC Series Circuit
+      R: '450.0'
+      C: '1.15'
+      V: '6.83'
 ---
-# {{ params_vars_title }}
-A ${{ params_R }}\rm\ \Omega$ resistor, an uncharged ${{ params_C }}\rm\ \mu F$ capacitor, and a ${{ params_V }}\rm\ V$ are connected in series.
+# {{ params.vars.title }}
+A ${{ params.R }}\rm\ \Omega$ resistor, an uncharged ${{ params.C }}\rm\ \mu F$ capacitor, and a ${{ params.V }}\rm\ V$ are connected in series.
 
 ## Part 1
 
@@ -122,20 +124,6 @@ What is the voltage on the capacitor after one time constant?
 ### Answer Section
 
 Please enter in a numeric value in $\rm\ V$.
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}<br>
-{{ feedback.part2_ans }}<br>
-{{ feedback.part3_ans }}<br>
-{{ feedback.part4_ans }}
-
-### pl-answer-panel
-
-$I_0 =$ {{ correct_answers.part1_ans_str }} $\rm\ A$<br>
-$\tau =$ {{ correct_answers.part2_ans_str }} $\rm\ s$<br>
-$I_1 =$ {{ correct_answers.part3_ans_str }} $\rm\ A$<br>
-$V=$ {{ correct_answers.part4_ans_str }} $\rm\ V$
 
 ## Attribution
 

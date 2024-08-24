@@ -31,20 +31,28 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Work on Sliding Object
-    params_v_i: ''
-    params_v_f: 2
-    params_part1_ans1_value: 4 times the work required to accelerate the object from
-      $v$ = 0 to $v$
-    params_part1_ans2_value: 2 times the work required to accelerate the object from
-      $v$ = 0 to $v$
-    params_part1_ans3_value: 3 times the work required to accelerate the object from
-      $v$ = 0 to $v$
-    params_part1_ans4_value: Equal to the work required to accelerate the object from
-      3$v$ to 4$v$
-    params_part1_ans5_value: Not known without knowledge of the acceleration
+    params:
+      vars:
+        title: Work on Sliding Object
+      v_i: '2'
+      v_f: 4
+      part1:
+        ans1:
+          value: 13 times the work required to accelerate the object from $v$ = 0
+            to $v$
+        ans2:
+          value: 11 times the work required to accelerate the object from $v$ = 0
+            to $v$
+        ans3:
+          value: 12 times the work required to accelerate the object from $v$ = 0
+            to $v$
+        ans4:
+          value: Equal to the work required to accelerate the object from 3$v$ to
+            4$v$
+        ans5:
+          value: Not known without knowledge of the acceleration
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -52,11 +60,11 @@ The work required to accelerate an object on a frictionless surface from a speed
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

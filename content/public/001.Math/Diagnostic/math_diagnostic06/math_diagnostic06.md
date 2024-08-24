@@ -30,29 +30,38 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Math Diagnostic06
-    params_eq: $\dfrac{x-1}{x-8}$ = $ \dfrac{x+2}{x+5}$
-    params_part1_ans1_value: -19/8
-    params_part1_ans2_value: -11/10
-    params_part1_ans3_value: '-19'
-    params_part1_ans4_value: 1/8
-    params_part1_ans5_value: ''
-    params_part1_ans6_value: None of the above
+    params:
+      vars:
+        title: Math Diagnostic06
+      eq: $\dfrac{x-1}{x-5}$ = $ \dfrac{x+2}{x+9}$
+      part1:
+        ans1:
+          value: -43/17
+        ans2:
+          value: -1/11
+        ans3:
+          value: 43/5
+        ans4:
+          value: 13/17
+        ans5:
+          value: -23/7
+        ans6:
+          value: None of the above
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
-Solve the equation: {{ params_eq }}
+Solve the equation: {{ params.eq }}
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
-- {{ params_part1_ans6_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
+- {{ params.part1.ans6.value }}
 
 ## Attribution
 

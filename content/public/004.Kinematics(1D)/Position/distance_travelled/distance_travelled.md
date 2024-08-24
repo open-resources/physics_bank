@@ -29,34 +29,43 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_name: Lorenzo
-    params_vars_vehicle: rollerblades
-    params_vars_units: m
-    params_vars_title: Distance travelled
-    params_v: 6
-    params_t: 10
-    params_part1_ans1_value: 42.0
-    params_part1_ans2_value: 60
-    params_part1_ans3_value: 16
-    params_part1_ans4_value: 0.6
-    params_part1_ans5_value: -4
-    params_part1_ans6_value: -5.2
+    params:
+      vars:
+        name: Santiago
+        vehicle: rollerblades
+        units: m
+        title: Distance travelled
+      v: 2
+      t: 8
+      part1:
+        ans1:
+          value: 42.0
+        ans2:
+          value: 16
+        ans3:
+          value: 10
+        ans4:
+          value: 0.25
+        ans5:
+          value: -6
+        ans6:
+          value: -7.8
 ---
-# {{ params_vars_title }}
-{{ params_vars_name }} is traveling on {{ params_vars_vehicle }} at {{ params_v }} $\rm{m/s}$.
+# {{ params.vars.title }}
+{{ params.vars.name }} is traveling on {{ params.vars.vehicle }} at {{ params.v }} $\rm{m/s}$.
 
 ## Part 1
 
-How far does {{ params_vars_name }} travel in {{ params_t }} $\rm{s}$, assuming they continue at the same velocity?
+How far does {{ params.vars.name }} travel in {{ params.t }} $\rm{s}$, assuming they continue at the same velocity?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params_vars_units}}
-- {{ params_part1_ans2_value }} {{ params_vars_units}}
-- {{ params_part1_ans3_value }} {{ params_vars_units}}
-- {{ params_part1_ans4_value }} {{ params_vars_units}}
-- {{ params_part1_ans5_value }} {{ params_vars_units}}
-- {{ params_part1_ans6_value }} {{ params_vars_units}}
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params.part1.ans6.value }} {{ params.vars.units}}
 
 ## Attribution
 

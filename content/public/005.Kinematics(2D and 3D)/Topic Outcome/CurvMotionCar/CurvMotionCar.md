@@ -43,19 +43,21 @@ part2:
     suffix: $\rm{m/s^2}$
 myst:
   substitutions:
-    params_vars_title: Curvilinear Motion of a Car
-    params_m: 0.06
-    params_v: 11
-    params_vdot: 6
-    params_d: 19
-    params_h: 21.7
+    params:
+      vars:
+        title: Curvilinear Motion of a Car
+      m: 0.05
+      v: 13
+      vdot: 9
+      d: 16
+      h: 12.8
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="CurvCar.png" width=90%>
 
-A car travels down a hill which has a parabola of $y = {{ params_m }}x^2$.
-At point A, the speed is $v = {{ params_v }} \ \rm{m/s}$ and it is increasing at the rate of $\dot v = {{ params_vdot }} \ \rm{m/s^2}$.
-The height relative to the ground to point A is $h = {{ params_h }} \ \rm{m}$ and the distance from the origin to point A is $d = {{ params_d }} \ \rm{m}$.
+A car travels down a hill which has a parabola of $y = {{ params.m }}x^2$.
+At point A, the speed is $v = {{ params.v }} \ \rm{m/s}$ and it is increasing at the rate of $\dot v = {{ params.vdot }} \ \rm{m/s^2}$.
+The height relative to the ground to point A is $h = {{ params.h }} \ \rm{m}$ and the distance from the origin to point A is $d = {{ params.d }} \ \rm{m}$.
 What is the magnitude of acceleration at point A?
 
 ## Part 1

@@ -44,30 +44,22 @@ part1:
     suffix: $\rm\ \mu\textrm{F}$
 myst:
   substitutions:
-    params_vars_title: Equivalent Capacitance
-    params_a: '7'
-    params_b: '2.5'
-    params_c: '0.7'
+    params:
+      vars:
+        title: Equivalent Capacitance
+      a: '10'
+      b: '1.0'
+      c: '0.6'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
-Find the total capacitance of this combination of series and parallel capacitors shown below. Use the following values: $A =$ {{params_a }}, $B =$ {{params_b }}, and $C =$ {{params_c }}.
+Find the total capacitance of this combination of series and parallel capacitors shown below. Use the following values: $A =$ {{params.a }}, $B =$ {{params.b }}, and $C =$ {{params.c }}.
 
 <img src="Fig8_33.png">
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$C=$ {{ correct_answers.part1_ans_str }} $\rm\ \mu\textrm{F}$
 
 ## Attribution
 

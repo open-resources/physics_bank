@@ -33,14 +33,16 @@ part1:
     suffix: s
 myst:
   substitutions:
-    params_vars_title: Exponential Damping 1
-    params_vars_units: s
-    params_m: 1
-    params_b: 2
-    params_k: 5
+    params:
+      vars:
+        title: Exponential Damping 1
+        units: s
+      m: 1
+      b: 2
+      k: 5
 ---
-# {{ params_vars_title }}
-A ${{params_m}}$ kg mass oscillates on a ${{params_k}}$ N/m spring. The damping constant of this spring is $b$ = ${{params_b}}$ kg/s.
+# {{ params.vars.title }}
+A ${{params.m}}$ kg mass oscillates on a ${{params.k}}$ N/m spring. The damping constant of this spring is $b$ = ${{params.b}}$ kg/s.
 
 ## Useful Info
 
@@ -61,11 +63,7 @@ Find the time constant, $\tau$, of this spring.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

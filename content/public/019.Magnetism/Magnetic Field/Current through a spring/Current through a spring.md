@@ -40,12 +40,18 @@ part1:
     blank: true
 myst:
   substitutions:
-    params_vars_title: Current through a spring
-    params_part1_ans1_value: The length decreases
-    params_part1_ans2_value: The length increases
-    params_part1_ans3_value: The length stays the same
+    params:
+      vars:
+        title: Current through a spring
+      part1:
+        ans1:
+          value: The length decreases
+        ans2:
+          value: The length increases
+        ans3:
+          value: The length stays the same
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -53,9 +59,9 @@ What happens to the length of a suspended spring when a current passes through i
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

@@ -30,27 +30,35 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Math Diagnostic07
-    params_formula1: 3x - 4y = 5
-    params_formula2: 3x + 2y = 35
-    params_part1_ans1_value: ' x =25/3, y =5'
-    params_part1_ans2_value: ' x =5, y =25/3'
-    params_part1_ans3_value: ' x =-25/3, y =-5'
-    params_part1_ans4_value: ' x =-5, y =-25/3'
-    params_part1_ans5_value: Don't Know
+    params:
+      vars:
+        title: Math Diagnostic07
+      formula1: 3x - 2y = 49
+      formula2: 4x + 1y = 43
+      part1:
+        ans1:
+          value: ' x =135/11, y =-67/11'
+        ans2:
+          value: ' x =-67/11, y =135/11'
+        ans3:
+          value: ' x =-135/11, y =67/11'
+        ans4:
+          value: ' x =67/11, y =-135/11'
+        ans5:
+          value: Don't Know
 ---
-# {{ params_vars_title }}
-The solution of the simultaneous equations {{params_formula1}}, {{params_formula2}} is:
+# {{ params.vars.title }}
+The solution of the simultaneous equations {{params.formula1}}, {{params.formula2}} is:
 
 ## Part 1
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

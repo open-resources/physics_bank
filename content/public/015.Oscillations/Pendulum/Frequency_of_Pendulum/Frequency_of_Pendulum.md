@@ -34,12 +34,14 @@ part1:
     allow-blank: false
 myst:
   substitutions:
-    params_vars_title: Frequency/Period of Oscillation
-    params_R: 5
-    params_pendulum: ' period of oscillation of this physical pendulum.'
+    params:
+      vars:
+        title: Frequency/Period of Oscillation
+      R: 2
+      pendulum: ' frequency of oscillation of this physical pendulum.'
 ---
-# {{ params_vars_title }}
-A solid disk of mass $M$ and radius $R$ is swung from a massless string of length $R$ through a small angle as shown in Figure; Let $R$={{ params_R }}r.
+# {{ params.vars.title }}
+A solid disk of mass $M$ and radius $R$ is swung from a massless string of length $R$ through a small angle as shown in Figure; Let $R$={{ params.R }}r.
 
 <img src="hangingdisk.png" width="200" alt="A physical pendulum. The massless string is attached to the end of the solid disk of mass M. The center of the mass of the solid disk is indicated by the dot at its center">
 
@@ -72,7 +74,7 @@ A solid disk of mass $M$ and radius $R$ is swung from a massless string of lengt
 
 ## Part 1
 
-Find the {{ params_pendulum }}
+Find the {{ params.pendulum }}
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
@@ -83,10 +85,6 @@ Note that it may not be necessary to use every variable. Use the following table
 | $g$  | g  |
 
 ### Answer Section
-
-### pl-submission-panel
-
-### pl-answer-panel
 
 ## Attribution
 

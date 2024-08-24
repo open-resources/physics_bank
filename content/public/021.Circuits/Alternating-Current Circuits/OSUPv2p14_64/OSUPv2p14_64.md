@@ -43,27 +43,19 @@ part1:
     atol: 0
 myst:
   substitutions:
-    params_vars_title: Frequency and Capacitance of an LC Circuit
-    params_f: '77.0'
-    params_C: '12.0'
+    params:
+      vars:
+        title: Frequency and Capacitance of an LC Circuit
+      f: '52.0'
+      C: '12.0'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
-What is the self-inductance of an $LC$ circuit that oscillates at ${{ params_f }}\rm\ Hz$ when the capacitance is ${{ params_C }}\rm\ \mu F$?
+What is the self-inductance of an $LC$ circuit that oscillates at ${{ params.f }}\rm\ Hz$ when the capacitance is ${{ params.C }}\rm\ \mu F$?
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$L =$ {{ correct_answers.part1_ans_str }} $\rm\ H$.
 
 ## Attribution
 

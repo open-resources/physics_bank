@@ -57,14 +57,16 @@ part4:
     suffix: $s$
 myst:
   substitutions:
-    params_vars_title: Rocket
-    params_vars_units1: $m/s^2$
-    params_vars_units2: $s$
-    params_v_1: 2
-    params_t_1: 1
-    params_t_2: 5
+    params:
+      vars:
+        title: Rocket
+        units1: $m/s^2$
+        units2: $s$
+      v_1: 2
+      t_1: 0
+      t_2: 5
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A rocket has a velocity (pointing away from the launch pad) given by $v(t)$={{ params.v_1 }}$t$-$t^2$
 where $x$ is in meters, and $t$ is in seconds.
 
@@ -92,7 +94,7 @@ Please enter the equation.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units1 }}.
+Please enter in a numeric value in {{ params.vars.units1 }}.
 
 ## Part 4
 
@@ -100,7 +102,7 @@ Please enter in a numeric value in {{ params_vars_units1 }}.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units2 }}.
+Please enter in a numeric value in {{ params.vars.units2 }}.
 
 ## Attribution
 

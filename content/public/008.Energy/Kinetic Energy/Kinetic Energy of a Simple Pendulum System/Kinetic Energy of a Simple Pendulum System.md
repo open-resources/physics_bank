@@ -34,22 +34,24 @@ part1:
     suffix: $^{\circ}$
 myst:
   substitutions:
-    params_vars_title: Kinetic Energy of a Simple Pendulum System
-    params_vars_units: degrees
-    params_theta: 85.0
+    params:
+      vars:
+        title: Kinetic Energy of a Simple Pendulum System
+        units: degrees
+      theta: 32.0
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The figure below shows a simple pendulum. The length of the string is $l$ and the bob has mass $m_1$.
 
 <img src="2017Mid2S002Q5.png" alt="Figure of a pendulum. The angle between the displaced string of the pendulum and the vertical axis is theta." >
 
 ## Question Text
 
-If the mass is released from rest when $\theta = {{ params_theta }}^{\circ}$, at which values of $\theta$ does the mass have half of its maximum kinetic energy?
+If the mass is released from rest when $\theta = {{ params.theta }}^{\circ}$, at which values of $\theta$ does the mass have half of its maximum kinetic energy?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

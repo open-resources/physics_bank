@@ -30,17 +30,25 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Motion of Charges in Fields 1
-    params_part1_ans1_feedback: ''
-    params_part1_ans2_feedback: Yes, the right hand rule tells us that the magnetic
-      field acting on a positively charged particle creates an upward force acting
-      on a particle initially moving to the right. This initially creates what looks
-      like parabolic motion, although it will ultimately result in circular motion.
-    params_part1_ans3_feedback: ''
-    params_part1_ans4_feedback: ''
-    params_part1_ans5_feedback: ''
+    params:
+      vars:
+        title: Motion of Charges in Fields 1
+      part1:
+        ans1:
+          feedback: ''
+        ans2:
+          feedback: Yes, the right hand rule tells us that the magnetic field acting
+            on a positively charged particle creates an upward force acting on a particle
+            initially moving to the right. This initially creates what looks like
+            parabolic motion, although it will ultimately result in circular motion.
+        ans3:
+          feedback: ''
+        ans4:
+          feedback: ''
+        ans5:
+          feedback: ''
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Consider the charge $q>0$ moving in a constant magnetic field $\vec{B}$ as shown below.
 
 ## Part 1
@@ -56,8 +64,6 @@ Choose the correct path that the particle follows.
 - {{ params.part1.ans3.value }}
 - {{ params.part1.ans4.value }}
 - {{ params.part1.ans5.value }}
-
-### pl-submission-panel
 
 ## Attribution
 

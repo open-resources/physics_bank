@@ -36,23 +36,33 @@ part2:
     hide-letter-keys: true
 myst:
   substitutions:
-    params_vars_title: Seed Dropped by a Bird
-    params_v: 4
-    params_part1_ans1_value: directly overhead.
-    params_part1_ans2_value: well in front of the seed.
-    params_part1_ans3_value: well behind the seed.
-    params_part2_ans1_value: The final speed of the seed is bigger than the bird's
-      speed because despite having the same horizontal velocity component as that
-      of the bird, it also has a large vertical component.
-    params_part2_ans2_value: The final speed of the seed is smaller than the bird's
-      speed because the bird is no longer pulling it.
-    params_part2_ans3_value: The final speed of the seed is the same as the bird's
-      speed.
-    params_part2_ans4_value: The final speed of the seed is smaller than the bird's
-      speed because the bird maintains its horizontal speed.
+    params:
+      vars:
+        title: Seed Dropped by a Bird
+      v: 3
+      part1:
+        ans1:
+          value: directly overhead.
+        ans2:
+          value: well in front of the seed.
+        ans3:
+          value: well behind the seed.
+      part2:
+        ans1:
+          value: The final speed of the seed is bigger than the bird's speed because
+            despite having the same horizontal velocity component as that of the bird,
+            it also has a large vertical component.
+        ans2:
+          value: The final speed of the seed is smaller than the bird's speed because
+            the bird is no longer pulling it.
+        ans3:
+          value: The final speed of the seed is the same as the bird's speed.
+        ans4:
+          value: The final speed of the seed is smaller than the bird's speed because
+            the bird maintains its horizontal speed.
 ---
-# {{ params_vars_title }}
-A bird gliding at a constant {{ params_v }} $m/s$ drops an apple seed from its beak.
+# {{ params.vars.title }}
+A bird gliding at a constant {{ params.v }} $m/s$ drops an apple seed from its beak.
 
 ## Part 1
 
@@ -60,9 +70,9 @@ Assuming air resistance is negligible and that the bird maintains its velocity, 
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Part 2
 
@@ -70,10 +80,10 @@ Is the final speed of the seed bigger or smaller than the bird's speed just befo
 
 ### Answer Section
 
-- {{ params_part2_ans1_value}}
-- {{ params_part2_ans2_value}}
-- {{ params_part2_ans3_value}}
-- {{ params_part2_ans4_value}}
+- {{ params.part2.ans1.value}}
+- {{ params.part2.ans2.value}}
+- {{ params.part2.ans3.value}}
+- {{ params.part2.ans4.value}}
 
 ## Attribution
 

@@ -30,27 +30,35 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Math Diagnostic12
-    params_expr: $9\over 9- x$ > $ 7$
-    params_part1_ans1_value: (54/7 < x) & (x < 9)
-    params_part1_ans2_value: (54/7 > x) & (x > 9)
-    params_part1_ans3_value: x > 9/7
-    params_part1_ans4_value: (560/9 < x) & (x < 63)
-    params_part1_ans5_value: Do not know
+    params:
+      vars:
+        title: Math Diagnostic12
+      expr: $1\over 1- x$ > $ 6$
+      part1:
+        ans1:
+          value: (5/6 < x) & (x < 1)
+        ans2:
+          value: (5/6 > x) & (x > 1)
+        ans3:
+          value: x > 1/6
+        ans4:
+          value: (0 < x) & (x < 6)
+        ans5:
+          value: Do not know
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
-If {{ params_expr }} then:
+If {{ params.expr }} then:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

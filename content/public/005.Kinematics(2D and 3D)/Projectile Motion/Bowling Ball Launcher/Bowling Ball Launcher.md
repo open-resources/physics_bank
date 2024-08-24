@@ -43,20 +43,21 @@ part2:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params_L: 3.8
-    params_theta: 175
-    params_omega: 384
-    params_t: 3.4
+    params:
+      L: 2.8
+      theta: 131
+      omega: 263
+      t: 2.2
 ---
 # Projectile Motion on an Incline
-A robot holds a bowling ball that is spun at a rate of ${{ params_omega }} \ \rm{rpm}$ CCW in a plane perpendicular to the ground. The robot arm is ${{params_L}} \ \rm{m}$ long.
-At $t=0 \ \rm{s}$, the bowling ball is released such that the arm makes an angle $\theta = {{params_theta}}^{\circ}$ with the positive x-axis.
+A robot holds a bowling ball that is spun at a rate of ${{ params.omega }} \ \rm{rpm}$ CCW in a plane perpendicular to the ground. The robot arm is ${{params.L}} \ \rm{m}$ long.
+At $t=0 \ \rm{s}$, the bowling ball is released such that the arm makes an angle $\theta = {{params.theta}}^{\circ}$ with the positive x-axis.
 
 <img src="Bowling Ball Launcher.jpg" width=600>
 
 ## Part 1
 
-Determine the position of the bowling ball after $t={{params_t}} \ \rm{s}$
+Determine the position of the bowling ball after $t={{params.t}} \ \rm{s}$
 Treat the ball as a particle and neglect any resistive forces.
 
 ### Answer Section

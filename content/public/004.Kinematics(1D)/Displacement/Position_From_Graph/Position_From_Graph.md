@@ -31,29 +31,37 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Position From Graph
-    params_vars_units: $m$
-    params_m: 3.2
-    params_part1_ans1_value: '10.0'
-    params_part1_ans2_value: '3.8'
-    params_part1_ans3_value: '7.0'
-    params_part1_ans4_value: '8.6'
-    params_part1_ans5_value: '-8.6'
+    params:
+      vars:
+        title: Position From Graph
+        units: $m$
+      m: 3.5
+      part1:
+        ans1:
+          value: '11.0'
+        ans2:
+          value: '3.5'
+        ans3:
+          value: '7.0'
+        ans4:
+          value: '8.8'
+        ans5:
+          value: '-8.8'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Q1&Q2image.png" alt = "A graph of velocity versus time. At 0 seconds, the velocity is 4 meters per second. At 1 second, the velocity decreases to 1 meter per second. The velocity increases and at 3 seconds the velocity is 3 meters per second. From 3 to 5 seconds, the velocity is 3 meters per second. The graph has a point labelled A and C. A is labelled at 1 second, with a velocity of 1 meters per second. C is labelled at 4 seconds with a velocity of 3 meters per second." width = 300>
 
 ## Part 1
 
-If the object's position at $t=$ 1.0 $s$ is -{{ params_m }} $m$, what is its position at point C?
+If the object's position at $t=$ 1.0 $s$ is -{{ params.m }} $m$, what is its position at point C?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params_vars_units}}
-- {{ params_part1_ans2_value }} {{ params_vars_units}}
-- {{ params_part1_ans3_value }} {{ params_vars_units}}
-- {{ params_part1_ans4_value }} {{ params_vars_units}}
-- {{ params_part1_ans5_value }} {{ params_vars_units}}
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

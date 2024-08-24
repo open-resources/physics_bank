@@ -44,24 +44,26 @@ part2:
     suffix: $\rm{N}$
 myst:
   substitutions:
-    params_vars_title: Lifting Machine
-    params_r1: 0.1
-    params_r2: 0.1
-    params_r3: 0.4
-    params_r4: 0.13
-    params_thetaDot: 7
-    params_m: 35
+    params:
+      vars:
+        title: Lifting Machine
+      r1: 0.3
+      r2: 0.06
+      r3: 0.19
+      r4: 0.09
+      thetaDot: 5
+      m: 56
 ---
-# {{ params_vars_title }}
-The machine illustrated below lifts a mass m by turning a pedal with radius $r_1 = {{params_r1}} \ \rm{m}$.
-The pedal rotates a gear system, which pulls a rope along a pulley system that is lifting a mass of ${{params_m}} \ \rm{kg}$.
-$r_2 = {{params_r2}} \ \rm{m}$  $r_3 = {{params_r3}} \ \rm{m}$  $r_4 = {{params_r4}} \ \rm{m}$.
+# {{ params.vars.title }}
+The machine illustrated below lifts a mass m by turning a pedal with radius $r_1 = {{params.r1}} \ \rm{m}$.
+The pedal rotates a gear system, which pulls a rope along a pulley system that is lifting a mass of ${{params.m}} \ \rm{kg}$.
+$r_2 = {{params.r2}} \ \rm{m}$  $r_3 = {{params.r3}} \ \rm{m}$  $r_4 = {{params.r4}} \ \rm{m}$.
 
 <img src="LiftingMachine.png" width=600 alt="A mass is suspended on a double pulley system. The rope is pulled by a large gear with r3, which is spun by a smaller gear with r2. The smaller gear is spun with a pedal of r1. The rope makes contact with the larger gear at r4." >
 
 ## Part 1
 
-If the pedal is rotated at ${{params_thetaDot}} \ \rm{rad/s}$, how fast is the mass rising?
+If the pedal is rotated at ${{params.thetaDot}} \ \rm{rad/s}$, how fast is the mass rising?
 
 ### Answer Section
 

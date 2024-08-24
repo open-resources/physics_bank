@@ -30,13 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: What is F=ma
-    params_part1_ans1_value: First
-    params_part1_ans2_value: Second
-    params_part1_ans3_value: Third
-    params_part1_ans4_value: Gravitation
+    params:
+      vars:
+        title: What is F=ma
+      part1:
+        ans1:
+          value: First
+        ans2:
+          value: Second
+        ans3:
+          value: Third
+        ans4:
+          value: Gravitation
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -44,10 +51,10 @@ The statement that the acceleration of a particle is proportional to the resulta
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

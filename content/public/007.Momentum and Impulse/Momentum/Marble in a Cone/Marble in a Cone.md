@@ -43,17 +43,19 @@ part2:
     suffix: $^{\circ}$
 myst:
   substitutions:
-    params_vars_title: Marble in a Cone
-    params_vars_units: m/s
-    params_v: 1.08
-    params_H: 7.86
-    params_R: 2.666
-    params_r: 1.955
+    params:
+      vars:
+        title: Marble in a Cone
+        units: m/s
+      v: 1.39
+      H: 6.25
+      R: 2.527
+      r: 1.937
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Marble Around a Cone.jpg" width=800>
 
-A marble is spun in a cone that has a radius ${{params_R}}\ \rm{m}$ and height ${{params_H}}\ \rm{m}$ with an initial velocity of ${{params_v}}\ \rm{m/s}$ tangent to the horizontal rim of the cone. As the marble spins around the bowl, its rotational radius r shrinks. As the marble descends, where r  = ${{params_r}}\ \rm{m}$, the velocity vector makes an angle $\theta$ with the horizontal. Determine the new velocity magnitude and $\theta$ in degrees.
+A marble is spun in a cone that has a radius ${{params.R}}\ \rm{m}$ and height ${{params.H}}\ \rm{m}$ with an initial velocity of ${{params.v}}\ \rm{m/s}$ tangent to the horizontal rim of the cone. As the marble spins around the bowl, its rotational radius r shrinks. As the marble descends, where r  = ${{params.r}}\ \rm{m}$, the velocity vector makes an angle $\theta$ with the horizontal. Determine the new velocity magnitude and $\theta$ in degrees.
 
 ## Part 1
 
@@ -61,7 +63,7 @@ What is $\lvert v \rvert$?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 

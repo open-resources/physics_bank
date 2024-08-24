@@ -42,19 +42,21 @@ part2:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_title: Crate and Pulleys
-    params_t: 1.0
-    params_mA: 39
-    params_mB: 26.0
+    params:
+      vars:
+        title: Crate and Pulleys
+      t: 2.3
+      mA: 39
+      mB: 24.0
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Crate and Pulleys.png" width=600>
 
-On a pulley system, there is a crate with a mass of $m_A = {{params_mA}} \ \rm{kg}$, and another crate $m_B = {{params_mB}} \ \rm{kg}$. Both are released from rest.
+On a pulley system, there is a crate with a mass of $m_A = {{params.mA}} \ \rm{kg}$, and another crate $m_B = {{params.mB}} \ \rm{kg}$. Both are released from rest.
 
 ## Part 1
 
-What is the speed of crate A after $t= {{params_t}} \ \rm{s}$?
+What is the speed of crate A after $t= {{params.t}} \ \rm{s}$?
 
 ### Answer Section
 
@@ -62,7 +64,7 @@ Please enter in a numeric value in $\rm{m/s}$.
 
 ## Part 2
 
-What is the speed of crate B after $t= {{params_t}} \ \rm{s}$?
+What is the speed of crate B after $t= {{params.t}} \ \rm{s}$?
 
 ### Answer Section
 

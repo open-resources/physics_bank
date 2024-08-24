@@ -31,12 +31,18 @@ part1:
     blank: true
 myst:
   substitutions:
-    params_vars_title: Earth's charge
-    params_part1_ans1_value: neutral
-    params_part1_ans2_value: positive
-    params_part1_ans3_value: negative
+    params:
+      vars:
+        title: Earth's charge
+      part1:
+        ans1:
+          value: neutral
+        ans2:
+          value: positive
+        ans3:
+          value: negative
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -46,9 +52,9 @@ From this observation, we can conclude that the net charge of Earth is:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

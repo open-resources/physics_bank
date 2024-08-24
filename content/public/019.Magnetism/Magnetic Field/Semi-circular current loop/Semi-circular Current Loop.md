@@ -46,12 +46,18 @@ part2:
     blank: true
 myst:
   substitutions:
-    params_vars_title: Semi-circular Current Loop
-    params_part2_ans1_value: points out of the screen
-    params_part2_ans2_value: points into the screen
-    params_part2_ans3_value: points parallel to the screen
+    params:
+      vars:
+        title: Semi-circular Current Loop
+      part2:
+        ans1:
+          value: points out of the screen
+        ans2:
+          value: points into the screen
+        ans3:
+          value: points parallel to the screen
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 What is the magnetic field at point P due to the current $I$ in the loop of wire shown?
 
 <img src="OSUPv2p12_18.png" width=300 alt="Semi-circular loop of current">
@@ -70,9 +76,9 @@ Direction:
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-- {{ params_part2_ans3_value }}
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
 
 ## Attribution
 

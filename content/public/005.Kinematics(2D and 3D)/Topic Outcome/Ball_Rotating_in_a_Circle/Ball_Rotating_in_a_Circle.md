@@ -31,11 +31,13 @@ part1:
     label: $\frac{a_{1}}{a_{2}}$=
 myst:
   substitutions:
-    params_vars_title: A Ball Rotating in a Circle
-    params_N: 3
+    params:
+      vars:
+        title: A Ball Rotating in a Circle
+      N: 10
 ---
-# {{ params_vars_title }}
-A ball rotated at constant speed in a circle from a string of length $L$ has a rotation period $T$. The string is shortened to a length $\frac{L}{{{ params_N }}}$ while its rotation period in circular motion remains $T$.
+# {{ params.vars.title }}
+A ball rotated at constant speed in a circle from a string of length $L$ has a rotation period $T$. The string is shortened to a length $\frac{L}{{{ params.N }}}$ while its rotation period in circular motion remains $T$.
 
 ## Part 1
 

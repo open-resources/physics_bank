@@ -29,26 +29,34 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Math Diagnostic25
-    params_expr: $\dfrac{ 8-e^{(-2x)}}{8-x}$
-    params_part1_ans1_value: 7/8
-    params_part1_ans2_value: Negative Infinity
-    params_part1_ans3_value: 1.0
-    params_part1_ans4_value: 8
-    params_part1_ans5_value: Don't Know
+    params:
+      vars:
+        title: Math Diagnostic25
+      expr: $\dfrac{ 5-e^{(-7x)}}{6-x}$
+      part1:
+        ans1:
+          value: 2/3
+        ans2:
+          value: Negative Infinity
+        ans3:
+          value: 0.8333333333333334
+        ans4:
+          value: 5
+        ans5:
+          value: Don't Know
 ---
-# {{ params_vars_title }}
-As x tends to zero the function {{params_expr}} tends to the limit:
+# {{ params.vars.title }}
+As x tends to zero the function {{params.expr}} tends to the limit:
 
 ## Part 1
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

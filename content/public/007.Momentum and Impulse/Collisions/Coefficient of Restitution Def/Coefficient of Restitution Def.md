@@ -30,17 +30,24 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Coefficient of Restitution Definition
-    params_part1_ans1_value: Magnitude of the restoration impulse to the magnitude
-      of the deformation impulse
-    params_part1_ans2_value: Incoming kinetic energy of the particles to the outgoing
-      kinetic energy of the particles
-    params_part1_ans3_value: Incoming momentum of the particles to the outgoing momentum
-      of the particles
-    params_part1_ans4_value: Magnitude of the restoration force to the magnitude of
-      the deformation force
+    params:
+      vars:
+        title: Coefficient of Restitution Definition
+      part1:
+        ans1:
+          value: Magnitude of the restoration impulse to the magnitude of the deformation
+            impulse
+        ans2:
+          value: Incoming kinetic energy of the particles to the outgoing kinetic
+            energy of the particles
+        ans3:
+          value: Incoming momentum of the particles to the outgoing momentum of the
+            particles
+        ans4:
+          value: Magnitude of the restoration force to the magnitude of the deformation
+            force
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -48,10 +55,10 @@ The coefficient of restitution for an impact between two particles is the ratio 
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

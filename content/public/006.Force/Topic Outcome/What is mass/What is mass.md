@@ -30,15 +30,21 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: What is mass
-    params_part1_ans1_value: Dependent upon how far the body is from the center of
-      the Earth.
-    params_part1_ans2_value: Inversely proportional to the resistance of the body
-      to a change in its motion.
-    params_part1_ans3_value: A quantitative measure of the inertia of the body.
-    params_part1_ans4_value: Equivalent to its weight.
+    params:
+      vars:
+        title: What is mass
+      part1:
+        ans1:
+          value: Dependent upon how far the body is from the center of the Earth.
+        ans2:
+          value: Inversely proportional to the resistance of the body to a change
+            in its motion.
+        ans3:
+          value: A quantitative measure of the inertia of the body.
+        ans4:
+          value: Equivalent to its weight.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -46,10 +52,10 @@ The mass of a body is:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

@@ -29,21 +29,30 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Energy Lost due to Air Friction
-    params_vars_units: J
-    params_m: 2.68
-    params_v: 51.9
-    params_h: 12.5
-    params_part1_ans1_value: -3280.0
-    params_part1_ans2_value: 3280.0
-    params_part1_ans3_value: -3940.0
-    params_part1_ans4_value: 3940.0
-    params_part1_ans5_value: 259.0
-    params_part1_ans6_value: 398.0
+    params:
+      vars:
+        title: Energy Lost due to Air Friction
+        units: J
+      m: 0.595
+      v: 28.6
+      h: 29.1
+      part1:
+        ans1:
+          value: -73.5
+        ans2:
+          value: 73.5
+        ans3:
+          value: -413.0
+        ans4:
+          value: 413.0
+        ans5:
+          value: 161.0
+        ans6:
+          value: 178.0
 ---
-# {{ params_vars_title }}
-A {{ params_m }} kg mass is thrown upwards with a velocity of {{ params_v }} m/s.
-It momentarily comes to rest after reaching a height of {{ params_h }} m.
+# {{ params.vars.title }}
+A {{ params.m }} kg mass is thrown upwards with a velocity of {{ params.v }} m/s.
+It momentarily comes to rest after reaching a height of {{ params.h }} m.
 
 ## Part 1
 
@@ -51,12 +60,12 @@ How much energy is lost due to air friction?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params_vars_units}}
-- {{ params_part1_ans2_value }} {{ params_vars_units}}
-- {{ params_part1_ans3_value }} {{ params_vars_units}}
-- {{ params_part1_ans4_value }} {{ params_vars_units}}
-- {{ params_part1_ans5_value }} {{ params_vars_units}}
-- {{ params_part1_ans6_value }} {{ params_vars_units}}
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params.part1.ans6.value }} {{ params.vars.units}}
 
 ## Attribution
 

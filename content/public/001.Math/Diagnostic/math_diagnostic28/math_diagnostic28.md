@@ -30,14 +30,22 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Math Diagnostic28
-    params_part1_ans1_value: sin, cos, tan
-    params_part1_ans2_value: Do not know
-    params_part1_ans3_value: tan, cos, sin
-    params_part1_ans4_value: cos, tan, sin
-    params_part1_ans5_value: cos, sin, tan
+    params:
+      vars:
+        title: Math Diagnostic28
+      part1:
+        ans1:
+          value: sin, cos, tan
+        ans2:
+          value: Do not know
+        ans3:
+          value: tan, cos, sin
+        ans4:
+          value: cos, tan, sin
+        ans5:
+          value: cos, sin, tan
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -47,11 +55,11 @@ The curves labelled X, Y, Z represent (in this order) the graphs of
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

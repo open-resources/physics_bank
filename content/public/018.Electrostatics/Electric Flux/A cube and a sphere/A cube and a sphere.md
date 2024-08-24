@@ -34,13 +34,18 @@ part1:
     blank: true
 myst:
   substitutions:
-    params_vars_title: A cube and a sphere
-    params_part1_ans1_value: The sphere has greater electric flux passing through
-      it.
-    params_part1_ans2_value: The cube has greater electric flux passing through it.
-    params_part1_ans3_value: The same electric flux passes through each surface.
+    params:
+      vars:
+        title: A cube and a sphere
+      part1:
+        ans1:
+          value: The sphere has greater electric flux passing through it.
+        ans2:
+          value: The cube has greater electric flux passing through it.
+        ans3:
+          value: The same electric flux passes through each surface.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -48,9 +53,9 @@ Compare the electric flux through the surface of a cube of side length $a$ that 
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

@@ -32,16 +32,23 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Notation For Dynamics
-    params_part1_ans1_value: Velocity is $v$, $\dot x$; Acceleration is $a$, $\dot
-      v$, $\ddot x$.
-    params_part1_ans2_value: Velocity is $\dot v$; Acceleration is $\dot a$.
-    params_part1_ans3_value: Velocity is $\ddot v$, $\dot x$; Acceleration is $\ddot
-      a$, $\dot a$.
-    params_part1_ans4_value: Velocity is $\ddot x$, $v$; Acceleration is $\dot x$,
-      $\ddot v$, $a$.
+    params:
+      vars:
+        title: Notation For Dynamics
+      part1:
+        ans1:
+          value: Velocity is $v$, $\dot x$; Acceleration is $a$, $\dot v$, $\ddot
+            x$.
+        ans2:
+          value: Velocity is $\dot v$; Acceleration is $\dot a$.
+        ans3:
+          value: Velocity is $\ddot v$, $\dot x$; Acceleration is $\ddot a$, $\dot
+            a$.
+        ans4:
+          value: Velocity is $\ddot x$, $v$; Acceleration is $\dot x$, $\ddot v$,
+            $a$.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 What is the Newtonian Notation for velocity and acceleration?
 
 ## Part 1
@@ -50,10 +57,10 @@ What is the Newtonian Notation for velocity and acceleration?
 
 Choose the best answer.
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

@@ -66,22 +66,32 @@ part6:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Triple Slit Experiment
-    params_m: 2
-    params_part5_ans1_value: It is a good approximation to the spacing between the
-      $m = 0$ and $ m = $ 2 peak, but not a great approximation to the spacing between
-      the $m = 9$ and $ m = 10$ peak as the angle for $y_{10}$ is just outside the
-      range of validity of the small angle approximation.
-    params_part5_ans2_value: It is a good approximation to both spacings since the
-      angles remain small out to $m = 10$.
-    params_part5_ans3_value: It is a not a good approximation either angle as one
-      cannot meaningfully use the small angle approximation in diffraction problems
-      even when the wavelength is small relative to the slit spacing.
-    params_part6_ans1_value: The spacing between the maxima would increase.
-    params_part6_ans2_value: The spacing between the maxima would not change.
-    params_part6_ans3_value: The spacing between the maxima would decrease.
+    params:
+      vars:
+        title: Triple Slit Experiment
+      m: 1
+      part5:
+        ans1:
+          value: It is a good approximation to the spacing between the $m = 0$ and
+            $ m = $ 1 peak, but not a great approximation to the spacing between the
+            $m = 9$ and $ m = 10$ peak as the angle for $y_{10}$ is just outside the
+            range of validity of the small angle approximation.
+        ans2:
+          value: It is a good approximation to both spacings since the angles remain
+            small out to $m = 10$.
+        ans3:
+          value: It is a not a good approximation either angle as one cannot meaningfully
+            use the small angle approximation in diffraction problems even when the
+            wavelength is small relative to the slit spacing.
+      part6:
+        ans1:
+          value: The spacing between the maxima would increase.
+        ans2:
+          value: The spacing between the maxima would not change.
+        ans3:
+          value: The spacing between the maxima would decrease.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A triple-slit experiment has a slit spacing $d = 20 \rm{\mu m}$ and is illuminated by a laser of wavelength $\lambda = 500 \rm{nm}$ and is a distance $L = 10 \rm{cm}$ from a screen.
 
 <!-- Button trigger modal -->
@@ -113,15 +123,11 @@ A triple-slit experiment has a slit spacing $d = 20 \rm{\mu m}$ and is illuminat
 
 ## Part 1
 
-Without using the small angle approximation calculate the spacing between the $m = 0$ and $m = {{ params_m }} $ peaks.
+Without using the small angle approximation calculate the spacing between the $m = 0$ and $m = {{ params.m }} $ peaks.
 
 ### Answer Section
 
 Please enter in a numeric value in $\rm{mm}$.
-
-### pl-submission-panel
-
-{{feedback.part1_ans}}
 
 ## Part 2
 
@@ -131,21 +137,13 @@ Without using the small angle approximation calculate the spacing between the $m
 
 Please enter in a numeric value in $\rm{mm}$.
 
-### pl-submission-panel
-
-{{feedback.part2_ans}}
-
 ## Part 3
 
-In the small angle approximation $\tan(\theta) = \sin(\theta) = \theta$, where $\theta$ is in radians. What is the spacing between the $m = 0$ and $m = {{ params_m }}$ peaks in the small angle approximation?
+In the small angle approximation $\tan(\theta) = \sin(\theta) = \theta$, where $\theta$ is in radians. What is the spacing between the $m = 0$ and $m = {{ params.m }}$ peaks in the small angle approximation?
 
 ### Answer Section
 
 Please enter in a numeric value in $\rm{mm}$.
-
-### pl-submission-panel
-
-{{feedback.part3_ans}}
 
 ## Part 4
 
@@ -155,19 +153,15 @@ What is the spacing between the $m = 9$ and $m = 10$ peaks in the small angle ap
 
 Please enter in a numeric value in $\rm{mm}$.
 
-### pl-submission-panel
-
-{{feedback.part4_ans}}
-
 ## Part 5
 
-Based on your results in Parts 1-4 is the small angle approximation a good approximation for the spacing between the $m = 0$ and $m = {{ params_m }}$ peaks and the $m = 9$ and $m = 10$ peaks?
+Based on your results in Parts 1-4 is the small angle approximation a good approximation for the spacing between the $m = 0$ and $m = {{ params.m }}$ peaks and the $m = 9$ and $m = 10$ peaks?
 
 ### Answer Section
 
-- {{ params_part5_ans1_value }}
-- {{ params_part5_ans2_value }}
-- {{ params_part5_ans3_value }}
+- {{ params.part5.ans1.value }}
+- {{ params.part5.ans2.value }}
+- {{ params.part5.ans3.value }}
 
 ## Part 6
 
@@ -175,9 +169,9 @@ If the colour of the laser changed to purple with a wavelength $\lambda = 400 \r
 
 ### Answer Section
 
-- {{ params_part6_ans1_value }}
-- {{ params_part6_ans2_value }}
-- {{ params_part6_ans3_value }}
+- {{ params.part6.ans1.value }}
+- {{ params.part6.ans2.value }}
+- {{ params.part6.ans3.value }}
 
 ## Attribution
 

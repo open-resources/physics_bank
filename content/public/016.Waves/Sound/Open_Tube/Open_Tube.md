@@ -52,16 +52,23 @@ part4:
     suffix: m
 myst:
   substitutions:
-    params_vars_title: Standing Waves in Open_Closed Tube
-    params_part3_ans1_value: First Harmonic
-    params_part3_ans2_value: Third Harmonic
-    params_part3_ans2_feedback: Great! You got it.
-    params_part3_ans3_value: Second Harmonic
-    params_part3_ans4_value: Fourth Harmonic
-    params_v: 366
-    params_f: 664
+    params:
+      vars:
+        title: Standing Waves in Open_Closed Tube
+      part3:
+        ans1:
+          value: First Harmonic
+        ans2:
+          value: Third Harmonic
+          feedback: Great! You got it.
+        ans3:
+          value: Second Harmonic
+        ans4:
+          value: Fourth Harmonic
+      v: 264
+      f: 560
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="openclosed.png" width="400">
 
 In the figures above, snapshots of a standing wave in an open-closed tube are shown at $t$ = 0 s and $t = \frac{T}{4}$, where $T$ is the period of the wave's oscillation.
@@ -78,10 +85,6 @@ Your file upload should be named 'Wave' and must be a png file.
 
 File upload box will be shown here.
 
-### pl-submission-panel
-
-### pl-answer-panel
-
 ## Part 2
 
 What is the wavelength of this wave in terms of the length of the tube, $L$?
@@ -94,34 +97,22 @@ Use the following table as a reference:
 
 ### Answer Section
 
-### pl-submission-panel
-
-### pl-answer-panel
-
 ## Part 3
 
 Which harmonic is this standing wave?
 
 ### Answer Section
 
-- {{ params.part3.ans1}} {{ params_vars.units}}
-- {{ params.part3.ans2}} {{ params_vars.units}}
-- {{ params.part3.ans3}} {{ params_vars.units}}
-- {{ params.part3.ans4}} {{ params_vars.units}}
-
-### pl-submission-panel
-
-### pl-answer-panel
+- {{ params.part3.ans1}} {{ params.vars.units}}
+- {{ params.part3.ans2}} {{ params.vars.units}}
+- {{ params.part3.ans3}} {{ params.vars.units}}
+- {{ params.part3.ans4}} {{ params.vars.units}}
 
 ## Part 4
 
-If this tube were in some medium with the speed of sound as {{params_v}}m/s, what length would it have to have to sound the note A ({{ params_f}}Hz) and it remained in this standing wave?
+If this tube were in some medium with the speed of sound as {{params.v}}m/s, what length would it have to have to sound the note A ({{ params.f}}Hz) and it remained in this standing wave?
 
 ### Answer Section
-
-### pl-submission-panel
-
-### pl-answer-panel
 
 ## Attribution
 

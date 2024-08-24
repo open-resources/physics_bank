@@ -43,16 +43,18 @@ part2:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_title: Slingshot
-    params_K: 134
-    params_d: 1.02
-    params_x0: 0.25
-    params_m: 14
+    params:
+      vars:
+        title: Slingshot
+      K: 192
+      d: 1.02
+      x0: 0.21
+      m: 9
 ---
-# {{ params_vars_title }}
-A slingshot made of two springs with spring constant ${{params_K}} \ \rm{N/m}$ is loaded with a mass $m={{params_m}} \ \rm{kg}$.
-When relaxed, the springs have a length $x_0={{params_x0}} \ \rm{m}$.
-Using a rope, someone pulls the mass $d={{params_d}} \ \rm{m}$ from its rest state.
+# {{ params.vars.title }}
+A slingshot made of two springs with spring constant ${{params.K}} \ \rm{N/m}$ is loaded with a mass $m={{params.m}} \ \rm{kg}$.
+When relaxed, the springs have a length $x_0={{params.x0}} \ \rm{m}$.
+Using a rope, someone pulls the mass $d={{params.d}} \ \rm{m}$ from its rest state.
 
 <img src="Slingshot.png" width=600 alt="Two springs are diagonally pulled back with a horizontal force that holds the center of the slingshot a distance d from its rest state." >
 

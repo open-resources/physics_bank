@@ -29,14 +29,22 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Maximum In Simple Harmonic Motion
-    params_part1_ans1_value: Speed
-    params_part1_ans2_value: Acceleration
-    params_part1_ans3_value: Kinetic energy
-    params_part1_ans4_value: Frequency
-    params_part1_ans5_value: Period
+    params:
+      vars:
+        title: Maximum In Simple Harmonic Motion
+      part1:
+        ans1:
+          value: Speed
+        ans2:
+          value: Acceleration
+        ans3:
+          value: Kinetic energy
+        ans4:
+          value: Frequency
+        ans5:
+          value: Period
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -44,11 +52,11 @@ Which of the following quantities is at a maximum when an object in simple harmo
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

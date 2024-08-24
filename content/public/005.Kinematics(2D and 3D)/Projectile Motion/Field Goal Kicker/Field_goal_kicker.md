@@ -62,18 +62,20 @@ part4:
     comparison: relabs
 myst:
   substitutions:
-    params_vars_title: Field Goal Kicker
-    params_theta: 25
-    params_hg: 2.4
-    params_dg: 34.2
-    params_deltahg: 2.2
-    params_hl: 2.44
-    params_dl1: 4.6
-    params_dl2: 1.7
+    params:
+      vars:
+        title: Field Goal Kicker
+      theta: 35
+      hg: 1.7
+      dg: 27.4
+      deltahg: 1.6
+      hl: 2.53
+      dl1: 5.0
+      dl2: 1.0
 ---
-# {{ params_vars_title }}
-When a field goal kicker kicks a football at ${{ params_theta }}^\circ$ to the horizontal, the ball clears the crossbar of the goalposts by ${{ params_deltahg }}$ $\rm{m}$.
-The crossbar of the goalpoasts is ${{ params_hg }}$ $\rm{m}$ above the field and ${{ params_dg }}$ $\rm{m}$ away from the kicker.
+# {{ params.vars.title }}
+When a field goal kicker kicks a football at ${{ params.theta }}^\circ$ to the horizontal, the ball clears the crossbar of the goalposts by ${{ params.deltahg }}$ $\rm{m}$.
+The crossbar of the goalpoasts is ${{ params.hg }}$ $\rm{m}$ above the field and ${{ params.dg }}$ $\rm{m}$ away from the kicker.
 
 <img src="fieldgoal.png" width=400 alt="An image showing a field goal kicker kicking a field goal. The trajectory of the football is shown by a purple line that initially makes an angle of theta with the horizontal. A defensive lineman stands between the field goal kicker and the goalpoasts.">
 
@@ -96,7 +98,7 @@ Please enter an answer in $\rm{m/s}$.
 ## Part 3
 
 In addition to clearing the crossbar, the football must be high enough in the air early during its flight to clear the reach of the onrushing defensive lineman.
-If the lineman is ${{ params_dl1 }}$ $\rm{m}$ away and has a vertical reach of ${{ params_hl }}$ $\rm{m}$, at what height does the football pass the linesman relative to their reach $\Delta h$?
+If the lineman is ${{ params.dl1 }}$ $\rm{m}$ away and has a vertical reach of ${{ params.hl }}$ $\rm{m}$, at what height does the football pass the linesman relative to their reach $\Delta h$?
 Hint: A negative answer indicates that the field goal attempt would be blocked.
 
 ### Answer Section
@@ -105,7 +107,7 @@ Please enter an answer in $\rm{m}$.
 
 ## Part 4
 
-What if the lineman is ${{ params_dl2 }}$ $\rm{m}$ away and had the same vertical reach of ${{ params_hl }}$ $\rm{m}$ - at what height does the football pass the linesman relative to their reach $\Delta h$?
+What if the lineman is ${{ params.dl2 }}$ $\rm{m}$ away and had the same vertical reach of ${{ params.hl }}$ $\rm{m}$ - at what height does the football pass the linesman relative to their reach $\Delta h$?
 
 ### Answer Section
 

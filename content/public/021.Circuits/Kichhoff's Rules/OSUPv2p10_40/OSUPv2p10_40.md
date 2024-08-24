@@ -72,19 +72,21 @@ part3:
     custom-format: .2g
 myst:
   substitutions:
-    params_vars_title: Circuit Loop within a Loop
-    params_R1: '5.0'
-    params_R2: '4.0'
-    params_R3: '5.0'
-    params_V1: '20.0'
-    params_V2: '10.0'
+    params:
+      vars:
+        title: Circuit Loop within a Loop
+      R1: '4.0'
+      R2: '6.0'
+      R3: '9.0'
+      V1: '22.0'
+      V2: '12.0'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Consider the circuit shown below.
 
 <img src="fig_OSUPv2p10_40.png" width=350>
 
-It is known that $V_1 = {{ params_V1 }}\rm\ V$, $V_2 = {{ params_V2 }}\rm\ V$, $R_1 = {{ params_R1 }}\rm\ \Omega$, $R_2 = {{ params_R2 }}\rm\ \Omega$, and $R_3 = {{ params_R3 }}\rm\ \Omega$.
+It is known that $V_1 = {{ params.V1 }}\rm\ V$, $V_2 = {{ params.V2 }}\rm\ V$, $R_1 = {{ params.R1 }}\rm\ \Omega$, $R_2 = {{ params.R2 }}\rm\ \Omega$, and $R_3 = {{ params.R3 }}\rm\ \Omega$.
 
 ## Part 1
 
@@ -109,18 +111,6 @@ Find $I_3$.
 ### Answer Section
 
 Please enter in a numeric value in $\rm\ A$.
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}<br>
-{{ feedback.part2_ans }}<br>
-{{ feedback.part3_ans }}
-
-### pl-answer-panel
-
-$I_1 =$ {{ correct_answers.part1_ans_str }} $\rm\ A$<br>
-$I_2 =$ {{ correct_answers.part2_ans_str }} $\rm\ A$<br>
-$I_3 =$ {{ correct_answers.part3_ans_str }} $\rm\ A$
 
 ## Attribution
 

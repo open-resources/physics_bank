@@ -31,29 +31,35 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Diffraction Part 1
-    params_Lambda: 650
-    params_L: 7
-    params_part1_ans1_value: This is diffraction from a diffraction grating since
-      it is bright enough for us to see.
-    params_part1_ans1_feedback: While diffraction is brighter when more slits are
-      involved, it is still possible to observe diffraction from double and single
-      slits.
-    params_part1_ans2_value: This is diffraction from a double slit since the maxima
-      are equally spaced
-    params_part1_ans2_feedback: The maxima would be equally spaced if this were diffraction
-      from a double slit.  Are they equally spaced?
-    params_part1_ans3_value: This is diffraction from a double slit since the central
-      maximum is twice the width of the subsequent maxima.
-    params_part1_ans3_feedback: The maxima produced by a double slit should be equally
-      spaced.
-    params_part1_ans4_value: This is diffraction from a single slit since the maxima
-      are equally spaced.
-    params_part1_ans4_feedback: Here the maxima are not equally spaced.
-    params_part1_ans5_value: This is diffraction from a single slit since the central
-      maximum is twice the width of subsequent maxima.
+    params:
+      vars:
+        title: Diffraction Part 1
+      Lambda: 650
+      L: 7
+      part1:
+        ans1:
+          value: This is diffraction from a diffraction grating since it is bright
+            enough for us to see.
+          feedback: While diffraction is brighter when more slits are involved, it
+            is still possible to observe diffraction from double and single slits.
+        ans2:
+          value: This is diffraction from a double slit since the maxima are equally
+            spaced
+          feedback: The maxima would be equally spaced if this were diffraction from
+            a double slit.  Are they equally spaced?
+        ans3:
+          value: This is diffraction from a double slit since the central maximum
+            is twice the width of the subsequent maxima.
+          feedback: The maxima produced by a double slit should be equally spaced.
+        ans4:
+          value: This is diffraction from a single slit since the maxima are equally
+            spaced.
+          feedback: Here the maxima are not equally spaced.
+        ans5:
+          value: This is diffraction from a single slit since the central maximum
+            is twice the width of subsequent maxima.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Photographs of the diffraction of a red laser of wavelength $\lambda = 650$ nm are shown in figures (i) and (ii). A line of length $7$ cm indicates the length scale on the screen.
 
 <img src="gratings.png" height = 500px>
@@ -68,11 +74,11 @@ Is the diffraction of this laser from a diffraction grating, a double slit or si
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

@@ -40,27 +40,19 @@ part1:
     suffix: $\rm\ m^2$
 myst:
   substitutions:
-    params_vars_title: Area of Capacitor Plates
-    params_c: '2.6'
-    params_d: '1.8'
+    params:
+      vars:
+        title: Area of Capacitor Plates
+      c: '4.0'
+      d: '4.9'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
-The plates of an empty parallel-plate capacitor of capacitance {{params_c }}$\textrm{ pF}$ are {{params_d }}$\textrm{ mm}$ apart. What is the area of each plate?
+The plates of an empty parallel-plate capacitor of capacitance {{params.c }}$\textrm{ pF}$ are {{params.d }}$\textrm{ mm}$ apart. What is the area of each plate?
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$A=$ {{ correct_answers.part1_ans_str }} $\rm\ m^2$
 
 ## Attribution
 

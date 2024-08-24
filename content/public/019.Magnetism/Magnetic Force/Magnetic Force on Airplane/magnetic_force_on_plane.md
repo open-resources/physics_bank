@@ -45,16 +45,23 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Magnetic Force on Airplane
-    params_q: 0.972
-    params_v: 522
-    params_part2_ans1_value: North
-    params_part2_ans2_value: South
-    params_part2_ans3_value: East
-    params_part2_ans4_value: West
+    params:
+      vars:
+        title: Magnetic Force on Airplane
+      q: 0.781
+      v: 553
+      part2:
+        ans1:
+          value: North
+        ans2:
+          value: South
+        ans3:
+          value: East
+        ans4:
+          value: West
 ---
-# {{ params_vars_title }}
-Aircrafts sometimes acquire small static charges. Suppose a supersonic jet has a {{params_q}} $\rm\ {\mu C}$ charge and flies due west at a speed of {{params_v}} $\textrm{ m/s}$ over Earths south magnetic pole, where the $\mathrm{8 \times 10^{-5}} \textrm{ T}$ magnetic field points straight down into the ground.
+# {{ params.vars.title }}
+Aircrafts sometimes acquire small static charges. Suppose a supersonic jet has a {{params.q}} $\rm\ {\mu C}$ charge and flies due west at a speed of {{params.v}} $\textrm{ m/s}$ over Earths south magnetic pole, where the $\mathrm{8 \times 10^{-5}} \textrm{ T}$ magnetic field points straight down into the ground.
 
 ## Part 1
 
@@ -64,25 +71,16 @@ What is the magnitude of the electric force on the plane?
 
 Please enter a numeric value.
 
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$F=$ {{ correct_answers.part1_ans_str }} $\mathrm{N}$
-
 ## Part 2
 
 What is the direction of the magnetic force on the plane?
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-- {{ params_part2_ans3_value }}
-- {{ params_part2_ans4_value }}
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
+- {{ params.part2.ans3.value }}
+- {{ params.part2.ans4.value }}
 
 ## Attribution
 

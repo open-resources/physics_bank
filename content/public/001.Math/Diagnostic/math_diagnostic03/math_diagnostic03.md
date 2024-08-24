@@ -30,26 +30,34 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Math Diagnostic03
-    params_vars_formula: 10x + 6 > -4x + 8
-    params_part1_ans1_value: x > 1/7
-    params_part1_ans2_value: x < 1/7
-    params_part1_ans3_value: x < 7
-    params_part1_ans4_value: x > 7
-    params_part1_ans5_value: Don't Know
+    params:
+      vars:
+        title: Math Diagnostic03
+        formula: 8x + -7 > -4x + 10
+      part1:
+        ans1:
+          value: x > 17/12
+        ans2:
+          value: x < 17/12
+        ans3:
+          value: x < 12/17
+        ans4:
+          value: x > 12/17
+        ans5:
+          value: Don't Know
 ---
-# {{ params_vars_title }}
-The solution of the inequality {{params_vars_formula}} is:
+# {{ params.vars.title }}
+The solution of the inequality {{params.vars.formula}} is:
 
 ## Part 1
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

@@ -30,23 +30,31 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Work Done By Force
-    params_vars_units: $J$
-    params_t1: 5
-    params_t2: 9
-    params_f1: 1.8
-    params_f2: 5.9
-    params_r1: 2.7
-    params_r2: 1.9
-    params_m: 6.7
-    params_part1_ans1_value: -6.4
-    params_part1_ans2_value: 16.0
-    params_part1_ans3_value: 110.0
-    params_part1_ans4_value: 2.4
-    params_part1_ans5_value: -16.0
+    params:
+      vars:
+        title: Work Done By Force
+        units: $J$
+      t1: 4
+      t2: 9
+      f1: 2.6
+      f2: 4.6
+      r1: 2.5
+      r2: 1.7
+      m: 9.0
+      part1:
+        ans1:
+          value: -1.3
+        ans2:
+          value: 14.0
+        ans3:
+          value: 130.0
+        ans4:
+          value: 1.6
+        ans5:
+          value: -14.0
 ---
-# {{ params_vars_title }}
-Between time $t =$ {{ params_t1 }} $s$ and $t =$ {{params_t2 }} $s$, a force $\vec{F}$ = ( {{ params_f1 }} $\hat\imath$ - {{ params_f2 }} $\hat\jmath$ ) N moves a {{ params_m }} kg object along a trajectory $\Delta\vec{r}$ = ( {{ params_r1 }} $\hat\imath$ - {{ params_r2 }} $\hat\jmath$ ) m.
+# {{ params.vars.title }}
+Between time $t =$ {{ params.t1 }} $s$ and $t =$ {{params.t2 }} $s$, a force $\vec{F}$ = ( {{ params.f1 }} $\hat\imath$ - {{ params.f2 }} $\hat\jmath$ ) N moves a {{ params.m }} kg object along a trajectory $\Delta\vec{r}$ = ( {{ params.r1 }} $\hat\imath$ - {{ params.r2 }} $\hat\jmath$ ) m.
 
 ## Part 1
 
@@ -54,11 +62,11 @@ How much work is done by this force?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params_vars_units}}
-- {{ params_part1_ans2_value }} {{ params_vars_units}}
-- {{ params_part1_ans3_value }} {{ params_vars_units}}
-- {{ params_part1_ans4_value }} {{ params_vars_units}}
-- {{ params_part1_ans5_value }} {{ params_vars_units}}
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

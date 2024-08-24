@@ -35,29 +35,21 @@ part1:
     suffix: $\rm\ {N/C}$
 myst:
   substitutions:
-    params_vars_title: Electric Field Outside Solenoid
-    params_R: '4'
-    params_r: '5'
-    params_n: '35'
-    params_DI: '4'
+    params:
+      vars:
+        title: Electric Field Outside Solenoid
+      R: '2'
+      r: '5'
+      n: '15'
+      DI: '1'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
-The current in a long solenoid of radius ${{params_R }}\rm\ {cm}$ and ${{params_n }}\rm\ {turns/cm}$ is varied with time at a rate of ${{params_DI }}\rm\ {A/s}$. Find the magnitude of the electric field at a distance of ${{params_r }}\rm\ {cm}$ from the center of the solenoid.
+The current in a long solenoid of radius ${{params.R }}\rm\ {cm}$ and ${{params.n }}\rm\ {turns/cm}$ is varied with time at a rate of ${{params.DI }}\rm\ {A/s}$. Find the magnitude of the electric field at a distance of ${{params.r }}\rm\ {cm}$ from the center of the solenoid.
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$E=$ {{ correct_answers.part1_ans_str }} $\rm\ {N/C}$
 
 ## Attribution
 

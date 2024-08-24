@@ -35,20 +35,22 @@ part1:
     suffix: $\rm{kg}$
 myst:
   substitutions:
-    params_vars_title: Decelerating Mass
-    params_k: 8
-    params_t: 8
-    params_v: 8
+    params:
+      vars:
+        title: Decelerating Mass
+      k: 5
+      t: 8
+      v: 5
 ---
-# {{ params_vars_title }}
-An object is traveling with a speed of ${{params_v}}\ \rm{m/s}$.
-At $t = 0$, a force whose magnitude follows the relation $F = {{params_k}}t \ \rm{N}$ is applied in the direction opposite to motion.
+# {{ params.vars.title }}
+An object is traveling with a speed of ${{params.v}}\ \rm{m/s}$.
+At $t = 0$, a force whose magnitude follows the relation $F = {{params.k}}t \ \rm{N}$ is applied in the direction opposite to motion.
 
 <img src="DeceleratingMass.png" width=500 alt="A box moving to the right at speed v. A force F is stopping it." >
 
 ## Part 1
 
-If the object decelerates to a complete stop in ${{params_t}} \ \rm{s}$, what is its mass?
+If the object decelerates to a complete stop in ${{params.t}} \ \rm{s}$, what is its mass?
 
 ### Answer Section
 

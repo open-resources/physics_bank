@@ -30,18 +30,24 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_title: Falling Mass on Rope
-    params_part1_ans1_value: $mg(t_2-t_1)$
-    params_part1_ans1_feedback: Nope
-    params_part1_ans2_value: $mv^2/2$
-    params_part1_ans2_feedback: Nope
-    params_part1_ans3_value: integral of the net force over the stretching time of
-      the rope
-    params_part1_ans3_feedback: Well done!
-    params_part1_ans4_value: mass multiplied by the average velocity
-    params_part1_ans4_feedback: Nope
-    params_part1_ans5_value: $mg(L_2-L_1)$
-    params_part1_ans5_feedback: Nope
+    params:
+      title: Falling Mass on Rope
+      part1:
+        ans1:
+          value: $mg(t_2-t_1)$
+          feedback: Nope
+        ans2:
+          value: $mv^2/2$
+          feedback: Nope
+        ans3:
+          value: integral of the net force over the stretching time of the rope
+          feedback: Well done!
+        ans4:
+          value: mass multiplied by the average velocity
+          feedback: Nope
+        ans5:
+          value: $mg(L_2-L_1)$
+          feedback: Nope
 ---
 # {{ params.vars.title }}
 
@@ -51,11 +57,11 @@ The change in momentum of a falling mass attached to a fixed rope is equal to:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params.vars.units}}
-- {{ params_part1_ans2_value }} {{ params.vars.units}}
-- {{ params_part1_ans3_value }} {{ params.vars.units}}
-- {{ params_part1_ans4_value }} {{ params.vars.units}}
-- {{ params_part1_ans5_value }} {{ params.vars.units}}
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

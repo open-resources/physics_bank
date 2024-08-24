@@ -43,19 +43,21 @@ part2:
     suffix: $m/s$
 myst:
   substitutions:
-    params_vars_title: Collision of Collars
-    params_W1: 4
-    params_W2: 10
-    params_v1: 26
-    params_v2: 2
-    params_e: 0.73
+    params:
+      vars:
+        title: Collision of Collars
+      W1: 2
+      W2: 8
+      v1: 20
+      v2: 4
+      e: 0.73
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Collision of Collars.png" width=400>
 
 Find the final velocities $v_1'$ and $v_2'$ after the collision of the two cylinders which slide on the smooth shaft.
-The coefficient of restitution is $e = {{params_e}}$.
-$v1 = {{params_v1}}ft/s$, $v2 = {{params_v2}}ft/s$, $W1 = {{params_W1}}lb$, $W2 = {{params_W2}}lb$.
+The coefficient of restitution is $e = {{params.e}}$.
+$v1 = {{params.v1}}ft/s$, $v2 = {{params.v2}}ft/s$, $W1 = {{params.W1}}lb$, $W2 = {{params.W2}}lb$.
 
 ## Part 1
 

@@ -42,17 +42,19 @@ part2:
     suffix: $\rm{^{\circ}}$
 myst:
   substitutions:
-    params_vars_title: Anticipating the Cross 4
-    params_v0: 18
-    params_theta0: 34
-    params_phi0: 49
-    params_x: 6
-    params_y: 11
+    params:
+      vars:
+        title: Anticipating the Cross 4
+      v0: 13
+      theta0: 32
+      phi0: 60
+      x: 9
+      y: 15
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Anticipating the Cross 2.png" width=800>
 
-A player is crossing the ball forwards towards the goal. The striker in the front needs to anticpate the cross and run towards where the ball will land. The ball is propelled at a speed of $v_0 = {{params_v0}} \ \rm{m/s}$ with an angle ${\theta}\_0  = {{params_theta0}}^{\circ}$ above the horizental, and an angle ${\phi}\_0 = {{params_phi0}}^{\circ}$.
+A player is crossing the ball forwards towards the goal. The striker in the front needs to anticpate the cross and run towards where the ball will land. The ball is propelled at a speed of $v_0 = {{params.v0}} \ \rm{m/s}$ with an angle ${\theta}\_0  = {{params.theta0}}^{\circ}$ above the horizental, and an angle ${\phi}\_0 = {{params.phi0}}^{\circ}$.
 
 <br>
 The striker starts accelerating from rest to anticipate the ball at the point of impact. <br>

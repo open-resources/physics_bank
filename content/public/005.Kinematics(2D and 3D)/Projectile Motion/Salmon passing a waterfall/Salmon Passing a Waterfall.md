@@ -35,29 +35,47 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Salmon Passing a Waterfall
-    params_d: 4.31
-    params_vx: 1.24
-    params_vy: 9.74
-    params_part1_ans1_value: Time interval for acceleration, $\Delta t$
-    params_part1_ans2_value: Vertical displacement, $\Delta y$
-    params_part1_ans3_value: Horizontal displacement, $\Delta x$
-    params_part1_ans4_value: Vertical acceleration component, $a_y$
-    params_part1_ans5_value: Horizontal acceleration component, $a_x$
-    params_part1_ans6_value: Vertical component of velocity at top of water, $v_{fy}$
-    params_part1_ans7_value: Horizontal component of velocity at top of water, $v_{fx}$
-    params_part1_ans8_value: Vertical component of velocity at bottom of water, $v_{iy}$
-    params_part1_ans9_value: Horizontal component of velocity at bottom of water,
-      $v_{ix}$
-    params_part2_ans1_value: $(1.4\; m/s^2, 11.0 \; m/s^2)$
-    params_part2_ans2_value: $(11.0\; m/s^2, 1.4\; m/s^2)$
-    params_part2_ans3_value: $(0 \; m/s^2, 11.5\; m/s^2)$
-    params_part2_ans4_value: 9.81 $m/s^2$
-    params_part2_ans5_value: $(1.9\; m/s^2, 6.2\; m/s^2)$
-    params_part2_ans6_value: 6.2 $m/s^2$
+    params:
+      vars:
+        title: Salmon Passing a Waterfall
+      d: 4.74
+      vx: 1.62
+      vy: 6.22
+      part1:
+        ans1:
+          value: Time interval for acceleration, $\Delta t$
+        ans2:
+          value: Vertical displacement, $\Delta y$
+        ans3:
+          value: Horizontal displacement, $\Delta x$
+        ans4:
+          value: Vertical acceleration component, $a_y$
+        ans5:
+          value: Horizontal acceleration component, $a_x$
+        ans6:
+          value: Vertical component of velocity at top of water, $v_{fy}$
+        ans7:
+          value: Horizontal component of velocity at top of water, $v_{fx}$
+        ans8:
+          value: Vertical component of velocity at bottom of water, $v_{iy}$
+        ans9:
+          value: Horizontal component of velocity at bottom of water, $v_{ix}$
+      part2:
+        ans1:
+          value: $(1.06\; m/s^2, 4.08 \; m/s^2)$
+        ans2:
+          value: $(4.08\; m/s^2, 1.06\; m/s^2)$
+        ans3:
+          value: $(0 \; m/s^2, 4.58\; m/s^2)$
+        ans4:
+          value: 9.81 $m/s^2$
+        ans5:
+          value: $(1.56\; m/s^2, 2.57\; m/s^2)$
+        ans6:
+          value: 2.57 $m/s^2$
 ---
-# {{ params_vars_title }}
-A salmon accelerates from rest in still water at a depth of {{ params_d }} $m$, to reach a velocity with components $v\_{x} = $ {{ params_vx }} $m/s$ and $v\_{y} = $ {{ params_vy }} $m/s$ when it jumps from the water to pass a waterfall.
+# {{ params.vars.title }}
+A salmon accelerates from rest in still water at a depth of {{ params.d }} $m$, to reach a velocity with components $v\_{x} = $ {{ params.vx }} $m/s$ and $v\_{y} = $ {{ params.vy }} $m/s$ when it jumps from the water to pass a waterfall.
 
 ## Part 1
 
@@ -69,15 +87,15 @@ Select all the choices that apply.
 
 Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params_part1_ans1_value}}
-- {{ params_part1_ans2_value}}
-- {{ params_part1_ans3_value}}
-- {{ params_part1_ans4_value}}
-- {{ params_part1_ans5_value}}
-- {{ params_part1_ans6_value}}
-- {{ params_part1_ans7_value}}
-- {{ params_part1_ans8_value}}
-- {{ params_part1_ans9_value}}
+- {{ params.part1.ans1.value}}
+- {{ params.part1.ans2.value}}
+- {{ params.part1.ans3.value}}
+- {{ params.part1.ans4.value}}
+- {{ params.part1.ans5.value}}
+- {{ params.part1.ans6.value}}
+- {{ params.part1.ans7.value}}
+- {{ params.part1.ans8.value}}
+- {{ params.part1.ans9.value}}
 
 ## Part 2
 
@@ -85,12 +103,12 @@ What is the salmon's average acceleration as it moves through the water?
 
 ### Answer Section
 
-- {{ params_part2_ans1_value}}
-- {{ params_part2_ans2_value}}
-- {{ params_part2_ans3_value}}
-- {{ params_part2_ans4_value}}
-- {{ params_part2_ans5_value}}
-- {{ params_part2_ans6_value}}
+- {{ params.part2.ans1.value}}
+- {{ params.part2.ans2.value}}
+- {{ params.part2.ans3.value}}
+- {{ params.part2.ans4.value}}
+- {{ params.part2.ans5.value}}
+- {{ params.part2.ans6.value}}
 
 ## Attribution
 

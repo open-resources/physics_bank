@@ -70,9 +70,10 @@ part4:
     digits: 2
 myst:
   substitutions:
-    params_m: 6
-    params_k: 153
-    params_x_0: 7
+    params:
+      m: 9
+      k: 249
+      x_0: 8
 ---
 # Spring Oscillator
 A wooden train is attached to two linear springs of spring constant $k$ in a closed box. The train is displaced from the center of the box by $x_0 \ \rm{m}$.
@@ -82,7 +83,7 @@ A wooden train is attached to two linear springs of spring constant $k$ in a clo
 ## Part 1
 
 If the train is released from rest and it moves along the frictionless floor, what is the total force in the x-direction acting on the train at the point of release?<br>
-$m= {{ params_m }} \ \rm{kg}$, $x\_{0}= {{ params.x_0 }} \ \rm{cm}$, $k = {{ params_k }} \ \rm{N/m}$.
+$m= {{ params.m }} \ \rm{kg}$, $x\_{0}= {{ params.x_0 }} \ \rm{cm}$, $k = {{ params.k }} \ \rm{N/m}$.
 
 ### Answer Section
 

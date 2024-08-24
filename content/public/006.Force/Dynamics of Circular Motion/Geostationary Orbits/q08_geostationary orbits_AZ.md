@@ -46,8 +46,9 @@ part2:
     digits: 2
 myst:
   substitutions:
-    params_m: 4771
-    params_v: 1080
+    params:
+      m: 4705
+      v: 1131
 ---
 # Geostationary Orbits
 A communications satellite is orbiting the Earth with constant speed $v\ \rm{km/h}$.
@@ -58,7 +59,7 @@ A communications satellite is orbiting the Earth with constant speed $v\ \rm{km/
 
 If there are no other forces acting on the satellite except for the mutual gravitational force acting between the satellite and the Earth, calculate the effective radius ($R$) of the orbit of the satellite.<br><br> Treat the earth and satellite as particles.
 
-$v = {{ params_v }}\ \rm{km/h}$, $M\_{earth} = 5.976\times 10^{24}\ \rm{kg}$, $M\_{satellite} = {{ params_m }}\ \rm{kg}$
+$v = {{ params.v }}\ \rm{km/h}$, $M\_{earth} = 5.976\times 10^{24}\ \rm{kg}$, $M\_{satellite} = {{ params.m }}\ \rm{kg}$
 
 ### Answer Section
 

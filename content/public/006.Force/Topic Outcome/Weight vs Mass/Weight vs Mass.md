@@ -30,13 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Weight vs Mass
-    params_part1_ans1_value: "$W = \frac{1}{2}m g^2$"
-    params_part1_ans2_value: $W = m/g$
-    params_part1_ans3_value: $W = m$
-    params_part1_ans4_value: $W = mg$
+    params:
+      vars:
+        title: Weight vs Mass
+      part1:
+        ans1:
+          value: "$W = \frac{1}{2}m g^2$"
+        ans2:
+          value: $W = m/g$
+        ans3:
+          value: $W = m$
+        ans4:
+          value: $W = mg$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -44,10 +51,10 @@ The relationship between weight $W$ and mass $m$ is:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

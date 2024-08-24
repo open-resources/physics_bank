@@ -42,33 +42,25 @@ part1:
     suffix: $\rm\ m/s$
 myst:
   substitutions:
-    params_vars_title: Particle between charged plates
-    params_sig: '30'
-    params_d: '4.8'
-    params_particle: An electron
-    params_particle1: electron
-    params_p1: negative
-    params_p2: positive
+    params:
+      vars:
+        title: Particle between charged plates
+      sig: '18'
+      d: '4.3'
+      particle: An electron
+      particle1: electron
+      p1: negative
+      p2: positive
 ---
-# {{ params_vars_title }}
-Two large plates of charge density {{ params_sig }}$\rm\ \mu C/m^2$ face each other at a separation of {{ params_d }}$ \textrm{ mm}$.
-{{ params_particle }} is released from rest at the {{ params_p1 }} plate.
+# {{ params.vars.title }}
+Two large plates of charge density {{ params.sig }}$\rm\ \mu C/m^2$ face each other at a separation of {{ params.d }}$ \textrm{ mm}$.
+{{ params.particle }} is released from rest at the {{ params.p1 }} plate.
 
 ## Question Text
 
-With what speed does the {{ params_particle1 }} strike the {{ params_p2 }} plate?
+With what speed does the {{ params.particle1 }} strike the {{ params.p2 }} plate?
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$v=$ {{ correct_answers.part1_ans_str }} $\rm m/s$
 
 ## Attribution
 

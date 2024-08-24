@@ -30,16 +30,22 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: What is a rigid body?
-    params_part1_ans1_value: For which the dimensions are irrelevant to the description
-      of its motion or the action of forces upon it.
-    params_part1_ans2_value: Whose dimensions are negligible.
-    params_part1_ans3_value: Whose changes in shape are negligible compared with the
-      overall dimensions of the body or with the changes in position of the body as
-      a whole.
-    params_part1_ans4_value: That is always at rest.
+    params:
+      vars:
+        title: What is a rigid body?
+      part1:
+        ans1:
+          value: For which the dimensions are irrelevant to the description of its
+            motion or the action of forces upon it.
+        ans2:
+          value: Whose dimensions are negligible.
+        ans3:
+          value: Whose changes in shape are negligible compared with the overall dimensions
+            of the body or with the changes in position of the body as a whole.
+        ans4:
+          value: That is always at rest.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -47,10 +53,10 @@ A rigid body is an object:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

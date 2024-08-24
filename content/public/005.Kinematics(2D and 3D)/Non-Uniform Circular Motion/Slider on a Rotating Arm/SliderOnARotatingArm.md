@@ -45,21 +45,23 @@ part2:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_title: Slider on a Rotating Arm
-    params_n1: 0.19
-    params_n2: 1.34
-    params_n3: 0.4
-    params_theta: 44
+    params:
+      vars:
+        title: Slider on a Rotating Arm
+      n1: 0.1
+      n2: 0.92
+      n3: 0.32
+      theta: 54
 ---
-# {{ params_vars_title }}
-The rotation of the arm $OA$ rotates about $O$ such that $\theta={{params_n1}}t^2$, where $\theta$ is in radians and $t$ in seconds.
-Collar $B$ slides along the arm such that its distance to $O$ is $r={{params_n2}} - {{params_n3}}t^2$, where $r$ is in meters, and $t$ in seconds.
+# {{ params.vars.title }}
+The rotation of the arm $OA$ rotates about $O$ such that $\theta={{params.n1}}t^2$, where $\theta$ is in radians and $t$ in seconds.
+Collar $B$ slides along the arm such that its distance to $O$ is $r={{params.n2}} - {{params.n3}}t^2$, where $r$ is in meters, and $t$ in seconds.
 
 <img src="SliderOnARotatingArm.png" width=600 alt="An arm OA rotates about point O, and a collar slides along the arm. Its distance to O is r." >
 
 ## Part 1
 
-After the arm $OA$ has rotated through ${{params_theta}}^\circ$, what is the magnitude of the relative acceleration of the collar $B$ with respect to the arm?
+After the arm $OA$ has rotated through ${{params.theta}}^\circ$, what is the magnitude of the relative acceleration of the collar $B$ with respect to the arm?
 
 ### Answer Section
 

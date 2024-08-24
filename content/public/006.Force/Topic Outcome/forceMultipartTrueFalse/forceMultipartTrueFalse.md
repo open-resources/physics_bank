@@ -38,21 +38,32 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Force Multipart True False Question
-    params_part1_ans1_value: 'True'
-    params_part1_ans1_feedback: Great! You got it.
-    params_part1_ans2_value: 'False'
-    params_part1_ans2_feedback: 'Hint: ''Uniform'' implies constant speed.'
-    params_part2_ans1_value: 'True'
-    params_part2_ans1_feedback: 'Hint: Newton''s Third Law.'
-    params_part2_ans2_value: 'False'
-    params_part2_ans2_feedback: Great! You got it.
-    params_part3_ans1_value: 'True'
-    params_part3_ans1_feedback: 'Hint: Newton''s First Law.'
-    params_part3_ans2_value: 'False'
-    params_part3_ans2_feedback: Great! You got it.
+    params:
+      vars:
+        title: Force Multipart True False Question
+      part1:
+        ans1:
+          value: 'True'
+          feedback: Great! You got it.
+        ans2:
+          value: 'False'
+          feedback: 'Hint: ''Uniform'' implies constant speed.'
+      part2:
+        ans1:
+          value: 'True'
+          feedback: 'Hint: Newton''s Third Law.'
+        ans2:
+          value: 'False'
+          feedback: Great! You got it.
+      part3:
+        ans1:
+          value: 'True'
+          feedback: 'Hint: Newton''s First Law.'
+        ans2:
+          value: 'False'
+          feedback: Great! You got it.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Determine whether the following statements are true or false.
 
 ## Part 1
@@ -61,8 +72,8 @@ An object undergoing uniform circular motion has a constant angular velocity.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Part 2
 
@@ -70,8 +81,8 @@ When a small object (object A) pushes on a large object (object B) to accelerate
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
 
 ## Part 3
 
@@ -79,8 +90,8 @@ In the absence of any forces acting on it, an object will eventually come to a r
 
 ### Answer Section
 
-- {{ params_part3_ans1_value }}
-- {{ params_part3_ans2_value }}
+- {{ params.part3.ans1.value }}
+- {{ params.part3.ans2.value }}
 
 ## Attribution
 

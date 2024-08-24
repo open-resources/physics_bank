@@ -41,64 +41,72 @@ part3:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Charge on Conducting balls
-    params_part1_ans1_value: negative
-    params_part1_ans1_feedback: You got it!
-    params_part1_ans2_value: positive
-    params_part1_ans2_feedback: Not quite!
-    params_part1_ans3_value: Zero
-    params_part1_ans3_feedback: Not quite!
-    params_ball: '1'
-    params_balls: '3'
-    params_part2_ans1_value: Negative
-    params_part2_ans1_feedback: Not quite
-    params_part2_ans2_value: Positive
-    params_part2_ans2_feedback: You got it!
-    params_part2_ans3_value: Zero
-    params_part2_ans3_feedback: Not quite!
-    params_part3_ans1_value: Ball 2 only
-    params_part3_ans1_feedback: Not quite
-    params_part3_ans2_value: Ball 5 only
-    params_part3_ans2_feedback: Not quite!
-    params_part3_ans3_value: None of the balls
-    params_part3_ans3_feedback: Consider the signs of the induced charges
-    params_part3_ans4_value: All of the other balls (2, 3, 4 and 5)
-    params_part3_ans4_feedback: Great! You Got it
-    params_part3_ans5_value: Balls 2, 3 and 4 only
-    params_part3_ans5_feedback: Not quite
+    params:
+      vars:
+        title: Charge on Conducting balls
+      part1:
+        ans1:
+          value: negative
+          feedback: Not quite
+        ans2:
+          value: positive
+          feedback: You got it!
+        ans3:
+          value: Zero
+          feedback: Not quite!
+      ball: '2'
+      balls: '3'
+      part2:
+        ans1:
+          value: Negative
+          feedback: Not quite
+        ans2:
+          value: Positive
+          feedback: You got it!
+        ans3:
+          value: Zero
+          feedback: Not quite!
+      part3:
+        ans1:
+          value: Ball 2 only
+          feedback: Not quite
+        ans2:
+          value: Ball 5 only
+          feedback: Not quite!
+        ans3:
+          value: None of the balls
+          feedback: Consider the signs of the induced charges
+        ans4:
+          value: All of the other balls (2, 3, 4 and 5)
+          feedback: Great! You Got it
+        ans5:
+          value: Balls 2, 3 and 4 only
+          feedback: Not quite
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="balls.png" width="400">
 
 Five identical neutral conducting balls hanging from strings are numbered 1 to 5.  As shown in the Figure above. Balls 1 and 2 touch as they are brought near a highly charged metal sphere and then are separated, with ball 1 closer to the sphere. Ball 3 contacts both the metal sphere and ball 4.  Ball 4 is pulled away from ball 3, and then ball 3 is pulled away from the metal sphere.
 
 ## Part 1
 
-Following these charging steps, what is the sign of the charge on ball {{ params_ball}}?
+Following these charging steps, what is the sign of the charge on ball {{ params.ball}}?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params.vars.units}}
-- {{ params_part1_ans2_value }} {{ params.vars.units}}
-- {{ params_part1_ans3_value }} {{ params.vars.units}}
-
-### pl-submission-panel
-
-### pl-answer-panel
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
 
 ## Part 2
 
-Following these charging steps, what is the sign of the charge on ball {{ params_balls }}?
+Following these charging steps, what is the sign of the charge on ball {{ params.balls }}?
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }} {{ params.vars.units}}
-- {{ params_part2_ans2_value }} {{ params.vars.units}}
-- {{ params_part2_ans3_value }} {{ params.vars.units}}
-
-### pl-submission-panel
-
-### pl-answer-panel
+- {{ params.part2.ans1.value }} {{ params.vars.units}}
+- {{ params.part2.ans2.value }} {{ params.vars.units}}
+- {{ params.part2.ans3.value }} {{ params.vars.units}}
 
 ## Part 3
 
@@ -106,15 +114,11 @@ Following these charging steps, ball 1 is attracted to (choose the best answer):
 
 ### Answer Section
 
-- {{ params_part3_ans1_value }} {{ params.vars.units}}
-- {{ params_part3_ans2_value }} {{ params.vars.units}}
-- {{ params_part3_ans3_value }} {{ params.vars.units}}
-- {{ params_part3_ans4_value }} {{ params.vars.units}}
-- {{ params_part3_ans5_value }} {{ params.vars.units}}
-
-### pl-submission-panel
-
-### pl-answer-panel
+- {{ params.part3.ans1.value }} {{ params.vars.units}}
+- {{ params.part3.ans2.value }} {{ params.vars.units}}
+- {{ params.part3.ans3.value }} {{ params.vars.units}}
+- {{ params.part3.ans4.value }} {{ params.vars.units}}
+- {{ params.part3.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

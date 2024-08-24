@@ -52,14 +52,16 @@ part3:
     suffix: $m/s^2$
 myst:
   substitutions:
-    params_vars_title: Position, Velocity and Acceleration of a Particle
-    params_s0: 50
-    params_t: 20
+    params:
+      vars:
+        title: Position, Velocity and Acceleration of a Particle
+      s0: 38
+      t: 5
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The velocity of a particle which moves along the X axis is given by $v = 4 - 8t + 10t^2$, where $t$ is in seconds
 and $v$ is in $m/s$.
-Find the following parameters when $t$={{params_t}} if the particle is at {{params_s0}}$m$ when $t$=0.
+Find the following parameters when $t$={{params.t}} if the particle is at {{params.s0}}$m$ when $t$=0.
 
 ## Part 1
 

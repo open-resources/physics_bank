@@ -36,19 +36,33 @@ part2:
     fixed-order: true
 myst:
   substitutions:
-    params_vars_title: Apples on a Truck
-    params_part1_ans1_value: Choice A
-    params_part1_ans2_value: Choice B
-    params_part1_ans3_value: Choice C
-    params_part1_ans4_value: Choice D
-    params_part1_ans5_value: Choice E
-    params_part2_ans1_value: Choice A
-    params_part2_ans2_value: Choice B
-    params_part2_ans3_value: Choice C
-    params_part2_ans4_value: Choice D
-    params_part2_ans5_value: Choice E
+    params:
+      vars:
+        title: Apples on a Truck
+      part1:
+        ans1:
+          value: Choice A
+        ans2:
+          value: Choice B
+        ans3:
+          value: Choice C
+        ans4:
+          value: Choice D
+        ans5:
+          value: Choice E
+      part2:
+        ans1:
+          value: Choice A
+        ans2:
+          value: Choice B
+        ans3:
+          value: Choice C
+        ans4:
+          value: Choice D
+        ans5:
+          value: Choice E
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 An apple tree is transported by a truck moving to the right with constant velocity.
 One of the apples shakes loose and falls towards the bed of the truck.
 
@@ -60,11 +74,11 @@ Of the curves shown above, which best describes the path followed by the apple a
 
 ### Answer Section
 
-- {{params_part1_ans1_value}}
-- {{params_part1_ans2_value}}
-- {{params_part1_ans3_value}}
-- {{params_part1_ans4_value}}
-- {{params_part1_ans5_value}}
+- {{params.part1.ans1.value}}
+- {{params.part1.ans2.value}}
+- {{params.part1.ans3.value}}
+- {{params.part1.ans4.value}}
+- {{params.part1.ans5.value}}
 
 ## Part 2
 
@@ -72,11 +86,11 @@ Of the curves shown above, which best describes the path followed by the apple a
 
 ### Answer Section
 
-- {{params_part2_ans1_value}}
-- {{params_part2_ans2_value}}
-- {{params_part2_ans3_value}}
-- {{params_part2_ans4_value}}
-- {{params_part2_ans5_value}}
+- {{params.part2.ans1.value}}
+- {{params.part2.ans2.value}}
+- {{params.part2.ans3.value}}
+- {{params.part2.ans4.value}}
+- {{params.part2.ans5.value}}
 
 ## Attribution
 

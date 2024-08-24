@@ -33,11 +33,13 @@ part1:
     digits: 2
 myst:
   substitutions:
-    params_vars_title: Artificial Gravity Simulator
-    params_m: 127
-    params_r: 253
+    params:
+      vars:
+        title: Artificial Gravity Simulator
+      m: 94
+      r: 458
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 To simulate the effects of "weight" in deep space, the spacecraft is made to rotate with the astronaut "standing" on the inner hull of a circular chamber. The artificial gravity experienced by the astronaut is the inertial reaction to the normal force pulling them to the center of rotation.
 
 <img src="spacecraft.png" width=600>
@@ -45,7 +47,7 @@ To simulate the effects of "weight" in deep space, the spacecraft is made to rot
 ## Question Text
 
 What is the rotational speed $v$ with which the rocket has to rotate to mimic earth's gravity $g$. <br>
-$m = {{ params_m }}\ \rm{kg}$, $R = {{ params_r }}\ \rm{m}$
+$m = {{ params.m }}\ \rm{kg}$, $R = {{ params.r }}\ \rm{m}$
 
 ### Answer Section
 

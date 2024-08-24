@@ -48,16 +48,21 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Charged particle near the Earth
-    params_charge: electron
-    params_part2_ans1_value: Away from the surface of the Earth.
-    params_part2_ans2_value: Towards the surface of the Earth.
+    params:
+      vars:
+        title: Charged particle near the Earth
+      charge: electron
+      part2:
+        ans1:
+          value: Away from the surface of the Earth.
+        ans2:
+          value: Towards the surface of the Earth.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
-What is the magnitude of the electric field that supports the weight of a free {{ params_charge }} near the surface of the Earth?
+What is the magnitude of the electric field that supports the weight of a free {{ params.charge }} near the surface of the Earth?
 
 ### Answer Section
 
@@ -69,12 +74,8 @@ What is the direction of the electric field?
 
 ### Answer Section
 
-- {{ params_part2_ans1_value }}
-- {{ params_part2_ans2_value }}
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}
+- {{ params.part2.ans1.value }}
+- {{ params.part2.ans2.value }}
 
 ## Attribution
 

@@ -35,16 +35,18 @@ part1:
     suffix: $^{\circ}$
 myst:
   substitutions:
-    params_vars_title: Minimum Angle to Clear Wall
-    params_vars_units: $^{\circ}$
-    params_v: 21.35
-    params_d: 6.18
-    params_h: 2.11
+    params:
+      vars:
+        title: Minimum Angle to Clear Wall
+        units: $^{\circ}$
+      v: 22.94
+      d: 8.9
+      h: 4.34
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src = "Minimum_Angle_To_Clear_Wall_Correct.jpg"  width=700>
 
-We launch a projectile from rest at $v_0=  {{ params_v }}\ \rm{m/s}$, there is a wall ${{ params_d }}\ \rm{m}$ away. The wall is ${{ params_h }}\ \rm{m}$ tall.
+We launch a projectile from rest at $v_0=  {{ params.v }}\ \rm{m/s}$, there is a wall ${{ params.d }}\ \rm{m}$ away. The wall is ${{ params.h }}\ \rm{m}$ tall.
 
 ## Part 1
 
@@ -52,7 +54,7 @@ Find the smallest angle $\theta$ in degrees possible to clear the wall.
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

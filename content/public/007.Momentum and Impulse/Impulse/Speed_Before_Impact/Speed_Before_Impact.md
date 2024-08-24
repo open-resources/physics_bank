@@ -31,33 +31,41 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Speed Before Impact
-    params_vars_vehicle: truck
-    params_vars_units: $m/s$
-    params_m: 522
-    params_part1_ans1_value: 103.0
-    params_part1_ans2_value: 52.0
-    params_part1_ans3_value: 26.0
-    params_part1_ans4_value: 13.0
-    params_part1_ans5_value: 0
+    params:
+      vars:
+        title: Speed Before Impact
+        vehicle: sedan
+        units: $m/s$
+      m: 580
+      part1:
+        ans1:
+          value: 93.0
+        ans2:
+          value: 47.0
+        ans3:
+          value: 23.0
+        ans4:
+          value: 12.0
+        ans5:
+          value: 0
 ---
-# {{ params_vars_title }}
-The figure below shows the force on a {{ params_vars_vehicle }} during a typical collision used during safety tests.
-The mass of the {{ params_vars_vehicle }} is {{ params_m }} $kg$ and it comes to rest at the end of the collision.
+# {{ params.vars.title }}
+The figure below shows the force on a {{ params.vars.vehicle }} during a typical collision used during safety tests.
+The mass of the {{ params.vars.vehicle }} is {{ params.m }} $kg$ and it comes to rest at the end of the collision.
 
 <img src="Q4.png" alt= " A graph of force in the unit of 10 sub 5 newtons, and time in ms. The graph shows a grid of boxes covering the graph and a curve. There are approximately 27 boxes under the curve." width= 400>
 
 ## Part 1
 
-What was the *approximate* speed of the {{ params_vars_vehicle }} just before the impact? Choose the best answer.
+What was the *approximate* speed of the {{ params.vars.vehicle }} just before the impact? Choose the best answer.
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params_vars_units}}
-- {{ params_part1_ans2_value }} {{ params_vars_units}}
-- {{ params_part1_ans3_value }} {{ params_vars_units}}
-- {{ params_part1_ans4_value }} {{ params_vars_units}}
-- {{ params_part1_ans5_value }} {{ params_vars_units}}
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
 
 ## Attribution
 

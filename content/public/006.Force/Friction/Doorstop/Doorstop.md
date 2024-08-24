@@ -31,15 +31,22 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Doorstop
-    params_part1_ans1_value: Doing so increases the coefficient of friction.
-    params_part1_ans3_value: Doing so increases the force of static friction between
-      the wedge and the floor
-    params_part1_ans4_value: Doing so causes the friction to become kinetic friction
-      instead of static friction.
-    params_part1_ans5_value: Ghosts. It keeps ghosts from pushing the door shut.
+    params:
+      vars:
+        title: Doorstop
+      part1:
+        ans1:
+          value: Doing so increases the coefficient of friction.
+        ans3:
+          value: Doing so increases the force of static friction between the wedge
+            and the floor
+        ans4:
+          value: Doing so causes the friction to become kinetic friction instead of
+            static friction.
+        ans5:
+          value: Ghosts. It keeps ghosts from pushing the door shut.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A wedge-shaped doorstop is most effective when it sits tightly under the door.
 
 ## Question Text
@@ -48,11 +55,11 @@ What does forcing the wedge into a tight fit accomplish?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value}}
+- {{ params.part1.ans1.value}}
 - {{ params.part1.ans2.value}}
-- {{ params_part1_ans3_value}}
-- {{ params_part1_ans4_value}}
-- {{ params_part1_ans5_value}}
+- {{ params.part1.ans3.value}}
+- {{ params.part1.ans4.value}}
+- {{ params.part1.ans5.value}}
 
 ## Attribution
 

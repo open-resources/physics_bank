@@ -29,26 +29,33 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Math Diagnostic22
-    params_denom: 10
-    params_formula: $\cos{\left(\frac{x}{10} \right)}$
-    params_part1_ans1_value: ${10 \sin{\left(\frac{x}{10} \right)}}$
-    params_part1_ans2_value: ${- 10 \sin{\left(\frac{x}{10} \right)}}$
-    params_part1_ans3_value: ${20 \sin{\left(\frac{x}{10} \right)}}$
-    params_part1_ans4_value: ${5 \sin{\left(\frac{x}{10} \right)}}$
+    params:
+      vars:
+        title: Math Diagnostic22
+      denom: 2
+      formula: $\sin{\left(\frac{x}{2} \right)}$
+      part1:
+        ans1:
+          value: ${- 2 \cos{\left(\frac{x}{2} \right)}}$
+        ans2:
+          value: ${2 \cos{\left(\frac{x}{2} \right)}}$
+        ans3:
+          value: ${- 4 \cos{\left(\frac{x}{2} \right)}}$
+        ans4:
+          value: ${- \cos{\left(\frac{x}{2} \right)}}$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
-$\int$ {{params_formula}} $dx$ is equal to a constant plus:
+$\int$ {{params.formula}} $dx$ is equal to a constant plus:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

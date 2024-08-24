@@ -34,33 +34,42 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Force and Momentum
-    params_vars_units: N
-    params_p_i: -t^2 - 3t
-    params_p_j: -5t^2
-    params_time: 19.5
-    params_part1_ans1_value: 0
-    params_part1_ans2_value: (-42.0$\hat\imath$ - 195.0$\hat\jmath$)
-    params_part1_ans3_value: (42.0$\hat\imath$ + 195.0$\hat\jmath$)
-    params_part1_ans4_value: (-42.0$\hat\imath$ + 195.0$\hat\jmath$)
-    params_part1_ans5_value: (42.0$\hat\imath$ - 195.0$\hat\jmath$)
-    params_part1_ans6_value: (84.0$\hat\imath$ - 195.0$\hat\jmath$)
+    params:
+      vars:
+        title: Force and Momentum
+        units: N
+      p_i: t^3 + 5t^2 - 6t
+      p_j: 2t^2 - 5t
+      time: 9.18
+      part1:
+        ans1:
+          value: 0
+        ans2:
+          value: (339.0$\hat\imath$ + 31.7$\hat\jmath$)
+        ans3:
+          value: (-339.0$\hat\imath$ - 31.7$\hat\jmath$)
+        ans4:
+          value: (339.0$\hat\imath$ - 31.7$\hat\jmath$)
+        ans5:
+          value: (-339.0$\hat\imath$ + 31.7$\hat\jmath$)
+        ans6:
+          value: (-678.0$\hat\imath$ + 31.7$\hat\jmath$)
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The momentum of an object as a function of time is given by $\vec{p} = (${{ params.p_i }}$)\hat{\imath} + (${{ params.p_j }}$)\hat{\jmath}$ where $p$ is in $kg\cdot m/s$ and $t$ is in seconds.
 
 ## Part 1
 
-What is the net force on the object at $t=$ {{ params_time }} $s$?
+What is the net force on the object at $t=$ {{ params.time }} $s$?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params_vars_units}}
-- {{ params_part1_ans2_value }} {{ params_vars_units}}
-- {{ params_part1_ans3_value }} {{ params_vars_units}}
-- {{ params_part1_ans4_value }} {{ params_vars_units}}
-- {{ params_part1_ans5_value }} {{ params_vars_units}}
-- {{ params_part1_ans6_value }} {{ params_vars_units}}
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params.part1.ans6.value }} {{ params.vars.units}}
 
 ## Attribution
 

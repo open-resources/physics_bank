@@ -30,25 +30,32 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Hit Baseball
-    params_vars_units: $m/s$
-    params_v: 23.5
-    params_d: 16.7
-    params_part1_ans1_value: $22.5 \, \rm{m/s} \; \hat{x}$
-    params_part1_ans2_value: $6.75 \, \rm{m/s} \; \hat{y}$
-    params_part1_ans3_value: $-6.75 \, \rm{m/s} \; \hat{y}$
-    params_part1_ans4_value: $22.5 \, \rm{m/s} \; \hat{x} \; - \; 6.75 \, \rm{m/s}
-      \; \hat{y}$
-    params_part1_ans5_value: $22.5 \, \rm{m/s} \; \hat{x} \; + \; 6.75 \, \rm{m/s}
-      \; \hat{y}$
-    params_part1_ans6_value: $6.75 \, \rm{m/s} \; \hat{x} \; + \; 22.5 \, \rm{m/s}
-      \; \hat{y}$
-    params_part1_ans7_value: $6.75 \, \rm{m/s} \; \hat{x} \; - \; 22.5 \, \rm{m/s}
-      \; \hat{y}$
-    params_part1_ans8_value: $0 \rm{m/s}$
+    params:
+      vars:
+        title: Hit Baseball
+        units: $m/s$
+      v: 28.4
+      d: 18.3
+      part1:
+        ans1:
+          value: $27.0 \, \rm{m/s} \; \hat{x}$
+        ans2:
+          value: $8.92 \, \rm{m/s} \; \hat{y}$
+        ans3:
+          value: $-8.92 \, \rm{m/s} \; \hat{y}$
+        ans4:
+          value: $27.0 \, \rm{m/s} \; \hat{x} \; - \; 8.92 \, \rm{m/s} \; \hat{y}$
+        ans5:
+          value: $27.0 \, \rm{m/s} \; \hat{x} \; + \; 8.92 \, \rm{m/s} \; \hat{y}$
+        ans6:
+          value: $8.92 \, \rm{m/s} \; \hat{x} \; + \; 27.0 \, \rm{m/s} \; \hat{y}$
+        ans7:
+          value: $8.92 \, \rm{m/s} \; \hat{x} \; - \; 27.0 \, \rm{m/s} \; \hat{y}$
+        ans8:
+          value: $0 \rm{m/s}$
 ---
-# {{ params_vars_title }}
-A baseball is hit at {{ params_d }}$^\circ$ above the horizontal with a speed of {{ params_v }} $\rm{m/s}$.
+# {{ params.vars.title }}
+A baseball is hit at {{ params.d }}$^\circ$ above the horizontal with a speed of {{ params.v }} $\rm{m/s}$.
 
 ## Part 1
 
@@ -56,14 +63,14 @@ Neglecting air resistance, what is the **velocity** of the ball the instant befo
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
-- {{ params_part1_ans6_value }}
-- {{ params_part1_ans7_value }}
-- {{ params_part1_ans8_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
+- {{ params.part1.ans6.value }}
+- {{ params.part1.ans7.value }}
+- {{ params.part1.ans8.value }}
 
 ## Attribution
 

@@ -114,18 +114,20 @@ part6:
     custom-format: .3g
 myst:
   substitutions:
-    params_vars_title: Switched RL Series Circuit
-    params_num: '2'
-    params_emf: '15.0'
-    params_L: '19.0'
-    params_R: '9.00'
+    params:
+      vars:
+        title: Switched RL Series Circuit
+      num: '2'
+      emf: '13.0'
+      L: '19.0'
+      R: '4.00'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Consider the $RL$ circuit shown below.
 
 <img src="fig_OSUPv2p14_52.png" width=250>
 
-Here, ${\boldsymbol \varepsilon} = {{ params_emf }}\rm\ V$, $L = {{ params_L }}\rm\ mH$, and $R = {{ params_R }}\rm\ \Omega$.
+Here, ${\boldsymbol \varepsilon} = {{ params.emf }}\rm\ V$, $L = {{ params.L }}\rm\ mH$, and $R = {{ params.R }}\rm\ \Omega$.
 
 ## Part 1
 
@@ -153,7 +155,7 @@ Please enter in a numeric value in $\rm\ A$.
 
 ## Part 4
 
-What is the current through the resistor when $t = t^{\star} = {{ params_num }} \tau_L$?
+What is the current through the resistor when $t = t^{\star} = {{ params.num }} \tau_L$?
 
 ### Answer Section
 
@@ -161,7 +163,7 @@ Please enter in a numeric value in $\rm\ A$.
 
 ## Part 5
 
-What is the voltage across the inductor when $t = t^{\star} = {{ params_num }} \tau_L$?
+What is the voltage across the inductor when $t = t^{\star} = {{ params.num }} \tau_L$?
 
 ### Answer Section
 
@@ -169,28 +171,11 @@ Please enter in a numeric value in $\rm\ V$.
 
 ## Part 6
 
-What is the voltage across the resistor when $t = t^{\star} = {{ params_num }} \tau_L$?
+What is the voltage across the resistor when $t = t^{\star} = {{ params.num }} \tau_L$?
 
 ### Answer Section
 
 Please enter in a numeric value in $\rm\ V$.
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}<br>
-{{ feedback.part3_ans }}<br>
-{{ feedback.part4_ans }}<br>
-{{ feedback.part5_ans }}<br>
-{{ feedback.part6_ans }}
-
-### pl-answer-panel
-
-$\tau_L =$ {{ correct_answers.part1_ans_str }} $\rm\ s$<br>
-$I\_{R,\rm\ i} =$ {{ correct_answers.part2_ans_str }} $\rm\ A$<br>
-$I\_{R,\rm\ f} =$ {{ correct_answers.part3_ans_str }} $\rm\ A$<br>
-$I_R(t^{\star}) =$ {{ correct_answers.part4_ans_str }} $\rm\ A$<br>
-$V_L(t^{\star}) =$ {{ correct_answers.part5_ans_str }} $\rm\ V$<br>
-$V_R(t^{\star}) =$ {{ correct_answers.part6_ans_str }} $\rm\ V$<br>
 
 ## Attribution
 

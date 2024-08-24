@@ -31,11 +31,16 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Magnitude And Components
-    params_part1_ans1_value: 'Yes'
-    params_part1_ans2_value: 'No'
+    params:
+      vars:
+        title: Magnitude And Components
+      part1:
+        ans1:
+          value: 'Yes'
+        ans2:
+          value: 'No'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -43,8 +48,8 @@ If two vectors have the same magnitude, do their components have to be the same?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Attribution
 

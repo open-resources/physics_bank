@@ -30,13 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Position in Cartesian Coordinates
-    params_part1_ans1_value: ${\bf{R}} = x{\bf{i}} + y{\bf{j}} + z{\bf{k}}$
-    params_part1_ans2_value: ${\bf{R}} = x{\bf{i}}$
-    params_part1_ans3_value: ${\bf{R}} = y{\bf{j}}$
-    params_part1_ans4_value: ${\bf{R}} = z{\bf{k}}$
+    params:
+      vars:
+        title: Position in Cartesian Coordinates
+      part1:
+        ans1:
+          value: ${\bf{R}} = x{\bf{i}} + y{\bf{j}} + z{\bf{k}}$
+        ans2:
+          value: ${\bf{R}} = x{\bf{i}}$
+        ans3:
+          value: ${\bf{R}} = y{\bf{j}}$
+        ans4:
+          value: ${\bf{R}} = z{\bf{k}}$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -44,10 +51,10 @@ When using Cartesian coordinates for space curvilinear motion the expression for
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

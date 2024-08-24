@@ -42,9 +42,11 @@ part3:
     file-names: file3.pdf, file3.jpg, file3.png
 myst:
   substitutions:
-    params_vars_title: Two Pieces of Scotch Tape
+    params:
+      vars:
+        title: Two Pieces of Scotch Tape
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Two neutral pieces of scotch tape are stuck together and quickly ripped apart, resulting in each becoming charged. They are then suspended from lab stands as shown below. The lab stands are a long way from one another.
 
 <img src="Tape1.png" width = 500>

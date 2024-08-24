@@ -72,19 +72,21 @@ part3:
     custom-format: .2g
 myst:
   substitutions:
-    params_vars_title: Circuit with Multiple Loops
-    params_R1: '12.0'
-    params_R2: '5.0'
-    params_R3: '8.0'
-    params_I1: '3.0'
-    params_V2: '21.0'
+    params:
+      vars:
+        title: Circuit with Multiple Loops
+      R1: '13.0'
+      R2: '8.0'
+      R3: '6.0'
+      I1: '1.0'
+      V2: '21.0'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Consider the circuit shown below.
 
 <img src="fig_OSUPv2p10_38.png" width=350>
 
-It is known that $R_1 = {{ params_R1 }}\rm\ \Omega$, $R_2 = {{ params_R2 }}\rm\ \Omega$, $R_3 = {{ params_R3 }}\rm\ \Omega$, $I_1 = {{ params_I1 }}\rm\ A$, and $V_2 = {{ params_V2 }}\rm\ V$.
+It is known that $R_1 = {{ params.R1 }}\rm\ \Omega$, $R_2 = {{ params.R2 }}\rm\ \Omega$, $R_3 = {{ params.R3 }}\rm\ \Omega$, $I_1 = {{ params.I1 }}\rm\ A$, and $V_2 = {{ params.V2 }}\rm\ V$.
 
 ## Part 1
 
@@ -109,18 +111,6 @@ Find $I_3$.
 ### Answer Section
 
 Please enter in a numeric value in $\rm\ A$.
-
-### pl-submission-panel
-
-{{ feedback.part1_ans }}<br>
-{{ feedback.part2_ans }}<br>
-{{ feedback.part3_ans }}
-
-### pl-answer-panel
-
-$V_1 =$ {{ correct_answers.part1_ans_str }} $\rm\ V$<br>
-$I_2 =$ {{ correct_answers.part2_ans_str }} $\rm\ A$<br>
-$I_3 =$ {{ correct_answers.part3_ans_str }} $\rm\ A$
 
 ## Attribution
 

@@ -30,23 +30,29 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Even Elevation Launch
-    params_v: 17
-    params_part1_ans1_value: Less than $45^{\circ}$
-    params_part1_ans2_value: Exactly $45^{\circ}$
-    params_part1_ans3_value: More than $45^{\circ}$
+    params:
+      vars:
+        title: Even Elevation Launch
+      v: 16
+      part1:
+        ans1:
+          value: Less than $45^{\circ}$
+        ans2:
+          value: Exactly $45^{\circ}$
+        ans3:
+          value: More than $45^{\circ}$
 ---
-# {{ params_vars_title }}
-A rugby player has a set throw speed of {{ params_v }} $\rm{m/s}$.
+# {{ params.vars.title }}
+A rugby player has a set throw speed of {{ params.v }} $\rm{m/s}$.
 On the flat playing field, what angle will allow them to throw the furthest?
 
 ## Part 1
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

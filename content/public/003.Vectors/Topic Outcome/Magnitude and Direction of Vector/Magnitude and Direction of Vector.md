@@ -35,26 +35,35 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Magnitude and Direction of a Vector
-    params_A_i: 10
-    params_A_j_abs: 2
-    params_A_j_sign: ' - '
-    params_B_i: -6
-    params_B_j_abs: 2
-    params_B_j_sign: ' - '
-    params_C_i: 7
-    params_C_j_abs: 10
-    params_C_j_sign: ' + '
-    params_d: -4
-    params_part1_ans1_value: ($\sqrt{1700}$, $\theta = $253.0$^\circ$)
-    params_part1_ans2_value: ($\sqrt{1700}$, $\theta = $126.5$^\circ$)
-    params_part1_ans3_value: ($\sqrt{850.0}$, $\theta = $126.5$^\circ$)
-    params_part1_ans4_value: ($\sqrt{41.0}$, $\theta = $253.0$^\circ$)
-    params_part1_ans5_value: ($\sqrt{2550.0}$, $\theta = $126.5$^\circ$)
-    params_part1_ans6_value: ($\sqrt{52}$, $\theta = $253.0$^\circ$)
+    params:
+      vars:
+        title: Magnitude and Direction of a Vector
+      A_i: -4
+      A_j_abs: 1
+      A_j_sign: ' - '
+      B_i: 10
+      B_j_abs: 3
+      B_j_sign: ' - '
+      C_i: 9
+      C_j_abs: 1
+      C_j_sign: ' - '
+      d: 10
+      part1:
+        ans1:
+          value: ($\sqrt{5800}$, $\theta = $354.0$^\circ$)
+        ans2:
+          value: ($\sqrt{5800}$, $\theta = $177.0$^\circ$)
+        ans3:
+          value: ($\sqrt{2900.0}$, $\theta = $177.0$^\circ$)
+        ans4:
+          value: ($\sqrt{76.0}$, $\theta = $354.0$^\circ$)
+        ans5:
+          value: ($\sqrt{8700.0}$, $\theta = $177.0$^\circ$)
+        ans6:
+          value: ($\sqrt{68}$, $\theta = $354.0$^\circ$)
 ---
-# {{ params_vars_title }}
-Given $\vec{A} =$ {{ params.A_i }}$\hat{\imath}$ {{params.A_j_sign}} {{ params.A_j_abs}}$\hat{\jmath}$, $\vec{B} =$ {{ params.B_i }}$\hat{\imath}$ {{params.B_j_sign}} {{ params.B_j_abs}}$\hat{\jmath}$, $\vec{C} =$ {{ params.C_i }}$\hat{\imath}$ {{params.C_j_sign}} {{ params.C_j_abs}}$\hat{\jmath}$ and $d=$ {{ params_d }}, find the magnitude and direction of $\vec{A}-\vec{B}+d\vec{C}$.
+# {{ params.vars.title }}
+Given $\vec{A} =$ {{ params.A_i }}$\hat{\imath}$ {{params.A_j_sign}} {{ params.A_j_abs}}$\hat{\jmath}$, $\vec{B} =$ {{ params.B_i }}$\hat{\imath}$ {{params.B_j_sign}} {{ params.B_j_abs}}$\hat{\jmath}$, $\vec{C} =$ {{ params.C_i }}$\hat{\imath}$ {{params.C_j_sign}} {{ params.C_j_abs}}$\hat{\jmath}$ and $d=$ {{ params.d }}, find the magnitude and direction of $\vec{A}-\vec{B}+d\vec{C}$.
 
 ## Part 1
 
@@ -62,12 +71,12 @@ Expressing this vector in the form $(r,\theta)$ where $\theta$ is measured relat
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
-- {{ params_part1_ans6_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
+- {{ params.part1.ans6.value }}
 
 ## Attribution
 

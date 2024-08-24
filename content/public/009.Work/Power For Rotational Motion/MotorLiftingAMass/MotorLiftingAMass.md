@@ -43,15 +43,17 @@ part2:
     suffix: $\rm{RPM}$
 myst:
   substitutions:
-    params_vars_title: Motor Lifting a Mass
-    params_e: 0.66
-    params_r: 0.35
-    params_m1: 18
-    params_m2: 6
-    params_RPM: 45
+    params:
+      vars:
+        title: Motor Lifting a Mass
+      e: 0.7
+      r: 0.17
+      m1: 13
+      m2: 7
+      RPM: 25
 ---
-# {{ params_vars_title }}
-A motor with an efficiency of ${{params_e}}$ is rotating a ${{params_r}} \ \rm{m}$ radius wheel at $\dot \theta = {{params_RPM}} \ \rm{RPM}$ to lift a ${{params_m1}} \ \rm{kg}$ mass.
+# {{ params.vars.title }}
+A motor with an efficiency of ${{params.e}}$ is rotating a ${{params.r}} \ \rm{m}$ radius wheel at $\dot \theta = {{params.RPM}} \ \rm{RPM}$ to lift a ${{params.m1}} \ \rm{kg}$ mass.
 
 <img src="MotorLiftingAMass.png" height=400 alt="A motor with a wheel of radius r pulling a rope that is lifting a mass m1." >
 
@@ -65,7 +67,7 @@ Please enter in a numeric value in W.
 
 ## Part 2
 
-After adding an ${{params_m2}} \ \rm{kg}$ load, you notice the wheel spins slower.
+After adding an ${{params.m2}} \ \rm{kg}$ load, you notice the wheel spins slower.
 The power consumption does not change.
 What is the new RPM?
 

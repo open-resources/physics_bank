@@ -32,29 +32,34 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Football Clearing Tree
-    params_vars_units: m/s
-    params_d: 12
-    params_h: 5
-    params_h2: 1.74
-    params_v: 13
-    params_theta: 42
-    params_part1_ans1_value: The ball clears the tree
-    params_part1_ans2_value: The ball does not clear the tree
+    params:
+      vars:
+        title: Football Clearing Tree
+        units: m/s
+      d: 11
+      h: 6
+      h2: 1.82
+      v: 14
+      theta: 71
+      part1:
+        ans1:
+          value: The ball clears the tree
+        ans2:
+          value: The ball does not clear the tree
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Football.png" width=85%>
 
 If a person throws a football towards their friend who is behind a tree, will the football hit or clear the tree?
-The football is thrown from a distance $d = {{ params_d }} \ \rm{m}$ from the tree, the tree has a height of $H = {{ params_h }} \ \rm{m}$, and the football is released at a height of $h = {{ params_h2 }} \ \rm{m}$.
-The velocity of the football is $v_0 = {{ params_v }} \ \rm{m/s}$ and the angle that the football is thrown relative to the ground is $\theta = {{ params_theta }}^{\circ}$.
+The football is thrown from a distance $d = {{ params.d }} \ \rm{m}$ from the tree, the tree has a height of $H = {{ params.h }} \ \rm{m}$, and the football is released at a height of $h = {{ params.h2 }} \ \rm{m}$.
+The velocity of the football is $v_0 = {{ params.v }} \ \rm{m/s}$ and the angle that the football is thrown relative to the ground is $\theta = {{ params.theta }}^{\circ}$.
 
 ## Part 1
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
 
 ## Attribution
 

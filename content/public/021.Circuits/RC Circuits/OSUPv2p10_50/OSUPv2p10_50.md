@@ -43,30 +43,22 @@ part1:
     atol: 0
 myst:
   substitutions:
-    params_vars_title: Capacitor in a Heart Pacemaker
-    params_rate: '74'
-    params_C: '27.0'
-    params_charge: '0.623'
+    params:
+      vars:
+        title: Capacitor in a Heart Pacemaker
+      rate: '76'
+      C: '30.0'
+      charge: '0.672'
 ---
-# {{ params_vars_title }}
-A heart pacemaker activates ${{ params_rate }}$ times per minute.
-Each time, a ${{ params_C }}\rm\ nF$ capacitor is charged (by a battery in series with a resistor) to ${{ params_charge }}$ of its full voltage.
+# {{ params.vars.title }}
+A heart pacemaker activates ${{ params.rate }}$ times per minute.
+Each time, a ${{ params.C }}\rm\ nF$ capacitor is charged (by a battery in series with a resistor) to ${{ params.charge }}$ of its full voltage.
 
 ## Question Text
 
 What is the value of the resistance?
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$R=$ {{ correct_answers.part1_ans_str }} $\rm\ \Omega$
 
 ## Attribution
 

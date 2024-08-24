@@ -43,27 +43,19 @@ part1:
     suffix: $\rm\ m$
 myst:
   substitutions:
-    params_vars_title: Electric potential of parallel plates
-    params_f_s: $8.60\times 10^{3}$
-    params_V: '12.0'
+    params:
+      vars:
+        title: Electric potential of parallel plates
+      f_s: $8.80\times 10^{3}$
+      V: '8.0'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
-How far apart are two conducting plates that have an electric field strength of {{ params.f_s }} $\rm\ V/m$ between them, if their potential difference is {{ params_V }} $\rm\ kV$?
+How far apart are two conducting plates that have an electric field strength of {{ params.f_s }} $\rm\ V/m$ between them, if their potential difference is {{ params.V }} $\rm\ kV$?
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$d=$ {{ correct_answers.part1_ans_str }} $\rm\ m$
 
 ## Attribution
 

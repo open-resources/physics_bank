@@ -27,38 +27,46 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Cyclist with a Deathwish
-    params_v1: 172
-    params_v2: 46
-    params_age: 27
-    params_part1_ans1_value: 14.0 times.
-    params_part1_ans2_value: 3.74 times.
-    params_part1_ans3_value: 0.267 times.
-    params_part1_ans4_value: 0.0715 times.
-    params_part1_ans5_value: It would be equal to their maximum thrust.
+    params:
+      vars:
+        title: Cyclist with a Deathwish
+      v1: 167
+      v2: 45
+      age: 53
+      part1:
+        ans1:
+          value: 13.8 times.
+        ans2:
+          value: 3.71 times.
+        ans3:
+          value: 0.269 times.
+        ans4:
+          value: 0.0726 times.
+        ans5:
+          value: It would be equal to their maximum thrust.
 ---
-# {{ params_vars_title }}
-A {{params_age}} year old cyclist is obsessed with trying to go as fast as humanly possible on a bicycle using their knowledge of physics.
+# {{ params.vars.title }}
+A {{params.age}} year old cyclist is obsessed with trying to go as fast as humanly possible on a bicycle using their knowledge of physics.
 
-Without any fancy tricks or techniques, a "regular" cyclist reaches a top speed of only about {{params_v2}} miles per hour due to the drag force.
+Without any fancy tricks or techniques, a "regular" cyclist reaches a top speed of only about {{params.v2}} miles per hour due to the drag force.
 You may assume this velocity is constant over time.
 
 Our cyclist (with a deathwish) knows that the drag force is $\frac{1}{4} Av^2$, where $A$ is the cross-sectional area.
 They decide to protect themselves from drag forces, they're going to "draft" behind a large rectangular truck going down the highway.
-By "drafting", they are somewhat protected from drag and they can now reach speeds of {{params_v1}} miles per hour.
+By "drafting", they are somewhat protected from drag and they can now reach speeds of {{params.v1}} miles per hour.
 Unfortunately, there's just the problem of how to safely slow down if they ever exit the draft (or, if the truck slows down).
 
 ## Part 1
 
-At this speed ({{params_v1}} miles per hour), if the cyclist suddenly has to exit the truck's draft and consequently, experiences full air resistance, how many times larger than their maximum thrust would the drag force be?
+At this speed ({{params.v1}} miles per hour), if the cyclist suddenly has to exit the truck's draft and consequently, experiences full air resistance, how many times larger than their maximum thrust would the drag force be?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

@@ -42,9 +42,11 @@ part3:
     file-names: Wave3.png
 myst:
   substitutions:
-    params_vars_title: Wave Pulse Segment
+    params:
+      vars:
+        title: Wave Pulse Segment
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Pulse1.png" width="600" alt="At time t = 0 s, the displacement of a string is shown above.  The wave pulse on the segment from x = 1 m to x = 4 m is moving to the right at 1 m/s, while the wave pulse on the segment from x = 5 m to x = 7 m is moving to the left at 1 m/s.">
 
 ## Part 1
@@ -57,10 +59,6 @@ Your file should be named 'Wave1' and must be a png.
 
 File upload box will be shown here.
 
-### pl-submission-panel
-
-### pl-answer-panel
-
 ## Part 2
 
 <img src="Pulse2.png" width="400">
@@ -72,10 +70,6 @@ Your file should be named 'Wave2' and must be a png.
 ### Answer Section
 
 File upload box will be shown here.
-
-### pl-submission-panel
-
-### pl-answer-panel
 
 ## Part 3
 
@@ -90,10 +84,6 @@ Your file should be named 'Wave3' and must be a png.
 ### Answer Section
 
 File upload box will be shown here.
-
-### pl-submission-panel
-
-### pl-answer-panel
 
 ## Attribution
 

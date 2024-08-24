@@ -37,13 +37,20 @@ part1:
     blank: true
 myst:
   substitutions:
-    params_vars_title: Constant electric field
-    params_part1_ans1_value: increasing
-    params_part1_ans2_value: decreasing
-    params_part1_ans3_value: zero
-    params_part1_ans4_value: non-zero and constant
+    params:
+      vars:
+        title: Constant electric field
+      part1:
+        ans1:
+          value: increasing
+        ans2:
+          value: decreasing
+        ans3:
+          value: zero
+        ans4:
+          value: non-zero and constant
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -51,10 +58,10 @@ The strength of the electric field in a region of space where the electric poten
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

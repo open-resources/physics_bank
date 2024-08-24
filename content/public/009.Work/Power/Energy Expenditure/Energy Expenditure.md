@@ -31,19 +31,28 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: The Energy Expenditure of a Jogger
-    params_vars_units: W
-    params_F: 24
-    params_v: 6.5
-    params_part1_ans1_value: 16.0
-    params_part1_ans2_value: 160.0
-    params_part1_ans3_value: 1000.0
-    params_part1_ans4_value: 310.0
-    params_part1_ans5_value: 470.0
-    params_part1_ans6_value: 78.0
+    params:
+      vars:
+        title: The Energy Expenditure of a Jogger
+        units: W
+      F: 18
+      v: 7.3
+      part1:
+        ans1:
+          value: 13.0
+        ans2:
+          value: 130.0
+        ans3:
+          value: 960.0
+        ans4:
+          value: 260.0
+        ans5:
+          value: 390.0
+        ans6:
+          value: 66.0
 ---
-# {{ params_vars_title }}
-Suppose a jogger has to exert a force of {{ params_F }} $N$ against air resistance to maintain a velocity of {{ params_v }} $m/s$.
+# {{ params.vars.title }}
+Suppose a jogger has to exert a force of {{ params.F }} $N$ against air resistance to maintain a velocity of {{ params.v }} $m/s$.
 
 ## Part 1
 
@@ -51,12 +60,12 @@ At what rate is the jogger expending energy?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }} {{ params_vars_units}}
-- {{ params_part1_ans2_value }} {{ params_vars_units}}
-- {{ params_part1_ans3_value }} {{ params_vars_units}}
-- {{ params_part1_ans4_value }} {{ params_vars_units}}
-- {{ params_part1_ans5_value }} {{ params_vars_units}}
-- {{ params_part1_ans6_value }} {{ params_vars_units}}
+- {{ params.part1.ans1.value }} {{ params.vars.units}}
+- {{ params.part1.ans2.value }} {{ params.vars.units}}
+- {{ params.part1.ans3.value }} {{ params.vars.units}}
+- {{ params.part1.ans4.value }} {{ params.vars.units}}
+- {{ params.part1.ans5.value }} {{ params.vars.units}}
+- {{ params.part1.ans6.value }} {{ params.vars.units}}
 
 ## Attribution
 

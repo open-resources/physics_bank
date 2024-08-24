@@ -32,12 +32,18 @@ part1:
     partial-credit-method: EDC
 myst:
   substitutions:
-    params_vars_title: Rolling Without Slipping Energy
-    params_part1_ans1_value: Translational kinetic energy
-    params_part1_ans2_value: Rotational kinetic energy
-    params_part1_ans3_value: Gravitational kinetic energy
+    params:
+      vars:
+        title: Rolling Without Slipping Energy
+      part1:
+        ans1:
+          value: Gravitational kinetic energy
+        ans2:
+          value: Rotational kinetic energy
+        ans3:
+          value: Translational kinetic energy
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -49,9 +55,9 @@ Select all the choices that apply.
 
 Note: You will be awarded full marks only if you select all of the correct choices and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params_part1_ans1_value}}
-- {{ params_part1_ans2_value}}
-- {{ params_part1_ans3_value}}
+- {{ params.part1.ans1.value}}
+- {{ params.part1.ans2.value}}
+- {{ params.part1.ans3.value}}
 
 ## Attribution
 

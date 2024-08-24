@@ -96,12 +96,14 @@ part8:
     suffix: $\rm{m}$
 myst:
   substitutions:
-    params_vars_title: A Coyote and a Rat
-    params_d_x: 26
-    params_v_r: 7
-    params_a_c: 4
+    params:
+      vars:
+        title: A Coyote and a Rat
+      d_x: 29
+      v_r: 6
+      a_c: 6
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A coyote notices a rat running past it, toward a bush where the rat will be safe.
 The rat is running with a constant velocity of $v\_{\text{rat}} = {{ params.v_r }} \rm{m/s}$ and the coyote is at rest, $\Delta x = {{ params.d_x }} \rm{m}$ to the left of the rat.
 However, at $t=0 \rm{s}$, the coyote begins running to the right, in pursuit of the rat, with an acceleration of $a\_{\text{coyote}} = {{ params.a_c }} \rm{m/s^2}$.

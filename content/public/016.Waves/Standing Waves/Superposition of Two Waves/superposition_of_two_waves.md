@@ -30,9 +30,11 @@ part1:
     file-names: file.png
 myst:
   substitutions:
-    params_vars_title: Superposition Principle
+    params:
+      vars:
+        title: Superposition Principle
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Useful Info
 
@@ -49,10 +51,6 @@ Your upload must be named 'file' and should be a png.
 ### Answer Section
 
 File upload box will be shown here.
-
-### pl-submission-panel
-
-### pl-answer-panel
 
 ## Attribution
 

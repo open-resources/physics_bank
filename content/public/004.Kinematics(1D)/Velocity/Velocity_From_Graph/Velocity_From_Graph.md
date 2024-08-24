@@ -36,26 +36,40 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Velocity From Graph
-    params_vars_units: $m/s$
-    params_choice: '0.5'
-    params_part1_ans1_value: '1'
-    params_part1_ans2_value: '-0.5'
-    params_part1_ans3_value: '-2'
-    params_part1_ans4_value: '2'
-    params_part1_ans5_value: '-1'
-    params_part2_ans1_value: $v_{avg,x \; 0 \rightarrow 3}$ = -0.33 $m/s$ and $v_{avg
-      \; 0 \rightarrow 3}$= 1 $m/s$
-    params_part2_ans2_value: $v_{avg,x \; 0 \rightarrow 3}$ = -0.33 $m/s$ and $v_{avg
-      \; 0 \rightarrow 3}$= 0.33 $m/s$
-    params_part2_ans3_value: $v_{avg,x \; 0 \rightarrow 3}$ = -0.35 $m/s$ and $v_{avg
-      \; 0 \rightarrow 3}$= 0.5 $m/s$
-    params_part2_ans4_value: $v_{avg,x \; 0 \rightarrow 3}$ = -0.5 $m/s$ and $v_{avg
-      \; 0 \rightarrow 3}$= -2 $m/s$
-    params_part2_ans5_value: $v_{avg,x \; 0 \rightarrow 3}$ = -2 $m/s$ and $v_{avg
-      \; 0 \rightarrow 3}$= -0.5 $m/s$
+    params:
+      vars:
+        title: Velocity From Graph
+        units: $m/s$
+      choice: '2.5'
+      part1:
+        ans1:
+          value: '-2'
+        ans2:
+          value: '-0.5'
+        ans3:
+          value: '2'
+        ans4:
+          value: '-1'
+        ans5:
+          value: '1'
+      part2:
+        ans1:
+          value: $v_{avg,x \; 0 \rightarrow 3}$ = -0.33 $m/s$ and $v_{avg \; 0 \rightarrow
+            3}$= 1 $m/s$
+        ans2:
+          value: $v_{avg,x \; 0 \rightarrow 3}$ = -0.33 $m/s$ and $v_{avg \; 0 \rightarrow
+            3}$= 0.33 $m/s$
+        ans3:
+          value: $v_{avg,x \; 0 \rightarrow 3}$ = -0.35 $m/s$ and $v_{avg \; 0 \rightarrow
+            3}$= 0.5 $m/s$
+        ans4:
+          value: $v_{avg,x \; 0 \rightarrow 3}$ = -0.5 $m/s$ and $v_{avg \; 0 \rightarrow
+            3}$= -2 $m/s$
+        ans5:
+          value: $v_{avg,x \; 0 \rightarrow 3}$ = -2 $m/s$ and $v_{avg \; 0 \rightarrow
+            3}$= -0.5 $m/s$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Refer to the following figure.
 
 <img src="Q1Q2.png" alt="A graph of position vs time. At 0 seconds, the position is at 1m. At 1 second, the position is at 2m. There is a constant increase of 1m per second from 0 seconds to 1 second. At 1 to 2 seconds, there is no change in m and the position remains at 2m. At 3 seconds, the position is at 0m. From 2 to 3 seconds, there is a constant decrease of 2 m per second." width=400>
@@ -64,15 +78,15 @@ Figure: Position vs. time graph for the following two questions.
 
 ## Part 1
 
-At $t=$ {{ params_choice }}$s$, what is the x-component of the instantaneous velocity of the object whose position vs. time graph is shown in the figure?
+At $t=$ {{ params.choice }}$s$, what is the x-component of the instantaneous velocity of the object whose position vs. time graph is shown in the figure?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value}} {{ params_vars_units}}
-- {{ params_part1_ans2_value}} {{ params_vars_units}}
-- {{ params_part1_ans3_value}} {{ params_vars_units}}
-- {{ params_part1_ans4_value}} {{ params_vars_units}}
-- {{ params_part1_ans5_value}} {{ params_vars_units}}
+- {{ params.part1.ans1.value}} {{ params.vars.units}}
+- {{ params.part1.ans2.value}} {{ params.vars.units}}
+- {{ params.part1.ans3.value}} {{ params.vars.units}}
+- {{ params.part1.ans4.value}} {{ params.vars.units}}
+- {{ params.part1.ans5.value}} {{ params.vars.units}}
 
 ## Part 2
 
@@ -80,11 +94,11 @@ For the object whose position vs time graph is shown in the figure above, the x-
 
 ### Answer Section
 
-- {{ params_part2_ans1_value}}
-- {{ params_part2_ans2_value}}
-- {{ params_part2_ans3_value}}
-- {{ params_part2_ans4_value}}
-- {{ params_part2_ans5_value}}
+- {{ params.part2.ans1.value}}
+- {{ params.part2.ans2.value}}
+- {{ params.part2.ans3.value}}
+- {{ params.part2.ans4.value}}
+- {{ params.part2.ans5.value}}
 
 ## Attribution
 

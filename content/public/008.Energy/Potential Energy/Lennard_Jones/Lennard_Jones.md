@@ -36,9 +36,11 @@ part2:
     allow-blank: false
 myst:
   substitutions:
-    params_vars_title: Lennard Jones Potential
+    params:
+      vars:
+        title: Lennard Jones Potential
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The Lennard-Jones 6-12 potential energy, which describes the potential energy between neutral gases, is $u(r) = u_0(\frac{r_0}{r})^{12} - 2( \frac{r_0}{r})^6$, where $ r $ is the separation between atoms.
 For Ar, $ r_0 = 3.9 \times 10^{-10} $ m and $ u_0 = 1.6 \times 10^{-21} $ J (according to D. V. Schroeder, An Introduction to Thermal Physics).
 

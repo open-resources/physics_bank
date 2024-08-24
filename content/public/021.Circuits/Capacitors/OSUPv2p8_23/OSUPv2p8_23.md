@@ -41,23 +41,19 @@ part1:
     suffix: $\rm\ nF$
 myst:
   substitutions:
-    params_vars_title: Determining Capacitance
-    params_q: '3.7'
-    params_v: '260'
+    params:
+      vars:
+        title: Determining Capacitance
+      q: '1.3'
+      v: '120'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
-What capacitance is needed to store {{params_q }}$\rm\ \mu\textrm{C}$ of charge at a voltage of {{params_v }}$\textrm{ V}$? Enter your answer in units of $\textrm{nF}$.
+What capacitance is needed to store {{params.q }}$\rm\ \mu\textrm{C}$ of charge at a voltage of {{params.v }}$\textrm{ V}$? Enter your answer in units of $\textrm{nF}$.
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
 
 ## Attribution
 

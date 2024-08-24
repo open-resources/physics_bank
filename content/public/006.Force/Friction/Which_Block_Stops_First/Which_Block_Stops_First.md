@@ -30,13 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Which Block Stops First
-    params_part1_ans1_value: $M_1$
-    params_part1_ans2_value: $M_2$
-    params_part1_ans3_value: Both stop in the same distance
-    params_part1_ans4_value: Cannot be determined without more information
+    params:
+      vars:
+        title: Which Block Stops First
+      part1:
+        ans1:
+          value: $M_1$
+        ans2:
+          value: $M_2$
+        ans3:
+          value: Both stop in the same distance
+        ans4:
+          value: Cannot be determined without more information
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Two blocks, $M_1$ \< $M_2$, having the same initial speed, move from a frictionless surface onto a surface having a coefficient of kinetic friction $\mu_k$.
 
 <img src="Q7.png" alt="Image depicting two blocks on separate surfaces. M1 is smaller than M2." width=400>
@@ -47,10 +54,10 @@ Which stops in a shorter distance?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

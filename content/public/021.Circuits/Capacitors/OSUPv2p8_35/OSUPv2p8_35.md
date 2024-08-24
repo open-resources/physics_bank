@@ -52,13 +52,15 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Connecting Capacitors
-    params_vars_name: Emilia
-    params_a: '9'
-    params_b: '9'
+    params:
+      vars:
+        title: Connecting Capacitors
+        name: Abbas
+      a: '5'
+      b: '4'
 ---
-# {{ params_vars_title }}
-{{ params_vars_name }} has a {{params_a }} $\rm\ \mu\textrm{F}$ capacitor and a {{params_b }} $\rm\ \mu\textrm{F}$ capacitor.
+# {{ params.vars.title }}
+{{ params.vars.name }} has a {{params.a }} $\rm\ \mu\textrm{F}$ capacitor and a {{params.b }} $\rm\ \mu\textrm{F}$ capacitor.
 
 ## Part 1
 
@@ -75,13 +77,6 @@ What is the equivalent capacitance acquired by connecting these capacitors in pa
 ### Answer Section
 
 Please enter a numeric value.
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
 
 ## Attribution
 

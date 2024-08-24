@@ -31,12 +31,18 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Tension In Rope
-    params_part1_ans1_value: less than the tension in rope 1
-    params_part1_ans2_value: equal to the tension in rope 1
-    params_part1_ans3_value: greater than the tension in rope 1
+    params:
+      vars:
+        title: Tension In Rope
+      part1:
+        ans1:
+          value: less than the tension in rope 1
+        ans2:
+          value: equal to the tension in rope 1
+        ans3:
+          value: greater than the tension in rope 1
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Q10.png" alt= "Rope 1 depicts a single individual pulling on a rope, exerting 100N force on the rope. Rope 2 depicts two individuals pulling on opposite ends of the rope, each individual exterts 100N force on the rope" >
 
 ## Part 1
@@ -45,9 +51,9 @@ The tension in rope 2 is:
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

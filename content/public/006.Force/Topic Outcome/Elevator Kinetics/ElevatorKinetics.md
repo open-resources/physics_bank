@@ -46,27 +46,29 @@ part2:
     comparison: sigfig
 myst:
   substitutions:
-    params_vars_title: Elevator Kinetics
-    params_vars_units: m/s$^2$
-    params_m2: 798
-    params_tension: 4186
-    params_t: 1
+    params:
+      vars:
+        title: Elevator Kinetics
+        units: m/s$^2$
+      m2: 403
+      tension: 6357
+      t: 4
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="ElevatorKinetics.png" width=400>
 
-At a construction site, a worker is on a moving elevator. The tension in the cable is $T = {{ params_tension }} \ \rm{N}$, within the first $t = {{ params_t }} \ \rm{s}$ of movement. If the total mass of the elevator with the worker is $m = {{ params_m2 }} \ \rm{kg}$, what is the velocity of the elevator after the ${{ params_t }} \ \rm{s}$ of start up movement?
+At a construction site, a worker is on a moving elevator. The tension in the cable is $T = {{ params.tension }} \ \rm{N}$, within the first $t = {{ params.t }} \ \rm{s}$ of movement. If the total mass of the elevator with the worker is $m = {{ params.m2 }} \ \rm{kg}$, what is the velocity of the elevator after the ${{ params.t }} \ \rm{s}$ of start up movement?
 
 ## Part 1
 
 ### Answer Section
 
-Find the acceleration for the startup movement duration of ${{ params_t }} \ \rm{s}$.
-Please enter in a numeric value in {{ params_vars_units }}.
+Find the acceleration for the startup movement duration of ${{ params.t }} \ \rm{s}$.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
-Find the final velocity after ${{ params_t }} \ \rm{s}$.
+Find the final velocity after ${{ params.t }} \ \rm{s}$.
 
 Please enter in a numeric value in m/s.
 

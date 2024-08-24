@@ -31,14 +31,22 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Collision of Billiard Balls
-    params_part1_ans1_value: 'red ball: $-v$, cue ball: $3v$'
-    params_part1_ans2_value: 'red ball: $v$; cue ball: $2v$'
-    params_part1_ans3_value: 'red ball: $-3v$; cue ball: $v$'
-    params_part1_ans4_value: 'red ball: $v$; cue ball: $3v$'
-    params_part1_ans5_value: More information is needed.
+    params:
+      vars:
+        title: Collision of Billiard Balls
+      part1:
+        ans1:
+          value: 'red ball: $-v$, cue ball: $3v$'
+        ans2:
+          value: 'red ball: $v$; cue ball: $2v$'
+        ans3:
+          value: 'red ball: $-3v$; cue ball: $v$'
+        ans4:
+          value: 'red ball: $v$; cue ball: $3v$'
+        ans5:
+          value: More information is needed.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 In a game of billards, a red billiard ball is traveling in the positive x-direction with speed $v$ and the cue ball is traveling in the negative x-direction with speed $3v$.
 The two balls collide head on and the collision is elastic.
 The two balls have the same mass.
@@ -49,11 +57,11 @@ Which statement concerning the velocities of the balls after the collision is tr
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

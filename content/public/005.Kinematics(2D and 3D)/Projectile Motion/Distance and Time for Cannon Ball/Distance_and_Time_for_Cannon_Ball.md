@@ -44,15 +44,17 @@ part2:
     suffix: $m$
 myst:
   substitutions:
-    params_vars_title: Distance and Time for a Cannon Ball
-    params_vars_distance_units: $m$
-    params_vars_time_units: $seconds$
-    params_distance_from_ground: 616
-    params_speed_of_jett: 497
-    params_angle: 38
+    params:
+      vars:
+        title: Distance and Time for a Cannon Ball
+        distance_units: $m$
+        time_units: $seconds$
+      distance_from_ground: 615
+      speed_of_jett: 300
+      angle: 42
 ---
-# {{ params_vars_title }}
-A cannon fires a projectile at a {{params_angle}}$^{\circ}$ angle at {{params.speed_of_jett}} $km/h$. The cannon is {{params.distance_from_ground}} $m$ above the ground.
+# {{ params.vars.title }}
+A cannon fires a projectile at a {{params.angle}}$^{\circ}$ angle at {{params.speed_of_jett}} $km/h$. The cannon is {{params.distance_from_ground}} $m$ above the ground.
 
 <img src="L5Q3.png" width=85%>
 

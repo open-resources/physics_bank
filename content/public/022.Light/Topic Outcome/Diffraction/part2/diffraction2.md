@@ -44,10 +44,12 @@ part2:
     suffix: cm
 myst:
   substitutions:
-    params_vars_title: Diffraction
-    params_vars_units: cm
+    params:
+      vars:
+        title: Diffraction
+        units: cm
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 Photographs of the diffraction of a red laser of wavelength $\lambda = 650$ nm are shown in figures (i) and (ii). A line of length $7$ cm indicates the length scale on the screen.
 
 <img src="gratings.png" height = 500px>
@@ -62,11 +64,7 @@ Using a ruler, approximately measure the distance from the middle of the central
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
-
-### pl-submission-panel
-
-{{feedback.part1_ans}}
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Part 2
 
@@ -74,11 +72,7 @@ Using a ruler, approximately measure the distance from the middle of the central
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
-
-### pl-submission-panel
-
-{{feedback.part2_ans}}
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

@@ -30,23 +30,30 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: What do Pounds Measure?
-    params_part1_ans1_value: Force
-    params_part1_ans2_value: Weight
-    params_part1_ans3_value: Mass
-    params_part1_ans4_value: Cost
+    params:
+      vars:
+        title: What do Pounds Measure?
+      part1:
+        ans1:
+          value: Force
+        ans2:
+          value: Weight
+        ans3:
+          value: Mass
+        ans4:
+          value: Cost
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 What do pounds ($\rm{lbs}$) measure?
 
 ## Part 1
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

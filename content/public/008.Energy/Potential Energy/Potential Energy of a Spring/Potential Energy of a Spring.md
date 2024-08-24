@@ -30,13 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Potential Energy of a Spring
-    params_part1_ans1_value: $\frac{1}{2}kx^2$
-    params_part1_ans2_value: $\frac{k}{2x}$
-    params_part1_ans3_value: $\frac{1}{2}kx$
-    params_part1_ans4_value: $\frac{1}{2}k^2x$
+    params:
+      vars:
+        title: Potential Energy of a Spring
+      part1:
+        ans1:
+          value: $\frac{1}{2}kx^2$
+        ans2:
+          value: $\frac{k}{2x}$
+        ans3:
+          value: $\frac{1}{2}kx$
+        ans4:
+          value: $\frac{1}{2}k^2x$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -44,10 +51,10 @@ The potential energy of a spring having a spring constant $k$ stretched an amoun
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

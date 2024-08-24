@@ -38,36 +38,46 @@ part2:
     comparison: relabs
 myst:
   substitutions:
-    params_vars_title: Pendulum Period Dependence on Length
-    params_inc: 3
-    params_dec: 85.0
-    params_part1_ans1_value: It increases by a factor of $\sqrt($3$)$.
-    params_part1_ans2_value: It increases by a factor of 3.
-    params_part1_ans3_value: It increases by a factor of 3$^2$.
-    params_part1_ans4_value: It decreases by a factor of $\sqrt($3$)$.
-    params_part1_ans5_value: It decreases by a factor of 3.
-    params_part1_ans6_value: It decreases by a factor of 3$^2$.
-    params_part1_ans7_value: It does not change.
+    params:
+      vars:
+        title: Pendulum Period Dependence on Length
+      inc: 4
+      dec: 80.0
+      part1:
+        ans1:
+          value: It increases by a factor of $\sqrt($4$)$.
+        ans2:
+          value: It increases by a factor of 4.
+        ans3:
+          value: It increases by a factor of 4$^2$.
+        ans4:
+          value: It decreases by a factor of $\sqrt($4$)$.
+        ans5:
+          value: It decreases by a factor of 4.
+        ans6:
+          value: It decreases by a factor of 4$^2$.
+        ans7:
+          value: It does not change.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
-What is the effect on the period of a pendulum if you increase its length by a factor of {{ params_inc }}?
+What is the effect on the period of a pendulum if you increase its length by a factor of {{ params.inc }}?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
-- {{ params_part1_ans6_value }}
-- {{ params_part1_ans7_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
+- {{ params.part1.ans6.value }}
+- {{ params.part1.ans7.value }}
 
 ## Part 2
 
-By what factor does the period of a pendulum change if you decrease its length to {{ params_dec }} % of its original length?
+By what factor does the period of a pendulum change if you decrease its length to {{ params.dec }} % of its original length?
 
 ### Answer Section
 

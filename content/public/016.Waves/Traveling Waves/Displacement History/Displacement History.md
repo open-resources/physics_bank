@@ -53,9 +53,11 @@ part4:
     file-names: file2.pdf
 myst:
   substitutions:
-    params_vars_title: Displacement History
+    params:
+      vars:
+        title: Displacement History
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The Figure below is a snapshot at $t = 0s$ of two wave pulses approaching each other, one travelling at $1 m/s$ (right) and the other at $2 m/s$ (left). The net displacement of the wave at $t = 1s$ is shown by the bold lines in the second graph, where dashed lines indicate the parts of the wave pulses that are overlapping and add to give the bold line.
 
 <img src="DispHistory1.png" width = 600>

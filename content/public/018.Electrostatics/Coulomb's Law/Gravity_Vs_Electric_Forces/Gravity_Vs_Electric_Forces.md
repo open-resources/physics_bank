@@ -29,30 +29,38 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Gravity Vs Electric Forces
-    params_part1_ans1_value: $2.3 \times 10^{39}$
-    params_part1_ans1_feedback: Yes, note that the gravitational force between fundamental
-      particles is insignificantly small relative to the electric force, so we are
-      justified in neglecting it when dealing with small charged particles. Also note
-      that this answer is independent of distance!
-    params_part1_ans2_value: $1.7 \times 10^{19}$
-    params_part1_ans2_feedback: No, click the 'Helpful Information' button to see
-      the formulae for the gravitational force $F_G$ and the electric force $F_E$.
-      Find the ratio of these two forces.
-    params_part1_ans3_value: $0.13$
-    params_part1_ans3_feedback: No, click the 'Helpful Information' button to see
-      the formulae for the gravitational force $F_G$ and the electric force $F_E$.
-      Find the ratio of these two forces.
-    params_part1_ans4_value: $5.9 \times 10^{-20}$
-    params_part1_ans4_feedback: No, click the 'Helpful Information' button to see
-      the formulae for the gravitational force $F_G$ and the electric force $F_E$.
-      Find the ratio of these two forces.
-    params_part1_ans5_value: $13000$
-    params_part1_ans5_feedback: No, click the 'Helpful Information' button to see
-      the formulae for the gravitational force $F_G$ and the electric force $F_E$.
-      Find the ratio of these two forces.
+    params:
+      vars:
+        title: Gravity Vs Electric Forces
+      part1:
+        ans1:
+          value: $2.3 \times 10^{39}$
+          feedback: Yes, note that the gravitational force between fundamental particles
+            is insignificantly small relative to the electric force, so we are justified
+            in neglecting it when dealing with small charged particles. Also note
+            that this answer is independent of distance!
+        ans2:
+          value: $1.7 \times 10^{19}$
+          feedback: No, click the 'Helpful Information' button to see the formulae
+            for the gravitational force $F_G$ and the electric force $F_E$. Find the
+            ratio of these two forces.
+        ans3:
+          value: $0.13$
+          feedback: No, click the 'Helpful Information' button to see the formulae
+            for the gravitational force $F_G$ and the electric force $F_E$. Find the
+            ratio of these two forces.
+        ans4:
+          value: $5.9 \times 10^{-20}$
+          feedback: No, click the 'Helpful Information' button to see the formulae
+            for the gravitational force $F_G$ and the electric force $F_E$. Find the
+            ratio of these two forces.
+        ans5:
+          value: $13000$
+          feedback: No, click the 'Helpful Information' button to see the formulae
+            for the gravitational force $F_G$ and the electric force $F_E$. Find the
+            ratio of these two forces.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The gravitational force $F_G$ has the same form as Coulomb's law for the electric force $F_E$ , but it is always an attractive force.
 
 ## Useful Info
@@ -66,9 +74,9 @@ Find the ratio of the electric force to the gravitational force between a proton
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

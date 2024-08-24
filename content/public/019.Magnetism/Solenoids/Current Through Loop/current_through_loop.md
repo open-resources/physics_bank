@@ -42,26 +42,22 @@ part1:
     custom-format: .3g
 myst:
   substitutions:
-    params_vars_title: Current Through Loop
-    params_N: 14
-    params_t: 16
-    params_s: 18
-    params_B: 0.097
+    params:
+      vars:
+        title: Current Through Loop
+      N: 70
+      t: 14
+      s: 18
+      B: 0.993
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
-Find the current through a loop needed to create a maximum torque of {{params_t}} $\textrm{ N} \cdot \textrm{m}$.
-The loop has {{params_N}} square turns that are {{params_s}} $\textrm{ cm}$ on a side and is in a uniform {{params_B}} $\textrm{ T}$ magnetic field.
+Find the current through a loop needed to create a maximum torque of {{params.t}} $\textrm{ N} \cdot \textrm{m}$.
+The loop has {{params.N}} square turns that are {{params.s}} $\textrm{ cm}$ on a side and is in a uniform {{params.B}} $\textrm{ T}$ magnetic field.
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
 
 ## Attribution
 

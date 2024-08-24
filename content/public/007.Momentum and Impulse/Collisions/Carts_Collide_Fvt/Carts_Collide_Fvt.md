@@ -79,12 +79,14 @@ part7:
     suffix: $\rm{m/s}$
 myst:
   substitutions:
-    params_vars_title: Carts Collide Fvt
-    params_m1: 1.68
-    params_m2: 0.37
+    params:
+      vars:
+        title: Carts Collide Fvt
+      m1: 1.66
+      m2: 0.52
 ---
-# {{ params_vars_title }}
-Cart 1 of mass $m_1 = {{ params_m1 }} \rm{kg}$ collides with cart 2 of mass $m_2 = {{ params_m2 }} \rm{kg}$. The figure below shows a pictoral representation of the two carts just before the collision and a graph of the $x$-component of the force exerted by cart 1 on cart 2 during the collision as a function of time.
+# {{ params.vars.title }}
+Cart 1 of mass $m_1 = {{ params.m1 }} \rm{kg}$ collides with cart 2 of mass $m_2 = {{ params.m2 }} \rm{kg}$. The figure below shows a pictoral representation of the two carts just before the collision and a graph of the $x$-component of the force exerted by cart 1 on cart 2 during the collision as a function of time.
 
 <img src="carts_collide.png" width=400 alt="On the top is a pictoral representation of cart 1 and cart 2 before the collision. Cart 1 travels along the positive x-direction toward cart 2, while cart 2 travels along the negative x-direction toward cart 1. On the bottom is a force versus time graph for the x-component of the force exerted by cart 1 on cart 2. The vertical axis is labelled force in newtons and the horizontal axis is labelled time in milliseconds. From 0 millisecond to 10 milliseconds, the force is 0 newtons. From 10 milliseconds to 12 milliseconds, the force increases linearly from 0 newtons to 30 newtons. From 12 milliseconds to 18 milliseconds, the force increases linearly from 30 newtons to 60 newtons. From 18 milliseconds to 24 milliseconds, the force decreases linearly from 60 newtons to 30 newtons. From 24 milliseconds to 26 milliseconds, the force decreases linearly from 30 newtons to 0 newtons.">
 

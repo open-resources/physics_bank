@@ -30,26 +30,34 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Math Diagnostic09
-    params_expr: $c$ = $\dfrac{(q)}{(p - 4a)} $
-    params_part1_ans1_value: p = ${ 4 a + \frac{q}{c}}$
-    params_part1_ans2_value: p = ${- \frac{4 a c}{q}}$
-    params_part1_ans3_value: p = ${- \frac{q}{4 a c}}$
-    params_part1_ans4_value: p = ${\frac{4 a + c}{q}}$
-    params_part1_ans5_value: Don't Know
+    params:
+      vars:
+        title: Math Diagnostic09
+      expr: $v$ = $\dfrac{(e)}{(w + 5s)} $
+      part1:
+        ans1:
+          value: w = ${ \frac{e}{v} - 5 s}$
+        ans2:
+          value: w = ${\frac{5 s v}{e}}$
+        ans3:
+          value: w = ${\frac{e}{5 s v}}$
+        ans4:
+          value: w = ${\frac{- 5 s + v}{e}}$
+        ans5:
+          value: Don't Know
 ---
-# {{ params_vars_title }}
-If {{params_expr}}
+# {{ params.vars.title }}
+If {{params.expr}}
 
 ## Part 1
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

@@ -43,10 +43,12 @@ part1:
     suffix: $\rm\ m/s^2$
 myst:
   substitutions:
-    params_vars_title: Accelerating electrons
-    params_f_s: $1.80\times 10^6$
+    params:
+      vars:
+        title: Accelerating electrons
+      f_s: $2.60\times 10^5$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A simple and common technique for accelerating electrons is shown in the figure, where there is a uniform electric field between two plates.
 Electrons are released from rest, usually from a hot filament, near the negative plate, and there is a small hole in the positive plate that allows the electrons to pass through it.
 
@@ -57,16 +59,6 @@ Electrons are released from rest, usually from a hot filament, near the negative
 Calculate the acceleration of the electron if the field strength  is {{ params.f_s }} $\textrm{ N/C}$.
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$a=$ {{ correct_answers.part1_ans_str }} $~\mathrm{m}/\mathrm{s}^2$
 
 ## Attribution
 

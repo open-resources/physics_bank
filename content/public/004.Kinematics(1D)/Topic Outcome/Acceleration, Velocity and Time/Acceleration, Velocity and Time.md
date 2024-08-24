@@ -38,19 +38,33 @@ part2:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Acceleration, Velocity and Time
-    params_part1_ans1_value: Option A
-    params_part1_ans2_value: Option B
-    params_part1_ans3_value: Option C
-    params_part1_ans4_value: Option D
-    params_part1_ans5_value: Option E
-    params_part2_ans1_value: Never
-    params_part2_ans2_value: 3.225 $s$
-    params_part2_ans3_value: 1.5 $s$
-    params_part2_ans4_value: 2 $s$
-    params_part2_ans5_value: 2.866 $s$
+    params:
+      vars:
+        title: Acceleration, Velocity and Time
+      part1:
+        ans1:
+          value: Option A
+        ans2:
+          value: Option B
+        ans3:
+          value: Option C
+        ans4:
+          value: Option D
+        ans5:
+          value: Option E
+      part2:
+        ans1:
+          value: Never
+        ans2:
+          value: 3.225 $s$
+        ans3:
+          value: 1.5 $s$
+        ans4:
+          value: 2 $s$
+        ans5:
+          value: 2.866 $s$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 For this problem, refer to the following figure.
 
 Top: The x-component of a velocity vs. time graph is shown for an object:
@@ -67,11 +81,11 @@ Of the listed acceleration vs. time graphs shown in the bottom figure, which is 
 
 ### Answer Section
 
-- {{ params_part1_ans1_value}}
-- {{ params_part1_ans2_value}}
-- {{ params_part1_ans3_value}}
-- {{ params_part1_ans4_value}}
-- {{ params_part1_ans5_value}}
+- {{ params.part1.ans1.value}}
+- {{ params.part1.ans2.value}}
+- {{ params.part1.ans3.value}}
+- {{ params.part1.ans4.value}}
+- {{ params.part1.ans5.value}}
 
 ## Part 2
 
@@ -79,11 +93,11 @@ If the initial position of the object whose velocity vs. time graph is shown in 
 
 ### Answer Section
 
-- {{ params_part2_ans1_value}}
-- {{ params_part2_ans2_value}}
-- {{ params_part2_ans3_value}}
-- {{ params_part2_ans4_value}}
-- {{ params_part2_ans5_value}}
+- {{ params.part2.ans1.value}}
+- {{ params.part2.ans2.value}}
+- {{ params.part2.ans3.value}}
+- {{ params.part2.ans4.value}}
+- {{ params.part2.ans5.value}}
 
 ## Attribution
 

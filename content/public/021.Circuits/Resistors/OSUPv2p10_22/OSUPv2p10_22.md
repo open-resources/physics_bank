@@ -99,14 +99,16 @@ part6:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Starter Motor Resistance
-    params_R_b: '0.005'
-    params_R_m: '0.085'
-    params_R_add: '0.095'
-    params_V: '13.25'
+    params:
+      vars:
+        title: Starter Motor Resistance
+      R_b: '0.006'
+      R_m: '0.090'
+      R_add: '0.098'
+      V: '14.00'
 ---
-# {{ params_vars_title }}
-An automobile starter motor has an equivalent resistance of {{ params.R_m }} $\rm\ \Omega$ and is supplied by a {{ params_V }} $\rm\ V$ battery with a {{ params.R_b }} $\rm\ \Omega$ internal resistance.
+# {{ params.vars.title }}
+An automobile starter motor has an equivalent resistance of {{ params.R_m }} $\rm\ \Omega$ and is supplied by a {{ params.V }} $\rm\ V$ battery with a {{ params.R_b }} $\rm\ \Omega$ internal resistance.
 
 ## Part 1
 

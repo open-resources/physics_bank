@@ -35,20 +35,22 @@ part1:
     suffix: $\rm{W}$
 myst:
   substitutions:
-    params_vars_title: Power of Gravity 1
-    params_m: 99.0
-    params_theta: 31.0
-    params_t: 9.0
-    params_mu: 0.41
+    params:
+      vars:
+        title: Power of Gravity 1
+      m: 60.0
+      theta: 53.0
+      t: 9.0
+      mu: 0.44
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="Power of Gravity 1.png" width = 600>
 
-A mass, $m = {{params_m}} \ \rm{kg}$, is dropped from rest at the top of the slide shown in the above figure. The ball falls due to its own weight only, following the path of the slide without any bouncing. This slide is inclined at an angle $\theta = {{params_theta}}^{\circ}$ with the $x$-axis.
+A mass, $m = {{params.m}} \ \rm{kg}$, is dropped from rest at the top of the slide shown in the above figure. The ball falls due to its own weight only, following the path of the slide without any bouncing. This slide is inclined at an angle $\theta = {{params.theta}}^{\circ}$ with the $x$-axis.
 
 ## Part 1
 
-Find the instantaneous power lost due to gravity at $t = {{ params_t }} \ \rm{s}$. Assume that only slipping occurs and $\mu\_{k} = {{params_mu}}$.
+Find the instantaneous power lost due to gravity at $t = {{ params.t }} \ \rm{s}$. Assume that only slipping occurs and $\mu\_{k} = {{params.mu}}$.
 
 ### Answer Section
 

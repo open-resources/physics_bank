@@ -34,23 +34,25 @@ part1:
     suffix: $W$
 myst:
   substitutions:
-    params_vars_title: Power of a Sprinter
-    params_vars_units: W
-    params_v: 8
-    params_t: 3
-    params_m: 84
-    params_v2: 7
+    params:
+      vars:
+        title: Power of a Sprinter
+        units: W
+      v: 10
+      t: 5
+      m: 66
+      v2: 2
 ---
-# {{ params_vars_title }}
-A {{ params_m }}$kg$ sprinter accelerates uniformly from rest to reach their maximum speed of {{ params_v }}$m/s$ in {{ params_t }} seconds.
+# {{ params.vars.title }}
+A {{ params.m }}$kg$ sprinter accelerates uniformly from rest to reach their maximum speed of {{ params.v }}$m/s$ in {{ params.t }} seconds.
 
 ## Part 1
 
-What is their power output when their speed is {{ params_v2 }}$m/s$?
+What is their power output when their speed is {{ params.v2 }}$m/s$?
 
 ### Answer Section
 
-Please enter in a numeric value in ${{ params_vars_units }}$.
+Please enter in a numeric value in ${{ params.vars.units }}$.
 
 ## Attribution
 

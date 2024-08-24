@@ -71,18 +71,23 @@ part4:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Electrical Appliances Plugged into an Outlet
-    params_P_T: '1880'
-    params_P_S: '1350'
-    params_P_L: '80.0'
-    params_I_F: '21.0'
-    params_V: '120.0'
-    params_prep: an
-    params_part4_ans1_value: 'Yes'
-    params_part4_ans2_value: 'No'
+    params:
+      vars:
+        title: Electrical Appliances Plugged into an Outlet
+      P_T: '1840'
+      P_S: '1390'
+      P_L: '65.0'
+      I_F: '30.0'
+      V: '135.0'
+      prep: a
+      part4:
+        ans1:
+          value: 'Yes'
+        ans2:
+          value: 'No'
 ---
-# {{ params_vars_title }}
-A {{ params.P_T }} $\rm\ W$ toaster, a {{ params.P_S }} $\rm\ W$ speaker, and {{ params_prep }} {{ params.P_L }} $\rm\ W$ lamp are plugged into the same outlet in a {{ params.I_F }} $\rm\ A$ fuse and {{ params_V }} $\rm\ V$ circuit.
+# {{ params.vars.title }}
+A {{ params.P_T }} $\rm\ W$ toaster, a {{ params.P_S }} $\rm\ W$ speaker, and {{ params.prep }} {{ params.P_L }} $\rm\ W$ lamp are plugged into the same outlet in a {{ params.I_F }} $\rm\ A$ fuse and {{ params.V }} $\rm\ V$ circuit.
 (The three devices are in parallel when plugged into the same socket.)
 
 ## Part 1
@@ -115,8 +120,8 @@ Will this combination blow the {{ params.I_F }} $\rm\ A$ fuse?
 
 ### Answer Section
 
-- {{ params_part4_ans1_value }}
-- {{ params_part4_ans2_value }}
+- {{ params.part4.ans1.value }}
+- {{ params.part4.ans2.value }}
 
 ## Attribution
 

@@ -78,37 +78,51 @@ part8:
     allow-blank: true
 myst:
   substitutions:
-    params_vars_title: Continuous Charge Distributions
-    params_part3_ans1_value: No you would get the same result, as the charge $dq_1$
-      would be at a different distance from the point of interest at ($x$, $y$, $z$)
-      = (0, 0, $z$)
-    params_part3_ans2_value: Yes you would get the same result, as the charge $dq_1$
-      would be at the same distance from the point of interest at ($x$, $y$, $z$)
-      = (0, 0, $z$)
-    params_part3_ans3_value: Yes you would get the same result, as the charge $dq_1$
-      would be at the same distance from the point of interest at ($x$, $y$, $z$)
-      = ($x$, 0, 0)
-    params_part3_ans4_value: No you would get the same result, as the charge $dq_1$
-      would be at a different distance from the point of interest at ($x$, $y$, $z$)
-      = ($x$, 0, 0)
-    params_part5_ans1_value: The equal charges are uniformly distributed on the opposite
-      sides of the x-axis, so any components parallel to the x-axis will add to zero.
-      The electric field must be perpendicular to the x-axis
-    params_part5_ans2_value: The equal charges are uniformly distributed on the opposite
-      sides of the z-axis, so any components parallel to the z-axis will add to zero.
-      The electric field must be perpendicular to the z-axis
-    params_part5_ans3_value: The equal charges are uniformly distributed on the opposite
-      sides of the x-axis, so any components perpendicular to the x-axis will add
-      to zero. The electric field must be parallel (or antiparallel) to the x-axis
-    params_part5_ans4_value: The equal charges are uniformly distributed on the opposite
-      sides of the z-axis, so any components perpendicular to the z-axis will add
-      to zero. The electric field must be parallel (or antiparallel) to the z-axis
-    params_b: 1
-    params_c: 2
-    params_d: 8
-    params_e: 3
+    params:
+      vars:
+        title: Continuous Charge Distributions
+      part3:
+        ans1:
+          value: No you would get the same result, as the charge $dq_1$ would be at
+            a different distance from the point of interest at ($x$, $y$, $z$) = (0,
+            0, $z$)
+        ans2:
+          value: Yes you would get the same result, as the charge $dq_1$ would be
+            at the same distance from the point of interest at ($x$, $y$, $z$) = (0,
+            0, $z$)
+        ans3:
+          value: Yes you would get the same result, as the charge $dq_1$ would be
+            at the same distance from the point of interest at ($x$, $y$, $z$) = ($x$,
+            0, 0)
+        ans4:
+          value: No you would get the same result, as the charge $dq_1$ would be at
+            a different distance from the point of interest at ($x$, $y$, $z$) = ($x$,
+            0, 0)
+      part5:
+        ans1:
+          value: The equal charges are uniformly distributed on the opposite sides
+            of the x-axis, so any components parallel to the x-axis will add to zero.
+            The electric field must be perpendicular to the x-axis
+        ans2:
+          value: The equal charges are uniformly distributed on the opposite sides
+            of the z-axis, so any components parallel to the z-axis will add to zero.
+            The electric field must be perpendicular to the z-axis
+        ans3:
+          value: The equal charges are uniformly distributed on the opposite sides
+            of the x-axis, so any components perpendicular to the x-axis will add
+            to zero. The electric field must be parallel (or antiparallel) to the
+            x-axis
+        ans4:
+          value: The equal charges are uniformly distributed on the opposite sides
+            of the z-axis, so any components perpendicular to the z-axis will add
+            to zero. The electric field must be parallel (or antiparallel) to the
+            z-axis
+      b: -2
+      c: 4
+      d: 4
+      e: 6
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A thin ring of radius $R$ lies in the $xy$ plane, centred on the $z$-axis. The ring has four uncharged insulating pieces. (dark patches of figure below) and four metallic ars. Two of these metallic arcs have charge $q_1$ and two have charge $q_2$, symmetrically placed about ($x$, $y$, $z$) = (0,0,0) as shown in the figure below.
 
 <img src="piecemeal.png" width=400 alt>
@@ -134,8 +148,6 @@ Use the following table as a reference for each variable:
 
 ### Answer Section
 
-### pl-submission-panel
-
 ## Part 2
 
 Write the small element of the electric potential $dV_2$ at heigh $z$ along the $z$-axis due to a small element of charge $dq_2$ as shown in the figure above.
@@ -156,20 +168,16 @@ Use the following table as a reference for each variable:
 
 ### Answer Section
 
-### pl-submission-panel
-
 ## Part 3
 
 For $any$ small element of charge $dq_1$ on either patch of charge $q_1$, would you get the result found in (a)?
 
 ### Answer Section
 
-- {{ params_part3_ans1_value }}
-- {{ params_part3_ans2_value }}
-- {{ params_part3_ans3_value }}
-- {{ params_part3_ans4_value }}
-
-### pl-submission-panel
+- {{ params.part3.ans1.value }}
+- {{ params.part3.ans2.value }}
+- {{ params.part3.ans3.value }}
+- {{ params.part3.ans4.value }}
 
 ## Part 4
 
@@ -191,20 +199,16 @@ Use the following table as a reference for each variable:
 
 ### Answer Section
 
-### pl-submission-panel
-
 ## Part 5
 
 Assuming that the charged patches are of equal sizes and on opposite sides of the ring, as shown in Fig. 1, explain what direction the electric field of this ring would have to point in and why.
 
 ### Answer Section
 
-- {{ params_part5_ans1_value }}
-- {{ params_part5_ans2_value }}
-- {{ params_part5_ans3_value }}
-- {{ params_part5_ans4_value }}
-
-### pl-submission-panel
+- {{ params.part5.ans1.value }}
+- {{ params.part5.ans2.value }}
+- {{ params.part5.ans3.value }}
+- {{ params.part5.ans4.value }}
 
 ## Part 6
 
@@ -226,27 +230,21 @@ Use the following table as a reference for each variable:
 
 ### Answer Section
 
-### pl-submission-panel
-
 ## Part 7
 
-If $q_1$ = {{ params_b}}$\mu C$ and $q_2$ = {{ params_c}}$\mu C$, $R$ = {{ params_d}}m and $z$ = {{ params_e}}m, find $V$.
+If $q_1$ = {{ params.b}}$\mu C$ and $q_2$ = {{ params.c}}$\mu C$, $R$ = {{ params.d}}m and $z$ = {{ params.e}}m, find $V$.
 
 Note: $\mu = 10^{-6}$ and $K$ = 9.0 $\times 10^9 \frac{\text{N m}^2}{\text{C}^2}$
 
 ### Answer Section
-
-### pl-submission-panel
 
 ## Part 8
 
-If $q_1$ = {{ params_b}}$\mu C$ and $q_2$ = {{ params_c}}$\mu C$, $R$ = {{ params_d}}m and $z$ = {{ params_e}}m, find $E_z$.
+If $q_1$ = {{ params.b}}$\mu C$ and $q_2$ = {{ params.c}}$\mu C$, $R$ = {{ params.d}}m and $z$ = {{ params.e}}m, find $E_z$.
 
 Note: $\mu = 10^{-6}$ and $K$ = 9.0 $\times 10^9 \frac{\text{N m}^2}{\text{C}^2}$
 
 ### Answer Section
-
-### pl-submission-panel
 
 ## Attribution
 

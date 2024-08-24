@@ -160,23 +160,43 @@ part16:
     partial-credit-method: EDC
 myst:
   substitutions:
-    params_vars_title: Vole Position
-    params_part11_ans1_value: $t = -2 \rm{s}$ to $t = t_8$
-    params_part11_ans2_value: $t = t_8$ to $t = t_9$
-    params_part11_ans3_value: $t = t_9$ to $t = 2 \rm{s}$
-    params_part12_ans1_value: $t = -2 \rm{s}$ to $t = t_8$
-    params_part12_ans2_value: $t = t_8$ to $t = t_9$
-    params_part12_ans3_value: $t = t_9$ to $t = 2 \rm{s}$
-    params_part15_ans1_value: $t = -2 \rm{s}$ to $t = t_8$
-    params_part15_ans2_value: $t = t_8$ to $t = t_{14}$
-    params_part15_ans3_value: $t = t_{14}$ to $t = t_9$
-    params_part15_ans4_value: $t = t_9$ to $t = 2 \rm{s}$
-    params_part16_ans1_value: $t = -2 \rm{s}$ to $t = t_8$
-    params_part16_ans2_value: $t = t_8$ to $t = t_{14}$
-    params_part16_ans3_value: $t = t_{14}$ to $t = t_9$
-    params_part16_ans4_value: $t = t_9$ to $t = 2 \rm{s}$
+    params:
+      vars:
+        title: Vole Position
+      part11:
+        ans1:
+          value: $t = -2 \rm{s}$ to $t = t_8$
+        ans2:
+          value: $t = t_8$ to $t = t_9$
+        ans3:
+          value: $t = t_9$ to $t = 2 \rm{s}$
+      part12:
+        ans1:
+          value: $t = -2 \rm{s}$ to $t = t_8$
+        ans2:
+          value: $t = t_8$ to $t = t_9$
+        ans3:
+          value: $t = t_9$ to $t = 2 \rm{s}$
+      part15:
+        ans1:
+          value: $t = -2 \rm{s}$ to $t = t_8$
+        ans2:
+          value: $t = t_8$ to $t = t_{14}$
+        ans3:
+          value: $t = t_{14}$ to $t = t_9$
+        ans4:
+          value: $t = t_9$ to $t = 2 \rm{s}$
+      part16:
+        ans1:
+          value: $t = -2 \rm{s}$ to $t = t_8$
+        ans2:
+          value: $t = t_8$ to $t = t_{14}$
+        ans3:
+          value: $t = t_{14}$ to $t = t_9$
+        ans4:
+          value: $t = t_9$ to $t = 2 \rm{s}$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 The position of a vole as it runs toward a garden is given by the expression $x(t) = t^3 - t + 10$, where $x(t)$ is position expressed as a function of time $t$. The units of $x(t)$ are $\rm{cm}$ and the units of $t$ are $\rm{s}$.
 
 ## Part 1
@@ -275,9 +295,9 @@ Note: You will be awarded full marks only if you select all the correct choices,
 
 ### Answer Section
 
-- {{ params_part11_ans1_value}}
-- {{ params_part11_ans2_value}}
-- {{ params_part11_ans3_value}}
+- {{ params.part11.ans1.value}}
+- {{ params.part11.ans2.value}}
+- {{ params.part11.ans3.value}}
 - {{ params.part11.ans4.value}}
 
 ## Part 12
@@ -288,9 +308,9 @@ Note: You will be awarded full marks only if you select all the correct choices,
 
 ### Answer Section
 
-- {{ params_part12_ans1_value}}
-- {{ params_part12_ans2_value}}
-- {{ params_part12_ans3_value}}
+- {{ params.part12.ans1.value}}
+- {{ params.part12.ans2.value}}
+- {{ params.part12.ans3.value}}
 - {{ params.part12.ans4.value}}
 
 ## Part 13
@@ -321,10 +341,10 @@ Note: You will be awarded full marks only if you select all the correct choices,
 
 ### Answer Section
 
-- {{ params_part15_ans1_value}}
-- {{ params_part15_ans2_value}}
-- {{ params_part15_ans3_value}}
-- {{ params_part15_ans4_value}}
+- {{ params.part15.ans1.value}}
+- {{ params.part15.ans2.value}}
+- {{ params.part15.ans3.value}}
+- {{ params.part15.ans4.value}}
 
 ## Part 16
 
@@ -334,10 +354,10 @@ Note: You will be awarded full marks only if you select all the correct choices,
 
 ### Answer Section
 
-- {{ params_part16_ans1_value}}
-- {{ params_part16_ans2_value}}
-- {{ params_part16_ans3_value}}
-- {{ params_part16_ans4_value}}
+- {{ params.part16.ans1.value}}
+- {{ params.part16.ans2.value}}
+- {{ params.part16.ans3.value}}
+- {{ params.part16.ans4.value}}
 
 ## Attribution
 

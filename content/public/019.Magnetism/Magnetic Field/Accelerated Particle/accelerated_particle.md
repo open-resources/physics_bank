@@ -37,9 +37,11 @@ part1:
     allow-blank: false
 myst:
   substitutions:
-    params_vars_title: Accelerated Particle
+    params:
+      vars:
+        title: Accelerated Particle
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 

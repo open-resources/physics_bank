@@ -52,28 +52,30 @@ part3:
     suffix: $m$ ($\hat{\imath}$)
 myst:
   substitutions:
-    params_vars_name1: Mateo
-    params_vars_name2: Ximena
-    params_vars_title: A Skateboarder and an Observer
-    params_vars_unit_v: $m/s$
-    params_vars_unit_t: $s$
-    params_vars_unit_x: $m$
-    params_v: -0.282
-    params_v_b: 4.42
-    params_h: 3.25
-    params_m_s: 93.3
-    params_m_b: 2.72
+    params:
+      vars:
+        name1: Maya
+        name2: Santiago
+        title: A Skateboarder and an Observer
+        unit_v: $m/s$
+        unit_t: $s$
+        unit_x: $m$
+      v: -1.82
+      v_b: 4.82
+      h: 2.27
+      m_s: 109.0
+      m_b: 2.92
 ---
-# {{ params_vars_title }}
-{{ params_vars_name1 }}  is  on  a  skateboard  and  has  an  initial  velocity  of  ({{ params_v }} $m/s$) $\hat{\imath}$ relative  to  {{ params_vars_name2 }}  who  is at rest with respect to the earth.  Just as they are gliding past {{ params_vars_name2 }},  {{ params_vars_name1 }} throws a ball in the positive $x$-direction from a height of {{ params_h }} m.  According to {{ params_vars_name1 }}, the ball has an initial velocity of ({{ params_v_b }} $m/s$) $\hat{\imath}$.
+# {{ params.vars.title }}
+{{ params.vars.name1 }}  is  on  a  skateboard  and  has  an  initial  velocity  of  ({{ params.v }} $m/s$) $\hat{\imath}$ relative  to  {{ params.vars.name2 }}  who  is at rest with respect to the earth.  Just as they are gliding past {{ params.vars.name2 }},  {{ params.vars.name1 }} throws a ball in the positive $x$-direction from a height of {{ params.h }} m.  According to {{ params.vars.name1 }}, the ball has an initial velocity of ({{ params.v_b }} $m/s$) $\hat{\imath}$.
 
 ## Part 1
 
-What is the initial velocity of the ball according to {{ params_vars_name2 }}?
+What is the initial velocity of the ball according to {{ params.vars.name2 }}?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars.unit_v }}.
+Please enter in a numeric value in {{ params.vars.unit_v }}.
 
 ## Part 2
 
@@ -81,15 +83,15 @@ How long is the ball in the air?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars.unit_t }}.
+Please enter in a numeric value in {{ params.vars.unit_t }}.
 
 ## Part 3
 
-Relative to {{ params_vars_name2 }}, where does the ball land?
+Relative to {{ params.vars.name2 }}, where does the ball land?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars.unit_x }}.
+Please enter in a numeric value in {{ params.vars.unit_x }}.
 
 ## Attribution
 

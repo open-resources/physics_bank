@@ -41,25 +41,21 @@ part1:
     custom-format: .2g
 myst:
   substitutions:
-    params_vars_title: Velocity Selector
-    params_B: 0.37
-    params_E: 0.6
-    params_r: 1.64
+    params:
+      vars:
+        title: Velocity Selector
+      B: 0.616
+      E: 0.9
+      r: 2.44
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
-A charged particle moves through a velocity selector at constant velocity. In the selector, $ E = {{params_E}} \times 10^{4}\textrm{ N/C}$ and $B = {{params_B}}\textrm{ T}$.
-When the electric field is turned off, the charged particle travels in a circular path of radius ${{params_r}}\textrm{ mm}$. Determine the charge-to-mass ratio of the particle.
+A charged particle moves through a velocity selector at constant velocity. In the selector, $ E = {{params.E}} \times 10^{4}\textrm{ N/C}$ and $B = {{params.B}}\textrm{ T}$.
+When the electric field is turned off, the charged particle travels in a circular path of radius ${{params.r}}\textrm{ mm}$. Determine the charge-to-mass ratio of the particle.
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
 
 ## Attribution
 

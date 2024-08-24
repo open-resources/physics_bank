@@ -45,38 +45,41 @@ part2:
     suffix: $ \rm{N}$
 myst:
   substitutions:
-    params_vars_title: Pendulum
-    params_vars_units_part1: "$\rm{m/s}$"
-    params_vars_units_part2: "$\rm{N}$"
-    params_m: 48
-    params_l: 9
-    params_theta: 49
-    params_mainText: A gymnast with mass $48 \ \rm{kg}$ steps off a horizontal platform
-      to swing on a trapeze with length $9 \ \rm{m}$. At point $A$, the angle formed
-      is $49^\circ$.
-    params_part1Text: Find the speed of the gymnast at point $A$
-    params_part2Text: Find the total tension holding the trapeze at point $A$
+    params:
+      vars:
+        title: Pendulum
+        units:
+          part1: "$\rm{m/s}$"
+          part2: "$\rm{N}$"
+      m: 49
+      l: 3
+      theta: 30
+      mainText: A gymnast with mass $49 \ \rm{kg}$ steps off a horizontal platform
+        to swing on a trapeze with length $3 \ \rm{m}$. At point $A$, the angle formed
+        is $30^\circ$.
+      part1Text: Find the speed of the gymnast at point $A$
+      part2Text: Find the total tension holding the trapeze at point $A$
 ---
-# {{ params_vars_title }}
-{{params_mainText}}
+# {{ params.vars.title }}
+{{params.mainText}}
 
 <img src="Pendulum.png" width=700 alt="A pendulum made of a ball of mass m on a string of length L. The pendulum starts at horizontal and goes to angle theta." >
 
 ## Part 1
 
-{{params_part1Text}}
+{{params.part1Text}}
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units_part1 }}.
+Please enter in a numeric value in {{ params.vars.units.part1 }}.
 
 ## Part 2
 
-{{params_part2Text}}
+{{params.part2Text}}
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units_part2 }}.
+Please enter in a numeric value in {{ params.vars.units.part2 }}.
 
 ## Attribution
 

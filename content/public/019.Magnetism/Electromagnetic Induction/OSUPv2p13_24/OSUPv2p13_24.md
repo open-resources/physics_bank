@@ -40,29 +40,21 @@ part1:
     suffix: $\rm\ V$
 myst:
   substitutions:
-    params_vars_title: Coil in Uniform Magnetic Field
-    params_N: '20'
-    params_d: '10'
-    params_B: '0.50'
-    params_t: '0.7'
+    params:
+      vars:
+        title: Coil in Uniform Magnetic Field
+      N: '70'
+      d: '15'
+      B: '1.00'
+      t: '0.5'
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Question Text
 
-A {{params_N }} turn coil has a diameter of {{params_d }} $\textrm{ cm}$. The coil is placed in a spatially uniform magnetic field of magnitude {{params_B }} $\textrm{ T}$ so that the face of the coil and the magnetic field are perpendicular. Find the magnitude of the emf induced in the coil if the magnetic field is reduced to zero uniformly in {{params_t }} $\textrm{ s}$.
+A {{params.N }} turn coil has a diameter of {{params.d }} $\textrm{ cm}$. The coil is placed in a spatially uniform magnetic field of magnitude {{params.B }} $\textrm{ T}$ so that the face of the coil and the magnetic field are perpendicular. Find the magnitude of the emf induced in the coil if the magnetic field is reduced to zero uniformly in {{params.t }} $\textrm{ s}$.
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$\varepsilon=$ {{ correct_answers.part1_ans_str }} $\rm\ V$
 
 ## Attribution
 

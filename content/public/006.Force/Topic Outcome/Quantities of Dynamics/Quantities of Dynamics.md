@@ -30,14 +30,20 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Quantities of Dynamics
-    params_part1_ans1_value: Both dimensions and units
-    params_part1_ans2_value: Dimensions
-    params_part1_ans3_value: Dimensions or units depending upon the system of units
-      employed
-    params_part1_ans4_value: Units
+    params:
+      vars:
+        title: Quantities of Dynamics
+      part1:
+        ans1:
+          value: Both dimensions and units
+        ans2:
+          value: Dimensions
+        ans3:
+          value: Dimensions or units depending upon the system of units employed
+        ans4:
+          value: Units
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -45,10 +51,10 @@ The quantities mass, length, and time are :
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 

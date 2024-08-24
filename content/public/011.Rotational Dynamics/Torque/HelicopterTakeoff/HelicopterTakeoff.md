@@ -34,27 +34,30 @@ part1:
     suffix: $ \rm{s}$
 myst:
   substitutions:
-    params_vars_title: Helicpoter Takeoff
-    params_vars_units_part1: s
-    params_L: 11
-    params_n: 4
-    params_m: 77
-    params_M: 6270
-    params_RPM: 426
+    params:
+      vars:
+        title: Helicpoter Takeoff
+        units:
+          part1: s
+      L: 12
+      n: 4
+      m: 108
+      M: 1540
+      RPM: 464
 ---
-# {{ params_vars_title }}
-A helicopter with ${{params_n}}$ blades needs to spin its rotor at ${{params_RPM}} \ \rm{RPM}$ to take off.
-Each blade has a length ${{params_L}} \ \rm{m}$ and a mass of ${{params_m}}\ \rm{kg}$.
+# {{ params.vars.title }}
+A helicopter with ${{params.n}}$ blades needs to spin its rotor at ${{params.RPM}} \ \rm{RPM}$ to take off.
+Each blade has a length ${{params.L}} \ \rm{m}$ and a mass of ${{params.m}}\ \rm{kg}$.
 Assume the mass of the blades is uniformly distributed across its length.
 The blades are initially stationary.
 
 ## Part 1
 
-If the rotor exerts a constant moment of ${{params_M}} \ \rm{Nm}$, how much time is needed for the blades to spin fast enough for takeoff?
+If the rotor exerts a constant moment of ${{params.M}} \ \rm{Nm}$, how much time is needed for the blades to spin fast enough for takeoff?
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units_part1 }}.
+Please enter in a numeric value in {{ params.vars.units.part1 }}.
 
 ## Attribution
 

@@ -38,20 +38,22 @@ part1:
     digits: 2
 myst:
   substitutions:
-    params_vars_title: Swinging Ball Elastic Collision
-    params_l: 2.8
-    params_m_1: 210
-    params_m_2: 1.7
-    params_x: 1.6
-    params_k: 2140
-    params_spring: 30
+    params:
+      vars:
+        title: Swinging Ball Elastic Collision
+      l: 1.5
+      m_1: 240
+      m_2: 2.0
+      x: 2.2
+      k: 2280
+      spring: 30
 ---
-# {{ params_vars_title }}
-A {{params.m_1}} $\rm{g}$ rubber ball is tied to a {{params_l}} meter long string and released from rest at angle $\theta$.
+# {{ params.vars.title }}
+A {{params.m_1}} $\rm{g}$ rubber ball is tied to a {{params.l}} meter long string and released from rest at angle $\theta$.
 It swings down and at the very bottom has a perfectly elastic collision with a {{params.m_2}} $\rm{kg}$ block.
-The block is resting on a frictionless surface and is connected to a {{params_spring}} cm long spring of spring constant
-{{params_k}} $\rm{N/m}$.
-After the collision, the spring compresses a maximum distance of {{params_x}} $\rm{cm}$.
+The block is resting on a frictionless surface and is connected to a {{params.spring}} cm long spring of spring constant
+{{params.k}} $\rm{N/m}$.
+After the collision, the spring compresses a maximum distance of {{params.x}} $\rm{cm}$.
 
 <img src="Q15.png" alt="Diagram depicting a ball at the end of a string forming an angle theta with the normal of the roof at the place where the string is attached to the roof. When the ball is released and the string becomes perpindicular to the roof, it will hit a block. There is a spring on the opposite side of the block that compresses when the ball hits the block." width=400>
 

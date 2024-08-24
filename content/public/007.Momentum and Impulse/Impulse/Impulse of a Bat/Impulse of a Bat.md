@@ -35,18 +35,20 @@ part1:
     suffix: $N \bullet s$
 myst:
   substitutions:
-    params_vars_title: Impulse of a Bat
-    params_F: 22711
-    params_t1: 0.002
-    params_t2: 0.01
-    params_t3: 0.014
+    params:
+      vars:
+        title: Impulse of a Bat
+      F: 30562
+      t1: 0.002
+      t2: 0.009
+      t3: 0.013
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="L20Q4.png" width=400>
 
 At a baseball game, the force of a bat hitting the ball is recorded.
 If the impact force varies with time as shown in the diagram, determine the magnitude of impulse by the bat on the baseball.
-$F\_{max} = {{params_F}} N$, $t_1 = {{params_t1}}s$ and $t_2 = {{params_t2}}s$,  $t_3 = {{params_t3}}s$.
+$F\_{max} = {{params.F}} N$, $t_1 = {{params.t1}}s$ and $t_2 = {{params.t2}}s$,  $t_3 = {{params.t3}}s$.
 
 ## Part 1
 

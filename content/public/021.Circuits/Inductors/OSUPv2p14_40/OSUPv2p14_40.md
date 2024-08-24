@@ -44,14 +44,16 @@ part1:
     custom-format: .3g
 myst:
   substitutions:
-    params_vars_title: Inductance of a Solenoid
-    params_l: '55.0'
-    params_N: '410'
-    params_A: '2.60'
+    params:
+      vars:
+        title: Inductance of a Solenoid
+      l: '59.0'
+      N: '470'
+      A: '2.70'
 ---
-# {{ params_vars_title }}
-A ${{ params_l }}\rm\ cm$ long solenoid is wound with ${{ params_N }}\rm\ turns$ of wire.
-The cross-sectional area of the coil is ${{ params_A }}\rm\ cm^2$.
+# {{ params.vars.title }}
+A ${{ params.l }}\rm\ cm$ long solenoid is wound with ${{ params.N }}\rm\ turns$ of wire.
+The cross-sectional area of the coil is ${{ params.A }}\rm\ cm^2$.
 
 ## Question Text
 
@@ -60,16 +62,6 @@ What is the self-inductance of the solenoid?
 ### Answer Section
 
 Please enter a numeric value in $\rm\ H$.
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$L =$ {{ correct_answers.part1_ans_str }} $\rm\ H$.
 
 ## Attribution
 

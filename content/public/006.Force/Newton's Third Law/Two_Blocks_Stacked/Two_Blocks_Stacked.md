@@ -40,16 +40,18 @@ part1:
     suffix: $N$
 myst:
   substitutions:
-    params_vars_title: Two Blocks Stacked
-    params_vars_units: N
-    params_m: 14
-    params_f: 0.32
-    params_t: 35
+    params:
+      vars:
+        title: Two Blocks Stacked
+        units: N
+      m: 13
+      f: 0.41
+      t: 35
 ---
-# {{ params_vars_title }}
-Blocks A and B each have a mass $m$ = {{params_m}} $kg$.
-The coefficient of static friction between $A$ and $B$ is $\mu_s$ = {{params_f}}.
-The angle shown is $\theta$ = {{params_t}}$^{\circ}$.
+# {{ params.vars.title }}
+Blocks A and B each have a mass $m$ = {{params.m}} $kg$.
+The coefficient of static friction between $A$ and $B$ is $\mu_s$ = {{params.f}}.
+The angle shown is $\theta$ = {{params.t}}$^{\circ}$.
 Neglect any friction between $B$ and $C$.
 
 <img src="Q14.png" alt="Right triangle A is stacked on top of right triangle B to create a rectangular block sitting on top of surface C. The angle between the hypotenuse and adjacent in triangle B is theta. A ninety-degree force P, acting to the left, is applied to the opposite side of triangle B." width=500>
@@ -60,7 +62,7 @@ Determine the largest horizontal force $\vec{P}$ that can be applied so that $A$
 
 ### Answer Section
 
-Please enter in a numeric value in {{ params_vars_units }}.
+Please enter in a numeric value in {{ params.vars.units }}.
 
 ## Attribution
 

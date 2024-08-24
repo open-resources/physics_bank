@@ -42,17 +42,19 @@ part2:
     suffix: $\rm{ft/s^2}$
 myst:
   substitutions:
-    params_vars_title: Atwood Machine Difference
-    params_Wa: 39
-    params_Wb: 40
+    params:
+      vars:
+        title: Atwood Machine Difference
+      Wa: 47
+      Wb: 50
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 <img src="AtwoodDifference.png" width=90%>
 
 Examine the scenario in the above image of an Atwood Machine.
 In the second image, the box has been replaced by a force such that the tension in the rope is equal to the weight of box B.
 Calculate the acceleration of the box A in both scenarios.
-Take $W_A = {{ params_Wa }} \ \rm{lb}$, and $W_B = {{ params_Wb }} \ \rm{lb}$
+Take $W_A = {{ params.Wa }} \ \rm{lb}$, and $W_B = {{ params.Wb }} \ \rm{lb}$
 Take upward motion to be positive.
 
 ## Part 1

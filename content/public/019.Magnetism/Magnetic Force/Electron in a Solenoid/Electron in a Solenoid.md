@@ -48,32 +48,24 @@ part1:
     suffix: $\rm\ A$
 myst:
   substitutions:
-    params_vars_title: Electron in a Solenoid
-    params_n: '15'
-    params_r: '2.10'
-    params_v: "$1.00\\times 10^{6 }\textrm{ m/s}$"
+    params:
+      vars:
+        title: Electron in a Solenoid
+      n: '35'
+      r: '2.70'
+      v: "$2.60\\times 10^{6 }\textrm{ m/s}$"
 ---
-# {{ params_vars_title }}
-A solenoid with {{ params_n }} turns per centimter carries a current $I$.
-An electron moves within the solenoid in a circle of radius {{ params_r}}$\textrm{ cm}$.
+# {{ params.vars.title }}
+A solenoid with {{ params.n }} turns per centimter carries a current $I$.
+An electron moves within the solenoid in a circle of radius {{ params.r}}$\textrm{ cm}$.
 The plane of the circular motion is perpendicular to the axis of the solenoid.
-The speed of the electron is {{ params_v }} $\textrm{ m/s}$.
+The speed of the electron is {{ params.v }} $\textrm{ m/s}$.
 
 ## Question Text
 
 What is the current $I$ in the solenoid?
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$I=$ {{ correct_answers.part1_ans_str }} $\textrm{ A}$
 
 ## Attribution
 

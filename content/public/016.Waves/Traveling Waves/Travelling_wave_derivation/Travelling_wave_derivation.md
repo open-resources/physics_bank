@@ -40,25 +40,33 @@ part2:
     source-file-name: sample.html
 myst:
   substitutions:
-    params_vars_title: Travelling wave derivation
-    params_part1_ans1_value: Line 1
-    params_part1_ans1_feedback: Great! You got it.
-    params_part1_ans2_value: Line 2
-    params_part1_ans2_feedback: This is just factoring of $\omega$ inside the function
-      so it is okay.
-    params_part1_ans3_value: Line 3
-    params_part1_ans3_feedback: To follow one displacement of the travelling wave
-      as a function of time and position you hold the phase constant, so it is valid
-      to set the derivative of the phase with respect to time equal to zero to find
-      the speed the wave moves at.
-    params_part1_ans4_value: Line 4
-    params_part1_ans4_feedback: Both the mass and angular frequency do not depend
-      on time for the wave, so this derivative has been properly taken and is consistent.
-    params_part1_ans5_value: Line 5
-    params_part1_ans5_feedback: Rearranging Equation (4) does give $\frac{dx}{dt}
-      = \frac{1}{m\omega}$, which would be positive and represent the speed.
+    params:
+      vars:
+        title: Travelling wave derivation
+      part1:
+        ans1:
+          value: Line 1
+          feedback: Great! You got it.
+        ans2:
+          value: Line 2
+          feedback: This is just factoring of $\omega$ inside the function so it is
+            okay.
+        ans3:
+          value: Line 3
+          feedback: To follow one displacement of the travelling wave as a function
+            of time and position you hold the phase constant, so it is valid to set
+            the derivative of the phase with respect to time equal to zero to find
+            the speed the wave moves at.
+        ans4:
+          value: Line 4
+          feedback: Both the mass and angular frequency do not depend on time for
+            the wave, so this derivative has been properly taken and is consistent.
+        ans5:
+          value: Line 5
+          feedback: Rearranging Equation (4) does give $\frac{dx}{dt} = \frac{1}{m\omega}$,
+            which would be positive and represent the speed.
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A student wants to understand how fast a travelling wave described by $D(x, t) = A\sin(kx - \omega t)$ is moving and carries out the following derivation.
 
 $(1) \quad k = m\omega^{2} \textrm{ so }  D(x,t) = A\sin(m\omega^{2}x - \omega t)$
@@ -81,11 +89,11 @@ Select all the choices that apply.
 
 Note: You will be awarded full marks only if you select all the correct choices, and none of the incorrect choices. Choosing incorrect choices as well as not choosing correct choices will result in deductions.
 
-- {{ params_part1_ans1_value}}
-- {{ params_part1_ans2_value}}
-- {{ params_part1_ans3_value}}
-- {{ params_part1_ans4_value}}
-- {{ params_part1_ans5_value}}
+- {{ params.part1.ans1.value}}
+- {{ params.part1.ans2.value}}
+- {{ params.part1.ans3.value}}
+- {{ params.part1.ans4.value}}
+- {{ params.part1.ans5.value}}
 
 ## Part 2
 

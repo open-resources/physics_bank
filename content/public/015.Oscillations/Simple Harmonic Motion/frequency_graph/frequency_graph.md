@@ -30,22 +30,27 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Oscillations
-    params_part1_ans1_value: 10 $s$
-    params_part1_ans1_feedback: Are you solving for period or frequency? Check your
-      units!
-    params_part1_ans2_value: 0.10 $Hz$
-    params_part1_ans2_feedback: Please check your steps and try again!
-    params_part1_ans3_value: 0.1 $\pi$ $Hz$
-    params_part1_ans3_feedback: Make sure you are solving for frequency, not angular
-      frequency!
-    params_part1_ans4_value: 0.05 $Hz$
-    params_part1_ans4_feedback: Great! You got it!
-    params_part1_ans5_value: 20 $s$
-    params_part1_ans5_feedback: Are you solving for period or frequency? Check your
-      units!
+    params:
+      vars:
+        title: Oscillations
+      part1:
+        ans1:
+          value: 10 $s$
+          feedback: Are you solving for period or frequency? Check your units!
+        ans2:
+          value: 0.10 $Hz$
+          feedback: Please check your steps and try again!
+        ans3:
+          value: 0.1 $\pi$ $Hz$
+          feedback: Make sure you are solving for frequency, not angular frequency!
+        ans4:
+          value: 0.05 $Hz$
+          feedback: Great! You got it!
+        ans5:
+          value: 20 $s$
+          feedback: Are you solving for period or frequency? Check your units!
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 A simple harmonic oscillator has a displacement from equilibrium $x = A \cos(\phi)$, where the phase is plotted as a function of time in Fig. 1.
 
 <img src="graph.png">
@@ -56,11 +61,11 @@ What is the frequency of this oscillation?
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

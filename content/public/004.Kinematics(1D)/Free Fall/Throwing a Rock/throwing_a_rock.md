@@ -29,43 +29,47 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_t1: $3$
-    params_t2: $6$
-    params_t3: $8$
-    params_dv1: $\Delta v_{y 3 \to 6 }$
-    params_dv2: $\Delta v_{y 6 \to 8 }$
-    params_vars_title: Throwing a Rock
-    params_part1_ans1_value: $\Delta v_{y 3 \to 6 } = \Delta v_{y 6 \to 8 } + 1 $
-    params_part1_ans1_feedback: Hmm, not quite. Try relating the change in velocity
-      to the time interval and compare those.
-    params_part1_ans2_value: $\Delta v_{y 3 \to 6 }=0$ ; $\Delta v_{y 6 \to 8 }<0$
-    params_part1_ans2_feedback: Remember, the rock is accelerating down. These statements
-      would imply the rock slows down as it falls!
-    params_part1_ans3_value: $\Delta v_{y 3 \to 6 } = \frac{ 2 }{ 3 }\Delta v_{y 6
-      \to 8 }$
-    params_part1_ans3_feedback: Close! Try double-checking your algebra.
-    params_part1_ans4_value: $\Delta v_{ y 3 \to 6 } = \frac{ 3 }{ 2 }\Delta v_{y
-      6 \to 8 }$
-    params_part1_ans4_feedback: Great! You got it.
-    params_part1_ans5_value: $\Delta v_{y 3 \to 6 } = \frac{ 3 }{ 5 }\Delta v_{y 6
-      \to 8 }$
-    params_part1_ans5_feedback: Hmm, try relating the time intervals to the change
-      in velocity.
+    params:
+      t1: $1$
+      t2: $4$
+      t3: $6$
+      dv1: $\Delta v_{y 1 \to 4 }$
+      dv2: $\Delta v_{y 4 \to 6 }$
+      vars:
+        title: Throwing a Rock
+      part1:
+        ans1:
+          value: $\Delta v_{y 1 \to 4 } = \Delta v_{y 4 \to 6 } + 1 $
+          feedback: Hmm, not quite. Try relating the change in velocity to the time
+            interval and compare those.
+        ans2:
+          value: $\Delta v_{y 1 \to 4 }=0$ ; $\Delta v_{y 4 \to 6 }<0$
+          feedback: Remember, the rock is accelerating down. These statements would
+            imply the rock slows down as it falls!
+        ans3:
+          value: $\Delta v_{y 1 \to 4 } = \frac{ 2 }{ 3 }\Delta v_{y 4 \to 6 }$
+          feedback: Close! Try double-checking your algebra.
+        ans4:
+          value: $\Delta v_{ y 1 \to 4 } = \frac{ 3 }{ 2 }\Delta v_{y 4 \to 6 }$
+          feedback: Great! You got it.
+        ans5:
+          value: $\Delta v_{y 1 \to 4 } = \frac{ 3 }{ 5 }\Delta v_{y 4 \to 6 }$
+          feedback: Hmm, try relating the time intervals to the change in velocity.
 ---
-# {{ params_vars_title }}
-A rock is thrown vertically upward from an initial height of $1 \; \rm{m}$. It reaches its maximum height at $t = ${{ params_t1 }}$.5 \; \rm{s}$ after its release.
+# {{ params.vars.title }}
+A rock is thrown vertically upward from an initial height of $1 \; \rm{m}$. It reaches its maximum height at $t = ${{ params.t1 }}$.5 \; \rm{s}$ after its release.
 
 ## Part 1
 
-Compare the change in the $y$-component of the velocity of the rock in the time interval from $t = ${{ params_t1 }} $\rm{s}$ to $t =${{ params_t2 }} $\rm{s}$, {{ params_dv1 }}, to the change in the $y$-component of the velocity of the rock from $t = ${{ params_t2 }} $\rm{s}$ to $t = ${{ params_t3 }} $\rm{s}$, {{ params_dv2 }}
+Compare the change in the $y$-component of the velocity of the rock in the time interval from $t = ${{ params.t1 }} $\rm{s}$ to $t =${{ params.t2 }} $\rm{s}$, {{ params.dv1 }}, to the change in the $y$-component of the velocity of the rock from $t = ${{ params.t2 }} $\rm{s}$ to $t = ${{ params.t3 }} $\rm{s}$, {{ params.dv2 }}
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
-- {{ params_part1_ans5_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
+- {{ params.part1.ans5.value }}
 
 ## Attribution
 

@@ -30,12 +30,18 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Max Range
-    params_part1_ans1_value: Less than 45 degrees
-    params_part1_ans2_value: 45 degrees
-    params_part1_ans3_value: 'Greater than 45 degrees '
+    params:
+      vars:
+        title: Max Range
+      part1:
+        ans1:
+          value: Less than 45 degrees
+        ans2:
+          value: 45 degrees
+        ans3:
+          value: 'Greater than 45 degrees '
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -43,9 +49,9 @@ A rugby player has a set throw speed of $22 \rm{m/s}$. On the flat playing field
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
 
 ## Attribution
 

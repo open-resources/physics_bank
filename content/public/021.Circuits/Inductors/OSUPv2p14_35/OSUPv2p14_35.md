@@ -42,30 +42,22 @@ part1:
     atol: 0
 myst:
   substitutions:
-    params_vars_title: Inductance of a Coil
-    params_V: '0.35'
-    params_I_i: '0.15'
-    params_I_f: '0.90'
-    params_t: '0.50'
+    params:
+      vars:
+        title: Inductance of a Coil
+      V: '0.70'
+      I_i: '0.15'
+      I_f: '0.70'
+      t: '0.30'
 ---
-# {{ params_vars_title }}
-An emf of ${{ params_V }}\rm\ V$ is induced across a coil when the current through it changes uniformly from ${{ params.I_i }}\rm\ A$ to ${{ params.I_f }}\rm\ A$ in ${{ params_t }}\rm\ s$.
+# {{ params.vars.title }}
+An emf of ${{ params.V }}\rm\ V$ is induced across a coil when the current through it changes uniformly from ${{ params.I_i }}\rm\ A$ to ${{ params.I_f }}\rm\ A$ in ${{ params.t }}\rm\ s$.
 
 ## Question Text
 
 What is the inductance of the coil?
 
 ### Answer Section
-
-### pl-submission-panel
-
-{{ submitted_answers.part1_ans_str }}
-
-{{ feedback.part1_ans }}
-
-### pl-answer-panel
-
-$L =$ {{ correct_answers.part1_ans_str }}
 
 ## Attribution
 

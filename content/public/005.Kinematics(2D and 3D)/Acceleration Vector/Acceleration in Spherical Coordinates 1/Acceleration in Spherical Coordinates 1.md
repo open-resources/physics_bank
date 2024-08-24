@@ -30,15 +30,22 @@ part1:
     weight: 1
 myst:
   substitutions:
-    params_vars_title: Acceleration in Spherical Coordinates 1
-    params_part1_ans1_value: $a_{R} = \ddot{R} - R\dot{\phi}^2-R\dot{\theta}^2\:cos^2\phi$
-    params_part1_ans2_value: '$a_{R} = \frac{cos\phi}{R}\frac{d}{dt}(R^2\dot{\theta})-2R\dot{\theta}\dot{\phi}\:
-      sin\phi$'
-    params_part1_ans3_value: '$a_{R} = \frac{1}{R}\frac{d}{dt}(R^2\dot{\phi})+R\dot{\theta}^2\:sin\phi
-      \: cos\phi$'
-    params_part1_ans4_value: $a_{R} = \ddot{R} + R\dot{\phi}^2 + R\dot{\theta}^2cos^2\phi$
+    params:
+      vars:
+        title: Acceleration in Spherical Coordinates 1
+      part1:
+        ans1:
+          value: $a_{R} = \ddot{R} - R\dot{\phi}^2-R\dot{\theta}^2\:cos^2\phi$
+        ans2:
+          value: '$a_{R} = \frac{cos\phi}{R}\frac{d}{dt}(R^2\dot{\theta})-2R\dot{\theta}\dot{\phi}\:
+            sin\phi$'
+        ans3:
+          value: '$a_{R} = \frac{1}{R}\frac{d}{dt}(R^2\dot{\phi})+R\dot{\theta}^2\:sin\phi
+            \: cos\phi$'
+        ans4:
+          value: $a_{R} = \ddot{R} + R\dot{\phi}^2 + R\dot{\theta}^2cos^2\phi$
 ---
-# {{ params_vars_title }}
+# {{ params.vars.title }}
 
 ## Part 1
 
@@ -46,10 +53,10 @@ When using spherical coordinates for space curvilinear motion the expression for
 
 ### Answer Section
 
-- {{ params_part1_ans1_value }}
-- {{ params_part1_ans2_value }}
-- {{ params_part1_ans3_value }}
-- {{ params_part1_ans4_value }}
+- {{ params.part1.ans1.value }}
+- {{ params.part1.ans2.value }}
+- {{ params.part1.ans3.value }}
+- {{ params.part1.ans4.value }}
 
 ## Attribution
 
