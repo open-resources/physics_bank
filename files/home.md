@@ -1,8 +1,12 @@
-# Introduction
+# Open Problem Bank in Physics (OPBP)
 
-## Analytics
+This open problem bank is intended for use in an undergraduate, calculus-based first-year physics course.
+Questions from the bank have been contributed by various instructors at UBC, as well the [OpenStax University Physics (Volume I and II) textbooks](https://openstax.org/subjects/science).
+All questions are shared under an Creative Commons license.
 
-### Questions by Topics
+<img src="../images/openStaxPhysics.png" width=400px>
+
+## Questions by Topics
 
 Here are the questions in the bank split by Topics.
 
