@@ -37,11 +37,13 @@ myst:
     params:
       vars:
         title: Tug of War
-      numberOfChildren: 4
-      adultWeight: 217
-      adultForce: 305
-      childWeights: ' $63\ \rm{lb}$, $70\ \rm{lb}$, $56\ \rm{lb}$, $58\ \rm{lb}$'
-      childForces: ' $104\ \rm{N}$, $124\ \rm{N}$, $141\ \rm{N}$, $99\ \rm{N}$'
+      numberOfChildren: 6
+      adultWeight: 193
+      adultForce: 421
+      childWeights: ' $51\ \rm{lb}$, $56\ \rm{lb}$, $64\ \rm{lb}$, $67\ \rm{lb}$,
+        $60\ \rm{lb}$, $65\ \rm{lb}$'
+      childForces: ' $104\ \rm{N}$, $125\ \rm{N}$, $115\ \rm{N}$, $82\ \rm{N}$, $117\
+        \rm{N}$, $132\ \rm{N}$'
 ---
 # {{ params.vars.title }}
 In a game of tug of war, two teams pull on opposite sides of a rope to tug the opposing team towards them.

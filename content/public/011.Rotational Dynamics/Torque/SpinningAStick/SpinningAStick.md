@@ -38,10 +38,10 @@ myst:
     params:
       vars:
         title: Spinning A Stick
-      L: 2.93
-      F: 66
-      m: 38.1
-      thetaDot: 3.89
+      L: 3.65
+      F: 79
+      m: 54.8
+      thetaDot: 3.15
 ---
 # {{ params.vars.title }}
 A person is trying to spin a ${{params.m}}\ \rm{kg}$ stick around its center.

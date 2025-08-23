@@ -44,7 +44,7 @@ myst:
     params:
       vars:
         title: Force on Lightning Bolt
-      I: 18178
+      I: 18436
       part2:
         ans1:
           value: North

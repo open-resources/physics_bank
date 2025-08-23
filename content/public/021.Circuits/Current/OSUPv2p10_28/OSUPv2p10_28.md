@@ -74,9 +74,9 @@ myst:
     params:
       vars:
         title: Electrical Appliances Plugged into an Outlet
-      P_T: '1840'
-      P_S: '1390'
-      P_L: '65.0'
+      P_T: '1740'
+      P_S: '1460'
+      P_L: '75.0'
       I_F: '30.0'
       V: '135.0'
       prep: a

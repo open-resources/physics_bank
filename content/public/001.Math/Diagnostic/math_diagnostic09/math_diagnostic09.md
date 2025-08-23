@@ -33,16 +33,16 @@ myst:
     params:
       vars:
         title: Math Diagnostic09
-      expr: $v$ = $\dfrac{(e)}{(w + 5s)} $
+      expr: $i$ = $\dfrac{(c)}{(s + 9p)} $
       part1:
         ans1:
-          value: w = ${ \frac{e}{v} - 5 s}$
+          value: s = ${ \frac{c}{i} - 9 p}$
         ans2:
-          value: w = ${\frac{5 s v}{e}}$
+          value: s = ${\frac{9 i p}{c}}$
         ans3:
-          value: w = ${\frac{e}{5 s v}}$
+          value: s = ${\frac{c}{9 i p}}$
         ans4:
-          value: w = ${\frac{- 5 s + v}{e}}$
+          value: s = ${\frac{i - 9 p}{c}}$
         ans5:
           value: Don't Know
 ---

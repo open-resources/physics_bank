@@ -48,11 +48,11 @@ myst:
         title: Formula Car Cornering
         units: $m/s^2$
       x: 3
-      y1: 1.602
-      y2: 4.111
-      r: 55
-      z: 147
-      t: 2.403
+      y1: 2.112
+      y2: 9.421
+      r: 60
+      z: 144
+      t: 3.168
 ---
 # {{ params.vars.title }}
 A formula car is driving on the Autodromo Nazionale Monza race track. The car takes the racing line shown in blue through the Curva Parabolica corner.

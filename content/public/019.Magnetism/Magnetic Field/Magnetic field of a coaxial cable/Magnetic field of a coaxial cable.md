@@ -127,7 +127,7 @@ A current $I$ flows down the centre conductor, and this current is returned in t
 
 ## Part 1
 
-Determine the magnitude of the magnetic field in the region $r\\< r_1$.
+Determine the magnitude of the magnetic field in the region $r< r_1$.
 
 In your symbolic expression, you may copy and paste the Greek symbol `μ0`. Use `pi` to represent π.
 
@@ -145,7 +145,7 @@ What is the direction of the magnetic field calculated in Part 1?
 
 ## Part 3
 
-Determine the magnitude of the magnetic field in the region $r_1\\< r\\< r_2$.
+Determine the magnitude of the magnetic field in the region $r_1< r< r_2$.
 
 In your symbolic expression, you may copy and paste the Greek symbol `μ0`. Use pi to represent `π`.
 
@@ -163,7 +163,7 @@ What is the direction of the magnetic field calculated in Part 3?
 
 ## Part 5
 
-Determine the magnitude of the magnetic field in the region $r_2\\< r\\< r_3$.
+Determine the magnitude of the magnetic field in the region $r_2< r< r_3$.
 
 In your symbolic expression, you may copy and paste the Greek symbol `μ0`. Use `pi` to represent `π`.
 

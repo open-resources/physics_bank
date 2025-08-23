@@ -35,7 +35,7 @@ myst:
       vars:
         title: Archer Fish
       d: 2.8
-      h: 5.9
+      h: 5.8
       vf: 2.3
 ---
 # {{ params.vars.title }}

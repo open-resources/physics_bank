@@ -36,9 +36,9 @@ myst:
     params:
       vars:
         title: Marble Ball Attraction
-      r: 0.63
-      d: 4.0
-      rho: 3900.0
+      r: 0.82
+      d: 3.9
+      rho: 3100.0
 ---
 # {{ params.vars.title }}
 Two marble spheres each with a radius of ${{params.r}} \ \rm{m}$, are positioned with their centres ${{params.d}} \ \rm{m}$ apart.

@@ -55,11 +55,11 @@ myst:
   substitutions:
     params:
       vars:
-        name: Emilia
+        name: Ahmed
         title: Water Slide
-      theta: 50
-      l: 100
-      l2: 50.0
+      theta: 30
+      l: 900
+      l2: 450.0
 ---
 # {{ params.vars.title }}
 What an exciting time to be alive! A water slide has just opened up near {{ params.vars.name }}'s house! It is a ramp, L = {{params.l}} $m$ long at {{params.theta}}$^{\circ}$ to the horizontal.
@@ -68,11 +68,11 @@ The kid has an unknown initial velocity $v_o$ , but they collide midway down the
 
 Use the following table as a reference for each variable:
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $t$  | t  |
-| $v_o$  | v_o  |
-| $g$  | g  |
+| $t$ | t |
+| $v_o$ | v_o |
+| $g$ | g |
 
 ## Part 1
 

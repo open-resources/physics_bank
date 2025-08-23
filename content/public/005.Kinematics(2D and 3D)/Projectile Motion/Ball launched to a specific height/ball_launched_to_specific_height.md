@@ -64,8 +64,8 @@ myst:
     params:
       vars:
         title: Projectile of ball launched to a specific height
-      v: 48
-      h: 38
+      v: 55
+      h: 46
 ---
 # {{ params.vars.title }}
 A ball is launched vertically from the ground with an initial speed of $v = {{ params.v }}$ $\rm{m/s}$.

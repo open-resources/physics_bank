@@ -74,10 +74,10 @@ myst:
     params:
       vars:
         title: RC Circuit Reduction
-      c1: 12.4
-      c2: 15.8
-      c3: 13.2
-      c4: 18.8
+      c1: 9.0
+      c2: 3.4
+      c3: 5.9
+      c4: 17.8
       part1:
         ans1:
           value: $C_1$

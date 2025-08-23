@@ -39,10 +39,10 @@ myst:
     params:
       vars:
         title: Stationary Pulley
-      m: 5.8
+      m: 5.7
       ri: 22
       ro: 34
-      theta: 36
+      theta: 22
 ---
 # {{ params.vars.title }}
 A mass on a frictionless inclined plane $m = {{ params.m }} \rm{kg}$ is connected to a pulley by a massless string at an inner radius $r_i = {{params.ri}} \rm{cm}$. Another mass $M$ is hanging from the pulley by a massless string connected at an outer radius $r_o = {{ params.ro }} \rm{cm}$. The inclined plane makes an angle $\theta = {{ prams.theta }}^\circ$ with the horizontal.

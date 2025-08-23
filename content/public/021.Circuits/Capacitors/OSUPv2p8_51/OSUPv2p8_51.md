@@ -50,8 +50,8 @@ myst:
     params:
       vars:
         title: Filling a Capacitor with Dielectric Material
-      d: '1.25'
-      a: '7.0'
+      d: '2.00'
+      a: '8.0'
       k: '6.0'
 ---
 # {{ params.vars.title }}

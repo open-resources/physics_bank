@@ -46,10 +46,10 @@ myst:
     params:
       vars:
         title: Highway Speeding
-      d: 506
-      r_dot: 175
-      angle1: 35
-      angle2: 23
+      d: 574
+      r_dot: 162
+      angle1: 41
+      angle2: 33
 ---
 # {{ params.vars.title }}
 <img src="L7Q1.png" width=90%>

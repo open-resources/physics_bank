@@ -54,20 +54,20 @@ myst:
   substitutions:
     params:
       vars:
-        name1: Maya
-        name2: Santiago
+        name1: Lorenzo
+        name2: Ximena
         title: A Skateboarder and an Observer
         unit_v: $m/s$
         unit_t: $s$
         unit_x: $m$
-      v: -1.82
-      v_b: 4.82
-      h: 2.27
-      m_s: 109.0
-      m_b: 2.92
+      v: 1.19
+      v_b: 4.49
+      h: 4.21
+      m_s: 55.1
+      m_b: 2.95
 ---
 # {{ params.vars.title }}
-{{ params.vars.name1 }}  is  on  a  skateboard  and  has  an  initial  velocity  of  ({{ params.v }} $m/s$) $\hat{\imath}$ relative  to  {{ params.vars.name2 }}  who  is at rest with respect to the earth.  Just as they are gliding past {{ params.vars.name2 }},  {{ params.vars.name1 }} throws a ball in the positive $x$-direction from a height of {{ params.h }} m.  According to {{ params.vars.name1 }}, the ball has an initial velocity of ({{ params.v_b }} $m/s$) $\hat{\imath}$.
+{{ params.vars.name1 }} is on a skateboard and has an initial velocity of ({{ params.v }} $m/s$) $\hat{\imath}$ relative to {{ params.vars.name2 }} who is at rest with respect to the earth. Just as they are gliding past {{ params.vars.name2 }}, {{ params.vars.name1 }} throws a ball in the positive $x$-direction from a height of {{ params.h }} m. According to {{ params.vars.name1 }}, the ball has an initial velocity of ({{ params.v_b }} $m/s$) $\hat{\imath}$.
 
 ## Part 1
 

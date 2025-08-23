@@ -40,7 +40,7 @@ myst:
         title: Electric Field Outside Solenoid
       R: '2'
       r: '5'
-      n: '15'
+      n: '20'
       DI: '1'
 ---
 # {{ params.vars.title }}

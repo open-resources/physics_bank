@@ -65,13 +65,13 @@ What is the amplitude of the resulting simple harmonic motion? Answer using the 
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| $Variable $ | Use   |
+| $Variable $ | Use |
 |----------|-------|
-| $m_1$  | m1  |
-| $m_2$  | m2  |
-| $x_0$  | x0 |
-| $k$  | k  |
-| $v_1$  | v1  |
+| $m_1$ | m1 |
+| $m_2$ | m2 |
+| $x_0$ | x0 |
+| $k$ | k |
+| $v_1$ | v1 |
 
 ### Answer Section
 
@@ -84,13 +84,13 @@ Answer using the variables $m_1, m_2, k, x_0$ and/or $v_1$.
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| $Variable $ | Use   |
+| $Variable $ | Use |
 |----------|-------|
-| $m_1$  | m1  |
-| $m_2$  | m2  |
-| $x_0$  | x0 |
-| $k$  | k  |
-| $v_1$  | v1  |
+| $m_1$ | m1 |
+| $m_2$ | m2 |
+| $x_0$ | x0 |
+| $k$ | k |
+| $v_1$ | v1 |
 
 ### Answer Section
 
@@ -106,7 +106,7 @@ Answer using the variables $t, A$ and/or $\omega$.
 Note that it may not be necessary to use every variable and that the correct answer will simplify all trigonometric functions (simplifying your answer is not required).
 Use the following table as a reference for each variable:
 
-| $Variable $ | Use   |
+| $Variable $ | Use |
 |----------|-------|
 | $t$ | t |
 | $A$ | A |

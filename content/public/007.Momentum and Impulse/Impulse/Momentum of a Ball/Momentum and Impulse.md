@@ -36,9 +36,9 @@ myst:
     params:
       vars:
         title: Momentum of a Ball
-      m: 8606
-      a: 22
-      t: 15
+      m: 5289
+      a: 1
+      t: 80
 ---
 # {{ params.vars.title }}
 A ball has a mass of $m = {{params.m}} \ \rm{kg}$ and has an acceleration of $a = {{params.a}} \ \rm{m/s^2}$.

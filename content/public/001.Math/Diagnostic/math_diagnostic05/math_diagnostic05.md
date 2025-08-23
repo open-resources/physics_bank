@@ -33,18 +33,18 @@ myst:
     params:
       vars:
         title: Math Diagnostic05
-      expr: $\dfrac{x}{2}$
-      num2: 9
-      num3: 10
+      expr: $\dfrac{x}{4}$
+      num2: 2
+      num3: 2
       part1:
         ans1:
-          value: 180
+          value: 16
         ans2:
-          value: 9/2
+          value: 1/2
         ans3:
-          value: 20
+          value: 8
         ans4:
-          value: '45'
+          value: '1'
         ans5:
           value: Don't Know
 ---

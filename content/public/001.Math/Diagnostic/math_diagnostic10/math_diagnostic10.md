@@ -33,19 +33,19 @@ myst:
     params:
       vars:
         title: Math Diagnostic10
-      a: 10
-      b: '11'
+      a: -9
+      b: '2'
       b_sign: ' + '
-      c: -9
+      c: -5
       part1:
         ans1:
-          value: x =  - 19/11
+          value: x =   4/2
         ans2:
-          value: x =   19/11
+          value: x =  - 4/2
         ans3:
-          value: x = -30
+          value: x = 2
         ans4:
-          value: x = -10
+          value: x = -16
         ans5:
           value: This equation cannot be solved
 ---

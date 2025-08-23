@@ -55,10 +55,10 @@ myst:
       vars:
         title: Circular Motion of a Swinging Ball
         units: m, s, N
-      m: 12
-      r: 26.22
-      h: 15
-      v0: 13.79
+      m: 40
+      r: 18.79
+      h: 11
+      v0: 16.36
 ---
 # {{ params.vars.title }}
 A ball with a mass of $m = {{ params.m }} \ \rm{kg}$ is being swung above in a horizontal circle.

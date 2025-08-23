@@ -38,9 +38,9 @@ myst:
     params:
       vars:
         title: Power of Gravity 1
-      m: 56.0
-      theta: 60.0
-      t: 7.0
+      m: 72.0
+      theta: 59.0
+      t: 9.0
 ---
 # {{ params.vars.title }}
 <img src="Power of Gravity 1.png" width = 600>

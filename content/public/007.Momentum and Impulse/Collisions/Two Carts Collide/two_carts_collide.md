@@ -79,9 +79,9 @@ myst:
       vars:
         title: Two Carts Collide
         units: $\rm{m/s}$
-      m1: 1.5
-      m2: 370
-      vi: -3
+      m1: 1.4
+      m2: 340
+      vi: -2
       part5:
         ans1:
           value: Magnets

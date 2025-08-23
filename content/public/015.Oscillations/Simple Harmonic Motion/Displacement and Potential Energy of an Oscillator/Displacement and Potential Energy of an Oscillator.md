@@ -36,7 +36,7 @@ myst:
     params:
       vars:
         title: Displacement and Potential Energy of an Oscillator
-      choice: one-eighth
+      choice: half
 ---
 # {{ params.vars.title }}
 
@@ -46,10 +46,10 @@ A simple harmonic oscillator has a displacement as a function of time given by $
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $A$  | A  |
-| $T$  | T  |
+| $A$ | A |
+| $T$ | T |
 
 ### Answer Section
 

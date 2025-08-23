@@ -48,10 +48,10 @@ myst:
     params:
       vars:
         title: Slider on a Rotating Arm
-      n1: 0.1
-      n2: 0.92
-      n3: 0.32
-      theta: 54
+      n1: 0.18
+      n2: 1.78
+      n3: 0.44
+      theta: 57
 ---
 # {{ params.vars.title }}
 The rotation of the arm $OA$ rotates about $O$ such that $\theta={{params.n1}}t^2$, where $\theta$ is in radians and $t$ in seconds.

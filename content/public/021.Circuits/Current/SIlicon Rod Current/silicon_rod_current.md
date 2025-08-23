@@ -45,9 +45,9 @@ myst:
       vars:
         title: Current Through A Silicon Rod
         units: "$\textrm{A}$"
-      d: 3.98
-      l: 34.7
-      V: 49
+      d: 4.6
+      l: 20.4
+      V: 15
 ---
 # {{ params.vars.title }}
 

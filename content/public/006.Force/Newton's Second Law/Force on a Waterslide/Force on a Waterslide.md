@@ -54,11 +54,11 @@ myst:
     params:
       vars:
         title: Force on a Waterslide
-      va: 13
+      va: 14
       vc: 7
-      M: 61
-      d: 10
-      r: 7
+      M: 43
+      d: 11
+      r: 4
 ---
 # {{ params.vars.title }}
 <img src="Force on a Waterslide.png" width=400>

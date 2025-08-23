@@ -38,10 +38,10 @@ myst:
     params:
       vars:
         title: Crate Down Ramp
-      nu: 0.25
-      theta: 37
-      m: 15
-      T: 41
+      nu: 0.52
+      theta: 23
+      m: 20
+      T: 46
 ---
 # {{ params.vars.title }}
 A ${{params.m}} \ \rm{kg}$ crate is sliding down a ${{params.theta}}^{\circ}$ slope. A man attempts to stop it by pulling uphill on a rope parallel to the slope.

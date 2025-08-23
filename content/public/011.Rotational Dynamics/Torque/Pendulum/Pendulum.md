@@ -40,10 +40,10 @@ myst:
       vars:
         title: Pendulum
       mr: 0.9
-      lr: 13
-      ms: 0.8
-      rs: 32
-      theta: 35
+      lr: 12
+      ms: 0.3
+      rs: 43
+      theta: 34
 ---
 # {{ params.vars.title }}
 A pendulum consists of a rod of mass ${{ params.mr }}$ $\rm{kg}$ and length ${{ params.lr }}$ $\rm{m}$ connected to a pivot with a solid sphere attached at the other end with mass ${{ params.ms }}$ $\rm{kg}$ and radius ${{ params.rs }}$ $\rm{cm}$.

@@ -46,8 +46,8 @@ myst:
     params:
       vars:
         title: Cosmic Ray Electron
-      v: 3.9
-      B: 3.3
+      v: 8.8
+      B: 2.4
 ---
 # {{ params.vars.title }}
 

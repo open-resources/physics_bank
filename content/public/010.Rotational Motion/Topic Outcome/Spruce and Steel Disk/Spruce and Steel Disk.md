@@ -48,9 +48,9 @@ myst:
       vars:
         title: Rolling Disk of Spruce and Steel
         units: $kg$
-      rho_spruce: 455.0
-      rho_steel: 7850.0
-      w_disk: 25.2
+      rho_spruce: 462.0
+      rho_steel: 7830.0
+      w_disk: 10.3
       part3:
         ans1:
           value: $x$ = 1 $cm$, $y$ = 0 $cm$
@@ -66,7 +66,7 @@ myst:
           value: $x$ = 0 $cm$, $y$ = 0.0 $cm$
 ---
 # {{ params.vars.title }}
-A disk that will appear to roll uphill is made from spruce ($\rho\_{\text{spruce}} = $ {{ params.rho_spruce }} $kg/m^3$) and steel ($\rho\_{\text{steel}} = $ {{ params.rho_steel }} $kg/m^3$) by drilling a 3 $cm$ diameter hole, centred 8 $cm$ above the centre of a 30 $cm$ diameter spruce cylinder, as shown in the figure.  Into this hole is inserted a piece of steel of identical dimensions.  The disk has a thickness of {{ params.w_disk }} $cm$.
+A disk that will appear to roll uphill is made from spruce ($\rho\_{\text{spruce}} = $ {{ params.rho_spruce }} $kg/m^3$) and steel ($\rho\_{\text{steel}} = $ {{ params.rho_steel }} $kg/m^3$) by drilling a 3 $cm$ diameter hole, centred 8 $cm$ above the centre of a 30 $cm$ diameter spruce cylinder, as shown in the figure. Into this hole is inserted a piece of steel of identical dimensions. The disk has a thickness of {{ params.w_disk }} $cm$.
 
 <img alt="The figure shows a disk centred at the origin of a cartesian plane with diameter 30 cm. There is a hole of diameter 3cm centred 8 cm above the centre of the disk." src="q10_2013practiceFinal.png">
 

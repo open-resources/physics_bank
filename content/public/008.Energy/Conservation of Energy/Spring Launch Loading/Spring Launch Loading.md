@@ -39,12 +39,12 @@ myst:
     params:
       vars:
         title: Spring Launch Loading
-      m: 40
-      F: 212
-      x1: 0.134
-      d: 0.91
-      h: 1.05
-      k: 92
+      m: 50
+      F: 211
+      x1: 0.294
+      d: 0.95
+      h: 0.83
+      k: 89
 ---
 # {{ params.vars.title }}
 <img src="Slider Restricted by Spring.png" width=100%>

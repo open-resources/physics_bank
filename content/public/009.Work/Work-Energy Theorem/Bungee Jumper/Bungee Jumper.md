@@ -50,10 +50,10 @@ part2:
 myst:
   substitutions:
     params:
-      m: 74
-      k: 20
-      l: 109
-      h1: 340.0
+      m: 76
+      k: 18
+      l: 107
+      h1: 350.0
 ---
 # Bungee Jumper
 A bungee jumper comprises of a person attached to a rubber cord who then releases himself off a cliff at a high altitude above sea level as shown in the image below.

@@ -65,7 +65,7 @@ myst:
       ratio: 3
 ---
 # {{ params.vars.title }}
-Superballs have nearly elastic collisions with both hard floors and other superballs.  A small superball (mass $m_s$) is dropped directly on top of a large superball of mass $m_l$, both falling from rest from a height $h$.  After an initial collision with the floor, the large superball heads directly upwards at speed $v$, where it collides elastically with the smaller ball, also moving at speed $v$ downward.
+Superballs have nearly elastic collisions with both hard floors and other superballs. A small superball (mass $m_s$) is dropped directly on top of a large superball of mass $m_l$, both falling from rest from a height $h$. After an initial collision with the floor, the large superball heads directly upwards at speed $v$, where it collides elastically with the smaller ball, also moving at speed $v$ downward.
 
 ## Part 1
 
@@ -77,11 +77,11 @@ Write your answer in terms of the mass of the larger ball $m_l$, the mass of the
 
 Use the following table as a reference for each variable. Note that it may not be necessary to use every variable.
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $m_l$  | m_l  |
-| $m_s$  | m_s  |
-| $v$  | v  |
+| $m_l$ | m_l |
+| $m_s$ | m_s |
+| $v$ | v |
 
 ### Answer Section
 
@@ -97,19 +97,19 @@ Following this collision, what maximal height will the small ball reach?
 
 Express your answer in terms of $h$, the height from which both balls were dropped.
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $h$  | h  |
+| $h$ | h |
 
 ### Answer Section
 
 ## Part 4
 
-If we replaced the top ball with a "sad" ball, which undergoes a perfectly inelastic collision with the returning "happy" ball, to what height would the "sad" ball return following the collision in terms of $h$, the height from which both balls were dropped?  (For this question, assume that $\frac{m_l}{m_s} = $ {{ params.ratio }}).
+If we replaced the top ball with a "sad" ball, which undergoes a perfectly inelastic collision with the returning "happy" ball, to what height would the "sad" ball return following the collision in terms of $h$, the height from which both balls were dropped? (For this question, assume that $\frac{m_l}{m_s} = $ {{ params.ratio }}).
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $h$  | h  |
+| $h$ | h |
 
 ### Answer Section
 

@@ -63,12 +63,12 @@ myst:
     params:
       vars:
         title: Relative Motion of Lazy River
-      d1: 8
-      d2: 10
-      theta1: 40
-      theta2: 50
-      v_AB: 13
-      v_B: 2
+      d1: 4
+      d2: 2
+      theta1: 24
+      theta2: 66
+      v_AB: 9
+      v_B: 5
 ---
 # {{ params.vars.title }}
 <img src="L11Q5.png" width=85%>

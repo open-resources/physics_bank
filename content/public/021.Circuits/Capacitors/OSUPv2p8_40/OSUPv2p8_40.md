@@ -44,7 +44,7 @@ myst:
       vars:
         title: Energy Stored in a Capacitor
       c: '10'
-      v: '6'
+      v: '9'
 ---
 # {{ params.vars.title }}
 

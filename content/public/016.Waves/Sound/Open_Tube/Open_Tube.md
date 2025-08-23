@@ -65,8 +65,8 @@ myst:
           value: Second Harmonic
         ans4:
           value: Fourth Harmonic
-      v: 264
-      f: 560
+      v: 269
+      f: 573
 ---
 # {{ params.vars.title }}
 <img src="openclosed.png" width="400">
@@ -91,9 +91,9 @@ What is the wavelength of this wave in terms of the length of the tube, $L$?
 
 Use the following table as a reference:
 
-| For      | Use   |
+| For | Use |
 |----------|-------|
-| $L$      | L     |
+| $L$ | L |
 
 ### Answer Section
 

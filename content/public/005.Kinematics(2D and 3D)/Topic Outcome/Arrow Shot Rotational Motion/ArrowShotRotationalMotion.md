@@ -47,9 +47,9 @@ myst:
       vars:
         title: Arrow Shot Rotational Motion
         units: ft/s
-      v: 134
-      t: 7.57
-      d: 61
+      v: 140
+      t: 1.68
+      d: 93
 ---
 # {{ params.vars.title }}
 <img src="Arrow Shot Rotational Motion.png" width=800>

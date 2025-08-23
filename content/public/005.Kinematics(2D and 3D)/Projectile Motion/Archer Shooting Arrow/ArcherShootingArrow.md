@@ -63,9 +63,9 @@ myst:
     params:
       vars:
         title: Archer Shooting Arrow
-      v: 169
-      thetad: 18
-      d: 66
+      v: 171
+      thetad: 37
+      d: 32
 ---
 # {{ params.vars.title }}
 <img src="Archer Shooting Arrow.png" width=800>

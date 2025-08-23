@@ -39,20 +39,20 @@ myst:
         ball: baseball
         action: throws
         obstacle: wall
-      d: 56
-      h: 3
-      v: 28
-      theta: 61
+      d: 78
+      h: 1
+      v: 18
+      theta: 33
       part1:
         ans1:
           value: It clears the wall
-          feedback: Correct!
+          feedback: Try again...
         ans2:
           value: It hits the wall
           feedback: Try again...
         ans3:
           value: It doesn't even reach the wall
-          feedback: Try again...
+          feedback: Correct!
 ---
 # {{ params.vars.title }}
 A person {{params.phrases.action}} a {{params.phrases.ball}} towards their friend who is behind a ${{params.h}} \ \rm{m}$ {{params.phrases.obstacle}}. The {{params.phrases.ball}} has an initial velocity of ${{params.v}} \ \rm{m/s}$ at an angle ${{params.theta}}^\circ$ relative to ground.

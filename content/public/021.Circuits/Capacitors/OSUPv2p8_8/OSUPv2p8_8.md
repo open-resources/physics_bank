@@ -42,7 +42,7 @@ myst:
     params:
       vars:
         title: Maximizing Energy in a Capacitor Bank
-        name: Maya
+        name: Santiago
       part1:
         ans1:
           value: Parallel

@@ -36,8 +36,8 @@ myst:
     params:
       vars:
         title: Relative Highway
-      v1: 12
-      v3: 8
+      v1: 10
+      v3: 9
       d: 5
       t: 2
 ---
@@ -45,7 +45,7 @@ myst:
 Three cars are driving on different lanes on a highway.
 At $t = 0 \ \rm{s}$, Car 1 is in the front travelling at a constant speed of ${{params.v1}} \ \rm{m/s}$.
 Car 2 is ${{params.d}} \ \rm{m}$ behind Car 1 and has a constant speed such that it will catch Car 1 in ${{params.t}} \ \rm{s}$.
-Car 3 is in between them travelling at a constant speed of ${{params.v3}}  \ \rm{m/s}$.
+Car 3 is in between them travelling at a constant speed of ${{params.v3}} \ \rm{m/s}$.
 
 ## Part 1
 

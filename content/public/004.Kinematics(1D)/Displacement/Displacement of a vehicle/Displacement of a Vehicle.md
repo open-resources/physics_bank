@@ -35,14 +35,14 @@ myst:
   substitutions:
     params:
       vars:
-        vehicle: truck
+        vehicle: bus
         title: Displacement of a Vehicle
         units: blocks
-      c1: 98
-      c2: 75
-      c3: 53
-      dir1: south
-      dir2: west
+      c1: 91
+      c2: 20
+      c3: 65
+      dir1: east
+      dir2: north
       dir3: south
 ---
 # {{ params.vars.title }}

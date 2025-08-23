@@ -60,10 +60,10 @@ part3:
 myst:
   substitutions:
     params:
-      u_s: 7.4
-      h: 2.7
-      v_s: 5.01
-      theta: 11.0
+      u_s: 7.1
+      h: 2.9
+      v_s: 4.33
+      theta: 6.0
 ---
 # Badminton Net Kill Shot
 In a game of badminton, to counter a weak lift shot, the receiver can orient their racket at certain angle relative to the vertical. Thus, he/she is able to utilize the incoming momentum of the shuttle and principles of oblique impacts to return the shuttle at a steep angle without exerting an additional impulse. This agile shot is termed as a badminton net kill shot due to its play in close proximity to the net.

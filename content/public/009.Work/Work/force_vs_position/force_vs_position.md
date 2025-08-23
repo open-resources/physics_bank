@@ -54,8 +54,8 @@ myst:
     params:
       vars:
         title: Force vs Position Graph
-      m: 1.0
-      v: 3.5
+      m: 4.0
+      v: 0.5
       x: 1.5
 ---
 # {{ params.vars.title }}

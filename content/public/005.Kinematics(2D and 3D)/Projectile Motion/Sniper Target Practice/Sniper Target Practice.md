@@ -40,9 +40,9 @@ myst:
     params:
       vars:
         title: Sniper Target Practice
-      v: 1137
-      d: 1.78
-      h: 42
+      v: 1010
+      d: 2.11
+      h: 112
 ---
 # {{ params.vars.title }}
 A sniper is practicing their shots on a target $h = {{ params.h }} \ \rm{m}$ high at $d = {{ params.d }} \ \rm{km}$ away.

@@ -41,10 +41,10 @@ myst:
     params:
       vars:
         title: Shooting a Pendulum
-      L: 1.67
-      m1: 0.05
-      m2: 17.72
-      v: 543
+      L: 1.09
+      m1: 0.04
+      m2: 17.46
+      v: 537
 ---
 # {{ params.vars.title }}
 A bullet of mass $m_1={{params.m1}} \ \rm{kg}$ is traveling at velocity $v={{params.v}} \ \rm{m/s}$.

@@ -39,10 +39,10 @@ myst:
       vars:
         title: Attaching The Mast
         units: m/s
-      v: 5
-      theta: 126
-      d1: 2
-      d2: 4
+      v: 7
+      theta: 110
+      d1: 3
+      d2: 5
 ---
 # {{ params.vars.title }}
 <img src="AttachingTheMast.png" width=400>

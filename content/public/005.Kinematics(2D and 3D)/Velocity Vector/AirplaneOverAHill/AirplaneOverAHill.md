@@ -38,9 +38,9 @@ myst:
     params:
       vars:
         title: Airplane Over a Hill
-      Vshadow: 330
-      theta: 15
-      alpha: 27
+      Vshadow: 336
+      theta: 25
+      alpha: 10
 ---
 # {{ params.vars.title }}
 As an airplane is taking off, it flies over a hill inclined ${{params.theta}}^{\circ}$ upwards.

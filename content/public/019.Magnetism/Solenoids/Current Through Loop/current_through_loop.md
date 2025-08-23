@@ -45,10 +45,10 @@ myst:
     params:
       vars:
         title: Current Through Loop
-      N: 70
-      t: 14
-      s: 18
-      B: 0.993
+      N: 85
+      t: 2
+      s: 13
+      B: 0.808
 ---
 # {{ params.vars.title }}
 

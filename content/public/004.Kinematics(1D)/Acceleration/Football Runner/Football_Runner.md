@@ -45,11 +45,11 @@ myst:
     params:
       vars:
         title: Football Runner
-      dT: 400.0
-      vM: 10.0
-      d1: 160.0
+      dT: 360.0
+      vM: 11.0
+      d1: 140.0
       d2: 220.0
-      vF: 7.5
+      vF: 6.4
 ---
 # {{ params.vars.title }}
 <img src="Football_Runner.png" width=600>

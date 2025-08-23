@@ -37,12 +37,12 @@ myst:
       vars:
         title: Collision of a Cart with a Spring
         units: m/s
-      m: 96
-      k: 384
-      x: 37
+      m: 99
+      k: 399
+      x: 86
 ---
 # {{ params.vars.title }}
-A  {{ params.m }}  $kg$  runaway  grocery  cart  runs  into  a  spring  with a spring  constant $k = $  {{ params.k }}  $N/m$  and compresses it by {{ params.x }} $cm$ before momentarily coming to rest.
+A {{ params.m }} $kg$ runaway grocery cart runs into a spring with a spring constant $k = $ {{ params.k }} $N/m$ and compresses it by {{ params.x }} $cm$ before momentarily coming to rest.
 
 ## Question Text
 

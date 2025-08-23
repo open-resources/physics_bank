@@ -51,9 +51,9 @@ myst:
     params:
       vars:
         title: Electron in a Solenoid
-      n: '35'
-      r: '2.70'
-      v: "$2.60\\times 10^{6 }\textrm{ m/s}$"
+      n: '15'
+      r: '2.60'
+      v: "$1.40\\times 10^{6 }\textrm{ m/s}$"
 ---
 # {{ params.vars.title }}
 A solenoid with {{ params.n }} turns per centimter carries a current $I$.

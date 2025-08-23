@@ -45,7 +45,7 @@ myst:
       vars:
         title: Potential Difference of Rod
       B: '0.50'
-      v: '5'
+      v: '4'
       part2:
         ans1:
           value: Bottom

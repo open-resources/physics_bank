@@ -42,7 +42,7 @@ myst:
           value: More than $45^{\circ}$
 ---
 # {{ params.vars.title }}
-An  army is besieging a castle with a cannon.
+An army is besieging a castle with a cannon.
 They want to be able to keep the cannon far back, but still be able to strike the castle walls above them.
 What would their optimum launch angle from the cannon be?
 

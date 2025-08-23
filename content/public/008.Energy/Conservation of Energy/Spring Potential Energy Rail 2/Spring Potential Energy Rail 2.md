@@ -54,9 +54,9 @@ myst:
     params:
       vars:
         title: Spring Potential Energy Rail 2
-      m: 400
-      R: 36.0
-      k: 115
+      m: 500
+      R: 64.0
+      k: 147
 ---
 # {{ params.vars.title }}
 <img src="Spring Potential Energy Rail 2.png" width=400>

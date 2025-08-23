@@ -36,8 +36,8 @@ myst:
     params:
       vars:
         title: Water Rocket
-      m: 1.4
-      i: 12
+      m: 1.2
+      i: 17
 ---
 # {{ params.vars.title }}
 We are designing a water rocket with a water bottle and pressurized air. We will fill 80% of the volume of the bottle with water. The total mass of our rocket (bottle + water + air) is {{ params.m }} $\rm{kg}$.

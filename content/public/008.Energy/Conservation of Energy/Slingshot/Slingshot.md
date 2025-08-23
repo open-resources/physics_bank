@@ -46,10 +46,10 @@ myst:
     params:
       vars:
         title: Slingshot
-      K: 192
-      d: 1.02
-      x0: 0.21
-      m: 9
+      K: 196
+      d: 1.27
+      x0: 0.26
+      m: 13
 ---
 # {{ params.vars.title }}
 A slingshot made of two springs with spring constant ${{params.K}} \ \rm{N/m}$ is loaded with a mass $m={{params.m}} \ \rm{kg}$.

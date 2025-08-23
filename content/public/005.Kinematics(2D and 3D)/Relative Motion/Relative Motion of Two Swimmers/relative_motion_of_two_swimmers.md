@@ -46,10 +46,10 @@ myst:
     params:
       vars:
         title: Relative Motion of Two Swimmers
-      v: 3
-      h: 12
-      d: 37
-      t: 20
+      v: 2
+      h: 29
+      d: 10
+      t: 11
 ---
 # {{ params.vars.title }}
 <img src="L11Q3.png" width=85%>

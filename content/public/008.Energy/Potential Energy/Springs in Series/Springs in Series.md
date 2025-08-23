@@ -38,9 +38,9 @@ myst:
     params:
       vars:
         title: Springs in Series
-      k2: 230.0
-      k1: 200.0
-      F: 51.0
+      k2: 110.0
+      k1: 130.0
+      F: 54.0
 ---
 # {{ params.vars.title }}
 <img src="Springs in Series.png" height = 600> 

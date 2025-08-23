@@ -38,8 +38,8 @@ myst:
     params:
       vars:
         title: Basketball Rebound
-      m: 895
-      v: 13
+      m: 641
+      v: 6
 ---
 # {{ params.vars.title }}
 To measure the interaction force between a basketball and the backboard, we attached a force plate to the backboard. When a {{ params.m }} $\rm{g}$ basketball hit the force plate with a speed of {{ params.v }} $\rm{m/s}$, a graph of force of the plate on the ball versus time ($\rm{ms}$) was recorded as shown in the figure.
@@ -48,7 +48,7 @@ To measure the interaction force between a basketball and the backboard, we atta
 
 ## Part 1
 
-What was the rebound speed of the ball from the plate? \[Hint: since the force is in the $+x$-direction, the ball must be thrown in the $-x$-direction.\]
+What was the rebound speed of the ball from the plate? [Hint: since the force is in the $+x$-direction, the ball must be thrown in the $-x$-direction.]
 
 ### Answer Section
 

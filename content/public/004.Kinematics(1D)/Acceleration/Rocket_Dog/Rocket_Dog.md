@@ -71,8 +71,8 @@ myst:
       vars:
         title: Rocket Dog
         units: $\rm{m/s}$
-      x: $3t^3 - 8t^2 - 8t$
-      time: 5
+      x: $t^2 - 9t$
+      time: 3
       part4:
         ans1:
           value: The rocket dog is moving towards the origin.
@@ -94,9 +94,9 @@ where $x$ is in metres and $t$ is in seconds.
 What is the velocity of the rocket dog as a function of time?
 
 Use the following table as a reference:
-| $Variable$ | Use   |
+| $Variable$ | Use |
 |----------|-------|
-| $t$  | t  |
+| $t$ | t |
 
 ### Answer Section
 
@@ -107,9 +107,9 @@ Please enter the equation for velocity.
 What is the acceleration of the rocket dog as a function of time?
 
 Use the following table as a reference:
-| $Variable$ | Use   |
+| $Variable$ | Use |
 |----------|-------|
-| $t$  | t  |
+| $t$ | t |
 
 ### Answer Section
 

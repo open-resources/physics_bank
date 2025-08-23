@@ -40,16 +40,16 @@ myst:
       vars:
         title: Man Vs Box
         units: "$\rm{m/s^2}$"
-      m: 139
+      m: 146
       M: 89
-      theta: 60
-      h: 1.52
+      theta: 43
+      h: 1.59
 ---
 # {{ params.vars.title }}
 <img src="Man vs box.png" width=700>
 
 In the figure shown is a pulley system with a box attached with mass ${{params.m}}\ \rm{kg}$. On the other side of the pulley is a person with mass ${{params.M}}\ \rm{kg}$ and height ${{params.h}}\ \rm{m}$.
-The person leans back at an angle ${{params.theta}}^\circ$  and uses only their weight as leverage on the rope.
+The person leans back at an angle ${{params.theta}}^\circ$ and uses only their weight as leverage on the rope.
 Up is negative, down is positive.
 
 ## Part 1

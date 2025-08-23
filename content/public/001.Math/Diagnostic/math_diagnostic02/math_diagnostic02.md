@@ -33,17 +33,17 @@ myst:
     params:
       vars:
         title: Math Diagnostic02
-      x: 541.9998137
-      sf: 5
+      x: 175.45251986
+      sf: 6
       part1:
         ans1:
-          value: 542.0
+          value: 175.453
         ans2:
-          value: 542.1
+          value: 175.553
         ans3:
-          value: 541.99981
+          value: 175.45252
         ans4:
-          value: 532.0
+          value: 165.453
 ---
 # {{ params.vars.title }}
 

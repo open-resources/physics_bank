@@ -49,9 +49,9 @@ myst:
     params:
       vars:
         title: Travelling Wave Displacement
-      A: 2
-      k: 7
-      omega: 8
+      A: 6
+      k: 6
+      omega: 5
       part2:
         ans1:
           value: The positive x direction.

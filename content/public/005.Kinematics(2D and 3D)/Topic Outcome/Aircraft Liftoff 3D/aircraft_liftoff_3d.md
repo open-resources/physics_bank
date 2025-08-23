@@ -54,10 +54,10 @@ myst:
     params:
       vars:
         title: Aircraft Liftoff 3D
-      v: 11
-      z: 275
-      x: 467
-      angle: 28
+      v: 4
+      z: 329
+      x: 419
+      angle: 22
 ---
 # {{ params.vars.title }}
 <img src="L10Q1.png" width=85%>

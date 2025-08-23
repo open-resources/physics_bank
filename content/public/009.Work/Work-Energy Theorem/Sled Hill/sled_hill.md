@@ -57,12 +57,12 @@ myst:
   substitutions:
     params:
       vars:
-        name: Maya
+        name: Ahmed
         title: Sled Hill
-      angle: 6
-      h: 22
-      uk: 0.08
-      m: 85
+      angle: 7
+      h: 11
+      uk: 0.09
+      m: 80
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is on a sled, sliding down a snow covered hill sloped at {{ params.angle }}$^\circ$ (relative to the horizontal). In travelling a distance $d$ the sled has descended through a vertical distance of $10 \, \rm{m}$.

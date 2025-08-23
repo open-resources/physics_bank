@@ -57,9 +57,9 @@ myst:
     params:
       vars:
         title: Mean resting respiratory rate
-      Resp_Es: 651
-      Resp_r: 23
-      m_Es: 1.68
+      Resp_Es: 660
+      Resp_r: 20
+      m_Es: 2.02
       power: 2
       part1:
         ans1:
@@ -96,10 +96,10 @@ Prepare: Use proportional reasoning to express $\frac{M\_{rhino}}{M\_{Es}}$ in t
 
 Use the following table as a reference for using each variable:
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $RR\_{rhino}$  | RR_r  |
-| $RR\_{Es}$  |RR_Es  |
+| $RR\_{rhino}$ | RR_r |
+| $RR\_{Es}$ |RR_Es |
 
 ### Answer Section
 

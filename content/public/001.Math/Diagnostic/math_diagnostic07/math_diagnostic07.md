@@ -33,17 +33,17 @@ myst:
     params:
       vars:
         title: Math Diagnostic07
-      formula1: 3x - 2y = 49
-      formula2: 4x + 1y = 43
+      formula1: 7x - 4y = 38
+      formula2: 5x + 2y = 30
       part1:
         ans1:
-          value: ' x =135/11, y =-67/11'
+          value: ' x =98/17, y =10/17'
         ans2:
-          value: ' x =-67/11, y =135/11'
+          value: ' x =10/17, y =98/17'
         ans3:
-          value: ' x =-135/11, y =67/11'
+          value: ' x =-98/17, y =-10/17'
         ans4:
-          value: ' x =67/11, y =-135/11'
+          value: ' x =-10/17, y =-98/17'
         ans5:
           value: Don't Know
 ---

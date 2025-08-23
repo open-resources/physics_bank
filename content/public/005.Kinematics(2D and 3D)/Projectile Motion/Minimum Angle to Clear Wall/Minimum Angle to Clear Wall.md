@@ -39,14 +39,14 @@ myst:
       vars:
         title: Minimum Angle to Clear Wall
         units: $^{\circ}$
-      v: 22.94
-      d: 8.9
-      h: 4.34
+      v: 23.44
+      d: 7.91
+      h: 2.89
 ---
 # {{ params.vars.title }}
 <img src = "Minimum_Angle_To_Clear_Wall_Correct.jpg"  width=700>
 
-We launch a projectile from rest at $v_0=  {{ params.v }}\ \rm{m/s}$, there is a wall ${{ params.d }}\ \rm{m}$ away. The wall is ${{ params.h }}\ \rm{m}$ tall.
+We launch a projectile from rest at $v_0= {{ params.v }}\ \rm{m/s}$, there is a wall ${{ params.d }}\ \rm{m}$ away. The wall is ${{ params.h }}\ \rm{m}$ tall.
 
 ## Part 1
 

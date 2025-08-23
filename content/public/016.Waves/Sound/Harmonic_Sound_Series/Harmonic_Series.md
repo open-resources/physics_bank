@@ -34,27 +34,27 @@ myst:
     params:
       vars:
         title: Harmonic Series
-      f: 514
+      f: 512
       part1:
         ans1:
-          value: '5.14'
+          value: '5.12'
           feedback: This is a random number, you probably selected this choice by
             mistake! Try again
         ans2:
           value: '1.5'
           feedback: Great! You got it.
         ans3:
-          value: '0.321'
+          value: '0.3223'
           feedback: Hmm, It seems you did partial calculations, you need a ratio!
         ans4:
-          value: '0.4815'
+          value: '0.4834'
           feedback: Hmm, It seems you did partial calculations, you need a ratio!
         ans5:
-          value: '0.642'
+          value: '0.6445'
           feedback: Check your calculations again; Apply suitable formulas!
 ---
 # {{ params.vars.title }}
-Musical instruments tune to the note A at a frequency of {{ params.f }}.  The speed of sound in the air is 330 m/s at room temperature.  An open-open tube (a flute) plays this note as its fundamental (first harmonic) while an open-closed tube (a clarinet) plays this note as its third harmonic.
+Musical instruments tune to the note A at a frequency of {{ params.f }}. The speed of sound in the air is 330 m/s at room temperature. An open-open tube (a flute) plays this note as its fundamental (first harmonic) while an open-closed tube (a clarinet) plays this note as its third harmonic.
 
 ## Part 1
 

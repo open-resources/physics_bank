@@ -51,9 +51,9 @@ myst:
       vars:
         title: Cars on Hills
         units: "$\rm{\frac{m}{s^2}}$"
-      v: 26
-      r: 124
-      mu: 5.56
+      v: 16
+      r: 198
+      mu: 7.05
 ---
 # {{ params.vars.title }}
 Two cars are driving at {{params.v}} $\rm{m/s}$ along the road shown in the figure.

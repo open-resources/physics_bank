@@ -37,9 +37,9 @@ myst:
     params:
       vars:
         title: Jet Braking
-      v: 270.0
-      v0: 380.0
-      ac: -0.0044
+      v: 140.0
+      v0: 250.0
+      ac: -0.0051
 ---
 # {{ params.vars.title }}
 <img src="Jet_Braking.png" width=800>

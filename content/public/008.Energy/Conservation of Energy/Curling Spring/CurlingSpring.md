@@ -52,9 +52,9 @@ myst:
         title: Curling Rock Hits a Spring
         units: J
       m: 19.1
-      d: 2
-      mu: 0.1
-      k: 357
+      d: 1
+      mu: 0.4
+      k: 379
 ---
 # {{ params.vars.title }}
 A curler is practicing for the national curling championships to get the perfect momentum and strength on the push of a curling rock. The rock has a mass of $m = {{ params.m }} \ \rm{kg}$ and hits a spring target at the end. Find the work done by the spring, and the speed of the rock when it reached the spring, if the spring constant is $k = {{ params.k }} \ \rm{N/m}$ and the spring compresses $d = {{ params.d }} \ \rm{cm}$. The coefficient of friction on rough ice sheet is $\mu = {{ params.mu }}$.

@@ -36,22 +36,22 @@ myst:
     params:
       vars:
         title: Lifting Machine Conceptual
-      choice: increases
+      choice: decreases
       part1:
         ans1:
-          value: Increase $r_4$
+          value: Increase $r_3$
           feedback: Correct!
         ans2:
-          value: Increase $r_2$
+          value: Decrease $r_4$
           feedback: Correct!
         ans3:
-          value: Decrease $r_2$
+          value: Decrease $r_3$
           feedback: Nope.
         ans4:
-          value: Decrease $r_4$
+          value: Increase $r_2$
           feedback: Nope.
         ans5:
-          value: Increase $r_3$
+          value: Increase $r_4$
           feedback: Nope.
 ---
 # {{ params.vars.title }}

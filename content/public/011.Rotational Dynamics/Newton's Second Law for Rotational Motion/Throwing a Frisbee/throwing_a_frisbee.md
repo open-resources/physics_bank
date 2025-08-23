@@ -62,10 +62,10 @@ myst:
     params:
       vars:
         title: Throwing a Frisbee
-      dw: 10
-      dt: 0.15
-      m: 0.153
-      d: 0.41
+      dw: 8
+      dt: 0.2
+      m: 0.178
+      d: 0.42
 ---
 # {{ params.vars.title }}
 As a frisbee (a flying disk) is released, it is spun so that its angular velocity increases from 0 to {{ params.dw }} $\pi \; \rm{rad/s}$ in {{ params.dt }} $\rm{s}$.

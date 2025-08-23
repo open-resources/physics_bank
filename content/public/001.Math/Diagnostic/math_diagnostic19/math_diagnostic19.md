@@ -33,16 +33,16 @@ myst:
     params:
       vars:
         title: Math Diagnostic19
-      a: $ \sin356$
+      a: $ \sin221$
       part1:
         ans1:
-          value: $\sin{-4}$
+          value: $\sin{-139}$
         ans2:
-          value: $\sin{4}$
+          value: $\sin{139}$
         ans3:
-          value: $\sin{87}$
+          value: $\sin{42}$
         ans4:
-          value: $\sin{-87}$
+          value: $\sin{-42}$
         ans5:
           value: Don't Know
 ---

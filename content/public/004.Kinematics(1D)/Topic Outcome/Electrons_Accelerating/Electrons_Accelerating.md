@@ -33,19 +33,19 @@ myst:
       vars:
         title: Electrons Accelerating
         units: $m$
-      dist: 11
-      acc: 2
+      dist: 20
+      acc: 5
       part1:
         ans1:
-          value: 11
+          value: 20
         ans2:
-          value: 22.0
+          value: 100.0
         ans3:
-          value: 44.0
+          value: 500.0
         ans4:
-          value: 5.5
+          value: 4.0
         ans5:
-          value: 0.18
+          value: 0.25
 ---
 # {{ params.vars.title }}
 An electron accelerated (with acceleration $a_1$) from rest for a time interval $t_1$ and travels a distance of {{params.dist}} $m$.

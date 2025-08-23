@@ -65,7 +65,7 @@ myst:
       vars:
         title: 'Switched RL Series Circuit: Time Constant'
       t: '2.60'
-      L: '210.0'
+      L: '300.0'
 ---
 # {{ params.vars.title }}
 Consider the $RL$ circuit shown below.

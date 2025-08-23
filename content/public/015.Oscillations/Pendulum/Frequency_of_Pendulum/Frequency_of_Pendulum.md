@@ -37,7 +37,7 @@ myst:
     params:
       vars:
         title: Frequency/Period of Oscillation
-      R: 2
+      R: 7
       pendulum: ' frequency of oscillation of this physical pendulum.'
 ---
 # {{ params.vars.title }}
@@ -78,11 +78,11 @@ Find the {{ params.pendulum }}
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| For  | Use|
+| For | Use|
 |----- |----|
-| $M$  | M  |
-| $r$  | r  |
-| $g$  | g  |
+| $M$ | M |
+| $r$ | r |
+| $g$ | g |
 
 ### Answer Section
 

@@ -47,7 +47,7 @@ myst:
       vars:
         title: Pool Trickshot
       thetad: 30
-      e: 0.93
+      e: 0.75
 ---
 # {{ params.vars.title }}
 <img src="L22Q1.png" width=400>

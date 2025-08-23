@@ -37,7 +37,7 @@ myst:
     params:
       vars:
         title: Perfect Pendulum Clock
-      gain: 22.5
+      gain: 26.0
 ---
 # {{ params.vars.title }}
 

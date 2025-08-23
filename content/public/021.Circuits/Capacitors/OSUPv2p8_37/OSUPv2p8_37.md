@@ -47,12 +47,12 @@ myst:
     params:
       vars:
         title: Adding Capacitances
-      a: '9'
-      b: '4'
+      a: '8'
+      b: '1'
       c: '1.5'
-      d: '2.5'
-      e: '1.75'
-      f: '13'
+      d: '2.0'
+      e: '2.00'
+      f: '14'
 ---
 # {{ params.vars.title }}
 

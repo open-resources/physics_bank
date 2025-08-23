@@ -45,9 +45,9 @@ myst:
     params:
       vars:
         title: Crate and Pulleys
-      t: 2.3
+      t: 0.77
       mA: 39
-      mB: 24.0
+      mB: 30.0
 ---
 # {{ params.vars.title }}
 <img src="Crate and Pulleys.png" width=600>

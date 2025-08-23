@@ -36,8 +36,8 @@ myst:
         title: Maximum Speed of Car
         units: $ft/s$
       yards: 100
-      max_speed_t: 7
-      overall_t: 10
+      max_speed_t: 4
+      overall_t: 5
 ---
 # {{ params.vars.title }}
 <img src="L5Q1.png" width=85%>

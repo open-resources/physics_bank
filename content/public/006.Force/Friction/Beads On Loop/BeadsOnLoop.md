@@ -37,9 +37,9 @@ myst:
     params:
       vars:
         title: Beads on Loop
-      v: 6
-      r: 0.22
-      mu: 0.41
+      v: 9
+      r: 0.2
+      mu: 0.47
 ---
 # {{ params.vars.title }}
 <img src="BeadsOnLoop.png" width=90%>

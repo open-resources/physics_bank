@@ -46,10 +46,10 @@ myst:
     params:
       vars:
         title: Folding Platform
-      h: 1
-      x: 1
-      l_dot: 0.5
-      theta: 28
+      h: 5
+      x: 5
+      l_dot: -0.05
+      theta: 72
 ---
 # {{ params.vars.title }}
 A platform of length $x = {{params.x}}\ \rm{m}$ is being folded up against a wall by a rope pulling on its end.

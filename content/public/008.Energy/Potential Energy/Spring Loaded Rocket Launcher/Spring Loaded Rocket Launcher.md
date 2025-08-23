@@ -53,12 +53,12 @@ myst:
     params:
       vars:
         title: Spring Loaded Rocket Launcher
-      mp: 42
-      mr: 158
-      k: 801
-      x0: 23
-      x1: 5.4
-      e: 0.75
+      mp: 47
+      mr: 139
+      k: 249
+      x0: 48
+      x1: 14.0
+      e: 0.49
 ---
 # {{ params.vars.title }}
 <img src="Spring Loaded Rocket Launcher.png" width=800>

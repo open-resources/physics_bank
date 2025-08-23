@@ -33,16 +33,16 @@ myst:
     params:
       vars:
         title: Math Diagnostic03
-        formula: 8x + -7 > -4x + 10
+        formula: -2x + -3 > -6x + 6
       part1:
         ans1:
-          value: x > 17/12
+          value: x > 9/4
         ans2:
-          value: x < 17/12
+          value: x < 9/4
         ans3:
-          value: x < 12/17
+          value: x < 4/9
         ans4:
-          value: x > 12/17
+          value: x > 4/9
         ans5:
           value: Don't Know
 ---

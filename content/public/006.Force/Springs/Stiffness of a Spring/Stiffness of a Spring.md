@@ -38,11 +38,11 @@ myst:
     params:
       vars:
         title: Stiffness of a Spring
-      h: 345
-      F: 178.0
-      x: 168
-      d: 62
-      m: 1
+      h: 309
+      F: 238.0
+      x: 155
+      d: 34
+      m: 4
 ---
 # {{ params.vars.title }}
 <img src="Stiffness of a Spring.png" width=400>

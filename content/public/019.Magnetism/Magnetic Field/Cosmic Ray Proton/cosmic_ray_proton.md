@@ -41,9 +41,9 @@ myst:
     params:
       vars:
         title: Cosmic Ray Proton
-      v: 5.57
-      F: 3.19
-      theta: 84
+      v: 7.86
+      F: 1.39
+      theta: 23
 ---
 # {{ params.vars.title }}
 

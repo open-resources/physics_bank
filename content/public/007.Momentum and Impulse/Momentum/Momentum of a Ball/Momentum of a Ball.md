@@ -36,9 +36,9 @@ myst:
     params:
       vars:
         title: Momentum of a Ball
-      h: 3.1
-      v: 20
-      m: 2.4
+      h: 3.5
+      v: 16
+      m: 3.8
 ---
 # {{ params.vars.title }}
 A ball with mass ${{params.m}} \ \rm{kg}$ is thrown from a height ${{params.h}} \ \rm{m}$ directly downwards, having a speed of ${{params.v}} \ \rm{m/s}$.

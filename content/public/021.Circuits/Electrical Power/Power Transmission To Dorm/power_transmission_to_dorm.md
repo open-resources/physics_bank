@@ -53,14 +53,14 @@ myst:
     params:
       vars:
         title: Power Transmission To Dorm
-      I_ref: 5
-      V_ref: 141
-      P_bulb: 84
-      P_light: 39
+      I_ref: 4
+      V_ref: 140
+      P_bulb: 87
+      P_light: 25
       P_other: 5
-      V_pp: 141
-      d_pp: 5
-      Al_d: 8.596
+      V_pp: 140
+      d_pp: 4
+      Al_d: 7.356
 ---
 # {{ params.vars.title }}
 A physics student has a single-occupancy dorm room.

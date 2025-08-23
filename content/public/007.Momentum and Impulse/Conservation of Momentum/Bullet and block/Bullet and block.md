@@ -43,12 +43,12 @@ myst:
     params:
       vars:
         title: Bullet and Block
-        name: Abbas
-      m_bullet: 39
-      m_block: 10
-      bullet_v: 888
-      slide_d: 3
-      slide_dnew: 3.9
+        name: Lorenzo
+      m_bullet: 23
+      m_block: 19
+      bullet_v: 764
+      slide_d: 5
+      slide_dnew: 5.5
       coeff_k: 0.2
 ---
 # {{ params.vars.title }}

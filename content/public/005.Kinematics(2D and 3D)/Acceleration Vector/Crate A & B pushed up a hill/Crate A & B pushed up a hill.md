@@ -47,15 +47,15 @@ myst:
       vars:
         title: Crate A & B pushed up a hill
         units: m, m/$s^2$
-      m1: 6.52
-      m2: 20.12
-      v0: 47
-      theta: 23.69
+      m1: 9.58
+      m2: 14.17
+      v0: 45
+      theta: 49.01
 ---
 # {{ params.vars.title }}
 A person is pushing crate $\rm{A}$ and $\rm{B}$ up a hill to have it slide down into an area for pickup and loading.
 Crate A has a mass of $m_1 = {{ params.m1 }} \ \rm{kg}$ and Crate B has a mass of $m_2 = {{params.m2}} \ \rm{kg}$.
-The hill makes an angle of $\theta =  {{ params.theta }}^{\circ}$ with the horizontal.
+The hill makes an angle of $\theta = {{ params.theta }}^{\circ}$ with the horizontal.
 
 <img src="crate.png" width=800>
 

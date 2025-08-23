@@ -54,7 +54,7 @@ myst:
 
 ## Part 1
 
-Identify which of the below graphs represents the kinetic energy as a function of time for a simple harmonic oscillator with displacement $x(t) = A \cos \left( \frac{2\pi t}{12} - \frac{\pi}{3}  \right)$
+Identify which of the below graphs represents the kinetic energy as a function of time for a simple harmonic oscillator with displacement $x(t) = A \cos \left( \frac{2\pi t}{12} - \frac{\pi}{3} \right)$
 
 <img src="kmax.jpg" alt="Image of five graphs. The five graphs represent the kinetic energy as a function of time for a simple harmonic oscillator. Graph A shows positive kinetic energy at all times with K = 0 at t = 1s. Graph B shows positive kinetic energy at all times with K = 0 at t = 1s. Graph C shows positive kinetic energy at all times with K = 0 at t = 2s. Graph D shows negative kinetic energy at 2s < t < 8s with K = 0 at t = 2s and t = 8s. Graph E shows positive kinetic energy at all times with K = 0 at t = 4s." width = "600" height = "500">
 

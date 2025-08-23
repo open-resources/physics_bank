@@ -50,9 +50,9 @@ myst:
       vars:
         title: Parallel Plates
       L: '7'
-      q: '7.8'
-      p: '-6'
-      d: '0.9'
+      q: '6.6'
+      p: '-10'
+      d: '1.2'
       part2:
         ans1:
           value: points towards the negative plate

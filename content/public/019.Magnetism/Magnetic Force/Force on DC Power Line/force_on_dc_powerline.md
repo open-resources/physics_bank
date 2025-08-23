@@ -40,9 +40,9 @@ myst:
     params:
       vars:
         title: Force on a DC Power Line
-      I: 945
-      theta: 25
-      L: 133
+      I: 993
+      theta: 53
+      L: 152
 ---
 # {{ params.vars.title }}
 

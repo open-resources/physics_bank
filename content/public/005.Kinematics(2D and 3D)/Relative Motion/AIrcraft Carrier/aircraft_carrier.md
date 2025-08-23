@@ -36,16 +36,16 @@ myst:
     params:
       vars:
         title: Aircraft Carrier
-      va: 220
-      vb: 159
+      va: 149
+      vb: 147
 ---
 # {{ params.vars.title }}
 Plane A takes off with a velocity of $\vec{v_A}$ = ({{ params.va }} $km/h$)$\hat{\imath}$ relative to the aircraft carrier. On a second runway which is directed 30$^{\circ}$ away from the $x$-axis, plane B has a speed of {{ params.vb }} $km/h$ relative to the aircraft carrier.
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $\hat{i}$  | i_hat  |
-| $\hat{j}$  | j_hat  |
+| $\hat{i}$ | i_hat |
+| $\hat{j}$ | j_hat |
 
 <img src="Q5.png" width = 400px alt = "Aircraft carrier with plane A taking off along the x-axis and plane B taking off at a 30 degree angle from the x-axis.">
 

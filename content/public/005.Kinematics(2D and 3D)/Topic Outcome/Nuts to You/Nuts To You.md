@@ -81,8 +81,8 @@ myst:
     params:
       vars:
         title: Nuts To You
-      vi_hawk: 3.87
-      h_Jed: 28.2
+      vi_hawk: 4.92
+      h_Jed: 29.8
       part3:
         ans1:
           value: Jed maintains the $x$-component of their velocity. ($a_x = 0 \; m/s^2$)
@@ -122,7 +122,7 @@ The hawk travels horizontally at a speed of {{ params.vi_hawk }} $m/s$.
 
 ## Part 1
 
-Draw motion diagrams for both the hawk and Jed.  Use circles for the hawk and squares for Jed and label a legend.
+Draw motion diagrams for both the hawk and Jed. Use circles for the hawk and squares for Jed and label a legend.
 
 Start your diagrams from the second before Jed is released and put a dot every second for 6 seconds.
 
@@ -168,7 +168,7 @@ Explain your answer to Part 4.
 
 ## Part 6
 
-Does Jed or the hawk travel at a higher speed after Jed is released?  Explain your answer.
+Does Jed or the hawk travel at a higher speed after Jed is released? Explain your answer.
 
 ### Answer Section
 

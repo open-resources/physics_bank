@@ -38,29 +38,29 @@ myst:
     params:
       vars:
         title: Magnitude and Direction of a Vector
-      A_i: -4
-      A_j_abs: 1
+      A_i: 10
+      A_j_abs: 5
       A_j_sign: ' - '
-      B_i: 10
-      B_j_abs: 3
-      B_j_sign: ' - '
-      C_i: 9
-      C_j_abs: 1
+      B_i: -4
+      B_j_abs: 1
+      B_j_sign: ' + '
+      C_i: -2
+      C_j_abs: 9
       C_j_sign: ' - '
-      d: 10
+      d: -7
       part1:
         ans1:
-          value: ($\sqrt{5800}$, $\theta = $354.0$^\circ$)
+          value: ($\sqrt{4000}$, $\theta = $63.8$^\circ$)
         ans2:
-          value: ($\sqrt{5800}$, $\theta = $177.0$^\circ$)
+          value: ($\sqrt{4000}$, $\theta = $31.9$^\circ$)
         ans3:
-          value: ($\sqrt{2900.0}$, $\theta = $177.0$^\circ$)
+          value: ($\sqrt{2000.0}$, $\theta = $31.9$^\circ$)
         ans4:
-          value: ($\sqrt{76.0}$, $\theta = $354.0$^\circ$)
+          value: ($\sqrt{63.0}$, $\theta = $63.8$^\circ$)
         ans5:
-          value: ($\sqrt{8700.0}$, $\theta = $177.0$^\circ$)
+          value: ($\sqrt{6000.0}$, $\theta = $31.9$^\circ$)
         ans6:
-          value: ($\sqrt{68}$, $\theta = $354.0$^\circ$)
+          value: ($\sqrt{85}$, $\theta = $63.8$^\circ$)
 ---
 # {{ params.vars.title }}
 Given $\vec{A} =$ {{ params.A_i }}$\hat{\imath}$ {{params.A_j_sign}} {{ params.A_j_abs}}$\hat{\jmath}$, $\vec{B} =$ {{ params.B_i }}$\hat{\imath}$ {{params.B_j_sign}} {{ params.B_j_abs}}$\hat{\jmath}$, $\vec{C} =$ {{ params.C_i }}$\hat{\imath}$ {{params.C_j_sign}} {{ params.C_j_abs}}$\hat{\jmath}$ and $d=$ {{ params.d }}, find the magnitude and direction of $\vec{A}-\vec{B}+d\vec{C}$.

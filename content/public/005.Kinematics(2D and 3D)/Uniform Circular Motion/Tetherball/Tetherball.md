@@ -49,8 +49,8 @@ myst:
         units:
           part1: "$\theta$"
           part2: "$\rm{/s}$"
-      v: 13
-      L: 10
+      v: 23
+      L: 9
 ---
 # {{ params.vars.title }}
 Two friends are playing tetherball. The ball is tethered to a pole by a rope of length $L = {{params.L}} \ \rm{ft}$. The first player serves with a velocity $v = {{params.v}} \ \rm{m/s}$.

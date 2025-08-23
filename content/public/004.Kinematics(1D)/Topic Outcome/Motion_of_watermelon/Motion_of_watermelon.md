@@ -55,16 +55,16 @@ myst:
   substitutions:
     params:
       vars:
-        name: Mateo
+        name: Emilia
         title: Motion of watermelon
         units1: ${m/s}^2$
         units2: $s$
       signa: +
-      signb: '-'
-      signc: +
-      a: 3
-      b: 3
-      c: 11
+      signb: +
+      signc: '-'
+      a: 1
+      b: 4
+      c: 8
       part4:
         ans1:
           value: The speed is increasing
@@ -86,7 +86,7 @@ Use the following table as a reference.
 
 | For | Use |
 |-----|-----|
-| $t$ | t   |
+| $t$ | t |
 
 ### Answer Section
 
@@ -108,7 +108,7 @@ Use the following table as a reference.
 
 | For | Use |
 |-----|-----|
-| $t$ | t   |
+| $t$ | t |
 
 ### Answer Section
 

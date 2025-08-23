@@ -46,9 +46,9 @@ myst:
     params:
       vars:
         title: Power Climbing Stairs
-      W: 194
-      t: 3
-      h: 14
+      W: 172
+      t: 6
+      h: 11
 ---
 # {{ params.vars.title }}
 A ${{ params.W }}lb$ jogger jogs up a flight of stairs ${{ params.h }}ft$ high in ${{ params.t }}$ seconds.

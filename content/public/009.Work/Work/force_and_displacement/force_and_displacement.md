@@ -34,24 +34,24 @@ myst:
       vars:
         title: Force and Displacement
         units: J
-      f1: -14
+      f1: -15
       f2: 18
-      r1: 20
-      r2: -19
+      r1: 10
+      r2: -4
       part1:
         ans1:
-          value: -622
+          value: -222
         ans2:
-          value: 622
+          value: 222
         ans3:
-          value: 62
+          value: -78
         ans4:
-          value: -62
+          value: 78
         ans5:
           value: Zero
 ---
 # {{ params.vars.title }}
-A constant force of $\vec{F}$  = ( {{params.f1}} $\hat{\imath}$ + {{params.f2}} $\hat{\jmath}$ ) N acts on an object during a displacement of $\Delta \vec{r} = (${{params.r1}} $\hat{\imath}$  {{params.r2}} $\hat{\jmath}$ ) m.
+A constant force of $\vec{F}$ = ( {{params.f1}} $\hat{\imath}$ + {{params.f2}} $\hat{\jmath}$ ) N acts on an object during a displacement of $\Delta \vec{r} = (${{params.r1}} $\hat{\imath}$ {{params.r2}} $\hat{\jmath}$ ) m.
 
 ## Part 1
 

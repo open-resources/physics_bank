@@ -50,7 +50,7 @@ myst:
 
 ## Part 1
 
-On a smooth horizontal floor, an object slides into a spring which is attached to another mass that is initially stationary.  When the spring is most compressed, both objects are moving at the same speed.  Ignoring friction, what is conserved during this interaction?
+On a smooth horizontal floor, an object slides into a spring which is attached to another mass that is initially stationary. When the spring is most compressed, both objects are moving at the same speed. Ignoring friction, what is conserved during this interaction?
 
 ### Answer Section
 

@@ -62,9 +62,9 @@ myst:
     params:
       vars:
         title: Rocket Cart on a Track
-      nu: 0.22
-      F: 2.03
-      m: 112
+      nu: 0.21
+      F: 2.12
+      m: 155
       t: 3
 ---
 # {{ params.vars.title }}

@@ -117,10 +117,10 @@ myst:
             of the z-axis, so any components perpendicular to the z-axis will add
             to zero. The electric field must be parallel (or antiparallel) to the
             z-axis
-      b: -2
-      c: 4
-      d: 4
-      e: 6
+      b: 2
+      c: 5
+      d: 3
+      e: 8
 ---
 # {{ params.vars.title }}
 A thin ring of radius $R$ lies in the $xy$ plane, centred on the $z$-axis. The ring has four uncharged insulating pieces. (dark patches of figure below) and four metallic ars. Two of these metallic arcs have charge $q_1$ and two have charge $q_2$, symmetrically placed about ($x$, $y$, $z$) = (0,0,0) as shown in the figure below.
@@ -134,15 +134,15 @@ Hint: assume the small element of charge is small enough to treat as a point cha
 
 Use the following table as a reference for each variable:
 
-| For    | Use |
+| For | Use |
 |--------|-----|
-| $R$    | R   |
-| $K$    | K   |
+| $R$ | R |
+| $K$ | K |
 | $dq_1$ | dq1 |
 | $dq_2$ | dq2 |
-| $q_1$  | q1  |
-| $q_2$  | q2  |
-| $z$    | z   |
+| $q_1$ | q1 |
+| $q_2$ | q2 |
+| $z$ | z |
 
 **If the answer is 0, enter "zero"**.
 
@@ -154,15 +154,15 @@ Write the small element of the electric potential $dV_2$ at heigh $z$ along the 
 
 Use the following table as a reference for each variable:
 
-| For    | Use |
+| For | Use |
 |--------|-----|
-| $R$    | R   |
-| $K$    | K   |
+| $R$ | R |
+| $K$ | K |
 | $dq_1$ | dq1 |
 | $dq_2$ | dq2 |
-| $q_1$  | q1  |
-| $q_2$  | q2  |
-| $z$    | z   |
+| $q_1$ | q1 |
+| $q_2$ | q2 |
+| $z$ | z |
 
 **If the answer is 0, enter "zero"**.
 
@@ -185,15 +185,15 @@ Integrate your expressions from parts (a) and (b) to find the total electric pot
 
 Use the following table as a reference for each variable:
 
-| For    | Use |
+| For | Use |
 |--------|-----|
-| $R$    | R   |
-| $K$    | K   |
+| $R$ | R |
+| $K$ | K |
 | $dq_1$ | dq1 |
 | $dq_2$ | dq2 |
-| $q_1$  | q1  |
-| $q_2$  | q2  |
-| $z$    | z   |
+| $q_1$ | q1 |
+| $q_2$ | q2 |
+| $z$ | z |
 
 **If the answer is 0, enter "zero"**.
 
@@ -216,15 +216,15 @@ Find the $z$-component of the electric field due to this ring at height $z$.
 
 Use the following table as a reference for each variable:
 
-| For    | Use |
+| For | Use |
 |--------|-----|
-| $R$    | R   |
-| $K$    | K   |
+| $R$ | R |
+| $K$ | K |
 | $dq_1$ | dq1 |
 | $dq_2$ | dq2 |
-| $q_1$  | q1  |
-| $q_2$  | q2  |
-| $z$    | z   |
+| $q_1$ | q1 |
+| $q_2$ | q2 |
+| $z$ | z |
 
 **If the answer is 0, enter "zero".**
 

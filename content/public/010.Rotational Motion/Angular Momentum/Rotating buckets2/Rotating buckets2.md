@@ -48,8 +48,8 @@ myst:
       vars:
         title: Rotating Buckets
         units: kg
-      m1: 2.25
-      c: 3
+      m1: 1.68
+      c: 2
 ---
 # {{ params.vars.title }}
 A pair of buckets are connected by a *massless* rod. As shown in the figure, the buckets rotate about an axis through the centre of mass of the two-bucket system.
@@ -62,10 +62,10 @@ If each bucket has a mass $m$ and the rod has length $l$, what is the rotational
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $m$  | m  |
-| $l$  | l  |
+| $m$ | m |
+| $l$ | l |
 
 ### Answer Section
 

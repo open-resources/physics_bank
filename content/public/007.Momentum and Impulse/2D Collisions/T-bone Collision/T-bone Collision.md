@@ -38,10 +38,10 @@ myst:
     params:
       vars:
         title: T-bone Collision
-      ma: 1093
-      mb: 1470
-      vak: 44
-      thetad: 27
+      ma: 1172
+      mb: 1377
+      vak: 50
+      thetad: 31
 ---
 # {{ params.vars.title }}
 <img src="T-bone Collision.png" width=400>

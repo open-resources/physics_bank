@@ -36,12 +36,12 @@ myst:
   substitutions:
     params:
       vars:
-        name: Maya
+        name: Aliyah
         title: Angle of the Swing Ride
         units: degrees
-      omega: 2.71
-      d: 7.6
-      m: 87
+      omega: 1.81
+      d: 10.7
+      m: 116
 ---
 # {{ params.vars.title }}
 <img src = "part1.png" width=600>

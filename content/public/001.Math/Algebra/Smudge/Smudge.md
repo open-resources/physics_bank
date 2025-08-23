@@ -49,14 +49,14 @@ myst:
   substitutions:
     params:
       vars:
-        name: Lorenzo
+        name: Mateo
         title: Smudge
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is writing a physics test, and their formula sheet has a smudge on it, making it hard to read the exponent of one of their equations, which describes the energy stored in a spring.
 Their copy reads $U = \frac{1}{2}kx^?$, where $?$ represents the number that they can't read.
 Rather than asking the instructor (WHICH YOU SHOULD ALWAYS DO WHEN WRITING A TEST!), {{ params.vars.name }} decides to use dimensional analysis to figure out the power.
-{{ params.vars.name }} remembers that the units of energy, $U$, are \[$U$\] = $J$ = $Nm$, the units of the spring constant, $k$, are \[$k$\] = $\frac{\text{N}}{\text{m}}$, and the units of position, $x$, are \[$x$\] = $m$,  where 1 $N$ = 1 $kg$ $\frac{\text{m}}{\text{s}^2}$.
+{{ params.vars.name }} remembers that the units of energy, $U$, are [$U$] = $J$ = $Nm$, the units of the spring constant, $k$, are [$k$] = $\frac{\text{N}}{\text{m}}$, and the units of position, $x$, are [$x$] = $m$, where 1 $N$ = 1 $kg$ $\frac{\text{m}}{\text{s}^2}$.
 
 ## Part 1
 
@@ -64,11 +64,11 @@ Express the units of $U$ in terms of $kg$, $m$ and $s$.
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable.
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $kg$  | kg  |
-| $m$  | m  |
-| $s$  | s  |
+| $kg$ | kg |
+| $m$ | m |
+| $s$ | s |
 
 ### Answer Section
 
@@ -78,11 +78,11 @@ Express the units of $k$ in terms of $kg$, $m$ and $s$.
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable.
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $kg$  | kg  |
-| $m$  | m  |
-| $s$  | s  |
+| $kg$ | kg |
+| $m$ | m |
+| $s$ | s |
 
 ### Answer Section
 

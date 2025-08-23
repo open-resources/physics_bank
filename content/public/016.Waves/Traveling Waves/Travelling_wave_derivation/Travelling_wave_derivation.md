@@ -69,7 +69,7 @@ myst:
 # {{ params.vars.title }}
 A student wants to understand how fast a travelling wave described by $D(x, t) = A\sin(kx - \omega t)$ is moving and carries out the following derivation.
 
-$(1) \quad k = m\omega^{2} \textrm{ so }  D(x,t) = A\sin(m\omega^{2}x - \omega t)$
+$(1) \quad k = m\omega^{2} \textrm{ so } D(x,t) = A\sin(m\omega^{2}x - \omega t)$
 
 $(2) \quad D(x,t) = A\sin(\omega(m\omega x - t)) = D\sin\phi$
 

@@ -259,7 +259,7 @@ Note that it may not be necessary to use every variable. Use the following table
 
 | For | Use |
 |-----|-----|
-| $t$ | t   |
+| $t$ | t |
 
 ### Answer Section
 
@@ -321,7 +321,7 @@ Note that it may not be necessary to use every variable. Use the following table
 
 | For | Use |
 |-----|-----|
-| $t$ | t   |
+| $t$ | t |
 
 ### Answer Section
 

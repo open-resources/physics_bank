@@ -60,9 +60,9 @@ myst:
       vars:
         title: Varying Separation Distance of Capacitor Plates
       a: '10.0'
-      b: '1.00'
-      c: '2.75'
-      v: '60'
+      b: '0.50'
+      c: '2.50'
+      v: '40'
       part3:
         ans1:
           value: It is lost to the surroundings in the laboratory

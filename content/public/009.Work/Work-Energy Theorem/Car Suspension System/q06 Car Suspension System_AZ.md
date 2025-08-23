@@ -42,14 +42,14 @@ myst:
     params:
       vars:
         title: Car Suspension System
-      m: 1417
-      r: 94
-      x: 150
-      u: 110.3
-      v: 108.3
+      m: 1856
+      r: 60
+      x: 198
+      u: 88.3
+      v: 86.3
 ---
 # {{ params.vars.title }}
-A car is moving over a hump in the road with a constant speed $v \  \rm{ms^{-1}}$.
+A car is moving over a hump in the road with a constant speed $v \ \rm{ms^{-1}}$.
 
 <img src="part1.png" width=800>
 

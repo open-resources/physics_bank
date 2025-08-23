@@ -38,10 +38,10 @@ myst:
     params:
       vars:
         title: Projectile Motion of a Dart
-      l: 1.61
-      theta: 57
-      d: 3
-      h: 1.21
+      l: 1.55
+      theta: 41
+      d: 2
+      h: 1.03
 ---
 # {{ params.vars.title }}
 <img src="ProjDart.png" width=90%>

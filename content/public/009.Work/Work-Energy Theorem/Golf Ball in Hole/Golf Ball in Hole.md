@@ -70,11 +70,11 @@ part5:
 myst:
   substitutions:
     params:
-      h: 0.4
-      a: 90
-      r_h: 0.4
-      r: 0.34
-      u: 2.1
+      h: 0.2
+      a: 43
+      r_h: 0.0788
+      r: 0.069
+      u: 1.5
       part1:
         ans1:
           value: true

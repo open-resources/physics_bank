@@ -46,8 +46,8 @@ myst:
     params:
       vars:
         title: Ball Down A Hill
-      d: 0.91
-      theta: 48
+      d: 2.52
+      theta: 19
 ---
 # {{ params.vars.title }}
 A ball, initially at rest, rolls down a hill slanted $\theta = {{params.theta}}^{\circ}$.

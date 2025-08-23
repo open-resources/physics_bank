@@ -45,10 +45,10 @@ myst:
     params:
       vars:
         title: Pendulum Work 1
-      m: 6.8
+      m: 7.1
       v: 0
-      l: 3
-      thetai: 33
+      l: 2
+      thetai: 50
 ---
 # {{ params.vars.title }}
 <img src="Pendulum Work.png" width=800>

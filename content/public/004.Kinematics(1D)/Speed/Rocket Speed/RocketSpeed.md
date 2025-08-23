@@ -38,10 +38,10 @@ myst:
     params:
       vars:
         title: Rocket Speed
-      d: 3.1
-      theta1: 44
-      theta2: 47.0
-      dt: 0.46
+      d: 2.93
+      theta1: 15
+      theta2: 17.0
+      dt: 0.57
 ---
 # {{ params.vars.title }}
 A rocket is fired vertically from a launch pad $d={{params.d}} \ \rm{km}$ away from a tracking radar.

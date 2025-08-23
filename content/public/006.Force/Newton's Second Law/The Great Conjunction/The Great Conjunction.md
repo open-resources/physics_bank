@@ -51,7 +51,7 @@ myst:
         title: The Great Conjunction
 ---
 # {{ params.vars.title }}
-On December 21, 2020, Saturn and Jupiter appeared the closest together in the night sky that they have in the last 400 years (the "Great conjunction").  Assuming that both Jupiter and Saturn make circular orbits of a stationary sun and have paths unaffected by the masses of each other and other planets,
+On December 21, 2020, Saturn and Jupiter appeared the closest together in the night sky that they have in the last 400 years (the "Great conjunction"). Assuming that both Jupiter and Saturn make circular orbits of a stationary sun and have paths unaffected by the masses of each other and other planets,
 
 ## Part 1
 
@@ -63,10 +63,10 @@ You can use the following variables: $G$, $M\_{\odot}$, $M_J$, $M_S$, $R\_{\odot
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $G$  | G  |
-| $M_J$  | M_J  |
+| $G$ | G |
+| $M_J$ | M_J |
 | $M_S$ | M_S |
 | $R\_{\odot J} $| R_sunJ|
 | $R\_{\odot S}$ | R_sunS|
@@ -85,10 +85,10 @@ You can use the following variables: $G$, $M\_{\odot}$, $M_J$, $M_S$, $R\_{\odot
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $G$  | G  |
-| $M_J$  | M_J  |
+| $G$ | G |
+| $M_J$ | M_J |
 | $M_S$ | M_S |
 | $R\_{\odot J} $| R_sunJ|
 | $R\_{\odot S}$ | R_sunS|

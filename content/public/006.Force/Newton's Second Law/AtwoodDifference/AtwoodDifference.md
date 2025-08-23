@@ -45,8 +45,8 @@ myst:
     params:
       vars:
         title: Atwood Machine Difference
-      Wa: 47
-      Wb: 50
+      Wa: 46
+      Wb: 59
 ---
 # {{ params.vars.title }}
 <img src="AtwoodDifference.png" width=90%>

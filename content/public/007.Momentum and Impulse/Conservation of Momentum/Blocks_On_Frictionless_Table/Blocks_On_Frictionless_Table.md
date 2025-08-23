@@ -37,10 +37,10 @@ myst:
       vars:
         title: Blocks On Frictionless Table
         units: $\frac{m}{s}$
-      v0: 472
-      v1: 5
-      mb: 15
-      mw: 524
+      v0: 416
+      v1: 7
+      mb: 10
+      mw: 525
       d: 1
 ---
 # {{ params.vars.title }}

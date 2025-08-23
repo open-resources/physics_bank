@@ -44,9 +44,9 @@ myst:
     params:
       vars:
         title: Circular coil
-      r: '11.00'
-      I: '0.76'
-      B: $5.20\times 10^{-3}$
+      r: '13.50'
+      I: '0.94'
+      B: $2.40\times 10^{-3}$
 ---
 # {{ params.vars.title }}
 

@@ -39,14 +39,14 @@ myst:
       vars:
         title: Playing Catch with Self
         units: ^{$\circ$}
-      v: 23.16
-      theta: 124.29
-      a: 9.64
+      v: 28.95
+      theta: 132.29
+      a: 16.96
 ---
 # {{ params.vars.title }}
 <img src = "Playing_Catch_With_Self.jpg" width=600>
 
-A child wants to launch a projectile with mass $m$ at a speed of $v_0 =  {{ params.v }} \ \rm{m/s}$. There is a gust of wind blowing at an angle of $\theta_2$ = ${{ params.theta }}^\circ$ and will apply a force on their projectile at $F = {{ params.a }}.m \ \rm{N}$.
+A child wants to launch a projectile with mass $m$ at a speed of $v_0 = {{ params.v }} \ \rm{m/s}$. There is a gust of wind blowing at an angle of $\theta_2$ = ${{ params.theta }}^\circ$ and will apply a force on their projectile at $F = {{ params.a }}.m \ \rm{N}$.
 
 ## Part 1
 

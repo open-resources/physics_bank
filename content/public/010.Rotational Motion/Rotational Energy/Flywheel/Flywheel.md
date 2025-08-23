@@ -46,11 +46,11 @@ myst:
     params:
       vars:
         title: Flywheel
-      Crr: 0.004
-      m: 276
-      RPM: 2725
-      R: 23
-      r: 4
+      Crr: 0.007
+      m: 155
+      RPM: 3940
+      R: 44
+      r: 7
 ---
 # {{ params.vars.title }}
 A flywheel is a wheel with a high moment of inertia that spins to store kinetic energy.

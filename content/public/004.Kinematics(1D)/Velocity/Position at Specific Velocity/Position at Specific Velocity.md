@@ -38,9 +38,9 @@ myst:
       vars:
         title: Position at Specific Velocity
         units: m
-      v: 27.18
+      v: 48.16
       N: 4
-      C: 1.46
+      C: 6.09
 ---
 # {{ params.vars.title }}
 A particle accelerates from rest at $x = 0\ \rm{m}$ according to the following equation: $ a = {{ params.C }} \times x^{{{ params.N }}} $

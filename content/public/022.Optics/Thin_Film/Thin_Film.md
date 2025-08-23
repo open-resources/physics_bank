@@ -96,8 +96,8 @@ myst:
     params:
       vars:
         title: Thin Film
-      v: 611
-      t: 148
+      v: 595
+      t: 105
       part1:
         ans1:
           value: 'in phase causing constructive interference of the reflected light. '
@@ -110,7 +110,7 @@ myst:
           value: 'out of phase causing destructive interference of the reflected light. '
 ---
 # {{ params.vars.title }}
-Light of wavelength $\lambda\_{\text{air}}$ = {{ params.v}} nm is incident (from the air, $n\_{air} = 1.00$) on a thin film of unknown index of refraction and thickness. The film is attached to a glass surface ($n\_{\text{glass}} = 1.5$).  The path length difference traveled by the light reflecting from the front and back surfaces of the film corresponds to $\frac{\lambda\_{\text{film}}}{2}$ (half a wavelength). Light reflecting off both the front and back surfaces of the film experiences a $\pi$ rad (initial) phase shift.
+Light of wavelength $\lambda\_{\text{air}}$ = {{ params.v}} nm is incident (from the air, $n\_{air} = 1.00$) on a thin film of unknown index of refraction and thickness. The film is attached to a glass surface ($n\_{\text{glass}} = 1.5$). The path length difference traveled by the light reflecting from the front and back surfaces of the film corresponds to $\frac{\lambda\_{\text{film}}}{2}$ (half a wavelength). Light reflecting off both the front and back surfaces of the film experiences a $\pi$ rad (initial) phase shift.
 
 ## Part 1
 

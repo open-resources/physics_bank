@@ -48,20 +48,20 @@ myst:
       vars:
         title: Relative Soccer Ball
         units: N
-      m: 0.44
-      vp: 3.38
-      theta: 30
-      t: 0.015
-      vbp: 13.46
-      vy: 17.55
-      vx: 19.94
+      m: 0.33
+      vp: 3.49
+      theta: 24
+      t: 0.031
+      vbp: 9.6
+      vy: 18.26
+      vx: 19.62
 ---
 # {{ params.vars.title }}
 <img src="Relative Soccer Ball.jpg" width=700>
 
 A football player is running up the soccer field at a velocity ${{params.vp}}\ \rm{m/s}$. A ball that has mass $m = {{params.m}}\ \rm{kg}$ is passed their way, and just before the player shoots the ball they observe that the ball is moving at a speed of ${{params.vbp}} \ \rm{m/s}$ and angle $\theta = {{params.theta}}^\circ$ relative to their motion.
 
-Their foot is in contact with the ball for ${{params.t}}$ seconds and it imparted a change of velocity such that the absolute velocity now is $v_x = {{params.vx}} \ \rm{m/s}$ and  $v_y = {{params.vy}}\ \rm{m/s}$.
+Their foot is in contact with the ball for ${{params.t}}$ seconds and it imparted a change of velocity such that the absolute velocity now is $v_x = {{params.vx}} \ \rm{m/s}$ and $v_y = {{params.vy}}\ \rm{m/s}$.
 
 Find the average force components needed for this kick.
 

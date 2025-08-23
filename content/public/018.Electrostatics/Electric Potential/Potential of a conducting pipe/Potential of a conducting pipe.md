@@ -46,7 +46,7 @@ myst:
         title: Potential of a conducting pipe
 ---
 # {{ params.vars.title }}
-The surface charge density on a long straight hollow metallic pipe is σ.  Assume the pipe has a diameter of $2a$.
+The surface charge density on a long straight hollow metallic pipe is σ. Assume the pipe has a diameter of $2a$.
 
 <img src="OSUPv2p7_64.png" width=50 alt="Charged conducting pipe">
 

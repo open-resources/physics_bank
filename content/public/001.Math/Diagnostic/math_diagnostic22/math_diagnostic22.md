@@ -32,17 +32,17 @@ myst:
     params:
       vars:
         title: Math Diagnostic22
-      denom: 2
-      formula: $\sin{\left(\frac{x}{2} \right)}$
+      denom: 6
+      formula: $\cos{\left(\frac{x}{6} \right)}$
       part1:
         ans1:
-          value: ${- 2 \cos{\left(\frac{x}{2} \right)}}$
+          value: ${6 \sin{\left(\frac{x}{6} \right)}}$
         ans2:
-          value: ${2 \cos{\left(\frac{x}{2} \right)}}$
+          value: ${- 6 \sin{\left(\frac{x}{6} \right)}}$
         ans3:
-          value: ${- 4 \cos{\left(\frac{x}{2} \right)}}$
+          value: ${12 \sin{\left(\frac{x}{6} \right)}}$
         ans4:
-          value: ${- \cos{\left(\frac{x}{2} \right)}}$
+          value: ${3 \sin{\left(\frac{x}{6} \right)}}$
 ---
 # {{ params.vars.title }}
 

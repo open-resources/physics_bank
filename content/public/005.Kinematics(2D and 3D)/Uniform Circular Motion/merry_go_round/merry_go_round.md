@@ -51,9 +51,9 @@ part3:
 myst:
   substitutions:
     params:
-      V: 2.6
-      T: 2.7
-      R: 6.9
+      V: 2.4
+      T: 2.3
+      R: 3.2
       vars:
         title: Merry Go Round
 ---

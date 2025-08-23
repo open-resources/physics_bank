@@ -68,8 +68,8 @@ myst:
         units2: $m/s^2 \ \ \hat\jmath$
         units3: $m/s \ \ \hat\imath$
         units4: $m/s \ \ \hat\jmath$
-      h: 120
-      s: 170
+      h: 60
+      s: 190
       vert: 60
 ---
 # {{ params.vars.title }}

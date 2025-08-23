@@ -44,9 +44,9 @@ myst:
     params:
       vars:
         title: Velocity Selector
-      B: 0.616
-      E: 0.9
-      r: 2.44
+      B: 0.691
+      E: 0.1
+      r: 1.06
 ---
 # {{ params.vars.title }}
 

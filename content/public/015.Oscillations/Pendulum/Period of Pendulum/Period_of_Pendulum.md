@@ -37,7 +37,7 @@ myst:
     params:
       vars:
         title: Period of Pendulum
-      L: 1.34
+      L: 1.22
 ---
 # {{ params.vars.title }}
 

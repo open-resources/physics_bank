@@ -37,9 +37,9 @@ myst:
     params:
       vars:
         title: Person Standing On Earth
-      mu: 0.66
-      m: 82
-      alpha: 26
+      mu: 0.79
+      m: 60
+      alpha: 45
       part4:
         ans2:
           value: 'False'

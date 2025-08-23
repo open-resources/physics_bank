@@ -43,8 +43,8 @@ myst:
       vars:
         title: Voltage Supplied To An Indicator Light
         units: V
-      R: 257
-      I: 80
+      R: 169
+      I: 62
 ---
 # {{ params.vars.title }}
 

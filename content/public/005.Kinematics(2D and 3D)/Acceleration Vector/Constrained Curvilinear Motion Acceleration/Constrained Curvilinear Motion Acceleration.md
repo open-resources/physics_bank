@@ -37,10 +37,10 @@ myst:
     params:
       vars:
         title: Constrained Curvilinear Motion Acceleration
-      t: 3.4
-      N: 0.21
-      M1: 2.2
-      M2: 8.8
+      t: 1.0
+      N: 0.4
+      M1: 1.4
+      M2: 5.6
 ---
 # {{ params.vars.title }}
 <img src="Constrained Curvilinear Motion.png" width=600>

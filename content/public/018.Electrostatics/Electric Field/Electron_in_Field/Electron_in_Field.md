@@ -43,11 +43,11 @@ An electron moves in an electric field as a function of position as shown in fig
 
 ## Useful Info
 
-Express your answers in eV (electron-Volts) rather than converting to joules. (Note that the charge on an electron is -e, so an electron in an electric potential of $1$V feels a potential energy of -1 eV.  Also note that the potential energy at $x = 0$ is given.)
+Express your answers in eV (electron-Volts) rather than converting to joules. (Note that the charge on an electron is -e, so an electron in an electric potential of $1$V feels a potential energy of -1 eV. Also note that the potential energy at $x = 0$ is given.)
 
 ## Part 1
 
-a. On the second graph, the electric potential at $x$=0 is shown.  Draw the electric potential for $x$ from 0 to 3 m.
+a. On the second graph, the electric potential at $x$=0 is shown. Draw the electric potential for $x$ from 0 to 3 m.
 
 b. On the lowest graph, draw the electric potential energy as a function of position for an electron experiencing the electric field shown in the figure.
 

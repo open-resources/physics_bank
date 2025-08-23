@@ -62,10 +62,10 @@ myst:
     params:
       vars:
         title: Double Slit Experiment
-      l: 315
-      w: 113
-      s: 384
-      d: 10
+      l: 437
+      w: 107
+      s: 418
+      d: 11
       part3:
         ans1:
           value: bright
@@ -107,7 +107,7 @@ When observing a double-slit pattern, you would notice a bright line at a specif
 
 ## Part 4
 
-Is there a bright line of the double slit pattern that coincides with the underlying single slit pattern's first minimum?  If so, at what diffraction order, $m$ does this occur?
+Is there a bright line of the double slit pattern that coincides with the underlying single slit pattern's first minimum? If so, at what diffraction order, $m$ does this occur?
 
 ### Answer Section
 

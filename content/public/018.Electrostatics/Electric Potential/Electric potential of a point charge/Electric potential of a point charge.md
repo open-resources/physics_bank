@@ -46,8 +46,8 @@ myst:
     params:
       vars:
         title: Electric potential of a point charge
-      r: '2.40'
-      V: '-4.00'
+      r: '3.60'
+      V: '3.00'
 ---
 # {{ params.vars.title }}
 

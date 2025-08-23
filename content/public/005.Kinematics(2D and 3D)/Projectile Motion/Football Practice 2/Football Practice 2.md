@@ -45,17 +45,17 @@ myst:
     params:
       vars:
         title: Football Practice 2
-      d1: 14
-      d2: 10
+      d1: 12
+      d2: 5
       h1: 3
-      h2: 1
-      v: 20
-      theta: 50
+      h2: 2
+      v: 15
+      theta: 51
 ---
 # {{ params.vars.title }}
 <img src="Football_Practice_2.png" width=800>
 
-A football player is practicing some of their lob passes at the training academy. They strike the ball giving it a velocity of $v = {{params.v}} \ \rm{m/s}$ at an angle $\theta  = {{params.theta}}^{\circ}$. The training field has a special geometry governed by these paramaters: $h_1 = {{params.h1}} \ \rm{m} $, $h_2 = {{params.h2}} \ \rm{m} $, $d_1 = {{params.d1}} \ \rm{m} $, and $d_2 = {{params.d2}} \ \rm{m} $.
+A football player is practicing some of their lob passes at the training academy. They strike the ball giving it a velocity of $v = {{params.v}} \ \rm{m/s}$ at an angle $\theta = {{params.theta}}^{\circ}$. The training field has a special geometry governed by these paramaters: $h_1 = {{params.h1}} \ \rm{m} $, $h_2 = {{params.h2}} \ \rm{m} $, $d_1 = {{params.d1}} \ \rm{m} $, and $d_2 = {{params.d2}} \ \rm{m} $.
 <br>
 Find the location where the ball first lands.
 

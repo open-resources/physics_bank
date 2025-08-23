@@ -51,12 +51,12 @@ myst:
         units:
           part1: "$\rm{m/s}$"
           part2: "$\rm{N}$"
-      m: 49
-      l: 3
-      theta: 30
-      mainText: A gymnast with mass $49 \ \rm{kg}$ steps off a horizontal platform
-        to swing on a trapeze with length $3 \ \rm{m}$. At point $A$, the angle formed
-        is $30^\circ$.
+      m: 65
+      l: 4
+      theta: 64
+      mainText: A gymnast with mass $65 \ \rm{kg}$ steps off a horizontal platform
+        to swing on a trapeze with length $4 \ \rm{m}$. At point $A$, the angle formed
+        is $64^\circ$.
       part1Text: Find the speed of the gymnast at point $A$
       part2Text: Find the total tension holding the trapeze at point $A$
 ---

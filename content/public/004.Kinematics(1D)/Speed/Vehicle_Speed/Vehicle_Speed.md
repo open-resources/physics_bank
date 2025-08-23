@@ -32,7 +32,7 @@ myst:
     params:
       vars:
         title: Vehicle Speed
-        vehicle: car
+        vehicle: van
       part1:
         ans1:
           value: constant

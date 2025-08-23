@@ -65,12 +65,12 @@ What is the centripital force $F_c$ acting on mass $m1$?
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| For   | Use |
+| For | Use |
 |-------|-----|
-| $m_1$ | m1  |
-| $m_2$ | m2  |
-| $g$   | g   |
-| $r$   | r   |
+| $m_1$ | m1 |
+| $m_2$ | m2 |
+| $g$ | g |
+| $r$ | r |
 
 ### Answer Section
 
@@ -80,12 +80,12 @@ What is the velocity of mass $m_1$?
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| For   | Use |
+| For | Use |
 |-------|-----|
-| $m_1$ | m1  |
-| $m_2$ | m2  |
-| $g$   | g   |
-| $r$   | r   |
+| $m_1$ | m1 |
+| $m_2$ | m2 |
+| $g$ | g |
+| $r$ | r |
 
 ### Answer Section
 
@@ -95,12 +95,12 @@ What is the angular velocity of mass $m1$?
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| For   | Use |
+| For | Use |
 |-------|-----|
-| $m_1$ | m1  |
-| $m_2$ | m2  |
-| $g$   | g   |
-| $r$   | r   |
+| $m_1$ | m1 |
+| $m_2$ | m2 |
+| $g$ | g |
+| $r$ | r |
 
 ### Answer Section
 

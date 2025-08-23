@@ -47,9 +47,9 @@ myst:
     params:
       vars:
         title: Current-Carrying Wire Swing
-      a: 2
-      length: 14
-      mass: 14
+      a: 3
+      length: 11
+      mass: 18
 ---
 # {{ params.vars.title }}
 A current-carrying wire was deflected by a magnetic field as shown in the figure below. The direction of the current at the bottom of the wire is into the screen (as shown by the $\textbf{X}$).

@@ -33,7 +33,7 @@ myst:
     params:
       vars:
         title: Fridge Force Comparison
-        name: Santiago
+        name: Ximena
       part1:
         ans1:
           value: $F_{yr} = 2F_{fr}$

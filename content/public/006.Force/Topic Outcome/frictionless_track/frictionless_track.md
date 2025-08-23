@@ -50,8 +50,8 @@ myst:
       vars:
         title: Horizontal frictionless track
         units: N
-      m: 0.5
-      v: 3
+      m: 5.0
+      v: 9
       R: 0.5
       L: 12
 ---

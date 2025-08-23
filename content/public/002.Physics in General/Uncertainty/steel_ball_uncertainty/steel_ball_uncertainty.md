@@ -49,17 +49,17 @@ myst:
       vars:
         title: Uncertainty
         units: s
-      m: 25.12
-      m_u: 0.04
-      d: 0.2
-      d_u: 0.001
-      t1: 0.0753
-      t2: 0.0753
-      t3: 0.0753
-      t4: 0.0756
-      t5: 0.0755
-      t6: 0.0755
-      t7: 0.0752
+      m: 28.24
+      m_u: 0.01
+      d: 0.30000000000000004
+      d_u: 0.002
+      t1: 0.0508
+      t2: 0.0502
+      t3: 0.0508
+      t4: 0.0508
+      t5: 0.0506
+      t6: 0.0505
+      t7: 0.0506
 ---
 # {{ params.vars.title }}
 A steel ball (mball = ({{params.m}} $\pm$ {{ params.m_u }}) g) is shot from a mini-launcher on its medium setting, through horizontal photogates spaced ({{ params.d }} $\pm$ {{ params.d_u }}) m apart.
@@ -67,13 +67,13 @@ The time interval that the ball spends between these gates is measured in six in
 
 | Trial Number | Time between gates (s) |
 |--------------|------------------------|
-| Trial 1      | {{params.t1}}          |
-| Trial 2      | {{params.t2}}          |
-| Trial 3      | {{params.t3}}          |
-| Trial 4      | {{params.t4}}          |
-| Trial 5      | {{params.t5}}          |
-| Trial 6      | {{params.t6}}          |
-| Trial 7      | {{params.t7}}          |
+| Trial 1 | {{params.t1}} |
+| Trial 2 | {{params.t2}} |
+| Trial 3 | {{params.t3}} |
+| Trial 4 | {{params.t4}} |
+| Trial 5 | {{params.t5}} |
+| Trial 6 | {{params.t6}} |
+| Trial 7 | {{params.t7}} |
 
 For this problem, keep one significant figure in the calculated uncertainty and the appropriate number of significant figures in the calculated average time interval.
 

@@ -40,11 +40,11 @@ myst:
     params:
       vars:
         title: The Magnitude of a Particle's Vector
-        units: "$\r{m/s}^2$"
-      r_i: $3t^2 - 8t$
-      r_j: $2t^2 + 6t$
-      t: $14$
-      choice: acceleration
+        units: "$\r{m/s}$"
+      r_i: $5t^2 + 6t$
+      r_j: $9t^2 + 6t$
+      t: $20$
+      choice: velocity
 ---
 # {{ params.vars.title }}
 

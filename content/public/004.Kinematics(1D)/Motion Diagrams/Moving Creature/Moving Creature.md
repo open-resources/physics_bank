@@ -116,7 +116,7 @@ From dots 0 to 3, is the creature slowing down, speeding up, stationary or maint
 
 ## Part 2
 
-From dots 3 to 6, is the creature slowing down, speeding up, stationary or maintaining a constant speed?  Please explain your answer.
+From dots 3 to 6, is the creature slowing down, speeding up, stationary or maintaining a constant speed? Please explain your answer.
 
 ### Answer Section
 
@@ -127,7 +127,7 @@ From dots 3 to 6, is the creature slowing down, speeding up, stationary or maint
 
 ## Part 3
 
-Describe a physical situation this set of dots could represent.  (Choose a creature and explain what it is doing from time 0 to time 6).
+Describe a physical situation this set of dots could represent. (Choose a creature and explain what it is doing from time 0 to time 6).
 
 ### Answer Section
 

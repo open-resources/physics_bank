@@ -39,8 +39,8 @@ myst:
       vars:
         title: Skater in a Bowl
       ro: 4.48
-      vo: 5
-      h: 1.31
+      vo: 2
+      h: 1.11
 ---
 # {{ params.vars.title }}
 <img src="Marble in a Bowl.png" width=400>

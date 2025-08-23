@@ -48,10 +48,10 @@ part3:
 myst:
   substitutions:
     params:
-      v_t: 91
-      b_t: 2.26
-      r: 4700.0
-      v_b: 206.0
+      v_t: 84
+      b_t: 1.44
+      r: 4000.0
+      v_b: 121.0
       part2:
         ans1:
           value: 'True'

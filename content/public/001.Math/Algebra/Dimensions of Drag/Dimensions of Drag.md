@@ -47,11 +47,11 @@ What is the dimensions of the coefficient of drag?
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| For  | Use |
+| For | Use |
 | ---- | ----|
-| $M$  | M   |
-| $L$  | L   |
-| $T$  | T   |
+| $M$ | M |
+| $L$ | L |
+| $T$ | T |
 
 ## Attribution
 

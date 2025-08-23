@@ -66,10 +66,10 @@ myst:
       vars:
         title: Resistor Circuit Reduction
       r1: 13
-      r2: 6
-      r3: 15
-      r4: 15
-      r5: 8
+      r2: 18
+      r3: 20
+      r4: 10
+      r5: 7
       part1:
         ans1:
           value: $(a)$ to $(b)$

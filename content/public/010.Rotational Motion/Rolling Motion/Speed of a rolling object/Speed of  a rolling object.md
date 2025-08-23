@@ -59,7 +59,7 @@ myst:
       vars:
         title: Speed of a Rolling Object
         units: "$\rm{m/s}$"
-      h: 11.6
+      h: 12.7
 ---
 # {{ params.vars.title }}
 Consider the setup shown in the figure below.

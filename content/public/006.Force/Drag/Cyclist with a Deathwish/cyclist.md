@@ -30,18 +30,18 @@ myst:
     params:
       vars:
         title: Cyclist with a Deathwish
-      v1: 167
-      v2: 45
-      age: 53
+      v1: 172
+      v2: 51
+      age: 49
       part1:
         ans1:
-          value: 13.8 times.
+          value: 11.4 times.
         ans2:
-          value: 3.71 times.
+          value: 3.37 times.
         ans3:
-          value: 0.269 times.
+          value: 0.297 times.
         ans4:
-          value: 0.0726 times.
+          value: 0.0879 times.
         ans5:
           value: It would be equal to their maximum thrust.
 ---

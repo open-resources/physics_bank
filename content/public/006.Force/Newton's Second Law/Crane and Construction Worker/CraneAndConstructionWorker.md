@@ -45,10 +45,10 @@ myst:
     params:
       vars:
         title: Crane and Construction Worker
-      m: 144
-      F_crane: 1941
-      F_worker: 287
-      theta: 22
+      m: 169
+      F_crane: 2266
+      F_worker: 315
+      theta: 57
 ---
 # {{ params.vars.title }}
 A crane is lifting a ${{params.m}} \ \rm{kg}$ block.

@@ -110,11 +110,11 @@ Use the following table as a reference for each variable:
 
 | For | Use |
 |-----|-----|
-| $R$ | R   |
-| $d$ | d   |
-| $x$ | x   |
-| $k$ | k   |
-| $Q$ | Q   |
+| $R$ | R |
+| $d$ | d |
+| $x$ | x |
+| $k$ | k |
+| $Q$ | Q |
 
 **If the answer is 0, enter "zero"**.
 
@@ -128,11 +128,11 @@ Use the following table as a reference for each variable:
 
 | For | Use |
 |-----|-----|
-| $R$ | R   |
-| $d$ | d   |
-| $x$ | x   |
-| $k$ | k   |
-| $Q$ | Q   |
+| $R$ | R |
+| $d$ | d |
+| $x$ | x |
+| $k$ | k |
+| $Q$ | Q |
 
 **If the answer is 0, enter "zero"**.
 
@@ -147,11 +147,11 @@ Use the following table as a reference for each variable:
 
 | For | Use |
 |-----|-----|
-| $R$ | R   |
-| $d$ | d   |
-| $x$ | x   |
-| $k$ | k   |
-| $Q$ | Q   |
+| $R$ | R |
+| $d$ | d |
+| $x$ | x |
+| $k$ | k |
+| $Q$ | Q |
 
 **If the answer is 0, enter "zero"**.
 
@@ -165,11 +165,11 @@ Use the following table as a reference for each variable:
 
 | For | Use |
 |-----|-----|
-| $R$ | R   |
-| $d$ | d   |
-| $x$ | x   |
-| $k$ | k   |
-| $Q$ | Q   |
+| $R$ | R |
+| $d$ | d |
+| $x$ | x |
+| $k$ | k |
+| $Q$ | Q |
 
 **If the answer is 0, enter "zero"**.
 
@@ -183,11 +183,11 @@ Use the following table as a reference for each variable:
 
 | For | Use |
 |-----|-----|
-| $R$ | R   |
-| $d$ | d   |
-| $x$ | x   |
-| $k$ | k   |
-| $Q$ | Q   |
+| $R$ | R |
+| $d$ | d |
+| $x$ | x |
+| $k$ | k |
+| $Q$ | Q |
 
 **If the answer is 0, enter "zero".**
 

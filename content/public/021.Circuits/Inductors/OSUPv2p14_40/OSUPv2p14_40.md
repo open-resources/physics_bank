@@ -47,9 +47,9 @@ myst:
     params:
       vars:
         title: Inductance of a Solenoid
-      l: '59.0'
-      N: '470'
-      A: '2.70'
+      l: '51.0'
+      N: '580'
+      A: '2.10'
 ---
 # {{ params.vars.title }}
 A ${{ params.l }}\rm\ cm$ long solenoid is wound with ${{ params.N }}\rm\ turns$ of wire.

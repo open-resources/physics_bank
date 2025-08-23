@@ -37,11 +37,11 @@ myst:
     params:
       vars:
         title: Power of Conveyor 2
-      theta: 28.0
-      v: 4.3
-      L: 13.0
-      W: 0.3
-      mu: 0.3
+      theta: 31.0
+      v: 6.9
+      L: 18.0
+      W: 0.47
+      mu: 0.47
 ---
 # {{ params.vars.title }}
 <img src="Power of Conveyer 2.png" width=600>

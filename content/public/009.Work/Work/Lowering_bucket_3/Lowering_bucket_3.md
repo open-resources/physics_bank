@@ -45,7 +45,7 @@ myst:
   substitutions:
     params:
       vars:
-        name: Abbas
+        name: Savannah
         title: Lowering a bucket - the bucket
       part1:
         ans1:

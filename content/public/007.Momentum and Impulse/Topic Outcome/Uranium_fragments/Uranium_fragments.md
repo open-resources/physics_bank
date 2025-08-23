@@ -47,8 +47,8 @@ myst:
       vars:
         title: Uranium Fragments
         units: amu
-      frag_speed: 1.9
-      dn_speed: 3.34
+      frag_speed: 2.4
+      dn_speed: 2.96
       orig_mass: $^{234}\mathrm{U}$
 ---
 # {{ params.vars.title }}

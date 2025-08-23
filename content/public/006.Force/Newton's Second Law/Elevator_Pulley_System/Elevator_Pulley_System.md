@@ -102,8 +102,8 @@ myst:
     params:
       vars:
         title: Elevator Pulley System
-      m_p: 60
-      M_e: 25
+      m_p: 83
+      M_e: 49
       ang: 20
       part1:
         ans1:
@@ -112,15 +112,15 @@ myst:
           value: 'No'
       part7:
         ans1:
-          value: $n_{ep}$
-        ans2:
           value: $T$
+        ans2:
+          value: $n_{ep}$
         ans3:
-          value: $mg$
-        ans4:
-          value: $n_{pe}$
-        ans5:
           value: $Mg$
+        ans4:
+          value: $mg$
+        ans5:
+          value: $n_{pe}$
       part8:
         ans1:
           value: 'Yes'
@@ -179,15 +179,15 @@ Write Newton's second law in the vertical direction for the elevator.
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for using each variable:
 
-| For             | Use   |
+| For | Use |
 |-----------------|-------|
-| $m$             | m     |
-| $M$             | M     |
-| $\theta$        | theta |
-| $T$             | T     |
-| $g$             | g     |
-| $n\_{\text{pe}}$ | n_pe  |
-| $n\_{\text{ep}}$ | n_ep  |
+| $m$ | m |
+| $M$ | M |
+| $\theta$ | theta |
+| $T$ | T |
+| $g$ | g |
+| $n\_{\text{pe}}$ | n_pe |
+| $n\_{\text{ep}}$ | n_ep |
 
 ### Answer Section
 
@@ -197,15 +197,15 @@ Write Newton's second law in the vertical direction for the person.
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for using each variable:
 
-| For             | Use   |
+| For | Use |
 |-----------------|-------|
-| $m$             | m     |
-| $M$             | M     |
-| $\theta$        | theta |
-| $T$             | T     |
-| $g$             | g     |
-| $n\_{\text{pe}}$ | n_pe  |
-| $n\_{\text{ep}}$ | n_ep  |
+| $m$ | m |
+| $M$ | M |
+| $\theta$ | theta |
+| $T$ | T |
+| $g$ | g |
+| $n\_{\text{pe}}$ | n_pe |
+| $n\_{\text{ep}}$ | n_ep |
 
 ### Answer Section
 

@@ -54,15 +54,15 @@ myst:
       vars:
         title: Bullet Hit Bullet
         units: m/s
-      v: 539
-      theta: 74
-      phi: 80
-      vx: 208.22
-      vy: 391.61
-      vz: 528.57
-      t1: 0.05
-      t2: 0.05
-      mass: 9.0
+      v: 519
+      theta: 73
+      phi: 75
+      vx: 273.47
+      vy: 4.77
+      vz: 644.35
+      t1: 0.07
+      t2: 0.07
+      mass: 7.0
 ---
 # {{ params.vars.title }}
 We are conducting an experiment with bullets where we shoot two bullets and they collide in midair. We shoot the first bullet such that it has a velocity of $v = {{params.v}}\ \rm{m/s}$ at an angle $\phi = {{params.phi}}^\circ$ and angle of $\theta = {{ params.theta}}^\circ$. It travels for ${{params.t1}}$ seconds and then collides with the second bullet that is travelling with the following velocity, $\vec{v} ={{params.vx}}.\widehat{\mathbf{i}}+{{params.vy}}.\widehat{\mathbf{j}}+{{params.vz}}.\widehat{\mathbf{k}}$. They are embedded together and travel a further ${{params.t2}}$ seconds. The mass of each bullet is ${{params.mass}}\ \rm{g}$.

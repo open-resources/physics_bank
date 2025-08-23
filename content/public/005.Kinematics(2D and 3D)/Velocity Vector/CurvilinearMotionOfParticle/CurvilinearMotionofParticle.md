@@ -47,11 +47,11 @@ myst:
       vars:
         title: Particle Curvilinear Motion
         units: m/s
-      m: 5
-      n: 3
-      r: 6
-      p: 4
-      t: 1
+      m: 1
+      n: 7
+      r: 4
+      p: 5
+      t: 3
 ---
 # {{ params.vars.title }}
 A particle moves in a curvilinear motion according to the following equations:

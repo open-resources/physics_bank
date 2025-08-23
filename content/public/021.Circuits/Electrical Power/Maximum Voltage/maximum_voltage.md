@@ -43,8 +43,8 @@ myst:
       vars:
         title: Maximum Voltage
         units: V
-      P: 0.57
-      R: 61
+      P: 0.3
+      R: 98
 ---
 # {{ params.vars.title }}
 

@@ -38,7 +38,7 @@ myst:
       vars:
         title: Kinetic Energy of a Simple Pendulum System
         units: degrees
-      theta: 32.0
+      theta: 89.3
 ---
 # {{ params.vars.title }}
 The figure below shows a simple pendulum. The length of the string is $l$ and the bob has mass $m_1$.

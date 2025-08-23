@@ -58,8 +58,8 @@ myst:
     params:
       vars:
         title: Combining Capacitors
-      c: '2.7'
-      n: '7'
+      c: '1.9'
+      n: '6'
 ---
 # {{ params.vars.title }}
 

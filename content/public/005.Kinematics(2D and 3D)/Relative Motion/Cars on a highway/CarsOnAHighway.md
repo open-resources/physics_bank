@@ -45,10 +45,10 @@ myst:
     params:
       vars:
         title: Cars on a Highway
-      l: 11
-      d: 37
-      va: 90
-      vb: 101
+      l: 18
+      d: 58
+      va: 92
+      vb: 107
 ---
 # {{ params.vars.title }}
 Two cars are driving at constant speeds on two parallel opposing lanes of a divided highway.

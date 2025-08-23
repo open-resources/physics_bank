@@ -35,28 +35,28 @@ myst:
       vars:
         title: Traveling Wave on a String
       b: 2
-      c: 25
-      d: 10
-      wave_equation: D(x,t) = 2.00 cm * cos(25.0 rad/s * t - 10.0 rad/m * x + π rad)
+      c: 23
+      d: 8
+      wave_equation: D(x,t) = 2.00 cm * sin(23.0 rad/s * t - 8.0 rad/m * x + π rad)
       part1:
         ans1:
           value: '|Vᵧₘₐₓ| = 42,   |Vₓ|= 24'
           feedback: This is a random number, you probably selected this choice by
             mistake! Try again
         ans2:
-          value: '|Vᵧₘₐₓ| = 0.5,   |Vₓ| = 2.5'
+          value: '|Vᵧₘₐₓ| = 0.46,   |Vₓ| = 2.88'
           feedback: Correct!
         ans3:
-          value: '|Vᵧₘₐₓ| = 50.0,   |Vₓ|= 2.5'
+          value: '|Vᵧₘₐₓ| = 46.0,   |Vₓ|= 2.88'
           feedback: Check your units!
         ans4:
-          value: '|Vᵧₘₐₓ| = 0.24,   |Vₓ|= 2.4'
+          value: '|Vᵧₘₐₓ| = 0.261,   |Vₓ|= 2.4'
           feedback: There is mix in your chosen calculation values
         ans5:
-          value: '|Vᵧₘₐₓ| = 0.5,   |Vₓ|= 0.08'
+          value: '|Vᵧₘₐₓ| = 0.46,   |Vₓ|= 0.087'
           feedback: Check the your Vₓ value
         ans6:
-          value: '|Vᵧₘₐₓ| = 0.02,   |Vₓ|= 2.0'
+          value: '|Vᵧₘₐₓ| = 0.02,   |Vₓ|= 1.74'
           feedback: Try again!
 ---
 # {{ params.vars.title }}

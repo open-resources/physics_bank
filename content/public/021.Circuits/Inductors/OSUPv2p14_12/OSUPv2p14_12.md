@@ -78,11 +78,11 @@ Write the voltage across the resistor in terms of the current $I$, inductance $L
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| For                       | Use |
+| For | Use |
 |---------------------------|-----|
-| $I$                       | I   |
-| $L$                       | L   |
-| $\boldsymbol \varepsilon$ | E   |
+| $I$ | I |
+| $L$ | L |
+| $\boldsymbol \varepsilon$ | E |
 
 ### Answer Section
 

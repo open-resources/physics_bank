@@ -71,13 +71,13 @@ myst:
         units1_2: "$\rm{m/s}$"
         units3: "$\rm{m}$"
         units4: "$\rm{m/s^2}$"
-      m: 0.2
-      deg: 24
+      m: 0.7000000000000001
+      deg: 26
       h: 0
-      x: 2
+      x: 4
       k: 800
-      a_a: 0.05
-      a_b: 0.1
+      a_a: 0.04
+      a_b: 0.08
 ---
 # {{ params.vars.title }}
 I have built a game that involves a spring, a smooth slope, and a little ball of $m = ${{params.m}} kg.
@@ -115,11 +115,11 @@ Calculate the acceleration of the ball as it goes UP the slope once it is beyond
 
 You may draw a free body diagram in order to help you write the final acceleration vector in terms of $\hat\imath$ (pointing down-slope) and $\hat\jmath$ (pointing perpendicular to the slope). Enter answer as a symbolic expression (sin(30) instead of 0.86602).
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $\hat\imath$  | i_hat |
-| $\hat\jmath$  | j_hat  |
-| $g$  | g  |
+| $\hat\imath$ | i_hat |
+| $\hat\jmath$ | j_hat |
+| $g$ | g |
 
 ### Answer Section
 

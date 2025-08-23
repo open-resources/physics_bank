@@ -45,7 +45,7 @@ myst:
   substitutions:
     params:
       vars:
-        name: Lorenzo
+        name: Aliyah
         title: Lowering a bucket - the rope, the bucket, the air, the earth
       part1:
         ans1:

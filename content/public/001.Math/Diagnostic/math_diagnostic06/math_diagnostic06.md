@@ -33,18 +33,18 @@ myst:
     params:
       vars:
         title: Math Diagnostic06
-      eq: $\dfrac{x-1}{x-5}$ = $ \dfrac{x+2}{x+9}$
+      eq: $\dfrac{x-2}{x-8}$ = $ \dfrac{x+3}{x+9}$
       part1:
         ans1:
-          value: -43/17
+          value: '-3'
         ans2:
-          value: -1/11
+          value: -1/2
         ans3:
-          value: 43/5
+          value: '33'
         ans4:
-          value: 13/17
+          value: 1/2
         ans5:
-          value: -23/7
+          value: -43/6
         ans6:
           value: None of the above
 ---

@@ -42,9 +42,9 @@ myst:
     params:
       vars:
         title: Power of car along a circular arc
-      m: 9200.0
-      v: 97
-      a: 74
+      m: 8900.0
+      v: 179
+      a: 46
       part2:
         ans1:
           value: "$\rm{A}$"

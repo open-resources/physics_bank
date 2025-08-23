@@ -47,14 +47,14 @@ myst:
         title: Anticipating the Cross 4
       v0: 13
       theta0: 32
-      phi0: 60
-      x: 9
-      y: 15
+      phi0: 50
+      x: 5
+      y: 11
 ---
 # {{ params.vars.title }}
 <img src="Anticipating the Cross 2.png" width=800>
 
-A player is crossing the ball forwards towards the goal. The striker in the front needs to anticpate the cross and run towards where the ball will land. The ball is propelled at a speed of $v_0 = {{params.v0}} \ \rm{m/s}$ with an angle ${\theta}\_0  = {{params.theta0}}^{\circ}$ above the horizental, and an angle ${\phi}\_0 = {{params.phi0}}^{\circ}$.
+A player is crossing the ball forwards towards the goal. The striker in the front needs to anticpate the cross and run towards where the ball will land. The ball is propelled at a speed of $v_0 = {{params.v0}} \ \rm{m/s}$ with an angle ${\theta}\_0 = {{params.theta0}}^{\circ}$ above the horizental, and an angle ${\phi}\_0 = {{params.phi0}}^{\circ}$.
 
 <br>
 The striker starts accelerating from rest to anticipate the ball at the point of impact. <br>

@@ -29,16 +29,16 @@ myst:
     params:
       vars:
         title: Math Diagnostic15
-      expr: $7^{1} $=$ 7$
+      expr: $3^{4} $=$ 81$
       part1:
         ans1:
-          value: $log_77 = 1$
+          value: $log_381 = 4$
         ans2:
-          value: $log_71 = 7$
+          value: $log_34 = 81$
         ans3:
-          value: $log_71 = 7$
+          value: $log_814 = 3$
         ans4:
-          value: $log_17 = 7$
+          value: $log_481 = 3$
         ans5:
           value: Don't Know
 ---

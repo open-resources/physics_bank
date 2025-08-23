@@ -37,8 +37,8 @@ myst:
     params:
       vars:
         title: Pendulum Gravity
-      Ti: 1.95
-      Tf: 1.8359999999999999
+      Ti: 1.808
+      Tf: 1.7
 ---
 # {{ params.vars.title }}
 

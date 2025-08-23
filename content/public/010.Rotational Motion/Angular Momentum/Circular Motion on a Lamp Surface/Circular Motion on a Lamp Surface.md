@@ -88,12 +88,12 @@ part6:
 myst:
   substitutions:
     params:
-      m_2: 10.2
-      m_1: 11.2
-      theta: 32
-      l: 4.0
-      s: 1.0
-      u: 2.41
+      m_2: 11.0
+      m_1: 10.8
+      theta: 46
+      l: 5.6
+      s: 1.4
+      u: 2.46
       part6:
         ans1:
           value: True because work is done by the rope attached to mass $m_2$ which

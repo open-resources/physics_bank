@@ -39,11 +39,11 @@ myst:
         title: Helicpoter Takeoff
         units:
           part1: s
-      L: 12
-      n: 4
-      m: 108
-      M: 1540
-      RPM: 464
+      L: 11
+      n: 3
+      m: 77
+      M: 8270
+      RPM: 478
 ---
 # {{ params.vars.title }}
 A helicopter with ${{params.n}}$ blades needs to spin its rotor at ${{params.RPM}} \ \rm{RPM}$ to take off.

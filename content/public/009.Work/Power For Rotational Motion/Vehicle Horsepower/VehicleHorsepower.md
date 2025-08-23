@@ -37,10 +37,10 @@ myst:
     params:
       vars:
         title: Vehicle Horsepower
-      M1: 620
-      M2: 1996
-      RPM1: 5189
-      RPM2: 1791
+      M1: 768
+      M2: 1527
+      RPM1: 6771
+      RPM2: 1736
 ---
 # {{ params.vars.title }}
 At peak power, a sports car outputs ${{params.M1}} \ \rm{Nm}$ of torque and rotates the crankshaft at ${{params.RPM1}} \ \rm{RPM}$.

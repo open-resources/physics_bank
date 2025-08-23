@@ -44,8 +44,8 @@ myst:
     params:
       vars:
         title: Charge Stored in a Capacitor
-      c: '100'
-      v: '180'
+      c: '135'
+      v: '100'
 ---
 # {{ params.vars.title }}
 

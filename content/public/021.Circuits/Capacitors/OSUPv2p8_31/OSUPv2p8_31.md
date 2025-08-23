@@ -65,9 +65,9 @@ myst:
     params:
       vars:
         title: Charge and Voltage Across Capacitors
-      a: '11'
-      b: '7'
-      v: '330'
+      a: '6'
+      b: '9'
+      v: '300'
 ---
 # {{ params.vars.title }}
 A {{params.a }}$\textrm{ pF}$ capacitor is connected in series with a {{params.b }}$\textrm{ pF}$ capacitor and a {{params.v }}$\textrm{ V}$ potential difference is applied across the pair.

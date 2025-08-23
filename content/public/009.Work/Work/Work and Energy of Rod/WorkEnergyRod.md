@@ -42,9 +42,9 @@ myst:
       vars:
         title: Work and Energy of a Rod
         units: rad/s
-      m: 4
-      L: 8
-      F: 190
+      m: 8
+      L: 10
+      F: 251
 ---
 # {{ params.vars.title }}
 <img src="WorkEnergyRod.png" width=400>

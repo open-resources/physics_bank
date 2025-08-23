@@ -61,8 +61,8 @@ part4:
 myst:
   substitutions:
     params:
-      u: 8
-      a: 53
+      u: 7
+      a: 35
       part4:
         ans1:
           value: 'False'

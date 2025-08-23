@@ -43,11 +43,11 @@ myst:
     params:
       vars:
         title: Coil Encircling Solenoid
-      n: '17'
-      A: '5'
-      I: '0.25'
-      N: '5'
-      t: '0.06'
+      n: '11'
+      A: '9'
+      I: '0.75'
+      N: '6'
+      t: '0.07'
 ---
 # {{ params.vars.title }}
 

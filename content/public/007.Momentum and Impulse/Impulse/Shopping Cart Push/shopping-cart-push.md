@@ -40,15 +40,15 @@ myst:
       vars:
         title: Shopping Cart Push
         units: m
-      m1: 59
-      m2: 15
-      t: 2.2
-      F: 444
-      C: 0.1
+      m1: 65
+      m2: 16
+      t: 2.1
+      F: 405
+      C: 0.09
 ---
 # {{ params.vars.title }}
 Two teenagers are playing with a shopping cart in a parking lot.
-One teenager begins pushing their ${{ params.m1 }} \  \rm{kg}$ friend on the ${{ params.m2 }} \ \rm{kg}$ cart with a maximum force of $F\_{max} = {{ params.F }} \ \rm{N}$.
+One teenager begins pushing their ${{ params.m1 }} \ \rm{kg}$ friend on the ${{ params.m2 }} \ \rm{kg}$ cart with a maximum force of $F\_{max} = {{ params.F }} \ \rm{N}$.
 The magnitude of the force decreases linearly to $0 \ \rm{N}$ until the cart is released after ${{ params.t }} \ \rm{s}$.
 
 ## Question Text

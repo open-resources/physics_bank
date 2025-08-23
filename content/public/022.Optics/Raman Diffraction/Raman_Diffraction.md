@@ -34,7 +34,7 @@ myst:
       vars:
         title: Raman Diffraction
       lambda1: 750
-      lambda2: 550
+      lambda2: 500
       part1:
         ans1:
           value: The diffraction angle is larger for the $750$ $\rm{nm}$ light.
@@ -48,7 +48,7 @@ myst:
             and the wavelength $\lambda$.
         ans3:
           value: The diffraction angle is the same for both the $750$ $\rm{nm}$ and
-            $550$ $\rm{nm}$ light.
+            $500$ $\rm{nm}$ light.
           feedback: No, diffraction angles do depend on the wavelength of light.
         ans4:
           value: Light doesn't exist outside of the visible range from $400$ $\rm{nm}$

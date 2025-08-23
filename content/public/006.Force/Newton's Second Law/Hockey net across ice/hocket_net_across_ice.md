@@ -32,20 +32,20 @@ myst:
     params:
       vars:
         title: Hockey net across ice
-      v: 19
-      f: 4.466835472188411
+      v: 7
+      f: 2.728168967097221
       part1:
         ans1:
           value: At a steadily increasing speed.
         ans2:
-          value: At 85.0 $\mathrm{m/s}$.
+          value: At 19.0 $\mathrm{m/s}$.
         ans3:
-          value: At an increasing speed until it reaches 85.0 $\mathrm{m/s}$ then
+          value: At an increasing speed until it reaches 19.0 $\mathrm{m/s}$ then
             at a constant speed.
         ans4:
           value: At a steadily decreasing speed.
         ans5:
-          value: At 19 $\mathrm{m/s}$.
+          value: At 7 $\mathrm{m/s}$.
 ---
 # {{ params.vars.title }}
 

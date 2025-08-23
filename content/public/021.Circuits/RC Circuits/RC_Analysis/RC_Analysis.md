@@ -65,7 +65,7 @@ myst:
 
 Identify any capacitors in the circuit shown in figure that are in series or in parallel by circling them with a dashed line and labelling them.
 
-Show a calculation of the effective capacitance of this part of the circuit, and replace the series or parallel capacitors with a single effective capacitor, redrawing the resulting circuit.  On the redrawn circuit repeat this process unit the circuit is fully simplified to a single capacitor, a single resistor and a battery.
+Show a calculation of the effective capacitance of this part of the circuit, and replace the series or parallel capacitors with a single effective capacitor, redrawing the resulting circuit. On the redrawn circuit repeat this process unit the circuit is fully simplified to a single capacitor, a single resistor and a battery.
 
 Finally, upload your work as a png file named "circuit1"
 

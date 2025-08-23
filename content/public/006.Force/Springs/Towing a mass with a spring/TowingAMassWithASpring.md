@@ -38,11 +38,11 @@ myst:
     params:
       vars:
         title: Towing a Mass With a Spring
-      m: 34
-      x: 0.49
-      L: 0.56
-      nu: 0.4
-      a: 2.97
+      m: 18
+      x: 0.51
+      L: 0.64
+      nu: 0.5
+      a: 1.92
 ---
 # {{ params.vars.title }}
 A person accelerates a ${{params.m}} \ \rm{kg}$ mass at ${{params.a}} \ \rm{m/s^2}$ by pulling on a spring that is ${{params.x}} \ \rm{m}$ long at rest.

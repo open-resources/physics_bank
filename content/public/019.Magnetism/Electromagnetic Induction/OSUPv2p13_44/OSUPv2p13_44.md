@@ -44,9 +44,9 @@ myst:
     params:
       vars:
         title: Moving Rod
-      r: '5'
-      v: '3'
-      B: '1.50'
+      r: '4'
+      v: '4'
+      B: '1.25'
       a: '9'
       part2:
         ans1:

@@ -46,7 +46,7 @@ myst:
     params:
       vars:
         title: Accelerating electrons
-      f_s: $2.60\times 10^5$
+      f_s: $4.60\times 10^4$
 ---
 # {{ params.vars.title }}
 A simple and common technique for accelerating electrons is shown in the figure, where there is a uniform electric field between two plates.
@@ -56,7 +56,7 @@ Electrons are released from rest, usually from a hot filament, near the negative
 
 ## Question Text
 
-Calculate the acceleration of the electron if the field strength  is {{ params.f_s }} $\textrm{ N/C}$.
+Calculate the acceleration of the electron if the field strength is {{ params.f_s }} $\textrm{ N/C}$.
 
 ### Answer Section
 

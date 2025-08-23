@@ -50,11 +50,11 @@ myst:
     params:
       vars:
         title: Collision of Objects A and B
-        name: Lorenzo
+        name: Abbas
       v1: 4
-      v2: 6
+      v2: 4
       m_a: 4
-      m_b: 2
+      m_b: 6
       part2:
         ans1:
           value: 'Yes'
@@ -62,14 +62,14 @@ myst:
           value: 'No'
 ---
 # {{ params.vars.title }}
-{{ params.vars.name }} observes object A, which has mass ${{params.m_a}}$ and velocity $v_0 \vec{i}$, collide with object B, which has mass {{params.m_b}} $kg$ and a velocity  1/{{params.v1}} $v_0 \vec{j}$.
+{{ params.vars.name }} observes object A, which has mass ${{params.m_a}}$ and velocity $v_0 \vec{i}$, collide with object B, which has mass {{params.m_b}} $kg$ and a velocity 1/{{params.v1}} $v_0 \vec{j}$.
 Following the collision, object B has a velocity of 1/{{params.v2}} $$v_0 \vec{i}$$.
 
 Use the following table as a reference for each variable:
 
-| $Variable$ | Use   |
+| $Variable$ | Use |
 |----------|-------|
-| $v_0$  | v  |
+| $v_0$ | v |
 | $\hat{i}$ | i_hat |
 | $\hat{j}$ | j_hat |
 

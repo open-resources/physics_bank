@@ -44,10 +44,10 @@ part2:
 myst:
   substitutions:
     params:
-      L: 2.8
-      theta: 131
-      omega: 263
-      t: 2.2
+      L: 1.9
+      theta: 181
+      omega: 229
+      t: 0.13
 ---
 # Projectile Motion on an Incline
 A robot holds a bowling ball that is spun at a rate of ${{ params.omega }} \ \rm{rpm}$ CCW in a plane perpendicular to the ground. The robot arm is ${{params.L}} \ \rm{m}$ long.

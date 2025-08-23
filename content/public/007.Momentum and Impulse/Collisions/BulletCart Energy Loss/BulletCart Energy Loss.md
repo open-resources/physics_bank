@@ -47,8 +47,8 @@ myst:
       vars:
         title: BulletCart Energy Loss
       m: 36
-      mbg: 100
-      vb: 466
+      mbg: 81
+      vb: 642
 ---
 # {{ params.vars.title }}
 <img src="BulletCart Energy Loss.png" width=400>

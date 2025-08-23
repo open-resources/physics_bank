@@ -44,12 +44,12 @@ myst:
   substitutions:
     params:
       vars:
-        name: Ahmed
+        name: Lorenzo
         title: Archery Competition
-      d: 130
+      d: 85
       v: 259
-      h: 180
-      theta: 47
+      h: 167
+      theta: 38
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is reading a novel that describes an athelete participating in an archery competition.

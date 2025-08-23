@@ -38,11 +38,11 @@ myst:
     params:
       vars:
         title: Spring Potential Energy Rail
-      m: 406
-      xi: 26.0
-      x: 61.0
-      R: 749.0
-      k: 102
+      m: 493
+      xi: 45.0
+      x: 67.0
+      R: 670.0
+      k: 178
 ---
 # {{ params.vars.title }}
 <img src="Spring Potential Energy Rail.png" width=400>

@@ -44,8 +44,8 @@ myst:
     params:
       vars:
         title: Determining Capacitance
-      q: '1.3'
-      v: '120'
+      q: '1.5'
+      v: '260'
 ---
 # {{ params.vars.title }}
 

@@ -33,16 +33,16 @@ myst:
     params:
       vars:
         title: Math Diagnostic12
-      expr: $1\over 1- x$ > $ 6$
+      expr: $7\over 7- x$ > $ 1$
       part1:
         ans1:
-          value: (5/6 < x) & (x < 1)
+          value: (0 < x) & (x < 7)
         ans2:
-          value: (5/6 > x) & (x > 1)
+          value: (0 > x) & (x > 7)
         ans3:
-          value: x > 1/6
+          value: x > 7/1
         ans4:
-          value: (0 < x) & (x < 6)
+          value: (48/7 < x) & (x < 7)
         ans5:
           value: Do not know
 ---

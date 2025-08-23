@@ -68,7 +68,7 @@ myst:
             $m$ is canceled out and we will have , a=$\mu_s g\cos$(10$^\circ$) - $g\sin$(10$^\circ$).'
 ---
 # {{ params.vars.title }}
-A truck accelerates up a 10  $^\circ$  incline. For a box in the back of the truck as shown in Fig. (i), the free body diagram is shown in Fig. (ii). The coefficient of friction between the box and the truck is $\mu_s$ . At the point of slipping, the acceleration of the truck is:
+A truck accelerates up a 10 $^\circ$ incline. For a box in the back of the truck as shown in Fig. (i), the free body diagram is shown in Fig. (ii). The coefficient of friction between the box and the truck is $\mu_s$ . At the point of slipping, the acceleration of the truck is:
 
 <img src="truckuphill1.png">
 

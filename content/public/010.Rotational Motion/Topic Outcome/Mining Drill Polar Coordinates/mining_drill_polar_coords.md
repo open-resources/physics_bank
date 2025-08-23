@@ -60,13 +60,13 @@ myst:
     params:
       vars:
         title: Mining Drill Polar Coordinates
-      d: 2
-      theta: 9
+      d: 4
+      theta: 7
       dot_theta: 10
-      ddot_theta: 9
+      ddot_theta: 6
       l: 7
-      dot_l: 6
-      ddot_l: 6
+      dot_l: 8
+      ddot_l: 5
 ---
 # {{ params.vars.title }}
 <img src="L8Q2.png" width=85%>

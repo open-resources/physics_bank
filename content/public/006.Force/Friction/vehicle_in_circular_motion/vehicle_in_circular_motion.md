@@ -75,10 +75,10 @@ myst:
     params:
       vars:
         title: Vehicle in Circular Motion
-        vehicle: van
-      m: 1600.0
-      v: 86.0
-      r: 120.0
+        vehicle: sedan
+      m: 2200.0
+      v: 85.0
+      r: 130.0
       theta: 19.0
       f_s: 0.6
       f_k: 0.4
@@ -102,7 +102,7 @@ myst:
 
 ## Part 1
 
-A {{params.vars.vehicle}} of mass {{params.m}} $\rm{kg}$ in uniform circular motion accelerates towards the \_\_\_\_\_\_\_\_\_ of the circle due to the force of \_\_\_\_\_\_\_\_\_\_  friction between the {{params.vars.vehicle}}'s tires and the road. Please fill in the blanks with one of the options below (The choices are presented in the same order as they should appear in the sentence.)
+A {{params.vars.vehicle}} of mass {{params.m}} $\rm{kg}$ in uniform circular motion accelerates towards the \_\_\_\_\_\_\_\_\_ of the circle due to the force of \_\_\_\_\_\_\_\_\_\_ friction between the {{params.vars.vehicle}}'s tires and the road. Please fill in the blanks with one of the options below (The choices are presented in the same order as they should appear in the sentence.)
 
 Fig. 1
 <img src="diagram1.png" alt = "The left side of the image is a diagram labelled 'Top view of vehicle in uniform circular motion' with a circle below. There is a top view of a vehicle on the leftmost point on the circle (180 degrees from the 0 position) with the y axis extending upwards from the vehicle, and the x axis extending similarly towards the right. The right side of the image is titled 'Rear view of vehicle in uniform circular motion' and contains two axes, z (upwards) and x (rightwards) which cross perpendicularly to form a four quadrant graph. At the origin of this graph is a rear-view symbol of the vehicle." width= 500>

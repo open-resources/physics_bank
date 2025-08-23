@@ -62,11 +62,11 @@ Derive an expression for the force between the atoms as a function of $r$.
 
 On your diagram from part 1 above, label the regions where the force is negative (attractive) between atoms, and where the force is positive (repulsive) between atoms.
 
-| For  | Use   |
+| For | Use |
 |------|-------|
-| $r_o$  | R  |
-| $r$    | r  |
-| $u_o$  | u  |
+| $r_o$ | R |
+| $r$ | r |
+| $u_o$ | u |
 
 ### Answer Section
 

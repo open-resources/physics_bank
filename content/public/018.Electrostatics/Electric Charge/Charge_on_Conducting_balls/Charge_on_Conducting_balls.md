@@ -47,14 +47,14 @@ myst:
       part1:
         ans1:
           value: negative
-          feedback: Not quite
+          feedback: You got it!
         ans2:
           value: positive
-          feedback: You got it!
+          feedback: Not quite!
         ans3:
           value: Zero
           feedback: Not quite!
-      ball: '2'
+      ball: '1'
       balls: '3'
       part2:
         ans1:
@@ -86,7 +86,7 @@ myst:
 # {{ params.vars.title }}
 <img src="balls.png" width="400">
 
-Five identical neutral conducting balls hanging from strings are numbered 1 to 5.  As shown in the Figure above. Balls 1 and 2 touch as they are brought near a highly charged metal sphere and then are separated, with ball 1 closer to the sphere. Ball 3 contacts both the metal sphere and ball 4.  Ball 4 is pulled away from ball 3, and then ball 3 is pulled away from the metal sphere.
+Five identical neutral conducting balls hanging from strings are numbered 1 to 5. As shown in the Figure above. Balls 1 and 2 touch as they are brought near a highly charged metal sphere and then are separated, with ball 1 closer to the sphere. Ball 3 contacts both the metal sphere and ball 4. Ball 4 is pulled away from ball 3, and then ball 3 is pulled away from the metal sphere.
 
 ## Part 1
 

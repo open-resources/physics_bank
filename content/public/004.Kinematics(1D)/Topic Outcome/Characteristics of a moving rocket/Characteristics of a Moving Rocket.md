@@ -33,22 +33,22 @@ part1:
 myst:
   substitutions:
     params:
-      v_y: $-4t^2 - 3t$
+      v_y: $-2t^3 - t^2 - 3t$
       vars:
         title: Characteristics of a Moving Rocket
       part1:
         ans1:
-          value: $y(t) = -4t^3/3 - 3t^2/2 + 9.9$
+          value: $a_y(t) = -6t^2 - 2t - 3$
         ans2:
-          value: $a_y(t) = -8t - 3$
+          value: $a_y(t = $ 6.8$s) = $ -294.04 $m/s^2$
         ans3:
-          value: $v_y(t=$ 7.5$s) = $ -247.5 $m/s$
+          value: $y(t) = -t^4/2 - t^3/3 - 3t^2/2 + 7.7$
         ans4:
-          value: $y(t) = 4t^2 - 4t$
+          value: $v_y(t=$ 3.3$s) = $ -92.664 $m/s$
         ans5:
-          value: $a_y(t) = -4t^3 - t^2 + 3t$
+          value: $v_y(t=$ 3.3$s) = $ -49.444 $m/s$
         ans6:
-          value: $v_y(t=$ 7.5$s) = $ -3.8604 $m/s$
+          value: $a_y(t = $ 6.8$s) = $ -13.485 $m/s^2$
 ---
 # {{ params.vars.title }}
 

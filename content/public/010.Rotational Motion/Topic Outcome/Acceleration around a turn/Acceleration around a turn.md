@@ -34,7 +34,7 @@ myst:
     params:
       vars:
         title: Acceleration Around a Turn
-        vehicle: van
+        vehicle: sedan
         dir: clockwise
       part1:
         ans1:

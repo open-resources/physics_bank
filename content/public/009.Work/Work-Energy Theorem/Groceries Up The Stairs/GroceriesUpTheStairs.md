@@ -47,10 +47,10 @@ myst:
     params:
       vars:
         title: Groceries up the Stairs
-      h: 3.28
-      m1: 97
-      m2: 15
-      t: 89
+      h: 3.48
+      m1: 105
+      m2: 5
+      t: 67
 ---
 # {{ params.vars.title }}
 A ${{params.m1}} \ \rm{kg}$ delivery driver is carrying ${{params.m2}} \ \rm{kg}$ groceries up a ${{params.h}} \ \rm{m}$ flight of stairs.

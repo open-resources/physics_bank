@@ -49,10 +49,10 @@ myst:
     params:
       vars:
         title: Single-turn Circular Loop
-      r: '60'
-      b: '175'
-      B: '350'
-      t: '0.1'
+      r: '50'
+      b: '200'
+      B: '375'
+      t: '0.2'
       part2:
         ans1:
           value: Clockwise

@@ -33,25 +33,25 @@ myst:
     params:
       vars:
         title: Vehicle Crash
-        name: Santiago
-        vehicle_1: truck
-        vehicle_2: semi-truck
-      dist: 5.45
-      v: 36.6
-      acc: 14.3
+        name: Ahmed
+        vehicle_1: bus
+        vehicle_2: van
+      dist: 2.57
+      v: 37.6
+      acc: 10.8
       s_1: 0.4
-      s_2: 1.155
+      s_2: 1.322
       part1:
         ans1:
-          value: 25.8 $m/s$
+          value: 27.64 $m/s$
         ans2:
-          value: 20.08 $m/s$
+          value: 23.32 $m/s$
         ans3:
-          value: 30.88 $m/s$
+          value: 33.28 $m/s$
         ans4:
-          value: 14.36 $m/s$
+          value: 19.0 $m/s$
         ans5:
-          value: 36.6 $m/s$
+          value: 37.6 $m/s$
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is following {{params.dist}} $m$ behind a {{params.vars.vehicle_1}} when it suddenly brakes with an acceleration of -{{params.acc}} $m/s^2$.

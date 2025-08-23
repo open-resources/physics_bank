@@ -44,9 +44,9 @@ myst:
     params:
       vars:
         title: Temperature Range of Resistor
-      p: 8
-      metal: Silicon
-      T_0: 110
+      p: 3
+      metal: Gold
+      T_0: 98
 ---
 # {{ params.vars.title }}
 

@@ -38,11 +38,11 @@ myst:
     params:
       vars:
         title: Gravity Pull
-      M: 8.708
-      R: 6314.0
-      d: 33.0
-      d1: 29.0
-      v0: 1600.0
+      M: 9.43
+      R: 6452.0
+      d: 12.0
+      d1: 9.8
+      v0: 4600.0
 ---
 # {{ params.vars.title }}
 <img src="Gravity Pull.png" width = 800> 
@@ -52,7 +52,7 @@ $G = 6.67 \times 10^{-11} \ \rm{m^3. kg^{-1}. s^{-2}}$
 
 ## Part 1
 
-Find the asteroid's speed when it is ${{ params.d1 }}\ \rm{km}$  away from the surface.
+Find the asteroid's speed when it is ${{ params.d1 }}\ \rm{km}$ away from the surface.
 
 ### Answer Section
 

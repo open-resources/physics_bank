@@ -71,16 +71,16 @@ myst:
   substitutions:
     params:
       vars:
-        name1: Aliyah
-        name2: Ximena
+        name1: Abbas
+        name2: Lorenzo
         title: A Flying Arrow
         unit1: $kg\cdot m/s$
         unit2: $J$
         unit3: $m/s$
-      m: 0.325
-      v_x: -76.2
-      x1: 6.67
-      x2: 16.2
+      m: 0.437
+      v_x: -89.0
+      x1: 24.2
+      x2: 9.2
 ---
 # {{ params.vars.title }}
 {{ params.vars.name1 }} and {{ params.vars.name2 }} watch an arrow fly past them.

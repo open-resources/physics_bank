@@ -46,10 +46,10 @@ myst:
     params:
       vars:
         title: Spinning Carnival Ride
-      alpha_dot: 0.27
-      beta_dot: 0.94
-      r1: 8
-      r2: 0.97
+      alpha_dot: 0.21
+      beta_dot: 0.96
+      r1: 5
+      r2: 1.3
 ---
 # {{ params.vars.title }}
 The carnival ride illustrated below is spinning at $\dot \alpha = {{params.alpha_dot}} \ \rm{rev/s}$.

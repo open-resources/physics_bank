@@ -43,12 +43,12 @@ Use this plot to derive an expression for $\Delta x$ in terms $a_c$, $v_0$, $t_0
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for using each variable:
 
-| $Variable$ | Use      |
+| $Variable$ | Use |
 |------------|----------|
-| $a_c$      |  a_c     |
-| $v_0$      |  v_0     |
-| $t_0$      |  t_0     |
-| $t$        |  t       |
+| $a_c$ | a_c |
+| $v_0$ | v_0 |
+| $t_0$ | t_0 |
+| $t$ | t |
 
 ### Answer Section
 

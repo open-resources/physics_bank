@@ -41,9 +41,9 @@ myst:
     params:
       vars:
         title: Rutland Rd
-        vehicle: car
+        vehicle: semi-truck
         units: km/h
-      v: 32
+      v: 60
       part2:
         ans1:
           value: North

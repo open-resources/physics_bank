@@ -47,9 +47,9 @@ myst:
     params:
       vars:
         title: Equivalent Capacitance
-      a: '10'
+      a: '6'
       b: '1.0'
-      c: '0.6'
+      c: '0.9'
 ---
 # {{ params.vars.title }}
 

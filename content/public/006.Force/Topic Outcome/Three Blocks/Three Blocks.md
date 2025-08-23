@@ -103,10 +103,10 @@ myst:
         title: Three Blocks
         unit1: $\rm{m/s^2}$
         unit2: $\rm{N}$
-      m_A: 1.9
-      m_B: 3.8
-      m_C: 7.6
-      F: 13
+      m_A: 2.9
+      m_B: 5.8
+      m_C: 11.6
+      F: 17
       part2:
         ans1:
           value: $m_C$
@@ -121,17 +121,17 @@ myst:
           value: $m_A$
           feedback: Correct! Nice work
         ans5:
-          value: $F_{\text{B on C}}$
+          value: $F_{\text{B on A}}$
           feedback: Not quite - Try again!
         ans6:
-          value: $F_{\text{B on A}}$
+          value: $F_{\text{B on C}}$
           feedback: Not quite - Try again!
       part3:
         ans1:
-          value: $F_{\text{B on C}}$
+          value: $F_{\text{B on A}}$
           feedback: Correct! Nice work
         ans2:
-          value: $F_{\text{B on A}}$
+          value: $F_{\text{B on C}}$
           feedback: Correct! Nice work
         ans3:
           value: $m_C$
@@ -213,13 +213,13 @@ Let $a$ be the acceleration.
 
 Use the following table as a reference for each variable. Note that it may not be necessary to use every variable.
 
-| For $\quad \quad$       | Use   |
+| For $\quad \quad$ | Use |
 |-------------------------|-------|
-| $F\_{\text{on A}}$       | F_a     |
-| $F\_{\text{B on A}}$     | F_ba    |
-| $F\_{\text{A on B}}$     | F_ab    |
-| $F\_{\text{C on B}}$     | F_cb    |
-| $F\_{\text{B on C}}$     | F_bc    |
+| $F\_{\text{on A}}$ | F_a |
+| $F\_{\text{B on A}}$ | F_ba |
+| $F\_{\text{A on B}}$ | F_ab |
+| $F\_{\text{C on B}}$ | F_cb |
+| $F\_{\text{B on C}}$ | F_bc |
 
 ### Answer Section
 
@@ -231,13 +231,13 @@ Let $a$ be the acceleration.
 
 Use the following table as a reference for each variable. Note that it may not be necessary to use every variable.
 
-| For $\quad \quad$       | Use   |
+| For $\quad \quad$ | Use |
 |-------------------------|-------|
-| $F\_{\text{on A}}$       | F_a     |
-| $F\_{\text{B on A}}$     | F_ba    |
-| $F\_{\text{A on B}}$     | F_ab    |
-| $F\_{\text{C on B}}$     | F_cb    |
-| $F\_{\text{B on C}}$     | F_bc    |
+| $F\_{\text{on A}}$ | F_a |
+| $F\_{\text{B on A}}$ | F_ba |
+| $F\_{\text{A on B}}$ | F_ab |
+| $F\_{\text{C on B}}$ | F_cb |
+| $F\_{\text{B on C}}$ | F_bc |
 
 ### Answer Section
 
@@ -249,13 +249,13 @@ Let $a$ be the acceleration.
 
 Use the following table as a reference for each variable. Note that it may not be necessary to use every variable.
 
-| For $\quad \quad$       | Use   |
+| For $\quad \quad$ | Use |
 |-------------------------|-------|
-| $F\_{\text{on A}}$       | F_a     |
-| $F\_{\text{B on A}}$     | F_ba    |
-| $F\_{\text{A on B}}$     | F_ab    |
-| $F\_{\text{C on B}}$     | F_cb    |
-| $F\_{\text{B on C}}$     | F_bc    |
+| $F\_{\text{on A}}$ | F_a |
+| $F\_{\text{B on A}}$ | F_ba |
+| $F\_{\text{A on B}}$ | F_ab |
+| $F\_{\text{C on B}}$ | F_cb |
+| $F\_{\text{B on C}}$ | F_bc |
 
 ### Answer Section
 

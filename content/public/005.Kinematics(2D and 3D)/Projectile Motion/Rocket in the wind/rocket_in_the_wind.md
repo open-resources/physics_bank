@@ -39,8 +39,8 @@ myst:
       vars:
         title: Rocket in the wind
         units: ${\circ}$
-      v0: 18
-      wind_acc: 1.9
+      v0: 20
+      wind_acc: 2.8
 ---
 # {{ params.vars.title }}
 A model rocket looks to launch with a speed $v\_{0} = {{params.v0}} m/s$.

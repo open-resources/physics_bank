@@ -99,8 +99,8 @@ myst:
     params:
       vars:
         title: A Coyote and a Rat
-      d_x: 29
-      v_r: 6
+      d_x: 20
+      v_r: 5
       a_c: 6
 ---
 # {{ params.vars.title }}
@@ -116,12 +116,12 @@ Write the position of the coyote as a function of time $x\_{\text{coyote}}(t)$. 
 
 Use the following table as a reference for each variable. Note that it may not be necessary to use every variable.
 
-| For                 | Use |
+| For | Use |
 |---------------------|-----|
-| $t$                 | t   |
-| $\Delta x$          | dx  |
-| $v\_{\text{rat}}$    | vr  |
-| $a\_{\text{coyote}}$ | ac  |
+| $t$ | t |
+| $\Delta x$ | dx |
+| $v\_{\text{rat}}$ | vr |
+| $a\_{\text{coyote}}$ | ac |
 
 ### Answer Section
 
@@ -131,12 +131,12 @@ Write the velocity of the coyote as a function of time $v\_{\text{coyote}}(t)$. 
 
 Use the following table as a reference for each variable. Note that it may not be necessary to use every variable.
 
-| For                 | Use |
+| For | Use |
 |---------------------|-----|
-| $t$                 | t   |
-| $\Delta x$          | dx  |
-| $v\_{\text{rat}}$    | vr  |
-| $a\_{\text{coyote}}$ | ac  |
+| $t$ | t |
+| $\Delta x$ | dx |
+| $v\_{\text{rat}}$ | vr |
+| $a\_{\text{coyote}}$ | ac |
 
 ### Answer Section
 
@@ -146,12 +146,12 @@ Write the position of the rat as a function of time $x\_{\text{rat}}(t)$. Do not
 
 Use the following table as a reference for each variable. Note that it may not be necessary to use every variable.
 
-| For                 | Use |
+| For | Use |
 |---------------------|-----|
-| $t$                 | t   |
-| $\Delta x$          | dx  |
-| $v\_{\text{rat}}$    | vr  |
-| $a\_{\text{coyote}}$ | ac  |
+| $t$ | t |
+| $\Delta x$ | dx |
+| $v\_{\text{rat}}$ | vr |
+| $a\_{\text{coyote}}$ | ac |
 
 ### Answer Section
 
@@ -161,12 +161,12 @@ Write the velocity of the rat as a function of time $v\_{\text{rat}}(t)$. Do not
 
 Use the following table as a reference for each variable. Note that it may not be necessary to use every variable.
 
-| For                 | Use |
+| For | Use |
 |---------------------|-----|
-| $t$                 | t   |
-| $\Delta x$          | dx  |
-| $v\_{\text{rat}}$    | vr  |
-| $a\_{\text{coyote}}$ | ac  |
+| $t$ | t |
+| $\Delta x$ | dx |
+| $v\_{\text{rat}}$ | vr |
+| $a\_{\text{coyote}}$ | ac |
 
 ### Answer Section
 

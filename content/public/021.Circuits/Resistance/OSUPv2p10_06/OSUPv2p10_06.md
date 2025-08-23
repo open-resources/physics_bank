@@ -34,7 +34,7 @@ myst:
     params:
       vars:
         title: Resistors in a Lab
-        name: Mateo
+        name: Savannah
       have: smaller
       want: larger
       part1:

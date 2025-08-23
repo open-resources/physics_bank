@@ -50,11 +50,11 @@ have the same position? Give your answer in terms of $v_0$, $a$, and $g$. Ignore
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
 | $v_0$| v_0|
-| $a$  | a  |
-| $g$  | g  |
+| $a$ | a |
+| $g$ | g |
 
 ### Answer Section
 

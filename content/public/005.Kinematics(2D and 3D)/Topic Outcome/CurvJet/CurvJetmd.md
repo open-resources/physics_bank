@@ -46,10 +46,10 @@ myst:
     params:
       vars:
         title: Curvilinear Motion of Jet
-      d: 1042
-      h: 391
-      v: 353
-      rho: 1097
+      d: 1191
+      h: 520
+      v: 182
+      rho: 379
 ---
 # {{ params.vars.title }}
 <img src="CurvJet.png" width=90%>

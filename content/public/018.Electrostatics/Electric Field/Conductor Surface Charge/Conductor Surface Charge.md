@@ -58,8 +58,8 @@ myst:
     params:
       vars:
         title: Conductor Surface Charge
-      Q: '-7.1'
-      q: '-5.9'
+      Q: '2.5'
+      q: '-4.9'
 ---
 # {{ params.vars.title }}
 The conductor in the figure has an excess charge of ${{params.Q}}\rm\ \mu C$.

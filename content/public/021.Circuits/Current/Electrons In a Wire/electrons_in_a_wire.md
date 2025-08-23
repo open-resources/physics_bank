@@ -39,8 +39,8 @@ myst:
       vars:
         title: Electrons In a Wire
         units: m/s
-      I: 106
-      t: 39
+      I: 190
+      t: 51
 ---
 # {{ params.vars.title }}
 

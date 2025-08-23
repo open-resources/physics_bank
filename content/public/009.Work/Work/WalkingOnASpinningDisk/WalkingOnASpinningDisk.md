@@ -39,10 +39,10 @@ myst:
     params:
       vars:
         title: Walking on a Spinning Disk
-      m: 50
-      r1: 2
-      r2: 1.14
-      theta_dot: 2
+      m: 63
+      r1: 1
+      r2: 0.27
+      theta_dot: 1
 ---
 # {{ params.vars.title }}
 A ${{params.m}}\ \rm{kg}$ man is walking at a constant speed towards the center of a platform spinning at a constant rate of ${{params.theta_dot}} \ \rm{rad/s}$.

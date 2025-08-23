@@ -46,11 +46,11 @@ myst:
     params:
       vars:
         title: Relative Motion on a Curve
-      v: 49
-      r: 28
-      d: 22
-      a: 2.4
-      theta: 25
+      v: 36
+      r: 50
+      d: 39
+      a: 1.8
+      theta: 31
 ---
 # {{ params.vars.title }}
 <img src="L11Q4.png" width=85%>

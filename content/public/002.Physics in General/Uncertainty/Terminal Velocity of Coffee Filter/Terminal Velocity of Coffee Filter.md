@@ -60,18 +60,18 @@ myst:
     params:
       vars:
         title: Terminal Velocity of a Coffee Filter
-        name: Ximena
+        name: Ahmed
         unit1: $m/s$
         unit2: $kg/s$
       m: 3
       d_m: 46
-      sd: 0.078
-      v1: 0.95
-      v2: 0.83
-      v3: 0.91
-      v4: 0.9
-      v5: 0.82
-      v6: 0.71
+      sd: 0.054
+      v1: 0.94
+      v2: 0.81
+      v3: 0.87
+      v4: 0.88
+      v5: 0.92
+      v6: 0.79
 ---
 # {{ params.vars.title }}
 In one of the PHYS 111 labs {{ params.vars.name }} measured the terminal velocity $v_T$ of a coffee filter of mass $m$ falling through the air.
@@ -83,20 +83,20 @@ where $b$ is a "drag coefficient" determined by the shape of the filter and the 
 
 Suppose that the following six measurements of a coffee filter's terminal velocity were made:
 
-| Trial     | $v_T$ ($m/s$) |
+| Trial | $v_T$ ($m/s$) |
 | ----------- | ----------- |
-| 1     |  {{ params.v1 }}     |
-| 2   |   {{ params.v2 }}      |
-| 3     |  {{ params.v3 }}     |
-| 4   |   {{ params.v4 }}      |
-| 5     |  {{ params.v5 }}     |
-| 6   |   {{ params.v6 }}      |
+| 1 | {{ params.v1 }} |
+| 2 | {{ params.v2 }} |
+| 3 | {{ params.v3 }} |
+| 4 | {{ params.v4 }} |
+| 5 | {{ params.v5 }} |
+| 6 | {{ params.v6 }} |
 
 The standard deviation of this data set is {{ params.sd }} $m/s$.
 
 ## Part 1
 
-Use the experimental data to determine the uncertainty in the average value of the terminal velocity.  State your answer using the appropriate number of significant figures.
+Use the experimental data to determine the uncertainty in the average value of the terminal velocity. State your answer using the appropriate number of significant figures.
 
 ### Answer Section
 
@@ -104,7 +104,7 @@ Please enter in a numeric value in {{ params.vars.unit1 }}.
 
 ## Part 2
 
-Use the experimental data to determine the average value of the terminal velocity.  State your answer using the appropriate number of significant figures.
+Use the experimental data to determine the average value of the terminal velocity. State your answer using the appropriate number of significant figures.
 
 ### Answer Section
 
@@ -112,7 +112,7 @@ Please enter in a numeric value in {{ params.vars.unit1 }}.
 
 ## Part 3
 
-If the coffee filter has a mass of $m = $ {{ params.m }} $\pm$ {{ params.d_m }} $g$, determine the value of the uncertainty in the drag coefficient $b$.  State your answer using the appropriate number of significant figures. Assume that $g= 9.81 kg/s$ and has negligible uncertainty.
+If the coffee filter has a mass of $m = $ {{ params.m }} $\pm$ {{ params.d_m }} $g$, determine the value of the uncertainty in the drag coefficient $b$. State your answer using the appropriate number of significant figures. Assume that $g= 9.81 kg/s$ and has negligible uncertainty.
 
 ### Answer Section
 
@@ -120,7 +120,7 @@ Please enter in a numeric value in {{ params.vars.unit2 }}.
 
 ## Part 4
 
-If the coffee filter has a mass of $m = $ {{ params.m }} $\pm$ {{ params.d_m }} $g$, determine the value of the drag coefficient $b$.  State your answer using the appropriate number of significant figures. Assume that $g= 9.81 kg/s$ and has negligible uncertainty.
+If the coffee filter has a mass of $m = $ {{ params.m }} $\pm$ {{ params.d_m }} $g$, determine the value of the drag coefficient $b$. State your answer using the appropriate number of significant figures. Assume that $g= 9.81 kg/s$ and has negligible uncertainty.
 
 ### Answer Section
 

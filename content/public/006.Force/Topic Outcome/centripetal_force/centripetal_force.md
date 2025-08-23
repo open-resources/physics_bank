@@ -44,11 +44,11 @@ Write the centripetal force $F_r$ in terms of the mass $m$, velocity $v$, and ra
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| $\LaTeX$ | Use   |
+| $\LaTeX$ | Use |
 |----------|-------|
-| $m$  | m  |
-| $v$  | v  |
-| $r$  | r  |
+| $m$ | m |
+| $v$ | v |
+| $r$ | r |
 
 ### Answer Section
 

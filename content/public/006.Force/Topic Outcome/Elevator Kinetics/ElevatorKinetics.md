@@ -50,8 +50,8 @@ myst:
       vars:
         title: Elevator Kinetics
         units: m/s$^2$
-      m2: 403
-      tension: 6357
+      m2: 678
+      tension: 3779
       t: 4
 ---
 # {{ params.vars.title }}

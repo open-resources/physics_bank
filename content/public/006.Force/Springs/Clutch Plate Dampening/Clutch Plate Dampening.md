@@ -55,12 +55,12 @@ myst:
     params:
       vars:
         title: Clutch Plate Dampening System
-      w: 170
-      d: 88
-      k: 307
-      m: 0.2
-      x: 26
-      d2: 1.65
+      w: 168
+      d: 93
+      k: 207
+      m: 0.3
+      x: 15
+      d2: 1.14
 ---
 # {{ params.vars.title }}
 <img src="Springs On a Disk.gif" width=800>

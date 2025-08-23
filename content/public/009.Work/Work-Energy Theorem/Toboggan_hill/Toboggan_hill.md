@@ -68,17 +68,17 @@ myst:
   substitutions:
     params:
       vars:
-        name: Aliyah
+        name: Lorenzo
         title: Toboggan Hill
         units1_2_3: "$\rm{kJ}$"
         units_4: "$\rm{m/s}$"
-      m: 32
-      l: 96
-      ang_horiz: 34
-      fr: 74
-      fwind: 25
-      ang_wind: 25
-      v_i: 3
+      m: 33
+      l: 86
+      ang_horiz: 23
+      fr: 73
+      fwind: 18
+      ang_wind: 22
+      v_i: 2
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} and their sled, with a combined mass of ${{params.m}}$ $\rm{kg}$, slide ${{params.l}}$ $\rm{m}$ down a hill that makes an angle of ${{params.ang_horiz}}^\circ$ with the horizontal.

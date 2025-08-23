@@ -57,7 +57,7 @@ myst:
             back down the ramp after stopping.
 ---
 # {{ params.vars.title }}
-Two identical cylindrical water bottles are 80% filled with water.  Bottle 1 is placed in a freezer until the water turns to ice, while bottle 2 remains unfrozen.
+Two identical cylindrical water bottles are 80% filled with water. Bottle 1 is placed in a freezer until the water turns to ice, while bottle 2 remains unfrozen.
 
 ## Part 1
 

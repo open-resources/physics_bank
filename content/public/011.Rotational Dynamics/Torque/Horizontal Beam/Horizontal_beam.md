@@ -37,9 +37,9 @@ myst:
     params:
       vars:
         title: Horizontal Beam
-      M: 2.0
+      M: 2.3
       m: 0.8
-      L: 4.0
+      L: 4.4
       w: 0.9
 ---
 # {{ params.vars.title }}

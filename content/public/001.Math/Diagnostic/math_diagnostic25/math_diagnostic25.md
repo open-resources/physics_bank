@@ -32,16 +32,16 @@ myst:
     params:
       vars:
         title: Math Diagnostic25
-      expr: $\dfrac{ 5-e^{(-7x)}}{6-x}$
+      expr: $\dfrac{ 10-e^{(-9x)}}{5-x}$
       part1:
         ans1:
-          value: 2/3
+          value: 9/5
         ans2:
           value: Negative Infinity
         ans3:
-          value: 0.8333333333333334
+          value: 2.0
         ans4:
-          value: 5
+          value: 10
         ans5:
           value: Don't Know
 ---

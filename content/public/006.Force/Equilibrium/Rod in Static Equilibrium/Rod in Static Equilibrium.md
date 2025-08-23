@@ -69,12 +69,12 @@ Determine the magnitude of the vertical force exerted on the rod by the spring (
 
 Use the following table as a reference for each variable. Note that it may not be necessary to use every variable.
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $M$  | M  |
-| $L$  | L  |
-| $m$  | m  |
-| $g$  | g  |
+| $M$ | M |
+| $L$ | L |
+| $m$ | m |
+| $g$ | g |
 
 ### Answer Section
 
@@ -94,12 +94,12 @@ Find the magnitude of the normal force exerted on the rod by the support ($n$).
 
 Use the following table as a reference for each variable. Note that it may not be necessary to use every variable.
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $M$  | M  |
-| $L$  | L  |
-| $m$  | m  |
-| $g$  | g  |
+| $M$ | M |
+| $L$ | L |
+| $m$ | m |
+| $g$ | g |
 
 ### Answer Section
 

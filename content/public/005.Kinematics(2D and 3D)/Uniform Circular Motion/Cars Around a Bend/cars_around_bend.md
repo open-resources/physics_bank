@@ -40,11 +40,11 @@ myst:
       vars:
         title: Cars around a bend
         units: "$\rm{m}$"
-      max_acc_A: 0.2
-      max_acc_B: 0.9
-      ra: 371
-      rb: 428
-      angle: 42
+      max_acc_A: 0.6
+      max_acc_B: 0.8
+      ra: 302
+      rb: 376
+      angle: 58
 ---
 # {{ params.vars.title }}
 Two cars travel at constant speeds around a curve as shown below.

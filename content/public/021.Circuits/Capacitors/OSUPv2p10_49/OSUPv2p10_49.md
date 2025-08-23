@@ -61,8 +61,8 @@ myst:
     params:
       vars:
         title: Automobile Intermittent Wiper System
-      C: '0.400'
-      t1: '2.50'
+      C: '0.800'
+      t1: '2.00'
       t2: '15.5'
 ---
 # {{ params.vars.title }}

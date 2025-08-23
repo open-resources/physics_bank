@@ -53,9 +53,9 @@ myst:
     params:
       vars:
         title: Box on a Slant with a Pulley
-      angl: 30
-      coef: 0.8
-      mass: 7
+      angl: 19
+      coef: 0.9
+      mass: 1
 ---
 # {{ params.vars.title }}
 The figure shows a block of mass $m_s$ resting on a $\theta = {{params.angl}}^\circ$ slope.
@@ -70,12 +70,12 @@ What is the force of friction acting on the block on the slope $f$? Express your
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| For      | Use   |
+| For | Use |
 |----------|-------|
-| $m_s$    | ms    |
-| $m_h$    | mh    |
-| $g$      | g     |
-| $\mu_s$   | mu    |
+| $m_s$ | ms |
+| $m_h$ | mh |
+| $g$ | g |
+| $\mu_s$ | mu |
 | $\theta$ | theta |
 
 ### Answer Section
@@ -86,12 +86,12 @@ What is the tension in the string $T$? Express your answer in terms of the varia
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| For      | Use   |
+| For | Use |
 |----------|-------|
-| $m_s$    | ms    |
-| $m_h$    | mh    |
-| $g$      | g     |
-| $\mu_s$   | mus   |
+| $m_s$ | ms |
+| $m_h$ | mh |
+| $g$ | g |
+| $\mu_s$ | mus |
 | $\theta$ | theta |
 
 ### Answer Section

@@ -58,9 +58,9 @@ myst:
     params:
       vars:
         title: Wave on Strings
-      t1: 6
+      t1: 4
       t2: 9
-      v: 8
+      v: 6
 ---
 # {{ params.vars.title }}
 <img src="reflectionstring.png" width=400 alt="snapshot graphs: (top) A wave pulse on a thin string approaches a short thick string followed by a thin string; (middle) at a later time the transmitted wave pulse into the thick string is shown; (bottom) at a still later time the reflected wave pulse in the middle of the thick string is shown;  the thin strings are left for you to draw on the middle and bottom graphs in (c).">

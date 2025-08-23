@@ -38,12 +38,12 @@ myst:
     params:
       vars:
         title: Colliding Balls
-      m1: 162
-      m2: 101
-      v1_i: 5.39
-      v2_i: -2.72
-      v1_f: -4.58
-      v2_f: 3.41
+      m1: 217
+      m2: 228
+      v1_i: 3.76
+      v2_i: -4.11
+      v1_f: -2.3
+      v2_f: 5.04
       part1:
         ans1:
           value: This is not possible as momentum is not conserved.

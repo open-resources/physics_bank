@@ -46,11 +46,11 @@ myst:
     params:
       vars:
         title: Biker Impact Landing
-      v: 10
-      t: 0.13
-      ad: 22
-      m: 64
-      thetad: 27
+      v: 4
+      t: 0.19
+      ad: 30
+      m: 75
+      thetad: 34
 ---
 # {{ params.vars.title }}
 <img src="Snowboarder Impact Landing.png" width=400>

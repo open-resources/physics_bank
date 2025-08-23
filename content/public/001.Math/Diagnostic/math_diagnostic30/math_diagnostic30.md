@@ -32,7 +32,7 @@ myst:
     params:
       vars:
         title: Math Diagnostic30
-        name: Aliyah
+        name: Emilia
       sp1: 8
       sp2: 4
       part1:

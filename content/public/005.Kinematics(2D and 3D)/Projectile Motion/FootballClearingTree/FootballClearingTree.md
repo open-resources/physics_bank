@@ -36,11 +36,11 @@ myst:
       vars:
         title: Football Clearing Tree
         units: m/s
-      d: 11
-      h: 6
-      h2: 1.82
-      v: 14
-      theta: 71
+      d: 10
+      h: 8
+      h2: 1.72
+      v: 9
+      theta: 45
       part1:
         ans1:
           value: The ball clears the tree

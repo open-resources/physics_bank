@@ -53,10 +53,10 @@ Use the following table as a reference for each variable:
 
 | For | Use |
 |----------|-----|
-| $m$      | m   |
-| $v$      | v   |
-| $R$      | R   |
-| $g$      | g   |
+| $m$ | m |
+| $v$ | v |
+| $R$ | R |
+| $g$ | g |
 
 ### Answer Section
 

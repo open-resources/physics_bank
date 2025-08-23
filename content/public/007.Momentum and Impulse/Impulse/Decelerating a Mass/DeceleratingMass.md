@@ -38,9 +38,9 @@ myst:
     params:
       vars:
         title: Decelerating Mass
-      k: 5
-      t: 8
-      v: 5
+      k: 3
+      t: 4
+      v: 3
 ---
 # {{ params.vars.title }}
 An object is traveling with a speed of ${{params.v}}\ \rm{m/s}$.

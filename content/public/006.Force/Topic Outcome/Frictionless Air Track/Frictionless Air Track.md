@@ -59,23 +59,23 @@ myst:
     params:
       vars:
         title: A Frictionless Air Track?
-        name: Mateo
+        name: Maya
         units: $m/s^2$
-      m1: 456.9
-      m2: 43.86
+      m1: 232.3
+      m2: 51.48
       d_a: 0.02
-      mean: 1.54
-      sd: 0.136
-      a1: 1.64
-      a2: 1.31
-      a3: 1.52
-      a4: 1.58
-      a5: 1.72
-      a6: 1.61
-      a7: 1.48
-      a8: 1.72
-      a9: 1.45
-      a10: 1.34
+      mean: 1.53
+      sd: 0.142
+      a1: 1.46
+      a2: 1.33
+      a3: 1.44
+      a4: 1.71
+      a5: 1.74
+      a6: 1.47
+      a7: 1.32
+      a8: 1.59
+      a9: 1.66
+      a10: 1.59
       part4:
         ans1:
           value: The track is frictionless because $a_{expected}$ does not agree with
@@ -100,20 +100,20 @@ Justify your answer!
 
 <img src="q14_2012Final.png" alt="Mass m one sits on a horizontal surface while mass m two is suspended over a pulley. The masses are connected by a string." width=300>
 
-| Trial     | Accel. ($m/s^2$) |
+| Trial | Accel. ($m/s^2$) |
 | ----------- | ----------- |
-| 1     |  {{ params.a1 }}     |
-| 2   |   {{ params.a2 }}      |
-| 3     |  {{ params.a3 }}     |
-| 4   |   {{ params.a4 }}      |
-| 5     |  {{ params.a5 }}     |
-| 6   |   {{ params.a6 }}      |
-| 7     |  {{ params.a7 }}     |
-| 8   |   {{ params.a8 }}      |
-| 9     |  {{ params.a9 }}     |
-| 10   |   {{ params.a10 }}      |
-| **Mean** | {{ params.mean }}      |
-| **SD** | {{ params.sd }}      |
+| 1 | {{ params.a1 }} |
+| 2 | {{ params.a2 }} |
+| 3 | {{ params.a3 }} |
+| 4 | {{ params.a4 }} |
+| 5 | {{ params.a5 }} |
+| 6 | {{ params.a6 }} |
+| 7 | {{ params.a7 }} |
+| 8 | {{ params.a8 }} |
+| 9 | {{ params.a9 }} |
+| 10 | {{ params.a10 }} |
+| **Mean** | {{ params.mean }} |
+| **SD** | {{ params.sd }} |
 
 ## Part 1
 

@@ -43,7 +43,7 @@ myst:
     params:
       vars:
         title: Area of Capacitor Plates
-      c: '4.0'
+      c: '2.2'
       d: '4.9'
 ---
 # {{ params.vars.title }}

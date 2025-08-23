@@ -52,8 +52,8 @@ myst:
     params:
       vars:
         title: Unknown Voltage Source
-      dV: '2.50'
-      dI: '5.00'
+      dV: '2.40'
+      dI: '5.90'
       part2:
         ans1:
           value: 'No'

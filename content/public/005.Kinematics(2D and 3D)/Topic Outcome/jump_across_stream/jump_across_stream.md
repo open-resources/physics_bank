@@ -96,12 +96,12 @@ myst:
       vars:
         title: Jump Across Stream
         units: m
-      m: 243
-      w_s: 2
+      m: 393
+      w_s: 7
       h_s: 1
-      v_i: 3
+      v_i: 2
       v_j: 4
-      h_b: 4
+      h_b: 3
       part5:
         ans1:
           value: Yes, the bear makes it to the other side of the stream.
@@ -124,9 +124,9 @@ If the origin is at the bear's foot (up in the tree), write an equation describi
 
 Use the following table as a reference. Note that it may not be necessary to use every variable.
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $\Delta t$  | t  |
+| $\Delta t$ | t |
 | $g$ | g |
 
 ### Answer Section
@@ -137,9 +137,9 @@ If the origin is at the bear's foot (up in the tree), write an equation describi
 
 Use the following table as a reference. Note that it may not be necessary to use every variable.
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $\Delta t$  | t  |
+| $\Delta t$ | t |
 | $g$ | g |
 
 ### Answer Section
@@ -150,9 +150,9 @@ If the origin is at the bear's foot (up in the tree), write an equation describi
 
 Use the following table as a reference. Note that it may not be necessary to use every variable.
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $\Delta t$  | t  |
+| $\Delta t$ | t |
 | $g$ | g |
 
 ### Answer Section
@@ -163,9 +163,9 @@ If the origin is at the foot of the bear's jumping tree, write an equation descr
 
 Use the following table as a reference. Note that it may not be necessary to use every variable.
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $\Delta t$  | t  |
+| $\Delta t$ | t |
 | $g$ | g |
 
 ### Answer Section
@@ -201,10 +201,10 @@ What is the bear's velocity when it reaches its maximum height?
 
 Use the following table as a reference.
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $\hat{\imath}$  | i_hat  |
-| $\hat{\jmath}$  | j_hat |
+| $\hat{\imath}$ | i_hat |
+| $\hat{\jmath}$ | j_hat |
 
 ### Answer Section
 
@@ -212,7 +212,7 @@ Use the following table as a reference.
 
 ## Part 9
 
-This question is much easier to do in the frame of an observer moving with velocity $\vec{u}  = $ {{params.v_i}} $\rm{m\over s}\hat{\imath} + $ 0 $\rm{m\over s}\hat{\jmath}$. Describe why?
+This question is much easier to do in the frame of an observer moving with velocity $\vec{u} = $ {{params.v_i}} $\rm{m\over s}\hat{\imath} + $ 0 $\rm{m\over s}\hat{\jmath}$. Describe why?
 
 ### Answer Section
 

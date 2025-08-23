@@ -48,11 +48,11 @@ myst:
     params:
       vars:
         title: Tube pulled Uphill
-      m: 36
-      theta_s: 16
-      theta_2: 9
-      T_2: 246
-      T_1: 119
+      m: 49
+      theta_s: 22
+      theta_2: 5
+      T_2: 222
+      T_1: 115
 ---
 # {{ params.vars.title }}
 <img src="L14Q2.png" width=80%>

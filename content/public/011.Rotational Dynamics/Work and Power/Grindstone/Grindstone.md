@@ -49,10 +49,10 @@ myst:
     params:
       vars:
         title: Grindstone
-      M: 11.0
+      M: 10.5
       R: 12
-      RPM: 1467
-      F: 6.0
+      RPM: 1057
+      F: 6.1
       mu: 0.78
 ---
 # {{ params.vars.title }}

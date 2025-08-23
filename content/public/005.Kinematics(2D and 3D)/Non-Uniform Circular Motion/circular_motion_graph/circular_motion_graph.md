@@ -88,8 +88,8 @@ myst:
     params:
       vars:
         title: Circular Motion Graph
-      r: 4
-      t: 0.8
+      r: 7
+      t: 0.5
       wmax: 10
       part1:
         ans1:

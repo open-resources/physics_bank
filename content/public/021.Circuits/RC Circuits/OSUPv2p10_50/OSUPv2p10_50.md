@@ -46,9 +46,9 @@ myst:
     params:
       vars:
         title: Capacitor in a Heart Pacemaker
-      rate: '76'
-      C: '30.0'
-      charge: '0.672'
+      rate: '71'
+      C: '27.5'
+      charge: '0.657'
 ---
 # {{ params.vars.title }}
 A heart pacemaker activates ${{ params.rate }}$ times per minute.

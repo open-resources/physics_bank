@@ -35,15 +35,15 @@ myst:
     params:
       vars:
         title: Correct and Incorrect Statements
-        name: Abbas
+        name: Aliyah
       choice: 'TRUE'
       part1:
         ans1:
-          value: If a system is in electrostatic equilibrium, no charge is moving.
-          feedback: Correct! Nice work
-        ans2:
           value: If a conductor is in electrostatic equilibrium, the electric field
             lines will always intersect its surface at right angles.
+          feedback: Correct! Nice work
+        ans2:
+          value: If a system is in electrostatic equilibrium, no charge is moving.
           feedback: Correct! Nice work
         ans3:
           value: A conductor in electrostatic equilibrium must have a net charge of
@@ -54,7 +54,7 @@ myst:
 
 ## Part 1
 
-{{ params.vars.name }} is given a list of statements about systems in electrostatic equilibriums and has to identify all of the  {{ params.choice }} statements. Can you help?
+{{ params.vars.name }} is given a list of statements about systems in electrostatic equilibriums and has to identify all of the {{ params.choice }} statements. Can you help?
 
 ### Answer Section
 

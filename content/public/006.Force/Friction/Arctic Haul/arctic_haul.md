@@ -78,8 +78,8 @@ myst:
       vars:
         title: Arctic Haul
         units: $\rm{N}$
-      uk: 0.41
-      m: 33
+      uk: 0.36
+      m: 59
 ---
 # {{ params.vars.title }}
 An environmental physicist working in the Arctic pulls their supplies up a steep ($\theta = 30^\circ$ above the horizontal) snow-covered slope. The rope that they pull with is at an angle $\theta = 30^\circ$ above the angle of the slope (see figure below). The coefficient of kinetic friction between the supplies and the slope is $\mu_k = {{ params.uk }}$. They maintain a constant velocity up the hill.
@@ -108,12 +108,12 @@ Write Newton's 2nd law for the forces parallel to the slope.
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| For      | Use   |
+| For | Use |
 |----------|-------|
-| $T$      | T     |
-| $W$      | W     |
-| $n$      | n     |
-| $f_k$    | f_k   |
+| $T$ | T |
+| $W$ | W |
+| $n$ | n |
+| $f_k$ | f_k |
 | $\theta$ | theta |
 
 ### Answer Section
@@ -124,12 +124,12 @@ Write Newton's 2nd law for the forces perpendicular to the slope.
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| For      | Use   |
+| For | Use |
 |----------|-------|
-| $T$      | T     |
-| $W$      | W     |
-| $n$      | n     |
-| $f_k$    | f_k   |
+| $T$ | T |
+| $W$ | W |
+| $n$ | n |
+| $f_k$ | f_k |
 | $\theta$ | theta |
 
 ### Answer Section

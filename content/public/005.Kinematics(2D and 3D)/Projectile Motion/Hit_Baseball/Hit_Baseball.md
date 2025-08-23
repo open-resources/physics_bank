@@ -34,23 +34,23 @@ myst:
       vars:
         title: Hit Baseball
         units: $m/s$
-      v: 28.4
-      d: 18.3
+      v: 26.5
+      d: 23.4
       part1:
         ans1:
-          value: $27.0 \, \rm{m/s} \; \hat{x}$
+          value: $24.3 \, \rm{m/s} \; \hat{x}$
         ans2:
-          value: $8.92 \, \rm{m/s} \; \hat{y}$
+          value: $10.5 \, \rm{m/s} \; \hat{y}$
         ans3:
-          value: $-8.92 \, \rm{m/s} \; \hat{y}$
+          value: $-10.5 \, \rm{m/s} \; \hat{y}$
         ans4:
-          value: $27.0 \, \rm{m/s} \; \hat{x} \; - \; 8.92 \, \rm{m/s} \; \hat{y}$
+          value: $24.3 \, \rm{m/s} \; \hat{x} \; - \; 10.5 \, \rm{m/s} \; \hat{y}$
         ans5:
-          value: $27.0 \, \rm{m/s} \; \hat{x} \; + \; 8.92 \, \rm{m/s} \; \hat{y}$
+          value: $24.3 \, \rm{m/s} \; \hat{x} \; + \; 10.5 \, \rm{m/s} \; \hat{y}$
         ans6:
-          value: $8.92 \, \rm{m/s} \; \hat{x} \; + \; 27.0 \, \rm{m/s} \; \hat{y}$
+          value: $10.5 \, \rm{m/s} \; \hat{x} \; + \; 24.3 \, \rm{m/s} \; \hat{y}$
         ans7:
-          value: $8.92 \, \rm{m/s} \; \hat{x} \; - \; 27.0 \, \rm{m/s} \; \hat{y}$
+          value: $10.5 \, \rm{m/s} \; \hat{x} \; - \; 24.3 \, \rm{m/s} \; \hat{y}$
         ans8:
           value: $0 \rm{m/s}$
 ---

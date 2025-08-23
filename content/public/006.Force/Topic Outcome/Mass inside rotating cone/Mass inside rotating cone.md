@@ -49,11 +49,11 @@ As shown in the figure, a small block of mass $m$ is placed inside an inverted c
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for using each variable:
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $m$  | m  |
-| $h$  | h  |
-| $g$      | g     |
+| $m$ | m |
+| $h$ | h |
+| $g$ | g |
 | $\theta$ | theta |
 
 ### Answer Section

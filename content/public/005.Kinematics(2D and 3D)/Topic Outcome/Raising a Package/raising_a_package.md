@@ -40,8 +40,8 @@ myst:
       vars:
         title: Raising a Package
         units: mm
-      v_a: 307
-      t: 5
+      v_a: 286
+      t: 2
 ---
 # {{ params.vars.title }}
 

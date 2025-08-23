@@ -38,13 +38,13 @@ myst:
       vars:
         title: Airbrake of a Centrifuge
         units: "$\rm{m/s}$"
-      v: 88
-      N: 2
-      M: 912
-      C: 1.48
-      r: 3.93
-      t: 2.95
-      mass: 355
+      v: 35
+      N: 4
+      M: 730
+      C: 2.947
+      r: 4.17
+      t: 2.12
+      mass: 276
 ---
 # {{ params.vars.title }}
 An important part of astronaut training is force resistance training. It is done in a large centrifuge, with radius $r = {{params.r}} \ \rm{m}$ and total mass $m = {{params.mass}} \ \rm{kg}$.

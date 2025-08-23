@@ -37,9 +37,9 @@ myst:
     params:
       vars:
         title: Forces on Truck
-      MT: 4650
-      mc: 1
-      theta: 16
+      MT: 3449
+      mc: 3
+      theta: 15
 ---
 # {{ params.vars.title }}
 <img src="ForcesOnTruck.png" width=90%>

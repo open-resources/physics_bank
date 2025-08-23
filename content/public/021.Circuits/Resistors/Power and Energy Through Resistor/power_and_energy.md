@@ -70,8 +70,8 @@ myst:
     params:
       vars:
         title: Power And Energy Through Resistor
-      V: 23
-      R: 5
+      V: 24
+      R: 25
       part4:
         ans1:
           value: It is converted into light energy.

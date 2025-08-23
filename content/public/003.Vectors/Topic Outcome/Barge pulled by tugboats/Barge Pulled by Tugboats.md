@@ -83,23 +83,23 @@ myst:
     params:
       vars:
         title: Barge Pulled by Tugboats
-      F1: 3512
-      F2: 5230
-      theta_1: 13
-      theta_2: 23
+      F1: 5785
+      F2: 4339
+      theta_1: 45
+      theta_2: 14
       part6:
         ans1:
-          value: 8.65$^{\circ}$ to the right of AB.
+          value: 20.1$^{\circ}$ to the left of AB.
         ans2:
-          value: 8.65$^{\circ}$ to the left of AB.
+          value: 20.1$^{\circ}$ to the right of AB.
         ans3:
-          value: 81.3$^{\circ}$ to the right of AB.
+          value: 69.9$^{\circ}$ to the left of AB.
         ans4:
-          value: 81.3$^{\circ}$ to the left of AB.
+          value: 69.9$^{\circ}$ to the right of AB.
         ans5:
-          value: 86.5$^{\circ}$ to the right of AB.
+          value: 201.0$^{\circ}$ to the left of AB.
         ans6:
-          value: 86.5$^{\circ}$ to the left of AB.
+          value: 201.0$^{\circ}$ to the right of AB.
 ---
 # {{ params.vars.title }}
 A barge is pulled by the two tugboats shown in the following figure.

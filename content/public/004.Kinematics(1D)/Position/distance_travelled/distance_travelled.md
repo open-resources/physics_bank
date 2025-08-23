@@ -31,25 +31,25 @@ myst:
   substitutions:
     params:
       vars:
-        name: Santiago
-        vehicle: rollerblades
+        name: Ximena
+        vehicle: a unicycle
         units: m
         title: Distance travelled
-      v: 2
+      v: 5
       t: 8
       part1:
         ans1:
           value: 42.0
         ans2:
-          value: 16
+          value: 40
         ans3:
-          value: 10
+          value: 13
         ans4:
-          value: 0.25
+          value: 0.63
         ans5:
-          value: -6
+          value: -3
         ans6:
-          value: -7.8
+          value: -3.9
 ---
 # {{ params.vars.title }}
 {{ params.vars.name }} is traveling on {{ params.vars.vehicle }} at {{ params.v }} $\rm{m/s}$.

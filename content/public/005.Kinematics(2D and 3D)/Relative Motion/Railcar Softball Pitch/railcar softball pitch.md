@@ -50,9 +50,9 @@ part2:
 myst:
   substitutions:
     params:
-      v_r: 20
-      v_b_r: 36
-      theta: 163
+      v_r: 24
+      v_b_r: 26
+      theta: 150
 ---
 # Railcar Softball Pitch
 A softball pitcher stands atop a moving railcar which is moving in a straight line with a speed of $v\_{railcar} = {{ params.v_r }}\ \rm{m/s}$ as illustrated in the figure below.

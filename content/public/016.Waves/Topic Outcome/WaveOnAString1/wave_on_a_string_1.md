@@ -67,7 +67,7 @@ part6:
 myst:
   substitutions:
     params:
-      d: 8
+      d: 5
       vars:
         title: Wave on a String 1
       part5:

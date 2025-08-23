@@ -34,7 +34,7 @@ myst:
     params:
       vars:
         title: Throwing an Egg
-        name: Aliyah
+        name: Lorenzo
       part1:
         ans1:
           value: The energy in the egg is not sufficient to allow it to break.

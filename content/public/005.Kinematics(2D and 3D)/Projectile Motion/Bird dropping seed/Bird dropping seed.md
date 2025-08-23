@@ -39,7 +39,7 @@ myst:
     params:
       vars:
         title: Seed Dropped by a Bird
-      v: 3
+      v: 4
       part1:
         ans1:
           value: directly overhead.
@@ -76,7 +76,7 @@ Assuming air resistance is negligible and that the bird maintains its velocity, 
 
 ## Part 2
 
-Is the final speed of the seed bigger or smaller than the bird's speed just before the seed hits the ground?  Explain your answer.
+Is the final speed of the seed bigger or smaller than the bird's speed just before the seed hits the ground? Explain your answer.
 
 ### Answer Section
 

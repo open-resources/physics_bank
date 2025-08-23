@@ -54,8 +54,8 @@ myst:
         title: Tidal Forces
         units: "$\rm{m/s^2}$"
       Me: 5.975999999999999e+24
-      Dse: 145
-      Dme: 384252
+      Dse: 147
+      Dme: 384269
       part3:
         ans1:
           value: $\rm{A}$

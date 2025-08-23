@@ -37,16 +37,16 @@ myst:
     params:
       vars:
         title: Force of a Colliding Ball
-      t: 0.011
-      v: 20
-      theta1: 52
-      theta2: 46.0
-      m: 1.6
+      t: 0.018
+      v: 18
+      theta1: 58
+      theta2: 48.0
+      m: 2.3
 ---
 # {{ params.vars.title }}
 <img src="Force of a Colliding Ball.png" width=800>
 
-A ball with mass ${{params.m}} \ \rm{kg}$ collides into a wall with an initial velocity of ${{params.v}} \ \rm{m/s}$ at an angle of ${\theta}\_1 = {{params.theta1}}^{\circ}$ and  bounces back at an angle of ${\theta}\_2 = {{params.theta2}}^{\circ}$.
+A ball with mass ${{params.m}} \ \rm{kg}$ collides into a wall with an initial velocity of ${{params.v}} \ \rm{m/s}$ at an angle of ${\theta}\_1 = {{params.theta1}}^{\circ}$ and bounces back at an angle of ${\theta}\_2 = {{params.theta2}}^{\circ}$.
 
 ## Part 1
 

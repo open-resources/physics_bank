@@ -46,11 +46,11 @@ myst:
     params:
       vars:
         title: Curvilinear Motion of a Car
-      m: 0.05
-      v: 13
-      vdot: 9
-      d: 16
-      h: 12.8
+      m: 0.06
+      v: 8
+      vdot: 3
+      d: 20
+      h: 24.0
 ---
 # {{ params.vars.title }}
 <img src="CurvCar.png" width=90%>

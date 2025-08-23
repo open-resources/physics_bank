@@ -34,20 +34,20 @@ myst:
     params:
       vars:
         title: Choose all Vectors and Scalars
-      choice: vectors
+      choice: scalars
       part1:
         ans1:
-          value: Force
-        ans2:
-          value: Displacement
-        ans3:
-          value: Average Acceleration
-        ans4:
-          value: Distance
-        ans5:
-          value: Temperature
-        ans6:
           value: Power
+        ans2:
+          value: Speed
+        ans3:
+          value: Distance
+        ans4:
+          value: Velocity
+        ans5:
+          value: Weight
+        ans6:
+          value: Position
 ---
 # {{ params.vars.title }}
 

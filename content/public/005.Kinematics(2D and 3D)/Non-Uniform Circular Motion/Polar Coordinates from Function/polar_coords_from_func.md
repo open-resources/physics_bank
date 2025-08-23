@@ -53,14 +53,14 @@ myst:
     params:
       vars:
         title: Polar Coordinates from Functions
-      a1: 10
+      a1: -7
       a2: -8
-      b1: 0
-      b2: 1
-      c1: 6
-      c2: 1
-      v: 10i + (0j) + (6k)
-      a: -8i + (1j) + (1k)
+      b1: 8
+      b2: -9
+      c1: -7
+      c2: -1
+      v: -7i + (8j) + (-7k)
+      a: -8i + (-9j) + (-1k)
 ---
 # {{ params.vars.title }}
 The velocity and acceleration of a particle at a moment in time is given by $v = {{params.v}}m/s$ and

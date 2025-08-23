@@ -38,17 +38,17 @@ myst:
     params:
       vars:
         title: Impulse of a Bat
-      F: 30562
-      t1: 0.002
-      t2: 0.009
-      t3: 0.013
+      F: 16023
+      t1: 0.001
+      t2: 0.007
+      t3: 0.012
 ---
 # {{ params.vars.title }}
 <img src="L20Q4.png" width=400>
 
 At a baseball game, the force of a bat hitting the ball is recorded.
 If the impact force varies with time as shown in the diagram, determine the magnitude of impulse by the bat on the baseball.
-$F\_{max} = {{params.F}} N$, $t_1 = {{params.t1}}s$ and $t_2 = {{params.t2}}s$,  $t_3 = {{params.t3}}s$.
+$F\_{max} = {{params.F}} N$, $t_1 = {{params.t1}}s$ and $t_2 = {{params.t2}}s$, $t_3 = {{params.t3}}s$.
 
 ## Part 1
 

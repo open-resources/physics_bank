@@ -46,11 +46,11 @@ myst:
     params:
       vars:
         title: Ball Bouncing Across Gap
-      h1: 2.67
-      h2: 0.83
-      v: 9
-      theta: 35
-      e: 0.76
+      h1: 2.24
+      h2: 0.89
+      v: 8
+      theta: 33
+      e: 0.77
 ---
 # {{ params.vars.title }}
 A rubber ball is launched off a platform $h_1={{params.h1}} \ \rm{m}$ high with an initial velocity $v={{params.v}} \ \rm{m/s}$ at an angle ${{params.theta}}^\circ$.

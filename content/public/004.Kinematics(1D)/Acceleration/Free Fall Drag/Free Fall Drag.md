@@ -46,7 +46,7 @@ myst:
         title: Free Fall Drag
       k: 4
       g: 9.81
-      t: 0.18
+      t: 0.23
 ---
 # {{ params.vars.title }}
 A tennis ball is released from rest. The acceleration that the ball experiences is given by: $a = g - kv^2$, where

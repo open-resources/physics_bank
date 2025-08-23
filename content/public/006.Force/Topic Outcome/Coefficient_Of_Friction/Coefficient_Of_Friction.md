@@ -38,8 +38,8 @@ myst:
     params:
       vars:
         title: Coefficient Of Friction
-      m: 214
-      t: 1
+      m: 226
+      t: 2
 ---
 # {{ params.vars.title }}
 You have been hired to measure the coefficients of friction for the newly discovered substance jelloium.

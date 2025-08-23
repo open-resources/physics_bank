@@ -48,8 +48,8 @@ myst:
     params:
       vars:
         title: Magnetic Force on Airplane
-      q: 0.781
-      v: 553
+      q: 0.397
+      v: 550
       part2:
         ans1:
           value: North

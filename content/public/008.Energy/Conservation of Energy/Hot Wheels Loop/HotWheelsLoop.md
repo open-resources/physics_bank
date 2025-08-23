@@ -42,8 +42,8 @@ myst:
       vars:
         title: Hot Wheels Loop
         units: m
-      m: 0.09
-      r: 0.24
+      m: 0.07
+      r: 0.18
 ---
 # {{ params.vars.title }}
 <img src="HotWheelsLoop.png" width=400>

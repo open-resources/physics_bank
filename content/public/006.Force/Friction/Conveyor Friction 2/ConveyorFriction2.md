@@ -37,10 +37,10 @@ myst:
     params:
       vars:
         title: Conveyor Friction 2
-      theta: 41
-      W: 46
-      v: 5
-      C: 0.49
+      theta: 38
+      W: 20
+      v: 2
+      C: 0.5
 ---
 # {{ params.vars.title }}
 <img src="ConvFric2.png" width=90%>
@@ -48,7 +48,7 @@ myst:
 A conveyor belt, angled at $\theta = {{ params.theta }}^{\circ}$, carries packages up an incline.
 The package aboard it slips and begins moving downwards at a constant speed $v_p = {{ params.v }} \ \rm{ft/s}$ relative to the ground.
 Given that friction can be found as $F = Cv\_{PC}$, where $C$ is a constant ${{ params.C }}$.
-$v\_{PC}$  is the relative velocity of the package to the conveyor.\
+$v\_{PC}$ is the relative velocity of the package to the conveyor.\
 The package has a weight of $W = {{ params.W }} \ \rm{lb}$.
 
 ## Part 1

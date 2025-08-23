@@ -38,8 +38,8 @@ myst:
     params:
       vars:
         title: Cat in a Laundry Basket
-      w: 23
-      h: 40
+      w: 26
+      h: 33
       part1:
         ans1:
           value: $\Delta t_1 > \Delta t_2 > \Delta t_3$

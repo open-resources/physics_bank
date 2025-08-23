@@ -63,10 +63,10 @@ myst:
     params:
       vars:
         title: Proton Accelerator
-      r: 0.13
-      I: 13
-      n: 5.44
-      p: 40
+      r: 0.52
+      I: 50
+      n: 3.99
+      p: 33
 ---
 # {{ params.vars.title }}
 A high-energy proton accelerator produces a proton beam with a radius of {{params.r}} $\textrm{mm}$.

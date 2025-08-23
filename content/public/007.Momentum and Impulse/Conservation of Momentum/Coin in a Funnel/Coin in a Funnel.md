@@ -38,10 +38,10 @@ myst:
     params:
       vars:
         title: Coin in a Funnel
-      r1: 1.11
-      vo: 0.37
-      r2: 0.152
-      ad: 20
+      r1: 1.16
+      vo: 0.64
+      r2: 0.24
+      ad: 15
 ---
 # {{ params.vars.title }}
 <img src="Marble in a Funnel.png" width=400>

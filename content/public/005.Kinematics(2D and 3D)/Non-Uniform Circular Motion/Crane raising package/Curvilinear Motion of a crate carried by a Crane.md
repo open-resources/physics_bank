@@ -69,11 +69,11 @@ part4:
 myst:
   substitutions:
     params:
-      v_0: 3
-      a: 3
-      s: 20.048
-      m: 3
-      w: 130
+      v_0: 44
+      a: 4
+      s: 51.665
+      m: 4
+      w: 662
 ---
 # Curvilinear Motion of a crate carried by a crane
 A crane moves a crate through point A with a speed of ${{ params.v_0 }}\ \rm{m/s}$ and increases the speed constantly at a rate of ${{ params.a }}\ \rm{m/s^{2}}$.<br>Find the magnitude of the crate's acceleration when the arc length is ${{ params.s }}\ \rm{m}$ and when $x_0 =0 \ \rm{m}$. <br>The equation of the arc is $y= m - \frac{x^{2}}{w}$

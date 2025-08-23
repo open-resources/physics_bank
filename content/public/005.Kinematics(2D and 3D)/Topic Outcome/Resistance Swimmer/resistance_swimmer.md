@@ -47,10 +47,10 @@ myst:
     params:
       vars:
         title: Resistance Swimmer
-      v: 2
+      v: 1
       h: 16
-      x: 11
-      a: 0.3
+      x: 5
+      a: 0.5
 ---
 # {{ params.vars.title }}
 <img src="L11Q1.png" width=85%>

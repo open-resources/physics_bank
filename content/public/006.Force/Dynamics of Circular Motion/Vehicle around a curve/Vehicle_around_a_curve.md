@@ -60,9 +60,9 @@ myst:
     params:
       vars:
         title: Vehicle Around a Curve
-        vehicle: van
-      rad: 190
-      ang: 15
+        vehicle: truck
+      rad: 117
+      ang: 9
 ---
 # {{ params.vars.title }}
 To ensure that motorists stay on roads with tight turns, it is common to tild (or bank) the roads toward the centre of the turn. A {{ params.vars.vehicle }} going around a banked curve without sliding is shown on the left of the figure below and its corresponding free body diagram is shown on the right of the figure below. In the free body diagram $\vec{W}_{\textit{E on v}}$ is the weight of the {{ params.vars.vehicle }}, $\vec{n}_{\textit{r on v}}$ is the normal force of the road on the {{ params.vars.vehicle }}, and $\vec{F}\_{\textit{net on v}}$ is the net force on the {{ params.vars.vehicle }}. Take the angle to be $\theta = {{ params.ang }}^\circ$ and the radius of curvature (distance from the centre of the circle to the {{ params.vars.vehicle }}) to be $r = {{ params.rad }}$ $\rm{m}$.
@@ -75,11 +75,11 @@ Write the equation for Newton's second law in the $x$-direction.
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| For                   | Use   |
+| For | Use |
 |-----------------------|-------|
-| $W\_{\textit{E on v}}$ | W     |
-| $n\_{\textit{r on v}}$ | n     |
-| $\theta$              | theta |
+| $W\_{\textit{E on v}}$ | W |
+| $n\_{\textit{r on v}}$ | n |
+| $\theta$ | theta |
 
 ### Answer Section
 
@@ -89,11 +89,11 @@ Write the equation for Newton's second law in the $y$-direction.
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| For                   | Use   |
+| For | Use |
 |-----------------------|-------|
-| $W\_{\textit{E on v}}$ | W     |
-| $n\_{\textit{r on v}}$ | n     |
-| $\theta$              | theta |
+| $W\_{\textit{E on v}}$ | W |
+| $n\_{\textit{r on v}}$ | n |
+| $\theta$ | theta |
 
 ### Answer Section
 
@@ -103,12 +103,12 @@ Solve the equations in Part 1 and Part 2 algebraically to determine the speed of
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| For      | Use   |
+| For | Use |
 |----------|-------|
-| $m$      | m     |
-| $g$      | g     |
+| $m$ | m |
+| $g$ | g |
 | $\theta$ | theta |
-| $r$      | r     |
+| $r$ | r |
 
 ### Answer Section
 

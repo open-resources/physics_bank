@@ -68,14 +68,14 @@ myst:
         title: Transverse String Wave
         units: "$\r{Hz}$"
         labels: $ f $
-      amplitude: 10
-      wavelength: 5
-      period: 7
-      wave_equation: cos
+      amplitude: 13
+      wavelength: 2
+      period: 5
+      wave_equation: sin
       wave: frequency
 ---
 # {{ params.vars.title }}
-The transverse displacement of a traveling wave on a string is described by the formula $D(x,t) = {{ params.amplitude}} cm \, {{  params.wave_equation }}(\frac{2\pi}{({{ params.wavelength}}) \text{cm}} x - \frac{2\pi}{({{ params.period}})  \text{s}} t + \frac{\pi}{2})$
+The transverse displacement of a traveling wave on a string is described by the formula $D(x,t) = {{ params.amplitude}} cm \, {{ params.wave_equation }}(\frac{2\pi}{({{ params.wavelength}}) \text{cm}} x - \frac{2\pi}{({{ params.period}}) \text{s}} t + \frac{\pi}{2})$
 
 ## Part 1
 

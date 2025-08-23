@@ -44,7 +44,7 @@ myst:
           value: Cannot be determined without more information
 ---
 # {{ params.vars.title }}
-Two blocks, $M_1$ \< $M_2$, having the same initial speed, move from a frictionless surface onto a surface having a coefficient of kinetic friction $\mu_k$.
+Two blocks, $M_1$ < $M_2$, having the same initial speed, move from a frictionless surface onto a surface having a coefficient of kinetic friction $\mu_k$.
 
 <img src="Q7.png" alt="Image depicting two blocks on separate surfaces. M1 is smaller than M2." width=400>
 

@@ -47,14 +47,14 @@ myst:
       vars:
         title: Parachuter
         units: m/s
-      v: 456
-      theta: 11
-      h: 609
+      v: 391
+      theta: 52
+      h: 465
 ---
 # {{ params.vars.title }}
 <img src="Parachute.png" width=100%>
 
-A parachuter jumps out of a plane at height $h = {{ params.h }} \ \rm{m}$, with a goal of landing at a marked spot to meet a group of people.  The plane has a velocity $v = {{ params.v }} \ \rm{km/hr}$ with angle $\theta = {{ params.theta }}^{\circ}$
+A parachuter jumps out of a plane at height $h = {{ params.h }} \ \rm{m}$, with a goal of landing at a marked spot to meet a group of people. The plane has a velocity $v = {{ params.v }} \ \rm{km/hr}$ with angle $\theta = {{ params.theta }}^{\circ}$
 
 ## Part 1
 

@@ -39,9 +39,9 @@ myst:
     params:
       vars:
         title: Flywheels
-      Rs: 26
-      Rl: 58
-      Fs: 45
+      Rs: 35
+      Rl: 52
+      Fs: 52
 ---
 # {{ params.vars.title }}
 Two flywheels of negligible mass and different radii are bonded together and rotate about a common axis (see below).

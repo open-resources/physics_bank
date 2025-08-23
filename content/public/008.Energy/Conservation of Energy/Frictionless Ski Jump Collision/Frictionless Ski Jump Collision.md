@@ -43,13 +43,13 @@ myst:
   substitutions:
     params:
       vars:
-        name: Mateo
+        name: Ximena
         title: Frictionless Ski Jump Collision
-      mA: 15
-      mB: 7.2
-      ramp_angle: 32
+      mA: 19
+      mB: 9.12
+      ramp_angle: 23
       ramp_h: 0.63
-      hill_h: 438
+      hill_h: 468
 ---
 # {{ params.vars.title }}
 A ski jump consists of a hill, a short flat section, and a ramp. The hill has height of ${{ params.hill_h }}$ $\rm{m}$ and the ramp has a height of ${{ params.ramp_h }}$ $\rm{m}$, making an angle of $\theta = {{ params.ramp_angle }}^\circ$ with the horizontal.

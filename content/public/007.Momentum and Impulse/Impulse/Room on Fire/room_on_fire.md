@@ -31,7 +31,7 @@ myst:
   substitutions:
     params:
       vars:
-        name: Maya
+        name: Mateo
         title: Living Room on Fire
       part1:
         ans1:

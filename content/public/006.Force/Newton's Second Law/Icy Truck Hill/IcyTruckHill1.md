@@ -36,9 +36,9 @@ myst:
     params:
       vars:
         title: Truck on Icy Hill
-      m: 4607
-      v: 53
-      theta: 22
+      m: 4889
+      v: 67
+      theta: 12
 ---
 # {{ params.vars.title }}
 A car travels down an icy hill at $v = {{ params.v }} \ \rm{km/h}$.

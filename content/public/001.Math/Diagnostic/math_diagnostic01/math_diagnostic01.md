@@ -34,13 +34,13 @@ myst:
         title: Math Diagnostic01
       part1:
         ans1:
-          value: 2.3E46
+          value: 9.6E30
         ans2:
-          value: 4.5E7
+          value: 4.3E4
         ans3:
-          value: 8731.800418368457
+          value: 4221.521560096523
         ans4:
-          value: '4.2E-83'
+          value: '6.9E-22'
         ans5:
           value: Don't Know
 ---

@@ -46,11 +46,11 @@ myst:
     params:
       vars:
         title: Tube up a Hill
-      W: 562
+      W: 591
       t: 17
-      v: 3
-      P: 4
-      P2: 6
+      v: 4
+      P: 5
+      P2: 7
 ---
 # {{ params.vars.title }}
 <img src="Log up a Hill.png" width=400>

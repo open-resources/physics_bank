@@ -47,10 +47,10 @@ myst:
     params:
       vars:
         title: Child on Swing
-      v: 495
-      h: 531
-      d: 864
-      r2: 1258
+      v: 560
+      h: 555
+      d: 878
+      r2: 1484
 ---
 # {{ params.vars.title }}
 <img src="L11Q2.png" width=85%>

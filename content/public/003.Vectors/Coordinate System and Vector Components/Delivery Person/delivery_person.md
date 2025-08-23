@@ -79,9 +79,9 @@ myst:
       vars:
         title: Delivery Person
         units: km
-      dist1: 10
-      dist2: 60
-      dist3: '3.0'
+      dist1: 30
+      dist2: 30
+      dist3: '7.0'
       dist4: 30
 ---
 # {{ params.vars.title }}

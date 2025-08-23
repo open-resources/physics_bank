@@ -46,10 +46,10 @@ myst:
     params:
       vars:
         title: Curvilinear Motion of Jet
-      r: 327
-      va: 28
-      vad: 3
-      s: 24
+      r: 257
+      va: 21
+      vad: 9
+      s: 13
 ---
 # {{ params.vars.title }}
 <img src="CurvRaceCar.png" width=90%>

@@ -47,12 +47,12 @@ myst:
       vars:
         title: Total Force in Deep Space
         units: $\rm{N}$
-        string_1: Object $\rm{A}$ is a cube with sides $1.33\ \rm{m}$. It has a density
-          of $21859.0\ \rm{\frac{kg}{m^{3}}}$ and it is at position $(2,2)$.
-        string_2: The other one, Object $\rm{B}$, is a sphere with radius $2.63\ \rm{m}$.
-          It has a density of $18366.0\ \rm{\frac{kg}{m^{3}}}$ and it is at position
-          $(4,-3)$.
-      m: 3300
+        string_1: Object $\rm{A}$ is a sphere with radius $2.91\ \rm{m}$. It has a
+          density of $18183.0\ \rm{\frac{kg}{m^{3}}}$ and it is at position $(3,5)$.
+        string_2: The other one, Object $\rm{B}$, is a cylinder with a base radius
+          $1.47\ \rm{m}$ and height $2.96\ \rm{m}$. It has a density of $21714.0\
+          \rm{\frac{kg}{m^{3}}}$ and it is at position $(5,-1)$.
+      m: 3100
 ---
 # {{ params.vars.title }}
 There are two objects surrounding our spaceship in deep space. {{ params.vars.string_1}} {{ params.vars.string_2}} Our space shuttle has a mass of ${{ params.m}}$ metric tons and is at the origin. Find the total gravitational force on the spaceship.

@@ -45,8 +45,8 @@ myst:
     params:
       vars:
         title: Particle between charged plates
-      sig: '18'
-      d: '4.3'
+      sig: '20'
+      d: '3.3'
       particle: An electron
       particle1: electron
       p1: negative

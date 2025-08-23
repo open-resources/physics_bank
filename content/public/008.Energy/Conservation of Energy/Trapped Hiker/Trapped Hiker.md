@@ -38,13 +38,13 @@ myst:
     params:
       vars:
         title: Trapped Hiker
-      m: 75
-      F: 1444
-      x1: 2.0
-      d: 17.0
-      h: 5.0
-      k: 23
-      thetad: 5
+      m: 65
+      F: 1481
+      x1: 4.0
+      d: 18.0
+      h: 8.0
+      k: 43
+      thetad: 10
 ---
 # {{ params.vars.title }}
 <img src="Spring Restraining Cart.png" width=400>

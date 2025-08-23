@@ -62,9 +62,9 @@ myst:
     params:
       vars:
         title: Long Cylindrical Solenoid
-      n: '60'
-      r: '2.5'
-      dIdt: '3.0'
+      n: '100'
+      r: '1.5'
+      dIdt: '8.5'
 ---
 # {{ params.vars.title }}
 A long, cylindrical solenoid with ${{ params.n }}\rm\ turns/cm$ has a radius of ${{ params.r }}\rm\ cm$.

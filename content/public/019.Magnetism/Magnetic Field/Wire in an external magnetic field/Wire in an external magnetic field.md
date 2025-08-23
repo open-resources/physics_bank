@@ -45,9 +45,9 @@ myst:
     params:
       vars:
         title: Wire in an external magnetic field
-      I: '23.5'
+      I: '25.0'
       Bext: '42.0'
-      d: '27.5'
+      d: '23.0'
 ---
 # {{ params.vars.title }}
 A long, straight, horizontal wire carries a left-to-right current of {{ params.I }}$\rm\ A$.

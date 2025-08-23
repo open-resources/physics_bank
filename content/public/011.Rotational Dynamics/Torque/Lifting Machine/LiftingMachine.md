@@ -48,16 +48,16 @@ myst:
       vars:
         title: Lifting Machine
       r1: 0.3
-      r2: 0.06
-      r3: 0.19
-      r4: 0.09
-      thetaDot: 5
-      m: 56
+      r2: 0.05
+      r3: 0.14
+      r4: 0.03
+      thetaDot: 7
+      m: 53
 ---
 # {{ params.vars.title }}
 The machine illustrated below lifts a mass m by turning a pedal with radius $r_1 = {{params.r1}} \ \rm{m}$.
 The pedal rotates a gear system, which pulls a rope along a pulley system that is lifting a mass of ${{params.m}} \ \rm{kg}$.
-$r_2 = {{params.r2}} \ \rm{m}$  $r_3 = {{params.r3}} \ \rm{m}$  $r_4 = {{params.r4}} \ \rm{m}$.
+$r_2 = {{params.r2}} \ \rm{m}$ $r_3 = {{params.r3}} \ \rm{m}$ $r_4 = {{params.r4}} \ \rm{m}$.
 
 <img src="LiftingMachine.png" width=600 alt="A mass is suspended on a double pulley system. The rope is pulled by a large gear with r3, which is spun by a smaller gear with r2. The smaller gear is spun with a pedal of r1. The rope makes contact with the larger gear at r4." >
 

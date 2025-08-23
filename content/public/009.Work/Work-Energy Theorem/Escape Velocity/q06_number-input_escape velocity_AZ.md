@@ -35,7 +35,7 @@ part1:
 myst:
   substitutions:
     params:
-      m: 6394
+      m: 3308
 ---
 # Escape Velocity
 A rocket is fired from the surface of the Earth with speed $v\ \rm{m/s}$.

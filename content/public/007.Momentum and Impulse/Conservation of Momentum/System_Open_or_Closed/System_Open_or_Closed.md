@@ -34,11 +34,11 @@ myst:
     params:
       vars:
         title: System Open or Closed
-        vehicle_c: Truck
-        vehicle: truck
+        vehicle_c: Pickup truck
+        vehicle: pickup truck
         units: kg
-      i_a: 129
-      i_b: 250
+      i_a: 58
+      i_b: 313
       part1:
         ans1:
           value: Yes, because the two carts are on a track with no friction.
@@ -50,7 +50,7 @@ myst:
           value: No, because the momentum is not conserved
 ---
 # {{ params.vars.title }}
-Two {{ params.vars.vehicle }}s collide on a track. {{ params.vars.vehicle_c }}  A comes up behind {{ params.vars.vehicle }}  B and runs into it.
+Two {{ params.vars.vehicle }}s collide on a track. {{ params.vars.vehicle_c }} A comes up behind {{ params.vars.vehicle }} B and runs into it.
 {{ params.vars.vehicle_c }} A has mass of {{ params.i_a }} {{ params.vars.units }}, {{ params.vars.vehicle }} B has mass of {{ params.i_b }} {{ params.vars.units }}.
 The following graph shows the velocity of each {{ params.vars.vehicle }} as a function of time.
 

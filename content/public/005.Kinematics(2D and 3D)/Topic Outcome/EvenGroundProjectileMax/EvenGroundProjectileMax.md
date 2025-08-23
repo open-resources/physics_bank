@@ -33,7 +33,7 @@ myst:
     params:
       vars:
         title: Even Elevation Launch
-      v: 16
+      v: 14
       part1:
         ans1:
           value: Less than $45^{\circ}$

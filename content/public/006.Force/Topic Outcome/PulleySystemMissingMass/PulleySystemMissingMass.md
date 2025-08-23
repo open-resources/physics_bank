@@ -47,7 +47,7 @@ myst:
       vars:
         title: Distance travelled
         units: m/s
-      m: 448
+      m: 559
 ---
 # {{ params.vars.title }}
 <img src="Pulley.png" width=60%>

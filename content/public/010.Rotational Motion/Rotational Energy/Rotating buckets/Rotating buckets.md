@@ -39,8 +39,8 @@ myst:
       vars:
         title: Rotating Buckets
         units: kg
-      m1: 1.91
-      c: 6
+      m1: 1.1
+      c: 2
 ---
 # {{ params.vars.title }}
 A pair of buckets are connected by a *massless* rod.
@@ -56,10 +56,10 @@ Treat the buckets as point masses and recall that $I = \sum\limits_i m_ir_i^2$.
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for each variable:
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $m$  | m  |
-| $l$  | l  |
+| $m$ | m |
+| $l$ | l |
 
 ### Answer Section
 

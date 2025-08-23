@@ -44,7 +44,7 @@ myst:
     params:
       vars:
         title: Electric potential energy of a cube
-      q: '2.40'
+      q: '4.60'
       d: '3.20'
 ---
 # {{ params.vars.title }}

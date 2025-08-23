@@ -34,16 +34,16 @@ myst:
     params:
       vars:
         title: Math Diagnostic08
-      expr: $\dfrac{-8x + 36y }{ -4 }$
+      expr: $\dfrac{-32x - 8y }{ 4 }$
       part1:
         ans1:
-          value: $2 x - 9 y$
+          value: $- 8 x - 2 y$
         ans2:
-          value: $\dfrac{2x - 9y}{-4}$
+          value: $\dfrac{-8x - 2y}{4}$
         ans3:
-          value: $-9x + 2y$
+          value: $-2x - 8y$
         ans4:
-          value: $-8x - 36y$
+          value: $-32x - 8y$
         ans5:
           value: Don't know.
 ---

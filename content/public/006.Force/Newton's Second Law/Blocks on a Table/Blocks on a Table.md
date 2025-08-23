@@ -33,8 +33,8 @@ myst:
       vars:
         title: Blocks on a Table
       m1: 6
-      m2: 19
-      m3: 13
+      m2: 17
+      m3: 15
       part1:
         ans1:
           value: Block A experiences the greatest net force.

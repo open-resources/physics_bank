@@ -45,11 +45,11 @@ myst:
     params:
       vars:
         title: Supply Crate Drop
-      mu: 0.45
-      mb: 28
-      Ma: 45
-      x: 1
-      y: 3
+      mu: 0.17
+      mb: 17
+      Ma: 20
+      x: 4
+      y: 5
 ---
 # {{ params.vars.title }}
 <img src="SupplyCrate.png" width=90%>

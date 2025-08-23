@@ -66,10 +66,10 @@ myst:
         title: Carbon Dioxide Diffusion
         unit1: $m^2/s$
         unit2: $s$
-      water: 1.8
-      air: 1.7
-      time: 6
-      const: 6
+      water: 2.1
+      air: 1.9
+      time: 4
+      const: 4
       part3:
         ans1:
           value: directly
@@ -85,23 +85,23 @@ Prepare: Write a formula for the diffusion time $t$ in terms of the distance $d_
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for using each variable:
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $d_1$  | d1  |
-| $D$  | D  |
+| $d_1$ | d1 |
+| $D$ | D |
 
 ### Answer Section
 
 ## Part 2
 
-Prepare: Use proportional reasoning to express $\frac{t\_{water}}{t\_{air}}$  in terms of $D\_{water}$ and $D\_{air}$.
+Prepare: Use proportional reasoning to express $\frac{t\_{water}}{t\_{air}}$ in terms of $D\_{water}$ and $D\_{air}$.
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for using each variable:
 
-| For  | Use   |
+| For | Use |
 |----------|-------|
-| $D\_{water}$  | D_w  |
-| $D\_{air}$  | D_a  |
+| $D\_{water}$ | D_w |
+| $D\_{air}$ | D_a |
 
 ### Answer Section
 

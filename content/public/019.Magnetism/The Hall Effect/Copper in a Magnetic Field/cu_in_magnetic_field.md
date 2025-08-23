@@ -51,10 +51,10 @@ myst:
     params:
       vars:
         title: Copper in a Magnetic Field
-      B: 3.1
-      E: 3.5
-      n: 3
-      A: 5.8
+      B: 6.8
+      E: 6.5
+      n: 7
+      A: 2.0
 ---
 # {{ params.vars.title }}
 A strip of copper is placed in a uniform magnetic field of magnitude ${{params.B}}\textrm{ T}$.

@@ -63,9 +63,9 @@ myst:
         title: Moving Crates
         units: N
       m1: 14
-      m2: 11
-      theta: 23
-      vo: 1
+      m2: 16
+      theta: 15
+      vo: 10
 ---
 # {{ params.vars.title }}
 A mover is pushing crates $\rm{A}$ and $\rm{B}$ up a hill, in order for them to slide down the hill for loading. Crate $A$ has a mass of $m_1 = {{ params.m1 }} \ \rm{kg}$ and crate $B$ has a mass of $m_2 = {{ params.m2 }} \ \rm{kg}$. The hill has an inclination of $\theta = {{ params.theta }}^\circ$, and is frictionless.

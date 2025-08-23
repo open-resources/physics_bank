@@ -53,8 +53,8 @@ myst:
     params:
       vars:
         title: Partially Filled Capacitor
-      a: '55.0'
-      b: '13.0'
+      a: '50.0'
+      b: '20.0'
       f: '4'
 ---
 # {{ params.vars.title }}

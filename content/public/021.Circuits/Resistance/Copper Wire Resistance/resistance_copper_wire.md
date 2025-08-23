@@ -44,8 +44,8 @@ myst:
       vars:
         title: Resistance Of A Copper Wire
         units: Ohms
-      d: 6.88
-      l: 9.1
+      d: 5.058
+      l: 7.0
 ---
 # {{ params.vars.title }}
 

@@ -72,7 +72,7 @@ myst:
   substitutions:
     params:
       m: 9
-      k: 249
+      k: 481
       x_0: 8
 ---
 # Spring Oscillator

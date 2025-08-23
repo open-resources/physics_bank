@@ -39,9 +39,9 @@ myst:
     params:
       vars:
         title: Gravity in the Tower
-      city: Madrid
-      h: 750.0
-      g0: 9.8024
+      city: Vienna
+      h: 620.0
+      g0: 9.8099
 ---
 # {{ params.vars.title }}
 In <b>{{params.city}}</b>, Earth's local gravity is calculated to be $g_0 = {{params.g0}} \ \rm{m/s^2}$.

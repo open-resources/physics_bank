@@ -37,9 +37,9 @@ myst:
     params:
       vars:
         title: Diameter of a Tree
-      h_t1: 5.96
-      d_t1: 38
-      h_t2: 22.6
+      h_t1: 6.68
+      d_t1: 28
+      h_t2: 26.5
 ---
 # {{ params.vars.title }}
 

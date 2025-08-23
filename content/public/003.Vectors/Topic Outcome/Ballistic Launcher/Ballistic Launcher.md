@@ -106,13 +106,13 @@ myst:
     params:
       vars:
         title: Ballistic Launcher
-      dist: 24.2
-      vmax: 4.38
-      theta_1: 33.5
-      theta_2: 46.6
+      dist: 27.5
+      vmax: 4.15
+      theta_1: 25.2
+      theta_2: 47.3
 ---
 # {{ params.vars.title }}
-A steel ball is fired from a ballistic launcher at different angles.  The launched ball has been found to travel from the edge of a table to land {{ params.dist }} $cm$ from the far end of the table when starting from the height of the table and launched at an angle of {{ params.theta_1 }}$^{\circ}$ above the horizontal.  When launched at {{ params.theta_2 }}$^{\circ}$, the ball easily clears the table to land on the floor.
+A steel ball is fired from a ballistic launcher at different angles. The launched ball has been found to travel from the edge of a table to land {{ params.dist }} $cm$ from the far end of the table when starting from the height of the table and launched at an angle of {{ params.theta_1 }}$^{\circ}$ above the horizontal. When launched at {{ params.theta_2 }}$^{\circ}$, the ball easily clears the table to land on the floor.
 
 You may assume that $t=0$ at the instant that the ball leaves the launcher.
 
@@ -140,9 +140,9 @@ You should provide a symbolic answer in terms of the following variables: $\hat{
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for using each variable.
 
-| $Variable$ | Use   |
+| $Variable$ | Use |
 |----------|-------|
-| $g$      | g     |
+| $g$ | g |
 | $\hat{x}$ | x_hat |
 | $\hat{y}$ | y_hat |
 
@@ -160,12 +160,12 @@ You should provide a symbolic answer in terms of the following variables: $t$, $
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for using each variable.
 
-| $Variable$ | Use   |
+| $Variable$ | Use |
 |----------|-------|
 | $t$ | t |
 | $v\_{max}$ | v_max |
 | $\theta$ | theta |
-| $g$      | g     |
+| $g$ | g |
 
 ### Answer Section
 
@@ -181,12 +181,12 @@ You should provide a symbolic answer in terms of the following variables: $t$, $
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for using each variable.
 
-| $Variable$ | Use   |
+| $Variable$ | Use |
 |----------|-------|
 | $t$ | t |
 | $v\_{max}$ | v_max |
 | $\theta$ | theta |
-| $g$      | g     |
+| $g$ | g |
 
 ### Answer Section
 
@@ -200,7 +200,7 @@ You should provide a symbolic answer in terms of the following variables: $v_x$ 
 
 Note that it may not be necessary to use every variable. Use the following table as a reference for using each variable.
 
-| $Variable$ | Use   |
+| $Variable$ | Use |
 |----------|-------|
 | $v\_{x}$ | v_x |
 | $v\_{y}$ | v_y |
@@ -231,7 +231,7 @@ You should provide a symbolic answer in terms of the following variables: $t$, $
 
 Note that it may not be necessary to use every variable. If a value is zero, do not include it. Use the following table as a reference for using each variable.
 
-| $Variable$ | Use  |
+| $Variable$ | Use |
 |----------|-------|
 | $t$ | t |
 | $x_0$ | x0|
@@ -252,7 +252,7 @@ You should provide a symbolic answer in terms of the following variables: $t$, $
 
 Note that it may not be necessary to use every variable. If a value is zero, do not include it. Use the following table as a reference for using each variable.
 
-| $Variable$ | Use  |
+| $Variable$ | Use |
 |----------|-------|
 | $t$ | t |
 | $x_0$ | x0|
@@ -267,7 +267,7 @@ Please enter in a symbolic answer.
 
 ## Part 10
 
-Using your results from Part 8 and/or Part 9, estimate the total length of the table.  Note that the steel ball landed about {{ params.dist }} $cm$ from the end of the table when fired at a {{ params.theta_1 }}$^{\circ}$ angle.
+Using your results from Part 8 and/or Part 9, estimate the total length of the table. Note that the steel ball landed about {{ params.dist }} $cm$ from the end of the table when fired at a {{ params.theta_1 }}$^{\circ}$ angle.
 
 ### Answer Section
 

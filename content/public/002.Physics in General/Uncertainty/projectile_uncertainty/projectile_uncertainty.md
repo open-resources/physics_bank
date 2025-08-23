@@ -53,7 +53,7 @@ myst:
     params:
       vars:
         title: Projectile Uncertainty
-        name: Ahmed
+        name: Aliyah
         units1: m/s
         units2: m
       d: 0.126

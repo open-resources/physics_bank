@@ -57,10 +57,10 @@ myst:
         units1: m/s
         units2: kg
         name: Savannah
-      i: 329
-      m: 24
-      v_1: 19
-      v_2: 29
+      i: 304
+      m: 29
+      v_1: 11
+      v_2: 33
 ---
 # {{ params.vars.title }}
 {{params.vars.name}} is an astronaut, floating in space.

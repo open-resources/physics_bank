@@ -77,12 +77,12 @@ myst:
     params:
       vars:
         title: Momentum of a Particle
-      m: 89
-      F: 22
-      v: 74
+      m: 38
+      F: 18
+      v: 17
       x: 1
-      y: 5
-      z: 2
+      y: 3
+      z: 3
 ---
 # {{ params.vars.title }}
 <img src="Momentum.png" width=800>

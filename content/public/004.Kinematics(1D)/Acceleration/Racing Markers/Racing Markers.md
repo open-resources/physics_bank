@@ -34,8 +34,8 @@ myst:
       vars:
         vehicle: sedan
         title: Racing Markers
-        v1: 58
-        v2: 29.0
+        v1: 50
+        v2: 25.0
       part1:
         ans1:
           value: Marker 1

@@ -39,8 +39,8 @@ myst:
       vars:
         title: 'Electron Beam '
         units: ' $ A / m^2 $ '
-      I: 129
-      r: 0.87
+      I: 151
+      r: 0.73
 ---
 # {{ params.vars.title }}
 

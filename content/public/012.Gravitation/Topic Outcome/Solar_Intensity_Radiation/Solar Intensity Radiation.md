@@ -43,7 +43,7 @@ myst:
 
 ## Part 1
 
-One of the moons of Jupiter, Europa, has shown evidence of water plumes coming from its surface.  Europa is $7.8\times 10^{11}$ m from the sun, while the Earth is $1.5 \times 10^{11}$ m from the sun.  Compare the intensity of solar radiation reaching the Earth $I\_{\text{Earth}}$ to the solar radiation reaching Europa $I\_{\text{Europa}}$.
+One of the moons of Jupiter, Europa, has shown evidence of water plumes coming from its surface. Europa is $7.8\times 10^{11}$ m from the sun, while the Earth is $1.5 \times 10^{11}$ m from the sun. Compare the intensity of solar radiation reaching the Earth $I\_{\text{Earth}}$ to the solar radiation reaching Europa $I\_{\text{Europa}}$.
 
 ### Answer Section
 

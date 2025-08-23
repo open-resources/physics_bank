@@ -43,10 +43,10 @@ myst:
     params:
       vars:
         title: Coil in Uniform Magnetic Field
-      N: '70'
+      N: '40'
       d: '15'
-      B: '1.00'
-      t: '0.5'
+      B: '0.25'
+      t: '1.0'
 ---
 # {{ params.vars.title }}
 

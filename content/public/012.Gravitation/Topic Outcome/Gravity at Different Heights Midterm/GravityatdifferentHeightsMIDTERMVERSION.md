@@ -49,8 +49,8 @@ myst:
       vars:
         title: Gravity at Different Heights
         units: "$\rm{m/s^2}$"
-      h: 3217
-      h2: 14564
+      h: 3552
+      h2: 10177
       r: 6371000.0
 ---
 # {{ params.vars.title }}

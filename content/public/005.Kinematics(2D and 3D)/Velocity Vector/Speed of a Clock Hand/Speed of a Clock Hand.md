@@ -62,9 +62,9 @@ myst:
       vars:
         title: Speed of a Clock Hand
         units: m/s
-      R: 0.39
-      theta: 189
-      alpha: 39
+      R: 0.44
+      theta: 84
+      alpha: 18
 ---
 # {{ params.vars.title }}
 <img src="Clock.png" width=100%>

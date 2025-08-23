@@ -61,11 +61,11 @@ myst:
     params:
       vars:
         title: Potato Density
-        name: Aliyah
+        name: Santiago
         unit1: $kg$
         unit2: $m^3$
-      m_p: 296
-      m_cp: 113
+      m_p: 273
+      m_cp: 81
       l: 3
 ---
 # {{ params.vars.title }}

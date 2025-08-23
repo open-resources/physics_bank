@@ -44,8 +44,8 @@ myst:
       vars:
         title: LED Bulb
         units: $
-      c: 0.57
-      h: 21
+      c: 0.95
+      h: 20
 ---
 # {{ params.vars.title }}
 

@@ -58,8 +58,8 @@ myst:
     params:
       vars:
         title: Ice Skater
-      W: 52
-      H: 157
+      W: 61
+      H: 159
 ---
 # {{ params.vars.title }}
 We model a {{ params.W }} kg and {{ params.H }} cm tall ice skater when spinning with arms and legs in as a solid cylinder of diameter $40$ cm.
@@ -74,7 +74,7 @@ Please enter in a numeric value in kg $\cdot$ $\rm{m^{2}}$.
 
 ## Part 2
 
-Calculate her angular momentum ($L\_{in}$) when she is spinning with an angular speed of $\omega\_{in}$ = $4$ rev/s. \[ Hint: you do not need to change rev/s to rad/s\]
+Calculate her angular momentum ($L\_{in}$) when she is spinning with an angular speed of $\omega\_{in}$ = $4$ rev/s. [ Hint: you do not need to change rev/s to rad/s]
 
 ### Answer Section
 

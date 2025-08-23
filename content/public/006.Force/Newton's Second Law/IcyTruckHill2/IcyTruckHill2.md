@@ -36,11 +36,11 @@ myst:
     params:
       vars:
         title: Truck on Icy Hill 2
-      m: 4032
-      v: 68
-      v2: 73
-      t: 17
-      theta: 23
+      m: 3217
+      v: 66
+      v2: 82
+      t: 4
+      theta: 27
 ---
 # {{ params.vars.title }}
 As a car moves down an icy hill, a car changes in velocity from $v = {{ params.v }} \ \rm{km/h}$ to $v_1 = {{ params.v2 }} \ \rm{km/h}$ over the course of $t = {{ params.t }} \ \rm{s}$.

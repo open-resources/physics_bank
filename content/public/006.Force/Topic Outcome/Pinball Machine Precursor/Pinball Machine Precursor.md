@@ -60,10 +60,10 @@ myst:
     params:
       vars:
         title: Pinball Machine Precursor
-      l_u: 7.34
-      l_c: 3.34
-      rise: 9.11
-      radius: 25
+      l_u: 7.39
+      l_c: 3.19
+      rise: 9.16
+      radius: 22
       m_b: 10.0
       part2:
         ans1:
@@ -90,7 +90,7 @@ myst:
           value: The normal force will be half of its initial value.
 ---
 # {{ params.vars.title }}
-A precursor of pinball machines involved manually pushing down on a ball suspended atop of a spring in a track that allows the ball only to travel up a ramp as shown in the figure.  The unstretched spring has a length of $l_u=$ {{ params.l_u }} $cm$, over the 1.00 $m$ length of the board the track rises by $r=$ {{ params.rise }} $cm$, and the top of the board is circular, with a radius of {{ params.radius }}.0 $cm$.
+A precursor of pinball machines involved manually pushing down on a ball suspended atop of a spring in a track that allows the ball only to travel up a ramp as shown in the figure. The unstretched spring has a length of $l_u=$ {{ params.l_u }} $cm$, over the 1.00 $m$ length of the board the track rises by $r=$ {{ params.rise }} $cm$, and the top of the board is circular, with a radius of {{ params.radius }}.0 $cm$.
 
 Treat the ball as a particle of mass $m$ = {{ params.m_b }} $g$, (treating it as a sphere would give a small additional term to the kinetic energy) and ignore friction.
 
@@ -106,7 +106,7 @@ Please enter in a numeric value in $m/s$.
 
 ## Part 2
 
-Can the normal force due to the walls of the track ever do work on the ball?  Explain your answer.
+Can the normal force due to the walls of the track ever do work on the ball? Explain your answer.
 
 ### Answer Section
 

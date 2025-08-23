@@ -46,8 +46,8 @@ myst:
       vars:
         title: Distance travelled
         units: m/s
-      a: 0.23
-      r: 72
+      a: 1.34
+      r: 183
 ---
 # {{ params.vars.title }}
 A car is undergoing public safety tests. It is being tested on a circular track with radius $r = {{ params.r }} \ \rm{m}$.

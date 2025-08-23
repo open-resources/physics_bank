@@ -40,8 +40,8 @@ myst:
       vars:
         title: Dice on the Mirror
         units: ^{\circ}
-      a: 5
-      theta: 9
+      a: 7
+      theta: 8
 ---
 # {{ params.vars.title }}
 

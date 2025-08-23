@@ -47,10 +47,10 @@ myst:
       vars:
         title: Collision of Collars
       W1: 2
-      W2: 8
-      v1: 20
-      v2: 4
-      e: 0.73
+      W2: 7
+      v1: 27
+      v2: 1
+      e: 0.65
 ---
 # {{ params.vars.title }}
 <img src="Collision of Collars.png" width=400>

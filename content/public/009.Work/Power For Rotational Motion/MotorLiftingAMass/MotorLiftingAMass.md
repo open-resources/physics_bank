@@ -47,10 +47,10 @@ myst:
       vars:
         title: Motor Lifting a Mass
       e: 0.7
-      r: 0.17
-      m1: 13
-      m2: 7
-      RPM: 25
+      r: 0.19
+      m1: 10
+      m2: 5
+      RPM: 48
 ---
 # {{ params.vars.title }}
 A motor with an efficiency of ${{params.e}}$ is rotating a ${{params.r}} \ \rm{m}$ radius wheel at $\dot \theta = {{params.RPM}} \ \rm{RPM}$ to lift a ${{params.m1}} \ \rm{kg}$ mass.

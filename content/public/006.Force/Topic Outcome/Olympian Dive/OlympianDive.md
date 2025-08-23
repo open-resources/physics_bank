@@ -52,11 +52,11 @@ myst:
       vars:
         title: Olympic Diving
         units: m
-      W: 170
-      d: 1.1
-      k: 0.7
-      theta: 85
-      h: 7
+      W: 152
+      d: 0.5
+      k: 1.7
+      theta: 78
+      h: 16
 ---
 # {{ params.vars.title }}
 <img src="OlympianDive.png" width=100%>

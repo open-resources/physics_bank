@@ -35,30 +35,30 @@ myst:
       vars:
         units: m
         title: Destructive Interference
-      f: 80
+      f: 77
       part1:
         ans1:
-          value: '0.8'
+          value: '0.77'
           feedback: This is a random number, you probably selected this choice by
             mistake!Try Again
         ans2:
-          value: '1.031'
+          value: '1.071'
           feedback: Great! You got it.
         ans3:
-          value: '2.063'
+          value: '2.143'
           feedback: Hmm, It seems you missed a factor of multiplication; Recall that
             this is a reflected wave!
         ans4:
-          value: '20.0'
+          value: '19.25'
           feedback: Check your calculations!
         ans5:
-          value: '4.125'
+          value: '4.286'
           feedback: Check your calculations again; Apply suitable formulas!
 ---
 # {{ params.vars.title }}
 <img src="reflections.png" width="400">
 
-In a factory a loud sound of frequency {{ params.f}} Hz and speed 330.0 m/s is bothering workers.  Sound engineers suggest the installation of a second wall a distance $L$ in front of a large flat wall in the room as shown by the dashed line in the figure. If built, some sound waves will reflect off the second wall, while others reflect off the large flat wall as shown by the arrows in the figure.
+In a factory a loud sound of frequency {{ params.f}} Hz and speed 330.0 m/s is bothering workers. Sound engineers suggest the installation of a second wall a distance $L$ in front of a large flat wall in the room as shown by the dashed line in the figure. If built, some sound waves will reflect off the second wall, while others reflect off the large flat wall as shown by the arrows in the figure.
 
 ## Part 1
 

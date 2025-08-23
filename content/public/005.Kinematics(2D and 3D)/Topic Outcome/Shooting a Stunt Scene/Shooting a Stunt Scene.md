@@ -54,10 +54,10 @@ myst:
     params:
       vars:
         title: Shooting a Stunt Scene
-      a: 5.8
-      b: 7.4
-      h: 9.3
-      v0: 50.0
+      a: 5.7
+      b: 7.6
+      h: 7.8
+      v0: 120.0
 ---
 # {{ params.vars.title }}
 <img src="Movie Set.png" height = 800> 

@@ -37,9 +37,9 @@ myst:
     params:
       vars:
         units: rad/s
-        name: Lorenzo
+        name: Ximena
         title: Wheel of Fortune
-      t: 1.9
+      t: 2.3
       w_i: ${\pi \over 2} {rad\over s}$
 ---
 # {{ params.vars.title }}
